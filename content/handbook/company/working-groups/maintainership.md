@@ -62,10 +62,8 @@ The maintainership process is described [on this page](/handbook/engineering/wor
 ### Data and dashboards
 
 - [Reviewer/Maintainer availability and capacity](/handbook/engineering/workflow/code-review/#maintainerreviewer-availability) - Shows the maintainer/reviewer availability rate over time and incoming/forecasted review requests
-- [Maintainer WG dashboard](https://app.periscopedata.com/app/gitlab/1020829/Maintainer-WG) - A sandbox dashboard for metrics related to the working group
 - [Maintainers and Trainees](/handbook/engineering/development/performance-indicators/#maintainers-and-trainees)
 - [Maintainership Demand](/handbook/engineering/workflow/code-review/#maintainer-demand)
-- [Maintainer Approval Velocity](https://app.periscopedata.com/app/gitlab/1036023/Maintainer-Approval-Velocity)
 
 ### Roles and Responsibilities
 

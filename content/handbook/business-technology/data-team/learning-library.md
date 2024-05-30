@@ -80,7 +80,7 @@ description: "GitLab Data Team Library"
 - [MBA Mondays](https://avc.com/archive/#mba_mondays_archive)
 - [Mode Analytics Blog](https://blog.modeanalytics.com/)
 - [Multithreaded](https://multithreaded.stitchfix.com/)
-- [Sisense Data Blog](https://www.periscopedata.com/blog)
+- [Tableau Data Blog](https://www.tableau.com/blog)
 - [Silota](http://www.silota.com/docs/recipes/)
 - [Wes McKinney Blog](http://wesmckinney.com/archives.html)
 - [Data Ops](https://medium.com/data-ops)

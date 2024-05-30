@@ -11,10 +11,8 @@ Sales Commissions is a part of Field Operations, reporting into Sales Operations
 
 Quota setting and Compensation Design are led by the Go-To-Market Planning & Operations team. This team sits under Sales Strategy & Analytics, also a part of Field Operations, and work hand-in-hand with the Sales Commissions team. Our goal is to engender growth for the CRO org by setting ambitious but achievable quotas and motivating our team members to act in the best interests of the company and of our customers.
 
-
 ## **Meet The Team**
 
-- Lauren Whelihan, VP, Revenue Accounting
 - Lisa Puzar, Sr. Manager, Sales Commissions
 - Swetha Kashyap, Manager, Sales Commissions
 - Sophie Hamann, Sr. Sales Commissions Analyst

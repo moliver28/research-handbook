@@ -65,7 +65,7 @@ The Intermediate Fullstack Engineer is a [grade](/handbook/total-rewards/compens
 
 ### Growth
 
-The [Growth sub-department](/handbook/engineering/development/growth/) analyzes the entire customer journey from the acquisition of a customer, to the flow across multiple GitLab features, and even reactivation of lost users. They work in small groups with a product manager, product designer, and a data analyst to scale GitLab usage by connecting users to the existing value that GitLab already delivers.
+The [Growth sub-department](/handbook/marketing/growth/engineering/) analyzes the entire customer journey from the acquisition of a customer, to the flow across multiple GitLab features, and even reactivation of lost users. They work in small groups with a product manager, product designer, and a data analyst to scale GitLab usage by connecting users to the existing value that GitLab already delivers.
 
 #### Growth Requirements
 

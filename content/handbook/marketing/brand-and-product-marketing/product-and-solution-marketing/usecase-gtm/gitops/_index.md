@@ -1,21 +1,14 @@
 ---
-
 title: "Auxiliary Solution Resource: GitOps"
 ---
 
-
-
-
-
-
-
 #### Who to contact
 
-| Product Marketing | Technical Marketing |
+| Product Marketing | Developer Advocate |
 | ---- | --- |
 | Daniel Hom (@danielhom) | @csaavedra1 |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## The need for GitOps
 
@@ -23,7 +16,7 @@ Modern applications are developed with rapid iteration and run at highly dynamic
 
 ## What is GitOps?
 
-```
+```text
 GitOps == IaC + MRs + CI/CD
 ```
 
@@ -31,10 +24,7 @@ GitOps == IaC + MRs + CI/CD
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/JtZfnrwOOAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-[GitOps](/topics/gitops/) involves managing your IT infrastructure using practices well-known in software development such as version control, code review, and CI/CD pipelines. For example, infrastructure teams that practice GitOps use configuration files stored as code. Similar to how application source code generates the same application binaries every time it's built, GitOps configuration generates the same infrastructure environment every time it is deployed.
-
-
+[GitOps](https://about.gitlab.com/topics/gitops/) involves managing your IT infrastructure using practices well-known in software development such as version control, code review, and CI/CD pipelines. For example, infrastructure teams that practice GitOps use configuration files stored as code. Similar to how application source code generates the same application binaries every time it's built, GitOps configuration generates the same infrastructure environment every time it is deployed.
 
 - *IaC* - GitOps uses a Git repository as the single source of truth for infrastructure definition. **Infrastructure as Code (IaC)** is the practice of keeping all infrastructure configuration stored as code. The actual desired state may or may not be not stored as code (e.g., number of replicas, pods).
 - *MRs* - GitOps uses **Merge Requests (MRs)** as the change mechanism for all infrastructure updates. The MR is where teams can collaborate via reviews and comments and where formal approvals take place. Merge commits to your master(or trunk) branch serve as a change log for auditing and troubleshooting.
@@ -44,7 +34,7 @@ As with any emerging technology term, "GitOps" isn't strictly defined the same w
 
 While many tools and methodologies promise faster deployment and seamless management between code and infrastructure, GitOps differs by focusing on a developer-centric experience. Infrastructure management through GitOps happens in the same version control system as the application development, enabling teams to collaborate more in a central location while benefiting from all the built-in features of Git.
 
-GitOps is a prescriptive workflow for using [Infrastructure as Code](/topics/gitops/infrastructure-as-code/). GitOps with GitLab helps you manage physical, virtual and cloud native infrastructures (including Kubernetes and serverless technologies) using tight integration with industry-leading infrastructure automation tools like Terraform, AWS Cloud Formation, Ansible, Chef, Puppet, and the like.
+GitOps is a prescriptive workflow for using [Infrastructure as Code](https://about.gitlab.com/topics/gitops/infrastructure-as-code/). GitOps with GitLab helps you manage physical, virtual and cloud native infrastructures (including Kubernetes and serverless technologies) using tight integration with industry-leading infrastructure automation tools like Terraform, AWS Cloud Formation, Ansible, Chef, Puppet, and the like.
 
 ### Benefits of GitOps
 
@@ -63,6 +53,7 @@ As with any emerging technologies, there are different approaches to GitOps, eac
 **Push or Agentless GitOps**
 In this approach, your CI/CD tool pushes the changes to your environment. This approach is consistent with the approach used for application deployment.
 *Pro*
+
 - Ease of use. Well-known CI/CD - build, test, & deploy all use the same tech
 - Deployment targets not limited to cloud native / Kubernetes only - can deploy to physical, virtual container - whether onpremise or cloud etc.
 *Con*
@@ -71,12 +62,12 @@ In this approach, your CI/CD tool pushes the changes to your environment. This a
 **Pull or Agent Bsed GitOps**
 In this approach, an agent is installed in your cluster to pull changes whenever there is a drift from the desired configuration.
 *Pro*
+
 - Secure infrastructure - no need to open your firewall or grant admin access externally
 *Con*
 - Agent needs to be installed in every cluster
 - Limited to k8s-only
 - Uses different technology than application CI/CD
-
 
 ## Personas
 
@@ -86,7 +77,6 @@ Infrastructure as Code requires understanding of the platform and the desired st
 
 - [Sam, the SRE](/handbook/product/personas/)
   Sam works embedded into a service team with feature developers. They works on keeping the service up, deploying it, and managing the infrastructure needs of that service. They collaborate with the Platform team to systamatize best practices.
-
 
 - [Devon, the DevOps Engineer](/handbook/product/personas/)
   Devon is often the Ops interface for the development team. He provides support for infrastructure, environments and integrations. Devon is fairly conversant with code and would prefer administering infrastructure via code rather than a multitude of different tools and context switches.
@@ -100,6 +90,7 @@ Infrastructure as Code requires understanding of the platform and the desired st
 ### Buyer Personas
 
 Buyers of Infrastructure as Code are usually leaders who lead infrastructure / automation initiatives. Typical buyer personas are:
+
 - **CIO / Vice President of IT** - experience in planning, design and execution of digital transformation programs, implementing new operating models. Typically leads both engineering and operations teams
 - **Vice President of IT Infrastructure** (also referred to as IT Operations in some organizations) - experience in planning, design and execution of IT infrastructure services - including deploying and managing cloud services, system management and Service Desk. Frequently has the agenda of reducing IT costs for the organization.
 - **Vice President of Platform Engineering** - Managing a shared platform for development teams is one of the main agendas of the Platform Engineering team. The platform team has expertise in new technologies like Kubernetes. Key KPIs of the platform engineering team are Automation, Efficiency and Self Service.
@@ -107,7 +98,6 @@ Buyers of Infrastructure as Code are usually leaders who lead infrastructure / a
 ## Analyst Coverage
 
 List key analyst coverage of this usecase
-
 
 ## Market Requirements
 
@@ -141,6 +131,7 @@ Below are the [market requirements](/handbook/marketing/brand-and-product-market
      - Display merge request status for builds in CI system
      - Terraform plan output
      - Visibility into security scans and build stats
+
    - Value: Quality of the code changes being made increases which leads to
         - greater accuracy of fulfilled requests
         - greater infrastructure stability
@@ -163,7 +154,6 @@ Below are the [market requirements](/handbook/marketing/brand-and-product-market
 
 - Description: Ability to roll back and roll forward your environments when their state is defined via text stored under Git version control.
 
-
 ### Test Automation
 
    - Description: Run and manage automated tests and validate changes before they're merged to production. This includes everything from basic to more in-depth tests and extends test automation into areas of functional, system, performance testing, and more. Ensure software is consistently tested to meet both technical and business requirements without manual intervention, enabling developers to get rapid feedback if their code changes introduce potential defects or vulnerabilities.
@@ -182,8 +172,7 @@ Increase security by testing for potential vulnerabilities, before going to prod
       Centralize management to lower adminstration.
       Increase consistency by using the templates to adhere to best practices and required testing.
 
-
-# The GitLab Solution
+## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
 
@@ -197,8 +186,6 @@ A collection of short demonstrations that show GitLab's GitOps capabilities.
 | Test Automation | Include usability, performance testing as a part of the pipeline and roll back to a successful deployment in case of issues |   [Release versioning](https://docs.gitlab.com/ee/user/project/releases/), support [advanced deployment strategies](https://about.gitlab.com/blog/2020/11/23/cd-unified-monitor-deploy/) such as canary, incremental roll out, blue green deployments, Feature Flags, Review Apps, [Performance testing & validation](https://about.gitlab.com/blog/2020/02/18/how-were-building-up-performance-testing-of-gitlab/) | |
 | Pipeline configuration Management | GitLab Pipeline Authoring allows users to create pipelines with minimal configuration, if required, and also create and visualize complex pipelines through Directed Acyclic Graphs. This helps infrastructure engineers minimize manual work and create repeatable processes to maximize productivity | [Pipeline configuration](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html), [Types of Pipeline congigurations](https://docs.gitlab.com/ee/ci/pipelines/#types-of-pipelines), [Directed Acyclic Graphs](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/) | |
 
-
-
 ## Top 3 Differentiators
 
 | Differentiator | Value | Proof Point  |
@@ -211,9 +198,9 @@ A collection of short demonstrations that show GitLab's GitOps capabilities.
 
 The message house for the use case provides a structure to describe and discuss the value and differentiators for the use case.
 
-Current messaging can be found in the [market viewpoint](#the-market-viewpoint) section for this page and on the topic page which answers [What is GitOps?](/topics/gitops/) along with some additional notes here:
+Current messaging can be found in the [market viewpoint](#the-market-viewpoint) section for this page and on the topic page which answers [What is GitOps?](https://about.gitlab.com/topics/gitops/) along with some additional notes here:
 
-"Infrastructure Platform" is a great phrase to use in connection with GitOps and GitLab. We need to be careful with its use so we don't portray ourselves as something we aren't. In the past we've been called out for claiming to have capabilities similar to Chef, Ansible, and Terraform, when we don't house the capabilities within GitLab, but instead seek to integrate with those tools. If we keep it clear that we provide infra platform capabilities via integrations then we have some strong messaging that connects with I&O buyers. See an [example use on the topic page](/topics/gitops/#why-gitlab)
+"Infrastructure Platform" is a great phrase to use in connection with GitOps and GitLab. We need to be careful with its use so we don't portray ourselves as something we aren't. In the past we've been called out for claiming to have capabilities similar to Chef, Ansible, and Terraform, when we don't house the capabilities within GitLab, but instead seek to integrate with those tools. If we keep it clear that we provide infra platform capabilities via integrations then we have some strong messaging that connects with I&O buyers. See an [example use on the topic page](https://about.gitlab.com/topics/gitops/#why-gitlab)
 
 ### Discovery Questions
 
@@ -310,23 +297,28 @@ This table shows the recommended use cases to adopt, links to product documentat
 #### Gartner Peer Insights
 
 "Very efficient tool for managing releases and versions. We have a development and deployment process, and at all stages [GitLab] is involved. In addition to storing development code, we also store all packaging and deploy scripts in git"
+>
 > - Full-stack Developer, [Gartner Peer Insights Review](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab/product/gitlab/review/view/1112407)
 
 "Finally, the most amazing thing about GitLab is how well integrated the GitLab ecosystem is. It covers almost every step of development nicely, from the VCS, to CI, and deployment."
+>
 > - Software Engineer, [Gartner Peer Insights Review](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab/product/gitlab/review/view/1038051)
 
 "GitLab is the most preferred service in the world and its user community is very wide. We can authorize project or branch based user authorization on GitLab. In addition, continuous deployment integrations can be done very quickly. In addition, you can create merge requests within the constraints you want and easily manage them. It is very easy to prevent conflicts. A service that must be used for software development teams."
+>
 >- Software Development Lead, [Gartner Peer Insights Review](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab/product/gitlab/review/view/1324677)
 
 ### Case Studies
 
 -**[Northwestern Mutual](https://www.youtube.com/watch?v=yw7N82mXmZU)**
+
 - **Problem**  Manual processes, provisioning of resources from On-Prem Datacenters created inefficient practices.
 - **Solution** GitLab Premium (SCM,CI) and Terraform
 - **Result** Drastically improved lead time to production, Environments can be created in under an hour. Everything is done as code and there are no risks from patching.
 - **Sales Segment:** Enterprise
 
 -**[Wag Labs](https://about.gitlab.com/blog/2019/01/16/wag-labs-blog-post/)**
+
 - **Problem** Lack of control complex CI toolchain.
 - **Solution** GitLab Ultimate (SCM,CI,CD) and Terraform
 - **Result** It's so easy to deploy something and roll it back if there's an issue. It's taken the stress and the fear out of deploying into production.
@@ -343,16 +335,19 @@ GitLab is not a replacement for existing Infrastructure Automation tools, but ra
 ## Resources
 
 ### Presentations
+
 - GitOps Industry Talk - What is GitOps? Why is it important? How can you get started? - [slide deck](https://docs.google.com/presentation/d/18cuZjvkMT8uv241dqJZMdaWOyvZiwBOzFvRZ4HaP1iE/edit), [video](https://www.youtube.com/watch?v=JtZfnrwOOAw)
 
 ### WebPage, Whitepapers, infographics, blogs
-- [What is GitOps?](/topics/gitops/)
+
+- [What is GitOps?](https://about.gitlab.com/topics/gitops/)
 - [Infrastructure as Code using GitLab & Ansible](https://about.gitlab.com/blog/2019/07/01/using-ansible-and-gitlab-as-infrastructure-for-code/)
-- [Part 1 of 3: Why collaboration technology is critical for GitOps](/topics/gitops/gitops-gitlab-collaboration/)
-- [Part 2 of 3: How infrastructure teams use GitLab and Terraform for GitOps](/topics/gitops/gitlab-enables-infrastructure-as-code/)
-- [Part 3 of 3: How to deploy to any cloud using GitLab for GitOps](/topics/gitops/gitops-multicloud-deployments-gitlab/)
+- [Part 1 of 3: Why collaboration technology is critical for GitOps](https://about.gitlab.com/topics/gitops/gitops-gitlab-collaboration/)
+- [Part 2 of 3: How infrastructure teams use GitLab and Terraform for GitOps](https://about.gitlab.com/topics/gitops/gitlab-enables-infrastructure-as-code/)
+- [Part 3 of 3: How to deploy to any cloud using GitLab for GitOps](https://about.gitlab.com/topics/gitops/gitops-multicloud-deployments-gitlab/)
 
 ### Videos (including basic demo videos)
+
 - [What is GitOps? Why is it important? How can you get started?](https://www.youtube.com/watch?v=JtZfnrwOOAw)
 - [What is Infrastructure as Code](https://www.youtube.com/watch?v=zWw2wuiKd5o)
 - [Infrastructure as Code using GitLab & Ansible](https://youtu.be/M-SgRTKSeOg)
@@ -363,6 +358,7 @@ GitLab is not a replacement for existing Infrastructure Automation tools, but ra
 - [Using GitLab for GitOps to break down silos and encourage collaboration](https://www.youtube.com/watch?v=5ykRuaZvY-E)
 
 ### Clickthrough & Live Demos
+
 - [GitOps Click Through Demo](https://drive.google.com/open?id=1UT32lLvXtwAslkK7o8asbko3a231WKrjmlcM0z9coPw)
 
 ## Buyer's Journey
@@ -371,6 +367,6 @@ Inventory of key pages in the buyer's Journey
 
 | **Awareness** <br> learning about the problem  |  **Consideration** <br> looking for solution ideas  |  **Decision** <br> is this the right solution|
 | ------ | -------- |-------- |
-| [topic page?]()  | [solution page]() | [proof points]() |
-| [landing pages?]() | ?comparisons?  | [comparisons]() |
-| -etc?            |   |  - [product page x]() <br>  - [product page y]() <br>  - [product page z]() |
+| topic page?  | solution page | proof points |
+| landing pages? | ?comparisons?  | comparisons |
+| -etc?            |   |  - product page x <br>  - product page y <br>  - product page z |

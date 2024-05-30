@@ -19,6 +19,7 @@ GitLab has adopted and operationalized Force Management's Command of the Message
 ## Customer Value Drivers
 
 Value drivers describe what organizations are likely proactively looking for or needing and are top-of-mind customer topics that exist even if GitLab doesn’t. Value drivers may cause buyers to re-allocate discretionary funds, and they support a value-based customer conversation. Organizations adopt and implement GitLab for the following value drivers:
+
 1. **Increase Operational Efficiencies** - *Simplify the software development toolchain to reduce total cost of ownership*
 1. **Deliver Better Products Faster** - *Accelerate the software delivery process to meet business objectives*
 1. **Reduce Security and Compliance Risk** - *Simplify processes to comply with internal processes, controls and industry regulations without compromising speed*

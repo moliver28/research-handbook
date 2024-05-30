@@ -19,7 +19,7 @@ The page below is intended to align GitLab sales and marketing efforts with a si
 
 ## Who to contact
 
-| Product Marketing | Technical Marketing |
+| Product Marketing | Developer Advocate |
 | ---- | --- |
 | Aathira Nair (@anair5)  | [William Galindez Arias](https://gitlab.com/warias) |
 
@@ -31,7 +31,7 @@ From a GitLab capabilities point of view - it includes DevOps essentials like SC
 
 Source Code Management is one part of the Software Delivery Automation solution. See how Source Code Management fits into the overall [Software Delivery Automation](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/) solution.
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Source Code Management (SCM)
 
@@ -53,7 +53,7 @@ Source Code Management is more than simply tracking changes, versions, and branc
 In general, [version control](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) is required because software is constantly changing. Regardless of the stage of development, there will be change to deal with.
 
 > No matter where we are in the system life cycle, the system will change, and the desire to change it will persist throughout the life cycle.
-
+>
 > E.H. Bersoff, 1980.
 
 Companies that excel at source code management create high quality code while integrating it at high frequency.
@@ -126,7 +126,6 @@ Source Code Management purchasing typically do not require executive involvement
 
 Research relevant to this use case can be found in the [Analyst Reports - Use Cases](https://docs.google.com/spreadsheets/d/1vXpniM08Ql0v0yDd22pcNmXpDrA-NInJOwj25PRuHXA/edit#gid=2123394945) spreadsheet.
 
-
 ## Market Requirements
 
 <figure class="video_container">
@@ -143,19 +142,17 @@ Market Requirements is a collection of capabilites we recognize are present in t
 | **Foster Collaboration** | The solution is designed to enable and foster collaboration among team members. The collaboration system includes manual gates and approvals as well as automated workflows. | Create fast new branches of the project, add new files/assets, collaborate on proposed changes, review comments, suggest changes, webIDE, suggestion approvals, conflict resolution, merge, diffing, hand-offs, Design management and operations, workflow automation, Wiki, snippets, version controlled snippets, Automatically update or close related issue(s) when a merge request is merged, Configurable issue closing pattern, display merge request status for builds in CI system, visibility into security scans and build stats. | Code quality increase and improved release velocity through team review and validation. |
 | **Secure Development** | The solution allows for security practices to be enabled at the creation phases of the project | Dependency scanning, SAST, License compliance scanning, DAST, Container scanning | Increasing resilience to external attacks, internal threats and ability to resume activity promptly |
 
-
-# The GitLab Solution
+## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
 
 | Market Requirements | How GitLab Delivers | GitLab **Stage**/Category | Demos |
 | ------ | ------ | ------ | ------ |
-| **Protect and secure assets** | GitLab has built in access control: [LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/), [Active Directory](https://docs.gitlab.com/ee/administration/auth/ldap/), [SAML](https://docs.gitlab.com/ee/user/group/saml_sso/), [SSO](https://docs.gitlab.com/ee/administration/auth/). In-app access controls include [user roles](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions) with different levels of access and permissions. The IP hosted in repos can be stored and accessed through [repos](https://docs.gitlab.com/ee/user/project/repository/), [projects](https://docs.gitlab.com/ee/user/project/), and [groups](https://docs.gitlab.com/ee/user/group/). There are mechanisms to restrict and track changes to the IP like [protected branches](https://docs.gitlab.com/ee/user/project/protected_branches.html), [protected tags](https://docs.gitlab.com/ee/user/project/protected_tags.html), [push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), and [Codeowners](https://docs.gitlab.com/ee/user/project/codeowners/). Finally, admins are able to control events and stop non compliant ones through [audit events](https://docs.gitlab.com/ee/administration/audit_events.html), [block users](https://docs.gitlab.com/ee/administration/moderate_users.html#blocking-and-unblocking-users), [credentials inventory](https://docs.gitlab.com/ee/administration/credentials_inventory.html), [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) and [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/). | [**Create stage:**](/stages-devops-lifecycle/create/) [SCM](/stages-devops-lifecycle/source-code-management/), [Code Review](/stages-devops-lifecycle/create/)<br> [**Manage stage:**](/stages-devops-lifecycle/) [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html)<br> [**Release stage:**](/stages-devops-lifecycle/release/) [Release evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence) | [![Control Changes to Product Development Assets](../../images/youtube_social_icon_red-32x23.png) Control Changes to Product Development Assets](https://youtu.be/l6K3Xn2MPJw)<br> [![Manage, Track and Maintain Access](../../images/youtube_social_icon_red-32x23.png) Manage, Track and Maintain Access](https://youtu.be/nRxCz4vMv5Q)<br> [Blog post: How GitLab protects your IP](https://about.gitlab.com/blog/2020/08/07/how-gitlab-protects-your-ip/) |
-| **Enterprise Ready** | GitLab provides capabilities to serve huge, geographically distributed teams organized into groups, subgroups, and projects with high availability requirements. GitLab SCM supports [Geo](https://docs.gitlab.com/ee/administration/geo/index.html replicates GitLab instances to create a [Disaster Recovery system](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) for failover scenarios. [Gitaly Clusters](https://docs.gitlab.com/ee/administration/gitaly/praefect.html) makes Git highly available for every team, hosted in gitlab.com or [on prem](https://docs.gitlab.com/charts/advanced/external-gitaly/external-omnibus-gitaly.html) | [**Manage stage:**](/stages-devops-lifecycle/) [Subgroups](https://docs.gitlab.com/ee/user/group/subgroups/) [Code Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html) <br>[**Create stage:**](/stages-devops-lifecycle/create/) [Source Code Management](/stages-devops-lifecycle/source-code-management/) which includes- [Gitaly](https://about.gitlab.com/direction/gitaly/)<br> [**Enablement stage:**](https://about.gitlab.com/direction/enablement/) [Geo](/solutions/geo/)<br> [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/)<br> [Reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) | [![Enterprise ready](../../images/youtube_social_icon_red-32x23.png) Enterprise ready](https://youtu.be/gULEzPybJu8?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)<br> [![Support different system architectures and designs](../../images/youtube_social_icon_red-32x23.png) Support different system architectures and designs](https://youtu.be/t-xUDB41nW0?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)<br> [![Enterprise Ready - Project Templates](../../images/youtube_social_icon_red-32x23.png) Enterprise Ready - Project Templates](https://youtu.be/kNkUf1cScSc?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
-| **Support numerous assets** |  Repositories can host numerous types of assets such as Source Code, data narratives in [Jupyter notebooks](https://docs.gitlab.com/ee/user/project/repository/jupyter_notebooks/) for annotated, data-driven projects, and rendered markup like GitLab flavoured Markdown, Markdown, RDoc, AsciiDoc, and Org in [wikis](https://docs.gitlab.com/ee/user/project/wiki/). GitLab also hosts [graphic assets](https://docs.gitlab.com/ee/user/project/issues/design_management.html) and support the handover communication in issues | [**Create stage:**](/stages-devops-lifecycle/create/) [SCM](/stages-devops-lifecycle/source-code-management/), [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html), [Wiki](https://docs.gitlab.com/ee/user/project/wiki/)<br> [Git LFS](https://docs.gitlab.com/ee/topics/git/lfs/)| [![Support numerous assets](../../images/youtube_social_icon_red-32x23.png) Support numerous assets](https://youtu.be/f9zmxOfP7AQ?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
-| **Foster Collaboration** |  GitLab is a platform to collaborate on proposals. Change proposals happen in any project through [merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/reviewing_and_managing_merge_requests.html). Collaboration then can happen in multiple places like in [threaded conversations](https://docs.gitlab.com/ee/user/discussions/) for clarity, or in [merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/) where changes can be approved or rejected. To understand the proposed changes a detailed vision of the changes is found in [resolving conflicts](https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html), code reviewers can [comment on specific code line](https://docs.gitlab.com/ee/development/code_comments.html), [suggest changes](https://docs.gitlab.com/ee/user/discussions/#suggest-changes) applicable in one click, or propose to use [code snippets](https://docs.gitlab.com/ee/user/snippets.html). All these actions connect the different users through plenty of [in-app](https://docs.gitlab.com/ee/operations/incident_management/index.html), chat ([Slack](https://docs.gitlab.com/ee/user/project/integrations/slack.html) or [Discord](https://docs.gitlab.com/12.10/ee/user/project/integrations/discord_notifications.html)) or [email notifications](https://docs.gitlab.com/ee/user/profile/notifications.html) | [**Create stage:**](/stages-devops-lifecycle/create/) [SCM](/stages-devops-lifecycle/source-code-management/), [Code Review](/stages-devops-lifecycle/create/), [WebIDE](https://docs.gitlab.com/ee/user/project/web_ide/index.html), [Single file web editor](https://docs.gitlab.com/ee/user/project/repository/web_editor.html), [Live Preview](https://docs.gitlab.com/ee/user/project/web_ide/index.html#live-preview), [Snippets](https://docs.gitlab.com/ee/user/snippets.html)<br> [**Manage stage:**](/stages-devops-lifecycle/) [Code Review Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html), [Insights](https://docs.gitlab.com/ee/user/group/insights/)<br> [**Plan stage:**](/stages-devops-lifecycle/plan/) [Issue tracking](https://docs.gitlab.com/ee/user/project/issues/)<br> [**Verify stage:**](/stages-devops-lifecycle/verify/) [Code Quality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html) | [![Foster Collaboration](../../images/youtube_social_icon_red-32x23.png) Foster Collaboration](https://youtu.be/OFNUjvgm2_4?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
-| **Secure Development** | GitLab incorporates several security capabilities to make development more secure even before build happens. They can [detect secrets](https://docs.gitlab.com/ee/user/application_security/secret_detection/) and [license compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) issues, find vulnerabilities [in source code](https://docs.gitlab.com/ee/user/application_security/sast/) or in its [dependencies](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) before merging, find vulnerabilities in [running apps](https://docs.gitlab.com/ee/user/application_security/dast/) before merging too, and [in containers](https://docs.gitlab.com/ee/user/application_security/container_scanning/)  too. These capabilities can even reproduce what thousand of users input in seconds to detect faults and other issues with [Fuzz testing](https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/)  | [**Secure stage:**](/stages-devops-lifecycle/secure/) [SAST](https://docs.gitlab.com/ee/user/application_security/sast/), [DAST](https://docs.gitlab.com/ee/user/application_security/dast/), [Fuzz Testing](https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/), [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html), [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/), [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) | [![Secure Development](../../images/youtube_social_icon_red-32x23.png) Secure Development](https://youtu.be/T0JRxw8_kY8?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) Also see [DevSecOps resources](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#how-gitlab-meets-the-market-requirements) |
-
+| **Protect and secure assets** | GitLab has built in access control: [LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/), [Active Directory](https://docs.gitlab.com/ee/administration/auth/ldap/), [SAML](https://docs.gitlab.com/ee/user/group/saml_sso/), [SSO](https://docs.gitlab.com/ee/administration/auth/). In-app access controls include [user roles](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions) with different levels of access and permissions. The IP hosted in repos can be stored and accessed through [repos](https://docs.gitlab.com/ee/user/project/repository/), [projects](https://docs.gitlab.com/ee/user/project/), and [groups](https://docs.gitlab.com/ee/user/group/). There are mechanisms to restrict and track changes to the IP like [protected branches](https://docs.gitlab.com/ee/user/project/protected_branches.html), [protected tags](https://docs.gitlab.com/ee/user/project/protected_tags.html), [push rules](https://docs.gitlab.com/ee/push_rules/push_rules.html), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), and [Codeowners](https://docs.gitlab.com/ee/user/project/codeowners/). Finally, admins are able to control events and stop non compliant ones through [audit events](https://docs.gitlab.com/ee/administration/audit_events.html), [block users](https://docs.gitlab.com/ee/administration/moderate_users.html#blocking-and-unblocking-users), [credentials inventory](https://docs.gitlab.com/ee/administration/credentials_inventory.html), [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) and [Compliance Dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard/). | [**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [SCM](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [Code Review](https://about.gitlab.com/stages-devops-lifecycle/create/)<br> [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Compliance Management](https://docs.gitlab.com/ee/administration/compliance.html)<br> [**Release stage:**](https://about.gitlab.com/stages-devops-lifecycle/release/) [Release evidence](https://docs.gitlab.com/ee/user/project/releases/#release-evidence) | [![Control Changes to Product Development Assets](../../images/youtube_social_icon_red-32x23.png) Control Changes to Product Development Assets](https://youtu.be/l6K3Xn2MPJw)<br> [![Manage, Track and Maintain Access](../../images/youtube_social_icon_red-32x23.png) Manage, Track and Maintain Access](https://youtu.be/nRxCz4vMv5Q)<br> [Blog post: How GitLab protects your IP](https://about.gitlab.com/blog/2020/08/07/how-gitlab-protects-your-ip/) |
+| **Enterprise Ready** | GitLab provides capabilities to serve huge, geographically distributed teams organized into groups, subgroups, and projects with high availability requirements. GitLab SCM supports [Geo](https://docs.gitlab.com/ee/administration/geo/index.html replicates GitLab instances to create a [Disaster Recovery system](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) for failover scenarios. [Gitaly Clusters](https://docs.gitlab.com/ee/administration/gitaly/praefect.html) makes Git highly available for every team, hosted in gitlab.com or [on prem](https://docs.gitlab.com/charts/advanced/external-gitaly/external-omnibus-gitaly.html) | [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Subgroups](https://docs.gitlab.com/ee/user/group/subgroups/) [Code Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html) <br>[**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [Source Code Management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) which includes- [Gitaly](https://about.gitlab.com/direction/gitaly/)<br> [**Enablement stage:**](https://about.gitlab.com/direction/enablement/) [Geo](https://about.gitlab.com/solutions/geo/)<br> [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/)<br> [Reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) | [![Enterprise ready](../../images/youtube_social_icon_red-32x23.png) Enterprise ready](https://youtu.be/gULEzPybJu8?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)<br> [![Support different system architectures and designs](../../images/youtube_social_icon_red-32x23.png) Support different system architectures and designs](https://youtu.be/t-xUDB41nW0?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED)<br> [![Enterprise Ready - Project Templates](../../images/youtube_social_icon_red-32x23.png) Enterprise Ready - Project Templates](https://youtu.be/kNkUf1cScSc?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
+| **Support numerous assets** |  Repositories can host numerous types of assets such as Source Code, data narratives in [Jupyter notebooks](https://docs.gitlab.com/ee/user/project/repository/jupyter_notebooks/) for annotated, data-driven projects, and rendered markup like GitLab flavoured Markdown, Markdown, RDoc, AsciiDoc, and Org in [wikis](https://docs.gitlab.com/ee/user/project/wiki/). GitLab also hosts [graphic assets](https://docs.gitlab.com/ee/user/project/issues/design_management.html) and support the handover communication in issues | [**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [SCM](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html), [Wiki](https://docs.gitlab.com/ee/user/project/wiki/)<br> [Git LFS](https://docs.gitlab.com/ee/topics/git/lfs/)| [![Support numerous assets](../../images/youtube_social_icon_red-32x23.png) Support numerous assets](https://youtu.be/f9zmxOfP7AQ?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
+| **Foster Collaboration** |  GitLab is a platform to collaborate on proposals. Change proposals happen in any project through [merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/reviewing_and_managing_merge_requests.html). Collaboration then can happen in multiple places like in [threaded conversations](https://docs.gitlab.com/ee/user/discussions/) for clarity, or in [merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/) where changes can be approved or rejected. To understand the proposed changes a detailed vision of the changes is found in [resolving conflicts](https://docs.gitlab.com/ee/user/project/merge_requests/resolve_conflicts.html), code reviewers can [comment on specific code line](https://docs.gitlab.com/ee/development/code_comments.html), [suggest changes](https://docs.gitlab.com/ee/user/discussions/#suggest-changes) applicable in one click, or propose to use [code snippets](https://docs.gitlab.com/ee/user/snippets.html). All these actions connect the different users through plenty of [in-app](https://docs.gitlab.com/ee/operations/incident_management/index.html), chat ([Slack](https://docs.gitlab.com/ee/user/project/integrations/slack.html) or [Discord](https://docs.gitlab.com/12.10/ee/user/project/integrations/discord_notifications.html)) or [email notifications](https://docs.gitlab.com/ee/user/profile/notifications.html) | [**Create stage:**](https://about.gitlab.com/stages-devops-lifecycle/create/) [SCM](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/), [Code Review](https://about.gitlab.com/stages-devops-lifecycle/create/), [WebIDE](https://docs.gitlab.com/ee/user/project/web_ide/index.html), [Single file web editor](https://docs.gitlab.com/ee/user/project/repository/web_editor.html), [Live Preview](https://docs.gitlab.com/ee/user/project/web_ide/index.html#live-preview), [Snippets](https://docs.gitlab.com/ee/user/snippets.html)<br> [**Manage stage:**](https://about.gitlab.com/stages-devops-lifecycle/) [Code Review Analytics](https://docs.gitlab.com/ee/user/analytics/code_review_analytics.html), [Insights](https://docs.gitlab.com/ee/user/group/insights/)<br> [**Plan stage:**](https://about.gitlab.com/stages-devops-lifecycle/plan/) [Issue tracking](https://docs.gitlab.com/ee/user/project/issues/)<br> [**Verify stage:**](https://about.gitlab.com/stages-devops-lifecycle/verify/) [Code Quality](https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html) | [![Foster Collaboration](../../images/youtube_social_icon_red-32x23.png) Foster Collaboration](https://youtu.be/OFNUjvgm2_4?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) |
+| **Secure Development** | GitLab incorporates several security capabilities to make development more secure even before build happens. They can [detect secrets](https://docs.gitlab.com/ee/user/application_security/secret_detection/) and [license compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/) issues, find vulnerabilities [in source code](https://docs.gitlab.com/ee/user/application_security/sast/) or in its [dependencies](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) before merging, find vulnerabilities in [running apps](https://docs.gitlab.com/ee/user/application_security/dast/) before merging too, and [in containers](https://docs.gitlab.com/ee/user/application_security/container_scanning/)  too. These capabilities can even reproduce what thousand of users input in seconds to detect faults and other issues with [Fuzz testing](https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/)  | [**Secure stage:**](https://about.gitlab.com/stages-devops-lifecycle/secure/) [SAST](https://docs.gitlab.com/ee/user/application_security/sast/), [DAST](https://docs.gitlab.com/ee/user/application_security/dast/), [Fuzz Testing](https://docs.gitlab.com/ee/user/application_security/coverage_fuzzing/), [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/), [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/), [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html), [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/), [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) | [![Secure Development](../../images/youtube_social_icon_red-32x23.png) Secure Development](https://youtu.be/T0JRxw8_kY8?list=PLFGfElNsQthYDx0A_FaNNfUm9NHsK6zED) Also see [DevSecOps resources](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#how-gitlab-meets-the-market-requirements) |
 
 ## Top 3 Differentiators
 
@@ -242,7 +239,7 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 
 ## Proof Points - Customer Recognitions
 
-[General proof points](/handbook/sales/command-of-the-message/proof-points/) and [Customer Recognition](/customers/marketplace/)
+[General proof points](/handbook/sales/command-of-the-message/proof-points/) and [Customer Recognition](https://about.gitlab.com/customers/marketplace/)
 
 ### Quotes and reviews
 
@@ -292,32 +289,34 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 
 ### Case Studies
 
-**[ESA (European Space Agency)](/customers/european-space-agency/)**
+**[ESA (European Space Agency)](https://about.gitlab.com/customers/european-space-agency/)**
+
 - **Problem**  Geographic separation led to software deployment that used to take weeks.
 - **Solution** GitLab Core (SCM,CI)  allow opportunities for collaboration, synergies and multiple exploitations of efforts in visible way.
 - **Result** More than 140 groups adopted GitLab and more than 1500 software projects have been created. These range from mission control systems, onboard software for spacecraft, image processing and monitoring tools for Labs.
 - **Sales Segment:** Enterprise
 
-**[Goldman Sachs](/customers/goldman-sachs/)**
+**[Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/)**
+
 - **Problem** Needed to increase developer efficiency and software quality
 - **Solution:** GitLab Premium (CI/CD, SCM)
 - **Result:** Improved from **1 build every two weeks to over a 1000/day**, or releasing 6 times per day per developer, and an average cycle time from branch to merge is now 30 minutes; simplified workflow and simplified administration
 All the new strategic pieces of ’software development platforms are tied into GitLab. GitLab is used as a complete ecosystem for development, source code control and reviews, builds, testing, QA, and production deployments.
 - **Sales Segment:** Enterprise
 
+**[Worldline](https://about.gitlab.com/customers/worldline/)**
 
-**[Worldline](/customers/worldline/)**
 - **Problem** Worldline faced bottlenecks and lack of ownership when it was using Subversion. It took 1-2 weeks to get a source code repo.
 - **Solution** GitLab Core (SCM)
 - **Result:** With GitLab Core it now takes a few seconds. **Within six months, over 1,000 users were active users because GitLab is so easy to use.** People excited to contribute code reviews with GitLab Merge Requests. Previous code review tools had 10-20 developers using them, while Worldline currently has 3,000 active users of GitLab - an adoption rate increase of 12,000 percent.
 - **Sales Segment** Enterprise
 
 **NorthWestern Mutual [Commit San Francisco 2020: Why we chose GitLab as our Enterprise SCM](https://youtu.be/kPNMyxKRRoM)** [Deck](https://docs.google.com/presentation/d/1vxiFJShRjU98kvwK87PZnYnMzBVPT5VJTr1chUEiM_Y/edit#slide=id.g6d6088e69c_0_15)
+
 - **Problem**  Code base was fragmented and dev permissions were also complex to handle. This prevented devs from collaborating, deploying faster and fixing bugs and security holes.
 - **Solution** GitLab Premium (SCM, CI)
 - **Result**  A full migration to their Enterprise environment was completed in 8 months. After implementation they managed to reduce friction with the ease of use of GitLab's CI.
 - **Sales Segment:** Enterprise
-
 
 ### References to help you close
 
@@ -375,8 +374,6 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 - [DevOps Fundamentals Training](https://about.gitlab.com/services/education/devops-fundamentals/) - Training to teach Project Managers how to use gitlab issues and how that relates to the create stage in the development lifecycle
 - [SCM Migration Services](https://about.gitlab.com/services/migration/) - Data and user migration from a previous software Version Control System to GitLab self-managed or cloud-delivered solutions
 
-
-
 ## Key Value (at tiers)
 
 ### Premium
@@ -400,7 +397,6 @@ Serve your different remote teams with filtered LDAP access to specific IP hosti
 - Merge request reviews
 - Merge Request Dependencies
 
-
 ### Ultimate
 
 **Why choose GitLab Ultimate for SCM?** Keep your IP and teams compliant and secure all the time. Provide GitLab admin’s with state of the art capability to handle large, widely distributed instances of GitLab in the most secure and flexible way. Verify everything is in place and take immediate, concise action when something goes wrong in the Security Dashboard.
@@ -417,7 +413,6 @@ Compliance programs are fully supported in GitLab. Compliance professionals can 
 - Compliance Dashboard
 - All [security scanners](https://docs.gitlab.com/ee/#secure)
 
-
 ## Resources
 
 ### Presentations
@@ -431,6 +426,7 @@ Compliance programs are fully supported in GitLab. Compliance professionals can 
 [6 months / 1 year roadmap slide](https://docs.google.com/presentation/d/17iqdi16o4Vux1Vyg7EVBRs1Q0yuM1H32ZtJIsC3vAJ0/edit?usp=sharing)
 
 ### Videos
+
 - [Source Code Walk Through, January 2020](https://www.youtube.com/watch?v=wTQ3aXJswtM) by James Ramsey, Group Product Manager for the Create Stage
 - [GitLab Flow pattern](https://youtu.be/InKNIvky2KE?list=WL)
 - [Design Management Walkthrough, January 2020](https://youtu.be/LzFRBMGl2SA) by Christen Dybenko, PM Knowledge Group
@@ -441,19 +437,23 @@ Compliance programs are fully supported in GitLab. Compliance professionals can 
 - [Rich Change Controls for Building Workflows you can Trust](https://youtu.be/uW95PV8d-w8?t=186) by Darwin Sanoy, Solutions Architect
 
 #### Git Training
+
 - [Git in Gifs](https://www.youtube.com/playlist?list=PLFGfElNsQthZcx-NEyMsPl-dl3Q_p-3yv)
 - [Why You Should Move To Git](https://www.youtube.com/watch?v=iVUqKJpHc5s)
 
 #### Integrations Demo Videos
+
 - [Jira & Jenkins Integration Video](https://www.youtube.com/embed/Jn-_fyra7xQ)
 - [How to setup the Jira Integration](https://www.youtube.com/watch?v=p56zrZtrhQE)
 - [GitHub Integration Video](https://www.youtube.com/embed/qgl3F2j-1cI)
 
 #### Clickthrough & Live Demos
+
 - [All Marketing Click Through Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#click-throughs)
 - [All Marketing Live Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#live-instructions)
 
 #### Talks and customer References
+
 - [GitLab All the Way Down - A small startup's tale of growing with GitLab](https://youtu.be/t0Eh1sq9r5s?t=221)
 - [GitLab Permissions as Code (Controlling permission to access repos)](https://youtu.be/W1YMBc6kwUE?t=74)
 - [What not to do while using GitLab](https://youtu.be/Qc8caRTcSa4?t=221)

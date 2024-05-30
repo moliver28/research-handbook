@@ -18,6 +18,7 @@ Annual Mandatory Indexation:  Each year Belgian’s Joint Industrial Committee 2
 ## Healthcare Allowance
 
 **Allowance: gross amount of 70 Euros Per month**
+
 - Healthcare Monthly Allowance will be paid by Payroll as an allowance to team members to help subsidize the cost for their own Healthcare plans.
 - Team Members will need to purchase their own healthcare plans. No documentation is needed to receive the allowance.
 - This amount will be paid on a monthly basis with the regular payroll and will be taxed accordingly.
@@ -35,20 +36,20 @@ Team members in Belgium should keep a basic first aid kit in their home, as per 
 
 ## Belgium Holiday Schedule
 
-Pursuant to article 13 of the law on paid public holidays, employers are obliged to inform employees of observance holidays granted in lieu of public holidays which fall on a Sunday or another day of inactivity. Below is the 2023 Holiday and Observance schedule for Team Members in Belgium:
+Pursuant to article 13 of the law on paid public holidays, employers are obliged to inform employees of observance holidays granted in lieu of public holidays which fall on a Sunday or another day of inactivity. Below is the 2024 Holiday and Observance schedule for Team Members in Belgium:
 
 | Date                     | Holiday | Replacement Day |
 |--------------------------|:---:|:----:|
-| Sunday January 1st         | New Year's Day  | Monday January 2, 2023 |
-| Monday April 10th     | Easter Monday  |  |
-| Monday May 1st | Labour Day  |  |
-| Thursday May 18th   | Ascension Day  |  |
-| Monday May 29th        | Whit Monday   |  |
-| Friday July 21st     | National Holiday  |  |
-| Tuesday August 15th | Assumption Day  |  |
-| Wednesday November 1st  | All Saints Day   | |
-| Saturday November 11th    | Armistice  | Friday November 10th |
-| Monday December 25th     | Christmas  |  |
+| Monday January 1st         | New Year's Day  | |
+| Monday April 1st     | Easter Monday  |  |
+| Wednesday May 1st | Labour Day  |  |
+| Thursday May 9th   | Ascension Day  |  |
+| Monday May 20th        | Whit Monday   |  |
+| Sunday July 21st     | National Holiday  | Monday July 22nd |
+| Thursday August 15th | Assumption Day  |  |
+| Friday November 1st  | All Saints Day   | |
+| Monday November 11th    | Armistice  | |
+| Wednesday December 25th     | Christmas  |  |
 
 ## GitLab B.V. Belgium Leave Policy
 
@@ -80,9 +81,6 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
   - Full-time team members are entitled to 20 statutory vacation days per year. If a team member leaves GitLab, the company will prepare a vacation certificate with the number of unused vacation days in the current year and early vacation pay for the vacation days that were already accrued for the following year. The employee can then hand over these documents to their next employer to determine vacation entitlements. Similarly, GitLab requires the vacation certificate from new team members' previous employer to ensure vacation pay is properly calculated and added to June payroll.
   - Vacation Leave runs concurrently with GitLab PTO. Team members must designate any vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.
 
-***Note: GitLab has a global [`flexible paid time off policy`](/handbook/paid-time-off/#paid-time-off), which is the guideline for all GitLab employees globally. We highlight statutory requirements for some countries as well to ensure local compliance, but stress that our Paid Time Off policy is applicable for all GitLab team members globally irrespective of local policy.**-
+***Note: GitLab has a global [`flexible paid time off policy`](/handbook/people-group/paid-time-off/#paid-time-off), which is the guideline for all GitLab employees globally. We highlight statutory requirements for some countries as well to ensure local compliance, but stress that our Paid Time Off policy is applicable for all GitLab team members globally irrespective of local policy.**-
 
 People Ops will consult with Vistra to ensure that the statute is met.
-
-
-

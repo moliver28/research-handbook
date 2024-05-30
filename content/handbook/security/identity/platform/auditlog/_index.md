@@ -98,7 +98,6 @@ classDef fuchsia fill:#f0abfc,stroke:#c026d3,stroke-width:1px;
 end
 ```
 
-
 ## CI/CD Job Workflows
 
 ### Users Auditlog

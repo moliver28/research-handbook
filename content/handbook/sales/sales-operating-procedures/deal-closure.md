@@ -1,18 +1,9 @@
 ---
-
 title: "Deal Closure"
 description: "GitLab sales process for deal closure"
 ---
 
-
-
-
-
-
-
-# DEAL CLOSURE
-
-You have obtained the verbal commit from the economic buyer and it’s now time to close the opportunity and get the deal signature.  You will need to reapply **[MEDDPPICC](/handbook/sales/meddppicc/)** throughout this phase to accomplish the following tasks and close the deal:  
+You have obtained the verbal commit from the economic buyer and it’s now time to close the opportunity and get the deal signature.  You will need to reapply **[MEDDPPICC](/handbook/sales/meddppicc/)** throughout this phase to accomplish the following tasks and close the deal:
 
 1. Create a Mutual Close Plan
 1. Create a Deal Package
@@ -65,7 +56,6 @@ A deal package is an additional component of the customer deck you used earlier.
 
 When this happens..you need to conduct additional discovery to work around the customer push back.
 
-
 ### 3.1 Ask Why?
 
 1. Find out why they suddenly want to negotiate even though they were included in the deal proposal at all phases. **Ask why?** - Understand why they are asking for something. Confirm in the customer's words that they see the value of GitLab. Determine what has changed and why the business goal you solved for may no longer be their priority. Remind them of why they are here.
@@ -79,7 +69,7 @@ Additionally, during the negotiation phase you should also be working with the C
 
 #### 3.2.1 Capture Customer Success Criteria
 
-**The Solution Architect (SA) Documents Success Criteria**  This can be accomplished by [facilitating a discovery workshop](https://docs.google.com/presentation/d/1NtURhF4TH3mYqhjaDiwDbhq5m5y2GMfOv8BtxOtp2w0/edit#slide=id.g8920d2a269_0_609) asking questions about what a successful rollout plan looks like, the expectations around user experience during a transition period, and how to educate the customer's end-users. This process will help clarify whether [positioning professional services](/handbook/customer-success/professional-services-engineering/positioning/) is appropriate at this stage during the customer buying journey.  
+**The Solution Architect (SA) Documents Success Criteria**  This can be accomplished by [facilitating a discovery workshop](https://docs.google.com/presentation/d/1NtURhF4TH3mYqhjaDiwDbhq5m5y2GMfOv8BtxOtp2w0/edit#slide=id.g8920d2a269_0_609) asking questions about what a successful rollout plan looks like, the expectations around user experience during a transition period, and how to educate the customer's end-users. This process will help clarify whether [positioning professional services](/handbook/customer-success/professional-services-engineering/positioning/) is appropriate at this stage during the customer buying journey.
 
 This activity should produce a document that clearly articulates what done looks like and when done is successful. The document should be signed by an accountable individual from both parties and verbally discussed.
 
@@ -105,7 +95,6 @@ EMEA specific Quote Creation Considerations:
 1. EU based companies must have a VAT reference number.
 2. EMEA must always ask the new or existing customer for the VAT reference number and re-enter it into the quote
 3. The company's correct legal entity name must be manually entered into the quote versus the automated or assumed name that may auto-populate.
-
 
 ### 4.2 [Master Service Agreement](https://about.gitlab.com/terms/#subscription)
 

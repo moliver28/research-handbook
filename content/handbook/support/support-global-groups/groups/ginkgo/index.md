@@ -17,7 +17,7 @@ description: Home Page for Support's Ginkgo Group
 - Aligned Managers:
    - **AMER** -- Izzy, Aric, Ronnie
    - **EMEA** -- John, Erika
-- Our gitlab.com nanmespace: https://gitlab.com/gitlab-com/support/sgg-ginkgo
+   - **APAC** -- no alignment
 
 ## Ginkgo workflows and processes
 

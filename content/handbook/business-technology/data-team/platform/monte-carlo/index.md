@@ -3,16 +3,6 @@ title: "Monte Carlo Guide"
 description: "Monte Carlo (MC) is our Data Observability tool and helps us deliver better results more efficiently."
 ---
 
----
-
-title: "Monte Carlo Guide"
-description: "Monte Carlo (MC) is our Data Observability tool and helps us deliver better results more efficiently."
----
-
-
----
-
-
 ## What and why
 
 [Monte Carlo](https://www.montecarlodata.com/) (MC) is our [Data Observability](https://www.montecarlodata.com/blog-what-is-data-observability/) tool and helps us **deliver better results more efficiently**.
@@ -110,6 +100,10 @@ The same script has to be run as many times as we have databases to monitor (in 
 
 Please note this is an exception to our usual permission-handling procedure, where we rely on Permifrost, because observability permissions are an edge-case for Permifrost and not yet supported by the tool.
 There is an ongoing [feature request](https://gitlab.com/gitlab-data/permifrost/-/issues/120) on Permifrost for adding granularity to the way permissions are set, but no solution has been agreed on yet.
+
+#### Muting Monte Carlo alerts for sandbox schema's
+
+Sandbox environments are generally created for the purpose of testing. We normally don't take any actions on them even if any alerts come through in our triage slack channels. For this reason, with the confirmation from stakeholders we mute notifications from within monte carlo for sandbox schemas to avoid getting any alerts from them. To mute a schema, head over to [mute-datasets page](https://getmontecarlo.com/settings/muted-data/datasets).
 
 ## Notification strategy
 

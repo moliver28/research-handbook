@@ -41,6 +41,7 @@ The working group will also seek to iterate on how GitLab can further scale *eve
 
 1. Identify areas where iteration can allow for better scaling for high engagement MRs
 1. Implement iteration through handbook first suggestions
+
   - [ ] TBD
   - [ ] TBD
 

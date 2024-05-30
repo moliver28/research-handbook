@@ -37,7 +37,6 @@ TeamOps is comprised of four principles, each with six tenets that outline group
 | [Inclusivity](/teamops/shared-reality/#inclusivity) | [Tool Prioritization](/teamops/equal-contributions/#tool-prioritization) | [Low-Context Communication](/teamops/decision-velocity/#low-context-communication) | [Transparent Feedback](/teamops/measurement-clarity/#transparent-feedback) |
 | [Informal Communication](/teamops/shared-reality/#informal-communication) | [Psychological Safety](/teamops/equal-contributions/#psychological-safety) | [Operational Transparency](/teamops/decision-velocity/#operational-transparency) | [Cadence](/teamops/measurement-clarity/#cadence) |
 
-
 ## Prerequisites for TeamOps
 
 There are five foundational elements that should already be in place in an organization in order to support the adoption of TeamOps. These prerequisites relate to the company processes, digital infrastructure, and culture that create an *ideal* environment to implement TeamOps tenets.
@@ -57,12 +56,11 @@ There are five foundational elements that should already be in place in an organ
 
 If your organization is missing some of these building blocks, consider this an opportunity to invest in your team. A variety of [TeamOps Partners](handbook.gitlab.com/handbook/teamops/partners/) have been recruited to support you through the change management process.
 
-
 ## TeamOps Tips
 
 While exploring and adopting TeamOps as an operational model, it's important to remember a few things:
 
-1. **TeamOps describes an ideal state**. In management, it is not possible to remain in an ideal state in perpetuity. Competing priorities, conflict tradeoffs, and [coordination headwinds](https://komoroske.com/slime-mold/) will be present at varying times. When applying TeamOps, resist the urge to take a binary approach. Rather than asking, "Have we completely achieved TeamOps in our team or company?," leverage TeamOps principles to *navigate* with [more information]({{< ref "/teamops/shared-reality" >}}) and [greater velocity]({{< ref "/teamops/equal-contributions" >}}).
+1. **TeamOps describes an ideal state**. In management, it is not possible to remain in an ideal state in perpetuity. Competing priorities, conflict tradeoffs, and [coordination headwinds](https://komoroske.com/slime-mold/) will be present at varying times. When applying TeamOps, resist the urge to take a binary approach. Rather than asking, "Have we completely achieved TeamOps in our team or company?," leverage TeamOps principles to *navigate* with [more information](/teamops/shared-reality) and [greater velocity](/teamops/equal-contributions).
 1. **TeamOps is for individual contributors *and* people managers.** TeamOps empowers individual contributors to be better stewards of their own time and attention. Concurrently, it empowers people managers to lead with deeper conviction while creating more space for their direct reports to grow, develop, and contribute.
 
 ![GitLab TeamOps teamwork illustration](/teamops/images/teamops-illustration_teamwork_blue.jpg)

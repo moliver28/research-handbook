@@ -127,7 +127,7 @@ Data sets:
 * Subdomain brute forcing
 * URL collection/datasets
 
-The first iteration where can immediately add value is to provide our users with asset discovery/attack surface & inventories. 
+The first iteration where can immediately add value is to provide our users with asset discovery/attack surface & inventories.
 
 ### Jobs to be Done
 

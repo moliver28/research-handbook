@@ -4,4 +4,3 @@ redirect-to: 'https://internal.gitlab.com/handbook/finance/financial-planning-an
 ---
 
 [Internal handbook link](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/)
-

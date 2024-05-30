@@ -72,11 +72,11 @@ The Senior Security Engineer role extends the [Intermediate Security Engineer](#
 - Great written and verbal communication skills
 - Interview security candidates during hiring process
 
-***
+---
 
 A Senior Security Engineer may decide to pursue the [security engineering management track](/job-families/security/security-leadership/) at this point, should they wish to. See [Engineering Career Development](/handbook/engineering/career-development/) for more detail on the tracks available for Senior Engineers.
 
-***
+---
 
 #### Job Grade
 
@@ -108,7 +108,6 @@ The Staff Security Engineer role is a progression of the [Senior Security Engine
 - Demonstrated consistent willingness and ability to take on new and difficult challenges
 - Possesses expert-level knowledge in their specialty field and the security technology stack
 - Demonstrates strong technical leadership, acknowledged by cross-functional peers and stakeholders
-
 
 #### Job Grade
 
@@ -148,7 +147,6 @@ The Principal Security Engineer is a [grade 9](/handbook/total-rewards/compensat
 
 The Distinguished Security Engineer role is a progression of the [Principal Security Engineer](#principal-security-engineer) role and typically reports to Director/Senior Director/VP.
 
-
 #### Responsibilities
 
 - Collaborate as a trusted advisor to Security Senior Leadership, providing visionary technical leadership that shapes the organization's long-term security strategic direction
@@ -160,7 +158,6 @@ The Distinguished Security Engineer role is a progression of the [Principal Secu
 - Identify and mitigate emerging threats before they impact the organization, designing and deploying advanced countermeasures
 - Shape the company's security strategy, influencing its direction and ensuring it remains at the forefront of industry best practices
 - Develop solutions addressing longer term strategic goals and objectives that have deep and broad impact both internally and externally
-
 
 #### Requirements
 
@@ -174,7 +171,6 @@ The Distinguished Security Engineer role is a progression of the [Principal Secu
 - Renowned for guiding, mentoring, and shaping not only domain experts but also the future generation of security leaders
 - Display exceptional adaptability when requirements, direction, or circumstances change
 - Exhibit exceptional conflict management skills to navigate and resolve complex and critical conflicts with far-reaching organizational impact
-
 
 #### Job Grade
 
@@ -292,28 +288,6 @@ Product Security Engineering Team Requirements
 - Strong development or scripting experience and skills, preferably significant professional experience with Ruby on Rails and/or Golang
 - Excellent understanding of application security issues and how to fix application security vulnerabilities
 - Track record of delivering results through the entire software development lifecycle
-
-### Security Automation
-
-By leveraging diverse technologies and an automation first approach, the Security Automation team strives towards improving the efficiency, effectiveness, and accuracy within GitLab's Information Security program with a focus on cost savings. Examples include the creation of automated security issue triage and management solutions, automating handling of repetitive tasks, and defining re-usable security automation architectures. Additionally, the Security Automation team will assist other security specialty teams with automation efforts they are leading and developing through the assessment of automation tools, and integration tools and technologies to support automation efforts as needed.
-
-Security Automation Responsibilities
-
-- Design, engineer, deploy, and maintain custom automation products
-- Build security tooling and automation for internal use that enable the Security Department to operate at high speed and wide scale
-- Define and own metrics and key performance indicators to determine the effectiveness of the Security Automation program
-- Collaborate with product teams to ensure that the GitLab product meets security automation requirements for ourselves and our users.
-
-Security Automation Requirements
-
-- Previous experience on a Security Operations, Software Development, or Automation team
-- Scripting/coding experience with one or more languages - Python, Ruby, and/or Golang experience a plus
-- Extensive knowledge of Internet security issues, automation or software engineering technologies, cloud architectures, and threat landscape concepts
-- Solid understanding of the Software as a Service (SaaS) model
-- Solid understanding of the DevOps model
-- Experience with Cloud Computing Platforms - GCP experience a plus
-- Experience with Kubernetes a plus
-- Experience with infrastructure as code processes and tools a plus
 
 ### SIRT - Security Incident Response Team
 
@@ -433,4 +407,4 @@ See more details about our hiring process on the [hiring handbook](/handbook/hir
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

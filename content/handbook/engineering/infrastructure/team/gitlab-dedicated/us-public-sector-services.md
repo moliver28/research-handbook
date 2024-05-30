@@ -106,6 +106,7 @@ The DRI needs to:
 Each epic and child sub-epics must include the following:
 
 **Description**
+
 1. **DRI** who is responsible for this epic.
 2. **Background**, including a problem statement, to provide context for people looking to understand the epic.
 3. **Exit criteria** for the specific goals of the epic.
@@ -114,10 +115,11 @@ Each epic and child sub-epics must include the following:
     2. This heading is used to auto-generate the status information on the top-level epic.
 
 **Epic meta data**
+
 1. **Start date** is set to the expected start date, and updated to be the actual start date when the project begins.
 2. **Due date** is set to be the expected end date.
 
-Labels are described in the [epic label section](#epic-labels).
+Labels are described in the [epic label section](#epic-structure).
 
 #### Issue boards
 
@@ -144,13 +146,13 @@ The status for all work for the team is maintained in the description of the top
 
 Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process:
 
-1. **By 17:00 UTC / 12:00 PM ET on Fridays** DRIs of _active_ epics (or the person covering if DRI OOO) provide an update in the [status section of the description](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure) of the epic regarding status of the epic including any relevant details of active sub-epics.
+1. **By 17:00 PST on Thursdays** DRIs of _active_ epics (or the person covering if DRI OOO) provide an update in the [status section of the description](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure) of the epic regarding status of the epic including any relevant details of active sub-epics.
     - If the DRI for a sub-epic is different than the epic DRI, the epic DRI is responsible for getting updates from the sub-epic DRI.
     - Format for weekly update:
       - **Date of Update** (YYYY-MM-DD)
       - Brief update (~sentence or couple bullets) for each of these three bullets:
          - **Progress since last update** - Changes deployed to production, unblocked blockers, any other progress achieved.
-         - **Risk and Confidence** - Any new blockers identified or existing blockers that persist? Any other challenges now or in the near future? How do these blockers and/or challenges affect our confidence of completing by scheduled due date from [Phase timeline](https://internal.gitlab.com/handbook/engineering/horse/)?
+         - **Risk and Confidence** - Any new blockers identified or existing blockers that persist? Any other challenges now or in the near future? How do these blockers and/or challenges affect our confidence of completing by scheduled due date from [Phase timeline](https://internal.gitlab.com/handbook/engineering/dedicated/)?
          - **Mitigations** -  What is required to overcome challenges or blockers identified?  Should this be escalated to other team members, teams, executives, or domain experts?
     - **Update Workflow and Health label** - After each status update, the Workflow label and Health label should be updated. See [Epic labels criteria](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels)
 

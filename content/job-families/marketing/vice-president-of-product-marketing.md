@@ -47,7 +47,7 @@ The Vice President, Product Marketing is a [grade 12](/handbook/total-rewards/co
 - Uses data to measure results and inform decision making and strategy development.
 - Excellent spoken and written English.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group).
+- [Leadership at GitLab](/handbook/company/structure/#director-group).
 - Ability to use GitLab.
 
 ## Career Ladder

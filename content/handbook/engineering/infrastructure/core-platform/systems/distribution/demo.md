@@ -17,7 +17,9 @@ Distribution team members present demos related to work they've accomplished (or
 [Demo recordings](https://www.youtube.com/playlist?list=PL05JrBw4t0KrPasGZcEUoHHIYdUtzpfA4) are publicly available on YouTube to spread knowledge, technologies and solutions the team creates.
 
 ### Goals ###
+
 The goals of our demos are to:
+
 1. Spread awareness of current issues impacting our customers and team
 1. Solicit feedback from the team to improve our solutions and related documentation
 1. Identify gaps in our collective understanding of environments, components, processes and dependencies
@@ -44,7 +46,9 @@ The presenter is expected to:
 1. Follow up on concerns raised during the demo and/or provide links to known issues identified
 
 ### Attendees ###
+
 Attendess are expected to:
+
 1. Ask questions - attendee participatation is encouraged, but not required
 1. Document questions/problems that arise in the meeting notes document
 1. Mute yourself while not actively participating to avoid distractions

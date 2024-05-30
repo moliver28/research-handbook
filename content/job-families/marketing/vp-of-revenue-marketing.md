@@ -5,7 +5,7 @@ description: "Our Vice President of Revenue Marketing is an innovative and energ
 
 Our Vice President of Revenue Marketing is an innovative and energetic leader, with a knack for empowering high performing teams and an ability to get things done. Reporting to the CMO, the Vice President of Revenue Marketing is accountable for creating and executing a scalable marketing strategy to achieve new business pipeline and revenue targets. The Vice President of Revenue Marketing plays an integral role in driving revenue growth for the company across all channels and geos. This is a highly visible global role in the organization, responsible for the development and implementation of effective demand generation programs with an emphasis on lead generation, pipeline creation and nurturing prospects/customers along the buyer’s journey.
 
-The Vice President of Revenue Marketing is an experienced sales and marketing leader with a proven track record of building high performance teams, in rapid-growth environments, to deliver both predictable and sustainable results.  He or she thrives in a fast-paced environment and has a reputation for creating alignment with sales and inspiring trust with sales, based on proven process and metrics. Field Marketing, Account Based Marketing, Marketing Operations and Sales Development (in-bound and outbound lead generation) report into this leader.
+The Vice President of Revenue Marketing is an experienced sales and marketing leader with a proven track record of building high performing teams, in rapid-growth environments, to deliver both predictable and sustainable results.  He or she thrives in a fast-paced environment and has a reputation for creating alignment with sales and inspiring trust with sales, based on proven process and metrics. Field Marketing, Account Based Marketing, Marketing Operations and Sales Development (in-bound and outbound lead generation) report into this leader.
 
 They are accountable for KPIs and quotas that align to sales revenue goals and encompass all sources of pipeline generation. Top areas of focus are tracking the impact of marketing programs on pipeline values, average deal size and close rates globally and by segment.
 
@@ -40,7 +40,7 @@ The Vice President of Revenue Marketing role is a [grade 12](/handbook/total-rew
 - Must understand the difference between a leader and a manager
 - Experience managing external vendors and agencies
 - Exemplary work ethic; takes the initiative and thinks creatively to get the job done
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ## Performance Indicators

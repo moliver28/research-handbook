@@ -9,19 +9,19 @@ The information contained in this section will provide you with solid understand
 
 - [GitLab narrative and high-level deck](https://docs.google.com/presentation/d/1dVPaGc-TnbUQ2IR7TV0w0ujCrCXymKP4vLf6_FDTgVg/edit#slide=id.g39d65c7ce1_12_233)
 - [GitLab elevator pitch](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/)
-- [GitLab solutions](/solutions/)
-- [GitLab pricing](/pricing/)
-    - [Value of selling GitLab Ultimate](/pricing/ultimate/)
+- [GitLab solutions](https://about.gitlab.com/solutions/)
+- [GitLab pricing](https://about.gitlab.com/pricing/)
+    - [Value of selling GitLab Ultimate](https://about.gitlab.com/pricing/ultimate/)
 - [GitLab product vision/roadmap](https://about.gitlab.com/direction/)
 - [GitLab personas](/handbook/product/personas/)
-- [GitLab competitive analysis](/competition/)
-- [Customer success stories](/customers/)
+- [GitLab competitive analysis](https://about.gitlab.com/why-gitlab/)
+- [Customer success stories](https://about.gitlab.com/customers/)
 
 Join GitLab’s Slack Reseller channel by emailing vgoetz@gitlab.com to keep current on new content assets, upcoming sales and technical training sessions and more.
 
 ## Training & Enablement
 
-- [GitLab Product training](/learn/) - Providing a subset of on-demand content suggested based on role and skill level. Each track links to the specific on-demand training area GitLab recommends.
+- [GitLab Product training](https://about.gitlab.com/learn/) - Providing a subset of on-demand content suggested based on role and skill level. Each track links to the specific on-demand training area GitLab recommends.
 - [GitLab sales enablement list](https://www.youtube.com/playlist?list=PLFGfElNsQthYe-_LZdge1SVc1XEM1bQfG)
 - [Future GitLab sales enablement](https://gitlab.com/gitlab-com/marketing/general/boards/465497?=&label_name[]=Sales%20Enablement)
 

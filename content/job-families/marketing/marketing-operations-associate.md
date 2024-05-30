@@ -32,7 +32,7 @@ You understand that setting a foundation for healthy growth in a fast-paced comp
 - You are team-centric.
 - You’re a self starter, willing to read and watch in order to learn. (Be ready to learn how to use GitLab and Git!)
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ## Hiring Process

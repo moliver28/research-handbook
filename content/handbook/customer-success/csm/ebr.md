@@ -17,12 +17,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 An Executive Business Review (EBR) is a strategic meeting with stakeholders from both GitLab and the customer. It is an extension of the account planning process and part of the CSM's regular business rhythm. The EBR aims to demonstrate to the [Economic Buyer](/handbook/sales/meddppicc/#economic-buyer) the value they are getting in their partnership with GitLab. It is interactive from both sides, discussing the customer's desired business outcomes and related metrics, progress against these metrics and desired outcomes, and aligning on strategic next steps. The most crucial element in all EBRs is giving the customer stakeholders the time to speak about what matters to them, and creating a framework to enable them to do so.
 
-CSMs conduct EBRs with their customers as follows:
-
-| Segment | Cadence |
-|---|---|
-| Commercial | 20% of book of business is offered an EBR per year, in line with the goal of having [20% of the book of business be PR1](/handbook/customer-success/csm/engagement/#growth-accounts) |
-| Enterprise | 1 EBR per customer per year minimum |
+CSMs should have 1 EBR per customer per year at minimum.
 
 ## What constitutes an EBR?
 
@@ -53,7 +48,7 @@ From GitLab, in addition to the account team this may include:
 - Area Sales Manager
 - Sales Area Vice President
 - Other senior leaders, as determined in collaboration with management
-- Subject matter experts for product discussion, as applicable (e.g. [Product Manager](/handbook/product/categories/#devops-stages), [Customer Success Engineer](/handbook/customer-success/csm/cse/), [Solutions Architect](/handbook/customer-success/solutions-architects/), [Field CTO](/job-families/sales/solutions-architect/#field-cto-responsibilties), [Field CISO](/job-families/sales/solutions-architect/#field-security-officer-responsibilities))
+- Subject matter experts for product discussion, as applicable (e.g. [Product Manager](/handbook/product/categories/#devops-stages), [Customer Success Engineer](/handbook/customer-success/csm/cse/), [Solutions Architect](/handbook/solutions-architects/), [Field CTO](/job-families/sales/solutions-architect/#field-cto-responsibilties), [Field CISO](/job-families/sales/solutions-architect/#field-security-officer-responsibilities))
 
 Decisions about who to invite to an EBR are made collectively by the account team with input from their respective managers.
 
@@ -104,12 +99,7 @@ The EBR is not considered scheduled until calendar invites are sent & confirmed 
 
 #### EBR length
 
-The recommended length of an EBR depends on the customer's segment:
-
-| Segment | Length |
-|---|---|
-| Commercial | 60 minutes |
-| Enterprise | 90 minutes |
+The recommended length of an EBR is typically 90 minutes, however this is flexible based on customer need and content.
 
 Any EBR should be structured to provide time for key focus areas, with plenty of discussion on customer objectives and roadmap. If key personas cannot participate for the full session, [arrange the EBR](#planning--assembly) agenda to cover the topic(s) most relevant to these personas at the beginning to ensure maximum benefit to all involved.
 
@@ -138,7 +128,7 @@ Sessions should be planned and scheduled in advance, with proactively prepared t
 
 ##### Travel & Accommodations
 
-Travel should be booked & planned two weeks prior to the EBR to ensure all client stakeholders and attendees are still confirmed for the day of. Travel and expenses are to be booked through [Navan](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/). Do a suggested review of the [travel](/handbook/travel/) & [expense](/handbook/finance/expenses/) handbook pages prior to planning.
+Travel should be booked & planned two weeks prior to the EBR to ensure all client stakeholders and attendees are still confirmed for the day of. Travel and expenses are to be booked through [Navan](/handbook/business-technology/-applications/guides/navan-expense-guide/). Do a suggested review of the [travel](/handbook/travel/) & [expense](/handbook/finance/expenses/) handbook pages prior to planning.
 
 #### Cadence call mini-EBR
 
@@ -162,7 +152,7 @@ The customer's [success plan](#success-planning) forms the basis of the EBR. Thi
 Throughout the process we should align with the customer on discussion points and details, and ensure we are highlighting their accomplishments as part of the messaging. While the CSM is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for the EBR, it is a collaborative effort between the CSM, the other account team members, *and the customer*. **There should be no surprises in the content of the EBR for anyone involved.**
 {: .alert .alert-gitlab-purple}
 
-If you plan to discuss product information, ensure you align with the right GitLab team members for that discussion as early as possible. This may include a [Product Manager](/handbook/product/categories/#devops-stages), [Customer Success Engineer](/handbook/customer-success/csm/cse/), [Solutions Architect](/handbook/customer-success/solutions-architects/), or other subject matter experts. Give these team members ample time to align on the plan and prepare their portion of the EBR program.
+If you plan to discuss product information, ensure you align with the right GitLab team members for that discussion as early as possible. This may include a [Product Manager](/handbook/product/categories/#devops-stages), [Customer Success Engineer](/handbook/customer-success/csm/cse/), [Solutions Architect](/handbook/solutions-architects/), or other subject matter experts. Give these team members ample time to align on the plan and prepare their portion of the EBR program.
 
 The CSM and their manager will periodically review the EBR as this stage progresses. The CSM Manager ensures that the focus areas are appropriate for the [participants](#intended-participants) and in line with expectations for an EBR.
 

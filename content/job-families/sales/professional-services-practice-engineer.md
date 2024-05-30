@@ -47,7 +47,7 @@ The Senior Professional Services Practice Engineer is a [grade 7](/handbook/tota
 - Share and work in accordance with GitLab's values
 - Experience growing within a small start-up is a plus
 - You share our values, and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Highly determined to learn new things, including GitLab
 
 ## Performance Indicators

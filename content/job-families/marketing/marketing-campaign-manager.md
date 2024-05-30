@@ -140,7 +140,7 @@ The Senior Manager, Marketing Campaigns is a [grade 9](/handbook/total-rewards/c
 - Coordinates cross functionally across multiple groups including marketing and sales
 - Ensures overall corporate goals are met in terms of the number of new inquiries, MQLs and SAOs, conversion rates and costs from demand generation campaigns
 - Works closely with Field Marketing, SDR, Alliances and Partner marketing to identify go to market synergies across teams that result in improved pipeline and achievement of revenue goals
-- Works with cross functional product marketing, technical marketing and content marketing to identify and leverage buyer journey assets, messaging and content and delivers them through demand generation campaigns to our ICP
+- Works with cross functional product marketing, developer advocacy and content marketing to identify and leverage buyer journey assets, messaging and content and delivers them through demand generation campaigns to our ICP
 - Leads the documentation of all campaigns team processes in the handbook, creates an environment that fosters CREDIT within and x-functionally, and optimizes our campaign motions to ensure optimum marketing efficiency.
 
 #### Senior Manager, Marketing Campaigns Requirements

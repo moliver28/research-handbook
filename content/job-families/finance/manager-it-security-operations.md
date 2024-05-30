@@ -51,7 +51,7 @@ The Manager, IT Security Operations is a [level 8](/handbook/total-rewards/compe
 - CISSP, CCSP, or other relevant industry security-focused certifications preferred
 - Bachelor’s Degree or equivalent work experience required
 - Share our values, and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ## Performance Indicators

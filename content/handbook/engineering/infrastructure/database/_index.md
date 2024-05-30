@@ -12,7 +12,7 @@ title: "Database"
 ## Database Reliability at GitLab
 
 The group of Database Reliability Engineers (DBREs) are on the Reliability
-Engineering teams that runs GitLab.com. We care most about database
+Engineering teams that run GitLab.com. We care most about database
 reliability aspects of the infrastructure and GitLab as a product.
 
 We strive to approach database reliability from a data driven
@@ -54,7 +54,6 @@ In backup and recovery, there are two SLOs:
 | `DB-DR-RETENTION-MULTIREGIONAL`  | 14 days       | The number of days we keep backups for recovery purposes in [Multi-regional](https://cloud.google.com/storage/docs/storage-classes#standard) Storage class in GCS. |
 | `DB-DR-RETENTION-NEARLINE`  | From 15 to 40 days       | The number of days we keep backups for recovery purposes in [Nearline](https://cloud.google.com/storage/docs/storage-classes#nearline) storage class in GCS. |
 | `DB-DR-RETENTION-NEARLINE`  | From 40 to 120 days       | The number of days we keep backups for recovery purposes in [Coldline](https://cloud.google.com/storage/docs/storage-classes#coldline) storage class in GCS. |
-
 
 The backup strategy is to take a daily snapshot of the full database
 (basebackup) and store this in Google Cloud Storage. Additionally, we capture the

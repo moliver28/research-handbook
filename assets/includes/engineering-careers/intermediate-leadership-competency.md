@@ -1,4 +1,5 @@
 ##### Engineering
+
 * Assumes goodwill, and is able to disagree and commit.
 * Capable of delivering work despite periodical distractions.
 * Constructively raises concerns.

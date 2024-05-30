@@ -4,13 +4,56 @@ description: The objective of this page is to provide a clear documentation of t
 ---
 
 ## What is a Tech Lead
-This role is outlined [here](https://handbook.gitlab.com/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role).
+
+This role is outlined [here](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role).
+
+## Create Tech Leads
+
+### Source Code Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
+|------------|----------|--------------------|-------------------------|------------|
+| 2024-02-01 | TBD | TBD       | [Branch Rules](https://gitlab.com/groups/gitlab-org/-/epics/12492)      | Joe Woodward |
+| 2024-02-01 | TBD | TBD       | [Cells 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434974)      | Vasilii Iakliushin  |
+
+### Code Review Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
+|------------|----------|--------------------|-------------------------|------------|
+| 2024-01-30 | TBD      | TBD                | [Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/12795) | [Kerri Miller](https://gitlab.com/kerrizor) |
+| 2024-02-13 | TBD      | TBD                | [New Diffs](https://gitlab.com/groups/gitlab-org/-/epics/11559) | [Stanislav Lashmanov](https://gitlab.com/slashmanov) |
+| 2024-02-19 | TBD      | TBD                | [Review Rounds](https://gitlab.com/groups/gitlab-org/-/epics/9577) | [Phil Hughes](https://gitlab.com/iamphill) |
+
+### IDE Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
+|------------|----------|--------------------|-------------------------|------------|
+| 2024-05-01 | TBD      | TBD                | [Web IDE Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Paul Slaughter](https://gitlab.com/pslaughter) |
+| 2024-05-01 | TBD      | TBD                | [Workspaces Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Chad Woolley](https://gitlab.com/cwoolley-gitlab) |
+| 2024-04-29 | TBD      | TBD                | [Cells 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434976)| [Vishal Tak](https://gitlab.com/vtak) |
+| 2024-02-21 | TBD      | TBD                | [VS Code Upgrade process](https://gitlab.com/groups/gitlab-org/-/epics/12951)| [Enrique Alcántara](https://gitlab.com/ealcantara) |
+| 2024-01-13 | TBD      | TBD                | [Workspaces Agent Authorization](https://gitlab.com/groups/gitlab-org/-/epics/12193) | [Hunar Khanna](https://gitlab.com/hkhanna2) |
+
+### Editor Extension Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
+|------------|----------|--------------------|-------------------------|------------|
+| 2024-02-01 | TBD      | TBD      | [Cell 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434977) | [Tomas Vik](https://gitlab.com/viktomas) |
+
+### Code Creation Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead   |
+|------------|----------|--------------------|------------------------|-------------|
+| 2023-11-01 |          |                    | [Code Suggestion RAG](https://gitlab.com/groups/gitlab-org/-/epics/11669) | Mikołaj Wawrzyniak |
+| 2024-01-17 |          |                    | [Decrease Latency](https://gitlab.com/groups/gitlab-org/-/epics/12224)    | Jan Provaznik      |
+| 2024-02-12 |          |                    | [Trigger Logic](https://gitlab.com/groups/gitlab-org/-/epics/12100)       | Sri Rangan         |
 
 ## How is a Tech Lead different from a Domain Expert
 
 Tech Leads and Domain Experts share similarities and differences. The tables below clarify distinctions between the two roles.
 
 ### Similarities
+
 | Criteria                      | Tech Lead                                     | Domain Expert                                |
 | ----------------------------- | --------------------------------------------- | -------------------------------------------- |
 | **Expertise Requirement**      | Requires domain knowledge and expertise       | Requires substantial experience in a specific area |
@@ -19,6 +62,7 @@ Tech Leads and Domain Experts share similarities and differences. The tables bel
 | **Not a Managerial Role**      | Not a manager                                  | Not a manager                                 |
 
 ### Differences
+
 | Criteria                          | Tech Lead                                     | Domain Expert                                |
 |-----------------------------------|-----------------------------------------------|----------------------------------------------|
 | **Nature of Role**                | Temporary role tied to a specific topic/project | Ongoing role with substantial expertise     |
@@ -33,15 +77,17 @@ Tech Leads and Domain Experts share similarities and differences. The tables bel
 | **Collaboration**                 | Slack channel for collaboration (#tech_leads or topic/project specific channel)  | Not required. |
 | **Project Template**              | Utilizes a project template for guidance       | Not required.    |
 | **Scope**                         | Tied to a specific topic/project              | Generally encompasses specific technology, feature, or codebase area                                                      |
+
 ## Responsibilities
-The Tech Lead responsibilites are outlined [here](https://handbook.gitlab.com/handbook/engineering/ic-leadership/tech-lead/#responsibilities-of-a-tech-lead).
+
+The Tech Lead responsibilites are outlined [here](/handbook/engineering/ic-leadership/tech-lead/#responsibilities-of-a-tech-lead).
 
 ## Process
-
 
 ### Determine if the Project needs a Tech Lead
 
 In some projects, having a Tech Lead depends on the team's available capacity. Engineering Managers decide based on the team's Tech Leadership capacity. Use these questions to help evaluate if your project needs a Tech Lead.
+
 1. Is the project technically complex? Does it require a blueprint?
 1. Does it involve multiple technologies or integrations?
 1. Does the project demand unique technical expertise?
@@ -59,48 +105,3 @@ In some projects, having a Tech Lead depends on the team's available capacity. E
 | 1    | Assess project needs                  |
 | 2    | Evaluate Tech Leadership capacity     |
 | 3    | Select a Tech Lead         |
-
-
-### Project Handbook Page 
-
-All Projects should use the same Project Template.  By adopting this template, the project team can benefit from streamlined processes, enhanced communication, and a proactive approach to project management, ultimately contributing to project success.
-
-## Template
-
-#### Project Overview
-* Description: Clearly articulates the project's purpose, goals, and importance.
-* Stakeholders: Identifies key stakeholders and their roles, fostering understanding and alignment.
-#### Project Objectives
-SMART Objectives: Defines Specific, Measurable, Achievable, Relevant, and Time-bound project objectives for focused and attainable goals.
-#### Project Team
-Roles and Responsibilities: Lists team members along with their specific roles and responsibilities, establishing accountability and coordination.
-#### Key Milestones
-Measurable Outcomes: Specifies measurable outcomes and success criteria, facilitating clear progress tracking.
-Epics with Issues: Utilizes Epics and Issue Boards for structured project organization.
-#### Timeline
-Phased Milestones: Includes start and end dates for each major phase milestone, ensuring timeline adherence.
-#### Risk Management
-Identification and Mitigation: Identifies potential risks and strategies for mitigation, preparing the team for unforeseen challenges.
-#### Communication Plan
-Effective Communication Channels: Outlines communication channels within the team and to stakeholders, enhancing collaboration.
-Metrics/Dashboards/Charts: Incorporates visual tools for better project insight.
-Labels: Establishes a labeling system for improved organization and tracking.
-#### Quality, Security, SRE, Documentation
-Epics: Creates separate Epics for Quality, Security, SRE, and Documentation, ensuring focused collaboration in each area.
-#### Feedback
-Feedback Gathering: Sets up an Epic for both internal and external feedback, promoting continuous improvement.
-#### Project Team Meetings
-Regular Meetings: Recommends scheduling regular project team meetings to maintain alignment and coordination.
-#### Status Report Issue
-* Continuous Reporting: Implements a  status report issue format for transparent reporting at a cadence that aligns with the project dynamics.
-* Achievements, Challenges, Goals, Lessons: Systematically captures  accomplishments, challenges, upcoming goals, and lessons learned, fostering accountability and continuous improvement.
-
-
-## Benefits of Using This Template:
-1. Clarity and Alignment: Clearly defines project goals, roles, and timelines, ensuring everyone is on the same page.
-1. Efficient Communication: Establishes effective communication channels and tools, reducing misunderstandings and improving collaboration.
-1. Risk Mitigation: Proactively identifies and addresses potential risks, minimizing project disruptions.
-1. Organized Project Structure: Utilizes Epics, Issues, and Labels for a structured and organized project workflow.
-1. Continuous Improvement: Encourages feedback gathering and lesson sharing for ongoing learning and enhancement.
-1. Transparent Reporting: Weekly status reports provide transparency on achievements, challenges, and upcoming goals.
-1. Focused Collaboration: Epics for different project aspects enable focused collaboration in quality, security, SRE, and documentation.

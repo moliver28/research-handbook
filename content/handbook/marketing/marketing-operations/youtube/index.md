@@ -39,7 +39,6 @@ In that case, you can [upload it to YouTube](#uploading-conversations-to-youtube
 
 ### Considerations for livestreams
 
-
 1. Please remember to [follow the guidelines on starting a recorded video](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 1. If you're not a host, you can't livestream direct from zoom, but the current host can promote another attendee to host.
 1. If there is more than one host for the meeting **the host that joins the meeting first** is the only host that can livestream direct from zoom. From the Zoom meeting, the host can promotion someone else to host if another team member has been designated to start the live stream. Instructions to change the host:
@@ -80,6 +79,7 @@ In that case, you can [upload it to YouTube](#uploading-conversations-to-youtube
 ![stream link](/handbook/marketing/marketing-operations/youtube/youtube-stream-link.jpg)
 
 #### Video walkthough of how to Livestream to YouTube
+
 The following 5-minute video shows how to start a livestream from a Zoom Meeting to YouTube Unfiltered.
 
 <figure class="video_container">
@@ -93,16 +93,16 @@ If you receive a permission error when attempting to start a livestream (i.e. "P
 1. Install and launch [OBS Studio](https://obsproject.com/download)
 
 1. Allow OBS to automatically configure your settings:
-	![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
+    ![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
 
 1. Accept the recommended video settings:
-	![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
+    ![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
 
 1. Select "Custom" service and configure OBS to livestream to [GitLab's Unfiltered channel](https://www.youtube.com/live_dashboard?nv=1#):
-	![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
+    ![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
 
 1. Add your webcam as a "Video Capture Device" from the Sources tool:
-	![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
+    ![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
 
 ## Post everything
 
@@ -214,6 +214,7 @@ You can change the visibility of videos by clicking on the `Details` buttons whe
 
 If you get a "Video unavailable This video is private." error on youtube, the error may be caused because the video is private to GitLab Unfiltered and you are accessing the video with your individual YouTube account.
 In order to see the video,
+
 1. Click your photo or icon in the upper right corner of YouTube.
 
 1. Then Click > Switch Account
@@ -230,7 +231,7 @@ Check out [this video](https://www.youtube.com/watch?v=dZtCuOf5aGk) for a visual
 
 ## Access
 
-1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
+1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 1. GitLab Unfiltered: Everyone should get access to YouTube Unfiltered during onboarding. If you do not see an invitation in your Inbox, please check the [Pending Invitations](https://myaccount.google.com/brandaccounts) section of your Google Workspace account. If your invitation is not there, please request a new invitation in the `#people-connect` Slack channel.
 
 For People Connect troubleshooting:
@@ -260,7 +261,7 @@ The GitLab Unfiltered YouTube account **should not** be subscribed to any channe
 The GitLab Unfiltered YouTube account is a shared space. Sometimes team members might accidentally [comment](#commenting) or [subscribe to channels](#subscribing-to-channels) thinking they are on a personal account.
 
 If you see a channel subscription or comment that violates the rules of this handbook, please take a bias-for-action to keep the GitLab Unfiltered
-YouTube account pristine. Delete any accidental channel subscription or comment to return the YouTube account to a pristine state. If you are unable 
+YouTube account pristine. Delete any accidental channel subscription or comment to return the YouTube account to a pristine state. If you are unable
 to remove the relevant comment or subscription, please notify people-connect@gitlab.com immediately.
 
 ## Organizing
@@ -303,7 +304,6 @@ The below instructions apply to livestreams to YouTube.
 
 #### Useful links
 
-
 - [My Live Events: schedule and review upcoming live events](https://www.youtube.com/my_live_events)
 - [YouTube live streaming introduction page](https://support.google.com/youtube/answer/2474026?hl=en) - Here you can check if your channel meets all requirements for live streaming
 - [YouTube tutorial on setting up a live stream](https://support.google.com/youtube/answer/2853700?hl=en) - If you need extra help or information on setting up a YouTube live stream in general
@@ -343,11 +343,11 @@ Depending on your needs, you might want use software to provide overlays and/or 
 
 ### Encoder
 
-- [OBS Studio Win/Mac/Lin Open Source](https://obsproject.com/) or install with 'brew cask install obs' on mac
+- [OBS Studio Win/Mac/Lin Open Source](https://obsproject.com/) or install with 'brew install --cask obs' on mac
 
 ### Audio Rerouting
 
-- [Soundflower Mac Open Source](https://github.com/mattingalls/Soundflower) or install with `brew cask install soundflower`
+- [Soundflower Mac Open Source](https://github.com/mattingalls/Soundflower) or install with `brew install --cask soundflower`
 - [Loopback Mac Closed Source](http://www.rogueamoeba.com/loopback/) - Great closed source alternative
 - [Windows alternatives](https://www.reddit.com/r/audioengineering/comments/3geqse/soundflower_alternative_on_windows/)
 - [Linux alternatives](http://askubuntu.com/questions/602593/whats-a-good-soundflower-replacement-for-ubuntu)

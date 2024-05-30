@@ -31,8 +31,6 @@ Over the past few years GitLab has made commitments to our community around the 
 1. We will alert the community when any changes to our [service usage data](/handbook/product/index.html.md) processes and/or policies occur.
 1. We will not implement telemetry in our products which sends identifiable usage data to a third-party product analytics service [source](https://about.gitlab.com/blog/2019/10/10/update-free-software-and-telemetry/)
 
-
-
 ##### Definition of Analytics Data
 
 Analytics Data can be too generic of a term. The list below are the specific types of Product data that is in scope:
@@ -40,8 +38,6 @@ Analytics Data can be too generic of a term. The list below are the specific typ
 - [Service Ping](/handbook/product/analytics-instrumentation-guide/#service-ping) - aggregate counts of product usage from a GitLab instance
 - [Snowplow](https://snowplowanalytics.com/) Events - dynamic events collected from either a client or server.
 - [Database events](/handbook/product/analytics-instrumentation-guide/#database-import) - using Database records from gitlab.com to measure and understand usage
-
-
 
 ## Data Pseudonymization
 
@@ -57,7 +53,6 @@ While we will be pseudonymizing personal information for individual users, there
 1. We will collect `namespace_ID`, it can be used to identify the namespace name (which may be a personal name) via our API you can only return namespace information for namespaces you are a member of.
 1. In the case of single user subscribers, product usage activity can be tied back to an actual user (internally) via metadata in our enterprise applications.
 
-
 #### Analytics Instrumentation Roadmap
 
 Our [pseudonymization process](https://gitlab.com/groups/gitlab-org/-/epics/6309#proposed-solution) to de-identify [personally identifiable data](https://gitlab.com/gitlab-org/gitlab/-/issues/336779#considered-data-for-pseudonymization) which relies on [one-way hashing](https://gitlab.com/groups/gitlab-org/-/epics/6309#one-way-hashing) is was released in milestone 14.4 (October 2021).
@@ -70,7 +65,7 @@ Next up for our [roadmap](https://about.gitlab.com/direction/analytics/analytics
 
 ## Related Content
 
-1. [GitLab's Privacy Policy](/privacy/)
+1. [GitLab's Privacy Policy](https://about.gitlab.com/privacy/)
 1. Updates to Pseudonymizing Service Usage Data blog post: *coming soon*
 1. [Update on Free Software and Telemetry](https://about.gitlab.com/blog/2019/10/10/update-free-software-and-telemetry/)
 1. [Product Usage Tracking Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/5672)

@@ -91,7 +91,7 @@ If the metrics are at or below the following floors for 2 sustained weeks, manag
 1. Combined SSAT (L&R, GitLab SM and GitLab SaaS) at or below 93%
 1. Combined NRT (L&R, GitLab SM and GitLab Saas) at or below 83%
 
-This action is unique to Support and is somewhere in-between a [Rapid Action issue](/handbook/engineering/development/#rapid-action-issue) and a [Working Group](/handbook/company/team/structure/working-groups/).
+This action is unique to Support and is somewhere in-between a [Rapid Action issue](/handbook/engineering/development/#rapid-action-issue) and a [Working Group](/handbook/company/working-groups/).
 
 The purpose of the group will be unique to each situation that triggers it, but generally the members will:
 

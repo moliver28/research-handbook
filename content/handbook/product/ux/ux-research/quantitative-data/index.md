@@ -58,7 +58,7 @@ Before starting any kind of quantitative research, it is important to identify y
 
 #### How do I collect data?
 
-At GitLab, there are two main approaches to collecting data: 1) [querying from usage data in Sisense](/handbook/business-technology/data-team/platform/sisensecdt/) see this [handbook page](/handbook/product/ux/ux-resources/designers-guide-to-data/#how-is-data-being-captured) for more information on GitLab's data sources and/or 2) using survey data.
+At GitLab, there are two main approaches to collecting data: 1) querying from usage data in Snowflake or Tableau - see this [handbook page](/handbook/product/ux/ux-resources/designers-guide-to-data/#how-is-data-being-captured) for more information on GitLab's data sources - and/or 2) using survey data.
 
 You can use these two data sources to build a comprehensive understanding of your problem. For example, you might use usage data to first understand the user population you are looking at and then identify where you will need to go to get more data. Once you understand your user population, you might use a survey to uncover additional insights.
 
@@ -97,6 +97,7 @@ There are dozens of ways to [lie with visualizations](https://handsondataviz.org
 #### Summarizing quantitative data
 
 This section covers how to read visualizations, look for trends, and turn the results into insights. Start by looking for any kind of patterns. Some examples are:
+
 - Cyclic patterns based on time
 - Similarities or differences when comparing across one category or more
 - Data that is consistently increasing or decreasing.
@@ -119,6 +120,7 @@ Based on these charts, it is evident that there is a huge decline in issues clos
 #### State the limitations of your data
 
 When sharing your research, state what you believe are the limitations that may have impacted your results. For example, if your data:
+
 - Is missing a collection of users
 - Includes usage from only the last 3 months
 - Has concerns about its accuracy

@@ -38,6 +38,7 @@ Working all-remotely underpins our other values, too like our value of [diversit
 When creating a branch to work in git, you name the branch. During a recent, live-streamed coaching session on collaboration, Sid explained why he does not include his personal initials or name in his branch names. He doesn’t want to discourage others from contributing to his work. As he put it, “It’s not SidLab, it’s GitLab.”
 
 Many such anecdotes attest to Sid’s demonstration of collaboration, transparency, and our other values. A notable few of the many examples of his leadership include:
+
 - [Sid's README](/handbook/ceo/)
 - GitLab’s [CEO Shadow Program](/handbook/ceo/shadow/)
 - Our [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos) YouTube channel, where Sid often shares recordings and live streams of his meetings, while encouraging us to do the same
@@ -56,9 +57,10 @@ In the [Bloomberg interview](https://youtu.be/AtfE4rB0kis) below, Sid describes 
 
 ### The proof of the pudding
 
-With Sid’s leadership, GitLab is emboldened to capitalize on and share our own DevOps journey in [pieces like this blog post](https://about.gitlab.com/blog/2019/10/03/gitlab-journey-to-cicd/). As converts we are zealots, all the better able to build software that helps our customers in their DevOps journeys. [Thousands of GitLab community members](/community/contribute/) and employees have contributed to making this work, but as our co-founder and CEO, we have Sid most of all to thank for enabling us to forge a better future for work.
+With Sid’s leadership, GitLab is emboldened to capitalize on and share our own DevOps journey in [pieces like this blog post](https://about.gitlab.com/blog/2019/10/03/gitlab-journey-to-cicd/). As converts we are zealots, all the better able to build software that helps our customers in their DevOps journeys. [Thousands of GitLab community members](https://about.gitlab.com/community/contribute/) and employees have contributed to making this work, but as our co-founder and CEO, we have Sid most of all to thank for enabling us to forge a better future for work.
 
 The proof of the pudding is in the eating, and Sid’s way of working is not only generous, it’s also generative. Highlights of our growth in 2019 include:
+
 - [$268M in series E funding with a $2.75B valuation](https://about.gitlab.com/blog/2019/09/17/gitlab-series-e-funding/), doubling in less than a year
 - 143% growth rate in annual recurring revenue, showing customer satisfaction and strong demand, [with an expectation of $100M ARR in January, 2020](https://techcrunch.com/2019/12/13/the-newest-members-of-the-100m-arr-club/)
 - 2.5x growth in [team members](/handbook/company/team/) from 431 to 1095, and very much still growing

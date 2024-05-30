@@ -5,7 +5,7 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-As members of GitLab's [Product Security sub department](/handbook/security/security-engineering/), the [Infrastructure Security](/handbook/security/security-engineering/infrastructure-security/) engineers own security initiatives related to security of GitLab.com. They are Infrastructure's stable counterparts in the Security department, and as such work with various Infrastructure and Security teams to identify and mitigate security issues, vulnerabilities, and misconfigurations by applying their in-depth knowledge of operating systems, infrastructure, and cloud providers. They work very closely with the Security Incident Response Team and share their findings in a proactive manner. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user’s data safe in an ever changing threat landscape.
+As members of GitLab's [Product Security sub department](/handbook/security/product-security/), the [Infrastructure Security](/handbook/security/product-security/infrastructure-security/) engineers own security initiatives related to security of GitLab.com. They are Infrastructure's stable counterparts in the Security department, and as such work with various Infrastructure and Security teams to identify and mitigate security issues, vulnerabilities, and misconfigurations by applying their in-depth knowledge of operating systems, infrastructure, and cloud providers. They work very closely with the Security Incident Response Team and share their findings in a proactive manner. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user’s data safe in an ever changing threat landscape.
 
 ## Responsibilities
 
@@ -143,7 +143,7 @@ The  Infrastructure Security Manager is a [grade 8](/handbook/total-rewards/comp
 - Robust understanding of security issues, mitigations, and a solid grasp of the current global threat landscape
 - Experience with the role of an incident manager during medium and large scale security events
 - First hand experience with major cloud providers - GCP, AWS, Azure, Digital Ocean
-- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ### Senior Manager, Infrastructure Security
 
@@ -177,22 +177,7 @@ The Infrastructure Security Team Senior Manager is a [grade 9](/handbook/total-r
 - Robust understanding of security issues, mitigations, and a solid grasp of the current global threat landscape
 - Experience with the role of an incident manager during large scale security events
 - Familiarity with major cloud providers - GCP, AWS, Azure, Digital Ocean
-- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/team/structure/#management-group).
-
-## Security Logging Specialty
-
-The Security Logging Team is a specialty extension of the Infrastructure Security Team, and have these additional responsibilities:
-
-- Be part of the architectural direction, administration, maintenance, documentation, and oversight of the Security information and event management [[SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management)] solution
-- Create and maintain integrations and solutions for the log collection, aggregation, indexing, search, alerting
-- Manage implementation, enhancement and adoption of the solutions built by the team into operations
-- Utilize log ingestion platform for security analytics and identification of tactics, techniques and patterns of attackers
-- Conduct incident response investigations
-- Collect and review security logs from all systems (Cloud Providers, GitLab, OS, G-Suite, OKTA, IDS, etc.)
-- Ensure compliance with internal policies, standards, and regulatory requirements
-- Contribute to creation of runbooks
-
-More information can be found here [Security Logging Team Job Family](/job-families/security/security-logging/)
+- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group).
 
 ## Performance Indicators
 

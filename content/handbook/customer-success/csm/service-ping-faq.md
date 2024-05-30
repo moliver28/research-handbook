@@ -11,11 +11,12 @@ title: "Service Ping FAQ"
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 
 ## What is Service Ping
 
 Service Ping generates customer analytics on self-managed instances that enable GitLab to collaborate with our customers to accelerate value attribution, achieve return-on-investment (ROI) goals, and accomplish business outcomes with the GitLab solution. Specifically, it helps GitLab understand product adoption to:
+
 1. Ensure adoption is aligned to business outcomes (i.e., goals, timelines, etc).
 1. Understand usage for industry and best practice recommendations
 1. Recommend features or capabilities that maximize solution value based on:
@@ -24,10 +25,9 @@ Service Ping generates customer analytics on self-managed instances that enable 
 1. Enable User Cohorts and GitLab DevOps Score that provides an overview of customers’ adoption of  Concurrent DevOps from planning to monitoring
 1. Track usage and adoption over time
 
-For the definition of each metric, please see our [Service Ping Metrics Dictionary](https://metrics.gitlab.com).  
+For the definition of each metric, please see our [Service Ping Metrics Dictionary](https://metrics.gitlab.com).
 
 [Links to other ways Service Ping is used by Customer Success](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/)
-
 
 ## How Does Service Ping Help Me?
 
@@ -45,13 +45,14 @@ Service Ping provides insights into your teams’ usage of GitLab to enable you 
 
 GitLab collects product usage data from self-managed GitLab instances (Community Edition and Enterprise Edition) through a service ping, you can view a [sample here](https://docs.gitlab.com/ee/development/service_ping/index.html#example-service-ping-payload). Please see [GitLab Privacy Policy](https://about.gitlab.com/privacy/) for additional details.
 
-### 2. It's a corporate security policy that we don't send data to vendors.
+### 2. It's a corporate security policy that we don't send data to vendors
 
 GitLab can collaborate with you to understand your security controls and regulatory requirements that you have to meet. We've seen several risk-mitigating solutions where similar concerns regarding "outbound data transfers", and data leaving a secured boundary. Are there specific team members from security/compliance/privacy organizations that might provide additional insights? We understand your concerns and would be happy to have a call with our respective security teams to help resolve issues you may have. Before our call, GitLab will request you provide the specific compliance requirements you may have.
 
 ### 3. Is there a way we can share this data manually so that we can review it before it goes out?
 
 Yes, you are able to extract this information manually and review prior to sending to GitLab. Here are the steps:
+
 1. Login to your gitlab instance as administrator
 1. Navigate to the admin section of the Interface by clicking the "wrench" at the top navigation ribbon of the homepage
 1. At the left navigation panel, hover over the "Settings" –> and click on "Metrics and Profiling"
@@ -62,7 +63,7 @@ Copy and paste this information into a text file, encrypt and send to GitLab or 
 
 ## 4. Can customers visualize the data?
 
-At this time, it will be a manual process to save each ping and analyze the metrics over time. We are starting to explore the possibilities to enable customer visualization and/or analysis.
+At this time, you can access the data through [a REST API connection](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data). We are starting to explore the possibilities to enable customer visualization and/or analysis.
 
 ## 5. How do we ensure that you don't change what's in the payload to include things we don't want to share? How do we re-verify this with each new release in a way that doesn't take a lot of time or effort?
 
@@ -88,6 +89,8 @@ You can view the payload at "/admin/application_settings/metrics_and_profiling" 
 Product Documentation: Deactivate the Service Ping
 
 **Important Documentation links**
+
 1. [Admin Settings for Service Ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#service-ping)
 1. [Usage Statistics Collected](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#usage-statistics-collected)
 1. [Network Configuration](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#network-configuration)
+1. [Accessing Service Ping through REST API](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data)

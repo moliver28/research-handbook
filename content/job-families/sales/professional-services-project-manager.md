@@ -94,6 +94,6 @@ All of the requirements of an intermeidate Project Manager plus the following:
   - To a Engagement Manager role
 - The next steps for a Manager, Professional Services would be to move into a Senior Manager within this Job Family or to the [Professional Services Engagement](/job-families/sales/job-professional-services-engagement-manager/) Job Family or the [Director of Professional Services](/job-families/sales/director-of-professional-services) Job Family.
 - The next steps for a Senior Manager, Professional Services would be the [Professional Services Engagement](/job-families/sales/job-professional-services-engagement-manager/) Job Family or the [Director of Professional Services](/job-families/sales/director-of-professional-services) Job Family.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 To learn more, see the [Professional Services Engineer handbook](/handbook/customer-success/professional-services-engineering)

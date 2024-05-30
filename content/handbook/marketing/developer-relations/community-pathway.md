@@ -44,7 +44,6 @@ The GitLab Community is also able to:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/JGiwxKnxeRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-
 ### How community fits into GitLab's strategy
 
 GitLab is the DevOps Platform, made possible by contributions from the community. The GitLab community is composed of our paid and free users, contributors, team members and anyone in the general community who has interacted with GitLab in whatever form. Learn more about our strategy in the links below.
@@ -57,7 +56,7 @@ GitLab is the DevOps Platform, made possible by contributions from the community
   * [Unique Wider Community Contributors Per Month](/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month)
   * [Percent of Feature Community Contributions](/handbook/engineering/quality/performance-indicators/#percent-of-feature-community-contribution-mrs)
   * [Wider Community merged MRs per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release)
-  * [Developer Evangelism Monthly Impressions](/handbook/marketing/developer-relations/performance-indicators/#developer-evangelism-monthly-impressions)
+  * [Developer Advocate Monthly Impressions](/handbook/marketing/developer-relations/performance-indicators/#developer-advocacy-monthly-impressions)
 
 ### GitLab's community programs
 
@@ -66,9 +65,10 @@ GitLab is the DevOps Platform, made possible by contributions from the community
 Ensuring everyone can contribute requires a concious effort to ensure the community is enabled and supported with the right tools they need, thats where the Community team at GitLab plays a crucial role with programs that target different parts of the community. From the Open source community to the academia, startups and individual contributors, the team supports them in various ways. You can learn more about the individual programs in the section below.
 
 #### Community Programs
+
 * Free community programs:
   * [OSS](/handbook/marketing/developer-relations/community-programs/opensource-program/)
-  * [Developer Evangslism](/handbook/marketing/developer-relations/developer-evangelism/)
+  * [Developer Evangslism](/handbook/marketing/developer-relations/developer-advocacy/)
   * [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
   * [StartUps Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
 * Meetups and evangelism
@@ -81,10 +81,9 @@ Ensuring everyone can contribute requires a concious effort to ensure the commun
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TJhdmOma4ZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-
 ### Open source community best practices
 
-Building an inclusive and transparent community is a top-most priority for the Community Team and we live by our GitLab values, which includes Diversity/Inclusion & Transparency. Below, we maintain a living list of community best practices for the GitLab Community and from other communities. 
+Building an inclusive and transparent community is a top-most priority for the Community Team and we live by our GitLab values, which includes Diversity/Inclusion & Transparency. Below, we maintain a living list of community best practices for the GitLab Community and from other communities.
 
 * [Fostering DIB in our community](/handbook/values/#diversity-inclusion)
 * [Transparency and openness](/handbook/values/#transparency)
@@ -95,13 +94,12 @@ Building an inclusive and transparent community is a top-most priority for the C
 * [The Value of Open Source](https://www.redhat.com/en/blog/value-open-source)
 * [Mozilla Community Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
 
-
 ### Join us
 
 The community team has always partenered with internal and external teams to empower the community and we are always seeking collaboration to do more. Every community program has an Issue board where you can create an issue to kickstart a collaboration of if you are a GitLab team member and unsure of where to start, you can always drop by the `#developer-relations` channel on slack.
 
 * How to collaborate with the Developer Relations team
   * [Project management](/handbook/marketing/developer-relations/project-management/)
-  * [Community Response](/handbook/marketing/developer-relations/developer-evangelism/community-response/)
+  * [Community Response](/handbook/marketing/developer-relations/developer-advocacy/community-response/)
 * Get started contributing to GitLab
   * [Developer Portal](https://developer.gitlab.com/)

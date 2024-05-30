@@ -5,14 +5,13 @@ description: "Editing and creating content using Contentful"
 ---
 
 
+## What is Contentful?
 
-# Contentful Guide
+The Digital Experience team has migrated the [marketing site](https://about.gitlab.com/) to our new CMS tool, Contentful. Contentful is a Content Management System - it replaces all of the text files in our marketing site and replaces them with different Content Entries. Contentful also has a Media Library, where we are moving our images.
 
-The Digital Experience team is currently migrating the [marketing site](https://about.gitlab.com/) to our new CMS tool, Contentful. This work is ongoing throughout FY24Q4 and into the new year, but we are starting to onboard different teams onto Contentful so that they may self-serve their own content changes. 
+## Why transition to a CMS?
 
-### What is Contentful?
-
-Contentful is a Content Management System. It replaces all of the text files in our marketing site (such as events.yml) and replaces them with different Content Entries. Contentful also has a Media Library, where we are moving our images. 
+As the GitLab marketing team and the marketing site evolves, we need a collaborative tool that allows for consistency across the marketing site.
 
 ### Contentful terminology
 
@@ -22,91 +21,118 @@ Contentful is a Content Management System. It replaces all of the text files in 
   - Molecules: Typically contain a combination of Atoms. Example: Hero, Card Group
   - Organisms: Commonly contain many Molecules or Atoms and are considered more complex. Example: Page
 - Entry: An Entry is considered one piece of content in a content type. For example, there are many Cards across the marketing site, but the Free card on the pricing page is one example of a Card Entry.
-- Field: Even the most basic Content Type typically has multiple fields. For example, a Button may seem small, but some fields it contains include the url it points to, the text on the button, perhaps an icon, maybe some tracking data. Each of these are considered Fields of the Button Content Type. 
+- Field: Even the most basic Content Type typically has multiple fields. For example, a Button may seem small, but some fields it contains include the url it points to, the text on the button, perhaps an icon, maybe some tracking data. Each of these are considered Fields of the Button Content Type.
 
-### Editing existing content in Contentful
+## Which pages on our marketing site draw from the CMS?
 
-When opening Contentful for the first time, you'll find all of our marketing site content under the Content tab. 
+Some pages still draw content from our Buyer Experience git repository due to page complexity and/or strict page ownership. Most of the content for our marketing site will be found in Contentful.
 
-1. If you haven't already, select the Content tab at the top of the page.
-2. From here, you can either search for a string of text, or filter down by different Content Types. 
-   1. To search for a string of text, enter your search term into the search bar at the top of the page, and make sure that you set `Content Type: Any` . This will globally search all Entries across our marketing site.
-   2. If you know that your content lives inside of a Hero, you can select the `Content Type: Hero` and enter your search term from there. 
-   3. If you know that your content is on a particular page, such as the /resources/ page, you can filter by Content Type: Page, and sort the results alphabetically until you find the Resources page.
-3. Once you have found the content in question, click on the Entry so that a sidebar appears with all of the fields in that Entry. From here, you'll see all of the fields on that particular piece of content, and can edit the field in question. 
-4. To publish the changes live to production, click the green Publish button. This will kick off a pipeline and your changes will be available on the site within about 10 minutes. 
-5. *Coming Soon*: We are making improvements to the live preview process, as well as hooking up review apps to our workflow. At this time, although there is no way to preview content before publishing, we are working on many improvements
+| Subdirectory | Source | Notes |
+| ------ | ------ | ------ |
+| / (Homepage) | Contentful | Moving to GitLab ([issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3694)) |
+| /blog | Contentful | ------ |
+| /company | Contentful | ------ |
+| /customers | Contentful | ------ |
+| /diversity-inclusion-belonging/|  Contentful | Moving to GitLab (Issue TBD) |
+| /events | Contentful | ------ |
+| /faster-together/ | Contentful | ------ |
+| /features | Contentful | Moving to GitLab ([issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3695)) |
+| /free-trial | Contentful | ------ |
+| /get-started | Contentful | ------ |
+| /gitlab-duo | GitLab | ------ |
+| /partners | Contentful | ------ |
+| /platform |  Contentful | Moving to GitLab ([issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3696)) |
+| /press | Contentful | ------ |
+| /pricing | Contentful | Moving to GitLab ([issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3693)) |
+| /privacy | Contentful | Moving to GitLab (Issue TBD) |
+| /releases | GitLab | ------ |
+| /resources | Contentful | ------ |
+| /solutions | Contentful | ------ |
+| /support | Contentful | ------ |
+| /topics | Contentful | ------ |
+| /why-gitlab | Contentful | Moving to GitLab (Issue TBC) |
+| Marketing campaign flows (ex-Pathfactory) | Contentful | ------ |
+| Navigation | Contentful | ------ |
 
-### Creating new content in Contentful
+## How do we make changes to the marketing site with the CMS?
 
-The process for creating new content in Contentful is varied. 
+As owners of the marketing website, the digital experience team handles most large changes in order to drive business goals. However, we are not necessarily the subject matter experts and will defer to various teams when it comes to editing content. In general, these are the processes we try to adhere to:
 
-1. For creating a new entry of an _existing_ type of content, such as a new Case Study page or Blog Post, you can simply duplicate an existing content type and fill in your new content. This also holds true for something like adding a new card to a group of cards. Example for adding a new Case Study
-   1. Select the Content tab 
-   2. Filter by Content Type: Case Study. You should see a list of existing customer case studies.
-   3. At the top right corner, click Add Entry -> Case Study
-   4. Fill in the fields following the same schema as an existing Case Study (you can keep two separate tabs open and refer back to an existing entry as needed).
-2. For creating a _brand new_ section of content that doesn't exist on the marketing site, you may need Digital Experience assistance, but you can start by creating the Entry. 
-   1. Find the Page you'd like to add content to by using the Content Type: Page filter, then click on the page in question.
-   2. At the bottom of the page editor, Add Content -> Select the content type you're looking for, and fill in the fields accordingly
-   3. Create an [issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) with the Digital Experience team to make sure that the code on that page can handle your new Entry.
-3. For creating a new section of content when the content _already exists elsewhere_ (such as the wall of Gartner badges on our homepage), you can do the following steps to insert that existing entry into the page of your choosing:
-   1. Navigate to the page you'd like to add content to
-   2. At the bottom of the Editor, click Add Content -> Add Existing Content
-   3. Use the search bar to search for a string of text, or the content type you'd like to add. 
-   4. Reach out to the Digital Experience team with a link to the page you've added content to - some pages were built to only handle certain types of content, and we may need to update the code of that page to look for your new addition. 
-   5. With thumbs up from the Digital Experience team, click the Publish button.
-   6. Note that if you grabbed an existing piece of content and added it to another page, anytime that content is updated the updates will be reflected on both pages. 
-4. To create a _net new page_, please fill out an [issue with the Digital Experience team](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#). We will likely need resources from the content team, design team, and engineering team to set up a new page. 
+### For Top 10 (most visited/impactful) Pages
 
-### Video Walkthrough of Contentful
+Any changes required for the following changes, must begin with an issue for the DEX team to reivew. Please create an issue per [this process](/handbook/marketing/digital-experience/#issue-template-to-submit-an-idea-to-drive-our-business-goals).
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/6pdXijDzYkg?si=8JbdUBmzPHcWgzTk" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+- [Homepage](https://about.gitlab.com/)
+- [Pricing](https://about.gitlab.com/pricing/)
+- [Free Trial](https://about.gitlab.com/free-trial/devsecops/)
+- [Why GitLab](https://about.gitlab.com/why-gitlab/)
+- [GitLab Duo](https://about.gitlab.com/gitlab-duo/)
+- [Platform](https://about.gitlab.com/platform/)
 
+These pages have been developed through a data-driven design process with cross-functional collaboration and approval. Changes can be suggested however changes will only be made if they are alignment with GitLab marketing goals.
 
-### Scheduling
+### For component editing, re-arranging, adding new page sections, significant content changes
 
-1. Look for the "Set Schedule" button in the dropdown next to the Publish button to schedule a release of content.
-2. In the "Set Schedule" modal, confirm a date and time and click "Set Schedule".
-3. On the right hand side of the entry you can view and manage all scheduled actions. This allows you to see what is scheduled to be published, and you can also cancel or modify scheduled actions if plans change.
-4. When the entry is published our automation is triggered and a production build starts. We recommend leaving a 10-15 minute buffer before your desired release time for the production build to run.
-   - **Example:** There is a need to release a blog post at 9:00am EST, by setting the scheduled date and time to 8:45am EST we can expect the changes to be live on production around 9:00am EST.
+If you'd like to make changes to a page that typically is managed by another team, please tag that team prior to publishing your changes. A rough overview of ownership of different sections can be seen in the table below:
+
+#### Table of page ownership
+
+| Team | Pages/Sections |
+| ------ | ------ |
+| CMSO - Chief of Staff |Company Announcements |
+| Marketing Operations and analytics - Globalization & Localization | Marketing site localization |
+| Integrated Marketing - Digital Strategy | SEO |
+| Integrated Marketing - Corporate Events | Events pages |
+| Integrated Marketing - Regional Marketing | Events, Resources, Marketing pages |
+| Product Marketing - Global Content | Blog, Case studies |
+| Product Marketing - Product & Solutions Marketing | Solutions pages, Topics pages |
+| Product Marketing - Brand Strategy | Brand activations, Assets |
+| Dev Relations & Community - Contributor Success | Technical articles |
+| Dev Relations & Community - Developer Relations | Technical articles, Community pages |
+| Corporate Communications | Company Announcements, Press releases |
+
+### For typos, broken links, small content changes
+
+Contentful is great tool for making small updates to the content on any given page.
+
+- If you are a team that typically manages the content on the page in question, you should feel empowered to make the change and publish your changes.
+- If you're changing content on a page that typically doesn't belong to you but is an obvious mistake, please also go ahead and publish your changes.
+- If you're making a change on a page that affects the tone of the page and are not an owner, please tag someone from the presiding team in the contentful comments section (or in an issue/MR/slack) prior to publishing your changes. This is not typically the Digital Experience team, but rather the relevant team that owns that content. We have created a rough table of ownership [here](#table-of-page-ownership) to be used as a guide.
 
 ### Roles and Permissions
+
+We have various levels of access in Contentful. Most new members that are invited to the CMS are given Creator access, which allows them to edit content without publishing it. To get upgraded to Publisher access, please [reach out to the digital experience team](#requesting-assistance-from-digital-experience) in slack.
 
 - *Administrator*: has full access to everything in the space.
 - *CMS Administrator*: can create, read, update, publish, and delete all content aside from `Confidential` entries. Can modify space settings, access existing API keys, and can create and update API keys.
 - *Confidential*: can create, edit, publish, archive and delete all content in a space, including `Confidential` content.
 - *Creator*: can create and edit all content in a space (aside from `Confidential` content), but cannot publish it.
 - *Publisher*: can create, edit, publish, archive and delete all content in a space (aside from `Confidential` content). This person should be able to administer their own team.
-- *Reviewer*: can edit all content in a space (aside from `Confidential` content), but cannot publish it.
 
+### The `Review: DEx` tag and permissions
 
-## Getting help with Contentful
+Content that requires Digital Experience review prior to publishing is tagged with the `Review: DEx` tag. This has been configured in Contentful such that only users with a role of `CMS Administrator` in the about.gitlab.com space will be able to publish this content. Users with `Publisher` access and below will not be able to publish this content.
 
-### Contentful Office Hours
+*Note: If a user is a `CMS Administrator` in the space, but they are also on a team that only has `Publisher` access to that space, Contentful will default to the lowest level of access (`Publisher`). Be sure to check if a user is on a team if they are having trouble accessing content.*
 
-The Digital Experience team will be hosting weekly drop-in office hours for specific questions, walkthroughs, or feature requests. We can screenshare and work through issues together. The office hours are on the digital experience calendar, and are being added to the marketing team calendar.
+The `Review: DEx` tag has been added to content on the Pricing page and the Homepage. Any other pages that share an entry with the pricing page or homepage will also be affected by the tag permissions. I.e. if the FAQ section on the pricing page is used on another page, it will only be publishable by `CMS Administrators` regardless of which page a user is accessing it from.
 
-Times: 
-- Every Tuesday from 11:30am EST - 11:55am EST
-- Every second Thursday from 4:00pm EST - 4:55pm EST
+Going forward, if any new entry is added to the pricing page or the homepage, content creators should add the `Review: DEx` tag to that entry. Please note that **the tag does not automatically propagate down to the children of an entry**, so the tag will need to be manually added to each child of an entry. For example, if you add a card that has a button as a child, both the card and the button will need to be tagged manually.
 
-### Digital Experience Slack Channel
+To add the `Review: DEx` tag to an entry in Contentful, go to the Tags tab of that entry, and use the dropdown to select the `Review: DEx` tag and hit Enter, and publish the change.
 
-For urgent requests, reach out to our team in #digital-experience-team on slack. 
+## Resources for learning
 
+1. [Editing Content](/handbook/marketing/digital-experience/contentful-cms/editing-content)
+2. [Custom Pages](/handbook/marketing/digital-experience/contentful-cms/custom-pages)
+3. [Solutions Pages](/handbook/marketing/digital-experience/contentful-cms/solutions-pages)
+4. [Caveats and Feature Wishlist](/handbook/marketing/digital-experience/contentful-cms/wishlist)
 
+### Requesting assistance from Digital Experience
 
-## Getting access to Contentful
+- Reach out to our team via `#digital-experience-team` on slack
+- Open an issue using our [issue template](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#)
 
-Please fill out an access request [here.](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)
+## Requesting access to Contentful
 
-
-
-
-
+Please fill out an access request [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and tag your manager for approval as well as `@laurenbarker` from Digital Experience, and include the purpose for your request (i.e. to edit the marketing site, to edit the blog - these are managed in different spaces in Contentful). You will recieve an email invitation to Contentful as a `Creator` unless publish access is necessary.

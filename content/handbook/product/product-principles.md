@@ -61,7 +61,7 @@ As a single-application for the entire DevOps lifecycle GitLab strives to enable
 
 ### The Minimal Viable Change (MVC)
 
-We only ship in a [Minimal Viable Product](http://ask.leanstack.com/en/articles/902991-what-is-a-minimum-viable-product-mvp) (MVP) style. We call it Minimal Viable Change (MVC) because our business model is focused on adding additional value to our integrated product suite instead of building separate, new products.
+We only ship in a Minimal Viable Product (MVP) style. We call it Minimal Viable Change (MVC) because our business model is focused on adding additional value to our integrated product suite instead of building separate, new products.
 
 MVC means we deliver the smallest possible solution that **offers value** to our users. To avoid [feature bloat](https://www.productplan.com/glossary/feature-bloat/), we rely on user research to validate whether our idea addresses a market need in a desirable way. This approach sets us up to expend the smallest possible amount of effort to build new capabilities, while learning more about how to best add additional functionality over time.
 
@@ -83,15 +83,17 @@ actual users. This is a much more informative mechanism than the intuition
 of a product person (this doesn't mean we should just build
 whatever feedback tells us, however.)
 
-When considering how to scope a feature for a release, remember that it is ok to ship an "incomplete" feature to customers, assuming that it still offers value, is not broken, does not hurt usability, for UI changes (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#ui-changes)). When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
+When considering how to scope a feature for a release, remember that it is ok to ship an "incomplete" feature to customers, assuming that it still offers value, is not broken, does not hurt usability, for UI changes (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
 
 MVC means reducing the scope so we can ship quickly. It doesn’t mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
 
 Examples:
+
 - Ship a feature through the API and not the UI -  [See this release post](https://about.gitlab.com/releases/2022/09/22/gitlab-15-4-released/#graphql-api-endpoint-for-deleting-attachments-from-project) as a great example of this approach was used to build a GraphQL endpoint for deleting attachment from a project.
 - Exposing a minimal set of functionality  - [See this release post](https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/#admin-area-runners-job-queued-and-duration-times) where a basic read-only page displaying queued jobs was added and more capabilities were added in subsequent releases.
 
 There are scenarios when an MVC approach is not advised. These include:
+
 - When changing core parts of the experience - An example of a core experience is [comments](https://docs.gitlab.com/ee/user/discussions/#comments-and-threads). When building this out for work items, we waited to release the new feature to end users until we reached parity with comments in Issues and MRs.
 
 ### Iteration
@@ -371,20 +373,20 @@ While the AARRR framework is commonly used to drive overall active users, it is 
 ``` mermaid
 classDiagram
   Acquistion --|> Activation
-	Acquistion : Are users aware of the product or feature set?
-	Acquistion: Measurement (Insert Metric)
+    Acquistion : Are users aware of the product or feature set?
+    Acquistion: Measurement (Insert Metric)
   Activation --|> Retention
-	Activation : Are users applying the feature?
-	Activation: Measurement (Insert Metric)
+    Activation : Are users applying the feature?
+    Activation: Measurement (Insert Metric)
   Retention --|> Revenue
-	Retention : Are users applying the feature over time?
-	Retention: Measurement (Insert Metric)
+    Retention : Are users applying the feature over time?
+    Retention: Measurement (Insert Metric)
   Revenue --|> Referral
-	Revenue : Are users paying for the features?
-	Revenue: Measurement (Insert Metric)
+    Revenue : Are users paying for the features?
+    Revenue: Measurement (Insert Metric)
   Referral --|> Acquistion
-	Referral : Are users encouraging others to use the feature?
-	Referral: Measurement (Insert Metric)
+    Referral : Are users encouraging others to use the feature?
+    Referral: Measurement (Insert Metric)
 ```
 
 Add AARRR funnels for your stage or group's Product Performance Indicators directly with mermaid markdown. It's easy if you use this [live editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG4gIEFjcXVpc3Rpb24gLS18PiBBY3RpdmF0aW9uXG5cdEFjcXVpc3Rpb24gOiBBcmUgdXNlcnMgYXdhcmUgb2YgdGhlIHByb2R1Y3Qgb3IgZmVhdHVyZSBzZXQ_ICAgIFxuXHRBY3F1aXN0aW9uOiBNZWFzdXJlbWVudCAoSW5zZXJ0IE1ldHJpYykgXG4gIEFjdGl2YXRpb24gLS18PiBSZXRlbnRpb25cblx0QWN0aXZhdGlvbiA6IEFyZSB1c2VycyBhcHBseWluZyB0aGUgZmVhdHVyZT9cblx0QWN0aXZhdGlvbjogTWVhc3VyZW1lbnQgKEluc2VydCBNZXRyaWMpIFx0XHRcdFx0XG4gIFJldGVudGlvbiAtLXw-IFJldmVudWVcblx0UmV0ZW50aW9uIDogQXJlIHVzZXJzIGFwcGx5aW5nIHRoZSBmZWF0dXJlIG92ZXIgdGltZT9cblx0UmV0ZW50aW9uOiBNZWFzdXJlbWVudCAoSW5zZXJ0IE1ldHJpYykgXG4gIFJldmVudWUgLS18PiBSZWZlcnJhbFxuXHRSZXZlbnVlIDogQXJlIHVzZXJzIHBheWluZyBmb3IgdGhlIGZlYXR1cmVzP1xuXHRSZXZlbnVlOiBNZWFzdXJlbWVudCAoSW5zZXJ0IE1ldHJpYykgXG4gIFJlZmVycmFsIC0tfD4gQWNxdWlzdGlvblxuXHRSZWZlcnJhbCA6IEFyZSB1c2VycyBlbmNvdXJhZ2luZyBvdGhlcnMgdG8gdXNlIHRoZSBmZWF0dXJlP1xuXHRSZWZlcnJhbDogTWVhc3VyZW1lbnQgKEluc2VydCBNZXRyaWMpICIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9).
@@ -410,7 +412,7 @@ graph TD;
     id6 --> id11(Govern - 28%)
 ```
 
-- The percentage here is defined as % of monthly active paid ultimate-tier self-managed instances that adopted that stage. The data is captured directly in the [Golden Journey Paths Sisense chart](https://app.periscopedata.com/app/gitlab/897587/Golden-Journey-Paths) (select only Ultimate - Self-Managed).
+- The percentage here is defined as % of monthly active paid ultimate-tier self-managed instances that adopted that stage. The data is captured directly in the Golden Journey Paths chart (which has been deprecated).
 - The Golden Journey: The bolded path is the "Golden Journey" where we observe as the most common stages adopted by paid customers and serve as foundation to adopt other stages: it starts from Create, then goes to Verify and Release. If the Golden Journey is complete, all stages of GitLab are available for use. Our biggest opportunity is to improve Verify to Release adoption rate.
 
 Note: There are numerous potential variants to this adoption journey, but it's important to keep this representation simple and consistent. Please check with David DeSanto first before making any changes to the adoption journey image.
@@ -547,7 +549,9 @@ a demonstrated need for refinement, onboarding for less sophisticated users, or
 other new abstractions needed that were identified through real-world usage.
 
 ### Component Principles
+
 In GitLab the product, it is sometimes the case that optional software or infrastructure is required to enable new capabilities. Some examples include:
+
 - Infrastructure in the form of Runners are required to enable use of GitLab CI/CD
 - Infrastructure and software in the form of Elasticsearch is required to enable Advanced Search
 - Software in the form of the Kubernetes Agent is required to enable GitOps pull-based workflows
@@ -555,9 +559,11 @@ In GitLab the product, it is sometimes the case that optional software or infras
 The following are best practices we consider when building such components.
 
 #### Start with enabling Developers
+
 As we learned with GitLab CI/CD, the ability for developers to quickly attach needed Runners to enable their own use of GitLab CI/CD allowed for rapid adoption of GitLab CI/CD within an organization. When considering the workflow to enable additional capabilities, start with enabling developers first. A guiding principle should be **low-friction** developer enablement, which will positively impact adoption.
 
 #### Build for production use, not demo use
+
 As we learned from the certificate-based Kubernetes Integration, building starting experiences that support demoing a getting-started process doesn't necessarily translate into real usage. For example, the certificate-based integration lacked strong security primitives and the ability to manage the integration on an ongoing basis. As a result, we should build capabilities that target real-world production use first, even as part of MVCs.
 
 ### Integrate other applications thoughtfully
@@ -599,7 +605,7 @@ With this in mind, below are some product guidelines to consider:
 
 #### Avoid plugins and commercial marketplaces
 
-_Note_ - We intend to provide a place where everyone can contribute, such as [code snippets](https://gitlab.com/gitlab-examples), [project templates](https://docs.gitlab.com/ee/development/project_templates.html) and CI/CD [templates](https://docs.gitlab.com/ee/ci/examples/#cicd-templates). Marketplaces are traditionally transaction based, where users are purchasing solutions. GitLab CI/CD templates on the other hand, will offer an in product experience for consuming templates for YAML configuration from a library of GitLab maintained templates.
+_Note_ - We intend to provide a place where everyone can contribute, such as [code snippets](https://gitlab.com/gitlab-examples), [project templates](https://docs.gitlab.com/ee/development/project_templates.html) and CI components in the [CI/CD Catalog](https://docs.gitlab.com/ee/ci/components/#cicd-catalog). Marketplaces are traditionally transaction based, where users are purchasing solutions. GitLab CI/CD components on the other hand, will offer an in product experience for consuming components for YAML configuration from a library of [GitLab maintained components](https://gitlab.com/components).
 
 Closed source software vendors commonly depend on plugins and commercial marketplaces because:
 
@@ -623,7 +629,7 @@ And for **developers of GitLab** including the third parties, this has significa
 1. Community effort is not wasted on developing multiple plugins that all ultimately do the same thing and compete with each other for usage.
 1. Developers don't have to sacrifice [velocity in favor of predictability](/handbook/engineering/development/principles/#velocity-over-predictability), since they don't have to worry about breaking the plugin API.
 
-Overall, we believe that this approach creates the best possible experience for both the users of and the contributors to GitLab, and to that end we encourage people to [contribute functionality to GitLab directly](/community/contribute/).
+Overall, we believe that this approach creates the best possible experience for both the users of and the contributors to GitLab, and to that end we encourage people to [contribute functionality to GitLab directly](https://about.gitlab.com/community/contribute/).
 
 If adding code directly to GitLab isn't an option, we encourage third-parties to integrate through our [APIs](https://docs.gitlab.com/ee/api/).
 
@@ -632,7 +638,9 @@ _Note: GitLab does support [plugins that respond to system hooks](https://docs.g
 ### Product and feature naming guidelines
 
 #### Give products and features descriptive, not distinctive, names
+
 GitLab is a DevOps Platform, not a collection of DevOps point solutions; the naming of GitLab products and features should reflect this. Adopting descriptive names brings other advantages:
+
 - It's [efficient](/handbook/values/#efficiency). Descriptive names are generally not eligible for trademark registration, avoiding the time, effort, and expense of clearing, filing, and maintaining trademark registrations.
 - It's [inclusive](/handbook/values/#diversity-inclusion). Descriptive names are most accessible to a global audience because they can be directly translated into other languages, reducing the risk of loss of meaning inherent in translating abstract, metaphorical, or colloquial names.
 
@@ -641,6 +649,7 @@ As an [example](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/815)
 Exceptions to this principle are considered in limited circumstances - if a product or feature is a differentiator in the market, adopting a descriptive name risks it getting lost in the _sea of same_. Here, a distinctive name may be justified. To discuss an exception, reach out to [#marketing](https://app.slack.com/client/T02592416/C0AKZRSQ5) in Slack.
 
 #### Use prepositions when referring to third-party products and services in names
+
 When naming a GitLab extension, plugin, app, or integration for a third-party product or service (a "tool"), either include the third-party service name with a preposition like `for`, or don't include it at all. A preposition is important as it indicates that the third party isn't officially affiliated with the tool. For example, our [integration with Jira Cloud](https://docs.gitlab.com/ee/integration/jira/connect-app.html) is called `GitLab.com for Jira Cloud`.
 
 Provided we use the tool's full name in marketing materials and technical documentation, as exceptions to this general principle we can: (1) refer to the tool solely by the third-party service name in places where we list GitLab's tools in product; and (2) refer to the tool solely as "GitLab" in the third-party product's app directory. For example, we refer to the GitLab for Slack app as "Slack" in our lists of GitLab integrations, and as "GitLab" in the [Slack App Directory](https://gitlab.slack.com/apps/A676ADMV5-gitlab?tab=more_info).
@@ -688,6 +697,7 @@ By focusing on next-generation development flows, personas, and use cases - we b
 For example - We first provided the ability to attach Kubernetes Clusters via the Certificate method. After realizing this wasn't optimal for production use cases we added the GitLab Agent for Kubernetes method of cluster attachment. As soon as we were certain that the certificate method was no longer the preferred method we communicated via our docs and in the product that the Agent was the preferred path for current adopters. This should not mean an immediate [deprecation](https://docs.gitlab.com/ee/development/deprecation_guidelines/), but a clear signal that the legacy method will become deprecated once the alternative approach is able to substitute it.
 
 #### Customer Support on all features
+
 {: #support-all-features}
 
 We provide customer support to paying customers on all features that are in the tier of their paid license as well as any lower tiers.

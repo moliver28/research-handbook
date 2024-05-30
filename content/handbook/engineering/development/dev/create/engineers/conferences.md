@@ -1,7 +1,7 @@
 ---
 
 title: Conferences
-description: This page will highlight the benefits of attending conferences 
+description: This page will highlight the benefits of attending conferences
 ---
 
 
@@ -17,7 +17,7 @@ Attending conferences offers the following advantages:
 
 * Networking
 * Improve problem solving abilities
-* Learn new things outside of your interest 
+* Learn new things outside of your interest
 * Share learnings with your team members at GitLab
 * Hear about the latest research
 
@@ -56,7 +56,6 @@ Conferences are a great place to learn about the latest innovations. Attending t
 
 * [GraphQL Summit](https://summit.graphql.com/)
 
-
 ## What are some benefits to presenting at conferences?
 
 On top of all benefits of attending the conference mentioned above, when speaking you also have a chance to
@@ -65,7 +64,8 @@ On top of all benefits of attending the conference mentioned above, when speakin
 * Bolster your personal brand and spread the word about GitLab
 * Improve your public speaking and communication skills
 
-For more information on speaking at conferences, check out the [Speaking Resources](/handbook/marketing/corporate-communications/speaking-resources/) and [Speakers Bureau](/handbook/marketing/developer-relations/developer-evangelism/speakers-bureau/) handbook pages. 
+For more information on speaking at conferences, check out the [Speaking Resources](/handbook/marketing/corporate-communications/speaking-resources/) and [Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/) handbook pages.
+
 ## How do I go about requesting permission to attend a conference?
 
 Contact your manager and inform them of your interest.  Conference attendance will require manager approval. Once approved an issue such as this [one](https://gitlab.com/gitlab-org/frontend/general/-/issues/44) should be created to determine if there is additional interest by other GitLab team members.

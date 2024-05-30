@@ -1,5 +1,5 @@
 ---
-title: Calendly Documentation
+title: Calendly docs
 description: Support Operations documentation page for Calendly
 canonical_path: "/handbook/support/readiness/operations/docs/calendly/"
 ---

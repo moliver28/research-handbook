@@ -9,7 +9,7 @@ GitLab supports all our team members time away needs by offering multiple leave 
 
 As a manager, your team members(s) may come to you with questions, concerns, and/or requests for additional support and guidance.  These resources are intended to highlight which areas in the leave of absence process you are responsible for, and how you can best support your team members throughout the life-cycle of their leave.  No two leaves are ever the same, so there may not always be a “one-size-fits-all” solution. Some leave situations can be exciting and planned for (i.e. Parental Leave) while others may not be able to be planned for and/or may be serious for the team member or their family member.  As a Manager it is important you approach each situation with empathy and kindness, and understand how to best support your team member.  The resources included in these pages are intended to equip you with the information you need to support your team members through the entire life-cycle of their leave.  If you have any questions or need any additional assistance, please contact leaves@domain.
 
-### To-Do List:
+### To-Do List
 
 #### Before the Leave Begins: Your team member informs you they need a leave or more information
 
@@ -150,11 +150,11 @@ A nice way to celebrate a team member's new addition to their family is by hosti
 - Consider participating in the [**Your 4th Trimester program**]({{< ref "general-and-entity-benefits#return-to-work-resources" >}}), a 90-day coaching program to help parents transition back to work.
 - Read [GitLab's guide to parenting as a remote worker](/handbook/company/culture/all-remote/parenting/)
 - Consider reaching out to a [Parental Leave Reentry Buddy](#parental-leave-reentry-buddies)
-- Watch the video below from [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) entitled `How Working Moms can Do it All`:
+- Watch the video below from [Crucial Conversations](/handbook/leadership/crucial-conversations) entitled `How Working Moms can Do it All`:
 
 {{< youtube "IRvsi-zsKvM" >}}
 
-- Watch the video below from [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) entitled `How Working Moms can Ask for Help at Home`
+- Watch the video below from [Crucial Conversations](/handbook/leadership/crucial-conversations) entitled `How Working Moms can Ask for Help at Home`
 
 {{< youtube "6CHPChKAsBE" >}}
 
@@ -162,6 +162,6 @@ A nice way to celebrate a team member's new addition to their family is by hosti
 
 If you have any feedback about your parental leave experience for the People group to review you can always email `leaves@domain` or open an issue using our [Parental Feedback Issue Template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
 
-----
+---
 
 Return to the main [GitLab Benefits page]({{< ref "benefits" >}}).

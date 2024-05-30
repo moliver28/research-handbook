@@ -44,7 +44,7 @@ The Recovery Time Objective (RTO) is the duration of time a service level or bus
 
 For a business continuity plan to be effective, it needs to be triggered as soon as possible; too early or late can reduce its efficacy. Key decision points to consider when a BCP has to be triggered or invoked are given below:
 
-- When an incident turns into an event like a disaster, breach, or something which classifies as a [Severity 1](/handbook/security/#severity-and-priority-labels-on-security-issues)
+- When an incident turns into an event like a disaster, breach, or something which classifies as a [Severity 1](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues)
 - When the estimated time of resolution for a potential breach is greater than the normal estimated time for regular [security incidents](/handbook/security/security-operations/sirt/sec-incident-response.html)
 - When the recovery of an incident is uncertain, a decision must be made to invoke the business continuity plan if the disruption cannot be resolved within the specified [incident recovery timelines](/handbook/security/security-operations/sirt/sec-incident-response.html)
 - When resolution of an incident with critical customers, depending on their service-level agreements is delayed, then the BC plan must be triggered
@@ -65,7 +65,7 @@ GitLab.com and customers.gitlab.com are hosted on Google Cloud Platform. Dedicat
 
 1. Unavailability of support staff in case of a customer emergency.
     - Effect: emergency response times are greater than intended.
-    - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by *any* person who is in the [on-call rotation](/handbook/on-call/). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
+    - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by *any* person who is in the [on-call rotation](/handbook/engineering/on-call/). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
 
 1. Disruption of service of ZenDesk.
     - Effect: support workflows are disrupted. New tickets cannot be created,

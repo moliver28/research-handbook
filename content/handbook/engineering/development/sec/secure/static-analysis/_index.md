@@ -4,16 +4,17 @@ title: "Static Analysis Group"
 
 ## Static Analysis
 
-The Static Analysis group at GitLab is charged with developing the following solutions for customer software repositories:
-- [Static Application Security Testing (SAST)](https://about.gitlab.com/direction/secure/static-analysis/sast/)
-- [Secret Detection](https://about.gitlab.com/direction/secure/static-analysis/secret-detection/)
-- [Code Quality](https://about.gitlab.com/direction/secure/static-analysis/code_quality/)
+The Static Analysis group at GitLab is charged with developing the [Static Application Security Testing (SAST)](https://about.gitlab.com/direction/secure/static-analysis/sast/) feature category for customer software repositories.
+
+## Static Analysis Team
+
+{{< team-by-departments departments="Secure:Static Analysis BE Team" >}}
 
 ## Common Links
 
 - Slack channel: #g_secure-static-analysis
 - Slack alias: @secure_static_analysis_team
-- Google groups: static-analysis-be@gitlab.com
+- Google groups: sec-secure-static-analysis@gitlab.com
 
 ## How We Work
 
@@ -91,7 +92,7 @@ Work in a calendar month is mixed between the **Current milestone** (which will 
 
 #### Week 4
 
-- **Current milestone:** Retrospective conversation held on the just-completed milestone.
+- **Current milestone:** [Retrospective conversation](/handbook/engineering/development/sec/secure/static-analysis/retrospectives_summary) held on the just-completed milestone.
 - MoSCoW session held to review oldest issues still open.
   - Are the opportunities they describe still relevant?
 
@@ -104,6 +105,7 @@ Product development is a team effort and everyone can contribute.
 We interpret prioritized themes as what we're being asked to deliver; we use the entire group's strengths to break down and refine those themes into implementable solutions.
 
 The planning issue serves multiple purposes:
+
  - Within the group and stable counterparts, the issue helps us identify and agree on the scope of work we seek to execute in the next milestone.
  - Outside the group, the issue communicates our priorities and what might be delivered during the milestone.
    - Note: although we seek to deliver on our plans, the planning issue is not itself a _promise_ to deliver a given issue by a certain time.
@@ -111,6 +113,7 @@ The planning issue serves multiple purposes:
 #### Planning issue format
 
 The planning issue includes:
+
 - Prioritized product themes (DRI: Product Manager)
   - Themes are written in priority order, with the most important priority first.
 - Technical writing priorities (DRI: Technical Writing stable counterpart)
@@ -172,13 +175,9 @@ Observability is a critical component to any high-availability system and it is 
 - [SAST Analyzer Registry Traffic](https://log.gprd.gitlab.net/app/dashboards#/view/84aa3f10-89d2-11ec-9dd2-93d354bef8e7?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-24h%2Cto%3Anow)))
 - [SAST Engineering Kibana Dashboard](https://log.gprd.gitlab.net/app/dashboards#/view/1eebd010-9a73-11ec-9dd2-93d354bef8e7)
 
-We also utilize Sisense for long-term trend forecasting. While this is not a recommended observability tool, it can be helpful to recognize trends over time as they surface.
-
-- [Static Analysis analyzer job performance](https://app.periscopedata.com/app/gitlab/833722/Static-Analysis-Analyzer-job-performance)
-
 #### Runbooks
 
-The process for monitoring, responding to, and mitigating incidents is documented within our [Static Analysis Runbooks](/handbook/engineering/development/sec/secure/static-analysis/runbooks.html) page.
+The process for monitoring, responding to, and mitigating incidents is documented within our [Static Analysis Runbooks](runbooks/) page.
 
 ### Software delivery in Static Analysis
 
@@ -317,12 +316,12 @@ back to those projects, especially if critical or high security findings are con
 We have a [dependencies group](https://gitlab.com/gitlab-org/security-products/dependencies) which contains mirrored copies of the OSS projects upon which we most rely. Prior to submitting an MR updating an analyzer to a new version of these projects, engineers are expected to do the following:
 
 1. Find a release branch which matches the new version we wish to ship.
-  1. If one doesn't exist, create it from the corresponding tag.
+1. If one doesn't exist, create it from the corresponding tag.
 1. Push the branch through a pipeline which executes all of our security products.
-  1. Please note, some of these projects have complicated builds. Auto DevOps works sometimes, but projects such as [spotbugs](https://gitlab.com/gitlab-org/security-products/dependencies/spotbugs) can require a custom CI configuration for our scans to be successful. Also, these projects include tests that can be noisy if not filtered out.
+1. Please note, some of these projects have complicated builds. Auto DevOps works sometimes, but projects such as [spotbugs](https://gitlab.com/gitlab-org/security-products/dependencies/spotbugs) can require a custom CI configuration for our scans to be successful. Also, these projects include tests that can be noisy if not filtered out.
 1. Evaluate any potential security vulnerabilities which are found.
-  1. Work with the relevant Open Source community to resolve any Critical or High severity findings.
-  1. GitLab has published [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html), which may be a useful resource to use when trying to solve identified risks.
+1. Work with the relevant Open Source community to resolve any Critical or High severity findings.
+1. GitLab has published [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html), which may be a useful resource to use when trying to solve identified risks.
 
 We do not want to ship updated dependencies which have Critical and High severity vulnerabilities in them. If we find ourselves in this situation, we will
 withhold updates to the dependency until the problems have been patched.
@@ -368,4 +367,18 @@ If there is any question of whether a bug fix or improvement should be taken up 
 
 When a [Customer Success Escalation](/handbook/customer-success/csm/escalations/) is declared, the Engineering Manager and Product Manager should both be alerted, and an appropriate team member should be designated to deprioritize existing work and respond to the escalation as soon as possible.
 
-{{% cross-functional-dashboards filters="Static Analysis" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="static analysis" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
+{{< /tableau >}}

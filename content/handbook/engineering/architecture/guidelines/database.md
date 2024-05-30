@@ -9,7 +9,7 @@ This directive drives GitLab's product development: while GitLab is [*SaaS first
 
 There is no fundamental aversion to multiple data stores, but we want to avoid the pitfalls of having *too many* of them, especially when a variety of data engines are involved. Additonal data stores introduce complexity in terms of management and development. Using new or adopting existing databases will involve tradeoffs, which have to be meticulously managed at scale. We have placed some gatekeepers before a separate data store can be deployed, and the following guidelines are intended to help you determine what the best course of action is and how to proceed.
 
-These guidelines rely heavily on the Database Working Group [glossary](/handbook/company/team/structure/working-groups/database-scalability/#glossary).
+These guidelines rely heavily on the Database Working Group [glossary](/handbook/company/working-groups/database-scalability/#glossary).
 
 ## *We need a new database*
 
@@ -17,9 +17,9 @@ These guidelines rely heavily on the Database Working Group [glossary](/handbook
 
 First and foremost, access to the database (any database) can only happen within the confines of the production environment and relevant access controls and procedures. Features and services requesting new resources must undergo a [production readiness review](/handbook/engineering/infrastructure/production/readiness/).
 
-Second, we need to fully understand what that statement actually means, particularly in terms of the type of data that has to be stored and queried, how tightly coupled it is to the main database, and how schemas and configurations are to be managed. 
+Second, we need to fully understand what that statement actually means, particularly in terms of the type of data that has to be stored and queried, how tightly coupled it is to the main database, and how schemas and configurations are to be managed.
 
-Third, we need to understand what it will mean in terms of resource utilization (space requirements, transaction rates, expected growth for both). 
+Third, we need to understand what it will mean in terms of resource utilization (space requirements, transaction rates, expected growth for both).
 
 Finally, we need to understand if the data requires a new data store engine, since this will have significant implications once it is deployed in production in terms of the deployment itself, on-going maintenance (such as upgrades), observability integrations, and, more importantly, troubleshooting during incidents.
 

@@ -46,9 +46,6 @@ The onboarding program includes individual role-based learning journeys for AEs,
 
 GitLab's role-based learning journeys are based on milestones and enable us to deliver relevant information and training over the first several months at GitLab.
 
-
 ## The Customer-Ready Shadow Program
 
 Shadowing the customer calls of your peers offers a hands-on way to learn how different GitLab roles represent GitLab. We often learn best when we have the opportunity to learn from our peers, practice, and get feedback in an interactive way. It’s also a great way for current team members to make new hires feel welcome and a part of our sales culture at GitLab. [Learn more on the Customer-Ready Shadow Program page.](/handbook/sales/shadow-program/)
-
-

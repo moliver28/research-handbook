@@ -4,232 +4,100 @@ description: Support Operations documentation page for change management
 canonical_path: "/handbook/support/readiness/operations/docs/change_management"
 ---
 
+The exact process for change management can vary from project to project and
+item to item, so when in doubt, it is best to refer to the specific
+documentation for the item in question.
 
-## Process for v2 sync repos
+## Standard Deployments
 
-For any item using a [v2 sync repo](sync_repos/#v2), the process for making
-changes to it will depend on the nature of the change itself:
-
-| Type of change | Method used |
-|----------------|-------------|
-| Significant modification of "backend" code | [For significant changes to backend code](#for-significant-changes-to-backend-code) |
-| Typo fixes, comment changes, etc. of "backend" code | [For minor changes to backend code](#for-minor-changes-to-backend-code)
-| Modification of existing "frontend" code | [For changes to existing frontend code](#for-changes-to-existing-frontend-code) |
-| Creation of a new item | [For significant changes to backend code](#for-significant-changes-to-backend-code) |
-| Deletion or inactivation of an existing item | [For significant changes to backend code](#for-significant-changes-to-backend-code) |
-
-For sake of this documentation, please refer to the following definitions:
-
-- "backend" code refers to the code that makes actual changes to the item in the
-  system it is for
-- "frontend" code refers to content such as webhook payload, comment text, etc.
-
-#### For significant changes to backend code
-
-These would include any changes involving modifying the "backend" code, creation
-of new items, deletion or inactivation of existing items, etc. All of these
-should start as a
-[request for comments issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Request%20for%20Comments)
-within the
-[support-team-meta project](https://gitlab.com/gitlab-com/support/support-team-meta)
-and move from there.
-
-#### For minor changes to backend code
-
-These would include changing involving modifying the "backend" code that are
-small or insignificant to the overall code and deployment itself. The key to
-these is they do not have a real impact on the systems we manage.
-
-As these do not have an impact, a merge request can just be made on the source
-repository itself.
-
-#### For changes to existing frontend code
-
-These will be done via the corresponding Support Project (see
-[Sync Repos](./sync_repos) for a list). As those are not managed by Support
-Readiness, please see the corresponding Support team documentation.
-
-#### Deployments
-
-These are deployed using
-[Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html) on
-the source repository itself. They are run once monthly and are completed
-automated.
-
-All communication and discussion for these should be occurring via the related
-[support-team-meta](https://gitlab.com/gitlab-com/support/support-team-meta)
-issue.
-
-This is the case for all sync repos using v2 typing, with the exception of
-Zendesk Macros (which are deployed instantly when any changes are made to
-"frontend" or "backend" code).
-
-#### Exceptions
-
-At times, a deployment may need to be run *sooner* than the set monthly
-deployment time. In these situations, a corresponding
-[support-team-meta](https://gitlab.com/gitlab-com/support/support-team-meta)
-issue should exist. For these exceptions, Support Director approval is required.
-
-These can be done ad-hoc as needed or in advance (such as knowing something
-needs to be deployed in the middle of the normal deployment cycle).
-
----
-
-**NOTE** The below information may be out of date for recent changes. If
-clarification is needed, please ask Support Readiness
-
-## Standard change management
-
-With the standard change mangement process, we use automations to handle our
-deployments. This shifts the responsibilities you have when working a request
-that would utilize our standard change management process.
-
-Through the automation, all deployments are automatically done on the first of
-the month. This means when you create a request, you should determine if the
-workload required for the request can be done in a proper amount of time so that
-it is completed on the next deployment date. You should consider the time needed
-for development, testing, testing review, and the requester's indicated
-preferences in making your decision.
-
-Once you have decided on the decision, you will add the corresponding milestone
-to the issue (and subsequent MR) to indicate the deployment it belongs to. You
-should also ensure the deployment date the request will fall into is
-communicated to the requester.
-
-Once you are done working the request, you would simply merge the changes into
-the corresponding repository. The automation will handle it from there on the
+For key items, we use a deployment cycle that implements changes on the first of
+every month. This is done automatically via GitLab Pipeline Schedules. So
+anything merged into the various projects will not deploy until the scheduled
 deployment date.
 
-#### Cutoff date
+## Exception Deployments
 
-The cutoff date for new requests to be added into the upcoming deployment is 5
-business days before the next deployment date. Our business days are Monday
-through Friday, so if the deployment day is on a Monday, this would mean the
-previous Monday is the cutoff date.
+In rare situations, items that would normally use a Standard Deployment need to
+be deployed on a different day or time.
 
-Any request filed after the cutoff date will not be able to put into the
-upcoming deployment without approvals from both a Support Director and Readiness
-Director.
+When these situations occur, the process for them should go as follows:
 
-#### Exceptions
+- A Support Manager requests an exception deployment in the support-team-meta
+  issue concerning the topic. This is done by pinging both `@dtragjasi` and
+  `@jcolyer`.
+- `@dtragjasi` and/or `@jcolyer` will make a comment detailing what the impacts
+  of the exception deployment will be. This is done by reviewing what has been
+  merged and is "queued for deployment" in the various areas the topic entails.
+  They should also ping `@lyle` in their comment.
+- `@lyle` will review the request and impacts to make a decision on the
+  feasibility and acceptance of the request on the Support Readiness side. If
+  `@lyle` approves, he will bring this to the Support Directors to have them
+  discuss it.
+- One of the Support Directors, acting as a DRI for the other Support Directors,
+  will voice their approval (or disapproval) of the request.
 
-All exceptions to the standard change management process should be done by a
-Support Readiness, Operations Manager. This member of leadership will analyze
-the milestone and determine what impact the exception will cause. They will then
-explain what the impact of the exception would be, pinging all of the Support
-Directors. The Support Directors would discuss the exception and what impact it
-will have and come back with a decision.
+Should all parties approve the request, Support Readiness will then perform an
+exception deployment. This is done by navigating to the Pipeline Schedules page
+of the various repos being deployed by exception and clicking the
+`Run pipeline schedule` button.
 
-The Support Readiness, Operations Manager will then make the needed changes to
-issues/merge requests in the current milestone to accomodate the exception.
+## Ad hoc Deployments
 
-#### Service level agreements information
+Some of what we manage carries less risk of causing problems and is instead
+deployed ad hoc, meaning that when the merge request is merged, it will deploy
+to its version of production.
 
-The following process is *required* for all Zendesk SLA changes that impact any
-customer facing ticket.
+## Special Deployments
 
-1. An issue should be created in
-   [support-team-meta](https://gitlab.com/gitlab-com/support/support-team-meta/)
-   using the
-   [Requested Change Template](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Requested%20Change).
-1. The support team discusses the desire to change, citing reason and potential
-   impact.
-1. The Support Ops Manager, @jcolyer, is pinged in the issue once the
-   discussion is over and a decision has been reached, with approval from at
-   least ONE Senior Support Manager.
-1. The Support Ops Manager will make an issue in the
-   [legal tracker](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues)
-   requesting the change.
-1. Once legal has approved, the Support Ops Manager will announce the plan to
-   make the SLA change to the support team via both slack (#support_team-chat)
-   and the SWIR. It should be scheduled for the next Saturday, during
-   non-business hours.
-   - If legal does not approve, the Support Ops Manager will update the
-     original issue and close it out.
-1. The Support Ops Manager will implement the change. Following the
-   implementation, the Support Ops Manager will announce the change has been
-   made via both slack (#support_team-chat) and the SWIR.
-1. The Support Ops Manager will update relevant documentation with the change.
-1. The Support Ops Manager will update the original issue and close it out.
+This is a categorization for areas that require very specific deployment methods
+that fall outside of Standard, Exception, and Ad hoc deployments. For more
+information on these, see the documentation page of the item itself.
 
-#### Change Deployment Scripts
+## What uses which type of deployment?
 
-Our standard change deployments are done via scripts running on ops.gitlab.net
-via pileine schedules. You can locate the source code
-[here](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/change-deployment).
+| Item                                 | Deployment Type |
+|--------------------------------------|-----------------|
+| Account Deletion Form                | Ad hoc |
+| Account Deletion Processor           | Ad hoc |
+| ADWR                                 | Ad hoc |
+| Audit Events Analyzer                | Ad hoc |
+| Calendly Events to gCal Events       | Ad hoc |
+| CMP Scripts                          | Ad hoc |
+| Customer Feedback Processor          | Ad hoc |
+| DEWR                                 | Ad hoc |
+| Enable US Gov Support scripts        | Ad hoc |
+| GDPR Request Processor               | Ad hoc |
+| Light agent provisioning (Global)    | Ad hoc |
+| Pagerduty                            | [Special](../pagerduty/change_management/) |
+| Salesforce Cases scripts             | Ad hoc |
+| SGG Slackbot                         | Ad hoc |
+| Support Super Form                   | Ad hoc |
+| Support Super Form Processor         | Ad hoc |
+| SWIR Form Processor                  | Ad hoc |
+| System Audits scripts                | Ad hoc |
+| Ticket Processor                     | Ad hoc |
+| Ticket Round Robin                   | Ad hoc |
+| US Government Customer Feedback Form | Ad hoc |
+| Very Breached Ticket Slackbot        | Ad hoc |
+| Zendesk Agent Sync                   | Ad hoc |
+| Zendesk Apps                         | Standard |
+| Zendesk Articles                     | Ad hoc |
+| Zendesk Automations                  | Standard |
+| Zendesk Groups                       | Standard |
+| Zendesk Macros                       | Ad hoc |
+| Zendesk Organization Fields          | Standard |
+| Zendesk Roles                        | Standard |
+| Zendesk Salesforce Sync              | Ad hoc |
+| Zendesk SLA Policies                 | Standard |
+| Zendesk Theme                        | Standard |
+| Zendesk Ticket Forms                 | Standard |
+| Zendesk Ticket Fields                | Standard |
+| Zendesk Triggers                     | Standard |
+| Zendesk User Fields                  | Standard |
+| Zendesk Views                        | Standard |
 
-## Immediate deployments
+## What runs where?
 
-Some items we work on will warrant immediate deployments. In situations like
-these, merging things into the master branch should result in a deployment.
-
-For anything that does not follow this behavior, please see the
-[special situations](#special-situations).
-
-## Special situations
-
-#### Support team page change management
-
-All changes to the support team page would follow the nature of
-[Immediate deployments](#immediate-deployments).
-
-#### Zendesk agents change management
-
-For any changes relating to Support team, the
-[sync](/handbook/support/readiness/operations/docs/zendesk/agents#support-team)
-will handle them, and thus the
-[Standard change management](#standard-change-management) can be used.
-
-For all other cases, you will have to manually make the changes in Zendesk
-itself.
-
-#### Zendesk emails change management
-
-As we currently do not do syncs on Zendesk emails, you will have to make the
-changes in Zendesk itself.
-
-#### Zendesk group change management
-
-As we currently do not do syncs on Zendesk groups, you will have to make the
-changes in Zendesk itself.
-
-#### Zendesk macros change management
-
-Due the nearly non-existent impact macros have, these follow the nature of
-[Immediate deployments](#immediate-deployments)
-
-#### Zendesk organizations change management
-
-For changes to the Support Team organization notes can follow
-[Immediate deployments](#immediate-deployments).
-
-Changes not controlled by the
-[Zendesk-Salesforce Sync](/handbook/support/readiness/operations/docs/zendesk/zendesk_salesforce_sync)
-are not synced and would need to be done manually in Zendesk itself.
-
-#### Zendesk role change management
-
-As we currently do not do syncs on Zendesk roles, you will have to make the
-changes in Zendesk itself.
-
-#### Zendesk schedules change management
-
-As we currently do not do syncs on Zendesk schedules, you will have to make the
-changes in Zendesk itself.
-
-#### Zendesk settings change management
-
-As we currently do not do syncs on Zendesk settings, you will have to make the
-changes in Zendesk itself.
-
-#### Zendesk theme change management
-
-Due to the nature of Zendesk themes, simply committing changes to the master
-branch will have no effect. As such, changes to the theme must be done via
-[Zendesk Guide](/handbook/support/readiness/operations/docs/zendesk/guide).
-
-#### Zendesk webhook change management
-
-As we currently do not do syncs on Zendesk webhoooks, you will have to make the
-changes in Zendesk itself.
+You can find a comprehensive list of where various things Support Readiness
+maintains runs its CI/CD processes via
+[this gSheet](https://docs.google.com/spreadsheets/d/1nilaJ4Ey7Rf-6rC9jROcOMqYExb29zjAbEeN3LMl_qk/edit?usp=sharing).

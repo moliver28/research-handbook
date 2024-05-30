@@ -6,13 +6,6 @@ description: "This page provides helpful links and reference material for the in
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
 ## Milestones
 
 Each issue and epic gets mapped to the milestone for the time period that most of the work takes place. This is used as our lightweight version of time tracking and capacity planning, and is helpful with roadmap planning.
@@ -29,7 +22,7 @@ Each issue and epic gets mapped to the milestone for the time period that most o
     - [BT Infra FY22-Q3](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/9)
     - [BT Infra FY22-Q4](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/10)
 - Fiscal Year Milestones
-    - [BT Infra FY22-2H]()
+    - BT Infra FY22-2H
     - [BT Infra FY23-1H](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/11)
     - [BT Infra FY23-2H](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/12)
 

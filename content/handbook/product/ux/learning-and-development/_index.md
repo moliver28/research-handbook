@@ -8,7 +8,13 @@ Welcome to Learning and Development for the UX Department at GitLab! You are wel
 
 The resources in this page are meant to support product designers, researchers, technical writers, and their managers to explore, learn and grow at their own pace. We aim to collect content that spans various skill levels, as well as various levels of depth/commitment. It is recommended that the UX Department engage with the resources here to help them have a successful journey at GitLab and in their career as a whole.
 
-Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/spending-company-money/).
+Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/finance/spending-company-money/).
+
+## Growth and Development
+
+GitLab provides team members with the [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) to access external resources to develop their career. To take advantage of this benefit, review the company handbook page and follow the process.
+
+Managers should add approved growth and development programs to the [department spreadsheet tracker](https://docs.google.com/spreadsheets/d/1hLm_XEX3Vux1Co_dMY5A74io8oqXArDAX6MonlBOYNg/edit#gid=1233213154) in order to track departmental budget.
 
 ## Mentoring and coaching
 
@@ -93,7 +99,7 @@ Most of the resources here are free but any content requiring payment [can be re
 
 ### Handbook
 
-- [Minimum Viable Experiment](/handbook/engineering/development/growth/experimentation/#minimum-viable-experiment-mve)
+- [Minimum Viable Experiment](/handbook/marketing/growth/engineering/experimentation/#minimum-viable-experiment-mve)
 - [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
 
@@ -192,4 +198,3 @@ Most of the resources here are free but any content requiring payment [can be re
 - From time to time, we run an internal book club on a book from one of our resource lists. Join the conversation in `#ux-book-club`.
 - [GitLab Book Clubs project](https://gitlab.com/gitlab-com/book-clubs)
 - [Leadership Book clubs](/handbook/leadership/book-clubs/)
-

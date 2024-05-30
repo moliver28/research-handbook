@@ -54,7 +54,8 @@ All meetings on Sid's calendar should be scheduled and vetted by the EBA to the 
 1. Meetings should be set up on Sid's Zoom account. Customer/Prospect meetings are an exception and Sid is happy to join on another platform of the customers choosing like WebEx or Google Meet.
     1. If Sid is invited to a meeting on WebEx add a reminder to his calendar 5 minutes before the meeting to `disable shush` in advance of the next meeting.
 1. The default Zoom meeting should have no waiting room.
-1. Office hours hosted by the CEO like Iteration Office Hours should be live streamed publicly by default and the live stream should be hosted by a member of the EBA team or a CEO Shadow.
+1. Zoom links are to be tested for validity daily for the following day's meetings.
+1. Office hours hosted by the CEO ([example](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/search?query=%22Iteration+Office+Hours%22)) should be live streamed publicly by default and the live stream should be hosted by a member of the EBA team or a CEO Shadow.
 1. Sid will attend one of the Monthly Diversity, Inclusion and Belonging calls (typically scheduled at 8am or 4pm PT). Please accept one and decline the other.
 1. After an E-Group offsite, block at least 50 minutes to handle slack, emails, etc
 1. Last minute changes or cancellations should be communicated to Sid via DM rather than public Slack messages or messages in a thread. If there is additional context to share, you can cross-post another Slack message as part of your DM.
@@ -109,7 +110,7 @@ Guest cell:
 
 ### Content Review
 
-- The EBA to the Exec is responsible for scheduling an initial set of practice sessions with the content DRI, the Exec, and a developer evangelism team member. It is the EBA's discretion based on experience with the Exec and their speaking engagements in the past to decide how many times to set up.
+- The EBA to the Exec is responsible for scheduling an initial set of practice sessions with the content DRI, the Exec, and a Developer Advocate. It is the EBA's discretion based on experience with the Exec and their speaking engagements in the past to decide how many times to set up.
 - The call attendees are responsible to communicate with the EBA if they need more or less sessions ASAP
 
 As a rule of thumb, there should be 1 slide per minute of expected speech delivery.
@@ -127,15 +128,16 @@ If people want advice on open source, remote work, or other things related to Gi
 > Thanks for being interested in GitLab. If we schedule a meeting it will follow GitLab's [Pick Your Brain format](/handbook/ceo/#pick-your-brain-interviews). Are you able to submit a draft post with us within 48 hours of interview?
 >
 > GitLab is a very transparent company and many things that are normally confidential can be found in our handbook, available online. Please consider looking at the following pages prior to our meeting.
->   - [Company strategy](/handbook/company/strategy/)
->   - [Our Objectives and Key Results per quarter](/handbook/company/okrs/)
->   - [All team members and numbers per department](/handbook/company/team/)
->   - [Handbook with all our processes](/handbook/)
->   - [Pricing plans](https://about.gitlab.com/pricing/)
->   - [Pricing strategy](/handbook/company/pricing/)
->   - [History](/handbook/company/history/)
->   - [About](/handbook/company/)
->   - [All Remote](/handbook/company/culture/all-remote/)
+>
+> - [Company strategy](/handbook/company/strategy/)
+> - [Our Objectives and Key Results per quarter](/handbook/company/okrs/)
+> - [All team members and numbers per department](/handbook/company/team/)
+> - [Handbook with all our processes](/handbook/)
+> - [Pricing plans](https://about.gitlab.com/pricing/)
+> - [Pricing strategy](/handbook/company/pricing/)
+> - [History](/handbook/company/history/)
+> - [About](/handbook/company/)
+> - [All Remote](/handbook/company/culture/all-remote/)
 
 1. If we receive a positive answer we schedule a 50 minute YouTube public livestream. For an example of an interview, see [this one about stress in remote work](https://www.youtube.com/watch?v=23XIx6n9SsQ).
 1. Within 48 hours you share a draft post with us in a Google Doc with suggestion or edit rights for anyone that knows the URL.
@@ -146,7 +148,6 @@ If people want advice on open source, remote work, or other things related to Gi
 Reply to emails: Thanks for wanting to chat. I propose we meet in the format proposed in GitLab's [Handbook](#pick-your-brain-meetings) so that other people benefit from our conversation too. If you're up for that please work with my EBA, XYZ (cc:) to schedule.
 
 Please note, requests for meeting about remote work, all-remote efforts, distributed workforces, etc should be scheduled with the Head of Remote versus Sid when possible.
-
 
 ### Scheduling Pick Your Brain meetings
 

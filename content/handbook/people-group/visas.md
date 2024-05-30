@@ -24,7 +24,7 @@ You can expense (for approved GitLab/company events):
 You can *not* expense relocation costs.
 
 Please note, that GitLab is only able to cover the costs of one VISA attempt. If your VISA request is rejected, team members are free to re-submit at their discretion and any additional costs will be need to be covered by the team member.
-Please refer to the [Global Travel and Expense Policy Handbook Page](https://handbook.gitlab.com/handbook/finance/expenses/#visaspermitscovid-tests) for more information regarding the reimbursement.
+Please refer to the [Global Travel and Expense Policy Handbook Page](/handbook/finance/expenses/#visaspermitscovid-tests) for more information regarding the reimbursement.
 
 ### Arranging a visa for travel
 
@@ -65,6 +65,7 @@ Here is a [generally but not authoritative helpful guide](https://www.expatica.c
 The IND (Dutch immigration services) in general take about 4 to 6 weeks’ time to make a decision on the renewal application, but officially they have 90 days to decide.
 
 1. Some important notes before you arrange travel / depart to the Netherlands:
+
 - **A direct flight to the Netherlands is required, indirect travel may result in entry refusal**
 
 #### 30% Ruling in the Netherlands
@@ -106,7 +107,7 @@ If a team member wishes to immigrate and relocate to the Netherlands, they will 
 1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the Dutch salary requirement for [highly skilled migrants for 3 more years](https://ind.nl/en/Pages/required-amounts-income-requirement.aspx#Application_for_residence_permit_highly_skilled_migrant_and_European_Blue_Card)
     - Note, that the Dutch government has a higher requirement for team members aged 30 and above. The age related wage requirement does not increase when reaching 30 if you already have an approved migrant visa (with the same employer).
     - The following pay elements are not included in the salary criterion and can't be used to meet the mimimum salary requirement: Vacation allowance; the value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable boni and payments from funds).
-    - *Note: This calculation should be based on what GitLab*would*pay the team member in the Netherlands in accordance with the compensation calculator,*not*based on the team member's current salary.*
+    - *Note: This calculation should be based on what GitLab **would** pay the team member in the Netherlands in accordance with the compensation calculator, **not** based on the team member's current salary.*
 1. You have been a team member at GitLab for one year.
 1. You are not on a Performance Improvement Plan (PIP).
 
@@ -155,7 +156,7 @@ Occupations with a minimum annual remuneration of €32,000 for a restricted num
 All occupations with a minimum annual remuneration of over €64,000, other than those on the [Ineligible List of Occupations for Employment Permits](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Ineligible-Categories-of-Employment/) or which are contrary to the public interest. A non-EEA national who does not have a degree qualification or higher, must have the necessary level of experience.
 The prospective employee concerned must have secured a 2-year job offer in respect of the eligible occupation from the prospective employer.
 
-#### Further criteria include:
+#### Further criteria include
 
 The prospective employee concerned must possess the relevant qualifications, skills and experience that are required for the employment.
 An employment permit will not be granted to companies unless 50% or more of the employees in the firm are EEA nationals at the time of application. However, this restriction may be waived in respect of start-up companies within 2 years of their establishment (that is, registered as an employer with Revenue) and which are supported by the enterprise development agencies, Enterprise Ireland, or IDA Ireland (this applies to client companies of Enterprise Ireland or IDA Ireland only).
@@ -244,8 +245,10 @@ If there is a change in employer within Germany and the blue card has been held 
 Everyone that meets the following requirements can request to immigrate and relocate to Germany, but you will also still need to pass the formal visa application process to qualify. The requirements are:
 
 1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the salary requirement for [Requirements to receive a Blue Card](https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card)
+
 - The following pay elements are not included in the salary criterion and can't be used to meet the minimum salary requirement: The value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable bonus and payments from funds).
-- *Note: This calculation should be based on what GitLab*would*pay the team member in Germany in accordance with the compensation calculator,*not*based on the team member's current salary.*
+- *Note: This calculation should be based on what GitLab **would** pay the team member in Germany in accordance with the compensation calculator, **not** based on the team member's current salary.*
+
 1. You have been a team member at GitLab for one year.
 1. You are not on a Performance Improvement Plan (PIP).
 

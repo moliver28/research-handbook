@@ -16,11 +16,12 @@ The goal of the customer case studies program is to share and market the success
 them craft their story in a way that makes them proud and excited to talk about their success with GitLab.
 
 Examples:
-- [Goldman Sachs](/customers/goldman-sachs/)
-- [Worldline](/customers/worldline/)
-- [European Space Agency](/customers/european-space-agency/)
 
-### Objectives:
+- [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/)
+- [Worldline](https://about.gitlab.com/customers/worldline/)
+- [European Space Agency](https://about.gitlab.com/customers/european-space-agency/)
+
+### Objectives
 
 - Illustrate successful and measurable improvements in the customer’s business
 - Show other users how customers are using GitLab
@@ -28,7 +29,7 @@ Examples:
 - Develop and grow organizational relationships: speak at events on our behalf, promote their business
 
 A formal case study produces a polished, finished document or video published on our
-[customers page](/customers/). Case studies can include multiple formats, including
+[customers page](https://about.gitlab.com/customers/). Case studies can include multiple formats, including
 a web page, video, downloadable PDF, and associated blog posts.
 
 A customer story is a blog post about how a customer solved a particular problem or
@@ -46,7 +47,7 @@ Once you have a customer who either (1) has an excellent use case or (2) has com
 1. Content: Schedule an interal discovery meeting between AE and writer to discuss the use case, angle, and identify potential metrics.
 1. Both: Set timeline for engagement and deliverables.
 
-*If you included a case study as part of a deal, great! Set up a call with the content marketing team and the customer to go over how they plan to use GitLab and metrics the customer is willing to track. Set a follow up call in 3 months and again in 6 months.  
+*If you included a case study as part of a deal, great! Set up a call with the content marketing team and the customer to go over how they plan to use GitLab and metrics the customer is willing to track. Set a follow up call in 3 months and again in 6 months.
 
 **Customer discovery**
 
@@ -66,18 +67,18 @@ Once you have a customer who either (1) has an excellent use case or (2) has com
 **Production**
 
 1. Customer Reference: Submit audio recording for transcription using [Rev.com](https://rev.com/) `standard` (2-3 day turnaround) option.
-2. Customer Reference: Sends transcript to customer for approval.
-4. Customer Reference: Once transcription is returned, label issue `case study - production` and assign to Content Marketing.
-3. Content Marketing: Create a draft following the [case study format](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/case-studies/#case-study-format).
-5. Once the draft is completed, writer will label `Staus-WIP` and ping the Content Marketing Manager to review.
-6. Customer Reference assigns to Product Marketing for review.
-7. Customer Reference sends to customer after PM reviews.
-6. Once the case study has been reviewed and approved by the customer, follow the publishing process below to add to the marketing site.
+1. Customer Reference: Sends transcript to customer for approval.
+1. Customer Reference: Once transcription is returned, label issue `case study - production` and assign to Content Marketing.
+1. Content Marketing: Create a draft following the [case study format](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/case-studies/#case-study-format).
+1. Once the draft is completed, writer will label `Staus-WIP` and ping the Content Marketing Manager to review.
+1. Customer Reference assigns to Product Marketing for review.
+1. Customer Reference sends to customer after PM reviews.
+1. Once the case study has been reviewed and approved by the customer, follow the publishing process below to add to the marketing site.
 
-
-### Collecting Metrics:
+### Collecting Metrics
 
 Possible quantitative metrics that the customer can be asked to share with GitLab include:
+
 - Reduced cycle time
 - Number of deploys in a given time frame
 - Reduced number of bugs or Reverts
@@ -92,11 +93,12 @@ Other sections in the case study can be found on the customer's website or by se
 
 Following approval from the customer, the Design team should be sent a doc of the case study to include in the case study design template. The case study can then be published on our website.
 
-## Case Study Format:
+## Case Study Format
 
 *Headline:* The name of the customer and the benefit they gained from implementing our solution
 
 *Sidebar Summary:* Summarize key points
+
 - Customer Name and Logo
 - Customer Details: Country, Website
 - Organization Type - Public/Private & Industry
@@ -115,6 +117,7 @@ Following approval from the customer, the Design team should be sent a doc of th
 *About GitLab:* Short paragraph on GitLab - about, solutions etc. Call to action of solutions offered.
 
 *Possible Additional Supporting Documents:*
+
 - Customer Deal Summary – High Level PowerPoint summary after deal first signed.
 - Customer Success Overview
 - Infographic – Single page A4 summary with diagrams and measurable benchmarks
@@ -124,7 +127,7 @@ Following approval from the customer, the Design team should be sent a doc of th
 - Blog Post - Blog post to launch customer case study
 - Keywords for SEO etc.
 
-Case studies should put the spotlight on our customers and tell a story about the ways in which they help their own customers. In telling that story, we should detail how GitLab helps them get that job done. Case studies should include metrics, but a compelling story can be told without them if there aren't any available. If metrics are unavailable, consider including the customer's overarching results, such as increased collaboration or stronger relationships between developers and operations.  
+Case studies should put the spotlight on our customers and tell a story about the ways in which they help their own customers. In telling that story, we should detail how GitLab helps them get that job done. Case studies should include metrics, but a compelling story can be told without them if there aren't any available. If metrics are unavailable, consider including the customer's overarching results, such as increased collaboration or stronger relationships between developers and operations.
 
 ## SLA
 

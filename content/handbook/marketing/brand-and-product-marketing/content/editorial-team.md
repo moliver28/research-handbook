@@ -109,7 +109,7 @@ We do not capitalize job titles, regardless of whether they appear before or aft
 
 ### GitLab functions/departments/teams
 
-These are elements that make up GitLab the company's [organizational structure](/handbook/company/team/structure/#organizational-chart). Capitalize the name of the element, but not the word after:
+These are elements that make up GitLab the company's [organizational structure](/handbook/company/structure/#organizational-chart). Capitalize the name of the element, but not the word after:
 
 > Example: Engineering function, Security department
 
@@ -200,9 +200,9 @@ Use double quotation marks for direct quotes, and single quotation marks for a q
 Examples:
 
 > Recently, an article was published stating, "Software is eating the world."
-
+>
 > What do you think of the claim, "Software is eating the world"?
-
+>
 > "Do you agree that software is eating the world?" wrote the author.
 
 ### Tense
@@ -318,5 +318,3 @@ We have a [checklist for writers in the blog handbook](/handbook/marketing/blog/
 - Does the post adhere to our style guide?
 - Is it written in [American English](#american-english-vs-british-english)?
 - Are all titles and headlines in [sentence case](#case)?
-
-

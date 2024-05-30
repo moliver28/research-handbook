@@ -18,7 +18,7 @@ After a couple weeks with the team you’ll have a basic understanding of where 
 
 If you have any questions please reach out in #sec-assurance and we’ll be happy to tell you more!
 
-### Schedule / Topics Covered:
+### Schedule / Topics Covered
 
 #### SC101.1: Security Control Testing
 
@@ -39,11 +39,11 @@ If you have any questions please reach out in #sec-assurance and we’ll be happ
  - Reporting back to system owners
  - Review of access review automation
 
-### Course Length:
+### Course Length
 
 3 days, 6-9 hours
 
-### Team Manager:
+### Team Manager
 
 Jeff Burrows @jburrows001
 
@@ -51,7 +51,7 @@ Jeff Burrows @jburrows001
 
 Our goal on the Field Security team is to be the liaison between GitLab’s Security Department and outside requests. We do this by providing sales enablement, evalngalism and educational activities, and responding to customer concerns related to security. By proactively positioning the Field Security team in this way, we can effectively triage requests and facilitate communication while supporting our GitLab teammates.
 
-### Schedule / Topics Covered:
+### Schedule / Topics Covered
 
 #### FSG101: Sales Support and Self- Service Security
 
@@ -76,11 +76,11 @@ Our goal on the Field Security team is to be the liaison between GitLab’s Secu
 - Audit/assessment demo
 - GRC application dashboarding/reporting
 
-### Course Length:
+### Course Length
 
 3 days, 4-6 hours
 
-### Team Manager:
+### Team Manager
 
 TBD
 
@@ -88,7 +88,7 @@ TBD
 
 The Security Risk team acts as a shield between GitLab and the dangers lurking within our environment. We do this by conducting third party assessments and security operational risk management activities to proactively identify and analyze risk early and often. This allows GitLab to iterate and improve quicker and ultimately provide our customers with a secure and scalable product.
 
-### Schedule / Topics Covered:
+### Schedule / Topics Covered
 
 #### RSK101: Risk Management
 
@@ -98,11 +98,11 @@ The Security Risk team acts as a shield between GitLab and the dangers lurking w
 - [Perform Risk Manager Activities](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm/-/blob/master/.gitlab/issue_templates/storm-shadow.md)
 - You will be given a risk that is reaching a milestone to assess the treatment and potentially validate it's design effectiveness.
 
-### Course Length:
+### Course Length
 
 `TBD`
 
-### Team Manager:
+### Team Manager
 
 `TBD`
 

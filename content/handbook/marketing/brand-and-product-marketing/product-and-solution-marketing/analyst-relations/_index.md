@@ -18,6 +18,7 @@ If you would like to engage the analysts (e.g. research a topic, ask questions o
 ## How we interact with the analyst community
 
 Examples of how we engage with analysts include:
+
 - Briefings to update analysts on our product, our company, and our future direction
 - Inquiries where analysts answer specific questions we have about product strategy, messaging, competitive positioning
 - Advisory days for a deeper dive into the products, markets, and strategies
@@ -56,7 +57,6 @@ Examples of how we engage with analysts include:
 - Ongoing briefings to provide updates on progress made within the scope of a given use case
 - Subsequent inquiry calls to revisit market requirements, competitive positioning, etc. as updated to meet evolving market conditions
 
-
 ## Responding to requests to participate in industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.)
 
 - GitLab evaluates participation in industry analyst comparative research to which we are invited based in large part on how well we meet the qualification criteria and how we are likely to score for strategy/vision. When participating, we are committed to providing our best possible answers for the questionnaires.
@@ -70,7 +70,7 @@ Examples of how we engage with analysts include:
 
 ## Process for responding to industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.)
 
-#### Before the questionnaire arrives:
+#### Before the questionnaire arrives
 
 - GitLab AR is aware of what industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.) we may be asked to participate in, particularly if we have done so before.  AR should be checking with Forrester/Gartner to see if
     - A MQ or Wave or similar comparative research is likely to be repeated
@@ -84,7 +84,7 @@ Examples of how we engage with analysts include:
     - AR notifies Customer Reference that a request is imminent.
     - If it is a Gartner MQ, AR will work with the Peer Review team to make sure GitLab reviews are being collected by the Peer Insights team or to get that activated, and coordinate with Peer Review and Customer Reference to funnel references to the appropriate Peer Insights page.
 
-### When the questionnaire arrives:
+### When the questionnaire arrives
 
 - AR replies to the industry analyst firm, acknowledging receipt of invitation and agreement to participate, and indicates key participants (AR Manager and lead PMM.)
 - AR responsibilities:
@@ -114,7 +114,7 @@ Examples of how we engage with analysts include:
     - drive the briefing to the analysts
     - coordinate with Product leadership/CEO/others on final version of the questionnaire
 
-- Technical Marketing Manager (TMM) responsibilities:
+- Developer Advocate responsibilities:
     - read all information provided by AR in the issue
     - attend all meetings with the analysts related to this report
     - work with PMM and PM in creation of demo and briefing
@@ -128,7 +128,7 @@ Examples of how we engage with analysts include:
     - provide first pass answers to the questionnaire to PMM
     - work with PMM to finalize all answers to the questionnaire
 
-### When the Factual Review (Fact Check) arrives:
+### When the Factual Review (Fact Check) arrives
 
 - AR shares the draft report with the PMM/PM/TMM team to check for technical accuracy
 - PMM takes lead in verifying/correcting technical accuracy and the initial rewrite suggestions
@@ -136,7 +136,7 @@ Examples of how we engage with analysts include:
 - AR works with PMM for company accuracy issues
 - AR submits final corrected version to analysts
 
-### When the courtesy copy of the report arrives (when we know final positioning):
+### When the courtesy copy of the report arrives (when we know final positioning)
 
 - AR schedules a meeting with PMM/PM to discuss key messages and overall positioning
     - basis for blogs
@@ -153,14 +153,12 @@ Examples of how we engage with analysts include:
     - AR gets the webpage link to the industry analyst firm for citations approval
 - PMM [requests a slot on the Sales Enablement calendar](/handbook/sales/training/sales-enablement-sessions/#to-request-new-sales-enablement-sessions) to discuss the report results and the web page with sales
 
-
-### Once the report is published by the industry analyst firm:
+### Once the report is published by the industry analyst firm
 
 - AR posts the results/summary on the What's Happening at GitLab page with either an internal link or a link to the reprint
 - AR sets up an inquiry with the industry analyst firm to discuss the results of the report and answer questions for PM/PMM/TMM
 - AR adds the link to the spreadsheet of sales report
 - AR adds the report to the appropriate Use Case resource page(s)
-
 
 ## Accessing analyst reports
 
@@ -175,6 +173,7 @@ Most analyst companies charge for access to their reports.
 In 2020, GitLab commissioned Forrester Research to create a Total Economic Impact (TEI) study on GitLab. According to Forrester, "The TEI methodology quantifiably measures the business value of an IT decision or project. TEI is composed of four main elements with associated tools and methodologies for quantification. Individually, each provides only a piece of the decision-support puzzle. Together, they provide a holistic tool for assessing and justifying IT investments."
 
 In Forrester's methodology, the four main elements of the TEI are:
+
 - Benefits -  measure financial impacts of positive business results.
 
 - Cost - measures the negative impact on IT and the business.

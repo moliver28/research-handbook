@@ -1,5 +1,5 @@
 ---
-title: Salesforce Documentation
+title: SFDC Docs
 description: Support Operations documentation page for Salesforce
 canonical_path: "/handbook/support/readiness/operations/docs/salesforce/"
 ---

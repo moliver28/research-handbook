@@ -1,4 +1,5 @@
 ##### Development
+
 * Still largely concentrates on growing themselves.
 * Seeks out opportunities to expand their technical and non technical skills through continuous learning practices.
 * Often works with other team members to grow their own understanding of the team’s domain through code reviews, pair programming or mentoring sessions.

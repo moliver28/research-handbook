@@ -4,25 +4,17 @@ title: Incubation Engineering Department
 
 ## Incubation Engineering Department
 
-The Incubation Engineering Department within the Engineering Division focuses on projects that are pre-Product/Market fit. The projects they work on align with the term "new markets" from one of our [product investment types](https://internal.gitlab.com/handbook/product/investment/). They are ideas that may contribute to our revenue in 3-5 years time. Their focus should be to move fast, ship, get feedback, and [iterate](/handbook/values/#iteration). But first they've got to get from 0 to 1 and get something shipped.
+The Incubation Engineering Department focuses on projects that are pre-Product/Market fit. The projects they work on align with the term "new markets" from one of our [product investment types](https://internal.gitlab.com/handbook/product/investment/). They are ideas that may contribute to our revenue in 3-5 years time. Their focus should be to move fast, ship, get feedback, and [iterate](/handbook/values/#iteration). But first they've got to get from 0 to 1 and get something shipped.
 
 We utilize [Single-engineer Groups](/handbook/company/structure/#single-engineer-groups) to draw benefits, but not distractions, from within the larger company and [GitLab project](https://gitlab.com/gitlab-org/gitlab) to maintain that focus. The Single-engineer group encompasses all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily.
 
 The Department Head is the [VP of Incubation Engineering](/job-families/engineering/development/incubation/management/vp/).
 
-### FY23 Direction
+### FY25 Direction
 
-Our focus for FY23 in the Incubation Engineering Department is to ensure that we have a level of organisational maturity that allows us to repeatedly assess, validate, and deliver on ideas.
+In FY25 we will continue to mature some of our key projects and to contribute to new opportunities within the AI sphere to build upon the capabilities that GitLab offers.  Our current batch of projects are building  customer value and interest and achieving significant monthly growth milestones.  Our aim is to reach a level of maturity with these projects that allows us to graduate or reassign these groups to new opportunities.
 
-We should be able to demonstrate whether the ideas that we have been working on have met product/market fit in FY23 and look to graduate or reassign these groups.  Our success is tied to the community of developers and users that can benefit from our features, and strong collaboration and engagement with those groups is a key focus for this year.
-
-As our team matures, we need to be mindful of setting a culture of innovation and results.  We do this through encouraging experimentation and autonomy, whilst being collaborative and transparent to internal teams and external stakeholders.  The Incubation Engineering team is unique within GitLab in that the team members are not working on shared problems, but have the same challenges and shared experiences.  We should ensure that successes and failures are documented and shared amongst team members to help each other grow and to minimise the inherent isolation and stress that can be part of this role.
-
-In addition to the quarterly OKR's, our goals for the year are to:
-
-- Document public roadmaps for each of our focus areas with defined milestones that we can measure our progress against.
-- Identify and target key usage metrics that help demonstrate success for each of our focus areas.
-- Demonstrate customer value and interest by achieving significant monthly growth milestones.
+Our success is tied to the community of developers and users that can benefit from our features, and strong collaboration and engagement with those groups is a key focus for this year. As our team matures, we need to be mindful of setting a culture of innovation and results. We do this through encouraging experimentation and autonomy, whilst being collaborative and transparent to internal teams and external stakeholders. The Incubation Engineering team is unique within GitLab in that the team members are not working on shared problems, but have the same challenges and shared experiences. We should ensure that successes and failures are documented and shared amongst team members to help each other grow and to minimise the inherent isolation and stress that can be part of this role.
 
 ### Investment Framework
 
@@ -63,17 +55,10 @@ Each SEG page has a list of the targets and progress for each month, and these s
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="/handbook/engineering/development/incubation/breach-and-attack-simulation/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Breach and Attack Simulation (BAS)</a>
-    <a href="/handbook/engineering/development/incubation/cloud-seed/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">⛅🌱 Cloud Seed</a>
-    <a href="/handbook/engineering/development/incubation/service-desk/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Service Desk</a>
-  </div>
-</div>
-
-<div class="flex-row" markdown="0">
-  <div>
   <a href="/handbook/engineering/development/incubation/mobile-devops/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Mobile DevOps</a>
   <a href="/handbook/engineering/development/incubation/mlops/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">MLOps</a>
-  <a href="/handbook/engineering/development/incubation/okr/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">OKR Management</a>
+  <a href="/handbook/engineering/development/incubation/service-desk/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Service Desk</a>
+
   </div>
 </div>
 
@@ -107,9 +92,12 @@ Each SEG page has a list of the targets and progress for each month, and these s
   <div>
     <a href="/handbook/engineering/development/incubation/server-runtime/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Server Runtime</a> matured to <a href="/handbook/product/categories/#ide-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">IDE Group</a>
   </div>
+  <div>
+    <a href="/handbook/engineering/development/incubation/okr/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">OKR Management</a> matured to <a href="/handbook/product/categories/#product-planning-group" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Product Planning Group</a>
+  </div>
 </div>
 
-## On Hold
+## On Hold / Cancelled
 
 <div class="flex-row" markdown="0">
   <a href="/handbook/engineering/development/incubation/airflow/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Airflow</a>
@@ -118,8 +106,9 @@ Each SEG page has a list of the targets and progress for each month, and these s
 </div>
 <div class="flex-row" markdown="0">
   <a href="/handbook/engineering/development/incubation/real-time-collaboration/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Real-time Editing (REID)</a>
+  <a href="/handbook/engineering/development/incubation/cloud-seed/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">⛅🌱 Cloud Seed</a>
+  <a href="/handbook/engineering/development/incubation/breach-and-attack-simulation/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Breach and Attack Simulation (BAS)</a>
 </div>
-
 
 ## Demonstrating Progress
 
@@ -133,12 +122,12 @@ We do this in order to ensure alignment with impacted teams at GitLab, to provid
 
 Around the 15th of the month each SEG should provide a short update video that covers the following key points:
 
-* *What progress have we made?* Each week we should be moving closer to our goal of having a [Viable](https://about.gitlab.com/direction/maturity/) product or feature.
-* *Current Usage and Used Feedback* We should strive to measure usage of our ideas from the beggining. How is the adoption of the idea we are working on?
-* *What have we learnt?* Either through technical research, experiementation, or feedback, do we better understand the problem we are trying to solve?
-* *What new decisions do we need to make?* Have we identified any new opportunities or options that need wider consultation to help address?
-* *What is our next focus?* Our next demo is in a week - what do we want to showcase?
-* *What is the recommended video duration?* We strive to maintain an "executive briefing" format for these videos, thus keeping the length around the ~3 minute mark.
+- *What progress have we made?* Each week we should be moving closer to our goal of having a [Viable](https://about.gitlab.com/direction/maturity/) product or feature.
+- *Current Usage and Used Feedback* We should strive to measure usage of our ideas from the beggining. How is the adoption of the idea we are working on?
+- *What have we learnt?* Either through technical research, experiementation, or feedback, do we better understand the problem we are trying to solve?
+- *What new decisions do we need to make?* Have we identified any new opportunities or options that need wider consultation to help address?
+- *What is our next focus?* Our next demo is in a week - what do we want to showcase?
+- *What is the recommended video duration?* We strive to maintain an "executive briefing" format for these videos, thus keeping the length around the ~3 minute mark.
 
 ### End of Month Showcase
 
@@ -148,94 +137,30 @@ At the end of the month, we should have a monthly showcase which demonstrates th
 
 When uploading a video to our YouTube channel, we should:
 
-* Make sure they are public
-* Use a consistent naming convention for the SEG. Take these as inspiration:
-  * "Incubation Engineering - Mobile Ops - Update 4"
-  * "Incubation Engineering - Breach and Attack Simulation - Update 2023-02-21"
-  * "Incubation Engineering - Service Desk - January 2023 Showcase"
-* Add the video to the Incubation Engineering playlist, and the playlist dedicated to each section
-* Add it to the specific Incubation Engineer direction handbook page
+- Make sure they are public
+- Use a consistent naming convention for the SEG. Take these as inspiration:
+  - "Incubation Engineering - Mobile Ops - Update 4"
+  - "Incubation Engineering - Breach and Attack Simulation - Update 2023-02-21"
+  - "Incubation Engineering - Service Desk - January 2023 Showcase"
+- Add the video to the Incubation Engineering playlist, and the playlist dedicated to each section
+- Add it to the specific Incubation Engineer direction handbook page
 
 ### Latest Demos
 
 *YouTube Playlists*
 
-* [Latest Updates](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
-* [All Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
+- [Latest Updates](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
+- [All Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
 
 ## OKRs
 
 The Incubation Engineering department commits to and tracks quarterly [Objectives and Key Results](/handbook/company/okrs/) (OKRs).
 
-See [the list of Incubation Engineering OKRs in GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&label_name%5B%5D=Department%3A%3AIncubation%20Engineering).
+See [the list of Incubation Engineering OKRs in GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Department%3A%3AExpansion&label_name%5B%5D=OKR&label_name%5B%5D=FY25-Q1&first_page_size=20).
 
 ## SEG Lifecycle
 
 When an SEG is ready to be handed off to a product development group or other team inside GitLab, there will necessarily be some handover required. Product development groups who are going to be taking over the SEG can accelerate their work by [borrowing](/handbook/product/product-processes/#borrow) the Incubation Engineer. This will allow full-time and continuous support for up to 3 milestones.
-
-## Backlog
-
-We use the [RICE Framework](/handbook/product/product-processes/#using-the-rice-framework) for prioritization of ideas.
-
-<table id="objectives-table-bizops">
-<tr>
-<th class="text-center">
-<h5>Reach</h5>
-</th>
-<th class="text-center">
-<h5>Impact</h5>
-</th>
-<th class="text-center">
-<h5>Confidence</h5>
-</th>
-</tr>
-<tr>
-<td>How many of our users, prospects, or customers will benefit from this feature.</td>
-<td>Revenue, risk, or cost benefits to GitLab and our customers.</td>
-<td>How well we understand the customer problem and our proposed solution.</td>
-</tr>
-<tr>
-<td>
-<ul>
-<li>10.0 = Impacts the <strong>Vast</strong> majority (~80% or greater)</li>
-<li>6.0 = Impacts a <strong>Large</strong> percentage (~50% to ~80%)</li>
-<li>3.0 = <strong>Significant</strong> reach (~25% to ~50%)</li>
-<li>1.5 = <strong>Small</strong> reach (~5% to ~25%)</li>
-<li>0.5 = <strong>Minimal</strong> reach (Less than ~5%)</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>3 = <strong>Massive</strong></li>
-<li>2 = <strong>High</strong></li>
-<li>1 = <strong>Medium</strong></li>
-<li>0.5 = <strong>Low</strong></li>
-<li>0.25 = <strong>Minimal</strong></li>
-</ul>
-</td>
-<td>
-<ul>
-<li>2 = <strong>High</strong></li>
-<li>1 = <strong>Medium</strong></li>
-<li>0.5 = <strong>Low</strong></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td colspan="3" class="text-center"><h5>Effort</h5></td>
-</tr>
-<tr>
-<td colspan="3">How many months before we can launch an MVP to gather feedback (1 - 3).</td>
-</tr>
-</table>
-
-The total score is calculated by **(Reach x Impact x Confidence) / Effort**
-
-The following table is driven by the relevant RICE labels on the issues themselves.
-
-If you would like to propose a Single Engineer Group please reach to our [VP of Incubation Engineering](https://gitlab.com/bmarnane).
-
-<%= partial("direction/seg-table", :locals => { :label => "SingleEngineerGroups" }) %>
 
 ## Key Performance Indicators
 

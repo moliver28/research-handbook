@@ -11,7 +11,7 @@ title: "Product and Solution Marketing Group Conversations How-to"
 
 ## What is a Group Conversation (GC)?
 
-GitLab departments update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
+GitLab departments update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/company/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
 
 ## Old GC decks
 
@@ -24,6 +24,7 @@ We almost always know when our next GC is and create the deck for it as soon as 
 ### Creating the next deck
 
 As soon as we know the date of our next GC, someone (usually the person who will run the next GC) should create the next deck, so that people can start adding to it. THis is done by
+
 1. Going to the [SM GC folder](https://drive.google.com/drive/u/0/folders/1fCEAj1HCegJOJE_haBqxcy2NYm0DS1FO) on the Google drive.
 1. making a copy of file names `Product and Solution Marketing GC TEMPLATE - DO NOT EDIT` (please keep it in the same directory).
 1. rename the copy by replacing the `TEMPLATE - DO NOT EDIT` part with the [ISO date](/handbook/communication/#writing-style-guidelines) of the next GC
@@ -39,7 +40,7 @@ As soon as we know the date of our next GC, someone (usually the person who will
 
 1. We should all be recording info in the next GC deck as we complete them (daily, weekly, etc). The goal is to not have to go back through our calendars, emails, slack messages, meeting notes, etc right before the GC session to dig up the past. This is harder to do and more likely we will miss items.
 1. Add ***accomplishments/results***, not "what we are doing", "what we are working on", etc
-1. Add your contents onto the slide that is marked for your team (eg. Technical Marketing).
+1. Add your contents onto the slide that is marked for your team (eg. Developer Advocates).
 1. ***SUPER IMPORTANT: Make sure*** that the content you are adding wasn't already identified in a previous GC.
 1. As many items as possible should have links (either to the deliverable itself, the video, the presentation, the pointer to the conference speaker's session, etc). Do your best to link to something relevant.
 1. Be conscious of formatting. When you add content, if you are pasting it in, use "Paste without formatting" (on Mac: command-shift-V) to pick up the formatting and text sizing that is already on the page.
@@ -70,6 +71,7 @@ GC decks are a team effort. Here are some suggestions to make sure that everyone
 ## Validation and Quality
 
 Part of your responsibility as the next GC host is to make sure that the GC deck meets/adheres to some quality standards that we've set for ourselves
+
 1. check over the deck for any mentions of Analyst work/interactions/etc that should be kept anonymous/unspecified. Check with Collin/Ryan if you aren't sure.
 1. check to make sure that everything as much as possible has a link to either the asset, the webpage, the issue, etc
 1. check that there is nothing listed as new that was already listed in the previous GC
@@ -89,4 +91,3 @@ Part of your responsibility as the next GC host is to make sure that the GC deck
 - During the GC call you are the host and the quarterback. This does not mean that you should answer all of the questions. This means that you guide the call and conversations, and call in team members when needed.
 - Most of the time team members will be on the call and jump in with answers for their respective areas of responsibility without your prompting. Don't think that this is a statement about how you are doing. It's not. This is a team sport and we are all supporting each other and speaking up for areas we are DRI's for.
 - If there are no questions don't count down tot he end. Wait silently, and if there still aren't questions, wrap the call up.
-

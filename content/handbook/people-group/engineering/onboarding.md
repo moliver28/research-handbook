@@ -47,28 +47,9 @@ If you receive a question from a manager about why a template was not linked in 
 
 Note: If a People Connect Team member needs to create the onboarding issue for interns, they can use the same Slack command.
 
-This issue is added to the [team member's epic]({{< ref "/handbook/people-group/engineering/employment-issues#epics" >}}).
+This issue is added to the [team member's epic](/handbook/people-group/engineering/employment-issues#epics).
 
-If you want to read more about how employment issues are set up, please read [this section]({{< ref "/handbook/people-group/engineering/employment-issues" >}}).
-
-## Joining announcement
-
-> This Job has currently been disabled, but may be brought back in the future.
-
-A scheduled pipeline is configured to automatically send a message containing a
-list of all new team members who are joining GitLab in the following week. It
-includes details like name, email address, joining date, and their job title.
-The message also includes a link to a [Sisense chart](https://app.periscopedata.com/app/gitlab/503779) containing a
-detailed breakdown and overview of the hiring process over time.
-
-While we create this message, we check if there are any team members that have
-"missing data". When they do, the message, is sent to `#peopleops-alerts`. This
-way, the People Connect Team member, can make sure the data is added and run the `joiningannouncement` Slack command.
-
-When there is no missing data, the message is posted directly to `#team-member-updates`.
-
-Currently, the pipeline is scheduled to be run at 08:00 AM UTC every
-Thursday.
+If you want to read more about how employment issues are set up, please read [this section](/handbook/people-group/engineering/employment-issues).
 
 ## Invited to GitLab.com
 

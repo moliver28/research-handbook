@@ -45,7 +45,7 @@ The Director Customer Success Operations is a [grade 10](/handbook/total-rewards
 - Ability to use GitLab
 - Ability to learn GitLab as part of the role
 - You share our [values](/handbook/values/) and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 ### Senior Director of Customer Success Operations
 

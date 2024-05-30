@@ -11,12 +11,12 @@ community. This makes it more efficient for everyone to contribute or to get
 a question answered. Therefore, the following interfaces are based on the
 product categories defined on this page:
 
-- [Home page](/)
-- [Product page](/stages-devops-lifecycle/)
-- [Product Features](/features/)
-- [Pricing page](/pricing/)
-- [DevOps Lifecycle](/stages-devops-lifecycle/)
-- [DevOps Tools](/competition/)
+- [Home page](https://about.gitlab.com/)
+- [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
+- [Product Features](https://about.gitlab.com/features/)
+- [Pricing page](https://about.gitlab.com/pricing/)
+- [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
+- [DevOps Tools](https://about.gitlab.com/why-gitlab/)
 - [Product Direction](https://about.gitlab.com/direction/)
 - [Stage visions](https://about.gitlab.com/direction/#devops-stages)
 - [Documentation](https://docs.gitlab.com/)
@@ -36,7 +36,7 @@ We then add the **value stages** that we talk about in marketing. These include 
 These stages have groups that rally around the same users, GitLab integrators, GitLab itself, and GitLab administrators, respectively.
 Stages are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
 Each stage has a corresponding [`devops::<stage>` label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) under the `gitlab-org` group.
-1. **Group**: A stage has one or more [groups](/handbook/company/team/structure/#product-groups).
+1. **Group**: A stage has one or more [groups](/handbook/company/structure/#product-groups).
 Groups are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
 Each group has a corresponding [`group::<group>` label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) under the `gitlab-org` group.
 1. **Categories**: A group has one or more categories. Categories are high-level
@@ -87,7 +87,7 @@ E.g Link the marketing page. If there's no marketing page, link to the docs. If 
 
 #### Solutions
 
-[Solutions](/handbook/use-cases/) can consist of multiple categories and are typically used to align to a customer challenge (e.g. the need to reduce security and compliance risk) or to market segments defined by analysts such as Software Composition Analysis (SCA). Solutions are also often used to align to challenges unique to an industry vertical (e.g. financial services), or to a sales segment (e.g. SMB vs Enterprise).
+[Solutions](/handbook/marketing/use-cases/) can consist of multiple categories and are typically used to align to a customer challenge (e.g. the need to reduce security and compliance risk) or to market segments defined by analysts such as Software Composition Analysis (SCA). Solutions are also often used to align to challenges unique to an industry vertical (e.g. financial services), or to a sales segment (e.g. SMB vs Enterprise).
 
 Solutions typically represent a customer challenge, and we define how GitLab capabilities come together to meet that challenge, with business benefits of using our solution.
 
@@ -107,7 +107,7 @@ Capabilities can refer to stages, categories, or features, but not solutions.
 Adding more layers to the hierarchy would give it more fidelity but would hurt
 usability in the following ways:
 
-1. Harder to keep the [interfaces](#Interfaces) up to date.
+1. Harder to keep the [interfaces](#interfaces) up to date.
 1. Harder to automatically update things.
 1. Harder to train and test people.
 1. Harder to display more levels.
@@ -125,7 +125,7 @@ As a result, it is considered an anti-pattern to how we've organized for categor
 of concern for available capacity.
 
 When designing the hierarchy, the number of sections should be kept small
-and only grow as the company needs to re-organize for [span-of-control](/handbook/company/team/structure/#management-group)
+and only grow as the company needs to re-organize for [span-of-control](/handbook/company/structure/#management-group)
 reasons. i.e. each section corresponds to a Director of Engineering and a
 Director of Product, so it's an expensive add. For stages, the DevOps loop
 stages should not be changed at all, as they're determined from an [external](https://en.wikipedia.org/wiki/DevOps_toolchain)
@@ -147,7 +147,7 @@ captured as different groups. Groups are also a non-marketing construct, so we
 expand the number of groups as needed for organizational purposes. Each group
 usually corresponds to a backend engineering manager and a product manager, so
 it's also an expensive add and we don't create groups just for a cleaner
-hierarchy; it has to be justified from a [span-of-control](/handbook/company/team/structure/#management-group)
+hierarchy; it has to be justified from a [span-of-control](/handbook/company/structure/#management-group)
 perspective or limits to what one product manager can handle.
 
 ### Category Statuses
@@ -163,7 +163,7 @@ Typically, product direction pages will transparently state the investment statu
 
 ## Changes
 
-The impact of changes to sections, stages and groups is felt [across the company](/handbook/company/team/structure/#product-groups).
+The impact of changes to sections, stages and groups is felt [across the company](/handbook/company/structure/#product-groups).
 
 All new category creation needs to be specifically approved via our Opportunity Canvas review process. This is to avoid scope creep and breadth at the expense of depth and user experience.
 
@@ -226,16 +226,9 @@ Changes that require approval only from the relevant Product Director include:
 
 ### Changing group name
 
-When changing the name of a group, make sure to go through the following steps:
-
-- Create a MR to change the group name in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml) using the Group-Stage-Category-Change template
-- Get the required signoff
-- Merge the group name change MR
-- Create an issue in the triage-ops project to [update GitLab Bot automation for Stage or Group change](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new?issuable_template=stage-or-group-label-change)
-- Tag the group's Technical Writer in the merge request to ensure documentation metadata is updated after the group change is merged
-- Share MR in #product, #development, #g_engineering_analytics and relevant #s_, #g_, and #f_ Slack channels
-- Review direction pages, groups, projects, epics, issues, templates and documentation to ensure the name change is applied consistently.
-- Rename Slack channels to reflect the new group name
+When changing the name of a group, create a merge request to change the group name in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml)
+using the [Group-Stage-Category-Change](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Group-Stage-Category-Change.md) template,
+and make sure to complete all the steps in the template.
 
 ### Changing category name
 
@@ -292,7 +285,7 @@ Maybe we should make our features easier to search to replace the section below.
 ### Other functionality in [Plan](/handbook/product/categories/#plan-stage) stage
 
 #### [Project Management group](/handbook/product/categories/#project-management-group)
-- markdown functionality
+
 - assignees
 - milestones
 - due dates
@@ -302,6 +295,11 @@ Maybe we should make our features easier to search to replace the section below.
 - email notifications
 - to-do list
 - Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
+
+#### [Knowlege group](/handbook/product/categories/#knowledge-group)
+
+- markdown functionality
+- rich text editor
 
 ### Other functionality in [Create](/handbook/product/categories/#create-stage) stage
 
@@ -316,7 +314,7 @@ Maybe we should make our features easier to search to replace the section below.
 
 ### Other functionality in Verify
 
-#### [CI Group](#continous-integration-group)
+#### [CI Group](#ci-group)
 
 - [CI Abuse Response](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11678)
 
@@ -328,21 +326,24 @@ Maybe we should make our features easier to search to replace the section below.
 
 ### Other functionality in [Manage](/handbook/product/categories/#manage-stage) stage
 
-### Other functionality in [Engineering Productivity](/handbook/engineering/quality/engineering-productivity/)
-- [GDK](/handbook/engineering/quality/engineering-productivity/gdk/)
+### Other functionality in [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+
+- [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
 ### Other functionality in [Test Platform](/handbook/engineering/infrastructure/test-platform/)
+
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
 - [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
 
-Internal Customers: [Gitaly](#gitalycluster-group), [Core Platform section](#core-platform-section), [SaaS Platforms section](#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
+Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [Core Platform section](/handbook/engineering/infrastructure/#core-platform-section), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
 ### Other functionality in [Analytics](/handbook/product/categories/#analytics-stage)
 
 #### [Product Analytics group](/handbook/product/categories/#product-analytics-group)
+
 - [Analytics Dashboards](https://docs.gitlab.com/ee/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
 
 ### Facilitated functionality
@@ -358,8 +359,8 @@ While the mental models for these areas are maintained by specific stage groups,
 
 If you encounter an issue falling into a facilitated area:
 
-* For issues that relate to updating the guidelines, apply the `group::category` label for the facilitating group.
-* For issues that relate to adding content related to a facilitated area, apply the `group::category` label for the most closely related group. For example, when adding a new setting related to Merge Requests, apply the `group::source code` label.
+- For issues that relate to updating the guidelines, apply the `group::category` label for the facilitating group.
+- For issues that relate to adding content related to a facilitated area, apply the `group::category` label for the most closely related group. For example, when adding a new setting related to Merge Requests, apply the `group::source code` label.
 
 ### Shared responsibility functionality
 
@@ -379,5 +380,7 @@ Whatever the source of the functionality, rather than thinking of these componen
 It does not mean, however, that a single group should necessarily be solely responsible for all of these activities. Multiple groups could end up collaborating in execution. This coordination however requires a careful triage of the shared responsibility issues in the issue tracker where a single [DRI](/handbook/people-group/directly-responsible-individuals/) coordinates these activities.
 
 For more information please review [this section in the quality department handbook](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
+
+### Categories A-Z
 
 {{< categories-index >}}

@@ -20,11 +20,11 @@ title: GitLab's Guide to Total Rewards
 {{% /card %}}
 
 {{% card header="**Equity**" %}}
-**Why:** [Why we grant Equity to Team Members](/handbook/stock-options/#stock-options)
+**Why:** [Why we grant Equity to Team Members](/handbook/total-rewards/stock-options/#stock-options)
 
-**What:** [What we grant to Team Members](/handbook/stock-options/#stock-option-grant-levels)
+**What:** [What we grant to Team Members](/handbook/total-rewards/stock-options/#stock-option-grant-levels)
 
-**How:** [Accepting, Understand and Exercising Awards](/handbook/stock-options/#exercising-your-options)
+**How:** [Accepting, Understand and Exercising Awards](/handbook/total-rewards/stock-options/#exercising-your-options)
 {{% /card %}}
 {{% /cardpane %}}
 
@@ -38,7 +38,6 @@ title: GitLab's Guide to Total Rewards
 | Raisha Kole | Senior Benefits Program Manager |
 | Sandra Choi | Global Compensation Partner |
 | Franz Rivera | Senior Compensation Analyst |
-| Phillip Kim | Senior Benefits Program Manager |
 
 ## Contact The Team
 

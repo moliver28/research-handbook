@@ -5,13 +5,11 @@ title: "GitLab's Customer Assurance Activities"
 
 If you would like to request security collateral which are under NDA, (such as SOC 2 Type 2, Pentest executive summary, etc.) please visit the [Trust Center](https://trust.gitlab.com/) and click on the request access button at the top right-hand corner.
 
-## Submit a Request!
-
+## Submit a Request
 
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=main_template" class="btn bg-primary text-white btn-lg">Customer Call Request</a>
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=cap_request_template" class="btn bg-primary text-white btn-lg">General Request</a>
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=Contract%20Review%20CAA" class="btn bg-primary text-white btn-lg">Contract Review Request</a>
-
 
 *The above are for GitLab Team Members only. Customers should contact their GitLab [Account Owner](/handbook/sales/#initial-account-owner---based-on-segment) to initiate their requests. If a customer doesn't know their Account Owner or does not yet have an assigned Account Owner, they can [contact the sales team](https://about.gitlab.com/sales/). Once you have submitted the issue, it is now in our queue and will be assigned to one of our Field Security Engineers when it is next up (please see SLA's listed below).*
 
@@ -28,6 +26,8 @@ We will start all CAA requests (with the exception of Contract Reviews) by **sha
 ### For Questionnaires
 
 The process will be handled in SafeBase. Customers/prospects who have access to the [Trust Center](https://trust.gitlab.com) can directly upload questionnaires by clicking the *Submit a Questionnaire* link at the top of the Trust Center.
+
+Field Security has certain thresholds when determining when, and to what extent, we will complete custom security review questionnaires from customers. Field Security will consider completing questionnaires as detailed [here](https://internal.gitlab.com/handbook/security/security-assurance/field_security/questionnaire_thresholds) in the Internal Handbook.
 
 ### For Customer Calls and General Requests
 

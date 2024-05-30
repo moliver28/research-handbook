@@ -40,7 +40,7 @@ To set up a tunnel to a Thanos Query instance:
 
 ```bash
 export user=$(whoami) # your ssh username
-ssh -o 'StrictHostKeyChecking no' -o 'ProxyCommand ssh $(user)@lb-bastion.gstg.gitlab.com -W %h:%p' -L 10902:thanos-query-frontend-internal.ops.gke.gitlab.net:9090 $(user)@lb-bastion.gstg.gitlab.com -Nv
+ssh -o 'StrictHostKeyChecking no' -o 'ProxyCommand ssh ${user}@lb-bastion.gstg.gitlab.com -W %h:%p' -L 10902:thanos-query-frontend-internal.ops.gke.gitlab.net:9090 ${user}@lb-bastion.gstg.gitlab.com -Nv
 ```
 
 This provides a tunnel to allow access to Thanos at `http://localhost:10902`, which Tamland will use by default.

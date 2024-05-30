@@ -1,21 +1,11 @@
 ---
-
 title: "Image Guidelines"
 description: "The purpose of this page is to present guidelines for image file formats."
 ---
 
-
-
-
-
-
-
-# Image Guidelines
-
-
 **Please note that deviation from these guidelines will increase production time.**
 
-The purpose of this page is to present guidelines for image file formats. The intended audiences are people who might not be familiar with design tools nor our unique requirements when working on items like [about.gitLab.com](/), print collateral, and more.
+The purpose of this page is to present guidelines for image file formats. The intended audiences are people who might not be familiar with design tools nor our unique requirements when working on items like [about.gitLab.com](https://about.gitlab.com/), print collateral, and more.
 
 We highly suggest you ask any partner/vendor/client for images that follow these guidelines. Examples of this include but are not limited to:
 

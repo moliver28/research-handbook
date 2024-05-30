@@ -70,8 +70,8 @@ You can also do one or more of the following:
 
 Especially if you feel you're stalled on a ticket and need assistance identifying next steps:
 
-1. Always feel free to reach out to any available manager (such as your manager, or the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) in the `#spt_managers` channel. They will help you to determine next steps.
-   - Avoid messages with no identified DRI for responding in `#spt_managers` as they can be missed or be a victim to the bystander effect.
+1. Always feel free to reach out to any available manager (such as your manager, or the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) in the `#support_leadership` channel. They will help you to determine next steps.
+   - Avoid messages with no identified DRI for responding in `#support_leadership` as they can be missed or be a victim to the bystander effect.
 1. [Open a STAR](/handbook/support/internal-support/support-ticket-attention-requests#submitting-a-support-ticket-attention-request-star--starring-a-ticket) in situations where getting help is urgent and important because:
    - the customer has expressed unhappiness with the service we're delivering via the ticket
    - the support engineer has noticed a correlation between several of a customers tickets that could use a more cohesive response
@@ -79,7 +79,40 @@ Especially if you feel you're stalled on a ticket and need assistance identifyin
 
 ### How to formally Request Help from the GitLab Development Team
 
-Starting from `2022-06-13` the Support Team and the Development Team are rolling out a series of projects that will enable support engineers to request help from a GitLab Development group, for more information on this please review the [associated proposal](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4023). The aim is to provide a formal and accountable workflow process for Support Engineers to request assistance from the various Development Sections for any technical issues which they are currently unable to progress.  Please note that this is an iterative process, which aims to roll out the process for each of the 10 development sections at GitLab. If the Development Section that you require assistance from is not listed in the table below then please continue to use the existing methods for contacting the relevant Development Teams, such as Slack.
+To enhance collaboration between the support and development teams, GitLab has implemented the Request for Help (RFH) process. This allows support engineers to formally request assistance from the specific GitLab development groups responsible for the relevant functionality when facing technical challenges that impede ticket resolution. This section outlines the necessary steps to effectively utilize the RFH process.
+
+It's important to note that this process is part of a broader, iterative strategy aimed at deploying this workflow across all development sections and groups at GitLab. If the RFH template for a particular development group is not yet available, please reach out to [John Lyttle](https://gitlab.com/jlyttle) to initiate the creation of the required RFH template.
+
+#### Are you requesting for Dev help too soon?
+
+NO! To drive this point home, here's what our Devs have to say about this:
+
+> [...] _it's almost never too soon and every dev I've talked to about it has nothing but mountains of respect for support folks [...]_
+
+  -- **James Nutt**
+
+> _I always love it when anyone from the support team reaches out to me. It's not a bother at all; in fact, it has given me a lot of great ideas before.I actually wrote an [article](https://medium.com/popmenu-engineering/popmenus-culture-of-cross-functional-collaboration-dcc19bba3ea9) about how working with our support team helped get good outcomes for customers at a previous company_
+
+  -- **Lesley Razzaghian**
+
+> _Most are happy to help anytime. My only suggestion is to search docs first. That’s really helpful for devs because we might link you to docs anyway. But then it’s also helpful to know “the docs didn’t address my question”. Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
+
+  -- **Drew Blessing**
+
+> _[...] If you stumble through and figure it out, and never tell us that you (or the customer) struggled, we don't get the feedback that we need to do better (which in many cases includes prioritizing doing better). And most of us want to do better._
+>
+>_Personally I wish Support would escalate to devs much sooner than they do on average. If that means that we get inundated with support requests that make it hard to focus on other work, then that's a sign that we need to deprioritize other features to focus on UX and docs (which are also features)._
+
+  -- **David Nelson**
+
+> _I'm never annoyed by support friends reaching out. It's you + me vs the problem after all!_
+_Devs love a puzzle, so I'm always keen.[...]_
+
+  -- **Charlie Ablett**
+
+> _If both Support and the Customer are confused about what the next steps are, at a minimum it’s an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
+
+  -- **Chad Woolley**
 
 #### How to find the correct Development Section and Group to reach out for help
 
@@ -93,7 +126,7 @@ The easiest way to determine the correct place for a Support Request for Help is
 
 Alternatively, if you have set up the [Support dotfiles](https://gitlab.com/gitlab-com/support/toolbox/dotfiles), you can use the `gls_request_for_help` command to quickly retrieve the "New issue" link with the correct issue template.
 
-*NOTE:* A video recording of a similar workflow as the one described above can be found in the [Support Training repository](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/Support%20Specific%20Trainings/training-videos/Support%20Request%20for%20Help%20Workflow.mp4)
+_NOTE:_ A video recording of a similar workflow as the one described above can be found in the [Support Training repository](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/Support%20Specific%20Trainings/training-videos/Support%20Request%20for%20Help%20Workflow.mp4)
 
 #### List of Development Sections and corresponding links to the Projects for requesting help
 
@@ -133,12 +166,12 @@ Use the following repositories and resources for identifying similar issues or r
 1. If the Zendesk ticket is escalated then add the label `Support::escalated`.
 1. Add a 'Customer Impact' statement if necessary, advocating for the customer.
 1. Ensure to follow any instructions on the template itself, such as who to assign the issue to (if not automatically assigned).
-1. Ensure that a link to the corresponding issue is added to the Zendesk ticket as an internal note.
+1. Ensure that a link to the corresponding issue is added to the Zendesk ticket as an internal note and also to the ticket field named `GitLab Issues`.
 
 #### Tips on getting timely responses
 
 1. Review the Opening a request for help to ensure all steps were covered.
-1. Mention the engineer who is helping or assigned with *every* comment where you need them to review or respond.
+1. Mention the engineer who is helping or assigned with _every_ comment where you need them to review or respond.
 1. If an issue is moved to another group (through a label change or moving to another project), check the corresponding template for the new group to see who to assign or mention in a comment.
 1. When linking to Kibana, also upload a copy of relevant entries, a screenshot of the graph, etc. as logs rotate out after 7 days. If possible, also link to the relevant Sentry entry.
 
@@ -149,7 +182,7 @@ If you encounter any problems, such as obtaining a timely response from Developm
 1. Check if the engineer(s) assisting with the request is on PTO through Slack or their GitLab status. If they are on PTO, mention the contacts (listed in the issue template) in the issue, or their backups if they are also on PTO, requesting an update via the issue. Backups are listed in a coverage issue, or in Slack.
 1. Make the corresponding Development group Engineering Manager aware by mentioning them in the issue. You can identify the relevant Engineering Manager by checking the Development Group Handbook Page from each Projects Readme Section which provides a section named `Development Groups with their corresponding templates and labels`.
 1. Feel empowered to ping the contacts and/or Engineering Manager in the corresponding product/development group Slack channel along with a link to the issue, requesting an update.
-1. Reach out to a Support Engineering Manager for further guidance directly or in the `#spt_managers` Slack channel.
+1. Reach out to a Support Engineering Manager for further guidance directly or in the `#support_leadership` Slack channel.
 
 #### Closing: Document and knowledge share
 

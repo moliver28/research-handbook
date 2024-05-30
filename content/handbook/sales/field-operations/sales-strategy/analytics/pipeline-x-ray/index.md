@@ -17,7 +17,7 @@ The X-Ray dashboard provides a forward looking perspective of current and future
 
 ### Access
 
-To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to the Sisense SAFE Enviroment.
+To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to the Sisense SAFE Enviroment.
 
 Access to the X-Ray dashboard is automatically awarded to all members of the SAFE Sisense group.
 
@@ -86,8 +86,3 @@ Here is a table of the created models with links to their respective DBT model d
 | [report_targets_totals_per_quarter](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_sales_report_targets_totals_per_quarter)  | Totals / Target table pre-aggreagated. Targets are used for current and future quarter, and totals for previous quarters |
 | [sfdc_opportunity_snapshot_history_xf](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_sales_sfdc_opportunity_snapshot_history_xf)  | Legacy model with extra metrics definitions and helper fields  |
 | [sfdc_opportunity_xf](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_sales_sfdc_opportunity_xf)  | Legacy model with extra metrics definitions and helper fields |
-
-
-
-
-

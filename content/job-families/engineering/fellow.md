@@ -2,7 +2,7 @@
 title: Engineering Fellow
 ---
 
-The Engineering Fellow role is the individual contributor [equivalent](/handbook/company/team/structure/#layers) to a VP of Engineering.
+The Engineering Fellow role is the individual contributor [equivalent](/handbook/company/structure/#layers) to a VP of Engineering.
 
 ## Job Grade
 

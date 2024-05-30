@@ -83,9 +83,7 @@ To help track progress, we encourage trainees to make the traineeship one of the
 
 ### Maintainer ratios
 
-See the [Pajamas maintainer ratio dashboard](https://app.periscopedata.com/app/gitlab/658466/Pajamas-Design-System).
-
-{{% sisense dashboard="658466" height="475" %}}
+See the [Pajamas maintainer ratio dashboard (internal)](https://10az.online.tableau.com/t/gitlab/views/UXPajamasMaintainers/PajamasDesignSystem?:origin=card_share_link&:embed=n).
 
 ##### Current trainee maintainers
 

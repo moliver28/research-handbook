@@ -8,7 +8,7 @@ aliases: /handbook/company/culture/inclusion/DIB-Sponsorship/
 
 ### Sponsorship
 
-Sponsorship is defined as using your influence and/or power to advocate and positively impact the growth and career advancement of a team member. A sponsor is a senior leader with significant influence and responsibilities. A sponsor will then use this influence to but not limited to;
+Sponsorship is defined as using your influence and/or power to advocate and positively impact the growth and career advancement of a team member. A sponsor is a senior leader with significant influence and responsibilities. A sponsor may then use this influence for activities such as:
 
 - Advocating for career advancement opportunities
 - Providing stretch opportunities to up skill via active projects
@@ -22,7 +22,7 @@ This page outlines what sponsorship is and the pathway to creating a successful 
 
 ### Mentorship
 
-Mentorship is defined in our [Mentoring handbook page:]({{< ref "/handbook/people-group/learning-and-development/mentor#what-is-mentoring" >}}) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development.
+Mentorship is defined in our [Mentoring handbook page:](/handbook/people-group/learning-and-development/mentor#what-is-mentoring) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development.
 
 [Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: “While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you.”
 
@@ -208,7 +208,6 @@ Once sign up has closed for the Sponsees, matching can begin. You should utilize
 - The sponsor should be two job grade above the sponsee
 - The sponsor should not be in the direct hierarchy of the sponsor
 - Utilize the sign up form to match similar goals and experiences for the sponsee sponsor pairing
-
 
 ### Begin the program
 

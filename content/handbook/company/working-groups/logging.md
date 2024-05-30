@@ -36,8 +36,7 @@ description: "The GitLab Logging Working Group will have multiple business purpo
 
 | Working Group Role  | Person           | Title                                  |
 |---------------------|------------------|----------------------------------------|
-| Facilitator         | Joe Dubail     | Manager, Infrastructure Security         |
-| Co-Facilitator     | Harjeet Sharma | Security Engineer, SIRT |
+| Facilitator     | Harjeet Sharma | Security Engineer, SIRT |
 | Member              | Jeff Martin      | Senior IT Systems Engineer |
 | Member              | Steve Manzuik | Senior Manager, Threat Management |
 | Member              |Byron Boots |Senior Security Compliance Engineer  |
@@ -46,7 +45,6 @@ description: "The GitLab Logging Working Group will have multiple business purpo
 | Member              | Jayson Salazar| Staff Security Engineer, Security Automation |
 | Member              | Dan Croft | Senior Engineering Manager, Ops |
 | Member              |  |  |
-
 
 ## Requirements and Considerations
 
@@ -84,7 +82,6 @@ description: "The GitLab Logging Working Group will have multiple business purpo
     - The format of each log source
     - The fields recorded in each log source
 - As a SIRT Engineer, I am able to easily integrate logging data into other SIRT tools for fast, accurate and reliable Incident Response
-
 
 #### Infrastructure Security
 

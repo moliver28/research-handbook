@@ -27,6 +27,7 @@ We need to streamline the language framework (version) update process. Language 
 ## Tracking Progress
 
 Progress will be tracked on the Working Group [issue board](https://gitlab.com/groups/gitlab-org/-/boards/5467616) using the following labels:
+
 - ~"workflow::In dev"
    - The issue is currently in progress and actively being worked on
 - ~"workflow::In review"

@@ -109,7 +109,7 @@ For any infrastructure services related to business operations and our tech stac
 
 New SaaS applications should go through the [Procurement Process](/handbook/finance/procurement/) and are managed by the respective department's [system owners](/handbook/business-technology/#cross-department-system-owners).
 
-Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/architecture/), [Infrastructure Security](/handbook/security/security-engineering/infrastructure-security/), [Application Security](/handbook/security/security-engineering/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management.html). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
+Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/architecture/), [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management.html). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
 
 #### Accessing your AWS Account
 
@@ -133,7 +133,7 @@ Self-hosted application infrastructure is determined on a case-by-case basis and
 
 ## Domain Names
 
-See the [Domain Names and DNS Records](/handbook/it/guides/domains-dns) IT guide handbook page for more details.
+See the [Domain Names and DNS Records](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/domains-dns/) IT guide internal handbook page for more details.
 
 ## Terraform Environments
 

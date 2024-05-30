@@ -16,7 +16,6 @@ description: Information and resources for those who want to pursue the manageme
   <iframe src="https://www.youtube.com/embed/Zeull-tdy6o" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
 ## Is Management right for me?
 
 The best way to determine whether or not management is the track you would like to pursue, is to learn more about what managers do through online training and discussions with Managers.
@@ -40,7 +39,7 @@ There are some online training courses that describe the managerial experience:
 
 * Review Promotion Docs for team members from your functional area who have recently been promoted to Engineering Managers
 * Schedule a coffee chat with team members who have recently been promoted and ask them questions that will help you learn more about their transition and their new role
-* See what is [expected of GitLab leadership](/handbook/company/team/structure/#management-group)
+* See what is [expected of GitLab leadership](/handbook/company/structure/#management-group)
 * Consider a mentor outside of GitLab
 
 **Stay Informed**
@@ -119,11 +118,10 @@ While resources are valuable in their own right, having an experienced Manager a
 
 1. Participation is voluntary for both Managers and Aspiring Managers.
 1. Managers may directly mentor up to 4 Aspiring Managers at a time.
-1. Manager / Aspiring Manager mentorships are coordinated within the [manager_mentorship.yml](/data/manager_mentorship.yml) file.
-1. Aspiring Managers should locate a Manager that has an opening available in [manager_mentorship.yml](/data/manager_mentorship.yml) and contact them directly.
+1. Manager / Aspiring Manager mentorships are coordinated within the [manager_mentorship.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/manager_mentorship.yml) file.
+1. Aspiring Managers should locate a Manager that has an opening available in [manager_mentorship.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/manager_mentorship.yml) and contact them directly.
 1. Manager and Aspiring Managers should check in at least every 6 weeks. This could happen async or via [Coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats).
 1. Discussion topics would be completely flexible based on needs and interests.
-
 
 ### Benefits
 

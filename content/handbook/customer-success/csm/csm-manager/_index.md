@@ -20,25 +20,25 @@ This page provides an overview on relevant CSM leadership processes.
 
 ## CSM Leadership
 
-| Name | [Sales Segment](/handbook/sales/field-operations/gtm-resources/#segmentation) | Region | Level | Account Segment |
-|---|---|---|---|---|
-| [Sherrod Patching](/handbook/company/team/#spatching) | Enterprise & Commercial | Global | VP | All Segments |
-| [Taylor Lund](/handbook/company/team/#taylorlund) | Enterprise, Commercial, & PubSec | Global | Manager | N/A |
-| [Christiaan Conover](/handbook/company/team/#christiaanconover) | Enterprise | AMER | Director | Strategic & Major |
-| [Chloe Whitestone](/handbook/company/team/#chloe) | Enterprise | AMER East | Manager | Strategic |
-| [Sophie Pouliquen](/handbook/company/team/#spouliquen1) | Enterprise | AMER East | Manager | Major |
-| [Tiffany McAtee](/handbook/company/team/#tiffanymcatee.gitlab) | Enterprise | AMER East | Manager | Major |
-| [Erica Sivak](/handbook/company/team/#esivak) | Enterprise | AMER West | Manager | Strategic |
-| [Jamie Reid](/handbook/company/team/#jrreid) | Enterprise | AMER West | Manager | Major |
-| [Dave Thompson](/handbook/company/team/#dthompson3) | Enterprise | APAC | Manager | N/A |
-| [Michael Leutz](/handbook/company/team/#mrleutz) | Enterprise | EMEA | Director | N/A |
-| [Chenje Katanda](/handbook/company/team/#ckatanda) | Enterprise | EMEA (NEUR) | Manager | N/A |
-| [Ally Frusciano](/handbook/company/team/#afrusciano) | Commercial | Global | Director | Territory & Key |
-| TBH | Commercial | AMER | Manager | Territory |
-| [Christina Souleles](/handbook/company/team/#csouleles) | Commercial | EMEA | Manager | N/A |
-| [Robert Clark](/handbook/company/team/#robclark14) | PubSec | PubSec | Manager | N/A |
-| [Steven Terhar](/handbook/company/team/#SteveTerhar) | PubSec | PubSec | Manager | N/A |
-| [Oliver Falk](/handbook/company/team/#ofalk) | Enterprise | DACH | Manager | N/A |
+| Name | Region | Level | Team |
+|---|---|---|---|
+| [Sherrod Patching](/handbook/company/team/#spatching) | Global | VP | CSM & CSE |
+| [Ally Frusciano](/handbook/company/team/#afrusciano) | Global | Director | CSE |
+| [Taylor Lund](/handbook/company/team/#taylorlund) | Global | Senior Manager | CSE |
+| [Erica Sivak](/handbook/company/team/#esivak) | AMER | Manager | CSE |
+| [Oliver Falk](/handbook/company/team/#ofalk) | EMEA | Manager | CSE |
+| [Christiaan Conover](/handbook/company/team/#christiaanconover) | AMER | Director | CSM |
+| [Sophie Pouliquen](/handbook/company/team/#spouliquen1) | AMER East | Senior Manager | CSM |
+| [Chloe Whitestone](/handbook/company/team/#chloe) | AMER East | Manager | CSM |
+| [Tiffany McAtee](/handbook/company/team/#tiffanymcatee.gitlab) | AMER East | Manager | CSM |
+| [Jamie Reid](/handbook/company/team/#jrreid) | AMER West | Manager | CSM |
+| [Cedric Stapleton](/company/team/#c.stapleton) | AMER West | Manager | CSM |
+| [Dave Thompson](/handbook/company/team/#dthompson3) | APAC | Manager | CSM |
+| [Michael Leutz](/handbook/company/team/#mrleutz) | EMEA | Director | CSM |
+| [Chenje Katanda](/handbook/company/team/#ckatanda) | EMEA | Manager | CSM |
+| [Christina Souleles](/handbook/company/team/#csouleles) | EMEA | Manager | CSM |
+| [Robert Clark](/handbook/company/team/#robclark14) | PubSec | Manager | CSM & CSE |
+| [Steven Terhar](/handbook/company/team/#SteveTerhar) | PubSec | Manager | CSM & CSE |
 
 ## CSM Manager Responsibilities & Requirements
 
@@ -155,7 +155,6 @@ The CSM Manager should then work with their team to help the CSM drive up and de
 - [Success Plan Handbook](/handbook/customer-success/csm/success-plans/)
 - Gainsight Dashboard - **CSM Portfolio** or **CS Leadership**
 
-
 ### Health Review and At-Risk Customers
 
 On at least a monthly basis, review accounts within your region in preparation for a biweekly **At-Risk** call. This includes reviewing:
@@ -165,7 +164,6 @@ On at least a monthly basis, review accounts within your region in preparation f
    1. Gainsight at-risk comments per account
 
 Details for all at-risk account should be captured in Gainsight using an `At-Risk Update` timeline entry. These updates are synced to Salesforce, and reports used to review at-risk accounts draw on these updates.
-
 
 #### At-Risk Review Meetings
 
@@ -196,17 +194,20 @@ CSM Managers align with their team members about any agreed-upon action items or
 The regional at-risk meetings use a specified format, to ensure consistent action & alignment on at-risk customers globally:
 
 > For each cohort listed below, we will discuss the following details:
+>
 > - What is the primary driver of risk?
 > - What do we need to accomplish to mitigate the risk?
 > - Next steps & ownership
 >
 > **Customer Cohorts**
+>
 > 1. At-risk renewals in current FQ
 > 1. At-risk renewals in next FQ
 > 1. All At-risk customers above $100k ARR (any FQ)
 > 1. Any other customers that warrant discussion outside of those groups
 >
 > **Reports for review**
+>
 > 1. [FQ At-Risk Accounts $100k ARR and Above](https://gitlab.my.salesforce.com/00OPL0000001spZ) [*Update linked report to one for your region*]
 
 Update the date range for `Close Date` at the top of the report to view the relevant fiscal quarter. Doing it this way allows us to work from a single report across all relevant customer cohorts. The priority in this meeting is current FQ and next FQ, but as time permits other at-risk customers should be reviewed.
@@ -238,7 +239,6 @@ This review also leads into the [regional review meeting](#regional-review-agend
 
 Moving to one exception process through SFDC chatter. Sales-comp is tagged on chatter for the required exception with the required approval. If it is a CSM pooled field change request then the comp team will process it and reply back on chatter. If it is a Renewal Rate/Growth ARR opportunity exception then the applicable exception checkbox is checked on the opportunity by the comp team and replied to the team by tagging the requestor. System team can help create a chatter report for the teams to view and this helps to collate all requests in one place.
 
-
 ## Renewal Resources
 
 - [Renewal Review Handbook](/handbook/customer-success/csm/renewals/)
@@ -257,37 +257,37 @@ This is a suggested cadence that can be used by regional CSM managers in their w
 
 `1st week` is defined as the first **full** week of the month.
 
-
 1st week:
+
 1. KPIs: nARR, renewal rate (async)
 1. Team: Hiring, Career Dev, Risk
 1. Customers: Escalations & Risk. SFDC Report: **At-Risk Customers**
 
 2nd week:
+
 1. KPIs: nARR, renewal rate (async)
 1. Top 50 customer reveiw. Tableau Report, OR Gainsight Dashboard - **Customer Health** sort by ARR
 1. OKR / Big Rock initiatives progress
 
 3rd week:
+
 1. KPIs: nARR, renewal rate (async)
 1. Team: Hiring, Career Dev, Risk
 1. Customers: Escalations & Risk. SFDC Report - **At-Risk Customers**
 
 4th week:
+
 1. KPIs: nARR, renewal rate (async)
 1. Ultimate Customers. Sisence dashboard OR Gainsight Dashboard - **Use Case Adoption**  
    1. Purchased last Qtr
    1. By ARR
 1. OKR / Big Rock initiatives progress
 
-
-
 ## Annual Processes
 
 ### President's Club Calculations
 
 President's Club criteria and processes are documented in the [GitLab internal handbook](https://internal.gitlab.com/handbook/sales/presidents-club/).
-
 
 ## Team Member Performance
 

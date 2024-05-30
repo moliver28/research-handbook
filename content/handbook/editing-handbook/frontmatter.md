@@ -3,6 +3,7 @@ title: "Handbook frontmatter"
 description: "Information on what frontmatter entries are available and how to use them."
 aliases:
 - /docs/frontmatter/
+controlled_document: true
 ---
 
 This page covers what frontmatter information is available on handbook pages, and their usage.
@@ -44,3 +45,64 @@ aliases:
 - /handbook/page/path/
 - /handbook/old/page/location/
 ```
+
+If you need to do a folder redirect or a redirect to an external page, you can add a line to the [redirects](https://handbook.gitlab.com/docs/development/#redirects).
+
+## Controlled Documents
+
+[Controlled documents](/handbook/security/controlled-document-procedure/) require the handbook frontmatter attribute `controlled_document` set to `true`. This attribute also renders the warning header, linking to [controlled documents review section](/handbook/security/controlled-document-procedure/#review). Example:
+
+```markdown
+---
+title: "Controlled Document Procedure"
+description: "GitLab deploys control activities through policies and standards that establish what is expected and procedures that put policies and standards into action."
+controlled_document: true
+---
+
+```
+
+Some pages might not need the warning banner which can optionally be disabled using the `controlled_document_banner_disabled` attribute.
+
+```markdown
+---
+title: "Public document without banner"
+description: "..."
+controlled_document: true
+controlled_document_banner_disabled: true
+---
+
+```
+
+In addition to the frontmatter for individual pages, controlled documents and their codeowner(s) must be listed in the "Controlled Documents" section of the repository's `CODEOWNERS` file. Please also follow any instructions at the top of the `CODEOWNERS` file.
+
+## Page Types (Layouts)
+
+**Note:** To keep the handbook consistent, we discourage overriding the page `type` (aka layout).
+
+You may notice that some pages have `layout` in the frontmatter, such as:
+
+```plain
+---
+title: "Some page"
+layout: default
+---
+```
+
+The `layout` keyword was used in the old `www-gitlab-com` project and is no longer relevant. Please remove it if you see it.
+
+We now use the docsy theme, which includes some [provided layouts](https://www.docsy.dev/docs/adding-content/content/#content-sections-and-templates). By default, all handbook pages inherit the `docs` type specified [in `content/handbook/_index.md`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/_index.md?ref_type=heads&plain=1#L8-9).
+
+If you are adding a new top-level section to the site, we encourage you to do the same:
+
+```md
+<!-- content/<new_section>/_index.md -->
+---
+title: New Section
+cascade:
+- type: docs
+---
+
+Welcome to this new section of the handbook site!
+```
+
+One exception to this is the "news" section of the internal-handbook which [inherits the `blog` page type.](https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/blob/main/content/news/_index.md?ref_type=heads&plain=1#L4)

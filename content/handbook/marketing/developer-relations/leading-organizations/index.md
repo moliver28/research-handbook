@@ -12,7 +12,7 @@ description: "Leading Organizations are groups and people who consistently make 
 
 ## Overview
 
-GitLab's [mission](/handbook/company/mission/#mission) is to make it so everyone can contribute. 
+GitLab's [mission](/handbook/company/mission/#mission) is to make it so everyone can contribute.
 
 The GitLab Leading Organization program supports this mission by recognizing and incentivizing organizations and individuals who are among our most active contributors. This initiative rewards and encourages co-creation. Through this program, we seek to strengthen the open source ecosystem. Leading Organizations drive their company’s innovation and employee retention through contributions while influencing GitLab’s product trajectory.
 
@@ -94,6 +94,7 @@ GitLab hosts workshops with organizations interested in increasing their contrib
 Email: [leadingorganizations AT gitlab DOT com](mailto:leadingorganizations@gitlab.com)
 
 Contribution Help:
+
 - [Developer Relations team](/handbook/marketing/developer-relations/)
 - [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 - [Core team](https://about.gitlab.com/community/core-team/)
@@ -101,7 +102,7 @@ Contribution Help:
 
 ## Who
 
-The Leading Organizations program is a [top cross-functional initiative](/handbook/company/top-cross-functional-initiatives/#current-top-cross-functional-initiatives) and [working group](/handbook/company/team/structure/working-groups/leading-organizations/).
+The Leading Organizations program is a [top cross-functional initiative](/handbook/company/top-cross-functional-initiatives/#current-top-cross-functional-initiatives) and [working group](/handbook/company/working-groups/leading-organizations/).
 
 [^1]: RedHat, The State of Enterprise Open Source (February 22, 2022). Available at: [https://www.redhat.com/en/resources/state-of-enterprise-open-source-report-2022](https://www.redhat.com/en/resources/state-of-enterprise-open-source-report-2022)
 [^2]: Nagle, Frank, Learning by Contributing: Gaining Competitive Advantage Through Contribution to Crowdsourced Public Goods (December 21, 2017). Available at SSRN: [https://ssrn.com/abstract=3091831](https://ssrn.com/abstract=3091831)

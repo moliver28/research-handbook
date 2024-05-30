@@ -1,21 +1,14 @@
 ---
-
 title: "Usecase: Artifact Management"
 ---
 
-
-
-
-
-
-
 #### Who to contact
 
-| Product Marketing | Technical Marketing | Product Management |
+| Product Marketing | Developer Advocate | Product Management |
 | ---- | --- | --- |
 | Daniel Hom (@danielhom)  | Itzik Gan-Baruch ( @iganbaruch ) | Tim Rizzi (@trizzi) |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Artifact management
 

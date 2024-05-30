@@ -10,7 +10,7 @@ GitLab has several compliance courses and resources. Explore the chart below to 
 
 | Training     | Tool  | Frequency   |  Responsible Team   |
 |---------|-----------------|------------------|------------------|
-| [Anti-Harassment](/handbook/anti-harassment/)    | WILL Interactive | Onboarding <br> Varies based on Location | Learning & Development |
+| [Anti-Harassment](/handbook/people-group/anti-harassment/)    | WILL Interactive | Onboarding <br> Varies based on Location | Learning & Development |
 | [Security](/handbook/security/#training-delivery)    | KnowBe4 | Onboarding <br> Annually by the end of August | Security |
 | Compliance    | Navex | Annual | Legal |
 

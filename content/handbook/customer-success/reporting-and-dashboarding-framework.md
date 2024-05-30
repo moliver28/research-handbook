@@ -52,6 +52,3 @@ Drive action: CSM-specific reporting for actioning CTAs, Success Plans, burn-dow
 1. **Mitigate duplication** across reporting tools (some duplication is necessary and encouraged)
 1. **Actionable** for end-users where applicable to drill down and complete tasks or update activity logs
 1. **Visually designed** to ensure clarity of recommendations
-
-
-

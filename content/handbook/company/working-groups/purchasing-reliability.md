@@ -50,7 +50,7 @@ it is likely referring to the entire "purchasing system", not the
 ### Prior Art
 
 - Commercial & Licensing Working Group
-  - [Handbook Page](/handbook/company/team/structure/working-groups/commercial-licensing/)
+  - [Handbook Page](/handbook/company/working-groups/commercial-licensing/)
   - [Agenda Doc](https://docs.google.com/document/d/1ayKH7rSKTCzjZojd15YFRk-T18xt-aznSNR-R4pFXnM/edit#heading=h.7liqin7jry4)
   - **Purpose:** Define business & customer experience requirements for a system to handle commercial and licensing transactions into the future.
   - **Outcomes:**

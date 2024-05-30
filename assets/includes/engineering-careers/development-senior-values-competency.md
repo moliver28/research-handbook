@@ -1,4 +1,5 @@
 ##### Development
+
 * Engages with the stable-counterparts for their team looking at how to improve the working relationships and processes.
 * Represents their team, and considers the impact to the team, when in conversations with others.
 * Provides [feedback](/handbook/people-group/guidance-on-feedback/) that focuses on the business impact of the behaviour.

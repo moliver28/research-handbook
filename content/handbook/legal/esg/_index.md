@@ -12,7 +12,7 @@ Environmental, social, and governance (ESG) practices, although newly formalized
 
 In December 2022, we conducted an ESG materiality assessment to determine which ESG topics are most important to our business and our stakeholders. Through engagement with both internal and external stakeholders, we explored which ESG topics have the greatest impact on GitLab’s business, and where we have the potential to have the greatest impact on the environment, society, and our global communities. Our materiality matrix was finalized in January 2023.
 
-In 2023, we released our inaugural [FY23 ESG Report](/handbook/esg/) in the Handbook. The report includes information on our key ESG focus areas, our programs and policies, acheivements to date, metrics and targets, and plans for the future.
+In 2023, we released our inaugural [FY23 ESG Report](/handbook/company/esg/) in the Handbook. The report includes information on our key ESG focus areas, our programs and policies, acheivements to date, metrics and targets, and plans for the future.
 
 ## ESG Request Process
 
@@ -38,23 +38,19 @@ Please allow a minimum of 10 working days for review.
 
 Once all necessary approvals have been documented for your charitable contribution, if the donation is >$5,000, we will need to set the recipient up in Coupa and follow the PO process in order to issue payment. Please [create a purchase request](/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip) in Zip to get the organization registered and to process payment. If the donation is <$5,000, please contact AP@gitlab.com to process payment as an exception to the PO process. Please note that if it is a new recipient that we have not paid before, an invitation to register in Coupa will be sent to the main contact on file to get their payment & tax information set up in the system.
 
-#### Team Member Volunteerism
+#### GiveLab
 
-Through the GitLab Volunteer Program, GitLab team members are able to organize volunteer activities in their local community or virtually. If you would like to submit a request to organize a volunteer activity with a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
+GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](https://handbook.gitlab.com/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
 
-**SuitUp Volunteer Opportunities**
+GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
 
-In Q3 FY24, GitLab and [SuitUp](https://www.volunteersuitup.com/) partnered to provide virtual volunteer opportunities for team members to make an impact on students around the world.
+Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
 
-SuitUp is a 501c3 nonprofit that helps students prepare for life beyond the classroom and increase career readiness by partnering with businesses and schools to develop, organize, and implement engaging innovative business plan competitions in communities. SuitUp empowers students to discover their passions through experiential learning opportunities and mentorship alongside corporate volunteers.
+Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by reaching out to the ESG team in the #givelab slack channel.
 
-Below are summaries of the events we held in August and October 2023.
+All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/).
 
-1. College & Career Panel:
-     - On August 2nd, we hosted a panel for students from We Lead Ours, a school in Oakland, CA. GitLab panelists shared what it's like to work at GitLab and in tech, their own career journeys, and discussed resources to help support the students’ journeys into the corporate world.
-1. Virtual Competitions:
-      - On October 11th, we held two virtual competitions with students from Kingsley Academy and Girls Inc of Alameda County. Coached by GitLab volunteers, students role played as CEOs of the company tasked with creating a new initiative with an accompanying marketing campaign that encouraged young professionals to begin their careers at GitLab. Each team pitched their ideas to a panel of GitLab judges and the winning teams came away with prizes.
-
+As with our unique ways of working, GitLab and its team members have identified and sought out opportunities for impact that speak not only to our [values](/handbook/values/) but also to our [all-remote](/handbook/company/culture/all-remote/guide/) nature. To review previous opportunities that team members participated in, visit the [historical activities page](/handbook/people-group/givelab-volunteer-initiatives/#gitlab-donation-drives).
 
 #### In Kind Support
 
@@ -76,13 +72,13 @@ Nonprofits accepted into the program will be provided a free Ultimate license fo
 
 GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our [Values](/handbook/values/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal or national government.
 
-GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab’s social and environmental key topics that were defined in GitLab’s [2022 materiality assessment](/handbook/legal/ESG/). GitLab’s current social and environmental key topics are:
+GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab’s social and environmental key topics that were defined in GitLab’s [2022 materiality assessment](/handbook/legal/esg/). GitLab’s current social and environmental key topics are:
 
 - Diversity, Inclusion, and Belonging
 - Talent Management & Engagement
 - Climate Action and Greenhouse Gas Emissions
 
-For the calendar year 2023, we will limit the in-kind program to 5,000 seats, which was approved by finance and the board in the [Philanthropy Policy](https://docs.google.com/document/d/1b40Z-5uVebZ05RQehn5qq86c2qP_0w8T40MrygP3VEU/edit). Each organization will be eligible for up to 20 seats. This will allow us to assist as many organizations as possible. This will be revisited throughout the year and adjusted as needed. Interested organizations may request additional seats although the request may not be granted.
+For the calendar year 2024, we will limit the in-kind program to 5,000 seats, which was approved by finance and the board in the [Philanthropy Policy](https://docs.google.com/document/d/1b40Z-5uVebZ05RQehn5qq86c2qP_0w8T40MrygP3VEU/edit). Each organization will be eligible for up to 20 seats. This will allow us to assist as many organizations as possible. This will be revisited throughout the year and adjusted as needed. Interested organizations who are new customers may request additional seats although the request may not be granted. To limit churn, current GitLab customers that apply to transition to the Nonprofit Program will not be granted a special request above the 20 seats.
 
 **What are the terms of the GitLab for Nonprofits program?**
 
@@ -95,9 +91,13 @@ Interested organizations need to visit the [GitLab for Nonprofits](https://about
 **How are applications processed?**
 
 1. Nonprofits apply on the [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/join/#nonprofit-program-application) page. Once the application is submitted, the Nonprofit will receive a message and a link to TechSoup, our verification partner.
-1. The Nonprofit will then need to log in or create their TechSoup account. TechSoup provides a rigorous vetting process to ensure the nonprofit is eligible for the GitLab for Nonprofits program and meets all requirements.
-1. If a Nonprofit is verified, TechSoup will notify GitLab and GitLab will send the instructions directly to the Nonprofit to redeem their license.
-1. If a Nonprofit is not verified, TechSoup will provide details on how the Nonprofit can become verified.
+2. The Nonprofit will then need to log in or create their TechSoup account. TechSoup provides a rigorous vetting process to ensure the nonprofit is eligible for the GitLab for Nonprofits program and meets all requirements.
+3. If a Nonprofit is verified, TechSoup will notify GitLab.
+4. GitLab will then undergo its own vetting and approval process.
+5. Once all parties have verified and approved the Nonprofit, GitLab will send the instructions directly to the Nonprofit to redeem their license.
+6. If a Nonprofit is not verified through TechSoup, TechSoup will provide details on how the Nonprofit can become verified.
+7. If a Nonprofit is declined from GitLab, GitLab will notify the Nonprofit via nonprofits@GitLab.com.
+8. Please allow up to 15 business days for the application and verification process.
 
 **Must Nonprofits renew their memberships?**
 
@@ -106,10 +106,17 @@ Yes. All nonprofits must renew their membership annually, which involves a re-ve
 **Where can members receive support?**
 
 While GitLab for Nonprofits Program benefits do not include product [support](https://about.gitlab.com/support/), program members can receive help with GitLab in a number of ways. In general, we recommend the following:
+
 - Send questions or issues requiring immediate attention or sensitive information to the GitLab for Nonprofits team at Nonprofits@GitLab.com
 - Review [GitLab Docs](https://docs.gitlab.com/) for answers to general product-related questions.
 - Post questions in the [GitLab Forum](https://forum.gitlab.com/), where community members and GitLab team members can review and discuss them.
 - File bug reports and breaking behaviors [as issues](https://gitlab.com/gitlab-org/gitlab/-/issues) for product teams to review and address.
+
+**I’m a GitLab Team Member and I have a customer applying for the program. What do I do?**
+
+- Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application.
+- If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in #esg.
+- If you have a question or concern about the customer churn, please raise this in #esg and an ESG team member will contact you.
 
 #### Matching Gifts Program
 
@@ -126,7 +133,7 @@ NOTE: For any request(s) that require payment, please be certain to follow appli
 
 Six key topics were identified in GitLab’s materiality assessment. These key topics will drive GitLab’s ESG strategy and program development. This page will continue to be updated as we make progress towards developing plans and programs to advance our ESG goals.
 
-![2023 Materiality Matrix](/handbook/legal/ESG/GitLab_2022_MaterialityMatrix_062123.PNG)
+![2023 Materiality Matrix](/handbook/legal/esg/2022-materiality-matrix-062123.png)
 
 Here are GitLab’s current key topics with their drivers:
 
@@ -187,11 +194,11 @@ Here are GitLab’s current key topics with their drivers:
 
 ## Our Progress
 
-Please read our [ESG report](/handbook/esg/) to learn about our progress.
+Please read our [ESG report](/handbook/company/esg/) to learn about our progress.
 
 ## ESG Training
 
-To learn more about ESG at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/ESG/ESG-Training/).
+To learn more about ESG at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/esg/ESG-Training/).
 
 ## Measuring Results
 
@@ -206,11 +213,11 @@ Email: ESG@GitLab.com.
 
 **Q: Does GitLab calculate its carbon emissions?**
 
-A: Yes, GitLab completed its first greenhouse gas (GHG) inventory covering emissions from FY23. Please view the results of our inventory [here](/handbook/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://about.gitlab.com/documents/GitLab_FY2023_Verification_Opinion.pdf).
+A: Yes, GitLab completed its first greenhouse gas (GHG) inventory covering emissions from FY23. Please view the results of our inventory [here](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://about.gitlab.com/documents/GitLab_FY2023_Verification_Opinion.pdf).
 
 **Q: Has GitLab set a Science Based Target (SBT)?**
 
-A: Not yet. GitLab completed its first [GHG inventory](/handbook/esg/#climate-action-and-greenhouse-ghg-emissions) and will use the results to inform a reduction plan and target.
+A: Not yet. GitLab completed its first [GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and will use the results to inform a reduction plan and target.
 
 **Q: Does GitLab track employment by gender and ethnicity?**
 
@@ -239,6 +246,3 @@ A: GitLab does not currently have a formal corporate giving program. Pending the
 **Q: Does GitLab donate its product to nonprofits?**
 
 A: GitLab does not currently have a formal in-kind donation program. Pending the results of the 2022 materiality assessment, the first iteration of a non-profit in-kind donation program is planned for 2023. Learn about [other ways](/handbook/marketing/developer-relations/community-programs/education-program/) that GitLab contributes its product to the community.
-
-
-

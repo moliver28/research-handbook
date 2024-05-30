@@ -1,20 +1,10 @@
 ---
-
 title: "Core Team"
 ---
 
-
-
-
-
-
-
-
-
-
 ## Becoming a Core Team member
 
-A new member can be added to the [Core Team](/community/core-team/) at any time through the following steps:
+A new member can be added to the [Core Team](https://about.gitlab.com/community/core-team/) at any time through the following steps:
 
 1. Any Core Team member or GitLab Team member can nominate a new member from the wider community at any time using a confidential issue in [the Core Team group](https://gitlab.com/groups/gitlab-org/gitlab-core-team/-/issues) to limit any possible negative feedback in the smallest setting possible.
 2. The nominee will be added to the Core Team if they have received positive votes from two-thirds (2/3) of all current core team members within a four-week period and accept the nomination.
@@ -36,7 +26,7 @@ Anyone can open an issue in the [Core Team issue tracker](https://gitlab.com/git
 
 ## Offboarding and stepping down gracefully
 
-If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](/community/core-team/alumni/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
+If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/alumni/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
 
 1. Move the individual from the `team.yml` file to the `alumni.yml` file.
 2. Create an issue in [team-member-epics/employment](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) using the [`offboarding` template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding_core_team_member.md) and fill out the "Core Team Members" section to remove the individual from GitLab Slack, [the Core Team Group](https://gitlab.com/groups/gitlab-org/gitlab-core-team/community-members/-/group_members), gitlab-org etc.
@@ -45,12 +35,12 @@ If you are no longer able to or interested in serving in the Core Team, you shou
 
 1. Email the nominated member to confirm they are interested before beginning the orientation process.
 1. Create an issue in the [Core Team Project](https://gitlab.com/gitlab-org/gitlab-core-team/general) using the [Core Team Member Onboarding Issue Template](https://gitlab.com/gitlab-org/gitlab-core-team/general/-/issues/new?issuable_template=onboarding) and follow the steps outlined.
+
   - Core team members must sign an NDA before granting them any access.
 
 ## Core Team Group
 
 All Core Team members are part of the [`gitlab-org/gitlab-core-team`](https://gitlab.com/gitlab-org/gitlab-core-team/) group on GitLab.com. This group has a particular structure for specific automation purposes:
-
 
 ```mermaid
 graph TD
@@ -60,8 +50,8 @@ graph TD
 
 The [`community-members`](https://gitlab.com/gitlab-org/gitlab-core-team/community-members) group exists to:
 
-* [facilitate triaging](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/65) and;
-* [ensure Core Team members are credited in the changelog](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/69076)
+- [facilitate triaging](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/65) and;
+- [ensure Core Team members are credited in the changelog](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/69076)
 
 ## Core Team member benefits
 
@@ -74,7 +64,7 @@ Core Team members are granted [access to the GitLab team's Slack instance](/hand
 A list of the up-to-date channels the Core should/have access to can be found in the [Core Team and Slack](https://docs.google.com/spreadsheets/d/1kohQBbvk2JSl3DXrmF5TDsWVoAMi_yujFWzzAP6vq2M/edit#gid=0) Google Sheets and in the list below:
 
 <style>
-.display-inline-block {
+details summary * {
   display: inline-block;
 }
 </style>
@@ -84,7 +74,6 @@ A list of the up-to-date channels the Core should/have access to can be found in
 <summary>
 
 #### Slack channels Core Team can access
-{: .display-inline-block}
 
 </summary>
 
@@ -96,7 +85,7 @@ A list of the up-to-date channels the Core should/have access to can be found in
 - competition
 - contributor-success
 - core
-- dev-evangelism-and-technical-marketing
+- dev-advocacy-team
 - developer-relations
 - developer-relations-hangout
 - development
@@ -109,6 +98,7 @@ A list of the up-to-date channels the Core should/have access to can be found in
 - frontend
 - frontend_maintainers
 - frontend_pairs
+- g_engineering_productivity
 - g_observability
 - g_pipeline-security
 - g_project-management
@@ -151,7 +141,6 @@ A list of the up-to-date channels the Core should/have access to can be found in
 <summary>
 
 #### Slack channels Core Team cannot access
-{: .display-inline-block}
 
 </summary>
 
@@ -171,6 +160,7 @@ A list of the up-to-date channels the Core should/have access to can be found in
 </details>
 
 #### Requesting Core Team access to Slack channels
+
 1. Please submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) with the new channel(s) requested.
 1. Assign the issue to a member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members) who will complete the next steps.
 1. Contributor Success to: Identify the channel(s) owner and invite them to review the request by leaving a comment on whether they agree on having Core Team members in their channel(s).
@@ -195,7 +185,7 @@ At this time, Core Team members are not added to the [`gitlab-com` group](https:
 
 To emphasize their affiliation and closeness to the GitLab team, and to raise visibility on their profile, Core Team members can [add themselves to the GitLab team page](/handbook/editing-handbook/#add-yourself-to-the-team-page) and ask a review from any member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members).
 
-This will list their profile on [the Core Team page](/community/core-team/) as well.
+This will list their profile on [the Core Team page](https://about.gitlab.com/community/core-team/) as well.
 
 ### GitLab top tier license
 
@@ -213,13 +203,13 @@ To support their code contributions to GitLab, Core Team members can [request a 
 
 #### Process
 
-* Raise a request in the `#core` team slack channel.
-* Once approved, purchase the relevant license.
-* Email `ap@gitlab.com` cc `nveenhof@gitlab.com` and `rnalen@gitlab.com` including:
-  * A copy of your receipt.
-  * Your international bank details for reimbursement.
-  * @nick_vh and @rnalen should reply with their approval.
-  * AP will proceed with the reimbursement process.
+- Raise a request in the `#core` team slack channel.
+- Once approved, purchase the relevant license.
+- Email `ap@gitlab.com` cc `nveenhof@gitlab.com` and `rnalen@gitlab.com` including:
+  - A copy of your receipt.
+  - Your international bank details for reimbursement.
+  - @nick_vh and @rnalen should reply with their approval.
+  - AP will proceed with the reimbursement process.
 
 ### Sponsored access to GitLab events
 

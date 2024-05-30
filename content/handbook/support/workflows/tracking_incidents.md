@@ -23,11 +23,11 @@ a macro should be created to track the tickets that are related to a specific in
     - Examples of how to format the yaml for the macro can be found in [the README](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/tree/master#some-examples) or you can reference older macros in the `incident` directory.
     - Be sure to include the [tag:](#naming-a-tag) and `description:` headers.
 
-1. Submit a merge request for the new macro. Since it will likely be used for an ongoing incident, it's okay to ping `#support_operations` and `#spt_managers` for their expedited approval.
+1. Submit a merge request for the new macro. Since it will likely be used for an ongoing incident, it's okay to ping `#support_operations` and `#support_leadership` for their expedited approval.
 
 ## Naming a Tag
 
-Based on the relevant issue, the tag for the macro should be formed from an abbreviated version of the project tracker name and the issue number or `com` for GitLab SaaS production incidents.
+Based on the relevant issue, the tag for the macro should be formed from an abbreviated version of the project tracker name and the issue number or `com` for GitLab.com production incidents.
 
 For example:
 

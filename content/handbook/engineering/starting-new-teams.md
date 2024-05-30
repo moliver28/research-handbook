@@ -30,7 +30,7 @@ A dedicated team needs certain skills and a minimum size to be successful. But t
 
 ## Team Construction
 
-Generally engineering teams at GitLab are fullstack, they are made up of Frontend, Backend, and Fullstack individual contributors with a single Engineering Manager. 
+Generally engineering teams at GitLab are fullstack, they are made up of Frontend, Backend, and Fullstack individual contributors with a single Engineering Manager.
 
 An alternative team construction that could be considered for some circumstances is the **Functional Team**. This provided benefits while hiring at scale. Over time fullstack teams have become more common.
 
@@ -63,7 +63,7 @@ The following members of other functional teams are our stable counterparts:
 
 ## Hiring
 
-Check out our [jobs page](/jobs/) for current openings.
+Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
 ## Common Links
 

@@ -17,6 +17,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 ## **CUSTOMER STRATEGY**
 
 ### Goal
+
 - So that we may best understand your organization’s needs and how we can help, what are your long-term goals for modernizing your application development practices to deliver increased value to the business?
 - What are you trying to achieve and why are these goals important?
 - What is  your strategy for increasing the frequency of app deployments? If you were able to do this, what would the impact be to the business?
@@ -24,6 +25,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 - What is your cloud strategy?
 
 ### Objectives
+
 - With an understanding of your long-term goals, what are your key objectives for the next 6-12 months?
 - What challenges are you experiencing with modernizing your application development practices?
 - If you could address or improve one or a just a few things in your current DevOps stack implementation and execution, what would that be and why?
@@ -33,6 +35,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 - What else is holding your team back from being even more successful?
 
 ### Initiatives
+
 - On what prioritized initiatives are you and your team currently focused?
 - What initiatives are currently being planned or under consideration?
 - Where is this interest/initiative coming from and what is the scope? (note: higher priority initiatives are often more likely to close and close more quickly)
@@ -42,10 +45,12 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 ## **CUSTOMER NEEDS**
 
 ### Desired Outcomes
+
 - What are the requirements you have for this project? What does success look like?
 - How will success be measured?
 
 ### Current Situation
+
 - What can you tell me about your current situation?
 - What led you to look at GitLab? (if applicable)
 - What is your role and what do you do? (ideal roles: Infrastructure/Cloud/Enterprise Architects, Dev Ops, System Admin/Engineer, IT Managers/Directors, Release Engineer, VP Engineering)
@@ -83,6 +88,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
     - [GitOps](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#discovery-questions)
 
 ### Level of Satisfaction
+
 - How is your current application development & delivery tool stack working overall?
 - What is working well?
 - If you could change anything about it, what would that be and why?
@@ -91,6 +97,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 - What else do you need to be successful?
 
 ### Personal Needs
+
 - What’s most important to *you* in accomplishing this objective(s)?
 - What makes you personally so committed to the success of the project?
 - What will it mean to you personally when the project is successful?
@@ -104,6 +111,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 ## **CUSTOMER DECISION**
 
 ### Decision Process
+
 - How would you describe the decision-making process at your organization?
 - How many individuals or teams are involved in the decision making process?
 - What executive or senior level sponsorship is required?
@@ -111,19 +119,23 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 - How does high availability rank within your needs and what you are trying to accomplish?
 
 ### Decision Criteria
+
 - What criteria will be used in making a decision?
 
 ### Budget and Timeline
+
 - When are you looking to implement? What is driving that timeline and is there any flexibility in the timeline?
 - To what extent is there a compelling event (or series of events) that are influencing/impacting the timeline? What else can you tell me about that?
 - What budget and resources have been allocated to this project?
 
 ### Competitors
+
 - Are you considering other Git-based offerings? If so, who?
 - What other suppliers/vendors/solutions are you considering and/or evaluating?
 - How is GitLab viewed in comparison to the other suppliers?
 
 ### Time to Value
+
 - Tell me about the most important things that need to be done to make the rollout successful.
 - Describe to me where you think there may be opportunities to accelerate your time-to-value?
 - How much time could we save your teams by having a GitLab expert architect and deploy GitLab for you?
@@ -134,6 +146,7 @@ Target buyer personas include CIO, CTO, VP of Application Development, Product O
 ## **QUESTIONS FOR SELLING GITLAB PREMIUM AND ULTIMATE**
 
 The key to identifying more GitLab Premium and GitLab Ultimate opportunities is to *truly embrace a consultative mindset with your prospect and customer engagements*. More specifically:
+
 - **First, ensure you have an intimate understanding of the customer challenges and use cases that each version helps our customers address**
     - See the [Why Premium?](https://about.gitlab.com/pricing/premium/) page
     - See the [Why Ultimate?](https://about.gitlab.com/pricing/ultimate/) page
@@ -146,6 +159,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 [GitLab Premium](https://about.gitlab.com/pricing/premium/) helps organizations increase operational efficiencies and deliver better products faster. With GitLab Premium, organizations may scale their DevOps delivery supporting high availability, geographic replication, progressive deployment, advanced configuration, and consistent standards. Are these capabilities important to your customer? Consider asking the below questions to find out.
 
 #### Enterprise level Support
+
 - What is the impact of outages and downtime with your SDLC toolchain?
     - If the impact is large, position [Priority Support](https://about.gitlab.com/support/#priority-support) as a required capability
 - How important is priority support to your organization?
@@ -157,6 +171,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
     - If yes, position GitLab’s *Upgrade Assistance*
 
 #### Achieve High Availability and Disaster Recovery
+
 - What is your organization’s HA (High Availability) strategy? Do you have one? Why / why not?
     - If HA support is needed, position Premium’s HA support via our [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/); note: Free offers HA capabilities with self-support vs. expert GitLab support
 - How does your organization handle [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html)?
@@ -165,6 +180,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
     - If this is important to the customer, discuss with your SA whether or not [Geographic Replication](https://about.gitlab.com/solutions/geo/) is a required capability
 
 #### Developer Productivity
+
 - How important is it for you to maximize the productivity of your development teams?
 - If you could change one thing to make your developers more productive, what would it be and why?
 - If you were able to analyze graphs and reports to understand team, project, and group productivity to uncover patterns and best practices, how would that improve overall productivity?
@@ -177,6 +193,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
     - If yes, highlight Premium’s [Smart Card Authentication](https://docs.gitlab.com/ee/administration/auth/smartcard.html) capabilities
 
 #### Streamline Project Planning
+
 - How do you currently handle project planning with your existing software development toolchain?
 - If you could change one thing to streamline your project planning efforts, what would it be and why?
 - How would your organization benefit from simplified management and visualization of work assignment and tracking?
@@ -188,6 +205,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
     - [Issue Analytics](https://docs.gitlab.com/ee/user/group/issues_analytics/index.html) - Establish consistent and standard practices
 
 #### Deploy with Confidence
+
 - How do you keep teams aligned and working on the right things at the right times?
     - [Epics](https://docs.gitlab.com/ee/user/group/epics/) - Organize, plan, and prioritize business ideas and initiatives
     - [Roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/) - Visualize the flow of business initiatives across time in order to plan when future features will ship
@@ -199,6 +217,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
     - [Protected Environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html) - Establish controls and limit the access to change specific environments
 
 #### Manage Development
+
 - How do you currently track and manage code reviews and feedback?
 - Describe your current workflow between SCM to CI. When your pipeline fails, what’s the process to remediate?
 - If you could collaborate at the point of change, how would that affect your productivity?
@@ -220,6 +239,7 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 [GitLab Ultimate](https://about.gitlab.com/pricing/ultimate/) helps organizations increase operational efficiencies, deliver better products faster, and reduce security and compliance risk. This product tier is ideal for projects with executive visibility and strategic organizational usage and helps enterprises transform IT by optimizing and accelerating delivery while managing priorities, security, risk, and compliance. Ultimate helps organizations achieve advanced DevOps maturity. Are these capabilities important to your customer? Consider asking the below questions to find out.
 
 #### Security
+
 - To what degree is cybersecurity a critical concern for you and your organization?
 - How would you characterize the actions your organization is taking to ensure all applications are secure?
 - What challenges have or do you run into as it relates to securing all applications?
@@ -232,16 +252,19 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
     - [Security Metrics and Trends (future)](https://gitlab.com/gitlab-org/gitlab-ee/issues/6954) - Metrics and historical data about how many vulnerabilities have been spotted, addressed, solved, and how much time was spent for the complete cycle
 
 #### Compliance
+
 - How important is license compliance to your organization so that you can  track project dependencies for their licenses and approve or deny specific licenses?
 - GitLab Ultimate offers the following compliance features:
     - License Compliance - Identify the presence of new software licenses included in your project. Approve or deny the inclusion of a specific license
     - [Compliance Templates](https://docs.gitlab.com/ee/user/project/working_with_projects.html#enterprise-templates) - Templates to streamline audit management with specific regulatory standards. Currently, HIPAA is available. SOX & SOC2 are in the near term roadmap.
 
 #### Project Insights
+
 - How would it affect your organization’s efficiencies to gain insights into things that matter for your projects (e.g. triage hygiene, issues created/closed per a given period, average time for merge requests to be merged, etc.)?
     - If this is of interest, position [Project Insights](https://docs.gitlab.com/ee/user/project/insights/)
 
 #### Portfolio Management
+
 - What does your organization do today to track software development and delivery projects from start to finish?
 - How easy or difficult is it to provide senior leadership with end to end visibility of these projects?
 - How would it affect productivity if everyone involved in critical projects had a common view of portfolio planning, tracking, and execution in one tool?
@@ -253,12 +276,13 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
     - [Roadmap Capacity Planning (future)](https://gitlab.com/gitlab-org/gitlab-ee/issues/6777) - Visualize if future work is feasible from an effort perspective
 
 #### Other
-- Guest users - Guest users don’t count towards the license count
 
+- Guest users - Guest users don’t count towards the license count
 
 ## **ADDITIONAL QUESTIONS IF…**
 
 ### Prospect Signed Up For a Free Trial (goal: ensure a successful trial)
+
 - How would you and your organization describe a successful trial?
 - What are the most important criteria in your evaluation?
 - How many users are you interested in deploying on GitLab?
@@ -268,21 +292,26 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - If only a group, what is preventing you from bringing on the entire company at this time?
 
 ### Competing/Selling Against GitHub and GitHub Actions
+
 - Review the battle card and discovery questions [here](https://about.gitlab.com/competition/github/)
 
 ### Competing/Selling Against Microsoft Azure DevOps
-- Review the battle card and discovery questions [here](/competition/azure/)
+
+- Review the battle card and discovery questions [here](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/)
 
 ### Competing/Selling against BitBucket
-- Review the battle card and discovery questions [here](/competition/bitbucket/)
+
+- Review the battle card and discovery questions [here](https://about.gitlab.com/blog/2016/01/27/comparing-terms-gitlab-github-bitbucket/)
 
 ### Customer is Using Jira
+
 - How would you describe the current implementation of Jira within your organization?
 - What are some of the challenges you have with Jira (if any)?
 
 ### Post Sale Account Development
 
 Goal: Understand why they bought and use nuggets to further expand the sale and help with other sales
+
 - How is the adoption of GitLab going?
 - What are you liking about GitLab EE?
 - What are you not liking or have questions about?

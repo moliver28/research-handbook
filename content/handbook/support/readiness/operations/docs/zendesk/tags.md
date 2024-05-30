@@ -62,6 +62,36 @@ important to those working within Zendesk:
 
 </details>
 <details>
+<summary>Organization Tags</summary>
+
+| Tag                            | What it means |
+|--------------------------------|---------------|
+| `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
+| `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `partner_customer`             | The organization has purchased from an OEM partner |
+| `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
+| `sub_community_other`          | The organization has a community subscription which had an undetectable type |
+| `sub_consumption_ai`           | The organization has an AI subscription |
+| `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
+| `sub_consumption_eap`          | The organization has an Agile Planning addon |
+| `sub_consumption_storage`      | The organization has a storage purchase |
+| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
+| `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
+| `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
+| `sub_edu`                      | The organization has an EDU community subscription |
+| `sub_gitlab_dedicated`         | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | The organization has an OSS subscription |
+| `sub_other`                    | The organization has a subscription but the type could not be determined |
+| `sub_proserv`                  | The organization has a Proserv subscription |
+| `sub_sm_premium`               | The organization has a Self-Managed Premium subscription |
+| `sub_sm_starter`               | The organization has a Self-Managed Starter subscription |
+| `sub_sm_ultimate`              | The organization has a Self-Managed Ultimate subscription |
+| `sub_ss_ase`                   | The organization has an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
+| `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
+
+</details>
+<details>
 <summary>Categorization tags</summary>
 
 | Tag                                                        | What it means                                                                             |
@@ -106,26 +136,26 @@ important to those working within Zendesk:
 | `resold_status_reseller`                                   | The customer has stated they are a reseller                                               |
 | `resold_status_resold`                                     | The customer has stated they did buy via a reseller                                       |
 | `resold_status_unsure`                                     | The customer is unsure if they bought via a reseller or not                               |
-| `saas_account_2fa_issues_questions`                        | The SaaS Account ticket involves 2FA questions                                            |
-| `saas_account_2fa_issues_removal`                          | The SaaS Account ticket involves 2FA removal                                              |
-| `saas_account_2fa_issues_setup`                            | The SaaS Account ticket involves 2FA setup                                                |
-| `saas_account_access_issues_blocked`                       | The SaaS Account ticket involves getting account blocked errors                           |
-| `saas_account_access_issues_cannot_login`                  | The SaaS Account ticket involves not being able to login to gitlab.com                    |
-| `saas_account_access_issues_change_account`                | The SaaS Account ticket involves changing something on a gitlab.com account               |
-| `saas_account_access_issues_cloudflare`                    | The SaaS Account ticket involves CloudFlare issues                                        |
-| `saas_account_access_issues_ip_blocked`                    | The SaaS Account ticket involves the customer's IP being blocked                          |
-| `saas_account_access_issues_locked`                        | The SaaS Account ticket involves getting account locked errors                            |
-| `saas_account_access_issues_other`                         | The SaaS Account ticket involves something else about accessing gitlab.com                |
-| `saas_account_category_2fa_issues`                         | The SaaS Account ticket involves 2FA                                                      |
-| `saas_account_category_access_issues`                      | The SaaS Account ticket involves accessing gitlab.com                                     |
-| `saas_account_category_account_deletion`                   | The SaaS Account ticket involves account deletion                                         |
-| `saas_account_category_email_issues`                       | The SaaS Account ticket involves email issues                                             |
-| `saas_account_category_namesquatting`                      | The SaaS Account ticket involves namesquatting                                            |
-| `saas_account_category_other`                              | The SaaS Account ticket something else                                                    |
-| `saas_account_category_registration_issues`                | The SaaS Account ticket involves registering a gitlab.com account                         |
-| `saas_account_email_issues_confirmation`                   | The SaaS Account ticket involves confirmation emails                                      |
-| `saas_account_email_issues_notifications`                  | The SaaS Account ticket involves notification emails                                      |
-| `saas_account_email_issues_reset`                          | The SaaS Account ticket involves password reset emails                                    |
+| `saas_account_2fa_issues_questions`                        | The gitlab.com Account ticket involves 2FA questions                                      |
+| `saas_account_2fa_issues_removal`                          | The gitlab.com Account ticket involves 2FA removal                                        |
+| `saas_account_2fa_issues_setup`                            | The gitlab.com Account ticket involves 2FA setup                                          |
+| `saas_account_access_issues_blocked`                       | The gitlab.com Account ticket involves getting account blocked errors                     |
+| `saas_account_access_issues_cannot_login`                  | The gitlab.com Account ticket involves not being able to login to gitlab.com              |
+| `saas_account_access_issues_change_account`                | The gitlab.com Account ticket involves changing something on a gitlab.com account         |
+| `saas_account_access_issues_cloudflare`                    | The gitlab.com Account ticket involves CloudFlare issues                                  |
+| `saas_account_access_issues_ip_blocked`                    | The gitlab.com Account ticket involves the customer's IP being blocked                    |
+| `saas_account_access_issues_locked`                        | The gitlab.com Account ticket involves getting account locked errors                      |
+| `saas_account_access_issues_other`                         | The gitlab.com Account ticket involves something else about accessing gitlab.com          |
+| `saas_account_category_2fa_issues`                         | The gitlab.com Account ticket involves 2FA                                                |
+| `saas_account_category_access_issues`                      | The gitlab.com Account ticket involves accessing gitlab.com                               |
+| `saas_account_category_account_deletion`                   | The gitlab.com Account ticket involves account deletion                                   |
+| `saas_account_category_email_issues`                       | The gitlab.com Account ticket involves email issues                                       |
+| `saas_account_category_namesquatting`                      | The gitlab.com Account ticket involves namesquatting                                      |
+| `saas_account_category_other`                              | The gitlab.com Account ticket something else                                              |
+| `saas_account_category_registration_issues`                | The gitlab.com Account ticket involves registering a gitlab.com account                   |
+| `saas_account_email_issues_confirmation`                   | The gitlab.com Account ticket involves confirmation emails                                |
+| `saas_account_email_issues_notifications`                  | The gitlab.com Account ticket involves notification emails                                |
+| `saas_account_email_issues_reset`                          | The gitlab.com Account ticket involves password reset emails                              |
 | `support_administering_gitlab_admin_area`                  | The Support ticket involves the GitLab admin area                                         |
 | `support_administering_gitlab_admin_area_instance`         | The Support ticket                                                                        |
 | `support_administering_gitlab_admin_area_limits`           | The Support ticket account limits and settings in the GitLab admin area                   |
@@ -581,20 +611,30 @@ important to those working within Zendesk:
 
 </details>
 <details>
+<summary>Support Internal Request Tags</summary>
+
+| Tag                                 | What it means |
+|-------------------------------------|---------------|
+| `support_internal_request`          | Indicates the ticket is a Support internal request |
+| `support_valid_request`             | Indicates the Support internal request was valid for submission |
+| `support_ir_sa_request_for_support` | Indicates the Support internal request is about a SA requesting assistance from Support |
+
+</details>
+<details>
 <summary>License and Renewals Internal Request Tags</summary>
 
 | Tag                                | What it means |
 |------------------------------------|---------------|
 | `lnr_internal_request`             | Indicates the ticket is a L&R internal request |
 | `lnr_valid_request`                | Indicates the L&R internal request was valid for submission |
-| `lnr_saas_subscription`            | Indicates the L&R internal request is about a SaaS subscription |
+| `lnr_saas_subscription`            | Indicates the L&R internal request is about a gitlab.com subscription |
 | `lnr_saas_sub_extension`           | Indicates the problem type is "Extend an (almost) expired subscription" |
 | `lnr_saas_sub_issue`               | Indicates the problem type is "Investigate incorrect subscription info" |
-| `lnr_saas_nfr`                     | Indicates the problem type is "SaaS NFR license request" |
+| `lnr_saas_nfr`                     | Indicates the problem type is "gitlab.com NFR license request" |
 | `lnr_billing_entity_change`        | Indicates the problem type is "Billing Entity change" |
-| `lnr_saas_trial`                   | Indicates the L&R internal request is about a SaaS trial |
-| `lnr_saas_trial_extension`         | Indicates the problem type is "Extend a SaaS trial" |
-| `lnr_saas_trial_edit`              | Indicates the problem type is "Change existing SaaS trial plan" |
+| `lnr_saas_trial`                   | Indicates the L&R internal request is about a gitlab.com trial |
+| `lnr_saas_trial_extension`         | Indicates the problem type is "Extend a gitlab.com trial" |
+| `lnr_saas_trial_edit`              | Indicates the problem type is "Change existing gitlab.com trial plan" |
 | `lnr_saas_trial_over_plan`         | Indicates the problem type is "Request an Ultimate trial for a customer using a Premium subscription" |
 | `lnr_sm_license`                   | Indicates the L&R internal request is about a self-managed license |
 | `lnr_sm_license_extension`         | Indicates the problem type is "Extend an (almost) expired subscription" |
@@ -633,6 +673,41 @@ important to those working within Zendesk:
 
 </details>
 <details>
+<summary>Resolution Code Tags</summary>
+
+| Tag                             | What it means |
+|---------------------------------|---------------|
+| `support_rc_bug`                 | The Support form resolution code for the ticket is "Product bug" |
+| `support_rc_incident`            | The Support form resolution code for the ticket is "Incident" |
+| `support_rc_bad_docs`            | The Support form resolution code for the ticket is "Insufficient Documentation" |
+| `support_rc_performance`         | The Support form resolution code for the ticket is "Capacity / Performance" |
+| `support_rc_feature_request`     | The Support form resolution code for the ticket is "Feature request" |
+| `support_rc_edu_or_config`       | The Support form resolution code for the ticket is "User education / Configuration change" |
+| `support_rc_oos`                 | The Support form resolution code for the ticket is "Unsupported / 3rd party" |
+| `support_rc_dupe`                | The Support form resolution code for the ticket is "Duplicate" |
+| `support_rc_no_response`         | The Support form resolution code for the ticket is "No response" |
+| `support_rc_none`                | The Support form resolution code for the ticket is "No resolution code entered" |
+| `support_rc_other`               | The Support form resolution code for the ticket is "Other" |
+| `saas_account_rc_bug`            | The SaaS Account form resolution code for the ticket is "Product bug" |
+| `saas_account_rc_2fa`            | The SaaS Account form resolution code for the ticket is "2FA" |
+| `saas_account_rc_account_access` | The SaaS Account form resolution code for the ticket is "Account Access" |
+| `saas_account_rc_namesquatting`  | The SaaS Account form resolution code for the ticket is "Namesquatting" |
+| `saas_account_rc_edu_or_config`  | The SaaS Account form resolution code for the ticket is "User education / Configuration change" |
+| `saas_account_rc_dupe`           | The SaaS Account form resolution code for the ticket is "Duplicate" |
+| `saas_account_rc_no_response`    | The SaaS Account form resolution code for the ticket is "No response" |
+| `saas_account_rc_none`           | The SaaS Account form resolution code for the ticket is "No resolution code entered" |
+| `saas_account_rc_other`          | The SaaS Account form resolution code for the ticket is "Other" |
+| `lnr_rc_bug`                     | The L&R form resolution code for the ticket is "Product bug" |
+| `lnr_rc_license_resent`          | The L&R form resolution code for the ticket is "License resent" |
+| `lnr_rc_portal_Access`           | The L&R form resolution code for the ticket is "Portal access" |
+| `lnr_rc_edu_or_config`           | The L&R form resolution code for the ticket is "User education / Configuration change" |
+| `lnr_rc_dupe`                    | The L&R form resolution code for the ticket is "Duplicate" |
+| `lnr_rc_no_response`             | The L&R form resolution code for the ticket is "No response" |
+| `lnr_rc_none`                    | The L&R form resolution code for the ticket is "No resolution code entered" |
+| `lnr_rc_other`                   | The L&R form resolution code for the ticket is "Other" |
+
+</details>
+<details>
 <summary>Other Notable Tags</summary>
 
 | Tag                              | What it means |
@@ -644,6 +719,7 @@ important to those working within Zendesk:
 | `hb_link`                        | SE has sent a link to handbook.gitlab.com in a public comment |
 | `partner_customer`               | Indicates the account is a customer of an Alliance partner and not eligible for support |
 | `star_submitted`                 | Indicates a STAR has been submitted on the ticket |
+| `within_grace_period`            | Indicates a ticket was submitted while the account is within the subscription's grace period |
 | `CUSTOM_PATH_issues_IID`         | See below for more information |
 | `CUSTOM_PATH_merge_requests_IID` | See below for more information |
 
@@ -695,6 +771,35 @@ So an example:
 
 </details>
 <details>
+<summary>Organization Tags</summary>
+
+| Tag                            | What it means |
+|--------------------------------|---------------|
+| `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
+| `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
+| `sub_community_other`          | The organization has a community subscription which had an undetectable type |
+| `sub_consumption_ai`           | The organization has an AI subscription |
+| `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
+| `sub_consumption_eap`          | The organization has an Agile Planning addon |
+| `sub_consumption_storage`      | The organization has a storage purchase |
+| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
+| `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
+| `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
+| `sub_edu`                      | The organization has an EDU community subscription |
+| `sub_gitlab_dedicated`         | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | The organization has an OSS subscription |
+| `sub_other`                    | The organization has a subscription but the type could not be determined |
+| `sub_proserv`                  | The organization has a Proserv subscription |
+| `sub_sm_premium`               | The organization has a Self-Managed Premium subscription |
+| `sub_sm_starter`               | The organization has a Self-Managed Starter subscription |
+| `sub_sm_ultimate`              | The organization has a Self-Managed Ultimate subscription |
+| `sub_ss_ase`                   | The organization has an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
+| `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
+
+</details>
+<details>
 <summary>Automation Skipping Related Tags</summary>
 
 | Tag                      | What it means |
@@ -711,9 +816,10 @@ So an example:
 <details>
 <summary>Other Notable Tags</summary>
 
-| Tag                              | What it means |
-|----------------------------------|---------------|
-| `partner_customer`               | Indicates the account is a customer of an Alliance partner and not eligible for support |
-| `star_submitted`                 | Indicates a STAR has been submitted on the ticket |
+| Tag                          | What it means                                                                           |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| `partner_customer`           | Indicates the account is a customer of an Alliance partner and not eligible for support |
+| `star_submitted`             | Indicates a STAR has been submitted on the ticket                                       |
+| `submitted_via_gitlab_email` | Signifies the ticket is submitted by a GitLab Team Member to Support Team               |
 
 </details>

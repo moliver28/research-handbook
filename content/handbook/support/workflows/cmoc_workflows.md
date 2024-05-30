@@ -308,16 +308,20 @@ Click the pencil next to `Affected Infrastructure`, check the boxes next to the 
 
 ![Change affected infrastructure](/images/support/cmoc_update_infra.png)
 
-#### Create Zendesk Tag
+#### Zendesk Tag
 
-In order to track tickets submitted through Zendesk that relate to an incident, we need to create a [tag](https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags). To create a tag:
+In order to track tickets submitted through Zendesk that relate to an incident, a zendesk tag is automatically added to all tickets that mention the incident issue.
+
+The tag is available for use on other tickets. All tags that relate to incidents are in the format `gitlab-com_gl-infra_production_issues_#####` with `#####` being the incident number, which can be found in the incident issue.
+
+For all other internal or confidential incidents (such as security related incidents), a manual tag can be created since we would not be sharing a public link in the public ticket response. To create a manual tag:
 
 1. Create or edit a ticket.
-1. Start typing the name of the new tag in the `Tags` field.
+1. Start typing the name of the new tag in the `Tags` field with a format of `com_incident_###`
 1. Hit `Enter`.
 1. Submit the ticket, either with a response included or not.
 
-The tag will now be available to use on other tickets. All tags that relate to incidents should be in the format `com_incident_####` with `####` being the incident number, which can be found in the incident issue.
+The tag will now be available to use on other tickets.
 
 #### Monitor Zendesk
 
@@ -470,7 +474,7 @@ Contact requests opened during a shift should by default be assigned to the Supp
 
 **NOTE:** When adding yourself to this rotation, be aware that adjusting the `Time Zone` field at the top of the page will adjust it for all users, not just yourself. Before you navigate away, please reset the timezone to UTC.
 
-The [CMOC Shadow Schedule](https://gitlab.pagerduty.com/schedules#PQBZCSY) can be used by anyone who wishes to shadow the CMOC to learn before officially acting as CMOC. A soon-to-be-CMOC can create an [issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues/new#) in the pagerduty project to be added to a shadow schedule. Or, to shadow for a short span of days, they can click *Schedule an Override*, then click *Custom duration* and then select the time zone and the start and end dates and times before clicking the *Create Override* button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen.
+The [CMOC Shadow Schedule](https://gitlab.pagerduty.com/schedules#PQBZCSY) can be used by anyone who wishes to shadow the CMOC to learn before officially acting as CMOC. A soon-to-be-CMOC can fill out the [Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to get added to the rotation. Or, to shadow for a short span of days, they can click *Schedule an Override*, then click *Custom duration* and then select the time zone and the start and end dates and times before clicking the *Create Override* button to save the changes. To remove overrides, click the **x** on the override to be removed in the list of **Upcoming Overrides** on the right side of the screen.
 
 > **Note About CMOC Shadowing**: When the CMOC shadow PagerDuty schedule is active the engineer will receive notifications and get paged the same way as when on the CMOC schedule. **Do not acknowledge or resolve any incidents when on the CMOC shadow schedule as this will stop any potential pages to the real CMOC!**
 
@@ -489,4 +493,4 @@ Some example training activities are:
 
 Practice events are meant to provide more experience for the person wanting to CMOC a real incident. They include a practice scenario that requires them to update the status page, communicate with the incident manager as well as provide more confidence.
 
-To start a CMOC Practice event ask your trainer or any support engineer to go to the [Support Team Meta issue tracker](<https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=CMOC> Practice Event) and to create an issue with the [CMOC Practice Event](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/CMOC%20Practice%20Event.md) issue template.
+To start a CMOC Practice event ask your trainer or any support engineer to go to the [Support Team Meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=CMOC%20Practice%20Event) and to create an issue with the [CMOC Practice Event](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/CMOC%20Practice%20Event.md) issue template.

@@ -56,7 +56,7 @@ If you're interested in participating in database reviews, please start by revie
 * I. Ahmed, G. Smith et al: "[PostgreSQL 10 High Performance: Expert techniques for query optimization, high availability, and efficient database maintenance.](https://www.amazon.com/dp/1788474481)" (2018)
 * Hans-Jürgen Schönig: "[Mastering PostgreSQL 11](https://www.amazon.com/Mastering-PostgreSQL-techniques-fault-tolerant-applications/dp/1789537819)" (2018)
 * Markus Winand: "[SQL Performance Explained](https://sql-performance-explained.com/)"
-* Dimitri Fontaine: "[The Art of PostgreSQL](https://theartofpostgresql.com/)" - [Virtual training is available for GitLab team members.](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/23) 
+* Dimitri Fontaine: "[The Art of PostgreSQL](https://theartofpostgresql.com/)" - [Virtual training is available for GitLab team members.](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/23)
 * Alex Petrov: "[Database Internals](https://www.databass.dev/)"
 
 ##### Other resources

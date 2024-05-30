@@ -9,6 +9,7 @@ My name is Robert Nalen, most people call me Rob (you can call me Rob). Click he
 ## What do I do?
 
 I am the Vice President of Legal Operations at GitLab. As titles don’t always provide insight into a person's role, or make any sense at all--looking at you “Wizard of Lightbulb Moments” and “Senior Global Director of Globalness”-- here’s what I do.
+
 - I am honored to manage a great team of Contract Managers who review and negotiate GitLab’s contracts related to the purchase of products and services that impact each group across GitLab. My role as a manager is to assist with escalations, help create playbooks and approval matrices (which they contribute to), carry out any other actions to ensure their success, and make terrible dad jokes to keep positive morale. Side note--just between us--these people are awesome!
 - As for Legal Operations: I work with the Contract Managers, and all other legal members, to ensure we have the correct tools and processes to scale with a growing business and remain as efficient as possible.
 - Other items I work on (at random): Drafting agreement templates, negotiating agreements, creating training and enablement materials and videos, answering open source questions, managing the legal tools for all GitLab members, engaging other groups to ensure the legal team is represented and connected where applicable, and anything else people trust me with.
@@ -27,7 +28,6 @@ I am the Vice President of Legal Operations at GitLab. As titles don’t always 
 - I'm an [ENTJ-T](https://www.16personalities.com/entj-personality) with the traits: Efficient, Leader, and Strategic Leader.
 - I work well asynchronously, but also love video calls for work and non-work: coffee chats, 1:1s, or Friday happy hours.
 - Visual aids are always helpful! If a visual aid is unavailable, I prefer our first collaboration focus on creating that artifact to help me understand the topic.
-
 
 ## How I communicate / the best ways to communicate with me
 

@@ -1,13 +1,9 @@
 ---
-title: "GitLab Project Management - Hands-On Lab 8"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Create And Manage A Kanban Board"
+description: "This Hands-On Guide walks you through creating and managing a Kanban board via issue boards."
 ---
 
-# Lab 8: Create And Manage A Kanban Board
-
 > Estimated time to complete: 30 minutes
-
-> You are viewing the latest Version 16.x instructions. If your group URL starts with https://spt.gitlabtraining.cloud, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab8.md).
 
 ## Objectives
 

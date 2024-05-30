@@ -1,14 +1,14 @@
 ---
-title: UX Fullstack Engineer
+title: Fullstack Engineer, Technical Writing
 ---
 
-Fullstack engineers work across the front- and backend of the the GitLab documentation site and/or product to improve the user experience.
+Fullstack engineers work across the front- and backend of the the GitLab documentation site to improve the user experience.
 
 ## Responsibilities
 
-- Develop features and improvements to the documentation site or GitLab product in a secure, well-tested, and performant way.
+- Develop features and improvements to the documentation site in a secure, well-tested, and performant way.
 - Analyze and interpret highly complex data to arrive at actionable recommendations.
-- Collaborate with Technical Writing Director and other stakeholders (e.g. UX) to maintain a high bar for quality in a fast-paced, iterative environment.
+- Collaborate with the Technical Writing Director and other stakeholders (e.g. UX) to maintain a high bar for quality in a fast-paced, iterative environment.
 - Advocate for improvements to site quality, security, and performance.
 - Solve technical problems of high scope and complexity.
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
@@ -19,7 +19,7 @@ Fullstack engineers work across the front- and backend of the the GitLab documen
 
 - Ability to use GitLab
 - Professional experience with Ruby and Rails
-- Professional experience with JavaScript and associated web technologies (CSS, semantic HTML)
+- Professional experience with JavaScript (Vue.js) and static site generators (like Hugo)
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment
 - Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions
 - Experience with performance and optimization problems and a demonstrated ability to both diagnose and prevent these problems
@@ -72,7 +72,7 @@ The Senior UX Fullstack Engineer is a [grade 7](/handbook/total-rewards/compensa
 - Coordinates with various stakeholders regarding site content or structure changes
 - Maintain and improve the CI/CD pipelines, build processes, and review environments
 - Improve content-authoring experience and tooling
-- Perform and/or coordinate/delegate resolution of any other content sites issues related to infrastructure, code, - architecture, projects, security, CI/CD, builds, deployments, upgrades, performance, scalability, metrics, monitoring, etc
+- Perform and/or coordinate/delegate resolution of any other docs site issues related to infrastructure, code, architecture, projects, security, CI/CD, builds, deployments, upgrades, performance, scalability, metrics, monitoring, etc
 
 #### Performance Indicators
 

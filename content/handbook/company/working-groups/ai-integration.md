@@ -68,7 +68,7 @@ The following criteria should be met for the group to disband:
 - We have a structured methodology for evaluating new AI models, adding them to the integration platform to allow them to be consumed by product teams.
 - We have a roadmap plan to achieve GA for our initial AI experiments.
 - Documented process for handling AI feature proposals as part of the [prioritization framework](/handbook/product/product-processes/#prioritization)
-- Move [SAFE](/handbook/legal/safe-framework/) content from the [internal handbook](https://internal-handbook.gitlab.io/handbook/product/ai-strategy/ai-integration-effort/) to the public handbook where appropriate and [SAFE](/handbook/legal/safe-framework/).
+- Move [SAFE](/handbook/legal/safe-framework/) content from the [internal handbook](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/) to the public handbook where appropriate and [SAFE](/handbook/legal/safe-framework/).
 - Develop an evaluation process of user experience between options to make more intelligent decisions on which engineering solution we recommend.
 
 ### Q2 OKRs
@@ -82,7 +82,6 @@ The following criteria should be met for the group to disband:
 | Executive Stakeholder   | @hbenson        | [Hillary Benson](/handbook/company/team/#hbenson)       | Senior Director, Product Management - Sec, Data Science & Monitor              |
 | Executive Stakeholder   | @timzallmann    | [Tim Zallmann](/handbook/company/team/#timzallmann)       | Senior Director of Engineering, Dev                             |
 | Facilitator             | @tmccaslin  | [Taylor McCaslin](/handbook/company/team/#tmccaslin)   | Group Manager, Product - Data Science                    |
-| Facilitator             | @wayne  | [Wayne Haber](/handbook/company/team/#wayne)   | Director of Engineering |
 | Functional Lead - AI Model Validation      | @mray  | [Monmayuri Ray](https://gitlab.com/mray2020)   | Engineering Manager AI Model Validation |
 | Functional Lead - UX             | @jmandell  | [Justin Mandell](/handbook/company/team/#jmandell)   | Product Design Manager: Analytics, Govern, ModelOps, and Secure |
 | Functional Lead - UX             | @pedroms  | [Pedro Moreira da Silva](/handbook/company/team/#pedroms)   | Staff Product Designer |
@@ -114,7 +113,7 @@ The following criteria should be met for the group to disband:
 | Application Security Representative | @greg | [Greg Myers](/handbook/company/team/#greg) | Security Engineer (Application Security) |
 | Solutions Architecture Representative / Rapid Prototyping Team Member | @bartzhang | [Bart Zhang](/handbook/company/team/#bartzhang) | Channel Solutions Architect |
 | Product Marketing Representative| @laurenaalves | [Laurena Alves](/handbook/company/team/#laurenaalves) | Senior Product Marketing Manager |
-| Developer Relations Representative | @johncoghlan | [John Coghlan](https://gitlab.com/johncoghlan) | Senior Manager, Developer Evangelism |
+| Developer Relations Representative | @johncoghlan | [John Coghlan](https://gitlab.com/johncoghlan) | Director, Developer Advocacy |
 | Privacy Representative | @emccrann | [Eugene McCrann](/handbook/company/team/#emccrann) | Lead Legal Counsel, Privacy |
 | Quality Engineering Representative | @at.ramya | [Ramya Authappan](/handbook/company/team/#at.ramya) | Engineering Manager, Quality, Dev & Analytics Section |
 | Infrastructure | @lmcandrew  | [Liam McAndrew](/handbook/company/team/#lmcandrew)  | Engineering Manager, Scalability Frameworks |
@@ -122,7 +121,6 @@ The following criteria should be met for the group to disband:
 | Infrastructure | @mbursi | [Michele Bursi](/handbook/company/team/#mbursi) | Engineering Manager, Delivery System |
 | Support | @ralfaro | [Ronnie Alphero](https://gitlab.com/ralfaro) | Support Engineering Manager |
 | Enablement | @cs.wang | [Christopher Wang](https://gitlab.com/cs.wang) | Sr. Manager, Enablement (Sales Development) |
-
 
 ## Engineering Groups
 

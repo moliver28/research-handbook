@@ -23,11 +23,9 @@ One of the ways we can ensure that we are abiding by the rules and regulations f
 
 Only these key spokespersons, and any spokespersons explicitly designated as such, are authorized to make public disclosures of “*material non-public information*” about the Company that are reasonably expected to reach current or potential investors, the investment community, securities market professionals such as financial analysts, or the financial press - whether in the form of press releases, letters to stockholders, speeches, interviews, website posts, blogs, social media or other forms of communications.
 
-
 #### WHAT IS MATERIAL NON-PUBLIC INFORMATION?
 
 For a definition of “material non-public information,” please see the Company’s [Insider Trading Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk).
-
 
 #### YOUR COMMUNICATIONS ABOUT THE COMPANY
 
@@ -102,7 +100,6 @@ Generally, we will not confirm or deny rumors or market speculation about the Co
 ### VIOLATIONS OF THIS POLICY HAVE MEANINGFUL CONSEQUENCES: DON’T HESITATE TO REPORT
 
 Any violations of this Policy must be brought to the attention of our Chief Legal Officer as quickly as possible. If you want to submit a concern or complaint regarding a possible violation of this Policy anonymously, you should follow the procedures outlined in our Whistleblower Policy. If necessary, our Chief Legal Officer will bring such reports to the attention of our Audit Committee. Anyone who violates this Policy may be subject to disciplinary measures, which may include termination of employment.
-
 
 ### CHANGES TO THIS POLICY
 

@@ -14,14 +14,9 @@ description: "Realm for the engineering infrastructure team to deploy shared and
 
 This realm is for the engineering infrastructure team to deploy shared and team-specific infrastructure resources that aren't appropriate for the `saas` realms.
 
-<div class="panel panel-info">
-<div class="panel-heading">
-Future Iteration with Engineering Infrastructure Handbook Pages
-</div>
-<div class="panel-body">
-The <a href="https://about.gitlab.com/handbook/engineering/infrastructure/environments/">Engineering Infrastructure Environments handbook page</a> is the current SSOT for environments. As the WIP initiative to iterate on our company-wide infrastructure standards evolves, the Engineering Infrastructure pages will be refactored incrementally as the standards are documented, implemented, and changes to environments take place.
-</div>
-</div>
+{{% panel header="**Future Iteration with Engineering Infrastructure Handbook Pages**" header-bg="info" %}}
+The [Engineering Infrastructure Environments handbook page](/handbook/engineering/infrastructure/environments/) is the current SSOT for environments. As the WIP initiative to iterate on our company-wide infrastructure standards evolves, the Engineering Infrastructure pages will be refactored incrementally as the standards are documented, implemented, and changes to environments take place.
+{{% /panel %}}
 
 ### Access requests
 

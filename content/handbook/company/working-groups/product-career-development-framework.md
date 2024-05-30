@@ -11,12 +11,11 @@ description: "Learn more about the Product Career Development Framework Working 
 | Target End Date | January 31,2023 |
 | Slack           | [#wg_product-cdf](https://join.slack.com/share/zt-pg3dw504-aLrkdftFZ9xrqHEGqgqQMw) (only accessible by GitLab team members) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1a0baXkNsfDuDwcJ5IxNlLekCmFzElMGnmTmVAfQYV8o/edit?usp=sharing) (only accessible by GitLab team members) |
-| Docs            | [Framework Handbook Page](/handbook/product/product-manager-role/FY22-product-cdf/) |
+| Docs            | [Framework Handbook Page](/handbook/product/product-manager-role/product-cdf-competencies/) |
 | Issues    | [Issue List](https://gitlab.com/gitlab-com/Product/-/issues?label_name[]=wg%3Aproduct-cdf) / [Issue Board](https://gitlab.com/gitlab-com/Product/-/boards/2778676?&label_name[]=wg%3Aproduct-cdf) |
 | Label           | `~wg-product-cdf` |
 | Associated KPIs/OKRs | Promotion Rate and Retention |
 | GitLab group for working group| `@wg-product-cdf |
-
 
 ## Business Goals
 
@@ -38,7 +37,6 @@ description: "Learn more about the Product Career Development Framework Working 
 1. Clear quantative measures for progress [included in the CDF](/handbook/product/product-manager-role/product-CDF-competencies/#cdf-topics-for-product-managers)
 1. [Training](/handbook/product/product-manager-role/product-CDF-competencies/#people-management-competencies) for how to use the CDF for all [Product Leaders](/handbook/product/product-leadership/#product-leaders)
 1. Simplification of [PM Competencies](/handbook/product/product-manager-role/product-CDF-competencies/)
-
 
 ## Roles and Responsibilities
 

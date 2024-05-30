@@ -12,7 +12,7 @@ description: "Info about team celebrations in FY21"
 
 To celebrate the holiday season and recognize the many incredible things we have accomplished this year, we will be organizing a combination of swag and virtual events within the Ops Sub-Dept.
 
-The e-group has allocated a $45 per person budget which engineering managers are responsible for spending based on their number of direct reports. 
+The e-group has allocated a $45 per person budget which engineering managers are responsible for spending based on their number of direct reports.
 Expenses against the $45/person target can be submitted for reimbursement via Expensify.  Expenses should be incurred in December or January so they don’t roll over into FY22.
 
 #### Year End Holiday Celebration Swag and Virtual Events
@@ -35,7 +35,7 @@ The Ops Sub-department is holding a Virtual Pizza Party to celebrate our collect
       1. Shipped variables in Metric Dashboards and a bunch of other dashboard improvements
       1. Brought Alert Management from planned to minimal in one milestone
       1. Multiple Status Page improvements, such as the /publish feature
-1. A [significant increase in MRs](https://app.periscopedata.com/app/gitlab/533956/Development-Department-and-Sub-department-MR-Metrics?widget=7009931&udv=0).  We merged 405 MRs, a 38% increase over the previous all time high of 292!
+1. A significant increase in MRs.  We merged 405 MRs, a 38% increase over the previous all time high of 292!
 
 These are impressive results and we will take a moment to celebrate everyone's hard work contributing to them.
 

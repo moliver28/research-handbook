@@ -4,8 +4,25 @@ title: "Coaching"
 
 ## Coaching at GitLab
 
-Coaching conversations are fluid, dynamic acts of co-creation where the coach and the coachee are equal partners. Coaching is an important component of our [360 review process](/handbook/people-group/360-feedback/) and for [guidance on feedback](/handbook/people-group/guidance-on-feedback/). Coaching can occur during
-[one-on-one meetings]({{< ref "1-1" >}}) or at any time. It is an important component of [career development](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1), [leading teams]({{< ref "leading-through-adversity" >}}), [building an inclusive culture](/handbook/company/culture/inclusion/building-diversity-and-inclusion/#tips-for-managers), [mentoring](/handbook/engineering/career-development/mentoring/), and much more.
+At GitLab, we use coaching to:
+
+1. Provide opportunity for self reflection, communication and feedback
+1. Equip team members with skills they need to [deliver results for customers]({{< ref "https://handbook.gitlab.com/handbook/values/#results" >}})
+1. Create space to practice strategies for achieving [high performance](https://internal.gitlab.com/handbook/company/high-performing-teams/)
+
+Coaching conversations are fluid, dynamic acts of co-creation where the coach and the coachee are equal partners. People leaders and individual contributions alike use coaching at GitLab during our [360 review process](/handbook/people-group/360-feedback/), giving and receiving [feedback](/handbook/people-group/guidance-on-feedback/), throughout stages of [career development](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1), and more.
+
+### Why you might need or want a coach
+
+It's a common misconception that coaches are a last resort resource, or only for team members who are on a performance improvement plan. It's also a misconception that coaching is only for senior leaders.
+
+Review examples of why you might want to, or benefit from, meeting with a professional coach. This list is not exhaustive.
+
+1. A people manager is developing their own coaching skill and style to build accountability on their team.
+1. A leader wants to add transparency and efficiency to their quarterly planning process, but isn't sure where to start.
+1. An individual contributor wants to define their personal leadership style and plan for career growth opportunities.
+1. A team member wants to improve their communication style with a focus giving on open and honest feedback.
+1. A team member needs guidance in building a system to prioritize their work based on urgency and results.
 
 ## Selecting a coach
 
@@ -24,26 +41,11 @@ graph TD
 
 | Coaching Type | Description |
 | ----- | --------------- |
-| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#professional-coaching) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
+| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#professional-coaching) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
 | [Modern Health](/handbook/total-rewards/benefits/modern-health/) | Using our Modern Health Employee Assistance Program provides professional coaching to all team members. Coaches on Modern Health specialize in professional/career, mental health, and financial coaching. |
 | Manager Coaching | Your manager can be a coach that steers you towards future goals. Ensure that your Manager can take you on in a coaching capacity. However, coaching can also be a type of interaction you have with your Manager during 1:1 discussions. |
-| Internal Coach | Consider a senior to you in your larger team or someone outside of your team that has inspired you on the specific areas you are working and developing on. Consider searching on [this list of available mentors](/handbook/people-group/learning-and-development/mentor/#find-a-mentor).
+| Internal Coach | Consider a senior to you in your larger team or someone outside of your team that has inspired you on the specific areas you are working and developing on. Consider searching on [this list of available mentors](/handbook/people-group/learning-and-development/mentor/#find-a-mentor). |
 | Alternative Professional Coach | If some reason the coaches offered via Coaching Right Now or Modern Health do not fit your needs, team members with a Job Grade 8+ can seek and get approval for alternate external coaches. |
-
-### Why you might need or want a coach
-
-Coaching is a powerful career growth tool. Individual contributors and people leaders can both benefit from coaching. It's a common misconception that coaches are a last resort resource, or only for team members who are on a performance improvement plan. It's also a misconception that coaching is only for senior leaders.
-
-Review examples of why you might want to, or benefit from, meeting with a professional coach. This list is not exhaustive.
-
-1. A new people manager wants to define and develop their individual leadership style.
-1. An individual contributor has a general idea of their growth goals and wants to refine their goal and stay accountable.
-1. An experienced people manager is developing their communication style and skill to meet the needs of their new team.
-1. A team member is thinking about moving into a new role and wants guidance on the transition.
-1. A team member has a new manager or direct report and is trying to adapt their working style.
-
-![examples of coaching from coaching right now](../why-coaching.png)
-{.shadow.medium.center}
 
 ## How coaches coach
 
@@ -160,7 +162,7 @@ You may wear multiple hats in any given day:
 1. **Coach Hat** - Asking questions and listening deeply to help team members reach solutions.
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTadK6g9lEwLV8nP9GWPrgcF7sRHxycOuLwlZQm_h05D_FJpC3T9JzGUB7FmZY0UyW-ii4IfP0groBd/embed?start=true&loop=false&delayms=3000" frameborder="0" width="500" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTadK6g9lEwLV8nP9GWPrgcF7sRHxycOuLwlZQm_h05D_FJpC3T9JzGUB7FmZY0UyW-ii4IfP0groBd/embed?start=true&loop=false&delayms=3000" frameborder="0" width="500" height="769" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 ### Trust and Coaching
@@ -174,7 +176,7 @@ Building trust is an important ingredient in coaching and team dynamics. Trust l
 1. **Inattention to Results:** When no one is accountable, team members may naturally tend to put their own needs ahead of the collective goals; for example, career development and recognition.
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQwmhv3MIUV4065TeQ4N1Lz4xhjROQRTaTW2XNa5qH4k-mq4GNLgRYhi2fr2hjZslZ7V8JBipbvuaBv/embed?start=true&loop=false&delayms=3000" frameborder="0" width="500" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQwmhv3MIUV4065TeQ4N1Lz4xhjROQRTaTW2XNa5qH4k-mq4GNLgRYhi2fr2hjZslZ7V8JBipbvuaBv/embed?start=true&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 #### The Trust Equation
@@ -201,7 +203,7 @@ The trust equation has one variable in the denominator (self-orientation) and th
 The neuroscience studies show that recognition has the largest effect on trust when it occurs after a [goal has been met](https://hbr.org/2017/01/the-neuroscience-of-trust). The neuroscience of trust can help team members increase empathy, plan efficiently, and decrease thread and fear responses.
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSxZWO97gkIShmnZ-Ue7C9tbHVMT9BcuUx643pcGKrV29EQiXnpZ6yzTIZIuCUscwhTsT5ZoR6Gn-ZL/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSxZWO97gkIShmnZ-Ue7C9tbHVMT9BcuUx643pcGKrV29EQiXnpZ6yzTIZIuCUscwhTsT5ZoR6Gn-ZL/embed?start=true&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 #### The Return on Trust
@@ -221,34 +223,6 @@ Compared with people at low-trust companies, people at high trust companies repo
 1. [How to build and rebuilt trust - Ted Talk](https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust/)
 1. [New to the Team? Here’s How to Build Trust (Remotely) - Harvard Business Review](https://hbr.org/2021/03/new-to-the-team-heres-how-to-build-trust-remotely)
 
-## GROW Model
-
-The GROW Model is a four-step method for holding coaching conversations with a coachee. You can apply it during coaching sessions to guide the coachee through future-focused discussions.
-
-**G - Goals:** Identify the inspirational goal to drive success and keep energy and motivation high.
-
-**R - Reality:** Discuss the current situation and what barriers currently exist to achieve future goals
-
-**O - Options:** Explore the options for moving forward
-
-**W - Way Forward:** Agree on specific actions and timeframe to set accountability for the coachee
-
-<figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRyDezAdhbc9k5YOQmkUxCxkroz-yR6dpX1CoevIULZM10DcYLy_hBo3yQGlHPUgzPrAxZmNzR7Qjwj/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</figure>
-
-## Attributes of a coachee
-
-As a coach uses their core coaching skills, a coachee can access their own set of skills and activities to get the most out of the coaching conversation through the following:
-
-1. **Be Present**: Just as the coach is being present, a coachee needs to be present in the conversation, attentive, open to possibilities and fully engaged.
-1. **Reflect**: A coachee is invited to reflect, wonder, ponder, and contemplate through a coaching conversation through powerful questions.
-1. **Visualize**: The coachee can harness the power of their imagination and paint a picture in their mind of the desired future outcomes to enhance their chances of success.
-1. **Learn**: Coaching conversations revolve around learning by discovering new perspectives by coming to a new understanding or realization.
-1. **Transform**: Change is a core attribute of coaching. Sometimes the transformation may be small when a coachee has increased clarity on appropriate action to move forward. At times the transformation may be more profound, as a coachee can shift their mindset in a way that there's no going back.
-
-## Other Skills
-
 ### Will and skill
 
 Will and Skill is a framework that can be used to coach team members based on their Will and Skill. Will reflects the team member’s motivation and engagement with their work. Skill is a reflection of their ability to do the tasks. Scoring in either category as high or low means a team member will fall into one of four quadrants, each of which can be coached and managed differently.
@@ -267,6 +241,32 @@ To effectively coach, it is critical to manage your inner fixer – Our inner fi
 - [Stop Fixing & Start Coaching](https://baird-group.com/stop-fixing-start-coaching/)
 - [In Coaching: Is Asking The Right Questions More Important Than Having All The Answers?](https://www.fourstreamscoaching.com/in-coaching-is-asking-the-right-questions-more-important-than-having-all-the-answers/)
 
+## GROW Model
+
+The GROW Model is a four-step method for holding coaching conversations with a coachee. You can apply it during coaching sessions to guide the coachee through future-focused discussions.
+
+**G - Goals:** Identify the inspirational goal to drive success and keep energy and motivation high.
+
+**R - Reality:** Discuss the current situation and what barriers currently exist to achieve future goals
+
+**O - Options:** Explore the options for moving forward
+
+**W - Way Forward:** Agree on specific actions and timeframe to set accountability for the coachee
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRyDezAdhbc9k5YOQmkUxCxkroz-yR6dpX1CoevIULZM10DcYLy_hBo3yQGlHPUgzPrAxZmNzR7Qjwj/embed?start=true&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+
+## Attributes of a coachee
+
+As a coach uses their core coaching skills, a coachee can access their own set of skills and activities to get the most out of the coaching conversation through the following:
+
+1. **Be Present**: Just as the coach is being present, a coachee needs to be present in the conversation, attentive, open to possibilities and fully engaged.
+1. **Reflect**: A coachee is invited to reflect, wonder, ponder, and contemplate through a coaching conversation through powerful questions.
+1. **Visualize**: The coachee can harness the power of their imagination and paint a picture in their mind of the desired future outcomes to enhance their chances of success.
+1. **Learn**: Coaching conversations revolve around learning by discovering new perspectives by coming to a new understanding or realization.
+1. **Transform**: Change is a core attribute of coaching. Sometimes the transformation may be small when a coachee has increased clarity on appropriate action to move forward. At times the transformation may be more profound, as a coachee can shift their mindset in a way that there's no going back.
+
 ## Coaching Conversations
 
 ### Planning for action
@@ -283,7 +283,7 @@ The planning for the action phase is about enabling the coachee to make a plan w
 
 When you are planning for action while wearing your coaching hat, you are not evaluating or judging or driving your agenda. The coachee should ultimately decide the action steps, committing to their path forward. As a coach, you are curious and non-judgemental while living up to [GitLab values]({{< ref "values" >}}).
 
-#### Sample planning for action questions:
+#### Sample planning for action questions
 
 - What might be three next steps that you can take in order to....?
 - What are you going to do? When are going to do it? How will you know?
@@ -324,7 +324,7 @@ That action will include additional coaching, both verbal and documented.
 
 There are times when a Team Member’s behavior becomes so egregious that it is more than a performance issue, and becomes a true conduct concern. If at any point you suspect a team member has engaged in such behavior TMR should be looped in immediately, regardless of whether or not you consider the Team Member a high performer.
 
-- [TMR Handbook Page]({{< ref "/handbook/people-group/readmes" >}})
+- [TMR Handbook Page](/handbook/people-group/readmes)
 - [LDR 102 Underperformance](https://www.youtube.com/watch?v=nRJHvzXwXBU&t=1s)
 - [Managing Underperformance Handbook Interview](https://www.youtube.com/watch?v=-mLpytnQtlY)
 
@@ -346,7 +346,7 @@ We held 50 minute Introduction to Coaching [Live Learning](/handbook/people-grou
 
 In an all-remote organization, coaching is a critical skill for managers to develop and improve upon as they progress in their careers. Coaching helps to facilitate the career development of team members through regular coaching conversations. Coaching helps team members change behavior, improve performance, and sustain commitment through encouragement, support, collaborative problem-solving, goal setting, and [feedback](/handbook/people-group/guidance-on-feedback/).
 
-**Skills and behavior of the [coaching competency](/handbook/competencies/) for managers:**
+**Skills and behavior of the [coaching competency](/handbook/people-group/competencies/) for managers:**
 
 - Facilitates job performance growth of team members by providing regular coaching sessions
 - Understands team members long-term career goals and acts as a mentor and guide to achieving them
@@ -354,10 +354,6 @@ In an all-remote organization, coaching is a critical skill for managers to deve
 - Reflects on their leadership style and impact on the team and team situation
 - Seeks new coaching approaches and techniques and exemplifies what it means to continuously develop their skills
 - Delivers effective strategies for dealing with cases of [underperformance]({{< ref "underperformance" >}}) and instills that in other leaders across the organization
-
-### Resources for coaching and providing feedback
-
-There is a [handbook page](/people-group/learning-and-development/manager-coaching-and-leadership-resources/) which collects resources for different approaches, techniques, and styles of coaching and providing feedback.
 
 ### Additional coaching resources
 

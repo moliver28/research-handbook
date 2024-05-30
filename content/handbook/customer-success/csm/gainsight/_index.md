@@ -105,6 +105,7 @@ The table below represents the steps a CSM would typically take in Gainsight. Pl
 #### Video enablement
 
 The videos listed here are internal to GitLab only. You will need to be logged in to the "GitLab Unfiltered" YouTube channel to access them.
+
 - [Gainsight Overview and Demo](https://youtu.be/6NuyNSNipgc)
 - [Gainsight Foundations](https://education.gainsight.com/gainsight-foundations-nxt-fka-101)
 - [Gainsight Enablement 1](https://youtu.be/PL9shBdCMmo): health score, call logging, and creating a success plan
@@ -119,7 +120,6 @@ The videos listed here are internal to GitLab only. You will need to be logged i
 - [License Usage in Gainsight](https://youtu.be/ZqpmxoUy6EE)
 - [Product Usage Data - Overview](https://youtu.be/5_J9Kfbu5JA)
 - [At Risk Customer Video](https://www.youtube.com/watch?v=MQqfL3WT1zo)
-
 
 ### Sally the Slack bot
 
@@ -172,4 +172,3 @@ To add customer contacts to an account, you can add them in either Salesforce or
 1. When we send emails to contacts (monthly release, marketing, etc.), the contact needs to be loaded into Gainsight.
 1. To share a Success Plan, they need to be a contact in Gainsight.
 1. Sponsor Tracking component requires the contact to be in Gainsight.
-

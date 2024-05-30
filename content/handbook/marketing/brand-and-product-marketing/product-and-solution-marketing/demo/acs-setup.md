@@ -5,7 +5,6 @@ title: "Set up GitLab CE or EE on Azure Container Service"
 
 ## Video
 
-
 The video below shows how to install GitLab EE onto Azure Container Service. For
 the DevOps lifecycle, please refer to the [sales demo](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/).
 
@@ -13,12 +12,6 @@ the DevOps lifecycle, please refer to the [sales demo](/handbook/marketing/brand
   <iframe src="https://www.youtube.com/embed/MoLKFQxRaGE" frameborder="0" allowfullscreen="true"> </iframe>
  </iframe>
 </figure>
-
-
-
-
-
-
 
 ## Preparation
 
@@ -35,8 +28,9 @@ the DevOps lifecycle, please refer to the [sales demo](/handbook/marketing/brand
 > - Share just the web browser window so the audience isn’t distracted by notes or other windows.
 > - [Optional] Go to 'Displays' settings, Resolution: Scaled, Larger text.
 > - [Optional] Open this page on an iPad that has screen lock disabled.
-
+>
 > **CLI setup**
+>
 > - On macOS, install `brew` for all the things
 >   - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 > - You need to have the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) installed. e.g.
@@ -81,12 +75,13 @@ Encrypt. Then we use `helm` to install all the necessary components.
 > - *Note, if you're using a non-trial account, we recommend dropping `redisDedicatedStorage=false,postgresDedicatedStorage=false` which will isolate your database disks.*
 >
 > **Alternate instructions for GitLab EE**
-> - Go to [/free-trial/](/free-trial/) and enter in your info to request a trial license for GitLab EE
+>
+> - Go to [/free-trial/](https://about.gitlab.com/free-trial/) and enter in your info to request a trial license for GitLab EE
 > - Wait for email
 > - Download license to `~/.gitlab-license`
 > - Install helm chart, adding the gitlab and gitlabEELicense options:
 
-```
+```console
 export LICENSE= `cat ~/GitLab.gitlab-license`
 helm upgrade -i tanuki --namespace gitlab --set baseDomain=tanuki.website,legoEmail=you@gitlab.com,provider=acs,redisDedicatedStorage=false,postgresDedicatedStorage=false,gitlab=ee,gitlabEELicense=$LICENSE gitlab/gitlab-omnibus
 ```
@@ -201,7 +196,7 @@ cluster.
 
 - You can check logs from CLI using `kubectl` as well
 
- ```
+ ```console
   kubectl get namespaces
   kubectl get pods --namespace=<NAMESPACE>
   kubectl logs <POD> --namespace=<NAMESPACE>

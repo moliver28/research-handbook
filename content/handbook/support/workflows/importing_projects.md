@@ -16,7 +16,7 @@ If a customer is having issues with exporting a project, troubleshoot as normal,
 1. Gather necessary information to search logs. See [Kibana Import Error]({{< ref "kibana#import-error" >}}) section on tips.
 1. Find relevant issue and comment, or create one if needed, with Kibana/Sentry links.
 
-Once an issue is created or commented on, you may use the [`Support::SaaS::Export::Offer one time` macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360073665160) to offer a one-time export attempt.
+Once an issue is created or commented on, you may use the [`Support::SaaS::Gitlab.com::Export::Offer one time` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Export/Offer%20one%20time.md?ref_type=heads) to offer a one-time export attempt.
 
 If the customer accepts the offer, did the export succeed (they got an email, or there is a "Download export" button) but there an error downloading it? Example: [gitlab#330833](https://gitlab.com/gitlab-org/gitlab/-/issues/330833).
 
@@ -26,8 +26,8 @@ If the customer accepts the offer, did the export succeed (they got an email, or
 
 For convenience, two additional macros are available after an export attempt is made:
 
-- [`Support::SaaS::Export::Completed - Successful`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360073665100)
-- [`Support::SaaS::Export::Completed - Failed`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360073665000)
+- [`Support::SaaS::Gitlab.com::Export::Completed - Successful`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Export/Complete%20-%20Successful.md?ref_type=heads)
+- [`Support::SaaS::Gitlab.com::Export::Completed - Failed`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Export/Complete%20-%20Failed.md?ref_type=heads)
 
 ## Project Import Overview
 
@@ -69,11 +69,11 @@ The previously pre-approved case on user mapping is now covered by [direct trans
 
 #### Other Cases
 
-If you're unsure of whether we should perform an import for a specific requester, get input via the #spt_managers Slack channel or an [internal issue](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new). If a manager approves, proceed with the import.
+If you're unsure of whether we should perform an import for a specific requester, get input via the #support_leadership Slack channel or an [internal issue](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new). If a manager approves, proceed with the import.
 
 ## Stage 2: Offering Import & Preparation
 
-You can use the [`Support::SaaS::Import::Offer Import (Users Mapped)`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360043607339) Zendesk macro and then follow the next sections in sequence.
+You can use the [`Support::SaaS::Gitlab.com::Import::Offer Import (Users Mapped)`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Import/Offer%20Import%20(Users%20Mapped).md?ref_type=heads) Zendesk macro and then follow the next sections in sequence.
 
 ### Timing and scheduling ahead
 
@@ -120,11 +120,11 @@ The customer should send you a copy of the project export ahead of their chosen 
 
 **If issues within the list are found:**
 
-1. Reply to the requestor with the [`Support::SaaS::Import::Verify User List (Problem Found)`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360043607299) Zendesk macro, which will ask them to resolve the issues we found and send us a new project export once that's done. Once they have, repeat the [2. Verify User List](#2-verify-user-list) section.
+1. Reply to the requestor with the [`Support::SaaS::Gitlab.com::Import::Verify User List (Problem Found)`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360043607299) Zendesk macro, which will ask them to resolve the issues we found and send us a new project export once that's done. Once they have, repeat the [2. Verify User List](#2-verify-user-list) section.
 
 **If no issues within the list are found:**
 
-1. Send the resulting list of users not in GitLab.com to the customer to confirm using the [`Support::SaaS::Import::Verify User List (Looks Good)`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360043607239) Zendesk macro and await their reply. Once they reply and confirm that all email addresses that were found only in the export file are from employees no longer with the company, this section is complete.
+1. Send the resulting list of users not in GitLab.com to the customer to confirm using the [`Support::SaaS::Gitlab.com::Import::Verify User List (Looks Good)`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Import/Verify%20User%20List%20(Looks%20Good).md?ref_type=heads) Zendesk macro and await their reply. Once they reply and confirm that all email addresses that were found only in the export file are from employees no longer with the company, this section is complete.
 
 >**NOTE:** For these users, items will be mapped to the admin account, then the [Ghost User](https://docs.gitlab.com/ee/user/profile/account/delete_account.html#associated-records) once the admin account is deleted.
 
@@ -153,7 +153,7 @@ If the import is to be done ASAP and no *new* project export file is provided, t
 After the import has completed successfully, perform the following steps.
 
 1. Ensure the export file is deleted, or remind the customer to delete theirs in your next response.
-1. Use the [`Support::SaaS::Import::Complete - Customer to Verify`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360031338260) Zendesk macro to let the customer know that the import has completed and that they should double check that everything is in order.
+1. Use the [`Support::SaaS::Gitlab.com::Import::Complete - Customer to Verify`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Import/Complete%20-%20Customer%20to%20Verify.md?ref_type=heads) Zendesk macro to let the customer know that the import has completed and that they should double check that everything is in order.
 1. After the customer confirms that everything looks okay, open an issue using the [Access Change Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request) template to request that the admin account used for the import be deleted.
 1. Close the internal issue.
 
@@ -161,10 +161,10 @@ After the import has completed successfully, perform the following steps.
 
 ### Macros
 
-- [`Support::SaaS::Import::Offer Import (Users Mapped)`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360043607339)
-- [`Support::SaaS::Import::Verify User List (Looks Good)`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360043607239)
-- [`Support::SaaS::Import::Verify User List (Problem Found)`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360043607299)
-- [`Support::SaaS::Import::Complete - Customer to Verify`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360031338260)
+- [`Support::SaaS::Gitlab.com::Import::Offer Import (Users Mapped)`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Import/Offer%20Import%20(Users%20Mapped).md?ref_type=heads)
+- [`Support::SaaS::Gitlab.com::Import::Verify User List (Looks Good)`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Import/Verify%20User%20List%20(Looks%20Good).md?ref_type=heads)
+- [`Support::SaaS::Gitlab.com::Import::Verify User List (Problem Found)`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Import/Verify%20User%20List%20(Problem%20Found).md?ref_type=heads)
+- [`Support::SaaS::Import::Complete - Customer to Verify`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Import/Complete%20-%20Customer%20to%20Verify.md?ref_type=heads)
 
 ### Resources
 

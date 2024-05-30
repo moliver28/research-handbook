@@ -17,7 +17,7 @@ extra_js:
   <iframe src="https://www.youtube.com/embed/DgJhvait4gI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-*[Andrew Kelly](/handbook/company/team/#ankelly), one of our AppSec team managers talks about his experience here at GitLab, including what makes GitLab a unique and exciting place to learn and grow.*
+*[Andrew Kelly](/handbook/company/team/#ankelly), one of our former AppSec team managers talks about his experience here at GitLab, including what makes GitLab a unique and exciting place to learn and grow.*
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/5RYc0KqX48Q" frameborder="0" allowfullscreen="true"> </iframe>
@@ -32,7 +32,7 @@ extra_js:
 - Support the preparation of security releases.
 - Assist in development of security processes and automated tooling that prevent classes of security issues.
 
-Learn more about our role [on the Application Security Handbook page](/handbook/security/security-engineering/application-security/) including our work as [Stable Counterparts](/handbook/security/security-engineering/application-security/stable-counterparts.html) and our [HackerOne process](/handbook/security/security-engineering/application-security/runbooks/hackerone-process.html)
+Learn more about our role [on the Application Security Handbook page](/handbook/security/product-security/application-security/) including our work as [Stable Counterparts](/handbook/security/product-security/application-security/stable-counterparts.html) and our [HackerOne process](/handbook/security/product-security/application-security/runbooks/hackerone-process.html)
 
 ## Requirements
 

@@ -12,7 +12,7 @@ A strategic group of Senior leaders Leaders who assist the DIB team in implement
 - Division expertise
 - Leader from an Underrepresented Group - Ethnic, Gender, LGBTQ, Neurodiverse, disabilities, etc.
 
-## Responsibilities:
+## Responsibilities
 
 1. Ensure that the DIB strategic imperatives are embedded into business goals.
 1. Unblock obstacles encountered while implementing GitLab DIB strategy globally
@@ -52,9 +52,9 @@ Senior leadership representative (Snr. Dir +) from each Department and a person 
 - DIB Team
 - Executive Sponsors
 
-## Selection Criteria:
+## Selection Criteria
 
-### Department Representatives:
+### Department Representatives
 
 - Nominated by the E-Group member for the division: Senior Director + or a person from a URG who is Manager+ where URG representation is not possible at Snr Director+
 - The team member must be performing in their role and not in any performance management process as confirmed by the People Group
@@ -64,7 +64,7 @@ Senior leadership representative (Snr. Dir +) from each Department and a person 
 - Ability to advocate for the department on DIB related issues
 - Ability to advocate for the DIB Strategy and initiatives within your department
 
-### Selection Process:
+### Selection Process
 
 - The DIB Team will ensure that an agenda item is added to the E-Group Weekly Meeting to discuss nominations for the Leadership DIB Council
 - The E-Group will have two weeks to provide their nominations for their department to the Chief People Officer or VP of DIB
@@ -72,7 +72,7 @@ Senior leadership representative (Snr. Dir +) from each Department and a person 
 - The newly appointment member/s will then receive an introduction, an overview of the mission and purpose of the Leadership DIB Council and the Accountabilities and Commitments
 - The newly appointed member/s will then be asked to acknowledge the Accountabilities and Commitments
 
-## Accountabilities and Commitments:
+## Accountabilities and Commitments
 
 These are the Accountabilities and Commitments that members of the Leadership DIB Council will commit to during their tenure on the The Leadership DIB Council:
 
@@ -121,11 +121,3 @@ We will follow the agenda as closely as possible but ensuring that live answers 
 #### Communication
 
 All DIB council members will be added to our internal [Google Group](https://groups.google.com/a/gitlab.com/g/dib-council) for invitations and communication.
-
-
-
-
-
-
-
-

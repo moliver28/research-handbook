@@ -42,7 +42,7 @@ The Associate Sales Operations Analyst is a [grade 5](/handbook/total-rewards/co
 - Ability to use GitLab
 - Aligns with GitLab Values
 - You share our values and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ### Sales Operations Analyst
@@ -142,7 +142,7 @@ The Manager, Sales Operations is a [grade 8](/handbook/total-rewards/compensatio
 - SaaS and B2B experience preferred
 - Interest in GitLab, and open source software
 - You share our values and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ### Senior Manager, Sales Operations
 
@@ -200,7 +200,7 @@ The Director, Sales Operations is a [grade 10](/handbook/total-rewards/compensat
 - Interest in GitLab, and open source software
 - Unquestionable ethics, integrity and business judgment; you share our values, and work in accordance with those values
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 #### Specialties
 
@@ -222,7 +222,6 @@ Focus on leading the operational deployment of the Fiscal Year Planning through 
 ##### Data Quality and Governance Responsibilities
 
 Focus on creating the Sales Data Governance policies to result in continuous data cleansing, enrichment and augmentation that results in increased data accuracy and confidence. Manage sales data cleansing to support pre and post Fiscal Year Planning.
-
 
 ### Senior Director, Sales Operations
 
@@ -255,7 +254,7 @@ The Senior Director, Sales Operations is a [grade 11](/handbook/total-rewards/co
 - Ability to coach, motivate, performance manage and recruit Sales Operations teams
 - Interest in GitLab, and open source software
 - You share our [values](/handbook/values/) and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 ## Specialties
 

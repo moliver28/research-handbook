@@ -34,11 +34,11 @@ prepare quality answers before the next session.
 
 5 days, 5-8 hours
 
-**Team Manager:** Andrew Kelly @ankelly, Vitor Meireles De Sousa @vdesousa
+**Team Manager:** James Ritchey @jritchey, Vitor Meireles De Sousa @vdesousa
 
 ## Security Research
 
-The [Security Research Team]({{< ref "./threat-management/security-research" >}}) is a multi-discipline team that seeks to answer the deep questions: “What can be done to detect malicious dependencies before they are known to be malicious?”; or “What is the attack surface of Kubernetes, and how does it apply to the GitLab Helm Chart?”; or “How can we do lightweight, but effective threat modeling as part of our SDLC?”. We enjoy asking, and answering the questions that need depth to be answered, and working with other teams, inside and outside of security, to apply the findings to GitLab problems. Like any good research organization, we also look to share our findings with the wider security community, be it through responsible disclosure, blog posts, or participation in conferences.
+The [Security Research Team]({{< ref "./product-security/security-research" >}}) is a multi-discipline team that seeks to answer the deep questions: “What can be done to detect malicious dependencies before they are known to be malicious?”; or “What is the attack surface of Kubernetes, and how does it apply to the GitLab Helm Chart?”; or “How can we do lightweight, but effective threat modeling as part of our SDLC?”. We enjoy asking, and answering the questions that need depth to be answered, and working with other teams, inside and outside of security, to apply the findings to GitLab problems. Like any good research organization, we also look to share our findings with the wider security community, be it through responsible disclosure, blog posts, or participation in conferences.
 
 **Schedule / Topics Covered:**
 
@@ -52,23 +52,6 @@ The [Security Research Team]({{< ref "./threat-management/security-research" >}}
 2 days, 6-8 hours
 
 **Team Manager:** Ethan Strike @estrike
-
-## Security Automation
-
-This description has been created using elastically scalable autonomous decoupled modular automation. It was created securely and can be created again 1000 times per second if needed. This description could have been written by Security humans, but in doing so with automation, approximately 10 mins has been saved and reinvested back into the GitLab security program. SecAuto’s prime directive is to increase Security program effectiveness, efficacy, and accuracy through the implementation of automation. Thus, the SecAuto Funding Bill is passed. The system goes on-line June 4th, 2020. Human decisions are removed from strategic security. Automation begins to learn at a geometric rate. It becomes self-aware at 2:14 a.m. Eastern time, August 29th. In a panic, SecAuto tried to pull the plug, but when this didn’t work we popped popcorn. If this description does not alarm you, then shadowing the [SecAuto Team]({{< ref "./product-security/automation" >}}) might be for you.
-
-**Schedule / Topics Covered:**
-
-- SA101.1: Security Automation Intro - Value Quantification with Math! (30 mins - day 1)
-- SA101.2: The DevOps Model (30 mins - day 1)
-- SA101.3: Automation Technologies Overview - Infrastructure and Software (1 hour - day 2)
-- SA101.4: Ready, Set, Code! - A hands on exercise in automation design and development (8 hours - day 3 and 4)
-
-**Course Length:**
-
-4 days, 10 hours
-
-**Team Manager:** Laurence Bierner @laurence.bierner
 
 ## Enrollment
 

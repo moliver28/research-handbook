@@ -4,7 +4,7 @@ title: "Women in Security"
 
 ## Women in Security Mission Statement
 
-GitLab’s Women in Security group is established to provide support , skills and leadership development, and networking and mentorship opportunities for the women in GitLab’s security department. The group also seeks to inspire women and girls interested in entering or learning about the security industry.
+GitLab’s Women in Security group is established to provide support, skills and leadership development, and networking and mentorship opportunities for the women in GitLab’s security department. The group also seeks to inspire women and girls interested in entering or learning about the security industry.
 
 ### Membership
 
@@ -19,7 +19,7 @@ While tailored for current female team members of the GitLab Security organizati
 
 ### Leadership Sponsor
 
-PENDING
+[Julie Davila](https://gitlab.com/juliedavila), VP Product Security
 
 ## Catalog of Events and Publications
 

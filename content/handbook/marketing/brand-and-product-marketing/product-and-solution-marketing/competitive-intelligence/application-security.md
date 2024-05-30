@@ -13,7 +13,6 @@ title: "Application Security Market Analysis"
 
 A uniform lexicon is important to distinguish the use of 'security' in various contexts.
 
-
 GitLab helps our customers **Secure and Govern** all of the phases of the SDLC Create, Plan, etc.). To deliver secure applications, customers use GitLab Security Controls throughout the SDLC and Security Testing in validation. Eventually, GitLab will enable vulnerability prioritization for planning and Security Monitoring in production.
 
 1. **Security Controls** are capabilities of GitLab that altogether provide GitLab customers auditability of code throughout the SDLC. (This is not SAST/DAST.) For example, see [GitHub security](https://docs.google.com/document/d/1s5RIE8hFaMdoBqrnLVlnbuxDUQfZd1kYjduVOZCWIKE/edit?usp=sharing). These controls help customers in their efforts to comply with various industry regulations that require policies for auditability and access control. Examples include:
@@ -21,7 +20,7 @@ GitLab helps our customers **Secure and Govern** all of the phases of the SDLC C
     - Complete change log for auditing
     - Two-factor authentication (2FA) for added access control
     - Automated security scanning during verification
-Check out the [compliance page](/solutions/compliance/) for a more thorough view.
+Check out the [compliance page](https://about.gitlab.com/solutions/compliance/) for a more thorough view.
 
 2. **Application Security Testing** is a capability or feature of GitLab, used in the Verify phase. It includes SAST and DAST, container scanning and dependency scanning. GitLab also includes license compliance in our software composition analysis.
 
@@ -32,6 +31,7 @@ Check out the [compliance page](/solutions/compliance/) for a more thorough view
 Cyber Security is on a dynamic trajectory. It has been traditionally focused on guarding the perimeter in a defensive approach. Enterprises would start with simple endpoint protection and network security and layer on tools for “Defense in Depth”. Today’s security is much more proactive and predictive combining internal and external data from a variety of sources and applying user behavior analytics and machine learning to identify suspicious activity.
 
 Security investments followed a similar trajectory. Traditionally the bulk of the spending has been to protect infrastructure. In 2015, Gartner Analyst, Joseph Feiman, estimated for every $1 spent on application security, $23 was spent in other security. Application Security has only been a mainstream concern for recent years - but that’s changing! There are several dynamics making application security a bigger priority including:
+
 - Well known and significant application-focused attacks such as Heartbleed.
 - GDPR requires that enterprises assume the risk of the vendors they use. Vulnerabilities that might be present in purchased applications become of more concern.
 - Open source code is becoming a norm. This [451 article](https://drive.google.com/file/d/1T75K9qjBtdRkFdgVy--mrKmFrWXe8cTy/view) explains how one small piece of code can have vast implications when it has a vulnerability that is exploited.
@@ -56,7 +56,6 @@ The term Application Security Testing includes Static Application Security Testi
 
 The term Software Composition Analysis includes Static Application Security Testing (SAST), Dependency Scanning, Container Scanning, License Compliance, and Code Quality Testing. It often includes a Bill of Materials capability, though that is typically a feature of these others, not a product of its own. Industry analysts, such as Forrester, use SCA to group capabilities. As defined in our [Solutions](/handbook/product/categories/index.html#solutions) we are [intentional in not including SAST and Code Quality](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/26897#note_198503054) in Software Composition Analysis.
 
-
 ## Competitor Scope
 
 |Vendor/Scope|SAST        |DAST        |Dep Scanning|Cont Scanning|License Mgmt|
@@ -78,11 +77,13 @@ The term Software Composition Analysis includes Static Application Security Test
 ## Who uses GitLab secure capabilities?
 
 **Within the MR pipeline report - the Developer**
+
 - delivered immediately to responsible individual
 - clear impact of his or her code changes (not mixed with changes made by others or pre-existing vulns)
 - can fix the security flaw without context change
 
 **Within the Security Dashboard - the Security team**
+
 - project or group view of unresolved vulnerabilities
 - already merged with other code
 - primary responsibility is to manage risk
@@ -90,13 +91,11 @@ The term Software Composition Analysis includes Static Application Security Test
 - long term view
 - cares about mean time to remediation, trends
 
-
 ## Market Segment Overview
 
 Application Security is difficult. It is one of the smallest market segments of cyber security with lowest adoption. This is because it relies on a combination of people, processes and technology much more than network security, endpoint protection, etc. You will find sophisticated programs mostly in enterprises that depend upon custom software for their core business.
 
 ### Companies with sophisticated Application Security programs
-
 
 **Characteristics**
 

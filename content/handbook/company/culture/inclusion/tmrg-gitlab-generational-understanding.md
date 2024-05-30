@@ -3,9 +3,6 @@ title: "TMRG - Generational Understanding"
 description: "We are the Generational Understanding Resource Group (TMRG) founded in the summer of 2020. Learn more!"
 ---
 
-![TMRG Logo](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/raw/master/design/gitlab-brand-files/gitlab-logo-files/global-diversity-inclusion/full-color/jpg/di-generational-understanding-logo-rgb.jpg)
-{style="max-width: 50%;"}
-
 ## Mission
 
 The mission of the generational understanding [TMRG]({{< ref "erg-guide" >}}) is to ensure that team members of all ages feel they have a safe space to communicate, unite and share issues that are reflective of their experience while at GitLab, and to explicitly foster more sharing of wisdom across generations. We encourage a work culture where GitLab team members of all ages are valued, empowered, and given opportunities to develop and contribute to their full potential. This culture will be a competitive advantage for GitLab, as it helps GitLab become a thought leader on this topic. It will leverage the wisdom of all team members, as it helps identify ongoing patterns as well as best practices for mentoring.
@@ -16,10 +13,10 @@ The mission of the generational understanding [TMRG]({{< ref "erg-guide" >}}) is
 - [Terri Chu](https://gitlab.com/terrichu) - from middle 1/3 of current workplace generations.
 - [Darwin Sanoy](https://gitlab.com/DarwinJS) - from later 1/3 of current workplace generations.
 
-## Communications
+## How to Join
 
-- Slack Channel: [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100)
-- [Google Group](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG)
+- Please sign up for the [Generational Understanding Google Group](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) to be added to the Generational Understanding TMRG. This will ensure you’re added to upcoming TMRG calendar events. It might take up to 24 hours before the calendar events appear on your calendar. If there is an event happening within 24 hours of you joining the Google Group, please post in the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel to be added manually.
+- Join the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel for conversation, announcements, and connecting with other TMRG members. Feel welcome to introduce yourself in the channel when you join!
 
 ## Activities
 

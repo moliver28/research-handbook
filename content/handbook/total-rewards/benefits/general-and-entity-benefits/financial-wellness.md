@@ -32,7 +32,7 @@ GitLab offers all team members the ability to use the Financial Wellness Program
 - Access to SageView’s communications
 - Financial Wellness Workshops hosted by SageView
 
-Please see the following [flyer](https://drive.google.com/file/d/1tAxGvQbstMfKO3m5JdciaKByumHOGPqa/view?usp=sharing) for more information and a link to schedule a consultation.
+Please see the following [flyer](https://drive.google.com/file/d/1FNdQ4i-Jx-jUMjjcAR4Uw4ErB8hyODGN/view?usp=sharing) for more information and a link to schedule a consultation.
 
 GitLab hosted a kickoff call with SageView to discuss an overview of the program’s benefit offerings for team members.
 
@@ -79,7 +79,7 @@ Schwab can also assist with investment support as a complimentary service throug
 
 ## Total Rewards and Financial Wellness for Managers
 
-An important component of the [Total Rewards Package]({{< ref "/handbook/total-rewards" >}}) is [Equity Compensation](/handbook/stock-options/). Team Members can review their equity holdings in Schwab. Please note that vested and exercised shares are currently being held in Computershare. The Stock Admin team will be providing additional information on these shares.
+An important component of the [Total Rewards Package](/handbook/total-rewards) is [Equity Compensation](/handbook/total-rewards/stock-options/). Team Members can review their equity holdings in Schwab. Please note that vested and exercised shares are currently being held in Computershare. The Stock Admin team will be providing additional information on these shares.
 
 In order for *managers* to understand the full picture of their team members’ total rewards package, the People Group has generated a [Total Rewards Summary](#total-rewards-summary) for managers to view vested and unvested holdings as of October 14, 2021 for each direct report.
 
@@ -103,7 +103,7 @@ The Total Rewards Summary has been generated for management to visualize and und
 
 - It’s important for all team members to understand and consider all components of the Total Rewards Package. One key component being the value of our equity program (Options, RSU’s & ESPP) as core to our Total Rewards (benefits, cash compensation, equity) at GitLab.
 - Equity aligns team members with a long term incentive for the company. By delivering results, GitLab has the ability to contribute to company performance and drive long-term potential value.
-- Team members may be eligible for [Equity Compensation](/handbook/stock-options/#restricted-stock-units) as part of their new hire package or the annual refresh program.
+- Team members may be eligible for [Equity Compensation](/handbook/total-rewards/stock-options/#restricted-stock-units) as part of their new hire package or the annual refresh program.
 - GitLab has recently adjusted the cliff for the RSU program by implementing an industry leading six month cliff for new hire grants and no cliff for promotion or refresh grants.
 - Close by checking in on how your team member is doing beyond their financial position. A quick and simple method is to use  the “red, yellow, green” scale to ask your team members how they are feeling about their future at GitLab. The goal is to gain actionable feedback about how you can support them going forward.
 - Please note that Total Rewards will be discussed again in February as part of [Annual Compensation Review]({{< ref "compensation-review-cycle" >}}). This is a great opportunity to check in with your direct reports ahead of the planning process, but it is important to not make any forward looking statements on increases during the review cycle.

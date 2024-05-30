@@ -3,9 +3,9 @@ title: Crucial Conversations Training at GitLab
 description: "An outline of the internal Crucial Conversations training structure"
 ---
 
-Two members of the GitLab Learning & Development Team are certified to deliver Crucial Conversations Training. You can learn more about the importance of Crucial Converations at GitLab on our [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) handbook page.
+Two members of the GitLab Learning & Development Team are certified to deliver Crucial Conversations Training. You can learn more about the importance of Crucial Converations at GitLab on our [Crucial Conversations](/handbook/leadership/crucial-conversations) handbook page.
 
-If you complete Crucial Conversations training with one of our in house certified trainers, you can utilize our [growth and development budget]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#crucial-conversations-training" >}}).
+If you complete Crucial Conversations training with one of our in house certified trainers, you can utilize our [growth and development budget](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#crucial-conversations-training).
 
 ## What to Expect
 
@@ -29,11 +29,7 @@ Upon completion of the self paced material you will earn an official Crucical Co
 
 ## Upcoming Sessions
 
-If you are a GitLab Team Member and interested in participating in the course, you can fill out our [Crucial Conversations interest form](https://docs.google.com/forms/d/e/1FAIpQLSdqwibbQZs-zL-IX9aq9Yzgozm-y3i0Vwh59T8T1nR74mxmFQ/viewform).
-
-**FY24**
-
-- FY24-Q1: 1 cohort, dates TBD
+There are no upcoming sessions planned. If you'd like to earn your Crucial Conversations certificaiton, please see options offered directly by [Crucial Learning.](https://cruciallearning.com/)
 
 ## Results
 

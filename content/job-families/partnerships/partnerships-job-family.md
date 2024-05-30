@@ -30,9 +30,8 @@ The Director, Partnerships is a [grade 10](/handbook/total-rewards/compensation/
 - You’re comfortable with code, and enjoy talking with developers and engineering directors alike.
 - You’ve shown that you can build long term (international) strategic relationships, preferably involving open source software.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
-
 
 ## VP, Business Development and Strategic Partnerships
 
@@ -64,7 +63,7 @@ The VP, Business Development and Strategic Parterships is a [grade 12](/handbook
 - Demonstrated complete understanding of the company, product, and landscape to make informed long-term strategic business decisions
 - Established network of executive level contacts within the public cloud space, DevOps and open-source communities. Proven ability to translate those to new partnerships and business opportunities.
 - Demonstrated analytical and data led decision-making.
-- [Leadership at GitLab](/handbook/company/team/structure/#s-group)
+- [Leadership at GitLab](/handbook/company/structure/#s-group)
 - Ability to use GitLab
 
 ## Performance Indicators
@@ -81,4 +80,3 @@ The next step in the Strategic Partnerships job family is not yet defined at Git
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
-

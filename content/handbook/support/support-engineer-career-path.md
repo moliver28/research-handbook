@@ -11,7 +11,7 @@ While it's important to understand the how (how do I accomplish my goal? how do 
 
 Promotions within the Support Department are guided by the [Support Career Framework Matrix](/handbook/engineering/careers/matrix/support/), following [this track of role promotions](/handbook/engineering/career-development/#support-department). Consider the matrix (competency requirements) and promotion path as your expected baseline targets. Utilize the resources and recommendations in this document to explore your *why*, and to build your path to promotion with an extended view of what you can expect as you decide on your direction.
 
-When you are ready to start building your path to promotion, review the section on [creating and building a promotion doc](/handbook/people-group/promotions-transfers/#promotion-document). Ask for manager guidance and feedback as necessary.
+When you are ready to start building your promotion document, take a look at the [Working on a Promotion](/handbook/support/workflows/team/promotions/) support workflow.  This will guide you on creating and completing your promotion document.  You will find the link to the promotion document template on that page, and suggestions for what to include depending on what role you are seeking promotion to. You will also find links there to a list of completed promotion documents that you can refer to while building your own document. Ask your manager for guidance and feedback as necessary.
 
 ### General Recommendations and Useful Resources (Applies to Any Promotion Path)
 
@@ -24,7 +24,7 @@ Familiarize yourself with what it means to plan your career path, and how leader
 - Watch this [Engineering IC Leadership - Handbook Learning Session](https://www.youtube.com/watch?v=OXBwtaZ9edQ) to understand the difference between **IC leadership** and **Management**.
 - Schedule a coffee chat or AMA with someone in the position to better understand what they do, and ask for advice on how to work towards this role.
 - Speak with your manager about available openings, and review #spt_hiring for any opportunity announcements.
-- Review and use the templates and resources available in [this Google Drive folder](https://drive.google.com/drive/folders/1LZ6AkjVv4JW0CiHYTGzyMQdGadyOgDY_) to track your performance, career development, and path to promotion.
+- Review and use the templates and resources available in the [Career Development, Promotion, Performance, etc. Docs Templates folder](https://drive.google.com/drive/search?role=writer&q=type:folder%20title:%22Career%20Development,%20Promotion,%20Performance%20etc%20Docs%20and%20Templates%22%20in:0AEeARMMpt4eDUk9PVA) to track your performance, career development, and path to promotion.
 - As you begin to track and document your path to promotion document, use meaningful examples that highlight the relevant competencies and the type of work the promotion document asks for. See each section below for some specific conditions.
 
 ## Path to Promotion: Senior Support Engineering

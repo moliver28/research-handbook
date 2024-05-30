@@ -33,7 +33,7 @@ The Manager, Sales Systems is a [grade 8](/handbook/total-rewards/compensation/c
 - Interest in GitLab, and open source software.
 - You share our values, and work in accordance with those values.
 - Ability to thrive in a fully remote organization.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group).
+- [Leadership at GitLab](/handbook/company/structure/#management-group).
 - Ability to use GitLab.
 
 ## Senior Manager, Sales Systems
@@ -66,14 +66,14 @@ The Senior Manager, Sales Systems is a [grade 9](/handbook/total-rewards/compens
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values
 - Ability to thrive in a fully remote organization
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 {{% job-families/sales/performance %}}
 
 ## Director, Sales Systems
 
-The Director of Sales Systems reports to the Senior Director of Sales Systems  and leads a team of business system architects, engineers and administrators to deliver scalable and low friction solutions to the Go-To-Market teams. The Director has the ability to unpack complicated strategic problems and add iterative solutions to the Sales Systems roadmap, executing on delivery. The Director is a leader and mentor, capable of building and sustaining a high performance team as well as aligning with executives and project stakeholders.
+The Director of Sales Systems reports to the Senior Director of Sales Systems  and leads a team of business system architects, engineers and administrators to deliver scalable and low friction solutions to the Go-To-Market teams. The Director has the ability to unpack complicated strategic problems and add iterative solutions to the Sales Systems roadmap, executing on delivery. The Director is a leader and mentor, capable of building and sustaining a high performing team as well as aligning with executives and project stakeholders.
 
 ### Job Grade
 
@@ -104,7 +104,7 @@ The Director, Sales Systems is a [grade 10](/handbook/total-rewards/compensation
 - Excellent communication and interpersonal skills, with the ability to resolve complicated interdepartmental projects and manage stakeholders.
 - Committed to “Drink our own Champagne” and fully utilize the GitLab product for internal project management and collaboration.
 - Share and work in accordance with our [values](/handbook/values/).
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Senior Director, Sales Systems
 
@@ -138,15 +138,15 @@ The Senior Director, Sales Systems is a [grade 11](/handbook/total-rewards/compe
 - Strong analytical and problem-solving skills with a clear and relentless focus under pressure.
 - Drive the utilization of the GitLab product for internal project management and collaboration.
 - Share and work in accordance with our [values](/handbook/values/).
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Performance Indicators
 
 - IACV vs Plan
-- [New Hire Location Factor < 0.69](/handbook/business-technology/metrics/#new-hire-location-factor--069)
-- [% of team who self-classify as diverse](/handbook/business-technology/metrics/#percent--of-team-who-self-classify-as-diverse)
-- [Cost Actual vs Plan](/handbook/business-technology/metrics/#cost-actual-vs-plan)
-- [System roll out vs plan](/handbook/business-technology/metrics/#system-roll-out-vs-plan)
+- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
+- [% of team who self-classify as diverse](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-team-who-self-classify-as-diverse)
+- [Cost Actual vs Plan](https://internal.gitlab.com/handbook/it/it-performance-indicators/#cost-actual-vs-plan)
+- [System roll out vs plan](https://internal.gitlab.com/handbook/it/it-performance-indicators/#system-roll-out-vs-plan)
 
 ## Career Ladder
 

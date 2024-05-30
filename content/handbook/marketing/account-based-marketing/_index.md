@@ -7,13 +7,6 @@ twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
 
-
-
-
-
-
-# <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Account Based Marketing Team
-
 ## Overview
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -31,19 +24,17 @@ ABM is a marketing strategy that concentrates resources on a set of target accou
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-We are the owners of the ABM platform, [6sense](/handbook.gitlab.com/handbook/marketing/marketing-operations/6sense/) at GitLab. 6sense is an Account Based Marketing platform that uses a predictive model to identify the right customers at the ideal time. We use 6sense to build our target account lists, launch display advertising, and measure account progression through the sales funnel over time. 6sense also provides account intelligence on things like intent, engagement, and keyword search. There is a 6sense data section on the account in Salesforce that is available for our XDR org and coming soon to the Sales org. If you have any questions about the tool or access to it, please drop a slack in #6sense_help. 
-
+We are the owners of the ABM platform, [6sense](/handbook.gitlab.com/handbook/marketing/marketing-operations/6sense/) at GitLab. 6sense is an Account Based Marketing platform that uses a predictive model to identify the right customers at the ideal time. We use 6sense to build our target account lists, launch display advertising, and measure account progression through the sales funnel over time. 6sense also provides account intelligence on things like intent, engagement, and keyword search. There is a 6sense data section on the account in Salesforce that is available for our XDR org and coming soon to the Sales org. If you have any questions about the tool or access to it, please drop a slack in #6sense_help.
 
 ## FY25 Strategy
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
-Epic link coming soon.. 
+Epic link coming soon..
 
 ## ABM Key Account List
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
-Our key account list consists of Mid-Market and Enterprise accounts that the sales/XDR org are also heavily focusing on as denoted by the Account Rank field on accounts in Salesforce. Specifically, Rank 1-2. 
-
+Our key account list consists of Mid-Market and Enterprise accounts that the sales/XDR org are also heavily focusing on as denoted by the Account Rank field on accounts in Salesforce. Specifically, Rank 1-2.
 
 ## ABM Tactics
 
@@ -66,15 +57,14 @@ Our slack channel [#abmteam](https://gitlab.slack.com/archives/CFBT2HSEB) is use
 
 For questions about 6sense, our ABM platform, use the slack channel #6sense_help
 
-
 ## Project Management
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-ABM works out of the GitLab project: Account Based Marketing within the larger Marketing project. 
+ABM works out of the GitLab project: Account Based Marketing within the larger Marketing project.
 
 #### Team labels
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-- `ABM`: DRI is in ABM team. Alerts the ABM team that an issue has been opened for triage. 
+- `ABM`: DRI is in ABM team. Alerts the ABM team that an issue has been opened for triage.
 - `6sense`: any issues that are related to Demandbase ABM campaigns

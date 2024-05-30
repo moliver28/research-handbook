@@ -44,6 +44,7 @@ graph TD;
 ### Identifying Observations
 
 Observations can be identified through the following channels:
+
 1. Security control testing activities (CCM)
 1. Third Party Risk Management (TPRM) activities
 1. Customer Assurance activities (CAA)
@@ -353,5 +354,3 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## Contact & Feedback
 
 If you have any questions or feedback about the observation management process please [contact the GitLab Security Assurance Team]({{< ref "security-assurance#contacting-the-team" >}}), or comment in this [feedback issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/-/issues/943).
-
-

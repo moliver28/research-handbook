@@ -4,12 +4,6 @@ title: "Field Communications"
 description: "The Field Communications team is responsible for creating effective, timely, and easily consumable communications with Sales and Customer Success audiences"
 ---
 
-
-
-
-
-
-
 ## Welcome to the Field Communications Page
 
 This team is responsible for creating effective, timely, and easily consumable communications with the Field team (Sales, Customer Success, Channel, Alliances, Revenue Strategy, Operations & Enablement). Our goal is to help the field sell better, faster, and smarter with communication programs that keep them better informed of organizational/business updates that impact their roles, as well as useful resources that will enable day-to-day work.
@@ -20,7 +14,6 @@ For more information about the Field Enablement team, visit the [team handbook p
 
 1. Review this page for information about our Field Communications programs, channels and processes.
 2. Engage the Field Communications team by submitting a [Field Announcement Request](/handbook/sales/field-communications/#requesting-field-announcements)
-
 
 ## Primary Field Communications Programs
 
@@ -34,7 +27,6 @@ Field Communications uses the channels outlined in this [communication channel m
 - [Field Google Group and Slack Channel landscape](/handbook/sales/sales-google-groups/)
    - See this link for how best to communicate with the Field team on Slack or via email.
 
-
 ## Field Communications Playbook
 
 In order to streamline important announcements and reduce noise for the Field team, we operate by a set Field Communications Playbook process. This playbook defines tier 1-5 organizational announcements/changes and applies a communication roll-out plan to each.
@@ -47,18 +39,19 @@ The Field Communications team will evaluate each request at the given point in t
 
 ![Field Comms Tiers](field-comms-tiers-2023.png)
 
-
 ![Field Comms Formula](field-comms-formula-2023.png)
 
 **For T1 and T2 announcements, Field Communications enacts a Manager Cascade motion to ensure Field people leaders are properly informed and enabled on major initiatives ahead of their team members.**
 
 **T1**:
+
 1. 1-2 months prior: Heads up in WW Field Manager Call
 2. 2-4 weeks prior: Initiative covered in segment VP’s leadership meeting by leader or Enablement PM
 3. 2-4 days prior: CRO Leaders provided with announcement copy they share with their managers
 4. 1 day prior: #field-manager message sent
 
 **T2**:
+
 1. 2-4 weeks prior: Initiative covered in segment VP’s leadership meeting by Enablement PM
 2. 1 day prior: #field-manager message sent
 
@@ -71,8 +64,9 @@ This update highly impacts the Field’s current priorities and/or day-to-day wo
 **Use Cases**: Major process changes impacting the Field’s day-to-day work and/or selling activities, CRO/CEO/e-group calls-to-action, major pricing and packaging changes, significant new product offerings, company initiatives and/or priorities that affect how GitLab is sold or how the Field interacts with customers.
 
 **Considerations**:
+
    1. **Due to the complexity, all Tier 1 announcements require at least 1-2 months notice to the Field Communicatiosn team.** As a general best practice, there should only be 2-3 Tier 1 updates per quarter to keep the Field focused on driving revenue.
-   1. Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
+   1. Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
 
 ## Tier 2 Update
 
@@ -81,8 +75,9 @@ This update moderately impacts the Field’s current priorities and/or day-to-da
 **Use Cases**: Important process changes, CRO/CEO/e-group announcements, important product marketing updates and/or initiatives, important company initiatives and/or priorities, required Field trainings or enablement often attached to a major Field or company initiative.
 
 **Considerations**:
+
    1. **Due to the complexity, all Tier 2 announcements require at least 1 month notice to the Field Communicatiosn team.**
-   1. Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
+   1. Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
 
 ## Tier 3 Update
 
@@ -91,7 +86,8 @@ This update highly impacts the Field’s current priorities and/or day-to-day wo
 **Use Cases**: Process changes that require reps to change a behavior, major competitive intelligence that impacts GitLab’s position in the market, major Channel & Alliance partner updates, major Field organization changes, training or enablement.
 
 **Considerations**:
-   1. Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
+
+   1. Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
 
 ## Tier 4 Update
 
@@ -100,8 +96,9 @@ This update moderately impacts the Field’s current priorities and/or day-to-da
 **Use cases**: General updates not related to selling, general requests/survey for feedback*, company/organization announcements
 
 **Considerations**:
+
    1. Field Communications will limit the number of Field survey requests to one per month. Survey requests will be assessed and scheduled based on this cadence, and exceptions will be made on a case-by-case basis.
-   1. Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
+   1. Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
 
 ## Tier 5 Update
 
@@ -132,14 +129,16 @@ Once you've reviewed the playbook above and would like to request Field Communic
       - Field Announcement::Tier 5
       - Field Announcement::Tier 6
    1. Note: If the announcement request includes a request to survey some or all Field team members, the `Field Survey` tag will be applied to the issue and Field Communications will work with the requestor to determine if request fits within the survey limits set each month or if plans should be adjusted.
-3. Field Communications will collaborate with the requester on the announcement details and copy directly in the issue to finalize the roll-out plan and timeline.
-   - Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field’s immediate attention (system outage, critical update affecting customers and/or closing business).  The blackout periods for FY24 & FY25 are as follows:
-      - Q3-FY24: 2023-10-17 - 2023-11-01
-      - Q4-FY24: 2024-01-17 - 2024-01-31
-      - Q1-FY25: 2024-04-16 - 2024-04-30
-      - Q2-FY25: 2024-07-17 - 2024-07-31
-      - Q3-FY25: 2024-10-17 - 2024-10-31
-      - Q4-FY25: 2024-01-16 - 2025-01-30
+1. Field Communications will collaborate with the requester on the announcement details and copy directly in the issue to finalize the roll-out plan and timeline.
+
+### Field Comms Quiet Periods
+
+Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field’s immediate attention (system outage, critical update affecting customers and/or closing business).  The quiet periods for FY25 are as follows:
+
+- Q1-FY25: 2024-04-16 - 2024-04-30
+- Q2-FY25: 2024-07-17 - 2024-07-31
+- Q3-FY25: 2024-10-17 - 2024-10-31
+- Q4-FY25: 2024-01-16 - 2025-01-30
 
 #### Announcements to External Channel/Alliances Partners
 
@@ -149,6 +148,6 @@ If you have an announcement that is relevant *only* for the external partner aud
 
 ## Sharing Feedback
 
-Ongoing feedback and participation from the Field is imperative to the success of the Field Communications team and its programs. Field Communications incorporates surveys and other opportunities for feedback directly into [key communication programs](/handbook/sales/field-communications/#key-field-communications-programs). Team members are encouraged to provide ongoing feedback via these avenues.
+Ongoing feedback and participation from the Field is imperative to the success of the Field Communications team and its programs. Field Communications incorporates surveys and other opportunities for feedback directly into [primary communication programs](/handbook/sales/field-communications/#primary-field-communications-programs). Team members are encouraged to provide ongoing feedback via these avenues.
 
 In addition, Field Communications provides team members an opportunity to provide feedback about their Field Communications experience in annual Field and/or company surveys.

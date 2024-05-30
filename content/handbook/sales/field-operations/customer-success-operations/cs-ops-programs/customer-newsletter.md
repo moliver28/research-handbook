@@ -21,7 +21,6 @@ Ongoing feedback and participation from the field and Product is imperative to t
 - Submit an issue using our [CS Programs - Idea Request](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/new) template
 - Reach out in the #cs-operations Slack channel
 
-
 ### Target Audience
 
 This newsletter is sent to all customers where a `GitLab Admin` contact is identified. There are bifurcated email versions based on CSM-owned/Non-CSM owned and PubSec. For non-CSM-managed customers, we also send to the Sold-to-Contact if no GitLab Admin is present. Owner users on SaaS instances receive the newsletter, as well.
@@ -35,7 +34,6 @@ The benefit of Gainsight is as follows:
 - Multi-step outreaches
 - Multiple email versions
 - Link your emails triggered by Programs, to other features in Gainsight (e.g. CTAs - Calls to Action)
-
 
 ### Opportunities & Requirements
 

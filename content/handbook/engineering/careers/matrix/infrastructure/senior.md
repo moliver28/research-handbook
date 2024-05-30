@@ -42,7 +42,7 @@ Senior-level engineers in infrastructure are significantly contributing to their
 1. Plays an integral role in team hiring through leading interviews, training others, and iterating on the hiring process to improve the candidate experience. Works closely with the hiring manager to understand the role requirements and support the hiring effort.
 1. Recognizes and actively works to track and reduce interruptions affecting team throughput.
 1. Acts as a multiplier for others through mentoring and pairing, as well as by leading effective projects that allow others to contribute.
-1. Is aware of what a [high-performing team](/handbook/leadership/build-high-performing-teams/#what-makes-a-high-performing-team-at-gitlab) is and works with their manager to identify and initiate improvements.
+1. Is aware of what a [high-performing team](/handbook/leadership/#strategies-to-build-high-performing-teams) is and works with their manager to identify and initiate improvements.
 
 ## Engineering alignment
 

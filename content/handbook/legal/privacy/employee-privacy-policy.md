@@ -9,7 +9,6 @@ While this Privacy Policy is intended to describe the broadest range of our data
 
 For personal data collected under this Privacy Policy, the controller will be GitLab and the GitLab affiliates by which you are employed. For, (i) specific security concerns around your data, (ii) in the event you feel that you have not received proper attention to your data request, or (iii) have any other data privacy concerns, please contact GitLab Privacy Team by emailing [dpo@gitlab.com](mailto:dpo@gitlab.com).
 
-
 GitLab, Inc. is a global company with its headquarters in the U.S. This means that personal data may be used, processed, and transferred to the United States and other countries or territories and those countries or territories may not offer the same level of data protection as the country where you reside, including the European Economic Area.  However, GitLab will ensure that appropriate or suitable safeguards are in place to protect your personal data and that transfer of your personal data complies with applicable data protection laws. Where required by applicable data protection laws, GitLab has ensured that service providers (including other GitLab affiliates) sign standard contractual clauses as approved by the European Commission or other supervisory authority with jurisdiction over the relevant GitLab data exporter (which typically will be your employer).
 
 *Who is collecting your personal data (who is the data controller)?*
@@ -20,7 +19,7 @@ GitLab affiliates may act as processors on behalf of other GitLab affiliates and
 
 *Applicability of Other GitLab Privacy Policies*
 
-The websites of GitLab (e.g., [about.gitlab.com](/)) have separate privacy policies and terms of use that apply to their use. Additionally, some of our third party products and services may have separate privacy policies and terms of use that apply to their use. Any personal data collected in connection with your use of those websites or products and services are not subject to this Privacy Policy.  If you are unsure how or if this Privacy Policy applies to you, please contact our Data Privacy Officer.
+The websites of GitLab (e.g., [about.gitlab.com](https://about.gitlab.com/)) have separate privacy policies and terms of use that apply to their use. Additionally, some of our third party products and services may have separate privacy policies and terms of use that apply to their use. Any personal data collected in connection with your use of those websites or products and services are not subject to this Privacy Policy.  If you are unsure how or if this Privacy Policy applies to you, please contact our Data Privacy Officer.
 
 *Third Party Services*
 

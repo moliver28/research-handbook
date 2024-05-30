@@ -5,10 +5,10 @@ description: "Tips on how to prepare for your interview - Infrastructure"
 
 ## Most common open roles in Infrastructure
 
-- [Backend Engineer]({{< ref "/job-families/engineering/infrastructure/backend-engineer" >}})
-- [Site Reliability Engineer]({{< ref "/job-families/engineering/infrastructure/site-reliability-engineer" >}})
-- [Database Reliability Engineer]({{< ref "/job-families/engineering/infrastructure/database-reliability-engineer" >}})
-- [Engineering Manager]({{< ref "/job-families/engineering/infrastructure/engineering-management" >}})
+- [Backend Engineer](/job-families/engineering/infrastructure/backend-engineer)
+- [Site Reliability Engineer](/job-families/engineering/infrastructure/site-reliability-engineer)
+- [Database Reliability Engineer](/job-families/engineering/infrastructure/database-reliability-engineer)
+- [Engineering Manager](/job-families/engineering/infrastructure/engineering-management)
 
 ## Tips on how to prepare for Infrastructure interviews
 
@@ -45,7 +45,7 @@ Now it's time to get excited! Here are some links that might help you understand
 - [GitLab Company Culture](/handbook/company/culture/)
 - [Informal Communication in an all-remote environment](/handbook/company/culture/all-remote/informal-communication/)
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
-- [Coding at Scale](/handbook/engineering/infrastructure/coding-at-scale/)
+- [Coding at Scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
 - [Infrastructure careers and internships](/handbook/engineering/infrastructure/career/)
 
 ### **2. 30-Minute Screening call with a Recruiter**

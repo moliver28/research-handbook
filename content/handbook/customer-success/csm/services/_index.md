@@ -20,7 +20,8 @@ For an overview of CSM segments by ARR, please see [internal handbook](https://i
 
 ## Pillars of Success
 
-There are 7 pillars that we have identified as crucial for success as CSMs. It is expected and normal for all CSMs to have higher proficiency in some areas and lower in others, especially when taking [job level](/handbook/company/team/structure/#layers) into consideration, but these are all areas we are continually striving to be better at, as there are always opportunities to learn and improve.
+There are 7 pillars that we have identified as crucial for success as CSMs. It is expected and normal for all CSMs to have higher proficiency in some areas and lower in others, especially when taking [job level](/handbook/company/structure/#layers) into consideration, but these are all areas we are continually striving to be better at, as there are always opportunities to learn and improve.
+
 - Communication
   - Frequent and honest communication with customers and internal stakeholders, so everyone knows what is happening and what to expect, in line with [GitLab communication guidelines](/handbook/communication/)
 - Follow-through
@@ -50,7 +51,6 @@ There are various services a Customer Success Manager will provide to ensure tha
 - Partnership into expansion into new use cases and associated enablement & guidance
 - Internal Advocacy: CSM is the customer champion for guidance and requests, a liaison between the customer and other GitLab teams
 
-
 ### Training
 
 - Identification of pain points and training required
@@ -62,7 +62,7 @@ There are various services a Customer Success Manager will provide to ensure tha
 ### Working with Customer Support Engineering
 
 - Upgrade planning (in partnership with Support)
-  - Review the [Upgrade Assistance page](/support/workflows/upgrade-assistance/) with customers during upgrade planning to ensure a plan is in place (including a rollback strategy) and Support have enough time to review the plan
+  - Review the [Upgrade Assistance page](https://about.gitlab.com/support/workflows/upgrade-assistance/) with customers during upgrade planning to ensure a plan is in place (including a rollback strategy) and Support have enough time to review the plan
 - [Infrastructure upgrade coordination](/handbook/customer-success/csm/services/infrastructure-upgrade/) -  CSMs may provide high-level guidance but the technical implementation should ideally be provided by Professional Services via [Dedicated Implementation Services](/services/implementation/enterprise/)
 - Launch best practices
 - Review and submit [Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests.html)
