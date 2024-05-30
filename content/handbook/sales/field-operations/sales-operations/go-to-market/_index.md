@@ -19,6 +19,7 @@ The purpose of this page is to centralize and document all key Go To Market poli
 - [Account Ownership Rules of Engagement Handbook](/handbook/sales/field-operations/gtm-resources/)
 
 ## Territory Tables
+
 - [Account Ownership Territory Tables Handbook](/handbook/sales/territories/)
 
 ## Territory Success Planning (TSP)
@@ -47,10 +48,12 @@ TSP is an automated process workflow intended to properly segment & route Salesf
 - `[TSP] Geo Story`: Source of address data from TSP Data Hierarchy
 
 #### Ownership TSP Fields
+
 - `[TSP] Next Approved Owner`: Owner of territory as determined by [SSoT Territory Mapping File](https://docs.google.com/spreadsheets/d/1iTDCaHN-i_xrfiv_Tkg27lYbZ3LHsERySkvv4cPsSNo/edit#gid=720021722)
 - `[TSP] Transfer Date`: Date when account ownership will change to `TSP Next Approved Owner`
 
 #### Territory TSP Fields
+
 - `[TSP] Territory`: Territory account falls under, as per the [SSoT Territory Mapping File](https://docs.google.com/spreadsheets/d/1iTDCaHN-i_xrfiv_Tkg27lYbZ3LHsERySkvv4cPsSNo/edit#gid=720021722)
 - `[TSP] Region`: Sales territory region the account falls under
 - `[TSP] Subregion`: Sales territory sub-region the account falls under
@@ -59,6 +62,7 @@ TSP is an automated process workflow intended to properly segment & route Salesf
 #### Account Exclusions
 
 The current TSP design supports our Geo sales accounts & territories.
+
 - It does not currently support Named Accounts, PubSec Accounts, or Channel Accounts - as these require manual assignment.
 - These accounts are intentionally filtered out of the TSP automation process, and will not be impacted by automated reassignment assuming.
 
@@ -87,7 +91,6 @@ Ops will review these requests on a periodic basis, and provide a response in th
     - Turnaround time for Approved TSP changes to re-populate typically takes 24-48 hours.
     - Accounts with a `[TSP] Effective Date` populated will be re-routed each night to the `[TSP] Next Approved Owner`.
     - `Account Territory`, `Sales Segment` & `Employees` fields will also be updated upon TSP transfer, to continually align accounts.
-
 
 ## **Primary Quote System**
 

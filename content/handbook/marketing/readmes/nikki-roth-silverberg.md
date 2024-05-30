@@ -28,6 +28,7 @@ Please feel free to contribute to this page by opening a merge request.
 - In early 2023, I was diagnosed with ADHD. It's been an interesting journey to unpack this diagnosis as an adult but ultimately has been a powerful opportunity for self-discovery and development.
 
 ## My Values at Work
+
 - Integrity
 - Autonomy
 - Flexibility

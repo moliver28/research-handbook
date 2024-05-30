@@ -29,7 +29,6 @@ title: "Noah Ing's README"
 - I have a passionate interest in Hip Hop, Jazz and Funk music. Khruangbin is my favourite band
 - I am born and raised in Toronto, Canada.
 
-
 ## My working style
 
 <!-- Add 5-10 bullets on how you prefer to work, interact with others, and learn. You may optionally include intel from Strength Deployment Inventory, Myers—Briggs, etc. This is most effective when you are precise and specific about your norms, assumptions, and expectations. If you are unsure what would be helpful here, ask your colleagues for their input. You may learn something from listening to outside perspective! -->
@@ -69,6 +68,7 @@ Again, expect a same-day response and don't hesitate to try a different medium i
 <!-- These may be covered in the above sections. If you prefer a section devoted to strengths and weaknesses, this will enable others to lean on your areas of published expertise and offer support in weak areas without passing judgment. -->
 
 **Strengths**:
+
 - Resilient
 - Team Player
 - Good Listener
@@ -76,7 +76,7 @@ Again, expect a same-day response and don't hesitate to try a different medium i
 - Adapt Quickly
 
 **Weaknesses**:
+
 - Lacking attention to detail
 - Bad at multi-tasking
 - Overly idealistic
-

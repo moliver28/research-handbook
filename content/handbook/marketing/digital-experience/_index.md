@@ -37,18 +37,21 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 
 Our team leads the GitLab's digital marketing platform, or simply the “Marketing Site" refers to `https://about.gitlab.com`.
 **We own the following repositories:**
+
 - [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience)
 - [GitLab Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog)
 - [Navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation)
 - [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui)
 
 **Our team strengths & core capabilities:**
+
 - Engineering and UX desing for about.gitlab.com
 - Cross collaboration
 - Speed and delivery
 - Customer journey maps
 
 **Our team supports:**
+
 - HTML email templates
 - PathFactory
 - Marketo
@@ -57,12 +60,14 @@ Our team leads the GitLab's digital marketing platform, or simply the “Marketi
 - Globalization
 
 **We do not support:**
+
 - [Handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
 - [Internal handbook](https://gitlab.com/gitlab-com/content-sites/internal-handbook)
 - Content copwriting or edits
 - Cloudflare server infrastructure
 
 **Teams we work closely with:**
+
 - SEO
 - Analytics
 - Product Marketing
@@ -93,6 +98,7 @@ We start iteration a Monday. The following Wednesday is async release day, altho
 </figure>
 
 ## Issue Board
+
 - [Digital Experience Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/3288685)
 
 - [Current DEX Group Conversion Iteration Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/7320189?iteration_id=Current&label_name[]=dex-group%3A%3Aconversion)
@@ -101,7 +107,6 @@ We start iteration a Monday. The following Wednesday is async release day, altho
 ### Labels and Workflow Boards
 
 We use issue boards to track issue progress throughout a iteration. Issue boards should be viewed at the highest group level for visibility into all nested projects in a group.
-
 
 The Digital Experience team uses the following issue labels for distinguishing ownership of issues between specialities:
 
@@ -118,7 +123,7 @@ The Digital Experience team uses the following labels for tracking merge request
 | [Refinement on issue is needed](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Arefinement&first_page_size=100)| `~"dex-status::refinement"`   |
 | [Issues in the backlog](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Abacklog&first_page_size=100) | `~"dex-status::backlog"`   |
 | [Issues to be worked on](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Atodo&first_page_size=100)| `~"dex-status::to-do"`   |
-| [Currently being actioned](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Adoing&first_page_size=100)| `~"dex-status::doing"`
+| [Currently being actioned](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Adoing&first_page_size=100)| `~"dex-status::doing"` |
 | [Work in review](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Areview&first_page_size=100)| `~"dex-status::review"`  |
 | [Unplanned work](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-unplanned&first_page_size=100)| `~"dex-unplanned"`  |
 | [Issue for Conversion team to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-group%3A%3Aconversion&first_page_size=100) |  `~"dex-group::conversion"` |
@@ -126,9 +131,8 @@ The Digital Experience team uses the following labels for tracking merge request
 | [Issue for product designer to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex%3A%3Aux&first_page_size=100) |  `~"dex::ux"` |
 | [Issue for engineer to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex%3A%3Aengineering&first_page_size=100) |  `~"dex::engineering"` |
 
-
-
 Digital Experience teams work across the GitLab codebase on multiple groups and projects including:
+
 - The [gitlab.com/gitlab-org](https://gitlab.com/gitlab-org/) group
 - [gitlab](https://gitlab.com/gitlab-org/gitlab)
 - [customers-gitlab-com](https://gitlab.com/gitlab-org/customers-gitlab-com)
@@ -159,56 +163,64 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 - If an initial estimate is incorrect and needs to be adjusted, we revise the estimate immediately and inform the Product Manager. The Product Manager and team will decide if a milestone commitment needs to be adjusted.
 
 ### Triage
+
 The purpose of the traiage meeting is to create a list of refined issues that meet our current goals. This list will include a combination of bugs, features, and optimizations. These issues are manually added to the next iteration until the desired weight point limit is reached. Refinement is completed async by before to ensure issues are prepared for upcoming iterations. This involves deleting obsolete/duplicate issues, adding missing context/labels, and moving issues to either the backlog, or further refinement. Keeping the backlog organized is a must, it eliminates clutter and creates cohesion between issues. Enabling the team to navigate and contribute more efficiently.
 
 **Cadence:** 25min, bi-weekly (zoom)
 
 **Who:** Engineering representative, Product management. [Triage Agenda](https://docs.google.com/document/d/15t-Ke_c6uMdzrcqUj6P01lYQgHSXcgerb5ShUtADLr8/edit?usp=sharing).
 **What**:
-* Review backlog for iteration candidates.
-* Populate the next iteration with prioritized issues.
-* Move issues to refinement/backlog.
-* Close obsolete/duplicate issues.
-* Assign labels:
-    * dex-status
-    * dex-group
-    * dex-engineering/dex-design
-* Assign weight points.
+
+- Review backlog for iteration candidates.
+- Populate the next iteration with prioritized issues.
+- Move issues to refinement/backlog.
+- Close obsolete/duplicate issues.
+- Assign labels:
+    - dex-status
+    - dex-group
+    - dex-engineering/dex-design
+- Assign weight points.
 
 ### Planning (Iteration Plan Sync)
+
 Iteration planning is an event that kicks off the start of an iteration. The purpose of the meeting is to collaboratively spread the prioritized list of issues amongst the team. These meetings are recorded and uploaded to our [Digital Experience playlist on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba).
 
 **Cadence:** 25min, bi-weekly (zoom)
 
 **What:**
-* The team distributes the prioritized list of issues.
-* Communicate timelines, dependencies, etc.
 
+- The team distributes the prioritized list of issues.
+- Communicate timelines, dependencies, etc.
 
 ### Release
+
 An event to showcase what the team has accomplished over the past iteration. These meetings are recorded and uploaded to our [Digital Experience playlist on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba).
 
 **When:** Thursdays, 25min, bi-weekly (zoom)
 
 **What:**
-* Showcase what has been released in the past iteration.
 
+- Showcase what has been released in the past iteration.
 
 ### Retrospective
+
 The retrospective is an event held at the end of an iteration, used to discuss what went well, and what can be improved on. An ongoing agenda can be found [here](https://docs.google.com/document/d/1kMNiUF2UDuSrMDuzLyRi8OEhVxry_MJoYi38RmmWafY/edit?usp=sharing). This meeting is recorded and uploaded to our [Digital Experience playlist on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba).
 
 **When:** Thursdays, 40min, bi-weekly (zoom)
 
 **What:**
-* Discuss what went well and what can be improved on.
-* Communicate any process changes, etc. This is the only meeting where the whole team is present.
+
+- Discuss what went well and what can be improved on.
+- Communicate any process changes, etc. This is the only meeting where the whole team is present.
 
 ### Iteration Changelogs
 
 At the end of every iteration we run a scheduled pipeline job that generates a [changelog for the Buyer Expeirence repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/CHANGELOG.md). It shows all the chnages made to the project with semanitc commits.
 
 ## **FAQ:**
+
 ### Iteration boards
+
 **How long is an iteration?**
 
 An iteration is 2 weeks, running from Monday to the following Thursday.
@@ -234,13 +246,14 @@ Don’t stress, weight points are estimates, unforeseen events happen. Any carry
 **What if I complete my iteration board early?**
 
 A few options for when an an individual's iteration board is complete:
+
 1. Offer assistance to other team members.
 2. Pull a new issue from the backlog into the current iteration.
 3. Sharpen skills/tools.
 4. General housekeeping.
 
-
 ### Weight points
+
 **What is a weight point?**
 
 A weight point is a unit of measurement that’s used to develop a rough estimate of the work required to complete an issue. 1 weight point is measured as .5 days.
@@ -249,15 +262,13 @@ A weight point is a unit of measurement that’s used to develop a rough estimat
 
 The suggested task duration is between 2-4 weight points (1-2 days). There will be exceptions, but it’s recommended to break issues into smaller units of work. Small units of work allow for quicker review cycles, and facilitates collaboration.
 
-
 ### Issues
+
 **What should I do if I’m assigned new issues mid-iteration?**
 
 Generally if an issue is added mid-iteration, it's high priority. It’s recommended to work with your team to remove the same amount of weight points from your iteration to make room. These removed issues should go back in the backlog.
 
 Apply the `dex-unplanned` label.
-
-
 
 **Do I need to add any labels?**
 
@@ -306,6 +317,7 @@ From time to time, our team has objectives that require us to collaborate on the
 At the end of every sprint cycle, Digital Experience team members can spend 10% or one day to work on issues related to improving the health of about.gitlab.com, the developer experience, tackle tech debt, or improve our documentation.
 
 The structure of Repository Health Day is as follows:
+
 1. Team members will choose what they wish to work on for this day.
 1. Each team member will submit a single merge request to the [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui), [Navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), or [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) repository by the end of repository health day.
 1. This merge request will be related to an issue from any partner or group within GitLab.
@@ -316,7 +328,8 @@ By allowing our team members to contribute to the health of our repositories for
 
 For any Digital Experience analytics request, please create an issue within the [Marketing Strategy and Analytics](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new) project using the `dex_analytics_request` template to outline specific requirements. To ensure a smooth milestone planning, please assign the issue to [@dennischarukulvanich](https://gitlab.com/dennischarukulvanich) ideally a week or more in advance.
 
-##  Sales Shadows
+## Sales Shadows
+
 ### How to set up a Sales Shadow
 
 #### SMB
@@ -358,7 +371,6 @@ Watch our team in action on YouTube!
 
 [Digital Experience](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba)
 
-
 ## Requesting Support
 
 ### Things we don't do
@@ -377,6 +389,7 @@ We love collaborating on work that drives our North Star and supporting metrics.
 2. Create an issue using [this template](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#)
 
 ### DEX team members with platform access
+
 <details>
     <summary>LaunchDarkly</summary>
     <li>@dcharukulvanich</li>
@@ -392,15 +405,11 @@ We love collaborating on work that drives our North Star and supporting metrics.
 
 ## Marketing site deployment process
 
-
-
-
 From the repositories we own, the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience) repository and the [GitLab Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog) push their built files to the same GCP bucket as [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com). When a pipeline is triggered (by a merge or a webhook) in any of these projects, a deployment job specific to that repository runs, pushing the built files into the bucket and merging them with the existing files. This process is managed by the `Deploy.sh` file in each repository:
 
 - [WWW Deploy file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/scripts/deploy).
 - [BE Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/scripts/deploy).
 - [GitLab Blog Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/blob/main/scripts/deploy).
-
 
 ![Mermaid diagram](Dex-pipeline.png)
 

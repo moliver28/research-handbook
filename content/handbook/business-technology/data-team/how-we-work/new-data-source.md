@@ -129,6 +129,8 @@ The Data Team has different instruments available to extract data out of source 
 - Meltano
 - Snowflake data share
 - Stitch
+- [Snowpipe](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-intro)
+- [Snowflake task](https://docs.snowflake.com/en/user-guide/tasks-intro)
 
 The decision for which instrument to use, is **always** based on the combination of:
 
@@ -143,20 +145,26 @@ graph LR
    
 %%descisions
     api_available{API Available?}
+    data_bucket{Data available in the gcp or s3 bucket?}
     fivetran_connector_available{Fivetran connector viable?}
     stitch_connector_available{Stitch connector viable?}
     data_is_ext_snowflake_sources{Data is in different Snowflake Account}
     singer_option{Singer Tap viable?}
-
+    streaming{Need to low-latency load?}
 %%end solutions
     Custom([Custom development])
     Fivetran([Fivetran])
     Singer([Singer])
     Stitch([Stitch])
     Snowflake_datashare([Snowflake data share])
-
+    Snowpipe([Snowpipe])
+    Snowflake_task([Snowflake task])
 %%flow
-    ds_request[New Request]-->api_available 
+    ds_request[New Request]-->data_bucket
+    data_bucket-->|No|api_available 
+    data_bucket-->|Yes|streaming
+    streaming-->|Yes|Snowpipe
+    streaming-->|No|Snowflake_task
     api_available-->|No|data_is_ext_snowflake_sources
     api_available-->|Yes|fivetran_connector_available
     stitch_connector_available-->|Yes|Stitch

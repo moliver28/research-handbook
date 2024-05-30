@@ -75,6 +75,7 @@ Based on the identified type of risk, the CSM can use some of the following ques
 #### Ultimate Customer not using Secure
 
 We should generally begin by presenting our DevSecOps Maturity Score demonstrating to the customer their current usage of GitLab Secure. Once they understand the level to which they're using Secure, we can dig a bit deeper with some discovery questions:
+
    1. `What kind of security tests are mandated or recommended within your organization?`
       - If they give any answer related to 3rd party products, just to question 2.
       - If they say “nothing is mandated/recommended”, ask “why”.
@@ -91,6 +92,7 @@ We should generally begin by presenting our DevSecOps Maturity Score demonstrati
 #### Customer not using CI
 
 We should generally begin by presenting our CI Maturity Score demonstrating to the customer their current usage of GitLab CI *if* they are using CI to some degree. Once we understand how many users (if any) are using CI today, we can then dig a bit deeper with some discovery questions:
+
    - `What are users currently using as CI tool?`
       - Users can still use other products for CI. Offer to help them migrate.
    - `Why aren't users moving to GitLab CI?`
@@ -163,4 +165,3 @@ Once we know the risk and done some discovery into that risk, we have some optio
    - Find someone who loves GitLab and include them in future calls (if they aren't already).
    - CSMs should be quick to loop in GitLab executive contacts to reach out to the customer at the highest levels.
    - Even if a champion leaves, there's still going to be someone in a position of authority who can advocate for us. Find that person.
-

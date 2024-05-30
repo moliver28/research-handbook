@@ -587,7 +587,7 @@ The Health Status of these issues should be updated to:
 1. `Needs Attention` - on the `1st` of the month.
 1. `At Risk` - on the `8th` of the month.
 
-EMs are responsible for manually updating the Health Status of [any inactive issues in the milestone](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=group%3A%3Acontinuous%20integration&milestone_title=%23upcoming&not%5Blabel_name%5D%5B%5D=workflow%3A%3Acanary&not%5Blabel_name%5D%5B%5D=workflow%3A%3Ain+dev&not%5Blabel_name%5D%5B%5D=workflow%3A%3Ain+review&not%5Blabel_name%5D%5B%5D=workflow%3A%3Aproduction&not%5Blabel_name%5D%5B%5D=workflow%3A%3Astaging&not%5Blabel_name%5D%5B%5D=workflow%3A%3Averification&page=2&scope=all&state=opened) accordingly.
+EMs are responsible for manually updating the Health Status of [any inactive issues in the milestone](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=group%3A%3Acontinuous%20integration&milestone_title=%23upcoming&amp;not%5Blabel_name%5D%5B%5D=workflow%3A%3Acanary&amp;not%5Blabel_name%5D%5B%5D=workflow%3A%3Ain+dev&amp;not%5Blabel_name%5D%5B%5D=workflow%3A%3Ain+review&amp;not%5Blabel_name%5D%5B%5D=workflow%3A%3Aproduction&amp;not%5Blabel_name%5D%5B%5D=workflow%3A%3Astaging&amp;not%5Blabel_name%5D%5B%5D=workflow%3A%3Averification&page=2&scope=all&state=opened) accordingly.
 
 ### Spikes
 

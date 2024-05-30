@@ -9,9 +9,9 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 ### Context
 
-Budget and influence are key for this play, so our basic assumption is that upleveling to someone’s boss isn’t going to be enough *all the time* - people need to reach out to additional business units, namely security, and bring in “fresh” teams and opportunities within existing accounts. 
+Budget and influence are key for this play, so our basic assumption is that upleveling to someone’s boss isn’t going to be enough *all the time* - people need to reach out to additional business units, namely security, and bring in “fresh” teams and opportunities within existing accounts.
 
-- Additionally, we need to enable and equip current Premium customers and their teams to be more “active champions” by showing them the light that is the value of Ultimate. When thinking about the value of Ultimate at the highest level 
+- Additionally, we need to enable and equip current Premium customers and their teams to be more “active champions” by showing them the light that is the value of Ultimate. When thinking about the value of Ultimate at the highest level
 
 Think *security and reducing risk, protecting the business's intellectual property and sensitive data, enabling modern CD with compliance and audit controls, and providing visibility/insights at different levels from ICs to executive insights*
 
@@ -27,7 +27,6 @@ Think *security and reducing risk, protecting the business's intellectual proper
 
 **Subheader**: GitLab Ultimate makes it happen
 
-
 | **Positioning statement** | GitLab Ultimate streamlines the software delivery process by embedding security and compliance into your DevOps workflows, unifying teams under one roof. |
 |:-----------|--------------------------------------|
 | **Elevator pitch** |  GitLab Ultimate enables DevSecOps by optimizing and accelerating software delivery while managing priorities, security, risk, and compliance. |
@@ -39,7 +38,8 @@ Think *security and reducing risk, protecting the business's intellectual proper
 | **Pain points** | In a constant state of asking "what changed!?" | Increased risk of vulnerabilities, difficult audits | Complexity, added overhead | Inefficient, stifles innovation |
 | **Why GitLab** | Reduce exposure and unify teams | Reduce risk, easily scalable |  Completely integrated from idea to production | Single source of truth to focus on remediation, less friction  |
 
-Additional Ultimate value: 
+Additional Ultimate value:
+
 - Enterprise-grade priority support, including 24/7 uptime support, a dedicated Customer Success Manager (CSM), and upgrade assistance are all still included with Ultimate.
 - Access to free guest users
 - Project, portfolio and requirements management [value](https://about.gitlab.com/pricing/ultimate/#project-portfolio-and-requirements-management)

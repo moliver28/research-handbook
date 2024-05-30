@@ -297,7 +297,7 @@ of the above roles.
 
 ## Who is the Current EOC?
 
-The chatops bot will give you this information if you DM it with `/chatops run oncall prod`.
+Use the `@sre-oncall` handle to check who the current EOC is
 
 ### When to Contact the Current EOC
 

@@ -1,18 +1,9 @@
 ---
-
 title: "Sales"
 description: "The GitLab Field team includes multiple functions: Enterprise Sales, Commercial Sales, Customer Success, Channel Partners, Alliances, Field Operations"
 ---
 
-
-
-
-
-
-
-
-
-# Welcome to the Sales team homepage
+## Welcome to the Sales team homepage
 
 *The GitLab Field team includes multiple functions: Enterprise Sales, Commercial Sales, Customer Success, Channel Partners, Alliances, Field Operations.*
 
@@ -57,7 +48,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Opportunity Naming Conventions](/handbook/sales/field-operations/gtm-resources/#opportunity-naming-convention)  | [How to Handle Vendor Setup Forms](/handbook/sales/field-operations/order-processing/#how-to-process-customer-requested-vendor-setup-forms) | [How to Renew a Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#renew-subscription-quote) | [GitLab Values & Certification Process](/handbook/values/) |
 | [How to Create an Opportunity](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity) |  | [True Ups](/handbook/sales/sales-term-glossary/#true-up) | [GitLab Competencies & Certification Process](/handbook/people-group/competencies/) |
 | [MEDDPPICC Qualification](/handbook/sales/meddppicc/) |  | [Contract Resets](/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset) | [GitLab Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) |
-| [Sales Discovery & Qualification Questions](/handbook/sales/qualification-questions/) | [People Business Partner Alignment for Sales](/handbook/people-group/#people-business-partner-alignment-to-division) |
+| [Sales Discovery & Qualification Questions](/handbook/sales/qualification-questions/) | [People Business Partner Alignment for Sales](/handbook/people-group/#people-business-partner-alignment-to-division) | | |
 | [GitLab ROI calculator](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |  |  | [Women in Sales Mentorship Pilot Program](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
 | [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov) |  |  | [Women in Sales Project](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
 | [Creating a Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes) |  |  |  |
@@ -81,6 +72,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 ## Who We Are
 
 The Sales team is led by the [Chief Revenue Officer (CRO)](/job-families/sales/chief-revenue-officer/). Reporting into this individual are the:
+
 - [VP, Enterprise Sales](/job-families/sales/vp-enterprise-sales/)
 - [VP, Commercial Sales](/job-families/sales/vp-of-commercial-sales/) (Mid-Market and SMB)
 - [VP, Field Operations](/job-families/sales/vp-of-field-operations/)
@@ -92,6 +84,7 @@ The Sales team is led by the [Chief Revenue Officer (CRO)](/job-families/sales/c
 The Sales team is organized into Large, Mid-Market, and SMB segments. (Descriptions of Sales segments can be found in the [Field Operations Handbook - Segmentation section](/handbook/sales/field-operations/gtm-resources/#segmentation).)
 
 The people working with each segment and their quota are:
+
 - Large: [Strategic Account Executive](/job-families/sales/enterprise-account-executive/) (SAE)
 - Mid-Market: [Mid-Market Account Executive](/job-families/sales/account-executive/) (MM AE)
 - SMB: [SMB Account Executive](/job-families/sales/smb-customer-advocate/) (SMB AE)
@@ -149,6 +142,7 @@ Sales Development Representative (SDR) - focused on inbound leads
 Business Development Represenative (BDR) - focused on outbound leads
 
 This team sits within the Marketing department and provides territory support to Sales team members through outreach, prospecting, and lead qualification. Key priorities include:
+
    1. Align on accounts and prioritize prospecting targets (both on the account and title levels).
    1. BDRs and SDRs are to set 'at bat' meetings utilizing sales development best practices
    1. Drive brand awareness within target accounts
@@ -160,6 +154,7 @@ See the [Sales Development page](/handbook/marketing/sales-development/#sdr-expe
 This team provides technical support to GitLab.com and Self-Managed GitLab customers. For an overview of support levels based on plan tier, see the [Support Page](https://about.gitlab.com/support/). The Support → Customer Success Manager (CSM) escalation process can be found [here](/handbook/customer-success/csm/escalations/).
 
 During the sales cycle, potential customers who have questions that are not within the scope of Sales can have their queries escalated in different ways depending on the account size:
+
    1. For Strategic/Large accounts that will have a dedicated Solutions Architect, [engage the SA](/handbook/solutions-architects/#when-and-how-to-engage-a-solutions-architect) so that they can triage and develop the request.
    1. For questions that you think technical staff can answer in less than 10 minutes, please use the #questions Slack channel. For more information, see the [internal support](/handbook/support/internal-support/#should-i-contact-gitlab-support) section of the Support Handbook.
    1. By default, trial licenses do not include support. If you've been contacted by a prospect whose evaluation of GitLab includes evaluating support expertise or SLA performance, as a member of the Sales team you can grant temporary support for their trial license. See the [Internal Support Handbook](/handbook/support/internal-support/#trials-and-prospect-support) for more details.
@@ -176,14 +171,14 @@ When you have an organization that is interested in a feature and you have comme
 
 If a client has a question or suggestion about a particular part of the product, find out which individual on the Product team you need to speak by looking under [DevOps Stages](/handbook/product/categories/#devops-stages) on the Product stages, groups, and categories page.
 
-
 ### Coronavirus Impact to Business Tracking
 
 To standardize our messaging around Coronavirus and the impact it is having on our prospects and customers, please reference the below processes:
-*  Use this for [guidance on a standardized conversation](https://docs.google.com/document/d/1NLHsJ72lTG7o93UnmSHIWF-ifW0202NPiBRJPWacTJc/edit?usp=sharing)
-*  Use this to [capture anecdotal feedback from prospects & customers](https://docs.google.com/document/d/1lFnM1SlVtOjy0IsUmGT5rjwpLdgt4TIlxg154czX1p4/edit)
-*  Add the string `#covid` in the SFDC Opportunity field `[CP]` Close Plan to indicate you have had this conversation with your prospect/customer and use this report to confirm your Opportunity is tagged correctly: [COVID Mentions in CP Close Plan](https://gitlab.my.salesforce.com/00O4M000004e58i)
-*  Assess and flag each SFDC Deal using the "COVID-19 Risk Scale" field with the following definitions:
+
+- Use this for [guidance on a standardized conversation](https://docs.google.com/document/d/1NLHsJ72lTG7o93UnmSHIWF-ifW0202NPiBRJPWacTJc/edit?usp=sharing)
+- Use this to [capture anecdotal feedback from prospects & customers](https://docs.google.com/document/d/1lFnM1SlVtOjy0IsUmGT5rjwpLdgt4TIlxg154czX1p4/edit)
+- Add the string `#covid` in the SFDC Opportunity field `[CP]` Close Plan to indicate you have had this conversation with your prospect/customer and use this report to confirm your Opportunity is tagged correctly: [COVID Mentions in CP Close Plan](https://gitlab.my.salesforce.com/00O4M000004e58i)
+- Assess and flag each SFDC Deal using the "COVID-19 Risk Scale" field with the following definitions:
 
 1. Blank: No conversation or insight has been gathered yet
 1. Pending: Engaged with customer to validate current situation
@@ -192,8 +187,8 @@ To standardize our messaging around Coronavirus and the impact it is having on o
 1. High - Budget Change: Customer's words: all budget gone in formal response to economy
 1. High - Priority Change: Customer's words: Timing must push in direct response to economy
 
-*  Add high-level summary of impact to "COVID Comment" and original amount prior to impact in "Pre-COVID iACV" SFDC fields on the opportunity
-*  A note for Commercial Account Owners: add the string `c19` to any activity record where a discussion was held.
+- Add high-level summary of impact to "COVID Comment" and original amount prior to impact in "Pre-COVID iACV" SFDC fields on the opportunity
+- A note for Commercial Account Owners: add the string `c19` to any activity record where a discussion was held.
 
 ### Export Control Classification, and Countries We Do Not Do Business In
 

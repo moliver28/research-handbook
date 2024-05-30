@@ -6,6 +6,7 @@ extra_css:
   - team.css
 ---
 
+<!-- markdownlint-disable -->
 -# THE CONTENT FOR THIS PAGE IS IN https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/inventory/pmm.yml
 .wrapper
   .container
@@ -94,3 +95,4 @@ extra_css:
             = link_to l.title, l.link, target: :_blank
             = ", type: " + l.asset_type
       %br
+<!-- markdownlint-enable -->

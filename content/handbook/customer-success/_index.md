@@ -10,12 +10,6 @@ The Customer Success department is part of the [GitLab Sales](/handbook/sales/) 
 
 The team can be reached in [Slack channel](https://gitlab.slack.com/archives/customer-success) (internal only).
 
-
-
-
-
-
-
 ## Mission Statement
 
 To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
@@ -87,7 +81,6 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 ### Renewals Managers
 
 - [Renewals Managers handbook](/handbook/customer-success/renewals-managers/home)
-
 
 ### Demo Systems
 
@@ -199,4 +192,3 @@ Customer Success has a few standing meetings:
 - Quarterly Reverse AMA with Sakamoto and Female+ Team Members
 
 The different groups within CS also have standing meetings, including meetings for the SAs, PS, and CSMs groups, regional groups, and social calls.
-

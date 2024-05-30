@@ -5,8 +5,8 @@ title: "Pre-receive secret detection troubleshooting"
 ### When to use this runbook?
 
 Use this runbook for troubleshooting Production issues related to the
-[pre-receive secret
-detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html) feature.
+[secret push protection
+](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html) feature.
 
 ### Relevant settings
 
@@ -19,7 +19,7 @@ detection](https://docs.gitlab.com/ee/user/application_security/secret_detection
 
 ## Monitoring
 
-[DRAFT] [Pre-receive secret detection monitoring](pre-receive-secret-detection-monitoring) is the preferred dashboard for monitoring the feature to help identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com.
+[Secret push protection monitoring](secret-push-protection-monitoring) is the preferred dashboard for monitoring the feature to help identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com.
 
 [Gitaly Latency Dashboard for the PreReceiveHook method](https://dashboards.gitlab.net/d/PqeIQ9Iik/gitaly-feature-latency-detail?from=now-1h&orgId=1&refresh=5m&to=now&var-job=gitaly&var-method=PreReceiveHook) may be used as a supplement.
 
@@ -41,7 +41,7 @@ used in cases where the feature is causing significant performance degradition.
 This can only be changed by a Maintainer, or above, for the project and is the preferred method for disabling a project.
 
 With the `pre_receive_secret_detection_push_check` feature flag on for a
-given project, pre-receive secret detection can be toggled for the
+given project, secret push protection can be toggled for the
 project through the security configuration page for the project.
 Instructions can be found in this [in-progress documentation MR](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#enable-pre-receive-secret-detection-for-a-specific-project),
 but will eventually be added to the docs.
@@ -54,12 +54,12 @@ project should be stopped when they contain a secret. As a test,
 ### The `pre_receive_secret_detection_push_check` feature flag
 
 The `pre_receive_secret_detection_push_check` feature flag will be used
-to enable/disable pre-receive secret detection for a given project.
+to enable/disable secret push protection for a given project.
 
-It will also be used in conjunction with the pre-receive secret
-detection setting in a project's Security Configuration. Both the
-feature flag and the setting will need to be on for pre-receive secret
-detection to work for a given project.
+It will also be used in conjunction with the secret push
+protection setting in a project's Security Configuration. Both the
+feature flag and the setting will need to be on for  secret push
+protection to work for a given project.
 
 Check status:
 

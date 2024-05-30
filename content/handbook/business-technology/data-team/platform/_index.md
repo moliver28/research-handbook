@@ -111,7 +111,8 @@ The following table indexes all of the RAW data sources we are loading into the 
 | GitLab Container Registry Logs | Airflow | `Container Registry` | `Container Registry` | Engineering | x | No | Tier 2 |
 | [Google Ads](https://ads.google.com/) | Fivetran | `google_ads` | `google_ads` | Marketing | 24h / 48h | No | Tier 2 |
 | [Google Analytics 360](https://marketingplatform.google.com/about/analytics-360/) | Fivetran | `google_analytics_360_fivetran` | `google_analytics_360` | Marketing | 6h / 32h | No | Tier 2 |
-| [Google Cloud Billing](https://cloud.google.com/support/billing) | Airflow | `gcp_billing` | `gcp_billing` | Engineering | 24h / x | No | Tier 1 |
+| [Google Analytics 4](https://developers.google.com/analytics/devguides/collection/ga4) | [BigQuery Exporter](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#bigquery-exporter) | `google_analytics_4_bigquery` | `google_analytics_4` | Marketing | 24h / 48h | No | Tier 2 |
+| [Google Cloud Billing](https://cloud.google.com/support/billing) | [BigQuery Exporter](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#bigquery-exporter) | `gcp_billing` | `gcp_billing` | Engineering | 24h / x | No | Tier 1 |
 | [Google Search Console](https://search.google.com/search-console/about) | Fivetran | `google_search_console` | `google_search_console` | Marketing | 24h / 48h | No | Tier 2 |
 | [Graphite API](https://graphite-api.readthedocs.io/en/latest/) | Airflow | `engineering_extracts` | x | Engineering | 24h / 48h | No | Tier 3 |
 | [Greenhouse](https://www.greenhouse.io/) | Sheetload | `greenhouse` | `greenhouse` | People | 24h / 48h | No | Tier 2 |
@@ -1072,6 +1073,7 @@ The process for setting up a new Data Spigot is as follows:
 | Gainsight        |  | `prod.common_mart_product.mart_product_usage_free_user_metrics_monthly` | No |
 | Gainsight        |  | `prod.restricted_safe_common_mart_sales.mart_arr` | Yes |
 | Salesforce       | [Snowflake API](/handbook/business-technology/data-team/platform/#Sales-Systems-Use-Case:-Using-the-Snowflake-API) | `mart_product_usage_paid_user_metrics_monthly`, `mart_product_usage_paid_user_metrics_monthly_report_view` | No |
+| Zapier           | t.b.d. | `prod.workspace_customer_success.mart_product_usage_health_score` | No |
 
 Sales Systems Use-Case: Using the Snowflake API
 

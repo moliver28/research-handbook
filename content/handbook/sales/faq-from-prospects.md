@@ -40,7 +40,6 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1366
 
-
 ### User management
 
 - Q: Does GitLab supports groups of users?
@@ -71,7 +70,6 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   License FAQ: /pricing/licensing-faq/
 
-
 ### Statistics / Logs
 
 - Q: What kind of usage statistics are available for GitLab admins?
@@ -90,7 +88,6 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
   Audit Events: https://docs.gitlab.com/ee/administration/audit_events.html
 
-
 ### Performance
 
 - Q: What are the system requirements for a certain amount of users or repositories?
@@ -102,7 +99,6 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
   A: Yes, e.g. this is the current setup for GitLab EE on GitLab.com.
 
   Documentation: missing
-
 
 ### Installation and support
 

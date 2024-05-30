@@ -15,7 +15,6 @@ View the [Customer Success homepage](/handbook/customer-success/) for additional
 
 The following items are for the CI/Verify workshop that the CSM team will deliver to the customer in conjunction with the SA and sometimes PS as half-day, free workshop to enable the customer to see first-hand how easy CI is with GitLab:
 
-
 ### Workshop Deliverables
 
 #### Project Conversion
@@ -63,6 +62,3 @@ Key Topics:
 [GitLab CI Enablement Deck - Best Practices in Migrating from Jenkins](https://docs.google.com/presentation/d/1eR_874yUHu5Yz8jC-7Gwtiz9j8N4APlgz7NT1_UR0mE/edit#slide=id.g849e6d84e3_0_636) (GitLab internal WIP)
 
 [Adopting GitLab CI at scale doc](https://docs.google.com/document/d/19oKupXi_nnFwD0VOilMhTH2nzUvrBN3P9hI-R5c6P8w/edit#heading=h.b61novry8f4t) (GitLab internal WIP)
-
-
-
