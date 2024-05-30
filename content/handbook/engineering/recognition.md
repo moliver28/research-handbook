@@ -30,7 +30,7 @@ Key features of this call include:
 
 - 30-minute call
 - Held within first two months of new quarter
-- CEO, CFO, CTO and/or CProdO attendance required
+- CTO and 2 E-Group Members attendance required
 - Not recorded
 
 ### Engineering Quarterly Achiever's Recognition Dinner
@@ -81,8 +81,8 @@ Considerations include:
 1. Engineering Quarterly Achievers finalized within the first week of the new quarter by CTO leadership
 1. Engineering Quarterly Achievers announced and recognized in the first Engineering All-Hands of the quarter
 1. Engineering Quarterly Achievers Chat held within the quarter
-1. CEO, CTO, and CPO to congratulate and inquire about key learnings from achievers on call
-1. CEO, CTO, and CPO to pull out 2-3 of the most impactful key learnings and share with the larger team in a Slack post (either `#ceo` or `#cto`) after the call
+1. CTO and 2 E-Group Members congratulate and inquire about key learnings from achievers on call
+1. CTO and 2 E-Group Members to pull out 2-3 of the most impactful key learnings and share with the larger team in a Slack post (either `#ceo` or `#cto`) after the call
 
 #### Engineering Quarterly Achievers Nominations
 
@@ -107,7 +107,7 @@ These are the past award winners. The quarter indicated is the quarter the award
 | FY24-Q4 | Excellence | Everyone-can-contribute | John Lyttle |
 | FY24-Q4 | Customer Results | Customer Centered Individual | Daphne Kua |
 | FY24-Q4 | Customer Results | Customer Kudos | Suleimi Ahmed |
-| FY24-Q4 | Customer Results | Performance and Stability | Brie Carranza & Matthew Badeau |
+| FY24-Q4 | Customer Results | Performance and Scalability | Brie Carranza & Matthew Badeau |
 | FY24-Q4 | Customer Results | Contribution to Sales or Renewal | Gerardo Gutierrez |
 
 ### FY25-Q1
@@ -126,7 +126,7 @@ These are the past award winners. The quarter indicated is the quarter the award
 | FY25-Q1 | Excellence | Everyone-can-contribute | John Skarbek |
 | FY25-Q1 | Customer Results | Customer Centered Individual | Samir Hafez |
 | FY25-Q1 | Customer Results | Customer Kudos | Jio Castillo |
-| FY25-Q1 | Customer Results | Performance and Stability | Sylvester Chin |
+| FY25-Q1 | Customer Results | Performance and Scalability | Sylvester Chin |
 | FY25-Q1 | Customer Results | Contribution to Sales or Renewal | Cameron Swords |
 
 ### FY25-Q2
@@ -134,19 +134,20 @@ These are the past award winners. The quarter indicated is the quarter the award
 | Quarter | Category | Award | Winner |
 | --- | --- | --- | --- |
 | FY25-Q2 | Efficiency | Best Blueprint Proposal | Alessio Caiazza |
-| FY25-Q2 | Efficiency | Cost Savings | TBA |
-| FY25-Q2 | Efficiency | Software Efficiency | TBA |
-| FY25-Q2 | Efficiency | Proactive Avoidance |  TBA |
-| FY25-Q2 | Efficiency | Security Improvement | TBA |
-| FY25-Q2 | Excellence | Engineering Excellence | TBA |
-| FY25-Q2 | Excellence | Excellence Under Pressure | TBA |
-| FY25-Q2 | Excellence | Testing Excellence | TBA |
-| FY25-Q2 | Excellence | Most Impactful MR or Doc Update | TBA |
-| FY25-Q2 | Excellence | Everyone-can-contribute | TBA |
-| FY25-Q2 | Customer Results | Customer Centered Individual | TBA |
-| FY25-Q2 | Customer Results | Customer Kudos | TBA |
-| FY25-Q2 | Customer Results | Performance and Stability | TBA |
-| FY25-Q2 | Customer Results | Contribution to Sales or Renewal | TBA |
+| FY25-Q2 | Efficiency | Cost Savings | **Not Awarded** |
+| FY25-Q2 | Efficiency | Software Efficiency | Dylan Griffith |
+| FY25-Q2 | Efficiency | Proactive Avoidance |  Matt Smiley |
+| FY25-Q2 | Efficiency | Security Improvement | **Not Awarded** |
+| FY25-Q2 | Excellence | Engineering Excellence | Anton Smith |
+| FY25-Q2 | Excellence | Excellence Under Pressure | Craig Miskell |
+| FY25-Q2 | Excellence | Testing Excellence | Jay McCure |
+| FY25-Q2 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY25-Q2 | Excellence | Everyone-can-contribute | Manoj Memana Jayakumar |
+| FY25-Q2 | Excellence | Interviewing Excellence | Peter Hegman |
+| FY25-Q2 | Customer Results | Customer Centered Individual | Patrick Bajao |
+| FY25-Q2 | Customer Results | Customer Kudos | Kaitlyn Chappell |
+| FY25-Q2 | Customer Results | Performance and Scalability | Chance Feick |
+| FY25-Q2 | Customer Results | Contribution to Sales or Renewal | Erika Miklós |
 ---
 
 ## Engineering Quarterly Achievers Process
