@@ -57,9 +57,9 @@ GITLAB_PRIVATE_TOKEN="your_gitlab_private_token"
 
 ### Step 2: Create and upload your dataset
 
-* [See our dataset guide here](./datasets/)
+- [See our dataset guide here](./datasets/)
 
-The goal would be to use an exisitng dataset, or create and upload a new one specific to your evaluations. 
+**The goal would be to use an exisitng dataset, or create and upload a new one specific to your evaluations. See `duo_chat_questions_0shot` as an example.**
 
 ### Step 3: Create a Basic Evaluation Script
 
@@ -232,15 +232,15 @@ python evaluate.py
 
 ### Good Evaluation Heuristics
 
-* [See our heuristics guide here](./heuristics/)
+- [See our heuristics guide here](./heuristics/)
 
 ### Evaluating performance metrics
 
-* [See our performance guide evaluation here](./performance/)
+- [See our performance guide evaluation here](./performance/)
 
 ### Integrate with GitLab CI/CD
 
-* [See our GitLab CI/CD guide here](./cicd/)
+- [See our GitLab CI/CD guide here](./cicd/)
 
 ### Additional Resources
 
