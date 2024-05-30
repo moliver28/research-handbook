@@ -67,6 +67,7 @@ Certain positions require technical interviews (i.e. Ruby on Rails, Golang, Fron
 - These interviews are 90 minutes in duration
 - Candidates must submit a GitLab username *before* CES can schedule their interview
 - Interviewers and candidates need time to prepare prior to the interview, therefore interviews will be scheduled 4-5 business days out as the merge request will be sent by the interviewer 2-3 business days out.
+- Interviewers must be the same level, or two levels above the level of the candidate.  An interviewer can not interview a candidate for a higher level than theirs.
 
 To schedule a technical interview, CES should follow the process outlined below:
 
