@@ -31,10 +31,10 @@ WhiteSource will launch a press release on 14 January 2020 to accompany GitLab C
 [Documentation](https://mend-io.atlassian.net/wiki/spaces/WD/pages/806191420/Mend+for+GitLab)  
 
 **Who to contact at GitLab**  
+
 - Joint selling questions - @mayanktahil  
 - Product Management - @NicoleSchwartz  
 - Product Marketing - @cblake
-
 
 ## Content
 

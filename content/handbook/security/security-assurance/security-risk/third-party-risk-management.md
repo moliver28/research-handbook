@@ -49,6 +49,8 @@ When considering new software to address business needs and objectives, see belo
  - Does the vendor require an independent third party penetration test of their systems to identify and remediate vulnerabilities and weaknesses?
    - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any High or Critical findings.
 
+*Note: Proof of concept (Poc) and pilot software engagements may require the exchange of sensitive GitLab data and must adhere to the same evaluation of the vendor's security practices for new software requests. Security Risk recommends anonymizing sensitive GitLab data and ensuring contract language defines expectations and requirements around data security, [privacy considerations](https://handbook.gitlab.com/handbook/legal/privacy/), and [deletion of data](https://handbook.gitlab.com/handbook/finance/procurement/vendor-guidelines/vendor-agreement/#7-termination) after the PoC or pilot is complete.*
+
 </details>
 
 <details>

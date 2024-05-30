@@ -18,7 +18,7 @@ Its a way of organizing the collection of services we offer into a way that can 
 
 The short answer is that it helps us manage the business and eases the selling process to use standard and universally-understood language.
 
-We need a way to determine market trends using bookings and revenue data. We categorize the services we sell into the below taxonomy to measure bookings and revenue to identify market trends. This will help us make data driven investment prioritization decisions rather than judgement calls. Additionally, we need a way to understand the delivery forecast by specific service category and type to ensure we have the staffing and/or partnerships in place to be able to deliver.  
+We need a way to determine market trends using bookings and revenue data. We categorize the services we sell into the below taxonomy to measure bookings and revenue to identify market trends. This will help us make data driven investment prioritization decisions rather than judgement calls. Additionally, we need a way to understand the delivery forecast by specific service category and type to ensure we have the staffing and/or partnerships in place to be able to deliver.
 
 There are many people involved in the selling and delivery of services: the customer, the account team (SA, CSM, SAE), the PS engagement manager, the PS project coordinator, the PS project manager, the PS Engineer (and as we introduce partner selling motions, there could be many more). Its important for everyone to use the same universally-understood language to minimize ambiguity. This will help improve our scoping accuracy, reduce overages, improve predictability, and increase overall Customer Satisfaction.
 
@@ -38,12 +38,12 @@ The services maturity framework provides for 5 maturity levels for offerings: pl
 - **Complete**: An offering that can be consistently delivered: predictability in timing, results, and margin.
 - **Lovable**: The offering is at full maturity, positive NPS & impact on customer’s adoption of GitLab product
 
-# Service Offering Framework
+## Service Offering Framework
 
 In general, you can find our publicly marketed services on our [service catalog page](https://about.gitlab.com/services) and the delivery kits at: [Consulting](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development) and [Education](https://gitlab.com/gitlab-com/customer-success/professional-services-group/trainings)
 
 <!-- | Category | Type | Public Offering | Offering Delivery Kit | Maturity |
-| :--      | :--:    | :--      | :--:     | ---- | 
+| :--      | :--:    | :--      | :--:     | ---- |
 | Education | Standard | [Standard Instructor Led Training](https://about.gitlab.com/services/education/) | [Education](/handbook/customer-success/professional-services-engineering/education-services/) | Lovable |
 | Education | Standard | [Asynchronous eLearning](https://gitlab.edcast.com) | [Education](/handbook/customer-success/professional-services-engineering/education-services/) | Minimal |
 | Education | Standard | [GitLab Certification](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/) | [Education](/handbook/customer-success/professional-services-engineering/education-services/) | Viable |
@@ -60,8 +60,7 @@ In general, you can find our publicly marketed services on our [service catalog 
 | Consulting | Integration | [Jira](https://about.gitlab.com/services/implementation/integration/) | TBD | Complete |
 | Consulting | Advisory | [CI/CD Transformation](https://docs.google.com/presentation/d/1gCULkwewztptWPO4wnr6xU-E3B_C7oVqVAdT-yAc0SE/edit) | TBD | Planned |
 | Consulting | Advisory | [General Advisory Services](https://about.gitlab.com/services/advisory/) | [Advisory Services](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/consulting) | Minimal |
-| Consulting | Advisory | Agile/Plan Workflow Advisory | [Agile/Plan Advisory](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/consulting/workflow-agile-ceremonies) | Minimal 
-| Consulting | Advisory | [Dedicated Services (Center of Excellence)]() | TBD | Planned |
+| Consulting | Advisory | Agile/Plan Workflow Advisory | [Agile/Plan Advisory](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/consulting/workflow-agile-ceremonies) | Minimal
+| Consulting | Advisory | Dedicated Services (Center of Excellence) | TBD | Planned |
 | Consulting | Advisory | DevSecOps Workflow Advisory | TBD | Planned |
 | Consulting | Development | Development | TBD | Planned | -->
-

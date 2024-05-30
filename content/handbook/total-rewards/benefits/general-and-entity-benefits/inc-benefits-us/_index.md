@@ -64,7 +64,7 @@ You can log into PlanSource through your Workday profile. There is an integratio
 - For benefit inquiries and assistance with any claims escalations: WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com`
 - For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
 - For support with the PlanSource system: `total-rewards@ gitlab.com`
-- For questions regarding internal policies, etc. 401k, : `total-rewards@ gitlab.com`
+- For questions regarding internal policies, etc. 401(k), : `total-rewards@ gitlab.com`
 
 ## Enrolling in Benefits
 
@@ -565,7 +565,7 @@ See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7m
 
 ## 401(k) Plan
 
-The company offers a 401k plan in which you may make voluntary pre-tax contributions toward your retirement.
+The company offers a 401(k)  plan in which you may make voluntary pre-tax contributions toward your retirement.
 
 </details>
 
@@ -573,8 +573,8 @@ The company offers a 401k plan in which you may make voluntary pre-tax contribut
 
 <summary>Administration of the 401(k) Match:</summary>
 
-1. You are eligible to participate in GitLab’s 401k as of your hire date. There is no auto-enrollment. You must actively elect your deductions.
-1. You will receive an invitation to register for access to your account on Fidelity [NetBenefits](https://www.netbenefits.com) who is GitLab's plan recordkeeper. For more information about Fidelity, please check out this [Brainshark video](https://www.brainshark.com/1/player/fidelityemg?fb=0&r3f1=&custom=gitlab).
+1. You are eligible to participate in GitLab’s 401(k) as of your hire date. There is no auto-enrollment. You must actively elect your deductions.
+1. You will receive an invitation to register for access to your account on Fidelity [NetBenefits](401k.com) who is GitLab's plan recordkeeper.
 1. Any changes to your plan information will be effective within 2 payroll cycles (typically updated within 1 payroll cycle, depending on when the change is made and cut-off changes dates).
 1. Once inside the platform you may elect your annual/pay-period contributions and investments.
 1. If you have any questions about making changes to your elections, we recommend that you reach out to Fidelity directly, by chat in the app, or by phone at 800-835-5097.
@@ -590,7 +590,7 @@ GitLab offers matching 50% of contributions on the first 6% of allocated gross e
 
 As of 1 August, 2022 GitLab has removed the vesting schedule for the employer match. All prior employer match amounts have fully vested as of 1 August, 2022, new employer match contributions will automatically vest when received.
 
-As you are eligible to participate in GitLab's 401k as of your hire date, you are *also* eligible for GitLab matching contributions as of your hire date.
+As you are eligible to participate in GitLab's 401(k) as of your hire date, you are *also* eligible for GitLab matching contributions as of your hire date.
 
 All employer contributions are pre-tax contributions. Team members can still make Roth 401(k) team member contributions and receive pre-tax employer contributions to your Traditional 401(k) account.
 
@@ -974,8 +974,8 @@ If you are enrolled in medical, dental, and/or vision when you terminate from Gi
 
 <summary>COBRA Timeline</summary>
 
-1. Typically terminations are updated in Workday  on the date of the termination and once updated, will then be updated in PlanSource by the end of the next business day.
-1. Once the termination has been added to PlanSource, the information will then be sent over to [WEX (Discovery Benefits)](https://cobra.discoverybenefits.com/), our COBRA administrator. Government guidelines give 30 days for WEX (Discovery) to be notified of the COBRA eligibility, but typically this will take about 1-2 weeks.
+1. Typically terminations are updated in Workday on the date of the termination and once updated, will then be updated in PlanSource by the end of the next business day.
+1. Once the termination has been added to PlanSource, the information will then be sent over to [WEX (Discovery Benefits)](https://cobra.discoverybenefits.com/), our COBRA administrator. The file feeds over every Wednesday morning. Government guidelines give 30 days for WEX (Discovery) to be notified of the COBRA eligibility, but typically this will take about 1-2 weeks.
 1. Once notified, WEX (Discovery) has 14 days to generate and send the COBRA enrollment packet. Allow normal mailing timelines (5-10 business days) to receive the packet once sent. You may also contact `total-rewards@ gitlab` at least a week after your termination date and we can send an electronic copy of your COBRA enrollment packet to you if it has been generated.
 1. You will have 60 days from the time you receive the COBRA packet to enroll either through the mail or online. Instructions for how to enroll will be included in your COBRA packet. Coverage will be retro-effective to the date coverage was lost.
 1. From the day you enroll, you have 45 days to bring your payments to current.

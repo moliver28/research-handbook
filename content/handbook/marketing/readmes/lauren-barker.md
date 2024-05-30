@@ -69,8 +69,8 @@ These are books that have made an impact on me along with a great book on baking
 - 📖 I'm a lifelong learner who values knowledge and teamwork.
 - 🍸 Coffee or wine please.
 
-
 ### How to reach me
+
 In order of my own preferences, but please use whatever channel suits you best:
 
 GitLab TODOs `@laurenbarker`

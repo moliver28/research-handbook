@@ -13,60 +13,60 @@ This page is part of the Sales Development team's handbook [page](/handbook/mark
 
 1. Is the MQL from an Existing Account?
 
-**No:** It is worked by the SDR team <br>
-**Yes:** Check the BDR Prospecting Status
+    **No:** It is worked by the SDR team <br>
+    **Yes:** Check the BDR Prospecting Status
 
 2. Is the Account in “Actively Working” Status?
 
-**No:** It is worked by the SDR team <br>
-**Yes:** Check for Activity
+    **No:** It is worked by the SDR team <br>
+    **Yes:** Check for Activity
 
 3. Does the account have activity placed by the BDR in the last 30 days?
 
-**Yes:** It is worked by the BDR Assigned. <br>
+    **Yes:** It is worked by the BDR Assigned. <br>
 
-**No:** Check to see if there are leads related to the account that have activity using [this report](https://gitlab.my.salesforce.com/00O8X000008RfvU)
-When you modify this report based on company name and email domain, do you see any activity in the last 30 days? <br>
-**Yes:** It is worked by the BDR Assigned <br>
-**No:** It is worked by the SDR Team.
+    **No:** Check to see if there are leads related to the account that have activity using [this report](https://gitlab.my.salesforce.com/00O8X000008RfvU)
+    When you modify this report based on company name and email domain, do you see any activity in the last 30 days? <br>
+    **Yes:** It is worked by the BDR Assigned <br>
+    **No:** It is worked by the SDR Team.
 
-**Next Steps:** SDR chatters the BDR Assigned and lets them know you didn’t find activity and will go ahead and sequence the lead. FYI’s the BDR Manager. BDR Manager will work with the BDR to put the account into the correct BDR Prospecting status. If a BDR is able to relay information that was not picked up in the SDR’s research, the SDR should end the sequence if the prospect hasn’t engaged and change lead ownership to BDR so the BDR can reach out. If the SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between SDR and BDR. Note: Only activity logged in SFDC will be recognized as activity.
+    **Next Steps:** SDR chatters the BDR Assigned and lets them know you didn’t find activity and will go ahead and sequence the lead. FYI’s the BDR Manager. BDR Manager will work with the BDR to put the account into the correct BDR Prospecting status. If a BDR is able to relay information that was not picked up in the SDR’s research, the SDR should end the sequence if the prospect hasn’t engaged and change lead ownership to BDR so the BDR can reach out. If the SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between SDR and BDR. Note: Only activity logged in SFDC will be recognized as activity.
 
 4. Is the Account in “Queued” Status?
 
-**Yes:** It is worked by the SDR team <br>
+    **Yes:** It is worked by the SDR team
 
 5. Is the Account in “Worked in FY” Status?
 
-**Yes:** It is worked by the SDR team <br>
+    **Yes:** It is worked by the SDR team
 
 6. Is the Account in “Restricted” Status?
 
-**Yes:** It should be routed to the BDR assigned. The BDR assigned will chatter the SAE about whether they’d like them to reach out or whether they would like to own that responsibility. The AE should respond within 48 hours.
+    **Yes:** It should be routed to the BDR assigned. The BDR assigned will chatter the SAE about whether they’d like them to reach out or whether they would like to own that responsibility. The AE should respond within 48 hours.
 
-- If they reply back that the BDR can work, the BDR will continue with the prospect as a lead record and take action.
+    - If they reply back that the BDR can work, the BDR will continue with the prospect as a lead record and take action.
 
-- If they reply back that they want to be responsible, the BDR will convert the lead so that it becomes a contact.
+    - If they reply back that they want to be responsible, the BDR will convert the lead so that it becomes a contact.
 
-After determining an MQL is to be worked by the SDR team:
+    After determining an MQL is to be worked by the SDR team:
 
 7. Is the new MQL related to an existing MQL that is part of the same account?
 
-**No:** The MQL can be worked by the SDR that received it through the round robin
+    **No:** The MQL can be worked by the SDR that received it through the round robin
 
-**Yes:** Check the status of the existing MQL
+    **Yes:** Check the status of the existing MQL
 
 8. Is the existing MQL in Accepted or Qualifying status?
 
-**No:** The MQL can be worked by the SDR that received it through the round robin
+    **No:** The MQL can be worked by the SDR that received it through the round robin
 
-**Yes:** Check the activity on the existing MQL
+    **Yes:** Check the activity on the existing MQL
 
 9. Is there activity in the last 30 days or a follow up task scheduled for the future?
 
-**Yes:** The MQL should be worked by the owner of the existing MQL
+    **Yes:** The MQL should be worked by the owner of the existing MQL
 
-**No:** The MQL can be worked by the SDR that received it through the round robin. If you are not sure, double-check with the related SDR.
+    **No:** The MQL can be worked by the SDR that received it through the round robin. If you are not sure, double-check with the related SDR.
 
 If the related SDR relays information that was not picked up in the new SDR’s research, the new SDR should end any active sequence if the prospect hasn’t engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
 
@@ -105,6 +105,7 @@ Note: Sometimes someone else from your prospect’s company actually made the Gi
 
 **Q:** How do I request credit for a web direct opportunity? <br>
 **A:** On the opportunity record in Salesforce, compose a new Chatter message that includes the following:
+
 1. Tag a member of the Operations Team (Ramona Elliott or Ed Bao) or the Director of Global Commercial Sales Development (Brian Tabbert). **Do not tag Sales Support Yourself**
 2. Include a link to the record in Salesforce that shows your related two-way activity in the past 60 days. If your related activity is a phone call, you must have entered the details of the phone call into the Qualification Notes field on the lead record at the time of the call in order for it to be considered. Qualification Notes entered after the Web Direct opportunity has been created will not be considered for credit.
 3. Explain how you influenced their decision to purchase GitLab (helped with evaluation, uncovered a need, provided value, etc)
@@ -147,7 +148,6 @@ Announcement Channels
 - Monthly All Hands Meeting
 - Specific Team Slack Channels
 
-
 | Decision Grid                              | Not Time Sensitive or Important                       | Important and/or Time Sensitive                                             |
 |--------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------------|
 | Impacts Multiple Teams                     | Email Newsletter, Weekly Team Meeting                | Sales Dev FYI Slack, All Hands Meeting, Weekly Team Meeting, Email Newsletter |
@@ -161,7 +161,6 @@ Announcement Channels
 | All Hands Meeting            | Important updates that affect multiple teams                          |
 | Weekly Team Meeting          | Any updates that affect that specific team                            |
 | Team Slack Channels          | Important or Time Sensitive, but only related to that specific team    |
-
 
 ## KPIs and SLAs
 
@@ -181,7 +180,7 @@ Announcement Channels
 | Products Considered | Who | Order Type | Segment | Opportunities |
 | ---------- | -------- | ------- | --------- | -------------- |
 | GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) |
-| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro)
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro) |
 | GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 |
 | GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 |
 | Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 |
@@ -192,7 +191,6 @@ Announcement Channels
 - **NOTE** If an account only has bought CI minutes, the SDR/BDR will still get credit for a first order Opportunity if the account purchases Premium or Ultimate licenses.
 
 ### Sales Development Org Compensation Breakdown
-
 
 | **Sales Development Org Compensation Breakdown** |
 | ------------------------------------------------ |
@@ -300,7 +298,6 @@ Announcement Channels
 | 3. Maintain Cross-functional Relationships | - Collaborate with the Sales team in terms of account planning.                                                                                                                       |
 |                                           | - Collaborate with the Field Marketing team in terms of event outreach.                                                                                                                |
 
-
 ### Inbound Lead Management
 
 The below apply for all inbound-related leads for both the SDR and BDR teams:
@@ -311,7 +308,6 @@ The below apply for all inbound-related leads for both the SDR and BDR teams:
 | Low vs High Touch Sequence Usage    | - Over 70% of inbound leads enrolled to High Touch sequences.        |
 | Inbound pasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
 | Two way conversations           | - 50 per week.        |
-
 
 ### Outbound Account Management
 
@@ -346,10 +342,3 @@ With a prospect-facing role in Sales Development, do keep in mind when you are c
 - Although you are not expected to start work and end work at the same time every day, please do keep in mind the normal business hours of your prospects, and make sure to schedule your own working hours to ensure you maximize opportunities.
 
 In short, working at GitLab means that if you start the day early you can take a long lunch break to hit the gym or go grocery shopping in the middle of the day when it’s quiet, yet you can still do a full day’s work around that and don’t need to be accountable all the time, as long as you are available to call prospects and be available for prospect meetings during normal working hours for your region/territory.
-
-
-
-
-
-
-

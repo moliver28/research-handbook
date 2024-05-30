@@ -38,7 +38,7 @@ The content library is where all your uploaded assets are stored and tagged in P
 1. Select the Business Unit of the asset based on [GTM motion](/handbook/marketing/plan-fy22/#gtm-motions).
 1. Set the expiry date of the asset if one exists.
 1. Leave External ID blank.
-1. Select the content topics on the right-hand side that categorize the asset. Follow the [content tag map below](#tracking-content) when tagging content with topics.
+1. Select the content topics on the right-hand side that categorize the asset. Follow the [content tag map below](#content-types) when tagging content with topics.
 
 ### After adding the asset to the library
 
@@ -51,15 +51,16 @@ The content library is where all your uploaded assets are stored and tagged in P
 ### Replacing or updating the verson of an asset after initial upload
 
 If you need to replace an asset source but keep the same link, you can do so from the content library.
-* Select the asset from the content library
-* On the right side, in the preview panel, scroll until you see `Source URL`
-* When you hover over `Source URL` a pencil appears to the right
-* Click the pencil/edit icon
-* In the popup that appears, choose `File Upload` or `Website URL` as relevant
-* Choose the updated version from your computer (or paste the new URL in)
-* Click upload
-* QA that the new version appears in "Preview" mode
-* If used in a track, QA that the correct version appears in the track preview
+
+- Select the asset from the content library
+- On the right side, in the preview panel, scroll until you see `Source URL`
+- When you hover over `Source URL` a pencil appears to the right
+- Click the pencil/edit icon
+- In the popup that appears, choose `File Upload` or `Website URL` as relevant
+- Choose the updated version from your computer (or paste the new URL in)
+- Click upload
+- QA that the new version appears in "Preview" mode
+- If used in a track, QA that the correct version appears in the track preview
 
 ### Bulk upload
 
@@ -156,7 +157,7 @@ Unsure what content types align with your asset? Use the table below as a guidel
 | Infographic | A visual asset used to represent information or data. |  |
 | Landing page | | |
 | Presentation | Video recording or slides of a live talk. | [Multicloudcon Keynote: The Multicloud Maturity Model](https://www.youtube.com/watch?v=R1LWQPAXFEE) |
-| Pricing | A document that details pricing for GitLab products. | (GitLab pricing)[https://about.gitlab.com/pricing/] |
+| Pricing | A document that details pricing for GitLab products. | [GitLab pricing](https://about.gitlab.com/pricing/) |
 | Product article |  |  |
 | Research report | An informational report which uses a specific research metholody to validate findings. | [2019 Global Developer Survey: DevSecOps](/developer-survey/) |
 | Solution article |  |  |

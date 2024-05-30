@@ -57,7 +57,6 @@ For any other offboarding questions, please reach out to People Connect via `peo
 ## Involuntary Terminations
 
 **Note:** Involuntary terminations are **only** facilitated by Team Member Relations (TMR) who will initiate the process in Workday.
-
 Involuntary offboarding of any team member is never easy. We've created guidelines and information to make this process as humane as we can. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance]({{< ref "underperformance" >}}), as well as the [offboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md).
 
 ### Involuntary Process
@@ -184,7 +183,7 @@ For team members who will be placed on leave during an investigation please foll
 
 ### Offboarding Compliance
 
-The People Connect member in the relevant rotation will complete a weekly audit of all offboarding issues opened within that specific week and check that all tasks have been completed and the `Peopleops::done::` label has been added.
+The People Connect member in the relevant rotation will complete a weekly audit of all offboarding issues opened within that specific week and check that all People Connect tasks have been completed and that the label `peopleops::done` has been added.
 
 All offboarding tasks by all Departments need to be completed within 5 days of the offboarding date. For systems that are more critical and time sensitive, these will be completed within the first 24 hours (example 1Password, Slack) by the relevant Departments. Information about application & system deprovisioners can be found on the [Tech Stack Applications handbook page](/handbook/business-technology/tech-stack-applications/).
 

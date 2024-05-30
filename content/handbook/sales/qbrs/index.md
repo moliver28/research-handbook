@@ -7,6 +7,7 @@ description: "Overview of GitLab's Quarterly Business Review process"
 ## Quarterly Business Review (QBR) Overview
 
 QBRs are held during the **first two weeks of every quarter.** The sessions span between 5-7 business days. The goal of these sessions is to:
+
 1. Review team performance and lessons learned from the past quarter
 1. Review customer wins, use cases and insights to repeat "what good looks like"
 1. Review current quarter forecast and plans to meet and exceed sales goals in the coming quarter (and beyond)
@@ -14,6 +15,7 @@ QBRs are held during the **first two weeks of every quarter.** The sessions span
 1. Identify and prioritize specific requests that will help Sales be successful
 
 QBRs are categorized into two types:
+
 1. Quarterly Business Reviews (QBRs) - These sessions are held at the team- / IC-level and are organized by managers.
 1. Field Manager QBRs - These sessions include Field Managers and above and are organized by the QBR planning team. Most of the page below covers the process for Field Manager QBRs.
 
@@ -31,6 +33,7 @@ Field Manager QBRs are typically organized by region and are held starting at th
 See below for a list of QBR sessions by segment.
 
 **ENT Sales QBRs**
+
 1. ENT AMER Geo
    1. East Central
    1. Northeast
@@ -58,12 +61,14 @@ See below for a list of QBR sessions by segment.
    1. ENT APAC
 
 **COMM Sales QBRs**
+
 1. COMM SMB - AMER & EMEA
 1. COMM MM - AMER & EMEA
 1. COMM SMB & MM - APAC
 1. COMM Sales Leadership (Closed Session)
 
 **Channel & Alliances QBRs**
+
 1. Channels & Alliances Program Leadership
    1. Alliances
    1. Programs & Services
@@ -77,6 +82,7 @@ See below for a list of QBR sessions by segment.
    1. AMER Channel
 
 **CS QBRs**
+
 1. CSM Team - AMER & EMEA
 1. CSM Team - APAC
 1. SA Team
@@ -84,9 +90,7 @@ See below for a list of QBR sessions by segment.
 1. Professional Services Team
 1. CS Leadership
 
-
 ![QBR Structure Pyramid](/handbook/sales/qbrs/QBR_Structure_Pyramid.png)
-
 
 ### Field Manager QBR Participation - Virtual
 
@@ -122,6 +126,7 @@ Field Manager QBRs include managers, leadership, and delegates from across the b
    1. Field Security*
 
 **ENT Leadership QBR**
+
 1. Segment Sales VP
 1. Segment Sales VP direct reports (RDs, ASMs, and Inside Sales Managers)
 1. Chief Revenue Officer (CRO) and CRO Chief of Staff (both optional)
@@ -135,6 +140,7 @@ Field Manager QBRs include managers, leadership, and delegates from across the b
 1. Sr. Program Manager, Customer Success Enablement (optional)
 
 **COMM Leadership QBR**
+
 1. Segment Sales VP
 1. Segment Sales VP direct reports (RDs, ASMs)
 1. People Business Partner
@@ -142,6 +148,7 @@ Field Manager QBRs include managers, leadership, and delegates from across the b
 1. Program Managers, COMM Sales Enablement
 
 **CS Leadership QBR**
+
 1. VP Customer Success
 1. VP Customer Success direct reports
 1. Chief Revenue Officer (CRO) and CRO EBA (both optional)
@@ -236,6 +243,7 @@ A: If you are attending as a delegate, please note that it is part of your respo
 **Q: What specific information should the delegate capture?**
 
 A: In order to serve as an active participant in QBRs, there is no need to take verbatim notes during the sessions. Providing a detailed summary of information that is shared is adequate.
+
 1. Make as detailed notes as possible *pertaining to key insights, decisions, asks, action items, or specific improvement requests*. Please include reference to the specific slide in the QBR presentation that pertains to the ask when possible. While the slides will not be shared with the broader team, this information will help key stakeholders easily find the referenced information.
 1. Capture meaningful insights, points or key decisions that come from conversations during the QBR, not information already written in a slide.
 
@@ -267,7 +275,6 @@ A: In order to serve as an active participant in QBRs, there is no need to take 
       1. RDs will present their region's top asks in the COMM Leadership QBR.
       1. ASMs, RDs and COMM Sales VP will review full list of COMM asks and will deliver a final list of prioritized COMM asks no later than the Monday following the COMM Leadership QBR.
 
-
 1. Field Operations will share a list of consolidated QBR asks and next steps for each no later than three weeks following the last QBR.
 1. The DRI for each ask is responsible for creating a new issue related to the QBRR ask OR identifying and updating an existing issue.  
    1. Leaders/Managers  are encouraged to discuss any asks that were not included in the final list with the requestor in their 1:1 to determine how/if any action should be taken.
@@ -276,7 +283,6 @@ A: In order to serve as an active participant in QBRs, there is no need to take 
 ### Execution and Tracking
 
 All new QBR asks are tracked and managed as issues within the DRI's team Project and will include a global `QBR` label and year/quarter specific `FYxx-Qx QBR` label to ensure the asks are categorized appropriately for review.  
-
 
 ## Sample Field Manager QBR Roll-Out - Virtual
 
@@ -363,7 +369,6 @@ Below is a sample roll-out of the Field Manager QBR planning and execution proce
 
 1. Field Ops completes initial review and assignment of consolidated/prioritized QBR asks in an issue. Assigns asks to the appropriate DRIs. Determines which Ops-related asks will be actioned on in the quarterly Cannonball run.
 1. Field Ops collaborates with Field Comms to socialize the consolidated list of QBR asks and next steps.
-
 
 ## Sample Field Manager QBR Roll-Out - In-Person
 

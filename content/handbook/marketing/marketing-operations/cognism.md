@@ -34,7 +34,7 @@ For the moment, the Cognism Web App and the Cognism Chrome Extension are only us
 
 The Cognism data that was enriched on specific lead records, however, can be viewed by anyone by just checking the Cognism fields on the lead & contact objects.
 
-Note, we redistribute inactive seats to new Cognism users. Any users who have not logged in to Cognism in the last 2 months are at risk of losing their seats. If you wish to keep your Cognism seats, please be sure you are regularly logging in and using the platform. 
+Note, we redistribute inactive seats to new Cognism users. Any users who have not logged in to Cognism in the last 2 months are at risk of losing their seats. If you wish to keep your Cognism seats, please be sure you are regularly logging in and using the platform.
 
 ## Training
 
@@ -121,4 +121,3 @@ If a temporary license is assigned to a non-BDR role it can be revoked at any ti
 ### Pending Invites
 
 Pending Cognim Invites have to be accepted in the time-span of a week because they block licenses from being assigned. If, after a week, the invite is still not accepted, it will be cancelled. Another invite can be sent out if requested through an [individual access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
-

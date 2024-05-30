@@ -30,7 +30,6 @@ In the `Recently Opened` view, CSMs can confirm a customer requested issue has b
 
 In the `Recently Closed` view, CSMs can share the recently released feature requests the customer has interest in. This can help drive frequency of GitLab upgrades.
 
-
 ### Executive Business Reviews
 
 Utilize the `Customer Drill Down` section during Executive Business Reviews to highlight trends in a customers specific feature requests. The `Open User Requests` view shows trends of how many open and closed requests the customer has. The `Open User Requests by Issue/Epic Type` shows trends of feature requests and bug fixes.

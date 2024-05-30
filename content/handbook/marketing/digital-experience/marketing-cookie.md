@@ -1,11 +1,7 @@
 ---
-
 title: Marketing Cookies
-description: >-
-  Learn more about how Digital Experience uses browser cookies.
+description: "Learn more about how Digital Experience uses browser cookies."
 ---
-
-# Marketing cookie
 
 The Digital Experience team uses the `gitlab_user` cookie as a tool to customize content on the `about.gitlab.com` domain.
 
@@ -17,7 +13,6 @@ For more information, read the [docs on that](https://docs.gitlab.com/ee/user/pr
 
 * Updating marketing cookie: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/131072
 * Setting marketing cookie: for logged in users: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/113761
-
 
  <figure class="video_container">
    <iframe src="https://www.youtube.com/embed/Nm8wWtoBCTc" frameborder="0" allowfullscreen="true"> </iframe>

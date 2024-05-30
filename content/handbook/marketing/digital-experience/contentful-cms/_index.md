@@ -54,7 +54,6 @@ Some pages still draw content from our Buyer Experience git repository due to pa
 | Marketing campaign flows (ex-Pathfactory) | Contentful | ------ |
 | Navigation | Contentful | ------ |
 
-
 ## How do we make changes to the marketing site with the CMS?
 
 As owners of the marketing website, the digital experience team handles most large changes in order to drive business goals. However, we are not necessarily the subject matter experts and will defer to various teams when it comes to editing content. In general, these are the processes we try to adhere to:
@@ -114,11 +113,11 @@ We have various levels of access in Contentful. Most new members that are invite
 
 Content that requires Digital Experience review prior to publishing is tagged with the `Review: DEx` tag. This has been configured in Contentful such that only users with a role of `CMS Administrator` in the about.gitlab.com space will be able to publish this content. Users with `Publisher` access and below will not be able to publish this content.
 
-_Note: If a user is a `CMS Administrator` in the space, but they are also on a team that only has `Publisher` access to that space, Contentful will default to the lowest level of access (`Publisher`). Be sure to check if a user is on a team if they are having trouble accessing content._
+*Note: If a user is a `CMS Administrator` in the space, but they are also on a team that only has `Publisher` access to that space, Contentful will default to the lowest level of access (`Publisher`). Be sure to check if a user is on a team if they are having trouble accessing content.*
 
 The `Review: DEx` tag has been added to content on the Pricing page and the Homepage. Any other pages that share an entry with the pricing page or homepage will also be affected by the tag permissions. I.e. if the FAQ section on the pricing page is used on another page, it will only be publishable by `CMS Administrators` regardless of which page a user is accessing it from.
 
-Going forward, if any new entry is added to the pricing page or the homepage, content creators should add the `Review: DEx` tag to that entry. Please note that **the tag does not automatically propagate down to the children of an entry**, so the tag will need to be manually added to each child of an entry. For example, if you add a card that has a button as a child, both the card and the button will need to be tagged manually. 
+Going forward, if any new entry is added to the pricing page or the homepage, content creators should add the `Review: DEx` tag to that entry. Please note that **the tag does not automatically propagate down to the children of an entry**, so the tag will need to be manually added to each child of an entry. For example, if you add a card that has a button as a child, both the card and the button will need to be tagged manually.
 
 To add the `Review: DEx` tag to an entry in Contentful, go to the Tags tab of that entry, and use the dropdown to select the `Review: DEx` tag and hit Enter, and publish the change.
 
@@ -126,7 +125,7 @@ To add the `Review: DEx` tag to an entry in Contentful, go to the Tags tab of th
 
 1. [Editing Content](/handbook/marketing/digital-experience/contentful-cms/editing-content)
 2. [Custom Pages](/handbook/marketing/digital-experience/contentful-cms/custom-pages)
-2. [Solutions Pages](/handbook/marketing/digital-experience/contentful-cms/solutions-pages)
+3. [Solutions Pages](/handbook/marketing/digital-experience/contentful-cms/solutions-pages)
 4. [Caveats and Feature Wishlist](/handbook/marketing/digital-experience/contentful-cms/wishlist)
 
 ### Requesting assistance from Digital Experience
@@ -137,7 +136,3 @@ To add the `Review: DEx` tag to an entry in Contentful, go to the Tags tab of th
 ## Requesting access to Contentful
 
 Please fill out an access request [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and tag your manager for approval as well as `@laurenbarker` from Digital Experience, and include the purpose for your request (i.e. to edit the marketing site, to edit the blog - these are managed in different spaces in Contentful). You will recieve an email invitation to Contentful as a `Creator` unless publish access is necessary.
-
-
-
-

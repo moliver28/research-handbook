@@ -46,7 +46,3 @@ All Dashboards and Reports are a part of the system itself. No separate Sisense 
 ### Support Guides and Step by Step Articles
 
 The [Credly Support page](https://credlyissuer.zendesk.com/hc/en-us) offers a docs website with full articles on processes and step by step guides on using the system.
-
-
-
-

@@ -116,7 +116,6 @@ In additional to enabling sales, PMMs should partner with sales and actively eng
 
 <iframe width="950" height="900" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvkbjALQnaEu_vg0i_UEfFStZttVxMP0WCzTaDIGS31ZL_ndVvBgaEWn_OkrRYRPYQtj6g9bJV2J0C/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;rm=minimal&amp;range=published_talks"></iframe>
 
-
 ### Release vs. launch
 
 A [product release, and a marketing launch are two separate activities](http://www.startuplessonslearned.com/2009/03/dont-launch.html). The canonical example of this is Apple. They launch the iPhone at their yearly event and then release it months later. At GitLab we do it the other way: Release features as soon as they are ready letting customers use them right away, and then, do a marketing launch later when we have market validation.

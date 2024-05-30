@@ -36,7 +36,6 @@ Here's a [conference talk](https://www.youtube.com/watch?v=VQJnk2B_p5s) I did at
 * **Reset, by Ellen Pao** tells the journey of the former venture-capitalist-turned-Reddit-CEO and her experiences of mysogony, discrimination, and retaliation in the tech and finance industries.
 * **The Undoing Project, by Michael Lewis** examines the Nobel-Prize-winning duo of behavioural psychologists Daniel Kahneman and Amos Tversky, and how they changed perceptions on decision-making.
 
-
 ## Strengths/Weaknesses/Musings
 
 * I am not a morning person - I apologize in advance.
@@ -49,5 +48,3 @@ Here's a [conference talk](https://www.youtube.com/watch?v=VQJnk2B_p5s) I did at
 ## Communication Preferences
 
 Message me on slack, send me an email, tag me in an issue - I like when things are written down and documented, since sometimes I don't trust my own memory. If we discuss something on a zoom call, I will likely post a summary of anything we agreed upon for my own recollection.
-
-

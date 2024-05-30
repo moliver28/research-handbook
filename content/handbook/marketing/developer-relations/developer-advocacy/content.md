@@ -90,10 +90,10 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 1. Consider adding links to relevant blog posts or documentation within tooltips or modals to provide users with further context or resources.
 1. In the demo settings, under 'theme' select 'GitLab Branding [Navattic Team]'.
 1. Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well for some pages. In such cases, use screenshots instead. Here are some guidelines for screenhots capturing:
+
 - Open your browser at 1920x1080 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
 - Open GitLab UI in full screen and capture only the GitLab UI (avoid including the Chrome toolbar or the MAC menu).
 - Use the keyboard shortcut Shift+Command+4 to Capture selected portion of the screen.
-
 
 ## Content Distribution
 
@@ -138,8 +138,7 @@ For GitLab teams:
 1. Content that can be useful to our Field Teams, should also be posted in [Highspot](https://gitlab.highspot.com/).
 1. Share an update in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel using the following message template:
 
-
-```
+```text
 :results-tanuki: <Content type> published: <title>
 
 Social short UTM URLs:
@@ -155,7 +154,7 @@ Thanks/cc @teammembers
 
 Example:
 
-```
+```text
 :results-tanuki:  Blog published: Set up your infrastructure for on-demand, cloud-based development environments in GitLab
 
 Social short UTM URLs:
