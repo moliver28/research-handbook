@@ -61,25 +61,36 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 1. Near the top left of the window, switch to the **new-feature** branch by selecting it in the dropdown that currently says **master**.
 
-1. In the list of repository files, click the `views` directory and then the `index.pug` file.
+1. In the list of repository files, click the `server.js` file.
 
-1. Click **Edit > Edit single file** and modify the last line of `index.pug` to the text below.
+1. Click **Edit > Edit single file** and modify the 8th line of `server.js` to the text below.
 
-    ```pug
-    p GitLab welcomes you to #{title}
+    ```js
+    message: "Auto DevOps FTW!",
     ```
 
 1. The file should now look like this:
 
-    ```pug
-    extends layout
+    ```js
+    const express = require("express");
+    const app = express();
 
-    block content
-      h1= title
-      p GitLab welcomes you to #{title}
+    const port = process.env.PORT || 5000;
+
+    app.get("/", (req, res) => {
+        return res.status(200).send({
+            message: "Hello World!",
+        });
+    });
+
+    app.listen(port, () => {
+    console.log("Listening on " + port);
+    });
+
+    module.exports = app;
     ```
 
-1. For **Commit message**, type `Update welcome message in index.pug`
+1. For **Commit message**, type `Update welcome message in server.js`
 
 1. Leave **Target branch** set to `new-feature`
 
