@@ -1,5 +1,5 @@
 ---
-title: AI Framework Group - Evalus
+title: AI Framework Group - Eval like I am 5
 description: "The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab AI feature development."
 aliases: /handbook/engineering/development/data-science/ai-framework
 ---
@@ -57,76 +57,9 @@ GITLAB_PRIVATE_TOKEN="your_gitlab_private_token"
 
 ### Step 2: Create and upload your dataset
 
-Creating a dataset tailored to your evaluation needs is a critical step in ensuring accurate and meaningful assessments of your AI models. Here’s how to create and upload a dataset for use with LangSmith.
+* [See our dataset guide here](./datasets/)
 
-#### Create Your Dataset
-
-- Define Your Data Requirements:
-  - Identify the types of inputs and expected outputs you need for evaluation. For a chat model, this might include various questions and their corresponding expected responses.
-- Prepare Your Data
-  - Create a CSV or JSON file containing your data. Each entry should include the necessary fields such as input questions and expected answers.
-
-#### Example CSV Structure
-
-```csv
-question,expected_answer
-"What's your name?","My name is GitLab Bot."
-"How can I reset my password?","You can reset your password by going to the login page and clicking on 'Forgot password?'."
-"What is the weather today?","I'm sorry, I can't provide weather updates."
-"Tell me a joke.","Why did the scarecrow win an award? Because he was outstanding in his field!"
-"Explain quantum physics.","Quantum physics is the branch of physics relating to the very small."
-```
-
-#### Example JSON Structure
-
-```json
-[
-  {
-    "question": "What's your name?",
-    "expected_answer": "My name is GitLab Bot."
-  },
-  {
-    "question": "How can I reset my password?",
-    "expected_answer": "You can reset your password by going to the login page and clicking on 'Forgot password?'."
-  },
-  {
-    "question": "What is the weather today?",
-    "expected_answer": "I'm sorry, I can't provide weather updates."
-  },
-  {
-    "question": "Tell me a joke.",
-    "expected_answer": "Why did the scarecrow win an award? Because he was outstanding in his field!"
-  },
-  {
-    "question": "Explain quantum physics.",
-    "expected_answer": "Quantum physics is the branch of physics relating to the very small."
-  }
-]
-```
-
-#### Upload Your Dataset to LangSmith
-
-Once your dataset is prepared, follow these steps to upload it to LangSmith:
-
-- Log In to LangSmith:
-  - Visit the LangSmith website at `https://smith.langchain.com` and log in with your credentials.
-- Navigate to the Datasets Section:
-  - In the LangSmith dashboard, locate and click on the “Datasets” section.
-- Upload the Dataset:
-  - Click on the “Upload Dataset” button.
-  - Choose your CSV or JSON file and upload it. Ensure you provide a meaningful name and description for your dataset.
-- Verify the Upload:
-  - After uploading, verify that the dataset appears in your list of datasets and that the entries are correctly formatted.
-
-Once your dataset is uploaded to LangSmith, you can reference it in your evaluation scripts.
-
-#### How to decide how to create a dataset
-
-Please reach out to the `#g_model_validation` team for advice on how to create a dataset for your evaluation needs if you cannot find one in our [current list](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/-/epics/6#data-sets--use-cases).
-
-#### Current list of datasets
-
-You can find the current list of ongoing datasets [here](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/-/epics/6#data-sets--use-cases). If the dataset you need is not already in the LangSmith Project, please upload it to use it.
+The goal would be to use an exisitng dataset, or create and upload a new one specific to your evaluations. 
 
 ### Step 3: Create a Basic Evaluation Script
 
@@ -224,41 +157,7 @@ Evaluation Results:
      - Latency: 250ms
      - Token Usage: 15 tokens
 
-2. Question: "How can I reset my password?"
-   Expected Answer: "You can reset your password by going to the login page and clicking on 'Forgot password?'."
-   Model Answer: "You can reset your password by going to the login page and clicking on 'Forgot password?'."
-   Result: PASS
-   Evaluation Metrics:
-     - Accuracy: 100%
-     - Latency: 300ms
-     - Token Usage: 25 tokens
-
-3. Question: "What is the weather today?"
-   Expected Answer: "I'm sorry, I can't provide weather updates."
-   Model Answer: "I'm sorry, I can't provide weather updates."
-   Result: PASS
-   Evaluation Metrics:
-     - Accuracy: 100%
-     - Latency: 220ms
-     - Token Usage: 12 tokens
-
-4. Question: "Tell me a joke."
-   Expected Answer: "Why did the scarecrow win an award? Because he was outstanding in his field!"
-   Model Answer: "Why did the scarecrow win an award? Because he was outstanding in his field!"
-   Result: PASS
-   Evaluation Metrics:
-     - Accuracy: 100%
-     - Latency: 260ms
-     - Token Usage: 20 tokens
-
-5. Question: "Explain quantum physics."
-   Expected Answer: "Quantum physics is the branch of physics relating to the very small."
-   Model Answer: "Quantum physics is the branch of physics relating to the very small."
-   Result: PASS
-   Evaluation Metrics:
-     - Accuracy: 100%
-     - Latency: 400ms
-     - Token Usage: 30 tokens
+     ...
 
 ----------------------------------------
 Summary:
@@ -279,29 +178,7 @@ Latency: 250ms
 Tokens Used: 15
 ----------------------------------------
 
-Question: "How can I reset my password?"
-Trace ID: def456
-Latency: 300ms
-Tokens Used: 25
-----------------------------------------
-
-Question: "What is the weather today?"
-Trace ID: ghi789
-Latency: 220ms
-Tokens Used: 12
-----------------------------------------
-
-Question: "Tell me a joke."
-Trace ID: jkl012
-Latency: 260ms
-Tokens Used: 20
-----------------------------------------
-
-Question: "Explain quantum physics."
-Trace ID: mno345
-Latency: 400ms
-Tokens Used: 30
-----------------------------------------
+...
 
 Evaluation completed successfully.
 ```
@@ -318,57 +195,17 @@ To evaluate changes to prompts in the GDK, you can follow these steps:
 ###### Example of the original base_prompt method
 
 ```ruby
-module Gitlab
-  module Llm
-    module Chain
-      module Agents
-        module ZeroShot
-          module Prompts
-            class Base
-              def self.base_prompt(options)
-                system_prompt = options[:system_prompt] || Utils::Prompt.default_system_prompt
-                zero_shot_prompt = format(options[:zero_shot_prompt], options)
-                Utils::Prompt.role_conversation([
-                  Utils::Prompt.as_system(system_prompt, zero_shot_prompt),
-                  Utils::Prompt.as_user(options[:user_input]),
-                  Utils::Prompt.as_assistant(options[:agent_scratchpad], "Thought:")
-                ])
-              end
-            end
-          end
-        end
-      end
-    end
-  end
-end
+  system_prompt = options[:system_prompt] || Utils::Prompt.default_system_prompt
+  zero_shot_prompt = format(options[:zero_shot_prompt], options)
+  ...
 ```
 
 ###### Example of a modified base_prompt method to improve clarity
 
 ```ruby
-module Gitlab
-  module Llm
-    module Chain
-      module Agents
-        module ZeroShot
-          module Prompts
-            class Base
-              def self.base_prompt(options)
-                system_prompt = options[:system_prompt] || "You are a helpful assistant knowledgeable about GitLab's features and services. Answer questions clearly and concisely."
-                zero_shot_prompt = format(options[:zero_shot_prompt], options)
-                Utils::Prompt.role_conversation([
-                  Utils::Prompt.as_system(system_prompt, zero_shot_prompt),
-                  Utils::Prompt.as_user(options[:user_input]),
-                  Utils::Prompt.as_assistant(options[:agent_scratchpad], "Response:")
-                ])
-              end
-            end
-          end
-        end
-      end
-    end
-  end
-end
+  system_prompt = options[:system_prompt] || "You are a helpful assistant knowledgeable about GitLab's features and services. Answer questions clearly and concisely."
+  zero_shot_prompt = format(options[:zero_shot_prompt], options)
+  ...
 ```
 
 ###### Rerun the Evaluation
@@ -386,142 +223,24 @@ python evaluate.py
 3. Users receive more precise and helpful responses, enhancing their overall experience with the chat system.
 4. With clearer instructions, the model can process queries more efficiently, potentially reducing latency and token usage.
 
-###### Example evaluating performance metrics
-
-This script evaluates performance metrics by sending chat requests, measuring latency, tracking token usage, and calculating overall metrics such as error rate, average latency, and reliability.
-
-```python
-import os
-import requests
-import time
-from dotenv import load_dotenv
-from langsmith import traceable
-from langsmith.evaluation import evaluate
-from langchain_openai import ChatOpenAI
-from langchain_community.callbacks.manager import get_openai_callback
-
-load_dotenv()
-
-@traceable
-def get_chat_answer(question):
-    base_url = 'http://localhost:3000'
-    url = f"{base_url}/api/v4/chat/completions"
-    headers = {
-        "Content-Type": "application/json",
-        "PRIVATE-TOKEN": os.getenv("GITLAB_PRIVATE_TOKEN"),
-    }
-    payload = {"content": question}
-    start_time = time.time()
-    response = requests.post(url, json=payload, headers=headers)
-    end_time = time.time()
-    latency = end_time - start_time
-    
-    if response.status_code == 200:
-        response_data = response.json()
-        tokens_used = response_data.get('usage_metadata', {}).get('total_tokens', 0)
-        return {
-            "response": response_data,
-            "latency": latency,
-            "tokens_used": tokens_used,
-            "status": "success"
-        }
-    else:
-        return {
-            "status": "error",
-            "status_code": response.status_code,
-            "latency": latency,
-            "tokens_used": 0
-        }
-
-def main():
-    dataset_name = "duo_chat_questions_0shot"
-    chain_results = evaluate(
-        lambda inputs: get_chat_answer(inputs["question"]),
-        data=dataset_name,
-        evaluators=["oshot_choice"],
-        experiment_prefix="Run Small Duo Chat Questions on GDK",
-    )
-
-    total_requests = len(chain_results)
-    successful_requests = sum(1 for result in chain_results if result['status'] == 'success')
-    error_requests = total_requests - successful_requests
-    latencies = [result['latency'] for result in chain_results if result['status'] == 'success']
-    tokens_used = [result['tokens_used'] for result in chain_results if result['status'] == 'success']
-
-    performance_metrics = {
-        "total_requests": total_requests,
-        "successful_requests": successful_requests,
-        "error_requests": error_requests,
-        "error_rate": error_requests / total_requests if total_requests > 0 else 0,
-        "average_latency": sum(latencies) / len(latencies) if latencies else 0,
-        "average_tokens_per_second": sum(tokens_used) / sum(latencies) if latencies else 0,
-        "time_to_first_token_render": min(latencies) if latencies else 0,
-        "reliability": successful_requests / total_requests if total_requests > 0 else 0
-    }
-
-    print("Performance Metrics:")
-    for key, value in performance_metrics.items():
-        print(f"{key}: {value}")
-
-if __name__ == "__main__":
-    main()
-```
-
-### Step 4: Integrate with GitLab CI/CD
-
-Using a CI/CD pipeline for evaluations provides several key benefits compared to running evaluations solely on your local machine.
-
-#### Create a GitLab CI/CD Pipeline
-
-In your project repository, create or update your .gitlab-ci.yml file with the following content:
-
-```bash
-stages:
-  - evaluate
-
-evaluate_langsmith:
-  stage: evaluate
-  script:
-    - pip install requests langsmith langchain
-    - python evaluate.py
-```
-
-#### Commit and Push Changes
-
-```bash
-git add .gitlab-ci.yml evaluate.py
-git commit -m "Add LangSmith evaluation script and CI/CD pipeline"
-git push origin main
-```
-
-#### Monitor the Pipeline
-
-Navigate to your GitLab project and monitor the CI/CD pipeline. Ensure the job evaluate_langsmith runs successfully.
-
-### Step 5: Analyzing the Results
+### Step 4: Analyzing the Results
 
 - Review Output:
   - Check the output of your evaluation job in the GitLab CI/CD pipeline. It should print the results of the evaluation, showing the performance and any issues identified.
 - Trace and Debug:
   - If there are errors or unexpected results, use the tracing functionality provided by LangSmith. Refer to the LangSmith documentation for detailed guidance on tracing and debugging.
 
-### Step 6: Good Evaluation Heuristics
+### Good Evaluation Heuristics
 
-- Choosing Evaluation Metrics:
-  - Accuracy: Measure how often the model’s predictions are correct.
-  - Precision and Recall: Evaluate the balance between correctly identified positive results and the number of actual positives.
-  - F1 Score: Combines precision and recall into a single metric.
-  - Latency: Measure the time taken to produce a response.
-  - Token Usage: Evaluate the efficiency of the model in terms of token consumption.
-  - Conciseness and Coherence: Assess the clarity and logical consistency of the model’s output.
-- Designing Evaluations:
-  - Baseline Comparisons: Compare new models or prompts against a baseline to determine improvements.
-  - Side-by-Side Evaluations: Conduct evaluations that compare different models, prompts, or configurations directly against each other.
-  - Custom Evaluators: Implement custom evaluation functions to test specific aspects of your model’s performance relevant to your application’s needs.
-- Best Practices:
-  - Start Small: Begin with a small, representative dataset to quickly iterate and refine your models and prompts.
-  - Automate: Use CI/CD pipelines to automate the evaluation process, ensuring consistent and repeatable results.
-  - Traceability: Use tracing tools to understand why certain results occurred, making debugging and improvement more straightforward.
+* [See our heuristics guide here](./heuristics/)
+
+### Evaluating performance metrics
+
+* [See our performance guide evaluation here](./performance/)
+
+### Integrate with GitLab CI/CD
+
+* [See our GitLab CI/CD guide here](./cicd/)
 
 ### Additional Resources
 
