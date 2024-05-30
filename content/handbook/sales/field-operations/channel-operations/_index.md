@@ -123,9 +123,12 @@ For more information: [Deal Registration Program Overview](/handbook/resellers/c
 
 #### Partner Billing Record Creation
 
-Billing Account and billing account Contact records must be created when onboarding a new partner that will be purchasing directly from GitLab. The Channel Manager should take the following action upon being notified of a new partner:
-1. Create a contact record on the partner account that represents the partners accounts payable contact information with naming convention "[Partner Account Name] - Accounts Payable"
-2. Chatter `@Billing Ops` on the Partner Account with the partners accounts payable contact information (Billing Account Company Name, contact person (email), and VAT # if applicable) to request that they create a Billing Account
+Billing Account and billing account Contact records must be created when onboarding a new partner that will be purchasing directly from GitLab. The Partner Manager should take the following action when a new partner has signed the click-through agreement or agreed to a customer MPA:
+1. Create a contact record on the partner account that represents the partners accounts payable contact information with naming convention "[Partner Account Name] - Accounts Payable". Ensure the address on the contact record matches the address on the partner account.
+2. Chatter `@Billing Ops` on the Partner Account to request a new billing account. Include the following information: 
+   - Billing Account Company Name
+   - Billing Account Contact Name and Email 
+   - VAT # if applicable
 
 Partner accounts that will transact via distribution do not need a Billing Account or billing account Contact.
 
