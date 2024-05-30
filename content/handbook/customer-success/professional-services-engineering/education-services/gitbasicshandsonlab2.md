@@ -57,8 +57,6 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Open your browser to the project that you created in Lab 1.
 
-   > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL and the group should appear in your history.
-
 1. Click your user avatar in the top left corner.
 
 1. From the dropdown menu, click **Edit profile**.
@@ -128,13 +126,14 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 If the command completes with a welcome message instead of an error, your SSH key is set up correctly.
 
+> If you receive an error stating the connection is refused or the command does not work, this may be becuase your network is blocking connections via SSH. If that is the case, continue onto the next task.
+
+
 ## Task D. Clone a GitLab project repository to your local computer
 
 > When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
 
 1. Navigate back to the `Top Level` project that you created in Lab 1.
-
-   > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL and the group should appear in your history.
 
 1. In the left sidebar, click on **Code > Repository**.
 
@@ -159,6 +158,8 @@ If the command completes with a welcome message instead of an error, your SSH ke
    ```bash
    git clone <Clone with SSH Command>
    ```
+
+> If you receive an error stating that the connection has timed out or has been refused, it may be because your network blocks connections on port 22 due to a firewall. If this happens, repeat the steps in Task D, but use the **Clone with HTTPS** selection in the **Code** button instead.
 
 1. Move into the repository you just cloned via the `cd` command. All files in this directory will be tracked by Git, and any Git commands you run in this lab should be run from this directory.
 
