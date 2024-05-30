@@ -588,6 +588,15 @@ To find the referrals for a certain page, continue from the steps above.
 
 Optional: [Set your picture](https://myaccount.google.com/personal-info) in Google so that your picture will show where you are in a Google document (vs showing just your first intial). This will allow others to more easily follow a discussion when meeting attendees move around in a document.
 
+### Add name pronunciation in Google
+
+Consider adding a phonetic pronunciation of your name and/or a pronunciation recording in your Google profile.
+
+- Click on your profile icon on the top-right of any Google account page (i.e. Google Docs, Google Sheets)
+- Select "Manage your Google account"
+- On the left-hand side panel, select "Personal info" >> on the center of the page, go to "Name & pronunciation"
+- Add a recording or a phonetic pronunciation e.g. Rochana (Rosh-ah-na)
+
 ### Google Calendar
 
 #### Finding a time
