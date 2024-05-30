@@ -13,7 +13,7 @@ The intention is for this page to act as a guide - even if you're in the departm
 
 We're always keen to hear about team members' experiences using the Growth and Development Fund, especially if you feel that your opportunity could be worth adding to the G&D Select list. Please post in the #learninganddevelopment slack channel to tell us more about your experience, or tag `@jallen16` in your G&D request issue. Alternatively, please comment in the [planning issue here](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/574).
 
-## G&D Selects - Conferences
+## Conferences
 
 Conferences are a great tool for professional development, they provide networking opportunities, skill enhancement through workshops and seminars, and the chance to hear from thought leaders on the future of the industry. However, there are lots of conferences to choose from, and they can be expensive
 
@@ -66,7 +66,7 @@ Open a Growth & Development issue for a conference application [here](https://gi
 
 </details>
 
-## G&D Selects - Courses, Memberships, Academic Opportunities
+## Courses, Memberships, Academic Opportunities
 
 Conferences are a great tool for professional development, they provide networking opportunities, skill enhancement through workshops and seminars, and the chance to hear from thought leaders on the future of the industry. However, there are lots of conferences to choose from, and they can be expensive
 
