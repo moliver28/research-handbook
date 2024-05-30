@@ -135,6 +135,10 @@ To assign weights to issues effectively, it’s important to remember that issue
 * **Weight 5:** Normally, this weight should be avoided, and indicates that the issue ideally should be broken down into smaller separate issues. However, in some cases, a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn’t necessarily involve significant risk or uncertainty.
 * **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and must be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to “placeholder” issues to capture the scope of the effort in our velocity-based capacity planning calculations.
 
+## 📝 AI Feature Evaluations Guidelines - Evaluate like I am 5
+
+- [Step-by-Step Guide for Conducting Evaluations using LangSmith at GitLab - ELI5 Evals](./evaluation/)
+
 ## 👏 Communication
 
 The AI Framework Team communicates based on the following guidelines:
