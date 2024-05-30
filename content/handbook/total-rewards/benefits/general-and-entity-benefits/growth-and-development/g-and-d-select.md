@@ -29,7 +29,6 @@ Conferences are a great tool for professional development, they provide networki
 
 Open a Growth & Development issue for a conference application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)
 
-
 </details>
 
 <details>
@@ -76,12 +75,11 @@ Conferences are a great tool for professional development, they provide networki
 
 | **Provider / Course** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| MIT Professional Cloud & DevOps Continual Transformation | Online course designed to help participants understand the fundamentals and applications of Cloud & DevOps - the content and activities are aimed at encouraging participants to contribute to this transformation, through technologies such as DevOps and Cloud Computing.
- | Virtual |
-
-</details>
+| MIT Professional Cloud & DevOps Continual Transformation | Online course designed to help participants understand the fundamentals and applications of Cloud & DevOps - the content and activities are aimed at encouraging participants to contribute to this transformation, through technologies such as DevOps and Cloud Computing. | Virtual |
 
 Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
+
+</details>
 
 <details>
 <summary>Security</summary>
@@ -90,31 +88,28 @@ Open up a Growth & Development issue for a course application [here](https://git
 |----------------|-------------------------| ------- |
 | OffSec | Learning content library for security teams with wide range of high quality content and certifications. Live sessions, hands-on labs, as well as video and text based learning courses are available on a range of security related-topics: Pen Testing, Web App Security, Security Operations, Exploit Development, Cloud Security, Incident Response, and much more. Review some of their [available courses here](https://www.offsec.com/courses/) | Virtual |
 
-</details>
-
 Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
 
+</details>
 
 <details>
 <summary>Sales</summary>
 
-| **Conference** | **Why attend?** | **Location** |
+| **Provider / Course**| **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| Certified Customer Success Manager | Why? | Virtual |
-| MasterClass - Kelly Course | Why? | Virtual |
-
+| Certified Customer Success Manager | CCSM is a well-known and industry recognised customer success certification - Level 1 covers the essentials of Customer Success Management, with the option to continue certifications all the way up to Level 5, with more indepth and advanced learning. You will develop core competencies that will enable you to demonstrate your expertise in Customer Success Management, drive results in your own organization, and enable you to help your customers to achieve success. There are a number of providers who can deliver the training - [here's one to take a look at and learn more](https://successcoaching.co/). | Virtual |
+| MasterClass - The Art of Negotiation | MasterClass offers a number of courses relevant to Sales, delivered in an engaging digestable format, and taught by some of the best in the world. [The Art of Negotiation](https://www.masterclass.com/classes/chris-voss-teaches-the-art-of-negotiation), delivered by former FBI Hostage Negotiator Chris Voss, teaches skills directly applicable to working in Sales. A Masterclass subscription also gives access to the rest of the platforms course catalog. | Virtual |
 
 </details>
 
 Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
-
 
 <details>
 <summary>Product</summary>
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| Reforge | Reforge membership | Virtual |
+| Reforge | Learning platform for Product, Marketing, and Growth professionals working in tech, with Product Management certififcations available through live learning sessions. Membership includes access to [virtual live events](https://www.reforge.com/events), [guides](https://www.reforge.com/guides), and [courses](https://www.reforge.com/courses).  | Virtual |
 | [UX Research one](https://maven.com/twocents/research-to-impact) | recommended | Virtual |
 
 </details>
