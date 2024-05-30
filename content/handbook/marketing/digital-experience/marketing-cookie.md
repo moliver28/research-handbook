@@ -3,8 +3,6 @@ title: Marketing Cookies
 description: "Learn more about how Digital Experience uses browser cookies."
 ---
 
-# Marketing cookies
-
 The Digital Experience team use the `gitlab_user` and `gitlab_tier` cookies as a tool to customize content on the `about.gitlab.com` domain. These cookies are set when a user logs into GitLab.com. Both of these cookies expires with the session, or after 2 weeks (whichever comes first).
 
 * The `gitlab_user` cookie determines if a user has an active sesssion within the GitLab product. If they do, this cookie will be present.
