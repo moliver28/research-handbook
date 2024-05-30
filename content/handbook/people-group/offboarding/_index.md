@@ -133,7 +133,7 @@ As a manager, in collaboration with the Team Member Relations Specialist (TMR) a
 
 1. **TMR**: TMR will have a legal/CPO review of the planned offboarding.
 1. **TMR**: TMR will inform payroll, compensation and benefits, security and the stock administration of the date the team member will have access suspended and the official offboarding date prior to the opening of the offboarding issue.
-1. **TMR**: TMR will work with People Connect to ensure the offboarding issue has the correct dates and that all stakeholders in Payroll, Compensation and Benefits (Total Rewards), Security and Stock Administration have been communicated to and understand the correct offboarding date.official offboarding issue.
+1. **TMR**: TMR will work with People Connect to ensure the offboarding issue has the correct dates and that all stakeholders in Payroll, Compensation and Benefits (Total Rewards), Security and Stock Administration have been communicated to and understand the offboarding details.
 
 ### Sample Offboarding Memo
 
