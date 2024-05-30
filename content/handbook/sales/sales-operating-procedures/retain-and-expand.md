@@ -1,16 +1,7 @@
 ---
-
 title: "Retain and Expand"
 description: "GitLab sales process to retain customers and expand GitLab's footprint and value to the customer"
 ---
-
-
-
-
-
-
-
-# Retain & Expand
 
 Once the account is won it is time for the AE/SAE/CSM/PSE to work together to ensure [Customer Success](/handbook/customer-success/). This requires [Account Engagement](/handbook/customer-success/csm/engagement/) by all parties.  The components of this are:
 
@@ -31,16 +22,16 @@ In the retention and expansion phase, the roles and responsibilities of the CSM/
 **[Customer onboarding](/handbook/customer-success/csm/onboarding/)** is a term typically used to describe the process users go through, from the start of their journey to become a customer and beyond. Within GitLab, customer onboarding encompases an the SAE/AE conducting an official introduction and account management transition to CSM and PSE to customer stakeholders via a Welcome Call.  Additionally, the CSM will begin to re-validate an understanding of the customer's use case, technology stack. The tasks that need to be accomplished are below:
 
 1. Professional Services Implementation kick-off. CSM manages the kick-off and implementation plan catered to the customer.
+
 - [Professional Services](/handbook/customer-success/professional-services-engineering/sales-enablement/) helps your customer accelerate their DevOps Transformation by delivering services to improve operational efficiency, accelerate time to market and reduce risk through GitLab product adoption. We accomplish these by offering categories of services to help ensure the initial gitlab rollout goes smoothly so the end users can get value as fast as possible. It is important for a ISR/SAE to understand the services that certain types of customers typically engage in and how to position those services when building out a success plan. Utilize the [Positioning Professional Services](/handbook/customer-success/professional-services-engineering/positioning/) handbook page to understand all the services available to customers and how to market to them.
 
-
-2. Solution Architect transitions customer meta-record and technical profile to PSE or CSM.
-3. Account Executive transitions customer meta-record and business profile to CSM
-4. Define transition process for customers. Plans should not end at signature but from their goal and work backwards
+1. Solution Architect transitions customer meta-record and technical profile to PSE or CSM.
+1. Account Executive transitions customer meta-record and business profile to CSM
+1. Define transition process for customers. Plans should not end at signature but from their goal and work backwards
     - SAE/AE updates [Command Plan](/handbook/sales/command-of-the-message/command-plan/)
     - CSM builds the [Success Plan](/handbook/customer-success/csm/success-plans/)
-5. CSM creates and execute onboarding and implementation plans
-2. Customer Implementation
+1. CSM creates and execute onboarding and implementation plans
+1. Customer Implementation
 
 ## 2.Implementation
 
@@ -106,7 +97,6 @@ Below are the **WEEKLY TASK** you’ll need to perform within Clari.
 
 For in-depth training on Clari go to the [Clari for Salespeople Instructional Videos](/handbook/sales/forecasting/).
 
-
 ### 3.3 Conduct [Executive Business Reviews](/handbook/customer-success/csm/ebr/) (CSMs)
 
 An [Executive Business Review (EBR)](/handbook/customer-success/csm/ebr/) is a strategic meeting with stakeholders from both GitLab and the customer. Together with the SAE/AE, a CSM is responsible for scheduling and conducting EBRs and working with their customers to achieve the primary objectives and desired business outcomes. The CSM will own the content creation, and together the SAE/AE and CSM will determine the flow of the review based on best practices and insight into the customer relationship.
@@ -115,9 +105,7 @@ CSMs should hold EBRs with each of their customers at least once per year. Large
 
 The CSM will coordinate with SALSA to determine who will invite the stakeholders to ensure we get the right people into the room, build the [EBR deck](https://docs.google.com/presentation/d/1FfHBVMsY2a3cteylz7Alq-K43OmBPLylBoVdIccsO8g/edit), and tell a story around the presentation that is solution and value focused.
 
-
 ## 4. Customer Account Expansion
-
 
 ### 4.1 CSM Customer Account Expansion Activities
 
@@ -139,11 +127,9 @@ For CSM Managers, here is a short checklist to assist in the review:
 - [Triage and Health](/handbook/customer-success/csm/csm-manager/#triage-and-health-review): Health for all CSM-assigned accounts have been updated within the last month, and any accounts in Triage are being evaluated
 - [Renewal Review](/handbook/customer-success/csm/csm-manager/#renewal-review): Upcoming customer renewals have been reviewed — the CSM has updated customer health and communicated with the SAE and SA for the upcoming renewal
 
-
 ### 4.3 SAE/AE Customer Account Expansion Activities
 
 Once renewal opportunities are identified at the monthly renewal meeting, the SAE/AE should conduct in-depth engagements with the customer with a baseline from the account/product tier purchased at the original deal closure.
-
 
 #### 4.3.1 Discovery Call Meetings
 

@@ -6,10 +6,6 @@ description: "To support and scale GitLab’s continued growth and success, the 
 
 ## Field Accreditation Program for Solutions Architects
 
-
-
-
-
 ## Overview
 
 To support and scale GitLab’s continued growth and success, the Field Enablement Team is developing an accreditation program for Solutions Architects that includes functional, soft skills, and technical training for field team members.  
@@ -32,7 +28,6 @@ The below slide shows the holistic learner journey for SAs and provides context 
     - Proof of Value Overview
     - Executing an Excellent POV
 - Introducing the CSM
-
 
 ## Recognition
 

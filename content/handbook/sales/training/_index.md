@@ -145,8 +145,7 @@ Live sales enablement sessions are held every Thursday from 12:00-12:30pm ET wit
 Live customer success enablement videocasts are held roughly every other Wednesday. Learn more by visiting the [Customer Success Skills Exchange Sessions](/handbook/sales/training/customer-success-skills-exchange/#past-sessions) Handbook page and/or check out the [Customer Success Skills Exchange playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KorkxIFgZGnzzxjZRCGROt_) on GitLab Unfiltered to watch past sessions at a location and time of your choosing.
 
 ## **Additional Notes**
+
 - Learn about GitLab customer training on the [GitLab Training Tracks site](https://about.gitlab.com/learn/)
 - Learn about the [weekly GitLab Field Enablement Spotlight series](/handbook/sales/training/sales-enablement-sessions/)
 - Learn about the [weekly GitLab SDR Enablement webcast series](/handbook/sales/training/sales-enablement-sessions/)
-
-
