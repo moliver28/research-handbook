@@ -154,18 +154,29 @@ Sr. Channel Solutions Manager is responsible for managing the relationship with 
 
 **Process**
 
-- Sr. Channel Solutions Manager and Consulting Coordinator verify that there is a fully executed Master Professional Services and Data Processing Agreements in place with the customer. Follow up with the PS Sr. Channel Solutions Manager if necessary.
+- Sr. Channel Solutions Manager and Project Coordinator verify that there is a fully executed Master Professional Services and Data Processing Agreements in place with the customer. Follow up with the PS Sr. Channel Solutions Manager if necessary.
 - After a mutual agreement has been achieved for the partnership, the  Sr. Channel Solutions Manager sends an initial version of the Consulting Subcontracting Prime Partner SOW to the partner for review.
 - If the partner makes redlines to the SOW, then the  Sr. Channel Solutions Manager works with GitLab's Legal team and the partner to receive a mutually agreed SOW.
-- The  Sr. Channel Solutions Manager notifies the Consulting Coordinator of the partner Consulting subcontracting Prime Partner SOW initiation. The Consulting Coordinator will create a new checklist issue to be added to the PC Partner SOW Tracker board for tracking purposes.
+- The  Sr. Channel Solutions Manager notifies the Project Coordinator of the partner Consulting subcontracting Prime Partner SOW initiation. The Project Coordinator will create a new checklist issue to be added to the PC Partner SOW Tracker board for tracking purposes.
 - Upon receiving SOW mutual agreement between GitLab and the partner, the Sr. Channel Solutions Manager submits a legal case to add a legal stamp to the Prime Partner SOW.
 - After receiving the legal stamped version of the Prime Partner SOW, the Sr Channel Solutions Manager sends it for GitLab and partner signature via DocuSign. Refer to this video for DocuSign basics.
-- After receiving the fully executed SOW, the Consulting Coordinator follows the Zip process steps to submit a request and PO for the Prime Partner SOW.
-- As the Prime Partner SOW is undergoing the signature and approval processes, the Consulting Coordinator will monitor the status and update the checklist issue on the PC Partner SOW Tracker board accordingly.
+- After receiving the fully executed SOW, the Project Coordinator follows the Zip process steps to submit a request and PO for the Prime Partner SOW.
+- As the Prime Partner SOW is undergoing the signature and approval processes, the Project Coordinator will monitor the status and update the checklist issue on the PC Partner SOW Tracker board accordingly.
 - After the SOW, Coupa req and PO are approved:
-  - Consulting Coordinator saves a copy of the fully executed Prime Partner SOW in the partner SFDC account and the applicable partner Google drive folder.
-  - Consulting Coordinator creates a partner and SOW-specific version of the Partner Invoicing SOW Consulting Funds Tracker within the applicable partner G-Drive folder.
+  - Project Coordinator saves a copy of the fully executed Prime Partner SOW in the partner SFDC account and the applicable partner Google drive folder.
+  - Project Coordinator creates a partner and SOW-specific version of the Partner Invoicing SOW Consulting Funds Tracker within the applicable partner G-Drive folder.
   - Sr. Channel Solutions Manager sends a copy of the fully executed Prime Partner SOW to the partner.
+
+The Project Coordinator reviews the internal capacity first prior to outsourcing to out partners for project delivery. Once it is determined that we need to have a partner staff a project, the PC will tag the partner contact in the partner slack channel with the project information. 
+
+After the Project Coordinator works with the partner lead on an agreed project assignment, the Project Coordinator will send the work authorization form for the partner to review and execute via Docusign.
+- Partner responds with candidates and availability
+        - If Engineer is not vetted, go to Step 2
+        - If Engineer is vetted, go to Step 4, activity # 3
+
+The Project Coordinator will track the Work Authorizations against the funding on the Prime Partner SOW.When submitting an update in Zip for our Partner PRIME SOW's, the total agreement amount is $300,000. Once the Partner PRIME PO has been depleted to $60,000, the Project Coordinator assigned to the specific Partner will submit a new purchase order request for $300,000 in Zip.
+
+
 
  **Consulting Work Authorization Form**
 
@@ -181,14 +192,10 @@ The Consulting subcontracting Prime Partner SOW includes a work authorization fo
               - Billing terms as determined in MSA, MPA or Sub-contracting Agreement
               - Travel and expenses (if on site required)
 
-    - PS Ops Team reaches out to list of viable partners looking for a specific role that needs to be staffed for a customer project
-    - Partner responds with candidates and availability
-        - If not vetted, go to Step 2
-        - If vetted, go to Step 4, activity # 3
+**Partner Monthly Invoicing**
 
-After a Consulting Coordinator works with the partner lead on an agreed project assignment,
-the Consulting Coordinator will send the work authorization form for the partner to review and execute.
-The Consulting Coordinator will track the Work Authorizations against the funding on the Prime Partner SOW.
+Each month end, our partners will submit their invoices for time spent on our projects into the Coupa Procurement System. The PC who originally submitted the PO request within the Procurement System will receive an email notification that there is an invoice waiting for approval.
+ 
 
 ### Customer Project Onsite Travel
 
