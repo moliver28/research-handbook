@@ -1,6 +1,6 @@
 ---
-title: AI Framework Group - Eval like I am 5
-description: "The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab AI feature development."
+title: Integrate with GitLab CI/CD
+description: "Using a CI/CD pipeline for evaluations provides several key benefits compared to running evaluations solely on your local machine."
 aliases: /handbook/engineering/development/data-science/ai-framework
 ---
 
