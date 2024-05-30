@@ -205,7 +205,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > You may need to refresh the page to see the new security scan section.
 
-1. In this example, the security scan will show 1 new medium vulnerability. To view the details of the vulnerability report, click the **Full report** button.
+1. In this example, the security scan will show 1 new high vulnerability. To view the details of the vulnerability report, click the **View all pipeline findings** button.
 
 ## Task E. Merge Request Vulnerability Report
 

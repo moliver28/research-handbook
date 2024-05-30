@@ -99,11 +99,21 @@ Steps:
 
 ## Automatic Enrollment to Sequences
 
-From FY24Q4 onwards, we will pilot [automatic triggers](https://support.outreach.io/hc/en-us/articles/221361788-How-To-Create-an-Outreach-Trigger) through Outreach. As a first iteration, we will be automatically enrolling leads that indicate a high Propensity to Purchase (PTP) score to a full High Touch outreach sequence. The filters applicable for this trigger are:
+
+From FY24Q4 onwards, we will pilot [automatic triggers](https://support.outreach.io/hc/en-us/articles/221361788-How-To-Create-an-Outreach-Trigger) through Outreach. 
+
+
+### Automatic High PTP Sequence
+
+As a first iteration, we will be automatically enrolling leads that indicate a high Propensity to Purchase (PTP) score to a full High Touch outreach sequence. The filters applicable for this trigger are:
 
 - Lead has direct phone in their record
 - Lead has a high PTP score (4 or 5)
 - Lead is actively enrolled to a Low Touch Sequence
+
+### Automatic Bounced Sequence
+
+We have an additional process where leads that [were automatically moved to disqualify lead status because of a wrong email]https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/7718(), BUT have a phone number associated to them, will automatically be enrolled to a [sequence.](https://web.outreach.io/sequences/13842)
 
 ## BDR Territory Movement Rules of Engagement
 
@@ -146,7 +156,7 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 ### 1. BDR Qualified Meeting
 
 - Are leads that have been qualified by the BDR over a Discovery call.
-- CoM principles have been applied to the call and some of the Before/After Scenarios, Positive Business Outcomes, Requirements and Metrics have been identified and agreed upon between the prospect and the BDR.
+- [CoM principles](https://docs.google.com/document/d/1m5YBOCc--M1Iq5-SEEd2OUWDjYyc6VJ3xTsDEEqisUQ/edit) have been applied to the call and some of the Before/After Scenarios, Positive Business Outcomes, Requirements and Metrics have been identified and agreed upon between the prospect and the BDR.
 - There is a clear need or intent identified from the side of the company, and the prospect has clearly articulated a path to the ultimate decision-maker, as per the guidelines for outbound SAO criteria.
 
 **BDR steps after discovery call**

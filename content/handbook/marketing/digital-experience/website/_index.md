@@ -255,6 +255,7 @@ group is [`group::distribution`](https://gitlab.com/groups/gitlab-org/-/labels?u
 - `cm`: the Content Marketer
 - `backend_engineering_manager`: the Backend Engineering Manager
 - `frontend_engineering_manager`: the Frontend Engineering Manager
+- `fullstack_engineering_managers`: the Fullstack Engineering Managers
 - `support`: the Support Engineer
 - `pdm`: the Product Design Manager
 - `ux`: a list of Product Designers

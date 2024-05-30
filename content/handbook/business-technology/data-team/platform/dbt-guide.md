@@ -10,7 +10,7 @@ description: "data build tool (dbt) Guide"
 
 ## What and why
 
-dbt, short for [data build tool](https://www.getdbt.com/), is an [open source project](https://github.com/fishtown-analytics/dbt) for managing data transformations in a data warehouse. Once data is loaded into a warehouse, dbt enables teams to manage all data transformations required for driving analytics. It also comes with built in testing and documentation so we can have a high level of confidence in the tables we're generating and analyzing.
+dbt, short for [data build tool](https://www.getdbt.com/), is an [open source project](https://github.com/dbt-labs/dbt-core) for managing data transformations in a data warehouse. Once data is loaded into a warehouse, dbt enables teams to manage all data transformations required for driving analytics. It also comes with built in testing and documentation so we can have a high level of confidence in the tables we're generating and analyzing.
 
 The following links will give you an excellent overview of what dbt is:
 
@@ -319,7 +319,7 @@ When running/building/testing a model from VS code UI, the terminal window poppi
 
 If you're interested in contributing to dbt, here's our recommended way of setting up your local environment to make it easy.
 
-- Fork the [dbt project](https://github.com/fishtown-analytics/dbt) via the GitHub UI to your personal namespace
+- Fork the [dbt project](https://github.com/dbt-labs/dbt-core) via the GitHub UI to your personal namespace
 - Clone the project locally
 - Create a virtual environment (venv) for dbt following these commands
 
@@ -337,7 +337,7 @@ If you're interested in contributing to dbt, here's our recommended way of setti
 - Run `which dbt` to ensure it's pointing to the venv
 - Develop code locally, commit your changes as you would, and push up to your namespace on GitHub
 
-When you're ready to submit your code for an MR, ensure you've [signed their CLA](https://github.com/fishtown-analytics/dbt/blob/dev/0.15.1/CONTRIBUTING.md#signing-the-cla).
+When you're ready to submit your code for an MR, ensure you've [signed their CLA](https://github.com/dbt-labs/dbt-core/blob/dev/0.15.1/CONTRIBUTING.md#signing-the-cla).
 
 ## Style and Usage Guide
 
@@ -345,7 +345,7 @@ When you're ready to submit your code for an MR, ensure you've [signed their CLA
 
 As we transition to a more Kimball-style warehouse, we are improving how we organize models in the warehouse and in our project structure.
 The following sections will all be top-level directories under the `models` directory, which is a dbt default.
-This structure is inspired by how Fishtown Analytics [structures their projects](https://discourse.getdbt.com/t/how-we-structure-our-dbt-projects/355).
+This structure is inspired by how dbt Labs [structures their projects](https://docs.getdbt.com/best-practices/how-we-structure/1-guide-overview).
 
 {{% panel header="**Legacy Structure**" header-bg="warning" %}}
 Prior to our focus on Kimball dimensional modeling, we took inspiration from the BEAM\* approach to modeling introduced in ["Agile Data Warehouse Design" by Corr and Stagnitto](https://books.google.com/books/about/Agile_Data_Warehouse_Design.html?id=TRWFmnv8jP0C&source=kp_book_description).
@@ -721,11 +721,11 @@ This switch is controlled by the target name defined in the `profiles.yml` file.
 
 ##### dbt-utils
 
-In our dbt project we make use of the [dbt-utils package](https://github.com/fishtown-analytics/dbt-utils). This adds several macros that are commonly useful. Important ones to take note of:
+In our dbt project we make use of the [dbt-utils package](https://github.com/dbt-labs/dbt-utils). This adds several macros that are commonly useful. Important ones to take note of:
 
-- [group_by](https://github.com/fishtown-analytics/dbt-utils#group_by-source) - This macro build a group by statement for fields 1...N
-- [star](https://github.com/fishtown-analytics/dbt-utils#star-source) - This macro pulls all the columns from a table excluding the columns listed in the except argument
-- [surrogate_key](https://github.com/fishtown-analytics/dbt-utils#surrogate_key-source) - This macro takes a list of field names and returns a hash of the values to generate a unique key
+- [group_by](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#group_by-source) - This macro build a group by statement for fields 1...N
+- [star](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#star-source) - This macro pulls all the columns from a table excluding the columns listed in the except argument
+- [surrogate_key](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#generate_surrogate_key-source) - This macro takes a list of field names and returns a hash of the values to generate a unique key
 
 ### Seeds
 
@@ -1055,7 +1055,7 @@ Column Value Tests determine if the data value in a column is within a pre-defin
 
 Column value tests can be added as both YAML and SQL. dbt natively has tests to assert that a column is not null, has unique values, only contains certain values, or that all values in a column are represented in another model (referential integrity).
 
-We also use the [dbt-utils](https://github.com/fishtown-analytics/dbt-utils) package to add even more testing capabilities.
+We also use the [dbt-utils](https://github.com/dbt-labs/dbt-utils) package to add even more testing capabilities.
 
 All Column Value Tests result in a PASS or FAIL status.
 
@@ -1365,7 +1365,7 @@ In some cases there is a need to have a record per day, rather than a record per
 In date spining, a snapshot model is joined to a date table based on `dbt_valid_from` and `dbt_valid_to`.
  A good example of daily snapshot model is [dim_subscriptions_snapshots table](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/staging/common/dim_subscriptions_snapshots.sql) where [source model of zuora_subscription_snapshots](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/snapshots/zuora/zuora_subscription_snapshots.sql) is joined to  [dim_dates](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/staging/common/dim_dates.sql) based on `dbt_valid_from` and `dbt_valid_to`. This join results with one record per subscription per day with subscription version that was active on given day (called snapshot_date).
 
-Another possibility to generate daily records is using [dbt utility function date_spine](https://github.com/fishtown-analytics/dbt-utils/blob/master/macros/datetime/date_spine.sql). We use this function currently to generate [date details source model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/date/date_details_source.sql).
+Another possibility to generate daily records is using [dbt utility function date_spine](https://github.com/dbt-labs/dbt-utils?tab=readme-ov-file#date_spine-source). We use this function currently to generate [date details source model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/date/date_details_source.sql).
 
 We also have a convenience macro [create_snapshot_base](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/macros/utils/create_snapshot_base.sql) that utilizes date_spine to generate model with daily records out of any snapshot table. For example implementation look at [sfdc_opportunity_snapshots_base model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/sfdc_opportunity_snapshots_base.sql).
 

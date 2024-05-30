@@ -1085,14 +1085,14 @@ G. Please note that backdated amendments for adding additional users can be proc
 
 ### Alliance Marketplace Private Offers
 
-Effective Friday, 2022-04-08, Deal Desk manages AWS and GCP Private Offer creation and acceptance.
+Deal Desk manages AWS and GCP Private Offer creation and acceptance.
 
 #### Process Overview
 
 - **All Private Offer requests must be made in chatter by tagging @Sales-Support on the related SFDC opportunity.** All Private Offer requests must include the following information:
   - Customer's AWS or GCP Billing ID
   - Customer Contact name and email address
-  - Allaince margin
+  - Alliance margin
   - For GCP deals Mode of payment(Prepay or Postpay) should be confirmed when making a private offer request
     - Note: This contact must have the necessary permissions to accept the Private Offer in the marketplace
 - After a Private Offer request is made, Deal Desk will review the request and confirm the quote is tagged appropriately for AWS/GCP and confirm the Order Form acceptance section also includes AWS or GCP marketplace language.
@@ -1100,26 +1100,21 @@ Effective Friday, 2022-04-08, Deal Desk manages AWS and GCP Private Offer creati
 - At time of acceptance, an email will be sent to the GitLab Team and Deal Desk will chatter the documentation to close the deal.
 - The AWS and GCP deals do not need to be signed.
 - When the deal is Closed Won, the license key file/subscription details will be automatically sent to the 'Sold To' contact on the GitLab Order Form.
--For Route-to-market changes contract reset needs to be done . Credit will not be included in the order form and will be refunded at the time of booking based on the original mode of payment.
+-For Route-to-market changes contract reset needs to be done. Credit will not be included in the order form and will be refunded at the time of booking based on the original mode of payment.
 -All Private offers are sent via Tackle.
 - Any queries related to tackle can be reached out at support@tackle.io
 -For AWS Portal queries i.e trouble accepting private offers or setting up an account can be reached at mpcustdesk@amazon.com
 - For GCP Portal queries can be reached at private-offers-team@google.com
 
-#### Working with Deal Desk vs. Alliance Business Development Managers (ABDMs)
+#### Working with Deal Desk vs. Partner Territory Managers (PTMs) and Partner Account Managers (PAMs)
 
-Please note that Deal Desk handles only Private Offer creation, edits to Private Offers, and the acceptance of Private Offers. For any other matters related to Alliances deals, **Sales must work with the appropriate ABDM.** The Alliances team can provide assistance and best practices that are vital to a successful marketplace transaction.
+Please note that Deal Desk handles only Private Offer creation, edits to Private Offers, and the acceptance of Private Offers. For any other matters related to Alliances deals, **Sales must work with the appropriate PTM or PAM.** The Alliances team can provide assistance and best practices that are vital to a successful marketplace transaction.
 
-To reach an ABDM, use the #a_aws_deal_registration or #a_gcp_deal_registration Slack channels.
+To reach a PTM or PAM, use the #cloud-aws or #cloud-gcp Slack channels.
 
 #### Alliance Deal/Private Offer Resources
 
-- Internal Handbook:
-  - [Google Cloud Platform](https://internal.gitlab.com/handbook/alliances/gcp/)
-  - [Amazon Web Services](https://internal.gitlab.com/handbook/alliances/aws/)
-- Marketplace FAQ
-  - [Google Cloud Private Offers](https://docs.google.com/document/d/1S0k0T12xkXajpHt9uvl3YDA4OSOwS6qB9pHmRKiqCgA/edit#bookmark=id.5hmmfbjqr9xn)
-  - [Amazon Web Services Private Offer](https://docs.google.com/document/d/1S0k0T12xkXajpHt9uvl3YDA4OSOwS6qB9pHmRKiqCgA/edit#bookmark=id.ee7ef9xn6p1k)
+Refer to [Cloud Co-selling](https://internal.gitlab.com/handbook/alliances/cloud-co-selling/) for additional information.
 
 ### Opportunity Categorization
 

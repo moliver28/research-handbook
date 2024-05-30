@@ -144,7 +144,7 @@ An unsubscribe link must be included on every email sent by a BDR, including res
 
 ### Do Not Call and Do Not Email Automations
 
-Leads with certain criteria will be automatically labeled as **Do Not Call** and or **Do Not Email** shortly after loading into our database. It's understandable this can be frustrating for certain territories. Please keep in mind, the criteria behind this automation has been set in order to follow local law. Please see the [Internal GitLab handbook](https://internal.gitlab.com/handbook/marketing/marketing-strategy-and-platforms/marketing-operations/do-no-contact) for more information on the triggers.
+Leads with certain criteria will be automatically labeled as **Do Not Call** and or **Do Not Email** shortly after loading into our database. It's understandable this can be frustrating for certain territories. Please keep in mind, the criteria behind this automation has been set in order to follow local law. Please see the [Internal GitLab handbook](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/do-not-contact/?search=do+not+call) for more information on the triggers.
 
 ### How to enroll to outreach
 
@@ -238,6 +238,16 @@ For more personal events, such as Executive Roundtables, there many be more deta
   - password should be in onboarding issue or ask your manager
 - GitLab Edcast: [Advanced Outreach Training](https://gitlab.edcast.com/journey/weeks)
 - Best Practices: [Our Outreach Handbook Page](/handbook/marketing/marketing-operations/outreach/)
+
+### How to Change your Email Signature 
+
+You must change your email signature [in Terminus](https://handbook.gitlab.com/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Outreach or Gmail your signature will revert back within 24 hours. 
+
+**Steps to change your signature**
+1. [Log into Terminus](https://email2.terminusplatform.com/users/sign_in/) using your GitLab Google Account
+2. After logging in click on the Terminus logo in the top left corner 
+3. Next click the menu item for "Email Experiences" 
+4. From there you can edit your signature and see a preview of it on the right side of your screen. 
 
 ## How to follow our FO Outbound Process
 

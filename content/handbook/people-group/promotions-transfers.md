@@ -89,10 +89,15 @@ The Sales Development organization reviews In-Cycle Promotions on a monthly basi
 | [Calibration]({{< ref "promotions-transfers#calibration" >}}) | The calibration exercise is an opportunity for leaders (sync or async) to review projected promotions on a twice per year basis. This is an opportunity to create visibility and ensure consistency in who we are promoting and why. |
 | [Processing]({{< ref "promotions-transfers#process-for-managers-requesting-a-promotion" >}}) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse). |
 
-**Managers do not need to submit promotions that are part of the twice per year calibration process via Workday or Greenhouse. These will be processed by the PBP, Total Rewards, and People Connect team following calibration and Division leader approval.** Below is the timeline for FY24:
+#### Sales Development Process
 
-**Previously, we promoted on a quarterly basis, but transitioned to twice per year to ensure efficiency and scalability of our promotion process. We will move to our twice per year cadence effective in Q1 FY'25, meaning that Q3 FY'24 will be our last quarterly promotion cycle.**
+Sales Development promotions will be reviewed on a monthly basis.
 
+- Planning & Calibration: by the third week of each month
+- Processing: promotions must be added to HRIS by the 5th day of each effective month
+- Effective date for promotions: 2023-11-01, 2023-12-01, 2024-01-01
+
+Below is the timeline for FY25:
 *Please note that the Calibration timeline for Senior Director+ promotions will differ slightly from the timelines indicated above, as Senior Director+ promotions are calibrated twice per year at the [E-group offsite]({{< ref "offsite#schedule" >}}).*
 
 ### FY25-Q1 (1st Half)
@@ -105,60 +110,23 @@ The Sales Development organization reviews In-Cycle Promotions on a monthly basi
     - Effective date for promotions: 2023-02-01.
     - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
 
-### FY24-Q2
+## FY25-Q3 (2nd Half)
 
-*Status:* Completed.
-
-- Planning: 2023-03-15 to 2023-04-01
-- Calibrations: 2023-04-01 to 2023-04-15
-- Processing: 2023-04-15 to 2023-05-01 (promotions must be added to Workday by 2023-04-20)
-    - Effective date for promotions: 2023-05-01.
-    - Communication: After fully approved in either Greenhouse or Workday
-    - After communicating 1:1 with individuals **on or after 2023-04-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
-
-### FY24-Q3
-
-*Status:* In progress.
-
-- Planning: 2023-06-12 to 2023-06-23
-- Calibrations: 2023-06-26 to 2023-07-14
-- Processing: 2023-07-17 to 2023-08-01 (promotions must be added to HRIS by 2023-07-20)
-    - Effective date for promotions: 2023-08-01.
-    - Communication: After fully approved in either Greenhouse or Workday
-    - After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
-
-#### Sales Development Process
-
-Sales Development promotions will be reviewed on a monthly basis.
-
-- Planning & Calibration: by the third week of each month
-- Processing: promotions must be added to HRIS by the 5th day of each effective month
-    - Effective date for promotions: 2023-11-01, 2023-12-01, 2024-01-01
-
-### FY25-Q1
-
-*Status:* Upcoming. Aligned with [Annual Compensation Cycle]({{< ref "compensation-review-cycle#annual-compensation-review-timeline" >}})
-
-- Planning: 2023-12-18 to 2024-01-05
-- Calibrations: 2024-01-08 to 2024-01-19
-- Processing: 2024-01-22 to 2024-02-01 (Promotions must be added to Workday by 2024-01-19)
-    - Effective date for promotions: 2024-02-01.
-    - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
-         - There will be a window from 2024-02-21 to 2024-02-29 for manager to proactively communicate promotion approval and new job titles.
-
-### FY25-Q3 (2nd Half)
+Status: In progress
 
 - Planning: 2024-06-10 to 2024-06-21
-- Calibrations: 2024-06-24 to 2024-07-10
-- Approvals & Workday input: 2024-07-16 to 2024-07-18
+- Calibrations & Workday input by Director+: 2024-06-24 to 2024-07-10
+- Workday Approvals: 2024-07-16 to 2024-07-18
 - Communication: 2024-07-24 to 2024-08-01
-    - Effective date for promotions: 2024-08-01
-    - Communication: After fully approved in Workday
-    - After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
+- Effective date for promotions: 2024-08-01
+- Communication: After fully approved in Workday
+- After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
 ## Planning
 
-Promotion Planning is generally done via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
+Q3 Promotion Planning is generally done via spreadsheets to maintain confidentiality and enable collaboration across department leaders where appropriate. Prior to the Planning phase in the timeline above, People Business Partners will make sure the spreadsheets are up to date before going into the Calibration phase.
+
+Once the Calibration phase by Division is complete, Directors and above will have the ability to enter promotion compensation recommendations into the Workday planning grid. For specific Division calibration meeting timelines, please reach out to your People Business Partner.
 
 ### Promotion Document
 

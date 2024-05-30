@@ -203,7 +203,6 @@ It's sometimes hard to remember to stay active when you work from home. Here are
 - If possible, choose a workspace that's exposed to [natural light](https://www.makegreatlight.com/wp-content/uploads/Health_Benefits_Natural_Light.pdf).
 - Avoid "Digital Eye Strain" by following the [20-20-20 Rule](https://www.healthline.com/health/eye-health/20-20-20-rule#definition). Every 20 minutes look into the distance (at least 20 feet/6 meters) for 20 seconds.
 - Use an app - there are some that will remind you to take a break or help you with your computer posture:
-    - [PostureMinder](http://www.postureminder.co.uk) (Windows)
     - [Time Out](https://itunes.apple.com/us/app/time-out-break-reminders/id402592703?mt=12 )(macOS)
     - [Awareness](http://iamfutureproof.com/tools/awareness) (macOS)
     - [SafeEyes](https://slgobinath.github.io/SafeEyes) (GNU/Linux)
