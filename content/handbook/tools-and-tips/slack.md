@@ -111,6 +111,14 @@ For full information on Slack reminders [see the Slack help](https://get.slack.h
 
 Building dedicated time into your day can help minimize the distractions that Slack can create. Consider using a 15 or 30 minute block in your morning or afternoon to enjoy a cup of coffee and catch up on messages you might have missed. When the time you set comes to an end, close out of the Slack app and move on to your next project. Having a set end time can help you feel more in control, and serves as a reminder that [it's impossible to know everything](/handbook/values/#its-impossible-to-know-everything)
 
+### Scheduled Slack Messages
+
+To foster a more inclusive environment at GitLab, we can minimize sending messages outside of the recipient's working hours or when their notifications are disabled, unless it's absolutely necessary. In Slack, you can schedule messages to be sent later, which helps reduce immediate disruptions. You can still edit, delete, or cancel scheduled messages, making it a very convenient tool to use.
+
+It's simple: when composing a message, click the arrow icon (next to the paper plane icon) to schedule it for a later time.
+
+For more details on scheduling messages in Slack, please refer to [Slack help](https://slack.com/help/articles/201457107-Send-and-read-messages#:~:text=hide%20formatting%20tools-,Send%20or%20schedule%20messages,-You%20can%20send).
+
 ### Minimize Visual Distractions
 
 Animated images and emoji can add meaning to conversation, but they can also be distracting.
