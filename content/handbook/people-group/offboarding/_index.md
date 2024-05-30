@@ -66,10 +66,9 @@ The manager and the team member should have walked through the guidelines on [un
 1. **Manager**: Reach out to the their TMR specialist for assistance.
     - TMR will ask about what the performance issues have been, how they have been attempted to be addressed, and review all manager/team member documentation.
     - Once the review has been completed and the decision has been made to offboard the team member, the manager should review the best timing for the involuntary offboarding call and termination date. We recommend to avoid scheduling a involuntary offboarding call while a team member is scheduled for any sensitive customer meetings or is on-call, per guidance below under Last working day.
-    - TMR will enter and approve the offboarding in
-      Workday. Once entered, the releavant offboarding stakeholders will receive an alert via Workday reports or a Workday notification.
-    - TMR will work with IT in a seperate Slack channel
-    1. **TMR**: TMR will create a private Slack channel that will include the PBP, Manager, and Leader of the organization to review the offboarding and agreed upon offboarding date.
+    - TMR will enter and approve the offboarding in Workday. Once entered, the releavant offboarding stakeholders will receive an alert via Workday reports or a Workday notification.
+    - TMR will work with IT in a seperate Slack channel.
+1. **TMR**: TMR will create a private Slack channel that will include the PBP, Manager, and Leader of the organization to review the offboarding and agreed upon offboarding date.
 1. **TMR**: If applicable, TMR will prepare the severance agreement in preparation for the call between the TMR specialist, Manager, and team member. Additional guidelines for the preparation of this agreement can be found below in the [Separation and Release of Claims Agreements](#separation-agreement) section. To determine whether or not a severance agreement is applicable, please refer to the `Severance Elgibility` guidelines accessible by PBPs, and Team Member Relations Specialist.
 1. **Manager**: Once the date and time is confirmed, the manager will schedule time with the team member and send the TMR specialist a *private and separate calendar invite* with the Zoom details for the meeting with the team member to share the news of the offboarding.
 1. **Payroll**: If the team member is employed by a PEO/entity with statutory leave requirements, review if any time off needs to be paid on the last paycheck by looking in Workday in the `Time Off` section.
