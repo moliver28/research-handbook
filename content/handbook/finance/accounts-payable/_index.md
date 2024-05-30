@@ -20,7 +20,7 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
 - All purchases/services with a total contract value over $5000 are **required** to have a purchase order, unless it falls under the [PO Exception Policy](/handbook/business-technology/enterprise-applications/guides/coupa-guide#how-to-receive-an-order). This also applies to one off purchases over $5,000.00. Repeat purchases from the same vendor should have a PO.
 - Invoice Entity and Invoice Currency should be matched to the PO Entity and PO Currency.
 - Ensure to indicate the PO number in the invoice copy. For Non-PO invoice, provide the related department to be charged.
-- Vendors are highly encouraged to directly upload their invoices and match it to their PO using the Coupa Supplier Portal- in the event the vendor is unable to submit invoices via Coupa then they can email PDF copies to [AP@gitlab.com](AP@gitlab.com).
+- Vendors are highly encouraged to directly upload their invoices and match it to their PO using the Coupa Supplier Portal- in the event the vendor is unable to submit invoices via Coupa then they can email PDF copies to ap@gitlab.com.
 - Payment Runs are completed on Thursdays. Invoices that are selected for payment on Thursday must be fully approved and vendors successfully on-boarded by end of day Tuesday of that week to be included in Thursday’s payment run. The payments go out in the following days and may take 1-5 business days to reach the vendor’s bank. This depends on the country, currency and the method of payment chosen.
 - Invoices are paid strictly by the invoice due dates. Any **“Urgent Payment”** requests will be paid in the next available payment run as long as they have been fully approved and the vendor has been successfully on-boarded. **AP cannot accommodate same day payment requests**.
 - Suppliers are to be paid via CoupaPay, ACH or Wire only. AP does not issue check payments.
@@ -90,7 +90,7 @@ GitLab’s preferred method of payment for suppliers is electronic funds transfe
 
 ## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fab fa-gitlab fa-fw"></i> Global Travel and Expense
 
-- Please review the page on [Spending Company Money](https://handbook.gitlab.com/handbook/finance/spending-company-money/) to ensure that your spend is within GitLab’s [Expense policy](https://handbook.gitlab.com/handbook/finance/expenses/). 
+- Please review the page on [Spending Company Money](https://handbook.gitlab.com/handbook/finance/spending-company-money/) to ensure that your spend is within GitLab’s [Expense policy](https://handbook.gitlab.com/handbook/finance/expenses/).
 - GitLab utilizes **Navan Travel** for all travel related Flights, Hotels, Train Travel and Vehicle Rental bookings and **Navan Expense** for all Employee reimbursable expenses.
 - It also includes the preparation for **Navan Purchase Card** and **Physical Cards**.
 - [Navan Purchase Card](https://handbook.gitlab.com/handbook/finance/expenses/#6-purchase-cards) - These are virtual cards only utilized by the AP team, and they are used solely for providing new Team Members with a $1,500 USD (or local currency equivalent) stipend for their home office set up upon onboarding.
@@ -105,7 +105,7 @@ GitLab’s preferred method of payment for suppliers is electronic funds transfe
 <a href="{{< ref "../accounts-payable/corp-credit-cards" >}}" class="btn btn-lg btn-primary"><i class="fa-regular fa-credit-card"></i> Corporate Credit Card</a>
 <a href="{{< ref "../procurement" >}}" class="btn btn-lg btn-primary"><i class="fa-solid fa-cart-plus"></i> Procurement</a>
 
-### <i id="biz-tech-icons" class="far fa-flag"></i> Reference link:
+### <i id="biz-tech-icons" class="far fa-flag"></i> Reference link
 
 - [Coupa Tech Stack Guide](https://handbook.gitlab.com/handbook/finance/accounts-payable/tech-stack-guide-coupa/)
 - [Navan Expense Stack Guide](https://handbook.gitlab.com/handbook/finance/accounts-payable/tech-stack-guide-liquid/)
