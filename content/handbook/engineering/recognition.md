@@ -45,7 +45,7 @@ In total, 14 team members from across the Engineering organization will be recog
 
 #### Engineering Efficiency
 
-1. **Best Blueprint Proposal Award** - awarded to individuals who submit well thought-out, technically-sound proposals on items that require cross-functional communication and influence
+1. **Best Design Proposal Award** - awarded to individuals who submit well thought-out, technically-sound [architecture design document](/handbook/engineering/architecture/workflow/#design-documents) proposals on items that require cross-functional communication and influence
 1. **Cost Savings Award** - awarded to individuals who significantly contribute towards reducing costs
 1. **Software Efficiency Award** - awarded to individuals who implement an abstraction, pattern, or library that makes future development efforts much more efficient
 1. **Proactive Avoidance Award** - awarded to individuals who raise concerns about things *before* they become disastrous incidents
