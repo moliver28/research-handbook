@@ -37,6 +37,7 @@ The Rules engine is a business automation tool build within Gainsight that allow
 The `Connectors 2.0` is used as one of the main ingestion methods of data from Salesforce to Gainsight and is a native built integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce Instance. More information in regards to the connector and how to set it up [in Gainsights Knowledge Base](https://support.gainsight.com/Gainsight_NXT/01Onboarding_and_Implementation/Onboarding_for_Gainsight_NXT_in_Salesforce/Salesforce_Connector/Salesforce_Connector_Overview).
 
 The `Connectors 2.0` is used between our Salesforce instance and Gainsight instance to mainly sync three objects:
+
 - Accounts
 - Contacts
   - The Upsert key for contacts is their email address. This is useful when it comes to the bi-directional sync of contacts that are created in Gainsight.
@@ -191,4 +192,3 @@ Below are the Gainsight bundles (permission sets) and relevant access categories
 | Admin: Reporting                      | Admin access to build, share, and modify reports and dashboards | ✓                          |             |              |                            |             | ✓           |
 | Admin: Rules Engine                   | Admin access to create rules (workflows) to run CTAs and other operations | ✓                |             |              |                            |             | ✓           |
 | Admin: User Provisioning              | Admin access: user provisioning and deprovisioning access    | ✓                             |             |              |                            |             |             |
-

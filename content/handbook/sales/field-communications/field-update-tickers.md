@@ -39,7 +39,6 @@ In the current iteration, the Update Tickers contain information and updates rel
 1. Add the link to the relevant ticker in your team meeting agenda for easy reference and access.
 2. Pull the information from the ticker and regionalize where appropriate in your team meetings, Slack channels and/or 1:1 meetings. You know your region best so you can add any additional considerations or additional directives for your team.
 
-
 ## Format
 
 This is the current iteration of the Update Ticker:
@@ -54,7 +53,6 @@ This is the current iteration of the Update Ticker:
       - Share with customers: This information is customer-facing and should be shared with customers (i.e. blog posts, new product feature releases, etc.)
    - Updates:
         Each update is summarized in 2-5 sentences and includes links for more information and details
-
 
 ## Process
 

@@ -20,7 +20,6 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 {: #business-objectives}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-
 ### Campaign Visual
 
 {: #campaign-visual}
@@ -33,9 +32,10 @@ MURAL goes here
 {: #campaign-activities}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-**[See the FY22 Marketing Calendar for upcoming virtual events >>]()**
+**See the FY22 Marketing Calendar for upcoming virtual events**
 
 Always On Lead Generation:
+
 - :books: Content |
 - :video_camera: On-Demand Webinar |
 
@@ -55,12 +55,10 @@ Always On Lead Generation:
 {: #keyword-research .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-
 ### Polished Messaging
 
 {: #polished-messaging .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
-
 
 ## Buyer Journeys, Content & Emails
 
@@ -87,7 +85,6 @@ Always On Lead Generation:
 1. Consideration Content:
 1. Decision/Purchase Content:
 
-
 ### Marketo Nurture Emails
 
 {: #nurture-emails .gitlab-purple}
@@ -106,6 +103,8 @@ Always On Lead Generation:
 
 {: #campaign-execution .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
+```text
 - [Campaign Epic]()
 - [Project timeline plan (GANTT)]()
 - [Copy Doc]()
+```

@@ -21,6 +21,7 @@ In June 2021, Jeff Martin changed roles to a [Senior IT Systems Engineer](/job-f
 For questions about what demo sample projects are available or peer assistance with troubleshooting your failed pipeline job, please ask in the `#cs-questions` Slack channel.
 
 Please tag `@Jeff Martin` in one of the following Slack channels with any questions or requests related to infrastructure or access requests.
+
 - `#demo-systems` is for SA, CSM, and PSE team members with questions or needing technical assistance. No longer for training/workshop related posts.
 - `#demo-systems-workshops` is for workshop-related discussions.
 - `#demo-systems-ps-education` is for ILT/SPT/etc related discussions for Professional Services.

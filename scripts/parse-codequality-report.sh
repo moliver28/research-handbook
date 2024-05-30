@@ -50,8 +50,7 @@ fi
 
 if [ -f handbook-codequality.json ] && [ -f markdownlint-cli2-codequality.json ]; then
     echo "Using combined codequality.json"
-    sed 's|\]|,|' handbook-codequality.json >> codequality.json
-    sed 's|\[||' markdownlint-cli2-codequality.json >> codequality.json
+    jq -s '.[0] + .[1]' handbook-codequality.json markdownlint-cli2-codequality.json > codequality.json
     REPORT=codequality.json
 elif [ -f handbook-codequality.json ]; then
     echo "markdownlint-cli2-codequality.json not present... using handbook-codequality.json only"

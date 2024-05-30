@@ -212,7 +212,7 @@ Make attacks less attractive.
 
 #### Links
 
-- [Zero Trust](/handbook/security/architecture/zero-trust) at GitLab
+- [Zero Trust](/handbook/security/product-security/architecture/zero-trust) at GitLab
 
 </details>
 
@@ -398,7 +398,7 @@ aka Fail Safe Defaults.
 #### Links
 
 - <https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>
-- [Zero Trust](/handbook/security/architecture/zero-trust) at GitLab
+- [Zero Trust](/handbook/security/product-security/architecture/zero-trust) at GitLab
 
 </details>
 
@@ -519,7 +519,7 @@ We are targeting the Maturity Level 1 for FY23-Q1, and our roadmap is discussed 
 - [OSA](https://www.opensecurityarchitecture.org/cms/)
 - [NIST CSF](https://www.nist.gov/cyberframework)
 - [CIS Critical Security Controls](https://www.cisecurity.org/controls)
-- [OWASP Cyber Defense Matrix](https://owasp.org/www-project-cyber-defense-matrix/)
+- [Cyber Defense Matrix](https://cyberdefensematrix.com/)
 - [AWS Well Architected Framework](https://aws.amazon.com/architecture/well-architected/)
 - [OWASP Developer Guide Reboot](https://github.com/OWASP/DevGuide)
 - [Google Cloud: Optimize your system design using Architecture Framework Principles](https://cloud.google.com/blog/topics/solutions-how-tos/optimize-your-system-design-using-architecture-framework-principles)

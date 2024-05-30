@@ -5,16 +5,6 @@ description: "This document describes how CSMs and SAs are assigned to accounts 
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
-
 ## Purpose
 
 Document how, why, when, and where CSMs and SAs are populated in Gainsight and Salesforce for the end result of tracking ownership and tracking for compensation and President’s Club.
@@ -53,7 +43,7 @@ The end result is knowing average SA workload, compensation payout, and Presiden
 #### Limitations/Challenges
 
 Note: all limitations below have to do with the SA as the Primary SA and the activities logged (Salesforce tasks).
+
 1. Primary versus supporting SAs: When there are multiple SAs involved on a single opportunity this can be a problem. For example, you will have SA #1 listed as the Primary SA, SA #1 will have activities logged to this opp, but then you will also have SA #2 logging activities to the same opp. This is especially common for SAs on Brian Wald's team (SFO Team)
 1. When SA Activities are logged to an opportunity that is either merged to another opportunity and/or marked as a duplicate opportunity. Making sure that all the tasks logged to these previous opportunities (merged/duplicate) get mapped to the newer "primary" opportunity is complex and handled by custom SQL for the SA dashboards.
 1. When SA Activities are logged to an account rather than an opportunity. Some of these Salesforce tasks are valid since the SA may be working with a prospect/customer before there is an opportunity created but other times it is mostly due to troops UI making it difficult to select the correct opportunity. We currently have some custom SQL logic that ties these SA Activities to opportunities based on the SFDC Account ID and a specific timeframe of when the activity occurred with respect to the opportunity close date but it is certainly not 100% accurate.
-

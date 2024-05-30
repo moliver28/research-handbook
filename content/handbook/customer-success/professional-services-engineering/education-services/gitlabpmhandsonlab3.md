@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Use GitLab Planning Tools"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Use GitLab Planning Tools"
 description: "This Hands-On Guide walks you through creating epics, iterations, and milestones in GitLab."
 ---
 
@@ -137,7 +137,7 @@ You will later assign tasks to the epics and milestones you created, allowing yo
 
 ## Task E. Schedule iterations as team sprints
 
-    > Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/ee/user/group/iterations/).
+> Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/ee/user/group/iterations/).
 
 1. In your subgroup structure, navigate to **Awesome Inc > Software**.
 

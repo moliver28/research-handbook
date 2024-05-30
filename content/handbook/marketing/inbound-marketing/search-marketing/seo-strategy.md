@@ -1,10 +1,7 @@
 ---
-
 title: "GitLab SEO strategy"
 description: "The Search Marketing team is repsonsible for the creation and execution of GitLab's SEO strategy."
 ---
-
-# GitLab SEO strategy
 
 GitLab's go-to-market success depends on people organically discovering our product and company. The two primary ways we achieve organic discovery are with our brand and search engine optimization (SEO). Our SEO strategy will take advantage of our existing strengths and improve critical areas to ensure our ideal visitors find GitLab through search engines.
 
@@ -106,6 +103,7 @@ At GitLab, we believe that everyone can contribute. This leads the Search Market
 For our initial focus, the Search Marketing team will create videos to share best practices for on-page content and long-term care of URLs, including managing internal redirects.
 
 ## How our SEO strategy impacts content strategy
+
 We want to build content clusters that match the intent of our target visitors with relevant content with a depth designed to engage people as they land on a page.
 
 Our pages should minimize keyword overlap in page titles and headings, and avoid keyword stuffing.

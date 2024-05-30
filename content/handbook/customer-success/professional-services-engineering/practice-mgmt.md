@@ -29,6 +29,7 @@ You can check out our team on the [team page here](/handbook/company/team/?depar
 We use the [PS-Practice-Management](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management) project to track our [backlog of issues](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management/-/issues).
 
 We use a few different [kanban boards](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management/-/boards/2685806?label_name[]=EM_Process) in this project to help track work from ideation to completion.
+
 - We use the scoped labels starting with `ps::` e.g. `ps::todo` to track progress on issues.
 - We use the `EM_process` label for engagement management and pre sales process improvements
 - We use the `PM-process` label for project management and delivery process improvements

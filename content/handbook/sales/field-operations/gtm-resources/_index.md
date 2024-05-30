@@ -13,8 +13,6 @@ description: "Operations, Procedures, Documentation"
 
 ---
 
-
-
 ## Reaching the Teams (internally)
 
 ### Issues and Projects
@@ -73,7 +71,7 @@ description: "Operations, Procedures, Documentation"
 | SQO | Sales Qualified Opportunity |
 | CSM | Customer Success Manager |
 | TEDD | Technology, Engineering, Development and Design - used to estimate the maximum potential users of GitLab at a company |
-| UPA | Ultimate Parent Account
+| UPA | Ultimate Parent Account |
 | Won Opportunity | Contract signed to Purchase GitLab |
 
 ## Customer Lifecycle
@@ -146,6 +144,7 @@ A breakdown of MQLs and lead scoring can be found in the [marketing operations h
 ### Segmentation
 
 Sales Segmentation is based on `Account Demographics: Max Family Employees`, which is the maximum of all `Account Demographics: Employee Count` values from the accounts within this hierarchy.
+
 - The `Account Demographics: Employee Count` can differ from one account to another within a hierarchy, but the `Account Demographics: Max Family Employees` value will be the same for all accounts within a hierarchy.
 - If the employee count is unknown or blank and manual research cannot confirm, Sales Operations will mark the account as `SMB` with a placeholder of `-1` employees in the  Number of Employees: Manual - Admin field in order to get a Territory to populate and assign the account to an account rep.
 
@@ -196,7 +195,6 @@ GitLab recognizes the grouping of companies that are related based on their prim
     - Sub-Industry is a more granular/detailed classification of Industry.
     - A list of GitLab's Sub-Industry values can be found [HERE](https://gitlab.my.salesforce.com/00N6100000HIhad).  This list aligns with the industries used by DemandBase
 
-
 The Industry and Sub-Industry of each account is determined by a combination of 3rd party data and manual overrides. The information is stored in the `Industry` and `Sub-Industry` fields on the Account object in SalesForce and inherit data in the following priority:
 
 1. Admin Manual Override
@@ -205,7 +203,6 @@ The Industry and Sub-Industry of each account is determined by a combination of 
 **Industry & Sub-Industry Enrichment Cadence**
 
 The Industry and Sub-Industry data on an Account is enriched and updated automatically on a daily cadence.
-
 
 ### Account Ranking for Enterprise Sales
 
@@ -228,7 +225,6 @@ It is a requirement for the Commercial Sales Team to tier their accounts using t
 ### Account Ownership, Opportunity Ownership & Order Type Rules of Engagement
 
 [Go to Market Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/)
-
 
 ### Account Sources, Routing and Other Requirements
 
@@ -292,6 +288,7 @@ Rest of the World
 #### Lead and Contact Record Ownership
 
 Contact Ownership follows the rules as laid out below. Contact ownership cannot be updated as it is maintained by an [automated process in Salesforce](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#contact-ownership) which means that the ownership will revert in the nightly run.
+
 - Large Accounts
    - BDR (If present, otherwise AE)
    - If AE, should own all contact follow up then the BDR Prospecting Status needs to be in Restricted.
@@ -375,6 +372,7 @@ This is also only a temporary solution until we have a more scalable solution in
 
 ACCOUNT records in Salesforce are created in a number of ways - [list imports](/handbook/sales/field-operations/sales-operations/), [mass creation screen flows](#mass-create-contacts-on-opportunities-with-contact-roles), field event booth scans, research, networking, webcasts, content downloads.
 Ideally all ACCOUNTS exist in Salesforce and team members are only creating CONTACT records; however, if a connection is made at an event and follow up needs to be done *prior* to official event list upload occurs team members should do the following:
+
    - Search Salesforce to be sure ACCOUNT does not already exist **AND** search using the person's email address to ensure duplicate record is not created
    - Record **does not** exist:
         - Create `Standard` ACCOUNT type - required fields are `Account Name` & `Account Type`
@@ -413,7 +411,6 @@ It is important to note that by following this process that all contacts must me
 1. All of the contacts will be assigned a contact role on the opportunity.
 1. There already is a primary contact, or one of the new contacts will be the primary contact on the opportunity.
 
-
 Territories are assigned based on [Sales Segmentation](#segmentation) and routing for each type of inbound request is [through Traction Complete](/handbook/marketing/marketing-operations/traction-lead-complete).
 
 LEAD/CONTACT Records with the `Initial Source` of `GitLab.com` are **not** to be engaged, prospected or targeted unless they have taken a handraising 'active' activity, such as `Trial - Enterprise`, `Trial - GitLab.com`, `Contact Us`, `Demo`, 'Webcast', 'Content' and/or engaged in `Web Chat`.
@@ -440,10 +437,12 @@ Leveraging campaign aligns our efforts across Marketing, Sales and Finance. For 
 To ensure that we're engaged with those customers who were a part of the Starter/Bronze End of Availability initiative, Sales is asked to track their outreach (and other engagements) in SFDC by way of activities.  Below are the steps to ensure we're capturing that activity:
 
 **Process For Tracking EoA Customer Outreach:** You should follow your existing outreach cadence and tracking via SFDC activities.  However, for any/all outreach to EoA customers, you make two important updates in SFDC:
+
 1. Enter the words “Starter”, “Bronze” or “EoA” in some capacity in the Activity Comments
 1. Update the `EoA Sentiment` field on the Account (red, yellow, green - defined in the help text)
 
 **Reporting**:
+
 - All EoA customers can now be tracked in SFDC leveraging the `FY22 On Starter/Bronze` field (if box is checked, they’re an EoA customer).  A full list by segment, region and owner can be found [HERE](https://gitlab.my.salesforce.com/00O4M000004ajNm)
 - EoA account list: https://gitlab.my.salesforce.com/00O4M000004ajNm
 - EoA accounts with activity: https://gitlab.my.salesforce.com/00O4M000004ajpR
@@ -470,6 +469,7 @@ Naming convention for reports and dashboards will leverage sequence of periods (
 ### Criteria for Inbound Sales Accepted Opportunity (SAO)
 
 The following criteria are **required** for inbound SAOs:
+
 1. An Opportunity is deemed a Sales Accepted Opportunity (SAO) when the Opportunity is moved from Stage `0-Pending Acceptance` to `1-Discovery` by the Strategic Account Executive.
 1. SDRs do not input the Net ARR $ value, the Sales Opportunity owners do.
 1. Required field settings to identify an SAO are:
@@ -519,6 +519,7 @@ Opportunities should be moved to new stage within 48 hours of IQM.
 ### Criteria for Outbound Sales Accepted Opportunity (SAO)
 
 The following criteria are **required** for outbound SAOs:
+
 1. An Opportunity is deemed a Sales Accepted Opportunity (SAO) when the Opportunity is moved from Stage `0-Pending Acceptance` to `1-Discovery` by the Strategic Account Executive.
 1. BDRs do not input the Net ARR $ value, the Sales Opportunity owners do.
 1. Required field settings to identify an SAO are:
@@ -569,8 +570,6 @@ Once the initial setup is complete, the [OPPORTUNITY Stage](#opportunity-stages)
 
 #### Creating a New Business Opportunity from CONTACT record
 
-
-
 1. On CONTACT record, click the `New Opportunity` button. Required fields are:
     - Opportunity Name - using [Opportunity Naming Convention](#opportunity-naming-convention)
     - Account Name = This should NOT need to be changed as it pulls from the CONTACT object
@@ -591,8 +590,6 @@ Once the initial setup is complete, the [OPPORTUNITY Stage](#opportunity-stages)
 1. Enter in 'NEXT STEPS' with details that correlate to the NEXT STEP DATE FIELD.
 
 #### Creating a New Business Opportunity from LEAD record
-
-
 
 1. On LEAD record, fill out the required qualification questions, add additional notes to the optional sections, if gathered, AND update to `Lead Status` = `Qualified`. Click <b>`Save`</b>.
 1. Click the `Convert` button:
@@ -621,8 +618,6 @@ Once the initial setup is complete, the [OPPORTUNITY Stage](#opportunity-stages)
 
 #### Creating an Add-on Opportunity
 
-
-
 An `Add-On` OPPORTUNITY will inherit information from the *original* `New Business` OPPORTUNITY.
 The steps to create an `Add-on` OPPORTUNITY varies slightly from the instructions above because this type of OPPORTUNITY is created from the `New Business` OPPORTUNITY **not** from a converted LEAD or CONTACT.
 
@@ -649,8 +644,6 @@ There are additional validation rules that are presently in effect:
 
 #### Creating an Upside IACV Opportunity
 
-
-
 An `Upside IACV` OPPORTUNITY will inherit information from the *original* OPPORTUNITY.
 The steps to create an `Upside IACV` OPPORTUNITY varies slightly from the instructions above because this type of OPPORTUNITY is created from the OPPORTUNITY **not** from a converted LEAD or CONTACT.
 An `Upside IACV` OPPORTUNITY has a minimal amount of fields as it's only for tracking the potential upside amount.
@@ -672,8 +665,6 @@ Note: Upside IACV opportunities exist for tracking purposes only.
 All final IACV (including any won upside IACV) will be attributed to the PARENT OPPORTUNITY.
 
 #### Creating a Professional Services Opportunity
-
-
 
 A `Professional Services` OPPORTUNITY will be used to cover any integration, consulting, training or other service that a Sales rep will sell to a prospect/client and needs or wants to be invoiced separately.
 To invoice separately a new quote and opportunity must be created.
@@ -824,7 +815,6 @@ Customer subscriptions will be moved to cancelled no more than 30 days after the
 - **Customers Returning More Than 180 Days After Subscription Term End Date**:
     - If a customer returns to purchase another GitLab subscription **more than 180 days** after the previous subscription term end date, the transaction must be booked under a **New Business Opportunity**.
         - In this scenario, the original Closed Lost opportunity will not be reversed and the Order Type will be [1. New - First Order](/handbook/sales/sales-term-glossary/#first-order-customers) or [2. New - Connected](/handbook/sales/sales-term-glossary/#connected-new-customers) based on the Account Family.
-
 
 ## Opportunity Types
 
@@ -978,26 +968,31 @@ Opportunity stages should align with GitLab's [Sales Stage Definitions](https://
 To help keep our pipeline clean and ensure that early stage deals are moving through the pipe at the desired velocity, all **New Business** opportunities in stage `1-Discovery` and `2-Scoping` are governed under the below process
 
 **Timelines:**  Inactivity Warning Day & Auto Closure Day by Segment
+
 - Large/PubSec: Day 45 / Day 90
 - Mid-Market: Day 21 / Day 45
 - SMB: Day 7 / Day 15
 
 **Definitions**: SFDC actions that constitute an **activity** include:
+
 - Stage Progression,
 - Command Plan Entries
 - Next Steps updated
 
-
 **Process for Stage 1-Discovery:**
- 1. At (Segment Specific) Warning day the Opportunity Owner and Opportunity Owner's Manager receive an email notification alerting both of inactivity
+
+1. At (Segment Specific) Warning day the Opportunity Owner and Opportunity Owner's Manager receive an email notification alerting both of inactivity
     - To avoid auto closure, the Opportunity Owner must progress the stage or add an activity to the opportunity
- 2. If there's no activity between the warning day and auto closure day:
+2. If there's no activity between the warning day and auto closure day:
+
    - The opportunity gets automatically closed (`8-Closed Lost`) with a `Closed Lost/Unqualified Reason` of "No Progression-Auto Close"
    - Email notification goes out to the Opportunity Owner, Opportunity Owner Manager and Marketing of this change
    - In scenarios where an opportunity is still vialbe but has been moved to Closed Lost through this automated process, the Opportunity Owner must create a new opportunity.
- 3. If there IS activity against the opportunity OR it progresses to Stage `2-Scoping`, the Warning and Auto Closure Day process starts over
+
+3. If there IS activity against the opportunity OR it progresses to Stage `2-Scoping`, the Warning and Auto Closure Day process starts over
 
 **Process for Stage 2-Scoping:**
+
 1. Same process for steps 1 & 2 above
 2. Step 3: If the opportunity progresses to Stage `3-Technical Evaluation`, there are no longer any activity requirements due to aging
 
@@ -1019,8 +1014,6 @@ Changes by Legal will automatically update the Account, although updates may tak
 - If the status is updated to “Escalate”, there is a concern with either the company itself or there is an attempt to sell in an embargoed country. Escalated orders will not process.
 (iii) If the Account requires immediate attention (i.e., to close a deal), open a Chatter message in the Account and message “@legal”. Upon receipt of a request, the Legal team can review and update in Visual Compliance.
 Please understand that if Legal finds a problem, the flag and the account will remain locked down.
-
-
 
 ## Types of Accounts
 
@@ -1055,5 +1048,3 @@ The adoption of any `Sales Admin` owned records will trigger an email alert that
 2. The Account Research Specialist will be responsible for reviewing the `Prospect - CE User` accounts on a regular basis to determine additional account records that should be worked either by a Sales Team member or Outbound BDR.
 3. When an account record has been identified for follow up, the Account Research Specialist will work with the appropriate Regional Director (RD) to determine Outbound BDR assignment based on work load and available capacity.
 4. The assigned Outbound BDR will work the `Prospect - CE User` account the same as any other known `CE User` account leveraging the tools at their disposal (Zoominfo, LinkedIn Sales Navigator, etc) to add contacts to the account record and populate the firmographic profile of the account.
-
-

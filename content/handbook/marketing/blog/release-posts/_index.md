@@ -178,7 +178,7 @@ The responsibilities of a technical advisor can be seen in more detail in [Techn
 - Running a weekly sync or async standup with the release post team (sync standup required for major releases)
 - Reviewing and supporting overall content quality and accuracy of all content published in the release post
 - Including the Release Post Manager Shadow as much as possible on activities so they learn prior to their rotation
-- Adding the [cover image](#cover-image) that is (jpg, png) is [smaller than 300KB](#images)
+- Adding the [cover image](#cover-image-license) that is (jpg, png) is [smaller than 300KB](#images)
 - Monitoring the Slack Release Post channel to help answer questions and troubleshoot hurdles
 - Pinging the PMs and others as needed in Slack or MRs to help resolve feedback
 - Making sure the release post is **ready to merge two days before the [release date](/handbook/engineering/releases/)**
@@ -229,7 +229,6 @@ Here’s the 13.6 release post MR: `https://gitlab.com/gitlab-com/www-gitlab-com
 
 Cc @TW Lead @tech-advisor @PMM @Sid @david
 ```
-
 
 Other samples for posts include reminders and notices on any items that the Release Post Manager is taking:
 
@@ -523,6 +522,7 @@ PMM lead is responsible for creating a release post highlight blurb for consumpt
 The tasks are included in the [release post MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb) and in the [monthly release post intro document](https://docs.google.com/document/d/13bGcGxkAQjdUgonX8tbQ72bkCtgkEY6EM9dsXFqfwN0/edit).
 
 On or before the third thursday of the month:
+
 - Create [new Product marketing](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/new) issue with PMM-Release-Post template.
 - Create release highlights - 3-4 themes with description. Use this document to document your highlights
 - Update the issue with the highlights
@@ -533,7 +533,6 @@ On or before the third thursday of the month:
   - Add this new pitch template to the [GitLab Releases spot overview page](https://gitlab.highspot.com/items/624626054e2472aa8611b5bf) in the Release Pitch Templates section
 - Flag to comms to share in #sales
 - Share with the PR and Field enablement team and tag release post manager.
-
 
 ## TW Lead
 
@@ -735,7 +734,6 @@ We have introduced [scheduled pipeline jobs](https://gitlab.com/gitlab-com/www-g
 - A task will run on the Monday, 3 weeks before relea of the month that creates the monthly release post, MRs, and Issues to kickoff the Release Post ([pipeline configuration](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L280-288); [rake task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/lib/tasks/release_post.rake#L9))
 - At <time datetime="16:00">4 pm UTC (11 am ET / 8 am PT)</time>, a task will run that performs content assembly ([scheduled pipeline](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L290-299); [rake task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/lib/tasks/release_post.rake#L373-399))
 
-
 ## Getting help during the Release Post Deployment
 
 ### Release Post Manager
@@ -814,7 +812,7 @@ Should you prefer to continue to contribute to an issue under active development
 - [Features](#features)
   - [Top feature](#top-feature)
   - [Primary features](#primary-features)
-  - [Secondary features (improvements)](#improvements)
+  - Secondary features (improvements)
   - [Illustrations](#illustrations) (screenshots, gifs, or videos)
   accompanying their respective features
 - [UI improvements, performance improvements and bug fixes](#ui-improvements-performance-improvements-and-bug-fixes)
@@ -923,6 +921,7 @@ Use a short and strong name for all feature names.
 Use the following pattern to apply the correct badge to the feature (Free, Premium, Ultimate).
 
 For the feature availability tier, use `available_in` with:
+
   - For GitLab Free, `[core, premium, ultimate]`
   - For GitLab Premium, `[premium, ultimate]`
   - For GitLab Ultimate, `[ultimate]`
@@ -930,9 +929,11 @@ For the feature availability tier, use `available_in` with:
   **Important note**: The GitLab Free tier is listed as `core` in the data file. This is intentional and the page templates will apply the proper tier name on the frontend.
 
 For features available on both self-managed and SaaS:
+
 - Use `gitlab_com: true`, or do not include `gitlab_com` in the yaml file.
 
 For features available on self-managed only:
+
 - Use `gitlab_com: false`. For example:
 
   ```yaml
@@ -943,6 +944,7 @@ For features available on self-managed only:
   This setting greys out the orange badges on the GitLab SaaS row.
 
 For features available on GitLab.com only, use `available_in:` with:
+
 - For GitLab.com Free, `[free, silver, gold]`
 - For GitLab.com Silver, `[silver, gold]`
 - For GitLab.com Gold, `[gold]`
@@ -1355,7 +1357,7 @@ For entries that support Markdown, use regular [Markdown Kramdown](/handbook/mar
   make sure all images have the class shadow applied:
   - `![image alt text](#img-url){:.shadow}`
   - If the original image already has shadow applied, don't use `{:.shadow}`.
-  - If you're inserting the image in the YAML file via `image_url` entry, add the `image_noshadow: true` [entry](#feature-blocks) right after `image_url`.
+  - If you're inserting the image in the YAML file via `image_url` entry, add the `image_noshadow: true` entry right after `image_url`.
 
 #### Videos
 
@@ -1377,15 +1379,13 @@ When adding videos to content blocks, it is important to ensure that the correct
 
    For example: `https://www.youtube.com/watch?v=dQw4w9WgXcQ` becomes `https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ`
 
-
 1. Review the auto-generated captions for your video, and clean them up for accuracy. Machine-generated captions often mangle technical terms.
 
 ##### Adding videos to content blocks
 
-
 1. In the content block, use the entry `video:` followed by the video's URL
 
-   ```
+   ```text
    video: https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ
    ```
 

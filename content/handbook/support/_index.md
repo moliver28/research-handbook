@@ -344,7 +344,7 @@ The following private channels are permanent fixtures in support. Usage estimate
 
 | Channel | Who is in it | Purpose | How often is it used?  |
 | ---- | ---- | ---- | ---- |
-| `#spt-senior-mgmt` | Senior Managers+ | Used for Senior leadership to discuss and coordinate on sensitive topics / budget / etc. | 3-4 threads per week |
+| `#spt-vp-directors` | Directors+ | Used for Senior leadership to discuss and coordinate on sensitive topics / budget / etc. | 3-4 threads per week |
 | `#spt_managers-internal` | Managers+  | Used for sensitive topics that are applicable to managers that aren't appropriate for public channels | 4-5 threads per week |
 | `#spt_managers-internal-apac` | APAC Managers+ | Used for sensitive topics that are applicable to APAC managers that aren't appropriate for public channels | 3-4 threads per week |
 | `#spt_managers-emea` | EMEA Managers+ | Used for sensitive topics that are applicable to EMEA managers that aren't appropriate for public channels | 4-5 threads per week |

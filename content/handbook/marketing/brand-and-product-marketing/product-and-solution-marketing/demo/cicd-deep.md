@@ -1,15 +1,8 @@
 ---
-
 title: "CI/CD Deep Dive Demo"
 ---
 
-
-
-
-
-
-
-# CI/CD Deep Dive
+## CI/CD Deep Dive
 
 Let's take a more in-depth look at GitLab CI/CD pipelines.
 
@@ -48,6 +41,7 @@ Enabling Slack notification and ChatOps commands are similarly easy. For notific
 Now, setting up downstream tool integration is accomplished by working with our pipeline definition file, `.gitlab-ci.yml`, which specifies the stages, jobs, and actions we want to perform.
 
 Before we do that though, let's just talk briefly about the various options for working with this file. As you can see, this is file is checked in to our repository, which provides a number of benefits:
+
 - The file is versioned which means pipeline changes can be tested in branches supporting any changes in your app code. Similarly if you need to go back to an old version, perhaps to ship a security release, the associated pipeline will be exactly how you left it for that particular release.
 - It also means that there are a large number of ways to work with this file. Nearly all IDE's have direct integration with Git, so you can use your favorite editor. The classic CLI is of course always possible as well, as well as our integrated web based editor that you can see here.
 
@@ -58,6 +52,7 @@ Let's now take a closer look at this file, and how you can define the pipeline a
 > Click on the `.gitlab-ci.yml` file to view
 
 At the top of the file we have defined a few global defaults:
+
 - A docker image to run our commands within, in this case the official Maven image
 - A few environment variables
 - Cache settings, which allow folders to be persisted between jobs to increase performance
@@ -99,6 +94,7 @@ Now for our last job, recall that our Java app was made up of two components: th
 #### Wrap up (Self-service: no plugins, Flexible: Bash script, Templates)
 
 As you can see, this supports our larger goals of GitLab: scalability, flexibility, and self-service:
+
 - A developer can integrate with any tool they need, without having to worry about installing plugins or involving the administrators. They can simply provide the required container or VM to run the script in, or install their own runner on a machine with the associated requirements.
 - Integrating with static analysis and unit testing frameworks is just a lines of code.
 - Moving into the Part 2, you can see integrating with build automation tools like Maven is similarly straight forward and easy.
@@ -187,6 +183,7 @@ Let's check in and see how our Cross Project Pipeline is doing, for our front-en
 > Click on downstream stage
 
 Here you can see a relatively simple pipeline:
+
 - We will build project
 - Execute our tests
 - Package up our JAR file
@@ -240,6 +237,7 @@ Now we're going ahead and building the new version of our library, and next up w
 Uh oh, as you can tell from the notifications it looks like our tests failed. In this case, we changed the message but forgot to update our tests.
 
 Let's quickly review the notifications we received:
+
 - GitLab itself sent a browser notification, indicating the failed pipeline
 - With our Slack integration, we received an alert there as well. (Show Slack)
 - If you take a look, our favicons also updated to indicate an errors
@@ -285,6 +283,7 @@ Here you can get insight into the average success rate and execution duration of
 We also provide historical insight into how the success rate is changing over time, and the number of jobs executed within the last week, month and year.
 
 And we've already taken a look at some of the other analytics services we offer as part of CI:
+
 - Our static analysis intelligence with codeclimate
 - Code coverage parsing
 - and cycle analytics, for team health and efficiency.
@@ -319,6 +318,7 @@ The first action we want to take is to register our runner:
 > gitlab-runner register
 
 During registration we configure a few aspects of the runner:
+
 - We set the URL and token
 - Name that we want to appear on the Runner page
 - And then any tags we want to specify. Tags allow you to uniquely identify runners with certain properties, for example here we can set `osx` and `xcode8` to identify what we have installed. These are then specified in the `.gitlab-ci.yml` for the job you want to run.

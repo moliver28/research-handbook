@@ -16,7 +16,7 @@ Many subscription and consumption purchases can be made through GitLab.com. At t
 Our most reported known issues are:
 
 1. [Blank lastname/surname field](https://gitlab.com/groups/gitlab-org/-/epics/5785)
-1. [3D Secure](https://en.wikipedia.org/wiki/3-D_Secure) credit-card authentication protocol is [not supported](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3811)
+1. [3D Secure](https://en.wikipedia.org/wiki/3-D_Secure) credit-card authentication protocol is [only supported for purchases in GitLab.com](https://gitlab.com/gitlab-org/gitlab/-/issues/443490) and [not supported in the Customers Portal](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/9069).
 1. [Email already taken](https://gitlab.com/gitlab-org/gitlab/-/issues/330608)
 
 We use an Issue to [document any issues](https://gitlab.com/gitlab-com/support/toolbox/console-training-wheels/-/issues/19) that might be a result of the workarounds described in this workflow.
@@ -51,10 +51,23 @@ Request the user to add a second name in their GitLab account profile as a tempo
 >
 > Transaction declined.generic_decline - Your card was declined
 
-Our current integration with Zuora does not support authorizing payment methods which require 3DS.
-With the volume of users requiring this being low, the issue has not yet been prioritized.
+Our existing integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup). The issue is actively being worked on and will [soon also cover the Customers Portal](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/9069).
 
-For now, the first option is to request the user to try another card.
+At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+
+>
+> card_error/authentication_required/authentication_required
+
+Our existing integration with Zuora does not support the authorization of payment methods that mandate [require 3DS authentication on all transactions](https://docs.stripe.com/testing#authentication-and-setup). Such transactions will fail after the card is added.
+
+At this moment, an alternative is to ask the user to use a different card. Additionally, you can [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
+
+>
+> invalid_request_error/setup_intent_authentication_failure
+
+The 3DS authentication failed.
+
+The first option is to request the user to try again, or with a different another card.
 You can also [reach out to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) to offer the user an alternative payment method.
 
 ### Check whether the linked accounts have matching emails

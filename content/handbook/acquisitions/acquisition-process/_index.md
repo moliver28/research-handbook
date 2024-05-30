@@ -96,7 +96,7 @@ The process is comprised of five key stages:
             - Risk Management Program Documentation
             - Risk Register and status of risks
             - Results of security reviews the entity has performed over it's current vendors
-1. Early technical diligence:
+1. [Early technical diligence](https://internal.gitlab.com/handbook/corporate-development/acquisition-process-technical-diligence/):
     1. In case the target company has open source components, the respective Dir. Engineering (dependent on GitLab stage) will start an early code review to determine: code quality, development practices, contributions, license compliance and more. That should be turned around within 2-3 business days.
         1. The Corporate Development Deal Process Manager will create a new document (`Project [code-name] - Technical Diligence`) for the Technical Call meeting notes, separate from the main acquisition document. Future diligence findings, and all other technical diligence related note-taking of meetings (external and internal), which are engineering-centric should be recorded in this Technical Diligence document, a separate and internal Google Doc from the main acquisition document. The Technical Diligence document will be bookmarked to the Slack channel topic of `#p-code_name-technical-diligence`
 

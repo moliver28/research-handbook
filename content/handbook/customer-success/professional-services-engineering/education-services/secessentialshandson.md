@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 ## Security Essentials Lab Guides
 
-
 | Lab Name | Lab Link |
 |-----------|------------|
 | Configure SAST, Secret Detection, and DAST | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson1) |

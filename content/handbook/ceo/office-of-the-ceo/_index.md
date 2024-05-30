@@ -266,7 +266,7 @@ Meeting Cleanup Day is intentionally near the start of the new fiscal year. The 
 
 A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with JiHu. Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
 
-For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu] (https://about.gitlab.com/pricing/faq-jihu/#customer-details):
+For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu](https://about.gitlab.com/pricing/faq-jihu/#customer-details):
 
 1. After the Customer's request of novation from GitLab to JiHu is approved, the member of the Office of the CEO opens a new issue as soon as the contract is issued, and assigns the issue to GitLab Accounting department.
 1. This issue triggers the Accounting development to update SFDC, Zuora and NS.

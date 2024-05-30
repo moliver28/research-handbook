@@ -15,7 +15,6 @@ description: "How we measure a customer's health score for general GitLab and di
 
 To drive use case enablement and expansion with customers, we need to define exactly what it means to adopt a use case at GitLab. These health measures will appear in the **Product Usage** scorecard section in Gainsight. For more, see the [Gainsight Scorecard Attributes and Calculations](/handbook/customer-success/customer-health-scoring/#gainsight-scorecard-attributes-and-calculations).
 
-
 ## License Utilization
 
 ### Health table
@@ -38,6 +37,7 @@ User Engagement is intended to measure the number of users logging in each month
 This looks at all users who actively log in on a 28 day basis divided by the amount of total users that have been deployed on the account.
 
 **Limitations**:
+
 1. Only self-managed customers on 15.2+ will have this health measure available
 1. The SaaS-equivalent metric will be available later ([issue](https://gitlab.com/gitlab-data/analytics/-/issues/11662))
 
@@ -46,12 +46,12 @@ As the customer progresses through the lifecycle, user engagement is a measure o
 **Why it matters**: User Engagement should prove to be a great way to build a more comprehensive view of renewal risk. It'll be less efficacious for customers that have dormant-user-deactivation enabled, as un-engaged users should be being removed from the billable count on an ongoing basis.
 
 **How to use it**:
+
 1. Ask discovery questions of customer about user engagement: types of users, their use cases, awareness of dormancy/un-engaged-users
 1. Build awareness of dormant-user-deactivation capability
 1. Couple that with efforts to drive awareness of GitLab within the account (eg. GitLab for Plan/PM, GitLab for non-developers, normal user enablement). A signal to SAE/AE/BDR to drive account-based outreach. Find unaware or unegaged user cohorts. Encourage them to  bring users onto the platform.
 
 Position as a way for the customer to get value out of the seats they've already paid for, and help the account team ensure more predictable renewal outcomes. It becomes riskier the closer we are to renewal.
-
 
 ## Use Case Health Scoring
 
@@ -186,6 +186,7 @@ While there may be some false positives (for example holiday breaks when no one 
 The CSM may also be able to spot trends of where customers may have lagging usage either over time or across their books of business and suggest best practices to their customers to help with expectations and adoption.
 
 This logic applies to the following Scores:
+
 - CI Adoption
 - CD Adoption
 - Security (DevSecOps) Adoption
@@ -194,12 +195,14 @@ This logic applies to the following Scores:
 - User Engagement
 
 *Notes:*
+
 - Applicable to CSM-managed customer accounts only
 - Rule is scheduled to run on a daily basis at 2am PT
 
 ## License Utilization in Gainsight
 
 License Utilization is calculated on a subscription level. In Gainsight we display this in a couple of different ways:
+
 1. On the C360 page, the License Utilization number that appears on the Summary page is only the number from the primary instance (the instance marked as "Included in Health Score").
 2. In reporting, etc. around Gainsight, we display the License Utilization at the instance level.
 

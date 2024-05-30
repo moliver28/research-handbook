@@ -242,6 +242,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 ## Data Tools
 
 [Meltano](https://gitlab.com/meltano/meltano) is a separate product that isn't part of GitLab. Here's a list of BizOps tools. Other lists include [cloud native ETL tools](https://www.alooma.com/blog/etl-tools-modern-list), and the [Meltano README](https://gitlab.com/meltano/meltano#data-science-lifecycle).
+
 - [AWS Glue](https://aws.amazon.com/glue/)
 - [Alooma](https://www.alooma.com/blog/etl-tools-modern-list)
 - [Looker](https://looker.com/)

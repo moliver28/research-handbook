@@ -4,14 +4,6 @@ title: "Migrating from Self-Managed GitLab to GitLab.com"
 description: "Things to know when helping customers migrate to GitLab.com."
 ---
 
-
-
-
-
-
-
-# Migrating from Self-Managed GitLab to GitLab.com
-
 ## Options for customers migrating from self-managed GitLab to GitLab.com
 
  - Self-service [UI migration of groups and projects by direct transfer](https://docs.gitlab.com/ee/user/group/import/index.html#migrate-groups-by-direct-transfer-recommended). Please pay attention that migrating projects by direct transfer is a **Beta** feature. This is the recommended way to migrate groups and projects between GitLab instances within capabilities of GitLab application. We are working towards reaching General Availability for migrating projects by direct transfer.

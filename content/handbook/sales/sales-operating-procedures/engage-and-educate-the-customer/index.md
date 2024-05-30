@@ -1,16 +1,7 @@
 ---
-
 title: Engage & Educate the Customer
 description: GitLab sales process for engaging and educating the customer
 ---
-
-
-
-
-
-
-
-# Engage & Educate the Customer
 
 Your goal as a sales representative is to build 2.5 -3x your annual **[ARR](/handbook/sales/sales-term-glossary/)** quota. The ability to achieve this goal is based on your ability to create **Moments That Matter** (MTM), interactions with a customer that make a positive emotional impact about the value you and your product bring to their organization. The ability to **Engage and Educate the Customer** is fundamental to creating positive Moments That Matter.
 
@@ -144,6 +135,7 @@ At this point, the selected engagement activities should have generated a signif
 **Reminder**: A [Command Plan](/handbook/sales/command-of-the-message/command-plan/) is not a one and done document. Nor will you gather all the necessary information in one meeting, so be prepared to work through pieces of the document over a series of meetings. Taking this time up front will help you better evaluate the deal by asking deeper trap-setting questions that will help you gather more insightful data about your customer.
 
 As a rule of thumb, here is the cadence for updating your [Command Plans](/handbook/sales/command-of-the-message/command-plan/).
+
 - Command Plan: Opportunity Overview - Real Time
 - Command Plan: MEDDPPICC Data - Real Time
 - Command Plan: Close Plan - Real Time

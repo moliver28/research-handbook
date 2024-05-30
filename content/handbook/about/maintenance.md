@@ -54,6 +54,8 @@ The triage guidelines use the [product issue triage](/handbook/engineering/infra
 information as a basis. However, as the group structure and resources differ for the content
 websites, so do the guidelines.
 
+A [triage bot](https://gitlab.com/gitlab-com/content-sites/handbook-tools/triage-bot) exists to help triage issues.
+
 ### Types of issues and resourcing
 
 Handbook issues typically fall under one of the following:

@@ -81,6 +81,45 @@ Data minimisation is not applied on the following levels:
 
 - Rows. We don't apply filtering on rows by default, unless there is a good reason (technical or functional). This is to avoid confusion about which data our data consumers are actually seeing.
 
+##### Data minimisation use case
+
+When you want to do a data minimization and specify one or more columns to the JSON file while loading the data, you can use the procedure [object_insert](https://docs.snowflake.com/en/sql-reference/functions/object_insert). Example for usage:
+
+```sql
+WITH base AS (
+    SELECT try_parse_json('{"id":1, 
+                            "name": "ABC"}'
+                                       ) AS json_data)
+SELECT object_insert(json_data,'email','test@gitlab.com')
+  FROM base;
+
+-- {
+--   "email": "test@gitlab.com",
+--   "id": 1,
+--   "name": "ABC"
+-- }
+```
+
+In the situation when you want to discard one or more columns from the JSON file while loading the data, you can use the procedure [object_delete](https://docs.snowflake.com/en/sql-reference/functions/object_delete). Example for using it:
+
+```sql
+WITH base AS (
+    SELECT try_parse_json('{"id":1, 
+                            "name": "ABC",
+                            "address":{"add1":"1234",
+                                       "add2":"XYZ",
+                                       "city":"TN",
+                                       "apt": 1 }}'
+                                       ) AS json_data)
+SELECT object_delete(json_data,'id','address')
+  FROM base;
+
+-- {"name": "ABC"}
+
+```
+
+In this situation, you can **exclude** the column that shouldn't be processed for various reasons ([RED data](https://handbook.gitlab.com/handbook/security/data-classification-standard/#red), PII data, no value for the data or other minimization principles).
+
 #### Extraction solution
 
 The Data Team has different instruments available to extract data out of source systems (randomly ordered):
@@ -90,6 +129,8 @@ The Data Team has different instruments available to extract data out of source 
 - Meltano
 - Snowflake data share
 - Stitch
+- [Snowpipe](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-intro)
+- [Snowflake task](https://docs.snowflake.com/en/user-guide/tasks-intro)
 
 The decision for which instrument to use, is **always** based on the combination of:
 
@@ -104,20 +145,26 @@ graph LR
    
 %%descisions
     api_available{API Available?}
+    data_bucket{Data available in the gcp or s3 bucket?}
     fivetran_connector_available{Fivetran connector viable?}
     stitch_connector_available{Stitch connector viable?}
     data_is_ext_snowflake_sources{Data is in different Snowflake Account}
     singer_option{Singer Tap viable?}
-
+    streaming{Need to low-latency load?}
 %%end solutions
     Custom([Custom development])
     Fivetran([Fivetran])
     Singer([Singer])
     Stitch([Stitch])
     Snowflake_datashare([Snowflake data share])
-
+    Snowpipe([Snowpipe])
+    Snowflake_task([Snowflake task])
 %%flow
-    ds_request[New Request]-->api_available 
+    ds_request[New Request]-->data_bucket
+    data_bucket-->|No|api_available 
+    data_bucket-->|Yes|streaming
+    streaming-->|Yes|Snowpipe
+    streaming-->|No|Snowflake_task
     api_available-->|No|data_is_ext_snowflake_sources
     api_available-->|Yes|fivetran_connector_available
     stitch_connector_available-->|Yes|Stitch

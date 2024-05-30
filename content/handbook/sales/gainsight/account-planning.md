@@ -26,7 +26,6 @@ There are a few different ways to access Gainsight. The first is to access Gains
 1. Add a template to the Account Plan by using the ellipsis menu located in the gray bar on the right side of the page. The [Land Plan](/handbook/sales/account-planning/#land-account-plans) and [Expand Plan](/handbook/sales/account-planning/#expand-account-plans) templates will provide a guided action items and next steps.
 1. To learn about other plan types (Opportunity Plan, Command Plan, Success Plan), review [this page](/handbook/sales/account-planning/#what-is-the-difference-between-an-account-plan-and-a-success-plan).
 
-
 ### Locating an Existing Account Plan
 
 1. From the Gainsight widget, use the top navigation bar to select the **Success Plan tab**.
@@ -85,6 +84,7 @@ This section of the account plan serves to capture relevant information about ou
 ### Whitespace Mapping
 
 This activity is best done as a team, Solutions Architects and Customer Success Managers can help ensure this section reflects the team's understanding of the opportunities within the account.
+
 1. In Gainsight, there are two different sections for whitespace mapping. Whitespace (Use Case) and Whitespace (Use Case Visual).
       - **Whitespace (Use Case):** This is where you will enter the data. It will flow back into Salesforce but cannot be edited in Salesforce at this time.
       - **Whitespace (Use Case Visual):** After data has been entered, use this tab to see a visual representation of the data.  There are multiple views from which to choose.
@@ -92,14 +92,15 @@ This activity is best done as a team, Solutions Architects and Customer Success 
 
 For each use case, seek to understand if the customer is using a competing technology aligned to each of the use cases (there is a picklist in Gainsight), if there is an appetite for replacement (green indicates there is an appetite for change), and when that contract ends.  
 
-
 ### Company Intelligence
 
 Company Intelligence allows users to stay up-to-date on their key customers and prospects and can be located in the Company Intelligence tab. Company Intelligence is also available via notification. To turn on notifications follow these steps:
+
 1. Using the bell icon in the top right corner of Gainsight, select the gear icon.
 1. Select the Events drop down menue
 1. Next to Company Intelligence, select your notification preferences. Currently the only option is Slack and the updates will arrive via the Gainsight Sally app.
    - Bonus: Once opted in to Slack notifications [you can request additional real time updates](https://support.gainsight.com/SFDC_Edition/Sally_AI_Bot/User_Guides/Sally_-_the_Gainsight_bot_Overview). Go to slack and send a direct message to "Gainsight Sally." Ask for a summary of an Account you own.
+
 - [Setting up notifications](https://support.gainsight.com/Gainsight_NXT/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
 - [Company Intelligence FAQs](https://support.gainsight.com/Gainsight_NXT/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
 - [Company Intelligence, The long version](https://support.gainsight.com/SFDC_Edition/Company_Intelligence/About/Company_Intelligence_Overview?mt-draft=true#Overview).
@@ -127,32 +128,23 @@ Company Intelligence allows users to stay up-to-date on their key customers and 
 - [Gainsight Kickoff and Demo](https://www.youtube.com/watch?v=Xhor2IIsCQQ)
 - [How a Gainsight Rep Uses Gainsight](https://youtu.be/lnEkbLnxs-8)
 
-
 **Getting Started with Gainsight**
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/3bc8692532e94a37ba693c14e36d1d8a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 
 **Completing the Account Snapshot in Gainsight**
 <div style="position: relative; padding-bottom: 69.76744186046511%; height: 0;"><iframe src="https://www.loom.com/embed/09f6d86b58f042da860185fe947814c9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
 **Whitespace Mapping with Gainsight**
 <div style="position: relative; padding-bottom: 68.18181818181819%; height: 0;"><iframe src="https://www.loom.com/embed/1da3c252c8f34e74a145cf964e4fb29e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 
 **Whitespace Mapping Visuals with Gainsight**
 <div style="position: relative; padding-bottom: 68.18181818181819%; height: 0;"><iframe src="https://www.loom.com/embed/3463bbf34da64343821df1b0c7f302eb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
 **Relationship and Influence Mapping with Gainsight**
 <div style="position: relative; padding-bottom: 71.57057654075547%; height: 0;"><iframe src="https://www.loom.com/embed/1d5cfe4374bc40d2b2dddd0dee43a387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
-
 **Relationship and Influene Multi-Maps with Gainsight**
 <div style="position: relative; padding-bottom: 71.57057654075547%; height: 0;"><iframe src="https://www.loom.com/embed/3e04070f7f9a47babb5b5cb6a3838741" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
 
 **Creating the Action Plan with Gainsight**
 <div style="position: relative; padding-bottom: 68.18181818181819%; height: 0;"><iframe src="https://www.loom.com/embed/6ce45c18843743b88ec7554863792266" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>

@@ -12,10 +12,7 @@ After the SOW, or a specific Milestone has been successfully delivered and compl
 1. Update subject line to “[customer name]- project sign off
 1. Send the email
 
-
-
-
-```
+```text
 Dear [Signer],
 
 Attached you will find the project sign off documentation for your GitLab Professional Services Statement of Work.
@@ -26,11 +23,6 @@ If you have any questions, please feel free to reach out to let me know.
 
 Thank you,
 [your signature]
-
 ```
 
 Once you receive the Project Sign off, via signed document or email acceptance, or passive acceptance, you'll need to follow these steps to process in [Mavenlink](/handbook/customer-success/professional-services-engineering/professional-services-operations/#revenue-sign-off)
-
-
-
-

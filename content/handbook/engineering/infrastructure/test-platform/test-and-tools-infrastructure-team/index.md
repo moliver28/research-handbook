@@ -10,7 +10,7 @@ description: "Test and Tools Infrastructure Team in Test Platform sub-department
 | **GitLab Team Handle**  | [`@gl-quality/tp-test-tools-infrastructure`](https://gitlab.com/gl-quality/tp-test-tools-infrastructure) |
 | **Slack Channel**               | [`#test-tools-infrastructure-team`](https://gitlab.slack.com/archives/C064M4D2V37) |
 | **Slack Handle**               | `@test-tools-infrastructure` |
-| **Team Boards**         | [`Milestone Planning Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti::support-request&not%5Blabel_name%5D%5B%5D=failure::*&label_name%5B%5D=team::Test%20and%20Tools%20Infrastructure) <br> [`Support Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369206?label_name%5B%5D=tti::support-request)  |
+| **Team Boards**         | [`Milestone Planning Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti::support-request&amp;not%5Blabel_name%5D%5B%5D=failure::*&label_name%5B%5D=team::Test%20and%20Tools%20Infrastructure) <br> [`Support Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369206?label_name%5B%5D=tti::support-request)  |
 | **Issue Tracker**       | [`quality/team-tasks`](https://gitlab.com/gitlab-org/quality/team-tasks/issues/) |
 
 ## Vision
@@ -97,7 +97,7 @@ The dashboards, owned by Test and Tools Infrastructure team, can be found in the
   - Our roadmap preparation is an intensive month long exercise (usually last month of Q4), led by a [DRI](/handbook/people-group/directly-responsible-individuals/). During this phase, DRIs take the lead in drafting the roadmap using [the roadmap prep-work template](https://gitlab.com/gitlab-org/quality/work-log/-/blob/main/templates/roadmap-pre-work-template.md?ref_type=heads) for necessary project tracks. This involves gathering inputs from the team, various stakeholders, assessing past performance, and aligning with the strategic goals of the Test and Tools Infrastructure Team.
   - We utilize and plan [OKRs](/handbook/company/okrs/) to prioritize the roadmap items.
   - Adhering to our team's [bi-weekly ritual](#work-related-rituals), we conduct reviews to assess progress, address challenges, and recalibrate goals if necessary.
-  - We maintain a [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti%3A%3Asupport-request&not%5Blabel_name%5D%5B%5D=failure%3A%3A*&label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure) to visualise the current state of the feature work.
+  - We maintain a [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti%3A%3Asupport-request&amp;not%5Blabel_name%5D%5B%5D=failure%3A%3A*&label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure) to visualise the current state of the feature work.
 
 #### Working with us
 
