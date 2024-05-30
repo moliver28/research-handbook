@@ -76,4 +76,4 @@ so that we can automatically add group labels and assignees based on our
 You can find our issue boards via:
 
 - [Support Readiness - Progress](https://gitlab.com/groups/gitlab-com/support/-/boards/7568554)
-- [Support Readiness - Priority](https://gitlab.com/groups/gitlab-com/support/-/boards/7568559)
+- [Support Readiness - Planning](https://gitlab.com/groups/gitlab-com/support/-/boards/7568559)
