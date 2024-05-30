@@ -133,7 +133,7 @@ These are the past award winners. The quarter indicated is the quarter the award
 
 | Quarter | Category | Award | Winner |
 | --- | --- | --- | --- |
-| FY25-Q2 | Efficiency | Best Blueprint Proposal | TBA |
+| FY25-Q2 | Efficiency | Best Blueprint Proposal | Alessio Caiazza |
 | FY25-Q2 | Efficiency | Cost Savings | TBA |
 | FY25-Q2 | Efficiency | Software Efficiency | TBA |
 | FY25-Q2 | Efficiency | Proactive Avoidance |  TBA |
