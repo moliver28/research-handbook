@@ -98,22 +98,39 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 After you commit these changes, a pipeline will run, and the test stage will fail. This is because the test cases no longer match the contents of the index file. To ensure that the tests in our pipeline run successfully, we will also need to update our tests to match the new index file. 
 
-1. In the list of repository files, click the `test` directory and then the `test.js` file.
+1. In the list of repository files, click the `test` directory and then the `server.test.js` file.
 
-1. Click **Edit > Edit single file** and modify the line `.expect(/Welcome to Express/, done)` to `.expect(/GitLab welcomes you to Express/, done)`. After completing the edits, your code will look like this:
+1. Click **Edit > Edit single file** and modify the line `assert.equal(res.body.message, 'Hello World!');` to `assert.equal(res.body.message, 'Auto DevOps FTW!');`. After completing the edits, your code will look like this:
 
     ```js
     const request = require('supertest');
-    const app = require('../app');
+    const assert = require('assert')
+    const app = require('../server');
 
-    describe('App', function() {
-      it('has the default page', function(done) {
-        request(app)
+    describe('GET /', () => {
+    it('responds responds to the world', async function() {
+        const res = await request(app)
         .get('/')
-        .expect(/GitLab welcomes you to Express/, done);
-      });
+        .set('Accept', 'application/json');
+
+        assert.equal(res.status, 200);
+        assert.equal(res.type, 'application/json');
+        assert.equal(res.body.message, 'Auto DevOps FTW!');
     });
+    });
+
+    describe('GET /404', () => {
+    it('responds with a 404', async function() {
+        const res = await request(app)
+        .get('/404')
+        .set('Accept', 'application/json');
+
+        assert.equal(res.status, 404);
+    });
+    });
+
     ```
+
 1. For **Commit message**, type `Update welcome message test`
 
 1. Leave **Target branch** set to `new-feature`
