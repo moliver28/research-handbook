@@ -351,7 +351,7 @@ Promotion candidates should follow these steps to request feedback as part of ou
     - *Each promotion candidate should make a copy of this form to use to collect feedback from their respective feedback providers.*
     - **Due date: 2024-06-07**
 4. Team member identifies stakeholders for feedback request
-    - Team members should select 3-4 team members to provide feedback and review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment. Team members should select at least one distinct feedback provider for each business result highlighted in the promotion document. 
+    - Team members should select 3-4 team members to provide feedback and review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment. Team members should select at least one distinct feedback provider for each business result highlighted in the promotion document.
     - Requirements for feedback providers are:
         - Feedback provider should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher)
         - Feedback provider should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document).
@@ -377,9 +377,9 @@ Promotion candidates should follow these steps to request feedback as part of ou
     - Promotions are effective 2024-08-01 and the communication window is 2024-07-24 to 2024-08-01 aligned with the [company-wide timeline](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#fy25-q3-2nd-half)
     - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
 
-#### Feedback Confidentiality 
+#### Feedback Confidentiality
 
-A goal through this process is to continue to facilitate opportunity to provide more regular and ongoing feedback and flex the feedback muscle as a division. We encourage team members to own the feedback that they provide to strength relationships, invest in each other's grwoth and development, and provide the opportunity for team members receiving the feedback to ask clarifying questions if needed. 
+A goal through this process is to continue to facilitate opportunity to provide more regular and ongoing feedback and flex the feedback muscle as a division. We encourage team members to own the feedback that they provide to strengthen relationships, invest in each other's grwoth and development, and provide the opportunity for team members receiving the feedback to ask clarifying questions if needed.
 
 The feedback form asks for feedback provider's information, so promotion candidates and their managers will have visibility into specifics of the feedback provided. At the CISO directs calibration session we will review themes in [this structure](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit).
 
