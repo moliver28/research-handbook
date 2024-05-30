@@ -30,16 +30,15 @@ Given the close collaboration between the PS Project Management and PS Operation
    1. Find and rename the _Project Retrospective_ issue and follow the steps outlined in the [Project Retrospective template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md?ref_type=heads)
       * Consider the Project Retrospective issue as the internal Project journal. PS uses labels to generate reports around Project wins, Customer stories, and lessons learned (not to be shared with Customers)
    2. Create Project in Gitlab.com using CPR (Customer Project requirements) _new steps to CPR coming soon_
-      *Create sub group with customer name under [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
-      *Create a blank project under your new subgroup with SOW-<sow_number>
-      *Add epics for each activity including labels: “PM::name” “PSD Workflow::Not Started” “SOW-00”. Issues will be created at a later stage by the technical team under the right epic.
+      * Create sub group with customer name under [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
+      * Create a blank project under your new subgroup with SOW-<sow_number>
+      * Add epics for each activity including labels: “PM::name” “PSD Workflow::Not Started” “SOW-00”. Issues will be created at a later stage by the technical team under the right epic.
    3. After creating the Project in Gitlab.com, be sure to link the CPR to the _Customer Epic_
    4. Make an internal Slack Chanel titled "a_customer_name_internal"
       * Pin a link to the internal Project Retrosoective issue (not customer facing)
       * Pin a link to the Customer RAID issue (customer facing)
    5. Add a [Customer Project folder](https://drive.google.com/drive/folders/1ozPKiAlUzbKwpkscaYVTp9PVoi9hWm4U) sorted by Customer & SOW#
       * Make a copy of the [project kick-off template](https://docs.google.com/presentation/d/1XUljBcQUZgQA-0fhQ5UayiEGtp4Of3xsaFGpVxdoDS4/edit?usp=sharing) to your project's Drive folder
-      
 5. PMs then schedule and conduct the EM>PS Transition Meeting with the Technical Delivery team- the goal is to ultimately review the engagement purpose, expectations and assumptions, and SoW/DoW
 6. PMs to conduct the [Stakeholder Introduction](https://docs.google.com/document/d/1fOmBxXf9MqYHQ8LZD5nIepu5WcFeTiwss59RJbd3BWE/edit?usp=sharing) Meeting & prepare for Kickoff
 7. Create an external Slack channel to collaborate with the customer and add a link to it to the kick-off deck. [AR example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24542)
@@ -72,22 +71,19 @@ Kantata is our primary Resource Management software. From here the PMO team revi
    * Soft bookings are non-confirmed allocations for team members (displayed as striped cells)
    * Hard bookings ate confirmed allocations (displayed as colored cells)
 5. Allocations' review:
-   *Soft allocations are introduced by the Operations team when opportunity is won and it needs to be reviewed once project is assigned
-   *You can request your soft bookings to become hard bookings and hours to be adjusted as needed and agreed with the customer during the kick-off. You can do that from the Resource Center by clicking the resource row under the project and entering your request as a message for your assigned OPS person under Activity. Don't forget to click "Post" once ready!
+   * Soft allocations are introduced by the Operations team when opportunity is won and it needs to be reviewed once project is assigned
+   * You can request your soft bookings to become hard bookings and hours to be adjusted as needed and agreed with the customer during the kick-off. You can do that from the Resource Center by clicking the resource row under the project and entering your request as a message for your assigned OPS person under Activity. Don't forget to click "Post" once ready!
 6. If you need to create a new resource request, you do that from the Resource Center > Projects. Under the list of assigned team members, you can click "Add Team Member" or "Add unnamed Resource", fill-in the information at the top of the pop-up and click "Submit Request". NB: Clicking "Post" will not submit the request.
-
-_Billable vs NonBillable information_, please refer to [Team Metrics](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/#team-metrics) page
+7. For Billable vs NonBillable guidelines, please refer to [Team Metrics](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/#team-metrics) page
 
 #### Forecasting and Project Health  
 
 The PMO team ensures our forecast & upside is updated by Monday, 11am EST, as the PS Ops team prepares the weekly reports per the PS Reporting schedule. The Top Customer is provided to the PM team by PS Ops by 12pm EST on Tuesdays, and the PM team is expected to update the notes (as outlined below) by The PS Reporting Schedule, Weekly Revenue Forecast Reports, and Kantata information pinned to the ps_PMO Slack channel
 
-_Time & Materials (T&M) vs Fixed Fee (Fixed Fee)_
-*defintions to be added_
-
 ##### Forecasting Time and Materials (T&M) and Fixed Fee (FF)
+_Time & Materials (T&M) vs Fixed Fee (Fixed Fee) defintions to be added_
 
-Forecast allocations impact PS revenue forecast and team members availability, utilization and planning
+Forecast allocations impact the PS revenue forecast, team member availability, and utilization and planning
 
    * Soft allocations are used when final schedule is not known yet, for visibility and planning. Soft allocation will not promise team member availability for a project, and will not be projected into the revenue forecast
    * Hard allocations will promise team member availability, for the requested hours, once approved by the project coordinator. The allocated hours will also project into the revenue forecast
@@ -96,12 +92,11 @@ Forecast allocations impact PS revenue forecast and team members availability, u
    * For Consulting Blocks and Dedicated Engineer Services,  we sometimes enter these engagements knowing very little about the project (as it is generally purchased as a SKU). Therefore, our goal is to be within +/- 10% of our estimated forecast after we have our initial EM>PS Transition Meeting
 
    To ensure forecast revenue is accurate go under Resource Center in Kantata:
-    *Select “Project Tab” and filter via “My Projects”
+    * Select “Project Tab” and filter via “My Projects”
     * Expand project you are allocating for so you can see all PS Engineers and yourself
       * Click on each team member’s name and submit RR request via the “activity” window opened and assign to Project Coordinator as recipient
 
-   If it's a FF project, we need to update the dates on the Milestones in order for it to reflect in our forecast
-
+   If it's a FF project, we need to update the dates on the Milestones in order for it to reflect in our forecast:
    * Forecast updates for Fixed Fee projects:
       * Open your project and open the “Task Tracker” tab
       * Expand milestones
