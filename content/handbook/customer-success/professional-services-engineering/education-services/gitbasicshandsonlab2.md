@@ -128,7 +128,6 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 > If you receive an error stating the connection is refused or the command does not work, this may be becuase your network is blocking connections via SSH. If that is the case, continue onto the next task.
 
-
 ## Task D. Clone a GitLab project repository to your local computer
 
 > When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
