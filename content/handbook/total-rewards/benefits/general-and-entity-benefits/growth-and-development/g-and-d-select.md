@@ -57,17 +57,6 @@ Open a Growth & Development issue for a conference application [here](https://gi
 </details>
 
 <details>
-<summary>Product</summary>
-
-| **Conference** | **Why attend?** | **Location** |
-|----------------|-------------------------| ------- |
-| Product Conference 1 | Why attend product conference 1? | London, GB, & other smaller events globally |
-
-Open a Growth & Development issue for a conference application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)
-
-</details>
-
-<details>
 <summary>Marketing</summary>
 
 | **Conference** | **Why attend?** | **Location** | **Departments** |
@@ -78,16 +67,17 @@ Open a Growth & Development issue for a conference application [here](https://gi
 
 </details>
 
-## G&D Selects - Courses
+## G&D Selects - Courses, Memberships, Academic Opportunities
 
 Conferences are a great tool for professional development, they provide networking opportunities, skill enhancement through workshops and seminars, and the chance to hear from thought leaders on the future of the industry. However, there are lots of conferences to choose from, and they can be expensive
 
 <details>
 <summary>Engineering</summary>
 
-| **Conference** | **Why attend?** | **Location** |
+| **Provider / Course** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| MIT Professional |  | Virtual |
+| MIT Professional Cloud & DevOps Continual Transformation | Online course designed to help participants understand the fundamentals and applications of Cloud & DevOps - the content and activities are aimed at encouraging participants to contribute to this transformation, through technologies such as DevOps and Cloud Computing.
+ | Virtual |
 
 </details>
 
@@ -96,10 +86,9 @@ Open up a Growth & Development issue for a course application [here](https://git
 <details>
 <summary>Security</summary>
 
-| **Conference** | **Why attend?** | **Location** |
+| **Provider / Course** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| OffSec | Why? | Virtual |
-| ISACA Membership | Why? | Virtual |
+| OffSec | Learning content library for security teams with wide range of high quality content and certifications. Live sessions, hands-on labs, as well as video and text based learning courses are available on a range of security related-topics: Pen Testing, Web App Security, Security Operations, Exploit Development, Cloud Security, Incident Response, and much more. Review some of their [available courses here](https://www.offsec.com/courses/) | Virtual |
 
 </details>
 
