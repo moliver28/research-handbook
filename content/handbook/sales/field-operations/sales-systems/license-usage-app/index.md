@@ -21,6 +21,7 @@ description: "This page outlines the License Utilization Salesforce App. It incl
 ## Which Customers Does this Apply To?
 
 Usage Data will be present in the License Utilization App in the following scenarios (assuming the sync is working as intended in each scenario):
+
 1. The Customer is on Cloud Licensing.
 1. The Customer is NOT on Cloud Licensing, but is on GitLab version 14.1+ and has Operational Metrics enabled.
 1. The Customer is on Offline Cloud Licensing.
@@ -29,7 +30,6 @@ Usage Data will be present in the License Utilization App in the following scena
 
 **Question: Billable Users is great, but when will I be able to see SMAU and other activity metrics?**<br />
 Answer: The Product and Data teams are working to get these metrics at the subscription level, and when they do we will add to this dash! [Follow the progress here](https://docs.google.com/presentation/d/1_v4hxKdbL6--UjpjVdveGEGD_MjmUnBg0-OIU1R14m8/edit#slide=id.p) (GitLab internal only).
-
 
 **Question: I viewed one of my Accounts, and some of the Subscription Data says "Not Available", what went wrong?**<br />
 Answer: Billable User data is not yet available for some subscriptions based on the customer needing to send data (opted into Service Ping **or** is sending data via Cloud License) and be on version 14.1+. Some subscriptions will never receive their Billable User count because of air gapped hosting. In either scenario please [post on the Feedback issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/1149) if you think the customer's subscription data should be available.

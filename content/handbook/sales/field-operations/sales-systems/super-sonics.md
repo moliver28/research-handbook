@@ -14,11 +14,9 @@ description: "This page outlines the Dynamic Quote Templates Automation in Sales
 
 - [Internal Team Handbook](https://gitlab-com.gitlab.io/licensing/)
 
-
 ## Dynamic Quote Templates Automation
 
 The Dynamic Quote Templates Automation, also known as Super Sonics, is a controlled flow that combines user input, automatically detected qualities of the quote and historical selections in order to automatically produce quote templates with the desired legal language on them as well as syncing with Zuora in order to control the actual behavior of the system. There are a number of features that can either be selected or are automatically added. For more information on these features please see our internal handbook here - (link coming soon).
-
 
 ## FAQ
 
@@ -39,7 +37,6 @@ The Dynamic Quote Templates Automation, also known as Super Sonics, is a control
 
 - How do I request help if I still have questions?
    - If you still have questions or are encountering errors you can reach out to [Sales Support](/handbook/sales/field-operations/sales-operations/) for additional help
-
 
 ## Logic Locations
 
