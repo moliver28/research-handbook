@@ -20,7 +20,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 
 ### Project Initiate & Plan
 
-1. After gaining Legal approval, PS Quote triggers an Epic in Gitlab.com around the recently sold Professional Services Project, at the Professional Services Group level. This _Customer Epic_ is labeled as SOW# + Customer and includes links to relevant Customer & contract information
+1. After gaining Legal approval, PS Quote triggers an Epic in Gitlab.com around the recently sold Professional Services Project, at the [Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group) level. This _Customer Epic_ is labeled as SOW# + Customer and includes links to relevant Customer & contract information
 2. Once a prosepctive Services deal reaches "Stage 5" (likely to close) or "Stage 6" (closing) in the PS Customer Journey, the PSOps team refers to the _Customer Epic_ to find the _"Scheduling Intake" issue_. From this issue, the Resource Scheduling team works to assign the PS Resources (PM, PSE, TA)
    * To find the right resources required, the PSOPs team will refer back to the Customer Epic to find the _"Scope Engagement and Write SoW"_ issue (managed by the Engagement Managment Team). This is where the scheduling team confirm skillsets needed, timing of the project, Project type (Time & Materials or Fixed Fee), etc.   
    * This scoping issue this is where the PM's, TA's, and PSE's work to gather the initial project information, scoping breakdown, and estimated schedule
