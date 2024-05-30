@@ -43,10 +43,12 @@ In order to track the contacts that are associated with a PSE, we utilize the PS
 #### Fields
 
 **PS Team**
+
 - Owner - the owner or overseer of the project
 - Project Team - the planned team for the project
 
 **PS Info**
+
 - PS Engagement Name - the unique identifier for the project
 - Engagement Type - whether the project is fixed, time based, etc.
 - Opportunity - link to the related PS Opportunity
@@ -67,12 +69,14 @@ In order to track the contacts that are associated with a PSE, we utilize the PS
 - General Notes - free-form text for notes about the project
 
 **Project Tracking**
+
 - Scoped Hours - hours scoped during the SOW
 - Hours Consumed - billable hours consumed to date
 - Remaining Project Hours - Remaining hours of the project
 - Hours Updated Date - the date when Hours Consumed was last updated
 
 **PSE Approval**
+
 - Approved - PS management has signed off that the project can begin
 - Approver - the Salesforce user who ticked the `Approved` box
 - Passive acceptance language in SOW? - does the SOW contain passive acceptance language to complete the SOW?
@@ -81,6 +85,7 @@ In order to track the contacts that are associated with a PSE, we utilize the PS
 - Sign Off Date - the sign off date, whether accepted via email or by executing passive acceptance
 
 **Project Timeline**
+
 - Kick Off Date - the date the project planning and scheduling began
 - Expected Start Date - the anticipated date when the technical portion of the project should begin
 - Expected Completion Date - the anticipated date when the project should be completed
@@ -160,10 +165,10 @@ To log an email in Salesforce:
 Any time you email a customer, bcc your "email to Salesforce address" on the email so that it is tracked within Salesforce.
 
 Three alternatives exist:
+
 1. If you have an [Outreach](/handbook/business-technology/tech-stack/#outreachio) account which is linked to your GitLab email address and your Salesforce account, your emails will automatically sync with Salesforce
 1. If you do not have outreach, then consider the [Salesforce Chrome plugin](/handbook/sales/prospect-engagement-best-practices) to easily log customer-related emails
 1. If you do want to log the email to the customer's timeline in Gainsight, follow the instructions in [this help article](https://support.gainsight.com/SFDC_Edition/Timeline/Admin_Guides/Configure_Email_to_Timeline). This email will be synced back to Salesforce with the daily Gainsight-Salesforce sync.
-
 
 ### Building Reports in Salesforce
 

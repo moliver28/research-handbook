@@ -120,7 +120,7 @@ This is where the "it depends" scenarios start with network design. You can allo
 
 Learn more in our [Terraform US region configuration](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform/environments/demosys-mgmt/us) and our [Terraform region VPC module](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform/modules/demosys-mgmt/region-vpc).
 
-```
+```console
 cd ~/Sites/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform
 cd environments/demosys-mgmt/us
 terraform init
@@ -152,7 +152,7 @@ terraform apply
 
 Learn more in our [Terraform US region configuration](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform/environments/demosys-saas/us) and our [Terraform region VPC module](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform/modules/demosys-saas/region-vpc).
 
-```
+```console
 cd ~/Sites/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform
 cd environments/demosys-saas/us
 terraform init

@@ -29,7 +29,6 @@ All that changed at GitLab. Since coming here, I have started initiatives to try
 - I believe in creating efficient processes, working as a team rather than as an individual contribution.
 - I earned the nickname "Cheddar Bob" during SKO in February 2023 because of my transparency and willingness to always speak up. (Read about what it means to be a "Cheddar Bob" or one of the other "C"s [here](https://www.fastcompany.com/90607514/the-4-types-of-personalities-leaders-need-in-their-inner-circle).)
 
-
 ## Weaknesses
 
 I am certainly not without my flaws. Many of them stem from being a perfectionist and a "Cheddar Bob". I promise you I am not trying to spin a strength into a weakness. It is the side effects from those traits that become my biggest weaknesses.
@@ -38,7 +37,6 @@ I am certainly not without my flaws. Many of them stem from being a perfectionis
 - While being a "Cheddar Bob" is mostly a strength, this together with perfectionism can lead to obsessive behavior. I can get tunnel vision and decide things impulsively, especially if no one else has spoken up. However, I am sometimes the reason that no one has spoken up because I monopolize the conversation. I can miss the big picture, and sometimes need someone to pull me from the weeds.
 
 If you notice me falling into either of these traps, feel free to call me out on it. I am not trying to silence others; I am just passionate. Sometimes it takes me a long time to realize what I am doing it, so I need help refocusing.
-
 
 #### Related Links
 

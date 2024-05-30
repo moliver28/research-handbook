@@ -56,6 +56,7 @@ Another good approach is to align this renewal conversation with the customer's 
 If the customer indicates any risk of contraction or churn in this conversation, the [CSM sets the CSM Sentiment field to red](/handbook/customer-success/csm/health-score-triage/#red), which then overrides the 'Overall Health' field to red also.  
 
 It's important that the CSM asks this question no later than the 30-day window from when the CTA is automatically opened:
+
  - If risk is indicated, 3 months can be enough time remaining to make a meaningful change to outcomes
  - If a renewals manager is involved, they will be reaching out the customer about the renewal itself, 10 weeks before the renewal. Being informed, at this time, of renewal risk, will make our approach much more sensitive to the customer scenario.
 

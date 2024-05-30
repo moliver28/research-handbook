@@ -93,7 +93,6 @@ After the meeting, based on meeting notes, create issues in the gitlab.com custo
 
 The build validation step is a bit vague on purpose because it depends on what was included in the scope of the engagement. The PSE can use the [delivery kits mapped to our service offerings](/handbook/customer-success/professional-services-engineering/framework/#service-offering-framework) which include templatized discovery documents, automation software to facilitate service delivery, and templatized deliverable documents. Most of the collateral will be modified and updated right from the delivery kits so this section is intentionally light on detail.
 
-
 ### Train
 
 PSEs or Technical Instructors who deliver GitLab Education Services instructor-led courses can use the following workflow to ensure smooth interactions with customers. In addition, PSEs and Technical Instructors should complete these [GitLab Certified Trainer](/handbook/customer-success/professional-services-engineering/gitlab-certified-trainer-process/) steps for each course they are scheduled to deliver.
@@ -136,11 +135,13 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 PS uses the [GitLab Lab Environment](http://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
 
 **1. GitLab Demo System invitation codes**
+
 1. The Project Coordinator will generate the invitation code for your class and provide the invitation code information approximately a week prior to your class start date as part of the instructor friendly reminders post within your Kantata project.
 1. Follow the instructions on the [GitLab Lab Environment Invitation Code Redemption handbook page](/handbook/customer-success/demo-systems/#invitation-code-redemption) to redeem the invitation code and access the lab environment.
 1. For any edits/extensions/etc or any custom redemption rules (different durations than our standards), contact the GitLab Professional Services Operations team for assistance.
 
 **2. Share the invitation code and access instructions with attendees**:
+
 1. On the first day of class, share the invitation code and review the login process with the attendees. Also let them know the expiration date (which is 30 days from the date they generate the login).
 
 #### Training Closeout
@@ -155,7 +156,6 @@ For blended engagements, see the `Deploy & Close` section of our [project manage
 ### Financial Closeout
 
 **TODO: Add or link to content about what happens in this step**
-
 
 ## 4. Customer Success
 

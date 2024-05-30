@@ -69,7 +69,6 @@ If the [Customer Collaboration Project](/handbook/customer-success/csm/customer-
 
 Once done and the AM id was updated, the link itself will be visible within ZD in an existing ticket, when you click on "Apps" at the top right within the single ticket view.
 
-
 ## Support Ticket Notifications
 
 When a CSM is assigned to an account in Salesforce, any time that a user from that account submits a support ticket, the CSM will receive an email to let them know, which includes a link to the Zendesk ticket and an [automatically-created](/handbook/support/readiness/operations/docs/zendesk/zendesk_salesforce_sync/) Salesforce case. The email will also include the account name, contact name and email, and the date the ticket was opened. CSMs should receive the email within 1-2 hours of the ticket being opened.
