@@ -43,7 +43,7 @@ Product support is not included as part of this subscription.
 In order to be accepted into the GitLab for Open Source Program, applicants must:
 
 * **Use OSI-approved licenses for their projects:** Every project in the applying namespace must be published under an [OSI-approved open source license](https://opensource.org/licenses/).
-*  **Not seek profit:** An organization can accept donations to sustain its work, but it can't seek to make a profit by selling services, by charging for enhancements or add-ons, or by other means.
+* **Not seek profit:** An organization can accept donations to sustain its work, but it can't seek to make a profit by selling services, by charging for enhancements or add-ons, or by other means.
 * **Be publicly visible:** Both the applicant's GitLab.com group or self-managed instance and source code must be publicly visible and publicly available.
 
 **Please note:** Benefits of the GitLab for Open Source Program apply to a namespace.
@@ -229,7 +229,7 @@ The current extended subscription renewal period is **36 months**.
 Partners seeking extended-period renewals should email their requests to `opensource@gitlab.com`.
 Partners should use this template to format their requests:
 
-```
+```text
 Subject: Open Source Partner (Application/Renewal)
 Subscription Term: 36
 Number of seats you are requesting:
@@ -241,8 +241,8 @@ List any change of ownership to the account:
 When a request is processed and accepted, applicants will be asked to sign a $0 quote with a 36-month term.
 After that:
 
-- For **Saas**: No further action is necessary.
-- For **Self-managed**: Applicants need to download licenses from the GitLab Customer Portal and upload them to their instances.
+* For **Saas**: No further action is necessary.
+* For **Self-managed**: Applicants need to download licenses from the GitLab Customer Portal and upload them to their instances.
 
 #### Tracking partner issues
 
@@ -424,11 +424,11 @@ GitLab team members with access to Tableau can view this reports for additional 
 We also track (and, when necessary, participate in) Hacker News discussions related to both our open source programs and partners.
 Examples include:
 
-- 2023-12-08: [Arch Linux bugtracker migration to GitLab completed](https://news.ycombinator.com/item?id=38568076)
-- 2022-06-14: [GitLab Now the Main Development Platform for Wine](https://news.ycombinator.com/item?id=31737807)
-- 2020-10-28: [Wikimedia is moving to GitLab](https://news.ycombinator.com/item?id=24919569)
-- 2020-06-29: [The KDE community is moving to GitLab](https://news.ycombinator.com/item?id=23679360)
-- 2018-05-31: [Gnome has moved to GitLab](https://news.ycombinator.com/item?id=17198610)
-- 2019-09-30: [KDE is adopting GitLab](https://news.ycombinator.com/item?id=21112632)
-- 2017-11-15: [Debian and GNOME announce plans to migrate communities to GitLab](https://news.ycombinator.com/item?id=15701922)
-- 2017-05-16: [A proposal to move Gnome to GitLab](https://news.ycombinator.com/item?id=14352521)
+* 2023-12-08: [Arch Linux bugtracker migration to GitLab completed](https://news.ycombinator.com/item?id=38568076)
+* 2022-06-14: [GitLab Now the Main Development Platform for Wine](https://news.ycombinator.com/item?id=31737807)
+* 2020-10-28: [Wikimedia is moving to GitLab](https://news.ycombinator.com/item?id=24919569)
+* 2020-06-29: [The KDE community is moving to GitLab](https://news.ycombinator.com/item?id=23679360)
+* 2018-05-31: [Gnome has moved to GitLab](https://news.ycombinator.com/item?id=17198610)
+* 2019-09-30: [KDE is adopting GitLab](https://news.ycombinator.com/item?id=21112632)
+* 2017-11-15: [Debian and GNOME announce plans to migrate communities to GitLab](https://news.ycombinator.com/item?id=15701922)
+* 2017-05-16: [A proposal to move Gnome to GitLab](https://news.ycombinator.com/item?id=14352521)

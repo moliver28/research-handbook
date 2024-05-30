@@ -69,6 +69,7 @@ a request should be submitted via a comment and tag the PC on either Internal Pr
 - PS Time Tracking Non-Creditable
 
 Comment should be added to the activity page to include the following:
+
 - Task
 - Time Required
 - Priority Level
@@ -82,6 +83,7 @@ When the PC and PM have the project team aligned the PC will send [Consulting Pr
 #### Consulting Projects Billing Guidelines
 
 Project billing is outlined in each customer SOW or Order Form.  The current billing terms that Professional Services follows is the following:
+
    - Billed upon SOW execution
    - Order Form execution
    - Time and Materials
@@ -94,6 +96,7 @@ Passive acceptance of 5 days is included in the SOW unless different terms are n
 #### Consulting Projects Revenue Forecasting Guidelines
 
 Project revenue release is followed dependant on project billing type:
+
    - Billed upon SOW execution billing terms
      - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
    - Billed upon Order Form execution billing terms
@@ -128,6 +131,7 @@ For T&M projects, revenue is released at each month end. Project hours are submi
 
 For FP projects, revenue is released when customer acceptance is received or passive acceptance has passed as it pertains to the project SOW language.
 The PM sends out the request for acceptance to the customer and then updates the Billing/ Revenue Milestone in Kantata.  When sending out the acceptance email, the PM should copy the Operations Manager and the assigned Project Coordinator.  When counting the passive acceptance days, day 1 would be the date the notification is sent, from the date sent then business days is calculated for the passive acceptance.
+
 - Update Sign Off Sent, when email request is sent
 - Update Sign Off received, when acceptance is received or Passive Acceptance is reached and add the PDF email of acceptance to the Milestone
 - Update if Passive Acceptance has been utilized for sign off
@@ -145,6 +149,7 @@ Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/pro
 #### Training Projects Billing Guidelines
 
 Training billing is outlined in each customer SOW or Order Form.  The current billing terms that Professional Services follows is the following:
+
    - Billed upon SOW
    - Order Form execution
 
@@ -153,6 +158,7 @@ Passive acceptance of 5 days is included in the SOW unless different terms are n
 #### Training Projects Revenue Forecasting Guidelines
 
 Training revenue release is followed dependant on training billing type:
+
    - Billed upon SOW
      - Once each training class is complete and roster is received
    - Order Form execution billing terms
@@ -167,6 +173,7 @@ If there is not confidence that the activities will be complete, then the task d
 
 For training projects, revenue is released when training is complete and/or when acceptance is received dependant on the project SOW language.
 If required per the project SOW, the PC sends the request for acceptance to the customer and then updates the Billing/ Revenue Milestone in Kantata
+
 - Update Sign Off Sent, when training is complete or email request is sent
 - Update Sign Off received, when training is complete, acceptance is received, or Passive Acceptance is reached and add the class roster or PDF email of acceptance to the Milestone
 - Update if Passive Acceptance has been utilized for sign off
@@ -186,6 +193,7 @@ When there is a new team member on the PS Team.  We have some training and proce
 #### Kantata Access
 
 To provide Kantata access to an internal GitLab team members, provide access by the following:
+
 - Kantata Access
   - Settings
   - Members
@@ -199,6 +207,7 @@ To provide Kantata access to an internal GitLab team members, provide access by 
   - Add Members
 
  To provide Kantata access to a GitLab partner, provide access by the following:
+
 - Kantata Access
   - Settings
   - Members
@@ -236,6 +245,7 @@ Internal projects are set up to track internal time that is not customer project
 ****Customer consulting projects****
 
   When working on a customer project, all hours worked should be tracked against the project.  Here are some examples:
+
   - Project tasks are aligned with SOW activities and hours tracked against the tasks
   - Internal/ Sales Handoff Calls
   - Internal/ External status meeting
@@ -247,6 +257,7 @@ Internal projects are set up to track internal time that is not customer project
 ****Customer training projects****
 
   When working on a training project, all hours worked should be tracked against the project.  Here are some examples:
+
   - Introduction/ Planning/ Preparation/ Close Out
     - All hours should be tracked against the task for preparation and close out of the training
   - All class hours are to be tracked against the task that gives the name of the training, example is GitLab Basics TRNG Hours
@@ -291,7 +302,6 @@ Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/pro
 
 If there are other questions in regards to the GitLab Travel policy, refer to the [Travel Handbook Page](/handbook/travel/).
 
-
 ### Kantata Project Status/ Colors
 
 | Kantata Status | Status Definition |
@@ -321,7 +331,6 @@ For **training-only projects**, use the following Kantata/Kantata statuses:
 | Backlog- Gray | Customer is not ready to schedule the training activities, and it has been at least a month since the order booking date |
 | Cancelled- Blue | Project created but will not be worked for various reasons |
 
-
 | Kantata Project Colors |  |
 | ------ | ------ |
 | Blue | Training Only Project |
@@ -344,7 +353,6 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
 - Client:
    - How is the customer feeling about the project? Happy, frustrated, engaged, disengaged
    - The project could be status of red for scope, schedule, etc. and the customer is still happy
-
 
 #### New Supplier Request Form
 
@@ -394,14 +402,14 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
          - Data entry convention - Consulting: Hourly rate/ or Fixed Price
            - Example: $###/hour
            - Example: $### Fixed Price
-        - Data entry convention - Training:
+         - Data entry convention - Training:
            - Standard Course Delivery: Fixed Price
            - Pre-Configured Course Delivery:  Hourly Rate
          - Custom Course Delivery:  Hourly Rate
          - Example (standard course): $### per course
          - Example (pre-config or custom): $###/hour
-     - Submit the purchase request for approval.
-     - Follow up with internal approvers as needed.
+      - Submit the purchase request for approval.
+      - Follow up with internal approvers as needed.
 - After submitting the Professional Services Request Form, it will apply to your Cart.
 - Go into the Review Cart section and enter the information on the purchase request with the Professional Services Request Form questions already populated and added to the purchase request.
 
@@ -428,6 +436,7 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
 #### Invoice Processing and Tracking
 
 CURRENT PROCESS VIA COUPA:
+
 - Project Coordinator receives notification from Coupa to review the partner submitted invoice.
    - Note - Approval queue is Consulting Project Coordinator first and Training Project Coordinator second.
 - Project Coordinator reviews the invoice and Kantata timesheets to ensure accuracy of hours approved and rate.

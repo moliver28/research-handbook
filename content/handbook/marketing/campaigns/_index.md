@@ -40,6 +40,7 @@ _The list below includes recommended items included in a **Campaign Bundle**, wh
 To see a visual of campaign bundles, which are then leveraged in activation plans, please see [this figjam](https://www.figma.com/file/jakug8myj5tOcaYrNxRAq2/Campaigns-team-Roles-%26-Responsibilities-Visuals_2023-08-23_11-14-14?type=whiteboard&t=HDkNJDbCt6265Ezf-1).
 
 **What is included in a Campaign Bundle?**
+
 - Target personas
 - Persona-based positioning and messaging
 - Keyword research
@@ -59,6 +60,7 @@ To see a visual of campaign bundles, which are then leveraged in activation plan
 Campaign bundles are leveraged by all teams in marketing and sales to drive a cohesive full-funnel approach with aligned personas, positioning, messaging, and branding across all touchpoints and conversations.
 
 **Activation activities include:**
+
 - Webcasts
 - Tech Demos
 - Workshops
@@ -68,6 +70,7 @@ Campaign bundles are leveraged by all teams in marketing and sales to drive a co
 - Owned events (Commit)
 
 **Activation channels include:**
+
 - Email nurture
 - Paid digital (paid social, GDN, etc.)
 - Social
@@ -82,6 +85,7 @@ Campaign bundles are leveraged by all teams in marketing and sales to drive a co
 A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook/marketing/demand-generation/campaigns/) and is comprised of functional DRIs across marketing and revenue programs.
 
 **Campaign Core Team Members:**
+
 - Campaigns (DRI)
 - Product Marketing (Primary)
 - Developer Advocacy (Primary)
@@ -99,6 +103,7 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 - Field Marketing (Liaison for activation)
 
 **About Campaign Core Teams:**
+
 - The Core Team's purpose is to collaborate on the research, positioning, messaging, general strategy, and overall timeline of the campaign, and related value plays.
 - The Core Teams will determine a relevant and realistic timeline in line with overarching marketing themes, and including Campaigns and Value Plays.
 - Each team member should formally commit to due dates for their work.
@@ -205,9 +210,7 @@ Our dashboards are owned and managed by the Marketing Strategy and Performance t
 
 The below global integrated campaigns are continally optimized by the Marketing Campaigns team, in collaboration wit Digtial Marketing, Developer Advocacy, Product Marketing, and beyond. These campaign bundles are leveraged by all teams in Marketing to apply cohesive and consistent messaging and approach across all marketing channels and tactics.
 
-
 ### 🚀 DevSecOps Platform Campaign (Previously DevOps Platform Campaign)
-
 
 **Campaign Manager DRI: Eirini Pan**
 
@@ -220,7 +223,6 @@ The below global integrated campaigns are continally optimized by the Marketing 
 - [FY24 Campaign Core Team Members](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460#busts_in_silhouette-campaign-core-team)
 - [FY23 DevOps Platform Campaign Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858)
 - [FY23 DevOps Platform Campaign Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858#memo-campaign-brief)
-
 
 ### 🚀 Security & Compliance Campaign
 
@@ -252,7 +254,6 @@ The below global integrated campaigns are continally optimized by the Marketing 
 - [FY24 Campaign Core Team Members](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3611#busts_in_silhouette-campaign-core-team)
 - [FY23 Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2790)
 - [FY23 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2790#memo-campaign-brief)
-
 
 ## Past Integrated Campaigns
 
@@ -348,7 +349,6 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Slack](https://gitlab.slack.com/archives/C0119FNPA84)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001dgJ9)
 - Campaign UTM: `iacgitops`
-
 
 ### 🚀 GitHub - Light (Competitive Campaign)
 
@@ -593,8 +593,8 @@ Ideally, campaigns will be agreed at least a quarter in advance to allow for amp
 {: #epic-code}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-```
-<!-- Name this epic: Name of Campaign [Integrated Campaign] (i.e. Automated Software Delivery [Integrated Campaign])
+```markdown
+<!-- Name this epic: Name of Campaign [Integrated Campaign] (i.e. Automated Software Delivery [Integrated Campaign]) -->
 
 #### :calendar: [Campaign Execution Timeline >>]() - `to be added once created by Campaign Manager`
 #### :mega: [Slack Channel >>]() `to be added once created by Campaign Manager`
@@ -681,4 +681,4 @@ Paid Media:
 
 Below is a V1 visual in Mural of the sales lead funnel (pre-opportunity) on the left and the all-remote funnel on the right. Discussion of how and when to "bridge the gap" between the funnels - potentially sharing GitLab audience-targeted offers within All-Remote communications - is included [in this issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2590).
 
-<div style="width: 600px;" class="embed-thumb"> <h1 style="position: relative;vertical-align: middle;display: inline-block; font-size: 24px; line-height:22px; color: #393939;margin-bottom: 10px; font-weight: 300;font-family: Proxima Nova, sans-serif;"> <img src="https://app.mural.co/avatar/jgragnola2053" style="position: absolute; border-radius: 50%; width: 36px;height: 36px;margin-right: 14px; display: inline-block; margin-top: -6px;margin-right: 10px; vertical-align: middle;"> <div style="padding-left:50px"> <span style="max-width:555px;display: inline-block;overflow: hidden; white-space: nowrap;text-overflow: ellipsis;line-height: 1; height: 25px; margin-top: -3px;">Lead Generation Funnel + All-Remote Breakout</span> <span style="position:relative;top:-3px;font-size: 16px; margin-top: -6px; line-height: 24px;color: #393939; font-weight: 300;"> by Jackie Gragnola</span> </div> </h1> <div style="position: relative; height: 0;overflow: hidden; height: 400px; max-width: 800px; min-width: 320px; border-width: 1px; border-style: solid; border-color: #d8d8d8;"> <div style="position: absolute;top: 0;left: 0;z-index: 10; width: 600px; height: 100%;background: url(https://murally.blob.core.windows.net/thumbnails/gitlab24743204/murals/gitlab24743204.1585283889844-5e7d833115ecf04b79301159.png?v=51ddc0c0-b456-443c-aa7c-92557e78efe9) no-repeat center center; background-size: cover;"> <div style="position: absolute;top: 0;left: 0;z-index: 20;width: 100%; height: 100%;background-color: white;-webkit-filter: opacity(.4);"> </div> <a href="https://app.mural.co/t/gitlab24743204/m/gitlab24743204/1585283889844/5837d15d7eed38c848745c9e63cef77eba194009" target="_blank" rel="noopener noreferrer" style="transform: translate(-50%, -50%);top: 50%;left: 50%; position: absolute; z-index: 30; border: none; display: block; height: 50px; background: transparent;"> <img src="https://app.mural.co/static/images/btn-enter-mural.svg" alt="ENTER THE MURAL" width="233" height="50"> </a> </div> </div> <p style="margin-top: 10px;margin-bottom: 60px;line-height: 24px; font-size: 16px;font-family: Proxima Nova, sans-serif;font-weight: 400; color: #888888;"> You will be able to edit this mural. </p></div>
+<div style="width: 600px;" class="embed-thumb"> <h1 style="position: relative;vertical-align: middle;display: inline-block; font-size: 24px; line-height:22px; color: #393939;margin-bottom: 10px; font-weight: 300;font-family: Proxima Nova, sans-serif;"> <img src="https://app.mural.co/avatar/jgragnola2053" style="position: absolute; border-radius: 50%; width: 36px;height: 36px;margin-right: 14px; display: inline-block; margin-top: -6px;margin-right: 10px; vertical-align: middle;" alt=""> <div style="padding-left:50px"> <span style="max-width:555px;display: inline-block;overflow: hidden; white-space: nowrap;text-overflow: ellipsis;line-height: 1; height: 25px; margin-top: -3px;">Lead Generation Funnel + All-Remote Breakout</span> <span style="position:relative;top:-3px;font-size: 16px; margin-top: -6px; line-height: 24px;color: #393939; font-weight: 300;"> by Jackie Gragnola</span> </div> </h1> <div style="position: relative; height: 0;overflow: hidden; height: 400px; max-width: 800px; min-width: 320px; border-width: 1px; border-style: solid; border-color: #d8d8d8;"> <div style="position: absolute;top: 0;left: 0;z-index: 10; width: 600px; height: 100%;background: url(https://murally.blob.core.windows.net/thumbnails/gitlab24743204/murals/gitlab24743204.1585283889844-5e7d833115ecf04b79301159.png?v=51ddc0c0-b456-443c-aa7c-92557e78efe9) no-repeat center center; background-size: cover;"> <div style="position: absolute;top: 0;left: 0;z-index: 20;width: 100%; height: 100%;background-color: white;-webkit-filter: opacity(.4);"> </div> <a href="https://app.mural.co/t/gitlab24743204/m/gitlab24743204/1585283889844/5837d15d7eed38c848745c9e63cef77eba194009" target="_blank" rel="noopener noreferrer" style="transform: translate(-50%, -50%);top: 50%;left: 50%; position: absolute; z-index: 30; border: none; display: block; height: 50px; background: transparent;"> <img src="https://app.mural.co/static/images/btn-enter-mural.svg" alt="ENTER THE MURAL" width="233" height="50"> </a> </div> </div> <p style="margin-top: 10px;margin-bottom: 60px;line-height: 24px; font-size: 16px;font-family: Proxima Nova, sans-serif;font-weight: 400; color: #888888;"> You will be able to edit this mural. </p></div>

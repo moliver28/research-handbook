@@ -13,9 +13,9 @@ There are many steps to set up a cluster in EKS, but there is a 3rd party script
 From these scripts, the `create-cluster.sh` script can be used as a wrapper to eksctl to create a cluster to use.
 
 ## Attaching a cluster to GitLab
+
 GitLab currently doesn't have a built-in integration to AWS EKS for attaching Kubernetes clusters. In order to attach an EKS cluster to GitLab you will need to use the "Add existing cluster" option on the Kubernetes "Add Kubernetes Cluster" page.
 
 To do this you will need info specific to your cluster (API URL endpoint, CA Certificate, and the Service Token). The [eks-utils scripts](https://gitlab.com/dangordon/eks-utils.git) where made to capture the necessary details. You will also need a cluster name, which can be whatever you want, as this is for GitLab reference, but I suggest you name it the same as you named your cluster on EKS, so that it is easier to correlate the two.
-
 
 This process and documentation needs to and should evolve. This is MVC. Possibilities are, for example, instead of eks-utils, re-writing them as a kubectl plugin for creating and adding a cluster to GitLab. Reference the one that DigitalOcean's [Eddie Zaneski wrote](https://gitlab.com/eddiezane/kubectl-gitlab_bootstrap.git) for his [GitLab Commit demo](https://youtu.be/-shvwiBwFVI).

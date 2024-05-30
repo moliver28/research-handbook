@@ -201,12 +201,12 @@ The prospect or customer lost budget due to business contraction, change of prio
 #### Corporate Decision
 
 Due to management decision or policy, the prospect or customer chose a different product but not because of product gaps, adoption, etc. This would be a top-down decision (e.g., ELA, decision to commit to a single provider)
+
 - **Other** - other company issues that contribute to a blocker for the renewal
 
 ### Mitigation Strategies
 
 For CSM guidance on mitigating risk, please see the [Risk Types, Discovery & Mitigation Strategies](/handbook/customer-success/csm/risk-mitigation) page.
-
 
 ## At Risk Communication Guidelines
 
@@ -224,9 +224,6 @@ The following are guidelines on who to notify when an account is yellow or red. 
 - Area Sales Manager and Regional Director
 - Vice President of Customer Success
 
-
-
 ## Related Processes
 
 [Customer Success Escalations Process](/handbook/customer-success/csm/escalations/)
-

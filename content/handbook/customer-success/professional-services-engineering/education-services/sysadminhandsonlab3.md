@@ -26,13 +26,13 @@ The objective of this lab is to demonstrate how to create and register a GitLab 
     curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh" | sudo bash
     ```
 
-4. Install the GitLab Runner agent.
+1. Install the GitLab Runner agent.
 
   ```bash
   sudo dnf install -y gitlab-runner
   ```
 
-5. Once the install completes, check that the service is running.
+1. Once the install completes, check that the service is running.
 
   ```bash
   sudo gitlab-runner status
@@ -102,13 +102,13 @@ The objective of this lab is to demonstrate how to create and register a GitLab 
       - echo "The test stage requires at least one job"
   ```
 
-8. Select **Commit changes**.
+1. Select **Commit changes**.
 
-9. In the left sidebar, select **Build > Pipelines**.
+1. In the left sidebar, select **Build > Pipelines**.
 
-10. Select the pipeline status (it should say **passed**).
+1. Select the pipeline status (it should say **passed**).
 
-11. Click into each of the **build_app** and **test_app** jobs to see the job logs and commands that were executed on the runner.
+1. Click into each of the **build_app** and **test_app** jobs to see the job logs and commands that were executed on the runner.
 
 ## Lab Guide Complete
 
@@ -117,4 +117,3 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 ### Suggestions?
 
 If you’d like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.
-

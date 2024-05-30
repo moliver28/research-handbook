@@ -1,16 +1,13 @@
 ---
-
 title: "Dex Bot"
 description: "Digital Experience team Slack application"
 ---
 
-# Dex Bot
-
-The Digital Experience team has created a Slack application to automate important messages and alerts to the team, the app configuration can be found [here](https://api.slack.com/apps/A06K6EK7VHP/general) 
+The Digital Experience team has created a Slack application to automate important messages and alerts to the team, the app configuration can be found [here](https://api.slack.com/apps/A06K6EK7VHP/general)
 
 ### Collaborators
 
-Currently this application is managed by the following members of the Digital Experience team: 
+Currently this application is managed by the following members of the Digital Experience team:
 
 - [Nathan Dubord](https://gitlab.com/ndubord)
 - [Lauren Barker](https://gitlab.com/laurenbarker)
@@ -20,7 +17,7 @@ Currently this application is managed by the following members of the Digital Ex
 
 ### Contentful integration
 
-Currently the main use for this bot is to notify the team as soon as one of the main pages is changed in our CMS platform, this will send a message that contains the following information to the team: 
+Currently the main use for this bot is to notify the team as soon as one of the main pages is changed in our CMS platform, this will send a message that contains the following information to the team:
 
 - Entry Title
 - User ID of the user who made the changes
@@ -32,15 +29,15 @@ and also includes a button to open the comparison with the previous version in t
 
 ![DexBot Message](DexBot-message.png)
 
-this integration is done using two webhooks: 
+this integration is done using two webhooks:
 
 a [Contentful Webhook](https://app.contentful.com/spaces/xz1dnu24egyd/settings/webhooks/0phOTSfD0tLisCEgn7hN53/settings) which has been configured to send a custom payload containing the entry information to our [Slack webhook](https://api.slack.com/apps/A06K6EK7VHP/incoming-webhooks) which will then trigger the message from slack bot, this message is then sent to the `dex-alerts` channel in Slack
 
 ### Slack blocks
 
-The message that is sent was made using the slack [Block system](https://api.slack.com/block-kit), which uses pre-made slack UI components to structure the message and add interactivity in the form of inputs and buttons, this is built in the form of JSON, this is the payload being used for the CMS alerts message: 
+The message that is sent was made using the slack [Block system](https://api.slack.com/block-kit), which uses pre-made slack UI components to structure the message and add interactivity in the form of inputs and buttons, this is built in the form of JSON, this is the payload being used for the CMS alerts message:
 
-```
+```json
 {
   "blocks": [
     {

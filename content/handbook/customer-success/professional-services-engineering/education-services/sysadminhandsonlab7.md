@@ -63,7 +63,7 @@ There are a variety of different metrics administrators can use to monitor the p
 
 1. In the input beside the **magnifying glass** button, type the following query:
 
-    ```
+    ```text
     ((node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) or ((node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes) / node_memory_MemTotal_bytes)) * 100
     ```
 
@@ -73,7 +73,7 @@ There are a variety of different metrics administrators can use to monitor the p
 
 1. In the query input, delete your previous query and replace it with the following query:
 
-    ```
+    ```text
     1 - avg without (mode,cpu) (rate(node_cpu_seconds_total{mode="idle"}[5m]))
     ```
 
@@ -90,4 +90,3 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 ### Suggestions?
 
 If you’d like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.
-

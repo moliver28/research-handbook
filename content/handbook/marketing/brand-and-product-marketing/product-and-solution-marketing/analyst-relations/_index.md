@@ -18,6 +18,7 @@ If you would like to engage the analysts (e.g. research a topic, ask questions o
 ## How we interact with the analyst community
 
 Examples of how we engage with analysts include:
+
 - Briefings to update analysts on our product, our company, and our future direction
 - Inquiries where analysts answer specific questions we have about product strategy, messaging, competitive positioning
 - Advisory days for a deeper dive into the products, markets, and strategies
@@ -55,7 +56,6 @@ Examples of how we engage with analysts include:
 - An initial round of inquiries to explore and get input into market requirements, target personas, etc. for a given use case
 - Ongoing briefings to provide updates on progress made within the scope of a given use case
 - Subsequent inquiry calls to revisit market requirements, competitive positioning, etc. as updated to meet evolving market conditions
-
 
 ## Responding to requests to participate in industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.)
 
@@ -153,14 +153,12 @@ Examples of how we engage with analysts include:
     - AR gets the webpage link to the industry analyst firm for citations approval
 - PMM [requests a slot on the Sales Enablement calendar](/handbook/sales/training/sales-enablement-sessions/#to-request-new-sales-enablement-sessions) to discuss the report results and the web page with sales
 
-
 ### Once the report is published by the industry analyst firm
 
 - AR posts the results/summary on the What's Happening at GitLab page with either an internal link or a link to the reprint
 - AR sets up an inquiry with the industry analyst firm to discuss the results of the report and answer questions for PM/PMM/TMM
 - AR adds the link to the spreadsheet of sales report
 - AR adds the report to the appropriate Use Case resource page(s)
-
 
 ## Accessing analyst reports
 
@@ -175,6 +173,7 @@ Most analyst companies charge for access to their reports.
 In 2020, GitLab commissioned Forrester Research to create a Total Economic Impact (TEI) study on GitLab. According to Forrester, "The TEI methodology quantifiably measures the business value of an IT decision or project. TEI is composed of four main elements with associated tools and methodologies for quantification. Individually, each provides only a piece of the decision-support puzzle. Together, they provide a holistic tool for assessing and justifying IT investments."
 
 In Forrester's methodology, the four main elements of the TEI are:
+
 - Benefits -  measure financial impacts of positive business results.
 
 - Cost - measures the negative impact on IT and the business.

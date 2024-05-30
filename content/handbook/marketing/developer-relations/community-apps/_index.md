@@ -33,22 +33,14 @@ The tools available in the suite are described below.
 
 Learn more about the GitLab Campaign Manager with the [User guide](/handbook/marketing/developer-relations/community-apps/campaign-manager/).
 
-
-
 ### <i class="" id="gitlab-go"></i> GitLabGO URL Shortnener
 
 TBD
-
-
 
 ### <i class="" id="qr-studio"></i> QR Code Studio
 
 TBD
 
-
-
 ### <i class="" id="community-api"></i> Community API
 
 TBD
-
-

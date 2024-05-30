@@ -3,6 +3,7 @@ title: Renewals Managers - How we do it
 ---
 
 View the Renewals Manager handbook pages:
+
 - [Home](/handbook/customer-success/renewals-managers/home) - Information about the organization.
 - [What we do](/handbook/customer-success/renewals-managers/what) - Information about what tasks and activities renewals managers perform.
 
@@ -30,7 +31,6 @@ The renewals team organizes it's coverage of a customer subscriptions around par
 | Month 12   | 8. Signing     | Signatures on quote, PO raised/sent (when necessary)                         |
 | Month 12   | 9. Closed Won  | Entitled, shown gratitude, and equipped for day zero success                  |
 
-
 ## Opportunity Tiering
 
 Renewals managers cover every opportunity that is in their assigned region, however, that coverage is dependent on the opportunity "tier". The tier describes the ownership of the renewal opportunity. Tiers are autopopulated for new opportunities using the tier table schema. Each Renewals Manager is responsible for collaborating with their team of Account Executives to calibrate their specific book of business with the correct tiering for each opportunity. Calibration occurs annually, and after that period, changes to tiering require manager approval.
@@ -45,7 +45,6 @@ Renewals managers cover every opportunity that is in their assigned region, howe
 | 3 | [X > 400K] | Solely owned by AE | Understand the status of the renewal; Track/update the risk and mitigation on the opportunities; Predictability - should be able to forecast the business |
 
 Note that any changes to the Renewal Ownership (Tier) field within the current Fiscal Year must be submitted by the Renewals Manager or Account Executive and approved by the Manager, Renewals via Chatter on the Opportunity record.
-
 
 ## Renewal opportunity activities - by tier
 
@@ -67,7 +66,7 @@ The following activities are recommended for each Renewals Manager as a baseline
 | L  | 1,2 | Expand | Internal | CSM + RM Huddle | Ensuring the timely coordination of CSM + RM. Templated check-in (Known issues, risks, externalities at play, etc.) |
 | M  | 0,1,2 |  Expand | Internal | Late stage risk evaluation | Use late stage framework to identify and flag risk on the opportunity. Kick off mitigation tactics. |
 | N  | 0,1 | Expand | External - Call | Hard expansion sell | Offer addiitional buffer, uptiers, source new opportunities for connected-new |
-| O  | 0,1,2 | Prepare | Email - Short form Video | Video prep customer for renewal season |
+| O  | 0,1,2 | Prepare | Email - Short form Video | Video prep customer for renewal season | |
 | P  | 0,1,2 | Prepare       | Email - Standard | Renewal transaction outreach   | Email customer requesting a meeting, informing them of approaching renewal, hyperlinking helpful documentation (business case templates, ROI templates, etc.) |
 | Q  | 0,1,2 | Prepare       | Call            | Renewal meeting                 | Discuss the upcoming renewal, expansion pitch, first-step negotiations                                                        |
 | R  |  0,1,2 | Prepare       | Internal        | Build and approve quote         | Build quote, if necessary send quote for approvals                                                                            |
@@ -77,7 +76,6 @@ The following activities are recommended for each Renewals Manager as a baseline
 | V  | 0,1,2 | Signing       | Email - Standard | Recieve PO (if necessary)       | Email response that the PO has been received                                                                                   |
 | W  | 0,1,2 | Signing       | Internal        | Prep and submit opp for booking | Prepare opportunity for booking, submit                                                                                       |
 | X  | 0,1,2 | Closed Won    | Email           | Close email w/ gratitude, instructions | Email customer with gratitude and something unique to GitLab (moniker, closing stats - i.e. we did this in 8 touches, better than our benchmark of 10, etc.) |
-
 
 ## Renewals policies
 
@@ -130,7 +128,6 @@ Our management philosophy regarding the expectations of booking renewals is simp
 
 - Submission
   - When submitting a churn exception, chatter wth this syntax [Churn Exception Request] Details and context (link to supporting doc) CC: Manager for approval, CC: Caleb for approval CC: Sales Comp, CC: James Harrison
-
 
 ## Metrics
 

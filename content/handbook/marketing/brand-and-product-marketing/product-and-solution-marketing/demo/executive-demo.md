@@ -52,7 +52,6 @@ In order to track groups of related projects and issues, the GitLab epic gives p
 
 | The group level issue board makes it possible for oversight and governance of the projects and sub groups.  This view, makes it easy to see how specific issues are flowing through the lifecycle and to understand the overall capacity of the teams. |  ![GitLab Kanban Board](https://about.gitlab.com/images/gitlab-kanban-board.png)‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾ |
 
-
 ## [Scaled Agile Framework](https://v46.scaledagileframework.com/#)
 
 | The scaled agile framework is used by many large enterprises to define, organize, and synchronize the work of multiple agile teams.  Designed to help enable coordination, collaboration, governance and oversight of multiple agile teams in complex environments. | ![SAFe Model Board](/images/solutions/scaled-agile/safe_model.png) ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾ |
@@ -100,7 +99,6 @@ The Program Increment is a smaller time frame than the Agile Release Train, and 
 In order to coordinate how multiple dimensions of a complex solution are delivered, the Large Solution layer of the scaled agile framework is designed to facilitate cross project coordination.  In GitLab, a subgroup can enables oversight and coordination of both projects and additional subgroups.
 
 #### [Solution Intent](https://v46.scaledagileframework.com/solution-intent/)
-
 
 #### [Solution Train](https://v46.scaledagileframework.com/solution-train/)
 

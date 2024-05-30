@@ -266,6 +266,7 @@ Yes, that was a part of the original goal. Using GitLab issues for social enable
 GitLab is not given any personal information about your social media profiles, actions, comments, DM, or any other element. When you connect your social media channels to Bambu it provides a way for you to schedule and publish content on your social channels automatically using all of the APIs available on these social channels. It also provides a top level, no context review of performance metrics on *posts you published on your personal social media channels through Bambu only.
 
 The data that GitLab receives shows your posts published through Bambu:
+
 - Reach - or how many people saw the posts you published through Bambu
 - Engagements - or how many actions people took on the posts you published through Bambu; comments, likes, shares, etc.
 - Clicks - or how many times people clicked on the link you published in your post through Bambu
@@ -331,7 +332,7 @@ Make sure your copy follows the AIDA Model, a copywriting formula to drive inter
 - Action: Move your reader to take action. (ex. ‘Learn more’)
 - Try to visually break it into paragraphs or one-liners (even using emoji/bullets) for longer copy. For example:
 
-  ```
+  ```text
   GitLab has been a catalyst for change when it comes to the evolution of #DevSecOps.
 
   That’s why we were recognized as a challenger in the 2021 Gartner Magic Magic Quadrant for Application Security Testing! 🏆
@@ -372,7 +373,7 @@ Profile assets for social media can be found [in the corporate marketing reposit
 
 **Please do not use the GitLab logo as the avatar for your accounts on social. You are welcome to use our branded banners, but your profile avatar mustn't lead users to confuse your account with the official GitLab accounts.**
 
-While you should display the fact that you work at GitLab in your bio if you intend to advocate for GitLab on social, we suggest that you avoid including the word `GitLab` in your handle. Team member advocacy is incredibly valuable, and we are lucky to have so many engaged team members, but creating an account to _solely_ post about GitLab is not adequate. Team member advocacy is so powerful that people [trust employees](https://www.scribd.com/doc/295815519/2016-Edelman-Trust-Barometer-Executive-Summary) more than brands and executives. Your advocacy is powerful when it is authentic, and having an account that only exists to promote GitLab will not ring true to others who browse your tweets.
+While you should display the fact that you work at GitLab in your bio if you intend to advocate for GitLab on social, we suggest that you avoid including the word `GitLab` in your handle. Team member advocacy is incredibly valuable, and we are lucky to have so many engaged team members, but creating an account to *solely* post about GitLab is not adequate. Team member advocacy is so powerful that people [trust employees](https://www.scribd.com/doc/295815519/2016-Edelman-Trust-Barometer-Executive-Summary) more than brands and executives. Your advocacy is powerful when it is authentic, and having an account that only exists to promote GitLab will not ring true to others who browse your tweets.
 
 ## Tips FAQ
 

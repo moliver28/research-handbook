@@ -791,6 +791,32 @@ Tableau offers several [certifications](https://www.tableau.com/learn/certificat
 
 </details>
 
+### E-learning Access Instructions
+
+#### Explorer
+
+Explorer: Below are your instructions on how to access eLearning for Explorer.
+
+1. Go to [explorer-elearning.tableau.com](https://explorer-elearning.tableau.com)
+2. Create (or login to) your TableauID account
+3. Confirm your email address via the TableauID confirmation email
+4. Go to https://explorer-elearning.tableau.com and log on using your TableauID
+5. Register at the Tableau Learning Center with Access Code: This should have been DM'd to you by your Tableau provisioner, if not please Slack the provisioner directly
+6. Start using eLearning by clicking on a Course or Learning Path.
+7. Return to https://explorer-elearning.tableau.com to continue using Tableau eLearning.
+
+#### Creator
+
+Creator: Below are your instructions on how to access eLearning for Creator.
+
+1. Go to http://elearning.tableau.com
+2. Create (or login to) your TableauID account
+3. Confirm your email address via the TableauID confirmation email
+4. Go to http://elearning.tableau.com and log on using your TableauID
+5. Register at the Tableau Learning Center with this Access Code: This should have been DM'd to you by your Tableau provisioner, if not please Slack the provisioner directly
+6. Start using eLearning by clicking on a Course or Learning Path.
+7. Return to http://elearning.tableau.com to continue using Tableau eLearning.
+
 ## Support
 
 In addition to the proactive steps we’ve taken with self-service help resources and education initiatives, we want to provide our user community with the support they need in case these two approaches do not answer their question or resolve the issue.

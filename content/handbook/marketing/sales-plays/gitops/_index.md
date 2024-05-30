@@ -12,7 +12,6 @@ title: "Sales Play: Infrastructure Automation with GitOps"
 - The interest in GitOps topics was so HIGH that CD Conference (by CNCF) had to spin up a separate [GitOps Conference](https://hopin.com/events/gitops-con)
 - GitOps helps you target a completely new persona and usecase - opening up [new land and expand opportunities](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/1183#sample-deals-from-fy21) for you
 
-
 ### What is GitOps?
 
 If the above has gotten you excited, learn more [here](https://docs.google.com/presentation/d/1o728pUdk1rrNqWAZpzZVdfZ3gzADvTXSssVzqL-6WB4/edit#slide=id.g8d846209b0_25_172) about GitOps, why it's important for your customers and how we are different.
@@ -21,8 +20,8 @@ Simply said - GitOps takes DevOps best practices used for application developmen
 
 ### Sales play objectives
 
-* Landing new deals with a new persona and usecases
-* Expanding existing customers to new teams and usecases
+- Landing new deals with a new persona and usecases
+- Expanding existing customers to new teams and usecases
 
 ## Navigating through this salesplay
 
@@ -80,6 +79,7 @@ graph TB
 ## Getting Started {#getting-started}
 
 ### Who to meet  {#who-to-meet}
+
 {: .alert .alert-gitlab-orange}
 
 The persona interested in GitOps is in general different from your development or engineering organizations. They are most often from the operations, systems, infrastructure, platform and cloud side of the organization.
@@ -92,6 +92,7 @@ The persona interested in GitOps is in general different from your development o
 More details [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#personas)
 
 ### Keywords to listen for  {#keywords}
+
 {: .alert .alert-gitlab-orange}
 
 | Infrastructure as code | GitOps | Infrastructure automation |
@@ -112,12 +113,11 @@ If both of these include GitOps keywords or GitOps topics - ensure to have the G
 
 Marketing is running a related demand gen campaign.
 
-* A Demand Generation campaign is running across different channels (LinkedIn, Facebook, Google Search...) surfacing new leads from the Focus Account Lists, ICP Total Addressable Market, and Volume accounts. See the flow of the Marketing campaign [on Figjam can be found here](https://www.figma.com/file/R5rSFgNdyW5mSN9mSHORJo/Campaigns-%3E-GitOps-GTM-Campaign-Flow-FY22---FY23_2023-08-22_10-43-13?type=whiteboard&t=S9GSk8jFu3bJ28Iq-1)
-* A series of virtual events are scheduled throughout FY22, targeting new and existing Inquiries. Schedule of upcoming Infrastructure Automation/GitOps GTM related virtual events can be found in the [FY22 All-Marketing Calendar SSoT](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1570851636)
-
-
+- A Demand Generation campaign is running across different channels (LinkedIn, Facebook, Google Search...) surfacing new leads from the Focus Account Lists, ICP Total Addressable Market, and Volume accounts. See the flow of the Marketing campaign [on Figjam can be found here](https://www.figma.com/file/R5rSFgNdyW5mSN9mSHORJo/Campaigns-%3E-GitOps-GTM-Campaign-Flow-FY22---FY23_2023-08-22_10-43-13?type=whiteboard&t=S9GSk8jFu3bJ28Iq-1)
+- A series of virtual events are scheduled throughout FY22, targeting new and existing Inquiries. Schedule of upcoming Infrastructure Automation/GitOps GTM related virtual events can be found in the [FY22 All-Marketing Calendar SSoT](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1570851636)
 
 ### Value discovery {#value-discovery}
+
 {: .alert .alert-gitlab-orange}
 
 ### Common Pains  {#common-pains}
@@ -130,7 +130,6 @@ Marketing is running a related demand gen campaign.
 
 More questions [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#discovery-questions)
 
-
 ### Common benefits  {#common-benefits}
 
 | Desired Future State (“After Scenarios”) | So What? (“Positive Business Outcomes”) |
@@ -140,7 +139,6 @@ More questions [here](/handbook/marketing/brand-and-product-marketing/product-an
 | Faster time to value | Move from manual Click ops to GitOps to deploy more often |
 | Compliant | Compliance is automated as every change is tracked |
 | Reduced security exposure | All changes can be reviewed and approved, security for infrastructure code can be embedded within the pipeline |
-
 
 ### Required capabilities  {#required-capabilities}
 
@@ -154,10 +152,9 @@ More questions [here](/handbook/marketing/brand-and-product-marketing/product-an
 | CI/CD - test automation, pipeline configuration management | Higher deployment frequency - more automation |
 | Rollback |  Lower mean time to repair - can roll back to working definition of infra before troubleshooting |
 
-
 ## Positioning value  {#positioning-value}
-{: .alert .alert-gitlab-orange}
 
+{: .alert .alert-gitlab-orange}
 
 ### Elevator pitch
 
@@ -179,6 +176,7 @@ Detailed section on How GitLab meets the market requirements [here](/handbook/ma
 More details [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#top-3-differentiators)
 
 ### Competitors
+
 Primary competitors: Flux (Weaveworks), Argo CD, Terraform Cloud
 Secondary competitors: Codefresh, Transposit, Red Hat/IBM
 
@@ -187,6 +185,7 @@ Detailed competitive against primary competitors [here](/handbook/marketing/bran
 ### Handling Objections
 
 Typical questions:
+
 - I don't use Kubernetes, so GitOps is not relevant for me
 - Our environment is too complex for GitOps
 - GitOps gives more access to developers to fiddle with deployments, and infra teams are not comfortable with that
@@ -194,8 +193,8 @@ Typical questions:
 
 Detailed list of Q&A [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#objection-handling)
 
-
 ## Sales Play Tactics {#sales-tactics}
+
 {: .alert .alert-gitlab-orange}
 
 ### SAEs and AEs  {#sals-aes}
@@ -203,22 +202,27 @@ Detailed list of Q&A [here](/handbook/marketing/brand-and-product-marketing/prod
 How to identify if you need to lead with a GitOps conversation?
 
 #### Before discovery
+
 1. Familiarize yourself with the GitOps sales play above - at a minimum watch the enablement video.
 1. Ensure you are talking to the right persona - typically this is not a developer, could be a team lead, system architect, cloud architect -> from the infrastructure / operations side of the house.
 1. Identify if the last interesting moment on 'Pathfactory for Sales' on SFDC is related to GitOps (use the keywords to determine this)
 1. Identify the top content viewed by customer on 'Pathfactory for Sales' on SFDC is related to a GitOps topic
 
 #### During discovery
+
 1. Use the keywords listed above to identify if a lead is interested in a GitOps conversation
 1. Familiarize yourself with the top discovery questions, objection handling and differentiators for GitOps. **Note it is very different form other conversations - as the persona we talk to is different**
 1. Ensure you are able to identify business objectives and priorities during discovery. These could be one or more of the following:
+
   - Infrastructure automation
   - Managing cloud native environments
   - Multi cloud / kubernetes adoption
   - Compliance related to infrastructure
+
 1. After your call, consider emailing your customer using one or more of these [email templates](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#) custom made for GitOps conversations. Feel free to update the call to action to any of the artifacts from the [Pathfactory track for GitOps](https://learn.gitlab.com/l/gitops-gtm-content)
 
 #### During evaluation
+
 1. Share GitOps related [customer references](#customer-stories)
 1. Share technical demos, webinars that are path of the [pathfactory track for GitOps](https://learn.gitlab.com/l/gitops-gtm-content)
 1. Share [Gartner Peer Insights](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#gartner-peer-insights)
@@ -226,6 +230,7 @@ How to identify if you need to lead with a GitOps conversation?
 1. After your call, consider emailing your customer the [GitOps Demo email template](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#) custom made for GitOps conversations.
 
 #### During negotiation / decision making
+
 1. [Show how we are different](#differentiators-how-gitlab-does-it-better)
 1. Share the Forrester TEI report from the [pathfactory track for GitOps](https://learn.gitlab.com/l/gitops-gtm-content)
 1. Use the [ROI calculator](https://about.gitlab.com/calculator/) to showcase the value of using GitLab as a single application over other solutions
@@ -235,24 +240,30 @@ How to identify if you need to lead with a GitOps conversation?
 How to identify if you need to have to lead with a GitOps conversation?
 
 #### Before discovery
+
 1. Familiarize yourself with the GitOps sales play above - at a minimum watch the enablement video.
 1. Ensure you are going to meet with one of the right [user personas](#who-to-meet).
 1. Familiarize yourself with the top discovery questions, objection handling and differentiators for GitOps.
 
 #### During discovery
+
 1. Ask the [discovery questions](#value-discovery). Listen to the customer and understand their pains and challenges.
 1. As you hear their pains, challenges, business objectives and priorities, start using their own terms when explaining to them how GitOps with GitLab can help them.
 1. Understand their technical requirements. For example, look to get answers to the following technical discovery questions:
+
   - Do their applications require a hybrid cloud infrastructure or multi-cloud?
   - Do they have any hard-dependencies on any infrastructure-as-code tool? e.g. Terraform, Ansible, etc.
   - Do they need GitOps for K8s, non-K8s or both?
   - In the case of K8s, are their clusters available outside their firewall?
+
 1. Be prepared to do some competitive [objection handling](#handling-objections)
 
 #### During evaluation
+
 1. Prepare your own GitOps environment for demo purposes by following the steps from the [GitOps lab](https://gitlab.com/tech-marketing/workshops/cicd/cd-labs-instructions/-/blob/master/11.%20GitOps%20with%20GitLab.md) of the SA CD Workshop. This lab covers AWS as a cloud provider. If you'd like to add Google and/or Azure, you can extend your environment by leveraring our public-facing [GitOps demo](https://gitlab.com/gitops-demo).
 1. Share technical demos, webinars that are path of the [pathfactory track for GitOps](https://learn.gitlab.com/l/gitops-gtm-content)
 1. If the customer requires you participate in a PoV, gather the PoV requirements and prepare to execute the PoV. Some helpful resources to help you prepare are:
+
   - #gitops slack channel
   - #s_configure slack channel
   - GitOps Engineering
@@ -264,6 +275,7 @@ How to identify if you need to have to lead with a GitOps conversation?
 How to identify if you need to have a GitOps conversation with a lead?
 
 #### Before your outreach / conversation
+
 1. Identify where the lead is from -> See if the lead is from a GitOps campaign which has been generating  targeted leads for GitOps
 1. Identify if the last interesting moment on 'Pathfactory for Sales' on SFDC is related to GitOps (use the keywords to determine this)
 1. Identify the top content viewed by customer on 'Pathfactory for Sales' on SFDC is related to a GitOps topic
@@ -272,15 +284,15 @@ How to identify if you need to have a GitOps conversation with a lead?
 1. Ensure you are familiar with the top discovery questions, objection handling and differentiators for GitOps. **Note it is very different form other conversations - as the persona we talk to is different**
 
 #### Customer outreach / conversation
+
 1. There are a number of high performing outreach sequences available - use one that is already available and customize as required
 1. Use the SDR Call Script for [Land](https://docs.google.com/document/d/1MDeaKj4XHEQe73jqDWClNJBKXr61gsZu7qNzHiD4138/edit) / [Expand](https://docs.google.com/document/d/1am53Ijr3EFuoZWwQPxsXAXGIhSOBJ7hQeFQv4-5QVyo/edit)
 1. Use the content from the [GitOps Pathfactory track](https://learn.gitlab.com/l/gitops-gtm-content) to share with your lead. You can get the content links (including tracking) directly from Pathfactory for Sales through SFDC. They are categorized by the stage in the customer's journey.
 
-
-
 ## Resources {#resources}
 
 ### Recommended Email templates {#email-templates}
+
 {: .alert .alert-gitlab-orange}
 
 Here are a few recommended email templates you can use based on the stage of the customers journey.
@@ -303,6 +315,7 @@ As you position services, you can use our [Services Pitch Deck](https://docs.goo
 Talk with @em in the [professional services slack channel](/handbook/customer-success/professional-services-engineering/working-with/#slack) to learn more.
 
 ### Webinars, e-books, whitepapers, videos  {#resources-list}
+
 - [Pathfactory track for GitOps](https://learn.gitlab.com/l/gitops-gtm-content) to share with customers
 - Complete list of presentations, web pages, whitepapers, blogs and videos available [here](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#resources).
 - GitOps [Enablement presentation](https://docs.google.com/presentation/d/1o728pUdk1rrNqWAZpzZVdfZ3gzADvTXSssVzqL-6WB4/edit#slide=id.g8d846209b0_25_172)
@@ -327,5 +340,3 @@ And many more [here](https://learn.gitlab.com/l/gitops-gtm-content)
 
 - Top content consumed by time - is in the Pathfactory for sales section of SFDC
 ![Top Content Consumed](images/gitops-top-content-consumed.png)
-
-

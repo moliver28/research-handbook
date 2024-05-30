@@ -1,12 +1,8 @@
 ---
-
 title: "FY25 CS Retrospective Program"
 ---
 
-
----
-
-# Retrospectives
+## Retrospectives
 
 ## Program Objective
 
@@ -47,6 +43,3 @@ The chosen deals are assigned to the front line Manager, Renewals to complete th
 ### Learnings and Recommendations
 
 Learnings from each retrospective will be reviewed and shared via the CS Key Reviews and QBRs along with recommendations to improve risk identification, mitigation or our products.
-
-
-
