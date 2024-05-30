@@ -25,7 +25,7 @@ Given the close collaboration between the PS Project Management and PS Operation
    * To find the right resources required, the PSOPs team will refer back to the Customer Epic to find the _"Scope Engagement and Write SoW"_ issue (managed by the Engagement Managment Team). This is where the scheduling team confirm skillsets needed, timing of the project, Project type (Time & Materials or Fixed Fee), etc.   
    * This scoping issue this is where the PM's, TA's, and PSE's work to gather the initial project information, scoping breakdown, and estimated schedule
    * For Consulting Blocks and Dedicated Engineer Projects, see below for <a href="11. Consulting Blocks and Dedicated Engineer Projects"> for DoW (Description of Work)</a> requirements
-3. Once the resources are assigned in <a href="##### Kantata" >Kantata</a>, the EM to introduce the PM via email
+3. Once the resources are assigned in <a href="##### Kantata" >Kantata</a>, the EM introduces the PM to the customer via email
    * The PM will begin to gather access requirements per the scheduling intake issue checklist, and schedule the initial Stakeholder meeting 
 4. Once the EM checklist is complete & confirmed by the Delivery team in the scheduling intake issue, the PM can begin setting up the Project within Gitlab.com, setup Project folders, and create the internal Slack channel
    1. Find and rename the _Project Retrospective_ issue and follow the steps outlined in the [Project Retrospective template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md?ref_type=heads) 
