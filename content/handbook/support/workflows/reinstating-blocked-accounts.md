@@ -93,7 +93,7 @@ It is possible to delete the account without waiting 7 days for it to be deleted
 
 1. Confirm the account is "locked" or "blocked" with the admin note that states the user initiated a self-deletion
 1. Confirm that the account was provisioned
-1. Ask for a manager approval in #support_leadership
+1. In #support_leadership, ask for a manager to submit an internal note in the ticket approving the early deletion of the account
 1. Delete the user (without contributions, just the account itself)
 
 ### Embargoed countries
