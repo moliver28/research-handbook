@@ -289,6 +289,7 @@ modules:tidy:
   image: $HUGO_IMAGE
   stage: maintenance
   allow_failure: true
+  when: manual
   rules:
     - <<: *merge-request-only
   needs: []
