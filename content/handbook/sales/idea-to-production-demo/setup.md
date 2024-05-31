@@ -1,20 +1,11 @@
 ---
-
 title: "Set up your own test OpenShift Origin instance for the Idea to Production Demo"
 ---
 
-
-
-
-
-
-
 ## Overview
-
 
 This document is meant to outline a simple way of setting up an OpenShift Origin
 test box for demonstrating our Idea to Production [demo](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/).
-
 
 ## Hardware and OS Requirements
 
@@ -28,6 +19,7 @@ If you do not have a supported operating system, or enough machine resources, yo
 can provision a Linux machine in the cloud to run your setup on.
 
 Tested on:
+
  - [Digital Ocean](https://www.digitalocean.com/): `16 GB RAM / 8 CPUs`
  - [Amazon EC2](https://aws.amazon.com/ec2/): `t2.xlarge`
 
@@ -36,7 +28,6 @@ Tested on:
 ## Software Requirements
 
 In order to run the demo, you need to install Docker, the OC Client Tools, and our setup script.
-
 
 ### Install Docker
 
@@ -56,7 +47,7 @@ which is needed for this setup. So to recap what you should done:
 - Restarted or launched a new terminal to get new user permissions
 - Are able to run the following without `sudo`
 
-  ```
+  ```console
   docker run hello-world
   ```
 
@@ -68,33 +59,33 @@ Configure the Docker daemon with an insecure registry parameter of `172.30.0.0/1
 
  - In RHEL and Fedora, edit the `/etc/sysconfig/docker` file and add or uncomment the insecure registry line:
 
-     ```
-     sudo vi /etc/sysconfig/docker
-     ```
+   ```console
+   sudo vi /etc/sysconfig/docker
+   ```
 
-     ```
-     INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
-     ```
+   ```console
+   INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
+   ```
 
  - After editing the config, restart the Docker daemon.
 
-     ```
-     sudo systemctl restart docker
-     ```
+   ```console
+   sudo systemctl restart docker
+   ```
 
  - In Ubuntu edit `/lib/systemd/system/docker.service` and edit the `ExecStart` line:
 
-   ```
+   ```console
    sudo vi /lib/systemd/system/docker.service
    ```
 
-   ```
+   ```console
    ExecStart=/usr/bin/dockerd --insecure-registry 172.30.0.0/16 -H fd://
    ```
 
  - After editing the config, restart the Docker daemon.
 
-   ```
+   ```console
    sudo systemctl daemon-reload
    sudo systemctl restart docker
    ```
@@ -126,15 +117,16 @@ We will be running the Demo using the latest stable release of OpenShift Origin.
 To install the tools, run the following from a terminal on the OpenShift host machine:
 
 1. In a new directory, download and extract the tools:
+
   - Linux:
 
-    ```
+    ```console
     curl -L  https://github.com/openshift/origin/releases/download/v1.3.2/openshift-origin-client-tools-v1.3.2-ac1d579-linux-64bit.tar.gz | tar -xz
     ```
 
   - Mac:
 
-    ```
+    ```console
     curl -L -O https://github.com/openshift/origin/releases/download/v1.3.2/openshift-origin-client-tools-v1.3.2-ac1d579-mac.zip
     unzip openshift-origin-client-tools*
     ```
@@ -142,13 +134,13 @@ To install the tools, run the following from a terminal on the OpenShift host ma
 1. Place the tools on your path:
    - Linux:
 
-     ```
+     ```console
      sudo cp openshift-origin-client-tools-*/oc /usr/local/bin/.
      ```
 
    - Mac:
 
-     ```
+     ```console
      cd openshift-origin-client-tools-*
      sudo chflags nohidden /private
      sudo echo pwd >> /private/etc/paths.d/origin-paths
@@ -157,13 +149,13 @@ To install the tools, run the following from a terminal on the OpenShift host ma
 
 1. Test that the tools are on your path:
 
-   ```
+   ```console
    oc version
    ```
 
    Should return version output:
 
-   ```
+   ```console
    oc v1.3.2
    kubernetes v1.3.0+52492b4
    features: Basic-Auth GSSAPI Kerberos SPNEGO
@@ -182,21 +174,22 @@ changes to your cluster.
 1. Get the setup script, in a new directory from your terminal:
    - Linux:
 
-     ```
+     ```console
      curl -L https://gitlab.com/gitlab-org/omnibus-gitlab/repository/archive.tar.gz?ref=i2ptest | tar -zx
      ```
 
    - Mac:
 
-     ```
+     ```console
      curl -L -O https://gitlab.com/gitlab-org/omnibus-gitlab/repository/archive.zip?ref=i2ptest
      unzip archive.zip*
      ```
 
 1. Place the script on your path:
+
   - Linux:
 
-    ```
+    ```console
     cd omnibus-gitlab-*
     echo "export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:\$PATH" >> ~/.bashrc
     export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:$PATH
@@ -204,7 +197,7 @@ changes to your cluster.
 
   - Mac:
 
-    ```
+    ```console
     cd omnibus-gitlab-*
     sudo echo $(pwd)/docker/openshift/oc-cluster-wrapper >> /private/etc/paths.d/origin-paths
     export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:$PATH
@@ -212,13 +205,13 @@ changes to your cluster.
 
 1. Test that the script is on your path:
 
-  ```
+  ```console
   oc-cluster help
   ```
 
   This should return a list of valid commands.
 
-  ```
+  ```console
   oc-cluster up [profile] [OPTIONS]
   oc-cluster down
   oc-cluster destroy [profile]
@@ -244,14 +237,14 @@ changes to your cluster.
      and suffix with `apps.<your public ip>.xip.io`
    - If you are running locally on you own box, the example provided should work.
 
-   ```
+   ```console
    export OC_CLUSTER_PUBLIC_HOSTNAME=127.0.0.1.xip.io
    export OC_CLUSTER_ROUTING_SUFFIX=apps.127.0.0.1.xip.io
    ```
 
 1. Launch the Cluster:
 
-   ```
+   ```console
    oc-cluster up
    ```
 
@@ -266,7 +259,7 @@ Then login to OpenShift using username: `developer` password: `developer`
 
 1. In your terminal, install the gitlab plugin:
 
-   ```
+   ```console
    oc-cluster plugin-install gitlab
    ```
 
@@ -286,7 +279,6 @@ Which is: `https://gitlab.com/gitlab-org/omnibus-gitlab/raw/i2ptest/docker/opens
 
 And while filling in parameters for the template, you will need to provide the two custom hostnames.
 
-
 GitLab Hostname: `gitlab.<your routing suffix>`
 
 Mattermost Hostname: `mattermost.<your routing suffix>`
@@ -298,7 +290,7 @@ Note, anywhere else in the demo script that references `tanukionline.com` will b
 Because you have limited storage, you will need to uninstall and re-install the gitlab-plugin each time
 you want to run the demo. This involves making sure the correct values are on your path:
 
-```
+```console
 export OC_CLUSTER_PUBLIC_HOSTNAME=127.0.0.1.xip.io
 export OC_CLUSTER_ROUTING_SUFFIX=apps.127.0.0.1.xip.io
 ```
@@ -307,16 +299,16 @@ Where the values match what you used during setup.
 
 And then running
 
-```
+```console
 oc-cluster plugin-uninstall gitlab
 oc-cluster plugin-install gitlab
 ```
 
-### Restart OpenShift after the server has been restarted:
+### Restart OpenShift after the server has been restarted
 
 Once again the environment variables need to be set:
 
-```
+```console
 export OC_CLUSTER_PUBLIC_HOSTNAME=127.0.0.1.xip.io
 export OC_CLUSTER_ROUTING_SUFFIX=apps.127.0.0.1.xip.io
 ```
@@ -325,7 +317,7 @@ Where the values match what you used during setup
 
 And then start up the instance:
 
-```
+```console
 oc-cluster up
 ```
 
@@ -333,17 +325,17 @@ oc-cluster up
 
 The GitLab plugin that we install to provision the storage and permissions looks like this:
 
-```
-# Prefetch the Docker images so the demo is faster
+```console
+## Prefetch the Docker images so the demo is faster
 oc import-image gitlab-ce:8.13.0 --from=docker.io/ayufan/gitlab-i2p:latest --confirm
 oc import-image gitlab-ce-redis:3.2.3 --from=docker.io/redis:3.2.3-alpine --confirm
 oc import-image gitlab-ce-postgresql:9.4 --from=docker.io/centos/postgresql-94-centos7:latest --confirm
 oc import-image gitlab-ce-runner:1.7.0 --from=docker.io/gitlab/gitlab-runner:alpine-v1.7.0-rc.2 --confirm
 
-# Allow all logged in users to use the anyuid security context
+## Allow all logged in users to use the anyuid security context
 oc adm policy add-scc-to-group anyuid system:authenticated --as=system:admin
 
-# Create 6 persistent volumes for storage
+## Create 6 persistent volumes for storage
 create-volume pv-gitlab-01
 create-volume pv-gitlab-02
 create-volume pv-gitlab-03
@@ -354,7 +346,7 @@ create-volume pv-gitlab-06
 
 The create volume command used looks like:
 
-```
+```console
 function create-volume {
   [ $# -lt 1 ] && echo "volumename is required" && exit 1
   local __profile=$(cat $OPENSHIFT_HOME_DIR/active_profile)

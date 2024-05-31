@@ -8,15 +8,10 @@ description: "Coupa End Users Quick Guide"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
 ### Coupa End Users Quick Guide
 
 This page provides a general overview of the Coupa procurement processes. See below for links to additional Coupa information:
+
 - [Coupa End Users Guide](/handbook/business-technology/enterprise-applications/guides/coupa-guide/)
 - [Coupa FAQ](/handbook/finance/procurement/coupa-faq/)
 - [The GitLab Procurement Team](/handbook/finance/procurement/)
@@ -41,7 +36,6 @@ Click on the below boxes for more details of the process:
     <a href="/handbook/finance/procurement/coupa-faq/#how-will-suppliers-be-notified-when-a-po-has-been-raised-for-them/" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">After Requisition fully approved; PO issued</a>
 </div>
 
-
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Need more details on the Invoice process?
 
 Click on the below boxes for more details of the process:
@@ -53,9 +47,7 @@ Click on the below boxes for more details of the process:
   <a href="/handbook/finance/accounts-payable/#tanuki-orange/" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Invoice paid based upon terms on contract</a>
 </div>
 
-
 <br>
-
 
 ![coupa-image-2](/handbook/business-technology/enterprise-applications/guides/coupa-quick-guide/coupaquick2.png)
 
@@ -72,15 +64,8 @@ Click on the below boxes for more details of the process:
   <a href="/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-complete-the-professional-services-request-form" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Professional Services Request form</a>
  </div>
 
-
 <br>
-
 
 Still have questions? Please ask them in the **#coupa_help** Slack channel.
 
 <br>
-
-
-
-
-{::options parse_block_html="false" /}

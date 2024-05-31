@@ -20,7 +20,6 @@ It is not required to be an ally to work at GitLab. At GitLab it is required to 
 - Willing to own your mistakes and de-center yourself.
 - Understanding that your education is up to you and no one else.
 
-
 ## GitLab Diversity, Inclusion & Belonging resources
 
 Allies familiarize themselves with GitLab's general DIB content

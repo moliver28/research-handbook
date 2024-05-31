@@ -9,7 +9,7 @@ security and accuracy.
 
 ## Via Zendesk
 
-**Note** This only applies to Zendesk Global for organizations not using a
+**NOTE** This only applies to Zendesk Global for organizations not using a
 contact management project.
 
 Before proceeding, ensure a user has either
@@ -33,11 +33,11 @@ Once the user has replied with the requested information, the next steps depend
 on the product offering being used (see
 [Locating the Salesforce ID for gitlab.com customers](#locating-the-salesforce-id-for-gitlabcom-customers)
 or
-[Locating the Salesforce ID for Self-Managed customers](#locating-the-salesforce-id-for-self-managed-customers)
+[Locating the Salesforce ID for Self-Managed or GitLab Dedicated customers](#locating-the-salesforce-id-for-self-managed-or-gitlab-dedicated-customers)
  for more info). Ultimately, we need to get the Salesforce ID so we can search for them in
 Zendesk.
 
-**Note**: This can be tricky and some nuisances can occur. If you encounter
+**NOTE**: This can be tricky and some nuisances can occur. If you encounter
 issues locating an account, please reach out to your fellow Support Operations
 Specialists for assistance.
 
@@ -61,11 +61,14 @@ If the organization has a contact management project, we cannot proceed forward.
 The organization would need to add the user in question via the contact
 management project.
 
-> Note: If customer purchased AWS license (AWS AMI with GitLab domain email),
+**NOTE**: If customer purchased AWS license (AWS AMI with GitLab domain email),
 please use [this organization](https://gitlab.zendesk.com/agent/organizations/9306291514524)
 to associate. Please read the organization notes carefully.
 
 #### Locating the Salesforce ID for gitlab.com customers
+
+**NOTE**: Remember that the requests for these must come from a person who has
+`Owner` rights on the parent group with the paid subscription.
 
 For gitlab.com customers, we need to use a combination of the `GitLab Super App`
 and the `Support Ops Super App`.
@@ -73,45 +76,63 @@ and the `Support Ops Super App`.
 To start, you will need to locate the parent namespace that has a valid paid
 subscription. To do this, search for the user in question via the GitLab Super
 App, using the `User Lookup` plugin. Once you have done the search, click the
-`Group memberships` list and review the output provided. You are looking for a
-namespace with a paid subscription (bronze, silver, or gold) that is **not** an
-internal team member namespace. You want the value right after `groups/` in the
-URL (and nothing after it).
+`Group memberships` list and review the output provided. You are looking for
+`Owner` level membership to the parent group with the paid subscription. You
+want the value right after `groups/` in the URL (and nothing after it).
 
-An alternative is if, when you do the `User Lookup`, you see the
-`Provisioned by` value shows an ID or namespace. If that is the case, you can
-use that value.
-
-**Note** If the user not a a member of a paid namespace and the value of
-`Provisioned by` is null, the user has not passed proving support entitlement.
-They will need to be added to a paid namespace before we can proceed.
+**NOTE** If the user not an `Owner` on the parent group with the paid
+subscription, the user has not passed proving support entitlement. They will
+need to be added to the parent group with the paid subscription as an `Owner`
+before we can proceed.
 
 With that value, use the `Namespace Lookup` plugin in the Support Ops Super App
-to search for the top-level namespace. The output from this plugin will give you
-the namespace's ID.
+to search for the top-level namespace. The output from this plugin should
+provide you with the Salesforce ID.
 
-#### Locating the Salesforce ID for Self-Managed customers
+#### Locating the Salesforce ID for Self-Managed or GitLab Dedicated customers
 
-For Self-Managed customers, we need to locate them in
-[cDot](https://customers.gitlab.com/admin):
+**NOTE**: Remember that to pass entitlement, the request must meet the following
+criteria (any of it missing would mean they have not passed):
 
-1. Locate the customer account in [cDot](https://customers.gitlab.com/admin)
+- The request must be coming from a company provided email address (no generic
+  email addresses such as Gmail, Yahoo, etc.)
+- Licensing information has been provided (license ID, cloud activation code, or
+  the raw license file are the only accepted methods of providing license
+  information). Do remember that the license must be for a valid subscription
+  (trial license will not work and it must not be expired).
+- The URL of the GitLab Dedicated instance (GitLab Dedicated only)
+- The email of the person the subscription was sold to (the subscription owner)
+  has been provided
 
-- If given a license ID number:
-    1. Navigate to
-       `https://customers.gitlab.com/admin/license/xxx` (replacing `xxx` with
-       the license ID)
-    1. Copy the `Email` on the license and search cDot using that (via the
-       [customer page](https://customers.gitlab.com/admin/customer)). Make sure
-       to end on the `Show` page of the customer pages.
-- If given the license email. search the licenses (via the
-    [license page](https://customers.gitlab.com/admin/license)). Then use the
-    information detailed above (`If given a license ID`).
+For Self-Managed or GitLab Dedicated customers, we need to locate them in
+[CDot](https://customers.gitlab.com/admin) first. To do so:
 
-1. Locate the billing account of the customer in
-   [cDot](https://customers.gitlab.com/admin). This is done on the customer page
-   by clicking the link for `Billing accounts`
-1. Copy the Salesforce ID
+1. Locate the billing account in [CDot](https://customers.gitlab.com/admin)
+   - If given a license ID number:
+     1. Navigate to `https://customers.gitlab.com/admin/license/XXXXX`, replacing
+        `XXXXX` with the license ID number
+     1. Copy the `Email` value from the page
+     1. Navigate to `https://customers.gitlab.com/admin/customer?query=EMAIL`,
+        replacing `EMAIL` with the email value obtained in the previous step
+     1. Click the `Show` icon (looks like an `i` in a cirle)
+     1. Click the `Billing account` link under the `Billing accounts` section
+   - If given the cloud activation code:
+     1. Navigate to
+        `https://customers.gitlab.com/admin/cloud_activation?query=XXXXX`,
+        replacing `XXXXX` with the cloud activation code
+     1. Click the `Show` icon (looks like an `i` in a cirle)
+     1. Click the link in the `Billing account` section
+   - If given the raw license file:
+     1. Navigate to the
+        [Validate license page](https://customers.gitlab.com/admin/license/validate_license)
+     1. Paste the contents of the raw license file into the text field
+     1. Click the `Validate` button
+     1. Copy the `Email` value under the `licensee` section
+     1. Navigate to `https://customers.gitlab.com/admin/customer?query=EMAIL`,
+        replacing `EMAIL` with the email value obtained in the previous step
+     1. Click the `Show` icon (looks like an `i` in a cirle)
+     1. Click the `Billing account` link under the `Billing accounts` section
+1. Copy the Salesforce ID on the page
 
 ## Via contact management projects
 

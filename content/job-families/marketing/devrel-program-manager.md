@@ -44,6 +44,7 @@ Associate Developer Relations Program Manager is a [grade 5](/handbook/total-rew
 - You are willing to use GitLab.
 
 Nice-to-haves:
+
 - Familiarity using GitLab, Salesforce, Zendesk, Slack, and other tools that the Developer Relations Programs team uses.
 - Change management skills.
 - Experience updating website copy or making website edits.

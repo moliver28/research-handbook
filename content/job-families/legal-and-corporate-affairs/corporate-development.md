@@ -174,7 +174,6 @@ The Director, Corporate Development is a [grade 10](/handbook/total-rewards/comp
 - [Acquisition success](/handbook/product/performance-indicators/)
 - [Qualified acquisition targets](/handbook/product/performance-indicators/)
 
-
 ### Senior Director of Corporate Development
 
 As the Senior Director of Corporate Development, you will be responsible for
@@ -254,7 +253,6 @@ The VP of Corporate Development is a [grade 12](/handbook/total-rewards/compensa
 - [Acquisition velocity](/handbook/product/performance-indicators/)
 - [Acquisition success](/handbook/product/performance-indicators/)
 - [Qualified acquisition targets](/handbook/product/performance-indicators/)
-
 
 ## Hiring Process
 

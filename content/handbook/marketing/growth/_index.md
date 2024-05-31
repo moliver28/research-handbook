@@ -29,6 +29,7 @@ The Growth team works cross functionally within the organization to increase use
   * Internal team memmbers can view this metric [here](https://internal.gitlab.com/handbook/marketing/growth/growth/#team-activation-metric)
 
 ### Findings and experimentation results
+
 Our core findings and experiment results are considered non-public information. Internal team members can reference the internal handbook growth page for a detailed review of our findings.
 
 ## Vision
@@ -36,6 +37,7 @@ Our core findings and experiment results are considered non-public information. 
 Our vision is to make it seamless for teams to find, adopt, and discover value along with increased efficiency in the GitLab platform.
 
 This includes
+
 * Aligning internally with signups we want to prioritize as a business
 * Ensuring the signup experience is balanced by collecting the information required for the business while collecting the needed user information (JTBD) to provide a tailored product experience
 * Assisting users in finding product value (ah-ha moments) as quickly as possible including increasing access to enterprise value
@@ -49,13 +51,17 @@ This includes
 The growth division is currently grouped under the Acquisition team that contains a shared growth backlog while we actively hire additional team members to build out a activation team.
 
 ### Acquisition
+
 * Team description, dedicated handbook page and specific vision is a work in progress.
 
 ### Activation
+
 * Team description, dedicated handbook page and specific vision is a work in progress.
 
 ## Product ownership
+
 The Growth section owns the following areas of the product experience.
+
 * The [free user](https://gitlab.com/users/sign_up/) and [trial registration](https://about.gitlab.com/free-trial/) experience
 * The new user [onboarding experience](/handbook/product/growth/#contributing-to-the-learn-gitlab-project)
 * [Broadcast messages](https://docs.gitlab.com/ee/administration/broadcast_messages.html)
@@ -85,14 +91,26 @@ Growth requires constant learning, and many compaines face similar challenges or
 
 ## Growth Definitions
 
-- *Sign-up Experience:* Registering to be a user of GitLab. It generally starts on `about.gitlab.com` and ends when the user is registered and can log in to the application. We have free, trial and direct to paid sign-up options.
-- *Registration Flow:* The "happy path" flow a new user goes through when registering for GitLab and landing in the app for the first time. This is a more confined user flow, as we narrow down options so they can experience GitLab without being overwhelmed by all the other features. It starts at `about.gitlab.com` and ideally ends with them using Create features.
-- *Trial Experience:* The experience of selecting and starting a trial, as well as testing/trialing features in GitLab.com or a self-managed instance during the trial. This could be done by net new users of GitLab, or existing users of GitLab who are interesting in exploring paid features.
-- *User Onboarding:* A general term that refers to experiences we create to support users during their first 90 days, or any time they engage with a new stage.
-  - *Continuous onboarding:* Specifically our onboarding experience that allows users to choose when and if they want to continue onboarding tasks. It starts with simple tasks and builds to more complex ones.
-  - *Onboarding Emails:* Refers to emails that are sent to Saas and self-managed users intended to drive stage adoption via the email service the instance sets up.
-- *SaaS Purchase Flow* - We consider the SaaS purchase flow (or "funnel") to begin with with the first screen of the checkout experience (the first page that displays the total cost of their GitLab subscription) and continues through the payment sequence with the last step of the flow being the successful first-time purchase of a GitLab paid tier. A potential customer can enter this experience directly within the SaaS app from the /billings page or on `about.gitlab.com/pricing`.
+* *Sign-up Experience:* Registering to be a user of GitLab. It generally starts on `about.gitlab.com` and ends when the user is registered and can log in to the application. We have free, trial and direct to paid sign-up options.
+* *Registration Flow:* The "happy path" flow a new user goes through when registering for GitLab and landing in the app for the first time. This is a more confined user flow, as we narrow down options so they can experience GitLab without being overwhelmed by all the other features. It starts at `about.gitlab.com` and ideally ends with them using Create features.
+* *Trial Experience:* The experience of selecting and starting a trial, as well as testing/trialing features in GitLab.com or a self-managed instance during the trial. This could be done by net new users of GitLab, or existing users of GitLab who are interesting in exploring paid features.
+* *User Onboarding:* A general term that refers to experiences we create to support users during their first 90 days, or any time they engage with a new stage.
+  * *Continuous onboarding:* Specifically our onboarding experience that allows users to choose when and if they want to continue onboarding tasks. It starts with simple tasks and builds to more complex ones.
+  * *Onboarding Emails:* Refers to emails that are sent to Saas and self-managed users intended to drive stage adoption via the email service the instance sets up.
+* *SaaS Purchase Flow* - We consider the SaaS purchase flow (or "funnel") to begin with with the first screen of the checkout experience (the first page that displays the total cost of their GitLab subscription) and continues through the payment sequence with the last step of the flow being the successful first-time purchase of a GitLab paid tier. A potential customer can enter this experience directly within the SaaS app from the /billings page or on `about.gitlab.com/pricing`.
+
+## Growth Shared Calendar
+
+We use Growth PTO shared calendar to ensure all time off events are visible to everyone on the Growth team. To enable syncing your PTO from Time Off by Deel with this calendar follow these instructions:
+
+1. In Slack open app *Time Off by Deel*
+1. Ensure you are on *Home* tab and select *Calendar Sync* from the dropdown menu
+1. Under the section *Additional calendars to include?* click *Add calendar*
+1. Copy & paste this calendar ID: `c_5e5a9e4df8718fb25c518f165ca78fbccd42a7b6e1437a3caa6650e8e8dffbea@group.calendar.google.com`
+
+Congratulations! :tada: From now on all your PTO events will be automatically synced to our shared calendar!
 
 ### Helpful Links
-*   [Engineering Growth Section](/handbook/marketing/growth/engineering/)
-*   [Growth Product Handbook](/handbook/product/growth/)
+
+* [Engineering Growth Section](/handbook/marketing/growth/engineering/)
+* [Growth Product Handbook](/handbook/product/growth/)

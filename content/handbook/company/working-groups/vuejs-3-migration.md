@@ -50,7 +50,7 @@ This Working Group has the following goals:
 | [Get GitLab UI running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12386)        | 2021-06-21 | 2024-04-30      | 70%      | [@markrian](https://gitlab.com/markrian)   |
 | [Get main GitLab repo vue-router working with Vue Compat mode](https://gitlab.com/groups/gitlab-org/-/epics/10046) | 2023-05-18 | 2024-05-31      | 50%       | TBD                                        |
 | [Use Vue.js 3 for running test suites on main repo](https://gitlab.com/groups/gitlab-org/-/epics/9862)    | 2023-05-18 | 2024-05-31      | 30%      | [@xanf](https://gitlab.com/xanf)           |
-| [Get CustomersDot running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12388)     | 2024-02-01 | 2024-04-30      | 0%       | [@vitallium](https://gitlab.com/vitallium) |                                    |
+| [Get CustomersDot running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12388)     | 2024-02-01 | 2024-04-30      | 0%       | [@vitallium](https://gitlab.com/vitallium) |
 | [Switch Vue Compat from mode 2 to mode 3](https://gitlab.com/groups/gitlab-org/-/epics/12389)             | 2024-05-31 | 2024-10-31      | 0%       | TBD                                        |
 | [Switch to using Vue 3 proper](https://gitlab.com/groups/gitlab-org/-/epics/12390)                        | 2024-10-31 | 2025-12-01      | 0%       | TBD                                        |
 

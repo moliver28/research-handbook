@@ -45,4 +45,3 @@ The CFO Shadow Program is a rotation that runs over the course of 2 weeks, with 
 Together with GitLab L&D, we created the [Finance Learning Hub](https://levelup.gitlab.com/pages/finance-hub), a curated learning channel in Level Up.
 
 To align and support the broader GitLab L&D efforts, we will promote the training made available by the People team. This will allow us to give back and contribute in a way that makes this program even stronger. We will continue to look for ways to create a curriculum that fits the different areas of the finance org.
-

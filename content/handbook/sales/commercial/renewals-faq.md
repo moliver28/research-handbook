@@ -16,7 +16,6 @@ This page aims to answer the most commonly asked questions regarding a customers
 
 ### Customer Focused Questions
 
-
 Q: When is my GitLab subscription due for renewal?
 
 A: Login to customers.gitlab.com to see the renewal/ expiry date.
@@ -33,8 +32,10 @@ Q: Will my GitLab subscription auto renew?
 
 A: Once logged into to customer.gitlab.com, you will see one of the following under your subscription name;
 
+```text
     Renews on XX/XX/XXXX
     Expires on XX/XX/XXX
+```
 
 *Renews* indicates Auto Renew is On, *Expire*s indicates Auto Renew is Off.  Should you wish to turn Auto Renew back on, you can select the *Resume Subscription* option.
 

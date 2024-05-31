@@ -99,7 +99,6 @@ The responsibilities, requirements, and additional sklls for Public Sector Profe
 - A minimum of five years of experience in the industry
 - A Project Management Professional (PMP) Certification (preferred)
 
-
 ## Career Ladder
 
 - The next steps for individual contributors is to move into:

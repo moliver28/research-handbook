@@ -36,12 +36,12 @@ Every approved Figma seat must have a corresponding access request issue with bu
 
 Provisioners will be pinged in the access request issue to grant access. As a provisioner, ensure:
 
-- The team member's manager has approved access.
-- The team member understands what seat option they need.
-  - A **Viewer-restricted** role is often enough when a team member only needs to view and comment on files to collaborate.
-  - The difference between a **Design** and **FigJam** seat can be confusing at first. Ensure the team member knows which seat they need in order to perform their role.
-  - A team member may have the same, or a different seat type for **Design** and **FigJam**.
-- There is budget approval. Billing group admins should work with their Finance partners to ensure seat counts are not going over the maximum spend allocated for the fiscal year.
+* The team member's manager has approved access.
+* The team member understands what seat option they need.
+  * A **Viewer-restricted** role is often enough when a team member only needs to view and comment on files to collaborate.
+  * The difference between a **Design** and **FigJam** seat can be confusing at first. Ensure the team member knows which seat they need in order to perform their role.
+  * A team member may have the same, or a different seat type for **Design** and **FigJam**.
+* There is budget approval. Billing group admins should work with their Finance partners to ensure seat counts are not going over the maximum spend allocated for the fiscal year.
 
 ### Quarterly audits
 
@@ -63,10 +63,10 @@ Once confirmed, the Figma business owner will:
 
 Deprovisioners are included on offboarding issue templates.
 
-- To deprovision, search for the team member's email address from within your billing group. Use the ellipsis (⋯) menu to the right of the member's information and select 'Remove'.
-- The team member is removed from the organization regardless of their seat type.
-- When a member is removed:
-  - Anyone with 'can edit' access to the member's files will be able to continue editing and can move the files.
-  - Their draft files stay within the organization and admins can view and manage the files.
+* To deprovision, search for the team member's email address from within your billing group. Use the ellipsis (⋯) menu to the right of the member's information and select 'Remove'.
+* The team member is removed from the organization regardless of their seat type.
+* When a member is removed:
+  * Anyone with 'can edit' access to the member's files will be able to continue editing and can move the files.
+  * Their draft files stay within the organization and admins can view and manage the files.
 
 For more information, refer to Figma's [Remove people from an organization](https://help.figma.com/hc/en-us/articles/360040453453-Remove-people-from-an-organization) documentation.

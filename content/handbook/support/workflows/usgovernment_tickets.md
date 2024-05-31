@@ -138,7 +138,6 @@ The US Government shift engineers are a hybrid role between US Government suppor
 1. Global Support cases in Custom Personal view ([Create the view](#create-the-personal-view-in-global-support))
 1. US Government cases that are breached or soon to breach
 
-
 #### Create the personal view in Global Support
 
 The following will describe how to create the personal view to list cases in Global where US Gov shift engineers can contribute.
@@ -165,4 +164,3 @@ The following will describe how to create the personal view to list cases in Glo
     - `Request date`
 1. Group by: `Priority` - Descending
 1. Order by: `SLA` - Ascending
-

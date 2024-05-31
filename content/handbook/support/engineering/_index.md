@@ -65,9 +65,13 @@ end of each week with a list of support team contributions merged in the past we
 ### External tools
 
 - [ExplainShell](https://explainshell.com/) - Break down a terminal command
-- [Espanso](https://espanso.org/) - An extremely versatile text expander (a.k.a. text replacer or canned response tool)
-- [LanguageTool](https://languagetool.org/) - A Grammarly-like, free, **offline** grammar, spelling, and style checker
+- [Espanso](https://espanso.org/) - Versatile text expander (a.k.a. text replacer or canned response tool)
 - [Insomnia](https://insomnia.rest/) - Build, debug, and test API queries, and generate the code for them
+- [iTerm2](https://iterm2.com/) (macOS) - Terminal emulator with robust theming and customization options
+- [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker
+- [Obsidian](https://obsidian.md/) - Super customizable markdown notetaking app with tons of themes and addons
+- [Raycast](https://www.raycast.com/) (macOS) - Omnibox helper with tons of plugins for emoji, clipboard history, unit conversions, calculations, search, a confetti effect, and more
+- [Zed](https://zed.dev/) - Lightweight but powerful IDE
 - Menu bar clocks (macOS)
   - [iStat Menus](https://bjango.com/mac/istatmenus/) - Robust system monitor for the toolbar, including highly customizable clock options
   - [UTC Time](https://sindresorhus.com/utc-time) - Simple app for displaying UTC time, with options to copy various date formats

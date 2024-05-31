@@ -44,10 +44,12 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 ## Resources
 
 **Learning Objectives**
+
 - [How to Write Clear Learning Objectives](http://www.bu.edu/cme/forms/RSS_forms/tips_for_writing_objectives.pdf)
 - [Using Bloom’s Taxonomy to Write Effective Learning Objectives](https://tips.uark.edu/using-blooms-taxonomy/)
 
 **Thought Leadership**
+
 - [Learning Pool](https://learningpool.com/)
 - [Chief Learning Officer](https://www.chieflearningofficer.com/)
 - [Emerald Works](https://emeraldworks.com/)

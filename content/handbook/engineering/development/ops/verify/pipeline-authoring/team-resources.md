@@ -55,7 +55,6 @@ To support this while reaping the value of `shallowMount` where we can, we recom
     components as [`stubs`](https://vue-test-utils.vuejs.org/api/options.html#stubs), so the test will run with the real
     implementation of those components by adding them to to `stubs` option.
 
-
 When switching from `shallowMount` to `mount`, we recommend making the method an argument to the `createComponent` function with `shallowMount` as the default to be sure `mount` is only being used when needed.
 
 ```js

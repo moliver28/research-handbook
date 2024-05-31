@@ -5,7 +5,7 @@ description: >-
   GitLab product: UX Research, Product Design, Technical Writing, and Foundations
 ---
 
-## Hello!
+## Hello
 
 We're the GitLab User Experience (UX) department. We comprise four areas to support designing and building the GitLab product.
 
@@ -126,6 +126,12 @@ To understand the specific challenges faced by the UX Department, we hold an asy
 
 {{% ux-showcase %}}
 
+## UX Talent Assessment
+
+In UX, we utilize [performance factor worksheets](https://drive.google.com/drive/folders/1KgmIt7Umm0XH2-74jMBpOl67Yko1t2uK) (**🔒 internal only**) as a way to facilitate talent assessment and growth conversations between manager and their direct reports. These worksheets are available in Google Sheets format and the spreadsheets include tabs for a mid-year and year-end review, as well as a tab to list Achievement, Strengths, and Opportunities throughout the year.
+
+It is strongly encouraged for each team member to have their own worksheet created at the start of the fiscal year so that it can be used as a tool throughout the entire year.
+
 ## Meet some of our team members
 
 - [Valerie Karnes](https://gitlab.com/vkarnes/readme) - Director of Product Design
@@ -138,6 +144,3 @@ To understand the specific challenges faced by the UX Department, we hold an asy
 - [Anne Lasch](https://gitlab.com/alasch/about-anne/-/blob/master/README.md) - Senior UX Researcher
 - [Emily Bauman](https://gitlab.com/emilybauman/about-me/-/blob/master/README.md) - Senior Product Designer
 - [Will Leidheiser](https://gitlab.com/wleidheiser/about-will/-/blob/main/README.md) - Staff UX Researcher
-
-[pajamas]: https://design.gitlab.com
-[seeking-community-contributions]: https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name[]=Seeking+community+contributions&assignee_id=0&sort=weight

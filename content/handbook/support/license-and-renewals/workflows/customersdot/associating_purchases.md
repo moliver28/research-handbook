@@ -4,7 +4,7 @@ category: CustomersDot
 description: Associating subscription with other CustomersDot users and changing subscription owner.
 ---
 
-----
+---
 Sometimes a subscription owner (`Sold To:` contact) may want to associate the billing account (and related subscriptions) with more CustomersDot users, or transfer the billing account / subscription ownership.
 
 This process would also apply for requests to send a license to a different email other than the `Sold To:` contact.
@@ -119,7 +119,6 @@ We need **one** of the following in order to verify eligibility for the subscrip
 1. Option for unactivated licenses purchased through a reseller only: A reseller can vouch for an account ownership change through a ticket request. The reseller can open a ticket, or alternatively, the customer can CC the reseller to authorize their request.
    1. [Confirm that the subscription was purchased through a reseller](/handbook/support/license-and-renewals/workflows/working_with_reseller_related_requests#identifying-whether-a-customer-purchased-through-reseller)
    1. Verify that the email address domain used by the ticket requester matches the `Sold To` email domain of the `Invoice Owner` account in Zuora as detailed in the related [legal compliance issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/1564#note_1451657920). In cases where a customer has made a purchase through a series of resellers, the reseller matching the email domain identified in Zuora as the `Invoice owner` of the subscription should be used for verification confirmation.
-
 
 ### Fixing typos
 

@@ -32,7 +32,7 @@ graph LR
     step_manager_comm(Manager informs<br/>direct reports of<br/>compensation review<br>outcomes)
     step_comp_effective(New<br/>compensation<br/>effective 1<br/>Feb 2024)
     stop((Refresh grants<br/>approved during<br/>quarterly grant date))
-    
+
     start-->step_acr_launch
     step_acr_launch-->step_mgr_review
     step_mgr_review-->step_exec_review
@@ -72,7 +72,6 @@ If you are a manager with other managers reporting to you, you will see your ove
 
 Promotion budget will be included in the managers’ budget slate, but should only be utilized for FY25Q1 promotions. Managers will be responsible for entering the promotion and new role in the promotion tab, and should recommend a compensation increase aligned with our [promotion compensation guidelines](/handbook/people-group/promotions-transfers/#promotion-compensation-guidelines). The [promotion document](/handbook/people-group/promotions-transfers/#promotion-document) path should be included in the “Promotion Notes” section on the Promotion tab.
 
-
 #### Equity
 
 Equity refresh budget will be held at the Dir+ level. Managers below the Director level will not have an equity budget nor will they be able to plan for equity on the Stock tab in Workday. Managers should discuss recommendations for equity awards with their Directors to help inform recommendations as appropriate.
@@ -80,6 +79,7 @@ Equity refresh budget will be held at the Dir+ level. Managers below the Directo
 ### Annual Compensation Review Timeline
 
 **2024-01-09 - 2024-02-05:** Managers complete merit, promotion and equity recommendations. We recommend these general timelines for completion based on your level to enable department heads to review and finalize recommendations by the deadline.
+
 - Managers, Senior Managers, Director: Complete planning by 2024-01-17
 - Senior Directors, VPs: Complete planning by 2024-01-26
 
@@ -150,13 +150,13 @@ The increase based on performance factor should be added to the team member’s 
 
 Managers of team members receiving a market adjustment have received additional budget to fund their team’s market adjustment.
 
-If there are any reasons as to why a team member should not receive the proposed increase to be aligned with market rates in our calculator, please work with your [People Business Partner](https://handbook.gitlab.com/handbook/people-group/#people-business-partner-alignment-to-division) on appropriate next steps.
+If there are any reasons as to why a team member should not receive the proposed increase to be aligned with market rates in our calculator, please work with your [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) on appropriate next steps.
 
 ### Promotions
 
 Please review the handbook page on [promotions](/handbook/people-group/promotions-transfers) to understand the guidelines and philosophy when allocating an increase. Team members may still receive a performance increase if eligible for a promotion. Managers should review the final increase and salary based on the team member’s performance rating and new role when making the final recommendation.
 
-[Promotional RSU grants](/handbook/stock-options/#promotions) will be automatically calculated within the planning grid. Managers *are not* responsible for entering promotion RSU grants as part of entering promotions into Workday, they should only enter cash compensation increases. Grants are subject to approval at the next grant approval date.
+[Promotional RSU grants](/handbook/total-rewards/stock-options/#promotions) will be automatically calculated within the planning grid. Managers *are not* responsible for entering promotion RSU grants as part of entering promotions into Workday, they should only enter cash compensation increases. Grants are subject to approval at the next grant approval date.
 
 ### Equity
 

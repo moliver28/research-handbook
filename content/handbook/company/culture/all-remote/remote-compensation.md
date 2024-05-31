@@ -94,7 +94,7 @@ As many other organizations do, GitLab provides equity grants in the form of Inc
 
 The difference in these two types of grants are, generally, as follows: ISOs are issued to US employees and carry a special form of tax treatment recognized by the US Internal Revenue Service (IRS). NSOs are granted to contractors and non-US employees.
 
-You can learn more in the [Stock Options section of the Handbook](/handbook/stock-options/).
+You can learn more in the [Stock Options section of the Handbook](/handbook/total-rewards/stock-options/).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -102,6 +102,6 @@ You can learn more in the [Stock Options section of the Handbook](/handbook/stoc
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

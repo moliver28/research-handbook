@@ -23,7 +23,6 @@ Personas are a generalized way of talking about the ideal target we are aiming t
 
 We are iterating on updates to buyer personas on this [Buyer Persona](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) page.
 
-
 ### User personas
 
 User personas are people who actually use GitLab. They may or may not be the person in
@@ -60,7 +59,7 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Presley, Product Designer](/handbook/product/personas/#presley-product-designer)
   1. [Sasha, Software Developer](/handbook/product/personas/#sasha-software-developer)
   1. [Priyanka, Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer)
-  2. [Janell, Enablement Advocate](/handbook/product/personas/#janell-enablement-advocate)
+  1. [Janell, Enablement Advocate](/handbook/product/personas/#janell-enablement-advocate)
   1. [Sidney, Systems Administrator](/handbook/product/personas/#sidney-systems-administrator)
   1. [Rachel, Release Manager](/handbook/product/personas/#rachel-release-manager)
   1. [Simone, Software Engineer in Test](/handbook/product/personas/#simone-software-engineer-in-test)
@@ -74,7 +73,7 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Daphne, Data Scientist](/handbook/product/personas/#daphne-data-scientist)
   1. [Mia, ML Engineer](/handbook/product/personas/#mia-ml-engineer)
 
-#### Personas across stages
+#### User Personas across stages
 
 Our personas span across stages (see table below for a depiction of how our user personas map across stages). Understanding how our personas map across stages helps us understand how to collaborate cross-functionally to support their needs.
 
@@ -83,6 +82,14 @@ Our personas span across stages (see table below for a depiction of how our user
 </figure>
 
 *Note: To change the table above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1IVDu5RIlywcRCqpkXzdSG7lW8dNiE_XHq54GdI7lkfk/edit?usp=sharing).*
+
+#### User Personas across Use Cases
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQU1Lm4fyZvEk4TrkQ-kNDZWA5MVb9fNuqaDPzXaZjCE3PYL8BQ0nSD5Hfw34fSNq_of3E-U3G6fyRL/embed?start=false&loop=false&delayms=15000" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+
+*Note: To change the tables above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit?usp=sharing).*
 
 #### Parker (Product Manager)
 
@@ -98,7 +105,6 @@ At the center of many facets in product development, I am responsible for shapin
 - Taking Products from Concept to Launch: The process of taking a product from concept to launch excites and motivates me. I get satisfaction from taking part in the evolution of an idea into a fully realized product, navigating challenges, guiding development, and observing the impact with users.
 - Adapting to Change and Achieving Alignment: I’m proud when I can adapt to shifting company objectives and maintain effective communication with my team. I am always working to achieve alignment across teams, knowing that it fuels our ability to achieve ambitious goals and innovate together.
 
-
 ##### Frustrations
 
 - Being Stuck in a "Project, Not Product”, Management Role: It's demotivating when I find myself primarily functioning as a project manager, focusing on tracking tasks and timelines rather than the dynamic and strategic responsibilities that come with being a product manager. This hinders my ability to address customer needs, devise effective market strategies, and maintain a clear product vision, which drives my job satisfaction.
@@ -106,7 +112,6 @@ At the center of many facets in product development, I am responsible for shapin
 - Inability to access project status quickly: It can be frustrating when it is difficult to obtain the status of work efforts and I am forced to spend time chasing status. Timely awareness of project status, especially when it is off track, is crucial for my role because I need to ensure people invested in delivery are informed if we will not meet our commitments.
 - Balancing Product Vision and Capacity: I am constantly trying to make the most of our team’s capacity to execute on our product vision. It’s a challenging juggling act to ensure I am making the right decisions on what comes next to maximize our ability to deliver compelling value to the market.
 - Unpredictable Timeframes, Feature Delays, and Deprioritization: It's frustrating when I'm tasked with providing clients and stakeholders with a reasonable timeframe for the delivery of a feature since development cycles can be unpredictable, and change is inevitable.
-
 
 #### Delaney (Development Team Lead)
 
@@ -581,7 +586,7 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 
 ##### Job Summary
 
-I collect, preprocess, and analyze data to derive insights and build predictive models. 
+I collect, preprocess, and analyze data to derive insights and build predictive models.
 
 ##### Jobs to be done
 
@@ -602,7 +607,7 @@ I collect, preprocess, and analyze data to derive insights and build predictive 
 - Data access
 - Lack of computational resources
 - Lack of data and/or ML/AI literacy in the organization
-- Lack of streamlined processes and automations 
+- Lack of streamlined processes and automations
 - Lack of data governance and ambiguity around policies, data ownership and data stewardship.
 
 #### Mia (ML Engineer)
@@ -611,7 +616,7 @@ I collect, preprocess, and analyze data to derive insights and build predictive 
 
 ##### Job Summary
 
-I am responsible for building, optimizing, and deploying machine learning models into production environments. 
+I am responsible for building, optimizing, and deploying machine learning models into production environments.
 
 ##### Jobs to be done
 
@@ -684,4 +689,3 @@ My goal is to deeply understand the lifecycle of data from various sources and m
 - It can be difficult to know exactly how to approach analysis, when my colleagues are not clear about the questions they have and why they want to explore certain aspects of the data.
 - It’s hard to trust the integrity of data, when inconsistent tracking results in missing context for key events.
 - It’s difficult to answer big picture questions about feature usage and user retention, when feature parameters and usage criteria aren’t completely defined.
-

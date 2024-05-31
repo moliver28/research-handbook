@@ -19,6 +19,7 @@ The Senior Backend Engineer is a [grade 7](/handbook/total-rewards/compensation/
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Encouraged to complete [Interview Training](/hiring/conducting-a-gitlab-interview/#interviewer-training-requirements) in support of hiring efforts for the department. Participation as either a technical interviewer or part of their team's interview panel may be expected from hiring managers, given ongoing hiring needs.
 
 ## Requirements
 
@@ -265,12 +266,12 @@ Growth: Analytics and Experimentation Engineers build, maintain, and integrate w
 - Experience with Snowplow
 - Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
 
-### Product Intelligence
+### Analytics Instrumentation
 
-Senior Backend Engineers in the Product Intelligence group play a key role in implementing analytics and data collection tools within the GitLab product in a privacy-focused manner.
+Senior Backend Engineers in the Analytics Instrumentation group play a key role in implementing analytics and data collection tools within the GitLab product in a privacy-focused manner.
 The group focuses on providing GitLab's team with data-driven product insights to build a better GitLab.
 
-The Senior Backend Engineer for Product Intelligence extends the Senior Backend Engineer requirements with these additional requirements and responsibilities.
+The Senior Backend Engineer for Analytics Instrumentation extends the Senior Backend Engineer requirements with these additional requirements and responsibilities.
 
 #### Requirements
 
@@ -282,13 +283,15 @@ The Senior Backend Engineer for Product Intelligence extends the Senior Backend 
 - Experience with dbt, or other related data engineering tools.
 - Experience with Snowflake and Snowpipe.
 - Experience with Snowplow collector.
+- Experience with Go and/or Python.
 - Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
 
 #### Responsibilities
 
-- Build tooling to collect metrics from GitLab.com and self managed instances.
+- Build tooling to collect events and metrics from GitLab.com, Self-Managed and
+  other GitLab and customer services.
 - Work closely with GitLab's Data team to analyse data pipelines.
-- Build automation to ensure the quality of our collected metrics.
+- Build automation to ensure the quality of our collected metrics and events.
 - Build monitoring to ensure the reliability of our data pipelines.
 
 ### Engineering Productivity

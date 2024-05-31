@@ -9,7 +9,7 @@ Manage is made up of multiple groups, each with their own features and areas of 
 
 * I have a question. Who do I ask?
 
-In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [product category](/handbook/product/categories/#manage-stage). 
+In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [product category](/handbook/product/categories/#manage-stage).
 
 GitLab team members can also use [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
 
@@ -29,6 +29,7 @@ For a list of active OKRs, [check the OKR project](https://gitlab.com/gitlab-com
 
 The direction and strategy for Manage is documented on [https://about.gitlab.com/direction/manage/](https://about.gitlab.com/direction/manage/). This page (and the category direction
 pages under the "Categories" header) is the single source of truth on where we're going and why.
+
 * Direction pages should be reviewed regularly by Product. When updating these pages, please CC the relevant group to keep your teammates informed.
 * Product should make sure that their groups understand the direction and have an opportunity to contribute to it. Consider a monthly direction AMA for your group to field questions.
 
@@ -53,10 +54,10 @@ This section lists relevant experience areas for individual contributors interes
 
 **Expert hiring manager**
 
-- Experience with behavioral interviews
-- Screening candidates for your team
-- Identifying cultural answers or clarifying vague answers
-- Identifying a headcount need in advance
+* Experience with behavioral interviews
+* Screening candidates for your team
+* Identifying cultural answers or clarifying vague answers
+* Identifying a headcount need in advance
 
 </details>
 
@@ -65,11 +66,11 @@ This section lists relevant experience areas for individual contributors interes
 
 **Performance management**
 
-- Crucial conversations
-- Performance improvement plans
-- Coaching on improvement areas
-- Giving feedback
-- Identifying underperformance
+* Crucial conversations
+* Performance improvement plans
+* Coaching on improvement areas
+* Giving feedback
+* Identifying underperformance
 
 </details>
 
@@ -78,8 +79,8 @@ This section lists relevant experience areas for individual contributors interes
 
 **Communicating company decisions**
 
-- Annual review, calibration sessions, compensation discussions
-- Motivating team members on opportunities that come with negatives (borrow requests, engineering allocations, feature change locks)
+* Annual review, calibration sessions, compensation discussions
+* Motivating team members on opportunities that come with negatives (borrow requests, engineering allocations, feature change locks)
 
 </details>
 
@@ -88,13 +89,13 @@ This section lists relevant experience areas for individual contributors interes
 
 **Product area**
 
-- Triage reports
-- Define and monitor productivity metrics, take action if necessary
-- Collaborative planning
-- Proactively identifying issues or recommending engineering allocations
-- Leading an incident in your area
-- Proposing and driving a borrow request (reactive)
-- Shared OKRs and delivery
+* Triage reports
+* Define and monitor productivity metrics, take action if necessary
+* Collaborative planning
+* Proactively identifying issues or recommending engineering allocations
+* Leading an incident in your area
+* Proposing and driving a borrow request (reactive)
+* Shared OKRs and delivery
 
 </details>
 
@@ -103,12 +104,12 @@ This section lists relevant experience areas for individual contributors interes
 
 **Team success**
 
-- Career growth development leading to promotions, mentors, technical interviews, maintainers
-- Setting goals based on 360 feedback and career aspirations
-- Smooth onboarding process
-- Frequent and transparent handbook updates
-- Identifying performance indicators for the team
-- Becoming a mentor
+* Career growth development leading to promotions, mentors, technical interviews, maintainers
+* Setting goals based on 360 feedback and career aspirations
+* Smooth onboarding process
+* Frequent and transparent handbook updates
+* Identifying performance indicators for the team
+* Becoming a mentor
 
 </details>
 
@@ -117,11 +118,11 @@ This section lists relevant experience areas for individual contributors interes
 
 **Achieving consensus**
 
-- Facilitating a working group
-- Participating in stage, sub-department, skip level, and/or engineering manager discussions
-- Coordinating the dev on-call
-- Experience with being Incident Manager On-Call ([IMOC](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities))
-- Collaboration with the full product group [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/)
+* Facilitating a working group
+* Participating in stage, sub-department, skip level, and/or engineering manager discussions
+* Coordinating the dev on-call
+* Experience with being Incident Manager On-Call ([IMOC](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities))
+* Collaboration with the full product group [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/)
 
 </details>
 
@@ -130,31 +131,30 @@ This section lists relevant experience areas for individual contributors interes
 
 **Personal growth**
 
-- Receiving feedback
-- Continued learning, identifying new growth opportunities, and building a personal growth plan
-- Seeking a mentor
+* Receiving feedback
+* Continued learning, identifying new growth opportunities, and building a personal growth plan
+* Seeking a mentor
 
 </details>
 
-
 #### Trainings offered by GitLab for EMs
 
-- [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate/)
-- [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
+* [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate/)
+* [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
 
 #### Other resources
 
-- Slack [#aspiring-managers](https://gitlab.slack.com/archives/C029TEKMDQ8) channel
-- [Handbook page](/handbook/engineering/development/dev/training/ic-to-manager/) dedicated to growing leadership skills for ICs
+* Slack [#aspiring-managers](https://gitlab.slack.com/archives/C029TEKMDQ8) channel
+* [Handbook page](/handbook/engineering/development/dev/training/ic-to-manager/) dedicated to growing leadership skills for ICs
 
 ### Staff Engineers
 
 For an explanation on what to expect as a Staff engineer and a list of ideas for tactical initaitives, [visit this page](/handbook/engineering/development/dev/training/staff-engineers).
 
-
 ## Holiday Gift Exchange (2023)
 
 We will kick off the holiday season on December 8 by _optionally_ participating in a Secret Santa exchange - an exchange where a group of colleagues will exchange holiday presents anonymously with each member of the group being assigned to another member to provide a small gift.
+
 1. The exchange amount will be $30 USD, including shipping and tax fees. This amount cannot be expensed and would need to be paid for out of pocket. Team members are not required to participate.
 1. [A form has been provided](https://forms.gle/NXCXbWWWbF2HeSk4A) to sign up. This form will include ideal gift ideas for yourself, as well as your formatted mailing address, and local / online stores to choose your gift from.
 1. The form will close on December 13. At this time, your Secret Santa will be randomly selected and you will be given the name of a team member to buy a gift for, their ideal gift idea and local buying options if available.
@@ -169,7 +169,6 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 | Every other Monday | Engineering managers discussion | @m_gill | Ideas, help or resources needed from others, concerns, questions, etc.                                 |
 | Monthly   | Stage-level social call              | @mksionek     | Getting to know each other                                                                             |
 
-
 For one-off, topic specific meetings, please always consider recording these calls and sharing them (or taking notes in a [publicly available document](https://docs.google.com/document/d/1kE8udlwjAiMjZW4p1yARUPNmBgHYReK4Ks5xOJW6Tdw/edit)).
 
 Agenda documents and recordings can be placed in the [shared Google drive](https://drive.google.com/drive/u/0/folders/0ALpc3GhrDkKwUk9PVA) (internal only) as a single source of truth.
@@ -183,6 +182,7 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 1. Manage Shared - Use this calendar for recurring group level reminders and meetings (Release kickoff, milestone planning, social calls)
    * To add the shared calendar to your Google Calendar, please use this [link](https://calendar.google.com/calendar/b/1?cid=Z2l0bGFiLmNvbV9rOWYyN2lqamExaGoxNzZvbmNuMWU4cXF2a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) (GitLab internal).
    * To add a meeting to the shared calendar, please add [the link in this document](https://docs.google.com/document/d/1IxGuORI-vfVd6irNdUwpnOBZDWALWzOqhQzC9E39ixQ/edit) to the event.
+
   * To add a new member to the shared calendar
     * Click "Settings and Sharing" in the kebab menu when mousing over "Manage Shared" in your Google Calendar sidebar under "My calendars".
     * Scroll to the "Share with specific people" section of the settings area. Click "Add people" and add the new member with "Make changes and manage sharing".
@@ -190,11 +190,12 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Dashboards
 
-- [Performance indicator overview](/handbook/engineering/metrics/dev/manage/)
+* [Performance indicator overview](/handbook/engineering/metrics/dev/manage/)
 
 ## Links and resources
 
 {{% include "includes/engineering/manage/shared-links.md" %}}
+
 * Our handbook pages
   * [Foundations](/handbook/engineering/development/dev/manage/foundations/)
   * [Import and Integrate](/handbook/engineering/development/dev/manage/import-and-integrate/)

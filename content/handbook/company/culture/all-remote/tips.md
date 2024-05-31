@@ -32,7 +32,7 @@ Remote work is also what led to the development of our publicly viewable [handbo
 
 Each department and team's quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs), are also clearly documented in our handbook for visibility across the company. We check in on these goals monthly, so there's as much transparency as possible around what each team is accomplishing.
 
-Our approach to [documentation](/handbook/documentation) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
+Our approach to [documentation](/handbook/product/ux/technical-writing/documentation/) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
 
 We also have an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) and we host a [GitLab 101](/handbook/company/culture/gitlab-101) for new hires to ask questions.
 
@@ -101,7 +101,6 @@ We recognize how crucial it is to build in time when you can mentally take a bre
 
 > **“I work closely with our executive team here, and they have been so supportive and encouraging when family-related conflicts arise. They are constantly reminding me that “family first” is our mantra, and give me ease of mind to take time away when needed. Sid, our co-founder and CEO, told me if it’s a beautiful day out and I just want to go enjoy it, I should do that. Moments like these make me so proud to be a part of the GitLab team."**
 [- Cheri, Manager, Executive Assistant](/handbook/company/team#cheriholmes)
-
 
 ## Tips for leaders and other companies
 
@@ -204,7 +203,6 @@ It's sometimes hard to remember to stay active when you work from home. Here are
 - If possible, choose a workspace that's exposed to [natural light](https://www.makegreatlight.com/wp-content/uploads/Health_Benefits_Natural_Light.pdf).
 - Avoid "Digital Eye Strain" by following the [20-20-20 Rule](https://www.healthline.com/health/eye-health/20-20-20-rule#definition). Every 20 minutes look into the distance (at least 20 feet/6 meters) for 20 seconds.
 - Use an app - there are some that will remind you to take a break or help you with your computer posture:
-    - [PostureMinder](http://www.postureminder.co.uk) (Windows)
     - [Time Out](https://itunes.apple.com/us/app/time-out-break-reminders/id402592703?mt=12 )(macOS)
     - [Awareness](http://iamfutureproof.com/tools/awareness) (macOS)
     - [SafeEyes](https://slgobinath.github.io/SafeEyes) (GNU/Linux)
@@ -234,6 +232,6 @@ Here's how you can participate:
 - [Create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues) if you have any questions or if you see an inconsistency.
 - Help spread the word about all-remote organizations by sharing it on social media.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

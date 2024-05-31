@@ -22,7 +22,6 @@ The Timeline view in Gainsight gives us a chronological overview of our activiti
 
 - **CTA View**: When you click on the details of a specific CTA or success plan Objective, there is a Timeline tab. You can add entries from here that will be linked to the CTA. These timeline entries will also appear on the company and global timelines.
 
-
 ## Activity types
 
 The following activities can be logged in Gainsight:
@@ -79,7 +78,6 @@ Tip: When searching for external attendees, you can use "%%%" as your search pat
 
 *Follow the rest of the steps below*
 
-
 1. Input a subject
 1. Confirm the date (it will default to when you clicked "+ Activity") and time (this does not need to be the exact time of the activity as long as the date is correct) if applicable
 1. Add internal and external attendees (more details on that immediately below) if applicable
@@ -127,5 +125,3 @@ BCCing emails to Gainsight is *not* a required step. However, if you want an ema
 1. Emails logged in Gainsight appear in Gainsight and then are synced to Salesforce during the nightly sync
 
 For more information on using emails with Gainsight, see the [Gainsight workflow handbook page](/handbook/customer-success/csm/gainsight/#emails).
-
-

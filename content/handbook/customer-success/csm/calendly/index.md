@@ -11,7 +11,7 @@ description: "Best practices and setup guide for Customer Success Managers using
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
+---
 
 *For an overview of Chorus, the tool used to record our meetings please refer to the [Gainsight Overview Page](/handbook/sales/field-operations/sales-operations/go-to-market/chorus/).*
 
@@ -29,7 +29,6 @@ To ensure that Calendly is setup to comply with GDPR and similar privacy laws, a
     - Then create a test event on your Google calendar, click Add video conferencing, select Chorus Meeting. You will then be able to view the Chorus Go static link (Domain: go.chorus.ai).
     - ![static-chorus-go-link](grab-static-chorus-go-link.png)
 
-
 ### Creating a Calendly Event Type
 
 It is recommended to create multiple event types for your Calendly to ensure customers can choose the appropriate length of time for the meeting or specific topic/area of focus. Below is an example home page on Calendly for a CSE with different event types.
@@ -42,21 +41,20 @@ It is recommended to create multiple event types for your Calendly to ensure cus
   - Click the [Create New Event Type Button](https://calendly.com/event_types/new) and choose One-on-One
   - *Event name*: Name your event based on the length of time or specific topic/focus (Ex: New Customer: Onboarding Call)
   - *Location*: Custom (Use a Static Link from Chorus Scheduler generated from your Zoom PMI)
-    - Next, add the go.chorus.ai link to your calendly event configuration Location field.  
+    - Next, add the go.chorus.ai link to your calendly event configuration Location field.
         - *Important Note*: Anyone booking through your calendly would use the same location link when booking an event instead of an automatically generated unique meeting ID per meeting. Please make sure your Zoom Personal Meeting follows GitLab’s best practices on [privacy and security](/handbook/tools-and-tips/zoom/#a-note-on-privacy-and-security).
 
         - Make sure to select display location only after confirmation
         - ![calendly-location](calendly-location-chorus-go.jpeg)
-
 
 - *Description/Instructions* (add the following recommended text)
     > **This face-to-face meeting may be recorded. A browser will be required to access this meeting invite. If you do not have access to a browser, please contact the meeting organizer.
     >
     > You will join a Zoom meeting via Chorus.ai
     >
-    > _______________________________
+    > `_______________________________`
     >
-    > Recording Disclaimer: This meeting will be recording with [Chorus.ai](https://www.chorus.ai). By accepting this meeting invite or joining the meeting room, you consent to the recording.```
+    > Recording Disclaimer: This meeting will be recording with [Chorus.ai](https://www.chorus.ai). By accepting this meeting invite or joining the meeting room, you consent to the recording.
 
 - *When can people book this event?*
     - Date range: 60
@@ -79,4 +77,3 @@ It is recommended to create multiple event types for your Calendly to ensure cus
         - Best practice notes: Allows you to have the time and space to review your notes/recording and start research for a follow-up response, as well as handle other duties as a CSM/CSE (providing assistance to webinar Q&A, professional development, internal meetings, focus time, etc.)
     - Time zone display: automatically detect
     - Secret event: unchecked/disabled
-

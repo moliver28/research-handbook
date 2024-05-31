@@ -14,6 +14,7 @@ Every application should have a dedicated `Tech Stack Guide` handbook page to he
 The goal of this page is to describe how to document an application's `Tech Stack Guide`. **An apps Tech Stack Guide should live with the Functional Business Owner of the technology**. Our SSOT for all apps will be the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and the YAML will populate key portions of the page. However, other sections of the page can be populated that are not included in the YAML file as needed to ensure that the documentation is complete such as Data Model, Integrations, Key Reports/Dashboards.
 
 Here's how to think about the relationship between the Tech Stack YAML nd the Tech Stack Guide:
+
 - The Tech Stack YAML is a registry of all apps GitLab owns or operates (the What)
 - A Tech Stack Guide covers the business and technical workflows (the Why and How) of each Tech Stack app
 - The `handbook_link` key/property in the YAML links to the corresponding Tech Stack Guide(s)
@@ -55,6 +56,7 @@ List the important reports and dashboards used to operate the application, inclu
 ## Tech Stack Guide Example #1: [Thought Industries LMS Tech Stack Guide](/handbook/customer-success/professional-services-engineering/education-services/lms/)
 
 Important Notes:
+
 1. This Tech Stack Guide lives in the [GitLab Professional Education Services](/handbook/customer-success/professional-services-engineering/education-services) handbook because Professional Services are the business owners of the app
 2. The `handbook_link` key in the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for Thought Industries Learning Management System references the Tech Stack Guide
 
@@ -77,7 +79,6 @@ The Tech Stack single source of truth is the [Tech Stack YAML](https://gitlab.co
 ### Implementation
 
 Zuora consists of several app modules built on the [Zuora Central Platform](https://www.zuora.com/products/zuora-central-platform/). [Zuora Billing](https://www.zuora.com/products/billing-software/) is one of these modules.
-
 
 ### System Diagrams
 
@@ -128,6 +129,7 @@ Zuora Billing is a key module within the **[Lead to Cash workflow](/handbook/bus
 ### Key Reports / Dashboards
 
 For Zuora Billing, the team uses [Zuora Standard Reports](https://knowledgecenter.zuora.com/Billing/Reporting/AB_Reporting_Quick_Reference/C_Standard_Reports) and the most important reports are:
+
  - ELP Changes
  - Accounts with subscriptions to be canceled in the next 30 days
  - Credit memos over time
@@ -143,16 +145,17 @@ The [Zuora Billing business object model](https://knowledgecenter.zuora.com/BB_I
 ### Key Data Objects
 
 Zuora is the SSOT for these objects and the data can be viewed there. In addition, key objects can be viewed in Snowflake:
-* **Raw Data:** [`zuora.*`](https://gitlab-data.gitlab.io/analytics/#!/source_list/zuora). Key objects include:
-  * [`zuora.account`](https://gitlab-data.gitlab.io/analytics/#!/source/source.gitlab_snowflake.zuora.account)
-  * [`zuora.invoice`](https://gitlab-data.gitlab.io/analytics/#!/source/source.gitlab_snowflake.zuora.invoice)
-  * [`zuora.product`](https://gitlab-data.gitlab.io/analytics/#!/source/source.gitlab_snowflake.zuora.product)
-  * [`zuora.subscription`](https://gitlab-data.gitlab.io/analytics/#!/source/source.gitlab_snowflake.zuora.subscription)
-* **Modeled Data:** [Bus Matrix](https://docs.google.com/spreadsheets/d/1j3lHKR29AT1dH_jWeqEwjeO81RAXUfXauIfbZbX_2ME/edit#gid=430467333). Key objects include:
-  * [`dim_billing_account`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_billing_account)
-  * [`dim_invoice`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_invoice)
-  * [`dim_product_detail`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_product_detail)
-  * [`dim_subscription`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription)
+
+- **Raw Data:** [`zuora.*`](https://gitlab-data.gitlab.io/analytics/#!/source_list/zuora). Key objects include:
+  - [`zuora.account`](https://gitlab-data.gitlab.io/analytics/#!/source/source.gitlab_snowflake.zuora.account)
+  - [`zuora.invoice`](https://gitlab-data.gitlab.io/analytics/#!/source/source.gitlab_snowflake.zuora.invoice)
+  - [`zuora.product`](https://gitlab-data.gitlab.io/analytics/#!/source/source.gitlab_snowflake.zuora.product)
+  - [`zuora.subscription`](https://gitlab-data.gitlab.io/analytics/#!/source/source.gitlab_snowflake.zuora.subscription)
+- **Modeled Data:** [Bus Matrix](https://docs.google.com/spreadsheets/d/1j3lHKR29AT1dH_jWeqEwjeO81RAXUfXauIfbZbX_2ME/edit#gid=430467333). Key objects include:
+  - [`dim_billing_account`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_billing_account)
+  - [`dim_invoice`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_invoice)
+  - [`dim_product_detail`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_product_detail)
+  - [`dim_subscription`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription)
 
 #### Product catalog
 
@@ -177,7 +180,7 @@ end
 
 #### Zuora to Salesforce
 
-Zuora Data to [Salesforce](#salesforce-sales-cloud) via [Zuora CPQ](#zuora-cpq)
+Zuora Data to Salesforce via Zuora CPQ
 
 #### Customers Dot to Zuora Billing
 

@@ -68,7 +68,7 @@ Here's an example:
 
 ```yaml
 notes: |
-  This organization has an Assigned Support Engineer (ASE). Please [review the workflow to use](https://handbook.gitlab.com/handbook/support/workflows/assigned-support-engineer/working-on-ase-tickets.html).
+  This organization has an Assigned Support Engineer (ASE). Please [review the workflow to use](/handbook/support/workflows/assigned-support-engineer/working-on-ase-tickets.html).
 
   Jill is the AMER ASE for Company-A so at this time, all new non-emergency tickets will be assigned to her. Pre-existing tickets will keep their existing assignee and Jill will shadow.
 

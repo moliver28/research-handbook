@@ -71,6 +71,7 @@ All GitLab.tv video content should include a call to action (CTA). The goal is t
 Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance.
 
 The UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign={{playbook}}&utm_content={{video}}`
+
 1. Right before the question mark at the start of the UTM code, please put the URL to the campaign/landing page to which your CTA is driving, i,e. if this is a video that drives to the top-level community page, the URL added before the question mark should take you to the Community landing page. For example: `https://about.gitlab.com/community/?&utm_medium=social&utm_source=youtube&utm_campaign={{playbook}}&utm_content={{video}}`
 2. Please use a URL shortener, like [bit.ly](https://bitly.com/), once you add the campaign URL to the top of the UTM code sequence in order to avoid posting a clunky web address for your CTA.
 
@@ -81,6 +82,7 @@ The UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtub
 1. PathFactory
 
 **How to have your video considered for promotion:**
+
 1. Submit to GitLab social team for consideration (DRI must create issue to enable this step)
 2. Submit to GitLab editorial team for consideration on the blog and/or bi-weekly newsletter (DRI must create issue to enable this step)
 3. Third-party content platforms (e.g. like ITPro.tv, industry blogs, etc.)
@@ -111,7 +113,6 @@ To contribute to an existing channel, visit the channel playbook for more inform
 
 GitLab.tv Video Channel Playbooks define the channel audience, measurable goals, content types, content distribution plan, and contribution paths. To create a GitLab.tv Video Channel Playbook, use this [template](https://docs.google.com/document/d/1YEMzrvmo9g2ukDTsOlmMatzELu0FhmkaBil_DRVGv6Q/edit?usp=sharing) and reach out to the GitLab.tv team.
 
-----
+---
 
 Return to the main [Inbound Marketing Handbook](/handbook/marketing/inbound-marketing/).
-

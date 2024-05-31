@@ -116,7 +116,7 @@ Prerequisites:
 
 - [ ] Ability to read [data models](https://www.lucidchart.com/pages/er-diagrams)
 - [ ] Prior experience developing reports and chart [data visualizations](https://datavizcatalogue.com/index.html)
-- [ ] [Review Tableau Handbook Page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/)
+- [ ] [Review Tableau Handbook Page](/handbook/business-technology/data-team/platform/tableau/)
 - [ ] Pass a [Self-Service Dashboard Developer Knowledge Assessment](https://about.gitlab.com/learn/certifications/public/) from one of the Self-Service-ready Data Subject Areas published in the handbook
 
 Access Requests:

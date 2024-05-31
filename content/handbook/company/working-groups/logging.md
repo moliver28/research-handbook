@@ -46,7 +46,6 @@ description: "The GitLab Logging Working Group will have multiple business purpo
 | Member              | Dan Croft | Senior Engineering Manager, Ops |
 | Member              |  |  |
 
-
 ## Requirements and Considerations
 
 ### Actors
@@ -83,7 +82,6 @@ description: "The GitLab Logging Working Group will have multiple business purpo
     - The format of each log source
     - The fields recorded in each log source
 - As a SIRT Engineer, I am able to easily integrate logging data into other SIRT tools for fast, accurate and reliable Incident Response
-
 
 #### Infrastructure Security
 

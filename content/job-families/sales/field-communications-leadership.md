@@ -99,4 +99,3 @@ Candidates for this position can expect the hiring process to follow the order b
 - Finally, candidates will meet with the VP of Field Operations.
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
-

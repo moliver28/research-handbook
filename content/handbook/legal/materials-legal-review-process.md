@@ -6,6 +6,7 @@ description: "Follow this process to obtain legal review of materials for intern
 ## Self-serve materials compliance resources
 
 When creating materials:
+
 - for [external](./#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/), the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/), and as a quick-reference guide, the [External Materials Compliance Checklist](/handbook/legal/external-materials-compliance-checklist).
 - for [internal](./#external-vs-internal-use) use, always refer to the [SAFE Framework](/handbook/legal/safe-framework/).
 
@@ -38,7 +39,7 @@ Review is **always** required for:
 This process should never be used for:
 
 - NDAs, contracts, or other commercial agreements which should instead be routed through the [Commercial Legal Team](/handbook/legal/commercial/#how-to-work-with-gitlab-legal-commercial).
-- [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/key-review/) meetings, and [Group Conversations](/handbook/group-conversations/) streamed or published [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered. However, these recordings should not be streamed or published if they contain material non-public information, confidential information, or are required to be kept SAFE;
+- [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/company/key-review/) meetings, and [Group Conversations](/handbook/company/group-conversations/) streamed or published [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered. However, these recordings should not be streamed or published if they contain material non-public information, confidential information, or are required to be kept SAFE;
 - External or internal handbook updates;
 - GitLab issues or merge requests; nor
 - Internal or external communications prepared in relation to a contentious issue that undermines a critical attribute of our company’s brand and challenges its reputation or impacts, or has the potential to impact, the safety or wellbeing of our team-members which should instead follow the [GitLab Incident Communications Plan](/handbook/marketing/corporate-communications/incident-communications-plan/).
@@ -63,10 +64,11 @@ The Legal & Corporate Affairs Team aims to complete single material reviews with
 ### Two-track process
 
 This process is divided into two tracks - follow the track which applies to your situation:
+
 - To obtain legal review of a single piece of material, follow [Track 1: Single material legal review process](./#track-1-single-material-legal-review-process).
 - To obtain legal review of multiple pieces of material, follow [Track 2: Multiple materials legal review process](./#track-2-multiple-materials-legal-review-process).
 
-----
+---
 
 ## Track 1 Single material legal review process
 
@@ -77,31 +79,31 @@ Follow this process to obtain legal review of a **single piece of material**. A 
     ```markdown
     ## Materials to be reviewed
     <!-- Link (for Google Docs) or upload (for other file types) the material for review here. -->
-    
+
     ## Is this material for internal or external use?
     <!-- Delete as appropriate, and refer to the definitions of `external use` and `internal use` in the Materials Legal Review Process. If there are plans to use the material, or any part of it, externally in the future, chose `external`. -->
     - external @sfriss @LeeFalc
     - internal @sfriss
-    
+
     ## Will the materials be made available on GitLab Unfiltered, Edcast, or anywhere else?
     <!-- Delete as appropriate to state whether some or all of the materials being submitted for review will be made available anywhere. If they will, give details of the visibility the materials will have. -->
     - yes <!-- if yes, give details -->
     - no
-    
+
     ## Is the material subject to mandatory review?
     <!-- Delete as appropriate and refer to the definition of mandatory review: https://about.gitlab.com/handbook/legal/materials-legal-review-process/#mandatory-review -->
     - yes <!-- if yes, identify the type of material from the list of materials subject to mandatory review -->
     - no
-    
+
     ## Does the material comply with the [SAFE Framework](/handbook/legal/safe-framework/) and the [Guidelines for Use of Third-party IP in External Materials](/handbook/legal/ip-public-materials-guidelines/)?
     <!-- Delete as appropriate -->
     - yes
     - no
     - I'm not sure
-    
+
     ## If the material is not subject to mandatory review and complies with the SAFE Framework and IP Guidelines, legal review is not mandatory. However, if you have specific questions regarding the material, set those out here, identifying the aspect(s) of the material to which the questions relate.
     <!-- if the materials are subject to mandatory review, or do not comply with the SAFE Framework or IP Guidelines, skip to the next question -->
-    
+
     ## Due date for review
     <!-- State the due date for review, noting that the Legal & Corporate Affairs Team requires at least two business days to complete a review. See note above under Turnaround Time regarding the two business day review cycle. -->
     ```
@@ -127,7 +129,7 @@ Follow this process to obtain legal review of a **single piece of material**. A 
 
 1. Once legal review of the amended material is complete, a [Legal & Corporate Affairs Team member](/handbook/company/team/?department=legal-corporate-affairs) will once again tag the issue creator and comment `Legal review complete`.
 
-----
+---
 
 ## Track 2 Multiple materials legal review process
 

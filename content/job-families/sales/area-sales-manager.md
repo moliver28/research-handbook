@@ -156,7 +156,7 @@ The Senior Area Sales Manager is a [grade 9](/handbook/total-rewards/compensatio
 
 ## Performance Indicators
 
-[Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary)
+[Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary)
 
 ## Career Ladder
 

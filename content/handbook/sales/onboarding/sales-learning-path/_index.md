@@ -17,7 +17,8 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 <details>
 <summary markdown="span">1. Welcome to GitLab Sales!</summary>
 
-### 1. Welcome to GitLab Sales!
+### 1. Welcome to GitLab Sales
+
 - **ACTIVITY: Let's Git To Know Each Other! (Assignment, 5 minutes, 1 Point - Pre Work)**
    - Please complete this brief [google form](https://docs.google.com/forms/d/e/1FAIpQLScXH3QSAcqUP4mRJsqUWbn7BUJS_SYJVjFg2oXqOoOwzBMzLA/viewform) to introduce yourself.
 - **What is GitLab? (Material - Video, 31 Minutes)**
@@ -44,6 +45,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 <summary markdown="span">2. DevOps Technology Landscape</summary>
 
 ### 2. DevOps Technology Landscape
+
 - **DevOps Technology Landscape**
    - Please click on the link below and go through the course modules.
    - [DevOps Technology Landscape](https://gitlabfieldenablement.s3.us-east-2.amazonaws.com/DevOps+Technology+Landscape+-+Storyline+output/story.html)
@@ -63,6 +65,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 <summary markdown="span">3. Our Customers</summary>
 
 ### 3. Our Customers
+
 - **Our Customers**
    - Please click on the link below and go through the course modules.
    - [Our Customers](https://gitlabfieldenablement.s3.us-east-2.amazonaws.com/Our+Customers+-+Storyline+output/story.html)
@@ -81,6 +84,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 <summary markdown="span">4. Our Portfolio</summary>
 
 ### 4. Our Portfolio
+
 - **Our Portfolio**
    - Please click on the link below and go through the course modules.
    - [Our Portfolio](https://gitlabtrainingcontent.s3-us-west-2.amazonaws.com/GitLab+Field+Enablement+Our+Portfolio+-+Storyline+output/story.html)
@@ -120,8 +124,8 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 <details>
 <summary markdown="span">5. Field Roles & Expectations</summary>
 
-
 ### 5. Field Roles & Expectations
+
 - **Sales Roles (Material, - Handbook - 30 minutes)**
    - Review the sales roles based on the customer segment you will cover.
    - Read the [Handbook](/handbook/sales/)
@@ -132,7 +136,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 - **Solutions Architects (Material - Handbook - 15 minutes)**
    - GitLab's Solutions Architects (SAs) are trusted advisors to GitLab prospects and customers during the presales motion, demonstrating how the GitLab application and GitLab Professional Services address common and unique business requirements.
    - Read the [Solutions Architect Role Description](/job-families/sales/solutions-architect/)
-   - Read about the [Proof of Value Deliverable](/handbook/customer-success/solutions-architects/tools-and-resources/pov)
+   - Read about the [Proof of Value Deliverable](/handbook/solutions-architects/tools-and-resources/pov)
 - **Customer Success Managers (Material, - Handbook - 15 minutes)**
    - GitLab's Customer Success Managers serve as trusted advisors to GitLab's customers. This section outlines to CSM role and their key deliverables: Health Checks, Sucess Plans, and Executive Business Reviews.
    - Read the [CSM Handbook](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm)
@@ -148,11 +152,11 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 
 </details>
 
-
 <details>
 <summary markdown="span">6. Sales Process</summary>
 
 ### 6. Sales Process
+
 - **Command of the Message Intro Course (Assignment - 2 Hours - 10 Points - Pre Work)**
    - Please complete the Command of the Message learning path.
    - Time to complete is approximately 1.5 hours
@@ -173,11 +177,11 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 
 </details>
 
-
 <details>
 <summary markdown="span">7. Our Competition</summary>
 
 ### 7. Our Competition
+
 - **The Industry In Which GitLab Competes (Material - Video - 11 Minutes)**
    - Sid Sijbrandij, CEO of GitLab, discusses the overall industry where GitLab competes.
    - [You Tube - The Industry GitLab Competes In](https://www.youtube.com/watch?v=qQ0CL3J08lI)
@@ -201,11 +205,11 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 
 </details>
 
-
 <details>
 <summary markdown="span">8. Tools to Get Your Job Done</summary>
 
 ### 8. Tools to Get Your Job Done
+
 - **Using GitLab: The Basics (Material - Handbook - 45 minutes)**
    -This module includes information to help you learn GitLab, and walks you through Projects, Issues, Merge Requests, Pipelines, Settings, User & Admin Area. It includes the Git Basics Training commonly delivered to customers by Professional Services and documentation to help you feel more comfortable with using GitLab.
    -[Learning GitLab with Git Basics](https://gitlab-training.gitlab.io/basics/deck/both.html#/1)
@@ -233,6 +237,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 <summary markdown="span">9. Sales and Customer Success Support</summary>
 
 ### 9. Sales and Customer Success Support
+
 - **The Product Teams (Material - Handbook - 60 minutes)**
    -Review the Product Stages Handbook page to see who you should reach out if you have questions or need assistance with a [particular product.](/handbook/product/categories/)
 - **The GitLab Legal Team (Material - Handbook - 10 Minutes)**
@@ -275,6 +280,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 <summary markdown="span">In-Class Assignments</summary>
 
 ### In-Class Assignments
+
 - **Essential Questions Exercise (Assignment - 30 Minutes - 10 Points - In-Class)**
    - Please work in small groups to answer the questions on the [attached document.](https://docs.google.com/document/d/1XvFKnDdueKeUhdk-x9vp9_ASS1rHIPmFhN63z0wlZcs/edit?usp=sharing)
 - **Value Card Exercise - Group Activity (Assignment - 30 Minutes - 10 Points - In-Class)**
@@ -293,8 +299,8 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 <details>
 <summary markdown="span">Course Evaluation & Feedback</summary>
 
-
 ### Course Evaluation & Feedback
+
 - Every participant is asked to please let us know how we can do better by taking [this brief survey](https://docs.google.com/forms/d/e/1FAIpQLSch3PLSzmoPUCSyhHUVwUfFSSPwiVGl2lAhRIc_bCmqZ6us6g/viewform?usp=sf_link)
 
 </details>
@@ -305,6 +311,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 <summary markdown="span">Technical Deep Dive (SA, CSM, and PSE ONLY</summary>
 
 ### 12. Technical Deep Dive (SA, CSM, and PSE ONLY)
+
 - **GitLab Ultimate Demo (Material - Video - 60 minutes)**
    -Review the [GitLab Ultimate Demo](https://chorus.ai/meeting/1837148?tab=summary&call=5E63AE4EDCAD4960A59BEBBEF4CEE1BF)
 - **Auto DevOps (Material - GitLab Docs - 15 minutes)**
@@ -340,12 +347,11 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 
 </details>
 
-
 <details>
 <summary markdown="span">Integrations (SA, CSM, and PSE Only)</summary>
 
-
 ### 13. Integrations (SA, CSM, and PSE Only)
+
 - **Category Overview**
    - GitLab's vision is to be the best single application for every part of the DevOps toolchain. However, some customers use tools other than our built-in features–and we respect those decisions. The Integrations category was created specifically to better serve those customers. Currently, GitLab offers [30+ project services](https://docs.gitlab.com/ee/user/project/integrations/project_services.html#project-services) that integrate with a variety of external systems. Integrations are a high priority for GitLab, and the Integrations category was established to develop and maintain these integrations with key 3rd party systems and services.
 - **Jira**
@@ -364,6 +370,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 <summary markdown="span">SAs Only: Set Up Your Demo Environment</summary>
 
 ### 14. SAs Only: Set Up Your Demo Environment
+
 - **ACTIVITY: Obtain Gold Level Access to Enable All Features on GitLab.com (Assignment - 15 minutes - 10 points)**
    -An [example request](https://gitlab.com/gitlab-com/support/internal-requests/issues/310)
 - **ACTIVITY: Create a demo account on gitlabdemo.com (Assignment - 10 points)**
@@ -394,13 +401,13 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 
 ### 15. CSMs Only: Certifications to Complete and Lifecycle Processes
 
-#### Certifications:
+#### Certifications
 
 1. Success Plans
 1. Executive Business Reviews
 
-
 #### Customer Onboarding
+
 - **Customer Onboarding (Material - Handbook and Video - 60 Minutes)**
    - Customer on-boarding is a 45 day time period. Customer Success Managers and Professional Services Engineers should work closely together throughout the on-boarding process, with support from Solutions Architects and Strategic Account Leaders/Account Managers where appropriate. The Customer Kickoff is a moment that matters in the customer's journey. Below are resources you should familiarize yourself with as you get ready to start interacting with customers.
    - [Customer Onboarding](/handbook/customer-success/csm/onboarding/)
@@ -416,6 +423,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 <summary markdown="span">PSEs Only: Statement of Work</summary>
 
 ### 16. PSEs Only: Statement of Work
+
 - **The Statement of Work (SOW) Process (Material - Handbook - 20 minutes)**
    - Review the SOW Creation Process, and review the below reference deck for details on creating a Professional Services SOW.
    - [Workflow for the SOW](/handbook/customer-success/professional-services-engineering/selling/)

@@ -104,5 +104,3 @@ puts the sales team in the cc to avoid creating duplicate tickets for the Suppor
 
 1. Create an issue and mention someone (Dimitriy, Sytse, Job).
 1. Do not mention customer name but confirm if large, medium, or small, and include URL to Salesforce account.
-
-

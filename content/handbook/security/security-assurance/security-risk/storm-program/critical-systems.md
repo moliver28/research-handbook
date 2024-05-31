@@ -16,7 +16,7 @@ The Critical System Tiering methodology is applicable to all systems utilized ac
 
 |Role|Responsibility|
 |----------|------------------------------|
-|[Security Risk Team](/handbook/security/security-assurance/security-risk/)|Owns the Critical System Tiering Methodology and designates Critical System Tiers for new systems through the [Business Impact Analysis](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/).|
+|[Security Risk Team](/handbook/security/security-assurance/security-risk/)|Owns the Critical System Tiering Methodology and designates Critical System Tiers for new systems through the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/).|
 |[IT Compliance](/handbook/business-technology/it-compliance/)|Supports defining of Critical System Tiers in conjunction with the Security Risk Team when new systems are added to the Tech Stack.|
 |Business/Technical Owners of Systems|Provide complete and accurate data about the systems that they own so that an accurate tier is designated.|
 

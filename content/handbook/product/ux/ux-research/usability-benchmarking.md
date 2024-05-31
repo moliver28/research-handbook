@@ -95,6 +95,7 @@ Here is an example of a singular task as written in the task list:
 #### A note on cut-off time
 
 There isn't a hard and fast rule when it comes to assigning a cut-off time for your tasks. There are a few ways you might do this:
+
 - Time yourself completing the tasks, and, if you're an expert, multiply that by 3 (a [guideline](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5738945/#:~:text=An%20expert%20can%20take%20longer,second%20nature%20for%20an%20expert.&text=For%20routine%20tasks%2C%20experts%20complete,1.3%20to%20multiple%20times%20faster.) for how long a novice might take).
 - Perform a [KLM](https://measuringu.com/predicted-times/) (Keystroke Level Modeling) calculation to get a rough estimate of time on task.
 - Run a pilot without enforcing any cut off. Measure time on task, and use that as a baseline. This comes with some caveats: you should consider adding time to the tasks that your pilot participant completed quickly and possibly subtracting time from the tasks that you felt took too long.
@@ -104,6 +105,7 @@ There isn't a hard and fast rule when it comes to assigning a cut-off time for y
 One way to do weighting is to look at the number of steps necessary in the completion criteria and use that number.  In the example above, note that there are five steps listed in the completion criteria section, and the assigned weight is five. This assigns weight as a proxy for task complexity (which may or may not be appropriate for your study). How you use the weight in your calculations is usually as a multiplier for reporting summative metrics.
 
 As a simple example:
+
  - Take 2 tasks: A and B.
  - The score for task A is a perfect 20/20, and the score for task B is a dismal 10/20.
  - Now, suppose task A has a weight of 1, and task B has a weight of 2. In this case, B should be weighted twice as much as A.

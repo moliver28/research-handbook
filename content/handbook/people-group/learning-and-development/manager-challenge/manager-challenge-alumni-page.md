@@ -47,7 +47,3 @@ Check out the #aspiring-managers Slack channel to learn more about the activitie
 ### Coffee Chat with Manager Challenge Alumni
 
 If you are interested in participating in the [Manager Challenge program]({{< ref "manager-challenge" >}}), feel free to schedule a coffee chat with any of the Manager Challenge alumni. You can review the list of alumni below. The chats are helpful to gain a better understanding of the program, what to expect, and how to participate.
-
-
-
-

@@ -69,8 +69,10 @@ Uploading criteria:
 - **Description:** Repeat the title of the video followed by 3-5 sentences explaining what the viewer is going to learn from the video. If the video is longer than 10 minutes, include timestamps. If the video is referencing a contribution, link to the merge request.
 - **Call to action (CTA):** How-to videos should include a link to https://about.gitlab.com/community/contribute/ in the video description. Creators may choose to include the verbal CTA **“Contribute to GitLab”** at the end of their video.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For community-related videos, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=community&utm_content={{video}}`
+
 1. Right before the question mark at the start of the UTM code, please put the URL to the campaign/landing page to which your CTA is driving, i,e. if this is a video that drives to the top-level community channel, the URL added before the question mark should take you to the Community landing page. For example: `https://about.gitlab.com/community/?&utm_medium=social&utm_source=youtube&utm_campaign=community&utm_content={{video}}` (Here, `{{video}}` should be a short description/title of the video such as `how_to_contribute_meetup`).
 2. Please use a URL shortener, like [bit.ly](https://bitly.com/), once you add the campaign URL to the top of the UTM code sequence in order to avoid posting a clunky web address for your CTA.
+
 - **Meta Tags:** Tag your video with the appropriate meta tags, including the keyword of the video. Other tags you might include on a how-to video are: open source, beginner, coding, tutorial, community, open soure community, and GitLab.
 
 ### Interviews & Panel Discussions
@@ -83,8 +85,10 @@ Uploading criteria:
 - **Description:** Repeat the title of the video followed by the names and titles of the interviewee or panel members and 3-5 sentences explaining the key points of the discussion. Include timestamps if the video is over 10 minutes long.
 - **Call to action:** Interview/panel style videos should include a link to https://about.gitlab.com/community/heroes/ in the video description. Creators may choose to include the verbal CTA **“Become a GitLab Hero”** at the end of their video.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For community-related videos, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=community&utm_content={{video}}`
+
 1. Right before the question mark at the start of the UTM code, please put the URL to the campaign/landing page to which your CTA is driving, i,e. if this is a video that drives to the top-level community channel, the URL added before the question mark should take you to the Community landing page. For example: `https://about.gitlab.com/community/?&utm_medium=social&utm_source=youtube&utm_campaign=community&utm_content={{video}}` (Here, `{{video}}` should be a short description/title of the video such as `how_to_contribute_meetup`).
 2. Please use a URL shortener, like [bit.ly](https://bitly.com/), once you add the campaign URL to the top of the UTM code sequence in order to avoid posting a clunky web address for your CTA.
+
 - **Meta Tags:** Tag your video with the appropriate meta tags, including the keyword of the video. There may be multiple keywords associated with this style of video, depending on the topics covered. Tag the video with all relevant keywords. Other tags you might include on an interview/panel discussion video are: open source, GitLab, how-to, how to, Q&A, conversational, and DevOps.
 
 ### Recordings from Hackathons
@@ -95,8 +99,10 @@ Hackathon recordings are most often un-edited recordings of live sessions held d
 - **Description:** Repeat the title of the video followed by 3-5 sentences explaining what is covered in the video. For Hackathon videos, include the date of the Hackathon. If there was an agenda for the meeting, include it in the description. If merge requests are mentioned in the video, link to them in the issue description.
 - **Call to action (CTA):** Hackathon recordings should include a link to https://about.gitlab.com/community/hackathon/ in the issue description. Creators may choose to include the verbal CTA “Join our next Hackathon” at the end of their video.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For community-related videos, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=community&utm_content={{video}}`
+
 1. Right before the question mark at the start of the UTM code, please put the URL to the campaign/landing page to which your CTA is driving, i,e. if this is a video that drives to the top-level community channel, the URL added before the question mark should take you to the Community landing page. For example: `https://about.gitlab.com/community/?&utm_medium=social&utm_source=youtube&utm_campaign=community&utm_content={{video}}` (Here, `{{video}}` should be a short description/title of the video such as `how_to_contribute_meetup`).
 2. Please use a URL shortener, like [bit.ly](https://bitly.com/), once you add the campaign URL to the top of the UTM code sequence in order to avoid posting a clunky web address for your CTA.
+
 - **Meta Tags:** Tag your video with the appropriate meta tags, including the keyword of the video. There may be multiple keywords associated with this style of video, depending on the topics covered. Tag the video with all relevant keywords. Other tags you might include on a Hackathon video are: tutorial, office hourse, and hackathon.
 
 ### Meetups
@@ -107,8 +113,10 @@ Meetups are events that are organized by the GitLab community.
 - **Description:** Repeat the title of the video followed by 3-5 sentences explaining what is covered in the video and include the event date. If merge requests, documentation or a meeting agenda or deck are available, please link to that information in the video description.
 - **Call to action (CTA):** Meetup recordings should include a link to https://about.gitlab.com/community/meetups/ in the issue description. Creators may choose to include the verbal CTA “Become a meet-up host” at the end of their video.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For community-related videos, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=community&utm_content={{video}}`
+
 1. Right before the question mark at the start of the UTM code, please put the URL to the campaign/landing page to which your CTA is driving, i,e. if this is a video that drives to the top-level community channel, the URL added before the question mark should take you to the Community landing page. For example: `https://about.gitlab.com/community/?&utm_medium=social&utm_source=youtube&utm_campaign=community&utm_content={{video}}` (Here, `{{video}}` should be a short description/title of the video such as `how_to_contribute_meetup`).
 2. Please use a URL shortener, like [bit.ly](https://bitly.com/), once you add the campaign URL to the top of the UTM code sequence in order to avoid posting a clunky web address for your CTA.
+
 - **Meta tags:** Tag your video with the appropriate meta tags, including the keyword of the video. There may be multiple keywords associated with this style of video, depending on the topics covered. Tag the video with all relevant keywords. Other tags you might include on a meetup video are: meetup, DevOps, and open source.
 
 ## Distribution
@@ -126,6 +134,6 @@ Here are some possible avenues of promotion for your video:
 1. Featured in GitLab event follow up email/s (DRI must create issue to enable this step)
 1. Consideration for featuring in GitLab Community video band
 
-----
+---
 
 Return to the main [Inbound Marketing Handbook](/handbook/marketing/inbound-marketing/).

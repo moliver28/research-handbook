@@ -61,6 +61,6 @@ Here are some of the key factors that make all-remote work possible:
 1. Increasing traffic congestion in cities
 1. More demand for flexibility from new professionals entering the workforce
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -69,7 +69,7 @@ Plan issues are opened in the [production](https://gitlab.com/gitlab-com/gl-infr
 
 To open the change management issue from Slack issue the following slash command:
 
-```
+```text
 /change declare
 ```
 

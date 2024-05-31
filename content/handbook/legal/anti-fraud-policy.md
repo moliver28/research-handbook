@@ -6,7 +6,6 @@ description: "GitLab's Anti-Fraud Policy"
 - **Effective Date:** October 3, 2022
 - **Approved By:** Robin Schulman, Chief Legal Officer, Head of Corporate Affairs, and Corporate Secretary
 
-
 GitLab Inc. (collectively with its subsidiaries, “***GitLab***”, “***we***”, “***our***”) is committed to the highest standards of legal and ethical business conduct and has long operated its business consistent with written operating principles and policies that reinforce this commitment. In furtherance of those standards, this Anti-Fraud Policy (this “***Policy***”) applies to all officers, employees and direct and indirect contractors of GitLab and of its direct and indirect subsidiaries (“***Team Members***”). Compliance with this Policy is mandatory for every Team Member and member of GitLab’s Board of Directors (“***Director***”). In addition to this Policy, Team Members and Directors are subject to and must comply with other policies (including GitLab’s Code of Business Conduct and Ethics for Directors, Officers, Employees and Contractors (the “***Code of Business Conduct and Ethics***”) and programs of GitLab, as applicable. We expect each Team Member and Director to read and become familiar with this Policy. Violations of the law, our corporate policies, or this Policy may result in disciplinary action, including dismissal.
 
 ### INTRODUCTION

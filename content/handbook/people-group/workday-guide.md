@@ -115,7 +115,6 @@ Modules/functionality being implemented:
 | ------ |
 | Talent Assessment Tool, Compaas (Compensation planning tool), PlanSource, Time Off by Deel, Internal Employment Automations |
 
-
 ### Phase 3
 
 *Subject to change*
@@ -126,7 +125,6 @@ Modules/functionality being implemented:
 
 - Continuation of absence management plans
 - Benefits - Canada Only
-
 
 | Workday will replace |
 | ------ |

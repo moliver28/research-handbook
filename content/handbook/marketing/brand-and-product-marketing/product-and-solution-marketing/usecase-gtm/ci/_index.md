@@ -9,7 +9,7 @@ title: "DevOps Solution Resource: Continuous Integration"
 
 
 
-# Looking for a customer-facing overview of GitLab's Continuous Integration (CI) capabilities? See the [CI Solution](https://about.gitlab.com/features/continuous-integration/).
+## Looking for a customer-facing overview of GitLab's Continuous Integration (CI) capabilities? See the [CI Solution](https://about.gitlab.com/features/continuous-integration/)
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
@@ -19,7 +19,7 @@ The page below is intended to align GitLab sales and marketing efforts with a si
 | ---- | --- |
 | Daniel Hom (@danielhom) | Itzik Gan-Baruch ( @iganbaruch ) |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Continuous Integration
 
@@ -28,6 +28,7 @@ The Continuous Integration (CI) use case is a staple of modern software developm
 When practicing CI, teams collaborate on projects by using a shared repository to store, modify and track frequent changes to their codebase. Developers check in, or integrate, their code into the repository multiple times a day and rely on automated tests to run in the background. These automated tests verify the changes by checking for potential bugs and security vulnerabilities, as well as performance and code quality degradations. Running tests as early in the software development lifecycle as possible is advantageous in order to detect problems before they intensify.
 
 CI makes software development easier, faster, and less risky for developers. By automating builds and tests, developers can make smaller changes and commit them with confidence. They get earlier feedback on their code in order to iterate and improve it quickly increasing the overall pace of innovation. Studies done by DevOps Research and Assessment (DORA) have shown that [robust DevOps practices lead to improved business outcomes](https://cloud.google.com/devops/state-of-devops/). All of these "DORA 4" metrics can be improved by using CI:
+
 - **Lead time:** Early feedback and build/test automation help decrease the time it takes to go from code committed to code successfully running in production.
 - **Deployment frequency:** Automated build and test is a pre-requisite to automated deploy.
 - **Time to restore service:** Automated pipelines enable fixes to be deployed to production faster reducing Mean Time to Resolution (MTTR)
@@ -86,7 +87,7 @@ Examples of comparative research for this use case are listed just below. Additi
 | 11) Elastic scalability | The solution supports elastic scaling leveraging well understood, third-party, mechanisms whenever possible. Supports build scalability around existing native per-cloud and per-virtual environment vendor capabilities since they represent already debugged code for a complex problem, and the customers architects/operators are much more likely to be familiar with these mechanisms in their chosen infrastructure/cloud provider. | Supports ephemeral provisioning. Utilizes strong Kubernetes integration at-scale or supports non-Kubernetes scaling options. For example, use AWS Autoscaling Groups in AWS, GCP scaling in GCP, and Azure Autoscale in Azure. | Faster and more efficient. Reduce infrastructure overhead with on-demand resources. Provides flexibility to scale large workloads using popular cloud providers. |
 | 12) Artifact and dependency management | The solution allows for easy management of outputs and binaries from the build/test process. Manage repos, application packages, and containers with visibility into their dependencies. | View and download artifacts. Modify, store, and share images. Support for a wide range of common package formats and third-party integrations. Can be used on-prem or in the cloud. | Streamlines your CI/CD workflow and speeds up development. |
 
-# The GitLab Solution
+## The GitLab Solution
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/ljth1Q5oJoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -168,6 +169,7 @@ The sample discovery questions below are meant to provide a baseline and help yo
 - Would you be open to scheduling a follow-up call to discuss more about what GitLab CI can do for you and your team?
 
 #### Additional Discovery Questions
+
 - Has there been any discussion to standardize on a single solution for CI since you’re already using GitLab for other needs?
 - What is your strategy around improving CI/CD?
 - Would it be valuable to have your CD solution use the same configuration and format as your CI, AND have visibility into the full product pipeline from idea to production?
@@ -242,7 +244,6 @@ Amongst the many competitors in the DevOps space, Jenkins and CircleCI are the c
 
 > - [Gartner Peer Insights 'Voice of the Customer' Application Release Orchestration 2020](https://about.gitlab.com/analysts/gartner-votc20/)
 
-
 ### Blogs
 
 #### [Jaguar Land Rover](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/)
@@ -258,7 +259,6 @@ Amongst the many competitors in the DevOps space, Jenkins and CircleCI are the c
 - **Solution:** Premium (CI)
 - **Result:** Less than 8 minutes total from commit to build, test and generate artifacts
 - **Sales Segment:** Enterprise
-
 
 ### Case Studies
 
@@ -309,7 +309,7 @@ This table shows the recommended features to adopt, links to product documentati
 | Feature                                           | F  | P  | U  | Service Ping metrics | Notes |
 | ------------------------------------------------------------ | -----| ---- | ---- | --------- | ---- |
 | [Try Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/#quick-start)  |   x    |   x   |  x    |     instance_auto_devops_enabled and counts.ci_pipeline_config_auto_devops       |    |
-| [Enable shared runners](https://docs.gitlab.com/ee/ci/runners/)  |   x    |   x   |   x   |   gitlab_shared_runners_enabled        |
+| [Enable shared runners](https://docs.gitlab.com/ee/ci/runners/)  |   x    |   x   |   x   |   gitlab_shared_runners_enabled        ||
 | Enable [container registry](https://docs.gitlab.com/ee/administration/packages/container_registry.html#enable-the-container-registry) across instance  |   x    |  x   |   x   |   container_registry_enabled        |   GitLab.com container registry enabled at [Group level](https://docs.gitlab.com/ee/user/packages/container_registry/index.html#control-container-registry-for-your-group)  |
 | Build [Instance Template Repository](https://docs.gitlab.com/ee/administration/settings/instance_template_repository.html)  |       |   x    |  x     |     counts.template_repositories      |     |
 | Create [custom instance-level project templates](https://docs.gitlab.com/ee/administration/custom_project_templates.html) |       |   x   |  x    | counts.ci_pipeline_config_repository   |GitLab.com can utilize [group-level project templates](https://docs.gitlab.com/ee/user/group/custom_project_templates.html)  |
@@ -371,10 +371,12 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 
 **Why choose GitLab Premium for CI?**
 As you scale CI throughout your organization and onboard additional teams, GitLab Premium unlocks a faster path to value for any number of teams with expert support, advanced configurations, and consistent standards.
+
 - Gain peace of mind: take advantage of enterprise level priority support, including 24/7 uptime support, a named Customer Success Manager (CSM), and upgrade assistance.
 - Reliability and compliance: get the ability to [audit logs](https://docs.gitlab.com/ee/administration/audit_events.html), [auditor users](https://docs.gitlab.com/ee/administration/auditor_users.html), and have an actionable [disaster recovery strategy](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html) with support for [High Availability](https://docs.gitlab.com/ee/administration/reference_architectures/).
 
 **Key features with Premium:**
+
 - [Multi Project Pipelines](https://docs.gitlab.com/ee/ci/multi_project_pipelines.html)- link CI pipelines from multiple projects.
 - [Operations dashboard](https://docs.gitlab.com/ee/user/operations_dashboard/index.html#doc-nav)- get a holistic view of the overall health of CI/CD pipelines and organization wide operations.
 - [Browser Performance Testing](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html)- detect performance regressions within your applications.
@@ -384,11 +386,13 @@ As you scale CI throughout your organization and onboard additional teams, GitLa
 
 **Why choose GitLab Ultimate for CI?**
 Achieve advanced DevOps maturity with executive visibility, deeper insights/analytics around usage, and additional capabilities to keep your environments secure and compliant across the board.
+
 - Enterprise-grade priority support, including 24/7 uptime support, a named Customer Success Manager (CSM), and upgrade assistance are all still included with Gold/Ultimate.
 - Embed security and compliance into your CI Pipelines.
 - Protect your IP and get access to free guest users.
 
 **Key features with Ultimate:**
+
 - [Static Application Security Testing](https://docs.gitlab.com/ee/user/application_security/sast/)- check for potential security issues by evaluating static code.
 - [Dynamic Application Security Testing](https://docs.gitlab.com/ee/user/application_security/dast/)- analyze review applications to identify potential security issues.
 - [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/)- evaluate third-party dependencies to identify potential security issues.
@@ -409,18 +413,22 @@ Check out this introductory video to learn the basics of CI/CD as software devel
 <!-- blank line -->
 
 ### Presentations
+
 - [Why CI/CD?](https://docs.google.com/presentation/d/1OGgk2Tcxbpl7DJaIOzCX4Vqg3dlwfELC3u2jEeCBbDk)
 
 ### Continuous Integration Videos
+
 - [CI/CD with GitLab](https://youtu.be/1iXFbchozdY)
 - [GitLab for complex CI/CD: Robust, visible pipelines](https://youtu.be/qy8A7Vp_7_8)
 - [How do Runners work?](https://youtu.be/IsthhMm64u8)
 
 ### Integrations Demo Videos
+
 - [Migrating from Jenkins to GitLab](https://youtu.be/RlEVGOpYF5Y)
 - [Using GitLab CI/CD pipelines with GitHub repositories](https://youtu.be/qgl3F2j-1cI)
 
 ### Clickthrough & Live Demos
+
 - [Live Demo: GitLab CI/CD Deep Dive](https://youtu.be/pBe4t1CD8Fc)
 
 ## Buyer's Journey
@@ -429,6 +437,6 @@ Inventory of key pages in the buyer's Journey
 
 | **Awareness** <br> learning about the problem  |  **Consideration** <br> looking for solution ideas  |  **Decision** <br> is this the right solution|
 | ------ | -------- |-------- |
-| [topic page?]()  | [solution page]() | [proof points]() |
-| [landing pages?]() | ?comparisons?  | [comparisons]() |
-| -etc?            |   |  - [product page x]() <br>  - [product page y]() <br>  - [product page z]() |
+| topic page?  | solution page | proof points |
+| landing pages? | ?comparisons?  | comparisons |
+| -etc?            |   |  - product page x <br>  - product page y <br>  - product page z |

@@ -1,10 +1,7 @@
 ---
-aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/k8s-release-support-policy.html
-
+aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/workflow/k8s-release-support-policy.html
 title: "Distribution Team Kubernetes and OpenShift release support policy"
 ---
-
-# Kubernetes and OpenShift releases support policy
 
 The Distribution team's support policy for various Kubernetes and OpenShift
 releases for the GitLab Helm chart and Operator.

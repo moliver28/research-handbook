@@ -1,5 +1,5 @@
 ---
-title: People Group
+title: People Group Spotlight program
 description: >-
   An overview of the People Group Spotlight program.
 ---
@@ -14,7 +14,6 @@ The purpose of these spotlights are to further our goal of "one team" by:
 1. Increasing awarness of what teams across the People Group are working on
 1. Creating deeper connection amongst People Group team members
 
-
 ## What to expect
 
 Starting in October 2023, you'll see People Group Spotlights shared in 2 formats:
@@ -27,4 +26,3 @@ Starting in October 2023, you'll see People Group Spotlights shared in 2 formats
 ## Questions
 
 If you have questions or suggestions for People Group Spotlights, please reach out to Samantha Lee or Liam McNally.
-

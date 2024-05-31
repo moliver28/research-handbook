@@ -3,7 +3,7 @@ title: "Partner Facilitator Guide for GitLab with Git Essentials"
 description: "This Facilitator Guide is intended to walk you through all important links, preparation items, and after class items for our GitLab with Git Essentials course."
 ---
 
-# GitLab with Git Essentials Facilitator Guide for Partners
+## GitLab with Git Essentials Facilitator Guide for Partners
 
 ## Important Links
 

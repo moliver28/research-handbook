@@ -18,7 +18,6 @@ On this page you will be provided an overview of the Diversity, Inclusion & Belo
 | Jun | [Published DIB Advisory Group Goals]({{< ref "influencer-group-guide" >}}) |
 | Aug | Published 2021 DIB survey results to the company |
 
-
 ## Summary of Events for 2020
 
 | Month    | Events                                                          |
@@ -46,7 +45,6 @@ On this page you will be provided an overview of the Diversity, Inclusion & Belo
 |          | [Coming Out Day Panel Discussion - Hosted by GitLab Pride TMRG](https://www.youtube.com/watch?v=OUKWs6hkMQY&feature=youtu.be)   |
 |          | Hired additional DIB Team Member - [Liam McNally](/handbook/company/team/#lmcnally1)                             |
 
-
 ## Summary of Events for 2019
 
 | Month    | Events                                                         |
@@ -62,7 +60,7 @@ On this page you will be provided an overview of the Diversity, Inclusion & Belo
 |          | [GitLab DiversABILITY]({{< ref "erg-gitlab-diversability" >}}) launched                                  |
 |          | [GitLab Women]({{< ref "tmrg-gitlab-women" >}}) launched                                         |
 |          | [DIB Advisory Group launched]({{< ref "advisory-group-members" >}})                                    |
-| Sep | [DIB Advisory Group Guidelines]({{< ref "influencer-group-guide" >}}) published
+| Sep | [DIB Advisory Group Guidelines]({{< ref "influencer-group-guide" >}}) published |
 |          | [Published TMRG Guidelines]({{< ref "erg-guide" >}})                                       |
 |          | [DIB Framework](https://docs.google.com/presentation/d/1OMgmYc52J02PWacw72ZM_c-R6FYni-BibAhfV514KcQ/edit?usp=sharing)                                                  |
 | Oct | [Slack Channels for all TMRGs and DIB Advisory Group added]({{< ref "inclusion#ergs---employee-resource-groups" >}})       |

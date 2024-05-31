@@ -91,11 +91,6 @@ The Deal Desk Analyst is a [grade 6](/handbook/total-rewards/compensation/compen
   - Efficiency in resolving issues
   - Transparency in addressing ongoing problems, SLAs, and field expectations
 
-
-
-
-
-
 ## Deal Strategist
 
 The Deal Strategist reports to the Manager, Deal Desk.
@@ -270,13 +265,7 @@ The Senior Director, Deal Desk is a [grade 11](/handbook/total-rewards/compensat
 - Strong emotional intelligence and experience in multi-layered people management
 - Strong executive presence, ability to tell a story from data but also be succinct
 
-
-
-
-
 ## Specialties
-
-
 
 ## Performance Indicators
 

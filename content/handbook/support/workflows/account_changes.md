@@ -98,7 +98,6 @@ Check the user's activity page:
 1. Advise the customer to add the newly released email address again to their primary account.
 1. Consider commenting on [this feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/352514)
 
-
 ## Change primary email address of enterprise users
 
 Enterprise users [cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/ee/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains. An enterprise user or a top level group owner can reach out to Support to request primary email address change.
@@ -133,15 +132,16 @@ Enterprise users have user accounts that are administered by an organization tha
 > Greetings,
 >
 > Your account is an enterprise user account, [enterprise users cannot modify their primary email address to an email with a non-verified domain](https://docs.gitlab.com/ee/user/enterprise_user/#primary-email-change). An enterprise user can only change their primary email to an email their organization owns as per its verified domains.
-> Updating your primary email address to an email with a non-verified domain will automatically disassociates you from your enterprise group.
+> Updating your primary email address to an email with a non-verified domain will automatically disassociate you from your enterprise group.
 >
 > If you still wish to update your primary email, address please note it will require involvement of a top level group owners. Please let us know if you wish to proceed.
 
-1. If they answer that they wish to procceed, use the [Account Ownership Verification workflow](/handbook/support/workflows/account_verification) to verify ownership.
+1. If they answer that they wish to proceed, use the [Account Ownership Verification workflow](/handbook/support/workflows/account_verification) to verify ownership.
 
 1. Ask manager approval to proceed if the primary email is the only verified email (skip this step if it's an email swap request).
 
 1. If successful, contact Owner:
+
 - Create a new Zendesk ticket with the top level group owner’s email address as the requester (found in admin) by following [this specific workflow to create ticket and user](/handbook/support/readiness/operations/docs/zendesk/tickets/#creating-tickets-for-outbound-requests)
 - Apply the macro `General::Outbound Contact Request` that ensure the new ticket routes properly and the end-user we wish to contact receives the correct notification.
 - Copy the snippet below and mark the ticket as `On-hold`:
@@ -156,6 +156,7 @@ Enterprise users have user accounts that are administered by an organization tha
 - If the group contains multiples owners, choose one owner (preferably an existing support contact) as the requester and CC the others. Limit to 5 owners if more (you can pick the owners that have the most recent Last activity in the page `https://gitlab.com/groups/<group_name>/-/group_members` or/and the owner(s) that is(are) listed as Source).
 
 1. Requester’s Ticket:
+
  - Add as an internal comment the ticket created above.
  - Reply to the requester with the snippet below and mark the ticket as `On-hold`.
 
@@ -212,7 +213,6 @@ Account Ownership Change Requests are initiated when the sole Owner of a group l
 1. Using a GitLab `Admin Account`, go to the requestor's 'Namespace - Group - Members' section.
 1. Search for the member by name or email address; in the `Max role` column, change the requestor's role to `Owner`.
 1. If the requestor is not a member of the group, then press the `Invite members` button at the top right, enter the requestor's email address, and set the role to `Owner`. Press the `Invite` button to save your changes.
-
 
 ## How is permission given for troubleshooting?
 

@@ -151,7 +151,6 @@ The above text will be automatically added as a comment to "bad" reviews. You mi
 
 If no action needs to be taken, and the customer does not need to be contacted to discuss the ticket, `/close` the Feedback Issue.
 
-
 #### When you see "bad" feedback on an apparently successful ticket
 
 Sometimes, when you review the ticket, you will see that the ticket seems to have been resolved successfully. The customer may have even said something like "thank you, you can close the ticket". We strongly encourage you to [contact the customer](#if-the-customer-should-be-contacted) when this happens. If the ticket is still in `Solved` (but not `Closed`) status, the customer can change their rating, if they did not mean to mark it "bad".

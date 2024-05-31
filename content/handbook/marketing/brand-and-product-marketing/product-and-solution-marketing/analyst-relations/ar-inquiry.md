@@ -87,6 +87,3 @@ title: "Industry Analyst Relations Inquiry"
 - On Videoconferencing for inquiries:
     - Gartner and Forrester currently and consistently use Webex to deliver their interactions, including inquiry. Either Gartner or Forrester will provide a Webex link as it confirms the inquiry. You must use this. Please remind GitLab team members of the need to use the analyst company Webex in advance if they are participating and/or planning to demo something. In our experience GitLab team members may require a little extra time to download and install Webex software and/or updates, test that all equipment is functioning with Webex, and otherwise adjust to the Webex service performance which also in our experience has not been as consistent as Zoom.
     - IDC/Redmonk/451 are usually ok with using a GitLab-provided Zoom. Sometimes they also provide their own Zoom links Please check with any new analyst that this is okay. If we do use a Zoom, we need to send that to the scheduling entity and they will update the analyst's internal invitation.
-
-
-

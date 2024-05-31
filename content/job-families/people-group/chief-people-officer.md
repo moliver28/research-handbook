@@ -56,7 +56,7 @@ Values
 All-remote
 
 - We're able to hire team members across the globe. Part of your role will involve discovering approaches that help us hire team members in as many locations around the world as possible.
-- You'll help reinforce our [communication guidelines](/handbook/communication/). As you'll see, our approach to communication is unique and you'll need to be comfortable adapting your own style.  
+- You'll help reinforce our [communication guidelines](/handbook/communication/). As you'll see, our approach to communication is unique and you'll need to be comfortable adapting your own style.
 
 Analytical
 
@@ -77,7 +77,7 @@ Other requirements
 - [12 month team member retention](/handbook/people-group/people-group-metrics/#team-member-retention)
 - [12 month voluntary team member turnover](/handbook/people-group/people-group-metrics/#team-member-turnover)
 - [12 month PIP Success Rate](/handbook/people-group/people-group-metrics/#regrettable-attrition)
-- [Discretionary bonus per employee per month](/handbook/incentives/#discretionary-bonuses)
+- [Discretionary bonus per employee per month](/handbook/total-rewards/incentives/#discretionary-bonuses)
 - [Engagement survey inclusion questions](/handbook/company/culture/inclusion/#performance-indicators)
 - [New Hire Location Factor](/#new-hire-location-factor)
 - [Percent of team members over compensation band](/handbook/people-group/people-group-metrics/#percent-over-compensation-band)
