@@ -16,6 +16,14 @@ When using `/security` to engage SIRT:
 - Include a link to the issue or HackerOne report, a summary of what has occurred, and a description of what we are asking SIRT to help with
 - Select the appropriate urgency (see below for some guidelines)
 
+## Situations where SIRT needs to be engaged
+
+- P1 vulnerabilities
+- Publicly known P2 vulnerabilities with a publicly available exploit
+- Secret leaks
+- Vulnerabilities that could result in account takeover
+- Vulnerabilities that lead to customer communications being required in addition the usual processes
+
 ## Urgency guidelines
 
 These are some guidelines for selecting the urgency in the `/security` form:
