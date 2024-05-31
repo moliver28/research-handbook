@@ -72,11 +72,11 @@ The Verify stage is made up of 5 groups:
 
 ### Verify:CI Platform
 
-{{< team-by-manager-role role="Senior Manager(._)Engineering(._)Verify" team="CI Platform" >}}
+{{< team-by-manager-role role="Senior Manager(.*)Verify" team="CI Platform" >}}
 
 ### Verify Engineering Leadership
 
-{{< team-by-manager-role role="Senior Manager(._)Engineering(._)Verify|Engineering Manager(.*)Runner" team="^Runner">}}
+{{< team-by-manager-role role="Senior(.*)Manager(.*)(Verify|Runner)" team="^(CI Platform)">}}
 
 ### Stable Counterparts
 
