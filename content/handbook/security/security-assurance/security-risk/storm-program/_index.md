@@ -117,7 +117,7 @@ To score each risk, we leverage a formula based on the Likelihood of the risk ev
 
 ##### Determining Likelihood of initiation of a threat event
 
-| Qualitative <br> Score | Risk Level	| Scoring Guidelines |
+| Qualitative <br> Score | Risk Level | Scoring Guidelines |
 | :--------------------: | :--------: | ------------------ |
 | 6 | CRITICAL | No expertise required to initiate a threat event |
 | 5 | VERY HIGH | Low level of expertise required to initiate a threat event   |
