@@ -62,14 +62,14 @@ description: "Tableau at GitLab"
 
 ### FY25 Tableau Roadmap
 
-Having completed the migration to Tableau in FY25-Q1, we are now focused on improving the Tableau developer experience and 
+Having completed the migration to Tableau in FY25-Q1, we are now focused on improving the Tableau developer experience and scaling our implementation to stregthen enterprise reporting.
 
 - FY25-Q2 - Establish the framework for the Future State of Tableau, with input from Functional teams
     - Publish the Executive Landing Page to drive users towards critical dashboards
     - Document an approach to Tableau data source creation that promotes single-source-of-truth reporting
-    - Document and implement a user deprovisioning policy & process, in order to free up unused licenses on a set cadence 
+    - Document and implement a user deprovisioning policy & process, in order to free up unused licenses on a set cadence
     - Document the key GTM domain areas that lack single-source-of-truth data sources
-    - Run an assessment of our Tableau environment, using quantitative and qualitative measures 
+    - Run an assessment of our Tableau environment, using quantitative and qualitative measures
         - Data sources (number of data sources that exist, custom SQL vs. table-based, commonly used tables that may indicate an opportunity for data source consolidation, etc.)
         - Dashboards (number of dashboards that exist, distribution of usage, average user views per dashboard, etc.)
         - Users (login frequency, etc.)
@@ -85,13 +85,12 @@ Having completed the migration to Tableau in FY25-Q1, we are now focused on impr
     - Publish X certified Tableau data sources for critical domain areas that require single-source-of-truth data sources
     - Support functional teams in repointing dashboards to leverage certified data sources
     - Refresh assessment of Tableau environment
-- FY25-Q4 - Achieve the following targets (specific numbers will be updated in Q3) 
+- FY25-Q4 - Achieve the following targets (specific numbers will be updated in Q3)
     - Iterate on the BI Enablement charter  
     - Accelerate certified data source creation with support from Functional Analytics teams, publishing X additional certified data sources
     - Repoint X dashboards to leverage certified data sources
     - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of concentrating user views on certified dashboards
     - Refresh assessment of Tableau environment and quantative metrics for Tableau health
-
 
 ## Governance Model
 
