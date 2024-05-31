@@ -167,16 +167,15 @@ Sr. Channel Solutions Manager is responsible for managing the relationship with 
   - Project Coordinator creates a partner and SOW-specific version of the Partner Invoicing SOW Consulting Funds Tracker within the applicable partner G-Drive folder.
   - Sr. Channel Solutions Manager sends a copy of the fully executed Prime Partner SOW to the partner.
 
-The Project Coordinator reviews the internal capacity first prior to outsourcing to out partners for project delivery. Once it is determined that we need to have a partner staff a project, the PC will tag the partner contact in the partner slack channel with the project information. 
+The Project Coordinator reviews the internal capacity first prior to outsourcing to out partners for project delivery. Once it is determined that we need to have a partner staff a project, the PC will tag the partner contact in the partner slack channel with the project information.
 
 After the Project Coordinator works with the partner lead on an agreed project assignment, the Project Coordinator will send the work authorization form for the partner to review and execute via Docusign.
 - Partner responds with candidates and availability
+
         - If Engineer is not vetted, go to Step 2
         - If Engineer is vetted, go to Step 4, activity # 3
 
 The Project Coordinator will track the Work Authorizations against the funding on the Prime Partner SOW.When submitting an update in Zip for our Partner PRIME SOW's, the total agreement amount is $300,000. Once the Partner PRIME PO has been depleted to $60,000, the Project Coordinator assigned to the specific Partner will submit a new purchase order request for $300,000 in Zip.
-
-
 
  **Consulting Work Authorization Form**
 
@@ -195,7 +194,6 @@ The Consulting subcontracting Prime Partner SOW includes a work authorization fo
 **Partner Monthly Invoicing**
 
 Each month end, our partners will submit their invoices for time spent on our projects into the Coupa Procurement System. The PC who originally submitted the PO request within the Procurement System will receive an email notification that there is an invoice waiting for approval.
- 
 
 ### Customer Project Onsite Travel
 
