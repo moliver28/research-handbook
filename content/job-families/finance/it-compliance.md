@@ -181,7 +181,6 @@ Work cross-functionally (both within and outside of IT) to promote and gain prio
 - Maintain relationships with regulatory bodies, industry groups, and other external stakeholders.
 - Participate in industry forums and stay abreast of trends and developments.
 - Coordinate external audits and manage relationships with auditors.
-- 
 
 ### Senior Manager, IT Compliance Requirements
 
@@ -194,7 +193,6 @@ This role includes all of the requirements above, plus:
 - Ability to foster a culture of compliance within the organization.
 - Ability to prepare and present compliance reports to senior management and the board.
 - Strong interpersonal skills to build relationships with internal and external stakeholders.
-
 
 ## Hiring Process
 
