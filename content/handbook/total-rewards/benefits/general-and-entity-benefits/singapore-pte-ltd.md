@@ -22,6 +22,7 @@ Please also view the [Singapore Benefits Aug 2022 Webinar](https://drive.google.
 ### MySingLife Portal and SingLife App
 
 Login to the MySingLife portal or the SingLife App to:
+
 - Submit your claims and view your claims history
 - Find a clinic near you
 - Access your policy details and benefit entitllments on the go
@@ -43,8 +44,6 @@ Effective March 31, 2024, the current Claims system, ClaimsConnect will no longe
 **ClaimsConnect Instructions - no longer valid after March 31, 2024**
 
 Team Members can submit claims through the SingLife ClaimsConnect app. [See instructions](https://drive.google.com/file/d/1hMnxb1yurTpP9dNbpXvC2tyvfEnFny6F/view?usp=sharing) on how to use the app and submit claims. For more details, please refer to slides 34-37 of the [Singapore Benefits Deck](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing)
-
-
 
 For assistance with the ClaimsConnect App, AvivaOnline IT Helpdesk Contact Information:
 

@@ -1,18 +1,19 @@
 ---
-aliases: /handbook/legal/ESG/Team-Member-Sustainability-Guide
+aliases: /handbook/legal/esg/Team-Member-Sustainability-Guide
 title: "Team Member Sustainability Guide"
-description: "GitLab's Team Member Sustainability Guide"
-
+description: "GitLab's Team Member Sustainability Guide for Remote Work"
 ---
+Please contribute your ideas to this guide [here.](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072)
+
 ## Introduction
 
 Welcome to the first iteration of GitLab’s Team Member Sustainability Guide. As a fully remote workforce without daily commutes or physical offices, we don’t have the typical environmental footprint that many other companies have, but that doesn’t mean we don’t have an environmental impact.
 
-[Climate Action and Greenhouse (GHG) Emissions](https://handbook.gitlab.com/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab’s ESG Materiality Assessment. Through our [annual GHG inventory](https://handbook.gitlab.com/handbook/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, and **emissions associated with remote work**.
+[Climate Action and Greenhouse (GHG) Emissions](/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab’s ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, and **emissions associated with remote work**.
 
 Working remotely comes with its own sustainability challenges and opportunities. For example, our laptops, monitors and lamps use energy that generates carbon emissions. The meals we eat during our work day generate waste that may end up in a landfill. The purpose of this guide is to provide actionable steps for team members to take at home to reduce individual environmental impact.
 
-We know that part of doing responsible business means minimizing our environmental footprint. That’s why we’re committed to analyzing and publishing our emissions along with any steps we’re taking to reduce our footprint in our annual [ESG report](https://handbook.gitlab.com/handbook/esg/#gitlab-fiscal-year-2023-fy23-esg-report).
+We know that part of doing responsible business means minimizing our environmental footprint. That’s why we’re committed to analyzing and publishing our emissions along with any steps we’re taking to reduce our footprint in our annual [ESG report](/handbook/company/esg/#gitlab-fiscal-year-2023-fy23-esg-report).
 
 We are a global team, and we know there are sustainability initiatives and offerings specific to where you live. Many of you have developed sustainable practices at home, and we would love to know more about them! Please [contribute here](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072) and help us crowdsource ideas for other team members in your area! Please share any feedback or questions in the issue or in slack #ESG.
 
@@ -20,7 +21,7 @@ We are a global team, and we know there are sustainability initiatives and offer
 
 1. Unplug devices at the end of the day. You can save anywhere between $100 and $200 each year by unplugging devices not in use.<sup>1</sup>
 2. Use sleep mode instead of a screensaver. Screensavers may actually use more energy than not using one.<sup>2</sup>
-3. Repair devices instead of replacing. [ifixit](https://www.ifixit.com/) provides manuals for how to fix a variety of electronic and other household items. For GitLab laptop repairs, follow the [steps listed in the handbook](https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-repair).
+3. Repair devices instead of replacing. [ifixit](https://www.ifixit.com/) provides manuals for how to fix a variety of electronic and other household items. For GitLab laptop repairs, follow the [steps listed in the handbook](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-repair).
 
 ## Lighting
 
@@ -74,12 +75,8 @@ We are a global team, and we know there are sustainability initiatives and offer
 - [Project Drawdown](https://drawdown.org/): the world’s leading resource for climate solutions
 - [Water’s Worth Saving](https://watersworthsaving.org.uk/): (UK-based): tips for saving water at home
 
-
-
-
-
-
 **Footnotes**
+
 1. https://www.energy.gov/energysaver/articles/how-stop-energy-vampires-attacking-your-home
 2. https://www.energy.gov/energysaver/energy-efficient-computers-home-office-equipment-and-electronics
 3. https://www.eia.gov/todayinenergy/detail.php?id=49816
@@ -89,5 +86,3 @@ We are a global team, and we know there are sustainability initiatives and offer
 7. https://www.energy.gov/energysaver/tankless-or-demand-type-water-heaters
 8. https://www.epa.gov/gmi/importance-methane
 9. https://ourworldindata.org/food-choice-vs-eating-local
-
-

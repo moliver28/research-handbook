@@ -199,8 +199,8 @@ The next step in the Stock Administration job family is to move to a higher leve
 
 ## Performance Indicators
 
-- [Number of award transactions processed](/handbook/stock-options/#number-of-award-transactions-processed)
-- [Number of participants supported](/handbook/stock-options/#number-of-participants-supported)
+- [Number of award transactions processed](/handbook/total-rewards/stock-options/#number-of-award-transactions-processed)
+- [Number of participants supported](/handbook/total-rewards/stock-options/#number-of-participants-supported)
 
 ## Hiring Process
 

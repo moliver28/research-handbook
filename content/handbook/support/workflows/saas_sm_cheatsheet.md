@@ -13,7 +13,6 @@ problems on any GitLab platform. The goal is to make it easier for each
 Support Engineer to resolve support tickets regardless of the GitLab
 platform involved.
 
-
 ## How to use this page
 
 Find the topic of interest to you, and follow the instructions there in
@@ -35,7 +34,6 @@ SaaS, or Dedicated.
 |Self-managed| Customers manage the configuration for their self-managed instances. Depending on the deployment method, the configuration will be in `/etc/gitlab/gitlab.rb`, `docker-compose.yml`, `values.yaml` or similar.|
 |DotCom| [The GitLab.com configurations](https://docs.gitlab.com/ee/user/gitlab_com/) is managed by the infrastructure team and cannot be modified to meet individual customer's needs.|
 |Dedicated|[GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) customers can configure their tenants via [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/) and via the **Admin Area**. GitLab Support team members can get access [Switchboard](./dedicated_switchboard.md) through Okta by [following these steps](/handbook/support/workflows/dedicated_switchboard/#accessing-switchboard). Some [configuration changes](/handbook/support/workflows/dedicated/#configuration-changes) must be done via a [Request for Help issue](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team). |
-
 
 ### Architecture
 

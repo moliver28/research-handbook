@@ -1,25 +1,13 @@
 ---
-
 title: "Developer Advocacy"
 description: "Developer Advocates build GitLab's technical brand with deep, meaningful conversations on engineering topics relevant to our community."
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/index.html
 ---
 
+## <i class="fas fa-bullhorn fa-fw color-purple font-awesome"></i> Welcome to the Developer Advocacy Handbook
 
-
-
-
-
-
-
-
-
-# <i class="fas fa-bullhorn fa-fw color-purple font-awesome"></i> Welcome to the Developer Advocacy Handbook
-
-
-
-***
+---
 
 ## <i class="fas fa-map-signs"></i> QuickLinks
 
@@ -51,26 +39,31 @@ aliases:
 - [<i class="far fa-edit"></i>Request Community Response support](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=community-response-plan)
 - [<i class="far fa-edit"></i> Request Content](/handbook/marketing/developer-relations/content-request/#how-to-work-with-the-developer-advocate-team)
 
-***
+---
 
 ## <i class="fa fa-map-marker" aria-hidden="true"></i> Mission
 
-To support, grow, and engage the wider [GitLab community](https://handbook.gitlab.com/handbook/communication/#writing-style-guidelines) through collaboration, content, and conversations.
+To support, grow, and engage the wider [GitLab community](/handbook/communication/#writing-style-guidelines) through collaboration, content, and conversations.
 
 ## <i class="fas fa-map-marked-alt"></i> Strategy
+
 Developer relations and developer advocacy is an evolving, complex field.
 
 Our team focuses on areas aligning with the company's areas of interest including:
-* DevSecOps: We want our work to speak to not only developers but all team members involved in the DevSecOps lifecycle to deliver working code to production: Product Managers, software engineers, system and DB administrators, designers, test engineers, security engineers, operations engineers, platform engineers, SREs, development managers and executives, etc.
-* Enterprise: Developers and DevSecOps professionals in the enterprise have special constraints and needs.  Often these are glossed over with easy “throw out your architecture and use this new shiny thing” - we won’t do that, we’ll acknowledge real-world challenges, legacy code, and enterprise constraints and help people solve those problems as well. When applicable, we switch roles into consulting and support.
+
+- DevSecOps: We want our work to speak to not only developers but all team members involved in the DevSecOps lifecycle to deliver working code to production: Product Managers, software engineers, system and DB administrators, designers, test engineers, security engineers, operations engineers, platform engineers, SREs, development managers and executives, etc.
+- Enterprise: Developers and DevSecOps professionals in the enterprise have special constraints and needs.  Often these are glossed over with easy “throw out your architecture and use this new shiny thing” - we won’t do that, we’ll acknowledge real-world challenges, legacy code, and enterprise constraints and help people solve those problems as well. When applicable, we switch roles into consulting and support.
 
 ### KPIs
 
 The [FY25 Marketing Strategy](https://internal.gitlab.com/handbook/marketing/fy25-strategy/#marketing--the-customer-journey) (internal only) shows a Customer Journey with five stages: Awareness, Consideration, Conversion, Expansion, and Evangelism.
 
 While our team can influence people at each stage, our key focus is on Awareness, Consideration, and Evangelism. The KPIs we use to measure our impact on these stages are:
+
 - views from content published across owned and earned channels
 - developers engaged through webinars, workshops, and industry events
+
+We also look at Developer Relations influenced pipeline and active community members as performance indicators.
 
 We recognize these KPIs don't capture the impact of the diverse range of work that our team does but understand that tradeoffs can be necessary to effectively communicate our impact within GitLab.
 
@@ -81,11 +74,13 @@ We recognize these KPIs don't capture the impact of the diverse range of work th
 ### What fits in our strategy
 
 When we are reviewing opportunities or requests for support, we must be able to answer yes to each of these questions to move forward with the work:
+
 1. Will this work support, grow, and/or engage the GitLab community, i.e. end-users, prospects and customers?
 1. Is there a measurable impact against one of our team's KPIs? Because of GitLab's [global optimization subvalue](/handbook/values/#global-optimization), we'll also consider requests that influence a company KPI or contribute to progress on an OKR.
 1. Has an issue been created to define the work and assign a DRI?
 
 If the answer to any of the above questions is "no", we ask the requestor to take one of the following actions:
+
 1. make adjustments so we can take on the work
 1. find another team that is better suited to deliver the work
 1. come to an agreement that the work should not be done
@@ -105,37 +100,7 @@ We are members of the [Developer Relations team](/handbook/marketing/developer-r
 | [Michael Friedrich](/handbook/company/team/#dnsmichi) <br/> Senior Developer Advocate | DevSecOps with a focus on AI and CI/CD efficiency | English, German, Austrian | [CI/CD components maintainer](https://gitlab.com/components) | DevSecOps, AI, CI/CD, Observability, Python, Go, C/C++, Rust, Ruby | [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/talks/) |
 | [William Arias](/handbook/company/team/#warias) <br/> Senior Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish |  | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
 
-### Stable counterparts
-
-Inspired by GitLab's [collaboration value](/handbook/values/#collaboration), the Developer Advocate team has chosen to align ourselves as [stable counterparts](/handbook/leadership/#stable-counterparts) with divisions outside of Marketing. The alignment is as follows:
-
-| Division  | Stable counterpart | Activities |
-|-----------|--------------------|------------|
-| Alliances & Infrastructure | [Abubakar Siddiq Ango](https://gitlab.com/abuango) | [Infrastructure Meetings](/handbook/engineering/infrastructure/#meetings), [Alliances](/handbook/alliances/) |
-| Product   | [Michael Friedrich](https://gitlab.com/dnsmichi)   | [AI-powered](https://about.gitlab.com/direction/ai-powered/), [Dev](/handbook/product/categories/features/#dev-section), [CI](/handbook/product/categories/features/#ci-section): [Monthly CI Section Field Sync (internal)](https://gitlab.com/gitlab-com/Product/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Field%20Sync&label_name%5B%5D=section%3A%3Aci&first_page_size=20), Ops: [Monitor:Observability direction](https://about.gitlab.com/direction/monitor/observability/), [Sec section](/handbook/product/categories/features/#sec-section): [Secure, Govern](https://about.gitlab.com/direction/govern/) |
-| Product & Alliances & Engineering & Sales | [Itzik Gan-Baruch](https://gitlab.com/iganbaruch) | DevSecOps platform, AI/ML, CI |
-| Product & Alliances & Engineering & Sales | [Fernando Diaz](https://gitlab.com/fjdiaz) | DevSecOps platform, AI/ML, Security, Kubernetes |
-| Product & Alliances & Engineering & Sales | [William Arias](https://gitlab.com/warias) | DevSecOps platform, AI/ML, MLOps, Data Science |
-| Product & Alliances & Engineering & Sales | [Cesar Saavedra](https://gitlab.com/csaavedra1) | DevSecOps platform, AI/ML, CD, GitOps, Kubernetes |
-| Product & Alliances & Engineering & Sales | [Fatima Sarah Khalid](https://gitlab.com/sugaroverflow) | DevSecOps platform, AI/ML |
-
-As stable counterparts, Developer Advocates are expected to actively engage with the divisions to identify collaboration opportunities and act as the primary point of contact for requests for Developer Advocate support for a specific activity from these divisions.
-
-Collaboration examples in FY24 and FY25 that source from stable counterpart activities:
-
-- [Support the GitLab Duo Code Suggestions launch](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/248)
-- [Support the GitLab Duo Chat launch: Internal, Beta, GA](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/344)
-- [Support the Explain/Mitigate this Vulnerability GA launch - GitLab Duo](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/363)
-- [Support the CI/CD Components launch](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/230)
-- [Support the CI Steps launch](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/349)
-- [Support Observability feature launch in GitLab](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/350)
-- [Blog/Videos - Remote Development awareness in FY24](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/190)
-- [Support Web IDE Beta Launch, 2022-12-19](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/185)
-- [Support the Flux integration into GitLab's GitOps feature (configure stage, agent for Kubernetes)](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/207)
-
-
 ## <i class="fa fa-tasks" aria-hidden="true"></i> What we do
-
 
 Our developer advocate team can be summarized by the "Three Cs":
 
@@ -172,11 +137,11 @@ The Developer Advocate team is the DRI for questions and strategy on the platfor
 | Platform | Description | Workflows |
 |-------------|-------------|-----------|
 | Discourse | The [GitLab Forum](https://forum.gitlab.com) is a place to ask and respond to questions and share projects or snippets of code. | [Forum Workflows](/handbook/marketing/developer-relations/workflows-tools/forum/) |
-| Reddit | The [GitLab Subreddit r/gitlab](https://www.reddit.com/r/gitlab) is a place to ask questions and share interesting use cases of GitLab and related workshops and tools. | [r/gitlab Workflows ](/handbook/marketing/developer-relations/workflows-tools/reddit/) |
+| Reddit | The [GitLab Subreddit r/gitlab](https://www.reddit.com/r/gitlab) is a place to ask questions and share interesting use cases of GitLab and related workshops and tools. | [r/gitlab Workflows](/handbook/marketing/developer-relations/workflows-tools/reddit/) |
 | StackOverflow | Use [gitlab tags](https://stackoverflow.com/questions/tagged/gitlab) for programming questions related to GitLab or the GitLab API.| [GitLab on StackOverflow](/handbook/marketing/developer-relations/workflows-tools/stackoverflow/) |
 | Discord | A [GitLab Community Discord](https://discord.gg/gitlab) is a place to connect with the community, join pair coding sessions and live streams, and discuss all things GitLab and contribution. | [Community Discord Workflows](/handbook/marketing/developer-relations/workflows-tools/discord/) |
 | Meetup | Our [GitLab Virtual Meetup](https://www.meetup.com/gitlab-virtual-meetups/) includes Office hours, GitLab deep dives, Hackathon calls, project specific office hours, and more!  | [GitLab Meetups](/handbook/marketing/developer-relations/evangelist-program/#meetups), [GitLab Meetups Checklist](https://about.gitlab.com/community/meetups/checklist/) |
-| Common Room | We use [Common Room](https://www.commonroom.io) to aggregate and review insights from our community engagement. | [Common Room Workflows](/handbook/marketing/developer-relations/workflows-tools/common-room/)
+| Common Room | We use [Common Room](https://www.commonroom.io) to aggregate and review insights from our community engagement. | [Common Room Workflows](/handbook/marketing/developer-relations/workflows-tools/common-room/) |
 
 #### Community Engagement Initiatives
 
@@ -210,7 +175,6 @@ Our team maintains many projects to help show off technical concepts, engage wit
 
 We actively contribute to OSS projects and share our technical expertise. You can learn more about our ideas and visions in our [OSS contributions](/handbook/marketing/developer-relations/developer-advocacy/oss-contributions/) handbook page.
 
-
 ### Content Effectiveness
 
 Measuring what we do is very important to understand our impact, re-assess content strategies, and reach our OKR goals. Learn more in [Developer Relations Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/).
@@ -228,7 +192,3 @@ We use [developer-advocacy-updates](https://gitlab.slack.com/archives/C04R2RME4F
 The Developer Advocate calendar provides insights into speaking engagements, important events, CFP timelines, and other dates. Learn more in our [CFP handbook](/handbook/marketing/developer-relations/developer-advocacy/cfps/).
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_7930fcb0c9e4783bdd3d23858ae9af4306f28d976a40c833f50710c7cb86ba82%40group.calendar.google.com&ctz=UTC" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-
-
-[def]: #Running-a-Code-Challenge

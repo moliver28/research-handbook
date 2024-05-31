@@ -34,7 +34,6 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 - For candidate interviews: CES should tag the Sr. EBA in #eba-team-interview-requests to review times submitted by the candidate, or to provide alternate times for the CFO.
 - A calendar key is available for viewing in the CFO’s daily schedule.
 
-
 ## Scheduling for Stella Treas, Chief of Staff to the CEO
 
 - All meeting requests should go through Sr. EBA, Liki Simonot.

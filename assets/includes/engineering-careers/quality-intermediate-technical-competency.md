@@ -5,7 +5,7 @@
   - Help create test strategy and implement test automation for new and existing features.
   - Identifies gaps in functional test automation, document missing coverage, and add new test automation to improve coverage.
 - Test Stability & Triage
-  - Participate in test pipeline on-call rotation and ensure that pipeline failures are triaged, addressed and communicated in a timely manner. 
+  - Participate in test pipeline on-call rotation and ensure that pipeline failures are triaged, addressed and communicated in a timely manner.
   - Help unquarantine flaky tests.
   - Work with the counterpart group to address test failures due to bugs in code.
 - Test Tooling
@@ -16,7 +16,7 @@
   - Grow your knowledge of GitLab provisioning and setup tools. Examples include Omnibus, the Orchestrator, Terraform, Ansible, Kubernetes, Helm Charts, GCP, or AWS.
 - Task Management & OKRs
   - Owns tasks within an OKR.
-  - Regularly manage project schedules ensuring objectives are aligned with team/department goals. 
+  - Regularly manage project schedules ensuring objectives are aligned with team/department goals.
   - Exercises judgment and independently identifies the next steps.
 - Knowledge Sharing
   - Clearly document process and knowledge in collaboration with other team members.

@@ -39,7 +39,7 @@ _Self-assignment does not happen without first discussing the opportunity and th
 
 ###### #2: Triage within One Business Day
 
-*It doesn’t need to be within an hour.  You can eat lunch first*
+_It doesn’t need to be within an hour.  You can eat lunch first_
 
 - Totally Acceptable Circle Behavior:  A new opportunity is created and sits for 3 hours because the Circle is busy with demos and life.
 - Totally Acceptable Circle Behavior: A new opportunity is created, and someone in the Circle-slack channel says “hey there is a new opp and I would like to discuss” and that Circle follow-up discussion doesn’t come for 2, or even 4 hours, because the rest of the Circle is busy with other things.  This is still okay.  The wait period is not a diss to anyone, the Circle will get to it when they can, in natural pauses of the day.
@@ -47,7 +47,7 @@ _Self-assignment does not happen without first discussing the opportunity and th
 
 ###### #3: Better Triage Happens with a Second Review
 
-*If possible, two team members review a Command Plan before assignment*
+_If possible, two team members review a Command Plan before assignment_
 
 - Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed, then perhaps in the Slack circle-region channel we might to eachother, after a request for a Circle review, “don’t have time for 2eyes, if you have the capacity and feel fully comfortable with the 4 questions being fulfilled, then assign it to yourself”.  The key is, to get here, as a Circle, we communicated on Triage.
   - The Circle’s Reporting Managers are considered a very valued 2nd person to review, when directly requested.
@@ -109,6 +109,7 @@ leverage the Account Sales Territory in the Circle Slack Channel to determine an
 #### Async Slack support
 
 In some cases SA support might be required in early stage or not fully qualified opportunities. Slack can be used for answering narrowlly-scoped technical questions, providing additional customer outreach materials or helping an Account Executive with a narrowly-scoped customer inquiry. These requests can be served asynchronously via Slack:
+
  - AMER: `#cs-commercial-amer-support`
  - EMEA: `#cs-commercial-emea-support`
 
@@ -149,14 +150,14 @@ Prior to conducting any on-site engagement, approval from the Solutions Architec
 
 To facilitate the review process, the following information should be provided by submitting an issue:
 
-- Customer SFDC Opportunity Link: *The link to the customer opportunity being pursued with updated `Help` inside of `Command Plan` listing out Technical Details of what is needed for an on-site.*
-- Estimated Cost: *The amount expected for travel and lodging (not including meals) for on-site engagement.*
-- GitLab Team On-Site Attendees: *The team members required to attend the on-site engagement. If a Customer Success Manager is aligned to the account, please make sure there is collaboration.*
-- Summary of Customer Engagement To Date: *An overview of the ongoing activities with the customer.*
-- Customer Stakeholders/Teams: *A list of key stakeholders who will be present during the engagement, along with any outstanding or pending activities on-site.*
-- On-Site Proposed Date(s): *The proposed timeline and agenda for the on-site engagement.*
-- On-Site Agenda: *The proposed agenda for the on-site on each given day*
-- Outstanding Activities Prior to Scheduling: *What needs to be completed prior to the event*
+- Customer SFDC Opportunity Link: _The link to the customer opportunity being pursued with updated `Help` inside of `Command Plan` listing out Technical Details of what is needed for an on-site._
+- Estimated Cost: _The amount expected for travel and lodging (not including meals) for on-site engagement._
+- GitLab Team On-Site Attendees: _The team members required to attend the on-site engagement. If a Customer Success Manager is aligned to the account, please make sure there is collaboration._
+- Summary of Customer Engagement To Date: _An overview of the ongoing activities with the customer._
+- Customer Stakeholders/Teams: _A list of key stakeholders who will be present during the engagement, along with any outstanding or pending activities on-site._
+- On-Site Proposed Date(s): _The proposed timeline and agenda for the on-site engagement._
+- On-Site Agenda: _The proposed agenda for the on-site on each given day_
+- Outstanding Activities Prior to Scheduling: _What needs to be completed prior to the event_
 
 This review process aims to help ensure on-site engagements have the highest level of professionalism and that they deliver the intended value to the customer.
 
@@ -188,6 +189,35 @@ This review process aims to help ensure on-site engagements have the highest lev
 - GitLab is fortunate enough to have a strong community of contributors where you can search for ideas and issues within the GitLab [Forum](https://forum.gitlab.com/) or moderated [subreddit](https://www.reddit.com/r/gitlab/).
 - With transparency being a value of ours, we strive to push content daily to both the [GitLab Youtube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg) and [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). You will find How-Tos and Daily Engineering conversations in these channels.
 - If you need engineering assistance, please [create a support ticket](https://support.gitlab.com/hc/en-us). Your team has ["Standard Support"](https://about.gitlab.com/support/#standard-support) which means "Next Day" or 24-hour support Monday thru Friday.
+
+#### Solutions Architect Judgment Indicator
+
+The Solutions Architect Judgment Indicator (SA Judgment) is a metric used to assess the technical perception and feedback regarding current opportunities. It aids in making informed decisions and effectively managing sales pipelines. This indicator enhances the precision of forecasting by providing a means to validate AE judgment based on the technical seller's assumptions. It also facilitates discussions during deal reviews and pipeline analysis by highlighting potential misalignments more easily.
+
+The key aspects to take into consideration:
+
+1. Technical statement
+   1. Customer knowledge: current state well documented (internal)
+   1. Clear use cases. Identified pains.
+   1. Product-match. Identified capabilities to close the gap.
+1. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
+   1. Access to development, information security and operations. Technical/lead developer involved with the right skills
+   1. Connection to the technical validator/buyer
+   1. Established communication channel and responsiveness
+
+The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] + One line qualitative comment` with `[COLOR]` equals to:
+
+- `[RED]`: Indicates high risk or significant issues present in the opportunity's presales forecast. These issues might include technical challenges, unclear requirements, or insufficient resources allocated.
+- `[YELLOW]`: Suggests moderate risk or some concerns in the opportunity's presales forecast. This could include minor technical hurdles, scope creep, or potential resource constraints.
+- `[GREEN]`: Signifies low risk or favorable conditions in the opportunity's presales forecast. This indicates that the technical aspects are well-understood, resources are adequate, and the forecast is on track.
+
+> Example: _[RED] No access to technical buyers, no clear use case_.
+
+Solutions Architects are required to fill out in their judgment on all opportunities meeting these criteria:
+
+- EMEA COMM Business Unit
+- Net ARR >$50K
+- Stage: 3+ (potentially 2+)
 
 #### Other Considerations
 
@@ -309,7 +339,6 @@ Quarterly review of wins and losses to identify patterns and things we can do to
   - 00:20 - 00:35 - Review Losses
   - 00:35 - 00:50 - Review Action Items
 
-
 ### Commercial SA Peer Review
 
 Commercial SA team holds [Peer Review sessions](/handbook/solutions-architects/sa-practices/deliberate-practice/#peer-reviews) every two weeks as a key activity in elevating the quality of pre-sales efforts, fostering collaboration, promoting continuous learning, and ultimately increasing the chances of successful client engagements.
@@ -321,11 +350,11 @@ Commercial SA team holds [Peer Review sessions](/handbook/solutions-architects/s
 - Two opportunities are reviewed during the session (10 minutes each)
 - Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
 
-
 ## Paid Time Off
 
-Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
+Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/people-group/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
 To best support our customers, consider the following:
+
 1. Communicate your time off within your circle in case of coverage.
 2. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
    - Customers are running an active trial and may need technical guidance.

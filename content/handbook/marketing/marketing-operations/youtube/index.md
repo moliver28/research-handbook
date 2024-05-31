@@ -39,7 +39,6 @@ In that case, you can [upload it to YouTube](#uploading-conversations-to-youtube
 
 ### Considerations for livestreams
 
-
 1. Please remember to [follow the guidelines on starting a recorded video](/handbook/tools-and-tips/zoom/#recording-in-zoom).
 1. If you're not a host, you can't livestream direct from zoom, but the current host can promote another attendee to host.
 1. If there is more than one host for the meeting **the host that joins the meeting first** is the only host that can livestream direct from zoom. From the Zoom meeting, the host can promotion someone else to host if another team member has been designated to start the live stream. Instructions to change the host:
@@ -80,6 +79,7 @@ In that case, you can [upload it to YouTube](#uploading-conversations-to-youtube
 ![stream link](/handbook/marketing/marketing-operations/youtube/youtube-stream-link.jpg)
 
 #### Video walkthough of how to Livestream to YouTube
+
 The following 5-minute video shows how to start a livestream from a Zoom Meeting to YouTube Unfiltered.
 
 <figure class="video_container">
@@ -93,16 +93,16 @@ If you receive a permission error when attempting to start a livestream (i.e. "P
 1. Install and launch [OBS Studio](https://obsproject.com/download)
 
 1. Allow OBS to automatically configure your settings:
-	![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
+    ![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
 
 1. Accept the recommended video settings:
-	![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
+    ![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
 
 1. Select "Custom" service and configure OBS to livestream to [GitLab's Unfiltered channel](https://www.youtube.com/live_dashboard?nv=1#):
-	![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
+    ![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
 
 1. Add your webcam as a "Video Capture Device" from the Sources tool:
-	![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
+    ![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
 
 ## Post everything
 
@@ -214,6 +214,7 @@ You can change the visibility of videos by clicking on the `Details` buttons whe
 
 If you get a "Video unavailable This video is private." error on youtube, the error may be caused because the video is private to GitLab Unfiltered and you are accessing the video with your individual YouTube account.
 In order to see the video,
+
 1. Click your photo or icon in the upper right corner of YouTube.
 
 1. Then Click > Switch Account
@@ -302,7 +303,6 @@ The below instructions apply to livestreams to YouTube.
 1. Please note that if the recording starts a 'this meeting is being recorded' message the host should talk over that because otherwise the recorded video will needed editing to prevent an awkward pause. Livestreaming doesn't trigger this message, only recording does.
 
 #### Useful links
-
 
 - [My Live Events: schedule and review upcoming live events](https://www.youtube.com/my_live_events)
 - [YouTube live streaming introduction page](https://support.google.com/youtube/answer/2474026?hl=en) - Here you can check if your channel meets all requirements for live streaming

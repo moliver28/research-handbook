@@ -23,16 +23,16 @@ The information contained on this page is organized into two distinct categories
 | [**Escalation Process**](#escalation-process) | [**Data Privacy and the GitLab Data Processing Addendum**](#data-privacy-security-and-the-gitlab-data-processing-addendum) |
 | [**Request for Name Change or Change in Control**](#request-for-name-change-or-change-in-control) | [**Legal Commercial Coverage Model**](#legal-commercial-coverage-model)|
 | [**Legal Commercial Coverage Model**](#legal-commercial-coverage-model) | [**Contract Lifecycle Management (CLM) Process**](#clm-process)|
-| [**GitLab Issues: Collaborating Cross-Functionally**](#collaborating-cross-functionally-with-gitlab-issues) |
-| [**Best Practices for a Legal Call**](#best-practices-for-a-legal-call) |
-| [**Request for Training (LevelUp) Certification Purchases**](#request-for-training-levelup-certification-purchases)|
-| [**Request for an Evaluation Agreeement**](#request-for-a-trial-or-evaluation-agreement) |
+| [**GitLab Issues: Collaborating Cross-Functionally**](#collaborating-cross-functionally-with-gitlab-issues) |  |
+| [**Best Practices for a Legal Call**](#best-practices-for-a-legal-call) |  |
+| [**Request for Training (LevelUp) Certification Purchases**](#request-for-training-levelup-certification-purchases)|  |
+| [**Request for an Evaluation Agreeement**](#request-for-a-trial-or-evaluation-agreement) |  |
 
 ## OPERATIONAL
 
 ### How to Reach the Legal Commercial Team
 
-#### Different situations require different approaches. In the vast majority of cases regarding revenue-related requests, the proper way to engage the Legal team is through Salesforce (SFDC) by creating a legal request per the process below.
+#### Different situations require different approaches. In the vast majority of cases regarding revenue-related requests, the proper way to engage the Legal team is through Salesforce (SFDC) by creating a legal request per the process below
 
 1. Click the "Legal Request” button under the customer’s opportunity in SFDC (or at the account level if related to a partner). This enables Legal to gather more information regarding Legal Requests created and the applicable opportunity information. If an opportunity does not exist, please open a $0 opportunity and then create the Legal Request following the steps within this section.
 1. Once the Legal Request is correctly created, the request is logged in a queue where the appropriate Legal team member will assign themselves to the case and will communicatewith originator as applicable.
@@ -211,7 +211,7 @@ Once the Request Form is executed, the sales team member or solutions architect 
 
 ### When does GitLab Negotiate?
 
-GitLab has certain thresholds when determining when, and to what extent, we will negotiate our standard terms.  GitLab will consider engaging in negotiations as detailed [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/).
+GitLab has certain thresholds when determining when, and to what extent, we will negotiate our standard terms.  GitLab will consider engaging in negotiations as detailed [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/).
 **NOTE: This is available to GitLab team members only**
 
 If the net ARR threshold requirements are met, a Sales team member must open a Legal Request to ask for the most current agreement template. Please do not save an agreement template to a local drive as it may not be the most current version of the agreement. It is highly recommended that the Sales team member uses discretion and discusses the approach with the assigned Legal team member to set the appropriate expectations with the customer. Please see the Subscription Agreement basics below. While negotiation may be inevitable, it is always worth considering the following implications and how best to establish the tone of potential negotiations:

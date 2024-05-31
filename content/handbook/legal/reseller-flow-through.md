@@ -80,7 +80,7 @@ These Fulfillment Reseller Flow-Through Terms (the “Agreement”) are made as 
 
 3.12 The Fulfillment Reseller shall permit Authorized Partner and/or GitLab and its third party representatives (provided such representatives are subject to written confidentiality obligations in respect of any information obtained), on reasonable notice during normal business hours, to access and receive copies of the Fulfillment Reseller’s records, books of account and any other information held by or on behalf of the Fulfillment Reseller that are solely related to Fulfillment Reseller’s obligations under this Agreement and to meet with the Fulfillment Reseller’s personnel in order to audit the Fulfillment Reseller’s compliance with its obligations under this Agreement.  Such audit rights shall continue for four (4) years after termination or expiry of this Agreement.  The Fulfillment Reseller shall give all necessary assistance to the conduct of any such audits.
 
-### 4. Term, Termination and Effect of Termination.
+### 4. Term, Termination and Effect of Termination
 
 4.1 This Agreement shall commence on the Effective Date and remain in effect for a period of one (1) year thereafter (“Term”). This Agreement may be terminated upon thirty (30) days written notice as requested by GitLab and/or Authorized Partner, provided that any Order Forms with active GitLab Products and Services shall remain subject to the terms of this Agreement until their expiration.
 

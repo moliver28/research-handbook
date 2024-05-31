@@ -1,20 +1,9 @@
 ---
-
 title: "Field Enablement Spotlight: Continuous Education at GitLab"
-description: "Continuous education webcast series for GitLab sales team members" 
+description: "Continuous education webcast series for GitLab sales team members"
 ---
 
-
-
-
-
-
-
-
-
-----
-
-# Field Enablement Spotlight Sessions
+## Field Enablement Spotlight Sessions
 
 ## Upcoming Training
 
@@ -24,13 +13,10 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| May 2  | Partner e-Marketplace | Partner Team  |
-| May 9 | New CSE Workflow Overview | CS Team  |
-| May 16 | TBD |  |
-| May 23 | Analyst Relations Update | AR Team  |
-| May 30 | TBD |  |
+| May 23 | Winning with Analyst Relations | AR Team  |
+| May 30 | Partner e-marketplace | Partner Team |
 | Jun 6 | TBD |  |
-| Jun 13 | TBD |  |
+| Jun 13 | GitLab 17 Launch  | Product Marketing |
 | Jun 20 | TBD |  |
 | Jun 27 | TBD |  |
 | Jul 4 | TBD |  |
@@ -38,15 +24,16 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | Jul 18 | *No session during the last week of the quarter* | N/A |
 | Jul 25 | *No session during the last week of the quarter* | N/A |
 
-
 ## Past Sessions
 
 <details>
 <summary markdown="span">Click here to see links to past sessions on YouTube</summary>
 
-
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-05-16 | **GitLab Ultimate vs. GitHub Advanced Security Comparison** | Private |
+| 2024-05-09 | **[New CSE Workflow Overview](https://drive.google.com/file/d/1KPPbmBGByrdy14F9dUCqD3e0sSaPJWvx/view?usp=drive_link)** | CS Team  |
+| 2024-05-02  | **[New GitLab x Google Cloud Integrations](https://drive.google.com/file/d/1wd8d5lVVsLUeOkbScmlp-eZTAokgxqqx/view?usp=drive_link)** | Private  |
 | 2024-04-18 | **[GitLab Duo AI + Competitive Update](https://drive.google.com/file/d/1tHoBhnRyGooHduEryOUPfXJwVpesZcG4/view?usp=drive_link)** | Private |
 | 2024-04-11 | **[FY25-Q1 - GitLab Cloud Partnerships Update](https://drive.google.com/file/d/1hcoGgS7u_Ea_h93aprWhHezRVoEOxood/view?usp=drive_link)** | Private |
 | 2024-03-27 | **[Success Plan Services](https://drive.google.com/file/d/1R3aA-aOMSwoMYAIG8B-plxoS-QJYi76u/view?usp=drive_link)** | Private  |
@@ -159,8 +146,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | 2020-11-12 | **[How GitLab Evaluates and Completes Software Purchases](https://youtu.be/55dkX_hNd4s)** | Private |
 | 2020-11-05 | **[Co-Selling with Google - Alliance Overview](https://youtu.be/albyLzQNo7U)** | Private |
 | 2020-10-15 | **[Proof Points & Analyst Resources Update](https://youtu.be/B0-Y4SNVfXU)**  | Private      |
-| 2020-10-08 | **[Deal Structure Best Practices](https://youtu.be/t55rDyNd0wE)**             | Private
-| 2020-10-01 | **[Leveraging the GitLab/VMware Alliance](https://youtu.be/unpgyIR9yH0)**      | Private
+| 2020-10-08 | **[Deal Structure Best Practices](https://youtu.be/t55rDyNd0wE)**             | Private |
+| 2020-10-01 | **[Leveraging the GitLab/VMware Alliance](https://youtu.be/unpgyIR9yH0)**      | Private |
 | 2020-09-24 | **[Q3 FY21 Competitive Update](https://youtu.be/fOeLdLwAgOI)**                 | Private |
 | 2020-09-10 | **[Accelerating Your Pipeline with AWS](https://youtu.be/iPDPtOUuNls)**            | Private |
 | 2020-09-03 | **[GitLab Standard ROI Models](https://youtu.be/znCrnpTDRoE)** | Public |
@@ -212,7 +199,6 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 </details>
 
-
 **Note: To watch private videos on GitLab Unfiltered, please look at the Handbook page on [watching private videos.](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube) which includes a link to [this 2-minute video](https://www.youtube.com/watch?v=dZtCuOf5aGk).**
 
 ## Get an invite to the weekly session
@@ -262,9 +248,11 @@ There are a few places to see previous Sales Enablement sessions:
 ## Scheduling trainings
 
 **4-6 weeks before the start of a new quarter**
+
 - Solicit input from sales leaders, Product Marketing, Channel, Alliances, Competitive Intelligence, Analyst Relations, and others (e.g. Sales Ops) on sales enablement topics for the next quarter
 
 **2-4 weeks before the start of a new quarter**
+
 - Alignment call to finalize topics & tentative schedule with
     - Sales Training Facilitator (John Blevins)
     - Director, Sales & Customer Enablement (David Somers)
@@ -275,6 +263,7 @@ There are a few places to see previous Sales Enablement sessions:
     - Ping the SME in the issue to ask if they can commit to it, get their commitment before you schedule.
 
 **1-2 weeks before the start of a new quarter**
+
 - John Blevins to schedule meeting with all SMEs/speakers
     - Goal: Ensure SMEs/speakers are aware of the upcoming sessions and can own the sessions
         - Review schedule, outcomes, objectives
@@ -311,20 +300,13 @@ Field Enablement Spotlight sessions are scheduled on the [Sales Enablement calen
   - Add an `index.html.md` file to that directory.
     - Use this template:
 
-    ```
-    ---
-    
-    title: "Title goes here"
-    ---
+      ```markdown
+      ---
+      title: "Title goes here"
+      ---
 
-    
-    
-
-    
-    
-
-    ## Title goes here
-    ```
+      ## Title goes here
+      ```
 
   - Add your content to this page.
   - Add links to any other pages you need to reference on this page so you can present from training page.
@@ -356,7 +338,6 @@ The moderator should serve as the host of the call and overall wingperson for th
 
 - Monitor the time. If the presentation goes longer than 15 minutes, interrupt to remind the speaker that we are at 15 minutes and we want to leave time for Q&A.
 - Stop the recording.
-
 
 **Moderator tasks after the session**
 

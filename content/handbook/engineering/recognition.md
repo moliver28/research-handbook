@@ -9,18 +9,16 @@ Quarterly, CTO Leadership will recognize Engineering team members who have excel
 - an invitation to the [Engineering Quarterly Achievers Chat](#engineering-quarterly-achievers-chat)
 - participation in the [Engineering Quarterly Achiever's Recognition Dinner](#engineering-quarterly-achievers-recognition-dinner) - an expensed meal for yourself, friends and family to celebrate your work, the meal must occur before the last day of the quarter following the announcement.
 Winners each quarter have until the last day of the quarter to submit for reimbursement.
-Winners may submit their receipt for the meal for reimbursement via Navan. 
-Please see the instructions below. 
+Winners may submit their receipt for the meal for reimbursement via Navan.
+Please see the instructions below.
 
-In Navan, click Add Transaction Select Upload receipt (or select Type in details) 
+In Navan, click Add Transaction Select Upload receipt (or select Type in details)
 Under Expense Type field, please select “Team events & meals”
 Under Classification, please select “FY24 Team Building”
-Under Description field, please include this link: https://about.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner 
+Under Description field, please include this link: https://about.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner
 Click Submit (or Save & close if you need to come back to add more information).
 
-
 ### Engineering Quarterly Achiever's Chat
-
 
 The Quarterly Achiever's Chat recognizes Engineering team members who have excelled in a given quarter by inviting them to join the Chief Executive Officer, Chief Technical Officer and Chief Product Officer in a congratulatory chat. The benefit is three-fold:
 
@@ -47,7 +45,7 @@ In total, 14 team members from across the Engineering organization will be recog
 
 #### Engineering Efficiency
 
-1. **Best Blueprint Proposal Award** - awarded to individuals who submit well thought-out, technically-sound proposals on items that require cross-functional communication and influence
+1. **Best Design Proposal Award** - awarded to individuals who submit well thought-out, technically-sound [architecture design document](/handbook/engineering/architecture/workflow/#design-documents) proposals on items that require cross-functional communication and influence
 1. **Cost Savings Award** - awarded to individuals who significantly contribute towards reducing costs
 1. **Software Efficiency Award** - awarded to individuals who implement an abstraction, pattern, or library that makes future development efforts much more efficient
 1. **Proactive Avoidance Award** - awarded to individuals who raise concerns about things *before* they become disastrous incidents
@@ -88,7 +86,7 @@ Considerations include:
 
 #### Engineering Quarterly Achievers Nominations
 
-Prior to the start of the quarter, a call for nominations will go out. You may nominate as many people as you wish, provided they meet the [selection criteria](#selection-criteria).
+Prior to the start of the quarter, a call for nominations will go out. You may nominate as many people as you wish, provided they meet the [selection criteria](#selection-criteria). Add all relevant information to the text of your nomination – adding a link as SSOT is great, but ideally a nomination shouldn't require clicking through to anything to be understood and evaluated. Be aware that the text (but not your name!) may be shared with the nominee.
 
 ## Engineering Quarterly Achievers Past Winners
 
@@ -109,7 +107,6 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 | FY24-Q4 | Customer Results | Customer Kudos | Suleimi Ahmed |
 | FY24-Q4 | Customer Results | Performance and Stability | Brie Carranza & Matthew Badeau |
 | FY24-Q4 | Customer Results | Contribution to Sales or Renewal | Gerardo Gutierrez |
-
 
 ### FY25-Q1
 
@@ -135,10 +132,11 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 ## Engineering Quarterly Achievers Process
 
 This process is followed by a delegate of the CTO Leads team at least 2 weeks before the end of the quarter, and is completed before the first all hands of the quarter.
+
 ### Accepting Nominations
 
 1. Create a copy of the `Engineering Quarterly Achievers Nomination Form - Template` in the [`Awards [Quarterly]` folder](https://drive.google.com/drive/search?q=type:folder%20%22achievers%20quarterly%22) on Drive. If you do not have access, ask the CTO's EBA for access.
-1.  Make sure to add any new categories.
+1. Make sure to add any new categories.
 1. In the "Responses" tab, click "Link to Sheets" to collect responses in a Google Sheet rather than in the form itself.
 1. In the "Responsess" tab, toggle "Accepting responses" on, and toggle it off when nominations close.
 
@@ -164,5 +162,6 @@ This process is followed by a delegate of the CTO Leads team at least 2 weeks be
 
 For the next All-Hands, incorporate the final slides into primary deck! After All-hands, update this page with names of winners. Wooo! You're done until next quarter.
 
+#### Inform Nominees
 
-
+After winners have been announced, inform everyone who was nominated to spread awareness and happiness. Nominees should be informed privately, and without mentioning who nominated them.

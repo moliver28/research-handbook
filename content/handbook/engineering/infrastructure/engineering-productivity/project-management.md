@@ -78,18 +78,21 @@ The proposal is to trial using an Asynchronous Issue Update model, similar to [w
 The async daily update communicates the progress and confidence using an issue comment and the milestone health status using the Health Status field in the issue. A daily update may be skipped if there was no progress. Merge requests that do not have a related issue should be updated directly. It's preferable to update the issue rather than the related merge requests, as those do not provide a view of the overall progress. Where there are blockers or you need support, Slack is the preferred space to ask for that. Being blocked or needing support are more urgent than email notifications allow.
 
 When communicating the health status, the options are:
+
 - `on track` - when the issue is progressing as planned
 - `needs attention` - when the issue requires attention or intervention to keep it on schedule
 - `at risk` - when there is a risk the issue will not be completed according to schedule
 
 The async update comment should include:
+
 - what percentage complete the work is, in other words, how much work is done to put all the required MRs in review
 - the confidence of the person that their estimate is correct
 - notes on what was done and/or if review has started
 - it could be good to specify the relevant dependencies in the update, if there are multiple people working on it
 
 Example:
-```
+
+```markdown
 **Status**: 20% complete, 75% confident
 
 Expecting to go into review tomorrow.
@@ -98,7 +101,8 @@ Expecting to go into review tomorrow.
 Include one entry for each associated MR
 
 Example:
-```
+
+```markdown
 **Issue status**: 20% complete, 75% confident
 
 Expecting to go into review tomorrow.
@@ -125,6 +129,7 @@ A weekly update should be added to epics you're assigned to and/or are actively 
 The epic updates communicate a high level view of progress and status for quarterly goals using an epic comment. It does not need to have issue or MR level granularity because that is part of each issue updates.
 
 The weekly update comment should include:
+
 - Status: ok, so-so, bad? Is there something blocked in the general effort?
 - How much of the total work is done? How much is remaining? Do we have an ETA?
 - What's your confidence level on the completion percentage?
@@ -134,6 +139,7 @@ The weekly update comment should include:
 #### Examples
 
 Some good examples of epic updates that cover the above aspects:
+
 - <https://gitlab.com/groups/gitlab-org/-/epics/8628#note_1090732793>
 - <https://gitlab.com/groups/gitlab-org/-/epics/5152#note_1029337901>
 

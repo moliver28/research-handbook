@@ -55,7 +55,6 @@ The Talent & Engagement Program Manager is a [grade 6](/handbook/total-rewards/c
 - Have an eye and ear to the ground across GitLab team members and teams with the goal of maximizing the team member experience and to ensure GitLab remains a place where all team members belong and are included
 - Be a shining example for GitLab’s culture, infusing GitLab’s mission, culture, and values into everything we do
 
-
 #### People Communications & Engagement Program Manager Requirements
 
 - Experience working in a fast-paced environment
@@ -67,7 +66,6 @@ The Talent & Engagement Program Manager is a [grade 6](/handbook/total-rewards/c
 - Ability to understand a high-level issue and conduct root cause analysis to understand issues
 - Ability to use GitLab
 - Aligns with GitLab values
-
 
 ### Senior People Communications & Engagement Program Manager
 
@@ -147,7 +145,6 @@ The Manager, People Communications & Engagement is a [grade 8](/handbook/total-r
 - Plan, communicate, and coordinate celebratory occasions, company communication initiatives, volunteer activities, and other team member engagement opportunities
 - Be a shining example for GitLab’s culture, infusing GitLab’s mission, culture, and values into everything we do
 
-
 #### Manager, People Communications & Engagement Requirements
 
 - Relevant communications experience
@@ -164,7 +161,6 @@ The Manager, People Communications & Engagement is a [grade 8](/handbook/total-r
 - Proficiency in communication tools such as Slack, Zoom, and Google Workspace is a must
 - You share and can role model our values, and work in accordance with those values
 - Ability to use GitLab
-
 
 ### Senior Manager, People Communications & Engagement
 

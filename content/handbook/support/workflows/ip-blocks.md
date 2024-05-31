@@ -168,7 +168,6 @@ In certain cases, when the customer is using a shared user account to run pipeli
 - `json.custom_message`: `User access locked - sign in from untrusted IP address`
 - `json.entity_path` - The user name of the account
 
-
 ### Handling GitLab.com "Access Denied" errors (CloudFlare Block)
 
 There may be cases where a user is being blocked by CloudFlare and they are not being blocked due to rate limiting. You can typically request a screenshot of the CloudFlare “Access Denied” page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:

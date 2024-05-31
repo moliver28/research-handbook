@@ -17,6 +17,7 @@ There are three ways you can contribute and co-create:
 ### Everyone can contribute with GitLab{#contribute-with-gitlab}
 
 To ensure that **everyone can contribute with GitLab** we allow anyone to create a proposal, at any time, without setup, and with confidence. Let's analyze that sentence a bit.
+
 - Anyone: Every person in the world should be able to afford great DevSecOps software. GitLab.com has free private repos and CI runners and GitLab CE is [free as in speech and as in beer](http://www.howtogeek.com/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/). But open source is more than a license, that is why we are [a good steward of GitLab CE](/handbook/company/stewardship/) and keep both GitLab CE and EE open to inspection, modifications, enhancements, and suggestions.
 - Create: It is a [single application](/handbook/product/single-application/) based on [convention over configuration](/handbook/product/product-principles/#convention-over-configuration).
 - Proposal: With Git, if you can read it, you can fork it to create a proposal.

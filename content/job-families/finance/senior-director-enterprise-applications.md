@@ -24,7 +24,6 @@ CRM Systems, Manager is a [grade 8](https://handbook.gitlab.com/handbook/total-r
 - Mentorship: Build and manage global teams. Guide and coach team members. Mentor junior team members and model GitLab values for the team. Ability to delegate key tasks within the team to improve team efficiency and throughput
 - Measure, monitor, and maintain team’s ability to meet or exceed Service Level Agreements (SLA), Objectives and Key Results (OKRs), and Key Performance Indicators (KPIs). Experience and comfort working in a culture of measurement
 
-
 ### Requirements
 
 - Bachelor’s degree in Computer Science, Information Technology, or a related discipline. A Master’s degree is advantageous.
@@ -47,7 +46,6 @@ CRM Systems, Manager is a [grade 8](https://handbook.gitlab.com/handbook/total-r
 - Demonstrated experience in vendor management and capacity planning in a fast growth environment
 - Comfortable with ambiguity and fast change with an ability to adapt quickly and easily
 - Candidate must have proven ability to consistently and collaboratively resolve issues, mitigate roadblocks, and meet all financial and management goals on time. Will be a self-starter who maps own direction to succeed
-
 
 ## Director, CRM Systems
 

@@ -9,7 +9,7 @@ description: "The Paid NPS (Paid Net Promoter Score) was a survey metric previou
 
 We determine our Net Promoter Score for paid users of GitLab.com (SaaS) on a quarterly basis through a survey launched via Qualtrics. A [data collection and analysis issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/ProdOps-PNPS-Collection-Analysis.md) ([example](https://gitlab.com/gitlab-com/Product/-/issues/5025)) is automatically created at the beginning of each quarter which is the SSOT and outlines all tasks, DRIs, and due dates. Data is collected over a period of six weeks starting in the end of a quarter and the survey stays open until the last day of the quarter. The first two weeks of the new quarter are used to analyze and report data on the previous quarter. All documents created are stored in an [internal only Google Drive](https://drive.google.com/drive/folders/1KT5qpJVWFWY_3eVqQzK8tw7ktEKhyDPn).
 
-### Current workflow 
+### Current workflow
 
 #### Video overviews of PNPS workflow
 
@@ -17,12 +17,12 @@ The following videos are internal only on GitLab Unfiltered on YouTube:
 
 - [Summary of documentation and templates for PNPS](https://www.youtube.com/watch?v=snb6G3qqZbc)
 - [Obtaining user IDs and generating a distribution list](https://www.youtube.com/watch?v=408jgKiwy5Q)
-- [Distributing a PNPS survey to a list of users on Qualtrics](https://www.youtube.com/watch?v=at12BAuS_wM) 
+- [Distributing a PNPS survey to a list of users on Qualtrics](https://www.youtube.com/watch?v=at12BAuS_wM)
 - [Analyzing survey data and tagging open ended responses](https://www.youtube.com/watch?v=tyRfUy9-vLQ)
 
 #### Sample goals
 
-We aim for a sample of at least 500 with plan type proportions for our sample to be +/- 3% compared to the population proportion. 
+We aim for a sample of at least 500 with plan type proportions for our sample to be +/- 3% compared to the population proportion.
 
 #### Data Analysis
 
@@ -44,30 +44,33 @@ At the beginning of each quarter a list of eligible users to send the survey to 
 ##### Sending an email wave
 
 1. Using the percentages you calculated, determine how many users for each plan type you need to contact for the wave. If it’s the first wave, use the population proportions. If it’s a subsequent wave, use the proportions you calculate based on the responses so far (see next point).
-2. To calculate your current sample plan proportions, download your survey results from Qualtrics. Delete everything but the current quarter. Calculate the percentage breakdown of plans so far. Then subtract that number from the population percentage, and then add the result to the population percentage. 
-An example with fake numbers: 
-- Population percentage for Ultimate = 73%
-- Percentage of Ultimate plan types after sending wave 1 = 65%
-- wave 2 percentage for Ultimate: (73% - 65%) + 73% = 81%
-In this example the sample is under the population, hence the next wave percentage is higher than the population to try and make that up. 
+2. To calculate your current sample plan proportions, download your survey results from Qualtrics. Delete everything but the current quarter. Calculate the percentage breakdown of plans so far. Then subtract that number from the population percentage, and then add the result to the population percentage.
+An example with fake numbers:
+
+    - Population percentage for Ultimate = 73%
+    - Percentage of Ultimate plan types after sending wave 1 = 65%
+    - wave 2 percentage for Ultimate: (73% - 65%) + 73% = 81%
+    In this example the sample is under the population, hence the next wave percentage is higher than the population to try and make that up.
+
 3. Waves should be ~5000 users. Mark the desired number of users out of that 5000 that fit your percentages for each plan type with the name of the wave you are sending.
 4. Paste all the user IDs for that wave into a new sheet, following the [process for uploading user IDs into Qualtrics](/handbook/engineering/ux/qualtrics/#distributing-your-survey-to-gitlabcom-users).
-5. Once the mailing list has been created in Qualtrics double-check that no @gitlab.com email addresses were included, and create a new email distribution for the SaaS PNPS survey in Qualtrics using the `PNPS Survey Distribution - Current Survey Template`. **Make sure to edit the advanced survey options to set the link expiration to the last day of the quarter**. 
+5. Once the mailing list has been created in Qualtrics double-check that no @gitlab.com email addresses were included, and create a new email distribution for the SaaS PNPS survey in Qualtrics using the `PNPS Survey Distribution - Current Survey Template`. **Make sure to edit the advanced survey options to set the link expiration to the last day of the quarter**.
 6. Typically emails are scheduled to go out Monday - Friday early in the morning US time (8 - 9am Eastern Time) with the goal of maximizing visibility and responses, but this is far from scientific and open to change. Qualtrics supports scheduling email ahead of time.
 
-Once all email waves have been sent, add the user IDs that were used this quarter to the previously contacted sheet, noting the quarter. This allows us to avoid contacting the same users too frequently. 
+Once all email waves have been sent, add the user IDs that were used this quarter to the previously contacted sheet, noting the quarter. This allows us to avoid contacting the same users too frequently.
 
 ### Outreach to `PNPS` users
 
-We give PNPS survey respondents the option to indicate whether they would be open to a follow-up interview when filling in the survey. As part of the analysis, a list of users that agreed to the follow-up is generated. 
+We give PNPS survey respondents the option to indicate whether they would be open to a follow-up interview when filling in the survey. As part of the analysis, a list of users that agreed to the follow-up is generated.
 
 After the quarterly analysis is shared out, UX Research initiates outreach to PNPS responders who opted into contact via this [automated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/ProdOps-PNPS-Responder-Outreach.md). The detailed PNPS responder outreach workflow can be seen [here](/handbook/product/product-processes/#pnps-responder-outreach).
 
 ### Displaying the data
 
-UX Research creates and communicates the [PNPS reports](/handbook/product/ux/performance-indicators/paid-nps/#past-pnps-reports) and partners with Product Analytics to maintain the [PNPS dashboards](https://internal.gitlab.com/handbook/company/performance-indicators/product/#paid-net-promoter-score-pnps). 
+UX Research creates and communicates the [PNPS reports](/handbook/product/ux/performance-indicators/paid-nps/#past-pnps-reports) and partners with Product Analytics to maintain the [PNPS dashboards](https://internal.gitlab.com/handbook/company/performance-indicators/product/#paid-net-promoter-score-pnps).
 
 #### PNPS charts and maintenance
+
 There are two charts in Sisense that we reference when analyzing the PNPS results:
 
 - [Score by quarter](https://app.periscopedata.com/app/gitlab/1050043/PNPS-Dashboard?widget=14974938)
@@ -83,7 +86,7 @@ There may be an occasional need to remove certain records (such as internal test
 
 #### Backtracking Responses
 
-For past reports, we have gotten requests to answer additional questions about the PNPS survey data. When these requests arise, we've partnered with Product Analytics to get support connecting PNPS respondents to internal data sources. We create an issue in the Product Data Insights project in GitLab and submit this  request to `@dpeterson1`. 
+For past reports, we have gotten requests to answer additional questions about the PNPS survey data. When these requests arise, we've partnered with Product Analytics to get support connecting PNPS respondents to internal data sources. We create an issue in the Product Data Insights project in GitLab and submit this  request to `@dpeterson1`.
 
 ### Past PNPS Reports
 

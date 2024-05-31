@@ -15,7 +15,7 @@ title: "Plan to Monitor (p2m) Demo"
 
 Note: This is the latest video. Work to catch up these demo instructions to match the video is underway.
 
-# Overview
+## Overview
 
 Today, modern software development teams need version control for everything,
 automated testing, support for complex build and deployment configurations, and
@@ -27,7 +27,7 @@ This demonstration will highlight [GitLab’s single platform for the complete
 DevOps lifecycle](https://about.gitlab.com/direction/#scope), from plan to
 monitor, through issues, planning, merge request, CI, CD, and monitoring.
 
-![](/images/press/devsecops-lifecycle.svg)
+![''](/images/press/devsecops-lifecycle.svg)
 
 If you encounter issues replicating this demo on GKE or on your own Kubernetes
 cluster please [open an
@@ -35,7 +35,7 @@ issue](https://gitlab.com/gitlab-com/marketing/product-marketing/-/issues/new). 
 working to improve this demo further, please see [all open idea-to-production
 issues](https://gitlab.com/gitlab-org/gitlab-ce/boards/814228?label_name[]=idea-to-production).
 
-# Preparation
+## Preparation
 
 > - Disable desktop notifications (on a Mac, top-right corner, option click).
 > - Open up new browser window so the audience doesn’t see all your other open tabs.
@@ -44,7 +44,7 @@ issues](https://gitlab.com/gitlab-org/gitlab-ce/boards/814228?label_name[]=idea-
 > - If displaying full-screen, go to 'Displays' settings, Resolution: Scaled, Larger text.
 > - Consider opening this page on an iPad that has screen lock disabled.
 
-# GitLab installation
+## GitLab installation
 
 There are four options:
 
@@ -66,7 +66,7 @@ is ever leaked, there would be little benefit to anybody using it who shouldn't 
 > * Click `Save`
 > * Log out as administrator-->
 
-# Project set up
+## Project set up
 
 ## Cleanup
 
@@ -151,7 +151,7 @@ Permissions, merge request approvals, and protected branches help you build
 quality control into your development process so you can confidently hand GitLab
 over to your developers to get started on turning their ideas into a reality.
 
-# Plan to Monitor (formerly Idea to Production) (main demo)
+## Plan to Monitor (formerly Idea to Production) (main demo)
 
 ## Issue (Plan)
 
@@ -236,7 +236,6 @@ the language and framework and build an appropriate Docker image.
 
 #### (optional: if CI/CD is taking a while)
 
-
 While it’s running, we can head back to our Kubernetes console to see that our
 GitLab Runner is working directly with Kubernetes to spawn new containers for
 each job, as they are needed. It even creates a namespace for the project,
@@ -269,7 +268,6 @@ and other quality problems. Catching these types of problems early makes them
 
 ##### (optional: requires GitLab Ultimate)
 
-
 > - Click back (to pipeline view)
 > - Click `container_scanning`
 
@@ -280,7 +278,6 @@ application is running in as secure an environment as possible from the start.
 ### Dependency scanning (Security)
 
 ##### (optional: requires GitLab Ultimate)
-
 
 > - Click back (to pipeline view)
 > - Click `dependency_scanning`
@@ -294,7 +291,6 @@ development gets too far.
 
 ##### (optional: requires GitLab Ultimate)
 
-
 > - Click back (to pipeline view)
 > - Click `license_management`
 
@@ -306,7 +302,6 @@ early, before it is more costly to change.
 ### Static Application Security Testing (Security)
 
 ##### (optional: requires GitLab Ultimate)
-
 
 > - Click back (to pipeline view)
 > - Click `sast`

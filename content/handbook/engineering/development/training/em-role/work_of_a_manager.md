@@ -9,8 +9,6 @@ title: Work Of A Manager
 
 * TOC
 
-
-
 ## The what and the why
 
 _What does your manager do all day? What would it mean to become one?_
@@ -126,25 +124,23 @@ This is of course not an exhaustive list, but an illustration.
   * Translate company business goals into organization-level, actionable project ideas
   * Bring bottom-up initiatives to higher-level attention
 
-
 </details>
 
 ## Exercise 2: relative importance of activities
 
-Say you have some tasks ready to go in each box. 
+Say you have some tasks ready to go in each box.
 
-* Where should you focus your attention? What about over a longer period? 
+* Where should you focus your attention? What about over a longer period?
 * What happens if you don’t do some of this for a day, a month, or a year?
 * How do you ensure that nothing important is forgotten?
 
 ## Exercise 3: quality control
 
-Where in the matrix was your attention in the recent past? Where _wasn't_ it? 
+Where in the matrix was your attention in the recent past? Where _wasn't_ it?
 
 * What was the reason?
 * What was the effect?
 * What are some situations that require more focus on one box, rather than another?
-
 
 ## References
 

@@ -24,12 +24,11 @@ Please use the  [**Mutual Customer Success Plan Template**](https://docs.google.
 
 Please use the [**Commercial Customer Success Plan Template**](https://docs.google.com/presentation/d/18D2cGJKH5_qIPBwcoy24ORfiBNqw_sKr9VGnOxeqwOc/edit#slide=id.g24cd733349c_7_898) for all High Velocity or Commercial opportunities.
 
-
 ## Why Use a Mutual Customer Success Plan (CSP)
 
 ### Primary Objectives
 
-As a follow on to the [Technical Close Plan process](https://handbook.gitlab.com/handbook/solutions-architects/sa-practices/technical-close-plan/), the Technical Close Plan can be converted into, or utilized as a Mutual Customer Success Plan, with these aims:
+As a follow on to the [Technical Close Plan process](/handbook/solutions-architects/sa-practices/technical-close-plan/), the Technical Close Plan can be converted into, or utilized as a Mutual Customer Success Plan, with these aims:
 
 1. For the **Customer**: To be prescriptive on a phased successful adoption of GitLab, including architecture recommendations, deployment, migration, integration, onboarding users and applications at scale, along with recommendations for any automation processes as well as dashboards and monitoring.  As an SA you should always collaborate with the customer, to create the Mutual Success plan and help them understand, preliminary, what is involved in adopting GitLab as their AI powered DevSecOps Unified Platform,  from not only a technological or deployment pont of view, but from a people and process point of view.
 
@@ -39,11 +38,9 @@ As a follow on to the [Technical Close Plan process](https://handbook.gitlab.com
 
 4. For the **Go To Market Team**:  When a GitLab executive sponsor or anyone in the GTM or customer support needs to be engaged, the Mutual CSP acts as a source of truth to provide context between the customer's and Gitlab's interactions.
 
-
 ## When to Create a Mutual Customer Success Plan
 
 A Mutual Customer Success Plan should be initiated once the opportunity has completed Stage-3 Technical Evaluation, with a technical win.  This is when an SA begins to prescribe what a phased adoption and customer adoption journey would look like, in collaboration with the customer.
-
 
 ### Which Opportunities Should Have a Mutual Customer Success Plan?
 
@@ -96,10 +93,9 @@ Here is a quick reference on what content elements are in a Technical Close Plan
 
 ### At a High Level What is the Customer Success Plan Process
 
-The Customer Success Plan process is outlined [here](https://handbook.gitlab.com/handbook/solutions-architects/processes/#customer-success-plan).
+The Customer Success Plan process is outlined [here](/handbook/solutions-architects/processes/#customer-success-plan).
 
 Please pay attention to the responsibility of the SA to update the opportunity in Sales Force with the Customer Success Plan URL as appropriate.
-
 
 ### How To Build a Technical Close Plan and Transition to a Customer Success Plan
 
@@ -150,7 +146,7 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
      - *Meeting Prep*
        - For Meeting Prep, work with your Account Executive, to shore up **"2. What We have Heard"** so far.
        - Start to develop your **"8. Technical Evaluation Plan &  Activities"**, that is, what exactly will be done to achieve a Technical Win and Decision.
-     - *During the Meeting*  
+     - *During the Meeting*
        - During the third meeting Present an updated **"2. What We have Heard"** so far
        - Present the **"5. Current and Proposed Workflow Diagrams"** and solicit feedback and discussion.
        - Present the **"6. Applications & Use Cases/ Risks & Mitigations"** and solicit feedback and discussion.
@@ -220,8 +216,7 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
 
 ### The CSM and the Customer Success Plan
 
-[Click here to learn more about the CSM's responsibity with respect to Customer Success Plans](https://handbook.gitlab.com/handbook/customer-success/csm/success-plans/).
-
+[Click here to learn more about the CSM's responsibity with respect to Customer Success Plans](/handbook/customer-success/csm/success-plans/).
 
 ## Resources
 

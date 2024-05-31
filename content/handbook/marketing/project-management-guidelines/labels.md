@@ -59,9 +59,10 @@ When creating a Label name, use the smallest possible number of characters. Labe
 ### Provide detailed descriptions
 
 When you create a Label, ensure that the Description field contains the following information:
-* When the Label should be applied
-* Purpose or Goal
-* DRI
+
+- When the Label should be applied
+- Purpose or Goal
+- DRI
 
 This information will be presented in a tooltip above the Label throughout the UI.
 
@@ -101,7 +102,6 @@ should be performed by the Label's DRI (should be listed in the Label descriptio
 
 If you are the DRI and wish to delete a Label, follow the following steps:
 
-* Append the 'DEPRECATE_' tag to your Label (e.g., 'pMm' becomes 'DEPRECATE_pMm').
-* Socialize the change within your group.
-* Wait a calendar month before deleting the Label.
-
+- Append the 'DEPRECATE_' tag to your Label (e.g., 'pMm' becomes 'DEPRECATE_pMm').
+- Socialize the change within your group.
+- Wait a calendar month before deleting the Label.

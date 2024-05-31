@@ -12,7 +12,6 @@ need to perform a security review of any JiHu contribution and explicitly approv
 [a number of repositories]({{< ref "jihu-support#projects" >}}).
 These contributions will be [auto labeled]({{< ref "jihu-contribution-process#jihu-contribution-identification" >}}) with the `JiHu contribution` label.
 
-
 ```mermaid
 graph TD
     A[JiHu Contribution Opened] -->|First merge request review approval| B(AppSec approval requested)

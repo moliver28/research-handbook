@@ -42,7 +42,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
     ```
 
     > It is also possible to disable these features by setting CI variables on the project, such as `DAST_DISABLE=true` and `SECRET_DETECTION_DISABLE=true`. Learn more in the <a target="_blank" href="https://docs.gitlab.com/ee/topics/autodevops/cicd_variables.html#job-disabling-variables">documentation</a>.
-
+    >
     > It is important to leave at least one job active in your `.gitlab-ci.yml` file. If there are no jobs defined in the pipeline, it will fail to run.
 
 ## Turn Off Auto DevOps
@@ -62,7 +62,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 ## Task A. Add Project Dependencies
 
 > Python-based projects often use pip for package management. With pip, developers will often provide a list of dependencies in a file called `requirements.txt`.
-
+>
 > Although this example uses Python with the pip package manager, GitLab supports various other package managers. For a full list of supported languages and package managers, click [here](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-package-managers).
 
 1. In your `Security Labs` project, navigate to **Code > Repository**.
@@ -71,7 +71,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 1. Set the Filename to `requirements.txt` and add the following text.
 
-    ```
+    ```text
     requests==2.27.1
     ```
 
@@ -80,7 +80,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 ## Task B. Enable Dependency Scanning
 
 > The Dependency Scanner will traverse your project dependencies looking for security vulnerabilities.
-
+>
 > You’ll enable Dependency Scanning by including a GitLab-provided template in your CI/CD configuration file. You can do this manually, or you can use the GitLab GUI to make a merge request that does it for you. Since you used the manual technique to enable SAST, Secret Detection, and DAST in the last lab, use the GUI to enable Dependency Scanning in this lab.
 
 1. Navigate to **Secure > Security configuration**.
@@ -118,7 +118,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
     > For a full list of variables available for dependency scanning, see the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#available-cicd-variables">documentation</a>.
 
-1. Commit this change to the **main** branch, using `Change log level for Python dependency scanner` as a commit message. Click **Commit changes**. 
+1. Commit this change to the **main** branch, using `Change log level for Python dependency scanner` as a commit message. Click **Commit changes**.
 
     > This commit triggers a pipeline run using your new Dependency Scanning configuration.
 

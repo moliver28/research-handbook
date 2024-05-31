@@ -11,6 +11,7 @@ This is a practice guide for a Solutions Architect (SA) to position Professional
 ## Types of Services
 
 GitLab provides a wide array of [Professional Services offerings](https://about.gitlab.com/services/) to accelerate the customer's time to value in GitLab platform adoption and maturing DevOps practices.  Service offerings range from standard instructor-led training to custom services packages that address a specific customer need.  Generally, Professional Services are sold in one of two ways:
+
 - via a sku on an order form - no SOW is needed for the customer to purchase these services; they can be added directly to an order form, in conjunction with a license purchase, when applicable.  the [Professional Services Catalog](https://about.gitlab.com/services/catalog/) has a full list of sku-based services offerings.  The most popular sku-based services are:
    - [GitLab Rapid Results - self-managed](https://about.gitlab.com/services/rapid-results/) for implementing GitLab in a cloud environment
    - [GitLab Migration+](https://about.gitlab.com/services/migration/migration-plus/) for migrating up to 500 projects and 1000 repositories from another git-based system to GitLab (SCM only - CI//CD is not included)
@@ -28,6 +29,7 @@ It is expected that the Solutions Architect lead in the positioning of Professio
 When an existing customer is interested in Professional Services and there is not a current license opportunity, the CSM would typically work with the AE/SAE to identify the appropriate services and custom scope any needs, when applicable.  The CSM and/or PS Engagement Manager may request SA assistance when the customer has specific questions regarding GitLab capabilities as they are considering Professional Services options, e.g. if a customer is considering migrating from self-managed to SaaS, they may have questions about the differences between self-managed GitLab features vs. using the SaaS platform, limitations of SaaS, SaaS security considerations, consumption fees, etc.
 
 We want to keep the customer experience in mind when people in multiple roles are interacting with the customer.  To this extent, it's important that:
+
 - we share information we've learned about the customer internally in preparation for any call with them - while we want to validate and extend the depth of understanding of a customer's situation, we should not be repeatedly asking them the same basic questions.
 - we act as a unified team helping the customer to reach their desired goals, documenting open questions, and following up with the appropriate team members to ensure that customer questions are being addressed.
 
@@ -40,10 +42,10 @@ As a guideline, team member responsibilities will break out as follows:
 | Customer Success Manager | Position PS options and perform initial customer discovery for customers without active license opportunities |
 | PS Engagement Manager | Elaborate on details of PS approach and different services options, answer questions about customer expectations for PS engagement and prerequisites and preparation, determine the final scope of work and generate an SOW, shephard SOW through an approval process, transition services engagements to the delivery team |
 
-
 ## Discovery for Custom Services Scoping
 
 To appropriately scope custom services engagements, the PS Engagement Manager will need details about the customer's current tool usage and the goals of GitLab.  Having a reasonable understanding of the customer needs ahead of a PS scoping call will help the PS Engagement Manager be efficient and productive in arriving at an appropriate services package that suits the customer's needs.  The PS Engagement Manager will provide guidance on what information is needed based on the specific scenario, but the list below is a reasonable starting point for most custom PS:
+
 - Number of users currently using GitLab (if applicable) and number of planned users when GitLab has been fully rolled out
 - Customer DevOps goals and priorities in adopting GitLab
 - What tools is the customer transitioning from and replacing with GitLab? SCM (GitHub, Bitbucket, Svn, Perforce, etc), CI/CD (Harness, Jenkins,...), Project Management (Jira,...), Container and/or package registries, other?

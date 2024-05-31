@@ -205,7 +205,7 @@ Here's a sample set of questions you can ask yourself when designing:
 - Is the content hierarchy and flow clear?
 - Are like items grouped and are groups clearly defined?
 - Does this content or functionality need to be visible all the time and for everyone?
-- Does this content or functionality need to be present in this context? Is it helpful *and* necessary?
+- Does this content or functionality need to be present in this context? Is it helpful _and_ necessary?
 - Does discovery allow a user to avoid mistakes or recover from them easily?
 - Is the structure in support of discovery and use of advanced capabilities?
 - Is this feature and/or capability even needed or used, or what would happen if it was removed?
@@ -228,7 +228,7 @@ When applying iterative design, you should consider the longer-term strategy or 
 - Ask for feedback from your PM throughout the design process to help refine your understanding of the problem and solution criteria.
 - Engage engineering peers early and often. Their insight into technical costs and feasibility is essential to determining viable designs and MVCs. Also, invite design feedback, especially if you’re solving for a development workflow they’re familiar with.
 - Ask for feedback from other Product Designers in [Design Reviews](#design-reviews) to help improve your work. At minimum, you'll get objective feedback and new ideas that lead to better solutions. You might also get context you didn’t know you were missing, such as GitLab-specific or industry-standard design conventions.
-- Collaborate with your group's Technical Writer when the work involves substantial UI text, such as user-assistance or links back to documentation. For details on how to collaborate, see the [UI text Planning and authoring](/handbook/product/ux/technical-writing/workflow/#ui-text) section of the Technical Writing handbook. Additionally, involve your technical writer in the [review process](#technical-writer-ui-text-reviews) for smaller copy changes, such as UI elements labels.
+- Collaborate with your group's Technical Writer when the work involves substantial UI text, such as user-assistance or links back to documentation. For details on how to collaborate, see the [UI text Planning and authoring](/handbook/product/ux/technical-writing/workflow/#ui-text) section of the Technical Writing handbook. Additionally, involve your technical writer in the [review process](#who-to-include-in-design-reviews) for smaller copy changes, such as UI elements labels.
 - For a significant UX change, like a new workflow or feature, include your Product Design Manager in feedback sessions, as they might have input into the overall direction of the design or knowledge about initiatives on other teams that might impact your own work.
 - If the team does not have a high level of confidence in a direction, there are multiple design solutions, or the direction is a significant risk, [validate](/handbook/product-development-flow/#validation-phase-4-solution-validation) your proposed solution with customers/users by leveraging [ux research methods](/handbook/product/ux/ux-research/solution-validation-and-methods/). If the team has a high level of confidence in a direction or design solution and the risk is low, it's fine to gather feedback from customers only after releasing the MVC.
 - Use the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist) to help you think through how your design will read, look, and behave.
@@ -438,7 +438,7 @@ Our primary design tool is [Figma](https://www.figma.com/). As a product designe
 Anyone else in GitLab can access your files when you either share the file URL or invite them directly via email, but we ask that you only give them “can view” permissions. Anyone with “can edit” permissions is considered a paid seat and must have approval. A user with “can view“ permission will still be able to comment on and inspect design files.
 
 If you want to invite team members to collaborate on your FigJam boards, you can do this by starting an [open session](https://help.figma.com/hc/en-us/articles/4410786053911-Invite-visitors-to-an-open-session). This feature allows for team members with or without a FigJam license to have edit access as long as the board has been enabled for an open session and the link for the board is shared with them. Open sessions will only run for **24 hours** at a time. If you want team members to be able to edit your files across multiple days, you will need to restart the open session each day.
-If there are concerns about keeping information on your Figjam board SAFE, you can add [password protection](https://help.figma.com/hc/en-us/articles/5726720100247-Add-password-protection-to-files). That way only those with the password can edit the board when the open session is enabled. 
+If there are concerns about keeping information on your Figjam board SAFE, you can add [password protection](https://help.figma.com/hc/en-us/articles/5726720100247-Add-password-protection-to-files). That way only those with the password can edit the board when the open session is enabled.
 
 GitLab has a public Figma profile where anyone can duplicate or remix files we have published. You can view our profile under the Community tab of the GitLab team section, or navigate to https://www.figma.com/@GitLab.
 
@@ -457,7 +457,4 @@ Figma has four levels of access, also called Permissions, for Professional teams
 
 Figma's cloud storage contains all design files under our Organization account and only the Pajamas UI Kit files are published to our [GitLab Product Design](https://www.figma.com/@gitlabdesign) community page and available publicly. It's recommended that you back up any non-confidential design files you'd like to have a record of for future reference or portfolio use by saving a .fig file and storing via your preferred method.
 
-[ux-guide]: https://docs.gitlab.com/ee/development/ux_guide/
 [gitlab-design-project-contribution-guidelines]: https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md
-[twitter-sheet]: https://docs.google.com/spreadsheets/d/1GDAUNujD1-eRYxAj4FIYbCyy8ltCwwIWqVTd9-gf4wA/edit
-[product-dev-flow]: /handbook/product-development-flow/

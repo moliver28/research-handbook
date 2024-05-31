@@ -59,7 +59,7 @@ Docker is a platform commonly used by developers to build container applications
 
 1. In the **Commit message** field, type `Add "build image" job definition`, ensure the **Target Branch** is set to `main`, and click **Commit changes**.
 
-### Task C: Ensure the Pipeline is Running 
+### Task C: Ensure the Pipeline is Running
 
 1. Go to **Build > Pipelines**. Click the most recent pipeline run.
 

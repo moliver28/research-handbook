@@ -118,7 +118,6 @@ Please use the following labels for **general work only**:
 | `~"☁️ SecLog"`             | Team Label (to be included in every project-related issue)      |
 | `~"SecLog::Incoming-Requests"`       | For new issues which need to be triaged                         |
 
-
 ### Design Documents
 
 Before starting a new project, the team is **encouraged**
@@ -136,7 +135,7 @@ com/gitlab-com/gl-security/security-operations/infrastructure-security/team-char
 
 The following roles and responsibilities are specific to the management and execution of the Security Logging Program which is overall the responsibility of the Product Security sub-department.
 
-### Security Logging is responsible for:
+### Security Logging is responsible for
 
 - Ownership of, management, and maintenance of our SIEM
 - Coordinating and executing log source ingestion
@@ -146,7 +145,7 @@ The following roles and responsibilities are specific to the management and exec
 - The data movement and archive of security logging data currently held in Panther
 - Capacity planning and forecasting of licensing and infrastructure costs, as a shared responsibility with InfraSec
 
-### AppSec is responsible for:
+### AppSec is responsible for
 
 - Working closely with Development to ensure the Security Logging Standard is adopted and followed
 - Advising SecLogging when log formats will change, prior to the change occurring, if known
@@ -155,7 +154,7 @@ The following roles and responsibilities are specific to the management and exec
 - Helping to identify logging gaps in the application and proposing solutions to close the gaps
 - Aiding and guiding engineering teams that design, develop, or deploy something new on what to log and how to get the logs into the SIEM. This includes logs that SIRT needs to complete investigations.
 
-### InfraSec is responsible for:
+### InfraSec is responsible for
 
 - Working closely with Infrastructure to ensure the Security Logging Standard is adopted and followed
 - Advising SecLogging when log formats will change, prior to the change occurring, if known
@@ -165,7 +164,7 @@ The following roles and responsibilities are specific to the management and exec
 - Aiding and guiding engineering teams that design, develop, or deploy something new on what to log and how to get the logs into the SIEM. This includes logs that SIRT needs to complete investigations.
 Capacity planning and forecasting of licensing and infrastructure costs, as a shared responsibility with Security Logging
 
-### SIRT is responsible for:
+### SIRT is responsible for
 
 - The management and ownership of Panther until it is decommissioned
 - Ensuring that they have the logging data needed to effectively and efficiently execute their responsibilities as incident responders
@@ -179,7 +178,7 @@ Capacity planning and forecasting of licensing and infrastructure costs, as a sh
   - Require more verbosity
   - Have efficiency opportunities (e.g. we only use a small portion of sizable logs)
 
-### Everyone else across Security is responsible for:
+### Everyone else across Security is responsible for
 
 - Making requests of the Security Logging Team for logs that you need to execute your responsibilities, we will have a documented process for this soon
 - Submitting issues to SIRT when you have detection suggestions where we have a high return on investment

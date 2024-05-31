@@ -105,7 +105,7 @@ The Intern will have a Primary Mentor, however any of these responsibilities can
 
 - Complete Onboarding Issue first week items
 - Review Plan pages in handbook
-    - [Frontend Plan Team](/handbook/engineering/development/dev/plan-project-management/)
+    - [Frontend Plan Team](/handbook/engineering/development/dev/plan/project-management/)
     - [Plan Stage Page](https://about.gitlab.com/stages-devops-lifecycle/plan/)
 - Follow the Internship Day to Day Activities
 - Review long term Project

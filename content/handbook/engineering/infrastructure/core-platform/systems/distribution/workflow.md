@@ -5,12 +5,6 @@ title: "Distribution Team Workflow"
 description: "Overview of how work is performed by Distribution Engineers, for Omnibus, Helm and other Engineering projects."
 ---
 
-
-
-
-
-
-
 ## Common links
 
 * [Engineering Team Workflow](/handbook/engineering/workflow/)
@@ -31,45 +25,45 @@ The distribution team is comprised of two groups, Distribution:Build and Distrib
 
 ### Distribution Build tasks
 
-- Maintain all team pipelines for all Distribution projects
-- Research for the support of new clouds, platforms, architecture, and components
-- Access controls, permissions, and CVE patches
-- Team infrastructure/resource management
-- Dependency updates
-- License management
-- Submissions to Partners for validations/certifications
+* Maintain all team pipelines for all Distribution projects
+* Research for the support of new clouds, platforms, architecture, and components
+* Access controls, permissions, and CVE patches
+* Team infrastructure/resource management
+* Dependency updates
+* License management
+* Submissions to Partners for validations/certifications
 
 ### Distribution Deploy tasks
 
-- Initial installation and composability
-- Upgrades / Downgrades
-- Scaling deployments
-- Migration between platforms or providers
-- Data lifecycle management
-- Secure configuration & communication
-- Research of clouds and platforms for integration to existing tools
+* Initial installation and composability
+* Upgrades / Downgrades
+* Scaling deployments
+* Migration between platforms or providers
+* Data lifecycle management
+* Secure configuration & communication
+* Research of clouds and platforms for integration to existing tools
 
 ## Work prioritization
 
 Work to be completed by the Distribution team members who are not currently
 acting as the [Distribution DRI](#distribution-dri) is prioritized as follows:
 
-Priority level | Work item
--|-
-1 | Unblock in-review `~priority::1` Merge Requests
-1 | Pick up `~priority::1` [Merge Requests for review][MR dashboard]
-1 | Work on in-progress `~priority::1` [Deliverable Issues][Deliverable board]
-1 | Pick up available `~priority::1` [Deliverable Issues][Deliverable board]
-2 | Unblock remaining in-review Merge Requests
-3 | Work on in-progress `~priority::2` [Deliverable Issues][Deliverable board]
-3 | Pick up [SLO-breaching][SLO] [Merge Requests for review][MR dashboard]
-4 | Pick up [SLO-near-breaching][SLO] [Merge Requests for review][MR dashboard]
-5 | Pick up available `~priority::2` [Deliverable Issues][Deliverable board]
-6 | Work on in-progress `~priority::3` [Deliverable Issues][Deliverable board]
-6 | Pick up available `~priority::3` [Deliverable Issues][Deliverable board]
-6 | Pick up [SLO-non-breaching][SLO] [Merge Requests for review][MR dashboard]
-7 | Work on in-progress `~priority::4` [Deliverable Issues][Deliverable board]
-7 | Pick up available `~priority::4` [Deliverable Issues][Deliverable board]
+| Priority level | Work item |
+| -|- |
+| 1 | Unblock in-review `~priority::1` Merge Requests |
+| 1 | Pick up `~priority::1` [Merge Requests for review][MR dashboard] |
+| 1 | Work on in-progress `~priority::1` [Deliverable Issues][Deliverable board] |
+| 1 | Pick up available `~priority::1` [Deliverable Issues][Deliverable board] |
+| 2 | Unblock remaining in-review Merge Requests |
+| 3 | Work on in-progress `~priority::2` [Deliverable Issues][Deliverable board] |
+| 3 | Pick up [SLO-breaching][SLO] [Merge Requests for review][MR dashboard] |
+| 4 | Pick up [SLO-near-breaching][SLO] [Merge Requests for review][MR dashboard] |
+| 5 | Pick up available `~priority::2` [Deliverable Issues][Deliverable board] |
+| 6 | Work on in-progress `~priority::3` [Deliverable Issues][Deliverable board] |
+| 6 | Pick up available `~priority::3` [Deliverable Issues][Deliverable board] |
+| 6 | Pick up [SLO-non-breaching][SLO] [Merge Requests for review][MR dashboard] |
+| 7 | Work on in-progress `~priority::4` [Deliverable Issues][Deliverable board] |
+| 7 | Pick up available `~priority::4` [Deliverable Issues][Deliverable board] |
 
 Use this prioritization outline as a general guide when determining what to do each day. This list helps direct
 work toward overall team priorities and goals laid out by the team managers.
@@ -160,7 +154,7 @@ will be assigned directly and deadlines set by the EM.
 
 ## Distribution DRI
 
-In order to minimize disruption and context switching for team members, Distribution designates one engineer on a weekly rotation basis (DRI, Directly Responsible Individual), who will be responsible for the following duties during their normal office hours. For urgent requests outside of those hours, it will be handled via the [on call process](/handbook/on-call/).
+In order to minimize disruption and context switching for team members, Distribution designates one engineer on a weekly rotation basis (DRI, Directly Responsible Individual), who will be responsible for the following duties during their normal office hours. For urgent requests outside of those hours, it will be handled via the [on call process](/handbook/engineering/on-call/).
 
 ### Expectation
 
@@ -172,22 +166,24 @@ The Distribution DRI works on the following areas per the order of the list.
 
 #### During the week
 
-1. Support production incident
-1. [Support customer request and call](/handbook/engineering/infrastructure/core-platform/systems/distribution/#engaging-distribution-for-expertise-in-support) ([Issue list](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/?sort=created_date&state=opened&label_name%5B%5D=support%20request&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ADistribution%20Build&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ADistribution%20Deploy&first_page_size=20))
-1. Answer or redirect questions in Slack channel [#g_distribution](https://gitlab.slack.com/archives/C1FCTU4BE)
-1. [Triage issues](/handbook/engineering/infrastructure/core-platform/systems/distribution/triage.html)
-1. Response `@gitlab-org/distribution` group mention in GitLab
-1. ***Optional***: work on `Deliverable`
-1. Work on any Distribution topic inspiring you the most
+1. Support incidents escalated from production.
+1. [Support customer requests](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/#engaging-distribution-for-expertise-in-support)
+    * ([Distribution support request issues](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/?sort=created_date&state=opened&label_name%5B%5D=support%20request&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ADistribution%20Build&or%5Blabel_name%5D%5B%5D=Help%20group%3A%3ADistribution%20Deploy&first_page_size=20)).
+1. Answer or redirect questions in [#g_distribution](https://gitlab.slack.com/archives/C1FCTU4BE) Slack channel.
+1. [Perform issue triage](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/triage/).
+1. Respond to `@gitlab-org/distribution` group mentions in GitLab.
+1. **Optional:** Work on deliverables for the current milestone or other Distribution related tasks.
 
 #### Handover
 
-If any request is still on going by the end of the week, the DRI should consider one of the following with their best judgement:
-
-1. Close the request with mitigation and open a follow-up issue to be triaged by our regular triage process.
-1. Update the request with a comment to hand it over to the next week's DRI.
-1. It might be the most efficient way to continue with the request as a SME, however, it is still highly encouraged to hand it over with documentation for knowledge sharing if feasible.
-1. Discuss anything else with the upcoming DRI.
+1. Close the assigned DRI issue.
+1. Rotate your name to the end of [the shift assignment list](https://docs.google.com/document/d/1ny8dB9N_jlt9cGCkNXlN5GpjTkOePUKvi-lnON2jBdA/edit#bookmark=id.nzrf04qngt3n).
+1. Create a new issue for the next shift and assign it to the next team member on the list. The issue title should be `Distribution DRI rotation week of <starting date>`. Use the `Distribution-DRI` template to fill in the description.
+1. For requests still active at the time of handoff, the DRI should use best judgement and consider one or several options:
+    * Close the request with a documented mitigation and open a follow-up issue.
+    * Add a comment that hands off the request to the next week's DRI.
+    * Continue to act as SME, though handoff to the next DRI with clear documentation to share knowledge is strongly preferred.
+    * Pass information to the next DRI in a synchronous conversation.
 
 ### Other team members
 
@@ -235,7 +231,7 @@ For new OS release, Distribution team aims to provide Linux package support per 
 
 ## Interviews
 
-See the [`hiring-process`](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/Platforms/Distribution)
+See the [`hiring-process`](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/CorePlatforms/Distribution)
 project for information on conducting interviews for positions on the Distribution team.
 
 [SLO]: https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#service-level-objective

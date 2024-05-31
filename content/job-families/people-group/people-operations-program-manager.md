@@ -186,4 +186,3 @@ Candidates for this position can expect the hiring process to follow the order b
 - May request for additional interview time.
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring).
-

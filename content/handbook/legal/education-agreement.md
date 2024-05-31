@@ -123,15 +123,3 @@ This Education Program Agreement (“Agreement”) is between GitLab Inc. with o
 11.7 This Agreement and all relations, disputes, claims and other matters arising hereunder (including non- contractual disputes or claims) shall be governed exclusively by, and construed exclusively in accordance with, the laws of the State of California, without regard to conflicts of laws provisions. To the extent permitted by law, choice of laws rules and the United Nations Convention on Contracts for the International Sale of Goods shall not apply. For the purposes of adjudicating any action or proceeding to enforce the terms of this Agreement, the Parties hereby irrevocably consent to the exclusive jurisdiction of, and venue in, the courts of San Francisco county, California.
 
 11.8 If any provision of this Agreement is judicially declared to be invalid, unenforceable or void, such decision shall not have the effect of invalidating or voiding any portion of the remainder of this Agreement, it being the intent and agreement of the Parties that this Agreement shall be deemed amended by modifying such provision to the extent necessary to render it valid, legal and enforceable while preserving its intent or, if such modification is not possible, by substituting therefor another provision that is valid, legal and enforceable and that achieves the same objective.
-
-
-
-
-
-
-
-
-
-
-
-

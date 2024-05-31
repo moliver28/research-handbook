@@ -40,8 +40,6 @@ The Progam Manager, TA Enablement is a [grade 6](/handbook/total-rewards/compens
 - Ability to use GitLab
 - Aligns with GitLab values
 
-
-
 ### Senior Program Manager, Global TA Enablement
 
 The Senior Program Manager, Enablement reports to the Senior Manager, Global Enablement.
@@ -77,8 +75,6 @@ The Senior Progam Manager, Global TA Enablement is a [grade 7](/handbook/total-r
 - Ability to use GitLab
 - Aligns with GitLab values
 
-
-
 ### Manager, Global TA Enablement
 
 The Manager, Global TA Enablement reports to the Senior Director of Talent Brand & Talent Acquisition Enablement.
@@ -101,7 +97,6 @@ The Manager, Global TA Enablement is a [grade 8](/handbook/total-rewards/compens
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
 
-
 #### Manager, Global TA Enablement Requirements
 
 - Exceptional cross-functional communication and organization skills, and demonstrated experience in time-management and ability to influence
@@ -112,7 +107,6 @@ The Manager, Global TA Enablement is a [grade 8](/handbook/total-rewards/compens
 - Robust time management, communication and organizational skills
 - A team player with excellent client management skills
 - Ability to use GitLab
-
 
 #### Manager, Global TA Enablement Performance Indicators
 
@@ -144,7 +138,6 @@ The Senior Manager, Global TA Enablement is a [grade 9](/handbook/total-rewards/
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
 
-
 #### Senior Manager, Global TA Enablement Requirements
 
 - Ability to develop TA enablement strategy and roadmap and drive cross-functional partners to deliver on plans
@@ -156,12 +149,8 @@ The Senior Manager, Global TA Enablement is a [grade 9](/handbook/total-rewards/
 - A team player with excellent client management skills
 - Ability to use GitLab
 
-
 #### Senior Manager, Global TA Enablement Performance Indicators
 
 - [Average candidate ISAT](/#interviewee-satisfaction-isat)
 - [Hires vs. Plan](/#hires-vs-plan)
 - [Time to Offer Accept](/#time-to-offer-accept-days)
-
-
-

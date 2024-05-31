@@ -1,19 +1,11 @@
 ---
-
 title: "Professional Services EM Implementation Scoping"
 description: "Describes the process for scoping GitLab implementations."
-
 ---
-
-
-
-
-
-
 
 `:warning: This page is under construction`
 
-# Implementation Scoping Details
+## Implementation Scoping Details
 
 - We have scoped several different reference architectures in the past.  Examples can be found in the [Deployment Equations tab of the Engagement Estimates TEMPLATES document](https://docs.google.com/spreadsheets/d/1YKMyflzsA-VPEVobB82zC8-n0hlC-uRBtiNB7Fm-kZg/edit#gid=1929043076).
 
@@ -26,7 +18,6 @@ description: "Describes the process for scoping GitLab implementations."
 - K8s implementations are generally the same effort as VM implementations, for the same sized reference architecture.
 
 - [GitLab System Administration Basic](https://about.gitlab.com/services/education/admin/) and [GitLab Advanced System Administration](https://about.gitlab.com/services/education/admin/) training classes are typically included in the project scope for implementations.  These courses provide foundational concepts for configuring, administering, and troubleshooting GitLab for both single node Omnibus and HA implementations.  At this time, we do not recommend these classes for any Kubernetes implementation as the course content does not reflect the [kube-specific commands](https://docs.gitlab.com/ee/administration/troubleshooting/kubernetes_cheat_sheet.html) that users need to run for Kubernetes implementations.  Customers will get "trained" on backup/restore and upgrade activities during the standard implementation activities.  Additional consulting days/post-deployment Q&A sessions can be added to scope to help the customer ramp on any administration topics.
-
 
 - Our PSE team uses infrastructure as code automation for provisioning infrastructure and configuring the provisioned servers.  The tooling is managed in the [Proliferate](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/proliferate) project.  The project readme has information on what infra as code we currently support.  Note, this is different than the open sourced [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) used by our QA team for provisioning new systems using Terraform and Ansible.
 
@@ -53,10 +44,3 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA/S
 | GitLab, by default, terminates encryption at the load balancer and does not use encryption in transit between GitLab components.  Is this encryption method sufficient or will encryption in transit between the components be required? | to-do | Require SSL between all components | If we need to enable SSL in between all components, the configuration takes longer and needs to be accounted for in the engagement estimate. |
 | Does the customer require highly available git storage? | to-do | No, we can use a strong backup/restore policy to reduce maintainability burden | GitLab has a feature called gitaly cluster that replicates git data across many gitlay nodes to ensure the git data is highly available. This feature requires a minimum of 10 additional nodes to the deployment architecture and thus comes with additional maintenance burden. This tradeoff should be considered so we can scope the engagement accurately. |
 | For non-cloud and non-kubernetes deployments, what is the hypervisor (e.g. VMWare) that the customer will use for managing VMs? | to-do | N/A - using AWS | This helps us understand if we have the skillset internally to deliver or if we need to work with a partner for fringe hypervisors. |
-
-
-
-
-
-
-

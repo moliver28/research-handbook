@@ -36,11 +36,9 @@ What is a timeline to create a US leadership KPI and/or OKR?
 
 These breakouts are currently found [here]({{< ref "identity-data" >}})
 
-
 ## Past Goals
 
 Currently no past goals to attribute here
-
 
 **Due to data and or legal limitations, this is not an exhaustive list of all of our underrepresented groups. Those with disabilities, those that identify as LGBTQIA+, etc. who choose not to disclose or underrepresented ethnicities outside of the US.
 

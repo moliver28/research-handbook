@@ -104,6 +104,14 @@ Team members in Denmark can also access the [public healthcare system](https://w
 
 Team members can expense up to $250 for eye examination and glasses if they require corrective eyeware to work at a computer screen for extended periods of time. (Login required to see [policy](https://support.remote.com/hc/en-us/articles/20050865403149-Screen-Work-Eye-Examination))
 
+### Eye Examination and Corrective Lenses
+
+Team Members who spend a significant portion of their working hours in front of a screen are entitled to receive an eye and vision examination. This examination should be conducted by either an optician or an ophthalmologist. The employer is responsible for covering the cost of this examination, and every effort should be made to schedule it during regular working hours.
+
+In cases where the Team Member requires corrective eyewear, the employer is obligated to provide, at a minimum, one standard frame with lenses or standard contact lenses at no expense to the Team Member.
+
+Remote has implemented a self-service model to facilitate this process, with a budget allocation of $250 USD to cover frame with lenses or standard contact lenses. This approach allows employees to independently arrange their eye examinations, purchase necessary eyeglasses, and then submit their expenses for reimbursement through the Remote platform.
+
 ### Pension
 
 Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). The team member will contribute 4% of the monthly base salary, with the Employer contributing 8% of the team members monthly base salary. The contribution to the pension savings plan will be paid directly into the pension plan in conjunction with the Employer’s payment of the monthly salary to the team member.
@@ -225,6 +233,7 @@ This plan has required enrollment for all employees. There is no opt-out option.
 Example for 2024 Income Base Amount:
 
 An employee with an annual salary of 800 000 SEK.
+
 - the 2024 IBA (income base amount) is 76 200 SEK. This means that 7,5 IBA x 76 200 is= 571 500
 - Up to a salary of 571 500 the employee has 4,5% contribution (coming from the employer), and above 571 500 (up to 800 000) they have a 30% contribution. There is also a roof of 30% IBA, so if an employee has an annual salary over 30 IBA (2 286 000 SEK), there would be no contribution beyond that level.
 To the top of that amount, 24,26% taxes should be added.
@@ -398,6 +407,7 @@ In addition to maternity and paternity leave, parents can take extended unpaid p
 Below is the information related to Italy's statutory leave policies.  Please note that team members hired in Italy are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
 
 = **Adoption leave:** upon adoption of a child, employees are entitled to 3 months of maternity or paternity leave and employees are entitled to the same financial benefits of natural children. Parents can also take parental leave in the first three years the child is in the family for same periods and financial benefits. Applies to both parents
+
 - **Work-related Injust leave:**  collective bargaining agreements or individual contracts generally provide for a period paid time off in the case of work injury. The period is generally between 6 and 12 months and applies for both a single period of sick leave and multiple periods. The employee is entitled to keep their job and receive their salary in proportion to the period set out in the collective bargaining agreement or individual employment contract.
 
 ## Switzerland
@@ -513,6 +523,18 @@ Employees in Mexico are covered by the Social Security Law, under IMSS who is re
 ### Life Insurance
 
 - Life insurance cover provided via Remote. Effective January 1, 2024, all Team Members will be enrolled in the Remote Global Life Insurance plan with a cover level of 200,000 USD at no cost to the team member.
+
+### Monthly Remote Working Allowances
+
+Team members in Mexico will receive a monthly allocation of 1100 MXN for internet and electricity to support their remote work. These reimbursements are tax-exempt and will be reflected as a separate line item on your payslips to cover remote working expenses such as internet and electricity.
+
+- If remote work related expenses for internet and electricity are greater than the 1100 MXN allowance team members can expense the difference for reimbursement. For expenses over the allowance team member's will need to upload all receipts for proper reimbursement.
+- Use Expense code: `Work From Home` for the additional expenses.
+
+### Ergonomic Chair Allowance
+
+- Team members are entitled to a one-time claim up to 3000 MXN for the purchase of an ergonomic chair to support their comfort and health while working remotely.
+- Follow the reimbursement procedure outlined in the [NAVAN policy](/handbook/finance/expenses/#equipment) for reimbursement.
 
 ### Christmas Bonus (Aguinaldo)
 

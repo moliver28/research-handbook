@@ -21,7 +21,6 @@ The GitLab's Gente TMRG provides a safe space for every GitLab Team member withi
 
 To promote advancement, cultural awareness, talent recruitment, retention, and professional development for Latinx individuals by giving a voice to the diverse backgrounds of the Latinx community in order to ensure the GitLab messaging continues to reflect its core values of Diversity, Inclusion & Belonging.
 
-
 ## Leads
 
 - [Pilar Mejia](https://gitlab.com/pmejia)
@@ -38,7 +37,6 @@ To promote advancement, cultural awareness, talent recruitment, retention, and p
 - [Josh Lemos](https://gitlab.com/joshlemos)
 
 ## Upcoming Events
-
 
 - Gente TMRG Monthly Call: Monthly on the first Thursday 6:00pm – 6:25pm UTC [Notes](https://docs.google.com/document/d/12dYSDjiVvFt-c6UO9y350pFbrrK5Iq2o/edit)
 - Gente [Reverse AMA](/handbook/communication/ask-me-anything/#reverse-ask-me-anything) with CEO (Every 3-6 months): [Interest Form](https://docs.google.com/forms/d/19wwWuehn0PDtOwGq3Eh83hUbXWEEsawlhCZ4D-ecP_w/viewform?edit_requested=true)

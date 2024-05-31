@@ -90,7 +90,6 @@ important to those working within Zendesk:
 | `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
 | `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
 
-
 </details>
 <details>
 <summary>Categorization tags</summary>
@@ -798,7 +797,6 @@ So an example:
 | `sub_ss_ase`                   | The organization has an Assigned Support Engineer addon |
 | `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
 | `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
-
 
 </details>
 <details>

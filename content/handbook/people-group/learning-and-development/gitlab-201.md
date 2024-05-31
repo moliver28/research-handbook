@@ -70,7 +70,7 @@ In the epic, click the Add dropdown button.
 1. If there are multiple issues to be added, press the spacebar and repeat this step
 1. Click Add
 
-### Add an epic to an issue:
+### Add an epic to an issue
 
 For an existing issue, navigate to the side bar,
 
@@ -84,7 +84,7 @@ Once the desired epic has been selected, it will be shown on the issue like this
 
 ![issue sidebar](/images/handbook/people-group/epic_added_to_issue_4.png)
 
-### Helpful Tips:
+### Helpful Tips
 
 **Issues** - medium for collaborating on ideas and planning work in GitLab
 

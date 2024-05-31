@@ -29,6 +29,7 @@ Here's a bit about me:
 - My 2 favorite quotes are: “Take your job seriously, never take yourself seriously” & “A smooth sea never made a skilled sailor”
 
 ### Strengths
+
 **(Clifton Strengths assessment results)**
 
 - Individualization: You are intrigued by the unique qualities of each person. You have a gift for figuring out how different people can work together productively.

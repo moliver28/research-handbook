@@ -1,6 +1,6 @@
 ---
-generated_at: '2024-04-10T18:57:18Z'
-commit_sha: 421a9bf251c0
+generated_at: '2024-05-21T15:23:55Z'
+commit_sha: c2fe7602d44c
 contexts:
 - title: User profile navigation
   items:
@@ -9,46 +9,56 @@ contexts:
     icon:
     link: "/root"
     items: []
+    tags: []
   - id: activity_menu
     title: Activity
     icon: history
     link: "/users/root/activity"
     items: []
+    tags: []
   - id: groups_menu
     title: Groups
     icon: group
     link: "/users/root/groups"
     items: []
+    tags: []
   - id: contributed_projects_menu
     title: Contributed projects
     icon: project
     link: "/users/root/contributed"
     items: []
+    tags: []
   - id: personal_projects_menu
     title: Personal projects
     icon: project
     link: "/users/root/projects"
     items: []
+    tags: []
   - id: starred_projects_menu
     title: Starred projects
     icon: star-o
     link: "/users/root/starred"
     items: []
+    tags: []
   - id: snippets_menu
     title: Snippets
     icon: snippet
     link: "/users/root/snippets"
     items: []
+    tags: []
   - id: followers_menu
     title: Followers
     icon: users
     link: "/users/root/followers"
     items: []
+    tags: []
   - id: following_menu
     title: Following
     icon: users
     link: "/users/root/following"
     items: []
+    tags: []
+  tags: []
 - title: User settings
   items:
   - id: profile_menu
@@ -56,76 +66,92 @@ contexts:
     icon: profile
     link: "/-/user_settings/profile"
     items: []
+    tags: []
   - id: account_menu
     title: Account
     icon: account
     link: "/-/profile/account"
     items: []
+    tags: []
   - id: applications_menu
     title: Applications
     icon: applications
     link: "/-/user_settings/applications"
     items: []
+    tags: []
   - id: chat_menu
     title: Chat
     icon: comment
     link: "/-/profile/chat_names"
     items: []
+    tags: []
   - id: access_tokens_menu
     title: Access Tokens
     icon: token
     link: "/-/user_settings/personal_access_tokens"
     items: []
+    tags: []
   - id: emails_menu
     title: Emails
     icon: mail
     link: "/-/profile/emails"
     items: []
+    tags: []
   - id: password_menu
     title: Password
     icon: lock
     link: "/-/user_settings/password/edit"
     items: []
+    tags: []
   - id: notifications_menu
     title: Notifications
     icon: notifications
     link: "/-/profile/notifications"
     items: []
+    tags: []
   - id: ssh_keys_menu
     title: SSH Keys
     icon: key
-    link: "/-/profile/keys"
+    link: "/-/user_settings/ssh_keys"
     items: []
+    tags: []
   - id: gpg_keys_menu
     title: GPG Keys
     icon: key
-    link: "/-/profile/gpg_keys"
+    link: "/-/user_settings/gpg_keys"
     items: []
+    tags: []
   - id: preferences_menu
     title: Preferences
     icon: preferences
     link: "/-/profile/preferences"
     items: []
+    tags: []
   - id: comment_templates_menu
     title: Comment Templates
     icon: comment-lines
     link: "/-/profile/comment_templates"
     items: []
+    tags: []
   - id: active_sessions_menu
     title: Active Sessions
     icon: monitor-lines
     link: "/-/user_settings/active_sessions"
     items: []
+    tags: []
   - id: authentication_log_menu
     title: Authentication Log
     icon: log
     link: "/-/user_settings/authentication_log"
     items: []
+    tags: []
   - id: usage_quotas_menu
     title: Usage Quotas
     icon: quota
     link: "/-/profile/usage_quotas"
     items: []
+    tags: []
+  tags: []
 - title: Your work
   items:
   - id: projects_menu
@@ -133,16 +159,19 @@ contexts:
     icon: project
     link: "/dashboard/projects"
     items: []
+    tags: []
   - id: groups_menu
     title: Groups
     icon: group
     link: "/dashboard/groups"
     items: []
+    tags: []
   - id: issues_menu
     title: Issues
     icon: issues
     link: "/dashboard/issues?assignee_username=root"
     items: []
+    tags: []
   - id: merge_requests_menu
     title: Merge requests
     icon: merge-request
@@ -152,45 +181,57 @@ contexts:
       title: Assigned
       icon:
       link: "/dashboard/merge_requests?assignee_username=root"
+      tags: []
+      items: []
     - id: merge_requests_to_review
       title: Review requests
       icon:
       link: "/dashboard/merge_requests?reviewer_username=root"
+      tags: []
+      items: []
+    tags: []
   - id: todos_menu
     title: To-Do List
     icon: todo-done
     link: "/dashboard/todos"
     items: []
+    tags: []
   - id: milestones_menu
     title: Milestones
     icon: milestone
     link: "/dashboard/milestones"
     items: []
+    tags: []
   - id: snippets_menu
     title: Snippets
     icon: snippet
     link: "/dashboard/snippets"
     items: []
+    tags: []
   - id: activity_menu
     title: Activity
     icon: history
     link: "/dashboard/activity"
     items: []
+    tags: []
   - id: workspaces_menu
     title: Workspaces
     icon: cloud-terminal
     link: "/-/remote_development/workspaces"
     items: []
+    tags: []
   - id: environments_dashboard_menu
     title: Environments
     icon: environment
     link: "/-/operations/environments"
     items: []
+    tags: []
   - id: operations_dashboard_menu
     title: Operations
     icon: cloud-gear
     link: "/-/operations"
     items: []
+    tags: []
   - id: security_dashboard_menu
     title: Security
     icon: shield
@@ -200,24 +241,43 @@ contexts:
       title: Security dashboard
       icon:
       link: "/-/security/dashboard"
+      tags: []
+      items: []
     - id: vulnerability_report
       title: Vulnerability report
       icon:
       link: "/-/security/vulnerabilities"
+      tags: []
+      items: []
     - id: security_settings
       title: Settings
       icon:
       link: "/-/security/dashboard/settings"
+      tags: []
+      items: []
+    tags: []
+  - id: organizations_menu
+    title: Organizations
+    icon: organization
+    link: "/-/organizations"
+    items: []
+    tags:
+    - ff
+  tags: []
 - title: Project navigation
   items:
   - id: project_overview
     title: Gitlab Smoke Tests
     icon:
     link: "/toolbox/gitlab-smoke-tests"
+    tags: []
+    items: []
   - id: learn_gitlab
     title: Learn GitLab
     icon: bulb
     link: "/toolbox/gitlab-smoke-tests/-/learn_gitlab"
+    tags: []
+    items: []
   - id: manage_menu
     title: Manage
     icon: users
@@ -227,14 +287,21 @@ contexts:
       title: Activity
       icon:
       link: "/toolbox/gitlab-smoke-tests/activity"
+      tags: []
+      items: []
     - id: members
       title: Members
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/project_members"
+      tags: []
+      items: []
     - id: labels
       title: Labels
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/labels"
+      tags: []
+      items: []
+    tags: []
   - id: plan_menu
     title: Plan
     icon: planning
@@ -244,26 +311,39 @@ contexts:
       title: Issues
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/issues"
+      tags: []
+      items: []
     - id: boards
       title: Issue boards
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/boards"
+      tags: []
+      items: []
     - id: milestones
       title: Milestones
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/milestones"
+      tags: []
+      items: []
     - id: iterations
       title: Iterations
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/cadences"
+      tags: []
+      items: []
     - id: project_wiki
       title: Wiki
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/wikis/home"
+      tags: []
+      items: []
     - id: requirements
       title: Requirements
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/requirements_management/requirements"
+      tags: []
+      items: []
+    tags: []
   - id: code_menu
     title: Code
     icon: code
@@ -273,38 +353,57 @@ contexts:
       title: Merge requests
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/merge_requests"
+      tags: []
+      items: []
     - id: files
       title: Repository
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/tree/master"
+      tags: []
+      items: []
     - id: branches
       title: Branches
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/branches"
+      tags: []
+      items: []
     - id: commits
       title: Commits
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/commits/master"
+      tags: []
+      items: []
     - id: tags
       title: Tags
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/tags"
+      tags: []
+      items: []
     - id: graphs
       title: Repository graph
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/network/master"
+      tags: []
+      items: []
     - id: compare
       title: Compare revisions
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/compare?from=main&to=master"
+      tags: []
+      items: []
     - id: project_snippets
       title: Snippets
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/snippets"
+      tags: []
+      items: []
     - id: file_locks
       title: Locked files
       icon:
       link: "/toolbox/gitlab-smoke-tests/path_locks"
+      tags: []
+      items: []
+    tags: []
   - id: build_menu
     title: Build
     icon: rocket
@@ -314,26 +413,39 @@ contexts:
       title: Pipelines
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/pipelines"
+      tags: []
+      items: []
     - id: jobs
       title: Jobs
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/jobs"
+      tags: []
+      items: []
     - id: pipelines_editor
       title: Pipeline editor
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/ci/editor?branch_name=master"
+      tags: []
+      items: []
     - id: pipeline_schedules
       title: Pipeline schedules
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/pipeline_schedules"
+      tags: []
+      items: []
     - id: test_cases
       title: Test cases
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/quality/test_cases"
+      tags: []
+      items: []
     - id: artifacts
       title: Artifacts
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/artifacts"
+      tags: []
+      items: []
+    tags: []
   - id: secure_menu
     title: Secure
     icon: shield
@@ -343,38 +455,51 @@ contexts:
       title: Security capabilities
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/security/discover"
+      tags: []
+      items: []
     - id: dashboard
       title: Security dashboard
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/security/dashboard"
+      tags: []
+      items: []
     - id: vulnerability_report
       title: Vulnerability report
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/security/vulnerability_report"
+      tags: []
+      items: []
     - id: dependency_list
       title: Dependency list
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/dependencies"
-    - id: license_compliance
-      title: License compliance
-      icon:
-      link: "/toolbox/gitlab-smoke-tests/-/licenses"
+      tags: []
+      items: []
     - id: audit_events
       title: Audit events
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/audit_events"
+      tags: []
+      items: []
     - id: scan_policies
       title: Policies
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/security/policies"
+      tags: []
+      items: []
     - id: on_demand_scans
       title: On-demand scans
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/on_demand_scans"
+      tags: []
+      items: []
     - id: configuration
       title: Security configuration
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/security/configuration"
+      tags: []
+      items: []
+    tags: []
   - id: deploy_menu
     title: Deploy
     icon: deployments
@@ -384,18 +509,33 @@ contexts:
       title: Releases
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/releases"
+      tags: []
+      items: []
     - id: feature_flags
       title: Feature flags
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/feature_flags"
+      tags: []
+      items: []
     - id: packages_registry
       title: Package Registry
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/packages"
+      tags: []
+      items: []
+    - id: container_registry
+      title: Container Registry
+      icon:
+      link: "/toolbox/gitlab-smoke-tests/container_registry"
+      tags: []
+      items: []
     - id: pages
       title: Pages
       icon:
       link: "/toolbox/gitlab-smoke-tests/pages"
+      tags: []
+      items: []
+    tags: []
   - id: operations_menu
     title: Operate
     icon: cloud-pod
@@ -405,18 +545,34 @@ contexts:
       title: Environments
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/environments"
+      tags: []
+      items: []
     - id: kubernetes
       title: Kubernetes clusters
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/clusters"
+      tags: []
+      items: []
     - id: terraform_states
       title: Terraform states
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/terraform"
+      tags: []
+      items: []
     - id: infrastructure_registry
       title: Terraform modules
       icon:
-      link: "/toolbox/gitlab-smoke-tests/-/infrastructure_registry"
+      link: "/toolbox/gitlab-smoke-tests/-/terraform_module_registry"
+      tags: []
+      items: []
+    - id: aws
+      title: AWS
+      icon:
+      link: "/toolbox/gitlab-smoke-tests/-/aws"
+      tags:
+      - ff
+      items: []
+    tags: []
   - id: monitor_menu
     title: Monitor
     icon: monitor
@@ -426,26 +582,39 @@ contexts:
       title: Error Tracking
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/error_tracking"
+      tags: []
+      items: []
     - id: alert_management
       title: Alerts
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/alert_management"
+      tags: []
+      items: []
     - id: incidents
       title: Incidents
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/incidents"
+      tags: []
+      items: []
     - id: on_call_schedules
       title: On-call Schedules
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/oncall_schedules"
+      tags: []
+      items: []
     - id: escalation_policies
       title: Escalation Policies
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/escalation_policies"
+      tags: []
+      items: []
     - id: service_desk
       title: Service Desk
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/issues/service_desk"
+      tags: []
+      items: []
+    tags: []
   - id: analyze_menu
     title: Analyze
     icon: chart
@@ -455,42 +624,63 @@ contexts:
       title: Analytics dashboards
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/analytics/dashboards"
+      tags: []
+      items: []
     - id: cycle_analytics
       title: Value stream analytics
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/value_stream_analytics"
+      tags: []
+      items: []
     - id: contributors
       title: Contributor analytics
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/graphs/master"
+      tags: []
+      items: []
     - id: ci_cd_analytics
       title: CI/CD analytics
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/pipelines/charts"
+      tags: []
+      items: []
     - id: repository_analytics
       title: Repository analytics
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/graphs/master/charts"
+      tags: []
+      items: []
     - id: code_review
       title: Code review analytics
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/analytics/code_reviews"
+      tags: []
+      items: []
     - id: merge_request_analytics
       title: Merge request analytics
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/analytics/merge_request_analytics"
+      tags: []
+      items: []
     - id: issues
       title: Issue analytics
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/analytics/issues_analytics"
+      tags: []
+      items: []
     - id: insights
       title: Insights
       icon:
       link: "/toolbox/gitlab-smoke-tests/insights/"
+      tags: []
+      items: []
     - id: model_experiments
       title: Model experiments
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/ml/experiments"
+      tags: []
+      items: []
+    tags: []
   - id: settings_menu
     title: Settings
     icon: settings
@@ -500,52 +690,78 @@ contexts:
       title: General
       icon:
       link: "/toolbox/gitlab-smoke-tests/edit"
+      tags: []
+      items: []
     - id: integrations
       title: Integrations
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/settings/integrations"
+      tags: []
+      items: []
     - id: webhooks
       title: Webhooks
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/hooks"
+      tags: []
+      items: []
     - id: access_tokens
       title: Access Tokens
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/settings/access_tokens"
+      tags: []
+      items: []
     - id: repository
       title: Repository
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/settings/repository"
+      tags: []
+      items: []
     - id: merge_request_settings
       title: Merge requests
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/settings/merge_requests"
+      tags: []
+      items: []
     - id: ci_cd
       title: CI/CD
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/settings/ci_cd"
+      tags: []
+      items: []
     - id: packages_and_registries
       title: Packages and registries
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/settings/packages_and_registries"
+      tags: []
+      items: []
     - id: monitor
       title: Monitor
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/settings/operations"
+      tags: []
+      items: []
     - id: analytics
       title: Analytics
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/settings/analytics"
+      tags: []
+      items: []
     - id: usage_quotas
       title: Usage Quotas
       icon:
       link: "/toolbox/gitlab-smoke-tests/-/usage_quotas"
+      tags: []
+      items: []
+    tags: []
+  tags: []
 - title: Group navigation
   items:
   - id: group_overview
     title: Toolbox
     icon:
     link: "/toolbox"
+    tags: []
+    items: []
   - id: manage_menu
     title: Manage
     icon: users
@@ -555,14 +771,21 @@ contexts:
       title: Activity
       icon:
       link: "/groups/toolbox/-/activity"
+      tags: []
+      items: []
     - id: members
       title: Members
       icon:
       link: "/groups/toolbox/-/group_members"
+      tags: []
+      items: []
     - id: labels
       title: Labels
       icon:
       link: "/groups/toolbox/-/labels"
+      tags: []
+      items: []
+    tags: []
   - id: plan_menu
     title: Plan
     icon: planning
@@ -572,38 +795,57 @@ contexts:
       title: Issues
       icon:
       link: "/groups/toolbox/-/issues"
+      tags: []
+      items: []
     - id: group_epic_list
       title: Epics
       icon:
       link: "/groups/toolbox/-/epics"
+      tags: []
+      items: []
     - id: issue_boards
       title: Issue boards
       icon:
       link: "/groups/toolbox/-/boards"
+      tags: []
+      items: []
     - id: epic_boards
       title: Epic boards
       icon:
       link: "/groups/toolbox/-/epic_boards"
+      tags: []
+      items: []
     - id: roadmap
       title: Roadmap
       icon:
       link: "/groups/toolbox/-/roadmap"
+      tags: []
+      items: []
     - id: milestones
       title: Milestones
       icon:
       link: "/groups/toolbox/-/milestones"
+      tags: []
+      items: []
     - id: iterations
       title: Iterations
       icon:
       link: "/groups/toolbox/-/cadences"
+      tags: []
+      items: []
     - id: group_wiki
       title: Wiki
       icon:
       link: http://127.0.0.1:3000/groups/toolbox/-/wikis/home
+      tags: []
+      items: []
     - id: crm_contacts
       title: Customer relations
       icon:
       link: "/groups/toolbox/-/crm/contacts"
+      tags: []
+      items: []
+    tags: []
   - id: code_menu
     title: Code
     icon: code
@@ -613,6 +855,9 @@ contexts:
       title: Merge requests
       icon:
       link: "/groups/toolbox/-/merge_requests"
+      tags: []
+      items: []
+    tags: []
   - id: build_menu
     title: Build
     icon: rocket
@@ -622,6 +867,9 @@ contexts:
       title: Runners
       icon:
       link: "/groups/toolbox/-/runners"
+      tags: []
+      items: []
+    tags: []
   - id: secure_menu
     title: Secure
     icon: shield
@@ -631,26 +879,39 @@ contexts:
       title: Security dashboard
       icon:
       link: "/groups/toolbox/-/security/dashboard"
+      tags: []
+      items: []
     - id: vulnerability_report
       title: Vulnerability report
       icon:
       link: "/groups/toolbox/-/security/vulnerabilities"
+      tags: []
+      items: []
     - id: dependency_list
       title: Dependency list
       icon:
       link: "/groups/toolbox/-/dependencies"
+      tags: []
+      items: []
     - id: audit_events
       title: Audit events
       icon:
       link: "/groups/toolbox/-/audit_events"
+      tags: []
+      items: []
     - id: compliance
       title: Compliance center
       icon:
       link: "/groups/toolbox/-/security/compliance_dashboard"
+      tags: []
+      items: []
     - id: scan_policies
       title: Policies
       icon:
       link: "/groups/toolbox/-/security/policies"
+      tags: []
+      items: []
+    tags: []
   - id: deploy_menu
     title: Deploy
     icon: deployments
@@ -660,15 +921,27 @@ contexts:
       title: Package Registry
       icon:
       link: "/groups/toolbox/-/packages"
+      tags: []
+      items: []
+    - id: container_registry
+      title: Container Registry
+      icon:
+      link: "/groups/toolbox/-/container_registries"
+      tags: []
+      items: []
+    tags: []
   - id: operations_menu
     title: Operate
     icon: cloud-pod
-    link: "/groups/toolbox/-/infrastructure_registry"
+    link: "/groups/toolbox/-/terraform_module_registry"
     items:
     - id: infrastructure_registry
       title: Terraform modules
       icon:
-      link: "/groups/toolbox/-/infrastructure_registry"
+      link: "/groups/toolbox/-/terraform_module_registry"
+      tags: []
+      items: []
+    tags: []
   - id: analyze_menu
     title: Analyze
     icon: chart
@@ -678,38 +951,57 @@ contexts:
       title: Analytics dashboards
       icon:
       link: "/groups/toolbox/-/analytics/dashboards"
+      tags: []
+      items: []
     - id: cycle_analytics
       title: Value stream analytics
       icon:
       link: "/groups/toolbox/-/analytics/value_stream_analytics"
+      tags: []
+      items: []
     - id: ci_cd_analytics
       title: CI/CD analytics
       icon:
       link: "/groups/toolbox/-/analytics/ci_cd"
+      tags: []
+      items: []
     - id: contribution_analytics
       title: Contribution analytics
       icon:
       link: "/groups/toolbox/-/contribution_analytics"
+      tags: []
+      items: []
     - id: devops_adoption
       title: DevOps adoption
       icon:
       link: "/groups/toolbox/-/analytics/devops_adoption"
+      tags: []
+      items: []
     - id: insights
       title: Insights
       icon:
       link: "/groups/toolbox/-/insights/"
+      tags: []
+      items: []
     - id: issues_analytics
       title: Issue analytics
       icon:
       link: "/groups/toolbox/-/issues_analytics"
+      tags: []
+      items: []
     - id: productivity_analytics
       title: Productivity analytics
       icon:
       link: "/groups/toolbox/-/analytics/productivity_analytics"
+      tags: []
+      items: []
     - id: repository_analytics
       title: Repository analytics
       icon:
       link: "/groups/toolbox/-/analytics/repository_analytics"
+      tags: []
+      items: []
+    tags: []
   - id: settings_menu
     title: Settings
     icon: settings
@@ -719,46 +1011,84 @@ contexts:
       title: General
       icon:
       link: "/groups/toolbox/-/edit"
-    - id: roles_and_permissions
-      title: Roles and Permissions
-      icon:
-      link: "/groups/toolbox/-/settings/roles_and_permissions"
+      tags: []
+      items: []
     - id: integrations
       title: Integrations
       icon:
       link: "/groups/toolbox/-/settings/integrations"
+      tags: []
+      items: []
     - id: webhooks
       title: Webhooks
       icon:
       link: "/groups/toolbox/-/hooks"
+      tags: []
+      items: []
     - id: access_tokens
       title: Access Tokens
       icon:
       link: "/groups/toolbox/-/settings/access_tokens"
+      tags: []
+      items: []
     - id: group_projects
       title: Projects
       icon:
       link: "/groups/toolbox/-/projects"
+      tags: []
+      items: []
     - id: repository
       title: Repository
       icon:
       link: "/groups/toolbox/-/settings/repository"
+      tags: []
+      items: []
     - id: ci_cd
       title: CI/CD
       icon:
       link: "/groups/toolbox/-/settings/ci_cd"
+      tags: []
+      items: []
+    - id: analytics
+      title: Analytics
+      icon:
+      link: "/groups/toolbox/-/settings/analytics"
+      tags: []
+      items: []
     - id: applications
       title: Applications
       icon:
       link: "/groups/toolbox/-/settings/applications"
+      tags: []
+      items: []
     - id: packages_and_registries
       title: Packages and registries
       icon:
       link: "/groups/toolbox/-/settings/packages_and_registries"
+      tags: []
+      items: []
     - id: usage_quotas
       title: Usage Quotas
       icon:
       link: "/groups/toolbox/-/usage_quotas"
+      tags: []
+      items: []
+    - id: roles_and_permissions
+      title: Roles and Permissions
+      icon:
+      link: "/groups/toolbox/-/settings/roles_and_permissions"
+      tags:
+      - dotcom
+      items: []
+    - id: domain_verification
+      title: Domain Verification
+      icon:
+      link: "/groups/toolbox/-/settings/domain_verification"
+      tags:
+      - dotcom
+      items: []
+    tags: []
+  tags: []
 - title: Organization navigation
   items:
   - id: manage_menu
@@ -770,14 +1100,21 @@ contexts:
       title: Activity
       icon:
       link: "/-/organizations/default/activity"
+      tags: []
+      items: []
     - id: organization_groups_and_projects
       title: Groups and projects
       icon:
       link: "/-/organizations/default/groups_and_projects"
+      tags: []
+      items: []
     - id: organization_users
       title: Users
       icon:
       link: "/-/organizations/default/users"
+      tags: []
+      items: []
+    tags: []
   - id: settings_menu
     title: Settings
     icon: settings
@@ -787,6 +1124,10 @@ contexts:
       title: General
       icon:
       link: "/-/organizations/default/settings/general"
+      tags: []
+      items: []
+    tags: []
+  tags: []
 - title: Admin Area
   items:
   - id: admin_overview_menu
@@ -798,26 +1139,46 @@ contexts:
       title: Dashboard
       icon:
       link: "/admin"
+      tags: []
+      items: []
     - id: projects
       title: Projects
       icon:
       link: "/admin/projects"
+      tags: []
+      items: []
     - id: users
       title: Users
       icon:
       link: "/admin/users"
+      tags: []
+      items: []
     - id: groups
       title: Groups
       icon:
       link: "/admin/groups"
+      tags: []
+      items: []
     - id: topics
       title: Topics
       icon:
       link: "/admin/topics"
+      tags: []
+      items: []
     - id: gitaly_servers
       title: Gitaly Servers
       icon:
       link: "/admin/gitaly_servers"
+      tags: []
+      items: []
+    - id: organizations
+      title: Organizations
+      icon:
+      link: "/admin/organizations"
+      tags:
+      - ff
+      items: []
+    tags: []
   - id: ci_cd_menu
     title: CI/CD
     icon: rocket
@@ -827,10 +1188,15 @@ contexts:
       title: Runners
       icon:
       link: "/admin/runners"
+      tags: []
+      items: []
     - id: jobs
       title: Jobs
       icon:
       link: "/admin/jobs"
+      tags: []
+      items: []
+    tags: []
   - id: analytics_menu
     title: Analytics
     icon: chart
@@ -840,10 +1206,15 @@ contexts:
       title: DevOps Reports
       icon:
       link: "/admin/dev_ops_reports"
+      tags: []
+      items: []
     - id: usage_trends
       title: Usage Trends
       icon:
       link: "/admin/usage_trends"
+      tags: []
+      items: []
+    tags: []
   - id: monitoring_menu
     title: Monitoring
     icon: monitor
@@ -853,57 +1224,76 @@ contexts:
       title: System Info
       icon:
       link: "/admin/system_info"
+      tags: []
+      items: []
     - id: background_migrations
       title: Background Migrations
       icon:
       link: "/admin/background_migrations"
+      tags: []
+      items: []
     - id: background_jobs
       title: Background Jobs
       icon:
       link: "/admin/background_jobs"
+      tags: []
+      items: []
     - id: health_check
       title: Health Check
       icon:
       link: "/admin/health_check"
+      tags: []
+      items: []
     - id: audit_logs
       title: Audit Events
       icon:
       link: "/admin/audit_logs"
+      tags: []
+      items: []
+    tags: []
   - id: messages_menu
     title: Messages
     icon: messages
     link: "/admin/broadcast_messages"
     items: []
+    tags: []
   - id: system_hooks_menu
     title: System Hooks
     icon: hook
     link: "/admin/hooks"
     items: []
+    tags: []
   - id: applications_menu
     title: Applications
     icon: applications
     link: "/admin/applications"
     items: []
+    tags: []
   - id: abuse_reports_menu
     title: Abuse Reports
     icon: slight-frown
     link: "/admin/abuse_reports"
     items: []
+    tags: []
   - id: subscription_menu
     title: Subscription
     icon: license
     link: "/admin/subscription"
     items: []
+    tags: []
   - id: code_suggestions_menu
     title: GitLab Duo Pro
     icon: tanuki-ai
     link: "/admin/code_suggestions"
     items: []
+    tags:
+    - sm
   - id: push_rules_menu
     title: Push Rules
     icon: push-rules
     link: "/admin/push_rule"
     items: []
+    tags: []
   - id: geo_menu
     title: Geo
     icon: location-dot
@@ -913,25 +1303,33 @@ contexts:
       title: Sites
       icon:
       link: "/admin/geo/sites"
+      tags: []
+      items: []
     - id: geo_settings
       title: Settings
       icon:
       link: "/admin/geo/settings"
+      tags: []
+      items: []
+    tags: []
   - id: deploy_keys_menu
     title: Deploy Keys
     icon: key
     link: "/admin/deploy_keys"
     items: []
+    tags: []
   - id: credentials_menu
     title: Credentials
     icon: lock
     link: "/admin/credentials"
     items: []
+    tags: []
   - id: labels_menu
     title: Labels
     icon: labels
     link: "/admin/labels"
     items: []
+    tags: []
   - id: admin_settings_menu
     title: Settings
     icon: settings
@@ -941,78 +1339,127 @@ contexts:
       title: General
       icon:
       link: "/admin/application_settings/general"
+      tags: []
+      items: []
     - id: roles_and_permissions
       title: Roles and Permissions
       icon:
       link: "/admin/application_settings/roles_and_permissions"
+      tags:
+      - sm
+      items: []
     - id: advanced_search
-      title: Advanced Search
+      title: Search
       icon:
       link: "/admin/application_settings/advanced_search"
+      tags: []
+      items: []
     - id: admin_integrations
       title: Integrations
       icon:
       link: "/admin/application_settings/integrations"
+      tags:
+      - sm
+      items: []
     - id: admin_repository
       title: Repository
       icon:
       link: "/admin/application_settings/repository"
+      tags: []
+      items: []
     - id: admin_ci_cd
       title: CI/CD
       icon:
       link: "/admin/application_settings/ci_cd"
+      tags: []
+      items: []
     - id: admin_security_and_compliance
       title: Security and Compliance
       icon:
       link: "/admin/application_settings/security_and_compliance"
+      tags: []
+      items: []
     - id: admin_reporting
       title: Reporting
       icon:
       link: "/admin/application_settings/reporting"
+      tags: []
+      items: []
     - id: admin_templates
       title: Templates
       icon:
       link: "/admin/application_settings/templates"
+      tags: []
+      items: []
     - id: admin_metrics
       title: Metrics and profiling
       icon:
       link: "/admin/application_settings/metrics_and_profiling"
+      tags: []
+      items: []
     - id: admin_network
       title: Network
       icon:
       link: "/admin/application_settings/network"
+      tags: []
+      items: []
     - id: admin_appearance
       title: Appearance
       icon:
       link: "/admin/application_settings/appearance"
+      tags: []
+      items: []
     - id: admin_preferences
       title: Preferences
       icon:
       link: "/admin/application_settings/preferences"
+      tags: []
+      items: []
+    - id: admin_analytics
+      title: Analytics
+      icon:
+      link: "/admin/application_settings/analytics"
+      tags: []
+      items: []
+    tags: []
+  tags: []
 - title: Explore
   items:
   - id: projects_menu
     title: Projects
     icon: project
-    link: "/explore/projects"
+    link: "/explore/projects/starred"
     items: []
+    tags: []
   - id: groups_menu
     title: Groups
     icon: group
     link: "/explore/groups"
     items: []
+    tags: []
   - id: catalog_menu
     title: CI/CD Catalog
     icon: catalog-checkmark
     link: "/explore/catalog"
     items: []
+    tags: []
   - id: topics_menu
     title: Topics
     icon: labels
     link: "/explore/projects/topics"
     items: []
+    tags: []
   - id: snippets_menu
     title: Snippets
     icon: snippet
     link: "/explore/snippets"
     items: []
+    tags: []
+  - id: dependencies_menu
+    title: Dependency list
+    icon: shield
+    link: "/explore/dependencies"
+    items: []
+    tags:
+    - ff
+  tags: []

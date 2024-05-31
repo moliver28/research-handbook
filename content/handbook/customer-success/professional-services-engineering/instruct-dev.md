@@ -33,7 +33,6 @@ Here are the main labels used for PS instructional development projects.
 - `PS_Content::In Review` - The content item is currently in the review process with our SMEs and stakeholders.
 - `PS_Content::Completed` - The content item has been completed and are published in the handbook/GitLab Learn.
 
-
 ### Have an Idea for a New Training?
 
 To submit a New Content Request, create a new issue and select the [new-content-request template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services/-/issues/new?issue%5Bmilestone_id%5D=) and fill out the necessary details.

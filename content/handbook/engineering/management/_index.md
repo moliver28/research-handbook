@@ -39,10 +39,10 @@ Each Engineering Manager (EM) is responsible for developing a Backup Plan in the
 
 | Peer EM Backup (preferably FE / BE pairs) | Senior Team Member | Manager of EM                  |
 | ------ | ------ |  ------ |
-| Participate in the Team Retrospective, highlight items to company-wide retro, read items on call if necessary | Work with PM on Backlog Refinement and Milestone Planning	 | Complete Navan Expense Reports |
+| Participate in the Team Retrospective, highlight items to company-wide retro, read items on call if necessary | Work with PM on Backlog Refinement and Milestone Planning     | Complete Navan Expense Reports |
 | Conduct Synchronous / Asynchronous 1-1’s (if more than 1 week) | New Hire Onboarding | Handle Expense Questions       |
-| Manager Approvals (Access to staging, etc)
- 
+| Manager Approvals (Access to staging, etc) | | |
+
 Please, consider including timing details. Example: If outage spans last/first week of the milestone, participate in planning the milestone with PM.
 
 When you're done, consider also publishing it to your team page and informing your Peer EM Backup.

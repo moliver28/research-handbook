@@ -22,7 +22,6 @@ Associate IT Enterprise Applications Administrator is a [grade 5](/handbook/tota
 - Learns and develops understanding of GitLab's way of working.
 - Adapts to GitLab communication framework.
 
-
 ### Associate IT Enterprise Applications Engineer Requirements
 
 - Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.

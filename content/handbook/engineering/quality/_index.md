@@ -124,9 +124,9 @@ We staff our department with the following gearing ratios:
 
 In addition to GitLab's [communication guidelines](/handbook/communication) and [engineering communication](/handbook/engineering/#communication), we communicate and collaborate actively across GitLab in the following venues:
 
-- [Group Conversation](#group-conversation)
+- [Group Conversation](/handbook/company/group-conversation/)
 - [Week-in-review](#week-in-review)
-- [Department meetings](#department-meetings)
+- [Department meetings](#department-recurring-event-dris)
 - [Engineering-wide retrospective](#engineering-wide-retrospective)
 
 ### Week-in-review
@@ -253,7 +253,7 @@ Quality Engineering will do the following in order to identify the issues to be 
 #### Process
 
 - A manager in the Quality Engineering department will lead refinement with issues populated beforehand in the issue boards.
-    - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues. 
+    - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues.
     - The [transient bugs board](https://gitlab.com/groups/gitlab-org/-/boards/2206756?&label_name[]=type::bug%3A%3Atransient) is used to triage transient issues.
 - Before each meeting, for issues that are not yet fully triaged, the QEM meeting lead will assign the QEM of the appropriate stage or group to prioritize them.
 - The QEM meeting lead should review the board for long running issues that do not have meaningful activity and add them to the agenda to be considered for closure if no longer actionable.
@@ -285,11 +285,11 @@ If additional input is needed from the Quality team, the DRI for this is the Dir
 | Recurring event | Primary DRI | Backup DRI | Cadence | Format |
 | --------------- | ----------- | ---------- | ------- | ------ |
 | Quality Key Review | `@meks` | `@vincywilson` | Every 8 weeks | Review meeting |
-| Group conversation | `@meks` | `@at.ramya` <br>`@vincywilson` <br>`@vincywilson` | Every 8 weeks | [Group Conversations](#group-conversations) |
+| Group conversation | `@meks` | `@at.ramya` <br>`@vincywilson` <br>`@vincywilson` | Every 8 weeks | [Group Conversations](/handbook/company/group-conversations/) |
 | [GitLab SaaS Infrastructure Weekly](/handbook/engineering/infrastructure/#gitlab-saas-infrastructure) | Rotates between @vincywilson` | `@vincywilson` | Weekly | Incident review and corrective action tracking |
 | [Incident management](/handbook/engineering/infrastructure/incident-management/) | Rotates between `@at.ramya`, and `@vincywilson` | All managers | Weekly | Incident monitoring, response, and management as needed to represent Quality |
 | [Reference Architectures](/handbook/engineering/infrastructure/test-platform/self-managed-excellence/#reference-architectures) | `@ksvoboda` | `@vincywilson` | Every 2 weeks | Sync stand-up |
-| [Bug refinement](/handbook/engineering/quality/#bug-refinement) | Rotates between `@at.ramya` <br>`@vincywilson` | Weekly | Review meeting |
+| [Bug refinement](/handbook/engineering/quality/#bug-refinement) | Rotates between `@at.ramya` <br>`@vincywilson` | | Weekly | Review meeting |
 | Security Vulnerability review | `@meks` | `TBD` | Every 4 weeks | Review meeting |
 | Quality Department Staff Meeting | `@meks` | `TBD` | Weekly | Review meeting |
 | Quality Department Bi-Weekly | Department management team | `@meks` | Every 2 weeks | Review meeting |
@@ -393,8 +393,6 @@ See the [GitLab Data Seeder](/handbook/engineering/quality/gitlab-data-seeder) d
 - [Production Readiness Guide](https://gitlab.com/gitlab-com/infrastructure/blob/master/.gitlab/issue_templates/production_readiness.md)
 
 [GitLab QA]: https://gitlab.com/gitlab-org/gitlab-qa
-[GitLab Insights]: https://gitlab.com/gitlab-org/gitlab-insights
 [GitLab Performance Tool]: https://gitlab.com/gitlab-org/quality/performance
-[GitLab Triage]: https://gitlab.com/gitlab-org/gitlab-triage
 [GitLab]: https://gitlab.com/gitlab-org/gitlab
 [Reference Architectures]: https://docs.gitlab.com/ee/administration/reference_architectures/index.html

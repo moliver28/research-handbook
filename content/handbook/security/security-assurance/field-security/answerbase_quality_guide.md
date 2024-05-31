@@ -39,4 +39,3 @@ Answers in AnswerBase should have the following characteristics:
         - Libraries should have a decomissioned date, which should be communicated through the library description. Example:
         `***This library is set for decommissioning on YYYY/MM/DD*** Description of Library`
         - The decomissioned date should be 30 days after a library is determined to be unjustified.
-

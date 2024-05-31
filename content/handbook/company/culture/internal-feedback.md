@@ -197,7 +197,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Peer mentality, even at the highest level of management
 1. The company is flat enough to encourage true collaboration which is vital to growth
 
-#### What would make you leave (what should we avoid in the future if possible)? If the following were to happen, I would consider leaving GitLab:
+#### What would make you leave (what should we avoid in the future if possible)? If the following were to happen, I would consider leaving GitLab
 
 1. Stagnation of career path, no opportunities to advance
 1. Pay decrease, not paid appropriately, below market pay
@@ -226,7 +226,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Job becomes unstable
 1. Communication no longer one of our strong points
 
-#### Other Comments or Concerns (broken down by categories):
+#### Other Comments or Concerns (broken down by categories)
 
 ##### Compensation
 
@@ -298,7 +298,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. More face-to-face meetings and ability to meet up with GitLab team-members close by.
     - Please expense travel to visit GitLab team-members as described in [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money).
 1. Adjust the team call format to include more regular functional group updates.
-    - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/group-conversations) are separate events.
+    - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/company/group-conversations/) are separate events.
 1. Have more employee agreements instead of contractor agreements.
     - People Ops will be working to establish new entities/payrolls in more countries as we grow. Once this is completed we can transfer contractors to employees.
 1. Hire in departments that need more GitLab team-members.
@@ -465,7 +465,7 @@ our work is public so we can talk about it, and our ability to create new proces
 #### What we’re wondering about & the answers to our thoughts
 
 1. Stock options: terms, conditions
-    - Does the handbook answer your questions? (/handbook/stock-options). Please feel free to ask Paul.
+    - Does the handbook answer your questions? (/handbook/total-rewards/stock-options/). Please feel free to ask Paul.
 1. What the company will look like 3, 6, 12 months from now? (community-ish, enterprise-ish)
     - The community and people using GitLab will keep growing. 12 months from now
     we'll answer all questions from the community on all platforms (from forum to

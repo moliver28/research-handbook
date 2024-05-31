@@ -19,7 +19,6 @@ At GitLab, we use centralized laptop management for company-issued laptops. If y
 | Business Technology | Responsible for implementing and executing this procedure |
 | Business Technology Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
-
 ## GitLab Laptops
 
 ### New Hire Laptop Ordering Process
@@ -143,7 +142,6 @@ NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased
 - MacBook Pro 16" - M3 Max / 36GB Unified memory / 512GB or 1TB storage (depending on vendor) **Performance model**
 - MacBook Pro 14" - M3 Max / 36GB Unified memory / 512GB or 1TB storage (depending on vendor) **Performance model**
 
-
 Most roles that require higher performance machines are approved for a 14" or 16" MacBook Pro M3 Max. Please see this [spreadsheet](https://docs.google.com/spreadsheets/d/1OuC0_iliCzASKfOhDLWO4fBmDS-uL3VGRMI6063R6tk/edit?usp=sharing) (public) to locate your department group and determine which machine you are eligible for.
 
 #### Linux Hardware
@@ -153,8 +151,8 @@ IT strongly encourages team members to select Macs; please only request a Linux 
 {{% /alert %}}
 
 **Below are roles that qualify for Linux Laptops**
-- Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5570 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [15.6” display / 512 GB SSD / 32 GB of RAM / Intel i9 or i7 CPU](https://www.dell.com/en-us/shop/laptops/new-15-5560-workstation/spd/precision-15-5570-laptop).
 
+- Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5570 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [15.6” display / 512 GB SSD / 32 GB of RAM / Intel i9 or i7 CPU](https://www.dell.com/en-us/shop/laptops/new-15-5560-workstation/spd/precision-15-5570-laptop).
 
 \*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16” MacBook pro laptop](#apple-hardware)**. Please make sure you order this model a minimum of 14 days, based on your locality, prior to your desired date to receive.
 
@@ -201,7 +199,6 @@ Apple macOS and Dell Linux distributions meet the operating system needs.
 
 GitLab needs the ability to ensure a secure and stable platform. From an operating system perspective, macOS and Linux meet the needs. The Security team has found a slight advantage in Ubuntu as a Linux distribution due to their rapid response time when it comes to patching security flaws, and we recommend this distribution. It is necessary to use an [approved Linux distribution](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/).
 
-
 #### Compliance needs
 
 To meet compliance needs for the various certifications, programs, and industry regulations, we have to meet criteria including the ability to restrict access to sensitive data to company-issued laptops running company-monitored software.
@@ -222,7 +219,6 @@ In other words, we eliminate this possibility of becoming a situation to be mana
 
 To be able to use a laptop vendor, we have to be able to purchase and ship hardware to our team members regardless of where they live.
 Therefore the vendor should be able to handle most if not all shipping requirements to all team members. Our current hardware provider for the US is CDW. GitLab laptops that are procured from CDW will come with GitLab branded asset labels by default. Please refer to this issue for more information on GitLab asset labels. [GitLab Branded Laptop Labels](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/914)
-
 
 ### Configuring New Laptops & Apple IDs
 
@@ -245,7 +241,6 @@ Please make sure you follow any needed requirements when self installing and ope
 For laptops shipped with OEM Windows you may want to make a full drive backup (e.g. by using open source utility [Clonezilla](https://clonezilla.org/)) to the external drive before installing Linux.
 That way you could restore your laptop to the original state at any time.
 It will make the RMA process much easier in case you need it.
-
 
 ### Laptop Buy back Policy
 
@@ -295,12 +290,11 @@ If you, as a GitLab team member, would like to add a vendor aligned with the cri
 1. For security reasons we want to make sure all laptops are fully [wiped](#laptop-wipe) before drop off or sending.
 1. When you receive your new laptop, complete the donation.
 
-
 ## GitLab Asset Management
 
 ### Snipe-IT
 
-The End User Services Team has been busy iterating and setting up [Snipe-IT open source asset management](https://snipeitapp.com/). As of April 2021, GitLab has an asset-tracking application that is the source of truth for all GitLab hardware! 
+The End User Services Team has been busy iterating and setting up [Snipe-IT open source asset management](https://snipeitapp.com/). As of April 2021, GitLab has an asset-tracking application that is the source of truth for all GitLab hardware!
 
 How does it work exactly?
 
@@ -342,7 +336,6 @@ For more information regarding Jamf, refer to our [Endpoint Management](https://
 
 For more information regarding DriveStrike, refer to our [DriveStrike](/handbook/it/guides/drivestrike/) handbook page.
 
-
 ### Google Workspace Deprovisioning
 
 IT Ops has an automated workflow that triggers upon a notification from PeopleOps of a team-member offboarding. This automated workflow is composed of 2 parts that are outlined below. The first part happens within 1 hour of the offboarding. The second part occurs after 90 days of the offboarding. This workflow will send out notifications throughout this 90 day period to let the Former Team member's manager know that the final deadline is approaching.
@@ -374,7 +367,7 @@ IT Ops has an automated workflow that triggers upon a notification from PeopleOp
 - The FTM’s account will be moved to NoGSuiteLicense OU
 - The Google Workspace License is removed from the account
 
-#### The following notifications will be sent out to the FTM’s manager and IT over Slack.
+#### The following notifications will be sent out to the FTM’s manager and IT over Slack
 
 **Immediate Slack notification:**
 

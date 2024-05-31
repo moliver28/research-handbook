@@ -223,7 +223,6 @@ Focus on leading the operational deployment of the Fiscal Year Planning through 
 
 Focus on creating the Sales Data Governance policies to result in continuous data cleansing, enrichment and augmentation that results in increased data accuracy and confidence. Manage sales data cleansing to support pre and post Fiscal Year Planning.
 
-
 ### Senior Director, Sales Operations
 
 The Senior Director, Sales Operations reports to the [VP, Field Operations](/job-families/sales/vp-of-field-operations/).

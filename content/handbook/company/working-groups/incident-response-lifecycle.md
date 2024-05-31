@@ -47,7 +47,7 @@ description: "The Incident Response Lifecyle working group is intended to docume
    - [Incident Response Guidance](/handbook/security/threat-management/vulnerability-management/incident-response-guidance.html)
    - [Engaging Security Engineer On-Call]({{< ref "engaging-security-on-call" >}})
    - [GitLab SIRT On-Call Guide]({{< ref "secops-oncall" >}})
-1. [On-call](/handbook/on-call/)
+1. [On-call](/handbook/engineering/on-call/)
 1. Reliability
    - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 1. Support
@@ -57,18 +57,14 @@ description: "The Incident Response Lifecyle working group is intended to docume
 
 ### Noted issues
 
-
-
 ## Related Issues
-
-
 
 ## Roles and Responsibilities
 
 | Working Group Role  | Person           | Title                                  |
 |---------------------|------------------|----------------------------------------|
 | Facilitator         | [Anna Liisa Moter](@amoter)| Manager Reliability|
-| Exec Sponsor        | [Steve Loyd](@sloyd)      | VP Infrastructure         |                 |
+| Exec Sponsor        | [Steve Loyd](@sloyd)      | VP Infrastructure                          |
 | Member              | [Anthony Fappiano](@afappiano)          | Manager Reliability                   |
 | Development Functional Lead | [Dan Croft](@dcroft) | Senior Engineering Manager, Ops |
 | Member              | [Sam Goldstein](@sgoldstein) | Director of Engineering, Ops |
@@ -113,8 +109,6 @@ description: "The Incident Response Lifecyle working group is intended to docume
 - As a leader in Development who is part of the Incident Manager rotation, I am clear on the role's responsibilities and how the role supports the Incident Management process.
 
 #### Quality Teams
-
-
 
 #### Support Team
 

@@ -160,7 +160,7 @@ Anything larger than 5 should be broken down if possible.
 
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for the extra rigor of the
-[security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md).
+[patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 In particular, the fix usually needs more-careful consideration, and must also
 be backported across several releases.
 
@@ -250,6 +250,7 @@ from PM or UX.
 The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
 
 An [Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/) should be requested when the issue or MR might have security implications. These include, but aren't limited to, issues or MRs which:
+
 - falls under the threat model
 - handles binary files (downloading, decompressing, extracting, moving, deleting)
 - modifies or uses file manipulation services
@@ -314,7 +315,7 @@ release notes section or do not use a `release post item::` label.
 
 We strongly believe in [Iteration](/handbook/values/#iteration) and delivering value in small increments. Iteration can be hard, especially when you lack product context or are working on a particularly risky/complex part of the codebase. If you are struggling to estimate an issue or determine whether it is feasible, it may be appropriate to first create a proof-of-concept MR. The goal of a proof-of-concept MR is to remove any major assumptions during planning and provide early feedback, therefore reducing risk from any future implementation.
 
-- Create an MR, prefixed with `PoC: `.
+- Create an MR, prefixed with `PoC:`.
 - Explain what problem the PoC MR is trying to solve for in the MR description.
 - Timebox it. Can you determine feasibility or a plan in less than 2-3 days?
 - Identify a reviewer to provide feedback at the end of this period.
@@ -364,6 +365,7 @@ Our group works with tech leads to help organize work on different topics and id
 #### Characteristics of a Tech Lead
 
 A tech lead is:
+
 - an individual contributor with additional responsibilities. Every engineer regardless of their seniority is qualified to be a tech lead.
 - a temporary role that is tied to a specific topic/project. We allow the team to have multiple tech leads at the same time for different topics/projects.
 - **not** a manager.
@@ -372,6 +374,7 @@ A tech lead is:
 The Tech Lead role provides growth opportunity for engineers who are interested in adopting leadership skills.
 
 #### Responsibilites of a Tech Lead
+
 Tech leads wear many hats. Their responsibilities may differ from project to project but may include:
 
 - Technical Vision and Architecture - Defining and evolving the overall technical architecture for a given project
@@ -383,6 +386,7 @@ Tech leads wear many hats. Their responsibilities may differ from project to pro
 - Technical documentation - Maintaining documentation of the technical architecture and code structure for other developers
 
 #### Current Tech Leads
+
 Below is an overview of topics that are overseen by a tech lead:
 
 | Topic | Tech Lead | Topic Link | Notes |
@@ -392,7 +396,6 @@ Below is an overview of topics that are overseen by a tech lead:
 | Congregate | tbd | https://gitlab.com/gitlab-org/gitlab/-/issues/428657 | |
 | GitHub Actions | tbd | https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652 | |
 |  | | |  |
-
 
 ## Merge request roulette reviews
 
@@ -457,7 +460,7 @@ This is a collection of links for monitoring our features.
 
 - [Import and Integrate group dashboard][grafana-dashboard] which contain:
     - Links to various Kibana logs, filtered to our feature categories
-    - Our [error budget](#error-budget) spend attribution
+    - Our [error budget](#error-budgets) spend attribution
 - [Worker queues](https://dashboards.gitlab.net/d/sidekiq-queue-detail/sidekiq-queue-detail?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-queue=jira_connect:jira_connect_sync_branch) where you can switch queues with the `queue` dropdown
 
 ### Sentry errors
@@ -518,6 +521,7 @@ Learn more about error budgets with these resources:
 ## Links and resources {#links}
 
 {{% include "includes/engineering/manage/shared-links.md" %}}
+
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues)
 - Our Slack channels
   - Manage:Import and Integrate [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/C04RDL3MEH5)

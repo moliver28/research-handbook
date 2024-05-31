@@ -255,7 +255,6 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 15.7 This Agreement will be governed by the laws of the State of California, U.S.A. without regard to its conflict of laws provisions.  The federal and state courts sitting in San Francisco County, California, U.S.A. will have proper and exclusive jurisdiction and venue with respect to any disputes arising from or related to the subject matter of this Agreement. The United Nations Convention on Contracts for the International Sale of Goods is expressly disclaimed by the Parties with respect to this Agreement and the transactions contemplated hereby.
 
-
 ## APPENDIX 1: GitLab Subscriptions
 
 Fees for the Subscriptions are based upon the number of Users and the applicable level of support and/or functionality of the Software, as set forth in the table below. In the event Customer does not reasonably comply with written specifications or instructions from GitLab’s service engineers, regarding any support issue or request (including without limitation, failure to make backups of Customer Content or versions of Software) (each, a “Support Issue”), GitLab may cease its support obligations to Customer with respect to such Support Issue upon fifteen (15) days written notice and Customer’s inability to cure such noncompliance within the notice period.
@@ -274,8 +273,6 @@ Fees for the Subscriptions are based upon the number of Users and the applicable
 **Support Impact categories are defined at: https://about.gitlab.com/support/definitions/#definitions-of-support-impact
 
 **PRIORITY SUPPORT OVERVIEW:** https://about.gitlab.com/support/#priority-support
-
-
 
 ## APPENDIX 2: Software as a Service (SaaS) Offering
 

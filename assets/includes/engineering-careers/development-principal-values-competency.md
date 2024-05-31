@@ -1,4 +1,5 @@
 ##### Development
+
 * Regularly engages with teams other than their own.
 * Identifies situations where collaboration between teams will yield good results.
 * Iteratively works towards results on cross-team projects without over-analysis.

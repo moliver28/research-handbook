@@ -108,7 +108,6 @@ The Senior Director, Product & Solutions Marketing is a [grade 11](/handbook/tot
 - You share our [values](/handbook/values/), and work in accordance with those values
 - Ability to use GitLab
 
-
 ## Career Ladder
 
 The next step for managers of people is to move to the [Director of Product Marketing](/job-families/marketing/vice-president-of-product-marketing/) job family.

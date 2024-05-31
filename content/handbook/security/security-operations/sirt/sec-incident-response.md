@@ -7,7 +7,7 @@ controlled_document: true
 
 ## Purpose
 
-The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).
+The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).
 
 Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide]({{< ref "secops-oncall" >}}).
 
@@ -33,7 +33,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 
 ## Procedure
 
-### Incident Response Process - this guide covers the following activities for all identified security incidents:
+### Incident Response Process - this guide covers the following activities for all identified security incidents
 
 1. Detection
     - The SIRT, other internal, or external entity identifies a Security or Privacy Event that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may the result of an innocent error
@@ -163,7 +163,6 @@ In the event of a perceived major security incident (which may prove to not be o
 - **Read the channel history before asking questions**. Get some context, read through past conversations and related documents. The relevant person will reach out to you with specific asks at the right time.
 - **Do your best to stay professional**. However, be aware that security incidents are often stressful and we're all humans. People may raise their voice, or use wording that seems unnecessary, harsh or inappropriate. It's important to cut people some slack (no pun intended) during this stressful time, and raise/address any potentially erratic behavior with the relevant manager once the incident is over.
 - **Humor is your ally**. No, it really is.
-
 
 ### Incident Labels
 

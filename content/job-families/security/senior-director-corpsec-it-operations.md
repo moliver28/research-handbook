@@ -36,7 +36,6 @@ The Senior Director, Corporate Security & IT Operations is a [level 11](/handboo
 - Proactively communicates with leadership about progress and outcomes and how strategy and contributions support higher-level priorities and initiatives.
 - Focuses the team’s communication and productivity
 
-
 #### Senior Director, IT Corporate Security & Operations Requirements
 
 - Academic background in STEM

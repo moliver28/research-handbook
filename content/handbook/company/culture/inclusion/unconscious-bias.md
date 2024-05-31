@@ -88,13 +88,13 @@ On 2020-06-24 we held three Live Learning sessions to cover how to recognize bia
 
 ## Resources
 
-#### Inner resources
+### Inner resources
 
 - [Ongoing discussion](https://gitlab.com/gitlab-com/diversity-and-inclusion/issues/27)
 - [This MVC is based on Ashley Sullivan's comment here](https://gitlab.com/gitlab-com/people-ops/General/issues/379#note_208972342)
 - [Diversity, Inclusion and Belonging at GitLab]({{< ref "inclusion" >}})
 
-#### External resources
+### External resources
 
 - [Teaching Tolerance](https://www.tolerance.org/professional-development/test-yourself-for-hidden-bias)
 - [Diversity and Outreach, UCSF](https://diversity.ucsf.edu/resources/unconscious-bias)

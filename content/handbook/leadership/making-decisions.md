@@ -75,6 +75,7 @@ We have an issue template that captures these elements: https://gitlab.com/gitla
 GitLab E-Group and the Learning and Development team discussed strategies on making decisions as part of the [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions).
 
 Topics covered include:
+
 1. Living our Transparency value when making decisions
 1. How to improve our ability to Iterate
 1. Applying the GitLab values hierarchy in making decisions

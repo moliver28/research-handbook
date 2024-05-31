@@ -35,6 +35,7 @@ The last button of note is the `Personalize Dashboard` button at the bottom of t
 When you have an interview, you have two ways to get to your Interview Kit to leave feedback for a candidate. The first is by clicking the link in the calendar invitation for the interview. The second is by going to your Greenhouse [dashboard](https://app2.greenhouse.io/dashboard) where you will see a list of your upcoming interviews and can click `See Interview Kit`.
 
 The Interview Kit consists of a few tabs:
+
 - **Interview Prep**
   - Quick overview of what you'll want to look for in the interview, as well as any notes that previous Interviewers left to look into further.
 - **Job Details**
@@ -140,6 +141,7 @@ This can be done by Enablement only. For instructions, see the [internal handboo
 Only Admins can upgrade another team member's access level. During onboarding, all new team members are added to Greenhouse at the appropriate level listed above. If a current team member needs to change their access level, they will need to create a [new access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Access_Request) in the GitLab `access-requests` project.
 
 The default access level is *Basic*, which also sufficient for team members who will interview candidates. To upgrade access levels:
+
  1. Go to [settings](https://app2.greenhouse.io/configure) and click on [users](https://app2.greenhouse.io/account/users?status=active)
  1. Search for the team member in the search bar; if their name appears, click on their name
  1. Click `Edit` in the permissions section and choose the `Job Admin` option
@@ -151,6 +153,7 @@ For any team members who are Hiring Managers (or above), choose `Job Admin: Hiri
 Similarly, Talent Acquisition receives `Job Admin: Talent Acquisition` for all current and future roles; People Success receives `Job Admin: People Success` for all current and future roles.
 
 There are additional "User-Specific Permissions" listed beneath the job-based permissions.
+
 1. For the People Success Team, check off `Can invite new users to Greenhouse and reactive disabled users`, `Can manage unattached prospects`, and `Can invite and deactivate agency recruiters`.
 1. For the Talent Acquisition Team, check off each additional option.
 1. Site Admins should typically have access to all of the additional options, but *always* be sure to check off `Can see EEOC and demographic reports`, `Can create and view private candidates`, and `Can see private notes, salary info, manage offers, and approve jobs/offers`.
@@ -158,7 +161,6 @@ There are additional "User-Specific Permissions" listed beneath the job-based pe
 #### Adding an Agency Recruiter to Greenhouse
 
 To add an agency recruiter to Greenhouse and their agency doesn't exist, then a [new agency](https://support.greenhouse.io/hc/en-us/articles/201078255-Add-a-New-Agency) will need to be created. If the agency does exist, this is how to add a [new recruiter](https://support.greenhouse.io/hc/en-us/articles/200666389). Please contact Enablement to add the Recruiter to Greenhouse.
-
 
 #### Linking users to their profiles
 
@@ -241,12 +243,15 @@ The [Candidate Experience Specialist team]({{< ref "coordinator#framework-coord"
 #### Scheduling Timed Assessments
 
 In some cases, some positions require a timed assessment to be sent to the candidate. These timed assessments can be sent by following the steps below:
+
 1. Obtain availability from the candidate to agree on a specific time to administer the test.
 1. Enter it as an interview appointment on their schedule.
 1. Schedule an Email with the assessment for the agreed time.
+
   - Click `Email Candidate`
   - Select Assessment template or write body and attach Assessment
   - Select the agreed upon time using `Send Email when` option
+
 1. The time stamp when the candidate sends the assessment back will determine if they sent it back within the agreed timeframe.
 
 ### Rejecting candidates
@@ -280,7 +285,7 @@ Rejected candidates will stay in our talent community and we may revisit them fo
 
 Generally, we will leave a minimum gap of 6-months before reconsidering someone. We will only reconsider candidates who were rejected because they lacked skills or experience.
 
-We will not reconsider candidates who were mismatched with our [values competencies](/handbook/competencies/#values-competencies) and/or our [remote work competencies](/handbook/competencies/#remote-work-competencies).
+We will not reconsider candidates who were mismatched with our [values competencies](/handbook/people-group/competencies/#values-competencies) and/or our [remote work competencies](/handbook/people-group/competencies/#remote-work-competencies).
 
 #### Single-vetos
 
@@ -309,6 +314,7 @@ The Greenhouse Site Admins are able to add and adjust email templates. To access
 To ensure a best-in-class candidate experience with up-to-date branding and communication, the Talent Brand team and Greenhouse Site Admins have reviewed, updated, and published email templates with the word "REVIEWED" included at the end for all stages of recruitment. We strongly recommend leveraging these templates as your primary sources of communication to candidates to create consistency and to foster an amazing candidate experience. While we recognize that you may need to leverage other templates for specific roles that have not received the "REVIEWED" label, please ensure you read over all email templates you plan on sending and confirm that all numbers are up to date, links are accurate and relevant, and that your language is clear and positive.
 
 If you have specific roles, regions, or processes that you would like to create personalized templates for that are only visible and accessible by you, click "+ New" to the right of "My Templates" and follow the below steps:
+
 - Add a name for your template that will allow you and your team to recognize what the template is for. Try to keep the name as consistent as possible with other templates (e.g. rejection emails all begin with `Reject` and then the reason why, such as `Reject after no show`).
 - You will need to select an email type, which categorizes the emails so that they appear as options when they are relevant (e.g. so that a interview availability request does not populate when you are trying to reject a candidate). Please review the [available email types and when each appears on Greenhouse's support page](https://support.greenhouse.io/hc/en-us/articles/115002573326-Email-Template-Types).
 - You can add an optional description, but it is typically not needed due to the descriptive template name.
@@ -335,7 +341,6 @@ To create a new offer template or update an existing one in Greenhouse, follow t
     - Re-upload the corrected document to Greenhouse.
     - Notify the Legal team about the incorrect token so they can update their master template.
 - If replacing an existing template, remove the old template in Greenhouse by clicking the three dots next to it and selecting "Delete."
-
 
 ### Updating requisition and offer approval flows
 
@@ -371,7 +376,6 @@ Occasionally, the Finance team updates our organization's divisions and departme
 Please note that only Site Admins are able to update or add new departments in Greenhouse. In order to update or add divisions or departments, log in to Greenhouse and go to the [configure](https://app2.greenhouse.io/configure) section by clicking the gear at the top right corner. Then click ["Organization"](https://app2.greenhouse.io/account/organization) and scroll down the "Departments" section. You will see each current division listed and, when clicking on the expand button, each department that falls under that division.
 
 To change the name of a division or department, click the pencil button next to it. Please note you are unable to have a division and department with the same name. To add a new division or department, click "New Department" and type in the name; if it is a new division, simply click create, but if it is a new department click the "Subordinate to" dropdown and choose the division it is associated to (for example, the "Security" department is a subordinate to the "Engineering" division).
-
 
 ## Additional resources
 
@@ -412,6 +416,7 @@ The Greenhouse CRM is the entry point for prospective candidates (a.k.a. *Prospe
 We use Greenhouse Inclusion to mitigate unconscious bias, ensure consistent candidate evaluations, and to measure the impact of these practices in our [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) efforts.
 
 Enabled features include:
+
 - Nudges, or reminders, to all users when creating a requisition description, adding a referral, and/or filling out a scorecard.
 - Anonymous take-home test grading.
 - Hiding a candidate's source to Interviewers.

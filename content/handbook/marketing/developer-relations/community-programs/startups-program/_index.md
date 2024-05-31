@@ -69,4 +69,4 @@ During **Year Two**, you'll receive:
 ## Additional information
 
 * Upon acceptance, program members are subject to the [GitLab Subscription Agreement](/handbook/legal/subscription-agreement/). The decision to issue a GitLab Startup license is always at the sole discretion of GitLab.
- * For self-hosted instances, users must enable usage and analytics features.
+* For self-hosted instances, users must enable usage and analytics features.

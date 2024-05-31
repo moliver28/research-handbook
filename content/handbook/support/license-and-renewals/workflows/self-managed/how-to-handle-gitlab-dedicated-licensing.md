@@ -10,7 +10,7 @@ category: GitLab Self-Managed licenses
 
 GitLab Dedicated license provisioning follows the same process as Self Managed subscriptions including multi-year subscriptions.  
 An activation code is automatically created and sent to customer upon deal close.  
-Refer to [this internal handbook](https://internal.gitlab.com/handbook/engineering/horse/#new-customer-process) for more information.
+Refer to [this internal handbook](https://internal.gitlab.com/handbook/engineering/dedicated/#new-customer-process) for more information.
 
 ### Requests to forward or send GitLab Dedicated activation codes
 

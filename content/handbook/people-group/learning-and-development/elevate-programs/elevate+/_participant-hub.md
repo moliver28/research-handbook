@@ -35,21 +35,18 @@ Get help in your cohort Slack channel. Find links to each channel below:
   </div>
 </div>
 
+## Live Session Best Practices
 
-### Share your Feedback
+The goal of this program is to create a shared leadership development experience for all GitLab leaders,  and to ensure that each participant has the skills and capabilities they need to be an exceptional leader at GitLab. Elevate+ objectives are rooted in GitLab values, leadership competencies, and mission.
 
-At the end of each module, you'll be asked to share your feedback. Find links to each form below:
+Making the most out of Elevate+:
 
-<div class="flex-row" markdown="0">
-  <div>
-    <a href= "https://docs.google.com/forms/d/e/1FAIpQLScug6g0ZA03-qTzVLYpJ6gjxg39WAl6x9bOaqg9A1yR8qzgnw/viewform?usp=sf_link" class="btn btn-primary" style="width:200px;margin:5px;">Module 1</a>
-    <a href= "https://docs.google.com/forms/d/e/1FAIpQLScCWql9i6Oi8js9zDnNawZKX-V1NOhQG3aSD8fFSew-29mn4g/viewform?usp=sf_link" class="btn btn-primary" style="width:200px;margin:5px;">Module 2</a>
-    <a href= "https://docs.google.com/forms/d/e/1FAIpQLSfmNnaI8C57ua1uRygJ7YlfbHKmmzaYqqD6mypZw5RlWe0cIQ/viewform?usp=sf_link" class="btn btn-primary" style="width:200px;margin:5px;">Module 3</a>
-    <a href= "https://docs.google.com/forms/d/e/1FAIpQLSfLt0tMR2PuH-VSWpqm2Z7jVOYAmPPFXWJblU80tD-bvwdVUw/viewform?usp=sf_link" class="btn btn-primary" style="width:200px;margin:5px;">Module 4</a>
-    <a href= "https://docs.google.com/forms/d/e/1FAIpQLSdHJnLbjDSj-gsDdSwigOn3zIW_7BxpJ1Xgae9htEp6zE3_1w/viewform?usp=sf_link" class="btn btn-primary" style="width:200px;margin:5px;">Module 5</a>
-  </div>
-</div>
-
+- 📸Keep your camera on
+- 🧑‍💻While we understand that multitasking is a way of working at GitLab, we notice that those who are fully - present contribute the most, and get the most from this program
+- 🙋Be brave, ask questions, and share your perspectives
+- 💬Use this session guide and our synchronous GitLab shared space to learn from each other
+- 🤔Stay curious and open to learning
+- 💃Have fun!
 
 ## Module 1: My Leadership Identity
 
@@ -68,7 +65,6 @@ During Module 1, you will:
 
 1. [Module 1 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScug6g0ZA03-qTzVLYpJ6gjxg39WAl6x9bOaqg9A1yR8qzgnw/viewform?usp=sf_link)
 
-
 ## Module 2: Leading to Empower
 
 During Module 2, you will:
@@ -79,31 +75,44 @@ During Module 2, you will:
 1. Learn best practices for creating a Culture of Feedback
 1. Revisit the resources at GitLab for support with managing underperformance
 
+### Resources
+
+<details>
+<summary>Position Power</summary>
+
+- [Short LinkedIn Article: Positional vs. Position Power](https://www.linkedin.com/pulse/positional-vs-personal-power-aditi-agrawal/)
+
+</details>
+
 **Key Links**
 
 1. [Module 2 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScCWql9i6Oi8js9zDnNawZKX-V1NOhQG3aSD8fFSew-29mn4g/viewform?usp=sf_link)
 
-## Module 3:
+## Module 3
 
-*More information to be added soon.*
+In Module 3, create a shared understanding around the importance for your team members to understand how they each contribute to driving results for customers by:
+
+1. Learn from each other about GitLab's core product, revenue streams, and customers
+1. Understand why this knowledge is critical for leading to empower and leading for results
+1. Provide tools, language, and resources for you to lead a conversation with your team members
 
 **Key Links**
 
 1. [Module 3 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfmNnaI8C57ua1uRygJ7YlfbHKmmzaYqqD6mypZw5RlWe0cIQ/viewform?usp=sf_link)
 
+## Module 4
 
+In Module 4, increase your cross-functional effectiveness in order to clear the way for your team to get results.
 
-## Module 4:
-
-*More information to be added soon.*
+1. Share your team’s highest order purpose and alignment to GitLab’s overall goals
+1. Map your cross-functional partners within and outside GitLab
+1. Learn skills for building and repairing relationships with key partners
 
 **Key Links**
 
 1. [Module 4 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfLt0tMR2PuH-VSWpqm2Z7jVOYAmPPFXWJblU80tD-bvwdVUw/viewform?usp=sf_link)
 
-
-
-## Module 5:
+## Module 5
 
 *More information to be added soon.*
 
@@ -111,12 +120,6 @@ During Module 2, you will:
 
 1. [Module 5 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSdHJnLbjDSj-gsDdSwigOn3zIW_7BxpJ1Xgae9htEp6zE3_1w/viewform?usp=sf_link)
 
-
-
 ## Certification
 
 *Certification and pre-certificaiton session material will be added soon.*
-
-
-
-

@@ -287,6 +287,7 @@ IMPORTANT NOTE: If at any point you are unsure of next steps or have any questio
 
 1. Add the `Awaiting::Challenge Answers` label, and wait for the requestor to reply.
    1. If no response is received after 10 calendar days, apply the `Account Verification Failed` and `deletion request::denied` labels to the issue, and close it using the following snippet:
+
 <details>
   <summary markdown="span">Request Closed - No Response (Account Deletion - Deceased User) </summary>
 
@@ -385,7 +386,6 @@ Use the following workflows based on the type of request submitted.
 
   <p>Regards,</p>
 </details>
-
 
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [personal_data_access_request](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=personal_data_access_request) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.

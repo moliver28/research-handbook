@@ -27,6 +27,7 @@ There are multiple ways to add the candidates, as follows:
 - [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-Enable-LinkedIn-Recruiter-System-Connect-RSC-) so you can export candidates in one click as prospects
 
 How to add prospects to Talent Pools:
+
 - [Sourcing Page Written Walkthrough](/handbook/hiring/sourcing/#greenhouse-sourcing----talent-community)
 - [From Greenhouse Talent Community Video Walkthrough](https://drive.google.com/file/d/174J5c0B-O8qHhjILR_FbiteJ1aXO1g_d/view)
 - [From LinkedIn Video Walkthrough](https://drive.google.com/file/d/18EpEpEvlHu3q7qdWcTZMdVtQKftaHZZh/view)
@@ -51,6 +52,7 @@ Use our [reach out templates](https://docs.google.com/presentation/d/1ySqgLoYnFU
 If you are reaching out to a pool of prospects, please be sure to check for duplicate prospect profiles prior to sending out mass communications. Duplicate prospect profiles occur when candidates join the Talent Community on multiple occasions. Although duplicate prospect profiles are automatically merged by Greenhouse, if they are still being considered as a prospect for multiple submissions, they will be sent a communication for each of their submissions. Be sure to select `Stop Considering as Prospect` for any duplicate prospect profiles that are identified prior to sending out mass communications.
 
 To send out a mass communication to the general Talent Community
+
 1. In the "Pools & Stages" section of the Greenhouse CRM, navigate to "GitLab Prospects" pool and select the member icon listed next to the number of prospects in that pool. Keep in mind, to view this entire pool, one must have Admin permissions enabled.
 1. Next, once all prospect applications are in view, navigate to the top right and select `Bulk Actions` > `Select All` > `Edit Selected` > `Email.`
 1. Once the email window populates, select the CRM email template that you're intending to send.
@@ -81,4 +83,3 @@ The person who completes the "career conversation" call will add brief notes to 
 ### **Step 6: Nurture Prospects**
 
 Prospects whose prospect stage in Greenhouse is “Nurture” should receive a monthly message from GitLab.
-

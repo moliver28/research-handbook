@@ -23,7 +23,7 @@ This lab will help you improve your instance's security by enabling the option t
 
 1. Next, ensure sign ups are only allowed for your company's domain. In the **Allowed domains for sign-ups**, type your company’s domain name and press <kbd>Enter<kbd>.  
 
-1. Scroll down to the end of the section and click **Save Changes**. 
+1. Scroll down to the end of the section and click **Save Changes**.
 
 ## Lab Guide Complete
 
@@ -32,4 +32,3 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 ### Suggestions?
 
 If you’d like to suggest changes to the GitLab System Admin Basics Hands-on Guide, please submit them via merge request.
-

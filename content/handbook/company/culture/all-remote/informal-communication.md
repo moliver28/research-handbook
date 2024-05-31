@@ -19,7 +19,7 @@ Talking about the weather; sharing photos of pets, favorite foods or holidays; s
 
 ## What is the difference between formal and informal communication in the workplace?
 
-Since GitLab is an all-remote organization that [works asynchronously]({{< ref "./asynchronous" >}}), nearly all work communication is [documented](/handbook/documentation), making all work-related communications "formal" communications. This helps support our value of [transparency]({{< ref "values#transparency" >}}).
+Since GitLab is an all-remote organization that [works asynchronously]({{< ref "./asynchronous" >}}), nearly all work communication is [documented](/handbook/product/ux/technical-writing/documentation/), making all work-related communications "formal" communications. This helps support our value of [transparency]({{< ref "values#transparency" >}}).
 
 We are big on relationship-buiding. We highly value intentionally creating time to build relationships via informal communications.
 
@@ -124,7 +124,7 @@ For colocated companies, the occasional team offsite — to take in a sporting e
 Below are a number of intentional facets of [GitLab's culture]({{< ref "culture#culture-at-gitlab" >}}), created to foster informal communication. We welcome other all-remote companies to iterate on these and implement as desired.
 
 1. [Contribute Unconference](https://about.gitlab.com/events/gitlab-contribute): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
-1. [Group conversations](/handbook/group-conversations): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
+1. [Group conversations](/handbook/company/group-conversations/): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Coffee chats: More details below.
 1. Coworking calls: More details below.
 1. Social hours: Informal social calls organized within our immediate teams to get to know each other on a more personal level.
@@ -213,7 +213,7 @@ We understand that working remotely leads to mostly work-related conversations w
 
 It's a great chance to get to know who you work with, talk about everyday things and share a coffee, tea, or your favorite beverage. We want you to make friends and build relationships with the people you work with to create a more comfortable, well-rounded environment.
 
-#### Scheduling a Coffee Chat
+### Scheduling a Coffee Chat
 
 GitLab Team Members can easily schedule a Coffee Chat in Google Calendar and link it to Zoom, with a 1-click link to the video call. When scheduling coffee chats with executive leadership, please reach out to their EBA to find a mutually available time. If they are not on the list in the [EBA Handbook]({{< ref "eba#executive-business-administrator-team" >}}), please follow the steps below:
 
@@ -226,7 +226,7 @@ Watch this [short video](https://youtu.be/zbbEn_PznK0) to see how it's done.
 
 Google Calendar will warn you if the time is outside the other person's working hours, and you can select from a list of suggested times.
 
-#### Diversifying your Coffee Chats
+### Diversifying your Coffee Chats
 
 Coffee Chats are a fantastic opportunity to intentionally broaden your perspective at GitLab. Some suggestions on intentional Coffee Chats:
 
@@ -306,7 +306,6 @@ You can take a look at the [internal time zones and interests document](https://
 ![Spreading aloha on a GitLab company call](/images/all-remote/GitLab-Aloha-Shirt-Team.jpg)
 {{% /card %}}
 {{% /cardpane %}}
-
 
 Some teams at GitLab organize informal social calls on a regular basis in order to build camaraderie.
 The [data team](/handbook/business-technology/data-team) has them every Tuesday.
@@ -445,6 +444,6 @@ In this section, we'll spotlight tips and advice from other experts and companie
 
 Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

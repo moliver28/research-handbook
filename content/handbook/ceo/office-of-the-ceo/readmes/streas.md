@@ -61,6 +61,7 @@ Please feel free to contribute to this page by opening a merge request.
 ## Personality tests
 
 2022 [TeamSight](https://teamsight.co/):
+
 1. Ideas: 3 (how that would work here)
 1. Emotion: 3 (I want fair)
 1. Action: 5 (directs projects)
@@ -69,8 +70,8 @@ Please feel free to contribute to this page by opening a merge request.
 2016 [Five Dynamics by Simpli5](https://www.simpli5.com/): Effortless across 5 dimensions. Spikes in Examine and Execute.
 
 2007 [Meyers Briggs](https://www.themyersbriggs.com/): ENTP. Since self diagnosed as an E N T P/J
+
 1. Extrovert
 1. Intuition
 1. Thinking
 1. Prospecting / Judging
-

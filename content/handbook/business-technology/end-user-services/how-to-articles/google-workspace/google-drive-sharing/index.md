@@ -1,14 +1,6 @@
 ---
-
 title: "How To Use Google Drive Sharing"
 ---
-
-
-
-
-
-
-
 
 ## Introduction
 
@@ -19,15 +11,9 @@ There are different [Levels of Permissions](https://support.google.com/drive/ans
 
 ## How to Share Google Drive Files
 
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Note**" header-bg="info" %}}
 There are multiple ways to share Google Drive files and folders.
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Using `drive.google.com`
 
@@ -55,15 +41,9 @@ There are multiple ways to share Google Drive files and folders.
 
 ## How to Access Shared Google Drive Files
 
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Note**" header-bg="info" %}}
 There are multiple ways to access shared Google Drive files and folders.
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Using `drive.google.com`
 

@@ -59,7 +59,7 @@ Because the majority of our codebase is written in Ruby, even in specialized rol
 
 For context, see this merge request with some [history on this policy](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695).
 
-----
+---
 
 #### Primary programming language
 

@@ -12,6 +12,7 @@ title: "Public Sector Go To Market"
 ### Public Sector Message House
 
 #### Booth Messaging / Tagline
+
 - **Secure the Speed to Mission.**
 *Deliver more secure code faster and better.*
 
@@ -27,7 +28,7 @@ GitLab empowers government agencies to deliver secure software so they are succe
 
 #### Long Description
 
-Government agencies strive to serve the public by providing optimal experiences to their communities. One way to do this is a successful digital transformation ensuring software is secure, manual processes are minimized, and there is collaboration between teams and vendors.  
+Government agencies strive to serve the public by providing optimal experiences to their communities. One way to do this is a successful digital transformation ensuring software is secure, manual processes are minimized, and there is collaboration between teams and vendors.
 
 GitLab supports your digital transformation because it is secure by design, reduces manual processes, and empowers collaboration to provide a positive civilian experience.
 
@@ -36,23 +37,27 @@ GitLab, The One DevSecOps platform, is for software users in government agencies
 ### Positioning Strategy
 
 #### Competitive Alternatives
+
 - GitHub
 - Fortify
 - SonarQube
 
 #### Unique Attributes
+
 - Complete SDLC with embedded security in one platform
 - Shift security left to automate security scanning and compliance adherence across the SDLC
 - Cloud neutral
 - Everyone can contribute at every development stage
 
 #### Value
+
 - Allow developers to see, track and fix the vulnerabilities earlier in the software development lifecycle
 - Security guardrails to prevent vulnerable code from making it into production
 - Connects with AWS, Google Cloud, Azure, + more
 - Increase code deployment (up to 200% faster)
 
 #### Who Cares A Lot
+
 - See target audience below
 
 ### Messaging Framework
@@ -60,11 +65,13 @@ GitLab, The One DevSecOps platform, is for software users in government agencies
 #### Target Audience
 
 _User personas*
+
 - Application Ops - Alternative Job Titles: DevOps engineer, Lead developer, Site Reliability Engineer, AppSec Engineer
 - Program Managers - Alternative Job Titles:  Compliance Program Manager, Audit Report Analyst, Audit Events Analyst
 - Contracting Officer
 
 *Buyer personas*
+
 - DevOps Leader
 - Chief Technology Officer (CTO)
 - Chief Information Officer (CIO)
@@ -83,6 +90,7 @@ GitLab secures your speed to mission by addressing elements to stay ahead of thr
 **Solution:** GitLab, secure by design, supports a proactive security strategy where vulnerabilities are discovered earlier (shift left) in the Software Delivery Lifecycle (SDLC) thus positioning you to be secure by design also.  Your are empowered to design a secure SDLC because we embed security and compliance within the end-to-end DevSecOps workflow, and application vulnerabilities are continuously addressed before code ships, helping you to understand and manage risk while aligning to NIST and CISA guidance.  GitLab is vendor and deployment-neutral, addressing elements to stay ahead of threat vectors; such as a zero trust framework, for securing the software supply chain, automated creation of a software bill of materials (SBOM), and Infrastructure as Code security scanning, and support for security scanning in Offline or Limited Connectivity Environments.
 
 **Value Prop Pillars:**
+
 - [Security scanning](https://docs.gitlab.com/ee/user/application_security/): Find vulnerabilities sooner in the SDLC with static application security testing (SAST), dynamic application security testing (DAST), secret detection, and license compliance verification.
 - Automated unit testing, code quality, and fuzz testing: Automated capabilities can run on every code commit helping to prevent coding flaws.
 - [Offline environments](https://docs.gitlab.com/ee/user/application_security/offline_deployments/): Run security scans when not connected to the internet addressing cloud-native attack surfaces without getting in the way of rapid development and with fewer tools to manage.
@@ -108,6 +116,7 @@ A software factory that accelerates the delivery of critical capabilities with f
 GitLab is cloud-neutral—connecting with AWS, Google Cloud, Azure, and beyond—so IT leaders and developers know it will work seamlessly with other investments now and in the future further enabling the digital transformation journey.
 
 **Value Prop Pillars:**
+
 - Automated Software Delivery:  Shortened lead times from code to production reduces error frequency and severity and helps to deploy more frequently. This delivers more business value more often with less effort helping to accelerate the delivery of critical capabilities in one platform, speeding up ATO.
 - Remote Delivery, Collaborative Workflow Management, and Observability:  [Agile project management, distributed version control](https://about.gitlab.com/solutions/agile-delivery/) based on Git, and automated [CI/CD](https://docs.gitlab.com/ee/ci/) for an easy-to-deploy and manage software factory.
 - Artifact Generation: Users can take advantage of endless automation for artifact generation that is easily collected as a central standard source for remediation.
@@ -121,6 +130,7 @@ GitLab is cloud-neutral—connecting with AWS, Google Cloud, Azure, and beyond�
 GitLab intimately understands the evolving challenges of software development for mission success and is designed to empower government employees, developers, and vendors to build remotely—or wherever they’re most efficient. GitLab is a pioneer in remote work, recognizing it as an advantage that enables progress.
 
 **Value Prop Pillars:**
+
 - [Agile project management](https://about.gitlab.com/solutions/agile-delivery/): GitLab enables teams to apply Agile practices and principles to organize and manage their work, whatever their chosen methodology within one platform for the complete DevOps lifecycle.
 - [Visibility level(https://docs.gitlab.com/ee/development/permissions.html#general-permissions)]: Set the visibility levels from Public, Internal to Private for your groups and projects.
 - Low-to-high-side development is supported so agencies can work with the most talented developers across the country.
@@ -129,6 +139,7 @@ GitLab intimately understands the evolving challenges of software development fo
 
 **Competitive Differentiators:**
 Same as Unique Attributes listed above:
+
 - Complete SDLC with Embedded security in one platform
 - Shift security left by automating security scanning and compliance adherence across the SDLC
 - Cloud neutral
@@ -136,45 +147,54 @@ Same as Unique Attributes listed above:
 
 **Proof Points/Customer References:**
 Secure by design:
+
 - [Posted on LinkedIn](https://www.linkedin.com/posts/jasonrweiss_sbom-go-usgovernment-activity-6965445746875658240-cB86/) by a user who was part of Department of Defense - GitLab generates an SBOM automatically when you enable the GitLab Dependency Scanning in your .gitlab-ci.yml file. It's a one-liner to turn this on. It's as close to an ⒺⒶⓈⓎ button as you can get these days.
 
 Automate software factory deployment:
+
 - [The Paul G. Allen Center for Computer Science & Engineering gains control and flexibility to easily manage 10,000+ projects](https://about.gitlab.com/customers/uw/)
 - [How Chicago’s Cook County assesses economic data with transparency and version control](https://about.gitlab.com/customers/cook-county/)
 
 Empowering the mission:
+
 - [How the U.S. Army Cyber School created “Courseware as Code” with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/)
 
-GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/).  
+GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/).
 
 ### Use Cases
 
 **Secure by Design**
+
 - Challenge: Increasing cyber-attacks and cybersecurity threats from internal and external entities
 - Solution: One DevSecOps Platform, secure by desig, enables you to secure your software supply chain staying ahead of threat vectors
 - Benefits: Remediate vulnerabilities before pushing to production with automated scanning earlier in the SDLC (shifting left), producing well-secured software
 
 **Software Factory**
+
 - Challenge: Manual processes, dated policies, and aging technology prevent digital transformation
 - Solution: One DevSecOps Platform that automates, end-to-end DevSecOps workflows,  manual, and repetitive tasks in the software delivery life cycle (SDLC)
 - Benefits: Deploy an easy-to-manage software factory improving velocity to build, test, and deliver applications
 
 **Low to High Development**
+
 - Challenge: Collaboration is siloed with teams working in multiple isolated, classified, or air-gapped networks
 - Solution: One DevSecOps Platform with project export/import
 - Benefits: Streamlined processes and tools, seamless collaboration, control and visibility
 
 **GitOps**
+
 - Challenge: Need to manage and automate  infrastructure and application deployment, version control is not centralized, ops unable to iterate at pace of Dev
 - Solution: One DevSecOps Platform with GitOps functionality - on-prem, cloud, cloud neutral
 - Benefits: Increase agility in meeting customer demands of commercial cloud vendors capabilities (elasticity) while fostering visibility and collaboration across teams
 
 **SBOM (Software Bill of Materials)**
+
 - Challenge: Weak software supply chain leads to security breaches and invisible security threats
 - Solution: One DevSecOps Platform with security embedded - pre-build dependency scanning for SBOM generation, vulnerability workflows, and speedy resolutions
 - Benefits:  Insights into dependencies across transient structures, teams can expedite remediation activities with SBOM vulnerabilities displayed in the UI
 
 **ATO (Authority to Operate)**
+
 - Challenge: The ATO process at the end of the SDLC adds unplanned and unscheduled work to delivery timelines
 - Solution: One DevSecOps Platform that automates compliance management to significantly reduce time to achieve ATO
 - Benefits:  Accelerate the delivery of critical capabilities with flexible, automatic business, development, operations, and security workflows in one platform
@@ -183,7 +203,8 @@ GitLab is 100% remote and helps to foster collaborative environments. It has bee
 
 ### SWOTT Analysis
 
-**Strenghts**
+**Strengths**
+
 - Empowers users to be collaborative which brings efficiency
 *Multiple functionalities align to NIST guidelines from Executive Order
 - Shift Left - vulnerabilities are discovered earlier in the SDLC with several security scanning processes - DAST, SAST, fuzz testing, secret detection, and more
@@ -200,12 +221,14 @@ GitLab is 100% remote and helps to foster collaborative environments. It has bee
 - Provides collaborative and transparent CX
 
 **Weaknesses**
+
 - Not FedRAMP authorized
 - Use cases where third party integration is needed to work with Kubernetes
 - More awareness is needed for the EO/NIST story
 - Lacking messaging and marketing assets for the different verticals within the Public Sector, i.e. SLED, Civilian, Intelligence, DOD
 
 **Opportunities**
+
 - Federal government increased the 2022 budget by 11% to $10.9 billion for civilian cybersecurity actvities
 - Authorizations to grow in the sector:
   - Will be FIPS 140-2 in FY2023
@@ -216,6 +239,7 @@ GitLab is 100% remote and helps to foster collaborative environments. It has bee
 - Continuing cloud modernization/Cloud Native and 100% cloud agnostic
 
 **Threats**
+
 - Strong Microsoft environments tend to get free tools (GitHub) when they purchase the Cloud + Office
 - Strong preference is given to approved, incumbent solutions, i.e. Fortify and SonarQube
 - Microsoft/Google announced products/solution for NIST/EO

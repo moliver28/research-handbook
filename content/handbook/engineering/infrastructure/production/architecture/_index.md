@@ -38,12 +38,11 @@ The compute and network layout that runs GitLab.com
 - [ops.gitlab.net Architecture](supporting-architecture.html#ops-gitlab-net)
 - [version.gitlab.com Architecture](supporting-architecture.html#version-gitlab-com)
 
-
 ### Current Architecture {#infra-current-archi-diagram}
 
 #### GitLab.com Production Architecture {#gitlab-com-architecture}
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vShfNY5bxtjAsYq-YBDAJAnyjBuxN0i62NoDvbmhvDVOrCas20_Q4XA8Qxm1D2v0mmemP9y-rDsRQFe/pub?w=669&h=551">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vShfNY5bxtjAsYq-YBDAJAnyjBuxN0i62NoDvbmhvDVOrCas20_Q4XA8Qxm1D2v0mmemP9y-rDsRQFe/pub?w=669&h=551" alt="">
 
 [Source](https://docs.google.com/drawings/d/1NmafL3ULQnjuY3_JFMWDwXpjdd0I1hyMXkZ0bwUYNhI/edit), GitLab internal use only
 
@@ -82,7 +81,7 @@ Monitoring for GitLab.com runs in the same cluster as the application. Metrics a
 
 Prometheus is configured using the [kube-prometheus-stack helm chart](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack) in the namespace `monitoring`, and every cluster has its own Prometheus which gives us some sharding for metrics.
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRsr0FMLtX9Cy6KiXhAc90SNz_w_JyifZzdWw8y8WsVotU-7qtRpxHLbKkDoAE60ckhWP30PEw9bOvZ/pub?w=800">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRsr0FMLtX9Cy6KiXhAc90SNz_w_JyifZzdWw8y8WsVotU-7qtRpxHLbKkDoAE60ckhWP30PEw9bOvZ/pub?w=800" alt="">
 
 [Source](https://docs.google.com/drawings/d/1ELrompqluRa00-Q_L9Ruq6W5KHFmgh1Wn1cdwEpOhaw/edit?usp=sharing), GitLab internal use only
 
@@ -108,17 +107,17 @@ Our GKE nodes are configured from the start with this mirror already in place pr
 
 #### Database Architecture
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vT-w2R-TuNkrvYzn6pmVOPmswhxt1o6yOhfEczgT3EHkD7xVkx3wtyOHndSJxBwcHwsnSPUun5SSVRc/pub?w=960&amp;h=720">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vT-w2R-TuNkrvYzn6pmVOPmswhxt1o6yOhfEczgT3EHkD7xVkx3wtyOHndSJxBwcHwsnSPUun5SSVRc/pub?w=960&amp;h=720" alt="">
 
 [Source](https://docs.google.com/drawings/d/1BWb1Q-hJzCZs8krvYwi5V9F_hJe-4CJdtIORfVGWJLo/edit), GitLab internal use only
 
 #### Redis Architecture
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRlVEM91d_D4YzzQCzb7kaclbw-F4QvYg7Ml7Xz9S9aAcNCEUM6RGMF3Uadx8jYaniE1NCOmLP754xz/pub?w=960&h=720">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRlVEM91d_D4YzzQCzb7kaclbw-F4QvYg7Ml7Xz9S9aAcNCEUM6RGMF3Uadx8jYaniE1NCOmLP754xz/pub?w=960&h=720" alt="">
 
 [Source](https://docs.google.com/drawings/d/1-j_nFW7EJ01Te26f6zZzFNaPboVzVUtAmuFBbqzztVQ/edit), GitLab internal use only
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vTL1CvbRbxx3Q9iEQGntgdQ6Vw4iSc5eokogS-0UvBj5mEMbJIz0nKAh8SBaInmdXpwblRju2tcFNs6/pub?w=960&amp;h=720">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTL1CvbRbxx3Q9iEQGntgdQ6Vw4iSc5eokogS-0UvBj5mEMbJIz0nKAh8SBaInmdXpwblRju2tcFNs6/pub?w=960&amp;h=720" alt="">
 
 [Source](https://docs.google.com/drawings/d/1vz4cluxqoccE2REyJLfLOM2etJjPvYvonwJoIHMtC2w/edit), GitLab internal use only
 
@@ -149,7 +148,7 @@ When needed we also sometimes deal with CPU saturation by making application cha
 
 #### Network Architecture
 
-<img src="/images/handbook/engineering/infrastructure/production-architecture/network-arch.png">
+<img src="/images/handbook/engineering/infrastructure/production-architecture/network-arch.png" alt="">
 
 [Source](https://drive.google.com/file/d/19-IMmcJHVUz_bWOXU7_1NoYOdQJEZ3lM/view?usp=sharing), GitLab internal use only
 
@@ -172,7 +171,6 @@ No application or customer data flows through these network peers.
 GitLab leverages Cloudflare's Web Application Firewall (WAF). We host our Domain Name Service (DNS) with Cloudflare (gitlab.com, gitlab.net) and Amazon Route 53 (gitlab.io and others).
 For more information about CloudFlare see the [runbook](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/README.md) and the [architecture overview](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/6f92124563835415e5c6e59f40b32e7307d3fb67/cloudflare/README.md#with-cloudflare).
 
-
 #### TLD Zones
 
 When it comes to DNS names all services providing GitLab as a service shall be in the `gitlab.com` domain, ancillary services in the support of GitLab (i.e. Chef, ChatOps, VPN, Logging, Monitoring) shall be in the `gitlab.net` domain.
@@ -193,7 +191,6 @@ For more information about secret management see the runbook for [Chef secrets u
 ### Monitoring
 
 See how it's doing, for more information on that, visit the [monitoring handbook](/handbook/engineering/monitoring/).
-
 
 ## Exceptions
 

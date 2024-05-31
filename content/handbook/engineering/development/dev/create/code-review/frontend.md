@@ -7,7 +7,7 @@ description: The Create:Code Review FE team is responsible for all frontend aspe
 
 | **Category**            | **Handle** |
 |-------------------------|-------------|
-| **GitLab Team Handle**  | [@code-review-fe](https://gitlab.com/code-review-fe)
+| **GitLab Team Handle**  | [@code-review-fe](https://gitlab.com/code-review-fe) |
 | **Slack Channel**               | [`#g_create_source-code-review-fe`](https://gitlab.enterprise.slack.com/archives/CS5NHHBJ7) |
 | **Slack Handle**               | `@code_review_fe` |
 | **Team Boards**         | [`Current Milestone`](https://gitlab.com/groups/gitlab-org/-/boards/2177994) |
@@ -37,13 +37,13 @@ Support all our counterparts with frontend engineering expertise, including impl
 
 The following people are permanent members of the Create:Code Review FE Team:
 
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Code Review" team="Create:Code Review" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Code Review" team=".*(Frontend|Fullstack).*Create:Code Review" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Create:Code Review$|Technical Writer(.*)Code Review|Director(.*)Create|Principal(.*)Create|Group(.*)Create" manager-role="Frontend Engineering Manager(.*)Create:Code Review"  >}}
+{{< stable-counterparts manager-role="Senior Engineering Manager(.*)Create:Code Review" role="(Product Manager|Technical Writer|Software Engineer in Test|Senior Security Engineer|Product Designer).*(Create:Code Review|Create \(Code)|Dev\:Create|Code Review" >}}
 
 ## Core Responsibilities
 
@@ -82,5 +82,5 @@ This is scheduled ad-hoc within the first 5-10 days of the milestone.
 
 ### Issues
 
-- 2020 April: [Frontend: Iteration Retrospective (Source Code)](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/22)
-- 2020 December: [Merge Request Architecture Walkthrough](https://gitlab.com/gitlab-org/gitlab/-/issues/291035/designs/gl_mr_architecture_boxes.png)
+* 2020 April: [Frontend: Iteration Retrospective (Source Code)](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/22)
+* 2020 December: [Merge Request Architecture Walkthrough](https://gitlab.com/gitlab-org/gitlab/-/issues/291035/designs/gl_mr_architecture_boxes.png)

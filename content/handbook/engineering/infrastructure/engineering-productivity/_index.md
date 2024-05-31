@@ -72,33 +72,34 @@ graph LR
     click G "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35"
 ```
 
-* **See it and find it**: Build automated measurements and dashboards to gain insights into the productivity of the Engineering organization to identify opportunities for improvement.
-  * Implement new measurements to provide visibility into improvement opportunities.
-  * Collaborate with other Engineering teams to provide visualizations for measurement objectives.
-  * Improve existing performance indicators.
-* **Do it for internal team**: Increase contributor and developer productivity by making measurement-driven improvements to the development tools / workflow / processes, then monitor the results, and iterate.
-  * Identify and implement quantifiable improvement opportunities with proposals and hypothesis for metric improvements.
-  * Automated [merge request quality checks](https://docs.gitlab.com/ee/development/dangerbot.html) and [code quality checks](https://docs.gitlab.com/ee/development/contributing/style_guides.html).
-  * [GitLab project pipeline](https://docs.gitlab.com/ee/development/pipelines/) improvements to improve efficiency, quality or duration.
-* **Dogfood use**: Dogfood GitLab product features to improve developer workflow and provide feedback to product teams.
-  * Use new features from related product groups (Analytics, Monitor, Testing).
-  * Improve usage of [Review apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html) for GitLab development and testing.
-* **Engineering support**:
-  * [`#master-broken`](/handbook/engineering/workflow/#broken-master) pipeline monitoring.
-  * KPI corrective actions such as [Review Apps stabilization](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate).
-  * [Merge Request Coach](/job-families/expert/merge-request-coach/) for ~"Community contribution" merge requests.
-* **Engineering workflow**: Develop automated processes for improving label classification hygiene in support of product and Engineering workflows.
-  * [Automated issues and merge requests triage](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
-  * Improvements to the labelling classification and automation used to support Engineering measurements.
-  * See the [`gitlab-triage` Ruby gem](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage), and [Triage operations](https://gitlab.com/gitlab-org/quality/triage-ops) projects for examples.
-* **Do it for wider community**: Increase efficiency for wider GitLab Community contributions.
-* **Dogfood build**: Enhance and add new features to the GitLab product to improve engineer productivity.
+- **See it and find it**: Build automated measurements and dashboards to gain insights into the productivity of the Engineering organization to identify opportunities for improvement.
+  - Implement new measurements to provide visibility into improvement opportunities.
+  - Collaborate with other Engineering teams to provide visualizations for measurement objectives.
+  - Improve existing performance indicators.
+- **Do it for internal team**: Increase contributor and developer productivity by making measurement-driven improvements to the development tools / workflow / processes, then monitor the results, and iterate.
+  - Identify and implement quantifiable improvement opportunities with proposals and hypothesis for metric improvements.
+  - Automated [merge request quality checks](https://docs.gitlab.com/ee/development/dangerbot.html) and [code quality checks](https://docs.gitlab.com/ee/development/contributing/style_guides.html).
+  - [GitLab project pipeline](https://docs.gitlab.com/ee/development/pipelines/) improvements to improve efficiency, quality or duration.
+- **Dogfood use**: Dogfood GitLab product features to improve developer workflow and provide feedback to product teams.
+  - Use new features from related product groups (Analytics, Monitor, Testing).
+  - Improve usage of [Review apps](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html) for GitLab development and testing.
+- **Engineering support**:
+  - [`#master-broken`](/handbook/engineering/workflow/#broken-master) pipeline monitoring.
+  - KPI corrective actions such as [Review Apps stabilization](/handbook/engineering/infrastructure/performance-indicators/#review-app-deployment-success-rate).
+  - [Merge Request Coach](/job-families/expert/merge-request-coach/) for ~"Community contribution" merge requests.
+- **Engineering workflow**: Develop automated processes for improving label classification hygiene in support of product and Engineering workflows.
+  - [Automated issues and merge requests triage](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
+  - Improvements to the labelling classification and automation used to support Engineering measurements.
+  - See the [`gitlab-triage` Ruby gem](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage), and [Triage operations](https://gitlab.com/gitlab-org/quality/triage-ops) projects for examples.
+- **Do it for wider community**: Increase efficiency for wider GitLab Community contributions.
+- **Dogfood build**: Enhance and add new features to the GitLab product to improve engineer productivity.
 
 ## Metrics
 
 ### KPIs
 
 [Infrastructure Performance Indicators](/handbook/engineering/infrastructure/performance-indicators/) are our single source of truth
+
 - [Master Pipeline Stability](/handbook/engineering/infrastructure/performance-indicators/#master-pipeline-stability)
 - [Merge request pipeline duration](/handbook/engineering/infrastructure/performance-indicators/#merge-request-pipeline-duration)
 
@@ -155,7 +156,7 @@ Engineering productivity has monthly office hours on the 3rd Wednesday of the mo
 
 ### Meetings
 
-Engineering Productivity has [weekly team meeting ](https://docs.google.com/document/d/1yzHuosvykzb_kaldjGP9I6wxpNpMXdNEvEFBkHyZpXs/edit#) in two parts (EMEA / AMER) to allow for all team members to collaborate in times that work for them.
+Engineering Productivity has [weekly team meeting](https://docs.google.com/document/d/1yzHuosvykzb_kaldjGP9I6wxpNpMXdNEvEFBkHyZpXs/edit#) in two parts (EMEA / AMER) to allow for all team members to collaborate in times that work for them.
 
 - Part 1 is Tuesdays 11:00 UTC, 04:00 PST
 - Part 2 is Tuesdays 22:00 UTC, 15:00 PST

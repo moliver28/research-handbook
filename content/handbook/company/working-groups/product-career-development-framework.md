@@ -17,7 +17,6 @@ description: "Learn more about the Product Career Development Framework Working 
 | Associated KPIs/OKRs | Promotion Rate and Retention |
 | GitLab group for working group| `@wg-product-cdf |
 
-
 ## Business Goals
 
 1. Deliver a revised [Product Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/#product-management-career-development-framework) for Individual Contributor roles in Product based on new competencies by 2022-06-20.
@@ -38,7 +37,6 @@ description: "Learn more about the Product Career Development Framework Working 
 1. Clear quantative measures for progress [included in the CDF](/handbook/product/product-manager-role/product-CDF-competencies/#cdf-topics-for-product-managers)
 1. [Training](/handbook/product/product-manager-role/product-CDF-competencies/#people-management-competencies) for how to use the CDF for all [Product Leaders](/handbook/product/product-leadership/#product-leaders)
 1. Simplification of [PM Competencies](/handbook/product/product-manager-role/product-CDF-competencies/)
-
 
 ## Roles and Responsibilities
 

@@ -29,6 +29,12 @@ admin level abilities currently. If an organization needs to be edited, an issue
 should be filed using the
 [support ops issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
 
+## Deleting Organizations
+
+For more information on organization deletion, please see the
+[Organization Deletion](/handbook/support/readiness/operations/docs/policies/org_deletion)
+policy page.
+
 ## Organization Notes for Zendesk Global
 
 There are two forms of organization notes we utilize:

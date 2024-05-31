@@ -42,8 +42,8 @@ Because this group works on components of the application that have a [far-reach
 1. If a feature flag is used then a feature flag [rollout plan](/handbook/engineering/development/processes/rollout-plans/) will be created. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
 1. Compliance related merge requests require a review by a [Compliance Engineer](https://gitlab.com/groups/gitlab-org/govern/compliance/engineering/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.
 
-
 ### Working on ad hoc work and questions
+
 From time to time, there will be ad hoc work and questions that arise, such as Slack questions, questions in Issues, Error Budget investigations, etc. All Compliance group members are encouraged to watch these mediums and engage.
 
 As first responder, we will acknowledge the ad hoc work / question in the appropriate medium. This is to ensure that the questioner knows that we are on it.
@@ -75,7 +75,7 @@ Before working on a spike we make sure to clearly define:
 
 We strongly believe in [Iteration](/handbook/values/#iteration) and delivering value in small pieces. Iteration can be hard, especially when you lack product context or are working in a particularly risky/complex part of the codebase. If you are struggling to estimate an issue or determine whether it is feasible, it may be appropriate to first create a proof-of-concept MR. The goal of a proof-of-concept MR is to remove any major assumptions during planning and provide early feedback, therefore reducing risk from any future implementation.
 
-- Create an MR, prefixed with `PoC: `.
+- Create an MR, prefixed with `PoC:`.
 - Explain what problem the PoC MR is trying to solve for in the MR description.
 - Timebox it. Can you determine feasibility or a plan in less than 2-3 days?
 - Identify a reviewer to provide feedback at the end of this period.
@@ -311,7 +311,7 @@ In some cases it may be appropriate for the MR author to to verify the change th
 
 ##### Handling Discoveries of Issues
 
-__Verifier: the engineer verifying the issue on .com/production (not the MR author)__
+**Verifier: the engineer verifying the issue on .com/production (not the MR author)**
 
 1. Verifier: documents findings by commenting on the verification thread on the issue.
 1. Verifier: opens new issues ~"type::bug"  or ~"type::feature" based on fiindings.
@@ -321,6 +321,7 @@ __Verifier: the engineer verifying the issue on .com/production (not the MR auth
 1. Verifier: closes the issue and unassigns themself. The issue will automatically get the `~workflow::complete` label added.
 
 #### Demos
+
 During the `workflow::verification` process, we determine whether the Issue requires a demo. If unsure, work with PM to determine if a demo is required. Demos are great for showcasing progress and help users quickly understand how to use a features and its benefits. Our process for this is similar to [Single Engineer Groups Demo](/handbook/engineering/demos/#single-engineer-groups-demo):
 
 - Record a video on your computer or via Zoom livestream of the working software. You can also use [loom](/handbook/tools-and-tips/other-apps/#loom) for recording demos.
@@ -354,10 +355,9 @@ Meetings that are not 1:1s or covering confidential topics should be added to th
 
 All meetings should have an agenda prepared at least 12 hours in advance. If this is not the case, you are not obligated to attend the meeting. Consider meetings canceled if they do not have an agenda by the start time of the meeting.
 
-
 ## Planning for PTO
 
-We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Group Shared Calendar
 

@@ -15,7 +15,6 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ---
 
-
 ### Leadership Competencies
 
 {{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
@@ -46,7 +45,7 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 - Able to provide deployment recommendations for production installations.
 - Understand how features in their domain operate at scale in production.
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 

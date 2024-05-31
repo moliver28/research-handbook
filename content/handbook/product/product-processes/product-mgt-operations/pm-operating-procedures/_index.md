@@ -24,6 +24,7 @@ The intent of this review and collaboration workflow is not to "block" but to he
 - support from Product Operations for successful rollout to and adoption by the Product team
 
 #### Product Management Meeting (Bi-weekly)
+
 **DRI:** [Product Operations](/handbook/company/team/#fseifoddini) and [Chief Product Officer](/handbook/company/team/#david)
 
 - **What:** A bi-weekly team meeting for Product. All team members can add items to the agenda either as a Read-Only, or as a discussion item.
@@ -44,6 +45,7 @@ The intent of this review and collaboration workflow is not to "block" but to he
 All product team members are encouraged to add agenda items. The Chief Product Officer will prioritize the discussion items, and any items we can't get to in the allotted 50 min will be moved to the following meeting. If you are a Product team member and are unable to attend the call, you may add items for `READ-ONLY` to the agenda.
 
 #### Product Leadership Meeting (Weekly)
+
 **DRI:** [Chief Product Officer](/handbook/company/team/#david) and  [EBA to Chief Product Officer](/handbook/company/team/#gschwam)
 
 The Chief Product Officer and their direct reports track our highest priority Product Team initiatives. If one of those initiatives needs to be discussed synchronously the assigned individual should add it to the meeting's [GoogleDoc agenda](https://docs.google.com/document/d/1yN2n1ei24HiM5G7tBxaqK4yNPYreKpLZ3CG3nsEFOR4/edit#heading=h.384zmpcao5l6). Directors can delegate and coordinate cross-product initiatives as needed based on the issues in this board.
@@ -53,6 +55,7 @@ As part of this Product Leadership Meeting we also [review progress towards our 
 Non-public items for discussion should be added directly to the [agenda document](https://docs.google.com/document/d/1yN2n1ei24HiM5G7tBxaqK4yNPYreKpLZ3CG3nsEFOR4/edit#heading=h.384zmpcao5l6) for the meeting.
 
 #### Section Performance Indicator Review (Monthly)
+
 **DRI:** Appropriate [Product Section](/handbook/product/categories) Leader & [Senior Director, Product Monetization](/handbook/company/team/#justinfarris)
 
 - **What:** A monthly meeting for [Product  Sections](/handbook/product/categories/#devops-stages) to provide updates on  Performance Indicators, inclusive of their Stages and Groups and the cross-functional team. The main deliverable from the team is for each group to clearly show what they are doing in the next month to drive their metrics in the right direction.
@@ -107,7 +110,7 @@ the product is developed with [directly responsible individuals](/handbook/peopl
 
 | Product Managers | Engineering Managers | UXers | SETs |
 | :--------------: | :------------------: | :---: | :---: |
-| Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. [Prioritizes maintenance work](#prioritization-for-feature-maintenance-and-bugs) | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
+| Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. Prioritizes maintenance work | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
 
 At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
 
@@ -211,8 +214,6 @@ If a quad member remains concerned and in strong disagreement with the decision 
 
 Results are the most important aspect to consider for the business and our users. If there is a perceived risk to potentially harm the business financially, reduce customer satisfaction or value, or lead to legal trouble, teammates are empowered to seek an alternative perspective for the product decision. Within the Product Division, we recommend escalating first to the management layer immediately above where the disagreement is happening for input and further escalating to PLT and ultimately the Chief Product Officer.
 
-
-
 ##### What if your team doesn't have a designer?
 
 Product Designer assignments are listed in the team.yml file. Unfortunately, we are currently unable to assign a dedicated Product Designer for every group. Instead, Product Designers are assigned to the areas of highest business priority and will continue to provide focused support to those priorities throughout the year. Due to the limited capacity, we are also not able to do UX reviews on MRs for groups without a designer.
@@ -220,6 +221,7 @@ Product Designer assignments are listed in the team.yml file. Unfortunately, we 
 If there isn't a designer listed for a group, then that team is expected to be self-sufficient in taking responsibility for the design needs of their product area. Product Design does not have the capacity to review complex proposed design solutions or provide design solutions for unsupported groups.
 
 If you have questions or need support you can do so in the following ways:
+
 - PMs who need to create designs can request access to Figma by creating an [Access Request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new). **Note:** We cannot grant an Editor seat by requesting an upgrade within Figma. An access request issue is required.
 - Review and follow the [Pajamas guidelines](https://design.gitlab.com/).
 - If you have a small design question, or the Pajamas guidance is not clear, reach out via the `#ux` or `#ux_coworking` Slack channel.

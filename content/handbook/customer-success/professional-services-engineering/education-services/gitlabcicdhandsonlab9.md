@@ -52,7 +52,7 @@ SAST, an optional feature on CI/CD pipelines, analyzes your source code for know
 
 1. In the **Commit message** field, type `Enable SAST`, leave the **Target Branch** set to `main`, and click **Commit changes**.
 
-1. Navigate to the pipeline that was started by this change and click the `semgrep-sast` job to ensure that it's running. 
+1. Navigate to the pipeline that was started by this change and click the `semgrep-sast` job to ensure that it's running.
 
     > It might take a minute or two for the `Build` stage to complete first.
 

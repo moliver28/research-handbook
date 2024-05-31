@@ -6,7 +6,7 @@ description: >-
 ---
 
 ## High Level Timeline
- 
+
 |Actions| Ideal timeline |
 |---|---|
 | CFO shares templates with e-staff | 4 calendar weeks before board meeting |
@@ -35,47 +35,54 @@ description: >-
 | **Wrap Up / Reset**<br> - Ask folks for feedback on the board process this quarter (see template below)<br> - Close Slack channel<br> - Check calendar and set a calendar event / reminder to start this process 4 weeks prior to next board meeting<br> - Update template and instructions for next quarter as needed | Natalie Pinto |
 
 ## Relevant Links
-- [R&D Board Template](https://docs.google.com/presentation/d/1ayT3mYTGXUXdkF7jz0tgpyxin0SAd_dZ3u4wYL-0Yws/edit#slide=id.g21fe51b87f5_0_0) 
+
+- [R&D Board Template](https://docs.google.com/presentation/d/1ayT3mYTGXUXdkF7jz0tgpyxin0SAd_dZ3u4wYL-0Yws/edit#slide=id.g21fe51b87f5_0_0)
 - [Board Meeting Schedule](/handbook/board-meetings/#board-meeting-schedule)
 
 ## Communication Templates
+
 <p>
 <details>
 <summary>Click this to expand / collapse </summary>
 
 #### Slack Message: Board Prep Intro
-    I’ve started this channel so we have a place to discuss updates to the Qx-FYxx board deck [link]. 
 
-    Our goal is to have the deck updated by xx-xx so David can review and provide feedback before the company-wide deadline of xx-xx. 
+```markdown
+I’ve started this channel so we have a place to discuss updates to the Qx-FYxx board deck [link].
 
-    I've tagged each of you for updates in the comments of the relevant slide. A couple notes:
+Our goal is to have the deck updated by xx-xx so David can review and provide feedback before the company-wide deadline of xx-xx.
 
-    - Don't worry too much about formatting. I'll tidy everything up as needed.
-    - Reminder that the audience for this deck is Director+.
+I've tagged each of you for updates in the comments of the relevant slide. A couple notes:
+
+- Don't worry too much about formatting. I'll tidy everything up as needed.
+- Reminder that the audience for this deck is Director+.
+```
 
 #### Slack Message: Status Update
-    Hey all, here’s the latest status for the board deck. Reminder that we're trying to have this complete by the end of the day on xx-xx (pacific time). 
 
-    Incomplete slides
-    1. Slide 1: xyz
-    2. Slide 3: xyz
-    3. …
+```markdown
+Hey all, here’s the latest status for the board deck. Reminder that we're trying to have this complete by the end of the day on xx-xx (pacific time).
 
-    Next steps
-    …
+Incomplete slides
+1. Slide 1: xyz
+2. Slide 3: xyz
+3. …
 
-    Material changes to be aware of
-    …
+Next steps
+…
+
+Material changes to be aware of
+…
+```
 
 #### Slack Message: Feedback Request
-    The board content is all wrapped up for Qx! Thank you all for your work in putting these materials together. I’m going to close this slack channel since it’s no longer needed. Feedback is always welcome - please let me know if you have any thoughts (positive or negative) about the board prep process. 
 
+```text
+The board content is all wrapped up for Qx! Thank you all for your work in putting these materials together. I’m going to close this slack channel since it’s no longer needed. Feedback is always welcome - please let me know if you have any thoughts (positive or negative) about the board prep process.
+```
 
 </details>
 </p>
-
-
-
 
 ## Edit This Page
 

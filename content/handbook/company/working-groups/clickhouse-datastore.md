@@ -36,10 +36,6 @@ In April 2024 the ClickHouse Working Group was closed out.  The group made major
 
 Due to the overlap with the recently created [Product Usage Data Architecture Working Group](https://internal.gitlab.com/handbook/company/internal-working-groups/product-usage-data-architecture/), the decision was made to wind down the ClickHouse group, and roll those concerns into that group’s work defining the architecture for analytical features.
 
-
-
-
-
 ### Exit Criteria
 
 This Working Group has the following goals:

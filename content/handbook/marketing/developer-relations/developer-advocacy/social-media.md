@@ -127,15 +127,15 @@ When attending events, networking and connecting to new folks often is a thing. 
 1. Open the LinkedIn mobile app on iOS or Android.
 2. Tap into the search bar.
 
-![LinkedIn iOS app: Search bar](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_01_search_bar.png)
+   ![LinkedIn iOS app: Search bar](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_01_search_bar.png)
 
 3. This action brings up the QR code icon on the right side of the search bar.
 
-![LinkedIn iOS app: Search bar, QR Icon](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_02_search_bar_qr_icon.png)
+   ![LinkedIn iOS app: Search bar, QR Icon](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_02_search_bar_qr_icon.png)
 
 4. Tap on the QR code icon to bring up the QR code to share.
 
-![LinkedIn iOS app: QR Code view](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_03_qr_code_view.png)
+   ![LinkedIn iOS app: QR Code view](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_03_qr_code_view.png)
 
 5. The QR Code view also has a tab to scan other QR codes. If you don't want to grant access to the camera to the LinkedIn app, you can also scan the QR code using your mobile camera and open the LinkedIn app from the scanned profile URL.
 
@@ -293,7 +293,6 @@ When you find something interesting to be shared with our brand account, please 
 - Corey House: [@housecore](https://twitter.com/housecor) 70k+ (dev, learn)
 - Forrest Brazeal: [@forrestbrazeal](https://twitter.com/forrestbrazeal) (cloud, DevOps, cartoons)
 
-
 ### Thought Leader Efficency Tips
 
 The following tips evolved from @dnsmichi experimenting with thought leadership strategies and efficiency.
@@ -317,21 +316,20 @@ The [August 2022 issue of Michael's opsindev.news newsletter](https://opsindev.n
 - [Newsletter text](https://opsindev.news/archive/2022-08-16/): `The first release of Cilium Service Mesh is available following the release of Cilium 1.12. "eBPF-Native When Possible" - Besides the option to remove sidecars, Cilium Service Mesh can perform a variety of service mesh features directly in eBPF to reduce the overhead even further.`
 - [Twitter text](https://twitter.com/dnsmichi/status/1559969314643525632): `The first release of @ciliumproject #ServiceMesh (https://buff.ly/3w89QG2) is available following the release of #Cilium 1.12 (https://buff.ly/3K4xB7B). #eBPF-Native When Possible - perform a variety of service mesh features directly in eBPF to reduce the overhead even further 🚀`
 
-
 ## Social Campaigns
 
 ### Release Evangelism
 
 [GitLab releases](https://about.gitlab.com/releases/) add lots of value every month. As a developer, you know about use cases and workflow enhancements they may solve specifically. Use this knowledge to describe **why** this new feature helps you.
 
-The [product kick-off](https://about.gitlab.com/direction/kickoff/) provides insights into planned features. As we plan ambitiously, there is no guarantee that everything gets released as planned. Therefore release evangelism campaigns need to happen short notice around the [release date](https://handbook.gitlab.com/handbook/engineering/releases/).
+The [product kick-off](https://about.gitlab.com/direction/kickoff/) provides insights into planned features. As we plan ambitiously, there is no guarantee that everything gets released as planned. Therefore release evangelism campaigns need to happen short notice around the [release date](/handbook/engineering/releases/).
 
 > **Tip**: GitLab team members can access the [#release-post](https://gitlab.slack.com/archives/C3TRESYPJ) Slack channel to check for updates on the monthly release blog post.
 > Wider community members can check the `gitlab-com/www-gitlab-com repository` for the [release post MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?label_name%5B%5D=release+post), or follow the Developer Advocate issues with the [DE-Release-Evangelism](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues?sort=updated_desc&state=opened&label_name[]=DE-Type::Evangelist) label.
 
 Workflow:
 
-- Open the fiscal year epic for release evangelism, linked from the [workflow handbook](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/workflow/).
+- Open the fiscal year epic for release evangelism, linked from the [workflow handbook](/handbook/marketing/developer-relations/developer-advocacy/workflow/).
 - Developer Advocates review the release blog post draft.
   - Use the review app.
   - Add feedback and suggestions to the merge request before release day.
@@ -488,7 +486,3 @@ Example tweets for [open-sourcing the registries](https://about.gitlab.com/blog/
 - URL to the release blogpost should be included
 - Mention @gitlab with the @ before the username
 - Use hashtags: `#gitlab #packages #registry`
-
-
-
-

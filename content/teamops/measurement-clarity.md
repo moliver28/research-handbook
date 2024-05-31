@@ -47,6 +47,7 @@ These are documented in a tool that's accessible to the entire organization. Any
 
 {{% details summary="Change management support for transparent measurements" %}}
 **Quick Start Tips:**
+
 - *Individual:* Confirm that your personal task and project management systems sharing settings are public by default. Inform your team members how and where to access them if they’re ever wondering what you’re working on.
 - *Team:* When starting a new project, define and document the contributions of each team member, and how “success” will be measured both individually and collectively.
 - *Company:* In performance review agendas, add a section to revisit (and update, if needed) each team member’s weekly, monthly, quarterly, and yearly OKRs and KPIs. Specifically discuss and answer the question, “What does productivity look like in this role?”
@@ -72,6 +73,7 @@ Producing the `10 Years of GitLab` integrated marketing campaign and [associated
 
 {{% details summary="Change management support for measure results, not hours" %}}
 **Quick Start Tips:**
+
 - *Individual:* When writing your daily to do list, note which three tasks are your highest priority, and use the completion of those tasks to measure “a good day’s work.” Consider shedding or delegating any tasks that don’t directly relate to your OKRs.
 - *Team:* Confirm that the assigned objectives and key results (OKRs) of each team member are prominently displayed in each project management plan.
 - *Company:* Confirm that your HR or People department is measuring and monitoring presenteeism, and that work location is not being discussed during performance reviews.
@@ -97,6 +99,7 @@ Every quarter, GitLab's Workplace team adds new features and enhancements to the
 
 {{% details summary="Change management support for definition of done" %}}
 **Quick Start Tips:**
+
 - *Individual:* When conducting any kind of retrospective discussion, start the conversation with whether or not the Definition of Done was fulfilled (as a baseline for success measurement), then move on to feedback and learnings.
 - *Team:* Create a field in your project management plan template for listing the project’s definition of done.
 - *Company:* When approving OKRs, include a Definition of Done as a minimum requirement for fulfillment, then supplement with more ambitious goals for the team or individual to work toward.
@@ -120,6 +123,7 @@ As of 2022-12-01, GitLab has [shipped a monthly product release](https://about.g
 
 {{% details summary="Change management support for prioritize due dates over scope" %}}
 **Quick Start Tips:**
+
 - *Individual:* Whenever a status update or project review conversation indicates that a result is falling behind schedule or that contributing team members feel overwhelmed, immediately ask the question, “What can we do to simplify this result so that we can stay on track?”
 - *Team:* Confirm that the due date of a project is prominently displayed in each project management plan for your team.
 - *Company:* Update your company’s onboarding and continuing education programs to include training about how to produce iterative results.
@@ -158,6 +162,7 @@ At GitLab, our mission that [everyone can contribute] even influences our feedba
 
 {{% details summary="Change management support for transparent feedback" %}}
 **Quick Start Tips:**
+
 - *Individual:* Commit to sharing sincere compliments and/or constructive criticism with each of your peers at least once a week. (While you’re building the habit, set reminders on your calendar for reminders and accountability.)
 - *Team:* Add a section for group feedback into every meeting agenda.
 - *Company:* Create a ritual for company leadership to receive and share feedback on certain projects or tasks, to set a top-down example of healthy feedback dynamics.
@@ -181,6 +186,7 @@ At the same time each quarter, executive leadership hosts [GitLab Assembly](/han
 
 {{% details summary="Change management support for cadence" %}}
 **Quick Start Tips:**
+
 - *Individual:* Design and document a cadence calendar for personal rituals, such as internal networking, SSoT updates, or operational transparency reporting.
 - *Team:* Design and document a cadence calendar for team rituals, such as delivery cycles, team offsites, or performance reviews.
 - *Company:* Design and document a cadence calendar for company rituals, such as OKRs, stakeholder meetings, or workforce retreats.

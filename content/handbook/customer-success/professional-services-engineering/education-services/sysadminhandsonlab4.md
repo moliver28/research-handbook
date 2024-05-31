@@ -33,9 +33,10 @@ The objective of this lab is to demonstrate how to back up a Gitlab instance on 
     sudo sed -i '606s@\/var\/opt\/gitlab\/backups@\/tmp\/backups@' /etc/gitlab/gitlab.rb
     sudo sed -i '606s/#//' /etc/gitlab/gitlab.rb
     ```
-    > Here, we are using the sed command to do text replacements inside the gitlab.rb file without having to use a text editor like vim. 
 
-6. Reconfigure to apply the changes.
+    > Here, we are using the sed command to do text replacements inside the gitlab.rb file without having to use a text editor like vim.
+
+1. Reconfigure to apply the changes.
 
     ```bash
     sudo gitlab-ctl reconfigure
@@ -49,7 +50,7 @@ The objective of this lab is to demonstrate how to back up a Gitlab instance on 
 sudo gitlab-backup create
 ```
 
-2. After the backup completes, go to the backup location and inspect the backup file.
+1. After the backup completes, go to the backup location and inspect the backup file.
 
 ```bash
 sudo ls /tmp/backups
@@ -72,19 +73,19 @@ sudo tar -tvf /tmp/backups/<backup_filename>
 
 1. Return to the SSH session on your GitLab instance server.
 
-2. Move your backup file to the location GitLab requires for performing the restore.
+1. Move your backup file to the location GitLab requires for performing the restore.
 
 ```bash
 sudo cp /tmp/backups/<backup_filename> /var/opt/gitlab/backups/
 ```
 
-3. Ensure the backup file has correct permissions for performing the restore.
+1. Ensure the backup file has correct permissions for performing the restore.
 
 ```bash
 sudo chown git:git /var/opt/gitlab/backups/<backup_filename>
 ```
 
-4. Stop the puma and sidekiq services before restoring.
+1. Stop the puma and sidekiq services before restoring.
 
 ```bash
 sudo gitlab-ctl stop puma
@@ -92,17 +93,17 @@ sudo gitlab-ctl stop sidekiq
 sudo gitlab-ctl status
 ```
 
-5. Restore from backup. Replace *<backup_timestamp>* with the portion of the backup filename up to and including `-ee`. For example, if the backup file name starts with `1663207732_2022_09_15_15.3.3-ee`, the command will be `sudo gitlab-backup restore BACKUP=1663207732_2022_09_15_15.3.3-ee`.
+1. Restore from backup. Replace *<backup_timestamp>* with the portion of the backup filename up to and including `-ee`. For example, if the backup file name starts with `1663207732_2022_09_15_15.3.3-ee`, the command will be `sudo gitlab-backup restore BACKUP=1663207732_2022_09_15_15.3.3-ee`.
 
 ```bash
 sudo gitlab-backup restore BACKUP=<backup_timestamp>
 ```
 
-6. Type `yes` when prompted during the restore operation. You may see what looks like error messages. That is normal.
+1. Type `yes` when prompted during the restore operation. You may see what looks like error messages. That is normal.
 
 1. When prompted to rebuild the `authorized_keys` file, type `yes`.
 
-7. Restart sidekiq and puma services.
+1. Restart sidekiq and puma services.
 
 ```bash
 sudo gitlab-ctl start sidekiq
@@ -110,15 +111,12 @@ sudo gitlab-ctl start puma
 sudo gitlab-ctl status
 ```
 
-8. Wait up to 5 minutes before refreshing GitLab in your web browser. Verify that the maximum attachment size and the default project limits you changed revert back to the defaults (i.e. when the backup was taken).
+1. Wait up to 5 minutes before refreshing GitLab in your web browser. Verify that the maximum attachment size and the default project limits you changed revert back to the defaults (i.e. when the backup was taken).
 
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson).
 
-
 ### Suggestions?
 
 If you’d like to suggest changes to the GitLab System Admin Basics Hands-on Guide, please submit them via merge request.
-
-

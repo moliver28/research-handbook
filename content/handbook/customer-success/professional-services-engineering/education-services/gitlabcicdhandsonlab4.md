@@ -15,7 +15,7 @@ When a job is executed in a pipeline, it runs inside of an environment. To ensur
 
 1. Click on your `.gitlab-ci.yml` file to view its contents. To edit the file, click **Edit > Edit single file**.
 
-1. Paste the contents of the following snippet at the bottom of `.gitlab-ci.yml`. There should be am empty line between the file's previous content and the pasted snippet content.
+1. Paste the contents of the following snippet at the bottom of `.gitlab-ci.yml`. There should be an empty line between the file's previous content and the pasted snippet content.
 
     ```yml
     environment echoes:

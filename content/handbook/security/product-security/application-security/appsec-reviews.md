@@ -60,6 +60,7 @@ features for security review. The priority can range from `priority::1` (Critica
 to `priority::4` (Low/Backlog).
 
 Some guidelines for which features should be added to the queue are:
+
 - All new major features
 - Features that have had repeat vulnerabilities
 - Features related to authorization or authentication
@@ -160,8 +161,10 @@ If the change is doing one or more of the following:
 1. Exposing a new API endpoint, or modifying an existing one
 1. Introducing new database queries
 1. Using regex to :
+
   - validate user supplied data
   - make decisions related to authorisation and authentication
+
 1. A new feature that can manipulate or display sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
 1. Persisting sensitive data such as tokens, crypto keys, credentials, PII in temp storages/files/DB, manipulating or displaying sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
 

@@ -46,6 +46,8 @@ aliases:
 - /handbook/old/page/location/
 ```
 
+If you need to do a folder redirect or a redirect to an external page, you can add a line to the [redirects](https://handbook.gitlab.com/docs/development/#redirects).
+
 ## Controlled Documents
 
 [Controlled documents](/handbook/security/controlled-document-procedure/) require the handbook frontmatter attribute `controlled_document` set to `true`. This attribute also renders the warning header, linking to [controlled documents review section](/handbook/security/controlled-document-procedure/#review). Example:
