@@ -127,6 +127,8 @@ if __name__ == "__main__":
 
 **note: make sure to replace "duo_chat_questions_0shot" with the name of your uploaded dataset**
 
+See [evaluator implementations for details](https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations).
+
 #### Running the Script Locally
 
 Make sure your GDK is running. Open a new terminal window, navigate to your GDK directory, and start it:
