@@ -104,4 +104,4 @@ Accurately determine the resources and time needed for a project.
 - Act as a point of escalation to resolve critical issues quickly.
 - Enable Professional Service Engineers and Partner Engineers to better understand the GitLab Platform and workflows.
 - Transition from scoping to leading the delivery of larger engagements, such as transformations or multi-workstream projects. 
-- Focus on Discoveries and clearing technical hurdles in engagements
+- Focus on Discoveries and clearing technical hurdles in engagements.
