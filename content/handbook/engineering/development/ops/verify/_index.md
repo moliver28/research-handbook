@@ -43,56 +43,57 @@ We take ownership of the things we build, with a focus on stability and availabi
 
 ## Who we are
 
-The Verify stage is made up of 4 groups:
+The Verify stage is made up of 5 groups:
+
+1. [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
 
 1. [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
-1. [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
-1. [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
 1. [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
 
-## UX Strategy
+1. [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
 
-Coming soon.
+1. [Verify:CI Platform](/handbook/engineering/development/ops/verify/ci-platform/)
+
+### Verify:Pipeline Authoring
+
+{{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Authoring" >}}
+
+### Verify:Pipeline Execution
+
+{{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Execution" >}}
+
+### Verify:Pipeline Security
+
+{{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Security" >}}
+
+### Verify:Runner
+
+{{< team-by-manager-role "Engineering Manager(.*)Verify:Runner" >}}
+
+### Verify:CI Platform
+
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Verify" team="CI Platform" >}}
+
+### Verify Engineering Leadership
+
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Verify" team="^Runner">}}
+
+### Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(._)Engineering(._)Verify" other-manager-roles="Engineering Manager(._)Verify:Pipeline Authoring|Engineering Manager(._)Verify:Pipeline Execution|Engineering Manager(._)Verify:Runner|Engineering Manager(._)Verify:Pipeline Security" >}}
+
+## How we work
 
 ### Jobs to be done (JTBD)
 
 A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework, or lens, for viewing products and solutions in terms of the jobs customers are trying to achieve.
 
 * [Verify:Pipeline Execution JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
-* [Verify:Pipeline Authoring JTBD](/handbook/engineering/development/ops/verify/pipeline-authoring/jtdb/)
+* [Verify:Pipeline Authoring JTBD](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
 * [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/)
 * [Verify:Pipeline Security JTBD](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
-
-### Pipeline Authoring and Pipeline Execution Collaboration
-
-Pipeline Authoring and Pipeline Execution are closely related but they also represent different stages in the cycle of a user's interaction with a pipeline. At a very high-level, this image illustrates the main focus of each group and how they can both support a better pipeline experience.
-
-![Verify Groups](/handbook/product/categories/verify_groups_banner.jpg)
-
-### Verify:Pipeline Execution
-
-{{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Execution" >}}
-
-### Verify:Pipeline Authoring
-
-{{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Authoring" >}}
-
-### Verify:Runner
-
-{{< team-by-manager-role "Engineering Manager(.*)Verify:Runner" >}}
-
-### Verify:Pipeline Security
-
-{{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Security" >}}
-
-## How we work
-
-Each group in Verify is encouraged to define their own process based on what works best for them. Individual group processes are described on the pages below:
-
-* [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
-* [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
-* [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
-* [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
 
 ### Developer Onboarding in Verify
 
@@ -158,11 +159,11 @@ we ask Verify maintainers to apply one of the following labels to a merge reques
 * `~"verify-review::not impacted"` for merge requests where the change was trivial
 or no issues were found by the Verify maintainer.
 
-## Stable Counterparts
+### Pipeline Authoring and Pipeline Execution Collaboration
 
-The following members of other functional teams are our stable counterparts:
+Pipeline Authoring and Pipeline Execution are closely related but they also represent different stages in the cycle of a user's interaction with a pipeline. At a very high-level, this image illustrates the main focus of each group and how they can both support a better pipeline experience.
 
-{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(._)Engineering(._)Verify" other-manager-roles="Engineering Manager(._)Verify:Pipeline Authoring|Engineering Manager(._)Verify:Pipeline Execution|Engineering Manager(._)Verify:Runner|Engineering Manager(._)Verify:Pipeline Security" >}}
+![Verify Groups](/handbook/product/categories/verify_groups_banner.jpg)
 
 ### Async Work Week
 
