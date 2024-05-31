@@ -1,5 +1,5 @@
 ---
-title: Corporate Security Helpdesk
+title: Corporate Security (CorpSec) Helpdesk
 ---
 
 ## Need Help?
@@ -50,7 +50,6 @@ In the event of an emergency or urgent request, `#it_help` is still the fastest 
 <thead>
 <tr>
 <th>Region</th>
-<th>Local Timezone</th>
 <th>Analyst Name</th>
 <th>Support Hours</th>
 <th>Projects/Provisioning Hours</th>
