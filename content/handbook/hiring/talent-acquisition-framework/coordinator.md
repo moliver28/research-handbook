@@ -363,7 +363,7 @@ When team members depart GitLab, People Connect will create an offboarding issue
 1. Open Google calendar, select the "Interview Calendar", and type in the team member's name in the search bar at the top. Ensure the team member offboarding isn't in any active interviews.If the team member appears in an active interview,advise the respective CES team member to work with their recruiters to replace the interviewer. Also request the recruiters to review any other interview plans, hiring repo (backend and frontend technical interviewer pool) and update them accordingly.
 Any interviews that have been grayed out on the calendar, have passed already.
 1. Check for reqs that the team member might be on by searching the team member's name under `Users` in Greenhouse. When searching the team member's name, select the profile with the team member's GitLab email address; this will navigate to their Greenhouse profile settings.
-    If you encounter a team member's name listed as "Job Admin: Hiring Manager" with Open job reqs, please following steps:  
+    If you encounter a team member's name listed as "Job Admin: Hiring Manager" with Open job reqs, please following steps:
     - Copy and paste the job req title into a new Greenhouse window and search
     - Select the correct job req by ensuring the req#s match (i.e. 7458)
     - Select Job Set up and navigate to the Hiring Team section
