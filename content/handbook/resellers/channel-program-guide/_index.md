@@ -113,7 +113,6 @@ GitLab PSP Designations are reviewed annually: <br>1\.Non-compliant partners at 
     - When partners who have completed the competency requirements also complete their first two service attach registrations in a single GitLab Fiscal Quarter, they will receive their PSP designation within 7 business days.
     - Each PSP will be required to have submitted at least 8 Service Attach Registration over the previous 12 months at their annual audit(s).
 
-
 #### Maintaining PSP Designation
 
 GitLab Partner program will review the service attach registrations and the practitioner certification statuses of each GitLab Professional Service Partner each year in the quarter the partner was originally granted certification. Partners at risk for non-compliance will receive an audit warning email 30 days prior to their removal of their PSP designation. This will allow partners and their account managers time to create a plan to return to compliance.
