@@ -93,3 +93,14 @@ If those subjective requirements are satisfied, this is the process to add yours
 ### Merge Request Workflow
 
 Every MR follows the applicable MR template. When a MR is ready for review, assign a code owner for review. When a code owner approves the MR, the MR can be merged by a maintainer. This could be the same person if the code owner is also a maintainer. If not, a maintainer is tagged in the MR, asking for final review and merge.
+
+#### Merge Request approval requirements
+
+Because of quality and [security](https://handbook.gitlab.com/handbook/security/gitlab_projects_baseline_requirements/#mr-approval-rule-configurations) we require every MR to be approved before merged with multiple Team Members involved. By default the CODEOWNER file sets that an approval is needed and by who. But if a file or folder is not present in the CODEOWNER file a MR still can be merged without approval or without other Team Members involvement. To enforce the following 2 settings must be applied on each project within the [GitLab-Data Group](https://gitlab.com/gitlab-data/). 
+
+1. `Approvals required` = `1`
+img
+2. `Prevent approval by author` is `TRUE`
+img
+
+Note: The `Approvals required` is also needed to make the CI variable `$CI_MERGE_REQUEST_APPROVED` work. This variable is [based](https://gitlab.com/gitlab-data/analytics/-/issues/20383) on the project setting and not on the CODEOWNER file definition. 
