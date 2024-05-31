@@ -84,8 +84,6 @@ The Verify stage is made up of 5 groups:
 
 ## How we work
 
-## How we work
-
 ### Jobs to be done (JTBD)
 
 A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework, or lens, for viewing products and solutions in terms of the jobs customers are trying to achieve.
