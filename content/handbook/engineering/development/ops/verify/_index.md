@@ -76,13 +76,13 @@ The Verify stage is made up of 5 groups:
 
 ### Verify Engineering Leadership
 
-{{< team-by-manager-role role="Senior(.+)Manager(.+)(Verify|Runner)" team="^(CI Platform)">}}
+{{< team-by-manager-role role="Senior(.+)Manager(.+)Verify" team="^(Platform|Runner)">}}
 
 ### Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(.+)Engineering(.+)" other-manager-roles="Engineering Manager(.+)Verify:Pipeline Authoring|Engineering Manager(.+)Pipeline Execution|Engineering Manager(.+)Runner|Engineering Manager(.+)Pipeline Security" >}}
+{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(.+)Verify" other-manager-roles="Engineering Manager(.+)(Pipeline Authoring|Pipeline Execution|Runner|Pipeline Security)" >}}
 
 ## How we work
 
