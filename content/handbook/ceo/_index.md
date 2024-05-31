@@ -237,7 +237,7 @@ I try to plan my vacations around times when many team members in the United Sta
 
 1. Candidate interviews should default to 50 minutes unless there is a specific request to make the meeting shorter or longer.
 1. There should be an invite that includes both the candidate and the CEO. If this is a C-level candidate or it is otherwise requested, the meeting should have "private" visibility. Otherwise, it can be "public."
-1. There should be a second calendar invite from Sid's account with the subject: [Shadow or No Shadows] CEO Briefing Doc: [Person's Name]. This should follow the "private" conventions shared in item 2. This invite should include a briefing document that contains the following information:
+1. There should be a second calendar invite from Sid's account with the subject: [Shadow or No Shadows] CEO Briefing Doc: [Person's Name]. This should follow the "private" conventions shared in item 2. This invite should include a briefing document that is shared with the hiring manager and recruiter (if there is one). The document contains the following information:
     1. Role with a link to the job family
     1. Candidate's LinkedIn link
     1. Link to resume
