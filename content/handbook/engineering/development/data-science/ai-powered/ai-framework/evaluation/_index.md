@@ -17,7 +17,7 @@ This guide is designed to help Backend and Frontend developers at GitLab conduct
   - Make sure Python is installed on your machine. You can download and install it from the [official Python website](https://www.python.org/downloads/).
 - API Keys and Tokens:
   - Obtain the necessary API keys for LangSmith and Anthropic. You can get these from `@oregand`, `@m_gill` or `@tzallmann`. You can also reach out to the `#g_ai_framework` slack channel and ask. An account will be created for you under `https://smith.langchain.com`.
-  - Ensure you have a GitLab private token with the necessary permissions. You can generate one from your GitLab profile settings under [“Access Tokens”](https://gitlab.com/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
+  - Ensure you have a GitLab private token with the necessary permissions from **your local GDK instance**. You can generate one from your GitLab profile settings under [“Access Tokens”](https://gitlab.com/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
 
 ### Step 1: Setting Up Your Environment
 
@@ -42,9 +42,24 @@ mkdir -p evaluation_scripts/chat evaluation_scripts/code_suggestions
 cd evaluation_scripts
 ```
 
+#### Directory Structure
+
+Your project directory should look like this:
+
+```bash
+project_root/
+├── evaluation_scripts/
+│   ├── chat/
+│   │   ├── .env
+│   │   └── evaluate.py
+│   ├── code_suggestions/
+│   │   ├── .env
+│   │   └── evaluate.py
+```
+
 #### Set Environment Variables
 
-In the `evaluation_scripts` directory  create a `.env` file and add the following lines. This file stores your environment variables securely. Leave the `OPENAI_API_KEY` blank.
+In the `evaluation_scripts` directory create a `.env` file for each feature folder and add the following lines. This file stores your environment variables securely. Leave the `OPENAI_API_KEY` blank.
 
 ```bash
 LANGCHAIN_TRACING_V2=true
@@ -70,11 +85,12 @@ In the `evaluation_scripts/chat` directory, create a new file named `evaluate.py
 ```python
 import os
 import requests
-from langsmith import traceable, wrappers
-from langsmith.evaluation import evaluate
 from dotenv import load_dotenv
+from langsmith import traceable
+from langsmith.evaluation import evaluate, StringEvaluator
 
-load_dotenv()  # Load environment variables from .env file
+# Load environment variables from .env file
+load_dotenv()
 
 @traceable
 def get_chat_answer(question):
@@ -84,21 +100,25 @@ def get_chat_answer(question):
         "Content-Type": "application/json",
         "PRIVATE-TOKEN": os.getenv("GITLAB_PRIVATE_TOKEN"),
     }
-    payload = {
-        "content": question
-    }
+    payload = {"content": question}
     response = requests.post(url, json=payload, headers=headers)
     if response.status_code == 200:
         return response.json()
     else:
         raise Exception(f"Error: {response.status_code} - {response.text}")
 
+# Define the grading function
+def exact_match_grading_function(predicted, expected):
+    return predicted == expected
+
 def main():
+    # Initialize the StringEvaluator with the grading function
+    evaluator = StringEvaluator(grading_function=exact_match_grading_function)
+    
     chain_results = evaluate(
-        lambda inputs: get_chat_answer(inputs["question"]),
-        # Replace "duo_chat_questions_0shot" with the name of your uploaded dataset
-        data="duo_chat_questions_0shot",
-        evaluators=["oshot_choice"],
+        lambda inputs: get_chat_answer(inputs["input"]),
+        data="duo_chat_questions_0shot",  # Replace with your dataset name
+        evaluators=[evaluator],  # Use the built-in StringEvaluator
         experiment_prefix="Run Small Duo Chat Questions on GDK",
     )
     print(chain_results)
@@ -108,21 +128,6 @@ if __name__ == "__main__":
 ```
 
 **note: make sure to replace "duo_chat_questions_0shot" with the name of your uploaded dataset**
-
-#### Directory Structure
-
-Your project directory should look like this:
-
-```bash
-project_root/
-├── evaluation_scripts/
-│   ├── chat/
-│   │   ├── .env
-│   │   └── evaluate.py
-│   ├── code_suggestions/
-│   │   ├── .env
-│   │   └── evaluate.py
-```
 
 #### Running the Script Locally
 
