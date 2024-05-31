@@ -89,7 +89,7 @@ We collaboratively define OKRs as a team with cross functional partners in advan
 
 ## Iteration Process
 
-We start iteration a Monday. We are releasing throughout the iteration. On the thursday a week after our Monday iteration planning, we come together for a syncrornous meeting to discuss wins, blockers, start/stop/continues, and select 3 things we'd like to highlight in our Slack channel. 
+We start iteration a Monday. We are releasing throughout the iteration. On the thursday a week after our Monday iteration planning, we come together for a syncrornous meeting to discuss wins, blockers, start/stop/continues, and select 3 things we'd like to highlight in our Slack channel.
 
 <figure class="video_container">
 <iframe src="https://calendar.google.com/calendar/embed?src=c_g97ibfb3lq183mphm8mnbjfk34%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -159,7 +159,7 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 
 ### Planning (Iteration Plan Sync)
 
-Iteration planning is an event that kicks off the start of an iteration. The purpose of the meeting is for capacity discussions and to plan work the upcomming iteration. 
+Iteration planning is an event that kicks off the start of an iteration. The purpose of the meeting is for capacity discussions and to plan work the upcomming iteration.
 
 **Cadence:** 50min, bi-weekly (zoom)
 
@@ -168,7 +168,7 @@ Iteration planning is an event that kicks off the start of an iteration. The pur
 - Capcity Discussion
 - Review Iteration Board
 
-### Iteration Release: Retrospective and Feedback 
+### Iteration Release: Retrospective and Feedback
 
 We celebrate our wins and discuss what's working and what's not. Our discussion topics include identifying any blockers, deciding what we should stop doing, what we should start doing, and what we should continue doing. We then select three pieces of completed work to highlight in the iteration announcement issue and on Slack. [Here's the agenda](https://docs.google.com/document/d/1UdACZcOdpkz0gO5J597kBztzHCKGi9SQb3FQKyq_zTo/edit?usp=sharing) we use for our planning and release meetings.
 
@@ -193,7 +193,7 @@ The retrospective is an event held at the end of each quarter, used to discuss w
 **What:**
 
 - Discuss what went well and what can be improved on.
-- Communicate any process changes, etc. 
+- Communicate any process changes, etc.
 
 ### Iteration Changelogs
 
