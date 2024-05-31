@@ -98,6 +98,7 @@ The GitLab Partner team will communicate new PSP designations via email and will
 GitLab PSP Designations are reviewed annually: <br>1\.Non-compliant partners at the time of the annual review will have their designations removed. <br>2\.Partners who received their PSP designation prior to Nov. 2023 will have until their next annual audit to become compliant with the new criteria. <br>3\.The annual audits are performed quarterly, and will begin during Q1FY25 (Feb. 2024-Apr. 2024). <br>4\.Service delivery requirement will be prorated for the period between Nov. 2023-Nov. 2024.
 
 #### GitLab PSP Designation Requirements
+
 - Program Entry Requirements  
     - Each PSP must be: 
         1. An Open or Select GitLab Partner or a GitLab Distribution Partner
