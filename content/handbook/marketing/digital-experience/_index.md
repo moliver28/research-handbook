@@ -246,7 +246,7 @@ The suggested task duration is between 2-4 weight points (1-2 days). There will 
 
 **How many weight points should be completed per iteration for engineers?**
 
-Engineers are expected to complete 12 or more weight points per iteration which is equivalent to 3 days of engineering. This expectation leaves room for merge request reviews and job requirements described in the  [Frontend Engineer](https://handbook.gitlab.com/job-families/marketing/frontend-engineer-marketing/) and [Fullstack Engineer](https://handbook.gitlab.com/job-families/marketing/fullstack-engineer-marketing/) job family descriptions. For senior engineers, the expectation is 15+ points. 
+Engineers are expected to complete 12 or more weight points per iteration which is equivalent to 3 days of engineering. This expectation leaves room for merge request reviews and job requirements described in the  [Frontend Engineer](https://handbook.gitlab.com/job-families/marketing/frontend-engineer-marketing/) and [Fullstack Engineer](https://handbook.gitlab.com/job-families/marketing/fullstack-engineer-marketing/) job family descriptions. For senior engineers, the expectation is 15+ points.
 
 ### Issues
 
