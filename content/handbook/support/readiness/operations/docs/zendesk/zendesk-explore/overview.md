@@ -6,7 +6,6 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zendesk-exp
 
 ## Zendesk Explore
 
-
 ## Overview
 
 Zendesk Explore is a powerful analytics and reporting tool offered by Zendesk, designed to provide in-depth insights into customer support metrics and trends. With Explore, our team can analyze and visualize our support data to make informed decisions, improve customer experiences, and optimize support operations.
@@ -48,4 +47,3 @@ For detailed Glossary, please visit: https://support.zendesk.com/hc/en-us/articl
  - [Important Reports](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/important_reports.md)
  - [Formulas](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/formulas.md)
  - [Performing Calculations](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/performing_calculations.md)
- 

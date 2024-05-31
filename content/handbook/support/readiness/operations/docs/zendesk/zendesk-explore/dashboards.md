@@ -8,24 +8,23 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zendesk-exp
 
 In Explore, Dashboards allow you to view, share, create and customize reports that give you an overview of your Zendesk data.
 A dashboard consists of following components:
-1. Widgets and Filters
-1. Reports
-1. Tabs
 
+1. Widgets and Filters 
+1. Reports 
+1. Tabs 
 
 ### Widgets and Filters
 
 1. __Static widgets__: These widgets inlcude reports, images, text, shapes, and tabs, do not impact the results of a report or how users interact with your dashboard. These widgets provide static content that remains unchanged.
 
-
 1. __Interactive widgets__: They  allow users to specify the specific results they want to view and how they want to view them. With interactive widgets, viewers can modify metrics or attributes, apply filters to refine results, and utilize what-if variables to perform analysis.
 
 1. __Live data widgets__: As we use Zendesk Explore Enterprise version, we have real time live data widgets available too. These widgets provide real-time updates, ensuring that the data displayed is up-to-date and reflects the latest information available.
 
-
 ## Types of Dashboards
 
 There are two types of Dashboards in Explore:
+
 1. Prebuilt Dashboards
 2. Custom Dashboards
 
@@ -33,8 +32,10 @@ There are two types of Dashboards in Explore:
 
 These Dashboards comes in Zendesk Explore by default and contain information 1 or more Tabs. This information in different tabs include reports for tickets, efficiency, assignee activity, agent updates, unsolved tickets, backlog, satisfaction, SLA and group SLAs.
 If you have followed instructions to [setup your account](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/setting_up.md), you can view this prebuilt dashboard by:
+
 1. Click the Dashboard icon in the left sidebar.
 2. From the list of dashboards, select the [Zendesk Support dashboard](https://gitlab.zendesk.com/explore/dashboard/precanned/00ED29FD6878842D011808EA714C5F470227102AAEF5CC3C1C706E448CF61B73).
+
 You won't need to clone this dashboard as it comes by default.
 
 ### Custom Dashboards
@@ -46,10 +47,11 @@ Custom dashboards in Zendesk Explore allow you to create personalized visualizat
 ## Creating Custom Dashboards
 
 You can create custom dashboards by two methods i.e.
+
 1. From Report Builder
 1. From Dashboard Libraries
 
-### Creating Custom Dashboard via Report Builder:
+### Creating Custom Dashboard via Report Builder
 
 To create a custom dashboard using the Report Builder in Zendesk Explore, follow these steps:
 
@@ -63,16 +65,15 @@ Once the confirmation message appears in the right corner, you'll see the name o
 
 >> Note: The Report Builder always displays the name of the most recently saved dashboard.
 
-### Creating a Dashboard from the Dashboards Library:
+### Creating a Dashboard from the Dashboards Library
 
 If you prefer to create dashboards rather than reports as part of your workflow, you can create new blank dashboards directly from the Dashboards Library. Follow these steps:
 
 1. Click on the Dashboards Library icon (Dashboards Library Icon) on the left sidebar.
 1. Click on the New dashboard option.
 
+### Tips to create effective Dashboards
 
-
-## Tips to create effective Dashboards:
 1. Define your objectives: Clearly outline the goals and objectives of your custom dashboard. Determine the specific metrics and KPIs (Key Performance Indicators) you want to track. For example, you may want to monitor ticket volume, average resolution time, or customer satisfaction scores.
 1. Identify relevant data  and datasets: Determine the data sources and datasets you need to connect to your custom dashboard.
 1. Select appropriate visualizations: Choose the most appropriate chart types and visualizations that effectively represent your data. Consider the nature of your metrics and the story you want to convey. Line charts, bar charts, and pie charts are commonly used, but explore other options based on your requirements.
@@ -88,4 +89,3 @@ If you prefer to create dashboards rather than reports as part of your workflow,
 1. Consider setting up scheduled reports to automatically distribute the dashboard to stakeholders. This ensures timely access to updated insights without the need for manual sharing.
 
 Remember, the key to creating an effective custom dashboard lies in aligning it with your business objectives, selecting relevant metrics, and presenting the data in a visually appealing and easily understandable manner. Regularly review and update your custom dashboard to ensure its continued relevance and usefulness.
-
