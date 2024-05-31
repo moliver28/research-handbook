@@ -886,18 +886,21 @@ Team members in our Sales and Customer Success groups should escalate first via 
 #### Fulfillment OKR processes
 
 Fulfillment resourcing is allocated to work on top priority work, which is generally managed by:
+
 1. First ensure that forced prioritization items (such as meeting SLOs) are completed timely.
 2. Deliver on quarterly objective and key results (OKRs).
 
 Fulfillment FY25 Q2 OKRs are listed in https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6895 (team member access only). We have a similar top-level objective for the Fulfillment Stage each quarter.
 
 To set our OKRs:
+
 1. Each quarter the Fulfillment Stage product leader kicks off OKR planning by starting a top-level objective in GitLab OKRs with a draft list of top priorities.
 1. Quads for each Fulfillment group work together to plan their quarterly work and add sub-objectives/KRs to map to those top priorities.
 1. Quads suggest changes to OKRs based on what they are seeing during planning. This includes prioritizing tech debt, architecture blueprints, maintenance KRs, or any other work that may be missing from OKRs.
 1. We label all sub-objectives or KRs using priority labels. We strive for 90%+ accomplishment on Priority 1, 80%+ on Priority 2 items, and 70%+ on Priority 3 items.
 
 Our ongoing OKR review includes:
+
 1. Monthly updates to OKRs as part of what used to be the PI review meeting (example issue https://gitlab.com/gitlab-com/Product/-/issues/13333)
 2. We make sure that KRs are up to date, including closing out and replacing OKRs when appropriate (e.g., we had a placeholder OKR that we decided not to pursue, or we decided to do a mid-quarter change to prioritize something else).
 3. If everyone gets their updates in 2 days ahead of the PI review meeting, and there are no open discussion points after async review, we cancel the PI sync meeting.
