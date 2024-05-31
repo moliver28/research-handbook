@@ -34,6 +34,10 @@ Note: GitLab Geo is not an "active/active" system. To learn more about how GitLa
 
 ![AWS PrivateLink diagram for GitLab Dedicated](./img/privatelink-diagram.png)
 
+## Hosted Runners
+
+![Hosted Runners architecture diagram for GitLab Dedicated](./img/hosted-runners-architecture.png)
+
 ## Documents
 
 - [From Dedicated to Cells: a Technical Analysis](from-dedicated-to-cells-technical-analysis.html)
