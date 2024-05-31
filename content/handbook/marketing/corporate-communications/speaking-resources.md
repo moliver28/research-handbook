@@ -58,7 +58,6 @@ Identify events to speak at, prepare for the Call-for-Papers, review and ensure 
 1. For a complete list of events we are tracking, see the [marketing calendar](/handbook/marketing/#marketing-calendar) and the [Developer Advocacy team calendar](/handbook/marketing/developer-relations/developer-advocacy/).
 1. More sources for events and CFPs:
 
-  - [CFP Land](https://www.cfpland.com/)
   - [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda) by Aurélie Vache
   - [Newsletters](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content-sources). @dnsmichi maintains a section in his [opsindev.news newsletter](https://opsindev.news/) every month.
 
