@@ -9,9 +9,9 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zendesk-exp
 In Explore, Dashboards allow you to view, share, create and customize reports that give you an overview of your Zendesk data.
 A dashboard consists of following components:
 
-1. Widgets and Filters 
-1. Reports 
-1. Tabs 
+1. Widgets and Filters
+1. Reports
+1. Tabs
 
 ### Widgets and Filters
 
