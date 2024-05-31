@@ -52,11 +52,14 @@ def get_chat_answer(question):
         }
 
 def main():
+    # Initialize the StringEvaluator with the grading function
+    evaluator_1 = LangChainStringEvaluator("exact_match")
     dataset_name = "duo_chat_questions_0shot"
+    
     chain_results = evaluate(
-        lambda inputs: get_chat_answer(inputs["question"]),
+        lambda inputs: get_chat_answer(inputs['input']),
         data=dataset_name,
-        evaluators=["oshot_choice"],
+        evaluators=[evaluator_1],  # Use the built-in StringEvaluator
         experiment_prefix="Run Small Duo Chat Questions on GDK",
     )
 
