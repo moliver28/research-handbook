@@ -4,6 +4,7 @@ title: Artificial Intelligence POV Scope and Acceptance
 description: Artifical Intelligence POV Scope and Acceptance
 ---
 
+Other AI Resources: [Lab](#) | [Demo](#) | [Guided Trial](#) | [POV](#) | [Education Services](#) | [Professional Services](#)
 
 ## AI POV best practices
 
