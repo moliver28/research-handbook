@@ -18,7 +18,7 @@ When using `/security` to engage SIRT:
 
 ## Situations where SIRT needs to be engaged
 
-- P1S1 vulnerabilities
+- P1 vulnerabilities
 - Secret leaks
 - Vulnerabilities that could result in account takeover
 
