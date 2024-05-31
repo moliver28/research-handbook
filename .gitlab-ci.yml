@@ -40,6 +40,24 @@ default:
       - stuck_or_timeout_failure
   tags:
     - saas-linux-medium-amd64
+  cache:
+    - key:
+        files:
+          - go.mod
+          - go.sum
+      paths:
+        - $GOPATH/pkg/mod/
+    - key:
+        files:
+          - package.json
+          - package-lock.json
+      paths:
+        - $NPM_CACHE
+    - key:
+        files:
+          - go.sum
+      paths:
+        - $HUGO_CACHEDIR
 
 variables:
   # NOTE: The following PERFORMANCE and RELIABILITY variables are optional, but may
@@ -74,6 +92,11 @@ variables:
   HUGO_VERSION: '0.124.1'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   MARKDOWNLINT_VERSION: '0.13.0'
+
+  ### CACHE DEPENDENCIES ###
+  GOPATH: $CI_PROJECT_DIR/.GOPATH
+  NPM_CACHE: $CI_PROJECT_DIR/.npm
+  HUGO_CACHEDIR: $CI_PROJECT_DIR/.hugo_cache
 
 .default-branch: &default-branch
   if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $BUILD_AND_TEST_ONLY != "true"
@@ -113,7 +136,7 @@ build:
     - ./scripts/sync-data.sh
     - echo -e "\e[0Ksection_end:`date +%s`:group4\r\e[0K"
     - echo -e "\e[0Ksection_start:`date +%s`:group5\r\e[0KGroup 5"
-    - npm ci
+    - npm ci --cache $NPM_CACHE
     - echo -e "\e[0Ksection_end:`date +%s`:group5\r\e[0K"
     - echo -e "\e[0Ksection_start:`date +%s`:group6\r\e[0KGroup 6"
     - hugo --enableGitInfo
