@@ -50,13 +50,19 @@ def get_chat_answer(question):
             "latency": latency,
             "tokens_used": 0
         }
+# Define the grading function
+def exact_match_grading_function(predicted, expected):
+    return predicted == expected
 
 def main():
+    # Initialize the StringEvaluator with the grading function
+    evaluator = StringEvaluator(grading_function=exact_match_grading_function)
     dataset_name = "duo_chat_questions_0shot"
+    
     chain_results = evaluate(
         lambda inputs: get_chat_answer(inputs["question"]),
         data=dataset_name,
-        evaluators=["oshot_choice"],
+        evaluators=[evaluator],  # Use the built-in StringEvaluator
         experiment_prefix="Run Small Duo Chat Questions on GDK",
     )
 
