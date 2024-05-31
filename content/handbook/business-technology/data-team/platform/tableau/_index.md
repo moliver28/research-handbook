@@ -65,31 +65,32 @@ description: "Tableau at GitLab"
 Having completed the migration to Tableau in FY25-Q1, we are now focused on improving the Tableau developer experience and 
 
 - FY25-Q2 - Establish the framework for the Future State of Tableau, with input from Functional teams
+    - Publish the Executive Landing Page to drive users towards critical dashboards
+    - Document an approach to data source creation that promotes single-source-of-truth reporting
+    - Document and implement a user deprovisioning policy & process, in order to free up unused licenses on a set cadence 
+    - Document the key GTM domain areas that lack single-source-of-truth data sources
     - Run an assessment of our Tableau environment, using quantitative and qualitative measures 
         - Data sources (number of data sources that exist, custom SQL vs. table-based, commonly used tables that may indicate an opportunity for data source consolidation, etc.)
         - Dashboards (number of dashboards that exist, distribution of usage, average user views per dashboard, etc.)
         - Users (login frequency, etc.)
-    - Publish the Executive Landing Page to drive users towards critical dashboards
-    - Document an approach to data source creation that promotes single-source-of-truth reporting
-    - Document the domain areas that require a single-source-of-truth data source
-- FY25-Q3 - Achieve the following targets (specific numbers will be updated in Q2, and will be informed by findings from Q2 assessment. Some activities are subject to be pulled forward into Q2, pending capacity):
+- FY25-Q3 - Achieve the following targets (specific numbers will be updated in Q2, and will be informed by findings from Q2 assessment):
     - Document and implement dashboard/data source archival policies & process, in order to remove clutter from our environment
-    - Document and implement a user deprovisioning policy & process, in order to free up unused licenses on a set cadence 
-    - Refresh assessment of Tableau environment
+    - Document and implement a process for distinguishing between certified & uncertified dashboards
     - Initiate the BI Enablement charter with programs & materials to support the Tableau community at GitLab
-    - Define, calculate, and publish quantitative metrics for Tableau health to be viewed on-demand, and potentially incorporated into the quarterly Data Key Review. Examples below, but will be iterated on and updated:
-        - % of published dashboards in the Production environment 
-        - Average user views per dashboard
+    - Define, calculate, and publish quantitative metrics for Tableau health to be viewed on-demand, and incorporate into the quarterly Data Key Review. Examples below, but will be iterated on and updated:
+        - % of published dashboards in the Production environment (should increase as we build up the inventory of SSOT published data sources and dashboards)
+        - Average user views per dashboard (should increase as we declutter the Tableau environment)
         - Average # dashboards per published data source
         - etc.
-    - Publish X certified data sources for critical domain areas that require single-source-of-truth data sources
-    - Support functional teams in repointing and/or archive X dashboards to leverage those certified data sources
+    - Publish X certified Tableau data sources for critical domain areas that require single-source-of-truth data sources
+    - Support functional teams in repointing dashboards to leverage certified data sources
+    - Refresh assessment of Tableau environment
 - FY25-Q4 - Achieve the following targets (specific numbers will be updated in Q3) 
-    - Refresh assessment of Tableau environment and quantative metrics for Tableau health
     - Iterate on the BI Enablement charter  
     - Accelerate certified data source creation with support from Functional Analytics teams, publishing X certified data sources
-    - Repoint and/or archive X dashboards to leverage certified data sources
-    - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of archiving unused dashboards
+    - Repoint dashboards to leverage certified data sources
+    - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of concentrating user views on certified dashboards
+    - Refresh assessment of Tableau environment and quantative metrics for Tableau health
 
 
 ## Governance Model
