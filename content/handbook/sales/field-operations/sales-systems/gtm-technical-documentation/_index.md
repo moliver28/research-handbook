@@ -757,11 +757,11 @@ This automation stamps User/Owner Segment  fields (Segment, Geo, Area, Role Type
 
 **Fields that are stamped by automation** -
 
-Stamped Opp Owner User Segment
-Stamped Opp Owner User Geo
-Stamped Opp Owner User Region
-Stamped Opp Owner User Area
-Stamped Opp Owner User Role Type
+- Stamped Opp Owner User Segment
+- Stamped Opp Owner User Geo
+- Stamped Opp Owner User Region
+- Stamped Opp Owner User Area
+- Stamped Opp Owner User Role Type
 
 **Logic** -
 
@@ -800,3 +800,24 @@ TF_QuoteAfterCreateUpdate_StampNetARRAutomation flow
 TF_OpportunityAfterUpdate_SyncStage1NetARR flow
 Net_ARR_Automation__c field in Opportunity
 ARR_Net__c field in Opportunity
+
+### Australian Federal Government - Confidential Accounts
+
+ **Business Process this supports**-  The sales cycle and Operations
+
+**Overview** 
+
+Selected number of Australian Federal Government accounts & associated opportunities will no longer be visible to all team members due to their confidential nature. 
+
+
+**Logic** 
+- When the checkbox `AU Govt Confidential Account`is enabled in Account, the automation will auto enable the checkbox ` SAFE Account AU Govt confidential` in  all the existing opportunities and new opportunities created for that account which will hide  the Accounts and Opportunities from the users who are not part of `SAFE 2.0 - Australian FedGovt` public group.
+- These Accounts and Opportunities are shared using Sharing rules below.
+
+
+**Logic Locations**
+
+[Flow - Account Update](https://gitlab.lightning.force.com/lightning/setup/Flows/page?address=%2F3008X000000gD47QAE%3FretUrl%3D%2Flightning%2Fsetup%2FFlows%2Fhome)
+[Flow - Opportunity](https://gitlab.lightning.force.com/lightning/setup/Flows/page?address=%2F3008X000000gD48QAE%3FretUrl%3D%2Flightning%2Fsetup%2FFlows%2Fhome)
+[Sharing Rules - Account](https://gitlab.lightning.force.com/lightning/setup/SecuritySharing/home)
+[Sharing Rules - Opportunities](https://gitlab.lightning.force.com/lightning/setup/SecuritySharing/home)
