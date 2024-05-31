@@ -58,6 +58,17 @@ App information:
 - This application was developed in-house and can be found
   [GitLab Reminders App project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/reminders-app).
 
+## GitLab Search
+
+This app lets you use the gitlab.com API to search for issues/merge requests
+within Zendesk.
+
+App information:
+
+- Located in the topbar
+- This application was developed in-house and can be found
+  [GitLab Search project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/gitlab-search).
+
 ## Out of Office
 
 <sup>*Introduced via [support-team-meta#4303](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4303)*</sup>
