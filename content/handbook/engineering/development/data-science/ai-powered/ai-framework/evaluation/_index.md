@@ -85,9 +85,11 @@ In the `evaluation_scripts/chat` directory, create a new file named `evaluate.py
 ```python
 import os
 import requests
+import langsmith
 from dotenv import load_dotenv
-from langsmith import traceable
-from langsmith.evaluation import evaluate, StringEvaluator
+from langsmith import traceable, wrappers
+from langchain.schema import output_parser
+from langsmith.evaluation import evaluate, LangChainStringEvaluator
 
 # Load environment variables from .env file
 load_dotenv()
@@ -102,23 +104,19 @@ def get_chat_answer(question):
     }
     payload = {"content": question}
     response = requests.post(url, json=payload, headers=headers)
-    if response.status_code == 200:
+    if response.status_code == 201:
         return response.json()
     else:
         raise Exception(f"Error: {response.status_code} - {response.text}")
 
-# Define the grading function
-def exact_match_grading_function(predicted, expected):
-    return predicted == expected
-
 def main():
     # Initialize the StringEvaluator with the grading function
-    evaluator = StringEvaluator(grading_function=exact_match_grading_function)
+    evaluator_1 = LangChainStringEvaluator("exact_match")
     
     chain_results = evaluate(
-        lambda inputs: get_chat_answer(inputs["input"]),
+        lambda inputs: get_chat_answer(inputs['input']),
         data="duo_chat_questions_0shot",  # Replace with your dataset name
-        evaluators=[evaluator],  # Use the built-in StringEvaluator
+        evaluators=[evaluator_1],  # Use the built-in StringEvaluator
         experiment_prefix="Run Small Duo Chat Questions on GDK",
     )
     print(chain_results)
