@@ -797,50 +797,6 @@ We use the list below as a guideline to grade the impact.
 | `severity::3` | Medium               | The feature works ok but the enhancement is required under less common scenarios. |
 | `severity::4` | Low                  | The feature works fine and the improvement aims to improve customer satisfaction. |
 
-### Technical debt
-
-We track our technical debt using the following [Pipeline Execution Technical Debt issue board](https://gitlab.com/groups/gitlab-org/-/boards/1438885), where we track issues in the planning phase.
-
-This board has 2 main sections:
-
-1. Issue readiness
-    - In `workflow::planning breakdown` we find issues that are currently being refined.
-    - In `workflow::ready for development` we find issues that clearly defined and a weight has been assigned.
-
-1. Impact breakdown. We use `severity::1`, `severity::2`, `severity::3` and `severity::4` labels to classify the impact of the specific tech debt item.
-   We use the list below as a guideline to grade the impact.
-    - `severity::1` Blocking or Critical
-      - blocking debt that prevents any further changes in the area
-      - we stumble on the same complex code every single time and it causes serious slow down on development
-      - the problem exists in a core part of our domain that represents a dependency for a large number of features
-      - the problem is wide spread throughout several domains
-      - the problem is related to a number of reported `severity::1` bugs
-    - `severity::2` High
-      - blocks many changes in the area or makes them difficult to work around it
-      - the problem exists in an area that changes frequently, causing it or workarounds to spread easily
-      - the problem is related to an important feature (e.g multi-project pipelines)
-      - the problem is very common in a specific domain and leaks into other domains too
-      - the problem is related to a number of reported `severity::2` bugs
-    - `severity::3` Medium
-      - the problem exists in a feature that has a supporting role in our domain
-      - the problem exists in an area that does not change frequently
-      - the problem is very common in a specific domain but limited to its domain boundaries
-      - workarounds slow down development
-      - the problem is related to a number of reported `severity::3` bugs
-    - `severity::4` Low
-      - the problem is very isolated and has low or no impact to development
-      - the area affected does not change frequently
-      - the problem is related to a number of reported `severity::4` bugs
-
-1. Issue scheduling. The Engineering Manager(s) will review the [PE Technical Debt issue board](https://gitlab.com/groups/gitlab-org/-/boards/3567075?scope=all&label_name[]=group%3A%3Apipeline%20execution&label_name[]=technical%20debt&assignee_id=None) and recommend issues to schedule for upcoming milestones by adding them to the [planning issue](#planning) for a milestone or communicating with Product a need to schedule the issue in an upcoming milestone. The team strives to have 20% of a sprint's capacity filled with Tech Debt issues.
-
-Note that multiple factors can exist at once. In that case use your judgment to either bump the impact score or lower it. For example:
-
-- The problem exists in a feature that has a supporting role in our domain but it's related to a number of `severity::2` bugs.
-  Then choose `severity::2`.
-- The problem is related to an important feature but the workaround is acceptable as the code around it does not
-  change frequently. Then choose `severity::3`.
-
 ### Risk Mapping
 
 To better understand the risk environment and each risk's causes and consequences, the Pipeline Execution team uses the [Risk Map](/handbook/engineering/development/ops/verify/pipeline-execution/risk-map/) as our risk management tool to prioritise mitigation strategies and increase Quality.
