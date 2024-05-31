@@ -68,6 +68,7 @@ Accurately determine the resources and time needed for a project.
 - Substantiate the proposed plan and reinforce its feasibility and value.
 
 ### Scoping and Planning Guidelines
+
 **Preparation:**
 
 - Reach out to your assigned TA with at least two business days’ notice.
@@ -75,12 +76,14 @@ Accurately determine the resources and time needed for a project.
 - If the assigned TA does not specialize in the call's topics, they will coordinate with the TA team to identify a suitable expert.
 
 ### Scoping Related Questions
+
 **Process:**
 
 - Add the label `Scoping::Needs_TA_Assistance` to related GitLab issues with a clear request in the comments for TA follow-up.
 - Update the label to `Scoping::TA_Assisted` to when there are no outstanding questions in the issue.
 
 ## Approvals
+
 **Review Process:**
 
 - Add the `TA::Needs-Review` label to any SOWs not previously reviewed by a TA.
@@ -88,12 +91,14 @@ Accurately determine the resources and time needed for a project.
 - The `TA::Approved` label will be added once the SOW is reviewed and approved.
 
 ## General Inquiries and Discussions
+
 **Communication:**
 
 - Use the #ps-ta-ama channel on Slack for broader technical questions or role-related inquiries.
 - Conduct discussions related to ongoing SOWs within the comments of the associated scoping issue to maintain context.
 
 ## Project Technical Leadership
+
 **Responsibilities:**
 
 - Act as a point of escalation to resolve critical issues quickly.
