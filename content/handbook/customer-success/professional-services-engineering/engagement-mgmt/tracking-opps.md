@@ -5,15 +5,7 @@ description: "Describes processes for tracking open PS opportunities."
 
 ---
 
-
-
-
-
-
-
 # Tracking Opportunities
-
-:warning: This page is under construction
 
 ## Salesforce.com Tracking
 
@@ -30,7 +22,6 @@ To help this visibilty, the Engagement Managers maintain a subset of fields agai
 - `Edu Services Value` - This field cannot be edited directly. It will automatically be populated with the value of the Education services quoted once the quote is created. If multiple quotes are made, the value will overwrite previous values added (including ones that were added by using the below `Edu Value Override` workflow).
 - `Edu Value Override` - This is an editable field that should be filled in by the EM to accurately forecast early in the opportunity cycle. This will overwrite the value in the `Edu Services Value` field.
 - `Investment Services Value` - This should be filled in by the EM once Investment services are approved by Sales VP and VP of global services. This will be used for both forecasting and accounting of closed/won investment services.
-
 
 ## Scoping Issue Tracking
 
