@@ -76,7 +76,7 @@ The Verify stage is made up of 5 groups:
 
 ### Verify Engineering Leadership
 
-{{< team-by-manager-role role="Senior(.+)Manager(.+)Verify" team="^(Platform|Runner)">}}
+{{< team-by-manager-role role="Senior(.+)Manager(.+)(Verify|Runner)" team="^(?!.*(Platform|Runner)).*$">}}
 
 ### Stable Counterparts
 

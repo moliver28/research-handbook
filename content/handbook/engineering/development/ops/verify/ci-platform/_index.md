@@ -18,7 +18,7 @@ Our team is responsible for the following categories:
 
 The following people are permanent members of the Verify:CI Platform group:
 
-{{< team-by-manager-role role="Senior Engineering Manager(.*)Verify" team="(.*)CI Platform">}}
+{{< team-by-manager-role role="Senior Manager(.+)Verify" team="CI Platform" >}}
 
 ## Useful Links
 
