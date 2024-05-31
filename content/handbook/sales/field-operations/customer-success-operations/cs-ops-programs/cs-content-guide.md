@@ -5,15 +5,6 @@ description: "Style and content guide information for Digital Customer Programs.
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
 ## CS Ops Content Guide
 
 This guide outlines information about customer programs and other customer communications sent by CS Ops and other CS teams, including webinars, monthly newsletters, and email.
@@ -135,5 +126,3 @@ We can send email to the following regions:
 - EMEA
 
 Email programs can be set to send to any region at a locally relative time.
-
-

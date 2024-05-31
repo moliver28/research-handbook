@@ -21,6 +21,7 @@ description: >-
     - Digital Experience focused resources on the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) and [Slippers repositories](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui).
 
 ### Scope
+
 1. Move 80 marketing webpage to the Buyer Experience repository.
     1. Pricing
     1. Homepage

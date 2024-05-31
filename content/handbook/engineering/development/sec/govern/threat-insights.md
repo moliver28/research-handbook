@@ -92,9 +92,8 @@ Additional information can be found on the [Planning page](/handbook/engineering
 
 * On the second Tuesday of the month the Product Manager kicks off the planning issue.  They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
 * By the third Tuesday of the month the Engineering Managers have reviewed the planning issue and agreed on the scope for the milestone.
-* During the team meeting, on the third Tuesday of the month the team meets for a cross-functional review of the scope, and finalizes the milestone's planning issue.
 * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone.
-* The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/9951) for 16.0-16.11.
+* The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
 
 ### Tracking Deliverables
 

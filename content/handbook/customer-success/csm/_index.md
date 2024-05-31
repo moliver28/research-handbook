@@ -92,7 +92,6 @@ Please reference this page for an overview of the areas your CSM will engage wit
 
 ![GitLab Customer Journey Map](/images/handbook/customer-success/customer-journey-map.png)
 
-
 <table>
 <thead>
   <tr>
@@ -138,12 +137,10 @@ Please reference this page for an overview of the areas your CSM will engage wit
  - Use Case Adoption
  - Success Plan Services
 
-
 ### Big Rock (Annual Strategy) Archive
 
 - [FY23](/handbook/customer-success/csm/fy23)
 - [FY24](/handbook/customer-success/csm/fy24)
-
 
 ## Handbook Directory
 
@@ -179,16 +176,18 @@ Please reference this page for an overview of the areas your CSM will engage wit
 - [CSM PTO Guidelines](/handbook/customer-success/csm/pto/)
 - [CSM READMEs](/handbook/customer-success/csm/readmes/) (Optional)
 
-
 ### Driving Platform Adoption
 
 Landing Zones
+
  - [CI Landing Zone](/handbook/customer-success/csm/adoption-landing-zones/CI/)
 
  Customer Metrics
+
   - [Sample Questions & Techniques for Getting to Good Customer Metrics](/handbook/customer-success/csm/success-plans/questions-techniques/)
 
  Platform Metrics
+
    - [Customer Use Case Adoption](/handbook/customer-success/product-usage-data/use-case-adoption/)
    - [How To: DevSecOps Adoption Tracking in Gainsight](/handbook/customer-success/csm/devsecops-adoption-tracking/)
    - [Use Case Adoption Metrics](/handbook/customer-success/csm/stage-adoption/)
@@ -211,12 +210,10 @@ Landing Zones
 - [Risk Types, Discovery & Mitigation](/handbook/customer-success/csm/risk-mitigation/)
 - [Workshops and/or Lunch-and-Learns](/handbook/customer-success/csm/workshops/)
 
-
 ##### Digital Customer Programs
 
 - [Digital Customer Programs Handbook Page](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
   - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/index.html#csm-assigned-account-programs)
-
 
 ### CSM Managers
 
@@ -224,9 +221,7 @@ Landing Zones
 - [CSM Manager QBR Template](https://docs.google.com/presentation/d/1M18LeKTrzTIKNgl3Y_URC3z9xBUNUtPRJFiWXaEUuzM/edit?usp=sharing) (GitLab Internal)
 - [CSM Promotion Template](https://docs.google.com/document/d/1UOcfUtrseaucIbnFmJkL8XsQwz4xKfj0IQcYbcRGSvI/edit) (GitLab Internal)
 
-
 ---
-
 
 ## CSM Tools
 
@@ -271,4 +266,3 @@ Next steps for you:
 - [Support handbook](/handbook/support/)
 - [Workshops and Lunch-and-Learn slides](https://drive.google.com/drive/folders/1qAymFTiXFEk-lRSNreIhaZ6Z62fdo_y2)
 - [Researching Customer Questions](/handbook/customer-success/csm/researching-customer-questions/)
-

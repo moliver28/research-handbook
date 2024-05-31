@@ -69,7 +69,6 @@ If the [Customer Collaboration Project](/handbook/customer-success/csm/customer-
 
 Once done and the AM id was updated, the link itself will be visible within ZD in an existing ticket, when you click on "Apps" at the top right within the single ticket view.
 
-
 ## Support Ticket Notifications
 
 When a CSM is assigned to an account in Salesforce, any time that a user from that account submits a support ticket, the CSM will receive an email to let them know, which includes a link to the Zendesk ticket and an [automatically-created](/handbook/support/readiness/operations/docs/zendesk/zendesk_salesforce_sync/) Salesforce case. The email will also include the account name, contact name and email, and the date the ticket was opened. CSMs should receive the email within 1-2 hours of the ticket being opened.
@@ -111,6 +110,26 @@ In the email notifying CSMs of new tickets, the included Zendesk ticket link cur
 Sometimes CSMs receive feedback on a support ticket from a customer via email. This feedback can be positive or negative. You can feed back that information to the support management team by following the instructions under points 3 and 4 in the [Sources of feedback](/handbook/support/workflows/how-to-respond-to-feedback.html#sources-of-feedback) section of the Support Satisfaction (SSAT) workflow documentation. The SSAT Reviewing Manager will pick up and action the feedback.
 
 As described at that link, support already collects feedback via an automatic email survey and a mid-ticket feedback link. It can be helpful to remind customers about these options from time to time. You'll still see the feedback when reviewing a customer's support tickets prior to cadence calls.
+
+## Support Contact Management Projects
+
+CSM guidance on [contact management projects](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/gitlab/contact_management_projects/).
+
+Who has access to a Contact Management Projects?
+
+  - Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
+
+How do I know if my customer has a contacts management project?
+
+  - The best source is to check the organization within Zendesk. It will have a field on the left sidebar toward the bottom called `Contact Management Project ID` that points to the project being used. If that field has a value, the customer has a contact management project.
+
+How do I know which customer users can access the contacts management project?
+
+  - The people who can access the contact management project are stored in the `CMP Developers` field on the organization page (right below `Contact Management Project ID`)
+
+How do I know which users can open support tickets?
+
+  - Within the customer's organization in Zendesk, there is a `Users` tab that syncs with the contacts management project and will show who has support entitlement.
 
 ## Helpful links
 

@@ -33,7 +33,6 @@ You can introduce the Value Deck at any stage but it is always best to do it bef
 Make it collaborative: work on it with your customer (or print a blank version and offer them to fill it), and have them review your findings to see if there is anything to add.
 Your champions will appreciate that, and can share more details about their Challenges and Key Initiatives than Uncle Google.
 
-
 ## Standard Implementation Sequence
 
 The GitLab product is incredibly well matched to customer needs.
@@ -43,10 +42,12 @@ We've learned that a hands-on workshop is the best way to help the customer unde
 At every step, a workshop is the most efficient and effective way to serve the customer.
 
 Goal for every conversation with a customer:
+
 - **Agree to a workshop**
   - A workshop is a great way to *give value* to our prospect and have a conversation in context about GitLab.  Even if the prospect does not move forward with GitLab, they should always be much better off for having done the workshop. This can be a workshop of any kind as long as a) the key people at the account are learning about the full capability of GitLab in their context and b) they are learning hands-on with the product (not just in slides).  When the customer has the right people in one place and working hands-on to see what's possible, GitLab almost always moves to the next stage of the adoption or growth process with the customer.  The product is an incredible fit, they simply need to see it live and in their context.  A workshop is much more effective than a "trial" opportunity as we can greatly accelerate both the time to value for the customer and the time to understanding GitLab in their own unique environment.
 
 Sales Motion and Sequence:
+
 1. **Initial conversations:** In an early conversation when a customer is still trying to learn about GitLab, ***agree to a workshop*** with decision maker and involved team members to learn about end-to-end DevOps in a hands-on workshop to see what would be possible in their environment and exit with a working example to evaluate and better understand DevOps at 5x speed and better security and quality at the same time.
    1. DELIVER: DevOps Best Practices workshop
    1. Give customer a complete understanding of how their own company could be successful with end-to-end DevOps and GitLab in their own environment

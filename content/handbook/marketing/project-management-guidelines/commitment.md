@@ -7,6 +7,7 @@ title: "Managing Commitment"
 ## Background
 
 Teams and individuals are often asked / requested to work on multiple efforts, across the company.  For example,
+
 - An event, needs booth branding or messaging
 - A campaign, needs positioning/messaging and perhaps a gated white-paper
 - A new whitepaper or infographic needs design input
@@ -54,7 +55,7 @@ graph TD
 
   classDef Open fill:#D8BFD8, stroke: #333
   classDef Close fill:#c4d3d9, stroke: #333
-````
+```
 
 ```mermaid
 graph LR
@@ -74,6 +75,7 @@ There are two key labels that allow a team to define and manage the process:
 `sm_request` - is the **Product and Solution Marketing** label for **all** requests.   Need to explore the potential of these being common group level labels (shared across projects).
 
 2. A set of scoped labels that define the workflow.  Here is the list of labels from the Product and Solution Marketing workflow:
+
 - `sm_req::New`
 - `sm_req::Backlog`
 - `sm_req::Assigned`
@@ -90,7 +92,7 @@ Typically - you would replace the **"sm_"** with the team initials.
 
 Using an [issue template](https://docs.gitlab.com/ee/user/project/description_templates.html) helps to consistently define the process and make it easy to get started.
 
-* Issue Templates can also be **directly linked to via a URL** which makes it easy for a person requesting help to quickly open an issue template.
+- Issue Templates can also be **directly linked to via a URL** which makes it easy for a person requesting help to quickly open an issue template.
 
 For example this URL will open a [Product and Solution Marketing Request](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new?issuable_template=A-SM-Support-Request):
 
@@ -106,7 +108,7 @@ The issue template, both describes the information that is needed to understand 
 1. A person leading a project, campaign, event, or whatever needs help from a team.
 1. They open a request issue and provide the background
 1. A **DAILY** Process - The team (leaders or the team in general) **triages the `New Requests`** and decides how to respond.  (`backlog`,`assigned`, `transferred`, `declined`)
-1.  When the request is actually assigned to a team member, the label `req::assigned` is applied **and** the individual is assigned to the request issue.
+1. When the request is actually assigned to a team member, the label `req::assigned` is applied **and** the individual is assigned to the request issue.
 1. The assigned individual does the work. (*Either in the request issue, or in the project where the request originated - depending on what makes the most sense.*)
 1. When the work is done, the issue is labeled `req::completed`
 (the SM Triage Bot automatically closes completed issues)

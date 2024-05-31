@@ -24,4 +24,3 @@ This chart, not only provides the task information, but also the purpose behind 
 Click here for a [downloadable version](https://lucid.app/documents/view/fd53487f-143b-420f-ae66-9e73f3505ef2) of the chart below.
 
 <iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/fd53487f-143b-420f-ae66-9e73f3505ef2" id="LvjclsjZrJBQ"></iframe>
-

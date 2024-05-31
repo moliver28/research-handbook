@@ -80,30 +80,34 @@ For a full overview of the QBR planning and execution process, QBR request track
 1. If you cannot join the call, consider reviewing the recorded call, or at minimum, read through the meeting agenda.
 1. If you have feedback on how we can improve the WW Field Org Call, share it in the post-meeting survey provided via Zoom when you log off the call.
 
-
 ## Enablement/Planning/Strategy Meetings
 
 ### Field Enablement Spotlight series
+
 - **When:** Weekly on Thursday at 9am Pacific time, except in the last two weeks of a quarter
 - **Who:** The entire GitLab Field team is invited to this meeting series. The series can be found on the [Field Enablement Google Calendar](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV81bjNnNjBsNTh0aHVtOWFvdnA4aWlzYXYzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 - **What:** The purpose of this series is to enable Field team members on the latest resources and selling tactics. Enablement topics vary weekly. See more on [the handbook page](/handbook/sales/training/sales-enablement-sessions/).
 
 ### Sales Group Conversation
+
 - **When:** Happens once every 8 weeks at 8am Pacific time
 - **Where:** Zoom link varies - please be sure to check the calendar invitation
 - **What:** The CRO Leaders will rotate and provide the company with an update on their business, overall team performance, notable wins, accomplishments, and relevant strategies planned.
 You can view previous updates in the "Group Conversation Sales" (previously "Functional Group Update Sales") folder on the Google Drive.
 
 ### Sales Monthly [Key Review](/handbook/company/key-review/)
+
 - **When:** Happens once every month
 - **Where:** Zoom link varies - please check the calendar invitation
 - **What:** Michael McBride (CRO) will present to the CEO, CFO, and other company leaders a monthly Sales update.
 
 This update will include the current status of:
+
    - Sales KPI's
    - [OKR's](/handbook/company/okrs/fy21-q3/)
 
 The meeting will cover:
+
    - the quarterly forecast
    - QTD performance
    - most recent month's performance

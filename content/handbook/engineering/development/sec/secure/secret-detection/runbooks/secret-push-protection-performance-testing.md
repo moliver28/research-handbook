@@ -1,5 +1,5 @@
 ---
-title: "Pre-receive secret detection performance testing"
+title: "Secret push protection performance testing"
 ---
 
 ### When to use this runbook?
@@ -7,7 +7,7 @@ title: "Pre-receive secret detection performance testing"
 Use this runbook for:
 
 * [Running GPT tests](#running-gpt-tests) - for running tests and comparing with previous benchmarks
-* [Deploying a new version of GitLab to GET](#re-deploying-a-new-build) - for updating a GET instance, most likely to test out changes related to pre-receive secret detection
+* [Deploying a new version of GitLab to GET](#re-deploying-a-new-build) - for updating a GET instance, most likely to test out changes related to secret push protection
 * [Setting up a new GET environment](#setting-up-a-get) - for testing different reference architectures
 
 ### Prerequisites
@@ -192,7 +192,7 @@ See the [Custom Tasks section](https://gitlab.com/gitlab-org/gitlab-environment-
 * [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
 * [The Static Analysis GCP Project: dev-sast-prereceive-8a4574ec](https://console.cloud.google.com/welcome?project=dev-sast-prereceive-8a4574ec)
 * GCP - Google Cloud Platform
-* [Pre-receive Secret Detection documentation](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive.html)
+* [Secret Push Protection documentation](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive.html)
 
 ### Miscellaneous
 

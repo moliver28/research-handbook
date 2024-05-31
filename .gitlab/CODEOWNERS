@@ -152,6 +152,7 @@
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
 /content/handbook/engineering/development/ops/verify/pipeline-security/ @shampton
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
+/content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @pcalder
 /content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @pcalder @ryaanwells
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
@@ -210,7 +211,7 @@
 /content/handbook/engineering/infrastructure/test-platform/onboarding/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
 /content/handbook/engineering/infrastructure/test-platform/quad-planning/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
 /content/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/ @ksvoboda
-/content/handbook/engineering/infrastructure/test-platform/test-engineering-team.md @kkolpakova
+/content/handbook/engineering/infrastructure/test-platform/test-engineering-team/ @kkolpakova
 /content/handbook/engineering/quality/engineering-analytics.md @meks @cdeleon_gitlab @lmai1
 
 ^[Eng-Incubation-department]
@@ -640,6 +641,7 @@
 ## Controlled Documents must be in this section, and it must be the last section
 [Controlled-Documents]
 /content/handbook/entity/iberia-srl-spain.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/entity/israel-ltd.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
 /content/handbook/business-technology/data-team/data-management.md @amiebright @dvanrooijen2 @iweeks @nmcavinue @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/data-team/platform/_index.md @amiebright @dvanrooijen2 @iweeks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/end-user-services/onboarding-access-requests/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites

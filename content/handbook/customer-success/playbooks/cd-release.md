@@ -34,7 +34,6 @@ The following are recommended questions for discovering customer needs.
 |                    |      |       |      |
 |                    |      |       |      |
 
-
 ### Reporting and Metrics
 
 - Link to product analytics metrics

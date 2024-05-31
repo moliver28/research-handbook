@@ -75,7 +75,6 @@ The Field Enablement and Communications teams track and measure success in three
    1. Were we able to observe an intended behavior? Examples: successful completion of operational tasks, effective message articulation.
    1. Were we able to attain an intended business outcome? Examples: lower ramp time, accelerated deal cycle time, higher volume or quality of pipeline, lower churn/contraction, improved productivity.
 
-
 ## How to Work With Us
 
 When considering how to engage with the Field Enablement team, stakeholders should take into account the following questions:
@@ -123,7 +122,6 @@ If Field Enablement determines that your initiative requires a GTM Enablement Pr
 ### Connect in Slack
 
 To reach the Field Enablement team on Slack, use #field-enablement-team
-
 
 ## Key Programs
 

@@ -33,7 +33,6 @@ title: "Developer Relations Workflows and Tools"
 - [Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)
 - [Twitter](/handbook/marketing/developer-relations/workflows-tools/twitter/)
 
-
 ## Tool Stack Overview
 
 These are the tools the Developer Relations team is the DRI for:
@@ -89,4 +88,3 @@ These are the tools that are essential to some Community programs, but the Devel
 
 1. Please follow the procurement process as you would for [adding any new tool to GitLab's tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack).
 1. Ensure that the `group_owner` field on the tech stack file entry is set to `Developer Relations`. This will make the tool to be automatically listed on the [Developer Relations toolstack](#tool-stack-overview).
-

@@ -108,7 +108,7 @@ There is an example of this in the Application configuration Video linked on the
 
 ## Can the apps be renamed or append their function?
 
-Yes, we can add App Notes to each of the Apps, and will work through them to add intuitive labels. For an example, we have already enabled this on BambooHR and a few others. To configure Apps and improve your user experience, please see the Dashboard Tips video on the Okta main page.
+Yes, we can add App Notes to each of the Apps, and will work through them to add intuitive labels. For an example, we have already enabled this on Workday and a few others. To configure Apps and improve your user experience, please see the Dashboard Tips video on the Okta main page.
 
 ## Is there a reason why my Application is not integrated via SAML2.0?
 
