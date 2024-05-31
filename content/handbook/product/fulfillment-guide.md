@@ -886,7 +886,7 @@ Team members in our Sales and Customer Success groups should escalate first via 
 #### Fulfillment OKR processes
 
 Fulfillment resourcing is allocated to work on top priority work, which is generally managed by: 
-1. First ensure that forced prioritization items (such as meeting SLOs) are completd timely. 
+1. First ensure that forced prioritization items (such as meeting SLOs) are completed timely. 
 2. Deliver on quarterly objective and key results (OKRs).
 
 Fulfillment FY25 Q2 OKRs are listed in https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6895 (team member access only). We have a similar top-level objective for the Fulfillment Stage each quarter. 
