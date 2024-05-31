@@ -113,7 +113,7 @@ Building dedicated time into your day can help minimize the distractions that Sl
 
 ### Scheduled Slack Messages
 
-To foster a more inclusive environment at GitLab, we can minimize sending messages outside of the recipient's working hours or when their notifications are disabled, unless it's absolutely necessary. In Slack, you can schedule messages to be sent later, which helps reduce immediate disruptions. You can still edit, delete, or cancel scheduled messages, making it a very convenient tool to use.
+When working in an all-remote environment it can be sometimes difficult to draw the line between home and work, and it can be especially tempting to check Slack messages after hours. To foster a more inclusive environment at GitLab, we can avoid sending messages outside of the recipient's working hours by composing a message but not sending it until the recipient begins their working day. In Slack, you can schedule messages to be sent later, which helps reduce immediate disruptions. You can still edit, delete, or cancel scheduled messages before they are sent, making it a very family-friendly tool to use. This approach aligns with our [bias towards asynchronous communication](https://handbook.gitlab.com/handbook/values/#bias-towards-asynchronous-communication).
 
 It's simple: when composing a message, click the arrow icon (next to the paper plane icon) to schedule it for a later time.
 
