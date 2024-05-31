@@ -223,6 +223,8 @@ By maintaing a Single Source of Truth (SSoT) we give the best possible forum for
 
 - The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
 
+- For [guiding prospects](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817) to web-direct, we also have [a sequence that you should use](https://web.outreach.io/sequences/14652/overview) to ensure that you streamline their buyer's journey.
+
 ### White Glove Event Follow Up Sequence (SAEs Included)
 
 For more personal events, such as Executive Roundtables, there many be more detailed Last Event Notes that have an ask to include the people who interacted with the prospect at the event. For these situations we have a [specialized white glove sequence.](https://app1a.outreach.io/sequences/12883)
@@ -551,12 +553,12 @@ _Directors, Ops and JB will select random opps each month to audit and ensure au
 #### Best practices to ensure credit for SAO
 
 1. Sequence all leads if you’re reaching out
-1. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
-1. Populate all qualification fields
-1. If activity was a phone call or a zoom call, log notes at the time of call
-1. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps
-1. If engagement is in LinkedIn or Whatsapp, take a picture and attach to chatter/opp
-1. If activity happened at an event, make sure that immediately following the event, you create a stage 0 opportunity and  send follow up email that recaps the conversation that took place
+2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
+3. Populate all qualification fields
+4. If activity was a phone call or a zoom call, log notes at the time of call
+5. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps, ensure that prospect is guided to web-direct using the sequence [here](https://web.outreach.io/sequences/14652/overview), as per the conversation [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817).
+6. If engagement is in LinkedIn or Whatsapp, take a picture and attach to chatter/opp
+7. If activity happened at an event, make sure that immediately following the event, you create a stage 0 opportunity and  send follow up email that recaps the conversation that took place
 
 ### Reports
 
