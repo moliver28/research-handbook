@@ -99,7 +99,7 @@ In preparation for this, GitLab will consider the following:
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "#information-security-policy-exception-management-process" >}}).
+Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

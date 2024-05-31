@@ -60,7 +60,7 @@ In order to abide by the [SAFE Framework](/handbook/legal/safe-framework/), to p
 
 Team Members and contractors may **not** use GitLab-managed resources for activities that are illegal or prohibited under applicable law, no matter the circumstances.
 
-Security requirements for GitLab production and corporate environments and on GitLab-managed assets must not be disabled without security approval via the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
+Security requirements for GitLab production and corporate environments and on GitLab-managed assets must not be disabled without security approval via the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 #### Unacceptable System and Network Activities
 
