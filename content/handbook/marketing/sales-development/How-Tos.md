@@ -223,7 +223,7 @@ By maintaing a Single Source of Truth (SSoT) we give the best possible forum for
 
 - The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
 
-- For [guiding prospects](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817) to web-direct, we also have [a sequence that you should use](https://web.outreach.io/sequences/14652/overview) to ensure that you streamline their buyer's journey. 
+- For [guiding prospects](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817) to web-direct, we also have [a sequence that you should use](https://web.outreach.io/sequences/14652/overview) to ensure that you streamline their buyer's journey.
 
 ### White Glove Event Follow Up Sequence (SAEs Included)
 
