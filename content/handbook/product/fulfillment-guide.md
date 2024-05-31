@@ -807,7 +807,7 @@ Our roadmap is prioritized and scheduled following our [Project management proce
 
 To request work to be added to the Fulfillment roadmap, please follow our [intake request process](/handbook/engineering/development/fulfillment/#intake-request). Changes in priorities of this roadmap follow our [prioritization process](/handbook/engineering/development/fulfillment/#prioritization).
 
-The source of truth for all Fulfillment projects is our **[in-product Fulfillment Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)**.
+The source of truth for our priorities for a given quarter are our Fulfillment OKRs. 
 
 By nature of our [direction](https://about.gitlab.com/direction/fulfillment/), Fulfillment works mostly on highly cross-functional projects where either or both of the following are true:
 
@@ -882,6 +882,28 @@ Any proposed changes to the roadmap will be first communicated to cross-function
 If you have an urgent Fulfillment need that is not being prioritized by Fulfillment's regular prioritization process due to competing priorities, and it is both important and urgent, please work with your division's leadership for escalation. The first step can be an async discussion involving Fulfillment leadership (as of now include [ofernandez2](https://gitlab.com/ofernandez2)). Situations in which competing company-priority projects would need to be reprioritized to accommodate your request may require escalation to GitLab's [e-group](/handbook/company/structure/#executives).
 
 Team members in our Sales and Customer Success groups should escalate first via the [Top ARR Drivers meeting](/handbook/product/product-processes/#top-arr-drivers) for cross-team leadership visibility and prioritization. Simply add your item to the list of asks (link in the meeting agenda) for discussion.
+
+#### Fulfillment OKR processes
+
+Fulfillment resourcing is allocated to work on top priority work, which is generally managed by: 
+1. First ensure that forced prioritization items (such as meeting SLOs) are completd timely. 
+2. Deliver on quarterly objective and key results (OKRs).
+
+Fulfillment FY25 Q2 OKRs are listed in https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6895 (team member access only). We have a similar top-level objective for the Fulfillment Stage each quarter. 
+
+To set our OKRs: 
+1. Each quarter the Fulfillment Stage product leader kicks off OKR planning by starting a top-level objective in GitLab OKRs with a draft list of top priorities.
+1. Quads for each Fulfillment group work together to plan their quarterly work and add sub-objectives/KRs to map to those top priorities. 
+1. Quads suggest changes to OKRs based on what they are seeing during planning. This includes prioritizing tech debt, architecture blueprints, maintenance KRs, or any other work that may be missing from OKRs. 
+1. We label all sub-objectives or KRs using priority labels. We strive for 90%+ accomplishment on Priority 1, 80%+ on Priority 2 items, and 70%+ on Priority 3 items. 
+
+Our ongoing OKR review includes: 
+1. Monthly updates to OKRs as part of what used to be the PI review meeting (example issue https://gitlab.com/gitlab-com/Product/-/issues/13333)
+2. We make sure that KRs are up to date, including closing out and replacing OKRs when appropriate (e.g., we had a placeholder OKR that we decided not to pursue, or we decided to do a mid-quarter change to prioritize something else).
+3. If everyone gets their updates in 2 days ahead of the PI review meeting, and there are no open discussion points after async review, we cancel the PI sync meeting. 
+4. Our agenda doc is updated each month, though, as we review async to ensure that all things that need conversation are discussed async. ([agenda doc](https://docs.google.com/document/d/17smuC22Ncu5PP0Ao9QdZnkWK0nbe7ArJveDRp-95AGE/edit#heading=h.n8ipg35nq4u1))
+
+Finally, at the end of the quarter, stage leaders score the OKRs and leave a comment in the top level objective summarizing it. ([FY25 Q1 example](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5573#note_1883160327)). This final step is critical since it helps us reflect and hold ourselves accountable, as well as celebrate what we accomplished which otherwise often goes unnoticed. We cross-post this last update to Slack for more visibility in our #s_fulfillment_fyi channel.
 
 ### Common Provisioning Bugs
 
