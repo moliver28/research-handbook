@@ -185,6 +185,7 @@ Work cross-functionally (both within and outside of IT) to promote and gain prio
 ### Senior Manager, IT Compliance Requirements
 
 This role includes all of the requirements above, plus:
+
 - High ethical standards and integrity
 - Meticulous attention to detail in managing compliance documentation and activities.
 - Skill in developing and maintaining IT compliance policies and procedures.
