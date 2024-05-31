@@ -116,10 +116,12 @@ Contentful has a tagging feature that allows us to organize different content. I
 Digital experience can create the `Tag` (Private), then create a new `Role` (preferrably with the same name to help keep everything organized) and add the users to that role. Digital experience will then need to add specific permissions for that `Role` including:
 
 Allow:
+
   - Read, Write, Publish, Archive for regular entries
   - Read, Write, Publish, Archive for your new tag
 
 Deny:
+
   - Read, Write, Publish, Archive for any other existing confidential tags
 
 **Note**: Make sure you set the same rules on the Media tab in the new Role.
