@@ -165,7 +165,6 @@ As the technical spike work comes to a completion, complete the following steps 
 - Move the technical spike issue to ~workflow::complete.
 - Close the technical spike issue.
 
-
 ### UX
 
 Info on the Growth UX team and how they work can be found on the [Product/Growth page](/handbook/product/growth/#ux).
