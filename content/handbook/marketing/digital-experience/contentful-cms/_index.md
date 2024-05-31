@@ -109,6 +109,25 @@ We have various levels of access in Contentful. Most new members that are invite
 - *Creator*: can create and edit all content in a space (aside from `Confidential` content), but cannot publish it.
 - *Publisher*: can create, edit, publish, archive and delete all content in a space (aside from `Confidential` content). This person should be able to administer their own team.
 
+### Confidential Tags
+
+Contentful has a tagging feature that allows us to organize different content. It also allows us to configure access to each `Tag`, such that certain content can be hidden from certain users. We currently have a functioning `Confidential` tag, however the caveat is that anyone with access to that tag can see all confidential content. In the use case where a specific user or team needs their own, truly private content, we can create a new `Tag` and a new `Role` specifically for them.
+
+Digital experience can create the `Tag` (Private), then create a new `Role` (preferrably with the same name to help keep everything organized) and add the users to that role. Digital experience will then need to add specific permissions for that `Role` including:
+
+Allow: 
+- Read, Write, Publish, Archive for regular entries
+- Read, Write, Publish, Archive for your new tag
+
+Deny:
+- Read, Write, Publish, Archive for any other existing confidential tags
+
+**Note**: Make sure you set the same rules on the Media tab in the new Role. 
+
+To get access to your own team tag, please reach out to the `#digital-experience-team` slack channel with your usecase, which users should have access, and how long you need this tag (i.e. is it for an upcoming release? Or is this a permanent feature that your team needs?). Please note that once we create the Tag, our team will likely lose access to the tag or any configurations, so teams should feel comfortable using the tag on their own prior to revoking access to Digital Experience admin. 
+
+**Note:** At this time, Contentful Administrators may have access to all tags in the space. This is still being tested - please discuss with Digital Experience. 
+
 ### The `Review: DEx` tag and permissions
 
 Content that requires Digital Experience review prior to publishing is tagged with the `Review: DEx` tag. This has been configured in Contentful such that only users with a role of `CMS Administrator` in the about.gitlab.com space will be able to publish this content. Users with `Publisher` access and below will not be able to publish this content.
