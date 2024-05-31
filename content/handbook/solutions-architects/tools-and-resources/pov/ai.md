@@ -4,7 +4,7 @@ title: Artificial Intelligence POV Scope and Acceptance
 description: Artifical Intelligence POV Scope and Acceptance
 ---
 
-Other AI Resources: [Lab](#) | [Demo](#) | [Guided Trial](#) | [POV](#) | [Education Services](#) | [Professional Services](#)
+Other AI Resources: [Lab](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) | *Demo* | *Guided Trial* | **POV** | *Education Services* | [Professional Services](https://about.gitlab.com/services/#advisory-services)
 
 ## AI POV best practices
 
