@@ -56,7 +56,6 @@ Each risk strategy statement is ranked in order of priority from Highest priorit
 | RISK RESPONSE<br>APPROACH | All risks are acceptable as long<br>as they do not impact our legal<br>and regulatory obligations | Determine risk response options to<br>help accept or reduce risk levels<br>through internal initiatives | Risk remediation is favored over<br>risk acceptance | Risks that cannot be effectively<br>treated or transferred are avoided |
 | RISK RESPONSE<br>DRIVERS | No response action required for risks<br>unless they may represent a<br>contract or regulatory violation | Risk response actions take into<br>consideration cost effectiveness,<br>management priorities, and return<br>on investment | Risk response actions emphasize the<br>impact to security over the impact<br>to strategic objectives | Risk response actions are always taken,<br>regardless of cost effectiveness,<br>management priorities, return on investment,<br>and overall organizational objectives |
 
-
 *GitLab's Risk Appetite Matrix was formed through consideration of guidance set forth in NIST's [SP 800-39](https://csrc.nist.gov/publications/detail/sp/800-39/final) and [SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final).*
 
 Scoring is performed by individuals operating in at least Senior Leadership capacity within GitLab and spans across multiple departments.
@@ -104,7 +103,6 @@ In order to effectively identify, manage, and treat operational risks, GitLab ha
 | **Adversarial** | Fraud and theft, insider threat, malicious hacker, and malicious code |
 | **Non-Adversarial** | Errors and omission, loss of physical and infrastructure support (e.g. a natural disaster), exposure of sensitive information, changes to systems used to support the business, changes to external environments supporting GitLab, changes to GitLab's business model, or even changes in leadership |
 
-
 #### Risk Drafting Guidance
 
 StORM Program considerations include both risks (what might happen) and observations (what has happened/non-compliance). For guidance on writing observations, please refer to the[Observation Management Procedure Handbook page]({{< ref "observation-management-procedure" >}}).
@@ -121,25 +119,22 @@ To score each risk, we leverage a formula based on the Likelihood of the risk ev
 
 | Qualitative <br> Score | Risk Level	| Scoring Guidelines |
 | :--------------------: | :--------: | ------------------ |
-| 6 | CRITICAL  | No expertise required to initiate a threat event |
+| 6 | CRITICAL | No expertise required to initiate a threat event |
 | 5 | VERY HIGH | Low level of expertise required to initiate a threat event   |
-| 4 | HIGH      | Some expertise required to initiate a threat event           |
+| 4 | HIGH | Some expertise required to initiate a threat event           |
 | 3 | MODERATE  | Difficult to initiate a threat event, even with expertise    |
-| 2 | LOW       | Requires significant expertise to initiate a threat event    |
+| 2 | LOW  | Requires significant expertise to initiate a threat event    |
 | 1 | VERY LOW  | Theoretically impossible to initiate a threat event |
-
 
 ##### Determining the impact of a threat event
 
 | IMPACT<br>SCORE | Organizational Output<br>(time, quality, resources) | Brand<br>Reputation | Business<br>Continuity | Customers &<br>Stakeholders | Legal &<br>Regulatory | Financial |
-| :---------------: | ----------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------- |
+| :---------------: | ------------- | --- | -------- | ---------- | ----------- | ------- |
 | VERY LOW (1) | Organizational output is<br>impacted by less than 20% | Limited to reputational damage<br>with no more than one customer<br>within a fiscal period | Outages of non-critical systems<br>that impact GitLab team members | Impact is limited to one<br>customer and/or stakeholder | Breach of company policy<br>occurring once in a fiscal<br>period  | Loss up to $999   |
 | LOW (2) | Organizational output is<br>impacted by 30% - 40% | Confined to a limited number of<br>parties (e.g. specific customers)<br>and not publicized | Outages which result in the inability<br>of GitLab to continue sales and finance<br>operations longer than 72+ hours | Impact is limited to 2-3<br>customers and/or stakeholders | Breach of company policy<br>twice within a fiscal period | Loss between $1,000<br>and $9,999 |
 | MODERATE (3) | Organizational output is<br>impacted by 40% - 50% | Public domain publicity but limited<br>to industry channels and not the<br>broader public | Outages that impact GitLab's<br>ability to do business across 3+<br>departments | Impact is limited to 4-5<br>customers and/or stakeholders | Breach of a regulatory and/or<br>contractual obligation | Loss between $10,000<br>and $499,999  |
 | HIGH (4) | Organizational output is<br>impacted by 50% - 75% | Wide-spread publicity but limited<br>parties are impacted  | Outages that result in the loss of<br>availability of GitLab for customers<br>for less than 4 hours | Major impact to many<br>customers and/or stakeholders | Regulatory censure and/or action<br>taken against GitLab | Loss between $500,000<br>and $999,999 |
 | VERY HIGH (5) | Organizational output is<br>impacted by 75% or more | Widely publicized | Outages that result in the loss of<br>availability of GitLab for customers<br>for 4+ hours | Major impact to all<br>customers and/or stakeholders | Public regulatory fines and/or major<br>litigation against GitLab | Loss of $1,000,000+ |
-
-
 
 To arrive at a final impact score, the impact score of all impact categories is averaged.
 
