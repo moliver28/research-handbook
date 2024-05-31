@@ -54,9 +54,9 @@ Validation issues should be tagged based on the severity recommended by the thir
 
 - `risk treatment::mitigate severity::remediate`: This label is applied to issues that have been mitigated by another process and the residual risk reviewed and agreed upon that will be remediated according to the defined SLAs.
 
-- `risk treatment::accept`: This label identifies that the finding has been validated as legitimate and has an approved exception (risk acceptance) issue to account for a business need. For additional details refer to the [Vulnerability Management Risk Acceptance (non-FedRAMP process)]({{< ref "./product-security/vulnerability-management#non-fedramp-process" >}}).
+- `risk treatment::accept`: This label identifies that the finding has been validated as legitimate and has an approved exception (risk acceptance) issue to account for a business need. For additional details refer to the [Vulnerability Management Risk Acceptance (non-FedRAMP process)]({{< ref "./product-security/vulnerability-management/#non-fedramp-risk-acceptance--sla-exception-procedure" >}}).
 
-- `risk treatment::mitigate severity::accept`: This label is applied to issues that have been mitigated by another process and the residual risk reviewed and agreed for risk acceptance. For additional details refer to the [Vulnerability Management Risk Acceptance (non-FedRAMP process)]({{< ref "./product-security/vulnerability-management#non-fedramp-process" >}}).
+- `risk treatment::mitigate severity::accept`: This label is applied to issues that have been mitigated by another process and the residual risk reviewed and agreed for risk acceptance. For additional details refer to the [Vulnerability Management Risk Acceptance (non-FedRAMP process)]({{< ref "./product-security/vulnerability-management/#non-fedramp-risk-acceptance--sla-exception-procedure" >}}).
 
 - `risk treatment::false positive`: This label is used in an issue that is misstated or additional considerations were not present that will change its outcome. Additional information needs to be provided to indicate a false positive.
 
