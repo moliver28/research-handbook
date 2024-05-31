@@ -719,7 +719,7 @@ For more information on quoting or the Partner Program, please visit:
 
 ## Partner Influence
 
-Partners can influence GitLab opportunities without sourcing or transacting the deal. The Partner Sales team is required to submit an internal Partner Influence Registration which must be approved by the ASM to receive influence credit for an opportunity.
+Partners can influence GitLab opportunities without sourcing or transacting the deal. The Partner Team (PTM, PAM, or Partner SA) is required to submit an internal Partner Influence Registration which must be approved by the ASM to receive influence credit for an opportunity.
 
 Qualifying partner influence activities include customer executive engagement and advocacy and/or working side by side with GitLab on the customer pursuit, and at least one of the following must be met to submit a Registration:
 
@@ -736,11 +736,11 @@ Partner Influence Registration should only be submitted and approved for:
 1. a partner that did not source and/or transact the opportunity
 2. one partner (i.e., one approved Influence Registration/Partner per opportunity). Only the first approved record will qualify if multiple influence registrations are submitted and/or approved for one opportunity.
 
-The GitLab ASM has one business day to either approve or reject the Influence Registration, which begins when the Registration hits their queue for approval. The ASM must communicate with the GitLab Partner Territory Manager if their approval is anticipated to push beyond the one business day SLA. Approval by the ASM will update the Influence Registration's `Status` to Approved and stamp `Influence Partner` on the opportunity with the partner account.
+The GitLab ASM has one business day to either approve or reject the Influence Registration, which begins when the Registration hits their queue for approval. Approval by the ASM will update the Influence Registration's `Status` to Approved and stamp `Influence Partner` on the opportunity with the partner account.
 
 Follow the steps below to register partner influence on an opportunity:
 
-### Partner Sales Team for Submission
+### Partner Team for Submission
 
 1. From the Related List Quick Links at the top of the opportunity page, hover your cursor over Influence Partners and select `New Influence Partner`
     ![Alt text](image.png)
@@ -770,10 +770,18 @@ Follow the steps below to register partner influence on an opportunity:
 1. Confirm alignment with the Partner Territory Manager and GitLab Sales Rep prior to providing final approval or rejection on the influence registration.
 1. Click `Approve/Reject`
     ![Alt text](image-3.png)
-1. Add any message for the Partner Territory Manager in the Comments field if applicable. Select `Approve`or `Reject` to complete the process.
+1. Add any message for the Partner Team in the Comments field if applicable. Select `Approve`or `Reject` to complete the process.
     ![Alt text](image-4.png)
 
 _Please reach out to @Partner Operations via chatter if you have any questions or if the ASM approver needs to be reassigned._
+
+### Partner Influence: Reporting
+
+- [Global Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000036nh32AA/view?queryScope=userFolders)
+- [AMER Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003XZ6x2AG/view?queryScope=userFolders)
+- [APJ Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000036n7a2AA/view?queryScope=userFolders)
+- [EMEA Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003Xkoj2AC/view?queryScope=userFolders)
+- [PUBSEC Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003XkSA2A0/view?queryScope=userFolders)
 
 ## Channel Approvals
 
