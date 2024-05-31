@@ -69,7 +69,6 @@ App information:
 - This application was developed in-house and can be found
   [GitLab Search project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/gitlab-search).
 
-
 ## Out of Office
 
 <sup>*Introduced via [support-team-meta#4303](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4303)*</sup>
