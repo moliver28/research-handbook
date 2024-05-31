@@ -54,7 +54,6 @@ When working with software that includes Machine Learning, I want be able to ite
 | <a id="IE_MLOPS_VR_5">IE_MLOPS_VR_5</a> | When working with ML, I want minimize how often each step of the DAG is run, so that costs are reduced |
 | <a id="IE_MLOPS_VR_6">IE_MLOPS_VR_6</a> | When a model is deployed, I want to verify whether the labeling was done correctly, and is still valid, so that I am sure the targets were correct |
 
-
 ### Packaging
 
 | Code          | Job Description |
@@ -75,7 +74,6 @@ When working with software that includes Machine Learning, I want be able to ite
 | <a id="IE_MLOPS_RL_5" href="#IE_MLOPS_RL_5">IE_MLOPS_RL_5</a> | For deployed models, I want to batch predictions, so that I can avoid heavy compitation during runtime |
 | <a id="IE_MLOPS_RL_6" href="#IE_MLOPS_RL_6">IE_MLOPS_RL_6</a> | For deployed models, I want to make predictions on streaming data, so that my model reacts quickly to new data |
 | <a id="IE_MLOPS_RL_7" href="#IE_MLOPS_RL_7">IE_MLOPS_RL_7</a> | When deploying a machine learning model, I need to compare prior and current version on live data, so that I can publish the best version  |
-
 
 ### Secure
 
@@ -108,10 +106,3 @@ When working with software that includes Machine Learning, I want be able to ite
 - [Machine Learning Operations: Overview, Definition, and Architecture](https://arxiv.org/abs/2205.02302)
 - [Designing Machine Learning Systems](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/)
 - [Practical MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/)
-
-
-
-
-
-
-

@@ -1,5 +1,6 @@
 ---
 title: "Direction"
+aliases: /handbook/content-websites/direction/
 ---
 
 ## Overview

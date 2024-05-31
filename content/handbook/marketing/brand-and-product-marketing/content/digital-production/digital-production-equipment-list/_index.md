@@ -66,7 +66,7 @@ twitter_creator: "@gitlab"
 
    If you are in need of a camera before the Sony a6400 release, we recommend considering the [Sony A7C](https://www.bhphotovideo.com/c/product/1592776-REG/sony_alpha_a7c_mirrorless_digital.html) as listed in the packages below.
 - Camera Lens: TBD - Coming Soon!
- - Mount for Microphone - [Example](https://docs.google.com/spreadsheets/d/1rKwZwP7hvYSqm3BL4wPmVNDQtYkXPSX3SfUElBIhX38/edit#gid=1367060180)
+- Mount for Microphone - [Example](https://docs.google.com/spreadsheets/d/1rKwZwP7hvYSqm3BL4wPmVNDQtYkXPSX3SfUElBIhX38/edit#gid=1367060180)
 
 ##### Audio
 
@@ -203,8 +203,3 @@ This package is very advanced and intended for those with a high need of profess
 - HDMI Cable - [Example](https://www.bhphotovideo.com/c/product/751037-REG/Pearstone_hda_115_Standard_Series_HDMI_to.html)
 
 - AA Batteries with Charger (For Lav microphone) - [Example](https://www.bhphotovideo.com/c/product/1047699-REG/panasonic_k_kj17khca4a_eneloop_xx_4_place.html)
-
-
-
-
-

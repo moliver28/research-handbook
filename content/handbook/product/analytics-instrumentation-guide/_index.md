@@ -22,7 +22,6 @@ There are several stages and teams involved to go from collecting data to making
 
 [Editable source file](https://docs.google.com/spreadsheets/d/144-BLh7uyX4aY23QNrvke5BqCcb9xfPk2BL4qGFvzFY/edit?usp=sharing)
 
-
 ## Quick Links
 
 | Resource | Description |

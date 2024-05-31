@@ -130,10 +130,6 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- |
-| 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | [Ian Pedowitz](https://gitlab.com/ipedowitz) - Director, Strategy and Operations (Limited availability Thursday 8am PT - 12am PT due to a flight)  | REMOTE - PT, MON - THURS |
-| 2024-05-06 | 2024-05-10 | Karen Murphy - Chief Editorial Officer, Sijbrandij Family Office | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | REMOTE - PT, MON, FRI |
-| 2024-05-13 | 2024-05-17 | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | Karen Murphy - Chief Editorial Officer, Sijbrandij Family Office | REMOTE - PT, MON - TUES |
-| 2024-05-20 | 2024-05-24 | NO SHADOW | NO SHADOW | PRESIDENT'S CLUB |
 | 2024-05-27 | 2024-05-31 | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
 | 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | REMOTE - PT |
 | 2024-06-10 | 2024-06-14 |  [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
@@ -835,4 +831,8 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-03-18 | 2024-04-05 | [Miracle Banks](https://gitlab.com/miraclebanks) | Full Stack Engineer | |
 | 2024-04-01 | 2024-04-12 | [Jeremy Wagner](https://gitlab.com/jeremywagner) | Sr Solutions Architect | |
 | 2024-04-08 | 2024-04-26 | [Karen Kwentus](https://gitlab.com/kkwentus1) | Sr Solutions Architect | |
-| 2024-04-22 | 2024-04-26 | Kelsey Turcotte  | VP, Investor Relations | REMOTE - PT |
+| 2024-04-22 | 2024-04-26 | [Kelsey Turcotte](https://gitlab.com/KTurcotteGTLB) | VP, Investor Relations | |
+| 2024-04-29 | 2024-05-03 | [Ian Pedowitz](https://gitlab.com/ipedowitz) | Director, Strategy and Operations, Office of the CEO | |
+| 2024-04-29 | 2024-05-10 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) | Staff Marketing Campaigns Manager | |
+| 2024-05-06 | 2024-05-17 | Karen Murphy | Chief Editorial Officer, Sijbrandij Family Office | |
+| 2024-05-13 | 2024-05-31 | [Djordje Micovic](https://gitlab.com/dmicovic) | Staff Data Analyst, Marketing Analytics | |

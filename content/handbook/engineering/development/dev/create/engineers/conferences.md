@@ -56,7 +56,6 @@ Conferences are a great place to learn about the latest innovations. Attending t
 
 * [GraphQL Summit](https://summit.graphql.com/)
 
-
 ## What are some benefits to presenting at conferences?
 
 On top of all benefits of attending the conference mentioned above, when speaking you also have a chance to

@@ -22,7 +22,6 @@ To deliver on the mission, we are in the process of formalising the building blo
   <iframe src="https://www.youtube.com/embed/Vui6_iULzPw" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
 ## Direction
 
 In FY25, teams in the Platforms Section of the Infrastructure Department have collaborated on [the "North Star"](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1097), which is then used to set [the SaaS Platforms Strategy](https://gitlab.com/groups/gitlab-com/-/epics/2243).
@@ -62,7 +61,6 @@ In an effort to enhance the tracking and resolution of requests directed to the 
 
 Agents responsible for handling these issues are defined in a JSON file, which serves as a [CI/CD variable](https://ops.gitlab.net/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-creator/-/settings/ci_cd). Currently, this file contains a static list of all members of the infrastructure department.
 
-
 ### Project and Backlog Management
 
 We use epics and issues to manage our work. [Our project management process](/handbook/engineering/infrastructure/platforms/project-management/) is shared between all teams in SaaS Plaforms.
@@ -73,60 +71,8 @@ The Platforms section builds and maintains various tools to help deploy, operate
 
 ### OKR
 
-[OKRs](/handbook/company/okrs/) (or other items outside of projects) that require progress tracking should be updated **every Wednesday**.
-
-
-When writing OKRs, the guidance is that:
-
-- Objective is defined as “**What** do you want to achieve?”
-- Key Results is defined as “How will you know **when** you’ve achieved the objective?”
-- As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an “Initiative”, defined as “**How** are you going to achieve your key result?”
-
-The OKR Description should have the following format:
-
-```
-### Context
-
-<context about the Objective and the problem it is trying to solve>
-
-### Linked Epics
-
-| Epic Title | Epic Link |
-| ---------- | --------- |
-| <title>    | <link>    |
-
-### Scoring Criteria
-
-<This section should list the Scoring Criteria of each Key Results part of the Objective. Different KRs could contribute with different weights to the Objective completion>
-```
-
-If an Objective description also needs other sections, these can be added after the block above.
-
-All the statuses of the Epics linked to the OKR (`Linked Epics` table) should be updated each Wednesday, to prevent drift between OKR's and linked epics.
-
-#### OKR Retrospective
-
-At the end of the quarter, each OKR should have a retrospective section at the top of the Description field,
-with the format below:
-
-```
-### Retro
-
-#### Good
-
-<2-3 bullet points summarising what went well during this OKR>
-
-#### Bad
-
-<2-3 bullet points summarising what didn't go well during this OKR>
-
-#### Try
-
-<2-3 bullet points summarising what we should try to do differently next time>
-
-```
-
-After the Retro section is finalized, the OKR can be closed.
+We use objective and key results to set goals in alignment with [OKRs at GitLab](/handbook/company/okrs/).
+[Our OKR process](/handbook/engineering/infrastructure/platforms/okrs/) is shared between all teams in Saas Platforms.
 
 ### Hiring
 

@@ -79,7 +79,7 @@ For a better understanding of how 2FA fits into GitLab, refer to the [Accounts a
 
 ## Exceptions
 
-Exceptions to this standard will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this standard will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

@@ -29,6 +29,7 @@ In order to determine a solution, it's essential to understand the customer prob
 ### Validation: Solution validation
 
 AI solutions follow the standard [solution validation](/handbook/product/ux/ux-research/solution-validation-and-methods/) process, with some additional considerations:
+
 * It can beneficial to simulate the AI system's output in testing early to inform engineering efforts.
 * AI systems can produce inaccurate or unpredictable output. It's important to collect user feedback about AI errors, trust, and risk.
 

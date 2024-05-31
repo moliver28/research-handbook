@@ -211,7 +211,7 @@ Once the Request Form is executed, the sales team member or solutions architect 
 
 ### When does GitLab Negotiate?
 
-GitLab has certain thresholds when determining when, and to what extent, we will negotiate our standard terms.  GitLab will consider engaging in negotiations as detailed [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/).
+GitLab has certain thresholds when determining when, and to what extent, we will negotiate our standard terms.  GitLab will consider engaging in negotiations as detailed [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/).
 **NOTE: This is available to GitLab team members only**
 
 If the net ARR threshold requirements are met, a Sales team member must open a Legal Request to ask for the most current agreement template. Please do not save an agreement template to a local drive as it may not be the most current version of the agreement. It is highly recommended that the Sales team member uses discretion and discusses the approach with the assigned Legal team member to set the appropriate expectations with the customer. Please see the Subscription Agreement basics below. While negotiation may be inevitable, it is always worth considering the following implications and how best to establish the tone of potential negotiations:

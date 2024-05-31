@@ -119,8 +119,8 @@ You can subscribe to the calendar and invite it as a participant in a customer m
 
 #### Retrospectives
 
-The Plan stage conducts [monthly retrospectives in GitLab
-issues][retros]. These are confidential during the initial discussion,
+The Plan stage conducts monthly retrospectives in GitLab issues.
+These are confidential during the initial discussion,
 then made public in time for each month's [GitLab retrospective]. For
 more information, see [team retrospectives].
 
@@ -152,4 +152,3 @@ Engineering team-members can shadow a product stable-counterpart. Shadowing sess
     - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
 - Issues
     - [Description Change History](https://youtu.be/-JgfJSSLYlI)
-

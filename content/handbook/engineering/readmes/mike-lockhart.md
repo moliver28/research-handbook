@@ -117,4 +117,3 @@ I want to earn your trust and gain a better understanding of how you work.
  * Not affraid to admit when I don't know something, but I will find it out or ask for help from someone who does know
  * Approach difficult conversations with humility and empathy
  * I will have your back, even if I don't have the skills. At the very least, I make a good "rubber duck"/"sounding board". No idea is too crazy, though we may both laugh about it afterwards
-

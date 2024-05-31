@@ -130,7 +130,6 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 
 [Stage group dashboard documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html)
 
-
 ## Error budgets
 <!-- blank line -->
 <figure class="video_container">
@@ -151,7 +150,6 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 [Feature change locks](/handbook/engineering/#feature-change-locks)
 
 ## Added past due infradev as a KPI
-
 
 <!-- blank line -->
 <figure class="video_container">
@@ -177,4 +175,3 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 * What did you not like that we should improve?
 
 Add your comments in this [feedback issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/12507).
-

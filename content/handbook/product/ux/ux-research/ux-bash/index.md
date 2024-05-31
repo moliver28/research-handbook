@@ -8,12 +8,12 @@ A Bash is a research method where a group of participants, whether diverse or ta
 The idea is that each participant will use the feature differently, resulting in a large amount of varied feedback in a short amount of time. Bashes usually take place over 24 hours, enabling asynchronous participation.
 
 Benefits of a UX Bash:
+
 - Quickly and efficiently identify and prioritize usability issues.
 - Discover software bugs, glitches, and inconsistencies.
 - Uncover areas for feature enhancements and improvements.
 - Collect user feedback to enhance the product experience.
 - Turn around results to the team in 48 hours.
-
 
 ### Appropriate situations for a UX Bash
 

@@ -38,6 +38,7 @@ See [Creating a new project](../gitlab-repositories/#creating-a-new-project) for
 ### Contributor License Agreements (CLAs)
 
 If you're contributing to an open source project on behalf of GitLab, you may be required to enter into a CLA.
+
 - In accordance with the [Authorization Matrix Policy](/handbook/finance/authorization-matrix/#authorization-matrix-policy), Legal approval is required in order for you to enter into a CLA on behalf of GitLab.
 - Visit the [Legal & Corporate Affairs Product handbook](/handbook/legal/product/#contributor-license-agreements) for further information on this process.
 
@@ -59,14 +60,17 @@ The guidance for using open source software, including details of which licenses
 Avoid using forked code and try to contribute your change upstream.
 
 It's typical for forks to fall far behind the upstream repository and such dependencies become a source of pain:
+
 - Rebasing the branch may become non-trivial and it'd become hard to bring such dependency up to date.
 - Some other library in your project might depend on the original version, creating a [diamond dependency problem](https://en.wikipedia.org/wiki/Dependency_hell).
 
 There may be good reasons to create a fork:
+
 - To fix a security issue that is not being fixed upstream fast enough if it's affecting us or our customers
 - Any other reasons? Talk to your peers and use your best judgement.
 
 If you decide to create a fork, make sure you open an issue that:
+
 - Describes the reason for the fork to exist
 - Links to the MR(s) where the fork was introduced as a dependency
 - Links to any relevant issues in the upstream project. If the issue was not reported already, make sure you report it in the project's issue tracker. This is important because if the project's maintainers don't know about it they will not fix it

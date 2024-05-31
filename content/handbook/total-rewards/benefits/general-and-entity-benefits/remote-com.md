@@ -104,6 +104,14 @@ Team members in Denmark can also access the [public healthcare system](https://w
 
 Team members can expense up to $250 for eye examination and glasses if they require corrective eyeware to work at a computer screen for extended periods of time. (Login required to see [policy](https://support.remote.com/hc/en-us/articles/20050865403149-Screen-Work-Eye-Examination))
 
+### Eye Examination and Corrective Lenses
+
+Team Members who spend a significant portion of their working hours in front of a screen are entitled to receive an eye and vision examination. This examination should be conducted by either an optician or an ophthalmologist. The employer is responsible for covering the cost of this examination, and every effort should be made to schedule it during regular working hours.
+
+In cases where the Team Member requires corrective eyewear, the employer is obligated to provide, at a minimum, one standard frame with lenses or standard contact lenses at no expense to the Team Member.
+
+Remote has implemented a self-service model to facilitate this process, with a budget allocation of $250 USD to cover frame with lenses or standard contact lenses. This approach allows employees to independently arrange their eye examinations, purchase necessary eyeglasses, and then submit their expenses for reimbursement through the Remote platform.
+
 ### Pension
 
 Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). The team member will contribute 4% of the monthly base salary, with the Employer contributing 8% of the team members monthly base salary. The contribution to the pension savings plan will be paid directly into the pension plan in conjunction with the Employer’s payment of the monthly salary to the team member.

@@ -20,7 +20,6 @@ This SEG aims to provide a developer portal for our customers, hosted on GitLab,
 * Deployment and pipeline status and progress
 * Quick links to documentation and internal tools.  
 
-
 ### Additional Reading
 
 * [Introduction to Backstage](https://www.youtube.com/watch?v=1XtJ5FAOjPk)

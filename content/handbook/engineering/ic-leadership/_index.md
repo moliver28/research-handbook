@@ -32,6 +32,7 @@ During a Handbook Learning discussion, Eric (former Chief Technology Officer), E
 > Start with a level set. You have an intermediate Engineer, then they become a Senior Engineer, and there's a fork in the road. There is a dual career track where you can choose the "manager track" or the "IC Leadership track." - Eric Johnson (former Chief Technology Officer)
 
 Additional topics covered in the discussion include:
+
 1. What does it mean to be an Engineering IC Leader
 2. What are the skills needed to do the job
 3. How the role differs from other Engineering management roles
@@ -106,4 +107,3 @@ One of the conclusions from our work on [Architecture Practice at GitLab](/handb
 Staff+ Engineers are supposed to broaden the perspectives of their managers. Decision-makers often need the additional context and perspective to make well-informed decisions about investments in the product architecture, understanding expected ROI, and a core technical vision behind such changes.
 
 Building meaningful relationships based on trust will make this whole process smoother and will distribute leadership, both technical and managerial, at every level, from single teams up to department level.
-

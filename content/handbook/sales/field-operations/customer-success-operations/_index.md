@@ -5,19 +5,9 @@ description: "The Customer Success Operations team's handbook page. This covers 
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
 ## Mission
 
 To empower GitLab and customers to mutually reach their strategic outcomes and revenue goals across aligned customer journeys.
-
 
 ## Strategy
 
@@ -29,7 +19,6 @@ Develop and operationalize Customer strategies leveraging analytics and insights
 1. Stand up Renewal operations motion for a more predictable and scalable revenue motion
 1. Operational excellence resulting in scalable vision, KPIs, operational processes, and documentation
 1. Increase Sales and CS effectiveness through systems and tools
-
 
 ## What we do
 
@@ -113,12 +102,12 @@ Create issues in the [CS Operations project](https://gitlab.com/gitlab-com/sales
 
 Anything that takes longer than a day of work should be captured in an epic/multiple issues
 
-
 ### Labels
 
 Labels to use when creating new issues or MRs for CS Ops:
 
 **Team Specific or System Labels**
+
 - **CSOps** - Use to track and manage all CS Operations-related issues and MRs
 - **CS Programs** - For the Digital Programs team to track and manage content requests, improvements, and other means of digital customer marketing
 - **CS Product Usage Reporting** - Issues related to Customer Success product usage data
@@ -130,6 +119,7 @@ Labels to use when creating new issues or MRs for CS Ops:
 - **Gainsight: Feature Request** - This label is used to track feature requests for our installation of Gainsight (not for Gainsight the product)
 
 **Scoped Labels** - used for tracking SDLC progress
+
 - **CSOps::Need_More_Info** - Requires additional information from the requester, or lacks information to complete the request
 - **CSOps::Triage** - Issue that is in the triage stage
 - **CSOps::Ready_for_Assignment** - Ready to be assigned and prioritized by CS Ops
@@ -143,6 +133,7 @@ Labels to use when creating new issues or MRs for CS Ops:
 - **CSOPs::Completed** - Used to show that the work associated with the issue has been delivered/completed and the issue is being closed
 
 **Segment and Team Support Labels** - for tracking where the request(s) came from
+
 - **CSOps - CSM- Ops** - Request opened by the CS Ops team that benefits the CSM team
 - **CSOps - CSM** - Request originating from the CSM team
 - **CSOps - PS** - Request originating from, or to benefit the PS team
@@ -168,6 +159,7 @@ The issue owner is responsible for making sure the issue is completed in timely 
 Feel free to ask for a peer review for other any updates if you feel it would be helpful to have a second opinion.
 
 To start the peer review process:
+
 1. Provide a Summary of the work you have completed in the **Resolution** section on the GitLab issue
 2. Change the issue status to `CS Ops::Awaiting Feedback`
 3. Tag the teammate completing the peer review and comment on the issue that it is ready for peer review

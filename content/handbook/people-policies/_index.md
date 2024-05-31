@@ -69,7 +69,7 @@ Team members also have obligations to protect the personal and sensitive informa
 
 #### Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process). For reference see the [Parent Policy: Information Security Policy](/handbook/security).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions). For reference see the [Parent Policy: Information Security Policy](/handbook/security).
 
 ### Anti-Harassment
 

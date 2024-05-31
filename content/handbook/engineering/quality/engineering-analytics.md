@@ -18,10 +18,10 @@ Areas of focus and core competencies for Engineering Analytics include:
 - Create new metrics, data analyses, and data visualizations to provide additional clarity for existing operational metrics for Engineering, built on top of the data infrastructure provided by GitLab’s Data Team's.
 - Propose strategic improvements to Engineering leadership by analyzing trends and behavior in Engineering's KPIs and metrics.
 
-
 ## Internal Team Responsibilities
 
 In addition to the areas of focus and core competencies listed above, the Engineering Analytics team is continually improving and evolving, in order to keep up with the improvement and evolution of Engineering at GitLab. Areas of focus for the evolution of the team include:
+
 - Collaborate regularly and frequently with Engineering teams in order to understand how various teams' work aligns with the key objectives for each Department
 - Collaborate regularly with GitLab's Data Team to ensure that the internal data platform for GitLab continues to meet the needs of Engineering and Engineering Analytics
 - Improve our internal team processes so that the Engineering Analytics team can scale along with the rest of Engineering

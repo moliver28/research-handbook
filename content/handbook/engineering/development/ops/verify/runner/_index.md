@@ -170,6 +170,7 @@ The commitments for the iteration plan are directly related to the capacity of t
 1. At minimum, three business days prior to GitLab's monthly release [kickoff](/handbook/engineering/workflow/#kickoff) livestream, the PM, EM, Quality and UX leads finalize the iteration plan for the upcoming milestone.
 
 As we have a lot of involvement with our stable counterparts and reliability team, we also add a section to our iteration plan to reflect any `blocking` or `relating` issues.
+
 1. The engineering team adds all `blocking` or `related` reliability issues to the iteration plan.
 1. The reliability team reviews these issues and checks feasibility and suggests changes.
 1. The reliability team commits to their issues in the iteration plan as long as:
@@ -268,7 +269,6 @@ At GitLab, our release post policy specifies that deprecation notices need to be
 1. The product manager uses the list of issues to create the deprecation notices. Our goal is to start announcing deprecations no later than six cycles before the next major release.
 1. The product manager will continue to include the deprecation notices in all release post entries up to and including the major release where the features will be fully deprecated or removed.
 
-
 ## Issue Health Status Definitions
 
 - **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
@@ -361,4 +361,3 @@ As part of the pre-sales and post-sales engagement, your customer may have in-de
 ## Team Resources
 
 See [dedicated page](/handbook/engineering/development/ops/verify/runner/team-resources/#overview).
-

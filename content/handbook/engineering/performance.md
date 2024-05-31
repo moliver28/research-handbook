@@ -12,6 +12,7 @@ title: "Performance"
 ## Performance Facets
 
 We categorize performance into 3 facets
+
 1. [Backend](#backend-performance)
 1. [Frontend](#frontend-performance)
 1. [Infrastructure](#infrastructure-performance)
@@ -23,6 +24,7 @@ Backend performance is scoped to response time of API, Controllers and command l
 **DRI**: [Christopher Lefelhocz](https://gitlab.com/clefelhocz1), VP of Development.
 
 Performance Indicators:
+
 - [Memory Utilization (backlog)](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8841)
 
 ### Frontend performance
@@ -32,6 +34,7 @@ Frontend performance is scoped to response time of the visible pages and UI comp
 **DRI**: [Christopher Lefelhocz](https://gitlab.com/clefelhocz1), VP of Development.
 
 Performance Indicators:
+
 - [Largest Contentful Paint (LCP)](/handbook/engineering/development/performance-indicators/#largest-contentful-paint-lcp)
 
 ### Infrastructure performance
@@ -41,10 +44,10 @@ Infrastructure performance is scoped to the performance of GitLab SaaS Infrastru
 **DRI**: [Steve Loyd](https://gitlab.com/sloyd), VP of Infrastructure.
 
 Performance Indicators:
+
 - [GitLab.com known application scaling bottlenecks](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-known-application-scaling-bottlenecks)
 
 ## Other Related Pages
-
 
 - [GitLab.com (infra) Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - [Monitoring GitLab.com](/handbook/engineering/monitoring/)
@@ -54,7 +57,7 @@ Performance Indicators:
 
 **Meta issue** to track various issues listed here is at on the [infrastructure tracker](https://gitlab.com/gitlab-com/infrastructure/issues/2373).
 
-# GitLab's Application performance
+## GitLab's Application performance
 
 ## Measurement
 
@@ -118,7 +121,6 @@ The URLs from GitLab.com listed in the table below form the basis for measuring 
 
 If you activate the `runs` toggle you will have annotations with links to all full reports. Currently we are running measurements every 2 hours.
 
-
 <!-- issue links -->
 [GitLab FOSS Issue List]: https://gitlab.com/gitlab-org/gitlab-foss/issues
 [GitLab Issue List]: https://gitlab.com/gitlab-org/gitlab/issues
@@ -170,7 +172,6 @@ If you activate the `runs` toggle you will have annotations with links to all fu
 
 All items that start with the tachometer (<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>) symbol represent a step in the flow that we _measure_. Wherever possible, the tachometer icon links to the relevant dashboard in our [monitoring](/handbook/engineering/monitoring/). Each step in the listing below links back to its corresponding entry in the [goals table](#web-goals-table).
 
-
 Consider the scenario of a user opening their browser, and surfing to their dashboard by typing `gitlab.com/dashboard`, here is what happens:
 
 1. <a name="request-reaches-BE"></a> [**User request**](#tb-request-reaches-BE)
@@ -196,7 +197,7 @@ Consider the scenario of a user opening their browser, and surfing to their dash
        In this case, since we are tracking a web request, it would be the NGINX box in the
          "Web" box in the [production-architecture diagram](/handbook/engineering/infrastructure/production/architecture/); but alternatively the request can come in via API or a git command
          from the command line, hence the API, and git "boxes" in that diagram.
-        - Since all of our servers are in ONE Azure VNET, the overhead of SSL
+       - Since all of our servers are in ONE Azure VNET, the overhead of SSL
           handshake and teardown between HAProxy and NGINX should be close to negligible.
     1. <a name="NGINX-buffer"></a> [NGINX buffers request](#tb-NGINX-buffer) (not measured)
        - NGINX gathers all network packets related to the request ("request
@@ -327,12 +328,11 @@ Consider the scenario of a user opening their browser, and surfing to their dash
       is called by the gitlab.com/username URL; which would lead to slower First
       Paint since it simply involves more calls to the database etc.
 
-
 ---
 
 ### Git Commit Push
 
-First read about the [steps in a web request](#flow-of-web-request) above, then pick up the thread here.
+First read about the [steps in a web request](#web-request-1) above, then pick up the thread here.
 
 After pushing to a repository, e.g. from the _web UI_:
 
@@ -354,9 +354,10 @@ After pushing to a repository, e.g. from the _web UI_:
 
 ### Web Request
 
-Consider the scenario of a user opening their browser, and surfing to their favorite URL on `GitLab.com`. The steps are described in the section on ["web request"](#flow-of-web-request). In this table, the steps are measured and goals for improvement are set.
+Consider the scenario of a user opening their browser, and surfing to their favorite URL on `GitLab.com`. The steps are described in the section on ["web request"](#web-request-1). In this table, the steps are measured and goals for improvement are set.
 
 Guide to this table:
+
 - All times are reported in milliseconds.
 - `# per request` : average number of times this step occurs per request. For instance, an average "transaction" may require [0.2 SQL calls, 0.4 git calls, 1 call to cache](https://docs.google.com/spreadsheets/d/15mhXjwkx2lOXJps7lsp_o0zbwGSyOdYOTc8-McwBy0A/pubhtml), and 30 nested views to be built.
 - `p99 Q2-17`: the p99 timing (in milliseconds) at the end of Q2, 2017
@@ -400,12 +401,11 @@ Guide to this table:
 |<a name="tb-reaching-fullyLoaded"></a>[Fully Loaded](#reaching-fullyLoaded) (see [note](#note-fl-time)) |  |   6093 - 14003   |  [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |  not specified  |   [Enable webpack code splitting](https://gitlab.com/gitlab-org/gitlab-ce/issues/33391) |
 |---------------------------------------------------------|---------------|---------|---------|--------------|------------------------|
 
-
 **Notes:**
+
 - 1\. <a name="note-blackbox"></a> The range here corresponds to the range in First Byte times of the 4 sample URLs provided in the First Byte [table](#first-byte). However, based on all _non-staging_ URL's measured in [this dashboard](https://dashboards.gitlab.net/dashboard/db/gitlab-web-status?refresh=1m&panelId=14&fullscreen&orgId=1&from=now-90d&to=now), between 2017-03-30 and 2017-06-28, the number would be 3,833 ms.
 - 2\. <a name="note-fp-times"></a> The range here corresponds to the range in Speed Indices of the 4 sample URLs provided in the Speed Index table.
 - 3\. <a name="note-fl-time"></a> The range here corresponds to the range in Fully Loaded times of the 4 sample URLs provided in the Speed Index table.
-
 
 ### Git Commit Push
 
@@ -414,6 +414,7 @@ _Table to be built; merge requests welcome!_
 ## Modifiers
 
 For any performance metric, the following modifiers can be applied:
+
 - **User**: how a _real_  GitLab user would experience and measure the time.
 - **Internal**: the time as measured from _inside_  GitLab.com's infrastructure (the boundary is defined as being at the "network | Azure load balancer" interface).
 - **External**: the time as measured from any specified point outside GitLab.com's infrastructure; for example a DO box with Prometheus monitoring or a browser in a specified geo-region on a specified network speed.
@@ -442,7 +443,6 @@ Timing history for First Byte are listed in the table below (click on the tachom
 <!-- Repo links -->
 [GitLab CE repo]: https://gitlab.com/gitlab-org/gitlab-ce/tree/master
 [1076]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html
-
 
 ### Internal
 
@@ -486,7 +486,6 @@ For database related timings you can also use the
 This is the dashboard primarily used by the Database Team to determine the AP
 label to use for database related performance work.
 
-
 ## Database Performance
 
 Some general notes about parameters that affect database performance, at a very crude level.
@@ -497,8 +496,8 @@ Some general notes about parameters that affect database performance, at a very 
 - A single HTTP request will execute a single controller. A controller in turn will usually only use one available database connection, though it may use 2 if first a read was performed, followed by a write.
    - pgbouncer allows up to 150 concurrent PostgreSQL connections. If this limit
 is reached it will block pgbouncer connections until a PostgreSQL connection becomes available.
-    - PostgreSQL allows up to 300 connections (connected, whether they're active or not doesn't matter). Once this limit is reached new connections will be rejected, resulting in an error in the application.
-    - When the number of processes > number of cores available on the database servers, the CPU constantly switches cores to run the requested processes; this contention for cores can lead to degraded performance.
+   - PostgreSQL allows up to 300 connections (connected, whether they're active or not doesn't matter). Once this limit is reached new connections will be rejected, resulting in an error in the application.
+   - When the number of processes > number of cores available on the database servers, the CPU constantly switches cores to run the requested processes; this contention for cores can lead to degraded performance.
 - As long as the database CPU load < 100% (<https://dashboards.gitlab.net/dashboard/db/postgresql-overview?refresh=5m&orgId=1&from=now%2Fw&to=now&panelId=13&fullscreen>), then in theory the database can handle more load without adding latency. In practice database specialists like to keep CPU load below 50%.
     - As an example of how load is determined by underlying application design:
        DB CPU percent used to be lower (20%, prior to 9.2, then up to 50-75% [when 9.2 RC1 went live](https://gitlab.com/gitlab-org/gitlab-ce/issues/32536), then back down to 20% by the time 9.2 was released.

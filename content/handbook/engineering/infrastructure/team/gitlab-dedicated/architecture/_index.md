@@ -5,13 +5,6 @@ title: "GitLab Dedicated Architecture"
 
 ![GitLab Dedicated Group logo](./img/dedicated_team_logo.png)
 
-
-
-
-
-
-
-
 ## Architecture
 
 This page collects a set of architectural documents and diagrams for GitLab Dedicated.

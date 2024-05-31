@@ -43,7 +43,7 @@ As part of the team tasks, team has responsibility towards the following nodes/t
   and it is the responsibility of the team to update them in case any of them
   changes. To do so:
 
-  ```
+  ```console
   bundle exec rake infrastructure:known_hosts
   git add support/known_hosts
   git commit -m "Update SSH keys"

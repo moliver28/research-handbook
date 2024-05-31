@@ -38,6 +38,7 @@ graph LR;
 ```
 
 Three boards are used to monitor this process
+
 - [Plan](https://gitlab.com/groups/gitlab-org/-/boards/1181258)
 - [Schedule](https://gitlab.com/groups/gitlab-org/-/boards/981066)
 - [Build](https://gitlab.com/groups/gitlab-org/-/boards/1181257)
@@ -77,6 +78,7 @@ It is also important to note that not all POCs will be successful, and that is O
 successful, and the POC will have saved us from investing significant time in a solution that will not meet our needs. The goal is to fail fast!
 
 The PM and the engineer will work together to create all of the [work items](../agile-work-items.html) required to build the solution. These items account for
+
 - Documentation
 - Testing
 - Post-release items such as rake tasks, migrations or monitoring issues
@@ -97,6 +99,7 @@ On an ongoing basis, the PM and EM will meet to discuss the work that is current
 In this process, prepared items will be given the label "geo::active", which will pull items into the Build board.
 
 Part of the ongoing prioritization and scheduling effort includes providing answers to these questions
+
 1. What is active now?
 1. What needs to be active next?
 1. Are there any deliverables?
@@ -317,6 +320,7 @@ Every month, a Geo engineer is assigned to be the DRI for doing the technical as
 A different backend engineer is assigned to triage rotation each month and we schedule monthly shifts 3 to 6 months in advance.
 
 Process summary:
+
 - Every month, a slack reminder in #geo-lounge channel will let the group know that a new shift is starting for technical assessment triage.
 - Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
 - The outgoing DRI should connect with the incoming DRI and transfer the knowledge of the current bug issues being triaged. Anything still `awaiting feedback` should be highlighted and discussed.
@@ -372,6 +376,7 @@ The details of this process is documented in our [Geo Team Retrospectives](../re
 "Pull from the right". That means, start at the right hand side of the build board, and move towards the left.
 
 In order, that means:
+
 - Can you help anyone with reviews?
 - Can you unblock anyone in development?
 - Pick from the top of the "ready for development" column on the [Kanban Build board](https://gitlab.com/groups/gitlab-org/-/boards/1181257?milestone_title=%23started&&label_name[]=Geo).

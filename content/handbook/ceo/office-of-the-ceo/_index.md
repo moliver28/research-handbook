@@ -73,7 +73,7 @@ Examples of an under-resourced project:
 There may be projects with no clear leader for a myriad of reasons, including that we're still hiring the point person or the lead is on leave.
 Because of the team's ability to come up to speed quickly, they may be tasked with something totally out of their domain with the expectation that they bring their leadership experience to the table, will do the work to make good decisions, and will lean on team members who are subject-matter experts.
 
-For example, there has historically been no DRI for the [handbook or related content sites]({{< ref content-websites >}}). As it became clear that this was a GitLab priority, but no function planned to prioritize this within the coming year, the Office of the CEO stepped in to take on handbook ownership.
+For example, there has historically been no DRI for the [handbook or related content sites](/handbook/about/maintenance/). As it became clear that this was a GitLab priority, but no function planned to prioritize this within the coming year, the Office of the CEO stepped in to take on handbook ownership until an owner could be identified.
 
 Examples of projects with no clear leader:
 
@@ -266,7 +266,7 @@ Meeting Cleanup Day is intentionally near the start of the new fiscal year. The 
 
 A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with JiHu. Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
 
-For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu] (https://about.gitlab.com/pricing/faq-jihu/#customer-details):
+For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu](https://about.gitlab.com/pricing/faq-jihu/#customer-details):
 
 1. After the Customer's request of novation from GitLab to JiHu is approved, the member of the Office of the CEO opens a new issue as soon as the contract is issued, and assigns the issue to GitLab Accounting department.
 1. This issue triggers the Accounting development to update SFDC, Zuora and NS.

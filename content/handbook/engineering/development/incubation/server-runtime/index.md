@@ -70,13 +70,11 @@ The most recent weekly update for the Server Runtime SEG can be found at:
 | 2022-10-19 | Custom Control Plane - Adding Authentication, opening ports, attaching volumes    | [https://youtu.be/GFM0xK7Hz_I](https://youtu.be/GFM0xK7Hz_I){:target="_blank"} |
 | 2022-10-12 | What is server runtime. Starting work on the custom control plane.                | [https://youtu.be/yrhJo_wUuIM](https://youtu.be/yrhJo_wUuIM){:target="_blank"} |
 
-
 ## Server Runtime Architecture
 
 ### Overview
 
 ![Server Runtime Architecture](/handbook/engineering/development/incubation/server-runtime/architecture.svg)
-
 
 Server runtime comprises of GitLab and customer managed components. GitLab manages the server side component called **KAS** and an agent, called **Agentk** runs on the customers' cluster/s.
 The Server Runtime is deployed as a module, on both, the server and the client side. AgentK makes outbound connections to KAS from the customer's k8s cluster to fetch updates. It actuates k8s resources pertinent to the runtime, such as deployment, services et cetera based on these updates. Customer hosting GitLab instances will be responsible for managing KAS while for managed GitLab.com accounts this will be managed by GitLab. GitLab can talk to KAS using a gRPC API which is accessed using the kas-gem.
@@ -146,7 +144,6 @@ sequenceDiagram
 
 Coming soon!
 
-
 ### Next steps
 
 1. Enable SSH connections for headless IDE support
@@ -157,7 +154,6 @@ Coming soon!
 
 - [Editor](/handbook/product/categories/#editor-group)
 - [Remote Development](https://about.gitlab.com/direction/create/ide/remote_development/)
-
 
 ## Getting started with Server Runtime
 

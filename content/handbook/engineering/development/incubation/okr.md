@@ -11,7 +11,6 @@ The OKR Management SEG is a [Single-Engineer Group](/handbook/company/structure/
 
 To develop Objectives & Key Results(OKR) functionality within GitLab.
 
-
 ## Philosophy
 
 To create an MVP that is:
@@ -34,7 +33,6 @@ Specific areas that we aim to address within Incubation Engineering are:
 
 See the ["Weekly Update" Issue](https://gitlab.com/gitlab-org/incubation-engineering/okr/meta/-/issues/1) for a list of all prior updates.
 
-
 ## Resources
 
 ### Product Development Group affinity
@@ -48,5 +46,3 @@ Requirements are captured in this EPIC  [https://gitlab.com/groups/gitlab-org/-/
 ### Issue Tracker
 
 All issues related to work can be found in this EPIC [https://gitlab.com/groups/gitlab-org/-/epics/7864](https://gitlab.com/groups/gitlab-org/-/epics/7864)
-
-

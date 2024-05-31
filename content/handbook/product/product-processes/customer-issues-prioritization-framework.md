@@ -1,13 +1,6 @@
 ---
-
 title: "Customer Issues Prioritization Framework"
 ---
-
-
-
-
-
-
 
 ## Context
 
@@ -23,36 +16,36 @@ The outcomes the framework is aimed at providing:
 
 - [Product Feedback](https://gitlab.com/gitlab-com/Product/-/issues/3546)
 - [Customer Success Feedback](https://gitlab.com/gitlab-com/Product/-/issues/3545)
-- [Sales Feedback](https://gitlab.com/gitlab-com/Product/-/issues/3895)  
+- [Sales Feedback](https://gitlab.com/gitlab-com/Product/-/issues/3895)
 
 ## Use cases this framework was designed to support
 
 ### Product
 
 > "What problems should I prioritize solving that would have the greatest impact on ARR retention and growth?"
-
+>
 > "How can I easily find all of the customers interested in a given issue or all of the issues a given customer cares about?"
-
+>
 > "Where should we consider investing additional resources relative to customer needs?"
-
+>
 > "Which groups are critical to retaining ARR and which are critical to growing ARR?"
-
+>
 > "How can I most easily influence global prioritization of customer related needs across all of Product?"
 
 ### Sales
 
 > "What is the ratio of net new ARR to renewable ARR that is driving product feature requests?"
-
+>
 > "How much existing account ARR is at stake vs. potential new opportunity net ARR?"
-
+>
 > "How can I communicate my prospect's needs such that they are appropriately prioritized in a timely manner?"
 
 ### Customer success
 
 > "How can I easily see and track a list of issues requested by my customers without having to manually compile and maintain a list that requires constantly check-in on when solutions are expectd to be shipped."
-
+>
 > "How can I most efficiently and effectively communicate the relative priorities of my customer's needs to Product?"
-
+>
 > "How can I raise the visibility of, and escalate appropriately, my customer's support tickets?"
 
 ## Quickstart
@@ -60,7 +53,6 @@ The outcomes the framework is aimed at providing:
 1. To view a list of requested issues by customer, stage, CSM, or category, visit the [Customer Requested Issues (Product) dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) and apply the relevant filters.
 1. To add a customer or opportunity to an open issue or epic, follow the process outlined below in ["Customer Links"](/handbook/product/product-processes/customer-issues-prioritization-framework/#customer-links).
 1. Optionally, watch the [walk-through (10m 20s)](https://www.youtube.com/watch?v=ZUxIxp_Pv5k&list=PL05JrBw4t0KrKoeXjf5Bdtapu9Cl3T7gI&index=17&pp=sAQB).
-
 
 ## Framework Inputs and Outputs
 

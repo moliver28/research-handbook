@@ -13,7 +13,7 @@ title: Meetings
 
 ## How do we lead 1-1 meetings efficiently?
 
-The Engineering Manager 1-1’s are held weekly on Tuesdays.  They are 30 minutes each in order to make an efficient usage of everyone’s time. Synchronous time at GitLab is a very valuable commodity.  It should always be regarded as an opportunity to connect, communicate and collaborate.  Working remotely, these ideas become even more important.  Consequently the time should be well respected through planning and preparation prior to the meeting.  
+The Engineering Manager 1-1’s are held weekly on Tuesdays.  They are 30 minutes each in order to make an efficient usage of everyone’s time. Synchronous time at GitLab is a very valuable commodity.  It should always be regarded as an opportunity to connect, communicate and collaborate.  Working remotely, these ideas become even more important.  Consequently the time should be well respected through planning and preparation prior to the meeting.
 
 ## Audience
 
@@ -33,6 +33,7 @@ Prior to the meeting, the Senior Manager adds additional (preferably no more tha
 
 **Engineering Manager Prep**
 Prior to the meeting, the Engineering Managers:
+
 - Complete the default template below filling in only what is applicable to them for the current week.
 - Review Action items (Issue Boards)  and make updates as necessary
 - Respond async to any questions that have been raised by the Senior Manager
@@ -72,9 +73,9 @@ Another iteration of the 1-1 meeting was recommended collectively by the Create 
 
 - Collaboration:
     - Async discussions occur about a specific action item in the issue
-    - We are dogfooding GitLab Issues  
+    - We are dogfooding GitLab Issues
 - Results
-    - Due to the transparency of this process and the ability of the Engineering Managers to set their due dates leads to better results.  
+    - Due to the transparency of this process and the ability of the Engineering Managers to set their due dates leads to better results.
     - Engineers have a clear understanding of the priorities as the Senior Manager uses priority labels resulting in the most important action items being completed first
 - Efficiency
     - Tracking these action items using Issue Boards gives a visual representation of the current activities for each Engineering   Manager which is much more efficient than scanning through a document for both the Engineering Manager and the Senior Manager
@@ -91,32 +92,19 @@ Throughout a given day there are many distractions. There are often times I woul
 The feedback is always given in the 1-1 document and highlighted as:
 
 **Appreciation:**
+
 - Thank you, job well done.
 
 **Evaluation:**
+
 - The results you have shown here_________ are not meeting the expectations for your position. These are the expected behaviors for someone in your role ____________________
 
 **Coaching:**
+
 - If you were to make this change, __________, you would improve on this Credit Value ____________
 
 It is important to be transparent when you are giving feedback and the type of feedback you are giving. Setting that expectation is key to the receiver understanding how to process the feedback.  Oftentimes team members say that they are not getting enough feedback but in truth they are saying that they are not receiving enough appreciation feedback.  This level of transparency is important so that the team members are receiving the appreciation, evaluation and coaching they need to grow professionally.
 
-
-
-
-
-
-
-
-
-
-
-
 title: Meetings
+
 ---
-
-
-
-
-
-

@@ -14,9 +14,10 @@ This initiatives objectives are tied to GitLab OKRs (Objectives and Key Results)
 
 ### OKRs (Objectives and Key Results)
 
+<!-- markdownlint-disable MD042 -->
 1. OKR title goes here ([link to current OKR for the quarter](#))
 2. OKR title goes here ([link to current OKR for the quarter](#))
-3.OKR title goes here ([link to current OKR for the quarter](#))
+3. OKR title goes here ([link to current OKR for the quarter](#))
 
 ## Team
 
@@ -74,22 +75,22 @@ Identify potential risks and strategies for mitigation, preparing the team for u
 ## Effective Communication Channels
 
 - **Team Meetings:**
- - Regularly scheduled meetings to discuss progress, challenges, and upcoming tasks.
- - **Frequency:** Weekly on Mondays at 10 AM UTC.
- - **Agenda:** Link to Doc.
+    - Regularly scheduled meetings to discuss progress, challenges, and upcoming tasks.
+    - **Frequency:** Weekly on Mondays at 10 AM UTC.
+    - **Agenda:** Link to Doc.
 
 - **Slack Channel:**
- - Dedicated Slack channel for ad hoc communication, quick questions, and announcements.
- - Team members are encouraged to use `@mentions` for specific communication.
+    - Dedicated Slack channel for ad hoc communication, quick questions, and announcements.
+    - Team members are encouraged to use `@mentions` for specific communication.
 
 - **Status Report Issues:**
- - Create an issue in the project repository for reporting status updates, achievements, and challenges. You can create either one issue ([1](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/85), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/361755#note_975547547)) that is updated at a specific cadence or different issues for every update ([1](https://gitlab.com/gitlab-com/create-stage/code-creation/announcements/-/issues/?sort=title_asc&state=all&first_page_size=20),2,3). Some people prefer to post status reports in Slack, however, the problem with that is that you lose the history in Slack and it is not easy to search.
-The preference is to use get with the product and dog food the product and then you can link from Slack to the GitLab issue.
- - Link to Issue Board / Issue Lists
- - Link to Issue Lists
- - **Feedback Gathering Epic:**
- - Link to an epic dedicated to gathering internal and external feedback.
- - Regularly check for feedback on features, user experience, and overall progress.
+    - Create an issue in the project repository for reporting status updates, achievements, and challenges. You can create either one issue ([1](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/85), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/361755#note_975547547)) that is updated at a specific cadence or different issues for every update ([1](https://gitlab.com/gitlab-com/create-stage/code-creation/announcements/-/issues/?sort=title_asc&state=all&first_page_size=20),2,3). Some people prefer to post status reports in Slack, however, the problem with that is that you lose the history in Slack and it is not easy to search.
+    The preference is to use get with the product and dog food the product and then you can link from Slack to the GitLab issue.
+    - Link to Issue Board / Issue Lists
+    - Link to Issue Lists
+    - **Feedback Gathering Epic:**
+    - Link to an epic dedicated to gathering internal and external feedback.
+    - Regularly check for feedback on features, user experience, and overall progress.
 
 ## Metrics/Dashboards/Charts
 
@@ -103,7 +104,6 @@ The preference is to use get with the product and dog food the product and then 
 
 1. [Grafana Board 1](#)
 1. [Kibana Graph 1](#)
-
 
 ## Labels
 
@@ -129,6 +129,7 @@ Create separate Epics for Quality, Security, SRE, TW or any other counterparts y
 | February 1, 2025   | March 15, 2025    | March 25, 2025    | Security              | [Implement and strengthen security measures to safeguard the integrity and confidentiality of the system.](#) | Implemented required security protocols, conducted successful penetration tests. |
 | March 1, 2025      | April 5, 2025     | April 15, 2025    | SRE                   | [Focus on Site Reliability Engineering (SRE) practices to enhance system stability, performance, and availability.](#) | Achieved agreed-upon system reliability metrics and improved incident response. |
 | April 1, 2025      | May 5, 2025       | May 15, 2025      | Documentation         | [Improve and maintain comprehensive documentation for better understanding and ease of collaboration.](#) | Updated documentation with new features, clear guidelines, and improved user manuals. |
+<!-- markdownlint-enable MD042 -->
 
 ## Feedback
 

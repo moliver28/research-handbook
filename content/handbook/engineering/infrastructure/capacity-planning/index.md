@@ -12,6 +12,8 @@ The forecasting tool generates capacity warnings which are converted to issues a
 
 For GitLab.com capacity planning, a [report is published](https://gitlab-com.gitlab.io/gl-infra/capacity-planning-trackers/gitlab-com/) and any predicted saturation events result in an issue on the [capacity planning issue tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/boards/2816983).
 
+The capacity planning is part of the capacity management policy which can be found on [the monitoring policy page](/content/handbook/engineering/gitlab-com/policies/monitoring/).
+
 ## Tools
 
 We use and develop [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland), which is our capacity forecasting tool.
@@ -71,7 +73,6 @@ Therefore, the recommended practice when including Tamland data is:
 
 1. On public facing projects, turn on confidentiality on issues or comments
 1. Recordings published to GitLab Unfiltered must be labeled *private*
-
 
 ## GitLab.com Capacity Planning
 
@@ -156,7 +157,6 @@ The prioritization framework uses an [Eisenhower Matrix](https://todoist.com/pro
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Quadrant 1: Do**<br>*Urgent, Important*<br>Reactive: Non-horizontally scalable resources forecasted to saturate 100% in 90 days.      | **Quadrant 2: Decide**<br>*Less Urgent, Important*<br>Proactive: Non-horizontally scalable resources forecasted to violate hard SLO in 90 days. |
 | **Quadrant 3: Delegate**<br>*Urgent, Less Important*<br>Reactive: Horizontally scalable resources forecasted to saturate 100% in 90 days. | **Quadrant 4: Deny**<br>*Less Urgent, Less Important*<br>Proactive: Horizontally scalable resources forecasted to violate hard SLO in 90 days.  |
-
 
  **Urgent** is based on forecast threshold (e.g. `100% saturation` vs. `hard SLO violation`) and **important** is based on scalable resources (e.g. `non_horizontal` vs. `horizontal`). The following resources are available for prioritization:
 

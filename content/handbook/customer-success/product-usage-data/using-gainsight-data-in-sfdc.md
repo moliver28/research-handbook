@@ -6,15 +6,6 @@ description: "This page is intended for the broader GitLab team to know what Gai
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
 ## Overview
 
 This page is intended for the broader GitLab team to know what Gainsight metrics, fields, entries, and other attributes are available to them in Salesforce. Example: with syncing customer health to Salesforce, it is important to know what those fields are and how to use them.
@@ -74,24 +65,24 @@ For more information on general Product Usage Reporting, see [Using Product Usag
 
 | Field Name | Description | Reference |
 |:---|:---|:---|
-| Company Person Inactive Contact | Allows CSMs to identify inactive contacts |
-| Company SFDC Account Id | Id associated with a customer account in Salesforce | [Link](/handbook/sales/field-operations/customer-success-operations/gainsight/#salesforce-connector)  |  |
-| Email | Company Person’s Email Id | [Link](/handbook/sales/field-operations/customer-success-operations/gainsight/#salesforce-connector)  |  |
-| First Name | Company Person’s  First Name |  |  |
-| GitLab Role | Determines the level of access assigned to any specific user in a business | [Link](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)  |  |
-| GS Email Opt Out | The Contact’s global opt out flag that syncs between Gainsight, Salesforce, and Marketo |  |  |
-| Initial Source | Lead/Contact Source |  |  |
-| Last Name | Contact Last Name |  |  |
-| SFDC Contact ID | Contact Identifier  |  |  |
-| Title | Contact’s Job Title |  |  |
+| Company Person Inactive Contact | Allows CSMs to identify inactive contacts | |
+| Company SFDC Account Id | Id associated with a customer account in Salesforce | [Link](/handbook/sales/field-operations/customer-success-operations/gainsight/#salesforce-connector)  |
+| Email | Company Person’s Email Id | [Link](/handbook/sales/field-operations/customer-success-operations/gainsight/#salesforce-connector)  |
+| First Name | Company Person’s  First Name |  |
+| GitLab Role | Determines the level of access assigned to any specific user in a business | [Link](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)  |
+| GS Email Opt Out | The Contact’s global opt out flag that syncs between Gainsight, Salesforce, and Marketo |  |
+| Initial Source | Lead/Contact Source |  |
+| Last Name | Contact Last Name |  |
+| SFDC Contact ID | Contact Identifier  |  |
+| Title | Contact’s Job Title |  |
 
 ## Activities
 
 | Field Name | Description | Reference |
 |:---|:---|:---|
-| Program Emails | Some of the Program Emails can be found cataloged within the Account Page > Activity History section in SFDC. There you can see the log of the Email Subject Line & see the `Assigned to` field = “Gainsight Integration” |  |  
-| Survey Results | These surveys are used to measure customer loyalty, satisfaction, and enthusiasm with GitLab and can act as an early warning system about a customer’s adoption.  | [Link](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/)|  
-| Timeline Activities  | The Timeline view in Gainsight gives us a chronological overview of our activities with the customer. It's a valuable tool to see our interactions and progression on success efforts over time. | [Link](/handbook/customer-success/csm/gainsight/timeline/#how-to-log-activities-in-timeline)  |  
+| Program Emails | Some of the Program Emails can be found cataloged within the Account Page > Activity History section in SFDC. There you can see the log of the Email Subject Line & see the `Assigned to` field = “Gainsight Integration” |  |
+| Survey Results | These surveys are used to measure customer loyalty, satisfaction, and enthusiasm with GitLab and can act as an early warning system about a customer’s adoption.  | [Link](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/)|
+| Timeline Activities  | The Timeline view in Gainsight gives us a chronological overview of our activities with the customer. It's a valuable tool to see our interactions and progression on success efforts over time. | [Link](/handbook/customer-success/csm/gainsight/timeline/#how-to-log-activities-in-timeline)  |
 
 ## Customer Subscriptions
 

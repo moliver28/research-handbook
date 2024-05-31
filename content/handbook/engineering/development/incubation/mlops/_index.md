@@ -55,9 +55,3 @@ We are keeping a backlog for potential exploration areas. Anyone is welcomed to 
 | [Analysis Repository, GitLab Pages for Data Science](https://gitlab.com/groups/gitlab-org/incubation-engineering/mlops/-/epics/7) | 1     | 2      | 1          | 2      | 1     | 3               | 6     |
 | [Improve pipeline usage for ML Use cases](https://gitlab.com/groups/gitlab-org/-/epics/7681)                                      | 3     | 1      | 3          | 3      | 3     | 1               | 2     |
 | [DVC Integration/Data Registry](https://gitlab.com/gitlab-org/gitlab/-/issues/413612)                                             | -     | -      | -          | -      | -     | -               | -     |
-
-
-
-
-
-

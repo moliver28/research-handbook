@@ -44,6 +44,7 @@ Our priorities should follow [overall guidance for Product](/handbook/product/pr
 {{< /tableau >}}
 
 As a general guideline, we try to plan each release in this way:
+
 - **Bugs**: 25%
 - **Features**: 50%
 - **Maintenance**: 25%
@@ -53,6 +54,7 @@ These targets will be [reviewed monthly](/handbook/product/product-processes/) a
 #### Organizing the work
 
 We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
+
 1. `workflow::problem validation` - needs clarity on the problem to solve
 1. `workflow::design` - needs a clear proposal (and mockups for any visual aspects)
 1. `workflow::solution validation` - needs refinement and acceptance from engineering
@@ -307,6 +309,7 @@ Documentation is a crucial part of our [definition of done](https://docs.gitlab.
 Features within the Optimize scope require appropriate data in order to verify functionality and test during development. Data seeding scripts should be created and/or updated as part of our development process.
 
 Considerations for data seeding scripts:
+
 - Ensure scripts are parameterized allowing specification of group or project ID where relevant
 - Ensure scripts can be run repeatedly without failure
 
@@ -326,7 +329,6 @@ Agenda documents and recordings can be placed in the [shared Google drive](https
 Meetings that are not 1:1s or covering confidential topics should be added to the Manage Shared calendar.
 
 All meetings should have an agenda prepared at least 12 hours in advance. If this is not the case, you are not obligated to attend the meeting. Consider meetings canceled if they do not have an agenda by the start time of the meeting.
-
 
 ## Group Members
 

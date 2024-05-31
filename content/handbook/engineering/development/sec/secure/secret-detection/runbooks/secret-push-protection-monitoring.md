@@ -1,14 +1,12 @@
 ---
-title: "Pre-receive secret detection monitoring"
+title: "Secret Push Protection Monitoring"
 ---
-
-> _NOTE: This is still a **draft**, more information will be added as the dashboard evolves._
 
 ### When to use this runbook?
 
-This runbook is intended to be used when monitoring the [pre-receive secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
+This runbook is intended to be used when monitoring the [secret push protection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
 
-* [Pre-receive Secret Detection – Overview Dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1)
+* [Secret Push Protection – Overview Dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1)
 
 ### What to monitor?
 
@@ -54,7 +52,7 @@ sequenceDiagram
         Workhorse/GitLab Shell->>+User: outcome of push
     end
     Rails->>+Gitaly: ListBlobs or ListAllBlobs
-    Note over Gitaly, Rails: depends on quarantine directory existnece
+    Note over Gitaly, Rails: depends on quarantine directory existence
     Gitaly->>+Rails: grpc
     Rails->>+gitlab-secret_detection: gitlab-secret_detection::Scan
     alt no secret detected
@@ -110,7 +108,7 @@ This runbook focuses primarly on the Prometheus metrics available in Grafana, bu
 
 ### How to identify and mitigate a reliability or performance issue with the feature?
 
-The [overview dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1) is the main dashboard we have built to monitor the feature. That's where anyone should start to look when trying to identify reliability or performance issues.
+The [overview dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1) is the main dashboard we have built to monitor the feature. That's where anyone should start to look when trying to identify reliability or performance issues.
 
 The dashboard itself is split into 4 rows (or sections), with each containing a number of panels as below.
 
@@ -124,11 +122,11 @@ The section can be used to ensure there are no performance degradations related 
 
 ##### gitlab-shell
 
-**[RPS (Requests Per Seconds)](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=17)**
+**[RPS (Requests Per Seconds)](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=17)**
 
 This panel displays average number of requests per second (RPS) made to gitlab-shell over time. The panel can be used to monitor request rates and understand if there's a performance or scalability issue. Use the link for more detailed overview of this metric. Note: this isn't specific to `git-receive-pack` command.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_component_ops:rate_5m`
 * Label Filters:
@@ -142,11 +140,11 @@ This panel displays average number of requests per second (RPS) made to gitlab-s
 * Legend:
   * RPS
 
-**[Total Established Gitaly Connections](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=15)**
+**[Total Established Gitaly Connections](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=15)**
 
 This panel displays the total number of Gitaly connections that have been established by gitlab-shell at a given time. This panel can be used to determine if there's a sudden drop in connections between both components, which may indicate a performance or an availability issue. Note: this isn't specific to `git-receive-pack` command.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_shell_gitaly_connections_total`
 * Label Filters:
@@ -158,11 +156,11 @@ This panel displays the total number of Gitaly connections that have been establ
 * Legend:
   * Auto
 
-**[Established SSH Sessions](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=22)**
+**[Established SSH Sessions](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=22)**
 
 This panel displays the minimum number of established SSH sessions at a given time. The panel can be used to understand if there's an availability issue together with the panel adjacent to it which shows how the maximum number of SSH sessions that failed to establish at a given time. Note: this isn't specific to `git-receive-pack` command.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_sli:shell_sshd_sessions:total`
 * Label Filters:
@@ -174,11 +172,11 @@ This panel displays the minimum number of established SSH sessions at a given ti
 * Legend:
   * Auto
 
-**[Failed SSH Sessions](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=19)**
+**[Failed SSH Sessions](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=19)**
 
 This panel displays the maximum number of failed SSH sessions at a given time. The panel can be used to understand if there's an availability issues together with the panel adjacent to it which shows how the minimum number of SSH sessions established over a given time. Note: this isn't specific to `git-receive-pack` command.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_sli:shell_sshd_sessions:errors_total`
 * Label Filters:
@@ -191,11 +189,11 @@ This panel displays the maximum number of failed SSH sessions at a given time. T
 * Legend:
   * Auto
 
-**[Established Session Average Duration](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=27)**
+**[Established Session Average Duration](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=27)**
 
 This panel displays the average duration of establish SSH sessions summed up over a range of 24 hours. The panel can be used to determine if there's an increase in the duration of a git pull/push over SSH which may indicate a performance or availability issue. Note: this isn't specific to `git-receive-pack` command.
 
-*Panel Information*
+_Panel Information_
 
 * Metrics:
     * `gitlab_shell_sshd_session_established_duration_seconds_sum`
@@ -211,11 +209,11 @@ This panel displays the average duration of establish SSH sessions summed up ove
 * Legend:
   * `{{label_name}}`
 
-**[All Sessions Average Duration](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=20)**
+**[All Sessions Average Duration](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=20)**
 
 This panel displays the average duration of all SSH sessions (whether established or failed) summed up over a range of 24 hours. The panel can be used to determine if there's an increase in the duration of a git pull/push over SSH which may indicate a performance or availability issue. Note: this isn't specific to `git-receive-pack` command.
 
-*Panel Information*
+_Panel Information_
 
 * Metrics:
     * `gitlab_shell_sshd_session_duration_seconds_sum`
@@ -233,11 +231,11 @@ This panel displays the average duration of all SSH sessions (whether establishe
 
 ##### gitlab-sshd
 
-**[SLI Apdex](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=24)**
+**[SLI Apdex](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=24)**
 
 This panel displays the application performance index (Apdex) for the `gitlab-sshd` SSH daemon/server. This Service Level Indicator (SLI) averages close to 99.9%, most of the time but a drop in the indicator could point to an outage or degradation. Use the link for more detailed overview of this metric. Note: this isn't specific to `git-receive-pack` command.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_component_apdex:ratio_5m`
 * Label Filters:
@@ -251,11 +249,11 @@ This panel displays the application performance index (Apdex) for the `gitlab-ss
 * Legend:
   * Apdex
 
-**[SLI Error Ratio](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=25)**
+**[SLI Error Ratio](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=25)**
 
 This panel displays the max ratio of errors clamped to maximum value received for the `gitlab-sshd` SSH daemon/server. This Service Level Indicator (SLI) averages close to 0.01%, most of the time but an increase in the indicator could point to an outage or degradation. Use the link for more detailed overview of this metric. Note: this isn't specific to `git-receive-pack` command.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_component_errors:ratio_5m`
 * Label Filters:
@@ -271,7 +269,7 @@ This panel displays the max ratio of errors clamped to maximum value received fo
 * Legend:
   * Error %
 
-**[SLI RPS (Requests Per Second)](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=26)**
+**[SLI RPS (Requests Per Second)](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=26)**
 
 This panel displays average number of requests per second (RPS) made to `gitlab-sshd` SSH daemon/server over time. The panel can be used to monitor request rates and understand if there's a performance or scalability issue. Use the link for more detailed overview of this metric. Note: this isn't specific to `git-receive-pack` command.
 
@@ -293,7 +291,7 @@ This section monitors the stability of certain operations related to the feature
 
 The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a `git push` operation is carried out over HTTP/S.
 
-**[Processed `/.git/git-receive-pack` Requests](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=2)**
+**[Processed `/.git/git-receive-pack` Requests](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=2)**
 
 This panel displays the number of HTTP requests that have been processed by `workhorse` over time, increasing in range of 24 hours. The panel partitions these requests by the HTTP verb/method and response code. This panel can be used to determine if the amount of `git-receive-pack` requests with a response code that isn't `200` had increased recently, indicating an issue with processing such requests.
 
@@ -313,7 +311,7 @@ _Panel Information_
 * Legend:
   * `{{code}} | {{method}}`
 
-**[Total Established Gitaly Connections](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=6)**
+**[Total Established Gitaly Connections](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=6)**
 
 This panel displays the total number of `Gitaly` connections that have been established by `workhorse` at a given time. This panel can be used to determine if there's a sudden drop in connections between both components, which may indicate a performance or an availability issue.
 
@@ -329,7 +327,7 @@ _Panel Information_
 * Legend:
   * `{{status}}`
 
-**[Average Latency for `/.git/git-receive-pack` Request [All Nodes]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=7)**
+**[Average Latency for `/.git/git-receive-pack` Request [All Nodes]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=7)**
 
 This panel displays the average latency (duration) in seconds for the `/.git/git-receive-pack` request for all nodes running `workhorse`. This panel can be used to determine if there is an increase in response times for that specific request, which could indicate performance degradation issue if it surpassed a certain thershold.
 
@@ -350,11 +348,11 @@ _Panel Information_
 * Legend:
   * Auto
 
-**[SLI Apdex](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=29)**
+**[SLI Apdex](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=29)**
 
 This panel displays the application performance index (Apdex) for the `workhorse` component. This Service Level Indicator (SLI) averages close to 99.9%, most of the time but a drop in the indicator could point to an outage or degradation. Use the link for more detailed overview of this metric. Note: this isn't specific to `/.git/git-receive-pack` route.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_component_apdex:ratio_5m`
 * Label Filters:
@@ -368,11 +366,11 @@ This panel displays the application performance index (Apdex) for the `workhorse
 * Legend:
   * Apdex
 
-**[SLI Error Ratio](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=30)**
+**[SLI Error Ratio](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=30)**
 
 This panel displays the max ratio of errors clamped to maximum value received for `workhorse`. This Service Level Indicator (SLI) averages close to 0.001%, most of the time but an increase in the indicator could point to an outage or degradation. Use the link for more detailed overview of this metric. Note: this isn't specific to `/.git/git-receive-pack` route.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_component_errors:ratio_5m`
 * Label Filters:
@@ -388,7 +386,7 @@ This panel displays the max ratio of errors clamped to maximum value received fo
 * Legend:
   * Error %
 
-**[SLI RPS (Requests Per Second)](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=31)**
+**[SLI RPS (Requests Per Second)](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=31)**
 
 This panel displays average number of requests per second (RPS) made to `workhorse` over time. The panel can be used to monitor request rates and understand if there's a performance or scalability issue. Use the link for more detailed overview of this metric. Note: this isn't specific to `/.git/git-receive-pack` route.
 
@@ -424,11 +422,11 @@ The section is divided into four sub-sections as follows, with most focus being 
 
 ##### GitLab Shell <=> Gitaly
 
-**[PostReceivePack – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=36)**
+**[PostReceivePack – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=36)**
 
 This panel displays the average latency on all hosts in milliseconds for calls to the `PostReceivePack` RPC, which is the RPC responsible for calling `git-receive-pack` command, that in turn executes the `PreReceiveHook`. The latter goes on to call `/internal/allowed` endpoint that runs access checks on Rails side.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitaly:grpc_server_handling_seconds:avg5m`
 * Label Filters:
@@ -441,11 +439,11 @@ This panel displays the average latency on all hosts in milliseconds for calls t
 
 ##### Workhorse <=> Gitaly
 
-**[SSHReceivePack – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=37)**
+**[SSHReceivePack – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=37)**
 
 This panel displays the average latency on all hosts in milliseconds for calls to the `SSHReceivePack` RPC, which is the RPC responsible for calling `git-receive-pack` command (for git push over SSH), that in turn executes the `PreReceiveHook`. The latter goes on to call `/internal/allowed` endpoint which runs access checks on Rails side.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitaly:grpc_server_handling_seconds:avg5m`
 * Label Filters:
@@ -460,11 +458,11 @@ This panel displays the average latency on all hosts in milliseconds for calls t
 
 ###### Gitaly / Before `/internal/allowed`
 
-**[PreReceiveHook – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=38)**
+**[PreReceiveHook – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=38)**
 
 This panel displays the average latency on all hosts in milliseconds for calls to the `PreReceiveHook` hook, that in turn calls `/internal/allowed` endpoint to runs access checks on Rails side.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitaly:grpc_server_handling_seconds:avg5m`
 * Label Filters:
@@ -477,11 +475,11 @@ This panel displays the average latency on all hosts in milliseconds for calls t
 
 ###### Gitaly / During `/internal/allowed`
 
-**[ListAllBlobs – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=10)**
+**[ListAllBlobs – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=10)**
 
 This panel displays the average latency in milliseconds for all calls to the `ListAllBlobs` RPC, which is responsible (within the context of the feature) for enumerating all blobs of a repository under a certain size limit (i.e. exactly 1MiB). This procedure is usually fast because it is mostly used with the size limit set to 0 for checking file sizes of blobs in a certain git push.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitaly:grpc_server_handling_seconds:avg5m`
 * Label Filters:
@@ -492,11 +490,11 @@ This panel displays the average latency in milliseconds for all calls to the `Li
 * Legend:
   * `{{method}}`
 
-**[ListBlobs – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=11)**
+**[ListBlobs – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=11)**
 
 This panel displays the average latency in milliseconds for all calls to the `ListBlobs` RPC, which is responsible (within the context of the feature) for enumerating all blobs of a repository under a certain size limit (i.e. exactly 1MiB), similar to `ListAllBlobs`, but it also loads up file paths for those blobs. The procedure is often slower than `ListAllBlobs` because it loads up blob contents when enumerating them.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitaly:grpc_server_handling_seconds:avg5m`
 * Label Filters:
@@ -507,11 +505,11 @@ This panel displays the average latency in milliseconds for all calls to the `Li
 * Legend:
   * `{{method}}`
 
-**[GetTreeEntries – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=9)**
+**[GetTreeEntries – Average Latency [All Hosts]](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=9)**
 
 This panel displays the average latency in milliseconds for all calls to the `GetTreeEntries` RPC, which is responsible (within the context of the feature) for retrieving blob metadata (i.e. file path and commit sha) for all blobs that were scanned and found to include a leaked secret.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitaly:grpc_server_handling_seconds:avg5m`
 * Label Filters:
@@ -524,7 +522,7 @@ This panel displays the average latency in milliseconds for all calls to the `Ge
 
 #### Rails
 
-_Placeholder, will be added soon._
+_Placeholder, will be added in an upcoming iteration._
 
 ### Where else to look for help?
 
@@ -542,7 +540,7 @@ If a panel is updated in a dashboard, please update the panel information and de
 
 If a new panel is created in a dashboard, please add the name, description, and information using the same format outlined below.
 
-```
+```markdown
 **PANEL NAME IN BOLD**
 
 A few sentences describing what the panel does and what it could be used for to identify a performance regression or reliability issue.

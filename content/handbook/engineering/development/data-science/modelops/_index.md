@@ -31,5 +31,3 @@ The following people are permanent members of the ModelOps Stage:
 
 - Tag a team member in a merge request or issue
 - Post a message in the #s_modelops Slack channel (internal only)
-
-

@@ -2,14 +2,17 @@
 aliases: /handbook/engineering/development/processes/Infra-Dev-Escalation/process.html
 title: Development Escalation Process
 ---
+{{% alert title="Quick escalation guide" color="danger" %}}
+Please use `/devoncall <incident_url>` on Slack for any escalation that meets [the criteria](#scope-of-process).
+{{% /alert %}}
 
 {{% alert title="Note" color="primary" %}}
-We use [Pagerslack](#bot-pagerslack-usage) as the primary combined with a spreadsheet(internal only) as a backup for weekday escalations. Weekend escalations rely on the spreadsheet solely.
+We use [Pagerslack](#bot-pagerslack-usage) for weekday escalations. Weekend escalations rely on the spreadsheet solely.
 {{% /alert %}}
 
 ## About This Page
 
-This page outlines the development team on-call process and guidelines for developing the rotation schedule for handling infrastructure incident escalations.
+This page outlines the development team on-call process and guidelines for developing the rotation schedule for handling incident escalations.
 
 ## Expectation
 
@@ -170,11 +173,7 @@ The on-call spreadsheet(internal only) can be found by searching [Google Drive f
 
 #### Eligibility
 
-All backend and fullstack engineers within Core Development, Expansion Development, or Core Platform who have been with the company for at least 3 months, with the exception of team members in:
-- ModelOps: AI Model Validation
-- Secure: Composition Analysis
-- Distribution: Build
-- Infra: DB Reliability Team
+All backend and fullstack engineers within Core Development, Expansion Development, or Core Platform who have been with the company for at least 3 months, with exceptions recorded in the `Excluded Team Member Emails` [sheet](https://docs.google.com/spreadsheets/d/1rCamrCMZPreBpYwbzFG9zpghtiH3KPiFYu46RbqWjXU/edit#gid=2018819732)
 
 Other general exceptions: (i.e. exempted from on-call duty)
 
@@ -186,7 +185,7 @@ Other general exceptions: (i.e. exempted from on-call duty)
     - At this point we would only be looking into countries where 1) we have legal entities, as those team members are employees or 2) countries where team members are hired as employees through one of our PEO providers. For everyone else, team members are contracted as independent contractors so general employment law would not apply.
 - Team members participating in another on-call rotation. Examples of this include a team specific rotation for a service owned by that team or in the [Engineering Incident Manager rotation](/handbook/engineering/on-call/#engineering-incident-manager).
 
-The eligibility is maintained in this [team members list(internal only)](https://drive.google.com/drive/search?q=%22Development-Team-BE%22) and the spreadsheet is refreshed automatically by our [automation script](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb).
+The eligibility is maintained in this [team members list(internal only)](https://drive.google.com/drive/search?q=%22Development-Team-BE%22) and part of the spreadsheet is refreshed automatically by our [automation script](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb).
 
 #### Nomination
 
@@ -250,14 +249,31 @@ There is additional information regarding weekend shifts, which can be found in 
  or second shift.
 - If you were involved in an incident which has been mitigated during your shift, leave a note about your involvement in the incident issue and link to it in the [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) Slack channel indicating you participated in the issue as an informational hand-off to future on-call engineers.
 
+### Development on-call DRI
+
+**Current DRI: [James Lopez](gitlab.com/jameslopez)**
+
+The development on-call DRI has the following responsibilities:
+
+1. Ensure the process and this handbook page is up to date and promptly fix any problems or answer any queries
+2. Select coordinators for the monthly schedule (at least 15 days before the new month starts) - a [tool](https://gitlab.com/jameslopez/coordinator-finder) can be used to assist with this
+3. Make sure the `IMOC Rotation emails` are up to date under the [Development-Team-BE spreadsheet](https://docs.google.com/spreadsheets/d/1rCamrCMZPreBpYwbzFG9zpghtiH3KPiFYu46RbqWjXU/edit#gid=0) and export them monthly from Pagerduty.
+4. Make sure the `Excluded Team Member Emails` are up to date under the under the [Development-Team-BE spreadsheet](https://docs.google.com/spreadsheets/d/1rCamrCMZPreBpYwbzFG9zpghtiH3KPiFYu46RbqWjXU/edit#gid=0)
+5. Keep the [on-call schedule](https://docs.google.com/spreadsheets/d/10uI2GzqSvITdxC5djBo3RN34p8zFfxNASVnFlSh8faU/edit) up to date, including Family and Friends days, other general public holidays, `Total Shift counts`, and escalation tracking
+6. Track Summit availability for any future Summits in the [Development-Team-BE spreadsheet](https://docs.google.com/spreadsheets/d/1rCamrCMZPreBpYwbzFG9zpghtiH3KPiFYu46RbqWjXU/edit#gid=0)
+7. Monitor `#dev-escalation` and `#dev-oncall` on Slack and resolve any problems with [the escalation bot](https://gitlab.com/jameslopez/pagerslack) and the [PeopleOps integration](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb)
+8. Track, document, and keep up to date eligibility criteria as well as onboarding/offboarding and remind Engineering managers about this process
+9. Implement an appreciation process for engineers who were on-call and handled recent incidents
+
 ### Coordinator
 
 Given the complexity of administration overhead, one engineering
 director or manager will be responsible to coordinate the scheduling of
 one month. The nomination follows the same approach where
-self-nomination is the way to go. On each month tab in the schedule
-spreadsheet, directors and managers are encouraged to sign up in the
-**Coordinator** column. One director or manager per month.
+self-nomination is preferred. If there are no volunteers, the [DRI](#development-on-call-dri)
+will select them for upcoming months.
+
+The coordinators should assign themselves to the corresponding monthly issue from this [epic](https://gitlab.com/groups/gitlab-com/-/epics/122).
 
 #### Responsibility
 
@@ -277,7 +293,9 @@ An [Epic of execution tracking](https://gitlab.com/groups/gitlab-com/-/epics/122
 
 #### How-To
 
-Refer to this [coordinator issue template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/dev-oncall-monthly-execution.md) for instructions or the steps below. The same template is used for monthly oncall planning and execution issues.
+Refer to this [coordinator issue template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/dev-oncall-monthly-execution.md) for instructions or the steps below. The same template is used for monthly on-call planning and execution issues.
+
+An [automated process](https://gitlab.com/gitlab-com/dev-on-call) can be followed. If there are problems with the tool, a manual process can be followed:
 
 1. Start by finding the least filled shift (Usually this is 00:00 - 04:00 UTC) in the oncall spreadsheet(internal only).
 1. Determine the appropriate timezone for this shift (in the case of 00:00 - 04:00 it is +9,+10,+11,+12,+13).
@@ -309,25 +327,33 @@ If you prefer to work on a preferred weekend day please proactively sign up for 
 
 ### Rotation Schedule
 
-See the oncall spreadsheet(internal only). In the future, we could embed a summary of the upcoming week here.
+See the [on-call spreadsheet](https://docs.google.com/spreadsheets/d/1rCamrCMZPreBpYwbzFG9zpghtiH3KPiFYu46RbqWjXU/edit#gid=508978589) (internal only).
 
 ## Resources
 
 ### Responding Guidelines
 
-When responding to an Incident, utilize the below procedure as guidelines to follow to assist both yourself and the members requesting your assistance
+#### Infrastructure or availability incident
+
+When responding to an Infrastructure Incident, utilize the below procedure as guidelines to follow to assist both yourself and the members requesting your assistance
 
 1. Respond to the slack page with the `:eyes:` reaction - this signals to the bot that you are looking into the problem
 1. Join the Incident Zoom - this can be found bookmarked in the `#incident-management` Slack Channel
 1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#incident-<ISSUE NUMBER>`
 1. Work with the EOC to determine if a known code path is problematic
+
   - Should the knowledge of this be in your domain, continue working with the Engineer to troubleshoot the problem
   - Should this be something you may be unfamiliar with, attempt to determine code ownership by team - Knowing this will enable us to see if we can bring online an Engineer from that team into the Incident
+
 1. Work with the Incident Manager to ensure that the Incident issue is assigned to the appropriate Engineering Manager - if applicable
+
+#### Master broken guidelines
+
+You can read about the process workflow [here](https://handbook.gitlab.com/handbook/engineering/workflow/#broken-master-escalation) and follow the [triage responsibilities](https://handbook.gitlab.com/handbook/engineering/workflow/#triage-dri-responsibilities)
 
 ### Bot (Pagerslack) Usage
 
- - In order to use the bot, type `/devoncall incident-issue-url` to trigger the escalation process.
+ - In order to use the bot, type `/devon-call incident-issue-url` to trigger the escalation process.
  - Message the bot privately with `top` to show the top 25 members that are next in the escalation queue
  - Message the bot privately with `position` to see your position in the queue. The higher the number, the less probabilities to get pinged.
 
@@ -344,7 +370,6 @@ Situation Room recordings from previous incidents are available in internal Goog
 ### Shadowing A Whole Shift
 
 To get an idea of [what's expected](#expectation) of an on-call engineer and how often incidents occur it can be helpful to shadow another shift. To do this simply identify a time-slot that you'd like to shadow in the on-call schedule and contact the primary to let them know you'll be shadowing. Ask them to invite you to the calendar event for this slot. During the shift keep an eye on [#dev-escalation](https://gitlab.slack.com/archives/CLKLMSUR4) for incidents and observe how the primary [follows the process](#process-outline) if any arise.
-
 
 ### Tips & Tricks of Troubleshooting
 
@@ -368,6 +393,10 @@ To get an idea of [what's expected](#expectation) of an on-call engineer and how
    1. [Service Platform Metrics](https://dashboards.gitlab.net/d/general-service/general-service-platform-metrics?orgId=1&var-type=ci-runners&from=now-6h&to=now).
    1. [SLAs](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1).
    1. [Web Overview](https://dashboards.gitlab.net/d/web-main/web-overview?orgId=1).
+
+### Help with the process
+
+If you have questions about the process, please reach out to `#dev-oncall` in Slack or to the [DRI](#development-on-call-dri) directly.
 
 ### Pagerslack statistics ([Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views))
 
@@ -401,7 +430,6 @@ These are the recommended settings. Your mileage may vary.
 
 ![screenshot of slack notification settings](notifications-slack-1.png)
 ![screenshot of slack notification settings](notifications-slack-2.png)
-
 
 #### macOS Notifications
 

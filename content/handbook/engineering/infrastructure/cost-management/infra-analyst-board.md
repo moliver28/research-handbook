@@ -16,11 +16,9 @@ description: "Infra Analyst Workflow Planning"
 [Workflow Board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/1942495?label_name[]=Engineering%20Metrics)
 {:.btn .btn-purple}
 
-
 ## Criteria
 
 Issues that land on this board should be initiatives that specifically need ad hoc work done by Infrastructure Analyst and do not fall under the criteria to be part of an infrafin initiative.
-
 
 ## Labeling
 
@@ -34,4 +32,3 @@ Use label `Eng Metrics::Infrastructure Department` to designate infra analyst sp
 - Total Open Issue Weight that is in progress cannot exceed 10
   - After there is 10 total open and in progress weight on this board, any new issue priorities should be re-evaluated or new issue is moved to backlog
 - At 10 given weight if feasible, attempt will be made to resolve within the week, with 1 additional week needed for each 1 point of less weighting
-

@@ -26,4 +26,3 @@ These are the expected competencies of the Dev Sub Department team members at Gi
 ## Principal
 
 - [Principal Engineer](/handbook/engineering/careers/matrix/development/dev/principal/)
-

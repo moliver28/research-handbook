@@ -18,7 +18,7 @@ Within the issue the development and the application security team should collab
 of a threat model. The issue template contains detailed steps to guide through the process.
 
 If you're new to threat modeling: for a beginner friendly start please have a look at our
-[threat modeling how to page](/handbook/security/threat-modeling/howto).
+[threat modeling how to page](/handbook/security/product-security/application-security/threat-modeling/howto/).
 
 ## Creating the threat model
 

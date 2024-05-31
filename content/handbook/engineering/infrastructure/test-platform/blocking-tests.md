@@ -131,7 +131,6 @@ process must be followed.
 
 The `:blocking` tag cannot be removed from a test. Such a test can only be quarantined and de-quarantined.
 
-
 ## Execution Command
 
 - **Blocking Tests**: `bin/qa Test::Instance::All http://localhost:3000 -- --tag blocking`
@@ -140,7 +139,6 @@ The `:blocking` tag cannot be removed from a test. Such a test can only be quara
 
 - Executed in MRs and master in `gdk-qa-blocking` jobs for ongoing quality assurance.
 - Also executed in `gdk-qa-blocking-ff-inverse` jobs in MRs that include feature flag changes to validate the tests in both feature flag states.
-
 
 ## Future Iterations
 
@@ -151,4 +149,3 @@ The `:blocking` tag cannot be removed from a test. Such a test can only be quara
 - Once most of the tests have been promoted to the blocking, sunset the `:blocking` tag and make all tests block MRs. At
   this stage, any left over tests that weren't promoted should be
   quarantined. ([Issue link](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2498))
-

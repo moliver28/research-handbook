@@ -108,7 +108,7 @@ When you’re not tackling difficult customer challenges, you’ll have a lot of
 
 For Support Engineers who are nearing or at Senior Level
 
-### The ASE role
+#### The ASE role
 
 - Prioritize a mix of Self-managed and GitLab.com (SaaS) customers with a higher support offering and resolve their issues via Zendesk tickets, merge requests, email and video conferencing
 - Lead the relationship with up to 5 assigned accounts while also contributing to global tickets
@@ -123,6 +123,27 @@ For Support Engineers who are nearing or at Senior Level
 - Coordinate with internal teams as necessary to drive decreased time to resolution
 - Coordinate with customer to enable successful upgrades
 - Participation in CMOC/CEOC rotations remains unchanged and is expected
+
+#### What is it like to be an ASE?
+
+We asked some questions of our two first ASEs, Harish and Gerardo, to find out about the work life of an ASE. See what they had to say:
+
+- Watch the [whole video](https://www.youtube.com/watch?v=H4352jlI2MQ) (42:28)
+
+OR, Skip to the topics of interest to you:
+
+- [The ASE Role](https://youtu.be/H4352jlI2MQ?t=57)  (0:56)
+- [How Is the ASE Role Different from the SE Role?](https://youtu.be/H4352jlI2MQ?t=113)  (3:00)
+- [Is the Scope of Support Different?](https://youtu.be/H4352jlI2MQ?t=293)  (1:24)
+- [What Is Success for an ASE?](https://youtu.be/H4352jlI2MQ?t=377)  (2:54)
+- [How Will Managers Measure Success?](https://youtu.be/H4352jlI2MQ?t=551)  (1:29)
+- [What Do I Need To Know / How Did I Become an ASE?](https://youtu.be/H4352jlI2MQ?t=640)  (2:30)
+- [What Did You Need to Know?](https://youtu.be/H4352jlI2MQ?t=790)  (5:00)
+- [What Makes for a Good ASE?](https://youtu.be/H4352jlI2MQ?t=1090)  (2:44)
+- [How Do You Balance ASE Work with Normal Queue Work?](https://youtu.be/H4352jlI2MQ?t=1254)  (3:50)
+- [What Do You Like about Being an ASE?](https://youtu.be/H4352jlI2MQ?t=1484)  (5:22)
+- [How Does the Stress Differ Between ASE and SE Roles?](https://youtu.be/H4352jlI2MQ?t=1806)  (3:15)
+- [What Are the Challenges and Dislikes of Being an ASE?](https://youtu.be/H4352jlI2MQ?t=2001)  (9:07)
 
 ### US Government Support Engineer
 

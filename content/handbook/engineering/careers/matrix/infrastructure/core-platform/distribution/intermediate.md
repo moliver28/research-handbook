@@ -14,7 +14,6 @@ title: "Core Platform Career Framework: Intermediate Distribution Engineer"
 
 ---
 
-
 ### Leadership Competencies
 
 {{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}

@@ -61,6 +61,7 @@ Multiple lenses of metrics are needed to build the narrative such as:
 Challenge: Why do we measure? What are our next steps / actions based on what we learn?
 
 Other considerations:
+
 - Program Budget spend analytics
 
 ## CMO (Todd) Challenge on how to measure

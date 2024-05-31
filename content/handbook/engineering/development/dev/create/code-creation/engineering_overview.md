@@ -12,7 +12,6 @@ Below, we detail each component's role in this ecosystem, describe the flow of d
 
 ## Code Suggestions Technical Overview
 
-
 In most general sense Code Suggestions feature follow sequence as described on a diagaram below
 
 ```mermaid
@@ -53,8 +52,8 @@ Components pictured on diagram are as follow:
 1. [AI Gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) - a standalone-service that will give access to AI features to all users of GitLab, no matter which instance they are using: self-managed, dedicated or GitLab.com. For more conceptual information refer to [architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/index.html)
 1. Large Language Model - a AI model that provides code generation capabilities
 
-
 Code Suggestions includes two types of interactions:
+
    - **[Code Completion](#code-completion)**: A short AI-generated suggestion intended to complete an existing line or block of code
    - **[Code Generation](#code-generation)**: A longer AI-generated suggestion intended to create entire functions, classes, code blocks, etc.
 
@@ -90,7 +89,7 @@ sequenceDiagram
     GLR->>-AIGW: trigger code generation ` "#35; generate function `
 ```
 
-In above diagram some components (inc: GitLab Workhorse or Language Server) are ommitted for brevity reasons. However high level flow of requests shown in [technical overview](#code-creation-features-technical-overview) section
+In above diagram some components (inc: GitLab Workhorse or Language Server) are ommitted for brevity reasons. However high level flow of requests shown in [technical overview](#code-suggestions-technical-overview) section
 remains unchanged.
 
 ## Repository X Ray

@@ -197,10 +197,13 @@ Scorecards are required in all stages that require interviews. Confidential, per
 - {{% details summary="Rejecting candidates" %}}
 - When rejecting candidates, it’s important to carefully review all rejection reasons and pick the one that most accurately describes why a candidate is being rejected. This is because data is analyzed on a quarterly basis by the Talent Acquisition Leadership team, People Leadership Team, and E-Group.
 - Once you’ve clicked the most detailed reason, include detailed context on the reason in the “Rejection Notes” box. Please be as specific as possible. For example, instead of writing “the candidate rejected because of compensation”, write “the candidate rejected because the salary and equity that we offered was much lower than a competing offer.”
-- Timing
 - Please note that you cannot submit scorecards after rejecting a candidate.
 - We will not cancel an interview within less than 24 hours' notice if the candidate is being rejected. The recruiter will notify the candidate that they are no longer in consideration for the role and present them with the option to continue with the scheduled interview slot. The interviewer must be informed, and will not discuss the feedback that led to the decline. The conversation will pivot to general opportunities at GitLab and answering any questions about the company and team that the candidate may have.
-- If the candidate's interview is outside 24 hours, the interview should be deleted in Greenhouse before the candidate is rejected and notified. The candidate should always be notified if they've been rejected, and the recruiter  is primarily responsible for declining the candidate. Any interviews scheduled will also not be automatically canceled, so you’ll need to ensure this happens first.
+- If the candidate's interview is outside 24 hours, the interview should be deleted in Greenhouse before the candidate is rejected and notified. The candidate should always be notified if they've been rejected, and the recruiter  is responsible for declining the candidate. Any interviews scheduled will also not be automatically canceled, so you’ll need to ensure this happens first.
+- If the candidate does not join the interview room within 10 minutes or fails to complete their MR within the specified time before the interview, the interview will be cancelled and the recruiter will get in touch with the candidate and not schedule further interviews.
+- If the candidate notifies us that they are unable to attend the interview before the scheduled time, CES can automatically reschedule using the candidates' current availability or by requesting fresh availability.
+- If we have rescheduled at the request of the candidate and the candidate requests to move the interview again without reasonable explanation, the recruiter will automatically reject the candidate.
+- We understand that there may be extenuating circumstances leading to the above situations where a candidate is unavailable or unprepared. It is at the recruiter's discretion to reengage or choose to reschedule.
 {{% /details %}}
 {{% /details %}}
 

@@ -29,6 +29,7 @@ The VP of Customer Success and CoS to CRO aim to coordinate at least one 50-minu
 Led by the VP of Customer Success, the CS team will work with their functional EBA, Account Team, and Customer Reference team nominate existing Customers and/or Partners. The team should aim to identify customers and partners who have a unique story to tell, solved a challenging problem with GitLab or have a topic to discuss that would benefit both the Customer/Partner and broader GitLab team.
 
 The process to nominiate a customer or partner for a fireside side chat:
+
 1. TBD by VP of CS
 1. TBD
 1. TBD
@@ -41,7 +42,6 @@ The process to nominiate a customer or partner for a fireside side chat:
 1. Ensuring the guest and moderator have the right equipment; we recommend a dedicated microphone, a webcam or camera other than the standard MacBook camera, and an ultra-stable internet connection
 1. Create an informal setting, both the guest and the moderator should feel comfortable with the questions, the format, and letting the conversation flow naturally. However, the informality of a fireside chat does not mean that the fireside chats are unprepared, a lot of work goes into these behind the scenes and should not be skipped.  
 
-
 ## Hosting a Fireside Chat
 
 Fireside chats will be hosted remotely on Zoom and the EBA to the VP, of Customer Success, will be responsible for coordinating the chat once the customer or partner is identified by working with the account team and key stakeholders on the customer or partners’ end. The EBA will coordinate an inclusive time (generally before 10 am Pacific) based on the customer or partners’ timezone
@@ -53,7 +53,7 @@ The EBA to the VP, of Customer Success, will send an invite out to everyone at G
 1. Curation of the agenda
 1. Prepare questions based on the specific customer and her/his feedback
 1. Lead the preparation call with guest prior to fireside chat
-1. Prepare for the fireside discussion, including: 
+1. Prepare for the fireside discussion, including:
     1. Summary of the customer’s company that will be added to the meeting doc
     1. Introduction of the customer speaker
 1. Lead fireside chat, setting a comfortable and conversational tone for the guest
@@ -63,7 +63,6 @@ The EBA to the VP, of Customer Success, will send an invite out to everyone at G
 1. Consider/prepare responses to the given questions in advance
 1. Attend a brief prep call
 1. Have fun!
-
 
 ## Sample Agenda
 
@@ -103,4 +102,3 @@ As purely an example, consider asking any of the questions or topics below to th
     1. Objective: Provide insight to how companies adopt products/platforms, including decision process (e.g., departments/business units, teams, etc.), change management (e.g., culture, processes, education and enablement, M&A), compliance and policies, etc.
 1. Is there anything else you would like to tell, ask or share with the GitLab team?
     1. Objective: Closing question. Allow the customer speaker to talk directly to the audience (e.g., thanks, do more of, please get us…), including an ask for GitLab.
-

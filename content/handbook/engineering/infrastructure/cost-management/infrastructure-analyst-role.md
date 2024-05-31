@@ -27,6 +27,7 @@ description: "Defines role and responsibilities of infra analyst"
 There is no magic when reducing or analyzing infrastructure spend, it just requires a good understanding of what our own usage and architecture looks like and how we get billed for it.
 
 Therefore, if requesting help or a review from an infrastructure analyst you should try to provide as much information as possible. Some of the most important pieces of information to provide are:
+
 - description or link to architecture of affected services
 - data Source of usage info and what metrics best relate to the cost if known
 - Affected product and/or sku of service provider

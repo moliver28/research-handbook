@@ -101,6 +101,7 @@ counterparts. Quality engineering is included in our workflow via the
 
 Before starting a milestone, the group coordinates using [planning issues](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/issues/?label_name%5B%5D=Planning%20Issue).
 We follow this process:
+
 - The PM defines the goals of the milestone.
 - The team members comment about the issues they consider relevant for the milestone.
 - The PM and EM work together to decide the final list of issues.
@@ -130,6 +131,7 @@ guidelines. To get a high-level overview of the status of all issues in the
 current milestone, check the [development workflow board](https://gitlab.com/groups/gitlab-org/-/boards/2594854).
 
 The process primarily follows this:
+
 - `workflow::ready for design` to signal an issue was ready to begin the design.
 - `workflow::design` designer would use this to signal it was actively being worked on.
 - `workflow::refinement` to signal that the design is complete and the issue is ready for engineering input. Please also tag the PM to assign the appropriate milestone for implementation.
@@ -314,8 +316,6 @@ to allow the group to focus on long-term scalability work.
 ## Dashboards
 
 You can find our group metrics in the [Tenant Scale Group Engineering Metrics page](/handbook/engineering/metrics/enablement/data-stores/tenant-scale).
-
-
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}

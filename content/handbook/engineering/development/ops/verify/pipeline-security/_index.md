@@ -105,6 +105,7 @@ The intention of this phased process is to enable agile planning and reduce the 
 #### Issue weight system
 
 An issue weight is determined based on the complexity in the following criteria:
+
 - Code change - How difficult is it to make the required code changes?
 - Interaction and dependency on other teams - How much interaction with other teams are needed?
 - Path to production - What needs to be done to get the code changes safely in production (e.g feature flag, backward compatibility, etc)?
@@ -156,7 +157,7 @@ If an issue has several components (e.g. ~frontend, ~backend, or ~documentation)
 
 The [Pipeline Security group Error Budget dashboard](https://dashboards.gitlab.net/d/stage-groups-pipeline_security/stage-groups-pipeline-security-group-dashboard?orgId=1) is used to identify issues that are contributing to the Pipeline Security group's error budget spend.
 
-The engineering manager will review the error budget dashboard weekly to determine whether we're exceeding our budget, determine what (if anything) is contributing to our error budget spend, and create issues addressing root cause for product manager prioritization. Issues created to address error budget spend should be created using appropriate labels and prioritized according to our [technical debt process](#prioritizing-technical-debt). Other issues may be created as a result of the [Ops Section SaaS Reviews](/handbook/product/performance-indicators/#verify-verifytesting---error-budget-for-gitlabcom) and also prioritized using the technical debt process.
+The engineering manager will review the error budget dashboard weekly to determine whether we're exceeding our budget, determine what (if anything) is contributing to our error budget spend, and create issues addressing root cause for product manager prioritization. Issues created to address error budget spend should be created using appropriate labels and prioritized according to our [technical debt process](#prioritizing-technical-debt-and-deferred-ux). Other issues may be created as a result of the [Ops Section SaaS Reviews](/handbook/product/performance-indicators/#verify-verifytesting---error-budget-for-gitlabcom) and also prioritized using the technical debt process.
 
 #### Prioritizing technical debt and deferred UX
 
@@ -205,6 +206,7 @@ Unless specifically mentioned below, the Verify:Pipeline Security group follows 
 Verify:Pipeline Security team members are encouraged to start looking for work starting **_Right to left_** on [our milestone board](https://gitlab.com/groups/gitlab-org/-/boards/364216?label_name[]=group%3A%3Apipeline%20security&milestone_title=Started). This is also known as _"Pulling from the right"_. If there is an issue that a team member can help along on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to if they feel that they can add value and help move the issue along the board.
 
 Specifically this means, in order:
+
 - Doing verification that code has made it to staging, canary, or production
 - Conducting code reviews on issues that are `workflow::in review`
 - Unblocking anyone in the `workflow::in development` column
@@ -314,7 +316,6 @@ We want to create a welcoming environment for everyone who is interested in cont
 
 If an issue is being resolved in a merge request that is made by a [community contributor](https://about.gitlab.com/community/contribute/), the engineering manager will assign the associated issue to themselves to keep better track of it. The engineering manager will help to coach the community contributor through the merge request process, or be responsible for delegating that coaching to a team member engineer.
 
-
 ### Labels
 
 #### Category Labels
@@ -344,6 +345,7 @@ This synchronous meeting is to discuss anything that is blocking, or notable fro
 #### Async Daily Standups
 
 We use [geekbot](https://geekbot.com/) integrated with Slack for our daily async standup. The purpose of the daily standup meeting is to keep the team informed about what everyone is working on, and to surface blockers so we can eliminate them. The standup bot will run at 10am in the team members local time and ask 2 questions:
+
 1. What will you do today?
 1. Anything blocking your progress?
 

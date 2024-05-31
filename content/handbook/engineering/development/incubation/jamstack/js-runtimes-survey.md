@@ -9,6 +9,7 @@ title: Jamstack - User Survey
 in January 2023 the Jamstack SEG conducted a user survey to identify the communities' priorities around creating a Javascript runtime capability for GitLab.
 
 This came at a time where I was making similar progress with both of the following work tracks:
+
  - a Cloudflare Workers Integration using the Cloudflare API
  - a V8 Javascript runtime integration into GitLab Pages directly
 Both of these tracks will eventually result in users being able to run server-side Javascript functions without actually needing to deploy a server.
@@ -19,6 +20,7 @@ Both implementations come with large opportunities and risks, so I needed to fac
 The survey was filled by 38 respondents, primarily Frontend- and Fullstack developers.
 
 To determine the deomgraphic we asked whether:
+
  - they have used GitLab before
  - are working for an Org using GitLab
  - if are using a self-hosted version or gitlab.com (only asked if they answered `yes` to the previous question)

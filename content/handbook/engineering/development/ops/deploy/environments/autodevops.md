@@ -13,17 +13,18 @@ description: "Auto DevOps is a technology that allows automated application of D
 ## Current end-to-end tests
 
 At the time of writing this entry there are two end-to-end test files:
+
 - [`auto_devops_templates_spec.rb`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/qa/qa/specs/features/browser_ui/7_configure/auto_devops/auto_devops_templates_spec.rb)
 - [`create_project_with_auto_devops_spec.rb`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/qa/qa/specs/features/browser_ui/7_configure/auto_devops/create_project_with_auto_devops_spec.rb)
 
 under the [`qa/specs/features/browser_ui/7_configure`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa/qa/specs/features/browser_ui/7_configure) folder of the qa directory. There are not presently any end-to-end api-based tests.
-
 
 ### Where the tests execute
 
 #### Non-quarantined test execution environments
 
 The `Configure AutoDevOps Templates template: express|rails|spring works with Auto DevOps` test is a tagged to run only in the [`:staging`](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines) environment and therefore runs in :
+
 - [`staging`](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines)
     -`qa-triggers-browser_ui-7_configure`
 
@@ -32,9 +33,9 @@ The `Configure AutoDevOps Templates template: express|rails|spring works with Au
 The following tests, if they are tagged `quarantine`, will run in these environments:
 
 `Configure AutoDevOps Templates template: express|rails|spring works with Auto DevOps`
+
 - [`staging`](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines)
     - `qa-triggers-browser_ui-quarantine`
-
 
 ## Configure your GDK to run the tests
 
@@ -66,5 +67,6 @@ Example: `gitlab-qa Test::Instance::Staging -- qa/specs/features/browser_ui/7_co
 - [Thanos query for complete Auto DevOps pipelines](https://thanos-query.ops.gitlab.net/graph?g0.range_input=2d&g0.max_source_resolution=0s&g0.expr=sum(increase(auto_devops_pipelines_completed_total%7Benv%3D%22gprd%22%7D%5B6h%5D))%20by%20(status)&g0.tab=0)
 
 <sup>*</sup> For information as to why we're running master pipelines on `qa-mirror` see the following issues:
+
 - [https://gitlab.com/gitlab-org/gitlab-qa/-/issues/423](https://gitlab.com/gitlab-org/gitlab-qa/-/issues/423)
 - [https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/4717](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/4717)

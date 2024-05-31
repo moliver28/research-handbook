@@ -17,6 +17,7 @@ title: "Support Career Framework: Staff Support Engineer"
 ### Leadership Competencies
 
 {{% include "includes/engineering-careers/staff-leadership-competency.md" %}}
+
 - Works frequently with other teams to resolve difficult issues
 - Anticipates and plans for future issues that will impact Support
 - Participates in Working Groups as the need arises
@@ -24,6 +25,7 @@ title: "Support Career Framework: Staff Support Engineer"
 ### Technical Competencies
 
 {{% include "includes/engineering-careers/staff-technical-competency.md" %}}
+
 - Able to dig into the GitLab codebase and determine the root cause of complex problems
 - Frequently submits fixes for customer-impacting issues
 - Creates tooling to improve the efficacy of GitLab Support

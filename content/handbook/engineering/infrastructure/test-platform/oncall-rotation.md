@@ -73,10 +73,12 @@ This should be planned at least 1 week in advance, including the relevant DRIs [
 NB - For assistance with supporting upgrades outside GitLab's regular business hours, please reach out to Slack channel `#infrastructure-managers`.
 
 Some examples of issues where Test Platform have provided support include:
+
 - [CI Decomposition Rollout](https://ops.gitlab.net/gitlab-com/gl-infra/db-migration/-/blob/ae6240c4bdf94a7774f9ad844dcec26f936a2946/.gitlab/issue_templates/ci_decomposition.md)
 - [PostgreSQL 14 upgrade](https://ops.gitlab.net/gitlab-com/gl-infra/db-migration/-/blob/ae6240c4bdf94a7774f9ad844dcec26f936a2946/.gitlab/issue_templates/pg14_upgrade.md)
 
 If the assigned DRI is unavailable during the planned upgrade, then the assigned DRI is to reach out to find coverage for the day of the planned upgrade.
+
 - For example, if the planned upgrade is scheduled for outside of working hours (i.e., on a Saturday) and the assigned DRI cannot be made available, the assigned DRI is to reach out to the team to find another team member who can be present throughout the planned upgrade.
 
 ## Test Platform Sub-Department incident management on-call rotation

@@ -46,6 +46,7 @@ Experiment Tracking gives Data Scientists a central place to organize, discover 
 and artifacts, making it easier to keep track of the evolution across time.
 
 Some of the common features seen in Experiment Tracking offerings are:
+
 - Log the parameters used to created a Candidate
 - Log the model metrics of each candidate
 - Log additional metadata for each candidate
@@ -53,6 +54,7 @@ Some of the common features seen in Experiment Tracking offerings are:
 - Being able to search and filter candidates by metric, parameters or metadata
 
 More info:
+
 - [ML Experiment Tracking: What It Is, Why It Matters, and How to Implement It](https://neptune.ai/blog/ml-experiment-tracking)
 - [Experiment Tracking](https://madewithml.com/courses/mlops/experiment-tracking/)
 
@@ -73,9 +75,3 @@ while the Model Registry belongs to the Packaging stage.
 Although with similar names, they do not interact. ML Experiments compare model candidates, based on model metrics computed at
 creation time, while AB testing and experimentation aims com measure the impact of a two or more different variants based on usage
 metrics.
-
-
-
-
-
-

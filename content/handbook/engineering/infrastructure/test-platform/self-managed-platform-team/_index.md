@@ -70,6 +70,7 @@ For individual questions please reach out to the team via our slack channels.
 Our preference is to work asynchronously, within our projects issues trackers.
 
 The team does have a set of regular synchronous calls:
+
 * Self-Managed Environment Triage
 * GitLab Environment ToolKit Bi-Weekly Sync
 * 1-1s between the Individual Contributors and Engineering Manager
@@ -122,6 +123,7 @@ The following weights are available based on the Fibonacci Series with 8 being t
 Anything that would be assigned a weight of 8 or larger should be broken down.
 
 ### Status Updates
+
 * By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
      * Format for weekly update:
           * Date of Update (YYYY-MM-DD)

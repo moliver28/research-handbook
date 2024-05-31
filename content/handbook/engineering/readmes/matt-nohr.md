@@ -1,14 +1,7 @@
 ---
-
 title: "Matt Nohr's README"
 job: "Engineering Manager, Code Review"
 ---
-
-#
-
-
-
-
 
 ## Matt Nohr's README
 

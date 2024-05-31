@@ -6,12 +6,6 @@ description: "Learn about GitLab's secondment program for external engineers."
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
 ## What is a secondment?
 
 Secondment is the assignment of a member of one organisation to another organisation for a temporary period.
@@ -31,7 +25,6 @@ The secondment program provides GitLab with talented engineers contributing to t
 During a secondment, the secondee remains employed by their regular employer, however, on a day-to-day basis they work with GitLab team members on GitLab projects.
 
 Currently, this program is still in a pilot phase but the general steps are as follows:
-
 
 1. An interested engineer reaches out to GitLab to express their interest in the program.
 2. A relevant team at GitLab speaks to the engineer and conducts interviews with the engineer. If a mutual fit is found, GitLab works with the engineer’s employer to formalize a secondment agreement.
@@ -68,8 +61,5 @@ During a secondment, the secondee would remain employed by their regular employe
 
 When you can help build the software you use on a day-to-day basis you will be up to twice as efficient afterwards, as proven by [a study at Harvard](https://www.hbs.edu/faculty/Pages/item.aspx?num=54809).
 
-
 This program allows companies to have their employees learn about software development at GitLab and gain rich in-depth experience using GitLab.
 Today, many employers hire employees that have experience at certain companies or with certain products, but what options exist if your current employee lacks the kind of experience? A secondment at GitLab is a way to grow their career and increase your company’s capabilities.
-
-

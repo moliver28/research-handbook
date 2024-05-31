@@ -124,9 +124,9 @@ We staff our department with the following gearing ratios:
 
 In addition to GitLab's [communication guidelines](/handbook/communication) and [engineering communication](/handbook/engineering/#communication), we communicate and collaborate actively across GitLab in the following venues:
 
-- [Group Conversation](#group-conversation)
+- [Group Conversation](/handbook/company/group-conversation/)
 - [Week-in-review](#week-in-review)
-- [Department meetings](#department-meetings)
+- [Department meetings](#department-recurring-event-dris)
 - [Engineering-wide retrospective](#engineering-wide-retrospective)
 
 ### Week-in-review
@@ -285,11 +285,11 @@ If additional input is needed from the Quality team, the DRI for this is the Dir
 | Recurring event | Primary DRI | Backup DRI | Cadence | Format |
 | --------------- | ----------- | ---------- | ------- | ------ |
 | Quality Key Review | `@meks` | `@vincywilson` | Every 8 weeks | Review meeting |
-| Group conversation | `@meks` | `@at.ramya` <br>`@vincywilson` <br>`@vincywilson` | Every 8 weeks | [Group Conversations](#group-conversations) |
+| Group conversation | `@meks` | `@at.ramya` <br>`@vincywilson` <br>`@vincywilson` | Every 8 weeks | [Group Conversations](/handbook/company/group-conversations/) |
 | [GitLab SaaS Infrastructure Weekly](/handbook/engineering/infrastructure/#gitlab-saas-infrastructure) | Rotates between @vincywilson` | `@vincywilson` | Weekly | Incident review and corrective action tracking |
 | [Incident management](/handbook/engineering/infrastructure/incident-management/) | Rotates between `@at.ramya`, and `@vincywilson` | All managers | Weekly | Incident monitoring, response, and management as needed to represent Quality |
 | [Reference Architectures](/handbook/engineering/infrastructure/test-platform/self-managed-excellence/#reference-architectures) | `@ksvoboda` | `@vincywilson` | Every 2 weeks | Sync stand-up |
-| [Bug refinement](/handbook/engineering/quality/#bug-refinement) | Rotates between `@at.ramya` <br>`@vincywilson` | Weekly | Review meeting |
+| [Bug refinement](/handbook/engineering/quality/#bug-refinement) | Rotates between `@at.ramya` <br>`@vincywilson` | | Weekly | Review meeting |
 | Security Vulnerability review | `@meks` | `TBD` | Every 4 weeks | Review meeting |
 | Quality Department Staff Meeting | `@meks` | `TBD` | Weekly | Review meeting |
 | Quality Department Bi-Weekly | Department management team | `@meks` | Every 2 weeks | Review meeting |

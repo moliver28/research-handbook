@@ -106,6 +106,7 @@ The DRI needs to:
 Each epic and child sub-epics must include the following:
 
 **Description**
+
 1. **DRI** who is responsible for this epic.
 2. **Background**, including a problem statement, to provide context for people looking to understand the epic.
 3. **Exit criteria** for the specific goals of the epic.
@@ -114,10 +115,11 @@ Each epic and child sub-epics must include the following:
     2. This heading is used to auto-generate the status information on the top-level epic.
 
 **Epic meta data**
+
 1. **Start date** is set to the expected start date, and updated to be the actual start date when the project begins.
 2. **Due date** is set to be the expected end date.
 
-Labels are described in the [epic label section](#epic-labels).
+Labels are described in the [epic label section](#epic-structure).
 
 #### Issue boards
 

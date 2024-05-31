@@ -65,7 +65,6 @@ Change the weight if it is not accurate or if the issue becomes harder than
 originally expected. Leave a comment indicating why the weight was changed and tag
 your EM so that we can better understand weighting and continue to improve.
 
-
 [things take longer than you think]: https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html
 
 #### Weights

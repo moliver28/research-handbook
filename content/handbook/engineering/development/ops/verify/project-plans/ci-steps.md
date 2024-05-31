@@ -99,6 +99,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11535](https://gitlab.com/gr
 #### Week of 2024-01-02
 
 Discussg parallel tracks of effort (WIP plans and DRIs):
+
 1. Implement GitLab CI Steps support in Rails. This will elevate the "steps in env variable" to a properly supported syntax, including CI Editor support. This also involves collaboration with a Rails Engineer on Pipeline Authoring.
 1. Add more test coverage (unit tests, integration tests, e2e tests (and for each engine)). Up until this point, test coverage is expected to be minimal.
 1. Build support for GitHub Actions in CI Steps (up until this point, only GitLab-based steps will be supported)

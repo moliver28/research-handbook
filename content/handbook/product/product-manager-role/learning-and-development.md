@@ -6,13 +6,6 @@ canonical_path: "/handbook/product/product-manager-role/learning-and-development
 
 ---
 
-# On this page
-
-
-
-
-
-
 {{% include "includes/product-handbook-links.md" %}}
 
 Welcome to Learning and Development for Product Management at GitLab! This page serves as the content library that feeds [the Product Management Learning Hub in Level Up](https://levelup.gitlab.com/pages/product-management-hub). You are welcome to explore content here but if you prefer a more modular, personalizable, and trackable portal, please visit Level Up.
@@ -48,7 +41,6 @@ Discusses how to leverage efficiency to achieve optimal outcomes. <br>
 
 GitLab's Chief Product Officer shares insights on what makes an opportunity canvas successful in a 10 minute video:
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f8k1jWejojA" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
 
 #### Overview and Example Canvases by Stage Maturity
@@ -68,7 +60,6 @@ GitLab's Chief Product Officer shares insights on what makes an opportunity canv
 - [Opportunity Canvas Unfiltered Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqR2kan56Ae7Di70WF3tpZJ)
 
 ### Prioritization at GitLab
-
 
 <br/>
 Nicole shares her approach towards prioritization of tech debt with her Engineering counterparts in these discussions with Mike and Olivier.
@@ -124,7 +115,6 @@ Following a retro on the pilot we can decide to continue it in rotations moving 
 We will be planning the Pilot Program in this [epic](https://gitlab.com/groups/gitlab-com/-/epics/1546).
 
 ### Using the Career Development Framework during Peer Mentorship
-
 
 Product Managers are all evaluated using the [CDF](/handbook/product/product-manager-role/product-CDF-competencies/) and it can be a great tool to use as a way to discuss how each person is performing in context to the CDF. If you are looking to improve in a certain area of your CDF, the peer mentorship space can be a great place to seek mentorship. Please note that CDFs are confidential documents that are kept between team members and their management lines, however, for the purpose of mentorship, team members can choose to share relevant portions. If any feedback about the CDF arises, please discuss the feedback with your manager or open an MR to the [CDF handbook page](/handbook/product/product-manager-role/product-CDF-competencies/) and tag `gl-product-leadership` for review.
 
@@ -182,7 +172,6 @@ This content is divided into five key competencies for Product Managers.
 
 - [Nielson Norman Group Trainings and Events](https://www.nngroup.com/training/)
 
-
 ##### Books
 
 - [Steve Krug: Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems](https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself/dp/0321657292)
@@ -223,7 +212,6 @@ This content is divided into five key competencies for Product Managers.
 - [Clayton Christensen - Understanding the Job](https://www.youtube.com/watch?v=sfGtw2C95Ms) (5 min video)
 - [Know Your Customers’ “Jobs to Be Done”](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done)
 
-
 ##### Deeper dive
 
 - [GitLab Jobs to be Done (JTBD) Deep Dive](/handbook/product/ux/jobs-to-be-done/deep-dive/)
@@ -245,7 +233,6 @@ This content is divided into five key competencies for Product Managers.
 ##### Quick reads and videos
 
 - [How to Build a Minimum Loveable Product](https://medium.com/the-happy-startup-school/beyond-mvp-10-steps-to-make-your-product-minimum-loveable-51800164ae0c#.56uv0dydd)
-
 
 ##### Deeper dive
 
@@ -292,9 +279,7 @@ This content is divided into five key competencies for Product Managers.
 - [Trusworthy Online Controlled Experiments](https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264)
 - [Intercom: The Growth Handbook](https://www.intercom.com/resources/books/growth-handbook) (free ebook download)
 
-
 ### 💡 Design
-
 
 ##### Quick reads and videos
 
@@ -321,7 +306,6 @@ This content is divided into five key competencies for Product Managers.
 - [Sketching User Experiences: The Workbook](https://www.amazon.com/Sketching-User-Experiences-Saul-Greenberg/dp/0123819598)
 - [The User Experience Team of One: A Research and Design Survival Guide](https://www.amazon.com/User-Experience-Team-One-Research/dp/1933820187)
 - [Jeff Gothelf: Lean UX](https://www.amazon.com/Lean-UX-Designing-Great-Products-ebook/dp/B01LYGQ6CH/)
-
 
 <br>
 <br>
@@ -378,7 +362,6 @@ _Please contribute your favorite resources here_
 - [Visha Soni: A Practical Prioritization Approach for Technical Debt](https://productcoalition.com/a-practical-prioritization-approach-for-technical-debt-f1eb31b8e409)
 - [Rajat Harlalka: Why You Should Invest in Relationships With Your Engineering Team](https://www.mindtheproduct.com/why-you-should-invest-in-relationships-with-your-engineering-team/)
 - [PM & EM: Rules of Engagement](https://segment.com/blog/product-manager-engineering-manager-rules-of-engagement/)
-
 
 ##### Deeper dive
 
@@ -600,7 +583,6 @@ _Please contribute your favorite resources here_
 
 - For new Group Managers at GitLab, we have an buddy program that matches the new Group Manager with a Senior leader (Director or above) in the Product team that is not in their direct reporting chain. This is an optional program to help new managers understand GitLab management process, find a sounding board to discuss challenging situations in a safe space without judgement, and generally learn management techniques. Although this is targeted to new managers (typically first time managers), it is open to those who are becoming a manager for the first time at GitLab but have been managers elsewhere.
 
-
 ##### Quick reads and videos
 
 - [The New Manager Death Spiral](https://randsinrepose.com/archives/the-new-manager-death-spiral/)
@@ -706,7 +688,6 @@ There is a lot of amazing content and ongoing trends in the world of product dev
 - [Product School](https://www.youtube.com/channel/UC6hlQ0x6kPbAGjYkoz53cvA/featured) (YouTube Channel)
 - [Women In Product](https://www.youtube.com/channel/UC6z_ibVMdKbKFfgb3mxwx9g/videos?view=0&sort=p) (YouTube Channel)
 
-
 ### Thought leaders and influencers
 
 One of the best ways to stay in the know is to follow people! There are a lot of folks openly sharing their ideas and best practices. We encourage you to follow and exchange ideas with people who inspire you. Here are some recommendations on where to start:
@@ -718,7 +699,7 @@ One of the best ways to stay in the know is to follow people! There are a lot of
 - [Jeff Patton](https://twitter.com/jeffpatton)
 - [Roman Pichler](https://twitter.com/johncutlefish)
 
-# How to contribute to the Product L & D Hub
+## How to contribute to the Product L & D Hub
 
 Keeping our Product L & D Hub robust and relevant is a team effort. We encourage to you to contribute as you come across resources that are helpful to you. And if there are resources in the Product L & D Hub that are outdated or you disagree with, we encourage you to bring it to our attention as well.
 
@@ -738,5 +719,3 @@ If there’s content you want to add to or remove from this library, simply rais
 [Farnoosh Seifoddini](https://gitlab.com/fseifoddini)
 
 [Viktor Nagy](https://gitlab.com/nagyv-gitlab)
-
-

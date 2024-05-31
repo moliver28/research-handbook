@@ -9,6 +9,7 @@ description: "Identify backend bounded contexts composing the GitLab Rails monol
 |-----------------|-----------------|
 | Date Created    | 2023-11-28 |
 | Target End Date | 2024-03-31 |
+| Actual End Date | 2024-05-20 |
 | Slack           | [#wg_bounded_contexts](https://gitlab.enterprise.slack.com/archives/C069VRRN70S) (only accessible from within the company) |
 | Google Doc      | [Agenda doc](https://docs.google.com/document/d/1Ss2lvZHm1ID5CTVQJS3ivM7Nc1FgLaPCBCSm2RDawKI/edit) (only accessible from within the company) |
 
@@ -57,15 +58,11 @@ Members of the working group will:
 
 The working group can be disbanded when:
 
-- We have a published list of identified bounded contexts that acts as a documentation for developers.
-- We have a simple process for creating, deleting and renaming bounded contexts, to allow the codebase evolve over time.
-
-Follow-up from the working group (and not in scope) can be:
-
-- Create or [update](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/51236) a Rubocop Cop to enforce top-level
-  namespaces using the list of identified bounded contexts.
-  A new namespace must be either an existing one or one from the new list.
-  This will help engineers move gradually to the new list of bounded contexts.
+| Exit criteria | Resulting artifact |
+| ------------- | ------------------ |
+| We have a published list of identified bounded contexts that acts as a documentation for developers. | [`config/bounded_contexts.yml`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/bounded_contexts.yml) |
+| We have a simple process for creating, deleting and renaming bounded contexts, to allow the codebase evolve over time. | [Docs updated](https://docs.gitlab.com/ee/development/software_design.html#bounded-contexts) |
+| Bonus: Create a Rubocop Cop to enforce top-level namespaces using the list of identified bounded contexts. | [Rubocop static analyzer added](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/151984) |
 
 ### Details
 

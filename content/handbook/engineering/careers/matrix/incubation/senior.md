@@ -12,7 +12,6 @@ title: "Incubation Engineering Department Career Framework: Senior"
 - [Senior Technical Competencies](#senior-technical-competencies)
 - [Senior Values Alignment](#senior-values-alignment)
 
-
 ### Senior Leadership Competencies
 
 {{% include "includes/engineering-careers/senior-leadership-competency.md" %}}

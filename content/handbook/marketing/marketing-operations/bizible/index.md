@@ -35,7 +35,7 @@ When AMM creates BAT's, it uses all the BT's associated to any Contact on the ac
 
 | Buyer Touchpoint (BT) | Buyer Attribution Touchpoint (BAT) |
 | ----- | ----- |
-| Relates to the Lead & Contact | Relates to the Contact, Account, and Opportunity Objects
+| Relates to the Lead & Contact | Relates to the Contact, Account, and Opportunity Objects |
 | Does not relate to the Opportunity Object | Does not relate to the Lead Object |
 | Revenue is not associated to a Buyer Touchpoint |    Assigned revenue when NET ARR of Opportunity is set |
 
@@ -87,7 +87,6 @@ Currently the Custom Model has the following weights for each stage (updated Feb
 - **Closed (Lost, Won)** - 29.2%
 - **Middle Touches** - 13.2%
 
-
 ### Online vs. Offline Touchpoints
 
 AMM generates Touchpoints as either online or offline based on how they were created.
@@ -132,7 +131,6 @@ Once a Touchpoint is created, AMM uses a set of predefined [mapping rules](#amm-
 | Sales activity          | Outbound call by SDR                                                                                                                          | CRM Activity (Task or Event) record synced to AMM, through logic on the Activities page in AMM                                                                                                                  | By referencing the Campaign Name assigned on the Activities page        |
 
 AMM has more extensive documentation on how [Touchpoints are generated and mapped](https://docs.marketo.com/display/BIZ/Touchpoint+Generation+and+Mapping).
-
 
 ## AMM Channel and Subchannel Mapping
 

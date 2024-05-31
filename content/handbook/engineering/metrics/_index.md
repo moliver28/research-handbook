@@ -114,7 +114,6 @@ The 3 types (Bug, Feature & Maintenance) is key to our report to industry analys
    * `~"maintenance::performance"`: Non-defect performance improvements such as load time for a specific page or component, or run time for a specific process.
    * `~"maintenance::release"`: Release management related changes.
 
-
 If these labels are missing, it will be tracked in the `undefined` bucket instead.
 The Engineering Manager for each team is ultimately responsible for ensuring that these labels are set correctly. If you do not feel the purpose of this issue matches one of the types, you may apply the `~type::ignore` label to exclude it from type tracking metrics and future prompts, this can be good for issues marked `~Planning Issue`.
 
@@ -179,6 +178,7 @@ This guidance may be helpful if you are wondering the go-forward type label base
 In the spirit of "Everyone can Contribute" it's natural that members in a group will contribute to another group.
 
 We allow flexibility where the parent `devops::xxx` and child `group::xxx` label may not match. For example:
+
 * In the case where labelling was corrected by a human.
 * When working on shared `frontend`, `backend` components or `type::tooling` work that spans multiple groups.
 
@@ -195,8 +195,7 @@ The current list of projects are identified in the [`gitlab-data/analytics`](htt
 | System Database | File |
 |-----------------|------|
 | GitLab.com      | [`projects_part_of_product.csv`](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product.csv) |
-| ops.gitlab.net  | [`projects_part_of_product_ops.csv`](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product_ops.csv)
-
+| ops.gitlab.net  | [`projects_part_of_product_ops.csv`](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product_ops.csv) |
 
 ### Updating the list of projects
 

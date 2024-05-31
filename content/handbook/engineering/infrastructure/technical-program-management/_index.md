@@ -62,5 +62,3 @@ The TPM team drives complex cross functional programs at GitLab. The list below 
 | [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/) | Ethan Guo |
 | [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/#projects) | Ethan Guo |
 | [Disaster Recovery](https://gitlab-com.gitlab.io/-/content-sites/internal-handbook/-/jobs/6193598265/artifacts/public/handbook/engineering/disaster-recovery.html) | Ethan Guo|
-
-

@@ -12,7 +12,7 @@ The mission of the Production Engineering Foundations team at GitLab is to own t
 The Foundations teams North Star consists of two pieces:
 
 1. **Creating a platform that drives vertical ownership of engineering services.** We will do this by providing the rest of engineering the resources and tools needed for them to manage their infrastructure and core services in a way that makes it easy for other teams to adopt the best practices and conventions defined by our team. By moving towards centralized sets of tooling for all GitLab instances and all services to work from, we will create a culture of scalability for the future of GitLab infrastructure.
-1. **Sustainable toil.** Toil is a given in SRE work. We will adopt processes and policies that create a balance between what is automated and is done manually so as GitLab grows, the toil involved in running it is maintained at a minimal level for the team. 
+1. **Sustainable toil.** Toil is a given in SRE work. We will adopt processes and policies that create a balance between what is automated and is done manually so as GitLab grows, the toil involved in running it is maintained at a minimal level for the team.
 
 ## Responsibilities
 
@@ -140,6 +140,7 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 ### Standup
 
 We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.
+
   - Monday questions include:
     - What are your top priorities this week?
     - What did you accomplish last week?
@@ -236,7 +237,7 @@ Open planned work for our team is located in the [Production Engineering](https:
 - Link to a related Epic.
 - Include the following Labels (update the priority as needed):
 
-   ```
+   ```text
    /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P4"
    ```
 

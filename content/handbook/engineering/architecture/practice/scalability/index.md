@@ -8,21 +8,15 @@ title: "Scalability"
 * A framework to evaluate technical scalability-related decisions in context
 * Best practices guidelines to lead our scalability design and implementation
 
-
-
 ## The framework
 
 Frameworks help contextualize our thinking around a problem by breaking it into manageable conceptual parts, providing vantage points from which we can *evaluate* choices in both the present and the future. Our design becomes more predictable, our discussions more focused, our decisions likely more accurate and correct. We can make tradeoffs more visible, and, hopefully, easier to understand and reason about.
 
 [**Swimlanes**](https://akfpartners.com/growth-blog/fault-isolation-swim-lane) and the [**Scale Cube**](https://akfpartners.com/growth-blog/scale-cube) are widely adopted models to manage both fault isolation and scalability in a structured fashion.
 
-
-
 ## Swimlanes
 
 *A “swim lane” or fault isolation zone is a failure domain. A failure domain is a group of services within a boundary such that any failure within that boundary is contained within the boundary and the failure does not propagate or affect services outside of the said boundary.*
-
-
 
 ## The Scale Cube
 
@@ -39,17 +33,11 @@ Under this model, the axes represent the following scalability strategies:
 
 These are well-known strategies we are intuitively familiar with. The power of formally adopting the framework lies in that we can now contextualize these strategies and potentially *consider* several moves ahead in a systematic fashion. The following figure (source: https://upload.wikimedia.org/wikipedia/commons/5/5f/Scale_Cube.png) depicts these axes:
 
-
-
 ![https://upload.wikimedia.org/wikipedia/commons/5/5f/Scale_Cube.png](img/scale_cube.png)
-
-
 
 The Scale Cube model starts at coordinates `[0,0,0]`, where a single instance runs on one system: scalability is entirely dependent on the compute resources associated with the system, and it is scaled by adding more and faster computing resources (CPU, memory, disk). The limiting factor becomes the largest available computing resource, closely followed by cost.
 
 The Scale Cube can be applied to any component in all iterations.
-
-
 
 ## Example: Postgres current state
 
@@ -61,8 +49,6 @@ GitLab.com is currently running at `[1,1,0]`:
 * `Y`-axis: We are already migrating some data (diffs) off the database through componentization, albeit without creating a service
 
 A [recent analysis](https://gitlab.com/gitlab-com/gl-infra/infrastructure/-/issues/10340) indicates our database capacity is well beyond the 12-month range (and estimate that will be updated weekly). As we ponder scalability options, the question is whether the next iteration implements `[1,2,0]` or `[1,1,1]`. Current proposals essentially advocate for the latter strategy, but there is a case to be made for choosing an entirely different direction.
-
-
 
 ## Scalability Best Practices
 
@@ -84,7 +70,7 @@ Never attempt to scale across two axes at the same time.
 
 **Componentization** breaks down a system into logical, interconnected components. **Federation** refers to [TODO: definition].
 
-![](img/yz.png)
+![''](img/yz.png)
 
 Componentization provides scale by creating headroom throughout the freed up resources extracted from the system. It also allows us to scale them relatively independently of other components, as locally optimize and scale individual components as necessary: in general, we need only worry about appropriately scaling downstream dependencies, so as to not overwhelm them. In extreme cases, we may choose an entirely different class of datastore (for instance, we may determine that storing comments in a document database is more effective than doing so in a relational database; we are already doing this by migrating diffs off of Postgres into object storage).
 
@@ -148,4 +134,3 @@ It is important to articulate scalability objectives before embarking on scalabi
 ## Scope the Solution
 
 What potential solutions(s) would meet the objectives? Use the Scale Cube and Best Practices to scope it (them), and evaluate what future steps might look like (step-functions). Engage through the Architecture Workflow.
-

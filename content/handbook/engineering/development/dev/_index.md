@@ -59,7 +59,6 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 #### Plan:Knowledge
 
-
 {{< team-by-manager-role role="Senior Manager, Engineering(.*)Plan" team="[,&] (Plan:Knowledge)" >}}
 
 ### Create

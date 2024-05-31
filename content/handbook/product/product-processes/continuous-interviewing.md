@@ -41,7 +41,6 @@ The following is a non-exhaustive list of approaches to finding customers open t
 
 #### Tips for leading continuous interviews
 
-
 - Modify the process to best fit your teams' needs, including the PM, PD, and the engineering team
 - All continuous customer interview data should live in Dovetail. Any additional information (summaries, templates, etc.) can live in confidential issues as long as the data are connected back to the Dovetail project.
 - Remove customers’ [Personally Identifiable Information (PII)](/handbook/support/workflows/pii_removal_requests/) from Dovetail and GitLab issues, so that team members do not identify specific individuals as part of the research process.

@@ -9,7 +9,6 @@ title: "The Infrastructure SaaS Platforms OKRs"
 
  [OKRs](/handbook/company/okrs/) (or other items outside of projects) that require progress tracking should be updated **every Wednesday**.
 
-
 When writing OKRs, the guidance is that:
 
 * Objective is defined as “**What** do you want to achieve?”
@@ -20,7 +19,7 @@ When writing OKRs, the guidance is that:
 
 The description for an Objective should have the following format:
 
-```
+```markdown
 ### Context
 
 <context about the Objective and the problem it is trying to solve>
@@ -36,7 +35,7 @@ If the description also needs other sections, these can be added after the block
 
 The description for an Key Result should have the following format:
 
-```
+```markdown
 ### Context
 
 <context about how this Key Result contributes to meeting the goal of the Objective>
@@ -48,25 +47,25 @@ The description for an Key Result should have the following format:
 
 ### Keeping OKRs up to date
 
-Objectives and Key Results should be updated every Wednesday. 
+Objectives and Key Results should be updated every Wednesday.
 
-For key results, the DRI must update the progress and the health of the key result. 
+For key results, the DRI must update the progress and the health of the key result.
 
-For objectives, the DRI must update the health and provide a short status update. 
-The status update should be a one-line summary for each key result that belongs to the objective. 
-The progress of objectives should not be updated as this is achieved by automation. 
+For objectives, the DRI must update the health and provide a short status update.
+The status update should be a one-line summary for each key result that belongs to the objective.
+The progress of objectives should not be updated as this is achieved by automation.
 
 The reason we do not have larger status updates is because we rely on the status information that is already present on the linked issues and epics.
 We strive to keep the OKR process as lightweight as possible.
 
 ### OKR Retrospective
 
-At the end of the quarter, each team should perform a retrospective on the objectives. 
+At the end of the quarter, each team should perform a retrospective on the objectives.
 There is no set format for the retrospective - it can be performed in a separate issue or on the objective itself.
 
 The result of the retrospective is to update the description field of the objective using the format below:
 
-```
+```markdown
 ### Retro
 
 #### Good

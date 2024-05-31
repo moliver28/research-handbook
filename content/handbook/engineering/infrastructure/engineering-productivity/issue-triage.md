@@ -268,8 +268,6 @@ Severity should be assessed using the following table:
 
 These issues follow the established [severity SLOs for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
-
-
 ## Triaging Issues
 
 Initial triage involves (at a minimum) labelling an issue appropriately, so un-triaged issues can be discovered by searching for issues without any labels.
@@ -353,10 +351,7 @@ As the DRI you should consider take additional steps to ensure the continued sup
 
 If as a result of the triage process a group is identified as qualified and willing to take ownership on a permanent basis, product and engineering leaders should officially document the type of ownership model and the team in the [shared services components](/handbook/engineering/development/#shared-services-and-components) section of the Development handbook. Multiple groups may permanently share ownership of the same component if deemed appropriate.
 
-
 It is important to keep in mind that throughout this process, as a leader in your group, you are deemed the initial Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) until the issue is resolved or someone else agrees to take over. Simply removing your group label without further triage conversations with other groups is not an acceptable or helpful action to take in this process. This aligns with our value of [Results: global optimization](/handbook/values/#global-optimization).
-
-
 
 ### Outdated issues
 
@@ -379,7 +374,7 @@ Use the issue with the better title, description, or more comments and positive 
 
 If the issue is really a support request for help, you can post this message:
 
-```
+```markdown
 Hey {{author}} thanks for reaching out, but it looks like this might be a request for support. The issue tracker is for new bug reports and feature proposals. For support requests we have several resources that you can use to find help and support from the Community, including:
 
 * [Technical Support for Paid Tiers](https://about.gitlab.com/support/)

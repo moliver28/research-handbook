@@ -7,7 +7,7 @@ description: The Create:Code Review FE team is responsible for all frontend aspe
 
 | **Category**            | **Handle** |
 |-------------------------|-------------|
-| **GitLab Team Handle**  | [@code-review-fe](https://gitlab.com/code-review-fe)
+| **GitLab Team Handle**  | [@code-review-fe](https://gitlab.com/code-review-fe) |
 | **Slack Channel**               | [`#g_create_source-code-review-fe`](https://gitlab.enterprise.slack.com/archives/CS5NHHBJ7) |
 | **Slack Handle**               | `@code_review_fe` |
 | **Team Boards**         | [`Current Milestone`](https://gitlab.com/groups/gitlab-org/-/boards/2177994) |
@@ -43,7 +43,7 @@ The following people are permanent members of the Create:Code Review FE Team:
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts manager-role="Senior Engineering Manager(.*)Create:Code Review" role="(Product Manager|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Code Review|Create \(Code)|Dev\:Create|Code Review" >}}
+{{< stable-counterparts manager-role="Senior Engineering Manager(.*)Create:Code Review" role="(Product Manager|Technical Writer|Software Engineer in Test|Senior Security Engineer|Product Designer).*(Create:Code Review|Create \(Code)|Dev\:Create|Code Review" >}}
 
 ## Core Responsibilities
 

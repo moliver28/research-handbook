@@ -87,7 +87,7 @@ For Spain based team members, GitLab provides 100% paid membership of medical in
 
 You can view the [2024 plan premiums here](https://docs.google.com/document/d/1ZzQQgDr-11Zw8FHzozPyn6kalo1Y5J0-Fd1uRDXXn9E/edit).
 
-Further information can also be found in the [AXA VIP Summary](https://drive.google.com/file/d/13GpHxj6s4UHwPygdWiqSLbzhw8ppFplr/view?usp=sharing).
+Further information can also be found in the [AXA VIP Summary](https://drive.google.com/file/d/13GpHxj6s4UHwPygdWiqSLbzhw8ppFplr/view?usp=sharing) and [VIP User Guide](https://drive.google.com/file/d/102bUKV0_zsJ8voRWmvcdpWQDr91gY1_k/view?usp=sharing)
 
 Temporary Medical Allowance: To make up for the transition period and pivot in our proposal, the TR team will be offering a monthly gross allowance of 140 Euros until December 31, 2024. After this period the allowance will cease. This will apply to any team member that started on the entity prior to July 1, 2023.
 

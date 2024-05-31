@@ -16,6 +16,7 @@ description: "Infrafin Board"
 ## Criteria
 
 While we would like each team to be as efficient as possible, it is not scalable or realistic for us to talk to each individual about one server or a few servers they are spinning up. For that reason we provide learning resources for those individuals to try and price out their own resources and then we define the following minimum requirements for something to be considered as part of the infrafin board. If the issue meets any of the following criteria and it is within our scope of control (part of central billing that we have visibility into) it can be added as a potential infrafin issue.
+
 - Impact of issue (current or near future) is $10K/quarter or more
 - Issue is part of an OKR for the current quarter
 - If cost is less than $10K/quarter, but month over month cost has doubled for a particular team or service for an unknown or unplanned reason
@@ -80,7 +81,6 @@ This factor captures the general timeline for how much time and effort is requir
 | 1 yr - 2 yr  |      1 |
 | > 2 yr       |      0 |
 
-
 ## Infrafin Board
 
 ### Short Term Saving Initiatives Process
@@ -106,8 +106,6 @@ Due to the nature of being bucketed as a short term initiative, these should be 
 #### 5. Follow-up
 
 After the change has been made, confirm the numbers match close to what was expected.
-
-
 
 ### Longer Term Saving Initiatives Process
 
@@ -153,8 +151,6 @@ If the issue weight is over 7 (and not a short term initiative), infra PM should
 
 Once completed, analyze the real impact of the change and expectations going forward.
 
-
-
 ## Infrafin Initiatives & FP&A
 
 Some infrafin initiatives may be included in our financial plan. Examples of this can be seen in the savings tab of our [Vendor Rolling Forecast](https://docs.google.com/spreadsheets/d/1H5OyPAXoQhEJGYYwPoeSElCjhMyzkoz4NB9qEtk53T0/edit?usp=sharing) Spreadsheet. The criteria for initiatives included as part of this are very strict as these would be expected to be completed on time with relatively accurate savings numbers. Labels `ready_for_plan_` can be used by infra analyst to designate when an initiative has sign off and is ready to be included in the next forecast, and `in_plan` can be used to denote when this has actually been included as part of the forecast.
@@ -165,19 +161,20 @@ Some infrafin initiatives may be included in our financial plan. Examples of thi
 - confidence in savings number > 50%
 - `ready_for_plan` label on issue with estimated actual savings, meaning that the number takes into account any relevant discounts as well as other initiatives already included in the forecast which may have overlapping savings.
 
-
-
 ## Labeling
 
 - `infrafin`
 
 used to put issues on the infrafin board
+
 - `Savings-Estimate`
 
 Estimate of quarterly savings of the initiative. Savings labels should be before any discounts are applied and disregarding other initiatives that amy affect the number. This way, we have a consistent and isolated savings estimate label for each initiative to prioritze by
+
 - `ready_for_plan`
 
 used once the issue has passed the criteria mentioned above and is ready to be reviewed and put into the forecast
+
 - `in_plan`
 
 used once the initiative is included into the forecast

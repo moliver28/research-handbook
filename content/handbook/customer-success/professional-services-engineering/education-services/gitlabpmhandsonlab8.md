@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Create And Manage A Kanban Board"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Create And Manage A Kanban Board"
 description: "This Hands-On Guide walks you through creating and managing a Kanban board via issue boards."
 ---
 

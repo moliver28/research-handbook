@@ -58,7 +58,6 @@ The **Roadmap Issue** (or Epic) should be a public resource for the SEG to commu
 
 An example of this structure can be seen on the [Mobile DevOps Handbook Page](/handbook/engineering/development/incubation/mobile-devops/#jobs-to-be-done).
 
-
 #### GitLab Product Development Group affinity
 
 List the the [product development groups](/handbook/product/categories/), if any, that the SEG project may impact as a link to the appropriate handbook page. In the early stages this may not be known and may change as the SEG project evolves, please update when there are changes.
@@ -99,10 +98,10 @@ guidelines for said video:
    1. If you need more than 3 minutes, you can still do that but don't put it in the playlist `Incubation Engineering - latest`
 1. Quality should be 1080p or higher so content on screens shared is still readable
 
-
 #### Playlists
 
 There are 2 playlist in general:
+
 * [Incubation Engineering](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
 * [Incubation Engineering - Latest](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
 
@@ -144,7 +143,6 @@ Take advantage of GitLab resources with guidance on how to [facilitate customer 
 For Incubation Engineering team members not familiar with customer conversations, it is perfectly okay to simply _shadow_ calls and to say nothing throughout the call. Introduce yourself if invited, and help GitLab team members by keeping notes.
 
 Those comfortable with external interactions may offer their services to the Field Marketing event lead by means of answering questions and interacting with the participants when the GitLab speaker requests support.
-
 
 ### Quality & Support Guidelines for Incubation Projects
 

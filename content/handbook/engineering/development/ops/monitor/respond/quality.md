@@ -23,11 +23,11 @@ to check whether our application works as expected across the entire software st
 integration of all micro-services, features and components that are supposed to work together to satisfy any
 meaningful and complete user workflow.
 
-
 ### Where are they?
 
 In the [GitLab repository](https://gitlab.com/gitlab-org/gitlab/qa). The E2E tests for this group can
 be found or added at:
+
 - `qa/qa/specs/features/api/8_monitor/`
 - `qa/qa/specs/features/browser_ui/8_monitor/`
 - `qa/qa/specs/features/ee/api/8_monitor/`
@@ -55,7 +55,7 @@ environments.
 First you will need to install `gitlab-qa` gem. Navigate to `gitlab/qa/`. Depends on the scenario and if your test is
 for an EE feature or not, but for the benefit of this group, we use `email_notification_for_alert_spec.rb` as example:
 
-```
+```console
 gitlab-qa Test::Integration::SMTP CE qa/specs/features/browser_ui/8_monitor/alert_management/email_notification_for_alert_spec.rb
 ```
 
@@ -72,7 +72,7 @@ to be in `gitlab/qa/` and run `$ bundle install` first. Then depends on which en
 
 **GDK**
 
-```
+```text
 QA_GITLAB_URL=http://<your.gdk.hostname>:3000 bundle exec rspec qa/specs/features/path/to/your/spec.rb
 ```
 
@@ -82,7 +82,7 @@ cases or how to config your GDK, see
 
 **Staging or other dotcoms**
 
-```
+```text
 GITLAB_USERNAME="gitlab-qa" GITLAB_PASSWORD=<in 1password> GITLAB_QA_USER_AGENT=<in 1password> QA_GITLAB_URL=https://staging.gitlab.com bundle exec rspec qa/specs/features/path/to/your/spec.rb
 ```
 
@@ -102,6 +102,7 @@ pipeline directly. All test jobs will produce artifacts from test execution (log
 **For example:** In this [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/110829), `e2e:package-and-test` was run and triggered
 a [downstream pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines/767219117) that runs all E2E tests. You want to
 inspect why [ee:instance-parallel 3/5](https://gitlab.com/gitlab-org/gitlab/-/jobs/3714070554) failed:
+
 - First, check the the job log. It contains stacktrace that can be helpful for investigation.
 - Or in the job's artifacts, under `gitlab-qa-run-*/gitlab-ee-qa-*/qa-test-*/`,  you will find screenshots of where
 the test failed at during execution.

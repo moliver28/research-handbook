@@ -1,13 +1,10 @@
 ---
-
 title: Mobile DevOps Guides
 ---
 
-# Mobile DevOps Guides
-
 A collection of simple guides to help getting started with Mobile DevOps.
 
-# iOS
+## iOS
 
 ## How to create an App Identifier in the Apple Developer Portal
 
@@ -57,4 +54,3 @@ Apple imposes a limit of three distribution signing certificates per account. Gi
 1. Select only one signing certificate to be included with the new provisioning profile, and click `Continue`
 1. Input a name for the provisioning profile, and click `Generate`
 1. Wait for the new provisioning profile to be created, then click `Download`
-

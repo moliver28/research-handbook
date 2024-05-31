@@ -1,8 +1,6 @@
 ---
-
 title: "Professional Services EM Opportunity Tracking"
 description: "Describes processes for tracking open PS opportunities."
-
 ---
 
 # Tracking Opportunities
@@ -38,7 +36,6 @@ New scoping issues can be accessed from the ["Issues by EM" board](https://gitla
 
 The board uses scoped labels with the `proposal` key to track the standard scoping issue workflow:
 
-
 | Column | Definition |
 | --- | --- |
 | Open | Starting state for each scoping issue - EM has not reviewed the scoping issue yet |
@@ -63,11 +60,11 @@ Win rate is calculated by:
 > Win Rate =  ClosedWon / (ClosedWon + ClosedLost)
 
 Where:
+
 - **ClosedWon** is determined by the associated SFDC opportunity going into closed/won status. This is done with the `proposal:Closed_Won` label
 - **ClosedLost** is determined by the associated SFDC opportunity going into closed/lost status OR the scoping issue not having any activity for a period of 2 months. This is done with the `proposal:Closed_Lost` label. This helps us be objective with what should be considered Closed/Lost. This is a general principle and can be overridden by an EM if the opportunity is still active, but has not had contribution within the last two months.
 
 As we have a quarterly reporting cycle, we need to know the quarter in which these opportunity scoping issues closed. We accomplish that by adding the close_qtr::QXYY ( example:`close_qtr::Q322` ) label to any issue that goes to closed won or lost.
-
 
 ### Other Labels Used for Tracking Scoping Issues
 

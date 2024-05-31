@@ -5,14 +5,6 @@ title: "Geo and Disaster Recovery - Retrospectives"
 description: "How the Geo Team Runs Retrospectives"
 ---
 
-
-
-
-
-
-
-# Geo Team Retrospectives
-
 Retrospectives are a [crucial component](https://www.retrium.com/blog/i-was-wrong-retrospectives-are-not-the-most-critical-part-of-agile-but-they-are-close) of the agile methodology. However, having a retro should not be about checking-off a mark in our agile todo list. The purpose of the retro is to learn and then take action that leads to a better place. We learn from our past actions and results and we use that knowledge to improve our future execution.
 
 The Geo team will have monthly retrospectives as a way to reflect on how things are working out for the team and for its members. The objective is to learn and become a better team in terms of collaboration and execution of the team’s mission.
@@ -30,15 +22,18 @@ GitLab promotes the value of remote and asynchronous work. Our retrospective pro
 ## Participants
 
 Geo team members required:
+
 - All geo engineers
 - Engineering manager
 - Product manager
 
 Optional:
+
 - Software engineer in test
 - Product designer
 
 Occasional (by invitation)
+
 - Core Platform group product manager
 - Core Platform group director of engineering
 
@@ -74,7 +69,6 @@ All team members are strongly encouraged to attend. This is a once a month meeti
 
 The retrospective will wrap up with a check-out activity that helps with reflection on how the retrospective itself went and if any adjustments are required.
 
-
 #### Exceptions to the schedule
 
 For each one of these stages, if people are out on PTO, they can be excused from following the schedule and they can catch up with the process when and if they come back from PTO before the retrospective is over. You are encouraged to plan ahead and check-in with the engineering manager the week before if you want to provide your input before leaving for PTO.
@@ -84,6 +78,3 @@ For each one of these stages, if people are out on PTO, they can be excused from
 GitLab promotes the value of transparency, so the activities and data collected for retrospectives will be public by default. However we do want to create a safe space conducive of honest feedback and a high degree of engagement. During Wrap-up, there will be an opportunity to bring up anything that should be shared privately and a new issue can be created with proper permissions to continue the conversation there. Alternatively, you may make use of [GitLab's internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) to have those conversations in the same issue.
 
 Highlights of the retrospective will be written to a GitLab issue accessible to team members as record keeping.
-
-
-

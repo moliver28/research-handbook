@@ -55,7 +55,6 @@ Before assigning the CMO for review and approval, please ensure that the followi
 
 Follow the best practices for merge request reviews in the [CEO handbook](/handbook/ceo/#communicating-merge-requests).
 
-
 ## Sharing content to read
 
 If you have an interesting article or news item to read and learn, feel free to share it in the [#cmo Slack channel](https://gitlab.slack.com/archives/C04C38T1KQV) too.
@@ -65,5 +64,3 @@ If you have an interesting article or news item to read and learn, feel free to 
 - Add screenshots, or source URLs for better context
 - Optional: `Suggested actions:` that suggest a follow-up task for the CMO.
   - Example: Retweet/Reshare a Twitter/LinkedIn share, or share an article in the network for thought leadership.
-
-

@@ -5,14 +5,7 @@ description: Trainings for Team Members provided by the Corporate Communications
 ---
 ## Corporate Communications Resources and Trainings
 
-
 More information about additional trainings are coming soon.
-
-
-
-
-
-
 
 ## External Speaking Trainings
 
@@ -50,6 +43,7 @@ The content amplification does not need to stop at that one event,blog post or w
 Anyone can test their knowledge of social media basics or get up to speed with our social media 101 training and certification. The video runs under 22 minutes and the knowledge assessment could be done in as little as 10 minutes. You could be more confident with social media in less than 45 minutes!
 
 ##### 🔗 [Watch the training here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/c5UcbNYVTu4)
+
 We're aware of a typo in the middle of the session. Instead of "do no" at 4:43 and 5:46, it should be "do not". Kristen says this in the session, but the slide is missing the last letter.
 
 To obtain a certificate, you will need to complete this [Social Media 101 Knowledge Assessment](https://forms.gle/X5toY6A1jhguYyfj8) and earn at least an 80%. Once the quiz has been passed, you will receive an email with your certificate that you can share on your personal LinkedIn or Twitter pages. If you have questions, please reach out to our L&D team at [learning@gitlab.com](mailto:learning@gitlab.com).

@@ -56,7 +56,6 @@ For more urgent items, feel free to use `#g_create_source_code` on Slack.
 
 [Take a look at the features we support per category here.](/handbook/product/categories/features/#createsource-code-group)
 
-
 ### Working with the Product Team
 
 Weekly calls between the Product Manager and Engineering Managers (frontend and backend) are listed in the "Source Code Group" calendar. Everyone is welcome to join and these calls are used to discuss any roadblocks, concerns, status updates, deliverables, or other thoughts that impact the group.
@@ -90,7 +89,7 @@ You are encouraged to work as closely as needed with stable counterparts outside
 
 Quality engineering is included in our workflow via the [Quad Planning Process](https://gitlab.com/gitlab-com/www-gitlab-com/issues/6318).
 
-Application Security will be involved in our workflow at the same time that [kickoff emails](#kickoff-emails) are sent to the team, so that they are able to review the upcoming milestone work, and notate any concerns or potential risks that we should be aware of.
+Application Security will be involved in our workflow at the same time that kickoff emails are sent to the team, so that they are able to review the upcoming milestone work, and notate any concerns or potential risks that we should be aware of.
 
 ### Communication
 
@@ -190,7 +189,6 @@ At this point the issues are *Candidate* issues, and the milestone does not conf
 | The Friday the milestone ends | **EMs** adjust ~Deliverable labels for slippage and make final assignments<br><br>**PMs** review final plan for milestone on Build board<br><br>**EMs** merge RPI MRs for features that have been merged.|
 | The third Thursday of the month | Release |
 
-
 #### Weighting issues
 
 Based on the issues on the [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/2822491?milestone_title=14.1&label_name%5B%5D=group%3A%3Asource%20code), the EM will create a [Needs Weight](https://gitlab.com/gitlab-org/create-stage/-/issues/12837) issue to request an estimation of work by the engineers. In general no more than 4 issues should be assigned to an engineer for weighting.
@@ -256,7 +254,7 @@ Availability is a percentage calculated by *(work days available / work days in 
 
 All individual contributors start with a "weight budget" of 10, meaning they are capable (based on historical data) of completing a maximum number of issues worth 10 weight points total (IE: 2 issues which are weighted at 5 and 5, or 10 issues weighted at 1 each, etc.) Then, based on their availability percentage, weight budgets are reduced individually. For example, if you are 80% available, your weight budget becomes 8.
 
-Product will prioritize issues based on the teams total weight budget. Our [planning rotation](#planning-rotation) will help assign weights to issues that product intends on prioritizing, to help gauge the amount of work prioritized versus the amount we can handle prior to a kickoff.
+Product will prioritize issues based on the teams total weight budget. Our [planning rotation](#capacity-planning) will help assign weights to issues that product intends on prioritizing, to help gauge the amount of work prioritized versus the amount we can handle prior to a kickoff.
 
 ##### Source Code issue pipeline
 
@@ -283,7 +281,6 @@ Once availability has been determined, weights have been assigned, and the PM/EM
 - A list of the issues you will most probably be assigned as an individual
 - A reasoning behind why you have been assigned more than your weight budget, if applicable
 - A list of the issues the team is working on that are deemed "note-worthy," in case you'd like to offer help on those issues as time allows
-
 
 You will begin to collect follow-up issues when you've worked on something in a release but have tasks leftover, such as technical debt, feature flag rollouts or removals, or non-blocking work for the issue. For these, you can address them in at least 2 ways:
 

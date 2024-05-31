@@ -66,7 +66,6 @@ Each week, the current Release Managers walk through the key Delivery Group metr
 1. Walkthrough of last week’s [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192)
 1. Do we need to take action based on the previous week’s MTTP?
 
-
 ## Resources
 
 | Description        | Location            |

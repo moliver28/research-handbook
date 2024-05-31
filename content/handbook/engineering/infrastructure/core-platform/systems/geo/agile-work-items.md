@@ -5,14 +5,6 @@ title: "Geo and Disaster Recovery - Hierarchy of Agile Work Items"
 description: "How the Geo Team organizes agile work items"
 ---
 
-
-
-
-
-
-
-# Geo Team's Hierarchy of Agile Work Items
-
 This section describes the approach that the Geo team takes to break down the requirements into work-in-progress items that engineers move through the workflow of implementation.
 
 First, we describe general agile work item terminology to create alignment and use common industry vocabulary. We then map these general terms to the specific work item terminology used by GitLab.
@@ -99,7 +91,6 @@ This table aims to provide a mapping between the concepts in the hierarchy and t
 | User Story | Issue        |
 | Task       | Tasks *      |
 | Bug        | Issue with label `type::bug` |
-
 
 \* For tasks, there is a couple of options, we can use [task lists](https://docs.gitlab.com/ee/user/markdown.html#task-lists) in the issue description using markdown, or we can create formally [Tasks](https://docs.gitlab.com/ee/user/tasks.html) that are its own work item type in GitLab.
 

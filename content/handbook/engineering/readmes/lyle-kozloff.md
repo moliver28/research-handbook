@@ -90,7 +90,6 @@ on it. I try and build process after I have a full understanding of the problem
 set, but sometimes I need a nudge before I feel its ready to hand off. Sometimes
 I misjudge the complexity or length of a task.
 
-
 ### Your development
 >
 > *From the time you were very little, you've had people who have smiled you into
@@ -101,11 +100,13 @@ I misjudge the complexity or length of a task.
 
 One of the best ways to learn is to have excellence modeled and to copy it.
 Therefore:
+
 - Continue pairing after your onboarding is over.
 - Attend crush sesions; ask questions.
 - Choose topics, seek out experts and relentlessly pursue them.
 
 I want to help you grow. I can / will / have:
+
 - play the role of your conscience and ask you annoying questions about your progress
 - be a "study buddy" and grow/learn together
 - help you find projects that require you to learn in a certain area
@@ -129,6 +130,7 @@ I do look for opportunities to compliment wins, but I miss things. If you're pro
 something, please bring it up!
 
 If you're not getting feedback and you want some, please ask for feedback in a *specific* area:
+
 - "I'm not feeling confident about topic X, can you take a look at my work Y this week
 and let me know how I did?"
 - "This week I did X, even though we talked about doing Y, because of Z. Did I priotize correctly?"
@@ -163,6 +165,7 @@ If we don't have anything on the agenda, please expect me to try and get to know
 If you're struggling for topics, please include items that you've worked on this week.
 
 I like hearing about situations in your week because:
+
 - I always learn something
 - I get data points that help me make global process improvements
 - I get a picture of what things you're great at
@@ -186,4 +189,3 @@ Strictly following my own system, I should say "2"... but I think it's more easi
 something I say is an expectation, a suggestion or an idea please ask.
 - Please feel free to correct me in public channels if I'm wrong about something. I appreciate opportunities to model
 humility and my commitment to being a life-long learner.
-

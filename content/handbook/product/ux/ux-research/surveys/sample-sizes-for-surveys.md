@@ -46,6 +46,7 @@ Not every result needs to be statistically significant. You can sometimes gather
 ## Reporting your survey sample size
 
 Justification for your sample size is often needed to help other team members understand why you chose that sample size and what it means in the context of your results. When creating a report for your survey, we recommend adding a [slide](https://docs.google.com/presentation/d/1DbZpSovUe-HE-d3-madXk8jBZwCLwvy0yt5Da0Wr5f4/copy) (search Survey Sample Size Overview Template in Google Drive to access) within the Appendix section of your deck to communicate the following information to stakeholders:
+
 1. Why did you survey that number of respondents?
 2. Were your findings statistically significant?
 3. What was your population size?

@@ -77,7 +77,8 @@ UX Researchers have the following guidance on how they should be spending their 
 
 - **[<10% Solution Validation](/handbook/product/ux/ux-research/solution-validation-and-methods/)** - This translates to less than 10% of a researcher's time being allocated to assisting Product Designers and Product Design Managers with Solution Validation research. Solution validation research at GitLab is led by Product Designers, with support from Product Design Managers. Occasionally, Product Design Managers may need to escalate queries about solution validation research to UX Researchers for advice and feedback.
 
-      - If capacity allows, UX Researchers can help with conducting solution validation research.
+     - If capacity allows, UX Researchers can help with conducting solution validation research.
+
 Product Managers and Product Designers follow the steps in the [Validation phase 4](/handbook/product-development-flow/#validation-phase-4-solution-validation) when planning and executing solution validation research.
 
 - **[~60% Problem Validation](/handbook/product/ux/ux-research/problem-validation-and-methods/)** - Researchers spend more than half of their time working with Product Managers conducting Problem Validation research, with the long-term goal of investing their time towards training and mentoring.

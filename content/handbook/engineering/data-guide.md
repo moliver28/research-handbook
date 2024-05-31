@@ -48,7 +48,7 @@ In this section, we share commonly used data models that fuel many of our dashbo
 - **Granularity**: One row per issue
 - **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.internal_notes)
 
-### workspace_engineering.engineering_issues
+### workspace_engineering.agg_mttr_mttm
 
 - **Description**: This table calculates Mean Time to Resolve (MTTR) and Mean Time to Merge (MTTM)
 - **Granularity**: One row per issue

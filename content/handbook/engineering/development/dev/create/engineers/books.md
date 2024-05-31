@@ -29,7 +29,6 @@ description: This page list Recommended Books for Engineers.
 - The Power of Habit: Why We Do What We Do in Life and Business
 - Failing Forward
 
-
 ### Diversity Inclusion & Belonging
 
 - Wisdom at Work

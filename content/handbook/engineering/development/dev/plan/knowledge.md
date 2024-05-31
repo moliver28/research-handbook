@@ -159,7 +159,6 @@ It's encouraged to engage with this team when spiking and planning new work for 
   {{< tableau/filters "GROUP_LABEL"="knowledge" >}}
 {{< /tableau >}}
 
-
 Detailed metrics are available on the [Engineering Metrics page].
 
 [Engineering Metrics page]: https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/

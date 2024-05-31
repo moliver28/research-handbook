@@ -32,7 +32,6 @@ That can be done by engaging with managers of those team-members. However, this 
 * **Managers** located in the territory contribute an amount proportionate to the number of reports they had in the territory over the time in qualifying roles, plus their own contributions. For example, if a manager managed 10 engineers with only one in the territory for half the year, and spent 20% of their time making contributions directly, they would be considered to have spent for 24% of their time on qualifying activities (8% for one report, divided by 2 for half of the year, plus 20%).
 * **Directors** contribute 0% of their time to qualifying activities. This may vary depend on the team members' specific responsibilities.  Consult with the tax advisor for your jurisdiction.
 
-
 Details will vary between territories in how time-spend is counted for various roles within GitLab and your tax agent will advise.
 
 PTO is considered to be a given and time-spend proportion should be based on working time alone. Changes of role or territory should be pro-rated. For example, a team-member who worked exclusively on qualifying activities but spent 10% of the year on PTO would be considered to have a time-spend of 100%. If the same person transferred from a non-qualifying role or relocated into the territory halfway through the year, then their time-spend would be 50%.
@@ -40,6 +39,7 @@ PTO is considered to be a given and time-spend proportion should be based on wor
 ### Qualifying R&D Projects
 
 What qualifies as "R&D" will differ in nuance between territories and the tax agent will be able to advise on exactly how. The criteria are often qualitative, such as:
+
 * Did technological uncertainty exist?
 * Was there a process of experimentation?
 * Was the outcome a piece of novel technology?

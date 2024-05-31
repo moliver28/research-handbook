@@ -37,7 +37,6 @@ I value commitment and pride in doing good work. I am driven by constant learnin
 - [GitLab User](https://gitlab.com/juan-silva)
 - [Twitter](https://twitter.com/mexicoder)
 
-
 ## My role
 
 I joined the GitLab team as **Fullstack Engineering Manager, Geo**. In this capacity, I am primarily responsible for the well-being and performance of the Geo Team members. For this, I draw from my strong technical background and my previous experience managing high performance teams to provide an environment of psychological safety where best ideas win and everyone can contribute.

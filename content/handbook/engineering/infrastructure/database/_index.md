@@ -55,7 +55,6 @@ In backup and recovery, there are two SLOs:
 | `DB-DR-RETENTION-NEARLINE`  | From 15 to 40 days       | The number of days we keep backups for recovery purposes in [Nearline](https://cloud.google.com/storage/docs/storage-classes#nearline) storage class in GCS. |
 | `DB-DR-RETENTION-NEARLINE`  | From 40 to 120 days       | The number of days we keep backups for recovery purposes in [Coldline](https://cloud.google.com/storage/docs/storage-classes#coldline) storage class in GCS. |
 
-
 The backup strategy is to take a daily snapshot of the full database
 (basebackup) and store this in Google Cloud Storage. Additionally, we capture the
 write-ahead log data in GCS to be able to perform point-in-time recovery

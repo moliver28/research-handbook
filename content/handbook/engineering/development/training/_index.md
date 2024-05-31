@@ -78,7 +78,6 @@ Staff+ engineers and ICs aspiring to become Staff can benefit from resources and
 
 ## Edcast / GitLab Learn
 
-
 [GitLab Learn](https://gitlab.edcast.com/) is a Learning Experience Platform (LXP) meant to provide training and professional development for team members. We will continue being [handbook first](/handbook/about/handbook-usage/#why-handbook-first), and use this platform to organize, surface, and promote relevant content that exists today.
 
 We encourage you to browse all of the channels offered in GitLab Learn, as new ones are regularly being added and updated. Here are some resources to start:
@@ -86,7 +85,6 @@ We encourage you to browse all of the channels offered in GitLab Learn, as new o
 - [**GitLab Development Channel**](https://gitlab.edcast.com/channel/gitlab-development-learning-hub) - for Development-specific training resources
 - [**Recommendations from Learning and Development**](https://gitlab.edcast.com/channels/discover-channels/3635) - a collection of channels recommended by the L&D team, including Mental Wellness and Leadership Development
 - [**All Channels**](https://gitlab.edcast.com/channels/all)
-
 
 ## Process for Contributing
 
@@ -113,7 +111,6 @@ Submit a request to the [lxp-contributions project](https://gitlab.com/gitlab-co
 | Leadership | @dsatcher |
 | Security | @joernchen |
 
-
 | Future Carousels | DRI |
 | ------ | ------ |
 | Gitaly and Git | TBD |
@@ -124,7 +121,6 @@ Submit a request to the [lxp-contributions project](https://gitlab.com/gitlab-co
 The Carousel DRI will review the request and approve or deny the request. Once approved, the recommended content will be added to the channel.
 
 _Note: Carousel DRI's can only add content that exists in the platform already. If the content does not exist, the Carousel DRI will need to request that it be added first by consulting the learning and development team_
-
 
 **Criteria for approval**
 

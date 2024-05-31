@@ -4,7 +4,7 @@ title: "GitLab Early Access Program Direction"
 description: "Alignment & vision of the GitLab Early Access Program"
 ---
 
-# Purpose
+## Purpose
 
 The GitLab Early Access Program aims to increase engagement with early adopters, create brand ambassadors while also increasing the level of feedback received on non-GA high-priority features.
 

@@ -26,12 +26,13 @@ When you are conducting a problem validation research effort, make sure to apply
 ### What questions can problem validation answer?
 
 **Foundational research** provides answers to these questions:
+
 - Is there a problem? If so, what is it?
 - Who are the users?
 - What are the users’ mental models as they relate to the problem(s)?
 
-
 **Descriptive and informative research** provides answers to these questions:
+
 - What are the pain points today?
 - How do users feel about it?
 - How is this done today?
@@ -67,7 +68,6 @@ To choose the right ***descriptive and informative*** research method, ask yours
 | <ul><li>How users complete tasks over an extended period of time (hours, days or weeks)</li></ul>                                         | [Diary study](/handbook/product/ux/ux-research/diary-studies/) |
 | <ul><li>How my customers might solve product problems for themselves</li></ul>                                          | [Participatory design](https://uxmag.com/articles/participatory-design-in-practice) |
 | <ul><li>What the entire experience is from the user’s standpoint</li></ul>                                          | [User journey mapping](https://www.nngroup.com/articles/journey-mapping-101/) |
-
 
 Check out our guidance for [writing your discussion guide](/handbook/product/ux/ux-research/discussion-guide-user-interviews/) and [facilitating user sessions](/handbook/product/ux/ux-research/facilitating-user-interviews/) for In-depth interviews.
 

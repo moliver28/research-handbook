@@ -1,14 +1,6 @@
 ---
-
-title: Service Ownership
+title: GitLab Service Ownership Policy
 ---
-
-
-
-
-
-
-# GitLab Service Ownership Policy
 
 ## Purpose
 
@@ -46,5 +38,3 @@ The Reliability Team maintains responsibility for the underlying infrastructure 
 - Monitoring and observability systems
 
 Collaboration between service owners and development teams in establishing and scaling the underlying infrastructure is vital for ensuring efficient service operations and meeting [availability SLAs](/handbook/engineering/monitoring/#gitlabcom-service-level-availability).
-
-

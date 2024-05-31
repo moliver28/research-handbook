@@ -159,7 +159,7 @@ The result is improved developer efficiency, reduced costs, and excellent custom
 
 #### Goals
 
-- [x] Enable [ClickHouse connection on Staging]()
+- [x] Enable ClickHouse connection on Staging
 - [x] Enable [Runner Dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/417002) on Staging
 - [ ] Enable [CI data ingestion](https://gitlab.com/gitlab-org/gitlab/-/issues/421203) on Staging
 - [x] Enable [ClickHouse part of the dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/424498) on Staging
@@ -167,6 +167,7 @@ The result is improved developer efficiency, reduced costs, and excellent custom
 #### Summary
 
 We got everything working on Staging, but discovered two bugs in data ingestion:
+
 1. [duplicating some data](https://gitlab.com/gitlab-org/gitlab/-/issues/427427)
 1. [not handling removed `ci_builds`](https://gitlab.com/gitlab-org/gitlab/-/issues/427421)
 

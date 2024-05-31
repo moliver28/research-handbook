@@ -226,17 +226,9 @@ Changes that require approval only from the relevant Product Director include:
 
 ### Changing group name
 
-When changing the name of a group, make sure to go through the following steps:
-
-- Create a MR to change the group name in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml) using the Group-Stage-Category-Change template
-- Get the required signoff
-- Merge the group name change MR
-- Create an issue in the triage-ops project to [update GitLab Bot automation for Stage or Group change](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new?issuable_template=stage-or-group-label-change)
-- Tag the group's Technical Writer in the merge request to ensure documentation metadata is updated after the group change is merged
-- Share MR in #product, #development, #g_engineering_analytics and relevant #s_, #g_, and #f_ Slack channels
-- Review direction pages, groups, projects, epics, issues, templates and documentation to ensure the name change is applied consistently.
-- Rename Slack channels to reflect the new group name
-- Update the event and metric definitions belonging to the group by following [this guide](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_lifecycle.html#group-name-changes)
+When changing the name of a group, create a merge request to change the group name in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml)
+using the [Group-Stage-Category-Change](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Group-Stage-Category-Change.md) template,
+and make sure to complete all the steps in the template.
 
 ### Changing category name
 
@@ -322,7 +314,7 @@ Maybe we should make our features easier to search to replace the section below.
 
 ### Other functionality in Verify
 
-#### [CI Group](#continous-integration-group)
+#### [CI Group](#ci-group)
 
 - [CI Abuse Response](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11678)
 
@@ -346,7 +338,7 @@ Maybe we should make our features easier to search to replace the section below.
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
 - [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
 
-Internal Customers: [Gitaly](#gitalycluster-group), [Core Platform section](#core-platform-section), [SaaS Platforms section](#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
+Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [Core Platform section](/handbook/engineering/infrastructure/#core-platform-section), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
 ### Other functionality in [Analytics](/handbook/product/categories/#analytics-stage)
 

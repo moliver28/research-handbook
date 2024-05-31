@@ -15,7 +15,7 @@ Team Member **Resource Group** provide support for an underrepresented group
 
 Team Member **Advocacy Group**
 
-- Team Member Advocacy Groups provide company-backed support to GitLab team members through action, enablement and opportunity. As a result, they meet the specific and unique needs of demographics that are outside the scope of TMRGs. These groups provide education, resources, and community to enable increased visibility to leadership and the broader organization. A successful TMAG promotes team member engagement, well-being, retention, mobility and equity.
+- Team Member Advocacy Groups focus on Inclusion & Belonging of a demographic or social issue that sits outside of URGs and does not focus on team member representation.
 
 ### What is not an TMRG at GitLab
 
@@ -40,7 +40,7 @@ Ordered alphabetically to avoid the perception that any TMRG is more important t
 | [GitLab Disability and Neurodivergence]({{< ref "erg-gitlab-diversability" >}}) | [Kaitlyn Chappell](https://gitlab.com/kchappell), [James Hebden](https://gitlab.com/jhebden), [Dominique Top](https://gitlab.com.dlectronique) | #diverse_ability | [Sign up for future meetings (google form)](https://forms.gle/5g2wVB577Lr7M3CH7) | [DiversABILITY Agenda](https://docs.google.com/document/d/130LH9QPewms025z4OFxNNUYnjcQ53D1049EZOL2WdWc/edit?usp=sharing) | Rob Allen |
 | [Career Enablement](https://groups.google.com/a/gitlab.com/g/careerenablementtmag) | [Kristi Piechnik](https://gitlab.com/kpdoespr) and [Amruta Kulkarni](https://gitlab.com/akulks) | #career-enablement-tmag | [Sign up for future meetings with Google Group](https://groups.google.com/a/gitlab.com/g/careerenablementtmag) | TBD | Craig Mestel |
 | [GitLab Generational Understanding]({{< ref "tmrg-gitlab-generational-understanding" >}}) | Miles Russell, Terri Chu, Darwin Sanoy | #generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | TBC |
-| [Global Voices]({{< ref "tmrg-global-voices" >}}) | [Eliran Mesika](https://gitlab.com/eliran.mesika), [Charlie Ablett](https://gitlab.com/cablet) | #global-voices-tmrg | |  | |
+| [Global Voices]({{< ref "tmrg-global-voices" >}}) | [Eliran Mesika](https://gitlab.com/eliran.mesika), [Charlie Ablett](https://gitlab.com/cablet) | #global-voices-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/globalvoices/) | TBD | [Sabrina Farmer](https://gitlab.com/sabrinafarmer) |
 | [GitLab Gente]({{< ref "tmrg-gitlab-gente" >}}) | [Pilar Mejia](https://gitlab.com/pmejia), [Romer Gonzalez](https://gitlab.com/romerg), [Samara Souza](https://gitlab.com/samarasouza)  | #gente | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/latinxtmrg) | [Gente Agenda](https://docs.google.com/document/d/12dYSDjiVvFt-c6UO9y350pFbrrK5Iq2o/edit) | [Josh Lemos](https://gitlab.com/joshlemos) |
 | [Black @ GitLab]({{< ref "tmrg-gitlab-black" >}}) | [April Marks](https://gitlab.com/aprilmarks), [Marcus Carter](https://gitlab.com/marcusbriancarter), [Madou Coulibaly](https://gitlab.com/madou), [Mam Joof](https://gitlab.com/mjoof1) | #black-at-gitlab |  [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/black-tmrg) | [Black @ GitLab Agenda](https://docs.google.com/document/d/1G9Be3e3hjj3gexLmrmR1bqzaEErP-4BfDgJR4q_jUTw/edit#heading=h.vf9sdppkn4e0) | [David DeSanto](https://gitlab.com/david) |
 | [GitLab Pride]({{< ref "tmrg-gitlab-pride" >}}) | [Alex Hanselka](https://gitlab.com/ahanselka) and [Helen Mason](https://gitlab.com/hmason) | #lgbtq | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/pride-tmrg) | [Pride Agenda](https://docs.google.com/document/d/11D-Izm5mbopEUCY036Qr0bHx6UePMyfkzhUfNDE-mnk/edit?usp=sharing) | Robin Schulman |
@@ -198,7 +198,7 @@ While creating the new issue please:
 
 ### Naming and branding for the TMRG
 
-All names, because they are visible externally and could compete with other projects, products and or not be a good representation of GitLab must be approved by Legal and Brand.  You should work with the DIB Manager (Candace Williams cwilliams@gitlab.com) to gain a consensus on ideas.  Keep in mind that names chosen by the TMRG may not meet GitLab’s naming and branding standards and may need to be changed.
+All names, because they are visible externally and could compete with other projects, products and or not be a good representation of GitLab must be approved by Legal and Brand.  You should work with the DIB Manager (Liam McNally lmcnally@gitlab.com) to gain a consensus on ideas.  Keep in mind that names chosen by the TMRG may not meet GitLab’s naming and branding standards and may need to be changed.
 
 ### Defining your TMRGs mission statement
 

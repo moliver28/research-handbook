@@ -1,19 +1,12 @@
 ---
-
 title: Engineering Managers Training Opportunities
 ---
 
-
-
-
-
-
-
-# What training do we recommend for Engineering Managers?
+What training do we recommend for Engineering Managers?
 
 ## CREDIT Values
 
-At GitLab we see **CREDIT** everywhere, it is in our 360 Feedback, Annual and Mid Year Performance Reviews and in Promotion Documents.  
+At GitLab we see **CREDIT** everywhere, it is in our 360 Feedback, Annual and Mid Year Performance Reviews and in Promotion Documents.
 It is important to have evidence for this CREDIT but the training below provides opportunities to learn more about how
 Engineering Managers can live our CREDIT values.
 
@@ -35,7 +28,7 @@ We are experts in working remotely, so our handbook is the best resource for thi
 
 ## Feedback
 
-Giving and Receiving feedback is challenging. The training below provides some best practices and ideas regarding  
+Giving and Receiving feedback is challenging. The training below provides some best practices and ideas regarding
 how to handle feedback.
 
 - [Giving & Receiving Feedback](https://www.linkedin.com/learning/giving-and-receiving-feedback?u=2255073)
@@ -63,6 +56,7 @@ how to handle feedback.
 
 Mentoring sounds easy however there can be pitfalls.
 The training below is a good resource to ensuring you engage in a productive Mentoring relationship.
+
 - [Grow your Impact as a Mentor](https://www.linkedin.com/learning/paths/grow-your-impact-as-a-mentor?u=2255073) (Handbook)
 - [Mentoring](https://www.linkedin.com/learning/paths/grow-your-impact-as-a-mentor?u=2255073)(Handbook)
 

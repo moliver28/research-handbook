@@ -23,7 +23,6 @@ description: "This handbook page serves as a central repository for all our Test
 | Bug Tracking            | [Customer Bugs](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/CustomerBugsDashboard?:iid=1) | Dynamic tracking of Customer bugs            | [Test Engineering](test-engineering-team) |
 |                         | [Bug Prioritization](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard?:iid=1) | Bug prioritization based on burndown trends | [Test Engineering](test-engineering-team) |
 
-
 ## Contributing to the Dashboards
 
 If you have any questions or suggestions about the dashboard, please contact the respective DRI or submit an issue in our [tracking system](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/new).

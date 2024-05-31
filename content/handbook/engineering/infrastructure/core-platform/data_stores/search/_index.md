@@ -18,6 +18,7 @@ The Global Search Group focuses on bringing world class search functionality to 
 The group is responsible for improving and expanding upon our current global search implementations using Elasticsearch, PostgreSQL, and Gitaly. Areas of responsibility will include global search functionality, UI, ingestion mechanisms, optimal indexing, administrative tools, and installation mechanisms for self-managed installations.
 
 Additionally, we will support AI features via Retrieval Augmented Generation work which includes:
+
 - Identifying and preparing new useful data for our AI-powered features in collaboration with feature teams and the AI Framework team
 - Storing vector embeddings of epics, issues, MRs, source code, and more
 - Providing retrieval APIs for those vector embeddings, metadata filtering, and ensuring permissions are enforced
@@ -41,11 +42,9 @@ The following members of other functional teams are our stable counterparts:
 | [Cleveland Bledsoe Jr](/handbook/company/team#cleveland) | [Senior Support Engineer](/job-families/engineering/support-engineer/) |
 | [Brenda Nyaringita](/handbook/company/team#bnyaringita)  | [Support Engineer(EMEA)](/job-families/engineering/support-engineer/) |
 
-
 ## Shared Responsibilities
 
 The Global Search team shares responsibilites with the AI Framework team in the area of [Retrieval Augmented Generation](./rag_ownership_framework.png) (RAG). Specifically, we will collaborate in the data preparation stage and information retrieval stage of the RAG process.
-
 
 ## Meetings
 
@@ -86,7 +85,6 @@ Before a major milestone starts, we prepare an epic with all the breaking change
 
 Every MR that was created before the breaking change milestone should have this or a similar warning in the description: `:warning: This MR must be kept as a draft and cannot be merged until **DATE** :warning:`
 
-
 ### Advanced Global Search Rollout on GitLab.com
 
 The team has been actively working on enabling Elasticsearch powered Advanced Search on GitLab.com. [Based on our analysis](https://gitlab.com/groups/gitlab-org/-/epics/1736), we set our first target to roll this feature out for all the paid groups on GitLab.com. You can find more details about the timeline and progress in the links below.
@@ -102,12 +100,14 @@ The team has been actively working on enabling Elasticsearch powered Advanced Se
 | Time until inserted record is recallable | Above 15 minutes | Between 15 and 10 minutes | Between 10 and 5 minutes | Between 3 and 5 minutes|
 
 The two types of operations we detail severity metrics for above are:
+
 - Recall Record, Global: This is the time it takes to recall a record using a globally scoped search of GitLab.com. Records could be entities such as projects, users, groups, etc.
 - Time until inserted record is recallable: This is the elapsed time between adding a new record and having that new record be recallable via a search. This process depends on many underlying technologies such as the [Go indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer), [Sidekiq queues](https://docs.gitlab.com/ee/development/elasticsearch.html#how-does-it-work), and the Elasticsearch database.
 
 ### Weighting for Search Issues
 
 We use the Fibonacci rating system to assign weights to Search issues. Below are a few guidelines when setting issue weight:
+
 - Issues that include `~backend` and `~frontend` work should have the weights added for a total weight representative of the work effort.
 - Spike issues are assigned a weight to help timebox the effort.
 - Bugs will not be given a weight.

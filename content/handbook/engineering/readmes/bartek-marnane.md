@@ -17,7 +17,6 @@ Find out more about me on my [team page](/handbook/company/team/#bmarnane) or [L
 
 I’ve set my working hours for early mornings and late afternoons to help provide overlap with my US and European team members.  I love the flexibility that GitLab’s remote work culture brings, and I’ve blocked off time in the afternoons to pick the kids up from school and spend time with the family.  
 
-
 ## My management philosophy
 
 * I believe in [Servant Leadership](https://en.wikipedia.org/wiki/Servant_leadership) and am here to help you be successful and do your best work.

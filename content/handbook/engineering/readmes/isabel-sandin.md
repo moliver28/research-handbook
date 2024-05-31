@@ -33,6 +33,7 @@ The [values](/handbook/values/) of GitLab are a big draw for many people, I'm es
 ## What I assume about others
 
 My base line assumptions for people are:
+
 * People are effective or actively working on improving the things they do
   * People get the results they want in general
   * People will call in support when needed to accomplish their goals

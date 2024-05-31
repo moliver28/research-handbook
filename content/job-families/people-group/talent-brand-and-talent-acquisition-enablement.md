@@ -18,8 +18,7 @@ The Talent Brand Program Manager is a [grade 6](/handbook/total-rewards/compensa
 
 - Build talent brand programs, operationalize them, and measure their success
 - Collaborate with key stakeholders to develop GitLab's talent brand
-- Monitor and grow our brand presence across key talent-facing channels (jobs site, LinkedIn, Glassdoor, etc.)
-- Partner with the People Operations team and key stakeholders globally to develop and execute strategies that enhance GitLab’s visibility in key recruiting markets
+- Monitor our brand presence across key talent-facing channels (jobs site, LinkedIn, Glassdoor, etc.)
 - Evolve GitLab’s talent brand strategy to effectively articulate GitLab’s culture and value proposition to attract top talent
 - Provide strategy and support for related programs such as GitLab's diversity, inclusion and belonging
 - Collaborate with internal GitLab teams, particularly Marketing, on key projects (social media, jobs site, events, remote work, PR, internal communications) to ensure consistency in messaging and approach
@@ -30,7 +29,7 @@ The Talent Brand Program Manager is a [grade 6](/handbook/total-rewards/compensa
 
 ### Talent Brand Program Manager Requirements
 
-- Bachelor’s degree and 3+ years of Marketing or Human Resources experience
+- Applicable experience in Marketing or Human Resources that allows you to deliver on the defined responsibilities for the role
 - Prior marketing, brand, and social media experience (preferably within recruiting or talent brand)
 - Demonstrated ability to deliver targeted recruitment marketing, social media, and employee value proposition building strategies
 - A natural storyteller with excellent narration and writing skills
@@ -42,6 +41,42 @@ The Talent Brand Program Manager is a [grade 6](/handbook/total-rewards/compensa
 - Proficient in Google Docs
 - You share our [values](/handbook/values/), and work in accordance with those values
 
+### Senior Talent Brand Program Manager
+
+The Senior Talent Brand Program Manager reports to the Senior Director of Talent Brand & Talent Acquisition Enablement.
+
+#### Senior Talent Brand Program Manager Job Grade
+
+The Senior Talent Brand Program Manager is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Senior Talent Brand Program Manager Responsibilities
+
+- Build and own talent brand programs, operationalize them, measure their success, and report on ROI to TA & People Group Leadership
+- Collaborate with key stakeholders to develop GitLab's talent brand identity
+- Monitor and grow our brand presence across key talent-facing channels (jobs site, LinkedIn, Glassdoor, etc.)
+- Own key relationships with external partners to ensure we are fully utilizing platforms at our disposal to drive value for our talent brand
+- Partner with Sr Director, Talent Brand to evolve GitLab’s talent brand strategy to effectively articulate GitLab’s culture and value proposition to attract top talent
+- Provide strategy and deliver results for related programs such as GitLab's diversity, inclusion and belonging
+- Collaborate with internal GitLab teams, particularly Marketing, on key projects (social media, jobs site, events, remote work, PR, internal communications) to ensure consistency in messaging and approach
+- Develop recruitment marketing campaigns to increase awareness of GitLab's talent brand with potential candidates and help the Recruiting team meet hiring plan goals
+- Define our approach for employer awards and lists that will help GitLab be recognized as an employer of choice; complete applications and manage related internal surveys for these awards
+- Create recruiter enablement tools to assist the recruiting team in sharing the GitLab talent brand with candidates
+
+### Senior Talent Brand Program Manager Requirements
+
+- Applicable experience in Marketing or Human Resources that allows you to deliver on the defined responsibilities for the role
+- Prior marketing, brand, and social media experience (preferably within recruiting or talent brand)
+- A proven ability to drive and deliver projects independently
+- A proven ability to influence leadership to adopt new programs that support our talent brand
+- Demonstrated ability to deliver targeted recruitment marketing, social media, and employee value proposition building strategies
+- An effective storyteller with excellent narration and writing skills
+- Ability to navigate cultural differences and build global but locally relevant solutions
+- Strong social and communication skills (verbal and written), across all levels
+- Excellent organizational skills, time management, and priority setting
+- Deadline oriented, and able to work in a fast-paced environment with ever-changing priorities
+- Self-motivated with the ability to work both independently and collaboratively
+- Proficient in Google Docs
+- You share our values, and work in accordance with those values
 - Ability to use GitLab
 
 ## Enablement

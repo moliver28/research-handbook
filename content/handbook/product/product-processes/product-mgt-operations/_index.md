@@ -17,4 +17,3 @@ The Product Management Operations page is a public page documenting the operatio
 ## How to contribute?
 
 Do you have an addition or an update you'd like to make? Open an [MR] to this page and tag `@gl-product-leadership` for review and merge.
-

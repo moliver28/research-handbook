@@ -31,8 +31,6 @@ Over the past few years GitLab has made commitments to our community around the 
 1. We will alert the community when any changes to our [service usage data](/handbook/product/index.html.md) processes and/or policies occur.
 1. We will not implement telemetry in our products which sends identifiable usage data to a third-party product analytics service [source](https://about.gitlab.com/blog/2019/10/10/update-free-software-and-telemetry/)
 
-
-
 ##### Definition of Analytics Data
 
 Analytics Data can be too generic of a term. The list below are the specific types of Product data that is in scope:
@@ -40,8 +38,6 @@ Analytics Data can be too generic of a term. The list below are the specific typ
 - [Service Ping](/handbook/product/analytics-instrumentation-guide/#service-ping) - aggregate counts of product usage from a GitLab instance
 - [Snowplow](https://snowplowanalytics.com/) Events - dynamic events collected from either a client or server.
 - [Database events](/handbook/product/analytics-instrumentation-guide/#database-import) - using Database records from gitlab.com to measure and understand usage
-
-
 
 ## Data Pseudonymization
 
@@ -56,7 +52,6 @@ While we will be pseudonymizing personal information for individual users, there
 1. We will collect `project_ID`, it can be used to identify the project name via our APIs but this is only true for projects set to Public visibility where you are a member.
 1. We will collect `namespace_ID`, it can be used to identify the namespace name (which may be a personal name) via our API you can only return namespace information for namespaces you are a member of.
 1. In the case of single user subscribers, product usage activity can be tied back to an actual user (internally) via metadata in our enterprise applications.
-
 
 #### Analytics Instrumentation Roadmap
 

@@ -7,7 +7,6 @@ job: "Support Engineer (EMEA)"
 
 ## Gabriel's README
 
-
 Hello, I am Gabriel, but you can also call me Gabe.
 
 I have many years of experience in application engineering and have used git for most
@@ -16,7 +15,6 @@ of those years.
 I'm also and avid cyclist and music lover. I love to cook and travel as much as possible.
 
 I speak English and Spanish and am currently working on picking up Dutch as well.
-
 
 ## Related
 

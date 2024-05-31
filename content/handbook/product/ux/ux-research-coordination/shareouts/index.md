@@ -53,7 +53,6 @@ Next step 2
     - your choice of Tanuki for Research Issue links
 1. If you have a lot of links, we recommend hiding the previews for the majority of them once you post so that the focus is on your share-out and not the pop-ups. It’s fine to leave one in such as the research report which is shown in the examples.
 
-
 **Examples**
 
 Below are three different examples of completed Research Report Share-Out in Slack following the above template.

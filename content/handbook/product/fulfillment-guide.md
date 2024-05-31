@@ -82,7 +82,6 @@ Not all Fulfillment features are available at the time for all types of customer
 
 **Purpose**: document what notifications customers can expect to see as part of the group namespace storage enforcement project. [FAQ](https://about.gitlab.com/pricing/faq-paid-storage-transfer/) / [docs](https://docs.gitlab.com/ee/user/usage_quotas#namespace-storage-limit).
 
-
 | Question | Pre-Enforcement Banner Notification | Banner Notification | CLI | Emails |
 | -------------| ------------- | --------------------- | ------------------- |------------------- |
 | **What are we showing?** | In-app banner notifications that can be seen throughout the GitLab product that let customers know that we will start enforcing storage limits soon. [They follow](https://gitlab.com/gitlab-org/gitlab/-/issues/387958#note_1322125225) customers around in all pages under `group`, `project`, and `user`. | In-app banner notifications that can be seen throughout the GitLab product that let customers know they are nearing their storage limits. [They follow](https://gitlab.com/gitlab-org/gitlab/-/issues/387958#note_1322125225) customers around in all pages under `group`, `project`, and `user`.   | Command line interface notifications about storage usage when git commands occur. If the push will send the group over the storage limit, a notification will appear.  |  E-mails when customers are nearing group namespace storage limits and when they are over storage limits. |
@@ -108,6 +107,7 @@ As of 2023-06-28, customers who have purchased a GitLab subscription through an 
 - [Related epic](https://gitlab.com/groups/gitlab-org/-/epics/8941)
 
 Please keep in mind:
+
 - Customers do not have access to the invoices, because those are owned by the reseller.
 - Resellers do not have access to the Customers Portal or to their customers' accounts.
 
@@ -126,7 +126,6 @@ Please note for Self managed extensions - the 14 day grace period does not apply
 Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/10173#timeline-of-events) of subscription events related to the temporary renewal extensions.
 
 Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1728).
-
 
 ### Creating an extension (from SDFC)
 
@@ -322,7 +321,7 @@ This functionality lives in Customers Portal and runs daily at midnight UTC. Ple
    1. For SaaS customers, provision additional seats immediately.
    2. For Self-managed customers, provision additional seats in the next instance sync (24 hrs), or customer can trigger the update from within their instance.
 10. Update SFDC Opportunity to Closed Won, and created related SFDC Quote and Quote objects.
-1. If reconciliation fails for any reason, SFDC Opportunity remains open.
+11. If reconciliation fails for any reason, SFDC Opportunity remains open.
 
 ##### QSR and SFDC Opportunities
 
@@ -630,6 +629,7 @@ Adding a new billing account membership between a customer and a billing account
 1. Scroll to the right and click on ℹ️ icon to show details of a license.
 
 The details of a license contains the following information:
+
 - Type: Cloud, offline cloud or legacy license.
 - Trial: Displays if it's a trial license or not.
 - Name
@@ -649,7 +649,9 @@ The following process allows you to view Service Ping usage data for all servers
 1. All licenses for the customer will be returned, use the issued and expiry dates to determine which is the active license.
 1. Scroll to the right and click on ℹ️ icon to show details of a license
 1. Click on `Lookup hostnames` under `Hostnames with this license` at the bottom of the screen. This will open version.gitlab.com
+
  - version.gitlab.com does not yet support Okta so you will login with your GitLab account.
+
 1. You will see one row for each server that has returned usage data and has this license installed. Look at the `Usage Ping Last Checked On` column to determine which entries contain recent usage ping data.
 1. Click on the server name to load the usage ping details.
 
@@ -726,6 +728,7 @@ If a bug is discovered that impacts Fulfillment, including provisioning, purchas
 **Notifying appropriate DRIs**
 
 The following individuals should be looped into the issue, depending on the impact of the bug:
+
 1. For billing and revenue-impacting issues: `Sarah McCauley - Director, Billing & AR`
 1. To determine impacted subscriptions and/or automation of Zuora solutions: `Jessica Salcido - Finance Systems Administrator`
 1. For bookings impact, and/or to assess and coordinate Salesforce solution needs: `Jesse Rabbits - Sr. Manager, Deal Desk`
@@ -763,7 +766,6 @@ Our [service usage data](/handbook/legal/privacy/customer-product-usage-informat
 **Can a customer send subscription data ad-hoc, while keeping their GitLab instance airgapped/not connected to the internet?**
 
 Please see [Offline Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/#offline-cloud-licensing) for more information.
-
 
 ## Fulfillment Roadmap Prioritization
 
@@ -808,10 +810,12 @@ To request work to be added to the Fulfillment roadmap, please follow our [intak
 The source of truth for all Fulfillment projects is our **[in-product Fulfillment Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=end_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&label_name%5B%5D=Fulfillment+Roadmap&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=GROUP)**.
 
 By nature of our [direction](https://about.gitlab.com/direction/fulfillment/), Fulfillment works mostly on highly cross-functional projects where either or both of the following are true:
+
 1. Many cross-team dependencies: project execution relies on collaboration with other teams, with significant coordination of time and resources required.
 1. Downstream impacts: projects may change how other teams operate (e.g., Field Operations, Enterprise Apps, Billing) and may also impact the success of their efforts (e.g., achieving sales efficiency targets, accomplishing e-commerce conversion goals)
 
 To focus on the most impactful work, Fulfillment’s prioritization process seeks to:
+
 1. Prioritize the highest ROI initiatives as measured by long-term impact on GitLab, Inc’s value. (Note: “cost to build” is a key consideration in the I of the ROI calculation)
 1. Provide future visibility into priorities to adequately plan cross-team and cross-functional resource needs.
 1. Minimize waste and churn due to re-prioritization mid-execution.
@@ -819,6 +823,7 @@ To focus on the most impactful work, Fulfillment’s prioritization process seek
 #### Prioritization Criteria
 
 A project will be prioritized in the Fulfillment roadmap based on the considerations below.
+
 1. Revenue impact potential
    1. Value of unlocking new sales channels
    1. Sales efficiency improvements and reduction in time spent by a field team member to close a deal, this includes eliminating sales team involvement on most transactions
@@ -851,6 +856,7 @@ When scoping new solutions we will prefer those that best allow GitLab to scale 
 #### Scheduling new work
 
 Prioritization based on the established criteria will drive the order in which work is scheduled to be completed. The product team will review overall prioritization regularly. Before changing priorities, will consider:
+
 1. Efficiency and morale impact of disrupting ongoing efforts
 1. Impact of changes to existing customer and partner commitments
 1. Feedback from cross-functional partners
@@ -885,9 +891,9 @@ This section outlines top provisioning bugs and when they were resolved or are e
 
 | SM or GitLab.com? |  Category    | Description of Bug         | Related Issue Link(s) |  Version Resolved |
 |---------|--------------|----------|--------------------------------|--------------------|
-| GitLab.com | Add-on Provisioning | Sales assisted Compute Minute purchases not being provisioned. | [7737](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7737) | `severity::4` | 16.8 |
-| GitLab.com | Deprovisioning | Paid features are not deprovisioned upon transfer to subgroup. | [351780](https://gitlab.com/gitlab-org/gitlab/-/issues/351780) | `severity::4` | 16.7 |
-| GitLab.com | Add-on Provisioning | Purchased CI Minutes are not synced to instance. | [6340](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6340) | `severity::2` | 16.5 |
+| GitLab.com | Add-on Provisioning | Sales assisted Compute Minute purchases not being provisioned. | [7737](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7737) `severity::4` | 16.8 |
+| GitLab.com | Deprovisioning | Paid features are not deprovisioned upon transfer to subgroup. | [351780](https://gitlab.com/gitlab-org/gitlab/-/issues/351780) `severity::4` | 16.7 |
+| GitLab.com | Add-on Provisioning | Purchased CI Minutes are not synced to instance. | [6340](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6340) `severity::2` | 16.5 |
 | GitLab.com | Subscription Cancellations | Scheduled subscription cancellation downgrades namespace directly. | [6153](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6153) | 16.2 |
 | GitLab.com | Deprovisioning | SaaS subscriptions can be deprovisioned if within grace period with add-on refunded. | [4777](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4777) | 16.0 |
 | Self Managed | Cloud Licensing | Multi year cloud license was generated with conflicting trueup_from/to and previous_user_count values. | [5520](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/5520) |  16.0 |
@@ -911,10 +917,8 @@ This section outlines top provisioning bugs and when they were resolved or are e
 |  Both       | User Count | Previous user count is incorrect when changing products and seat count during renewal. | [3346](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3346) | 15.3 |
 |  Both       | Provisioning | After applying a license, a restart is required | [377489](https://gitlab.com/gitlab-org/gitlab/-/issues/377489),[388063](https://gitlab.com/gitlab-org/gitlab/-/issues/388063) | 15.4.3 |
 
-
-
 #### Open Bugs
 
 | SM or GitLab.com? | Category    | Description of Bug         | Related Issue Link(s) |  Priority | Expected Release |
 |---------------|------------|--------------------------------|--------------------|--------------|-------------|
-| GitLab.com | Compute minutes not provisioned when effective date is before created date. | [7565](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7565) | `severity::3` | 17.0 |
+| GitLab.com | Compute minutes not provisioned when effective date is before created date. | [7565](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7565) | `severity::3` | 17.0 | |

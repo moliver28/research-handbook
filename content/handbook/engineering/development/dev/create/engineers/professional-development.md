@@ -110,10 +110,12 @@ The Chief of Staff to the CEO may occasionally have a Chief of Staff to the CEO 
 ## Mentoring Programs
 
 ### [Self Select Mentoring](/handbook/people-group/learning-and-development/mentor/#find-a-mentor)
+
 * If you choose, you can reach out to a team member who is more senior than you and request for them to Mentor you.
 * Here is a [format](/handbook/engineering/career-development/mentoring/) for how to build a mentoring relationship
 
 ### Minorities in Tech Mentoring Program
+
 * This [program](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/) was offered last year for Underrepresented team members.
 
 ## Career Changes

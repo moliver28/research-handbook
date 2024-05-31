@@ -42,7 +42,6 @@ Because this group works on components of the application that have a [far-reach
 1. If a feature flag is used then a feature flag [rollout plan](/handbook/engineering/development/processes/rollout-plans/) will be created. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
 1. Compliance related merge requests require a review by a [Compliance Engineer](https://gitlab.com/groups/gitlab-org/govern/compliance/engineering/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.
 
-
 ### Working on ad hoc work and questions
 
 From time to time, there will be ad hoc work and questions that arise, such as Slack questions, questions in Issues, Error Budget investigations, etc. All Compliance group members are encouraged to watch these mediums and engage.
@@ -355,7 +354,6 @@ Agenda documents and recordings can be placed in the [shared Google drive](https
 Meetings that are not 1:1s or covering confidential topics should be added to the Govern Shared calendar.
 
 All meetings should have an agenda prepared at least 12 hours in advance. If this is not the case, you are not obligated to attend the meeting. Consider meetings canceled if they do not have an agenda by the start time of the meeting.
-
 
 ## Planning for PTO
 

@@ -5,14 +5,6 @@ title: "Hiring Contractors - Development Department"
 description: "How the development department hires engineers as contractors"
 ---
 
-
-
-
-
-
-
-# Hiring Development Contractors
-
 GitLab normally prefers to hire full-time permanent engineers for its development teams using entities and [PEOs](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch). However, there are times when teams will have a need to hire temporary contractors to help with execution.
 
 These are a few examples of situations where a contractor may be required:
@@ -76,7 +68,6 @@ Once the Coupa requisition is approved, the vendor/contractor will be able to in
 With the contracting out of the way, you will want to onboard the new contractor into the project or into your team. This can look very different from one contractor to another depending on the nature of the work, the team and the project.
 
 Generally speaking, you should know that contractors are referred to as Temporary Service Providers. And there is specific documentation in the handbook about their [life cycle](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/), how to create access requests for them and how to onboard and offboard them.
-
 
 As a general guideline you would want them to:
 

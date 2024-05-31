@@ -26,7 +26,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 - [Authorization](https://about.gitlab.com/direction/govern/authorization/#priorities)
 - [Compliance](https://about.gitlab.com/direction/govern/compliance/tactical-priorities.html#priorities)
 - [Security Policies](https://about.gitlab.com/direction/govern/security_policies/#priorities)
-- [Threat Insights](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities) [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#priorities)
+- [Threat Insights](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#priorities) ([16.x](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities))
 
 ### Product Documentation Links
 
@@ -108,6 +108,7 @@ Labels:
 - `group::` - for Objectives and key results for a specific group
 
 Each Objective and Key Result should have an assignee who is DRI for providing status updates throughout the quarter. Regular updates are preferred. At a minimum these should be updated
+
 - By end of day, the second Friday of every month
 - Ay the end of the quarter
 
@@ -120,6 +121,7 @@ To support our teams, and commitments made to internal and external customers, t
 The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](/handbook/people-group/paid-time-off/) policy.
 
 We use an internal issue tracker as team member PTO is not public information, and a PTO template
+
 - [PTO issue list](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)
 - [New PTO issue template](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/new?issuable_template=ooo_template)
 
@@ -153,9 +155,15 @@ Because we have a wide range of domains to cover, it requires a lot of different
 
 At GitLab our goal is that [everyone can contribute](/handbook/company/mission/#contribute-to-gitlab-application). This applies to GitLab team members and the wider community through community contributions. We welcome contributions to any and all features, but recognize that first time contributors may prefer to start with smaller features. To support this we maintain a list of `quick wins` that may be more suitable for first time contributors, and contributors new to the domains in Govern.
 
-- [Quick wins](https://gitlab.com/dashboard/issues?sort=updated_desc&state=opened&label_name[]=quick+win&label_name[]=devops::govern)
+- [Quick wins](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=quick%20win&label_name%5B%5D=devops%3A%3Agovern&first_page_size=100)
 
 If the contributor needs an EE license, we can point towards the [Contributing to the GitLab Enterprise Edition (EE)](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee) section on the Community contributors workflows page.
+
+## Testing
+
+During the planning phase of a milestone, the EM for each group will create a new issue using the template in [epic](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/70), for any major new features and tag Software Engineer in Test from Govern. SETs from Test Engineering and EMs can periodically review/discuss the list of open issues, and add appropriate priority labels.
+
+The intent of [shifting left and testing at the right level](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html#how-to-test-at-the-correct-level) is that teams are responsible for testing and to have engineers doing the feature coverage reviews and adding specs or E2E test as needed. The reason for including the SET is to give oversight across the groups and provide guidance/support. If the SET has capacity then they can contribute as needed, using the priority labels, but this is not the expectation.
 
 ## Metrics
 
@@ -170,6 +178,7 @@ If the contributor needs an EE license, we can point towards the [Contributing t
 ## Links and resources
 
 {{% include "includes/engineering/govern-shared-links.md" %}}
+
 - Group [#g_govern_security_policies](https://gitlab.slack.com/archives/CU9V380HW)
 - Group [#g_govern_threat_insights](https://gitlab.slack.com/archives/CV09DAXEW)
 - Group [#g_govern_compliance](https://gitlab.slack.com/messages/CN7C8029H)

@@ -78,6 +78,7 @@ Announce deprecations, breaking changes, and removals at least 3 milestone befor
   - If no issues are detected, the change is considered stable and we can open the feature flag cleanup MR.
 
 By implementing the change before the major milestone we have less MRs to produce on the major version milestone. In addition, it allows more flexiblity. For example, if the rollout goes wrong. We have then two paths:
+
 - We can fix it before the end of the major version milestone and do the rollout again or
 - We can disable the feature flag and wait for the next major version milestone to re-do the rollout.
 
@@ -123,7 +124,6 @@ Here is a list of active projects and initiatives that we are currently working 
 | [Eliminating duplicate npm packages](https://gitlab.com/groups/gitlab-org/-/epics/9812)                                                        | [@dmeshcharakou](https://gitlab.com/dmeshcharakou)                                        |
 | [Key improvements for the npm registry](https://gitlab.com/groups/gitlab-org/-/epics/7037)                                                     | [@radbatnag](https://gitlab.com/radbatnag)                                                |
 | [Key improvements for the NuGet registry](https://gitlab.com/groups/gitlab-org/-/epics/7039)                                                   | [@mkhalifa3](https://gitlab.com/mkhalifa3)                                               |
-
 
 ## Documentation
 

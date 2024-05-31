@@ -22,6 +22,7 @@ Looking at metrics across a team, across the stage or across an organization beg
 The entire Dev Sub Department makes a monthly entry into a Throughput Log.  Each Engineering Manager in Dev is responsible for updating this [document](https://docs.google.com/document/d/1i86_FNDNe2kX9krju5YOOkFCmqN2txFVlFEzH2nuknY/edit#heading=h.7f7vegoxp3x6) (internal).  
 
 The Throughput Log includes the following information:
+
 - Team Name
 - MR Rate from two months ago
 - MR Rate from last month
@@ -35,6 +36,7 @@ This log gives the Dev Director visibility across the entire sub department.  Th
 The Create Stage Engineering Managers makes a monthly entry into their own confidential Days to Merge Log.  Each Engineering Manager is responsible for analyzing all merge request that took eight days or longer to merge and analyze these merge request to determine if there are any lessons to be learned from them.  
 
 The Days to Merge Log includes the following information:
+
 - Team Member
 - Number of Days to Merge
 - Merge Request (linked title)

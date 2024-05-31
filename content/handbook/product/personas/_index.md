@@ -23,7 +23,6 @@ Personas are a generalized way of talking about the ideal target we are aiming t
 
 We are iterating on updates to buyer personas on this [Buyer Persona](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/) page.
 
-
 ### User personas
 
 User personas are people who actually use GitLab. They may or may not be the person in
@@ -60,7 +59,7 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Presley, Product Designer](/handbook/product/personas/#presley-product-designer)
   1. [Sasha, Software Developer](/handbook/product/personas/#sasha-software-developer)
   1. [Priyanka, Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer)
-  2. [Janell, Enablement Advocate](/handbook/product/personas/#janell-enablement-advocate)
+  1. [Janell, Enablement Advocate](/handbook/product/personas/#janell-enablement-advocate)
   1. [Sidney, Systems Administrator](/handbook/product/personas/#sidney-systems-administrator)
   1. [Rachel, Release Manager](/handbook/product/personas/#rachel-release-manager)
   1. [Simone, Software Engineer in Test](/handbook/product/personas/#simone-software-engineer-in-test)
@@ -106,7 +105,6 @@ At the center of many facets in product development, I am responsible for shapin
 - Taking Products from Concept to Launch: The process of taking a product from concept to launch excites and motivates me. I get satisfaction from taking part in the evolution of an idea into a fully realized product, navigating challenges, guiding development, and observing the impact with users.
 - Adapting to Change and Achieving Alignment: I’m proud when I can adapt to shifting company objectives and maintain effective communication with my team. I am always working to achieve alignment across teams, knowing that it fuels our ability to achieve ambitious goals and innovate together.
 
-
 ##### Frustrations
 
 - Being Stuck in a "Project, Not Product”, Management Role: It's demotivating when I find myself primarily functioning as a project manager, focusing on tracking tasks and timelines rather than the dynamic and strategic responsibilities that come with being a product manager. This hinders my ability to address customer needs, devise effective market strategies, and maintain a clear product vision, which drives my job satisfaction.
@@ -114,7 +112,6 @@ At the center of many facets in product development, I am responsible for shapin
 - Inability to access project status quickly: It can be frustrating when it is difficult to obtain the status of work efforts and I am forced to spend time chasing status. Timely awareness of project status, especially when it is off track, is crucial for my role because I need to ensure people invested in delivery are informed if we will not meet our commitments.
 - Balancing Product Vision and Capacity: I am constantly trying to make the most of our team’s capacity to execute on our product vision. It’s a challenging juggling act to ensure I am making the right decisions on what comes next to maximize our ability to deliver compelling value to the market.
 - Unpredictable Timeframes, Feature Delays, and Deprioritization: It's frustrating when I'm tasked with providing clients and stakeholders with a reasonable timeframe for the delivery of a feature since development cycles can be unpredictable, and change is inevitable.
-
 
 #### Delaney (Development Team Lead)
 
@@ -692,4 +689,3 @@ My goal is to deeply understand the lifecycle of data from various sources and m
 - It can be difficult to know exactly how to approach analysis, when my colleagues are not clear about the questions they have and why they want to explore certain aspects of the data.
 - It’s hard to trust the integrity of data, when inconsistent tracking results in missing context for key events.
 - It’s difficult to answer big picture questions about feature usage and user retention, when feature parameters and usage criteria aren’t completely defined.
-

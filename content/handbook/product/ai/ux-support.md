@@ -16,10 +16,7 @@ The UX team supporting the [Data Science section](/handbook/product/categories/#
 * best design practices and research methods that work well in the AI space
 * maintaining consistency across the platform by leading or collaborating on [Pajamas AI-human interaction](https://design.gitlab.com/usability/ai-human-interaction) components and guidance
 
-
 Group Product Designers support AI features in their space, including problem and solution validation and design activies. AI team Product Designers can provide decision support and guidance in this space, primarily from a best practice perspective.
-
-
 
 ### How to get help from the UX team
 

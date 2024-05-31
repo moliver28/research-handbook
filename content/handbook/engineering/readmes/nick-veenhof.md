@@ -27,6 +27,7 @@ for a [coffee chat](/handbook/company/culture/all-remote/informal-communication/
 Here's a bunch of topics I'll be happy to talk about:
 
 ### Tech-stacks / Open Source communities
+
 - Drupal
 - Mautic
 - PHP
@@ -61,6 +62,7 @@ It's a challenge. Always in for tips!
 ## My working style
 
 I'm here for you. You in my role is a really wide interpretation. This means
+
 - You, as an employee of GitLab
 - You, as a contributor to GitLab
 - You, as a member of our team
@@ -82,6 +84,7 @@ I generally keep Slack & Email open, but it is possible I don't reply instantly.
 For your information, I work with 3 types of todo classifications. So it is
 possible you will receive communication from me a month later asking for a reply
 or your insights to a specific issue.
+
 - To Reply
 - Expect a reply
 - Longer term follow-up
