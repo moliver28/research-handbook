@@ -17,7 +17,7 @@ This guide is designed to help Backend and Frontend developers at GitLab conduct
   - Make sure Python is installed on your machine. You can download and install it from the [official Python website](https://www.python.org/downloads/).
 - API Keys and Tokens:
   - Obtain the necessary API keys for LangSmith and Anthropic. You can get these from `@oregand`, `@m_gill` or `@tzallmann`. You can also reach out to the `#g_ai_framework` slack channel and ask. An account will be created for you under `https://smith.langchain.com`.
-  - Ensure you have a GitLab private token with the necessary permissions. You can generate one from your GitLab profile settings under [“Access Tokens”](https://gitlab.com/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
+  - Ensure you have a GitLab private token with the necessary permissions from **your local GDK instance**. You can generate one from your GitLab profile settings under [“Access Tokens”](https://gitlab.com/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
 
 ### Step 1: Setting Up Your Environment
 
