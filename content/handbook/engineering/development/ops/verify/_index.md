@@ -43,16 +43,16 @@ We take ownership of the things we build, with a focus on stability and availabi
 
 ## Who we are
 
-The Verify stage is made up of 4 groups:
+The Verify stage is made up of 5 groups:
+
+1. [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
 
 1. [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
-1. [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
-1. [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
 1. [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
 
-### Verify:CI Platform
+1. [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
 
-{{< team-by-manager-role role="Senior Engineering Manager(.\*)Verify" team="(.\*)CI Platform" >}}
+1. [Verify:CI Platform](/handbook/engineering/development/ops/verify/ci-platform/)
 
 ### Verify:Pipeline Authoring
 
@@ -70,9 +70,13 @@ The Verify stage is made up of 4 groups:
 
 {{< team-by-manager-role "Engineering Manager(.*)Verify:Runner" >}}
 
+### Verify:CI Platform
+
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Verify" team="CI Platform" >}}
+
 ### Verify Engineering Leadership
 
-{{< team-by-manager-role role="Senior Engineering Manager(.*)Verify" team="^(.*CI Platform)" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Verify" team="^Runner">}}
 
 ### Stable Counterparts
 
