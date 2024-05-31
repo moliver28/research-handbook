@@ -19,6 +19,7 @@ When using `/security` to engage SIRT:
 ## Situations where SIRT needs to be engaged
 
 - P1 vulnerabilities
+- Publicly known P2 vulnerabilities with a publicly available exploit
 - Secret leaks
 - Vulnerabilities that could result in account takeover
 - Vulnerabilities that lead to customer communications being required in addition the usual processes
