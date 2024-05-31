@@ -33,7 +33,7 @@ The goal of the process is to:
 
 ##### Workflow
 
-The refinement process doesn't concern itself with how issues are picked up to be refined. This is assumed to be done in an earlier process that triages issues from the backlog (whether via the [MoSCoW process](/handbook/engineering/development/sec/secure/static-analysis/#moscow-process) or a similar variant). Normally, before issues are refined, a planning issue is created to select which issues are picked up in an upcoming milestone to be refined and delivered.
+The refinement process doesn't concern itself with how issues are picked up to be refined. This is assumed to be done in an earlier process that triages issues from the backlog (whether via the [MoSCoW process](/handbook/engineering/development/sec/secure/static-analysis/#moscow-process) or a similar variant). Normally, before issues are refined, a planning issue is created to select which issues are picked up in an upcoming milestone to be refined and delivered. This could possibly be done in the Looking Forward section of the planning issue.
 
 This workflow can summarized as follows:
 
@@ -91,7 +91,58 @@ If you're assigned this issue to review its refinement, please follow the guidel
 
 ##### Issue Assignmet
 
-We plan to use [`triage-ops`](https://gitlab.com/gitlab-org/quality/triage-ops) bot to assign issues to engineers for refinement. More information will follow here on the exact process as we configure the bot to do so.
+Issues are assigned randomly to engineers using [`triage-ops`](https://gitlab.com/gitlab-org/quality/triage-ops) bot. The process works like follows:
+
+1. Planning issue is created, and a number of issues are selected for the next milestone (marked with labels defined below).
+1. Issues selected are labeled with:
+    1. `~"group::secret detection"`
+    1. `~"workflow::planning breakdown"`
+1. A [scheduled policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/doc/scheduled/index.md) is triggered monthly before the upcoming milestone begins (on 2nd Thursday of a month, or exactly one week before the new milestone starts).
+1. The scheduled operation runs and does the following:
+    1. Pick up issues with the following conditions:
+        1. State: `Opened`
+        1. Labels:
+            1. `~"group::secret detection"`
+            1. `~"workflow::planning breakdown"`
+        1. Weight:
+            1. `None`.
+        1. Milestone:
+            1. Issue has a milestone.
+            1. Issue's milestone title = [`next_milestone_title`](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/96cd054ee6017ddd8dec546914f5fc5ac4df105f/lib/next_milestone_helper.rb#L6-9).
+    1. Actions:
+        1. Assigns the issue to a random engineer from the Secure:Secret Detection group.
+        1. Adds the following labels:
+            1. `~"worfklow::refinement"`
+            1. `~"needs weight"`
+        1. Removes the following labels:
+            1. `~"worfklow::planning breakdown"`
+        1. Adds the comment below.
+
+##### Comment
+
+```markdown
+Hi #{secret_detection_engineer}
+
+As a preparation for the upcoming milestone #{milestone.succ}, you have been assigned this issue to refine.
+
+The goal of the process is to:
+
+- Clarify any outstanding questions or concerns.
+- Add a proposal or an implementation plan.
+- Determine if the issue is the smallest iteration possible, and break it down if not.
+- Determine if the issue requires support from other teams.
+- Assign a weight to the issue.
+- Ensure the issue is labeled correctly.
+- Ensure issue is marked as ready to be worked on.
+
+Please check the [steps to follow](https://handbook.gitlab.com/handbook/engineering/development/sec/secure/secret-detection/#steps) and the [checklist](https://handbook.gitlab.com/handbook/engineering/development/sec/secure/secret-detection/#checklist) to use for keeping refinement progress transparent.
+
+If you have any questions, don't hesitate to ask in `#g_secure_secret-detection` channel.
+
+[Bot policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/secret-detection/assign-refinement.yml).
+
+/assign #{secret_detection_engineer}
+```
 
 ### Observability
 
