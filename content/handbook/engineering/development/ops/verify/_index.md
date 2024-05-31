@@ -56,33 +56,33 @@ The Verify stage is made up of 5 groups:
 
 ### Verify:Pipeline Authoring
 
-{{< team-by-manager-role "Engineering Manager(.*)Pipeline Authoring" >}}
+{{< team-by-manager-role "Engineering Manager(.+)Pipeline Authoring" >}}
 
 ### Verify:Pipeline Execution
 
-{{< team-by-manager-role "Engineering Manager(.*)Pipeline Execution" >}}
+{{< team-by-manager-role "Engineering Manager(.+)Pipeline Execution" >}}
 
 ### Verify:Pipeline Security
 
-{{< team-by-manager-role "Engineering Manager(.*)Pipeline Security" >}}
+{{< team-by-manager-role "Engineering Manager(.+)Pipeline Security" >}}
 
 ### Verify:Runner
 
-{{< team-by-manager-role "Engineering Manager(.*)Runner" >}}
+{{< team-by-manager-role "Engineering Manager(.+)Runner" >}}
 
 ### Verify:CI Platform
 
-{{< team-by-manager-role role="Senior Manager(.*)Verify" team="CI Platform" >}}
+{{< team-by-manager-role role="Senior Manager(.+)Verify" team="CI Platform" >}}
 
 ### Verify Engineering Leadership
 
-{{< team-by-manager-role role="Senior(.*)Manager(.*)(Verify|Runner)" team="^(CI Platform)">}}
+{{< team-by-manager-role role="Senior(.+)Manager(.+)(Verify|Runner)" team="^(CI Platform)">}}
 
 ### Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(._)Engineering(._)" other-manager-roles="Engineering Manager(._)Verify:Pipeline Authoring|Engineering Manager(._)Pipeline Execution|Engineering Manager(._)Runner|Engineering Manager(._)Pipeline Security" >}}
+{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(.+)Engineering(.+)" other-manager-roles="Engineering Manager(.+)Verify:Pipeline Authoring|Engineering Manager(.+)Pipeline Execution|Engineering Manager(.+)Runner|Engineering Manager(.+)Pipeline Security" >}}
 
 ## How we work
 
