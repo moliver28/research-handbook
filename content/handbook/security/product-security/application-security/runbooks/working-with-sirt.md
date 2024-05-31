@@ -21,6 +21,7 @@ When using `/security` to engage SIRT:
 - P1 vulnerabilities
 - Secret leaks
 - Vulnerabilities that could result in account takeover
+- Vulnerabilities that lead to customer communications being required in addition the usual processes
 
 ## Urgency guidelines
 
