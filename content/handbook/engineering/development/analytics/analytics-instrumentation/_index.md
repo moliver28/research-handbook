@@ -349,6 +349,34 @@ The specific application of this timeline to the Analytics Instrumentation Miles
     1. If no more issues are available in the milestone, they first check if they can take over or help with problems in the milestone assigned to another engineer. Otherwise, they inform the EM, who pulls in issues from the next milestone.
 1. PM/EM: Present the plan for the milestone in the first Analytics Instrumentation sync of the new milestone focusing on the overall objective and themes.
 
+#### 3. Post Launch Instrumentation 
+
+- **Timelines**:  18th of month N – 17th of month N+1.
+
+- **Tasks**: 
+
+1. Issue Request
+PM: Following the product data insights handbook, create an issue focused on instrumentation of products at a category level. Ad Hoc Request issue template should be utilized. Assign your Product Data Insights counterpart and cc Carolyn Braza for visibility. 
+Alignment
+PM/PDI: Once all stakeholders have been added to the issue, Product Data Insights team will set time with the PM counterpart to align on:
+- Goals
+- Priorities
+- Milestones
+TPgM may assist in implementation of planning documentation. 
+
+2. Feature Inventory & Instrumentation Mapping
+PM/PDI:l work together to outline a feature inventory using this template. Category level implementation should be prioritized by most utilized features and the features we believe have the largest impact on the business. From there, PM and Product Data Insights counterparts will utilize labels outlined here for markers of implementation status. The PM will lead mapping of instrumentation at a category level, in close partnership with the Product Data Insights counterpart.
+
+3. Audit & Review
+PM/PDI:  will audit implementation/review implementation to quality check and ensure accuracy async. TPgM may assist in QA. 
+
+4. Update Categories yaml file
+PM: Update the categories.yml file with the applicable implementation status. Utilizing the categories.yml file, the Product Data Insights team will create a Tableau dashboard to track implementation at a category level overtime. 
+
+5. Analytics Instrumentation 
+PM/PDI: Once feature instrumentation intake has been completed. For features marked as either red (needing implementation) or yellow (some instrumentation, not complete), 
+PM/EM: will create an instrumentation ticket with the label ‘analytics instrumentation’ and utilizing the new issue template to set up issues needing new instrumentation.
+
 #### Milestone Capacity
 
 Our milestone capacity tells us how many issue weights we can expect to complete in a given milestone. To estimate this we calculate the average daily weight completed by an engineer per day across the previous two milestones. This is multiplied with the actual working days available to us in a given milestone.
