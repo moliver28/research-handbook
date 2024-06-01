@@ -30,7 +30,7 @@ Ensure Python 3 is installed on your machine. If not, download and install it fr
 Open your terminal and install the following libraries
 
 ```bash
-pip install requests langsmith langchain langchain-openai python-dotenv
+pip install requests langsmith langchain langchain-openai python-dotenv langchain_anthropic langchainhub
 ```
 
 #### Create the Evaluation Directory
