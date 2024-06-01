@@ -38,6 +38,7 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab South Korea | Jess Dallmar & Rob Allen |
 | GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
 | GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
+| Oxeye Security Ltd. | James Gladen, Simon Mundy|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
