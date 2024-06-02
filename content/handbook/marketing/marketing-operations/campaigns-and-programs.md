@@ -352,7 +352,6 @@ For some tactics, there are mutiple campaigns that occur as a part of a single i
 Two important aspects that need to be avoided when it comes when creating/editing parent campaigns are the following: 
 
 1. Do not add any campaign members to the parent campaign as we want to minimize the risk of creating duplicate bizible touchpoints for the same activity.
-
 2. Parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, do not put more than $1 value. The true Budgeted Cost & Actual Cost are to be updated only on the child campaigns and not on parent campaigns, as we should not be running any ROI on the parent campaigns.
 
 Additionally, if you are an Allocadia user, you will not include a sub-category ID in Marketo when syncing to SFDC and creating the new parent campaign. You will only use an Allocadia ID when creating the child campaigns. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
