@@ -36,7 +36,7 @@ As with regular reviewers, maintainers can be found on the team page, or on the 
 
 All SAST BE Engineering team members are expected to review changes to the SAST analyzers. As part of the final steps of the onboarding process, the team member page should be updated to add the team member as a reviewer for each SAST analyzer.
 
-```
+```yaml
   secure-SAST-kics: reviewer
   secure-SAST-kubesec: reviewer
   secure-SAST-pmd-apex: reviewer
@@ -57,8 +57,8 @@ All maintainership approvals should be given by at least two existing maintainer
 There are two tiers of maintainership within SAST.
 
 ###### Tier 1
-Some analyzers are rarely updated; These include:
 
+Some analyzers are rarely updated; These include:
 
 [kics](https://gitlab.com/gitlab-org/security-products/analyzers/kics)
 [kubesec](https://gitlab.com/gitlab-org/security-products/analyzers/kubesec)
@@ -69,7 +69,8 @@ Some analyzers are rarely updated; These include:
 
 Becoming a maintainer on a project that is rarely updated can be tough since there are limited opportunities to contribute or review. In this case, contributions to other GitLab analyzers should be considered and granting of maintainership should be left to the existing maintainer's discretion. The existing maintainer should document the reasons for approval, or if maintainership is denied, suggestions on which projects to contribute to should be given. When reviewing contributions, consideration should be given to contributions to issues within section-sec-request-for-help should also be included, even if these contributions did not result in an MR.
 
-######  Tier 2
+###### Tier 2
+
 This tier of maintainership includes:
 
 [Semgrep](https://gitlab.com/gitlab-org/security-products/analyzers/semgrep)
