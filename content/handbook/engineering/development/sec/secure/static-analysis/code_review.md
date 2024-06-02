@@ -30,11 +30,55 @@ To quote from the [Engineering Review Workflow](/handbook/engineering/workflow/c
 
 As with regular reviewers, maintainers can be found on the team page, or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/).
 
-#### How to become a maintainer
+#### Path to maintainership
 
-See company guidelines and how to become a maintainer in the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer).
+##### Becoming a reviewer
 
-Becoming a maintainer involves consistent contributions to the codebase, a high degree of "mantainer-level" merge requests, and an understanding of the specific [gotchas](#gotchas) involved with both the Secure stage as well as Static Analysis projects themselves.
+All SAST BE Engineering team members are expected to review changes to the SAST analyzers. As part of the final steps of the onboarding process, the team member page should be updated to add the team member as a reviewer for each SAST analyzer.
+
+```yaml
+  secure-SAST-kics: reviewer
+  secure-SAST-kubesec: reviewer
+  secure-SAST-pmd-apex: reviewer
+  secure-SAST-security-code-scan: reviewer
+  secure-SAST-semgrep: reviewer
+  secure-SAST-sobelow: reviewer
+  secure-SAST-spotbugs: reviewer
+  secure-SAST-tracking-calculator: reviewer
+  secure-common-command: reviewer
+  secure-common-report: reviewer
+  secure-common-ruleset: reviewer
+```
+
+##### Path to maintainership
+
+All senior (and above) Backend engineers who contribute to any of the SAST analyzers are expected to pursue maintainership of all SAST analyzers, but becoming a maintainer is encouraged for all SAST engineers.
+All maintainership approvals should be given by at least two existing maintainers.
+There are two tiers of maintainership within SAST.
+
+###### Tier 1
+
+Some analyzers are rarely updated; These include:
+
+[kics](https://gitlab.com/gitlab-org/security-products/analyzers/kics)
+[kubesec](https://gitlab.com/gitlab-org/security-products/analyzers/kubesec)
+[pmd-apex](https://gitlab.com/gitlab-org/security-products/analyzers/pmd-apex)
+[security-code-scan](https://gitlab.com/gitlab-org/security-products/analyzers/security-code-scan)
+[sobelow](https://gitlab.com/gitlab-org/security-products/analyzers/sobelow)
+[spotbugs](https://gitlab.com/gitlab-org/security-products/analyzers/spotbugs)
+
+Becoming a maintainer on a project that is rarely updated can be tough since there are limited opportunities to contribute or review. In this case, contributions to other GitLab analyzers should be considered and granting of maintainership should be left to the existing maintainer's discretion. The existing maintainer should document the reasons for approval, or if maintainership is denied, suggestions on which projects to contribute to should be given. When reviewing contributions, consideration should be given to contributions to issues within section-sec-request-for-help should also be included, even if these contributions did not result in an MR.
+
+###### Tier 2
+
+This tier of maintainership includes:
+
+[Semgrep](https://gitlab.com/gitlab-org/security-products/analyzers/semgrep)
+[sast-rules](https://gitlab.com/gitlab-org/security-products/sast-rules)
+[tracking-calculator](https://gitlab.com/gitlab-org/security-products/post-analyzers/tracking-calculator/)
+[ruleset](https://gitlab.com/gitlab-org/security-products/analyzers/ruleset)
+
+The granting of maintainership is down to the discretion of the two current maintainers approving the request, but an applicant must have a track record of contributions to the project. These contributions should demonstrate an understanding of the project and how changes to it could affect the monolith.
 
 ##### Reviewer mentorship program
 
