@@ -158,7 +158,6 @@ Usage Discovery Questions:
 - Making use of [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) at the instance level as part of managing GitLab.
 - Using [Compliance Management](https://about.gitlab.com/direction/govern/compliance/compliance-management/) within GitLab.
 
-
 Usage Discovery Questions:
 
 1. How do you manage HTTP traffic to your deployed application?

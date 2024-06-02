@@ -12,8 +12,6 @@ description: "A key part of the customer relationship lifecycle is the renewal p
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-
-
 A key part of the customer relationship lifecycle is the renewal phase.  CSMs must proactively track the renewal dates of their customers and align with their Account Executive (AE) to ensure that a customer renewal takes place.
 
 ## Timeframe
@@ -50,4 +48,3 @@ From this meeting a set of action items should be created to improve customer ut
 ## Customer Cadence
 
 The action items created from the “Renewal Review” meeting should be incorporated into the CSM customer cadence meetings and into any pending QBRs. The CSM should prioritize these reviews early in the renewal horizon.
-

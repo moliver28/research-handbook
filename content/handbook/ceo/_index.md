@@ -117,6 +117,8 @@ Sometimes I will ask to be kept apprised of an action item or follow up. One com
 
 I get a lot of @ mentions in Slack, often when I'm being discussed. Please only @ mention me when you need me to see something or approve something, when you just want to refer to me you can just say Sid. This saves time and enables increased efficiency.
 
+If there is a suggested message draft that you’d like me to post in Slack, you should send two messages to me. The first message should include the context behind the ask, the suggested timing for posting, and a link to the channel that the draft will be posted in. Under this message reply in thread with your second message. This should only contain the draft message. This allows me to easily copy and paste on mobile.  
+
 ### No Sacred Cows
 
 I’ve been thinking about the notion of Sacred Cows since I heard that people use “Sid said” as an argument in conversations.
@@ -235,7 +237,7 @@ I try to plan my vacations around times when many team members in the United Sta
 
 1. Candidate interviews should default to 50 minutes unless there is a specific request to make the meeting shorter or longer.
 1. There should be an invite that includes both the candidate and the CEO. If this is a C-level candidate or it is otherwise requested, the meeting should have "private" visibility. Otherwise, it can be "public."
-1. There should be a second calendar invite from Sid's account with the subject: [Shadow or No Shadows] CEO Briefing Doc: [Person's Name]. This should follow the "private" conventions shared in item 2. This invite should include a briefing document that contains the following information:
+1. There should be a second calendar invite from Sid's account with the subject: [Shadow or No Shadows] CEO Briefing Doc: [Person's Name]. This should follow the "private" conventions shared in item 2. This invite should include a briefing document that is shared with the hiring manager and recruiter (if there is one). The document contains the following information:
     1. Role with a link to the job family
     1. Candidate's LinkedIn link
     1. Link to resume

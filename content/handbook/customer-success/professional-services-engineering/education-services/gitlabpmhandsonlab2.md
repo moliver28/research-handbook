@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab: Create an Organizational Structure in GitLab"
+title: "GitLab Agile Portfolio Management - Hands-On Lab: Create an Organizational Structure in GitLab"
 description: "This Hands-On Guide walks you through creating groups, projects, and project members in GitLab."
 ---
 
@@ -47,26 +47,26 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. The **Subgroup URL** shows which namespace hierarchy that this group will be created in.
 
-    - **Do not change the Subgroup URL in this class. You will always create projects under `https://gitlab.com/gitlab-learn-labs/...` since this is your top-level organization group for these steps.**
+   - **Do not change the Subgroup URL in this class. You will always create projects under `https://gitlab.com/gitlab-learn-labs/...` since this is your top-level organization group for these steps.**
 
 1. The **Subgroup slug** will automatically populate based on the name. Rename `awesome-inc` to `awesome`.
 
-    - **Best Practice:** This slug is what will appear as the **project path**, which means that it is both the URL path and the folder name when you run `git clone`. It is a best practice to shorten this when appropriate.
+   - **Best Practice:** This slug is what will appear as the **project path**, which means that it is both the URL path and the folder name when you run `git clone`. It is a best practice to shorten this when appropriate.
 
 1. Ensure that the **Visibility level** is set to `Private`.
 
-    > A private subgroup will ensure that the group and its projects can only be viewed by members. For more details of visibility levels, see the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+   > A private subgroup will ensure that the group and its projects can only be viewed by members. For more details of visibility levels, see the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
 
 1. Click the **Create subgroup** button.
-    - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://gitlab.com/gitlab-learn-labs/environments/session-{id}/iu{######}/awesome`.
+   - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://gitlab.com/gitlab-learn-labs/environments/session-{id}/iu{######}/awesome`.
 
 1. **Congratulations!** You have created your first group and are ready to create additional groups on your own. Within the **Awesome Inc** group, create subgroups for each of these teams at your awesome company.
-    - **Software**
-      - **Core** (this is a subgroup of `Software`, not `Awesome Inc`)
-      - **Android**
-      - **iOS**
-    - **Infrastructure**
-    - **Security**
+   - **Software**
+     - **Core** (this is a subgroup of `Software`, not `Awesome Inc`)
+     - **Android**
+     - **iOS**
+   - **Infrastructure**
+   - **Security**
 
 1. Move on to Task C.
 
@@ -80,26 +80,26 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. The **Subgroup URL** shows which namespace hierarchy that this group will be created in.
 
-    - **Do not change the Subgroup URL in this class. You will always create projects under `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>` since this is your top-level organization group for these steps.**
+   - **Do not change the Subgroup URL in this class. You will always create projects under `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>` since this is your top-level organization group for these steps.**
 
 1. The **Subgroup slug** will automatically populate based on the name. Rename `awesome-inc` to `awesome`.
 
-    - **Best Practice:** This slug is what will appear as the **project path**, which means that it is both the URL path and the folder name when you run `git clone`. It is a best practice to shorten this when appropriate.
+   - **Best Practice:** This slug is what will appear as the **project path**, which means that it is both the URL path and the folder name when you run `git clone`. It is a best practice to shorten this when appropriate.
 
 1. Ensure that the **Visibility level** is set to `Private`.
 
-    > A private subgroup will ensure that the group and its projects can only be viewed by members. For more details of visibility levels, see the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+   > A private subgroup will ensure that the group and its projects can only be viewed by members. For more details of visibility levels, see the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
 
 1. Click the **Create subgroup** button.
-    - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>/awesome`.
+   - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>/awesome`.
 
 1. **Congratulations!** You have created your first group and are ready to create additional groups on your own. Within the **Awesome Inc** group, create subgroups for each of these teams at your awesome company.
-    - **Software**
-      - **Core** (this is a subgroup of `Software`, not `Awesome Inc`)
-      - **Android**
-      - **iOS**
-    - **Infrastructure**
-    - **Security**
+   - **Software**
+     - **Core** (this is a subgroup of `Software`, not `Awesome Inc`)
+     - **Android**
+     - **iOS**
+   - **Infrastructure**
+   - **Security**
 
 ## Task C. Create a new project
 
@@ -117,9 +117,9 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. Set the **Visibility Level** to private.
 
-    > See the [visibility docs](https://docs.gitlab.com/ee/user/public_access.html) to learn more. Keep in mind that any parent groups that have `Private` visibility will be inherited for all child groups and projects and cannot be changed.
-
-    > **Training Environment Limitation:** In the training environment, your group is part of a private parent group so you will not be able to make a group or project `Public`. To test working with public projects, you can create a project in your personal namespace.
+   > See the [visibility docs](https://docs.gitlab.com/ee/user/public_access.html) to learn more. Keep in mind that any parent groups that have `Private` visibility will be inherited for all child groups and projects and cannot be changed.
+   >
+   > **Training Environment Limitation:** In the training environment, your group is part of a private parent group so you will not be able to make a group or project `Public`. To test working with public projects, you can create a project in your personal namespace.
 
 1. Enable the **Initialize repository with a README** checkbox.
 
@@ -137,13 +137,13 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. In the **Select a role** dropdown, select **Developer**. If you are taking the self-paced course, select **Owner**.
 
-    > See the [permissions and roles docs](https://docs.gitlab.com/ee/user/permissions.html) to learn more about each role level.
+   > See the [permissions and roles docs](https://docs.gitlab.com/ee/user/permissions.html) to learn more about each role level.
 
 1. Click the **Invite** button.
 
 1. Refresh the page to see the user invited as a _Direct Member_.
 
-    > Users will inherit permissions from the parent group hierarchy that this project exists in. If a user already has a higher level of access in a parent group (ex. `Maintainer`), that access level supersedes a lower level of permission assigned at the project level (ex. `Developer`).
+   > Users will inherit permissions from the parent group hierarchy that this project exists in. If a user already has a higher level of access in a parent group (ex. `Maintainer`), that access level supersedes a lower level of permission assigned at the project level (ex. `Developer`).
 
 ## Suggestions?
 

@@ -9,11 +9,11 @@ The first step to improving DevOps and Agile processes is measuring them. Once w
 [DevOps Research and Assessment](https://www.devops-research.com/research.html) (DORA) has created a list of four metrics that are straightforward, focused, and easy to implement. They form an excellent foundation for your metrics initiatives, helping improve your existing DevSecOps efficiency while also building a bridge to business stakeholders.
 
 These four "DORA" metrics are:
+
 - Deployment Frequency
 - Lead Time
 - Mean Time to Recover
 - Change Failure Rate
-
 
 DORA metrics are available in GitLab [Group-level value stream analytics (VSA)](https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics) and in the [CI/CD analytics](https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics.html). APIs are also available for all four DORA metrics. To learn more check out the [DORA API documentation](https://docs.gitlab.com/ee/api/dora/metrics.html#get-project-level-dora-metrics)
 

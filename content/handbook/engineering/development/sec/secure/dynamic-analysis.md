@@ -303,7 +303,7 @@ On any day, each team member should look left and right on our [Dynamic Analysis
 
 The `Look Left & Right Before Dev` strategy ensures that work items aren't getting stuck on our board, that every team member gets a chance to plan, breakdown, and refine issues, and that code reviews and staging/production vefification activities are spread equally across the team. If there is no work to the left, new work can be brought in from our milestone backlog, as defined in our current [Milestone Release Planning](#milestone-release-planning) issue. New work may also be added to the first two columns at any time from sales and support request for help issue, high-priority bugs, and security-related issues.
 
-#### Blueprinting
+#### Blueprinting & Design Docs
 
 When there are too few or no work items in the `workflow::refinement` or the `workflow::ready for development` columns, check the current [Milestone Release Planning](#milestone-release-planning) issue for "Work to Blueprint" issues. Assign yourself as a DRI, and assist in scheduling the necessary meetings with the team to review and help blueprint this work for the next milestone. Attempt to create as many child epics and issues as placeholders for eventual planning, breakdown, and refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All blueprint issues created should receive the following milestone and labels:
 
@@ -314,6 +314,8 @@ When there are too few or no work items in the `workflow::refinement` or the `wo
 /label ~"group::dynamic analysis"
 /label `~workflow::planning breakdown`
 ```
+
+If a bluepriting effort is beyond the scope of the Dyanmic Analysis group, affecting multiple teams, consider adding it as a design document using [this process](https://handbook.gitlab.com/handbook/engineering/architecture/workflow/#design-documents). A list of all architecture design documents at GitLab can be found [here](https://docs.gitlab.com/ee/architecture).
 
 #### Issue breakdown
 

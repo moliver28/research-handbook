@@ -120,9 +120,9 @@ handling. Exceptions should be made only under the following conditions:
 #### Preparing a ticket for handover
 
 1. Set the proper expectations to the customer.
-   1.It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving region.
+   1. It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving region.
    1. Please ensure that the receiving team is properly informed and aligned on any tasks and timelines before finalizing them with the customer.
-1. Use the Zendesk [Zendesk `Handover Ticket Summary` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/General/Handover%20Ticket%20Summary.md?ref_type=heads)
+1. Use the Zendesk [Zendesk `Handover Ticket Summary` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/Out%20of%20Region/Handover%20Ticket%20Summary.md)
    to ensure all necessary information is included and the ticket is unassigned.
 1. Set the Zendesk Form Field `Handover Status` to `Need Handover`.
 1. CC yourself on the ticket and save the ticket to the `Open State`.

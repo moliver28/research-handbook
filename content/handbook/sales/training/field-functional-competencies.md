@@ -6,15 +6,12 @@ description: "GitLab field functional competencies define the critical skills, b
 
 ## Field Functional Competencies
 
-
-
-
-
 ## What are Field Functional Competencies?
 
 GitLab field functional competencies provide a common language and consistent expectations for “what good looks like” for the GitLab field organization (inclusive of Sales and Customer Success roles). They are intended to complement [GitLab’s values](/handbook/values/) and are comprised of specific behaviors that GitLab team members in a field role need to demonstrate consistently to be successful. These critical field skills and behaviors are not meant to be role or job-specific (as each role or job may have additional unique requirements), and how each competency is expressed or demonstrated may vary by role (e.g. by technical depth, engagement in different stages of the customer journey, team-specific expectations, etc.).
 
 More specifically, functional competencies help to:
+
 - Guide the growth and development opportunities available for GitLab field team members
 - Build organizational capabilities when adopted and practiced across the field organization
 - Reinforce behavior that is consistent with GitLab’s values and culture
@@ -58,6 +55,7 @@ To drive efficiency, field team members should leverage the tools and processes 
 ## Proficiency Levels
 
 Competency proficiency rating levels align with GitLab’s enterprise-wide performance categories:
+
 - [Developing](/handbook/people-group/talent-assessment/#developing)
 - [Performing](/handbook/people-group/talent-assessment/#performing)
 - [Exceeding](/handbook/people-group/talent-assessment/#exceeding)
@@ -65,6 +63,7 @@ Competency proficiency rating levels align with GitLab’s enterprise-wide perfo
 ## Practical Application
 
 Field team members and their managers are encouraged to have regular coaching and development conversations to assess individual and team strengths and areas of opportunity across all competencies and the supporting/example skills and behaviors. More specifically, managers in the field organization should:
+
 1. Encourage team members to conduct their own self-assessment to
     - Identify 2 or more strengths field team members intend to continue to leverage to deliver positive results
     - Identify 2 specific skills / behaviors field team members would like to improve upon

@@ -1,19 +1,9 @@
 ---
-
 title: "Product Usage Reporting Vision"
 description: "The page outlines the current and planned utilization of operational data at GitLab, including Product, Sales, Customer Success, and Marketing."
 ---
 
-
-
-
-
-
-
----
-
-
-# Operational Data Vision
+## Operational Data Vision
 
 ## Vision
 
@@ -69,9 +59,8 @@ The benefit to GitLab is based on the premise that customers will renew and expa
 
 #### Identifying & Mitigating Risk
 
-1. Triggered alerts in Gainsight to notify a CSM to take action when there are concerning patterns within the month over month operational data.  
+1. Triggered alerts in Gainsight to notify a CSM to take action when there are concerning patterns within the month over month operational data.
 1. Reporting and alerts when adoption across a use case goes from 'Green' to 'Yellow' or 'Red', indicating potential movement from a team off of the platform
-
 
 #### Success Planning and Outcome Delivery
 

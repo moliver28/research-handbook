@@ -1,16 +1,6 @@
 ---
-
 title: "Brand Activation Handbook"
 ---
-
-
-
-
-
-
-
-# Brand Activation Handbook
-
 
 ## Teams
 

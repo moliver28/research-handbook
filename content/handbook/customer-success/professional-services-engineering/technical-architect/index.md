@@ -15,6 +15,7 @@ GitLab takes our customer's success very seriously. In Professional Services (PS
 ### Pre Sales
 
 Working with Professional Service Pre-Sales to provide:
+
  1. Assistance to Sales Area Managers, Solution Architects, Customer Success Managers and Professional Services Engagement Managers providing technical sales.
        - Follow meddpicc sales qualification methodology
        - Become a trusted advisor to the customer early in the qualification period
@@ -42,11 +43,13 @@ We are working on transitioning the original [Estimate Template](https://docs.go
 ### Project Discovery
 
 Provide Discovery activities for large strategic and enterprise customers
+
  1. Use the [Discovery Questionnaire internal link](https://docs.google.com/document/d/11CVuqRU0VFS6Ozd52vUYNNrGMcq21iIFhe3WTMP3ZDE/edit?usp=sharing) to acquire customer environmental data to be used for laying out the Project Deliverables engagement plan
  2. If a Change Request is necessary, work with Project Management to implement a change in Discovery.
 
 #### Project Technical Leadership
 
 Provide Project Technical Leadership on all GitLab Professional Service or Partner Service engagements
+
  1. Be a point of escalations to get Professional Service Engineers and Partners out of critical problems quickly
  2. Always be enabling Professional Service Engineers and Partner Engineers to better understand the GitLab Platform, GitLab workflows

@@ -1,6 +1,6 @@
 ---
 title: "DevSecOps with GitLab Duo - Hands-On Lab: Getting Started with GitLab Duo"
-description: "This Hands-On Guide walks you through using GitLab Duo to answer technical questions"
+description: "This Hands-On Guide walks you through using GitLab Duo to answer technical questions."
 ---
 
 > Estimated time to complete: 15 minutes
@@ -31,11 +31,11 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
 1. From your **My Test Group** training subgroup, navigate to the GitLab Duo Principles Project.
 
-    > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains an `examples` folder that holds additional examples and activities per lab. 
+    > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains an `examples` folder that holds additional examples and activities per lab.
 
 1. From your project, click the **GitLab Duo Chat** button in the top right corner.
 
-1. A new chat window will appear on the right side of the screen. Try asking some questions and see how the GitLab Duo responds! 
+1. A new chat window will appear on the right side of the screen. Try asking some questions and see how the GitLab Duo responds!
 
 Here are a few demo questions you can ask Duo:
 

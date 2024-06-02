@@ -21,6 +21,7 @@ The CRO team will dedicate an entire day to particpate in workshops and round ta
 ### Opening session
 
 The opening session will feature an interactive conversation with our CRO covering the following:
+
 - What’s in store for the day
 - Why it matters
 - How to use the day to your advantage
@@ -44,4 +45,3 @@ During this session we will feature leaders at GitLab. That includes individual 
 ### Resources
 
 Team members will be provided with job aids and resources during every session that can easily be accessed on highspot.
-

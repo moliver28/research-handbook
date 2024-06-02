@@ -104,11 +104,11 @@ Team members who have questions about the minimum requirements in this policy or
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}). Procedure exceptions will be tracked by the procedure owner and must be approved by management.
+Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions). Procedure exceptions will be tracked by the procedure owner and must be approved by management.
 
 ## References
 
 - [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}})
 - [Critical System Tiers]({{< ref "critical-systems" >}})
 - [GitLab Control Framework (GCF)]({{< ref "sec-controls#gitlab-control-framework-gcf" >}})
-- [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}})
+- [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions)

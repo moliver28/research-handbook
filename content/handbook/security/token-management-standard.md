@@ -131,7 +131,7 @@ GitLab customers are responsible for managing their own accounts and tokens, sho
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}) and currently, potential exceptions need the permission of Security Assurance.
+Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions) and currently, potential exceptions need the permission of Security Assurance.
 
 ## References
 

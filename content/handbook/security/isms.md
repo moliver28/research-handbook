@@ -134,7 +134,7 @@ As part of GitLab's tier 2 security operational risk program, each risk identifi
 
 ## Exceptions
 
-Exceptions to Information Security policies or procedures will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to Information Security policies or procedures will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

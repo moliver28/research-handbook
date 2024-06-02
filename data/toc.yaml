@@ -68,8 +68,6 @@
   links:
   - name: About the Handbook
     url: about
-  - name: Handbook Preferences
-    url: preferences
   - name: Handbook Changelog
     url: changelog
   - name: Handbook Roadmap

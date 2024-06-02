@@ -143,4 +143,21 @@ If you're not completely sure about the specifics of the script or commands, tes
 
 ## CI Catalog Badge requests
 
-To be actioned by the Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com, and require and a GitLab.com administrator account to be used with the [upcoming REST API](https://gitlab.com/gitlab-org/gitlab/-/issues/451509) to apply this badge to a namespace.
+[CI Catalog Badge requests](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=CI%20Catalog%20Badge%20Request) are to be actioned by a Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com. They require a GitLab.com administrator account to execute the [verifiedNamespaceCreate](https://docs.gitlab.com/ee/api/graphql/reference/#mutationverifiednamespacecreate) GraphQL mutation.
+
+1. Open [GraphiQL](https://gitlab.com/-/graphql-explorer) with your GitLab.com administrator account
+1. In the following query, replace `root-level-group` with the namespace provided in the internal request:
+
+   ```graphql
+   mutation {
+     verifiedNamespaceCreate(input: { namespaceId: "root-level-group", 
+       verificationLevel: "gitlab_partner_maintained"
+       }) {
+       errors
+     }
+   }
+   ```
+
+1. Execute the query via GraphiQL
+   - In case of an error, reach out in [#g_pipeline-authoring](https://gitlab.enterprise.slack.com/archives/C019R5JD44E) for assistance
+1. When closing the internal request as actioned on, ping the requester to let them know the badge was applied

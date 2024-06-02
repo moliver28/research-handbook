@@ -419,6 +419,7 @@ The listed phases will be applied for both Staging then at a later stage to Prod
 1. [Phase 3](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%203): Routing via classification
    - Topology Service deployed with classification with Runway
    - mTLS between the router and topology service
+   - Works with GDK and Cell 2 (QA) to unblock development/testing of certain workflows.
 1. [Phase 4](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%204): Complete Cells Services
    1. Phase 4a: Add Claim Service
    1. Phase 4b: Enable Claim Service on Cell 1
@@ -426,15 +427,18 @@ The listed phases will be applied for both Staging then at a later stage to Prod
 1. [Phase 5](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%205): Register existing GitLab.com as a Cell with Topology Service
    1. Phase 5a: Legacy infrastructure becomes a cell
    1. Phase 5b: Database Sequencing Service - Sequence claiming is enabled on Cell 1 (legacy GitLab.com)
-   1. Phase 5c: Backfill existing sequences
-1. [Phase 6](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%206): Continuous deployment of Cell 2 (QA cell, no external customers)
-   - Dedicated on GCP pre-GA
-   - Enable organizations FF on Cell 2
-   - No automation
-   - No internal and external customers
-   - Able to run QA E2E tests across cells
-   - Hook up Fulfillment/License
-   - Hook up data replication to Snowplow/Tableau
+1. [Phase 6](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%206): Cell 2 Ready (QA cell, no external customers)
+   1. Phase 6a: Application Readiness
+      - Basic functionality across Cells such as sign-up, project creation, running pipelines.
+      - Enable organizations FF on Cell 2
+      - Hook up Fulfillment/License
+   1. Phase 6b: Continuous Deployment to Cell 2 (QA cell, no external customers)
+      - Dedicated on GCP pre-GA
+      - Able to run QA E2E tests across cells
+      - Hook up data replication to Snowplow/Tableau
+   1. Limitations
+      - No automation
+      - No internal and external customers
 1. [Phase 7](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%207): Reconfigure Gitlab Shell to use Topology Service
 1. [Phase 8](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%208): Production readiness
 1. [Phase 9](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%209): Cell 3

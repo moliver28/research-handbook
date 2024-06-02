@@ -142,7 +142,7 @@ GitLab operates its access management under the [principle of least privilege](h
   - A specific example of why the requested access is excessive. For example, a team member is requesting Super Admin access on Google Workspace to provision user accounts, but the Super Admin role provides access far beyond user account provisioning.
   - An alternative level of access and a brief explanation of how the new level of access allows the team member to fulfill their role. For example, a User Admin role on Google Workspace allows the team member to provision user accounts without providing the additional access a Super Admin would receive. If no alternative can be given, the access request should be approved in the interest of the team member's productivity.
 
-- Should there be disagreement on an access request rejection on the basis of least privilege, an [exception request]({{< ref "_index.md#information-security-policy-exception-management-process" >}}) should be submitted. An exception request is important because it provides a clearly defined escalation process, promotes transparency, and allows us to appropriately track any policy deviations.
+- Should there be disagreement on an access request rejection on the basis of least privilege, an [exception request](/handbook/security/controlled-document-procedure/#exceptions) should be submitted. An exception request is important because it provides a clearly defined escalation process, promotes transparency, and allows us to appropriately track any policy deviations.
 
 ### Deprovisioning
 
@@ -266,7 +266,7 @@ Additionally, all GitLab Team Member access is reviewed as a part of the [Access
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

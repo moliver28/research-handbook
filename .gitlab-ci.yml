@@ -19,6 +19,7 @@ stages:
   - build
   - deploy
   - notify
+  - maintenance
 
 include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
@@ -37,6 +38,8 @@ default:
       - runner_system_failure
       - job_execution_timeout
       - stuck_or_timeout_failure
+  tags:
+    - saas-linux-medium-amd64
 
 variables:
   # NOTE: The following PERFORMANCE and RELIABILITY variables are optional, but may
@@ -52,6 +55,11 @@ variables:
   GIT_LFS_SKIP_SMUDGE: 1
   GIT_SUBMODULE_STRATEGY: none
 
+  # Speed up artifact compression and upload
+  # https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2684
+  FF_USE_FASTZIP: 1
+  ARTIFACT_COMPRESSION_LEVEL: fast
+
   ### RELIABILITY ###
   # Reduce potential of flaky builds via https://docs.gitlab.com/ee/ci/yaml/#job-stages-attempts variables
   GET_SOURCES_ATTEMPTS: 3
@@ -60,6 +68,12 @@ variables:
   EXECUTOR_JOB_SECTION_ATTEMPTS: 3
 
   PAGES_PREFIX: ""
+
+  ### TOOLING ###
+  # Specify versions of tools used in pipelines
+  HUGO_VERSION: '0.124.1'
+  HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
+  MARKDOWNLINT_VERSION: '0.13.0'
 
 .default-branch: &default-branch
   if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $BUILD_AND_TEST_ONLY != "true"
@@ -83,16 +97,30 @@ variables:
 ###################################
 
 build:
-  image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
+  image: $HUGO_IMAGE
   stage: build
   script:
+    - echo -e "\e[0Ksection_start:`date +%s`:group1\r\e[0KGroup 1"
     - apk update
+    - echo -e "\e[0Ksection_end:`date +%s`:group1\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group2\r\e[0KGroup 2"
     - apk upgrade
+    - echo -e "\e[0Ksection_end:`date +%s`:group2\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group3\r\e[0KGroup 3"
     - apk add go npm yq curl coreutils sed
+    - echo -e "\e[0Ksection_end:`date +%s`:group3\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group4\r\e[0KGroup 4"
     - ./scripts/sync-data.sh
+    - echo -e "\e[0Ksection_end:`date +%s`:group4\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group5\r\e[0KGroup 5"
     - npm ci
+    - echo -e "\e[0Ksection_end:`date +%s`:group5\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group6\r\e[0KGroup 6"
     - hugo --enableGitInfo
+    - echo -e "\e[0Ksection_end:`date +%s`:group6\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group7\r\e[0KGroup 7"
     - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
+    - echo -e "\e[0Ksection_end:`date +%s`:group7\r\e[0K"
   artifacts:
     paths:
       - public
@@ -103,14 +131,13 @@ build:
     variables:
       PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
       ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
-      HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"  
+      HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 ###################################
 #
 # DEPLOY STAGE
 #
 ###################################
-
 pages:
   stage: deploy
   environment:
@@ -125,18 +152,17 @@ pages:
     path_prefix: "$PAGES_PREFIX"
   artifacts:
     paths:
-      - public    
+      - public
   script:
-    - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"    
+    - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"
   rules:
     - <<: *default-branch
     - <<: *scheduled-pipeline
-    # 2024-05-21 - Temporarily disabled due to > 500 pages deployments blocking
-    #- <<: *merge-request-only
-    #  variables:
-    #    PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-    #    ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
-    #    HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+    - <<: *merge-request-only
+      variables:
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 ####################################
 ##
@@ -146,16 +172,19 @@ pages:
 
 markdownlint:
   image:
-    name: davidanson/markdownlint-cli2:v0.12.1
+    name: davidanson/markdownlint-cli2:v${MARKDOWNLINT_VERSION}
     entrypoint: ["/bin/sh", "-c"]
-  stage: test
+    docker:
+      user: root
+  stage: build
   needs: []
   variables:
     FORCE_COLOR: 1
   before_script:
     - npm install chalk terminal-link
   script:
-    - markdownlint-cli2 "content/**/*.md"
+    - apk add git
+    - sh ./scripts/markdownlint.sh
   rules:
     - <<: *merge-request-or-tag
     - <<: *build-and-test-only
@@ -171,7 +200,7 @@ handbooklint:
   image:
     name: gitlab/glab
     entrypoint: ["/bin/sh", "-c"]
-  stage: test
+  stage: build
   needs: []
   before_script:
     - apk update
@@ -191,7 +220,7 @@ handbooklint:
       codequality: handbook-codequality.json
 
 hugolint:
-  stage: test
+  stage: build
   needs: []
   rules:
     - <<: *build-and-test-only
@@ -215,6 +244,7 @@ hugolint:
       codequality: linkcheck.json
 
 secret_detection:
+  stage: build
   needs: []
   dependencies: [] # Don't download artifacts, especially `./public/`
   rules:
@@ -235,8 +265,7 @@ post_comment_on_failure:
     name: gitlab/glab
     entrypoint: ["/bin/sh", "-c"]
   script:
-    - apk add yq
-    - getconf ARG_MAX
+    - apk add yq jq
     - ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
     - glab auth login -t $MR_UPDATE_TOKEN
     - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
@@ -249,3 +278,24 @@ notify_slack_on_build_failures:
   script: ./scripts/send-failure-notification-to-slack.sh
   rules:
   - <<: *default-branch
+
+####################################
+##
+## MAINTENANCE STAGE
+##
+####################################
+
+modules:tidy:
+  image: $HUGO_IMAGE
+  stage: maintenance
+  allow_failure: true
+  rules:
+    - <<: *merge-request-only
+  needs: []
+  script:
+    - apk update
+    - apk upgrade
+    - apk add go
+    - hugo mod tidy
+    - echo "If this job failed, please commit changes to the go.mod and go.sum files"
+    - git diff --exit-code go.mod go.sum

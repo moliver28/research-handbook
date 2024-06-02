@@ -1,16 +1,7 @@
 ---
-
 title: "Sales Strategy Projects"
 description: “Discover GitLab’s Sales Strategy team’s methods and goals”
 ---
-
-
-
-
-
-
-
-# Sales Strategy Projects
 
 The Sales Strategy team is involved in multiple projects in the areas of Analytics, GTM and Field Planning.
 
@@ -20,16 +11,13 @@ The Sales Strategy team is involved in multiple projects in the areas of Analyti
 
 [Please see the Sales Handbook Definitions Doc](https://docs.google.com/document/d/1UaKPTQePAU1RxtGSVb-BujdKiPVoepevrRh8q5bvbBg/edit#bookmark=id.vkhb6a9ugrkh)
 
-
 ## Forbes 2000 to SFDC
 
 [Please see the Sales Handbook Definitions Doc](https://docs.google.com/document/d/1UaKPTQePAU1RxtGSVb-BujdKiPVoepevrRh8q5bvbBg/edit#bookmark=id.hlidqemi1m03)
 
-
 ## Potential LAM
 
 This placeholder will be updated once project is complete.
-
 
 ## Rosetta Stone
 
@@ -44,6 +32,7 @@ Starting in FY22, we made a change to our comp plans. We began paying both reps 
 #### Key Salesforce Fields for Reporting by Sales Team
 
 In order to achieve clean reporting by sales team based on opportunity ownership, in Dec 2020 we created 4 new fields on the User object in Salesforce:
+
    - [User Segment](https://gitlab.my.salesforce.com/00N6100000ICbBT?setupid=UserFields)
    - [User Geo](https://gitlab.my.salesforce.com/00N4M00000IbHo5?setupid=UserFields)
    - [User Region](https://gitlab.my.salesforce.com/00N4M00000IbHo6?setupid=UserFields)
@@ -68,6 +57,7 @@ While most of our sales performance reporting is based on the sales team that wo
 #### Project Plan
 
 The project plan for Rosetta Stone and all of the associated issues can be found [here](https://gitlab.com/gitlab-com/sales-team/field-operations/analytics/-/issues/242#note_495712375). To summarize, our steps are:
+
  - Phase I: Reporting by Sales Team
    - align teams on key SFDC fields and account vs. opportunity ownership in reporting
    - fill in user segment/geo/region/area fields on all user records
@@ -83,6 +73,7 @@ The project plan for Rosetta Stone and all of the associated issues can be found
    - audit existing fields on User, Opportunity, and Account objects. Deprecate any competing fields.
 
 The ideal end state for this project would be that:
+
    - we have ONLY 4 fields in SFDC that you could possibly use to answer any and all questions about sales team performance by segment/geo/region/area, which would align cleanly with our sales management structure (rep --> ASM --> RD --> CRO); and
    - we have ONLY 4 fields that you could possibly use to answer any and all questions about account characteristics by segment/geo/region/area.
 

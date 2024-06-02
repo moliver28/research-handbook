@@ -56,7 +56,7 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 **Step 4 - Drop the CSV in the Google Drive folder**
 {: .alert .alert-info}
 
-1. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link) called `List Import Automation`. If you do not have access to the folder, open an AR request with the Marketing Operations team seeking access to both the `List Import Automation` and the `Report Folder`. 
+1. Go to the [Google Drive folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link) called `List Import Automation`. If you do not have access to the folder, open an AR request with the Marketing Operations team seeking access to both the `List Import Automation` and the `Report Folder`.
 1. Drop your CSV containing lead data into the folder
 1. An automated process will pick up your CSV and start processing each record in your file, validating the data.
 
@@ -65,11 +65,11 @@ After you populated your spreadsheet with lead data, Download the leads tab as a
 
 **When the import finishes processing in Marketo, it will send a slack message with information about:**
 
-    1. Report link
-    1. Marketo program link
-    1. Records created
-    1. Records updated
-    1. Failed records
+1. Report link
+1. Marketo program link
+1. Records created
+1. Records updated
+1. Failed records
 
 <details>
   <summary markdown="span"> Click to expand screenshot</summary>
@@ -94,8 +94,8 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 
 ![Report status column](/handbook/marketing/marketing-operations/automated-list-import/images/report-status.png)
 
-</details> 
-  
+</details>
+
 ## Common errors
 
 1. Country or State Failed Validation: We check the country and state values against a strict picklist. Having wrong values in those fields results in Salesforce refusing to accept to sync a new lead.
@@ -135,7 +135,7 @@ The following data cleanup is required for any list prior to sending it to the M
 
 - **Duplicate Records:** If the person is a duplicate based on email address, they will appear red under the blue column header, and should be removed from the list.
 
-** Best Practices **
+**Best Practices**
 
 1. Remove inaccurate entries
 
@@ -194,7 +194,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Last Name              | Yes                                       |                                                                                                                                           | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Email Address          | Yes                                       |                                                                                                                                           | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Company Name           | Yes                                       |                                                                                                                                           | Missing this value will result in an **error**                                                                                                                                                                                                                          |
-| State/Province         | No but preferable for US/Canada/Australia | See values [here](#reference-values-for-picklists)                                                                                        |
+| State/Province         | No but preferable for US/Canada/Australia | See values [here](#reference-values-for-picklists)                                                                                        | |
 | Country                | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | Missing this value will result in an **error**                                                                                                                                                                                                                          |
 | Campaign Member Status | Yes                                       | See values [here](#reference-values-for-picklists)                                                                                        | This will determine the status in the Marketo Program                                                                                                                                                                                                                   |
 | Label as Opt-In?       | No                                        | Yes/No or True/False                                                                                                                      | Leave blank if no option is provided                                                                                                                                                                                                                                    |
@@ -447,7 +447,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Western Sahara                               |                                      |                         |
 | Yemen                                        |                                      |                         |
 | Zambia                                       |                                      |                         |
-| Zimbabwe                                     |                                      |
+| Zimbabwe                                     |                                      | |
 
 </details>
 

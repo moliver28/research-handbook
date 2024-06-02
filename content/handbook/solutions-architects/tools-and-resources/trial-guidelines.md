@@ -34,6 +34,19 @@ If a customer decides to activate a trial on an existing instance, they will nee
 
 Customers who choose a self-managed trial will need to install a single node [Omnibus instance](https://docs.gitlab.com/omnibus/) and start the trial there.  After completing the self-managed trial form, they will receive an email with additional instructions for getting starting with the trial.
 
+### Extending an Existing Trial
+
+All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using [the GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc’d on Internal Requests.
+
+Once you access the form, enter your email and choose "GitLab L&R Internal Request for Global Customers" or "GitLab L&R Internal Request for US Federal Customers" to renew and extend a trial license.  
+
+Note you also need to have [Zendesk Light Agent account](content/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) before you make this request.
+
+References
+
+- [Support Internal Requests](content/handbook/support/internal-support/#internal-requests)
+- [Support Super Form](content/handbook/support/readiness/operations/docs/gitlab/support_super_form/)
+
 ### Populating your group with project data
 
 - When determining which projects to import into the trial namespace, we recommend considering the following criteria:

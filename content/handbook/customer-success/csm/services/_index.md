@@ -21,6 +21,7 @@ For an overview of CSM segments by ARR, please see [internal handbook](https://i
 ## Pillars of Success
 
 There are 7 pillars that we have identified as crucial for success as CSMs. It is expected and normal for all CSMs to have higher proficiency in some areas and lower in others, especially when taking [job level](/handbook/company/structure/#layers) into consideration, but these are all areas we are continually striving to be better at, as there are always opportunities to learn and improve.
+
 - Communication
   - Frequent and honest communication with customers and internal stakeholders, so everyone knows what is happening and what to expect, in line with [GitLab communication guidelines](/handbook/communication/)
 - Follow-through
@@ -49,7 +50,6 @@ There are various services a Customer Success Manager will provide to ensure tha
 - Executive business reviews (1-2 times a year for Enterprise; as needed for Commercial)
 - Partnership into expansion into new use cases and associated enablement & guidance
 - Internal Advocacy: CSM is the customer champion for guidance and requests, a liaison between the customer and other GitLab teams
-
 
 ### Training
 

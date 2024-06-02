@@ -47,7 +47,7 @@ Its helpful to understand the level of maturity that the customer is on as it re
 
 ## Migrating from Jenkins to GitLab CI
 
-## Specific Approaches
+## Specific Approaches - Jenkins Migration
 
 1. **Flash Cut** - Migrate all data from Jenkins to GitLab CI and update pipeline files at once.
 2. **Net New** - Update all pipeline job definitions to run on the customer GitLab instance using GitLab CI. All job history remains on the legacy system. All historical packages and containers are left on the legacy system and rebuilt on the new GitLab system.
@@ -65,17 +65,3 @@ Its helpful to understand the level of maturity that the customer is on as it re
 | What Jenkins plugins are you using most often? |  | We use the maven plugin extensively. Also some teams use Ant/Gradle plugins. Some usage of .NET SDK too.  | Knowing more about the plugins that support your workflow will help us understand how much time to spend on building workflow proposals to use an approach based on gitlab best practices. |
 | Do you use the branch/source plugin to automate the creation of jenkins folders or jobs?  |  | We don't use the branch/source plugin for automatically creating jenkins jobs on repo creation | This automation is usually something customers want to retain, so we will need special considerations for this kind of approach. |
 | What type of job executors pick up your Jenkins jobs? | | We have a persistently running fleet of virtual machines that are available to run jobs. | This helps us understand the level of effort to port your workflows to use gitlab best practices (leveraging containerized builds). |
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -28,7 +28,7 @@ title: "Additional Resources for Sales Training"
     - Discovery Meeting
     - Technical Meeting
     - Close Plan Meeting
-7. [After the meeting: Personal Development Plan and Next Steps](#after-the-meeting-personal-development-plan-and-next-steps)
+4. [After the meeting: Personal Development Plan and Next Steps](#after-the-meeting-personal-development-plan-and-next-steps)
 
 #### Basic Principles to follow in any meeting
 
@@ -46,7 +46,6 @@ Look over the basic principles of customer meetings and resources in GitLab hand
 #### Types of External meetings at GitLab
 
 Note: Depending on each use case, there may be more or less meetings involved. It’s always best to still implement basic principles in each meeting. It’s up to one’s own judgement to decide what to cover on each meeting.
-
 
 ##### 1. Discovery meeting
 
@@ -78,8 +77,6 @@ This is a short meeting, possibly lasting from 15-20 minutes. This is where you 
 #### After the meeting: Personal Development Plan and Next Steps
 
 For your own benefit, here's a [Google form](https://docs.google.com/forms/d/1cFJnIi0hkVc6gwdRPQrDTrZTv1t35a55vDbP-tCz8Go/edit) that you can make a copy of and fill out for your own self evaluation after every external meeting. This will help you to track your progress on key practices and to see where you can make improvements.
-
-
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
 
@@ -131,15 +128,14 @@ Another way to check whether your sales conversations are productive for your pr
 
 To test his understanding of a prospect’s problems, Dan Tyre, a sales director at HubSpot, tries to define three reasons his prospects would buy, three reasons his prospects would balk, and what the next step should be. If he can’t, he knows he needs to get on another call with his prospect to further understand what they want and discuss how to move forward in a mutually productive way.
 
-
 ### Ways to influence decision making by using the Psychology of Persuasion: The Principle of Reciprocity <a name="reciprocity"></a>
 
 Dr. Robert Cialdini's theory of influence from his book "Influence: The Psychology of Persuasion" defines six principles that guide human behavior. The first principle is reciprocity, the desire to give back to someone who has given to us. E.g. if someone does you a favor you feel obligated to return a favor.
 
 In a sales conversation this principle can be used to influence the direction and outcome of a conversation from the very beginning.
 For example if a prospect signs up for a free trial, you can initiate the conversation by offering help with potential issues or questions and making sure the prospect has received the relevant information from the trial confirmation mail, e.g. the license key.
-Nearly everyone of us has experienced a situation where a confirmation email didn't arrive or went to the spam folder. So by starting the conversation with a favor, the prospect will feel obligated to take the time to reply and answer your [open-ended question](#art).
-The principle of reciprocity is also reason why [sales emails should always provide value to a customer](#insanely).
+Nearly everyone of us has experienced a situation where a confirmation email didn't arrive or went to the spam folder. So by starting the conversation with a favor, the prospect will feel obligated to take the time to reply and answer your open-ended question.
+The principle of reciprocity is also reason why sales emails should always provide value to a customer.
 Here are a few examples about how to start a conversation with a prospect who started a trial:
 
 Hi [prospect] and thanks for your interest in GitLab.
@@ -149,7 +145,6 @@ In case you didn't see the email from our CustomersDot, I've attached a copy of 
 Perhaps let me know what's driving your interest, what you're looking to validate during the trial period and how we can help you (demo, docs technical support etc).
 
 Cheers,
-
 
 Hi [prospect],
 
@@ -164,7 +159,6 @@ It would be great to understand what the problems and tasks are, that you are tr
 Looking forward hearing from you.
 
 Best regards,
-
 
 ### 6 Ways to Make Your Sales Email Insanely Valuable to Prospects
 
@@ -281,7 +275,6 @@ Thanks for getting in touch. That’s a great question, and I’m glad you asked
 Thanks again! If anything else comes up, please let me know.
 
 All the best,
-
 
 As author Michael Port recently wrote, “Give away so much value that you think you've given too much -- and then give more.”
 
@@ -510,9 +503,7 @@ In sales, the line between pushiness and persistence can be hard to walk.  Here 
 
 - Persistent: Making sure your prospect's on track to achieve their goals and is ready to implement your product upon purchase.
 
-
 Recognize that there’s a fine line between being annoying and tenacious. The same sales activities can be executed in very different ways -- some good, some bad.
-
 
 ### A Two-Step Formula for Handling Pricing Objections <a name="objections"></a>
 
@@ -546,7 +537,7 @@ Once you’ve paid the client a compliment, ask them a question that is both dir
 
 ##### OBJECTION: “Your price is too high!”
 
-##### RESPONSES
+##### RESPONSES: “Your price is too high!”
 
 - Thanks for sharing that. How much too high are we?
 - I appreciate your telling me that. Have you found a less expensive product?
@@ -561,7 +552,7 @@ Once you’ve paid the client a compliment, ask them a question that is both dir
 
 ##### OBJECTION: We don’t have any budget
 
-##### RESPONSES
+##### RESPONSES: We don’t have any budget
 
 - Budget?
 - Oh! I appreciate that makes it difficult to buy. When does your budget come up for renewal or review?
@@ -570,7 +561,7 @@ Once you’ve paid the client a compliment, ask them a question that is both dir
 
 ##### OBJECTION: I need a discount
 
-##### RESPONSES
+##### RESPONSES: I need a discount
 
 - Discount?
 - It’s good of you to be looking for the best deal. How much of a discount do you need? Why that much?
@@ -611,6 +602,7 @@ Scenario: Customer really likes Ultimate but feels that only 1,000 of the 4,500 
 Translation: I don't understand why Ultimate is so valuable that it's a no-brainer to buy it for all of my users.
 
 Solutions:
+
 - Refocus the conversation on the business outcomes and value of those outcomes.  The customer already pays more than the price of Ultimate for a collection of tools that do not deliver the outcomes they want.  This is an opportunity to pay less *and* get the outcomes they want.
 - Is the customer worried that only part of the team is cloud native?  That's okay!  Ultimate is for all developers and approaches and makes it easy to support legacy and cloud-native approaches at the same time.  The DevOps value applies to all of their developers.
 - [We don't support multiple types of users on one deployment](/handbook/company/pricing/#single-plan-for-one-customer) because it would make a bad experience.  We also don't split the servers for the same reason.  Our job is to make the customer successful and splitting the deployment is not the path to success.
@@ -726,6 +718,7 @@ As Aja points out, salespeople get happy ears and interpret the buyers response 
 calls out buying phrases that are committal.  Which phrases are you hearing?  Vague, abstract, no-committal.  If so, then your buyer is in the consideration stage and not buying.  Or is your buyer asking you or making very specific references to their interest in purchasing?
 
 Quiz: Which phrase is a signal that the prospect is ready to buy?
+
   1. “That seems like it could be helpful.” or
   1. “This tool would help us do X faster.”
 

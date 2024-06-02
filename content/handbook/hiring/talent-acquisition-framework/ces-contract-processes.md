@@ -31,12 +31,14 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen, Pattie Egan. Backups: Jim Gladen & Simon Mundy |
 | GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan|
+| GitLab Israel LTD | Jim Gladen, Simon Mundy|
 | GitLab IT BV | Marissa Farris, Pattie Egan |
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar & Rob Allen |
 | GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
 | GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
+| Oxeye Security Ltd. | James Gladen, Simon Mundy|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
