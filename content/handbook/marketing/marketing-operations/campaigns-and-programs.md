@@ -347,9 +347,9 @@ For all other campaign types, follows steps below. All steps are required.
 
 ## Parent/Child Campaigns Setup
 
-For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session or ancillary event, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. When creating a parent campaign, it should always be named with `_PARENT` at the end of the campaign name. 
+For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session or ancillary event, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. When creating a parent campaign, it should always be named with `_PARENT` at the end of the campaign name.
 
-Two important aspects that need to be avoided when it comes when creating/editing parent campaigns are the following: 
+Two important aspects that need to be avoided when it comes when creating/editing parent campaigns are the following:
 
 1. Do not add any campaign members to the parent campaign as we want to minimize the risk of creating duplicate bizible touchpoints for the same activity.
 2. Parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, do not put more than $1 value. The true Budgeted Cost & Actual Cost are to be updated only on the child campaigns and not on parent campaigns, as we should not be running any ROI on the parent campaigns.
