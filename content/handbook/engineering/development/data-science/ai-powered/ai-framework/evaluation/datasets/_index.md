@@ -60,18 +60,26 @@ Once your dataset is prepared, follow these steps to upload it to LangSmith:
 - Log In to LangSmith:
   - Visit the LangSmith website at `https://smith.langchain.com` and log in with your credentials.
 - Navigate to the Datasets Section:
-  - In the LangSmith dashboard, locate and click on the “Datasets” section.
+  - In the LangSmith dashboard, locate and click on the "Datasets and Experiments" section.
 - Upload the Dataset:
   - Click on the “Upload Dataset” button.
-  - Choose your CSV or JSON file and upload it. Ensure you provide a meaningful name and description for your dataset.
+  - Choose your `CSV` or `JSON` file and upload it. Ensure you provide a meaningful name and description for your dataset.
 - Verify the Upload:
   - After uploading, verify that the dataset appears in your list of datasets and that the entries are correctly formatted.
 
 Once your dataset is uploaded to LangSmith, you can reference it in your evaluation scripts.
 
+##### Suggested Evaluation Scripts
+
+After uploading, click on “New Experiment” in the top right corner of the LangSmith Web UI to access a list of predefined experiment code that you can copy and use. This section includes predefined evaluators, such as correctness and helpfulness. Additionally, you can define your own evaluators using [Custom Evaluators](https://docs.smith.langchain.com/how_to_guides/evaluation/evaluate_llm_application#use-custom-evaluators).
+
+- ![EXP](../img/new_experiment.png)
+
 #### How to decide how to create a dataset
 
-...TODO
+Datasets are collections of Examples, the core building block for the evaluation workflow in LangSmith. Examples provide the inputs over which you will be running your pipeline, and, if applicable, the expected outputs that you will be comparing against. All examples in a given dataset should follow the same schema. Examples contain an "inputs" dict and an "output" dict, along with (optionally) a metadata dict.
+
+- [Datasets and examples](https://docs.smith.langchain.com/concepts/evaluation#datasets-and-examples)
 
 #### Current list of datasets
 

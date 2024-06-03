@@ -17,7 +17,7 @@ This guide is designed to help Backend and Frontend developers at GitLab conduct
   - Make sure Python is installed on your machine. You can download and install it from the [official Python website](https://www.python.org/downloads/).
 - API Keys and Tokens:
   - Obtain the necessary API keys for LangSmith and Anthropic. You can get these from `@oregand`, `@m_gill` or `@tzallmann`. You can also reach out to the `#g_ai_framework` slack channel and ask. An account will be created for you under `https://smith.langchain.com`.
-  - Ensure you have a GitLab private token with the necessary permissions. You can generate one from your GitLab profile settings under [“Access Tokens”](https://gitlab.com/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
+  - Ensure you have a GitLab private token with the necessary permissions from **your local GDK instance**. You can generate one from your GitLab profile settings under [“Access Tokens”](https://gitlab.com/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
 
 ### Step 1: Setting Up Your Environment
 
@@ -30,7 +30,7 @@ Ensure Python 3 is installed on your machine. If not, download and install it fr
 Open your terminal and install the following libraries
 
 ```bash
-pip install requests langsmith langchain langchain-openai python-dotenv
+pip install requests langsmith langchain langchain-openai python-dotenv langchain_anthropic langchainhub
 ```
 
 #### Create the Evaluation Directory
@@ -42,9 +42,24 @@ mkdir -p evaluation_scripts/chat evaluation_scripts/code_suggestions
 cd evaluation_scripts
 ```
 
+#### Directory Structure
+
+Your project directory should look like this:
+
+```bash
+project_root/
+├── evaluation_scripts/
+│   ├── chat/
+│   │   ├── .env
+│   │   └── evaluate.py
+│   ├── code_suggestions/
+│   │   ├── .env
+│   │   └── evaluate.py
+```
+
 #### Set Environment Variables
 
-In the `evaluation_scripts` directory  create a `.env` file and add the following lines. This file stores your environment variables securely. Leave the `OPENAI_API_KEY` blank.
+In the `evaluation_scripts` directory create a `.env` file for each feature folder and add the following lines. This file stores your environment variables securely. Leave the `OPENAI_API_KEY` blank.
 
 ```bash
 LANGCHAIN_TRACING_V2=true
@@ -53,6 +68,7 @@ LANGCHAIN_API_KEY="your_langsmith_api_key"
 LANGCHAIN_PROJECT="26a248f8-d774-467d-860f-047f99a8e8b5"
 OPENAI_API_KEY=""
 GITLAB_PRIVATE_TOKEN="your_gitlab_private_token"
+ANTHROPIC_API_KEY="your_anthropic_api_key"
 ```
 
 ### Step 2: Create and upload your dataset
@@ -70,11 +86,14 @@ In the `evaluation_scripts/chat` directory, create a new file named `evaluate.py
 ```python
 import os
 import requests
-from langsmith import traceable, wrappers
-from langsmith.evaluation import evaluate
+import langsmith
 from dotenv import load_dotenv
+from langsmith import traceable, wrappers
+from langchain.schema import output_parser
+from langsmith.evaluation import evaluate, LangChainStringEvaluator
 
-load_dotenv()  # Load environment variables from .env file
+# Load environment variables from .env file
+load_dotenv()
 
 @traceable
 def get_chat_answer(question):
@@ -84,21 +103,86 @@ def get_chat_answer(question):
         "Content-Type": "application/json",
         "PRIVATE-TOKEN": os.getenv("GITLAB_PRIVATE_TOKEN"),
     }
-    payload = {
-        "content": question
-    }
+    payload = {"content": question}
     response = requests.post(url, json=payload, headers=headers)
-    if response.status_code == 200:
+    if response.status_code == 201:
         return response.json()
     else:
         raise Exception(f"Error: {response.status_code} - {response.text}")
 
 def main():
+    # Initialize the LangChainStringEvaluator with the grading function
+    evaluator_1 = LangChainStringEvaluator("exact_match")
+    
     chain_results = evaluate(
-        lambda inputs: get_chat_answer(inputs["question"]),
-        # Replace "duo_chat_questions_0shot" with the name of your uploaded dataset
-        data="duo_chat_questions_0shot",
-        evaluators=["oshot_choice"],
+        lambda inputs: get_chat_answer(inputs['input']),
+        data="duo_chat_questions_0shot",  # Replace with your dataset name
+        evaluators=[evaluator_1],  # Use the evaluator defined above
+        experiment_prefix="Run Small Duo Chat Questions on GDK",
+    )
+    print(chain_results)
+
+if __name__ == "__main__":
+    main()
+```
+
+In the case you want evaluate questions on more dimensions (using more than one evaluator), here is the example using "qa" evaluator with custom prompt that is using Anthropic model:
+
+```python
+import os
+import requests
+import langsmith
+from dotenv import load_dotenv
+from langsmith import traceable, wrappers
+from langchain.schema import output_parser
+from langsmith.evaluation import evaluate, LangChainStringEvaluator
+from langchain_anthropic import ChatAnthropic # to use Anthropic model
+from langchain_core.prompts.prompt import PromptTemplate # for custom prompt definition
+
+# Load environment variables from .env file
+load_dotenv()
+
+_PROMPT_TEMPLATE = """You are an expert professor specialized in grading students' answers to questions.
+You are grading the following question:
+{query}
+Here is the real answer:
+{result}
+You are grading the following predicted answer:
+{answer}
+Respond with CORRECT or INCORRECT:
+Grade:
+"""
+
+@traceable
+def get_chat_answer(question):
+    base_url = 'http://localhost:3000'
+    url = f"{base_url}/api/v4/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "PRIVATE-TOKEN": os.getenv("GITLAB_PRIVATE_TOKEN"),
+    }
+    payload = {"content": question}
+    response = requests.post(url, json=payload, headers=headers)
+    if response.status_code == 201:
+        return response.json()
+    else:
+        raise Exception(f"Error: {response.status_code} - {response.text}")
+
+def main():
+    # Initialize the StringEvaluator with the grading function
+    evaluator_1 = LangChainStringEvaluator("exact_match")
+
+    PROMPT = PromptTemplate(
+        input_variables=['query', 'answer', 'result'], template=_PROMPT_TEMPLATE
+    )
+    eval_llm = ChatAnthropic(model="claude-3-haiku-20240307")
+
+    qa_evaluator = LangChainStringEvaluator("qa", config={"llm": eval_llm, "prompt": PROMPT}) # Evaluator using custom prompt
+    
+    chain_results = evaluate(
+        lambda inputs: get_chat_answer(inputs['input']),
+        data="duo_chat_questions_0shot",  # Replace with your dataset name
+        evaluators=[evaluator_1, qa_evaluator],  # Use both evaluators
         experiment_prefix="Run Small Duo Chat Questions on GDK",
     )
     print(chain_results)
@@ -109,20 +193,7 @@ if __name__ == "__main__":
 
 **note: make sure to replace "duo_chat_questions_0shot" with the name of your uploaded dataset**
 
-#### Directory Structure
-
-Your project directory should look like this:
-
-```bash
-project_root/
-├── evaluation_scripts/
-│   ├── chat/
-│   │   ├── .env
-│   │   └── evaluate.py
-│   ├── code_suggestions/
-│   │   ├── .env
-│   │   └── evaluate.py
-```
+See [evaluator implementations for details](https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations).
 
 #### Running the Script Locally
 
