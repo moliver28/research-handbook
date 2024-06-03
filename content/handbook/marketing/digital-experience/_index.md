@@ -159,7 +159,7 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 
 ### Planning (Iteration Plan Sync)
 
-Iteration planning is an event that kicks off the start of an iteration. The purpose of the meeting is for capacity discussions and to plan work the upcomming iteration.
+Iteration planning is an event that kicks off the start of an iteration. The purpose of the meeting is for capacity discussions and to plan work the upcoming iteration.
 
 **Cadence:** 50min, bi-weekly (zoom)
 
