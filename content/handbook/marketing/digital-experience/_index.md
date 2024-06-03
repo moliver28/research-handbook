@@ -89,7 +89,7 @@ We collaboratively define OKRs as a team with cross functional partners in advan
 
 ## Iteration Process
 
-We start iteration a Monday. We are releasing throughout the iteration. On the thursday a week after our Monday iteration planning, we come together for a syncrornous meeting to discuss wins, blockers, start/stop/continues, and select 3 things we'd like to highlight in our Slack channel.
+We start our iteration on a Monday. We release throughout the iteration. On the Thursday a week after our Monday iteration planning, we come together for a synchronous meeting to discuss wins, blockers, start/stop/continues, and select 3 things we'd like to highlight in our Slack channel.
 
 <figure class="video_container">
 <iframe src="https://calendar.google.com/calendar/embed?src=c_g97ibfb3lq183mphm8mnbjfk34%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
