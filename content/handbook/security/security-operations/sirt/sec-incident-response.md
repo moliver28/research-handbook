@@ -38,7 +38,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 1. Detection
     - The SIRT, other internal, or external entity identifies a Security or Privacy Event that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may the result of an innocent error
     - One of our Security detection controls identifies event outside of the established security baseline
-    - A security issue is [escalated into an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) as a preventative measure
+    - A security issue is [escalated into an incident](/handbook/engineering/infrastructure/incident-management/#security-incidents) as a preventative measure
 1. Analysis
     - SIRT determines whether the reported security or privacy event is in actuality security or a privacy event
     - SIRT determines the incident severity and priority based on the following [incident classification]({{< ref "severity-matrix" >}}) methodology
@@ -70,9 +70,9 @@ A **confidential** issue means any data within the issue and any discussions abo
 
 ### Incident Tracking
 
-Security incident investigations must begin by opening a new project and associated incident-type issue in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project should be created using the [Incident Response project template](https://gitlab.com/gitlab-sirt/project-templates/Incident-template). The created issue will be used as tracking issue, and will be the primary location where all work and resulting data collection will reside throughout the investigation. If you would like to report an incident but do not have access to the SIRT group, please refer to the [Engaging the Security Engineer On-Call page]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}).
+Security incident investigations must begin by opening a new project and associated incident-type issue in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project should be created using the [Incident Response project template](https://gitlab.com/gitlab-sirt/project-templates/Incident). The created issue will be used as tracking issue, and will be the primary location where all work and resulting data collection will reside throughout the investigation. If you would like to report an incident but do not have access to the SIRT group, please refer to the [Engaging the Security Engineer On-Call page]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}).
 
-All artifacts from an investigation must be handled per the [Artifact Handling and Sharing](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/external_requests/handling_and_sharing_artifacts.md) internal only runbook.
+All artifacts from an investigation must be handled per the [Artifact Handling and Sharing](https://internal.gitlab.com/handbook/security/security_operations/sirt/operations/artifacts_handling_sharing/) internal only runbook.
 
 **NOTE:** The tracking issue, any collected data, and all other engagements involved in a Security Incident must be kept **strictly confidential**.
 
@@ -99,8 +99,8 @@ To help place the correct severity rating on the incident you are about to submi
 
 Coordinate with internal teams and prepare for the incident investigation:
 
-- Open an incident-focused Slack channel to centralize non-verbal discussion, particularly if the incident is of a sensitive nature. This should follow the naming convention `#sirt_####` where #### is the GitLab issue number in the SIRT project.
-- Pin a link to the SIRT Zoom conference bridge to the Slack channel's topic and invite all available parties to this call for easier discussion.
+- Open an incident-focused Slack channel to centralize non-verbal discussion, particularly if the incident is of a sensitive nature. This can be done by using `/sirt_escalate` in slack.
+- Invite all available parties to the channel and SIRT Zoom conference bridge for easier discussion.
 - If a different high-severity incident is already in progress, create a new Zoom conference call and pin it to the incident Slack channel's topic. Invite all available parties to this call for easier discussion.
 - If the incident was created by the security pager, a Google Drive folder and shared Google Doc should have been created automatically and linked to the issue. If the incident was created manually:
     - Set up a [shared Google Drive folder or GCS bucket](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/external_requests/handling_and_sharing_artifacts.md#storing-and-sharing-files-using-google-cloud-storage) for centralized storage of evidence, data dumps, or other pieces of critical information for the incident.
