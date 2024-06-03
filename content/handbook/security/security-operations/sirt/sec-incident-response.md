@@ -38,7 +38,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 1. Detection
     - The SIRT, other internal, or external entity identifies a Security or Privacy Event that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may the result of an innocent error
     - One of our Security detection controls identifies event outside of the established security baseline
-    - A security issue is [escalated into an incident](/handbook/engineering/infrastructure/incident-management/#security-incidents) as a preventative measure
+    - A security issue is [escalated into an incident](/handbook/security/#reporting-vulnerabilities-and-security-issues ) as a preventative measure
 1. Analysis
     - SIRT determines whether the reported security or privacy event is in actuality security or a privacy event
     - SIRT determines the incident severity and priority based on the following [incident classification]({{< ref "severity-matrix" >}}) methodology
@@ -173,9 +173,9 @@ Incident delineator `Incident` denotes that an issue should be considered an inc
 | **`Incident::Phase`**              | What stage is the incident at? |
 | ---------------------------------- | ------------------------------ |
 | `Incident::Phase::Created`         | Incident just has been created and has not been triaged yet |
-| `Incident::Phase::Active`          | Incident started being triaged (log dives, analysis, verification, Eradication and Containment)  |
+| `Incident::Phase::Active`          | Incident started being triaged (log dives, analysis, verification, Eradication and Containment) |
 | `Incident::Phase::Recovery`        | Testing fixes, restoring services, transitioning back to normal operations |
-| `Incident::Phase::Report`          | Incident is done and is ready for management review | 
+| `Incident::Phase::Report`          | Incident is done and is ready for management review |
 
 | **`Incident::Category`**                    | What is the nature of the incident? |
 | ------------------------------------------- | ----------------------------------- |
