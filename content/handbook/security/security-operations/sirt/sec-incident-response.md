@@ -172,7 +172,7 @@ Incident delineator `Incident` denotes that an issue should be considered an inc
 
 | **`Incident::Phase`**              | What stage is the incident at? |
 | ---------------------------------- | ------------------------------ |
-| `Incident::Phase::Creat`           | Incident just has been created and has not been triaged yet |
+| `Incident::Phase::Created`           | Incident just has been created and has not been triaged yet |
 | `Incident::Phase::Active`          | Incident started being triaged (log dives, analysis, verification, Eradication and Containment)  |
 | `Incident::Phase::Recovery`        | Testing fixes, restoring services, transitioning back to normal operations |
 | `Incident::Phase::Report`          |
