@@ -176,7 +176,6 @@ Incident delineator `Incident` denotes that an issue should be considered an inc
 | `Incident::Phase::Active`          | Incident started being triaged (log dives, analysis, verification, Eradication and Containment)  |
 | `Incident::Phase::Recovery`        | Testing fixes, restoring services, transitioning back to normal operations |
 | `Incident::Phase::Report`          |
-| `Incident::Phase::Incident Review` | The incident review process has begun (required for all S1/P1 incidents) |
 
 | **`Incident::Category`**                    | What is the nature of the incident? |
 | ------------------------------------------- | ----------------------------------- |
