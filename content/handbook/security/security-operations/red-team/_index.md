@@ -59,7 +59,7 @@ Opportunistic attacks are documented in issues that are visible to all team memb
 
 If vulnerabilities are discovered, we will exploit them and work to safely demonstrate maximum impact. This may involve establishing persistence, escalating privileges, and other common attack techniques.
 
-When immediate action is required, we will follow the standard process for [contacting security](/handbook/security/#-contacting-the-team). For vulnerabilities that appear wide-spread or recurring, we will create an issue inside the [Vulnerability Management issue tracker](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues) to implement automated scanning capabilities.
+When immediate action is required, we will follow the standard process for [reporting an incident](/handbook/security/#reporting-an-incident). For vulnerabilities that appear wide-spread or recurring, we will create an issue inside the [Vulnerability Management issue tracker](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues) to implement automated scanning capabilities.
 
 We list examples of [opportunistic attack techniques]({{< ref "red-team-roe#opportunistic-attack-techniques" >}}) inside our rules of engagement.
 
@@ -174,7 +174,7 @@ Red Team members can also hunt for ways to "break in" to GitLab at any time in t
 
 The Red Team will develop new adversary emulation techniques on a regular basis, both during formalized operations and opportunistic attacks. For example, the Red Team may create a bot that logs into development instances and attempts to exploit a specific configuration. Once the risk has been proven and existing detection/response capabilities have been tested, it is time for the technique to be fully disclosed internally.
 
-While this may result in product fixes or infrastructure changes, it is possible that vulnerable configurations may reappear in the environment. At this point, GitLab's [Vulnerability Management](/handbook/security/threat-management/vulnerability-management) group will take over any ongoing scanning required to monitor for this scenario. The Red Team will share any tools they used for the initial discovery, but Vulnerability Management will generally implement a more production-ready permanent scanning solution.
+While this may result in product fixes or infrastructure changes, it is possible that vulnerable configurations may reappear in the environment. At this point, GitLab's [Vulnerability Management](/handbook/security/product-security/vulnerability-management/) group will take over any ongoing scanning required to monitor for this scenario. The Red Team will share any tools they used for the initial discovery, but Vulnerability Management will generally implement a more production-ready permanent scanning solution.
 
 ### Red Team Tooling Development
 
