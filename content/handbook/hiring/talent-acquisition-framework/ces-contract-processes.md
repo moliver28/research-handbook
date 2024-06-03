@@ -203,6 +203,20 @@ To change a start date after a **PEO** contract has been signed and the new team
    - Under "Comment" write "Start Date Change"
    - Upload
 
+### How to Update a Start Date for an internal candidate after the Job Change Letter is Signed
+
+To change a start date after a Job Change Letter (JCL) has been signed and the internal team member has been “hired” in GreenHouse, the Candidate Experience Specialist will complete the following steps:
+
+1. Once the start date change request comes through, CES will advise the recruiter to collaborate with the hiring manager / PBP to raise a HelpLab ticket with People Connect in Workday to make these changes.
+The hiring manager / PBP can upload the necessary documents to the HelpLab ticket to confirm the new start date.
+1. CES can update GreenHouse:
+   - Go to Offer Details
+   - Click the edit pencil next to the start date
+   - Select the new Start Date
+   - Save
+   - In the "Make a Note" section in Greenhouse, state the old start date and the new state date, and tag the person on FP&A (typically the second approver) who approved the offer.
+   - Save
+
 ### How to Void a Contract Before a Candidate Signs
 
 In rare cases, we may rescind our offer before a candidate signs the contract. Work with the Recruiter, Hiring Manager, People Business Partner, VP of Talent Acquisition, and Contract Employment Counsel on ensuring uniform communication. Once the candidate has been informed verbally and via email by the talent acquisition team, follow these steps:
