@@ -21,27 +21,21 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 
 Please reach out to your aligned People Business Partner (PBP) (listed aplhabetically by first name) to engage in the following areas:
 
-| Contact | Division | Department |
+| Contact | Division or Departments |
 |-------------------|--|----------|
-| Anjali Kaufmann   | People Goup | CPO, DIB, Engagement, PBPs, People Operations, Talent Acquisition, Total Rewards  |
-| Anjali Kaufmann   | Legal | CLO, Corporate Affairs, Legal  |
-| Anjali Kaufmann   | Finance | CFO, Accounting, Enterprise Applications, Finance, Internal Audit, Tax  |
-| Carolyn Bednarz  | Sales | Direct Sales - APAC, Direct Sales - Japan, Global Digital - APAC, JAPAN - Commercial, JAPAN - Enterprise, APAC - Commercial, APAC - Enterprise |
-| Carlie Russell    | Sales | CSM, Consulting Delivery, Customer Success, Practice Management, Renewals, SA (Solutions Architecture), Alliances, Alliances and Channel, Education Delivery, Education Services  |
-| Giuliana Lucchesi | Product | CPO, Product Management, UX  |
-| Giuliana Lucchesi | Security | CISO, Corporate Security, Product Security, Security Assurance, Security Operations   |
-| Jenny Burns       | Sales | EMEA - Commercial Sales, EMEA - Enterprise Sales, Global Digital - EMEA, Direct Sales - EMEA  |
-| Jess Durbin       | Engineering | Core Development, Expansion  |
-| Kristina Bullock       | CEO | Chief of Staff |
-| Kristina Bullock  | Engineering | CTO, Customer Support, Core Infrastructure |
+| Anjali Kaufmann   | People Goup |   |
+| Anjali Kaufmann   | Legal and Corporate Affairs |
+| Anjali Kaufmann   | Finance |
+| Carolyn Bednarz  | Sales |
+| Carlie Russell    | Sales - CSM, Consulting Delivery, Customer Success, Practice Management, Renewals, SA (Solutions Architecture), Alliances, Alliances and Channel, Education Delivery, Education Services |
+| Giuliana Lucchesi | Product |
+| Giuliana Lucchesi | Security |
+| Jenny Burns       | Sales - EMEA |
+| Jess Durbin       | Engineering - Core Development, Expansion |
+| Kristina Bullock       |Chief of Staff to the CEO|
+| Kristina Bullock  | Engineering - Customer Support, Infrastructure, Quality |
 | Lauren Tepper     | Sales | Direct Sales - AMER, AMER - Commercial Sales, Field Operations, Field Ops - Child, Public Sector - FED, Public Sector - SLED, Direct Sales - PubSec, Global Digital - AMER, Enablement, SMB, CRO, AMER - Enterprise Sales  |
-| Brandi McDonald | Marketing | Global Marketing, Account-Based Marketing, Brand Campaigns, Brand Design, Campaigns, CMO, Communications, Community Relations, Content Marketing, Corporate Events, Data, Digital Experience, Digital Marketing, Field Marketing, Growth, Marketing Ops, Marketing Strategy and Analytics, Partner Marketing, Product Marketing, Sales Development, Search Marketing |
-
-Still need to be accounted for:
-
-| Div | Dept |
-|--|--|
-| Eng | Platforms |
+| Brandi McDonald | Marketing |
 
 ## How to partner with PBPs to foster high performance in your team
 
