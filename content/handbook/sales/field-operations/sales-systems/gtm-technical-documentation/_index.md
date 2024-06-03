@@ -794,6 +794,7 @@ ARR_Net__c(formula field driven by automation)
 Changes to existing net arr formula field : Two additional layers are added. Layer 1 -> To check if stage 1 xdr net arr drives net arr when no quote is present & opp is in stage 1. Layer 2 -> To check if the opportunity is a renewal opportunity, without net arr override and has a primary quote of type subscription. If so, net arr formula field is driven by net arr automation. For all other scenarios, existing formula logic works
 
 **Logic Locations**
+
 - TF_OpportunityAfterCreateUpdateNetARRAutomation flow
 - TF_OpportunityAfterUpdate_StampNetARRAutomation flow
 - TF_QuoteAfterCreateUpdate_StampNetARRAutomation flow
