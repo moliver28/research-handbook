@@ -88,7 +88,7 @@ I’d recommend connecting live if you can, but if not, async works and we can u
       - Business driven transfers (example of realignments)
       - SDR 12 month in role
 - For any situations where further discussion may be needed, People Connect Leads will go to the department specific [PBP](/handbook/people-group#people-business-partner-alignment-to-division).
-- At the offer stage, the Recruiter will submit a request via HelpLab to attain current compensation information: 
+- At the offer stage, the Recruiter will submit a request via HelpLab to attain current compensation information:
    - People Connect checks Workday for current team member base compensation.
    - People Connect will then provide annual base compensation details in the HelpLab request. The Recruiter can then utilize this information while putting an offer together (in partnership with the hiring manager).
 
