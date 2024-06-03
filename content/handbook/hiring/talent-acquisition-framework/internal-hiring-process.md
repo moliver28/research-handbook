@@ -52,6 +52,7 @@ description: "This page discusses the Internal Hiring Process"
 #### Template for the Recruiter's slack message
 Hi XX and XX,
 
+
 As you are both aware, XXX has been interviewing for the XXX role and the team is ready to move forward with an offer! I wanted to connect you both as their  current and future managers to cover a few items as we start the offer process:
 - What transition date works best for the both of you? The GitLab standard recommendation is between 4-6 weeks (OR 45 days for Sales Development). Please see our handbook page here for some suggestions on transition timelines.
 - Please discuss any outstanding items that may require XX to stay in their current role longer than 6 weeks as we want to ensure they’ll be able to have a smooth transition between roles. 
