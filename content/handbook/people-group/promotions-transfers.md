@@ -353,10 +353,12 @@ Promotion candidates should follow these steps to request feedback as part of ou
 4. Team member identifies stakeholders for feedback request
     - Team members should ideally select 3-4 distinct team members to provide feedback acrosss the three business results highlighted in their [promotion documents](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document), but are required to select _at least_ 2 distinct team members to provide feedback. All three of the business results highlighted in the promotion document should have feedback provided from at least one feedback provider. Team members should review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment.
     - Requirements for feedback providers are:
-        - Feedback provider should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document) as a peer on the project team, DRI, or stakeholder.
+        - Feedback providers should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document) as a project team member, DRI, or stakeholder.
         - Feedback provider is not in the same reporting line as the manager (I.E. not team member's manager, skip level, etc.)
         - Feedback providers can be cross-functional or within the division, with a mix of both being the preference and recommendation. The core focus when thinking through who the most appropriate team members to provide feedback are is to reflect on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
-        - Feedback providers should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher). Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already executing at the next level. You can reference our [job grades](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and inidividual contributor corresponding job levels. If you need assistance meeting these requirements for selecting feedback providers, please discuss with your manager for support.
+        - Feedback providers should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher). Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level. 
+    - You can reference our [job grades](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and inidividual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](https://handbook.gitlab.com/job-families/security/) as a resource for Security-specific differences in expectations by level.
+    - If you need assistance meeting these requirements for selecting feedback providers, please discuss with your manager for support.
 5. Team member sends out feedback form copy to feedback providers
     - This references the form promotion candidates made a copy of in Step 3.
     - Team members can leverage this as a structure to include in the feedback request if helpful: *Hi [team member name], I am currently under consideration for a promotion to [next level job title]. I would really appreciate your feedback on our work together, specifically on results and our collaboration related to [name business result]. Please complete this feedback form by [insert due date]. You can read more about the feedback process [link this handbook section].*
@@ -388,6 +390,20 @@ Feedback provided **will not** be shared outside of the promotion candidates' le
 <br></br>
 <br></br>
 <br></br>
+
+#### Resources
+
+An overview of key resources highlighted above for the Security promotion feedback process. These are either resources that will be used during the process, or resources we recommend team members and feedback providers review ahead of kicking off the process.
+
+- [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0)
+- [Security job families](https://handbook.gitlab.com/job-families/security/)
+- [Guidance on Feedback](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/)
+- [GitLab job grades](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#job-grades)
+- [Business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results)
+- [Promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit#heading=h.5ahg1o4v53q7)
+- [Feedback Provider Google Form](https://docs.google.com/forms/d/1h-_ZOQS8Hug168P76qgdO5Coj2rfPceLHZ6xjjLPWjQ/edit)
+- [Feedback analysis template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit)
+
 
 ## Hiring for VP+ Roles
 
