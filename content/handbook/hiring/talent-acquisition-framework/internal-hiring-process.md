@@ -59,7 +59,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 I’d recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you’ve done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with their backfill process. Thanks! 
 
 - If the hiring team would like to move forward with an offer, the Recruiter will align with People Connect on the team member’s current compensation. The Recruiter will
-   - Reach out to People Connect by submitting a request via HelpLab. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately. 
+   - Reach out to People Connect by submitting a request via HelpLab. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
    - Within 48 hours, People-connect will respond and provide annual base compensation details to the Recruiter to utilize for the offer (in partnership with the hiring manager). 
 - Once an internal candidate verbally accepts an offer, the Recruiter will notify CES to get the Job Change Letter (JCL) to the team member.
 
