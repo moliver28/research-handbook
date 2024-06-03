@@ -201,7 +201,7 @@ The Core Platform teams leverage the following software or SaaS services to deli
 | -----    | -----       | -----   | -----      | -----         | -----    |
 | packagecloud.io | [https://packagecloud.io/](https://packagecloud.io/) | Annual | March 30th | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/485), [last renewal PO](https://gitlab.coupahost.com/requisition_headers/618)  |
 | dependencies.io | [https://www.dropseed.io/](https://www.dropseed.io/ ) | Annual | November 1st | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/514) |
-| postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/676) |
+| postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1310) |
 
 ## Internal Opportunities Pilot
 
