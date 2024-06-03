@@ -10,7 +10,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 ## About me
 
-Grown up in Linz, Austria, I wanted to understand how a computer works in school. A 486 PC turbo-boost button that was not enabled by default inspired me to study Hardware/Software Systems Engineering, leading to circuit design, hardware and software programming languages, and more adventures with NFC and multimediate streaming in 2005. A student's dorm network project in Vienna, Austria, allowed me to dive into spanning trees (and loops!) and routing, which I expanded on with DNS and monitoring at the University of Vienna, Computer Center. Maintaining an open-source monitoring project for 11 years required me to understand how the software is used in production. CVEs raised awareness about security scanning. I therefore engaged with global events and community meetups to learn and understand the roles in modern DevSecOps and cloud-native workflows. My passion for open-source communities also inspired me to move to Nuremberg, Germany, in 2012, where I live today in the countryside. In March 2020, I started my all-remote adventure at GitLab.
+Grown up in Linz, Austria, I wanted to understand how a computer works in school. A 486 PC turbo-boost button that was not enabled by default inspired me to study Hardware/Software Systems Engineering, leading to circuit design, hardware and software programming languages, and more adventures with NFC and multimedia streaming in 2005. A student's dorm network project in Vienna, Austria, allowed me to dive into spanning trees (and loops!) and routing, which I expanded on with DNS and monitoring at the University of Vienna, Computer Center. Maintaining an open-source monitoring project for 11 years required me to understand how the software is used in production. CVEs raised awareness about security scanning. I therefore engaged with global events and community meetups to learn and understand the roles in modern DevSecOps and cloud-native workflows. My passion for open-source communities also inspired me to move to Nuremberg, Germany, in 2012, where I live today in the countryside. In March 2020, I started my all-remote adventure at GitLab.
 
 Outside of work, you'll find me building LEGO models, combining embedded hardware with home automation, exploring nature, and travelling. You can learn more on my personal website: https://dnsmichi.at/about/
 
@@ -111,7 +111,6 @@ I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and 
 - **I'm a team player and prioritize helping others achieve their results.** I take the time to unblock processes and results (content reviews, feature and setup debugging, etc.) or contribute ideas to iterate faster.
 - **I have a broad knowledge base.** [My career](https://dnsmichi.at/about/) has touched on many different technical topics and open-source collaboration. I'm here to share my knowledge and help you advance your knowledge, goals and career.
 
-
 ### Weaknesses
 
 - **I'm passionate about my work, and somtimes push my opinion.** When I think that my solution has the most impact for the business, I push for it, even though I am not the DRI (Directly Responsible Individual). I can also be [direct](https://handbook.gitlab.com/handbook/values/#directness), which can come across as overbearing at times. I am working on being more mindful of this and balancing my passion with consideration for others' perspectives.
@@ -120,8 +119,6 @@ I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and 
 - **I'm not good at email communication.** If I should follow up on an external email conversation, you might have to remind me to do so, or create a tracking issue.
 - **I occasionally fall into old habits and aim for perfection and completeness.** Minimal viable changes, boring solutions, and [iteration](https://handbook.gitlab.com/handbook/values/#iteration) are challenging sometimes. If you see me writing a long tutorial blog post or a capture-everything issue, please jump in and remind me to break down the tasks.
 
-
 ## Thanks for reading
 
 I hope you've learned a lot about me in this README. If you want to know more, or peek into [my remote workspace background](https://dnsmichi.at/all-remote-workspace/), schedule a coffee chat.
-
