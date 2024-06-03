@@ -422,7 +422,7 @@ Buckle up! There are a lot of tokens, but for good reason. This is an **advanced
    * `{{my.ondemandUrl}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
      * Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
      * Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking paramaeters
-   * `{{my.socialImage}}` - image that would be presented in social, slack, etc. preview when the URL is shared, this image is provided by design/social, leave the default unless presented with webcast specific image.
+   * `{{my.socialImage}}` - image that would be picked up in social sharing, slack, etc. preview when the URL is shared, leave the default (GitLab logo) unless presented with webcast specific image. If needed, create a custom image by using a Canva template and upload on Marketo Design studio. Then link it in this token. Remember to first update this token, before adding URLs for the speaker image tokens. If this happens the other way around, the speaker image might be picked for preview instead of the social image.
    * `{{my.speaker1Company}}` token with speaker 1's company name
    * `{{my.speaker1ImageURL}}` token with speaker 1's image url in marketo design studio
    * `{{my.speaker1JobTitle}}` token with speaker 1's job title
