@@ -52,7 +52,7 @@ If a speaker can't share on their assigned date, it's their responsibility to ma
 ## Sharing your work
 
 You have up to 15 minutes to share some of your work.
-If you need more time to share and discuss a complex topic, ask the host about having less people speak at that showcase.
+If you need more time to share and discuss a complex topic, ask the host about having fewer people speak at that showcase.
 
 Preparation for a showcase should be minimal.
 You should come prepared with just enough to tell a story and ellicit feedback from the audience.
@@ -119,7 +119,7 @@ Examples of minimal showcases:
 - Ask people to share their questions after a section of your story.
 - It’s normal to have anxiety when everyone is looking at you. Remember: We’re here to support each other, not to judge each other.
 
-For more presentation tips, see the [communication handbook page](/handbook/communication/#presentations).
+For more tips, see the [communication handbook page](/handbook/communication/#presentations).
 
 ## Hosting
 
