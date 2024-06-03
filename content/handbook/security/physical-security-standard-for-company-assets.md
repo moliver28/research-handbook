@@ -29,7 +29,7 @@ GitLab has two distinct security zones:
 
 - Hosted and physically secured by third party service provider(s)
 - [Shared responsibility model](/handbook/security/isms/#assets)
-- Adherance to physical security requrements reviewed annually as part of the Third Party Risk Management (TPRM) review and Complementary User Entity Contro (CUEC) review. This includes confirmation that independent third parties attest to effective physical security procedures including but not limited to:
+- Adherence to physical security requirements reviewed annually as part of the Third Party Risk Management (TPRM) review and Complementary User Entity Controls (CUEC) review. This includes confirmation that independent third parties attest to effective physical security procedures including but not limited to:
 
     - Visitor Management
     - Premises Protection
