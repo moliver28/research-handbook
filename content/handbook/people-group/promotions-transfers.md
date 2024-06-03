@@ -298,7 +298,7 @@ Approvals for the Director+ level off-cycle promotion exceptions require E-Group
 
 Regardless of the promotion level, it is critical that leaders work with their People Business Partner, Total Rewards, and FP&A [as outlined]({{< ref "compensation-review-cycle#compensation-program-budget" >}}) to identify tradeoffs we can review to fund the promotion.
 
-### FY25 CTO Promotion Guidance
+### FY25 CTO Organization Promotion Guidance
 
 **Required Documentation**
 
