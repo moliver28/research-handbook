@@ -3,7 +3,7 @@
 title: "Scalability Group Project Management"
 ---
 
-## Project Management
+# Project Management
 
 The majority of our [project management process is described at the Platforms level](/handbook/engineering/infrastructure/platforms/project-management/)  and is shared between all SaaS Platform teams.
 Please read this first.
@@ -18,7 +18,7 @@ Epics that are added as children to the top-level epic are used to describe proj
 Project status is maintained in the description of the top-level epic so that it is visible at a glance. This is auto-generated using [the epic issues summary project](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries).
 You can watch a [short demo of this process](https://youtu.be/6Wb1f-c1_og) to see how to use status labels on the epics to make use of this automation.
 
-### Project Ownership
+## Project Ownership
 
 Each project has an owner who is responsible for delivering the project.
 
@@ -27,7 +27,7 @@ The owner needs to:
 1. Update the status block in the epic description each week.
 1. Work with others to move project issues through the boards.
 
-### Project Structure
+## Project Structure
 
 The epic for the project must have the following items:
 
@@ -44,15 +44,15 @@ The epic for the project must have the following items:
     1. This should be seen as a target, and this target is re-evaluated every few weeks while the project is in progress. The date that a project actually ended is taken from the date that the epic was closed.
 1. DRI and Participants who are contributing to the project.
 
-### Project Workflow
+## Project Workflow
 
 [Workflow labels](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#workflow-labels) for issues also apply to epics.
 
-#### Preparation
+### Preparation
 
 In this stage, projects are rough ideas on the Opportunity Backlog, that are formed into proposals for discussion on the Roadmap. They are developed into full projects that are then ready to be picked up by the team. We keep track of these projects in our roadmaps.
 
-##### Opportunity Backlog
+#### Opportunity Backlog
 
 - ![Triage](img/label-triage.png)
 
@@ -60,7 +60,7 @@ When we have ideas for projects but we aren't certain that they are the right th
 
 There is one Opportunity Backlog epic per roadmap.
 
-Ideas are documented in issues or epics and attached to the relevant Opportunity Backlog epic. These issues and epics can have very little detail and have the label for the triage workflow ![Triage](img/label-triage.png)
+Ideas are documented in issues or epics and attached to the relevant Opportunity Backlog epic. These issues and epics can have very little detail and have the `workflow-infra::Triage` label.
 
 The Product Manager and Engineering Managers regularly review the Opportunity Backlog. In a review session, they will note on the issue or epic if:
 
@@ -68,13 +68,13 @@ The Product Manager and Engineering Managers regularly review the Opportunity Ba
 - An idea was considered but is not high enough priority to act on at this time
 - An idea is not relevant and the issue will be redirected to another team or closed
 
-##### Roadmaps
+#### Roadmaps
 
 - ![Proposals](img/label-proposal.png)
 - ![Ready](img/label-ready.png)
 - ![In Progress](img/label-in_progress.png)
 
-The EM and the PM should work together to keep the Roadmap epics up to date with updates expected monthly.
+The EM and PM manage these roadmaps together. The PM ensures that the Roadmap reflects the priority of work required from this team. The EM ensures that there is a backlog of work ready for their team to pick up.
 
 - [Roadmap for Practices](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1202)
 - [Roadmap for Observability](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1295)
@@ -99,6 +99,8 @@ Projects in this section are in progress.
 
 The 'Next' section contains projects that are the highest priority projects on the roadmap and are ready for development.
 
+During review, the Engineering Manager or Product Manager select the highest priority projects to be added to this list per roadmap.
+
 **Later**
 
 - ![Proposals](img/label-proposal.png)
@@ -110,7 +112,15 @@ During review, the Engineering Manager or Product Manager will indicate if more 
 
 A Roadmap epic can have sub-epics that are also roadmaps. For example, the Practices team will have a sub-epic for Redis and the Observability team will have a sub-epic for Capacity Planning. These help to keep the narrative for each category in a single place. We will also implement automation for the flow of information between levels.
 
-#### Ready for Development
+### Proposal
+
+We want to strike a balance between having a plan and over-planning.
+
+The purpose of the Proposal state is to answer questions to clarify the goal of the project and broadly define the work required to achieve the goal.
+
+When preparing a proposal, confirm with your Engineering Manager as to how much effort should be applied to this proposal. The Engineering Manager will be able to provide more context as to the current level of detail required.
+
+### Ready for Development
 
 Epics that are in the workflow state of proposal will be reviewed to see if they can be advanced to ready for development.
 
@@ -124,19 +134,19 @@ For an epic to be ready, the following information must be present on the epic:
 6. Phases of Delivery
 7. Project Management Arrangements - expectations of the DRI, EM and Participants, and specific status reporting requirements, if sub-epics or milestones are to be used
 
-#### In Progress
+### In Progress
 
 When the EM and PM agree, and there is space for a new project to begin, the chosen project should be removed from the Roadmap issue and associated directly with the [Scalability top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148).
 
 The start and target date should be set, the DRI assigned, and the participants listed. The workflow label of `workflow-infra::In Progress` is applied, the start date and target date are set, and the project begins.
 
-#### Completed
+### Completed
 
 When the project is complete, follow the instructions on the [SaaS Plaforms project management page](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#when-a-project-is-finished).
 
 When the epic is closed, it can remain associated to the top-level epic. When we have too many epics associated, or when the end-of-year summary is produced, these epics are moved to the "Completed in Year xxx" epics, of which [this](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1266) is an example.
 
-## Issue boards
+# Issue boards
 
 The Scalability group [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) track
 the progress of ongoing work.
@@ -152,7 +162,7 @@ planning board will move to the build board immediately.
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
 | ![Triage](img/label-triage.png)    <br/>![Proposal](img/label-proposal.png) <br/>![Ready](img/label-ready.png) | ![Ready](img/label-ready.png) <br/>![In Progress](img/label-in_progress.png) <br/>![Under Review](img/label-under_review.png) <br/>![Verify](img/label-verify.png) <br/>![Done](img/label-done.png)|
 
-## Labels
+# Labels
 
 The Scalability teams routinely uses the following set of labels:
 
