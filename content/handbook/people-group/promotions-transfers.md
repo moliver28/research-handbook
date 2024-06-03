@@ -386,10 +386,6 @@ A goal through this process is to continue to facilitate opportunity to provide 
 The feedback form asks for feedback provider's information, so promotion candidates and their managers will have visibility into specifics of the feedback provided. At the CISO directs calibration session we will review themes in [this structure](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit).
 
 Feedback provided **will not** be shared outside of the promotion candidates' leadership chain and CISO directs group.
-<br></br>
-<br></br>
-<br></br>
-<br></br>
 
 #### Resources
 
@@ -403,7 +399,10 @@ An overview of key resources highlighted above for the Security promotion feedba
 - [Promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit#heading=h.5ahg1o4v53q7)
 - [Feedback Provider Google Form](https://docs.google.com/forms/d/1h-_ZOQS8Hug168P76qgdO5Coj2rfPceLHZ6xjjLPWjQ/edit)
 - [Feedback analysis template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit)
-
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 
 ## Hiring for VP+ Roles
 
