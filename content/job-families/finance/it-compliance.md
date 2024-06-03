@@ -174,7 +174,7 @@ The IT Compliance role is a [grade 9](/handbook/total-rewards/compensation/compe
 - Work cross-functionally (both within and outside of IT) to promote and gain prioritization of sub-department needs
 - Work closely with the IT leadersip team on all things compliance
 - Advises over GitLab IT SOX program to ensure the program is run effectively and efficiently.
--Leads the implementation of  the Company’s IT internal controls over financial reporting to ensure all controls are implemented over existing and new IT systems that are onboared.
+-Leads the implementation of  the Company’s IT internal controls over financial reporting to ensure all controls are implemented over existing and new IT systems that are onboarded.
 - Act as the “go-to” person for IT general controls for Security, IA, and SOX PMO
 - Develop and deliver IT compliance training programs for staff at all levels and ensure continuous education on compliance-related topics.
 - Collaborate with IT teams to ensure compliance requirements are integrated into IT projects and operations.
