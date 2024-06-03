@@ -31,6 +31,9 @@ In the spirit of establishing a [DRI](/handbook/people-group/directly-responsibl
 | External License ingestion and DB storage | {{< member-by-gitlab "johncrowley" >}} | [Secure:Composition Analysis](/handbook/product/categories/#composition-analysis-group) |  |
 | Vulnerability Match Job | {{< member-by-gitlab "johncrowley" >}} | [Secure:Composition Analysis](/handbook/product/categories/#composition-analysis-group) |  |
 | License Match Job | {{< member-by-gitlab "johncrowley" >}} | [Secure:Composition Analysis](/handbook/product/categories/#composition-analysis-group) |  |
+| [CVE ID Request - Workflow and automation](https://docs.gitlab.com/ee/user/application_security/cve_id_request.html) | {{< member-by-gitlab "sarahwaldner" >}} | [Secure:Vulnerability Management](/handbook/product/categories/#secure-vulnerability-research-group) |  |
+| [CVE ID Request - Platform UI](https://docs.gitlab.com/ee/user/application_security/cve_id_request.html) | {{< member-by-gitlab "abellucci" >}} | [Govern:Threat Insights](/handbook/product/categories/#threat-insights-group) |  |
+| [User Invitation Flows](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project) | {{< member-by-gitlab "hsutor" >}} | [Govern:Authentication](https://about.gitlab.com/direction/govern/authentication/) |  |
 
 ## Technical Boundaries
 

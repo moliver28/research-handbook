@@ -20,11 +20,12 @@ Longitudinal studies typically combine use of multiple methods. Determining whic
 
 - [Interviews](/handbook/product/ux/ux-research/facilitating-user-interviews/) - It's a best practice to start every longitudinal study with interviews that help to establish a relationship with your participants. This is particularly important in longitudinal studies, since you will have multiple touchpoints with each participant throughout the study. Interviews also allow you to set expectations about the study's cadence and timeline, while allowing the participant to ask any clarifying questions about their role.
 - [Diary studies](/handbook/product/ux/ux-research/diary-studies/) - These are often incorporated into longitudinal studies, where participants are asked to document something they’ve done over a period of time.
-- [Surveys](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback?u=2255073) - It can be helpful to run surveys throughout the course of your longitudinal study, mainly as a way to revisit the key measures and determine how those have changed over time. Note that these can be done through a survey tool, like [Qualtrics](/handbook/product/ux/qualtrics/), or verbally through interviews.
+- [Surveys](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback?u=2255073) - It can be helpful to run surveys throughout the course of your longitudinal study, mainly as a way to revisit the key measures and determine how those have changed over time. Note that these can be done through a survey tool, like [Qualtrics](/handbook/product/ux/ux-research/surveys/qualtrics/), or verbally through interviews.
 
 To reiterate the importance of interviews: they’re critical to understanding the ‘why’ behind the data that may appear in diary studies and the ratings that participants provide within surveys.  The ‘why’ can directly lead to clear actions, too.
 
 Touchpoints, or formal contacts with participants, are a necessary part of a longitudinal study.  They’re used for a number of reasons:
+
 - To check in on participants
 - As an opportunity to assess the key measures
 - To dive in deeper on the ratings and data that the participant has provided to date
@@ -84,4 +85,3 @@ Longitudinal studies have their own set of challenges that you should be aware o
 **Give yourself time** - Remember that you’ll need a lot more time to conduct a longitudinal study than a usability study. You’ll also have a lot more data to look though and think about. Make sure to allocate additional time for yourself, and clearly set expectations with your stakeholders.
 
 **Finding quality participants** - Since a longitudinal study requires a longer time commitment, getting quality participants and feedback is essential. A strategy you can use when screening participants is to do an intro interview first before inviting them into the study. Use this interview to collect some meaningful information, while also assessing the quality of feedback the participant provides.
-

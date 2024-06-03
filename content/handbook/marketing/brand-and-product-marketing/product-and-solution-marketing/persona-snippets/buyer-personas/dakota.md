@@ -14,6 +14,7 @@ title: "Dakota Persona snippets"
 ### [Dakota (App Dev Director)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#dakota---the-application-development-director)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
@@ -37,9 +38,6 @@ title: "Dakota Persona snippets"
    - What’s the expectation on your team to support or facilitate this initiative?
    - Are you going to be onboarding additional teams in the next say, 12 months?
 - ...
-
-
-
 
 ##### SDR Use Case Snippets
 

@@ -23,7 +23,6 @@ You may wish to use the UX Cloud Sandbox if you are interested in:
 - [Validating solutions](/handbook/product/ux/ux-research/solution-validation-and-methods/) that have already been released into the product
 - Running [problem validation studies](/handbook/product/ux/ux-research/problem-validation-and-methods/)
 
-
 ### Access to the UX Cloud Sandbox
 
 To gain access to the UX Cloud Sandbox, the first step is to generate credentials. You can self-serve on that by [following the steps on this handbook page](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) under ‘Access Shared Omnibus Instances’.
@@ -145,6 +144,10 @@ Don't:
 
 ## FAQ
 
-**Q: How how do you change the user password in the UX sandbox so that you can use a different password for each participant in a usability study?**
+**Q: How do you change the user password in the UX sandbox so that you can use a different password for each participant in a usability study?**
 
 A: Follow the steps on how to change the passwords on user profiles outlined in this [video](https://youtu.be/yul5yDoEAKE)
+
+**Q: Is it possible to use the UX sandbox for unmoderated usability tests? If so, how?**
+
+A: Yes! Once you have a sample project and a test account with the correct permissions set up, you can use UserTesting to run each test 1 by 1. Make sure to include login credentials for users and the link to the UX sandbox environment. Once the test is complete, make any updates necessary for the test project, update the password for the test user, and finally, update the login credentials in the test script. Continue following those steps until you reach the target number of participants for your study.

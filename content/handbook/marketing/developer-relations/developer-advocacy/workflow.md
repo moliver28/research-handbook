@@ -38,13 +38,13 @@ Work items that fit our team strategy, including events and content plans, are t
 For each activity of the team, a sub-epic should be created under the relevant parent epic and with relevant labels added.
 
 For each fiscal year's plan, we use the following structure to organize epics on our roadmap:
+
 - FYXX Events
   - Child epic for each event we will support
 - FYXX Content
   - FYXXQ{1,2,3,4}
     - Child epic for each piece of content (blog, video, contributed article, media interview, etc) we will publish
   - FYXX Release Evangelism epic (contains all release shares and results)
-
 
 #### Start and due dates
 
@@ -63,7 +63,7 @@ These are the recommended labels for Epics created in the Developer Relations gr
 | `Region-EMEA` | Applied to events in EMEA |
 | `Region-LATAM` | Applied to events in Latin America |
 | `Content-Blog` | GitLab Blog posts |
-| `Content-Newsletter` | Newsletters
+| `Content-Newsletter` | Newsletters |
 | `Content-Partner Blog` | Blogs posts on partner websites |
 | `Content-Social` | Social media campaigns or threads |
 | `Content-Video` | Video Content or Streaming |
@@ -88,7 +88,7 @@ Checklist for updating delivery dates:
 
 The following quick actions example updates a content epic from FY25Q1 to FY25Q2.
 
-```
+```text
 /unlabel ~"FY25-Q1"
 
 /parent_epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/392
@@ -151,7 +151,7 @@ Please use this template when creating Epics for activities that should appear f
 
 On completion:
 
-- [ ] [Distribute the content](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/content/content-distribution) (Highspot, Slack, social media, etc.)
+- [ ] [Distribute the content](/handbook/marketing/developer-relations/developer-advocacy/content/content-distribution) (Highspot, Slack, social media, etc.)
 - [ ] Add results to the epic, and to the technical content sheet. Mark the sheet row as completed (green).
 
 <!-- these labels should be included on all templates -->
@@ -246,7 +246,7 @@ On completion:
 ```markdown
 ## :eyes: Pins
 
-* [Release Evangelism handbook](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/social-media/#release-evangelism) provides all resources.
+* [Release Evangelism handbook](/handbook/marketing/developer-relations/developer-advocacy/social-media/#release-evangelism) provides all resources.
 * [#release-post](https://gitlab.slack.com/archives/C3TRESYPJ) Slack channel (internal)
 * [Release post MR items](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?label_name%5B%5D=release+post)
 
@@ -358,7 +358,6 @@ These labels help identify the type of activity documented in an issue. These ar
 | `DA-Type::web` | Web pages|
 | `DA-Type::workshop` | |
 
-
 #### Consulting Labels
 
 Requests from other teams for the Developer Advocates to own, participate or collaborate on activities are classified as consulting, and these requests are usually labeled based on the team requesting. These are teams in the company that the Developer Advocate team collaborate with often, here are their labels:
@@ -381,12 +380,11 @@ Issues created for Consulting count against team quarterly budgets, you can lear
 
 These labels are automatically assigned by the [DA-Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-advocacy-bot) for triaging purposes.
 
-
 | Label | Use |
 |-------|-----|
 | `DA-Bot::Auto` | Issue is automatically created by DA-Bot and will be closed after a period, usually 2 weeks from creation |
 | `DA-Bot::Hold` | Issue is currently on hold and should not be triaged by teh DA-Bot except where it has been in the Hold status for too long. |
-| `DA-Bot::Skip` | The DA-Bot should not perform any action on issues with this label
+| `DA-Bot::Skip` | The DA-Bot should not perform any action on issues with this label |
 | `DA-Bot::Triage` | Issue has been silent for a while and needs to be triaged |
 | `DA-Due::AddDate` | An Issue needs a due date |
 | `DA-Due::N/A` | Due date is not needed because the team doesn't own the issue or a due date is not applicable |
@@ -399,7 +397,7 @@ These labels are automatically assigned by the [DA-Bot](/handbook/marketing/deve
 |-------|-----|
 | `DA-Release-Evangelism` | Release Evangelism issues, often auto created and closed by the DA-Bot |
 | `DA-Issue-Type::External` | Issues created by Other teams |
-| `DA-Issue-Type::Internal` | Issues created & owned by the DevEvangelism team
+| `DA-Issue-Type::Internal` | Issues created & owned by the DevEvangelism team |
 
 #### CFP Labels
 
@@ -454,15 +452,15 @@ Example CFP workflow using [quick actions](https://docs.gitlab.com/ee/user/proje
     2. In case you have submitted multiple talks, adjust the `~CFP-Submitted::` scoped label to reflect the correct number.
     3. Update the `submissions` section in the issue. Comment on the issue for visibility.
 
-```
-/label ~CFP-Submitted ~CFP-Submitted::1
-```
+    ```text
+    /label ~CFP-Submitted ~CFP-Submitted::1
+    ```
 
 3. After the CFP closed, set the `CFP::Closed` label and update the due date to the CFP notification date listed in the issue.
 
-```
-/due <cfp notification date>
-```
+    ```text
+    /due <cfp notification date>
+    ```
 
 4. CFP notifications come in, and at least 1 talk was accepted.
     1. Change the label to `~CFP-Accepted ~CFP-Accepted::1`
@@ -470,18 +468,18 @@ Example CFP workflow using [quick actions](https://docs.gitlab.com/ee/user/proje
     3. Comment on the issue with the talk titles for visibility.
     4. Set the due date to the event date, and ensure all speakers are assigned.
 
-```
-/label ~CFP-Accepted ~CFP-Accepted::1
-```
+    ```text
+    /label ~CFP-Accepted ~CFP-Accepted::1
+    ```
 
 5. When the event is done, update the issue with feedback and results.
     1. Add talk videos to the [YouTube playlist](/handbook/marketing/developer-relations/developer-advocacy/#youtube-playlist), if existing.
     2. Mark the issue as `DA-Status::Done` and close it.
 
-```
-/label ~DA-Status::Done
-/close
-```
+    ```text
+    /label ~DA-Status::Done
+    /close
+    ```
 
 If no talks were accepted, only close the issue shown above.
 
@@ -554,4 +552,3 @@ This process covers any content request, Webcast, Interview, Meetup, etc. The pr
 - A member of the Developer Advocate team will triage the issue and provide all necessary details and directions
 - The necessary labels are applied to the issue as actions are taken on the request
 - Once the request is complete, the issue is assigned back to the requestor to provide the necessary metrics generated as a result of the before it is closed.
-

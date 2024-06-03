@@ -1,9 +1,6 @@
 ---
-
 title: Incubation Engineering Maturity Stages
 ---
-
-# Incubation Engineering Maturity Stages
 
 This guide provides guidelines and best practices for how to properly position an Incubation Engineering project, and what needs to be accomplished in order for a project to mature from Experiment to Beta to Generally Available.
 

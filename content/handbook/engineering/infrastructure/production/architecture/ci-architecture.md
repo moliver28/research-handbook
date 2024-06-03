@@ -7,13 +7,8 @@ controlled_document: true
 This document only covers our shared and GitLab shared runners, which are
 available for GitLab.com users and managed by the [Infrastructure teams](../).
 
-
-
-
-
-
-
 ## General Architecture
+
 {: #ci-general-arch}
 
 Our CI infrastructure is hosted on Google Cloud Engine (GCE). In GCE we
@@ -54,20 +49,21 @@ The runners are connected as follows:
   application projects and used only by us. Privileged mode is on.
 
 ## Detailed Architecture
+
 {: #ci-detailed-arch-diagram}
 
-<img src="/images/handbook/engineering/infrastructure/production-architecture/ci-cd-gce-arch.png">
+<img src="/images/handbook/engineering/infrastructure/production-architecture/ci-cd-gce-arch.png" alt="">
 
 [Source](https://docs.google.com/drawings/d/1tskQW-dCHNMN-f6mfrtbcWRGKC4vZzg5UiQrpR28wTU/edit?usp=sharing)
 
 ### Windows Architecture
 
-<img src="/images/handbook/engineering/infrastructure/production-architecture/windows-ci-cd.png">
+<img src="/images/handbook/engineering/infrastructure/production-architecture/windows-ci-cd.png" alt="">
 
 [Source](https://docs.google.com/drawings/d/1oApCYUuh7ft8hnm9ToWjG8Ce9g1Hvo8MKTBL5DtjDk8/edit)
 
-
 ## Data Flow
+
 {: #ci-data-flow}
 
 ### Management Data Flow
@@ -126,6 +122,7 @@ The runners are connected as follows:
   could be Docker Hub, GitLab Registry, or any other Docker compatible registry.
 
 ## Deployment and Configuration Updates
+
 {: #ci-configuration}
 
 The Runner and it’s configuration is handled with Chef and defined on
@@ -165,6 +162,7 @@ restarting the process. In that case we need to use the same script as for the
 Runner Upgrade.
 
 ## Important Links and Metrics
+
 {: #ci-important-info-links}
 
 ### Monitoring Information
@@ -184,7 +182,6 @@ Runner Upgrade.
   - In GCP we’re using native GCP service discovery support that is available in
     Prometheus.
 - Alerts are sent to #ci-cd-alerts channel on Slack
-
 
 ### Monitoring Links
 

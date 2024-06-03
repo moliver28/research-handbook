@@ -45,4 +45,3 @@ Some feedback that we've heard is if GitLab could provide examples of good Inner
 - **Executive Overview** [Session 1: InnerSource Quick Start w/GitLab slides](https://docs.google.com/presentation/d/1O_MBH5_NHfKvDcWrdaHx_tmfUWWRkc3xnvMBWdikwIA/edit#slide=id.gcb47225958_0_1126)
 - **Hands-On Workshop** [Session 2: InnerSource Workshop](https://docs.google.com/presentation/d/1PauUr2hczbWNb7D5xvEGkMo5h4w1KGORnE2thgYiQZg/edit#slide=id.gfd8e70f97a_0_295)
 - [Demo project](https://cs.gitlabdemo.cloud/innersource/demo) that was leveraged in the InnerSource webinar
-

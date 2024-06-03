@@ -30,8 +30,8 @@ As I build a team, the first task I tackle is to ensure that my teams have a cle
 Between enabling every team member to do their jobs the best they can, engineering tasks
 and hiring, my work day is a stream of context switching.
 
-To ensure that I can stay on top of my tasks, I use [bullet journaling](https://bulletjournal.com/) combined with my Remarkable2 tablet. I finish each day by writing the list of tasks that need to be completed the next day. I start each work day by cross checking my weekly and monthly plan with the daily list I created the day before to prioritise the order of tasks I am aiming to complete on that day. 
-This ensures that I do the highest priority items on the short term, while aligning with the mid to long term set of tasks. This approach also allows me to question whether the long term plan is good for the current state of affairs.   
+To ensure that I can stay on top of my tasks, I use [bullet journaling](https://bulletjournal.com/) combined with my Remarkable2 tablet. I finish each day by writing the list of tasks that need to be completed the next day. I start each work day by cross checking my weekly and monthly plan with the daily list I created the day before to prioritise the order of tasks I am aiming to complete on that day.
+This ensures that I do the highest priority items on the short term, while aligning with the mid to long term set of tasks. This approach also allows me to question whether the long term plan is good for the current state of affairs.
 
 ### 1-1s
 

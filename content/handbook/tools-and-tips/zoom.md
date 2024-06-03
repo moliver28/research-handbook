@@ -148,6 +148,17 @@ Follow these steps to set it up:
 1. Tick the box for `Enable Global Shortcut` to `Mute/Unmute My Audio`
 1. You can map it to any keyboard shortcut such as `F1` (Cmd 1)
 
+### Recording Zoom meetings in HD
+
+1. Navigate to your [Zoom profile settings](https://gitlab.zoom.us/profile/setting).
+1. Click on the `Meeting` tab in the top menu.
+1. Click on the `In Meeting (Advanced)` side tab.
+1. Scroll down to the `Meeting-HD Video Quality` section and press the toggle.
+1. Select the `Full HD (1080P)` radio button.
+1. Press the `Save` button.
+
+Your settings will now be updated to record zoom meetings in full HD.
+
 ### Enabling the "Waiting Room" for your Personal Meeting Room
 
 It's recommended you enable the [Waiting Room](https://support.zoom.us/hc/en-us/articles/115000332726-Waiting-Room) feature for your personal meeting room to prevent others from joining (in the event of back-to-back meetings, for example).

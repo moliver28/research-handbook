@@ -11,6 +11,7 @@ Unless it is listed in this table, the Engineering Allocation for a stage/group 
 During an Engineering Allocation, the EM is responsible for recognizing the problem, creating a satisfactory goal with clear success criteria, developing a plan, executing on a plan and reporting status.  It is recommended that the EM collaborate with PMs in all phases of this effort as we want PMs to feel ownership for these challenges.  This could include considering adding more/less allocation, setting the goals to be more aspirational, reviewing metrics/results, etc.   We welcome strong partnerships in this area because we are one team even when allocations are need to resolving issues critical to our business.
 
 During periods of Engineering Allocation, the PM remains the interface between the group and the fields teams & customers. This is important because:
+
 - It allows Engineering to remain focused on the work at hand
 - It maintains continuity for the field teams - they should not have to figure out different patterns of communication for the customer
 - It keeps PMs fully informed about the product's readiness
@@ -29,7 +30,6 @@ Each allocation has a [direction page](/handbook/product/product-processes/#mana
 
 To see an example for an Engineering Allocation Direction page, see [Continuous Integration Scaling](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/direction/verify/continuous_integration_scaling/index.html.md). Once the Engineering Allocation is complete, delete the direction page.
 
-
 #### How to get a effort added to Engineering Allocation
 
 One of the most frequent questions we get as part of this experiment is "How does a problem get put on the Engineering Allocation list?".  The short answer is someone makes a suggestion and we add it.  Much like everyone can contribute, we would like the feedback loop for improvement and long terms goals to be robust.  So everyone should feel the empowerment to suggest an item at any time.
@@ -40,7 +40,6 @@ To help with getting items that on the list for consideration, we will be perfor
 1. How would you justify it?  Have you tried leveraging [cross-functional prioritization process](/handbook/product/cross-functional-prioritization/) before considering an engineering allocation?
 
 We will keep the list of questions short to solicit the most input.  The survey will go out to members of the Development, Quality, Security.  After we get the results, we will consider items for potential adding as an Engineering Allocation.
-
 
 #### Closing out Engineering Allocation items
 

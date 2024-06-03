@@ -7,9 +7,9 @@ description: "The Learning & Development team is rolling out learning programs t
 
 The Learning & Development team is rolling out learning programs to enable a culture of curiosity and continual learning. The learning initiatives are intended to provide a forum for team members to come together to learn about all of the activities taking place in the learning space, as well as hear from leaders internally and externally on various leadership topics.
 
-Team members can follow our [#learninganddevelopment Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W/thread/G018JT50VH7-1663352618.329159) for upcoming programs.
+Team members can follow our [`#learninganddevelopment` Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W/thread/G018JT50VH7-1663352618.329159) for upcoming programs.
 
-We record our [past initiatives]({{< ref "/handbook/people-group/learning-and-development/learning-initiatives/past-initiatives" >}}) so that we can share and revisit our programs over time.
+We record our [past initiatives](/handbook/people-group/learning-and-development/learning-initiatives/past-initiatives) so that we can share and revisit our programs over time.
 
 ## Learning Sessions
 
@@ -64,7 +64,6 @@ Example of a Social Learning Live Learning Session on [Building High Performing 
 
 Social Learning can also occur in GitLab's Learning Experience Platform - [Level Up](https://levelup.gitlab.com/learn/dashboard) and asynchronous forums using GitLab. (i.e. [Elevate]({{< ref "elevate-programs" >}}))
 
-
 ## Learning & Development Quarterly Newsletter
 
 The L&D team hosted a quarterly newsletter for five quarters for the community.
@@ -73,7 +72,7 @@ The L&D team hosted a quarterly newsletter for five quarters for the community.
 
 [Focus Friday's]({{< ref "communication#focus-fridays" >}}) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan]({{< ref "career-development#internal-resources" >}}).
 
-From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#types-of-growth-and-development-reimbursements" >}}). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the #learninganddevelopment slack channel.
+From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#types-of-growth-and-development-reimbursements). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the `#learninganddevelopment` slack channel.
 
 In a [discussion with Darren Murph, Head of Remote at GitLab, about his career development](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/career-development-with-darren-murph), Darren called out the importance of taking time out to learn, reminding the team that career development is "not something that comes around the fringes of work - it is work". The Take Time out to Learn initiative leans into this idea.
 
@@ -109,7 +108,7 @@ Preparing for the Call:
 1. Complete some work on the page before the session if you can, create an MR that clarifies information or asks Sid for clarity on the topic discussed.
 1. Set up a meeting with CEO through EBA. Invite other e-group members if applicable.
 1. Create an agenda with talking points and areas to emphasize during video recording with CEO
-1. Send Sid the agenda in the #CEO channel at least 24 hours in advance
+1. Send Sid the agenda in the `#CEO` channel at least 24 hours in advance
 1. Hold a handbook learning session and ensure the discussion is fluid and interactive with open and honest dialogue.
 
 During the Call:
@@ -128,9 +127,9 @@ After the Call:
 1. Update Unfiltered page with more information after the Live Stream. See the description in this [example video](https://www.youtube.com/watch?v=_okcPC9YucA).
 1. Edit the live stream thumbnail with a [Title Page](https://docs.google.com/presentation/d/13Pj3bxYK6FFSsiMx2vOAcsB0C6ctl_1lqFH6E5MtgGE/edit#slide=id.gb1c2c2e157_0_115) for each topic. Here is [the template](https://docs.google.com/presentation/d/13Pj3bxYK6FFSsiMx2vOAcsB0C6ctl_1lqFH6E5MtgGE/edit#slide=id.gb1c2c2e157_0_115) for the videos. Write out a new title, screenshot the image, and update thumbnail.
 1. Embed video on the related Handbook page.
-1. Edit page with new content, create sub-page, send MR in the CEO channel with a proposal for an interactive handbook discussion.
+1. Edit page with new content, create sub-page, send MR in the `#CEO` channel with a proposal for an interactive handbook discussion.
 
-### List of CEO Handbook Learning Sessions:
+### List of CEO Handbook Learning Sessions
 
 1. [Common misperceptions about Iteration](https://www.youtube.com/watch?v=nXfKtnVUhvQ)
 1. [No Matrix Organization](https://www.youtube.com/watch?v=E_wegGRv4mA)

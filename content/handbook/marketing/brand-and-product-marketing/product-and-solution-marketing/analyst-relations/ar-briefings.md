@@ -13,7 +13,6 @@ The purpose of a briefing is to inform or educate analysts about something we ar
 
 In either case, your [GitLab Industry Analyst Relations team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/#which-analyst-relations-team-member-should-i-contact) is ready to answer any questions you might have and if you would like to brief an analyst please [click here](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/new?issuable_template=AR-ResearchRequest) and fill out this request form.
 
-
 ## Types of briefings
 
 There are several different, yet common types of briefings that the industry analyst relations team will organize and help you deliver. IAR will create a calendar year epic for each of these three types of briefings. Each briefing topic will be its own sub-epic. Each analyst company will then have its own sub-epic (Gartner) or issue. Please note all briefings are confidential epics and issues. The three types of briefings are:
@@ -21,6 +20,7 @@ There are several different, yet common types of briefings that the industry ana
 ### Announcement briefings
 
 These are briefings intended to familiarize analysts with an event or one-time change. Each announcement will have its own briefing subepic. The overall epic sits at the highest GitLab level because announcements may involve issues from multiple groups in GitLab that use different projects. They should be started, if not finished before the date of the announcement itself and may also prepare analysts to speak to their clients (end users, buyers, investors, etc.) and/or press about the announcement. Examples of announcement briefings include, but are not limited to:
+
 - Acquisition
 - Price or GitLab-level product change
 - New executive
@@ -44,4 +44,3 @@ These briefings are generally set up in response to an inbound analyst request e
 - In contrast to analyst inquiries, which are an entitlement of research seats purchased, briefings are available to clients and non-clients alike in an effort for analyst firms to maintain both the quality of their advice and their objectivity. As such, analysts will tend to accept briefing requests when the topic aligns with their research coverage area(s), but have the option of politely declining if the topic is not aligned with their client needs or interest.
 - Briefings can include multiple analysts from the same firm, as schedules allow, or scheduled over several calls to accommodate different time zones, focus areas, etc.
 - Generally speaking, analysts (especially from Forrester and Gartner) will not offer feedback during briefings, with firm policy requiring GitLab to schedule inquiry calls in follow-up to get feedback and advice on positioning, strategy, etc.
-

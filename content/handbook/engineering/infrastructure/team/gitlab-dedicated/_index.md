@@ -35,6 +35,8 @@ The following people are members of the Dedicated:Environment Automation Team:
 
 {{< team-by-manager-slug "o-lluch" >}}
 
+{{< team-by-manager-slug "denhams" >}}
+
 The following people are members of the Dedicated:US Public Sector Services Team:
 
 {{< team-by-manager-slug "sdumesnil" >}}
@@ -93,11 +95,12 @@ The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](htt
 but there are some differences worth noting.
 
 A PCL is manually enforced once the following requirements are met:
-1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created. 
+
+1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created.
 2. An MR updating the scheduled PCLs table is approved by the SaaS Platforms Engineering Director
 3. Customer changes via Switchboard are prevented for the duration of the PCL.
 
-The following dates are currently scheduled PCLs. 
+The following dates are currently scheduled PCLs.
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
@@ -109,10 +112,10 @@ As opposed to GitLab.com [PCL](https://about.gitlab.com/handbook/engineering/inf
 
 ##### Hard PCL
 
-Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes via Switchboard. New customers will not be onboarded during Hard PCLs. 
+Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes via Switchboard. New customers will not be onboarded during Hard PCLs.
 
-In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discretion to make the decision to apply the changes necessary to mitigate or resolve the incident in order to keep service availability. 
-Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken. 
+In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discretion to make the decision to apply the changes necessary to mitigate or resolve the incident in order to keep service availability.
+Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken.
 
 Changes not associated to any incident must have an exemption approval by the GitLab Dedicated engineering Leadership.
 
@@ -137,8 +140,36 @@ Access will only be provided to:
 1. Extensions will need to be approved by the Dedicated Team Engineering Manager or Director and the direct manager of the requesting team member
 
 To gain access, please create:
+
 1. [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Use `GitLab Dedicated Logs (Production)` as the system.
 1. An issue in the [GitLab Dedicated tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=log_access_rotation) using the `Log rotation access` template.
+
+## Working across GitLab
+
+### Communicating with GitLab Dedicated customers
+
+If you need to urgently contact one or more GitLab Dedicated customers, engage the
+[GitLab Dedicated Communications Manager On-Call (CMOC)](/handbook/support/workflows/dedicated_cmoc/).
+
+Non-urgent communication should be handled through the customer's Customer Success Manager (CSM).
+
+### Getting product fixes into GitLab Dedicated quicker
+
+{{% alert title="Note" color="info" %}}
+
+This section should be moved into the GitLab Dedicated incident management process page when it
+becomes available.
+{{% /alert %}}
+
+Sometimes, a product fix is introduced to resolve a GitLab Dedicated incident or
+[customer escalation](#escalation-policy). There can be a significant delay between when the
+product fix is merged and when it is deployed to GitLab Dedicated environments due to our
+[upgrade policy](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#upgrades).
+
+In such cases, we should evaluate the impact of the delay and, if justified, use the
+[backport request process](/handbook/engineering/releases/backports/) to request that the product
+fix be backported to a GitLab version that can be deployed to GitLab Dedicated environments in an
+acceptable timeframe.
 
 ## How we work
 
@@ -159,6 +190,11 @@ The team does have a set of regular synchronous calls:
 - `Demo call` - This call is on the agenda once per week. During this call, team members show off their progress, and engage with other team members on topics related to GitLab Dedicated platform. Demo calls are supposed to be rough around the edges and unpolished. In fact, if the demo looks polished, we will discuss whether we are being ambitious enough with our goals
 - `Team call` - During this call, we are sharing important information for team-members day-to-day, as well as project items requiring a sync discussion
 - 1-1s between the Individual Contributors and Engineering Managers
+
+The group has a set of regular synchronous calls for PMs and EMs to ensure alignment:
+
+- `GitLab Dedicated Product <> Eng Sync` - This call is weekly on Mondays and Thursdays for PMs and EMs to align
+- `Dedicated Managers Sync` - This call is every two weeks for Dedicated EMs to sync and ensure alignment
 
 Impromptu Zoom meetings for discussing GitLab Dedicated work between individuals are created as needed.
 It is expected that these meetings are private streamed, or recorded(1*), and then uploaded to [GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqC5FfUVPyndvLvTWifWbfB).
@@ -201,7 +237,6 @@ We use sub-epics to break larger epics into smaller portions. These sub-epics ar
 1. Sub-epics represent an item from the roadmap and are delivered in a specific phase
 1. Sub-epics can span multiple months, but their end date should match the 'anticipated completion date' of the roadmap phase they are added to.
 
-
 The diagram below shows an example of traversing the complete hierarchy:
 
 ```mermaid
@@ -222,7 +257,7 @@ click I "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/
 click J "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/298"
 ```
 
-*Note* If you are not seeing the diagram, make sure that you have accepted all cookies.
+_Note_ If you are not seeing the diagram, make sure that you have accepted all cookies.
 
 #### Epic Owners
 
@@ -259,7 +294,7 @@ Each epic and child sub-epics must include the following:
     1. The due date is set based on [the Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
     1. The date that a project actually ended is taken from the date that the epic was closed.
 
-Labels are described in the [epic label section](#epic-labels).
+Labels are described in the [epic label section](#epics-labels).
 
 #### Epic boards
 
@@ -298,7 +333,7 @@ The status for all work relating to GitLab Dedicated is maintained in the descri
 
 #### Status Update Process
 
-Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in SaaS Platforms](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-saas-platforms):
+Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in SaaS Platforms](/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-saas-platforms):
 
 1. **By Wednesday at 21:00 UTC** the DRI for a project is expected to update the status block in the epic description to:
     1. Format for weekly update: **Date of Update** (YYYY-MM-DD)
@@ -345,8 +380,7 @@ GitLab Dedicated team respects the Company principle of [everything starting wit
 
 1. All Merge Requests (MRs) must go through the review process.
 1. It is expected that MR author assigns reviewers once the MR is ready to go.
-1. Unless otherwise explicitly noted in the MR description itself, it is expected from a first approver to also merge the MR they just approved for efficiency. Add `**This MR should be approved by all approvers, last approver should merge.**` as the first line in MR description to state the intention clearly.
-1. Resolution of an open thread may be done by the author or any reviewer, based on their good-faith understanding that the comment has been adequately addressed; an approval while leaving open threads unresolved means the author or other reviewers are expected to manage those threads to completion.
+1. Reviewers should review the change and leave comments with questions or suggestions. Please follow the [merge request reviewer guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#merge-request-reviewers) and the [resolving threads guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#resolving-threads-on-a-merge-request) documented below.
 
 The MR approval rule settings for all projects should be:
 
@@ -373,22 +407,30 @@ When a red build in the default branch is detected, the first course of action i
 
 #### Merge request reviewers
 
-Assign all developers of the [relevant Dedicated team](#gitlab-group-hierarchy) to all of the MRs that are due for review. Typically it is not necessary to assign the whole `@gitlab-dedicated` group, so choose the appropriate group such as `@gitlab-dedicated/environment-automation` or `@gitlab-dedicated/switchboard` depending on the project. As the team grows this helps with determining signal vs noise. While it is OK for only two people to get the MR to the merged state (author + 1 reviewer), assigning everybody gives more exposure to the work in progress and gives a chance for more parties to provide feedback, leading to better quality overall. If the MR sits more than 1 day without receiving meaningful comments for review, MR author is encouraged to assign a particular reviewer to the MR with the aim to speed up the review process.
+GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature).
+
+The process can be summarized as:
+
+1. The MR author will assign a reviewer and a maintainer to an MR that is ready for review.
+     - Check that pipelines are passing before requesting reviews.
+     - The MR author can choose who to assign for review. To spread workload and knowledge it is recommended to use the [Environment Automation Reviewer Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=environment-automation).
+     - Unless otherwise explicitly noted in the MR description itself, Maintainers are expected to also merge the MR they just approved for efficiency. Add **This MR should be approved by all approvers, last approver should merge.** as the first line in MR description to state the intention clearly.
+     - If the change is a significant one, considering mentioning the appropriate group such as `@gitlab-dedicated/environment-automation` or `@gitlab-dedicated/switchboard` in the MR description to help with knowledge sharing.
+2. Reviewers will review the MR and leave comments with questions or comments.
+    - To help us keep projects moving, please respond to review requests within one working day, and aim to complete the review within two working days.
+    - If a reviewer is unable to meet the timelines, or has too many other review requests it's ok to ask someone else to take on the review.
 
 #### Resolving threads on a merge-request
 
 As the merge request author, please don’t mark discussions resolved until the reviewer has had a chance to respond. In general, if the reviewer has not yet approved the MR, and the thread is non-trivial, don’t mark their comments as resolved, let the reviewer review your response and resolve accordingly during the next round of view. If they have approved the MR, but comments remain unresolved, it's generally fine to resolve comments before merging.
 
-#### Merge Request Review Assignees
+#### Maintainer training
 
-GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature).
+New Dedicated team members work with their manager to decide when to begin Maintainer training. Usually this will be around the third month in the team.
 
-This can be summarized as follows:
+A [Maintainer training issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=maintainer_training) will be created using the `maintainer_training` template and a training buddy will assigned to support the training.
 
-> - Merge request authors and DRIs stay as Assignees
-> - Authors request a review from Reviewers when they are expected to review
-> - Reviewers remove themselves after they’re done reviewing/approving
-> - The last approver stays as Reviewer upon merging
+After training is complete, the new Maintainer will be added to the Environment Automation Maintainers pool.
 
 ### Temporary workarounds
 
@@ -448,11 +490,10 @@ There are three other workflow labels of importance:
 
 #### Support labels
 
-Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance via the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index.html#gitlab-dedicated).
+Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance via the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated) and the [GitLab docs](https://docs.gitlab.com/).
 
 | State Label | Description |
 | ----------- | ----------- |
-| `support::toreview` | The `support::toreview` label is applied by default to issues created by Support Engineers [formally seeking assistance](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) on behalf of a customer in a ticket. |
 | `support::reviewed` | The `support::reviewed` label is applied when these issues have been reviewed and the review did not directly result in an issue or MR. |
 | `support::reviewed-and-improvement-made` | The `support::reviewed-and-improvement-made` label is applied when an improvement has been made based on a review. Improvements include opened issues or MRs. |
 
@@ -495,6 +536,128 @@ Scoped workaround labels are intended to track temporary workarounds applied to 
 | ----------- | ----------- |
 | ![workaround active](./img/workaround-active.png) | This label is applied to issues describing workarounds applied to tenant instances |
 
+### Capacity Planning
+
+We operate a Capacity Planning rotation,
+which switches on a fortnightly basis amongst all on-call SRES,
+with the schedule managed in [PagerDuty](https://gitlab.pagerduty.com/schedules#PAP8TMH).
+While Capacity Planning should not require large effort most weeks,
+in the event of a Capacity Planning shift overlapping with an on-call shift,
+consider swapping your capacity planning shift with another engineer
+to ensure both tasks receive the necessary attention.
+The goal is to give ourselves the best chance of resolving impending saturation events
+_before_ they become a customer-impacting incident
+It is based on statistical modelling and human interpretation,
+and is not expected to be perfect in every situation.
+Do your best,
+and understand that the process is inherently imprecise and fuzzy at the edges.
+
+The Dedicated capacity process process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
+
+The overall flow of work is to assess any new reported saturation risks,
+and re-review any which are due to be looked at again.
+If there is an apparent risk of saturation,
+initiate further assessment for potential remediation action,
+and actively manage any such ongoing issues that are assigned to you.
+
+At the start of your shift review the
+[handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Handover)
+from the prior shift and close it when you are up to speed.
+
+At the start of each work week while you are on duty,
+as a high priority task that is second only to active incidents:
+
+1. Review the capacity planning issues that are:
+   1. In the Open column of the [board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/boards/7536402).
+   1. [Previously assessed](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?label_name%5B%5D=violation%3Asaturation) but now and therefore in need of a new look.
+   - Use the labels auto-populated on the issue to help prioritize if necessary.
+     `violation:hard` is more important than `violation:soft`,
+     and `severity::` provides additional signal.
+1. For each saturation issue that is up for review,
+   evaluate the prediction given in the issue:
+   - Check the tips below for suggestions on quickly assessing predictions as false positives;
+     this is a good way to quickly reduce the number of issues requiring more work
+   - If evaluation requires non-trivial investigation over more than a day calendar time,
+     label it `capacity-planning:investigate` and investigate when you have dealt with higher priority capacity planning issues
+   - If you assess that it warrants active action in the near future and is not already `capacity-planning::in-progress`:
+      1. Label it `~capacity-planning:in-progress`,
+      1. Add or update the due date to next week, and
+      1. Create a remediation [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=saturation_risk)
+      - Take into consideration whether we have existing remediation options
+        (e.g performance-based overlays, or entire reference architecture upsizing)
+        or if we will need to add capabilities to handle the particular saturation problem.
+        Err on the side of raising an issue for further discussion;
+        we can always close it and return to monitoring status.
+   - If it's in `capacity-planning::in-progress` check on the remediation issue and ensure it is making progress,
+     and update the due-date to be 1 week in the future.
+     If remediation has completed,
+     move the issue to `capacity-planning::verification`
+     or, if results are already clearly sufficient, close it.
+   - If it is in `capacity-planning::verification`,
+     check if the remediation results can be considered sufficient,
+     and if so close the issue.
+     If not, update the due date to next week for further review.
+   - If the prediction has a wide-range and there is no indication that it will breach any time soon,
+     or the lead time is sufficient that there is no urgency (e.g. 3+ months for Gitaly disk saturation),
+     label the issue with `~capacity-planning::monitor`
+     and update the due-date to just before the start of the next shift
+     for review by the incoming duty engineer.
+   - If a metric is of a nature (perhaps for reasons specific to Dedicated)
+     that predictions are consistently unusable across all customers for that metric,
+     or if the prediction is plausibly useful but needs tuning:
+      1. Label it `capacity-planning::tune-model`,
+      1. Update the due-date to 2 weeks in the future,
+      1. Work on the tamland
+         [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
+        to exclude or tweak the specific saturation signal.
+         - The [Scalability:Observability](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/observability/) team
+        can offer advice on the finer details of the tamland configuration.
+1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
+   The pipeline should run successfuly every day.
+   Investigate and fix any errors or failures.
+1. Check if there are new production tenants not [listed](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/blob/main/tenants.yaml).
+   Update the list as necessary and create corresponding `tenant::` [labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/labels?subscribed=&sort=relevance&search=tenant%3A%3A).
+
+When your shift comes to an end,
+create a [handover issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=capacity_planning_handover&issue[title]=Capacity%20Planning%20Triage%20handover%20notes%20YYYY-MM-DD)
+assign it to the incoming duty engineer and populate with any information that the incoming shift should know about.
+Let comments/discussions on the specific issues speak for mundane and routine matters, to be reviewed on their due date, but consider noting:
+
+1. Any metrics that were coming close to being a concern but didn't warrant remediation just yet,
+   or that are in some way unusual
+2. Brief comment on any ongoing remediations.
+   Reassign the remediation implementation issues to the incoming duty engineer,
+   unless you want to finish them up yourself or they are assigned to someone else for specific reasons.
+
+Remember to record updates and status comments on each capacity-planning issue when necessary or useful,
+just like you would on a team issue.
+
+Some tips:
+
+1. Forecasts may take several months to become predictable on new tenants.
+   As long as the literal numbers aren't too high,
+   do not be alarmed if the predicted range is wide and tamland is being overly cautious.
+   Putting into `capacity-planning::monitor` state is a good course of action in this situation
+1. Sometimes Tamland will generate alerts for services whose saturation forcast is generally trending downwards,
+   but which Tamland's confidence interval (the light blue area in prediction graphs) still includes the possibility of saturation.
+   Unless you have specific reasons to suspect a real saturation risk,
+   strongly consider tagging the issue as `capacity-planning::monitor` and moving its due date out by 2+ weeks.
+1. Try to get ahead of obvious gradual growth with enough time to take calm action.
+   For example, 1 month of warning for something like Gitaly or Opensearch disk usage is sufficient to schedule an expansion of the storage volumes during upcoming maintenance windows,
+   not in a hurry in response to a pager alert
+1. For items that need to be monitored it is encouraged to attach the current forecast in the comment;
+   the forecast will likely change in place over the following weeks, and the history can be useful.
+1. Look for the component / alert name in the
+   [Capacity Planning Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-tracker/gitlab-dedicated/-/issues) can be a good source of information,
+   as some recurring saturation forecast share the same or similar causes,
+   or just to gain some insight into how these issues have been investigated and resolved in the past.
+1. Trust your instincts.
+   If it looks concerning, raise a remediation issue; they are free, and can easily be closed again after additional input.
+   If it looks fine it probably is,
+   and even if it isn't then there's a rotating schedule of other engineers in the following weeks who can spot something you missed.
+   This process is designed to get warning of things that are coming when possible,
+   not to be a perfect predictor in all cases.
+
 ### Resources
 
 Resources used by the team to conduct work are described on the [Development Resources Page](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/engineering/Dev-resources.md).
@@ -504,4 +667,3 @@ Resources used by the team to conduct work are described on the [Development Res
 - Name for [`Switchboard` customer portal](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/7#note_591358260) was suggested by @marin after he spent a day trying to figure out which mixing console (Also known as a switchboard/soundboard) to get for amateur music making. He didn't buy anything, but the suggestion was accepted.
 - Name for [`Amp` management cluster](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/31#note_609710775) was suggested by @ccasella, as it is the instance that is "powering" supply of other instances.
 - [Dedicated Group - Year in Review 2023](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3681)
-

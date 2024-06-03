@@ -6,14 +6,6 @@ description: "A handy automation tool to generate status rollup issues for large
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
 ## Problem
 
 When the team undertakes large programs of work, it becomes cumbersome to do weekly status rollups to the department heads and e-group. This is especially difficult when the program involves multiple teams and departments with totally different workflows.
@@ -27,7 +19,7 @@ Rolly is an automated tool which extracts key status information from project/pr
 1. Rolly searches the group with the ID provided in the config `groupId` for all epics with the label `label`.
 1. For each epic's description, Rolly extracts the markdown in between the tokens `extractStatusStart` and `extractStatusEnd`.
 
-    ```
+    ```markdown
     # My heading
 
     <!-- Status Start -->

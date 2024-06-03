@@ -14,6 +14,8 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 ### What to do before the meeting
 
 1. **Ask yourself if the meeting is necessary.** Though we have a [bias toward asynchronous communication]({{< ref "./asynchronous" >}}), a strategic balance between synchronous and asynchronous communication is required to achieve maximum efficiency. Moving a project or discussion forward asynchronously when feasible is preferred if it can be done efficiently and achieve desired results. Before scheduling a meeting, ask yourself if asynchronous methods could be effectively used to achieve the desired outcome.
+1. **Review participants time zones.** Though we have a [bias toward asynchronous communication]({{< ref "./asynchronous" >}}), when a meeting is determined to be necessary review all participants' time zones. Consider creating meetings that overlap between EMEA/APAC + APAC/AMER + AMER/EMEA.
+1. **Ensure meeting DRI.** When creating meeting across time zones, nominate volunteers to host and facilitate those meetings in their working hours that align better with their time zones.
 1. **Send the meeting invite with proper advance notice.**  A meeting with team members will usually traverse multiple time zones. We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting to give people time to respond to the invite. In addition, consider who is required in the meeting and mark non-essential participants as optional.
 1. **Include a link to an agenda document in the invite.** Team members should be able to get context before the meeting through reviewing agendas, supporting materials, etc. [Meeting agendas]({{< ref "./meetings#4-all-meetings-must-have-an-agenda" >}}) should be shared 72 hours (minimum 24 hours) in advance of the meeting. Team members will need to know what is being discussed to decide if their participation is needed or [whether their meeting attendance is optional]({{< ref "./meetings#1-make-meeting-attendance-optional" >}}).
 1. **Provide slides and supporting videos in advance.** We [embrace Neurodiversity]({{< ref "values#embracing-neurodiversity" >}}) by adopting a variety of different work styles and communication styles. Providing multiple ways to consume information (written / video / audio) allows everyone to contribute independent of their preferred comprehension style.
@@ -24,7 +26,18 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 ### What to do during the meeting
 
 1. **Start on time.** It's important to [begin and end meetings on time]({{< ref "./meetings#3-start-on-time-end-on-time" >}}) in order to minimize disruption.
+1. **Recording.** For group meetings where there are multiple time zones, consider recording the meeting to allow for async participation.
 1. **Give audio and video feedback.** If you are unable to see or hear someone, let them know so they can address and correct.
+1. **Name pronunciation.** Consider these tips to ensure name pronunciation during the meeting:
+1. **Name pronunciation.** Inline with our [values](https://handbook.gitlab.com/handbook/values/#learn-how-to-pronounce-other-peoples-names), consider these tips to ensure name pronunciation during the meeting:
+   1. Ask all participants what is your preferred name or do you have a nickname? Example: “My name is pronounced….you can call me….”
+   1. Introduce yourself, and mention your pronouns and pronunciation, and ask participants if they want to introduce themselves. Reminder that pronouns can be set in [applications we use for collaborating](https://handbook.gitlab.com/handbook/people-group/pronouns/#setting-your-pronouns-in-applications)
+   1. Adding team members name pronunciation in agenda.
+   1. If you are unsure, it is always okay to ask for a reminder on how to pronounce a team member's name.
+   1. If your name is mispronounced, one can always say: "Thank you for attempting to pronounce my name, it's actually pronounced #{name}".
+   1. Ensure your [Slack profile name pronunciation has been completed](../../../tools-and-tips/slack.md#profile).
+   1. Consider adding a link to the pronunciation of your name to the agenda doc in the attendee section.
+   1. Ensure your [Google profile name pronunciation has been completed](../../../tools-and-tips/_index.md#add-name-pronunciation-in-google).
 1. **Avoid presenting in most meetings.** Valuable synchronous time should not be used to present in [most cases]({{< ref "communication#few-meetings-with-presentations" >}}). Instead, recorded presentations make content accessible, prevent confusion, and increase participation for team members that prefer consuming content asynchronously. It is OK to present spontaneously to share unplanned material during a meeting, but stop sharing once the point is made. This ensures that the video stream is preserved for team members to engage and interact with each other.
 1. **Be intentional about introductions (or not).** Some meetings may benefit from introductions, so be intentional about either doing introductions or not. If you are going to do introductions, make sure participants are aware beforehand so they are prepared. Create a [list of people]({{< ref "communication#meeting-introduction-guidelines" >}}) with their roles, and use that for guiding the introduction sequence. Let each individual introduce themselves so that Zoom emphasizes the speaker’s video stream.
 1. **Provide verbal cues.** If you’re going through an agenda document, then add context: “bullet 3c, Sam, you added that point, can you verbalize it for us?” Similarly use slide numbers when going through a presentation to ensure that all attendees are tracking on the content.
@@ -35,7 +48,9 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 ### What to do after the meeting
 
 1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature]({{< ref "1-1" >}}) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
-1. **Assess and Iterate.** Once the meeting concludes, reflect on what worked, what didn’t work, and what you need to do differently to run a more effective meeting. This process touches three of our CREDIT values: Iteration, Efficiency, and Results. By taking a small amount of time after a meeting to focus on continuous improvement, we can apply those improvements in future meetings. This drive for continuous improvement drives Efficiency, which is the foundation for Results.
+1. **Consider important decisions.**  When the meeting takes place outside of some participants' time zones, consider confirming decisions and actions for 24-48 hours. This will allow participants to contribute asynchronously.
+1. **Upload recording.** When the meeting is recorded, add the recording link and password in the agenda shortly after the meeting to allow for async consumption for people in different time zones. Also consider uploading to YouTube if it can be done so consistent with SAFE guidelines.
+1. **Assess and Iterate.** Once the meeting concludes, reflect on what worked, what didn’t work, and what you need to do differently to run a more effective meeting. This process touches three of our CREDIT values: Iteration, Efficiency, and Results for Customers. By taking a small amount of time after a meeting to focus on continuous improvement, we can apply those improvements in future meetings. This drive for continuous improvement drives Efficiency, which is the foundation for Results.
 
 ## What is a remote meeting?
 
@@ -57,7 +72,7 @@ Much of the same advice for running a good in-person meeting applies to remote m
 
 When you work in a global all-remote company, the usual assumptions about availability are opposite the norm. We have a growing team working in over 65 countries, with many time zones covered, which makes synchronous meetings impractical, burdensome, and inefficient. Anyone who has worked in a corporate environment has likely seen the sarcastic "I Survived Another Meeting That Should Have Been An Email" award. As an all-remote company, we [do not look to a meeting by default]({{< ref "./asynchronous#question-every-meeting" >}}); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
 
-In many companies, synchronous meetings are used as a mechanism to create consensus. As you'll read in the [Leadership]({{< ref "/handbook/leadership" >}}) portion of GitLab's handbook, we are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end one person decides the matter after they have listened to all the feedback.
+In many companies, synchronous meetings are used as a mechanism to create consensus. As you'll read in the [Leadership](/handbook/leadership) portion of GitLab's handbook, we are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end one person decides the matter after they have listened to all the feedback.
 
 This works because of our values, which leads GitLab to hire individuals who enjoy being a manager of one, a point detailed in our [Efficiency value]({{< ref "values#efficiency" >}}). Team members are empowered to decide whether a sync meeting is the best use of their time, and [set boundaries]({{< ref "./mental-health#be-transparent-about-boundaries" >}}) when needed.
 
@@ -69,7 +84,7 @@ You should aim to record all meetings. This allows team members to catch up on w
 
 At the same time, even GitLab team members may find themselves on one of two extremes.
 
-1. Some folks may find themselves with **too many meetings** on their calendars. Conference room have attendee caps. Virtual meeting rooms can hold more than a stadium worth of people, so there are no physical constraints around the number of folks who can be invited to a meeting. Help over scheduled folks by proactively marking them as optional if they are not required. This helps them in their prioritization and time management. Also revisit meetings for which you are the [DRI]({{< ref "directly-responsible-individuals" >}}) after each meeting. Can folks be removed from a meeting or meeting series? Or, can then be moved from required to optional? Avoid stale meeting invite lists.
+1. Some folks may find themselves with **too many meetings** on their calendars. Conference rooms have attendee caps. Virtual meeting rooms can hold more than a stadium worth of people, so there are no physical constraints around the number of folks who can be invited to a meeting. Help over scheduled folks by proactively marking them as optional if they are not required. This helps them in their prioritization and time management. Also revisit meetings for which you are the [DRI]({{< ref "directly-responsible-individuals" >}}) after each meeting. Can folks be removed from a meeting or meeting series? Or, can then be moved from required to optional? Avoid stale meeting invite lists.
 1. Some folks may find themselves with **few meetings**, so they aren't particularly selective in their attendance. A topical meeting may be an opportunity to connect with team members or feel a sense of belonging, but a participant should choose not to attend a meeting if this is the primary reason for attendance. There are alternatives for [informal communication]({{< ref "./informal-communication" >}}) that can better address this need.
 
 Managers can support their direct reports by reviewing the directs' calendars with them on a regular basis to align on which meetings should have in-person attendance.
@@ -141,7 +156,7 @@ You can learn more at GitLab's [remote team solutions page](./gitlab-for-remote)
 
 A hybrid call is one that has a mix of participants in the same physical room, together with others who are remote. Hybrid calls should be avoided, as it's better to have everyone on a level playing field for communication and discussion.
 
-If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room. This ensures that everyone is on the same playing field in terms of call experience. If possible, it's best to separate briefly for the call and find your own workspace, creating a 100% remote call. This helps avoid audio problems from delays and feedback. Learn more about why hybrid (partially remote) calls are horrible in the [Communication section of GitLab's Handbook](communication#hybrid-calls-are-horrible).
+If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room. This ensures that everyone is on the same playing field in terms of call experience. If possible, it's best to separate briefly for the call and find your own workspace, creating a 100% remote call. This helps avoid audio problems from delays and feedback. Learn more about why hybrid (partially remote) calls are horrible in the [Communication section of GitLab's Handbook](communication#hybrid-calls-are-annoying).
 
 ### 8. Meetings are about the work, not the background
 
@@ -188,7 +203,7 @@ While we can thanks team members within meetings, we do not thank each other for
 
 ### What are the benefits of a remote meeting?
 
-Scheduling a virtual meeting allows you to set the meeting length and invite a limited number of people. You can participate in a remote meeting from [almost anywhere in the world]({{< ref "/handbook/people-group/employment-solutions#country-hiring-guidelines" >}})! If you are working in your garage or basement, be sure to use a green screen behind you and put up a professional background image to present well on screen.
+Scheduling a virtual meeting allows you to set the meeting length and invite a limited number of people. You can participate in a remote meeting from [almost anywhere in the world](/handbook/people-group/employment-solutions#country-hiring-guidelines)! If you are working in your garage or basement, be sure to use a green screen behind you and put up a professional background image to present well on screen.
 
 ### What are the challenges of a remote meeting?
 
@@ -242,7 +257,7 @@ When working in an all-remote company, there is a strong tendency to avoid tradi
 1. Combine asynchronous activities between synchronous meetings.
 1. Take more time than you normally would to explain activities and intent, framing your position with [additional context]({{< ref "./effective-communication" >}}). In traditional offsites, understanding comes from observing others in the room, and this can be more difficult remotely. If you are leading the offsite, encourage people to have [short toes]({{< ref "values#short-toes" >}}) and [assume positive intent]({{< ref "values#assume-positive-intent" >}}) when it comes to being interrupted, as a higher-than-expected amount of back-and-forth may be necessary to achieve understanding.
 1. If possible, spend a full day working together with breaks, and share a remote meal together [coffee-chat]({{< ref "./informal-communication#coffee-chats" >}}) style.
-1. Check your [tools]({{< ref "/handbook/tools-and-tips" >}}) to make sure they can support the synchronous setup you are proposing.
+1. Check your [tools](/handbook/tools-and-tips) to make sure they can support the synchronous setup you are proposing.
 
 All-remote virtual offsites are cost-effective and enable team members to pivot back to [life outside of work]({{< ref "./people#worklife-harmony" >}}) as soon as the meeting concludes. However, there is still great value in [in-person interactions]({{< ref "./in-person" >}}), and leaders should aim to include those opportunities when possible rather than shifting entirely to remote offsites.
 
@@ -274,7 +289,7 @@ For context, Sid joined the Zoom call from San Francisco, while the researchers 
 >
 > Of course there are benefits to colocated meetings — it's easier to interrupt each other, it's easier to see what everyone around the room is thinking, you don't have wireless issues, it's easier to look each other in the eyes, it's easier to break bread before/after the meeting, it's easier to talk a walk or do something fun together.
 >
-> We try to take advantage of them, though. We have [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute) where we all come together to go on excursions and have informal chats. As an executive group, we [come together every quarter for 2.5 days for high-velocity meetings]({{< ref "/handbook/company/offsite" >}}). Those are augmented with Google Docs, and we allow people to attend remotely if they cannot join in person.
+> We try to take advantage of them, though. We have [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute) where we all come together to go on excursions and have informal chats. As an executive group, we [come together every quarter for 2.5 days for high-velocity meetings](/handbook/company/offsite). Those are augmented with Google Docs, and we allow people to attend remotely if they cannot join in person.
 >
 > There are benefits, but they aren't as big as people make them out to be.
 >
@@ -320,8 +335,8 @@ In the above [video interview](https://www.youtube.com/watch?v=nn1Mjh7j-1I) betw
 
 ## GitLab Knowledge Assessment: All-Remote Meetings
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-- - -
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

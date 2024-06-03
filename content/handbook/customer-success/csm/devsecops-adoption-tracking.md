@@ -6,15 +6,9 @@ description: "CSM guidance on how to track and log progress on DevSecOps usecase
 
 ## On This Page
 
-
-
-
-
-
 ## Gainsight Process for Tracking DevSecOps Adoption
 
 YouTube Video (private - GitLab internal only) guiding CSMs on the Gainsight process: [How to create & correctly populate a DevSecOps objective & playbook](https://youtu.be/lL1HQTUTdiQ)
-
 
 1. Immediately upon a net-new customer purchasing Ultimate or an existing Premium customer upgrading, [open an Objective and apply the DevSecOps Enablement Playbook in the customer's ROI success plan](/handbook/customer-success/csm/stage-enablement-and-expansion/#where-do-i-track-the-use-case-enablement-and-expansion).  
 1. Document *when* the customer intends to start implementing the security and compliance features (Rough date is fine) in the field created (bottom of CTA) *once* the CTA is opened ([see video](https://youtu.be/lL1HQTUTdiQ?t=62)).

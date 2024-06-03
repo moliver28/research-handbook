@@ -71,6 +71,7 @@ We exclusively use [issue/epic descriptions as the single source of truth](/hand
 - Issues: [GitLab Issue Search](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date&state=opened&label_name%5B%5D=group%3A%3Aeditor%20extensions&first_page_size=20)
 
 Epics and issues are created in the project that matches their scope in the narrowest possible way. We use the following projects:
+
 - Work specific to a single extension or to the Language Server:
   - [Language Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-language-server-for-code-suggestions)
   - [Visual Studio Extension](https://gitlab.com/gitlab-org/editor-extensions/gitlab-visual-studio-extension)
@@ -97,13 +98,26 @@ and follows the Technical Writing [triage process](/handbook/product/ux/technica
 
 ### Estimates
 
-We use three weights to give a rough estimate of the issue's complexity. The weight represents a time estimate:
+We use three weights to give a rough estimate of the issue's complexity. The weight is made out of two parts:
+
+#### Base weight
+
+These are estimates for someone familiar with the codebase/system.
 
 - `1` - day or two of effort
 - `2` - week of effort
 - `3` - week and a half of effort
 
-Everything above weight `3` should be a spike that will result in one or more issues with estimated weight.
+Everything with a base weight above `3` should be a spike that will result in one or more issues with estimated weight.
+
+#### Subjective weight
+
+You can add extra weight `1` or `2` to the base weight if you are new to the team/codebase/system.
+
+Examples:
+
+- Bob is new to the team, they are picking up an issue with weight `1` (i.e. simple). They know the technologies, but not our system. They'll add `2` subjective weight making the final weight `3`.
+- Alice is familiar with the system but is picking up an issue (weight `2`) that touches authentication. She's unfamiliar with our authentication patterns and adds `1` subjective weight to have enough time to review the existing approaches. That makes the final weight `3`.
 
 ### Development Workflow
 
@@ -134,13 +148,16 @@ This section contains links to make it easier to find the same information for e
 This is a first iteration, this content should probably live somewhere else eventually.
 
 #### Languages supported by Code Suggestions
+
 Each extension defines an array of supported languages.
+
 - VS Code: [AI_ASSISTED_CODE_SUGGESTIONS_LANGUAGES](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/f28a17478a41f554e1c620648237705007128d57/src/common/code_suggestions/constants.ts#L9-37)
 - Visual Studio: [LanguageManager](https://gitlab.com/gitlab-org/editor-extensions/gitlab-visual-studio-extension/-/blob/a973ef56bac290ed0c2c5c69d20c5606a7198125/GitLab.Extension/CodeSuggestions/LanguageManager.cs#L17-42)
 - JetBrains: [SUPPORTED_EXTENSIONS](https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin/-/blob/ec5b239e6dea3714139031a4d6a9a547142afffc/src/main/kotlin/com/gitlab/plugin/util/GitLabUtil.kt#L20-43)
 - Neovim: [auto_filetypes](https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim/-/blob/5b781dffbd047df7050064ad3255154ecef2524c/lua/gitlab/config/defaults.lua#L7-28)
 
 #### Language Server versions in use
+
 - Visual Studio: the server binary is versioned directly: [GitLab.Extension/Resources/gitlab-lsp-win-x64.exe](https://gitlab.com/gitlab-org/editor-extensions/gitlab-visual-studio-extension/-/blob/a973ef56bac290ed0c2c5c69d20c5606a7198125/GitLab.Extension/Resources/gitlab-lsp-win-x64.exe)
 - VS Code: the server is pulled as a package: [package.json](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/package.json)
 - JetBrains: N/A - see [issue](https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin/-/issues/30)

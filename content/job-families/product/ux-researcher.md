@@ -54,15 +54,13 @@ The UX Researcher (Intermediate) is a [grade 6](/handbook/total-rewards/compensa
 
 - Advocate for and socialize actionable insights independently and in a clear and compelling way.
 
-- Conduct impactful research that informs decisions within stage groups.
-
 - With the help of your manager, create high-quality deliverables that tell compelling stories integrated with research findings. This is typically accomplished through reports, presentations, video recordings, etc.
 
 - Know your stage groups: understand the technology, experiences, and features of your assigned stage groups. Maintain a thorough knowledge of the direction and vision for your assigned stage groups.
 
 - Know GitLab users in your stage groups: develop a deep empathic understanding of your users, learn about their needs, and identify gaps.
 
-- Demonstrate knowledge of how your stakeholders operate, be aware of their goals, processes and challenges, and apply that knowledge when making decisions on how to approach research planning and prioritisation.
+- Show an understanding of your stakeholders by familiarising yourself with their objectives, processes, and obstacles. Apply this knowledge in stakeholder engagement and collaboration, e.g. on planning and prioritisation.
 
 - With the help of your manager and product leadership, effectively prioritize your research efforts across stage groups. Align with Product teams while considering impact, the goals of your stage groups, the broader product direction, and company objectives.
 
@@ -71,8 +69,6 @@ The UX Researcher (Intermediate) is a [grade 6](/handbook/total-rewards/compensa
 - Respond to solution validation user research inquiries that are escalated by Product Design.
 
 - Guide Product Managers and Product Designers to conduct research with a high degree of rigor. Help them follow defined research processes (for example, handbook procedures, opening and closing issues for research studies, documenting actionable insights, etc).
-
-- Demonstrate, explain, and teach others how to apply a range of research methods, understanding the balance and trade offs between scrappy research and rigor.
 
 - Learn from and be mentored by other UX Researchers.
 
@@ -96,8 +92,6 @@ The Intermediate responsibilities, plus the responsibilities below:
 
 - Drive a company-wide research-based program: design or improve upon a methodology (if needed), collect and report out findings.
 
-- Conduct impactful research that informs decisions across stage groups **and adjacent stage groups**.
-
 - Create high-quality deliverables that tell compelling stories integrated with research findings. This is typically accomplished through reports, presentations, video recordings, etc.
 
 - Know your stage groups: understand the technology, experiences, and features of your assigned **and adjacent stage groups**. Maintain a thorough knowledge of the direction and vision for your assigned stages **and stage groups**.
@@ -110,7 +104,7 @@ The Intermediate responsibilities, plus the responsibilities below:
 
 - **Consistently** demonstrate research impact across **your assigned stage group(s)** through your research efforts
 
-- Lead and mentor other Researchers on methods, communication, and successful collaboration/working models.
+- Lead and mentor other Researchers on methods, communication, successful collaboration/working models, and support the mentee's personal and professional growth by collaborating with them on projects, sharing expertise, providing guidance, while offering constructive feedback.
 
 ### Staff
 
@@ -136,9 +130,7 @@ The Senior responsibilities, plus the responsibilities below:
 
 - Practice flexibility by leading and partnering with a variety of teams and disciplines with the goal of delivering research insights.
 
-- **Consistently** demonstrate research impact across **your assigned section(s)** through your research efforts
-
-- Conduct impactful research that informs decisions **across our product lifecycle**.
+- **Consistently** demonstrate research impact across **your assigned section(s)** through your research efforts.
 
 - **Set the quality standard for the UX Research team** through expert delivery of high-quality artifacts that tell compelling stories integrated with research findings.
 
@@ -149,8 +141,6 @@ The Senior responsibilities, plus the responsibilities below:
 - Actively contribute to the UX Research team culture by iterating on existing processes and documentation. Contribute to peer reviews **and create new educational documentation/resources**.
 
 - Actively seek out difficult impediments to our efficiency as a team (process, tooling, etc). Propose and implement solutions that will enable the entire team to work more efficiently and enhance the quality of research practices and deliverables across the team.
-
-- Elevate the UX research skills of Product Designers, Product Managers, and other UX Researchers by providing clear, concise guidance on research methodology.
 
 - Mentor other Researchers by inviting them to participate in your research projects.
 
@@ -180,7 +170,19 @@ The Staff responsibilities, plus the responsibilities below:
 
 ## Hiring Process
 
-Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
+Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. Our UX Research interview process is very thorough, designed so you learn as much about us as we learn about you. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
+
+<details>
+<Summary> <b>Interview summary</b> </summary>
+1. Recruiter Screening Call<br>
+2. Scenario Interview<br>
+3. Case study<br>
+4. UX Research Manager<br>
+5. UX Researcher Peer<br>
+6. Product Designer / Product Design Manager<br>
+7. Product Manager<br>
+</details>
+<br>
 
 - Selected candidates will be invited to schedule a 30-min [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters or the Hiring Manager. In this call we will discuss your experience, understand what you are looking for in a UX Research role, discuss your compensation expectations, reasons why you want to join GitLab and answer any questions you have.
 
@@ -219,6 +221,7 @@ Once again, thank you for showing your interest, and all the best with your job 
 > ### Presentation Topics
 >
 > [This short discussion on our GitLab Unfiltered YouTube playlist](https://youtu.be/VU2BKjGoer4) provides an overview of the topics we'd love to see covered.
+>
 > 1. A short introduction: who you are, where you're based, your background, and why you're a UX Researcher.
 > 1. An overview of one *or* two research studies. We want to understand:
 >    - What the research questions are *or* the problems the research aims to address;
@@ -248,11 +251,11 @@ Once again, thank you for showing your interest, and all the best with your job 
 
 - We will schedule the next stages if the recording indicates your past experiences will lead to your success in a role at GitLab.
 
-- Candidates will be invited to a 50-minute interview with a UX Researcher. Overall, this interview aims to understand how you choose your research methods, how you present results, how you work with a wider team of counterparts, and how you determine whether your research resulted in a meaningful business impact. This interview will also look to understand the softer skills you have as a researcher and how you apply those in the real world.
+- Candidates will be invited to 2 seperate 50-minute interviews:
+    - One with a UX Researcher. Overall, this interview aims to understand how you choose your research methods, how you present results, how you work with a wider team of counterparts, and how you determine whether your research resulted in a meaningful business impact. This interview will also look to understand the softer skills you have as a researcher and how you apply those in the real world.
+    - The other with the UX Research Manager where we'll focus on your experience researching Developers and working with global team members in an Agile setting. You will also discuss your career, your experiences as a UX Researcher, and the role of UX Research at GitLab.
 
 - Next up are a couple of 50-minute interviews, one with either a Product Design Manager or Product Designer, and the other with a Product Manager. In these interviews, we'll focus on how you collaborate with cross-functional stakeholders and mentor non-researchers in successfully conducting research. These interviews are opportunities for you to understand the the stage you will be a part of in more detail, hear a different perspective on the stable counterpart relationship, and ask any questions you have.
-
-- Candidates will the be invited to a 50-minute interview with a UX Research Manager where we'll focus on your experience researching Developers and working with global team members in an Agile setting. You will also discuss your career, your experiences as a UX Researcher, and the role of UX Research at GitLab.
 
 - Successful candidates will subsequently be made an offer via Zoom.
 

@@ -81,7 +81,7 @@ Make it a coffee chat with an agenda, following [GitLab communication best pract
     1. Document all URLs shared in the chat, share async "as you see them"
     1. Write down thoughts and ideas
 
-```
+```text
 1. Good vibes
 1. Asks
 1. Discussion
@@ -106,8 +106,7 @@ Example in FY24: [Aakansha Priya](https://gitlab.com/everyonecancontribute/devre
 Organisation:
 
 - Maintain a [templates project for the DevRel group](https://gitlab.com/everyonecancontribute/devrel/gitlab-templates), which [provides issue/MR templates in a single source of truth](https://docs.gitlab.com/ee/user/project/description_templates.html#set-group-level-description-templates).
-    - Edit new projects in `Settings > Default description template for issues` with the following text: `<!-- Please choose a description template from the dropdown above to continue. Accept to override this text. --> `
-
+    - Edit new projects in `Settings > Default description template for issues` with the following text: `<!-- Please choose a description template from the dropdown above to continue. Accept to override this text. -->`
 
 #### Talks and Call for Papers
 
@@ -144,8 +143,6 @@ Use these templates:
 - [CFP template Google doc](https://docs.google.com/document/d/1vF9i4ZaR1_u52r_vUcVls0uhQIi7gzG9WkQ6l369FU4/edit#).
 - [Biography template Google doc](https://docs.google.com/document/d/1e_Sk0OGpKjWbs8C3xrIk33cShvTgoqRO3r1aQApiB5M/edit)
 
-
-
 ## Coaching
 
 Mentoring usually happens in 1:1 conversations, building trust and relationships, with optional public sharing. Coaching can happen in private and public, and can involve different types of short or long term help.
@@ -172,7 +169,3 @@ Michael had a [coffee chat with Edidiong Asikpo](https://twitter.com/Didicodes/s
 In 2022, Edidiong shared her promotion to Senior Developer Advocate, [responding to Michael's wishes](https://twitter.com/Didicodes/status/1547337357434753027):
 
 > The conversation we had when I started my journey in the Cloud Native space gave me the context I needed to learn and improve my skills. Thank you.
-
-
-
-

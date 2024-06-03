@@ -17,11 +17,7 @@ Event call for paper submission forms differ: Some require 1000 character abstra
 
 ### Our events list
 
-Every year, developer advocacy prioritizes some key events in our ecosystem for which we run the conference proposal (CFP) process.
-
-- [FY24 - Developer Advocacy Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3538)
-
-The event engagement with lightning talks, CFP submissions, etc. is organized in issues which are linked and summarized in the strategy epic. You can also find a calendar view of our events below:
+Every year, developer advocacy prioritizes key events in our ecosystem for which we run the conference proposal (CFP) process. The event engagement with lightning talks, CFP submissions, etc. is organized in issues which are linked and summarized in a [yearly strategy epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics?state=opened&page=2&sort=start_date_desc&label_name[]=DevRel-Events&label_name[]=Events). You can also find a calendar view of our events below:
 
 <br>
 

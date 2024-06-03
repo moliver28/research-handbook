@@ -1,5 +1,4 @@
 ---
-
 title: "Brand and Product Marketing"
 description: "GitLab Brand and Product Marketing Handbook"
 twitter_image: '/images/tweets/handbook-marketing.png'
@@ -7,13 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-# <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand and Product Marketing Handbook
+## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand and Product Marketing Handbook
 
 {: .no_toc}
 

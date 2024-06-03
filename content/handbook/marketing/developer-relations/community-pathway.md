@@ -44,7 +44,6 @@ The GitLab Community is also able to:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/JGiwxKnxeRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-
 ### How community fits into GitLab's strategy
 
 GitLab is the DevOps Platform, made possible by contributions from the community. The GitLab community is composed of our paid and free users, contributors, team members and anyone in the general community who has interacted with GitLab in whatever form. Learn more about our strategy in the links below.
@@ -66,6 +65,7 @@ GitLab is the DevOps Platform, made possible by contributions from the community
 Ensuring everyone can contribute requires a concious effort to ensure the community is enabled and supported with the right tools they need, thats where the Community team at GitLab plays a crucial role with programs that target different parts of the community. From the Open source community to the academia, startups and individual contributors, the team supports them in various ways. You can learn more about the individual programs in the section below.
 
 #### Community Programs
+
 * Free community programs:
   * [OSS](/handbook/marketing/developer-relations/community-programs/opensource-program/)
   * [Developer Evangslism](/handbook/marketing/developer-relations/developer-advocacy/)
@@ -81,7 +81,6 @@ Ensuring everyone can contribute requires a concious effort to ensure the commun
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TJhdmOma4ZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-
 ### Open source community best practices
 
 Building an inclusive and transparent community is a top-most priority for the Community Team and we live by our GitLab values, which includes Diversity/Inclusion & Transparency. Below, we maintain a living list of community best practices for the GitLab Community and from other communities.
@@ -94,7 +93,6 @@ Building an inclusive and transparent community is a top-most priority for the C
 * [Measuring your Open source Program success](https://www.linuxfoundation.org/tools/tools-managing-open-source-programs/)
 * [The Value of Open Source](https://www.redhat.com/en/blog/value-open-source)
 * [Mozilla Community Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
-
 
 ### Join us
 

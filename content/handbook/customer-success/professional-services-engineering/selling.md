@@ -1,21 +1,13 @@
 ---
-
 title: "Selling GitLab Professional Services"
 ---
-# Selling GitLab Professional Services
-
-
-
-
-
-
-
 
 You can also [watch the sales enablement session](/handbook/customer-success/professional-services-engineering/sales-enablement) about how to sell services.
 
 ## A Note on Partner Professional Services
 
 Please remember to follow the [Rules of Engagement for Selling Professional Services](/handbook/sales/selling-professional-services) with the following highlights:
+
 - Always start by finding out if your customer/prospect has a qualified and preferred professional services partner and start by engaging with that partner to explore a solution for your customer/prospect
 - **SMB** clients are welcome to purchase [SKU offerings](/services/catalog/). Please route all custom **SMB** needs through professional services Channel Partners as outlined in the [ROE](/handbook/sales/selling-professional-services). Please see additional detail in the FAQ below.
 - Remember to update the SFDC Professional Services Opportunity to **"closed lost"** if for any reason after you have created a GitLab Professional Services Opportunity in SFDC the work is transitioned to being sold and delivered by a partner.  Then make sure that any Services Attach Registration that the partner registers for that work is attached to the relevant Licensing Opportunity in SFDC.  Please work with the Channel Account Manager for the partner (found in SFDC account for the partner) if you have any questions about this process.
@@ -23,6 +15,7 @@ Please remember to follow the [Rules of Engagement for Selling Professional Serv
 ## Workflow for GitLab selling Professional Services
 
 There are 4 main steps for selling GitLab Professional Services:
+
 1. Identify the right services needed.
 1. Create the GitLab Professional Services opportunity in SFDC.
 1. Generate the SOW / Service Description Docs
@@ -49,13 +42,14 @@ The SAE/ISR [creates a Professional Services Only opportunity](/handbook/sales/f
 #### Standard Services Only
 
 If the customer only needs standard services from the service catalog, the SAE/ISR can generate the quote from within the newly created SFDC PS opportunity by:
-1. click `New Quote`.
-1. fill in the required contact information and date fields.
-1. click `next`.
-1. Click the drop down box next to the New Quote Flow and select `Add Add on Products`.
-1. In the Professional Services and Training Row, click the drop down that says `Select Plan` to see the current SKU offerings that can be added to the opportunity.
 
-After following the above process steps, click `Generate PDF` to obtain an Order Form to share with the customer for signature.  The SAE/ISR should meet with the customer to review the service deliverables, duration, and pricing and should confirm no customizations are needed. Again, they can pull in the SA for assistance if needed.
+1. Click `New Quote`.
+1. Choose the proper billing account. In the _Quote Type_ section Select `New Subscription`. Click `Next`.
+1. On the _Create New Subscription Quote_ screen, update required fields (e.g. _Start Date_) as needed. Click `Next`.
+1. On the _New Quote Flow_ screen, click the drop down box next to the _New Quote Flow_ and select `Add Add on Products`.
+1. In the Professional Services and Training Row, click the drop down that says `Select Plan` to see the current SKU offerings that can be added to the opportunity. Click `Next`.
+
+After following the above process steps, click `Generate PDF` to obtain an Order Form to share with the customer for signature.  The AE should meet with the customer to review the service deliverables, duration, and pricing and should confirm no customizations are needed. Again, they can pull in the EM for assistance if needed.
 
 #### Custom-Scoped Services
 
@@ -92,7 +86,6 @@ Remember to update the SFDC Professional Services Opportunity to **"closed lost"
 1. Account team: Deliver SoW to the customer, add to the Salesforce (SFDC) opportunity
 1. Send for signature (just like software terms)
 1. When Closed Won, the PS team will handle staffing. Average lead times are updated weekly -  please check with the EM to set expectations with the client
-
 
 <!-- ### Detailed Process
 

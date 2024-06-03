@@ -551,5 +551,3 @@ Category is empty
 | [@spirosoik](https://gitlab.com/spirosoik) | 3 | 300 |
 | [@benyanke](https://gitlab.com/benyanke) | 4 | 200 |
 | [@zined](https://gitlab.com/zined) | 5 | 200 |
-
-

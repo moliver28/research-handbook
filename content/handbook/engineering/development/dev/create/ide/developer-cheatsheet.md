@@ -78,7 +78,7 @@ See more detailed instructions for this process here: <https://gitlab.com/gitlab
 
 #### RubyMine Debugging
 
-**_MOVED: Ths section on debugging the GDK with the RubyMine debugger has been moved to https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/individual-ides/rubymine/#debugging_**
+**_MOVED: Ths section on debugging the GDK with the RubyMine debugger has been moved to https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/individual-ides/rubymine/#debugging-rails-web**
 
 ## Git Tips
 

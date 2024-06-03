@@ -86,31 +86,31 @@ description: >-
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .diagramwrapper .box {
         width: calc(100% - 240px);
         padding: 10px;
         display: flex;
         background-color: #fff;
     }
-    
+
     .diagramwrapper .box svg {
         width:100%;
     }
-    
+
     .diagramwrapper .stages {
         display: flex;
         width: 210px;
         margin-left: 30px;
         flex-wrap: wrap;
     }
-    
+
     .diagramwrapper .stage {
         display: flex;
         width: 210px;
         margin: auto 0;
     }
-    
+
     .diagramwrapper .circle {
         width: 80px;
         height: 80px;
@@ -121,13 +121,13 @@ description: >-
         background-color: #fff;
         padding: 0;
     }
-    
+
     .diagramwrapper .circle svg {
         fill: #524684;
         width: 50px;
         margin: 15px;
     }
-    
+
     .diagramwrapper .stagename {
         display: inline-block;
         font-family: Source Sans Pro,sans-serif;
@@ -152,6 +152,7 @@ The following teams comprise the sub-department:
   - Composition Analysis group - [handbook](/handbook/engineering/development/sec/secure/composition-analysis/)
   - Dynamic Analysis group - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/)
   - Static Analysis group - [handbook](/handbook/engineering/development/sec/secure/static-analysis/)
+  - Secret Detection group - [handbook](/handbook/engineering/development/sec/secure/secret-detection/)
   - Vulnerability Research group - [handbook](/handbook/engineering/development/sec/secure/vulnerability-research/)
   - API Security - [handbook](/handbook/engineering/development/sec/secure/api-security)
 
@@ -187,15 +188,166 @@ In general, we want to keep as few projects in `security-products` as necessary.
 
 There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.
 
-### Other settings
+### License approval policy
 
-Due to https://gitlab.com/gitlab-org/gitlab/-/issues/220535, we may choose to leave the Issue
-tracker enabled in the new project. In these cases, please consider these to avoid abandoned
-issues:
+As of 2024-05-17, Analyzer projects (`gitlab-org/security-products/analyzers`) are subject to a [security policy](https://gitlab.com/gitlab-org/security-products/analyzers/analyzers-security-policy-project/-/blob/main/.gitlab/security-policies/policy.yml) that requires approval for merge requests that introduce new licenses. The policy enforces our [company-wide policy](/handbook/legal/product/#using-open-source-software) for open source software.
 
-1. Make the tracker private.
-1. Add an issue template with instructions.
-1. Ensure there's a triage process in place.
+- Approvers: members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group.
+- Pre-approved licenses: as per the [company-wide policy](/handbook/legal/product/#using-open-source-software).
+- Excluded projects: the list includes test projects, other security policy projects, and any projects that can't have license finding enabled. Members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group can add exceptions as required.
+
+This is a dogfooding experiment that we intend to eventually apply to all Sec projects.
+
+### Recommended settings
+
+When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
+
+1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners) file to the project, for example:
+
+   ```shell
+   [Maintainers]
+   * @gitlab-org/maintainers/container-scanning
+
+   ^[Reviewers]
+   * @gitlab-org/secure/static-analysis
+   ```
+
+   We recommend creating a [dedicated group of maintainers](https://gitlab.com/groups/gitlab-org/maintainers) for use in the `CODEOWNERS` file.
+
+1. Disable the project [issue tracker](https://docs.gitlab.com/ee/user/project/issues/).
+
+   - `Settings -> General -> Visibility, project features, permissions -> Issues`
+      - `Disabled`
+
+   Issues should be created in the [groups/gitlab-org issue tracker](https://gitlab.com/groups/gitlab-org/-/issues) instead. See step `3.` below to configure this.
+
+   Using a single, centralized issue tracker over per-project issue trackers has the following advantages:
+
+      - It improves the visibility of issues and aligns with our value of [transparency](/handbook/values/#transparency).
+
+        For example, it's very easy for community members to [filter the issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date_desc&state=opened&label_name%5B%5D=quick%20win&first_page_size=100) in the `groups/gitlab-org` tracker to discover [GitLab issues seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions).
+
+      - It leverages existing tools and infrastructure, such as having `triage-ops` and other bots executed against issues, without any additional configuration.
+
+      - It provides a more consistent experience, since all labels and issue templates will be the same.
+
+      - It's easier to write automated scripts, such as using the [Security triage automation](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation/) tool to create/modify vulnerabilities.
+
+      - There are some issues that apply to multiple projects. If each project has their own issue tracker, we'd need to figure out which issue tracker should "own" an issue that applies to multiple projects.
+
+   Having said that, there are currently some limitations related to using a single, centralized issue tracker, for example [resolving threads in new issues doesn't work](https://gitlab.com/gitlab-org/gitlab/-/issues/220535).
+
+   Until this issue has been resolved, we may choose to leave the Issue tracker enabled in the new project.
+
+   In these cases, please consider these to avoid abandoned issues:
+
+   1. Make the tracker private.
+   1. Add an issue template with instructions.
+   1. Ensure there's a triage process in place.
+
+1. Configure a [custom issue tracker](https://docs.gitlab.com/ee/user/project/integrations/custom_issue_tracker.html)
+
+   - `Settings -> Integrations -> Custom issue tracker -> Configure`
+      - `Enable integration`
+         - `Active`
+      - `Project URL`
+         - `https://gitlab.com/gitlab-org/gitlab/issues`
+      - `Issue URL`
+         - `https://gitlab.com/gitlab-org/gitlab/issues/:id`
+      - `New issue URL`
+         - `https://gitlab.com/gitlab-org/gitlab/issues/new`
+
+1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/):
+
+   - `Settings -> General -> Visibility, project features, permissions -> Additional options -> Users can request access`
+      - `Allowed to merge`
+         - `Maintainers`
+      - `Allowed to push and merge`
+         - `No one`
+      - `Allowed to force push`
+         - `Disabled`
+      - `Code owner approval`
+         - `Enabled`
+   - `Settings -> Repository -> Protected branches`
+      - `Allowed to merge`
+         - `Maintainers`
+      - `Allowed to push and merge`
+         - `No one`
+      - `Allowed to force push`
+         - `Disabled`
+      - `Code owner approval`
+         - `Enabled`
+   - `Settings -> Merge Requests`
+      - `Squash commits when merging`
+         - `Require`
+      - `Approval settings`
+         - `Prevent approval by author`
+         - `Prevent editing approval rules in merge requests`
+         - `Remove approvals by Code Owners if their files changed`
+      - `Merge request approvals -> Approval rules`
+         - `Approvers`
+            - `All eligible users`
+         - `Target branch`
+            - `All branches`
+         - `Approvals required`
+            - `1`
+      - `Merge checks`
+         - `All threads must be resolved`
+         - `Pipelines must succeed`
+      - `Merge commit message template`
+
+         ```markdown
+         Merge branch '%{source_branch}' into '%{target_branch}'
+
+         %{title}
+
+         %{issues}
+
+         See merge request %{url}
+
+         Merged-by: %{merged_by}
+         %{approved_by}
+         %{reviewed_by}
+         %{co_authored_by}
+         ```
+
+      - `Default description template for merge requests`
+
+         ```markdown
+         ## What does this MR do?
+
+         <!--
+         Describe in detail what your merge request does, why it does that, etc.
+
+         Please also keep this description up-to-date with any discussion that takes
+         place so that reviewers can understand your intent. This is especially
+         important if they didn't participate in the discussion.
+
+         Make sure to remove this comment when you are done.
+         -->
+
+         ## What are the relevant issue numbers?
+
+         ## Does this MR meet the acceptance criteria?
+
+         - [ ] Changelog entry added
+         - [ ] [Documentation created/updated for GitLab EE](https://docs.gitlab.com/ee/development/documentation/feature-change-workflow.html), if necessary
+         - [ ] Documentation created/updated for this project, if necessary
+         - [ ] Documentation reviewed by technical writer *or* follow-up review issue [created](https://gitlab.com/gitlab-org/gitlab-ee/issues/new?issuable_template=Doc%20Review)
+         - [ ] [Tests added for this feature/bug](https://docs.gitlab.com/ee/development/testing_guide/index.html)
+         - [ ] Job definition updated, if necessary
+           - [ ] [Auto-DevOps template](https://gitlab.com/gitlab-org/gitlab-foss/tree/master/lib/gitlab/ci/templates)
+           - [ ] [Job definition example](https://docs.gitlab.com/ee/ci/examples/sast.html)
+           - [ ] [CI Templates](https://gitlab.com/gitlab-org/security-products/ci-templates/tree/master/includes)
+         - [ ] Ensure the report version [matches the equivalent schema version](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/CHANGELOG.md)
+         - [ ] Conforms to the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html)
+         - [ ] Conforms to the [Go guidelines](https://docs.gitlab.com/ee/development/go_guide/index.html)
+         - [ ] Security reports checked/validated by reviewer
+
+         /label ~"devops::secure" ~"Category:" ~"group::" ~"backend"
+         ```
+
+When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements) for more details.
 
 ## Performance Indicators
 
@@ -233,6 +385,7 @@ We encourage utilizing our available [Google Groups](https://groups.google.com/m
 ### Google Groups
 
 Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues/246) and are structured as:
+
   - sec-section
   - sec-govern
   - sec-secure
@@ -240,11 +393,11 @@ Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues
   - sec-govern-security-policies
   - sec-govern-compliance
   - sec-secure-static-analysis
+  - sec-secure-secret-detection
   - sec-secure-dynamic-analysis
   - sec-secure-composition-analysis
 
 The members of each google group consists of stable counterparts and the correct `eng-dev-[sub-department]-[team]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated.
-
 
 ## Staying Informed and Informing Team Members
 
@@ -289,31 +442,31 @@ In order to help the Sec section come to resolution on defining approaches to se
 we have formed an Architectural Council. This group comprises tech leads (and SMEs to provide context)
 in order to keep the team small and nimble. The group is a non-authoritative, supportive group whose members provide representative insights from their respective teams.
 
-* Tech leads will serve as the representative for their team
-* An issue should be created to capture the discussion that covers:
-  * What is the issue at hand and what is the preferred action
-  * What are the potential solutions and their associated pros/cons
-  * What approach was decided and why
-  * 2-business day [SLO](/handbook/engineering/workflow/code-review/#review-response-slo)
-    * We need to know when to start the clock on these as some issues can exist for months before being brought to the council. In this case, we should define within the issue when the clock does start.
-* There will be a DRI assigned to the issue that is being discussed
-* The DRI will be decided by either who has to address the issue first or where the code change is occurring the most (in that order)
-* The issue will be discussed and the DRI will be the ultimate decision-maker for the approach taken
-* Issues will be tackled on a First-In-and-First-Out (FIFO) order. Attempts to minimize SLA overlap should be made to prevent scheduling conflicts between member’s time
+- Tech leads will serve as the representative for their team
+- An issue should be created to capture the discussion that covers:
+  - What is the issue at hand and what is the preferred action
+  - What are the potential solutions and their associated pros/cons
+  - What approach was decided and why
+  - 2-business day [SLO](/handbook/engineering/workflow/code-review/#review-response-slo)
+    - We need to know when to start the clock on these as some issues can exist for months before being brought to the council. In this case, we should define within the issue when the clock does start.
+- There will be a DRI assigned to the issue that is being discussed
+- The DRI will be decided by either who has to address the issue first or where the code change is occurring the most (in that order)
+- The issue will be discussed and the DRI will be the ultimate decision-maker for the approach taken
+- Issues will be tackled on a First-In-and-First-Out (FIFO) order. Attempts to minimize SLA overlap should be made to prevent scheduling conflicts between member’s time
 
 #### Considerations when determining the approach
 
-* Simplicity and elegance
-* Portability and/or modularity
-* Supportability
-* Maintainability
-* Scalability
-* Extensibility
-* Reliability
-* Security
-* Cost (will it impact .com for large customers)
-* Performance (speed and accuracy)
-* Consistency (Fit with existing code base)
+- Simplicity and elegance
+- Portability and/or modularity
+- Supportability
+- Maintainability
+- Scalability
+- Extensibility
+- Reliability
+- Security
+- Cost (will it impact .com for large customers)
+- Performance (speed and accuracy)
+- Consistency (Fit with existing code base)
 
 #### Capturing Resolved/Discovered Standards
 
@@ -391,11 +544,9 @@ In addition to our group retrospectives, we facilitate an async Sec Section leve
 1. The week the milestone ends - Groups hold their retrospectives. Team members bubble-up identified topics and follow-up items (outcomes) to the [section retrospective document](https://docs.google.com/document/d/1g_FIMgr9r_Yf56xISxoI8B-1G-kbP3PQSeo7W-kKj24/edit#).
 1. The week of the release -  Section wide retrospective async review shared in the `#sec-section` Slack channel.
 
-
 #### DRI Responsibilities
 
 The [DRI](/handbook/people-group/directly-responsible-individuals/) for Section-wide retrospectives will be the Senior Engineering Manager. The SEM will find a volunteer if it is needed on specific milestones. The following tasks are executed each milestone:
-
 
 1. Prior to the async section retrospective, review bubble-up topics and identify 2-3 themes to support async discussion topics.
 1. Ask everyone through Slack in `#sec-section` to review the [section retrospective document](https://docs.google.com/document/d/1g_FIMgr9r_Yf56xISxoI8B-1G-kbP3PQSeo7W-kKj24/edit#) and add comments.

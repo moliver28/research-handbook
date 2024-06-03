@@ -47,9 +47,9 @@ If you receive a question from a manager about why a template was not linked in 
 
 Note: If a People Connect Team member needs to create the onboarding issue for interns, they can use the same Slack command.
 
-This issue is added to the [team member's epic]({{< ref "/handbook/people-group/engineering/employment-issues#epics" >}}).
+This issue is added to the [team member's epic](/handbook/people-group/engineering/employment-issues#epics).
 
-If you want to read more about how employment issues are set up, please read [this section]({{< ref "/handbook/people-group/engineering/employment-issues" >}}).
+If you want to read more about how employment issues are set up, please read [this section](/handbook/people-group/engineering/employment-issues).
 
 ## Invited to GitLab.com
 

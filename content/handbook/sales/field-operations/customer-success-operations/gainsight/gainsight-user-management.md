@@ -4,15 +4,6 @@ title: "Gainsight User Administration"
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
 The specific aspects of user management in Gainsight are detailed here.
 
 ## GitLab Access Requests and Offboarding Issues
@@ -25,7 +16,6 @@ For a user to gain access to Gainsight, an [Access Request](/handbook/business-t
 There are some situations where an AR is not automatically created. If this happens for a user that should receive a Gainsight license, direct the user/user’s manager to create an AR. Make sure to add the **CSOps::Action Needed** label to the AR once it is created so it will not get lost.
 
 If a user that is not already approved to receive a Gainsight license requests access to Gainsight, work with CS Ops leadership to determine if the user should receive a Gainsight license or not.
-
 
 ## Salesforce Account Setup & License Provisioning
 
@@ -164,30 +154,34 @@ We currently have three main C360 layouts:
 When a user leaves GitLab or no longer requires access to Gainsight, you can remove deactivate their account and remove their license. For GitLab employees who leave GitLab, an offboarding issue should be created as detailed in [GitLab Access Requests and Offboarding Issues](/#gitLab-access-requests-and-offboarding-issues).
 
 To deactive a user's Gainsight account:
+
 1. Navigate to User Management and search for the user (recommended to search by email)
 2. Click the ... menu and choose **Make Inactive**
 3. You will now see a red "INACTIVE" box next to their name in the User list. This user will now not be able to log in or view Gainsight in any way.
 
 You may also need to remove the user's Gainsight license in Salesforce:
+
 1. Click Setup → Installed Packages → Gainsight CSM
 2. Click **Manage Licenses**
 3. Search for the user on the list and click the *Remove* next to their name.
 
-# User Access to Gainsight
+## User Access to Gainsight
 
 Users can access Gainsight directly from Okta or through Salesforce.
 
 To access Gainsight through Okta:
+
 1. Go to https://gitlab.okta.com/app/UserHome#
 2. Click on the Gainsight tile.
    - If you don’t see the Gainsight tile, first try searching for it with the search bar at the top.
 If you are unable to locate the Gainsight tile, ask for help on the #gainsight-users Slack channel
 
 To access Gainsight through Salesforce:
+
 1. Log in to Salesforce, and click on the "Gainsight NXT" tab at the top of the screen.
    - If you don't see "Gainsight NXT" as a choice, you can add it by clicking the "+" sign, choosing "Customize My Tabs" and choosing Gainsight NXT from the applications list.
 To hide the Salesforce header to maximize Gainsight screen space, click the "double arrow" icon in the top right corner of the Gainsight header, next to your profile icon.
 
-# Troubleshooting
+## Troubleshooting
 
 Coming soon!

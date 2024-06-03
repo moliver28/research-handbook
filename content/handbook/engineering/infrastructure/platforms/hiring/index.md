@@ -24,6 +24,6 @@ Every eligible SaaS Platforms engineering team member should be qualified to con
 
 #### Hiring Manager Resources
 
-- [Interviewer Panel](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/Platforms) is used to identify interviewers for new roles
-- [Infrastructure Platforms Shadowing Page](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/blob/master/Engineering/Infrastructure/Shadowing.md) is referenced when a new kick off issue is created to ensure shadowers are included in the interview panel
-- [Hiring Documentation & Resources](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/Platforms) is the SSOT for Platforms hiring resources including interview templates
+* [Interviewer Panel](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/Platforms) is used to identify interviewers for new roles
+* [Infrastructure Platforms Shadowing Page](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/blob/master/Engineering/Infrastructure/Shadowing.md) is referenced when a new kick off issue is created to ensure shadowers are included in the interview panel
+* [Hiring Documentation & Resources](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/Platforms) is the SSOT for Platforms hiring resources including interview templates

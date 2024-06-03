@@ -28,6 +28,23 @@ AMAs do not need to have a host, but there should be a person or people availabl
 
 Occasionally an AMA might be held for a smaller audience. It is encouraged for all AMAs to be open to the full company whenever possible. Occasionally an AMA may not make sense to be sent to the whole company. In those instances, it is still encouraged to add the calendar invitation to the GitLab Team Meetings Calendar as sometimes team members may want to join a call that may not be directly directly applicable to them. Whenever creating an AMA for a smaller group, be sure to invite the team directly in the calendar invite.
 
+### AMA Kick off (best practices when starting an AMA)
+
+This guidance is primarily for the person or people who will be answering questions at a given AMA.
+
+Adding context to the AMA agenda and using the first 1-2 minutes of an AMA to ensure the audience understands how the time will be used has shown to lead to more engaging AMAs.
+
+Ensure the following items are added to the AMA agenda and follow these steps to set your AMA up for success:
+
+- The person or people responsible for answering questions should be listed in the AMA agenda and start the AMA by introducing themselves and their roles at GitLab.
+- If a brief explanation about *why* this AMA is being hosted may help the audience understand the purpose for the session, add a first agenda item that adds context and verbalize that point after introducing yourself.
+    - If multiple people will be responding to questions, identify one person to speak about *why* this AMA is being hosted by adding their name to the agenda item.
+- Information about how and where questions can be asked by the audience should be captured in the AMA agenda.
+    - For most AMAs, questions will be asked in an agenda doc, if this is the case please share that questions can also be asked in the Zoom chat if the agenda doc cannot be accessed.
+    - If sli.do or another platform is being used to ask questions, this should be noted.
+- If there is additional context the audience should be aware of to fully participate in the AMA or any documents that provide additional information that the audience should know about, it's a good practice to highlight these things up front by adding them as agenda items.
+- After that, onto the first question!
+
 ### Agenda document recommendations
 
 A lot of team members attend AMAs which can lead to the agenda document becoming overloaded. Since this can mean that notes can't be taken for the discussion, it's recommended that team members add their questions to the document and then close the document unless they're actively taking notes.
@@ -64,6 +81,7 @@ The intention of this is to make sure we're enabling asynchronous communication 
 It is near impossible to be an effective facilitator while also being a participant.  So if you have been identified as a facilitator but would rather participate in the conversation, we encourage you to ask one of your designated facilitator team members (Facilitator Group link to follow) to take your place.
 
 Before facilitating a session, all facilitators will complete the following steps:
+
 1. Complete the [LinkedIn Learning Facilitator Training](https://www.linkedin.com/learning/meeting-facilitation/)
 1. Complete the [LinkedIn Learning Empathy Training](https://www.linkedin.com/learning/communicating-with-empathy/empathy-as-a-path-to-productive-conversations?u=2255073)
 1. Watch the purpose of Reverse AMA's Video (too come)
@@ -72,6 +90,7 @@ Before facilitating a session, all facilitators will complete the following step
 
 **Current Facilitators:**
 Template: "Name" - "Role", **Self Identified (Optional):**
+
 - Liam McNally - Diversity, Inclusion & Belonging Partner, **Self Identified (Optional):** CIS gender Man, Gay, Black, No Diverseabilities, Age: 31; **Region: APAC**
 - Amanda Rueda - Diversity, Inclusion & Belonging Advisory Group Member, **Self Identified (Optional):** CIS gender Woman, Age: 45; **Region: NORAM**
 - Giuliana Lucchesi - People Business Partner, **Self Identified (Optional):** CIS gender woman; **Region: NORAM**
@@ -91,7 +110,6 @@ The Executive Business Partner alignment can be found [here](/handbook/eba/)
 - Keep a track of time
 - Ensure that a number of voices are heard, including agenda points
 
-
 #### Scheduling a Reverse AMA
 
 AMAs are generally coordinated, scheduled, and planned by the [Executive Business Administrator](/handbook/eba/) team when an E-Group member is the host. Anytime that an AMA is to be hosted by an executive, VP, or Director at GitLab, it should be arranged and scheduled by that functions EBA. AMAs of Board Members are scheduled by the Staff EBA to the CEO.
@@ -105,7 +123,6 @@ Once a Reverse AMA takes place, a 15-30 minutes debrief meeting should be schedu
 Immediately should be within the week or following the Reverse AMA for best practices.  Understanding there are time zones and schedules to consider.  When possible scheduling the debrief ahead of time for immediately following the Reverse AMA would be an effective approach.  The debrief template includes the DRI and target to complete and should be updated accordingly.
 
 The debrief should include the People Business Partner, AMA Facilitator and DIB team member.  There are times where the Debrief is scheduled with the E-group leader however this is optional and as needed.
-
 
 ### Setup
 
@@ -124,12 +141,12 @@ The DIB Team and the EBAs will ensure that each Reverse AMA has the correct team
 1. Schedule the follow up call for actions with the leader, DIB team member Candace or Liam and the Business Partner for the group.
 1. Create a confidential slack channel if needed for that Reverse AMA to communicate transparently action items and or ongoing feedback, etc.
 
-
 ## Reverse Ask Me Anything
 
 The Reverse AMA format was launched in Sales with our [Black](/handbook/company/culture/inclusion/#definitions) team members. We wanted to start with this with Black team members to show support and to stand in solidarity, in response to domestic events in the US, and globally. One of our core [values](/handbook/values/) is DIB (Diversity, Inclusion and Belonging), and part of embracing that value means being better [allies](/handbook/communication/ally-resources/). These can be scheduled to facilitate meaningful conversations with any underrepresented group.
 
 **Benefits**
+
 - Improve efforts at driving inclusion and belonging at every level
 - Enhance open communication
 - Direct access to the leadership
@@ -138,6 +155,7 @@ The Reverse AMA format was launched in Sales with our [Black](/handbook/company/
 - Continue to grow our great network of diverse talent
 
 **Goals**
+
 - To continue the momentum of conveying genuine empathy and solidarity for our underrepresented team members
 - To address areas of challenges and opportunities identified by underrepresented team members
 - To allow for open, honest communication within a specific format
@@ -145,12 +163,14 @@ The Reverse AMA format was launched in Sales with our [Black](/handbook/company/
 - To identify opportunities to implement specific DI&B initiatives with leadership support
 
 **Format**
+
 - A 50 minute closed Zoom call
 - Attendees: E-Group member and interested team members in the relevant department who identify as part of the underrepresented group
 - Questions asked by the E-Group member, answered by underrepresented group team members
 - Format facilitated by People Business Partners
 
 **Schedule**
+
 - Quarterly
 
 ## Actions and follow ups
@@ -158,4 +178,3 @@ The Reverse AMA format was launched in Sales with our [Black](/handbook/company/
 All actions and follow up items should live in the [Reverse AMA EPIC](https://gitlab.com/groups/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/-/epics/17) under the child EPIC for the Reverse AMA
 
 If your underrepresented group has not been assigned a Diversity, Inclusion & Belonging team directly responsible individual please contact Candace or Liam.
-

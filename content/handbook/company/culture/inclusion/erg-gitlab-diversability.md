@@ -1,13 +1,13 @@
 ---
-title: "TMRG - GitLab DiversABILITY"
+title: "TMRG - GitLab Disability & Neurodiversity"
 description: "Helpful resources, support, and activities for differently abled team members or who are caring for a differently abled loved one."
 ---
 
 ## Mission
 
-The GitLab DiversABILITY TMRG is a resource group to aid team members through their lived experiences at GitLab. Whether these experiences are seen or unseen, present themselves as a physical or a mental diversity, or directly impact you or a loved one, our goal is to intentionally build inclusive practices throughout the company as well as to act as a support system to team members who may want to be in a community with others who share similar experiences.
+The GitLab Disability & Neurodiversity TMRG is a resource group to aid team members through their lived experiences at GitLab. Whether these experiences are seen or unseen, present themselves as a physical or a mental diversity, or directly impact you or a loved one, our goal is to intentionally build inclusive practices throughout the company as well as to act as a support system to team members who may want to be in a community with others who share similar experiences.
 
-The DiversABILITY TMRG advocates for every team member for physical conditions related to sight, sound, and/or mobility or for mental health concerns like ADHD, anxiety, depression and so much more. These are just a few examples of the lived experiences our team members could have at GitLab that can be better positioned with consideration and inclusion as part of the hiring, onboarding, and day-to-day processes as well as before, during, and after a project, a meeting, a conference, or even when we have big company-wide changes.
+The Disability & Neurodiversity TMRG advocates for every team member for physical conditions related to sight, sound, and/or mobility or for mental health concerns like ADHD, anxiety, depression and so much more. These are just a few examples of the lived experiences our team members could have at GitLab that can be better positioned with consideration and inclusion as part of the hiring, onboarding, and day-to-day processes as well as before, during, and after a project, a meeting, a conference, or even when we have big company-wide changes.
 
 ### How we accomplish our mission
 
@@ -18,11 +18,14 @@ Also, we act as a support group. Whether it's async in Slack or live during a me
 ## Leads
 
 - [Kaitlyn Chappell](/handbook/company/team/#kchappell)
-- Co-Lead [Wil Spillane](/handbook/company/team/#wspillane)
+- Dominique Topp
+- James Hebden
+- James Moverly
+- Flavia Costa
 
 ## Executive Sponsor
 
-`NOW HIRING`
+- Rob Allen - Vp of People
 
 ## Upcoming Events
 
@@ -31,7 +34,7 @@ Also, we act as a support group. Whether it's async in Slack or live during a me
 
 ## Additional Resources
 
-### Neurodivergence is considered a disability? Yes.
+### Neurodivergence is considered a disability? Yes
 
 When we are talking about a disability, we are referring to any physical or mental condition that limits a major life activity, or a history of such a condition. This includes ADHD, Dyslexia, Autism, and other cognitive disabilities, as well as mental health concerns such as depression or anxiety and physical conditions. We often refer to people with cognitive disabilities as being neurodivergent or having a neurodivergence ([many people prefer "people first language use" and you can learn more about it here](https://odr.dc.gov/page/people-first-language)).
 
@@ -43,7 +46,7 @@ You don’t have to be specific about your diagnosis. An employer may ask for ve
 
 #### Formal disclosure of your disability
 
-If you believe you need to request reasonable accommodations to succeed at GitLab, please notify the [Team Member Relations team]({{< ref "/handbook/people-group/team-member-relations" >}}) at `teammemberrelations@gitlab.com`. The Job Accommodation Network (JAN) site has great resources, questions to consider, and examples of types of accommodations. For example, the [AD/HD](https://askjan.org/disabilities/Attention-Deficit-Hyperactivity-Disorder-AD-HD.cfm) page. The Company will work with each individual to define their job-related or application-related needs and to try to accommodate those needs according to [the GitLab Individuals with Disabilities Policy]({{< ref "inc-usa#individuals-with-disabilities-policy" >}}).
+If you believe you need to request reasonable accommodations to succeed at GitLab, please notify the [Team Member Relations team](/handbook/people-group/team-member-relations) at `teammemberrelations@gitlab.com`. The Job Accommodation Network (JAN) site has great resources, questions to consider, and examples of types of accommodations. For example, the [AD/HD](https://askjan.org/disabilities/Attention-Deficit-Hyperactivity-Disorder-AD-HD.cfm) page. The Company will work with each individual to define their job-related or application-related needs and to try to accommodate those needs according to [the GitLab Individuals with Disabilities Policy]({{< ref "inc-usa#individuals-with-disabilities-policy" >}}).
 
 #### Informal disclosure of your disability, or simply notifying your team or manager
 

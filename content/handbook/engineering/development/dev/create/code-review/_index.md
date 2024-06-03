@@ -47,13 +47,12 @@ Work on the [GitLab VS Code Extension] follows a simplified development process.
 [engineering workflow]: /handbook/engineering/workflow/
 [GitLab]: https://gitlab.com/gitlab-org/gitlab
 [#g_create_code_review]: https://gitlab.slack.com/archives/g_create_code-review
-[#g_create_code_review_fe]: https://gitlab.slack.com/archives/g_create_source-code-review-fe
 [GitLab VS Code Extension]: https://gitlab.com/gitlab-org/gitlab-vscode-extension
 [CONTRIBUTING.md]: https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/CONTRIBUTING.md
 
 ## Metrics of success
 
-The metrics by which we measure the success of the Code Review category are aligned with our [goals for code review](#where-we-are-headed), specifically ease of use, love-ability, and efficiency.
+The metrics by which we measure the success of the Code Review category are aligned with our goals for code review, specifically ease of use, love-ability, and efficiency.
 
 ### Primary metric
 
@@ -97,12 +96,6 @@ experience = f(perceived performance, task completion)
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="code review" >}}
 {{< /tableau >}}
-
-#### MRs and Issues Without Types
-
-In addition to the above dashboard, here are search links to ensure our MRs and Issues have the correct types:
-
-{{< sisense chart="15814629" dashboard="786869" >}}
 
 ### Exploration and experimentation
 
@@ -163,7 +156,7 @@ You are encouraged to work as closely as needed with stable counterparts outside
 
 Quality engineering is included in our workflow via the [Quad Planning Process](https://gitlab.com/gitlab-com/www-gitlab-com/issues/6318).
 
-Application Security will be involved in our workflow at the same time that [kickoff emails](#kickoff-emails) are sent to the team, so that they are able to review the upcoming milestone work, and notate any concerns or potential risks that we should be aware of.
+Application Security will be involved in our workflow at the same time that kickoff emails are sent to the team, so that they are able to review the upcoming milestone work, and notate any concerns or potential risks that we should be aware of.
 
 ### Working with the wider GitLab community
 

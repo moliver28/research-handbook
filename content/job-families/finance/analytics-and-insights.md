@@ -142,6 +142,6 @@ The Director, Business Analytics and Insights is a [grade 10](/handbook/total-re
 
 ## Performance Indicators
 
-- Throughput: [Issues or merge requests closed as measurement of analyses completed](/handbook/ceo/chief-of-staff-team/performance-indicators/#throughput-for-the-cost)
+- Throughput: [Issues or merge requests closed as measurement of analyses completed](/handbook/ceo/office-of-the-ceo/performance-indicators/#throughput-for-the-cost)
 - Business partnering satisfaction
 - Dollars of ARR growth found through Analysis

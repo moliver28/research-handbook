@@ -7,7 +7,7 @@ The People Group Engineering team aims to reduce as much manual work as possible
 
 ## Offboarding
 
-Note: this section only discusses items in the offboarding where People Engineering was involved. You can read more about offboarding at GitLab on [this handbook page]({{< ref "/handbook/people-group/offboarding" >}})
+Note: this section only discusses items in the offboarding where People Engineering was involved. You can read more about offboarding at GitLab on [this handbook page](/handbook/people-group/offboarding)
 
 ## Timeline Flow
 
@@ -28,11 +28,18 @@ graph TD
 
 When a team member voluntarily leaves GitLab, an email going over the offboarding interview and frequently asked questions is automatically sent to them.
 
-The pipeline is scheduled to run every hour and scan the offboarding spreadsheet for new rows since the last run. For each row, an email is sent to the departing team member using different templates depending on the team member's country.
+The pipeline is scheduled to run every hour and scan for any recent voluntary offboardings that have been submitted in Workday. Email status is then synced to our [notification spreadsheet](https://docs.google.com/spreadsheets/d/1EB5w9Bg32sSNHXIW53Yks_3SEl6FnVxQE77EIG3CVcg/edit?usp=drive_web&ouid=108123136078926162603) to ensure these emails are not sent out again.
 
 ### Scheduled offboarding issue creation
 
-Every 15 minutes, a pipeline scans the offboarding spreadsheet for rows where the `Garden Leave (Non-US) Start Date`/`Last Working Day (US only) Start Date` occurred within the past 15 minutes. If neither are specified, `Termination Effective Date` is used as a fallback. For each row matching this criterion, it will perform the same actions as if a People Connect Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
+Every 5 minutes, a pipeline scans Workday for any terminations with the last day of work as today (PST).
+
+- Involuntary offboardings will be opened as soon as they are available.
+- Voluntary offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding
+  - Monday - Thursday @ 4pm
+  - Friday @ 12pm
+
+For each row matching this criterion, it will perform the same actions as if a People Connect Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
 
 The manual process is kept as a backup process should the automation fail or for exceptional cases where a team member offboarding cannot be added to the offboarding spreadsheet.
 
@@ -43,7 +50,7 @@ who ran the command and the outgoing team member's Manager.
 
 The job then grabs various details of the outgoing team member, like country of residence, entity through which they are hired, division, department, job title etc. For each of these details, it checks for the existence of a task file in the [`offboarding_tasks` folder](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/tree/main/.gitlab%2Fissue_templates%2Foffboarding_tasks) of the `employment` project. These tasks files are of the format `country_<country name>.md`, `entity_<entity name>.md`, `division_<division name>.md`, `department_<department name>.md`, etc. If such a file is found, it includes contents of those files also in the offboarding issue.
 
-This issue is added to the [team member's epic]({{< ref "/handbook/people-group/engineering/employment-issues#epics" >}}).
+This issue is added to the [team member's epic](/handbook/people-group/engineering/employment-issues#epics).
 
 ### Offboarding merge request
 

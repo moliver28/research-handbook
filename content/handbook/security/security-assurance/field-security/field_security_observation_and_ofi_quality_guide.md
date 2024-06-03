@@ -30,8 +30,4 @@ Field Security observations and OFIs should have the following characteristics:
     - Result in a competitive advantage for GitLab
     - Help us better support customer requests and expectations
 
-
 **Note** Field Security observations and OFIs should be created in accordance with [observation creation procedure]({{< ref "observation-management-procedure" >}}).
-
-
-

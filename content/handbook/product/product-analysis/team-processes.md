@@ -152,14 +152,14 @@ conversation on Slack, discussion in meeting, etc)
   <details markdown=1>
     <summary>Example collapsed section</summary>
 
-    ```
+    ```markdown
     <details markdown=1>
       <summary>This is the name of the section</summary>
-    
+
       ```
-    
+
       Add your code here
-    
+
       ```
 
     </details>

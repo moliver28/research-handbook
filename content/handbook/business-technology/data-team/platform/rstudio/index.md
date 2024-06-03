@@ -58,23 +58,23 @@ RStudio can connect to various database for production development of models or 
 
 **odbcinst.ini** (location of file based on output from the `odbcinst -j` command above)
 
-```
+```text
 [Snowflake]
 Driver      = /opt/snowflake/snowflakeodbc/lib/universal/libSnowflake.dylib
 ```
 
 **odbc.ini** (location of file based on output from the `odbcinst -j` command above)
 
-```
+```text
 [ODBC Data Sources]
 SnowflakeDSII = Snowflake
 
 [SnowflakeDSII]
 Server = gitlab.snowflakecomputing.com
-Port = 
-UID = 
-Schema = 
-Warehouse = 
+Port =
+UID =
+Schema =
+Warehouse =
 Driver = /opt/snowflake/snowflakeodbc/lib/universal/libSnowflake.dylib
 Description = Snowflake DSII
 Locale = en-US
@@ -88,10 +88,9 @@ Authenticator = gitlab.okta.com
 
 The next step is to connect RStudio to Snowflake using the driver configurations you've just set up. This can be accomplished by using the `DBI`,`tidyverse`, and `odbc` packages in R. For a general overview on how to connect to databases in RStudio, please refer to [this website](https://db.rstudio.com/) for detailed information.
 
-
 This is an example of the code that can be used to connect to Snowflake in R.
 
-```
+```json
 con <- DBI::dbConnect(odbc::odbc(),
   driver = "Snowflake",
   uid = rstudioapi::askForPassword("Database UserID"),
@@ -127,7 +126,7 @@ Once you've completed the steps above and try running the code, you should be ta
 
 ## Managing R with .Rprofile
 
-It is recommended to set up a **.Rprofile** file to customize the startup process for a given session in RStudio. It can also simiplify sharing code with other users. Upon startup, R and RStudio will look for and run the .Rprofile file which can be used to control the behavior of your R session (e.g. setting options or environment variables).  
+It is recommended to set up a **.Rprofile** file to customize the startup process for a given session in RStudio. It can also simiplify sharing code with other users. Upon startup, R and RStudio will look for and run the .Rprofile file which can be used to control the behavior of your R session (e.g. setting options or environment variables).
 
 .Rprofile files can be either at the user or project level. User-level .Rprofile files live in the base of the user's home directory, and project-level .Rprofile files live in the base of the project directory. R will source only one .Rprofile file. So if you have both a project-specific .Rprofile file and a user .Rprofile file that you want to use, you explicitly source the user-level .Rprofile at the top of your project-level .Rprofile with source("~/.Rprofile").
 
@@ -137,7 +136,7 @@ Follow the example below to set up a new .Rprofile file that automatically sets 
 
 - Start by creating a blank .Rprofile document by installing packages and running the `edit_r_profile()` function from the `usethis` package
 
-```
+```r
 install.packages("usethis")
 library(usethis)
 usethis::edit_r_profile()
@@ -145,7 +144,7 @@ usethis::edit_r_profile()
 
 - In the .Rprofile file that opens in a separate tab enter in the necessary information:
 
-```
+```r
 .First <- function() cat("Welcome to R!")
 .Last <- function()  cat("Goodbye!")
 
@@ -225,7 +224,7 @@ This documentation was creating using RStudio version 2022.07.1.
 
 - Error:
 
-    ```
+    ```console
     Cloning into 'repo-name'
     gitlab.com: Permission denied (publickey).
     fatal: Could not read from remote repository.
@@ -253,14 +252,12 @@ Google Sheets and R have the ability to interact via the `googlesheets4` and `go
 2. Reading Existing Google Sheets
 3. Writing to Google Sheets
 
-
 ### Part 1: Installation
 
 - Run the following code in R to install the necessary packages in RStudio
--
 
-```
-pkg <- c("googlesheets4", "googledrive") 
+```r
+pkg <- c("googlesheets4", "googledrive")
 invisible(lapply(pkg, function(x) if (x %in% rownames(installed.packages())==F) install.packages(x)))
 invisible(lapply(pkg, library, character.only = TRUE))
 rm(pkg)
@@ -285,14 +282,14 @@ Below are a list of functions that can be used to write data into a Google Sheet
 - **gs4_create()** can create a new spreadsheet and optionally populate initial data
     - example:
 
-    ```
+    ```r
     (ss <- gs4_create("fluffy-bunny", sheets = list(flowers = head(iris))))
     ```
 
 - **sheet_write()** (over)writes a whole data frame into a tab within a Google Sheet.
     - example:
 
-  ```
+  ```r
   head(mtcars) %>%
   sheet_write(ss, sheet = "autos")
   ```
@@ -300,7 +297,7 @@ Below are a list of functions that can be used to write data into a Google Sheet
 - **range_write()** writes/overwrites a data frame into the same range of cells in a Google Sheet. Target sheet must already exist.
     - example:
 
-    ```
+    ```r
     df <- dataframe
     ss <- "https://docs.google.com/spreadsheets/..."
     googlesheets4::range_write(ss = ss,
@@ -311,7 +308,7 @@ Below are a list of functions that can be used to write data into a Google Sheet
 - **range_clear()** can be used to clear data from an existing spreadsheet tab
     - example:
 
-    ```
+    ```r
     df <- dataframe
     ss <- "https://docs.google.com/spreadsheets/..."
     googlesheets4::range_clear(ss = ss,
@@ -322,7 +319,7 @@ Below are a list of functions that can be used to write data into a Google Sheet
 - **sheet_append()** can be used to add rows to an existing tab. NOTE: this function will exclude column headers as a row in the target sheet.
     - example:
 
-    ```
+    ```r
     df <- dataframe
     ss <- "https://docs.google.com/spreadsheets/..."
     googlesheets4:sheet_append(
@@ -332,4 +329,3 @@ Below are a list of functions that can be used to write data into a Google Sheet
     ```
 
 - [Source](https://googlesheets4.tidyverse.org/) for more information on this topic.
-

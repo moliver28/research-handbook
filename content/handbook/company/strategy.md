@@ -24,7 +24,7 @@ As we execute on our strategy, it is important to use our financial targets as g
 1. Reach: go for a broad reach, no focus on business verticals or certain programming languages.
 1. Seed then nurture: [plant seeds and nurture the product to build out depth](#seed-then-nurture).
 1. Speed: ship every change in the next release to maximize responsiveness and learning.
-1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/#all-remote-work) is a large part of the solution.
+1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/people-group/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/#all-remote-work) is a large part of the solution.
 1. Open Source Stewardship: be a good [steward of GitLab](/handbook/company/stewardship/) and [collaborate with the wider community](https://about.gitlab.com/community/contribute/) to [improve the product together](/handbook/engineering/development/performance-indicators/#mr-rate).
 
 ### Seed then nurture
@@ -46,7 +46,6 @@ If we effectively seed and then nurture, we can fully activate GitLab's [two gro
 ## Pricing
 
 Please see our [pricing model](/handbook/company/pricing/) for details
-
 
 ## Dual flywheels
 
@@ -78,7 +77,6 @@ graph BT;
 | More Contributions | [Wider community contributions per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release) | Developer Relations and Engineering |
 | More Features | [Merge Requests per release per engineer in product development](/handbook/engineering/development/performance-indicators/#average-mrs-development-engineers-month) | Engineering and Product Management |
 | More Revenue | [IACV](/handbook/sales/#incremental-annual-contract-value-iacv) vs. plan | Sales and Marketing |
-
 
 ### Flywheel with two turbos
 
@@ -157,23 +155,28 @@ Our yearly plans are linked from the [relevant cadence section](/handbook/compan
 
 Activity
 
-Positioning and SWOT published in [internal handbook](https://internal-handbook.gitlab.io/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
+Positioning and SWOT published in [internal handbook](https://internal.gitlab.com/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
+
 - May 15th eGroup review (Complete)
 
 eGroup capability gap exercise at eGroup offsite (prework)
+
 - Stella
 - Complete: Jun 28th
 
 Complete capability gap exercise at VP level to bring more input into the group
+
 - Directs Group
 - Drafts: July 12th
 - Final: July 19th
 
 Pull together comprehensive view of capabilities from eGroup and VP sessions
 Craig/Dave
+
 - July 24th
 
 eGroup June Virtual Offsite Sessions:
+
 - Decide on GTM, Ops and Product strategies
 - Decide on top capabilities for investment (feed into LRO)
 - Craig/Dave

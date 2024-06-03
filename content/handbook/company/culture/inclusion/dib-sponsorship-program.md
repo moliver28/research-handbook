@@ -3,15 +3,13 @@ title: "Sales Sponsorship Pilot Program"
 description: "A page for the Sales Sponsorship Pilot Program"
 ---
 
-This pilot program will initially target Black Team Members within the Sales Organization, currently we have no Black Team Members at job grade 9+ within Sales with no representation in leadership positions. We want to ensure that we are addressing this imbalance and creating pathways for Black Team Members to progress effectively at GitLab.
-
-This a pilot program with the view to extending to other underrepresented groups and ultimately GitLab wide.
+In 2023 we conducted a pilot program to address an imbalance of Black Team Members at job grade 9+ within Sales and lack of representation in sales leadership positions. The pilot program was designed to create pathways for Black Team Members to progress effectively at GitLab. We have since extended this program to promote pathways for all Sales team members to progress at GitLab.
 
 ## Mentorship vs Sponsorship
 
 [Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: “While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you.”
 
-**Mentoring** is defined in our [Mentoring at GitLab handbook page as:]({{< ref "/handbook/people-group/learning-and-development/mentor#what-is-mentoring" >}}) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development. Mentorship is an opportunity for both the mentor and mentee to develop their leadership and communication skills. Mentorship should be led by the mentee, similar to how 1:1's at GitLab are driven by direct reports.
+**Mentoring** is defined in our [Mentoring at GitLab handbook page as:](/handbook/people-group/learning-and-development/mentor#what-is-mentoring) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development. Mentorship is an opportunity for both the mentor and mentee to develop their leadership and communication skills. Mentorship should be led by the mentee, similar to how 1:1's at GitLab are driven by direct reports.
 
 **Sponsorship** is defined using influence and/or power to support the growth and development of a team member. A sponsor is typically a senior leader with significant influence and responsibilities. A sponsor will then use this influence to but not limited to; advocating for career advancement opportunities, provide opportunities to upskills via active projects and provide visibility to other senior leaders and the business of the sponsees potential.
 
@@ -55,7 +53,7 @@ This a pilot program with the view to extending to other underrepresented groups
 **A Sponsee at GitLab will be (Pilot Program Only):**
 
 - Be performing in your role in accordance with your managers expectations, which take into account performance exercises such as 9 box and not on a Performance Improvement Plan
-- Be a part of the underrepresented group the sponsorship program is targeted at. (Black Team Members in Sales)
+- Be a part of the underrepresented group the sponsorship program is targeted at.
 - Be able to commit to 9 months within the program
 - Willing to commit to the overall expectations of the program as outlined throughout the handbook page
 
@@ -138,7 +136,7 @@ This is where both parties agree to move forward with the next step, which is sp
 Suggested Actions:
 
 - Participate in feedback session with sponsee
-  
+
 **Advocate**
 
 Now that a commitment has been made and the sponsor is satisfied that the sponsee is ready for the next step. The sponsor actively and intentionally advocates for sponsees continued career development and advancement at GitLab.
@@ -185,7 +183,7 @@ GitLab:
 - Develop program materials => `0%`
 - Sponsorship 1-1 guide => `0%`
 - Next Steps Doc - for End of Program => `0%`
-- Identify first cohort of sponsee’s amongst Black Team Members in Sales => `0%`
+- Identify first cohort of sponsees amongst Team Members in Sales => `0%`
 - What criteria they have for a sponsor => `0%`
 - Identify first cohort of sponsors with the Sales Org => `0%`
 - What expertise they are willing to provide and opportunities they can provide => `0%`

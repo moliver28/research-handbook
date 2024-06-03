@@ -12,15 +12,15 @@ description: "Backblaze is high performance cloud storage tool used by digital p
 
 ## About
 
-[Backblaze B2](https://www.backblaze.com/b2/cloud-storage.html) is enterprise-grade, S3 compatible storage used to store and serve data. 
+[Backblaze B2](https://www.backblaze.com/b2/cloud-storage.html) is enterprise-grade, S3 compatible storage used to store and serve data.
 
-## Use 
+## Use
 
-Backblaze is used by the digital production team to store and manage their archives of videos. 
+Backblaze is used by the digital production team to store and manage their archives of videos.
 
 ## Access
 
-To request access to Backblaze, please open an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/). Backblaze is not a tool that provides user seats to each user. One account with one login is provided to users who need access to the UI. Please state your justification for needing access - it may or may not be denied as this tool is primarily for the digital production team due to the large amount of data they manage. 
+To request access to Backblaze, please open an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). Backblaze is not a tool that provides user seats to each user. One account with one login is provided to users who need access to the UI. Please state your justification for needing access - it may or may not be denied as this tool is primarily for the digital production team due to the large amount of data they manage.
 
 ## Training
 
@@ -32,4 +32,3 @@ To request access to Backblaze, please open an [access request](/handbook/busine
 1. [FileZilla PRO (paid)](https://filezillapro.com/)
 1. [Cyberduck](https://cyberduck.io/)
 1. [rclone](https://rclone.org/b2/)
-

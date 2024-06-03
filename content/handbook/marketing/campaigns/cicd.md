@@ -29,7 +29,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 {: #campaign-visual}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-![](/images/handbook/marketing/marketing-programs/CI-CD_Campaign_Flow.png.png)
+![''](/images/handbook/marketing/marketing-programs/CI-CD_Campaign_Flow.png.png)
 
 ### Campaign Pages & Activities
 
@@ -39,6 +39,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 **[See the FY22 Marketing Calendar for upcoming virtual events >>](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1408681455)**
 
 Always On Lead Generation:
+
 - :books: Content [[eBook] The benefits of single application CI/CD](https://about.gitlab.com/why/use-continuous-integration-to-build-and-test-faster/)
 - :books: Content [[eBook] Modernize your CI/CD](https://about.gitlab.com/resources/ebook-fuel-growth-cicd/)
 - :video_camera: On-Demand Webinar [[Demo + Q&A] Continuous Integration with GitLab](https://www.brighttalk.com/webcast/17523/461825?utm_source=GitLab&utm_medium=brighttalk&utm_campaign=461825)
@@ -185,14 +186,12 @@ Always On Lead Generation:
 | Consideration | [[EBOOK] Benefits of single application CI/CD](https://about.gitlab.com/resources/ebook-single-app-cicd/) | [[REPORT] The Total Economic Impact™ of GitLab](https://about.gitlab.com/resources/report-forrester-tei/) | [[VIDEO] GitLab CI/CD Overview](https://www.youtube.com/watch?v=wsbSvLyC2Z8) |
 | Purchase| [[ANALYST] The 2019 Forrester Wave™: Cloud-Native Continuous Integration Tools](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/4203)| [[REFERENCE] How Jaguar Land Rover embraced CI to speed up builds](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/)| [COMPETITIVE] GitLab vs. Jenkins |
 
-
 ### Marketo Nurture Emails
 
 {: #nurture-emails .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **[See Marketo Nurture Email Copies >>](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2478#ship-final-copies)**
-
 
 ### Outreach Emails
 

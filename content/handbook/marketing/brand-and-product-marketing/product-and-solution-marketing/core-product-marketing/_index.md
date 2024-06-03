@@ -105,7 +105,7 @@ In additional to enabling sales, PMMs should partner with sales and actively eng
 ### Key links
 
 - [Messaging](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/messaging/)
-- [GitLab positioning](/handbook/positioning-faq/)
+- [GitLab positioning](/handbook/marketing/positioning-faq/)
 - [Hidden IT Groups](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/)
 - [Defining GitLab roles and personas](/handbook/product/personas/)
 - [GitLab tiers](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/)
@@ -115,7 +115,6 @@ In additional to enabling sales, PMMs should partner with sales and actively eng
 ### PMM Talk Inventory
 
 <iframe width="950" height="900" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvkbjALQnaEu_vg0i_UEfFStZttVxMP0WCzTaDIGS31ZL_ndVvBgaEWn_OkrRYRPYQtj6g9bJV2J0C/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;rm=minimal&amp;range=published_talks"></iframe>
-
 
 ### Release vs. launch
 

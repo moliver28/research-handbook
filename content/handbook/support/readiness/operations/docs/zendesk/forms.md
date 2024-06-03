@@ -151,31 +151,31 @@ team.
 
 ## Current Zendesk Global forms
 
-| Name                 | ID            | Visibility | Category    |
-|----------------------|:-------------:|------------|-------------|
-| SaaS                 | 334447        | Public     | Support     |
-| SaaS Account         | 360000803379  | Public     | Support     |
-| Self-Managed         | 426148        | Public     | Support     |
-| GitLab Dedicated     | 4414917877650 | Public     | Support     |
-| L&R                  | 360000071293  | Public     | Support     |
-| Billing              | 360000258393  | Public     | Billing     |
-| Alliance Partners    | 360001172559  | Public     | Support     |
-| Support Ops          | 360001801419  | Public     | Support Ops |
-| JiHu                 | 360001477519  | Public     | Support     |
-| China Comms Response | 360001535259  | Public     | Support     |
-| Emergencies          | 360001264259  | Internal   | Support     |
-| GitLab Incidents     | 360001629679  | Internal   | Support     |
+| Name                     | ID             | Visibility | Category    |
+|--------------------------|:--------------:|------------|-------------|
+| SaaS                     | 334447         | Public     | Support     |
+| SaaS Account             | 360000803379   | Public     | Support     |
+| Self-Managed             | 426148         | Public     | Support     |
+| GitLab Dedicated         | 4414917877650  | Public     | Support     |
+| L&R                      | 360000071293   | Public     | Support     |
+| Billing                  | 360000258393   | Public     | Billing     |
+| Alliance Partners        | 360001172559   | Public     | Support     |
+| Support Ops              | 360001801419   | Public     | Support Ops |
+| Emergencies              | 360001264259   | Public     | Support     |
+| GitLab Incidents         | 360001629679   | Internal   | Support     |
+| Support Internal Request | 12829030177948 | Internal   | Support     |
 
 ## Current Zendesk US Federal forms
 
-| Name               | ID           | Visibility | Category |
-|--------------------|:------------:|------------|----------|
-| Support            | 360000446511 | Public     | Support  |
-| Upgrade Assistance | 360001434131 | Public     | Support  |
-| Support Ops        | 360001421052 | Public     | Support  |
-| L&R                | 360001421072 | Public     | Support  |
-| Emergency          | 360001421112 | Public     | Support  |
-| License Issue      | 360001803151 | Internal   | Support  |
+| Name               | ID             | Visibility | Category |
+|--------------------|----------------|------------|----------|
+| Support            | 360000446511   | Public     | Support  |
+| GitLab Dedicated   | 26347526042004 | Public     | Support  |
+| Upgrade Assistance | 360001434131   | Public     | Support  |
+| Support Ops        | 360001421052   | Public     | Support  |
+| L&R                | 360001421072   | Public     | Support  |
+| Emergency          | 360001421112   | Public     | Support  |
+| License Issue      | 360001803151   | Internal   | Support  |
 
 ## Positioning
 

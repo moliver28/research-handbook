@@ -1,13 +1,6 @@
 ---
-
 title: "Auxiliary Solution Resource: Agile"
 ---
-
-
-
-
-
-
 
 #### Who to contact
 
@@ -15,7 +8,7 @@ title: "Auxiliary Solution Resource: Agile"
 | --- | --- |
 | Aathira Nair (@anair5) |  |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Agile Planning and Management
 
@@ -168,7 +161,6 @@ Purchasing for Integrated Agile Planning may not require executive involvement, 
 
 - [Gartner, “Magic Quadrant for Enterprise Agile Planning Tools,”](/analysts/gartner-eapt21/) Bill Blosen, Mike West, Deacon D.K Wan, Akis Sklavounakis, Keith Mann, Wan Fui Chan, Hassan Ennaciri, April 20, 2021.
 
-
 ## Market Requirements
 
 ### Map business and portfolio plans to market opportunities
@@ -314,6 +306,6 @@ Inventory of key pages in the buyer's Journey
 
 | **Awareness** <br> learning about the problem  |  **Consideration** <br> looking for solution ideas  |  **Decision** <br> is this the right solution|
 | ------ | -------- |-------- |
-| [topic page?]()  | [solution page]() | [proof points]() |
-| [landing pages?]() | ?comparisons?  | [comparisons]() |
-| -etc?            |   |  - [product page x]() <br>  - [product page y]() <br>  - [product page z]() |
+| topic page?  | solution page | proof points |
+| landing pages? | ?comparisons?  | comparisons |
+| -etc?            |   |  - product page x <br>  - product page y <br>  - product page z |

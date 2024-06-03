@@ -7,6 +7,7 @@ canonical_path: "/company/okrs/"
 ## Most recent OKRs
 
 Our OKR process and timelines are public and listed on the pages below.
+
 - [FY25-Q1 Active](/handbook/company/okrs/fy25-q1/)
 - [FY25-Q2 Future](/handbook/company/okrs/fy25-q2/)
 - [Previous OKRs](#okr-archive)
@@ -27,6 +28,7 @@ You can use the phrase “We will achieve a certain OBJECTIVE as measured by the
 The OKR methodology was pioneered by Andy Grove at Intel and has since helped align and transform companies around the world.
 
 OKRs have four superpowers:
+
 - Focus
 - Alignment
 - Tracking
@@ -51,6 +53,7 @@ To learn about the industry best practices for OKRs, how setting the right goals
 ### Criteria for Objectives
 
 Objectives should be:
+
 1. **Ambitious** - More than just "business as usual" or incremental change, an objective describes an aspirational yet attainable transformation, growth, improvement that significantly improves the current situation. A few examples:
     1. Introduce disruptive innovations
     1. Establish differences between GitLab Inc. and competitors
@@ -66,6 +69,7 @@ Objectives should be:
 ### Criteria for Key Results
 
 Key Results should be:
+
 1. **Iterative** - Aligned with our core value of [iteration](/handbook/values/#iteration), a Key Result should focus on number of iterations or steps on the way to an outcome instead of just the outcome. Deliver x iterations instead of deliver y functionality.
     1. For example, if we need to create a certain number of experimental and beta features to ultimately get to 1 GA feature, break the KR down into iterative pieces such as deliver 16 experimental features, 2 beta features, and 1 GA feature to highlight the iterations required to get to the end result, instead of only focusing on the end result.
 1. **Aspirational** - Ambitious but realistic stretch goals; if it feels uncomfortable, it's a good KR.
@@ -89,6 +93,7 @@ Key Results should be:
 The following formula can be used to write objectives:
 Verb + What you want to do + In order to/for/so that (what you hope to achieve or rationale for objective).
 **Objective Example**: Increase awareness of company in the market in order to increase sales.
+
 - *Clear goal including rationale for pursuing that goal*
 
 The following formula can be used to write Key Results:
@@ -103,6 +108,7 @@ Product OKR example:
 
 **Objective**: Drive a meaningful impact on Usability (Bugs, Infradev, Security) in order to avoid losing users due to usability issues.
 **KRs (Key Results):**
+
 - group::threat insights: Meet SLAs for all P1 and P2 bugs affecting usability
 - group::code review: Reduce mean-time-to-close of S1 + S2 bugs by 50%
 - group::editor: Complete 10 usability issues related to our primary categories (Web IDE, Snippets, Wiki)
@@ -145,7 +151,6 @@ You should decide your scoring methodology ahead of time. You might score an OKR
 
 OKRs do not replace or supersede core team member responsibilities or performance indicators. OKRs are additive and are essentially a high signal request from your leadership team to prioritize the work. They typically are used to help galvanize the entire company or a set of teams to rapidly move in one direction together. You should aim to complete them unless you have higher priority work that is surfaced and agreed to by leadership.  When surfacing tradeoffs, team members should not factor in how an unmet OKR may impact your executive leadership bonus in their prioritization. They should instead focus on GitLab priorities. If your executive leader still feels that the OKR is more important, they will ask you to *disagree and commit*.
 
-
 ## Who sets OKRs?
 
 Generally, we do OKRs up to the team level.
@@ -181,7 +186,7 @@ Should you need to reschedule, please @ mention the EBA to the CEO in the `#eba-
 
 **Six Mondays** before the start of the fiscal quarter, the CEO and Chief of Staff (CoS) to the CEO initiate the OKR process.
 
-The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/e-group-weekly/) which is **five weeks** before the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or CoST.
+The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/company/e-group-weekly/) which is **five weeks** before the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO.
 
 **Four Mondays** before the start of the quarter, the CoS to the CEO will share the company OKRs draft with E-Group.
 
@@ -205,13 +210,14 @@ See [How to Use GitLab for OKRs](/#how-to-use-gitlab-for-okrs) for how to create
 
 In the week that begins **three Mondays** before the start of the fiscal quarter, there is an OKR Draft Review Meeting for the e-group. This meeting is an opportunity for executives to get feedback from one another and highlight any dependencies on other functions to one another.
 The agenda for this meeting is structured as follows:
+
 1. Function
     1. Link to the objective in GitLab
     1. Dependencies: call out any dependencies
 
 If additional action needs to be taken by the functional leader, the GitLab link should be re-shared in the #okrs channel in Slack when it's ready for final review.
 
-### Cascade!
+### Cascade
 
 Now that Executive (function-level) OKRs are set
 (as set as things are at GitLab; everything is always in Draft!),
@@ -219,7 +225,7 @@ Executives shift their focus to finalizing OKRs to their team.
 
 This is also the opportunity to create team OKRs in GitLab and add them to the relevant CEO and executive OKR.
 
-Through the quarter, regular updates by the relevant DRI for Company KRs are expected ahead of [E-group monthly touchpoint meetings]({{< relref "../offsite/_index.md#monthly-touch-point-meetings" >}}). Exact dates for when updates are due are shared in the `#okrs` Slack channel with reminders set 7 days and 1 day before the due date.
+Through the quarter, regular updates by the relevant DRI for Company KRs are expected ahead of [E-group monthly touchpoint meetings](../offsite/_index.md#monthly-touch-point-meetings). Exact dates for when updates are due are shared in the `#okrs` Slack channel with reminders set 7 days and 1 day before the due date.
 
 ### Dependency Commitments
 
@@ -240,7 +246,7 @@ GitLab entries should include the following fields:
 
 ### The quarter begins
 
-The Chief of Staff to the CEO takes company OKRs and updates the OKR handbook page for the current quarter to be active. Each objective and KR should include the related GitLab link. The CoST for the CEO should also create the handbook page for the following quarter and document the OKR process timeline.
+The Chief of Staff to the CEO takes company OKRs and updates the OKR handbook page for the current quarter to be active. Each objective and KR should include the related GitLab link. The Office of the CEO should also create the handbook page for the following quarter and document the OKR process timeline.
 
 The CoS to the CEO shares the handbook update MR in the #okr channel in Slack and @ mentioned e-group. .
 
@@ -258,12 +264,11 @@ It is better to update an objective or KR than continue to work toward a goal th
 
 In the event that a functional objective that is captured in GitLab needs to be updated, please note the change in the #okrs Slack channel and tag the CEO and Chief of Staff to the CEO for approval. Approval of the change indicates that the revised goal has been agreed upon.
 
-
 ## Format of OKR on the Handbook Page
 
-Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
+Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
 
-Functional leaders are responsible for updating their objectives and KRs in GitLab before each [Key Review](/handbook/key-review/#automated-kpi-slides).
+Functional leaders are responsible for updating their objectives and KRs in GitLab before each [Key Review](/handbook/company/key-review/#automated-kpi-slides).
 
 ## How to Use GitLab for OKRs
 
@@ -343,7 +348,7 @@ If an OKR is related, but does not score towards the Company KR, edit the descri
 
 To allow for division, department, or team objectives to be added as child objectives or KRs, the Company key results should be created as an objective, not as a key result, as GitLab functionality doesn’t allow for a KR to have child OKRs.
 
-The Chief of Staff Team to the CEO does the following:
+The Office of the CEO does the following:
 
 1. Create the Company objective.
 1. Create the Company key results as child objectives of the Company objective.
@@ -364,7 +369,7 @@ To indicate that a division KR should also show progress of a Company KR, add th
 Do this for all OKRs that contribute to company OKRs.
 However, be careful not to link an OKR to multiple Company KRs.
 
-When this method is used, the Chief of Staff Team to the CEO will update the score manually based on the scoring of all related items.
+When this method is used, the Office of the CEO will update the score manually based on the scoring of all related items.
 
 A hypothetical example where division KRs score directly to division objectives, and should also progress a Company KR:
 
@@ -417,15 +422,16 @@ Watch this video for a demo on how to find the OKRs you're looking for:
 
 ## Maintaining the status of OKRs
 
-Teams should update score for their key results in GitLab within the first five business days of every month and present the most recent update in the [Key Review](/handbook/key-review/) that immediately follows the  update. If a key result is off track, it should be clear why. The owner should leave a comment with the most recent Health Status or there should be a link to an issue, an epic, or another source for details.
+Teams should update score for their key results in GitLab within the first five business days of every month and present the most recent update in the [Key Review](/handbook/company/key-review/) that immediately follows the  update. If a key result is off track, it should be clear why. The owner should leave a comment with the most recent Health Status or there should be a link to an issue, an epic, or another source for details.
 When presenting the status of OKRs, we use the following terms to denote the status of a key result:
+
 1. On track - the DRI is confident the key result will be achieved.
 1. Needs attention - the DRI believes there is some risk the key result will be achieved. Elevated attention is required in order for the key result to be achieved.
 1. At risk - the DRI does not expect the key result will be achieved. Urgent action is required in order for the key result to be achieved.
 
 An Objective/Key Results health status should be maintained as the SSOT on the status. This is something that should be able to be referenced at any point in order to get a clear view of progress against the objective. The objective owner will be responsible for designating a health status based on a roll up the health statuses of all relevant KRs.
 
-During Key Reviews, teams should include material that covers [key OKR progress  details](/handbook/key-review/#okr-slides) and links to relevant OKRs.
+During Key Reviews, teams should include material that covers [key OKR progress  details](/handbook/company/key-review/#okr-slides) and links to relevant OKRs.
 
 The first Key Review of the following quarter should offer a clear scoring for each KR.
 
@@ -433,7 +439,7 @@ Company OKR progress will be shared in the first week of the month in the  follo
 
 ## Scoring OKRs
 
-Since we set OKRs that are aspirational, we [don't expect 100% achievement](/okrs/#criteria-for-key-results) across KRs. We score individual KRs to note our achievement against our stated goal. This is the scoring framework.
+Since we set OKRs that are aspirational, we [don't expect 100% achievement](/handbook/company/okrs/#criteria-for-key-results) across KRs. We score individual KRs to note our achievement against our stated goal. This is the scoring framework.
 
 | Achievement against targets | Score |
 | ------ | ------ |
@@ -465,7 +471,7 @@ Watch this video for a demo on how to updated progress in OKR management:
 Everyone is welcome to a suggestion to improve any OKR.
 To update please make a merge request and post a link to the MR in the #okrs channel in Slack and at-mention the Chief of Staff to the CEO. If commenting on a functional objective or KR, comment directly on the OKR in GitLab.
 
-## OKR resources:
+## OKR resources
 
 - [With Goals, FAST beats SMART](https://sloanreview.mit.edu/article/with-goals-fast-beats-smart/)
 - [Measure What Matters by John Doerr](https://www.whatmatters.com)

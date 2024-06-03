@@ -27,7 +27,7 @@ a macro should be created to track the tickets that are related to a specific in
 
 ## Naming a Tag
 
-Based on the relevant issue, the tag for the macro should be formed from an abbreviated version of the project tracker name and the issue number or `com` for GitLab SaaS production incidents.
+Based on the relevant issue, the tag for the macro should be formed from an abbreviated version of the project tracker name and the issue number or `com` for GitLab.com production incidents.
 
 For example:
 

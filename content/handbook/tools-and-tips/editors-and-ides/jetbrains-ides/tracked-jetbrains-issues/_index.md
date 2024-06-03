@@ -49,7 +49,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
 
 - Title: DIRC checksum mismatch error in Settings Sync
 - Link: https://youtrack.jetbrains.com/issue/IDEA-337625
-- Notes: The Settings Sync feature currently does not work. This is problematic because [JetBrains has also deprecated the previous alternative Settings Repository Plugin](https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/setup-and-config/#update-2023-11)
+- Notes: The Settings Sync feature currently does not work. This is problematic because [JetBrains has also deprecated the previous alternative Settings Repository Plugin](/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/setup-and-config/#update-2023-11)
 
 ### RUBY-25400
 

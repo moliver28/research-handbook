@@ -87,7 +87,7 @@ The Senior Demo Architect is a [grade 7](/handbook/total-rewards/compensation/co
 
 ## Performance Indicators
 
-- This role will collaborate with enterprise, commercial and public sector teams of the Solutions Architecture organization to contribute to [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary) especially to drive new (i.e., new logos) and growth bookings
+- This role will collaborate with enterprise, commercial and public sector teams of the Solutions Architecture organization to contribute to [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary) especially to drive new (i.e., new logos) and growth bookings
 - This role will collaborate with cross functional teams and Solutions Architects to drive [okrs](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/boards/5299552?label_name[]=FY24-Q1&label_name[]=OKR&label_name[]=Solutions%20Architecture&label_name[]=FY24-Q2) along with company wide okrs
 
 ## Career Ladder

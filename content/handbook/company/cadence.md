@@ -51,7 +51,7 @@ Below is one example of how the cadence items in [cadence flow](#cadence-flow) f
 
 Successfully achieving our KR of a beta value stream means progress against our Yearly value stream dashboard goal, strategic goal of extending value stream management to more users, vision of an AllOps solution, and mission of everyone contributing. While the KR is a single building block, our successful completion within the quarter leads to progress against our longer term goals.
 
-## Cadence Updates
+## Update cadence
 
 We have a cadence for reviewing our elements. Specifically, each element is reviewed at the cadence of the element that is the next level down. For example, we revisit our 3 year strategy every year. This maps to when we do annual Yearlies. And, we revisit our Yearlies every quarter. This is the timeframe for creating OKRs.
 
@@ -83,9 +83,8 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Strategy](/handbook/company/strategy/)
 1. [3-year product direction strategy](https://about.gitlab.com/direction/#3-year-strategy)
 1. [Long range outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
-1. [Restricted stock unit vesting](/handbook/stock-options/#vesting) after cliff of six months is passed
+1. [Restricted stock unit vesting](/handbook/total-rewards/stock-options/#vesting) after cliff of six months is passed
 1. Average retention of team members is around 3 years
-
 
 ## Year
 
@@ -102,10 +101,10 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. Sales targets (in [Clari](/handbook/business-technology/tech-stack/#clari))
 1. [E-group offsite](/handbook/company/offsite/)
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
-1. [Quarterly Kickoff](/handbook/ceo/chief-of-staff-team/#quarterly-kickoff)
+1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
-1. [Key Reviews](/handbook/key-review/)
-1. [Group Conversations](/handbook/group-conversations/)
+1. [Key Reviews](/handbook/company/key-review/)
+1. [Group Conversations](/handbook/company/group-conversations/)
 
 ## Month
 
@@ -117,7 +116,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 ## Week
 
 1. [1-1 cadence with reports](/handbook/leadership/1-1/)
-1. [E-Group Weekly](/handbook/e-group-weekly/)
+1. [E-Group Weekly](/handbook/company/e-group-weekly/)
 
 ## Gantt Chart
 

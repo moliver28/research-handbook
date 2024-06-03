@@ -267,6 +267,7 @@
   use_instead:
   - Go-between
   - intermediary
+  - middleperson
   reason: It is gender-specific and therefore exclusionary.
   exclude_from_exports: false
 

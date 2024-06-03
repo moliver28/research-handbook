@@ -6,6 +6,7 @@ title: Learning & Development Listening Tour
 **The L&D Listening Tour will identify opportunities at GitLab where training solutions can build and develop great teams to deliver on key business results.**
 
 The GitLab L&D team is hosting a listening tour to:
+
 1. Gather feedback from leaders across the organization to identify skill and experience gaps that the L&D team can support in FY25.
 1. Transition focus of L&D from reactive to proactive, solving key talent needs across the business.
 1. Understand the current perception of L&D at GitLab
@@ -52,7 +53,6 @@ If you are not selected, you can still contribute by filling out [this Google Fo
 | 2023-11-30 | Themes identified. |
 | 2023-12-15 | First draft of proposal complete. |
 | 2024-01-31 | Proposal sent to Wendy Barnes. |
-
 
 ## Questions
 

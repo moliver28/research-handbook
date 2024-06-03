@@ -42,20 +42,20 @@ This series included a mix of 5 internal and external speakers. The session reco
 | 2022-03-24 | [Internal Panel - Cross-Cultural Communication at GitLab](https://www.youtube.com/watch?v=XS4H_hVLF7o&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=4) |
 | 2022-04-13 | [Managing Information Overload with Joana Pais Afonso](https://www.youtube.com/watch?v=77-oNJnaTEo&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=6) |
 
-### FY22 Series:
+### FY22 Series
 
 | Date | Session Title + Link |
 | ----- | ----- |
 | 2021-06-01 | [Buildng your Rest Ethic with John Fitch Session 1](https://www.youtube.com/watch?v=acVRU5UjJEo&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=12) and [Session 2](https://www.youtube.com/watch?v=uklTuJeiTDo&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=10) |
-| 2021-11-18 | [Building Internal Culture with Google Team Members](https://www.youtube.com/watch?v=fFHadx3J3oA&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=9&t=321s)
+| 2021-11-18 | [Building Internal Culture with Google Team Members](https://www.youtube.com/watch?v=fFHadx3J3oA&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=9&t=321s) |
 | 2021-12-13 | [Managing Burnout with Skylyte](https://www.youtube.com/watch?v=2XmmGYlsEP8&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=7) |
 | 2021-12-14 | [Wellbeing Week with Krystal Wilkinson](https://www.youtube.com/watch?v=m-GBiLbfTVk&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=7) |
 
-### FY21 Series:
+### FY21 Series
 
 | Date | Session Title + Link |
 | ----- | ----- |
-| 2020-11-19 | [Building Trust with Remote Teams Learning Speaker Series](https://www.youtube.com/watch?v=hHMDY77upAE&feature=youtu.be)
+| 2020-11-19 | [Building Trust with Remote Teams Learning Speaker Series](https://www.youtube.com/watch?v=hHMDY77upAE&feature=youtu.be)|
 | 2020-12-10 | [Managing Burnout with Time Off with John Fitch](/handbook/company/culture/all-remote/mental-health/#rest-and-time-off-are-productive)|
 
 ### Hosting a Learning Speaker Series call
@@ -70,8 +70,8 @@ The following process outlines steps for the L&D team to take when planning and 
 1. Create a calendar event and share it with the `GitLab Team Meetings` calendar. Invite the `everyone` alias. Post in the [#people-connect Slack channel](https://app.slack.com/client/T02592416/C0SNC8F2N/thread/C0SNC8F2N-1602618225.269200) to accept event on the team meetings calendar. Consider hosting the call at least 2 times, or varying session times throughout a quarterly series, to accommodate for multiple time zones.
 1. Test Zoom functionality with the speaker at least two business days before event.
     - If external speaker, ensure they have downloaded [Zoom](https://zoom.us/support/download).
-    - Have speaker test [audio and video]({{< ref "/handbook/tools-and-tips/zoom#how-to-test-audio-and-video-in-zoom" >}}).
-    - Check that speaker will be able to [share a presentation]({{< ref "/handbook/tools-and-tips/zoom#how-to-share-a-presentation-in-zoom" >}}) if necessary.
+    - Have speaker test [audio and video](/handbook/tools-and-tips/zoom#how-to-test-audio-and-video-in-zoom).
+    - Check that speaker will be able to [share a presentation](/handbook/tools-and-tips/zoom#how-to-share-a-presentation-in-zoom) if necessary.
 1. Send speaker calendar invite with all details for the call (including, but not limited to, Zoom link, agenda, slides, etc.).
 1. Create an agenda for the presentation. GitLab team members can access templates in [this Google folder](https://drive.google.com/drive/u/1/folders/1jHdqyLlHn8syxL9MrRtXSaxB5zY5RubN?ths=true).
 1. Coordinate an announcement of the call in the #what's-happening-at-GitLab Slack channel at least 1 business day before the call.
