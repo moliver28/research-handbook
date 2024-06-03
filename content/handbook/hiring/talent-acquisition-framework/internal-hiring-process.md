@@ -46,7 +46,7 @@ description: "This page discusses the Internal Hiring Process"
 - Please note the following about this process:
    - TA will only start an official backfill process once the internal candidate signs their job change letter.
    - Internal team members should be alerting and receiving support from their current managers prior to formally applying to open roles. Offers at the end of an internal interview process should not come as a surprise to current managers.
-   - TA will not discuss any compensation changes with the team member’s current manager. 
+   - TA will not discuss any compensation changes with the team member’s current manager.
    - TA will not provide updates on interview feedback or progress to a team member’s current manager. This should be discussed between managers and team members during 1:1s. 
 #### Template for the Recruiter's slack message
 Hi XX and XX,
