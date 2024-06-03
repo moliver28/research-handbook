@@ -906,7 +906,9 @@ Our ongoing OKR review includes:
 3. If everyone gets their updates in 2 days ahead of the PI review meeting, and there are no open discussion points after async review, we cancel the PI sync meeting.
 4. Our agenda doc is updated each month, though, as we review async to ensure that all things that need conversation are discussed async. ([agenda doc](https://docs.google.com/document/d/17smuC22Ncu5PP0Ao9QdZnkWK0nbe7ArJveDRp-95AGE/edit#heading=h.n8ipg35nq4u1))
 
-Finally, at the end of the quarter, stage leaders score the OKRs and leave a comment in the top level objective summarizing it. ([FY25 Q1 example](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5573#note_1883160327)). This final step is critical since it helps us reflect and hold ourselves accountable, as well as celebrate what we accomplished which otherwise often goes unnoticed. We cross-post this last update to Slack for more visibility in our #s_fulfillment_fyi channel.
+Finalizing and closing OKRs:
+
+At the end of the quarter, stage leaders score the OKRs and leave a comment in the top level objective summarizing it. ([FY25 Q1 example](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5573#note_1883160327)). This final step is critical since it helps us reflect and hold ourselves accountable, as well as celebrate what we accomplished which otherwise often goes unnoticed. We cross-post this last update to Slack for more visibility in our #s_fulfillment_fyi channel.
 
 ### Common Provisioning Bugs
 
