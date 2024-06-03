@@ -26,8 +26,8 @@ Please reach out to your aligned People Business Partner (PBP) (listed aplhabeti
 | Anjali Kaufmann   | People Goup |
 | Anjali Kaufmann   | Legal and Corporate Affairs |
 | Anjali Kaufmann   | Finance |
-| Carolyn Bednarz  | Sales |
 | Carlie Russell    | Sales - Partners, CSM & Renewals,  Solutions Architecture, Professional Services|
+| Carolyn Bednarz  | Sales - APJ|
 | Giuliana Lucchesi | Product |
 | Giuliana Lucchesi | Security |
 | Jenny Burns       | Sales - EMEA |
