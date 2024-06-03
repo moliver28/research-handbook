@@ -794,30 +794,27 @@ ARR_Net__c(formula field driven by automation)
 Changes to existing net arr formula field : Two additional layers are added. Layer 1 -> To check if stage 1 xdr net arr drives net arr when no quote is present & opp is in stage 1. Layer 2 -> To check if the opportunity is a renewal opportunity, without net arr override and has a primary quote of type subscription. If so, net arr formula field is driven by net arr automation. For all other scenarios, existing formula logic works
 
 **Logic Locations**
-TF_OpportunityAfterCreateUpdateNetARRAutomation flow
-TF_OpportunityAfterUpdate_StampNetARRAutomation flow
-TF_QuoteAfterCreateUpdate_StampNetARRAutomation flow
-TF_OpportunityAfterUpdate_SyncStage1NetARR flow
-Net_ARR_Automation__c field in Opportunity
-ARR_Net__c field in Opportunity
+- TF_OpportunityAfterCreateUpdateNetARRAutomation flow
+- TF_OpportunityAfterUpdate_StampNetARRAutomation flow
+- TF_QuoteAfterCreateUpdate_StampNetARRAutomation flow
+- TF_OpportunityAfterUpdate_SyncStage1NetARR flow
+- Net_ARR_Automation__c field in Opportunity
+- ARR_Net__c field in Opportunity
 
 ### Australian Federal Government - Confidential Accounts
 
- **Business Process this supports**-  The sales cycle and Operations
+**Business Process this supports** - The sales cycle and Operations.
+**Overview**
+Selected number of Australian Federal Government accounts & associated opportunities will no longer be visible to all team members due to their confidential nature.
 
-**Overview** 
+**Logic**
 
-Selected number of Australian Federal Government accounts & associated opportunities will no longer be visible to all team members due to their confidential nature. 
-
-
-**Logic** 
-- When the checkbox `AU Govt Confidential Account`is enabled in Account, the automation will auto enable the checkbox ` SAFE Account AU Govt confidential` in  all the existing opportunities and new opportunities created for that account which will hide  the Accounts and Opportunities from the users who are not part of `SAFE 2.0 - Australian FedGovt` public group.
-- These Accounts and Opportunities are shared using Sharing rules below.
-
+When the checkbox `AU Govt Confidential Account`is enabled in Account, the automation will auto enable the checkbox ` SAFE Account AU Govt confidential` in  all the existing opportunities and new opportunities created for that account which will hide  the Accounts and Opportunities from the users who are not part of `SAFE 2.0 - Australian FedGovt` public group.
+These Accounts and Opportunities are shared using Sharing rules below.
 
 **Logic Locations**
 
 [Flow - Account Update](https://gitlab.lightning.force.com/lightning/setup/Flows/page?address=%2F3008X000000gD47QAE%3FretUrl%3D%2Flightning%2Fsetup%2FFlows%2Fhome)
 [Flow - Opportunity](https://gitlab.lightning.force.com/lightning/setup/Flows/page?address=%2F3008X000000gD48QAE%3FretUrl%3D%2Flightning%2Fsetup%2FFlows%2Fhome)
-[Sharing Rules - Account](https://gitlab.lightning.force.com/lightning/setup/SecuritySharing/home)
-[Sharing Rules - Opportunities](https://gitlab.lightning.force.com/lightning/setup/SecuritySharing/home)
+[Sharing Rules - Account](https://gitlab.lightning.force.com/lightning/setup/SecuritySharing/home).
+[Sharing Rules - Opportunities](https://gitlab.lightning.force.com/lightning/setup/SecuritySharing/home).
