@@ -27,6 +27,7 @@ The information contained on this page is organized into two distinct categories
 | [**Best Practices for a Legal Call**](#best-practices-for-a-legal-call) |  |
 | [**Request for Training (LevelUp) Certification Purchases**](#request-for-training-levelup-certification-purchases)|  |
 | [**Request for an Evaluation Agreeement**](#request-for-a-trial-or-evaluation-agreement) |  |
+| [**Request for Non-Standard Go-To-Market and Pricing From Legal**](https://gitlab.com/gitlab-com/Product/-/issues/new) | |
 
 ## OPERATIONAL
 
@@ -198,6 +199,10 @@ If a customer declines the trial process and is adamant to have a separate Evalu
 Provided the customer has been directed to the trial process first and approvals have been received, the applicable Legal team member will then provide a Request Form, setting forth the details of the evaluation for execution by the customer and GitLab. The Request Form and free access to the GitLab Software will be subject to the terms of the Evaluation Agreement which is attached to the Request Form.
 
 Once the Request Form is executed, the sales team member or solutions architect should save the document in the customer’s account in SFDC. Sales Support should then be tagged in SFDC to assist in activating customer’s free access to the GitLab Software for the applicable term and number of users.
+
+### Request for Non-Standard Go-To-Market and Pricing From Legal
+
+All sales-related requests that will ultimately require Legal assistance for a non-standard GTM scheme or non-standard pricing, must have an Issue opened by Sales on the Product board [here](https://gitlab.com/gitlab-com/Product/-/issues/new). Please choose either the **monetization-intake** template or the **monetization-intake-simple** template. Once created, the issue will alert the apprpropriate stakeholders for internal review, comments, and approvals. Legal will follow the progress of the Issue, but will not draft the associated agreement or non-standard lanuage until all appropriate stakeholders have approved.
 
 ## EDUCATIONAL
 
