@@ -108,4 +108,4 @@ are both documented in the in-progress documentation MR.
 
 Secret Detection audit log events are documented [here](https://docs.gitlab.com/ee/user/compliance/audit_event_types.html#secret-detection).
 
-For GitLab.com, logs of blocked push events due to detected secrets can be viewed [here](https://log.gprd.gitlab.net/app/discover#/view/db7ba29d-d406-46df-8b43-e6d9c47fbed7).
+For GitLab.com, all logged events can be viewed [here](https://log.gprd.gitlab.net/app/discover#/view/31afcbb2-28e9-466f-a6c3-486e869e1ee3?_g=()&_a=h@bd3f1e1), and logs of just blocked push events due to detected secrets can be viewed [here](https://log.gprd.gitlab.net/app/discover#/view/db7ba29d-d406-46df-8b43-e6d9c47fbed7).
