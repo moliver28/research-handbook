@@ -299,7 +299,7 @@ social media, when you see alignment to our values: [GitLab's values](/handbook/
 
 ![Custom emoji](/images/handbook/values-custom-emoji.png)
 
-As a second iteration, we will [add these custom emoji to GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/231317) to enable tanuki values reactions in issues and MRs.
+As a second iteration, we have [added these custom emoji to GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/231317) to enable tanuki values reactions in issues, epics, and MRs within the `gitlab-com` and `gitlab-org` groups.
 
 As a later iteration, we will begin tracking the number of emoji reactions for each value through the Reacji API and update this page with our findings!
 
