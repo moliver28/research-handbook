@@ -60,7 +60,7 @@ When we have ideas for projects but we aren't certain that they are the right th
 
 There is one Opportunity Backlog epic per roadmap.
 
-Ideas are documented in issues or epics and attached to the relevant Opportunity Backlog epic. These issues and epics have the triage workflow ![Triage](img/label-triage.png) label and can have very little detail.
+Ideas are documented in issues or epics and attached to the relevant Opportunity Backlog epic. These issues and epics can have very little detail and have the label for the triage workflow ![Triage](img/label-triage.png)
 
 The Product Manager and Engineering Managers regularly review the Opportunity Backlog. In a review session, they will note on the issue or epic if:
 
@@ -86,15 +86,25 @@ Any project that is being prepared should be a child of a roadmap epic. These ep
 A Roadmap epic has three sections: Now, Next and Later. These list, in priority order, what the team is working on, what they will do next, and what they might address at a later date.
 
 **Now**
+
+- ![In Progress](img/label-in_progress.png)
+
 For the 'Now' section, the common pattern is to link to our [Scalability top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148) so we have a consistent SSoT for the work in progress.
 
-Projects in this section are in progress ![In Progress](img/label-in_progress.png).
+Projects in this section are in progress.
 
 **Next**
-The 'Next' section contains projects that are ready for development ![Ready](img/label-ready.png) and are the highest priority projects on the roadmap.
+
+- ![Ready](img/label-ready.png)
+
+The 'Next' section contains projects that are the highest priority projects on the roadmap and are ready for development.
 
 **Later**
-This section contains projects that are either ready for development ![Ready](img/label-ready.png)  or still proposals ![Proposals](img/label-proposal.png).
+
+- ![Proposals](img/label-proposal.png)
+- ![Ready](img/label-ready.png) 
+
+This section contains projects that are either ready for development or still proposals.
 
 During review, the Engineering Manager or Product Manager will indicate if more information is required to accept a proposal.
 
@@ -102,7 +112,7 @@ A Roadmap epic can have sub-epics that are also roadmaps. For example, the Pract
 
 #### Ready for Development
 
-Epics that are in the workflow state of proposal ![Proposals](img/label-proposal.png) will be reviewed to see if they can be advanced to ready for development ![Ready](img/label-ready.png).
+Epics that are in the workflow state of proposal will be reviewed to see if they can be advanced to ready for development.
 
 For an epic to be ready, the following information must be present on the epic:
 
