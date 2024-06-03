@@ -141,13 +141,13 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 
 ## Technical exploration ("Spike") guidelines
 
-Occaisionally, the team will be asked to dedicate time to exploring or "spiking" a technical solution to a problem or opporunity area deemed a priority by Growth PM. Technical spikes are fundamentally different than our typical work items as the result is more commonly a recommendation on a technical direction or solution (in the form of additional epics and/or issues) rather than code, yet they still require dedicated developer focus and should be accounted for in our development workflows. As such, we've determined the following guidelines and responsibilities for individual Growth Engineers to follow when addressing a techincal spike in our workflow:
+Occasionally, the team will be asked to dedicate time to exploring or "spiking" a technical solution to a problem or opporunity area deemed a priority by Growth PM. Technical spikes are fundamentally different than our typical work items as the result is more commonly a recommendation on a technical direction or solution (in the form of additional epics and/or issues) rather than code, yet they still require dedicated developer focus and should be accounted for in our development workflows. As such, we've determined the following guidelines and responsibilities for individual Growth Engineers to follow when addressing a techincal spike in our workflow:
 
-Note: As of Q2 FY25, technical spikes will follow the same workflow process as code-based issues - they will enter ~workflow::refinement, then be scheduled and prioritized for pick up in ~workflow::ready for development. Active technical spike work will be represented in ~workflow::in dev. Once outputs are completed, the techncial spike issue will be closed and moved to ~workflow::complete.
+Note: As of Q2 FY25, technical spikes will follow the same workflow process as code-based issues - they will enter `~workflow::refinement`, then be scheduled and prioritized for pick up in `~workflow::ready for development`. Active technical spike work will be represented in `~workflow::in dev`. Once outputs are completed, the technical spike issue will be closed and moved to `~workflow::complete`.
 
 **Inputs**
 
-As a technical spike is prioritized and available for pickup in ~workflow::ready for development, complete the following steps:
+As a technical spike is prioritized and available for pickup in `~workflow::ready for development`, complete the following steps:
 
 - Assign yourself to the technical spike along with the current milestone
 - Connect with the responsible PM to align on a reasonable due date for the technical spike. Duration will be dependent on the subject matter and Growth's familiarity with the topic.
@@ -160,9 +160,9 @@ As a technical spike is prioritized and available for pickup in ~workflow::ready
 As the technical spike work comes to a completion, complete the following steps to close out the spike process:
 
 - Provide a summary comment with detailed learnings of your investigation and recommended path(s) for the solution in the spike issue. Include an outline of the recommended next step issues and/or epics to be created for the next phase of work.
-- Tag in the responsible PM, EM, and Growth Engineering team (@gitlab-org/growth/engineering team) for review.
+- Tag in the responsible PM, EM, and Growth Engineering team (`@gitlab-org/growth/engineering` team) for review.
 - Confirm with the responsible PM that the spike requirements have been met within the alotted duration time.
-- Move the technical spike issue to ~workflow::complete.
+- Move the technical spike issue to `~workflow::complete`.
 - Close the technical spike issue.
 
 ### UX
