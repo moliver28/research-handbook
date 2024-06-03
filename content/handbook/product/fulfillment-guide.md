@@ -892,7 +892,7 @@ Fulfillment resourcing is allocated to work on top priority work, which is gener
 
 Fulfillment FY25 Q2 OKRs are listed in https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6895 (team member access only). We have a similar top-level objective for the Fulfillment Stage each quarter.
 
-To set our OKRs:
+Setting OKRs:
 
 1. Each quarter the Fulfillment Stage product leader kicks off OKR planning by starting a top-level objective in GitLab OKRs with a draft list of top priorities.
 1. Quads for each Fulfillment group work together to plan their quarterly work and add sub-objectives/KRs to map to those top priorities.
