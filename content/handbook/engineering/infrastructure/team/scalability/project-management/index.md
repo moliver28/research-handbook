@@ -63,6 +63,7 @@ There is one Opportunity Backlog epic per roadmap.
 Ideas are documented in issues or epics and attached to the relevant Opportunity Backlog epic. These issues and epics have the triage workflow ![Triage](img/label-triage.png) label and can have very little detail.
 
 The Product Manager and Engineering Managers regularly review the Opportunity Backlog. In a review session, they will note on the issue or epic if:
+
 - An idea should be built into a proposal (the EM will then work with an Engineer to build a proposal)
 - An idea was considered but is not high enough priority to act on at this time
 - An idea is not relevant and the issue will be redirected to another team or closed
