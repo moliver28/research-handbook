@@ -95,11 +95,10 @@ Examples of minimal showcases:
     - What is the desired business and customer outcome?
     - Ideally, describe the [JTDB](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
         - When, [user's context]. I want to [user's goal]. So I can [user's desired outcome].
-    - What were the constraints?
-    - How did you iterate toward an MVC?
+    - What were/are the constraints?
+    - How did you/are you planning to iterate toward an MVC?
 - Walk your audience through the solution iterations:
-    - You might prepare a few slides, but this is optional.
-    - Be yourself and tell the story of the work you did.
+    - Be yourself and tell the story of the work.
     - Use existing mockups and flows, rather than creating something new.
 - Invite discussion:
     - How might this overlap with or help other teams?
