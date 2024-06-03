@@ -83,7 +83,7 @@ coworkers, easier. Current and past Support Readiness Specialists in Operations 
   [version controlled via GitLab.com](/handbook/support/support-ops/documentation/sync_repos.html).
 - ...and even more!
 
-### Services Delivery
+### Data Analysis & Service Delivery
 
 As a Support Readiness Specialist - Services Delivery, you will be responsible
 for ensuring that support quality remains high by gathering metrics, identifying
