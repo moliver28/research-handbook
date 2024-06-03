@@ -115,12 +115,12 @@ The Staff IT Compliance role is a [grade 8](/handbook/total-rewards/compensation
 - Provide actionable and constructive advisement to cross-functional teams, to include driving remediation activities for high and select moderate risk Observations across several GitLab departments
 - Implement security compliance technical and process improvements
 - Mentor other IT Compliance Engineers and improve quality and quantity of the team's output
-- Design and implement major iterations on GitLab's security control framework in alignment with industry trends
-- Participate in IT Security and Compliance roadmap development based on customer needs
+- Design and implement major iterations on GitLab's IT/security control framework in alignment with industry trends
+- Participate in IT Compliance roadmap development to assist IT compliance management in planning and executing initiatives
 - Predict future industry trends and demands to position GitLab as an industry expert of IT Compliance and execute initiatives to support these trends
 - Create dynamic open-source IT security compliance programs that deliver value to our internal stakeholders
-- Build the GitLab IT Security Compliance brand through regular internal and external presentations and publications
-- Design, develop, and deploy scripts to automate continuous control monitoring, administrative tasks and metric reporting for all IT security compliance programs
+- Build the GitLab IT Compliance brand through regular internal and external presentations and publications
+- Assist in the design to automate continuous control monitoring, administrative tasks and metric reporting for all IT compliance programs
 - Successfully execute on quarterly KRs associated with OKRs
 
 ### Staff IT Compliance Engineer Requirements
@@ -148,7 +148,7 @@ The IT Compliance role is a [grade 8](/handbook/total-rewards/compensation/compe
 - Represent the IT Compliance team in different company functions
 - Create and execute a plan to develop and mature our IT Compliance capabilities and Infrastructure
 - Collaborate with all functions of the company to ensure IT Compliance needs are addressed
-- This position reports to the VP of Information Technology
+- Successfully execute on quarterly KRs associated with OKRs
 
 ### Manager, IT Compliance Requirements
 
@@ -194,6 +194,42 @@ This role includes all of the requirements above, plus:
 - Ability to foster a culture of compliance within the organization.
 - Ability to prepare and present compliance reports to senior management and the board.
 - Strong interpersonal skills to build relationships with internal and external stakeholders.
+
+## Director, IT Compliance
+
+### Director, IT Compliance Job Grade
+
+The IT Compliance role is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Director, IT Compliance Responsibilities
+
+- Develop and drive the overall IT compliance strategy aligned with business goals.
+- Ensure the organization’s compliance with relevant regulations (e.g., GDPR, HIPAA, SOX).
+- Oversee internal and external IT compliance audits and address findings.
+- Provide comprehensive compliance reports to executive leadership and the board.
+- Lead and mentor the IT compliance team, fostering a culture of continuous improvement.
+- Oversee the integration of compliance strategies into broader IT and business strategies.
+- Evaluate and implement advanced technologies and tools to enhance IT compliance.
+- Represent the organization in industry forums and maintain relationships with regulatory bodies.
+- Develop key performance indicators (KPIs) and metrics to measure and report on compliance program effectiveness.
+- Act as a strategic advisor to senior management on compliance matters and regulatory changes.
+- Drive continuous process improvement and the adoption of best practices in compliance management.
+- Collaborate with senior executives to integrate compliance requirements into strategic initiatives.
+
+### Director, IT Compliance Requirements
+
+This role includes all of the requirements above, plus:
+
+- Bachelor’s degree in IT, Computer Science, Business Administration, or a related field.
+- 10+ years of experience in IT compliance or information security, with leadership roles.
+- Relevant certifications such as CISA, CISM, CRISC, CISSP, or ITIL.
+- Expert knowledge of regulations and standards like SOX, GDPR, HIPAA,.
+- Exceptional leadership skills and excellent communication skills.
+- Advanced knowledge of IT systems, network security, and compliance technologies.
+- Proven experience in strategic planning and driving large-scale compliance initiatives.
+- Strong ability to analyze compliance data and trends to inform decision-making.
+- Experience managing budgets and aligning resources with strategic priorities.
+- High ethical standards and commitment to upholding organizational integrity.
 
 ## Hiring Process
 
