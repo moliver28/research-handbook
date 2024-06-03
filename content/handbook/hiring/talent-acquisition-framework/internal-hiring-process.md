@@ -49,6 +49,7 @@ description: "This page discusses the Internal Hiring Process"
    - TA will not discuss any compensation changes with the team member’s current manager.
    - TA will not provide updates on interview feedback or progress to a team member’s current manager. This should be discussed between managers and team members during 1:1s.
 
+
 #### Template for the Recruiter's slack message
 Hi XX and XX,
 
