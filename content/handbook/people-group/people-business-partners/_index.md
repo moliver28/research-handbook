@@ -19,16 +19,23 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 
 ### People Business Partner Alignments
 
-| Contact | Division - Department |
-|-------------------|------------|
-| Anjali Kaufmann   | G&A: People Group, Finance, LACA  |
-| Denise Parsonage  | Marketing: Awareness, Brand Activation, Campaigns, CMO Executive, Communications, Developer Relations, Content Marketing, Digital Design, Digital Marketing, Field Marketing, Marketing Ops, Partner Marketing, Sales Development, and Search Marketing |
-| Carolyn Bednarz   | Sales: Enterprise Sales  |
-| Carlie Russell    | Sales: Customer Success, Channel and Alliances |
-| Lauren Tepper     | Sales: Commercial Sales, Field Operations   |
-| Giuliana Lucchesi | Product: Product Management and UX; CISO: Security   |
-| Kristina Bullock  | Engineering: CTO, Customer Support, Quality/Infrastructure, Chief of Staff   |
-| Jess Durbin       | Engineering: Core Development and Expansion  |
+Please reach out to your aligned People Business Partner (PBP) (listed aplhabetically by first name) to engage in the following areas:
+
+| Contact | Division or Departments |
+|-------------------|--|----------|
+| Anjali Kaufmann   | People Goup |
+| Anjali Kaufmann   | Legal and Corporate Affairs |
+| Anjali Kaufmann   | Finance |
+| Carolyn Bednarz  | Sales |
+| Carlie Russell    | Sales - CSM, Consulting Delivery, Customer Success, Practice Management, Renewals, SA (Solutions Architecture), Alliances, Alliances and Channel, Education Delivery, Education Services |
+| Giuliana Lucchesi | Product |
+| Giuliana Lucchesi | Security |
+| Jenny Burns       | Sales - EMEA |
+| Jess Durbin       | Engineering - Core Development, Expansion |
+| Kristina Bullock       |Chief of Staff to the CEO|
+| Kristina Bullock  | Engineering - Customer Support, Infrastructure, Quality |
+| Lauren Tepper     | Sales | Direct Sales - AMER, AMER - Commercial Sales, Field Operations, Field Ops - Child, Public Sector - FED, Public Sector - SLED, Direct Sales - PubSec, Global Digital - AMER, Enablement, SMB, CRO, AMER - Enterprise Sales  |
+| Brandi McDonald | Marketing |
 
 ## How to partner with PBPs to foster high performance in your team
 
