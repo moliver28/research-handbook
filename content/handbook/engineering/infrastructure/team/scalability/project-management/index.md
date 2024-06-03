@@ -146,7 +146,7 @@ When the project is complete, follow the instructions on the [SaaS Plaforms proj
 
 When the epic is closed, it can remain associated to the top-level epic. When we have too many epics associated, or when the end-of-year summary is produced, these epics are moved to the "Completed in Year xxx" epics, of which [this](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1266) is an example.
 
-# Issue boards
+## Issue boards
 
 The Scalability group [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) track
 the progress of ongoing work.
@@ -162,7 +162,7 @@ planning board will move to the build board immediately.
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
 | ![Triage](img/label-triage.png)    <br/>![Proposal](img/label-proposal.png) <br/>![Ready](img/label-ready.png) | ![Ready](img/label-ready.png) <br/>![In Progress](img/label-in_progress.png) <br/>![Under Review](img/label-under_review.png) <br/>![Verify](img/label-verify.png) <br/>![Done](img/label-done.png)|
 
-# Labels
+## Labels
 
 The Scalability teams routinely uses the following set of labels:
 
