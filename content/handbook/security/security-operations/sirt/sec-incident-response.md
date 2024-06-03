@@ -38,7 +38,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 1. Detection
     - The SIRT, other internal, or external entity identifies a Security or Privacy Event that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may the result of an innocent error
     - One of our Security detection controls identifies event outside of the established security baseline
-    - A security issue is [escalated into an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) as a preventative measure
+    - A security issue is [escalated into an incident](/handbook/engineering/infrastructure/incident-management/#security-incidents) as a preventative measure
 1. Analysis
     - SIRT determines whether the reported security or privacy event is in actuality security or a privacy event
     - SIRT determines the incident severity and priority based on the following [incident classification]({{< ref "severity-matrix" >}}) methodology
