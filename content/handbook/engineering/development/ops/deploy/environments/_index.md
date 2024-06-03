@@ -200,8 +200,8 @@ In discovery we use the following labels
 
 #### Delivery backlog
 
-1. `~workflow::refinement` - this is our (likely endless) delivery backlog; it contains all the issues that were not discussed by engineers in depth yet
-1. `~workflow::scheduling` - this is our (likely endless) backlog of already discussed issues; these issues are still waiting to be scheduled or even to be put on the roadmap; issues entering should have a preliminary weight
+1. `~workflow::refinement` - this is our delivery backlog; it contains all the issues that were not discussed by engineers in depth yet; this has no WIP limits
+1. `~workflow::scheduling` - this is our backlog of already discussed issues; these issues are still waiting to be scheduled or even to be put on the roadmap; issues entering should have a preliminary weight; this has no WIP limits
 1. `~workflow::planning breakdown` - this is the backlog for the upcoming milestone;  it has a WIP limit of 2-months capacity
 1. `~workflow::ready-for-development` - this is the list of issues refined for the current or the upcoming milestone; it has a WIP limit of 2-months capacity; issues here should have a final weight
 
