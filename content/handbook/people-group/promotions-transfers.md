@@ -385,7 +385,7 @@ A goal through this process is to continue to facilitate opportunity to provide 
 
 The feedback form asks for feedback provider's information, so promotion candidates and their managers will have visibility into specifics of the feedback provided. At the CISO directs calibration session we will review themes in [this structure](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit).
 
-Feedback provided **will not** be shared outside of the promotion candidates' leadership chain and CISO directs group.
+Feedback provided **will not** be shared outside of the promotion candidates' leadership chain, CISO directs group, and aligned [People Busines Partner](https://handbook.gitlab.com/handbook/people-group/people-business-partners/#people-business-partner-alignments).
 
 #### Resources
 
