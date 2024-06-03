@@ -85,7 +85,7 @@ If you need assistance with a production issue or incident, please see the secti
 |[confidential managers channel](https://gitlab.enterprise.slack.com/archives/C034V5P1725) | Used for specific communication. We default to public channels. |
 |[#g_scalability-observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)| Team channel for general work in Observability. |
 |[#g_scalability-practices](https://gitlab.enterprise.slack.com/archives/C04M6HVAY49)| Team channel for general work in Practices. |
-|[#scalability-social](https://gitlab.enterprise.slack.com/archives/C0108V9SQHY)| |
+|[#scalability-social](https://gitlab.enterprise.slack.com/archives/C0108V9SQHY)| Our social channel. |
 | #scalability-id-project-name() | We use project specific channels to keep make it easier to follow specific topics. Channel names follow this format. |
 
 Queries to the Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
