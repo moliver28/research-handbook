@@ -42,7 +42,7 @@ description: "This page discusses the Internal Hiring Process"
    - Facilitate a discussion around a transition date that works for both parties. Please note that TA’s involvement is to facilitate this conversation and is not the decision maker. Ultimately, a transition date is something that should be agreed upon between a current manager and hiring manager. A finalized start date will be needed as TA submits an offer for approvals.
    - Some suggestions for transition timelines include:
       - Aiming for between 4-6 weeks for an official transition date to ensure the team with the backfill has lead time on filling the position
-      - A one month 50/50 split between teams to ease into a full time transition. For any moves from Sales Development, please be aware the team requests a 45 day transition period from the date of a verbal offer 
+      - A one month 50/50 split between teams to ease into a full time transition. For any moves from Sales Development, please be aware the team requests a 45 day transition period from the date of a verbal offer
 - Please note the following about this process:
    - TA will only start an official backfill process once the internal candidate signs their job change letter. 
    - Internal team members should be alerting and receiving support from their current managers prior to formally applying to open roles. Offers at the end of an internal interview process should not come as a surprise to current managers. 
