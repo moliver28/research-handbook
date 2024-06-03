@@ -172,10 +172,10 @@ Incident delineator `Incident` denotes that an issue should be considered an inc
 
 | **`Incident::Phase`**              | What stage is the incident at? |
 | ---------------------------------- | ------------------------------ |
-| `Incident::Phase::Identification`  | Incident is currently being triaged (log dives, analysis, and verification) |
-| `Incident::Phase::Containment`     | Limiting the damage (mitigations being put in place) |
-| `Incident::Phase::Eradication`     | Cleaning, restoring, removing affected systems, or otherwise remediating findings |
+| `Incident::Phase::Creat`           | Incident just has been created and has not been triaged yet |
+| `Incident::Phase::Active`          | Incident started being triaged (log dives, analysis, verification, Eradication and Containment)  |
 | `Incident::Phase::Recovery`        | Testing fixes, restoring services, transitioning back to normal operations |
+| `Incident::Phase::Report`          |
 | `Incident::Phase::Incident Review` | The incident review process has begun (required for all S1/P1 incidents) |
 
 | **`Incident::Category`**                    | What is the nature of the incident? |
@@ -207,11 +207,6 @@ Incident delineator `Incident` denotes that an issue should be considered an inc
 | `Incident::Organization::end-user-devices` | Team member devices |
 | `Incident::Organization::EnterpriseApps`   | Other enterprise apps not defined here (Zoom, Slack, etc) |
 
-| **`Incident::Source`**       | How did SIRT learn of the incident? |
-| ---------------------------- | ----------------------------------- |
-| `Incident::Source::External` | An external source (such as a GitLab.com customer) |
-| `Incident::Source::Internal` | An internal source (such as a finding by a team member) |
-
 | **`Incident::Origin`**                  | How did GitLab learn of the incident? |
 | --------------------------------------- | ------------------------------------- |
 | `Incident::Origin::Email`               | Reported via email |
@@ -237,12 +232,13 @@ We currently track several labels specific to phishing-related incidents:
 
 | **`Phishing::Category`**            | What type of phishing attack? |
 | ----------------------------------------- | ----------------------------- |
-| `Phish_Target::Compromise`  | Denotes the attempt of having the user install an unwanted application. |
-| `Phish_Target::Credentials`  | Denotes phishing attacks that try to collect credentials. |
-| `Phish_Target::Financial`  | Denotes phishing attacks that have a clear financial goal. |
-| `Phish_Target::Invalid`  | Denotes a situation where there is no phishing goal possible. |
-| `Phish_Target::Simulation`  | Denotes phishing emails that are part of an internal phishing simulation campaign. |
-| `Phish_Target::Spam`  | A spam email that has been reported as phishing. |
+| `Phish_Conclusion::Compromise`  | Denotes the attempt of having the user install an unwanted application. |
+| `Phish_Conclusion::Credentials`  | Denotes phishing attacks that try to collect credentials. |
+| `Phish_Conclusion::Financial`  | Denotes phishing attacks that have a clear financial goal. |
+| `Phish_Conclusion::Invalid`  | Denotes a situation where there is no phishing goal possible. |
+| `Phish_Conclusion::Simulation`  | Denotes phishing emails that are part of an internal phishing simulation campaign. |
+| `Phish_Conclusion::Spam`  | A spam email that has been reported as phishing. |
+| `Phish_Conclusion::legitimate` | A legitimate email that has been reported as phishing. |
 
 ## Exceptions
 
