@@ -171,7 +171,7 @@ The IT Compliance role is a [grade 9](/handbook/total-rewards/compensation/compe
 - Generate and implement process improvements, especially cross-team processes
 - Hold regular 1:1s with team managers and skip-level 1:1s with all members of their team
 - Assist in building morale, support and alignment within their sub-department
-Work cross-functionally (both within and outside of IT) to promote and gain prioritization of sub-department needs
+- Work cross-functionally (both within and outside of IT) to promote and gain prioritization of sub-department needs
 - Work closely with the IT leadersip team on all things compliance
 - Advises over GitLab IT SOX program to ensure the program is run effectively and efficiently.
 -Leads the implementation of  the Company’s IT internal controls over financial reporting to ensure all controls are implemented over existing and new IT systems that are onboared.
