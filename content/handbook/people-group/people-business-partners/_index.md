@@ -22,7 +22,7 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 Please reach out to your aligned People Business Partner (PBP) (listed aplhabetically by first name) to engage in the following areas:
 
 | Contact | Division or Departments |
-|-------------------|--|----------|
+|-------------------|-------------|
 | Anjali Kaufmann   | People Goup |
 | Anjali Kaufmann   | Legal and Corporate Affairs |
 | Anjali Kaufmann   | Finance |
