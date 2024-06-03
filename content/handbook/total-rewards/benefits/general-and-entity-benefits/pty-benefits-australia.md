@@ -67,7 +67,7 @@ Please email *paul.dervan@wtwco.com* and cc’ *total-rewards@gitlab.com*
 
 ### Superannuation
 
-GitLab will make superannuation contributions directly to the team member's nominated super fund according to the Australian Government Super Guarantee rate which is currently set at 11% of the team member's total salary, with a quarterly cap of $6,849.70 AUD. Super is on top of the salary listed in the compensation calculator/contract.
+GitLab will make superannuation contributions directly to the team member's nominated super fund according to the Australian Government Super Guarantee rate. Effective 2024, the superannuation rate is set at 11.5% of the team member's total salary, with a quarterly cap of $7,483.05 AUD. Super is on top of the salary listed in the compensation calculator/contract.
 
 #### Superannuation payments due dates
 
@@ -81,7 +81,7 @@ Payments due dates can be found on the [ATO website](https://www.ato.gov.au/busi
 
 #### Superannuation Salary Sacrifice
 
-Team members in Australia have the option to make concessional super contributions by sacrificing some of their pre-tax pay and arrange to have it paid into their superfund instead. The combined total of GitLab and salary sacrificed contributions [must not be more than $27,500](https://www.ato.gov.au/Individuals/Super/In-detail/Growing-your-super/Super-contributions---too-much-can-mean-extra-tax/?page=2#Concessional_contributions_and_contribution_caps) per financial year.
+Team members in Australia have the option to make concessional super contributions by sacrificing some of their pre-tax pay and arrange to have it paid into their superfund instead. Effective July 1, 2024 the combined total of GitLab and salary sacrificed contributions [must not be more than $30,000], (https://www.ato.gov.au/Individuals/Super/In-detail/Growing-your-super/Super-contributions---too-much-can-mean-extra-tax/?page=2#Concessional_contributions_and_contribution_caps) per financial year.
 
 *Salary Sacrifice FAQ*
 
