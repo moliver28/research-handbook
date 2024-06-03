@@ -100,7 +100,7 @@ To help place the correct severity rating on the incident you are about to submi
 Coordinate with internal teams and prepare for the incident investigation:
 
 - Open an incident-focused Slack channel to centralize non-verbal discussion, particularly if the incident is of a sensitive nature. This can be done by using `/sirt_escalate` in slack.
-- Invite all available parties to the channel and SIRT Zoom conference bridge for easier discussion.
+- Invite all available parties to the channel. Use the channel and the SIRT Zoom conference bridge for easier discussion.
 - If a different high-severity incident is already in progress, create a new Zoom conference call and pin it to the incident Slack channel's topic. Invite all available parties to this call for easier discussion.
 - If the incident was created by the security pager, a Google Drive folder and shared Google Doc should have been created automatically and linked to the issue. If the incident was created manually:
     - Set up a [shared Google Drive folder or GCS bucket](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/external_requests/handling_and_sharing_artifacts.md#storing-and-sharing-files-using-google-cloud-storage) for centralized storage of evidence, data dumps, or other pieces of critical information for the incident.
