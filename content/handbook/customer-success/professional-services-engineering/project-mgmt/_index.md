@@ -41,7 +41,9 @@ Given the close collaboration between the PS Project Management and PS Operation
       * Make a copy of the [project kick-off template](https://docs.google.com/presentation/d/1XUljBcQUZgQA-0fhQ5UayiEGtp4Of3xsaFGpVxdoDS4/edit?usp=sharing) to your project's Drive folder
 5. PMs then schedule and conduct the EM>PS Transition Meeting with the Technical Delivery team- the goal is to ultimately review the engagement purpose, expectations and assumptions, and SoW/DoW
 6. PMs to conduct the [Stakeholder Introduction](https://docs.google.com/document/d/1fOmBxXf9MqYHQ8LZD5nIepu5WcFeTiwss59RJbd3BWE/edit?usp=sharing) Meeting & prepare for Kickoff
-7. Create an external Slack channel to collaborate with the customer and add a link to it to the kick-off deck. [AR example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24542)
+7. Create an external Slack channel to collaborate with the customer and add a link to it to the kick-off deck. 
+   * Guidelines around Access Requests can be found [here](https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests)
+   * [AR example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24542)
 8. PMs to conduct the [Initial Customer Kickoff](https://docs.google.com/presentation/d/1XUljBcQUZgQA-0fhQ5UayiEGtp4Of3xsaFGpVxdoDS4/edit?usp=sharing)
 9. The PM to ensure the communiation plan, delivery methodology, scope definitions, time, and budget are aligned as we head into Delivery
 
@@ -77,7 +79,7 @@ Kantata is our primary Resource Management software. From here the PMO team revi
 
 _Billable vs NonBillable information_, please refer to [Team Metrics](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/#team-metrics) page
 
-#### Forecasting and Project Health  
+##### Reporting Project Health  
 
 The PMO team ensures our forecast & upside is updated by Monday, 11am EST, as the PS Ops team prepares the weekly reports per the PS Reporting schedule. The Top Customer is provided to the PM team by PS Ops by 12pm EST on Tuesdays, and the PM team is expected to update the notes (as outlined below) by The PS Reporting Schedule, Weekly Revenue Forecast Reports, and Kantata information pinned to the ps_PMO Slack channel
 
@@ -95,7 +97,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
    * For Consulting Blocks and Dedicated Engineer Services,  we sometimes enter these engagements knowing very little about the project (as it is generally purchased as a SKU). Therefore, our goal is to be within +/- 10% of our estimated forecast after we have our initial EM>PS Transition Meeting
 
    To ensure forecast revenue is accurate go under Resource Center in Kantata:
-    *Select “Project Tab” and filter via “My Projects”
+    * Select “Project Tab” and filter via “My Projects”
     * Expand project you are allocating for so you can see all PS Engineers and yourself
       * Click on each team member’s name and submit RR request via the “activity” window opened and assign to Project Coordinator as recipient
 
