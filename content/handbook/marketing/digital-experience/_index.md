@@ -186,7 +186,7 @@ We celebrate our wins and discuss what's working and what's not. Our discussion 
 
 ### Retrospective
 
-The retrospective is an event held at the end of each quarter, used to discuss what went well, and what can be improved on. We use a quarterly retrospective issue keep track of our progress. [Access them here](https://gitlab.com/gitlab-com/marketing/digital-experience/announcements/-/issues/?sort=updated_desc&state=closed&search=Retrospective&first_page_size=20).
+The retrospective is an event held at the end of each quarter, used to discuss what went well, and what can be improved on. We use a quarterly retrospective issue to keep track of our progress. [Access them here](https://gitlab.com/gitlab-com/marketing/digital-experience/announcements/-/issues/?sort=updated_desc&state=closed&search=Retrospective&first_page_size=20).
 
 **When:** Week 12 of a quarter, 50min
 
