@@ -298,7 +298,7 @@ From time to time, our team has objectives that require us to collaborate on the
 
 ## Repository Health Contributions
 
-At the end of every iteration cycle, Digital Experience team members can spend 10% or one day to work on issues related to improving the health of about.gitlab.com, the developer experience, tackle tech debt, or improve our documentation.
+At the end of every iteration cycle, Digital Experience team members can spend one day to work on issues related to improving the health of about.gitlab.com, the developer experience, tackle tech debt, or improve our documentation.
 
 The structure of Repository Health Day is as follows:
 
