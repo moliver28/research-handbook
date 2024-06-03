@@ -89,7 +89,6 @@ I’d recommend connecting live if you can, but if not, async works and we can u
 - At the offer stage, the Recruiter will submit a request via HelpLab to attain current compensation information: 
    - People Connect checks Workday for current team member base compensation.
    - People Connect will then provide annual base compensation details in the HelpLab request. The Recruiter can then utilize this information while putting an offer together (in partnership with the hiring manager).
-
 ## Current Manager Responsibilities 
 - Once your team member has notified you that they have applied for an internal opportunity (this should happen at the application stage) make sure to check in with them during 1:1s to see how their interviews are progressing.
 - If your team member moves to the offer stage, the Recruiter will connect you with the hiring manager via Slack. Please follow the steps outlined by the Recruiter once you receive that confirmation. Until you receive that Slack from TA, the offer is not confirmed.
