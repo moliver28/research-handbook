@@ -23,7 +23,7 @@ Please reach out to your aligned People Business Partner (PBP) (listed aplhabeti
 
 | Contact | Division or Departments |
 |-------------------|--|----------|
-| Anjali Kaufmann   | People Goup |   |
+| Anjali Kaufmann   | People Goup |
 | Anjali Kaufmann   | Legal and Corporate Affairs |
 | Anjali Kaufmann   | Finance |
 | Carolyn Bednarz  | Sales |
