@@ -55,7 +55,8 @@ Hi XX and XX,
 
 
 As you are both aware, XXX has been interviewing for the XXX role and the team is ready to move forward with an offer! I wanted to connect you both as their  current and future managers to cover a few items as we start the offer process:
-- What transition date works best for the both of you? The GitLab standard recommendation is between 4-6 weeks (OR 45 days for Sales Development). Please see our handbook page here for some suggestions on transition timelines.
+- 
+What transition date works best for the both of you? The GitLab standard recommendation is between 4-6 weeks (OR 45 days for Sales Development). Please see our handbook page [here](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#internal-transfer-start-date) for some suggestions on transition timelines.
 - Please discuss any outstanding items that may require XX to stay in their current role longer than 6 weeks as we want to ensure they’ll be able to have a smooth transition between roles. 
 I’d recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you’ve done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with their backfill process. Thanks! 
 
