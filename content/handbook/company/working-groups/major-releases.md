@@ -52,3 +52,4 @@ Exit Criteria are avaialable in the [Future Major Release Coordination & Improve
 | Member                       | Steve Evangelista (@steve-evangelista)    | Senior Product Director - Dev & Analytics |
 | Member                       | Martin Bruemmer (@mbruemmer)              | Staff Customer Success Manager |
 | Member                       | Lyle Kozloff (@lyle)                      | Director of Support, Global Readiness |
+| Member                       | Stephen Denham (@denhams)                      | Engineering Manager, Environment Automation, Dedicated |
