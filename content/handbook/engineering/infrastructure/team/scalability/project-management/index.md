@@ -102,7 +102,7 @@ The 'Next' section contains projects that are the highest priority projects on t
 **Later**
 
 - ![Proposals](img/label-proposal.png)
-- ![Ready](img/label-ready.png) 
+- ![Ready](img/label-ready.png)
 
 This section contains projects that are either ready for development or still proposals.
 
