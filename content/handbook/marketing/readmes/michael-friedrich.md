@@ -12,7 +12,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 Grown up in Linz, Austria, I wanted to understand how a computer works in school. A 486 PC turbo-boost button that was not enabled by default inspired me to study Hardware/Software Systems Engineering, leading to circuit design, hardware and software programming languages, and more adventures with NFC and multimediate streaming in 2005. A student's dorm network project in Vienna, Austria, allowed me to dive into spanning trees (and loops!) and routing, which I expanded on with DNS and monitoring at the University of Vienna, Computer Center. Maintaining an open-source monitoring project for 11 years required me to understand how the software is used in production. CVEs raised awareness about security scanning. I therefore engaged with global events and community meetups to learn and understand the roles in modern DevSecOps and cloud-native workflows. My passion for open-source communities also inspired me to move to Nuremberg, Germany, in 2012, where I live today in the countryside. In March 2020, I started my all-remote adventure at GitLab.
 
-Outside of work, you'll find me building LEGO models, exploring nature, and travelling. You can learn more on my personal website: https://dnsmichi.at/about/
+Outside of work, you'll find me building LEGO models, combining embedded hardware with home automation, exploring nature, and travelling. You can learn more on my personal website: https://dnsmichi.at/about/
 
 ### Biography and headshots
 
@@ -22,6 +22,7 @@ I have a detailed biography and CV available in different text lengths and langu
 
 1. [Work setup](https://gitlab.com/dnsmichi/dotfiles)
 1. [GitLab profile](https://gitlab.com/dnsmichi)
+1. [Social profiles](https://dnsmichi.at/about/)
 1. Blog: [4 years all-remote at GitLab](https://dnsmichi.at/2024/03/02/michi-limited-edition-4-years-all-remote-at-gitlab/)
 1. Blog: [3 years all-remote at GitLab](https://dnsmichi.at/2023/03/02/three-years-all-remote-at-gitlab-know-the-unknown-unknowns-growth-life-work/)
 1. Blog: [2 years all-remote at GitLab](https://dnsmichi.at/2022/03/02/2-years-all-remote-and-2022-vision/)
@@ -29,7 +30,7 @@ I have a detailed biography and CV available in different text lengths and langu
 
 ## My work values
 
-I follow [GitLab's values](https://handbook.gitlab.com/handbook/values/) and have specifically embraced these:
+I follow [GitLab's values](https://handbook.gitlab.com/handbook/values/) and specifically embrace these:
 
 - **I always [assume positive intent](https://handbook.gitlab.com/handbook/values/#assume-positive-intent).** and encourage others to do the same.
 - **I love [transparency](https://handbook.gitlab.com/handbook/values/#transparency), and keeping everyone SAFE.** I work in public by default, with a [low level of shame](https://handbook.gitlab.com/handbook/values/#low-level-of-shame). You can expect me to document my work, share updates, and engage in important discussions to help achieve company goals.
@@ -62,14 +63,16 @@ I bring my authentic-self to work every day -- can you spot all easter eggs in [
     - Please avoid direct messages (DMs) unless it's private feedback or confidential information. I'll respond to DMs with lower priority than public requests.
 - I enjoy helping in public, and sometimes work evening hours to assist with incidents or timezone aligned tasks (after 10 AM PT, which is 7 PM CET).
     - If I need to leave during a planned task, I will communicate the sign-off time and provide a handover summary.
-- My calendar invites are editable by guests. Feel free to adjust the time to fit everyone's schedule.
-    - My default Zoom URL has a meeting room set up for external guests. If I don't show up in Zoom and let you in, ping me on Slack.
+- My calendar invites are editable by guests.
+    - Feel free to adjust the time to fit everyone's schedule.
+    - No worries on short notice reschedules. I always have a task or project to work on, or appreciate the short break.
+    - My default Zoom URL has a meeting room set up for external guests. If I don't show up in Zoom on time and let you in, ping me on Slack.
 - If you think a repeating coffee chat or a topic-specific 1:1 would be beneficial for efficient collaboration, propose a new calendar event and include an agenda document.
 - My work hours cover mostly AMER and EMEA time zones.
     - Meetings can be scheduled in my afternoon (5 AM to 10 AM PT, 2 PM CET to 7 PM CET). My mornings are reserved for focused work or personal time (shopping, extended lunch with friends).
     - Ask when scheduling during my focus time blocks (customer calls, EMEA syncs, etc.).
 - Team members can always schedule a coffee chat with me. I'd love to learn about you, your background, life stories, experiences, and interests.
-    - Wider community members can request my Calendly link.
+    - Wider community members can ask for my Calendly link.
 
 ## Finding me
 
@@ -77,13 +80,19 @@ I go by `dnsmichi` everywhere: [Slack](https://gitlab.enterprise.slack.com/team/
 
 I enjoy connecting with team members on [LinkedIn](https://www.linkedin.com/in/dnsmichi/), and amplifying your voice into my network (hiring, product/engineering insights, marketing, etc.). Tips for social media messaging are documented in the [Developer Advocacy on Social Media handbook](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/social-media/). I'm mostly active on social media, but I have push notifications disabled on my mobile. I'm not good at responding to many private messages or connection requests, so using a different channel is more efficient. I uninstall social media apps during vacations to relax and maintain my mental health.
 
-My private mobile number is in my Slack profile. Please do not share it with anyone, as I don't want to receive spam calls or phishing attempts. If a web form asks for a phone number, use the [company phone number](https://handbook.gitlab.com/handbook/communication/#company-phone-number) instead. You can connect with me through WhatsApp, Telegram, or Signal, which is more reliable for location sharing, dinner coordination, and private pictures. I do not have Slack installed on my mobile unless I am traveling for events. If an incident is urgent, text me on my private mobile.
+My private mobile number is in my Slack profile. Please do not share it with anyone, as I don't want to receive spam calls or phishing attempts. If a web form asks for a phone number, use the [company phone number](https://handbook.gitlab.com/handbook/communication/#company-phone-number) instead. You can connect with me through WhatsApp, Telegram, or Signal, which is more reliable for location sharing, dinner coordination, and private pictures.
+
+I do not have Slack installed on my mobile unless I am traveling for events. If an incident is urgent, text me on my private mobile.
 
 ## Expertise
 
-I love creating tutorials, workshops, and trainings about GitLab use cases and new technologies - the 5-minute success moment is key. At my previous company, I authored their GitLab training from scratch, and continued building [workshops in my role as Developer Advocate at GitLab](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/projects/#workshops). I also run Linux on cloud VMs, containers, Kubernetes, and Raspberry Pis in production. This keeps me actively learning and building in public, and depending on the audience, I create [GitLab blog posts](https://about.gitlab.com/blog/authors/dnsmichi/) or write about it on my [personal blog](https://dnsmichi.at).
+In [my career](https://www.linkedin.com/in/dnsmichi/#experience), I studied hardware/software engineering, debugged networks, hardware packet filters and DNS, and learned how services behave differently on Linux, Unix and Windows. I enjoy debugging and troubleshooting in production - therefore I run cloud VMs, containers, Kubernetes, Raspberry Pi, Arduino boards to keep me in practice, learning and building in public. Depending on the audience, I create [GitLab blog posts](https://about.gitlab.com/blog/authors/dnsmichi/) or write about it on my [personal blog](https://dnsmichi.at).
 
-I usually try to understand the big picture and always want to look behind the curtain. GitLab Duo and AI required me to learn everything from scratch again. Finding a strategy to learn and scheduling coffee chats with product and engineering team members allowed me to expand my expertise. This also led to the [GitLab Duo Coffee Chat on YouTube](https://www.youtube.com/playlist?list=PL05JrBw4t0Kp5uj_JgQiSvHw1jQu0mSVZ), a boring solution to help customers with real-world scenarios. I am interested in many cloud-native and DevSecOps technologies, but often reduce my scope after understanding the basics, blockers, and challenges. For example, I invested in [learning eBPF in FY24](https://o11y.love/topics/ebpf/#learning-resources) and created [workshops for GitLab Summit 2024](https://gitlab.com/gitlab-da/workshops/gitlab-summit-2024) to share the knowledge with team members, but did not identify an immediate business impact for the Observability group, and paused the efforts. [Researching GitLab Duo with embedded use cases](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/415) and [GitLab Duo prompts and challenges](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/405) took priority in FY25.
+I love creating tutorials, workshops, and trainings about GitLab use cases and new technologies - the 5-minute success moment is key for me. At my previous company, I authored their GitLab and Git training from scratch, and continued building [workshops in my role as Developer Advocate at GitLab](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/projects/#workshops).
+
+I usually try to understand the big picture and always want to look behind the curtain. I am interested in many cloud-native and DevSecOps technologies, but often reduce my scope after understanding the basics, blockers, and challenges. For example, I was fascinated by Chaos Engineering and WebAssembly in FY23 but found it hard to build a business case for it, after creating talks and workshops, for example at [KubeCon EU 2022](https://dnsmichi.at/talks/#kubecon-eu-2022-from-monitoring-to-observability-left-shift-your-slos-with-chaos). I also invested in [learning eBPF in FY24](https://o11y.love/topics/ebpf/#learning-resources) and created [workshops for GitLab Summit 2024](https://gitlab.com/gitlab-da/workshops/gitlab-summit-2024) to share the knowledge with team members, but did not identify an immediate business impact for the Observability group, and paused the efforts.
+
+GitLab Duo and AI required me to learn everything from scratch again. Finding a strategy to learn and scheduling coffee chats with product and engineering team members allowed me to expand my expertise. This also led to the [GitLab Duo Coffee Chat on YouTube](https://www.youtube.com/playlist?list=PL05JrBw4t0Kp5uj_JgQiSvHw1jQu0mSVZ), a boring solution to help customers with real-world scenarios. [Researching GitLab Duo with embedded use cases](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/415) and [GitLab Duo prompts and challenges](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/405) took priority in FY25, and excite me every day in close collaboration with customers.
 
 I thrive in areas where I am not an expert, and someone has asked for help, providing a real use case. For example, GitLab Duo adoption in a customer environment requires me to learn Java Spring Boot. My knowledge about GitLab features continuously sources from helping users on the [GitLab Community Forum](https://forum.gitlab.com/u/dnsmichi/activity). I also help maintain the [GitLab handbook backend](https://gitlab.com/groups/gitlab-com/content-sites/-/group_members?with_inherited_permissions=exclude) and engage in [CI/CD components initiatives](https://gitlab.com/components).
 
@@ -105,10 +114,10 @@ I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and 
 
 ### Weaknesses
 
-- **I'm passionate about my work.** Sometimes, I push for my opinion as the best path forward, even though I am not the DRI (Directly Responsible Individual). I can also be [direct](https://handbook.gitlab.com/handbook/values/#directness), which can come across as overbearing at times. I am working on being more mindful of this and balancing my passion with consideration for others' perspectives.
+- **I'm passionate about my work, and somtimes push my opinion.** When I think that my solution has the most impact for the business, I push for it, even though I am not the DRI (Directly Responsible Individual). I can also be [direct](https://handbook.gitlab.com/handbook/values/#directness), which can come across as overbearing at times. I am working on being more mindful of this and balancing my passion with consideration for others' perspectives.
 - **I say yes too often.** I'm constantly challenged with many requests and my own ideas, and I sometimes overload myself with tasks and need to reprioritize. The printed [Eisenhower Matrix](https://slab.com/blog/eisenhower-matrix/) on my desk helps me `do, schedule, delegate, or delete` tasks. I might forget about requests that are not tracked in an issue with a due date and a to-do assignment (Google Docs, Slack, Email). Please be proactive and create [Developer Advocacy requests](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#want-to-work-with-the-team) and assign them to me.
-- **My native language is German, not English.** I have a vocabulary weakness for day-to-day items (e.g., kitchen and food). I'm learning through coffee chats, social conversations, and using Grammarly to improve my English. When I share a tip to `make you more efficient`, it does not mean that you are not efficient. Instead, I am always looking for ways to help others benefit from my discovered efficiency tips.
-- **I'm not good at email.** If I should follow up on an external email conversation, you might have to remind me to do so.
+- **My native language is German, not English, sometimes leading to misunderstandings.** I have a vocabulary weakness for day-to-day items (e.g., kitchen and food). I'm learning through coffee chats, social conversations, and using Grammarly to improve my English. When I share a tip to `make you more efficient`, it does not mean that you are not efficient. Instead, I am always looking for ways to help others benefit from my discovered efficiency tips, and need to word it differently.
+- **I'm not good at email communication.** If I should follow up on an external email conversation, you might have to remind me to do so, or create a tracking issue.
 - **I occasionally fall into old habits and aim for perfection and completeness.** Minimal viable changes, boring solutions, and [iteration](https://handbook.gitlab.com/handbook/values/#iteration) are challenging sometimes. If you see me writing a long tutorial blog post or a capture-everything issue, please jump in and remind me to break down the tasks.
 
 
