@@ -250,12 +250,6 @@ To ensure these requests can be quickly triaged, easily scheduled, and later tra
 
 ### Requesting support from Product
 
-Product support requests are tracked in the [Product team project](https://gitlab.com/gitlab-com/Product). To create a request:
-
-1. Create a [new issue with the Product-Support-Request template](https://gitlab.com/gitlab-com/Product/issues/new?issuable_template=Product-Support-Request)
-2. Fill out the form within the template, be sure to include relevant details and issues
-3. Ensure the issue is confidential and save it
-
 For time-sensitive and high-impact requests, please paste a link to the issue in the `#product` Slack channel, and `@mention` the recommended PM's in the template.
 
 ### Working with support requests
