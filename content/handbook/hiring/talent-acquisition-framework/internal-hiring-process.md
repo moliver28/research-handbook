@@ -38,7 +38,7 @@ description: "This page discusses the Internal Hiring Process"
 - Once the Recruiter has confirmed the eligibility status with People Connect, if eligibile, the Recruiter will reach out to the team member to introduce themselves and set expectations around the internal hiring process (which includes ensuring they have notified their current manager). If a team member is not eligible, the Recruiter will send the appropriate decline email template.
 - Recruiter will then continue the process as described in the [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}}) for all candidates. Recruiter will use identified templates in Greenhouse to communicate with candidates, current managers and hiring managers throughout the internal hiring process.
 - Once it is confirmed that the internal candidate is moving to the offer stage, the Recruiter will connect the team member’s current manager and potential new manager via Slack to:
-   - Give formal notice that an offer is being created for the team member. 
+   - Give formal notice that an offer is being created for the team member.
    - Facilitate a discussion around a transition date that works for both parties. Please note that TA’s involvement is to facilitate this conversation and is not the decision maker. Ultimately, a transition date is something that should be agreed upon between a current manager and hiring manager. A finalized start date will be needed as TA submits an offer for approvals. 
    - Some suggestions for transition timelines include:
       - Aiming for between 4-6 weeks for an official transition date to ensure the team with the backfill has lead time on filling the position
