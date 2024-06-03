@@ -52,7 +52,7 @@ GitLab Professional Services enables customers and partners to realize the full 
 1. Increase market opportunities and delivery elasticity by expanding to a partner-leveraged delivery model in order to reach more customers
 1. Ensure high-quality service delivery for GitLab direct and partner delivered services
 
-For Success Critera mapped to these goals, check out our [FY22 strategy](https://docs.google.com/presentation/d/1jQ2gkhYzBrw46BYQGGpCYNI0POKdW08qD_MRAh6FIkI/edit#slide=id.gca6b4ba3df_3_1), GitLab Team Members Only.
+For Success Criteria mapped to these goals, check out our [FY22 strategy](https://docs.google.com/presentation/d/1jQ2gkhYzBrw46BYQGGpCYNI0POKdW08qD_MRAh6FIkI/edit#slide=id.gca6b4ba3df_3_1), GitLab Team Members Only.
 
 ## Value of Professional Services
 
@@ -79,7 +79,7 @@ GitLab Professional Services measures success through tracking business profitab
 * **Long term profitability target**: 30% gross margin
 * **Project Manager, Program Manager and Engineer Utilization targets**: 70% billable hours
 * **Technical Architect Utilization target**: 55% billable hours
-* **Trainers: FY25Q1 & FY25Q2- 60% billable hours, FY25Q3- 65% billable hours and FY25Q4- 70% billable hours
+* **Trainers**: FY25Q1 & FY25Q2- 60% billable hours, FY25Q3- 65% billable hours and FY25Q4- 70% billable hours
 
 * **Billable utilization** is time worked on defined scope that will be charged to a customer according to a contractual SOW.
 
@@ -91,7 +91,7 @@ We use the following definitions to determine and track utilization.
 | Billable Utilization | (Billable Working Hours ÷ Utilization) × 100% | varies |
 | Holiday Hours | 11 holidays × 8 hrs/day | 88 hrs |
 | PTO + F&F Hours | 28 PTO days + 4 F&F × 8 hrs/day | 256 hrs |
-| Summit | 5 Summmit - SKO days × 8 hrs/day | 40 hrs |
+| Summit | 5 Summit - SKO days × 8 hrs/day | 40 hrs |
 | Non-Working Hours | (Holiday Hours + PTO Hours + Training Hours) | 384 hrs |
 | Total Weekday Hours | (8 Hours × 5 days × 52 weeks) | 2080 hrs |
 | Available Hours | Total Weekday Hours － Non-Working Hours | 1696 hrs |
