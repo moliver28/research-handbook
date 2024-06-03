@@ -899,7 +899,7 @@ To set our OKRs:
 1. Quads suggest changes to OKRs based on what they are seeing during planning. This includes prioritizing tech debt, architecture blueprints, maintenance KRs, or any other work that may be missing from OKRs.
 1. We label all sub-objectives or KRs using priority labels. We strive for 90%+ accomplishment on Priority 1, 80%+ on Priority 2 items, and 70%+ on Priority 3 items.
 
-Our ongoing OKR review includes:
+Reviewing OKRs:
 
 1. Monthly updates to OKRs as part of what used to be the PI review meeting (example issue https://gitlab.com/gitlab-com/Product/-/issues/13333)
 2. We make sure that KRs are up to date, including closing out and replacing OKRs when appropriate (e.g., we had a placeholder OKR that we decided not to pursue, or we decided to do a mid-quarter change to prioritize something else).
