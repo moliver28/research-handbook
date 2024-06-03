@@ -207,7 +207,7 @@ To change a start date after a **PEO** contract has been signed and the new team
 
 To change a start date after a Job Change Letter (JCL) has been signed and the internal team member has been “hired” in GreenHouse, the Candidate Experience Specialist will complete the following steps:
 
-1. Once the start date change request comes through, CES will advise the recruiter to collaborate with the hiring manager / PBP to raise a HelpLab ticket with People Connect in Workday to make these changes.
+1. Once the start date change request comes through, CES will advise the recruiter to collaborate with the hiring manager or PBP to raise a HelpLab ticket for the People Connect team to make these changes in Workday.
 The hiring manager or PBP should provide confirmation of the new start date via the HelpLab ticket.
 1. CES can update GreenHouse:
    - Go to Offer Details
