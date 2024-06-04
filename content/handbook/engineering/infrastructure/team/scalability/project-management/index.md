@@ -3,7 +3,7 @@
 title: "Scalability Group Project Management"
 ---
 
-# Project Management
+## Project Management
 
 The majority of our [project management process is described at the Platforms level](/handbook/engineering/infrastructure/platforms/project-management/)  and is shared between all SaaS Platform teams.
 Please read this first.
