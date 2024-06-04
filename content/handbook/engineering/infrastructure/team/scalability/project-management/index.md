@@ -27,23 +27,6 @@ The owner needs to:
 1. Update the status block in the epic description each week.
 1. Work with others to move project issues through the boards.
 
-## Project Structure
-
-The epic for the project must have the following items:
-
-1. **Background**, including a problem statement, to provide context for people looking to understand the project.
-1. **Exit criteria** for the specific goals of the project.
-    1. These are created as issues with the `exit criterion` label in the epic and are linked in the description.
-    1. We create these at the start of the project to allow us to keep focused on our goal, and use [blocking issues](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) to indicate the state of each exit criterion.
-1. **Status yyyy-mm-dd** should be the final heading in the description.
-    1. This enables others who are interested in the epic to see the latest status without having to read through all comments or issues attached to the epic.
-    1. This heading is used to auto-generate the status information on the top-level epic.
-    1. If the epic has no child-epics and a mermaid block is added, [this script](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/master/epic_issue_relationships.rb) that runs on a pipeline will automatically generate and include an issue relationship diagram in this section. An example can be seem [in this epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/447).
-1. **Start date** is set to the expected start date, and updated to be the actual start date when the project begins.
-1. **Due date** is set to be the expected end date.
-    1. This should be seen as a target, and this target is re-evaluated every few weeks while the project is in progress. The date that a project actually ended is taken from the date that the epic was closed.
-1. DRI and Participants who are contributing to the project.
-
 ## Project Workflow
 
 [Workflow labels](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#workflow-labels) for issues also apply to epics.
@@ -133,6 +116,18 @@ For an epic to be ready, the following information must be present on the epic:
 5. Dependencies and Stakeholders - who is relying on this work, who should be informed, who should be consulted
 6. Phases of Delivery
 7. Project Management Arrangements - expectations of the DRI, EM and Participants, and specific status reporting requirements, if sub-epics or milestones are to be used
+8. Status block - should be the final heading in the description with the format `### Status yyyy-mm-dd`.
+    1. This enables others who are interested in the epic to see the latest status without having to read through all comments or issues attached to the epic.
+    1. This heading is used to auto-generate the status information on the top-level epic.
+    1. If the epic has no child-epics and a mermaid block is added, [this script](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/master/epic_issue_relationships.rb) that runs on a pipeline will automatically generate and include an issue relationship diagram in this section. An example can be seem [in this epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/447).
+10. Start date - set to the expected start date, and updated to be the actual start date when the project is started.
+11. End date - set to the expected end date. This should be seen as a target, and this target is re-evaluated every few weeks while the project is in progress. The date that a project actually ended is taken from the date that the epic was closed.
+
+Other items that can be included are:
+
+1. **Exit criteria** for the specific goals of the project.
+    1. These are created as issues with the `exit criterion` label in the epic and are linked in the description.
+    1. We create these at the start of the project to allow us to keep focused on our goal, and use [blocking issues](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) to indicate the state of each exit criterion.
 
 ### In Progress
 
