@@ -1,9 +1,6 @@
 ---
-
 title: Group Conversations
-description: >-
-  Everything you need to know about GitLab's daily, recurring Group
-  Conversations
+description: "Everything you need to know about GitLab's daily, recurring Group Conversations"
 aliases:
 - /handbook/group-conversations/
 ---
@@ -12,7 +9,7 @@ aliases:
 
 Group conversations are recurring events providing regular updates and an additional opportunity for team members to ask questions, across all GitLab teams on a rotating schedule. Group conversations support collaboration and transparency
 
-All Team Members are invited to participate in Group Conversations by adding questions and comments in the [Group Conversation Agenda](https://drive.google.com/drive/search?q=group%20conversation%20agenda), which is linked in every announcement by the respective host.
+All Team Members are invited to participate in Group Conversations by adding questions and comments in the [Group Conversation issue](https://gitlab.com/gitlab-com/group-conversations/-/issues), which is linked in every announcement by the respective host.
 
 If you have suggestions for improving the Attendee or Meeting Leader experience please create a Merge Request (MR) to update this page — [everyone can contribute](/handbook/company/strategy/#why)!
 
@@ -35,12 +32,11 @@ The [Key Review](/handbook/company/key-review/) is intended for senior leadershi
 
 If you have questions around an upcoming Group Conversation, please be sure to bring it to the `#group-conversations` Slack channel and @tag the host!
 
-1. Please enter your questions or comments on the linked Google Doc. Preface your question with your full name (first and last name) because there might be other people with your first name and it's helpful to newcomers if they are distinguished. Remember [First Post is a Badge of Honor](/handbook/communication/#first-post-is-a-badge-of-honor).
+1. Please add your questions as comments on the linked issue. Remember [First Post is a Badge of Honor](/handbook/communication/#first-post-is-a-badge-of-honor).
 1. Please do not include customer names in your questions/comments.
-1. Not everything has to be a question. If you have a comment, bias to putting it into the Google Doc as well.
+1. Not everything has to be a question. Comments are welcome on the issue as well.
 1. Thanking and recognizing people is very important.
 1. You can ask someone to elaborate on a slide to get more context.
-1. Make sure there are at least 2 empty items in the list (that just contain a space) for people to add new questions.
 
 ## Hosts
 
@@ -53,17 +49,17 @@ Questions will generally be directed to the Host, and they will usually answer t
 Complete this process within 7 days after the Key Review to host a Group Conversation.
 
 1. Add your [presentation](#presentation) in the [Group Conversation Google Drive shared folder](https://drive.google.com/drive/folders/1Om1i9qrn1cZwxl7xRasV2mvrf91oyNOC).
-1. Use [the template in the Group Conversation Agenda Document](https://docs.google.com/document/d/1yBZnT5KCz1iprjpsY2L-aakycji3c9aTT74Yf6O4CQI/edit#heading=h.2s022nex56ox) ([not public](/handbook/communication/confidentiality-levels/#not-public)) to create a new section for your Group Conversation. Ensure to:
+1. Use [the default Group Conversation issue template](https://gitlab.com/gitlab-com/group-conversations/-/issues/new) to create a new issue for your Group Conversation. Ensure to:
    1. Fill in your group's name, and the date you're posting the announcement.
-   1. The host's name as DRI.
+   1. The host's name as DRI. And assign the issue to them.
    1. Link of the Google Slides presentation (with edit or comment access to everyone at GitLab). See the [presentation section](#presentation) for details.
    1. Link to the video of your Group Conversation presentation on GitLab Unfiltered (recommended, but optional).
    1. Link to the Key Review Agenda (if applicable).
-   1. Date and estimated time when you will come back to the agenda document to answer any questions. Generally, the date should be 3 working days from posting date.
+   1. Date and estimated time when you will come back to the group conversation issue to answer any questions. Generally, the date should be 3 working days from posting date. Set it as the issue due date for reminders to go out.
    1. Make sure there is a list of 10 numbered items in the questions section that only contains a space, to encourage questions.
 1. Post in `#whats-happening-at-gitlab` when ready. See the [template Slack announcement](#template-slack-announcement) which you can use, and personalize.
 1. Cross-post in `#group-conversations`.
-1. Set a reminder for the date/time when you've indicated you will answer any questions in the agenda. The suggestion is between 2 to 3 business days after the agenda is shared.
+1. Set a reminder for the date/time when you've indicated you will answer any questions in the issue. The suggestion is between 2 to 3 business days after the issue is shared.
    1. If there are questions that need a longer conversation, mention which Slack channel the conversation can continue, or link to a relevant issue.
 
 ### Template Slack announcement
@@ -71,7 +67,7 @@ Complete this process within 7 days after the Key Review to host a Group Convers
 ```text
 The <team> group conversation is ready!
 
-Please see [the agenda](https://docs.google.com/document/d/1yBZnT5KCz1iprjpsY2L-aakycji3c9aTT74Yf6O4CQI/edit) ([not public](/handbook/communication/confidentiality-levels/#not-public)) for links to the slide deck, which includes what we’ve recently completed and what we’re currently working on. Any questions for the team, related to the slides or not, are most welcome. I will be answering them in 3 working days.
+Please see [the group conversation issue](https://gitlab.com/gitlab-com/group-conversations/-/issues/<id>) for links to the slide deck, which includes what we’ve recently completed and what we’re currently working on. Any questions for the team, related to the slides or not, are most welcome. I will be answering them in 3 working days.
 ```
 
 ### Presentation
@@ -194,11 +190,3 @@ All of the public live streamed Group Conversations can be found on the GitLab U
 ## Request a new Group Conversation
 
 To request a new Group Conversation, please ping @exec-admins in the slack channel #group-conversations and they will assist you in scheduling a date.
-
-## Archiving Agenda Content
-
-If an agenda document becomes longer than 10 pages, the EBA assigned to manage the document will archive the content that is over the first 10 pages. All agenda docs should be checked and archived as needed before the meeting date and time.
-
-- Create a Google doc with the same permissions as the doc and in the same folder from which you will be archiving content.
-- Name the new doc the same title as the original, with the word `Archive` at the end.
-- Create a link at the top of the original doc titled `DOC NAME Archive` and link to the Archive doc.
