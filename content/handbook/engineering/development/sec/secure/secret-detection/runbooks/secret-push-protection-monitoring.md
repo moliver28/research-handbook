@@ -106,6 +106,15 @@ As discussed above, the functionality spans a number of components. Therefore, a
 
 This runbook focuses primarly on the Prometheus metrics available in Grafana, but also shares brief information about other tools and how they could be used. In later iterations, this may change as the feature grows and develops.
 
+### How to check the logs emitted from the feature?
+
+To check the logs emitted from the feature, please look at the following Kibana views:
+
+* 📖 [Kibana: Logs for all scans](https://log.gprd.gitlab.net/app/discover#/view/31afcbb2-28e9-466f-a6c3-486e869e1ee3).
+* 📖 [Kibana: Logs for blocked pushes](https://log.gprd.gitlab.net/app/discover#/view/db7ba29d-d406-46df-8b43-e6d9c47fbed7).
+
+>**Note:** Kibana [retain logs for only 7 days](https://handbook.gitlab.com/handbook/support/workflows/kibana/#using-kibana).
+
 ### How to identify and mitigate a reliability or performance issue with the feature?
 
 The [overview dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1) is the main dashboard we have built to monitor the feature. That's where anyone should start to look when trying to identify reliability or performance issues.
