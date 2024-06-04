@@ -7,7 +7,7 @@ title: "Coaching"
 At GitLab, we use coaching to:
 
 1. Provide opportunity for self reflection, communication and feedback
-1. Equip team members with skills they need to [deliver results for customers]({{< ref "<https://handbook.gitlab.com/handbook/values/#results>" >}})
+1. Equip team members with skills they need to [deliver results for customers](../values/_index.md#📈-results-for-customers-results)
 1. Create space to practice strategies for achieving [high performance](https://internal.gitlab.com/handbook/company/high-performing-teams/)
 
 Coaching conversations are fluid, dynamic acts of co-creation where the coach and the coachee are equal partners. People leaders and individual contributions alike use coaching at GitLab during our [360 review process](/handbook/people-group/360-feedback/), giving and receiving [feedback](/handbook/people-group/guidance-on-feedback/), throughout stages of [career development](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1), and more.
