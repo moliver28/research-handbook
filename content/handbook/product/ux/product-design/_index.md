@@ -35,7 +35,7 @@ Information about product categories and links to team members and direction pag
 
 ## Learn about UX and see our work
 
-- [YouTube Playlist for UX Showcases](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
+- [YouTube Playlist for UX Forum](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
 
 ## Product Design Workflow
 
@@ -138,7 +138,7 @@ Every MR should follow the [approval guidelines](https://docs.gitlab.com/ee/deve
 
 The point of this initiative is to move fast, often in product areas you may not be familiar with. Because these fixes don't go through our regular [product development flow](/handbook/product-development-flow/), it's important to take reasonable steps to reduce risk. Consider things like:
 
-- **Use feature flags**. To more quickly and easily revert changes, it can make sense to use feature flags. Annabel Dunstone Gray recorded a [UX showcase around how to do so and why it might be beneficial](https://www.youtube.com/watch?v=M9pgdTlqBmw).
+- **Use feature flags**. To more quickly and easily revert changes, it can make sense to use feature flags. [Learn how and why it might be beneficial](https://www.youtube.com/watch?v=M9pgdTlqBmw).
 - **How will this change impact our self-managed customers?** Because we use our SaaS product, we're not always personally aware of nuanced differences between our Self-Managed and SaaS offerings. Make sure to consider the possible implications of any changes to all of our deployment options. Start by reviewing the docs related to the feature, and ask questions if you're still unsure.
 - **How can I crowd source feedback on a significant change?** Sometimes there will be dependencies that aren't obvious. Consider opening up feedback issues (like [this one](https://gitlab.com/gitlab-org/gitlab/-/issues/363276)) and use our internal Slack to make the company aware of significant upcoming changes, so that people can offer feedback. Channels like `#product`, `#whats-happening-at-gitlab`, and `#is-this-known` can be good places to publicize these messages.
 - **Use the [Pajamas Design System](https://design.gitlab.com/).** Make sure your changes align with the design system and leverage available components. If there's a need to update an existing component or propose a new one, follow the [component lifecycle](https://design.gitlab.com/get-started/lifecycle). If you have questions, ask a member of the [Foundations group](/handbook/product/categories/#foundations-group).
