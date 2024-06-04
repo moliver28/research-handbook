@@ -146,6 +146,14 @@ When the project is complete, follow the instructions on the [SaaS Plaforms proj
 
 When the epic is closed, it can remain associated to the top-level epic. When we have too many epics associated, or when the end-of-year summary is produced, these epics are moved to the "Completed in Year xxx" epics, of which [this](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1266) is an example.
 
+## Non-Project Work
+
+There are times when the Scalability teams are working on smaller issues that do not make up a project.
+
+If this work should be reflected in the Grand Review, the issue should be attached to the "Non Project Work" epic that is a child of the top-level epic, and any noteworthy items should be added to the summary for that week.
+
+Always consider if these smaller issues should be batched to demonstrate progress on a particular part of the system. It is OK to have epics that are lower priority and longer running as a way of grouping this work together.
+
 ## Issue boards
 
 The Scalability group [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) track
