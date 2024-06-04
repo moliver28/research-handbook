@@ -26,7 +26,7 @@ We believe in "one account/project per workload" for security blast radius and c
 
 ## Identity Site Reliability Engineering
 
-Since the Identity team manages our administrative access control plane with our [BLACK accounts](/handbook/it/policies/access-level-wristbands), we refer to this as the **Black Ops Kingdom** that includes the following services:
+Since the Identity team manages our administrative access control plane with our [BLACK accounts](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/), we refer to this as the **Black Ops Kingdom** that includes the following services:
 
 > For security reasons, any services with a `*.gitlab.black` subdomain use an internal IP address that are only accessible with VPN access (BLACK account users) or for service accounts with addresses that have been added to the firewall ACL.
 

@@ -14,7 +14,7 @@ Right-click on the key in the GPG Keychain application and click 'Export'. Ensur
 
 ![GPG Keychain Export](https://about.gitlab.com/images/support/pgp/gpg_keychain_export.png)
 
-Researchers that wish to report a possible security issue should refer to our [Responsible Disclosure Policy](/security/disclosure/). Disclosure via email will receive an automated response configured in Zendesk, and be automatically closed.
+Researchers that wish to report a possible security issue should refer to our [Responsible Disclosure Policy](https://about.gitlab.com/security/disclosure/). Disclosure via email will receive an automated response configured in Zendesk, and be automatically closed.
 
 ## Decrypt Text and Files
 
