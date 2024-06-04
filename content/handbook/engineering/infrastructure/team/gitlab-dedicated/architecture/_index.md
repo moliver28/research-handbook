@@ -36,8 +36,27 @@ Note: GitLab Geo is not an "active/active" system. To learn more about how GitLa
 
 ## Hosted Runners
 
+### Security of hosted runners for GitLab Dedicated
+
+The following section provides an overview of the additional built-in layers that harden the security of the GitLab Runner build environment.
+
+Hosted runners for GitLab Dedicated are configured as such:
+
+- Firewall rules only allow outbound communication from the ephemeral VM to the public internet.
+- Inbound communication from the public internet to the ephemeral VM is not allowed.
+- Firewall rules do not permit communication between VMs.
+- The only internal communication allowed to the ephemeral VMs is from the runner manager.
+- VM isolation between job executions.
+- Ephemeral runner VMs will only serve a single job and will be deleted right after the job execution.
+- On-demand: Hosted runners can be connected to customers' AWS accounts via a private link, bypassing the public Internet.
+
+### Architecture diagram of hosted runners for GitLab Dedicated
+
+The following graphic shows the architecture diagram of hosted runners for GitLab Dedicated
+
 ![Hosted Runners architecture diagram for GitLab Dedicated](./img/hosted-runners-architecture.png)
 
+For more information on how runners are authenticating and executing the job payload, see [Runner Execution Flow](https://docs.gitlab.com/runner#runner-execution-flow).
 ## Documents
 
 - [From Dedicated to Cells: a Technical Analysis](from-dedicated-to-cells-technical-analysis.html)
