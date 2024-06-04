@@ -54,7 +54,8 @@ Please only interrupt us sparingly, in these cases:
 
 **Getting attention on an urgent, interrupting issue**
 
-- If there's no issue filed yet, file one in the [Gitaly issue tracker] (remember that Security incidents and those containing customer details should be Confidential).
+- For **production incidents only**, SRE or IMOC on-call can page the current [Gitaly oncall](#gitaly-oncall-rotation) via pagerslack.
+- Everyone else: if there's no issue filed yet, file one in the [Gitaly issue tracker] (remember that Security incidents and those containing customer details should be Confidential).
 - Tag Engineering Manager and Product manager (listed above) as well as `@gl-gitaly` (the [whole team](https://gitlab.com/groups/gl-gitaly/-/group_members)) on the issue.
 - Post on [#g_gitaly] on Slack, mention the issue, and tag EM and PM again.
 - The issue will be attended to by the first available staff member during their working hours, who will assign it to themselves, and explicitly hand it off by reassigning to the next person should this be necessary.
@@ -70,7 +71,7 @@ We are happy to help when a customer needs it! But please keep in mind that we a
 Our _engineers_ can help, preferably [async](/handbook/company/culture/all-remote/asynchronous/), with:
 
 - deep technical investigation based on _data_ and able technical collaboration, in close partnership with Support and CSM
-- providing product-level fixes or improvements, work to be scheduled and results released as usual, under [direction of EM and PM](#working-with-product)
+- providing product-level fixes or improvements, work to be scheduled and results released as usual, under [direction of EM and PM](-working-with-product)
 - improving our documentation if something's unclear
 
 _Engineering Managers_ (`@jcaigitlab` & `@andrashorvath`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
@@ -101,6 +102,35 @@ For information requests and other quick one-offs, feel free to use [#g_gitaly] 
 These are typically [Corrective Actions or other followup items](/handbook/engineering/workflow/#infradev) that have strict
 SLO tracking. They will be scheduled through either of the above paths, by EM
 and/or PM polling [these dashboards](#useful-links).
+
+### Gitaly oncall rotation
+
+Gitaly team provides an oncall rotation to provide focused expertise to production SaaS systems. This is currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4), and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call (EOC)** responsibilities for Gitaly team members.
+
+- Rotation is staffed during working hours of team members (no weekends). This still covers 24h of workdays, given the distribution of Gitaly team members, but without guarantees (see [Who is oncall](#who-is-oncall) below)
+  - Given that responsibilities are only during working hours, unless explicitly specified otherwise, there's no additional compensation.
+  - If necessary for a good work/life balance, leverage our [Unlimited PTO policy](https://handbook.gitlab.com/handbook/people-group/paid-time-off/#paid-time-off) after a shift.
+- Gitaly team members are expected to provide technical assistance to the SRE and IMOC responsible, for SaaS production incidents only.
+- Team members provide 15 minutes response time while oncall.
+  - If paged less than 15 minutes before the end of a shift, you still must respond and explicitly hand off the incident.
+- Ongoing production incidents are explicitly handed off by the person leaving shift to the next Gitaly oncall using the incident channel on Slack.
+
+#### Training material
+
+- https://handbook.gitlab.com/handbook/engineering/on-call/#expectations-for-on-call
+- TBD
+
+#### Joining the rotation
+
+TBD
+
+#### Who is oncall
+
+The source of truth is the PagerDuty rotation. If you're scheduled but want to take PTO, you're responsible for finding coverage. (In case of emergencies, managers will take over this duty.)
+
+#### Roster management
+
+Please refer to https://handbook.gitlab.com/handbook/engineering/on-call/#pagerduty for the mechanics (swapping oncall, adding new team members to the rotation).
 
 ## Cluster team
 
