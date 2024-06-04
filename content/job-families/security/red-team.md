@@ -5,7 +5,7 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-As members of GitLab's [Threat Management sub department](/handbook/security/threat-management/), the [Red Team](/handbook/security/threat-management/red-team/) conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
+As members of GitLab's [Threat Management sub department](/handbook/security/threat-management/), the [Red Team](/handbook/security/security-operations/red-team/) conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
 
 The Red Team does not perform penetration tests, and the work we do is not focused on delivering a list of vulnerabilities in a specific application or service. Instead, we emulate the real-world tactics, techniques, and procedures (TTPs) of threats that are most relevant to our organization.
 
