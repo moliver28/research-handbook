@@ -34,7 +34,13 @@ Note: GitLab Geo is not an "active/active" system. To learn more about how GitLa
 
 ![AWS PrivateLink diagram for GitLab Dedicated](./img/privatelink-diagram.png)
 
-## Hosted Runners
+## Hosted Runners for GitLab Dedicated
+
+### Architecture diagram
+
+![Hosted Runners architecture diagram for GitLab Dedicated](./img/hosted-runners-architecture.png)
+
+For more information on how runners are authenticating and executing the job payload, see [Runner Execution Flow](https://docs.gitlab.com/runner#runner-execution-flow).
 
 ### Security of hosted runners for GitLab Dedicated
 
@@ -48,15 +54,8 @@ Hosted runners for GitLab Dedicated are configured as such:
 - The only internal communication allowed to the ephemeral VMs is from the runner manager.
 - VM isolation between job executions.
 - Ephemeral runner VMs will only serve a single job and will be deleted right after the job execution.
-- On-demand: Hosted runners can be connected to customers' AWS accounts via a private link, bypassing the public Internet.
+- On-demand: Hosted runners can be connected to customers' AWS accounts via a private link bypassing the public Internet.
 
-### Architecture diagram of hosted runners for GitLab Dedicated
-
-The following graphic shows the architecture diagram of hosted runners for GitLab Dedicated
-
-![Hosted Runners architecture diagram for GitLab Dedicated](./img/hosted-runners-architecture.png)
-
-For more information on how runners are authenticating and executing the job payload, see [Runner Execution Flow](https://docs.gitlab.com/runner#runner-execution-flow).
 ## Documents
 
 - [From Dedicated to Cells: a Technical Analysis](from-dedicated-to-cells-technical-analysis.html)
