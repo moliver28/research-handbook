@@ -48,7 +48,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
 ### IDEA-337625
 
 - Title: DIRC checksum mismatch error in Settings Sync
-- Link: https://youtrack.jetbrains.com/issue/IDEA-337625
+- Link: <https://youtrack.jetbrains.com/issue/IDEA-337625>
 - Notes: The Settings Sync feature currently does not work. This is problematic because [JetBrains has also deprecated the previous alternative Settings Repository Plugin](/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/setup-and-config/#update-2023-11)
 
 ### RUBY-25400
@@ -59,7 +59,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
   - Requires `# noinspection RubyResolve`
   - UPDATE 2023-07-10: Got a response from JetBrains here: <https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-7813280.0-0> stating limitations and potential workarounds.
   - UPDATE 2023-01-06: This still happens in some cases, notably in the Declarative Policy DSL. Asked if we can get a specific issue to follow for this case:
-    https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-8744732.0-0
+    <https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-8744732.0-0>
 
 ### RUBY-31542
 
@@ -69,7 +69,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
   - Requires `# noinspection SqlResolve` or sometimes maybe `# noinspection RubyResolve` (e.g. if it's indirectly accessed via Rspec).
   - UPDATE 2023-07-10: Got a response from JetBrains here: <https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-7813387.0-0> providing some information and requesting more info and follow-up
   - UPDATE 2024-01-06: JetBrains marked the issue resolved, but we are still seeing errors which seem related. See comment here:
-    https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-8744712.0-0
+    <https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-8744712.0-0>
 
 ### RUBY-31543
 
@@ -77,7 +77,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
 - Link: <https://youtrack.jetbrains.com/issue/RUBY-31543/Fixtures-declared-with-letitbe-from-test-prof-gem-cannot-be-found-and-give-RubyResolve-warning>
 - Notes: Requires `# noinspection RubyResolve`
 - UPDATE 2024-01-06: Issue was closed, but it still appears to be a problem in some cases. See:
-  https://youtrack.jetbrains.com/issue/RUBY-31543/Support-test-prof-gem-fixtures-declared-with-letitbe#focus=Comments-27-8744742.0-0
+  <https://youtrack.jetbrains.com/issue/RUBY-31543/Support-test-prof-gem-fixtures-declared-with-letitbe#focus=Comments-27-8744742.0-0>
 
 ### RUBY-32041
 
@@ -95,7 +95,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
 ### RUBY-32301
 
 - Title: Unable to find associated model/association in GitLab application
-- Link: https://youtrack.jetbrains.com/issue/RUBY-32301
+- Link: <https://youtrack.jetbrains.com/issue/RUBY-32301>
 - Notes:
   - This is currently un-resolvable due to the amount of metaprogramming and indirection involved with how we mix in the `EE` modules.
   - Comment from JetBrains on the issue:
@@ -105,10 +105,10 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
 ### RUBY-32336
 
 - Title: Add support for declarative_policy
-- Link: https://youtrack.jetbrains.com/issue/RUBY-32336
+- Link: <https://youtrack.jetbrains.com/issue/RUBY-32336>
 - Notes:
   - Extensive metaprogramming in the declarative_policy gem causes 'Unresolved reference' errors
-  - See also https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-8805699.0-0 :
+  - See also <https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-8805699.0-0> :
     - "I'm afraid there is no existing issue. I think this is something that we can't really address without implementing custom support for this library, just due to how
       it has written its own DSL. We'll create an issue requesting support for this library (so that you can mention it in your comments), but there isn't any timeframe
       on implementing it right now sorry."

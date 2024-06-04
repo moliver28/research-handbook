@@ -77,12 +77,12 @@ We are a global team, and we know there are sustainability initiatives and offer
 
 **Footnotes**
 
-1. https://www.energy.gov/energysaver/articles/how-stop-energy-vampires-attacking-your-home
-2. https://www.energy.gov/energysaver/energy-efficient-computers-home-office-equipment-and-electronics
-3. https://www.eia.gov/todayinenergy/detail.php?id=49816
-4. https://carbonswitch.com/what-is-a-heat-pump/
-5. https://www.energy.gov/energysaver/programmable-thermostats#:~:text=You%20can%20save%20as%20much,those%20in%20more%20severe%20climates
-6. https://carbonswitch.com/insulation-and-sealing/
-7. https://www.energy.gov/energysaver/tankless-or-demand-type-water-heaters
-8. https://www.epa.gov/gmi/importance-methane
-9. https://ourworldindata.org/food-choice-vs-eating-local
+1. <https://www.energy.gov/energysaver/articles/how-stop-energy-vampires-attacking-your-home>
+2. <https://www.energy.gov/energysaver/energy-efficient-computers-home-office-equipment-and-electronics>
+3. <https://www.eia.gov/todayinenergy/detail.php?id=49816>
+4. <https://carbonswitch.com/what-is-a-heat-pump/>
+5. <https://www.energy.gov/energysaver/programmable-thermostats#:~:text=You%20can%20save%20as%20much,those%20in%20more%20severe%20climates>
+6. <https://carbonswitch.com/insulation-and-sealing/>
+7. <https://www.energy.gov/energysaver/tankless-or-demand-type-water-heaters>
+8. <https://www.epa.gov/gmi/importance-methane>
+9. <https://ourworldindata.org/food-choice-vs-eating-local>

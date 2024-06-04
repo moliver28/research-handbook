@@ -105,7 +105,7 @@ Parental allowances are determined on the basis of the annual income which is ca
 
 The daily allowance can be paid according to the preceding benefit if you have been in rehabilitation, studying, ill or unemployed. The daily allowance can, in certain situations, be paid at the same level as previous parental daily allowance.
 
-If the claimant does not have any working income, the daily allowances will be paid at the minimum levels. Daily allowance amounts are easy to find on Kela's website www.kela.fi/web/en.
+If the claimant does not have any working income, the daily allowances will be paid at the minimum levels. Daily allowance amounts are easy to find on Kela's website <www.kela.fi/web/en>.
 
 ### Sick Leave
 
@@ -117,7 +117,7 @@ If you can work part time during the illness, without compromising your health o
 
 Sickness allowance is paid to those between the ages of 16 and 67. The entitlement to sickness allowance commences nine working days after the illness begins (not counting the day of onset). A doctor's certificate is required for the period during which you are unable to work.
 
-Team members must designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that sick leave entitlement is properly tracked.  If the time away extends beyond 9 days, team members should contact the Absence Management team (leaves@gitlab.com).
+Team members must designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that sick leave entitlement is properly tracked.  If the time away extends beyond 9 days, team members should contact the Absence Management team (<leaves@gitlab.com>).
 
 #### Sickness Allowance
 
@@ -130,13 +130,13 @@ Sickness allowance is calculated based on your annual income. The following are 
 - income under the self-employed persons' (YEL) and farmers' (MYEL) pension insurance schemes
 - certain benefits you are entitled to (unemployment benefits, student allowance)
 
-You can claim sickness allowance even if you have never received income from work or benefits. In such cases you will be paid at least the minimum amount. Find out how much you can claim in sickness allowance on the Kela website, www.kela.fi/web/en.
+You can claim sickness allowance even if you have never received income from work or benefits. In such cases you will be paid at least the minimum amount. Find out how much you can claim in sickness allowance on the Kela website, <www.kela.fi/web/en>.
 
 Sickness allowance is taxable income.
 
 ### Other Leave Types
 
-Team members should contact the Absence Management team (leaves@gitlab.com) to request any of the follow leaves.
+Team members should contact the Absence Management team (<leaves@gitlab.com>) to request any of the follow leaves.
 
 <details markdown="1">
 

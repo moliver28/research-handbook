@@ -64,4 +64,4 @@ How to Navigate: To find your way back to the 1st Page [CLICK HERE](/handbook/re
 
 All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. This Slack channel allows you to reach out to our sales and marketing team in a timely manner, as well as other resellers.
 
-Additionally, you can email the GitLab Channel Team at partnersupport@gitlab.com.
+Additionally, you can email the GitLab Channel Team at <partnersupport@gitlab.com>.

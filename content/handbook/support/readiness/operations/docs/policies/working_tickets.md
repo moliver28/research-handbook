@@ -150,7 +150,7 @@ next steps.
 
 This is specifically related to questions related with information related to
 Support Portal related inquiries like how to change Name or Profile Picture etc.
-This information is publicly available on https://about.gitlab.com/support/portal/
+This information is publicly available on <https://about.gitlab.com/support/portal/>
 
 #### Adding Secondary Email
 

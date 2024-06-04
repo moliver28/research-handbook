@@ -72,7 +72,7 @@ Please open a new issue in [our team project](https://gitlab.com/gitlab-com/qual
 
 Key Reviews are meetings a department has with other GitLab team members to discuss any progress or updates related to KPIs & OKRs with the rest of the organization. More information can be found on the [Key Review Handbook Page](/handbook/company/key-review/)
 
-In Engineering our key reviews are handbook driven. Each department's KPIs are defined in www-gitlab-com repo under data/performance-indicators, & metrics are in handbook with URL structure like engineering/department/performance-indicators. For example, Infrastructure's [full URL](/handbook/engineering/infrastructure/performance-indicators) is https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators.
+In Engineering our key reviews are handbook driven. Each department's KPIs are defined in www-gitlab-com repo under data/performance-indicators, & metrics are in handbook with URL structure like engineering/department/performance-indicators. For example, Infrastructure's [full URL](/handbook/engineering/infrastructure/performance-indicators) is <https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators>.
 
 ### Performance Indicator DRI
 
@@ -221,5 +221,5 @@ To ensure that the issue gets visibility by our team, when creating an issue on 
 
 The handbook is essential to working remote successfully, to keeping up our transparency, and to recruiting successfully. Our processes are constantly evolving and we need a way to make sure the handbook is being updated at a regular cadence. This is measured by Merge Requests that update the handbook contents related to the performance indicator pages, our team page, and engineering metrics pages.
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/HandbookMRRate/EAhandbookMRrate" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/HandbookMRRate/EAhandbookMRrate>" >}}
 {{< /tableau >}}

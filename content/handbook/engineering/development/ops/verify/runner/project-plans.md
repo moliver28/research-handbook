@@ -70,13 +70,13 @@ The project plan tracking this work can be [found here](https://gitlab.com/gitla
 
 ### Iteration 16.5 (ending 2023-10-19)
 
-- [ ] https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/14+s
-- [ ] https://gitlab.com/gitlab-org/ci-cd/shared-runners/infrastructure/-/issues/87+s
+- [ ] <https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/14+s>
+- [ ] <https://gitlab.com/gitlab-org/ci-cd/shared-runners/infrastructure/-/issues/87+s>
 
 ### Week of 2023-09-25
 
 - [X] Verify Runner SaaS delivery timeline meets the requirements of Environment Automation.
-  It does: https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2825#note_1586596202
+  It does: <https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2825#note_1586596202>
 
 ### Week of 2023-10-02
 
@@ -88,8 +88,8 @@ The project plan tracking this work can be [found here](https://gitlab.com/gitla
 ### Week of 2023-10-09
 
 Clarified epic and issue structure with Dedicated ([thread](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2825#note_1586917812)).
-New project plan for Runner side to replace previous epic: https://gitlab.com/gitlab-org/ci-cd/shared-runners/infrastructure/-/issues/158
-New GRIT sub-epic to track all library work for this use-case: https://gitlab.com/groups/gitlab-org/ci-cd/runner-tools/-/epics/2
+New project plan for Runner side to replace previous epic: <https://gitlab.com/gitlab-org/ci-cd/shared-runners/infrastructure/-/issues/158>
+New GRIT sub-epic to track all library work for this use-case: <https://gitlab.com/groups/gitlab-org/ci-cd/runner-tools/-/epics/2>
 
 #### Goals
 
@@ -102,9 +102,9 @@ New GRIT sub-epic to track all library work for this use-case: https://gitlab.co
 
 - [X] Complete test template working end-to-end
 - [X] Complete prod template working end-to-end
-- [ ] Unit tests (in progress: https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/6)
-- [x] End-to-End test (in review: https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/8)
-- [x] Demo and launch video (https://www.youtube.com/watch?v=K_eOuXN-nXM)
+- [ ] Unit tests (in progress: <https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/6>)
+- [x] End-to-End test (in review: <https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/8>)
+- [x] Demo and launch video (<https://www.youtube.com/watch?v=K_eOuXN-nXM>)
 
 ### Week of 2023-11-20
 
@@ -114,9 +114,9 @@ The [demo video for GRIT beta prod](https://www.youtube.com/watch?v=K_eOuXN-nXM)
 
 #### Iteration Goals
 
-- [ ] Unit tests (in progress: https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/6)
-- [ ] Allow users to bring your own VPC (https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/35)
-- [ ] Update READMEs to match latest changes (https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/36)
+- [ ] Unit tests (in progress: <https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/6>)
+- [ ] Allow users to bring your own VPC (<https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/35>)
+- [ ] Update READMEs to match latest changes (<https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/36>)
 
 ### Week of 2023-11-27
 
@@ -126,7 +126,7 @@ We will also update READMEs to reflect the recent changes and refactors as well 
 
 #### Goals
 
-- [x] Add Unit tests (in progress: https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/6)
+- [x] Add Unit tests (in progress: <https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/6>)
 - [x] Begin issue: [Allow users to bring your own VPC](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/35)
 - [x] [Fix and improve E2E tests](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit-e2e/-/issues/1)
 

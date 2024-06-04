@@ -186,7 +186,7 @@ it is used solely to provide a mechanism for centrally managing GCP projects, pr
 roles/service accounts for infrastructure deployments within those projects, and controlling which
 APIs are enabled for each GCP project via Infrastructure as Code (terraform).
 
-Reference: https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/tree/master/environments/env-projects
+Reference: <https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/tree/master/environments/env-projects>
 
 ## Self-Managed
 

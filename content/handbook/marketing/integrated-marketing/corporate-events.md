@@ -18,23 +18,23 @@ twitter_creator: gitlab
 ## Mission Statement
 
 * The mission of the Corporate Events Team is to:
-    * Tell the GitLab story through engaging events
-    * Make customers the hero
-    * Build lasting and trusting vendor and internal relationships
-    * Help elevate the attendee/customer's GitLab experience during events
+  * Tell the GitLab story through engaging events
+  * Make customers the hero
+  * Build lasting and trusting vendor and internal relationships
+  * Help elevate the attendee/customer's GitLab experience during events
 
 ## What does the Corporate Events team handle?
 
 * Sponsored events
-    * Events with a global audience of 5000+ attendees for NA
-    * 3000+ for other territories (50% or more of audience is national or global).
-    * A handful of smaller events that we handle due to the nature of the audience, product specific, and the awareness and thought leadership positions we are trying to build out as a company.
-    * The primary goal is always driving brand awareness but that cannot be the only result.
+  * Events with a global audience of 5000+ attendees for NA
+  * 3000+ for other territories (50% or more of audience is national or global).
+  * A handful of smaller events that we handle due to the nature of the audience, product specific, and the awareness and thought leadership positions we are trying to build out as a company.
+  * The primary goal is always driving brand awareness but that cannot be the only result.
 * Owned events
-    * [GitLab Commit](https://about.gitlab.com/events/commit/), our User Conference
+  * [GitLab Commit](https://about.gitlab.com/events/commit/), our User Conference
 * Internal events
-    * [GitLab Summit](https://about.gitlab.com/events/summit-las-vegas/), our internal company and core community event
-    * Please review our events decision tree to ensure Corporate Marketing is the appropriate owner for an event. If it is not clear who should own an event based on the [decision tree](https://docs.google.com/spreadsheets/d/1aWsmsksPfOlX1t6TeqPkh5EQXergt7qjHAjGTxU27as/edit?usp=sharing), please email events@gitlab.com.
+  * [GitLab Summit](https://about.gitlab.com/events/summit-las-vegas/), our internal company and core community event
+  * Please review our events decision tree to ensure Corporate Marketing is the appropriate owner for an event. If it is not clear who should own an event based on the [decision tree](https://docs.google.com/spreadsheets/d/1aWsmsksPfOlX1t6TeqPkh5EQXergt7qjHAjGTxU27as/edit?usp=sharing), please email <events@gitlab.com>.
 
 ## Meet the Corporate Events Team and How to Reach Us
 
@@ -118,13 +118,13 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 ### Corporate Events Strategy / Goals / OKRs
 
 * **Brand**
-    * For Sponsored Events: Get the GitLab brand in front of 15% of the event audience. 40,000 person event we would hope to get 4,000+ leads (10%) and 5% general awareness and visibility with additional branding and activities surrounding participation.
-    * Human touches- Tracked by leads collected, social interactions, number of opportunities created, referrals, current customers met, and quality time spent on each interaction.
-    * Audience Minimum Requirements- volume, relevance (our buyer persona, thought leaders, contributors), reach (thought leaders?), and duration of user/ buyer journey considered.
+  * For Sponsored Events: Get the GitLab brand in front of 15% of the event audience. 40,000 person event we would hope to get 4,000+ leads (10%) and 5% general awareness and visibility with additional branding and activities surrounding participation.
+  * Human touches- Tracked by leads collected, social interactions, number of opportunities created, referrals, current customers met, and quality time spent on each interaction.
+  * Audience Minimum Requirements- volume, relevance (our buyer persona, thought leaders, contributors), reach (thought leaders?), and duration of user/ buyer journey considered.
 * **ROI**
-    * Work closely with Integrated Marketing colleagues to ensure events are driving results and touching the right audience.
-    * Exceed minimum threshold of 8X ROI for any events that also have a demand generation.
-    * Aim to keep the cost per lead for a live event around $100.
+  * Work closely with Integrated Marketing colleagues to ensure events are driving results and touching the right audience.
+  * Exceed minimum threshold of 8X ROI for any events that also have a demand generation.
+  * Aim to keep the cost per lead for a live event around $100.
 * Thought Leadership and Education
 * Corporate Events Team OKRs are algined quarterly to the Integrated Marketing (therefore the CMO) OKRs.
 
@@ -224,10 +224,10 @@ These are estimated numbers that the Corporate Events team uses to account for b
 ### DRI's
 
 * Overall Content DRI: Senior Management in Product Marketing or otherwise assigned by senior management, could be vary based on event
-    * Partner Lightning Talk DRI: Kelley Walker `@kmwalker`
-    * GitLab Lightning Talk DRI: Senior Management in Product Marketing, could be vary based on event
+  * Partner Lightning Talk DRI: Kelley Walker `@kmwalker`
+  * GitLab Lightning Talk DRI: Senior Management in Product Marketing, could be vary based on event
 * Corporate Events Lightning Talk Content Manager DRI: Suli King `@sstuelp`
-    * Ensures that the team is on track to identify lightning talks, finalize lightning talk schedule, and that lightning talk content deadlines are being hit.
+  * Ensures that the team is on track to identify lightning talks, finalize lightning talk schedule, and that lightning talk content deadlines are being hit.
 * Brand Compliance DRI: Adam Mittner or otherwise assigned by Adam Mittner `@amittner`
 
 ### Process
@@ -402,32 +402,32 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
 ### Communicating Accessibility
 
 * Gathering attendee needs during registration.
-    * Dietary restrictions: If you have any questions, please follow up with the individual privately. Determine the specific restrictions and provide information on how ingredients will be provided. Offer solutions in case there is an issue onsite so that the attendee is prepared.
-    * Additional needs: Include an open text area in which attendees can list specific needs to help ensure full guest participation. Example requests include:
-        * Interpreting services
-        * Assistive listening devices
-        * Accessible parking
-        * Accessible hotel rooms
-        * Captioning
-        * Reserved front row seat
-        * Wheelchair access to working tables throughout the room
-        * Lactation room
-        * Seating for in-person events
-    * The team will make all good faith efforts to carry out requests, or will open lines of discussion for options when not available.
-    * Preferred pronouns: Aim to avoid a closed field for gender and instead provide a blank write-in field or inclusive dropdown options so attendees can select/type their preference pending on the badging system. This information will be displayed on name badges, or available to add with stickers etc. Email and landing page communication
+  * Dietary restrictions: If you have any questions, please follow up with the individual privately. Determine the specific restrictions and provide information on how ingredients will be provided. Offer solutions in case there is an issue onsite so that the attendee is prepared.
+  * Additional needs: Include an open text area in which attendees can list specific needs to help ensure full guest participation. Example requests include:
+    * Interpreting services
+    * Assistive listening devices
+    * Accessible parking
+    * Accessible hotel rooms
+    * Captioning
+    * Reserved front row seat
+    * Wheelchair access to working tables throughout the room
+    * Lactation room
+    * Seating for in-person events
+  * The team will make all good faith efforts to carry out requests, or will open lines of discussion for options when not available.
+  * Preferred pronouns: Aim to avoid a closed field for gender and instead provide a blank write-in field or inclusive dropdown options so attendees can select/type their preference pending on the badging system. This information will be displayed on name badges, or available to add with stickers etc. Email and landing page communication
 * Put accessibility information in the event page footer or have a page dedicated to accessibility.
 * Send out email on accessibility specifics and resources in advance of the event. Examples of what to communicate in that email:
-    * Use of flash photography
-    * Any sort of strobe lights or flashing images that may cause seizures
-    * Distinctly amplified sounds/music
-    * The use of fog machines/any other chemicals or smells that may make your space inaccessible to individuals with Multiple Chemical Sensitivity (MCS) or Idiopathic Environmental Intolerances (IEI)
-    * Whether interpreting services will be provided for various speakers, panels, talks, etc.
-    * Whether assistive listening devices will be provided.
-    * All optional parts of your event, including off-site social activities, that may not be fully accessible.
-    * Information about meals and dietary restrictions.
-    * Accessible transportation options
-    * First Aid/Medical Assistance options
-    * Info on how to get in touch with questions or concerns.
+  * Use of flash photography
+  * Any sort of strobe lights or flashing images that may cause seizures
+  * Distinctly amplified sounds/music
+  * The use of fog machines/any other chemicals or smells that may make your space inaccessible to individuals with Multiple Chemical Sensitivity (MCS) or Idiopathic Environmental Intolerances (IEI)
+  * Whether interpreting services will be provided for various speakers, panels, talks, etc.
+  * Whether assistive listening devices will be provided.
+  * All optional parts of your event, including off-site social activities, that may not be fully accessible.
+  * Information about meals and dietary restrictions.
+  * Accessible transportation options
+  * First Aid/Medical Assistance options
+  * Info on how to get in touch with questions or concerns.
 
 ### For speakers
 
@@ -479,7 +479,7 @@ Virtual events require considerable lead time and effort to plan, especially if 
 * Link to any resources as needed
 * If there are no questions, feel free to post an FAQ (and answer) or 2
 * Gamefy it! Any cool trivia or info that you didn't have time to cover in your talk? Add nuggets in the chat throughout the session
-    * "I'm going to sprinkle in the chat 4 little-known facts about Kubernetes – get ready!"
+  * "I'm going to sprinkle in the chat 4 little-known facts about Kubernetes – get ready!"
 
 #### Execution
 
@@ -553,14 +553,14 @@ The Corporate Events team works with our [swag vendor](/handbook/marketing/brand
 * Give-Back Programs
 * Eco Products
 * Supplier Diversity
-    * Women Owned
-    * Black Owned
-    * Asian-Am Owned
-    * Hispanic/Lantinx-Am Owner
-    * Native American Owned
-    * Native Hawaiian/PI Owned
-    * Owner with Disability
-    * Veteran Owned
-    * LGBTQIA+ Owned
-    * Small Business Enterprise
-    * Small Disadvantaged Business
+  * Women Owned
+  * Black Owned
+  * Asian-Am Owned
+  * Hispanic/Lantinx-Am Owner
+  * Native American Owned
+  * Native Hawaiian/PI Owned
+  * Owner with Disability
+  * Veteran Owned
+  * LGBTQIA+ Owned
+  * Small Business Enterprise
+  * Small Disadvantaged Business

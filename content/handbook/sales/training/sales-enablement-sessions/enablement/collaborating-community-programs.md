@@ -67,7 +67,7 @@ The Community Programs team uses a third party vendor, [SheerID](https://www.she
 
 Important points:
 
-- If a community member's educational institution or country is not listed in the SheerID form, they should email education@gitlab.com and let us know.
+- If a community member's educational institution or country is not listed in the SheerID form, they should email <education@gitlab.com> and let us know.
 
 - If a community member applying to the GitLab for Education Program believes they've been falsely rejected, they should contact SheerID per the instructions in the rejection email.
 

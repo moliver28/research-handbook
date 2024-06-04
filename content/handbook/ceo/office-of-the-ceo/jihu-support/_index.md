@@ -94,7 +94,7 @@ Check [What to do when the validation pipeline failed]({{< ref "jihu-validation-
 
 JiHu is responsible for building and releasing the JiHu Edition each month including all patch and security releases. For security releases, GitLab Inc will continue to follow our existing [security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md) to publish our [security releases](https://about.gitlab.com/releases/categories/releases/). To enable JiHu to build their security releases in a timely manner, GitLab Inc will notify JiHu when a security release is in progress along so that their teams can be on stand by. GitLab Inc will not notify JiHu of the contents of the security release or of the vulnerability.
 
-To notify JiHu of an upcoming security release, please simply post a comment in: https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues/112
+To notify JiHu of an upcoming security release, please simply post a comment in: <https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues/112>
 
 ### Vulnerability Disclosure Process
 

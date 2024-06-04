@@ -141,33 +141,33 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 #### GitLab IT Team
 
-- Senior Director, IT Operations - [Robert Rea](/handbook/company/team/#rrea1), rrea@gitlab.com, @rrea1
+- Senior Director, IT Operations - [Robert Rea](/handbook/company/team/#rrea1), <rrea@gitlab.com>, @rrea1
 
-- Senior Manager, IT - [Michael Beltran](/handbook/company/team/#mbeee), mbeltran@gitlab.com, @mbeee
+- Senior Manager, IT - [Michael Beltran](/handbook/company/team/#mbeee), <mbeltran@gitlab.com>, @mbeee
 
-- Business Systems Analyst - [Marc Di Sabatino](/handbook/company/team/#marc_disabatino), mdisabatino@gitlab.com, @marc_disabatino
+- Business Systems Analyst - [Marc Di Sabatino](/handbook/company/team/#marc_disabatino), <mdisabatino@gitlab.com>, @marc_disabatino
 
-- IT Analyst Americas - Alex Krusiec, akrusiec-ext@gitlab.com, @akrusiec-ext
+- IT Analyst Americas - Alex Krusiec, <akrusiec-ext@gitlab.com>, @akrusiec-ext
 
-- IT Analyst Americas - [Jeff Ford](/handbook/company/team/#jeffford_), jford@gitlab.com, @jeffford_
+- IT Analyst Americas - [Jeff Ford](/handbook/company/team/#jeffford_), <jford@gitlab.com>, @jeffford_
 
-- IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
+- IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), <jwong@gitlab.com>, @jwong6
 
-- Senior IT Analyst APAC -  [Steve Ladgrove](/handbook/company/team/#sladgrove), sladgrove@gitlab.com, @sladgrove
+- Senior IT Analyst APAC -  [Steve Ladgrove](/handbook/company/team/#sladgrove), <sladgrove@gitlab.com>, @sladgrove
 
-- IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), mraetz@gitlab.com, @mhirata-gl
+- IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), <mraetz@gitlab.com>, @mhirata-gl
 
-- IT Analyst EMEA - Bruno Ferreira, bferreira-ext@gitlab.com, @bferreira-ext
+- IT Analyst EMEA - Bruno Ferreira, <bferreira-ext@gitlab.com>, @bferreira-ext
 
-- IT Analyst EMEA - Eoghan Dunne, edunne-ext@gitlab.com, @edunne-ext
+- IT Analyst EMEA - Eoghan Dunne, <edunne-ext@gitlab.com>, @edunne-ext
 
-- System Administrator - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), malkobaisy@gitlab.com, @malkobaisy
+- System Administrator - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), <malkobaisy@gitlab.com>, @malkobaisy
 
-- Senior IT Systems Engineer -  [Dillon Wheeler](/handbook/company/team/#dillonwheeler), dwheeler@gitlab.com, @dillonwheeler
+- Senior IT Systems Engineer -  [Dillon Wheeler](/handbook/company/team/#dillonwheeler), <dwheeler@gitlab.com>, @dillonwheeler
 
-- Senior IT Systems Engineer -  [Jeff Martin](/handbook/company/team/#jeffersonmartin), jmartin@gitlab.com, @jeffersonmartin
+- Senior IT Systems Engineer -  [Jeff Martin](/handbook/company/team/#jeffersonmartin), <jmartin@gitlab.com>, @jeffersonmartin
 
-- Senior IT Systems Engineer - [Marcus Whitaker](/handbook/company/team/#mwhitaker), mwhitaker@gitlab.com, @mwhitaker
+- Senior IT Systems Engineer - [Marcus Whitaker](/handbook/company/team/#mwhitaker), <mwhitaker@gitlab.com>, @mwhitaker
 
 #### Laptop Wipe Schedules for IT Analysts
 

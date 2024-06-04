@@ -15,9 +15,9 @@ description: Home Page for Support's Ginkgo Group
   - As a member of the Ginkgo group, consider [changing your notifications settings](#slack-notifications) to allow for better collaboration.
 - Our Team: [Ginkgo Members](https://gitlab-com.gitlab.io/support/team/sgg.html?search=ginkgo)
 - Aligned Managers:
-   - **AMER** -- Izzy, Aric, Ronnie
-   - **EMEA** -- John, Erika
-- Our gitlab.com nanmespace: https://gitlab.com/gitlab-com/support/sgg-ginkgo
+  - **AMER** -- Izzy, Aric, Ronnie
+  - **EMEA** -- John, Erika
+- Our gitlab.com nanmespace: <https://gitlab.com/gitlab-com/support/sgg-ginkgo>
 
 ## Ginkgo workflows and processes
 

@@ -151,7 +151,7 @@ Upon joining the Engineering productivity team, team members are granted either 
   - GitLab Tooling and Pipeline configuration consists of scripts and config files used for both local development and for CI pipelines. Changes made to these files have wide impact to developer experience at GitLab.
     - Please note: despite being two different code categories, the [Reviewer roulette](https://gitlab-org.gitlab.io/gitlab-roulette/) is designed to suggest `@gl-quality/tooling-maintainers` to review both `Tooling` and `Pipeline configuration` MRs. We have [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/34708) to split up maintainers for `GitLab Tooling` and `GitLab Pipeline configuration` into `@gl-quality/tooling-maintainers` and `@gl-quality/pipeline-maintainers`. For now, everyone in `@gl-quality/tooling-maintainers` is required to have the knowledge to review both code changes.
   - To become a Tooling and Pipeline configuration maintainer, one must have:
-    - Read https://docs.gitlab.com/ee/development/pipelines/index.html and https://docs.gitlab.com/ee/development/pipelines/internals.html and is familiar with GitLab's internal pipeline configuration rules and patterns.
+    - Read <https://docs.gitlab.com/ee/development/pipelines/index.html> and <https://docs.gitlab.com/ee/development/pipelines/internals.html> and is familiar with GitLab's internal pipeline configuration rules and patterns.
     - Authored 5 merged MRs for Tooling maintenance and improvements.
     - Authored 5 merged MRs for Pipeline configuration maintenance and improvements.
     - Reviewed 10 MRs demonstrate good understanding of tooling and GitLab pipeline configurations.

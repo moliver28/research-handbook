@@ -120,16 +120,16 @@ Should a requested send time be missed, MktgOps can schedule the email within 8 
 ### Technical set-up - email
 
 - Specialized email headers (not the standard header used in templates) - Typically used for large events such as Commit or DevSecOps World Tour.
-     - The images will be requested either by Lifecycle Marketing or the event DRI
-     - Image dimensions can be found on the [email marketing page](/handbook/marketing/lifecycle-marketing/email-best-practices/#email-templates).
-     - The requested image must be transparent. We cannot use a solid image as it will not render properly in all clients.
-     - In the email code (under "Edit Code"), you should use a solid email background (the color will change depending on the design for the event). Example code from the `B - Advanced modular template - light mode` template (aka Advanced Webcast Template). The variables to edit are bgcolor=`#xxxxxx` and border-bottom: 4px solid `#xxxxxx`
+  - The images will be requested either by Lifecycle Marketing or the event DRI
+  - Image dimensions can be found on the [email marketing page](/handbook/marketing/lifecycle-marketing/email-best-practices/#email-templates).
+  - The requested image must be transparent. We cannot use a solid image as it will not render properly in all clients.
+  - In the email code (under "Edit Code"), you should use a solid email background (the color will change depending on the design for the event). Example code from the `B - Advanced modular template - light mode` template (aka Advanced Webcast Template). The variables to edit are bgcolor=`#xxxxxx` and border-bottom: 4px solid `#xxxxxx`
      `<tr class="mktoModule" id="bgImagewText4990312b-fd20-449c-a184-d0500cdcc1aa" mktoname="Background Image with CTA">
                         <td background="${heroBackgroundImage}" bgcolor="#171321" valign="middle" style="max-width: 600px; width: 100%; text-align: center; height: 200px; background-repeat:no-repeat ;background-position: 100% !important; background-size: cover !important; border-bottom: 4px solid #171321;" width="100%" height="auto">`
-      - After saving the edits in the code, you can then click on the existing header, and the Variable sidebar will appear. Add the new transparent image to the `Hero Background Image` section, and confirm the link and button Copy
-      - All emails using specialized images must be [sent to Litmus](/handbook/marketing/marketing-operations/litmus/#steps-to-test-an-email) for previewing various clients. Refer to the Litmus page for details on what to check.
-- When using the URL in emails or other uses with utm values, Marketo page URLs (starting with page.gitlab.com) should not have a `/` at the end of the page URL before the `?`. This will likely cause the page to redirect. (Correct example: https://page.gitlab.com/webcast-example?{{my.utm}}).
-- When using the URL in emails or other uses with utm values, about.gitlab.com page URLs (starting with about.gitlab.com) must have a `/` at the end of the page URL before the `?`. Omitting the `/` can cause the form not to display on the page. (Correct example: https://about.gitlab.com/webcast-example/?{{my.utm}}).
+    - After saving the edits in the code, you can then click on the existing header, and the Variable sidebar will appear. Add the new transparent image to the `Hero Background Image` section, and confirm the link and button Copy
+    - All emails using specialized images must be [sent to Litmus](/handbook/marketing/marketing-operations/litmus/#steps-to-test-an-email) for previewing various clients. Refer to the Litmus page for details on what to check.
+- When using the URL in emails or other uses with utm values, Marketo page URLs (starting with page.gitlab.com) should not have a `/` at the end of the page URL before the `?`. This will likely cause the page to redirect. (Correct example: <https://page.gitlab.com/webcast-example?{{my.utm}}>).
+- When using the URL in emails or other uses with utm values, about.gitlab.com page URLs (starting with about.gitlab.com) must have a `/` at the end of the page URL before the `?`. Omitting the `/` can cause the form not to display on the page. (Correct example: <https://about.gitlab.com/webcast-example/?{{my.utm}}>).
 - For localized emails, be sure to use the [Localized Email Snippet](/handbook/marketing/marketing-operations/marketo/#snippets)
 - Prior to sending to the business owner review, the email creator must complete all steps in the [Technical email QA checklist](/handbook/marketing/lifecycle-marketing/email-processes-requests/#qa-checklist-technical)
 

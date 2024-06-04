@@ -16,13 +16,13 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 Many customers are interested in migrating to our SaaS platform. Typically their reasons for doing so are:
 
 - **Infrastructure Cost Savings**
-   - They do not need to pay for infrastructure to host their GitLab instance, or employees to manage this infrastructure
+  - They do not need to pay for infrastructure to host their GitLab instance, or employees to manage this infrastructure
 - **Mitigate Administration Issues**
-   - Customers do not necessarily want to manage being a GitLab admin
+  - Customers do not necessarily want to manage being a GitLab admin
 - **Have Latest Features**
-   - Customers will always be on the latest version of GitLab
-   - Don't need to perform upgrades
-   - Always up to date
+  - Customers will always be on the latest version of GitLab
+  - Don't need to perform upgrades
+  - Always up to date
 
 If a customer poses an interest in moving to SaaS, it is important that they know the differences between the two platforms: namely, the presence or absence of administrative control. On self-managed, Admin users can access the Admin Panel, and have the ability to impersonate users, remove personal access tokens created by users, and make use of other features only Admins can use. On SaaS, users have more control and there are no Admins, thus, there is less access control. Also, some APIs cannot be used on SaaS, as they require the user conducting the request to have administrative privileges.
 

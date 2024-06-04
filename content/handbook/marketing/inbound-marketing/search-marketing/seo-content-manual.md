@@ -332,7 +332,7 @@ Anchor text 5 basic types
 2. Partial match: anchor text that includes a variation of the core target term of the linked page (eg. “benefits of GitOps” to GitOps page)
 3. Branded: using “GitLab” as anchor text
 4. Generic: avoid these, as they provide no value (“click here” or “read more” as anchor text)
-5. Naked anchor text: also avoid as they provide no context (this would consist of a URL link: www.xyz.com/topcs/devops/)
+5. Naked anchor text: also avoid as they provide no context (this would consist of a URL link: <www.xyz.com/topcs/devops/>)
 
 Image anchors are another form of link anchor (non-text). When using images as an anchor for a link, search engines will utilize the image's alt attribute as the anchor text (goes back to why images need to be optimized).
 

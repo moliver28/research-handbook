@@ -102,8 +102,8 @@ The responsibilities, requirements, and additional sklls for Public Sector Profe
 ## Career Ladder
 
 - The next steps for individual contributors is to move into:
-    - A people manager role within Professional Services
-    - An Engagement Manager in Profressional Services
+  - A people manager role within Professional Services
+  - An Engagement Manager in Profressional Services
 - The next steps for a Manager, Professional Services would be to move into a Senior Manager within this Job Family or to the [Professional Services Engagement](/job-families/sales/job-professional-services-engagement-manager/) Job Family or the [Director of Professional Services](/job-families/sales/director-of-professional-services) Job Family.
 - The next steps for a Senior Manager, Professional Services would be the [Professional Services Engagement](/job-families/sales/job-professional-services-engagement-manager/) Job Family or the [Director of Professional Services](/job-families/sales/director-of-professional-services) Job Family.
 - [Leadership at GitLab](/handbook/company/structure/#director-group)

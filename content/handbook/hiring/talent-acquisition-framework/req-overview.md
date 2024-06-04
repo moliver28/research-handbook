@@ -77,11 +77,11 @@ Anyone on the Recruitment Team can provide sourcing support for priority REQs.  
 If you are helping a Recruiter source for an open REQ please verify the prospects you find are best qualified *before* reaching out to them. Share added prospects in bulk with the Recruiter vs. sending multiple one-off pings to the Recruiter.  This can be done by  sending the Recruiter a Greenhouse link to the candidate pool using filters (applied on DATE, source NAME, role title).
 
 - The Recruiter has a *7 day SLA* to review the prospects you share
-     - If the prospect is not qualified, the Recruiter will select the option to “stop considering as a prospect”
-     - If the prospect is qualified the Recruiter will ask you to engage the prospect
-          - If the prospect responds and is NOT interested, select the option to “stop considering as a prospect” in Greenhouse
-          - If the prospect does not respond before the REQ is filled, the Recruiter should reject all prospects in bulk and select the option to not send an email.
-          - If the prospect responds with interest, the person who found them will select the option to “convert to candidate” in Greenhouse and will work to schedule a screen between the candidate and the Recruiter.
+  - If the prospect is not qualified, the Recruiter will select the option to “stop considering as a prospect”
+  - If the prospect is qualified the Recruiter will ask you to engage the prospect
+    - If the prospect responds and is NOT interested, select the option to “stop considering as a prospect” in Greenhouse
+    - If the prospect does not respond before the REQ is filled, the Recruiter should reject all prospects in bulk and select the option to not send an email.
+    - If the prospect responds with interest, the person who found them will select the option to “convert to candidate” in Greenhouse and will work to schedule a screen between the candidate and the Recruiter.
 
 #### **Use Greenhouse to track prospects**
 
@@ -130,7 +130,7 @@ If at any time during the interview process a candidate is declined due to compe
   - If applicable, Round 2A: 25 minute interview with a Hiring Team member
   - If applicable, Round 2B: 25 minute interview with a Hiring Team member
   - If applicable, Round 3: 50 minute Executive Interview
-- The Recruiter should confirm focus areas have been assigned to the interview team. This should have been taken care of in the [REQ kick-off Issue](https://gitlab.com/gl-talent acquisition/req-intake/-/issues)
+- The Recruiter should confirm focus areas have been assigned to the interview team. This should have been taken care of in the [REQ kick-off Issue](<https://gitlab.com/gl-talent> acquisition/req-intake/-/issues)
 - Interviewing is only available to full time GitLab team members. Under no circumstances should a contractor or outside third party be invited to interview a candidate or to shadow an interview.
 - The candidate should be provided clear expectations of the process, location of interviewers, timeline to hire, etc.
 - When Team Interviews have completed, follow up with the hiring manager on next steps. Depending on the level of the role and outcome of interviews, next steps may include additional interviews including an executive interview or moving to reference checks.
@@ -145,7 +145,7 @@ If at any time during the interview process a candidate is declined due to compe
 
 Once a Hiring Manager has determined they want to move forward with a candidate, the Recruiter will send the appropriate form to the candidate that is found in the Reference Check stage. If no forms are listed, please contact the Enablement team to get them added. The form will request their references' contact details as well as details that will help with an offer letter such as Legal name and background check.
 
-If you would like the Hiring Manager to receive an email when the form has been received, you can go to the job setup for that req, select 'Forms' and edit the individual form you plan to send. The Recruiter, individual CES assigned to the candidate, and CES@gitlab.com will all automatically receive an email when the form is completed.
+If you would like the Hiring Manager to receive an email when the form has been received, you can go to the job setup for that req, select 'Forms' and edit the individual form you plan to send. The Recruiter, individual CES assigned to the candidate, and <CES@gitlab.com> will all automatically receive an email when the form is completed.
 
 During this time, you will also submit your offer for approvals.
 

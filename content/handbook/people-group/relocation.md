@@ -97,18 +97,18 @@ If the country and the location factor don’t change, no change in compensation
 1. Complete the [Relocation Request Form](https://docs.google.com/forms/d/1u8O-AvzAJh993GWJyVsm7C7EjMpV9S0tjaXYoce8F7o/viewform?edit_requested=true) to submit the initial request to start the process. Upon completion, the form is sent automatically to People Connect.
 1. Once the relocation request form has been received by People Connect, they should review the form playing close attention to the following information:
 
-  - [Location Eligibility](https://comp-calculator.gitlab.net/hiring_status/index) Check the [Compensation calculator, country hiring status](https://comp-calculator.gitlab.net/hiring_status/index) to confirm that the country is currently an entity country open to further hiring.  These are the only countries where team members can relocate.
-  - [Work Eligibility](#eligibility-to-work)
-  - The relocation date is future dated and allows enough time for the process. For sales personnel with a variable change, the effective date should always be the 1st of the month.
-  - Reason for relocation is provided
-  - Team member has confirmed whether or not they require employer sponsored visa for relocation
-  - The team member has satisfied the required one year tenure to be eligible for relocation
+- [Location Eligibility](https://comp-calculator.gitlab.net/hiring_status/index) Check the [Compensation calculator, country hiring status](https://comp-calculator.gitlab.net/hiring_status/index) to confirm that the country is currently an entity country open to further hiring.  These are the only countries where team members can relocate.
+- [Work Eligibility](#eligibility-to-work)
+- The relocation date is future dated and allows enough time for the process. For sales personnel with a variable change, the effective date should always be the 1st of the month.
+- Reason for relocation is provided
+- Team member has confirmed whether or not they require employer sponsored visa for relocation
+- The team member has satisfied the required one year tenure to be eligible for relocation
 
 1. The People Connect Team will determine the impact on compensation based on the relocation utilizing the following practices:
 
-  - If the relocation request within the same country does not result in a change in compensation, no further approvals are required and The People Connect team will [inform the manager of the relocation](https://docs.google.com/document/d/1Zq_sxT3ASsnLeTNFJV3-HE5aG3ebv_JXMzhW1zXcEQI/edit)
-  - If the country and/or the location factor changes, generally the compensation will be adjusted based on the location factor change.  For example, if a team member currently resides in a location with a location factor of .70 and the move results in the team member landing in a location with a location factor of .75, the compensation recommendation will be to increase the salary to position the team member’s salary to an equal position in the new range (compa-ratio).  If the team member currently resides in a location with a location factor of .80 and the move results in landing in a location with a location factor of .70, the compensation recommendation will be to decrease the salary to position the team member’s salary in an equal position in the new range. If the compensation range of the team member's role isn't available in our [compensation calculators](https://docs.google.com/spreadsheets/d/1lfWhPWOdQOpbORMiOawcQYpI4QWW8lpKetnWkneEkjE/edit?usp=sharing), the People Connect Team member reaches out to Total Rewards to discuss the new compensation.
-  - If the relocation meets all requirements for a compensation change, the People Connect Team will [determine relocation salary](https://docs.google.com/spreadsheets/d/1lfWhPWOdQOpbORMiOawcQYpI4QWW8lpKetnWkneEkjE/edit#gid=341502022) using the same compa ratio as the previous location (if applicable) and [rounding best practice]({{< ref "compensation-calculator#rounding-best-practice" >}}) method. Ensure that the new salary is within the comp range per the [Compensation Calculator](https://gitlab.okta.com/home/bookmark/0oa87j8ow7KXpsUy1357/2557)
+- If the relocation request within the same country does not result in a change in compensation, no further approvals are required and The People Connect team will [inform the manager of the relocation](https://docs.google.com/document/d/1Zq_sxT3ASsnLeTNFJV3-HE5aG3ebv_JXMzhW1zXcEQI/edit)
+- If the country and/or the location factor changes, generally the compensation will be adjusted based on the location factor change.  For example, if a team member currently resides in a location with a location factor of .70 and the move results in the team member landing in a location with a location factor of .75, the compensation recommendation will be to increase the salary to position the team member’s salary to an equal position in the new range (compa-ratio).  If the team member currently resides in a location with a location factor of .80 and the move results in landing in a location with a location factor of .70, the compensation recommendation will be to decrease the salary to position the team member’s salary in an equal position in the new range. If the compensation range of the team member's role isn't available in our [compensation calculators](https://docs.google.com/spreadsheets/d/1lfWhPWOdQOpbORMiOawcQYpI4QWW8lpKetnWkneEkjE/edit?usp=sharing), the People Connect Team member reaches out to Total Rewards to discuss the new compensation.
+- If the relocation meets all requirements for a compensation change, the People Connect Team will [determine relocation salary](https://docs.google.com/spreadsheets/d/1lfWhPWOdQOpbORMiOawcQYpI4QWW8lpKetnWkneEkjE/edit#gid=341502022) using the same compa ratio as the previous location (if applicable) and [rounding best practice]({{< ref "compensation-calculator#rounding-best-practice" >}}) method. Ensure that the new salary is within the comp range per the [Compensation Calculator](https://gitlab.okta.com/home/bookmark/0oa87j8ow7KXpsUy1357/2557)
 
 1. The People Connect team will then [obtain approvals](https://docs.google.com/document/d/1kn97Y-B7iTULhhdJ8yDnFHXgB7yw1iQtbhQqJFRDPSM/edit#heading=h.46wc4xqdjyi7) for the relocation request and add the applicable [PBP of the division](/handbook/people-group#people-business-partner-alignment-to-division) in copy. Considerations in addition to budget availability include business criticality of the role, ability to perform the role from the proposed new location, and demonstrated performance by the team member. Any increase in location factor equal to or greater than .20 will require [VP approval](https://docs.google.com/document/d/1kn97Y-B7iTULhhdJ8yDnFHXgB7yw1iQtbhQqJFRDPSM/edit#heading=h.46wc4xqdjyi7) and following that [E-Group member approval](https://docs.google.com/document/d/1kn97Y-B7iTULhhdJ8yDnFHXgB7yw1iQtbhQqJFRDPSM/edit#heading=h.1m16plpt2yam) BEFORE [manager approval](https://docs.google.com/document/d/1kn97Y-B7iTULhhdJ8yDnFHXgB7yw1iQtbhQqJFRDPSM/edit#heading=h.638wcz4rf9gd) due to the possible significant impact on compensation with a copy to the Division Director and VP to add context and transparency for E-Group member consideration.
 1. The People Connect Team member will update the [Relocation Tracker](https://docs.google.com/spreadsheets/d/1Z45eOZ2rCRIKgGae3eOKQ8lhIbAPikSs5gLz3V8Kh9U/edit?ts=5e7a2c42#gid=972787144) with the details of the relocation
@@ -220,14 +220,14 @@ If you are relocating away from a location with PEO Employment, you must give no
 
 The steps our People Connect Team member team uses to support relocations to the Netherlands in addition to above [relocation process](#how-to-apply-for-a-long-term-relocation):
 
-1. The People Connect Team member stages the relocation contract via Docusign for the team member and GitLab signatory to sign and adds hr@savvy-group.eu to 'Receive a copy' once signed.
-1. The People Connect Team member will then reach out to our Payroll vendor in the Netherlands by emailing hr@savvy-group.eu and introduce the relocating team member in cc to support them with their relocation.
+1. The People Connect Team member stages the relocation contract via Docusign for the team member and GitLab signatory to sign and adds <hr@savvy-group.eu> to 'Receive a copy' once signed.
+1. The People Connect Team member will then reach out to our Payroll vendor in the Netherlands by emailing <hr@savvy-group.eu> and introduce the relocating team member in cc to support them with their relocation.
 1. The vendor will supply all the documentation needed to apply for relocation including information about: [30% Ruling Questionnaire](https://docs.google.com/document/d/1Ok6LS9T4P6tnPu2N6BDRDeveOYzd1ILpkbQRhl911w4/edit?ts=5caf1bca), [wage tax](https://drive.google.com/file/d/1q8N-idoYGFSCw2ajat9RscfQ004EL-PS/view) form and potentially an application for a BSN Number.
     - **During COVID a letter stating your requirement to relocate to the Netherlands at such time is required, the People Connect team member will provide the vendor with such, using the following [template](https://docs.google.com/document/d/1yE7DrHBLOj0blBJwaOIC8f2bLMFS10wYUZvg9BqjnF4/edit?ts=5e592e30)**
     - **A completed health declaration form, the vendor will provide this to you**.
 1. Details on that process can be found under the BSN number section on the [visas page](/handbook/people-group/visas/#bsn-number) in the handbook.
     - **Once the approved Visa and 30% ruling is received by the team member, the team members should email this to PeopleOps for filing in Workday.**
-1. Sometimes the BSN might not be ready for the first Payroll, if this happens team members can still be on the Dutch Payroll, it just means the highest rate of tax will apply for this period. Any overpaid tax can be claimed back via [a year end tax return](https://www.government.nl/topics/income-tax/filing-a-tax-return). When you receive your BSN please ensure to add to your Workday profile and email nonuspayroll@gitlab.com to let them know. Any Payroll queries should be directed to nonuspayroll@gitlab.com
+1. Sometimes the BSN might not be ready for the first Payroll, if this happens team members can still be on the Dutch Payroll, it just means the highest rate of tax will apply for this period. Any overpaid tax can be claimed back via [a year end tax return](https://www.government.nl/topics/income-tax/filing-a-tax-return). When you receive your BSN please ensure to add to your Workday profile and email <nonuspayroll@gitlab.com> to let them know. Any Payroll queries should be directed to <nonuspayroll@gitlab.com>
 1. If applicable due a temporary contract: Click on ‘job change’ actions to ‘add contract’. Fill in start and end date, contract type and reason.
 
 **Review [best practices](/handbook/people-group/contracts-probation-periods/#netherlands-renewal-process) for The Netherlands contracts**
@@ -254,7 +254,7 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
 
 1. Stage the documents for signature in DocuSign. This document will be sent to the Signatory first and then to the team member.
 
-  - Once signed, save the file into the team members Workday profile.
+- Once signed, save the file into the team members Workday profile.
 
 1. Email an unsigned pdf of the document to both the German counsel as well as the team member.
 
@@ -264,9 +264,9 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
      1. **Scroll down to the end of the contract** - replace Signatory's name with “GitLab Signatory”. Save
         the contract as a PDF format.
 - In the body of the email, you will need to explain the below steps for the process.
-    - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com & Team member's GitLab email address
-    - **Subject line**  : Please Send Physical Contract for “Name of the team member”
-    - **Attachment** : attach the unsigned PDF contract
+  - **To (recipients)**-  <Thomas.Leister@osborneclarke.com> & <julia.bauer@osborneclarke.com> & Team member's GitLab email address
+  - **Subject line**  : Please Send Physical Contract for “Name of the team member”
+  - **Attachment** : attach the unsigned PDF contract
   1. The German counsel will need to print two copies of the document. They will need to sign both of the copies, and then mail them to the team member. Please include the address and phone number of the team member in the email.
   1. Once the team member receives the documents in the mail, they will keep one copy and then will need to sign and send the other copy to our German Counsel. The address for our German Counsel is listed in the PeopleOps 1password vault. Please include this address in the email.
   - The postage fees can be submitted for reimbursement. Please also include that information in the email.
@@ -289,7 +289,7 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
 
 ##### Relocating **to** South Korea, France or Singapore
 
-1. The People Connect Lead shares the relocation contract with gitlabHRSS@globalupside.com. Global Upside then sends an Egnyte (payroll platform) login invitation email to the relocating team member. If they are relocating to France an invite to Mihi will also be sent.
+1. The People Connect Lead shares the relocation contract with <gitlabHRSS@globalupside.com>. Global Upside then sends an Egnyte (payroll platform) login invitation email to the relocating team member. If they are relocating to France an invite to Mihi will also be sent.
 1. [France requires contracts to be individually drafted by the Legal team.](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#process-for-gitlab-team-members-in-singapore-south-korea-or-france)
 
 ## Reporting for Relocations

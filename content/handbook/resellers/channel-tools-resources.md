@@ -18,7 +18,7 @@ Partners are given access to our [Partner Portal](https://partners.gitlab.com) w
 
 Visit the portal at [partners.gitlab.com](https://partners.gitlab.com). There is a walk-through video available on the portal or you can [watch it here](https://drive.google.com/file/d/1cAGBOWrvRRL71zPPrUkwLm0L4BP_MzF_/view).
 
-Please note: if no one from your organization logs in to use our Partner Portal, after 6 months, your portal account will be deactivated. If you need your account reactivated, please contact partnersupport@gitlab.com and they will reactivate you.
+Please note: if no one from your organization logs in to use our Partner Portal, after 6 months, your portal account will be deactivated. If you need your account reactivated, please contact <partnersupport@gitlab.com> and they will reactivate you.
 
 ## **GitLab Landing Page Guidelines**
 
@@ -118,4 +118,4 @@ If you are looking for additional information on the GitLab Partner program see 
 
 ## **Contact Us**
 
-All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. This Slack channel allows you to reach out to our sales and marketing team in a timely manner, as well as other resellers. Additionally, you can reach the GitLab Channel Team at partnersupport@gitlab.com and the GitLab Partner Marketing Team at partner-marketing@gitlab.com.
+All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. This Slack channel allows you to reach out to our sales and marketing team in a timely manner, as well as other resellers. Additionally, you can reach the GitLab Channel Team at <partnersupport@gitlab.com> and the GitLab Partner Marketing Team at <partner-marketing@gitlab.com>.

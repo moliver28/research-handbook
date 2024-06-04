@@ -27,19 +27,19 @@ Our priorities should follow [overall guidance for Product](/handbook/product/pr
 | priority::3 | **Normal**: incremental improvements to existing features. These are important iterations, but deemed non-critical. | ~50% |
 | priority::4 | **Low**: stretch issues that are acceptable to postpone into a future release. | ~25% |
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="optimize" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="optimize" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="optimize" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="optimize" >}}
 {{< /tableau >}}
 

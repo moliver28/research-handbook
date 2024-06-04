@@ -358,7 +358,7 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
   * If possible allow community/ attendees engage with speakers post talk.
 * Find ways to keep the discussion going- the event shouldn't end with the camera stops. Decide on a CTA. Let folks know next steps and how to continue to engage and educate themselves.
 * Have a plan for content use and distribution post-event. Be sure to communicate to the audience if they will receive the slides/recording and also a timeframe in which they will receive the content.
-    * For both GitLab-owned and external events, speakers and content DRIs should build in steps for legal approvals from necessary parties on pubic-facing presentations before materials are due.
+  * For both GitLab-owned and external events, speakers and content DRIs should build in steps for legal approvals from necessary parties on pubic-facing presentations before materials are due.
 
 ### Event Planner Best Practices (Virtual Sponsored Conferences/Events)
 
@@ -385,7 +385,7 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
   * Share slides in advance when possible and at the beginning of your session. This can help people follow along in the event of any technical difficulties.
 * Wear camera-ready colors- [see doc](https://docs.google.com/document/d/1rPvewsTWm8uqGv-6Wr4-_j4ZmBVjL75fU5_YGV98d24/edit?ts=5e74125a)
 * Remember your background: this will be recorded and published online.
-    * Recommend using [GitLab branded virtual backgrounds](https://about.gitlab.com/press/press-kit/).
+  * Recommend using [GitLab branded virtual backgrounds](https://about.gitlab.com/press/press-kit/).
 * Slides: use a large clear font. You do not know what device the viewer will be on.
 * Don’t move around a lot.
 * Look at the camera.
@@ -393,10 +393,10 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
 * If someone will be introducing you, ensure they know how to pronounce your name, title, and GitLab correctly.
 * Ask for a copy of the recording and post the recording on the relevant channel.
 * If there is a chat function on the speaking session:
-     * Have designated staff to attend and show up before the speaking slot starts.
-     * Have staff post in the chat that they are a representative of GitLab and happy to answer any questions.
-     * Know what links or topics are mentioned in the presentation and have UTM links to them ready to post. Good ones to have on hand in addition are the company handbook, our all-remote guide, link to the free trial
-     * If at a sponsored event with a booth- At the end, encourage participants to stop by the virtual booth if they still have questions, with a link to the booth.
+  * Have designated staff to attend and show up before the speaking slot starts.
+  * Have staff post in the chat that they are a representative of GitLab and happy to answer any questions.
+  * Know what links or topics are mentioned in the presentation and have UTM links to them ready to post. Good ones to have on hand in addition are the company handbook, our all-remote guide, link to the free trial
+  * If at a sponsored event with a booth- At the end, encourage participants to stop by the virtual booth if they still have questions, with a link to the booth.
 
 ### Attendees: How to get the most out of attending a virtual event
 

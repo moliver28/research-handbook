@@ -94,7 +94,7 @@ Type labels are very important. They define what kind of issue this is. Every is
 
 #### Services
 
-The services list is mentioned here : https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml
+The services list is mentioned here : <https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml>
 
 ### Always Help Others
 

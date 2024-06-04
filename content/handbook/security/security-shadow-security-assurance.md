@@ -22,22 +22,22 @@ If you have any questions please reach out in #sec-assurance and we’ll be happ
 
 #### SC101.1: Security Control Testing
 
- - Understanding the spirit of a security control
- - Common control requirements mapping
- - Control implementation statements
- - Evidence requests
- - Test of design (TOD)
- - Test of operating effectiveness (TOE)
- - Observations, notes, and information output
+- Understanding the spirit of a security control
+- Common control requirements mapping
+- Control implementation statements
+- Evidence requests
+- Test of design (TOD)
+- Test of operating effectiveness (TOE)
+- Observations, notes, and information output
 
 #### SC101.2: Terminated User Access Review
 
- - Overview of process
- - Review of compliance requirements
- - User listing requests
- - Identifying terminated users
- - Reporting back to system owners
- - Review of access review automation
+- Overview of process
+- Review of compliance requirements
+- User listing requests
+- Identifying terminated users
+- Reporting back to system owners
+- Review of access review automation
 
 ### Course Length
 

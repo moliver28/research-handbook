@@ -51,7 +51,7 @@ The values of these parameters should not be changed. Optional but necessary par
 
 ## <i class="" id="example-utm-codes"></i> Examples
 
-Example 1: https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/?utm_campaign=community&utm_source=linkedin&utm_medium=social&utm_content=de_gitlab_release&utm_budget=cmty
+Example 1: <https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/?utm_campaign=community&utm_source=linkedin&utm_medium=social&utm_content=de_gitlab_release&utm_budget=cmty>
 
 - utm_campaign=community : default campaign code for the community team
 - utm_source=linkedin : Where visit is coming from
@@ -59,9 +59,9 @@ Example 1: https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/?ut
 - utm_content=de_gitlab_release : de_ to identify the DevEvangelism team, we can also have edu_, oss_, code_, heros_, etc.
 - utm_budget=cmty : Identifies Community team as the owner of the budget.
 
-Example 2: https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/?utm_campaign=community&utm_source=mailjet&utm_medium=email&utm_content=newsletter_gitlab_release&utm_budget=cmty
+Example 2: <https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/?utm_campaign=community&utm_source=mailjet&utm_medium=email&utm_content=newsletter_gitlab_release&utm_budget=cmty>
 
-Example 3: https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/?utm_campaign=community&utm_source=qrcode&utm_medium=display&utm_content=edu_mit_workshop_slide&utm_budget=cmty
+Example 3: <https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/?utm_campaign=community&utm_source=qrcode&utm_medium=display&utm_content=edu_mit_workshop_slide&utm_budget=cmty>
 
 ## <i class="" id="best-practices-utm-codes"></i> Best Practices
 

@@ -45,19 +45,19 @@ categtory](/handbook/product/categories/#runner-group)
 
 ## Dashboards
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="runner" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="runner" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="runner" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="runner" >}}
 {{< /tableau >}}
 
@@ -137,9 +137,9 @@ We spend a lot of time working in Go which is the language that [GitLab Runner](
 
 ## Common Links
 
- - [Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/5389813?label_name[]=group%3A%3Arunner&milestone_title=Upcoming)
- - [Issue Tracker](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Arunner)
- - [Slack Channel](https://gitlab.slack.com/archives/g_runner)
+- [Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/5389813?label_name[]=group%3A%3Arunner&milestone_title=Upcoming)
+- [Issue Tracker](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Arunner)
+- [Slack Channel](https://gitlab.slack.com/archives/g_runner)
 
 ## How we work
 
@@ -273,7 +273,7 @@ At GitLab, our release post policy specifies that deprecation notices need to be
 
 - **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
-   - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
+  - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
 - **At Risk** - The issue in its current state will not make the planned release and immediate action is needed to get it back to `On Track` today.
   - If you are moving an item into this status please consider posting in a relevant team channel in slack. Try to include anything that can be done to unstick the item so that it can get back to an `On Track` status in your message.
   - Note: It is possible that there is nothing to be done that can get the item back on track in the current milestone. If that is the case please let your manager know as soon as you are aware of this.

@@ -36,7 +36,7 @@ If you are requesting funding from the ESG team to support a Registered Nonprofi
 If you have a department or TMRG  budget that you would like to utilize to support a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Monetary_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=monetary_support). Please tag your manager to approve the request if you are submitting on behalf of your department. If you are submitting a request on behalf of a TMRG or DIB, please add Sherida McMullan as a reviewer.
 Please allow a minimum of 10 working days for review.
 
-Once all necessary approvals have been documented for your charitable contribution, if the donation is >$5,000, we will need to set the recipient up in Coupa and follow the PO process in order to issue payment. Please [create a purchase request](/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip) in Zip to get the organization registered and to process payment. If the donation is <$5,000, please contact AP@gitlab.com to process payment as an exception to the PO process. Please note that if it is a new recipient that we have not paid before, an invitation to register in Coupa will be sent to the main contact on file to get their payment & tax information set up in the system.
+Once all necessary approvals have been documented for your charitable contribution, if the donation is >$5,000, we will need to set the recipient up in Coupa and follow the PO process in order to issue payment. Please [create a purchase request](/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip) in Zip to get the organization registered and to process payment. If the donation is <$5,000, please contact <AP@gitlab.com> to process payment as an exception to the PO process. Please note that if it is a new recipient that we have not paid before, an invitation to register in Coupa will be sent to the main contact on file to get their payment & tax information set up in the system.
 
 #### GiveLab
 
@@ -96,7 +96,7 @@ Interested organizations need to visit the [GitLab for Nonprofits](https://about
 4. GitLab will then undergo its own vetting and approval process.
 5. Once all parties have verified and approved the Nonprofit, GitLab will send the instructions directly to the Nonprofit to redeem their license.
 6. If a Nonprofit is not verified through TechSoup, TechSoup will provide details on how the Nonprofit can become verified.
-7. If a Nonprofit is declined from GitLab, GitLab will notify the Nonprofit via nonprofits@GitLab.com.
+7. If a Nonprofit is declined from GitLab, GitLab will notify the Nonprofit via <nonprofits@GitLab.com>.
 8. Please allow up to 15 business days for the application and verification process.
 
 **Must Nonprofits renew their memberships?**
@@ -107,7 +107,7 @@ Yes. All nonprofits must renew their membership annually, which involves a re-ve
 
 While GitLab for Nonprofits Program benefits do not include product [support](https://about.gitlab.com/support/), program members can receive help with GitLab in a number of ways. In general, we recommend the following:
 
-- Send questions or issues requiring immediate attention or sensitive information to the GitLab for Nonprofits team at Nonprofits@GitLab.com
+- Send questions or issues requiring immediate attention or sensitive information to the GitLab for Nonprofits team at <Nonprofits@GitLab.com>
 - Review [GitLab Docs](https://docs.gitlab.com/) for answers to general product-related questions.
 - Post questions in the [GitLab Forum](https://forum.gitlab.com/), where community members and GitLab team members can review and discuss them.
 - File bug reports and breaking behaviors [as issues](https://gitlab.com/gitlab-org/gitlab/-/issues) for product teams to review and address.
@@ -115,7 +115,7 @@ While GitLab for Nonprofits Program benefits do not include product [support](ht
 **I’m a GitLab Team Member and I have a customer applying for the program. What do I do?**
 
 - Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application.
-- If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in #esg.
+- If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to <nonprofits@gitlab.com>. Or team members can inquire about the status of an application in #esg.
 - If you have a question or concern about the customer churn, please raise this in #esg and an ESG team member will contact you.
 
 #### Matching Gifts Program
@@ -209,7 +209,7 @@ Disclosing our progress through data aligns with our [Transparency](/handbook/va
 **Q: Who can I contact for ESG-related questions?**
 
 A:  Senior Director, ESG/DRI: Stacy Cline - @slcline on GitLab.
-Email: ESG@GitLab.com.
+Email: <ESG@GitLab.com>.
 
 **Q: Does GitLab calculate its carbon emissions?**
 

@@ -130,7 +130,7 @@ The Operations team and/or Director will review the information and decide wheth
 **A:** Marketing Operations has a daily scheduled clean at 10:30 PM EST/EDT that update Status = Inquiry to Inquiry Queue. To prevent the reassignment, you’ll want to update the leads from Inquiry to Accepted or add to an Outreach sequence.
 
 **Q:** What should BDRs do when a prospect or contact responds with a complince related question or objects to being contacted? <br>
-**A:** Immediately reach out to the Privacy Team via #privacy-team-help and forward any email from the contact to dpo@gitlab.com.
+**A:** Immediately reach out to the Privacy Team via #privacy-team-help and forward any email from the contact to <dpo@gitlab.com>.
 
 ### Announcement Common Questions
 

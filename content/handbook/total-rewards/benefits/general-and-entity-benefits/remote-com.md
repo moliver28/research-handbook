@@ -3,11 +3,11 @@ title: "Remote.com"
 description: "Discover the benefits for Remote team members"
 ---
 
-The following benefits are provided by [Remote](https://www.remote.com/) and apply to team members who are contracted through Remote. If there are any questions, these should be directed to help@remote.com.
+The following benefits are provided by [Remote](https://www.remote.com/) and apply to team members who are contracted through Remote. If there are any questions, these should be directed to <help@remote.com>.
 
 ## Brazil
 
-All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/brazil). Queries can be directed to help@remote.com. See [Benefits Guide](https://remote.com/benefits-guide/brazil) for the complete list of benefits offered through Remote.
+All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/brazil). Queries can be directed to <help@remote.com>. See [Benefits Guide](https://remote.com/benefits-guide/brazil) for the complete list of benefits offered through Remote.
 
 - 13th Salary - Also known as a 'Christmas Bonus', this payment is an amount equal to one month’s salary which is paid out to employees in two parts in November (by the 20th) and December. The pro-rated 13th-month salary is also due upon termination. The 13th-month payment is a legally mandated benefit and not part of the base salary. During negotiations with candidates, it is important to clearly state what salary is being offered and whether it is inclusive or exclusive of the 13th-month payment. The Christmas Bonus is calculated at 8.33% of the base annual salary
 - Vacations Bonus - Professionals in Brazil are entitled to 30 calendar days of vacation per year after every 12 months of service, and the employee must be paid 1/3rd of a month’s salary as a Vacations bonus. Holiday pay and holiday bonus payments are pro-rated upon termination. The Vacation bonus is calculated at 2.77% of the base annual salary.
@@ -85,15 +85,15 @@ Please enter the time away in Time Off by Deel and select the `Vacation` option.
 
 In the event a team member in Brazil is unable to work due to illness, their pay will be supplemented up to 100% of their base salary until the 15th day of absence. After the 16th day of absence, team members are eligible to receive compensation paid by the Social Security Authorities.
 
-To ensure all statutory sick leave is tracked appropriately, please email the Absence Management Team (leaves@gitlab.com) to report your leave.  Then enter the dates into Time Off by Deel by selecting the `Out Sick` option.
+To ensure all statutory sick leave is tracked appropriately, please email the Absence Management Team (<leaves@gitlab.com>) to report your leave.  Then enter the dates into Time Off by Deel by selecting the `Out Sick` option.
 
 ## Denmark
 
-All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/denmark). Queries can be directed to help@remote.com.
+All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/denmark). Queries can be directed to <help@remote.com>.
 
 ### Medical
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll (usd) $106.50 (for partner), $85.20 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll (usd) $106.50 (for partner), $85.20 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to <help@remote.com> to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
@@ -206,11 +206,11 @@ To initiate your parental leave, submit your time off by selecting the `Parental
 
 ## Sweden
 
-All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/sweden). Queries can be directed to help@remote.com.
+All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/sweden). Queries can be directed to <help@remote.com>.
 
 ### Healthcare
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll (usd) $106.50 (for partner), $85.20 (children under 18).  Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll (usd) $106.50 (for partner), $85.20 (children under 18).  Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to <help@remote.com> to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
@@ -272,7 +272,7 @@ Effective November 1, 2023, Remote will offer a Registered Medical Aid plan for 
 
 #### Dependents
 
-Team Members can add dependents to their plans. While the actual cost will be deducted from the team member's payslips, GitLab will subsidize the benefit through a Dependent Medical Allowance up to R3500 a month. Please send total-rewards@gitlab.com an email with documentation of your dependent's enrollment along with the cost of enrollment. The Total Rewards team will verify and send to Remote & the Non-US payroll Team to process the monthly allowance.
+Team Members can add dependents to their plans. While the actual cost will be deducted from the team member's payslips, GitLab will subsidize the benefit through a Dependent Medical Allowance up to R3500 a month. Please send <total-rewards@gitlab.com> an email with documentation of your dependent's enrollment along with the cost of enrollment. The Total Rewards team will verify and send to Remote & the Non-US payroll Team to process the monthly allowance.
 
 #### Grandfathered Medical Policy
 
@@ -286,10 +286,10 @@ Under the Remote Technology scheme, the employer and member both pay **5% each t
 
 - Sum insured of the Group Life Cover will be 4 times of the annual salary.
 - The primary protection offered by group life cover is as follows:
-    - Provide for living expenses for surviving dependants
-    - Extinguish debt
-    - Protect the lifestyle of the surviving dependants
-    - Fund for the education costs of the surviving children
+  - Provide for living expenses for surviving dependants
+  - Extinguish debt
+  - Protect the lifestyle of the surviving dependants
+  - Fund for the education costs of the surviving children
 - Upon the death of the member, spouse or child, a benefit payment equal to the amount of the Funeral Cover will be made.
 - The sum assured for this benefit is up to R30,000
 - This benefit is 100% contributed and covered by Remote.
@@ -335,15 +335,15 @@ Team members located in South Africa must submit all expenses via Navan (GitLab'
 A team member has an approved expense on Navan for incidental costs like meals and parking related to a business event.
 Remote will require the team member to complete an additional spreadsheet containing details of the business trip (local or abroad) and submit this spreadsheet through the Remote portal. Please refer to this [guide](https://support.remote.com/hc/en-us/articles/4411238221965-Add-an-expense) for more detailed instructions on submitting expenses.
 
-If you experience any issues, please contact Remote via email: help@remote.com. **No other expenses need to be submitted via the Remote portal, only Navan should be used.**
+If you experience any issues, please contact Remote via email: <help@remote.com>. **No other expenses need to be submitted via the Remote portal, only Navan should be used.**
 
 ## Italy
 
-All of the benefits listed below are administered and managed by [Remote](https://remote.com/). Queries can be directed to help@remote.com.
+All of the benefits listed below are administered and managed by [Remote](https://remote.com/). Queries can be directed to <help@remote.com>.
 
 ### Health Insurance
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $135.92 (for partner), $108.73 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $135.92 (for partner), $108.73 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to <help@remote.com> to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
@@ -481,7 +481,7 @@ The family allowance is not paid out automatically, it must be applied for.
 
 #### How to apply via Remote
 
-- Write an email to help@remote.com to request an application form for the family allowance.
+- Write an email to <help@remote.com> to request an application form for the family allowance.
 - Remote will send the required documents that need to be filled.
 - Once the forms are filled they must be sent via post to the following address for processing:
 
@@ -505,9 +505,9 @@ The family allowance is not paid out automatically, it must be applied for.
 All workers employed in Mexico must be registered with and contribute to the following institutions that deal with different social security insurance benefits:
 
 - Mexican Institute of Social Security (IMSS):
-    - Provides medical services, child day care, accident and sickness compensation, pregnancy benefits and disability pensions
+  - Provides medical services, child day care, accident and sickness compensation, pregnancy benefits and disability pensions
 - National Workers’ Housing Fund Institute (INFONAVIT):
-    - Provides subsidized housing to employees as well as loans, and the Retirement Savings Program (SAR). SAR provides employees with retirement benefits when they reach 65 years of age.
+  - Provides subsidized housing to employees as well as loans, and the Retirement Savings Program (SAR). SAR provides employees with retirement benefits when they reach 65 years of age.
 
 Employees in Mexico are covered by the Social Security Law, under IMSS who is responsible for administering social security insurance benefits and the collection of contributions.
 
@@ -587,7 +587,7 @@ Below is the information related to Mexico's statutory leave policies.  Please n
 
 - 12 weeks of the team member's Maternity Leave will be paid by the Mexican Social Security Institute (MSSI).
 - GitLab Parental Leave Pay Calculations: If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% minus any MSSI payments received for up to 16 weeks of leave.
-    - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
+  - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
 
 ##### Paternity Leave Payment
 
@@ -603,7 +603,7 @@ Team members unable to work because of a nonwork-related injury or illness and w
 
 ## Hungary
 
-All of the benefits listed below are administered and managed by [Remote](https://remote.com/). Queries can be directed to help@remote.com.
+All of the benefits listed below are administered and managed by [Remote](https://remote.com/). Queries can be directed to <help@remote.com>.
 
 ### Social Security
 
@@ -611,7 +611,7 @@ The Hungarian Social Security Act has employer and team member contributions to 
 
 ### Medical
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $106.50 (for partner), $85.20 (children under 18).  Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $106.50 (for partner), $85.20 (children under 18).  Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to <help@remote.com> to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
@@ -666,11 +666,11 @@ To initiate your parental leave, submit your time off by selecting the `Parental
 
 ## Luxembourg
 
-All of the benefits listed below are administered and managed by [Remote](https://www.remote.com/). Any queries can be directed to help@remote.com
+All of the benefits listed below are administered and managed by [Remote](https://www.remote.com/). Any queries can be directed to <help@remote.com>
 
 ### Medical
 
-Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $135.92 (for partner), $108.73 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to help@remote.com to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
+Team members have the option to select Remotes medical insurance through Allianz (for team members only). If they wish to add dependents this will be deducted through the Payroll each month (usd) $135.92 (for partner), $108.73 (children under 18). Dependents will need to be added within 30 days from the start date, however, if this window is missed team members can reach out to <help@remote.com> to connect with the benefits team to see if this option can be unlocked and enable the team member to enroll the same (this may depend of circumstances). Dependents can be added through the [ThanksBen](https://www.thanksben.com/) platform (this is where team members can view their Allianz information).
 
 More information can be found below:
 
@@ -719,7 +719,7 @@ To initiate your parental leave, submit your time off by selecting the `Parental
 
 Sick employees are entitled to their full wages paid by the employer for the 77 days (or the end of the month after the 77th day of illness elapses) after which an employee will draw sickness benefits from the Caisse Nationale de Santé equivalent to 100% of the normal wages, without exceeding 500% of the minimum wage, i.e. roughly capped at ~€12,000 per month.
 
-Employees should enter their Sick Time into Time Off by Deel by selecting `Out Sick`.  After the 5th consecutive workshift missed due to illness, employees should contact leaves@gitlab.com.
+Employees should enter their Sick Time into Time Off by Deel by selecting `Out Sick`.  After the 5th consecutive workshift missed due to illness, employees should contact <leaves@gitlab.com>.
 
 ## Austria
 

@@ -17,7 +17,7 @@ See the [partial issue triage checklist](/handbook/engineering/infrastructure/en
 
 ## Merge Requests
 
-Wider community merge requests are MRs opened by a person that's not present on https://about.gitlab.com/company/team/ (excluding any bot, service account users or individual contractors).
+Wider community merge requests are MRs opened by a person that's not present on <https://about.gitlab.com/company/team/> (excluding any bot, service account users or individual contractors).
 
 ### Labels
 
@@ -85,7 +85,7 @@ their behalf are set out on the [DCO-CLA page](https://about.gitlab.com/communit
 
 Contributor success has been assisting the Legal and Corporate Affairs team with the creation and maintenance of a namespace under which GitLab can maintain lists of users associated with Corporate CLAs.
 
-This group can be found here: https://gitlab.com/gitlab-corporate-cla
+This group can be found here: <https://gitlab.com/gitlab-corporate-cla>
 
 #### Adding a new group
 
@@ -155,8 +155,8 @@ To post the messages:
 - Validate any automated user handle expansions to verify the correct person and add missing user handles.
 - Send the message!
 - Post the wider community message on the forum, too, under the [Community](https://forum.gitlab.com/c/community/39) category, with the addition of a crosslink to the Discord post.
-    - If this is the first post since a release, open a new topic with the title: `GitLab x.xx Release Community Thanks` and use the tag `thanks`.
-    - Otherwise, add a new message on the existing thread.
+  - If this is the first post since a release, open a new topic with the title: `GitLab x.xx Release Community Thanks` and use the tag `thanks`.
+  - Otherwise, add a new message on the existing thread.
 - Update the assignee of the tracking issues and due dates.
 
 Tracking issues:

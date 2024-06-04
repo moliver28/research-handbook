@@ -32,11 +32,11 @@ After you sign your offer and complete your background check and references, you
 1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
 1. In some entity countries, GitLab uses external companies to assist with the collection of payroll documents from you.
 
-  - France: Papaya
-  - Netherlands: HR Savvy
-  - Singapore: Global Upside / Safeguard
-  - South Korea: Global Upside / Safeguard
-  - UK: Papaya
+- France: Papaya
+- Netherlands: HR Savvy
+- Singapore: Global Upside / Safeguard
+- South Korea: Global Upside / Safeguard
+- UK: Papaya
 
 1. If you are hired through a PEO location, the PEO will reach out to you prior to your start date to obtain the necessary documents and start their onboarding process.
 1. The next email you will receive, is a [TaNEWki call](/handbook/people-group/general-onboarding#tanuki-orange) invite. We hope you can join us! This Zoom call addresses those first day nerves and gives you some time to meet other new team members. You will see this invite sent to you 1-2 weeks before your start date.
@@ -126,7 +126,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Equipment and Expenses
 
-If you're nearing your start date and still haven't received your laptop, please reach out to people-connect@gitlab.com for us to check in with the IT department and see where your laptop is in transit.
+If you're nearing your start date and still haven't received your laptop, please reach out to <people-connect@gitlab.com> for us to check in with the IT department and see where your laptop is in transit.
 
 **New user to Mac?** Don't worry, many of us were also first time users! When you get your laptop, feel free to explore and get used to using your MacBook (just remembering not to set up an Apple ID). There is this really great [Handbook page](/handbook/tools-and-tips/mac/) that share different helpful tips and many helpful [YouTube video's](https://www.youtube.com/watch?v=PlruI5ryP8Q). If you are switching from Windows to macOS, these [keyboard tips](https://support.apple.com/en-us/HT204216) may be useful.
 

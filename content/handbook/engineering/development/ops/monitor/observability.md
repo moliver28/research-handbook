@@ -105,7 +105,7 @@ To enable access to Logs, Tracing, and Metrics Beta for a certain customer, foll
 For SaaS:
 
 * Before hand, make sure you have the right access and permissions to run ChatOps command as detailed in [this page](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#requesting-access).
-* Ask customer for their top-level group name (example: `gitlab-org` for https://gitlab.com/gitlab-org/)
+* Ask customer for their top-level group name (example: `gitlab-org` for <https://gitlab.com/gitlab-org/>)
 * In #production, run the following commands to enable the feature flags for this group (replace `gitlab-org` by the customer's group name):
 
 ```text
@@ -130,18 +130,18 @@ For Self-Managed:
 
 ## Dashboards
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="observability" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="observability" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="observability" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="observability" >}}
 {{< /tableau >}}

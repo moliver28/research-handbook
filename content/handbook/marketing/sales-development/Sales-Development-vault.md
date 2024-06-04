@@ -111,7 +111,7 @@ As a first iteration, we will be automatically enrolling leads that indicate a h
 
 ### Automatic Bounced Sequence
 
-We have an additional process where leads that [were automatically moved to disqualify lead status because of a wrong email]https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/7718(), BUT have a phone number associated to them, will automatically be enrolled to a [sequence.](https://web.outreach.io/sequences/13842)
+We have an additional process where leads that [were automatically moved to disqualify lead status because of a wrong email]<https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/7718()>, BUT have a phone number associated to them, will automatically be enrolled to a [sequence.](https://web.outreach.io/sequences/13842)
 
 ## BDR Territory Movement Rules of Engagement
 
@@ -147,9 +147,9 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 - The BDR team makes sure to book calls, with a minimum notice time of 48 business hours.
 - The BDR team makes sure to properly fulfil Outbound SAO criteria, or work with AE to create a mutual command plan.
 - The AE team makes sure to:
-    - Accept SAOs within 8 working hours after an IQM call.
-    - To leave a chatter note on the opportunity record, tagging BDR and AE manager with feedback on the level of qualification and handoff in case of discrepancies.
-    - To be responsible for managing the prospect relationship after all handoff types have taken place. This includes re-scheduling conflicts.
+  - Accept SAOs within 8 working hours after an IQM call.
+  - To leave a chatter note on the opportunity record, tagging BDR and AE manager with feedback on the level of qualification and handoff in case of discrepancies.
+  - To be responsible for managing the prospect relationship after all handoff types have taken place. This includes re-scheduling conflicts.
 
 ### 1. BDR Qualified Meeting
 
@@ -161,13 +161,13 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 
 - Summarize CoM principles uncovered during the call
 - Schedule next step through Outreach while being on the call with the prospect
-    - Meeting Type should be 45’ Evaluation Orchestration Call and body of invitation should be adjusted to meet the prospect’s needs.
+  - Meeting Type should be 45’ Evaluation Orchestration Call and body of invitation should be adjusted to meet the prospect’s needs.
 - Send AE Intro Email
-    - For demanding hand-offs, customer-facing agenda may also be copied and attached to intro email.
+  - For demanding hand-offs, customer-facing agenda may also be copied and attached to intro email.
 - Log Required SFDC fields and populate Notes field.
 - Unless there’s a scheduling conflict for the BDR, attend Evaluation Orchestration Call and kick-off the call:
-    - Summarize the BDR qualifying conversation by mentioning and verifying the before and after scenario of the prospect, as transcribed on the SAO notes.
-    - After prospect acknowledges that their internal situation have not changes inbetween BDR and AE call, recap the expectations and metrics as transcribed on the SAO notes and handoff to AE to move forward.
+  - Summarize the BDR qualifying conversation by mentioning and verifying the before and after scenario of the prospect, as transcribed on the SAO notes.
+  - After prospect acknowledges that their internal situation have not changes inbetween BDR and AE call, recap the expectations and metrics as transcribed on the SAO notes and handoff to AE to move forward.
 
 #### 2. Joint IQM
 
@@ -178,11 +178,11 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 **BDR steps before discovery call**
 
 - Schedule next step through Outreach while being on the call with the prospect, and schedule straight to the AEs calendar.
-    - Meeting Type should be 15’ Discovery Call.
+  - Meeting Type should be 15’ Discovery Call.
 - Create SFDC opportunity, and log any pre-determined or relevant information from your past reseearch.
 - Communicate with AE, and create a mutual command plan for the call.
-    - When kicking off the call, summarize the BDR research and reason for reaching out, such compelling events, Persons with LIM, etc
-    - After prospect acknowledges their compelling event and internal situation, discovery call continues with pre agreed upon structure with AE.
+  - When kicking off the call, summarize the BDR research and reason for reaching out, such compelling events, Persons with LIM, etc
+  - After prospect acknowledges their compelling event and internal situation, discovery call continues with pre agreed upon structure with AE.
 
 ## Organizing a Group Demo
 
@@ -372,20 +372,20 @@ Specifically:
 
 - We have three segments (SMB, MM, ENTG) saved on folder 9a of 6Sense. Each of these segments tries to identify the top accounts we currently have on SFDC that are not being worked by our team.
 - Through 6Sense Orchestrations, we will automatically update these accounts weekly.
-     - We aim for 200 records to be enriched every week.
-     - We aim for a 90 day buffer period between records being enriched.
-     - The SFDC field `Sales Dev Automation` will be enriched with the value of the respective segment (SMB, MM, ENTG)
+  - We aim for 200 records to be enriched every week.
+  - We aim for a 90 day buffer period between records being enriched.
+  - The SFDC field `Sales Dev Automation` will be enriched with the value of the respective segment (SMB, MM, ENTG)
 - From the moment these accounts get enriched by 6Sense, they will automatically show up on our pre-saved searches on ZoomInfo, one for each segment.
 
-     - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
-     - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
-     - [ENTG](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiVlBfRVhFQ1VUSVZFUyxESVJFQ1RPUiIsInJwcCI6MjUsImRlcGFydG1lbnRzIjoiSW5mb3JtYXRpb24gVGVjaG5vbG9neSxFbmdpbmVlcmluZyAmIFRlY2huaWNhbCIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWMiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+  - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+  - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+  - [ENTG](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiVlBfRVhFQ1VUSVZFUyxESVJFQ1RPUiIsInJwcCI6MjUsImRlcGFydG1lbnRzIjoiSW5mb3JtYXRpb24gVGVjaG5vbG9neSxFbmdpbmVlcmluZyAmIFRlY2huaWNhbCIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWMiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
 
 - These saved searches will pull the relevant decision-makers per segment, and through ZoomInfo workflows do the following:
 
-     - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
-     - Automatically add MM/ENTG accounts to the [SFDC dashboard here.](https://gitlab.my.salesforce.com/01ZPL000000kAPN)
-     - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
+  - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
+  - Automatically add MM/ENTG accounts to the [SFDC dashboard here.](https://gitlab.my.salesforce.com/01ZPL000000kAPN)
+  - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
 
 ## Qualified
 
@@ -508,37 +508,37 @@ Format: **Audience | Type | Urgency**
 Example:
 
 - **Audience**
-     - All of Sales Development
-     - All SDRs
-     - All BDRS
-     - Specific Teams/Positions
-          - Ex. AMER Large Land East
+  - All of Sales Development
+  - All SDRs
+  - All BDRS
+  - Specific Teams/Positions
+    - Ex. AMER Large Land East
 
 - **Type**
-     - Enablement - (Mandatory, Optional)
-     - Operations -  (Process Change, Tools, Sequences, Reports, System Changes/System Updates )
-     - New Event/Initiative/Resource
-     - Survey
-     - Org Wide Announcement
+  - Enablement - (Mandatory, Optional)
+  - Operations -  (Process Change, Tools, Sequences, Reports, System Changes/System Updates )
+  - New Event/Initiative/Resource
+  - Survey
+  - Org Wide Announcement
 
 - **Urgency**
-     - 🚨 Action Required - urgent, action required with a due date
-          - Example: Mandatory enablement launch
-     - 🧠 Need to Know - urgent, update directly impacts audiences' workflows/processes
-          - Example: Sales Dev process change
-     - 📊 Feedback Requested - less urgent, action requested (with or without long-lead due date) but not required
-          - Example: Survey from Product Group
-     - 👀 Review - less urgent, does not directly or materially impact audiences' workflows/processes
-          - Example: New customer story or new competitive resource
+  - 🚨 Action Required - urgent, action required with a due date
+    - Example: Mandatory enablement launch
+  - 🧠 Need to Know - urgent, update directly impacts audiences' workflows/processes
+    - Example: Sales Dev process change
+  - 📊 Feedback Requested - less urgent, action requested (with or without long-lead due date) but not required
+    - Example: Survey from Product Group
+  - 👀 Review - less urgent, does not directly or materially impact audiences' workflows/processes
+    - Example: New customer story or new competitive resource
 
 - **Example Sales_Dev_fyi channel post titles**
-     - `[All of Sales Development] | [Enablement - Mandatory] | [🚨 Action Required]`
+  - `[All of Sales Development] | [Enablement - Mandatory] | [🚨 Action Required]`
 
-     - `[All BDRs] | [Operations - Outreach Process Cleanup] | [🧠 Need to Know ]`
+  - `[All BDRs] | [Operations - Outreach Process Cleanup] | [🧠 Need to Know ]`
 
-     - `[EMEA Enterprise Land] | [Operations - New Outreach Event Sequence] | [🚨 Action Required ]`
+  - `[EMEA Enterprise Land] | [Operations - New Outreach Event Sequence] | [🚨 Action Required ]`
 
-     - `[All of Sales Development] | [Survey - People Group Survey Reminder] | [📊 Feedback Requested ]`
+  - `[All of Sales Development] | [Survey - People Group Survey Reminder] | [📊 Feedback Requested ]`
 
 ## Field Marketing <> BDR Collaboration Process
 
@@ -599,11 +599,11 @@ On your new hire's first day, the assigned People Connect Team member will [sche
 
 - Complete ‘Manager’ tasks on the onboarding issue *Note: there are tasks to complete prior to your new hire starting
 - Schedule a welcome call at the start of your new hire’s first day to discuss:
-     - Main focus should be completing as much of your onboarding as possible.
-     - When you have available time feel free to move ahead as some onboarding task lists for the day won't take you all day.
-     - How to manage meeting invites in your inbox (there are a ton!)
-     - You will receive numerous emails in their first two weeks asking you to register or activate your license to a specific tool we use, please go ahead and do all of this.
-     - What you can expect in regards to [onboarding at GitLab as an SDR](/handbook/marketing/sales-development/sdr-playbook-onboarding/)
+  - Main focus should be completing as much of your onboarding as possible.
+  - When you have available time feel free to move ahead as some onboarding task lists for the day won't take you all day.
+  - How to manage meeting invites in your inbox (there are a ton!)
+  - You will receive numerous emails in their first two weeks asking you to register or activate your license to a specific tool we use, please go ahead and do all of this.
+  - What you can expect in regards to [onboarding at GitLab as an SDR](/handbook/marketing/sales-development/sdr-playbook-onboarding/)
 
 ##### After new hire has started
 
@@ -664,19 +664,19 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 ### Things to look out for when reviewing a sequence as a Manager
 
 - Does the messaging of the sequence follow Command Of the Message?
-     - Are all emails formatted appropriately with pain-probing questions and value propositions?
-     - Are the relevant value drivers for the personas targeted by this sequence used?
+  - Are all emails formatted appropriately with pain-probing questions and value propositions?
+  - Are the relevant value drivers for the personas targeted by this sequence used?
 - Is there a proper mix of automated and manual touches?
-     - Are 1-2 highly personalized emails used for High-Touch sequences?
-     - Are there at least 4 call steps for High-Touch sequences?
-     - For Low-Touch/Awareness campaigns are all touchpoints automated?
+  - Are 1-2 highly personalized emails used for High-Touch sequences?
+  - Are there at least 4 call steps for High-Touch sequences?
+  - For Low-Touch/Awareness campaigns are all touchpoints automated?
 - Are proper Outreach elements used?
-     - Are automated variables used all on all emails?
-     - Are manual personalisation variables used on manual emails?
+  - Are automated variables used all on all emails?
+  - Are manual personalisation variables used on manual emails?
 - Is the purpose of the sequence clearly articulated on the issue description?
-     - Are there other sequences that are proven to work that could be used instead?
-     - Is there a valid reason for this campaign? Will it contribute to results in terms of SAOs or awareness?
-     - Is the target demographic clearly thought out?
+  - Are there other sequences that are proven to work that could be used instead?
+  - Is there a valid reason for this campaign? Will it contribute to results in terms of SAOs or awareness?
+  - Is the target demographic clearly thought out?
 
 ## Sales Development Onboarding
 

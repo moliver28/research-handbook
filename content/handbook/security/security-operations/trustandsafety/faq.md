@@ -95,19 +95,19 @@ When testing on GitLab.com, your `@wearehackerone.com` address must be associate
 1. There are various ways you can report user generated abuse to GitLab.
     1. Use the `Report Abuse` button at the top right of the user profile which you are reporting.
     1. Use the `Report abuse to gitlab admin` dropdown menu on `comments`, `Merge Requests` and issues.
-    1. If you would like to submit more detailed information, you can always send an email to abuse@gitlab.com where a member of our team will review your report.
+    1. If you would like to submit more detailed information, you can always send an email to <abuse@gitlab.com> where a member of our team will review your report.
 {{% /details %}}
 
 {{% details summary="Someone is using my copyright work, what should I do?" %}}
 
 1. If someone is using your copyright work and do not have sufficient rights to do so, you can;
-    1. Submit a complete DMCA notice to dmca@gitlab.com.
+    1. Submit a complete DMCA notice to <dmca@gitlab.com>.
     1. You can find the details of the information required on our `Intellectual Property on gitlab.com` page.
 {{% /details %}}
 
 {{% details summary="How does GitLab treat Copyright or Trademark requests?" %}}
 
-1. We take the intellectual property rights of others seriously and require that our Users do the same. The Digital Millennium Copyright Act (DMCA) established a process for addressing claims of copyright infringement. If you own a copyright or have authority to act on behalf of a copyright owner and want to report a claim that a third party is infringing that material on or through GitLab's services, please send a notice that meets the minimum requirements of the DMCA, to dmca@gitlab.com, and we will take appropriate action.
+1. We take the intellectual property rights of others seriously and require that our Users do the same. The Digital Millennium Copyright Act (DMCA) established a process for addressing claims of copyright infringement. If you own a copyright or have authority to act on behalf of a copyright owner and want to report a claim that a third party is infringing that material on or through GitLab's services, please send a notice that meets the minimum requirements of the DMCA, to <dmca@gitlab.com>, and we will take appropriate action.
 1. Disputes regarding namespaces, ownership and trademarks are not governed by DMCA. These disputes must be resolved by the parties involved. GitLab will never act as arbitrators or intermediaries in these disputes and will not take any action without the appropriate legal orders.
 {{% /details %}}
 
@@ -122,7 +122,7 @@ When testing on GitLab.com, your `@wearehackerone.com` address must be associate
 
 {{% details summary="I want to report multiple accounts or types of abuse, how can I do this?" %}}
 
-1. Should you want to report multiple accounts or URLs, it is recommended that you submit this information to abuse@gitlab.com.
+1. Should you want to report multiple accounts or URLs, it is recommended that you submit this information to <abuse@gitlab.com>.
     - Make sure that you include the `gitlab.com` URL(s) in your mail and a detailed description of the type of abuse you are reporting.
 {{% /details %}}
 

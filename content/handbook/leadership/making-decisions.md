@@ -68,7 +68,7 @@ Decisions that require input, buy-in, or awareness of others should be accompani
 1. Explain
     1. Details for your recommendation. Justification for why your preferred path was recommended over others. When appropriate and possible, this should include a recommendation grounded in data.
 
-We have an issue template that captures these elements: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/decision-template.md.
+We have an issue template that captures these elements: <https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/decision-template.md>.
 
 ## E-Group Conversation on Making Decisions
 

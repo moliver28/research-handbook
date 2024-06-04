@@ -54,7 +54,7 @@ In FY23 we're focusing on enabling self-service approach for Reference Architect
 
 ### Metrics
 
-{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/ReferenceArchitectures?:iid=3" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/ReferenceArchitectures?:iid=3>" >}}
 {{< /tableau >}}
 
 ## GitLab Environment Toolkit
@@ -81,7 +81,7 @@ In FY23 we're focusing on achieving Viable maturity status for GET in both funct
 
 ### Metrics
 
-{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabEnvironmentToolkit?:iid=3" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabEnvironmentToolkit?:iid=3>" >}}
 {{< /tableau >}}
 
 ## GitLab Performance Tool
@@ -102,7 +102,7 @@ For more details about the roadmap and the list of planned issues, please refer 
 
 ### Metrics
 
-{{< tableau height="600px" toolbar="hidden" src="https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabPerformanceTool?:iid=3" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabPerformanceTool?:iid=3>" >}}
 {{< /tableau >}}
 
 ## How to Engage with Us

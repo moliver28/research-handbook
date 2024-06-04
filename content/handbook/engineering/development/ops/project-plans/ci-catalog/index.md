@@ -255,8 +255,8 @@ All deliverables for CI Catalog GA are now complete.
 #### Team Capacity
 
 - .5 Backend Engineers
-    - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
-    - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
+  - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
+  - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
 
 #### Goals
 
@@ -267,8 +267,8 @@ All deliverables for CI Catalog GA are now complete.
 #### Team Capacity
 
 - 1.5 Backend Engineers
-    - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
-    - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
+  - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
+  - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
 
 #### Goals
 

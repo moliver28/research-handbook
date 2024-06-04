@@ -27,19 +27,19 @@ The following members of other functional teams are our stable counterparts:
 
 We have a [metrics dashboard](https://app.periscopedata.com/app/gitlab/570334/Universal-Engineering-Team-Metrics-Dashboard) to help us stay on track with [Development KPIs](/handbook/company/kpis/#development-department-kpis) (Make sure you filter by our team at the top!) This dashboard does not include security MRs from `dev.gitlab.org`, but does include security MRs from production.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="source code" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="source code" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="source code" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="source code" >}}
 {{< /tableau >}}
 

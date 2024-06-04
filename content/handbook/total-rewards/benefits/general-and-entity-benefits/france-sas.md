@@ -16,7 +16,7 @@ Can't find what you're looking for? Try the main [People Operations page](/handb
 
 ### Enrollment
 
-New team members should expect an email from no-reply@axa.fr with instructions on how to enroll in to the Medical Scheme. Team members should expect this email within thier first two weeks from their hire date. Please be sure to action upon the email to complete your enrollment in to the Medical Plan.
+New team members should expect an email from <no-reply@axa.fr> with instructions on how to enroll in to the Medical Scheme. Team members should expect this email within thier first two weeks from their hire date. Please be sure to action upon the email to complete your enrollment in to the Medical Plan.
 
 ## Pension
 
@@ -51,9 +51,9 @@ The Holiday Bonus is taxable, and subject to social charges and income tax. Team
 **Paternity Leave:** Team members are entitled to 28 days of paternity leave and 35 days in case of multiple births (twins, triplets, etc.). Team members are eligible for paternity and childcare leave after the birth of your child or that of your spouse, common-law partner or PACS partner.
 
 - This consists of the following:
-    - Three days of mandatory leave to begin, at the team member's choice, on the date of birth or the first working day following the date of birth.
-    - Four days mandatory leave immediately following the initial 3-day birth leave.
-    - A final period of 21 days. The team member may choose to split this period into two parts of at least five days.
+  - Three days of mandatory leave to begin, at the team member's choice, on the date of birth or the first working day following the date of birth.
+  - Four days mandatory leave immediately following the initial 3-day birth leave.
+  - A final period of 21 days. The team member may choose to split this period into two parts of at least five days.
 
 #### Maternity Leave Payment
 
@@ -105,7 +105,7 @@ GitLab's Sick Time policy will run concurrently with this benefit for the first 
 
 ### Reporting Requirements
 
-Team members who fall ill are required to inform GitLab as soon as possible (but no later than 48 hrs) by selecting the `Out Sick` label in Time Off by Deel AND entering the time away into the Mihi platform. You must provide proof by sending the Absence Management Team (leaves@gitlab.com) the sheet no. 3 of the medical sheet drawn up by your physician specifying the dates and reasons for being unable to work. Sheet no. 1 & 2 should be sent to your social security organization.
+Team members who fall ill are required to inform GitLab as soon as possible (but no later than 48 hrs) by selecting the `Out Sick` label in Time Off by Deel AND entering the time away into the Mihi platform. You must provide proof by sending the Absence Management Team (<leaves@gitlab.com>) the sheet no. 3 of the medical sheet drawn up by your physician specifying the dates and reasons for being unable to work. Sheet no. 1 & 2 should be sent to your social security organization.
 
 If an extension is needed, team members must notify GitLab as soon as possible (but no later than 48hrs) and send an updated sheet no. 3.
 
@@ -113,4 +113,4 @@ For more information, read about the [sick time policies and procedures in Franc
 
 ## Tracking Working Hours
 
-- Team members located in France are required to track their working hours via the Mihi platform. If you do not have access please reach out to the Global Upside team for further assistance. Please include people-connect@gitlab.com and leaves@gitlab.com in the CC field.
+- Team members located in France are required to track their working hours via the Mihi platform. If you do not have access please reach out to the Global Upside team for further assistance. Please include <people-connect@gitlab.com> and <leaves@gitlab.com> in the CC field.

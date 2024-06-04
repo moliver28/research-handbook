@@ -71,11 +71,11 @@ When you add content into Bambu, consider the following:
 - Organize with topic and tag
 - Include contributor note as context for why the content is worth sharing and a short CTA: e.g. "This story helps to establish GitLabs all remote philosophy, share it with your communities."
 - Include suggested social post copy
-   - 1-2 versions for Twitter
-   - 1-2 versions that cover both Facebook and LinkedIn
-   - Diversify options: one copy for “professional” use (full words, no emoji, sounds clean and clear) and one copy for “fun” (emoji, exclamation points, light and fun).
+  - 1-2 versions for Twitter
+  - 1-2 versions that cover both Facebook and LinkedIn
+  - Diversify options: one copy for “professional” use (full words, no emoji, sounds clean and clear) and one copy for “fun” (emoji, exclamation points, light and fun).
 - Add start and end date
-   - Stories should be available for a minimum of 1 month from publishing (e.g, Sept 28th to Oct 28) however, consider your campaigns and communications focuses - big deal content could go on longer.
+  - Stories should be available for a minimum of 1 month from publishing (e.g, Sept 28th to Oct 28) however, consider your campaigns and communications focuses - big deal content could go on longer.
 
 ### Recordings for Curators
 
@@ -126,7 +126,7 @@ Some of these tags are as follows. More tags can be added as we see the need to 
 - When changing an image or story title, these changes will only appear on LinkedIn. The original title of the story and original image will appear on Facebook and Twitter.
 - Regarding hashtags, when in doubt, leave it out. Platforms now focus on trends and topics without them. They can be helpful on LinkedIn, where users can follow a hashtag, but they are not required.
 - When using hashtags, replace a word in the copy with a hashtag. Sometimes the tense and other elements don't allow this. Only then should you consider adding hashtags to the end of the copy suggestion.
-   - E.g. #MovingToGitLab: This works when we're using present tense in the copy, `Company x is #MovingToGitLab`. This won't work if we're referencing a move from the past. Where we'd say, `Company x migrated to GitLab and here's what they learned. #MovingToGitLab`
+  - E.g. #MovingToGitLab: This works when we're using present tense in the copy, `Company x is #MovingToGitLab`. This won't work if we're referencing a move from the past. Where we'd say, `Company x migrated to GitLab and here's what they learned. #MovingToGitLab`
 - Always add a CTA to the internal `note`: Consider sharing on social, please share on your channels, etc.
 - Photo stories are not a priority and are only shareable on Facebook and Twitter, if we'd ever use these.
 

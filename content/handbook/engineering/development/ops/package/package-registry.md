@@ -70,7 +70,7 @@ The Package Registry supports several different package manager formats. Althoug
 
 ### How we handle breaking changes
 
-Announce deprecations, breaking changes, and removals at least 3 milestone before (according to https://docs.gitlab.com/ee/development/deprecation_guidelines/#when-can-a-feature-be-removedchanged).
+Announce deprecations, breaking changes, and removals at least 3 milestone before (according to <https://docs.gitlab.com/ee/development/deprecation_guidelines/#when-can-a-feature-be-removedchanged>).
 
 - Before the major version milestone: implement the breaking change with a feature flag. A feature flag will be used every time unless there is a very good argument not to.
 - In the major version milestone:
@@ -96,19 +96,19 @@ Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/)
 
 We measure the value we contribute by using [performance indicator metrics](/handbook/product/performance-indicators/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="package registry" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="package registry" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="package registry" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="package registry" >}}
 {{< /tableau >}}
 

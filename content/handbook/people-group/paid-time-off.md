@@ -152,7 +152,7 @@ In keeping with our values of [CREDIT]({{< ref "values" >}}), we have crafted th
 
 *Team members in France, Netherlands, and U.S, please read specific reporting procedures below.
 
-All team members, regardless of the duration of sick time, are required to notify GitLab of their absence.  Team members must notify their Manager, first, and then enter the time away in Time Off by Deel by selecting the label `Out Sick`.  If your sick time extends beyond 5 days, or less per your country's [statutory sick time reporting requirements](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits), team members are required to notify the Absence Management Team (leaves@gitlab.com) first, and then enter the time away into Time Off by Deel.
+All team members, regardless of the duration of sick time, are required to notify GitLab of their absence.  Team members must notify their Manager, first, and then enter the time away in Time Off by Deel by selecting the label `Out Sick`.  If your sick time extends beyond 5 days, or less per your country's [statutory sick time reporting requirements](/handbook/total-rewards/benefits/general-and-entity-benefits/#entity-benefits), team members are required to notify the Absence Management Team (<leaves@gitlab.com>) first, and then enter the time away into Time Off by Deel.
 
 **Continuous Time Away (in excess of 5 days or more), or Non-Continuous if related to the same illness:**
 
@@ -198,7 +198,7 @@ Please be aware that certain countries require a medical certificate, doctor's n
 
 Eligibility for GitLab's Sick Time policy will require team members to provide evidence, in accordance with local requirements, supporting the need for Sick Leave.
 
-Team Members should email the documentation to Absence Management team (leaves@gitlab.com).
+Team Members should email the documentation to Absence Management team (<leaves@gitlab.com>).
 
 ## Communicating Illness-Related Leave
 
@@ -206,7 +206,7 @@ In the unfortunate event that a team member is dealing with a medical situation,
 
 ## Accommodations
 
-If you believe you need reasonable accommodations to perform the essential functions of your job in accordance with applicable law(s), please email leaves@gitlab.com (Non-US Only).  [US team members](/handbook/people-policies/inc-usa/#reasonable-accommodation) please follow the steps outlined in the handbook.
+If you believe you need reasonable accommodations to perform the essential functions of your job in accordance with applicable law(s), please email <leaves@gitlab.com> (Non-US Only).  [US team members](/handbook/people-policies/inc-usa/#reasonable-accommodation) please follow the steps outlined in the handbook.
 
 If a team member starts the conversation with their manager, or People Business Partner, the manager or People Business Partner should either reach out to the Absence Management Team by emailing `leaves@gitlab.com`, or direct the team member to follow the steps outline in the handbook (links above).
 

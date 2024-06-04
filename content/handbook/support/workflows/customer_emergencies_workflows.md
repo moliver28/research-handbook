@@ -341,7 +341,7 @@ Otherwise, follow the [Self-Managed Weekend Emergencies - License Request](/hand
 
 A customer may be blocked because of a license expiring or neglecting to apply a renewal. If this happens over the weekend:
 
-1. Look up the namespace details using [chatops](/handbook/support/workflows/chatops#namespace) or a GitLab.com Admin account via the namespaces API (https://gitlab.com/api/v4/namespaces/<NAMESPACE>)
+1. Look up the namespace details using [chatops](/handbook/support/workflows/chatops#namespace) or a GitLab.com Admin account via the namespaces API (<https://gitlab.com/api/v4/namespaces/><NAMESPACE>)
 1. Check the `Trial ends on` date.
     - If it has a date, you will not need to provide a `Subscription Name` in the next step. Proceed to step 3.
     - If it is empty or null **and the namespace is on a Free plan**, guide the customer to navigate to the Settings -> Billing page and click on `Start a Free Ultimate trial`.
@@ -365,7 +365,7 @@ A customer may be blocked because of a license expiring or neglecting to apply a
 
 Some legacy-type subscriptions are called "multi-year" but are actually multiple, separate subscriptions sold up front to cover a multi-year period.  When a customer has a deal like this, each anniversary of the renewal requires that the next subscription be associated, or else the customer's namespace can fall back to `Free`. If this occurs, send the customer the following steps.
 
-1. Ask the customer to login to the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html) located at https://customers.gitlab.com/customers/sign_in for subscription management.
+1. Ask the customer to login to the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html) located at <https://customers.gitlab.com/customers/sign_in> for subscription management.
 1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
 1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#change-the-linked-namespace).
 
@@ -531,8 +531,8 @@ If a non-24x7 eligible customer submits an emergency case outside the [working h
 
 Team members who are working after the 12x5 hours may opt to provide support for customers who are having a production incident at the engineer's own discretion. When addressing these it is important to ensure the following is clear with the customer:
 
-   - They are not entitled to 24x7 support based on their subscription
-   - Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
+- They are not entitled to 24x7 support based on their subscription
+- Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
 
 The responding engineer should also add their manager as a follower and indicate in an internal note that after hours support is being provided. This will help ensure the appropriate follow-up occurs with the customer's account team.
 

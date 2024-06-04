@@ -16,7 +16,7 @@ Based on the outcome of its global expansion process for gathering and assessing
 
 ## Working with the Legal Employment Team on Sensitive Matters
 
-In any situation(s) that relates to specific team members or otherwise requires any team member personal information remain confidential, the People Group (and any other GitLab Team Members) should email legal-employment@gitlab.com. This respects team member privacy and may, where applicable, retain attorney-client privilege.
+In any situation(s) that relates to specific team members or otherwise requires any team member personal information remain confidential, the People Group (and any other GitLab Team Members) should email <legal-employment@gitlab.com>. This respects team member privacy and may, where applicable, retain attorney-client privilege.
 
 If the Legal Employment team requires support from the People Connect team for communicating a country specific legal requirement to team members, to consult with team members in an entity country if necessary, or to arrange legally required contract amendments, to name just a few examples, which may relate to individual team members or groups of team members, assistance can be requested using the confidential process and template referenced [here](/handbook/people-group/#when-support-from-the-people-connect-team-is-required-by-the-legal-employment-team).
 
@@ -48,7 +48,7 @@ Legal reviews overall background check policy and procedure in place, helps deve
 
 Legal should be asked to review negotiated contracts that seek to change standard terms.
 
- - Standard contract terms are audited on an annual basis. A contract audit issue will be opened to review the terms and gather input from appropriate teams across the organization. To suggest a change to an entity contract template, please leave a comment in the current contract audit issue found in the `People Operations` project and titled  Semi-Annual `Global Employment Contract Review YYYY-January or June`.
+- Standard contract terms are audited on an annual basis. A contract audit issue will be opened to review the terms and gather input from appropriate teams across the organization. To suggest a change to an entity contract template, please leave a comment in the current contract audit issue found in the `People Operations` project and titled  Semi-Annual `Global Employment Contract Review YYYY-January or June`.
 
 #### Compliance with Onboarding Issues
 

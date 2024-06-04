@@ -30,15 +30,15 @@ The purpose of this process is to streamline receiving and tracking invoices and
 - All outside counsel invoices should be sent to <legalbilling@gitlab.com>.
 - Upon receipt, Legal Operations updates the LACA Counsel Budget Tracker.
 - DRIs review their invoices weekly, and approve or reject.
-- Approved invoices are sent to ap@gitlab.com by Legal Operations.
-    - DRIs engage with outside counsel to discuss any rejected invoices. Upon resubmission, Legal Operations will update the tracker and submit to AP.
+- Approved invoices are sent to <ap@gitlab.com> by Legal Operations.
+  - DRIs engage with outside counsel to discuss any rejected invoices. Upon resubmission, Legal Operations will update the tracker and submit to AP.
 
 ### Accruals
 
 - Legal Operations sends a blanket request to all vendors on the 15th of the month requesting accruals be submitted by the 1st day of the following month.
-    - For example, for accruals of August 2023, the latest accruals should be provided to GitLab is 2023-09-01.
+  - For example, for accruals of August 2023, the latest accruals should be provided to GitLab is 2023-09-01.
 - Once accruals are received, Legal Operations logs and submits to FP&A.
-    - DRIs can review for accuracy as needed/desired.
+  - DRIs can review for accuracy as needed/desired.
 
 ### Legal & Corporate Affairs Expenditure Request Process
 

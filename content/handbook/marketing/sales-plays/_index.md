@@ -46,9 +46,9 @@ Sales plays will include but are not necessarily limited to:
 - Ideal customer profile and target personas
 - Persona-based messaging
 - Prospecting guides
-    - What to know (common pains, positive business outcomes, required capabilities, key GitLab differentiators, and supporting proof points)
-    - What to say (including recommended discovery questions, business value-based positioning points, how to overcome common objections, potential services to attach)
-    - What to do (steps and tactics to execute the play including suggestions for how to leverage various partner types)
+  - What to know (common pains, positive business outcomes, required capabilities, key GitLab differentiators, and supporting proof points)
+  - What to say (including recommended discovery questions, business value-based positioning points, how to overcome common objections, potential services to attach)
+  - What to do (steps and tactics to execute the play including suggestions for how to leverage various partner types)
 - Email and LinkedIn InMail templates (that Sales is encouraged to tailor as appropriate)
 - Featured assets to share with customers and prospects
 - Focused sales plays will also included target account and/or contact lists

@@ -13,7 +13,7 @@ See [the exhaustive list of projects](#projects) the group maintains.
 
 - Slack channel: [#g_secure-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
 - Slack alias: @secure_composition_analysis_dev
-- Google groups: composition-analysis-dev@gitlab.com
+- Google groups: <composition-analysis-dev@gitlab.com>
 
 ## How we work
 
@@ -227,11 +227,11 @@ When an issue is both blocked for a few releases and low risk you may dismiss th
 
 The following class of container scan vulnerabilities can be considered low risk:
 
-  - Many kernel-related findings will be at a decrease of risk and hence severity because of the way our process works with temporary containers with limited inputs which are developer-controlled.
-  - Issues related to a software stack that will not apply to the analyzer e.g GUI related issues, issues in Bluetooth drivers, browser-related issues which require browser running in non-headless mode, etc.
-  - S3 or S4 findings with complex exploit method or limited risk which have no fix available, or the upstream has stated there are no plans to release a patch.
-  - Denial of Service (of the container/analyzer) as these containers run in ephemeral pipelines, are automatically stopped once a timeout is reached, and are accepting in code from users who already have developer access. This as a result is not an expansion of the risk profile.
-  - Random number generator issues (where the numbers are not random) as we don't use random numbers for security purposes from the containers. (At the time this was last updated these were true, please use your knowledge of our analyzers or ask if unsure)"
+- Many kernel-related findings will be at a decrease of risk and hence severity because of the way our process works with temporary containers with limited inputs which are developer-controlled.
+- Issues related to a software stack that will not apply to the analyzer e.g GUI related issues, issues in Bluetooth drivers, browser-related issues which require browser running in non-headless mode, etc.
+- S3 or S4 findings with complex exploit method or limited risk which have no fix available, or the upstream has stated there are no plans to release a patch.
+- Denial of Service (of the container/analyzer) as these containers run in ephemeral pipelines, are automatically stopped once a timeout is reached, and are accepting in code from users who already have developer access. This as a result is not an expansion of the risk profile.
+- Random number generator issues (where the numbers are not random) as we don't use random numbers for security purposes from the containers. (At the time this was last updated these were true, please use your knowledge of our analyzers or ask if unsure)"
 
   **To add items to the list above discuss repeatable finding patterns with Application Security, get approval from a leader in the security section, and add to this list.**
 
@@ -409,7 +409,7 @@ The vulnerabilities reported on the currently used version of the scanner are au
 
 #### Setting up a mirror
 
-1. create a new project in https://gitlab.com/gitlab-org/security-products/dependencies (blank project).
+1. create a new project in <https://gitlab.com/gitlab-org/security-products/dependencies> (blank project).
 2. set up the project repository as [a pull mirror](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#pulling-from-a-remote-repository) of the upstream repository.
 3. find the git tag that matches the version currently used by our analyzer (usually represented by the `SCANNER_VERSION` variable in the analyzer's `Dockerfile`). Use exact commit if there is no git tag for the corresponding release we use.
 4. create a branch from that ref following naming convention `VERSION-security-checks` where `VERSION` is the version of the upstream scanner we currently use (e.g. `v6.12.0`).
@@ -437,19 +437,19 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 
 ## Dashboards
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="composition analysis" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="composition analysis" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="composition analysis" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="composition analysis" >}}
 {{< /tableau >}}
 

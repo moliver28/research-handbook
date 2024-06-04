@@ -229,7 +229,7 @@ As one of the world’s largest all-remote companies, GitLab is a place where yo
 
 We were recently named one of Fortune's Best Workplaces in Technology, and it’s an exciting time to join the GitLab team.
 
-We're hiring across the company. Check out our opportunities: https://about.gitlab.com/jobs/
+We're hiring across the company. Check out our opportunities: <https://about.gitlab.com/jobs/>
 
 **HackerNews Notes:**
 

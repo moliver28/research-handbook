@@ -50,14 +50,14 @@ The framework is organized in different stages, each of them having their own se
 
 ![activities](./img/activities.svg)
 
-*(Source: https://docs.google.com/drawings/d/1eQZppzngBJ9Xssvt514GHbs7rKHuRiLRk8cYbQtD5bI/edit)*
+*(Source: <https://docs.google.com/drawings/d/1eQZppzngBJ9Xssvt514GHbs7rKHuRiLRk8cYbQtD5bI/edit>)*
 
 Activities have a "deliverable", which the expected artifacts of the activity. They can be of
 various forms, from markdown pages to the state of a dashboard.
 
 ![deliverables](./img/deliverables.svg)
 
-*(Source: https://docs.google.com/drawings/d/1kj3KoU7UePUzoEdWCQFoppDEQgltUedmj6R-I0BqSZ8/edit)*
+*(Source: <https://docs.google.com/drawings/d/1kj3KoU7UePUzoEdWCQFoppDEQgltUedmj6R-I0BqSZ8/edit>)*
 
 The framework is architected around 3 stages:
 

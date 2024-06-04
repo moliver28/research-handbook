@@ -9,11 +9,11 @@ The CES team utilizes [GitLab Service Desk](https://about.gitlab.com/stages-devo
 
 - The CES team focuses their attention on incoming requests in the following order: CES Service Desk, individual emails, `@ces` Slack pings, and lastly Slack direct messages.
 - You can find the priority list based on the type of request below:
-   - 0 - Contracts
-   - 1 - Candidate emails
-   - 2 - Reschedules
-   - 3 - Schedule Interviews
-   - 4 - Offboarding
+  - 0 - Contracts
+  - 1 - Candidate emails
+  - 2 - Reschedules
+  - 3 - Schedule Interviews
+  - 4 - Offboarding
 - The CES team utilizes a program called [Guide]({{< ref "./coordinator#using-the-candidate-guide" >}}) to enhance the candidate experience and create a more transparent view into the talent acquisition processes. This program also allows us to rename interview subject lines to make them more candidate-friendly and succinct.
 
 #### How the CES Team will run the Service Desk
@@ -38,25 +38,25 @@ No action is needed by the CES team on this step. For additional information:
 
 - Once a candidate is moved into the Screening stage, the candidate is automatically sent the GSIS.
 - When scheduling a candidate for a screening call with a recruiter, the Calendly link is to be used. We will no longer use the "Request Availability" option for screening calls as this creates unnecessary manual work
-   - If the candidate is sourced, the sourcer should send the Calendly
-   - If it's an agency candidate or a referral where the recruiter may see the candidate first, the recruiter should send their Calendly link
+  - If the candidate is sourced, the sourcer should send the Calendly
+  - If it's an agency candidate or a referral where the recruiter may see the candidate first, the recruiter should send their Calendly link
 
 ### Team Interviews
 
 - When a candidate is ready for a team interview, the recruiter will request availability in Greenhouse using the email address of the CES team member [they partner with]({{< ref "recruiting-alignment#recruiter-coordinator-and-sourcer-alignment-by-department" >}}). They will then click "Email the Team" on the right side of the candidate's Greenhouse page and send CES* the "CES Scheduling Request form".
-   - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours]({{< ref "interviewing#moving-candidates-through-the-process" >}}) out to leave time for interviewer prep.
-   - Reminder: When tagging `@ces` in Greenhouse, do not tag anyone other than the team in the same ping as it will add those users to the Service Desk project.
+  - If there are shorter timelines for roles as defined by the hiring team, CES needs to be made aware of those timelines for when interviews need to be scheduled. We will default to scheduling interviews at a minimum of [48 hours]({{< ref "interviewing#moving-candidates-through-the-process" >}}) out to leave time for interviewer prep.
+  - Reminder: When tagging `@ces` in Greenhouse, do not tag anyone other than the team in the same ping as it will add those users to the Service Desk project.
 - If no response is received within 24 hours, CES will send a follow up request for availability and set the due date of the issue to 24 hours after the next email to check for availability again.
-   - After the 2nd email to the candidate with no response, the CES will make the Recruiter aware of the no response and no longer attempt to receive availability. They can close the issue temporarily, and reopen if the Recruiter receives a response from the candidate. The issue may remain open if CES leaves detailed notes on their attempts to reach out to candidate.
+  - After the 2nd email to the candidate with no response, the CES will make the Recruiter aware of the no response and no longer attempt to receive availability. They can close the issue temporarily, and reopen if the Recruiter receives a response from the candidate. The issue may remain open if CES leaves detailed notes on their attempts to reach out to candidate.
 - After availability is received, CES will schedule interviews based on the interview plans in Greenhouse and will track preferences within the CES Service Desk [repo](https://gitlab.com/gl-talent-acquisition/ces-service-desk/-/tree/master).
-   - CES will be using the Zoom integration with [Prelude]({{< ref "prelude" >}}) for interviews
-   - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges and are pausing on sending the Guide for 24 hours.
+  - CES will be using the Zoom integration with [Prelude]({{< ref "prelude" >}}) for interviews
+  - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges and are pausing on sending the Guide for 24 hours.
 - This email is sent to inform the candidates that their interview scheduling is in the process and to ensure better engagement with the candidates.
 - If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page](/handbook/hiring#interview-stages) for instructions.
 - CES will [send interview confirmations via Guide]({{< ref "./coordinator#using-the-candidate-guide" >}})
 - CES will not automatically schedule next interviews based off of scorecards
-   - The Recruiter or Hiring Manager will need to follow the same scheduling procedures as above in Greenhouse to request scheduling assistance on the next round of interviews.
-   - Any candidates who receive a no or definitely not scorecard should be discussed with the Recruiter and the Hiring Manager before declining.
+  - The Recruiter or Hiring Manager will need to follow the same scheduling procedures as above in Greenhouse to request scheduling assistance on the next round of interviews.
+  - Any candidates who receive a no or definitely not scorecard should be discussed with the Recruiter and the Hiring Manager before declining.
 
 #### Technical Interview Scheduling
 
@@ -72,14 +72,14 @@ Certain positions require technical interviews (i.e. Ruby on Rails, Golang, Fron
 To schedule a technical interview, CES should follow the process outlined below:
 
 - When a candidate successfully reaches the Team Interview stage the recruiter will send the availability request email to the candidate.
-   - If the candidate did not submit a GitLab username during the application or screening stage, the recruiter will also send the GitLab Username Form (this will be found in the Team Interview Stage or Evergreen stage). This generates an email to the candidate requesting they fill out the form with their GitLab Username.
+  - If the candidate did not submit a GitLab username during the application or screening stage, the recruiter will also send the GitLab Username Form (this will be found in the Team Interview Stage or Evergreen stage). This generates an email to the candidate requesting they fill out the form with their GitLab Username.
 - CES will receive two separate tickets to the CES service desk:
-   - CES will immediately receive the scheduling request from the recruiter, and;
-   - The completed GitLab Username form. This will only come into the service desk once the candidate replies to the email, and the username will automatically be added to the Details tab of the candidate's profile under Details > Other. CES should check that the GL username is valid and ensure that the GL username is in a URL format.
+  - CES will immediately receive the scheduling request from the recruiter, and;
+  - The completed GitLab Username form. This will only come into the service desk once the candidate replies to the email, and the username will automatically be added to the Details tab of the candidate's profile under Details > Other. CES should check that the GL username is valid and ensure that the GL username is in a URL format.
 - Once CES has received and confirmed that the candidate’s GL username is valid, the CES team member can proceed with scheduling the interview in Prelude. Prelude processes can be found [here]({{< ref "prelude" >}}).
-   - Note: CES has specific “pools” of interviewers to use in Prelude when scheduling technical interviews. Unless advised otherwise by the recruiter, please use “ruby on rails”, “frontend” and “golang” pools when selecting an interviewer for these specific interviews.
+  - Note: CES has specific “pools” of interviewers to use in Prelude when scheduling technical interviews. Unless advised otherwise by the recruiter, please use “ruby on rails”, “frontend” and “golang” pools when selecting an interviewer for these specific interviews.
 - CES will then open the Guide extension in Greenhouse
-   - Under Guide Process click Team Interview. Then click the interview you just scheduled. You will see a section to “add a description”. CES will insert the appropriate text expander snippet here. This provides the candidate with additional information about what they can expect for their technical interview.
+  - Under Guide Process click Team Interview. Then click the interview you just scheduled. You will see a section to “add a description”. CES will insert the appropriate text expander snippet here. This provides the candidate with additional information about what they can expect for their technical interview.
 - CES will proceed with sending the Guide. Guide processes can be found [here](/handbook/hiring/guide).
 
 #### Executive Interview Scheduling
@@ -126,7 +126,7 @@ On occasion, candidates may need to interview in person with a team member at Gi
       - Translation Services
       - Use of additional services or assistive technologies
       - Assistance in setting up Closed Captioning for interviews (may not require reimbursement)
-1. CES will send “Candidate Reimbursement” email template from Greenhouse from their own GitLab email address, not ces@gitlab.com. **Note:** these emails will need to stay out of the CES service desk, hence the reason the CES responsible for this process will send from their personal GitLab email.
+1. CES will send “Candidate Reimbursement” email template from Greenhouse from their own GitLab email address, not <ces@gitlab.com>. **Note:** these emails will need to stay out of the CES service desk, hence the reason the CES responsible for this process will send from their personal GitLab email.
 1. Once the candidate submits the form attached to the email, both CES and AP will be alerted via spreadsheet.
 1. Accounts Payable will then process the candidates reimbursement request and respond to all that it has been completed. Candidates can expect to receive their reimbursement within 1-2 weeks of submission.
 
@@ -306,14 +306,14 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 
 1. Check all aspects of the offer:
 
-  - Do we have the new team members' legal name in their profile?
-    - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening]({{< ref "people-policies#background-checks" >}}) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
-  - Is the new team members' address listed on the details page?
-  - What contract type and entity are required based upon location and offer details?
-  - Is all necessary information (start date, salary, location, etc.) up to date?
-  - Is the start date one that is not a "no start date" and provides an adequate amount of time for People Connect and IT to have sufficient notice? Ideally, we are providing 10 days notice, but the teams can work with less if we let them know.
-  - Has the signatory been determined by the Candidate Experience Specialist and updated?
-  - Has the Entity been selected based on the New Hire's location? If the job title has Federal or PubSec included, please check with the Recruiter if they set up the contract as Inc rather than Federal LLC to confirm.
+- Do we have the new team members' legal name in their profile?
+  - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening]({{< ref "people-policies#background-checks" >}}) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
+- Is the new team members' address listed on the details page?
+- What contract type and entity are required based upon location and offer details?
+- Is all necessary information (start date, salary, location, etc.) up to date?
+- Is the start date one that is not a "no start date" and provides an adequate amount of time for People Connect and IT to have sufficient notice? Ideally, we are providing 10 days notice, but the teams can work with less if we let them know.
+- Has the signatory been determined by the Candidate Experience Specialist and updated?
+- Has the Entity been selected based on the New Hire's location? If the job title has Federal or PubSec included, please check with the Recruiter if they set up the contract as Inc rather than Federal LLC to confirm.
 
 1. [Generate the contract within Greenhouse]({{< ref "ces-contract-processes" >}}) using a template based on the details found in the offer package.
 1. Contact the recruiter or new team member to gather any missing pieces of information (note: the address can be found on the background screening information page).
@@ -327,7 +327,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. For internal hires ONLY - the CES will send the automated email template labeled "Internal Hiring Survey". You can also cancel the survey that will appear automatically when the candidate is marked as hired.
 1. The Candidate Experience Specialist will email the new team member the Welcome Email from Greenhouse with a cc to IT Ops, the Hiring Manager and the Recruiter.  For new team members in USA, use 'GitLab Welcome - US only' template.  For team members located outside the US, use 'GitLab Welcome - non US' template
 
-  - Instructions on the [Notebook Ordering Process](/handbook/business-technology/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
+- Instructions on the [Notebook Ordering Process](/handbook/business-technology/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
 
 1. Should the start date change after the welcome email is sent please see the required steps [here]({{< ref "ces-contract-processes#how-to-update-a-start-date-after-the-contract-is-signed" >}}).
 1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
@@ -354,7 +354,7 @@ People Connect Specialist will create the onboarding issue and start the [onboar
 
 For questions about the new team member's onboarding status, you can @mention them in the `#people-connect-ces` Slack channel.
 
-For questions about the new team member's laptop, ping [<i class="fa-brands fa-slack"></i> IT Ops](https://gitlab.slack.com/archives/CK4EQH50E) in Slack. If the questions arise through email, forward the email to itops@gitlab.com and ping IT Ops in #it-ops Slack, and @it-ops-team too due to volume.
+For questions about the new team member's laptop, ping [<i class="fa-brands fa-slack"></i> IT Ops](https://gitlab.slack.com/archives/CK4EQH50E) in Slack. If the questions arise through email, forward the email to <itops@gitlab.com> and ping IT Ops in #it-ops Slack, and @it-ops-team too due to volume.
 
 ### Employment Offboarding
 

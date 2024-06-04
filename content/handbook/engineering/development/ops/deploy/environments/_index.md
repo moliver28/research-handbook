@@ -45,19 +45,19 @@ Some dedicated Slack channels:
 
 ## Insights
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="environments" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="environments" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="environments" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="environments" >}}
 {{< /tableau >}}
 
@@ -116,8 +116,8 @@ We try to be conscious of sync time and so we expect a maximum of two of these m
 A technical discovery meeting consists of:
 
 - 2 Meetings across timezones so that everyone has a fair opportunity to join the sync meeting.
-    - APAC/EMEA
-    - EMEA/AMER
+  - APAC/EMEA
+  - EMEA/AMER
 - The 2 meetings are recorded and share the same agenda.
 - The meetings are announced at least one week before they will be held and each participant must familiarize themselves with the issue that is being investigated prior to attending one of the meetings.
 - Discussing the topic async in advance in the issue/epic is encouraged.
@@ -302,43 +302,43 @@ everyone is encouraged to set the deadline based on the date of the last severit
 
 Goals:
 
-  - Effectively track and label bug related issues.
-  - Ensure bug Due Dates are not missed due to a lack of DRIs on sub issues.
-  - Ensure the team is aware that help is needed in a specific area on a bug
+- Effectively track and label bug related issues.
+- Ensure bug Due Dates are not missed due to a lack of DRIs on sub issues.
+- Ensure the team is aware that help is needed in a specific area on a bug
     that already has an overall DRI.
 
 Context:
 
-  - Single part bug issues
-    - Some bugs only require a single cohesive effort to resolve. For example an
+- Single part bug issues
+  - Some bugs only require a single cohesive effort to resolve. For example an
       isolated backend fix that requires no database or frontend changes. In
       these cases, the DRI of the bug issue is the person doing the work, and
       all work is tracked in the bug report issue.
 
-  - Multi-part bug issues
-    - In other cases, a bug issue may result in work across frontend, backend,
+- Multi-part bug issues
+  - In other cases, a bug issue may result in work across frontend, backend,
       and database. This can result multiple engineers working separately as
       DRIs of individual issues that all contributing to solving the bug.
       Multiple issues are needed.
 
 Problem:
 
-  - Without a clear structure of issues for multi-part bugs, it's difficult for
+- Without a clear structure of issues for multi-part bugs, it's difficult for
     the team to know how to help and how to plan. This difficulty can negatively
     impact our say-do ratio.
 
 Best practices for managing multi-part bug issues:
 
-  - The original bug issue should be promoted to an epic.
-  - The original DRI becomes the overall bug epic DRI (note this on the epic).
-  - New sub issues representing each part of the work should be created on the
+- The original bug issue should be promoted to an epic.
+- The original DRI becomes the overall bug epic DRI (note this on the epic).
+- New sub issues representing each part of the work should be created on the
     epic.
-  - The new issues should be noted as blocking the epic.
-  - Except for severity and priority, Labels should be copied over.
-  - Due dates should keep in mind the due date of the epic, which is based on
+- The new issues should be noted as blocking the epic.
+- Except for severity and priority, Labels should be copied over.
+- Due dates should keep in mind the due date of the epic, which is based on
     severity and priority.
-  - Deliverable labels should be applied if the epic is deliverable.
-  - DRI can use the Milestone Planning issue and/or reach out to relevant team
+- Deliverable labels should be applied if the epic is deliverable.
+- DRI can use the Milestone Planning issue and/or reach out to relevant team
     members to ask if there's availability within the Due Date. cc your
     engineering manager so they can give a high level thumbs up/thumbs down
     regarding the change in priority.
@@ -592,8 +592,8 @@ on what existing testing does and how to develop features for Auto DevOps.
 The Environments group has access to a shared GCP project which can be used for demos, experiments, or to host auxilliary services.
 The project id is `deploy-stage-shared-i-e55e01cb` and was created and provisioned using the following ARs:
 
-- https://gitlab.com/gitlab-com/it/infra/issue-tracker/-/issues/493 (internal)
-- https://gitlab.com/gitlab-com/it/infra/issue-tracker/-/issues/495 (internal)
+- <https://gitlab.com/gitlab-com/it/infra/issue-tracker/-/issues/493> (internal)
+- <https://gitlab.com/gitlab-com/it/infra/issue-tracker/-/issues/495> (internal)
 
 If you need to create permanent infrastructure in that GCP project, it's encouraged to do it with Terraform
 to easily share and document the setup with the entire group. You can use [this](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/infra)

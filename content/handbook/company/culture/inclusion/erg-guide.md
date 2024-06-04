@@ -122,8 +122,8 @@ We want to ensure our Executive Sponsors are the exception to this data.
 - Work to advocate for the TMRGs mission to wider audiences
 - Actively evangelize new policies, programs and celebrations
 - Challenge the TMRG Leads to think creatively & big
-    - TMRGs should start small and build momentum but when the time is right get the TMRG to think creatively and bigger.
-    - Provide a sounding board and access to support to allow this to occur.
+  - TMRGs should start small and build momentum but when the time is right get the TMRG to think creatively and bigger.
+  - Provide a sounding board and access to support to allow this to occur.
 - Become a mentor to TMRG Leads - this is a great opportunity to build our leaders of the future
 - Ensure that the TMRG are aligning to DIB and Business Goals
 - Provide key insights into GitLab
@@ -198,7 +198,7 @@ While creating the new issue please:
 
 ### Naming and branding for the TMRG
 
-All names, because they are visible externally and could compete with other projects, products and or not be a good representation of GitLab must be approved by Legal and Brand.  You should work with the DIB Manager (Liam McNally lmcnally@gitlab.com) to gain a consensus on ideas.  Keep in mind that names chosen by the TMRG may not meet GitLab’s naming and branding standards and may need to be changed.
+All names, because they are visible externally and could compete with other projects, products and or not be a good representation of GitLab must be approved by Legal and Brand.  You should work with the DIB Manager (Liam McNally <lmcnally@gitlab.com>) to gain a consensus on ideas.  Keep in mind that names chosen by the TMRG may not meet GitLab’s naming and branding standards and may need to be changed.
 
 ### Defining your TMRGs mission statement
 
@@ -509,7 +509,7 @@ Having short terms and long term goals for the TMRG is extremely important in de
 **How to set goals for the TMRG**
 
 - Work with the wider TMRG on the TMRGs priorities
-    - Leadership should distill these down into a manageable number of goals
+  - Leadership should distill these down into a manageable number of goals
 - Utilize a goal setting methodology such as [OKRs](/handbook/company/okrs) or [SMART](https://www.mindtools.com/pages/article/smart-goals.htm) to set the goals in a practical way
 - Add these goals to your quarterly strategy issue for the TMRG
 - Assign a working group or DRI/s to the goal
@@ -574,11 +574,11 @@ When submitting expenses for reimbursement, please add the “TMRG” classifica
 
 - DIB Monthly Call
 - Slack Channels
-    - #whats-happening-at-gitlab
-    - #diversity_inclusion_and_belonging
-    - Location specific channels such as APAC, #loc_london_uk etc
-    - Other TMRGs channels
-    - Any other channels that seem relevant
+  - #whats-happening-at-gitlab
+  - #diversity_inclusion_and_belonging
+  - Location specific channels such as APAC, #loc_london_uk etc
+  - Other TMRGs channels
+  - Any other channels that seem relevant
 
 ### Hold your first call
 

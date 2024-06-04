@@ -101,9 +101,9 @@ There are four departments within the Engineering Division:
 - [Developer onboarding](/handbook/engineering/developer-onboarding/)
 - [Engineering Demo Process](/handbook/engineering/demos/)
 - [Engineering Workflow](/handbook/engineering/workflow/)
-    - [Code Review](/handbook/engineering/workflow/code-review/)
-    - [Security Issues](/handbook/engineering/workflow/#security-issues)
-    - [Architecture Design](/handbook/engineering/architecture/workflow/)
+  - [Code Review](/handbook/engineering/workflow/code-review/)
+  - [Security Issues](/handbook/engineering/workflow/#security-issues)
+  - [Architecture Design](/handbook/engineering/architecture/workflow/)
 - [GitLab Repositories](/handbook/engineering/gitlab-repositories/)
 - [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - [Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/index.html)
@@ -177,7 +177,7 @@ FCL xxxx - [team name]
 - Incident Issue: `<issue link>`
 - Incident Review Issue: `<issue link>`
 - Incident Timeline: `<link to Timeline tab of the Incident issue>`
-   - e.g. time to detection, time to initiate/complete rollback (as applicable), time to mitigation
+  - e.g. time to detection, time to initiate/complete rollback (as applicable), time to mitigation
 - Cause of Incident
 - Mitigation
 - Status of Planned/completed work associated with FCL

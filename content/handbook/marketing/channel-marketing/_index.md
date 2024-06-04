@@ -51,7 +51,7 @@ For an in-depth look at the programs and tools we offer our partners, see our [m
 - On a monthly basis, provide marketing content and input to the Global Channel Operations team for use in the global channel communication/newsletter
 - On a quarterly basis, host global marketing webcasts to the partner community.
 - Support GitLab [Analyst Relations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/) requests for channel program input on MQs, WAVEs, market guides, as needed and with third party channel analysts.
-    - Support requests for inclusion in third party publications
+  - Support requests for inclusion in third party publications
 - Support the web team in maintaining GitLab’s marketing website [partner pages](https://about.gitlab.com/partners/)
 - Working with Sales Ops and Marketing Ops improve attribution and reporting of [partner sourced leads (CQLs), and partner sourced opportunities](/handbook/sales/field-operations/channel-operations/).
 - [Partner Concierge Program](https://gitlab.com/gitlab-com/marketing/demand-generation/fy24-integrated-marketing-planning/-/issues/8#pre-pilot-launch) is starting a pilot program with a list of select partners approved for participation. Partner accepted into the program will have monthly meetings with Program's Manager as well as a customer [content calendar](https://docs.google.com/presentation/d/1vdR-FhJFltPfCijO43L2as-HAlw8zEgUUCk6687CDWg/edit#slide=id.g123a13deda8_0_405) to track all social campaigns scheduled. Participants of the Concierge Program will not be able to participate in the MDF Program.
@@ -60,8 +60,8 @@ For an in-depth look at the programs and tools we offer our partners, see our [m
 
 The Channel Marketing Managers are responsible for creating channel marketing plans with our marketing-ready channel partners that align to a 6-month planning cycle with quartely reviews. This allows time for our channel partners to properly source resources and staffing for these campaigns.
 
-   - Feb - July - Plans due second week of December
-   - August - January - Plans due second week of June
+- Feb - July - Plans due second week of December
+- August - January - Plans due second week of June
 
 The goal is that we eventually have our partners aligned to our planning cycle, but we realize that we need to take into account THEIR own planning cycle. Should there need to be a different planning cycle cadence to accommodate a Marketing-Ready channel partner, this should be clearly documented in the [marketing-ready issue](https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/new?issuable_template=Channel_Mktg_Ready).
 
@@ -99,8 +99,8 @@ On occasion we may consider supporting partners outside the [target markets](htt
 
 #### Approval status of MDF campaigns
 
-   - [EMEA channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
-   - [APAC channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
+- [EMEA channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
+- [APAC channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
 
 ### Team Roles and Responsibilities
 
@@ -186,23 +186,23 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
 ## Requesting MDF funds
 
 - Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/English/Partner/SFDC/MDF2/Request/Create), and GitLab approvers will be notified of the request via email.
-    - The MDF proposal will go through 2 levels of approvals
-       - Level 1 approval - Channel Marketing Manager
-       - Level 2 approval - Sr Partner Program Manager
-    - Once the MDF request has been either approved or declined the partner will be notified:
+  - The MDF proposal will go through 2 levels of approvals
+    - Level 1 approval - Channel Marketing Manager
+    - Level 2 approval - Sr Partner Program Manager
+  - Once the MDF request has been either approved or declined the partner will be notified:
           - If declined, the Channel Marketing DRI will reach out to the partner and let them know. We will copy the PAM/PTM on the notification
           - If approved, the MDF Operation's team will [open an epic](/handbook/marketing/channel-marketing/channel-marketing-epics/) and correlating sub-issues defined therein.
-    - Once Epic has been created, the following sub-issues are created automatically and are linked to the Epic (links are to templates):
-       - Campaign Creation
-         - List Upload
-         - MDF POP
-            - For POP issues add labels
-               - `MDF-POP` and use the scoped labels below to work through the approval process:
-               - `MDF::POP Pending`: issues created but POP has not yet been received
-               - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
-               - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
-               - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
-    - Once all sub-issues are completed, close out the epic.
+  - Once Epic has been created, the following sub-issues are created automatically and are linked to the Epic (links are to templates):
+    - Campaign Creation
+      - List Upload
+      - MDF POP
+        - For POP issues add labels
+          - `MDF-POP` and use the scoped labels below to work through the approval process:
+          - `MDF::POP Pending`: issues created but POP has not yet been received
+          - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
+          - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
+          - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
+  - Once all sub-issues are completed, close out the epic.
 
 ### PTO Process for MDF Request Approvers
 
@@ -230,10 +230,10 @@ These activities are captured as `Campaign Type Details` on the campaign level i
 
 We offer Marketing Kit Swag for Marketing Ready partner, these kits consists of:
 
-   - Banner stand
-   - Table Cloth
-   - 1000 stickers
-   - 200 Swag items (examples would be: colorful cable set, iPhone stand, bottle opener key chain, etc)
+- Banner stand
+- Table Cloth
+- 1000 stickers
+- 200 Swag items (examples would be: colorful cable set, iPhone stand, bottle opener key chain, etc)
 Please work with your Channel Marketing Managers to order your Marketing Kits.
 
 ## Concierge Program
@@ -250,7 +250,7 @@ Lead Management - gives your partners the ability to manage all the leads genera
 
 ##### How to Participate
 
-Reach out to partner-marketing@gitlab.com with the subject line: Partner Concierge Program and we will respond within 1 business day to schedule an introductory meeting.
+Reach out to <partner-marketing@gitlab.com> with the subject line: Partner Concierge Program and we will respond within 1 business day to schedule an introductory meeting.
 
 ## Partner Instant Marketing Campaign
 
@@ -275,15 +275,15 @@ We currently offer the Self-Managed form in English, Spanish, German, French, Ko
 
 ## How to Sign up for the GitLab Free Trial Program
 
-- Reach out to the GitLab Global Channel Marketing team via email at partner-marketing@gitlab.com to get your custom free trial link(s) and assign your your Partner Prospect Admin. This role will need to be assigned before you [test](https://partners.gitlab.com/prm/English/s/assets?id=455381) and use your free trial link.
+- Reach out to the GitLab Global Channel Marketing team via email at <partner-marketing@gitlab.com> to get your custom free trial link(s) and assign your your Partner Prospect Admin. This role will need to be assigned before you [test](https://partners.gitlab.com/prm/English/s/assets?id=455381) and use your free trial link.
 
-   - Please note if you are using the SaaS free trial form you must add the following consent on your website and any marketing materials you are using that point your customers to the SaaS free trial form:
+  - Please note if you are using the SaaS free trial form you must add the following consent on your website and any marketing materials you are using that point your customers to the SaaS free trial form:
 
       *I agree that GitLab may share the data in this form with the GitLab partner that referred me to this landing page and GitLab's partner may contact me by email or telephone about relevant products, services and events. You may opt-out at any time by unsubscribing in future emails or contacting the GitLab partner directly.*
 
 - Next, test your custom URL to ensure you are receiving the leads inside the partner portal deal registration prospect section.
 
-   - Learn more about where to find your leads by watching this [video](https://partners.gitlab.com/prm/English/s/assets?id=453616).
+  - Learn more about where to find your leads by watching this [video](https://partners.gitlab.com/prm/English/s/assets?id=453616).
 
 - Use our [ready made assets](https://partners.gitlab.com/prm/English/c/marketing-free-trial#:~:text=Step%203%3A%20Get%20the%20word%20out) to create co-branded display ads, social posts, and emails to invite prospects to the trial. Link to your custom free trial URL to drive traffic to the Free Trial landing page.
 
@@ -292,11 +292,11 @@ We currently offer the Self-Managed form in English, Spanish, German, French, Ko
   - GitLab has created customizable assets that include social posts, display ads and emails to help promote your custom free trial links. You can download the full kit of free trial assets [here](https://partners.gitlab.com/prm/English/s/assets?id=439714&q=free%20trial%20kit).
 
   - We recommend promoting these social posts and display ads on the following platforms:
-      - LinkedIn
-      - Reddit
-      - Facebook
-      - X (formely Twitter)
-      - Developer focused communities such as Stackoverflow
+    - LinkedIn
+    - Reddit
+    - Facebook
+    - X (formely Twitter)
+    - Developer focused communities such as Stackoverflow
   - GitLab has provided you with a list of recommended AdWord keywords that can effectively help you target your desired audience and increase visibility for your microsite and free trial links. These keywords cover a wide range of topics related to DevSecOps and have been carefully selected to target the relevant audience interested in topics related to DevSecOps, continuous integration, continuous delivery, and software development. This list can be found [here](https://partners.gitlab.com/prm/api/objects/v1/asset/tzhnhfb5s0zf/_download).
   - Additionally, it is asked that partners add "GitLab" as an account level phrase match negative keyword to their Google Ads.
 
@@ -452,15 +452,15 @@ Partners have many different type of campaigns that fit into specific categories
 
 - [MDF Campaigns](/handbook/marketing/channel-marketing/#mdf-campaigns)
 - [Joint Campaigns](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns)
-     - Events
-     - Webinar
-     - [Partner Sponsored Events](/handbook/marketing/channel-marketing/#partner-sponsored-events)
+  - Events
+  - Webinar
+  - [Partner Sponsored Events](/handbook/marketing/channel-marketing/#partner-sponsored-events)
 - [Trial Campaigns](/handbook/marketing/channel-marketing/#trials-from-partners)
-     - SaaS Free Trial
-     - Self-Managed Free Trial
+  - SaaS Free Trial
+  - Self-Managed Free Trial
 - [Partner Managed Campaigns](/handbook/marketing/channel-marketing/#partner-managed-campaigns)
-     - Impartner Program
-     - Partner Campaign
+  - Impartner Program
+  - Partner Campaign
 
 ### Issue first - Partner Pilot
 
@@ -557,8 +557,8 @@ GitLab allows Channel Partners to sponsor our owned events. The leads acquired b
 
 **Step 2a**: Update the smart campaign flow according to the lead creation method:
 
- - For online lead creation via form submission, update `01b - Registration`
- - For offline lead creation via list import, update `02b - Manual Upload Processing`
+- For online lead creation via form submission, update `01b - Registration`
+- For offline lead creation via list import, update `02b - Manual Upload Processing`
 
 **Step 2b**: Update the data change value from:
 
@@ -606,7 +606,7 @@ Each page must have the UTMs in the URL :
 - `utm_source` to track online touchpoints
 
 Example
-> https://gitlab.com/-/trial_registrations/new?glm_source=partner&utm_source=partner&glm_content=0014M00001pg2zmQAA
+> <https://gitlab.com/-/trial_registrations/new?glm_source=partner&utm_source=partner&glm_content=0014M00001pg2zmQAA>
 
 **NOTE:** `glm source` and `utm_source` should always be equal to `partner` and `glm_content` will be equal to the `CRM Partner ID` associated with the partner account.
 
@@ -765,7 +765,7 @@ If a form isn't available to capture registration, follow these additional steps
 
 **Step 3: Update `CRM Partner ID` Column in Google Sheet**
 
- - In the list upload, include the `CRM Partner ID` value in the [spreadsheet](https://docs.google.com/spreadsheets/d/1dzFqwjoBat8sna0uZu9RSVTsPvAZnJ4Xx4GkZllAUD0/edit#gid=257616838) column. If the lead is not associated with an Alliance partner, leave the column blank.
+- In the list upload, include the `CRM Partner ID` value in the [spreadsheet](https://docs.google.com/spreadsheets/d/1dzFqwjoBat8sna0uZu9RSVTsPvAZnJ4Xx4GkZllAUD0/edit#gid=257616838) column. If the lead is not associated with an Alliance partner, leave the column blank.
 
 **Step 4: Update List Upload Request Issue**
 

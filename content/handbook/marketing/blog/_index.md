@@ -122,7 +122,7 @@ It is important that our blog content represents our company values of diversity
 #### More DIB writing tips
 
 - Is your blog post biased? We all have unconscious biases. Take our [recognizing bias training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training), check the [list of unconscious biases in our DIB handbook page](/handbook/company/culture/inclusion/unconscious-bias/#unconscious-biases-to-look-out-for-in-ourselves-and-in-others) and practice strategies for [recognizing and managing yours](/handbook/company/culture/inclusion/unconscious-bias/#tips-on-recognizing-and-avoiding-bias).
-- If you still have questions, don't hesitate to tag the editorial team lead @sgittlen, leads of the appropriate [team member resource group (TMRG)](/handbook/company/culture/inclusion/erg-guide/) in your blog issue, or email diversityinclusionandbelonging@gitlab.com with your questions.
+- If you still have questions, don't hesitate to tag the editorial team lead @sgittlen, leads of the appropriate [team member resource group (TMRG)](/handbook/company/culture/inclusion/erg-guide/) in your blog issue, or email <diversityinclusionandbelonging@gitlab.com> with your questions.
 
 ### Blog categories and tags
 

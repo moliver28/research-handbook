@@ -116,7 +116,7 @@ Until [the issue 412966](https://gitlab.com/gitlab-org/gitlab/-/issues/412966) i
 >
 > Thank you, we were able to verify your identity as account owner.
 >
-> Could you please confirm that you would like us to change the enterprise user primary address from example@primary-email.address to example@new-primary-email address ? Replying in this ticket stating you provide permission will be sufficient.
+> Could you please confirm that you would like us to change the enterprise user primary address from <example@primary-email.address> to example@new-primary-email address ? Replying in this ticket stating you provide permission will be sufficient.
 >
 > [Important notice](https://docs.gitlab.com/ee/user/enterprise_user/#dissociation-of-the-user-from-their-enterprise-group): Changing an enterprise user’s primary email to an email with a non-verified domain automatically disassociates them from their enterprise group. As a result of the change, your organization will **not** be able to manage the user account and GitLab Support will not intervene for any reason.
 
@@ -157,8 +157,8 @@ Enterprise users have user accounts that are administered by an organization tha
 
 1. Requester’s Ticket:
 
- - Add as an internal comment the ticket created above.
- - Reply to the requester with the snippet below and mark the ticket as `On-hold`.
+- Add as an internal comment the ticket created above.
+- Reply to the requester with the snippet below and mark the ticket as `On-hold`.
 
 > Hi,
 >

@@ -343,6 +343,6 @@ Unemployment Insurance is funded through employer contributions and most states 
 
 If you are a full-time team member and you are contacted by your state's Unemployment Commission to discuss your request for Unemployment Benefits, you may be a victim of Unemployment Claim Fraud.
 
-Before giving out any information to the caller, please confirm that you are speaking with an agency employee. If you confirm with your state's Unemployment Commission that there is a fraudulent claim, please report it via email to people-connect@gitlab.com.
+Before giving out any information to the caller, please confirm that you are speaking with an agency employee. If you confirm with your state's Unemployment Commission that there is a fraudulent claim, please report it via email to <people-connect@gitlab.com>.
 
 Additionally here is a link to the [U.S Department of Labor Contact Particulars](https://www.dol.gov/agencies/eta/unemployment-insurance-payment-accuracy/UIFraudReporting) to report Unemployment Insurance Fraud.

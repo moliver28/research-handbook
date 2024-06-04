@@ -14,7 +14,7 @@ The Static Analysis group at GitLab is charged with developing the [Static Appli
 
 - Slack channel: #g_secure-static-analysis
 - Slack alias: @secure_static_analysis_team
-- Google groups: sec-secure-static-analysis@gitlab.com
+- Google groups: <sec-secure-static-analysis@gitlab.com>
 
 ## How We Work
 
@@ -106,9 +106,9 @@ We interpret prioritized themes as what we're being asked to deliver; we use the
 
 The planning issue serves multiple purposes:
 
- - Within the group and stable counterparts, the issue helps us identify and agree on the scope of work we seek to execute in the next milestone.
- - Outside the group, the issue communicates our priorities and what might be delivered during the milestone.
-   - Note: although we seek to deliver on our plans, the planning issue is not itself a _promise_ to deliver a given issue by a certain time.
+- Within the group and stable counterparts, the issue helps us identify and agree on the scope of work we seek to execute in the next milestone.
+- Outside the group, the issue communicates our priorities and what might be delivered during the milestone.
+  - Note: although we seek to deliver on our plans, the planning issue is not itself a _promise_ to deliver a given issue by a certain time.
 
 #### Planning issue format
 
@@ -367,18 +367,18 @@ If there is any question of whether a bug fix or improvement should be taken up 
 
 When a [Customer Success Escalation](/handbook/customer-success/csm/escalations/) is declared, the Engineering Manager and Product Manager should both be alerted, and an appropriate team member should be designated to deprioritize existing work and respond to the escalation as soon as possible.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="static analysis" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
 {{< /tableau >}}

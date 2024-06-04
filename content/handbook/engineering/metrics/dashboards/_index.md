@@ -51,40 +51,40 @@ Simply copy and paste this code into your page. It will save your selected filte
 
 ### Top Engineering Metrics Dashboard
 
-{{< tableau src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
 {{< /tableau >}}
 
 ### MR Types Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
 {{< /tableau >}}
 
 ### Development Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DevelopmentEmbeddedDashboard/DevelopmentEmbeddedDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DevelopmentEmbeddedDashboard/DevelopmentEmbeddedDashboard>" >}}
 {{< /tableau >}}
 
 ### Infrastucture Embedded Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureDashboards/InfrastructureEmbeddedDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureDashboards/InfrastructureEmbeddedDashboard>" >}}
 {{< /tableau >}}
 
 ### Open Bug Age Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OpenBugDashboards/OpenBugAgeOBADashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OpenBugDashboards/OpenBugAgeOBADashboard>" >}}
 {{< /tableau >}}
 
 ### S1 Open Customer Bug Age Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenCustomerBugAge" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenCustomerBugAge>" >}}
 {{< /tableau >}}
 
 ### S2 Open Customer Bug Age Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S2OpenCustomerBugAge" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S2OpenCustomerBugAge>" >}}
 {{< /tableau >}}
 
 ### Security Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/AppSecDashboards_17060230337410/AppSec-ApplicationandContainerVulnerabilityDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/AppSecDashboards_17060230337410/AppSec-ApplicationandContainerVulnerabilityDashboard>" >}}
 {{< /tableau >}}

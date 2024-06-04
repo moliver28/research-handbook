@@ -71,8 +71,8 @@ The planning stage occurs during 1:1s, bi-weekly sprint planning meetings, Slack
 - Who is requesting the automation project?
 - What are they requesting?
 - Why are they requesting this project?
-    - What efficiencies will be gained?
-    - How much time will be saved?
+  - What efficiencies will be gained?
+  - How much time will be saved?
 - When is this project expected to be completed by?
 - How is the automation expected to function?
 - What is the expected time savings? (If applicable)

@@ -13,16 +13,16 @@ This page is intended for helping find resources during emergencies. If this isn
 
 1. Label your issue to be triaged by the right team:
 
-  - For operational or configuration issues, label them `~"team::Database Reliability"`
-  - For issues related to the packaged Postgres in Omnibus/Charts, label them `~"group::distribution"`
-  - For application issues, label them for the team responsible for that feature.
-  - If you're not sure, take a look at the guide below for help identifying the right team.
+- For operational or configuration issues, label them `~"team::Database Reliability"`
+- For issues related to the packaged Postgres in Omnibus/Charts, label them `~"group::distribution"`
+- For application issues, label them for the team responsible for that feature.
+- If you're not sure, take a look at the guide below for help identifying the right team.
 
 1. If the issue is blocking or you need to escalate:
 
-  - For application issues, Post a detailed message in the channel for the team that is responsible for the related feature.
-  - For operational or configuration issues, post in [#g_infra_database_reliability](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) (internal)
-  - For issues related to the packaged Postgres in Omnibus/Charts, post in [#g_distribution](https://gitlab.enterprise.slack.com/archives/C1FCTU4BE) (internal)
+- For application issues, Post a detailed message in the channel for the team that is responsible for the related feature.
+- For operational or configuration issues, post in [#g_infra_database_reliability](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) (internal)
+- For issues related to the packaged Postgres in Omnibus/Charts, post in [#g_distribution](https://gitlab.enterprise.slack.com/archives/C1FCTU4BE) (internal)
 
 ### 1. Start
 
@@ -91,7 +91,7 @@ If it's still unclear what team to contact, go to [9. Escalating assistance](#9-
 
 Each database table has a documentation file that can be used to determine a corresponding group.
 
-1. Look for the corresponding file named `{table_name}.yml` in https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs
+1. Look for the corresponding file named `{table_name}.yml` in <https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs>
 1. In the file, find the list of related `feature_categories`
 1. Using the feature category, go to [8. Reach out to a team based on feature category](#8-reach-out-to-a-team-based-on-feature-category)
 1. If there is more than one category, pick one from the list and start with that team

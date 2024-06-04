@@ -106,4 +106,4 @@ The Leading Organizations program is a [top cross-functional initiative](/handbo
 
 [^1]: RedHat, The State of Enterprise Open Source (February 22, 2022). Available at: [https://www.redhat.com/en/resources/state-of-enterprise-open-source-report-2022](https://www.redhat.com/en/resources/state-of-enterprise-open-source-report-2022)
 [^2]: Nagle, Frank, Learning by Contributing: Gaining Competitive Advantage Through Contribution to Crowdsourced Public Goods (December 21, 2017). Available at SSRN: [https://ssrn.com/abstract=3091831](https://ssrn.com/abstract=3091831)
-[^3]: Tidelift, 2020 Managed Open Source Survey (October 2020). Available at Tidelift: https://tidelift.com/subscription/2020-managed-open-source-survey
+[^3]: Tidelift, 2020 Managed Open Source Survey (October 2020). Available at Tidelift: <https://tidelift.com/subscription/2020-managed-open-source-survey>

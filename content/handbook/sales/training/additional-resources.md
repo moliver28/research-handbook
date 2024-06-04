@@ -757,4 +757,4 @@ Even the best negotiators fall victim to one of these mistakes from time to time
 3. The best target accounts have at least 3 bullet points from the first two buckets, with at least one bullet point in the second bucket along with one of the following:
      - The company has targets with LinkedIn profiles that show an interest in the GitLab value proposition.
      - The company published something in its blog or social media that indicates a need for the GitLab value proposition.
-     - The company has a number of internal users of GitLab core or free plans; this can be seen via http://version.gitlab.com.
+     - The company has a number of internal users of GitLab core or free plans; this can be seen via <http://version.gitlab.com>.

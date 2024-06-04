@@ -86,7 +86,7 @@ The main goals for this rotation:
 
 ##### DRI Daily Tasks
 
-- Check https://staging.gitlab.com/admin/geo/nodes. If anything seems weird, ask about it in `#geo-for-gitlab-dot-com`. Cross-post in `#g_geo` if needed. Make sure anything important is addressed.
+- Check <https://staging.gitlab.com/admin/geo/nodes>. If anything seems weird, ask about it in `#geo-for-gitlab-dot-com`. Cross-post in `#g_geo` if needed. Make sure anything important is addressed.
 - Check Sentry. Right now there is a lot of noise, but it can help us identify some edge cases or if something is wrong under the hood.
 - Check for [triggered alerts](https://gitlab.com/gitlab-org/geo-team/geo-ci/-/alert_management). If any are found, follow the [documentation](scheduled_pipelines.html) for handling them
 

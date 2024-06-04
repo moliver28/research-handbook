@@ -145,7 +145,7 @@ In the event a team member requires a deviation from the standard course of busi
 
 Exception request approval requirements are documented within the issue template. The requester should tag the appropriate individuals who are required to provide an approval per the approval matrix.
 
-If the business wants to appeal an approval decision, such appeal will be sent to Legal at legal@gitlab.com. Legal will draft an opinion as to the proposed risks to the company if the deviation were to be granted. Legal’s opinion will be forwarded to the CEO and CFO for final disposition.
+If the business wants to appeal an approval decision, such appeal will be sent to Legal at <legal@gitlab.com>. Legal will draft an opinion as to the proposed risks to the company if the deviation were to be granted. Legal’s opinion will be forwarded to the CEO and CFO for final disposition.
 
 Any deviation approval must:
 

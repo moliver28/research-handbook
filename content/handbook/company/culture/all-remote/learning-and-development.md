@@ -190,9 +190,9 @@ The attendees are encouraged to collect notes in a Google document and distribut
 Example:
 
 - [Kubecon 2019 notes](https://docs.google.com/document/d/1CdcERqUJrSoyA6OU9D3CMz8SRYFbJwvcLJDtkgdSEsg/edit#heading=h.jki4vp3yq19q).  This document contains:
-    - Pictures of interesting slides
-    - Notes on those slides written by the conference attendees
-    - Links to interesting presentations and documents from the conference
+  - Pictures of interesting slides
+  - Notes on those slides written by the conference attendees
+  - Links to interesting presentations and documents from the conference
 - Link to document distributed to Slack channels for the Protect team and Engineering overall
 - Link to document added to [Engineering week in review](https://docs.google.com/document/d/1Oglq0-rLbPFRNbqCDfHT0-Y3NkVEiHj6UukfYijHyUs) document.
 

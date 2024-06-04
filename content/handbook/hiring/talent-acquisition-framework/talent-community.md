@@ -56,7 +56,7 @@ To send out a mass communication to the general Talent Community
 1. In the "Pools & Stages" section of the Greenhouse CRM, navigate to "GitLab Prospects" pool and select the member icon listed next to the number of prospects in that pool. Keep in mind, to view this entire pool, one must have Admin permissions enabled.
 1. Next, once all prospect applications are in view, navigate to the top right and select `Bulk Actions` > `Select All` > `Edit Selected` > `Email.`
 1. Once the email window populates, select the CRM email template that you're intending to send.
-1. Once a CRM email template is populated, select 'no-reply@gitlab.com' in the 'From' section.
+1. Once a CRM email template is populated, select '<no-reply@gitlab.com>' in the 'From' section.
 1. Scroll to the bottom of the window and select the box to `Update Prospect Pool and Stage`
 1. Ensure the Prospect Pool field is "GitLab Prospects"
 1. Change the Prospect Stage field to the stage of the email you're actively sending.
@@ -72,7 +72,7 @@ It is **required** we capture the following information in Greenhouse for all pr
 - [ ] Email Address
 - [ ] Current Resume or PDF of LinkedIn Profile
 - [ ] Locality
-     - Instructions: When making an assumption, default to a higher location factor. **Reminder:** this needs to be updated during the screening call if our assumption was incorrect.
+  - Instructions: When making an assumption, default to a higher location factor. **Reminder:** this needs to be updated during the screening call if our assumption was incorrect.
 
 Keep in mind, Tags can take care of other key pieces of information we may want to include on a prospect's profile.
 

@@ -54,8 +54,8 @@ In GitLab issues, questions should start by mentioning the Product Manager (`@gw
 
 | Goal | Status | Issue |
 | --------------- | ------ | ----- |
-| > 90% of issues correctly reflect their current Product Development Workflow stage | In Progress | https://gitlab.com/gitlab-org/plan/-/issues/442 |
-| Engineering committed issues in the current release have the `Deliverable` label applied by the 17th each month | In Progress | https://gitlab.com/gitlab-org/plan/-/issues/442 |
+| > 90% of issues correctly reflect their current Product Development Workflow stage | In Progress | <https://gitlab.com/gitlab-org/plan/-/issues/442> |
+| Engineering committed issues in the current release have the `Deliverable` label applied by the 17th each month | In Progress | <https://gitlab.com/gitlab-org/plan/-/issues/442> |
 
 ### How we work
 
@@ -149,6 +149,6 @@ Engineering team-members can shadow a product stable-counterpart. Shadowing sess
 ### Speed Runs
 
 - Labels
-    - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
+  - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
 - Issues
-    - [Description Change History](https://youtu.be/-JgfJSSLYlI)
+  - [Description Change History](https://youtu.be/-JgfJSSLYlI)

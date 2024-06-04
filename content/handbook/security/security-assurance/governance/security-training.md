@@ -31,7 +31,7 @@ GitLab security awareness training has been developed by [GitLab Security](/hand
   - [Acceptable Use](/handbook/people-group/acceptable-use-policy/)
   - [Device Lost or Stolen?!](/handbook/security#reporting-an-incident)
     - Slack: the `/security` Slack command
-    - Email (Emergencies-ONLY): panic@gitlab.com
+    - Email (Emergencies-ONLY): <panic@gitlab.com>
   - [Data Classification]({{< ref "data-classification-standard" >}})
   - [No Red Data on Unapproved Locations](/handbook/people-group/acceptable-use-policy/#security-and-proprietary-information)
 
@@ -41,7 +41,7 @@ You are strongly encouraged to engage the team behind the training and provide f
 
 1. A quarterly-reviewed GitLab [feedback issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-awareness-training/security-awareness-training-program/-/issues/13) for New Hire training.
 1. Annual security awareness training [feedback issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-awareness-training/security-awareness-training-program/-/issues/16).
-1. Sending an email to security-training@gitlab.com.
+1. Sending an email to <security-training@gitlab.com>.
 
 ## Secure Coding Training
 

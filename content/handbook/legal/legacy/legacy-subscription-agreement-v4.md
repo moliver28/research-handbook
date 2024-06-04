@@ -70,7 +70,7 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 “User(s)” is defined as the unique and single Individual, employee, Contractor, or other third party individual or machine authorized by Customer (in accordance with this Agreement) that requires the provision of a seat within the admin platform, who are able to access the Software purchased under a Subscription, regardless of whether the User actually accesses or the frequency with which they access the Software. A User must be over the age of thirteen (13)  years old.
 
-“Website” means GitLab’s website located at www.gitlab.com and all subdomains, and all content, services, documentation provided on the Website.
+“Website” means GitLab’s website located at <www.gitlab.com> and all subdomains, and all content, services, documentation provided on the Website.
 
 ### 2. SCOPE OF AGREEMENT
 
@@ -120,13 +120,13 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 (v) use the Software other than in compliance with all applicable laws and regulations;
 
-(vi) use the Software in any manner that: (a) is harmful, fraudulent, deceptive, threatening, abusive, harassing, tortious, defamatory, vulgar, obscene, or libelous (including without limitation, accessing any computer, computer system, network, software, or data without authorization, breaching the security of another user or system, and/or attempting to circumvent any User authentication or security process); (b) impersonates any person or entity, including without limitation any employee or representative of GitLab; (c) includes content, with respect to the use of SaaS Software, which is illegal or violates the GitLab Community Code of Conduct found here https://about.gitlab.com/community/contribute/code-of-conduct/, or (d) contains a virus, trojan horse, worm, time bomb, unsolicited bulk, commercial, or “spam” message, or other harmful computer code, file, or program (including without limitation, password guessing programs, decoders, password gatherers, keystroke loggers, cracking tools, packet sniffers, and/or encryption circumvention programs); and
+(vi) use the Software in any manner that: (a) is harmful, fraudulent, deceptive, threatening, abusive, harassing, tortious, defamatory, vulgar, obscene, or libelous (including without limitation, accessing any computer, computer system, network, software, or data without authorization, breaching the security of another user or system, and/or attempting to circumvent any User authentication or security process); (b) impersonates any person or entity, including without limitation any employee or representative of GitLab; (c) includes content, with respect to the use of SaaS Software, which is illegal or violates the GitLab Community Code of Conduct found here <https://about.gitlab.com/community/contribute/code-of-conduct/>, or (d) contains a virus, trojan horse, worm, time bomb, unsolicited bulk, commercial, or “spam” message, or other harmful computer code, file, or program (including without limitation, password guessing programs, decoders, password gatherers, keystroke loggers, cracking tools, packet sniffers, and/or encryption circumvention programs); and
 
 (vii) except to the extent permitted by applicable law, disassemble, reverse engineer, or decompile the Software or access it to: (a) build a competitive product or service, (b) build a product or service using similar ideas, features, functions or graphics of the Software, (c) copy any ideas, features, functions or graphics of the Software, or (d) determine whether the Software are within the scope of any patent.
 
 5.2 Nothing in this Agreement shall prohibit Customer from using the Software for benchmark testing or comparative analysis. Customer will comply with all applicable data privacy and security laws and shall have appropriate technological, administrative, and physical controls in place to ensure such compliance.
 
-5.3 In addition to the obligations set forth in Section 5.4, and subject to the rights set forth in Section 5.7,  Customer shall ensure the collection of data as required in order to use the Software (“Subscription Data”) shall remain unchanged. An overview of the Subscription Data can be found at https://metrics.gitlab.com/?q=subscription.
+5.3 In addition to the obligations set forth in Section 5.4, and subject to the rights set forth in Section 5.7,  Customer shall ensure the collection of data as required in order to use the Software (“Subscription Data”) shall remain unchanged. An overview of the Subscription Data can be found at <https://metrics.gitlab.com/?q=subscription>.
 
 5.4 In accordance with this Agreement, GitLab has the right to verify electronically (or otherwise), and generate reports related to Customer’s installation of, access to, and use of the Software to ensure compliance with the terms of this Agreement. Customer shall maintain Customer Records during the term of this Agreement and for two (2) years thereafter.  GitLab may, upon thirty (30) days’ prior written notice to Customer and during Customer’s normal business hours and subject to industry-standard confidentiality obligations, hire an independent third-party auditor to audit the Customer Records only to verify the amounts payable under this Agreement with respect to Customer usage of the Software.  If an audit reveals underpayment, Customer shall promptly pay the deficiency to GitLab plus late fees pursuant to Section 6.  GitLab shall bear the cost of an audit unless the audit reveals underpayment by more than 5% for the audited period, in which case Customer shall promptly pay GitLab for the reasonable costs of the audit.
 
@@ -136,9 +136,9 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 (ii) any acts or omissions carried out by Contractors on Customer’s behalf. Customer shall ensure that Contractors are subject to terms no less stringent than those stated herein.
 
-5.6 Subject to this Agreement and the applicable Order Form, GitLab will provide Customer Support to Customer for the Subscriptions, during the Subscription Term, at no additional cost. Details regarding Customer Support can be found in Appendix 1, as well as at https://about.gitlab.com/support, as updated from time to time.
+5.6 Subject to this Agreement and the applicable Order Form, GitLab will provide Customer Support to Customer for the Subscriptions, during the Subscription Term, at no additional cost. Details regarding Customer Support can be found in Appendix 1, as well as at <https://about.gitlab.com/support>, as updated from time to time.
 
-5.7 Portions of the Software are governed by underlying open source licenses as described at https://docs.gitlab.com/ee/development/licensing.html. This Agreement and applicable Appendix(eces) establish the rights and obligations associated with Subscriptions and Software and are not intended to limit Customer’s right to software code under the terms of an open source license.
+5.7 Portions of the Software are governed by underlying open source licenses as described at <https://docs.gitlab.com/ee/development/licensing.html>. This Agreement and applicable Appendix(eces) establish the rights and obligations associated with Subscriptions and Software and are not intended to limit Customer’s right to software code under the terms of an open source license.
 
 5.8 Customer acknowledges and agrees that:
 
@@ -247,7 +247,7 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 14.1 Without limiting GitLab’s obligations as stated in Section 7 (Confidentiality), GitLab shall be responsible for establishing and maintaining a commercially reasonable information security program that is designed to: (i) ensure the security and confidentiality of the Customer Content; (ii) protect against any anticipated threats or hazards to the security or integrity of the Customer Content; (iii) protect against unauthorized access to, or use of, the Customer Content; and (iv) ensure that all subcontractors of GitLab, if any, comply with all of the foregoing. In no case shall the safeguards of GitLab’s information security program be less stringent than the information security safeguards used by GitLab to protect its own commercially sensitive data. Customer shall use commercially reasonable security and anti-virus measures when accessing and using the Software and to prevent unauthorized access to, or use of the Software, and notify GitLab promptly of any such unauthorized access or use of which it becomes aware.
 
-14.2 With respect to the protection of information, the GitLab Privacy Statement located here https://about.gitlab.com/privacy/, shall apply. If this Agreement is entered into on behalf of an Enterprise, the terms of the data processing addendum at https://about.gitlab.com/handbook/legal/data-processing-agreement/ (“DPA”) are hereby incorporated by reference and shall apply to the extent Customer Content includes Personal Data, as defined in the DPA. To the extent Personal Data from the European Economic Area (EEA), the United Kingdom and Switzerland are processed by GitLab, the Standard Contractual Clauses shall apply, as further set forth in the DPA. For the purposes of the Standard Contractual Clauses, Customer and its applicable Affiliates are each the data exporter, and Customer's acceptance of this Agreement, and an applicable Affiliate's execution of an Order Form, shall be treated as its execution of the Standard Contractual Clauses.
+14.2 With respect to the protection of information, the GitLab Privacy Statement located here <https://about.gitlab.com/privacy/>, shall apply. If this Agreement is entered into on behalf of an Enterprise, the terms of the data processing addendum at <https://about.gitlab.com/handbook/legal/data-processing-agreement/> (“DPA”) are hereby incorporated by reference and shall apply to the extent Customer Content includes Personal Data, as defined in the DPA. To the extent Personal Data from the European Economic Area (EEA), the United Kingdom and Switzerland are processed by GitLab, the Standard Contractual Clauses shall apply, as further set forth in the DPA. For the purposes of the Standard Contractual Clauses, Customer and its applicable Affiliates are each the data exporter, and Customer's acceptance of this Agreement, and an applicable Affiliate's execution of an Order Form, shall be treated as its execution of the Standard Contractual Clauses.
 
 14.3 The parties acknowledge and agree that, (i) the Software is not designed for the purpose(s) of storing, processing, compiling or transmitting Sensitive Data (as defined herein), and (ii) Customer shall not use the Software, or otherwise provide to GitLab without prior written consent, Sensitive Data under this Agreement. “Sensitive Data” means: (a) special categories of data enumerated in European Union Regulation 2016/679, Article 9(1) or any successor legislation; (b) patient, medical, or other protected health information regulated by the Health Insurance Portability and Accountability Act (as amended and supplemented) (“HIPAA”); (c) credit, debit, or other payment card data or financial account information, including bank account numbers or other personally identifiable financial information; (d) social security numbers, driver’s license numbers, or other government identification numbers; (e) other information subject to regulation or protection under specific laws such as the Children’s Online Privacy Protection Act or Gramm-Leach-Bliley Act (“GLBA”) (or related rules or regulations); or (f) any data similar to the above protected under foreign or domestic laws. Customer further acknowledges that the Software and related features are not intended to meet any legal obligations for these uses, including HIPAA and GLBA requirements, and that GitLab is not a Business Associate as defined under HIPAA. Therefore, notwithstanding anything else in this Agreement, GitLab has no liability for Sensitive Data processed in connection with Customer’s use of  the Software.
 
@@ -265,7 +265,7 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 15.5 In any action or proceeding to enforce rights under this Agreement, the prevailing party will be entitled to recover costs and attorneys’ fees.
 
-15.6 All notices under this Agreement will be in writing and will be deemed to have been duly given when received, if personally delivered; when receipt is electronically confirmed, if transmitted by facsimile or e-mail; and upon receipt, if sent by certified or registered mail (return receipt requested), postage prepaid. Any notices to GitLab shall also include a copy to legal@gitlab.com.
+15.6 All notices under this Agreement will be in writing and will be deemed to have been duly given when received, if personally delivered; when receipt is electronically confirmed, if transmitted by facsimile or e-mail; and upon receipt, if sent by certified or registered mail (return receipt requested), postage prepaid. Any notices to GitLab shall also include a copy to <legal@gitlab.com>.
 
 15.7 In addition to any rights that accrued prior to termination, the provisions of Sections 3.3, and 5 through 15 shall survive any termination of this Agreement.
 
@@ -280,19 +280,19 @@ Fees for the Subscriptions are based upon the number of Users and the applicable
 | Subscription*                          | Level of Support (*First Response Time*)            | Support Details                                                                                        |
 |----------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Free *(Formerly "Core" or "Free")*     | GitLab Community Forum                              |                                                                                                        |
-| Starter *(F.K.A "Basic" or "Bronze")*  | GitLab Standard Support                             | 24 x 5 Support Next business day response (24 hour SLA) Submit Tickets at https://support.gitlab.com |
-| Premium *(Formerly Premium or Silver)* | Priority Support (Based upon Support Impact ******) | See Priority Support Overview https://support.gitlab.com                                               |
-| Ultimate *(Formerly Gold or Ultimate)* | Priority Support (Based upon Support Impact**)      | See Priority Support Overview https://support.gitlab.com                                               |
+| Starter *(F.K.A "Basic" or "Bronze")*  | GitLab Standard Support                             | 24 x 5 Support Next business day response (24 hour SLA) Submit Tickets at <https://support.gitlab.com> |
+| Premium *(Formerly Premium or Silver)* | Priority Support (Based upon Support Impact ******) | See Priority Support Overview <https://support.gitlab.com>                                               |
+| Ultimate *(Formerly Gold or Ultimate)* | Priority Support (Based upon Support Impact**)      | See Priority Support Overview <https://support.gitlab.com>                                               |
 
 *Note: Subscription names are subject to change, however, the applicable Subscription for that Tier shall remain the same during a Subscription Term.
 
-**Support Impact categories are defined at: https://about.gitlab.com/support/definitions/#definitions-of-support-impact
+**Support Impact categories are defined at: <https://about.gitlab.com/support/definitions/#definitions-of-support-impact>
 
-**PRIORITY SUPPORT OVERVIEW:** https://about.gitlab.com/support/#priority-support
+**PRIORITY SUPPORT OVERVIEW:** <https://about.gitlab.com/support/#priority-support>
 
 **CUSTOMER SUCCESS SERVICES**
 
-- Customer Success Services include additional assistance with respect to Customer’s use of the GitLab Software. Customer Success Services are provided at no charge, an overview of the Customer Success Services can be found at https://about.gitlab.com/services/customer-success-services/. In order to receive Customer Success Service(s), Customer understands that additional data and information (“Operational Data”) will be collected. An overview of Operational Data can be found at: https://gitlab-org.gitlab.io/growth/product-intelligence/metric-dictionary/?data_category=operational.
+- Customer Success Services include additional assistance with respect to Customer’s use of the GitLab Software. Customer Success Services are provided at no charge, an overview of the Customer Success Services can be found at <https://about.gitlab.com/services/customer-success-services/>. In order to receive Customer Success Service(s), Customer understands that additional data and information (“Operational Data”) will be collected. An overview of Operational Data can be found at: <https://gitlab-org.gitlab.io/growth/product-intelligence/metric-dictionary/?data_category=operational>.
 
 ## APPENDIX 2: Software as a Service (SaaS) Offering
 
@@ -300,11 +300,11 @@ With respect to Customer’s purchase and/or use of the SaaS Software , the foll
 
 #### AVAILABILITY
 
-Availability to the SaaS Software will be measured, and reported on, by GitLab using instrumentation and observation tools specifically designed to provide a representative measure of service availability. Recent status, references to availability measurement definition, and historical reporting will be available at or linked from the GitLab system status site located at https://about.gitlab.com/handbook/engineering/monitoring/#gitlabcom-service-level-availability.
+Availability to the SaaS Software will be measured, and reported on, by GitLab using instrumentation and observation tools specifically designed to provide a representative measure of service availability. Recent status, references to availability measurement definition, and historical reporting will be available at or linked from the GitLab system status site located at <https://about.gitlab.com/handbook/engineering/monitoring/#gitlabcom-service-level-availability>.
 
 #### RESILIENCY
 
-GitLab will architect and maintain an underlying cloud infrastructure with commercially reasonable resiliency for all data, compute, and network services. At a minimum, GitLab will maintain the highest documented level of “GitLab Reference Architecture” as detailed at https://docs.gitlab.com.
+GitLab will architect and maintain an underlying cloud infrastructure with commercially reasonable resiliency for all data, compute, and network services. At a minimum, GitLab will maintain the highest documented level of “GitLab Reference Architecture” as detailed at <https://docs.gitlab.com>.
 
 #### BACKUPS
 

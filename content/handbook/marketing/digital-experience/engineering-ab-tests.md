@@ -59,8 +59,8 @@ Our AB tests include two files, the control and the test variant. Both exist on 
 
 ### Running test on the Buyer's Experience repository
 
-* Developer notes on running an experiment: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/docs/plugins.md
-* Example MR for an AB test: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/merge_requests/258
+* Developer notes on running an experiment: <https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/docs/plugins.md>
+* Example MR for an AB test: <https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/merge_requests/258>
 * Video Explanation: [https://www.youtube.com/watch?v=F1tlCZgYUqQ](https://www.youtube.com/watch?v=F1tlCZgYUqQ)
 
 ### Running test on the `www` repository
@@ -80,11 +80,11 @@ This can be overridden by optional URL parameters as exhibited in the codepaths 
 
 #### Additional Notes
 
-* Previous solution: `run-experiments.js` from www: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/javascripts/run-experiment.js
-* Originally tried to bring this file over and integrate it as a nuxt plugin in this MR: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/merge_requests/224/diffs#8f8555baf29e37a194c0d155b0001e82de21ddbf
-* Our buyer’s experience repository is a JS pre-rendered site with TS support, so this would be a good candidate for interacting with their SDK TS directly: https://docs.launchdarkly.com/sdk/client-side/javascript#getting-started
-* Initialize client, helper function to evaluate feature flag value: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/plugins/launchdarkly.ts
-* Higher order component with control and experiment slots: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/components/launch-darkly.vue
+* Previous solution: `run-experiments.js` from www: <https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/javascripts/run-experiment.js>
+* Originally tried to bring this file over and integrate it as a nuxt plugin in this MR: <https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/merge_requests/224/diffs#8f8555baf29e37a194c0d155b0001e82de21ddbf>
+* Our buyer’s experience repository is a JS pre-rendered site with TS support, so this would be a good candidate for interacting with their SDK TS directly: <https://docs.launchdarkly.com/sdk/client-side/javascript#getting-started>
+* Initialize client, helper function to evaluate feature flag value: <https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/plugins/launchdarkly.ts>
+* Higher order component with control and experiment slots: <https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/components/launch-darkly.vue>
 
 ## Why did we choose LaunchDarkly
 

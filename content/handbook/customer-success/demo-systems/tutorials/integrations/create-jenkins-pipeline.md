@@ -27,7 +27,7 @@ If you're using your own existing project, please follow the instructions in **O
 
 #### Option A: Create a new project using the tutorial app template
 
-1. Visit https://gitlab-core.us.gitlabdemo.cloud and sign in with your Demo Cloud SSO credentials.
+1. Visit <https://gitlab-core.us.gitlabdemo.cloud> and sign in with your Demo Cloud SSO credentials.
 1. [Create a new project](https://gitlab-core.us.gitlabdemo.cloud/projects/new) and select the **Create from template** tab.
 1. In the list of available projects, select the **Instance** tab.
 1. Find `Tutorial App - Jenkins Pipeline` and click the **Use template** button.

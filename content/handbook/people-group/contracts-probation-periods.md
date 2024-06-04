@@ -65,7 +65,7 @@ GitLab does not currently require subsequent background screenings, or re-screen
 
 The Candidate Experience Specialists will [initiate](/handbook/hiring/talent-acquisition-framework/coordinator/#background-screenings) all employment verifications and background screenings for candidates. The Senior Background Check Specialist will initiate any applicable retroactive background screenings or requested enhanced background screenings for current team members.
 
-Please contact the Senior Background Check Specialist at backgroundchecks@gitlab.com regarding any questions.
+Please contact the Senior Background Check Specialist at <backgroundchecks@gitlab.com> regarding any questions.
 
 #### Disclosure and Authorization
 
@@ -264,7 +264,7 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 - Note: A second [probation period](#probation-period) should only be implemented if the team member's new contract reflects the start of an [entirely new role](https://wsadvocaten.nl/probationary-period-netherlands-dutch-law/). If the contract is simply a continuation of employment in the current role, a second probation period should not be applied.
 - Remove any wording regarding certificate of good conduct, as this was already requested as part of their first Netherlands contract.
 
-1. The People Connect team member stages the contract via Docusign for the [GitLab signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) and the team member to sign. Add hr@savvy-group.eu to 'Receive a copy' once signed.
+1. The People Connect team member stages the contract via Docusign for the [GitLab signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) and the team member to sign. Add <hr@savvy-group.eu> to 'Receive a copy' once signed.
 
 - If another temporary contract is issued follow [these steps](https://gl-people-operations.gitlab.io/internal-handbook/people_connect/lead/#netherlands-renewal-process---temporary-contracts) and include the mentioned message when sending the contract via DocuSign
 

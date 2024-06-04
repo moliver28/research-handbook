@@ -42,8 +42,8 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 - The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [GitLab provides](https://about.gitlab.com/solutions/agile-delivery/)
 - The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
-   - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
-   - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
+  - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
+  - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
 
 ### Steps to getting help from Sales Systems
 
@@ -285,9 +285,9 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 
 |Sandbox name|Classic URL|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|Zuora Billing Sandbox|Zuora Billing Sandbox Tenant ID|
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|[Developer](https://gitlab--developer.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--developer.sandbox.lightning.force.com%252Flightning%252Fsetup%252FManageUsers%252Fpage%253Faddress%253D%25252F005PL0000000MuzYAE%25253Fnoredirect%25253D1%252526isUserEntityOverride%25253D1%252526retURL%25253D%2525252Fsetup%2525252Fhome)|https://gitlab--developer.sandbox.my.salesforce.com/home/home.jsp?source=lex|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|TBD|Developer Sandbox (i.e. "Dev Sandbox")|10002574|
-|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--staging.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--staging.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|11/11/2022 |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000796|
-|[LIGHTNING](https://gitlab--lightning.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--lightning.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--lightning.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|03/26/2024|TBD|Central Sandbox 2|10000719|
+|[Developer](https://gitlab--developer.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--developer.sandbox.lightning.force.com%252Flightning%252Fsetup%252FManageUsers%252Fpage%253Faddress%253D%25252F005PL0000000MuzYAE%25253Fnoredirect%25253D1%252526isUserEntityOverride%25253D1%252526retURL%25253D%2525252Fsetup%2525252Fhome)|<https://gitlab--developer.sandbox.my.salesforce.com/home/home.jsp?source=lex>|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|TBD|Developer Sandbox (i.e. "Dev Sandbox")|10002574|
+|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--staging.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|<https://gitlab--staging.sandbox.my.salesforce.com/home/home.jsp?source=lex>|Full|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|11/11/2022 |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000796|
+|[LIGHTNING](https://gitlab--lightning.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--lightning.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|<https://gitlab--lightning.sandbox.my.salesforce.com/home/home.jsp?source=lex>|Full|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|03/26/2024|TBD|Central Sandbox 2|10000719|
 
 ### Data, Data Uploads & Permissions
 
@@ -322,8 +322,8 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 #### Data Upload Training & Setup
 
 - Prior to being permitted to utilize the Data Loader all users must review the [Data Loader Documentation provided by Salesforce](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/data_loader.htm)
-   - Key Highlights:
-      - [Data Loader Configuration](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/configuring_the_data_loader.htm) especially as it pertains to batch size and to working with Null values. This should be reviewed and confirmed prioir to every Data Upload
+  - Key Highlights:
+    - [Data Loader Configuration](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/configuring_the_data_loader.htm) especially as it pertains to batch size and to working with Null values. This should be reviewed and confirmed prioir to every Data Upload
 - To install, uninstall, or upgrade Dataloader, [follow our instructions](dataloader-installation.html)
 
 ### SFDC Development Guidelines
@@ -492,12 +492,12 @@ The pipeline performs the following action:
 - This validation deployment will compile all ApexClass, ApexTrigger, ApexComponent, and ApexPage objects found in the new commit source branch.
 - If the compile succeeds, all unit tests in the SANDBOX org will be executed to confirm all unit tests are passing.
 - If the compile or unit tests fails, the pipeline will spit out the errors as individual line items in the output of the job.
-    - The MR will then be blocked from merging.
+  - The MR will then be blocked from merging.
 - If the compile succeeds and unit tests pass, the MR will be cleared for merging after code review is complete.
-    - The pipeline will also allow for the user to trigger a deployment of the source code to the STAGING environment.
-    - This is a manual process for now (see [What's next?](#whats-next)) and will be triggered by the person who is merging the MR once the merge has completed.
-        - The team decided to leave this step manual so that we have flexibility on deployments in case multiple MRs were being merged simultaneously.
-        - In this scenario, we will only deploy the last MR as it will have the final complete 'master' branch will all previous MRs merged.
+  - The pipeline will also allow for the user to trigger a deployment of the source code to the STAGING environment.
+  - This is a manual process for now (see [What's next?](#whats-next)) and will be triggered by the person who is merging the MR once the merge has completed.
+    - The team decided to leave this step manual so that we have flexibility on deployments in case multiple MRs were being merged simultaneously.
+    - In this scenario, we will only deploy the last MR as it will have the final complete 'master' branch will all previous MRs merged.
 
 ### Benefits of the pipeline
 

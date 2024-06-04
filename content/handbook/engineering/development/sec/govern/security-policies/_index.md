@@ -6,7 +6,7 @@ layout: single
 
 ## Mission
 
-The Security Policies group's mission is to provide security and compliance teams with a way to enforce security controls globally in their organization. With tools developed by our team, customers can prevent security risks by enforcing and automating security scans and requiring security approvals for proposed changes in their repository. For a comprehensive understanding of our vision and direction, we invite you to visit the Direction page at https://about.gitlab.com/direction/govern/security_policies/security_policy_management.
+The Security Policies group's mission is to provide security and compliance teams with a way to enforce security controls globally in their organization. With tools developed by our team, customers can prevent security risks by enforcing and automating security scans and requiring security approvals for proposed changes in their repository. For a comprehensive understanding of our vision and direction, we invite you to visit the Direction page at <https://about.gitlab.com/direction/govern/security_policies/security_policy_management>.
 
 ## Top Priorities FY25
 
@@ -28,7 +28,7 @@ The Security Policies group's mission is to provide security and compliance team
 
 * Slack channel: `#g_govern_security_policies`
 * Slack alias: @govern_security_policies_be, @govern_security_policies_fe
-* Google groups: sec-govern-security-policies@gitlab.com
+* Google groups: <sec-govern-security-policies@gitlab.com>
 
 ## How we work
 
@@ -43,19 +43,19 @@ We use our [Security Policies Priorities](https://about.gitlab.com/direction/gov
 
 Complete items are removed from the table once the code is in production without a feature flag, and a release post, if applicable, has been merged. The epic is closed at this point.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="security policies" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="security policies" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="security policies" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="security policies" >}}
 {{< /tableau >}}
 
@@ -82,7 +82,7 @@ We follow these guidelines when submitting MRs for review when the change is wit
 ### Issue Boards
 
 * [Security Policies Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754674?milestone_title=Started)
-   * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
+  * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
 * [Security Policies Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420731?label_name%5B%5D=group%3A%3Asecurity%20policies)
   * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
 * [Security Policies EM Board](https://gitlab.com/groups/gitlab-org/-/boards/4738985)

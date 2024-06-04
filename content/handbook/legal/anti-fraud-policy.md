@@ -43,10 +43,10 @@ All Team Members and Directors, regardless of position or title, have a stewards
 - If the Team Member has reason to believe their direct supervisor may be involved in fraudulent activity, the Team Member is obligated to report the activity to the CLO.
 - The reporting Team Member shall refrain from discussing the matter with any Team Member unless directed to do so by the CLO.
 - You may report the matter confidentially by directly contacting your direct supervisor (who shall notify the CLO) or the CLO or confidentially and anonymously via EthicsPoint (as more fully described in the Code of Business Conduct and Ethics). EthicsPoint toll free numbers and other methods of reporting are available 24 hours a day, 7 days a week for use by Team Members:
-    - Website: [http://gitlab.ethicspoint.com/](http://gitlab.ethicspoint.com/)
-    - Mobile intake site: [http://m.gitlab.ethicspoint.com/](http://m.gitlab.ethicspoint.com/)
-    - USA Telephone: toll-free at 1-833-756-0853
-    - All other countries: to view phone numbers, please see web intake site and select the country in which you are located from the drop-down menu. If your country is not listed, please select the “Make a Report” link at the top of the page to access the confidential reporting tool.
+  - Website: [http://gitlab.ethicspoint.com/](http://gitlab.ethicspoint.com/)
+  - Mobile intake site: [http://m.gitlab.ethicspoint.com/](http://m.gitlab.ethicspoint.com/)
+  - USA Telephone: toll-free at 1-833-756-0853
+  - All other countries: to view phone numbers, please see web intake site and select the country in which you are located from the drop-down menu. If your country is not listed, please select the “Make a Report” link at the top of the page to access the confidential reporting tool.
 - All Team Members shall cooperate fully with any investigation performed by GitLab (or its representatives including outside counsel) and/or law enforcement officials.
 
 ### NON-RETALIATION POLICY
@@ -64,7 +64,7 @@ Each Team Member who is a manager is responsible for detecting and preventing fr
 
 ### CONFIDENTIALITY
 
-All participants in a fraud investigation shall treat all information received confidentially. A person reporting suspected fraud may remain anonymous except as otherwise required by law. Investigation results will not be disclosed or discussed with anyone other than those who have a legitimate need to know. Any Team Member or Director contacted by the media with respect to a fraud investigation shall refer the media person to GitLab’s public relations team at press@gitlab.com.
+All participants in a fraud investigation shall treat all information received confidentially. A person reporting suspected fraud may remain anonymous except as otherwise required by law. Investigation results will not be disclosed or discussed with anyone other than those who have a legitimate need to know. Any Team Member or Director contacted by the media with respect to a fraud investigation shall refer the media person to GitLab’s public relations team at <press@gitlab.com>.
 
 ### INVESTIGATION AND DISCIPLINE
 

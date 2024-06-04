@@ -33,7 +33,7 @@ The whole body of work covering the Monte Carlo rollout at GitLab falls under ep
 
 ## Logging In
 
-Login to Monte Carlo is done via Okta. Go to https://getmontecarlo.com/signin.
+Login to Monte Carlo is done via Okta. Go to <https://getmontecarlo.com/signin>.
 The following screen appears upon login and after providing your email and clicking "Sign in with SSO", you should be redirected to your Okta login.
 Please note, you need to login via SSO and not via username/password.
 
@@ -43,7 +43,7 @@ A runbook of how everything is technically set up can be found in the [Monte Car
 
 The gist of it is that there is an Okta Group called `okta-montecarlo-users` that is maintained by the Data team and has the Monte Carlo app assigned to it.
 In order to be able to access Monte Carlo via Okta by default, your user should be part of the `okta-montecarlo-users` group.
-For that you should submit an AR (similar ARs: [Example AR 1]](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22860), [Example AR 2](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22878)) and assign it to Rigerta Demiri (@rigerta) or ping the #data channel linking the AR.
+For that you should submit an AR (similar ARs: [Example AR 1]](<https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22860>), [Example AR 2](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/22878)) and assign it to Rigerta Demiri (@rigerta) or ping the #data channel linking the AR.
 
 ## Navigating the UI
 

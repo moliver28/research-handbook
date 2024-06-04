@@ -39,5 +39,5 @@ Advisors & allies: Could be you!
 
 - Join our Slack channel #career-enablement-tmag
 - Issue label: Early-Career-TMDG
-- Email: earlycareertmdg@gitlab.com
+- Email: <earlycareertmdg@gitlab.com>
 - Sign up to get meeting invites by joining the GitLab [Early Career Professionals Google Group](https://groups.google.com/a/gitlab.com/g/earlycareertmdg)

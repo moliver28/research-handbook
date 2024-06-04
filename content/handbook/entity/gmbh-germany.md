@@ -31,18 +31,18 @@ The plans are administered by our German Brokers at WTW.  Please see below and t
 Team members can also email this form directly to WTW  to obtain further support for the insurance tariff for salary sacrifice or request a consultation appointment with a WTW expert if needed:
     Dagmar Hirner
     T +49 611 794 4462
-    E meinebAV@wtwco.com
+    E <meinebAV@wtwco.com>
 
-1. **Effective 2023-04 Support Fund Enrollment: Current full-time eligible Team Members will automatically be enrolled into the Support Fund as of 2023-04. Eligible full-time New Team Members will automatically be enrolled in the Support Fund, with their effective date being the following month their start date** (new team members in 2023-05, will be enrolled starting in 2023-06). If for any reason a Team Member wishes to opt out of the Support Fund, please notify Total-Rewards@gitlab.com.
+1. **Effective 2023-04 Support Fund Enrollment: Current full-time eligible Team Members will automatically be enrolled into the Support Fund as of 2023-04. Eligible full-time New Team Members will automatically be enrolled in the Support Fund, with their effective date being the following month their start date** (new team members in 2023-05, will be enrolled starting in 2023-06). If for any reason a Team Member wishes to opt out of the Support Fund, please notify <Total-Rewards@gitlab.com>.
 1. **Starting 2023-05 Direct Insurance Enrollment: Team Members who wish to enroll in the Direct Insurance Plan starting on 2023-05 or on a future month will need to**:
     - (1) **Complete the [Direct Insurance agreement](https://drive.google.com/file/d/1xHrUyRKjb9vISSdIBRha7pqOqmSLbInR/view?usp=sharing) with your desired contribution**
-    - (2) **Send it to Total-Rewards@gitlab.com and meinebAV@wtwco.com before the 5th of the month**. Following receipt, the Benefits Team will countersign and send to WTW to confirm your enrollment.
+    - (2) **Send it to <Total-Rewards@gitlab.com> and <meinebAV@wtwco.com> before the 5th of the month**. Following receipt, the Benefits Team will countersign and send to WTW to confirm your enrollment.
 
 - **Please note: you can choose to update your elections or enroll in the Direct Insurance Plan at any time throughout the year.** If a team member notifies Total Rewards before the 5th of the month that they want to join or change their Direct Insurance Plan election - their enrollment/changes will be reflected on the 1st of the current month. If they notify TR after the 5th of the month, enrollment/changes will be reflected the 1st of the following month.
 
-- If there are any questions regarding the Direct Insurance plan or specific inquiries on your enrollment - please reach out our Pension Plan designated expert, meinebAV@wtwco.com, who will be able to further support via email or schedule a call/meeting/consultation, cc’ing total-rewards@gitlab.com
-- Team members can also email this [form](https://drive.google.com/file/d/1YFWOK4Wsh3g8bU4EMVwYvZyfyHqvES1V/view?usp=sharing) directly to WTW (meinebAV@wtwco.com) to obtain a quote for the salary sacrifice on the direct insurance plan.
-- Team Members should expect a contract (for their reference/records) from Allianz via post mail within 8 weeks of enrollment. If a team member does not receive a contract within the first 2 months of enrollment, please contact meinebAV@wtwco.com.
+- If there are any questions regarding the Direct Insurance plan or specific inquiries on your enrollment - please reach out our Pension Plan designated expert, <meinebAV@wtwco.com>, who will be able to further support via email or schedule a call/meeting/consultation, cc’ing <total-rewards@gitlab.com>
+- Team members can also email this [form](https://drive.google.com/file/d/1YFWOK4Wsh3g8bU4EMVwYvZyfyHqvES1V/view?usp=sharing) directly to WTW (<meinebAV@wtwco.com>) to obtain a quote for the salary sacrifice on the direct insurance plan.
+- Team Members should expect a contract (for their reference/records) from Allianz via post mail within 8 weeks of enrollment. If a team member does not receive a contract within the first 2 months of enrollment, please contact <meinebAV@wtwco.com>.
 
 ### Plan Design
 
@@ -61,14 +61,14 @@ New Joiners to the plan will always be automatically enrolled effective the foll
 
 ### Support Fund Enrollment
 
-**Support Fund Enrollment: Current Team Members will automatically be enrolled into the Support Fund as of April 2023. New Team Members will automatically be enrolled in the Support Fund, with their effective date being the following month after their start.** If for any reason a Team Member wishes to opt out of the Support Fund, please notify Total-Rewards@gitlab.com.
+**Support Fund Enrollment: Current Team Members will automatically be enrolled into the Support Fund as of April 2023. New Team Members will automatically be enrolled in the Support Fund, with their effective date being the following month after their start.** If for any reason a Team Member wishes to opt out of the Support Fund, please notify <Total-Rewards@gitlab.com>.
 
 Total Rewards will notify the Non-US Payroll Team, who will start deductions from your paycheck and WTW will notify Allianz to enroll you into the plan. Team Members should expect a contract from Allianz via post mail within 8 weeks of enrollment.
-If a team member does not receive a contract within the first 2 months of enrollment, please contact .meinebAV@wtwco.com
+If a team member does not receive a contract within the first 2 months of enrollment, please contact <.meinebAV@wtwco.com>
 
 ### Enrolling or Changing Your Contributions into Direct Insurance
 
-Team members interested in enrolled into the Direct Insurance Plan will need to **complete the [Direct Insurance agreement](https://drive.google.com/file/d/1xHrUyRKjb9vISSdIBRha7pqOqmSLbInR/view?usp=sharing) with your desired contribution** and send it to Total-Rewards@gitlab.com and meinebAV@wtwco.com before the 5th of the month.
+Team members interested in enrolled into the Direct Insurance Plan will need to **complete the [Direct Insurance agreement](https://drive.google.com/file/d/1xHrUyRKjb9vISSdIBRha7pqOqmSLbInR/view?usp=sharing) with your desired contribution** and send it to <Total-Rewards@gitlab.com> and <meinebAV@wtwco.com> before the 5th of the month.
 Following receipt, the Benefits Team will countersign and confirm with WTW on your updated contribution change. **As a reminder team members must elect at least 1% to receive the Employer Match.**
 
 If a Team member notifies Total Rewards before the 5th of the month that they want to change their Direct Insurance Plan contributions, changes will be reflected on the 1st of the current month. If they notify Total Rewards after the 5th of the month enrollment/changes will be reflected the 1st of the following  month. Total Rewards will inform WTW and Non-US Payroll of the change and when to update the change.
@@ -91,7 +91,7 @@ Contributions will cease the month after the team member goes on leave.  – For
 
 ### Team Member Leaving the Company
 
-When a team member leaves the company, Total-Rewards will notify Allianz of the GitLab alumni’s leave date. The alumni can then expect a letter from Allianz with instructions on how to update the insurer of the pension plan from GitLab to the Team Member. Please contact meinebAV@wtwco.com, if you have any questions or may not have received your letter from Allianz.
+When a team member leaves the company, Total-Rewards will notify Allianz of the GitLab alumni’s leave date. The alumni can then expect a letter from Allianz with instructions on how to update the insurer of the pension plan from GitLab to the Team Member. Please contact <meinebAV@wtwco.com>, if you have any questions or may not have received your letter from Allianz.
 
 ## German Social Security System
 
@@ -110,11 +110,11 @@ In the unfortunate event of an accident, please find the Group Personal Accident
 Accidents at work that are fatal or lead to an inability to work for more than 3 days must be reported within three days of the accident to our Berufsgenossenschaft VBG.
 
 1. If you had an accident, please review the criteria [here](https://www.vbg.de/DE/2_Versicherungsschutz_und_Leistungen/2_Was_ist_versichert/1_Arbeits-_und_Wegeunfaelle/arbeits-_und_wegeunfaelle_node.html;jsessionid=1D2B9247A96790725C91E29C620D9109.live4) to clarify if the accident is insured as a work accident
-1. If it meets the criteria for a work accident, please fill in [this form](https://drive.google.com/file/d/1oIum7DOjuRBdJPGOzv07cIEEdGHVVEcp/view?usp=sharing) and report your accident to the Absence Management Team by emailing the form to leaves@gitlab.com. Fields 2 and 28 will get completed by the Absence Management Team.
+1. If it meets the criteria for a work accident, please fill in [this form](https://drive.google.com/file/d/1oIum7DOjuRBdJPGOzv07cIEEdGHVVEcp/view?usp=sharing) and report your accident to the Absence Management Team by emailing the form to <leaves@gitlab.com>. Fields 2 and 28 will get completed by the Absence Management Team.
 1. The Absence Management Team will [notify the VBG](https://service.vbg.de/arbeits-und-wegeunfall-berufskrankheit/unfallanzeige) about the accident report and inform the specialist for occupational safety.
 
 Further things to note:
-The injured team member has the right to a copy of the accident report and can request the final document by emailing leaves@gitlab.com.
+The injured team member has the right to a copy of the accident report and can request the final document by emailing <leaves@gitlab.com>.
 
 ## Life Insurance
 
@@ -153,16 +153,16 @@ In case a woman takes parental leave subsequently to the child’s birth, the pe
 - If you are a member of the statutory health insurance, you are entitled to a maximum maternity allowance of 13 euros per day during the Maternity Protection Period. GitLab will supplement your pay so that you receive 100% of your salary for the duration of the Maternity Protection Period.
 - If you are privately insured and receive a daily sickness allowance during the Maternity Protection Period, GitLab will supplement your pay so that you receive 100% of your salary for the duration of the Maternity Protection Period.
 - If you are privately insured and will not receive a daily sickness allowance, you may qualify for a one-time payment of up to 210 euros from the [Federal Social Security Office](https://www.bundesamtsozialesicherung.de/de/mutterschaftsgeld/ueberblick/). GitLab will supplement your pay so that you receive 100% of your salary for the duration of the Maternity Protection Period.
-    - GitLab may receive reimbursement of these payments from the team member's health insurance carrier. Please provide the Absence Management team at `leaves@domain` with the name of your insurance provider and Versichertennummer (insurance number).
-    - The Absence Management team will then send payroll the team member's insurance details.
+  - GitLab may receive reimbursement of these payments from the team member's health insurance carrier. Please provide the Absence Management team at `leaves@domain` with the name of your insurance provider and Versichertennummer (insurance number).
+  - The Absence Management team will then send payroll the team member's insurance details.
 - If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), paid Parental Leave at GitLab will start from the beginning of the Maternity Protection Period and run concurrently with any statutory allowances, if applicable.
 - If you wish to take Parental Leave directly after your Maternity Protection Period ends, you may do so. If eligible, GitLab will pay up to 16 weeks of your total leave (including Maternity Protection), the rest will be unpaid.
 
 **Parental Leave Payment**
 
 - Eligible team members may choose to receive government-funded Parental Leave Pay (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). Please note:  Any benefits received will be reduced due to the payments received by GitLab.  If a team member chooses to apply for ElterngeldPlus they should notify leaves@domain, otherwise GitLab will provide 100% of their wages for up to 16 weeks.
-    - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child’s birth and completion of the 14th month of life.
-    - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance’s amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
+  - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child’s birth and completion of the 14th month of life.
+  - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance’s amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
 
 **Applying for Parental Leave in Germany**
 
@@ -184,7 +184,7 @@ The request must include the start and scope of the reduced working hours.
 
 For expecting fathers, team members will need to apply for a state benefit (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). If a team member is [eligible for Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), GitLab will supplement Parental Leave pay for up to 16 weeks of Parental Leave. Please notify the Absence Management team at `leaves@domain` which state benefit you are applying for and how much you will be receiving so that payroll can process the appropriate supplementary amount. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
 
-https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave
+<https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave>
 
 **Vacation Leave**
 
@@ -202,7 +202,7 @@ Per the [Family Care Leave Act and the Care Leave Act](https://www.bundesgesundh
 
 - Team members who need time to organize or ensure the care of a close relative in need of care in an acute care situation leave for up to ten days;
 - Team members who care for a close relative or a close relative at home can also, under certain conditions, take full or partial leave of work for up to six months.
-    - GitLab must be informed at least ten working days before the leave commences.
+  - GitLab must be informed at least ten working days before the leave commences.
 - Team members who accompany a close relative in the last phase of life can claim full or partial leave from work for up to three months;
 - Team members who care for a close relative in need of care in a home environment are entitled to family care leave, i.e. to a partial leave of absence for one continuous period of up to 24 months with a minimum of 15 working hours per week;
 - If the relative is underage, there is an entitlement to leave even if care takes place outside the home environment.

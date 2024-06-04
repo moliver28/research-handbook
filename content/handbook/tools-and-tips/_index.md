@@ -901,7 +901,7 @@ Certain company details are required to be added as a signature to the forms of 
 - Zendesk
 - other electronic communications
 
-If you are sending such a communication, externally, please look at the setting of the relevant application and add the company details below to the end of the communication. If you are in doubt, please do add the details. If you are unable to add this information for any reason, please alert legal-employment@gitlab.com.
+If you are sending such a communication, externally, please look at the setting of the relevant application and add the company details below to the end of the communication. If you are in doubt, please do add the details. If you are unable to add this information for any reason, please alert <legal-employment@gitlab.com>.
 
 If you are employed by our German entity you may have been asked during onboarding to set up your signature wherever it's required to be used and to include these company details, and if you have not been, please do so now, adding these details to the end of your signature:
 

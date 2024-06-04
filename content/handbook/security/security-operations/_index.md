@@ -13,10 +13,10 @@ The Security Operations department focuses on the operational aspect of security
 
 Our department consists of:
 
- - [Director, Security Operations](security-leadership/#director-security-operations) - [Joaquin Fuentes](https://gitlab.com/jfuentes2)
- - [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) - Security detection engineering and incident response
- - [Trust & Safety]({{< ref "trustandsafety" >}}) - Prevention and mitigation of abuse of the GitLab.com platform
- - [Red Team]({{< ref "red-team" >}}) - Adversary emulation
+- [Director, Security Operations](security-leadership/#director-security-operations) - [Joaquin Fuentes](https://gitlab.com/jfuentes2)
+- [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) - Security detection engineering and incident response
+- [Trust & Safety]({{< ref "trustandsafety" >}}) - Prevention and mitigation of abuse of the GitLab.com platform
+- [Red Team]({{< ref "red-team" >}}) - Adversary emulation
 
 ## Contacting Security Operations
 

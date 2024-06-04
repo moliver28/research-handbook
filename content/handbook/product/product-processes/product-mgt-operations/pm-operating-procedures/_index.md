@@ -62,8 +62,8 @@ Non-public items for discussion should be added directly to the [agenda document
 - **When:** During the last two weeks of every month
 - **Duration:** 50 minutes
 - **Format:** The meeting is lead by the Section Leader
-     - All data reviewed will be published on the Section's PI page in the internal handbook ([example](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/). Sections may optionally provide supporting slides.
-     - Content will focus on the following areas:
+  - All data reviewed will be published on the Section's PI page in the internal handbook ([example](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/). Sections may optionally provide supporting slides.
+  - Content will focus on the following areas:
      1. Development - Error Budgets, Past Due Security/InfraDev Issues (S1/S2)
      2. Quality - Past Due Bugs (S1/S2)
      3. UX - Past Due SUS Impacting Issues (S1/S2)

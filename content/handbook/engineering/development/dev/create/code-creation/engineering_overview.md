@@ -43,9 +43,9 @@ sequenceDiagram
 Components pictured on diagram are as follow:
 
 1. IDE extensions: GitLab offers number of IDE extensions (aka plugins) that among other features also provide integration with Language Server
-   1. VSCode Extension: https://gitlab.com/gitlab-org/gitlab-vscode-extension/
-   1. JetBrains Extension: https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin
-   1. NeoVim Extension: https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim
+   1. VSCode Extension: <https://gitlab.com/gitlab-org/gitlab-vscode-extension/>
+   1. JetBrains Extension: <https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin>
+   1. NeoVim Extension: <https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim>
 1. [Langugage Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp): it is a unified way of delivering features that can be shared across different IDEs reducing duplication. Language Server is a component that uses the [LSP protocol](https://microsoft.github.io/language-server-protocol) for communication with IDE extensions.
 1. [GitLab Workhorse](https://docs.gitlab.com/ee/development/workhorse/) - GitLab Workhorse is a smart reverse proxy for GitLab intended to handle resource-intensive and long-running requests.
 1. [GitLab Rails](https://gitlab.com/gitlab-org/gitlab) - main GitLab component providing majority of features.
@@ -54,8 +54,8 @@ Components pictured on diagram are as follow:
 
 Code Suggestions includes two types of interactions:
 
-   - **[Code Completion](#code-completion)**: A short AI-generated suggestion intended to complete an existing line or block of code
-   - **[Code Generation](#code-generation)**: A longer AI-generated suggestion intended to create entire functions, classes, code blocks, etc.
+- **[Code Completion](#code-completion)**: A short AI-generated suggestion intended to complete an existing line or block of code
+- **[Code Generation](#code-generation)**: A longer AI-generated suggestion intended to create entire functions, classes, code blocks, etc.
 
 Each code suggestion request is catogrised into a single category. Request categorization is performed by the Language Server before request is sent to GitLab Workhorse. If categorization is not done by Language Server then this categorization is performed by GitLab Rails.
 

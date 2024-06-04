@@ -202,17 +202,17 @@ This training video includes Zoom configuration setup instructions, as well as M
 
 1. *Optional* **EMAILS**: If applicable, edit the confirmation and reminder emails under the email setting tab.
 
-  - Make sure the registration confirmation email and the reminder emails are set to send from Zoom.
-  - There are limited editing capabilities within Zoom. In the confirmation email you can add a snippet of text after the templatized body text and the footer of the email can be edited. In the reminder email, only the footer can be edited.
+- Make sure the registration confirmation email and the reminder emails are set to send from Zoom.
+- There are limited editing capabilities within Zoom. In the confirmation email you can add a snippet of text after the templatized body text and the footer of the email can be edited. In the reminder email, only the footer can be edited.
 
 1. *Optional* **CHANGE LANGUAGE:** If you need to change the language of your Zoom confirmation and reminder email, please follow the below instructions.
    **NOTE:** Changing the language only translates the general instructions for the webcast, it does not translate your webcast description. Make sure to add your description in the language required.
 
-  - Click into the webinar where you would like to adjust the language setting
-  - Click into `Email Settings`
-  - Click `Edit` next to `Select Email Language`
-  - Select the language you would like to utilize from the drop down list. NOTE: You can also select `Same as the recipient's default language` and the language will be set based on the recipient's Zoom profile, if available. Otherwise, the emails will be sent in the language that the user is viewing the registration page.
-  - For more details, review the Zoom Help Center page [here](https://support.zoom.us/hc/en-us/articles/203686335-Customizing-webinar-email-settings).
+- Click into the webinar where you would like to adjust the language setting
+- Click into `Email Settings`
+- Click `Edit` next to `Select Email Language`
+- Select the language you would like to utilize from the drop down list. NOTE: You can also select `Same as the recipient's default language` and the language will be set based on the recipient's Zoom profile, if available. Otherwise, the emails will be sent in the language that the user is viewing the registration page.
+- For more details, review the Zoom Help Center page [here](https://support.zoom.us/hc/en-us/articles/203686335-Customizing-webinar-email-settings).
 
 1. *Optional* **HEADER IMAGE**: If applicable, click on branding and update the header.
 1. *Optional* **POLLING**: If applicable, add polling questions to the webcast or workshop by following the instructions in the video below. You do not need to make the polling question answers anonymous. Canned questions (utilized for webcasts only) are not added to Zoom but can be added to the Day Of Agenda so all presenters/moderators have access.
@@ -265,49 +265,49 @@ Buckle up! There are a lot of tokens, but for good reason. This is an **advanced
 
 These will be completed by the FMC when setting up the Marketo program.
 
-  - `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
-      - If this is a joint campaign with a partner, make sure the partner includes `utm_partnerid=` [more details here](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-campaigns). For a list of IDs for each partner, [go here](/handbook/marketing/channel-marketing/partner-campaigns/#crm-partner-id).
-  - `{{my.partner name}}` - If this is a campaign run with a partner, you may list mulitple here
-  - `{{my.webcastDate}}` - the webcast LIVE date
-  - `{{my.webcastTime}}` - token with the webcast time in local timezone/UTC timezone
-  - `{{my.webcastTitle}}` - token with the webcast title (For workshops, the title is only the main title of the workshop. Example: Your title would be GitLab Advanced CI/CD Workshop `NOT` GitLab Advanced CI/CD Workshop: Automate your workflows to build and test faster at any scale. Automate your workflows to build and test faster at any scale is considered the sub-title and is auto-populated in the Marketo template based on which workshop you are setting up.)
-  - `{{my.pfslidelink}}` - For virtual workshops only. Token where FMC links cloned workshop Pathfactory track for follow up email. **IMPORTANT NOTE:** The `https://` is hard-coded into the Marketo templates, which means you should not include `https://` before your Pathfactory track URL in the Marketo token. We include the Pathfactory track link in the purple `View the Slides` button at the bottom of the follow up email. To make sure this CTA works properly, the FMC must also add `?lb_email=` at the end of the URL. Your Pathfactory Track URL should look like this in the Marketo token: `learn.gitlab.com/advanced-cicd-workshop?lb_email=`.
-     - A little bit behind the WHY: If you are driving to Pathfactory from Marketo, you want to use the lb_email= part of the link. This tells PF that the person is a known user (and won't present any forms) because it passes the email address from Marketo to PF. When you are in Pathfactory and get the share link for a track, you can select Marketo and it will include the complete proper code (including Marketo token). You typically won't need to do that because we already have the token coded into our emails. Also, it won't always be a ? in front of lb_email=. As long as you use a custom URL, it will be a ? and that's why we recommend always using a custom URL. Refer to [the Pathfactory page](/handbook/marketing/marketing-operations/pathfactory/#appending-utms-to-pathfactory-links) for more details.
+- `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
+  - If this is a joint campaign with a partner, make sure the partner includes `utm_partnerid=` [more details here](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-campaigns). For a list of IDs for each partner, [go here](/handbook/marketing/channel-marketing/partner-campaigns/#crm-partner-id).
+- `{{my.partner name}}` - If this is a campaign run with a partner, you may list mulitple here
+- `{{my.webcastDate}}` - the webcast LIVE date
+- `{{my.webcastTime}}` - token with the webcast time in local timezone/UTC timezone
+- `{{my.webcastTitle}}` - token with the webcast title (For workshops, the title is only the main title of the workshop. Example: Your title would be GitLab Advanced CI/CD Workshop `NOT` GitLab Advanced CI/CD Workshop: Automate your workflows to build and test faster at any scale. Automate your workflows to build and test faster at any scale is considered the sub-title and is auto-populated in the Marketo template based on which workshop you are setting up.)
+- `{{my.pfslidelink}}` - For virtual workshops only. Token where FMC links cloned workshop Pathfactory track for follow up email. **IMPORTANT NOTE:** The `https://` is hard-coded into the Marketo templates, which means you should not include `https://` before your Pathfactory track URL in the Marketo token. We include the Pathfactory track link in the purple `View the Slides` button at the bottom of the follow up email. To make sure this CTA works properly, the FMC must also add `?lb_email=` at the end of the URL. Your Pathfactory Track URL should look like this in the Marketo token: `learn.gitlab.com/advanced-cicd-workshop?lb_email=`.
+  - A little bit behind the WHY: If you are driving to Pathfactory from Marketo, you want to use the lb_email= part of the link. This tells PF that the person is a known user (and won't present any forms) because it passes the email address from Marketo to PF. When you are in Pathfactory and get the share link for a track, you can select Marketo and it will include the complete proper code (including Marketo token). You typically won't need to do that because we already have the token coded into our emails. Also, it won't always be a ? in front of lb_email=. As long as you use a custom URL, it will be a ? and that's why we recommend always using a custom URL. Refer to [the Pathfactory page](/handbook/marketing/marketing-operations/pathfactory/#appending-utms-to-pathfactory-links) for more details.
 
 #### Marketing Ops Tokens
 
 These will be completed by Marketing Ops when setting up the landing page.
 
-  - `{{my.bullet1}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
-  - `{{my.bullet2}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
-  - `{{my.bullet3}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
-  - `{{my.bullet4}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
-  - `{{my.emailConfirmationButtonCopy}}`  - copy for the email confirmation (when on demand), leave as `Watch now`
-  - `{{my.formButtonCopy}}` - copy for the form button, leave as `Register now` (when switching to on-demand, this will change to `Watch now`)
-  - `{{my.formHeader}}` - copy for header of form, leave as `Save your spot today!` (when switching to on-demand, this will change to `View the webcast today!`)
-  - `{{my.heroImage}}` - image to display above landing page form - we are no longer using this functionality, unless a special image was created for this event. The image token can be removed in the landing page variables.
-  - `{{my.introParagraph}}` - intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
-  - `{{my.2ndparagraph}}` - second paragraph for landing page and emails
-  - `{{my.ondemandUrl}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
-  - Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
-  - Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking parameters
-  - `{{my.socialImage}}` - image that would be presented in social, slack, etc. preview when the URL is shared, this image is provided by design/social, leave the default unless presented with webcast specific image.
-  - `{{my.speaker1Company}}` token with speaker 1's company name
-  - `{{my.speaker1ImageURL}}` token with speaker 1's image url in marketo design studio
-  - `{{my.speaker1JobTitle}}` token with speaker 1's job title
-  - `{{my.speaker1Name}}` token with speaker 1's full name
-  - REPEAT this for speaker 2 and 3. If there are more or less speakers, follow the instructions below at the end of the general webcast setup.
-  - `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
-  - `{{my.webcastDescription}}` - 2-3 sentences with approved character limits, this will show up in page previews on social and be used in YouTube and Pathfactory description.
-  - `{{my.webcastSubtitle}}` token with subtitle for the webcast.
-  - `{{my.reply email}}` - enter the email address that cancellations and questions should be sent to. This is typically the regional FM email address. This token is used in the confirmation email.
+- `{{my.bullet1}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
+- `{{my.bullet2}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
+- `{{my.bullet3}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
+- `{{my.bullet4}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
+- `{{my.emailConfirmationButtonCopy}}`  - copy for the email confirmation (when on demand), leave as `Watch now`
+- `{{my.formButtonCopy}}` - copy for the form button, leave as `Register now` (when switching to on-demand, this will change to `Watch now`)
+- `{{my.formHeader}}` - copy for header of form, leave as `Save your spot today!` (when switching to on-demand, this will change to `View the webcast today!`)
+- `{{my.heroImage}}` - image to display above landing page form - we are no longer using this functionality, unless a special image was created for this event. The image token can be removed in the landing page variables.
+- `{{my.introParagraph}}` - intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
+- `{{my.2ndparagraph}}` - second paragraph for landing page and emails
+- `{{my.ondemandUrl}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
+- Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
+- Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking parameters
+- `{{my.socialImage}}` - image that would be presented in social, slack, etc. preview when the URL is shared, this image is provided by design/social, leave the default unless presented with webcast specific image.
+- `{{my.speaker1Company}}` token with speaker 1's company name
+- `{{my.speaker1ImageURL}}` token with speaker 1's image url in marketo design studio
+- `{{my.speaker1JobTitle}}` token with speaker 1's job title
+- `{{my.speaker1Name}}` token with speaker 1's full name
+- REPEAT this for speaker 2 and 3. If there are more or less speakers, follow the instructions below at the end of the general webcast setup.
+- `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/13APTi8qTeFmvGcURrp9ywvl3zTxWU2cQ_ePX9S81Fao/edit#gid=1092923472)
+- `{{my.webcastDescription}}` - 2-3 sentences with approved character limits, this will show up in page previews on social and be used in YouTube and Pathfactory description.
+- `{{my.webcastSubtitle}}` token with subtitle for the webcast.
+- `{{my.reply email}}` - enter the email address that cancellations and questions should be sent to. This is typically the regional FM email address. This token is used in the confirmation email.
 
 ### Step 3.B: Turn on Smart Campaigns in Marketo
 
 **DRI: FMC**
 
-  - Activate the `00 Interesting Moments` smart campaign campaign by going to the `schedule` tab and selecting `activate`.
-  - Activate the `01a Registration Flow (single timeslot)` smart campaign by going to the `schedule` tab and selecting `activate`.
+- Activate the `00 Interesting Moments` smart campaign campaign by going to the `schedule` tab and selecting `activate`.
+- Activate the `01a Registration Flow (single timeslot)` smart campaign by going to the `schedule` tab and selecting `activate`.
 
 ### Step 3.C: Create the Landing Page
 
@@ -440,7 +440,7 @@ Please reach out to your Marketing Ops rep to shut down the landing page, or if 
 
 - Once the finalized slide deck has been provided to the FMC by `@lfstucker`, the FMC will follow these [instructions](https://support.apple.com/en-jo/guide/preview/prvw11793/mac#:~:text=Delete%20a%20page%20from%20a,or%20choose%20Edit%20%3E%20Delete) to edit the presentation slides, ensuring the account set-up slides have been deleted.
 - The FMC to then follow [these instructions](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#uploading-the-presentation-deck) to add the slides as a new piece of content to Pathfactory. Then, the FMC will add the presentation slides to the created Pathfactory track for the workshop.
-   - **This is needed as soon as slides are final as Pathfactory track is linked to follow up email.**
+  - **This is needed as soon as slides are final as Pathfactory track is linked to follow up email.**
 
 ### Downloading the Recording from Zoom
 
@@ -511,8 +511,8 @@ More options
 **Webcasts:**
 
 - Click into your campaign’s Marketo program and update the `ondemandUrl` token with the Pathfactory track URL.
-   - The track URL should NOT contain any `?` question marks (if it does, you did not update the custom URL slug) - [WATCH THE EXPLAINER VIDEO](https://www.youtube.com/watch?v=VHgR33cNeJg)
-   - The URL should NOT contain `https://` and should NOT contain the Pathfactory tracking parameter `lb_email=` (this is already incorporated into all assets of the Marketo program template).
+  - The track URL should NOT contain any `?` question marks (if it does, you did not update the custom URL slug) - [WATCH THE EXPLAINER VIDEO](https://www.youtube.com/watch?v=VHgR33cNeJg)
+  - The URL should NOT contain `https://` and should NOT contain the Pathfactory tracking parameter `lb_email=` (this is already incorporated into all assets of the Marketo program template).
 
 **Workshops:**
 
@@ -551,20 +551,20 @@ More options
 Note: do not schedule the emails until you have completed the "on demand switch" process (and there is a Pathfactory URL ready to be used)
 
 - **Check ondemandURL Marketo token**
-   - This URL should *not* contain `https://` (it should begin with `learn.gitlab.com/`)
-   - This URL should *not* contain any `?` question marks (if it does, you did not correctly update the custom URL slug)
-   - This URL should *not* contain the Pathfactory tracking parameter `lb_email=` (this is already incorporated into all assets of the Marketo program template)
-   - :thumbs-up: If all of the above apply, move on to sending yourself samples!
+  - This URL should *not* contain `https://` (it should begin with `learn.gitlab.com/`)
+  - This URL should *not* contain any `?` question marks (if it does, you did not correctly update the custom URL slug)
+  - This URL should *not* contain the Pathfactory tracking parameter `lb_email=` (this is already incorporated into all assets of the Marketo program template)
+  - :thumbs-up: If all of the above apply, move on to sending yourself samples!
 - **Send samples to your inbox**
-   - Right click on "Follow up - attendees" and choose `Send Sample`
-   - Under "Person" begin to type in your test lead email address. This will pull in the email address to review that the tracking is working properly in your email.
-   - For "Send To:" choose your email address (or type next to the `*` asterisk)
+  - Right click on "Follow up - attendees" and choose `Send Sample`
+  - Under "Person" begin to type in your test lead email address. This will pull in the email address to review that the tracking is working properly in your email.
+  - For "Send To:" choose your email address (or type next to the `*` asterisk)
 - **Complete the same steps for your "Follow up - no shows" email**
 - **Review emails in your inbox**
-   - Check all email copy
-   - Click all links and confirm they are not broken
-   - Click the `Recording of the webcast` and `Watch now` links and confirm that your email address is in the URL displayed (this happens quickly and disappears in the URL, so watch carefully!)
-   - :thumbs-up: If all of the above apply, move on to scheduling the smart campaigns!
+  - Check all email copy
+  - Click all links and confirm they are not broken
+  - Click the `Recording of the webcast` and `Watch now` links and confirm that your email address is in the URL displayed (this happens quickly and disappears in the URL, so watch carefully!)
+  - :thumbs-up: If all of the above apply, move on to scheduling the smart campaigns!
 - **Schedule the smart campaign to send the emails**
   - Schedule the `02 Follow Up - No shows/Attended` smart campaign to be the following business day.
 
@@ -612,12 +612,12 @@ PLEASE NOTE: The below instructions are only for virtual workshops. If you are r
 - Create a new Marketo program with the new webcast date/time following the steps outlined in [the section above](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#create-program-in-marketo) minus the create new campaign in SFDC step, since we will be syncing to the existing SFDC program in a later step.
 - If you are rescheduling your webcast due to technical difficulties the day of the event (if the event has technically completed in Zoom and your statuses have already been triggered) you will need assistance from Marketing Operations from this point forward so they can adjust certain Marketo details and make sure all registrants are moved over to the new program. Open a [Marketing Operations issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template) and link your epic with the old and new Marketo programs and SFDC campaigns and specify that you will need assistance moving all registrants over to the new program.
 - If you are not familiar or uncomfortable with the following steps, please create a [Marketing Ops issue](/handbook/marketing/marketing-operations/#issues) to request assistance and ping MOps in the `#mktgops` channel with the issue, if the request is urgent.
-   - Move the landing page from the Marketo program with old webcast date/time to the newly created Marketo program with new webcast date/time. This should automatically move the registrants from the original Marketo program to the new program and also trigger Zoom to send a new confirmation email. If this does not happen, please complete the next step below. **NOTE:** All registrants in the program (including hosts and panelists) will receive a new personalized Zoom registration link at this time. Marketo does not differentiate between hosts/panelists and regular registrants, so the hosts and panelists will need to be made aware that they should NOT utilize the standard Zoom URLs they will receive during this point in the process. Instead, they will utilize the host and panelists Zoom URLs that will be sent to them (and linked in the Dry Run Agenda) during the [dry run scheduling process](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#securing-a-virtual-workshop-or-webcast-dry-run-date).
-   - (Needed only if the above step did not automatically move registrants and trigger a new Zoom confirmation email.) Move the registrants from the Marketo program with old webcast date/time to the newly created marketo program with new webcast date/time by running a one time bulk update on the `(Optional: for rescheduled webcast only) Import registrants from old program` smart campaign. Doing this will also re-trigger the confirmation email to existing registrants.
-   - Remove the SFDC campaign sync on the Marketo program with old webcast date/time by clicking salesforce campaign sync and selecting `None`.
-   - Go to SFDC and change the ISO date in the SFDC campaign name for the webcast to the new date.
-   - Go back to Marketo. Sync the SFDC campaign to the Marketo program with new webcast date/time by clicking salesforce campaign sync and selecting the name of the SFDC campaign.
-   - Go back to the original Marketo program with the old webcast date/time and deactivate the smart campaigns. Add `[CANCELED]` to the program name. Deactivate any [activated smart campaigns](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-4-activate-marketo-smart-campaigns).
+  - Move the landing page from the Marketo program with old webcast date/time to the newly created Marketo program with new webcast date/time. This should automatically move the registrants from the original Marketo program to the new program and also trigger Zoom to send a new confirmation email. If this does not happen, please complete the next step below. **NOTE:** All registrants in the program (including hosts and panelists) will receive a new personalized Zoom registration link at this time. Marketo does not differentiate between hosts/panelists and regular registrants, so the hosts and panelists will need to be made aware that they should NOT utilize the standard Zoom URLs they will receive during this point in the process. Instead, they will utilize the host and panelists Zoom URLs that will be sent to them (and linked in the Dry Run Agenda) during the [dry run scheduling process](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#securing-a-virtual-workshop-or-webcast-dry-run-date).
+  - (Needed only if the above step did not automatically move registrants and trigger a new Zoom confirmation email.) Move the registrants from the Marketo program with old webcast date/time to the newly created marketo program with new webcast date/time by running a one time bulk update on the `(Optional: for rescheduled webcast only) Import registrants from old program` smart campaign. Doing this will also re-trigger the confirmation email to existing registrants.
+  - Remove the SFDC campaign sync on the Marketo program with old webcast date/time by clicking salesforce campaign sync and selecting `None`.
+  - Go to SFDC and change the ISO date in the SFDC campaign name for the webcast to the new date.
+  - Go back to Marketo. Sync the SFDC campaign to the Marketo program with new webcast date/time by clicking salesforce campaign sync and selecting the name of the SFDC campaign.
+  - Go back to the original Marketo program with the old webcast date/time and deactivate the smart campaigns. Add `[CANCELED]` to the program name. Deactivate any [activated smart campaigns](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-4-activate-marketo-smart-campaigns).
 - FMC to ping MOps with the Marketo program link in the `#mktgops` Slack channel and request the program be deleted (FM does not have access in Marketo to delete programs).
 - Go to Zoom, delete the Zoom program with the old webcast date/time and make sure to uncheck `send webinar cancellation email to panelists and registrants`.
 - The FMC will submit an MR to re-submit the Webcast on the [Events Page](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) with the new date and updated LP URL.
@@ -809,7 +809,7 @@ In order to cap registration, we remove the registration form on the Landing Pag
 1. Once Marketing Ops creates the landing page, they will ping the FMM to review. Once the landing page is live, the FMM will ping the FMC to add the workshop to the GitLab Events Page utilizing this [step by step guide](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents). FMC also to make sure the landing page is linked in the epic.
 1. FMM to create the [Template for Certification of Completion](https://drive.google.com/drive/u/0/folders/1D9ReKCU7dhbHbkLotKgh4D7dZZ9m2IHS)
 1. Note about Optional Issues:
-   - For workshop design requests, you have the option of opening a [Marketing Design Request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general) or utilizing [Canva](https://www.canva.com/design/DAD-xgXwnrk/8irvi2Qv08B1riRCt7EEoQ/view?utm_conte
+   - For workshop design requests, you have the option of opening a [Marketing Design Request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general) or utilizing [Canva](<https://www.canva.com/design/DAD-xgXwnrk/8irvi2Qv08B1riRCt7EEoQ/view?utm_conte>
 nt=DAD-xgXwnrk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview) in a self-serve capacity (see [below](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#canva) for Canva instructions and templates).
 1. Review Marketing Copy Doc - Update copy for landing page, emails, update the times, dates, redemption code in the 1-week reminder emails. Note that changes to the landing page or email copy will require the 45 day SLA noted above for new copy/content.
    - If new content: Work with Presenters/Instructors to create presentation slides, labs, demos, as well as copy for landing page and emails.
@@ -840,7 +840,7 @@ If you are uncertain about formatting and/or layout due to varying copy changes 
 
 ##### FMM Shared Canva Login
 
-The Field Marketing team utilizies a shared Canva Enterprise login. The account is linked to the fieldmarketing@gitlab.com google group & the password can be found in the shared marketing 1pass account.
+The Field Marketing team utilizies a shared Canva Enterprise login. The account is linked to the <fieldmarketing@gitlab.com> google group & the password can be found in the shared marketing 1pass account.
 
 ### Workshop Pathfactory Tracks
 
@@ -923,11 +923,11 @@ Note: Cloning a track will pull over all settings from that initial track. All w
 - Only the Q&A Coordinator should enter answers into the Q&A box in Zoom. SAs will answer in the thread and indicate the answer is ready to give to attendees using the emoji system noted in the channel.
 - If a question is marked to answer live, do not touch it until AFTER it is read and fully answered.
 - Q&A support will respond in threaded comments while using the following emoji:
-   - Working: :thumbsup:
-   - Answered and ready to be posted into Zoom: :heavy_check_mark:
-   - Answer has been posted in Zoom: :white_check_mark:
-   - Need Help Answering: :sos:
-   - Answer Live: :microphone:
+  - Working: :thumbsup:
+  - Answered and ready to be posted into Zoom: :heavy_check_mark:
+  - Answer has been posted in Zoom: :white_check_mark:
+  - Need Help Answering: :sos:
+  - Answer Live: :microphone:
 - Questions may be held in queue until the coordinator wants them answered. For example, a question may come up during the basics presentation that makes more sense to answer during the CI/CD session. The question will sit unanswered in the queue until then.
 - Be comfortable with questions not being answered right away. It is up to the coordinator to determine when to answer and who will answer.
 - Follow-up with attendees who we say we’ll follow-up with. The person responsible for follow-up will be determined during the dry run.
@@ -952,9 +952,9 @@ For more information about hosting a virtual hands-on workshop, please watch [**
 - Field Marketing helps support by placing questions in the designated slack channel for Question Coordinator (Lead SA) to assign SA’s to answer the question. The slack channel allows other SAs to jump in if they have some free time in their day and it allows an easier point of discussion.  Once a question is answered, the Question Coordinator (Lead SA) will place the answer in the Q&A section of the Zoom webcast queue.
 - FMMs will at times need to update the Introductions & Transitions Slide Deck with the accurate time of the break. This can be updated in advance but the presentations before the `Break` slide in the deck can run long or short due so advise for the FMM to update in real-time.
 - FMMs will need to list the following in the Chat feature of the Zoom Webcast live during the beginning of the Closing / Q&A section of the event once the MC announces the raffle prizes:
-   - Shortened URL of the Post-Event Survey
-   - Code word to list in the Post-Event Survey for the attendees to be eligible to win one of the raffle prizes
-   - Add promotion of upcoming workshop dates
+  - Shortened URL of the Post-Event Survey
+  - Code word to list in the Post-Event Survey for the attendees to be eligible to win one of the raffle prizes
+  - Add promotion of upcoming workshop dates
 
 #### Time Keepers
 
@@ -980,7 +980,7 @@ FMMs will need to keep a close eye on the time. Notify the team and the next pre
 - Raffle award closing
 - Close issue
 - Deactivate Marketo registration campaigns
-     - Under "Schedule" on the `01a Registration Flow (single timeslot)` or `01b Registration Flow (Multi-timeslot)` smart campaign, click `Deactivate` once the webcast has completed.
+  - Under "Schedule" on the `01a Registration Flow (single timeslot)` or `01b Registration Flow (Multi-timeslot)` smart campaign, click `Deactivate` once the webcast has completed.
 
 #### Logging in to the Zoom Webcast Account
 

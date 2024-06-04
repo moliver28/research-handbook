@@ -21,7 +21,7 @@ Charts from the public Tableau site should only be embedded in the public Handbo
 
 This chart should be visible to anyone who loads the page.
 
-{{< tableau toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OKR4_7EngKPITest/PastDueSecurityIssues" >}}
+{{< tableau toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OKR4_7EngKPITest/PastDueSecurityIssues>" >}}
 {{< /tableau >}}
 
 ### Viz from Internal Tableau site
@@ -34,14 +34,14 @@ The source url for a view from the internal Tableau site can be found by navigat
 
 This chart should only require a log in to the Tableau site and only be visible to those that have a Tableau license. GitLab team members should login via OKTA SSO.
 
-{{< tableau height="600px" src="https://10az.online.tableau.com/t/gitlab/views/OKR4_7EngKPITest/PastDueInfraDevIssues" >}}
+{{< tableau height="600px" src="<https://10az.online.tableau.com/t/gitlab/views/OKR4_7EngKPITest/PastDueInfraDevIssues>" >}}
 {{< /tableau >}}
 
 ### Viz with Parameters and Filters and Height
 
 This chart should be filtered to a pre-selected Severity and Subtype. The ability to use parameters and filters means that we can more flexibly use a single chart to display different cuts in different embeds if needed.
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OKR4_7EngKPITest/PastDueSecurityIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OKR4_7EngKPITest/PastDueSecurityIssues>" >}}
   {{< tableau/params "Severity Select"="S2" >}}
   {{< tableau/filters "Subtype Label"="bug::vulnerability" >}}
 {{< /tableau >}}
@@ -85,5 +85,5 @@ For public charts in the public handbook: Tag the affected workbooks as "Public"
 
 ## Views Availble for Public Embedding
 
-{{< tableau toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PublicSiteViews/PublicViewTable" >}}
+{{< tableau toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PublicSiteViews/PublicViewTable>" >}}
 {{< /tableau >}}

@@ -108,8 +108,8 @@ When you have to use office applications, always use [G Suite applications](http
 ### Communicating with the Team
 
 - The Sales team primarily communicates via Slack in our day-to-day work. Our main team channels are **#sales**, our general channel, and **#field-fyi**, our read-only channel for official field team announcements.
-   - Email is used in some segments where customer privacy dictates additional security measures.
-   - For a full breakdown of all Field Slack groups and the hierarchy of our Google Groups, see the [Communicating with the Field Handbook page](/handbook/sales/sales-google-groups/).
+  - Email is used in some segments where customer privacy dictates additional security measures.
+  - For a full breakdown of all Field Slack groups and the hierarchy of our Google Groups, see the [Communicating with the Field Handbook page](/handbook/sales/sales-google-groups/).
 - Please reference the [Sales Support and Sales Operation Handbook page](/handbook/sales/field-operations/sales-operations) for a summary of how to engage with deal desk resources.
 - Chatter @contracts on the specific record in Salesforce where you will need assistance from the legal team.
 
@@ -158,7 +158,7 @@ During the sales cycle, potential customers who have questions that are not with
    1. For Strategic/Large accounts that will have a dedicated Solutions Architect, [engage the SA](/handbook/solutions-architects/#when-and-how-to-engage-a-solutions-architect) so that they can triage and develop the request.
    1. For questions that you think technical staff can answer in less than 10 minutes, please use the #questions Slack channel. For more information, see the [internal support](/handbook/support/internal-support/#should-i-contact-gitlab-support) section of the Support Handbook.
    1. By default, trial licenses do not include support. If you've been contacted by a prospect whose evaluation of GitLab includes evaluating support expertise or SLA performance, as a member of the Sales team you can grant temporary support for their trial license. See the [Internal Support Handbook](/handbook/support/internal-support/#trials-and-prospect-support) for more details.
-   1. If your customer contacts you requiring technical support, please immediately direct them to open a ticket through the Support Portal(https://support.gitlab.com/). Please do not open a support ticket on behalf of a customer. More details [here](/handbook/support/internal-support/#requesting-support-for-customers).
+   1. If your customer contacts you requiring technical support, please immediately direct them to open a ticket through the Support Portal(<https://support.gitlab.com/>). Please do not open a support ticket on behalf of a customer. More details [here](/handbook/support/internal-support/#requesting-support-for-customers).
    1. For escalating a Support ticket, see the [I want to escalate a ticket](/handbook/support/internal-support/#i-want-to-escalate-a-ticket) section.
 
 #### Product

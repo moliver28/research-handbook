@@ -31,15 +31,15 @@ The following people are permanent members of the group:
 
 Here is our group page: [Import and Integrate Group Engineering Metrics handbook page](/handbook/engineering/metrics/dev/manage/import-and-integrate/).
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="import and integrate" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
 {{< /tableau >}}
 
@@ -104,15 +104,15 @@ To maintain good label hygiene, please apply the correct labels when creating or
 All issues should have:
 
 - All of our section, stage and group labels:
-    - `~"section::core platform"`
-    - `~"devops::manage"`
-    - `~"group::import and integrate"`
+  - `~"section::core platform"`
+  - `~"devops::manage"`
+  - `~"group::import and integrate"`
 - One or more of the category labels:
-    - `~"Category:API"`
-    - `~"Category:Importers"`
-    - `~"Category:Integrations"`
-    - `~"Category:Internationalization"`
-    - `~"Category:Webhooks"`
+  - `~"Category:API"`
+  - `~"Category:Importers"`
+  - `~"Category:Integrations"`
+  - `~"Category:Internationalization"`
+  - `~"Category:Webhooks"`
 - A [type label](/handbook/engineering/metrics/#work-type-classification)
 - A [workflow label](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development)
 - `~"backend"` or `~"frontend"` if appropriate
@@ -393,8 +393,8 @@ Below is an overview of topics that are overseen by a tech lead:
 | ------ | ------ | ------ | ------ |
 | Direct Transfer - User contribution mapping | Rodrigo Tomonari | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/12378) | - |
 | Improve the efficiency of developer contributions to the importers | James Nutt | [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6658) | - |
-| Congregate | tbd | https://gitlab.com/gitlab-org/gitlab/-/issues/428657 | |
-| GitHub Actions | tbd | https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652 | |
+| Congregate | tbd | <https://gitlab.com/gitlab-org/gitlab/-/issues/428657> | |
+| GitHub Actions | tbd | <https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652> | |
 |  | | |  |
 
 ## Merge request roulette reviews
@@ -459,8 +459,8 @@ This is a collection of links for monitoring our features.
 ### Grafana dashboards
 
 - [Import and Integrate group dashboard][grafana-dashboard] which contain:
-    - Links to various Kibana logs, filtered to our feature categories
-    - Our [error budget](#error-budgets) spend attribution
+  - Links to various Kibana logs, filtered to our feature categories
+  - Our [error budget](#error-budgets) spend attribution
 - [Worker queues](https://dashboards.gitlab.net/d/sidekiq-queue-detail/sidekiq-queue-detail?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-queue=jira_connect:jira_connect_sync_branch) where you can switch queues with the `queue` dropdown
 
 ### Sentry errors

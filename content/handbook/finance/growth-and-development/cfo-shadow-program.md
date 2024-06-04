@@ -28,7 +28,7 @@ To benefit the most from the types of meetings that the CFO attends, it's recomm
 
 ### Confidentiality
 
-Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Please be aware that the role of CFO Shadow will place you on the Designated Insider list for that quarter. You will need to request pre-clearance to trade during the open window. More info on the Designated Insider list and pre-clearance can be found [here] https://handbook.gitlab.com/handbook/legal/publiccompanyresources/.
+Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Please be aware that the role of CFO Shadow will place you on the Designated Insider list for that quarter. You will need to request pre-clearance to trade during the open window. More info on the Designated Insider list and pre-clearance can be found [here] <https://handbook.gitlab.com/handbook/legal/publiccompanyresources/>.
 
 ### Create an onboarding and offboarding issue
 
@@ -71,7 +71,7 @@ There will be short-term administrative tasks that you'll be asked to perform as
 - Like all meetings at GitLab, meetings will begin promptly, regardless of the shadows' attendance.
 - For the first iteration of the CFO-shadow program, the shadow may not attend e-group or quarterly board meetings to avoid overlap with the CEO Shadows who may already attend those calls.
 - The CFO's Sr EBA will ask external people if they are comfortable with the shadows joining prior to the scheduled meeting, and will share a link to the CFO shadow page to provide context.
-- Meeting agendas should be shared with cfo-shadow@gitlab.com, as shadows will be added to this email alias prior to the rotation, and removed at the conclusion of it. For agendas that contain sensitive information, the sensitive information should be removed and the document shared with "View only" access to restrict access to the document's history. Not all agendas will be shared, though, and the CFO Shadows should feel empowered to ask for access if that is the case. Sometimes, the answer will be "no" for sensitive reasons.
+- Meeting agendas should be shared with <cfo-shadow@gitlab.com>, as shadows will be added to this email alias prior to the rotation, and removed at the conclusion of it. For agendas that contain sensitive information, the sensitive information should be removed and the document shared with "View only" access to restrict access to the document's history. Not all agendas will be shared, though, and the CFO Shadows should feel empowered to ask for access if that is the case. Sometimes, the answer will be "no" for sensitive reasons.
 - There will be times where the Shadow will not attend meetings because a participant in the meeting is uncomfortable or prefers more privacy.
 
 ### Shadow's Responsibilities During Meetings

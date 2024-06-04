@@ -12,18 +12,18 @@ The Ops Sub-department is composed of development teams working on Verify, Packa
 The following teams comprise the Ops sub-department:
 
 - Verify stage - [handbook](/handbook/engineering/development/ops/verify/)
-    - Pipeline Execution - [handbook](/handbook/engineering/development/ops/verify/pipeline-execution/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
-    - Pipeline Authoring - [handbook](/handbook/engineering/development/ops/verify/pipeline-authoring/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
-    - Pipeline Security - [handbook](/handbook/engineering/development/ops/verify/pipeline-security/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
-    - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), [jtbd](/handbook/engineering/development/ops/verify/runner/jtbd/)
-    - CI Platform - [handbook](/handbook/engineering/development/ops/verify/ci-platform/)
+  - Pipeline Execution - [handbook](/handbook/engineering/development/ops/verify/pipeline-execution/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
+  - Pipeline Authoring - [handbook](/handbook/engineering/development/ops/verify/pipeline-authoring/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
+  - Pipeline Security - [handbook](/handbook/engineering/development/ops/verify/pipeline-security/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
+  - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), [jtbd](/handbook/engineering/development/ops/verify/runner/jtbd/)
+  - CI Platform - [handbook](/handbook/engineering/development/ops/verify/ci-platform/)
 - Package stage - [handbook](/handbook/engineering/development/ops/package/), [jtbd](/handbook/engineering/development/ops/package/jtbd/)
-    - Container Registry - [handbook](/handbook/engineering/development/ops/package/container-registry/)
-    - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
+  - Container Registry - [handbook](/handbook/engineering/development/ops/package/container-registry/)
+  - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
 - Deploy stage
-    - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
+  - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
 - Monitor stage
-    - Monitor:Observability - [handbook](/handbook/engineering/development/ops/monitor/observability/), jtbd
+  - Monitor:Observability - [handbook](/handbook/engineering/development/ops/monitor/observability/), jtbd
 
 ## Product Direction
 
@@ -106,7 +106,7 @@ Planning processes followed by teams in the Sub-department:
 
 ### Forced Priority planning/scheduling
 
-Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work [within the appropriate SLO/SLAs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
+Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work [within the appropriate SLO/SLAs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: <https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803>
 
 With this in mind, here's a process that groups are encouraged to use and iterate on in the event that they don't have an existing approach or are falling behind on SLA/SLOs.
 
@@ -259,7 +259,7 @@ Projects which are listed as key projects should create these project planning a
 
 Since the project plan is stored in the handbook it is easy to track changes in the project plan and see how it evolves over time.
 
-Project plans should (roughly) follow this format (from https://www.rubick.com/weekly-project-plans/):
+Project plans should (roughly) follow this format (from <https://www.rubick.com/weekly-project-plans/>):
 
 ```text
 Weekly project plan template

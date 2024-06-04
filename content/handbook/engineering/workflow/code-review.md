@@ -217,9 +217,9 @@ Maintainers should respond to the comment from the reviewer with a 👍 if they 
 Some reviewers find it helpful to track their progress. This is not required, but a few ways people have done this are:
 
 - Keep an issue with all of the various reviews and feedback comments from maintainers they have received. There are some tools to help with this type of issue:
-  - https://gitlab.com/nolith/review-tanuki
-  - https://gitlab.com/caalberts/review-tanuki
-  - https://gitlab.com/arturoherrero/trainee
+  - <https://gitlab.com/nolith/review-tanuki>
+  - <https://gitlab.com/caalberts/review-tanuki>
+  - <https://gitlab.com/arturoherrero/trainee>
 - Use an emoji to mark all MRs they received feedback from maintainers on so they are easily searchable.
 
 #### After becoming a maintainer
@@ -332,13 +332,13 @@ Use this lightweight template as a starting point for defining your project's ma
 
 We aim to keep the engineer : maintainer ratio under 6, for both frontend and backend. We track this in the Engineer : Maintainer Ratio dashboard:
 
-https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1
+<https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1>
 
 ### Maintainer Demand
 
 We can gauge demand by looking at the Maintainership Demand dashboard, which can be filtered by month, project and technology:
 
-https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1
+<https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1>
 
 #### About this dashboard
 
@@ -386,7 +386,7 @@ To add a custom target to an area using the `maintainer_custom_targets` Sisense 
 
 We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ReviewermaintainerAvailabilityandCapacity/Reviewermaintaineravailabilityandcapacity?:iid=1):
 
-https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views
+<https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views>
 
 ## Leading Organizations
 

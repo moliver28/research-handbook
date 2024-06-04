@@ -79,7 +79,7 @@ The following repositories are used for GitLab.com infrastructure management.
 These repository locations are the remotes that the SRE team uses for pushes,
 issues and MRs. Mirrors are setup in case that GitLab.com is unavailable.
 Repositories that are necessary for assets, configuration, infrastructure, releases
-and patch management use https://ops.gitLab.net as a remote.
+and patch management use <https://ops.gitLab.net> as a remote.
 
 1. [terraform](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt): This
 is the repository that holds all terraform configuration for the GitLab.com staging,
@@ -152,10 +152,10 @@ The list may not be up to date.  If something is missing, please add it.
 1. Chef access
 1. Cloud Providers
 
-  * Amazon Web Services
-  * Azure
-  * Digital Ocean
-  * Google Cloud
+* Amazon Web Services
+* Azure
+* Digital Ocean
+* Google Cloud
 
 ## Slack Channels
 

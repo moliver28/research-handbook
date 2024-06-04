@@ -35,7 +35,7 @@ We suggest each person attend via their own device to avoid [hybrid meetings](/h
     - Host
     - Moderator
     - Agenda Link
-    - Attendees (specify if calendar invitations go to specific teams or to everyone@gitlab.com)
+    - Attendees (specify if calendar invitations go to specific teams or to <everyone@gitlab.com>)
     - Confirm if this call is "open to friends and family"
 
 - The EBA will create the event in the EBA Zoom account and add it to the GitLab team meetings calendar. The EBA will add the AMA document link in the description and invite the specified attendees to the meeting. The EBA will add Alternate Hosts if applicable.

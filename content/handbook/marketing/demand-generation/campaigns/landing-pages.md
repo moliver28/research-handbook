@@ -25,7 +25,7 @@ twitter_creator: "@gitlab"
 1. Use plain, value-oriented and action-oriented language
 1. Use "first date" content to put our best foot forward
 
-  * Let's not tell them about how cool we are and how amazing our stamp collection is. Make it about them, and drive the desired action of a form fill.
+* Let's not tell them about how cool we are and how amazing our stamp collection is. Make it about them, and drive the desired action of a form fill.
 
 ## Landing Page URL Best Practices
 
@@ -79,7 +79,7 @@ _Curious how to estimate when a landing page due date should be set? We've tried
 1. Use the approved copy that meets the character limits to update the landing page. Please ensure your copy meets [conversion best practices](/handbook/marketing/demand-generation/campaigns/landing-pages/#landing-page-conversion-best-practices).
 1. When the landing page is finished, click `Preview` to ensure all tokens are correctly applied and the page appears as intended (copy, design, etc). Click `Preview Actions` > `Approve and Close`.
 
-  * Note: if you see tokens instead of the desired text, you may need to troubleshoot. Make sure your token code in the page exactly matches the Marketo program token name.
+* Note: if you see tokens instead of the desired text, you may need to troubleshoot. Make sure your token code in the page exactly matches the Marketo program token name.
 
 1. Update URL by clicking `Landing Page Actions` > `URL Tools` > `Edit URL setting`. The new URL should reflect our [landing page naming convention](/handbook/marketing/demand-generation/campaigns/landing-pages/#landing-page-naming-convention)
 1. Edit any related emails, such as `confirmation` or `sales alert` and approve the edits
@@ -88,7 +88,7 @@ _Curious how to estimate when a landing page due date should be set? We've tried
 1. Once tested and any necessary updates made, comment in the relevant issue to alert other approvers to review and approve
 1. When the page is live, do final QA on live version to test all flows are working appropriately via Marketo
 1. Enter the URL of the landing page in the `landingpageURL` token. You will need to remove the `https://` before `page.gitlab.com` in the token for use in emails as this will cause issues with Marketo tracking. Our email templates are coded to have the `https://` hard coded so you do not experience a problem if you properly use the token.
-1. When using the URL in emails or other uses with utm values, Marketo page URLs (starting with page.gitlab.com) should not have a `/` at the end of the page URL before the `?`. This will likely cause the page to redirect. (Correct example: https://page.gitlab.com/webcast-example?{{my.utm}}). Note that about.gitlab.com pages should use a `/`.
+1. When using the URL in emails or other uses with utm values, Marketo page URLs (starting with page.gitlab.com) should not have a `/` at the end of the page URL before the `?`. This will likely cause the page to redirect. (Correct example: <https://page.gitlab.com/webcast-example?{{my.utm}}>). Note that about.gitlab.com pages should use a `/`.
 
 **Specific landing page instructions**
 
@@ -136,13 +136,13 @@ This standardizes our page names for use in reporting and systems such as our AB
   * If a webcast, check that the success message displays properly
   * If a Pathfactory experience, check that the link includes the correct code to (`&lb_email=<email-of-user>`) that will ensure Pathfactory recognizes the individual as a known lead, and track the activity back to the lead/contact record.
 * Check that you receive the confirmation email and run through all the flows by reviewing the `Add to Campaign` smart campaign in your Marketo program (note that if you are using your `@gitlab.com` email address, you will be removed from the flows to avoid inflating program totals for employee form fills)
-* When using the URL in emails or other uses with utm values, about.gitlab.com page URLs (starting with about.gitlab.com) must have a `/` at the end of the page URL before the `?`. Omitting the `/` can cause the form not to display on the page. (Correct example: https://about.gitlab.com/webcast-example/?{{my.utm}}). Note that Marketo pages should not use a `/`.
+* When using the URL in emails or other uses with utm values, about.gitlab.com page URLs (starting with about.gitlab.com) must have a `/` at the end of the page URL before the `?`. Omitting the `/` can cause the form not to display on the page. (Correct example: <https://about.gitlab.com/webcast-example/?{{my.utm}}>). Note that Marketo pages should not use a `/`.
 
 ## Landing page QA review steps
 
 * Go to the page you are going to test:
-    * For Marketo landing pages, open an incognito window and go to the URL of the page you are testing
-    * For landing pages in an MR, when the pipeline approves, go to the review app and navigate to the page you are testing
+  * For Marketo landing pages, open an incognito window and go to the URL of the page you are testing
+  * For landing pages in an MR, when the pipeline approves, go to the review app and navigate to the page you are testing
 * Check for spelling and grammatical errors (note: these should ideally be caught during copy review prior to landing page creation)
 * Check that [conversion best practices](/handbook/marketing/demand-generation/campaigns/landing-pages/#landing-page-conversion-best-practices) are met
 * Fill out the form and ensure all flow steps in Marketo trigger appropriately (i.e. you receive confirmation email, interesting moment applied, program membership updated, alert sent if applicable, etc.)

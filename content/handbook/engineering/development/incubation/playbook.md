@@ -185,7 +185,7 @@ section of the release post Handbook page for the default process. Here is a
 Incubation-adjusted TL;DR:
 
 1. If you created a feature issue that used the [feature issue template]
-   (https://about.gitlab.com/handbook/product/product-processes/#feature-templates),
+   (<https://about.gitlab.com/handbook/product/product-processes/#feature-templates>),
    use the [release post item generator](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/bin/release-post-item)
 2. Alternatively, create your [Release post MR manually](/handbook/marketing/blog/release-posts/#option-2-manual-mr-creation)
 3. Go through the "PM release post item checklist". Note that in Incubation

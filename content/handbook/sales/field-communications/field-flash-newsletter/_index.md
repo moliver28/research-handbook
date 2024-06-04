@@ -38,7 +38,7 @@ The newsletter will...
 **Uphold our [values](/handbook/values/) of transparency**
 
 - The newsletter is for communication, the Handbook is for documentation. This means that the newsletter disseminates updates but leans on the Handbook (and other relevant resources) as the main source of documentation, linking back to it wherever possible.
-   - Note: A tangential benefit of this approach is that it allows us to improve the [Sales Handbook](/handbook/sales/) during this process.
+  - Note: A tangential benefit of this approach is that it allows us to improve the [Sales Handbook](/handbook/sales/) during this process.
 
 **Prioritize repetition, brevity, user-friendliness and added value**
 
@@ -72,7 +72,7 @@ The newsletter will...
 
 **Be general enough to allow us to remain segment-agnostic**
 
-- The newsletter will include general updates and resources that are applicable to most, if not all, team members. Future field communications programs will enable individual field segments (CS, ENT, COMM, PubSec, etc.) with more frequent updates that are tailored to their teams (e.g. [Field Update Tickers] (https://about.gitlab.com/handbook/sales/field-communications/field-update-tickers/)).
+- The newsletter will include general updates and resources that are applicable to most, if not all, team members. Future field communications programs will enable individual field segments (CS, ENT, COMM, PubSec, etc.) with more frequent updates that are tailored to their teams (e.g. [Field Update Tickers] (<https://about.gitlab.com/handbook/sales/field-communications/field-update-tickers/>)).
 
 **Be built out in the open**
 

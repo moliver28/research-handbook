@@ -80,7 +80,7 @@ pre_receive_secret_detection_push_check false`
 The `pre_receive_secret_detection_beta_release` flag will be used to
 enable the [Secret Detection section in the Security and Compliance Admin
 section](https://gitlab.com/admin/application_settings/security_and_compliance
-) (https://gitlab.com/admin -> Settings -> Security and Compliance)
+) (<https://gitlab.com/admin> -> Settings -> Security and Compliance)
 , but _**turning the flag on does not turn on pre-receive secret
 detection**_. Conversely, turning the flag off does not turn
 the feature off.

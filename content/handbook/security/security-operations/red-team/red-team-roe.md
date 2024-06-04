@@ -132,7 +132,7 @@ Techniques used in opportunistic attacks include:
 - Manual or automated exploit attempts on vulnerable software or infrastructure.
 - Manual or automated attempts at abusing misconfigurations.
 - Manually and programmatically querying the GitLab API.
-- Accessing and cloning any public projects, issues, snippets, etc. on www.gitlab.com.
+- Accessing and cloning any public projects, issues, snippets, etc. on <www.gitlab.com>.
 - Accessing other data intended to be open to the public, such as logging platforms.
 - Attempting to log in to any publicly-exposed administrative interface with common and default credentials.
 - Attempting to validate credential data such as GCP service accounts, SSH keys, and API keys found in public locations.

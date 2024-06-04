@@ -90,13 +90,13 @@ To take the most advantage of this integration, pair your banner campaign with a
 Here are three different possible scenarios:
 
 - Scenario 1: You send an email to multiple people within one organization (all with the same @domain.com)
-  - The visitor sessions will be listed as unique events, but the email address "somebody@domain.com" will be associated with each visitor session
+  - The visitor sessions will be listed as unique events, but the email address "<somebody@domain.com>" will be associated with each visitor session
   - The email address will actually say "somebody", and the @domain.com will be the domain you sent the email to
 - Scenario 2: You send an email to one external person, and one or more internal people
   - The external recipient’s email address will be associated with their session data
   - The internal recipients' email address will be listed in PathFactory as unique events from unknown traffic
 - Scenario 3: You send an email to multiple people with different domains
-  - Eg. tim@example.com, sarah@demo.com, and lisa@xyz.com
+  - Eg. <tim@example.com>, <sarah@demo.com>, and <lisa@xyz.com>
   - No email address will be passed to PathFactory, so the visitors' sessions will be listed as unknown traffic and will not have an associated email address
 
 Read more about the partnership between PathFactory and Terminus [here](https://www.pathfactory.com/blog/sigstr-integration/).
@@ -116,7 +116,7 @@ Select the type and frequency of system notifications from Terminus Email Experi
 - **Engagement reports** - Emailed daily or weekly and show who has recently clicked a campaign banner. To opt in/out of your individual engagement report email, visit the employee preference center.
 - **Install Reminders** - Send reminders to all employees who have yet to install their Terminus email signature. These reminders will be sent automatically based on the selected frequency until the user has successfully installed their signature.
 - **Campaign Clicks** - Send real-time notifications to employees anytime someone clicks their Terminus campaign banners. These notifications include the date, time, and contact who clicked on the Campaign banner. Employees can opt out of these notifications by editing their profile. This will automatically enable Campaign Click Notifications for new employees added to Terminus Email Experiences in the future.
-    - **Campaign Click Notification Blocklist** - Ignore clicks from some domains (for example, clicks from email security clients). Currently set up to ignore clicks in analytics from GitLab employees.
+  - **Campaign Click Notification Blocklist** - Ignore clicks from some domains (for example, clicks from email security clients). Currently set up to ignore clicks in analytics from GitLab employees.
 
 ### Privacy & Data
 

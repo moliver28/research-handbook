@@ -107,8 +107,8 @@ Below is the timeline for FY25:
 - Planning: 2022-12-20 to 2023-01-06
 - Calibrations: 2023-01-09 to 2023-01-20
 - Processing: 2023-01-23 to 2023-02-01 (Promotions must be added to Workday by 2023-01-20)
-    - Effective date for promotions: 2023-02-01.
-    - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
+  - Effective date for promotions: 2023-02-01.
+  - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
 
 ## FY25-Q3 (2nd Half)
 
@@ -155,15 +155,15 @@ Please list the 3 most impactful results (accomplishments, initiatives, or proje
 For each result, please use the following structure:
 
 - Project/accomplishment
-    - Example: Creation of the company-wide Org Design Playbook
+  - Example: Creation of the company-wide Org Design Playbook
 - Team member role
-    - Example: Lead the playbook creation from inception to publishing in the handbook in partnership with two other People Business Partners
+  - Example: Lead the playbook creation from inception to publishing in the handbook in partnership with two other People Business Partners
 - Brief (2-3 sentence) description of project/accomplishment and business relevance/importance
-    - Example: One of our [FY25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies) is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member's velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
+  - Example: One of our [FY25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies) is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member's velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
 - Project/accomplishment impact
-    - Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
+  - Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
 - Business result
-    - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook's creation.
+  - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook's creation.
 
 Business relevance refers to why the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). Impact refer to how the project/accomplishment will help drive us in the direction we need to go as an organization. Business result refers to the direct result seen from the team members' contribution.
 
@@ -406,7 +406,7 @@ At GitLab, we ensure that promotions are impactful from the compensation perspec
 
 - When a team member is promoted from one level to the next in the same job family, it is typical to be brought between the minimum and median of the compensation range.
 - The Total Rewards Team typically recommends a 5%-10% increase as part of the promotion to cash compensation. Additional equity is fixed based on [equity for promotions](/handbook/total-rewards/stock-options/#promotions).
-    - Benchmarking data relays that typically [4-8% of your population will be promoted](https://www.shrm.org/ResourcesAndTools/business-solutions/Documents/Human-Capital-Report-All-Industries-All-FTEs.pdf) annually with an average of a [4.1% increase to base salary](https://worldatwork.org/media/CDN/dist/CDN2/documents/pdf/resources/sbs/SBS2022-23_TopLevelData.pdf).
+  - Benchmarking data relays that typically [4-8% of your population will be promoted](https://www.shrm.org/ResourcesAndTools/business-solutions/Documents/Human-Capital-Report-All-Industries-All-FTEs.pdf) annually with an average of a [4.1% increase to base salary](https://worldatwork.org/media/CDN/dist/CDN2/documents/pdf/resources/sbs/SBS2022-23_TopLevelData.pdf).
 - Any promotions with the following conditions will require additional justification to the Total Rewards team and executive approver. Please add the business justification as a comment in the promotion worksheet.
     1. An increase of more than 10%
     1. The promotion exceeds the range in the compensation calculator.
@@ -538,7 +538,7 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 - If the demotion is due to performance, the manager should discuss any performance issues or possible demotions with Team Member Relations.
 - Demotions should also include a review of [compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
 - Once agreement is reached on the demotion and changes (if any) in Team will act as the point of escalation to have any demotion reviewed and approved by the Compensation Group once the relevant google doc is complete.
-- Once approved, the manager informs the individual. Please cc 'peopleops@gitlab.com'  once the individual has been informed, so the changes can be processed in the relevant administrative systems. A [Job Change Letter](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/editm) will then be created.
+- Once approved, the manager informs the individual. Please cc '<peopleops@gitlab.com>'  once the individual has been informed, so the changes can be processed in the relevant administrative systems. A [Job Change Letter](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/editm) will then be created.
 - The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes]({{< ref "promotions-transfers#for-people-connect-team-processing-promotions--compensation-changes" >}}).
 - Communication should be on a need-to-know basis only and should not be made public out of respect for the individual.
 - The manager will initiate any necessary access requests or access change requests.
@@ -547,7 +547,7 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 
 Job title specialties are used to indicate a stage, group and/or a specific focus area of the team member within their responsibilities. These specialties are not part of the job title, but are used to feed into reporting around stage, group and/or focus area investments. It is also a resource for the People Group and leaders to leverage to review organizational health metrics and ratios.
 
-**If any changes are required to a team members Job Title Speciality, the manager should email the People Connect team (people-connect@gitlab.com) promptly with the new job title specialty information along with the effective date of the change. If a new Job Title Specialty that does not already exist needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.**
+**If any changes are required to a team members Job Title Speciality, the manager should email the People Connect team (<people-connect@gitlab.com>) promptly with the new job title specialty information along with the effective date of the change. If a new Job Title Specialty that does not already exist needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.**
 
 ### Job Title Specialty Guidance For Managers
 
@@ -562,16 +562,16 @@ To easily access a report for what current job title specialties are for your te
 #### For Development, Infrastructure, and Quality departments
 
 - Who should have a specialty:
-    - ICs: Job grade 11 and below should  should have Stage and/or primary group (if applicable)
-    - People Mgrs: Managers, Senior Engineering Managers, and Group Product Managers managing ICs should have Stage and/or primary group (if applicable)
+  - ICs: Job grade 11 and below should  should have Stage and/or primary group (if applicable)
+  - People Mgrs: Managers, Senior Engineering Managers, and Group Product Managers managing ICs should have Stage and/or primary group (if applicable)
 - When requesting a job title specialty update, please follow the following formatting:
-    - Review Product/Categories and make sure the group names you use match these. If they don't, please connect with your Product Manager to confirm and work with them to update if needed.
-    - Add both stage and group in the job title specialty field
-        - Example:  Add “Govern: Authentication” instead of “Authentication”
-        - **Important: Please ensure that you leave a space after the colon (:) between stage and group.**. For example, `Create: Source Code` is *correct* formatting, and `Create:Source Code` is *incorrect* formatting. This helps ensure that when pulling reports we have accurate counts for investment alignment.
-    - Review each person and make sure it only lists one group.
-        - Note: In situations where there are two groups, pick the primary group.
-    - Ensure all specialty information is in the `Job Title Specialty` field as opposed to the `Job Title Specialty (Multi-Select)` field.
+  - Review Product/Categories and make sure the group names you use match these. If they don't, please connect with your Product Manager to confirm and work with them to update if needed.
+  - Add both stage and group in the job title specialty field
+    - Example:  Add “Govern: Authentication” instead of “Authentication”
+    - **Important: Please ensure that you leave a space after the colon (:) between stage and group.**. For example, `Create: Source Code` is *correct* formatting, and `Create:Source Code` is *incorrect* formatting. This helps ensure that when pulling reports we have accurate counts for investment alignment.
+  - Review each person and make sure it only lists one group.
+    - Note: In situations where there are two groups, pick the primary group.
+  - Ensure all specialty information is in the `Job Title Specialty` field as opposed to the `Job Title Specialty (Multi-Select)` field.
 
 #### For Customer Support department
 
@@ -612,7 +612,7 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 ### For People Connect: Processing Job Information Change Requests
 
 1. Audit all job change requests and ensure the changes are captured in the Payroll tracker.
-1. In case of `Job Title Specialty` change requests, managers will reach out to the People Connect Team (email people-connect@gitlab.com) to have a team members `Speciality` updated in Workday.
+1. In case of `Job Title Specialty` change requests, managers will reach out to the People Connect Team (email <people-connect@gitlab.com>) to have a team members `Speciality` updated in Workday.
     - The People Connect Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page (example: [https://about.gitlab.com/handbook/engineering/development/enablement/data_stores/search/](/handbook/engineering/development/enablement/data_stores/search/) or if the People Connect Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division)
 
 ## Department Transfers
@@ -622,13 +622,13 @@ If you are interested in applying for an open role, please do so  through [Green
 Please understand the following eligibility guidelines that need to be met to be able to proceed with your application:
 
 - Guidelines for performance eligibility:
-   - Team members who are assessed at a Performing or Exceeding Performance level during Talent Assessment are eligible to be considered for another role
-   - Team members whose Performance is assessed as Developing or are actively undergoing written performance management, may not be eligible. These situations require manager and/or PBP approval to proceed.
-   - Team members that have not had a Talent Assessment require manager and/or PBP approval to proceed
-   - Time in role eligibility will be 6 months in current role. Exceptions to this:
-   - Business Impact  (revenue-dependencies, interim role to perm)
-   - Business driven transfers (example of realignments)
-   - SDR/BDR 12 months in role
+  - Team members who are assessed at a Performing or Exceeding Performance level during Talent Assessment are eligible to be considered for another role
+  - Team members whose Performance is assessed as Developing or are actively undergoing written performance management, may not be eligible. These situations require manager and/or PBP approval to proceed.
+  - Team members that have not had a Talent Assessment require manager and/or PBP approval to proceed
+  - Time in role eligibility will be 6 months in current role. Exceptions to this:
+  - Business Impact  (revenue-dependencies, interim role to perm)
+  - Business driven transfers (example of realignments)
+  - SDR/BDR 12 months in role
 
 **Please note that internal applicants are required to speak with their current manager or People Business Partner prior to application submission. An official application is signaled by a team member applying to the open role or reaching out to the talent acquisition team. Informal conversations about the role do not require a team member to inform their manager. If you have concerns about communicating your interest in an internal role to your manager, please reach out to your People Business Partner.**
 
@@ -745,7 +745,7 @@ When a career mobility may not be needed (but can be requested):
 
 - Team/Speciality change but no access request needed
 
-Any other role changes where a Manager feels their team member's role may require a career mobility issue, please reach out to people-connect@gitlab.com.
+Any other role changes where a Manager feels their team member's role may require a career mobility issue, please reach out to <people-connect@gitlab.com>.
 
 ## Career Mobility Issue Creation Process
 

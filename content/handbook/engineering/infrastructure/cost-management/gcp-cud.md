@@ -51,7 +51,7 @@ The template should include the commitment details, important high level financi
 Before the commitment is considered, the infrastructure analyst should talk with the teams that use the majority of the usage that is being committed to make sure there aren't any major changes expected during the term of the commitment.
 Those teams should be cc'ed in the issue and if they have any concerns voice them at that time.
 
-Example Issue: https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/4010
+Example Issue: <https://gitlab.com/gitlab-com/Finance-Division/finance/-/issues/4010>
 
 #### 3. Once approved, execute purchase
 

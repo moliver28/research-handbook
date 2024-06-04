@@ -173,7 +173,7 @@ Please note that not every member of the team will be observing that holiday, so
 
 1. Once you have completed a screening call with the recruiter and are ready to be scheduled for the Team Interview stage, you'll receive an email requesting availability. To move through this process as quickly as possible, please give us many different days and times spread across at least 2 weeks. This will prevent us from having to reach out again asking for more availability, as some interviewers could be across many different time zones. Sometimes if the interviewer has a schedule that is difficult to fit interviews into, we'll suggest specific times and dates via your availability link.
 1. After receiving your availability, we will compare it to the interviewers' working hours. If we find a match, we will schedule an interview and send you a link to a Guide and invite in your time zone to download to your computer. If we do not, we will reach back out and work with you to find an alternative. Sometimes there is a very small overlap between time zones, so we appreciate your patience as we identify alternatives!
-1. If you need to reschedule, follow the special instructions in your confirmation email if the interview is within 24 hours. You can also email ces@gitlab.com anytime.
+1. If you need to reschedule, follow the special instructions in your confirmation email if the interview is within 24 hours. You can also email <ces@gitlab.com> anytime.
 {{% /details %}}
 
 ## References

@@ -18,15 +18,15 @@ At its peak, GitLab’s Marketing site contained over 3500 pages. Many of these 
 
 Another example is cases where we have several similar pages that may make sense from an inside-out perspective, but from a customer-centric perspective, they confuse our prospective customers. Example: CI/CD Pages:
 
-1. https://about.gitlab.com/stages-devops-lifecycle/continuous-integration
-1. https://about.gitlab.com/snapshots/continuous-integration
-1. https://about.gitlab.com/topics/ci-cd
-1. https://about.gitlab.com/resources/ebook-single-app-cicd
-1. https://about.gitlab.com/webcast/mastering-ci-cd
+1. <https://about.gitlab.com/stages-devops-lifecycle/continuous-integration>
+1. <https://about.gitlab.com/snapshots/continuous-integration>
+1. <https://about.gitlab.com/topics/ci-cd>
+1. <https://about.gitlab.com/resources/ebook-single-app-cicd>
+1. <https://about.gitlab.com/webcast/mastering-ci-cd>
 
 A byproduct of the uncontrolled increase in pages is the unintended effect of diluting the value of the data we collect from Google Analytics. With so many pages receiving little traffic and providing little value to our prospective customers, we struggle to get concentrated data on core pages.
 
-The codeowners feature was launched on GitLab in 2019, and this requirement was identified with support from the previous CMO but was never actioned: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/4085
+The codeowners feature was launched on GitLab in 2019, and this requirement was identified with support from the previous CMO but was never actioned: <https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/4085>
 
 ### Goals
 
@@ -40,7 +40,7 @@ The approval process will increase the consistency of our Marketing site while e
 
 We do not want to compromise [GitLab’s everyone can contribute mission](/handbook/company/mission/#mission). Our strategy is to implement a minimal approvals process. Currently, an MR goes live straight to production; this change results in a contribution taking the form of an AB Test proposal (issue) or for an MR to be reviewed before being merged into production.
 
-The Digital Experience team has set up a project for AB Test proposals as a repo: https://gitlab.com/gitlab-com/marketing/digital-experience/ab-testing. Anyone can contribute an issue using the AB Testing issue template (template in progress).
+The Digital Experience team has set up a project for AB Test proposals as a repo: <https://gitlab.com/gitlab-com/marketing/digital-experience/ab-testing>. Anyone can contribute an issue using the AB Testing issue template (template in progress).
 
 Not everything needs to be an AB Test proposal; we still prioritize MRs as defined in the handbook: [everything starts with an MR](/handbook/communication/#everything-starts-with-a-merge-request).
 

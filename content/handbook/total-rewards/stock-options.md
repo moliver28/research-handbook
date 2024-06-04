@@ -82,21 +82,21 @@ In September 2021, the Company’s board of directors and its stockholders appro
 
 ### Changing Contribution Amounts
 
-   - Contribution increases and decreases are limited during Offering and Purchase Periods
-   - Increases: Team members may not increase their contributions after the Offering Period begins.
-   - Decreases: Team Members  may decrease their contribution rates once during any Offering Period.
+- Contribution increases and decreases are limited during Offering and Purchase Periods
+- Increases: Team members may not increase their contributions after the Offering Period begins.
+- Decreases: Team Members  may decrease their contribution rates once during any Offering Period.
 
 ### Stop Contributions
 
-   - Team members may reduce their contribution to 0% during an offering period.
-   - Any prior contributions will be used to purchase shares on the scheduled purchase date.
-   - At the end of the offering period, the team member will be automatically withdrawn from the offering period effective as of the day after the purchase date following the date of the request.
-   - Team members would need to re-enroll as a new participant in the next open enrollment window and begin a new Offering Period  if they wish to participate in the future.
+- Team members may reduce their contribution to 0% during an offering period.
+- Any prior contributions will be used to purchase shares on the scheduled purchase date.
+- At the end of the offering period, the team member will be automatically withdrawn from the offering period effective as of the day after the purchase date following the date of the request.
+- Team members would need to re-enroll as a new participant in the next open enrollment window and begin a new Offering Period  if they wish to participate in the future.
 
 ### Withdrawals
 
-   - Team members may withdraw from the ESPP at any time and receive a refund of their withheld contributions. The refunds are processed through Payroll.
-   - Team members who withdraw would need to re-enroll in order to participate in future Offering Periods.
+- Team members may withdraw from the ESPP at any time and receive a refund of their withheld contributions. The refunds are processed through Payroll.
+- Team members who withdraw would need to re-enroll in order to participate in future Offering Periods.
 
 Details on eligibility, enrollment, calculations, pricing and dollar value can be found at [ESPP Training Deck](https://docs.google.com/presentation/d/1X_IcuK8ORiQg_nsi1km6c9_Ewbv5FD1bdnO06C-snV8/edit#slide=id.gede224808f_0_39)
 
@@ -169,7 +169,7 @@ Per our [SAFE framework](/handbook/legal/safe-framework/), we do not add specifi
 
 While the company has the right to repurchase the unvested shares upon your termination of services, the company is not obligated to do so. Accordingly you could lose some or all of the investment you made. Because we are a young company there are lots of risks, so be aware and informed of the risks.
 
-You may exercise and hold your options even outside of an open trading window. If you are a Designated Insider, please email stockadmin@gitlab.com and they will enable you to do so in your E-TRADE account. Team members will have 5 trading days to execute their exercise. Please seek advice from your financial advisor or tax advisor prior processing your exercise.
+You may exercise and hold your options even outside of an open trading window. If you are a Designated Insider, please email <stockadmin@gitlab.com> and they will enable you to do so in your E-TRADE account. Team members will have 5 trading days to execute their exercise. Please seek advice from your financial advisor or tax advisor prior processing your exercise.
 
 ## E-TRADE: Exercising your Shares in an Open Trading Window
 
@@ -180,17 +180,17 @@ For trading in an open trading window, please find the following instructions fo
 
 ## Purchasing GTLB Stock
 
-If you would like to purchase GTLB shares, this must be done through your E*TRADE retail account during an open trading window. We would ask that you send us a message at stockadmin@gitlab.com as we will need to get consent from you to track your GTLB retail shares.
+If you would like to purchase GTLB shares, this must be done through your E*TRADE retail account during an open trading window. We would ask that you send us a message at <stockadmin@gitlab.com> as we will need to get consent from you to track your GTLB retail shares.
 
 ## Questions about your stock plan or retail account
 
 ### E-TRADE Securities Customer Service 12 a.m. Monday to 11:59 p.m. Friday ET   Closed holidays  (800-838-0908)
 
- - Activating your account
- - Navigating the Stock Plan section of etrade.com
- - Finding tax information
- - Disbursing cash from and depositing cash to your brokerage account
- - Buying and selling securities in your brokerage account
+- Activating your account
+- Navigating the Stock Plan section of etrade.com
+- Finding tax information
+- Disbursing cash from and depositing cash to your brokerage account
+- Buying and selling securities in your brokerage account
 
 ### Option Expiration
 

@@ -112,7 +112,7 @@ We need **one** of the following in order to verify eligibility for the subscrip
 1. For a SaaS customer you can verify that the ticket requestor is an owner in the namespace attached to the subscription by:
    1. Asking them to:
       1. Login to their gitlab.com namespace as a group owner.
-      1. Open an API call to their namespace URL: "https://gitlab.com/api/v4/namespaces/<customer_namespace>/gitlab_subscription".
+      1. Open an API call to their namespace URL: "<https://gitlab.com/api/v4/namespaces/><customer_namespace>/gitlab_subscription".
       1. Copy/paste the returned data to the support ticket.
    1. Using a gitlab.com admin account to verify the accuracy of the provided
       subscription data and then approving or denying the request accordingly.

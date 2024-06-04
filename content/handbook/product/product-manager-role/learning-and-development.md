@@ -135,11 +135,11 @@ GitLab reimburses its team members the yearly Reforge membership fees as long as
 - enrolls in at least one programme, preferably a cohort during the year
 - finds at least one more GitLab team member who enrolls into the same cohort/programme
 - organizes a study group either with the other GitLab team member to follow along the cohort/programme
-   - the study group is expected to discuss all the Reforge topics with a special focus on their applicability within GitLab
-   - the study group can be a Reforge study group
+  - the study group is expected to discuss all the Reforge topics with a special focus on their applicability within GitLab
+  - the study group can be a Reforge study group
 - the GitLab team members in the study group propose process changes and create analytics requests
 
-If you are part of the Product team and are interested in a Reforge membership, we are planning to set up a **team plan** for a discounted rate, see details in https://gitlab.com/gitlab-com/Product/-/issues/5135.
+If you are part of the Product team and are interested in a Reforge membership, we are planning to set up a **team plan** for a discounted rate, see details in <https://gitlab.com/gitlab-com/Product/-/issues/5135>.
 
 ## General Product Management learning content
 
@@ -639,10 +639,10 @@ _Please contribute your favorite resources here_
 ##### Deeper dive
 
 - Kubernetes for Product Managers
-   - [Slides](https://docs.google.com/presentation/d/1rUlyq25xrULVdCYqW_TF-1L0fP1hpzqDxA7ciupc9is/edit#slide=id.p)
-   - [Video: Part 1](https://youtu.be/WboRFl5Ebdk)
-   - [Video: Part 2](https://youtu.be/9aC1EZF_zy4)
-   - [Video: Part 3](https://youtu.be/uye3PhRhXr4)
+  - [Slides](https://docs.google.com/presentation/d/1rUlyq25xrULVdCYqW_TF-1L0fP1hpzqDxA7ciupc9is/edit#slide=id.p)
+  - [Video: Part 1](https://youtu.be/WboRFl5Ebdk)
+  - [Video: Part 2](https://youtu.be/9aC1EZF_zy4)
+  - [Video: Part 3](https://youtu.be/uye3PhRhXr4)
 
 ##### Online courses
 

@@ -21,14 +21,14 @@ Both the development (assigning resources from the Data Team, from other teams i
 **Please, before request adding a new data source, take the following into account:**
 
 - Is there a valid [business case](/handbook/business-technology/data-team/how-we-work/#data-team-value-calculator)?
-   - Sometimes the business case is to comply with regulatory requirements.
-   - Sometimes the business case is straightforward because value potential is clear above the investment costs.
-   - Most of the time it’s hard to quantify, because either the value is unsure or the costs are unsure. Feel free to have an open and honest discussion with the Data Team. We have the experience and could help with the justification and this does not necessarily need to be a scientific calculation.
+  - Sometimes the business case is to comply with regulatory requirements.
+  - Sometimes the business case is straightforward because value potential is clear above the investment costs.
+  - Most of the time it’s hard to quantify, because either the value is unsure or the costs are unsure. Feel free to have an open and honest discussion with the Data Team. We have the experience and could help with the justification and this does not necessarily need to be a scientific calculation.
 - The work is not done when data lands in the data warehouse. The data will 'just' land in the `raw` data layer, and this is not accessible by default for Sisense. Data need to be loaded downstream into the [Enterprise Dimensional Model](/handbook/business-technology/data-team/platform/edw/) (EDM) via dbt. Follow up needs to take place, and will come on top of the process described on this page.
-   - Downstream modelling could be handled by the business team, because we embrace contribution on our data platform. Please note that extensive ([dbt-](/handbook/business-technology/data-team/platform/dbt-guide/), SQL- and data modelling knowledge is needed)
-   - Downstream modelling could be handled by the Data Team, ideally by a [Data Fusion Team](/handbook/business-technology/data-team/organization/#data-fusion-team-organization). Planning needs to take place and priorities are set in line with company priorities. **This falls not within the scope of adding a new data source to the data warehouse**, thus this needs to be arranged subsequently.
-   - If data is extracted in (complex) JSON format, a Data Engineer can support or can flatten the data to a tabular format and load this towards the `PREP` database.
-   - There are 3 ways to follow up on the downstream [data development](/handbook/business-technology/data-team/data-development/).
+  - Downstream modelling could be handled by the business team, because we embrace contribution on our data platform. Please note that extensive ([dbt-](/handbook/business-technology/data-team/platform/dbt-guide/), SQL- and data modelling knowledge is needed)
+  - Downstream modelling could be handled by the Data Team, ideally by a [Data Fusion Team](/handbook/business-technology/data-team/organization/#data-fusion-team-organization). Planning needs to take place and priorities are set in line with company priorities. **This falls not within the scope of adding a new data source to the data warehouse**, thus this needs to be arranged subsequently.
+  - If data is extracted in (complex) JSON format, a Data Engineer can support or can flatten the data to a tabular format and load this towards the `PREP` database.
+  - There are 3 ways to follow up on the downstream [data development](/handbook/business-technology/data-team/data-development/).
 - Adding a new data source to the data warehouse is not an 1 off exercise. As soon as the data is extracted to the data warehouse, on a regular cadence (once week, once a day, multiple times per day, etc..) data will be refreshed. This means something can happen or can go wrong after the implementation. We will need a DRI from the source side (business and technical) to support this process when needed.
 - Data could be used, outside of the EDM. I.e. by a Function Analyst, in the `raw` data layer. Raise an AR to get access to the raw data.
 - When data ends up in the EDM, work is to be performed in Sisense by creating a dashboard. Also for doing this, some technical knowledge is required.
@@ -210,7 +210,7 @@ During the development, the Data Engineer aligns with all the stakeholders, abou
 
 #### Creating labels
 
-When it is a complete new data pipeline that extracts data from a upstream system that is not yet extracted, create a new label on in the [GitLab Data](https://gitlab.com/groups/gitlab-data/) group. I.e: https://gitlab.com/groups/gitlab-data/-/labels/23453371/edit
+When it is a complete new data pipeline that extracts data from a upstream system that is not yet extracted, create a new label on in the [GitLab Data](https://gitlab.com/groups/gitlab-data/) group. I.e: <https://gitlab.com/groups/gitlab-data/-/labels/23453371/edit>
 
 ### workflow::6 - review
 
@@ -232,7 +232,7 @@ When extracting new data towards Snowflake and the data source is not listed or 
 
 - The team member must state a business case to connect the system to the Data Platform.
 - The team member that requests the connection will perform an analysis of the data and confirm the data that is extracted is not Red data.
-   - For instances where Red data (fields) must be ingested into Snowflake, [masking](/handbook/business-technology/data-team/platform/#data-masking) will be applied upon extraction.
+  - For instances where Red data (fields) must be ingested into Snowflake, [masking](/handbook/business-technology/data-team/platform/#data-masking) will be applied upon extraction.
 - BT/Data VP-level, Legal and Security must sign off to start the implementation.
 
 ## Monte Carlo observability

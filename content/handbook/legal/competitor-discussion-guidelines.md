@@ -18,7 +18,7 @@ Do:
 - Initiate, and engage in, general discussions about competitor product features. For example, a discussion about the advantages and disadvantages of collaborate.ly's new implementation of merge commit messages, which includes screenshots of collaborate.ly's product obtained from publicly-available sources, is permissible.
 - Share screenshots of competitor products for the purpose of illustration and commentary when initiating or engaging in general discussions about competitor product features, provided screenshots are obtained from a publicly-available source and not from products accessed via a free trial, or via a free or paid account.
 - Engage in general discussions about competitor product features in response to screenshots shared by community members.
-- Include screenshots of competitor products in GitLab's documentation (https://docs.gitlab.com/) for reference purposes, for example, in instructions on migrating from a third-party platform to GitLab, integration with another platform, or use of GitLab CI/CD in a third-party repository.
+- Include screenshots of competitor products in GitLab's documentation (<https://docs.gitlab.com/>) for reference purposes, for example, in instructions on migrating from a third-party platform to GitLab, integration with another platform, or use of GitLab CI/CD in a third-party repository.
 - Reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) with any questions.
 
 Do not:

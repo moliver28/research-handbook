@@ -30,7 +30,7 @@ For issues that require action from the Privacy Team, apply the label `Privacy::
 - `Privacy::Done` - when the Privacy Team has finished their portion of the issue
 - `Privacy::Attention` for awareness only, no action needed.
 
-For sensitive, private, or confidential requests email legal_internal@gitlab.com. Please do not send emails to this address for engineering, marketing, sales or procurement requests. These should be directed to #legal or an issue should be created in the [Legal and Compliance](https://gitlab.com/gitlab-com/legal-and-compliance) project.
+For sensitive, private, or confidential requests email <legal_internal@gitlab.com>. Please do not send emails to this address for engineering, marketing, sales or procurement requests. These should be directed to #legal or an issue should be created in the [Legal and Compliance](https://gitlab.com/gitlab-com/legal-and-compliance) project.
 
 ## What Data Privacy Means
 

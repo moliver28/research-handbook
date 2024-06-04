@@ -109,7 +109,7 @@ The request contains information about the browser, the
 GitLab version and the HTTP referrer. The HTTP referrer is the URL from
 which the request was sent. So it is the URL of the help page or the admin
 area page of the admin's GitLab instance. E.g. if you visit the help page on
-gitlab.com the HTTP referrer is https://gitlab.com/help. Furthermore the
+gitlab.com the HTTP referrer is <https://gitlab.com/help>. Furthermore the
 browser has to send the IP address of the instance combined with the request to
 receive a response. None of this information is saved.
 

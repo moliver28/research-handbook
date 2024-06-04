@@ -56,7 +56,7 @@ Below are instructions on how to provision new users within various Sales-owned 
 
 ### DataFox
 
-1. From the [Settings Page] (https://app.datafox.com/settings/general-information) in DataFox located in the top right under your name, click on **Team Management** located on the left.
+1. From the [Settings Page] (<https://app.datafox.com/settings/general-information>) in DataFox located in the top right under your name, click on **Team Management** located on the left.
 1. From **Team Management**, click the **Invite Your Team** button, enter the email addresses of the users to be provisioined, click **Send Invitations**.
 1. Most users will have a **Status of Member**, unless otherwise stated in the Access Request.
 1. Most users will also have the permission to **Bulk Sync Accounts** unless otherwise noted in the Access Request

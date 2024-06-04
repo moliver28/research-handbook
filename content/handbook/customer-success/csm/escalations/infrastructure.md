@@ -29,7 +29,7 @@ Customer Success will seek to use the incident issue as the single source of tru
  to ensure that duplicated information does not become stale.
 
 In the event that an incident issue is confidential, CSMs should leverage the
- publicly-available communications such as those shared by the CMOC on https://status.gitlab.com.
+ publicly-available communications such as those shared by the CMOC on <https://status.gitlab.com>.
 
 Immediately following the resolution of an incident, asynchronous work to author
  an Incident Review is started within the incident issue. Within seven working days,

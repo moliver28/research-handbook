@@ -68,14 +68,14 @@ Faster time to market and shorter cycle times are a major challenge that is face
       1. IDC recognized GitLab as a top 3 innovator in Agile Code Development Technologies for 2018.
 
    1. Industry Awards
-      1. G2 Crowd LEADER: https://www.g2crowd.com/products/gitlab/reviews
+      1. G2 Crowd LEADER: <https://www.g2crowd.com/products/gitlab/reviews>
       1. Axosoft: GitLab is giving GitHub a run for its money! GitLab climbed the ranks 4 spots and overtook GitHub for the first year.
 
    1. Other assets?
-      1. https://about.gitlab.com/why
-      1. Whitepaper: SCALED CONTINUOUS INTEGRATION & DELIVERY https://page.gitlab.com/rs/194-VVC-221/images/gitlab-scaled-ci-cd-whitepaper.pdf
+      1. <https://about.gitlab.com/why>
+      1. Whitepaper: SCALED CONTINUOUS INTEGRATION & DELIVERY <https://page.gitlab.com/rs/194-VVC-221/images/gitlab-scaled-ci-cd-whitepaper.pdf>
       1. GitLab and Agile Project Management
-      1. https://about.gitlab.com/topics/devops/reduce-devops-costs/
+      1. <https://about.gitlab.com/topics/devops/reduce-devops-costs/>
       1. What is DevOps
-      1. Starting and Scaling DevOps https://about.gitlab.com/resources/scaling-enterprise-devops/
+      1. Starting and Scaling DevOps <https://about.gitlab.com/resources/scaling-enterprise-devops/>
       1. Whitepaper: on the Plan stage (currently in design and will be published ASAP)

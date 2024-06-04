@@ -71,7 +71,7 @@ If we suspect that a third party is making unauthorized use of the term **GitLab
 - **Third party marketing materials or product names:** Unauthorized use in a way that infers that GitLab endorses or sponsors the publisher of the marketing material.
 - **Browser ads (title or copy):** These uses can be reported by the Legal and Corporate Affairs team to the relevant browser operator (e.g. [Google](https://services.google.com/inquiry/aw_tmcomplaint), [Bing](https://about.ads.microsoft.com/en-us/resources/policies/trademark-misuse))
 
-If you’re not a GitLab team member, please share any reports of suspected infringement with us at intellectualproperty@gitlab.com.
+If you’re not a GitLab team member, please share any reports of suspected infringement with us at <intellectualproperty@gitlab.com>.
 
 ### Using Third-party Trademarks
 

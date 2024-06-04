@@ -19,10 +19,10 @@ Expenses against the $45/person target can be submitted for reimbursement via Ex
 
 | Description | Organizer | Details |
 |-------------|-----------|---------|
-| Verify Team Hoodies | @darbyfrey | https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10205 |
+| Verify Team Hoodies | @darbyfrey | <https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10205> |
 | Monitor Team Hoodies | @crystalpoole |  [monitor#53](https://gitlab.com/gitlab-org/monitor/monitor/-/issues/53) |
-| Ops Section Among Us Tournament | @crystalpoole | https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10269 |
-| Configure Team Donate to Charity | @nicholasklick | https://gitlab.com/gitlab-org/configure/general/-/issues/106 |
+| Ops Section Among Us Tournament | @crystalpoole | <https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10269> |
+| Configure Team Donate to Charity | @nicholasklick | <https://gitlab.com/gitlab-org/configure/general/-/issues/106> |
 
 ### June 2020 Ops Sub-department Virtual Pizza Party
 

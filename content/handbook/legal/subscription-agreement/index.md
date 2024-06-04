@@ -71,7 +71,7 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 “User(s)” is defined as the unique and single Individual, employee, Contractor, or other third-party individual or machine authorized by Customer (in accordance with this Agreement) that requires the provision of a seat within the admin platform, who are able to access the Software purchased under a Subscription, regardless of whether the User actually accesses, or the frequency with which they access, the Software. A User must be over the age of thirteen (13) years old.
 
-“Website” means GitLab’s website located at www.gitlab.com and all subdomains, and all content, services, documentation provided on the Website.
+“Website” means GitLab’s website located at <www.gitlab.com> and all subdomains, and all content, services, documentation provided on the Website.
 
 ### 2. SCOPE OF AGREEMENT; ADDITIONAL TERMS
 
@@ -186,7 +186,7 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 7.7 Both parties will have the right to disclose Confidential Information in connection with: (i) a required filing to a governmental authority (provided such party will use reasonable efforts to obtain confidential treatment or a protective order), or (ii) disclosures made to potential investors or acquirers, provided that at all times the Confidential Information shall be protected in a manner no less stringent as set forth in this Section 7.
 
-7.8 GitLab may collect data with respect to, and report on the aggregate response rate and other aggregate measures of, the Software performance and Customer’s usage of the Software. An overview of such data can be found at https://about.gitlab.com/handbook/legal/privacy/customer-product-usage-information/. Notwithstanding the foregoing, GitLab will not identify Customer to any third party as the source of any such data without Customer’s prior written consent.
+7.8 GitLab may collect data with respect to, and report on the aggregate response rate and other aggregate measures of, the Software performance and Customer’s usage of the Software. An overview of such data can be found at <https://about.gitlab.com/handbook/legal/privacy/customer-product-usage-information/>. Notwithstanding the foregoing, GitLab will not identify Customer to any third party as the source of any such data without Customer’s prior written consent.
 
 ### 8. INTELLECTUAL PROPERTY RIGHTS
 

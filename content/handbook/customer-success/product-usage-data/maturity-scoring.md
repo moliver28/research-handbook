@@ -35,21 +35,21 @@ Product Management, Data, and Customer Success teams play a big role in identify
 <details>
   <summary markdown="span"> Use Case Resource Pages </summary>
 
-  - [SCM](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#adoption-recommendation)
+- [SCM](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#adoption-recommendation)
   <br>
-  - [CI](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#adoption-recommendation)
+- [CI](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#adoption-recommendation)
   <br>
-  - [CD](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/#adoption-recommendation)
+- [CD](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/#adoption-recommendation)
   <br>
-  - [Security (DevSecOps)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/)
+- [Security (DevSecOps)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/)
   <br>
-  - [Compliance](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/compliance/)
+- [Compliance](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/compliance/)
   <br>
-  - [Artifact Management (Package)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/package/)
+- [Artifact Management (Package)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/package/)
   <br>
-  - [GitOps](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#adoption-recommendation)
+- [GitOps](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#adoption-recommendation)
   <br>
-  - [Agile](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/agile/#adoption-recommendation)
+- [Agile](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/agile/#adoption-recommendation)
 
   </details>
 
@@ -119,7 +119,7 @@ The following primary and ancillary metrics are used to determine a customer's C
 - [Template Deck for Customer Conversations](https://docs.google.com/presentation/d/13IVtUCA8-S3Tjtcnk3y6eY-zEG6R5hmD3bSoKn3C-N8/edit?usp=sharing) (Internal Only)
 - Use the [Use Case Adoption Scorecard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/f18df482-a70f-4a8b-8c82-1f99538d777e) dashboard in Gainsight to view your customer's CI Metrics to export and calculate the Adoption score
 - [Value Statements for CI Adoption Score](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/#customer-adoption-and-value)
-    - This should help guide the conversation around how CI Adoption is measured and how to improve adoption.
+  - This should help guide the conversation around how CI Adoption is measured and how to improve adoption.
 - [Use Case Adoption Scoring - Defined Metrics](https://docs.google.com/spreadsheets/d/1dJLQIwoQxSK6pJL-ZmbMK_VUBmY0INZPgVsWqsypHzI/edit?usp=sharing) (Internal Only)
 
 <!-- blank line -->
@@ -129,9 +129,9 @@ The following primary and ancillary metrics are used to determine a customer's C
 <!-- blank line -->
 
 - CI Adoption Scoring Walk-through
-    - [Session 1](https://youtu.be/E4IMgFWGkNM) (Internal Only)
-    - [Session 2](https://chorus.ai/meeting/E4F00AFC0C4A4036A7AC370653A50112?) (Internal Only)
-    - [Value Statements for CI Adoption](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/#customer-adoption-and-value)
+  - [Session 1](https://youtu.be/E4IMgFWGkNM) (Internal Only)
+  - [Session 2](https://chorus.ai/meeting/E4F00AFC0C4A4036A7AC370653A50112?) (Internal Only)
+  - [Value Statements for CI Adoption](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/#customer-adoption-and-value)
 
 ### Security (DevSecOps) Adoption Scoring
 

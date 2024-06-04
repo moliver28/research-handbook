@@ -31,7 +31,7 @@ Under this model, the axes represent the following scalability strategies:
 * **`Z`**-axis: **federation**
   * separation based on customer or requestor bias
 
-These are well-known strategies we are intuitively familiar with. The power of formally adopting the framework lies in that we can now contextualize these strategies and potentially *consider* several moves ahead in a systematic fashion. The following figure (source: https://upload.wikimedia.org/wikipedia/commons/5/5f/Scale_Cube.png) depicts these axes:
+These are well-known strategies we are intuitively familiar with. The power of formally adopting the framework lies in that we can now contextualize these strategies and potentially *consider* several moves ahead in a systematic fashion. The following figure (source: <https://upload.wikimedia.org/wikipedia/commons/5/5f/Scale_Cube.png>) depicts these axes:
 
 ![https://upload.wikimedia.org/wikipedia/commons/5/5f/Scale_Cube.png](img/scale_cube.png)
 
@@ -123,7 +123,7 @@ Sometimes, it makes sense to split a given component in terms of time. Pipelines
 Performance indicators are scalability-related instrumentation that enables us to understand component and application scalability limits. They’re currently being worked on by the Scalability Team:
 
 * [**https://docs.google.com/document/d/1lZ7RKtv7yCkV7MVx-7UfZZMvEB9lzLrrFDUw0oVFxXA/edit#heading=h.ibm29qjhrqeb**](https://docs.google.com/document/d/1lZ7RKtv7yCkV7MVx-7UfZZMvEB9lzLrrFDUw0oVFxXA/edit#heading=h.ibm29qjhrqeb)
-* https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/382
+* <https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/382>
 
 Performance indicators allow prioritization of scalability work.
 

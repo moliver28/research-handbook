@@ -82,8 +82,8 @@ however, we also have synchronous meetings. It's unlikely everyone can attend
 those meetings, so we record them and share written summaries ([agenda](https://docs.google.com/document/d/1W7QsQL_2wMLW9KJU5ZEZdyIqYtRC6_bwOoNXJUWNbiU/edit)).
 Currently we have the following recurring meetings scheduled:
 
- - Weekly Monday - Tenant Scale Group Sync (APAC/EMEA) 8:30AM UTC (2:30AM PDT)
- - Weekly Thursday - Tenant Scale Group Sync (EMEA/AMER) 3:00PM UTC (7:00AM PDT)
+- Weekly Monday - Tenant Scale Group Sync (APAC/EMEA) 8:30AM UTC (2:30AM PDT)
+- Weekly Thursday - Tenant Scale Group Sync (EMEA/AMER) 3:00PM UTC (7:00AM PDT)
 
 ## Work
 
@@ -317,18 +317,18 @@ to allow the group to focus on long-term scalability work.
 
 You can find our group metrics in the [Tenant Scale Group Engineering Metrics page](/handbook/engineering/metrics/enablement/data-stores/tenant-scale).
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="tenant scale" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}
 {{< /tableau >}}

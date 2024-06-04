@@ -78,10 +78,10 @@ GitLab's blogs play a vital role in brand social's success, particularly from th
 Below is the workflow for publishing blogs on brand social channels.
 
 - Social team member sees new blogs in the #content-updates Slack channel
-- Social team member takes the link and heads to Sprout's publishing settings to set the UTMs: https://app.sproutsocial.com/settings/publishing/)
+- Social team member takes the link and heads to Sprout's publishing settings to set the UTMs: <https://app.sproutsocial.com/settings/publishing/>)
 - Under URL tracking, click "+add url"
 - Set the parameter for campaign and save it. For basic blogs, the campaign is blog. If it can be (or is explicitly) tied to a marketing campaign, use that campaign utm. e.g., 10years, seeingisbelieving, devopsplatform. If you are unsure, ask the editorial team inside the Slack thread for the blog.
-- Head to Sprout's publishing tab: https://app.sproutsocial.com/publishing/, and schedule blog content. When you add the URL of the blog to the post, it will automatically add UTMs based on the channel and use the preconfigured campaign UTM from above.
+- Head to Sprout's publishing tab: <https://app.sproutsocial.com/publishing/>, and schedule blog content. When you add the URL of the blog to the post, it will automatically add UTMs based on the channel and use the preconfigured campaign UTM from above.
 
 Key parameters on sharing blogs
 
@@ -89,9 +89,9 @@ Key parameters on sharing blogs
 - Schedule each blog at least 1x across Twitter, Facebook, and LinkedIn, unless the blog would only benefit from key niche audiences on specific channels (e.g. community-oriented posts for Twitter, or job related ones on LinkedIn). Our audiences do have a great amount of cross-pollination, so many blogs will make sense across channels.
 - Consider scheduling additional timeslots 2-8 weeks ahead of your first scheduled posts. E.g. a new product launch, timed details are included with end dates, etc. If there are weeks between posts, using the same copy is fine. However, if these posts would appear back-to-back week over week, consider editing the copy to be different.
 - General blog coverage without subjective needs added may look like this:
-   - Copy 1 scheduled on FB, TW, LI
-   - Copy 1 scheduled on TW again in 2 weeks
-   - Copy 2 scheduled on FB, TW, and LI approx 4 weeks from the original scheduled date above.
+  - Copy 1 scheduled on FB, TW, LI
+  - Copy 1 scheduled on TW again in 2 weeks
+  - Copy 2 scheduled on FB, TW, and LI approx 4 weeks from the original scheduled date above.
 - Unless dates/times require specific publishing time windows, the specific publishing volume and timelines aren't are important as it is to dynamically create variability in our content and our topics by mixing blogs and topics with other posts.
 
 ## Organic Social and GTM Motions
@@ -215,7 +215,7 @@ Please see [details in the Digital Marketing handbook](/handbook/marketing/integ
 
 ### Links in bio with LinkTree
 
-[LinkTree](https://linktr.ee/) is bio link tool. The Social Media team uses LinkTree to drive traffic to the GitLab website. Folks will click the link in bio and have a few options to choose from before landing on a webpage. The GitLab brand Linktree is: https://linktr.ee/GitLab
+[LinkTree](https://linktr.ee/) is bio link tool. The Social Media team uses LinkTree to drive traffic to the GitLab website. Folks will click the link in bio and have a few options to choose from before landing on a webpage. The GitLab brand Linktree is: <https://linktr.ee/GitLab>
 
 At GitLab we have multiple CTA's and campaign goals. The idea here is that a LinkTree will give our community an exit route and determine themselves- on where they land. Once you click the link in bio you'll have tiles to choose from: Homepage, Handbook, Press, Blog, Get a Free Trial, etc. Tile options are a continuous iteration as they will change to reflect current campaigns.
 

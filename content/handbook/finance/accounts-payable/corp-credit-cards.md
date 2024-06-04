@@ -34,7 +34,7 @@ anything over $50.   You can add the receipt once the charge reflects in Navan C
 - Non-Permissible items will be flagged upon charge. Please ensure to only use the card for items under permissible items only.
 - Purchases on your card should not exceed $5,000 USD for each transaction.
 - If your purchase will be over $5,000 USD, you will need to enter a Purchase Requisition in Zip. AP prefers to pay vendors by ACH whenever possible. To get started with Zip for a vendor who can be paid by normal invoicing and payment methods, see [Zip End Users Guide](/handbook/business-technology/enterprise-applications/guides/zip-guide/).
-- If a charge is made in error, please reach out to expenses@gitlab.com on the process to reimburse GitLab. It is an arduous process, so we ask to avoid this at all cost.
+- If a charge is made in error, please reach out to <expenses@gitlab.com> on the process to reimburse GitLab. It is an arduous process, so we ask to avoid this at all cost.
 - Any reports with continuous violations to our policy will be subject to management review and could be taken away for non-compliance.
 
 ## 3. Permissible Items
@@ -192,13 +192,13 @@ Upon review, if more clarification is needed for a certain expense, the AP team 
 
 - An authorized user must follow GitLab’s Code of Business Conduct and Ethics as these cards are considered GitLab Property.
 - Any reports with continuous violations to our policy will be subject to management review and could be taken away for non-compliance.
-- A cardholder must detail any disputed transaction in writing to expenses@gitlab.com with a copy to the issuing bank to resolve any disputes. The cardholder must ensure that a refund, if processed, should be in favor of GitLab.
+- A cardholder must detail any disputed transaction in writing to <expenses@gitlab.com> with a copy to the issuing bank to resolve any disputes. The cardholder must ensure that a refund, if processed, should be in favor of GitLab.
 
 ### 8.4 Card Lost or Stolen
 
 - It is the cardholder’s responsibility to always safeguard the Navan Physical card and Navan Physical card account number and/or security number.
 - Cards that are lost or stolen must be reported immediately by the cardholder to the AP Analyst who will take appropriate steps to cancel it.
-- At the earliest opportunity, a written notification must also be given to Expenses@GitLab.com  and Card administrator so that the cancellation of the card may be confirmed and a reconciliation of the card account from the date the card was lost or stolen may be performed.
+- At the earliest opportunity, a written notification must also be given to <Expenses@GitLab.com>  and Card administrator so that the cancellation of the card may be confirmed and a reconciliation of the card account from the date the card was lost or stolen may be performed.
 
 ### 8.5 Cancellation of Card
 

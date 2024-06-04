@@ -161,7 +161,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 
 #### Decompose the Secure/Govern dataset from the Primary GitLab database
 
-1. Epic/Issue: https://gitlab.com/groups/gitlab-org/-/epics/13043
+1. Epic/Issue: <https://gitlab.com/groups/gitlab-org/-/epics/13043>
 1. DRI: Gregory Havenga
 
 ## Roles and Responsibilities

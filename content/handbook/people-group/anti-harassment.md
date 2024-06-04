@@ -252,7 +252,7 @@ In addition to the prohibitions listed above, team members are prohibited from a
 
 The Company is aware of and recognises the effect that bullying, harassment and sexual harassment can have on its team members.
 
-- “Contact Person” – Team Member Relations: teammemberrelations@gitlab.com
+- “Contact Person” – Team Member Relations: <teammemberrelations@gitlab.com>
 - “Designated Person” - For each formal complaint that is reported through Lighthouse, a Designated Person will be appointed by the Company to deal with the specific issue.
 
 *Informal Procedure*
@@ -286,7 +286,7 @@ The Company is aware of and recognises the effect that bullying, harassment and 
 
 ### GitLab Inc and GitLab Federal LLC
 
-In addition to [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) and [Lighthouse](/handbook/people-group/#how-to-report-violations), please review the [Team Member Relations Specialist](/handbook/people-group/#team-member-relations-specialist) section. GitLab also offers a [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing) that any team member may use to document any instance of any type of workplace harassment. Simply copy the form, fill it out with your information and send it to our Team Member Relations Specialist at teammemberrelations@gitlab.com.
+In addition to [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) and [Lighthouse](/handbook/people-group/#how-to-report-violations), please review the [Team Member Relations Specialist](/handbook/people-group/#team-member-relations-specialist) section. GitLab also offers a [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing) that any team member may use to document any instance of any type of workplace harassment. Simply copy the form, fill it out with your information and send it to our Team Member Relations Specialist at <teammemberrelations@gitlab.com>.
 
 ### California Law Requirements
 
@@ -332,14 +332,14 @@ Team members who reside in Rhode Island have the right to file a complaint with 
 
 ### Vermont Law Requirements
 
-If the a team member who resides in Vermont is dissatisfied with this employer's action, or is otherwise interested in doing so, they may file a complaint by writing or calling the Vermont Attorney General's Office, Civil Rights Unit, 109 State Street, Montpelier, VT 05609, ago.civilrights@vermont.gov, tel:(888)745-9195 (Toll Free VT) or (802)828-3657 (voice/TDD). Complaints should be filed within 360 days of the adverse action.
+If the a team member who resides in Vermont is dissatisfied with this employer's action, or is otherwise interested in doing so, they may file a complaint by writing or calling the Vermont Attorney General's Office, Civil Rights Unit, 109 State Street, Montpelier, VT 05609, <ago.civilrights@vermont.gov>, tel:(888)745-9195 (Toll Free VT) or (802)828-3657 (voice/TDD). Complaints should be filed within 360 days of the adverse action.
 
 ## Resources
 
 We are continuously gathering country specific references to review regulation and obtain guidance on the management of harassment or misconduct at work. Here are a few authorities we referred to in the creation of this policy:
 
 - [Equal Employer Opportunity Commission (EEOC)](https://www.eeoc.gov/laws-guidance)
-    - Contact [EEOC](https://www.eeoc.gov/employees/charge.cfm): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
+  - Contact [EEOC](https://www.eeoc.gov/employees/charge.cfm): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
 - [Society of Human Resource Management (SHRM)](https://www.shrm.org/ResourcesAndTools/legal-and-compliance/employment-law/pages/federal-statutes-regulations-and-guidance.aspx)
 
 ## Further Guidance (Country-Specific)

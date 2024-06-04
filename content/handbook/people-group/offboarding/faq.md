@@ -56,9 +56,9 @@ The following can be used as a guide on what actions could be taken before your 
 
  Set up accounts that you'll need access to after your last day. Ensure your personal email address is up to date with these accounts. They may include:
 
-  - Fidelity (US 401(k)): https://www.fidelity.com
-  - E-Trade (RSU): http://www.etrade.com
-  - Carta (Stock options): https://login.app.carta.com/credentials/login/
+- Fidelity (US 401(k)): <https://www.fidelity.com>
+- E-Trade (RSU): <http://www.etrade.com>
+- Carta (Stock options): <https://login.app.carta.com/credentials/login/>
 
 ### Laptop Wipe
 
@@ -132,7 +132,7 @@ If you are a US-based team member, your benefits will cease on last day of the m
 
 ### Where can I find my pay stubs?
 
-Former team members will retain access to ADP for three years after they leave so they can access pay stubs and W-2s. Former team members will need to access ADP portal directly since Okta has been deprovisioned. If you experience login issues, please send an e-mail to uspayroll@gitlab.com so the team can assist.
+Former team members will retain access to ADP for three years after they leave so they can access pay stubs and W-2s. Former team members will need to access ADP portal directly since Okta has been deprovisioned. If you experience login issues, please send an e-mail to <uspayroll@gitlab.com> so the team can assist.
 
 ### How do I roll over my retirement account and funds?
 

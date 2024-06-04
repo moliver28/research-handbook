@@ -214,7 +214,7 @@ If the above conditions are not met, respond with the following before closing t
 ##### **Step 2.5:** Verification Passed - Unblock user
 
 1. Ensure that the user has passed the challenge questions and has been properly evaluated.
-1. Proceed to follow the [reinstating a blocked account workflow]({{< ref "reinstating-blocked-accounts#blocked-accounts" >}}). Generally, this means opening a Trust and Safety issue for evaluation.
+1. Proceed to follow the [reinstating a blocked account workflow](reinstating-blocked-accounts.md#blocked-accounts). Generally, this means opening a Trust and Safety issue for evaluation.
 1. Reply to the user to let them know.
 
 <details>
@@ -375,16 +375,17 @@ Use the following workflows based on the type of request submitted.
 
   <p>You've opened a Data Access Request which is used specifically to obtain a copy of any personal data GitLab holds on you. In the course of filing this request, you've asked for data beyond the scope of what can be provided.
 
-  Usage and other out-of-scope account data can be obtained by logging into your GitLab.com account and cannot be provided through a Data Access Request. If you have specific questions about this kind of data, please review your options for support at https://about.gitlab.com/support.
+  Usage and other out-of-scope account data can be obtained by logging into your GitLab.com account and cannot be provided through a Data Access Request. If you have specific questions about this kind of data, please review your options for support at <https://about.gitlab.com/support>.
 
   Regarding this request, we can:
 
-  - continue the process and provide a report of all in-scope personal data.
-  - close this request with no further action
+- continue the process and provide a report of all in-scope personal data.
+- close this request with no further action
 
   Please let us know how you would like to proceed. </p>
 
   <p>Regards,</p>
+
 </details>
 
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [personal_data_access_request](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=personal_data_access_request) template, populating the title with the email address of the original request.

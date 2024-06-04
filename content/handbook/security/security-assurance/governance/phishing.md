@@ -15,11 +15,11 @@ The GitLab Phishing Program is designed to educate and evaluate GitLab's ability
 The Security Governance team coordinates with the following teams before a phishing simulation exercise:
 
 - Security Incident Response Team (SIRT)
-   - Responsible for triaging phishing emails
-   - If they are made aware of a simulation they will provide the team member with additional instructions
+  - Responsible for triaging phishing emails
+  - If they are made aware of a simulation they will provide the team member with additional instructions
 
 - IT Operations/Team Member Enablement
-   - Owner of GSuite (GitLab's email platform)
+  - Owner of GSuite (GitLab's email platform)
 
 ### Phishing Simulation Campaigns
 
@@ -49,7 +49,7 @@ In the event the link is clicked, the team member will be redirected to a landin
 
 #### Training Module
 
-Our phishing partner, ProofPoint, curates and hosts the training modules which will be assigned upon when the link is clicked. The training is designed to reinforce and provide real world examples of detecting and reporting phishing. We highly encourage you to complete the training soon after being received as this will help to reinforce and better prepare you to spot phishing attempts in the future. The training modules are short and interactive and will be coming from awareness@securityeducation.com.
+Our phishing partner, ProofPoint, curates and hosts the training modules which will be assigned upon when the link is clicked. The training is designed to reinforce and provide real world examples of detecting and reporting phishing. We highly encourage you to complete the training soon after being received as this will help to reinforce and better prepare you to spot phishing attempts in the future. The training modules are short and interactive and will be coming from <awareness@securityeducation.com>.
 
 ![Training assignment](/handbook/security/security-assurance/images/GitLabSecurityPhishingTraining.png)
 
@@ -59,7 +59,7 @@ If the training is not completed within 1 week, a reminder will be sent from Pro
 
 | Action                                 | Outcome |
 | -------------------------------------- | ------- |
-| Submitted email via PhishAlarm or directly to phishing@gitlab.com | No further action. |
+| Submitted email via PhishAlarm or directly to <phishing@gitlab.com> | No further action. |
 | Did nothing with the email             | No further action.   |
 | Clicked on the link                    | Training will be assigned  |
 
@@ -75,7 +75,7 @@ The Security Governance team will initiate and track the quarterly phishing simu
 
 *I didn't click the link in the email, what do I do?*
 
-- Please forward the email via the <img alt="PhishAlarm button" src="/handbook/security/security-assurance/images/PhishAlarm.png" height="32" width=32> or as an attachment to phishing@gitlab.com using these [instructions](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack). Knowing this is a phishing simulation, please avoid discussing with anyone else or feel compelled to post a screenshot of the email received in Slack as it may skew the results of the phishing exercise.
+- Please forward the email via the <img alt="PhishAlarm button" src="/handbook/security/security-assurance/images/PhishAlarm.png" height="32" width=32> or as an attachment to <phishing@gitlab.com> using these [instructions](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack). Knowing this is a phishing simulation, please avoid discussing with anyone else or feel compelled to post a screenshot of the email received in Slack as it may skew the results of the phishing exercise.
 
 *I got assigned training without clicking the link in the email, what do I do?*
 
@@ -223,7 +223,7 @@ What should you do if you receive a potential phishing email or text [\(smishing
 1. If the email is determined to be fake, follow the instructions for [phishing attacks]({{< ref "phishing#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}) below.
 1. If the text, including those received on apps like WhatsApp or Signal, is determined to be fake: block the number, notify [Security](/handbook/security/#-contacting-the-team), and delete the text.
 
-  - If using iOS, [report the message as spam or junk](https://support.apple.com/guide/iphone/block-filter-and-report-messages-iph203ab0be4/ios)
+- If using iOS, [report the message as spam or junk](https://support.apple.com/guide/iphone/block-filter-and-report-messages-iph203ab0be4/ios)
 
 ### Suspicious LinkedIn profiles
 

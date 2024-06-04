@@ -90,13 +90,13 @@ A DIB Team Member will set up a time to discuss with the manager the function of
 ### Roundtable Questions
 
 - What are some of your most important values?
-    - What resonates with you?
+  - What resonates with you?
 - Share a time when you felt like you were left out or didn’t belong?
-    - What are some of the common threads, behaviors that made you feel like this?
+  - What are some of the common threads, behaviors that made you feel like this?
 - Share a time where you felt empowered or belonged?
-    - What were the actions/behaviors that led to you feel empowered or that you belonged?
+  - What were the actions/behaviors that led to you feel empowered or that you belonged?
 - What does Diversity, Inclusions and Belonging mean to you?
-    - Why is it important?
+  - Why is it important?
 - What is one thing as a group can we do to make a positive impact on Diversity, Inclusions and Belonging?
 
 Once you have fully completed the roundtable, create a handbook entry on the DIB Roundtable Sharing Page. You can share as much or as little as your would like too about the experience and learnings of the roundtable.

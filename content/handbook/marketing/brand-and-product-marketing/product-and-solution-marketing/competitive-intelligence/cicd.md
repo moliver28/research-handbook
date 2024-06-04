@@ -25,9 +25,9 @@ From "[Setting up GitLab CI/CD for Android projects](https://about.gitlab.com/bl
 - Focuses on frequently integrating code into a shared repository
 - Involves automatically building and testing every change that is committed
 - Higher frequency of integration and testing means smaller problems
-   - smaller problems are easier/quicker to fix
+  - smaller problems are easier/quicker to fix
 - Focus is to find code issues as early and quickly as possible
-   - while the developer is still in context of code change, so easier to resolve problems
+  - while the developer is still in context of code change, so easier to resolve problems
 
 #### Why
 
@@ -50,12 +50,12 @@ From "[Setting up GitLab CI/CD for Android projects](https://about.gitlab.com/bl
 - The main difference between continuous delivery and deployment is delivery = manual release, deployment = automated release
 - Either way, CD is a release management practice
 - **Continuous Delivery** means that the software is always ready to be released
-   - Can mean it is ready to be pushed to a staging or production system
-   - Or that it is ready to be shipped/distributed (not everyone does web apps)
+  - Can mean it is ready to be pushed to a staging or production system
+  - Or that it is ready to be shipped/distributed (not everyone does web apps)
 - **Continuous Deployment** means that changes are actually released to production automatically when the pipeline successfully completes
 - An automated, reliable and repeatable deployment process is critical for CD
 - An immutable way to store and reference your deployment artifacts is critical for CD
-    - eg. Artifact repository, Container registry
+  - eg. Artifact repository, Container registry
 - Feature flags are important to enable CD with minimal impact to customers
 - Deployment visibility is important with CD to keep track of what is where with the increased deployment frequency
 
@@ -80,10 +80,10 @@ From "[Setting up GitLab CI/CD for Android projects](https://about.gitlab.com/bl
 - Vendors in the CI space have all evolved to include CD, as it is a natural extension of the capabilities of a CI system
 - This evolution largely involves adding integrations to provision and configure environments (the automation is already a capability)
 - Containers, micro-services, and Kubernetes changed the game of what it takes to do CI/CD
-   - build artifacts through the pipeline now come wrapped in their application environments
-   - storing container images instead of build artifacts
-   - full integration testing becomes easier in earlier stages
-   - CI/CD tools can now more easily automate everything about an applications deployment with minimal integration work
+  - build artifacts through the pipeline now come wrapped in their application environments
+  - storing container images instead of build artifacts
+  - full integration testing becomes easier in earlier stages
+  - CI/CD tools can now more easily automate everything about an applications deployment with minimal integration work
 - So now CI/CD vendors are all racing to add Docker and Kubernetes support
 
 ## Competitor Scope - Continuous Integration

@@ -52,7 +52,7 @@ The `ISR` field will be **automatically** populated on an opportunity based on t
 - **Open Opportunities**: the `ISR` field will reflect whatever information is populated in the associated Account's `Proposed ISR` field (including blanks).  `ISR` will remain a fluid field until the opportunity is moved to a closed stage, meaning if the `Proposed ISR` is changed, any associated open opportunity will be updated to reflect that change in the `ISR` field.
 - **Closed Opportunities**: the `ISR` field will not change after an opportunity has been moved to a closed stage (Won, Lost, Duplicate) and will reflect whoever the `Proposed ISR` was at the time of closure.
 - **ISR Override**: In the event that the `ISR` field on the opportunity should not be the same as the `Proposed ISR` on the Account, the ISR Management team has the ability to override the `ISR` field by checking the `ISR Override` box on the opportunity and updating the `ISR` field accordingly.  This removes the `ISR` from any automation.
-     - **Note**: In scenarios where the override is no longer needed, the ISR Manager simply needs to uncheck the `ISR Override` checkbox and the auotmation will run as intended (for open opportunities only).
+  - **Note**: In scenarios where the override is no longer needed, the ISR Manager simply needs to uncheck the `ISR Override` checkbox and the auotmation will run as intended (for open opportunities only).
 
 **Note**: The `ISR` field will be populated on **all opportunities** where the associated `Proposed ISR` field is also populated. This does not guarantee compensation credit. Please see your comp plan for details to determine what qualifies.
 

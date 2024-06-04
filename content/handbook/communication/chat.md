@@ -132,7 +132,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_bc`](https://app.slack.com/client/T02592416/C011GM1LDDW) |  |
 | [`#loc_belgium`](https://app.slack.com/client/T02592416/CR2T6HHCP) | 🇧🇪🍺🍫🍟     |
 | [`#loc_berlin`](https://app.slack.com/client/T02592416/C3SB0FKD4) | All things going on in Berlin, Germany. We are regularly meeting up on the 3rd Thursday of the Month. |
-| [`#loc_bochum`](https://app.slack.com/client/T02592416/CFV9XLA67) | For all folks from Bochum, Germany. ⛏ https://www.youtube.com/watch?v=Gtd9Bg9S85U |
+| [`#loc_bochum`](https://app.slack.com/client/T02592416/CFV9XLA67) | For all folks from Bochum, Germany. ⛏ <https://www.youtube.com/watch?v=Gtd9Bg9S85U> |
 | [`#loc_brisbane`](https://app.slack.com/client/T02592416/CH436GSNM) | Discuss all the Brisbane things |
 | [`#loc_canada`](https://app.slack.com/client/T02592416/CERJB2EBY) | All things Canada 🇨🇦  |
 | [`#loc_cencoastca`](https://app.slack.com/client/T02592416/CLQPEBG8Y) | Connecting those living or passing through the Central Coast of California |
@@ -164,7 +164,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_kerala`](https://app.slack.com/client/T02592416/CU2RGRWR0) | Anything about Kerala |
 | [`#loc_korea`](https://app.slack.com/client/T02592416/C02KTP5QVJS) |  |
 | [`#loc_ky`](https://app.slack.com/client/T02592416/C03EWKE264A) | Location: Kentucky - Georgetown, Lexington, and Versailles |
-| [`#loc_leipzig`](https://app.slack.com/client/T02592416/CS81KREG3) | NY Times list of places to visit in 2020: https://www.nytimes.com/interactive/2020/travel/places-to-visit.html?place=leipzig |
+| [`#loc_leipzig`](https://app.slack.com/client/T02592416/CS81KREG3) | NY Times list of places to visit in 2020: <https://www.nytimes.com/interactive/2020/travel/places-to-visit.html?place=leipzig> |
 | [`#loc_lille`](https://app.slack.com/client/T02592416/CTZ3U5AS1) |  |
 | [`#loc_london-uk`](https://app.slack.com/client/T02592416/C3CEJ4DEZ) | London meetups! |
 | [`#loc_manchester`](https://app.slack.com/client/T02592416/C03E9UXJXDF) | Channel for GitLab team members from Manchester (UK) and it’s surrounding areas |
@@ -183,8 +183,8 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_nigeria`](https://app.slack.com/client/T02592416/CDB11DSRH) |  |
 | [`#loc_noco_aka_loconoco`](https://app.slack.com/client/T02592416/CJPLQ4LEM) | Connect GitLab team members who are in Boulder, Larimer and Weld Counties of Northern Colorado |
 | [`#loc_nuremberg`](https://gitlab.enterprise.slack.com/archives/C06R3T513E1) | Franconia, Germany - gingerbread, sausages, and more |
-| [`#loc_nyc`](https://app.slack.com/client/T02592416/C0XBJTC00) | Coordinate NYC-area coworking days and other events. Let us know if you're coming to town, and see our visitors doc! 🇺🇸 🗽 https://docs.google.com/document/d/1aTW4P0V44S9hBppStCOVl3bfLq6qW6hoJFW_Er6HOdA/   |
-| [`#loc_nz`](https://app.slack.com/client/T02592416/CF8MAMD39) | 🇳🇿 For those visiting, living in or interested in Aotearoa New Zealand. Also half of `#loc_australia` is in here too. https://docs.google.com/document/d/1VijZowFu8WpyV17MtRtrvz1GUqw9Y5Bcf-OkUOEU774/edit |
+| [`#loc_nyc`](https://app.slack.com/client/T02592416/C0XBJTC00) | Coordinate NYC-area coworking days and other events. Let us know if you're coming to town, and see our visitors doc! 🇺🇸 🗽 <https://docs.google.com/document/d/1aTW4P0V44S9hBppStCOVl3bfLq6qW6hoJFW_Er6HOdA/>   |
+| [`#loc_nz`](https://app.slack.com/client/T02592416/CF8MAMD39) | 🇳🇿 For those visiting, living in or interested in Aotearoa New Zealand. Also half of `#loc_australia` is in here too. <https://docs.google.com/document/d/1VijZowFu8WpyV17MtRtrvz1GUqw9Y5Bcf-OkUOEU774/edit> |
 | [`#loc_ottawa`](https://app.slack.com/client/T02592416/C01KH7P3KBR) |  |
 | [`#loc_pdx`](https://app.slack.com/client/T02592416/CS7N7UFGR) | For GitLab team members in/around Portland Oregon |
 | [`#loc_perth`](https://app.slack.com/client/T02592416/CQ6LTSP4L) | Join us (me) for enthralling (adequate) Perth, Australia conversation |

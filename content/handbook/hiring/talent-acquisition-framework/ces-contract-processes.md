@@ -132,7 +132,7 @@ Consistent with GitLab’s policy governing Hiring Significant Others or Family 
    - Under "Comment" write "Family Member Relationship Acknowledgement"
    - Upload
    - Repeat same steps above this time finding the GitLab team member in Workday
-1. For the current team member email the form to people-connect@gitlab.com and ask them to upload the document to Workday.
+1. For the current team member email the form to <people-connect@gitlab.com> and ask them to upload the document to Workday.
 
 ### How to Update a Start Date After the Contract is Signed
 
@@ -330,7 +330,7 @@ If they have been hired in Greenhouse and exported to BambooHR and Workday, the 
 
 ## Job Change Letter
 
-When a team member applies for and receives a new position through Greenhouse, a Job Change Letter is prepared in lieu of a new contract using DocuSign. The Candidate Experience Specialist will prepare the letter. This document is signed by the Director, Total Rewards or the Sr. Director, Global People Operations or the Chief People Officer and the team member through DocuSign. Using the Offer through DocuSign - Job Change Letter template in Greenhouse the letter is cc'd to peopleops@gitlab.com team for processing.
+When a team member applies for and receives a new position through Greenhouse, a Job Change Letter is prepared in lieu of a new contract using DocuSign. The Candidate Experience Specialist will prepare the letter. This document is signed by the Director, Total Rewards or the Sr. Director, Global People Operations or the Chief People Officer and the team member through DocuSign. Using the Offer through DocuSign - Job Change Letter template in Greenhouse the letter is cc'd to <peopleops@gitlab.com> team for processing.
 
 Effective dates for a job change letter should be the first (1st) of the month or the sixteenth (16th). For Sales or Sales Development team members, they can only be the first of the month. These effective dates do not need to be on a business day and should be adhered to payroll purposes.
 Please note that JCLs cannot be used if a team member is moving from the Federal, LLC. entity into any other entity **or** any entity that is not Federal, LLC into the Federal, LLC. entity. In those cases, a new contract **must** be issued as there are tax implications to this entity.
@@ -380,7 +380,7 @@ JCLs should be treated like contracts, where RSUs are only features in US ones a
 1. Download a copy of the unsigned JCL on your desktop.
 1. Open the saved unsigned contract in Google Drive and replace Signatory’s name with “GitLab Signatory”. Save the contract as a PDF format.
 1. To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-    - To (recipients) : Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
+    - To (recipients) : <Thomas.Leister@osborneclarke.com> & <julia.bauer@osborneclarke.com>
     - Subject line : Please Send Physical Job Change Letter for “Name of the team member”
     - Body of the email : Expand the Text expander snippet “GCtogermancounsel”
     - Attachment : CES to attach the unsigned PDF JCL
@@ -531,7 +531,7 @@ The process for creating and sending an agreement is as follows:
     -Make sure the downloaded file is titled with new hire’s full name
 1. Once in Egnyte, navigate to *“/Shared/GPS/Active Clients/GitLab/IN/HR/Employee Master/Client Upload/New Employee Information”*
 1. Click *Upload* to place new hire’s statement of work in this folder
-1. Inform the Global Upside team (gitlabHR@globalpeoservices.com) of any new hires by sending email template *Email to Global Upside* under “Email the Team” in Greenhouse to let them know that a new SOW was uploaded into Egnyte and the employee’s name.
+1. Inform the Global Upside team (<gitlabHR@globalpeoservices.com>) of any new hires by sending email template *Email to Global Upside* under “Email the Team” in Greenhouse to let them know that a new SOW was uploaded into Egnyte and the employee’s name.
 1. The Candidate Experience Specialist should add the candidate to the [PEO Tracking Sheet](https://docs.google.com/spreadsheets/d/1gSOVTJ1Yv-YsSaliJwKVf-1H0vBZXxb5NWFiqCwT-uo/edit#gid=0) and keep track of communication between GitLab.
 1. For candidates from Costa Rica, you will be asked to provide a translation of the job description in Spanish. In this case, you should reach out to the appropriate person in the [Localization](/handbook/marketing/localization/) page.
 1. Once Global Upside has drafted up the contract, they will place it in Egnyte and email the CES to review and approve.
@@ -565,7 +565,7 @@ To create the contract:
     - Click “Generate”
     - Select “PEO New Hire Template” from the dropdown
     - Click “Generate”
-1. The Candidate Experience Specialist will choose template *Offer through DocuSign -Remote.com* and will copy gitlab@remote.com on the email.
+1. The Candidate Experience Specialist will choose template *Offer through DocuSign -Remote.com* and will copy <gitlab@remote.com> on the email.
 1. In DocuSign, the CES will update the signing order to CES/Signatory as number 1 to sign and all other copied individuals as number 2, to receive a copy.
 1. CES will send PEO template and sign once it is received in their inbox.
 1. Once PEO template is signed, CES can upload candidate into the Remote.com platform (see more details instructions on how to do so, below).
@@ -620,7 +620,7 @@ Kindly note the following when filling in this section:
 | Sweden | Standard |
 
 1. Life Insurance Coverage - For Mexico Hires, Please select "Life/ADD Insurance of 350 MXN (~18 USD)". For more details on benefits for team members who are contracted through Remote. Click [here]({{< ref "remote-com#brazil" >}}).
-If there are any questions, these should be directed to help@remote.com.
+If there are any questions, these should be directed to <help@remote.com>.
 1. Click on the benefits acknowledgement and continue
 1. You be will be on the ‘billing cycle’ page.
 1. Click on yearly billing cycle and click continue.
@@ -657,7 +657,7 @@ If there are any questions, these should be directed to help@remote.com.
 ## Once the candidate is upload onto the Papaya platform
 
 1. Once you submit the candidate, an alert will be sent to Papaya to inform them of the new project
-1. Katie Taylor - KatieTa@papayaglobal.com (Customer Success Manager at Papaya who looks after GitLab) will reach out to the CES to confirm that she has received the alert. Should she ask for permission to contact the candidate directly - please confirm this ASAP. Papaya will validate the information submitted into the platform and reach out to CES or the candidate should there be any immediate questions regarding the contract information shared
+1. Katie Taylor - <KatieTa@papayaglobal.com> (Customer Success Manager at Papaya who looks after GitLab) will reach out to the CES to confirm that she has received the alert. Should she ask for permission to contact the candidate directly - please confirm this ASAP. Papaya will validate the information submitted into the platform and reach out to CES or the candidate should there be any immediate questions regarding the contract information shared
 1. An offer overview (Offer Template) with the basic offer details will be sent to CES to approve (resembles our PEO Template) - once approved, a welcome email will be sent to the candidate - accompanied by the offer template. The Welcome Email will introduce the PEO to the candidate.
 1. At this stage, the candidate is also requested to verify their information and provide documents needed to complete the request.
 1. Once the candidate has verified their information and provided the required documents, Papaya sends the offer draft to the Local Team (a contact person in the candidates country) to review the contract against the in-country laws - Duration: 48 hours
@@ -711,10 +711,10 @@ Please follow the outlined steps below before sending the unsigned copy of the C
     1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field blank.
     1. **Scroll down to the end of the contract** - replace Signatory's name with “GitLab Signatory”. Save the contract as a PDF format.
 - To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-    - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
-    - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
-    - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
-    - **Attachment** : CES to attach the unsigned PDF contract
+  - **To (recipients)**-  <Thomas.Leister@osborneclarke.com> & <julia.bauer@osborneclarke.com>
+  - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
+  - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
+  - **Attachment** : CES to attach the unsigned PDF contract
 - In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “German Contract already sent to counsel”.
 - A welcome email should be sent to the candidate, and they should be marked as hired as per the normal hiring process.
 - Once the candidate has confirmed that they have received the physical contract in mail. CES will send the email template "German Contract step 2" to the candidate and close out the issue.
@@ -736,11 +736,11 @@ The Intern contract template will be used for both C2C interns and all other int
 1. After the offer is sent, CES will initiate the background check by selecting the Comprehensive Criminal Check with Employment. **IMPORTANT NOTE - If this is a C2C (Code2College) intern - you will only need to select the Comprehensive Criminal Check in Sterling. Employment check is not needed as most C2C interns will be minors.**
 1. Because most interns from C2C are minors, at the time the BGC is initiated, CES will also need to send the [Parental Consent Form](https://docs.google.com/document/d/1J0xundRL___Hhg0zNkt7KTMMEgTv63U5rseqTlmv8ok/edit) to the interns guardian.
 
- - This form can be send via DocuSign
- - Please add appropriate tokens
- - Please set up distribution as follows (guardian email can be recieved from Emerging Talent Coordinator):
-    - 1. Guardian - Needs to sign
-    - 2. Emerging Talent Coordinator - receives a copy
+- This form can be send via DocuSign
+- Please add appropriate tokens
+- Please set up distribution as follows (guardian email can be recieved from Emerging Talent Coordinator):
+  - 1. Guardian - Needs to sign
+  - 2. Emerging Talent Coordinator - receives a copy
 
 1. Once the offers are signed by the candidate, CES will send the GitLab Inc Intern Welcome Email. **Note: GitLab will provide laptops to these interns. The Welcome Email asks them to fill out form ASAP**
 1. Once the req is cleared, CES can mark the Intern as hired.

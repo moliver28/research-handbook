@@ -116,7 +116,7 @@ The goal of this step is to build the credibility of the project and clearly art
 
 ### Step 5 - Train for the change
 
-Training for the change should include both traditional and informal methods to address the needs of varied audiences. Relevant content can be developed to support team members who will be most impacted and the specific project requirements. Training materials can include slide decks, handbook pages, explainer videos, job-aides, tutorials, etc. Training can also be delivered through [live learning](https://gitlab.zoom.us/j/6941107756?pwd=ZFJHT0lDSFhRYStZd2VKWEdNQ3hqQT09 Hide) and recordings that walk team members through the transformation.
+Training for the change should include both traditional and informal methods to address the needs of varied audiences. Relevant content can be developed to support team members who will be most impacted and the specific project requirements. Training materials can include slide decks, handbook pages, explainer videos, job-aides, tutorials, etc. Training can also be delivered through [live learning](<https://gitlab.zoom.us/j/6941107756?pwd=ZFJHT0lDSFhRYStZd2VKWEdNQ3hqQT09> Hide) and recordings that walk team members through the transformation.
 
 Research shows that a blend of the types of training below is the most effective to achieve successful knowledge retention and skill internalization. Per the GitLab 70-20-10 training approach, the majority of the training will focus on where 70% of learning occurs - learning all the time resources, 20% occurs when learning from others, and 10% via traditional instruction. Consider holding a traditional/formal training event for the type of transformation that is taking place.
 

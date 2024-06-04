@@ -176,12 +176,12 @@ Candidates for this position can expect the hiring process to follow the order b
 
 - Qualified candidates will be invited to schedule a 30 minute screening call with one of our Recruiters responsible for TA Hiring.
 - Then, candidates will be invited to schedule...
-    - An initial team interview with either a Peer or Hiring Manager (30-45 minutes)
+  - An initial team interview with either a Peer or Hiring Manager (30-45 minutes)
 - Should we continue to move forward, the next phase of the process is a the Team Interview stage. There, a candidate will be invited to schedule...
-    - Peer Interview
-    - TA Leadership Interview
-    - Hiring Manager Interview
-    - Cross Functional Interview
+  - Peer Interview
+  - TA Leadership Interview
+  - Hiring Manager Interview
+  - Cross Functional Interview
 
 As always, the interviews and screening call will be conducted via a video call.
 See more details about our hiring process on the [hiring handbook](/handbook/hiring/).

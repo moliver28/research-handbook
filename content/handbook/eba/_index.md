@@ -159,7 +159,7 @@ Please remember to reach out to the EBA of the executive you need to schedule fo
 1. Must be a speedy meeting
 1. Agenda for the meeting must be complete 24hrs or 1 business day before the meeting and include any links to materials and pre-recorded presentations
    - [Live doc meetings](/handbook/company/culture/all-remote/live-doc-meetings/) provides a great overview of how we use live docs in our meetings.
-   - We do not present in any of our meetings. If you wish to present your material, you can record a presentation in advance and link it in the agenda document. We use synchronous meetings for Q&A. More detail at https://about.gitlab.com/handbook/communication/#few-meetings-with-presentations
+   - We do not present in any of our meetings. If you wish to present your material, you can record a presentation in advance and link it in the agenda document. We use synchronous meetings for Q&A. More detail at <https://about.gitlab.com/handbook/communication/#few-meetings-with-presentations>
 1. Plan to join the meeting on time. We start on time and do not wait for folks to join.
    - As most of our meetings are conducted over zoom, please join with your camera on and with a headset or dedicated microphone whenever possible
 1. The meeting may be recorded or live streamed to GitLab Unfiltered on YouTube, please determine in advance if the meeting should be live streamed or recorded

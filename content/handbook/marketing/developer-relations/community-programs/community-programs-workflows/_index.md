@@ -157,11 +157,11 @@ Each step of the automated application workflow has different set of potential e
 |Phase|Source|Error|DRI|Action|
 |-----|------|-----|---|------|
 | Verification | SheerID Application| False Rejection EDU | SheerID  | Contact SheerID from Rejection Email.  |
-| Verification | SheerID Application| False Rejection OSS | [@bbehr](https://gitlab.com/bbehr) / Open Source Program team | Contact opensource@gitlab.com from rejection email |
+| Verification | SheerID Application| False Rejection OSS | [@bbehr](https://gitlab.com/bbehr) / Open Source Program team | Contact <opensource@gitlab.com> from rejection email |
 | Verification | SheerID Application | Never received success email | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Deletes success email. | SheerID | [SheerId Help Center FAQ](https://offers.sheerid.com/sheerid/help-center/?name=no-email) - Form resends email|
 | Verification | SheerID Application | Form not responding or something goes wrong with form. | SheerID | [Contact SheerID Support Team](https://offers.sheerid.com/sheerid/help-center/?name=form-doesnt-work)|
-| Verification | SheerID Application | Applicant makes a case to SheerID that EDU rejection was in error but SheerID cannot resolve. | Education Program team | SheerID emails education@gitlab.com with details. GitLab EDU team resolves. |
+| Verification | SheerID Application | Applicant makes a case to SheerID that EDU rejection was in error but SheerID cannot resolve. | Education Program team | SheerID emails <education@gitlab.com> with details. GitLab EDU team resolves. |
 | Booking | GitLab Customers Portal | Coupon Code has already been used | GitLab Support |Error message on the portal. `The code has already been used.` There is no CTA on the portal, user will go back to email which directs them to open a support ticket under [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses)|
 | Booking | GitLab Customers Portal | Coupon Code is invalid | GitLab Support | Error message on the portal. `This code is not valid. Try re-entering the code from your email`. There is no CTA message on the portal, the user will go back to email which directs them to open a support ticket under [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) |
 | Fulfillment | GitLab Customers Portal | Any problems with Customers Portal itself after coupon code succeeds.| GitLab Support | Open Support Ticket [`Issues with billing, purchasing, subscriptions, or licenses.`](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) )|
@@ -190,11 +190,11 @@ Sales team members receiving inbound requests regarding community programs shoul
 
 1. Navigate to the **Account** view in Salesforce. Scroll down to the *Address Information*, *Billing Address*.
 
-  - Note: The **Billing Address** can also be accessed from the **Contact** view.
+- Note: The **Billing Address** can also be accessed from the **Contact** view.
 
 1. Click the edit button to edit the address. Click *OK* to save the changes.
 
-  - Note: The address should update for the **Account**, **Contact** and **Opportunity**.
+- Note: The address should update for the **Account**, **Contact** and **Opportunity**.
 
 ### Reassign a Salesforce object
 
@@ -213,9 +213,9 @@ Sales team members receiving inbound requests regarding community programs shoul
 
 [Naming conventions](/handbook/sales/field-operations/gtm-resources/)
 
-  - Lead status: *Accepted* means Program Manager reached out to the lead/contact
-  - Lead status: *Qualifying* means Program Manager is in 2-way conversation with lead/contact
-  - Lead status: *Unqualified* means Applicant is not qualified for that program
+- Lead status: *Accepted* means Program Manager reached out to the lead/contact
+- Lead status: *Qualifying* means Program Manager is in 2-way conversation with lead/contact
+- Lead status: *Unqualified* means Applicant is not qualified for that program
 
 ### Check approval history
 

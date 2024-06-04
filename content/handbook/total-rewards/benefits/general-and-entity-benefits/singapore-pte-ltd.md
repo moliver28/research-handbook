@@ -13,7 +13,7 @@ The Medical Plan Coverage includes
 - Major Medical
 - Oupatient GP & SP
 - Dental
-   - **Please note that Dental benefits for this plan are cashless at panel Dental Clinics only. Team Members should show their eCard at the dental clinic to utlize the plan.**
+  - **Please note that Dental benefits for this plan are cashless at panel Dental Clinics only. Team Members should show their eCard at the dental clinic to utlize the plan.**
 
 For a summary of the Medical plan details please refer to slides 8 - 26 of the [Singapore Benefits Deck.](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing)
 
@@ -31,7 +31,7 @@ Login to the MySingLife portal or the SingLife App to:
 
 **How to register**
 
-Step 1 : Go to https://mysinglife.singlife.com/account/login to register and setup for MySinglife Portal account. This step can be skipped for existing MySinglife Portal user.
+Step 1 : Go to <https://mysinglife.singlife.com/account/login> to register and setup for MySinglife Portal account. This step can be skipped for existing MySinglife Portal user.
 
 Step 2 : Download the Singlife App from Google Play or Apple App Store, and login using MySinglife Portal’s email address and password.
 
@@ -76,7 +76,7 @@ New Team Members will be prompted to fill out a Singapore Benefits Onboarding Fo
 Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Tower Watson, to enroll team members into the group plans.
 Team Members will receive underwriting forms from Aviva within the first month from their hire date.
 
-Team Members who experience a qualified status change can update their information by sending an email to the Total Rewards Team at total-rewards@gitlab.com
+Team Members who experience a qualified status change can update their information by sending an email to the Total Rewards Team at <total-rewards@gitlab.com>
 
 When adding a new dependent to the plan, please include the following information in your request to Global Upside:
 
@@ -99,12 +99,12 @@ You can sign up for the benefit and book an appointment via the [Fullerton Healt
 Note: Since GitLab pays for the benefit directly, this benefit is not considered CPF payable
 
 Contact Details for Fullerton Health:
-Email ehs@fullertonhealth.com
+Email <ehs@fullertonhealth.com>
 +65 6333 3636 (Option 3)
 
 ### Administration of Health Screening
 
-Fullerton Health will send the invoice directly to total-rewards@gitlab.com team for payment. The Total Rewards team will review and forward to Accounts Payable to process the invoice. These invoices will come through on an ad-hoc basis. As with all discretionary benefit offerings, GitLab may modify or remove this benefit at its discretion.
+Fullerton Health will send the invoice directly to <total-rewards@gitlab.com> team for payment. The Total Rewards team will review and forward to Accounts Payable to process the invoice. These invoices will come through on an ad-hoc basis. As with all discretionary benefit offerings, GitLab may modify or remove this benefit at its discretion.
 
 ## Pension
 

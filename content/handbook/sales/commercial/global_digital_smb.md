@@ -20,16 +20,16 @@ Vision: SMB Accounts will not be owned individually, but by the entire team. Thi
 
 ### Accounts
 
- - All AMER SMB Accounts are owned by the AMER SMB Sales User.
- - All APAC SMB Accounts are owned by the APAC SMB Sales User.
- - All EMEA SMB Accounts are owned by the EMEA SMB Sales User.
- - Note that in SMB only, AMER & APAC are considered one territory.
+- All AMER SMB Accounts are owned by the AMER SMB Sales User.
+- All APAC SMB Accounts are owned by the APAC SMB Sales User.
+- All EMEA SMB Accounts are owned by the EMEA SMB Sales User.
+- Note that in SMB only, AMER & APAC are considered one territory.
 
 ### Opportunities
 
- - All AMER SMB Opportunities are owned by the AMER SMB Sales User.
- - All APAC SMB Opportunities are owned by the APAC SMB Sales User.
- - All EMEA SMB Opportunities are owned by the EMEA SMB Sales User.
+- All AMER SMB Opportunities are owned by the AMER SMB Sales User.
+- All APAC SMB Opportunities are owned by the APAC SMB Sales User.
+- All EMEA SMB Opportunities are owned by the EMEA SMB Sales User.
 
 ### High Value Accounts
 
@@ -124,12 +124,12 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
 - Select a *Type* that most closely matches the origin of your request. (e.g if you are in Support, select *Inbound Request via Support*)
 - Set the *Priority* to High.
 - Complete the *Subject* field, using one of the below options;
-    - *Support Ticket* (if you are an SE)
-    - *Partner Opp* (if you reside in the Partner org)
-    - *Referral* (if you are in Sales)
-    - *FO Opp (Startup)* if you reside in the Community relation team, and a free customer is ready to transition to paid.
-    - *AR Request* (if you are in AR/ Billing)
-    - Note: if you are an SDR creating the case, the *Case Subject* must be either equal *FO Opp*, or *SDR Created* (See *Use Case Specifics* below)
+  - *Support Ticket* (if you are an SE)
+  - *Partner Opp* (if you reside in the Partner org)
+  - *Referral* (if you are in Sales)
+  - *FO Opp (Startup)* if you reside in the Community relation team, and a free customer is ready to transition to paid.
+  - *AR Request* (if you are in AR/ Billing)
+  - Note: if you are an SDR creating the case, the *Case Subject* must be either equal *FO Opp*, or *SDR Created* (See *Use Case Specifics* below)
 - Select a *Case Reason* based on the customers needs.
 - **Check the *Assign using active assignment rules* checkbox, and click *Save*.If this is not done, the case will not enter the SMB Team queue, and will not be actioned**
 - This Case will now drop into the SMB Sales Queue, and will be actioned by a SMB Advocate.
@@ -415,7 +415,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
   - Click *Edit* on the case, then check the *Assign using active assignment rules checkbox*.
   - The case will now reappear in the queue in 6 months time, and any Advocate will be free to work the case.
 - Q. If a prospect/ customer emails me directly requesting assistance, what do I do?
-- A. First check the account to see if there is an In Progress SMB Sales Case owned by a different Advocate.  If there is, add the nature of the customers request to the Description field, and chatter the Advocate on the case. If no case is present, and this enquiry represents a nARR opportunity, follow the above process (*Working with the Global Digital SMB Account Team*.), and assign the case directly to yourself. Note: for general enquiries, you should direct customers to smallbusiness@gitlab.com
+- A. First check the account to see if there is an In Progress SMB Sales Case owned by a different Advocate.  If there is, add the nature of the customers request to the Description field, and chatter the Advocate on the case. If no case is present, and this enquiry represents a nARR opportunity, follow the above process (*Working with the Global Digital SMB Account Team*.), and assign the case directly to yourself. Note: for general enquiries, you should direct customers to <smallbusiness@gitlab.com>
 
 ## Escalation Paths
 
@@ -425,7 +425,7 @@ An Advocate should talk to their Manager to determine if SA support is necessary
 
 ### Support
 
-Loop in supportteam@gitlab.com, and set the Resolution Action of the current open case to Transferred to Support.
+Loop in <supportteam@gitlab.com>, and set the Resolution Action of the current open case to Transferred to Support.
 
 ### Transitioning Accounts to Mid-Market / Enterprise
 

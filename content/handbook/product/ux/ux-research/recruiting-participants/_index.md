@@ -38,9 +38,9 @@ Collecting the data that will help you answer your questions is essential. The o
 - What research methodology have you chosen?
 - How many participants do you need?
 - Who do you want to hear from/speak with?
-     - What are the tasks your participants should be doing?
-     - What are the tools your participants should be using?
-     - What is their level of experience?
+  - What are the tasks your participants should be doing?
+  - What are the tools your participants should be using?
+  - What is their level of experience?
 
 The answers to these questions should flow directly from the [goals and objectives](/handbook/product/ux/ux-research/defining-goals-objectives-and-hypotheses/) that you’ve previously identified for your study. It’s important that everyone involved in the research study agrees on these and that they’re finalized *before* we start recruiting. It’s better to start with clear objectives than to try to shoehorn participants into a study for which they simply aren't a match.
 
@@ -194,21 +194,21 @@ For a video overview of how to use Respondent.io, please watch this [internal on
 Once the coordinator has created the campaign, they will invite the interviewers to join Respondent, advise the interviewer(s) to add their calendars and follow the project, and then move into a supporting role unless otherwise discussed. This means that the interviewer is responsible for monitoring the campaign and inviting their preferred users to schedule. The coordinator should plan to check in every few days, but it is the interviewer's responsibility to ping the coordinator if they have questions, or if they don't see any suitable participants after a couple of days.
 
 - Naming your project
-    - Create a public name that is not too specific; you don't want to give away too much about your criteria because people may game your screener. Example: `Seeking GitLab users!` is fine, while `Seeking daily GitLab CI/CD users with 3+ years of experience!` is too specific.
-    - Give a private name that will allow internal team members to see which project is theirs. For example: `Lorie: CI/CD pipeline set up exp.`
+  - Create a public name that is not too specific; you don't want to give away too much about your criteria because people may game your screener. Example: `Seeking GitLab users!` is fine, while `Seeking daily GitLab CI/CD users with 3+ years of experience!` is too specific.
+  - Give a private name that will allow internal team members to see which project is theirs. For example: `Lorie: CI/CD pipeline set up exp.`
 - Adding your calendar
-    - Respondent requires us to schedule, pay, and communicate with participants within the platform. It's a major taboo to try to lure platform participants elsewhere.
-    - Connect your Google calendar in the `calendars` tab of your project.
-    - Navigate to advanced settings and specify the minimum time before new bookings to `8 hours` or more. This will prevent people from scheduling surprise sessions for first thing in the morning while you are sleeping.
-    - Set the max number of bookings per day to whatever you are comfortable with. A recommendation is 3-4 sessions per day: more than that is quite taxing.
-    - Set a buffer time between sessions so you have time to finish your notes and take a quiick break before starting another session. A recommendation is 15 minutes.
+  - Respondent requires us to schedule, pay, and communicate with participants within the platform. It's a major taboo to try to lure platform participants elsewhere.
+  - Connect your Google calendar in the `calendars` tab of your project.
+  - Navigate to advanced settings and specify the minimum time before new bookings to `8 hours` or more. This will prevent people from scheduling surprise sessions for first thing in the morning while you are sleeping.
+  - Set the max number of bookings per day to whatever you are comfortable with. A recommendation is 3-4 sessions per day: more than that is quite taxing.
+  - Set a buffer time between sessions so you have time to finish your notes and take a quiick break before starting another session. A recommendation is 15 minutes.
 - Using Zoom
 When setting up your Respondent project make sure to use your personal Zoom room link, as you can't change the link per participant (this means each participant will have the same Zoom room link). Additionally, be sure to turn off the password requirement for these sessions.
 - Important platform etiquette:
-    - Mark participants as `attended` promptly after conducting the interview. This creates a notification for the coordinator that there are participants who need to be paid.
-    - Only mark someone as `no-show` if they made no effort to get in touch with you about rescheduling the interview. A `no-show` is highly punitive for participants' rating on the platform.
-    - Similarly, if you must reschedule a session, enable the participant to reschedule with as much advance notice as possible. If you do not show up for a session, or cancel within 24 hours, we get a negative rating and have to pay the participant anyway.
-    - Please keep an eye on your messages within the project. It is recommended that you check them first thing on days that you have interviews scheduled. Participants may reach out to reschedule, or to ask about a technical issue. It's best to address these up front, rather than waiting in an empty Zoom and getting increasingly frustrated 🙂
+  - Mark participants as `attended` promptly after conducting the interview. This creates a notification for the coordinator that there are participants who need to be paid.
+  - Only mark someone as `no-show` if they made no effort to get in touch with you about rescheduling the interview. A `no-show` is highly punitive for participants' rating on the platform.
+  - Similarly, if you must reschedule a session, enable the participant to reschedule with as much advance notice as possible. If you do not show up for a session, or cancel within 24 hours, we get a negative rating and have to pay the participant anyway.
+  - Please keep an eye on your messages within the project. It is recommended that you check them first thing on days that you have interviews scheduled. Participants may reach out to reschedule, or to ask about a technical issue. It's best to address these up front, rather than waiting in an empty Zoom and getting increasingly frustrated 🙂
 
 ##### Process for providing payment through Respondent.io
 

@@ -88,17 +88,17 @@ The calibration agenda will consist of the following for each candidate:
 
 1. General Information
 
-  - Promotion Doc Peer Reviewer(s)
-  - Link to GitLab Profile
+- Promotion Doc Peer Reviewer(s)
+- Link to GitLab Profile
 
 1. Core accomplishments (list 2)
 1. Improvement areas (list 2)
 
-  - The promotion document outlines strengths, but we also want to highlight how we will support a team member's development areas at the next level.
+- The promotion document outlines strengths, but we also want to highlight how we will support a team member's development areas at the next level.
 
 1. Cross-functional Feedback
 
-  - As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
+- As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
 
 1. Questions/feedback?
 
@@ -130,7 +130,7 @@ Here are some curated resources to get you started:
 
 [Link to dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2203014/views)
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/IssueTypesDetail/OpenIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/IssueTypesDetail/OpenIssuesDashboard>" >}}
 {{< /tableau >}}
 
 {{% include "includes/cross-functional-prioritization.md" %}}
@@ -360,10 +360,10 @@ Execution of a Global prioritization can take many forms.  This is worked with b
 1. Available email alias (a.k.a. Google group):
 Managers, Directors, VP's teams: each alias includes everyone in the respective organization.
 1. Naming convention:
-team@gitlab.com, examples below -
-    - Managers: configure-be@gitlab.com includes all the engineers reporting to the Configure backend engineering manager.
-    - Directors: ops-section@gitlab.com includes all the engineers and managers reporting to the director of engineering, Ops.
-    - VP of Development: development@gitlab.com includes all engineers, managers, and directors reporting to the VP of Development.
+<team@gitlab.com>, examples below -
+    - Managers: <configure-be@gitlab.com> includes all the engineers reporting to the Configure backend engineering manager.
+    - Directors: <ops-section@gitlab.com> includes all the engineers and managers reporting to the director of engineering, Ops.
+    - VP of Development: <development@gitlab.com> includes all engineers, managers, and directors reporting to the VP of Development.
 1. Roll up:
 Teams roll up by the org chart hierarchy -
     - Engineering managers' aliases are included in respective Sub-department aliases
@@ -410,10 +410,10 @@ Far-reaching work is work that has wide-ranging, diffuse implications, and inclu
 If your group, product area, feature, or merge request fits within one of the descriptions above, you must seek to understand your impact and how to reduce it. When releasing far-reaching work, use a [rollout plan](/handbook/engineering/development/processes/rollout-plans). You might additionally need to consider creating a one-off process for those types of changes, such as:
 
 - [Creating a rollout plan procedure](/handbook/engineering/development/processes/rollout-plans)
-   - Consider how to reduce the risk in your rollout plan
-   - Document how to monitor the rollout while in progress
-   - Describe the metrics you will use to determine the success of the rollout
-   - Account for different states of data during rollout, such as cached data or data that was in a previously valid state
+  - Consider how to reduce the risk in your rollout plan
+  - Document how to monitor the rollout while in progress
+  - Describe the metrics you will use to determine the success of the rollout
+  - Account for different states of data during rollout, such as cached data or data that was in a previously valid state
 - Requiring feature flag usage ([example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/88298))
 - Changing a recommended process to a required process for this change, such as a domain expert review
 - Requesting manual testing of the work before approval

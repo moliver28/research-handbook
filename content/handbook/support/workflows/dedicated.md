@@ -30,9 +30,9 @@ Here are links to other pages about GitLab Dedicated around GitLab:
 GitLab Support has access to a GitLab Dedicated instance for testing and problem
 reproduction purposes. This instance can be accessed at the following URLs:
 
-- GitLab: https://dedicatedtestsandbox.gitlab-private.org/
-- OpenSearch: https://opensearch.dedicatedtestsandbox.gitlab-private.org/_dashboards/
-- Grafana: https://grafana.dedicatedtestsandbox.gitlab-private.org/
+- GitLab: <https://dedicatedtestsandbox.gitlab-private.org/>
+- OpenSearch: <https://opensearch.dedicatedtestsandbox.gitlab-private.org/_dashboards/>
+- Grafana: <https://grafana.dedicatedtestsandbox.gitlab-private.org/>
 
 To receive an invite, ask Armin, Brie, Matthew or Wei-Meng.
 
@@ -40,7 +40,7 @@ When running a test on the GitLab Support Dedicated instance, please communicate
 As we are all sharing the same test instance, and if your test may impact the whole instance, post a message at the beginning of a test with an estimate duration.
 Upon test completion, please use the emoji `:done:` to show you reverted the changes and the test is completed.
 
-The Switchboard console can be accessed at https://console.gitlab-private.org/tenants/40.
+The Switchboard console can be accessed at <https://console.gitlab-private.org/tenants/40>.
 Follow [these instructions](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/tree/main#process-to-provision-new-users-pre-production-environment)
 to request access. You may use this [example access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/25151)
 as a starting point.
@@ -104,8 +104,8 @@ When any changes are required besides those listed below, raise an issue in the 
 
 1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/ee/administration/dedicated/#inbound-private-link). In this case, it's an **IAM principal**.
 
-  - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-users).
-  - The IAM user principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:user/user-name`. The IAM role principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:role/role-name`. Keep the format of these two in mind to avoid prolonging the ticket if an unexpected format is provided.
+- The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-users).
+- The IAM user principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:user/user-name`. The IAM role principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:role/role-name`. Keep the format of these two in mind to avoid prolonging the ticket if an unexpected format is provided.
 
 1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
 1. Add the IAM principal to the issue. The Environment Automation team will provide a **Service Endpoint Name**.
@@ -115,16 +115,16 @@ When any changes are required besides those listed below, raise an issue in the 
 
 1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
 
-  - As a comment in the issue, request two **Availability Zone IDs (AZ IDs)** that can be used by the customer.
+- As a comment in the issue, request two **Availability Zone IDs (AZ IDs)** that can be used by the customer.
 
 1. Provide the IAM role Principal to the customer. It has the following format: `arn:aws:iam::<AWS_Account_ID>:role/reverse_private_link@<tenant_id>`. You will find this information in the `Reverse Private Link IAM Principal` row of the `Tenant Details` section in Switchboard. Alternatively, read the instructions in the issue created for information on how to find the `<AWS_Account_ID>` and `<tenant_id>`.
 1. Provide the two **AZ IDs** from the issue to the customer. An example AZ ID is: `use-az1` or `usw-az4`. Note: *These are not AWS Zone IDs.*
 
-  - Provide the two AZ IDs early in the ticket to avoid prolonging the ticket. The AZ IDs must be in the same region as the customer's tenant instance. The customer can then make the decision of which specific zones that can be used. AZ IDs are shared between different zones in a region but cannot be used outside of the region. For example, AZ IDs in `us-west-1*` cannot be used in `us-west-2*`. Some of the zones in each reach share AZ IDs with other zones in the same region but you must work with the customer to find the overlap.
+- Provide the two AZ IDs early in the ticket to avoid prolonging the ticket. The AZ IDs must be in the same region as the customer's tenant instance. The customer can then make the decision of which specific zones that can be used. AZ IDs are shared between different zones in a region but cannot be used outside of the region. For example, AZ IDs in `us-west-1*` cannot be used in `us-west-2*`. Some of the zones in each reach share AZ IDs with other zones in the same region but you must work with the customer to find the overlap.
 
 1. Ask the customer to provide the [required information](https://docs.gitlab.com/ee/administration/dedicated/#outbound-private-link). In this case, it's a **Service Endpoint Name**, a list of **AZ IDs** they will be using (should match provided AZ IDs), and **Domain Name** (with one of two options).
 
-  - The **Service Endpoint Name** uses a reverse domain name notation and has the following format: `com.amazonaws.vpce.<region>.<vpce-svc-identifier>`
+- The **Service Endpoint Name** uses a reverse domain name notation and has the following format: `com.amazonaws.vpce.<region>.<vpce-svc-identifier>`
 
 1. Fill in the issue with the information provided by the customer and follow next steps in the issue.
 
@@ -145,7 +145,7 @@ In most cases, customers should use **Switchboard** to update the IP allowlist f
 
 1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/ee/administration/dedicated/#access-to-application-logs). In this case, it's an **IAM principal**.
 
-  - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-users).
+- The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-users).
 
 1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) in the GitLab Dedicated issue tracker.
 1. Provide the IAM principal to the Environment Automation team.

@@ -60,7 +60,7 @@ GitLab supports team members and members of the wider GitLab community who want 
 - We love and support meetups. If you participate in local tech groups and are interested in having a GitLab speaker or GitLab as a sponsor, members of the wider GitLab community should email `evangelists@gitlab.com`. Team members should submit an [issue](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=community-event). Please note, providing sufficient lead time (at least a month) allows us to better support your event so feel free to reach out as soon as possible.
 - When a meetup issue is submitted by a community member, an issue should be created using the [community event template](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=community-event), labeled with the [`Meetups`](https://gitlab.com/groups/gitlab-com/marketing/-/issues?label_name%5B%5D=Meetups) label, and be given a due date on the date of the event. Meetup issues created by a GitLab team member should receive the same treatment.
 - If you are interested in creating your own GitLab meetup or if you already have an existing meetup on meetup.com that you would like to link to GitLab's meetup.com Pro account, please email `evangelists@gitlab.com`. You can find the list of GitLab meetups on the [meetup.com page](https://www.meetup.com/pro/gitlab).
-    - Connecting your group to GitLab's Meetup Pro instance will also allow you to utilize easy-to-use, custom templates for your Meetup events. When scheduling a new event on Meetup, you can choose a template by clicking on `Start from a template` in the right sidebar and choosing a template that best fits your event.
+  - Connecting your group to GitLab's Meetup Pro instance will also allow you to utilize easy-to-use, custom templates for your Meetup events. When scheduling a new event on Meetup, you can choose a template by clicking on `Start from a template` in the right sidebar and choosing a template that best fits your event.
 - When you are getting started, we recommend scheduling at least 2 meetups. Publish your first meeting with a date and topic, and then a second meeting with a date and topic. The second meeting can have a flexible topic based on how the first meeting goes. The point of setting two meet-ups is to help build momentum in the new group.
 - Often, we try to have GitLab employees attend the first couple of meetups. Once the group has hosted a couple of successful events, it becomes easier for the group to sustain itself. It is much harder to start new meetups versus maintaining existing ones. So we make an effort to support and keep new meetups going.
 - Additional information on organizing your own meetup events can be found on our [Meetup checklist](https://about.gitlab.com/community/meetups/checklist/).
@@ -120,10 +120,10 @@ Meetups help us raise awareness of GitLab and build communities in new places. W
 
 - GitLab team member speakers should use the [Meetup Speaker template](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=meetup-speaker) to create a new issue with the details for your meetup talk. Community members can contact `evangelists@gitlab.com` if they wish to share an upcoming speaking opportunity with the GitLab team.
 - Opening an issue helps us support you. A few ways we can help:
-    - Marketing: We'll share the event on our blog, via social, and with GitLab community members in the area to raise awareness of the event.
-    - Sponsorship: GitLab will cover the cost of food and beverages for meetup organizers.
-    - Swag: Our swag is pretty popular so we'll send you plenty of stickers and _maybe_ some other fun stuff to give away.
-    - Speaker prep: If you need help with your deck or would like someone to offer feedback on a dry run of your talk, the [Evangelist Program Manager](mailto:evangelists@gitlab.com) is happy to help.
+  - Marketing: We'll share the event on our blog, via social, and with GitLab community members in the area to raise awareness of the event.
+  - Sponsorship: GitLab will cover the cost of food and beverages for meetup organizers.
+  - Swag: Our swag is pretty popular so we'll send you plenty of stickers and _maybe_ some other fun stuff to give away.
+  - Speaker prep: If you need help with your deck or would like someone to offer feedback on a dry run of your talk, the [Evangelist Program Manager](mailto:evangelists@gitlab.com) is happy to help.
 
 ### GitLab Virtual Meetup group
 
@@ -488,7 +488,7 @@ If you have questions, you can always reach us by sending an e-mail to `evangeli
 
 GitLab team members and members of the wider GitLab community are encouraged to nominate community members to participate in our programs. This is a valuable way to contribute to the growth and success of the GitLab community.
 
-To nominate a community member who may be interested in becoming a code contributor or meetup organizer, who actively shares their knowledge of GitLab in talks or blog posts, or who meets [the criteria for the GitLab Heroes program](https://about.gitlab.com/community/heroes/#heros-journey), please contact the Developer Relations team by emailing evangelists@gitlab.com.
+To nominate a community member who may be interested in becoming a code contributor or meetup organizer, who actively shares their knowledge of GitLab in talks or blog posts, or who meets [the criteria for the GitLab Heroes program](https://about.gitlab.com/community/heroes/#heros-journey), please contact the Developer Relations team by emailing <evangelists@gitlab.com>.
 
 ## Community content
 

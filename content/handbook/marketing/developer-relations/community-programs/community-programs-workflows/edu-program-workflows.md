@@ -57,7 +57,7 @@ Acceptable examples include Teacher ID card with valid date and pay stub from wi
 Applicants will have 3 attempts to upload a document providing verification of eligibility.
 SheerID will manually review these documents.  Upon the third unsuccessful attempt, applicant will be rejected.
 
-If SheerID is unable to determine the eligibility based on the document review, SheerID will forward the applicant's record to education@gitlab.com.
+If SheerID is unable to determine the eligibility based on the document review, SheerID will forward the applicant's record to <education@gitlab.com>.
 The GitLab for Education team will review the documentation and determine eligibility.
 
 ### Verification limit
@@ -86,10 +86,10 @@ You'll need to create an EndNote account from the [EndNote homepage](https://end
 1. Export the citations in EndNote format.
 1. Log into your [EndNote account](https://endnote.com/). See note below if you do not have an account. Import the citations from Google Scholar
 
-  - From the `Collect` menu go to `Import References`
-  - Choose the File
-  - For `Import Option` choose EndNote
-  - For `To` choose **GitLab Citation Index Webpage** Group
+- From the `Collect` menu go to `Import References`
+- Choose the File
+- For `Import Option` choose EndNote
+- For `To` choose **GitLab Citation Index Webpage** Group
 
 1. View each citation from the `My References` menu
 1. Update any relevant information that may have not imported correctly

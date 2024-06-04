@@ -76,7 +76,7 @@ Here is where all translated content exists in the Buyer Experience repository:
 - French: [buyer-experience/-/tree/main/content/fr-fr](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/fr-fr)
 - Japanese:[buyer-experience/-/tree/main/content/ja-jp](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/ja-jp)
 
-You can verify what translated pages are live on production by viewing our Buyer Experience sitemap @ https://about.gitlab.com/buyer-experience/sitemap.xml. All german URLs are listed together, so search for `/de-de/` and you'll be brought to the line where we start listing German translated pages. Same goes for other langauages.
+You can verify what translated pages are live on production by viewing our Buyer Experience sitemap @ <https://about.gitlab.com/buyer-experience/sitemap.xml>. All german URLs are listed together, so search for `/de-de/` and you'll be brought to the line where we start listing German translated pages. Same goes for other langauages.
 
 ### hreflang tagging
 
@@ -114,6 +114,6 @@ Aleyda Solis maintains a great [tool to build `hreflang` tags](https://www.aleyd
 
 | Language | Localized Landing Page | Status |
 | ------ | ------------ | ------ |
-| French | https://about.gitlab.com/fr-fr/ | Live |
-| Japanese | https://about.gitlab.com/ja-jp/ | Live |
-| German | https://about.gitlab.com/de-de/ | Live |
+| French | <https://about.gitlab.com/fr-fr/> | Live |
+| Japanese | <https://about.gitlab.com/ja-jp/> | Live |
+| German | <https://about.gitlab.com/de-de/> | Live |

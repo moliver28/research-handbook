@@ -74,7 +74,7 @@ To view recent updates to Gainsight, view [the running changelog](https://docs.g
 
 To submit a support ticket about Gainsight, you have two options.
 
-1. Email support@gainsight.com and cc GitLab's CS Ops Manager and Gainsight Account Manager.
+1. Email <support@gainsight.com> and cc GitLab's CS Ops Manager and Gainsight Account Manager.
 1. Go to the [Gainsight support website](https://support.gainsight.com/), choose Gainsight NXT, and fill out the required fields.
 
 ### Common errors & troubleshooting

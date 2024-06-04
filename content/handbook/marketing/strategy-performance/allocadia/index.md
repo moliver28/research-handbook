@@ -143,15 +143,15 @@ Any line items within a category or subcategory default inherit the details from
 **Details** tab
 
 - Spend type - relates to the account code, but slightly more granular detail to help the marketer.
-    - Field Marketing (FM) only - using the [Allocadia Impact Modeller](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/159), the spend type you choose, will spit out the expected ROI based on historical conversion rates.
-    - Field Marketing (FM) only: If `Spend Type` is as follows, then you will be asked a Y/N on if the event is `In person`.
-        - Conferences
-        - Executive Roundtable
-        - Field Event
-        - Owned Event
-        - Speaking Session
-        - Vendor Arranged Meetings
-        - Workshop
+  - Field Marketing (FM) only - using the [Allocadia Impact Modeller](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/159), the spend type you choose, will spit out the expected ROI based on historical conversion rates.
+  - Field Marketing (FM) only: If `Spend Type` is as follows, then you will be asked a Y/N on if the event is `In person`.
+    - Conferences
+    - Executive Roundtable
+    - Field Event
+    - Owned Event
+    - Speaking Session
+    - Vendor Arranged Meetings
+    - Workshop
 - (FM only) Is a Channel Partner involved? Y/N. If the answer is Y, then you will need to manually enter in the Channel partner name.
 - (FM only) Is an Alliance Partner involved? Y/N. If the answer is Y, then you will need to manually enter in the Alliance partner name.
 - GitLab Marketing issue URL - a link to the issue where the marketer is managing the activity (not procurement issue - see below); leave blank if N/A
@@ -161,7 +161,7 @@ Any line items within a category or subcategory default inherit the details from
 - (FM only) Country - allows the field marketer to choose more detailed location; is also tracked for Priority Country analysis
 - Campaign Type - should match the type used in Marketo and SFDC; limited based on input in Spend Type above
 - Existing SFDC campaign - this is a dropdown that includes all campaigns that align wit the hierarchy that have been set up in SFDC; if it does not relate to an actual SFDC event/campaign, this can be left blank.
-    - Note: If the SFDC campaign has not been created at the time of the entry you will not need to manually go back and add the campaign in the details panel. Once the SFDC campaign has been created the Allocadia<>SFDC synch will match the Allocadia line item to the SFDC campaign and your campaign will then show up in your details panel.
+  - Note: If the SFDC campaign has not been created at the time of the entry you will not need to manually go back and add the campaign in the details panel. Once the SFDC campaign has been created the Allocadia<>SFDC synch will match the Allocadia line item to the SFDC campaign and your campaign will then show up in your details panel.
 - Campaign Name to be Created - add the campaign name here that will be used to create the Marketo program and SFDC campaign utilizing the `ISO date_event name` structure (example - 20220520_TheBestEventEver)
 - Payment method - select the type of invoice or Naven Expense. Other will be rarely used.
 - Segment - if the spend is for a specific segment or segments, choose it/allocate percentage to them here. If its for all, simply select all and save.
@@ -195,18 +195,18 @@ Certain groups within GitLab have the ability to create a calendar invite direct
 - **How the calendar process is mapped**
 - You may ONLY create a calendar invite at the `line item` level. Meaning you CANNOT create a calendar invite at the `Category` OR `Sub-category` level.
 - Based on the inputs from the details panel, the logic is built as follows:
-    - Question within Allocadia: `Is this an in person event?`
-        - If value is YES it uses the `in person events and sponsorships` calendar - regardless of spend type, if it’s an in person event it WILL show up on this calendar.
-        - If value is null or no, check next column
-    - Next Column: `Spend Type` (Campaign Type)
-        - If value is `Self-Service Virtual Event` use the `GitLab Hosted Self-Service Virtual Events` calendar
-        - If value is any of the following:
-            - `Vendor Arranged Meetings`
-            - `Executive Roundtable`
-            - `Sponsored Webcast`
-            - `Virtual Sponsorship`
-                - use the `External Virtual Events` calendar
-        - All else, do not create calendar invite and present error message `Cannot create calendar invite for this Spend Type`.
+  - Question within Allocadia: `Is this an in person event?`
+    - If value is YES it uses the `in person events and sponsorships` calendar - regardless of spend type, if it’s an in person event it WILL show up on this calendar.
+    - If value is null or no, check next column
+  - Next Column: `Spend Type` (Campaign Type)
+    - If value is `Self-Service Virtual Event` use the `GitLab Hosted Self-Service Virtual Events` calendar
+    - If value is any of the following:
+      - `Vendor Arranged Meetings`
+      - `Executive Roundtable`
+      - `Sponsored Webcast`
+      - `Virtual Sponsorship`
+        - use the `External Virtual Events` calendar
+    - All else, do not create calendar invite and present error message `Cannot create calendar invite for this Spend Type`.
 
 While Workshops & Webcasts DO require a calendar invite, we intentionally left the auto create calendar invite out of the plug in. We did this because the `GitLab Hosted Zoom Webcasts` calendar requires Zoom integration work and is a locked calendar, given the technical work required to run the campaign types. For more information on booking a GitLab-hosted Workshop or Webcast, please visit [this handbook page](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#securing-a-virtual-workshop-or-webcast-date).
 
@@ -409,12 +409,12 @@ In this example, you would use your sponsorship line item ID when submitting you
 
 ##### For expenses submitted through Zip/Coupa
 
-   - Populate the line item Allocadia ID in the Zip request - this will ensure the PO and invoice are both mapped to the correct Allocadia line item
-   - Marketing Finance will confirm the Allocadia line item ID is correct and is properly forecasted. Zip/Coupa requests without Allocadia IDs will not be approved until an ID is provided. See [screenshot](https://drive.google.com/file/d/1DoyN4_uTlYO5q1VGPN-NRiL8M0Lv76z9/view?usp=sharing) for example.
+- Populate the line item Allocadia ID in the Zip request - this will ensure the PO and invoice are both mapped to the correct Allocadia line item
+- Marketing Finance will confirm the Allocadia line item ID is correct and is properly forecasted. Zip/Coupa requests without Allocadia IDs will not be approved until an ID is provided. See [screenshot](https://drive.google.com/file/d/1DoyN4_uTlYO5q1VGPN-NRiL8M0Lv76z9/view?usp=sharing) for example.
 
 ##### For expenses submitted through Navan
 
-   - Enter the Allocadia line item ID in the `Allocadia ID (Marketing Only)` field when submitting the expense. This will ensure the expense is mapped to the correct Allocadia line item ID. See [screenshot](https://drive.google.com/file/d/1o4eeas6uxeBzUtxevBgZrhQkEv4duD7_/view?usp=sharing) for example.
+- Enter the Allocadia line item ID in the `Allocadia ID (Marketing Only)` field when submitting the expense. This will ensure the expense is mapped to the correct Allocadia line item ID. See [screenshot](https://drive.google.com/file/d/1o4eeas6uxeBzUtxevBgZrhQkEv4duD7_/view?usp=sharing) for example.
 
 To find expenses that need to be mapped after the NetSuite actual upload, go to the home page in Allocadia. In the `Actuals` column, see if your `Map` column has a Map (#) in red. If so, click on that link, and it will open a new screen to show you what needs to be mapped. Scroll over to see descriptions, invoice numbers, etc from NetSuite. All you do is select the hierarchy category and then the line item to match each one to. Then hit map. You can also bulk map by shifting /clicking several lines and then hit bulk map for a smaller screen with its own “map” button.
 If you accidentally map something incorrectly, it can be corrected. You'll need to go to the Activities grid for the line item where you accidentally mapped it, right click and select `Go to Actuals`. A new screen will appear where hopefully you see your error line and you can delete by scrolling to the far right.

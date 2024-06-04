@@ -63,19 +63,19 @@ Our active feature flags can be found on the [feature flag dashboard](https://10
 
 ## Dashboards
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="pipeline security" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="pipeline security" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="pipeline security" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="pipeline security" >}}
 {{< /tableau >}}
 
@@ -127,7 +127,7 @@ If the weight of an issue cannot be determined within a day, create a separate [
 
 When issues require a design proposal, we follow the [Product Development Flow](/handbook/product-development-flow/). Design and development should work together from the start to ensure the issue follows our [MVC guidelines](/handbook/product/product-principles/#the-minimal-viable-change-mvc), while still providing value and a usable experience.
 
-To maintain a SSOT, the same issue should be used for design and development. This creates less duplicated work for both teams. Product designers should use the [UX Definition of Done](/handbook/product/ux/stage-group-ux-strategy/ci-cd/#ux-definition-of-done-ux-dod) template to clearly state where the issue stands in the product development flow. An example of this in practice is https://gitlab.com/gitlab-org/gitlab/-/issues/33418/.
+To maintain a SSOT, the same issue should be used for design and development. This creates less duplicated work for both teams. Product designers should use the [UX Definition of Done](/handbook/product/ux/stage-group-ux-strategy/ci-cd/#ux-definition-of-done-ux-dod) template to clearly state where the issue stands in the product development flow. An example of this in practice is <https://gitlab.com/gitlab-org/gitlab/-/issues/33418/>.
 
 Once the design is complete, and appropriate workflow labels are applied, design, quality, and development (include FE, BE, and EM) should work together to break down the issue further for implementation, if necessary.
 
@@ -250,7 +250,7 @@ For iterations on features behind feature flags, even when the changes won't be 
 
 - **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
-   - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
+  - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
 - **At Risk** - The issue in its current state will not make the planned release and immediate action is needed to get it back to `On Track` today.
   - If you are moving an item into this status please consider posting in the [#g_pipeline-security](https://gitlab.slack.com/archives/CPANF553J) channel in slack. Try to include anything that can be done to unstick the item so that it can get back to an `On Track` status in your message.
   - Note: It is possible that there is nothing to be done that can get the item back on track in the current milestone. If that is the case please let your manager know as soon as you are aware of this.

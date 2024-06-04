@@ -318,8 +318,8 @@ The changes below aim to increase the maturity of the Error Budgets.
 - ***Completed*** SLI calculations used request duration threshold which was not appropriate for all endpoints. [The threshold was increased to 5s](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1243) on the 21st of Sept and it will take 28 days for the full effect to be shown in the Error Budgets.
 - **Completed** Stage groups will next be enabled to set their own SLI per endpoint by expanding on the configurability of SLI request duration threshold. [epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/525).
 - Endpoints that are currently `not_owned` will be attributed to the correct feature category. This will be addressed by
-   - **Completed** [using caller information for Sidekiq](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1200), and
-   - having [graphQL query-to-feature correlation](https://gitlab.com/gitlab-org/gitlab/-/issues/328535).
+  - **Completed** [using caller information for Sidekiq](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1200), and
+  - having [graphQL query-to-feature correlation](https://gitlab.com/gitlab-org/gitlab/-/issues/328535).
 - The [impact of system-wide outages on Error Budgets should be more clear](https://gitlab.com/gitlab-com/Product/-/issues/2884).
 - Provide guidance for PM's who report on both Error Budgets and Service Availability. (Such as Runner and Pages).
 

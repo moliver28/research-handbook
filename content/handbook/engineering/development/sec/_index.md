@@ -356,11 +356,11 @@ When configuring projects that are not part of the secure stage, please see the 
 
 ### Dashboards
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "SECTION_LABEL"="sec" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "SECTION_LABEL"="sec" >}}
 {{< /tableau >}}
 
@@ -386,16 +386,16 @@ We encourage utilizing our available [Google Groups](https://groups.google.com/m
 
 Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues/246) and are structured as:
 
-  - sec-section
-  - sec-govern
-  - sec-secure
-  - sec-govern-threat-insights
-  - sec-govern-security-policies
-  - sec-govern-compliance
-  - sec-secure-static-analysis
-  - sec-secure-secret-detection
-  - sec-secure-dynamic-analysis
-  - sec-secure-composition-analysis
+- sec-section
+- sec-govern
+- sec-secure
+- sec-govern-threat-insights
+- sec-govern-security-policies
+- sec-govern-compliance
+- sec-secure-static-analysis
+- sec-secure-secret-detection
+- sec-secure-dynamic-analysis
+- sec-secure-composition-analysis
 
 The members of each google group consists of stable counterparts and the correct `eng-dev-[sub-department]-[team]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated.
 
@@ -491,7 +491,7 @@ The table below captures characteristics (requirements?) of work that is in-scop
 
 #### Acceptance Criteria
 
-GitLab’s Stance for Architectural issues: https://about.gitlab.com/handbook/engineering/architecture/
+GitLab’s Stance for Architectural issues: <https://about.gitlab.com/handbook/engineering/architecture/>
 
 #### Team Representatives
 

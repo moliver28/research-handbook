@@ -13,8 +13,8 @@ canonical_path: "/company/culture/inclusion/neurodiversity-resources/"
 ## Resources for those who identify as neurodivergent
 
 - GitLab's Employee Assistance Program, [Modern Health]({{< ref "modern-health" >}}), offers resources to support team members that identify as neurodivergent:
-    - **Digital Content**: Modern Health offers [digital resources](https://my.joinmodernhealth.com/resources) that may be helpful, such as meditations for sensory mindfulness and programs that offer strategies for focus.
-    - **Coaching & Therapy**: GitLab Team Members have access to [coaching and therapy sessions]({{< ref "modern-health#care" >}}). Modern Health has counselors and therapist who specialize in working with people across the spectrum of neurodiversity. Any member can write into help@joinmodernhealth.com and ask for a provider with this kind of specialization (the more specific, the better).
+  - **Digital Content**: Modern Health offers [digital resources](https://my.joinmodernhealth.com/resources) that may be helpful, such as meditations for sensory mindfulness and programs that offer strategies for focus.
+  - **Coaching & Therapy**: GitLab Team Members have access to [coaching and therapy sessions]({{< ref "modern-health#care" >}}). Modern Health has counselors and therapist who specialize in working with people across the spectrum of neurodiversity. Any member can write into <help@joinmodernhealth.com> and ask for a provider with this kind of specialization (the more specific, the better).
 - [Neurodiversity as a competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage)
 - [ADHD in the workplace](https://www.webmd.com/add-adhd/adhd-in-the-workplace)
 - [Free neurodiversity peer mentorships](https://www.neurodiver-city.org/)
@@ -47,7 +47,7 @@ G--> |No| K[You can consider speaking with a People Business Partner or the DIB 
 
 ## Resources for Team Members and Managers+
 
-- [Modern Health]({{< ref "modern-health" >}}) provides Coaching sessions for team members and managers supporting people in the neurodiverse community. Team Members can schedule a coaching sessions via the modern health platform. Please reach out to the Total-Rewards@gitlab.com should you need any help with scheduling a session.
+- [Modern Health]({{< ref "modern-health" >}}) provides Coaching sessions for team members and managers supporting people in the neurodiverse community. Team Members can schedule a coaching sessions via the modern health platform. Please reach out to the <Total-Rewards@gitlab.com> should you need any help with scheduling a session.
 - [How to embed neurodiversity into your people management practices](https://www.hrzone.com/perform/people/how-to-embed-neurodiversity-into-your-people-management-practices)
 - [Autistic Advocacy Resources](https://autisticadvocacy.org/resources/accessibility/)
 - [Certified Neurodiverse Workplace](https://ibcces.org/certified-neurodiverse-workplace/)
@@ -84,10 +84,10 @@ It is important to have a discussion with the team member regarding the best way
 
 ### Time Management
 
- - Assign a mentor
- - Provide to-do lists
- - Assistance with prioritization
- - Assistive technology (timers, apps, calendars, etc)
+- Assign a mentor
+- Provide to-do lists
+- Assistance with prioritization
+- Assistive technology (timers, apps, calendars, etc)
 
 ### References for more ideas
 

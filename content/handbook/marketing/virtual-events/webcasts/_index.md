@@ -160,11 +160,11 @@ Partner webcasts are managed and moderated by Partner Marketing, working closely
 **Step 1: Creating a GitLab webcast**
 
 * Identify partner, topic, and a potential date for webcast
-    * Establish if the partner wants us to share leads with them.
-        * If yes, we MUST include the following veribage on the landing page per compliance - Ping Lynsey Sayers in Compliance
-        * If yes, Partner marketing is responsible to document in the appropriate issues that we are sharing leads and do the following actions:
-            * Works with the partner to identify requirements of the format of the leads
-            * Will open an issue for Marketing Ops to provide the lead list post-event.
+  * Establish if the partner wants us to share leads with them.
+    * If yes, we MUST include the following veribage on the landing page per compliance - Ping Lynsey Sayers in Compliance
+    * If yes, Partner marketing is responsible to document in the appropriate issues that we are sharing leads and do the following actions:
+      * Works with the partner to identify requirements of the format of the leads
+      * Will open an issue for Marketing Ops to provide the lead list post-event.
 * Create the copy for the title and abstract (in collaboration with the partner, and any other speakers) and gain approval, and obtain sign off from the partner.
 * Create the copy for the landing page and provide speaker bios and, if applicable, photos of the speakers.
       + Please make sure if we are sharing leads our agreed upon compliance opt in verbiage is included
@@ -447,51 +447,51 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 
 Buckle up! There are a lot of tokens, but for good reason. This is an **advanced practice** and **best practice** within Marketo templates to increase efficiency and speed. Updating these at the top level of the program allows them to cascade through the landing page, emails, automation, and alerts creating a significantly more efficient process of launching new webcasts.
 
-   * `{{my.apiKey}}` - apiKey from Zoom
-   * `{{my.apiSecret}}` - apiSecret from Zoom
-   * `{{my.bullet1}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.bullet2}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.bullet3}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.bullet4}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.emailConfirmationButtonCopy}}`  - copy for the email confirmation (when on demand), leave as `Watch now`
-   * `{{my.formButtonCopy}}` - copy for the form button, leave as `Register now` (when switching to on-demand, this will change to `Watch now`)
-   * `{{my.formHeader}}` - copy for header of form, leave as `Save your spot today!` (when switching to on-demand, this will change to `View the webcast today!`)
-   * `{{my.heroImage}}` - image to display above landing page form ([options in Marketo here](https://app-ab13.marketo.com/#FI0A1ZN9784))
-   * `{{my.introParagraph}}` - intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.mpm owner email address}}` - not used in automation, but helpful to know who to go to about setup
-   * `{{my.ondemandUrl}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
-     * Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
-     * Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking paramaeters
-   * `{{my.socialImage}}` - image that would be picked up in social sharing, slack, etc. preview when the URL is shared, leave the default (GitLab logo) unless presented with webcast specific image. If needed, create a custom image by using a Canva template and upload on Marketo Design studio. Then link it in this token. Remember to first update this token, before adding URLs for the speaker image tokens. If this happens the other way around, the speaker image might be picked for preview instead of the social image.
-   * `{{my.speaker1Company}}` token with speaker 1's company name
-   * `{{my.speaker1ImageURL}}` token with speaker 1's image url in marketo design studio
-   * `{{my.speaker1JobTitle}}` token with speaker 1's job title
-   * `{{my.speaker1Name}}` token with speaker 1's full name
-   * REPEAT this for speaker 2 and 3. If there are more or less speakers, follow the instructions below at the end of the general webcast setup.
-   * `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
-   * `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1471341556)
-   * `{{my.webcastDate}}` - the webcast LIVE date.
-   * `{{my.webcastDescription}}` - 2-3 sentences with approved character limits, this will show up in page previews on social and be used in YouTube and Pathfactory description.
-   * `{{my.webcastSubtitle}}` token with subtitle for the webcast.
-   * `{{my.webcastTime}}` token with the webcast time in local timezone/UTC timezone.
-   * `{{my.webcastTitle}}` token with the webcast title.
+* `{{my.apiKey}}` - apiKey from Zoom
+* `{{my.apiSecret}}` - apiSecret from Zoom
+* `{{my.bullet1}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.bullet2}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.bullet3}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.bullet4}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.emailConfirmationButtonCopy}}`  - copy for the email confirmation (when on demand), leave as `Watch now`
+* `{{my.formButtonCopy}}` - copy for the form button, leave as `Register now` (when switching to on-demand, this will change to `Watch now`)
+* `{{my.formHeader}}` - copy for header of form, leave as `Save your spot today!` (when switching to on-demand, this will change to `View the webcast today!`)
+* `{{my.heroImage}}` - image to display above landing page form ([options in Marketo here](https://app-ab13.marketo.com/#FI0A1ZN9784))
+* `{{my.introParagraph}}` - intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.mpm owner email address}}` - not used in automation, but helpful to know who to go to about setup
+* `{{my.ondemandUrl}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
+  * Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
+  * Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking paramaeters
+* `{{my.socialImage}}` - image that would be picked up in social sharing, slack, etc. preview when the URL is shared, leave the default (GitLab logo) unless presented with webcast specific image. If needed, create a custom image by using a Canva template and upload on Marketo Design studio. Then link it in this token. Remember to first update this token, before adding URLs for the speaker image tokens. If this happens the other way around, the speaker image might be picked for preview instead of the social image.
+* `{{my.speaker1Company}}` token with speaker 1's company name
+* `{{my.speaker1ImageURL}}` token with speaker 1's image url in marketo design studio
+* `{{my.speaker1JobTitle}}` token with speaker 1's job title
+* `{{my.speaker1Name}}` token with speaker 1's full name
+* REPEAT this for speaker 2 and 3. If there are more or less speakers, follow the instructions below at the end of the general webcast setup.
+* `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
+* `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1471341556)
+* `{{my.webcastDate}}` - the webcast LIVE date.
+* `{{my.webcastDescription}}` - 2-3 sentences with approved character limits, this will show up in page previews on social and be used in YouTube and Pathfactory description.
+* `{{my.webcastSubtitle}}` token with subtitle for the webcast.
+* `{{my.webcastTime}}` token with the webcast time in local timezone/UTC timezone.
+* `{{my.webcastTitle}}` token with the webcast title.
 
 ### Step 3.B: Turn on smart campaigns in Marketo
 
 {: #zoom-marketo-smart-campaigns} <!-- DO NOT CHANGE THIS ANCHOR -->
 
-   * Activate the `00 Interesting Moments` campaign.
-   * Activate the `01a Registration Flow (single timeslot)` smart campaign.
+* Activate the `00 Interesting Moments` campaign.
+* Activate the `01a Registration Flow (single timeslot)` smart campaign.
 
 ### Step 3.C: Create the landing page
 
 {: #zoom-marketo-lp} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * When you cloned the webcast template, and update the Marketo tokens, your landing page is almost ready to go!
-   * Under "Assets" right-click on `Registration Page` and hover over `URL Tools` > `Edit URL Settings`
-   * Use the format `webcast-MonthDD-topic-region` (do not include region if it is global. You can also remove the date if the event will be on-demand for more than a year) - ex. `webcast-Oct05-mastering-cicd` or `webcast-mastering-cicd-italian`
+  * Under "Assets" right-click on `Registration Page` and hover over `URL Tools` > `Edit URL Settings`
+  * Use the format `webcast-MonthDD-topic-region` (do not include region if it is global. You can also remove the date if the event will be on-demand for more than a year) - ex. `webcast-Oct05-mastering-cicd` or `webcast-mastering-cicd-italian`
 * Complete the same steps for the `Thank You Page`
-   * Use the format `webcast-MonthDD-topic-thank-you` (or `webcast-MonthDD-topic-region-thank-you` if region is relevant) - ex. `webcast-Oct05-mastering-cicd-thank-you` or `webcast-mastering-cicd-italian-thank-you`
+  * Use the format `webcast-MonthDD-topic-thank-you` (or `webcast-MonthDD-topic-region-thank-you` if region is relevant) - ex. `webcast-Oct05-mastering-cicd-thank-you` or `webcast-mastering-cicd-italian-thank-you`
 
 ##### Adjusting number of speakers in Marketo landing page
 
@@ -627,7 +627,7 @@ If you have 3 webcasts, you will have 3 Zoom webcasts and 3 Marketo programs. Ti
    * Repeat process until you have a static list for all webcasts in the series
 
 9. Update the form name and selection options.
-   * In the `Assets` folder, click on FORM 3111. When you cloned the program, the form number changed. You can find the new form number by looking in the URL: https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/FO**3111**A1LA1. Update the form name to `FORM [enter number here]: Name of Series`. If you are unsure of the form number, you can click "Preview Form" and find the number in the URL here: https://na-ab13.marketodesigner.com/m?explictHostname=app-ab13.marketo.com#FOP**3111**
+   * In the `Assets` folder, click on FORM 3111. When you cloned the program, the form number changed. You can find the new form number by looking in the URL: <https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/FO**3111**A1LA1>. Update the form name to `FORM [enter number here]: Name of Series`. If you are unsure of the form number, you can click "Preview Form" and find the number in the URL here: <https://na-ab13.marketodesigner.com/m?explictHostname=app-ab13.marketo.com#FOP**3111>**
    * [Open an issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=#) with Marketing Ops to modify the form selections for you. You will need to provide a short name for the webcast to use in the form that includes the date. For example: Oct. 14, 2021-Agile Webcast, Oct. 21, 2021-Security Webcast. The short name is required due to space contraints in the form selection.
 
 10. Create the landing page
@@ -640,15 +640,15 @@ If you have 3 webcasts, you will have 3 Zoom webcasts and 3 Marketo programs. Ti
 
 11. Update the `program distribution` campaign
 
-   * Smart List: This should have the `Fills out Form` trigger, with Form Name is [name of the form in the program]. This is the form you updated the name for earlier.
-   * Flow: Important: The programs need to be listed in the same order provided to MOps for the form. The first webcast will coorespond to number 1 for process, second will be number 2, etc.
-      * 1 - Change Program Status - Update the `Program` to the program for your first webinar.
-      * 2 - Change Program Status - Update the `Program` to the program for your second webinar.
-      * 3 - Change Program Status - Update the `Program` to the program for your third webinar. (If you only have two webcasts, delete this step)
-      * 4 - Change `List Name` to the List you created for the first webinar.
-      * 5 - Change `List Name` to the List you created for the second webinar.
-      * 6 - Change the `List Name` to the List you created for the third webinar. (If you only have two webcasts, delete this step)
-   * Schedule: Activate the campaign
+* Smart List: This should have the `Fills out Form` trigger, with Form Name is [name of the form in the program]. This is the form you updated the name for earlier.
+* Flow: Important: The programs need to be listed in the same order provided to MOps for the form. The first webcast will coorespond to number 1 for process, second will be number 2, etc.
+  * 1 - Change Program Status - Update the `Program` to the program for your first webinar.
+  * 2 - Change Program Status - Update the `Program` to the program for your second webinar.
+  * 3 - Change Program Status - Update the `Program` to the program for your third webinar. (If you only have two webcasts, delete this step)
+  * 4 - Change `List Name` to the List you created for the first webinar.
+  * 5 - Change `List Name` to the List you created for the second webinar.
+  * 6 - Change the `List Name` to the List you created for the third webinar. (If you only have two webcasts, delete this step)
+* Schedule: Activate the campaign
 
 ### Webcast invitation - Zoom
 
@@ -706,16 +706,16 @@ If you have 3 webcasts, you will have 3 Zoom webcasts and 3 Marketo programs. Ti
    * Change the "Follow-up Page" to be the thank you page in your program (begin to type in the Marketo program name and select your thank you page)
 1. **Marketo**: Send sample of the "On-demand Autoresponder" email to your inbox
 
-  * Right click on the email and choose `Send Sample`
-  * Under "Person" begin to type in your test lead email address. This will pull in the email address to review that the tracking is working properly in your email.
-  * For "Send To:" choose your email address (or type next to the `*` asterisk)
+* Right click on the email and choose `Send Sample`
+* Under "Person" begin to type in your test lead email address. This will pull in the email address to review that the tracking is working properly in your email.
+* For "Send To:" choose your email address (or type next to the `*` asterisk)
 
 1. **Your Inbox**: Review the sample email in your inbox
 
-  * Check all email copy
-  * Click all links and confirm they are not broken
-  * Click the `Watch now` CTA and confirm that your email address is in the URL displayed (this happens quickly and disappears in the URL, so watch carefully!)
-  * :thumbs-up: If all of the above apply, move on to activating the smart campaigns!
+* Check all email copy
+* Click all links and confirm they are not broken
+* Click the `Watch now` CTA and confirm that your email address is in the URL displayed (this happens quickly and disappears in the URL, so watch carefully!)
+* :thumbs-up: If all of the above apply, move on to activating the smart campaigns!
 
 1. **Marketo**: Update the smart campaigns (activate and deactivate)
    * Under "Schedule" on the `01a Registration Flow (single timeslot)` or `01b Registration Flow (Multi-timeslot)` smart campiagn, click `Deactivate` once the webcast has completed.
@@ -752,7 +752,7 @@ Note: do not schedule the emails until you have completed the "on demand switch"
   * Click the `Recording of the webcast` and `Watch now` links and confirm that your email address is in the URL displayed (this happens quickly and disappears in the URL, so watch carefully!)
   * :thumbs-up: If all of the above apply, move on to scheduling the smart campaigns!
 * **Schedule the smart campaign to send the emails**
-   * Schedule the `02 Follow Up - No shows/Attended` smart campaign to be the following business day.
+  * Schedule the `02 Follow Up - No shows/Attended` smart campaign to be the following business day.
 
 #### Rescheduling a webcast - Zoom
 
@@ -812,25 +812,25 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 {: #on24-types} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **ON24 Live (with Screen Share):** traditional live webcast with live speakers and Q&A.
-   * Pre-event registration takes place
-   * The event automatically converts to on-demand upon completion
+  * Pre-event registration takes place
+  * The event automatically converts to on-demand upon completion
 * **ON24 Live Audio (no Screen Share):** multiple presenters can present a live webcast using the telephone. Presenters will dial into the ON24 presenter phone bridge for the live event. Live screen share is not available with this event type.
-   * Pre-event registration takes place
-   * The event automatically converts to on-demand upon completion
+  * Pre-event registration takes place
+  * The event automatically converts to on-demand upon completion
 * **Simu-live (written Q&A)**: choose this option if you wish to pre-record entire event and deliver it to a live audience at a designated date and time. **Note**: Simu-lives must be created in advance. No changes can be made two hours before the scheduled live time.
-   * Pre-event registration takes place
-   * At time of webcast, a recording is played.
-   * You can interact with the live audience through written Q&A during playback of the pre-recorded presentation.
-   * The event will end immediately after the pre-recorded playback has ended, therefore it is best to do a mock Q&A and inform attendees that any questions will be individually addressed after the webinar, allowing for seamless follow up by SDRs.
-   * The event automatically converts to on-demand upon completion
+  * Pre-event registration takes place
+  * At time of webcast, a recording is played.
+  * You can interact with the live audience through written Q&A during playback of the pre-recorded presentation.
+  * The event will end immediately after the pre-recorded playback has ended, therefore it is best to do a mock Q&A and inform attendees that any questions will be individually addressed after the webinar, allowing for seamless follow up by SDRs.
+  * The event automatically converts to on-demand upon completion
 * **Simu-live (with rollover to live Q&A)**: also known as Sim-2-live, provides presenters the opportunity to address comments and questions verbally with a live audience once the pre-recorded presentation is done playing. For this event type select, Simu-live then enable the Rollover to Video and Audio toggle under Main Details.
-   * Pre-event registration takes place
-   * At time of webcast, a recording is played.
-   * You can interact with the live audience through written Q&A during playback of the pre-recorded presentation and at the end of the webcast addressing questions live.
-   * The event automatically converts to on-demand upon completion.
+  * Pre-event registration takes place
+  * At time of webcast, a recording is played.
+  * You can interact with the live audience through written Q&A during playback of the pre-recorded presentation and at the end of the webcast addressing questions live.
+  * The event automatically converts to on-demand upon completion.
 * **Recurring Simu-live**: this webcast type provides an efficient option to create one event and run it multiple times for recurring presentations such as daily demos, weekly campaign presentations, etc.  Attendees can choose the date they wish to attend. All registrant and attendee data will roll up into a single report.
 * **On Demand**: essentially an on-demand webcast, no interaction with a live audience.
-   * No pre-registration
+  * No pre-registration
 
 ## LIVE webcast registration and tracking - ON24
 
@@ -998,35 +998,35 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 
 {: #on24-marketo-tokens} <!-- DO NOT CHANGE THIS ANCHOR -->
 
-   * `{{my.bullet1}}`-`{{my.bullet4}}`- bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.emailConfirmationButtonCopy}}`  - copy for the email confirmation (when on demand), leave as `Watch now`
-   * `{{my.formButtonCopy}}` - copy for the form button, leave as `Register now` (when switching to on-demand, this will change to `Watch now`)
-   * `{{my.formHeader}}` - copy for header of form, leave as `Save your spot today!` (when switching to on-demand, this will change to `View the webcast today!`)
-   * `{{my.introParagraph}}` - intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.ondemandUrl}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
-     * Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
-     * Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking paramaeters
-   * `{{my.socialImage}}` - image that would be presented in social, slack, etc. preview when the URL is shared, this image is provided by design/social, leave the default unless presented with webcast specific image.
-   * `{{my.speaker1Company}}` token with speaker 1's company name
-   * `{{my.speaker1ImageURL}}` token with speaker 1's image url in marketo design studio
-   * `{{my.speaker1JobTitle}}` token with speaker 1's job title
-   * `{{my.speaker1Name}}` token with speaker 1's full name
-   * REPEAT this for speaker 2 and 3. If there are more or less speakers, follow the instructions below at the end of the general webcast setup.
-   * `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
-   * `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1471341556)
+* `{{my.bullet1}}`-`{{my.bullet4}}`- bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.emailConfirmationButtonCopy}}`  - copy for the email confirmation (when on demand), leave as `Watch now`
+* `{{my.formButtonCopy}}` - copy for the form button, leave as `Register now` (when switching to on-demand, this will change to `Watch now`)
+* `{{my.formHeader}}` - copy for header of form, leave as `Save your spot today!` (when switching to on-demand, this will change to `View the webcast today!`)
+* `{{my.introParagraph}}` - intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.ondemandUrl}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
+  * Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
+  * Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking paramaeters
+* `{{my.socialImage}}` - image that would be presented in social, slack, etc. preview when the URL is shared, this image is provided by design/social, leave the default unless presented with webcast specific image.
+* `{{my.speaker1Company}}` token with speaker 1's company name
+* `{{my.speaker1ImageURL}}` token with speaker 1's image url in marketo design studio
+* `{{my.speaker1JobTitle}}` token with speaker 1's job title
+* `{{my.speaker1Name}}` token with speaker 1's full name
+* REPEAT this for speaker 2 and 3. If there are more or less speakers, follow the instructions below at the end of the general webcast setup.
+* `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
+* `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1471341556)
 @@ -883,66 +923,27 @@ PUBLISHING
-   * `{{my.webcastTime}}` token with the webcast time in local timezone/UTC timezone.
-   * `{{my.webcastTitle}}` token with the webcast title.
+* `{{my.webcastTime}}` token with the webcast time in local timezone/UTC timezone.
+* `{{my.webcastTitle}}` token with the webcast title.
 
 ### Step 3.B: Create the landing page
 
 {: #on24-marketo-lp} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * When you cloned the webcast template, and updated the Marketo tokens, your landing page is almost ready to go!
-   * Under "Assets" right-click on `Registration Page` and hover over `URL Tools` > `Edit URL Settings`
-   * Use the format `webcast-topic` (or `webcast-topic-region` if region is relevant) - ex. `webcast-mastering-cicd` or `webcast-mastering-cicd-italian`
+  * Under "Assets" right-click on `Registration Page` and hover over `URL Tools` > `Edit URL Settings`
+  * Use the format `webcast-topic` (or `webcast-topic-region` if region is relevant) - ex. `webcast-mastering-cicd` or `webcast-mastering-cicd-italian`
 * Complete the same steps for the `Thank You Page`
-   * Use the format `webcast-topic-thank-you` (or `webcast-topic-region-thank-you` if region is relevant) - ex. `webcast-mastering-cicd-thank-you` or `webcast-mastering-cicd-italian-thank-you`
+  * Use the format `webcast-topic-thank-you` (or `webcast-topic-region-thank-you` if region is relevant) - ex. `webcast-mastering-cicd-thank-you` or `webcast-mastering-cicd-italian-thank-you`
 
 ### Schedule your ON24 practice session (Dry Run)
 
@@ -1138,16 +1138,16 @@ ON24 will automatically convert the video to on-demand in the ON24 platform. The
    * Change the "Follow-up Page" to be the thank you page in your program (begin to type in the Marketo program name and select your thank you page)
 1. **Marketo**: Send sample of the "On-demand Autoresponder" email to your inbox
 
-  * Right click on the email and choose `Send Sample`
-  * Expand advanced settings, under "Sample person for tokens" begin to type in your test lead email address. This will pull in the email address to review that the tracking is working properly in your email.
-  * For "Send To:" choose your email address (or type next to the `*` asterisk)
+* Right click on the email and choose `Send Sample`
+* Expand advanced settings, under "Sample person for tokens" begin to type in your test lead email address. This will pull in the email address to review that the tracking is working properly in your email.
+* For "Send To:" choose your email address (or type next to the `*` asterisk)
 
 1. **Your Inbox**: Review the sample email in your inbox
 
-  * Check all email copy
-  * Click all links and confirm they are not broken
-  * Click the `Watch now` CTA and confirm that your email address is in the URL displayed (this happens quickly and disappears in the URL, so watch carefully!)
-  * :thumbs-up: If all of the above apply, move on to activating the smart campaigns!
+* Check all email copy
+* Click all links and confirm they are not broken
+* Click the `Watch now` CTA and confirm that your email address is in the URL displayed (this happens quickly and disappears in the URL, so watch carefully!)
+* :thumbs-up: If all of the above apply, move on to activating the smart campaigns!
 
 1. **Marketo**: Update the smart campaigns (activate and deactivate)
    * Under "Schedule" on the `01a Registration Flow (single timeslot)` smart campiagn, click `Deactivate` once the webcast has completed.
@@ -1175,20 +1175,20 @@ In most cases, the landing pages for these events are managed by DEX. These inst
      * This URL should *not* contain any `?` question marks (if it does, you did not update the custom URL slug)
 1. **Marketo**: Modify the on-demand autoresponder email
 
-  * Confirm that the URL to view the on-demand webcast is `https://{{my.ondemandUrl}}?{{my.utm}}`
-  * Make any changes to the content that you need.
-  * Since you are driving to On24, you can use language such as "If you are prompted for an email address, please enter: {{lead.Email Address:default=No email found, please re-register using a valid email address}}". This will provide the user with a quick reference of the email address they used when registering.
-  * Update the text version of the email. Then `Approve and Close`.
-  * Right click on the email and choose `Send Sample`
-  * Expand advanced settings, under "Sample person for tokens" begin to type in your test lead email address. This will pull in the email address to review that the tracking is working properly in your email.
-  * For "Send To:" choose your email address (or type next to the `*` asterisk)
+* Confirm that the URL to view the on-demand webcast is `https://{{my.ondemandUrl}}?{{my.utm}}`
+* Make any changes to the content that you need.
+* Since you are driving to On24, you can use language such as "If you are prompted for an email address, please enter: {{lead.Email Address:default=No email found, please re-register using a valid email address}}". This will provide the user with a quick reference of the email address they used when registering.
+* Update the text version of the email. Then `Approve and Close`.
+* Right click on the email and choose `Send Sample`
+* Expand advanced settings, under "Sample person for tokens" begin to type in your test lead email address. This will pull in the email address to review that the tracking is working properly in your email.
+* For "Send To:" choose your email address (or type next to the `*` asterisk)
 
 1. **Your Inbox**: Review the sample email in your inbox
 
-  * Check all email copy
-  * Click all links and confirm they are not broken
-  * Click the `Watch now` CTA and view in a private browser to confirm the utms and links work.
-  * :thumbs-up: If all of the above apply, move on to activating the smart campaigns!
+* Check all email copy
+* Click all links and confirm they are not broken
+* Click the `Watch now` CTA and view in a private browser to confirm the utms and links work.
+* :thumbs-up: If all of the above apply, move on to activating the smart campaigns!
 
 1. **Marketo**: Update the smart campaigns (activate and deactivate)
    * Clone the `01a Registration Flow (single timeslot)` campaign to a new smart campaign called `04a On-Demand Registration Processing`
@@ -1289,49 +1289,49 @@ The process is very similar to rescheduling.
 
 Buckle up! There are a lot of tokens, but for good reason. This is an **advanced practice** and **best practice** within Marketo templates to increase efficiency and speed. Updating these at the top level of the program allows them to cascade through the landing page, emails, automation, and alerts creating a significantly more efficient process of launching new webcasts.
 
-   * `{{my.bullet1}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.bullet2}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.bullet3}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.bullet4}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.emailConfirmationButtonCopy}}`  - copy for the email confirmation (when on demand), leave as `Watch now`
-   * `{{my.formButtonCopy}}` - copy for the form button, leave as `Register now` (when switching to on-demand, this will change to `Watch now`)
-   * `{{my.formHeader}}` - copy for header of form, leave as `Save your spot today!` (when switching to on-demand, this will change to `View the webcast today!`)
-   * `{{my.heroImage}}` - image to display above landing page form ([options in Marketo here](https://app-ab13.marketo.com/#FI0A1ZN9784))
-   * `{{my.introParagraph}}` - intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
-   * `{{my.mpm owner email address}}` - not used in automation, but helpful to know who to go to about setup
-   * `{{my.ondemandUrl}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
-     * Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
-     * Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking paramaeters
-   * `{{my.socialImage}}` - image that would be presented in social, slack, etc. preview when the URL is shared, this image is provided by design/social, leave the default unless presented with webcast specific image.
-   * `{{my.speaker1Company}}` token with speaker 1's company name
-   * `{{my.speaker1ImageURL}}` token with speaker 1's image url in marketo design studio
-   * `{{my.speaker1JobTitle}}` token with speaker 1's job title
-   * `{{my.speaker1Name}}` token with speaker 1's full name
-   * REPEAT this for speaker 2 and 3. If there are more or less speakers, follow the instructions below at the end of the general webcast setup.
-   * `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
-   * `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1471341556)
-   * `{{my.webcastDate}}` - the webcast LIVE date.
-   * `{{my.webcastDescription}}` - 2-3 sentences with approved character limits, this will show up in page previews on social and be used in YouTube and Pathfactory description.
-   * `{{my.webcastSubtitle}}` token with subtitle for the webcast.
-   * `{{my.webcastTime}}` token with the webcast time in local timezone/UTC timezone.
-   * `{{my.webcastTitle}}` token with the webcast title.
-   * `{{my.registrationConfirmationButtonCopy}}` token with the registration confirmation button message.
-   * `{{my.webcastReminder1}}`: token with the time reminder value for the first reminder
-   * `{{my.webcastReminder2}}`: token with the time reminder value for the second reminder
-   * `{{my.Add To Calendar}}`: token for Add to Calendar open for ICS file. Double click on it and edit the time slot and descruption
+* `{{my.bullet1}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.bullet2}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.bullet3}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.bullet4}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.emailConfirmationButtonCopy}}`  - copy for the email confirmation (when on demand), leave as `Watch now`
+* `{{my.formButtonCopy}}` - copy for the form button, leave as `Register now` (when switching to on-demand, this will change to `Watch now`)
+* `{{my.formHeader}}` - copy for header of form, leave as `Save your spot today!` (when switching to on-demand, this will change to `View the webcast today!`)
+* `{{my.heroImage}}` - image to display above landing page form ([options in Marketo here](https://app-ab13.marketo.com/#FI0A1ZN9784))
+* `{{my.introParagraph}}` - intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=43971442)
+* `{{my.mpm owner email address}}` - not used in automation, but helpful to know who to go to about setup
+* `{{my.ondemandUrl}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
+  * Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
+  * Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking paramaeters
+* `{{my.socialImage}}` - image that would be presented in social, slack, etc. preview when the URL is shared, this image is provided by design/social, leave the default unless presented with webcast specific image.
+* `{{my.speaker1Company}}` token with speaker 1's company name
+* `{{my.speaker1ImageURL}}` token with speaker 1's image url in marketo design studio
+* `{{my.speaker1JobTitle}}` token with speaker 1's job title
+* `{{my.speaker1Name}}` token with speaker 1's full name
+* REPEAT this for speaker 2 and 3. If there are more or less speakers, follow the instructions below at the end of the general webcast setup.
+* `{{my.utm}}` - UTM to track traffic to the proper campaign in reporting dashboards (append integrated campaign utm or program name, if webcast is not part of an integrated campaign, to the utm campaign token)
+* `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1471341556)
+* `{{my.webcastDate}}` - the webcast LIVE date.
+* `{{my.webcastDescription}}` - 2-3 sentences with approved character limits, this will show up in page previews on social and be used in YouTube and Pathfactory description.
+* `{{my.webcastSubtitle}}` token with subtitle for the webcast.
+* `{{my.webcastTime}}` token with the webcast time in local timezone/UTC timezone.
+* `{{my.webcastTitle}}` token with the webcast title.
+* `{{my.registrationConfirmationButtonCopy}}` token with the registration confirmation button message.
+* `{{my.webcastReminder1}}`: token with the time reminder value for the first reminder
+* `{{my.webcastReminder2}}`: token with the time reminder value for the second reminder
+* `{{my.Add To Calendar}}`: token for Add to Calendar open for ICS file. Double click on it and edit the time slot and descruption
 
 ### Step 3.B: Turn on smart campaigns in Marketo
 
-   * Activate the `00 Interesting Moments` campaign.
-   * Activate the `01a Registration Flow (single timeslot)` smart campaign.
+* Activate the `00 Interesting Moments` campaign.
+* Activate the `01a Registration Flow (single timeslot)` smart campaign.
 
 ### Step 3.C: Create the landing page
 
 * When you cloned the webcast template, and update the Marketo tokens, your landing page is almost ready to go!
-   * Under "Assets" right-click on `Registration Page` and hover over `URL Tools` > `Edit URL Settings`
-   * Use the format `webcast-topic` (or `webcast-topic-region` if region is relevant) - ex. `webcast-mastering-cicd` or `webcast-mastering-cicd-italian`
+  * Under "Assets" right-click on `Registration Page` and hover over `URL Tools` > `Edit URL Settings`
+  * Use the format `webcast-topic` (or `webcast-topic-region` if region is relevant) - ex. `webcast-mastering-cicd` or `webcast-mastering-cicd-italian`
 * Complete the same steps for the `Thank You Page`
-   * Use the format `webcast-topic-thank-you` (or `webcast-topic-region-thank-you` if region is relevant) - ex. `webcast-mastering-cicd-thank-you` or `webcast-mastering-cicd-italian-thank-you`
+  * Use the format `webcast-topic-thank-you` (or `webcast-topic-region-thank-you` if region is relevant) - ex. `webcast-mastering-cicd-thank-you` or `webcast-mastering-cicd-italian-thank-you`
 
 ##### Adjusting number of speakers in Marketo landing page
 

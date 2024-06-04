@@ -34,13 +34,13 @@ A tag contains the event name from an activity that occurred on the website (e.g
 
 All tags must contain the appropriate cookie consent condition based on the OneTrust consent rules. GA4 tags must only fire if `analytics_storage` cookies are accepted by the website visitor. On the OneTrust banner, this is considered the "Performance and Analytics" cookie category (ID C0002).
 
-Reference: https://support.google.com/tagmanager/answer/3281060
+Reference: <https://support.google.com/tagmanager/answer/3281060>
 
 ### Triggers
 
 GTM has a variety of built-in event listeners when creating a new trigger, however, the more reliable built-in triggers we use are for clicks and scrolling. All other triggers are based on a custom event trigger (dataLayer), which is a small javascript code that sends information to the browser when an event occurs.
 
-Reference: https://support.google.com/tagmanager/answer/7679316
+Reference: <https://support.google.com/tagmanager/answer/7679316>
 
 #### Click Tracking
 
@@ -60,7 +60,7 @@ Each link in the navigation menu should contain:
 
 A click-listening trigger on GTM will fire the associated GA4 event tag based on the data attributes. Links without data attributes will still be tracked, however the cta_location event parameter on GA4 will contain a generic “in-line” value and the cta_name event parameter will contain the link’s text and URL.
 
-Reference: https://support.google.com/tagmanager/answer/7679320
+Reference: <https://support.google.com/tagmanager/answer/7679320>
 
 #### Data Layer Tracking
 
@@ -83,7 +83,7 @@ javascript: (window.addEventListener('beforeunload', function(e) {e.preventDefau
 
 The bookmarklet will prevent the page from loading, so you can see the dataLayer fire.
 
-Reference: https://developers.google.com/tag-platform/tag-manager/web/datalayer
+Reference: <https://developers.google.com/tag-platform/tag-manager/web/datalayer>
 
 ### Variables
 

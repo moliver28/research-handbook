@@ -100,11 +100,11 @@ In an emergency, International SOS (ISOS) can provide quick medical, safety, and
 Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
 
 - Team members can download the [ISOS emergency app](https://my.internationalsos.com/LP=8890?_ga=2.54701099.1827787566.1652889843-59998074.1652889840) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address.
-    - Please use a unique password and not the same as your existing GitLab credentials.
-    - Note that this is not a GitLab application and is managed by ISOS. You can read more about the app [here](https://internationalsos.com/subscriber/assistance-app).
-    - If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS's closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
-    - If team members prefer not to download the app, we encourage you to follow this [link](https://www.internationalsos.com/Private/NET_StandardMembershipCards/comprehensive.aspx?CustomerNumber=401GDA935395IT&CompanyID=GitLab%2c+Inc.&ProgramName=Assignee+%26+International+Traveler+Assistance&PhoneNum1=Philadelphia+++%2b1+215+942+8226&PhoneNum2=Sydney+++%2b61+2+9372+2468&PhoneNum3=London+++%2b44+(0)20+8762+8008&PhoneNum4=Singapore+++%2b65+6338+7800&Language=en-US) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
-    - Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
+  - Please use a unique password and not the same as your existing GitLab credentials.
+  - Note that this is not a GitLab application and is managed by ISOS. You can read more about the app [here](https://internationalsos.com/subscriber/assistance-app).
+  - If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS's closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
+  - If team members prefer not to download the app, we encourage you to follow this [link](https://www.internationalsos.com/Private/NET_StandardMembershipCards/comprehensive.aspx?CustomerNumber=401GDA935395IT&CompanyID=GitLab%2c+Inc.&ProgramName=Assignee+%26+International+Traveler+Assistance&PhoneNum1=Philadelphia+++%2b1+215+942+8226&PhoneNum2=Sydney+++%2b61+2+9372+2468&PhoneNum3=London+++%2b44+(0)20+8762+8008&PhoneNum4=Singapore+++%2b65+6338+7800&Language=en-US) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
+  - Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
 
 If you have questions, reach out in the [#peopleconnect](https://gitlab.enterprise.slack.com/archives/C02360SQQFR) Slack channel.
 
@@ -113,13 +113,13 @@ If you have questions, reach out in the [#peopleconnect](https://gitlab.enterpri
 [This policy](https://drive.google.com/a/gitlab.com/file/d/0B4eFM43gu7VPVl9rYW4tXzIyeUlMR0hidWIzNk1sZjJyLUhB/view?usp=sharing) provides coverage for team members who travel domestic and internationally for business purposes. This policy will provide Emergency Medical and Life Insurance coverage should an emergency happen while you are traveling. In accompaniment, there is coverage for security evacuations, as well a travel assistance line which helps with pre-trip planning and finding contracted facilities worldwide.
 
 - Coverage:
-    - Accidental Death [enhanced coverage]: 5 times Annual Salary up to USD 500,000.
-    - The treatment of Covid is covered like any other illness under the Out-of-Country Medical Expense coverage, however there are no covid quarantine benefits covered under our policy.
-    - Out of Country Emergency Medical: Coverage up to $250,000 per occurrence. If there is an injury or sickness while outside of his or her own country that requires treatment by a physician.
-    - Security Evacuation with Natural Disaster: If an occurrence takes place outside of his or her home country and Security Evacuation is required, you will be transported to the nearest place of safety.
-    - Personal Deviation: Coverage above is extended if personal travel is added on to a business trip. Coverage will be provided for 25% of length of the business trip.
-    - Trip Duration: Coverage provided for trips less than 180 days.
-    - Baggage & Personal Effects Benefit: $500 lost bag coverage up to 5 bags.
+  - Accidental Death [enhanced coverage]: 5 times Annual Salary up to USD 500,000.
+  - The treatment of Covid is covered like any other illness under the Out-of-Country Medical Expense coverage, however there are no covid quarantine benefits covered under our policy.
+  - Out of Country Emergency Medical: Coverage up to $250,000 per occurrence. If there is an injury or sickness while outside of his or her own country that requires treatment by a physician.
+  - Security Evacuation with Natural Disaster: If an occurrence takes place outside of his or her home country and Security Evacuation is required, you will be transported to the nearest place of safety.
+  - Personal Deviation: Coverage above is extended if personal travel is added on to a business trip. Coverage will be provided for 25% of length of the business trip.
+  - Trip Duration: Coverage provided for trips less than 180 days.
+  - Baggage & Personal Effects Benefit: $500 lost bag coverage up to 5 bags.
 - For any assistance with claims, please reference the [claims guide (internal only)](https://drive.google.com/file/d/1vmLjhebsf81N8oSxqlCihYg5q1WT8Efw/view?usp=sharing).
 - This policy will not work in conjunction with another personal accident policy as the Business Travel Accident Policy will be viewed as primary and will pay first.
 - For more detailed information on this benefit, please reference the [policy document](https://drive.google.com/file/d/1ktx_mhlEYyQoLrQJ7DhIcibQhrlnB-lb/view?usp=sharing).
@@ -196,13 +196,13 @@ The information in this section is specific to GitLab's 16-week paid Parental Le
 
 ### Planning Your Parental Leave Dates
 
-In some cases a team member may choose to begin their leave earlier. While we encourage you to begin your leave when your child arrives (to be able to capture as much time as possible with the newest addition to your family) if you would like to start your leave on a different date please notify leaves@gitlab.com; otherwise your Parental Leave will be administered according to the start date entered in Time Off by Deel.
+In some cases a team member may choose to begin their leave earlier. While we encourage you to begin your leave when your child arrives (to be able to capture as much time as possible with the newest addition to your family) if you would like to start your leave on a different date please notify <leaves@gitlab.com>; otherwise your Parental Leave will be administered according to the start date entered in Time Off by Deel.
 
 You don't have to take your Parental Leave in one continuous period, we encourage you to plan and arrange your Parental Leave in a way that suits you and your family's needs. You may take your leave all at once or split your Parental Leave into up to three segments, so long as all time is used prior to the child's first birth or first anniversary of the adoption event. The Absence Management team will receive a notification every time you edit your Parental Leave dates. Please use the label `Parental Leave` in Time Off by Deel, otherwise the Absence Management team won't get a notification.
 
 **A few things to note:**
 
-- If you are planning to change or extend your Parental Leave by using a different type of leave such as PTO or any local statutory leave, please send an e-mail to leaves@gitlab.com.
+- If you are planning to change or extend your Parental Leave by using a different type of leave such as PTO or any local statutory leave, please send an e-mail to <leaves@gitlab.com>.
 - When determing the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your Time Off by Deel request.
 
 ### Taking PTO After Taking Parental Leave
@@ -224,7 +224,7 @@ Your manager and the Absence Management team will be notified after you submit y
 **A few things to note:**
 
 - Parental leave includes public holidays and scheduled Family and Friends Days that occur within the start and end date of parental leave, but some countries allow team members to rollover public holidays that occured while on Parental Leave. Be sure to review your country's policy on this when planning the dates of your leave.
-    - If eligible to roll over public holidays, and you'd like to use them to extend your time away, please enter this as `Public Holiday` in Time Off by Deel and add a note indicating "rolling over holidays which occured while on parental leave".
+  - If eligible to roll over public holidays, and you'd like to use them to extend your time away, please enter this as `Public Holiday` in Time Off by Deel and add a note indicating "rolling over holidays which occured while on parental leave".
 - Some countries require extra paperwork or have specific leave requirements, which are subject to change as legal requirements change. Please take a look at your [country's leave policy](#entity-benefits).
 
 ### Commission Payout and Quota Relief
@@ -272,7 +272,7 @@ You are entitled to and need to comply with your local regulations. They overrid
 A day before you return from Parental Leave, you'll receive a Time Off by Deel [Welcome Back message](/handbook/people-group/engineering/slack-integrations/#parental-leave-welcome-back) with buttons to confirm your return or to explore other options.
 
 - Clicking the `Confirm my return` button will open the email client with a pre-loaded template "Confirming my return from Parental PTO".
-    - *Please add the date you are intending to return to this email.*
+  - *Please add the date you are intending to return to this email.*
 - Clicking the `Explore options` button will also open the email client with a pre-loaded template "I have exceeded my 16 weeks and like to look into further options".
 
 ### Returning to work after parental leave
@@ -290,7 +290,7 @@ You can learn more about parental leave and how to apply in the [Benefits sectio
 - All team members taking Parental Leave are welcome to participate in this program (regardless of gender)
 - Expecting parents sign up for the program before they start their Parental Leave. (If you decide you would like to participate in this program while on leave that is ok too!)
 - Barbara (from [Your 4th Trimester](https://drive.google.com/file/d/1NOkpt1oBruKunt3IdR6bQuvR0P2ht6Tg/view)) will start working with the team member prior to their leave and 30 days before the end of their Parental Leave
-- To apply for this coaching program, please notify Total Rewards that you would like to participate in the program by sending an email to growth-development@gitlab.com
+- To apply for this coaching program, please notify Total Rewards that you would like to participate in the program by sending an email to <growth-development@gitlab.com>
 - Note the program cost is funded within your [Growth and Development](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) benefit
 
 #### Tips for a smoother transition

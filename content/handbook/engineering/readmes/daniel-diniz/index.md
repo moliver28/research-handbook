@@ -59,7 +59,7 @@ Your integrity, who you are today, whether you try to make society a better plac
 
 ## Finding me
 
-In general, I can be reached via email (ddiniz@gitlab.com). I'll try to respond as quickly as possible.
+In general, I can be reached via email (<ddiniz@gitlab.com>). I'll try to respond as quickly as possible.
 
 Gitlabbers can find me in Slack, either via DM or at one of the channels below:
 

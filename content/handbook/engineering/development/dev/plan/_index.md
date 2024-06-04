@@ -115,7 +115,7 @@ To ensure upcoming calls appear in your calendar, subscribe to the Plan Customer
 
 1. In GCal, next to "Other Calendars" in the left sidebar, click the +
 1. Select "Subscribe to Calendar"
-1. In the "Add Calendar" input, paste gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com
+1. In the "Add Calendar" input, paste <gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com>
 
 Upcoming customer calls will often be advertised in the #s_plan channel in advance, so look out there also.
 
@@ -257,9 +257,9 @@ With Value stream analytics (VSA) our team is getting visibility to the [lifecyc
 
 For example, for the review phase, we are using VSA to count the [time between "workflow::in review" and "MR merged"](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2023-03-01&created_before=2023-04-29&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=779&stage_id=17092&sort=duration&direction=desc&page=1). With this data, we can identify:
 
-   - MRs that were bottlenecked due to limited reviewers/maintainers capacity.
-   - Types of work that move slower than other types.
-   - Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
+- MRs that were bottlenecked due to limited reviewers/maintainers capacity.
+- Types of work that move slower than other types.
+- Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
 
 Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan/-/issues/759).
 
@@ -313,7 +313,7 @@ The Plan UX team supports [Product Planning](/handbook/product/categories/#produ
 
 #### UX issue management, weights and capacity planning
 
-Product Planning, Project Management and Optimize will create issues for UX work and pre-pend the title with [UX]. Here is an example - https://gitlab.com/groups/gitlab-org/-/epics/10224#note_1337213171+
+Product Planning, Project Management and Optimize will create issues for UX work and pre-pend the title with [UX]. Here is an example - <https://gitlab.com/groups/gitlab-org/-/epics/10224#note_1337213171+>
 
 - UX issues are the SSOT for design goals, design drafts, design conversation and critique, and the chosen design direction that will be implemented.
 - Product requirement discussions should continue to happen in the main Issue or Epic as much as possible.
@@ -415,9 +415,9 @@ The UX Paper Cuts team has a dedicated role addressing Paper Cuts concerns withi
 
 The UX Paper Cuts team member covering Plan will regularly triage the list of UX Paper Cuts issues that are related to the Plan stage as outlined above, but will also add actionable candidates to a Plan-specific epic for transparency.
 
-Triaged Plan-specific Paper Cuts issues can be found in https://gitlab.com/groups/gitlab-org/-/epics/12061. Currently, quarterly child epics will be created under that parent epic to organize work.
+Triaged Plan-specific Paper Cuts issues can be found in <https://gitlab.com/groups/gitlab-org/-/epics/12061>. Currently, quarterly child epics will be created under that parent epic to organize work.
 
-See further details at https://handbook.gitlab.com/handbook/product/ux/product-designer/#suggesting-paper-cuts-to-the-team
+See further details at <https://handbook.gitlab.com/handbook/product/ux/product-designer/#suggesting-paper-cuts-to-the-team>
 
 ### Plan Weekly Digest
 
@@ -615,14 +615,14 @@ Engineering team-members can shadow a product stable-counterpart. Shadowing sess
 ### Speed Runs
 
 - Labels
-    - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
+  - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
 - Issues
-    - [Description Change History](https://youtu.be/-JgfJSSLYlI)
+  - [Description Change History](https://youtu.be/-JgfJSSLYlI)
 - Epics
-    - [Organize sub-Epics with the Epic Tree](https://youtu.be/TzRCan5ki6o)
+  - [Organize sub-Epics with the Epic Tree](https://youtu.be/TzRCan5ki6o)
 - Requirements Management
-    - [Requirements MVC](https://youtu.be/uSS7oUNSEoU)
-    - [Satisfy Requirements from CI Pipeline](https://youtu.be/4m1mSEb2ywU)
+  - [Requirements MVC](https://youtu.be/uSS7oUNSEoU)
+  - [Satisfy Requirements from CI Pipeline](https://youtu.be/4m1mSEb2ywU)
 
 ### Engineering Scaling Targets
 

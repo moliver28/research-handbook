@@ -62,6 +62,6 @@ This is the current iteration of the Update Ticker:
    - All Field Announcements posted to #field-fyi Monday-Thursday  will be included in the week’s Update Ticker. Field Announcements posted in #field-fyi on Fridays will be included in the following week’s tickers.
 
 2. Field Communications will summarize and categorize each update and add to the Google Doc by 5 p.m. PT each Thursday.
-3. The Google Doc will be emailed to all Enterprise team members using the Enterprise Sales Google group (‘sales-ent@gitlab.com') on Thursdays. Note: Field Communications is currently scoping the ability to email the Google Doc to Commercial team members.
+3. The Google Doc will be emailed to all Enterprise team members using the Enterprise Sales Google group (‘<sales-ent@gitlab.com>') on Thursdays. Note: Field Communications is currently scoping the ability to email the Google Doc to Commercial team members.
 
 Reach out in the #field-enablement-team Slack channel for questions or feedback.

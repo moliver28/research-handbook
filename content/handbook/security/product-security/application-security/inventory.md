@@ -90,7 +90,7 @@ The inventory relies on a folder tree structure, used as a database, in a `data/
 Leaves are folders and can be groups or projects, and they're identified by specific files (`project.json` for projects, `group.json` for groups).
 These files are created automatically when syncing the Inventory.
 
-The tree structure reflects the organization of groups and projects in a GitLab instance, in our case: https://gitlab.com.
+The tree structure reflects the organization of groups and projects in a GitLab instance, in our case: <https://gitlab.com>.
 For example, the [GitLab project](https://gitlab.com/gitlab-org/gitlab/) will be located under [`data/gitlab-org/gitlab/`](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/tree/main/data/gitlab-org/gitlab) in the Inventory.
 
 Projects can be categorized by creating a `properties.yml` file in their folder. This file can contain a `categories` array, with the categories of the project.

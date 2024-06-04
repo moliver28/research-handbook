@@ -92,7 +92,7 @@ Jenkins to GitLab
 
 ## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption
 
- 1. CI Component Catalog: https://docs.gitlab.com/ee/ci/components/
+ 1. CI Component Catalog: <https://docs.gitlab.com/ee/ci/components/>
     - Quick demo on how the CI Component Catalog Works [VIDEO](https://youtu.be/nijvYhAPKsM)
-    - Epic outlining the business need and cusotomer pain point this catalog will solve: https://gitlab.com/groups/gitlab-org/-/epics/7462
-    - Epic housing future feature enhancements: https://gitlab.com/groups/gitlab-org/-/epics/9897
+    - Epic outlining the business need and cusotomer pain point this catalog will solve: <https://gitlab.com/groups/gitlab-org/-/epics/7462>
+    - Epic housing future feature enhancements: <https://gitlab.com/groups/gitlab-org/-/epics/9897>

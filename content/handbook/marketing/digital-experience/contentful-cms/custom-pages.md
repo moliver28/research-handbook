@@ -65,7 +65,7 @@ Enhance your content with the [🛠️ Text Block](https://app.contentful.com/sp
 | CTA Text | CTA button text | "Text Block CTA" |
 | CTA Url | CTA button redirection link | /text-block/ |
 | Image | Optional image from Contentful | N/A |
-| Video URL | Optional external video URL (Youtube, Vimeo) | https://www.youtube.com/embed/8aV5AxJrHDg?si=l1vgM17YlRJHC8T2 |
+| Video URL | Optional external video URL (Youtube, Vimeo) | <https://www.youtube.com/embed/8aV5AxJrHDg?si=l1vgM17YlRJHC8T2> |
 
 ##### Visual Representation
 

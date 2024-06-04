@@ -10,7 +10,7 @@ For any queries related to UK benefits, please email `total-rewards@gitlab.com` 
 ## Medical Insurance
 
 For UK-based team members, GitLab provides 100% paid membership of medical insurance with AXA PPP. This private medical insurance level is named Business Health Select with core cover. Family members can be added to the insurance and GitLab will pay 66% of the cost to include them.
-Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please email 'nonuspayroll@gitlab.com' and 'total-rewards@gitlab.com'.
+Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please email '<nonuspayroll@gitlab.com>' and '<total-rewards@gitlab.com>'.
 Further information can also be found in the [AXA PPP Brochure](https://drive.google.com/file/d/130IiyCm1qoCUYunqgGvwQGu7btvu0e0R/view?usp=sharing).
 
 ### Enrollment
@@ -34,13 +34,13 @@ The current coverage includes:
 - Full outpatient cover
 - £0 Excess (meaning that employees are fully covered)
 - Extra covers (all included)
-   - Therapies cover option
-   - Mental Health cover option
-   - Extra Care option includes hospital at home, cash benefit, oral surgery, chiropody
-   - Extra Cancer care option
-   - Dental £400 (80%)
-   - Optical £200 (80%)
-   - £25 a year for eye test
+  - Therapies cover option
+  - Mental Health cover option
+  - Extra Care option includes hospital at home, cash benefit, oral surgery, chiropody
+  - Extra Cancer care option
+  - Dental £400 (80%)
+  - Optical £200 (80%)
+  - £25 a year for eye test
 - Virtual GP appointments – [DR@Hand](https://drive.google.com/file/d/1YzkeG0qMLPLi6TEY6mQXqV8xooMQb4_Z/view?usp=sharing)
 
 **Please note: the AXA plan underwriting is based on a MHD (Medical History Disregarded) basis, meaning that pre-existing medical conditions that existed prior to the date on which the individual joined the AXA scheme will be covered for treatment** (subject to the rules and benefits of the AXA policy, please review your AXA membership package sent by AXA for further reference).
@@ -48,7 +48,7 @@ The current coverage includes:
 \* Current team members enrolled and new joiners to the AXA plan will have cover for treatment of pre-existing medical issues they may have had before joining, without being a member for two years or being required to have 12 consecutive months of "trouble-free" from when the condition began (pre-existing moratorium terms no longer apply).
 
 For additional details regarding coverage please review the [AXA Coverage Summary](https://drive.google.com/file/d/1TMk8xTt6yfzm-wI1X_wMyYfJF3GAgb4k/view?usp=sharing).
-For claims assistance, please contact total-rewards@gitlab.com. While we are unable to take over the claims process on behalf of the team member, our broker can assist in reaching out to AXA to escalate.
+For claims assistance, please contact <total-rewards@gitlab.com>. While we are unable to take over the claims process on behalf of the team member, our broker can assist in reaching out to AXA to escalate.
 
 Please also note that this is a taxable benefit. Team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage.
 
@@ -130,26 +130,26 @@ Willis Towers Watson
 3 Temple Quay, Temple Back East, Bristol, BS1 6DZ
 Nick Allen, Associate Director
 Direct Line: 07920 213595
-E-mail: nick.allen@wtwco.com
+E-mail: <nick.allen@wtwco.com>
 
 Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1BEADGm7sUbroEkxzGvB-DBIhMIbbLG46/view?usp=sharing) for additional information on the plan. Please note that all eligible team members will be auto-enrolled in the scheme. Please also watch the [2022 UK Pension Webinar](https://drive.google.com/file/d/1JggpHxQvtWZK1P6NdE9-77LFPE6Q5DZY/view?usp=sharing) for an overview of UK Pension System.
 
 ### Salary Sacrifice
 
-Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by emailing total-rewards@gitlab.com and nonuspayroll@gitlab.com. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
+Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by emailing <total-rewards@gitlab.com> and <nonuspayroll@gitlab.com>. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
 
 **Salary Sacrifice FAQ**
 
 - Can we change the amount during the period we're contracted for salary exchange?
-    - Yes it is possible to change the amount/increase your employee percent
+  - Yes it is possible to change the amount/increase your employee percent
 - What happens if our 'actual' salary changes during the period?
-    - Your employee contribution is a percent of basic pay so if your basic pay increase the pension contribution will too.
+  - Your employee contribution is a percent of basic pay so if your basic pay increase the pension contribution will too.
 - What happens if we receive a discretionary bonus?
-    - Your definition of pensionable pay is basic salary the percent will not automatically be applied to the bonus. Should you wish to contribute part of you bonus to your pension pot you can do that.
+  - Your definition of pensionable pay is basic salary the percent will not automatically be applied to the bonus. Should you wish to contribute part of you bonus to your pension pot you can do that.
 - Is it possible to start from any month?
-    - Yes it is; it would be processed on the next available payroll.
+  - Yes it is; it would be processed on the next available payroll.
 - How do I opt in or out or make changes to my salary sacrifice amount?
-    - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. Email total-rewards@gitlab.com and nonuspayroll@gitlab.com with the new percentage of your salary that you would like to sacrifice or to opt in/out of the salary sacrifice provision.
+  - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. Email <total-rewards@gitlab.com> and <nonuspayroll@gitlab.com> with the new percentage of your salary that you would like to sacrifice or to opt in/out of the salary sacrifice provision.
 
 ### Auto-Enrollment
 
@@ -202,8 +202,8 @@ Some other key points of the scheme are as follows:
 The certification level that has been chosen is **basic salary** only and will not include commission, bonuses or any over time payments. The contributions will be paid monthly and will be shown on the pay-slips.
 
 - From April 6, 2019 to a minimum of:
-   - Employee: 5% of basic salary
-   - GitLab:   4% of basic salary
+  - Employee: 5% of basic salary
+  - GitLab:   4% of basic salary
 
 - As your contribution is a percentage of your pay, the amounts will automatically increase or decrease in accordance with your basic pay. These contributions will be taken from your pay and will include tax relief.
 - You may increase the contribution percentage you pay by contacting Non US Payroll team via email. Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you ‘flexibly access’ pension
@@ -224,7 +224,7 @@ If you decide to opt out of the scheme you can do this within one month of the e
 - You have four weeks from when the Scottish Widows welcome letter is dated.
 - **If you do opt out by this date**, any contributions that have already been taken from your pay will be returned to you and you'll be treated as if you had never joined the pension scheme.
 - **If you don't opt out by this date**, you can stop contributing at any time, in accordance with the pension scheme rules. If you do this, both your contributions and GitLab's, up to that point, will remain invested in your pension pot until you take your benefits.
-- You can opt-out by completing the Scottish Widows [Opt-out form for Group Pension Scheme](https://drive.google.com/file/d/1FDCXW2qa3pniHIbkJ4vSkK-C_KGmLiNa/view?usp=sharing). The form must be completed, then returned to Total Rewards at total-rewards@gitlab.com
+- You can opt-out by completing the Scottish Widows [Opt-out form for Group Pension Scheme](https://drive.google.com/file/d/1FDCXW2qa3pniHIbkJ4vSkK-C_KGmLiNa/view?usp=sharing). The form must be completed, then returned to Total Rewards at <total-rewards@gitlab.com>
 - The pension provider will also be able to tell you when the one month opt-out period started, if you aren’t sure.
 - An opt-out from the pension scheme normally lasts for **three years**. If you've opted out, or stopped contributions to the scheme, GitLab is required to automatically enroll you into the scheme at a later date (normally every three years).
 
@@ -252,7 +252,7 @@ You can also reach out to Willis Tower Watson to explain the details of the GitL
 3 Temple Quay, Temple Back East, Bristol, BS1 6DZ
 Nick Allen, Associate Director
 Direct Line: 07920 213595
-E-mail: nick.allen@wtwco.com
+E-mail: <nick.allen@wtwco.com>
 
 ### Reports
 
@@ -321,7 +321,7 @@ Total Rewards will notify payroll to reduce the team member's gross salary by th
 
 Team members are entitled to Statutory Sick Pay (“SSP”)for up to 28 weeks, to be paid by GitLab. SSP is paid when a team member is sick for at least 4 days in a row (including non-working days); however, team members are not entitled to SSP for the first three "waiting" days.
 
-- A team member who is out sick for at least four days, but no more than 7 days will need to complete a [Company Self-Certification Form](https://docs.google.com/document/d/1Cy-xUgWwNKroUEEJ0ut80HGVA0d3RJV5mQO-amLjoCs/edit?usp=sharing) and return it to leaves@gitlab.com.
+- A team member who is out sick for at least four days, but no more than 7 days will need to complete a [Company Self-Certification Form](https://docs.google.com/document/d/1Cy-xUgWwNKroUEEJ0ut80HGVA0d3RJV5mQO-amLjoCs/edit?usp=sharing) and return it to <leaves@gitlab.com>.
 - Team members who will be out sick for more than 7 days must provide a [fit note](https://www.gov.uk/taking-sick-leave) and notify the Absence Management team at `leaves@gitlab.com` as soon as possible.
 - Team members who have received SSP in the last 8 weeks who need additional sick pay will be paid for waiting days, including the initial 3-day period of the second leave.
 - Sick Leave runs concurrently with GitLab PTO. Team members must designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that annual sick leave entitlement is properly tracked.  GitLab PTO is inclusive of any entitlement in respect of statutory sick pay.
@@ -344,8 +344,8 @@ This section details the statutory maternity, paternity, parental, and adoption 
 **Statutory Maternity Leave:** Team members can take up to 52 weeks of Maternity Leave.
 
 - The earliest that the Maternity Leave can start is 11 weeks before the expected week of childbirth.
-   - If the baby is early, maternity leave will start the day after childbirth
-   - Maternity leave will begin automatically if the team member is off work for a pregnancy-related illness in the 4 weeks before the expected week of childbirth.
+  - If the baby is early, maternity leave will start the day after childbirth
+  - Maternity leave will begin automatically if the team member is off work for a pregnancy-related illness in the 4 weeks before the expected week of childbirth.
 - Team members are not required to take the full 52 weeks of maternity leave, but **must** take at least 2 weeks of leave after the baby is born.  Team members should give at least eight weeks’ notice if they would like to change their return to work date.
 
 **Statutory Paternity Leave:** Team members can take up to 2 weeks of Paternity Leave or up to 50 weeks of [Shared Parental Leave](https://www.gov.uk/shared-parental-leave-and-pay).  Paternity Leave *cannot* be taken after Shared Parental Leave.
@@ -353,20 +353,20 @@ This section details the statutory maternity, paternity, parental, and adoption 
 - Eligibility:
 You must be taking time off to look after the child and be one of the following:
 
-    - the father
-    - the husband or partner of the mother (or adopter) - this includes same-sex partners
-    - the child’s adopter
-    - the intended parent (if you’re having a baby through a surrogacy arrangement)
+  - the father
+  - the husband or partner of the mother (or adopter) - this includes same-sex partners
+  - the child’s adopter
+  - the intended parent (if you’re having a baby through a surrogacy arrangement)
 
 *There are extra conditions you need to meet to qualify for leave and pay.
 
 **Statutory Adoption Leave:** Team members can take up to 52 weeks of Adoption Leave.
 
 - Leave can start:
-   - up to 14 days before the expected placement date
-   - when a team member has been matched with a child by a UK adoption agency
-   - when the child arrives in the UK or within 28 days of this date (for overseas adoptions)
-   - the day the child is born or the day after (for parents in surrogacy arrangements).
+  - up to 14 days before the expected placement date
+  - when a team member has been matched with a child by a UK adoption agency
+  - when the child arrives in the UK or within 28 days of this date (for overseas adoptions)
+  - the day the child is born or the day after (for parents in surrogacy arrangements).
 - Only one person in a couple can take adoption leave.  The other parent may be entitled to take paternity leave.
 - Team members must notify the Absence Management team at `leaves@gitlab.com` within 28 days if the date of placement (or UK arrival date for overseas adoptions) changes.
 - Team members should give at least 8 weeks’ notice if they would like to change their return to work date.
@@ -376,10 +376,10 @@ You must be taking time off to look after the child and be one of the following:
 Team members can receive Statutory Maternity Pay for up to 39 weeks:
 
 - Eligibility:
-    - Team members must have continuous employment with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the expected week of childbirth).
+  - Team members must have continuous employment with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the expected week of childbirth).
 - Eligible team members are entitled to:
-    - 90% of the team member's average weekly earnings (before tax) for the first 6 weeks.
-    - £172.48 or 90% of the team member's average weekly earnings (whichever is lower) for the next 33 weeks. This also applies to the leave amounts provided for Paternity Leave and Adoption Leave.
+  - 90% of the team member's average weekly earnings (before tax) for the first 6 weeks.
+  - £172.48 or 90% of the team member's average weekly earnings (whichever is lower) for the next 33 weeks. This also applies to the leave amounts provided for Paternity Leave and Adoption Leave.
 
 To apply for Maternity Leave:
 
@@ -395,7 +395,7 @@ If you do not qualify for Statutory Maternity Pay, you may qualify for [Maternit
 Team members can receive Statutory Paternity Pay for up to 2 weeks or up to 37 weeks if taking Shared Parental Leave:
 
 - Eligibility:
-    - Team members must have been continuously employed with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the baby is due or the matching week if adopting).
+  - Team members must have been continuously employed with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the baby is due or the matching week if adopting).
 - Eligible team members are entitled to:
   - £172.48 or 90% of the team member's average weekly earnings (whichever is lower) for up to 2 weeks OR up to 37 weeks if taking Shared Parental Leave.
 
@@ -410,10 +410,10 @@ To apply for Paternity Leave:
 Team members can receive statutory adoption pay for up to 39 weeks:
 
 - Eligibility:
-    - Team members must have had continuous employment with GitLab for at least 26 weeks leading up to the week they were matched with the child.
+  - Team members must have had continuous employment with GitLab for at least 26 weeks leading up to the week they were matched with the child.
 - Eligible team members are entitled to:
-    - 90% of your average weekly earnings (before tax) for the first 6 weeks
-    - £172.48 or 90% of your average weekly earnings (whichever is lower) for the next 33 weeks
+  - 90% of your average weekly earnings (before tax) for the first 6 weeks
+  - £172.48 or 90% of your average weekly earnings (whichever is lower) for the next 33 weeks
 
 To apply for Adoption Leave:
 
@@ -423,9 +423,9 @@ To apply for Adoption Leave:
 #### Unpaid Parental Leave
 
 - Team members who have been employed with GitLab for more than one year are eligible for up to 18 weeks of unpaid leave to look after their child's welfare.
-   - The entitlement is per child up to the age of 18, regardless of the person's employer.
-   - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
-   - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
+  - The entitlement is per child up to the age of 18, regardless of the person's employer.
+  - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
+  - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
 
 ### Other Job-Protected Leave
 
@@ -463,7 +463,7 @@ Additional details can be found on the [Adding/Removing Team Members Help@hand G
 
 1. Team Member reaches out to Total Rewards to start the Income Protection request.
 1. Total Rewards Team retrieves the Absence Management form from Unum and completes the form.
-1. Total Rewards sends the completed form to premier.referral@unum.co.uk
+1. Total Rewards sends the completed form to <premier.referral@unum.co.uk>
 1. Unum will do a case review and send the claims forms to the Team Member.
 
 ### Reporting AXA Premiums to Payroll for Deduction and P11D reporting
@@ -475,7 +475,7 @@ Additional details can be found on the [Adding/Removing Team Members Help@hand G
 
 #### Annual AXA Premium Audit and Reconciliation
 
-1. The first week of February WTW will send Total Rewards a report of the actual annual premiums along with Calculations for BIK, and Employee Premium amounts. If TR does not receive this in the first week of February, contact Helen.Dutton@willistowerswatson.com
+1. The first week of February WTW will send Total Rewards a report of the actual annual premiums along with Calculations for BIK, and Employee Premium amounts. If TR does not receive this in the first week of February, contact <Helen.Dutton@willistowerswatson.com>
 1. Total Rewards will request a report from Non-US Payroll of the BIK and Employee Premium Amounts for the Tax Year.
 1. Total Rewards will preform a reconciliation between the data no later than February 15th.
 1. If a team member needs an adjustment, Total Rewards will inform the team member & the Non-US Payroll team to make the adjustment in the February pay period.

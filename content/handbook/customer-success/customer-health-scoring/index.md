@@ -141,8 +141,8 @@ Health score criteria is either manually or automatically applied to determine t
 
 - Except for CSM Sentiment, all health measures will typically be NULL for the first 30 days of the customer's onboarding due to insufficient stats and inaccurate results, such as Engagement.
 - In instances where a measure is N/A, the percentage weighting will be redistributed to the other health measures.
-   - Example 1: If all product usage stats are missing, then it's entirely reallocated to the other measures (Engagement, ROI, CSM Sentiment...). Heavier weighter measures, such as CSM Sentiment, would receive a bigger allocation because it's already the largest.
-   - Example 2: If we're receiving Product Usage Statistics but Continuous Delivery (CD) is NULL, that will be reallocated among Product Usage stats measures. So CI health would go from, say, 5% to 7%.
+  - Example 1: If all product usage stats are missing, then it's entirely reallocated to the other measures (Engagement, ROI, CSM Sentiment...). Heavier weighter measures, such as CSM Sentiment, would receive a bigger allocation because it's already the largest.
+  - Example 2: If we're receiving Product Usage Statistics but Continuous Delivery (CD) is NULL, that will be reallocated among Product Usage stats measures. So CI health would go from, say, 5% to 7%.
 
 | Group (PROVE) | Measure | Description | Method | Calculation | Measure Weight | Group Weighting | Segmentation |
 |---|---|---|---|---|---|---|---|
@@ -217,9 +217,9 @@ If a CSM has marked a production instance under a Premium subscription, DevSecOp
 **Gainsight Rules:**
 
 - `NEW: Admin: Update Plan Name on Product Usage Instance Metrics`
-   - This pushes `Plan Name` from the Customer Subscription object to the Product Usage Instance Metrics object
+  - This pushes `Plan Name` from the Customer Subscription object to the Product Usage Instance Metrics object
 - `Set Score: DevSecOps Adoption Individual Measures`
-   - The rule looks at the `Plan Name` on the Product Usage Instance Metrics object instead of the `Products Purchased` on the Company object
+  - The rule looks at the `Plan Name` on the Product Usage Instance Metrics object instead of the `Products Purchased` on the Company object
 
 </details>
 <br>
@@ -311,13 +311,13 @@ Each of these metrics will be used to guide the account team in knowing when a c
 ### Uptier
 
 - Desire for guest users
-   - They purchased a high number of Premium licenses but could move many to Guest
+  - They purchased a high number of Premium licenses but could move many to Guest
 - Consuming Free/Premium features that lead to Ultimate
-   - DevSecOps
-   - Agile Planning
+  - DevSecOps
+  - Agile Planning
 - Success Plan objectives are aligned with Ultimate-level feature sets
-   - DevSecOps
-   - Agile Planning
+  - DevSecOps
+  - Agile Planning
 
 ### Seat reduction
 
@@ -328,8 +328,8 @@ Each of these metrics will be used to guide the account team in knowing when a c
 ### Downtier
 
 - Not using Ultimate-level features
-   - DevSecOps
-   - Agile Planning
+  - DevSecOps
+  - Agile Planning
 - Success Plan objectives not aligned with Ultimate-level feature sets
 - CSM renewal risk == downtier
 

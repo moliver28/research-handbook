@@ -29,13 +29,13 @@ We need to streamline the language framework (version) update process. Language 
 Progress will be tracked on the Working Group [issue board](https://gitlab.com/groups/gitlab-org/-/boards/5467616) using the following labels:
 
 - ~"workflow::In dev"
-   - The issue is currently in progress and actively being worked on
+  - The issue is currently in progress and actively being worked on
 - ~"workflow::In review"
-   - The issue is currently being reviewed by broader Engineering Team
+  - The issue is currently being reviewed by broader Engineering Team
 - ~"workflow::blocked"
-   - The issue is blocked by another issue.  Please refer to the blocking issue.
+  - The issue is blocked by another issue.  Please refer to the blocking issue.
 - ~"workflow::production"
-   - The issue has been completed and should be closed.
+  - The issue has been completed and should be closed.
 
 ### Exit Criteria (0% completed)
 

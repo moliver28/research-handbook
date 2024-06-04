@@ -101,7 +101,7 @@ We're often asked to share how GitLab thrives as an [all-remote](/handbook/compa
 - **[The Remote Playbook](https://learn.gitlab.com/allremote/remote-playbook)**, a curated eBook with GitLab's top advice for companies transitioning to remote, can be downloaded via a prompt on the all-remote homepage, accessible at [http://allremote.info/](http://allremote.info/)
 - This blog post — **[Resources for companies embracing remote work](https://about.gitlab.com/blog/2020/03/06/resources-for-companies-embracing-remote-work/)** — gives background and context, and lays out a logical flow of links for leaders and workers to follow as they learn.
 
-In scenarios where you need a quick link to vocalize, tweet, email, or otherwise share, we have established a memorable redirect: http://allremote.info/ ("*All Remote Dot Info*")
+In scenarios where you need a quick link to vocalize, tweet, email, or otherwise share, we have established a memorable redirect: <http://allremote.info/> ("*All Remote Dot Info*")
 
 ### Why remote?
 
@@ -213,7 +213,7 @@ Regardless of the nuance in the request, here are the foundational areas that sh
    - Provide a feedback mechanism. [It's impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}), so ask your team members what's missing in their remote approach. Prioritize those asks as you see themes forming.
    - Remind people that GitLab has two Getting Started guides: one for [leaders/companies](/handbook/company/culture/all-remote/remote-work-emergency-plan/), another for [workers](/handbook/company/culture/all-remote/remote-work-starter-guide/).
 1. **Minimize your tool Stack**. The fewer moving pieces when transitioning to remote, the better. GitLab (the product) is at the heart of our workflows.
-1. **"But wait, I still need help!"** Fret not! GitLab's entire library of remote guides are available at http://allremote.info/ ("*All Remote Dot Info*")
+1. **"But wait, I still need help!"** Fret not! GitLab's entire library of remote guides are available at <http://allremote.info/> ("*All Remote Dot Info*")
 
 In case you as a subject matter expert are invited to write an Unfiltered blog post or create other written content, please feel free to make a copy of the ["Going remote in ____" blog post template](https://docs.google.com/document/d/199fWehOHX2tPUZgOLDIJUSjpTUOezqQXCtIFXo2uEng/edit?usp=sharing) and tailor based on your audience.
 

@@ -43,7 +43,7 @@ To keep the Events Channel focused on its intended audience, please adhere to th
 1. GitLab team members that want to host a virtual event, i.e. Go Live
 1. The content should be targeted to the audience described above. We are looking for customer or community-focused content.
 
-If you have a suggestion for a video type not listed or you are not sure if your video meets the criteria above, please contact events@gitlab.com. **PLEASE NOTE: We do not publish videos that include disparaging information about other brands and products or that infringes on intellectual property.**
+If you have a suggestion for a video type not listed or you are not sure if your video meets the criteria above, please contact <events@gitlab.com>. **PLEASE NOTE: We do not publish videos that include disparaging information about other brands and products or that infringes on intellectual property.**
 
 ### Video assets
 
@@ -68,7 +68,7 @@ Uploading criteria:
 
 - **Meta Tags:** Tag your video with the appropriate meta tags, including the keyword of the video. Other tags you might include on a how-to video are: open source, beginner, coding, DevOps, GitLab, events, (whatever event name it is, i.e. Commit, Contribute, etc. both the singular name as well as GitLab Contribute GitLab Commit, etc).
 
-PLEASE NOTE: **We cannot post videos or presentations that we do not have written consent to share. This applies to content from other companies and individuals as well as presentations done by GitLab.** Please contact events@gitlab.com to confirm permissions.
+PLEASE NOTE: **We cannot post videos or presentations that we do not have written consent to share. This applies to content from other companies and individuals as well as presentations done by GitLab.** Please contact <events@gitlab.com> to confirm permissions.
 
 ## Distribution
 

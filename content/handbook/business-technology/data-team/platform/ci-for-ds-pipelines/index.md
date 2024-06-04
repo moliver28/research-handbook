@@ -31,23 +31,23 @@ When it comes to training and scoring machine learning models, there are trade-o
   - Upload and download model artifacts directly to the GitLab package registry
   - Automatically report model metrics and performance in the merge request for review by others.
   - Commit changes to the repository and automatically trigger training CI pipelines based on a specific commit message
-     - Training CI pipelines only execute with the following commit message: `train <path/to/notebook/your_notebook.ipynb>`
-     - Allows the pipeline to execute just the desired notebook
+    - Training CI pipelines only execute with the following commit message: `train <path/to/notebook/your_notebook.ipynb>`
+    - Allows the pipeline to execute just the desired notebook
   - Commit changes to the repository and automatically trigger the scoring CI pipeline based on a specific commit message
-     - Scoring CI pipeline only executes with the following commit message: `score <path/to/notebook/your_notebook.ipynb>`
+    - Scoring CI pipeline only executes with the following commit message: `score <path/to/notebook/your_notebook.ipynb>`
   - Allow training and scoring CI pipelines to run at set dates and times using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
   - Log pipeline results to [Project wiki](https://docs.gitlab.com/ee/user/project/wiki/)
   - Use [GitLab for Slack](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html) integration to monitor pipeline status
 
 ### Advantages of Using CI for Training Data Science Models
 
-  - Reproducibility
-  - Automation
-  - Speed
-  - Logging results directly to Merge Request and Project Wiki
-  - Scalable GPU and CPU resources
-  - Scheduling
-  - Slack notifications for monitoring CI pipelines
+- Reproducibility
+- Automation
+- Speed
+- Logging results directly to Merge Request and Project Wiki
+- Scalable GPU and CPU resources
+- Scheduling
+- Slack notifications for monitoring CI pipelines
 
 ## Getting Started
 
@@ -174,8 +174,8 @@ Let's take a detailed look at the repository (**Code -> Repository**):
         ...
         - `papermill -p is_local_development False $notebookName -`: Tells Papermill to override the variable values defined in the first cell of the notebook with the values shown when running in CI.
 - There is also a `score-scheduled` job.
-   - This will trigger the scoring notebook at a set time, using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
-   - This job will also trigger the `write-to-wiki` job, which will publish model metrics to the project wiki
+  - This will trigger the scoring notebook at a set time, using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+  - This job will also trigger the `write-to-wiki` job, which will publish model metrics to the project wiki
 - Finally, let's look at the [scoring_config.yaml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/scoring_config.yaml). Here we can configure certain variables for training our model:
   - **model_file**: The model file created during training that will be used to score the model. This could also be pulled directly from the Model Registry, but for simplicity, we are including it directly in the repository
   - **fields**: List of the model fields. This is useful if the model is using only a subset of fields in a dataframe. In this example, all the fields in the dataframe are being used.

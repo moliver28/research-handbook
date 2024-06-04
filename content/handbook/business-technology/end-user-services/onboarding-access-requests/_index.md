@@ -88,7 +88,7 @@ When you receive the new laptop, please follow the guidelines in the template. A
 
 Once End User Services receives your laptop order, we will start working on purchasing your laptop. We leverage business relationships with several different vendors across the globe to accomplish this remotely. Please note delivery times will vary depending on location, hardware supply, vendor selection, and shipping method.
 
-In some instances, we may be able to work out priority or overnight delivery. We will not be able to service this for all cases and regions at this time but please feel free to reach out to laptops@gitlab.com or talk with your hiring manager to review all options available.
+In some instances, we may be able to work out priority or overnight delivery. We will not be able to service this for all cases and regions at this time but please feel free to reach out to <laptops@gitlab.com> or talk with your hiring manager to review all options available.
 
 If you are a hiring manager or member of the hiring/recruiting team, you may check the status and content of a new hires order in the [IT Equipment Order Process Project](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=created_date&state=opened&first_page_size=100)
 
@@ -246,7 +246,7 @@ It will make the RMA process much easier in case you need it.
 
 If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year, they can opt to keep their laptop at no cost, subject to promptly working with the Company during the offboarding process to enable the laptop to be wiped and, when required by applicable legal obligations, imaged for preservation purposes.
 
-If the team member would like to purchase the laptop at the current market value, they will need to send an email to laptops@gitlab.com to start the process. If purchasing, our Manager of IT, or Lead IT Analyst will approve, and we will send the employee an email with the determined value. If the employee decides to move forward with purchasing, our accounting department will reach out with payment information.
+If the team member would like to purchase the laptop at the current market value, they will need to send an email to <laptops@gitlab.com> to start the process. If purchasing, our Manager of IT, or Lead IT Analyst will approve, and we will send the employee an email with the determined value. If the employee decides to move forward with purchasing, our accounting department will reach out with payment information.
 
 Retained laptops must be [wiped](#laptop-wipe).
 

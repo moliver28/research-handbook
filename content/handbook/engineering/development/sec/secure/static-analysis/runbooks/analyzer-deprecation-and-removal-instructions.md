@@ -47,9 +47,9 @@ Engineers implementing an analyzer removal are responsible for adhering to the s
 
 #### 1. Remove analyzer from documentation
 
-All references to removed analyzers should be deleted from the SAST documentation. https://docs.gitlab.com/ee/user/application_security/sast/
+All references to removed analyzers should be deleted from the SAST documentation. <https://docs.gitlab.com/ee/user/application_security/sast/>
 
-Example of analyzer removal from documentation: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/97451
+Example of analyzer removal from documentation: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/97451>
 
 #### 2. Add analyzer to ".End of supported analyzers" section of SAST documentation
 
@@ -72,7 +72,7 @@ Submit an MR to update the [`SAST.gitlab-ci.yml`](https://gitlab.com/gitlab-org/
 
 You can use the previous update to [`SAST.latest.gitlab-ci.yml`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.latest.gitlab-ci.yml) as a guide, but be sure to change the "removed in X" version number to match when the removal happened in the stable (`SAST`) template, not the latest (`SAST.latest`) template.
 
-Example analyzer removal MR: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/97216
+Example analyzer removal MR: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/97216>
 
 #### 5. Resolve all current vulnerabilities
 

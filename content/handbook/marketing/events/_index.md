@@ -414,13 +414,13 @@ It is important that we are communicating with our customers and prospects when 
 - Most of the time we do not receive a pre event attendee list, but if we do, that will be shared in the issue.
 - We recommend BDRs & AE/SAEs contact customers and prospects before event using talking points provided by content DRI with the goal of setting up meetings/ demos at the event. Invite them to anything specific we have happening at or around event.
 - If there is not an attendee list process is as follows:
-   - Target speakers for outreach.
-   - Utilize previous years attendee list that can be found in SFDC. That person may not be attending, but their colleague might be. Ask for intros.
-   - Follow event hashtags to see who will be attending.
-   - Join local meetup and pre event events (this works well for large events like AWS).
-   - Join LinkedIn Groups and slack channels dedicated to event.
-   - Download event app and engage with attendees via app.
-   - You can search for relevant talks and see who has registered for talks that might apply to potential customers.
+  - Target speakers for outreach.
+  - Utilize previous years attendee list that can be found in SFDC. That person may not be attending, but their colleague might be. Ask for intros.
+  - Follow event hashtags to see who will be attending.
+  - Join local meetup and pre event events (this works well for large events like AWS).
+  - Join LinkedIn Groups and slack channels dedicated to event.
+  - Download event app and engage with attendees via app.
+  - You can search for relevant talks and see who has registered for talks that might apply to potential customers.
 
 #### Email alias usages for outreach
 
@@ -564,7 +564,7 @@ The sales nominated process allows for records to be added to the campaign in or
 - [Hardened Containers: The Right Application Platform Can Help DoD Develop Its DevSecOps Culture](https://drive.google.com/file/d/1cszlj5fKFE12qFd4aMNij0a83v-3Fe4r/view)
 - [VPAT Template](https://docs.google.com/document/d/1o6gCe2Se_Cuia-VsrUTdGvESNZVefyoqFAu1NY8rJpQ/edit)
 - [What is GitLab? Speed. Efficiency. Trust](https://www.youtube.com/watch?v=-_CDU6NFw7U&list=PL05JrBw4t0KpEQDAhM3Txia7QHdYlngMa&index=2&t=16s)
-- [A Beginner's Guide to GitOps](https://learn.gitlab.com/c/beginner-guide-gitops?x=H2TMk5&utm_medium=email&utm_source=marketo&utm_campaign=iacgitops&utm_content=beginnerguidegitops&mkt_tok=MTk0LVZ
+- [A Beginner's Guide to GitOps](<https://learn.gitlab.com/c/beginner-guide-gitops?x=H2TMk5&utm_medium=email&utm_source=marketo&utm_campaign=iacgitops&utm_content=beginnerguidegitops&mkt_tok=MTk0LVZ>
 
 ##### Quick Booth quality check
 
@@ -807,12 +807,12 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
 - [Badge Carrying Case for 3x4 badges](https://www.pcnametag.com/redi-reg2-badge-case-orreg.html?gclid=EAIaIQobChMI8vnJmoik5QIVGJSzCh3Gxw9oEAQYBSABEgIQZfD_BwE) - Optional
 - [Speaker Ribbons](https://www.namebadgeproductions.com/product/4648/4-stick-n-stack-horizontal-ribbons) - Optional
 - Badge Paper and Badge Holder Options (3x4)
-   - [Avery Badge Paper Only](https://www.avery.com/products/namebadges/5392)
-   - [Avery Magnetic Badge Holders with Badge Paper](https://www.avery.com/products/namebadges/8781)
-   - [Amazon Magnetic Badge Holders (with 1 clip lanyard option as well) WITHOUT Badge Paper](https://www.amazon.com/gp/product/B07MLQCHBV/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1)
-   - [Avery Clip Badge Holders with Badge Paper](https://www.avery.com/products/namebadges/74541)
-   - [Avery Badge Holders for 1 Clip Lanyards WITHOUT Badge Paper](https://www.avery.com/products/namebadges/74471)
-   - [Avery Badge Holders for 2 Clip Lanyards with Badge Paper](https://www.avery.com/products/namebadges/74459)
+  - [Avery Badge Paper Only](https://www.avery.com/products/namebadges/5392)
+  - [Avery Magnetic Badge Holders with Badge Paper](https://www.avery.com/products/namebadges/8781)
+  - [Amazon Magnetic Badge Holders (with 1 clip lanyard option as well) WITHOUT Badge Paper](https://www.amazon.com/gp/product/B07MLQCHBV/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1)
+  - [Avery Clip Badge Holders with Badge Paper](https://www.avery.com/products/namebadges/74541)
+  - [Avery Badge Holders for 1 Clip Lanyards WITHOUT Badge Paper](https://www.avery.com/products/namebadges/74471)
+  - [Avery Badge Holders for 2 Clip Lanyards with Badge Paper](https://www.avery.com/products/namebadges/74459)
 
 #### SFDC Registration Data Pull
 
@@ -907,9 +907,9 @@ In an effort to publicly share where people can find GitLab for virtual events a
 For corporate conferences, we will send emails in accordance with the standards set [here](https://docs.google.com/spreadsheets/d/1aTCrUlc87BDLAqqAju7ZEbL8Wu0VZNfWd1MhdAccRDA/edit?usp=sharing) and summarized below:
 
 - Tier 1:
-   - 1 pre-event email
-   - 1 post show follow-up email
-   - Customer newsletter blurb
+  - 1 pre-event email
+  - 1 post show follow-up email
+  - Customer newsletter blurb
 
 - Tier 2:
   - Built-in generic event newsletter blurb

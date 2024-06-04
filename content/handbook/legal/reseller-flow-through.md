@@ -31,7 +31,7 @@ These Fulfillment Reseller Flow-Through Terms (the “Agreement”) are made as 
 
 “GitLab Software” means software, and other branded offerings sold by GitLab as agreed to between the Parties in an Order Form, including but not limited to, the self-managed and/or SaaS version of GitLab’s “DevOps Lifecycle Application Platform. For the avoidance of doubt, GitLab Software does not include, and applicable terms shall not apply to GitLab Free Software (as defined herein).
 
-“GitLab Terms and Conditions” means the applicable terms and conditions for GitLab Products and Services. With respect to GitLab Software the applicable terms and conditions are located at https://about.gitlab.com/terms/#subscription.
+“GitLab Terms and Conditions” means the applicable terms and conditions for GitLab Products and Services. With respect to GitLab Software the applicable terms and conditions are located at <https://about.gitlab.com/terms/#subscription>.
 
 “Master Partner Agreement” means the legally binding agreement between GitLab and Authorized Partner which provides the rights and obligations related to the distribution and/or sale or resale of GitLab Products and Services.
 

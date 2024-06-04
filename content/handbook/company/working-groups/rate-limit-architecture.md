@@ -10,7 +10,7 @@ description: "Learn more about the Rate Limit Architecture Working Group attribu
 | Date Created    | 2022-04-27 |
 | Target End Date | 2022-12-09 |
 | Slack           | #wg_rate_limit_architecture (only accessible from within the company) |
-| Google Doc      | Agenda (https://docs.google.com/document/d/1nv8hDLqZS16yTa4M3FtdMQNOFM4dt4OXBGCPvp-FHbM/edit#) (only accessible from within the company) |
+| Google Doc      | Agenda (<https://docs.google.com/document/d/1nv8hDLqZS16yTa4M3FtdMQNOFM4dt4OXBGCPvp-FHbM/edit#>) (only accessible from within the company) |
 
 ### Summary
 

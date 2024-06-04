@@ -23,7 +23,7 @@ These standards apply to all GitLab team members hired through GitLab Iberia s.r
 
 GitLab’s Team Member contract templates, including for Spain, [will be listed here in due course](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) (for reference only), viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
 
-Contract copies are lodged with the Spanish Labour Inspectorate by the payroll provider (Papaya) as required. Contact nonuspayroll@gitlab.com if you have any queries.
+Contract copies are lodged with the Spanish Labour Inspectorate by the payroll provider (Papaya) as required. Contact <nonuspayroll@gitlab.com> if you have any queries.
 
 ### Applicable Collective Bargaining Agreement (the "CBA")
 
@@ -164,7 +164,7 @@ Children of the insured in equal shares or their descendants in case of death
 Parents of the insured in equal shares
 Legal heirs of the Insured
 
-To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/drive/folders/14KdAmwiUK9hwqRQsRA6RvG5D0I815ZhS) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
+To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/drive/folders/14KdAmwiUK9hwqRQsRA6RvG5D0I815ZhS) and send to <Fernanda.dallagnese@wtwco.com> and <total-rewards@gitlab.com> along with a copy of the National Identity Card of the employee.
 
 </details>
 
@@ -174,7 +174,7 @@ To Update your Beneficiary please fill out the [beneficiary designation form](ht
 <summary>Joiners, Leavers, and Payroll Details</summary>
 
 Total Rewards Team will notify WTW whenever there is new hire, leaver, or salary change
-When a change in the life or medical premiums occur WTW will send total-rewards@gitlab.com and nonuspayroll@gitlab.com the updated report during the last week of the prior month (for example the June pay period will be sent the last week of May). Please note that the premiums are not prorated for the month.
+When a change in the life or medical premiums occur WTW will send <total-rewards@gitlab.com> and <nonuspayroll@gitlab.com> the updated report during the last week of the prior month (for example the June pay period will be sent the last week of May). Please note that the premiums are not prorated for the month.
 
 Team Members are on leave whose salary is paid directly via the Spanish government, will remain on the medical and life insurance plans during leave. Any deductions missed while on leave will be deducted once the team member comes back from leave.
 

@@ -17,14 +17,14 @@ Navan Expense is available via Okta. To access the platform:
 
 - Login to your [Okta home page](https://gitlab.okta.com/app/UserHome).
 - Find the `Navan` tile.
-   - *Navan should open in a new tab with your user logged in.*
+  - *Navan should open in a new tab with your user logged in.*
 - Click on `Navan Travel` at the top-left corner of the page.
 - Select `Expenses`.
 
 **MOBILE APP**
 
 - Download the app from your preferred [mobile app store](https://app.tripactions.com/app/liquid/user/redirect).
-   - Navan mobile app is compatible with iOS 15 or later.
+  - Navan mobile app is compatible with iOS 15 or later.
 - Open the app and select `Sign in with Email`.
 
 ![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.png)
@@ -213,13 +213,13 @@ There are several ways to submit for reimbursement, and all manual expenses can 
 
 - **Receipt scanner:** Take or upload a photo of your receipt, and all relevant details will auto-populate into the corresponding fields.
 - **Personal card import:** Link your personal card(s) and import transactions for reimbursement.
-   - Note: This option is only available to users with a United States-based bank account.
+  - Note: This option is only available to users with a United States-based bank account.
 - **Type in expenses:** Manually type in your transaction details if you cannot link a personal card or have misplaced your receipt.
-- **Receipt Import:** Email Navan (*receipts@navan.com*) a copy of your receipt(s) and they will automatically be added to an existing Navan Expense transaction or created as a transaction draft.
+- **Receipt Import:** Email Navan (*<receipts@navan.com>*) a copy of your receipt(s) and they will automatically be added to an existing Navan Expense transaction or created as a transaction draft.
 
 {{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
 
-- Receipts need to be forwarded from your GitLab email to *receipts@navan.com* in order to be attached to your Navan Expense account. After sending the email, the receipt should show up within a few minutes to a few hours.
+- Receipts need to be forwarded from your GitLab email to *<receipts@navan.com>* in order to be attached to your Navan Expense account. After sending the email, the receipt should show up within a few minutes to a few hours.
 {{% /panel %}}
 
 <br>
@@ -275,10 +275,10 @@ Transactions are organized into folders based on transaction type. Select a fold
 
 - Navigate to the `My transactions` section of your Navan mobile app .
 - Select a folder based on the different transaction types:
-   - **Drafts:** Transactions created from the receipt forwarding feature or manual transactions that are saved but not submitted yet.
-   - **Manually added:** Transactions submitted for out-of-pocket expenses.
-   - **Navan card**: Transactions charged to a virtual or physical Navan card.
-   - **Purchase cards**: Transactions charged to a purchase card.
+  - **Drafts:** Transactions created from the receipt forwarding feature or manual transactions that are saved but not submitted yet.
+  - **Manually added:** Transactions submitted for out-of-pocket expenses.
+  - **Navan card**: Transactions charged to a virtual or physical Navan card.
+  - **Purchase cards**: Transactions charged to a purchase card.
 - Choose the transaction you would like to modify or withdraw and proceed with any of the changes outlined below.
 
 #### Add a Receipt
@@ -292,10 +292,10 @@ Depending on your assigned policy, you may be required to attach a copy of your 
 Participants can be added to certain transaction types to provide your company admin or manager with additional context around your spend. For example, you may wish to add participant information to your transaction for a team event, meal or a transaction for an UberXL where multiple passengers were present to justify a higher cost. To add a participant(s):
 
 - On the transaction details page, tap the `Participants` field.
-   - *Note: If you do not see the participants field, this indicates the transaction type is not eligible to have this information submitted.*
+  - *Note: If you do not see the participants field, this indicates the transaction type is not eligible to have this information submitted.*
 - A `Search` box will appear where you can type in the name of each participant.
-   - Other Navan users from your company will appear on the list of participants to select from, and their information will be pre-populated.
-   - To add participants outside of your company, such as customers or guests, use the `+` icon to enter the new participant's information (first name, last name, and email address).
+  - Other Navan users from your company will appear on the list of participants to select from, and their information will be pre-populated.
+  - To add participants outside of your company, such as customers or guests, use the `+` icon to enter the new participant's information (first name, last name, and email address).
 - Tap `Save` to save your changes.
 
 ![liquid-image-1](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/add-participants.png)
@@ -417,7 +417,7 @@ Forward email receipt to Navan Expense to automatically match it to existing tra
 
 #### Emailing Receipts to Navan
 
-Receipts emailed to Navan will be scanned, and the transaction information will be imported to your Navan Expense account. Receipts that match an existing transaction will automatically be added to that transaction. If a match is not found, a new transaction draft will be created using the receipt and transaction details. To import a receipt, email a copy of your receipt to *receipts@navan.com* from your **GitLab work email**.
+Receipts emailed to Navan will be scanned, and the transaction information will be imported to your Navan Expense account. Receipts that match an existing transaction will automatically be added to that transaction. If a match is not found, a new transaction draft will be created using the receipt and transaction details. To import a receipt, email a copy of your receipt to *<receipts@navan.com>* from your **GitLab work email**.
 
 Once received, a push notification (if enabled on your device) will confirm that your receipt was successfully imported and inform you of its status:
 

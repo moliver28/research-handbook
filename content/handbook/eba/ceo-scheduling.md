@@ -166,7 +166,7 @@ Please note, requests for meeting about remote work, all-remote efforts, distrib
 - EBA to CEO should prepare draft responses
 - EBA to CEO should proactively schedule meetings requested via e-mail
 - Standard reply for recruiters:
-    - “We do not accept solicitations by recruiters, recruiting agencies, headhunters, and outsourcing organizations. Please find all info [on our jobs page](/handbook/hiring/candidate/faq/)."
+  - “We do not accept solicitations by recruiters, recruiting agencies, headhunters, and outsourcing organizations. Please find all info [on our jobs page](/handbook/hiring/candidate/faq/)."
 
 ### Travel preferences
 

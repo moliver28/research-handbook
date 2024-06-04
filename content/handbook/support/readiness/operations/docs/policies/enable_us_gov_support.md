@@ -107,7 +107,7 @@ this, you can determine your next steps:
   >
   > For more information on contact syncing for the Zendesk US Government
   > instance, please see our documentation page at
-  > https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/zendesk_salesforce_sync/#zendesk-us-federal-users-sync
+  > <https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/zendesk_salesforce_sync/#zendesk-us-federal-users-sync>
   >
   > /close
 

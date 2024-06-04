@@ -160,7 +160,7 @@ Indépendamment de la formation spécifique liée à l'utilisation des équipeme
 
 #### 13. SANTE ET SÉCURITÉ
 
-En cas de maladie ou d'accident pendant les jours de télétravail, le membre de l’équipe s'engage à prévenir le service Team Member Relations (teammemberrelations@gitlab.com)dans le délai de 24h maximum.
+En cas de maladie ou d'accident pendant les jours de télétravail, le membre de l’équipe s'engage à prévenir le service Team Member Relations (<teammemberrelations@gitlab.com>)dans le délai de 24h maximum.
 
 #### 14. TRADUCTION
 
@@ -320,7 +320,7 @@ Apart from the specific training related to the use of the technical equipment p
 
 #### 13. HEALTH AND SECURITY
 
-In the event of illness or accident during the days of remote work, the team member undertakes to notify Team Member Relations (teammemberrelations@gitlab.com) within 24 hours.
+In the event of illness or accident during the days of remote work, the team member undertakes to notify Team Member Relations (<teammemberrelations@gitlab.com>) within 24 hours.
 
 #### 14. TRANSLATION
 

@@ -39,7 +39,7 @@ What are some tips for team members to follow to help maintain privileged commun
 - When seeking legal advice in writing from an attorney in GitLab LACA, label the subject line of the email and the top of the email, document, or Slack message: “CONFIDENTIAL & PRIVILEGED ATTORNEY-CLIENT COMMUNICATION”.
 - End the communication by asking your attorney for a legal opinion and analysis. Simply including the attorney on a request for business advice will not create privilege.
 - When seeking legal advice orally, it should be clearly noted at the commencement of the discussion that its purpose is to enable you to obtain legal advice.
-- Do not disclose the contents of your communications with GitLab’s attorneys to anyone outside the company without consent of the attorney with whom you have exchanged the privilege communication, including friends or family members, and notify GitLab LACA department at ’legal@gitlab.com’ if any person from outside the company asks you to divulge privileged or confidential information.
+- Do not disclose the contents of your communications with GitLab’s attorneys to anyone outside the company without consent of the attorney with whom you have exchanged the privilege communication, including friends or family members, and notify GitLab LACA department at ’<legal@gitlab.com>’ if any person from outside the company asks you to divulge privileged or confidential information.
 
 For more information, please see the internal handbook [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/#privileged-communication).
 

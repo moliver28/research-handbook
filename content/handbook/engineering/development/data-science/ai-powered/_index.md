@@ -62,7 +62,7 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls).
 
-Some regular meetings that take place for all AI teams on the shared AI-Powered Stage Calendar (Calendar ID: c_n5pdr2i2i5bjhs8aopahcjtn84@group.calendar.google.com) are:
+Some regular meetings that take place for all AI teams on the shared AI-Powered Stage Calendar (Calendar ID: <c_n5pdr2i2i5bjhs8aopahcjtn84@group.calendar.google.com>) are:
 
 | Frequency | Meeting               | DRI         | Possible topics                 |
 |-----------|-----------------------|-------------|---------------------------------|

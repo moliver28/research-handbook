@@ -69,15 +69,15 @@ As with all things at GitLab, the compensation calculator is a constant work in 
 **If you are an internal GitLab team member or external to GitLab:**
 
 - Create an issue utilizing the issue templates.
-   - [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
-   - [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
-   - [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
+  - [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
+  - [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
+  - [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
 - Email total-rewards@domain for more personal inquiries.
 
 **If you prefer to remain anonymous:**
 
 - You can use the [Reporting a Compensation Discrepancy Form](https://forms.gle/tEmiwzYxCJqZhivF8).
-   - Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
+  - Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
 
 ### Rounding Best Practice
 
@@ -153,9 +153,9 @@ If any one, or a combination of, the following statistics is met, a benchmark re
   - It is important to ensure when we discuss compensation we have an idea of the candidate's expectations of total rewards which is inclusive of cash and equity for compensation.
 - A voluntary departure rate of 12% or more by current GitLab team members in any given department due to the reason of compensation.
 - Evidence of leading indicators of increased compensation, for example:
-   - Increased recruiter reachouts to a specific department or role.
-   - Government policy announcements related to a specific business sector.
-   - Engagement Survey Results.
+  - Increased recruiter reachouts to a specific department or role.
+  - Government policy announcements related to a specific business sector.
+  - Engagement Survey Results.
 
 **Timing of requests for benchmark adjustments:**
 
@@ -173,7 +173,7 @@ Once data has been collected, the Total Rewards team will review the compensatio
 1. The recruitment team member should compile significant data in the Recruitment Declines and Withdrawals Template for a specific job and conclude that a benchmark review is needed due to recruiting challenges related to compensation reasons/expectations. Significant data is defined as 10 rows of qualified candidates.
 1. The recruitment team member should discuss challenges and concerns with the hiring team and/or manager and agree that a benchmark review is necessary.
 1. The hiring manager/team should include the PBP and Department Head (Director/VP), and other People Group team members as appropriate, in a discussion to obtain initial approval by Department Head for benchmark review to ensure a willingness to make budget trade offs if a benchmark review results in a recommendation for a higher adjustment.
-1. After receiving Department Head approval, the hiring manager should send an email to the Total Rewards team (total-rewards@gitlab.com) and copy the PBP, with the Recruitment Declines and Withdrawals file, along with the business case, confirmation of Department Head approval, and proposal or expectations of adjustment.
+1. After receiving Department Head approval, the hiring manager should send an email to the Total Rewards team (<total-rewards@gitlab.com>) and copy the PBP, with the Recruitment Declines and Withdrawals file, along with the business case, confirmation of Department Head approval, and proposal or expectations of adjustment.
 1. The Total Rewards team will review the email and perform an analysis of the benchmark in question if it is agreed that a review is warranted. If it is not warranted, the Total Rewards team will go back to the hiring manager and PBP to discuss further.
 1. The Total Rewards team will summarize and review the results of the benchmark review with the hiring manager and PBP, and propose a recommendation and next steps for the benchmark adjustment, including reaching out to Finance for budgetary impact.
 1. The Hiring Manager should discuss the results to the Department Head, ensuring approval to move forward with the final recommendation.

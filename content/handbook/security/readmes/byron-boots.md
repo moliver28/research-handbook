@@ -12,7 +12,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 ## Related Pages
 
-1. LinkedIn Profile - https://www.linkedin.com/in/byronboots/
+1. LinkedIn Profile - <https://www.linkedin.com/in/byronboots/>
 1. My [CliftonStrengths](https://www.gallup.com/cliftonstrengths/en/253715/34-cliftonstrengths-themes.aspx) Top 5 (in order)
     1. Learner
     1. Achiever

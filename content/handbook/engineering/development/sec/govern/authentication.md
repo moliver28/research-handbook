@@ -213,19 +213,19 @@ With the combination of our capacity planning (EM) and estimation (IC) processes
 
 We have [cross-functional prioritization](/handbook/product/product-processes/#cross-functional-prioritization) aligned with our prioritization framework. The engineering manager will prioritize `type::maintenance` issues, the product manager will prioritize `type::feature` issues, and the software engineer in test will prioritize `type::bug` issues. From there, we are able to select a ratio of the top issues to be planned for the release by using our [cross-functional issue board](https://gitlab.com/groups/gitlab-org/-/boards/4453752?label_name[]=group%3A%3Aauthentication). **Starting 16.5, our target ratio is to plan 60% features, 20% bugs, and 20% maintenance per release**. Security issues do not count towards these ratios, but instead take away from the total capacity. The data below helps us understand our overall cross-functional status.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="authentication" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="authentication" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="authentication" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="authentication" >}}
 {{< /tableau >}}
 

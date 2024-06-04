@@ -460,7 +460,7 @@ To update the course content data:
 Important guidelines to keep in mind:
 
 1. [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) is our SSOT for GitLab-produced content, including all existing and future planned content.
-1. When planning new learning content, add it to [learn.yml]https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) as soon as possible, at a minimum monthly, and aim to include what you plan to produce over the upcoming 6 months or more. This gives visibility to all other GitLab team members producing learning content as to what has been planned.
+1. When planning new learning content, add it to [learn.yml]<https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml>) as soon as possible, at a minimum monthly, and aim to include what you plan to produce over the upcoming 6 months or more. This gives visibility to all other GitLab team members producing learning content as to what has been planned.
 1. Before producing new content, check [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) for redundancy, as other teams may have developed or plan to develop similar content.
 1. Communicate updates with other DRIs working on learning content by posting on the #gitlab-learn-updates Slack channel (available to team members only)
 

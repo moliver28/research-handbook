@@ -95,7 +95,7 @@ For example, if the revision SHA deployed on an environment is `c46489109e4` and
 git show c46489109e4:qa/qa/specs/features/ee/browser_ui/1_manage/group/restrict_by_ip_address_spec.rb
 ```
 
-You can determine the revision SHA deployed on a GitLab instance by either navigating to www.example.com/help,
+You can determine the revision SHA deployed on a GitLab instance by either navigating to <www.example.com/help>,
 by calling the `http://www.example.com/api/v4/version` API or by running `/chatops run auto_deploy status` in a Slack
 channel such as #chat-ops-test.
 
@@ -122,12 +122,12 @@ docker run \
 gitlab/gitlab-ee:nightly
 ```
 
-The commit SHA can be determined by visiting the http://localhost/help page after sign-in
+The commit SHA can be determined by visiting the <http://localhost/help> page after sign-in
 or by calling the [`/api/v4/version` API](https://docs.gitlab.com/ee/api/version.html#version-api) where it is displayed as a value of the `revision` attribute.
 
 ### By inspecting the pipeline that created the nightly image
 
-Nightly images are created by scheduled pipelines here: https://dev.gitlab.org/gitlab/omnibus-gitlab/pipeline_schedules
+Nightly images are created by scheduled pipelines here: <https://dev.gitlab.org/gitlab/omnibus-gitlab/pipeline_schedules>
 
 You can look at the last pipeline by clicking the pipeline number for CE nightly or EE nightly under
 the "Last pipeline" column.

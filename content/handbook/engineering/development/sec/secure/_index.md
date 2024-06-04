@@ -236,10 +236,10 @@ In the meantime, we favor a more specialized approach for these vulnerabilities 
 
 500 errors on gitlab.com are reported to Sentry. Below are some quick links to pull up Sentry errors related to Secure.
 
-* StoreSecurityReports Worker - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+StoreSecurityReportsWorker&statsPeriod=14d
-* SyncSecurityReportsToReportApprovalRules Worker - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+SyncSecurityReportsToReportApprovalRulesWorker&statsPeriod=14d
-* Vulnerabilities - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+vulnerabilities&statsPeriod=14d
-* On-Demand DAST - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+Dast&statsPeriod=14d
+* StoreSecurityReports Worker - <https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+StoreSecurityReportsWorker&statsPeriod=14d>
+* SyncSecurityReportsToReportApprovalRules Worker - <https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+SyncSecurityReportsToReportApprovalRulesWorker&statsPeriod=14d>
+* Vulnerabilities - <https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+vulnerabilities&statsPeriod=14d>
+* On-Demand DAST - <https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+Dast&statsPeriod=14d>
 
 #### Brainstorming sessions
 
@@ -250,7 +250,7 @@ definition.
 These are purposefully freeform to allow for creative problem solving.
 When possible, time should be reserved for a list of actions to be taken from the open discussion.
 
-Brainstorming Sessions Doc (Internal): https://docs.google.com/document/d/179JL5RzbgSIz2XZewbYn79cuX7_vUtte_TcoLwUUC5o/edit#
+Brainstorming Sessions Doc (Internal): <https://docs.google.com/document/d/179JL5RzbgSIz2XZewbYn79cuX7_vUtte_TcoLwUUC5o/edit#>
 
 *Examples of previous brainstorming topics:*
 
@@ -288,11 +288,11 @@ For that, we rely on the [geekbot](https://geekbot.io/) slack plugin to automate
 
 * Use the "`description in backquote` + `[link to issue](#)`" format when mentioning issues in your standup report.
 * Prepend CI status icons to the answer lines for `What did you do since yesterday?` to denote the current state:
-    * ![Accomplished](img/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
-    * ![Overdue](img/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
-    * ![In progress](img/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
-    * ![Paused](img/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
-    * any other `:ci_...` icon you find applicable
+  * ![Accomplished](img/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
+  * ![Overdue](img/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
+  * ![In progress](img/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
+  * ![Paused](img/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
+  * any other `:ci_...` icon you find applicable
 
 **Example:**
 
@@ -415,7 +415,7 @@ The Secure group reviews analytics to help understand customers and their usage 
 
 We also track our backlog of issues, including past due security and infradev issues, and total open SUS-impacting issues and bugs.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "STAGE_LABEL"="secure" >}}
 {{< /tableau >}}
 
@@ -423,7 +423,7 @@ We also track our backlog of issues, including past due security and infradev is
 
 MR Type labels help us report what we're working on to industry analysts in a way that's consistent across the engineering department. The dashboard below shows the trend of MR Types over time and a list of merged MRs.
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "STAGE_LABEL"="secure" >}}
 {{< /tableau >}}
 

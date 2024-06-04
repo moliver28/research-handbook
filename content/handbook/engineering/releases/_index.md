@@ -75,12 +75,12 @@ what commit will at the very least make it into the release. Such notifications
 are shared in Slack [#releases] channel and will look something like this (format is defined in the [release-tools monthly template](https://gitlab.com/gitlab-org/release-tools/-/blob/master/templates/monthly.md.erb)):
 
 > This is the candidate commit to be released on the [release date](/handbook/engineering/releases/).
-https://gitlab.com/gitlab-org/gitlab/commits/4033cb0ed66de77a4b5c1936e33de918edef558e
+<https://gitlab.com/gitlab-org/gitlab/commits/4033cb0ed66de77a4b5c1936e33de918edef558e>
 
 The last commit to make it into the release will have a message similar to this:
 
 > :mega: Barring any show-stopping issues, this is the final commit to be released on the [release date](/handbook/engineering/releases/).
-https://gitlab.com/gitlab-org/gitlab/-/commits/13-1-stable-ee
+<https://gitlab.com/gitlab-org/gitlab/-/commits/13-1-stable-ee>
 
 Merge Requests that have been included in the monthly release will receive [a label indicating inclusion](/handbook/engineering/releases/#labels-indicating-inclusion-in-upcoming-self-managed-release).
 

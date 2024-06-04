@@ -38,7 +38,7 @@ We are allowed to issue trial licenses because they:
         - If it expires **more than 15 days later**, the salesperson should wait until the expiry is within 15 days and then use the SFDC feature. Redirect the salesperson to use the SFDC feature by using the `Deviation from SM License Extension Workflow` macro and close the ticket.
         - If the license expiry has passed, then proceed with step 2 (2).
     1. The customer does not have a valid temporary extension:
-        1. Go to https://customers.gitlab.com/admin/temporary_extension_history
+        1. Go to <https://customers.gitlab.com/admin/temporary_extension_history>
         1. Search using the `Subscription Name` that was in the license.
         1. If a temp extension exists **and** its expiry date is not within 5 days, tell the salesperson to open the request when the license will expire within 5 days and close the ticket.
         1. If a temp extension exists **and** its expiry date is in 5 days or less, proceed to step 2 (3).

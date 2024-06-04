@@ -262,7 +262,7 @@ The GitLab Unfiltered YouTube account is a shared space. Sometimes team members 
 
 If you see a channel subscription or comment that violates the rules of this handbook, please take a bias-for-action to keep the GitLab Unfiltered
 YouTube account pristine. Delete any accidental channel subscription or comment to return the YouTube account to a pristine state. If you are unable
-to remove the relevant comment or subscription, please notify people-connect@gitlab.com immediately.
+to remove the relevant comment or subscription, please notify <people-connect@gitlab.com> immediately.
 
 ## Organizing
 

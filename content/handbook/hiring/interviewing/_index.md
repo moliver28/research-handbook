@@ -35,7 +35,7 @@ CES uses your Google calendar to schedule interviews. Our scheduling tool, Prelu
 - When applicable, please provide a reason for declining the interview. (For example: if you’re feeling too ill to conduct the interview or if you were scheduled for another mandatory meeting, etc.). Then click Send.
 - Declining the calendar invite allows our automated system to pick up the request, triage accordingly and bring it to the notice of the respective CES. All declined interviews will be considered urgent and CES will be prioritizing it accordingly.
 - If you need to decline an interview within 48 hours of the scheduled time and  you are able to provide CES a replacement interviewer, that would be preferred.
-- **Special Note:** Please do not add anyone else to your interview. If you need to swap with another interviewer or you would like to add a shadow, please tag @ces in your respective hiring channel or email ces@gitlab.com and we will happily make the adjustment to the invite.
+- **Special Note:** Please do not add anyone else to your interview. If you need to swap with another interviewer or you would like to add a shadow, please tag @ces in your respective hiring channel or email <ces@gitlab.com> and we will happily make the adjustment to the invite.
 
 ## Prelude
 
@@ -68,7 +68,7 @@ Additionally, you can help us understand which meetings are moveable and which a
 
 ![Scheduling conflicts](Conflicts.png)
 
-In Preferences, interviewers also have the ability to set daily and weekly Interview Limits. See screenshot below for an example. If you need assistance in setting this preference, please reach out to ces@gitlab.com as we can set these for you as well.
+In Preferences, interviewers also have the ability to set daily and weekly Interview Limits. See screenshot below for an example. If you need assistance in setting this preference, please reach out to <ces@gitlab.com> as we can set these for you as well.
 
 ![Interview limits](Limits.png)
 

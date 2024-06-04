@@ -5,7 +5,7 @@ description: "Information on the MLHF cohorts working with Digital Experience."
 
 ## Program Information
 
-The purpose of this page is to present process guidelines for the Major League Hacking Fellow cohorts (https://fellowship.mlh.io/) that are working with the Digital Experience team. This page is for fellows to find information about their cohort, the Digital Experience team, our projects, and where to ask for help.
+The purpose of this page is to present process guidelines for the Major League Hacking Fellow cohorts (<https://fellowship.mlh.io/>) that are working with the Digital Experience team. This page is for fellows to find information about their cohort, the Digital Experience team, our projects, and where to ask for help.
 
 ## Fall 2022 Cohort
 

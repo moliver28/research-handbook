@@ -40,7 +40,7 @@ description: "Learn about GitLab Simplify Groups & Projects Working Group busine
 - **Usability:** Can the user figure out how to use it and is it better received than our current approach to Groups and Projects? ✅
 - **Value:** Will this drive an increase in key business metrics such as SpU, SPAN, SMAU, and AMAU? ✅
 
-Opportunity Canvas: https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit
+Opportunity Canvas: <https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit>
 
 ## Roles and Responsibilities
 

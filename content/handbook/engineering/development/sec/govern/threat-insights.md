@@ -45,7 +45,7 @@ The following members of other functional teams are our stable counterparts:
   * Engineering - Team Navy: [`#g_govern_threat_insights_navy`](https://gitlab.slack.com/archives/C042WT4PJN9)
   * Engineering - Team Tangerine: [`#g_govern_threat_insights_tangerine`](https://gitlab.slack.com/archives/C043G312PHS)
 * Slack aliases: `@govern_threat_insights_be`, `@govern_threat_insights_fe`
-* Google groups: eng-dev-secure-threat-insights-members@gitlab.com
+* Google groups: <eng-dev-secure-threat-insights-members@gitlab.com>
 * [Threat Insights calendar](https://calendar.google.com/calendar/u/0?cid=Y19iNGQxYmYzYzY4ZTBjODZkYTE0ZDc4N2M0MjZhMDUxYWEzYzljYWRlZjIwZTcwMmNmOWRjZmEwNzQzMmRmMDNkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (internal link)
 
 ### Prioritization
@@ -66,19 +66,19 @@ In FY25-Q2 we are grouping projects into three main `swimlanes`:
 
 ### Metrics
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="threat insights" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
 {{< /tableau >}}
 
@@ -117,13 +117,13 @@ We follow these guidelines when submitting MRs for review when the change is wit
 ### Issue Boards
 
 * [Threat Insights Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754666?scope=all&utf8=%E2%9C%93&milestone_title=%23started&label_name[]=group%3A%3Athreat%20insights)
-   * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
+  * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
 
 * [Threat Insights Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420734?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Athreat%20insights)
-   * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
+  * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
 
 * [Threat Insights "Ready to Pull" Board](https://gitlab.com/groups/gitlab-org/-/boards/4643978?label_name[]=group%3A%3Athreat%20insights&label_name[]=ready%20to%20pull)
-   * Secondary board for unassigned issues that are separate from a larger effort. Ideal candidates are small features, bugs, and follow-up items.
+  * Secondary board for unassigned issues that are separate from a larger effort. Ideal candidates are small features, bugs, and follow-up items.
 
 These boards show current status of issues.
 
@@ -149,10 +149,10 @@ Note that an issue probably shouldn't go directly from On Track to At Risk. That
 
 We encourage running the `e2e: package-and-test` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
 
-   * GraphQL (API response, query parameters, schema etc)
-   * Gemfile (version changes, adding/removing gems)
-   * Database schema/query changes
-   * Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
+* GraphQL (API response, query parameters, schema etc)
+* Gemfile (version changes, adding/removing gems)
+* Database schema/query changes
+* Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
 
 ### Running Govern E2E specs locally against GDK
 

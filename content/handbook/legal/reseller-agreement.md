@@ -185,7 +185,7 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 14.9 If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions of this Agreement will remain in full force and the unenforceable provision shall be interpreted so as to render it enforceable while approximating the Parties’ intent as closely as possible.
 
-14.10 All notices and consents required or permitted to be given under this Agreement shall be in writing to the Parties at the addresses designated herein or to such other address as either Party may designate to the other by written notice and shall be effective upon receipt. Written notice shall be made in the form of a certified letter, confirmed facsimile transmission, or acknowledged receipt of electronic mail. In the case of notices provided to GitLab, a copy is required to be sent via email to legal@gitlab.com.
+14.10 All notices and consents required or permitted to be given under this Agreement shall be in writing to the Parties at the addresses designated herein or to such other address as either Party may designate to the other by written notice and shall be effective upon receipt. Written notice shall be made in the form of a certified letter, confirmed facsimile transmission, or acknowledged receipt of electronic mail. In the case of notices provided to GitLab, a copy is required to be sent via email to <legal@gitlab.com>.
 
 14.11 Nothing in this Agreement is intended to, nor shall, create any third-party beneficiaries, whether intended or incidental, and neither party shall make any representations to the contrary.
 

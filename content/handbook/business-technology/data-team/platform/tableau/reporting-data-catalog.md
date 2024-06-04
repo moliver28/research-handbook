@@ -32,7 +32,7 @@ Each entry in the catalog will have the following information:
 
 A data source to explore ARR.  Designed directly from the [`mart_arr`](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_arr) table in the data warehouse.
 
-- Link: https://10az.online.tableau.com/#/site/gitlab/datasources/49022247
+- Link: <https://10az.online.tableau.com/#/site/gitlab/datasources/49022247>
 - Owner: Enterprise Data Team
 - Keywords: ARR
 - Certification: Certified
@@ -42,7 +42,7 @@ A data source to explore ARR.  Designed directly from the [`mart_arr`](https://d
 
 A data source to explore sales and marketing metrics.  Designed directly from the [`mart_crm_opportunity`](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_opportunity) table in the data warehouse.
 
-- Link: https://10az.online.tableau.com/#/site/gitlab/datasources/49059356
+- Link: <https://10az.online.tableau.com/#/site/gitlab/datasources/49059356>
 - Owner: Enterprise Data Team
 - Keywords: Opportunity
 - Certification: Certified
@@ -52,7 +52,7 @@ A data source to explore sales and marketing metrics.  Designed directly from th
 
 Total, recorded, and estimated usage for Self-Managed and SaaS Service Ping metrics. Designed directly from the [`rpt_ping_metric_totals_w_estimates_monthly`](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_ping_metric_totals_w_estimates_monthly) table in the data warehouse.
 
-- Link: https://10az.online.tableau.com/#/site/gitlab/datasources/50320253
+- Link: <https://10az.online.tableau.com/#/site/gitlab/datasources/50320253>
 - Owner: Enterprise Data Team
 - Keywords: Service Ping
 - Certification: Certified

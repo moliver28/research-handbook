@@ -21,7 +21,7 @@ title: "Abuse on GitLab.com"
    1. You can report abuse by using the **report abuse to admin** dropdown at the top right of the corner of the issue/comment/MR.
    1. Complete the form with detailed information to aid our team in reviewing the reported content.
 
-#### Email abuse@gitlab.com
+#### Email <abuse@gitlab.com>
 
 1. Detailed abuse reports can be reported via `abuse@gitlab.com`
     1. If you would like to submit a more detailed report, you can do this by emailing `abuse@gitlab.com` where a member of our team will review your report.
@@ -121,7 +121,7 @@ In the interest of fostering an open and welcoming environment, we as contributo
 {{% details summary="Prohibited Content" %}}
 Distributing harmful or offensive content that is defamatory, obscene, abusive, an invasion of privacy (Personally Identifiable Information/PII) or harassing.
 
-  - Reports of Child Sexual Abuse Material (CSAM) please notify [INHOPE](https://www.inhope.org/EN) via the [Report it!](https://www.inhope.org/EN#hotlineReferral) option (follow the steps outlined on the site to submit a report).
+- Reports of Child Sexual Abuse Material (CSAM) please notify [INHOPE](https://www.inhope.org/EN) via the [Report it!](https://www.inhope.org/EN#hotlineReferral) option (follow the steps outlined on the site to submit a report).
 {{% /details %}}
 
 {{% details summary="Comment Spam" %}}

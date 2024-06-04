@@ -11,7 +11,7 @@ As GitLab has grown, various teams have developed several programs and initiativ
 By consolidating contributor programs as part of GitLab's Developer Relations team, we now have the opportunity to take a more consistent and strategic approach to community programs by aligning requirements, recognition, incentives, and rewards. This will help us foster a more dynamic and engaged community of GitLab contributors and evangelists. To that end, we plan to:
 
 - Consolidate existing initiatives into a single contributor program with clear requirements and benefits
-- Leverage the new achievements feature developed by the team (https://gitlab.com/groups/gitlab-org/-/epics/9429) to ensure community recognition (one goal is to award achievements to at least 150 contributors)
+- Leverage the new achievements feature developed by the team (<https://gitlab.com/groups/gitlab-org/-/epics/9429>) to ensure community recognition (one goal is to award achievements to at least 150 contributors)
 - Partner with product/engineering to drive a programmatic approach to engaging with key members of our community
 
 We propose the following phases of work consolidating existing initiatives into a single program with clear requirements and benefits:
@@ -96,7 +96,7 @@ Contest: Backlog Cleansweep
 
 ### Contribution Weights
 
-1. Scope: https://gitlab.com/gitlab-com & https://gitlab.com/gitlab-org
+1. Scope: <https://gitlab.com/gitlab-com> & <https://gitlab.com/gitlab-org>
 1. Value: For this iteration, a merged code contribution holds more weight than other activity, to incentivize bias for action & accelerate innovation.
 1. Cadence: We can assign additional credits monthly to those that we think deserve additional recognition, such as social media attention or other significant activity
 
@@ -195,7 +195,7 @@ The portal through which we will review this data will be Common Room. Activitie
 
 ## Phase 3: Draft - Increase diversity and inclusion of our wider community
 
-Due to the sensitive nature of this phase, we’re looking for feedback on these ideas from multiple angles over at https://gitlab.com/gitlab-org/community-relations/contributor-success/team-task/-/issues/248
+Due to the sensitive nature of this phase, we’re looking for feedback on these ideas from multiple angles over at <https://gitlab.com/gitlab-org/community-relations/contributor-success/team-task/-/issues/248>
 
 ## Phase 4: Address recognition gaps
 
@@ -228,13 +228,13 @@ As contributors start to accumulate points, we need to reward active and recent 
 ## Open Questions or further iterations
 
 - Using this point system & having organizations combine their users to more easily “level-up”
-  - We can start to introduce a public organizational ranking. Leaderboards of both users & organizations can be built, similar to https://www.drupalcontributions.org/ or
-  - We are blocked to execute on that and need to solve https://gitlab.com/gitlab-org/gitlab/-/issues/368130 to proceed.
+  - We can start to introduce a public organizational ranking. Leaderboards of both users & organizations can be built, similar to <https://www.drupalcontributions.org/> or
+  - We are blocked to execute on that and need to solve <https://gitlab.com/gitlab-org/gitlab/-/issues/368130> to proceed.
 - Recognizing organizational support for the contributors is critical.
   - We should start to recognize partners that contribute
   - Give benefits to those partners & customers
   - Spoke with Honora Duncan and she was very excited about such a possibility.
-  - We should bias those that contribute more, similar to the example over at https://www.drupal.org/drupal-services (contribution count is publicly displayed)
+  - We should bias those that contribute more, similar to the example over at <https://www.drupal.org/drupal-services> (contribution count is publicly displayed)
 - The system could be tweaked in favor of certain projects in certain months, allowing us to shift focus on certain areas such as AI experiments, Terraform, GitLab CLI, or other ways to slice and dice our contributions automatically and hand our more or fewer rewards to these areas.
 - Do we want a 1:2 ratio between “code contributions” and “non-code contributions”?
   - Given we have always biased & measured towards code contributions vs others in the past, I think it’s fair to start from that point and learn.

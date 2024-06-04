@@ -111,7 +111,7 @@ If your annual salary places you above the Non-Evidence Maximum of 10,000 CAD - 
 
 - Reach out to Total Rewards to fill out section 1-3 first.
 - Total Rewards will return this to you to complete the remaining sections.
-- Once completed, please submit directly to Canada Life at groupmed@canadalife.com
+- Once completed, please submit directly to Canada Life at <groupmed@canadalife.com>
 
 ## Enrollment
 
@@ -125,7 +125,7 @@ Member ID: When you complete your digital enrollment, Collage will populate a Me
 
 ### Updating Beneficiary Information
 
-In order to assign a beneficiary for the Life Insurance plan, team members should download the "Beneficiary Form"  on the [Canada Life Beneficiary webpage](https://www.canadalife.com/support/forms/plan-administrators/apply-or-make-changes-to-group-coverage-or-beneficiary-trustee-i/beneficiary-or-trustee-change.html). If the beneficiary is a minor, please also download the "Trustee Appointment" form. Canada Life requires a wet signature on these forms, so please print, complete, and scan back the forms to Total-rewards@gitlab.com and Darren@scinsurance.ca.
+In order to assign a beneficiary for the Life Insurance plan, team members should download the "Beneficiary Form"  on the [Canada Life Beneficiary webpage](https://www.canadalife.com/support/forms/plan-administrators/apply-or-make-changes-to-group-coverage-or-beneficiary-trustee-i/beneficiary-or-trustee-change.html). If the beneficiary is a minor, please also download the "Trustee Appointment" form. Canada Life requires a wet signature on these forms, so please print, complete, and scan back the forms to <Total-rewards@gitlab.com> and <Darren@scinsurance.ca>.
 
 When filling out the form you may enter the following under Part 1:
 
@@ -177,12 +177,12 @@ Canada Life has designed [tools and services](https://www.greatwestlife.com/you-
 - What are my key responsibilities as a plan member?
   - If you experience a major lifestyles event, you must advise your plan administrator within 31 days of the event and complete any corresponding paperwork. Failure to notify Canada Life of a lifestyle event within 31 days of the event, could result in limitations or declined coverage. Please see your plan administrator for support.
   - Major lifestyles events include:
-     - Marriage - legal or common-law (1st day of cohabitation)
-     - Legal Separation
-     - Divorce or termination of a common-law relationship
-     - Death of spouse or insured child, Birth or adoption of a child
-     - Loss of spouse’s benefits
-     - Dependents becoming ineligible for dependent coverage either because of their age or student status
+    - Marriage - legal or common-law (1st day of cohabitation)
+    - Legal Separation
+    - Divorce or termination of a common-law relationship
+    - Death of spouse or insured child, Birth or adoption of a child
+    - Loss of spouse’s benefits
+    - Dependents becoming ineligible for dependent coverage either because of their age or student status
 
 ## Registered Retirement Savings Plan (RRSP)
 
@@ -200,10 +200,10 @@ Effective November 1, 2021, eligible Canadian Team Members can enroll in GitLab'
 For enrolling into the RRSP, please navigate to [Canada Life's RRSP portal](https://mycanadalifeatwork.com) and follow the directions in the [enrollment express pdf](https://drive.google.com/file/d/16K333QPsXllZFolC_yiXZYb3rUYJwXvu/view?usp=sharing). For a more detailed overview of enrolling and navigating the RRSP platform, please reference the [enrollment express guide](https://www.brainshark.com/1/player/grs?pi=zGWz97lF4zPVigz0&r3f1=c5ff81d2ded38b99c999f69cca80c7ded98198f2dbc5c1cd9e&fb=0).
 
 - Once enrolled, a plan administrator will need to approve your enrollment. This may take up to two weeks.
-- If you need any help, please contact Canada Life at 1-800-724-3402, our broker SC Insurance at info@scinsurance.ca, or the Total Rewards team at total-rewards@gitlab.com.
+- If you need any help, please contact Canada Life at 1-800-724-3402, our broker SC Insurance at <info@scinsurance.ca>, or the Total Rewards team at <total-rewards@gitlab.com>.
 - Please remember to select a beneficiary when enrolling. This is separate from the beneficiary elected for your life insurance plan.
 - Team Members are responsible for monitoring their own contribution limits to ensure they do not over-contribute to their maximum limit. This is because team members can carry forward RRSP contribution room that they were unable to use in any particular year and is unique to each member.
-- Team Members can also request to contribute their bonus or discretionary bonus towards their RRSP plan outside their normal salary. The employer match does not apply towards this contribution. In order to make this request, please email Nonuspayroll@gitlab.com and Total-Rewards@gitlab.com prior to the bonus being paid out.
+- Team Members can also request to contribute their bonus or discretionary bonus towards their RRSP plan outside their normal salary. The employer match does not apply towards this contribution. In order to make this request, please email <Nonuspayroll@gitlab.com> and <Total-Rewards@gitlab.com> prior to the bonus being paid out.
 
 ## Canada Pension Plan (CPP)
 
@@ -394,16 +394,16 @@ The following leave types run concurrently with GitLab time away policies (PTO, 
 **Reservist Leave**
 
 - A reservist of the Canadian Armed Forces may be absent from civilian work, without pay, to conduct operations in Canada or abroad:
-    - Abroad: After 12 months of uninterrupted service with their employer, reservists may be absent from work to take part in a Canadian Armed Forces operation abroad for a period of up to 18 months. An operation abroad includes preparation, training, rest and travel from their place of residence and back;
-    - In Canada: A reservist may be absent from work to take part in a Canadian Armed Forces operation in Canada in order to:
-        - provide assistance in the event of a major disaster within the meaning of the Loi sur la sécurité civile;
-        - assist the civil authority at the request of the Attorney General of Québec pursuant to the National Defence Act;
-        - intervene in any other emergency situation designated by the Government.
-    - In Canada or abroad: A reservist may be absent from work to take part in any other Canadian Armed Forces operation under the circumstances, the conditions and for the period prescribed by regulation;
-    - Annual training: A reservist may be absent from work to take part in annual training with the Canadian Armed Forces for a period of up to 15 days;
-    - Exceptions: A reservist does not have the right to be absent from work in the following situations:
-        - if there is a danger to the life, health or safety of other workers or the population;
-        - if there is a risk of destruction or serious deterioration of buildings or movable property, or in a case of force majeure; if their absence is contrary to their professional code of ethics.
+  - Abroad: After 12 months of uninterrupted service with their employer, reservists may be absent from work to take part in a Canadian Armed Forces operation abroad for a period of up to 18 months. An operation abroad includes preparation, training, rest and travel from their place of residence and back;
+  - In Canada: A reservist may be absent from work to take part in a Canadian Armed Forces operation in Canada in order to:
+    - provide assistance in the event of a major disaster within the meaning of the Loi sur la sécurité civile;
+    - assist the civil authority at the request of the Attorney General of Québec pursuant to the National Defence Act;
+    - intervene in any other emergency situation designated by the Government.
+  - In Canada or abroad: A reservist may be absent from work to take part in any other Canadian Armed Forces operation under the circumstances, the conditions and for the period prescribed by regulation;
+  - Annual training: A reservist may be absent from work to take part in annual training with the Canadian Armed Forces for a period of up to 15 days;
+  - Exceptions: A reservist does not have the right to be absent from work in the following situations:
+    - if there is a danger to the life, health or safety of other workers or the population;
+    - if there is a risk of destruction or serious deterioration of buildings or movable property, or in a case of force majeure; if their absence is contrary to their professional code of ethics.
 - Team Members should select `Mandatory Civilian Service` in Time Off by Deel.
 
 **Marriage or civil union**
@@ -529,7 +529,7 @@ More information on these leave entitlements can be found on the [Government of 
 
 **COVID-19 Related Leave**
 
-- Team members can take unpaid leave if unable to work for specified reasons related to COVID-19: https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/time-off/leaves-of-absence.  This leave will be available for as long as the circumstances that require the leave are present.
+- Team members can take unpaid leave if unable to work for specified reasons related to COVID-19: <https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/time-off/leaves-of-absence>.  This leave will be available for as long as the circumstances that require the leave are present.
 - Team Members should select `Out Sick` in Time Off by Deel.
 
 </details>
@@ -731,7 +731,7 @@ Adjustments for Current Team Members
 1. Review the data to identify  if the team member is eligible for more Life Insurance and LTD Coverage than they are currently receiving (i.e. compare the LTD and LTD eligible Amount Columns to see if there is a delta)
 1. Reach out to the team member with the Eligiblity of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quartelry audit was completed as an fyi.
 
- - View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
+- View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
 
 ### RRSP Process (Semi-monthly)
 

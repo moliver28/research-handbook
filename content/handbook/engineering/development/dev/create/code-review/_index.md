@@ -31,8 +31,8 @@ The Code Review group is responsible for the following product categories:
 
 ### Category performance indicators
 
- - [Code Review Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---category-mau---unique-users-using-merge-requests) (Internal Only)
- - [Editor Extension Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---editor-extension---category-mau) (Internal Only)
+- [Code Review Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---category-mau---unique-users-using-merge-requests) (Internal Only)
+- [Editor Extension Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---editor-extension---category-mau) (Internal Only)
 
 ## Work
 
@@ -81,19 +81,19 @@ experience = f(perceived performance, task completion)
 
 ### Development Metrics
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="code review" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="code review" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="code review" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="code review" >}}
 {{< /tableau >}}
 

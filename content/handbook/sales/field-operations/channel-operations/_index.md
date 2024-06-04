@@ -77,15 +77,15 @@ There are a number of different slack channels to serve the different needs of t
 | Slack Channel | Description | Topic | Audience | Posting Permissions |
 | ------ | ------ | ------ | ------ | ------ |
 | ~~~partner-fyi~~~ | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #partner-programs-ops or #channel-sales | _blank_ | any | Channel Operations, Channel Programs, Nima Badiey |
-| partner-program-ops | Questions and comments about channel programs and operations | https://about.gitlab.com/handbook/resellers/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
+| partner-program-ops | Questions and comments about channel programs and operations | <https://about.gitlab.com/handbook/resellers/> and <https://about.gitlab.com/handbook/sales/field-operations/channel-operations/> | any | any |
 | channel-sales |  Questions and comments about opportunities, partner connections, field engagement, and other channel sales questions |  | any | any |
 | channels-emea | A channel for the EMEA channels team and stakeholders to collaborate |  | any | any |
 | channels-amer | A channel for the AMER channels team and stakeholders can collaborate |  | any | any |
 | pub-sec-channels | A channel for the Pubsec channels team and stakeholders to collaborate |  | any | any |
 | ~~~apac_partners~~~ | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
 | channel-services | Questions and comments about channel services program, enablement and field engagement |  | any | any |
-| #cloud-aws and #cloud-gcp| A channel for collaboration with the alliances Team | https://about.gitlab.com/handbook/alliances/ | any | any |
-| ~~~alliance_sales_ops~~~ | Questions and comments about alliance operations | https://about.gitlab.com/handbook/alliances/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
+| #cloud-aws and #cloud-gcp| A channel for collaboration with the alliances Team | <https://about.gitlab.com/handbook/alliances/> | any | any |
+| ~~~alliance_sales_ops~~~ | Questions and comments about alliance operations | <https://about.gitlab.com/handbook/alliances/> and <https://about.gitlab.com/handbook/sales/field-operations/channel-operations/> | any | any |
 
 ## Standard Channel Practices
 
@@ -799,7 +799,7 @@ The partner will be prompted to input basic company information that will auto-f
 
  Please see the [Partner Support](/handbook/resellers/partner-support/) page.
 
-**External Communication:** Email partnersupport@gitlab.com to include a partner or other external stakeholder for help with partner-related requests. PHD team members monitor the queue and email inbox throughout the day in all time zones.
+**External Communication:** Email <partnersupport@gitlab.com> to include a partner or other external stakeholder for help with partner-related requests. PHD team members monitor the queue and email inbox throughout the day in all time zones.
 
 ### Tagging Partner Operations in Salesforce
 

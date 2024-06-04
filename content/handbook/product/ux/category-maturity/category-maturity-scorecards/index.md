@@ -111,7 +111,7 @@ Make sure to test these scenarios with coworkers before evaluating with research
 
 - Successful scenario completion.
 - A single scenario may have several paths to the end goal that result in completion, and thereby a ‘Success’. The team must identify the end goal prior to the study starting so everyone is aligned.
-    - *Why is this important?* Identifying and being aligned on the end goal allows the moderator to accurately know what is success/failure, which is critical to know since follow-up questions are dependent on completing the scenario.
+  - *Why is this important?* Identifying and being aligned on the end goal allows the moderator to accurately know what is success/failure, which is critical to know since follow-up questions are dependent on completing the scenario.
 - How the participant ended up at the end goal may not be important for the team to document. If the participant took the long path and felt it was or wasn’t easy, that should be reflected in their score. What matters most is if they ended up at the end goal.
 
 👎 **Defining ‘Failure’**
@@ -122,7 +122,7 @@ Make sure to test these scenarios with coworkers before evaluating with research
 **What to do if ‘Failure’ happens during a study**
 
 - If there is a failure, the team should try their best to understand why it occurred (ex: Was it the way the scenario was phrased? Was the experience confusing? etc.).
-    - *How can this be done?* One way to do this is to go back at the end of the study to have the participant go through that scenario again. This time, you can ask targeted questions to understand why they took the route they took in the experience. (ex: *‘It looks like you clicked on ‘Issues’. Tell me more about why you selected that menu item.’, ‘You felt you completed the scenario at this point. What gave you the confidence that you accomplished the goal of XYZ?’*)
+  - *How can this be done?* One way to do this is to go back at the end of the study to have the participant go through that scenario again. This time, you can ask targeted questions to understand why they took the route they took in the experience. (ex: *‘It looks like you clicked on ‘Issues’. Tell me more about why you selected that menu item.’, ‘You felt you completed the scenario at this point. What gave you the confidence that you accomplished the goal of XYZ?’*)
 - When a participant is unable to complete a scenario, their ratings on that scenario are discarded and not accounted for when calculating the CM Scorecard score.
 - If at any point you notice that less than 80% of participants are able to pass a scenario, the study should stop at that most recent participant to conserve resources.
 
@@ -228,8 +228,8 @@ Note: Do not enter in ratings for participants who experienced task failure, as 
 
 For example:
 
- - 4.70 average = ‘A’ CM Scorecard grade = ‘78.9-100’ SUS = Complete
- - 3.93 average = ‘B’ CM Scorecard grade = ‘72.6 - 78.8’ SUS = Competitive
+- 4.70 average = ‘A’ CM Scorecard grade = ‘78.9-100’ SUS = Complete
+- 3.93 average = ‘B’ CM Scorecard grade = ‘72.6 - 78.8’ SUS = Competitive
 
 **Minimum % pass rate:** Minimum % pass rates help indicate what percentage of participants must succeed in a scenario to meet a minimum requirement. This also helps indicate what level of scenario failure is acceptable. Scenario failures are important to note and we can’t discount them, so they must be incorporated as part of the criteria to move category maturity levels. If the Minimum % pass rate for any scenario is less than 80% during a study, the study should stop at that most recent participant to conserve resources. In the event this should occur, the category maturity cannot be moved up a level. The team should take those learnings, iterate, and retest when they’re ready again. It’s also recommended that a retrospective take place to learn:
 
@@ -278,7 +278,7 @@ Several groups currently use [jobs_to_be_done.yml](https://gitlab.com/gitlab-com
 | `jtbd` | When....I want to...So that | The complete JTBD | No (if `short_jtbd` is defined) |
 | `grade` | "A" | The corresponding letter of the score of A, B, C, D, F | No |
 | `confidence` | Researched | Confidence level of the grade | No |
-| `source` | https://gitlab.com/gitlab-org/ux-research/-/issues/900 | URL pointing to the finished research issue | No |
+| `source` | <https://gitlab.com/gitlab-org/ux-research/-/issues/900> | URL pointing to the finished research issue | No |
 | `group` | Plan | The group or stage that the corresponding JTBD belongs to | No |
 
 In order to map the CM Scorecard score for a given JTBD to a grade letter, use the following criteria:

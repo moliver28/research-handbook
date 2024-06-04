@@ -82,10 +82,10 @@ fixes) to installation:
 - Fog and CarrierWave are not maintained to the level of the native
   SDKs (e.g. AWS S3 SDK), so we end up having to maintain or monkey
   patch those tools to support requested customer features
-  (e.g. https://gitlab.com/gitlab-org/gitlab/-/issues/242245) that
+  (e.g. <https://gitlab.com/gitlab-org/gitlab/-/issues/242245>) that
   would normally be "free".
 - In many cases, we copy around object storage files needlessly
-  (e.g. https://gitlab.com/gitlab-org/gitlab/-/issues/285597). Large
+  (e.g. <https://gitlab.com/gitlab-org/gitlab/-/issues/285597>). Large
   files (LFS, packages, etc.) are slow to finalize or don't work at
   all as a result.
 
@@ -114,22 +114,22 @@ The overarching goal should be to define improvements that can be made with the 
 
 - Document the status quo of Object Storage and classify its use by feature vertical and integration patterns,
   since we know there to be drift between features.
-    - [Categorize existing object storage buckets](https://gitlab.com/gitlab-org/gitlab/-/issues/345282)
-    - [Describe the current state of Object Storage implementation](https://gitlab.com/gitlab-org/gitlab/-/issues/351213)
+  - [Categorize existing object storage buckets](https://gitlab.com/gitlab-org/gitlab/-/issues/345282)
+  - [Describe the current state of Object Storage implementation](https://gitlab.com/gitlab-org/gitlab/-/issues/351213)
 - Outline a path forward by designing a new simplified architecture for Object Storage. Identify high-level steps we need to take for that architecture to be realized.
-    - [Requirements for a the new Object Storage architecture](https://gitlab.com/gitlab-org/gitlab/-/issues/345256)
-    - [Proposal: unified blob storage](https://gitlab.com/gitlab-org/gitlab/-/issues/356035)
-    - [Object Storage: storing attachments without carrierwave](https://gitlab.com/gitlab-org/gitlab/-/issues/348959)
+  - [Requirements for a the new Object Storage architecture](https://gitlab.com/gitlab-org/gitlab/-/issues/345256)
+  - [Proposal: unified blob storage](https://gitlab.com/gitlab-org/gitlab/-/issues/356035)
+  - [Object Storage: storing attachments without carrierwave](https://gitlab.com/gitlab-org/gitlab/-/issues/348959)
 - Prototype individual aspects of the proposed architecture by exploring both new technology such as ActiveStorage, or by reworking
   existing code.
-    - [Document and refactor Workhorse upload routines](https://gitlab.com/gitlab-org/gitlab/-/issues/351657)
-    - [POC: single authorization endpoint](https://gitlab.com/gitlab-org/gitlab/-/issues/351650)
-    - [POC: ActiveStorage experiment](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/79012)
+  - [Document and refactor Workhorse upload routines](https://gitlab.com/gitlab-org/gitlab/-/issues/351657)
+  - [POC: single authorization endpoint](https://gitlab.com/gitlab-org/gitlab/-/issues/351650)
+  - [POC: ActiveStorage experiment](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/79012)
 - Identify features and configuration that should be deprecated to reduce the maintenance complexity.
-    - [Deprecate background upload](https://gitlab.com/gitlab-org/gitlab/-/issues/26600)
-    - [Object Storage: remove background upload](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/734)
-    - [Evaluate deprecation and removal of the Pseudonymizer](https://gitlab.com/gitlab-org/gitlab/-/issues/348400)
-    - [Deprecate and remove Pseudonymizer](https://gitlab.com/gitlab-org/gitlab/-/issues/219952)
+  - [Deprecate background upload](https://gitlab.com/gitlab-org/gitlab/-/issues/26600)
+  - [Object Storage: remove background upload](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/734)
+  - [Evaluate deprecation and removal of the Pseudonymizer](https://gitlab.com/gitlab-org/gitlab/-/issues/348400)
+  - [Deprecate and remove Pseudonymizer](https://gitlab.com/gitlab-org/gitlab/-/issues/219952)
 
 ## Out of scope
 

@@ -440,9 +440,9 @@ Routine review and triage of documentation feedback and improvement issues for y
 #### Prerequisites
 
 - An issue triage board for each group that you are the assigned technical writer for. If you don't have an issue triage board for your group, set one up called `Docs only backlog triage - group name`. See an [example board](https://gitlab.com/gitlab-org/gitlab/-/boards/5285286?not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&amp;not%5Blabel_name%5D%5B%5D=type%3A%3Abug&label_name%5B%5D=documentation&label_name%5B%5D=group%3A%3Aproject%20management) for the `Project Management` group.
-    - The filter criteria should include **Label=**`documentation`, **Label=**`group::groupname`, **Label!=**`type::feature`, **Label!=**`type:bug`.
-    - In **Edit board**, make sure `Show the Open list` is selected.
-    - On the issue board, select **Create list**, and set Label to `tw:triaged`.
+  - The filter criteria should include **Label=**`documentation`, **Label=**`group::groupname`, **Label!=**`type::feature`, **Label!=**`type:bug`.
+  - In **Edit board**, make sure `Show the Open list` is selected.
+  - On the issue board, select **Create list**, and set Label to `tw:triaged`.
 
 To review and triage documentation feedback and improvement issues for your groups:
 

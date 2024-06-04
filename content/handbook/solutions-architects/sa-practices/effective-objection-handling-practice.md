@@ -11,19 +11,19 @@ Effective Objection handling skill is critical to becoming a trusted advisor in 
 The Objection Handling Process can be broken down into the following steps:
 
 - **Listen**
-    - Active listening is a key part of effective objection handling. Use methods like nodding and physically showing interest.
-    - This is our chance to do more discovery & learn as much as about the customer as possible.
+  - Active listening is a key part of effective objection handling. Use methods like nodding and physically showing interest.
+  - This is our chance to do more discovery & learn as much as about the customer as possible.
 - **Question**
-    - Ask [questions](http://changingminds.org/techniques/questioning/questioning.htm) if it makes sense, generally we find open ended questions are the best way to retrieve information. This not only shows you are interested in them, but it also gives you more information with which to make the sale.
-    - As you question them, watch carefully for body language that gives you more information about what they are thinking and feeling.
-    - You might also use the "tip the bucket technique" to see if they more objections that can be answered.
+  - Ask [questions](http://changingminds.org/techniques/questioning/questioning.htm) if it makes sense, generally we find open ended questions are the best way to retrieve information. This not only shows you are interested in them, but it also gives you more information with which to make the sale.
+  - As you question them, watch carefully for body language that gives you more information about what they are thinking and feeling.
+  - You might also use the "tip the bucket technique" to see if they more objections that can be answered.
 - **Think**
-    - Take a pause to think & figure out which [technique](http://changingminds.org/disciplines/sales/objection/objection_handling.htm) is the best for their objection. You will see that these techniques will become second nature with practice.
+  - Take a pause to think & figure out which [technique](http://changingminds.org/disciplines/sales/objection/objection_handling.htm) is the best for their objection. You will see that these techniques will become second nature with practice.
 - **Handle**
-    - Handle the objection in an appropriate time frame using the techniques above or however way you like.
-    - You are under no obligation to try and force-fit a method where it is unlikely to work.
+  - Handle the objection in an appropriate time frame using the techniques above or however way you like.
+  - You are under no obligation to try and force-fit a method where it is unlikely to work.
 - **Check**
-    - Finally, check to find out whether your objection-handling worked! Ask if you have answered their question. Ask if there are any more concerns. As necessary, handle outstanding objections.
+  - Finally, check to find out whether your objection-handling worked! Ask if you have answered their question. Ask if there are any more concerns. As necessary, handle outstanding objections.
 
 Then go for the close using any of these [closing techniques](http://changingminds.org/disciplines/sales/closing/closing_techniques.htm).
 
@@ -83,7 +83,7 @@ Please note it's suggested to have these meetings weekly, biweekly so handling o
 
 1. Here's a list of objections that we have gathered from the [field](https://docs.google.com/spreadsheets/d/130m005uhn3oh-HWhpX1TZJWYgWEashG5Rp1DDPg6Whw/edit#gid=916047871). This is a starting point & more objections will be added with everyone's contribution. Please feel free to add additional objections to it.
 1. Ask for volunteers who would like to participate in the objection handling practice
-1. Use a randomized selection (like [wheel of misfortune](https://wheelofnames.com/jv5-ny3)) method to pick an objection & individual(s)(https://wheelofnames.com/xfb-yz5) to handle the objections using the techniques above or any way they prefer. Make it fun!!!
+1. Use a randomized selection (like [wheel of misfortune](https://wheelofnames.com/jv5-ny3)) method to pick an objection & individual(s)(<https://wheelofnames.com/xfb-yz5>) to handle the objections using the techniques above or any way they prefer. Make it fun!!!
 1. Please dedicate a fixed amount of time (say 5 mins) to handle the objection with the techniques mentioned above. Remember to pick a technique that feels natural to you.
 1. Afterwards, a fixed amount of time (say 10 mins) to have a retro with the team to discuss the objection & brainstorm on different ways to handle the objection. Make sure to take notes in a feedback note like [this]( https://docs.google.com/document/d/1LQb62it3cVdvCFvAatzB7p39R13qltqbxGXieoIimfI/edit).
 1. Please note the best objection handling method for the particular objection in a summary document like [this](https://docs.google.com/spreadsheets/d/130m005uhn3oh-HWhpX1TZJWYgWEashG5Rp1DDPg6Whw/edit#gid=916047871)

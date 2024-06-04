@@ -7,9 +7,9 @@ title: "Swag: Process & FAQ"
 * Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking".
   * The file can be found in the Shared Google Drive `Contributor Success`, and is titled "[GitLab] Developer Relations Swag Coupon Codes & Delivery Tracking"
 * Swag Redemption portal
-  * https://gitlabcommunity.orderpromos.com
+  * <https://gitlabcommunity.orderpromos.com>
 * Inventory Portal
-  * https://gitlabstore.mybrightsites.com
+  * <https://gitlabstore.mybrightsites.com>
 
 ## Swag Redemption Portal
 
@@ -98,7 +98,7 @@ For details on what is available in each category, please see the Inventory tab 
 
 ## Swag Order Process overview
 
-1. GitLab will requests new swag orders through emailing ssporer@boundlessnetwork.com
+1. GitLab will requests new swag orders through emailing <ssporer@boundlessnetwork.com>
    * Quantity of items
    * Date by which the inventory needs to be fulfilled
    * Which category this item belongs to
@@ -149,4 +149,4 @@ Yes. You can request to add custom notecards to kits.
 
 ### Who can help me with a declaration letter / support with getting Swag items released from customs?
 
-Please email Savanah at Boundless via ssporer@boundlessnetwork.com and she can assist you with getting Swag items cleared.
+Please email Savanah at Boundless via <ssporer@boundlessnetwork.com> and she can assist you with getting Swag items cleared.

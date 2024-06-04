@@ -70,7 +70,7 @@ Use the Material- and Purpose-specific Publicity Waiver and Release template for
     - Describe a specific purpose, e.g., "Video: For use in 2022 - 2023 Partner campaigns." (Note that if you include a specified purpose, the material can only be used for the specific purpose, and no other.)
 1. Click `SEND`.
 1. You will be notified by email when the Signatory has signed the Release.
-1. Upload the signed Release to the relevant issue.  If there's no issue, send a copy of the signed Release to intellectualproperty@gitlab.com.
+1. Upload the signed Release to the relevant issue.  If there's no issue, send a copy of the signed Release to <intellectualproperty@gitlab.com>.
 1. Repeat this process for each individual appearing in the materials. If you need to obtain Releases for the same materials from 10 or more individuals, reach out to [#legal in Slack](https://app.slack.com/client/T02592416/C78E74A6L) to discuss bulk sending.
 {{% /details %}}
 

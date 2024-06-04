@@ -67,7 +67,7 @@ is used follows the following rules
 In the [production](/handbook/engineering/infrastructure/environments/#production) environment, the following well known groups/repos are run of
 Gitaly/Praefect nodes in the `canary` stage exclusively
 
-* https://gitlab.com/gitlab-org
+* <https://gitlab.com/gitlab-org>
 
 ### Accessing the canary stage of an environment
 
@@ -88,7 +88,7 @@ The canary stage is also automatically used in the following circumstances (with
 * 5% of traffic for the "main" stage is automatically instead sent to the "canary"
 stage of an environment if the `gitlab_canary` is not set which is the default for most users. If you wish to ensure your requests are never sent to
 canary, manually set the `gitlab_canary` cookie to `false` in whatever
-browser/tool you are using to talk to the environment or ensure that "current" is toggled on https://next.gitlab.com
+browser/tool you are using to talk to the environment or ensure that "current" is toggled on <https://next.gitlab.com>
 * In the production environment only, the canary stage is forcibly enabled for all users visiting GitLab Inc. operated groups:
   * [GitLab.com](https://gitlab.com/gitlab-com)
   * [GitLab.org](https://gitlab.com/gitlab-org)
@@ -127,13 +127,13 @@ Some examples for the most commonly used environments are as follows
 
 Feature flags on staging and staging-canary:
 
-  * Enable:  `/chatops run feature set feature_flag_name true --staging`
-  * Disable: `/chatops run feature set feature_flag_name false --staging`
+* Enable:  `/chatops run feature set feature_flag_name true --staging`
+* Disable: `/chatops run feature set feature_flag_name false --staging`
 
 Feature flags on production and production-canary:
 
-  * Enable `/chatops run feature set feature_flag_name true`
-  * Disable `/chatops run feature set feature_flag_name false`
+* Enable `/chatops run feature set feature_flag_name true`
+* Disable `/chatops run feature set feature_flag_name false`
 
 ### How do I get console access to the canary stage?
 

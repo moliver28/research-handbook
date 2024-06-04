@@ -97,7 +97,7 @@ Cognism management is exclusively done by the Marketing Operations team. We curr
 
 BDRs receive acces to Cognism as part of the onboarding process. If the team member did not receive access or if access has been removed and you would like it back, you will need to open an [individual access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
-If you are experiencing issues with Cognism, feel free to chime in #mktgops slack channel and ask for help. You can also reach out to Cognism directly at help@cognism.com
+If you are experiencing issues with Cognism, feel free to chime in #mktgops slack channel and ask for help. You can also reach out to Cognism directly at <help@cognism.com>
 
 ### Monthly License Review
 

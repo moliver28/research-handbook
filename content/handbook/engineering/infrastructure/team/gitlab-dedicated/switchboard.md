@@ -37,15 +37,15 @@ To engage with the Switchboard team:
   - For Switchboard specific questions, you can find us in [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
   - Our Slack group handle is `@dedicated-switchboard-team`
   - Other teams in Dedicated group have their own work channels for team work discussions:
-      - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
-      - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
+    - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
+    - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
 
 ## Requesting Access to the Switchboard application
 
 - Create an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) specifying
-   - the specific environment ( Test / Beta / Production )
-   - level of access required (Readonly, Support, Provisioner, Operator)
-   - justification for the access
+  - the specific environment ( Test / Beta / Production )
+  - level of access required (Readonly, Support, Provisioner, Operator)
+  - justification for the access
 - Access & Provision Details for the application can be found in the `Switchboard - GitLab Dedicated` section of the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/d3561ab939029faf4ac25f32612c57e861eb8b39/data/tech_stack.yml)
 
 ## How we work

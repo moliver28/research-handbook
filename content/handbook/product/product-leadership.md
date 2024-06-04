@@ -62,8 +62,8 @@ The Product [Key Review](/handbook/company/key-review/) is hosted by a member of
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
-| 2023-11-15 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12863 |
-| 2024-02-21 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/13121 |
+| 2023-11-15 | Mike Flouton | <https://gitlab.com/gitlab-com/Product/-/issues/12863> |
+| 2024-02-21 | Hillary Benson | <https://gitlab.com/gitlab-com/Product/-/issues/13121> |
 | 2024-XX-XX | Justin Farris | To be added |
 | 2024-XX-XX | Mike Flouton | To be added |
 | 2024-XX-XX | Hillary Benson | To be added |
@@ -76,9 +76,9 @@ For more details, visit the Group Conversations [handbook page](/handbook/compan
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
-| 2023-09-27 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12401 |
-| 2023-12-06 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/12909 |
-| 2024-02-28 | Justin Farris | https://gitlab.com/gitlab-com/Product/-/issues/13120 |
+| 2023-09-27 | Mike Flouton | <https://gitlab.com/gitlab-com/Product/-/issues/12401> |
+| 2023-12-06 | Hillary Benson | <https://gitlab.com/gitlab-com/Product/-/issues/12909> |
+| 2024-02-28 | Justin Farris | <https://gitlab.com/gitlab-com/Product/-/issues/13120> |
 | 2024-XX-XX | Mike Flouton | To be added |
 | 2024-XX-XX | Hillary Benson | To be added |
 | 2024-XX-XX | Justin Farris | To be added |

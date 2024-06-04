@@ -26,7 +26,7 @@ Cadence: Ad hoc (check at least weekly)
     - Select "New Document Request" and paste the following text:
        > Hello,
        >
-       > We received your request to update your benefits due to your Qualifying Life Event. This Qualifying Life Event requires documentation to substantiate it. Please review the following table to understand the documentation requirements: https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/#qle-acceptable-documentation-table.
+       > We received your request to update your benefits due to your Qualifying Life Event. This Qualifying Life Event requires documentation to substantiate it. Please review the following table to understand the documentation requirements: <https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/total-rewards-processes/#qle-acceptable-documentation-table>.
        >
        > If you have any questions or neeed any help uploading your documentation, please reach out to the Total Rewards team.
     - Choose acceptable documents for the team member's Life Event per the table below and click "Submit"
@@ -122,7 +122,7 @@ The Total Rewards Analyst will review and initiate payment for all monthly healt
 
 - All bills are available on the first of the month and should be paid by the 13th.
 - A reconciliation report will be made available in the PlanSource system. Total Rewards will transfer the reconciliation and Group Invoice documents to the US Benefits Billing Google Drive.
-    - These documents will be used to verify the proper amount was billed and to provide department breakdowns to AP.
+  - These documents will be used to verify the proper amount was billed and to provide department breakdowns to AP.
 - Total Rewards will login to each admin platform and pay the bills using the banking information and links found in the 1password note: "Monthly Heath Bills"
 - Total Rewards will then email a detailed breakdown of the amount/department totals to `ap@gitlab.com` for accounting purposes.
 - TODO Build in step-by-step process
@@ -156,7 +156,7 @@ Ineligible: Any Team Member that relocated outside of the US and is no longer el
 
 Temporary until Integrations are put in place between PlanSource/Workday & Navia
 
-1. Log on to https://www.naviabenefits.com/
+1. Log on to <https://www.naviabenefits.com/>
 1. Reports> Active Member Report > Select the current year's plan > check mark Include EmpID/SSNs
 1. Pull PlanSource/Workday report
     1. Termination Report - get termination dates for team members

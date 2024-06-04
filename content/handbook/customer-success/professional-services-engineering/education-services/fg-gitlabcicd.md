@@ -47,7 +47,7 @@ description: "This Facilitator Guide is intended to walk you through all importa
 ### Module 1- GitLab Overview
 
 1. Demo Environment: You will want to instruct learners to sign into this environment prior to labs and demos.
-   1. https://www.gitlabdemo.com/invite
+   1. <https://www.gitlabdemo.com/invite>
 1. GitLab Maturity page: you may want to demo from this page to get the latest updates to the maturity model- the deck only has a screenshot.
    1. <https://about.gitlab.com/direction/maturity/>
 1. GitLab.org: (Dogfooding slide)

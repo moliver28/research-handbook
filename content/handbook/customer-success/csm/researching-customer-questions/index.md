@@ -67,7 +67,7 @@ Searching in Slack with keywords to your customer's question is helpful to see i
 
 Searching the GitLab.com top-level group is an excellent way to find related issues that will not appear in a Google search result, often within private collaboration projects.
 
-First, start in the https://gitlab.com/gitlab-com/ top-level group. Then, use the top search bar to search for results. For example, if a customer asks questions about Gerrit, a framework for teams to review code, you will type `Gerrit` and filter on the left side by Issues. You will see discussions GitLab team members and customers have had on the topic to help your research.
+First, start in the <https://gitlab.com/gitlab-com/> top-level group. Then, use the top search bar to search for results. For example, if a customer asks questions about Gerrit, a framework for teams to review code, you will type `Gerrit` and filter on the left side by Issues. You will see discussions GitLab team members and customers have had on the topic to help your research.
 
 ### Highspot and Google Drive
 

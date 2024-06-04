@@ -8,7 +8,7 @@ We don't currently have a shared AWS account for using AWS resources. For now, o
 
 ## Creating a cluster
 
-There are many steps to set up a cluster in EKS, but there is a 3rd party script which I've found to be pretty good at orchestrating the work. It's called [eksctl](https://eksctl.io/). You'll need this local to were you run the script from. There are also a set of utilities we created (just shell scripts) to lessen the pain of creating a cluster and configuring GitLab for a demo. Those can be found at https://gitlab.com/dangordon/eks-utils.git.
+There are many steps to set up a cluster in EKS, but there is a 3rd party script which I've found to be pretty good at orchestrating the work. It's called [eksctl](https://eksctl.io/). You'll need this local to were you run the script from. There are also a set of utilities we created (just shell scripts) to lessen the pain of creating a cluster and configuring GitLab for a demo. Those can be found at <https://gitlab.com/dangordon/eks-utils.git>.
 
 From these scripts, the `create-cluster.sh` script can be used as a wrapper to eksctl to create a cluster to use.
 

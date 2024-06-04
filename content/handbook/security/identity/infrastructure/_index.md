@@ -209,8 +209,8 @@ We use a shared responsibility model for cloud providers.
 - GCP Project creation
 - Azure sandbox user management
 - Defining Identity Roles and Identity Groups
-    - Managing AWS Identity Center Groups and Permission Sets
-    - Managing Google Groups and User Memberships (using Identity Roles)
+  - Managing AWS Identity Center Groups and Permission Sets
+  - Managing Google Groups and User Memberships (using Identity Roles)
 - Services Cloud Architecture and Automation (production-esque environments)
 - Sandbox Cloud Architecture and Automation (dev/test environments)
 - Tech debt reduction of legacy AWS accounts
@@ -235,9 +235,9 @@ See the team's [handbook page](/handbook/security/product-security/infrastructur
 > Responsible for product hosting, reliability, and scalability of customer-facing applications and services related to the GitLab product.
 
 - GCP Infrastructure (SaaS Production) Folder and Projects
-    - Architecture, deployment, and management of all product workloads
-    - Reliability of customer-facing services in the [production architecture](/handbook/engineering/infrastructure/production/architecture)
-    - Management of GitOps deployments using [config-mgmt](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) and [runbooks](https://gitlab.com/gitlab-com/runbooks)
+  - Architecture, deployment, and management of all product workloads
+  - Reliability of customer-facing services in the [production architecture](/handbook/engineering/infrastructure/production/architecture)
+  - Management of GitOps deployments using [config-mgmt](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) and [runbooks](https://gitlab.com/gitlab-com/runbooks)
 - Runway Infrastructure for Development Teams
 
 See the team's [handbook page](/handbook/engineering/infrastructure) to learn more.

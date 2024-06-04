@@ -160,9 +160,9 @@ Release Managers are members of the Delivery group but during their time as rele
 
 The primary customers of the Releases team are:
 
- - the internal GitLab users who want to deploy & release changes i.e.,
- - Release Managers and Stage Groups.
- - customers for the monthly Release
+- the internal GitLab users who want to deploy & release changes i.e.,
+- Release Managers and Stage Groups.
+- customers for the monthly Release
 
 1. Release metrics: Providing A centralized store for metrics related to releases. Deployments will primarily be concerned with providing a metrics capability to allow all deployment pipelines to record metrics in a useful way to fuel all required dashboards.
 1. Releases/Packages Pipeline visibility: Providing visibility of pipeline configuration, status, and outcome.
@@ -177,8 +177,8 @@ The primary customers of the Releases team are:
 
 The primary customers of the Deployments team are:
 
- - Release managers who rely on the deployment tooling
- - GitLab SaaS (GitLab.com, Dedicated and Cells) customers expecting deployments of updated code to their various infrastructures.
+- Release managers who rely on the deployment tooling
+- GitLab SaaS (GitLab.com, Dedicated and Cells) customers expecting deployments of updated code to their various infrastructures.
 
 1. Deployment changelock: will make sure that all deployments observe planned and ad-hoc changelocks. Examples include PCLs, S1/S2 incidents, as well as other Change Requests.
 1. Environment changelock: will make sure that environments can be locked to schedule, or on an ad-hoc basis if required by planned maintenance or poor environment health. Guaranteeing that changes are rolled out in a predictable way will also be a Deployments responsibility.

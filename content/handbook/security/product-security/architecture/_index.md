@@ -327,7 +327,7 @@ aka Fail Safe Defaults.
 
 #### Links
 
-- https://owasp.org/www-community/Fail_securely
+- <https://owasp.org/www-community/Fail_securely>
 
 </details>
 

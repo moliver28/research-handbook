@@ -39,9 +39,9 @@ Maturity: `70%` Status: `work in progress`
 
 Issues:
 
- - [Use the Pipeline Wizard for Pages onboarding](https://gitlab.
+- [Use the Pipeline Wizard for Pages onboarding](<https://gitlab>.
    com/gitlab-org/gitlab/-/issues/343557) - **Completed**
- - [Remove the requirement for output files to be inside a folder called
+- [Remove the requirement for output files to be inside a folder called
    "public"](https://gitlab.com/gitlab-org/gitlab-pages/-/issues/668)
 
 #### When I'm building a server-side-rendered static site (SSR), I want to use GitLab to deploy, so that I don't have to configure and pay other services to do so
@@ -50,7 +50,7 @@ Maturity: `10%` Status: `work in progress`
 
 Issues:
 
- - [Allow the use of Javascript runtimes for Jamstack apps (SSR)](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/32)
+- [Allow the use of Javascript runtimes for Jamstack apps (SSR)](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/32)
 
 #### When I'm deploying a Pages site, I want to have it distributed via a CDN so that the page is delivered faster
 
@@ -70,7 +70,7 @@ Maturity: `0%` Status: `planned`
 
 Issues:
 
- - [API Generator](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/46)
+- [API Generator](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/46)
 
 ## Guiding Principles
 
@@ -93,7 +93,7 @@ All frameworks have in common that there are three main approaches as to when th
 
 ### Resources
 
-- https://www.smashingmagazine.com/2021/05/evolution-jamstack/
+- <https://www.smashingmagazine.com/2021/05/evolution-jamstack/>
 
 ## Issue Link
 

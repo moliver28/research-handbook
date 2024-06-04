@@ -166,7 +166,7 @@ We will set functional sourcing rate % goals that align to the business needs an
 | Project Fig      | Searches focused toward candidates that may identify as women globally       |
 | Project Maple      | Searches focused toward candidates that may identify as one of our race/ethnicity URGs (Underrepresented Groups: Black or Hispanic/Latino, Indigenous/native Alaskan, Hawaiian/Pacific Islander) in the United States       |
 
-**Calculation of the Metric**: We will measure this throughout the course of the quarter at an individual, team, and functional level. Each quarter, along with our hiring and starts goals, our Talent Acquisition Directors will set sourcing rate % goals for their teams. These goals will be influenced by our aspirational hiring rate % goals per function, health of our pipelines and domain. These goals are a [key performance indicator] (https://internal.gitlab.com/handbook/people-group/talent-acquisition/key-performance-indicators/) for our team members and progress to goal is housed in our Tableau Productivity Dashboard.
+**Calculation of the Metric**: We will measure this throughout the course of the quarter at an individual, team, and functional level. Each quarter, along with our hiring and starts goals, our Talent Acquisition Directors will set sourcing rate % goals for their teams. These goals will be influenced by our aspirational hiring rate % goals per function, health of our pipelines and domain. These goals are a [key performance indicator] (<https://internal.gitlab.com/handbook/people-group/talent-acquisition/key-performance-indicators/>) for our team members and progress to goal is housed in our Tableau Productivity Dashboard.
 
 ### Our Sourcing Tools and Enablement
 
@@ -223,7 +223,7 @@ Pitch Pages are a [Guide]({{< ref "interviewing#guide" >}})-like experience, int
 
 To help form a strong and meaningful relationship with both passive and active candidates, Recruiters can leverage a unique Pitch Page built specific to their departments including Sales, Engineering, UX, G&A, Product, or our General Pitch Page. Pitch Pages will highlight GitLab’s achievements, life at GitLab, our values, culture, benefits, and working on a specific team! Recruiters may choose to send the Pitch Page via Inmails, LinkedIn messages or use it in any strategy for sourcing by sharing this [link](https://app.guide.co/p/c462b99a-d4a6-4246-9e5c-e4232c7bd958) with candidates.
 
-The Candidate Experience Team will be the DRI for Pitch Pages. If you have any questions or suggestions please reach out to CES at ces@gitlab.com.
+The Candidate Experience Team will be the DRI for Pitch Pages. If you have any questions or suggestions please reach out to CES at <ces@gitlab.com>.
 
 ### Re-engagement
 

@@ -44,9 +44,9 @@ This section pulls all the pertinent best practices from the step-by-step instru
   * Provide information (on a slide) on how attendees should use Zoom chat and the Q&A feature.
 * Provide a slide featuring the team and their contact details.
 * Add a feedback survey on the last slide when thanking people for coming, capturing them right away may yield more responses.
-    * when planning the feedback survey/form ensure you have clear objectives/goals
-    * limited the amount of questions
-    * the survey should be anonymous
+  * when planning the feedback survey/form ensure you have clear objectives/goals
+  * limited the amount of questions
+  * the survey should be anonymous
 * Posting event bundle with prezos, recording and thank you tends to stir up new meetings/conversations.
 * Download the usage report within 24 hours of event close and deliver to Marketing Ops via list upload [issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=general-list-import-request).
 
@@ -97,13 +97,13 @@ Please consider reviewing and applying our [GitLab Team Member Social Media Guid
    * Do you have a guest speaker? Talking about a company, person, or brand that would have a Twitter or LinkedIn page? Include the handle (@name) in the Twitter post - and tag the appropriate page on LinkedIn.
 
 * Do’s
-   * DO use 1-3 hashtags in your posts, across social channels
-      * Example: I’m so excited to announce that I’ll be speaking about #remote #DevOps at my webcast later this week! Join me and learn how @GitLab can help.
-   * DO write in your own voice, be creative, and use emoji
-      * Example: 🗣Everyone is talking about #remote #DevOps and at @GitLab it’s all I work on. 💻 Join me for a webinar to learn how we make it all work.
+  * DO use 1-3 hashtags in your posts, across social channels
+    * Example: I’m so excited to announce that I’ll be speaking about #remote #DevOps at my webcast later this week! Join me and learn how @GitLab can help.
+  * DO write in your own voice, be creative, and use emoji
+    * Example: 🗣Everyone is talking about #remote #DevOps and at @GitLab it’s all I work on. 💻 Join me for a webinar to learn how we make it all work.
 * Don’ts
-    * DON’T hashtags the predicate, object, or complements in a sentence unless it’s a direct topic of your event.
-      * Example: So #excited to #announce our new #event on #remote #DevOps… #GitLab #Tech #Webcast
+  * DON’T hashtags the predicate, object, or complements in a sentence unless it’s a direct topic of your event.
+    * Example: So #excited to #announce our new #event on #remote #DevOps… #GitLab #Tech #Webcast
 
 1. Top-Level messaging to aid in copy
    * Write 3 sentences answering these questions:
@@ -134,14 +134,14 @@ We recommend doing all of the following:
 
 ##### 1. Share your event on your social media channels
 
-Promote your event on Twitter and LinkedIn. You may also do this on Facebook or other channels, but know that Twitter and LinkedIn are key. Take the copy + creative you made and send them out to your social followers. Be sure to “convert” your @handles from Twitter to tagging people and companies on LinkedIn. While you start with “@” like all social channels, you’ll want to make sure that you select the right person or company on LinkedIn. Here is how to try this out (https://www.linkedin.com/help/linkedin/answer/34936/mention-people-in-your-posts?lang=en).
+Promote your event on Twitter and LinkedIn. You may also do this on Facebook or other channels, but know that Twitter and LinkedIn are key. Take the copy + creative you made and send them out to your social followers. Be sure to “convert” your @handles from Twitter to tagging people and companies on LinkedIn. While you start with “@” like all social channels, you’ll want to make sure that you select the right person or company on LinkedIn. Here is how to try this out (<https://www.linkedin.com/help/linkedin/answer/34936/mention-people-in-your-posts?lang=en>).
 
 ##### 2. Share your social media posts on GitLab Slack Channels related to your topic, Ask for team members to amplify your posts
 
 Building personal credibility and extending reach for your event promotions is a critical part of success. Team members who work in the same space as your topic would be more likely to share on their channels than others. Here’s how to do it while living up to our values around informal communication:
 Example: Your webcast is the same from our examples above, about remote DevOps. One of the topics to focus on is `remote work`. In addition to being a hashtag in your social posts, `remote work` is also the topic for a GitLab Slack channel, `remote`. Team members in this channel share stories and opinions on your webcast topic.
 
-After sending out your first social media posts on Twitter and LinkedIn, copy the links to both posts. Here’s how to copy a link to your post on LinkedIn (https://www.linkedin.com/help/linkedin/answer/108024/finding-the-url-for-shared-content?lang=en). Here’s how to copy a link to your tweet on Twitter (https://help.twitter.com/en/using-twitter/tweet-and-moment-url).
+After sending out your first social media posts on Twitter and LinkedIn, copy the links to both posts. Here’s how to copy a link to your post on LinkedIn (<https://www.linkedin.com/help/linkedin/answer/108024/finding-the-url-for-shared-content?lang=en>). Here’s how to copy a link to your tweet on Twitter (<https://help.twitter.com/en/using-twitter/tweet-and-moment-url>).
 
 Take the links to your social media posts and add them to a Slack channel message. Send a variation of this message to the channel:
 

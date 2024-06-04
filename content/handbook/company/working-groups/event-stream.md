@@ -63,8 +63,8 @@ There are some tools/services that other companies are using for this
 
 ### Related GitLab Documentation or Issues
 
-- https://gitlab.com/gitlab-org/gitlab/-/merge_requests/34042
-- https://gitlab.com/gitlab-org/gitlab/-/issues/338454
+- <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/34042>
+- <https://gitlab.com/gitlab-org/gitlab/-/issues/338454>
 - [Streaming Audit Events](https://gitlab.com/groups/gitlab-org/-/epics/5925)
 
 ## Exit Criteria

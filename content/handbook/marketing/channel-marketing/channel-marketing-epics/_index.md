@@ -5,7 +5,7 @@ description: "A comprehensive list of all of Channel Marketing epic codes."
 
 ## Channel Marketing Epics
 
-Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
+Create epic here: <https://gitlab.com/groups/gitlab-com/marketing/-/epics/new>
 
 ## MDF Requests
 

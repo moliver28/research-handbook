@@ -21,7 +21,7 @@ Let's start off by defining common nomenclature.
 
 In GitLab, projects are contained inside a *namespace*.. A namespace can be nested inside another namespace. This forms a tree-like hierarchy: Namespaces are the nodes of the tree, projects are the leaves. The root of this hierarchy is called "top-level namespace".
 
-Let's decompose this example: https://gitlab.com/gitlab-org/database-team/team-tasks
+Let's decompose this example: <https://gitlab.com/gitlab-org/database-team/team-tasks>
 
 1. `gitlab-org`: top-level namespace
 1. `database-team`: a group inside `gitlab-org`

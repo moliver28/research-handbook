@@ -105,7 +105,7 @@ Growth teams work across the GitLab codebase on multiple groups and projects inc
 In order to convey Issue implementation order and blocking concepts,
 we leverage the [blocking issue linking feature](https://docs.gitlab.com/ee/user/project/issues/related_issues.html#blocking-issues).
 
-More on the discussion can be seen in https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/752.
+More on the discussion can be seen in <https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/752>.
 
 ### Issue Refinement And Estimation
 
@@ -204,18 +204,18 @@ The Growth stage tracks number of experiments deployed as a development metric. 
 New experiments added to the codebase using [experiment feature flags](https://docs.gitlab.com/ee/development/feature_flags/#experiment-type) are tracked until removal.
 Current experiments shows the total number of experiments in the codebase (pending, active, or concluded and ready to be removed).
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Experimentscadenceandcurrentexperimentsdeployed/Experimentscadenceandcurrentexperimentsdeployed" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Experimentscadenceandcurrentexperimentsdeployed/Experimentscadenceandcurrentexperimentsdeployed>" >}}
 {{< /tableau >}}
 
 #### Growth Section Metrics
 
 Complete list of [Growth Section engineering metrics].
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "SECTION_LABEL"="growth" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "SECTION_LABEL"="growth" >}}
 {{< /tableau >}}
 

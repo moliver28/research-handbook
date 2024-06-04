@@ -44,7 +44,7 @@ Acceptance Criteria:
 - The form has 3 fields: Name, Email, Description
 - The description field allows basic text formatting (bold, italic, bullet points)
 - The form validates all fields as required
-- When the user submits the form, an email is sent to admin@website.com with the information submitted.
+- When the user submits the form, an email is sent to <admin@website.com> with the information submitted.
 - The user receives a confirmation message on the screen that the form was submitted
 
 From this example, we can see how we could attempt to separate each piece of criteria into a separate user story, but it would then not provide full value to a user. For example, accessing a form from a menu item which can’t be submitted would not be very helpful to the user.

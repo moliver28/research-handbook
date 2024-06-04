@@ -292,7 +292,7 @@ To see the complete list of fields and objects that are synced back from Gainsig
 
 The [rules engine](https://support.gainsight.com/Gainsight_NXT/03Rules_Engine) is the main automation tool in Gainsight, and allows us to do a variety of actions including bring in and/or send data to other systems, populate field values, create CTAs, set scores, and many others.
 
-We have a team email address cs-ops@gitlab.com that we use for rule failure emails in Gainsight.
+We have a team email address <cs-ops@gitlab.com> that we use for rule failure emails in Gainsight.
 
 ### CSM assignment push to SFDC
 
@@ -501,7 +501,7 @@ The namespaces list used by SaaS Namespace Service Ping is driven by a clone of 
 - `Hostname`: the url for the company’s on-prem server (e.g., gitlab.gainsight.com)
 - `Namespace id`: the GitLab-defined ID for namespaces (SaaS)
 - `Namespace name`: the customer-defined name for their namespace. Note: many are listed as "BLOCKED" because of PII
-- Metric definitions: https://metrics.gitlab.com/
+- Metric definitions: <https://metrics.gitlab.com/>
 - `Ping_date`: The specific date of the Service Ping (e.g., 2021-08-11 12:00). This is a weekly ping so the rows of data are updated with the latest ping values.
   - Use case: Use this field to see the exact date that the ping was sent.
 - `Snapshot_month`: each row of data is tied to the snapshot month. The ping_date field will update the values in `Snapshot_month` for the current month.

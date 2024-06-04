@@ -288,11 +288,11 @@ Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab
 - Assign the label for the associated affected service if applicable.
 - Provide enough context so that any engineer in the Corrective Action issue's project could pick up the issue and know how to move forward with it.
 - Avoid creating Corrective Actions that:
-    - Are too generic (most typical mistake, as opposed to Specific)
-    - Only fix incident symptoms.
-    - Introduce more human error.
-    - Will not help to keep the incident from happening again.
-    - Can not be promptly implemented (time-bounded).
+  - Are too generic (most typical mistake, as opposed to Specific)
+  - Only fix incident symptoms.
+  - Introduce more human error.
+  - Will not help to keep the incident from happening again.
+  - Can not be promptly implemented (time-bounded).
 - Examples: (taken from several best-practices Postmortem pages)
 
 | Badly worded | Better |
@@ -308,7 +308,7 @@ Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab
 engineers on call. The project README contains links to checklists for each
 of the above roles.
 
-**In the event of a GitLab.com outage**, a mirror of the runbooks repository is available on at https://ops.gitlab.net/gitlab-com/runbooks.
+**In the event of a GitLab.com outage**, a mirror of the runbooks repository is available on at <https://ops.gitlab.net/gitlab-com/runbooks>.
 
 ## Who is the Current EOC?
 

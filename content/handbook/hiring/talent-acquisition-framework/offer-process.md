@@ -39,7 +39,7 @@ The Reference Check Form will request references' contact details as well as can
 
 Please note that these forms, just like an Offer in Greenhouse, are connected to the specific job you request them for. You cannot transfer forms to another job, so be sure you’re hiring into that req before sending a form. If you transfer the candidate, the form **will not transfer**. If no forms are listed, please contact the Enablement team, who can copy them into your job. Our “Test Support” fake requisition will always have the most up to date versions of our forms.
 
-If you would like the Hiring Manager to receive an email when the form has been received so they can start calling references, you can go to the job setup for that req, select 'Forms' and edit the individual form you plan to send. The Recruiter, individual CES assigned to the candidate, and CES@gitlab.com will all automatically receive an email when the form is completed. For more information about Reference Checks from a Hiring Manager perspective, [click here]({{< ref "./hiring-manager#step-7hm-complete-references" >}}).
+If you would like the Hiring Manager to receive an email when the form has been received so they can start calling references, you can go to the job setup for that req, select 'Forms' and edit the individual form you plan to send. The Recruiter, individual CES assigned to the candidate, and <CES@gitlab.com> will all automatically receive an email when the form is completed. For more information about Reference Checks from a Hiring Manager perspective, [click here]({{< ref "./hiring-manager#step-7hm-complete-references" >}}).
 
 Your Hiring Manager will be responsible for completing their reference checks.
 
@@ -169,13 +169,13 @@ Once a verbal offer is made to a candidate, the Recruiter will notify `@ces` to 
 Although rare, there are times a candidate may decline an offer once an offer is verbalized, and/or once they have received a contract from GitLab. It is important to take the following steps if this occurs:
 
 - Declined at time of verbal offer (no contract generated, but offer fully approved)
-   - Notify your [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer (DRI: Recruiter)
-   - FP&A will make appropriate changes in Adaptive (DRI: FBP)
+  - Notify your [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer (DRI: Recruiter)
+  - FP&A will make appropriate changes in Adaptive (DRI: FBP)
 - Declined at time of contract (a contract has been generated)
-   - Notify CES via the candidate notes section in GH that the candidate has declined offer and the contract needs to be voided. CES will then follow their own decline process. (DRI: Recruiter)
-   - Add a "Rescinded Acceptance" tag to the candidate's profile. Depending on the circumstance, you may also choose to add a "Do Not Hire" tag, such as in the case of a rescind due to accepting another offer.
-   - Notify your [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer (DRI: Recruiter)
-   - FP&A will make appropriate changes in Adaptive (DRI: FBP)
+  - Notify CES via the candidate notes section in GH that the candidate has declined offer and the contract needs to be voided. CES will then follow their own decline process. (DRI: Recruiter)
+  - Add a "Rescinded Acceptance" tag to the candidate's profile. Depending on the circumstance, you may also choose to add a "Do Not Hire" tag, such as in the case of a rescind due to accepting another offer.
+  - Notify your [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer (DRI: Recruiter)
+  - FP&A will make appropriate changes in Adaptive (DRI: FBP)
 
 ## After the Employment Contract is Signed
 

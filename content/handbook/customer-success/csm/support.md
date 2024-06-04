@@ -59,11 +59,11 @@ If the [Customer Collaboration Project](/handbook/customer-success/csm/customer-
 ---
 **Context/Request**: For an ORG I manage, I would like to request that the AM id gets changed which is used to link to the correct collaboration project from ZD org view.
 
-**Org**: https://gitlab.zendesk.com/agent/organizations/11111111/tickets
+**Org**: <https://gitlab.zendesk.com/agent/organizations/11111111/tickets>
 
-**The AM ID should therefore be**: 17735787 and finally point to https://gitlab.com/<collaboration_project_url>
+**The AM ID should therefore be**: 17735787 and finally point to <https://gitlab.com/><collaboration_project_url>
 
-**Ref. of handbook**: https://about.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project
+**Ref. of handbook**: <https://about.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project>
 
 ---
 
@@ -76,7 +76,7 @@ When a CSM is assigned to an account in Salesforce, any time that a user from th
 In the email notifying CSMs of new tickets, the included Zendesk ticket link currently leads directly to the ticket. In the past, it has been a .json file which is difficult to read and sometimes doesn't load. If you encounter this, there are a few ways to work around this:
 
 1. Open the Salesforce case link instead. You will be unable to take any action on the ticket, but you will be able to read it.
-1. Open the Zendesk ticket link, then edit the URL so it takes you to the ticket itself rather than the .json. For example, https://gitlab.zendesk.com/api/v2/tickets/123456.json is the format of the ticket link in the email, but by deleting `/api/v2` and `.json` and then going to that new link, https://gitlab.zendesk.com/tickets/123456, you will be taken directly to the ticket.
+1. Open the Zendesk ticket link, then edit the URL so it takes you to the ticket itself rather than the .json. For example, <https://gitlab.zendesk.com/api/v2/tickets/123456.json> is the format of the ticket link in the email, but by deleting `/api/v2` and `.json` and then going to that new link, <https://gitlab.zendesk.com/tickets/123456>, you will be taken directly to the ticket.
 1. Go to [Zendesk](https://gitlab.zendesk.com/agent/) and search for the ticket (by copying the ticket number or searching for the customer).
 1. Get the [Redirector Chrome extension](https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd?hl=en) or the [Redirector Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/redirector/) and import the below configuration:
 
@@ -117,19 +117,19 @@ CSM guidance on [contact management projects](https://handbook.gitlab.com/handbo
 
 Who has access to a Contact Management Projects?
 
-  - Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
+- Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
 
 How do I know if my customer has a contacts management project?
 
-  - The best source is to check the organization within Zendesk. It will have a field on the left sidebar toward the bottom called `Contact Management Project ID` that points to the project being used. If that field has a value, the customer has a contact management project.
+- The best source is to check the organization within Zendesk. It will have a field on the left sidebar toward the bottom called `Contact Management Project ID` that points to the project being used. If that field has a value, the customer has a contact management project.
 
 How do I know which customer users can access the contacts management project?
 
-  - The people who can access the contact management project are stored in the `CMP Developers` field on the organization page (right below `Contact Management Project ID`)
+- The people who can access the contact management project are stored in the `CMP Developers` field on the organization page (right below `Contact Management Project ID`)
 
 How do I know which users can open support tickets?
 
-  - Within the customer's organization in Zendesk, there is a `Users` tab that syncs with the contacts management project and will show who has support entitlement.
+- Within the customer's organization in Zendesk, there is a `Users` tab that syncs with the contacts management project and will show who has support entitlement.
 
 ## Helpful links
 

@@ -27,7 +27,7 @@ description: "Learn more about the Legacy Vendor Terms and Conditions v1"
 
 1.11  “GitLab” means GitLab Inc. and any GitLab Affiliate identified in a Transaction Document.
 
-1.12  “GitLab Code of Conduct” means the published document titled Code of Business Conduct and Ethics, updated from time to time, found at https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d.
+1.12  “GitLab Code of Conduct” means the published document titled Code of Business Conduct and Ethics, updated from time to time, found at <https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d>.
 
 1.13  “GitLab Data” means all GitLab information or data, including without limitation, personal data, used by Vendor in connection with the Agreement.
 
@@ -59,7 +59,7 @@ description: "Learn more about the Legacy Vendor Terms and Conditions v1"
 
 3.2  GitLab shall have no obligation for payment of any amounts which are, (i) not agreed to in writing by GitLab, (ii) Deliverables that are not Accepted by GitLab, and/or (ii) in excess of the Fees stated in a Transaction Document.
 
-3.3 Vendor shall supply invoices to ap@gitlab.com
+3.3 Vendor shall supply invoices to <ap@gitlab.com>
 
 ### 4. CONFIDENTIALITY
 

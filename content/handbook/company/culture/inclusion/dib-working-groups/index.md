@@ -35,7 +35,7 @@ description: "A strategic group of impactful team members whose purpose is to dr
 - Issue creation
 - Slack Channel
 - Cadence:
-    - Weekly or bi-weekly meetings for 30 minutes to review activity and collaborate on next steps
-    - Provide findings/results to:>
-    - DIB Leadership Council
-    - DIB Monthly Initiatives Call
+  - Weekly or bi-weekly meetings for 30 minutes to review activity and collaborate on next steps
+  - Provide findings/results to:>
+  - DIB Leadership Council
+  - DIB Monthly Initiatives Call

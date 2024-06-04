@@ -85,15 +85,15 @@ Note that these goals are aspirational so we set a high bar (and potentially ach
 ## Multimodal Communication
 
 - Apply the following labels to issues and epics to enable tracking and team wide visibility
-    - `WorkingGroup::LighthouseMetric`
-    - `UseCase::CI`
-    - `UseCase::Security`
-    - `UseCase::Compliance`
+  - `WorkingGroup::LighthouseMetric`
+  - `UseCase::CI`
+  - `UseCase::Security`
+  - `UseCase::Compliance`
 - Apply the appropriate [Working Group status labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=wg-status) for issues or epics
-    - `wg-status::Not Started`
-    - `wg-status::Ready`
-    - `wg-status::In Progress`
-    - `wg-status::Blocked`
-    - `wg-status::Complete`
-    - `wg-status::Cancelled`
+  - `wg-status::Not Started`
+  - `wg-status::Ready`
+  - `wg-status::In Progress`
+  - `wg-status::Blocked`
+  - `wg-status::Complete`
+  - `wg-status::Cancelled`
 - Formalize "asks" of the Working Group by filing an issue against the [EPIC](https://gitlab.com/groups/gitlab-data/-/epics/1083) to enable cross-functional visibility, collaboration, and prioritization

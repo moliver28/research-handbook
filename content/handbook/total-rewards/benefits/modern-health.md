@@ -81,9 +81,9 @@ Modern Health is available globally.
 
 For members that are recommended to therapy and are located in the United States, Canada, Mexico, Costa Rica, France, India, South Korea, Japan, Australia, Ireland, & United Kingdom, they will be able to match with a therapist right within the Modern Health application.
 
-For members that are recommended to therapy and are located outside of one of these countries, the member will be notified that the Modern Health Care Matching team will reach out to the member directly to match them with the best fit therapist based on their needs and their assessment. These members will be introduced to their therapist via email. If a member in this scenario would like to change their therapist, please reach out to help@modernhealth.com.
+For members that are recommended to therapy and are located outside of one of these countries, the member will be notified that the Modern Health Care Matching team will reach out to the member directly to match them with the best fit therapist based on their needs and their assessment. These members will be introduced to their therapist via email. If a member in this scenario would like to change their therapist, please reach out to <help@modernhealth.com>.
 
-For members in any location that are not initially recommended to therapy (perhaps, they are recommended to Coaching or another modality of care), but would like to engage with a therapist, we ask that they contact our Member Support team at help@modernhealth.com to express their needs and they will work to make an appropriate match.
+For members in any location that are not initially recommended to therapy (perhaps, they are recommended to Coaching or another modality of care), but would like to engage with a therapist, we ask that they contact our Member Support team at <help@modernhealth.com> to express their needs and they will work to make an appropriate match.
 
 ### What family members are eligible for Modern Health?
 
@@ -146,7 +146,7 @@ mental health concerns. Psychologists have a doctoral degree (Ph.D., or Psy.D.) 
 
 Based on your answers to the well-being survey, Modern Health will determine the appropriate care for your level of well-being needs and direct you to match with either a coach and/or a therapist. We believe that everyone can benefit from working with a coach and some people can benefit from working with a therapist if they have a clinical need.
 
-If you weren't matched to a therapist based on your well-being survey, but would still like to be matched with a therapist, you can reach out to help@joinmodernhealth.com and notify the Care Team that you were matched to coaching, but would like to be matched to a therapist. The Care Team will then work with you on your preferences, areas of focus, etc. and make sure you receive great matches for therapy.
+If you weren't matched to a therapist based on your well-being survey, but would still like to be matched with a therapist, you can reach out to <help@joinmodernhealth.com> and notify the Care Team that you were matched to coaching, but would like to be matched to a therapist. The Care Team will then work with you on your preferences, areas of focus, etc. and make sure you receive great matches for therapy.
 
 **How do you match me to a provider?**
 
@@ -173,7 +173,7 @@ Similar to coaching, therapists will start each session with an introduction and
 Before your first session, we encourage you to ask yourself a few questions. As with many other aspects of your life, the more effort you put into your coaching and/or therapy experience, the more you’ll get out of it. These can help guide your initial conversations with your coach or therapist.
 
 - Where do you want to start?
-   - You might have a lot of areas of interest (e.g., you want to learn mindfulness, and work on your finances). Spend some time thinking about where you want to get started before your first visit. What is most on your mind or stressing you out?
+  - You might have a lot of areas of interest (e.g., you want to learn mindfulness, and work on your finances). Spend some time thinking about where you want to get started before your first visit. What is most on your mind or stressing you out?
 - Do you know what your goals are or do you need help figuring that out?
 - What do you want to get out of coaching or therapy?
 - What do you want your coach to be like? Do you want someone who holds you accountable, who is a cheerleader, who challenges you?
@@ -181,7 +181,7 @@ Before your first session, we encourage you to ask yourself a few questions. As 
 
 **What happens if my provider isn’t a good fit?**
 
-Our goal at Modern Health is to find someone that you feel you can do good work with and who can do good work with you! If you think the first person you meet with doesn’t seem like a good fit, just let the Modern Health team know (help@joinmodernhealth.com) and they will connect you with someone new.
+Our goal at Modern Health is to find someone that you feel you can do good work with and who can do good work with you! If you think the first person you meet with doesn’t seem like a good fit, just let the Modern Health team know (<help@joinmodernhealth.com>) and they will connect you with someone new.
 
 ### Modern Health Manager Resources
 
@@ -233,8 +233,8 @@ Hypertext Transfer Protocol Secure (HTTPS) encryption measures for all data exch
 If you are experiencing a crisis (e.g., thoughts about suicide, thoughts about harming yourself or others, medical crisis, or in a dangerous situation) please call:
 
 - emergency responders (911 or the [appropriate local emergency number for your area](https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers))
-- in the US (988 or https://988lifeline.org/)
-- in the US/Canada, (https://suicidepreventionlifeline.org/ or 1-800-273-8255) or [a crisis line in your area](https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines)
+- in the US (988 or <https://988lifeline.org/>)
+- in the US/Canada, (<https://suicidepreventionlifeline.org/> or 1-800-273-8255) or [a crisis line in your area](https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines)
 - head to the nearest emergency room.
 
 ### Modern Health Weekly Reporting

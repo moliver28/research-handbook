@@ -118,9 +118,9 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 
 - Treat the wider community as the primary audience ([see relevant summary for rationale][community-contributions-wider-community]).
 - Provide a meaningful **title** that describes a deliverable result.
-    - ✅ `Add a cancel button to the edit workspace form page`
-    - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
-    - ❌ `Make WebIDE better`
+  - ✅ `Add a cancel button to the edit workspace form page`
+  - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
+  - ❌ `Make WebIDE better`
 - Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
 - Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 - The issue should have a weight assigned.
@@ -360,7 +360,7 @@ The merge request is the atomic unit of deliverable work in most cases, so it mu
 and calculations by being owned by one and only one issue.
 
 In order to enforce this via triage-ops automations
-(https://about.gitlab.com/handbook/engineering/development/dev/create/ide/#automations-for-remote-development-workflow),
+(<https://about.gitlab.com/handbook/engineering/development/dev/create/ide/#automations-for-remote-development-workflow>),
 the first line of the issue should have the format: `MR: <...>`:
 
 1. For new issues, the first description line should be: `MR: Pending`
@@ -387,7 +387,7 @@ the first line of the issue should have the format: `MR: <...>`:
 - If boards and epics allowed MRs to be added and estimated as well as issues, this would not be necessary - for feature/maintenance
 involving an MR, we could have the MR directly represent the full lifecycle of the discussion and implementation, and not
 have an issue at all.
-- We also cannot rely on the Crosslinking Issues feature (https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues.html),
+- We also cannot rely on the Crosslinking Issues feature (<https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues.html>),
 because this shows ALL linked MRs that have mentioned the issue anywhere, and cannot enforce this 1-1 relationship.
 
 ### 📝 Ad-Hoc Work
@@ -402,9 +402,9 @@ To assign weights to issues effectively, it's important to remember that issue w
 
 - **Weight 0:** Reserved for the smallest and easiest issues, such as typos or minor formatting changes, or very minor code changes with no tests required.
 - **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like "good for new contributors" or "Hackathon - Candidate". For example:
-    - Changing copy text which may be simple but take some time.
-    - Making CSS or UI adjustments.
-    - Minor code changes to one or two files, which require tests to be written or updated.
+  - Changing copy text which may be simple but take some time.
+  - Making CSS or UI adjustments.
+  - Minor code changes to one or two files, which require tests to be written or updated.
 - **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
 - **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant [breaking down into smaller separate issues](#-breaking-down-large-issues).
 - **Weight 5:** Normally, this weight should be avoided, and indicate that the issue ideally [should be broken down into smaller separate issues](#-breaking-down-large-issues). However, in some cases a issue with a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.
@@ -414,10 +414,10 @@ To assign weights to issues effectively, it's important to remember that issue w
 
 Some issues are large in scope to start implementing, and/or still has too many unknowns/risks. In this case, we should break it down into smaller issues which can be implemented in a single iteration. These smaller issues should ideally have a weight of 3 or less, but never more than 5. Here's our process:
 
-1. Create an investigation issue to identify the work that needs to be done. This issue represents the work needed to research, investigate, discover and document the effort, and break the work down into new issues which are small and clear enough to be prioritized and started. The investigation issue should have a weight assigned which reflects the effort required perform this investigation and breakdown. Here's an example: https://gitlab.com/gitlab-org/gitlab/-/issues/408186.
+1. Create an investigation issue to identify the work that needs to be done. This issue represents the work needed to research, investigate, discover and document the effort, and break the work down into new issues which are small and clear enough to be prioritized and started. The investigation issue should have a weight assigned which reflects the effort required perform this investigation and breakdown. Here's an example: <https://gitlab.com/gitlab-org/gitlab/-/issues/408186>.
 1. While the investigation issue work is ongoing, we create a temporary "placeholder" issue on our Iteration Board. This placeholder issue serves to capture the scope of the effort in our velocity-based capacity planning calculations while the investigation to break is down is still ongoing.
     1. It should have a weight of either 8/13+ (indicating that it is too large to be prioritized and started, and must be broken down.
-    1. The title format for the placeholder issue is `[Category] - Iteration Planning Placeholder for [description of work]`. Here's an example: https://gitlab.com/gitlab-org/gitlab/-/issues/408093.
+    1. The title format for the placeholder issue is `[Category] - Iteration Planning Placeholder for [description of work]`. Here's an example: <https://gitlab.com/gitlab-org/gitlab/-/issues/408093>.
     1. The description should have a link to the investigation issue, and a reminder to remove the weight and close it once the smaller replacement issues are created.
     1. The `~blocked` label can be applied so it is clear that this issue should is not ready for development. Unfortunately, we must still apply the `~Deliverable` label to this issue, because that is the only way we can associate it with the Iteration Cadence for velocity calculations.
 1. Once the investigation and breakdown into smaller issues is complete, then the weight can be removed and the issue closed.
@@ -471,26 +471,26 @@ In this case, if issues should be good for any contribution it should be treated
 
 The IDE Group collates all video recordings related to the group and its team members in [a playlist][youtube] in the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) YouTube channel.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="ide" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="ide" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="ide" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="ide" >}}
 {{< /tableau >}}
 
 ### Create:IDE Error Budget
 
-- https://dashboards.gitlab.net/d/stage-groups-detail-ide/stage-groups-ide-group-error-budget-detail?orgId=1
-- https://dashboards.gitlab.net/d/stage-groups-ide/stage-groups-ide-group-dashboard?orgId=1
+- <https://dashboards.gitlab.net/d/stage-groups-detail-ide/stage-groups-ide-group-error-budget-detail?orgId=1>
+- <https://dashboards.gitlab.net/d/stage-groups-ide/stage-groups-ide-group-dashboard?orgId=1>
 
 ## Automations
 
@@ -511,14 +511,14 @@ TODO: None of these are set up for the Web IDE category and `webide-workflow::*`
 | --- | --- | --- | --- |
 | <a id="automation-01">01</a> | Ensure every issue in the category is assigned to an epic | Issues in `~"Category:Remote Development"` but no epic assigned should get a warning comment | TODO: implement |
 | <a id="automation-02">02</a> | Ensure category issues show up on the Iteration Planning board | Issues in `~"Category:Remote Development"` but no `~rd-workflow` label should be added to `~rd-workflow::unprioritized`. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-02.yml) |
-| <a id="automation-03">03</a> | Avoid premature assignment of specific milestones before an issue has gone through IPM, to avoid getting this warning: https://gitlab.com/gitlab-org/gitlab/-/issues/411933#note_1419147845 | 1. Issues with a specific milestone but not in `~rd-workflow::prioritized` should have the milestone automatically set back to `%"Next 1-3 releases"`. <br> 2. Issues with a specific milestone but no weight should have the milestone automatically set back to `%"Next 1-3 releases"`. <br> 3. Issues with a specific milestone but no iteration should have the milestone automatically set back to `%"Next 1-3 releases"`. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-03.yml) |
+| <a id="automation-03">03</a> | Avoid premature assignment of specific milestones before an issue has gone through IPM, to avoid getting this warning: <https://gitlab.com/gitlab-org/gitlab/-/issues/411933#note_1419147845> | 1. Issues with a specific milestone but not in `~rd-workflow::prioritized` should have the milestone automatically set back to `%"Next 1-3 releases"`. <br> 2. Issues with a specific milestone but no weight should have the milestone automatically set back to `%"Next 1-3 releases"`. <br> 3. Issues with a specific milestone but no iteration should have the milestone automatically set back to `%"Next 1-3 releases"`. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-03.yml) |
 | <a id="automation-04">04</a> | Ensure prioritized issues are in the correct state | Issues in `~rd-workflow::prioritized` but not assigned to the current Iteration of the Iteration Cadence should automatically get assigned to the Current Iteration | TODO: implement |
 | <a id="automation-05">05</a> | Ensure closed issues are in the correct state | Every Issue in `~"Category:Remote Development"` which is closed must have the `~rd-workflow::done` label applied. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-05.yml) |
 | <a id="automation-06">06</a> | Sync Remote Development workflow and GitLab workflow labels | 1. Issues in `~rd-workflow::unprioritized` but with no GitLab workflow label should have `~"refined"` assigned. <br> 2. Unstarted issues in `~rd-workflow::prioritized` but with `~"refined"` assigned should get `~"workflow::ready` for development" assigned. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-06.yml) |
 | <a id="automation-07">07</a> | Ensure all prioritized issues have a milestone assigned | All issues with `~rd-workflow::prioritized` but no milestone should have `%"Next 1-3 releases"` milestone assigned. | TODO: implement |
 | <a id="automation-08">08</a> | Ensure all issues with `~rd-workflow-unprioritized` have a milestone assigned | All issues with `~rd-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the [1. High level validation and planning section](#1-high-level-validation-and-planning), and instructions that one of the following milestones must be assigned to all issues in `~rd-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
 | <a id="automation-09">09</a> | Apply correct ~rd-workflow label to reopened issues | Re-opened issues which are open but in `~rd-workflow::done` should have `~"rd-workflow::prioritized"` assigned. | TODO: implement |
-| <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Remote Development"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests  <br> - Every Issue in `~"Category:Remote Development"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests | TODO: implement |
+| <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Remote Development"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See <https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests>  <br> - Every Issue in `~"Category:Remote Development"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See <https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests> | TODO: implement |
 | <a id="automation-11">11</a> | Automate Label Assignment for Ignored Issues | Issues with the `type::ignore` label should have the `rd-workflow::ignored` label assigned. | TODO: implement |
 | <a id="automation-12">12</a> | Ensure all prioritized issues with an assignee have a weight assigned | All issues with `~rd-workflow::prioritized` and an assignee but no weight should get a reminder note to either add a weight estimate or remove the assignee. | TODO: implement |
 | <a id="automation-13">13</a> | Assign a `rd-maturity::*` label of `viable`, `complete`, etc based on epic hierarchy | All issues should have appropriate labels added/removed based on epic hierarchy | TODO: implement |

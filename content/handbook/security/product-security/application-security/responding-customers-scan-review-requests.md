@@ -12,8 +12,8 @@ We often receive inquiries from customers regarding potential vulnerabilities de
 
 We are accepting requests to review vulnerabilities detected in the latest version of the following GitLab images:
 
- - `gitlab/gitlab-ee:latest` (Docker Hub)
- - `gitlab/gitlab-runner:latest` (Docker Hub)
+- `gitlab/gitlab-ee:latest` (Docker Hub)
+- `gitlab/gitlab-runner:latest` (Docker Hub)
 
 Ensure you are scanning an image running on the latest release or previous two monthly release version. You can consult our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html) for more details on supported versions for security backports. We will typically not be able to review scanner findings for codebases and image versions outside of the maintenance policy.
 
@@ -21,18 +21,18 @@ Ensure you are scanning an image running on the latest release or previous two m
 
 We are accepting the following scanner results:
 
- - [SAST](https://docs.gitlab.com/ee/user/application_security/sast/)
- - [DAST](https://docs.gitlab.com/ee/user/application_security/dast/)
- - [Dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/)
- - [Container scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
- - [Secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/)
+- [SAST](https://docs.gitlab.com/ee/user/application_security/sast/)
+- [DAST](https://docs.gitlab.com/ee/user/application_security/dast/)
+- [Dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/)
+- [Container scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
+- [Secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/)
 
 Results from our scanners are accepted for review as long as [you have triaged the results first](#review-scanner-results).
 
 If you are using third-party security scanners, we ask that you provide the following information for each vulnerability submitted to us:
 
- - An assessment and analysis of the vulnerability.
- - Provide a step-by-step guide for the vulnerability to show how it may be exploited in your instance and environment.
+- An assessment and analysis of the vulnerability.
+- Provide a step-by-step guide for the vulnerability to show how it may be exploited in your instance and environment.
 
 Please be sure to add any helpful context to your requests including environment details and specific security risks that you're concerned about. For each risk identified, please provide some explanation and reasoning to help us better understand your concerns so that we can respond in an effective manner.
 
@@ -46,9 +46,9 @@ No. We will only be able to review scanner results for critical and high vulnera
 
 Security scan results are prone to false positives and reported even if vulnerabilities are not exploitable within the application context, making them time consuming to triage. Before submitting your scan results to us, we ask you to perform some initial triage:
 
- - [Only submit findings for critical and high vulnerabilities](#review-scanner-results).
- - Make sure the vulnerability impacts a component or code within the GitLab directory. GitLab installs required components within that directory. Vulnerabilities for components outside of the GitLab directory will not be investigated as they are not used.
- - Vulnerabilities for components that you have installed, either inside or outside of the GitLab directory, will not be investigated.
+- [Only submit findings for critical and high vulnerabilities](#review-scanner-results).
+- Make sure the vulnerability impacts a component or code within the GitLab directory. GitLab installs required components within that directory. Vulnerabilities for components outside of the GitLab directory will not be investigated as they are not used.
+- Vulnerabilities for components that you have installed, either inside or outside of the GitLab directory, will not be investigated.
 
 ## SLO
 

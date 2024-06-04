@@ -18,4 +18,4 @@ Please complete the following tasks:
 - [x] Merge MR for `wwww-gitlab-com`
 - [x] Advise on Slack the content has been successfully migrated
 
-**Issue:** https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/105
+**Issue:** <https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/105>

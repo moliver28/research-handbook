@@ -289,10 +289,10 @@ When they activate with Cloud Licensing, customers share `Subscription Data`, wh
 #### What is the relationship between Cloud Licensing, Service Ping and Operational Metrics?
 
 - **Cloud Licensing**: an activation method that allows a customer to share `Subscription Data`
-   - Available on 14.1+
-   - [Cloud Licensing Overview](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/)
+  - Available on 14.1+
+  - [Cloud Licensing Overview](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/)
 - **Service Ping**: a service that collects the payload including Subscription, Operational, and Optional Metrics
-   - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) - internal handbook
+  - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) - internal handbook
 - **Operational Metrics**: a subset of Service Ping containing product usage data that is required to collect the core metrics required metrics per [Customer Success Services](https://about.gitlab.com/services/customer-success-services/))
   -. Available on 14.1+
 
@@ -323,7 +323,7 @@ If there is ever an issue where that data is not mapped, follow the steps below:
 1. Check to see if their license key has a Zuora subscription linked in CustomersDot.
 1. If the Zuora subscription is missing, [open a support issue](/handbook/support/internal-support/#regarding-licensing-and-subscriptions) to generate a new license with the correct Zuora subscription ID.
 
-Example Issue where this issue was discovered: https://gitlab.com/gitlab-data/analytics/-/issues/8518
+Example Issue where this issue was discovered: <https://gitlab.com/gitlab-data/analytics/-/issues/8518>
 
 ## Requesting new metrics
 
@@ -343,7 +343,7 @@ Examples of new metrics can include:
 
 - Self-managed - They are not opted into Service Ping, or they turned it off.
 - Self-managed - None of their instances are labeled as Production. [Here are instructions](#self-managed) on how to label instances as Production.
-- SaaS - If the correct Namespace isn't showing up in Gainsight, the customer will need to associate their Namespace with their (new) subscription. This tends to happen when customers shift from SM to SaaS, or to net new customers where the customer is responsible for tying the namespace back to their subscription. To check if your customer's namespace is tied to their subscription, go to https://customers.gitlab.com/admin/order and type in the most recent `Subscription Name` (i.e. A-S00012345) found in their Salesforce record. If the `Gl namespace` field is blank, then their subscription is not tied to their namespace. This can be fixed by opening an [Internal Support Ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) on your customer's behalf, or alternatively, they may reach out to support themselves.
+- SaaS - If the correct Namespace isn't showing up in Gainsight, the customer will need to associate their Namespace with their (new) subscription. This tends to happen when customers shift from SM to SaaS, or to net new customers where the customer is responsible for tying the namespace back to their subscription. To check if your customer's namespace is tied to their subscription, go to <https://customers.gitlab.com/admin/order> and type in the most recent `Subscription Name` (i.e. A-S00012345) found in their Salesforce record. If the `Gl namespace` field is blank, then their subscription is not tied to their namespace. This can be fixed by opening an [Internal Support Ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) on your customer's behalf, or alternatively, they may reach out to support themselves.
 
 #### Why is my customer's Billable Users (OR License Utilization) value `Null`?
 
@@ -365,7 +365,7 @@ If a metric was implemented in a later release, it will not appear. Check the Da
 
 #### What is the process of manually uploading service ping data for offline/air-gapped instances?
 
-The customer or the account team may upload the JSON file using this link - https://version.gitlab.com/usage_data/new
+The customer or the account team may upload the JSON file using this link - <https://version.gitlab.com/usage_data/new>
 
 #### How long does it take for manually uploaded service ping data to populate in Gainsight?
 

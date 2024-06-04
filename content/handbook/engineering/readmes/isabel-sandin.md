@@ -20,7 +20,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 See more about my past professional experience at:
 
-https://www.linkedin.com/in/isabel-sandin-a855781ab/
+<https://www.linkedin.com/in/isabel-sandin-a855781ab/>
 
 ## About me
 

@@ -37,7 +37,7 @@ Creating a nice look when recording with a green screen requires soft, even ligh
 
 - Tripod - [Example](https://www.bhphotovideo.com/c/product/1527795-REG/manfrotto_mkelmii4bk_bh_element_mii_aluminum_tripod.html)
 - Optional clamp to support Lav receiver - [Example](https://www.bhphotovideo.com/c/product/1422139-REG/smallrig_2164_multi_functional_crab_shaped_clamp.html)
-     - Thread Adapter for above clamp - [Example](https://www.bhphotovideo.com/c/product/838895-REG/impact_ca_109_short_1_4_20_female_to.html)
+  - Thread Adapter for above clamp - [Example](https://www.bhphotovideo.com/c/product/838895-REG/impact_ca_109_short_1_4_20_female_to.html)
 
 ##### Teleprompter (Optional)
 

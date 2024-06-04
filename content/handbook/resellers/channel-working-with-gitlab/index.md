@@ -32,7 +32,7 @@ _If a partner organization already exists in the partner portal, but a new partn
 
 ![GitLab Partner Portal](~/sites/handbook/source/handbook/resellers/Channel-Program-Guide/images/GitLab_PSP_logo.png)
 
-The partner user will be directed to a page that asks them to confirm the organization they work for. After they confirm, they should click next, and fill in their information. After submitting the information, they'll receive login credentials if it is an active partner account with GitLab. Email partnersupport@gitlab.com if you have any problems.
+The partner user will be directed to a page that asks them to confirm the organization they work for. After they confirm, they should click next, and fill in their information. After submitting the information, they'll receive login credentials if it is an active partner account with GitLab. Email <partnersupport@gitlab.com> if you have any problems.
 
 #### Completing Training and Certifications
 
@@ -46,7 +46,7 @@ You can arrange for payment either via invoice, or your customer can pay us dire
 
 ##### By Purchase Order
 
-If your customer will be paying us via a Purchase Order, then you must email us a copy so that we may invoice the customer. Please send the Purchase Order to POfulfillment@gitlab.com for fulfillment.
+If your customer will be paying us via a Purchase Order, then you must email us a copy so that we may invoice the customer. Please send the Purchase Order to <POfulfillment@gitlab.com> for fulfillment.
 
 ##### Paying via Invoice
 
@@ -107,11 +107,11 @@ Once deal registrations are received, a GitLab Sales Rep will:
 - Only a properly completed deal registration submission can initiate an engagement and, as mentioned, engagements are not exclusive. Thus, it is in all parties’ best interest to complete a deal registration form as soon as a qualified sales opportunity is identified.
 - The GitLab Sales Rep checks to see if GitLab is already engaged with another reseller on this opportunity. If so, the Sales Rep rejects the deal registration and notifies you that GitLab cannot engage with you.
 - If GitLab is not already engaged with another reseller, the Sales Rep or Account Executive contacts you to schedule a meeting or conference call with the customer to confirm that the following requirements are met:
-    - The information submitted on the deal registration form is complete and correct.
-    - A qualified sales opportunity exists.
-    - You are in full compliance with an appropriate and effective GitLab Reseller Agreement and all applicable policies/programs.
-    - The customer has not selected an alternate GitLab reseller for this deal.
-    - The customer agrees that you are eligible to win this business.
+  - The information submitted on the deal registration form is complete and correct.
+  - A qualified sales opportunity exists.
+  - You are in full compliance with an appropriate and effective GitLab Reseller Agreement and all applicable policies/programs.
+  - The customer has not selected an alternate GitLab reseller for this deal.
+  - The customer agrees that you are eligible to win this business.
 
 Note: “Eligible” means that you meet all contractual or regulatory requirements to bid on the deal and that the customer is willing to buy you. This is particularly relevant with government contracts or bids, but could also apply to commercial work.
 
@@ -126,7 +126,7 @@ The Services Attached incentive is based on the volume of licensing opportunitie
 
 Partners need to email proof of execution (POE) for delivery of services. The POE must include customer confirmation of the services and that the services meet/met the guidelines as outlined in the current program guidance (found in the Partner Portal) for the incentive. The most likely form of POE is a signed statement of work (SOW) outlining work and cost to the customer. POEs must be approved by GitLab Sales.
 
-- Email POE to partnersupport@gitlab.com.
+- Email POE to <partnersupport@gitlab.com>.
 
 Rebates are paid out no later than 45 days after the end of each quarter. Partners need to have connected with GitLab in our billing system,Coupa, by providing your banking information. To view the GitLab Services Attach Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
 
@@ -150,11 +150,11 @@ To submit a purchase order for a resell-direct opportunity, please submit your P
 
 Open Partners are required to purchase through a distribution partner in every territory with an active distributor. All quote requests and purchase orders can be sent directly to the distributor.
 
-- In EMEA: Partners transact with Amazic via gitlab@amazic.com.
+- In EMEA: Partners transact with Amazic via <gitlab@amazic.com>.
 - In APAC (several countries): Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html)
-    - In India: Partners may also choose to transact with Redington via gitlab@redington.co.in.
-    - In Japan: Partners may also choose to transact with [Networld](https://www.networld.co.jp/product/gitlab/)
-- US PubSec: Partners transact with Carahsoft via gitlab@carahsoft.com
+  - In India: Partners may also choose to transact with Redington via <gitlab@redington.co.in>.
+  - In Japan: Partners may also choose to transact with [Networld](https://www.networld.co.jp/product/gitlab/)
+- US PubSec: Partners transact with Carahsoft via <gitlab@carahsoft.com>
 
 ###### License Key Delivery
 
@@ -192,10 +192,10 @@ Partners purchasing GitLab for their own internal production use and add-on lice
 - First Order Incentive – Partners can receive an incentive paid as a rebate for partner-sourced opportunities for customers new to GitLab. The customer must be on the First Order customer target list, which is available from the GitLab Channel Sales team members. This incentive is only available for GitLab Select Partners.
 - Services Attach Rebate – Partners can receive an incentive paid as a rebate for Partner-delivered services provided to end customers related to their use of their Premium and Ultimate GitLab software licenses. Applicable services are reviewed in the [Channel Services Catalog](/handbook/resellers/services/services-catalog/). The Services Attach incentive is based on a percentage of a customer's net annual recurring revenue (net ARR) of a linked software sale made within the last six (6) months. To reward Partners that have made an investment in developing GitLab expertise, this incentive is only available to GitLab Professional Services Partners.
 - Referral Fees – Referral fees are paid to Partners for identifying new GitLab software sales opportunities that are not being resold by a Partner. To qualify for a referral fee, Partners must enter a referral fee deal registration in the GitLab Partner Portal. Each registration received by GitLab is considered a "Qualified Referral," provided that the referral is a GitLab sales opportunity that is new to GitLab, and the customer/prospect is willing to enter into a binding written agreement with GitLab to use GitLab products and services.
-    - Opportunities identified by a Channel Partner but transacted through a Cloud Marketplace qualify for the referral fee.
-    - All referral deal registrations must be in Vartopia prior to quarter end to qualify for a rebate.
-    - All referral deal registrations must be approved by GitLab before becoming eligible for a referral fee. Referral fees are paid out no later than 45 days after the end of each quarter, if you have connected with GitLab in Coupa and provided your banking information.
-    - To ensure fairness and maintain a streamlined process for all parties involved, we have established a specific timeframe for disputing rebates. Partners are entitled to submit disputes regarding their rebate payouts within a 15-day window. This dispute period begins immediately following the conclusion of the 45-day payout window. It is crucial for partners to adhere to this timeframe, as disputes submitted outside of the 15-day window will not be eligible for consideration. We encourage all partners to review their rebate details promptly and reach out to us within the designated period should any discrepancies arise.
+  - Opportunities identified by a Channel Partner but transacted through a Cloud Marketplace qualify for the referral fee.
+  - All referral deal registrations must be in Vartopia prior to quarter end to qualify for a rebate.
+  - All referral deal registrations must be approved by GitLab before becoming eligible for a referral fee. Referral fees are paid out no later than 45 days after the end of each quarter, if you have connected with GitLab in Coupa and provided your banking information.
+  - To ensure fairness and maintain a streamlined process for all parties involved, we have established a specific timeframe for disputing rebates. Partners are entitled to submit disputes regarding their rebate payouts within a 15-day window. This dispute period begins immediately following the conclusion of the 45-day payout window. It is crucial for partners to adhere to this timeframe, as disputes submitted outside of the 15-day window will not be eligible for consideration. We encourage all partners to review their rebate details promptly and reach out to us within the designated period should any discrepancies arise.
 - Services Resale – Partners can earn discounts on Partner-sold services delivered by the GitLab Professional Services team. Partners are able to resell complete GitLab services offerings or include GitLab services as part of their own customer statement of work.
 - Subscription Renewals – At the end of their GitLab license subscription, customers must be renewed to continue with the program subscription. At renewal, Partners can earn a renewal discount for licenses renewed at the same subscription level, although no discounts are available for Starter/Bronze product tier renewals. If a customer adds additional licenses, those new licenses are discounted at the standard Partner-sourced discount levels. If a customer upgrades their subscription level (e.g., Premium to Ultimate), the entire deal qualifies for the standard Partner-sourced discount.
 
@@ -339,13 +339,13 @@ The GitLab Not-for-Resale (NFR) Program offers qualified GitLab Partners access 
 Request your license by logging in to the [Partner Portal](https://www.partners.gitlab.com/); click the "Services" tab and the NFR Request form will be the first Quick Link. Please allow two (2) business days for processing your request.
 
 - Partners can receive one Self-Managed and one Software-as-a-Service (SaaS) NFR license at the Ultimate level for a 12-month period.
-    - Select Partners can request a license for up to 25 users. Additional licenses may be available with business justification.
-        - Additional licenses must be requested through the partner account manager and not through the NFR Request form
-    - Open Partners can request a maximum of 10 NFR licenses per license type. (ie. Open partners may have a total of 20 NFR licenses [10 Self-Managed/ 10 SaaS]).
+  - Select Partners can request a license for up to 25 users. Additional licenses may be available with business justification.
+    - Additional licenses must be requested through the partner account manager and not through the NFR Request form
+  - Open Partners can request a maximum of 10 NFR licenses per license type. (ie. Open partners may have a total of 20 NFR licenses [10 Self-Managed/ 10 SaaS]).
 
 Please allow two (2) business days for processing your request.
 
-*Partner Operations manage all NFR requests that fall within the NFR program rules. Any requests outside the program need to be requested, managed, and tracked through the account manager. Account managers should obtain approvals from their manager and from the Partner Programs team. Once received, they can email partnersupport@gitlab.com to request that the NFR exception be provisioned.
+*Partner Operations manage all NFR requests that fall within the NFR program rules. Any requests outside the program need to be requested, managed, and tracked through the account manager. Account managers should obtain approvals from their manager and from the Partner Programs team. Once received, they can email <partnersupport@gitlab.com> to request that the NFR exception be provisioned.
 
 ##### NFR Program Eligibility
 
@@ -395,23 +395,23 @@ as well as our [Channel Partner Technical Presales Enablement](/handbook/reselle
 GitLab is building out a global Authorized Distributor network similar to many other tier-one software companies. Distributors bring GitLab, our partners, and our customers several valuable offerings:
 
 - Accelerate market reach with joint growth plans and execution including:
-    - recruiting GitLab partners and driving completion of their GitLab sales and technical training
-    - generating in-market customer awareness and passing qualified leads
+  - recruiting GitLab partners and driving completion of their GitLab sales and technical training
+  - generating in-market customer awareness and passing qualified leads
 - Augment GitLab sales capacity and coverage. Distributor sales teams:
-    - work with partners and GitLab sales teams to aid in co-selling
-    - are often in-market and speak local languages
+  - work with partners and GitLab sales teams to aid in co-selling
+  - are often in-market and speak local languages
 - Offload transaction administration from GitLab sales, freeing time for more valuable selling activities
-    - Distributor e-Marketplaces allow GitLab orders to be placed by customers and partners that are delivered in minutes, with zero touch by GitLab teams
-    - Provide a single point of contact that is an expert in the GitLab Quote to Cash process, driving efficiencies throughout the sales cycle
-    - Enable GitLab to scale our operations to allow for increased transaction volume without significant headcount additions (e.g., Deal Desk, Order Management, Billing)
+  - Distributor e-Marketplaces allow GitLab orders to be placed by customers and partners that are delivered in minutes, with zero touch by GitLab teams
+  - Provide a single point of contact that is an expert in the GitLab Quote to Cash process, driving efficiencies throughout the sales cycle
+  - Enable GitLab to scale our operations to allow for increased transaction volume without significant headcount additions (e.g., Deal Desk, Order Management, Billing)
 - Credit management
-    - Reduce credit management cost and risk for GitLab
-    - Offer an array of financing options including the ability for our partners/customers to transact in local currency, which reduces their risk
+  - Reduce credit management cost and risk for GitLab
+  - Offer an array of financing options including the ability for our partners/customers to transact in local currency, which reduces their risk
 - Extend GitLab technical services, training capacity, and coverage, both pre and post-sale
 
-https://about.gitlab.com/handbook/sales/field-operations/channel-operations/#transacting-through-distribution
+<https://about.gitlab.com/handbook/sales/field-operations/channel-operations/#transacting-through-distribution>
 
 ## Contact Us
 
-All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. This slack channel allows you to reach out to our Sales and Marketing Teams in a timely manner, as well as other resellers. Additionally, you can reach the GitLab channel team at PartnerSupport@GitLab.com and the GitLab Partner Marketing
-Team at Partner-Marketing@GitLab.com.
+All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. This slack channel allows you to reach out to our Sales and Marketing Teams in a timely manner, as well as other resellers. Additionally, you can reach the GitLab channel team at <PartnerSupport@GitLab.com> and the GitLab Partner Marketing
+Team at <Partner-Marketing@GitLab.com>.

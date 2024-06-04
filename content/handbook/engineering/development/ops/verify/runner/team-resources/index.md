@@ -150,4 +150,4 @@ Our point-of-contact is [DarwinJS](https://gitlab.slack.com/team/UPCBGABMK).
 ## Secrets
 
 How we manage secrets for Runner and how they get into the right place is a whole thing.
-This needs documenting: https://gitlab.com/gitlab-org/gitlab-runner/-/issues/29823.
+This needs documenting: <https://gitlab.com/gitlab-org/gitlab-runner/-/issues/29823>.

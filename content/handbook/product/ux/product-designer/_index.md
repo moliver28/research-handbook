@@ -160,9 +160,9 @@ Part of the role of product designers is to lead and facilitate idea generation 
 - Reach out to [sales](/handbook/sales/), [customer success](/handbook/customer-success/) or [marketing](/handbook/marketing/brand-and-product-marketing/design/) counterparts for a new perspective. You can also invite these counterparts as optional attendees to your regular meetings.
 - Prioritize a round of [problem validation research](/handbook/product/ux/ux-research/problem-validation-and-methods/) together with Product Managers and UX research. Talk to customers about their experiences building software in a very open-ended way, see what keeps them up at night, what slows them down, and what impedes their productivity.
 - Discover unknown pain points:
-    - [Dovetail](/handbook/product/ux/dovetail/) is used to analyze data, collaborate on insights, and as our current research repository.
-    - [Chorus.ai](https://www.chorus.ai/) is a tool used by sales reps that records and transcribes sales calls. You can search calls by keyword to narrow in on what you listen to.
-    - [Zendesk](https://gitlab.zendesk.com/agent/) is also a source of information around existing problems, although it can be a bit harder to parse through the tickets, as they aren't necessarily categorized in a way that is optimal for UX.
+  - [Dovetail](/handbook/product/ux/dovetail/) is used to analyze data, collaborate on insights, and as our current research repository.
+  - [Chorus.ai](https://www.chorus.ai/) is a tool used by sales reps that records and transcribes sales calls. You can search calls by keyword to narrow in on what you listen to.
+  - [Zendesk](https://gitlab.zendesk.com/agent/) is also a source of information around existing problems, although it can be a bit harder to parse through the tickets, as they aren't necessarily categorized in a way that is optimal for UX.
 
 Access instructions for Dovetail, Zendesk and Chorus.ai
 
@@ -326,11 +326,11 @@ For iteration inspiration watch our Product Designers discuss [iteration at GitL
 
 - After you've validated your solution with users, propose just one solution. Proposing multiple alternative solutions for others to pick undermines your position as a UX expert and leads to design by committee. If you have a good reason to propose multiple alternative solutions, make sure to explain why.
 - When sharing asynchronously in an issue, make sure your audience has the context necessary to understand your proposal and how they can help. Is it clear who will use the solution and what it will enable them to accomplish? Do you need feedback or assistance from stakeholders? If so, on what specifically? Or, are you looking for approval? To make reviewing easier, have you highlighted things that changed since the last review?
-    - Consider using the [collapsed content sections](/handbook/markdown-guide/#collapse) to include information that would support points being made without distracting the reader from the main point. This is demonstrated in [this issue comment around using analytics about file sizes](/handbook/markdown-guide/#collapse).
+  - Consider using the [collapsed content sections](/handbook/markdown-guide/#collapse) to include information that would support points being made without distracting the reader from the main point. This is demonstrated in [this issue comment around using analytics about file sizes](/handbook/markdown-guide/#collapse).
 - `@mention` your Product Design Manager on the issue for feedback. Product Design Managers have a broader view of work that's happening across the product, enabling them to provide feedback that is helpful for maintaining strategic alignment, a consistent level of quality, and functional consistency.
 - Frame design discussions around the customer and the problem being solved, not the UI or functionality itself. When presenting, start with the current state and how it fails to meet user needs, and then walk through the proposed solution from the user’s point of view. As the discussion unfolds, continually tie everything back to the user’s experience and needs.
 - Anticipate questions that others might have, and try to answer them in your proposal comments. You don’t have to explain everything, but try to communicate a bit of your rationale every time you propose something. This is particularly important when proposing changes or challenging the status quo, because it reduces the feedback loop and time spent on unnecessary discussions. It also builds the UX Department’s credibility, because we deal with a lot of seemingly subjective issues.
-    - Consider using the [questions as headings](https://gitlab.com/gitlab-org/gitlab/-/issues/118442#note_276666054) in framing your proposal
+  - Consider using the [questions as headings](https://gitlab.com/gitlab-org/gitlab/-/issues/118442#note_276666054) in framing your proposal
 - Keep the SSOT updated with what’s already agreed upon so that everyone can know where to look. This includes images or links to your design work.
 - If you’re working with design files, follow the instructions in the [GitLab Design project contribution guidelines][gitlab-design-project-contribution-guidelines] and regularly commit them.
 - If you are proposing a solution that will introduce a new UX paradigm, or change an existing one, please consider the following:
@@ -379,9 +379,9 @@ Other ways to socialize design decisions is by writing design focused [blog post
 - When breaking solutions into smaller parts, make sure to share the end design goal, so that the entire team has context. Giving everyone the full picture helps developers write code aimed at achieving that goal in the future.
 - Keep the issue description updated with the agreed-on scope, even if doesn’t impact your work. This is everyone’s responsibility. The issue description must be the Single Source Of Truth (SSOT), not the discussion or individual comments.
 - Not all issues are scheduled immediately, which means changes are likely needed when the issue is prioritized. The Product Designer responsible for a particular stage group should be aware of open issues within their product area and work to prioritize them accordingly with their respective Product Managers, even if they are not the original designer who worked on the issue.
-    - To stay up to date with issues in your product area, subscribe to the label that matches your stage group.
-    - Review issues within your stage group label regularly.
-    - Actively contribute to planning meetings to ensure all open issues are being discussed and prioritized.
+  - To stay up to date with issues in your product area, subscribe to the label that matches your stage group.
+  - Review issues within your stage group label regularly.
+  - Actively contribute to planning meetings to ensure all open issues are being discussed and prioritized.
 - When working on an issue, keep the SSOT in the description updated until the issue is closed. This applies to both text and mockups. Previous content (by a PM, for example) should be removed or archived into a separate section in the description. If the developer working on the issue ever has any questions on what they should implement, they can ask the designer to update the issue description with the design.
 - For obvious changes, make the SSOT description update directly. [You don’t need to wait for consensus](/handbook/values/#collaboration). Use your judgement.
 - When the issue is actively being worked on, make sure you are assigned and subscribed to the issue. Continue to follow both the issue and related merge request(s), addressing any additional UX issues that come up.
@@ -440,7 +440,7 @@ Anyone else in GitLab can access your files when you either share the file URL o
 If you want to invite team members to collaborate on your FigJam boards, you can do this by starting an [open session](https://help.figma.com/hc/en-us/articles/4410786053911-Invite-visitors-to-an-open-session). This feature allows for team members with or without a FigJam license to have edit access as long as the board has been enabled for an open session and the link for the board is shared with them. Open sessions will only run for **24 hours** at a time. If you want team members to be able to edit your files across multiple days, you will need to restart the open session each day.
 If there are concerns about keeping information on your Figjam board SAFE, you can add [password protection](https://help.figma.com/hc/en-us/articles/5726720100247-Add-password-protection-to-files). That way only those with the password can edit the board when the open session is enabled.
 
-GitLab has a public Figma profile where anyone can duplicate or remix files we have published. You can view our profile under the Community tab of the GitLab team section, or navigate to https://www.figma.com/@GitLab.
+GitLab has a public Figma profile where anyone can duplicate or remix files we have published. You can view our profile under the Community tab of the GitLab team section, or navigate to <https://www.figma.com/@GitLab>.
 
 Do not create additional teams. An editor is billed for each team they are on, and we’ve only allocated resources for one team.
 

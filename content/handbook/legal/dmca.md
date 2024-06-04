@@ -17,13 +17,13 @@ You must include:
 1. The following statement: “The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed”; and
 1. An electronic or physical signature of the owner of the copyright or a person authorized to act on the owner's behalf.
 
-Submissions under this DMCA Policy should be sent to dmca@gitlab.com
+Submissions under this DMCA Policy should be sent to <dmca@gitlab.com>
 
 We will review your submission and take whatever action we deem appropriate under the DMCA, including the removal of the challenged content from the website. Further more, we may, in appropriate circumstances, disable access or terminate the account(s) of the reported user(s).
 
 ## DMCA Counter Notice requirements
 
-The owner of the allegedly-infringing content may submit a DMCA Counter-Notice to dmca@gitlab.com. The Counter-Notice must comply with the requirements of the DMCA, and must include the following:
+The owner of the allegedly-infringing content may submit a DMCA Counter-Notice to <dmca@gitlab.com>. The Counter-Notice must comply with the requirements of the DMCA, and must include the following:
 
 1. **Contact Information:** Your name, title (if acting as an agent), physical address, email address, and phone number;
 1. **Content Identification:** A reasonable identification of the material that has been removed or to which access has been blocked;
@@ -49,7 +49,7 @@ If you’re sure you want to report content on GitLab that you believe infringes
 1. A scanned copy of the trademark registration certificate(s) or screenshot of the registration on the website or database of the applicable national intellectual property office(s).
 1. A declaration of the following statement: "By submitting this notice, I state that I have a good-faith belief that the reported use, in the manner that I have complained of, is not authorised by the intellectual property rights owner, its agent or the law; that the information contained in this notice is accurate; and, under penalty of perjury, that I am authorised to act on behalf of the owner of the intellectual property rights at issue".
 
-You can send this information to dmca@gitlab.com, you should receive an automated confirmation of receipt.
+You can send this information to <dmca@gitlab.com>, you should receive an automated confirmation of receipt.
 
 ## Namespaces and other disputes
 

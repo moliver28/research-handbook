@@ -27,21 +27,21 @@ The structure of a roadmap on a direction page might looks something like this:
 
 1. Now
 
-  - Prioritized development work
-  - Exploratory work
-  - How we are measuring success
+- Prioritized development work
+- Exploratory work
+- How we are measuring success
 
 1. Next
 
-  - Prioritized development work
-  - Exploratory work
-  - How we are measuring success
+- Prioritized development work
+- Exploratory work
+- How we are measuring success
 
 1. Future
 
-  - Prioritized development work
-  - Exploratory work
-  - How we are measuring success
+- Prioritized development work
+- Exploratory work
+- How we are measuring success
 
 If the category has developed a [UX Roadmap](/handbook/product/ux/product-design/ux-roadmaps/) we recommend the product designer to create a merge request to incorporate UX Roadmap themes into the category direction page roadmap. Assign the MR to the PM for review and merge.
 
@@ -250,7 +250,7 @@ Depending on the [maturity level](https://about.gitlab.com/direction/maturity/) 
 - Any new features.
 - Any significant UI additions.
 - Disruptive features that may significantly improve workflows or occasionally introduce unavoidable inconveniences.
-     - We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
+  - We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
 - UX improvements that significantly adjust current workflow should be included.
 - New API only functionality, if many users leverage the API instead or UI.
 - Significant bug fixes.
@@ -503,9 +503,9 @@ Application limits should be enabled by default. If we are considering enabling 
 - **Proactively notify Customer Success and Support of the change** - Reach out in `#customer-success` and `#support_escalations` to announce the upcoming change, and consider discussing in the next `All CS Team Call` to solicit feedback.
 - **Ensure Customer Success and Support are equipped to help users** - Make sure that Customer Success and Support has access to the documentation that they need to help customers who contact them regarding the limit.
 - **Document the limits on docs.gitlab.com**
-    - Make sure that the limit is documented on the page for the feature and include details such as if it's configurable, what the default value is, and what impact this can have on the end user.
-    - Document the limit for customers on the [instance limits](https://gitlab.com/help/administration/instance_limits.md) help page, ensuring the limit for gitlab.com is specified. Include instructions on how the limit can be changed on self-managed instances.
-    - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/ee/security/rate_limits.html)
+  - Make sure that the limit is documented on the page for the feature and include details such as if it's configurable, what the default value is, and what impact this can have on the end user.
+  - Document the limit for customers on the [instance limits](https://gitlab.com/help/administration/instance_limits.md) help page, ensuring the limit for gitlab.com is specified. Include instructions on how the limit can be changed on self-managed instances.
+  - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/ee/security/rate_limits.html)
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
 - **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
 
@@ -1212,17 +1212,17 @@ the planned feature set should be clearly visible from the corresponding
 category strategy page. e.g.:
 
 - Stage strategy (page)
-    - Category strategy (page)
-        - Category epic (epic)
-            - Minimal maturity (epic)
-                - Cool Feature/Capability A (epic)
-                - Issue
-                - Issue
-                - Issue
-                - Cool Feature/Capability B
-                - Cool Feature/Capability C
-            - Viable maturity (epic)
-            - ...
+  - Category strategy (page)
+    - Category epic (epic)
+      - Minimal maturity (epic)
+        - Cool Feature/Capability A (epic)
+        - Issue
+        - Issue
+        - Issue
+        - Cool Feature/Capability B
+        - Cool Feature/Capability C
+      - Viable maturity (epic)
+      - ...
 
 The category epic should include:
 
@@ -1681,23 +1681,23 @@ Follow the below guidance to prepare and conduct Customer Discovery Meetings:
 **After the meeting:**
 
 - Document your findings. Create a folder (sharable only within GitLab) in [Google Drive](https://drive.google.com/drive/folders/0AH_zdtW5aioNUk9PVA) with a structure as follows:
-    - Customer Meetings
-        - Customer Name A
-            - 2020-04-01
-                - agenda (Google Doc)
-                - artifacts (folder for docs, images, etc.)
-            - 2020-10-03
-        - Customer Name B
-    - Competitive Research
-        - Vendors
-            - Vendor A
-                - summary (Google Doc, optional)
-                - 2020-04-01
-                - 2020-10-03
-            - Vendor B
-        - Projects
-            - product-10132-code-scan-results (reference GitLab issue number)
-            - ux-13840-selector-widget
+  - Customer Meetings
+    - Customer Name A
+      - 2020-04-01
+        - agenda (Google Doc)
+        - artifacts (folder for docs, images, etc.)
+      - 2020-10-03
+    - Customer Name B
+  - Competitive Research
+    - Vendors
+      - Vendor A
+        - summary (Google Doc, optional)
+        - 2020-04-01
+        - 2020-10-03
+      - Vendor B
+    - Projects
+      - product-10132-code-scan-results (reference GitLab issue number)
+      - ux-13840-selector-widget
 - Share your findings with your fellow product managers and the sales and customer success account teams for the customer
 - Make appropriate adjustments to category strategies, feature epics, and personas
 
@@ -1984,7 +1984,7 @@ When we speak to users and customers directly during this workflow, we must be m
 > I would be very interested in speaking further about some of the points you raised in your survey response. Would you be willing to do a 30 minute Zoom call to give us some more detailed feedback on your experience using GitLab? You'd be able to schedule the call at a time convenient to you.
 >
 > Schedule a time for the call using this link:
-> https://calendly.com/yourname/30min
+> <https://calendly.com/yourname/30min>
 >
 > Thank you for your feedback and let me know if you have any questions.
 >
@@ -2022,7 +2022,7 @@ Every Product Manager is responsible for the user experience and cost profile of
 There are a few questions a Product Manager should ask when thinking about their features:
 
 - What are the costs associated with my product area? What is the impact on the margin for each tier of GitLab.com?
-    - Consider network, compute, and storage costs
+  - Consider network, compute, and storage costs
 - Are there tools in place to help GitLab, Inc and self-managed admins optimize the cost footprint for running GitLab (e.g. node rebalancing, transitioning objects to less costly storage classes, garbage collection capabilities)
 - Are there features and default settings that help users stay within their [CI and Storage limits](https://about.gitlab.com/pricing/)?
 - Are there configurable [application limits](/handbook/product/product-processes/#introducing-application-limits) in place for admins to enhance the availability and performance of GitLab and reduce [abuse vectors](/handbook/security/security-operations/trustandsafety/#examples-of-common-forms-of-abuse-include-but-are-not-limited-to)?
@@ -2184,14 +2184,14 @@ people in another channel after the issue has been created (Slack, email).
 GitLab product issues will often have one of the three [type labels](https://docs.gitlab.com/ee/development/labels/index.html#type-labels) `~"type::bug"`, `~"type::feature"`, or `~"type::maintenance"`. Features can be further clarified as:
 
 - `~feature::addition` - Refers to the first MVC that gives GitLab users a foundation of new capabilities that were previously unavailable. For example, these issues together helped create the first MVC for our Reviewer feature:
-    - [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921)
-    - [Show which reviewers have commented on an MR](https://gitlab.com/gitlab-org/gitlab/-/issues/10294)
-    - [Add reviewers to MR form](https://gitlab.com/gitlab-org/gitlab/-/issues/216054)
-    - [Increase MR counter on navbar when user is designated as reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/255102)
+  - [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921)
+  - [Show which reviewers have commented on an MR](https://gitlab.com/gitlab-org/gitlab/-/issues/10294)
+  - [Add reviewers to MR form](https://gitlab.com/gitlab-org/gitlab/-/issues/216054)
+  - [Increase MR counter on navbar when user is designated as reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/255102)
 - `~feature::enhancement` - Refers to GitLab user-facing improvements that refine the initial MVC to make it more useful and usable. For example, these issues enhance the existing Reviewer feature:
-    - [Show MRs where user is designated as a Reviewer on the MR list page](https://gitlab.com/gitlab-org/gitlab/-/issues/237922)
-    - [Display which approval rules match a given reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/233736)
-    - [Add Reviewers quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/241244)
+  - [Show MRs where user is designated as a Reviewer on the MR list page](https://gitlab.com/gitlab-org/gitlab/-/issues/237922)
+  - [Display which approval rules match a given reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/233736)
+  - [Add Reviewers quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/241244)
 
 There are also other higher precedence labels, as documented by [Engineering Metrics](/handbook/engineering/metrics/#data-classification).
 

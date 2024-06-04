@@ -59,7 +59,7 @@ Embrace kubernetes and cloud native architectures to accelerate application deli
     1. Forrester CI wave
 1. Industry Awards
 1. Other assets
-    1. Scalable app deployment with GitLab and Google Cloud Platform (Kubernetes 101, GitLab GKE integration) https://www.youtube.com/watch?v=uWC2QKv15mk
-    1. Google + GitLab - what is Kubernetes? https://www.youtube.com/watch?v=uWC2QKv15mk
-    1. CNCF Webinar: Automating Kubernetes Deployments https://www.youtube.com/watch?v=wEDRfAz6_Uw
-    1. CI/CD deep dive https://www.youtube.com/watch?time_continue=1888&v=pBe4t1CD8Fc
+    1. Scalable app deployment with GitLab and Google Cloud Platform (Kubernetes 101, GitLab GKE integration) <https://www.youtube.com/watch?v=uWC2QKv15mk>
+    1. Google + GitLab - what is Kubernetes? <https://www.youtube.com/watch?v=uWC2QKv15mk>
+    1. CNCF Webinar: Automating Kubernetes Deployments <https://www.youtube.com/watch?v=wEDRfAz6_Uw>
+    1. CI/CD deep dive <https://www.youtube.com/watch?time_continue=1888&v=pBe4t1CD8Fc>

@@ -41,12 +41,12 @@ If a customer has a feature request that doesn't already exist, refer to the [pr
 Whenever you're sharing feedback on an issue (e.g. "Customer X wants this"), please make sure to do the following:
 
 - Link to the source. Usually, this is a link to Salesforce or Zendesk
-    - Use the Salesforce Account URL when it's a paying customer and you want to relate the ARR
-    - Use the Salesforce Opportunity URL when it's related to a prospect or significant growth opportunity
+  - Use the Salesforce Account URL when it's a paying customer and you want to relate the ARR
+  - Use the Salesforce Opportunity URL when it's related to a prospect or significant growth opportunity
 - Provide context: if a customer wants this feature, include *why* they are interested in this. If you don't know, make sure to ask or bring the relevant PM in contact with the customer
 - Include any further useful context (e.g. what kind of software is this customer building, or how they will use the feature)
 - Mention the [Product Manager](/handbook/product/categories/)
-    - Feel free to ask them anything that isn't clear to you (e.g. it's not clear what the status is of the issue, etc)
+  - Feel free to ask them anything that isn't clear to you (e.g. it's not clear what the status is of the issue, etc)
 
 If a customer expresses interest by simply mentioning an issue number or e.g. "an integration with X", that is not sufficient information. Before creating or commenting on an issue, make sure to ask them:
 
@@ -148,11 +148,11 @@ A salesperson for an organization asking for a paid-tier feature request shall w
 
 - Sales schedules 1-hour zoom meeting with the product manager, customer, and themselves. Call recorded if the customer gives permission.
 - Product Manager prepares any additional questions they would like answered, beyond what is below.
-    - What version of GitLab are you currently using? CE / Premium / Ultimate?
-    - How are you currently doing source code management? GitLab merge requests or another tool? How about CI/CD?
-    - How are you currently doing issue management? How are you using HP ALM? Agile/Kanban? What do your sprint/iterations look like? 1 week? 1 month? 2 months?
-    - What is the integration like between issue management and source code management?
-    - How do teams manage multiple repos? Does a team typically work on one repo at a time? Or do they work on multiple repos at the same time?
+  - What version of GitLab are you currently using? CE / Premium / Ultimate?
+  - How are you currently doing source code management? GitLab merge requests or another tool? How about CI/CD?
+  - How are you currently doing issue management? How are you using HP ALM? Agile/Kanban? What do your sprint/iterations look like? 1 week? 1 month? 2 months?
+  - What is the integration like between issue management and source code management?
+  - How do teams manage multiple repos? Does a team typically work on one repo at a time? Or do they work on multiple repos at the same time?
 - Sales sends questions to the customer prior to the meeting.
 - Meeting is created in Salesforce.com
 - Sales creates a Google document for notes from previous calls with customer. Google Doc shared with product manager and sales manager
@@ -219,12 +219,12 @@ In advance to the product call, have a conversation with the customer about expe
 
 Ask the following questions, as applicable:
 
-   - What features and/or functionality do they want to discuss?
-   - How familiar are they with those features and/or functionality?
-   - Have they had a demo of the features already or is this their first exposure?
-   - Are they actively using the features in production, in a POC, or have they not yet tried the features themselves?
-   - Are they more interested in an overview of the functionality that already exists or in future roadmap functionality?
-   - What are their goals for this call?
+- What features and/or functionality do they want to discuss?
+- How familiar are they with those features and/or functionality?
+- Have they had a demo of the features already or is this their first exposure?
+- Are they actively using the features in production, in a POC, or have they not yet tried the features themselves?
+- Are they more interested in an overview of the functionality that already exists or in future roadmap functionality?
+- What are their goals for this call?
 
 ### Contact the Appropriate PM
 

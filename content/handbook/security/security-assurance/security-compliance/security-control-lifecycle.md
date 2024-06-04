@@ -61,8 +61,8 @@ The testing activity consists of 3 major components:
 After testing a decision is made about the controls:
 
 - Were any validated observations recorded as a part of testing?
-   - If `yes` this control enters the Remediation phase while those observations are in the process of being resolved
-   - If `no` this control enters the Operation phase since the control has been determined to be designed and operating effectively to meet security compliance program needs
+  - If `yes` this control enters the Remediation phase while those observations are in the process of being resolved
+  - If `no` this control enters the Operation phase since the control has been determined to be designed and operating effectively to meet security compliance program needs
 - Assign a control effectiveness rating to the control as described in the [GitLab control testing manual](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/gcf/-/blob/main/runbooks/assessment_testing_manual.md?ref_type=heads) (GitLab internal link)
 
 #### Remediation

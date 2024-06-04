@@ -27,7 +27,7 @@ GitLab calculates Service Level Availability based on the available state of cer
 
 ## Service Level Availability Calculation
 
-For each service and feature described above, GitLab measures two service level indicators ("SLIs"), as further described in https://gitlab.com/gitlab-com/runbooks/-/tree/master/reference-architectures/get-hybrid#service-level-indicators:
+For each service and feature described above, GitLab measures two service level indicators ("SLIs"), as further described in <https://gitlab.com/gitlab-com/runbooks/-/tree/master/reference-architectures/get-hybrid#service-level-indicators>:
 
 1. The **Error SLI** is an indication of requests that are successful, (i.e. not returning a 5xx error).
 1. The **Apdex SLI** is an indicator of requests that complete with a satisfactory latency. Apdex is defined using the [industry definition](https://en.wikipedia.org/wiki/Apdex) with two latency thresholds: _satisfactory_ and _tolerable_. For Dedicated, satisfactory requests take less than 1s to complete, tolerable requests take less than 10s to complete.

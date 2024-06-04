@@ -52,19 +52,19 @@ To find our stable counterparts, look at the Pipeline Authoring [product categor
 
 ## Dashboards
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="pipeline authoring" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="pipeline authoring" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="pipeline authoring" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="pipeline authoring" >}}
 {{< /tableau >}}
 
@@ -232,10 +232,10 @@ Each member of the team can choose which issues to work on during a milestone by
 
 Specifically, this means our work is prioritized in the following order:
 
- - Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
- - Conducting code reviews on issues that are `workflow::in review`
- - Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
- - Then, lastly, picking from the top of the `workflow::ready for development` for development column
+- Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
+- Conducting code reviews on issues that are `workflow::in review`
+- Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
+- Then, lastly, picking from the top of the `workflow::ready for development` for development column
 
 The goal of this process is to reduce the amount of work in progress (WIP) at any given time. Reducing WIP forces us to "Start less, finish more", and it also reduces cycle time. Engineers should keep in mind that the DRI for a merge request is **the author(s)**, to reflect the importance of teamwork without diluting the notion that having a [DRI is encouraged by our values](/handbook/people-group/directly-responsible-individuals/#dris-and-our-values).
 
@@ -373,7 +373,7 @@ The Pipeline Authoring group supports the product marketing categories described
 | `CI persistence` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20persistence) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20persistence) | Issues related to Persistence (workspaces, caching). Does not include artifacts, which is its own label |
 | `CI rules` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20rules) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20rules) | Issues related to CI rules or linting |
 | `pipeline visualizations` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=pipeline%20visualizations) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=pipeline%20visualizations) | Issues related to pipeline visualization, including [Directed Acyclic Graphs](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/), pipeline dependencies for triggers, cross-project pipelines, and child/parent pipelines. For job or pipeline execution, refer to [`pipeline processing`](../pipeline-execution/#feature-labels) (owned by the Pipeline Execution team) |
-| `pipeline authoring` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=pipeline+authoring) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=pipeline+authoring) | Issues related to authoring the .gitlab-ci.yml file and CI YAML configuration (https://docs.gitlab.com/ee/ci/yaml/) but excludes issues handled by another label such as "CI rules" |
+| `pipeline authoring` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=pipeline+authoring) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=pipeline+authoring) | Issues related to authoring the .gitlab-ci.yml file and CI YAML configuration (<https://docs.gitlab.com/ee/ci/yaml/>) but excludes issues handled by another label such as "CI rules" |
 
 #### Other Notable Labels
 
@@ -553,7 +553,7 @@ Engineering teams should inform the product manager and EMs if there isn't enoug
 
 ### Team Communication
 
-{{% engineering/verify-team-communication slack-channel="g_pipeline-authoring" slack-url="https://gitlab.slack.com/archives/CPCJ8CCCX', group_label: 'group::pipeline authoring', group_issues_url: 'https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=group%3A%3Apipeline+authoring&scope=all', gitlab_subgroup: 'pipeline-authoring-group" %}}
+{{% engineering/verify-team-communication slack-channel="g_pipeline-authoring" slack-url="<https://gitlab.slack.com/archives/CPCJ8CCCX>', group_label: 'group::pipeline authoring', group_issues_url: '<https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=group%3A%3Apipeline+authoring&scope=all>', gitlab_subgroup: 'pipeline-authoring-group" %}}
 
 #### Team Co-Working Sessions
 

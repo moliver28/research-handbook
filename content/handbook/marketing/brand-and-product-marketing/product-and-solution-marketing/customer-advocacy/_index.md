@@ -15,9 +15,9 @@ title: "Customer Advocacy at GitLab"
 
 **The Customer Advocacy Team is dedicated to forging evergreen co-marketing relationships with top advocates and enterprise brands that fuel an integrated strategy aligned to pipeline-driving initiatives, threading the customer voice into all GTM motions.**
 
-  - We create programs and opportunities that put Enterprise logos and advocates in the spotlight.
-  - We partner with Sales and CS to identify, capture, and tell the right stories that help us sell.
-  - We support the bottom line by fueling our integrated campaign motion with the customer voice.
+- We create programs and opportunities that put Enterprise logos and advocates in the spotlight.
+- We partner with Sales and CS to identify, capture, and tell the right stories that help us sell.
+- We support the bottom line by fueling our integrated campaign motion with the customer voice.
 
 **Meet the team:**
 
@@ -32,8 +32,8 @@ We partner with the content team to run a continual pipeline of customer case st
 
   Quick Links
 
-  - [External Case Study Process](https://docs.google.com/document/d/1o4DpwU20RJ3Q_rc-pzBzbXP2F0EXoUWSGgDXLpQ3egc/edit?usp=sharing)
-  - [Publication Process](https://docs.google.com/document/d/1gu97xEv3WMYQO2aUUHqzdtUbXAx6s_VPWXSgDN9mg5E/edit?usp=sharing)
+- [External Case Study Process](https://docs.google.com/document/d/1o4DpwU20RJ3Q_rc-pzBzbXP2F0EXoUWSGgDXLpQ3egc/edit?usp=sharing)
+- [Publication Process](https://docs.google.com/document/d/1gu97xEv3WMYQO2aUUHqzdtUbXAx6s_VPWXSgDN9mg5E/edit?usp=sharing)
 
 **Earnings Calls customer references**
 
@@ -41,7 +41,7 @@ Each quarter the Customer Advocacy Team proactively partners with Sales and Cust
 
   Quick Links
 
-  - [Earnings Customer Reference Playbook](https://docs.google.com/document/d/1PnpZ9zMW3__NX3QbH-GEyQWnZV22o1cj3EYn5bpEn5c/edit?usp=sharing)
+- [Earnings Customer Reference Playbook](https://docs.google.com/document/d/1PnpZ9zMW3__NX3QbH-GEyQWnZV22o1cj3EYn5bpEn5c/edit?usp=sharing)
 
 **Customer Advisory Board → Executive Advisory Board**
 

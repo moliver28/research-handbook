@@ -224,7 +224,7 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 - **Solution:** GitLab Premium (CI/CD)
 - **Result:** What previously took 40 minutes to an hour to accomplish, now takes just six minutes.
 - **Sales Segment:** SMB
-- **Safe Deployments** (https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/51235)
+- **Safe Deployments** (<https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/51235>)
 
 #### [Athlinks](https://about.gitlab.com/blog/2019/12/17/athlinks-cuts-runtime-in-half-with-giltab/)
 

@@ -30,8 +30,8 @@ Different browsers respond differently to tabbing through interactive elements (
 Safari doesn't use tab navigation by default. The user has to go into Safari's setting and check the box to turn on tabbed navigation. Mozilla is being true to operating system settings in Mac OS, which means you also need to turn it on.
 
 Related resources:
-https://stackoverflow.com/questions/52783375/anchor-with-href-not-taking-focus-in-safari-even-with-all-accessibility-keyboard
-https://stackoverflow.com/questions/11704828/how-to-allow-keyboard-focus-of-links-in-firefox
+<https://stackoverflow.com/questions/52783375/anchor-with-href-not-taking-focus-in-safari-even-with-all-accessibility-keyboard>
+<https://stackoverflow.com/questions/11704828/how-to-allow-keyboard-focus-of-links-in-firefox>
 
 ### Guidance to tackling accessibility challenges related to tabbing
 

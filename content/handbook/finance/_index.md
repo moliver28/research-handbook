@@ -11,7 +11,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 {.h2}
 
 - [Finance Issues](https://gitlab.com/gitlab-com/finance/issues)
-    - Please use confidential issues for topics that should only be visible to team members at GitLab.
+  - Please use confidential issues for topics that should only be visible to team members at GitLab.
 - [Accounts Payable]({{< ref "./accounts-payable" >}})
 - [Expense Guidelines]({{< ref "./expenses" >}})
 - [Operating Metrics]({{< ref "key-review" >}})
@@ -25,15 +25,15 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 
 - [2022 GitLab Inc W-9 Document](https://gitlab.com/gitlab-com/Finance-Division/tax-team/-/issues/272)
 - [2022 Certificate of Residence](https://gitlab.com/gitlab-com/Finance-Division/tax-team/-/issues/272)
-- Form CA-590 - Please request by email to tax@gitlab.com
+- Form CA-590 - Please request by email to <tax@gitlab.com>
 
 ## Correspondence
 
 - Please use the `#finance` chat channel in Slack for questions that don't seem appropriate for the issue tracker or internal email correspondence.
-- **Accounts Payable**- inquiries which relate to vendor and merchant invoices, or team member's expenses should be sent to our Accounts Payable mailbox - *ap@gitlab.com*. You can also reach the AP team on Slack in the `#accountspayable` or `#expense-reporting-inquiries` chat channels.  Invoices that require payment processing should be sent to *ap@gitlab.com*.
-- **Billing Operations**- customer billing inquiries should be sent to our Billing mailbox – *billing@gitlab.com*.
-- **Accounts Receivable** - customer payment/remittance inquiries should be sent to our Accounts Receivable mailbox - *AR@gitlab.com*
-- **Payroll**- inquiries which relate to contractor invoices should be sent to our Payroll mailbox - *nonuspayroll@gitlab.com*.
+- **Accounts Payable**- inquiries which relate to vendor and merchant invoices, or team member's expenses should be sent to our Accounts Payable mailbox - *<ap@gitlab.com>*. You can also reach the AP team on Slack in the `#accountspayable` or `#expense-reporting-inquiries` chat channels.  Invoices that require payment processing should be sent to *<ap@gitlab.com>*.
+- **Billing Operations**- customer billing inquiries should be sent to our Billing mailbox – *<billing@gitlab.com>*.
+- **Accounts Receivable** - customer payment/remittance inquiries should be sent to our Accounts Receivable mailbox - *<AR@gitlab.com>*
+- **Payroll**- inquiries which relate to contractor invoices should be sent to our Payroll mailbox - *<nonuspayroll@gitlab.com>*.
 
 ---
 
@@ -91,7 +91,7 @@ Refer to our [writing style guidelines]({{< ref "communication#writing-style-gui
 
 ## Invoice template and where to send
 
-Vendor invoices are to be sent to ap@gitlab.com and payroll@gitlab.com for contractors. An [invoice](https://docs.google.com/spreadsheets/d/1sRA2uCpFblOleyVIslqM4YwbW27GkU5DTgwMLhgR_Iw/edit?usp=sharing) template can be found in Google Docs by the name of "Invoice Template".
+Vendor invoices are to be sent to <ap@gitlab.com> and <payroll@gitlab.com> for contractors. An [invoice](https://docs.google.com/spreadsheets/d/1sRA2uCpFblOleyVIslqM4YwbW27GkU5DTgwMLhgR_Iw/edit?usp=sharing) template can be found in Google Docs by the name of "Invoice Template".
 
 Non-US contractors not from Hungary, Italy, Japan, New Zealand, Nigeria, South Africa, Switzerland, and Ukraine will get pay their monthly wages and expenses through iiPay. Here is the process:
 
@@ -102,7 +102,7 @@ Non-US contractors not from Hungary, Italy, Japan, New Zealand, Nigeria, South A
 - the scheduled payment date is the 22nd of each month
 - iiPay will send out remittance advice along with the scheduled payment via your gitlab email address
 
-Non-US contractors from Italy, Nigeria, South Africa, Switzerland, and Ukraine will need to send their monthly invoice for salary/bonus/commission and any [expenses](/handbook/finance/spending-company-money/) by the 15th to payroll@gitlab.com.
+Non-US contractors from Italy, Nigeria, South Africa, Switzerland, and Ukraine will need to send their monthly invoice for salary/bonus/commission and any [expenses](/handbook/finance/spending-company-money/) by the 15th to <payroll@gitlab.com>.
 
 In many cases, VAT will not be payable on transactions between GitLab BV and EU-based
 vendors/contractors, thanks to "Shifted VAT". To make use of this shifted VAT:

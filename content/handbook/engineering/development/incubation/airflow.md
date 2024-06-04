@@ -33,7 +33,7 @@ DevOps tasks and really any task that requires scheduling. Its cronjob turned up
 According to Airflow themselves:
 > Airflow is a platform created by the community to programmatically author, schedule and monitor workflows
 
-_Source: https://airflow.apache.org_
+_Source: <https://airflow.apache.org>_
 
 A workflow is also called a Directed Acyclic Graph
 ([DAG](https://airflow.apache.org/docs/apache-airflow/stable/concepts/dags.html)) in Airflow, a DAG contains

@@ -44,5 +44,5 @@ Utilise the Risk Map as a tool to:
 | Product/Cost | CI pipeline inefficiencies | CI Minute usage that could potentially be avoided | 5 | 5 | 25 | Develop features to optimize pipeline runtime |
 | Feature/Performance | Unperformant database queries | Adding load to gitlab.com database, slow page and feature load times | 3 | 3 | 9 | Recent rapid actions has helped, and there's continual effort to address this to ensure we don't regress |
 | Team/Efficiency | Migrating more REST to GraphQL to help unblock FE | FE productivity and delivery | 5 | 3 | 15 |  |
-| Feature/Dependencies | Depends on runner response and processing time<br>- https://gitlab.com/gitlab-org/gitlab/-/issues/326113 <br>- https://gitlab.com/gitlab-com/gl-infra/production/-/issues/3631  | If runners fail to process, jobs are not executed, pipeline is stuck | 5 | 3 | 15 |  |
+| Feature/Dependencies | Depends on runner response and processing time<br>- <https://gitlab.com/gitlab-org/gitlab/-/issues/326113> <br>- <https://gitlab.com/gitlab-com/gl-infra/production/-/issues/3631>  | If runners fail to process, jobs are not executed, pipeline is stuck | 5 | 3 | 15 |  |
 | Infrastructure availability | CI/CD Data model scaling | CI/CD Data model scaling | 5 | 2 | 10 | Actively being worked on in CI/CD Data Model Blueprint MR  |

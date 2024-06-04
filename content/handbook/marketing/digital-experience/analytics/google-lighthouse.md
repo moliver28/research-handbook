@@ -29,7 +29,7 @@ Relevant links
 
 ### Where is the project’s code for that web project?
 
-* https://gitlab.com/gitlab-com/marketing/digital-experience/lighthouse-ci-server Whenever the main branch is updated, we need to upload the new version to Heroku. More notes from their [Heroku recipe](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/recipes/heroku-server/README.md)
+* <https://gitlab.com/gitlab-com/marketing/digital-experience/lighthouse-ci-server> Whenever the main branch is updated, we need to upload the new version to Heroku. More notes from their [Heroku recipe](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/recipes/heroku-server/README.md)
 
 ### What are the costs associated with this web app?
 
@@ -41,7 +41,7 @@ Relevant links
 ### Where can I find any of the necessary credentials for this project, such as the build and admin tokens?
 
 * They are added to the Buyer Experience project as CI variables. Currently, the build variable and URI variable are used. The admin variable is currently there without purpose and is used purely for convenience. That way, anyone with maintainer permissions in the BE project can go in there and find that if needed.
-* Make sure that the CI variables are masked and are allowed to run on protected branches: https://docs.gitlab.com/ee/ci/variables/index.html#mask-a-cicd-variable
+* Make sure that the CI variables are masked and are allowed to run on protected branches: <https://docs.gitlab.com/ee/ci/variables/index.html#mask-a-cicd-variable>
   * That may change, but can be reassessed.
 
 ### Who holds the Heroku account for this project?

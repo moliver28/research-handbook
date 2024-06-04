@@ -27,9 +27,9 @@ Provide a brief description of your purchase and be sure to select the correct c
 A Contractor or an Independent Contractor (IC) **is an individual** (not an entity / business) who provides goods, labor, or services to an organization but is not employed by the business. Instead, they work with the business as or part of a third party. Instead of being hired through the talent acquisition process, a Contractor communicates directly with the manager for the project and submits a competitive bid to be hired.
 
 - For GitLab purposes, a Contractor will likely communicate directly with the Procurement Team initially for onboarding and regarding the terms of the contract and the statement of work. Contractors set their own schedules and are responsible for arranging their own training and covering the costs of training. The specific test of whether someone is an “employee” or truly meets the definition of a “Contractor” depends on the law of the jurisdiction where the Contractor is located. For example, in California, a worker is by default considered an employee, unless the hiring entity meets all three conditions of the ABC Test:
-   - The person is independent of the hiring organization in connection with the performance of the work, both under the contract for the performance of the work and in fact.
-   - The person performs work that is outside the hiring entity’s business
-   - The person is routinely doing work in an independently established trade, occupation, or business that is the same as the work being requested and performed.
+  - The person is independent of the hiring organization in connection with the performance of the work, both under the contract for the performance of the work and in fact.
+  - The person performs work that is outside the hiring entity’s business
+  - The person is routinely doing work in an independently established trade, occupation, or business that is the same as the work being requested and performed.
 - **NOTE:** All requests for an Independent Contractor should include the requestor and/or Procurement asking if the potential Independent Contractor has a company under which they will, (i) receive payment(s), or (ii) enter into terms and conditions with GitLab for the delivery of services. GitLab's preference is to enter into a business-to-business relationship with all vendors.
 - For GitLab procurement process purposes, the term Independent Contractor (IC) is used when the ICSA form is required for completion and the IC is separate (independent) from a Third Party Professional Services vendor. If you have any questions on the definition or when to use the applicable contracts/terms, please reach out to Procurement in the Procurement slack channel.
 
@@ -105,7 +105,7 @@ By submitting a Zip Change Request, the applicable approvers will be added to th
 1. The supplier will receive a copy of the PO order and number at the email address they supplied for Accounts Payable.
 1. The supplier will receive communication from Coupa indicating how to make payment one of two ways:
    - Directly in their Coupa portal
-   - Send invoice to ap@gitlab.com with PO number included on the invoice
+   - Send invoice to <ap@gitlab.com> with PO number included on the invoice
    - Failure to follow these instructions will delay payment
    - Invoices uploaded to Coupa by a GitLab team member are not routed for payment.
 1. If your request was new software, update the [tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack) after the Zip Request is fully approved and the contract signed.

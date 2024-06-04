@@ -11,14 +11,14 @@ description: "The charter of this working group is to operationalize a new plan 
 | End Date | April 30, 2021 |
 | Slack           | [#jihu-working-group](https://app.slack.com/client/T02592416/C01S1CP1NTY/thread/D01FWA5DL4F-1617905508.009400) (only accessible from within the company) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1E5u8IXwEHAKLVyEDQrUgVFzj8GAdB2Ef-neoxkkz0Ls/edit#) (only accessible from within the company) |
-| Issue Board     | https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues             |
+| Issue Board     | <https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues>             |
 
 ### Exit Criteria
 
 The charter of this working group is to operationalize a new plan for servicing China, due on April 30, 2021. Ongoing plans for engagement should be clearly identified, agreed upon, and documented.
 
-- JiHu FAQ: https://about.gitlab.com/pricing/faq-jihu/
-- GitLab Blog on JiHu: https://about.gitlab.com/blog/2021/03/18/gitlab-licensed-technology-to-new-independent-chinese-company/
+- JiHu FAQ: <https://about.gitlab.com/pricing/faq-jihu/>
+- GitLab Blog on JiHu: <https://about.gitlab.com/blog/2021/03/18/gitlab-licensed-technology-to-new-independent-chinese-company/>
 
 ## Roles and Responsibilities
 

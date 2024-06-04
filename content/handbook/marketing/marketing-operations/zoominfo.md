@@ -88,7 +88,7 @@ Members of the sales organization and sales development, should receive access t
 
 Specifically, for a Marketing related role (SDRs/BDRs) please open an [individual access request - AR for short](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and tag your manager for approval and Rob Rosu (Mops), while for a Field Sales related role (AEs/SAEs/ASMs/ISRs) open an AR and tag your manager for approval and Briann Vandre (Data Intelligence).
 
-If you are experiencing issues with ZoomInfo, your first point of contact is ZoomInfo. You can reach them via email at: helpmenow@zoominfo.com.
+If you are experiencing issues with ZoomInfo, your first point of contact is ZoomInfo. You can reach them via email at: <helpmenow@zoominfo.com>.
 
 You can also reach out to the Data Intelligence or Mops teams via Slack at #dataintelligencehelp or in #mktgops.
 

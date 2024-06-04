@@ -232,7 +232,7 @@ Candidates for this position can expect the hiring process to follow the order b
 - Technical assessment.
 - 30-minute screening call with a Recruiter.
 - 90-Minute [Technical Interview](/handbook/hiring/interviewing/customer-support-interviewing/#4-90-minute-technical-interview-with-a-member-of-the-support-team) with a member of the Support team.
-    - The Technical Interview will involve live break-fix/bug-fix scenarios as well as customer scenarios. You will need to have access to a terminal with Bash or similar. You will also need to have an SSH key pair installed locally so you can connect to the server. Windows users must have ‘Git Bash for Windows’ installed prior to the call. If the Technical Interview is not passed, the Behavioral Interview will be canceled.
+  - The Technical Interview will involve live break-fix/bug-fix scenarios as well as customer scenarios. You will need to have access to a terminal with Bash or similar. You will also need to have an SSH key pair installed locally so you can connect to the server. Windows users must have ‘Git Bash for Windows’ installed prior to the call. If the Technical Interview is not passed, the Behavioral Interview will be canceled.
 - (optional) Zoom call with a member of the Support team – an opportunity for you to discuss any questions you might have about the role. This optional call has no influence on our decision, this is meant to help *you* clarify whatever you need to make your decision.
 - 60-Minute Behavioral Panel Interview with a Support Engineering Manager & one other member of the team.
 - 60-Minute Interview with a Senior Manager or Director of Support.

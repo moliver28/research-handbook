@@ -58,7 +58,7 @@ This page lists the details of the Technical Marketing Bill of Material delivera
 
 #### POV Template tasks
 
-**Description**: Partner with SA team to create key tasks/deliverables for a Proof of Value (see POV example: https://docs.google.com/document/d/1ZJ4Yt0-ja-LH0DZLln1tbWIKcSaf_gN4UQJ4Z1CtPuo/edit#heading=h.rei57tajtrnc  
+**Description**: Partner with SA team to create key tasks/deliverables for a Proof of Value (see POV example: <https://docs.google.com/document/d/1ZJ4Yt0-ja-LH0DZLln1tbWIKcSaf_gN4UQJ4Z1CtPuo/edit#heading=h.rei57tajtrnc>  
 **Quantity**: 1  
 **Buyer's Journey**: Decision  
 **Priority**: 3  

@@ -31,7 +31,7 @@ Embracing asynchronous communication and learning to use it effectively requires
 
 If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format.
 
-If there is an issue to raise regarding someone’s communication or conduct, team members should follow the process for [raising communication concerns](/handbook/people-group/team-member-relations/#raising-communication-concerns) by sharing their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
+If there is an issue to raise regarding someone’s communication or conduct, team members should follow the process for [raising communication concerns](/handbook/people-group/team-member-relations/#raising-communication-concerns) by sharing their concern with their manager or, if preferred, email Team Member Relations (<teammemberrelations@gitlab.com>) directly.
 
 ### Asynchronous communication
 
@@ -182,12 +182,12 @@ How to enable widget X
 
 Content guidelines across the industry support avoiding FAQs:
 
-1. https://www.plainlanguage.gov/guidelines/web/avoid-faqs/
-1. https://digital.gov/2015/04/27/are-faqs-still-relevant/
-1. https://guides.18f.gov/content-guide/our-approach/structure-the-content/
-1. https://gds.blog.gov.uk/2013/07/25/faqs-why-we-dont-have-them/
-1. https://thegood.com/insights/faq-pages/
-1. https://alistapart.com/article/no-more-faqs-create-purposeful-information-for-a-more-effective-user-experi/
+1. <https://www.plainlanguage.gov/guidelines/web/avoid-faqs/>
+1. <https://digital.gov/2015/04/27/are-faqs-still-relevant/>
+1. <https://guides.18f.gov/content-guide/our-approach/structure-the-content/>
+1. <https://gds.blog.gov.uk/2013/07/25/faqs-why-we-dont-have-them/>
+1. <https://thegood.com/insights/faq-pages/>
+1. <https://alistapart.com/article/no-more-faqs-create-purposeful-information-for-a-more-effective-user-experi/>
 
 ### Multimodal communication
 
@@ -936,7 +936,7 @@ This list offers additional guidance for written communication at GitLab:
 1. Do not use a hyphen when writing the term "open source" except where doing so eliminates ambiguity or clumsiness.
 1. If an email needs a response, write the answer at the top of it.
 1. Use the future version of words, just like we don't write internet with a capital letter anymore. We write frontend and webhook without a hyphen or space.
-1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
+1. Our homepage is <https://about.gitlab.com/> (with the `about.` and with `https`).
 1. If you use headers, properly format them (`##` in Markdown, "Heading 2" in Google Docs); start at the second header level because header level 1 is for titles. Do not end headers with a colon. Do not use emoji in headers as these cause links to have strange characters.
 1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request (MR)`.
 1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
@@ -1159,7 +1159,7 @@ There is a lot of information pertaining to Slack, as it is a critical part of G
 1. When referencing a Slack thread in a GitLab.com issue, don't *only* link to the thread. Not only will people outside of the GitLab organization be unable to access the content, but the link will expire after the Slack retention period expires. Instead:
    1. **Review the contents** for confidentiality of users, customers, or any other sensitive information before posting.
    1. Copy and paste the relevant parts of the thread into the issue using blockquote formatting.
-   1. Link to the Slack thread and include `(internal)` after the link. For example: https://gitlab.slack.com/archives/C0AR2KW4B/p1555347101079800 (internal)
+   1. Link to the Slack thread and include `(internal)` after the link. For example: <https://gitlab.slack.com/archives/C0AR2KW4B/p1555347101079800> (internal)
    1. Post a link to the issue note in the Slack thread to let others know that discussion has moved to the issue.
 1. When selecting your Slack display name, please do not have your name in all capital letters as this is often [associated as shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting) in written communications.
 
@@ -1214,7 +1214,7 @@ Earlier in our history, 50% of all communication *was* in public channels.
 
 **Note:** Some of these charts require data from a sheetload file that needs to be manually updated. To self-serve data for a chart with missing data, please visit Slack's [workspace administration page](https://slack.com/intl/en-gb/help/articles/218407447-View-your-Slack-analytics-dashboard#pro-and-business+-1). It provides guidance on how to access Slack's analytics dashboard for a particular workspace. If this data is required in the charts below, you can ping the #data channel for a refresh. If this becomes a common request, we may choose for the manual step to become regularly scheduled.
 
-{{< tableau height="700px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/GitLabSlack/ofMessagesnotDMsRolling3Months" />}}
+{{< tableau height="700px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/GitLabSlack/ofMessagesnotDMsRolling3Months>" />}}
 
 ### Use public channels
 

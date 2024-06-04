@@ -17,11 +17,11 @@ Here's how to set that up:
 You can skip Steps 3 through 6 below by importing the "Heat Map Question Block" from the Questions folder in the [UX Research & Product Question Library](https://www.qualtrics.com/support/survey-platform/account-library/survey-library/#UsingABlockOrQuestionFromTheLibrary)
 
 - Use a Text/ Graphic question type to create a place to describe your task scenario:
-   - Create a new survey block
-   - Select the +Add new question button that appears in the bottom right-hand corner of your new question block
-   - When you've clicked into that question, you'll see the Question Type options displayed in the left panel
-   - From the Question Type dropdown, select [‘Text / Graphic’](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/static-content/descriptive-text-and-graphic/)
-   - Insert your task scenario in place of the text 'Click to write the question text'
+  - Create a new survey block
+  - Select the +Add new question button that appears in the bottom right-hand corner of your new question block
+  - When you've clicked into that question, you'll see the Question Type options displayed in the left panel
+  - From the Question Type dropdown, select [‘Text / Graphic’](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/static-content/descriptive-text-and-graphic/)
+  - Insert your task scenario in place of the text 'Click to write the question text'
 
 **Step 4:** Add the graphic where you'd like your participants to perform their first click using the [Heat Map question type](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/specialty-questions/heat-map/)
 
@@ -44,19 +44,19 @@ You can skip Steps 3 through 6 below by importing the "Heat Map Question Block" 
 
 **Step 5:** Add a Timing question to track how long participants spend on the page with your first click question
 
-   - Select the +Add new question button that appears in the bottom right-hand corner of each question block
-   - From the +Add new question dropdown, select ‘Timing’
-   - The timing question will not be displayed to participants, though it will show up if you preview the survey. That is done so that you can be sure the question is working.
-   - Insert a [page break](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/add-page-break/) after the timing question by hovering underneath the question and clickging "+Add page break" when that option appears
+- Select the +Add new question button that appears in the bottom right-hand corner of each question block
+- From the +Add new question dropdown, select ‘Timing’
+- The timing question will not be displayed to participants, though it will show up if you preview the survey. That is done so that you can be sure the question is working.
+- Insert a [page break](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/add-page-break/) after the timing question by hovering underneath the question and clickging "+Add page break" when that option appears
 
 **Step 6:** Add a question that will help you understand why users clicked where they did or how they felt about their first click
 Knowing why users clicked where they did will help you understand how to adjust your designs.
 
 - Add a Text Entry question to have the user explain their motivation for clicking in a certain area. Example: Why did you click there? (open text)
 - You can also use a [Multiple Choice](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/standard-content/multiple-choice/) question to have them rate their level of confidence.
-    - Example: How confident are you that you clicked the correct location?
-      - Completely confident
-      - Somewhat confident
-      - Neutral
-      - Somewhat unsure
-      - Completely unsure
+  - Example: How confident are you that you clicked the correct location?
+    - Completely confident
+    - Somewhat confident
+    - Neutral
+    - Somewhat unsure
+    - Completely unsure

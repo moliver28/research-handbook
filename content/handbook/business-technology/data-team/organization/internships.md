@@ -112,10 +112,10 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 - Basic knowledge of dashboard tools (we use Sisense)
 - At least 1 completed demoable data project (Non-commercial projects done in a spare time also count, as do school projects)
 - Nice to have
-     - Understanding of software industry
-     - Prior experience in a Data Role
-     - Experience designing and managing projects
-     - Working knowledge of Python (we use Jupyter notebooks to analyse and visualise data)
+  - Understanding of software industry
+  - Prior experience in a Data Role
+  - Experience designing and managing projects
+  - Working knowledge of Python (we use Jupyter notebooks to analyse and visualise data)
 
 ### Data Science Internship for Learning
 
@@ -145,8 +145,8 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 - At least 1 completed data science project (Non-commercial projects done in a spare time also count, as do school projects)
 - Being proactive in a work you do, but also not afraid to ask questions
 - Nice to have
-     - Understanding of CRISP-DM framework
-     - Understanding of software industry
+  - Understanding of CRISP-DM framework
+  - Understanding of software industry
 
 ### Data Platform Team Internship for Learning
 
@@ -172,9 +172,9 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 - Self-motivated and self-managing, with task organizational skills
 - Working knowledge of SQL
 - Nice to have
-     - Understanding of software industry
-     - Prior experience in a Data Role
-     - Experience designing and managing projects
+  - Understanding of software industry
+  - Prior experience in a Data Role
+  - Experience designing and managing projects
 
 ### Data Analyst Internship for Learning
 

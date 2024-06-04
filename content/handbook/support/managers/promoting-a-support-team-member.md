@@ -25,8 +25,8 @@ In Support we start the promotion-docs review process
 as soon as the documents are ready for review.
 
 - Create the promotion document using the appropriate template:
-    - [Promotion to Senior Support Engineer - Template](https://drive.google.com/drive/search?q=Promotion%20to%20Senior%20Support%20Engineer%20-%20Template)
-    - FY23Q3+ Promotion to Staff Support Engineer -- link TBD, updates in
+  - [Promotion to Senior Support Engineer - Template](https://drive.google.com/drive/search?q=Promotion%20to%20Senior%20Support%20Engineer%20-%20Template)
+  - FY23Q3+ Promotion to Staff Support Engineer -- link TBD, updates in
       [this Epic](https://gitlab.com/groups/gitlab-com/support/-/epics/188)
 - Add a link to the document into the Support Promotions Projects spreadsheet
 - Complete the document with the Support Engineer

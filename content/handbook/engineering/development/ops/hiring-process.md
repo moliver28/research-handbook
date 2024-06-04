@@ -35,7 +35,7 @@ The process for Ops is a mix of the current [hiring manager (HM) tasks](/handboo
     1. The kickoff issue has the ~section::ops label applied so we can track in [this board](https://gitlab.com/gl-talent-acquisition/req-intake/-/boards/3516477?label_name[]=section%3A%3Aops) (confidential) and use it as the single source of truth (SSOT)
     1. If you have not received a kickoff issue within 3 business days of requesting the GHPID escalate this by mentioning @sgoldstein in the #doe-ops slack channel.
 1. [Complete Kickoff](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-2hm-complete-kick-off)
-1. Add the new vacancy to the handbook https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/vacancy
+1. Add the new vacancy to the handbook <https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/vacancy>
 
 ### Step 3. Setup job in Greenhouse
 

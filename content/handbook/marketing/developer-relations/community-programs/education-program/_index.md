@@ -94,7 +94,7 @@ In order to qualify for the GitLab for Education Program, applicants must:
 * **Be a full-time faculty or staff member at the qualified educational institution**: We can only issue licenses to full-time faculty or staff who are directly employed full-time at the educational institution. Students who may also be employed in a staff role cannot apply.
 
 **Please note:** the decision to issue a GitLab license via the GitLab for Education Program is always at the discretion of GitLab.
-If you have questions on the application and decision making process, please contact education@gitlab.com.
+If you have questions on the application and decision making process, please contact <education@gitlab.com>.
 
 ### Examples of educational institutions that qualify
 

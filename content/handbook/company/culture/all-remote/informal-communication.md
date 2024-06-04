@@ -41,7 +41,7 @@ It's helpful to be transparent about your communication preferences so managers 
 
 > Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1270721630537277442)
 >
-> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://about.gitlab.com/company/culture/all-remote/informal-communication/ which I'll summarize in this thread.
+> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods <https://about.gitlab.com/company/culture/all-remote/informal-communication/> which I'll summarize in this thread.
 
 ### Organize informal communication
 

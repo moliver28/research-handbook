@@ -131,7 +131,7 @@ to local development:
 The environments should be configured as closely as possible as a best practice
 to reduce errors in deployment due to inconsistent configuration.
 
-#### GCP Security Group (gcp-*-sg@gitlab.com) Conventions
+#### GCP Security Group (gcp-*<-sg@gitlab.com>) Conventions
 
 Security groups for `gitlab.com` organization resources should be named `gcp-:grouppurpose-sg@gitlab.com`.
 

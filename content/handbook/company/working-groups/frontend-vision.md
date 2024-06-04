@@ -26,7 +26,7 @@ Currently, our frontend development guidelines only document features and practi
 
 ### Exit Criteria
 
-Updates are being tracked every other week within https://gitlab.com/gitlab-org/gitlab/-/issues/419576.
+Updates are being tracked every other week within <https://gitlab.com/gitlab-org/gitlab/-/issues/419576>.
 
 1. Add introduction page to frontend documentation, explaining direction and high-level overview of the frontend codebase/architecture.
 1. Include evolution of codebase over three year horizon.

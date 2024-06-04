@@ -67,10 +67,10 @@ Data subject to laws and regulation that should not be made generally available.
 Examples include:
 
 - Personal Data
-     - Any vendor who is in possession of any form of Personal Data must have appropriate contractual terms that address GitLab data protection requirements (e.g. a Data Processing Agreement).
-     - If Personal Data comprises a part of the data set to be processed, then the data classification for that data set should be Orange and the classification cannot be Yellow or Green, even if the majority of the data set is Yellow or Green data.
-     - The source of the Personal Data should not change its classification to a level below Orange since Personal data gathered from public sources is not exempt from protection under certain data protection laws.
-     - If you have doubts as to whether something is Personal Data, please see an exhaustive list of Personal Data elements in the [Data Classification Index](https://internal.gitlab.com/handbook/security/data_classification/) (internal only)
+  - Any vendor who is in possession of any form of Personal Data must have appropriate contractual terms that address GitLab data protection requirements (e.g. a Data Processing Agreement).
+  - If Personal Data comprises a part of the data set to be processed, then the data classification for that data set should be Orange and the classification cannot be Yellow or Green, even if the majority of the data set is Yellow or Green data.
+  - The source of the Personal Data should not change its classification to a level below Orange since Personal data gathered from public sources is not exempt from protection under certain data protection laws.
+  - If you have doubts as to whether something is Personal Data, please see an exhaustive list of Personal Data elements in the [Data Classification Index](https://internal.gitlab.com/handbook/security/data_classification/) (internal only)
 - GitLab Intellectual property
 - Customer metadata
 - Audit logs
@@ -106,7 +106,7 @@ Data that is publicly shareable, and does not expose GitLab or its customers to 
 Examples include:
 
 - [GitLab handbook](/)
-     - Including most GitLab runbooks/work instructions/manuals/policies/procedures
+  - Including most GitLab runbooks/work instructions/manuals/policies/procedures
 - Public announcements
 - [Public product information](https://docs.gitlab.com/ee/)
 

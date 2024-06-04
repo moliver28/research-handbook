@@ -393,7 +393,7 @@ to focus on quality and testing more"
     - We had a Summit in Oct'15, and are having one in May'16. We aim to have these every 6-9 months. We are thinking about organizing a hackathon during the [Summit](https://gitlab.com/summits/Austin-Summit-2016-project/blob/master/Proposed_Activities.md); please upvote if you want it to happen!
 1. "We share a lot about our software 'side'; can we share more about our other 'sides' (like how marketing does marketing) in a "team blog"? This would help in hiring awesome people!"
     - We love blog posts and sharing all of GitLab's 'sides'. Please channel your inner need to write a blog post (or part of it!) on our [blog](https://gitlab.com/gitlab-com/blog-posts/issues) repo.
-1. "Additional training for dev people, maybe? Specific suggestions for topics include agile coding, code quality, and there is a suggestion for Robert "Uncle Bob " Marcin (https://sites.google.com/site/unclebobconsultingllc/) for code quality
+1. "Additional training for dev people, maybe? Specific suggestions for topics include agile coding, code quality, and there is a suggestion for Robert "Uncle Bob " Marcin (<https://sites.google.com/site/unclebobconsultingllc/>) for code quality
     - After some research within the team there was a greater interest in a "birds of a feather" gathering than formal training. We're looking to do this during our Summit trip to Austin.
 1. "What features are we planning? See [/direction](https://about.gitlab.com/direction/)
 1. "How are we doing? How does the Board see it? Can we keep up the growth and the Sales?"

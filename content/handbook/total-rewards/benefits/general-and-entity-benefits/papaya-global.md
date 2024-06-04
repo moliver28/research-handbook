@@ -5,7 +5,7 @@ description: "Papaya Global"
 
 ## UAE
 
-The following benefits are provided by [Papaya Global](https://www.papayaglobal.com/) and apply to team members who are contracted through Papaya Global. If there are any questions, these should be directed to Katie Taylor: KatieTa@papayaglobal.com
+The following benefits are provided by [Papaya Global](https://www.papayaglobal.com/) and apply to team members who are contracted through Papaya Global. If there are any questions, these should be directed to Katie Taylor: <KatieTa@papayaglobal.com>
 
 You can find a more detailed breakdown of the benefits below [here](https://docs.google.com/spreadsheets/d/1eXT_0-mP2bNQtTO6opLjYSjdbH_Yuj8JIqMPM7DT80g/edit#gid=0), but please note some of the allowances are dependant on circumstance so figures may vary.
 
@@ -25,11 +25,11 @@ The Team Member's Child Education Allowance will be outlined in their agreement.
 
 In order to be eligible for the allowance, the child(ren) must be the age of 18 or younger and be attending primary, preparatory or secondary school in the UAE. Higher education (i.e. college) is not covered under the child education allowance.
 
-Upon your start date, please send Total-Rewards@gitlab.com a copy of the invoice for your child's schooling in order to verify attendance, and age.
+Upon your start date, please send <Total-Rewards@gitlab.com> a copy of the invoice for your child's schooling in order to verify attendance, and age.
 
 It is the team member's responsibility to notify Total-Rewards when their child is no longer eligible in order to remove the allowance. If the team member neglects to inform Total-rewards in a timely manner, the team member would be responsible for repayment of the allowance.
 
-Should a Team Member's dependent become eligible, the team member should notify Total-rewards@gitlab.com with a copy of the invoice for our child's schooling, and Total-Rewards will work with Papaya to update your allowance.
+Should a Team Member's dependent become eligible, the team member should notify <Total-rewards@gitlab.com> with a copy of the invoice for our child's schooling, and Total-Rewards will work with Papaya to update your allowance.
 
 #### Annual Return Flights Home
 
@@ -150,7 +150,7 @@ The mandatory contributions are below:
 
 ### Medical
 
-Medical is covered by the [FASDAC](https://www.fasdac.it/) healthcare pension fund, to fill the gap for supplementary team members may be entited to a taxable allowance of €300 each month to go toward private medical insurance. To apply for this you must reach out to total-rewards@gitlab.com and save a copy of your medical insurance quote/invoice into WorkDay.
+Medical is covered by the [FASDAC](https://www.fasdac.it/) healthcare pension fund, to fill the gap for supplementary team members may be entited to a taxable allowance of €300 each month to go toward private medical insurance. To apply for this you must reach out to <total-rewards@gitlab.com> and save a copy of your medical insurance quote/invoice into WorkDay.
 
 ### Pension
 

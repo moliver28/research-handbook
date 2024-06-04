@@ -27,14 +27,14 @@ factors:
 
 ### Exit Criteria
 
-1. CSS utilities are generated with Tailwind: https://docs.gitlab.com/ee/architecture/blueprints/tailwindcss/.
+1. CSS utilities are generated with Tailwind: <https://docs.gitlab.com/ee/architecture/blueprints/tailwindcss/>.
     1. They strictly enforce Pajamas specifications through the use of design tokens.
     1. Color utilities support dark theme overrides.
-    1. Any necessary migrations have been completed: https://gitlab.com/groups/gitlab-org/-/epics/12108.
+    1. Any necessary migrations have been completed: <https://gitlab.com/groups/gitlab-org/-/epics/12108>.
     1. Development guidelines have been updated to reflect any direction change in how we write CSS.
-1. Page-specific style definitions have been moved to individual bundles: https://gitlab.com/groups/gitlab-org/-/epics/3694.
-1. CSS rules have been migrated to CSS utilities: https://gitlab.com/groups/gitlab-org/-/epics/8326.
-1. Color declarations have been consolidated to only use Pajamas-compliant ones: https://gitlab.com/groups/gitlab-org/-/epics/8599.
+1. Page-specific style definitions have been moved to individual bundles: <https://gitlab.com/groups/gitlab-org/-/epics/3694>.
+1. CSS rules have been migrated to CSS utilities: <https://gitlab.com/groups/gitlab-org/-/epics/8326>.
+1. Color declarations have been consolidated to only use Pajamas-compliant ones: <https://gitlab.com/groups/gitlab-org/-/epics/8599>.
 
 ### Roles and Responsibilities
 

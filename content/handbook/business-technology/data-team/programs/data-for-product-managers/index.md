@@ -35,9 +35,9 @@ Here are some useful links that we recommend for you to bookmark:
 #### How do I know what tables are available?
 
 - The data team uses a tool called [dbt](https://www.getdbt.com/) for our data transformation layer. A nice feature of dbt is dbt docs, which automatically creates documentation for all of the models in our schema. Our dbt docs instance can be found [here](https://gitlab-data.gitlab.io/analytics/#!/overview).
-    - Tableau will show a list of all tables available for querying when you form a connection to Snowflake in the Data Source pane.
-    - ![''](/handbook/business-technology/data-team/programs/data-for-product-managers/schemas.png)
-    - Table names are always prefixed by their source name. So the table that stores the ngroups table from the gitlab dotcom database is available at `legacy.gitlab_dotcom_groups`
+  - Tableau will show a list of all tables available for querying when you form a connection to Snowflake in the Data Source pane.
+  - ![''](/handbook/business-technology/data-team/programs/data-for-product-managers/schemas.png)
+  - Table names are always prefixed by their source name. So the table that stores the ngroups table from the gitlab dotcom database is available at `legacy.gitlab_dotcom_groups`
 
 ##### How can I update or add more information to the dbt docs?
 
@@ -61,9 +61,9 @@ Next, create a branch and then submit an MR using the `dbt Model Changes` templa
 The first question we on the data team ask product managers is usually "are you interested in knowing this for self-managed or GitLab.com?" Our approach to answering your question differs greatly between the two. Although our self-managed offering has many more active customers, our GitLab.com offering has much more data available to analyze.
 
 - We have three primary data sources that are useful from a product perspective.
-    - **Service Ping** (for Self-Managed and GitLab.com)
-    - **GitLab.com Postgres Database** (for GitLab.com)
-    - **Snowplow** (for GitLab.com)
+  - **Service Ping** (for Self-Managed and GitLab.com)
+  - **GitLab.com Postgres Database** (for GitLab.com)
+  - **Snowplow** (for GitLab.com)
 
 ### Service Ping (Version App)
 
@@ -114,7 +114,7 @@ You can find details about those snippets on the [Product Manager Toolkit](/hand
 
 - Snowplow Analytics is an open-source enterprise event-level analytics platform that enables data collection from multiple platforms for advanced data legacy.
 - GitLab.com currently uses two of these snowplow tracking libraries: JavaScript and Ruby.
-    - With the JS library, we track a lot of front-end activity automatically (All page views, sessions, link clicks, some button clicks, etc.) We also utilize structured events to capture specific events with defined business logic.
+  - With the JS library, we track a lot of front-end activity automatically (All page views, sessions, link clicks, some button clicks, etc.) We also utilize structured events to capture specific events with defined business logic.
 - We do not track `user_id` on any of the snowplow events, making all events functionally anonymous. This severely limits the utility of these events.
 - We have found the [Snowplow Inspector](https://chrome.google.com/webstore/detail/snowplow-inspector/maplkdomeamdlngconidoefjpogkmljm?hl=en) to be very useful in tracing and debugging events being sent through the browser.
 - Snowplow is not sending data from self-managed instances. If they deem it helpful, the instance administrator can [configure their own Snowplow endpoint](https://docs.gitlab.com/ee/development/snowplow/#enable-snowplow-tracking) for the events.
@@ -187,7 +187,7 @@ TODO
 
 - [Analytics Instrumentation](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) is part of the product org and is completely separate from the Data team. However, the Data team and the Analytics Instrumentation collaborate closely as Product Analytics Fusion Team.
 - The Analytics Instrumentation team members are the [DRI](/handbook/people-group/directly-responsible-individuals/)s for data collection across both GitLab.com and Self-Managed. They own Service Ping and Snowplow. They are the ones to go to for questions like:
-    - How do I instrument a new statistic for self-managed?
-    - What are the best practices for adding to service ping?
-    - How can I use snowplow to track a frontend interaction on GitLab.com?
-    - Can I utilize snowplow to track events on the server-side?
+  - How do I instrument a new statistic for self-managed?
+  - What are the best practices for adding to service ping?
+  - How can I use snowplow to track a frontend interaction on GitLab.com?
+  - Can I utilize snowplow to track events on the server-side?

@@ -119,11 +119,11 @@ One way that groups can keep error budgets in mind is by automating a weekly rem
 
 A [Slack workflow](https://gitlab.com/gitlab-com/gl-infra/scalability/-/snippets/2299544) can be created that allows any member of the team to provide a quick update on the current error budget status.
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "SECTION_LABEL"="dev" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "SECTION_LABEL"="dev" >}}
 {{< /tableau >}}
 
@@ -131,7 +131,7 @@ A [Slack workflow](https://gitlab.com/gitlab-com/gl-infra/scalability/-/snippets
 
 - Issue Tracker
 - Slack Channels
-    - #sd_dev_engineering
-    - #s_manage
-    - #s_plan
-    - #s_create
+  - #sd_dev_engineering
+  - #s_manage
+  - #s_plan
+  - #s_create

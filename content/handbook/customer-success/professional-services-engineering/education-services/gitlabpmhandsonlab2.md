@@ -21,7 +21,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. You have already redeemed the invitation/voucher code.
 
-1. You have signed into https://gitlab.com with your existing username.
+1. You have signed into <https://gitlab.com> with your existing username.
 
 1. You have clicked the `My Group` button and opened a new browser tab with the URL `https://gitlab.com/gitlab-learn-labs/environments/session-{id}/iu{######}`. You should see `My Test Group - iu{######}` as the title of the group.
 

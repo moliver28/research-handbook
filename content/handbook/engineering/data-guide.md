@@ -22,7 +22,7 @@ In this section, we share commonly used data models that fuel many of our dashbo
 
 - **Description**: This table is filtered down to all merge requests that directly affect our product.
 - **Granularity**: One row per merge request
-- **Documentation**: https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.engineering_merge_requests
+- **Documentation**: <https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.engineering_merge_requests>
 
 ### workspace_engineering.internal_merge_requests
 

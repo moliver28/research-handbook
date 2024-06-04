@@ -119,7 +119,7 @@ a.save!
 * Clone the [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit), if it doesn't already exist, and `cd` into it
 * Run `mkdir terraform/environments/$GCP_ENV_PREFIX`
 * Run `mkdir -p ansible/environments/$GCP_ENV_PREFIX/files/gitlab_tasks`
-* Navigate to https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs (pending merge of [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4))
+* Navigate to <https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs> (pending merge of [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4))
 * Copy the `configs/$GCP_ENV_PREFIX/terraform/*.tf` files into the `terraform/environments/$GCP_ENV_PREFIX` diretory
 * Copy the `configs/$GCP_ENV_PREFIX/ansible/*.yml` files into the `ansible/environments/$GCP_ENV_PREFIX` diretory
 * From the root directory, follow the steps in [Installing Ansible with a Virtual Environment](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#installing-ansible-with-a-virtual-environment)

@@ -80,7 +80,7 @@ It is not required to be active on social media as a GitLab team member. It is a
     Social Media Knowledge Assessment
   </summary>
 
-Anyone can become certified in the GitLab Social Media Training. To obtain certification, you will need to complete this Social Media Knowledge Assessment and earn at least an 80%. Once the quiz has been passed, you will receive an email with your certification that you can share on your personal LinkedIn or Twitter pages. If you have questions, please reach out to our L&D team at learning@gitlab.com.
+Anyone can become certified in the GitLab Social Media Training. To obtain certification, you will need to complete this Social Media Knowledge Assessment and earn at least an 80%. Once the quiz has been passed, you will receive an email with your certification that you can share on your personal LinkedIn or Twitter pages. If you have questions, please reach out to our L&D team at <learning@gitlab.com>.
 
 </details>
 

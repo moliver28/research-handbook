@@ -308,13 +308,13 @@ In the Distribution team specifically, everyone should have access to the
 following resources:
 
 - Google projects in [Google Cloud Platform](https://console.cloud.google.com/)
-   - `testground`
-   - `cloud-native`
-   - `omnibus-build-runners`
+  - `testground`
+  - `cloud-native`
+  - `omnibus-build-runners`
 - AWS build infrastructure
-   - Distribution group AWS sandbox account
-   - `cloud-native` EKS cluster for CI (requires a maintainer to [grant access](https://stackoverflow.com/questions/59987859/kubectl-error-you-must-be-logged-in-to-the-server-unauthorized/59991446#59991446))
-   - [GitLabTop account](https://gitlab-top.signin.aws.amazon.com/console) (To be retired, existing team members only)
+  - Distribution group AWS sandbox account
+  - `cloud-native` EKS cluster for CI (requires a maintainer to [grant access](https://stackoverflow.com/questions/59987859/kubectl-error-you-must-be-logged-in-to-the-server-unauthorized/59991446#59991446))
+  - [GitLabTop account](https://gitlab-top.signin.aws.amazon.com/console) (To be retired, existing team members only)
 
 If you don't have access to any of these resources, create an
 [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) and
@@ -435,18 +435,18 @@ How did Distribution get its name? We iterated, as always. "Distribution" was ch
 
 ## Dashboards
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+{{< tableau height="600px" toolbar="hidden" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="distribution" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1>" >}}
   {{< tableau/filters "GROUP_LABEL"="distribution" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues>" >}}
   {{< tableau/filters "GROUP_NAME"="distribution" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+{{< tableau height="600px" src="<https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard>" >}}
   {{< tableau/filters "GROUP_LABEL"="distribution" >}}
 {{< /tableau >}}

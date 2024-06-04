@@ -107,7 +107,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. If applicable, please be sure to include any relevant issues or merge requests that support the nomination.
 1. Once submitted, the bot will send this over to the manager to kick-off the approval flow.
 1. If at any point in the approval flow the manager or the manager's manager has a question about approving the bonus they can reach out to the manager and/or nominator for more context. If they have remaining questions related to the process and logistics (e.g., where is the bonus in the approval chain?), this [FAQ guide](/handbook/people-group/engineering/nominatorbot/#frequenty-asked-questions) could help clarify, alternatively they can reach out to [people connect](/handbook/people-group/people-connect/). For remaining questions regarding guidance on whether to approve a nomination, they can reach out to their aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
-1. If the manager or second level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please email people-connect@gitlab.com with who the nomination is for, so it can be manually moved to the next level manager to be processed.
+1. If the manager or second level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please email <people-connect@gitlab.com> with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. Once everyone has approved the bot will report back to you with the good news. If it's rejected we ask the person who rejects, to reach out to you. That is not done by the bot.
 
 ##### Manager Process
@@ -181,24 +181,24 @@ On a quarterly basis there's a review of the discretionary bonuses data. This in
 ## Real Examples of Real Team Members Who Received Bonuses for Doing Great Things
 
 - This document presents the case for awarding a UX team member an incentive. The UX team member is reliable, fair and respectful, consistently acting in the best interest of the company as well as the team.
-    - Collaboration: The UX team member took on the extra duties of UX Lead and handled the interim duties seamlessly. She responded kindly to the community feedback on sidebar issue in 9.0 well. She personally helped the VP of Engineering finish the merit review process for the UX team.
-    - The UX team member has greatly helped the UX Lead transition to her new role by assisting with meetings, transferring knowledge openly, and being available for questions whenever necessary.
-    - Results and Efficiency: The UX team member quickly delivered screenshots for a partnership in a day or two. She did a great job with the UX team updates, providing clear and visual screenshots of what the team was working on. She helped the team deliver the UX improvements shown in those updates.
+  - Collaboration: The UX team member took on the extra duties of UX Lead and handled the interim duties seamlessly. She responded kindly to the community feedback on sidebar issue in 9.0 well. She personally helped the VP of Engineering finish the merit review process for the UX team.
+  - The UX team member has greatly helped the UX Lead transition to her new role by assisting with meetings, transferring knowledge openly, and being available for questions whenever necessary.
+  - Results and Efficiency: The UX team member quickly delivered screenshots for a partnership in a day or two. She did a great job with the UX team updates, providing clear and visual screenshots of what the team was working on. She helped the team deliver the UX improvements shown in those updates.
 - A Support team member received a bonus for:
-    - Results & boring solutions: He managed to swap the database from PG9.2 to PG9.6 without significant downtime. It was even boring. ­
-    - Sharing: His issues, guidelines, monitoring, you­name­it are exemplary. He keeps raising the bar and leaving a written trace to follow when he is not around. ­
-    - Efficiency: He always hits the nail and does the right thing, has a great sense of priorities and can jump into production to solve a *right now* pain in a heartbeat. ­
-    - Quirkiness: What to say? Do you want someone washing grapes or painting a wall in a call, just invite him.
+  - Results & boring solutions: He managed to swap the database from PG9.2 to PG9.6 without significant downtime. It was even boring. ­
+  - Sharing: His issues, guidelines, monitoring, you­name­it are exemplary. He keeps raising the bar and leaving a written trace to follow when he is not around. ­
+  - Efficiency: He always hits the nail and does the right thing, has a great sense of priorities and can jump into production to solve a *right now* pain in a heartbeat. ­
+  - Quirkiness: What to say? Do you want someone washing grapes or painting a wall in a call, just invite him.
 - A Marketing team member received a bonus for:
-    - Transparency: The marketing team member always works in the open. In our 1:1s she is very clear on her focus and aligns priorities with team priorities. Everything she is working on links to an issue.
-    - Efficiency: The marketing team member is an excellent example of someone who can get multiple things done in a short amount of time. She can efficiently manage many high quality projects without getting bogged down in the details.
-    - Collaboration: The marketing team member worked with the VP of Scaling to update the general handbook to make it prettier. This shows she collaborates well outside of her team. The marketing team member has also been helping a colleague with content management.
-    - Directness: The marketing team member gives excellent review feedback on blog posts. She is very direct and not afraid of perfection.
+  - Transparency: The marketing team member always works in the open. In our 1:1s she is very clear on her focus and aligns priorities with team priorities. Everything she is working on links to an issue.
+  - Efficiency: The marketing team member is an excellent example of someone who can get multiple things done in a short amount of time. She can efficiently manage many high quality projects without getting bogged down in the details.
+  - Collaboration: The marketing team member worked with the VP of Scaling to update the general handbook to make it prettier. This shows she collaborates well outside of her team. The marketing team member has also been helping a colleague with content management.
+  - Directness: The marketing team member gives excellent review feedback on blog posts. She is very direct and not afraid of perfection.
 - A Product team member received a bonus for:
-    - Collaboration:  Works together well with everyone and actively recruits opinions across the organization.
-    - Results: Shipping consistent and meaningful improvements in issues, board, etc.
-    - Efficiency: Actively avoids meetings and encourages async work.
-    - Iteration: Reduces everything to its very minimal iteration, not paying with quality or usability, yet moving forward with each release.
+  - Collaboration:  Works together well with everyone and actively recruits opinions across the organization.
+  - Results: Shipping consistent and meaningful improvements in issues, board, etc.
+  - Efficiency: Actively avoids meetings and encourages async work.
+  - Iteration: Reduces everything to its very minimal iteration, not paying with quality or usability, yet moving forward with each release.
 
 ## GitLab Awards Program
 

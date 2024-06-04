@@ -338,7 +338,7 @@ In order to facilitate an environment of learning and development, the Customer 
 
 To get started, here is a quick tour of what the O’Reilly Learning Platform can provide to our team, please check out this [short introductory video](https://www.loom.com/share/fca91ca4e127494fb5f4130b85eaa9ea).
 
-If you do not already have a login are outside of the customer success organization, please let the Corproate Learning and Development Team know you are interested. You can also purchase a single licesne with the GitLab pricing by contacting Jason Baca at jbaca@oreilly.com.
+If you do not already have a login are outside of the customer success organization, please let the Corproate Learning and Development Team know you are interested. You can also purchase a single licesne with the GitLab pricing by contacting Jason Baca at <jbaca@oreilly.com>.
 
 ### O'Reilly Answer Slack Bot
 

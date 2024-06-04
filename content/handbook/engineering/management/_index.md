@@ -111,7 +111,7 @@ Where:
 - Acting or Interim roles are [temporary management positions](/handbook/engineering/career-development/#temporary-management-positions).
 - `Senior` manager roles are introduced when needed, usually related to management [span of control](/handbook/company/structure/#management-group) in the relevant department.
 - Some departments have domain specific role names as well as, or instead of, `Engineering Manager`. Be specific when identifying which manager under Engineering is responsible for certain tasks in order to avoid confusion over the term "EM". For example:
-    - `Support Operations Manager` for Support.
+  - `Support Operations Manager` for Support.
 - Specialty - which is maintained in Workday and [sync'ed to the handbook](/handbook/people-group/engineering/miscellaneous/#team-page-entry-specialty-field) - should generally follow these guidelines:
-    - Should include a `Stage`. Choose the primary stage if the manager covers multiple stages.
-    - For managers who manage individual contributors, include the group (`Stage: Group`). Choose the primary group if the manager covers multiple groups.
+  - Should include a `Stage`. Choose the primary stage if the manager covers multiple stages.
+  - For managers who manage individual contributors, include the group (`Stage: Group`). Choose the primary group if the manager covers multiple groups.

@@ -40,15 +40,15 @@ Purchased duo pro seats are added as **add-ons** in a customer's main subscripti
 
 For both Self-Managed and GitLab.com, impersonating the customer's account is the most straightforward method for checking if a subscription has Duo Pro seats:
 
-1. Locate the customer's CustomersDot account by searching using the customer's email domain in https://customers.gitlab.com/admin/customer.
+1. Locate the customer's CustomersDot account by searching using the customer's email domain in <https://customers.gitlab.com/admin/customer>.
 1. Impersonate the CustomersDot account that has a `Subscription` label and check the details for **Duo Pro seats**
 
-  - NOTE: Always check the **start and end date** of the Duo Pro add-on seats
+- NOTE: Always check the **start and end date** of the Duo Pro add-on seats
 
 Other optional methods are below:
 
 - For Self-Managed, follow the below steps until [Duo Pro seat count is displayed in Licenses page](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/9411) is implemented:
-  1. Locate the customer's CustomersDot account by searching using the customer's email domain in https://customers.gitlab.com/admin/license.
+  1. Locate the customer's CustomersDot account by searching using the customer's email domain in <https://customers.gitlab.com/admin/license>.
   1. Click on the `i` icon to navigate to the license details page.
   1. Scroll down and copy the `License Key`.
   1. Navigate to the [Validate License page](https://customers.gitlab.com/admin/license/validate_license).
@@ -72,7 +72,7 @@ When a customer follows [these steps to start a GitLab Duo Pro trial](https://do
 
 ### GitLab.com Duo Pro trials
 
-All GitLab.com Duo Pro trials can be located using this query: https://customers.gitlab.com/admin/order?query=saas-gitlab-duo-pro-trial-plan-id
+All GitLab.com Duo Pro trials can be located using this query: <https://customers.gitlab.com/admin/order?query=saas-gitlab-duo-pro-trial-plan-id>
 
 1. Navigate to the [Orders page is CustomersDot](https://customers.gitlab.com/admin/order).
 1. Search using the customer's [Namespace ID](https://docs.gitlab.com/ee/user/group/#get-the-group-id).

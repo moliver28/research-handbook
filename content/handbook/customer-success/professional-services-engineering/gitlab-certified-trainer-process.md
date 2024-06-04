@@ -38,7 +38,7 @@ Here are the steps required to obtain GitLab Certified Trainer Certification for
 
 **Step 3**: Present proof++ that you are a professional trainer.
 
-**Step 4**: Onboard to GitLab LMS by registering as a Buyer [here](https://my.leapest.com/register) and request an onboarding session with support@edcast.com. In the GitLab Learn Marketplace, search for the appropriate [student kit](https://products.leapest.com/welcome).
+**Step 4**: Onboard to GitLab LMS by registering as a Buyer [here](https://my.leapest.com/register) and request an onboarding session with <support@edcast.com>. In the GitLab Learn Marketplace, search for the appropriate [student kit](https://products.leapest.com/welcome).
 
 **Step 5**: Deliver the entire course to students, record the course, and receive an average rating of at least 4 out of 5* on the customer Training Survey+ at least twice by the end of 2 full quarters from the completion date of Step 4.
 

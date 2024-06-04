@@ -51,12 +51,12 @@ Regionally the Channel SA's coordinate issues within the following projects:
 
 #### AMER
 
-- https://gitlab.com/gitlab-com/channel/partners/amer/amer-internal
+- <https://gitlab.com/gitlab-com/channel/partners/amer/amer-internal>
 
 #### APAC
 
-- https://gitlab.com/gitlab-com/channel/partners/apac/apac-internal
+- <https://gitlab.com/gitlab-com/channel/partners/apac/apac-internal>
 
 #### EMEA
 
-- https://gitlab.com/gitlab-com/channel/partners/emea/emea-internal
+- <https://gitlab.com/gitlab-com/channel/partners/emea/emea-internal>

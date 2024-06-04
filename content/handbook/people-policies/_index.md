@@ -144,9 +144,9 @@ The following are GitLab’s procedures in the event a team member feels threate
 
 ## Workers' Compensation
 
-If you have been injured at work, at a co-working site, or traveling to a customer location please contact the Absence Management team (leaves@gitlab.com). The Absence Management team will provide you with paperwork to file your claim and explain your benefits.
+If you have been injured at work, at a co-working site, or traveling to a customer location please contact the Absence Management team (<leaves@gitlab.com>). The Absence Management team will provide you with paperwork to file your claim and explain your benefits.
 
-**CA Team Members Only**: Complete this [form](https://www.dir.ca.gov/dwc/DWCForm1.pdf) and email to the Absence Management Team at leaves@gitlab.com.
+**CA Team Members Only**: Complete this [form](https://www.dir.ca.gov/dwc/DWCForm1.pdf) and email to the Absence Management Team at <leaves@gitlab.com>.
 
 The following states are considered “monopolistic” workers compensation states, meaning employers must purchase workers compensation coverage directly from the state. If a team member in these states is injured, they may file the claim themselves or the Absence Management Team will file on their behalf. **Team members in these States are still required to contact the Absence Management Team, even if they file their own claim through the State**:
 
@@ -187,7 +187,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
 
         For additional information, please see the Mental Wellness Services offered through [Modern Health](/handbook/total-rewards/benefits/modern-health/) and tips on [Leading Through Adversity](/handbook/leadership/managing-conflict/leading-through-adversity/). Additionally, team members should learn to [recognize burnout](/handbook/people-group/paid-time-off/#recognizing-burnout) and to [prevent it](https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit/).
 
-Any questions or concerns? Please feel free to contact the People Connect team in the #people-connect Slack channel or email people-connect@gitlab.com.
+Any questions or concerns? Please feel free to contact the People Connect team in the #people-connect Slack channel or email <people-connect@gitlab.com>.
 
 ## Other People Policies
 
@@ -336,7 +336,7 @@ For more information about the 48-hour working week restrictions, please visit t
 *How to opt-out of the 48-hour working week*
 
 It is entirely your decision if you would like to work more than an average of 48 hours a week. GitLab is committed to enabling team members to maintain a healthy work-life balance, but on occasion (for example during periods of high customer demand) you may be asked to work longer hours. To ensure that we remain compliant with the regulations, we ask you to opt out of them, in case such a need arises.
-If you would like to opt-out, you can do this by signing this written agreement, known as the opt-out agreement. You may have chosen to sign/confirm this agreement already during your onboarding. The duration of the agreement is indefinite. If you haven't already signed [this agreement](https://docs.google.com/document/d/1DRu62fqQW7OQV0lS6evf_XxdQ-0IVZl1Jk_LmSgEhDo/edit#heading=h.tkxekwf0szl9) but would like to do so, you can make a copy of this document, add your name and sign it, and email a copy to people-connect@gitlab.com, with a request that it be saved with your documents in Workday.
+If you would like to opt-out, you can do this by signing this written agreement, known as the opt-out agreement. You may have chosen to sign/confirm this agreement already during your onboarding. The duration of the agreement is indefinite. If you haven't already signed [this agreement](https://docs.google.com/document/d/1DRu62fqQW7OQV0lS6evf_XxdQ-0IVZl1Jk_LmSgEhDo/edit#heading=h.tkxekwf0szl9) but would like to do so, you can make a copy of this document, add your name and sign it, and email a copy to <people-connect@gitlab.com>, with a request that it be saved with your documents in Workday.
 
 *How do I cancel my opt-out agreement?*
 
