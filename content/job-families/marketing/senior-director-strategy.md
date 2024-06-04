@@ -2,16 +2,16 @@ title: "Sr Director, Strategy"
 summary: As the Senior Director, Strategy, you will play a pivotal role in shaping GitLab’s strategic direction, focusing on AI and hyperscaler trends. You will drive strategic initiatives that align with our growth and marketing objectives.
 ---
 
-##Job Grade
+### Job Grade
 
 The Sr. Director of Strategy is a job grade 11.
 
-##Job Level
+### Job Level
 
 The Senior Director, Strategy reports to the VP, Strategy and Developer Relations.
 
 
-##Responsibilities:
+### Responsibilities:
 
 - Lead the development and execution of business and products strategies focused on AI and hyperscaler engagements, particularly with AWS and Google
 - Regularly engage with stakeholders and customers to validate and iterate strategies, ensuring alignment with their needs and market dynamics
@@ -23,7 +23,7 @@ The Senior Director, Strategy reports to the VP, Strategy and Developer Relation
 - Actively engage and collaborate with the Partner Sales organization
 
 
-##Requirements:
+### Requirements:
 
 - Proven experience as a visionary strategist with a deep understanding of cloud services and market dynamics
 - Exceptional leadership and project management skills, capable of managing by influence across all company levels
