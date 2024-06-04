@@ -65,7 +65,7 @@ Our Identity Platform open source projects can be explored at [https://gitlab.co
 
 > Okta User Attribute: `rbac_type`
 
-We have different categories of users (ex. employees, contractors, service accounts, system administrators) that need birthright access to various systems. We use our [access level wristbands](/handbook/it/policies/access-level-wristbands/) color coding to specify each Okta user's type as `blue`, `purple`, `gray`, `brown`, or `black`.
+We have different categories of users (ex. employees, contractors, service accounts, system administrators) that need birthright access to various systems. We use our [access level wristbands](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/) color coding to specify each Okta user's type as `blue`, `purple`, `gray`, `brown`, or `black`.
 
 ### Identity Roles
 

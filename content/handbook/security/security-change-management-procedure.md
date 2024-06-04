@@ -126,5 +126,5 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## References
 
 - [Change Management Policy]({{< ref "change-management-policy." >}})
-- [Controlled Documents Procedure](/handbook/engineering/security/controlled-document-procedure.html)
-- [Controlled Documents Annual Review Program](/handbook/engineering/security/controlled-document-program.html)
+- [Controlled Documents Procedure](/handbook/security/controlled-document-procedure/)
+- [Controlled Documents Annual Review Program](/handbook/security/controlled-document-procedure/#review)
