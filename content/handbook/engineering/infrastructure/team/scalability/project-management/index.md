@@ -131,9 +131,9 @@ Other items that can be included are:
 
 #### Large Projects
 
-Large projects should be broken down into smaller deliverables using sub-epics to group related work.
+Large projects should be broken down into smaller deliverables.
 
-Milestones (the product feature) can be used at the discretion of the DRI but are not required.
+It is at the discretion of the EM and DRI to choose between the sub-epic and the milestone method for managing large projects.
 
 ### In Progress
 
