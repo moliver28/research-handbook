@@ -81,7 +81,7 @@ Payments due dates can be found on the [ATO website](https://www.ato.gov.au/busi
 
 #### Superannuation Salary Sacrifice
 
-Team members in Australia have the option to make concessional super contributions by sacrificing some of their pre-tax pay and arrange to have it paid into their superfund instead. Effective July 1, 2024 the combined total of GitLab and salary sacrificed contributions [must not be more than $30,000], (https://www.ato.gov.au/Individuals/Super/In-detail/Growing-your-super/Super-contributions---too-much-can-mean-extra-tax/?page=2#Concessional_contributions_and_contribution_caps) per financial year.
+Team members in Australia have the option to make concessional super contributions by sacrificing some of their pre-tax pay and arrange to have it paid into their superfund instead. Effective July 1, 2024 the combined total of GitLab and salary sacrificed contributions [must not be more than $30,000](https://www.ato.gov.au/Individuals/Super/In-detail/Growing-your-super/Super-contributions---too-much-can-mean-extra-tax/?page=2#Concessional_contributions_and_contribution_caps), per financial year.
 
 *Salary Sacrifice FAQ*
 
