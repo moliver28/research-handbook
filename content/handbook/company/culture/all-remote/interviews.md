@@ -227,6 +227,6 @@ Explore answers from GitLab team members in the [Remote Work playlist](https://w
 
 GitLab team members interested in being interviewed should message [@dmurph](https://gitlab.com/dmurph).
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

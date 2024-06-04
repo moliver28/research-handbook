@@ -19,7 +19,6 @@ The first step you will need to take in order to start an internship in Customer
 
 If you're not sure who to reach out to, you can also post in the [#customer-success](https://gitlab.enterprise.slack.com/archives/C5D346V08) Slack channel and express your interest in an internship and that you are looking for a mentor.
 
-
 ## Internship expectations
 
 An internship with the CSM team typically lasts 3 months and is intended for the intern to get hands-on experience of being a CSM, so that they can make a decision if being a CSM is aligned with their career goals and if so will be ready to apply for a position when one opens. Completing the internship is not a guarantee of moving into a CSM role.
@@ -60,7 +59,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [Professional Services offerings](https://about.gitlab.com/services/)
 1. Learn about Git & GitLab
    1. [GitLab 101 course](/handbook/people-group/learning-and-development/gitlab-101/)
-   . [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
+   1. [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
    1. [What is Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
    1. [Start using Git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
@@ -252,9 +251,4 @@ In order to make the most of the internship, it's expected for the intern to do 
       1. How would you approach discussing adoption of AI with a customer?
 1. Give a plan-to-monitor demo to your mentor, covering what you've learned at a high-level
    1. The demo should be focused on value of the entire DevSecOps lifecycle, but you should be prepared to go deeper into any areas or features, as your mentor will act as a customer and ask you probing questions
-1. Celebrate! You've completed the CSM internship :tada: 
-
-
-
-
-
+1. Celebrate! You've completed the CSM internship :tada:

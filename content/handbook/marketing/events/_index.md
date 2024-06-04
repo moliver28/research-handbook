@@ -1,16 +1,8 @@
 ---
-
 title: GitLab Event Information
 ---
 
-
-
-
-
-
-
-
-# Events at GitLab
+## Events at GitLab
 
 **This page outlines details for in-person events. For virtual event information, please visit the [Virtual Events Page](/handbook/marketing/virtual-events/).**
 
@@ -20,15 +12,14 @@ There are 3 groups within marketing who handle external events. Each group has a
 - [Corporate Events](/handbook/marketing/integrated-marketing/corporate-events/)
 - [Field Marketing](/handbook/marketing/field-marketing/)
 
-
-
-### Legal verbiage that should be included in all event contracts thoughout FY22
+### Legal verbiage that should be included in all event contracts
 
 - This language is what we should be adding to supplier agreements (when agreeing on their template):
   - "Termination for Convenience. GitLab may terminate this Agreement, any SOW or Order, or all at any time, for no reason or for any reason, upon notice to Vendor. Upon receipt of notice of such termination, Vendor shall inform GitLab of the extent to which it has completed performance as of the date of the notice, and Vendor will collect and deliver to GitLab whatever Work Product then exists, if applicable. GitLab will pay Vendor for all Work acceptably performed through the date of notice of termination, provided that GitLab will not be obligated to pay any more than the payment that would have become due had Vendor completed and GitLab had accepted the Work. GitLab will have no further payment obligation in connection with any termination. Upon termination or expiration of this Agreement, Vendor shall return or destroy any GitLab Confidential Information and provide certification thereof."
 - In the event that any supplier does not accept the termination for convenience language here, then, we can following up with this option
   - "Neither party shall be liable to the other for delays or failures in performance resulting from causes beyond the reasonable control of that party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties (“Force Majeure”).
 - In the event of a Force Majeure impact on the performance of either party, then the parties are immediately relieved of obligation to perform. From notice to supplier, GitLab is relieved of the payment obligation. As soon as is practical, but not more than sixty (60) days from GitLab’s notice to supplier, GitLab shall receive from supplier a pro-rata refund of, any fees previously paid, from the date of notice to supplier to the end of the term."
+- Required details for leads shared include: first name, last name, company, title, email
 
 ## Which events is GitLab already sponsoring?
 
@@ -47,7 +38,7 @@ To determine who would handle the event, please refer to our [events decision tr
 
 *Note: If a GitLab team member receives an inbound request for sponsorship, please direct the requestor to this section of the handbook so that person can determine the best course of action.*
 
-Please _only request_ event support/sponsorship if your proposed event fits the following criteria:
+Please *only request* event support/sponsorship if your proposed event fits the following criteria:
 
 - The event will further business aims of GitLab.
 - The event has an audience of **250+ people** (the exception being meet-ups (which are run by our community team) or is part of an Account Based Marketing activity.
@@ -58,7 +49,7 @@ If your event fits the criteria above and you would like support from marketing,
 - **Developer Relations** - We are unable to support inbound requests for sponsorship of community events for the remainder of FY23.
 - [**Corporate Events**](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_Sponsored_Corporate_Events) - use the "Event-Request" template
 - **Field Marketing**
-  `Please Note:` _These requests will be reviewed by the appropriate regional Field Marketing Manager. Even if the event is free or low-cost, all requests must be approved by Field Marketing prior to any commitment to ensure the event or tactic aligns to the marketing strategy, meets SAO objectives and Field Marketing can properly execute to maximize GitLab’s future success._ - To suggest a Field Marketing event (in-person or virtual) or other tactic for review, please open an [`Event_Tactic_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Event_Tactic_Request) issue and follow the instructions.
+  `Please Note:` *These requests will be reviewed by the appropriate regional Field Marketing Manager. Even if the event is free or low-cost, all requests must be approved by Field Marketing prior to any commitment to ensure the event or tactic aligns to the marketing strategy, meets SAO objectives and Field Marketing can properly execute to maximize GitLab’s future success.* - To suggest a Field Marketing event (in-person or virtual) or other tactic for review, please open an [`Event_Tactic_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Event_Tactic_Request) issue and follow the instructions.
 
 Be sure you review the issue template and provide all necessary information that is asked of you in the issue.
 
@@ -79,7 +70,7 @@ If the overarching event includes a speaking session, workshop, dinner, and/or h
 
 **⏰ SLAs for section to be filled out for an ancillary event before moving to WIP:**
 
-- **45 business days:** if the ancillary event will _require Marketo invitation_.
+- **45 business days:** if the ancillary event will *require Marketo invitation*.
 - **20 business days:** if the ancillary event will only need tracking and follow up email.
 
 The purpose of creating a new issue for each ancillary event is to better facilitate the needs for each event, to clearly indicate the timelines, and to clarify the DRIs which may be different for the different events. For example, if there is a speaking session hosted by a GitLabber at a larger conference, and the speaker is planning to write the email copy after the event, the timeline and DRI would be different from the timeline and DRI for the general booth follow email.
@@ -104,19 +95,19 @@ The purpose of creating a new issue for each ancillary event is to better facili
 #### Step 4 (Corporate Marketing): DRI creates the event epic
 
 - DRI creates epic for the event
-  - **please note that this epic should only be used for in-person events**) Use the [sponsored virtual conference epic](/handbook/marketing/virtual-events/external-virtual-events/) for virtual conferences
-- Naming convention: [Event Name] - [3-letter Month][date], [Year]
+  - **please note that this epic should only be used for in-person events** Use the [sponsored virtual conference epic](/handbook/marketing/virtual-events/external-virtual-events/) for virtual conferences
+- Naming convention: `[Event Name] - [3-letter Month][date], [Year]`
 - DRI copy/pastes epic template below into the epic description.
 - In "Issue Creation" section, DRI deletes any pieces that aren't necessary.
-- The DRI will also associate any issues opened for the event to the Epic. Link the Original _Field_ or _Corporate_ marketing issue (some may refer to this issue as "META")
+- The DRI will also associate any issues opened for the event to the Epic. Link the Original *Field* or *Corporate* marketing issue (some may refer to this issue as "META")
 - Booth number (should be included in Epic name)
 - Any other high level information that will be relevant to anyone attending
 
 NOTE: The Epic is the main hub for all event information. **All issues** associated with the Event **must** be linked to the Epic!
 
-# Epic Template
+## Epic Template
 
-```
+```markdown
 ## [Main Issue]() - Link main event issue here
 
 ## [Landing Page]() - Link event landing page here when live
@@ -159,13 +150,14 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 
 
 ```
+
 #### Corporate Marketing: Issue best practices
 
 - During these issue creations, DUE DATE is required to be added by issue creator.
 - Issue creator associates all issues to the event epic.
 - **IF** there are ancillary events associated with the main event, the DRI will have created a separate event issue for each ancillary event. Each ancillary event will need it's own YES/NO checklist to create related necessary issues (ex: Landing Page - Happy Hour - Event Name).
 
-☝️ _Tip: DRIs use [this document](https://docs.google.com/spreadsheets/d/1mw16Ft0Wo379dT6OYingQ5A4xXTT1EjdpD6k-lgQync/edit#gid=0) to auto-populate timelines / SLAs for events. They will add the event as a new row when it is created with a status of Plan, add the start and end date, and look at the resulting due dates for each action item._
+☝️ *Tip: DRIs use [this document](https://docs.google.com/spreadsheets/d/1mw16Ft0Wo379dT6OYingQ5A4xXTT1EjdpD6k-lgQync/edit#gid=0) to auto-populate timelines / SLAs for events. They will add the event as a new row when it is created with a status of Plan, add the start and end date, and look at the resulting due dates for each action item.*
 
 ### Step 4- DRI Event Admin Tasks
 
@@ -202,7 +194,7 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 1. PR
    - Start issue using the [announcement template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=announcement) in the Corporate Marketing project for any company, partner or product news that is expected to be announced/timed around  the event. More details on the Request for External Announcements process can be found in the Corporate Communications handbook [here](/handbook/marketing/corporate-communications/#requests-for-external-announcements).
 1. Design
-   1. For the latest approved booth design & messaging, email `events@gitlab.com`.
+   1. For the latest approved booth design & messaging, [please see here](https://www.figma.com/file/pJvEWjV5ajSycyAlV1l69I/FY25-Final-Event-Booth-Creative-Chart?type=design&node-id=0-1&mode=design&t=cuVT3bWxORR2QUNu-0).
    1. Open issue in the `Corporate Marketing` project for booth design. Assign to Design team and provide booth spec and due date. Provide as much notice as possible.
    1. For any content or major layout changes, tag Product and Solution Marketing and Design in the related booth design issue created in the `Corporate Marketing` project.
 1. Digital
@@ -231,6 +223,7 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
    - Use template to standardize the data following the [list import guidelines](/handbook/sales/field-operations/gtm-resources/).
 
 ### Securing a hotel room block
+
 Should the event organizer offer a hotel room block option at a discounted rate and the GitLab event DRI would like to secure this room block, there are two options you can take to secure the contract:
 
 1. An actual contract is offered and GitLab will put down a corporate card to secure the room block, but the individuals checking in will ultimately pay for the hotel (and then expense the hotel back to GitLab) - the event DRI should open a [virtual card request via coupa](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/).
@@ -242,7 +235,7 @@ If the overarching event includes a speaking session, workshop, dinner, and/or h
 
 **⏰ SLAs for section to be filled out for an ancillary event before moving to WIP:**
 
-- **45 business days:** if the ancillary event will _require Marketo invitation_.
+- **45 business days:** if the ancillary event will *require Marketo invitation*.
 - **20 business days:** if the ancillary event will only need tracking and follow up email.
 
 The purpose of creating a new issue for each ancillary event is to better facilitate the needs for each event, to clearly indicate the timelines, and to clarify the DRIs which may be different for the different events. For example, if there is a speaking session hosted by a GitLabber at a larger conference, and the speaker is planning to write the email copy after the event, the timeline and DRI would be different from the timeline and DRI for the general booth follow email.
@@ -254,7 +247,6 @@ The purpose of creating a new issue for each ancillary event is to better facili
 1. **Corp DRI will add the related necessary execution issues** as indicated by the YES/NO section in the issue. **This section must be complete before the issue moves to `status:wip`.**
    - Ex: Landing Page - Dinner + Date - Event name as shown on original issue)
 1. **Corp DRI will add as a new line item for each ancillary event in the [FY23 All-Marketing Calendar](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493)**
-
 
 ## Timelines for Corporate Marketing
 
@@ -269,7 +261,7 @@ In this timeline, BD = Business Days, and incorporates US public holidays and T 
 - **T-5 BD:** (Optional) Invitation 3 is sent
 - **T-5 BD:** Final copy for reminder email due by Corp Mktg
 - **T-3 BD:** Final copy for follow up emails due by Corp Mktg
-- **T-1 Day:** Reminder Email is sent _Note - not business day_
+- **T-1 Day:** Reminder Email is sent *Note - not business day*
 - **T+2 BD:** Follow up email(s) are sent
 
 ### Changes to Offline Events dates
@@ -387,8 +379,6 @@ For a full breakdown of our various types of events, please review [this list](/
 
 #### Important Planning Note
 
-
-
 The above planning list is not exhaustive - see planning issue template in field marketing project for most up to date list of tasks.
 
 ### How We Decide Who Attends Which Events?
@@ -455,7 +445,9 @@ At GitLab we aim to make our events accessible to everyone, regardless of disabi
 If the FM DRI for an event needs to reach out to someone prior to the event, they will do so leveraging their personal `@gitlab.com` email address & cc `regional@` alias.
 
 #### Sales Nominated process
+
 The sales nominated process allows for records to be added to the campaign in order for the record to receive an invite to the event
+
 - SAEs/SDRs should add members to campaign to be invited to event, using the appropriate `Campaign Status`:
   - `Sales Invited` = You have personally invited the person to the event.
   - `Sales Nominated` = Marketing will invite the person on your behalf. They will receive invitation email pre-event plus any confirmations/reminders if they register. [Video training on how add is also available.](https://drive.google.com/open?id=1QNB3DXXWtnmMBvzeHPkT7cRmigJdIWq5)
@@ -535,6 +527,7 @@ The sales nominated process allows for records to be added to the campaign in or
 - An in person pre-event booth meeting is to be scheduled by event DRI the day before or morning of the event and is to held within the booth. All event attendees should be in attendance. The event DRI should have this added as a calendar invite on the attendees calendar and should include the event venue, address, booth number, and link to the event issue within the calendar invite.
 
 ##### Booth presentation material
+
 - [Standard pitch deck](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7)
 - [What is GitLab Video with captions](https://drive.google.com/file/d/1BwQG2tmYULSDg46aeyFT9YD52LBamuuN/view?usp=sharing)
 - [Generic Marketing Reel](https://docs.google.com/presentation/d/1mpKjngTzYvvoAeV-uk3NSt9EuAdEgytabXRIiq_a56U/edit?usp=sharing)
@@ -557,6 +550,7 @@ The sales nominated process allows for records to be added to the campaign in or
 - [The Benefits of a Single DevOps Platform](https://www.youtube.com/watch?v=MNxkyLrA5Aw)
 
 ##### PubSec booth presentation material
+
 - [GitLab’s Hardened Container Image for Secure Software Development](https://docs.google.com/document/d/1Rl0050Z-PYogJAraHNdLPvgpwAmqlJ7-81PpCMpw_Fw/edit#)
 - [PubSec Capabilities Statement](https://about.gitlab.com/images/press/gitlab-capabilities-statement.pdf)
 - [Speed to Mission (whitepaper)](https://about.gitlab.com/resources/whitepaper-speed-to-mission/)
@@ -664,7 +658,7 @@ For **OWNED** events, the Marketo program is pushed to the Marketo Check-in app 
 - [system] when FMM syncs the data to Marketo, individual is flipped from `Registered` to `Attended`
 - [system] automation is set to automatically flip anyone still in `Registered` status to be `No Show` 12 hours after the event
 
-⚠️ **Important! FMM must check-in all individuals and sync to Marketo within 12 hours of the _start time_ of the event so that automation can flip the correct records to `No Show`.**
+⚠️ **Important! FMM must check-in all individuals and sync to Marketo within 12 hours of the *start time* of the event so that automation can flip the correct records to `No Show`.**
 
 ##### How to activate the Marketo Check-in App
 
@@ -673,27 +667,27 @@ For **OWNED** events, the Marketo program is pushed to the Marketo Check-in app 
 1. You should see the event on the right side of the calendar
    ^ Events are displayed intially based on the program <b>`created date`</b>, not the event date
 1. Double click your event, update `date`,`end`, and event times (remember all times are based on the FMC's timezone setting in Marketo)
-1. Click the slide bar to change event from `tentative` to `confirmed`. Slide bar will change from _gray_ to _orange_ when done correctly.
-   _The event will not be visible in the Marketo Check-in app until 7 days prior to the event_
+1. Click the slide bar to change event from `tentative` to `confirmed`. Slide bar will change from *gray* to *orange* when done correctly.
+   *The event will not be visible in the Marketo Check-in app until 7 days prior to the event*
 
 ##### Using App for Event Check-in
 
-_If FMM is unsure they will have internet at venue, it is very important to fully sync program while connected to the internet before event._
+*If FMM is unsure they will have internet at venue, it is very important to fully sync program while connected to the internet before event.*
 
 1. Sign into the Marketo app.
 1. Locate the event from the list displayed, press the blue "Sync" button that appears across the top menu bar.
    - This will ensure all late registrations are fully synced to the app
 1. All program members with `Status` = `Registered` will show in the list on the left side of the app.
-   ![](/images/handbook/marketing/events/marketo_checkin_sync.jpg)
+   ![''](/images/handbook/marketing/events/marketo_checkin_sync.jpg)
 1. As people arrive, search using the search bar or scroll alphabetically by `Last Name` through the list.
    - You could also have the iPad available for people to check-in themselves
 1. Select person to check-in & press the large blue button that says "Check-in"
-   ![](/images/handbook/marketing/events/marketo_checkin_personselect.jpg) - If the person's contact details need to be updated click "edit" (top right) and make changes. - When the program re-syncs the contact details will be updated as well
+   ![''](/images/handbook/marketing/events/marketo_checkin_personselect.jpg) - If the person's contact details need to be updated click "edit" (top right) and make changes. - When the program re-syncs the contact details will be updated as well
 1. To **ADD** a person to the event at the door, click the "person+" button in the bottom left corner of the app.
-   ![](/images/handbook/marketing/events/marketo_checkin_addperson.jpg) - Blank form will appear
-   ![](/images/handbook/marketing/events/marketo_checkin_newattendee.jpg) - All fields are **required** except `Phone` - Click green "Done" in top right corner - Complete checkin by clicking blue "Check-in" button
+   ![''](/images/handbook/marketing/events/marketo_checkin_addperson.jpg) - Blank form will appear
+   ![''](/images/handbook/marketing/events/marketo_checkin_newattendee.jpg) - All fields are **required** except `Phone` - Click green "Done" in top right corner - Complete checkin by clicking blue "Check-in" button
 1. As people are checked in there will be a red numeric icon over the "Sync" button, this will remain until the app is synced to Marketo
-   ![](/images/handbook/marketing/events/marketo_checkin_checkedin.png)
+   ![''](/images/handbook/marketing/events/marketo_checkin_checkedin.png)
 1. Once event is over, FMM presses blue "Sync" button to send all the records to Marketo
 1. The Marketo program will immediately be updated with `Campaign Member Status` = `Attended` and the sync to SFDC will begin
 1. Notify the Ops team via List clean & upload issue to verify status of records & request the remaining `Registerd` -> `No Show` status
@@ -737,54 +731,56 @@ Due to our current account subscription only allowing 50 active QR codes, please
 #### Steps to Generating a QR Code
 
 For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
+
 1. Make a copy of the GitLab branded [Google Form](https://docs.google.com/forms/d/1zLqYmfC-yfFQagTri4QIOkExu8Z2IN80s-R7tGJB4E4/edit). *Ensure you are logged into your GitLab Google account in order to access the form.*
 1. Proceed to fill in all required information including:
-    * Event title
-    * Event description (optional)
+    - Event title
+    - Event description (optional)
 1. Proceed to fill in all required information you'd like to collect from participants. If you are using the QR code for lead collecting purposes, please include the following fields (remember to make all fields mandatory):
-    * First Name
-    * Last Name
-    * Email Address
-    * Phone Number (optional)
-    * Title
-    * Company
-    * Country
-    * State/Province for US and Canada only (if you are not located in the US or Canada, please respond with n/a)
+    - First Name
+    - Last Name
+    - Email Address
+    - Phone Number (optional)
+    - Title
+    - Company
+    - Country
+    - State/Province for US and Canada only (if you are not located in the US or Canada, please respond with n/a)
 1. If you are collecting addresses for a swag or raffle send, please make sure to add the following verbiage to your form - `By giving us your address, you are giving us permission to mail items to your home or office. We will not use this data for any other purposes.`
 1. Integrate your Google Form with your planning spreadsheet
-    * With an established Planning Spreadsheet for your event (preferred method)
-      * Navigate to the `responses` tab of your Google form
-      * Select the 3-button stop sign icon
-      * Click `Select response destination`
-      * Click `Select existing spreadsheet`
-      * Choose the established Planning Spreadsheet from your Google Drive
-      * Select `Ok`
-      * Now the established Planning Spreadsheet will be linked to your Google form
-    * Without an established Planning Spreadsheet
-      * Navigate to the `responses` tab of your Google form
-      * Select the 3-button stop sign icon
-      * Select `Create a new spreadsheet` and title the spreadsheet
-      * Click `Create`
-      * Now the newly created spreadsheet will be linked to your Google form
+    - With an established Planning Spreadsheet for your event (preferred method)
+      - Navigate to the `responses` tab of your Google form
+      - Select the 3-button stop sign icon
+      - Click `Select response destination`
+      - Click `Select existing spreadsheet`
+      - Choose the established Planning Spreadsheet from your Google Drive
+      - Select `Ok`
+      - Now the established Planning Spreadsheet will be linked to your Google form
+    - Without an established Planning Spreadsheet
+      - Navigate to the `responses` tab of your Google form
+      - Select the 3-button stop sign icon
+      - Select `Create a new spreadsheet` and title the spreadsheet
+      - Click `Create`
+      - Now the newly created spreadsheet will be linked to your Google form
 1. Create your QR Code and link your Google Form
-    * Navigate to the [QR Code Generator](https://login.qr-code-generator.com/) website and log in using the password found in the Marketing 1Pass
-    * In the upper right-hand corner of the screen select `Create QR Code`
-    * Select your QR Code `Type`
-    * Click `Next` at the bottom of the page
-    * Fill out QR Code Title & Description
+    - Navigate to the [QR Code Generator](https://login.qr-code-generator.com/) website and log in using the password found in the Marketing 1Pass
+    - In the upper right-hand corner of the screen select `Create QR Code`
+    - Select your QR Code `Type`
+    - Click `Next` at the bottom of the page
+    - Fill out QR Code Title & Description
 1. Create your QR code with the following design specs:
-    * **Frame:** If adding a frame, enter `#171321` ([Charcoal](https://design.gitlab.com/brand-design/color#primary-color-palette)) for the frame color.
-      * This color ensures proper contrast (other brand approved colors can be used, but no need to get fancy with gradients or anything)
-    * **QR code:** Select `More Options`.
-      * `Code color:` Enter `#171321` for the code color and `#FFFFFF` for the background color.
-      * `Shape style:` Select the dotted code (third selection from left).
-      * `Edges:` Select the option with two curved corners (fourth selection from the left on the top row). Adjust the outer and inner color to `#171321`.
-    * **Logo:** Select the solid Charcoal tanuki. This tanuki has a transparent background and should be the only logo placed for the center of the QR code.
-    * **NOTE:** Keep the design/shape of the QR code within the brand aesthetic (no odd or unorganized shapes).
-    * **NOTE:** When placing the QR code into your collateral, the [design team](/handbook/marketing/brand-and-product-marketing/design/) advises that it should be no smaller than 1" x 1" for efficient scanning.
-    * ![QR code styling](/handbook/marketing/events/qr-code-handbook.png)
-5. Add in URL link to CTA. Example CTAs listed below:
+    - **Frame:** If adding a frame, enter `#171321` ([Charcoal](https://design.gitlab.com/brand-design/color#primary-color-palette)) for the frame color.
+      - This color ensures proper contrast (other brand approved colors can be used, but no need to get fancy with gradients or anything)
+    - **QR code:** Select `More Options`.
+      - `Code color:` Enter `#171321` for the code color and `#FFFFFF` for the background color.
+      - `Shape style:` Select the dotted code (third selection from left).
+      - `Edges:` Select the option with two curved corners (fourth selection from the left on the top row). Adjust the outer and inner color to `#171321`.
+    - **Logo:** Select the solid Charcoal tanuki. This tanuki has a transparent background and should be the only logo placed for the center of the QR code.
+    - **NOTE:** Keep the design/shape of the QR code within the brand aesthetic (no odd or unorganized shapes).
+    - **NOTE:** When placing the QR code into your collateral, the [design team](/handbook/marketing/brand-and-product-marketing/design/) advises that it should be no smaller than 1" x 1" for efficient scanning.
+    - ![QR code styling](/handbook/marketing/events/qr-code-handbook.png)
+1. Add in URL link to CTA. Example CTAs listed below:
 
+    ```text
         1. Survey Links
 
         2. Gated Collateral Piece
@@ -796,9 +792,11 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
         5. Code Challenge landing page
 
         6. Eventbrite Registration Page for ancillary event
-6. Generate and save as a PDF, jpg, or ai file
-7. Test QR Code personally and send to at least 1 teammate to confirm the QR Code is live and analytics are being collected in the QR Code Generator portal.
-8. Due to our current account subscription only allowing 50 active QR Codes, please proceed to Pause or Delete the QR Code when the event has concluded or the QR code is no longer in use. To do this, navigate to the Active tab, locate the QR Code and click Details, select the three dots below the Download button, and click Pause or Delete.
+   ```
+
+1. Generate and save as a PDF, jpg, or ai file
+1. Test QR Code personally and send to at least 1 teammate to confirm the QR Code is live and analytics are being collected in the QR Code Generator portal.
+1. Due to our current account subscription only allowing 50 active QR Codes, please proceed to Pause or Delete the QR Code when the event has concluded or the QR code is no longer in use. To do this, navigate to the Active tab, locate the QR Code and click Details, select the three dots below the Download button, and click Pause or Delete.
 
 ### AMER Field Marketing Badge and Event Check-In Process
 
@@ -849,20 +847,20 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
 - Click `Open PDF` and print utilizing the Avery badge paper previously purchased
 - Separate individual badges, stuff in clear holders/clips that come with the badge paper, and arrange in badge carrying case
 
-
 #### Spreadsheet Check-in for Event
+
 - Pull the list of attendees the day of the event using the SFDC Registration Data Pull instructions above.
 - Add a column to your spreadsheet for attended/no show.
 - Check off attendees on the spreadsheet as they check-in.
 - Upload lead list after the event using your spreadsheet information.
 
 #### Marketo Check-in App on iPad for Event
+
 - Please review the [Marketo Check-in App Instructions](/handbook/marketing/events/#marketo-check-in-app)
 - In order to use the Marketo Check-in App, you must have a wifi connected device.
 - Before the event, use your personal Marketo login to log in to the Marketo Check-in App on the iPad and make sure it is working properly and that your event is displayed. NOTE: Your event is pulled into the app 7 days before the event begins and will not show up before this time.
 - The Marketo Check-in App will pull attendees in alphabetical order unless the first letter of the attendee’s name is not capitalized. Those attendees will show up out of order at the very bottom of the list of names. As a result, it is often faster to check attendees off as attended in a spreadsheet as they come in (see below instructions) and then check them in on the Marketo App after registration.
 - A lead list is not required when using the Marketo check-in app as leads are synced directly to the Marketo program.
-
 
 ### Field Marketing Venue Search
 
@@ -907,6 +905,7 @@ In an effort to publicly share where people can find GitLab for virtual events a
 ## Email Process for Events
 
 For corporate conferences, we will send emails in accordance with the standards set [here](https://docs.google.com/spreadsheets/d/1aTCrUlc87BDLAqqAju7ZEbL8Wu0VZNfWd1MhdAccRDA/edit?usp=sharing) and summarized below:
+
 - Tier 1:
    - 1 pre-event email
    - 1 post show follow-up email
@@ -928,18 +927,19 @@ For corporate conferences, we will send emails in accordance with the standards 
 If you’re looking for information about speaking at an events head over to our [Corporate Communications page](/handbook/marketing/corporate-communications/speaking-resources/) for complete details.
 
 ### Paying for Speaker travel
+
 At times, GitLab may offer to pay for a person's travel if they will be speaking about their usage of GitLab at an event.
 
 There is no contract that needs to be in place in order for payment to happen. The GitLab team member should do the following:
 
 #### Option A
 
-1. Ensure that the expense is accounted for in a line items within (Allocadia)[/handbook/marketing/strategy-performance/allocadia/]. The spend type should default to what was selected at the `Sub-Category` level.
+1. Ensure that the expense is accounted for in a line items within [Allocadia](/handbook/marketing/strategy-performance/allocadia/). The spend type should default to what was selected at the `Sub-Category` level.
 1. Open a [Coupa virtual card](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/#what-is-virtual-card) for the amount of money you believe will need to be on the card to account for the trip.
-   * Take into consideration airfare, car service, hotel stay, and dining.
-   * Ensure you've added the correct Allocadia ID to the virtual card.
+   - Take into consideration airfare, car service, hotel stay, and dining.
+   - Ensure you've added the correct Allocadia ID to the virtual card.
 1. Once the virtual card has been created, share the card number with the speaker and ask that the speaker use this card for all travel related items where possible.
-   * Also recommend to the speaker to add the virtual card to their digital wallet that will allow them to tap and pay from their mobile device without having a physical card.
+   - Also recommend to the speaker to add the virtual card to their digital wallet that will allow them to tap and pay from their mobile device without having a physical card.
 1. Supporting documentation - could be an email that confirms this person will travel for GitLab - should be uploaded for the Coupa card to be created.
 
 ##### Hotel stay
@@ -947,10 +947,12 @@ There is no contract that needs to be in place in order for payment to happen. T
 While we would like for the hotel to be secured using the Coupa Virtual Card as well, at times a hotel may ask for a physical card to be provided upon check-in for incidentals. The speaker may either present their own card and then apply for reimbursement OR a GitLab team member may provide their own credit card.
 
 If the GitLab team member provides their own card, then the expense should be accounted for in the following way upon submitting the expense report:
+
 1. Category = Marketing Field Events OR Brand Marketing - depending on if you are in Field Marketing vs. another group in marketing - by selecting one of these categories, it puts the expense in the program spend bucket vs. the employee travel bucket within the financial systems.
 1. Classification = MUST add the Allocadia ID that has been created in NetSuite for this event
 
 #### Option B
+
 The speaker would like to pay for everything themselves and would like for GitLab to reimburse them.
 
 In this case the speaker will need to complete a [reimbursement form](https://docs.google.com/spreadsheets/d/1CxJMQ06GK_DCqihVaZ0PXxNhumQYzgG--nw_ibPV0XA/edit#gid=0) and submit with receipts back to GitLab. GitLab will pay immediately upon receipt.

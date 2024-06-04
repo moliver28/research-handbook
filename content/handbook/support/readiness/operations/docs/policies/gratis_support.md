@@ -127,6 +127,7 @@ With that created, you need to edit some of the organization fields:
 | Account Type           | Prospect                     |
 | Manual Support Upgrade | Check this box               |
 | Expiration Date        | 30 days from setup           |
+| Not in SFDC            | Check this box               |
 
 For `GitLab Plan`, you need to review the opportunity to determine if this is
 a gitlab.com or Self-Managed opportunity. If you cannot determine it, please ask

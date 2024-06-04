@@ -11,7 +11,7 @@ last-reviewed: 2021-10-06
 
 ## Overview
 
-Use this workflow when a customer requests that we restore data from GitLab SaaS that has been deleted. Note that user accounts and contributions can never be restored if deleted. This workflow only pertains to projects and group deletions.
+Use this workflow when a customer requests that we restore data from GitLab SaaS that has been deleted. Note that user accounts and contributions can never be restored if deleted. This workflow is specifically for handling deletions of projects and groups. It is important to note that container images stored within deleted groups or projects cannot be recovered.
 
 ## Process
 
@@ -23,7 +23,7 @@ Use this workflow when a customer requests that we restore data from GitLab SaaS
 
 1. Reply to the ticket with the [`Support::SaaS::Gitlab.com::Restore requests::Does not meet restore criteria`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Restore%20requests/Does%20not%20meet%20criteria.md?ref_type=heads) macro.
 
-For further guidance in these cases, please see the [internal handbook](https://internal.gitlab.com/handbook/support/#data-restore-requests-exemptions).
+For further guidance in these cases, please see the [internal handbook](https://internal.gitlab.com/handbook/support/workflows/data-restore-request-exemptions).
 
 **If the criteria for restoration is met:**
 

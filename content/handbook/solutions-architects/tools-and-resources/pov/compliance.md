@@ -8,6 +8,7 @@ description: Software Compliance POV Scope and Acceptance
 When the SA has confirmed with the prospect or the existng customer especially businesses in the regulated industry for a Software Compliance solution, the scope of the POV will focus on securing the software supply chain and simplifying the compliance with common industry regulations while at the same time speeding the software velocity.
 
 The key capabilities to validate to the value are
+
 - Compliance Framework
 - Compliance Workflow Automation
 - Compliance Dashboard and Audit Event
@@ -40,9 +41,3 @@ SA working with SAE and AE can define the POV scope with the customer, with alig
 - [DevSecOps](/handbook/solutions-architects/tools-and-resources/pov/devsecops/)
 - [Automated Software Delivery](/handbook/solutions-architects/tools-and-resources/pov/automation/)
 - [DevOps Platform cumulatively](/handbook/solutions-architects/tools-and-resources/pov/platform/)
-
-
-
-
-
-

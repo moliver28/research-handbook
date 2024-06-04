@@ -12,7 +12,7 @@ description: "Build tooling for transient issues and outline process for sustain
 | Slack           | [#wg_transient-bugs](https://gitlab.slack.com/archives/C01EUKUM5DK) (only accessible from within the company) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/14rB6o7udwgWitV9lB7S3fzjHBaaqrG_23WVz89mHqGo/edit#heading=h.gp5w1bjoz2ug) (only accessible from within the company) |
 | Task Board      | [Issue board](https://gitlab.com/groups/gitlab-org/-/boards/2190215) |
-| Bug Board       | [`bug::transient` board](https://gitlab.com/groups/gitlab-org/-/boards/2206756)
+| Bug Board       | [`bug::transient` board](https://gitlab.com/groups/gitlab-org/-/boards/2206756) |
 
 ## Business Goal
 

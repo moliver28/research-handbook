@@ -76,7 +76,6 @@ From "[Setting up GitLab CI/CD for Android projects](https://about.gitlab.com/bl
 
 ![Forrester CI Wave](/images/home/forrester-ci-wave-graphic.svg){: .small.left}
 
-
 - No vendor can survive today by only doing CI
 - Vendors in the CI space have all evolved to include CD, as it is a natural extension of the capabilities of a CI system
 - This evolution largely involves adding integrations to provision and configure environments (the automation is already a capability)

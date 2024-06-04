@@ -79,8 +79,3 @@ The statutory entitlement for maternity leave is 14 weeks. The leave must start 
 **Menstrual Leave**:  A female team member whose ability to attend work is significantly impeded by menstruation can request unpaid menstrual leave.
 
 **Time off To Exercise Civil Rights**: A team member exercising their civil right such as voting or serving as a juror can request unpaid time off.
-
-
-
-
-

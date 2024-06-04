@@ -8,7 +8,7 @@ aliases: /handbook/company/culture/inclusion/DIB-Sponsorship/
 
 ### Sponsorship
 
-Sponsorship is defined as using your influence and/or power to advocate and positively impact the growth and career advancement of a team member. A sponsor is a senior leader with significant influence and responsibilities. A sponsor will then use this influence to but not limited to;
+Sponsorship is defined as using your influence and/or power to advocate and positively impact the growth and career advancement of a team member. A sponsor is a senior leader with significant influence and responsibilities. A sponsor may then use this influence for activities such as:
 
 - Advocating for career advancement opportunities
 - Providing stretch opportunities to up skill via active projects
@@ -208,7 +208,6 @@ Once sign up has closed for the Sponsees, matching can begin. You should utilize
 - The sponsor should be two job grade above the sponsee
 - The sponsor should not be in the direct hierarchy of the sponsor
 - Utilize the sign up form to match similar goals and experiences for the sponsee sponsor pairing
-
 
 ### Begin the program
 

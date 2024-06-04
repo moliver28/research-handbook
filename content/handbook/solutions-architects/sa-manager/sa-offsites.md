@@ -29,7 +29,7 @@ The following list of considerations could be valuable for the SA leaders to go 
     - Consider organising team dinners on-site in the hotel as well as on other days outside of the hotel. It is recommended to work with the hotel event organizer for guidance on suitable restaurants as the hotel can arrange for appropriate transportation as well
 1. Once Finance Approval has been obtained - advise the team to start booking initial travel arrangements to secure the most cost-effective travel
 
-#### Additional Tips:
+#### Additional Tips
 
 1. Collaboration within the team is critical when planning the offsite to ensure an enjoyable and inclusive environment for all team members.
 1. When planning team building activities, consider that team members interests may vary deeply and ensure everyone's comfort level is paramount (also that no activity is mandatory).
@@ -50,8 +50,7 @@ Once the SA leader(s) has identified a suitable location (city) for the team off
     - Step 3: If needed, raise a request for a [Virtual Credit Card](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/)
     - Step 4: Work with supplier to seek appropriate invoices for PO
 
-
-#### Additional Tips:
+#### Additional Tips
 
 - Do not underestimate the value of constantly accessible coffee, tea and water, as well as healthy snacks - cordinating with the event organizer
 - Consider the conference rooms carefully - you'll be spending a lot of time in them
@@ -65,8 +64,8 @@ Once the SA leader(s) has identified a suitable location (city) for the team off
 
 Consider reviewing COVID-19 restrictions and requirements during regular team meetings as well as through asynchronous communication methods.
 
-    - US regions: Work within the COVID-19 requirements for dommestic travel
-    - EMEA / APAC regions: Review countries incoming travel requirements as a team and try to understand mandatory pre-arrival PCR or Rapid Antigen Tests needs
+- US regions: Work within the COVID-19 requirements for dommestic travel
+- EMEA / APAC regions: Review countries incoming travel requirements as a team and try to understand mandatory pre-arrival PCR or Rapid Antigen Tests needs
 
 1. As the SA leader, ensure appropriate calendar placeholders have been put in place for the team members
 1. Start by communicating with Sales and Channels Management around the offsite dates
@@ -85,7 +84,6 @@ As the organizer of the offsite, ensure that the purpose, objectives and vision 
 1. As the SA Leader, consider summarising the objectives, the agenda for the entire offsite, housekeepings overviews, daily breaks in a Powerpoint deck
 1. Have fun during the event
 
-
 ## Offsite Completion
 
 On the last day, cordinating with the event organizer to understand that all invoices have been covered and review additional charges.
@@ -93,4 +91,3 @@ On the last day, cordinating with the event organizer to understand that all inv
 1. Connect with the procurement team upon your return to your remote based location and ensure that all payment requests have been finalised in Coupa
 
 In the spirit of our company values, it is recommended to transparently share the success the of the Offsite with our SA team worldwide. Offering assistance and ideas for future events and don't forget to share picture via internal communications channels.
-

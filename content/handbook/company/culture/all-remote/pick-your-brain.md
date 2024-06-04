@@ -75,5 +75,5 @@ GitLab is a very [transparent]({{< ref "values#transparency" >}}) company and ma
 
 Before an interview is scheduled, guests will be asked to send over an agenda with proposed questions and topics.
 
-----
+---
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -5,14 +5,6 @@ description: "Programs available to specific customer types and segments."
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
 ### Program Content
 
 The Customer Programs team creates content for the wider GitLab community.

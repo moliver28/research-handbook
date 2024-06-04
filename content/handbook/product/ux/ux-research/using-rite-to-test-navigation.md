@@ -44,8 +44,8 @@ You have a navigation design concept that you want to move forward with, and you
 
 **Usability problems identified in a session are categorized into the following [categories](/handbook/product/ux/ux-research/rite/#elements-of-rite):**
 
-| Category | Description| What to do
-|-----|-----------|-----------
+| Category | Description| What to do |
+|-----|-----------|-----------|
 |A|Issues with an obvious cause and an obvious solution that can be implemented in the prototype quickly, such as text changes, re-labeling buttons.|Implement solutions immediately and this will be the version for the next test session.|
 |B|Issues with an obvious cause and an obvious solution that can’t be implemented quickly/by the time of the next test session.|Start working on the solution to address these issues and test in an upcoming session.|
 |C|Issues with no obvious cause or due to other factors, such as task instructions. |Collect more data in the upcoming session until they can be promoted to Category A or B.|

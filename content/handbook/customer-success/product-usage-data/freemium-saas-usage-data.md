@@ -12,7 +12,6 @@ description: "How to view and use usage data from freemium and trial SaaS namesp
 
 ---
 
-
 ## Purpose
 
 Empower our internal team with lightweight Free/Trial usage insights in Salesforce.
@@ -98,7 +97,6 @@ Priority 4: Number of billable members in the namespace<br>
 Priority 5: Number of stages used by namespace user in the last 3 months <br>
 Priority 6: Number of active users in the namespace using 1+ stages in the last 3 months<br>
 
-
 ### Additional Resources
 
 1. [List of all Free/Trial Accounts in SFDC](https://gitlab.my.salesforce.com/00O8X000008QZom)
@@ -106,8 +104,6 @@ Priority 6: Number of active users in the namespace using 1+ stages in the last 
 1. [Personalized Report for Account Owners](https://gitlab.my.salesforce.com/00O8X000008Qa7o) - This report will allow you to see a complete list of your assigned accounts which have Freemium SaaS usage, using an automated filter which should work for most Salesforce users. Please review and edit the date range if the report is lacking data.
 1. [Personalized Report for Account Owners](https://gitlab.my.salesforce.com/00O8X000008QaTa) - You can use this report if the one above does not populate for your user profile.  This report will allow you to see a complete list of your assigned accounts which have Freemium SaaS usage by manually inserting your name into the `Account Owner` filter. Please review and edit the date range if the report is lacking data.
 
-
 ### Providing feedback
 
 Please add your questions, data quality concerns, and general feedback on [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/1031). This is needed for us to continue to improve the SaaS Free/Trial experience!
-

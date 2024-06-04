@@ -20,7 +20,6 @@ Additional benefits to GitLab:
 
 We are looking for companies interested in helping deliver on our [vision](https://about.gitlab.com/direction/#vision) to create a single application for the entire DevOps lifecycle. We value strong teams and technology and are looking for a combination of both that will help us accelerate our roadmap. We're looking for acquisitions which can either present a strategic value-add or create potential for significant revenue upside.
 
-
 ## Acquisition target profile
 
 Below is a set of general, yet not strict, characteristics of companies that are a potential fit for our acquisition process:
@@ -37,7 +36,6 @@ according to our [category maturity](https://about.gitlab.com/direction/maturity
 - Willing to sunset old customers within 90 days or less, with an option to transition to GitLab. GitLab follows an [open-core model](https://about.gitlab.com/install/ce-or-ee/)
 - Aligned to ship on the first month and iterate quickly
 - Strong founders looking to join GitLab
-
 
 ## Considering joining forces with GitLab
 

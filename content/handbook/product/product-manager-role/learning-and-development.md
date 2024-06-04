@@ -1,27 +1,20 @@
 ---
 
-title: Product Management Learning and Development 
+title: Product Management Learning and Development
 description: "This page contains links to internal and external resources that Product Managers at GitLab can use to build their skills."
 canonical_path: "/handbook/product/product-manager-role/learning-and-development/"
 
 ---
 
-# On this page
-
-
-
-
-
-
 {{% include "includes/product-handbook-links.md" %}}
 
 Welcome to Learning and Development for Product Management at GitLab! This page serves as the content library that feeds [the Product Management Learning Hub in Level Up](https://levelup.gitlab.com/pages/product-management-hub). You are welcome to explore content here but if you prefer a more modular, personalizable, and trackable portal, please visit Level Up.
 
-The resources in the Product L & D Hub are meant to support product managers to explore, learn and grow at their own pace. We aim to collect content that spans various skill levels, as well as various levels of depth/commitment. It is recommended that product managers engage with the resources here to help them have a successful journey at GitLab and in their product career as a whole. 
+The resources in the Product L & D Hub are meant to support product managers to explore, learn and grow at their own pace. We aim to collect content that spans various skill levels, as well as various levels of depth/commitment. It is recommended that product managers engage with the resources here to help them have a successful journey at GitLab and in their product career as a whole.
 
 Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/finance/expenses/#work-related-online-courses-and-professional-development-certifications).
 
-Over time, we will add content to directly support GitLab's product management [competencies](/handbook/product/product-manager-role/product-CDF-competencies/), [CDF](/handbook/product/product-manager-role/product-CDF-competencies/) and [product development flow](/handbook/product-development-flow/). We understand that the evolving product management space requires continuous learning, and GitLab is committed to providing the time needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development. 
+Over time, we will add content to directly support GitLab's product management [competencies](/handbook/product/product-manager-role/product-CDF-competencies/), [CDF](/handbook/product/product-manager-role/product-CDF-competencies/) and [product development flow](/handbook/product-development-flow/). We understand that the evolving product management space requires continuous learning, and GitLab is committed to providing the time needed for in-depth learning too as part of your working time. You are encouraged to ask your manager to help you carve out time for Learning and Development.
 
 ## Recommended books and talks for all GitLab product managers
 
@@ -35,40 +28,38 @@ Provides a general overview of Product Management <br>
 - **[Melissa Perry: Escaping the Build Trap](https://www.amazon.com/Escaping-Build-Trap-Effective-Management/dp/149197379X/)** <br>
 Describes how to build and operate a successful product team <br>
 
-<iframe src="https://player.vimeo.com/video/224453335" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> 
+<iframe src="https://player.vimeo.com/video/224453335" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 - **[Eric Ries: The Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)** <br>
-Discusses how to leverage efficiency to achieve optimal outcomes. <br> 
+Discusses how to leverage efficiency to achieve optimal outcomes. <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RSaIOCHbuYw" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
 
 ## Supporting materials for GitLab specific [product manager competencies](/handbook/product/product-manager-role/product-CDF-competencies/)
 
-### Opportunity Canvases 
+### Opportunity Canvases
 
 GitLab's Chief Product Officer shares insights on what makes an opportunity canvas successful in a 10 minute video:
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f8k1jWejojA" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
 
-####  Overview and Example Canvases by Stage Maturity
+#### Overview and Example Canvases by Stage Maturity
 
-* [Opportunity Canvas Overview](/handbook/product/product-processes/#opportunity-canvas)
-* Minimal: [Translating alerts into actionable incidents is challenging](https://docs.google.com/document/d/1-sJoVFr3ND_-N3EtXUNYF6oVROfhE4rcjVqpnQd5N6U/edit#heading=h.bjrjegyjyv9f)
-* Complete: [Remote and Virtual Package Repositories](https://docs.google.com/document/d/1HxStNvY5i4Qn6c_AvhsKNV2WOEqbAivEjZqFPwhKej8/edit#heading=h.4mt5fmtn0ax4)
-* Loveable: [Plan: Project Management, Fix Groups and Projects](https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit#heading=h.4mt5fmtn0ax4)
+- [Opportunity Canvas Overview](/handbook/product/product-processes/#opportunity-canvas)
+- Minimal: [Translating alerts into actionable incidents is challenging](https://docs.google.com/document/d/1-sJoVFr3ND_-N3EtXUNYF6oVROfhE4rcjVqpnQd5N6U/edit#heading=h.bjrjegyjyv9f)
+- Complete: [Remote and Virtual Package Repositories](https://docs.google.com/document/d/1HxStNvY5i4Qn6c_AvhsKNV2WOEqbAivEjZqFPwhKej8/edit#heading=h.4mt5fmtn0ax4)
+- Loveable: [Plan: Project Management, Fix Groups and Projects](https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit#heading=h.4mt5fmtn0ax4)
 
 ##### "Lite" Opportunity Canvas
 
-* [When and how to use an Opportunity Canvas "Lite"](/handbook/product/product-processes/#opportunity-canvas-lite)
-* [Example: Opportunity Canvas Lite: Parent-child pipelines default behavior change](https://gitlab.com/gitlab-com/Product/-/issues/2030)
+- [When and how to use an Opportunity Canvas "Lite"](/handbook/product/product-processes/#opportunity-canvas-lite)
+- [Example: Opportunity Canvas Lite: Parent-child pipelines default behavior change](https://gitlab.com/gitlab-com/Product/-/issues/2030)
 
 ##### Example Videos of Canvas Reviews
 
 - [Opportunity Canvas Unfiltered Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqR2kan56Ae7Di70WF3tpZJ)
 
-### Prioritization at GitLab 
-
+### Prioritization at GitLab
 
 <br/>
 Nicole shares her approach towards prioritization of tech debt with her Engineering counterparts in these discussions with Mike and Olivier.
@@ -80,11 +71,11 @@ Nicole shares her approach towards prioritization of tech debt with her Engineer
 
 <iframe width="560" height="315" src="https://youtube.com/embed/oRLrNkyrEfw" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
 
-James discusses how he balances Error Budgets, Tech Debt, and other priorities with Engineering Counterparts, Scott. 
+James discusses how he balances Error Budgets, Tech Debt, and other priorities with Engineering Counterparts, Scott.
 <br/><br/>
 <iframe width="560" height="315" src="https://youtube.com/embed/wI8yNFW6b8A" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
 
-Fabian and Nick discuss PM/EM collaboration on the Geo team and the importance of empathy building between PMs and EMs. 
+Fabian and Nick discuss PM/EM collaboration on the Geo team and the importance of empathy building between PMs and EMs.
 <br/><br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pz5XneVeyu0" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
 
@@ -113,7 +104,7 @@ Establish a Peer mentorship program where PMs are paired based on respective str
 
 This is going to require PMs to volunteer as participants. Management will need to anonymously gather strengths and weaknesses for participants and work together to create pairs.
 
-### Pilot 
+### Pilot
 
 We set up pairs between PMs who have volunteered and run an 8 week pilot where PMs meet each week. GMPs can assess skill development over the course of the pilot as a potential measure of success.
 
@@ -123,8 +114,7 @@ Following a retro on the pilot we can decide to continue it in rotations moving 
 
 We will be planning the Pilot Program in this [epic](https://gitlab.com/groups/gitlab-com/-/epics/1546).
 
-### Using the Career Development Framework during Peer Mentorship 
-
+### Using the Career Development Framework during Peer Mentorship
 
 Product Managers are all evaluated using the [CDF](/handbook/product/product-manager-role/product-CDF-competencies/) and it can be a great tool to use as a way to discuss how each person is performing in context to the CDF. If you are looking to improve in a certain area of your CDF, the peer mentorship space can be a great place to seek mentorship. Please note that CDFs are confidential documents that are kept between team members and their management lines, however, for the purpose of mentorship, team members can choose to share relevant portions. If any feedback about the CDF arises, please discuss the feedback with your manager or open an MR to the [CDF handbook page](/handbook/product/product-manager-role/product-CDF-competencies/) and tag `gl-product-leadership` for review.
 
@@ -149,12 +139,13 @@ GitLab reimburses its team members the yearly Reforge membership fees as long as
    - the study group can be a Reforge study group
 - the GitLab team members in the study group propose process changes and create analytics requests
 
-If you are part of the Product team and are interested in a Reforge membership, we are planning to set up a **team plan** for a discounted rate, see details in https://gitlab.com/gitlab-com/Product/-/issues/5135. 
+If you are part of the Product team and are interested in a Reforge membership, we are planning to set up a **team plan** for a discounted rate, see details in https://gitlab.com/gitlab-com/Product/-/issues/5135.
 
-## General Product Management learning content 
-[This content is also available in a trackable format in Level Up](https://levelup.gitlab.com/pages/product-management-hub). 
+## General Product Management learning content
 
-This content is divided into five key competencies for Product Managers. 
+[This content is also available in a trackable format in Level Up](https://levelup.gitlab.com/pages/product-management-hub).
+
+This content is divided into five key competencies for Product Managers.
 
 <hr>
 
@@ -174,13 +165,12 @@ This content is divided into five key competencies for Product Managers.
 
 ##### Deeper dive
 
-- [Introduction to Modern Product Discovery](https://medium.com/productized-blog/an-introduction-to-modern-product-discovery-by-teresa-torres-productizedconf-bb2703b01fdb) 
+- [Introduction to Modern Product Discovery](https://medium.com/productized-blog/an-introduction-to-modern-product-discovery-by-teresa-torres-productizedconf-bb2703b01fdb)
 - [Just Enough Research](https://vimeo.com/129039134) (59 min video)
 
-##### Online courses 
+##### Online courses
 
 - [Nielson Norman Group Trainings and Events](https://www.nngroup.com/training/)
-
 
 ##### Books
 
@@ -200,10 +190,10 @@ This content is divided into five key competencies for Product Managers.
 
 ##### Deeper dive
 
-- [Teresa Torres: Adopting Continuous Product Discovery Practices](https://youtu.be/a2HidFrzYIA) 
+- [Teresa Torres: Adopting Continuous Product Discovery Practices](https://youtu.be/a2HidFrzYIA)
 - [Product Talk: Customer Interviews Articles](https://www.producttalk.org/category/customer-interviews/)
 
-##### Online courses 
+##### Online courses
 
 - [Continuous Interviewing by Product Talk](https://learn.producttalk.org/p/continuous-interviewing)
 
@@ -214,14 +204,13 @@ This content is divided into five key competencies for Product Managers.
 - [The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you](https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742)
 - [Interviewing Users: How to Uncover Compelling Insights](https://www.amazon.com/Interviewing-Users-Uncover-Compelling-Insights/dp/193382011X)
 
-### 💡 Jobs to be done 
+### 💡 Jobs to be done
 
 ##### Quick reads and videos
 
 - [GitLab Jobs to be Done (JTBD) Overview](/handbook/product/ux/jobs-to-be-done/)
 - [Clayton Christensen - Understanding the Job](https://www.youtube.com/watch?v=sfGtw2C95Ms) (5 min video)
 - [Know Your Customers’ “Jobs to Be Done”](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done)
-
 
 ##### Deeper dive
 
@@ -230,7 +219,7 @@ This content is divided into five key competencies for Product Managers.
 - [Tony Ulwick - Customer Centered Innovation](https://businessofsoftware.org/2015/08/tony-ulwick/) (57 min video)
 - [Xavier Russo - A step-by-step guide to using Outcome Driven Innovataion](https://medium.com/envato/a-step-by-step-guide-to-using-outcome-driven-innovation-odi-for-a-new-product-ded320f49acb)
 
-##### Online courses 
+##### Online courses
 
 - [Mastering Jobs-To-Be-Done Interviews](https://learn.jobstobedone.org/courses/JTBDinterviews)
 
@@ -245,23 +234,23 @@ This content is divided into five key competencies for Product Managers.
 
 - [How to Build a Minimum Loveable Product](https://medium.com/the-happy-startup-school/beyond-mvp-10-steps-to-make-your-product-minimum-loveable-51800164ae0c#.56uv0dydd)
 
-
 ##### Deeper dive
 
 - [Melissa Perri - Lean Product Management](https://vimeo.com/122742946) (42 min video)
 - [GitLab Remote Design Sprint guidelines](/handbook/product/ux/design-sprint/)
 - [How to Run Amazing Remote Design Sprints!](https://www.youtube.com/watch?v=IFHfsRNTGCM) (60 min video)
 
-##### Online courses 
+##### Online courses
 
 - [LinkedIn Learning: UX Research: Lean Experimentation](https://www.linkedin.com/learning/ux-research-lean-experimentation/)
 
-##### Books 
+##### Books
+
 - [Eric Ries: The Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
 - [Jake Knapp: Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days](https://www.amazon.com/Sprint-Solve-Problems-Test-Ideas/dp/1442397683)
 - [Ash Maurya: Running Lean: Iterate from Plan A to a Plan That Works](https://www.amazon.com/Running-Lean-Iterate-Plan-Works/dp/1449305172)
 
-### 💡 Growth, Product-led Growth, and Experimentation 
+### 💡 Growth, Product-led Growth, and Experimentation
 
 ##### Quick reads and videos
 
@@ -278,7 +267,7 @@ This content is divided into five key competencies for Product Managers.
 - [GrowthHackers: Growth University](https://university.growthhackers.com/)
 - [Product-led Growth Collective](https://www.productled.org/)
 
-##### Online courses 
+##### Online courses
 
 - [Reforge](https://www.reforge.com/all-programs)
 
@@ -290,9 +279,7 @@ This content is divided into five key competencies for Product Managers.
 - [Trusworthy Online Controlled Experiments](https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264)
 - [Intercom: The Growth Handbook](https://www.intercom.com/resources/books/growth-handbook) (free ebook download)
 
-
 ### 💡 Design
-
 
 ##### Quick reads and videos
 
@@ -303,10 +290,10 @@ This content is divided into five key competencies for Product Managers.
 
 ##### Deeper dive
 
-- [Leaders of Awesomeness](https://leaders.centercentre.com/) 
+- [Leaders of Awesomeness](https://leaders.centercentre.com/)
 - [The Complete Guide to the Kano Model](https://foldingburritos.com/kano-model/)
 
-##### Online courses 
+##### Online courses
 
 - [LinkedIn Learning: Learning Design Thinking](https://www.linkedin.com/learning/learning-design-thinking-lead-change-in-your-organization)
 - [LinkedIn Learning: Accessibility for Web Design](https://www.linkedin.com/learning/accessibility-for-web-design/welcome?u=2255073)
@@ -319,7 +306,6 @@ This content is divided into five key competencies for Product Managers.
 - [Sketching User Experiences: The Workbook](https://www.amazon.com/Sketching-User-Experiences-Saul-Greenberg/dp/0123819598)
 - [The User Experience Team of One: A Research and Design Survival Guide](https://www.amazon.com/User-Experience-Team-One-Research/dp/1933820187)
 - [Jeff Gothelf: Lean UX](https://www.amazon.com/Lean-UX-Designing-Great-Products-ebook/dp/B01LYGQ6CH/)
-
 
 <br>
 <br>
@@ -339,7 +325,7 @@ This content is divided into five key competencies for Product Managers.
 
 _Please contribute your favorite resources here_
 
-##### Online courses 
+##### Online courses
 
 _Please contribute your favorite resources here_
 
@@ -360,29 +346,28 @@ _Please contribute your favorite resources here_
 
 _Please contribute your favorite resources here_
 
-##### Online courses 
+##### Online courses
 
 _Please contribute your favorite resources here_
 
-##### Books 
+##### Books
 
 - [Donald G. Reinertsen: The Principles of Product Development Flow](https://www.amazon.com/Principles-Product-Development-Flow-Generation/dp/1935401009)
 
-### 🚀 Working with Engineering 
+### 🚀 Working with Engineering
 
 ##### Quick reads and videos
 
-- [The Engineering Manager: The relationship with Product](https://www.theengineeringmanager.com/growth/the-engineering-product-relationship/) 
+- [The Engineering Manager: The relationship with Product](https://www.theengineeringmanager.com/growth/the-engineering-product-relationship/)
 - [Visha Soni: A Practical Prioritization Approach for Technical Debt](https://productcoalition.com/a-practical-prioritization-approach-for-technical-debt-f1eb31b8e409)
 - [Rajat Harlalka: Why You Should Invest in Relationships With Your Engineering Team](https://www.mindtheproduct.com/why-you-should-invest-in-relationships-with-your-engineering-team/)
 - [PM & EM: Rules of Engagement](https://segment.com/blog/product-manager-engineering-manager-rules-of-engagement/)
-
 
 ##### Deeper dive
 
 _Please contribute your favorite resources here_
 
-##### Online courses 
+##### Online courses
 
 _Please contribute your favorite resources here_
 
@@ -400,7 +385,7 @@ _Please contribute your favorite resources here_
 - What is a [Minimal Viable Change](/handbook/product/product-principles/#sts=The%20Minimal%20Viable%20Change%20(MVC))?
 - [Product Processes: Iteration Strategies](/handbook/product/product-processes/#iteration-strategies)
 - A [video by Sid and Leif on iteration](https://www.youtube.com/watch?v=tPTweQlBS54) (24 min video)
-- [Product Leadership discusses examples of iteration that they've learned from](https://www.youtube.com/watch?v=tPTweQlBS54) (19 min video) 
+- [Product Leadership discusses examples of iteration that they've learned from](https://www.youtube.com/watch?v=tPTweQlBS54) (19 min video)
 - [Des Traynor: Start with a cupcake](https://www.intercom.com/blog/start-with-a-cupcake/)
 
 ##### Deeper dive
@@ -424,7 +409,7 @@ _Please contribute your favorite resources here_
 
 - [Des Traynor: Product Strategy Revisited](https://businessofsoftware.org/2014/12/product-strategy-saying-part-2-des-traynor-bos-usa-2014/) (54 min video)
 
-##### Online courses 
+##### Online courses
 
 Please contribute your favorite resources here
 
@@ -444,7 +429,7 @@ Please contribute your favorite resources here
 
 - [SaaSFest Keynote: Building a Saas Company Isn't What it Used to Be](https://www.priceintelligently.com/blog/saasfest-keynote-speaker-hiten-shah-building-a-saas-business)
 
-##### Online courses 
+##### Online courses
 
 _Please contribute your favorite resources here_
 
@@ -469,7 +454,7 @@ _Please contribute your favorite resources here_
 - [Financial Modeling for Product Managers](https://tpgblog.com/2015/05/04/product-financial-modeling/) (60 min video)
 - [10 Reads for Data Scientists Getting Started with Business Models](https://www.conordewey.com/blog/10-reads-for-data-scientists-getting-started-with-business-models/)
 
-##### Online courses 
+##### Online courses
 
 - [LinkedIn Learning: SQL Essential Training](https://www.linkedin.com/learning/sql-essential-training-3/)
 
@@ -497,7 +482,7 @@ _Please contribute your favorite resources here_
 
 _Please contribute your favorite resources here_
 
-##### Online courses 
+##### Online courses
 
 - [LinkedIn Learning: Advanced Business Development Communication & Negotiation](https://www.linkedin.com/learning/advanced-business-development-communication-and-negotiation/taking-it-to-the-next-level)
 
@@ -505,7 +490,7 @@ _Please contribute your favorite resources here_
 
 - [Building a Story brand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329/ref=sr_1_11?)
 
-### 💬 Communicating to inspire, align, and activate 
+### 💬 Communicating to inspire, align, and activate
 
 ##### Quick reads and videos
 
@@ -517,7 +502,7 @@ _Please contribute your favorite resources here_
 
 _Please contribute your favorite resources here_
 
-##### Online courses 
+##### Online courses
 
 - [LinkedIn Learning: Communication for Product Managers](https://www.linkedin.com/learning/communication-for-product-managers/)
 
@@ -535,7 +520,7 @@ _Please contribute your favorite resources here_
 
 _Please contribute your favorite resources here_
 
-##### Online courses 
+##### Online courses
 
 - [LinkedIn Learning: Communicating for Product Managers](https://www.linkedin.com/learning/communication-for-product-managers/your-role-as-diplomat-of-the-product-team?u=2255073)
 
@@ -550,7 +535,7 @@ _Please contribute your favorite resources here_
 <br>
 <br>
 
-## <a id="team-management"></a> 🤝 Team management 
+## <a id="team-management"></a> 🤝 Team management
 
 ---
 
@@ -564,7 +549,7 @@ _Please contribute your favorite resources here_
 
 - [Rosemary King: Stakeholders, let 'em in](https://www.mindtheproduct.com/stakeholders-building-an-open-door-culture/) (20 min video)
 
-##### Online courses 
+##### Online courses
 
 - [Managing Project Stakeholders](https://www.linkedin.com/learning/managing-project-stakeholders-2?u=2255073) (LinkedIn Learning course)
 
@@ -583,7 +568,7 @@ _Please contribute your favorite resources here_
 
 _Please contribute your favorite resources here_
 
-##### Online courses 
+##### Online courses
 
 - [LinkedIn Learning: Cross Functional Team Management](https://www.linkedin.com/learning/managing-a-cross-functional-team/welcome)
 
@@ -598,7 +583,6 @@ _Please contribute your favorite resources here_
 
 - For new Group Managers at GitLab, we have an buddy program that matches the new Group Manager with a Senior leader (Director or above) in the Product team that is not in their direct reporting chain. This is an optional program to help new managers understand GitLab management process, find a sounding board to discuss challenging situations in a safe space without judgement, and generally learn management techniques. Although this is targeted to new managers (typically first time managers), it is open to those who are becoming a manager for the first time at GitLab but have been managers elsewhere.
 
-
 ##### Quick reads and videos
 
 - [The New Manager Death Spiral](https://randsinrepose.com/archives/the-new-manager-death-spiral/)
@@ -608,7 +592,7 @@ _Please contribute your favorite resources here_
 
 - [The New Manager Death Spiral](https://www.youtube.com/watch?v=pAbU3WJ-NBw) (30 min video)
 
-##### Online courses 
+##### Online courses
 
 - [LinkedIn Learning: Building High Performing Teams](https://www.linkedin.com/learning/building-high-performance-teams/building-a-high-performing-team)
 
@@ -631,7 +615,7 @@ _Please contribute your favorite resources here_
 - [LinkedIn Learning: Executive Leadership](https://www.linkedin.com/learning/executive-leadership/take-action-to-lead) (1h 19m total)
 - [LinkedIn Learning: Being a Good Mentor](https://www.linkedin.com/learning/being-a-good-mentor/) (1 hour total)
 
-##### Online courses 
+##### Online courses
 
 - [LinkedIn Learning Path: Strategic Leadership](https://www.linkedin.com/learning/paths/develop-your-strategic-planning-skills)
 
@@ -646,7 +630,7 @@ _Please contribute your favorite resources here_
 
 ## <a id="team-management"></a> 🧑‍💻 DevOps
 
-### Kubernetes 
+### Kubernetes
 
 ##### Quick reads and videos
 
@@ -654,13 +638,13 @@ _Please contribute your favorite resources here_
 
 ##### Deeper dive
 
-- Kubernetes for Product Managers 
-   - [Slides](https://docs.google.com/presentation/d/1rUlyq25xrULVdCYqW_TF-1L0fP1hpzqDxA7ciupc9is/edit#slide=id.p) 
+- Kubernetes for Product Managers
+   - [Slides](https://docs.google.com/presentation/d/1rUlyq25xrULVdCYqW_TF-1L0fP1hpzqDxA7ciupc9is/edit#slide=id.p)
    - [Video: Part 1](https://youtu.be/WboRFl5Ebdk)
    - [Video: Part 2](https://youtu.be/9aC1EZF_zy4)
    - [Video: Part 3](https://youtu.be/uye3PhRhXr4)
 
-##### Online courses 
+##### Online courses
 
 _Please contribute your favorite resources here_
 
@@ -673,7 +657,7 @@ _Please contribute your favorite resources here_
 
 ## Product management thought leadership
 
-### Blogs, videos and podcasts and more...
+### Blogs, videos and podcasts and more
 
 There is a lot of amazing content and ongoing trends in the world of product development. Subscribing to blogs, video channels and other ongoing content streams is a great way to get inspiration on best practices and product innvoation with your team. Here are some recommendations on where to start:
 
@@ -688,9 +672,9 @@ There is a lot of amazing content and ongoing trends in the world of product dev
 #### Podcasts
 
 - [Mind the Product](https://www.mindtheproduct.com/the-product-experience/)
-- [Masters of Scale](https://open.spotify.com/show/1bJRgaFZHuzifad4IAApFR)  
-- [Dollars to Donuts](https://open.spotify.com/show/26yTpSSgqzR58wdlFTEvis?si=FU8B_7sxQluT78PepGecGA&nd=1)  
-- [Presentable](https://open.spotify.com/show/2HMGa6BesR174n8NP28VEu?si=5tSm84pmTvKhOD4313Ir8Q&nd=1)  
+- [Masters of Scale](https://open.spotify.com/show/1bJRgaFZHuzifad4IAApFR)
+- [Dollars to Donuts](https://open.spotify.com/show/26yTpSSgqzR58wdlFTEvis?si=FU8B_7sxQluT78PepGecGA&nd=1)
+- [Presentable](https://open.spotify.com/show/2HMGa6BesR174n8NP28VEu?si=5tSm84pmTvKhOD4313Ir8Q&nd=1)
 
 #### Newsletters
 
@@ -704,7 +688,6 @@ There is a lot of amazing content and ongoing trends in the world of product dev
 - [Product School](https://www.youtube.com/channel/UC6hlQ0x6kPbAGjYkoz53cvA/featured) (YouTube Channel)
 - [Women In Product](https://www.youtube.com/channel/UC6z_ibVMdKbKFfgb3mxwx9g/videos?view=0&sort=p) (YouTube Channel)
 
-
 ### Thought leaders and influencers
 
 One of the best ways to stay in the know is to follow people! There are a lot of folks openly sharing their ideas and best practices. We encourage you to follow and exchange ideas with people who inspire you. Here are some recommendations on where to start:
@@ -716,7 +699,7 @@ One of the best ways to stay in the know is to follow people! There are a lot of
 - [Jeff Patton](https://twitter.com/jeffpatton)
 - [Roman Pichler](https://twitter.com/johncutlefish)
 
-# How to contribute to the Product L & D Hub
+## How to contribute to the Product L & D Hub
 
 Keeping our Product L & D Hub robust and relevant is a team effort. We encourage to you to contribute as you come across resources that are helpful to you. And if there are resources in the Product L & D Hub that are outdated or you disagree with, we encourage you to bring it to our attention as well.
 
@@ -736,5 +719,3 @@ If there’s content you want to add to or remove from this library, simply rais
 [Farnoosh Seifoddini](https://gitlab.com/fseifoddini)
 
 [Viktor Nagy](https://gitlab.com/nagyv-gitlab)
-
-

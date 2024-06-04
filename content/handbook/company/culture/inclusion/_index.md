@@ -3,7 +3,8 @@ title: "Diversity, Inclusion & Belonging"
 description: "Diversity, Inclusion & Belonging is fundamental to the success of GitLab. We include it in every way possible and in all that we do."
 ---
 
-![Our Global Team](/images/summits/2019_new-orleans_team.png){:.illustration}*<small>In May of 2019, our team of 638 GitLab team-members from around the world had our annual company trip in New Orleans!</small>*
+<!-- blank line -->
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/947155019?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Get to Know GitLab"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ## Diversity, Inclusion & Belonging at GitLab
 
@@ -14,12 +15,12 @@ And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/
 
 ## GitLab's Diversity Inclusion and Belonging Mission
 
-- **Mission**: At GitLab, we believe everyone can contribute and the Diversity Inclusion and Belonging Team are building scalable strategies based on our acronym, A.D.A.P.T. which stands for **A**ction, **D**oing Good in the communities we serve, holding ourselves **A**ccountable and creating equitable **P**olicies in a **T**ransparent environment.  We are focused on helping to build high performing, customer centric teams by expanding, establishing, embedding our DIB  (https://handbook.gitlab.com/handbook/values/#diversity-inclusion). Just as DIB is a journey, our acronym, **A.D.A.P.T.** mirrors the agility required throughout that journey.
-- **Action** - There is intentionality in how we hire, progress and retain our team members as well as engage with our customers and the open source community.
-- **Do Good** - By providing avenues and opportunities for GitLab & team members to meaningfully contribute to our community and society.
-- **Accountable** - We have a Responsibility to commit and Answerable for the outcome.
-- **Policies**  - By building scalable ways to govern our work, actionable processes which inform our program development/execution.
-- **Transparent** - Our Internal efforts are shared externally
+- **Mission**: At GitLab, we believe everyone can contribute and the Diversity Inclusion and Belonging Team are building scalable strategies based on our acronym, A.D.A.P.T. which stands for **A**ction, **D**oing Good in the communities we serve, holding ourselves **A**ccountable and creating equitable **P**olicies in a **T**ransparent environment.  We are focused on helping to build high performing, customer centric teams by expanding, establishing, embedding our DIB  (/handbook/values/#diversity-inclusion). Just as DIB is a journey, our acronym, **A.D.A.P.T.** mirrors the agility required throughout that journey.
+- **Action** - Action puts intentionality into how we attract, progress and retain our team members as well as engage with our customers and the open source community.
+- **Do Good** - We "Do Good" by providing avenues for GitLab & team members to meaningfully contribute to our community and society.
+- **Accountable** - We hold ourselves Accountable in the commitments we make as well as being Answerable for the outcome.
+- **Policies**  - We build scalable Policies to govern our work and actionable processes which inform our program development and execution.
+- **Transparent** - Transparency is the T in our GitLab CREDIT values and how we operate within DIB ensuring that our internal efforts are reflected externally.
 
 ## GitLab's Diversity, Inclusion & Belonging Vision
 
@@ -52,7 +53,7 @@ Embracing inclusion may increase the **sense of belonging**. Team members become
 
 We believe in empowering team members to get their work done efficiently and collaboratively by establishing clear [DRIs]({{< ref "directly-responsible-individuals" >}}) for all our work. [DRIs do not owe anyone an explanation for their decisions]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}), but DRIs can still acknowledge input by closing an issue and marking it `Won't Do` or commenting on an issue acknowledging that they have read all the comments.
 
-All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree]({{< ref "values#disagree-commit-and-disagree" >}})- but everyone can contribute and it is on the DRI to acknowledge those.
+All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}})- but everyone can contribute and it is on the DRI to acknowledge those.
 Some other ways we actively cultivate a sense of Belonging at GitLab include creating and cultivating allies, welcoming family members in the background of a call, and sharing [negative feedback in 1-1 settings]({{< ref "values#negative-feedback-is-1-1" >}}).
 
 **A good way to look at Diversity, Inclusion & Belonging is:**
@@ -131,7 +132,7 @@ By having no offices and allowing each GitLab team member to work and live where
 
 - All-remote means that you [will not sacrifice career advancement](/handbook/people-group/learning-and-development) by working outside of the office, as even GitLab executives are fully remote.
 - All-remote creates a workplace where caregivers, individuals with physical disabilities, etc. are not disadvantaged for being unable to regularly commute into an office.
-- GitLab's approach to [Spending Company Money](/handbook/spending-company-money/) enables all team members to create a work environment uniquely tailored for them.
+- GitLab's approach to [Spending Company Money](/handbook/finance/spending-company-money/) enables all team members to create a work environment uniquely tailored for them.
 - All-remote enables those who must relocate frequently for family and personal reasons to take their career with them.
 - All-remote allows movement and relocation to physical settings that contribute to an individual's health (e.g. moving to a location with an improved air quality index).
 
@@ -233,7 +234,6 @@ Similar to the engagement survey, we will provide a high level overview of the r
 - 2022-07-01 through 2022-07-15 Identify Working Groups for the Key themes/feedback.
 - Late July - Action planning commences
 
-
 ### Inclusive benefits
 
 We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--maternity-care" >}}) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}), a one-stop shop for all tools related to mental well-being and self-improvement.
@@ -315,14 +315,9 @@ If you are a team member on a GitLab Inc or Federal contract and a disabled vete
 - [Live Inclusion training](https://www.youtube.com/watch?v=gsQ2OsmgqVM&feature=youtu.be)
 - [Live Ally training](https://www.youtube.com/watch?v=wwZeFjDc4zE&feature=youtu.be)
 - Understanding [unconscious bias]({{< ref "unconscious-bias" >}})
-- Salesforce Trailhead has publicly available diversity training on topics such as [Cultivating Equality at Work](https://trailhead.salesforce.com/en/content/learn/trails/champion_workplace_equality), [Inclusive Leadership Practices](https://trailhead.salesforce.com/en/content/learn/modules/inclusive-leadership-practices), [Unconscious Bias](https://trailhead.salesforce.com/en/content/learn/modules/workplace_equality_inclusion_challenges), and [many other diversity related trainings](https://trailhead.salesforce.com/en/search?keywords=diversity)
+- Salesforce Trailhead has many [publicly available diversity trainings](https://trailhead.salesforce.com/en/search?keywords=diversity)
 - [Delivering Through Diversity](https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/delivering-through-diversity) McKinsey and Company research on Diversity and its value.
-- [Salesforce Equality at Work Training](https://trailhead.salesforce.com/trails/champion_workplace_equality).
  To earn badges and save your responses, you'll need to sign up! Use your GitLab address to sign in using Google+.
-- [Business Value of Equality.](https://trailhead.salesforce.com/trails/champion_workplace_equality/modules/workplace_equality_diversity_and_inclusion) This module has three units. The third is specific to Salesforce values and mission and is not required or suggested for our training.
-- [Impact of Unconscious Bias](https://trailhead.salesforce.com/en/trails/champion_workplace_equality/modules/workplace_equality_inclusion_challenges)
-- [Allyship]({{< ref "ally-resources" >}}) and [Equality Ally Strategies](https://trailhead.salesforce.com/trails/champion_workplace_equality/modules/workplace_equality_ally_strategies)
-- [Inclusive Leadership Practices](https://trailhead.salesforce.com/trails/champion_workplace_equality/modules/inclusive-leadership-practices)
 - To be truly inclusive is to be aware of your biases as well as strategies for stopping the effects of those biases. As part of our efforts, we recommend everyone to partake in [the Harvard project Implicit test](https://implicit.harvard.edu/implicit/takeatest.html) which focuses on the hidden causes of everyday discrimination.
 
 ## Diversity, Inclusion and Belonging and Learning and Development Quality Check: Internal and External Training
@@ -363,10 +358,7 @@ We encourage collaboration with global organizations and programs that support u
 GitLab also provides additional support through the [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/).
 We offer funds to help support the event financially, and if the event is in a city we have a GitLab team member, we get hands-on by offering to coach and/or give a talk whenever possible.
 
-Community members from all backgrounds are encouraged to join our [First Look](https://about.gitlab.com/community/gitlab-first-look/) UX research participant panel. Feedback from our community is what makes GitLab lovable and anyone is [able to sign up](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) to our research program for invites to usability tests, user interviews, surveys, and more.
-
 We encourage organizers of events that are supported through our [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/) to share [this sign up link](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) with attendees. Everyone can contribute.
-
 
 ## Definitions
 

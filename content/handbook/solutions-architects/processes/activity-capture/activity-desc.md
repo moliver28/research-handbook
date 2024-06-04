@@ -14,6 +14,7 @@ Solutions Architects record all customer and prospect activity with accurate act
 When recording prospect/customer activity by SA into `Task` objects within Salesforce based on the Troops.ai `Log a Call` action on an `Opportunity`, one or more than one activity type should be selected to accurately reflect the customer interaction.
 
 This page describes all activity types available for SAs in
+
 - [Enterprise and Commercial](/handbook/solutions-architects/processes/activity-capture/activity-desc/#Description-for-Enterprise-and-Commercial-SA-Activity-Type)
 - [Strategic Field](/handbook/solutions-architects/processes/activity-capture/activity-desc/#Description-for-Strategic-Field-SA-Activity)
 - [Value Stream Workshop](/handbook/solutions-architects/sa-practices/value-stream-discovery/#value-stream-workshop), and

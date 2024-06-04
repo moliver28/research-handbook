@@ -13,6 +13,7 @@ If you have 2-3 navigation designs with distinct differences, and you want to se
 **Goal:** Compare multiple early prototypes to see which performs better. If participants can navigate to a relevant task/tasks, assess overall usability, and obtain additional insight such as initial impressions, verbal qualitative feedback, etc.
 
 **Benefits:**
+
 - Participants can provide more beneficial and specific feedback because they’re exposed to multiple designs. Having participants experience multiple designs to achieve the same goal will enable them to think about the differences between them.
 - You will learn qualitative insights such as comments and opinions about the designs from participants thinking out loud.
 - You will have quantitative data from Task Completion and UMUX Lite scores to compare your designs, although there are limitations to interpreting the data due to a small sample size. These should be interpreted as directional only.
@@ -57,7 +58,7 @@ If you have 2-3 navigation designs with distinct differences, and you want to se
 
 **Recommended testing platform:** UserTesting for unmoderated,  Zoom for moderated
 
-## How to run a comparative usability test:
+## How to run a comparative usability test
 
 - Test 2-3 designs max. Testing more than 3 designs may be overwhelming for participants and you may not have enough time in the sessions to cover them all with discussion.
 - Test designs that have obvious differences to ensure that participants can distinguish them from each other.

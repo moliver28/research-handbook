@@ -89,7 +89,6 @@ are:
 - When you want to coach them about something, look back to see how they want
    to work with their manager and receive feedback
 
-
 ## All About You
 
 For those who don't have access to the Google Doc, the text of the template follows.

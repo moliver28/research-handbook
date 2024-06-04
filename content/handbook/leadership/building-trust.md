@@ -121,7 +121,6 @@ One of our Managers said this about the Zoom Background Ice-Breaker:
 
 > One of my favorite things that the team and I have done over the last 3-4 months is to update our Zoom background. We all threw out TV shows and then agreed on our favorite, from there; we picked a scene from that show and showed up to a meeting with our background. Not only was it fun to listen to the shows our team members like, but it was also a conversation piece and a lot of fun!
 
-
 **How to apply Zoom background ice-breakers:** Team members can do this for as many meetings as they like. If it is a team discussion, spend the first five minutes of the meeting doing a round robin of the background. Managers can implement a rotation of DRIs ([directly responsible individuals](/handbook/people-group/directly-responsible-individuals/)) in charge of the ice-breaker by assigning different team members.
 
 ### Give Credit to Team Members
@@ -138,7 +137,6 @@ Take a [coaching approach]({{< ref "coaching" >}}) and have the team members tal
 
 **How to build trust in 1-1 meetings:** One way to do this is to ensure team members have plenty of time to talk about the weekend or what fun things are going on in their lives. Managers can spend the first 5-10 minutes of the call, letting it be about "them." Before diving straight into "work topics," especially at the beginning of a new working relationship, pause and ask about family, hobbies, the weekend, etc. Try to remember things team members mention about family, pets, hobbies, or other things going on in their life. If they live in a particular part of the world, managers can spend time getting to know what's happening regionally. Follow up with questions related to a team member's home.
 For some great tips on how to make small talk and build connection through communication listen to [Rachel Greenwald in Episode 89 of Think Fast, Talk Smart](https://www.youtube.com/watch?v=jLFH9Q3VQsc).
-
 
 ### Leverage the Building High Performing Teams Model
 

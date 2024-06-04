@@ -126,10 +126,12 @@ for the environment will change it for both main and canary stages of an environ
 Some examples for the most commonly used environments are as follows
 
 Feature flags on staging and staging-canary:
+
   * Enable:  `/chatops run feature set feature_flag_name true --staging`
   * Disable: `/chatops run feature set feature_flag_name false --staging`
 
 Feature flags on production and production-canary:
+
   * Enable `/chatops run feature set feature_flag_name true`
   * Disable `/chatops run feature set feature_flag_name false`
 
@@ -153,21 +155,22 @@ an incident.
 
 The chatops command to disable canary in an environment is as follows
 
-```
-# Disable production-canary
+```markdown
+## Disable production-canary
 /chatops run canary --disable --production
 
-# Disable staging-canary
+## Disable staging-canary
 /chatops run canary --disable
 ```
+
 #### Re-enabling canary stage in an environment
 
 The chatops command to re-enable canary in an environment is as follows
 
-```
-# Disable production-canary
+```markdown
+## Disable production-canary
 /chatops run canary --enable --production
 
-# Disable staging-canary
+## Disable staging-canary
 /chatops run canary --enable
 ```

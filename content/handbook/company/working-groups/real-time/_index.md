@@ -24,7 +24,7 @@ To ship one real-time feature to self-managed customers.
 
 (✅ Done, ✏️ In-progress)
 
-##### [One Working Real-Time Feature, Usable by Single Instance/Small Cluster, Self-Hosting Customers](https://gitlab.com/gitlab-org/gitlab/issues/17589) `=> 100%`
+### [One Working Real-Time Feature, Usable by Single Instance/Small Cluster, Self-Hosting Customers](https://gitlab.com/gitlab-org/gitlab/issues/17589) `=> 100%`
 
 - [Supports starting Action Cable in embedded mode](https://gitlab.com/gitlab-org/gitlab/-/issues/214061) ✅
 - [Omnibus includes ability to start embedded Action Cable with config/cable.yml](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/4066) ✅

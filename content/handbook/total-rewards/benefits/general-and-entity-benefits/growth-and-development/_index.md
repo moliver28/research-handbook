@@ -5,26 +5,26 @@ description: A description of programs and resources for team members to access 
 
 ## Introduction
 
-At GitLab, team members have access to the [Growth and Development Fund](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) to access external resources to develop their career.
+At GitLab, team members have access to the [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) to access external resources to develop their career.
 
 GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed (which should also be the same calendar year in which it ends). If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not “take away” budget from other engineers. Eligibility is managed on an individual basis. Eligibility for the fund is part of each GitLab team member’s Total Rewards package.
 
-The Growth and Development fund is managed by the [Learning and Development team](https://handbook.gitlab.com/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
+The Growth and Development fund is managed by the [Learning and Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
 ## Growth and Development Fund Eligibility
 
 To be eligible for the Growth and Development Fund, you must meet the following criteria:
 
 - Team members who are full-time and have been employed for three months can participate in this fund.
+- Team members should be meeting performance expectations in their current role. (Not on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance)
 - If you are a part-time GitLab team member, you may still be eligible to participate in this fund but your reimbursement might be reduced.
 - Team members who are currently on "leave" status will not be eligible to use the growth and development fund.
-- Team members who are meeting performance expectations in their current role. (Should not be on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance)
 
 ## How to Apply for the Growth and Development Fund
 
-Here is a step by step guide on G&D applications:
+Here is a step by step guide on how to apply for G&D applications:
 
 **Step 1:** Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to discuss timing, team member capacity, and application timeline for both the program and fund processing. This conversation should allow time for you to apply for the program and your manager to ensure team capacity.
 
@@ -43,6 +43,7 @@ The application process is visible internally. If there is any reason that you w
 **Step 3:** Request approval on the issue. Depending on the cost of the application, different approval levels are required. In all instances, your direct manager should be the first approver in the issue.
 
 Cost Tiers Approval:
+
 - Manager Approval (with VP's made aware on the issue): $0-$1,000
 - Manager + VP Approval: $1,000.01 - $5,000
 - Manager + eGroup Approval for any spend $5,000.01 - $10,000 (Apart from Sales, where VPs can approve $5,000.01 - $10,000 spend)
@@ -58,11 +59,11 @@ Before attempting to claim reimbursement, please ensure you've read through and 
 - Claim your expenses via [Navan Expense](/handbook/finance/expenses/#-introduction):
   - In your Navan Expense report, choose the Expense type `G&D (Growth and Development)`.
   - Include a screenshot of your approved Growth & Development issue & add a link to the issue to the description.
-    - If reimbursing for an Academic or Course/Certificate program, include a screenshot of your final grade report/transcript/certificate (see)
+  - If reimbursing for an Academic or Course/Certificate program, include a screenshot of your final grade report/transcript/certificate.
   - Please make sure the issue matches your Navan Expense claim amount. Your Navan Expense claim will be audited against the Growth & Development issue amount.
 - Please claim conference and workshop meals and lodging per receipt via [Navan Expense](/handbook/finance/expenses/#-introduction). Travel should be expensed in a separate Navan claim, as detailed [here](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#workshops-and-conferences). When submitting your travel claim, please add a link to your G&D issue in the description.
 
-You may close the issue once you have received reimbursement for the program.
+Please go back and close your G&D issue once you have received reimbursement for the program.
 
 ### Notes on Reimbursement
 
@@ -89,7 +90,7 @@ If you voluntarily terminate employment with GitLab prior to completing twelve c
 
 The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training that are required to fulfill their job duties, are not within the scope of the Growth and Development policy and should be budgeted for outside the policy. Such expenses will not be deducted from the team member's annual Growth and Development limit and should be paid for by GitLab rather than reimbursed to the team member.
 
-### Tax Implications
+## Tax Implications
 
 In some countries, the Growth and Development Fund may be considered as taxable income and can be (partially) exempted from personal income taxes or subject to employer withholding taxes. Check [the tax table]({{< ref "tax" >}}) for any tax implications in your country.
 
@@ -180,7 +181,7 @@ For reimbursements above $1,000, you can expense 50% of the cost up front, and 5
 
 ### Code Based Learning
 
-**Description:**The company will pay for courses related to learning how to code (for example Learning Rails on Codecademy), and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
+**Description:** The company will pay for courses related to learning how to code (for example Learning Rails on Codecademy), and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
 
 **Eligibility for Reimbursement:** The course must be related code based learning. A final grade report or satisfactory certificate of completion are required to receive reimbursements over $1,000 USD. For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion.
 

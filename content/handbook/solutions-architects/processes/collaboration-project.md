@@ -48,7 +48,6 @@ These issues are the key collaboration point between GitLab team members and the
 When using a Collaboration Project, it is important to stay consistent to meet the customer. A Solutions Architect should determine with the customer an appropriate cadence to meet up with key stakeholders to review and summarise the questions from the last cadence cycle. A good guideline for the cadence timing is around fortnightly. One of the best ways to track these cadences is using GitLab Iterations. This allows you to quickly summarise the issues raised in an iteration through scoped boards.
 [WIP - summarising a team meeting agenda etc.]
 
-
 ### Key Use Cases
 
 - Multiple customer stakeholders spanning various departments or agencies
@@ -70,4 +69,3 @@ GitLab Issues allow Solutions Architecture to integrate with existing workflows 
 ### Example Collaboration Projects (Internal)
 
 1. [GitLab Dedicated Customer in APAC]
-

@@ -42,6 +42,7 @@ Companies that were mostly colocated prior to the COVID-19 pandemic likely prior
 The goal should be to ensure the office is treated as simply [another space to work remotely]({{< ref "./how-to-work-remote-first#offices-are-simply-venues-to-work-remotely-from" >}}).
 
 Here are some changes to consider to make your space more inclusive of remote team members:
+
 1. Eliminate and/or redesign meeting rooms for [individual hybrid-remote meeting spaces]({{< ref "./hybrid-remote#redesigned-spaces-for-individual-hybrid-remote-meeting-rooms" >}})
 1. Install an LCD wall (or similar) with images and photos from remote team members to serve as a reminder of your team beyond the office
 1. Ensure that hoteling or co-working areas are prioritized within the office over dedicated desks or large cubicles
@@ -115,4 +116,3 @@ GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" 
 ---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).
-

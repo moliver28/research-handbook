@@ -25,7 +25,7 @@ The goal isn't to create a culture of documenting for the sake of documenting; r
 ![GitLab all-remote handbook-first illustration](/images/all-remote/gitlab-all-remote-v2-youtube-2560x1440.png)
 {style="max-width: 50%;"}
 
-In early-stage startups, it's particularly tempting to avoid a [documentation strategy](/handbook/handbook-usage#why-handbook-first). With only a few team members, it's feasible to keep everyone informed via meetings, Slack, or email threads. Long-term, this oversight becomes increasingly harmful.
+In early-stage startups, it's particularly tempting to avoid a [documentation strategy](/handbook/about/handbook-usage/#why-handbook-first). With only a few team members, it's feasible to keep everyone informed via meetings, Slack, or email threads. Long-term, this oversight becomes increasingly harmful.
 
 As a team scales, the **need** for documentation increases in parallel with the **cost** of not doing it. Said another way, implementing an effective communication strategy becomes **more difficult** — yet **more vital** — as a company ages and matures.
 
@@ -70,7 +70,7 @@ Resist the urge to abandon documentation plans when crisis hits. The most powerf
 ![GitLab code review](/images/all-remote/gitlab-code-review.jpg)
 {style="max-width: 50%;"}
 
-A common belief is that a company wiki can serve as a handbook, but the reality is that [wikis do not scale](/handbook/handbook-usage#wiki-handbooks-dont-scale). They are designed to be updated by a select few, which creates several issues. One, content frequently falls out of date, which triggers a companywide belief that the information cannot be trusted without personally confirming with another human (and in turn, injecting inefficiency into the process of [self-learning](./self-service)).
+A common belief is that a company wiki can serve as a handbook, but the reality is that [wikis do not scale](/handbook/about/handbook-usage/#wiki-handbooks-dont-scale). They are designed to be updated by a select few, which creates several issues. One, content frequently falls out of date, which triggers a companywide belief that the information cannot be trusted without personally confirming with another human (and in turn, injecting inefficiency into the process of [self-learning](./self-service)).
 
 Two, it creates class segmentation — those entrusted to update the wiki, and those who are not yet wise or elite enough to do so.
 
@@ -139,7 +139,7 @@ The trick to ensuring a handbook grows continually is to instill it as a value. 
 
 {{< youtube "3HHyjAV3hYE?start=581" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/handbook-usage#why-handbook-first)" approach to companywide documentation.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
 
 > I think [documentation]({{< ref "./management#scaling-by-documenting" >}}) has to be [instilled as a value]({{< ref "values#write-things-down" >}}). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
@@ -157,7 +157,7 @@ Empowering the entire company to propose changes creates widespread autonomy and
 
 Ideally, everyone feels as if they are a contributing member of a handbook's evolution. This is easier to foster when you instill ["writing things down"]({{< ref "values#write-things-down" >}}) as a value at an early stage. For [scaled companies]({{< ref "./scaling" >}}) adding a handbook many years after inception, consider hiring dedicated scribes that sit on each team.
 
-Former journalists are ideal for this type of work, as it goes well beyond transcription. Documenting [notes](communication#external-communication) during [meetings]({{< ref "./meetings" >}}), and converting them from [Google Docs]({{< ref "communication#google-docs" >}}) to [handbook](/handbook/handbook-usage#why-handbook-first), requires a knack for storytelling as well as an understanding of what's important and what [context]({{< ref "./effective-communication#understanding-low-context-communication" >}}) should be added.
+Former journalists are ideal for this type of work, as it goes well beyond transcription. Documenting [notes](communication#external-communication) during [meetings]({{< ref "./meetings" >}}), and converting them from [Google Docs]({{< ref "communication#google-docs" >}}) to [handbook](/handbook/about/handbook-usage/#why-handbook-first), requires a knack for storytelling as well as an understanding of what's important and what [context]({{< ref "./effective-communication#understanding-low-context-communication" >}}) should be added.
 
 Consider investing in a handbook editor team that ensures the engineering framework is up to date, and that code owners are notified whenever pages go too long without an update.
 
@@ -179,13 +179,13 @@ Where possible, it is even more efficient to post documentation directly to the 
 
 For example: if a topic is described on the public website, only add necessary commentary on that topic for internal GitLab audiences in the handbook with links to the SSoT on the public website.
 
-Learn more about [using handbook screenshots instead of creating a presentation](/handbook/handbook-usage#screenshot-the-handbook-instead-of-creating-a-presentation) in GitLab Handbook Usage.
+Learn more about [using handbook screenshots instead of creating a presentation](/handbook/about/handbook-usage/#screenshot-the-handbook-instead-of-creating-a-presentation) in GitLab Handbook Usage.
 
 ## Learn more about documentation
 
 Learn more about the importance of documentation in the GitLab resources below.
 
-1. [Documentation handbook section](/handbook/documentation)
+1. [Documentation handbook section](/handbook/product/ux/technical-writing/documentation/)
 1. [Documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide)
 1. [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation)
 1. [Scaling by documenting]({{< ref "./management#scaling-by-documenting" >}})

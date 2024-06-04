@@ -55,6 +55,7 @@ To become a driver, submit an MR to this page adding yourself to the table below
 ##### Sync before Call
 
 Passengers before a customer call should:
+
 - Review the SA Triage Issues Checklist, recent running notes, or Troops activities related to the account or opportunity
 - Introduce themselves to Account Executive
 - Discuss findings in reviewed Chorus Calls
@@ -67,6 +68,7 @@ Passengers should use the ride-alongs as an opportunity to practise their introd
 For example
 
 Hello, my name is ${PASSENGER}, and I am working along side ${DRIVER_NAME} to:
+
 - Listen to your technical and business needs
 - Act as your technical resource
 - Help guide you through evaluating GitLab
@@ -76,6 +78,7 @@ It's a pleasure to meet all of you today.
 ##### Debrief post Call
 
 Passengers debriefing after a customer call should:
+
 - Review any action items to follow up on
 - Discuss if messaging to client was successful completed
 - Provide feedback to the driver on call

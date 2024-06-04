@@ -46,7 +46,6 @@ Most of the details discussed below are also available as individual issues whic
 - Which region would you like your Geo node to be located?
 - Do you have specific requirements for which AZ that you want your setup to be located? (Eg. southeast-1a)
 
-
 ## Runners
 
 - Where are your runners located?
@@ -76,12 +75,3 @@ Most of the details discussed below are also available as individual issues whic
     - Application.log
     - Application_json.log
     - audit_json.log
-
-
-
-
-
-
-
-
-

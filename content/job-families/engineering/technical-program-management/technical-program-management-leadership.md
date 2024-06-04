@@ -49,7 +49,6 @@ The role is a [grade 9](/handbook/total-rewards/compensation/compensation-calcul
 
 - We are not currently hiring for this role & will add more detail requirements when the business need arises.
 
-
 ### Director, Infrastructure Technical Program Management
 
 This position reports to the Vice President of Infrastructure & Quality at GitLab.

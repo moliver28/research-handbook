@@ -39,7 +39,7 @@ There are times when you will play the role of UX Research Operations Coordinato
    - Don’t forget to reach out to the UX researcher for assistance. They help the PM and/or Product Designer put together the screener in Qualtrics.
    - The person requesting the research is responsible for creating the screener in Qualtrics and adding you as a contributor.
 
-### Step 3 - Choose the best recruiting channel from these options:
+### Step 3 - Choose the best recruiting channel from these options
 
 - **[Data warehouse contacts](/handbook/product/ux/ux-research/recruiting-participants/#finding-gitlabcom-users-in-the-data-warehouse)**
    - Requires editor access & SQL knowledge

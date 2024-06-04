@@ -9,7 +9,6 @@ description: "The Verify Product Group wants to increase sharing, findability, a
   <iframe src="https://www.youtube.com/embed/9iF9zWAxdH0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
 ### Intent of this page
 
 The Verify Product Group wants to increase [sharing](/handbook/values/#share), [findability](/handbook/values/#findability), and encourage [bias for async communication](/handbook/values/#bias-towards-asynchronous-communication). We will use this handbook page as forum for showcasing our team processes while also providing an opportunity to encourage a open discussion between team members on our processes for retrospective.
@@ -48,8 +47,8 @@ The noted DRI still owns decision-making and is still responsible for notifying/
 | Runner SaaS |autoscaler|SaaS Runners (Linux, Windows, macOS) and internal GitLab Runner fleet|Runner PM - Gabriel Engel|Runner EM - Nicole Williams| Infrastructure Mgr. - David Smith|
 |Compute Minutes Management for SaaS runners|RAILS|Changes to compute minutes configuration for customers on GitLab SaaS in the scope of SaaS runners.|SaaS runners PM Gabriel Engel|Runner EM - Nicole Williams|N/A|
 |CI Pipeline Execution and Performance|RAILS|Features and capabilities for running or triggering a pipeline in the GitLab UI.|CI PM |CI EM - Cheryl Li|N/A|
-|CI/CD Queueing GitLab SaaS and Self-Managed|RAILS|CI jobs queueing architecture.| Pipeline Execution PM |Lead engineers: Kamil Trzciński , Grzegorz Bizon, Stan Hu|
-|CI/CD Fair Scheduling GitLab SaaS |RAILS|CI jobs fair scheduling architecture and configuration.|Pipeline Execution PM |Lead engineers: Kamil Trzciński , Grzegorz Bizon, Stan Hu|
+|CI/CD Queueing GitLab SaaS and Self-Managed|RAILS|CI jobs queueing architecture.| Pipeline Execution PM |Lead engineers: Kamil Trzciński , Grzegorz Bizon, Stan Hu| |
+|CI/CD Fair Scheduling GitLab SaaS |RAILS|CI jobs fair scheduling architecture and configuration.|Pipeline Execution PM |Lead engineers: Kamil Trzciński , Grzegorz Bizon, Stan Hu| |
 
 ### Workflow
 
@@ -72,43 +71,43 @@ We have four main processes:
 
 ##### Stage-wide GTM & Strategy Positioning
 
-* **Frequency**: Twice a year
-* **Audience**: Internal
-* **Assets Produced**: Deck, Recording, and Issue Boards
-* **Goal**:  Deliver a 30-minute recording that aligns the half-year product strategy of the stage with the GTM sales motion and competitive landscape. Include any assets that will be helpful to sales teams for pitches and product managers for early selling in prospect calls.
+- **Frequency**: Twice a year
+- **Audience**: Internal
+- **Assets Produced**: Deck, Recording, and Issue Boards
+- **Goal**:  Deliver a 30-minute recording that aligns the half-year product strategy of the stage with the GTM sales motion and competitive landscape. Include any assets that will be helpful to sales teams for pitches and product managers for early selling in prospect calls.
 
 We recently conducted our first joint stage-wide PMM and Product Positioning for F[Y22 1H](https://youtu.be/B03ke3WlnaE), alongside a [deck](https://docs.google.com/presentation/d/1K0QXBtW48UbG7uQMaTa83X99RIbDXuY0tFYynSyuSGo/edit).
 
 ##### Sales Enablement
 
-* **Frequency**: Quarterly
-* **Audience**: Internal
-* **Assets Produced**: Deck and Recording
-* **Goal**:  Deliver 10-30 minute recordings on various product topics for use in field enablement.
+- **Frequency**: Quarterly
+- **Audience**: Internal
+- **Assets Produced**: Deck and Recording
+- **Goal**:  Deliver 10-30 minute recordings on various product topics for use in field enablement.
 
 We recently participated in a discussion of building the bench for technical topics via [cs-skill#116](https://gitlab.com/gitlab-com/sales-team/cs-skills-exchange/-/issues/116). These types of sessions would then be used in partnership with PMM to help build compelling stories for the Field.
 
 ##### Roadmap Alignment for Product Group
 
-* **Frequency**: Quarterly
-* **Audience**: External
-* **Assets Produced**: Recording
-* **Goal**:  Deliver 10-30 minute recordings on various product topics for use in webinars, partner calls, or whitepapers.
+- **Frequency**: Quarterly
+- **Audience**: External
+- **Assets Produced**: Recording
+- **Goal**:  Deliver 10-30 minute recordings on various product topics for use in webinars, partner calls, or whitepapers.
 
 These are intended to help guide themes and present opportunities to build stories in the market and not commitments, otherwise, these would be scheduled for a milestone.
 
 ##### Release Post & Market Postioning for Features
 
-* **Frequency**: Monthly
-* **Audience**: External
-* **Assets Produced**: Copy/text
-* **Goal**:  Deliver written communication in Merge Requests with Product Manager in the Release Post Items or blog posts.
+- **Frequency**: Monthly
+- **Audience**: External
+- **Assets Produced**: Copy/text
+- **Goal**:  Deliver written communication in Merge Requests with Product Manager in the Release Post Items or blog posts.
 
 We sometimes ship feature specific blog posts such as [Moving CI to Lovable...again](https://about.gitlab.com/blog/2021/02/22/continuously-improving-ci-lovability/) or this expose on [the Pipeline Editor](https://about.gitlab.com/blog/2021/02/22/pipeline-editor-overview/). These are great opportunities to include PMM alongside the [Release Post review and positioning](/handbook/marketing/blog/release-posts/#pmm-reviewers).
 
 #### Customer Success & Renewal Engagement
 
-We have a CS <> Product feedback loop for Customer Success (SA/CSM) and Product Managers to sync on product feedback from prospects and customers. On a monthly cadence, we meet to discuss problems to solve as captured in issues created in the [cs-product-feedback ](https://gitlab.com/gitlab-com/cs-product-feedback) project and consolidated on this [issue board](https://gitlab.com/gitlab-com/cs-product-feedback/-/boards).
+We have a CS <> Product feedback loop for Customer Success (SA/CSM) and Product Managers to sync on product feedback from prospects and customers. On a monthly cadence, we meet to discuss problems to solve as captured in issues created in the [cs-product-feedback](https://gitlab.com/gitlab-com/cs-product-feedback) project and consolidated on this [issue board](https://gitlab.com/gitlab-com/cs-product-feedback/-/boards).
 
 #### Alliances Engagement
 
@@ -121,4 +120,4 @@ We want to encourage and support our open source community as nuch as possible. 
 1. Merged MRs from the community in the [Verify Stage](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&label_name[]=devops%3A%3Averify&label_name[]=Community%20contribution)
 1. [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr)
 
-Our process for enabling merge requests from the community can be found on the [Verify Team Page]().
+Our process for enabling merge requests from the community can be found on the Verify Team Page.

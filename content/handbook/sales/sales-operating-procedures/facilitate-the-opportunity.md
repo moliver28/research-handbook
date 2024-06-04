@@ -1,16 +1,7 @@
 ---
-
 title: Facilitate The Opportunity
 description: GitLab sales process for facilitating the opportunity
 ---
-
-
-
-
-
-
-
-# Facilitate the Opportunity
 
 You have qualified a lead and now you need to turn it into a sale. This phase is called **Facilitate the Opportunity.** The goal of this phase is to achieve a **technical commit** followed by an **economic commit** from the customer. A Commit is a verbal acknowledgement from the buyer that they want to proceed with the deal. In this phase there are 4 high level tasks you need to complete to get a technical and economic commit:
 
@@ -103,7 +94,7 @@ Your job is to call out the specific key pain points and show the customer how t
 
 The next component of the pitch deck is showing how GitLab can help. This will require you to understand the customer’s specific use case. You discovery calls should have provided much of the data to define the problem, but going further you must do the following:
 
-- Research [Customer Use Cases](/handbook/use-cases/)
+- Research [Customer Use Cases](/handbook/marketing/use-cases/)
 - Align the customer’s pain point to a typical customer use case
 - Explain what GitLab does in relation to the associated customer use case
 

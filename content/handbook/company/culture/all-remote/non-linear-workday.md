@@ -166,7 +166,7 @@ The point is, a non-linear mindset gives you options to [break free from routine
 
 The example detailed here would not have been possible without a few realities already in place.
 
-- The company must work [handbook-first](/handbook/handbook-usage#why-handbook-first), such that all meaningful takeaways from conversations are documented in their proper place, around the clock.
+- The company must work [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), such that all meaningful takeaways from conversations are documented in their proper place, around the clock.
 - The company must embrace [asynchronous workflows]({{< ref "./asynchronous" >}}) (including [tools like GitLab](https://about.gitlab.com/stages-devops-lifecycle) as well as processes) in a deliberate, intentional, and thorough way.
 - The company must support a [non-judgemental culture]({{< ref "./mental-health#create-a-non-judgemental-culture" >}}), which measures team members on [results rather than hours]({{< ref "remote-values#results" >}}). This enables people to enter and exit work as they so choose, with no fear of retribution for doing something as unorthodox as skiing while everyone else works, and working while everyone else wishes they would've gone skiing.
 - A personal dedication to being a [manager of one]({{< ref "values#managers-of-one" >}}), able to focus on the right tasks while working from a foreign environment.
@@ -214,13 +214,12 @@ Non-linear workdays are focused on results. Building systems to focus on results
 
 Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

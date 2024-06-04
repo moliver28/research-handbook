@@ -322,7 +322,6 @@ A `CustomersDot User` record in CDot is tied to one email address.  This email a
 - [Iteration 1C : A single CustomersDot User can have multiple BillingAccounts](https://gitlab.com/groups/gitlab-org/-/epics/8986) - Not Started
 - [Iteration 1D: Clean up legacy data objects](https://gitlab.com/groups/gitlab-org/-/epics/8949) - Not Started
 
-
 #### Background
 
 In this epic, the focus is on improving the data architecture of CustomersDot to better align with Zuora Billing Accounts. The `Customer` model in CDot has known design flaws as it represents a combination of both a Zuora Contact (individual user) and a Zuora Account (organization).
@@ -345,7 +344,6 @@ It is important to note that a Zuora Account maps to a company/customer account 
 1. [CDot Issue #242](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/242)
 1. [CDot Issue #695](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/695)
 1. [GL Issue #338546](https://gitlab.com/gitlab-org/gitlab/-/issues/338546)
-
 
 #### Plan
 
@@ -396,7 +394,6 @@ Overall, this will lead to a more secure environment for our customers in CDot a
 - [CDot SSO: Enhance experience for first time login to CDot](https://gitlab.com/groups/gitlab-org/-/epics/9156)
 - [CDot SSO: Migrate more CDot customers to use the GitLab SSO for login](https://gitlab.com/groups/gitlab-org/-/epics/9155)
 
-
 #### Align CustomersDot Orders with Zuora Orders
 
 This work focuses on breaking apart the `CustomersDot Order` table and moving towards a data structure that is more representative of the `Zuora Subscriptions` table.
@@ -404,6 +401,7 @@ This work focuses on breaking apart the `CustomersDot Order` table and moving to
 See the [Architecture Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cdot_orders/) for full details.
 
 [Align CustomersDot Orders to Zuora objects](https://gitlab.com/groups/gitlab-org/-/epics/9748)
+
 - [Phase 1: Implement Zuora Cache Models](https://gitlab.com/groups/gitlab-org/-/epics/11751)
 - [Phase 2: Utilize Zuora Cache Models](https://gitlab.com/groups/gitlab-org/-/epics/11752)
 - [Phase 3: Replace CDot Order with Subscription](https://gitlab.com/groups/gitlab-org/-/epics/11753)
@@ -451,7 +449,6 @@ The Master Data Objects development work in Snowflake/dbt is tracked in these tw
 Below is the Entity Relationship Diagram for the Re-architected data model in Snowflake. The Target State tab shows how the business entities we extract from the CustomersDot, Zuora, Salesforce, and GitLab.com source systems connect with each other.
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/c8f1520c-e59b-4551-a9db-bfce88bb84dc" id="0GkOGAjoD_O."></iframe></div>
-
 
 #### Conformed Dimension Design for Core Business Objects
 

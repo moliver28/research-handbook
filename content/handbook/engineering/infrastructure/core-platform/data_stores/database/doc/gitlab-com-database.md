@@ -54,7 +54,7 @@ In order to setup direct access, you will have to configure SSH to use the *bast
 
 This is an example configuration for a user named `joe` (replace this with your gitlab email user) to access psql and Rails consoles in `gprd`:
 
-```
+```text
 # GCP production bastion host
 Host lb-bastion.gprd.gitlab.com
         User                    joe

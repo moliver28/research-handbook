@@ -2,7 +2,7 @@
 title: "Technical Instructional Designer"
 ---
 
-The Technical Instructional Designer is responsible for designing and developing new, engaging, and effective learning solutions and instructional experiences for GitLab customers, partners, and/or sales & customer success professionals that help these audiences achieve desired learning outcomes.  
+The Technical Instructional Designer is responsible for designing and developing new, engaging, and effective learning solutions and instructional experiences for GitLab customers, partners, and/or sales & customer success professionals that help these audiences achieve desired learning outcomes.
 
 ## Responsibilities
 
@@ -36,7 +36,7 @@ The Technical Instructional Designer is responsible for designing and developing
 - Working knowledge and application experience using reveal.js, Articulate 360, Adobe Creative Suite (Premiere, Captivate, InDesign, Illustrator, Photoshop), and other industry benchmark applications and online multimedia authoring tools
 - HTML5, xAPI, mobile learning, and adaptive learning experience desired
 - Experience working with a variety of Learning Management and Learning Experience Systems and various virtual meeting management tools such as Zoom is a plus
-- Familiarity with statically generated websites are preferred, as we take a [handbook-first](/handbook/handbook-usage/#why-handbook-first) approach to Field and Customer Enablement
+- Familiarity with statically generated websites are preferred, as we take a [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) approach to Field and Customer Enablement
 - Knowledge of the software development life cycle, DevOps, and/or open source software is preferred
 - Ability to use GitLab
 

@@ -169,7 +169,7 @@ There are known limitations with a single Kubernetes cluster that seem beyond ou
 | 32,768                | /17                 |
 | 65,536                | /16                 |
 
-# Multi-Dimension Limitations on Kubernetes Resources
+## Multi-Dimension Limitations on Kubernetes Resources
 
 | Pod Secondary IP Range | # Pod IP Addresses | # Nodes | # Pods  |
 |------------------------|--------------------|---------|---------|
@@ -187,7 +187,6 @@ There are known limitations with a single Kubernetes cluster that seem beyond ou
 | /13                    | 524,288            | 2,048   | 225,280 |
 | /12                    | 1,048,576          | 4,096   | 450,560 |
 | /11                    | 2,097,152          | 8,192   | 901,120 |
-
 
 ### Google Best Practices for Optimizing IP Allocation
 

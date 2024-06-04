@@ -347,6 +347,7 @@ The advantages of using a wiki page are:
 
 For new customers wothout a collaboration project, the POV Plan template will be included in the Wiki when the collaboration project is created from the [POV project template](https://gitlab.com/gitlab-com/account-management/templates/poc-plan).
 For existing customers there are two options for getting the POV template into the existing customer collaboration project:
+
 1. Open the POV collaboration project wiki page and copy the text and paste it into a new page in the customer collaboration project wiki and uopdate it with the specific customer details
 1. Clone the POV template wiki locally, update it and push to the customer collaboration project following the steps below (assuming the customer name is MyCustomer):
    1. Access the wiki (Plan -> Wiki) page in the POV project template

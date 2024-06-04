@@ -48,6 +48,7 @@ When creating a diverse and inclusive culture, most companies will develop a mis
 ### Creating TMRGs
 
 In general, TMRGs are an excellent support system and key to providing awareness, respect, and building diversity, inclusion & belonging within the workplace. These groups are a proven way to increase cultural competency, retention of team members, provide marketplace insights to the business, attract diverse talent, and more. The endorsement of TMRGs allows team members to identify common interests and decide how they can be shared with others. When creating TMRGs there are a few initial steps to consider:
+
 - [Creating guidelines to help support TMRGs being stood up within your company]({{< ref "erg-guide" >}})
     - Naming of each TMRG
     - Roles within each TMRG

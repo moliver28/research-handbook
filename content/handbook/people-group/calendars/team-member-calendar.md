@@ -19,7 +19,6 @@ Each quarter a Slack reminder will go out in #what's-happening-at-GitLab Slack c
 | History and Awareness | Asian American and Pacific Islander Heritage Month; Mental Health Awareness Month | LGBTQ+ Pride Month | ----- |
 | Skill of the Month | Continuous Learning | Customer Centricity | Personal Productivity |
 
-
 ## FY24 Q3
 
 | Action | August | September | October |
@@ -30,7 +29,6 @@ Each quarter a Slack reminder will go out in #what's-happening-at-GitLab Slack c
 | Skill of the Month | Analytical Thinking | Personal Productivity | Staying Motivated |
 | ----- | ----- | ----- | ----- |
 | ----- | ----- | ----- | ----- |
-
 
 ## FY24 Q4
 
@@ -53,8 +51,3 @@ Each quarter a Slack reminder will go out in #what's-happening-at-GitLab Slack c
 | Skill of the Month | ----- | ----- | ----- |
 | ----- | ----- | ----- | ----- |
 | ----- | ----- | ----- | ----- |
-
-
-
-
-

@@ -182,4 +182,5 @@ flowchart TB
             id5_sg3 --> id9
     %% 6. Triage Process
 ```
+
 </div>

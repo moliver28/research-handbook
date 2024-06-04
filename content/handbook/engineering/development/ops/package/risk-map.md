@@ -16,13 +16,13 @@ The goal of this page is to create, share and iterate the Risk Map for the Packa
 ### Goals
 
 Utilise the Risk Map as a tool to:
+
 - Understand the risks the team faces
 - Increase transparency on mitigation plans
 - Plan and prioritize effectively
 - Collaborate strategically in improving Quality
 
-### Risk Mapping 
-
+### Risk Mapping
 
 #### Project
 
@@ -31,7 +31,5 @@ The [project](https://gitlab.com/gitlab-org/ci-cd/package-stage/risk-mapping) do
 #### Tool
 
 [Open on the Risk Mapping website.](https://gitlab-org.gitlab.io/ci-cd/package-stage/risk-mapping/)
-
-
 
 <iframe src="https://gitlab-org.gitlab.io/ci-cd/package-stage/risk-mapping" width="100%" frameborder="0" scrolling="yes" height="900"></iframe>

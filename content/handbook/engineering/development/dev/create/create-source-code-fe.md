@@ -37,13 +37,13 @@ Support all our counterparts with frontend engineering expertise, including impl
 
 The following people are permanent members of the Create:Source Code FE Team:
 
-{{< team-by-manager-role role="Engineering(.*)Manager(.*)Create:Source Code" team="Create:Source Code" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*Frontend.*Create:Source Code" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts manager-role="Engineering(.*)Manager(.*)Create:Source Code" role="[,&] \(Create(.*)|Create:Source Code|Create \(Source Code|Director(.*)Create|Principal(.*)Create|Group(.*)Create" >}}
+{{< stable-counterparts role="(Product Manager|Backend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
 
 ## Core Responsibilities
 
@@ -89,6 +89,15 @@ For more urgent items, feel free to use [#g_create_source_code] or [[#g_create_s
 [#g_create_source_code]: https://gitlab.slack.com/archives/g_create_source-code
 [#g_create_source_code_fe]: https://gitlab.slack.com/archives/g_create_source-code-review-fe
 
+### Code Reviewing
+
+To prevent the creation of knowledge silos and also receiving input from people outside of the team, we follow these principles:
+
+* Not all Merge Requests need to go through the team
+* However, Merge Requests that seem important for the team to be aware, let's ensure one of the reviews go through a team member
+
+**MRs important to the team:** these are changes to logic in our apps or meaningful component changes. Sequential work in a larger epic is also beneficial to have oversight from peers within the team. But bottom line, use your best judgement.
+
 ### Capacity planning
 
 {{% include "includes/engineering/create/capacity-planning-fe.md" %}}
@@ -125,4 +134,4 @@ During this call, we also do a quick **Retrospective review** going through the 
 
 ### Issues
 
-- April 2020: [Frontend: Iteration Retrospective (Source Code)](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/22)
+* April 2020: [Frontend: Iteration Retrospective (Source Code)](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/22)

@@ -61,6 +61,7 @@ A [video](https://www.youtube.com/watch?v=4ZMLr8oDhqI) showing demo data was cre
 ## Future iterations and known issues
 
 At the time of closing this Working Group, the following tasks are still outstanding.
+
 - [Perform a live demo using seeded data](https://gitlab.com/gitlab-org/gitlab/-/issues/351373)
 - [Import should render URLs correctly.](https://gitlab.com/gitlab-org/gitlab/-/issues/414981) ([example](https://youtu.be/4ZMLr8oDhqI?t=1274))
 - [Allow multi-user setup](https://gitlab.com/gitlab-org/gitlab/-/issues/361994) and for ownership to be defined for issues/comments/etc. This will become more important as our "New UI" comes out.

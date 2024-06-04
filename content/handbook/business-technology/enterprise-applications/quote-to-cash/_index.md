@@ -51,11 +51,9 @@ description: "Enterprise Applications Quote to Cash Documentation"
 </div>
 </div>
 
-
 ## Process Flow Diagrams
 
 #### Sales-Assisted: New Subscription
-
 
 <div class="center">
 <div style="width: 720px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:720px; height:480px" src="https://lucid.app/documents/embeddedchart/0f691079-8ee9-4663-84d7-6d03e7f87ed8" id="PNs5p_JZW4yg"></iframe></div>
@@ -92,7 +90,6 @@ description: "Enterprise Applications Quote to Cash Documentation"
 - `#bt-finance-operations`
 - `#financesystems_help`
 - `#bt-integrations`
-
 
 ### GitLab Issues
 

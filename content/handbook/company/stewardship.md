@@ -31,7 +31,6 @@ We promise that:
 1. We will make our Free tier easily discoverable.
 1. We will always make it clear what is proprietary and what is open source code. This will be implemented with a [separate directory for EE code](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee) and a [Git repo downstream that is open source only](https://gitlab.com/gitlab-org/gitlab-foss).
 
-
 ## Software as a Service
 
 Our stewardship promise applies only to the GitLab open source codebase, not to GitLab, Inc services such as GitLab Software as a Service (SaaS).

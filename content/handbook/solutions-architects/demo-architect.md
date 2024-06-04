@@ -17,7 +17,6 @@ Before we jump into all of the offerings we need to first cover definitions beca
 - Lunch & Learns: Primarily a term used by the CSE/CSM group to describe demos they give to a larger crowd. Will typically cover a topic like CICD in a short time frame with no hands-on portion. Almost all of the content here can be converted to this format.
 - Cohorts: Term for a session put on by the CSE team that is halfway between a lab and a workshop. The content is typically a workshop focusing only on the important stuff, but also is in a setting where the students can ask questions live.
 
-
 ### Workshops
 
 Workshops are meant to be offered in 3 hour sessions (with a few exceptions) generally in partnership with the FFM team. This content often doesn't get very technical as workshops are open to the public resulting in many different skill sets, so we want to make sure everyone can still learn something from the events. If you are not currently partnered with the FMM team, you most likely are looking for a Lab instead.
@@ -82,6 +81,8 @@ These demos are meant for anyone in the CS org to use when they get asked a ques
 #### [AI](https://gitlab.com/gitlab-learn-labs/webinars/ai)
 
 - [Code Suggestions Python Demo](https://gitlab.com/gitlab-learn-labs/webinars/ai/code-suggestions-python-demo): This demo takes the basic Simply Simple Notes application and shows how you can use code suggestions to quickly finish a restful API and rewrite an insecure application
+
+- [GitLab Duo Java Demo](https://gitlab.com/gitlab-learn-labs/webinars/ai/just-a-web-app-gitlab-duo): This demo takes the simple application and shows how you can use the full potential of GitLab Duo to quickly remediate vulnerabilities and generate code faster.
 
 #### [Analytics](https://gitlab.com/gitlab-learn-labs/webinars/analytics)
 

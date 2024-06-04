@@ -646,7 +646,6 @@ The following group names have been renamed or removed and may still be in use w
 | 2023-03-14      | eng-dev         | eng-dev                  | eng-dev-configure                 | eng-dev-configure-configure          | eng-dev-deploy-environments                   |
 | 2023-10-19      | eng-dev         | eng-dev                  | eng-dev-enablement                | eng-dev-enablement-memory            | eng-infra-cloud-connector |
 
-
 ## Resource Type (`gl_resource_type`)
 
 This label/tag is optional.

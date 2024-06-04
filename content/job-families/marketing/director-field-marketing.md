@@ -78,7 +78,6 @@ The Director of Marketing, Japan leads the strategy and execution of marketing p
 - Skilled at partnering cross-functionally across marketing, internal stakeholders and agency partners as well as external stakeholders, including channel partners and customers
 - Deep understanding of channel ecosystem and related processes
 
-
 ### Career Ladder
 
 The next step in the Field Marketing Leadership job family is to Senior Director, Regional Marketing.

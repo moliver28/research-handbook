@@ -45,4 +45,4 @@ We strive to be thought leaders in each respective community.
 | GitLab for Open Source | [Handbook](/handbook/marketing/developer-relations/community-programs/open-source-program/) | [Marketing page](https://about.gitlab.com/solutions/open-source/) | [Application page](https://about.gitlab.com/solutions/open-source/join/) | [Alexander Karsten](https://gitlab.com/akarsten1) | `opensource@gitlab.com` |
 | GitLab for Startups    | [Handbook](/handbook/marketing/developer-relations/community-programs/startups-program/)    | [Marketing page](https://about.gitlab.com/solutions/startups/join/) | [Application page](https://about.gitlab.com/solutions/startups/join/)| [Alexander Karsten](https://gitlab.com/akarsten1) | `startups@gitlab.com` |
 
-Please see the GitLab [Environment, Social, and Governance (ESG)](/handbook/legal/ESG/) handbook page for information about the GitLab for Non-Profits Program.
+Please see the GitLab [Environment, Social, and Governance (ESG)](/handbook/legal/esg/) handbook page for information about the GitLab for Non-Profits Program.

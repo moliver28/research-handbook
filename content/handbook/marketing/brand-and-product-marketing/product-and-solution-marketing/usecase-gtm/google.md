@@ -15,7 +15,7 @@ title: "Use case: GitLab + Google Cloud"
 | ---- | --- |
 | [Sara E. Davila](https://gitlab.com/saraedavila) | [William Chia](https://gitlab.com/williamchia) |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 The landscape of software development is changing. Today’s users expect to interact with software applications that are always-on and accessible from every device. To keep up, businesses of all sizes that have traditionally built and managed centralized, monolithic applications are shifting to distributed cloud services. And these services are being built and run by distributed teams located all around the world. Modernizing the business through IT is a cultural and technological shift.
 
@@ -31,7 +31,6 @@ Modern Trends Impacting Software Development
 - Platform Modernization
 - Accerlate App Dev & Delivery
 - Developing App on Edge
-
 
 ## Personas
 
@@ -55,7 +54,7 @@ The Infrastructure Engineering Director is responsible for building and scaling 
 
 The Release and Change Management Director is responsible for managing complex releases from concept to delivery. The CIO may be the final decision maker or buyer, but the Release and Change Management Director has significant influence in the buying process.
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## Messaging and Positioning
 
@@ -69,11 +68,9 @@ GitLab and Google Cloud work better together in several ways. You can install yo
 
 GitLab and Google Cloud provide unified solutions to develop, deliver, and operate modern software applications with speed, efficiency, and reliability.
 
-
 ### Long Description
 
 GitLab is a complete DevOps platform, delivered as a single application. Google Cloud provides cloud computing services such as Anthos, Cloud Run, and Google Kubernetes Engine. Together, GitLab and Google Cloud provide unified solutions to develop, deliver, and operate modern software applications with speed, efficiency, and reliability.
-
 
 From modernizing legacy applications to cloud native architectures using containers, service mesh and microservices, to operating complex distributed applications using GitOps you can trust GitLab and Google Cloud to meet your business challenges head on.
 
@@ -85,7 +82,6 @@ See the full set of GitLab joint solution capabilities with Google Cloud at [htt
 | **Pain points** | one | two | three |
 | **Why GitLab** |  one | two| three |
 
-
 ## Proof Points
 
 [General proof points](/handbook/sales/command-of-the-message/proof-points/) and [Customer Recognition](https://about.gitlab.com/customers/marketplace/)
@@ -95,11 +91,3 @@ See the full set of GitLab joint solution capabilities with Google Cloud at [htt
 ### Case Studies
 
 ## Resources
-
-
-
-
-
-
-
-

@@ -76,4 +76,3 @@ This page lists the details of the Technical Marketing Bill of Material delivera
 **Quantity**: 1  
 **Buyer's Journey**: Consideration  
 **Priority**: 3  
-

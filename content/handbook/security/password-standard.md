@@ -43,7 +43,6 @@ To make a secure password you can remember, consider using a [combination of 5 o
 - If a password is required to be stored, it must be stored within an approved password manager application and may be pasted from this using a master password function (e.g. 1Password).
 - If an account or password is suspected to have been compromised, immediately report the incident to Security and promptly follow instructions.
 
-
 ### System Password Configuration Requirements
 
 - For systems where a password can be configured the minimum password length needs to be set to 12 characters.
@@ -78,10 +77,9 @@ For a better understanding of how 2FA fits into GitLab, refer to the [Accounts a
 - SAML Assertion after logging into an authentication portal is required where technically feasible (e.g. Okta).
 - Authentication to an application should support individual users, not groups.
 
-
 ## Exceptions
 
-Exceptions to this standard will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this standard will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

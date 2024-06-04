@@ -20,7 +20,7 @@ The following is a list of security dashboards that need to be reviewed:
 - [GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell/-/security/vulnerability_report)
 - [k8s-workloads](https://gitlab.com/groups/gitlab-com/gl-infra/k8s-workloads/-/security/vulnerability_report)
 - [Version](https://gitlab.com/gitlab-services/version-gitlab-com/-/security/vulnerability_report)
-- [UBI images](https://gitlab.com/gitlab-com/gl-security/appsec/container-scanners/-/security/vulnerability_report/)
+- [UBI images](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/container-scanners/-/security/vulnerability_report/)
 - [release-cli](https://gitlab.com/gitlab-org/release-cli/-/security/vulnerability_report/)
 - [vscode-extension](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/security/vulnerability_report)
 - [Customers](https://gitlab.com/gitlab-org/customers-gitlab-com/-/security/vulnerability_report)
@@ -49,7 +49,7 @@ For each finding:
 
 ## Dependency Updates
 
-If a vulnerability is identified in a product dependency, the appsec engineer should follow the [security development workflow](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md) to create a merge request to update the dependency in all supported versions. The merge request should be opened in the [GitLab Security repo](https://gitlab.com/gitlab-org/security/gitlab) so that the dependency gets updated in supported backports as well. Vulnerabilities determined to be `Critical` or `High` should have merge requests created when identified. `Medium` and `Low` vulnerabilities will be addressed by best effort, but always within the 90-day SLA.
+If a vulnerability is identified in a product dependency, the appsec engineer should follow the [security development workflow](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md) to create a merge request to update the dependency in all supported versions. The merge request should be opened in the [GitLab Security repo](https://gitlab.com/gitlab-org/security/gitlab) so that the dependency gets updated in supported backports as well. Vulnerabilities determined to be `Critical` or `High` should have merge requests created when identified. `Medium` and `Low` vulnerabilities will be addressed by best effort, but always within the 90-day SLA.
 
 The goal of this process is to update dependencies as quickly as possible, and reduce the impact on development teams for minor updates. In the future, this step could be replaced by [auto remediation](https://gitlab.com/gitlab-org/gitlab/issues/37452).
 

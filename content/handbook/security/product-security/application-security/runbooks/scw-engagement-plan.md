@@ -7,6 +7,7 @@ title: "AppSec's Engagement Plan and Ways to Measure Usage of Secure Code Warrio
 If anyone from the AppSec team is interested in contributing to the Secure Code Warrior (SCW) training program and you don't have access to the [Secure Code Warrior training portal](https://portal.securecodewarrior.com/), please post a comment in the `#sec-appsec` Slack channel requesting access.
 
 Once you have access to the Secure Code Warrior training portal, please do the following:
+
 - Join the `#security-secure-code-warrior` Slack channel
 - Watch [Secure Code Warrior platform walkthrough](https://www.youtube.com/watch?v=IwTJ-DOqmXQ) for a quick overview of the platform
 - Please read through SCW's documentation on [Getting Started](https://help.securecodewarrior.com/hc/en-us/categories/360001975872-Getting-Started)
@@ -33,14 +34,14 @@ Developer = Backend + Frontend Engineers. See [Org Chart](https://comp-calculato
 - 25% of developers participate in the semi-annual tournament
 - 50% of developer accounts are spending at least an hour in the platform each month
 
-### Later:
+### Later
 
 - 75% of developers in high risk teams ("high risk" is defined as teams or groups that see the most amount of vulnerabilities reported in their part of the application in a given year) have completed one course, per year, in SCW
 
 ## Engagement Plan
 
 - Integrating Secure Code Warrior into [new hire onboarding template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_development.md ) as a checklist item that needs to be finished within the first 3 months of starting at GitLab
-   - An Access Request (AR) would be created automatically requesting the new hire access to Secure Code Warrior and the request would ping the `@gitlab-com/gl-security/appsec` DL on the AR issue. The AppSec person on triage rotation picks up the AR.
+   - An Access Request (AR) would be created automatically requesting the new hire access to Secure Code Warrior and the request would ping the `@gitlab-com/gl-security/product-security/appsec` DL on the AR issue. The AppSec person on triage rotation picks up the AR.
 - Monthly Slack announcements calling out the top 3 vulnerabilities seen in our last Security Release, announcement to be made by the AppSec Primary for that release (see [Release Managers](https://about.gitlab.com/community/release-managers/)), and, how developers can learn to identify and fix them
 - Integrating Secure Code Warrior with GitLab CI would greatly help drive continuous engagement
 - Kick-off tournament open to all Development engineers at GitLab. Prizes would be given for the top 3 players of the tournament.

@@ -79,7 +79,9 @@ Especially if you feel you're stalled on a ticket and need assistance identifyin
 
 ### How to formally Request Help from the GitLab Development Team
 
-Starting from `2022-06-13` the Support Team and the Development Team are rolling out a series of projects that will enable support engineers to request help from a GitLab Development group, for more information on this please review the [associated proposal](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4023). The aim is to provide a formal and accountable workflow process for Support Engineers to request assistance from the various Development Sections for any technical issues which they are currently unable to progress.  Please note that this is an iterative process, which aims to roll out the process for each of the 10 development sections at GitLab. If the Development Section that you require assistance from is not listed in the table below then please continue to use the existing methods for contacting the relevant Development Teams, such as Slack.
+To enhance collaboration between the support and development teams, GitLab has implemented the Request for Help (RFH) process. This allows support engineers to formally request assistance from the specific GitLab development groups responsible for the relevant functionality when facing technical challenges that impede ticket resolution. This section outlines the necessary steps to effectively utilize the RFH process.
+
+It's important to note that this process is part of a broader, iterative strategy aimed at deploying this workflow across all development sections and groups at GitLab. If the RFH template for a particular development group is not yet available, please reach out to [John Lyttle](https://gitlab.com/jlyttle) to initiate the creation of the required RFH template.
 
 #### Are you requesting for Dev help too soon?
 
@@ -124,7 +126,7 @@ The easiest way to determine the correct place for a Support Request for Help is
 
 Alternatively, if you have set up the [Support dotfiles](https://gitlab.com/gitlab-com/support/toolbox/dotfiles), you can use the `gls_request_for_help` command to quickly retrieve the "New issue" link with the correct issue template.
 
-*NOTE:* A video recording of a similar workflow as the one described above can be found in the [Support Training repository](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/Support%20Specific%20Trainings/training-videos/Support%20Request%20for%20Help%20Workflow.mp4)
+_NOTE:_ A video recording of a similar workflow as the one described above can be found in the [Support Training repository](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/Support%20Specific%20Trainings/training-videos/Support%20Request%20for%20Help%20Workflow.mp4)
 
 #### List of Development Sections and corresponding links to the Projects for requesting help
 
@@ -164,7 +166,7 @@ Use the following repositories and resources for identifying similar issues or r
 1. If the Zendesk ticket is escalated then add the label `Support::escalated`.
 1. Add a 'Customer Impact' statement if necessary, advocating for the customer.
 1. Ensure to follow any instructions on the template itself, such as who to assign the issue to (if not automatically assigned).
-1. Ensure that a link to the corresponding issue is added to the Zendesk ticket as an internal note.
+1. Ensure that a link to the corresponding issue is added to the Zendesk ticket as an internal note and also to the ticket field named `GitLab Issues`.
 
 #### Tips on getting timely responses
 

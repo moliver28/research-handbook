@@ -33,6 +33,7 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 - [Remote Request Profiling](https://docs.gitlab.com/ee/administration/monitoring/performance/request_profiling.html)
 
 ### Articles
+
 - [42 performance tips for Ruby on Rails - Magnus Skog](https://www.mskog.com/posts/42-performance-tips-for-ruby-on-rails/)
 - [Cables vs. malloc_trim, or yet another Ruby memory usage benchmark — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/cables-vs-malloc_trim-or-yet-another-ruby-memory-usage-benchmark)
 - [Chapter 19: Threads - Ruby Hacking Guide](https://ruby-hacking-guide.github.io/thread.html)
@@ -66,15 +67,18 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 - [Who's afraid of the big bad lock? - Space Vatican](https://www.spacevatican.org/2012/7/5/whos-afraid-of-the-big-bad-lock/)
 
 ### Books
+
 - [How Linux Works: What Every Superuser Should Know by Brian Ward](https://www.goodreads.com/book/show/514432.How_Linux_Works)
 - [Ruby Performance Optimization: Why Ruby Is Slow, and How to Fix It by Alexander Dymo](https://www.goodreads.com/book/show/25276703-ruby-performance-optimization)
 - [Ruby Under a Microscope by Pat Shaughnessy](https://www.goodreads.com/book/show/16300795-ruby-under-a-microscope)
 - [Working with Ruby Threads by Jesse Storimer](https://workingwithruby.com/wwrt/intro)
 
 ### Podcasts
+
 - [Episode 372: Aaron Patterson on the Ruby Runtime : Software Engineering Radio](https://www.se-radio.net/2019/07/episode-372-aaron-patterson-on-the-ruby-runtime/)
 
 ### Tools
+
 - [GitHub - ko1/allocation_tracer: Add ObjectSpace::AllocationTracer module.](https://github.com/ko1/allocation_tracer)
 - [GitHub - michaelherold/benchmark-memory: Memory profiling benchmark style, for Ruby 2.1+](https://github.com/michaelherold/benchmark-memory)
 - [GitHub - MiniProfiler/rack-mini-profiler: Profiler for your development and production Ruby rack apps.](https://github.com/MiniProfiler/rack-mini-profiler)

@@ -14,6 +14,7 @@ title: "Alex Persona snippets"
 ### [Alex (App Dev Manager)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#alex---the-application-development-manager)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)

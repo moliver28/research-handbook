@@ -8,18 +8,18 @@ A Bash is a research method where a group of participants, whether diverse or ta
 The idea is that each participant will use the feature differently, resulting in a large amount of varied feedback in a short amount of time. Bashes usually take place over 24 hours, enabling asynchronous participation.
 
 Benefits of a UX Bash:
+
 - Quickly and efficiently identify and prioritize usability issues.
 - Discover software bugs, glitches, and inconsistencies.
 - Uncover areas for feature enhancements and improvements.
 - Collect user feedback to enhance the product experience.
 - Turn around results to the team in 48 hours.
 
-
-### Appropriate situations for a UX Bash:
+### Appropriate situations for a UX Bash
 
 Bashes are useful when [foundational research](/handbook/product/ux/ux-research/foundational-research/) has already been conducted, but your team is trying to fine tune the experience before broader release, as quickly as possible. It is also well suited for when a feature is only available internally and it would be difficult to set up a test environment and recruit external users. Bashes offer a cost-effective and efficient supplement to more extensive [solution validation methodologies](/handbook/product/ux/ux-research/solution-validation-and-methods/).
 
-### How to set up a UX Bash:
+### How to set up a UX Bash
 
 #### Step 1. Define Bash Goals
 
@@ -41,7 +41,7 @@ Bashes are useful when [foundational research](/handbook/product/ux/ux-research/
    - Ratings of overall quality
    - Ratings of the speed of the response
 
-#### Step 4. Recruit:
+#### Step 4. Recruit
 
 - Determine who will participate in the Bash. Ensure that participants accurately represent the target users of the feature in order to provide actionable feedback. You can choose to target a diverse group or a specific audience based on the goals of your Bash.
 - Bashes don’t have a maximum number of participants, but can expand based on your needs, ability to recruit from a population, and your ability to analyze the data efficiently. Previous Bashes have usually consisted of 5-10 users.

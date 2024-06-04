@@ -124,7 +124,7 @@ broken pipelines, deployments, etc.
 
 | Category                | Type | Support Project | Sync Project |
 |-------------------------|:----:|-----------------|--------------|
-| Account Settings        | v2   | N/A | [zendesk-global/account-settings](https://gitlab.com/gitlab-support-readiness/zendesk-global/account-settings)
+| Account Settings        | v2   | N/A | [zendesk-global/account-settings](https://gitlab.com/gitlab-support-readiness/zendesk-global/account-settings) |
 | Agents                  | v2   | N/A | [zendesk-global/users/agents](https://gitlab.com/gitlab-support-readiness/zendesk-global/users/agents) |
 | Apps                    | v2   | N/A | [zendesk-global/apps](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps) |
 | Articles                | v2   | N/A | [zendesk-global/articles](https://gitlab.com/gitlab-support-readiness/zendesk-global/articles) |

@@ -41,9 +41,9 @@ Systems or services explicitly not owned by us:
 |---|---|
 | Workflow | [Issue Labels](/handbook/engineering/infrastructure/team/reliability/issues.html#labels) <br> [Weekly Issue Triage](https://gitlab.com/groups/gitlab-com/gl-infra/-/issues/?sort=created_date&state=opened&label_name%5B%5D=team%3A%3ADatabase%20Reliability&first_page_size=20) |
 | Backlog | [Current Milestone](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/3406753) <br> [Issue Backlog](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/5360242) |
-| Reaching us | [`#g_infra_database_reliability`](https://gitlab.slack.com/archives/C02K0JTKAHJ) <br> [`#reliability-lounge`](https://gitlab.slack.com/archives/C03QC5KNW5N) <br> `@gitlab-org/reliability/database`
+| Reaching us | [`#g_infra_database_reliability`](https://gitlab.slack.com/archives/C02K0JTKAHJ) <br> [`#reliability-lounge`](https://gitlab.slack.com/archives/C03QC5KNW5N) <br> `@gitlab-org/reliability/database` |
 | Weekly Agenda | [Weekly APAC and EMEA/AMER](https://docs.google.com/document/d/1d8YrRO4Vw_pHXohgwq-lEBM75ihMtkLpcd2_cFa6Yrs/edit#) |
-| Achievements | [FY24 - Q1](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/17443)
+| Achievements | [FY24 - Q1](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/17443) |
 
 ## DBRE Escalations
 
