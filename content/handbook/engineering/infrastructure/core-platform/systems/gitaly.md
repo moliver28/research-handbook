@@ -101,7 +101,6 @@ These are typically [Corrective Actions or other followup items](/handbook/engin
 SLO tracking. They will be scheduled through either of the above paths, by EM
 and/or PM polling [these dashboards](#useful-links).
 
-
 ### Gitaly oncall rotation
 
 Gitaly team provides an oncall rotation to provide focused expertise to production SaaS systems. This is currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4), and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call (EOC)** responsibilities for Gitaly team members.
@@ -125,12 +124,11 @@ TBD
 
 #### Who is oncall
 
-The source of truth is the PagerDuty rotation. If you're scheduled but want to take PTO, you're responsible for finding coverage. (In case of emergencies, managers will take over this duty.) 
+The source of truth is the PagerDuty rotation. If you're scheduled but want to take PTO, you're responsible for finding coverage. (In case of emergencies, managers will take over this duty.)
 
 #### Roster management
 
 Please refer to https://handbook.gitlab.com/handbook/engineering/on-call/#pagerduty for the mechanics (swapping oncall, adding new team members to the rotation).
-
 
 ## Cluster team
 
