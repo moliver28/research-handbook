@@ -1,12 +1,14 @@
 ---
-title: UX Showcase
+title: UX Forum
 description: >-
-  The UX Showcase is a recurring meeting for UX team members to share and discuss their work.
+  The UX Forum is a recurring meeting for UX team members to share and discuss their work.
+aliases:
+- /handbook/product/ux/ux-showcase/
 ---
 
-## About UX Showcase
+## About UX Forum
 
-The UX Showcase is a recurring meeting for UX team members to share and discuss their work.
+The UX Forum is a recurring meeting for UX team members to share and discuss their work.
 This includes past, current, or future work, and covers Product Design, UX Research, and Technical Writing.
 All showcases are recorded and made available on [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) for Product, UX, Engineering, and Leadership to watch at their convenience.
 
@@ -30,8 +32,8 @@ All showcases are recorded and made available on [GitLab Unfiltered](https://www
 Showcases are scheduled every two weeks. They are 60 minutes long to allow up to three team members to share for 15 minutes, plus 5 minutes of discussion time with the attendees.
 
 - To be inclusive of our distributed team, we alternate the meeting start time every other occurrence to be either Americas/LAC/EMEA friendly or APAC friendly.
-- Each showcase is hosted by a Product Design Manager.
-    - Due to time zone restrictions for managers, the APAC UX Showcase is hosted by another Product Designer, Technical Writer or UX researcher.
+- Each forum is hosted by a Product Design Manager.
+    - Due to time zone restrictions for managers, the APAC UX Forum is hosted by another Product Designer, Technical Writer or UX researcher.
 - Product Designers are assigned dates based on a randomly generated rotation:
     - We ensure each designer has the opportunity to share twice a year.
     - Gaps are left throughout the schedule for additional speakers.
@@ -45,22 +47,22 @@ If a speaker can't share on their assigned date, it's their responsibility to ma
 - After you identify a trade, make an MR to update the schedule.
 - Ask your Product Design Manager to review and merge.
 
-{{% include "includes/ux-showcase-schedule.md" %}}
+{{% include "includes/ux-forum-schedule.md" %}}
 
-<a href="https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/ux-showcase-schedule.md" class="btn btn-primary">Update schedule</a>
+<a href="https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/ux-forum-schedule.md" class="btn btn-primary">Update schedule</a>
 
 ## Sharing your work
 
 You have up to 15 minutes to share some of your work.
-If you need more time to share and discuss a complex topic, ask the host about having fewer people speak at that showcase.
+If you need more time to share and discuss a complex topic, ask the host about having fewer people speak at that forum.
 
-Preparation for a showcase should be minimal.
+Preparation for a forum should be minimal.
 You should come prepared with just enough to tell a story and ellicit feedback from the audience.
 Successful showcases share these aspects:
 
 - **Informal**:
     Avoid creating dedicated slides or assets, but use your best judgment to determine what's most effective: a prototype, a series of mockups, a process diagram, a journey map, a few slides, or something else.
-    The UX Showcase is to share and discuss your work informally, not fancy storytelling.
+    The UX Forum is to share and discuss your work informally, not fancy storytelling.
 - **Just enough sophistication**:
     Help us strive for a [low level of shame](/handbook/values/#low-level-of-shame) and share your work with as little sophistication as possible.
     While some topics gain from a more sophisticated story, this sophistication raises the perception of quality, puts unnecessary pressure on other speakers, and might make it harder for others to engage.
@@ -84,8 +86,8 @@ Examples of minimal showcases:
 
 ### Preparation
 
-- Prior to the UX Showcase, add your specific topic to the meeting agenda.
-- If this is an APAC showcase and there is no host yet, consider [hosting](#hosting).
+- Prior to the UX Forum, add your specific topic to the meeting agenda.
+- If this is an APAC forum and there is no host yet, consider [hosting](#hosting).
 - Provide context for the problem:
     - The scope of the problem
     - Why was/is it important to solve?
@@ -122,11 +124,11 @@ For more tips, see the [communication handbook page](/handbook/communication/#pr
 
 ## Hosting
 
-Product Design Managers take turns hosting the UX Showcase. Managers can use the [UX Showcase issue template](https://gitlab.com/gitlab-org/gitlab-design/-/issues/new?issuable_template=UX%20Showcase) to create a tracking issue for their team's showcase. See [how to use templates](https://docs.gitlab.com/ee/user/project/description_templates.html#use-the-templates).
+Product Design Managers take turns hosting the UX Forum. Managers can use the [UX Forum issue template](https://gitlab.com/gitlab-org/gitlab-design/-/issues/new?issuable_template=UX%20Showcase) to create a tracking issue for their hosting date. See [how to use templates](https://docs.gitlab.com/ee/user/project/description_templates.html#use-the-templates).
 
 ### Recording the sessions
 
-To limit the amount of post-UX Showcase editing, please start and stop (not pause) the recording after each topic. This will ensure that each topic saves as an individual clip, which is much faster to edit than a 1-hour clip. Choose "record to computer" each time you record.
+To limit the amount of post-UX Forum editing, please start and stop (not pause) the recording after each topic. This will ensure that each topic saves as an individual clip, which is much faster to edit than a 1-hour clip. Choose "record to computer" each time you record.
 
 ### Sharing on GitLab Unfiltered
 
@@ -135,10 +137,10 @@ If you need to edit the videos at all, you can use a video editor like iMovie.
 Otherwise:
 
 1. Locate the video clips on your computer.
-1. Name the videos with "UX Showcase" + the title of the topic.
+1. Name the videos with "UX Forum" + the title of the topic.
 1. Check with speakers to make sure the video is appropriate for the public (no customer names).
 1. Upload the videos to [GitLab Unfiltered](https://m.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz).
-1. Add the videos to the [UX Showcase playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) and [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5).
+1. Add the videos to the [UX Forum playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) and [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5).
 1. Set the visibility to Public.
     - NOTE: If the video content contains items that are un[SAFE](/handbook/legal/safe-framework/) mark the video as Private.
 1. Share the YouTube links in `#ux` and `#product` Slack channels with a brief description of each topic.
@@ -153,4 +155,4 @@ Otherwise:
 
 ### Updating the schedule
 
-After the sessions are over, update the [UX showcase schedule](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/includes/ux-showcase/_schedule.md).
+After the sessions are over, update the [UX Forum schedule](https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/ux-forum-schedule.md).
