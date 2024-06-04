@@ -104,7 +104,7 @@ More details on this will be covered in the `BC plan - roles & responsibilities 
 
 ### Backup check
 
-[Make sure that backups are performed daily](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they’re backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html).
+[Make sure that backups are performed daily](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they’re backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
 
 ### Distribute and Verify the Plan / Approval from Senior management
 
