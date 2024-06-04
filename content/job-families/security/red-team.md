@@ -16,7 +16,7 @@ Our Red Team works **together** with our Blue Team. Even when planning attacks, 
 ## Responsibilities
 
 - Maintain a deep understanding of GitLab's product offerings, how they work, and how they could be attacked or abused
-- Propose, plan, and execute [Red Team operations](/handbook/security/threat-management/red-team/#red-team-operations) based on realistic threats to the organization
+- Propose, plan, and execute [Red Team operations](/handbook/security/security-operations/red-team/##what-the-red-team-does) based on realistic threats to the organization
 - Automate attack techniques, creating custom tooling for specific operations and contributing to general-purpose open source tools
 - Write detailed reports covering the goals and outcomes of Red Team operations, including significant observations and recommendations
 - Collaborate with GitLab's [Security Incident Response Team (SIRT)](/handbook/security/security-operations/sirt/) to improve detection and response capabilities
