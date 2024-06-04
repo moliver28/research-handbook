@@ -254,7 +254,7 @@ For anyone hired **before** 2020-03-23: Upon offboarding - IT Operations will up
 
 ### Access to all systems
 
-Access to all systems including GitLab accounts should be removed through the offboarding process to mitigate the risk of off-boarded employees retaining access to our systems and confidentail information. In line with our SOX requirements, please refer to our [SOX ITGC Compliance HB page](/handbook/business-technology/it-compliance/ITGC.html) control LA.2 for additional information related to our ITGC controls.
+Access to all systems including GitLab accounts should be removed through the offboarding process to mitigate the risk of off-boarded employees retaining access to our systems and confidentail information. In line with our SOX requirements, please refer to our [SOX ITGC Compliance HB page](https://internal.gitlab.com/handbook/it/it-compliance/) control LA.2 for additional information related to our ITGC controls.
 
 ### Segregation of Duties
 

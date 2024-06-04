@@ -34,6 +34,6 @@ In the interim, please visit the following handbook pages:
         - [Trust and Safety](/handbook/security/security-operations/trustandsafety/)
         - [Security Logging](/handbook/security/security-operations/security-logging)
     - [Security Threat Management Sub-department](/handbook/security/threat-management)
-        - [Red Team](/handbook/security/threat-management/red-team)
+        - [Red Team](/handbook/security/security-operations/red-team)
         - [Security Research](/handbook/security/threat-management/security-research/)
  [Team Member Enablement](/handbook/business-technology/end-user-services/) handbook page.

@@ -155,6 +155,6 @@ For more information, see [How to Mitigate Bugs Introduced by Security Merge Req
 [security issue template]: https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Security%20developer%20workflow.md
 [security implementation issue]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology
 [Security process as Engineer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md
-[Security Remediation SLAs]: https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas
+[Security Remediation SLAs]: https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/#remediation-slas
 [security runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#guides-by-role
 [Security repository]: https://gitlab.com/gitlab-org/security/

@@ -320,7 +320,7 @@ In addition, you can find official, platform-specific documentation of features 
 
 ### TLS
 
-To be in line with [GitLab's encryption policy](/handbook/security/threat-management/vulnerability-management/encryption-policy), TLS should also be implemented on public-facing testing resources.
+To be in line with [GitLab's encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy), TLS should also be implemented on public-facing testing resources.
 
 For GitLab instances specifically, it's recommended that [LetsEncrypt is manually enabled for Omnibus installs](https://docs.gitlab.com/omnibus/settings/ssl.html#primary-gitlab-instance).  First, you'll need a domain assigned to your external IP regardless of your cloud platform.  Enabling LetsEncrypt for Omnibus installs is well documented at the link above.
 
