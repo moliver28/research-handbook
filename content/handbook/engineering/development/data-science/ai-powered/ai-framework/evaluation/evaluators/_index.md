@@ -118,6 +118,12 @@ if __name__ == "__main__":
     main()
 ```
 
-This will use the custom `oshot_choice` evaluator to assess the model’s answers against the expected answers in your dataset.
+This will use the custom `oshot_choice` evaluator to assess the model’s answers against the expected answers in your dataset. Make sure to replace "duo_chat_questions_0shot" with the name of your uploaded dataset.
 
 - [LangChain Evaluators](https://docs.smith.langchain.com/reference/sdk_reference/langchain_evaluators)
+
+#### Evaluate questions on more dimensions
+
+See https://gitlab.com/gitlab-org/ai-powered/eli5/-/blob/main/evaluation_scripts/chat/evaluate_multi_dimension.py?ref_type=heads for an example.
+
+See [evaluator implementations for details](https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations).
