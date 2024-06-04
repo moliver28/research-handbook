@@ -120,14 +120,20 @@ For an epic to be ready, the following information must be present on the epic:
     1. This enables others who are interested in the epic to see the latest status without having to read through all comments or issues attached to the epic.
     1. This heading is used to auto-generate the status information on the top-level epic.
     1. If the epic has no child-epics and a mermaid block is added, [this script](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/master/epic_issue_relationships.rb) that runs on a pipeline will automatically generate and include an issue relationship diagram in this section. An example can be seem [in this epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/447).
-10. Start date - set to the expected start date, and updated to be the actual start date when the project is started.
-11. End date - set to the expected end date. This should be seen as a target, and this target is re-evaluated every few weeks while the project is in progress. The date that a project actually ended is taken from the date that the epic was closed.
+9. Start date - set to the expected start date, and updated to be the actual start date when the project is started.
+10. End date - set to the expected end date. This should be seen as a target, and this target is re-evaluated every few weeks while the project is in progress. The date that a project actually ended is taken from the date that the epic was closed.
 
 Other items that can be included are:
 
 1. **Exit criteria** for the specific goals of the project.
     1. These are created as issues with the `exit criterion` label in the epic and are linked in the description.
     1. We create these at the start of the project to allow us to keep focused on our goal, and use [blocking issues](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) to indicate the state of each exit criterion.
+
+#### Large Projects
+
+Large projects should be broken down into smaller deliverables using sub-epics to group related work.
+
+Milestones (the product feature) can be used at the discretion of the DRI but are not required.
 
 ### In Progress
 
