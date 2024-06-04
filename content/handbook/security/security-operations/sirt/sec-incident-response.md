@@ -127,7 +127,7 @@ The first step in this process is to identify impacted resources and determine a
 
 It's important to remember the containment phase is typically a stop-gap measure to limit damage and not to produce a long term fix for the underlying problem. Additionally the impact of the mitigation on the service must be weighed against the severity of the incident.
 
-When triaging `priority::1/severity::1` incidents there may be times that SIRT or Infrastructure are unable to mitigate an issue, or identify the full impact of a potential mitigation. In these cases the [Development Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) can be used to engage with the development team on-call. It is important that this process is followed [as documented](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#process-outline) and only for `priority::1/severity::1` issues.
+When triaging `priority::1/severity::1` incidents there may be times that SIRT or Infrastructure are unable to mitigate an issue, or identify the full impact of a potential mitigation. In these cases the [Development Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/process/) can be used to engage with the development team on-call. It is important that this process is followed [as documented](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline) and only for `priority::1/severity::1` issues.
 
 ### Remediation and Recovery
 

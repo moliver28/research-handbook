@@ -360,6 +360,6 @@ explorable with Sentry](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/39
 [stage group dashboards]: https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups
 [rapid action]: /handbook/engineering/development/#rapid-action
 [corrective action]: /handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership
-[security vulnerabilities]: /handbook/security/threat-management/vulnerability-management/#vulnerability-management-overview
+[security vulnerabilities]: /handbook/security/product-security/vulnerability-management/#vulnerability-management-overview
 [engineering allocation]: /handbook/engineering/#engineering-allocation
 [engineering prioritization]: /handbook/engineering/development/principles/#prioritizing-technical-decisions

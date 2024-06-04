@@ -37,7 +37,7 @@ You can learn more on the [GitLab Dedicated Group handbook page](https://about.g
 
 ## Black Ops Kingdom
 
-We use [Access Level Wristband Colors](/handbook/it/policies/access-level-wristbands/) to provide separate `BLACK` user accounts for admin access. All admin accounts are managed with GitOps in an upstream control plane with the `gitlab.black` domain name. In alignment with the `ops.gitlab.net` nomenclature for our product kingdom configuration management, the admin-level configuration is managed in the `ops.gitlab.black` self-managed GitLab instance that we refer to as `Black Ops` (homeage to stealth operations, not intended as a military reference).
+We use [Access Level Wristband Colors](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/) to provide separate `BLACK` user accounts for admin access. All admin accounts are managed with GitOps in an upstream control plane with the `gitlab.black` domain name. In alignment with the `ops.gitlab.net` nomenclature for our product kingdom configuration management, the admin-level configuration is managed in the `ops.gitlab.black` self-managed GitLab instance that we refer to as `Black Ops` (homeage to stealth operations, not intended as a military reference).
 
 The Black Ops kingdom is managed by the Identity Infrastructure team.
 

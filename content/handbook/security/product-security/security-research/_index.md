@@ -22,7 +22,7 @@ projects aim to identify, quantify, and communicate technical security risks.
 Examples include:
 
 - [Security testing of FOSS applications and dependencies used within GitLab](#gitlab-ecosystem-security-testing)
-- Introduction and practice of [threat modeling](/handbook/security/threat-modeling/)
+- Introduction and practice of [threat modeling](/handbook/security/product-security/application-security/threat-modeling/)
 - Publishing of internal technical risk reports
 
 ### Security Capability Development

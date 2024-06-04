@@ -26,7 +26,7 @@ We want to make our corner of the internet a little safer, but also be the best 
 - Remove user generated content on GitLab.com that violate of our [Terms of Service](https://about.gitlab.com/terms/).
 - Mitigating malicious user generated activity on GitLab.com.
 - Review Account Reinstatement requests.
-- Review [DMCA](/handbook/dmca/) (Digital Millennium Copyright Act) and Trademark Infringement notices.
+- Review [DMCA](/handbook/legal/dmca/) (Digital Millennium Copyright Act) and Trademark Infringement notices.
 - Reporting malicious activity impacting GitLab.com to the relevant service providers.
 
 ### <i class="fas fa-users" id="biz-tech-icons"></i> The Team

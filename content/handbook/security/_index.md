@@ -227,7 +227,7 @@ The following best practices will help ensure tokens are handled appropriately a
 
 #### Receive notification of security releases
 
-- To receive security release blog notifications delivered to your inbox, visit our [contact us](/handbook/company/contact/) page.
+- To receive security release blog notifications delivered to your inbox, visit our [contact us](https://about.gitlab.com/company/contact/) page.
 - To receive release notifications via RSS, subscribe to our [security release RSS feed](https://about.gitlab.com/security-releases.xml) or our [RSS feed for all releases](https://about.gitlab.com/all-releases.xml).
 - For additional information regarding security releases, please visit the Delivery Team's [security releases](https://about.gitlab.com/handbook/engineering/releases/security-releases/) page.
 
