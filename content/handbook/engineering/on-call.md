@@ -60,6 +60,12 @@ The Infrastructure department's Reliability Engineering teams provide 24x7 on-ca
 - Check out [process description and on-call workflow](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) when escalating GitLab.com operational issue(s).
 - Check out more detail for [general information](/handbook/engineering/development/processes/Infra-Dev-Escalation/) of the escalation process.
 
+### Gitaly Engineer On-Call
+
+- Gitaly team provides an expert oncall rotation via PagerDuty, currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4).
+- SLO is 15 minutes, during working hours only (which still tends to cover 24h of workdays, given team member distribution).
+- For more details, see the [team page](/handbook/engineering/infrastructure/core-platform/systems/gitaly/#gitaly-oncall-rotation)
+
 ## Security Team On-Call Rotation
 
 ### Security Operations (SecOps)
