@@ -305,7 +305,7 @@ We have 1 regularly scheduled "Per Milestone" retrospective, and can have ad-hoc
 
 #### Per Milestone
 
-{{% engineering/create-retrospectives group-label="Source Code" group-slug="source-code" %}}
+{{% engineering/create-retrospectives group-label="Source Code" group-slug="source-code" use-coordinator="1" %}}
 
 #### Per Project
 
