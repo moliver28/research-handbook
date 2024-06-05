@@ -49,8 +49,8 @@ If you wish to use dbt and contribute to the data team project, you'll need to g
 - Create a folder in your home directory called `.dbt`
 - In the `~/.dbt/` folder there should be a `profiles.yml`file that looks like this [sample profile](https://gitlab.com/gitlab-data/analytics/blob/master/admin/sample_profiles.yml)
 - The smallest possible warehouse should be stored as an environment variable. Our dbt jobs use `SNOWFLAKE_TRANSFORM_WAREHOUSE` as the variable name to identify the warehouse. The environment variable can be set in the `.bashrc` or `.zshrc` file as follows:
-    - `export SNOWFLAKE_TRANSFORM_WAREHOUSE="ANALYST_XS"`
-    - In cases where more compute is required, this variable can be overwritten at run. We will cover how to do this in the [next section](/handbook/business-technology/data-team/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt).
+  - `export SNOWFLAKE_TRANSFORM_WAREHOUSE="ANALYST_XS"`
+  - In cases where more compute is required, this variable can be overwritten at run. We will cover how to do this in the [next section](/handbook/business-technology/data-team/platform/dbt-guide/#choosing-the-right-snowflake-warehouse-when-running-dbt).
 - Clone the [analytics project](https://gitlab.com/gitlab-data/analytics/)
 - If running on Linux:
   - Ensure you have [Docker installed](https://docs.docker.com/docker-for-mac/)
@@ -161,7 +161,7 @@ Compilation Error
   dbt found 7 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_packages. Run "dbt deps" to install package dependencies.
 ```
 
-  - Run `make dbt-deps` from the root of the analytics folder and retry the command.
+- Run `make dbt-deps` from the root of the analytics folder and retry the command.
 
 **Transition Note:**
 
@@ -202,10 +202,10 @@ These commands will ensure you get the newest versions of the containers and gen
 - Ensure you have the `DBT_PROFILE_PATH` environment variable set. This should be set if you've used the [onboarding_script.zsh](https://gitlab.com/gitlab-data/analytics/-/blob/master/admin/onboarding_script.zsh) (recommened to use this as this latest and updated regularly) or   [onboarding_script.sh](https://gitlab.com/gitlab-data/analytics/blob/master/admin/onboarding_script.sh), but if not, you can set it in your `.bashrc` or `.zshrc` by adding `export DBT_PROFILE_PATH="/<your_root_dir/.dbt/"` to the file or simply running the same command in your local terminal session
 - Ensure that you have updated your `.dbt/profiles.yml` with your specific user configuration
 - Ensure your SSH configuration is setup according to the [GitLab directions](https://gitlab.com/help/ssh/README). Your keys should be in `~/.ssh/` and the keys should have been generated with no password.
-    - You will also need access to [this project](https://gitlab.com/gitlab-data/data-tests) to run `dbt deps` for our main project.
+  - You will also need access to [this project](https://gitlab.com/gitlab-data/data-tests) to run `dbt deps` for our main project.
 - To start a `dbt` container and run commands from a shell inside of it, use `make dbt-image`
 - This will automatically import everything `dbt` needs to run, including your local `profiles.yml` and repo files
-    - You may see some WARNINGS about missing variables (`GIT_BRANCH`, `KUBECONFIG`, `GOOGLE_APPLICATION_CREDENTIALS`, etc.). Unless you are developing on Airflow this is ok and expected.
+  - You may see some WARNINGS about missing variables (`GIT_BRANCH`, `KUBECONFIG`, `GOOGLE_APPLICATION_CREDENTIALS`, etc.). Unless you are developing on Airflow this is ok and expected.
 - To see the docs for your current branch, run `make dbt-docs` and then visit `localhost:8081` in a web-browser. Note that this requires the `docs` profile to be configured in your `profiles.yml`
 - Once inside of the `dbt` container, run any `dbt` commands as you normally would
 - Changes that are made to any files in the repo will automatically be updated within the container. There is no need to restart the container when you change a file through your editor!
@@ -219,16 +219,16 @@ dbt specific:
 - [`dbt clean`](https://docs.getdbt.com/reference/commands/clean) - this will remove the `/dbt_modules` (populated when you run deps) and `/target` folder (populated when models are run)
 - [`dbt run`](https://docs.getdbt.com/reference/commands/run) - regular run
 - Model selection syntax ([source](https://docs.getdbt.com/docs/model-selection-syntax)). Specifying models can save you a lot of time by only running/testing the models that you think are relevant. However, there is a risk that you'll forget to specify an important upstream dependency so it's a good idea to understand the syntax thoroughly:
-    - `dbt run --models modelname` - will only run `modelname`
-    - `dbt run --models +modelname` - will run `modelname` and all parents
-    - `dbt run --models modelname+` - will run `modelname` and all children
-    - `dbt run --models +modelname+` - will run `modelname`, and all parents and children
-    - `dbt run --models @modelname` - will run `modelname`, all parents, all children, AND all parents of all children
-    - `dbt run --exclude modelname` - will run all models except `modelname`
-    - Note that all of these work with folder selection syntax too:
-        - `dbt run --models folder` - will run all models in a folder
-        - `dbt run --models folder.subfolder` - will run all models in the subfolder
-        - `dbt run --models +folder.subfolder` - will run all models in the subfolder and all parents
+  - `dbt run --models modelname` - will only run `modelname`
+  - `dbt run --models +modelname` - will run `modelname` and all parents
+  - `dbt run --models modelname+` - will run `modelname` and all children
+  - `dbt run --models +modelname+` - will run `modelname`, and all parents and children
+  - `dbt run --models @modelname` - will run `modelname`, all parents, all children, AND all parents of all children
+  - `dbt run --exclude modelname` - will run all models except `modelname`
+  - Note that all of these work with folder selection syntax too:
+    - `dbt run --models folder` - will run all models in a folder
+    - `dbt run --models folder.subfolder` - will run all models in the subfolder
+    - `dbt run --models +folder.subfolder` - will run all models in the subfolder and all parents
 - `dbt run --full-refresh` - will refresh incremental models
 - [`dbt test`](https://docs.getdbt.com/reference/commands/test) - will run custom data tests and schema tests; TIP: `dbt test` takes the same `--model` and `--exclude` syntax referenced for `dbt run`
 - [`dbt seed`](https://docs.getdbt.com/reference/commands/seed) - will load csv files specified in the `data-paths` [directory](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt/data) into the data warehouse. Also see the [seeds section of this guide](/handbook/business-technology/data-team/platform/dbt-guide/#seeds)
@@ -252,13 +252,13 @@ We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-
 Before we start, there are some settings to adjust in your VScode:
 
 - Go in Code > Settings > Settings…
-    - Search for ‘Python info visibility’ > Set this setting as ‘Always’
-    - In a terminal, run `make run-dbt` as described in the [Using dbt](/handbook/business-technology/data-team/platform/dbt-guide/#using-dbt) section. Once it ran and the new shell spawned, run `echo $VIRTUAL_ENV`. Copy that value.
-        - Search for ‘venv path’ in VScode settings.
-        - Set this setting to the path that you copied last step, which should look like `/Users/<username>/Library/Caches/pypoetry/virtualenvs/` if you followed a standard installation. Remove the last part of the path `analytics-*******-py3.10` at the time of writing.
+  - Search for ‘Python info visibility’ > Set this setting as ‘Always’
+  - In a terminal, run `make run-dbt` as described in the [Using dbt](/handbook/business-technology/data-team/platform/dbt-guide/#using-dbt) section. Once it ran and the new shell spawned, run `echo $VIRTUAL_ENV`. Copy that value.
+    - Search for ‘venv path’ in VScode settings.
+    - Set this setting to the path that you copied last step, which should look like `/Users/<username>/Library/Caches/pypoetry/virtualenvs/` if you followed a standard installation. Remove the last part of the path `analytics-*******-py3.10` at the time of writing.
 - Open VScode in /analytics (File > Open Folder... or Workspace...)
 - You now see a python interpreter selector at the bottom right of VScode, click on it
-    - In the popup field, you should now see the analytics venv(s) shown as type `poetry`, and the one used for dbt. Select it.
+  - In the popup field, you should now see the analytics venv(s) shown as type `poetry`, and the one used for dbt. Select it.
 - Install extension `dbt-power-user`
 - Follow only step `How to setup the extension > Associate your .sql files the jinja-sql language` [here](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user)
 
@@ -309,7 +309,7 @@ dbt.exceptions.RuntimeException: Runtime Error
     Object does not exist, or operation cannot be performed.
 ```
 
-  - then change the target profile used by dbt: navigate to dbt-power-user extension settings (Extensions > dbt-power-user > cog > Extension settings) and edit the setting called `Dbt: Run Model Command Additional Params` (same for build)
+- then change the target profile used by dbt: navigate to dbt-power-user extension settings (Extensions > dbt-power-user > cog > Extension settings) and edit the setting called `Dbt: Run Model Command Additional Params` (same for build)
 
 {{% panel header="**Note**" header-bg="warning" %}}
 When running/building/testing a model from VS code UI, the terminal window popping is only a log output. Cmd+C does not stop the job(s), nor clicking the Trash icon in VS code. If you want to stop a job started via VScode, go through the Snowflake UI and your job list and kill the job(s) from there.
@@ -412,9 +412,9 @@ For all intents and purposes, the source models should be considered the "raw" d
 Key points to remember:
 
 - These models will be written to a logically named schema in the `prep` database based on the data source type. For example:
-    - Zuora data stored in `raw.zuora` would have source models in `prep.zuora`
-    - GitLab.com data with tables stored in `raw.tap_postgres.gitlab_db_*` would have source models in `prep.gitlab_dotcom`
-    - Customers.gitlab.com data with tables stored in `raw.tap_postgres.customers_db_*` would have source models in `prep.customers_db`
+  - Zuora data stored in `raw.zuora` would have source models in `prep.zuora`
+  - GitLab.com data with tables stored in `raw.tap_postgres.gitlab_db_*` would have source models in `prep.gitlab_dotcom`
+  - Customers.gitlab.com data with tables stored in `raw.tap_postgres.customers_db_*` would have source models in `prep.customers_db`
 - These models should be organized by source - this will usually map to a schema in the raw database
 - The name of source models should end with `_source`
 - Only source models should select from source/raw tables
@@ -422,7 +422,7 @@ Key points to remember:
 - Only a single source model should be able to select from a given source table
 - Source models should be placed in the `/models/sources/<data_source/` directory
 - Source models should perform all necessary data type casting, using the `::` syntax when casting (You accomplish the same thing with fewer characters, and it presents as cleaner).
-    - Ideally, source models should cast every column. Explicit is better than implicit. Test your assumptions
+  - Ideally, source models should cast every column. Explicit is better than implicit. Test your assumptions
 - Source models should perform all field naming to force field names to conform to standard field naming conventions
 - Source fields that use reserved words must be renamed in Source models
 - Source models for particularly large data should always end with an ORDER BY statement on a logical field (usually a relevant timestamp). This essentially defines the cluster key for the warehouse and will help to take advantage of [Snowflake's micro-partitioning](https://docs.snowflake.net/manuals/user-guide/tables-clustering-micropartitions.html).
@@ -651,7 +651,7 @@ The Data Team reservers the right to reject code that will dramatically slow the
     ```
 
 - All `{{ ref('...') }}` statements should be placed in CTEs at the top of the file. (Think of these as import statements.)
-    - This does not imply all CTE's that have a `{{ ref('...') }}` should be `SELECT *` only. It is ok to do additional manipulations in a CTE with a `ref` if it makes sense for the model
+  - This does not imply all CTE's that have a `{{ ref('...') }}` should be `SELECT *` only. It is ok to do additional manipulations in a CTE with a `ref` if it makes sense for the model
 
 - If you want to separate out some complex SQL into a separate model, you absolutely should to keep things DRY and easier to understand. The config setting `materialized='ephemeral'` is one option which essentially treats the model like a CTE.
 
@@ -666,8 +666,8 @@ Our guidelines for configuring models:
 - The default schema is `prep.preparation`.
 - Disabling any model should always be done in the `dbt_project.yml` via the `+enabled: false` declaration
 - Configs should be applied in the smallest number of locations:
-    - If <50% of models in a directory require the same configuration, then configure the individual models
-    - If >=50% of models in a directory require the same configuration, strongly consider setting a default in the `dbt_project.yml`, but think about whether that setting is a sensible default for any new models in the directory
+  - If <50% of models in a directory require the same configuration, then configure the individual models
+  - If >=50% of models in a directory require the same configuration, strongly consider setting a default in the `dbt_project.yml`, but think about whether that setting is a sensible default for any new models in the directory
 
 ##### Depends On
 
@@ -1272,13 +1272,13 @@ While the DBT Snapshot tables are built directly over sources to capture changed
 
 The `strategy` to determine when a new snaphot record is written can be configured 2 different ways:
 
- - `timestamp` uses a Date Column in the table to determine if that date has changed since the last snapshot was taken
- - `check` uses a list of columns to determine if any of the columns have changed since the last time the snapshot was taken.
+- `timestamp` uses a Date Column in the table to determine if that date has changed since the last snapshot was taken
+- `check` uses a list of columns to determine if any of the columns have changed since the last time the snapshot was taken.
 
 The `record version` is determined by the `dbt_valid_from` and `dbt_valid_to` columns.  These TIMESTAMP columns are created automatically by DBT and utilized by the snapshot model to determine the timeframe of each snapshotted row.
 
- - When a new snapshot record is written, `dbt_valid_from` has the current date time and.  `dbt_valid_to` is NULL to show this is the most recent snapshot row.
- - `dbt_valid_to` in the previous version of the record is updated with the same current date time as the new record.
+- When a new snapshot record is written, `dbt_valid_from` has the current date time and.  `dbt_valid_to` is NULL to show this is the most recent snapshot row.
+- `dbt_valid_to` in the previous version of the record is updated with the same current date time as the new record.
 
 DBT Snapshots, by default, are loaded incrementally. Records that have changed are picked up each time the snapshot operation runs.
 
@@ -1350,13 +1350,13 @@ Key items to note:
 
 - Before writing a snapshot base model, don't forget to add it in the [`sources.yml` file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/sources.yml) This entry is required for the snapshot to be recognized and used by other models. (keep this file sorted)
 - The name of the table in the data warehouse should be consistent with our data warehouse design guideline. Ideally we would like to stick to `{source_name}_{source_table_name}_snapshots` as our naming convention. But dbt doesn't allow duplicated file names in projects. In order to avoid this the snapshot and the snapshot base model having the same name, we follow this pattern:
-    - The name of the base model file will be the name of the source snapshot table to which we suffix `_base`. Ex: we have a `gitlab_dotcom_members_snapshots` snapshot file [here](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/snapshots/gitlab_dotcom/gitlab_dotcom_members_snapshots.sql) and a base model of this snapshot [here](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/gitlab_dotcom_members_snapshots_base.sql) named `gitlab_dotcom_members_snapshots_base`.
-    - We use the [dbt config alias argument](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/using-custom-aliases/) to rename the table by removing the `_base` suffix and keep the table name clean
+  - The name of the base model file will be the name of the source snapshot table to which we suffix `_base`. Ex: we have a `gitlab_dotcom_members_snapshots` snapshot file [here](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/snapshots/gitlab_dotcom/gitlab_dotcom_members_snapshots.sql) and a base model of this snapshot [here](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/gitlab_dotcom_members_snapshots_base.sql) named `gitlab_dotcom_members_snapshots_base`.
+  - We use the [dbt config alias argument](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/using-custom-aliases/) to rename the table by removing the `_base` suffix and keep the table name clean
 - If a base model built upon the snapshotted source table exists, please re-use the query that has been already written and apply the following modifications:
-    - Remove the deduplication process, it is not necessary.
-    - Always add `dbt_scd_id` as a primary key to your snapshot base model and rename it to something more explicit (documentation about snapshot meta-fields can be found [here](https://docs.getdbt.com/docs/building-a-dbt-project/snapshots/#snapshot-meta-fields))
-    - Add columns `dbt_valid_from` and `dbt_valid_to` to your query
-    - Good example [here with the snapshot base model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/gitlab_dotcom_gitlab_subscriptions_snapshots_base.sql) and [the source model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/gitlab_dotcom/gitlab_dotcom_gitlab_subscriptions_source.sql)
+  - Remove the deduplication process, it is not necessary.
+  - Always add `dbt_scd_id` as a primary key to your snapshot base model and rename it to something more explicit (documentation about snapshot meta-fields can be found [here](https://docs.getdbt.com/docs/building-a-dbt-project/snapshots/#snapshot-meta-fields))
+  - Add columns `dbt_valid_from` and `dbt_valid_to` to your query
+  - Good example [here with the snapshot base model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/gitlab_dotcom_gitlab_subscriptions_snapshots_base.sql) and [the source model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/gitlab_dotcom/gitlab_dotcom_gitlab_subscriptions_source.sql)
 
 #### Building models on top of snapshots
 
@@ -1497,32 +1497,32 @@ If the model run time is less than `L` then the effort needed to improve the mod
 A Model Efficiency worse than Acceptable, represents significant spillage thus reducing the performance because of the Remote and Local disk reads.
 
 - Reduce the amount of data needed to be stored in memory during the query execution.
-    - Reduce number of Columns used
-    - Reduce number of Rows used
-    - Check Filter order
-    - Check Join order
-    - Check for Redundant Joins
+  - Reduce number of Columns used
+  - Reduce number of Rows used
+  - Check Filter order
+  - Check Join order
+  - Check for Redundant Joins
 
 #### Check for incremental viability
 
 Not all models need to be incremental due to the increased design complexity.
 
-  - If the model loads new data regularly, but most of the data does not change it may be a good candidate for an incremental model.
-  - If the source data can be filtered in a way to return new or changed records, such as an `updated_date` field, it may be a good candidate for an incremental model.
-  - If the model represents the `current state` of data that changes it is *`not`* a good candidate for an incremental model.
-  - If the model is based on a snapshot model, it is *`not`* a good candidate for an incremental model.
+- If the model loads new data regularly, but most of the data does not change it may be a good candidate for an incremental model.
+- If the source data can be filtered in a way to return new or changed records, such as an `updated_date` field, it may be a good candidate for an incremental model.
+- If the model represents the `current state` of data that changes it is *`not`* a good candidate for an incremental model.
+- If the model is based on a snapshot model, it is *`not`* a good candidate for an incremental model.
 
 #### Check never full refresh viability
 
-  - Event stream data that does not change is a prime candidate for never full refreshing.
-  - Check data source [guidelines from the handbook](/handbook/business-technology/data-team/platform/infrastructure/#data-source-and-data-lineage-information-used-to-determine-full-refresh-policy).
+- Event stream data that does not change is a prime candidate for never full refreshing.
+- Check data source [guidelines from the handbook](/handbook/business-technology/data-team/platform/infrastructure/#data-source-and-data-lineage-information-used-to-determine-full-refresh-policy).
 
 #### Check Warehouse Size viability
 
 Increasing the warehouse size will not always mean an increase in performance and an improvement in cost.
 
-  - If refactoring has not improved the Model Efficiency, an increase to the Warehouse Size may be warranted.
-  - If Model Efficiency is Good but the model is reaching the timeout limit for the warehouse then an increase to the Warehouse Size may be warranted.
+- If refactoring has not improved the Model Efficiency, an increase to the Warehouse Size may be warranted.
+- If Model Efficiency is Good but the model is reaching the timeout limit for the warehouse then an increase to the Warehouse Size may be warranted.
 
 ## Upgrading dbt
 

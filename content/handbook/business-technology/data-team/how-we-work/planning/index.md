@@ -71,9 +71,9 @@ Iteration planning should take into consideration:
 The timeline for Iteration planning is as follows:
 
 - Meeting Preparation - Responsible Party: Iteration Planner
-    - Investigate and flesh out open issues.
-    - Assign issues to the iteration based on alignment with the Team Roadmap.
-    - Note: Issues are not assigned to an individual at this stage, except where required.
+  - Investigate and flesh out open issues.
+  - Assign issues to the iteration based on alignment with the Team Roadmap.
+  - Note: Issues are not assigned to an individual at this stage, except where required.
 
 | Day               | Current Iteration                                                                                                                                            | Next Iteration                                                                                                                                                                                                             |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

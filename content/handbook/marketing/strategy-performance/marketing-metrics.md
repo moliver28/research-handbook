@@ -204,10 +204,10 @@ GitLab measures the Trial-to-Paid conversion rate by looking at the number of to
 
 We do not count every namespace trial. Instead, we only include those with the following criteria:
 
- - Only trials considered [Valuable Signups](https://internal.gitlab.com/handbook/marketing/growth/growth/#valuable-signup-metric)
- - First time going through the trial
- - Top-level namespaces
- - Non-GitLab company related namespaces.
+- Only trials considered [Valuable Signups](https://internal.gitlab.com/handbook/marketing/growth/growth/#valuable-signup-metric)
+- First time going through the trial
+- Top-level namespaces
+- Non-GitLab company related namespaces.
 
 ##### Trial-to-Paid Dashboard
 
@@ -310,9 +310,9 @@ To find Segment the logic is as follows (`employee_bucket_segment_custom`):
 To find Geo the logic is as follows (`geo_custom`):
 We used the [FY23 Territories Mapping File - SSoT](https://docs.google.com/spreadsheets/d/1gElhORjqraKDMQnWzApPelyP_vVa24tAOA85vb5f3Uc/edit#gid=1236326957) mapping doc to find how countries mapped to Geos across segments.
 
-  - If Account Demographics, use it
-  - Otherwise find the first non-null value from Zoominfo then Cognism
-  - Map the found country to a GEO via a hardcoded list.
+- If Account Demographics, use it
+- Otherwise find the first non-null value from Zoominfo then Cognism
+- Map the found country to a GEO via a hardcoded list.
 
 This logic has been [added to DBT](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.map_alternative_lead_demographics), and can be used in models as needed.
 
@@ -497,9 +497,9 @@ This section provides links to relevant reports that may live outside of the Fie
 - [Sales Pipeline Report stages 1-3](https://gitlab.my.salesforce.com/00O4M000004aJh9)
 - [Workshop attendance rates](https://gitlab.my.salesforce.com/00O4M000004aXke) - note, if you want to see attendance rates by a different tactic, just modify the report!
 - List of campaign members with Outreach stages listed - to help facilitate the FMM<>SDR convo on lead status follow-up. If you are a FMM reading this, then we suggest you add `Campaign Owner Name` to filter to your specific campaigns. Feel free to play around with the filters and save your own copy as well!
-   - [AMER FMM Campaign Members](https://gitlab.my.salesforce.com/00O4M000004aNoL)
-   - [APAC FMM Campaign Members](https://gitlab.my.salesforce.com/00O4M000004aQLL)
-   - [EMEA FMM Campaign Members](https://gitlab.my.salesforce.com/00O4M000004aQLV)
+  - [AMER FMM Campaign Members](https://gitlab.my.salesforce.com/00O4M000004aNoL)
+  - [APAC FMM Campaign Members](https://gitlab.my.salesforce.com/00O4M000004aQLL)
+  - [EMEA FMM Campaign Members](https://gitlab.my.salesforce.com/00O4M000004aQLV)
 - [FY23 SFDC reporting fields](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/100#important-fields-for-fy23-reporting)
 
 ### How to track the ROI of your Digital Tactics

@@ -74,9 +74,9 @@ What goes into a Main Job:
 - Do NOT include adjectives (those are more Outcomes)
 - Ask, "How would people have gotten this done 30 years ago?"
 - Format: [verb] + [object] + [(optional) qualifiers/clarifier] (try putting an “I want to…” to get the ball rolling, then remove the “I want to”)
-    - **Verb**: Action that describes what the Job Performer is trying to accomplish. Verb choice is crucial as it sets the stage for the activity or outcome the Job Performer seeks.
-    - **Object**: The target of the Verb Action. Clarifies what the verb is acting upon and provides a focus for the job.
-    - **Clarifier/Qualifier**: This adds specificity, context, conditions, or purpose that helps refine the job. It can be critical for distinguishing between similar jobs or highlighting unique aspects of the job that are particularly relevant to the Job Performer's situation or needs.
+  - **Verb**: Action that describes what the Job Performer is trying to accomplish. Verb choice is crucial as it sets the stage for the activity or outcome the Job Performer seeks.
+  - **Object**: The target of the Verb Action. Clarifies what the verb is acting upon and provides a focus for the job.
+  - **Clarifier/Qualifier**: This adds specificity, context, conditions, or purpose that helps refine the job. It can be critical for distinguishing between similar jobs or highlighting unique aspects of the job that are particularly relevant to the Job Performer's situation or needs.
 
 Good examples:
 
@@ -113,7 +113,7 @@ What goes into a Job Step:
 - Avoids using "ANDs" or "ORs"
 - Are solution or product agnostic
 - Are broken into top-level stages the Job Performer needs to accomplish, moving left to right as they are done.
-    - Each stage comprises vertical stacks which are sub-steps the Job Performer needs to accomplish, moving top to bottom before moving to the next stage.
+  - Each stage comprises vertical stacks which are sub-steps the Job Performer needs to accomplish, moving top to bottom before moving to the next stage.
 
 Good examples:
 
@@ -278,11 +278,11 @@ For any domain, you might end up with 3 to 5 Job Stories covering the data and i
 - **To generate HMW statements**: Use the Job Story as a springboard by turning them into How Might We (HMW) statements to guide explorations.
 - **To define a Design Sprint challenge**: Use the Job Story to articulate the focus or challenge statement of the Design Sprint.
 - **To create a testable hypothesis for an MVP**: Lean’s MVP model requires creating a hypothesis statement that will be validated against the proposed solution. Here’s a framework that can be formatted:
-    - We believe that [job performers]
-    - Will achieve [desired outcome]
-    - While performing [job step]
-    - Using [proposed solution].
-    - Success will be evidenced by [specific measure].
+  - We believe that [job performers]
+  - Will achieve [desired outcome]
+  - While performing [job step]
+  - Using [proposed solution].
+  - Success will be evidenced by [specific measure].
 - **Incorporate them into issues**: Add them into the description of an issue as a heuristic to measure the solution against and to aid in making design decisions.
 - **Usability testing success criteria**: Validate whether the solution successfully achieves the Job Story.
 

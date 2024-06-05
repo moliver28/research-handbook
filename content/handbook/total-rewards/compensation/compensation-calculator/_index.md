@@ -69,15 +69,15 @@ As with all things at GitLab, the compensation calculator is a constant work in 
 **If you are an internal GitLab team member or external to GitLab:**
 
 - Create an issue utilizing the issue templates.
-   - [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
-   - [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
-   - [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
+  - [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
+  - [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
+  - [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
 - Email total-rewards@domain for more personal inquiries.
 
 **If you prefer to remain anonymous:**
 
 - You can use the [Reporting a Compensation Discrepancy Form](https://forms.gle/tEmiwzYxCJqZhivF8).
-   - Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
+  - Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
 
 ### Rounding Best Practice
 
@@ -153,9 +153,9 @@ If any one, or a combination of, the following statistics is met, a benchmark re
   - It is important to ensure when we discuss compensation we have an idea of the candidate's expectations of total rewards which is inclusive of cash and equity for compensation.
 - A voluntary departure rate of 12% or more by current GitLab team members in any given department due to the reason of compensation.
 - Evidence of leading indicators of increased compensation, for example:
-   - Increased recruiter reachouts to a specific department or role.
-   - Government policy announcements related to a specific business sector.
-   - Engagement Survey Results.
+  - Increased recruiter reachouts to a specific department or role.
+  - Government policy announcements related to a specific business sector.
+  - Engagement Survey Results.
 
 **Timing of requests for benchmark adjustments:**
 

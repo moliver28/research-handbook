@@ -54,8 +54,8 @@ Components pictured on diagram are as follow:
 
 Code Suggestions includes two types of interactions:
 
-   - **[Code Completion](#code-completion)**: A short AI-generated suggestion intended to complete an existing line or block of code
-   - **[Code Generation](#code-generation)**: A longer AI-generated suggestion intended to create entire functions, classes, code blocks, etc.
+- **[Code Completion](#code-completion)**: A short AI-generated suggestion intended to complete an existing line or block of code
+- **[Code Generation](#code-generation)**: A longer AI-generated suggestion intended to create entire functions, classes, code blocks, etc.
 
 Each code suggestion request is catogrised into a single category. Request categorization is performed by the Language Server before request is sent to GitLab Workhorse. If categorization is not done by Language Server then this categorization is performed by GitLab Rails.
 

@@ -63,14 +63,14 @@ While we agree to accept service of law enforcement requests by these methods, n
 
 Each request must meet the following facial requirements:
 
-   - Issued on government letterhead or with a caption to identify the court that issued the process and the case number;
-   - Dated and signed by an attorney, government official, or judge;
-   - Provided in PDF format if delivered by email:
-   - Addressed to GitLab, Inc. or GitLab Federal, LLC, as applicable;
-   - Specifically identify the user whose data is requested (see required identifiers below);
-   - Specifically identify the types of data requested;
-   - Specifically identify the legal basis for the request;
-   - Specify to whom the responsive data should be produced.
+- Issued on government letterhead or with a caption to identify the court that issued the process and the case number;
+- Dated and signed by an attorney, government official, or judge;
+- Provided in PDF format if delivered by email:
+- Addressed to GitLab, Inc. or GitLab Federal, LLC, as applicable;
+- Specifically identify the user whose data is requested (see required identifiers below);
+- Specifically identify the types of data requested;
+- Specifically identify the legal basis for the request;
+- Specify to whom the responsive data should be produced.
 
 Please note that requests for testimony must be personally served on our register agent for service of process. We do not accept service of such requests via email.
 

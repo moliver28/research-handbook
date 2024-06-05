@@ -11,15 +11,15 @@ The User Engagement initiative has three workstreams:
 
 1. Build brand awareness with thought leadership and technical content to activate members of our community programs (Education, Open Source, Meetups, Heroes) (# active community members).
 
-  * [Public technical content epic](https://gitlab.com/groups/gitlab-com/-/epics/1795)
+* [Public technical content epic](https://gitlab.com/groups/gitlab-com/-/epics/1795)
 
 1. Develop, brand and market the DevOps Architect Certification program focused on technical users at our customers and our partners (# of partner and total certifications).
 
-  * [Public certification epic](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/epics/1277)
+* [Public certification epic](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/epics/1277)
 
 1. Drive toward 1000 contributors a month using a marketing funnel approach.
 
-  * [Public contributor goal epic](https://gitlab.com/groups/gitlab-com/-/epics/1796)
+* [Public contributor goal epic](https://gitlab.com/groups/gitlab-com/-/epics/1796)
 
 *Note: In addition to the public epics above, there are placeholder epics in the confidential top 12 initiatives repository. As our work on this initiative does not require confidentiality, we are not linking to those placeholders.*
 

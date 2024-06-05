@@ -68,8 +68,8 @@ No, they don't. This is because experiments tell us *what* is happening while us
 - If you expect an experiment will have an impact on multiple metrics make sure you list all of them ahead in the experiment write-up.
 If you want to impact trailing metrics in addition to an initial metric, make that very clear in your experiment write-up.
 - After you collect data, if you've written a good hypothesis, you should be able to restate it as your conclusion. For example:
-    - Hypothesis: We think that adding a koala image to the page will increase clicks by 10%.
-    - Conclusion: Adding a koala image to the page resulted in clicks increasing by 12.4%, at a 97% significance.
+  - Hypothesis: We think that adding a koala image to the page will increase clicks by 10%.
+  - Conclusion: Adding a koala image to the page resulted in clicks increasing by 12.4%, at a 97% significance.
 
 ## Picking the right metrics
 

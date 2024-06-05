@@ -71,8 +71,8 @@ Customer service is an important aspect of the customer journey. The reason this
 It is important that both the SAE/AE and CSM conduct ongoing customer touchpoints and engagements. The following are tasks that fall under the purview of ongoing customer engagement:
 
 - SAE/CSM continually re-verify and documents customer’s positive business outcomes and connects the GitLab solution with their pain.
-    - [Success Plans](/handbook/customer-success/csm/success-plans/) for CSMs in GainSight
-    - [Command Plan](/handbook/sales/command-of-the-message/command-plan/) for SAEs in Salesforce
+  - [Success Plans](/handbook/customer-success/csm/success-plans/) for CSMs in GainSight
+  - [Command Plan](/handbook/sales/command-of-the-message/command-plan/) for SAEs in Salesforce
 - CSM develops a clear process for responding to problems that support escalations (collaborating with Sales, Support, Product, and Engineering, CSMs). Host escalation calls and manage the customer from an escalated state back to a normal state. SAE supports the CSM.
 - SAE/AE/CSM continually meets with customers to capture problems, adjust the plan, reinforce confidence, and identify new opportunities to resell.
 - SAE/AE remains present on how the customer is achieving their positive business outcomes.

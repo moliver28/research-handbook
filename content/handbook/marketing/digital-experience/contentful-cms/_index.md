@@ -117,12 +117,12 @@ Digital experience can create the `Tag` (Private), then create a new `Role` (pre
 
 Allow:
 
-  - Read, Write, Publish, Archive for regular entries
-  - Read, Write, Publish, Archive for your new tag
+- Read, Write, Publish, Archive for regular entries
+- Read, Write, Publish, Archive for your new tag
 
 Deny:
 
-  - Read, Write, Publish, Archive for any other existing confidential tags
+- Read, Write, Publish, Archive for any other existing confidential tags
 
 **Note**: Make sure you set the same rules on the Media tab in the new Role.
 

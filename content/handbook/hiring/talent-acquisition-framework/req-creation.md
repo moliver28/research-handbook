@@ -63,11 +63,11 @@ There are a few options for what to open in Greenhouse.
 
 - **Open a new job**
 - **Open an additional opening onto an existing job**
-   - If the job is currently open, recruiters can add an additional opening through the approvals page. It is vital that each opening is opened, associated with the correct GHPiD and documented in Greenhouse so reporting can tell us how many positions are open.
+  - If the job is currently open, recruiters can add an additional opening through the approvals page. It is vital that each opening is opened, associated with the correct GHPiD and documented in Greenhouse so reporting can tell us how many positions are open.
 - **Reopen an old job**
-   - We do not reopen old jobs.
+  - We do not reopen old jobs.
 - **Evergreen job**
-   - An Evergreen Job is a requisition that is `always open`... more specifically, it is used when we have at least 3 openings for a particular job repeated each quarter. There is then one Evergreen job posted for internal, external and passive candidates. It is important that no candidate is hired to an Evergreen job, and instead is moved to an approved opening (aka - an opening with a single corresponding GHPiD).
+  - An Evergreen Job is a requisition that is `always open`... more specifically, it is used when we have at least 3 openings for a particular job repeated each quarter. There is then one Evergreen job posted for internal, external and passive candidates. It is important that no candidate is hired to an Evergreen job, and instead is moved to an approved opening (aka - an opening with a single corresponding GHPiD).
 - **When should an Evergreen req be used?**
    TA Leadership will open EVG roles at the start of a fiscal year, with a quarterly review cadence, by leveraging the hiring plan and attrition assumptions. Typically, EVG postings will be utilized when there are multiple openings for a set of roles (3 or more) that have very similar technical qualifications and are expected to be hired on a regular basis (for example, Business Development Rep, AMER). These roles usually span multiple teams and hiring managers., but are all interviewed with the same process by the same interviewer 'pool'. `Regular basis` refers to consistent volume over a period of 3+ quarters.
 - **How do I open an evergreen req?**

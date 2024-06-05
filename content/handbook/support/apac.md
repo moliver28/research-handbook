@@ -118,8 +118,8 @@ each financial quarter.
 
   The following shows:
 
-   - the number for the Cliff of Definite Underperformance (CoDU) as observed for the 12 month period concluding prior to the listed quarter.
-   - a link to the notification issue when the number was reviewed for that period.
+- the number for the Cliff of Definite Underperformance (CoDU) as observed for the 12 month period concluding prior to the listed quarter.
+- a link to the notification issue when the number was reviewed for that period.
 
 | **Quarter** | **Cliff Number** | **Notification Issue**  |
 |-------------| ---------------- | ------------------------|
@@ -270,8 +270,8 @@ each financial quarter.
   When a review of the measurement is carried out:
 
 - Create an MR to:
-   - Update the number in the first paragraph of the [Cliff of Definite Underperformance section](#cliff-of-definite-underperformance) if the number has changed.
-   - Add a new row to the top of the `Historical & Current Data` table for the current quarter's number. Also move the reference to `(Current)` data to this row.
+  - Update the number in the first paragraph of the [Cliff of Definite Underperformance section](#cliff-of-definite-underperformance) if the number has changed.
+  - Add a new row to the top of the `Historical & Current Data` table for the current quarter's number. Also move the reference to `(Current)` data to this row.
 - Create a notification issue in [Support Team Meta](https://gitlab.com/gitlab-com/support/support-team-meta) to record that the number has been reviewed and if it has changed.  (Copy a previous notification issue to use as a template).
 - Add a link to the notification issue to the relevant column in the `Historical and Current data` table.
 

@@ -160,9 +160,9 @@ I am open to experiences, adaptable, and do well with ambiguity.
 - Behavioural economics can help us connect qualitative and quantitative information.<br />
 [https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
 - I believe in the power of the "3 Cs":
-    - **Co-create:** Our purpose is to engage, work with, and empower users and our business. Our goal is to generate ideas that lead to the best solutions.
-    - **Collaborate:** Good ideas come from everywhere. We start from yes, plus up each other's ideas, and live into possibility.
-    - **Coordinate:** Amazing products are the result of teamwork. We need to communicate effectively as a team and coordinate our efforts to deliver a product that our customers will love.
+  - **Co-create:** Our purpose is to engage, work with, and empower users and our business. Our goal is to generate ideas that lead to the best solutions.
+  - **Collaborate:** Good ideas come from everywhere. We start from yes, plus up each other's ideas, and live into possibility.
+  - **Coordinate:** Amazing products are the result of teamwork. We need to communicate effectively as a team and coordinate our efforts to deliver a product that our customers will love.
 - Clay Christensen's Jobs To Be Done framework is an effective way for us to frame what matters.<br />
 [https://hbr.org/2016/09/know-your-customers-jobs-to-be-done](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done)
 - The Experience Economy was written in 1998, and I believe it's more relevant now than ever.<br />
@@ -253,7 +253,7 @@ I am efficient in providing clear instruction, focusing efforts, taking practica
 
 - These are your meetings, and I want to listen.
 - I prefer shorter and more frequent meetings; let me know if that works best for you.
-    - We'll start with weekly 25min meetings and potentially shift to biweekly 45min meetings once we're in flow.
+  - We'll start with weekly 25min meetings and potentially shift to biweekly 45min meetings once we're in flow.
 - Please come prepared with 4-5 things you'd like to discuss.
 - You can expect I'll ask the following questions from [The Coaching Habit](https://boxofcrayons.com/the-coaching-habit-book/). I find them incredibly useful:
 

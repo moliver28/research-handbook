@@ -57,7 +57,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 * Bring to life a differentiated POV via content for our audiences on key themes that drives activation, engagement, and revenue throughout all funnel stages
 
-    * _Themes:_ DevSecOps, AI, security & compliance, developer experience, workflow & Agile planning
+  * _Themes:_ DevSecOps, AI, security & compliance, developer experience, workflow & Agile planning
 
 * Produce bar-raising, world-class content and become a _**bookmark-able**_ resource for our customers and market to learn from—focused on acquisition, upsell, enablement, and deeper adoption
 
@@ -149,15 +149,15 @@ While the Content Strategy & Ops team produces a large amount of content, we are
 
 * Velocity Requests
 
-    * Examples: Quick-turn requests with minimal effort and few to no additional reviewers—updated wording on a landing page, email copy, small tweaks or repackaging of existing content
+  * Examples: Quick-turn requests with minimal effort and few to no additional reviewers—updated wording on a landing page, email copy, small tweaks or repackaging of existing content
 
-    * If you have an immediate request that requires review by multiple stakeholders, [follow the VP-level request workflow](/handbook/marketing/brand-and-product-marketing/content/#what-is-content-strategy--ops).
+  * If you have an immediate request that requires review by multiple stakeholders, [follow the VP-level request workflow](/handbook/marketing/brand-and-product-marketing/content/#what-is-content-strategy--ops).
 
 * Always-on Programs
 
-    * Ongoing/existing campaign content, customer stories, solutions page refreshes
+  * Ongoing/existing campaign content, customer stories, solutions page refreshes
 
-    * Page content updates and optimization, benchmarking, measurement
+  * Page content updates and optimization, benchmarking, measurement
 
 ### The GitLab Blog
 

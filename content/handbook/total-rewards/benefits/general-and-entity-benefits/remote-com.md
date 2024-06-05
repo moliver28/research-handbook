@@ -286,10 +286,10 @@ Under the Remote Technology scheme, the employer and member both pay **5% each t
 
 - Sum insured of the Group Life Cover will be 4 times of the annual salary.
 - The primary protection offered by group life cover is as follows:
-    - Provide for living expenses for surviving dependants
-    - Extinguish debt
-    - Protect the lifestyle of the surviving dependants
-    - Fund for the education costs of the surviving children
+  - Provide for living expenses for surviving dependants
+  - Extinguish debt
+  - Protect the lifestyle of the surviving dependants
+  - Fund for the education costs of the surviving children
 - Upon the death of the member, spouse or child, a benefit payment equal to the amount of the Funeral Cover will be made.
 - The sum assured for this benefit is up to R30,000
 - This benefit is 100% contributed and covered by Remote.
@@ -505,9 +505,9 @@ The family allowance is not paid out automatically, it must be applied for.
 All workers employed in Mexico must be registered with and contribute to the following institutions that deal with different social security insurance benefits:
 
 - Mexican Institute of Social Security (IMSS):
-    - Provides medical services, child day care, accident and sickness compensation, pregnancy benefits and disability pensions
+  - Provides medical services, child day care, accident and sickness compensation, pregnancy benefits and disability pensions
 - National Workers’ Housing Fund Institute (INFONAVIT):
-    - Provides subsidized housing to employees as well as loans, and the Retirement Savings Program (SAR). SAR provides employees with retirement benefits when they reach 65 years of age.
+  - Provides subsidized housing to employees as well as loans, and the Retirement Savings Program (SAR). SAR provides employees with retirement benefits when they reach 65 years of age.
 
 Employees in Mexico are covered by the Social Security Law, under IMSS who is responsible for administering social security insurance benefits and the collection of contributions.
 
@@ -587,7 +587,7 @@ Below is the information related to Mexico's statutory leave policies.  Please n
 
 - 12 weeks of the team member's Maternity Leave will be paid by the Mexican Social Security Institute (MSSI).
 - GitLab Parental Leave Pay Calculations: If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% minus any MSSI payments received for up to 16 weeks of leave.
-    - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
+  - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
 
 ##### Paternity Leave Payment
 

@@ -157,8 +157,8 @@ Enterprise users have user accounts that are administered by an organization tha
 
 1. Requester’s Ticket:
 
- - Add as an internal comment the ticket created above.
- - Reply to the requester with the snippet below and mark the ticket as `On-hold`.
+- Add as an internal comment the ticket created above.
+- Reply to the requester with the snippet below and mark the ticket as `On-hold`.
 
 > Hi,
 >

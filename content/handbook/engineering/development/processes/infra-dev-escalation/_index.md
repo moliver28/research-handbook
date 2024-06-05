@@ -33,19 +33,19 @@ This new process will need development engineers on-call based on a rotation sch
 
 The on-call process was designed with the following goals in mind -
 
-  * Clear expectations, responsibility, and accountability.
-  * Full 24x7 coverage to shadow the Infrastructure team.
-  * Layered escalations to ensure SLO.
-  * Balanced on-duty hours of each engineer per day.
-  * Any individual minimally loaded throughout a calendar year.
-  * Flexibility of just-in-time adjustments.
-  * Leaving engineers in control of their own working schedules
+* Clear expectations, responsibility, and accountability.
+* Full 24x7 coverage to shadow the Infrastructure team.
+* Layered escalations to ensure SLO.
+* Balanced on-duty hours of each engineer per day.
+* Any individual minimally loaded throughout a calendar year.
+* Flexibility of just-in-time adjustments.
+* Leaving engineers in control of their own working schedules
 
 ## Success Criteria
 
-  * Meet development’s SLO of timely response to infrastructure escalations.
-  * No on-call engineer is burned out.
-  * Planned development work is minimally impacted.
+* Meet development’s SLO of timely response to infrastructure escalations.
+* No on-call engineer is burned out.
+* Planned development work is minimally impacted.
 
 ## Implementation
 
@@ -81,9 +81,9 @@ The reasons for doing this:
 
 **A:** In theory, yes. However, there are a few things to keep in mind.
 
-  * What if a majority of volunteers are concentrated in nearby time zones?
-  * If ALL volunteers are called upfront, what if this ends up with a very small group?
-  * If volunteers are called dynamically e.g. before next rotation or month, there is ongoing administrative overhead and things can fall into cracks easily. What if no volunteer for a specific week? What if it ends up with always the same small group of people?
+* What if a majority of volunteers are concentrated in nearby time zones?
+* If ALL volunteers are called upfront, what if this ends up with a very small group?
+* If volunteers are called dynamically e.g. before next rotation or month, there is ongoing administrative overhead and things can fall into cracks easily. What if no volunteer for a specific week? What if it ends up with always the same small group of people?
 
 For weekends and holidays, we currently use a volunteer first model, and unfilled shifts are assigned. We encourage engineers to volunteer for shifts so they have more control over their schedule.
 

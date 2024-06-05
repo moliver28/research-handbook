@@ -42,21 +42,21 @@ Integral parts of this vision:
 ## Our principles
 
 - **Foster an environment where Quality is Everyone's responsibility.**
-    - We enable product teams by baking quality early into the product development flow process.
-    - We are a sounding-board for our end users by making feedback known to product teams.
-    - We are a champion of good software design, testing practices and bug prevention strategies.
+  - We enable product teams by baking quality early into the product development flow process.
+  - We are a sounding-board for our end users by making feedback known to product teams.
+  - We are a champion of good software design, testing practices and bug prevention strategies.
 - **Improve test coverage and leverage tests at all [levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).**
-    - We work to ensure that the right tests run at the right places.
-    - We enable product teams' awareness of their test coverage with fast, clear and actionable reporting.
-    - We continuously refine test efficiency, refactor duplicate coverage, and increase stability.
+  - We work to ensure that the right tests run at the right places.
+  - We enable product teams' awareness of their test coverage with fast, clear and actionable reporting.
+  - We continuously refine test efficiency, refactor duplicate coverage, and increase stability.
 - **Make Engineering teams efficient, engaged and productive.**
-    - We build automated solutions to improve workflow efficiency and productivity.
-    - We ensure reliability in our tooling and tests.
-    - We ensure that continuous integration pipelines are efficient, stable with optimal coverage.
+  - We build automated solutions to improve workflow efficiency and productivity.
+  - We ensure reliability in our tooling and tests.
+  - We ensure that continuous integration pipelines are efficient, stable with optimal coverage.
 - **Metrics driven.**
-    - We provide data driven insights into defects, test stability and efficiency.
-    - We ensure the data is actionable and is available transparently to the company and the wider community.
-    - We use data to make informative next steps and continuously improve with metrics-driven optimizations.
+  - We provide data driven insights into defects, test stability and efficiency.
+  - We ensure the data is actionable and is available transparently to the company and the wider community.
+  - We use data to make informative next steps and continuously improve with metrics-driven optimizations.
 
 ## FY25 Direction
 

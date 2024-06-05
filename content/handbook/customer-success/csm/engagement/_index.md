@@ -44,8 +44,8 @@ The "Welcome to GitLab" call will introduce the customer to the Customer Success
 1. Make use of the [account management projects](https://gitlab.com/gitlab-com/account-management)  ([Template](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template))
 1. Whenever a customer asks a question via email/Slack, kindly prompt them to open a Support ticket or an issue in the collaboration project
 
-  - Examples of a Support issue: Reporting GitLab downtime, errors or accessibility problems
-  - Examples of a Collaboration Project Issue: General questions about product usage, best practices or recommendations, adoption or integration questions
+- Examples of a Support issue: Reporting GitLab downtime, errors or accessibility problems
+- Examples of a Collaboration Project Issue: General questions about product usage, best practices or recommendations, adoption or integration questions
 
 1. Show customers the power of GitLab by using GitLab with them (ex: related issues, tracking milestones, threaded conversations, ability to interact directly with GitLab’s product/engineering teams)
 1. Make sure you are responding in a timely manner to customer's open issues. When you are prompt to respond, the customer is more likely to continue using the account management projects

@@ -45,7 +45,7 @@ This is a great time to introduce the CSM to the decision-makers and key stakeho
 
 Additionally, CSM engagement can be requested earlier in [stage](/handbook/sales/field-operations/gtm-resources/) `3-Technical Evaluation` (but not before) in the following situations:
 
-  - If a POV has been conducted - Upon POV completion & results presentation meeting where the next steps agreed upon
+- If a POV has been conducted - Upon POV completion & results presentation meeting where the next steps agreed upon
 
 <!--
 
@@ -131,17 +131,17 @@ Once the account is fully transitioned to post-sales, the SA may be invited by t
 
 There are instances where the CSM will need to reengage the SAE/AE and SA. Here are a few examples of customer requests the CSM can listen for in order to reengage them:
 
-  - Development of expansion plans with the SAE and CSM leading to tier upgrades
-  - A POV, product evaluation, RFP, or security begins for a "new" single team or an enterprise-wide tier upgrade not for renewal purposes
-  - SAs may assist CSMs with an existing customer team on an exception basis. SA leadership approval is required.
-    - Customer enablement assistance when specifically requested by the CSM team
-    - Workshops assistance when specifically requested by the CSM team
-    - ROI analysis for an existing customer team when requested by the CSM team
-    - Unless it's for a tier upgrade, presales activities such as POVs and RFPs should be avoided for an existing customer team. Like with any presales opportunity, these activities should not be offered as a sales tools, but leveraged when a prospect/customer requires these activities as part of their evaluation.
-  - Any Professional Services that are being discussed and may require an SOW
-  - If a CSM is over-committed or unable to support a customer request, the SA may be requested to assist
-  - Support of GitLab days or other on-site evangelism of GitLab at customer sites
-  - Executive Business Reviews (EBRs)
+- Development of expansion plans with the SAE and CSM leading to tier upgrades
+- A POV, product evaluation, RFP, or security begins for a "new" single team or an enterprise-wide tier upgrade not for renewal purposes
+- SAs may assist CSMs with an existing customer team on an exception basis. SA leadership approval is required.
+  - Customer enablement assistance when specifically requested by the CSM team
+  - Workshops assistance when specifically requested by the CSM team
+  - ROI analysis for an existing customer team when requested by the CSM team
+  - Unless it's for a tier upgrade, presales activities such as POVs and RFPs should be avoided for an existing customer team. Like with any presales opportunity, these activities should not be offered as a sales tools, but leveraged when a prospect/customer requires these activities as part of their evaluation.
+- Any Professional Services that are being discussed and may require an SOW
+- If a CSM is over-committed or unable to support a customer request, the SA may be requested to assist
+- Support of GitLab days or other on-site evangelism of GitLab at customer sites
+- Executive Business Reviews (EBRs)
 
 ## Useful Links
 

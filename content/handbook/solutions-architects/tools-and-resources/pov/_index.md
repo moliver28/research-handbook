@@ -153,7 +153,7 @@ Below is best practice guidance for conducting each type of POV. These processes
 - SAE/AE: Opportunity updated in Salesforce, set to Stage 3-Technical Evaluation, with POV Information entered per the [handbook](/handbook/sales/field-operations/gtm-resources/)
 - SAE/AE: Signed NDA by the legal team if required
 - SAE/AE: Review [Customer Assurance Package](https://about.gitlab.com/security/cap/) with customer (if SaaS evaluation)
-    - The Customer Package requires an NDA, and contains commonly requested security information (SOC2, Penetration Test Results, etc) and can be requested via a [Field Security Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=Security%20Documents%20CAA)
+  - The Customer Package requires an NDA, and contains commonly requested security information (SOC2, Penetration Test Results, etc) and can be requested via a [Field Security Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=Security%20Documents%20CAA)
 - SAE/AE: Schedule Internal kick off meeting (detailed below)
 - SAE/AE: Schedule kickoff meeting with customer
 - CSM: Review collaboration project content prior to internal kickoff meeting
@@ -296,17 +296,17 @@ Commercial Sales POV's are commonly executed as a variety of the Lite POV, thoug
 - Duration: 30 Minutes
 - Attendees: GitLab Account Executive, GitLab Solutions Architect, Prospective Customer
 - Agenda:
-    - Define success criteria (as a best practice, have no more than 5 required capabilities)
-    - Confirm start and end date
-    - Determine primary communication method
-        - Customer to decide if they are interested in communicating on a collaborative GitLab project or email only
-        - Collaborative, time-limited Slack channels are an option depending on SA capacity and opportunity IACV
-        - Frequency options: 30 minute weekly call or email touchbase weekly with calls scheduled as needed
+  - Define success criteria (as a best practice, have no more than 5 required capabilities)
+  - Confirm start and end date
+  - Determine primary communication method
+    - Customer to decide if they are interested in communicating on a collaborative GitLab project or email only
+    - Collaborative, time-limited Slack channels are an option depending on SA capacity and opportunity IACV
+    - Frequency options: 30 minute weekly call or email touchbase weekly with calls scheduled as needed
 - SA role:
-    - Acts as the primary point of contact throughout POV process
-    - Tracks status updates regarding success criteria
-    - Records any existing or new feature requests of interest to customer
-    - Leads troubleshooting and escalation of blockers
+  - Acts as the primary point of contact throughout POV process
+  - Tracks status updates regarding success criteria
+  - Records any existing or new feature requests of interest to customer
+  - Leads troubleshooting and escalation of blockers
 
 ### Commercial Sales - POV and Customer Success Plan Creation
 
@@ -314,10 +314,10 @@ Commercial Sales POV's are commonly executed as a variety of the Lite POV, thoug
 - Create a new [customer project](https://gitlab.com/gitlab-com/account-management/commercial/pre-sales) in the Commercial/Pre-sales group. To use the template, select the 'Create from Template' tab, select the 'Group' templates, and then click 'Use template' for the 'New Customer Project - Commercial Sales' template.
 - Edit README.md with information specific to POV under the Proof of Value section and fill in any additional relevant fields.
 - Upon completion of POV, update Salesforce record with POV result as successful or unsuccessful and provide supportive reasons in the associated freeform fields
-    - For a successful POV:
-        - SA adds any other known information in README.md, then moves the project from the Pre-sales group to [Commercial](https://gitlab.com/gitlab-com/account-management/commercial)
-        - CSM and AE determine CSM eligibility and engagement based on Account Tier and IACV.
-        - CSM, SA and AE schedule meeting with new customer to establish a starting baseline, review the project data and establish intended collaborative usage moving forward.
+  - For a successful POV:
+    - SA adds any other known information in README.md, then moves the project from the Pre-sales group to [Commercial](https://gitlab.com/gitlab-com/account-management/commercial)
+    - CSM and AE determine CSM eligibility and engagement based on Account Tier and IACV.
+    - CSM, SA and AE schedule meeting with new customer to establish a starting baseline, review the project data and establish intended collaborative usage moving forward.
 
 ## POV Template Document
 

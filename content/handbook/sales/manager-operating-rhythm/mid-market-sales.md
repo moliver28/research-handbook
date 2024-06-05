@@ -87,7 +87,7 @@ Some ASMs also choose to conduct opportunity consults with a group to incorporat
 
 - Invite AEs to volunteer in advance to do a group consult and present their Command - Plan for a key deal to the rest of the team
 - Schedule a 30-45 minute meeting once you have a volunteer
-    - ASM to decide whether team participation is mandatory or optional (consider starting as optional but strongly encouraged until the value is proven)
+  - ASM to decide whether team participation is mandatory or optional (consider starting as optional but strongly encouraged until the value is proven)
 - During the meeting, the volunteer AE presents his or her Command Plan for one key opportunity and then receives questions, input, and feedback from the team
 - If successful, consider creating a recurring meeting series (1-2x per month)
 

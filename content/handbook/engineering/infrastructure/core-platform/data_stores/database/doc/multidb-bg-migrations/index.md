@@ -70,9 +70,9 @@ For an example, with the decomposition effort, we intend to have a main database
 
 This approach has several advantages:
 
-  - The migration naturally follows the model of Rails migrations. We don't have to reach cross-database (which Rails doesn't support) while the Rails migration enqueues the jobs.
-  - The execution framework can use `SharedModel` consistently both to access the tracking information and the database context for generic migration jobs which don't use a hardcoded connection to a particular database.
-  - We keep tracking data local to the database where the business data for the migration resides.
+- The migration naturally follows the model of Rails migrations. We don't have to reach cross-database (which Rails doesn't support) while the Rails migration enqueues the jobs.
+- The execution framework can use `SharedModel` consistently both to access the tracking information and the database context for generic migration jobs which don't use a hardcoded connection to a particular database.
+- We keep tracking data local to the database where the business data for the migration resides.
 
 To support this execution model, we can require developers to tag migrations with the context they will need. A simplified example might look like:
 
@@ -94,9 +94,9 @@ Again looking at a concrete example, if we have a main and CI database, we also 
 
 Advantages to this approach:
 
-  - It provides a clean separation of concerns that is easier to reason about and maintain.
-  - It takes full advantage of multiple physical databases by processing against each independently. It also provides operation flexibility to manage these independently.
-  - The workers automatically know the context in which they run, without having to pass additional data to them.
+- It provides a clean separation of concerns that is easier to reason about and maintain.
+- It takes full advantage of multiple physical databases by processing against each independently. It also provides operation flexibility to manage these independently.
+- The workers automatically know the context in which they run, without having to pass additional data to them.
 
 #### Allow the developer to choose how the migration connects
 
@@ -104,7 +104,7 @@ This is the only "decision" which is really a hard requirement. Individual backg
 
 There are a couple ways this could work in practice depending on the scenario:
 
-  - The job uses migration-specific models that inherit from the correct base class for the intended database(s).
+- The job uses migration-specific models that inherit from the correct base class for the intended database(s).
 
     ```ruby
     class ExplicitMigrationJob
@@ -126,7 +126,7 @@ There are a couple ways this could work in practice depending on the scenario:
     end
     ```
 
-  - The job is designed to be generic and can use `SharedModel` (either as base class or to retreive a connection) which is already configured by the execution framework for the correct context.
+- The job is designed to be generic and can use `SharedModel` (either as base class or to retreive a connection) which is already configured by the execution framework for the correct context.
 
     ```ruby
     class GenericMigrationJob

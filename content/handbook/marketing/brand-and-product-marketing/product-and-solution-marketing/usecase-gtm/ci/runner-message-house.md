@@ -77,17 +77,17 @@ Use GitLab Runner to orchestrate your CI/CD pipelines and optimize workflow exec
 ### GitLab Runner capabilities
 
 - Flexible, efficient builds
-   - Build parallelization to run multiple jobs concurrently
-   - Run builds locally or in the cloud using Docker containers
-   - Autoscale resources and provision runners on-demand
+  - Build parallelization to run multiple jobs concurrently
+  - Run builds locally or in the cloud using Docker containers
+  - Autoscale resources and provision runners on-demand
 - Any language, any platform, any cloud
-   - Runner is written in Go and distributed as a single binary without any other requirements.
-   - Supports Bash and Windows PowerShell.
-   - Works on GNU/Linux, macOS, and Windows (pretty much anywhere you can run Docker).
-   - Allows for customization of the job running environment.
+  - Runner is written in Go and distributed as a single binary without any other requirements.
+  - Supports Bash and Windows PowerShell.
+  - Works on GNU/Linux, macOS, and Windows (pretty much anywhere you can run Docker).
+  - Allows for customization of the job running environment.
 - Straightforward to adopt and scale as you onboard new teams
-   - Easy to use and setup initially with support for Docker, Docker-SSH, Parallels, or SSH running environments.
-   - Easy installation as a service for GNU/Linux, macOS, and Windows.
+  - Easy to use and setup initially with support for Docker, Docker-SSH, Parallels, or SSH running environments.
+  - Easy installation as a service for GNU/Linux, macOS, and Windows.
 
 See a full list of [Runner features](https://docs.gitlab.com/runner/#features))
 

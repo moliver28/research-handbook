@@ -151,13 +151,13 @@ We follow the [Product Designer workflows](/handbook/product/ux/product-designer
 - we will label experiments with `UX problem validation` and `UX solution validation` according to the [UX Research Workflow](/handbook/product/ux/#ux-labels) definitions to indicate the type of learning the experiment achieves. The purpose of these labels is to track [this UX KPI](/handbook/product/ux/performance-indicators/#ux-research-velocity) related to research velocity.
 - we use the [workflow labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=workflow%3A%3A) for regular issues and [experiment workflow labels](/handbook/marketing/growth/engineering/#experiment-workflow-labels) for experiment issues.
 - we use **milestones** to aid in planning and prioritizing the four growth groups of Acquisition, Conversion, Expansion and Retention.
-    - PMs provide an [ICE score for experiments](https://docs.google.com/spreadsheets/d/1yvLW0qM0FpvcBzvtnyFrH6O5kAlV1TEFn0TB8KM-Y1s/edit#gid=0) and by using [priority labels](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) for other issues.
-    - The Product Designer applies the milestone in which they plan to deliver the work (1-2 milestones in advance, or backlog for items that are several months out. For example, if an issue is not doable for a designer in the current milestone, they can add the next milestone to the issue, which will communicate to the PM when the work will be delivered.
-    - If the PM has any concern about the planned milestone, they will discuss trade-offs with the Product Designer and other Growth PMs.
+  - PMs provide an [ICE score for experiments](https://docs.google.com/spreadsheets/d/1yvLW0qM0FpvcBzvtnyFrH6O5kAlV1TEFn0TB8KM-Y1s/edit#gid=0) and by using [priority labels](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) for other issues.
+  - The Product Designer applies the milestone in which they plan to deliver the work (1-2 milestones in advance, or backlog for items that are several months out. For example, if an issue is not doable for a designer in the current milestone, they can add the next milestone to the issue, which will communicate to the PM when the work will be delivered.
+  - If the PM has any concern about the planned milestone, they will discuss trade-offs with the Product Designer and other Growth PMs.
 - we use [UX issue weights](/handbook/product/ux/product-designer/#ux-issue-weights) in order to better estimate capacity, realistically break down our work, and give PMs a little insight into how much work we can take on in a milestone.
-    - Label the issue for UX work with `UX` and assess the issue weight. Issues larger than an **8** should be broken down further.
-    - Use the scoped labels starting with `design weight` to add the UX weight to an issue.
-    - When the UX work is ready to be transitioned into Engineering, apply the workflow lable `workflow::planning breakdown`.
+  - Label the issue for UX work with `UX` and assess the issue weight. Issues larger than an **8** should be broken down further.
+  - Use the scoped labels starting with `design weight` to add the UX weight to an issue.
+  - When the UX work is ready to be transitioned into Engineering, apply the workflow lable `workflow::planning breakdown`.
 - We have a [Figma template](https://www.figma.com/file/e8tj8XvblnhDlix83FUSij/Growth-Experiment-Design-Template?node-id=1%3A42) for designing experiments. You should title your Figma designs to be consistent with the experiment name, and link the experiment issue to the Figma file. When the variants are ready, add the control and variants to the "All the variants" page and provide context as needed. If you are conducting multiple experiments in the same area, consider using the same Figma file but include different pages per experiment design.
 
 #### UX Definition of Done (DoD)

@@ -75,22 +75,22 @@ Identify potential risks and strategies for mitigation, preparing the team for u
 ## Effective Communication Channels
 
 - **Team Meetings:**
-    - Regularly scheduled meetings to discuss progress, challenges, and upcoming tasks.
-    - **Frequency:** Weekly on Mondays at 10 AM UTC.
-    - **Agenda:** Link to Doc.
+  - Regularly scheduled meetings to discuss progress, challenges, and upcoming tasks.
+  - **Frequency:** Weekly on Mondays at 10 AM UTC.
+  - **Agenda:** Link to Doc.
 
 - **Slack Channel:**
-    - Dedicated Slack channel for ad hoc communication, quick questions, and announcements.
-    - Team members are encouraged to use `@mentions` for specific communication.
+  - Dedicated Slack channel for ad hoc communication, quick questions, and announcements.
+  - Team members are encouraged to use `@mentions` for specific communication.
 
 - **Status Report Issues:**
-    - Create an issue in the project repository for reporting status updates, achievements, and challenges. You can create either one issue ([1](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/85), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/361755#note_975547547)) that is updated at a specific cadence or different issues for every update ([1](https://gitlab.com/gitlab-com/create-stage/code-creation/announcements/-/issues/?sort=title_asc&state=all&first_page_size=20),2,3). Some people prefer to post status reports in Slack, however, the problem with that is that you lose the history in Slack and it is not easy to search.
+  - Create an issue in the project repository for reporting status updates, achievements, and challenges. You can create either one issue ([1](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/85), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/361755#note_975547547)) that is updated at a specific cadence or different issues for every update ([1](https://gitlab.com/gitlab-com/create-stage/code-creation/announcements/-/issues/?sort=title_asc&state=all&first_page_size=20),2,3). Some people prefer to post status reports in Slack, however, the problem with that is that you lose the history in Slack and it is not easy to search.
     The preference is to use get with the product and dog food the product and then you can link from Slack to the GitLab issue.
-    - Link to Issue Board / Issue Lists
-    - Link to Issue Lists
-    - **Feedback Gathering Epic:**
-    - Link to an epic dedicated to gathering internal and external feedback.
-    - Regularly check for feedback on features, user experience, and overall progress.
+  - Link to Issue Board / Issue Lists
+  - Link to Issue Lists
+  - **Feedback Gathering Epic:**
+  - Link to an epic dedicated to gathering internal and external feedback.
+  - Regularly check for feedback on features, user experience, and overall progress.
 
 ## Metrics/Dashboards/Charts
 

@@ -22,36 +22,36 @@ This ally lab will provide you with some of the tools, resources and learning ac
 To be an effective ally it is important to understand some of the skills and behaviors great allies exhibit.
 
 - Active listening
-   - Neutral and nonjudgmental.
-   - Patient (periods of silence are not "filled")
-   - Verbal and nonverbal feedback to show signs of listening (e.g., smiling, eye contact, leaning in, mirroring)
-   - Asking questions.
-   - Reflecting back what is said.
-   - Asking for clarification.
-   - Summarizing.
+  - Neutral and nonjudgmental.
+  - Patient (periods of silence are not "filled")
+  - Verbal and nonverbal feedback to show signs of listening (e.g., smiling, eye contact, leaning in, mirroring)
+  - Asking questions.
+  - Reflecting back what is said.
+  - Asking for clarification.
+  - Summarizing.
 - Empathy & Emotional Intelligence
-    - **An example of this could be:** A colleague comes to you and tells you that their pronouns are being misused often at work and it is making them feel uncomfortable and they are avoiding social calls and interactions. Whilst you haven’t experienced this yourself and unlikely you would experience this, you allow yourself to think of situations where you have felt uncomfortable at work before. You also put yourself consciously into the shoes of your colleague and think of a way you can practically help. You offer to your colleague that in the next 5 calls they participate in you will be on the call and actively point out misuse of their pronouns to other colleagues to take away some of the emotional burden.
+  - **An example of this could be:** A colleague comes to you and tells you that their pronouns are being misused often at work and it is making them feel uncomfortable and they are avoiding social calls and interactions. Whilst you haven’t experienced this yourself and unlikely you would experience this, you allow yourself to think of situations where you have felt uncomfortable at work before. You also put yourself consciously into the shoes of your colleague and think of a way you can practically help. You offer to your colleague that in the next 5 calls they participate in you will be on the call and actively point out misuse of their pronouns to other colleagues to take away some of the emotional burden.
 - Active learning about other experiences
-    - You go beyond performative actions for example black squares on Instagram for Black Lives Matter, but actively does the work to understand the pain, struggle and experience of those burdened.
-    - **This could look like:** You are managing black team members, an incident has occurred externally that could affect the mental health of those team members. You actively research the experience and historical context of the trauma associated with the incident. You use this to ensure you are informed and able to appropriately apply empathy if a team member approaches you to ask for assistance.
+  - You go beyond performative actions for example black squares on Instagram for Black Lives Matter, but actively does the work to understand the pain, struggle and experience of those burdened.
+  - **This could look like:** You are managing black team members, an incident has occurred externally that could affect the mental health of those team members. You actively research the experience and historical context of the trauma associated with the incident. You use this to ensure you are informed and able to appropriately apply empathy if a team member approaches you to ask for assistance.
 - Humility
-    - Non-defensive
-    - Willingness to take on feedback
-    - You aren’t going to get it right all the time and you have to be ok with that. Be willing to take feedback on and not let it deter you from continuing to be an ally.
-    - **Example of this could be:** You are in a safe space with an underrepresented group acting as an ally and absorbing information. A point comes up that you are passionate about and you talk over someone in the group and take over the conversation. After the meeting someone from the group jumps on a Zoom meeting with you and explains that it felt you took away the viewpoints of a number of people from the URG because you took over the conversation and interrupted an individual. You apologize, take on the feedback, ask for any tips on how to make sure it doesn’t happen again and take the necessary steps. --- One of the mistakes that often happens here is being defensive or justifying the action. The group will already know you are operating with good intent but generally are wanting to help you level up in their lived experience.
+  - Non-defensive
+  - Willingness to take on feedback
+  - You aren’t going to get it right all the time and you have to be ok with that. Be willing to take feedback on and not let it deter you from continuing to be an ally.
+  - **Example of this could be:** You are in a safe space with an underrepresented group acting as an ally and absorbing information. A point comes up that you are passionate about and you talk over someone in the group and take over the conversation. After the meeting someone from the group jumps on a Zoom meeting with you and explains that it felt you took away the viewpoints of a number of people from the URG because you took over the conversation and interrupted an individual. You apologize, take on the feedback, ask for any tips on how to make sure it doesn’t happen again and take the necessary steps. --- One of the mistakes that often happens here is being defensive or justifying the action. The group will already know you are operating with good intent but generally are wanting to help you level up in their lived experience.
 - Courage
-    - Comfortable getting uncomfortable
-    - Speak up where others don't or can't
-    - The empathy example is also a good example of this.
+  - Comfortable getting uncomfortable
+  - Speak up where others don't or can't
+  - The empathy example is also a good example of this.
 - Self-awareness
-    - Own and use your privilege
-    - **This could look like:** You are in a product meeting and the meeting will be making critical decisions about the product roadmap for the next three months and you notice that everyone in the meeting is of the same gender and race. You use your privileged situation in the meeting to point this out and ask the people in the meeting. Who should be invited to ensure we are getting a diverse perspective and viewpoint on the agenda items for the meeting?
+  - Own and use your privilege
+  - **This could look like:** You are in a product meeting and the meeting will be making critical decisions about the product roadmap for the next three months and you notice that everyone in the meeting is of the same gender and race. You use your privileged situation in the meeting to point this out and ask the people in the meeting. Who should be invited to ensure we are getting a diverse perspective and viewpoint on the agenda items for the meeting?
 - Action orientated
-    - You see something, you say something
-    - The example above is a good example of this: Ensure decisions and conversations have diverse voices. I.E. you are in a meeting and everyone looks the same, insist on other perspectives.
-    - In a group setting when a discussion or comment is verbalized that could be controversial use language similar to this to course correct the conversation:
-    - - "I would like us all to be aware of our language and/or acknowledgements and ensure we are being respectful to all individuals. Thank you."
-    - - "I am practicing being an ally and as a reminder I would like to ensure we are all using inclusive language"
+  - You see something, you say something
+  - The example above is a good example of this: Ensure decisions and conversations have diverse voices. I.E. you are in a meeting and everyone looks the same, insist on other perspectives.
+  - In a group setting when a discussion or comment is verbalized that could be controversial use language similar to this to course correct the conversation:
+  - - "I would like us all to be aware of our language and/or acknowledgements and ensure we are being respectful to all individuals. Thank you."
+  - - "I am practicing being an ally and as a reminder I would like to ensure we are all using inclusive language"
 
 ## What it means to be an ally
 

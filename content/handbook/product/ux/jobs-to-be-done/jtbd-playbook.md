@@ -49,8 +49,8 @@ Now that you know what Domain area you want to work in, it's time to zoom in on 
 To help you determine which Job Performer you want to focus on for this Job Canvas, consider the following questions: Where is there a need in our market? Who are we passionate about serving? What’s relevant or core to our business strategy?
 
 - Provide each workshopper with some "Target" stickers from FigJam's sticker set.
-    - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
-    - If > 3 participants: Each participant gets 1 sticker to vote with.
+  - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
+  - If > 3 participants: Each participant gets 1 sticker to vote with.
 - Move the selected Job Performer to the Job Canvas’s Job Performer section.
 - You can keep the unselected Job Performers in this open area if you want to reference them later to explore additional JTBD Canvases for different Job Performers.
 
@@ -65,8 +65,8 @@ Again, in an open area of the FigJam, consider the following: What are all of th
 To help you determine which Main Job you want to focus on for this Job Performer’s Job Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy? What is the primary task or objective that the Job Performer is trying to accomplish (get done)?
 
 - Provide each workshopper with some "Target" stickers from FigJam's sticker set.
-    - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
-    - If > 3 participants: Each participant gets 1 sticker to vote with.
+  - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
+  - If > 3 participants: Each participant gets 1 sticker to vote with.
 - Move the selected Main Job to the JTBD Canvas’s Main Job section
 - Move the unselected Main Jobs to the Related Jobs section as these can be investigated in separate JTBD Canvases/research later.
 
@@ -81,8 +81,8 @@ One last time, in an open area of the FigJam, consider: What are all of the Aspi
 To help you determine which Aspirations you want to focus on for this JP’s Job Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy?
 
 - Provide each workshopper with some "Target" stickers from FigJam's sticker set.
-    - If < 3 participants: Each participant gets 6 stickers to vote with. You can vote on the same item.
-    - If > 3 participants: Each participant gets 3 sticker to vote with.
+  - If < 3 participants: Each participant gets 6 stickers to vote with. You can vote on the same item.
+  - If > 3 participants: Each participant gets 3 sticker to vote with.
 - Select the top 3 voted Aspirations and move them to the JTBD Canvas’s Aspirations ssection leaving the unselected Aspirations behind for consideraton later, if necessary.
 
 ## Pre-Workshop 2: Investigation Interviews & Interview Synthesis
@@ -172,10 +172,10 @@ Share the Job Map with your team, read through it to ensure everyone understands
 To help you determine which areas of the Job Map are the most important areas to focus on to affect change for this JobPerformer’s JTBD Canvas, ask: What’s the most important step that’s the hardest to get done? What’s the most critical step?
 
 - Provide each workshopper with some “Target” stickers from FigJam’s sticker set.
-    - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item as many times as you want.
-    - If > 3 participants: Each participant gets 1 stickers to vote with.
+  - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item as many times as you want.
+  - If > 3 participants: Each participant gets 1 stickers to vote with.
 - Discuss the voted upon steps, discussing why each person voted on their step. The goal is to confirm that the team agrees/aligns on a particular step to work on.
-    - It is likely that you'll have a few different steps voted on. Save these for future construction of this JTBD Canvas's Job Stories.
+  - It is likely that you'll have a few different steps voted on. Save these for future construction of this JTBD Canvas's Job Stories.
 - Select and highlight, circle, or outline the top voted Job Step that you are going to innovate on.
 - Copy your Job Map over to your canvas on the right, including the voted on and circled top voted items.
 
@@ -188,8 +188,8 @@ Share the Emotional Aspect stickies with your team, have everyone read through a
 To help you determine which Emotional Aspect statements are the most important areas to focus on to affect change for this JobPerformer’s JTBD Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy?
 
 - Provide each workshopper with some “Target” stickers from FigJam’s sticker set.
-    - If < 3 participants: Each participant gets 6 stickers to vote with. You can vote on the same item as many times as you want.
-    - If > 3 participants: Each participant gets 3 stickers to vote with.
+  - If < 3 participants: Each participant gets 6 stickers to vote with. You can vote on the same item as many times as you want.
+  - If > 3 participants: Each participant gets 3 stickers to vote with.
 - Arrange the voted on stickies in a pyramid with the top voted stickies at the top and lowest at the bottom.
 - Discuss the top voted upon items and confirm that the team agrees/aligns on the top voted Emotional Aspect Statements and move them to the appropriate space on the JTBD Canvas.
 

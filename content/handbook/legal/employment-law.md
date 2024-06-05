@@ -48,7 +48,7 @@ Legal reviews overall background check policy and procedure in place, helps deve
 
 Legal should be asked to review negotiated contracts that seek to change standard terms.
 
- - Standard contract terms are audited on an annual basis. A contract audit issue will be opened to review the terms and gather input from appropriate teams across the organization. To suggest a change to an entity contract template, please leave a comment in the current contract audit issue found in the `People Operations` project and titled  Semi-Annual `Global Employment Contract Review YYYY-January or June`.
+- Standard contract terms are audited on an annual basis. A contract audit issue will be opened to review the terms and gather input from appropriate teams across the organization. To suggest a change to an entity contract template, please leave a comment in the current contract audit issue found in the `People Operations` project and titled  Semi-Annual `Global Employment Contract Review YYYY-January or June`.
 
 #### Compliance with Onboarding Issues
 

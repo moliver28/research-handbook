@@ -102,19 +102,19 @@ By accomplishing the following tasks, you'll know you have completed onboarding:
 - [ ] Complete internal handoff, where CSM reviews the command plan, adoption goals, priorities, and stakeholders with the SAE/AE and SA
 - [ ] Assign `GitLab Admin` and/or other persona roles to primary contacts
 - [ ] Complete kickoff call, where the CSM:
-   - [ ] Leads introductions (Less than 5 minutes)
-   - [ ] Validates the customer's reason for purchase
-   - [ ] Asks about any additional goals the customer has
-   - [ ] Asks about the customer's DevSecOps toolstack
-   - [ ] Asks about any additional customer stakeholders
-   - [ ] Advises the customer on how to get [support](https://about.gitlab.com/support/) as well as how to sign up for security alerts
+  - [ ] Leads introductions (Less than 5 minutes)
+  - [ ] Validates the customer's reason for purchase
+  - [ ] Asks about any additional goals the customer has
+  - [ ] Asks about the customer's DevSecOps toolstack
+  - [ ] Asks about any additional customer stakeholders
+  - [ ] Advises the customer on how to get [support](https://about.gitlab.com/support/) as well as how to sign up for security alerts
 - [ ] Complete initial draft of success plan, with the objective being their primary use case with the relevant [Stage Enablement playbook](/handbook/customer-success/playbooks/)
 - [ ] Complete second call (first cadence), where the CSM:
-   - [ ] Discusses how they will work with the customer towards their goals, collecting metrics for success, milestones/timelines, and establishing next steps
-   - [ ] Discusses enablement opportunities (e.g. [workshops](/handbook/customer-success/csm/workshops/), Professional Services, GitLab documentation, etc.)
-   - [ ] Shares available content for workshops and webinars and advocates for the customer to attend a session on Intro to GitLab and/or their primary use case
-   - [ ] Discusses the monthly upgrade cadence for releases
-   - [ ] (If self-managed) Discusses usage ping
+  - [ ] Discusses how they will work with the customer towards their goals, collecting metrics for success, milestones/timelines, and establishing next steps
+  - [ ] Discusses enablement opportunities (e.g. [workshops](/handbook/customer-success/csm/workshops/), Professional Services, GitLab documentation, etc.)
+  - [ ] Shares available content for workshops and webinars and advocates for the customer to attend a session on Intro to GitLab and/or their primary use case
+  - [ ] Discusses the monthly upgrade cadence for releases
+  - [ ] (If self-managed) Discusses usage ping
 - [ ] Complete filling out any relevant fields in the Gainsight Attributes tab of the customer 360
 
 If you haven't been able to achieve all of this by the end of the second call, [document the reasons for the delay](#onboarding-delays) in your notes and aim to complete this by the next call. Please note the onboarding CTA currently asks you to log the First Value Date (#time-to-first-value) if the customer does not have service ping enabled; if you don't have this information yet, and everything else is complete, mark the onboarding as done regardless, and continue to work towards understanding the customer's progress towards first-value separately, logging it when known.

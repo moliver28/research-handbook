@@ -25,8 +25,8 @@ Solutions architects are responsible for owning their engagement on opportunitie
 Solutions Architects operate within Circles (small teams of SAs).  Each Circle is responsible for managing their triaging process.  When scheduling conflicts arise, SA Circles may distribute opportunity workload to other Circles.  When taking PTO, or out on a sick day, an SA's Circle is their first stop for backup.
 
 - Goals of Circle Triage:
-   - Create a mechanism to pragmatically assign opportunities to members of our SA team who are available and ready - in time and skill set.
-   - Enable SAs with a process that allows the majority of their time to be focused on current deals and projects that contribute to the greater Customer Success org - not Salesforce report refreshes.
+  - Create a mechanism to pragmatically assign opportunities to members of our SA team who are available and ready - in time and skill set.
+  - Enable SAs with a process that allows the majority of their time to be focused on current deals and projects that contribute to the greater Customer Success org - not Salesforce report refreshes.
 
 #### SA Circle Triage Guidelines
 
@@ -34,8 +34,8 @@ Solutions Architects operate within Circles (small teams of SAs).  Each Circle i
 
 _Self-assignment does not happen without first discussing the opportunity and the “4 Questions” in the Circle-slack channel_
 
-  - **This is the #1 immutable rule.**  All others build off of it.  We must Collaborate, prioritizing The Circle and The Process over “just this once”.
-    - We will have a Fast-track prioritization route for those demos that were scheduled with less than 24 hours.   We will still collaborate in Slack circle-region channels when this situation occurs.
+- **This is the #1 immutable rule.**  All others build off of it.  We must Collaborate, prioritizing The Circle and The Process over “just this once”.
+  - We will have a Fast-track prioritization route for those demos that were scheduled with less than 24 hours.   We will still collaborate in Slack circle-region channels when this situation occurs.
 
 ###### #2: Triage within One Business Day
 
@@ -57,8 +57,8 @@ _If possible, two team members review a Command Plan before assignment_
 There are often 'what-if' scenarios when an SA evaluates an incoming lead.   These 4 questions give us the start to our async Slack conversations.  _Should this meeting move forward if I don't know 'X'?_  is exacty when the members of The Circle will able to add context, and conversation to the Triage Collaboration.
 
 - **#1: Is the Command Plan Properly completed?  Read through the Plan.  Identify if anything is missing.**
-   - Goal: Make it acceptable for the AE and the Command Plan not to be perfect. Make it thusly acceptable for the SA Circle to ask clarifying questions and request more information before the opportunity is assigned, and before the next proposed meeting can take place.
-      - Command Plan clarification questions are a great opportunity for our experienced SA org to lead and guide those folks who are in the sales org who are newer to GitLab and/or DevOps.  Having the proper time for a feedback loop serves everyone involved in the lead.   If we don't tells our AEs what more we need, how else will they understand what to ask in the future?
+  - Goal: Make it acceptable for the AE and the Command Plan not to be perfect. Make it thusly acceptable for the SA Circle to ask clarifying questions and request more information before the opportunity is assigned, and before the next proposed meeting can take place.
+    - Command Plan clarification questions are a great opportunity for our experienced SA org to lead and guide those folks who are in the sales org who are newer to GitLab and/or DevOps.  Having the proper time for a feedback loop serves everyone involved in the lead.   If we don't tells our AEs what more we need, how else will they understand what to ask in the future?
 - **#2:  Based on the Command Plan, does the SA have a good understanding of the following:**
   - Current DevOps stack? (SCM, Plan, CI/CD, Cloud Vendor(s), Deployment technologies)
   - What are the evaluated competitive technologies? (ex: GitHub, ADO, Atlassian)
@@ -97,9 +97,9 @@ leverage the Account Sales Territory in the Circle Slack Channel to determine an
 #### Meeting Expectations
 
 - All meetings should be planned with clear desired outcomes available to the SA
-    - Why does the prospect want to meet with us?
-    - What are our meeting objectives/goals?
-    - Agenda and list of attendees should be provided in advance;<u>failure to provide this information could delay in the scheduling or declination of a meeting request.</u>
+  - Why does the prospect want to meet with us?
+  - What are our meeting objectives/goals?
+  - Agenda and list of attendees should be provided in advance;<u>failure to provide this information could delay in the scheduling or declination of a meeting request.</u>
 - SA activities include:
   - Discovery calls allow for pain to be identified and can be effective way to help build an awareness of the consequences of that pain both for the customer and the GitLab account team.
   - Demonstrations align value to capabilities within the product, aiming to speak to the needs of the customer.
@@ -110,8 +110,8 @@ leverage the Account Sales Territory in the Circle Slack Channel to determine an
 
 In some cases SA support might be required in early stage or not fully qualified opportunities. Slack can be used for answering narrowlly-scoped technical questions, providing additional customer outreach materials or helping an Account Executive with a narrowly-scoped customer inquiry. These requests can be served asynchronously via Slack:
 
- - AMER: `#cs-commercial-amer-support`
- - EMEA: `#cs-commercial-emea-support`
+- AMER: `#cs-commercial-amer-support`
+- EMEA: `#cs-commercial-emea-support`
 
 These Slack channels are considered to be a safe harbor for all Commercial AE <-> SA communication. When asking questions, please ensure you always provide as much context as possible; including the SFDC URL, and type of subscription (SaaS or Self-Managed). Solutions Architecture will monitor and provide best effort support on these requests.
 Avoid using these Slack channels for cases that require technical discovery and solutioning. These have to be handled via standard SA Request process.

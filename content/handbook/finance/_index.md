@@ -11,7 +11,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 {.h2}
 
 - [Finance Issues](https://gitlab.com/gitlab-com/finance/issues)
-    - Please use confidential issues for topics that should only be visible to team members at GitLab.
+  - Please use confidential issues for topics that should only be visible to team members at GitLab.
 - [Accounts Payable]({{< ref "./accounts-payable" >}})
 - [Expense Guidelines]({{< ref "./expenses" >}})
 - [Operating Metrics]({{< ref "key-review" >}})

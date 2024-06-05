@@ -37,14 +37,14 @@ The team is just getting started, so please see the [Identity Engineering Issue 
 ### Epics and Issues
 
 - Operations
-    - [Access Requests Issue Tracker](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) (use [issue template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/README.md?ref_type=heads))
-    - [Identity Ops Issue Tracker](https://gitlab.com/gitlab-com/gl-security/identity/ops/issue-tracker/-/issues) (day-to-day requests)
+  - [Access Requests Issue Tracker](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) (use [issue template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/README.md?ref_type=heads))
+  - [Identity Ops Issue Tracker](https://gitlab.com/gitlab-com/gl-security/identity/ops/issue-tracker/-/issues) (day-to-day requests)
 - Engineering
-    - [Identity Engineering Epics Roadmap](https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/epics)
-    - [Identity Engineering Epics](https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/epics)
-    - [Identity Engineering Issue Tracker](https://gitlab.com/gitlab-com/gl-security/identity/eng/issue-tracker/-/issues) (leadership sponsored or OKR related)
-    - [Access Control Public Issue Tracker](https://gitlab.com/gitlab-identity/accessctl/-/issues) (features and bugs for our software and tools)
-    - [Access Check Public Issue Tracker](https://gitlab.com/gitlab-identity/accesschk/-/issues) (features and bugs for our software and tools)
+  - [Identity Engineering Epics Roadmap](https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/epics)
+  - [Identity Engineering Epics](https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/epics)
+  - [Identity Engineering Issue Tracker](https://gitlab.com/gitlab-com/gl-security/identity/eng/issue-tracker/-/issues) (leadership sponsored or OKR related)
+  - [Access Control Public Issue Tracker](https://gitlab.com/gitlab-identity/accessctl/-/issues) (features and bugs for our software and tools)
+  - [Access Check Public Issue Tracker](https://gitlab.com/gitlab-identity/accesschk/-/issues) (features and bugs for our software and tools)
 
 ### Data Sources
 

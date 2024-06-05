@@ -97,8 +97,8 @@ Our preference is to work asynchronously, within our project issue tracker as de
 The team does have set of regular synchronous calls:
 
 - A weekly team sync to discuss progress, blockers, and anything related to the InfraSec team.
-    - Everyone in the company is welcome to join.
-    - The [agenda is public within GitLab](https://docs.google.com/document/d/1mvmPrG66JpTkj3dbDpnhNybADrUVQwP96DM1trQT89Y) as well.
+  - Everyone in the company is welcome to join.
+  - The [agenda is public within GitLab](https://docs.google.com/document/d/1mvmPrG66JpTkj3dbDpnhNybADrUVQwP96DM1trQT89Y) as well.
 - A quarterly team retrospective to reflect on what went well in the previous quarter, and discuss what can be improved going forward.
 - 1-1s between Individual Contributors and the Engineering Manager.
 
@@ -132,12 +132,12 @@ work for different services alongside each other.
 #### Team Planning
 
 - For the **long term strategy** of the InfraSec Team, you can refer to:
-    - 📊 [InfraSec Roadmap](https://docs.google.com/spreadsheets/d/1wFdCaQWd6cTrXp_N9cL6UA6XVhURrcVan8TUyBbV50U/edit)
-    - 🎯 [InfraSec OKRs](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/wikis/InfraSec-OKRs)
+  - 📊 [InfraSec Roadmap](https://docs.google.com/spreadsheets/d/1wFdCaQWd6cTrXp_N9cL6UA6XVhURrcVan8TUyBbV50U/edit)
+  - 🎯 [InfraSec OKRs](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/wikis/InfraSec-OKRs)
 - From a **tactical point of view**, you can refer to:
-    - 🎯 [InfraSec Milestones (quarterly)](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/milestones/)
-    - 🗓 [InfraSec Epics for this quarter](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=InfraSec%3A%3Athis-quarter)
-    - 🎛 [InfraSec Initiatives Board](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/boards/?label_name[]=Department%3A%3AInfraSec&label_name[]=%E2%98%81%EF%B8%8F%20InfraSec) (for the tasks we are currently working on)
+  - 🎯 [InfraSec Milestones (quarterly)](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/milestones/)
+  - 🗓 [InfraSec Epics for this quarter](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=InfraSec%3A%3Athis-quarter)
+  - 🎛 [InfraSec Initiatives Board](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/boards/?label_name[]=Department%3A%3AInfraSec&label_name[]=%E2%98%81%EF%B8%8F%20InfraSec) (for the tasks we are currently working on)
 
 #### Project Ownership
 

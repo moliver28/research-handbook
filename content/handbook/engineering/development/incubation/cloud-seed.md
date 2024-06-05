@@ -45,38 +45,38 @@ Thus, Cloud Seed — a collaboration with Google Cloud — makes it trivial to c
 List of [user personas](/handbook/product/personas/) with specific benefits they actualize:
 
 - `Compliance Manager`, `Security Analyst`, `Security Operations Engineer`
-    - Secure, standardized deployment pipelines across the organization
-    - GitLab-Google Cloud driven authorization and permission model
+  - Secure, standardized deployment pipelines across the organization
+  - GitLab-Google Cloud driven authorization and permission model
 - `Product Manager`, `Product Designer`
-    - Preview environments to validate feature branches
+  - Preview environments to validate feature branches
 - `Development Team Lead`, `Software Developer`, `Platform Engineer`, `Software Engineer in Test`
-    - Continuous deployment for all Git commits, branches and environments
-    - Easy deployment automation and database provisioning
-    - Preview environments to validate feature branches
+  - Continuous deployment for all Git commits, branches and environments
+  - Easy deployment automation and database provisioning
+  - Preview environments to validate feature branches
 - `Systems Administrator`, `Infrastructure Operator`
-    - Secure, standardized deployment pipelines across the organization
-    - Principled GitOps with application source and infrastructure state
+  - Secure, standardized deployment pipelines across the organization
+  - Principled GitOps with application source and infrastructure state
 - `Application Ops`, `Release Manager`
-    - Standardized pipelines for release automation
-    - Support for feature, test and production release environments
+  - Standardized pipelines for release automation
+  - Support for feature, test and production release environments
 - `Application Development Director`
-    - Increase Operational Efficiencies
-    - Deliver Better Products Faster
-    - Reduce Security and Compliance Risk
+  - Increase Operational Efficiencies
+  - Deliver Better Products Faster
+  - Reduce Security and Compliance Risk
 
 ### Jobs to be Done
 
 - Deploy web applications
-    - ☑️ Authentication and authorization
-    - ☑️ Deployment credential generation
-    - ☑️ Provisioning and enablement of cloud services
-    - ☑️ Deployment pipelines
-    - ☑️ Preview environments
+  - ☑️ Authentication and authorization
+  - ☑️ Deployment credential generation
+  - ☑️ Provisioning and enablement of cloud services
+  - ☑️ Deployment pipelines
+  - ☑️ Preview environments
 - Provision cloud data stores
-    - ☑️ Authentication and authorization
-    - ☑️ Database instance generation
-    - ☑️ Database and user setup
-    - ⏳ Networking configuration
+  - ☑️ Authentication and authorization
+  - ☑️ Database instance generation
+  - ☑️ Database and user setup
+  - ⏳ Networking configuration
 
 ### Open source
 

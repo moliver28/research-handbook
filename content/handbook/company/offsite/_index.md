@@ -72,8 +72,8 @@ The maximum attendees that can fit in the main room is 16, however, if additiona
 AV Equiptment is stored at the house. The following items are on-site:
 
 - [Logitech GROUP Video Conferencing System](https://www.logitech.com/en-us/products/video-conferencing/conference-cameras/group-conferencecam.html)
-   - This is powered by a Mac Mini using Zoom Rooms and an iPad as the controller
-   - [Logitech GROUP Expansion Mics](https://www.logitech.com/en-us/products/video-conferencing/accessories/group-expansion-mics.989-000171.html) are being ordered for future offsites, and will need to be connected at the October, 2022 E-Group Offsite
+  - This is powered by a Mac Mini using Zoom Rooms and an iPad as the controller
+  - [Logitech GROUP Expansion Mics](https://www.logitech.com/en-us/products/video-conferencing/accessories/group-expansion-mics.989-000171.html) are being ordered for future offsites, and will need to be connected at the October, 2022 E-Group Offsite
 - [Anker 655 USB-C Hub](https://www.amazon.com/dp/B09MF6TJLW?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - Additional 20' HDMI Cable
 - Power Strips

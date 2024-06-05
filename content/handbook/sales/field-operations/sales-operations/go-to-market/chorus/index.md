@@ -50,17 +50,17 @@ The data retention policy for recorded calls in Chorus is 365 days as of Septemb
 
 Any action that would result in bypassing the 365 day data retention policy will need to be approved by GitLab's Legal team, including, but not limited to:
 
-  - Preserving snippets of recordings in LevelUp indefinitely
-  - Downloading recordings
-  - Retaining recordings past the 365 day data retention period
+- Preserving snippets of recordings in LevelUp indefinitely
+- Downloading recordings
+- Retaining recordings past the 365 day data retention period
 
 **If you have a unique circumstance that will require you to preserve a recording past 365-days, please submit a [Legal Issue - Chorus_Approval template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new) and follow the instructions.  You will not receive automatic reminders regarding calls that will be purged after 365 days so it would be a best practice to submit a Legal Issue for preservation at your earliest convenience.**
 
 **When requesting approval, please note the following:**
 
-   - A request to retain a recording must be received by Legal *no later than 15-days prior to the end of the 365-day retention window*. For example, the request to retain a recording created on May 1st that will automatically be deleted 365-days later must be received by Legal no later than April 15th. Please note that any request submitted within 14-days of the end of the retention window may not be reviewed in time or approved.
-   - Snippets saved to any playlists will be preserved
-   - Snippets saved on the call itself will be deleted according to the retention policy
+- A request to retain a recording must be received by Legal *no later than 15-days prior to the end of the 365-day retention window*. For example, the request to retain a recording created on May 1st that will automatically be deleted 365-days later must be received by Legal no later than April 15th. Please note that any request submitted within 14-days of the end of the retention window may not be reviewed in time or approved.
+- Snippets saved to any playlists will be preserved
+- Snippets saved on the call itself will be deleted according to the retention policy
 
 Other notable items:
 
@@ -96,8 +96,8 @@ Managers can submit an issue in the [Sales Operations project](https://gitlab.co
 
 The banner "Live on Zoom with Chorus.ai" is controlled and set by Zoom, therefore neither Chorus nor GitLab can make changes to the text.
 
-  - This banner means that your meeting is being actively recorded by Chorus.ai and will be stored within the Chorus.ai platform for a period of 90 days, in accordance with GitLab's data retention policy for Chorus.ai.
-  - To stop recording your meeting at any point, click on the dropdown next to "Live on Zoom with Chorus.ai" and choose "Stop Live Stream". Then click on the square stop symbol to completely stop recording.
+- This banner means that your meeting is being actively recorded by Chorus.ai and will be stored within the Chorus.ai platform for a period of 90 days, in accordance with GitLab's data retention policy for Chorus.ai.
+- To stop recording your meeting at any point, click on the dropdown next to "Live on Zoom with Chorus.ai" and choose "Stop Live Stream". Then click on the square stop symbol to completely stop recording.
 
 ## Recording with Breakout Rooms
 

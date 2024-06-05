@@ -254,24 +254,24 @@ There are a few places to see previous Sales Enablement sessions:
 **2-4 weeks before the start of a new quarter**
 
 - Alignment call to finalize topics & tentative schedule with
-    - Sales Training Facilitator (John Blevins)
-    - Director, Sales & Customer Enablement (David Somers)
+  - Sales Training Facilitator (John Blevins)
+  - Director, Sales & Customer Enablement (David Somers)
 - After alignment call, John Blevins to open issues for each enablement session with
-    - Documentation of preliminary learning objectives, title, expected outcomes, etc.
-    - Tentative dates listed as “TENTATIVE - ZZZ”
-    - Intended SME/speaker(s) assigned to the issue
-    - Ping the SME in the issue to ask if they can commit to it, get their commitment before you schedule.
+  - Documentation of preliminary learning objectives, title, expected outcomes, etc.
+  - Tentative dates listed as “TENTATIVE - ZZZ”
+  - Intended SME/speaker(s) assigned to the issue
+  - Ping the SME in the issue to ask if they can commit to it, get their commitment before you schedule.
 
 **1-2 weeks before the start of a new quarter**
 
 - John Blevins to schedule meeting with all SMEs/speakers
-    - Goal: Ensure SMEs/speakers are aware of the upcoming sessions and can own the sessions
-        - Review schedule, outcomes, objectives
-        - Answer questions
-        - Adjust as needed
-    - Manage ongoing collaboration via issue, Google Docs, and public Slack channels (e.g. #product-marketing or #sales-and-customer-enablement)
+  - Goal: Ensure SMEs/speakers are aware of the upcoming sessions and can own the sessions
+    - Review schedule, outcomes, objectives
+    - Answer questions
+    - Adjust as needed
+  - Manage ongoing collaboration via issue, Google Docs, and public Slack channels (e.g. #product-marketing or #sales-and-customer-enablement)
 
-    - The Sales and Customer Enablement team discusses upcoming trainings in regular meetings with sales leadership and the GitLab Product Marketing Management (PMM) team.
+  - The Sales and Customer Enablement team discusses upcoming trainings in regular meetings with sales leadership and the GitLab Product Marketing Management (PMM) team.
 - Sessions picked to execute on should be chosen from the backlog, or a new issue created, and moved to the `status:plan` column.
 - Assign the issue to the speaker and add `Moderator: <name>` to the issue description.
   - The speaker will then research and generate the conent for the training.

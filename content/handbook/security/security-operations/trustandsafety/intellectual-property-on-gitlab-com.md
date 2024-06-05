@@ -54,13 +54,13 @@ After your submission to dmca@gitlab.com, you should receive an automated confir
 
 #### What happens Next?
 
- - Once your request is received, a member of our Trust and Safety Team will verify and process your notice.
- - Notices with missing or inaccurate information cannot be processed. A member of the Trust and Safety team will reach out to you for more information.
- - Should we verify that you have submitted the required information, you will receive a confirmation email from our team that your request has been processed.
-   - If you have not heard from us, you are welcome to send a follow-up email requesting an update.
- - Valid notices will be forwarded to the reported account owner, allowing them to submit a counter notice or remove the content from gitlab.com
- - GitLab users, implicated by the notice, have the right to submit a counter-notice. If the counter-notice is deemed valid, we will forward it to you for further action.
- - For more information on counter complaints, see the `Responding to a DMCA notice` section on this page.
+- Once your request is received, a member of our Trust and Safety Team will verify and process your notice.
+- Notices with missing or inaccurate information cannot be processed. A member of the Trust and Safety team will reach out to you for more information.
+- Should we verify that you have submitted the required information, you will receive a confirmation email from our team that your request has been processed.
+  - If you have not heard from us, you are welcome to send a follow-up email requesting an update.
+- Valid notices will be forwarded to the reported account owner, allowing them to submit a counter notice or remove the content from gitlab.com
+- GitLab users, implicated by the notice, have the right to submit a counter-notice. If the counter-notice is deemed valid, we will forward it to you for further action.
+- For more information on counter complaints, see the `Responding to a DMCA notice` section on this page.
 {{% /details %}}
 
 #### Responding to a DMCA Notice
@@ -108,7 +108,7 @@ You can send this information to dmca@gitlab.com, you should receive an automate
 
 1. Should you receive a Trademark take down notice;
 
-  - You can respond to the notice by submitting the requested information that proves that you hold Trademark rights to the infringing content.
+- You can respond to the notice by submitting the requested information that proves that you hold Trademark rights to the infringing content.
 {{% /details %}}
 
 {{% details summary="Mitigating Trademark Infringement" %}}

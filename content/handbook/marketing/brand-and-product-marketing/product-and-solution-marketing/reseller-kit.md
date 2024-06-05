@@ -11,7 +11,7 @@ The information contained in this section will provide you with solid understand
 - [GitLab elevator pitch](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/)
 - [GitLab solutions](https://about.gitlab.com/solutions/)
 - [GitLab pricing](https://about.gitlab.com/pricing/)
-    - [Value of selling GitLab Ultimate](https://about.gitlab.com/pricing/ultimate/)
+  - [Value of selling GitLab Ultimate](https://about.gitlab.com/pricing/ultimate/)
 - [GitLab product vision/roadmap](https://about.gitlab.com/direction/)
 - [GitLab personas](/handbook/product/personas/)
 - [GitLab competitive analysis](https://about.gitlab.com/why-gitlab/)

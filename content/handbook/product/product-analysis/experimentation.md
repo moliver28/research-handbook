@@ -144,8 +144,8 @@ There are three different kinds of metrics that can be defined for an experiment
 
   Examples:
 
-  - If launching an experiment that affects trials, a primary metric you could use is the count of trials that are being created from this experiment
-  - If launching an experiment that affects conversions, a primary metric you could use is the count of conversions generated from this experiment
+- If launching an experiment that affects trials, a primary metric you could use is the count of trials that are being created from this experiment
+- If launching an experiment that affects conversions, a primary metric you could use is the count of conversions generated from this experiment
 
 **2. Secondary Metrics**
 
@@ -153,8 +153,8 @@ There are three different kinds of metrics that can be defined for an experiment
 
   Examples:
 
-  - If your experiment specifically is looking at the number of trials, you could also place conversions as a secondary metric as the increase in trials would theoretically impact the number of conversions.
-  - If your experiment is targeting adoption of a specific stage, you could place Stages per Organization as a secondary metric as the increase in adoption of a stage could lead to additional stages being adopted.
+- If your experiment specifically is looking at the number of trials, you could also place conversions as a secondary metric as the increase in trials would theoretically impact the number of conversions.
+- If your experiment is targeting adoption of a specific stage, you could place Stages per Organization as a secondary metric as the increase in adoption of a stage could lead to additional stages being adopted.
 
 **3. Leading Indicators**
 
@@ -162,8 +162,8 @@ There are three different kinds of metrics that can be defined for an experiment
 
   Examples:
 
-  - If your experiment is looking at visits to a new landing page, you could place pageviews as a leading indicator
-  - If your experiment is looking at new CTAs being added to the product, you could place button clicks as a leading indicator
+- If your experiment is looking at visits to a new landing page, you could place pageviews as a leading indicator
+- If your experiment is looking at new CTAs being added to the product, you could place button clicks as a leading indicator
 
 #### Experiment types
 

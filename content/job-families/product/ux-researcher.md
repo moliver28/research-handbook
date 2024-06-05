@@ -252,8 +252,8 @@ Once again, thank you for showing your interest, and all the best with your job 
 - We will schedule the next stages if the recording indicates your past experiences will lead to your success in a role at GitLab.
 
 - Candidates will be invited to 2 seperate 50-minute interviews:
-    - One with a UX Researcher. Overall, this interview aims to understand how you choose your research methods, how you present results, how you work with a wider team of counterparts, and how you determine whether your research resulted in a meaningful business impact. This interview will also look to understand the softer skills you have as a researcher and how you apply those in the real world.
-    - The other with the UX Research Manager where we'll focus on your experience researching Developers and working with global team members in an Agile setting. You will also discuss your career, your experiences as a UX Researcher, and the role of UX Research at GitLab.
+  - One with a UX Researcher. Overall, this interview aims to understand how you choose your research methods, how you present results, how you work with a wider team of counterparts, and how you determine whether your research resulted in a meaningful business impact. This interview will also look to understand the softer skills you have as a researcher and how you apply those in the real world.
+  - The other with the UX Research Manager where we'll focus on your experience researching Developers and working with global team members in an Agile setting. You will also discuss your career, your experiences as a UX Researcher, and the role of UX Research at GitLab.
 
 - Next up are a couple of 50-minute interviews, one with either a Product Design Manager or Product Designer, and the other with a Product Manager. In these interviews, we'll focus on how you collaborate with cross-functional stakeholders and mentor non-researchers in successfully conducting research. These interviews are opportunities for you to understand the the stage you will be a part of in more detail, hear a different perspective on the stable counterpart relationship, and ask any questions you have.
 

@@ -20,13 +20,13 @@ In 2023 we conducted a pilot program to address an imbalance of Black Team Membe
 **A sponsor at GitLab is:**
 
 - A Senior Leader at a minimum [job grade 10+]({{< ref "compensation-calculator#job-grades" >}}) and is not the sponsees direct manager.
-    - The senior leader should be a People Manager or Manager of Managers
+  - The senior leader should be a People Manager or Manager of Managers
 - Must have been at GitLab for 6+ months
 - Be able to commit to a 9 month sponsorship program which will include
-    - Sponsor Training
-    - Kick-off calls
-    - Bi-weekly 1-1 with Sponsee
-    - Be able to fully commit and be held accountable for their role within the Sponsorship Program
+  - Sponsor Training
+  - Kick-off calls
+  - Bi-weekly 1-1 with Sponsee
+  - Be able to fully commit and be held accountable for their role within the Sponsorship Program
 
 **As a Sponsor you should be:**
 
@@ -80,7 +80,7 @@ In 2023 we conducted a pilot program to address an imbalance of Black Team Membe
 ### Role of Sponsees Manager
 
 - The manager will support the team member in ensuring that have a Individual Growth Plan (IGP)
-    - As well reassess the IGP at regular intervals during the sponsorship program
+  - As well reassess the IGP at regular intervals during the sponsorship program
 - The manager will regularly check in on the progress of the Sponsorship Program with their report
 - The manager will regularly report on the success of the program to the leadership advocates of the program
 - Participate in a manager of sponsees session
@@ -93,10 +93,10 @@ The program will last 6 months and the Sponsor & Sponsee will be the same person
 
 - An Individual Growth Plan is created in conjunction with your direct manager. The sponsor will add further suggestions throughout the program
 - 1-1 conversation in a cadence agreed upon by the participants.
-    - We suggest a minimum of bi-weekly.
-    - Special projects & Sponsorship activities may mean cadence changes
+  - We suggest a minimum of bi-weekly.
+  - Special projects & Sponsorship activities may mean cadence changes
 - Quarterly All-Hands
-    - This will reinforce the ideals of the sponsorship program and ensure that the relationship is progressing through the phases.
+  - This will reinforce the ideals of the sponsorship program and ensure that the relationship is progressing through the phases.
 - Individual Quarterly Feedback with DIB Team
 - End of Program session with Sponsor
 - Complete Next Step Documentation with Sponsor & Direct Manager to ensure progression continues

@@ -237,11 +237,11 @@ The Manager Challenge Pilot is set up within the GitLab Tool. We are using Epics
 **Learning & Development Team Tasks**
 
 - A week before the program starts:
-   - Create the Epic: Manager Challenge - [Month] [Year]
-   - Create the Sub Epics for each week: Manager Challenge - Week 1
+  - Create the Epic: Manager Challenge - [Month] [Year]
+  - Create the Sub Epics for each week: Manager Challenge - Week 1
 - Daily
-   - Create the Day's Issue in the [Manager Challenge Project](https://gitlab.com/gitlab-com/people-group/learning-development/manager-challenge) using the [manager-challenge-daily-template](https://gitlab.com/gitlab-com/people-group/learning-development/manager-challenge/-/blob/master/.gitlab/issue_templates/manager-challenge-daily-template.md)
-   - Monitor the issue comments to respond to questions as well as keep track of participation
+  - Create the Day's Issue in the [Manager Challenge Project](https://gitlab.com/gitlab-com/people-group/learning-development/manager-challenge) using the [manager-challenge-daily-template](https://gitlab.com/gitlab-com/people-group/learning-development/manager-challenge/-/blob/master/.gitlab/issue_templates/manager-challenge-daily-template.md)
+  - Monitor the issue comments to respond to questions as well as keep track of participation
 
 ### Communication
 

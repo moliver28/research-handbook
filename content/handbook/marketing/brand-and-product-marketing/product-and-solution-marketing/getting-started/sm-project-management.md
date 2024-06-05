@@ -110,7 +110,7 @@ Quick actions are **very,very** helpful and efficient when you want to make mult
 
  We are actively working to leverage GitLab insights in order to monitor how the process is working, learn, and improve over time.
 
- - SM Request Overall - the whole processes
+- SM Request Overall - the whole processes
 
 ![SM Request Overall](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-req-overall.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
 
@@ -136,9 +136,9 @@ In [Q1-FY21](https://gitlab.com/gitlab-com/marketing/product-marketing/-/milesto
 
 As of 13 April:
 
-  - 332 total issues
-  - 173 open and
-  - 159 closed
+- 332 total issues
+- 173 open and
+- 159 closed
 
 ![SM Q1FY21 Milestone](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/sm-q1fy21-milestone.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct }
 
@@ -158,7 +158,7 @@ For example the UseCase GTM Project to build out the messaging, demos, compariso
   - [SCM UseCase Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/655)
   - [CI UseCase Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/661)
 - And then we broke each epic into Months so we could see the associated
-   - [SCM Month 1 Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/665)
+  - [SCM Month 1 Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/665)
 
 ![epic](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/epic.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width90pct }
 

@@ -67,7 +67,7 @@ We do not use or create tool-specific Slack channels (e.g. `#marketo`).
 
 - [#hbupdate-mktgops](https://gitlab.slack.com/archives/mktgops) - This channel is used to automatically post new [handbook updates](#handbook-updates) that have been merged.
 - [#mktgops](https://gitlab.slack.com/archives/mktgops) - We use this channel for general marketing operations support, weekly marketing operations team standup updates, and key system status updates. We attempt to [avoid direct messages](/handbook/communication/#avoid-direct-messages) where possible as it discourages collaboration.
-   - In order to efficiently triage common requests, we utilize auto-responses in this channel. Anyone can help triage requests in the #mktgops slack channel by using the slack emoji reactions in the table below.
+  - In order to efficiently triage common requests, we utilize auto-responses in this channel. Anyone can help triage requests in the #mktgops slack channel by using the slack emoji reactions in the table below.
 
 | Inquiry | Slack Reaction |
 | ------ | ------ |
@@ -661,7 +661,7 @@ One of the following must occur to have a lead move from `Raw` to `Inquiry`
 On the lead object we have three types of address information, the local/personal address information for that lead, which is stored on the `Person Address` (address type field), the `Ultimate Parent Account Company` information stored on `Company Address: [XXX]` text fields,  and the `Zoominfo enrichment address information` for both the Contact (local information) and the Company level information:
 
 - `Person Address` is partially filled in from Marketo Form Fills and is also completed by ZI enrichment when it is missing;
-     - This is the address that Marketo references for email lists. It contains the local address of the record, if known through form fill, list upload, or ZI enrichment.
+  - This is the address that Marketo references for email lists. It contains the local address of the record, if known through form fill, list upload, or ZI enrichment.
 - `UPA Company Address` - stored on the `Company Adress: Country`, `Company Adress: State`, `Company Adress: City`, `Company Adress: Street`, `Company Adress: Postal Code` text fields. These fields are updated through APEX code through a 3-step waterfall approach.
   1. `Account Demographics Fields` (i.e: `Account Demographics: UPA City`) - If the lead matches to an existing account the address is populated through the Account Demographic fields, taken from the account associated with this lead;
   2. `Admin Override Fields` (i.e: `[Admin] Company Address Country`) - If a lead doesn't match to an account, the Company Address fields are either blank or  are populated through step 3 in the waterfall (see below). If the address is blank or the address information from step 3 is wrong, SDRs/BDRs can update the address information themselves using these Admin Override fields. You can see more information about this process in the [Overriding Incorrect Account Assignments section from Sales Dev Handbook](/handbook/marketing/sales-development/#overriding-incorrect-account-assignments) or in this [video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered).

@@ -162,8 +162,8 @@ If the change is doing one or more of the following:
 1. Introducing new database queries
 1. Using regex to :
 
-  - validate user supplied data
-  - make decisions related to authorisation and authentication
+- validate user supplied data
+- make decisions related to authorisation and authentication
 
 1. A new feature that can manipulate or display sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
 1. Persisting sensitive data such as tokens, crypto keys, credentials, PII in temp storages/files/DB, manipulating or displaying sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details

@@ -41,14 +41,14 @@ Subscriptions should be the SSOT for the committed deal parameters of a Customer
 - subscription name and IDs
 - status
 - products/services
-   - billing cadence
-   - known prices agreed upon
-   - quantities entitled to
-   - charge model
-   - recurring v one-time
-   - mrr (and effective dates)
-   - revenue/tax parameters
-   - renewal price behavior
+  - billing cadence
+  - known prices agreed upon
+  - quantities entitled to
+  - charge model
+  - recurring v one-time
+  - mrr (and effective dates)
+  - revenue/tax parameters
+  - renewal price behavior
 
 ### Account Parameters related to Billing, Collections, and Financial Reporting
 

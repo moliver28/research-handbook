@@ -10,20 +10,20 @@ You are viewing a preview of documentation for the future state of GitLab Identi
 ## Identity Platform Architecture
 
 - CI/CD Pipeline
-    - [Manifests Stage](/handbook/security/identity/platform/manifests)
-    - [Auditlog Stage](/handbook/security/identity/platform/auditlog)
-    - Provisioning Stage
-        - [Okta Provisioning](/handbook/security/identity/platform/provisioning/okta)
-        - [Google Groups Provisioning](/handbook/security/identity/platform/provisioning/google)
-        - [GitLab Groups Provisioning](/handbook/security/identity/platform/provisioning/gitlab)
-        - [GitLab Projects Provisioning](/handbook/security/identity/platform/provisioning/gitlab)
+  - [Manifests Stage](/handbook/security/identity/platform/manifests)
+  - [Auditlog Stage](/handbook/security/identity/platform/auditlog)
+  - Provisioning Stage
+    - [Okta Provisioning](/handbook/security/identity/platform/provisioning/okta)
+    - [Google Groups Provisioning](/handbook/security/identity/platform/provisioning/google)
+    - [GitLab Groups Provisioning](/handbook/security/identity/platform/provisioning/gitlab)
+    - [GitLab Projects Provisioning](/handbook/security/identity/platform/provisioning/gitlab)
 - [Access Requests](/handbook/security/identity/access-requests)
 - [Approvals](/handbook/security/identity/approvals)
 - [Access Check (accesschk) Audit](/handbook/security/identity/platform/accesschk)
 - [Terraform GitOps Configuration-as-Code](/handbook/security/identity/gitops)
-    - [AWS Configuration](/handbook/security/identity/gitops/aws)
-    - [GCP Configuration](/handbook/security/identity/gitops/gcp)
-    - [Okta Configuration](/handbook/security/identity/gitops/okta)
+  - [AWS Configuration](/handbook/security/identity/gitops/aws)
+  - [GCP Configuration](/handbook/security/identity/gitops/gcp)
+  - [Okta Configuration](/handbook/security/identity/gitops/okta)
 
 ## User Guides
 

@@ -77,11 +77,11 @@ Anyone on the Recruitment Team can provide sourcing support for priority REQs.  
 If you are helping a Recruiter source for an open REQ please verify the prospects you find are best qualified *before* reaching out to them. Share added prospects in bulk with the Recruiter vs. sending multiple one-off pings to the Recruiter.  This can be done by  sending the Recruiter a Greenhouse link to the candidate pool using filters (applied on DATE, source NAME, role title).
 
 - The Recruiter has a *7 day SLA* to review the prospects you share
-     - If the prospect is not qualified, the Recruiter will select the option to “stop considering as a prospect”
-     - If the prospect is qualified the Recruiter will ask you to engage the prospect
-          - If the prospect responds and is NOT interested, select the option to “stop considering as a prospect” in Greenhouse
-          - If the prospect does not respond before the REQ is filled, the Recruiter should reject all prospects in bulk and select the option to not send an email.
-          - If the prospect responds with interest, the person who found them will select the option to “convert to candidate” in Greenhouse and will work to schedule a screen between the candidate and the Recruiter.
+  - If the prospect is not qualified, the Recruiter will select the option to “stop considering as a prospect”
+  - If the prospect is qualified the Recruiter will ask you to engage the prospect
+    - If the prospect responds and is NOT interested, select the option to “stop considering as a prospect” in Greenhouse
+    - If the prospect does not respond before the REQ is filled, the Recruiter should reject all prospects in bulk and select the option to not send an email.
+    - If the prospect responds with interest, the person who found them will select the option to “convert to candidate” in Greenhouse and will work to schedule a screen between the candidate and the Recruiter.
 
 #### **Use Greenhouse to track prospects**
 

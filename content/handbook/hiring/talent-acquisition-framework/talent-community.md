@@ -72,7 +72,7 @@ It is **required** we capture the following information in Greenhouse for all pr
 - [ ] Email Address
 - [ ] Current Resume or PDF of LinkedIn Profile
 - [ ] Locality
-     - Instructions: When making an assumption, default to a higher location factor. **Reminder:** this needs to be updated during the screening call if our assumption was incorrect.
+  - Instructions: When making an assumption, default to a higher location factor. **Reminder:** this needs to be updated during the screening call if our assumption was incorrect.
 
 Keep in mind, Tags can take care of other key pieces of information we may want to include on a prospect's profile.
 

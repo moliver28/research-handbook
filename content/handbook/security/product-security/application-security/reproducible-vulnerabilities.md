@@ -7,8 +7,8 @@ description: "Learn about GitLab, its security processes, and its historical sec
 
 GitLab is [transparent about the security bugs it has fixed](https://about.gitlab.com/blog/2022/02/17/how-gitlab-handles-security-bugs/). This transparency creates opportunities for learning, upskilling, and breaking into the InfoSec industry.
 
-  - Anyone can learn how to identify and/or fix security issues in a real product.
-  - AppSec job candidates and new team members get insight into the bugs we face, and our processes.
+- Anyone can learn how to identify and/or fix security issues in a real product.
+- AppSec job candidates and new team members get insight into the bugs we face, and our processes.
 
 The reproducible vulnerabilities are structured with expandable hint sections so that you can adapt the content to your desired challenge level. We want it to be approachable to anyone.
 

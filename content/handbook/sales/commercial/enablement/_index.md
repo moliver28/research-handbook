@@ -221,7 +221,7 @@ Understand the importance of customer health checks to create lasting relationsh
 **Renewal (Day 270-365)**:  At this stage in the customer journey, there is full application of GitLab products and development is underway.  The objective in this stage is to enable the customer to get additional value from the platform and stay current on project timelines.
 
 - Day 270 call - conduct initial renewal meeting. Review key stats - GL license utilization, company sentiment, product utilization, additional areas would like to evaluate (ultimate or services) and proposed user count/tier for upcoming renewal
-     - Use the renewal call checklist/deck provided to conduct initial renewal call: [EBR Template](/handbook/customer-success/csm/ebr/#impact-questions)
+  - Use the renewal call checklist/deck provided to conduct initial renewal call: [EBR Template](/handbook/customer-success/csm/ebr/#impact-questions)
 - Schedule follow up calls accordingly based on initial renewal call to allow customer time to eval additional features, get user count, procurement or legal processes worked out
 - Day 365 successful renewal
 

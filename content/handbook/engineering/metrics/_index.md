@@ -17,36 +17,36 @@ You can find published dashboards in [Ad-hoc/Development/General](https://10az.o
 ### Dashboarding Guidelines
 
 * Each KPI chart is a timeseries chart.
-    * The `URL` property is only used to link to a chart until it is an embedded Sisense chart.
-    * Use HTML hyperlinks `<a>` in description text if we need to link out to a supporting artifact e.g. Epics or Issues.
-    * Use Purple bars to denote values.
-    * Use a Red stepped-line for timeseries target.
-    * Directional targets will be used:
-      * `Above ...`
-      * `Below ...`
-      * `At ...`
-      * `At or above ...`
-      * `At or below ...`
-    * Optional: Use a Black line for rolling average.
-    * Optional: Use a Gray line for supporting indicator in the background.
+  * The `URL` property is only used to link to a chart until it is an embedded Sisense chart.
+  * Use HTML hyperlinks `<a>` in description text if we need to link out to a supporting artifact e.g. Epics or Issues.
+  * Use Purple bars to denote values.
+  * Use a Red stepped-line for timeseries target.
+  * Directional targets will be used:
+    * `Above ...`
+    * `Below ...`
+    * `At ...`
+    * `At or above ...`
+    * `At or below ...`
+  * Optional: Use a Black line for rolling average.
+  * Optional: Use a Gray line for supporting indicator in the background.
 * For bar charts, the current month should be Green and subsequent months Purple. Highlighting the current month in a different color helps to indicate that data for the current month is not complete.
-    * This can be quickly implemented via a `case` `when` clause in Sisense. Example below:
-    * `CASE WHEN date_month < date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Historical Median Open Days",`
-    * `CASE WHEN date_month = date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Current Median Open Days",`
+  * This can be quickly implemented via a `case` `when` clause in Sisense. Example below:
+  * `CASE WHEN date_month < date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Historical Median Open Days",`
+  * `CASE WHEN date_month = date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Current Median Open Days",`
 * List a DRI for the KPI/PI if the metric is being delegated by the VP of that Engineering department.
 * Each dashboard for KPIs should consider the following settings to ensure timely updates:
-    * [Setting up auto-refresh](/handbook/business-technology/data-team/platform/periscope/#sts=Requesting%20Automatic%20Dashboard%20Refresh) for a frequency that fits the KPI
-    * [Excluding Dashboards from Auto Archive](https://dtdocs.sisense.com/article/auto-archive)
+  * [Setting up auto-refresh](/handbook/business-technology/data-team/platform/periscope/#sts=Requesting%20Automatic%20Dashboard%20Refresh) for a frequency that fits the KPI
+  * [Excluding Dashboards from Auto Archive](https://dtdocs.sisense.com/article/auto-archive)
 * Each KPI should have a standalone dashboard with a single chart representing the KPI and a text box with a link back to the handbook definition.
-    * In Sisense, [create a shared dashboard link](https://dtdocs.sisense.com/article/share-dashboards) to get the shared dashboard ID.
-    * In Sisense, [use the Share Link action of the chart](https://dtdocs.sisense.com/article/chart-options#ShareLink) to get the chart (widget_id) and the dashboard ID.
-    * Add the `shared_dashboard`, `chart` , and the `dashboard` key-value pairs to the [corresponding Performance Indicators data file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/performance_indicators/) under the `sisense_data` property
-    * Note: When we move to Tableau, we will have updated guidelines on where to create new charts
+  * In Sisense, [create a shared dashboard link](https://dtdocs.sisense.com/article/share-dashboards) to get the shared dashboard ID.
+  * In Sisense, [use the Share Link action of the chart](https://dtdocs.sisense.com/article/chart-options#ShareLink) to get the chart (widget_id) and the dashboard ID.
+  * Add the `shared_dashboard`, `chart` , and the `dashboard` key-value pairs to the [corresponding Performance Indicators data file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/performance_indicators/) under the `sisense_data` property
+  * Note: When we move to Tableau, we will have updated guidelines on where to create new charts
 * Multi-series performance indicators should consider the following guidelines:
-    * If series are mutually exclusive, use stacked bars for each series with a monthly time series
-    * If series are not mutually exclusive, use grouped bars for each series with a monthly time series
-    * Do not graph any targets in the chart.
-    * Current month styling guidelines will not apply
+  * If series are mutually exclusive, use stacked bars for each series with a monthly time series
+  * If series are not mutually exclusive, use grouped bars for each series with a monthly time series
+  * Do not graph any targets in the chart.
+  * Current month styling guidelines will not apply
 * Tableau has the functionability to create target lines with shaded areas above or below the target line. For charts with a designated target, please create a reference line.
 * Avoid `:` in strings as it's an important character in YAML and will confuse the data parsing process. Put the string in "quotes" if you really need to use a `:`
 

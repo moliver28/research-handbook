@@ -119,8 +119,8 @@ Once the Common Screener is set up, there are a few more steps to follow.
 
 1. Tag the owner of the Common Screener Coordination issue (linked above) and let them know:
 
-  - what study you’d like to recruit for
-  - the Personas you are looking for
-  - when you’d like to start recruiting participants and the number of participant you are looking for
+- what study you’d like to recruit for
+- the Personas you are looking for
+- when you’d like to start recruiting participants and the number of participant you are looking for
 
 1. The owner of the coordination issue will ask you to fill out the Common Screener as if you were your ideal participant and will create a filter that the ReOps team can use to help you shortlist participants.

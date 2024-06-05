@@ -30,12 +30,12 @@ if an item will ship in the current or a future iteration.
 
 1. Milestone
 
-  - If an issue is tagged against a milestone, that is the GitLab release it is
+- If an issue is tagged against a milestone, that is the GitLab release it is
   targeted to be shipped in. These aren't promises; milestones are subject to change, and we [plan ambitiously](/handbook/product/product-principles/#how-this-impacts-planning). This is not a commitment to a customer to deliver a certain scope or at a certain time, nor should it be treated as such.
 
 1. `workflow::<current state>` labels
 
-  - The `workflow::<current state>` label shows what state the Issue is currently
+- The `workflow::<current state>` label shows what state the Issue is currently
   at in the Product Development Workflow. The [various states](/handbook/product-development-flow/#workflow-summary)
   of the label mean different things.
 
@@ -46,7 +46,7 @@ if an item will ship in the current or a future iteration.
 
 1. `Deliverable`/`Stretch` labels
 
-  - The `Deliverable`/`Stretch` labels give an indiciation of engineering's
+- The `Deliverable`/`Stretch` labels give an indiciation of engineering's
   confidence that an issue will complete in the assigned milestone or not, with
   the former being a high-level of confidence and the latter being a lower
   possibility. If the issue has neither of these labels and is assigned to the
@@ -54,7 +54,7 @@ if an item will ship in the current or a future iteration.
 
 1. Issue title and description
 
-  - The Issue's title and description may indicate that an issue is intended
+- The Issue's title and description may indicate that an issue is intended
   to only cover a portion of a feature, such as UX, front-end, or back-end work.
   This means that when the issue is completed, that portion of the feature will
   be done but the whole feature may not necessarily be completed. Check the

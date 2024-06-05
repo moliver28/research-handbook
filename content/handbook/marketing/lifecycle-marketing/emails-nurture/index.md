@@ -26,16 +26,16 @@ Please visit our other pages for more information on [email best practices](/han
 **Key foundational elements to achieve this:**
 
 * A strategically segmented Marketo database
-    * this is an ongoing effort led by MOps in collaboration with Campaigns
-    * *please see [note below regarding segmentation and email requests](/handbook/marketing/lifecycle-marketing/emails-nurture/#one-time-emails)*
-    * [see the overall database segmentation epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1331)
-    * [see this epic for more campaign-based tactical segmentations](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1467)
+  * this is an ongoing effort led by MOps in collaboration with Campaigns
+  * *please see [note below regarding segmentation and email requests](/handbook/marketing/lifecycle-marketing/emails-nurture/#one-time-emails)*
+  * [see the overall database segmentation epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1331)
+  * [see this epic for more campaign-based tactical segmentations](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1467)
 * A persona-based prescriptive buyer journey
-    * this is an ongoing effort led by Campaigns in collaboration with Content Mktg, Product Mktg, Technical Mktg
-    * [see the epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
+  * this is an ongoing effort led by Campaigns in collaboration with Content Mktg, Product Mktg, Technical Mktg
+  * [see the epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
 * Logic-based Marketo nurture programs by segment
-    * this is an ongoing effort led by Campaigns, and specifically spearheaded by our Email Marketing Campaign Manager [@Aklatzkin](https://gitlab.com/Aklatzkin).
-    * [see this epic for holding location of projects to be prioritized](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1040)
+  * this is an ongoing effort led by Campaigns, and specifically spearheaded by our Email Marketing Campaign Manager [@Aklatzkin](https://gitlab.com/Aklatzkin).
+  * [see this epic for holding location of projects to be prioritized](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1040)
 
 ### Quick Links
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -74,7 +74,7 @@ Below we explain the labels created and what each one is for:
 * [intel-nurture::email-build](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aemail-build&first_page_size=20): This label helps us to know that the email is in production. Verticurl is responsible for building the emails.
 * [intel-nurture::email-test](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aemail-test&first_page_size=20): This label tells us that the email has already been built and that the Verticurl team has sent tests to both the requesters AND the lifecycle marketing team for review. In this step we check that the links work correctly, that the content of the email is correct and that the correct utm values are used for appropriate tracking of the links. Once the email is approved, we proceed to the last step.
 * [intel-nurture::add-to-streams](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aadd-to-streams&first_page_size=20): This label helps us to identify that the issue is in its final stage where we proceed to add the email to the relevant nurture streams.
-   * **PLEASE NOTE: the requester indicates the desired streams in the description of the issue, but the Lifecycle Marketing team makes the final decision on which streams are relevant. Please reference [the stream alignment rules](/handbook/marketing/lifecycle-marketing/email-processes-requests/#nurture-stream-offer-alignment) for what content type is relevant for each stream.**
+  * **PLEASE NOTE: the requester indicates the desired streams in the description of the issue, but the Lifecycle Marketing team makes the final decision on which streams are relevant. Please reference [the stream alignment rules](/handbook/marketing/lifecycle-marketing/email-processes-requests/#nurture-stream-offer-alignment) for what content type is relevant for each stream.**
 
 ### Intelligent Email Nurture Stream Schedule
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -85,21 +85,21 @@ The following shows the day of the week and cadence of the different streams in 
 * APAC: Wednesday (Thursday APAC time), 6:30 PM PT
 * LATAM: Thursday, 8:30 AM PT.
 * Localized
-   * Spanish: Inactive - leads rerouted to English nurtures
-   * French: Thursday, 1:00AM PT
-   * German: Inactive - relaunching end of Jan 2024
-   * Japanese: Wednesday (Thursday JP time), 5:00PM PT
-   * Korean: Wednesday (Thursday JP time), 5:00PM PT
-   * Portuguese: Inactive - leads rerouted to English nurtures
+  * Spanish: Inactive - leads rerouted to English nurtures
+  * French: Thursday, 1:00AM PT
+  * German: Inactive - relaunching end of Jan 2024
+  * Japanese: Wednesday (Thursday JP time), 5:00PM PT
+  * Korean: Wednesday (Thursday JP time), 5:00PM PT
+  * Portuguese: Inactive - leads rerouted to English nurtures
 * PubSec
-   * PubSec Default: Thursday, 7:00AM PT
-   * Civilian (CIV): Thursday, 7:00AM PT
-   * Department of Defense (DoD): Thursday, 7:00 AM PT
-   * Federal Systems Integrators (FSI): Thursday, 7:00AM PT
-   * National Security Group (NSG): Thursday, 7:00AM PT
-   * SLED: Thursday, 7:00AM PT
+  * PubSec Default: Thursday, 7:00AM PT
+  * Civilian (CIV): Thursday, 7:00AM PT
+  * Department of Defense (DoD): Thursday, 7:00 AM PT
+  * Federal Systems Integrators (FSI): Thursday, 7:00AM PT
+  * National Security Group (NSG): Thursday, 7:00AM PT
+  * SLED: Thursday, 7:00AM PT
 * Non-Demand Generation Nurture
-   * All Remote: Thursday, 6:00AM PDT (not actively being maintained)
+  * All Remote: Thursday, 6:00AM PDT (not actively being maintained)
 
 ### Intelligent Nurture Processes
 <!-- DO NOT CHANGE THIS ANCHOR -->

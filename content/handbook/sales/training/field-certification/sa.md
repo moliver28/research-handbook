@@ -21,12 +21,12 @@ The below slide shows the holistic learner journey for SAs and provides context 
 - Demo2Win
 - Positioning Professional Services
 - Value Stream Assessments
-    - VSA Overview
-    - VSA Pitch
-    - Delivering a VSA Workshop
+  - VSA Overview
+  - VSA Pitch
+  - Delivering a VSA Workshop
 - Proof of Value
-    - Proof of Value Overview
-    - Executing an Excellent POV
+  - Proof of Value Overview
+  - Executing an Excellent POV
 - Introducing the CSM
 
 ## Recognition

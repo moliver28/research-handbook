@@ -50,8 +50,8 @@ The template below is used for every 1-1 the Senior Manager hosts.  This templat
 - Any interactions you’d like to discuss?
 - Any CREDIT Values you would care to highlight?
 - Do you have any questions about any recent GitLab changes?
-    - Is there anything can I help you with between now and the next time we meet?
-    - Is there anything we didn’t cover that you’d like to discuss next time?
+  - Is there anything can I help you with between now and the next time we meet?
+  - Is there anything we didn’t cover that you’d like to discuss next time?
 - Do you have any feedback for me?
 
 ## Frequency
@@ -72,16 +72,16 @@ Using the default template above, any of those bullet points, can be sorted unde
 Another iteration of the 1-1 meeting was recommended collectively by the Create Engineering Managers.  They recommended instead of tracking action items in the 1-1 document that they be tracked in issues and reviewed weekly during the 1-1 document.  This was a huge improvement in:
 
 - Collaboration:
-    - Async discussions occur about a specific action item in the issue
-    - We are dogfooding GitLab Issues
+  - Async discussions occur about a specific action item in the issue
+  - We are dogfooding GitLab Issues
 - Results
-    - Due to the transparency of this process and the ability of the Engineering Managers to set their due dates leads to better results.
-    - Engineers have a clear understanding of the priorities as the Senior Manager uses priority labels resulting in the most important action items being completed first
+  - Due to the transparency of this process and the ability of the Engineering Managers to set their due dates leads to better results.
+  - Engineers have a clear understanding of the priorities as the Senior Manager uses priority labels resulting in the most important action items being completed first
 - Efficiency
-    - Tracking these action items using Issue Boards gives a visual representation of the current activities for each Engineering   Manager which is much more efficient than scanning through a document for both the Engineering Manager and the Senior Manager
+  - Tracking these action items using Issue Boards gives a visual representation of the current activities for each Engineering   Manager which is much more efficient than scanning through a document for both the Engineering Manager and the Senior Manager
 - Transparency
-    - Due Dates are set by the Engineering Manager and communicated in the issue so that the estimated due date is transparent
-    - Level of Effort Labels are used so that the Engineering Manager’s workload is transparent to the Senior Manager which allows the Senior Manager to calibrate the priority and action items assigned to each Engineering Manager based on their Issue Boards and existing issues (action items)
+  - Due Dates are set by the Engineering Manager and communicated in the issue so that the estimated due date is transparent
+  - Level of Effort Labels are used so that the Engineering Manager’s workload is transparent to the Senior Manager which allows the Senior Manager to calibrate the priority and action items assigned to each Engineering Manager based on their Issue Boards and existing issues (action items)
 
 ## Removing Distractions
 

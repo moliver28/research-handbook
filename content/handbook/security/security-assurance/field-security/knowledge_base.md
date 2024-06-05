@@ -41,10 +41,10 @@ If you have suggestions for improvements, please reach out to Field Security via
 ## Contact the Field Security Team
 
 - Email
-   - `fieldsecurity@gitlab.com`
+  - `fieldsecurity@gitlab.com`
 - Slack
-   - Feel free to tag us with `@field-security`
-   - The `#sec-fieldsecurity`, `#sec-assurance`, `#security-department` slack channels are the best place for questions relating to Field Security (please add the above tag).
+  - Feel free to tag us with `@field-security`
+  - The `#sec-fieldsecurity`, `#sec-assurance`, `#security-department` slack channels are the best place for questions relating to Field Security (please add the above tag).
 
 <div class="d-grid gap-2 my-4">
    <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

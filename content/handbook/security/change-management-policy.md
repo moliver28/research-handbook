@@ -53,10 +53,10 @@ The minimum change management requirements described below have been identified 
 
 Supplemental change management procedures must incorporate the requirements called out in the sections below:
 
-   - [Change Request Documentation Requirements](#change-request-documentation-requirements)
-   - [Change Testing Requirements](#change-testing-requirements)
-   - [Change Review and Approval Requirements](#change-review-and-approval-requirements)
-   - [Change Deployment Requirements](#change-deployment-requirements)
+- [Change Request Documentation Requirements](#change-request-documentation-requirements)
+- [Change Testing Requirements](#change-testing-requirements)
+- [Change Review and Approval Requirements](#change-review-and-approval-requirements)
+- [Change Deployment Requirements](#change-deployment-requirements)
 
 #### Change Request Documentation Requirements
 
@@ -72,18 +72,18 @@ Supplemental change management procedures must incorporate the requirements call
 
 - Where possible, changes are tested in a non-production environment. The exception to this requirement would be changes to systems in which GitLab does not have a environment separate from production. Team members are required to leverage test accounts/test data where feasible if testing must be conducted in a production system due to lack of availability of a non-production environment.
 - Documented testing requirements / test plans, which consider the following, as applicable:
-   - security testing (e.g. if there is sensitive data involved)
-   - manual testing / reconciliations (e.g. new finance report created to support month end activities - testing should include verifying calculated totals are complete and accurate and intended account data is included)
-   - configurations changes are tested to confirm they function as intended
-   - any additional testing procedures applicable based on the nature of the change
+  - security testing (e.g. if there is sensitive data involved)
+  - manual testing / reconciliations (e.g. new finance report created to support month end activities - testing should include verifying calculated totals are complete and accurate and intended account data is included)
+  - configurations changes are tested to confirm they function as intended
+  - any additional testing procedures applicable based on the nature of the change
 - Testing is documented and includes the team members who performed the testing. The results and evidence of testing is attached/linked back to the change request
 
 #### Change Review and Approval Requirements
 
 - Once developed and tested, a change is formally reviewed and approved. Review(s) and approval(s) meet the following requirements:
-   - Reviewer(s) and approver(s) must be different than the team members who worked on/developed the change
-   - Reviewer(s) and approver(s) must not make changes to the change that do not go through additional approval/review by another individual
-   - Where technically feasible, tools or systems utilized to develop, test, and approve changes should be configured in a way that prohibits unauthorized changes to be made without the appropriate approval(s). Subsequently, configurations should also restrict the ability for team members who developed and/or tested a change from being able to approve their change.
+  - Reviewer(s) and approver(s) must be different than the team members who worked on/developed the change
+  - Reviewer(s) and approver(s) must not make changes to the change that do not go through additional approval/review by another individual
+  - Where technically feasible, tools or systems utilized to develop, test, and approve changes should be configured in a way that prohibits unauthorized changes to be made without the appropriate approval(s). Subsequently, configurations should also restrict the ability for team members who developed and/or tested a change from being able to approve their change.
 - Reviewer(s) and Approver(s), alongside dates of review and approval, are documented on the change request to ensure auditability
 
 #### Change Deployment Requirements

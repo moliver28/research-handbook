@@ -57,9 +57,9 @@ To engage with the GitLab Dedicated teams:
   - For GitLab Dedicated specific questions, you can find us in [#f_gitlab_dedicated](https://gitlab.slack.com/archives/C01S0QNSYJ2)
   - The `@dedicated-envauto-team` Slack group can be used in any internal channel to tag the Environment Automation team.
   - Engineering teams have their own work channels for team work discussions:
-      - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
-      - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
-      - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
+    - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
+    - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
+    - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
   - Our [social channel](https://gitlab.slack.com/archives/C03QBGQ3K5W) is accessible to everyone who wants to casually interact with the team
 
 ### Handling Configuration Changes for Tenant Environments

@@ -181,8 +181,8 @@ All issues should get the following classes of labels assigned to them:
 Optional labels that are useful to communicate state or other priority:
 
 - **What:**
-    - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
-    - Tool: (Sisense, dbt, Stitch, Airflow, etc.)
+  - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
+  - Tool: (Sisense, dbt, Stitch, Airflow, etc.)
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
 - **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/business-technology/data-team/how-we-work/#prioritization).
 
@@ -241,10 +241,10 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 
 - First-Response SLO for a new Issue or MR: 36 hours from the time of creation
 - Issue Close SLO for a new Issue or MR is based on the [Issue Weight](/handbook/business-technology/data-team/how-we-work/#issue-pointing) assigned by the Data Team.
-    - Issue weight of 1-5 points: 4 weeks (2 iterations)
-    - Issue weight > 5 points: No SLO
+  - Issue weight of 1-5 points: 4 weeks (2 iterations)
+  - Issue weight > 5 points: No SLO
 - MR Review SLO
-    - 4 weeks (2 iterations)
+  - 4 weeks (2 iterations)
 
 ### Removal and deletion process <!-- @dennis is there an iteration on this one, get @chris and @peter to contribute here -->
 

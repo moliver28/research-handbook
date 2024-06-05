@@ -51,9 +51,9 @@ The Holiday Bonus is taxable, and subject to social charges and income tax. Team
 **Paternity Leave:** Team members are entitled to 28 days of paternity leave and 35 days in case of multiple births (twins, triplets, etc.). Team members are eligible for paternity and childcare leave after the birth of your child or that of your spouse, common-law partner or PACS partner.
 
 - This consists of the following:
-    - Three days of mandatory leave to begin, at the team member's choice, on the date of birth or the first working day following the date of birth.
-    - Four days mandatory leave immediately following the initial 3-day birth leave.
-    - A final period of 21 days. The team member may choose to split this period into two parts of at least five days.
+  - Three days of mandatory leave to begin, at the team member's choice, on the date of birth or the first working day following the date of birth.
+  - Four days mandatory leave immediately following the initial 3-day birth leave.
+  - A final period of 21 days. The team member may choose to split this period into two parts of at least five days.
 
 #### Maternity Leave Payment
 

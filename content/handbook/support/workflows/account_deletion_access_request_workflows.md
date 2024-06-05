@@ -379,12 +379,13 @@ Use the following workflows based on the type of request submitted.
 
   Regarding this request, we can:
 
-  - continue the process and provide a report of all in-scope personal data.
-  - close this request with no further action
+- continue the process and provide a report of all in-scope personal data.
+- close this request with no further action
 
   Please let us know how you would like to proceed. </p>
 
   <p>Regards,</p>
+
 </details>
 
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [personal_data_access_request](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=personal_data_access_request) template, populating the title with the email address of the original request.

@@ -118,9 +118,9 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 
 - Treat the wider community as the primary audience ([see relevant summary for rationale][community-contributions-wider-community]).
 - Provide a meaningful **title** that describes a deliverable result.
-    - ✅ `Add a cancel button to the edit workspace form page`
-    - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
-    - ❌ `Make WebIDE better`
+  - ✅ `Add a cancel button to the edit workspace form page`
+  - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
+  - ❌ `Make WebIDE better`
 - Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
 - Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 - The issue should have a weight assigned.
@@ -402,9 +402,9 @@ To assign weights to issues effectively, it's important to remember that issue w
 
 - **Weight 0:** Reserved for the smallest and easiest issues, such as typos or minor formatting changes, or very minor code changes with no tests required.
 - **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like "good for new contributors" or "Hackathon - Candidate". For example:
-    - Changing copy text which may be simple but take some time.
-    - Making CSS or UI adjustments.
-    - Minor code changes to one or two files, which require tests to be written or updated.
+  - Changing copy text which may be simple but take some time.
+  - Making CSS or UI adjustments.
+  - Minor code changes to one or two files, which require tests to be written or updated.
 - **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
 - **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant [breaking down into smaller separate issues](#-breaking-down-large-issues).
 - **Weight 5:** Normally, this weight should be avoided, and indicate that the issue ideally [should be broken down into smaller separate issues](#-breaking-down-large-issues). However, in some cases a issue with a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.

@@ -34,25 +34,25 @@ In order for GitLab to help justify investments related to event and program par
 
 ### In-Person Events and Programs
 
- * What is the expected timeline to distribute lead data to partners?
- * What is the guaranteed number of registrants being pursued?
- * What are the targeted business personas/roles being pursued for registrants?
- * Is there a guaranteed compliance with specific and or global privacy laws, e.g. GDPR?
+* What is the expected timeline to distribute lead data to partners?
+* What is the guaranteed number of registrants being pursued?
+* What are the targeted business personas/roles being pursued for registrants?
+* Is there a guaranteed compliance with specific and or global privacy laws, e.g. GDPR?
 
 ### Virtual Events and Programs
 
- * What is the expected timeline to distribute lead data to partners?
- * If not a one-time data delivery, what is the expected cadence of additional data?
- * What is the guaranteed number of registrants being pursued?
- * What are the targeted business personas/roles being pursued for registrants?
- * Is there a guaranteed compliance with specific and or global privacy laws, e.g. GDPR?
- * What are the SEO guidelines being utilized by the team to develop a steady stream of registrant activity?
+* What is the expected timeline to distribute lead data to partners?
+* If not a one-time data delivery, what is the expected cadence of additional data?
+* What is the guaranteed number of registrants being pursued?
+* What are the targeted business personas/roles being pursued for registrants?
+* Is there a guaranteed compliance with specific and or global privacy laws, e.g. GDPR?
+* What are the SEO guidelines being utilized by the team to develop a steady stream of registrant activity?
 
 ### Content Syndication Programs
 
- * What is the expected timeline to distribute lead data to partners?
- * If not a one-time data delivery, what is the expected cadence of additional data?
- * What is the guaranteed number of registrants being pursued?
- * What are the targeted business personas/roles being pursued for registrants?
- * Is there a guaranteed compliance with specific and or global privacy laws, e.g. GDPR?
- * What are the SEO guidelines being utilized by the team to develop a steady stream of registrant activity?
+* What is the expected timeline to distribute lead data to partners?
+* If not a one-time data delivery, what is the expected cadence of additional data?
+* What is the guaranteed number of registrants being pursued?
+* What are the targeted business personas/roles being pursued for registrants?
+* Is there a guaranteed compliance with specific and or global privacy laws, e.g. GDPR?
+* What are the SEO guidelines being utilized by the team to develop a steady stream of registrant activity?

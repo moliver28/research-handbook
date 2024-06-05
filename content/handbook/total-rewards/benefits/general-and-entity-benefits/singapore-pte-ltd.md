@@ -13,7 +13,7 @@ The Medical Plan Coverage includes
 - Major Medical
 - Oupatient GP & SP
 - Dental
-   - **Please note that Dental benefits for this plan are cashless at panel Dental Clinics only. Team Members should show their eCard at the dental clinic to utlize the plan.**
+  - **Please note that Dental benefits for this plan are cashless at panel Dental Clinics only. Team Members should show their eCard at the dental clinic to utlize the plan.**
 
 For a summary of the Medical plan details please refer to slides 8 - 26 of the [Singapore Benefits Deck.](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing)
 

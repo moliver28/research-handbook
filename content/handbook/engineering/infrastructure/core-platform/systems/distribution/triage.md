@@ -44,13 +44,13 @@ During triage additional labels should be added to indicate what part of the pro
 
 Issues for triaging can be identified using the following criteria:
 
-  * They have no milestone
-  * They have no assignee
-  * They do **not** have any of the following labels applied:
-    * `awaiting feedback`
-    * `for scheduling`
-    * `maintainer-discussion`
-    * `needs investigation`
+* They have no milestone
+* They have no assignee
+* They do **not** have any of the following labels applied:
+  * `awaiting feedback`
+  * `for scheduling`
+  * `maintainer-discussion`
+  * `needs investigation`
 
 Such issues can be listed using the [issues filter](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&assignee_id=None&milestone_title=None&not[label_name][]=For%20Scheduling&not[label_name][]=awaiting%20feedback&not[label_name][]=maintainer-discussion)
 

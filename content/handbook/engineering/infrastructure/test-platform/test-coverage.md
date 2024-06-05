@@ -68,8 +68,8 @@ GitLab QA scenario that verifies update from the previous (major or minor) versi
 
 1. `Test::Omnibus::UpdateFromPrevious` scenario is run with:
 
-  - `e2e:package-and-test-ee` / `e2e:package-and-test-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
-  - `e2e:package-and-test-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
+- `e2e:package-and-test-ee` / `e2e:package-and-test-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
+- `e2e:package-and-test-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
   Results of these jobs can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test/master/index.html),
 where test states such as failures can be filtered on.
 The update test job names are `update-major`, `update-minor`, and `update-ee-to-ce`.

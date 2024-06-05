@@ -137,11 +137,11 @@ To request work to be added to the [Enterprise Applications Roadmap](https://git
 Every week, the Enterprise Applications Leadership reviews the [EntApps Intake board](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/boards/2798638?label_name%5B%5D=EntApps%20Intake) and there are only 2 possible outputs for the issues on the *Open* list:
 
 - The issue is ready to be worked on and so it will be added to a milestone.
-   - Enterprise Applications Leadership is responsible for removing the label *EntApps Intake*, adding the correct team label (~"BSA", ~"BT Finance Systems or ~"BT Integrations::Backlog") and appropriated milestone following the Milestone Planning process.
-   - Additional information might be requested in the issue.
-   - Once requirements are defined by the ~"BSA" team, associated system changes will be sent to the ~"BT Finance Systems team in the form of a [Change Management Issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) for configuration.
+  - Enterprise Applications Leadership is responsible for removing the label *EntApps Intake*, adding the correct team label (~"BSA", ~"BT Finance Systems or ~"BT Integrations::Backlog") and appropriated milestone following the Milestone Planning process.
+  - Additional information might be requested in the issue.
+  - Once requirements are defined by the ~"BSA" team, associated system changes will be sent to the ~"BT Finance Systems team in the form of a [Change Management Issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) for configuration.
 - The issue is not ready to be picked up and will be added to the [EntApps Backlog board](https://gitlab.com/groups/gitlab-com/-/boards/4710080?label_name[]=BT%3A%3ABacklog).
-   - Enterprise Applications Leadership is responsible for adding the ~"BT::Backlog" label and removing ~"EntApps Intake" as well as adding a justification in the issue as a comment.
+  - Enterprise Applications Leadership is responsible for adding the ~"BT::Backlog" label and removing ~"EntApps Intake" as well as adding a justification in the issue as a comment.
 
 ## Backlog
 
@@ -150,10 +150,10 @@ The [EntApps Backlog](https://gitlab.com/groups/gitlab-com/-/boards/4710080?labe
 The EntApps Backlog board has 2 lists:
 
 - The `BT Backlog` list is dedicated to issues that are **not yet ready** to start.
-   - When a backlog issue is ready to be worked on, Enterprise Applications Leadership will remove the ~"BT::Backlog" label and add the ~"EntApps Intake" so it will be included in the weekly review of the [EntApps Intake](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/boards/2798638?label_name%5B%5D=EntApps%20Intake) board.
+  - When a backlog issue is ready to be worked on, Enterprise Applications Leadership will remove the ~"BT::Backlog" label and add the ~"EntApps Intake" so it will be included in the weekly review of the [EntApps Intake](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/boards/2798638?label_name%5B%5D=EntApps%20Intake) board.
 - The `Closed` list works as a history of all the issues that did not progress and so were closed.
-   - It is the responsibility of the requestor to be clear on what the scope of their issue is. Issues that are in the backlog for 30 days without engagement from the requestor will be closed. If the issue needs to be picked back up, the requestor must re-open it and manually add the ~"EntApps Intake" label.
-   - If the issue is in the backlog because it is blocked, the ~"BT::Blocked" label must be added to keep the issue open for longer than 30 days.
+  - It is the responsibility of the requestor to be clear on what the scope of their issue is. Issues that are in the backlog for 30 days without engagement from the requestor will be closed. If the issue needs to be picked back up, the requestor must re-open it and manually add the ~"EntApps Intake" label.
+  - If the issue is in the backlog because it is blocked, the ~"BT::Blocked" label must be added to keep the issue open for longer than 30 days.
 
 Both [EntApps Intake](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/boards/2798638?label_name%5B%5D=EntApps%20Intake) and [EntApps Backlog](https://gitlab.com/groups/gitlab-com/-/boards/4710080?label_name[]=BT%3A%3ABacklog) boards are at gitlab.com level so that issues created in other team's projects can appear on the board.
 The *~"EntApps Intake"* label is not limited to the Intake project, it can be used in different issues across all gitlab.com.
@@ -166,8 +166,8 @@ EntApps milestones run for 2 weeks from Wednesday-Tuesday to avoid pushing chang
 Every Tuesday, Enterprise Applications Leadership is responsible for:
 
 - Reviewing the [EntApps Intake board](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/boards/2798638?label_name%5B%5D=EntApps%20Intake) and:
-   - Add a milestone to every intake issue that is ready to be worked on.
-      - The [Enterprise Applications Portfolio Management tracker](https://docs.google.com/spreadsheets/d/1_GLer7B_2egKnJH5tcZ5ZxGQtyPcZeOrLRhk7SvqMrQ/edit#gid=613831191) and the [Project Weights](/handbook/business-technology/enterprise-applications/#project-weights) will be used to help understand the team capacity.
+  - Add a milestone to every intake issue that is ready to be worked on.
+    - The [Enterprise Applications Portfolio Management tracker](https://docs.google.com/spreadsheets/d/1_GLer7B_2egKnJH5tcZ5ZxGQtyPcZeOrLRhk7SvqMrQ/edit#gid=613831191) and the [Project Weights](/handbook/business-technology/enterprise-applications/#project-weights) will be used to help understand the team capacity.
 - Reviewing the current milestone dashboard to monitor issues and re-prioritize / update milestones as needed.
 
 #### Considerations

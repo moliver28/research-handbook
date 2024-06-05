@@ -129,7 +129,7 @@ GitLab division README pages are linked below for context. Reading other READMEs
 - [Engineering READMEs](/handbook/engineering/readmes/)
 - [Marketing Team READMEs](/handbook/marketing/readmes/)
 - [Product READMEs](/handbook/product/readme/)
-    - [UX Department READMEs](/handbook/product/ux/#meet-some-of-our-team-members)
+  - [UX Department READMEs](/handbook/product/ux/#meet-some-of-our-team-members)
 - [Sales Team READMEs](/handbook/sales/readmes/)
 - [People Group READMEs](/handbook/people-group/readmes/)
 - [Finance Team READMEs](/handbook/finance/readmes/)
