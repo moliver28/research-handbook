@@ -43,7 +43,7 @@ For both Self-Managed and GitLab.com, impersonating the customer's account is th
 1. Locate the customer's CustomersDot account by searching using the customer's email domain in https://customers.gitlab.com/admin/customer.
 1. Impersonate the CustomersDot account that has a `Subscription` label and check the details for **Duo Pro seats**
 
-  - NOTE: Always check the **start and end date** of the Duo Pro add-on seats
+- NOTE: Always check the **start and end date** of the Duo Pro add-on seats
 
 Other optional methods are below:
 

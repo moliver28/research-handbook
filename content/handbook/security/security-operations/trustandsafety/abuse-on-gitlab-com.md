@@ -121,7 +121,7 @@ In the interest of fostering an open and welcoming environment, we as contributo
 {{% details summary="Prohibited Content" %}}
 Distributing harmful or offensive content that is defamatory, obscene, abusive, an invasion of privacy (Personally Identifiable Information/PII) or harassing.
 
-  - Reports of Child Sexual Abuse Material (CSAM) please notify [INHOPE](https://www.inhope.org/EN) via the [Report it!](https://www.inhope.org/EN#hotlineReferral) option (follow the steps outlined on the site to submit a report).
+- Reports of Child Sexual Abuse Material (CSAM) please notify [INHOPE](https://www.inhope.org/EN) via the [Report it!](https://www.inhope.org/EN#hotlineReferral) option (follow the steps outlined on the site to submit a report).
 {{% /details %}}
 
 {{% details summary="Comment Spam" %}}

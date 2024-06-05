@@ -446,7 +446,7 @@ If it’s impossible to find a replacement and the team member ends up taking th
 *How to Apply:*
 
 - Team members must contact leaves@gitlab.com when reporting their leave.
-    - In accordance with the Holidays Act, GitLab may require a medical certificate
+  - In accordance with the Holidays Act, GitLab may require a medical certificate
 - Designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that sick leave entitlement is properly tracked.
 - Unused sick leave will not be paid out to the team member upon termination of employment.
 
@@ -482,7 +482,7 @@ Special Leave
 
 - Team members who are pregnant can also take up to 10 days of unpaid special leave for pregnancy-related reasons such as antenatal classes, scans, or midwife appointments. This is in addition to primary carer leave.
 - This leave will run concurrently with GitLab PTO.
-    - If you do not want to select `Out Sick` in Time Off by Deel, you may email `leaves@gitlab.com` with the date(s) that you will be taking special leave.
+  - If you do not want to select `Out Sick` in Time Off by Deel, you may email `leaves@gitlab.com` with the date(s) that you will be taking special leave.
 
 Partner Leave
 
@@ -494,9 +494,9 @@ Partner Leave
 #### Applying for Parental Leave in New Zealand
 
 - To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts.
-    - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+  - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 - To apply for government-funded Parental Leave pay, please submit your application via [IRD](https://www.ird.govt.nz/paid-parental-leave/apply).
-   - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
+  - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
 - If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
 
 #### Other Types of Leave
@@ -511,7 +511,7 @@ Partner Leave
 *How to Apply:*
 
 - Team members must contact `leaves@gitlab.com` to report their leave.
-   - If the team member has been sick for a period of 3 or more consecutive days, the team member may be asked to provide a medical certificate.
+  - If the team member has been sick for a period of 3 or more consecutive days, the team member may be asked to provide a medical certificate.
 - To designate and track Stress Leave properly, select as `Out Sick` in Time Off by Deel.
 
 For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/stress-leave/)

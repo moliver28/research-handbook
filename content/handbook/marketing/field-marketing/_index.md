@@ -15,15 +15,15 @@ We want to be the most innovative and pipeline centric team within the marketing
 ## Field Marketing Goals
 
 - Sales Acceleration
-    - Engaging with existing customers
-    - New growth opportunities
+  - Engaging with existing customers
+  - New growth opportunities
 - Demand
-    - Unique inquiries
-    - Influence of [sales accepted opportunties](/handbook/marketing/sales-development/#common-sales-development-org-terms-and-definitions)
-    - Influence of sales pipeline
-    - Both direct and channel driven
+  - Unique inquiries
+  - Influence of [sales accepted opportunties](/handbook/marketing/sales-development/#common-sales-development-org-terms-and-definitions)
+  - Influence of sales pipeline
+  - Both direct and channel driven
 - Market Intelligence
-    - Test out new messaging or positioning
+  - Test out new messaging or positioning
 
 ## Countries of Focus
 
@@ -363,7 +363,7 @@ after Field Marketing has executed a campaign, the Field Marketing Manager is re
 - SDRs should not be asked to follow up leads before they are added to Salesforce
 - If a follow-up email was to go out to all attendees and no-shows, the FMM is responsible for ensuring that emails were sent.
 - Did the campaign respondents receive the correct amount of MQL points they should have received the activity they participated in?
-    - Person scores are available for viewing in our `Custom Links` section of each SFDC campaign. This allows you to view the MQL score of the campaign members, whether they be a lead or contact, all within one view.
+  - Person scores are available for viewing in our `Custom Links` section of each SFDC campaign. This allows you to view the MQL score of the campaign members, whether they be a lead or contact, all within one view.
 - Did a lead/contact hit our MQL threshold and have the SDRs followed up with this record and moved them beyond the [MQL stage](/handbook/marketing/marketing-operations/)?
 - Update all the relevant tabs in the field marketing campaign event planning sheet.
 
@@ -439,11 +439,11 @@ Once the FMM has submitted the Contract Request to their FMC and the remaining a
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
 - FMC creates the epic and sub-issues utilizing [this list of epics](/handbook/marketing/field-marketing/#field-marketing-campaign-issue-templates-epic-codes-and-progression-status)
 - FMC creates the [Marketo program and SFDC campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) utilizing the [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/program-tracking.md) sub-issue previously created
-   - FMC pings the FMM in the Program Tracking issue that the Marketo program and SFDC campaign have been created and closes issue
+  - FMC pings the FMM in the Program Tracking issue that the Marketo program and SFDC campaign have been created and closes issue
 - FMC adds the event to the appropriate events calendar. All events should be added to the appropriate calendar from the list below.
-   - [In-Person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-   - [External Virtual Events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-   - [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+  - [In-Person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+  - [External Virtual Events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+  - [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 - FMC adds the event to the [GitLab Events Page](https://about.gitlab.com/events/) utilizing [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents), if applicable (specified by the FMM in the FMC Checklist section of the issue)
 - When all the above tasks have been completed, the FMC will ping the FMM in the main issue to confirm completion of the above tasks and will move the issue label `mktg-status::plan` to `mktg-status::wip`.
 - FMC and FMM to follow the [Copy Deadline Process](/handbook/marketing/field-marketing/#field-marketing-event-copy-deadline-process) for any assets the FMM has requested in the main issue's FMC Checklist.
@@ -724,9 +724,9 @@ If you are interested in ordering new swag, please open a [Swag Request Issue](h
 The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://www.tenandone.com) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
 
 - **Budget Allocation:**
-     - If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event.
-     - If swag is required from the bulk order (e.g AWS, GCP, smaller events) the FMM should assign budget and move it to All EMEA per Quarter.
-     - If the event e.g Connect Day is handled by Ten & One as an all-in budget under the contract with Ten & One this should be included in that event sponsorship line item within the FMM's regional plan.
+  - If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event.
+  - If swag is required from the bulk order (e.g AWS, GCP, smaller events) the FMM should assign budget and move it to All EMEA per Quarter.
+  - If the event e.g Connect Day is handled by Ten & One as an all-in budget under the contract with Ten & One this should be included in that event sponsorship line item within the FMM's regional plan.
 Please note shipping cost to be included in the SWAG cost that you budget per event.
 
 - **Invoicing:** All invoices for Field Marketing are required to include the campaign's Allocadia ID to allow for proper finance coding.
@@ -741,12 +741,12 @@ Delivery options and timelines are provided during the ordering process. Any new
 - **Non-Marketing, How to request SWAG for EMEA events:** For orders from non-marketing, create an issue in the [Field marketing project](https://gitlab.com/gitlab-com/marketing/field-marketing/issues) using the `EMEA_SWAG_Request_template`. This will add all labels automatically.
 - **Field Marketing, How to request SWAG for EMEA events:** For Field Marketing EMEA, add your SWAG request to the description in the `EMEA_Event_Field_Marketing` template.
 - **Required information**:
-    - Contact name(s)(onsite contact)
-    - Complete shipping address (Be specific as possible)
-    - Phone number
-    - Email address
-    - Date (timeline when shipping can arrive)
-    - Swag items required and Quantities
+  - Contact name(s)(onsite contact)
+  - Complete shipping address (Be specific as possible)
+  - Phone number
+  - Email address
+  - Date (timeline when shipping can arrive)
+  - Swag items required and Quantities
 - **Return Event Material from event locations to warehouse**: FMC will coordinate with Ten&One the return of all banners, table cloths, back walls, counter top, iPads (not SWAG) back to Ten&One Address: Agentur, Meyerbeerstraße 12, 81247 München, Germany, Phone: +49 89 2554190
 
 ## Swag for Non-Field Marketing Teams
@@ -783,7 +783,7 @@ It is important to note that there is a limit on link sharing when utilizing the
 
 - It is important to note that Grubhub invoices on a monthly cycle and this invoice will be paid via the FY24 Grubhub Blanket PO. `@nataliepicci` and `@krogel` are the DRIs for the Grubhub monthly invoice.
 - Once the invoice is received, the FMC is to ensure the invoice includes the Grubhub Blanket PO number and the final order amount. The FMC is to send this invoice to AP for processing and the amount is to be added to the forecast line item in the AMER ALL plan in Allocadia.
-    - *To confirm which month the spend will hit, please refer to our [Prepaid Policy](/handbook/finance/accounting/#prepaid-expense-policy).*
+  - *To confirm which month the spend will hit, please refer to our [Prepaid Policy](/handbook/finance/accounting/#prepaid-expense-policy).*
 - The FMM is required to transfer the invoiced Grubhub spend from their regional plan to the AMER ALL plan in Allocadia as soon as the event has concluded.
 
 #### Grubhub Portal
@@ -829,9 +829,9 @@ The Admin Portal is where you manage all aspects of your Corporate Account from 
 - [Grubhub Corporate Learning Center](https://corporate.grubhub.com/learning-center)
 - Grubhub Corporate Support Email: clients@grubhub.com
 - Grubhub Corporate Support Number: (844)-478-2249
-    - Press 1 for order status
-    - Press 2 for all other order issues
-    - Press 3 for questions about your account setup
+  - Press 1 for order status
+  - Press 2 for all other order issues
+  - Press 3 for questions about your account setup
 
 </details>
 
@@ -1097,9 +1097,9 @@ A standard deck will also be used to ensure consistency across the world in term
 The SSOT of the plan remains in GitLab on our [various issue boards](/handbook/marketing/field-marketing/#whats-currently-scheduled-in-my-region).
 
 - [FY25 Standard deck](https://docs.google.com/presentation/d/1RtQuOE-mYoVUBygIihJlUvtZqUOhwIco9_xGv3ou17k/edit#slide=id.g1287bf62b57_0_209).
-    - Note: The deck is additive. You are only responsible for completing the slides that are due for the quarter we are in.
-    - As the slides are due one (1) month before the end of the quarter.
-    - The completed deck should be stored in your correct regions [shared folder](https://drive.google.com/drive/folders/1xtePKOl4RSINaPPr3InQNisYTQyOJ5JE). Anyone within GitLab has access to search and find this folder.
+  - Note: The deck is additive. You are only responsible for completing the slides that are due for the quarter we are in.
+  - As the slides are due one (1) month before the end of the quarter.
+  - The completed deck should be stored in your correct regions [shared folder](https://drive.google.com/drive/folders/1xtePKOl4RSINaPPr3InQNisYTQyOJ5JE). Anyone within GitLab has access to search and find this folder.
 
 ## Regional Marketing QBRs
 
@@ -1343,39 +1343,39 @@ We are committed to providing opportunities for discussion, education and commun
 
 ### Branches
 
- - Caffeine and Collaboration #caffeineandcollaboration
- - User Group Workshops #usergroupworkshop
- - Iterate! Start something new!
+- Caffeine and Collaboration #caffeineandcollaboration
+- User Group Workshops #usergroupworkshop
+- Iterate! Start something new!
 
 ### Recommended Formats for Event
 
- - Roughly 1.5 hours in length
- - Series of 2-3 speakers (one GitLab and 1-2 customers)
- - AMA or Panel
+- Roughly 1.5 hours in length
+- Series of 2-3 speakers (one GitLab and 1-2 customers)
+- AMA or Panel
 
 ### [Sample Agenda/Example Slide Deck](https://docs.google.com/presentation/d/1hwU1nt8wb8ADtj9JFq-zTg1bbZNf3L5H/edit?usp=sharing&ouid=114806938780598580840&rtpof=true&sd=true)
 
 ### GitLab Forum
 
- - Encourage members, registrants and attendees to get involved and open up discussions on the [GitLab Forum page](https://forum.gitlab.com/c/gitlab-government-user-group/44) for the GitLab Government User Group.
+- Encourage members, registrants and attendees to get involved and open up discussions on the [GitLab Forum page](https://forum.gitlab.com/c/gitlab-government-user-group/44) for the GitLab Government User Group.
 
 ### Imagery
 
- - Branding should remain consistent across the entire User Group program leveraging marketing approved Tanuki graphics.
-   - Press kit for Tanuki designs can be found [here](https://about.gitlab.com/press/press-kit/)
+- Branding should remain consistent across the entire User Group program leveraging marketing approved Tanuki graphics.
+  - Press kit for Tanuki designs can be found [here](https://about.gitlab.com/press/press-kit/)
 
 ### Hashtags and Social Media Promotion
 
- - The following hashtags should be used when promoting on social platforms:
-   - #gitlabgovernmentusergroup
-   - #caffeineandcollaboration (when applicable)
-   - #gitlab
-   - #devops
-   - #devsecops
-   - #gitlabusergroupworkshop (when applicable)
- - Event should be promoted via GitLab's corporate LinkedIn Events page. Reach out to @KiraAubrey in Field Marketing to have the event placed on the site.
- - Event should be promoted via Bambu. Reach out to @KiraAubrey to get a post created, approved and ready for team sharing.
- - Encourage relevant people from the sales, marketing and technical teams to promote via their social pages.
+- The following hashtags should be used when promoting on social platforms:
+  - #gitlabgovernmentusergroup
+  - #caffeineandcollaboration (when applicable)
+  - #gitlab
+  - #devops
+  - #devsecops
+  - #gitlabusergroupworkshop (when applicable)
+- Event should be promoted via GitLab's corporate LinkedIn Events page. Reach out to @KiraAubrey in Field Marketing to have the event placed on the site.
+- Event should be promoted via Bambu. Reach out to @KiraAubrey to get a post created, approved and ready for team sharing.
+- Encourage relevant people from the sales, marketing and technical teams to promote via their social pages.
 
 ### When Engaging a Partner
 
@@ -1402,72 +1402,72 @@ We are committed to providing opportunities for discussion, education and commun
 
 - GitLab Team Member nominates a Speaker and Proposed Topic/ Speaker submission form is received
 - Intro call with GitLab and Speaker
-   - **Agenda**
-     - Confirm topic
-     - Confirm availability for the event
-        - Confirm ability to reference agency in promo materials
-        - What approvals do they need
-        - What details do they need from GitLab to secure approvals
-   - **Discuss Desired Format**
-        - Presentation
-        - Interview
-        - Panel Interview
-   - **Review Logistics**
-        - Carahsoft hosts via Fed Zoom
-        - Meetup.com page will be leveraged (ask speaker to join our user group on meetup!)
-   - **Outline Next Steps**
-        - GitLab to provide speaker with any information needed for approvals
-        - Speaker to secure approvals
-        - GitLab to introduce Carahsoft to schedule the dry run
-        - GitLab and speaker walk through the agenda prior to Dry Run
-        - Speakers will need to provide a headshot and bio
-        - Carahsoft will host Dry Run
-   - **Event Completed**
-        - Follow up between GitLab and Speaker on approvals until they are secured
-        - Team effort between marketing channel and nominator
-        - Follow up between GitLab and Carahsoft once approvals are in flight
-   - **Invite email copy**
-        - Confirmation email copy and resources
-        - Assets
-        - Coffee order form if applicable
-   - **Request Graphics from Carahsoft**
-        - Email banner
-        - Social media
-   - **Update Meetup.com with a Save the Date or Event Placeholder**
-        - Once Approvals are secured Introduce Speakers to Carahsoft
-        - Carahsoft to work on scheduling dry run
-        - Carahsoft to share invite for speakers to leverage
-        - Carahsoft/GitLab to prompt speakers for headshots and bio
-   - **GitLab and Carahsoft to Collaborate on Event Assets**
-        - Slide Deck
-        - Script
-        - Polling Questions
-        - Best practice: separate doc for polling questions
-   - **GitLab and Speaker Sync to Review Content for the Event**
-        - Dry Run for GitLab, Carahsoft and Speaker
-        - Review Zoom logistics
-        - Early login for all participants
-        - Polling question logistics
-        - Review Script and flow for the day of the event
-        - Ensure speakers are comfortable
-        - Reminder to join user group on Meetup.com
-        - Reminder to order coffee if applicable
-   - **Carahsoft and GitLab to leverage cadence call prior to event for moderator prep**
-        - Review script and define responsibilities around hosting, muting, poll questions etc.
-        - Review slides
-   - **Finalize copy for Thank you email and confirm CTA’s and resources**
-   - **Carahsoft to Load Poll questions into Zoom meeting**
-   - **Day Before Event**
-        - Carahsoft sends reminder email
-        - GitLab sends reminder email via meetup.com prompting RSVP’s to register if they haven’t already
-        - Carahsoft confirms all poll questions are loaded
-   - **Day of Event**
-        - GitLab checks meetup.com for any questions and updates invite with zoom link (in case folks want to attend but don’t want to register via Carahsoft)
-        - Carahsoft and moderators to join 30 minutes early
-        - Speakers to join 15 minutes early
-        - Carahsoft to kick off event a couple minutes past the start time
-   - **Follow Up**
-        - Carahsoft to send thank you email with resources and prompt to join the next event
+  - **Agenda**
+    - Confirm topic
+    - Confirm availability for the event
+      - Confirm ability to reference agency in promo materials
+      - What approvals do they need
+      - What details do they need from GitLab to secure approvals
+  - **Discuss Desired Format**
+    - Presentation
+    - Interview
+    - Panel Interview
+  - **Review Logistics**
+    - Carahsoft hosts via Fed Zoom
+    - Meetup.com page will be leveraged (ask speaker to join our user group on meetup!)
+  - **Outline Next Steps**
+    - GitLab to provide speaker with any information needed for approvals
+    - Speaker to secure approvals
+    - GitLab to introduce Carahsoft to schedule the dry run
+    - GitLab and speaker walk through the agenda prior to Dry Run
+    - Speakers will need to provide a headshot and bio
+    - Carahsoft will host Dry Run
+  - **Event Completed**
+    - Follow up between GitLab and Speaker on approvals until they are secured
+    - Team effort between marketing channel and nominator
+    - Follow up between GitLab and Carahsoft once approvals are in flight
+  - **Invite email copy**
+    - Confirmation email copy and resources
+    - Assets
+    - Coffee order form if applicable
+  - **Request Graphics from Carahsoft**
+    - Email banner
+    - Social media
+  - **Update Meetup.com with a Save the Date or Event Placeholder**
+    - Once Approvals are secured Introduce Speakers to Carahsoft
+    - Carahsoft to work on scheduling dry run
+    - Carahsoft to share invite for speakers to leverage
+    - Carahsoft/GitLab to prompt speakers for headshots and bio
+  - **GitLab and Carahsoft to Collaborate on Event Assets**
+    - Slide Deck
+    - Script
+    - Polling Questions
+    - Best practice: separate doc for polling questions
+  - **GitLab and Speaker Sync to Review Content for the Event**
+    - Dry Run for GitLab, Carahsoft and Speaker
+    - Review Zoom logistics
+    - Early login for all participants
+    - Polling question logistics
+    - Review Script and flow for the day of the event
+    - Ensure speakers are comfortable
+    - Reminder to join user group on Meetup.com
+    - Reminder to order coffee if applicable
+  - **Carahsoft and GitLab to leverage cadence call prior to event for moderator prep**
+    - Review script and define responsibilities around hosting, muting, poll questions etc.
+    - Review slides
+  - **Finalize copy for Thank you email and confirm CTA’s and resources**
+  - **Carahsoft to Load Poll questions into Zoom meeting**
+  - **Day Before Event**
+    - Carahsoft sends reminder email
+    - GitLab sends reminder email via meetup.com prompting RSVP’s to register if they haven’t already
+    - Carahsoft confirms all poll questions are loaded
+  - **Day of Event**
+    - GitLab checks meetup.com for any questions and updates invite with zoom link (in case folks want to attend but don’t want to register via Carahsoft)
+    - Carahsoft and moderators to join 30 minutes early
+    - Speakers to join 15 minutes early
+    - Carahsoft to kick off event a couple minutes past the start time
+  - **Follow Up**
+    - Carahsoft to send thank you email with resources and prompt to join the next event
 
 **User Group Event Checklist**
 
@@ -1782,18 +1782,18 @@ Field Marketing utilizes regional email aliases for pre and post tactic outreach
 ## Slack Rooms we use
 
 - [#fieldmarketing](https://gitlab.slack.com/archives/CCWDAJ8PK) - open to all teams to ask questions to field marketing & where weekly stand-up reports get posted to.
-    - If you're an employee at GitLab trying to reach Field Marketing, please head over to our slack channel.
-        - **NOTE**: If you're requesting we sponsor an event, instructions can be found [here](/handbook/marketing/field-marketing/#whats-currently-scheduled-in-my-region).
-        - If a region specific question is asked in the [#fieldmarketing](https://gitlab.slack.com/archives/CCWDAJ8PK) slack room, please tag the [regional Field Marketing leader](#whats-currently-scheduled-in-my-region), as that person is the DRI.
+  - If you're an employee at GitLab trying to reach Field Marketing, please head over to our slack channel.
+    - **NOTE**: If you're requesting we sponsor an event, instructions can be found [here](/handbook/marketing/field-marketing/#whats-currently-scheduled-in-my-region).
+    - If a region specific question is asked in the [#fieldmarketing](https://gitlab.slack.com/archives/CCWDAJ8PK) slack room, please tag the [regional Field Marketing leader](#whats-currently-scheduled-in-my-region), as that person is the DRI.
 - [#fieldmarketing-fyi](https://gitlab.slack.com/archives/C01502JC5BK) - Official channel for Field Marketing Leadership to post announcements to the Field Marketing team.
-    - Restricted permission levels to only FMM Leadership posting the announcements
-    - Announcements can be submitted to your manager if you would like to something shared
-    - All members have comment access to allow clarifications if needed on a thread
-    - You are to react with an emoji (thumbs-up, eyes…) to signal to managers that you’ve seen an announcement
-    - There should be no need to cross-post announcements (such as posting a link from another slack channel to the #fieldmarketing channel)
-        - With a #company-fyi and the [#fieldmarketing-fyi](https://gitlab.slack.com/archives/C01502JC5BK), all relevant info should be successfully communicated by managers to team members.
-    - Default to issues first, then public channels when possible to avoid siloing work information to private discussions.
-        - Use DMs for personal, private conversation rather than work communication (unless you are certain it is only relevant to the 2 of you or you need immediate attention).
+  - Restricted permission levels to only FMM Leadership posting the announcements
+  - Announcements can be submitted to your manager if you would like to something shared
+  - All members have comment access to allow clarifications if needed on a thread
+  - You are to react with an emoji (thumbs-up, eyes…) to signal to managers that you’ve seen an announcement
+  - There should be no need to cross-post announcements (such as posting a link from another slack channel to the #fieldmarketing channel)
+    - With a #company-fyi and the [#fieldmarketing-fyi](https://gitlab.slack.com/archives/C01502JC5BK), all relevant info should be successfully communicated by managers to team members.
+  - Default to issues first, then public channels when possible to avoid siloing work information to private discussions.
+    - Use DMs for personal, private conversation rather than work communication (unless you are certain it is only relevant to the 2 of you or you need immediate attention).
 - #fieldofdreamsteam: private room only accessible to FMMs - funny gifs, private questions for the team.
 - Please keep in mind we have detailed instructions on [how GitLab uses slack](/handbook/communication/#slack).
 
@@ -1805,9 +1805,9 @@ Field Marketing utilizes regional email aliases for pre and post tactic outreach
 - The purpose of the team call is to share relevant company, marketing, and Field Marketing announcements.
 - Anyone on the team should feel empowered to add content to the team meeting agenda.
 - We will also have a specific `lessons learned` section where each Country Field Marketing Manager will select 1 FMM event or other tactic event recap to review.
-    - The FMM who is the DRI for the event or other tactic we will be reviewing as a team will add the `Event Recap` link from the `Event Planning and Recap` to the agenda
-    - We review the recap prior to the call, the FMM DRI briefly gives a run down of the event or other tactic, then we dialogue.
-    - Each region will be represented - AMER, APAC, and EMEA - so we will review 3 each call.
+  - The FMM who is the DRI for the event or other tactic we will be reviewing as a team will add the `Event Recap` link from the `Event Planning and Recap` to the agenda
+  - We review the recap prior to the call, the FMM DRI briefly gives a run down of the event or other tactic, then we dialogue.
+  - Each region will be represented - AMER, APAC, and EMEA - so we will review 3 each call.
 - We also discuss use cases - could be how you've worked with social media, how you built a report in SFDC to help the team be more efficient, etc,
 - Guest Speakers - at times we will also invite other colleagues from the company to address our team as a whole
 - As a handbook first company, if you are going to bring a topic to the team, please think twice on if you should add just an agenda item, or if you should add an agenda item that links to an MR or a handbook page.
@@ -2083,19 +2083,19 @@ For example - You have created a micro-campaign that will include a self-service
 ### Example Micro-Campaign for Training
 
 - [Micro-Campaign Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1072)
-    - [Micro-Campaign FM Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/1396)
-        - [Self-Service Virtual Event with promotion Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1073)
-            - [Self-Service Virtual Event with Promotion FM Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/1397)
-            - [Follow Up Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2959)
-            - [Invites and Reminders Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2958)
-            - [List Clean and Upload Issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/2712)
-            - [Facilitate Tracking Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2957)
-        - [Paid Survey Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1074) (No separate FM issue since information is in overall Micro-Campaign Issue)
-            - [Gated Content Request Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2965)
-            - [Follow Up Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2962)
-            - [Facilitate Tracking Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2961)
-        - [LinkedIn Inmail Issue](https://gitlab.com/gitlab-com/marketing/account-based-marketing/-/issues/136) (No epic required)
-        - [DemandBase Targeted Ads Issue](https://gitlab.com/gitlab-com/marketing/account-based-marketing/-/issues/136) (No epic required)
+  - [Micro-Campaign FM Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/1396)
+    - [Self-Service Virtual Event with promotion Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1073)
+      - [Self-Service Virtual Event with Promotion FM Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/1397)
+      - [Follow Up Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2959)
+      - [Invites and Reminders Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2958)
+      - [List Clean and Upload Issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/2712)
+      - [Facilitate Tracking Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2957)
+    - [Paid Survey Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1074) (No separate FM issue since information is in overall Micro-Campaign Issue)
+      - [Gated Content Request Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2965)
+      - [Follow Up Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2962)
+      - [Facilitate Tracking Issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/2961)
+    - [LinkedIn Inmail Issue](https://gitlab.com/gitlab-com/marketing/account-based-marketing/-/issues/136) (No epic required)
+    - [DemandBase Targeted Ads Issue](https://gitlab.com/gitlab-com/marketing/account-based-marketing/-/issues/136) (No epic required)
 
 ### FAQ's - Micro Campaigns and Other Tactics
 

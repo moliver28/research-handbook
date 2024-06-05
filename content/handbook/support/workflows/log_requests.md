@@ -23,7 +23,7 @@ You can consider using the [kibana workflow]({{< ref "kibana" >}}) page for tips
 
 Requester must be a Group Owner of a pre-existing paid namespace.
 
- - Must [verify](/handbook/support/workflows/account_verification/) that this is who is making the request and should be in alignment with support for [Enterprise Users]({{< ref "gitlab-com_overview.md#enterprise-users" >}})
+- Must [verify](/handbook/support/workflows/account_verification/) that this is who is making the request and should be in alignment with support for [Enterprise Users]({{< ref "gitlab-com_overview.md#enterprise-users" >}})
 
 > NOTE: A user cannot upgrade to a paid subscription to gain access to logging requests.
 

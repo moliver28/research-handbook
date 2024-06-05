@@ -57,8 +57,8 @@ If the customer indicates any risk of contraction or churn in this conversation,
 
 It's important that the CSM asks this question no later than the 30-day window from when the CTA is automatically opened:
 
- - If risk is indicated, 3 months can be enough time remaining to make a meaningful change to outcomes
- - If a renewals manager is involved, they will be reaching out the customer about the renewal itself, 10 weeks before the renewal. Being informed, at this time, of renewal risk, will make our approach much more sensitive to the customer scenario.
+- If risk is indicated, 3 months can be enough time remaining to make a meaningful change to outcomes
+- If a renewals manager is involved, they will be reaching out the customer about the renewal itself, 10 weeks before the renewal. Being informed, at this time, of renewal risk, will make our approach much more sensitive to the customer scenario.
 
 If the status of the renewal is already known (renewal conversation with SAE or AE has happened, negotiations or contract is in-flight), the CSM can close the renewal CTA selecting the appropriate close reason.
 

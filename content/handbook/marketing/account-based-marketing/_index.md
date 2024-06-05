@@ -40,14 +40,14 @@ Our key account list consists of Mid-Market and Enterprise accounts that the sal
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 - LinkedIn Sponsored Content
-     - Sponsored ads: Sponsored Content allows us to publish ads in the LinkedIn newsfeed across both desktop and mobile. We can target a specific audience of people which helps us raise awareness and drive quality leads.
+  - Sponsored ads: Sponsored Content allows us to publish ads in the LinkedIn newsfeed across both desktop and mobile. We can target a specific audience of people which helps us raise awareness and drive quality leads.
 - Display Advertising: Mobile and desktop advertisements served to a specific audience on a specific list of websites. These are launched through our ABM platform, 6sense.
 - [Qualified](/handbook/marketing/marketing-operations/qualified/): a chat platform to engage visitors on our webpages
 - [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/): a global gifting platform
 - [Terminus Email Signature Banners](/handbook/marketing/marketing-operations/terminus-email-experiences/): Ads within an email signature that are targeted based on email address domain.
 - [Pathfactory](/handbook/marketing/marketing-operations/pathfactory/):
-     - Content tracks: Allow us to bundle assets together (around 5-7) in a "content track" and shared as one link. Instead of sharing multiple links to individual assets, one link provides a curated content experience.
-     - Microsites: PathFactory’s Microsite Builder enables us to display multiple types of Content Tracks within a custom-designed landing page that aligns to our Tier 1 accounts or a Tier 2 cohort of accounts.
+  - Content tracks: Allow us to bundle assets together (around 5-7) in a "content track" and shared as one link. Instead of sharing multiple links to individual assets, one link provides a curated content experience.
+  - Microsites: PathFactory’s Microsite Builder enables us to display multiple types of Content Tracks within a custom-designed landing page that aligns to our Tier 1 accounts or a Tier 2 cohort of accounts.
 - [Outreach](/handbook/marketing/marketing-operations/outreach/): The core tool for BDR outbound efforts, ABM will write custom sequences for 1:1 and cohort plays as needed.
 
 ## Communication

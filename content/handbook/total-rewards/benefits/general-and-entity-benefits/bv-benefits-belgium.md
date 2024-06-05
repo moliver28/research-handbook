@@ -55,8 +55,8 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
 
 - Sick Leave
   - Every team member is entitled to have their remuneration to be paid by GitLab during the first 30-day period of incapacity for work, regardless of their seniority. This leave runs concurrently with GitLab's Sick Time policy. Team members must designate any time off for illness or injury as `Out Sick` in Time Off by Deel to ensure that sick leave entitlement is properly tracked.
-      - When two incapacities follow one another without interruption or where the second occurs within 14 days of the first (e.g. a relapse of the same illness or injury), there is only one period of incapacity and the guaranteed remuneration will not be due again.
-      - Where a second or further incapacity occurs within 14 days of a previous incapacity, *and* the team member can prove by means of a medical certificate that this new incapacity for work is caused by a new illness or injury, a new guaranteed salary will be due again.
+    - When two incapacities follow one another without interruption or where the second occurs within 14 days of the first (e.g. a relapse of the same illness or injury), there is only one period of incapacity and the guaranteed remuneration will not be due again.
+    - Where a second or further incapacity occurs within 14 days of a previous incapacity, *and* the team member can prove by means of a medical certificate that this new incapacity for work is caused by a new illness or injury, a new guaranteed salary will be due again.
 - Statutory Parental Leave
   - Pregnant team members are entitled to 15 weeks of maternity leave which consists of two periods: prenatal leave of 6 weeks and postnatal leave of 9 weeks.
     - Prenatal Leave: At the pregnant team member's request, this leave starts, at the earliest, six weeks before the expected date of delivery and is comprised of the following:

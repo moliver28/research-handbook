@@ -59,7 +59,7 @@ For Marketing Operations - When OOO/PTO please add this to the backup team membe
 
 * **Alerting email team as soon as possible that there may be a send (even if it does not move forward)**
 * Providing FINAL email, landing page, form copy, autoresponder copy, etc.
-     * NOTE: The addition of each item will increase scope and potentially delay announcement
+  * NOTE: The addition of each item will increase scope and potentially delay announcement
 * [Requesting target list](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new?issuable_template=list-request) from the Marketing Strategy & Analytics team
 * Creating epic and corresponding issues
       *Creating Epic - [Template here](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#epic-code-and-issues)
@@ -67,9 +67,9 @@ For Marketing Operations - When OOO/PTO please add this to the backup team membe
       *Creating [Form request issue (if necessary)](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request)
       * Creating [Landing Page request issue (if necessary)](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=marketo_landing_page_request)
 * Providing approval list and who signs off on the email
-    * Legal, Customer Service VP and VP of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure) are required to sign off
+  * Legal, Customer Service VP and VP of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure) are required to sign off
 * [Notifying affected field teams](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#communicating-internally) (Customer Success, CSM, SAE/AE, SA, Professional Services)
-   * Also make sure to notify #sales and #customer-success before email is set to go out
+  * Also make sure to notify #sales and #customer-success before email is set to go out
 * Approving test email
 * Providing any edits to the test email
 * Providing send time and date
@@ -154,12 +154,12 @@ This is the process to follow when there is an announcement that is an emergency
 ## Other considerations and questions for requestors
 
 * Send / Reply-to email
-     * Should there be an auto-responder?
-     * Will someone be monitoring the email address?
-     * If unmonitored, does the email mention that?
+  * Should there be an auto-responder?
+  * Will someone be monitoring the email address?
+  * If unmonitored, does the email mention that?
 * Form + Landing Page
-     * Confirmation email copy
-     * Who from GitLab receives the alert?
+  * Confirmation email copy
+  * Who from GitLab receives the alert?
 
 ## Email platform to use
 
@@ -171,10 +171,10 @@ Marketing Operations will decide what the best email platform to send from will 
 ## Marketing Operations Set-Up
 
 * Clone from [incident template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/EBP9730A1)
-    * Ensure that processing requests `Do not Route` executable campaign
-    * Mark `Person source` for new leads as `GitLab DataMart`
-    * `Person Status` should be set to `Raw` if Empty
-    * Processing campaign can be set up as a trigger or batch depending on list size
+  * Ensure that processing requests `Do not Route` executable campaign
+  * Mark `Person source` for new leads as `GitLab DataMart`
+  * `Person Status` should be set to `Raw` if Empty
+  * Processing campaign can be set up as a trigger or batch depending on list size
 * Set up reports if not using the email program defaults
 * Follow remaining steps in the incident issue template
 

@@ -46,22 +46,22 @@ The research tool being used (for example Qualtrics, UserTesting, Respondent) de
 
 ### Frequently Asked Questions
 
- - **Question:** My research study will result in code contibutions from my participants.  What's the ICLA question I need to ask?
- - **Answer:** Below is the exact question to ask.  Note the active link in the statement.
+- **Question:** My research study will result in code contibutions from my participants.  What's the ICLA question I need to ask?
+- **Answer:** Below is the exact question to ask.  Note the active link in the statement.
 
-     - `Any code contributions you make as part of your participation in this research activity are made subject to [GitLab's Individual Contributor License Agreement](https://docs.gitlab.com/ee/legal/individual_contributor_license_agreement.html).`
+  - `Any code contributions you make as part of your participation in this research activity are made subject to [GitLab's Individual Contributor License Agreement](https://docs.gitlab.com/ee/legal/individual_contributor_license_agreement.html).`
 
        `[ ] I accept the terms of GitLab's Individual Contributor License Agreement.`
        `[ ] I do not accept the terms of GitLab's Individual Contributor License Agreement.`
 
- - **Question:** I’m planning to run a blind study.  Do I need to show the IP Assignment?
- - **Answer:** If you anticipate the participant in the blind study will provide suggestions or solutions in their response, the IP Assignment must be shown. This requirement may prevent a blind study from taking place. If the blind study is run by a third party vendor, it’s likely that vendor will include suitable IP assignments in (i) the end user terms of service between the vendor and their research panel participants; and (ii) the vendor agreement between the vendor and GitLab.  Reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) to confirm suitable IP assignments are in place for a given vendor.
+- **Question:** I’m planning to run a blind study.  Do I need to show the IP Assignment?
+- **Answer:** If you anticipate the participant in the blind study will provide suggestions or solutions in their response, the IP Assignment must be shown. This requirement may prevent a blind study from taking place. If the blind study is run by a third party vendor, it’s likely that vendor will include suitable IP assignments in (i) the end user terms of service between the vendor and their research panel participants; and (ii) the vendor agreement between the vendor and GitLab.  Reach out to [#legal](https://app.slack.com/client/T02592416/C78E74A6L) to confirm suitable IP assignments are in place for a given vendor.
 
- - **Question:** Do we treat non-GitLab users any differently?
- - **Answer:** No.  Same guidelines apply.
+- **Question:** Do we treat non-GitLab users any differently?
+- **Answer:** No.  Same guidelines apply.
 
- - **Question:** If the participants are anonymous, are there any special considerations?
- - **Answer:** No.  Same guidelines apply.
+- **Question:** If the participants are anonymous, are there any special considerations?
+- **Answer:** No.  Same guidelines apply.
 
- - **Question:** Are these IP Assignment options included in the Qualtrics survey question library?
- - **Answer:** Yes. To access the IP Assignment options from within your Qualtrics survey, follow these steps: (1) create a survey question, (2) in the "..." select replace from library, (3) select the "UX Research & Product" library, (4) select "Question Library", (5) select the IP Assignment option that you want to use:  "IP Statement", "IP Assignment Question", or "Individual Contributor License Agreement (ICLA)", and (6) select "Import"
+- **Question:** Are these IP Assignment options included in the Qualtrics survey question library?
+- **Answer:** Yes. To access the IP Assignment options from within your Qualtrics survey, follow these steps: (1) create a survey question, (2) in the "..." select replace from library, (3) select the "UX Research & Product" library, (4) select "Question Library", (5) select the IP Assignment option that you want to use:  "IP Statement", "IP Assignment Question", or "Individual Contributor License Agreement (ICLA)", and (6) select "Import"

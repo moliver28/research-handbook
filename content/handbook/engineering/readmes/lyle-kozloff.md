@@ -68,7 +68,7 @@ and that my apparent indecision is blocking progress.
 things get done quickly. At its worst, it means that I miss a deliverable that
 you were waiting on from me.
 
- - **What to do if it's the worst**: Give me a firm deadline for when you need something
+- **What to do if it's the worst**: Give me a firm deadline for when you need something
 by. Check in on progress. I don't mind being managed up; if what I'm prioritizing
 doesn't match your priorities I should be able to articulate what's blocking me.
 
@@ -76,7 +76,7 @@ doesn't match your priorities I should be able to articulate what's blocking me.
 you are free to prioritize the tasks that you feel are the most impactful. At its
 worst this means you may feel like I don't care what you're working on.
 
- - **What to do if it's the worst**: Generally, I will only step in if you can't find
+- **What to do if it's the worst**: Generally, I will only step in if you can't find
 a solution, you need my help or you've hit a blocker. Keep me informed, and be
 clear if you're in one of the above states.
 
@@ -85,7 +85,7 @@ you'll be shielded from the small, annoying tasks that crop up.
 At its worst, I'll be drowning in these tasks and I'll ask you to do something
 that's (at best) half-done and probably overdue.
 
- - **What to do if it's the worst**: If I'm setting myself up as a blocker, call me
+- **What to do if it's the worst**: If I'm setting myself up as a blocker, call me
 on it. I try and build process after I have a full understanding of the problem
 set, but sometimes I need a nudge before I feel its ready to hand off. Sometimes
 I misjudge the complexity or length of a task.

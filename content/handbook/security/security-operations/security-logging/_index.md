@@ -71,8 +71,8 @@ Our preference is to work asynchronously, within our project issue tracker as de
 The team does have set of regular synchronous calls:
 
 - A weekly team sync to discuss progress, blockers, and anything related to the InfraSec team.
-    - Everyone in the company is welcome to join.
-    - The [agenda is public within GitLab](https://docs.google.com/document/d/1kFahDB78MSKpIUJX1XG3i8WkD_tSrg3iVk2TFbLa3cI/edit?usp=sharing) as well.
+  - Everyone in the company is welcome to join.
+  - The [agenda is public within GitLab](https://docs.google.com/document/d/1kFahDB78MSKpIUJX1XG3i8WkD_tSrg3iVk2TFbLa3cI/edit?usp=sharing) as well.
 - A quarterly team retrospective to reflect on what went well in the previous quarter, and discuss what can be improved going forward.
 - 1-1s between Individual Contributors and the Engineering Manager.
 
@@ -93,12 +93,12 @@ work for different services alongside each other.
 #### Team Planning
 
 - For the **long term strategy** of the InfraSec Team, you can refer to:
-    - 📊 [Sec-Logging Roadmap](tbd)
-    - 🎯 [Sec-Logging OKRs](tbd)
+  - 📊 [Sec-Logging Roadmap](tbd)
+  - 🎯 [Sec-Logging OKRs](tbd)
 - From a **tactical point of view**, you can refer to:
-    - 🎯 [Sec-Logging Milestones (quarterly)](tbd)
-    - 🗓 [Sec-Logging Epics for this quarter](tbd)
-    - 🎛 [Sec-Logging Initiatives Board](tbd) (for the tasks we are currently working on)
+  - 🎯 [Sec-Logging Milestones (quarterly)](tbd)
+  - 🗓 [Sec-Logging Epics for this quarter](tbd)
+  - 🎛 [Sec-Logging Initiatives Board](tbd) (for the tasks we are currently working on)
 
 #### Project Ownership
 

@@ -158,8 +158,8 @@ Once the temporary renewal extension is created, the evidence of it can be seen 
 - SFDC Renewal Opportunity has `Temporary License Extension End Date` field populated with a date when the extension expires.
 - [CustomersDot Admin > Temporary Extensions](https://customers.gitlab.com/admin/temporary_extension_history) page lists all of the temporary extensions.
 - Customer can see the `Access temporarily extended until YYYY-MM-DD` badge on the related subscription in the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html).
-   - For self-managed, customer can download the license key and apply it to their instance.
-   - For SaaS, the new expiration date is automatically synced to gitlab.com.
+  - For self-managed, customer can download the license key and apply it to their instance.
+  - For SaaS, the new expiration date is automatically synced to gitlab.com.
 
 Once subscription is renewed, the `Access temporarily extended until YYYY-MM-DD` badge is removed. [This video](https://www.youtube.com/watch?v=cR6odsThHNY) shows what happens when the grace period of the temporary extension has elapsed, and subscription is renewed.
 
@@ -650,7 +650,7 @@ The following process allows you to view Service Ping usage data for all servers
 1. Scroll to the right and click on ℹ️ icon to show details of a license
 1. Click on `Lookup hostnames` under `Hostnames with this license` at the bottom of the screen. This will open version.gitlab.com
 
- - version.gitlab.com does not yet support Okta so you will login with your GitLab account.
+- version.gitlab.com does not yet support Okta so you will login with your GitLab account.
 
 1. You will see one row for each server that has returned usage data and has this license installed. Look at the `Usage Ping Last Checked On` column to determine which entries contain recent usage ping data.
 1. Click on the server name to load the usage ping details.

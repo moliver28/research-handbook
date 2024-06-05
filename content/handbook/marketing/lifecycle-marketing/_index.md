@@ -61,13 +61,13 @@ The [#marketing_integratedmarketing](https://gitlab.slack.com/archives/C03HJQW0D
 In between bi-weekly Lifecycle Marketing Team calls:
 
 * **Updates** should be added to MRs when possible
-   * Add to #lifecycle-marketing Slack
-   * Begin with `UPDATE: <brief description>` (i.e. `UPDATE: Marketo segmentation live for sales segment`)
-   * Include link to MR (preferred) or issue
+  * Add to #lifecycle-marketing Slack
+  * Begin with `UPDATE: <brief description>` (i.e. `UPDATE: Marketo segmentation live for sales segment`)
+  * Include link to MR (preferred) or issue
 * **Topics** that need input should be added as an MR when possible, with issues as a secondary option, and pinged in Slack with `DISCUSS`
-   * Add to #lifecycle-marketing Slack
-   * Begin with `DISCUSS: <brief description>` (i.e. `DISCUSS: Marketing tool champions`)
-   * Include link to MR (preferred) or issue
+  * Add to #lifecycle-marketing Slack
+  * Begin with `DISCUSS: <brief description>` (i.e. `DISCUSS: Marketing tool champions`)
+  * Include link to MR (preferred) or issue
 
 ### Meeting Cadence
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -129,7 +129,7 @@ Is our single source of truth (SSoT) for processes and relevant links
 * `mktg-status::blocked`: there were insufficient details in the issue for work to be completed
 * `mktg-status::wip`: the issue is assigned and moved into appropriate time-based milestone
 * `mktg-status::plan`: this is used for work that is in an earlier stage of planning and a specific request has not been made
-    * This will likely be used mainly by campaign managers on issues that are not high priority but there is a desire to capture the idea/notes.
+  * This will likely be used mainly by campaign managers on issues that are not high priority but there is a desire to capture the idea/notes.
 
 ### Issue Templates
 <!-- DO NOT CHANGE THIS ANCHOR -->

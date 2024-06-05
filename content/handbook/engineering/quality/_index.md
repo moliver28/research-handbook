@@ -12,21 +12,21 @@ In addition, we empower our teams to ship world class enterprise software at sca
 ## Our principles
 
 - **Foster an environment where Quality is Everyone's responsibility.**
-    - We enable product teams in baking quality early in the product development flow process.
-    - We are a sounding-board for our end users by making feedback known to product teams.
-    - We are a champion of good software design, testing practices and bug prevention strategies.
+  - We enable product teams in baking quality early in the product development flow process.
+  - We are a sounding-board for our end users by making feedback known to product teams.
+  - We are a champion of good software design, testing practices and bug prevention strategies.
 - **Improve test coverage and leverage tests at all [levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).**
-    - We work to ensure that the right tests run at the right places.
-    - We enable product teams' awareness of their test coverage with fast, clear and actionable reporting.
-    - We continuously refine test efficiency, refactor duplicate coverage, and increase stability.
+  - We work to ensure that the right tests run at the right places.
+  - We enable product teams' awareness of their test coverage with fast, clear and actionable reporting.
+  - We continuously refine test efficiency, refactor duplicate coverage, and increase stability.
 - **Make Engineering teams efficient, engaged and productive.**
-    - We build automated solutions to improve workflow efficiency and productivity.
-    - We ensure reliability in our tooling and tests.
-    - We ensure that continuous integration pipelines are efficient, stable with optimal coverage.
+  - We build automated solutions to improve workflow efficiency and productivity.
+  - We ensure reliability in our tooling and tests.
+  - We ensure that continuous integration pipelines are efficient, stable with optimal coverage.
 - **Metrics driven.**
-    - We provide data driven insights into defects, test stability, efficiency and team execution health.
-    - We ensure the data is actionable and is available transparently to the company and the wider community.
-    - We use data to make informative next steps and continuously improve with metrics-driven optimizations.
+  - We provide data driven insights into defects, test stability, efficiency and team execution health.
+  - We ensure the data is actionable and is available transparently to the company and the wider community.
+  - We use data to make informative next steps and continuously improve with metrics-driven optimizations.
 
 ## FY23 Direction
 
@@ -169,13 +169,13 @@ In order to engage with the team, please refer to the [Engineering Analytics tea
 ### Process
 
 - [Create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new) with `~"Engineering Metrics"` to be added to the [Engineering Analytics](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic) board.
-    - State clearly what are the requirements and measures of the performance indicator.
+  - State clearly what are the requirements and measures of the performance indicator.
 - The [Director of Engineering Analytics](https://gitlab.com/cdeleon_gitlab) is the DRI for triage, prioritization, and assignment.
-    - If work can be done without the need of new data warehouse capabilities, the DRI will schedule and assign the work within Engineering.
-    - If new Data warehouse capabilities are needed from the Data team, a linked issue will be created on the [Data team's Engineering](https://gitlab.com/groups/gitlab-data/-/boards/1496166?label_name%5B%5D=Engineering) board.
-        - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/business-technology/data-team/how-we-work/#request-to-expedite-responses)
+  - If work can be done without the need of new data warehouse capabilities, the DRI will schedule and assign the work within Engineering.
+  - If new Data warehouse capabilities are needed from the Data team, a linked issue will be created on the [Data team's Engineering](https://gitlab.com/groups/gitlab-data/-/boards/1496166?label_name%5B%5D=Engineering) board.
+    - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/business-technology/data-team/how-we-work/#request-to-expedite-responses)
 - Every KPI issue is either assigned to the backlog or given a due date. The Engineering team will propose first a due date, which the Results DRI will confirm if possible or the provide the next possible date.
-    - Discussions to take place in [#eng-data-kpi](https://gitlab.slack.com/archives/C0166JCH85U) as needed.
+  - Discussions to take place in [#eng-data-kpi](https://gitlab.slack.com/archives/C0166JCH85U) as needed.
 - Every new KPI/RPI should follow our [standardized format](/handbook/engineering/performance-indicators/#guidelines).
 - The closure of the issue should be done with a merge request to the performance indicator page(s).
 
@@ -253,8 +253,8 @@ Quality Engineering will do the following in order to identify the issues to be 
 #### Process
 
 - A manager in the Quality Engineering department will lead refinement with issues populated beforehand in the issue boards.
-    - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues.
-    - The [transient bugs board](https://gitlab.com/groups/gitlab-org/-/boards/2206756?&label_name[]=type::bug%3A%3Atransient) is used to triage transient issues.
+  - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues.
+  - The [transient bugs board](https://gitlab.com/groups/gitlab-org/-/boards/2206756?&label_name[]=type::bug%3A%3Atransient) is used to triage transient issues.
 - Before each meeting, for issues that are not yet fully triaged, the QEM meeting lead will assign the QEM of the appropriate stage or group to prioritize them.
 - The QEM meeting lead should review the board for long running issues that do not have meaningful activity and add them to the agenda to be considered for closure if no longer actionable.
 - Any high impact issues which need wider awareness should be added to the agenda for discussion by the relevant stakeholder. This includes urgent performance/transient issues as well as those that have been surfaced as important for customers.
@@ -318,7 +318,7 @@ The GitLab test automation framework is distributed across two projects:
 
 - Install and set up the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)
 - Install and run [GitLab QA] to kick off test execution.
-    - The spec files (test cases) can be found in the [GitLab codebase](https://gitlab.com/gitlab-org/gitlab/tree/master/qa)
+  - The spec files (test cases) can be found in the [GitLab codebase](https://gitlab.com/gitlab-org/gitlab/tree/master/qa)
 
 ### Test results tracking
 

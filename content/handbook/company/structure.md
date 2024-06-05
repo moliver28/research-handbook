@@ -51,18 +51,18 @@ Having Job frameworks that managers and team members share will help us make thi
 We are using the Job Frameworks in the following programs:
 
 - [Promotion Process](/handbook/people-group/promotions-transfers/)
-   - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
-   - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
+  - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
+  - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
 - [Career Development Conversations](/handbook/people-group/learning-and-development/career-development/#having-career-development-conversations)
-   - Both managers and team members can leverage the frameworks in their conversations.
-   - The frameworks drive transparency of the competencies and job criteria of different levels at GitLab. When aligned with the Career Development goals of the team member, the team member and manager can collaborate on developing these competencies by leveraging [Learning & Development Programs](/handbook/people-group/learning-and-development/)
+  - Both managers and team members can leverage the frameworks in their conversations.
+  - The frameworks drive transparency of the competencies and job criteria of different levels at GitLab. When aligned with the Career Development goals of the team member, the team member and manager can collaborate on developing these competencies by leveraging [Learning & Development Programs](/handbook/people-group/learning-and-development/)
 - Organizational Design and Headcount Planning
-   - The frameworks will support Leadership and hiring teams in identifying the appropriate levels for to be opened roles.
-   - For expanding and introducing new job levels we will leverage the frameworks to review what distinctive competencies are that we would need.
+  - The frameworks will support Leadership and hiring teams in identifying the appropriate levels for to be opened roles.
+  - For expanding and introducing new job levels we will leverage the frameworks to review what distinctive competencies are that we would need.
 - [Talent Assessment](/handbook/people-group/talent-assessment/):
-   - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
+  - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
 - [Succession Planning](/handbook/people-group/talent-assessment/#succession-planning):
-   - In the near future we will further build out how we can leverage Job frameworks in Succession planning.
+  - In the near future we will further build out how we can leverage Job frameworks in Succession planning.
 
 ### Competencies per Job
 

@@ -116,7 +116,7 @@ Select the type and frequency of system notifications from Terminus Email Experi
 - **Engagement reports** - Emailed daily or weekly and show who has recently clicked a campaign banner. To opt in/out of your individual engagement report email, visit the employee preference center.
 - **Install Reminders** - Send reminders to all employees who have yet to install their Terminus email signature. These reminders will be sent automatically based on the selected frequency until the user has successfully installed their signature.
 - **Campaign Clicks** - Send real-time notifications to employees anytime someone clicks their Terminus campaign banners. These notifications include the date, time, and contact who clicked on the Campaign banner. Employees can opt out of these notifications by editing their profile. This will automatically enable Campaign Click Notifications for new employees added to Terminus Email Experiences in the future.
-    - **Campaign Click Notification Blocklist** - Ignore clicks from some domains (for example, clicks from email security clients). Currently set up to ignore clicks in analytics from GitLab employees.
+  - **Campaign Click Notification Blocklist** - Ignore clicks from some domains (for example, clicks from email security clients). Currently set up to ignore clicks in analytics from GitLab employees.
 
 ### Privacy & Data
 

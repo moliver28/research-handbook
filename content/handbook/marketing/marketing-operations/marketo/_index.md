@@ -114,7 +114,7 @@ All forms should follow these guidelines:
 - Fields should be stacked in a vertical line
 - `Country` field label should be `Country/Region`
 - `State/Province` only visible when `Country` = `United States` or `Canada` or `Australia`; the visibility rule dynamically displays `Province` when `Canada` is selected or `State` when `United States` or `Australia` is selected
-    - See more information on the [standardization of Country &/or State Values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) to avoid sync errors
+  - See more information on the [standardization of Country &/or State Values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) to avoid sync errors
 - Generally `City` is only visible when `Country` = `Ukraine`
 - Forms should all contain a checkbox to obtain consent to `opting in` to communications via email
 - When `Country` = `Ukraine` there is an additional checkbox for the submitter to confirm they do not live in the Crimean region of the Ukraine

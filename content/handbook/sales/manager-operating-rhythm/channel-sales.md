@@ -40,8 +40,8 @@ Channel sales leaders should ensure that their Channel Account Managers are havi
 The VP of WW Channel Sales hosts a weekly forecast call with regional Channel Sales Directors to review and discuss details from the Channel & Alliances Dashboard including but not limited to:
 
 - Partner sourced vs. partner co-sell pipeline & forecasts
-    - For growth as well as for First Order (new) business
-    - For current quarter and future quarters
+  - For growth as well as for First Order (new) business
+  - For current quarter and future quarters
 - Partner coverage for new opportunities
 
 ### Team Meetings and 1x1s

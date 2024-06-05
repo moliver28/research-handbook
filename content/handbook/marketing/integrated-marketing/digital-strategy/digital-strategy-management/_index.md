@@ -58,19 +58,19 @@ The digital marketing manager will need to be briefed on the campaign by the cor
 
  **T-12 weeks to campaign launch:**<br>
 
-   * Understand proposed campaign assets, their status and who is creating them<br>
-   * Digital team to develop the media plan, their goals, the channel mix, spend, keyword list, and campaign calls to action <br>
+* Understand proposed campaign assets, their status and who is creating them<br>
+* Digital team to develop the media plan, their goals, the channel mix, spend, keyword list, and campaign calls to action <br>
 **T-10 weeks to campaign launch:** <br>
-   * Tracking pixels, landing pages developed (digital experience team) with input from digital marketing team <br>
-   * UTM parameters created by campaigns team.  URL’s created.<br>
+* Tracking pixels, landing pages developed (digital experience team) with input from digital marketing team <br>
+* UTM parameters created by campaigns team.  URL’s created.<br>
 **T-8 weeks to campaign launch:**<br>
-   * Freeze all changes to campaign scope and targets.  No further changes or launch date with slip.<br>
+* Freeze all changes to campaign scope and targets.  No further changes or launch date with slip.<br>
 **T-6 weeks to campaign launch:** <br>
-   * Digital marketing team should have possession of all assets for build out.<br>
+* Digital marketing team should have possession of all assets for build out.<br>
 **T-4 weeks to campaign launch:** <br>
-   * Assets are loaded for campaign set up/build out.<br>
+* Assets are loaded for campaign set up/build out.<br>
 **T-2 weeks to campaign launch:** <br>
-   * Test leads entered, tracked and final campaign adjustments complete.  Ready for launch.<br>
+* Test leads entered, tracked and final campaign adjustments complete.  Ready for launch.<br>
 
 ## Using GitLab: Digital Marketing Project
 
@@ -168,30 +168,30 @@ Digital Marketing will recommend specific channels based on your campaign goals.
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Paid Social
-   * LinkedIn  - Sponsored Content Ads, Carousel Ads, InMail/Message Ads, and Conversation Ads
-   * ~~Facebook - Single Image & Video Ads, Lead Generation Ads, Carousel Ads~~
-   * Instagram - Single Image & Video Ads, Lead Generation Ads, Carousel Ads
-   * Twitter - Promoted Tweets, Image or Video
-   * YouTube - Video Ads
+  * LinkedIn  - Sponsored Content Ads, Carousel Ads, InMail/Message Ads, and Conversation Ads
+  * ~~Facebook - Single Image & Video Ads, Lead Generation Ads, Carousel Ads~~
+  * Instagram - Single Image & Video Ads, Lead Generation Ads, Carousel Ads
+  * Twitter - Promoted Tweets, Image or Video
+  * YouTube - Video Ads
 * Paid Search
-   * Google - Expanded Text Ads, Responsive Search Ads
-   * Bing - Expanded Text Ads, Responsive Search Ads
+  * Google - Expanded Text Ads, Responsive Search Ads
+  * Bing - Expanded Text Ads, Responsive Search Ads
 * Paid Display
-   * GDN (Google Display Network) - Display Image Ads, Responsive Display Ads
-   * DV360 (Google Display & Video 360) - Programmatic Display Image Ads, Responsive Display Ads, Access to private ad networks
-   * 6sense is a digital marketing platform for Display only, mainly used to target specific accounts. Please note that 6sense is managed by the ABM team, partnering with 6sense directly.  Please contact the ABM team (focuses on Tier 1,2,3 accounts) if you would like to create a 6sense campaign, or check out the [6sense page](/handbook/marketing/marketing-operations/6sense/) for more info.
-   * BuySellAds
+  * GDN (Google Display Network) - Display Image Ads, Responsive Display Ads
+  * DV360 (Google Display & Video 360) - Programmatic Display Image Ads, Responsive Display Ads, Access to private ad networks
+  * 6sense is a digital marketing platform for Display only, mainly used to target specific accounts. Please note that 6sense is managed by the ABM team, partnering with 6sense directly.  Please contact the ABM team (focuses on Tier 1,2,3 accounts) if you would like to create a 6sense campaign, or check out the [6sense page](/handbook/marketing/marketing-operations/6sense/) for more info.
+  * BuySellAds
 * Sponsorships (Publisher Engagements):
-   * Participating in Virtual Event (Virtual Conference, Panel, Talking Head, All-Day Event/Summit)
-   * Third Party Custom Webcasts (single & multi-vendor)
-   * Newsletter ads
-   * Custom email blasts
-   * Sponsored Custom & 3rd Party Content Creation (trend reports, ebooks, articles, etc.)
-   * General third party event sponsorships
-   * Podcasts
-   * Site Display Ads
-   * Microsites
-   * Content Syndication
+  * Participating in Virtual Event (Virtual Conference, Panel, Talking Head, All-Day Event/Summit)
+  * Third Party Custom Webcasts (single & multi-vendor)
+  * Newsletter ads
+  * Custom email blasts
+  * Sponsored Custom & 3rd Party Content Creation (trend reports, ebooks, articles, etc.)
+  * General third party event sponsorships
+  * Podcasts
+  * Site Display Ads
+  * Microsites
+  * Content Syndication
 
 ### Channel definitions
 
@@ -205,12 +205,12 @@ Digital Marketing will recommend specific channels based on your campaign goals.
 Paid social ads are sponsored ads that we show on social platforms. The three social media platforms that we primarily advertise on are Facebook/Instagram, LinkedIn (including LinkedIn InMail & Conversation Ads), and Twitter. LinkedIn is our top platform in general due to its firmographic targeting, allowing us to target more effectively toward specific segments & job criteria.
 
 * **Best used for**: Top and mid funnel content. Does well for both awareness and direct response (depending on the asset used). LinkedIn InMail and Conversation ads stand out as more mid and bottom funnel.
-     * **Best type of content to use**: Live webcasts, recorded webcasts, events, and ebooks/guides. Live events with a sign-up deadline, tend to perform the best in paid social.
-     * **Worst type of content to use**: Thought leadership reports/whitepapers like Gartner and Forrester reports.
+  * **Best type of content to use**: Live webcasts, recorded webcasts, events, and ebooks/guides. Live events with a sign-up deadline, tend to perform the best in paid social.
+  * **Worst type of content to use**: Thought leadership reports/whitepapers like Gartner and Forrester reports.
 * **Types of targeting we do**:
-     * **Prospecting targeting**: Sponsored ads to audiences that are built based on personas using interest, professional, and demographic targeting. A profile is developed based on people who convert. We would then show ads to people natively within either Facebook, Instagram or LinkedIn that closely match that profile. This method helps drive new traffic to GitLab that may not know about the brand or product.
-     * **Account targeting**: Sponsored ads on targeting speciific accounts or contacts based on a list upload or import from Marketo. LinkedIn is the top channel for this type of marketing based on a +90% account match rate, whereas Facebook and Instagram requires accounts to be manually entered in order to target.
-     * **Retargeting**: Re-engage people who have already visited pages on the GitLab website, engaged with GitLab content, or are currently within our nurture. Note: It's necessary to have a large audience for this tactic to be successful due to email match rates within the platforms.
+  * **Prospecting targeting**: Sponsored ads to audiences that are built based on personas using interest, professional, and demographic targeting. A profile is developed based on people who convert. We would then show ads to people natively within either Facebook, Instagram or LinkedIn that closely match that profile. This method helps drive new traffic to GitLab that may not know about the brand or product.
+  * **Account targeting**: Sponsored ads on targeting speciific accounts or contacts based on a list upload or import from Marketo. LinkedIn is the top channel for this type of marketing based on a +90% account match rate, whereas Facebook and Instagram requires accounts to be manually entered in order to target.
+  * **Retargeting**: Re-engage people who have already visited pages on the GitLab website, engaged with GitLab content, or are currently within our nurture. Note: It's necessary to have a large audience for this tactic to be successful due to email match rates within the platforms.
 
 #### **Paid Search**
 
@@ -219,10 +219,10 @@ Paid social ads are sponsored ads that we show on social platforms. The three so
 As people are researching or exploring keywords relevant to GitLab, we used Google AdWords to promote [responsive search ads](https://support.google.com/google-ads/answer/7684791?hl=en) on the Google search engine to drive people to specific GitLab landing pages. We do this by [bidding](https://support.google.com/google-ads/answer/2459326?hl=en) on targeted keywords and phrases based on the assumed intent of the person, triggering the ad relevant to a specific user search query, and leading users to a related landing page that matches that intent.
 
 * **Best used for**: Brand campaigns for general exposure & building website visitor audiences, but also mid and bottom funnel content where we want someone to take action (ex: filling out a form to a gated asset, signing up for a demo, etc).
-     * **Best type of content to use**: Homepage and solutions pages for Brand campaigns, also use case gated assets that directly apply to the intent for the search query. How-to guides and ebooks do well here.
-     * **Worst type of content to use**: Events and thought leadership reports/whitepapers like Gartner and Forrester reports that are not specifically tied to the intent of a search query. Caveat here is if the content is more of a how to report or guide.
-     * **Targeting**: Paid Search is neither able to target by company size/segments nor by domain or company name. While this channel is best used for brand campaigns, non-brand campaigns also work well for specific research intent.
-     * **Retargeting**: Re-engage people who have already visited pages on the GitLab website, engaged with GitLab content, or are currently within our nurture. While the retargeting reach is lower within AdWords compared to Paid Social channels, the user intent & continued research within the audience leads to high conversion rates down-funnel.
+  * **Best type of content to use**: Homepage and solutions pages for Brand campaigns, also use case gated assets that directly apply to the intent for the search query. How-to guides and ebooks do well here.
+  * **Worst type of content to use**: Events and thought leadership reports/whitepapers like Gartner and Forrester reports that are not specifically tied to the intent of a search query. Caveat here is if the content is more of a how to report or guide.
+  * **Targeting**: Paid Search is neither able to target by company size/segments nor by domain or company name. While this channel is best used for brand campaigns, non-brand campaigns also work well for specific research intent.
+  * **Retargeting**: Re-engage people who have already visited pages on the GitLab website, engaged with GitLab content, or are currently within our nurture. While the retargeting reach is lower within AdWords compared to Paid Social channels, the user intent & continued research within the audience leads to high conversion rates down-funnel.
 
 #### **Paid Display**
 
@@ -231,12 +231,12 @@ As people are researching or exploring keywords relevant to GitLab, we used Goog
 Display ads are banner ads that we mostly run are through the [Google Display Network](https://support.google.com/google-ads/answer/2404190?hl=en) (GDN). GDN will show banner ads on websites that have [Google Adsense](https://support.google.com/adsense/answer/6242051?hl=en) set up on their website. There are no specific websites we show banner ads on - we earn the ad space by bidding on placements based on specific targeting criteria such as demographics, topics, and interests. On occasion, we run banner ads on specific websites through direct buys, but this is handled more in the publisher program.
 
 * **Best used for**: Top and mid funnel content. More used for awareness and some action-based response.
-     * **Best type of content to use**: How-to guides, ebooks, and general awareness content promotion do well here. Trial ads tend to do well if used in some form of remarketing strategy.
-     * **Worst type of content to use**: Events and thought leadership reports/whitepapers like Gartner and Forrester reports. Because there is a learning period when running Display advertising, running events through Display advertising is not recommended due to the short promotion period. With leadership reports/whitepapers, we historically have not seen good engagement and sign-ups for these types of assets on Display advertising.
+  * **Best type of content to use**: How-to guides, ebooks, and general awareness content promotion do well here. Trial ads tend to do well if used in some form of remarketing strategy.
+  * **Worst type of content to use**: Events and thought leadership reports/whitepapers like Gartner and Forrester reports. Because there is a learning period when running Display advertising, running events through Display advertising is not recommended due to the short promotion period. With leadership reports/whitepapers, we historically have not seen good engagement and sign-ups for these types of assets on Display advertising.
 * **Types of targeting we do**:
-     * **Contextual targeting**: Show banners ads on websites that are related to the content of our landing page and website. This is done based on keyword and topic targeting.
-     * **Prospecting targeting**: Show banner ads to related audiences that are similar to those who have converted on our website. A profile is developed based on people who convert. We would then show banner ads to people that closely match that profile. This method helps drive new traffic to GitLab that may not know about the brand or product.
-     * **Retargeting**: Re-engage people who have already visited pages on the GitLab website, engaged with GitLab content, or are currently within our nurture. This tactic can show ads on what seems to be irrelevant websites. However, targeting is based on the engagement of the person, not the context of a website.
+  * **Contextual targeting**: Show banners ads on websites that are related to the content of our landing page and website. This is done based on keyword and topic targeting.
+  * **Prospecting targeting**: Show banner ads to related audiences that are similar to those who have converted on our website. A profile is developed based on people who convert. We would then show banner ads to people that closely match that profile. This method helps drive new traffic to GitLab that may not know about the brand or product.
+  * **Retargeting**: Re-engage people who have already visited pages on the GitLab website, engaged with GitLab content, or are currently within our nurture. This tactic can show ads on what seems to be irrelevant websites. However, targeting is based on the engagement of the person, not the context of a website.
 
 #### **Publisher Sponsorships**
 
@@ -245,8 +245,8 @@ Display ads are banner ads that we mostly run are through the [Google Display Ne
 Publisher sponsorships are when we engage a specific publisher in order to purchase placement on their web properties. Generally, we make sure the publisher's website(s) and audience closely match the profile of who we want to advertise to before engaging with the publisher. Sponsorships are less turn key than our other programs - while they require longer planning and execution, heavier lifts in content creation, and manual reporting, the long investment results in more qualified leads that are aligned with our goals & target audience.
 
 * **Best used for**: Primarily used for demand generation, so we focus on mid to bottom funnel content.
-     * **Best type of content to use**: Live webcasts and recorded webcasts work the best. Ebooks and guides sometimes work, depending on the placement.
-     * **Worst type of content to use**: Events and thought leadership reports/whitepapers like Gartner and Forrester reports. With leadership reports/whitepapers, we historically have not seen good engagement and sign-ups for these types of assets on Paid Social, unless the report is more of a how-to guide.
+  * **Best type of content to use**: Live webcasts and recorded webcasts work the best. Ebooks and guides sometimes work, depending on the placement.
+  * **Worst type of content to use**: Events and thought leadership reports/whitepapers like Gartner and Forrester reports. With leadership reports/whitepapers, we historically have not seen good engagement and sign-ups for these types of assets on Paid Social, unless the report is more of a how-to guide.
 
 [Steps to set up Content Syndication in Marketo & SFDC](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc).
 
@@ -312,102 +312,102 @@ Each paid channel has its own unique design specifications, ad copy character li
 {: #social-specs}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * LinkedIn Image (Sponsored Content):
-   * Text recommendations
-     * Headline: 70 characters
-     * Intro: 150 characters
-   * Technical Requirements
-     * **Horizaontal/Landscape**
+  * Text recommendations
+    * Headline: 70 characters
+    * Intro: 150 characters
+  * Technical Requirements
+    * **Horizaontal/Landscape**
      *delivers to both desktop/mobile*
-       * Min: 640x360px
-       * Max: 7680x4320px
+      * Min: 640x360px
+      * Max: 7680x4320px
        Recommended: 1.91:1 - 1200x628
-     * **Square**
+    * **Square**
      *delivers to both desktop/mobile*
-       * Min: 360x360px
-       * Max: 4320x4320px
+      * Min: 360x360px
+      * Max: 4320x4320px
        Recommended: 1:1 - 1200x1200px
-     * **Vertical**
+    * **Vertical**
      *best for mobile (no deliver to desktop)*
-       * Min: 360x640px
-       * Max: 1254x2400px
+      * Min: 360x640px
+      * Max: 1254x2400px
        Recommended: 1.91:1 - 628x1200px
-   * Recommended Image File Type: JPG or PNG
-   * Recommended Image File Size: 5MB Max
-   * Recommend using shorter copy within image, and lean on the headline/introduction text to convey more of your message
+  * Recommended Image File Type: JPG or PNG
+  * Recommended Image File Size: 5MB Max
+  * Recommend using shorter copy within image, and lean on the headline/introduction text to convey more of your message
 * LinkedIn Video:
-   * Text recommendations
-     * Headline: 70 characters (200 max)
-     * Intro: 150 characters (600 max)
-   * Recommended Video Length: Less than 15 seconds
-   * Recommended Video File Size: 75 KB to 200 MB
-   * Recommended Video File Format: MP4
-   * Minimum width: 360 pixels
-   * Maximum width: 1920 pixels
-   * Minimum height: 360 pixels
-   * Maximum height: 1920 pixels
+  * Text recommendations
+    * Headline: 70 characters (200 max)
+    * Intro: 150 characters (600 max)
+  * Recommended Video Length: Less than 15 seconds
+  * Recommended Video File Size: 75 KB to 200 MB
+  * Recommended Video File Format: MP4
+  * Minimum width: 360 pixels
+  * Maximum width: 1920 pixels
+  * Minimum height: 360 pixels
+  * Maximum height: 1920 pixels
 * LinkedIn Carousel
-   * Recommended Resolution: 1080x1080 pixels
-   * Recommended Image File Type: JPG or PNG
-   * Recommended Ratio: 1:1
-   * Number of Carousel Cards: 2 to 10
-   * Image Maximum File Size: 10MB
-   * Video not supported currently
-   * Copy: Primary Text: 150 character limit
-   * Card: 45-character limit for carousel ads that direct to a destination URL
-   * Copy: 30-character limit for carousel ads with a Lead Gen Form CTA
+  * Recommended Resolution: 1080x1080 pixels
+  * Recommended Image File Type: JPG or PNG
+  * Recommended Ratio: 1:1
+  * Number of Carousel Cards: 2 to 10
+  * Image Maximum File Size: 10MB
+  * Video not supported currently
+  * Copy: Primary Text: 150 character limit
+  * Card: 45-character limit for carousel ads that direct to a destination URL
+  * Copy: 30-character limit for carousel ads with a Lead Gen Form CTA
 * LinkedIn Conversation Ads
 * Twitter Image:
-   * Recommended Image Size: 1200x675 pixels
-   * Recommended Image Ratio: 1:1
-   * Recommend using shorter copy within image, and lean on the headline/introduction text to convey more of your message
-   * Copy: Primary Text: 280 character limit
-   * Copy: Headline: 70 character limit
+  * Recommended Image Size: 1200x675 pixels
+  * Recommended Image Ratio: 1:1
+  * Recommend using shorter copy within image, and lean on the headline/introduction text to convey more of your message
+  * Copy: Primary Text: 280 character limit
+  * Copy: Headline: 70 character limit
 * Twitter Video:
-   * Recommended Video Size: 1200x1200
-   * Recommended Video Ratio: 1:1
-   * Recommended Video Length: less than 15 seconds
-   * Recommended Branding: Consistent in upper left-hand corner
-   * Recommended Video File Type: MP4 or MOV
-   * Recommended Video File Size: 1GB Max
-   * Copy: Primary Text: 280 character limit
-   * Copy: Headline: 70 character limit
+  * Recommended Video Size: 1200x1200
+  * Recommended Video Ratio: 1:1
+  * Recommended Video Length: less than 15 seconds
+  * Recommended Branding: Consistent in upper left-hand corner
+  * Recommended Video File Type: MP4 or MOV
+  * Recommended Video File Size: 1GB Max
+  * Copy: Primary Text: 280 character limit
+  * Copy: Headline: 70 character limit
 
 #### Paid Display (Google Display Network)
 
 {: #display-specs}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Regular Display Ad Sizes
-   * 160x600 pixels
-   * 250x250 pixels
-   * 300x1050 pixels
-   * 300x250 pixels
-   * 300x600 pixels
-   * 320x50 pixels
-   * 336x280 pixels
-   * 728x90 pixels
-   * 970x250 pixels
+  * 160x600 pixels
+  * 250x250 pixels
+  * 300x1050 pixels
+  * 300x250 pixels
+  * 300x600 pixels
+  * 320x50 pixels
+  * 336x280 pixels
+  * 728x90 pixels
+  * 970x250 pixels
 * Responsive Display Ad Sizes (up to 15 images per ad)
-   * 1200x628 pixels
-   * 600x600 pixels
+  * 1200x628 pixels
+  * 600x600 pixels
 * Responsive Display Logo Sizes (up to 5 logos per ad)
-   * 1200x300 pixels
-   * 1200x1200 pixels
+  * 1200x300 pixels
+  * 1200x1200 pixels
 * Recommended Image File Type: JPG or PNG
 * Recommended Image File Size: 150KB Max
 * In-Banner Design High Performers
-   * Benefit/Value Prop and educational messaging
-   * CICD emblem background
-   * “Learn More” CTA
-   * 4-7 word volume
+  * Benefit/Value Prop and educational messaging
+  * CICD emblem background
+  * “Learn More” CTA
+  * 4-7 word volume
 
 #### Paid Search
 
 {: #search-specs}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Responsive Search Ads
-   * Copy: Description: 90 character limit, up to 4 options per ad
-   * Copy: Headline: 30 character limit, up to 15 options per ad
-   * Copy: Display URL path: 15 character limit, up to 2 per ad
+  * Copy: Description: 90 character limit, up to 4 options per ad
+  * Copy: Headline: 30 character limit, up to 15 options per ad
+  * Copy: Display URL path: 15 character limit, up to 2 per ad
 
 ## UTMs for URL tagging and tracking
 

@@ -26,11 +26,11 @@ The instructions below are to be followed by marketing team members. Add a row a
 
 * Day of Week: (don't edit, this is a formula that will work off of the dates you add)
 * **Dates**: Add date(s) of event
-    * If the event is not multi-day, only add Start Date. If spans multiple days, please include both start and end date.
+  * If the event is not multi-day, only add Start Date. If spans multiple days, please include both start and end date.
 * **Team / DRI**: Choose DRI (primary) that is project managing the activity from the drop-down list
 * **Activity Category**: Choose category from drop-down list
 * **Name:** Add the exact name of the tactic/event (if not final, include latest available, or `placeholder with focus on <add topic>` if not yet determined)
-    * Corporate Events: Include "SPONSORING" next to events that we are sponsoring in green font
+  * Corporate Events: Include "SPONSORING" next to events that we are sponsoring in green font
 
 **KEY LINKS**
 
@@ -46,7 +46,7 @@ The instructions below are to be followed by marketing team members. Add a row a
 **AUDIENCE DETAILS**
 
 * **Sales Segment**: Choose from drop-down (if focused on a specific sales segment).
-   * Note that PubSec is a Sales Segment.
+  * Note that PubSec is a Sales Segment.
 * **Primary Region**: Choose from the drop-down (if focused on a specific region)
 * **Primary Sub-Region**: Choose from the drop-down (if focused on a specific sub-region)
 * **Language**: If language other than Enlish, please add here.

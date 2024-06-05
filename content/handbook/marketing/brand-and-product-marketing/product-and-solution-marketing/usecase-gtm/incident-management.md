@@ -51,11 +51,11 @@ Incident Management is frequently referred to as Incident Response from the anal
 Ability to integrate with any alerting source and consume alerts for IT service disruptions or outages. Alerts can be received in HTTP or email formats. Often tools will provide proprietary
 
 - Typical features
-    - Integrate via HTTP
-    - Integrate via Email
-    - Proprietary integrations with popular monitoring tools
-    - View credentials for integrations
-    - Ability to reset auth tokens
+  - Integrate via HTTP
+  - Integrate via Email
+  - Proprietary integrations with popular monitoring tools
+  - View credentials for integrations
+  - Ability to reset auth tokens
 - Value: Aggregate alerts from all sources saving the response team time because they have a single tool to check when something goes wrong.
 
 ### Alert Triage
@@ -63,12 +63,12 @@ Ability to integrate with any alerting source and consume alerts for IT service 
 All incoming alerts are aggregated in a list to streamline triage. Each alert has a detail page that shows the payload and an audit trail of actions taken on the alert. The status of an alert can be changed to show state and progress and alerts can be assigned to demonstrate ownship.
 
 - Typical features
-   - List of alerts that shows high-level details
-   - Alert payload
-   - Links to metrics and logs
-   - Ability to change status
-   - Ability to assign an alert
-   - Audit trails showing actions taken on alerts
+  - List of alerts that shows high-level details
+  - Alert payload
+  - Links to metrics and logs
+  - Ability to change status
+  - Ability to assign an alert
+  - Audit trails showing actions taken on alerts
 - Value: Notification from monitoring tool that there is a problem. Provide details on service outage or disruption to aid the responder in starting their investigation.
 
 ### Incident Response
@@ -76,14 +76,14 @@ All incoming alerts are aggregated in a list to streamline triage. Each alert ha
 All incidents are aggregated in a list to streamline triage. They also show up in Issue lits and on issue boards to fit the unique workflows of different teams. Incidents can be created manually or automatically from an alert. When an incident is created from an alert, it contains all of the alerts details. Incidents coordinate response and collboration.
 
 - Typical features
-   - Link to originating alert
-   - Alert payload
-   - Description
-   - Timeline
-   - Discussion
-   - Ability to assign
-   - Ability to set severity
-   - Slack integration
+  - Link to originating alert
+  - Alert payload
+  - Description
+  - Timeline
+  - Discussion
+  - Ability to assign
+  - Ability to set severity
+  - Slack integration
 - Value: Coordinate response workflows by providing a SSOT for collaboration, communicating with stakeholders, and collecting findings
 
 ### On-call Schedule Management
@@ -91,10 +91,10 @@ All incidents are aggregated in a list to streamline triage. They also show up i
 Set-up schedules for responding on-call. Admins have flexible options for creating schedules and adding responders to the schedules. Schedules are used in Escalation policies to identify who is on-call when an alert is triggered. Responders get to set up paging policies with preferred paging methods.
 
 - Typical features
-   - Rotations
-   - Escalation Policies
-   - Schedules Overrides
-   - Personal paging policies
+  - Rotations
+  - Escalation Policies
+  - Schedules Overrides
+  - Personal paging policies
 - Value: Provide peace of mind to response teams that critial alerts and incidents will reach the right person at the right time. Help teams distribute and rotate on-call responsibilities which is a very stressful job.
 
 ### Post Incident Review
@@ -102,9 +102,9 @@ Set-up schedules for responding on-call. Admins have flexible options for creati
 Review what happened during a fire-fight in a blameless setting. Walk through the incident timeline and notate it with learnings, places to improve, and things to investigate. Create after action items to continuously improve.
 
 - Typical features
-   - Create post incident review linked to incident
-   - Ability to annotate incident timeline
-   - Create after action items
+  - Create post incident review linked to incident
+  - Ability to annotate incident timeline
+  - Create after action items
 - Value: Faciliate post incident review to help build a blameless culture focused on continuous improvement and documentation.
 
 ## The GitLab Solution
@@ -153,15 +153,15 @@ This table shows the recommended use cases to adopt, links to product documentat
 
 **Question - What tools are you using for Incident Management today?**
 
-   - Answer: "Home-grown. We built and maintain our own solution."
-   - Response and Follow-up Questions: Wow! Seems like a lot of work to create an maintain. Tell me about your system.
-   - Things to listen for: Maintenance is time consuming and unreliable, we couldn't afford a real tool.
+- Answer: "Home-grown. We built and maintain our own solution."
+- Response and Follow-up Questions: Wow! Seems like a lot of work to create an maintain. Tell me about your system.
+- Things to listen for: Maintenance is time consuming and unreliable, we couldn't afford a real tool.
 
    -OR-
 
-   - Answer: "We use PagerDuty/Opsgenie/ServiceNow."
-   - Response and Follow-up Questions: Tell me about your experience using that tool.
-   - Things to listen for: It's expensive, we are using the free or cheapest tier, customer support is poor, it is missing feature X.
+- Answer: "We use PagerDuty/Opsgenie/ServiceNow."
+- Response and Follow-up Questions: Tell me about your experience using that tool.
+- Things to listen for: It's expensive, we are using the free or cheapest tier, customer support is poor, it is missing feature X.
 
 ## Resources
 

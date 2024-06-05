@@ -114,9 +114,9 @@ To ensure that our developers are aware of the priority of their work, we [use t
 These guidelines apply to all issues we use for planning and scheduling work within our group. Our Engineers can define specific implementation issues when needed, but the overall goal for our issues are as follows:
 
 * Provide a meaningful **title** that describes a deliverable result.
-    * ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
-    * ✅ `Chat: move away from using OpenAI embeddings`
-    * ❌ `Make Chat better`
+  * ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
+  * ✅ `Chat: move away from using OpenAI embeddings`
+  * ❌ `Make Chat better`
 * Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
 * Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 * The issue should have a weight, milestone and workflow label assigned.

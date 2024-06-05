@@ -11,11 +11,11 @@ The team can be reached in WW Customer Success [Slack channel](https://gitlab.sl
 To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
 
 - The mission of the Customer Success Department is to provide these customers with experience in order to:
-    - Accelerate initial customer value
-    - Maximize long-term, sustainable customer value
-    - Improve overall customer satisfaction & referenceability
-    - Maximize the total value of the customer to GitLab
-    - To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
+  - Accelerate initial customer value
+  - Maximize long-term, sustainable customer value
+  - Improve overall customer satisfaction & referenceability
+  - Maximize the total value of the customer to GitLab
+  - To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
 
 ## Vision Page
 

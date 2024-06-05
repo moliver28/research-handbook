@@ -61,10 +61,10 @@ Accounting and Reporting of Earnings Release and 10-Q /10-K
 - The VP, Corporate Controller shall follow up with all the DRI's at least a week before the due date for sign-offs.
 SEC team to set up a call with the VP, Corporate Controller on the due date of the final sign-off to discuss the final non-routine transaction file. The SEC team shall make necessary changes to the proposed filing based on the review.
 - On the Disclosure Committee meeting day:
-   - The Committee members shall discuss the results of Sales certification and Finance certifications along with any disclosures that need to be discussed and resolved.
-   - The Committee members shall discuss any significant transactions that occurred during the quarter and impact of each transaction on the financial statements and the disclosures in the 10Q/10K.
-   - The VP, Corporate Controller shall make note of the follow-up items, add them to the agenda under ask from the Committee along with the due date.
-   - The VP, Corporate Controller shall schedule a call the day after the Audit Committee meeting with the Principal Accounting Officer and CFO to review the agenda for the next meeting.
+  - The Committee members shall discuss the results of Sales certification and Finance certifications along with any disclosures that need to be discussed and resolved.
+  - The Committee members shall discuss any significant transactions that occurred during the quarter and impact of each transaction on the financial statements and the disclosures in the 10Q/10K.
+  - The VP, Corporate Controller shall make note of the follow-up items, add them to the agenda under ask from the Committee along with the due date.
+  - The VP, Corporate Controller shall schedule a call the day after the Audit Committee meeting with the Principal Accounting Officer and CFO to review the agenda for the next meeting.
 
 ## Timetable for the Preparation of Annual and Quarterly Reports
 

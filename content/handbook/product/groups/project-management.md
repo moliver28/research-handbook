@@ -149,6 +149,6 @@ Engineering team-members can shadow a product stable-counterpart. Shadowing sess
 ### Speed Runs
 
 - Labels
-    - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
+  - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
 - Issues
-    - [Description Change History](https://youtu.be/-JgfJSSLYlI)
+  - [Description Change History](https://youtu.be/-JgfJSSLYlI)

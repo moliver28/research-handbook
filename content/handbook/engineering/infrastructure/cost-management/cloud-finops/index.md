@@ -75,7 +75,7 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_infra_mapping_day)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_infra_mapping_day)
 
 #### rpt_gcp_billing_pl_day
 
@@ -110,7 +110,7 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_pl_day)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_pl_day)
 
 #### rpt_gcp_billing_pl_day_ext
 
@@ -145,7 +145,7 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_pl_day_ext)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_pl_day_ext)
 
 #### rpt_gcp_billing_pl_day_combined
 
@@ -180,7 +180,7 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_pl_day_combined)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_pl_day_combined)
 
 #### build_artifacts_pl_daily
 
@@ -204,7 +204,7 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.build_artifacts_pl_daily)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.build_artifacts_pl_daily)
 
 ##### Examples
 
@@ -240,7 +240,7 @@ Description: This query aggregates build artifacts usage data by P&L category fo
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.ci_runners_pl_daily)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.ci_runners_pl_daily)
 
 ##### Examples
 
@@ -279,7 +279,7 @@ Description: This query summarizes the total CI minutes used by each P&L categor
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.combined_pl_mapping)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.combined_pl_mapping)
 
 ##### Examples
 
@@ -314,7 +314,7 @@ Description: This query provides an average percentage allocation of P&L categor
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.container_registry_pl_daily)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.container_registry_pl_daily)
 
 ##### Examples
 
@@ -348,7 +348,7 @@ Description: This query provides an average percentage allocation of P&L categor
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.haproxy_backend_pl)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.haproxy_backend_pl)
 
 ##### Examples
 
@@ -381,7 +381,7 @@ Description: This query averages the allocation percentages for each HAproxy bac
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.haproxy_backend_ratio_daily)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.haproxy_backend_ratio_daily)
 
 ##### Examples
 
@@ -414,7 +414,7 @@ Description: This query calculates the average daily usage ratio for each backen
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.infralabel_pl)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.infralabel_pl)
 
 ##### Examples
 
@@ -447,7 +447,7 @@ Description: This query provides an average allocation value for each infrastruc
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.namespace_pl_daily)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.namespace_pl_daily)
 
 ##### Examples
 
@@ -480,7 +480,7 @@ Description: This query counts the number of namespaces per P&L category on a gi
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.projects_pl)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.projects_pl)
 
 ##### Examples
 
@@ -514,7 +514,7 @@ Description: This query counts the number of namespaces per P&L category on a gi
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.repo_storage_pl_daily)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.repo_storage_pl_daily)
 
 ##### Examples
 
@@ -546,7 +546,7 @@ Description: This query aggregates the total repository storage usage in GB by P
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.folder_pl)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.folder_pl)
 
 #### rpt_gcp_billing_skus_day
 
@@ -570,7 +570,7 @@ Description: This query aggregates the total repository storage usage in GB by P
 
 ##### Links
 
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_skus_day)
+- [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_skus_day)
 
 ### Lookback mappings
 
@@ -584,8 +584,8 @@ There are two lookback mapping models:
 
 ##### Links
 
-  - [Flex CUD Lookback](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.flex_cud_lookback)
-  - [Flex CUD Lookback](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.t2d_cud_lookback)
+- [Flex CUD Lookback](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.flex_cud_lookback)
+- [Flex CUD Lookback](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.t2d_cud_lookback)
 
 ### Dashboards
 

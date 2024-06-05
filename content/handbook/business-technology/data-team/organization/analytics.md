@@ -18,13 +18,13 @@ Of the [Data Team's Responsibilities](/handbook/business-technology/data-team/#r
 Additionally, the **Data Analytics Team** supports the following responsibilities
 
 - With the **Data Leadership Team**:
-    - Defining and publishing a Data Strategy to help maximize the value of GitLab's Data Assets
-    - Broadcasting regular updates about data deliverables, ongoing initiatives, and upcoming plans
+  - Defining and publishing a Data Strategy to help maximize the value of GitLab's Data Assets
+  - Broadcasting regular updates about data deliverables, ongoing initiatives, and upcoming plans
 - With the [**Data Platform Team**](/handbook/business-technology/data-team/organization/engineering/#data-platform-responsibilities):
-    - Building and maintaining the company's central Enterprise Data Warehouse to support Reporting, Analysis, Dimensional Modeling, and Data Development for all GitLab teams
-    - Developing Data Management features such as master data, reference data, data quality, data catalog, and data publishing
-    - Providing Self-Service Data capabilities to help everyone leverage data and analytics
-    - Helping to define and champion Data Quality practices and programs for GitLab data systems
+  - Building and maintaining the company's central Enterprise Data Warehouse to support Reporting, Analysis, Dimensional Modeling, and Data Development for all GitLab teams
+  - Developing Data Management features such as master data, reference data, data quality, data catalog, and data publishing
+  - Providing Self-Service Data capabilities to help everyone leverage data and analytics
+  - Helping to define and champion Data Quality practices and programs for GitLab data systems
 
 ## Handbook First on the Data Analytics Team
 

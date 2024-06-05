@@ -134,7 +134,7 @@ Component tests check that the each model changed correctly builds independently
 
 Integration tests check that a changed model does not negatively impact the operation of any other model. Any model that depends on a changed model should be built and component tests executed as part of the integration testing of a changed model. However, when the expected sequential build time of all of the dependent models is excessively long, more than and hour of run time, then a subset of the dependent models can be selected. When selecting a subset of models, the longest or most critical path should be selected while minimizing the sequential build time. Additionally, if the changes are net new, such as adding a new column, then integration tests can be omitted with the following exceptions:
 
-  - A downstream model is configured to be incremental and not configured to append_new_column or sync_all_columns when the schema changes
+- A downstream model is configured to be incremental and not configured to append_new_column or sync_all_columns when the schema changes
 
 All incremental downstream models of a change model that would need to be refreshed to prevent an error at run time can be found using the following dbt command:
 

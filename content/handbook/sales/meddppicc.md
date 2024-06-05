@@ -47,8 +47,8 @@ Check out the [Demystifying the Metrics Conversation](/handbook/sales/command-of
 - What is the business case?
 - Have you quantified the challenge(s) the customer is having and the impact to the organization?
 - What quantifiable metrics/measurements have been identified?
-    - Top-line metrics include quicker time to market, higher quality (improvements towards sales and revenue)
-    - Bottom line metrics include reduction in operating costs
+  - Top-line metrics include quicker time to market, higher quality (improvements towards sales and revenue)
+  - Bottom line metrics include reduction in operating costs
 - How will you prove the business benefits of the solution?
 - Has the customer bought into your Metrics?
 - Are your Metrics aligned with the desired business outcomes?
@@ -111,8 +111,8 @@ Check out the [Demystifying the Metrics Conversation](/handbook/sales/command-of
 ### Qualifying Questions
 
 - What is the customer's criteria for selection?
-    - What is the Business Decision Criteria (BDC)?
-    - What is the Technical Decision Criteria (TDC)?
+  - What is the Business Decision Criteria (BDC)?
+  - What is the Technical Decision Criteria (TDC)?
 - What are the highest priority Required Capabilities?
 - How will these criteria be weighted during the decision process?
 - Have all key customer stakeholders helped shape the above requirements?

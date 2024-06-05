@@ -11,14 +11,14 @@ As a means to ensure a healthy [Incident Manager](/handbook/engineering/infrastr
 
 An Incident Manager On Call (IMOC) has the following goals during a call:
 
-  - Identify/quantify impact to GitLab customers (metrics, customer support requests)
-  - Gather necessary folks to support area(s) of investigation/resolution
-  - Suggest *politely* that people not contributing leave the call, request that folks do so when the number of people in the call is a distraction (30 people as an somewhat arbitrary guideline).
-  - Validate recent releases and feature flags (can we roll back or change the flag?)
-  - Restate status for folks joining with a low level of shame (your possible misunderstanding is a chance for group clarity and learning)
-  - Drive to identify the fastest path to mitigation and interrupt as necessary
-  - Check in on the above on a regular candence (S1 every 5 to 10 minutes)
-  - Communicate status to the right audience
+- Identify/quantify impact to GitLab customers (metrics, customer support requests)
+- Gather necessary folks to support area(s) of investigation/resolution
+- Suggest *politely* that people not contributing leave the call, request that folks do so when the number of people in the call is a distraction (30 people as an somewhat arbitrary guideline).
+- Validate recent releases and feature flags (can we roll back or change the flag?)
+- Restate status for folks joining with a low level of shame (your possible misunderstanding is a chance for group clarity and learning)
+- Drive to identify the fastest path to mitigation and interrupt as necessary
+- Check in on the above on a regular candence (S1 every 5 to 10 minutes)
+- Communicate status to the right audience
 
 Some of this may feel counter to GitLab Values; this is not designed or intended to diminish our values but to acknowledge and reinforce our need to mitigate customer impact as quickly as possible.
 
@@ -147,8 +147,8 @@ Because new incident managers are being added to the rotation on an ongoing basi
 
 1. Around the 1st Tuesday of each month:
 
-  - The coordinator will review any open [~IM-Onboarding::Ready issues](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=closed_at_desc&state=opened&label_name%5B%5D=IM-Onboarding%3A%3AReady&first_page_size=20) since the previous scheduling cycle and add these team members to the schedule. Changes will be made to take effect at the beginning of the second full month after the current day. For example, if the current day is Jan 5, the shift changes will be make to go into effect during the first week of March.
-  - The coordinator will review any **open** Incident Manager offboarding issues and remove these team members from the schedule moving forward. They will be notified in their offboarding issues confirming their removal from PagerDuty and the offboarding issue will be closed by the coordinator.
+- The coordinator will review any open [~IM-Onboarding::Ready issues](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=closed_at_desc&state=opened&label_name%5B%5D=IM-Onboarding%3A%3AReady&first_page_size=20) since the previous scheduling cycle and add these team members to the schedule. Changes will be made to take effect at the beginning of the second full month after the current day. For example, if the current day is Jan 5, the shift changes will be make to go into effect during the first week of March.
+- The coordinator will review any **open** Incident Manager offboarding issues and remove these team members from the schedule moving forward. They will be notified in their offboarding issues confirming their removal from PagerDuty and the offboarding issue will be closed by the coordinator.
 
 1. An announcement will be posted in [`#imoc_general`](https://gitlab.slack.com/archives/C01NY82EJF6) indicating that the schedule has been modified. Team members who have pre-existing overrides after the modified date (March in the example above) will be notified.
 

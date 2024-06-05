@@ -27,15 +27,15 @@ For FY25, Total Rewards will be providing [Total Compensation Statements](/handb
 
 - **Communicate the increase face-to-face over [Zoom]({{< ref "communication#zoom" >}}).** As a manager, this is an opportunity for you to have a conversation with your team member about their compensation, increase and/or equity refresh grant (if applicable). Having the conversation over Zoom allows for you to have a dialogue with your team member (versus just sharing the number) and allows you to pick up other information like tone and non-verbal cues which can tell you more about how someone is feeling.
 - **Prepare for the call ahead of time.** As a manager, you should have awareness of the following facts about GitLab's compensation principles (please review the handbook's [Global Compensation](/handbook/total-rewards/compensation/) page), any recent changes to the compensation calculator/band and personal details about your team member in Workday:
-    - Hire date
-    - Current compensation (including base salary, variable pay (where applicable), equity etc.)
-    - Date of last compensation adjustment
-    - Performance Factor
-    - Growth Potential Factor
-    - Key Talent
-    - Location factor changes
-    - Benchmark changes
-    - % and # increase: This number can be found on the Total Compensation Statement
+  - Hire date
+  - Current compensation (including base salary, variable pay (where applicable), equity etc.)
+  - Date of last compensation adjustment
+  - Performance Factor
+  - Growth Potential Factor
+  - Key Talent
+  - Location factor changes
+  - Benchmark changes
+  - % and # increase: This number can be found on the Total Compensation Statement
 - Communicate the change at the beginning of the meeting. You want to give the team member time to ask questions and discuss their compensation change. Avoid trying to rush to communicate at the end of a [1:1 meeting]({{< ref "1-1" >}}).
 - Try to clearly explain the reasoning behind the compensation change. As Compensation differentials are related to performance, the preparation done for the [Talent Assessment conversation](/handbook/people-group/talent-assessment/#best-practices-for-communicating-performancegrowth-factors) could also be useful in explaining the "why". It is also recommended to review the Annual Compensation review page for [all considerations that go into compensation reviews.](/handbook/total-rewards/compensation/compensation-review-cycle/)
 - Protect the confidentiality of other team members by avoiding saying things like “everyone else received less than you” or “you were the only team member to get a discretionary increase.”
@@ -89,8 +89,8 @@ This section provides and overview of potential compensation conversation scenar
 
 - "I am so pleased to inform you that you will be receiving a (cash compensation adjustment/equity refresh grant) as a result of this year’s compensation review. You will see your compensation increase effective on February 1st.  Your (compensation increase/equity refresh grant) is based on one or more the following factors (Talent Assessment, Location Factor/Geo Region, Benchmark change and/or Discretionary).
 Details of this will be outlined on the Annual Compensation Statement attached.
-    - Your salary will be increased to (insert $ amount in local currency) which is a (insert %) adjustment (and/or)
-    - I am (also) pleased to inform you that your equity refresh grant is approved at (insert USD). This means your total unvested equity is $XX based on the share price of $X (as listed on the Total Compensation Statement)".
+  - Your salary will be increased to (insert $ amount in local currency) which is a (insert %) adjustment (and/or)
+  - I am (also) pleased to inform you that your equity refresh grant is approved at (insert USD). This means your total unvested equity is $XX based on the share price of $X (as listed on the Total Compensation Statement)".
 Thank you for your ongoing commitment to results at GitLab! If you have any questions you can reach out, otherwise this email is for your information only and no reply is required."
 
 1. **Other scenarios:** If you have a scenario different from the above, and/or you need help with messaging, please work with your manager or [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group).

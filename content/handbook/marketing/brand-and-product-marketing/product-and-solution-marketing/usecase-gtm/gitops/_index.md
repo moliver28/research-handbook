@@ -105,46 +105,46 @@ Below are the [market requirements](/handbook/marketing/brand-and-product-market
 
 ### Foster Collaboration
 
-   - Description: The solution is designed to enable and foster collaboration among team members. The collaboration system includes manual gates and approvals as well as automated workflows.
-   - Typical features:
-     - Add a general comment
-     - Tag individuals or groups
-     - Add an inline comment on code
-     - Add a suggestion
-     - Show the total unresolved threads at the tops
-     - Show you can’t merge until you resolve comments/suggestions
-     - Resolve a thread
-     - Resolve a thread by creating a new issue
-     - Apply a suggestion (accept a suggestion)
-     - Show codeowners
-     - Show approval
+- Description: The solution is designed to enable and foster collaboration among team members. The collaboration system includes manual gates and approvals as well as automated workflows.
+- Typical features:
+  - Add a general comment
+  - Tag individuals or groups
+  - Add an inline comment on code
+  - Add a suggestion
+  - Show the total unresolved threads at the tops
+  - Show you can’t merge until you resolve comments/suggestions
+  - Resolve a thread
+  - Resolve a thread by creating a new issue
+  - Apply a suggestion (accept a suggestion)
+  - Show codeowners
+  - Show approval
 
-  Other features
-     - Quickly create new branches of a project
-     - Add new files/assets
-     - Collaborate on proposed changes (review comments, suggest changes, WebIDE, suggestion approvals, conflict resolution, merge, diffing, hand-offs)
-     - Workflow automation
-     - Wiki snippets
-     - Version-controlled snippets
-     - Automatically update or close related issue(s) when a merge request is merged
-     - Configurable issue closing pattern
-     - Display merge request status for builds in CI system
-     - Terraform plan output
-     - Visibility into security scans and build stats
+- Other features
+  - Quickly create new branches of a project
+  - Add new files/assets
+  - Collaborate on proposed changes (review comments, suggest changes, WebIDE, suggestion approvals, conflict resolution, merge, diffing, hand-offs)
+  - Workflow automation
+  - Wiki snippets
+  - Version-controlled snippets
+  - Automatically update or close related issue(s) when a merge request is merged
+  - Configurable issue closing pattern
+  - Display merge request status for builds in CI system
+  - Terraform plan output
+  - Visibility into security scans and build stats
 
-   - Value: Quality of the code changes being made increases which leads to
-        - greater accuracy of fulfilled requests
-        - greater infrastructure stability
-        - and improved release velocity
+- Value: Quality of the code changes being made increases which leads to
+  - greater accuracy of fulfilled requests
+  - greater infrastructure stability
+  - and improved release velocity
         through team review and validation.
 
 ### Compliance and Auditing
 
-   - Description: All changes to production are automated and gated by merging to a Git branch. Permission and access are built-in via the Git management tool.
+- Description: All changes to production are automated and gated by merging to a Git branch. Permission and access are built-in via the Git management tool.
         Approvals and merge access can be restricted to certain personnel or groups.
         Commit history shows the log of changes.
-   - Typical Features: CMRs/PRs, code review features, RBAC, branch permissions, group permission setting, CodeOwners, MR approvals
-   - Value: Don't have to manage separate permissions for your infrastructure; they can match that of your development process.
+- Typical Features: CMRs/PRs, code review features, RBAC, branch permissions, group permission setting, CodeOwners, MR approvals
+- Value: Don't have to manage separate permissions for your infrastructure; they can match that of your development process.
         Strong adherence to internal and regulatory compliance standards.
         Audits take less time and are easier to conduct.
         Changes to infra are more secure because they are locked down.
@@ -156,19 +156,19 @@ Below are the [market requirements](/handbook/marketing/brand-and-product-market
 
 ### Test Automation
 
-   - Description: Run and manage automated tests and validate changes before they're merged to production. This includes everything from basic to more in-depth tests and extends test automation into areas of functional, system, performance testing, and more. Ensure software is consistently tested to meet both technical and business requirements without manual intervention, enabling developers to get rapid feedback if their code changes introduce potential defects or vulnerabilities.
-   - Typical Features: The ability to run automated tests in CI/CD pipelines in isolated and ephemeral environments. Various tests may include (but aren't limited to) unit testing, code integration testing, regression testing, static code analysis, functional testing, and accessibility testing. **Most types of testing for app code also apply to any type of code (infra, policy, etc.)**.
-   - Value: Catch potential errors sooner, rather than later- before they impact production.
+- Description: Run and manage automated tests and validate changes before they're merged to production. This includes everything from basic to more in-depth tests and extends test automation into areas of functional, system, performance testing, and more. Ensure software is consistently tested to meet both technical and business requirements without manual intervention, enabling developers to get rapid feedback if their code changes introduce potential defects or vulnerabilities.
+- Typical Features: The ability to run automated tests in CI/CD pipelines in isolated and ephemeral environments. Various tests may include (but aren't limited to) unit testing, code integration testing, regression testing, static code analysis, functional testing, and accessibility testing. **Most types of testing for app code also apply to any type of code (infra, policy, etc.)**.
+- Value: Catch potential errors sooner, rather than later- before they impact production.
 Increase security by testing for potential vulnerabilities, before going to production.
 
 ### Pipeline configuration management
 
-   - Description: Engineers can automate the build and test workflow, specifically connecting to their source code repository, defining specific actions/tasks in build pipelines, and set parameters for exactly how/when to run jobs, using scripts and/or a GUI to configure pipeline changes. Configurations are repeatable and traceable to allow for quick comparisons and tracking of changes to environments.
-   - Typical Features: Configurations via web UI or supports config-as-code in a human readable syntax, like YAML.
+- Description: Engineers can automate the build and test workflow, specifically connecting to their source code repository, defining specific actions/tasks in build pipelines, and set parameters for exactly how/when to run jobs, using scripts and/or a GUI to configure pipeline changes. Configurations are repeatable and traceable to allow for quick comparisons and tracking of changes to environments.
+- Typical Features: Configurations via web UI or supports config-as-code in a human readable syntax, like YAML.
       Pipeline templates. Project Templates.
       Pipeline linking - store pipeline template in central repo
       Pipeline dependancy - child/parent, upstream/downstream
-   - Value: Maximize development time and improves productivity. Less manual work.
+- Value: Maximize development time and improves productivity. Less manual work.
       Centralize management to lower adminstration.
       Increase consistency by using the templates to adhere to best practices and required testing.
 

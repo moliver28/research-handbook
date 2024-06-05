@@ -106,12 +106,12 @@ One way to do weighting is to look at the number of steps necessary in the compl
 
 As a simple example:
 
- - Take 2 tasks: A and B.
- - The score for task A is a perfect 20/20, and the score for task B is a dismal 10/20.
- - Now, suppose task A has a weight of 1, and task B has a weight of 2. In this case, B should be weighted twice as much as A.
- - When scoring the grade for the **combined** tasks, multiply each score by its weight. The score for A stays at 20/20, and the score from B becomes 20/40 (10 *2 = 20, 20* 2 = 40).
- - Next, add the totals from the tasks to get the final weighted score (20 + 20 / 20 + 40).
- - The total score is 40/60 or .67, not the unweighted average of 30/40 or .75, because we weighed task B more and task B performed worse.
+- Take 2 tasks: A and B.
+- The score for task A is a perfect 20/20, and the score for task B is a dismal 10/20.
+- Now, suppose task A has a weight of 1, and task B has a weight of 2. In this case, B should be weighted twice as much as A.
+- When scoring the grade for the **combined** tasks, multiply each score by its weight. The score for A stays at 20/20, and the score from B becomes 20/40 (10 *2 = 20, 20* 2 = 40).
+- Next, add the totals from the tasks to get the final weighted score (20 + 20 / 20 + 40).
+- The total score is 40/60 or .67, not the unweighted average of 30/40 or .75, because we weighed task B more and task B performed worse.
 
 ### Metrics
 
@@ -208,11 +208,11 @@ UX Researchers and their teams will identify [Actionable Insights](/handbook/pro
 
 Actionable Insights should get the following labels:
 
- - `Usability benchmark`
- - `Section::Stage` scoped labels to identify the section and stage(s) covered in the study
- - `Actionable Insight::Product change` or `Actionable Insight::Exploration needed`
- - NOTE: `Actionable Insight::Product change` require a Severity Label to be applied to each issue.
- - It's also helpful for stakeholders and for you to rate the severity level of each Actionable Insights so that teams know how to prioritize them. You can use the task level Severity ratings described above to attribute severity levels for each Actionable Insight.
+- `Usability benchmark`
+- `Section::Stage` scoped labels to identify the section and stage(s) covered in the study
+- `Actionable Insight::Product change` or `Actionable Insight::Exploration needed`
+- NOTE: `Actionable Insight::Product change` require a Severity Label to be applied to each issue.
+- It's also helpful for stakeholders and for you to rate the severity level of each Actionable Insights so that teams know how to prioritize them. You can use the task level Severity ratings described above to attribute severity levels for each Actionable Insight.
 
 #### Timeline
 

@@ -43,12 +43,12 @@ This survey is performed in two parts; an email is sent to an identified contact
 ### FY25 Schedule
 
 - **All-Customer CSAT Survey 1**
-   - May 22, 2024
-   - Follow-up email: May 30, 2024
-   - Purpose: Create a macro-level baseline for Customer Satisfaction Scoring, not drive customer-level interactions and escalation.
+  - May 22, 2024
+  - Follow-up email: May 30, 2024
+  - Purpose: Create a macro-level baseline for Customer Satisfaction Scoring, not drive customer-level interactions and escalation.
 - **All-Customer Survey 2**
-   - January 8, 2025 (tentative)
-   - Purpose: Create account-level action orientation for Customer Success and Sales organizations.
+  - January 8, 2025 (tentative)
+  - Purpose: Create account-level action orientation for Customer Success and Sales organizations.
 
 ### How to View CSAT Survey Results
 
@@ -59,7 +59,7 @@ The CSSO team is working to make survey results available within Snowflake so th
 #### If you have a Gainsight license
 
 - Gainsight: NPS and CSAT scores are written to a scorecard in the Customer 360.
-   - For an overview of how CSMs use Customer360 (or C360), please refer to the [Gainsight CSM C360 Overview Page](/handbook/customer-success/csm/gainsight/c360-overview)
+  - For an overview of how CSMs use Customer360 (or C360), please refer to the [Gainsight CSM C360 Overview Page](/handbook/customer-success/csm/gainsight/c360-overview)
 - SalesForce: Survey responses can also be found in the embedded Gainsight widget on any account page in Salesforce.
 
 #### What is CSAT?
@@ -93,5 +93,5 @@ You may request data for the following NPS surveys:
 ### Other CSAT
 
 - Post-Scale Engagement CSAT Survey
-   - Transactional to Scale/CSE customers only
+  - Transactional to Scale/CSE customers only
 - [Case Closure Survey](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey

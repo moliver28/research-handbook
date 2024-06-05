@@ -44,9 +44,9 @@ This section pulls all the pertinent best practices from the step-by-step instru
   * Provide information (on a slide) on how attendees should use Zoom chat and the Q&A feature.
 * Provide a slide featuring the team and their contact details.
 * Add a feedback survey on the last slide when thanking people for coming, capturing them right away may yield more responses.
-    * when planning the feedback survey/form ensure you have clear objectives/goals
-    * limited the amount of questions
-    * the survey should be anonymous
+  * when planning the feedback survey/form ensure you have clear objectives/goals
+  * limited the amount of questions
+  * the survey should be anonymous
 * Posting event bundle with prezos, recording and thank you tends to stir up new meetings/conversations.
 * Download the usage report within 24 hours of event close and deliver to Marketing Ops via list upload [issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=general-list-import-request).
 
@@ -97,13 +97,13 @@ Please consider reviewing and applying our [GitLab Team Member Social Media Guid
    * Do you have a guest speaker? Talking about a company, person, or brand that would have a Twitter or LinkedIn page? Include the handle (@name) in the Twitter post - and tag the appropriate page on LinkedIn.
 
 * Do’s
-   * DO use 1-3 hashtags in your posts, across social channels
-      * Example: I’m so excited to announce that I’ll be speaking about #remote #DevOps at my webcast later this week! Join me and learn how @GitLab can help.
-   * DO write in your own voice, be creative, and use emoji
-      * Example: 🗣Everyone is talking about #remote #DevOps and at @GitLab it’s all I work on. 💻 Join me for a webinar to learn how we make it all work.
+  * DO use 1-3 hashtags in your posts, across social channels
+    * Example: I’m so excited to announce that I’ll be speaking about #remote #DevOps at my webcast later this week! Join me and learn how @GitLab can help.
+  * DO write in your own voice, be creative, and use emoji
+    * Example: 🗣Everyone is talking about #remote #DevOps and at @GitLab it’s all I work on. 💻 Join me for a webinar to learn how we make it all work.
 * Don’ts
-    * DON’T hashtags the predicate, object, or complements in a sentence unless it’s a direct topic of your event.
-      * Example: So #excited to #announce our new #event on #remote #DevOps… #GitLab #Tech #Webcast
+  * DON’T hashtags the predicate, object, or complements in a sentence unless it’s a direct topic of your event.
+    * Example: So #excited to #announce our new #event on #remote #DevOps… #GitLab #Tech #Webcast
 
 1. Top-Level messaging to aid in copy
    * Write 3 sentences answering these questions:

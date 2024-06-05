@@ -36,7 +36,7 @@ If you are no longer able to or interested in serving in the Core Team, you shou
 1. Email the nominated member to confirm they are interested before beginning the orientation process.
 1. Create an issue in the [Core Team Project](https://gitlab.com/gitlab-org/gitlab-core-team/general) using the [Core Team Member Onboarding Issue Template](https://gitlab.com/gitlab-org/gitlab-core-team/general/-/issues/new?issuable_template=onboarding) and follow the steps outlined.
 
-  - Core team members must sign an NDA before granting them any access.
+- Core team members must sign an NDA before granting them any access.
 
 ## Core Team Group
 

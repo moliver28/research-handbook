@@ -725,10 +725,10 @@ Please follow the outlined steps below before sending the unsigned copy of the C
     1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field blank.
     1. **Scroll down to the end of the contract** - replace Signatory's name with “GitLab Signatory”. Save the contract as a PDF format.
 - To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-    - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
-    - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
-    - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
-    - **Attachment** : CES to attach the unsigned PDF contract
+  - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
+  - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
+  - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
+  - **Attachment** : CES to attach the unsigned PDF contract
 - In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “German Contract already sent to counsel”.
 - A welcome email should be sent to the candidate, and they should be marked as hired as per the normal hiring process.
 - Once the candidate has confirmed that they have received the physical contract in mail. CES will send the email template "German Contract step 2" to the candidate and close out the issue.
@@ -750,11 +750,11 @@ The Intern contract template will be used for both C2C interns and all other int
 1. After the offer is sent, CES will initiate the background check by selecting the Comprehensive Criminal Check with Employment. **IMPORTANT NOTE - If this is a C2C (Code2College) intern - you will only need to select the Comprehensive Criminal Check in Sterling. Employment check is not needed as most C2C interns will be minors.**
 1. Because most interns from C2C are minors, at the time the BGC is initiated, CES will also need to send the [Parental Consent Form](https://docs.google.com/document/d/1J0xundRL___Hhg0zNkt7KTMMEgTv63U5rseqTlmv8ok/edit) to the interns guardian.
 
- - This form can be send via DocuSign
- - Please add appropriate tokens
- - Please set up distribution as follows (guardian email can be recieved from Emerging Talent Coordinator):
-    - 1. Guardian - Needs to sign
-    - 2. Emerging Talent Coordinator - receives a copy
+- This form can be send via DocuSign
+- Please add appropriate tokens
+- Please set up distribution as follows (guardian email can be recieved from Emerging Talent Coordinator):
+  - 1. Guardian - Needs to sign
+  - 2. Emerging Talent Coordinator - receives a copy
 
 1. Once the offers are signed by the candidate, CES will send the GitLab Inc Intern Welcome Email. **Note: GitLab will provide laptops to these interns. The Welcome Email asks them to fill out form ASAP**
 1. Once the req is cleared, CES can mark the Intern as hired.

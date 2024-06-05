@@ -181,14 +181,15 @@ Partner Help Desk (PHD) reviews request to verify:
 
 - If the partner account is Authorized in Impartner
 - If there are any existing NFR licenses - check license.gitlab.com with the partner account name to see if the Partner already has any existing NFR licenses.
-    - Select Partners are allowed up to 25 licenses, Open Partners up to 10 licenses
-    - If existing licenses, set the expiration date to the same expiration date as existing license (unless this is a renewal of course)
+  - Select Partners are allowed up to 25 licenses, Open Partners up to 10 licenses
+  - If existing licenses, set the expiration date to the same expiration date as existing license (unless this is a renewal of course)
 - If the partner has at least one employee who has completed the Solution Architect Certification or Professional Services Engineer Certification training, lab and exam (with a passing score).
-    - Check in Impartner for certifications by going to the Training tab
-    - Next to the Certification: _Solution Architect Core,_ click the number in the “Completed” column to display all certification completions and sort by account to see if a certification has been completed.
-    - Next to the Certification: _GitLab Trusted Professional Services Engineer (PSE) Certification,_ click the number in the Completed column and sort by account to see if a certification has been completed.
-    - If the partner has no certifications yet, but meets the other two eligibility criteria above, currently we can still send the NFR license, but we should encourage the partner to complete the Solution Architect Core. See sample email to Partner contact and CAM, once the license has been sent, below:
+  - Check in Impartner for certifications by going to the Training tab
+  - Next to the Certification: _Solution Architect Core,_ click the number in the “Completed” column to display all certification completions and sort by account to see if a certification has been completed.
+  - Next to the Certification: _GitLab Trusted Professional Services Engineer (PSE) Certification,_ click the number in the Completed column and sort by account to see if a certification has been completed.
+  - If the partner has no certifications yet, but meets the other two eligibility criteria above, currently we can still send the NFR license, but we should encourage the partner to complete the Solution Architect Core. See sample email to Partner contact and CAM, once the license has been sent, below:
 
+    ```text
         _Subject Line: NFR License Request_
 
         _Hi [Partner License Contact],_
@@ -200,6 +201,7 @@ Partner Help Desk (PHD) reviews request to verify:
         _Please let us know if you need anything else._
 
         _Kind regards,_
+    ```
 
 PHD works with partner if additional information is needed.
 
@@ -408,10 +410,10 @@ NOD is used to communicate to Partners via targeted emails and the Partner Flash
 - **Partners** - automatically signed up when approved and authorized via the Partner Portal.  If a Partner believes they do not have access please provide the user detail: first and last name, email address, and company name in the**#partner-programs-ops** Slack channel, and we will investigate.  Typically we find the Partner has inadvertently opted out of communications.  \
 
 - **Internal teams must self-register to receive Partner Flash and Partner Email communications.**
-    - Use [this link](https://partnerflash.gitlab.com/login/) to register; it's pretty straightforward, but check out [these instructions](https://docs.google.com/presentation/d/1iX23o0N-G25GXfBs82JsmvLw-7Bc0_8e6Cva1o81hX0/edit#slide=id.g127a0ca15c9_0_266) if you need assistance.
-    - Important:Use your GitLab email address - not a personal address.
-    - Select GitLab employee in the drop-down for "Company Type".
-    - Once registered, you will receive an email with instructions on how to edit your communication preferences. \
+  - Use [this link](https://partnerflash.gitlab.com/login/) to register; it's pretty straightforward, but check out [these instructions](https://docs.google.com/presentation/d/1iX23o0N-G25GXfBs82JsmvLw-7Bc0_8e6Cva1o81hX0/edit#slide=id.g127a0ca15c9_0_266) if you need assistance.
+  - Important:Use your GitLab email address - not a personal address.
+  - Select GitLab employee in the drop-down for "Company Type".
+  - Once registered, you will receive an email with instructions on how to edit your communication preferences. \
 
 - **Become a Contributor**- If you want to be a contributor,[click here](https://partnerflash.gitlab.com/registration/admin/personal_profile) and fill out the request form.  Once approved, navigate to the NOD **Home Page**or [click here](https://docs.google.com/presentation/d/1YMMQGTk1fhEDLtFAHkrMeIsIbHIYLX3O/edit?usp=sharing&ouid=109735377270454778513&rtpof=true&sd=true) to access training and helpful tips.
 
@@ -540,13 +542,13 @@ Qualitative Success Metrics
 
 - https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel
 - Guidelines for Partner Folders:
-    - The partners Group is further divided into regional sub-groups
-    - Within each region sub-group Partners will get their own group
-    - Partner groups contain a collaboration project and internal project
-    - Partner employees should be explicitly invited to collaboration group
-    - Internal group should not be visible to non-GitLab employees and may contain licensing details or other sensitive information
-    - Additional projects may be created within the partner subgroup to contain code bases for prototypes or PoV
-    - Please avoid creating additional subgroups within partner groups
+  - The partners Group is further divided into regional sub-groups
+  - Within each region sub-group Partners will get their own group
+  - Partner groups contain a collaboration project and internal project
+  - Partner employees should be explicitly invited to collaboration group
+  - Internal group should not be visible to non-GitLab employees and may contain licensing details or other sensitive information
+  - Additional projects may be created within the partner subgroup to contain code bases for prototypes or PoV
+  - Please avoid creating additional subgroups within partner groups
 
 **Projects**
 
@@ -555,21 +557,21 @@ Qualitative Success Metrics
 **Labels**
 
 - **Team labels**
-    - Channel- issue initially created, used in templates, the starting point for any label that involves Channels
-    - Channel Ops - label for issues that directly impact the Channel Ops & team. DRI will be defined in the intro of the issue
-    - Channel Program - label for issues that directly impact the Dir of Channel Programs & team. DRI will be defined in the intro of the issue
-    - Channel Services- label for issues that directly impact the Channel Services Manager. DRI will be defined in the intro of the issue
-    - Channel Marketing- label for issues that directly impact the Channel Marketing team. DRI will be defined in the intro of the issue
-    - Channel Distribution- label for issues that directly impact the Distribution leader. DRI will be defined in the intro of the issue
-    - Channel GSI - label for issues that are owned by the Dir of GSI. DRI will be defined in the intro of the issue
-    - Internal Channel Enablement- label for issues that are focused on Internal Channel Enablement issues. DRI will be defined in the intro of the issue
-    - Channel Handbook Needs- label for issues that are about pending or planned Channel Handbook changes. DRI will be defined in the intro of the issue
-    - QBR - Requests from Sales QBRs
+  - Channel- issue initially created, used in templates, the starting point for any label that involves Channels
+  - Channel Ops - label for issues that directly impact the Channel Ops & team. DRI will be defined in the intro of the issue
+  - Channel Program - label for issues that directly impact the Dir of Channel Programs & team. DRI will be defined in the intro of the issue
+  - Channel Services- label for issues that directly impact the Channel Services Manager. DRI will be defined in the intro of the issue
+  - Channel Marketing- label for issues that directly impact the Channel Marketing team. DRI will be defined in the intro of the issue
+  - Channel Distribution- label for issues that directly impact the Distribution leader. DRI will be defined in the intro of the issue
+  - Channel GSI - label for issues that are owned by the Dir of GSI. DRI will be defined in the intro of the issue
+  - Internal Channel Enablement- label for issues that are focused on Internal Channel Enablement issues. DRI will be defined in the intro of the issue
+  - Channel Handbook Needs- label for issues that are about pending or planned Channel Handbook changes. DRI will be defined in the intro of the issue
+  - QBR - Requests from Sales QBRs
 - **Priority Weighting (using Eisenhower matrix and weighted tabs in GitLab)**
-    - WEIGHT 1 ~ Channel Priority:1 - Home runs (high value to GitLab and high likelihood of success that align to Sales & Channel OKRs) and committed to completion within stated milestones. This category will be limited because not everything can be a priority. These are both URGENT & IMPORTANT
-    - WEIGHT 2 ~ Channel Priority:2 - Big Bets (high value to GitLab, lower time urgency, longer dependencies or lower likelihood of success) within stated milestones. These are not urgent but IMPORTANT to our success
-    - WEIGHT 3 - Channel Priority:3 - Small wins within stated milestones. These are URGENT but not strategically important. Delegate or push out
-    - WEIGHT 4 - Channel Priority:4 - Small wins that are important but high value. Should be slotted in where backlog allows
-    - WEIGHT 5 - Channel Priority:Backlog - Things in the queue not currently being worked LABEL
+  - WEIGHT 1 ~ Channel Priority:1 - Home runs (high value to GitLab and high likelihood of success that align to Sales & Channel OKRs) and committed to completion within stated milestones. This category will be limited because not everything can be a priority. These are both URGENT & IMPORTANT
+  - WEIGHT 2 ~ Channel Priority:2 - Big Bets (high value to GitLab, lower time urgency, longer dependencies or lower likelihood of success) within stated milestones. These are not urgent but IMPORTANT to our success
+  - WEIGHT 3 - Channel Priority:3 - Small wins within stated milestones. These are URGENT but not strategically important. Delegate or push out
+  - WEIGHT 4 - Channel Priority:4 - Small wins that are important but high value. Should be slotted in where backlog allows
+  - WEIGHT 5 - Channel Priority:Backlog - Things in the queue not currently being worked LABEL
 
 **DRI** To be stated in intro of issue and assigned to that person. There maybe 1 or more assignee but the DRI should be stated intro of issues

@@ -179,8 +179,8 @@ Outgoing shadows are responsible for training incoming shadows. We currently tra
 
 **Make sure you do the following:**
 
- - **Create an onboarding issue.** The incoming shadow is responsible for creating their onboarding issue by the Friday before they start the program using the [`onboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=onboarding). Assign the issue to both the incoming and outgoing shadows (the person who will be "teaching one" and yourself).
- - In your second week, you'll **create an offboarding issue.** by using the [`offboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=offboarding).
+- **Create an onboarding issue.** The incoming shadow is responsible for creating their onboarding issue by the Friday before they start the program using the [`onboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=onboarding). Assign the issue to both the incoming and outgoing shadows (the person who will be "teaching one" and yourself).
+- In your second week, you'll **create an offboarding issue.** by using the [`offboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=offboarding).
 
 #### Consider creating goals
 

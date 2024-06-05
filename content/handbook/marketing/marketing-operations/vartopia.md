@@ -373,12 +373,12 @@ These are some guidelines to become familiar with when working on a module with 
 - Vartopia uses managed flows in their change sets. Thus, we should always ask how it functions or request a demo in Classic, and have a Salesforce App Builder be on the call to inspect the flow to ensure that capabilities won’t break any existing processes before they are deployed.
 - Preempt any change set updates with a managed package upgrade to reduce the chances of any problems or errors.
 - Vartopia uses flows/alerts as part of their managed package intended to notify the partners of every update related to partner leads for the Prospect module ie when the leads are shared, accepted, assigned, rejected, etc. Our partners do not see the value in needing to be updated for every lead and every status change. Ensure the following flows/alerts are turned off before every managed package upgrade:
-   - Vartopia Prospect Lead Flow
-   - Vartopia Prospect Contact Flow
-   - Prospect Assigned to Sales Rep Workflow on Contact
-   - Prospect Assigned to Sales Rep on Lead
-   - The Salesperson when the Prospect admin has Assigned to the Contact
-   - The Salesperson when the Prospect Admin has Assigned the Lead
+  - Vartopia Prospect Lead Flow
+  - Vartopia Prospect Contact Flow
+  - Prospect Assigned to Sales Rep Workflow on Contact
+  - Prospect Assigned to Sales Rep on Lead
+  - The Salesperson when the Prospect admin has Assigned to the Contact
+  - The Salesperson when the Prospect Admin has Assigned the Lead
 
 ## FAQ
 

@@ -73,8 +73,8 @@ The following links contain frequently asked security, legal & privacy, and avai
 ### Endpoint management
 
 - [Endpoint management at GitLab](https://internal.gitlab.com/handbook/it/endpoint-tools/)
-    - [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/)
-    - [EDR](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/)
+  - [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/)
+  - [EDR](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/)
 - [Use Gitleaks as a pre-commit git hook on laptops]({{< ref "gitleaks" >}})
 
 ### GitLab.com hardening techniques

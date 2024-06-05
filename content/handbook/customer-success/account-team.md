@@ -55,13 +55,13 @@ In Mid-Market, Solutions Architects are pooled so they are not aligned with spec
 
 - Trusted strategic advisor to the customer
 - [Responsible](/handbook/customer-success/csm/#high-level-responsibilities-of-a-csm) for the post-sales customer journey
-   - [Onboarding](/handbook/customer-success/csm/onboarding/)
-   - [Success Planning](/handbook/customer-success/csm/success-plans/)
-   - [Stage adoption & expansion](/handbook/customer-success/csm/stage-enablement-and-expansion/)
-   - [Organizing Workshops and Enablement Sessions for Use-case Enablement & Expansion](/handbook/customer-success/csm/workshops/)
-   - [Executive Business Reviews](/handbook/customer-success/csm/ebr/)
-   - [Risk Mitigation](/handbook/customer-success/csm/risk-mitigation/)
-   - [Renewal Discussions](/handbook/customer-success/csm/renewals/)
+  - [Onboarding](/handbook/customer-success/csm/onboarding/)
+  - [Success Planning](/handbook/customer-success/csm/success-plans/)
+  - [Stage adoption & expansion](/handbook/customer-success/csm/stage-enablement-and-expansion/)
+  - [Organizing Workshops and Enablement Sessions for Use-case Enablement & Expansion](/handbook/customer-success/csm/workshops/)
+  - [Executive Business Reviews](/handbook/customer-success/csm/ebr/)
+  - [Risk Mitigation](/handbook/customer-success/csm/risk-mitigation/)
+  - [Renewal Discussions](/handbook/customer-success/csm/renewals/)
 - Leads regular [cadence calls](/handbook/customer-success/csm/cadence-calls/) and keeps the [customer collaboration projects](/handbook/customer-success/csm/customer-collaboration-project/) up-to-date
 - Maintains [Gainsight](/handbook/customer-success/csm/gainsight/) records of customer health and triaging as necessary
 - Account escalation point of contact for [High or Critical Escalations](/handbook/customer-success/csm/escalations/)

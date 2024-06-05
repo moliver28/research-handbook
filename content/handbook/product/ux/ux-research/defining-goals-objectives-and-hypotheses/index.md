@@ -29,14 +29,14 @@ A hypothesis is basically an assumption. It’s a statement about what you belie
 A strong hypothesis is usually driven by existing evidence. Ask yourself: Why do you believe your assumption to be true? Perhaps your hunch was sparked by a passing conversation with a customer, something you read in a support ticket or issue, or even something you spotted in GitLab’s usage data.
 
 - Ask yourself:
-    - What current beliefs do you have about the user?
-    - What organizational or other barriers do you need to be mindful of?
-    - What are the business objectives for the project?
-    - What questions does the research need to answer?
-    - What are we trying to learn?
-    - What *must* the research achieve?
-    - Does any [prior research](/handbook/product/ux/ux-research/finding-existing-research/#how-to-find-existing-research) exist?
-        - What did prior research tell us?
+  - What current beliefs do you have about the user?
+  - What organizational or other barriers do you need to be mindful of?
+  - What are the business objectives for the project?
+  - What questions does the research need to answer?
+  - What are we trying to learn?
+  - What *must* the research achieve?
+  - Does any [prior research](/handbook/product/ux/ux-research/finding-existing-research/#how-to-find-existing-research) exist?
+    - What did prior research tell us?
 
 | **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives** |
 | ------ | ------ | ------ | ------ | ------ |
@@ -89,11 +89,11 @@ When writing your hypothesis, focus on simple solutions first and keep the scope
 ## Step 5 - Create research objectives
 
 - A well written list of research objectives:
-    - Delineate and align with the goal of the project.
-    - Define the overall high-level approach and the questions you might ask.
-    - Dictate the most suitable methods and tools at your disposal.
-    - Determine the outcomes you will get from the study.
-    - Need to be high level, but specific enough that research can provide a concise answer for each.
+  - Delineate and align with the goal of the project.
+  - Define the overall high-level approach and the questions you might ask.
+  - Dictate the most suitable methods and tools at your disposal.
+  - Determine the outcomes you will get from the study.
+  - Need to be high level, but specific enough that research can provide a concise answer for each.
 - Create **no more than 4 objectives** per research effort. If you try to achieve more than 4 objectives in one study, you are doing too much, as each objective will represent up to a dozen questions/tasks in your discussion guide.
 - Review the list of the ‘Questions we need answers to’ and identify the themes you see there. Reference the 'Hypothesis' and the 'Goal(s)' you have previously written.
 

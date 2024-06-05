@@ -71,10 +71,10 @@ In general, follow the [Code Review guidelines](https://docs.gitlab.com/ee/devel
 ### Understand the MR
 
 - Check the MR description for the following information. If any are missing, ask the author to complete the description before investing time in the review.
-   - A thorough explanation of the changes.
-   - How you can test the changes.
-   - Link(s) to the related issue(s).
-   - *Before* and *After* screenshots/videos (if appropriate).
+  - A thorough explanation of the changes.
+  - How you can test the changes.
+  - Link(s) to the related issue(s).
+  - *Before* and *After* screenshots/videos (if appropriate).
 - Some MRs with the `~"UX"` label may not have a design DRI or proposed designs associated with the change. In these cases, it is important to get as much context as you can about the change. If you are unsure how the changes impact other areas of the product, consider bringing in other designers and your design manager to help evaluate the impact of the proposal.
 
 ### Preview the MR
@@ -141,8 +141,8 @@ Some MRs have additional set up requirements.
   - To generate project vulnerabilities, execute `GITLAB_QA_ACCESS_TOKEN=XXXXXXXXXX GITLAB_URL="https://gitlab.com" bundle exec rake vulnerabilities:setup\[<Project_Id>,<Vulnerability_Count>\] --trace` from the `gitlab/qa` directory. Make sure to replace the placeholders in the script with your local access token, project ID, and desired number of vulnerabilities. An example of this might be `GITLAB_QA_ACCESS_TOKEN=asdfASDF1234- GITLAB_URL="http://localhost:3000/" bundle exec rake vulnerabilities:setup\[25,10] --trace`
   - To populate a merge request with vulnerabilities, [follow these steps](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/89526#note_992018561).
 - Monitor:
-   - For some MRs, you may need to add test alerts. Instructions for adding an alert, along with a sample alert, are available [here](/handbook/engineering/development/ops/monitor/respond/#assigning-mrs-for-code-review) (see the inline code snippet of instructions).
-   - Service Desk MRs sometimes require setting up `incoming_email`, `service_desk_email` and MailRoom. These MRs can't be reviewed on GitPod and need a working GDK. Follow the set up instructions in the [GDK docs](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/service_desk_mail_room.md) or this [video walkthrough](https://youtu.be/SdqBOK43MlI).
+  - For some MRs, you may need to add test alerts. Instructions for adding an alert, along with a sample alert, are available [here](/handbook/engineering/development/ops/monitor/respond/#assigning-mrs-for-code-review) (see the inline code snippet of instructions).
+  - Service Desk MRs sometimes require setting up `incoming_email`, `service_desk_email` and MailRoom. These MRs can't be reviewed on GitPod and need a working GDK. Follow the set up instructions in the [GDK docs](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/service_desk_mail_room.md) or this [video walkthrough](https://youtu.be/SdqBOK43MlI).
 - Value Stream Analytics: Value Stream [set up and seed data instructions](https://gitlab.com/-/snippets/2169951/raw/main/blocks.md). Many VSA features require an EE license, [request a developer license](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses).
 - Product Analytics: To set up product analytics in your GDK instance follow these [instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/product_analytics.md). This process can only be done on a local version of the GDK, not on GitPod. Additionally, it requires you to install Docker.
 
@@ -151,34 +151,36 @@ Some MRs have additional set up requirements.
 ### Review the MR
 
 - Review using the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist) to make sure all main aspects are covered.
-   - The team can decide to merge before a full review if the changes remain behind a feature flag and there's a plan for you to do a full review in staging. Beware that this approach can result in unplanned issues and MRs if things need to be fixed.
+  - The team can decide to merge before a full review if the changes remain behind a feature flag and there's a plan for you to do a full review in staging. Beware that this approach can result in unplanned issues and MRs if things need to be fixed.
 - Stick to the UX requirements in the issue. See the [follow-ups checklist](https://docs.gitlab.com/ee/development/contributing/design.html#follow-ups) on creating issues for further updates or missing pieces.
 - Follow our review best practices for [everyone](https://docs.gitlab.com/ee/development/code_review.html#everyone) and [reviewers](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request).
-   - Remember that reviewing someone else's work is a dialogue and is an opportunity to build trust and rapport within your team.
+  - Remember that reviewing someone else's work is a dialogue and is an opportunity to build trust and rapport within your team.
 - Separate each topic into its comment thread so that they can be discussed and resolved separately. If possible, create threads on the line(s) of code related to the topic.
 - Ensure the author is clear on what is required from them to address/resolve the suggestion.
-    - Consider using the [Conventional Comment format](https://conventionalcomments.org/#format) to convey your intent.
-    - For non-mandatory suggestions, decorate with (non-blocking) so the author knows they can optionally resolve within the merge request or follow-up at a later stage.
-    - There’s a [Chrome/Firefox add-on](https://gitlab.com/conventionalcomments/conventional-comments-button) which you can use to apply [Conventional Comment](https://conventionalcomments.org/) prefixes.
+  - Consider using the [Conventional Comment format](https://conventionalcomments.org/#format) to convey your intent.
+  - For non-mandatory suggestions, decorate with (non-blocking) so the author knows they can optionally resolve within the merge request or follow-up at a later stage.
+  - There’s a [Chrome/Firefox add-on](https://gitlab.com/conventionalcomments/conventional-comments-button) which you can use to apply [Conventional Comment](https://conventionalcomments.org/) prefixes.
 - Share annotated screenshots or screen recordings in your comments whenever possible. Visual materials make issues clearer and communication more efficient.
-   - To capture your screen, use free apps like [CloudApp](https://www.getcloudapp.com/), [Monosnap](https://monosnap.com/), or Mac's Screenshot (see how to [capture](https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac) and [annotate](https://support.apple.com/guide/mac-help/mark-up-files-mchl1fd88863/mac)).
-   - Annotate screenshots to highlight specific aspects that need to be addressed.
-   - Highlight differences between what's *implemented in the MR* and what's *expected* with a [Markdown table](https://docs.gitlab.com/ee/user/markdown.html#tables) that has images/videos. Consider using the template below.
+  - To capture your screen, use free apps like [CloudApp](https://www.getcloudapp.com/), [Monosnap](https://monosnap.com/), or Mac's Screenshot (see how to [capture](https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac) and [annotate](https://support.apple.com/guide/mac-help/mark-up-files-mchl1fd88863/mac)).
+  - Annotate screenshots to highlight specific aspects that need to be addressed.
+  - Highlight differences between what's *implemented in the MR* and what's *expected* with a [Markdown table](https://docs.gitlab.com/ee/user/markdown.html#tables) that has images/videos. Consider using the template below.
       <details>
       <summary>Differences table template</summary>
 
+      ```markdown
         | This MR     | Expected    |
         |-------------|-------------|
         | Image/video | Image/video |
+      ```
 
       </details>
 - Try to find something worth praising the author for, like a thorough MR description or their attention to detail on a certain aspect. But don't make empty praises, only praise them if you recognize the value of what they've done.
 - When there are concerns with an MR, consider the following actions to help progress the review:
-   - Iterate instead of revert. Consider coaching and guiding the author of the MR towards an ideal solution.
-   - Educate to collaborate. You may have more context of the problem than the author. Express your concerns and thoughts, and ask them how might they adapt their solution to accommodate the concerns.
-   - Get a second opinion. When you are uncertain about a change feel free to involve a [quad member](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) from your product group, your product design manager, and/or other designers. This can be done directly in the MR or in Slack channels.
-   - Create a follow-up issue to address the concerns of the MR.
-   - If changes are behind a feature flag, but there are concerns about the feature going live, consider creating an issue that blocks the full release of the feature with a list of items that need to be addressed (see this [example](https://gitlab.com/gitlab-org/gitlab/-/issues/398152)).
+  - Iterate instead of revert. Consider coaching and guiding the author of the MR towards an ideal solution.
+  - Educate to collaborate. You may have more context of the problem than the author. Express your concerns and thoughts, and ask them how might they adapt their solution to accommodate the concerns.
+  - Get a second opinion. When you are uncertain about a change feel free to involve a [quad member](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) from your product group, your product design manager, and/or other designers. This can be done directly in the MR or in Slack channels.
+  - Create a follow-up issue to address the concerns of the MR.
+  - If changes are behind a feature flag, but there are concerns about the feature going live, consider creating an issue that blocks the full release of the feature with a list of items that need to be addressed (see this [example](https://gitlab.com/gitlab-org/gitlab/-/issues/398152)).
 
 ### Handoff the MR
 

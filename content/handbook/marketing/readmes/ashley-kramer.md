@@ -56,9 +56,9 @@ I try to always assume positive intent and encourage others to do the same. Trus
 ### Motivators
 
 - To thrive somewhere I have to have the 3 Ps
-    - Amazing *People* to work and partner with
-    - Genuine *Passion* for the space and role
-    - Great *Product* I believe in and love
+  - Amazing *People* to work and partner with
+  - Genuine *Passion* for the space and role
+  - Great *Product* I believe in and love
 - I live for challenges, collaboration and transparency
 - Customers! I’ll sound like a broken record on this but I will always want to know the *customer* value in everything we do
 

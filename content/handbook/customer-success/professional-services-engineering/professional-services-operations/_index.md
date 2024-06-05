@@ -84,12 +84,12 @@ When the PC and PM have the project team aligned the PC will send [Consulting Pr
 
 Project billing is outlined in each customer SOW or Order Form.  The current billing terms that Professional Services follows is the following:
 
-   - Billed upon SOW execution
-   - Order Form execution
-   - Time and Materials
-   - Project miletone
-   - Billed half up front and half at project completion
-   - Billed at completion
+- Billed upon SOW execution
+- Order Form execution
+- Time and Materials
+- Project miletone
+- Billed half up front and half at project completion
+- Billed at completion
 
 Passive acceptance of 5 days is included in the SOW unless different terms are negotiated by the customer and approved by the Director of Professional Services.
 
@@ -97,18 +97,18 @@ Passive acceptance of 5 days is included in the SOW unless different terms are n
 
 Project revenue release is followed dependant on project billing type:
 
-   - Billed upon SOW execution billing terms
-     - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
-   - Billed upon Order Form execution billing terms
-     - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
-   - Time and Materials billing terms
-     - Approved time sheet hours reported at each month end
-   - Project milestone SOW billing terms
-     - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
-   - Billed half up front and half at project completion SOW billing terms
-     - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
-   - Billed at completion billing terms
-     - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
+- Billed upon SOW execution billing terms
+  - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
+- Billed upon Order Form execution billing terms
+  - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
+- Time and Materials billing terms
+  - Approved time sheet hours reported at each month end
+- Project milestone SOW billing terms
+  - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
+- Billed half up front and half at project completion SOW billing terms
+  - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
+- Billed at completion billing terms
+  - SOW contains milestones that include activities, and revenue can be released as each milestone is                 accepted or passive acceptance is reached
 
 #### How To Forecast Revenue For Consulting Projects
 
@@ -150,8 +150,8 @@ Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/pro
 
 Training billing is outlined in each customer SOW or Order Form.  The current billing terms that Professional Services follows is the following:
 
-   - Billed upon SOW
-   - Order Form execution
+- Billed upon SOW
+- Order Form execution
 
 Passive acceptance of 5 days is included in the SOW unless different terms are negotiated by the customer and approved by the Director of Professional Services.
 
@@ -159,10 +159,10 @@ Passive acceptance of 5 days is included in the SOW unless different terms are n
 
 Training revenue release is followed dependant on training billing type:
 
-   - Billed upon SOW
-     - Once each training class is complete and roster is received
-   - Order Form execution billing terms
-     - Once each training class is complete and roster is received
+- Billed upon SOW
+  - Once each training class is complete and roster is received
+- Order Form execution billing terms
+  - Once each training class is complete and roster is received
 
 #### How To Forecast Revenue Training Projects
 
@@ -246,21 +246,21 @@ Internal projects are set up to track internal time that is not customer project
 
   When working on a customer project, all hours worked should be tracked against the project.  Here are some examples:
 
-  - Project tasks are aligned with SOW activities and hours tracked against the tasks
-  - Internal/ Sales Handoff Calls
-  - Internal/ External status meeting
-  - Support ticket submission while the project is in progress
-  - Weekly/ Final customer reports and documentation
-  - Status/ Close out customer calls
-  - Customer Travel
+- Project tasks are aligned with SOW activities and hours tracked against the tasks
+- Internal/ Sales Handoff Calls
+- Internal/ External status meeting
+- Support ticket submission while the project is in progress
+- Weekly/ Final customer reports and documentation
+- Status/ Close out customer calls
+- Customer Travel
 
 ****Customer training projects****
 
   When working on a training project, all hours worked should be tracked against the project.  Here are some examples:
 
-  - Introduction/ Planning/ Preparation/ Close Out
-    - All hours should be tracked against the task for preparation and close out of the training
-  - All class hours are to be tracked against the task that gives the name of the training, example is GitLab Basics TRNG Hours
+- Introduction/ Planning/ Preparation/ Close Out
+  - All hours should be tracked against the task for preparation and close out of the training
+- All class hours are to be tracked against the task that gives the name of the training, example is GitLab Basics TRNG Hours
 
 #### Month End Time Tracking Guidelines
 
@@ -268,11 +268,11 @@ Professional Services has a hard close at each month end.
 
 Our agreed schedule with finance is [Monthly/ Quarterly/ Year End Time Lines](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0)
 
-   - By Noon ET, Time Sheets will need to be submitted on the agreed date with finance
-     - Time would include hours for that day along with an estimate of hours for the final days of the month
-     - If corrections need to be made for the final 3 days of the month, that would be included in the following weeks time sheet
-   - By 1 PM ET, Time Sheets will need to be approved by the Project Managers and Coordinators
-   - By 6 PM ET, the Operations Teams will have gone through the review process and submit reporting to Finance
+- By Noon ET, Time Sheets will need to be submitted on the agreed date with finance
+  - Time would include hours for that day along with an estimate of hours for the final days of the month
+  - If corrections need to be made for the final 3 days of the month, that would be included in the following weeks time sheet
+- By 1 PM ET, Time Sheets will need to be approved by the Project Managers and Coordinators
+- By 6 PM ET, the Operations Teams will have gone through the review process and submit reporting to Finance
 
 Time sheets would be submitted by the team and then approved by the project lead on the cutoff date.  Then an additional project line would be added to finish out the remainder of the week, and follow the normal end of the week process.
 
@@ -343,16 +343,16 @@ For **training-only projects**, use the following Kantata/Kantata statuses:
 Health Reports provide a weekly snap shot status to PS Management on the overall project status, and rolled up to executives.  The report includes a Red, Yellow and Green indicator along with a section to update on overall status, schedule, scope, budget, client.  Health reports should be filled out by the project lead or project manager by Thursday of week each by EOD for the projects that are in the Active project status.
 
 - Overall Project Status:
-   - Two to three lines describing the overall project status, includes pro/ cons/ blockers
+  - Two to three lines describing the overall project status, includes pro/ cons/ blockers
 - Project Schedule:
-   - Is the project tracking to the current Kantata schedule? Y/N and if no, why?
+  - Is the project tracking to the current Kantata schedule? Y/N and if no, why?
 - Project Scope:
-   - Is the project tracking to the original scope, as per the SOW? Y/N and if no, why?
+  - Is the project tracking to the original scope, as per the SOW? Y/N and if no, why?
 - Project Budget:
-   - Is the project tracking to the original budget, as per the SOW? Y/N and if no, why?
+  - Is the project tracking to the original budget, as per the SOW? Y/N and if no, why?
 - Client:
-   - How is the customer feeling about the project? Happy, frustrated, engaged, disengaged
-   - The project could be status of red for scope, schedule, etc. and the customer is still happy
+  - How is the customer feeling about the project? Happy, frustrated, engaged, disengaged
+  - The project could be status of red for scope, schedule, etc. and the customer is still happy
 
 #### New Supplier Request Form
 
@@ -367,59 +367,59 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
 - [How to Create a Requisition](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-create-a-requisition)
 - [How to complete the Professional Services Request Form](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-complete-the-professional-services-request-form)
 - Notes:
-   - What is the individual being hires to do
-      - GitLab Customer Name- Partner Name- PSE/ PM Name
-   - Are any GitLab employees already performing this service?
-      - For the most part, answer “no”
-   - Will GitLab provide the individual with the required hardware/ device to complete the work?
-      - For the most part, answer “no”
-   - Is this a PS Partners service request?
-      - For the most part, answer “no”
-   - Is this an extension?
-      - For the most part, answer “no”
-   - Is the intended engagement meant to be over 6 months?
-      - For the most part, answer “no”
-   - Would you like Procurement to negotiate?
-      - For the most part, answer “no”
-   - What is the estimated spend?
-      - For the most part, answer “no”
-   - Requisition Information
-      - Add Partner Name
-      - Description/ Item
-         - GitLab -Partner Name- Customer Name- PSE/ PM Name
-         - Training- Training:  partner name / year month day
-      - Price of the Partner SOW
-      - Currency is always USD
-      - Commodity would be COGS consulting fees
-      - Service Start Date:
-         - Consulting: Estimate the customer project dates
-         - Training: Estimate of when we will start using the training funds
-      - Service End Date:
-         - Consulting: Estimate the customer project dates
-         - Training: Estimate of when we will start using the training funds
-      - Need by- set this for 1 week out from date of your submission
-      - Payment Structure:
-         - Data entry convention - Consulting: Hourly rate/ or Fixed Price
-           - Example: $###/hour
-           - Example: $### Fixed Price
-         - Data entry convention - Training:
-           - Standard Course Delivery: Fixed Price
-           - Pre-Configured Course Delivery:  Hourly Rate
-         - Custom Course Delivery:  Hourly Rate
-         - Example (standard course): $### per course
-         - Example (pre-config or custom): $###/hour
-      - Submit the purchase request for approval.
-      - Follow up with internal approvers as needed.
+  - What is the individual being hires to do
+    - GitLab Customer Name- Partner Name- PSE/ PM Name
+  - Are any GitLab employees already performing this service?
+    - For the most part, answer “no”
+  - Will GitLab provide the individual with the required hardware/ device to complete the work?
+    - For the most part, answer “no”
+  - Is this a PS Partners service request?
+    - For the most part, answer “no”
+  - Is this an extension?
+    - For the most part, answer “no”
+  - Is the intended engagement meant to be over 6 months?
+    - For the most part, answer “no”
+  - Would you like Procurement to negotiate?
+    - For the most part, answer “no”
+  - What is the estimated spend?
+    - For the most part, answer “no”
+  - Requisition Information
+    - Add Partner Name
+    - Description/ Item
+      - GitLab -Partner Name- Customer Name- PSE/ PM Name
+      - Training- Training:  partner name / year month day
+    - Price of the Partner SOW
+    - Currency is always USD
+    - Commodity would be COGS consulting fees
+    - Service Start Date:
+      - Consulting: Estimate the customer project dates
+      - Training: Estimate of when we will start using the training funds
+    - Service End Date:
+      - Consulting: Estimate the customer project dates
+      - Training: Estimate of when we will start using the training funds
+    - Need by- set this for 1 week out from date of your submission
+    - Payment Structure:
+      - Data entry convention - Consulting: Hourly rate/ or Fixed Price
+        - Example: $###/hour
+        - Example: $### Fixed Price
+      - Data entry convention - Training:
+        - Standard Course Delivery: Fixed Price
+        - Pre-Configured Course Delivery:  Hourly Rate
+      - Custom Course Delivery:  Hourly Rate
+      - Example (standard course): $### per course
+      - Example (pre-config or custom): $###/hour
+    - Submit the purchase request for approval.
+    - Follow up with internal approvers as needed.
 - After submitting the Professional Services Request Form, it will apply to your Cart.
 - Go into the Review Cart section and enter the information on the purchase request with the Professional Services Request Form questions already populated and added to the purchase request.
 
 - Notes:
-   - For Consulting, do not specify anyone for the “on behalf of” field. PS Project Coordinator will initiate the new purchase request.
-   - For Training, PS Education Services Manager will initiate a new purchase request and specify the PS Project Coordinator for the “on behalf of” field.
+  - For Consulting, do not specify anyone for the “on behalf of” field. PS Project Coordinator will initiate the new purchase request.
+  - For Training, PS Education Services Manager will initiate a new purchase request and specify the PS Project Coordinator for the “on behalf of” field.
 - General Info section:
-   - Description of Purchase- PS Partner Sub Contractor Agreement
-   - Add Agreements in the Attachments
-      - Partner SOW
+  - Description of Purchase- PS Partner Sub Contractor Agreement
+  - Add Agreements in the Attachments
+    - Partner SOW
 - If work is ongoing past the Service End Date and invoices are processed on a monthly basis, the PO will remain open.  If for any reason the PO is systematically closed, a request via Accounts Payable Slack Channel #accountspayable will need to be sent to A/P to have the PO re-opened.
 
 #### Purchase Order Process
@@ -428,17 +428,17 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
 - Partner/vendor invoice(s) will be filed against the PO.
 - Comments section: @ mention the partner invoicing A/R PoC to send invoice submission reminder
 - Project Coordinators will set up Customer Folder in the [Partner Folder](https://drive.google.com/drive/folders/1nAz1iD_iFSZolqNsV5bay_5IFogA_BmG), and include the following:
-   - Partner Fully Executed SOW
-   - [Partner Invoice Tracking Sheet](https://docs.google.com/spreadsheets/d/17OKORE1uJ9v8jsgJdAHnh4AUZ0cPZqo17AvozF9jBEk/edit?usp=sharing)
-      - Set up with SOW amount
-      - Link Fully Executed SOW
+  - Partner Fully Executed SOW
+  - [Partner Invoice Tracking Sheet](https://docs.google.com/spreadsheets/d/17OKORE1uJ9v8jsgJdAHnh4AUZ0cPZqo17AvozF9jBEk/edit?usp=sharing)
+    - Set up with SOW amount
+    - Link Fully Executed SOW
 
 #### Invoice Processing and Tracking
 
 CURRENT PROCESS VIA COUPA:
 
 - Project Coordinator receives notification from Coupa to review the partner submitted invoice.
-   - Note - Approval queue is Consulting Project Coordinator first and Training Project Coordinator second.
+  - Note - Approval queue is Consulting Project Coordinator first and Training Project Coordinator second.
 - Project Coordinator reviews the invoice and Kantata timesheets to ensure accuracy of hours approved and rate.
 - If the invoice and timesheets align, then the invoice is approved.
 - If the invoice and timesheets do not align, then the invoice is returned to Accounts Payable, and the Project Coordinator follows up with the partner.

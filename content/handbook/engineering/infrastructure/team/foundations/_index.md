@@ -114,20 +114,20 @@ For more context, see the related [discussion issue](https://gitlab.com/gitlab-c
 
 The Foundations Team must maintain a broad and diverse set of technical skills while also maintaining the ability to switch contexts frequently.  Some of these technical skills include:
 
- - Cloudnative Engineering - Proficiency in Kubernetes and the associated ecosystem of running cloudnative services.
- - Infrastructure as Code - Proficiency in Chef and Terraform
- - Network Systems - Understanding of network concepts and experience with our Edge stack (see Edge services above)
+- Cloudnative Engineering - Proficiency in Kubernetes and the associated ecosystem of running cloudnative services.
+- Infrastructure as Code - Proficiency in Chef and Terraform
+- Network Systems - Understanding of network concepts and experience with our Edge stack (see Edge services above)
 
 ## Common Links
 
- - [Foundations Top Level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1175)
- - [Foundations team meeting agenda](https://docs.google.com/document/d/1T5LIBt3RZR5TBLzkmRd08oMwfwiNFAr5ImPD5NP7lOw/edit?usp=sharing)
- - [Foundations OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=team%3A%3AFoundations&first_page_size=20)
- - GitLab Issues capture smaller, concrete pieces of work, and those labeled `~workflow-infra::In Progress` should be updated weekly or whenever a portion of work has been completed.
- - [#g_infra_foundations](https://gitlab.slack.com/archives/C0313V3L5T6) - work related discussions, external requests, etc
- - [#g_infra_foundations_social](https://gitlab.slack.com/archives/C04QVEXBVL3) - socializing and standups
- - [#g_infra_foundations_notifications](https://gitlab.slack.com/archives/C04RZC5TPPD) - automated MR notifications
- - [#g_infra_foundations_alerts](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF) - pipeline failures and service alerts
+- [Foundations Top Level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1175)
+- [Foundations team meeting agenda](https://docs.google.com/document/d/1T5LIBt3RZR5TBLzkmRd08oMwfwiNFAr5ImPD5NP7lOw/edit?usp=sharing)
+- [Foundations OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=team%3A%3AFoundations&first_page_size=20)
+- GitLab Issues capture smaller, concrete pieces of work, and those labeled `~workflow-infra::In Progress` should be updated weekly or whenever a portion of work has been completed.
+- [#g_infra_foundations](https://gitlab.slack.com/archives/C0313V3L5T6) - work related discussions, external requests, etc
+- [#g_infra_foundations_social](https://gitlab.slack.com/archives/C04QVEXBVL3) - socializing and standups
+- [#g_infra_foundations_notifications](https://gitlab.slack.com/archives/C04RZC5TPPD) - automated MR notifications
+- [#g_infra_foundations_alerts](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF) - pipeline failures and service alerts
 
 ## How We Work
 
@@ -141,14 +141,14 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 
 We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.
 
-  - Monday questions include:
-    - What are your top priorities this week?
-    - What did you accomplish last week?
-    - What else is on your todo list for the week?
-    - Any blockers or requests for pairing?
-  - Friday questions include:
-    - How did your week go?
-    - What were your wins this week?
+- Monday questions include:
+  - What are your top priorities this week?
+  - What did you accomplish last week?
+  - What else is on your todo list for the week?
+  - Any blockers or requests for pairing?
+- Friday questions include:
+  - How did your week go?
+  - What were your wins this week?
 
 ### Retros
 
@@ -173,12 +173,12 @@ The team member on rotation is responsible for:
 - Asking issue authors for more information when needed to understand the scope of work.
 - Raising any `priority::1` or `priority::2` issues and ensuring they have a DRI and are being actively worked on.
 - Completing any issues that come up that can be completed during the week. Weight 5 issues can be considered depending on the priority.
-   - Anything weight 8 or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
+  - Anything weight 8 or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
 - Responding to alerts in [`#g_infra_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
 - Working on Renovate MRs posted in [`#g_infra_foundations_notifications`](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD).
-   - Patch updates with passing pipelines should be merged.
-   - Minor updates should have their changelogs be reviewed before merging.
-   - Major updates should be looked at closely to understand breaking changes before considering merging.
+  - Patch updates with passing pipelines should be merged.
+  - Minor updates should have their changelogs be reviewed before merging.
+  - Major updates should be looked at closely to understand breaking changes before considering merging.
 - Responding to Terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
 - Respond to any Access Requests that need Foundations provisioning.
 

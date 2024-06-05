@@ -155,14 +155,14 @@ CAB on hold due to program relaunch in Q1
 
 ***May 6, 2020***
 
- - 12 customers in attendance
- - Create: Editor update
- - Customer sharing - U.S. Telecom
+- 12 customers in attendance
+- Create: Editor update
+- Customer sharing - U.S. Telecom
 
  ***April 21, 2020***
 
- - 19 customers in attendance
- - Half-day virtual event
+- 19 customers in attendance
+- Half-day virtual event
 
 ***March 4, 2020***
 

@@ -42,12 +42,12 @@ Security is a top priority in GitLab's vendor selection process, and GitLab is c
 
 When considering new software to address business needs and objectives, see below for some high level recommendations to leverage when evaluating the software's capabilities.
 
- - Does the vendor support Single Sign-On (SSO) to enable team members to authenticate using their network credentials?
-   - Security requires that software has the ability to integrate with Okta or Google Oauth for authentication.
- - Does the vendor complete an annual independent third party audit of their security controls to show adherence to industry standards and best practices?
-   - Security requires software vendors complete and share an annual independent third party audit of their security controls. Some examples of these are a [SOC 2 or ISO 27001 certification](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#acceptable-third-party-attestations).
- - Does the vendor require an independent third party penetration test of their systems to identify and remediate vulnerabilities and weaknesses?
-   - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any High or Critical findings.
+- Does the vendor support Single Sign-On (SSO) to enable team members to authenticate using their network credentials?
+  - Security requires that software has the ability to integrate with Okta or Google Oauth for authentication.
+- Does the vendor complete an annual independent third party audit of their security controls to show adherence to industry standards and best practices?
+  - Security requires software vendors complete and share an annual independent third party audit of their security controls. Some examples of these are a [SOC 2 or ISO 27001 certification](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#acceptable-third-party-attestations).
+- Does the vendor require an independent third party penetration test of their systems to identify and remediate vulnerabilities and weaknesses?
+  - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any High or Critical findings.
 
 *Note: Proof of concept (Poc) and pilot software engagements may require the exchange of sensitive GitLab data and must adhere to the same evaluation of the vendor's security practices for new software requests. Security Risk recommends anonymizing sensitive GitLab data and ensuring contract language defines expectations and requirements around data security, [privacy considerations](https://handbook.gitlab.com/handbook/legal/privacy/), and [deletion of data](https://handbook.gitlab.com/handbook/finance/procurement/vendor-guidelines/vendor-agreement/#7-termination) after the PoC or pilot is complete.*
 
@@ -58,12 +58,12 @@ When considering new software to address business needs and objectives, see belo
 
 See below for high level recommendations to leverage when evaluating professional services vendors.
 
- - Will GitLab documents be shared with the vendor?
-   - Security recommends using GitLab's Google Drive to share sensitive data with external parties.
- - Does the professional services vendor adhere to strict human resource security practices including acceptable use and data protection training, background screenings, and regular security awareness trainings?
-   - GitLab requires professional service vendors have background screenings and security awareness training.
- - Does the vendor perform work from personal devices?
-   - Security requires that GitLab data is protected by adequate endpoint security controls.
+- Will GitLab documents be shared with the vendor?
+  - Security recommends using GitLab's Google Drive to share sensitive data with external parties.
+- Does the professional services vendor adhere to strict human resource security practices including acceptable use and data protection training, background screenings, and regular security awareness trainings?
+  - GitLab requires professional service vendors have background screenings and security awareness training.
+- Does the vendor perform work from personal devices?
+  - Security requires that GitLab data is protected by adequate endpoint security controls.
 
  </details>
 
@@ -212,45 +212,45 @@ Security Risk maintains multiple templated versions of the SIG questionnaire for
 {{% details summary="SIG Lite Plus" %}}
 
 - [SIG Lite Plus](https://docs.google.com/spreadsheets/d/1wvpY3oF8sG_UbnQzzlbXs85ahsfLiDQp/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true)
-    - The SIG Lite Plus questionnaire is leveraged most commonly and should be utilized for all Red vendors and Orange SaaS systems. We refer to our SIG Lite as the "SIG Lite Plus" as it includes full scope SIG questionnaires for domains "E. Human Resource Security and V. Cloud Services". All other domains include standard SIG Lite content. Our objective here is to obtain additional information related to cloud security and the use of personal computers and employee background checks.
-    - The following 20 domains are included within the scope of the SIG Lite Plus questionnaire:
-        - A. Enterprise Risk Management
-        - B. Nth Party Management
-        - C. Information Assurance
-        - D. Asset and Info Management
-        - E. Human Resources Security (Full SIG Content)
-        - F. Physical and Environmental Security
-        - G. IT Operations Management
-        - H. Access Control
-        - I. Application Management
-        - J. Cybersecurity Incident Mgmt
-        - K. Operational Resilience
-        - L. Compliance Management
-        - M. Endpoint Security
-        - N. Network Security
-        - O. Environmental, Social, Governance (ESG)
-        - P. Privacy Management
-        - R. Artificial Intelligence
-        - S. Supply Chain Risk Mgmt
-        - T. Threat Management
-        - U. Server Security
-        - V. Cloud Services (Full SIG Content)
+  - The SIG Lite Plus questionnaire is leveraged most commonly and should be utilized for all Red vendors and Orange SaaS systems. We refer to our SIG Lite as the "SIG Lite Plus" as it includes full scope SIG questionnaires for domains "E. Human Resource Security and V. Cloud Services". All other domains include standard SIG Lite content. Our objective here is to obtain additional information related to cloud security and the use of personal computers and employee background checks.
+  - The following 20 domains are included within the scope of the SIG Lite Plus questionnaire:
+    - A. Enterprise Risk Management
+    - B. Nth Party Management
+    - C. Information Assurance
+    - D. Asset and Info Management
+    - E. Human Resources Security (Full SIG Content)
+    - F. Physical and Environmental Security
+    - G. IT Operations Management
+    - H. Access Control
+    - I. Application Management
+    - J. Cybersecurity Incident Mgmt
+    - K. Operational Resilience
+    - L. Compliance Management
+    - M. Endpoint Security
+    - N. Network Security
+    - O. Environmental, Social, Governance (ESG)
+    - P. Privacy Management
+    - R. Artificial Intelligence
+    - S. Supply Chain Risk Mgmt
+    - T. Threat Management
+    - U. Server Security
+    - V. Cloud Services (Full SIG Content)
 {{% /details %}}
 
 {{% details summary="Professional Services SIG" %}}
 
 - [SIG Professional Services](https://docs.google.com/spreadsheets/d/1xiReZd5heUl5YVFCqPxEfXJIYlqtz_LS/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true)
-    - The Professional Services SIG Lite Plus questionnaire features a reduced scope and can be leveraged for scenarios in which an **Orange** vendor is only providing contracted services or services not otherwise resulting in the introduction of a system being transmitted sensitive GitLab data. In these cases it may not be necessary to perform a full-scope review of the vendor's Security environment, as many controls within the full SIG Lite questionnaire may not apply or present a material risk to GitLab data.  **Please note this guidance applies only to Orange professional services providers. Service providers being granted access to Red data in the provision of services should be assessed utilizing the SIG Lite Plus questionnaire defined above due to the greater obligation for Data Security with these providers.**
-    - The following domains are included within the scope of the Professional Services SIG Lite Plus questionnaire.
-        - D. Asset and Info Management
-        - E. Human Resources Security (Full SIG Content)
-        - F. Physical and Environmental
-        - H. Access Control
-        - L. Compliance Management
-        - M. Endpoint Device Security
-        - N. Network Security
-        - P. Privacy Management
-        - T. Threat Management
+  - The Professional Services SIG Lite Plus questionnaire features a reduced scope and can be leveraged for scenarios in which an **Orange** vendor is only providing contracted services or services not otherwise resulting in the introduction of a system being transmitted sensitive GitLab data. In these cases it may not be necessary to perform a full-scope review of the vendor's Security environment, as many controls within the full SIG Lite questionnaire may not apply or present a material risk to GitLab data.  **Please note this guidance applies only to Orange professional services providers. Service providers being granted access to Red data in the provision of services should be assessed utilizing the SIG Lite Plus questionnaire defined above due to the greater obligation for Data Security with these providers.**
+  - The following domains are included within the scope of the Professional Services SIG Lite Plus questionnaire.
+    - D. Asset and Info Management
+    - E. Human Resources Security (Full SIG Content)
+    - F. Physical and Environmental
+    - H. Access Control
+    - L. Compliance Management
+    - M. Endpoint Device Security
+    - N. Network Security
+    - P. Privacy Management
+    - T. Threat Management
 
 {{% /details %}}
 
@@ -326,10 +326,10 @@ As an output of our integration with the vendor procurement flow, the Security R
 
 The Security Risk team facilitates multiple functions to maintain accuracy of Tech Stack data, including [Critical System Tiers](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#determining-critical-system-tiers). This data is leveraged to ensure critical applications are appropriately supported. Functions consist of:
 
- - Merge Requests upon system procurement to update the [Tech Stack](/handbook/business-technology/tech-stack-applications/#what-data-lives-in-the-tech-stack).
- - Initial [Business Impact Analyses (BIA)](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/#business-impact-analysis) to help determine the systems critical to serving GitLab’s Customers.
- - Recurring procedures to validate the accuracy of existing Tech Stack data, including an annual Business Impact Analysis for Tier 1 Systems.
- - Design and maintenance of a Post-Implementation Checklist to help ensure business owners implement security best practices during and after new system onboarding
+- Merge Requests upon system procurement to update the [Tech Stack](/handbook/business-technology/tech-stack-applications/#what-data-lives-in-the-tech-stack).
+- Initial [Business Impact Analyses (BIA)](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/#business-impact-analysis) to help determine the systems critical to serving GitLab’s Customers.
+- Recurring procedures to validate the accuracy of existing Tech Stack data, including an annual Business Impact Analysis for Tier 1 Systems.
+- Design and maintenance of a Post-Implementation Checklist to help ensure business owners implement security best practices during and after new system onboarding
 
  More information on how Critical System Tiering is leveraged in support of GitLab can be found within the [StORM Handbook page](/handbook/security/security-assurance/security-risk/storm-program/).
 

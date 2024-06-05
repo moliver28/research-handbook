@@ -61,11 +61,11 @@ Examples:
 
 - Potential risk of contraction or churn (even if this is unconfirmed)
 - Lack of alignment with stakeholders who can drive outcomes...
-   - [Economic Buyer](/handbook/sales/meddppicc/#economic-buyer)
-   - [Champion](/handbook/sales/meddppicc/#champion)
-   - Key [Personas](/handbook/product/personas/)
-      - [Cameron (Compliance Manager)](/handbook/product/personas/#cameron-compliance-manager)
-      - [Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
+  - [Economic Buyer](/handbook/sales/meddppicc/#economic-buyer)
+  - [Champion](/handbook/sales/meddppicc/#champion)
+  - Key [Personas](/handbook/product/personas/)
+    - [Cameron (Compliance Manager)](/handbook/product/personas/#cameron-compliance-manager)
+    - [Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
 - Product does not deliver expected value or outcomes as defined by success plan
 - No or low product adoption with no progression
 - Communication of poor sentiment

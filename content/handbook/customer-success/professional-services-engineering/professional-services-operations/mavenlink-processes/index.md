@@ -298,36 +298,36 @@ Once the PS Opportunity is closed/ won, a notification is sent from SFDC.
 1. Update the project status to In Set Up
 1. Review project settings:
 
-  - Delete out the Start and End Date
-  - Update [project color](/handbook/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/#mavenlink-project-status-colors)
-  - Update the project budget to match the budget of the opportunity, SOW or Order Form
-  - Uncheck the include expenses box
-  - Target Margin should be 40%
-  - Update [Rate Card](https://docs.google.com/spreadsheets/d/1yzpCk68aomSxY1vvhZ7dLZEckknx63FQRz3k2bjkFxs/edit#gid=0)
-  - Update task billing mode
-  - Update task default
-  - Review Organization to be sure it is set to GitLab
+- Delete out the Start and End Date
+- Update [project color](/handbook/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/#mavenlink-project-status-colors)
+- Update the project budget to match the budget of the opportunity, SOW or Order Form
+- Uncheck the include expenses box
+- Target Margin should be 40%
+- Update [Rate Card](https://docs.google.com/spreadsheets/d/1yzpCk68aomSxY1vvhZ7dLZEckknx63FQRz3k2bjkFxs/edit#gid=0)
+- Update task billing mode
+- Update task default
+- Review Organization to be sure it is set to GitLab
 
 1. Update the Custom Fields
 
-  - Engagement Manager
-  - Add GitLab Project Link
-  - Security Requirements
-  - Project Components
-  - Billing Type
-  - Billing Terms
-  - Passice Acceptance Language
-  - Revenue Release
+- Engagement Manager
+- Add GitLab Project Link
+- Security Requirements
+- Project Components
+- Billing Type
+- Billing Terms
+- Passice Acceptance Language
+- Revenue Release
 
 1. Review task tracker
 
-  - For Customer SOW, remove the task and ask the EM to push over the tasks to the Mavenlink project
-  - Once tasks are pushed over to the Mavenlink project, review task hours and milestone budget to be sure they are correct
-  - For SKUd offerings, review the task to be sure they match the SOW or Order form
-    - Also update the task details
-      - PS Category
-      - PS Type
-      - PS Services
+- For Customer SOW, remove the task and ask the EM to push over the tasks to the Mavenlink project
+- Once tasks are pushed over to the Mavenlink project, review task hours and milestone budget to be sure they are correct
+- For SKUd offerings, review the task to be sure they match the SOW or Order form
+  - Also update the task details
+    - PS Category
+    - PS Type
+    - PS Services
 
 1. Be sure there are no start or due dates set in the task tracker
 1. Add Unnamed resources in the Master Planning until resources have been selected

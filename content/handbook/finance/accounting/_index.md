@@ -113,7 +113,7 @@ Transactions from the Swag Shop are remitted to the Comerica checking account da
 
 1. In Shopify, download the transaction report in CSV format (found under Orders, then Export).
 
-  - This report contains swag shop revenue and tax data to be recorded in NetSuite.
+- This report contains swag shop revenue and tax data to be recorded in NetSuite.
 
 1. In portal used for swag download the orders report which should include cost for swag sold.
 1. Record the revenue, tax, cost and cash received.  At times cost maybe estimated using a historical average.
@@ -274,18 +274,18 @@ For all issues created before Coupa Go-Live (Phase I; 2021-06-01 and Phase II; 2
 Invoices in Coupa can be created via 4 different channels:
 
 - **Coupa Supplier Portal (CSP)**
-   - Free, Web-based portal specifically for suppliers.
-   - Suppliers receive POs within CSP Coupa inbox and perform PO Flips to Invoices and is able to see a complete history of all their POs/invoices.
-   - Once CSP invoices are submitted by the supplier, Coupa triggers the approval workflows.
+  - Free, Web-based portal specifically for suppliers.
+  - Suppliers receive POs within CSP Coupa inbox and perform PO Flips to Invoices and is able to see a complete history of all their POs/invoices.
+  - Once CSP invoices are submitted by the supplier, Coupa triggers the approval workflows.
 - **Supplier Actionable Notification (SAN)**
-   - Suppliers act directly (flip PO to invoice) from Coupa PO SAN email.
-   - No need to register for/sign into Coupa/CSP, free service available any suppliers (with email).
+  - Suppliers act directly (flip PO to invoice) from Coupa PO SAN email.
+  - No need to register for/sign into Coupa/CSP, free service available any suppliers (with email).
 - **cXML**
-   - For “high-touch” suppliers (e.g. Amazon, CDW) with cXML invoicing capability to receive POs and transmit invoices directly.
-   - Works well in conjunction with punchouts.
+  - For “high-touch” suppliers (e.g. Amazon, CDW) with cXML invoicing capability to receive POs and transmit invoices directly.
+  - Works well in conjunction with punchouts.
 - **Manual Entry in Coupa UI**
-   - “Flip PO” option copies data from Coupa PO to pre-populate invoice fields for faster entry.
-   - Non PO backed invoice manual entry.
+  - “Flip PO” option copies data from Coupa PO to pre-populate invoice fields for faster entry.
+  - Non PO backed invoice manual entry.
 
 #### Coupa Integration - troubleshooting for Invoices
 
@@ -391,7 +391,7 @@ For more information regarding how to set up SPAs or Coupa Pay, please check out
 - Only Invoices in the “Ready to Pay” status can be utilized to create a batch.
 - Invoices can be removed from payment by Coupa Pay using the slider button under "Actions" *(in case a supplier is selected for Coupa pay but need to be paid out of NetSuite, switch their payment method to ERP)*.
 - The “Pay from Account” (Company Payment Account or CPA) will be automatically defaulted based on the Chart Of Accounts. The CPA can be adjusted manually by selecting the dropdown.
-   - The “Pay to Account” (Supplier Payment Account or SPA) will be defaulted based on the Remit-To entered on the invoice.
+  - The “Pay to Account” (Supplier Payment Account or SPA) will be defaulted based on the Remit-To entered on the invoice.
 
 #### Approving a Batch in Coupa
 
@@ -654,11 +654,11 @@ United States Government Securities:
 
 - Marketable debt securities which are direct obligations of the U.S.A., issued by or guaranteed as to principal and interest by the U.S. Government and supported by the full faith and credit of the United States.
 - United States Government Agency Securities:
-    - Debt securities issued by the Government Sponsored Enterprises, Federal Agencies and certain international institutions which are not direct obligations of the United States, but involve Government sponsorship and are fully guaranteed by government agencies or enterprises, including but not limited to:
-        - Federal Farm Credit Bank (FFCB)
-        - Federal Home Loan Bank (FHLB)
-        - Federal Home Loan Mortgage Corporation (FHLMC)
-        - Federal National Mortgage Association (FNMA)
+  - Debt securities issued by the Government Sponsored Enterprises, Federal Agencies and certain international institutions which are not direct obligations of the United States, but involve Government sponsorship and are fully guaranteed by government agencies or enterprises, including but not limited to:
+    - Federal Farm Credit Bank (FFCB)
+    - Federal Home Loan Bank (FHLB)
+    - Federal Home Loan Mortgage Corporation (FHLMC)
+    - Federal National Mortgage Association (FNMA)
 
 **Money Market funds**
 
@@ -727,16 +727,16 @@ The following items should be accrued monthly as necessary (note: this list is n
 
 1. Accounts Payable:
 
- - Contracts: Amounts due under contracts, including retainer fees. These items should be recorded as they become billable.
- - Professional Fees: This liability includes legal, tax, and audit consulting and other professional fees.
- - Legal Contingencies: Pending or threatened litigation, and actual or probable settlement. Legal contingencies should be determined with the help of GitLab’s VP of Legal - Commercial, IP & Compliance.
+- Contracts: Amounts due under contracts, including retainer fees. These items should be recorded as they become billable.
+- Professional Fees: This liability includes legal, tax, and audit consulting and other professional fees.
+- Legal Contingencies: Pending or threatened litigation, and actual or probable settlement. Legal contingencies should be determined with the help of GitLab’s VP of Legal - Commercial, IP & Compliance.
 
 1. Wages and Compensation:
 
- - Team Wages: This includes employee wages and independent contractor fees.
- - Commissions: Liabilities arising from commission obligations to team members who are eligible for commission compensation.
- - Bonuses: Liabilities related to bonus payments for GitLab team-members.
- - Taxes: All employment taxes required for statutory compliance that relate to the GitLab team.
+- Team Wages: This includes employee wages and independent contractor fees.
+- Commissions: Liabilities arising from commission obligations to team members who are eligible for commission compensation.
+- Bonuses: Liabilities related to bonus payments for GitLab team-members.
+- Taxes: All employment taxes required for statutory compliance that relate to the GitLab team.
 
 1. Any other material obligation not mentioned above that is a liability of GitLab
 

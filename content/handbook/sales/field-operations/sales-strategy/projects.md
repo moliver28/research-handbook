@@ -33,10 +33,10 @@ Starting in FY22, we made a change to our comp plans. We began paying both reps 
 
 In order to achieve clean reporting by sales team based on opportunity ownership, in Dec 2020 we created 4 new fields on the User object in Salesforce:
 
-   - [User Segment](https://gitlab.my.salesforce.com/00N6100000ICbBT?setupid=UserFields)
-   - [User Geo](https://gitlab.my.salesforce.com/00N4M00000IbHo5?setupid=UserFields)
-   - [User Region](https://gitlab.my.salesforce.com/00N4M00000IbHo6?setupid=UserFields)
-   - [User Area](https://gitlab.my.salesforce.com/00N4M00000IbHo4?setupid=UserFields)
+- [User Segment](https://gitlab.my.salesforce.com/00N6100000ICbBT?setupid=UserFields)
+- [User Geo](https://gitlab.my.salesforce.com/00N4M00000IbHo5?setupid=UserFields)
+- [User Region](https://gitlab.my.salesforce.com/00N4M00000IbHo6?setupid=UserFields)
+- [User Area](https://gitlab.my.salesforce.com/00N4M00000IbHo4?setupid=UserFields)
 
 These fields are used to identify on which Sales team a Salesforce user works. If the user is not on the Enterprise or Commercial Sales teams (such as Channel reps, ISRs, BDRs, Community Advocates, or members of Sales Ops or Sales Strategy), the fields will default to "Other."
 
@@ -58,23 +58,23 @@ While most of our sales performance reporting is based on the sales team that wo
 
 The project plan for Rosetta Stone and all of the associated issues can be found [here](https://gitlab.com/gitlab-com/sales-team/field-operations/analytics/-/issues/242#note_495712375). To summarize, our steps are:
 
- - Phase I: Reporting by Sales Team
-   - align teams on key SFDC fields and account vs. opportunity ownership in reporting
-   - fill in user segment/geo/region/area fields on all user records
-   - ensure that we are correctly stamping user record values onto Opportunities
-   - backfill the stamped Opportunity fields with accurate historical data
-   - ensure that we have no blank or impossible combinations of segment/geo/region/area in our stamped fields
-   - update existing reporting to use the new user segment/geo/region/area fields
- - Phase II: Reporting by Account Characteristics
-   - align teams on key SFDC fields
-   - ensure that segment/geo/region/area fields on the Account object are working
-   - create exception reporting and reconciliation process for mistmatches between sales team and Account segment/geo/region/area
- - Clean up
-   - audit existing fields on User, Opportunity, and Account objects. Deprecate any competing fields.
+- Phase I: Reporting by Sales Team
+  - align teams on key SFDC fields and account vs. opportunity ownership in reporting
+  - fill in user segment/geo/region/area fields on all user records
+  - ensure that we are correctly stamping user record values onto Opportunities
+  - backfill the stamped Opportunity fields with accurate historical data
+  - ensure that we have no blank or impossible combinations of segment/geo/region/area in our stamped fields
+  - update existing reporting to use the new user segment/geo/region/area fields
+- Phase II: Reporting by Account Characteristics
+  - align teams on key SFDC fields
+  - ensure that segment/geo/region/area fields on the Account object are working
+  - create exception reporting and reconciliation process for mistmatches between sales team and Account segment/geo/region/area
+- Clean up
+  - audit existing fields on User, Opportunity, and Account objects. Deprecate any competing fields.
 
 The ideal end state for this project would be that:
 
-   - we have ONLY 4 fields in SFDC that you could possibly use to answer any and all questions about sales team performance by segment/geo/region/area, which would align cleanly with our sales management structure (rep --> ASM --> RD --> CRO); and
-   - we have ONLY 4 fields that you could possibly use to answer any and all questions about account characteristics by segment/geo/region/area.
+- we have ONLY 4 fields in SFDC that you could possibly use to answer any and all questions about sales team performance by segment/geo/region/area, which would align cleanly with our sales management structure (rep --> ASM --> RD --> CRO); and
+- we have ONLY 4 fields that you could possibly use to answer any and all questions about account characteristics by segment/geo/region/area.
 
 These fields would serve as key dimensions used to slice all reporting and would flow from SFDC into our trusted data framework in the data warehouse to be used for standardized reporting across the company.

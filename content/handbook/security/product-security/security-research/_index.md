@@ -276,10 +276,10 @@ In total there are ten projects in four different categories to pick from. The c
 - Data access [(red/orange/green)]({{< ref "data-classification-standard#data-classification-levels" >}})
 - GitLab API scopes used (if any)
 - Functionality provided, especially aiming for high-impact features like:
-     - authentication and authorization
-     - file access
-     - up/download handling
-     - handling of secrets
+  - authentication and authorization
+  - file access
+  - up/download handling
+  - handling of secrets
 - Adoption within and beyond GitLab, how widely is the project used?
 
 When a project from this list gets assessed the spot on the list will be filled with another project to always keep the funnel filled.

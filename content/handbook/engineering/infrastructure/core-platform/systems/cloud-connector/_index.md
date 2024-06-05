@@ -10,9 +10,9 @@ Make it easy to build a feature into GitLab across multiple types of deployment
 
 GitLab Cloud Connector is a way to access services common to multiple GitLab deployments, instances, and cells. GitLab customers can choose between the following deployment options:
 
- * GitLab.com’s multi-tenant SaaS offering.
- * Deploying their own self-managed GitLab instance.
- * Signing up for GitLab Dedicated, our managed single-tenant solution.
+* GitLab.com’s multi-tenant SaaS offering.
+* Deploying their own self-managed GitLab instance.
+* Signing up for GitLab Dedicated, our managed single-tenant solution.
 
 The goal of GitLab Cloud Connector is to ensure that GitLab features can work equally across all three. This aligns with Enablement’s mission of accelerating other product groups by reducing the friction of developing for multiple deployments.
 
@@ -36,7 +36,7 @@ Where we can we follow the GitLab values and communicate asynchronously.  Howeve
 
 * Weekly Cloud Connector group meeting - Mondays 4:00PM UTC (3:00PM UTC during daylight savings time)
 * Cloud Connector group Office Hours
-    * Tuesdays and Thursdays at 10:00AM UTC ( 09:00AM UTC during daylight savings time)
+  * Tuesdays and Thursdays at 10:00AM UTC ( 09:00AM UTC during daylight savings time)
 
 ## Work
 
@@ -71,22 +71,22 @@ The Cloud Connector group's [Roadmap](https://gitlab.com/groups/gitlab-org/-/roa
 
 ### Knowledge sharing and lessons learned
 
- * [Cloud Connector group's Approach](./approach.html)
- * [Cloud Connector group's Knowledge Sharing](./knowledge.html)
+* [Cloud Connector group's Approach](./approach.html)
+* [Cloud Connector group's Knowledge Sharing](./knowledge.html)
 
 #### Blog posts (when team was working as Application Performance)
 
- * [Scaling down: How we shrank image transfers by 93%](https://about.gitlab.com/blog/2020/11/02/scaling-down-how-we-prototyped-an-image-scaler-at-gitlab/)
- * [Ruby 2.7: Understand and debug problems with heap compaction](https://about.gitlab.com/blog/2021/04/28/puma-nakayoshi-fork-and-compaction/)
+* [Scaling down: How we shrank image transfers by 93%](https://about.gitlab.com/blog/2020/11/02/scaling-down-how-we-prototyped-an-image-scaler-at-gitlab/)
+* [Ruby 2.7: Understand and debug problems with heap compaction](https://about.gitlab.com/blog/2021/04/28/puma-nakayoshi-fork-and-compaction/)
 
 ### More about how we work
 
- * [Cloud Connector group's (as Application Performance) 2020 Recap](./2020.html)
- * [Cloud Connector group's YouTube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq_5ZWIHYfbcAYjtXYcEZA3)
- * [Cloud Connector group's subgroup](https://gitlab.com/gitlab-org/cloud-connector-team)
- * [Retrospective page](https://gitlab.com/gl-retrospectives/cloud-connector-team)
- * Slack Channel [#g_cloud_connector(https://gitlab.slack.com/messages/CGN8BUCKC)
- * [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
+* [Cloud Connector group's (as Application Performance) 2020 Recap](./2020.html)
+* [Cloud Connector group's YouTube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq_5ZWIHYfbcAYjtXYcEZA3)
+* [Cloud Connector group's subgroup](https://gitlab.com/gitlab-org/cloud-connector-team)
+* [Retrospective page](https://gitlab.com/gl-retrospectives/cloud-connector-team)
+* Slack Channel [#g_cloud_connector(https://gitlab.slack.com/messages/CGN8BUCKC)
+* [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
 
 ## Dashboards
 

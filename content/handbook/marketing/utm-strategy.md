@@ -66,10 +66,10 @@ UTMs should **always** be used when linking to:
 
 Use the [UTM builder googlesheet with formulas](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=29481466). [Here is a video overview](https://youtu.be/WRSIZ84027g) of the spreadsheet. The process involves the following steps:
 
-   * Open the [Tracking URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=29481466)
-   * Add in your page URL in the first column
-   * Fill in each attribute of your UTM parameter, including `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_budget`. If some of these UTM parameters are irrelevant to your campaign, keep them blank or remove from the final URL.
-   * Destination URL will be generated automatically in column N, ready for you to use in your campaign. If you need to shorten your URL, use a tool like [bit.ly](https://bitly.com/).
+* Open the [Tracking URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=29481466)
+* Add in your page URL in the first column
+* Fill in each attribute of your UTM parameter, including `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_budget`. If some of these UTM parameters are irrelevant to your campaign, keep them blank or remove from the final URL.
+* Destination URL will be generated automatically in column N, ready for you to use in your campaign. If you need to shorten your URL, use a tool like [bit.ly](https://bitly.com/).
 
 #### Measuting the sucess
 
@@ -190,7 +190,7 @@ For a running list of Channel Partners and their CRM IDs, which is critical to t
 * UTM Source = `marketo` (never changes)
 * UTM campaign = `Date_Region_Budget_Type_gtm_[Language]_[campaign_name]` (i.e. `2024_02_20_emea_dmp_webcast_devsecopsplat_fr_beginnersguidedevops`)
 * UTM content = `content_offer` and `asset type` (i.e. `utm_content=devguideappsec_ebook`)
-   * Do not use `nurture` for utm_content.
+  * Do not use `nurture` for utm_content.
 
 ### UTM structure for account based marketing
 
@@ -202,7 +202,7 @@ For a running list of Channel Partners and their CRM IDs, which is critical to t
 
   * For ad variations, use shorthand addition (i.e. `-accl1` `-accel2`) to the end of the content option
   * Example in practice: `utm_content=acceldigtransformation` would add the following for 4 ad variations with different ad copy:
-     * `utm_content=acceldigtransformation-accel2`
-     * `utm_content=acceldigtransformation-accel1`
-     * `utm_content=acceldigtransformation-live2`
-     * `utm_content=acceldigtransformation-live1`
+    * `utm_content=acceldigtransformation-accel2`
+    * `utm_content=acceldigtransformation-accel1`
+    * `utm_content=acceldigtransformation-live2`
+    * `utm_content=acceldigtransformation-live1`

@@ -92,11 +92,11 @@ Discussion led by Tim Hey, PM for Expansion. Topics covered:
 * Mission
 * KPIs & Supporting Performance Indicators
 * Customer facing opportunities
-    * User Orientation - Users don’t know where to start
-    * Increase platform confidence and trust - I love my tools and am afraid to switch
+  * User Orientation - Users don’t know where to start
+  * Increase platform confidence and trust - I love my tools and am afraid to switch
 * Internal opportunities
-    * Self-Managed usage for upsell process and user workflow
-    * Self-Managed True-up process and user workflow
+  * Self-Managed usage for upsell process and user workflow
+  * Self-Managed True-up process and user workflow
 
 [Video](https://www.youtube.com/watch?v=uodOO2RUIbo&feature=youtu.be)
 

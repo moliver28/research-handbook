@@ -133,20 +133,20 @@ Board meetings can happen remotely or in-person. We establish the meeting calend
 The Staff EBA to the CEO shall ensure that there are separate calendar invites for all attendees within each session, all including exact session start and end times, the appropriate Zoom link, and links to the agenda document. Any supplemental materials are required to be linked in the agenda document for each session:
 
 - Session 1: Closed Session (Part 1)
-    - Duration: 15 minutes
-    - Attendees: GitLab Board of Directors
+  - Duration: 15 minutes
+  - Attendees: GitLab Board of Directors
 - Session 2: Administration Session
-    - Duration: 30 minutes
-    - Attendees: GitLab Board of Directors, GitLab CFO, CPO and CLO, outside legal firm, Board observers
+  - Duration: 30 minutes
+  - Attendees: GitLab Board of Directors, GitLab CFO, CPO and CLO, outside legal firm, Board observers
 - Session 3: Board of Directors Meeting - General Session
-    - Duration: 75 minutes
-    - Attendees: GitLab Board of Directors, E-Group, CoS to the CEO, Staff EBA, outside legal firm representatives, Board observers
+  - Duration: 75 minutes
+  - Attendees: GitLab Board of Directors, E-Group, CoS to the CEO, Staff EBA, outside legal firm representatives, Board observers
 - Session 4: Closed Session (Part 3) (optional, if needed)
-    - Duration: 20 minutes
-    - Attendees: GitLab Board of Directors
+  - Duration: 20 minutes
+  - Attendees: GitLab Board of Directors
 - Session 5: Board Only (without GitLab CEO)
-    - Duration: 20 minutes
-    - Attendees: GitLab Board of Directors (without the GitLab CEO)
+  - Duration: 20 minutes
+  - Attendees: GitLab Board of Directors (without the GitLab CEO)
 
 ## Board Meeting Process
 
@@ -323,11 +323,11 @@ New Director will be be provided with:
 
 1. Links to relevant Handbook pages, including:
 
-  - Committee Membership
-  - Committee Charters
-  - Code of Conduct
-  - Related Party Transactions Policy
-  - Bylaws
+- Committee Membership
+- Committee Charters
+- Code of Conduct
+- Related Party Transactions Policy
+- Bylaws
 
 1. Certificate of Incorporation
 1. Access to the Legal Board Drive
@@ -341,38 +341,38 @@ New Director will be be provided with:
 1. Update Board distribution list with Board Member and support staff
 1. Send calendar invites to Board member and support staff for:
 
-  - Board meetings as well as a Board calendar covering meetings for next fiscal year
-  - Board dinners
-  - Board Committee Meetings (as needed)
-  - Commit
-  - Contribute
-  - Sales Kickoff
-  - President's Club
+- Board meetings as well as a Board calendar covering meetings for next fiscal year
+- Board dinners
+- Board Committee Meetings (as needed)
+- Commit
+- Contribute
+- Sales Kickoff
+- President's Club
 
 1. Update Board Member contact information list and circulate to Board and support staff
 1. Schedule AMA with New Board member
 1. Schedule *Functional Reviews* within the first month:
 1. Corporate Strategy (CEO) - 50 mins
 
-  - Materials for meeting: Most recent Board of Directors meeting presentation, Key Review slides, current quarter OKRs. Please do not generate new content. The Staff EBA to the CEO sends material to the new Director at least 72 hours in advance. The meeting is centered around the new Director's questions
-  - [GitLab Strategy](/handbook/company/strategy/)
-  - [3 year strategy](/handbook/company/strategy/#three-year-strategy)
-  - [Company KPI's](/handbook/company/kpis/)
-  - [Quarterly OKRs](/handbook/company/okrs/)
-  - [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/)
+- Materials for meeting: Most recent Board of Directors meeting presentation, Key Review slides, current quarter OKRs. Please do not generate new content. The Staff EBA to the CEO sends material to the new Director at least 72 hours in advance. The meeting is centered around the new Director's questions
+- [GitLab Strategy](/handbook/company/strategy/)
+- [3 year strategy](/handbook/company/strategy/#three-year-strategy)
+- [Company KPI's](/handbook/company/kpis/)
+- [Quarterly OKRs](/handbook/company/okrs/)
+- [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/)
 
 1. Finance (CFO) - 80 minutes suggested
 
-  - Financing profile, liquidity, creditworthiness, credit ratings
-  - Current issues, Board oversight issues
-  - Risk assessment
-  - Disclosure controls, internal controls
-  - Information systems
-  - Internal audits
-  - Role of independent auditor
-  - Current topics, Board oversight
-  - Discuss separate meeting with Auditors
-  - Audit Committee Overview
+- Financing profile, liquidity, creditworthiness, credit ratings
+- Current issues, Board oversight issues
+- Risk assessment
+- Disclosure controls, internal controls
+- Information systems
+- Internal audits
+- Role of independent auditor
+- Current topics, Board oversight
+- Discuss separate meeting with Auditors
+- Audit Committee Overview
 
 1. Legal, Compliance, Regulatory, Governance (CLO)  - 50 minutes suggested
     - Legal matters, if any

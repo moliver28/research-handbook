@@ -31,10 +31,10 @@ Showcases are scheduled every two weeks. They are 60 minutes long to allow up to
 
 - To be inclusive of our distributed team, we alternate the meeting start time every other occurrence to be either Americas/LAC/EMEA friendly or APAC friendly.
 - Each showcase is hosted by a Product Design Manager.
-    - Due to time zone restrictions for managers, the APAC UX Showcase is hosted by another Product Designer, Technical Writer or UX researcher.
+  - Due to time zone restrictions for managers, the APAC UX Showcase is hosted by another Product Designer, Technical Writer or UX researcher.
 - Product Designers are assigned dates based on a randomly generated rotation:
-    - We ensure each designer has the opportunity to share twice a year.
-    - Gaps are left throughout the schedule for additional speakers.
+  - We ensure each designer has the opportunity to share twice a year.
+  - Gaps are left throughout the schedule for additional speakers.
 - Anyone can sign up to share and discuss their work. Coordinate with the host to claim an available slot.
 - Each person who shares is expected to fill out the agenda (attached to the meeting invite) for that week prior to speaking.
 - It is the responsibility of the host to know when they are scheduled to host and the responsibility of the speaker to know when they are scheduled to share. To help, a Slack reminder has been set up in the `#ux` channel to review the schedule.
@@ -87,30 +87,30 @@ Examples of minimal showcases:
 - Prior to the UX Showcase, add your specific topic to the meeting agenda.
 - If this is an APAC showcase and there is no host yet, consider [hosting](#hosting).
 - Provide context for the problem:
-    - The scope of the problem
-    - Why was/is it important to solve?
-    - What did we learn during research?
-    - Any constraints that impact the solution?
+  - The scope of the problem
+  - Why was/is it important to solve?
+  - What did we learn during research?
+  - Any constraints that impact the solution?
 - State the desired goals of the work:
-    - What is the desired business and customer outcome?
-    - Ideally, describe the [JTDB](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
-        - When, [user's context]. I want to [user's goal]. So I can [user's desired outcome].
-    - What were/are the constraints?
-    - How did you/are you planning to iterate toward an MVC?
+  - What is the desired business and customer outcome?
+  - Ideally, describe the [JTDB](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
+    - When, [user's context]. I want to [user's goal]. So I can [user's desired outcome].
+  - What were/are the constraints?
+  - How did you/are you planning to iterate toward an MVC?
 - Walk your audience through the solution iterations:
-    - Be yourself and tell the story of the work.
-    - Use existing mockups and flows, rather than creating something new.
+  - Be yourself and tell the story of the work.
+  - Use existing mockups and flows, rather than creating something new.
 - Invite discussion:
-    - How might this overlap with or help other teams?
-    - What are the current challenges, next steps, and open questions?
-    - How might others approach this or help you?
+  - How might this overlap with or help other teams?
+  - What are the current challenges, next steps, and open questions?
+  - How might others approach this or help you?
 
 ### Helpful tips for those sharing
 
 - Introduce yourself and provide [context](#preparation) for your topic.
 - [Make the participant experience an enjoyable one](/handbook/tools-and-tips/zoom/#make-the-participant-experience-an-enjoyable-one): avoid moving around too fast (for example, when showing a Figma prototype), or back and forth between views because you forgot to say one thing at the previous one.
 - [When sharing your screen](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom), consider going fullscreen so that the audience can see the details.
-    - Useful Figma keyboard shortcut on macOS to show/hide UI: `⌘\` or `⌘.`.
+  - Useful Figma keyboard shortcut on macOS to show/hide UI: `⌘\` or `⌘.`.
 - Make sure the minimum font size of text in your story is large enough so that it can easily be read by everyone.
 - [Provide links](/handbook/tools-and-tips/zoom/#provide-links-rather-than-sharing-while-you-present-or-edit) in the agenda doc that are relevant to your story, such as, issues, epics, Figma files, FigJam boards, and recordings.
 - When sharing directly from Figma files and issues, consider preparing an outline of the things you want to cover beforehand, filling in a few details of points you want to mention. Use this as a guide while you speak to make it more linear and easy to follow for the audience.

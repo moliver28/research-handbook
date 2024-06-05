@@ -33,9 +33,9 @@ Who is this sales play for?
 **Ideal Customer Profile**  - GitLab customers looking to consolidate on GitLab and migrate away from JFrog's Artifactory or Sonatype's Nexus.
 
 * Bonus points for:
-   * Organizations at lower maturity level undergoing or planning to undergo tranformation
-   * Siloed teams with disparate tools for managing artifacts, such as packages or container images
-   * Organizations with stringent regulatory security or compliance requirements
+  * Organizations at lower maturity level undergoing or planning to undergo tranformation
+  * Siloed teams with disparate tools for managing artifacts, such as packages or container images
+  * Organizations with stringent regulatory security or compliance requirements
 
 **Target Buyer Personas**
 

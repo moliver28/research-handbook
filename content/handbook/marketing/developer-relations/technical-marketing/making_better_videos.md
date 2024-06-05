@@ -20,11 +20,11 @@ This page displays information and useful links on creating great technical vide
 
 Before starting to record a video, a few things must be planned out:
 
-   * a storyboard should be used to get early feedback on the planned demo. This [storyboard template](https://docs.google.com/document/d/1Cg-8kL71lhoGqiNguh7dDwk4LeofXPKjOsQD0gAWtpo/edit#) should be used to facilitate this.
-   * Think of how a developer would typically perform the task
-      * Commandline vs. GUI
-   * Think of what is necessary for the video
-   * a demo environment where the value of the technical compenent can be properly displayed.
+* a storyboard should be used to get early feedback on the planned demo. This [storyboard template](https://docs.google.com/document/d/1Cg-8kL71lhoGqiNguh7dDwk4LeofXPKjOsQD0gAWtpo/edit#) should be used to facilitate this.
+* Think of how a developer would typically perform the task
+  * Commandline vs. GUI
+* Think of what is necessary for the video
+* a demo environment where the value of the technical compenent can be properly displayed.
 
 #### Video Length
 
@@ -44,20 +44,20 @@ Before starting to record a video, a few things must be planned out:
 In order to retain the audience, there are a few things that should be done during the production stage.
 [Audience Retention](https://backlinko.com/hub/youtube/retention) can be achieved with the following:
 
-   * Smooth Transitions
-   * Quality of Audio
-   * Pattern Interrupts
-   * Adding Graphics and Images
-   * Cropping out parts of the screen which do not show value and may distract audience
+* Smooth Transitions
+* Quality of Audio
+* Pattern Interrupts
+* Adding Graphics and Images
+* Cropping out parts of the screen which do not show value and may distract audience
 
 #### Post Production
 
 Once the video is complete, how it is published is can affect how users react to it. Here are a few items to consider:
 
-   * [Video Titles](https://backlinko.com/hub/youtube/title)
-   * [Video Thumbnails](https://louisem.com/198803/how-to-youtube-thumbnails)
-   * [Video Tags](https://ahrefs.com/blog/youtube-tags/)
-   * [Captions](https://www.boia.org/blog/youtube-closed-captioning-for-accessibility-why-and-how): While YouTube generates automated captions on GitLab videos, AI-generated captions contain errors, especially for technical terms. You should [review and clean up](https://support.google.com/youtube/answer/2734705) captions on your video content.
+* [Video Titles](https://backlinko.com/hub/youtube/title)
+* [Video Thumbnails](https://louisem.com/198803/how-to-youtube-thumbnails)
+* [Video Tags](https://ahrefs.com/blog/youtube-tags/)
+* [Captions](https://www.boia.org/blog/youtube-closed-captioning-for-accessibility-why-and-how): While YouTube generates automated captions on GitLab videos, AI-generated captions contain errors, especially for technical terms. You should [review and clean up](https://support.google.com/youtube/answer/2734705) captions on your video content.
 
 #### Analytics/Growth
 

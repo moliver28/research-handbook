@@ -98,5 +98,5 @@ Depending on the type of change being reviewed, the Security Architect can invol
 Report (markdown file should be enough: searchable, collaborative, authoritative, like for threat modeling:
 Validation of the solution:
 
-  - Requirements are met
-  - Risk assessment
+- Requirements are met
+- Risk assessment

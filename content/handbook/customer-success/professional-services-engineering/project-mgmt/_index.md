@@ -59,8 +59,8 @@ Given the close collaboration between the PS Project Management and PS Operation
 
 ##### PS/PMO Cadence Schedule
 
-   * Pinned to the ps_pmo Slack channel
-   * The purpose of this reference is to understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the Gitlab organization
+* Pinned to the ps_pmo Slack channel
+* The purpose of this reference is to understand the relationship between PMO updates to Projects (health, forecasts, timecards) and PS Operations (reports, resource scheduling). Goal is to ensure Project and Program Managers are updating Project forecast in a consistent and symbiotic way to support both our PS Ops teams, as well as communicate our PS Project Portfolio review across the Gitlab organization
 
 ##### Kantata
 
@@ -90,43 +90,43 @@ _Time & Materials (T&M) vs Fixed Fee (Fixed Fee)_
 
 Forecast allocations impact PS revenue forecast and team members availability, utilization and planning
 
-   * Soft allocations are used when final schedule is not known yet, for visibility and planning. Soft allocation will not promise team member availability for a project, and will not be projected into the revenue forecast
-   * Hard allocations will promise team member availability, for the requested hours, once approved by the project coordinator. The allocated hours will also project into the revenue forecast
+* Soft allocations are used when final schedule is not known yet, for visibility and planning. Soft allocation will not promise team member availability for a project, and will not be projected into the revenue forecast
+* Hard allocations will promise team member availability, for the requested hours, once approved by the project coordinator. The allocated hours will also project into the revenue forecast
 
-   * For T&M and FF projects, it is the responsibility of the PM to forecast (hard-book) the PM, PSE, and TA time for the project 2 months out in Kantata. Our goal is to be able to be accurate within  +/- 5% of our estimated forecast.
-   * For Consulting Blocks and Dedicated Engineer Services,  we sometimes enter these engagements knowing very little about the project (as it is generally purchased as a SKU). Therefore, our goal is to be within +/- 10% of our estimated forecast after we have our initial EM>PS Transition Meeting
+* For T&M and FF projects, it is the responsibility of the PM to forecast (hard-book) the PM, PSE, and TA time for the project 2 months out in Kantata. Our goal is to be able to be accurate within  +/- 5% of our estimated forecast.
+* For Consulting Blocks and Dedicated Engineer Services,  we sometimes enter these engagements knowing very little about the project (as it is generally purchased as a SKU). Therefore, our goal is to be within +/- 10% of our estimated forecast after we have our initial EM>PS Transition Meeting
 
-   * To ensure forecast revenue is accurate go under Resource Center in Kantata:
+* To ensure forecast revenue is accurate go under Resource Center in Kantata:
       1. Select “Project Tab” and filter via “My Projects”
       1. Expand project you are allocating for so you can see all PS Engineers and yourself
       1. Click on each team member’s name and submit RR request via the “activity” window opened and assign to Project Coordinator as recipient
 
-   * If it's a FF project, we need to update the dates on the Milestones in order for it to reflect in our forecast:
+* If it's a FF project, we need to update the dates on the Milestones in order for it to reflect in our forecast:
       1. Open your project and open the “Task Tracker” tab
       1. Expand milestones
       1. Update sign off date
 
-   * It is helpful to call out forecast that "pushes" in the Top Customer report
+* It is helpful to call out forecast that "pushes" in the Top Customer report
 
 ##### How to Track Upside
 
-   * Upside is reviewed on a weekly, monthly and quarterly basis. There are four scenarios around when we need to track upside within our weekly revenue tracking sheet (which is pinned to our ps-pmo channel)
-   * If we are unable to confidently forecast the project resources 2 months out, we need to soft-book their/our time in Katata, and ensure that time is added to the upside report.
-   * If we have a pending CO that is not yet reflected in Katata, add it to Upside if the work in the CO will be completed this quarter
-   * If we anticipate a Milestone date will be adjusted to complete in the quarter, but it has not yet been confirmed/verified, add it to the Upside
-   * It is helpful to call upside out in the customer report. ex: can only soft-forecast “x” amount because of “y” restraints
+* Upside is reviewed on a weekly, monthly and quarterly basis. There are four scenarios around when we need to track upside within our weekly revenue tracking sheet (which is pinned to our ps-pmo channel)
+* If we are unable to confidently forecast the project resources 2 months out, we need to soft-book their/our time in Katata, and ensure that time is added to the upside report.
+* If we have a pending CO that is not yet reflected in Katata, add it to Upside if the work in the CO will be completed this quarter
+* If we anticipate a Milestone date will be adjusted to complete in the quarter, but it has not yet been confirmed/verified, add it to the Upside
+* It is helpful to call upside out in the customer report. ex: can only soft-forecast “x” amount because of “y” restraints
 
 ##### Top Customer Report
 
-   * Updated by 8am EST Wed
-   * Pinned to ps_pmo Slack channel
-   * Update the following in the Notes section
-   * 1-lined progress update
-   * If there is an issue, what is the proposed action + timing of fix.
-   * If there is assistance needed
-   * DRI & contributors
-   * Internal temperature (R-Y-G) | Customer temperature (R-Y-G)
-   * Link to RAID & Internal Customer Epic if Y/R (to review WE, CO, WaR)*
+* Updated by 8am EST Wed
+* Pinned to ps_pmo Slack channel
+* Update the following in the Notes section
+* 1-lined progress update
+* If there is an issue, what is the proposed action + timing of fix.
+* If there is assistance needed
+* DRI & contributors
+* Internal temperature (R-Y-G) | Customer temperature (R-Y-G)
+* Link to RAID & Internal Customer Epic if Y/R (to review WE, CO, WaR)*
 
 ##### Forecast call prep (to be complete by 10am est Mondays)
 
@@ -213,9 +213,9 @@ Project scope for Professional Services is the outline of the work required to d
 
 _to be updated_
 
-   * Complete this [sign off workflow](/handbook/customer-success/professional-services-engineering/workflows/project_execution/sign-off.html)
-   * Schedule [Project closure meeting](https://docs.google.com/document/d/1Cw5eLe8VKFtHG9xGqUiCua8Pbu52reMzHujcPWq3ofQ/edit?usp=sharing)
-   * Schedule [Project Retrospective](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit?usp=sharing)  
-   * Regional Manager to provide a closeout report including estimated hours, actual hours, deliverable documents, and lessons learned to broader team. Post this in [#ps-project-leadership](https://gitlab.slack.com/archives/GR4A7UJSF) and make sure to mention the Engagement Manager team `@em`
-   * Request/capture CSAT responses from Customer
-   * Close Project in Kantata
+* Complete this [sign off workflow](/handbook/customer-success/professional-services-engineering/workflows/project_execution/sign-off.html)
+* Schedule [Project closure meeting](https://docs.google.com/document/d/1Cw5eLe8VKFtHG9xGqUiCua8Pbu52reMzHujcPWq3ofQ/edit?usp=sharing)
+* Schedule [Project Retrospective](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit?usp=sharing)  
+* Regional Manager to provide a closeout report including estimated hours, actual hours, deliverable documents, and lessons learned to broader team. Post this in [#ps-project-leadership](https://gitlab.slack.com/archives/GR4A7UJSF) and make sure to mention the Engagement Manager team `@em`
+* Request/capture CSAT responses from Customer
+* Close Project in Kantata
