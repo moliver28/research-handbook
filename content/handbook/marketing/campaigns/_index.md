@@ -164,7 +164,8 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
       1. Review workback timeline, identify any risks to timeline.
       1. Confirm launch date
 - **Bi-weekly Connect Call**: Campaign Manager runs bi-weekly synchronous meeting with core team, always recorded for review
-- **Checkpoint calls with regional and activation teams:** 
+- **3 Checkpoint calls with regional and activation teams:**
+  - During campaign development, we will have the following checkpoint calls with the regional and activation teams:
       1. Target personas and buyers journey (Cover buyer's journey sheet)
       1. Key asset and activation channel proposal (Cover issue documenting this)
       1. New content planning and timeline
