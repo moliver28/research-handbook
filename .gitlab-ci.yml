@@ -139,7 +139,9 @@ build:
 #
 ###################################
 pages:
+  image: alpine:latest
   stage: deploy
+  dependencies: [build]
   environment:
     # tracking DORA deployment frequency
     name: $ENVIRONMENT
@@ -148,6 +150,7 @@ pages:
   variables:
     ENVIRONMENT: production
     HUGO_BASEURL: https://handbook.gitlab.com/
+    GIT_STRATEGY: none
   pages:
     path_prefix: "$PAGES_PREFIX"
   artifacts:
