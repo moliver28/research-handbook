@@ -6,24 +6,38 @@ canonical_path: "/handbook/support/readiness/"
 
 ## Purpose
 
-The purpose of Support Readiness is to:
+The purpose of Support Readiness is to enable GitLab to provide delightful customer experiences by:
+- equipping the Customer Support team with the right knowledge, training, tools and data to efficiently solve customer problems.
+- equipping our customers and wider GitLab with the right data, knowledge and insights to prevent customer problems before they occur.
+- delivering delightful experiences to both our own internal and external customers.
 
-- foster and support an environment where individuals and the larger support team are continuously improving.
-- ensure the team has ready access to information about activities that will affect the customer experience.
-- create operational efficiency and reduce error rates by building tooling that mechanizes or automates engineer workflows.
-- evaluate and measure our customer service quality and develop plans to execute globally consistent service delivery.
+*Our purpose statement is re-evaluated as needed, at minimum every 3 years*
 
-## Mission
+## Support Readiness FY25 Direction
 
-To help the Technical Support Team spontaneously and make their day to day
-workflow simple and easier so the efficiency and result values of Technical
-Support Team increases.
+The FY25 Direction for Support Readiness should support and substantiate the overall [Support Direction]((/handbook/support/#fy25-direction)). To that end, in FY25 we will:
 
-## Vision
 
-To provide the “Best in Class” support to our support team specifically and
-GitLab to increase the overall value of GitLab as a team, organization and
-product.
+### Improve our ability to achieve results for customers
+ - Update and refine issue triage, prioritization and work assignment processes.
+ - Create sub-department and role-based performance indicators.
+ - Simplify and refine customer and support engineer experiences using Zendesk.
+
+### Team structure and how it supports our ability to achieve results
+ - Refine team structure and team member roles; check-in with team members to make sure they're in the right "seat" and have the right responsibilities.
+ - Make strategic hires to help better achieve our purpose and advance us in our direction.
+
+### Team culture and how it supports our ability to achieve results
+ - Run a SWOT analysis and use its output to form purpose and direction statements.
+ - Share knowledge, document and train on operationally critical issues to ensure business continuity.
+
+### Delight our customers
+ - Foster a customer-centric mindset that prioritizes empathy and proactive support.
+ - Survey Support team and take action on findings.
+
+
+
+*Our direction is re-evaluated annually, following the completion of the [Support Direction](/handbook/support/#fy25-direction)*
 
 ## Meet the team
 
