@@ -27,33 +27,33 @@ To understand the thought process behind our FY24 integrated campaigns structure
 
 ## What is involved in an Integrated Campaign?
 
-An integrated campaign is aligned to key go-to-market motions, decided in collaboration between marketing and sales, and built out by a [campaign core team](/handbook/marketing/campaigns/#campaign-core-teams). A [global campaign manager](/handbook/marketing/demand-generation/campaigns/) will lead the effort, working closely with the campaign core team, to develop a [campaign bundle](/handbook/marketing/campaigns/#campaign-bundles) that is then activated by the regional campaign managers [across various channels and tactics](/handbook/marketing/campaigns/#campaign-activation) in conjunction with ABM, Paid Digital, Lifecycle, Field Marketing, SDRs/BDRs, and Channel Partners.
+An integrated campaign is aligned to key go-to-market motions, decided in collaboration between marketing and sales, and built out by a [campaign core team](/handbook/marketing/campaigns/#campaign-core-teams). A [global campaign manager](/handbook/marketing/demand-generation/campaigns/) will lead the effort, working closely with the campaign core team, to develop a [campaign activation kit](/handbook/marketing/campaigns/#campaign-activationkit) that is then activated by the regional campaign managers [across various channels and tactics](/handbook/marketing/campaigns/#campaign-activation) in conjunction with ABM, Paid Digital, Lifecycle, Field Marketing, SDRs/BDRs, and Channel Partners.
 
-### What is in a campaign bundle?
+### What is in a campaign activation kit?
 
-{: #campaign-bundles}
+{: #campaign-activationkit}
 
-Think of a **campaign bundle** as the foundational pieces of an integrated campaign. They are used by all teams in marketing and sales to maintain a cohesive message and branding across all tactics and activities aligned to the topical campaign.
+Think of a **campaign activation kit** as the bill of materials of an integrated campaign. They are used by all teams in marketing and sales to maintain a cohesive message and branding across all tactics and activities aligned to the topical campaign.
 
-_The list below includes recommended items included in a **Campaign Bundle**, which is developed by the Campaign Core Team consisting of Campaigns, Product Marketing, Developer Advocacy, Content, Analyst relations, and Design.
+_The list below includes recommended items included in a **Campaign activation kit**, which is developed by the Campaign Core Team consisting of Campaigns, Product Marketing, Developer Advocacy, Content, Analyst relations, and Design.
 
-To see a visual of campaign bundles, which are then leveraged in activation plans, please see [this figjam](https://www.figma.com/file/jakug8myj5tOcaYrNxRAq2/Campaigns-team-Roles-%26-Responsibilities-Visuals_2023-08-23_11-14-14?type=whiteboard&t=HDkNJDbCt6265Ezf-1).
+_Visualization of a campaigns kit coming soon_
 
-**What is included in a Campaign Bundle?**
+**What is included in a Campaign kit?**
 
 - Target personas
-- Persona-based positioning and messaging
 - Keyword research
+- ABM Segmentation
 - Content journey (including awareness, consideration, and decision stages)
 - Supporting assets including Analyst relations content & Customer references (if available)
-- Emails for content in buyer journey
+- Marketing emails for content in buyer journey
+- Sales emails for content in buyer journey
 - Creative for ads, emails, landing pages
-- Alliance partner joint GTM campaigns and activities (if applicable)
+- Alliance partner joint GTM activities (if applicable)
 - Channel partner "Instant Campaigns"
-- Outreach sequences/templates
 - Enablement sessions
 
-## How are campaign bundles activated?
+## How are campaign kits activated?
 
 {: #campaign-activation}
 
@@ -66,14 +66,13 @@ Campaign bundles are leveraged by all teams in marketing and sales to drive a co
 - Workshops
 - Regional events
 - Corporate events
-- Community events
-- Owned events (Commit)
+- Owned events (GitLab 17)
 
 **Activation channels include:**
 
 - Email nurture
-- Paid digital (paid social, GDN, etc.)
-- Social
+- Paid digital (paid social, content syndication, etc.)
+- Organic Social
 - Blogs
 - PR
 - Community
@@ -104,8 +103,8 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 
 **About Campaign Core Teams:**
 
-- The Core Team's purpose is to collaborate on the research, positioning, messaging, general strategy, and overall timeline of the campaign, and related value plays.
-- The Core Teams will determine a relevant and realistic timeline in line with overarching marketing themes, and including Campaigns and Value Plays.
+- The Core Team's purpose is to collaborate on the research, positioning, messaging, general strategy, and overall timeline of the campaign, and related revenue plays.
+- The Core Teams will determine a relevant and realistic timeline in line with overarching marketing themes, and including Campaigns and revenue plays.
 - Each team member should formally commit to due dates for their work.
 - Each team member is responsible for communicating as soon as possible when a due date is at risk.
 - The Core Teams are comprised of functional DRIs from teams aligned to product specializations (SMEs within their teams)
@@ -118,14 +117,14 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 {: #roles-responsibilities}
 <!-- DO NOT CHANGE ANCHOR -->
 
-- **Product Marketing:** Responsible for the Solution GTM Strategy including narrative, messaging, and positioning. DRI for value plays. Marketing DRI for Sales and SDR enablement. DRI for buyer and influencer personas. Responsible for fostering participation of the entire team in the research, positioning, messaging, general strategy.
+- **Product Marketing:** Responsible for the Solution GTM Strategy including narrative, messaging, and positioning. DRI for revenue plays. Marketing DRI for Sales and SDR enablement. DRI for buyer and influencer personas. Responsible for fostering participation of the entire team in the research, positioning, messaging, general strategy.
 - **Marketing Campaigns:** DRI for marketing campaigns. Responsible for the production of lead generation campaigns and rallying relevant teams and team members to deliver integrated marketing plans.
 - **Developer Advocacy:** Responsible for technical narrative and value proposition. DRI for practitioner personas. DRI for Customers Success enablement including SAs, CSMs, and Support. Responsible for technical content production such as demos, blogs, workshops, webinars, etc.
-- **Content Marketing:** Responsible for content strategy and production related to the GTM motions and campaigns, and collaborating with other teams on prescriptive buyer journeys.
+- **Content Marketing:** Responsible for content strategy and production related to the GTM motions and campaigns, and leading the development of prescriptive econ and technical buyer journeys.
 - **Digital Marketing:** Responsible for digital strategy and defining ideal marketing channels to reach goals.
 - **Brand:** Responsible for cohesive branded journey across all tactics and between GTM Motions and campaigns.
 - **Field Enablement:** Sales DRI for sales enablement and training, and collaborating with GTM core teams on launch timeline.
-- **Sales Leadership:** Responsible for providing insight into the prioritization of value plays.
+- **Sales Leadership:** Responsible for providing insight into the prioritization of revenue plays.
 
 <details>
 
@@ -156,7 +155,7 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 - **DRI definition in Slack**: Manager, Campaigns connects with leaders of functional teams to determine functional DRIs
 - **Slack Kickoff Message**: Campaign Manager communicates via the new Slack channel that they will schedule synchronous kickoff with designated DRIs
 - **Kickoff Call**: Campaign Manager hosts kickoff call with functional DRIs
-   - Primary/Required Attendees: Campaigns, PMM, TMM, Content, Brand
+   - Primary/Required Attendees: Campaigns, PMM, Developer Advocacy (TMM), Content, Brand
    - Why? because they are key contributors to the initial deliverables that are dependencies for other teams
    - What will be covered?
       1. Share the need behind launching the campaign
@@ -164,23 +163,19 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
       1. Determine what success looks like
       1. Review workback timeline, identify any risks to timeline.
       1. Confirm launch date
-- **Weekly Connect Call**: Campaign Manager runs weekly synchronous meeting with core team, always recorded for review
-- **Weekly Status/Reminder Update in Slack:** Campaign Manager shares update including the following:
-   - Takeaways
-   - Progress
-   - At Risk
+- **Bi-weekly Connect Call**: Campaign Manager runs bi-weekly synchronous meeting with core team, always recorded for review
+- **3 Checkpoint calls with regional and activation teams:**
+  - During campaign development, we will have the following checkpoint calls with the regional and activation teams:
+      1. Target personas and buyers journey (Cover buyer's journey sheet)
+      1. Key asset and activation channel proposal (Cover issue documenting this)
+      1. New content planning and timeline
 - **Launch Announcement in Slack**:
 - **Announcement Amplification in Slack**: Share announcement post in the following channel
    - marketing
-   - TBD - issue to be opened to address
-- **Post-Launch Connect Calls**: Campaign Manager drives call focused on outcomes of tactics aligned to the campaign
-   - What webinars/tech demos/workshops were run? Or are planned?
-   - What new content was developed/launched?
-   - Potential optimizations based on performance
+   - marketing_integratedmarketing
+- **Post-Launch Connect Calls with activation team**: TBD
 - **Campaign Analysis**: Campaign Manager provides analysis of campaign metrics 6 months in
    - Check quarter over quarter performance
-
-*Because of the global nature of the GitLab team, schedules can be difficult to manage to ensure everyone can attend. For the Kickoff Call, the following team members are to be prioritized for attendance (because they are key contributors to the initial deliverables that are dependencies for other teams).*
 
 ## How do we measure performance??
 
