@@ -150,6 +150,7 @@ pages:
   variables:
     ENVIRONMENT: production
     HUGO_BASEURL: https://handbook.gitlab.com/
+    GIT_STRATEGY: none
   pages:
     path_prefix: "$PAGES_PREFIX"
   artifacts:
