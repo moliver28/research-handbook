@@ -77,4 +77,4 @@ The processes for forming the Security Culture Committee were updated in [May 20
 
 Previous documentation on forming the security culture committee and nomination processes can be found [here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/06e23cbcfada90c2b8ae01d89335efde5c248cd5/content/handbook/security/security-culture.md#formation-process-overview).
 
-Meeting recordings from 2020-2021 are located [here](https://drive.google.com/drive/folders/1bGPEGVdzoT650bFc7nAmU5nBzHu0rRe1). 
+Meeting recordings from 2020-2021 are located [here](https://drive.google.com/drive/folders/1bGPEGVdzoT650bFc7nAmU5nBzHu0rRe1).
