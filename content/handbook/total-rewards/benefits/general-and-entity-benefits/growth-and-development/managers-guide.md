@@ -22,7 +22,7 @@ There are certain criteria that team members must meet in order to be eligible t
 
 ### The Role of Managers in Growth and Development Applications
 
-All Growth and Development applications need manager approval, so applications from team members should not come as a surprise to you when they are created, but should come about as a result of ongoing [Career Development](https://handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/#what-is-career-development)  conversations with your team. If you don't already have regular career development conversations planned in with your team members (either as part of a regular 1:1 or a separately scheduled meeting), we recommend scheduling these in so that you can better understand your team members' career goals. Take a look at the [Support your team with Career Conversations](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/support-your-team-with-career-conversations) course in Level Up for best practice on how to handle these conversations effectively.
+All Growth and Development applications need manager approval, so applications from team members should not come as a surprise to you when they are created, but should come about as a result of ongoing [Career Development](/handbook/people-group/learning-and-development/career-development/#what-is-career-development)  conversations with your team. If you don't already have regular career development conversations planned in with your team members (either as part of a regular 1:1 or a separately scheduled meeting), we recommend scheduling these in so that you can better understand your team members' career goals. Take a look at the [Support your team with Career Conversations](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/support-your-team-with-career-conversations) course in Level Up for best practice on how to handle these conversations effectively.
 
 As a result of these career conversations, you may identify an opportunity that could be suitable for a Growth and Development Fund application, that aligns with the team member's career goals. As a manager, you should try to look out for such opportunities to encourage this usage, it can make team members feel that they are valued and that you show an understanding and appreciation of their career goals, and want to play an active role in helping them achieve them.
 
@@ -48,7 +48,6 @@ When a manager approves a G&D request, they are communicating that the growth ex
 1. Manager AND VP Approval: $1000.01 - $5000
 1. Manager AND eGroup Approval for any spend beyond $5000
     1. Sales: $5000+ approval by VP
-
 
 ### Managers should know what they are approving
 
@@ -85,7 +84,7 @@ As an option, requests over $1000 USD can take advantage of the split disburseme
 
 ## Types of opportunities
 
-Before encouraging team members to utliize the G&D Fund, it's important to be aware of the types of opportunities that are eligible. Review the main [Types of Growth and Development Reimbursement](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements) for more information on this.
+Before encouraging team members to utliize the G&D Fund, it's important to be aware of the types of opportunities that are eligible. Review the main [Types of Growth and Development Reimbursement](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements) for more information on this.
 
 ## Company-directed Learning vs Growth & Development funded learning experiences
 
@@ -99,11 +98,11 @@ The G&D Fund is primarily intended for individual use for career growth. It is n
 
 You can still recommend team members utilize the Growth and Development Fund for specific learning opportunities that would improve their performance and further their careers in line with your individual development conversations with team members. E.g. A manager completed a certification that helped them move up in their career, and recommends it to one of their team members with similar career aspirations.
 
-If the department budget isn’t available to put team members through an already identified paid learning opportunity, we recommend engaging the Learning and Development Team using our [Engagement Concierge](https://handbook.gitlab.com/handbook/people-group/engagement-concierge/) program.
+If the department budget isn’t available to put team members through an already identified paid learning opportunity, we recommend engaging the Learning and Development Team using our [Engagement Concierge](/handbook/people-group/engagement-concierge/) program.
 
 ### Can I utilize the Growth and Development Fund to help manage underperformance?
 
-No. The G&D Fund shouldn't be used as a means to help underperformance, only team members who are meeting performance expectations in their current role are eligible. Team members on a Performance Improvement Plan (PIP) or any type of remedial, as outlined in the [Underperformance](https://handbook.gitlab.com/handbook/leadership/underperformance/) page are not eligible for the G&D Fund.
+No. The G&D Fund shouldn't be used as a means to help underperformance, only team members who are meeting performance expectations in their current role are eligible. Team members on a Performance Improvement Plan (PIP) or any type of remedial, as outlined in the [Underperformance](/handbook/leadership/underperformance/) page are not eligible for the G&D Fund.
 
 ### Can I recommend specific G&D opportunities to help solve ongoing business issues within my scope of work?
 

@@ -229,44 +229,42 @@ As part of this application, candidates can expect the following stages with foc
 
 - Candidates are invited to schedule an interview with the Recruiter.
 - Areas of focus (as defined in GitLab Handbook):
-    - Results
-    - Collaboration
+  - Results
+  - Collaboration
 
 #### 2. Initial Interview - Hiring Manager
 
 - Candidates are invited to schedule an interview with the Hiring Manager.
 - Areas of focus (as defined in GitLab Handbook):
-    - Results
-    - Operational Excellence - Account Planning & Management
-    - Customer Focus - Effective Communication
-    - Operational Excellence - Growth Mindset
-    - Operational Excellence - Process Discipline
-    - Iteration
+  - Results
+  - Operational Excellence - Account Planning & Management
+  - Customer Focus - Effective Communication
+  - Operational Excellence - Growth Mindset
+  - Operational Excellence - Process Discipline
+  - Iteration
 
 #### 3. Mock Presentation - Panel
 
 - Candidates are invited to schedule a presentation with 3 interviewers from the team.
 - Areas of focus (as defined in GitLab Handbook):
-    - Solutions Focus - Consultative approach
-    - Solutions Focus - DevOps & Technical Leadership
-    - Solutions Focus - Building Trust
-    - Customer Focus - Facilitating
-    - Customer Focus - Understanding Customer’s Needs
-    - Efficiency
+  - Solutions Focus - Consultative approach
+  - Solutions Focus - DevOps & Technical Leadership
+  - Solutions Focus - Building Trust
+  - Customer Focus - Facilitating
+  - Customer Focus - Understanding Customer’s Needs
+  - Efficiency
 
 #### 4. Final Interview - Senior Leadership
 
 - Candidates are invited to schedule an interview with senior leadership.
 - Areas of focus (as defined in GitLab Handbook):
-    - Operational Excellence - Resource Orchestration
-    - Collaboration
-    - Operational Excellence - Growth Mindset
-    - Customer Focus - Customer Business Acumen
-    - Solutions Focus - Leading with Vision
-    - Transparency
-    - Diversity inclusion and belonging
-
-
+  - Operational Excellence - Resource Orchestration
+  - Collaboration
+  - Operational Excellence - Growth Mindset
+  - Customer Focus - Customer Business Acumen
+  - Solutions Focus - Leading with Vision
+  - Transparency
+  - Diversity inclusion and belonging
 
 ### Compensation
 

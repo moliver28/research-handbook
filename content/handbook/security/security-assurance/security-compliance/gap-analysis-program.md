@@ -20,7 +20,7 @@ The scope of gap analysis procedures performed by the Security Compliance team a
 | Role | Responsibility|
 | ---- | ------ |
 | Gap Analysis Owner | The individual Security Compliance team member responsible for being the gap analysis DRI through the analysis lifecycle, performing the gap analysis, and mapping/formalizing controls to address the identified gaps. |
-| Gap Analysis Requestor | The individual GitLab team member who requests the performance of a gap analysis. Any GitLab team member can request a gap analysis from the Security Compliance team.
+| Gap Analysis Requestor | The individual GitLab team member who requests the performance of a gap analysis. Any GitLab team member can request a gap analysis from the Security Compliance team. |
 | Gap Analysis Program DRI | Responsible for regular reviews of program health and stakeholder report delivery |
 
 ## Gap Analysis Phases Overview

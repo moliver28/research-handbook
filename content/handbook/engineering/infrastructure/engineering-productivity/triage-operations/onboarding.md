@@ -10,7 +10,7 @@ description: "Onboarding guidelines for Issue Triaging team"
 
 
 
-----
+---
 
 ## Expectations of the Issue Triaging team
 
@@ -125,7 +125,7 @@ We were able to reproduce the bug on GitLab.com, this is a proper regression! Le
 - [ ] Explore the domain experts listed on the [team page](/handbook/company/team/)
 - [ ] Identify the current release's regression issue and take a look at the referenced regression issues
 
-----
+---
 
 #### Stage 2 - Prepare for Community Assistance
 
@@ -151,7 +151,7 @@ Diagnosing issues facing GitLab.com users is aided greatly by a good knowledge o
 - [ ] Dig in to [the GitLab knowledge base](https://docs.gitlab.com) and understand where to look for more information regarding features and the API
 - [ ] Gain familiarity with [Sentry](https://sentry.gitlab.net), and [Kibana](https://log.gprd.gitlab.net) via [the runbook](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/kibana.md) for diagnosing production facing issues on GitLab.com
 
-----
+---
 
 #### Stage 3 - Ship your first bug fix
 

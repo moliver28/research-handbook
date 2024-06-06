@@ -11,7 +11,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 {.h2}
 
 - [Finance Issues](https://gitlab.com/gitlab-com/finance/issues)
-    - Please use confidential issues for topics that should only be visible to team members at GitLab.
+  - Please use confidential issues for topics that should only be visible to team members at GitLab.
 - [Accounts Payable]({{< ref "./accounts-payable" >}})
 - [Expense Guidelines]({{< ref "./expenses" >}})
 - [Operating Metrics]({{< ref "key-review" >}})
@@ -19,7 +19,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 - [Sales Comp Plan]({{< ref "./sales-comp-plan" >}})
 - [Signature Authorization Matrix]({{< ref "./authorization-matrix" >}})
 - [Authorization Matrix Policy]({{< ref "./authorization-matrix#authorization-matrix-policy" >}})
-- [Stock Options](/handbook/stock-options/)
+- [Stock Options](/handbook/total-rewards/stock-options/)
 
 ## Forms
 
@@ -34,6 +34,13 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 - **Billing Operations**- customer billing inquiries should be sent to our Billing mailbox – *billing@gitlab.com*.
 - **Accounts Receivable** - customer payment/remittance inquiries should be sent to our Accounts Receivable mailbox - *AR@gitlab.com*
 - **Payroll**- inquiries which relate to contractor invoices should be sent to our Payroll mailbox - *nonuspayroll@gitlab.com*.
+
+## CFO Approvals
+
+- Please use the `#cfo-approvals` chat channel in Slack for alerting the CFO to a request for his approval
+- Tag the CFO's Staff EBA in the Slack request for visibility and followup
+- Appropriate Finance team members in the approval flow must approve prior to requesting CFO approval
+- All requests must go through the appropriate approvals process, include a link to the Issue or description and receive all approvals prior to requesting CFO approval
 
 ---
 
@@ -78,10 +85,10 @@ GitLab's Fiscal Year runs from February 1 to January 31.
 
 | Fiscal Year | Calendar Year |
 | ----------- | ------------- |
-| FY24-Q1 | 2023-02-01 to 2023-04-30 |
-| FY24-Q2 | 2023-05-01 to 2023-07-31 |
-| FY24-Q3 | 2023-08-01 to 2023-10-31 |
-| FY24-Q4 | 2023-11-01 to 2024-01-31 |
+| FY25-Q1 | 2024-02-01 to 2024-04-30 |
+| FY25-Q2 | 2024-05-01 to 2024-07-31 |
+| FY25-Q3 | 2024-08-01 to 2024-10-31 |
+| FY25-Q4 | 2024-11-01 to 2025-01-31 |
 
 Refer to our [writing style guidelines]({{< ref "communication#writing-style-guidelines" >}}) for proper use of date formats.
 
@@ -102,7 +109,7 @@ Non-US contractors not from Hungary, Italy, Japan, New Zealand, Nigeria, South A
 - the scheduled payment date is the 22nd of each month
 - iiPay will send out remittance advice along with the scheduled payment via your gitlab email address
 
-Non-US contractors from Italy, Nigeria, South Africa, Switzerland, and Ukraine will need to send their monthly invoice for salary/bonus/commission and any [expenses](/handbook/spending-company-money/) by the 15th to payroll@gitlab.com.
+Non-US contractors from Italy, Nigeria, South Africa, Switzerland, and Ukraine will need to send their monthly invoice for salary/bonus/commission and any [expenses](/handbook/finance/spending-company-money/) by the 15th to payroll@gitlab.com.
 
 In many cases, VAT will not be payable on transactions between GitLab BV and EU-based
 vendors/contractors, thanks to "Shifted VAT". To make use of this shifted VAT:

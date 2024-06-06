@@ -78,15 +78,13 @@ Staff+ engineers and ICs aspiring to become Staff can benefit from resources and
 
 ## Edcast / GitLab Learn
 
-
-[GitLab Learn](https://gitlab.edcast.com/) is a Learning Experience Platform (LXP) meant to provide training and professional development for team members. We will continue being [handbook first](/handbook/handbook-usage/#why-handbook-first), and use this platform to organize, surface, and promote relevant content that exists today.
+[GitLab Learn](https://gitlab.edcast.com/) is a Learning Experience Platform (LXP) meant to provide training and professional development for team members. We will continue being [handbook first](/handbook/about/handbook-usage/#why-handbook-first), and use this platform to organize, surface, and promote relevant content that exists today.
 
 We encourage you to browse all of the channels offered in GitLab Learn, as new ones are regularly being added and updated. Here are some resources to start:
 
 - [**GitLab Development Channel**](https://gitlab.edcast.com/channel/gitlab-development-learning-hub) - for Development-specific training resources
 - [**Recommendations from Learning and Development**](https://gitlab.edcast.com/channels/discover-channels/3635) - a collection of channels recommended by the L&D team, including Mental Wellness and Leadership Development
 - [**All Channels**](https://gitlab.edcast.com/channels/all)
-
 
 ## Process for Contributing
 
@@ -110,9 +108,8 @@ Submit a request to the [lxp-contributions project](https://gitlab.com/gitlab-co
 | Deploys / Releases | @nolith |
 | Management | @dsatcher |
 | New Managers | @jeromezng |
-| Leadership | @dsatcher | 
+| Leadership | @dsatcher |
 | Security | @joernchen |
-
 
 | Future Carousels | DRI |
 | ------ | ------ |
@@ -125,14 +122,13 @@ The Carousel DRI will review the request and approve or deny the request. Once a
 
 _Note: Carousel DRI's can only add content that exists in the platform already. If the content does not exist, the Carousel DRI will need to request that it be added first by consulting the learning and development team_
 
-
 **Criteria for approval**
 
-The following should be true for all content approved. 
+The following should be true for all content approved.
 
 1. A carousel cannot have more than 10 courses (There can be exceptions to the rule, however we only want to highlight the most impactful courses here)
 1. The Carousel DRI must complete the course or have confidence that it will contribute to professional development
-1. Upon evaluating the course, the Carousel DRI concurs that this course should be added to the carousel 
+1. Upon evaluating the course, the Carousel DRI concurs that this course should be added to the carousel
 
 ## What is a Carousel?
 

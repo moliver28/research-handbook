@@ -52,7 +52,6 @@ GitLab is proud to be an equal opportunity workplace and is an affirmative actio
 At GitLab, we do not accept solicitations from recruiters, recruiting agencies, headhunters, or outsourcing organizations. If you email us about this type of opportunity, [we'll reply](https://gitlab.com/gitlab-com/people-group/talent-acquisition/-/blob/master/Email%20Templates/third%20party%20agency%20response.md) with [a link to this paragraph](#who-can-apply) to indicate that we'd like to be removed from the contact list.
 {{% /details %}}
 
-
 ### I applied for a job on your careers page. What's next?
 
 Thanks for your interest in GitLab! Our team will reach out if they need more information from you. In the meantime, read about what you can expect during the interview process below.
@@ -76,6 +75,7 @@ You, the recruiter or the hiring manager can terminate the discussion at any poi
 Depending on the outcome of the call, the talent acquisition team or manager may either reject or move you to the Team Interview stage.
 
 {{% details summary="Example Screening Call questions" %}}
+
 1. Why are you interested in GitLab?
 1. What are you looking for in your next position?
 1. Why did you join and leave your last three positions?
@@ -88,7 +88,6 @@ Depending on the outcome of the call, the talent acquisition team or manager may
 
 At the end of the screening call, the Recruiter will tell you what the next steps will be, if any. There should be time for you to ask any questions you may have.
 {{% /details %}}
-
 
 ## Team Interviews
 
@@ -171,6 +170,7 @@ Please note that not every member of the team will be observing that holiday, so
 {{% /details %}}
 
 {{% details summary="How we schedule interviews on a global scale" %}}
+
 1. Once you have completed a screening call with the recruiter and are ready to be scheduled for the Team Interview stage, you'll receive an email requesting availability. To move through this process as quickly as possible, please give us many different days and times spread across at least 2 weeks. This will prevent us from having to reach out again asking for more availability, as some interviewers could be across many different time zones. Sometimes if the interviewer has a schedule that is difficult to fit interviews into, we'll suggest specific times and dates via your availability link.
 1. After receiving your availability, we will compare it to the interviewers' working hours. If we find a match, we will schedule an interview and send you a link to a Guide and invite in your time zone to download to your computer. If we do not, we will reach back out and work with you to find an alternative. Sometimes there is a very small overlap between time zones, so we appreciate your patience as we identify alternatives!
 1. If you need to reschedule, follow the special instructions in your confirmation email if the interview is within 24 hours. You can also email ces@gitlab.com anytime.
@@ -238,6 +238,7 @@ Note: In countries with a star (*) hiring is limited to only certain roles
 Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product]({{< ref "using-gitlab-at-gitlab" >}}) and staying aligned with our [values]({{< ref "values" >}}).
 
 {{% details summary="Explore the resources below for a deeper understanding of working at GitLab — one of the world's largest all-remote companies" %}}
+
 - [Life at GitLab](https://about.gitlab.com/jobs/)
 - [How We're Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/brand-studio/gitlab-changing-look-devops-remote-work?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab)
 - [GitLab's guide to starting a new remote role](/handbook/company/culture/all-remote/getting-started/)

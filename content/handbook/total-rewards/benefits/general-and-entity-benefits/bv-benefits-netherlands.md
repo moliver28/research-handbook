@@ -24,7 +24,6 @@ Team Members will automatically receive the allowance via payroll. No documentat
 
 The allowance will be prorated for New Hires that start in the middle of the month and terminations that are effective in the middle of the month. Team members on sick pay or unpaid parental leave will still receive the monthly allowance. Team members who are on other unpaid leaves will not receive the stipend during their leave.
 
-
 ### Medical Collective Healthcare Policy
 
 GitLab has partnered with [CZ](https://www.cz.nl/en) to offer GitLab Team Members a collective healthcare policy in the Netherlands, effective 2023-10-01
@@ -42,10 +41,7 @@ Team Members can contact CZ directly if they have any questions at 088 555 7777
 
 GitLab Team Members are not obligated to join CZ collective health policy. If they choose not to join the plan, they still must purchase their own health insurance package with another approved provider, as required by the Netherlands statutory healthcare system.
 
-
-
 ### Occupational Saftey and Health
-
 
 Due to the [Working Conditions Act](https://www.arboineuropa.nl/en/legislation/wetgeving-in-het-engels/), GitLab contracts an occupational safety and health service. The OSH-service can assist employees who are not able to work because of illness. The contact information for GitLab's designated Occupational Health Service provider is:
 
@@ -196,16 +192,16 @@ Parents will be eligible for up to [9 weeks of partial payment through the UWV](
 ### Other Leave Types
 
 - Short-term Care Leave
-    - Short-term care leave is available to team members who must provide essential care to a person who is ill or otherwise in real need. Please find the definition of 'person' as it pertains to this policy below. In order to be eligible, the team member must be the only person who can look after the person in need during that period of time.
-    - 'Person' means the following individuals: the team member's (grand)children, the team member's foster children living at his or her home, the spouse, registered partner or person with who the team member cohabits unmarried, a child living at home with the spouse, registered partner or person with who the team member cohabits unmarried, the team member's (grand)parents or brother/sister, others with who the team member has a social relationship (e.g. boyfriend, girlfriend, good neighbour) and persons who are part of the team member's household but are not a parent, child or partner (and not roommates with who there is a commercial or employment relationship).
-    - Team members are entitled to a maximum of twice the number of their normal weekly hours agreed upon in their employment contract, per 12-month period. For example, if a team member’s contract states that they have a 40-hour work week, then that team member may take 80 hours of short-term care leave in one 12-month period.
-    - Team members are entitled to 70% of their salary to be paid by the employer. This leave runs concurrently with GitLab PTO. GitLab team members will receive 100% of their pay for the first 25 days of short-term care leave.
-    - Team members must notify their manager and the Absence Management team at `leaves@gitlab.com` of their intent to take short-term care leave as soon as possible.
+  - Short-term care leave is available to team members who must provide essential care to a person who is ill or otherwise in real need. Please find the definition of 'person' as it pertains to this policy below. In order to be eligible, the team member must be the only person who can look after the person in need during that period of time.
+  - 'Person' means the following individuals: the team member's (grand)children, the team member's foster children living at his or her home, the spouse, registered partner or person with who the team member cohabits unmarried, a child living at home with the spouse, registered partner or person with who the team member cohabits unmarried, the team member's (grand)parents or brother/sister, others with who the team member has a social relationship (e.g. boyfriend, girlfriend, good neighbour) and persons who are part of the team member's household but are not a parent, child or partner (and not roommates with who there is a commercial or employment relationship).
+  - Team members are entitled to a maximum of twice the number of their normal weekly hours agreed upon in their employment contract, per 12-month period. For example, if a team member’s contract states that they have a 40-hour work week, then that team member may take 80 hours of short-term care leave in one 12-month period.
+  - Team members are entitled to 70% of their salary to be paid by the employer. This leave runs concurrently with GitLab PTO. GitLab team members will receive 100% of their pay for the first 25 days of short-term care leave.
+  - Team members must notify their manager and the Absence Management team at `leaves@gitlab.com` of their intent to take short-term care leave as soon as possible.
 - Long-term Care Leave
-    - Team members are entitled to long-term care in the event that their child, partner, or parent has a serious, life-threatening illness or in the event they have to provide necessary care to these persons due to illness or being in need of help. For all persons that fall under the scope of long-term care leave, GitLab refers to the definition of 'person' as included in the short-term care leave section above.
-    - Team members are entitled to a maximum of 6 times the number of their normal weekly hours agreed upon in their employment contract, per 12-month period of time. For example, if a team member’s contract states that they have a 40-hour work week, then that team member may take 240 hours of long-term care leave in one 12-month period.
-    - There is no entitlement to pay during long-term care leave; however, this leave runs concurrently with GitLab PTO, so team members will receive 100% of their pay for the first 25 days of leave.
-    - Team members should notify their manager and the Absence Management team at `leaves@gitlab.com` of their intention to take long-term care leave as soon as possible.
+  - Team members are entitled to long-term care in the event that their child, partner, or parent has a serious, life-threatening illness or in the event they have to provide necessary care to these persons due to illness or being in need of help. For all persons that fall under the scope of long-term care leave, GitLab refers to the definition of 'person' as included in the short-term care leave section above.
+  - Team members are entitled to a maximum of 6 times the number of their normal weekly hours agreed upon in their employment contract, per 12-month period of time. For example, if a team member’s contract states that they have a 40-hour work week, then that team member may take 240 hours of long-term care leave in one 12-month period.
+  - There is no entitlement to pay during long-term care leave; however, this leave runs concurrently with GitLab PTO, so team members will receive 100% of their pay for the first 25 days of leave.
+  - Team members should notify their manager and the Absence Management team at `leaves@gitlab.com` of their intention to take long-term care leave as soon as possible.
 
 ### Applying for Leave in the Netherlands
 

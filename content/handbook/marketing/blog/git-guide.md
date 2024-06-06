@@ -50,7 +50,7 @@ There is a handy resource the Static Site Editor group has put together for [Git
 
 Use a merge workflow for feature branches where MULTIPLE PEOPLE ARE WORKING ON THEM. Use the built-in [squash and merge](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html) functionality when merging an MR to ensure only clean, atomic, squashed commits make it to master.
 
-```
+```console
 git checkout 0000-branch-name
 git fetch
 git merge origin/master
@@ -63,7 +63,7 @@ If you are working on a merge request for some time and have committed a lot of 
 
 To rebase, run these commands in the terminal:
 
-```
+```console
 git checkout 0000-branch-name
 git fetch
 git rebase origin/master
@@ -82,7 +82,7 @@ Here's a great blog post on [resolving merge conflicts from the GitLab UI](https
 
 If you have not made any changes to your local branch and are getting a conflict message from origin, just reset your local branch to be exactly like origin. WARNING: If you have made changes to your blog post, those changes will be lost!
 
-```
+```console
 git fetch
 git checkout 0000-branch-name
 git reset -hard  origin/0000-branch-name
@@ -93,11 +93,13 @@ git reset -hard  origin/0000-branch-name
 ### Slack Channels
 
 If you're having problems with Git, reach out in the following Slack channels =)
+
 - [#git-help](https://app.slack.com/client/T02592416/C1E21S2LD)
 - [#mr-buddies](https://app.slack.com/client/T02592416/CLM8K5LF4)
 
 ### Existing Resources
 
 Here are some existing resources from GitLab for Git.
+
 - [Developer Cheatsheet, Engineering Handbook](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/)
 - [Git Cheat Sheet for Press](/images/press/git-cheat-sheet.pdf)

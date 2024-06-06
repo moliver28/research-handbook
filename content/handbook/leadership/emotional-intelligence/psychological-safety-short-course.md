@@ -100,20 +100,20 @@ These are specific practices and actions for leaders and future leaders. While n
 ## Self Reflection Exercise
 
 - What are your stress responses (when you are excited, angry, stressed, etc)? For example:
-    - "When I am excited I am animated with my hands."
-    - "When I am stressed with work I am less transparent and tend to shut off."
-    - "When I am stressed in my personal life I can get distracted."
-    - "When I am excited I tend to interrupt people."
-    - "When something stressful happens I tend to panic."
-    - "When something stressful happens I tend to be defensive."
+  - "When I am excited I am animated with my hands."
+  - "When I am stressed with work I am less transparent and tend to shut off."
+  - "When I am stressed in my personal life I can get distracted."
+  - "When I am excited I tend to interrupt people."
+  - "When something stressful happens I tend to panic."
+  - "When something stressful happens I tend to be defensive."
 - What are your actions when you are passionate and excited?
 - How do you react to frustrated team members?
 - Can your actions and responses be considered psychologically safe? For example:
-    - "I am animated with my hands which can cause sensory overload for someone who is neurodivergent." Still, on most occasions it is safe.
-    - "I interrupt people often when I am excited which can cause frustration and make people feel as though their voice is not heard." This **can be unsafe**.
+  - "I am animated with my hands which can cause sensory overload for someone who is neurodivergent." Still, on most occasions it is safe.
+  - "I interrupt people often when I am excited which can cause frustration and make people feel as though their voice is not heard." This **can be unsafe**.
 - Have you provided your intent? For example:
-    - "I want everyone to be aware that when stressful things happen I can shut off and just put my head down. If you notice this and feel I am not being transparent about activities please let me know."
-    - "I am aware that when I am excited I tend to cut people off. Please call me out on this behavior when it happens as I often don’t realize I am doing it."
+  - "I want everyone to be aware that when stressful things happen I can shut off and just put my head down. If you notice this and feel I am not being transparent about activities please let me know."
+  - "I am aware that when I am excited I tend to cut people off. Please call me out on this behavior when it happens as I often don’t realize I am doing it."
 - What are your unconscious biases and have you challenged them?
 - Do you consciously evaluate your unconscious biases when communicating?
 - How do you like to receive feedback? Do you give feedback the same way? Does your team know how *you* like to receive feedback, and do you know how *they* prefer feedback?

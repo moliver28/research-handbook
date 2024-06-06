@@ -26,9 +26,9 @@ All of the benefits listed below are administered and managed by [Global Upside]
 Global Upside has a provident fund that the members pay to the government. This is included in the CTC. It ensures retirement benefits and family pensions on death in service. EPF benefits typically extend to all team members in an organization
 
 - Member Contribution(% of base salary):
-    - EPF: 3.67% and EPS: 8.33%, Total Contribution: 12%
+  - EPF: 3.67% and EPS: 8.33%, Total Contribution: 12%
 - Employer Contribution(% of base salary):
-    - EPF: 12%, EPS: None
+  - EPF: 12%, EPS: None
 
 Salary Ceiling: EPF: Mandatory contribution remains up to a monthly salary ceiling of INR15,000
 
@@ -324,7 +324,6 @@ All team members are entitled to up to 1 ½ years of parental leave for the birt
 
 - This leave may be taken in a single period or in parts. If taken in parts, the total leave must not exceed  1 ½ years.
 - Team members must notify the Absence Management team at `leaves@gitlab.com` one month in advance of beginning parental leave, and at least two weeks in advance if returning from leave early.
-
 
 #### Maternity Leave Payment
 

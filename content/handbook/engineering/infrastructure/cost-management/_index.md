@@ -13,7 +13,7 @@ description: "GitLab Cost Management"
 
 
 
-- - -
+---
 
 ## Quick Links
 
@@ -59,8 +59,8 @@ We maintain a list of vendors/[coupa renewal](/handbook/business-technology/ente
 - [Infra Analyst Board](/handbook/engineering/infrastructure/cost-management/infra-analyst-board)
 - [Infra Analyst Role](/handbook/engineering/infrastructure/cost-management/infrastructure-analyst-role)
 - [Learning Resources](/handbook/engineering/infrastructure/cost-management/learning)
-    - [GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp)
-    - [AWS](/handbook/engineering/infrastructure/cost-management/learning/aws)
+  - [GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp)
+  - [AWS](/handbook/engineering/infrastructure/cost-management/learning/aws)
 
 ## <i class="fas fa-bullhorn fa-fw" style="color: rgb(107, 79, 187); font-size: 0.85em; --darkreader-inline-color:#785fc1;" data-darkreader-inline-color=""></i>Contact Us
 
@@ -69,4 +69,3 @@ We maintain a list of vendors/[coupa renewal](/handbook/business-technology/ente
 - [#infrafin](https://gitlab.slack.com/messages/infrafin/) is the primary channel for all of GitLab communication in topics that are discussing hosting costs
 - [#eng-data-kpi](https://gitlab.slack.com/messages/eng-data-kpi/) is the primary channel for high priority requests or questions related to engineering KPIs or RPIs
 - [#g_engineering_analytics](https://gitlab.slack.com/messages/g_engineering_analytics/) is primary channel to ask any general questions to engineering analytics team
-

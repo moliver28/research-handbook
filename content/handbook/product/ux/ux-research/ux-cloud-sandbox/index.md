@@ -23,7 +23,6 @@ You may wish to use the UX Cloud Sandbox if you are interested in:
 - [Validating solutions](/handbook/product/ux/ux-research/solution-validation-and-methods/) that have already been released into the product
 - Running [problem validation studies](/handbook/product/ux/ux-research/problem-validation-and-methods/)
 
-
 ### Access to the UX Cloud Sandbox
 
 To gain access to the UX Cloud Sandbox, the first step is to generate credentials. You can self-serve on that by [following the steps on this handbook page](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) under ‘Access Shared Omnibus Instances’.
@@ -102,12 +101,12 @@ The following information is required to fulfill a request to create these proje
 - Dates your study will run
 - Number of projects and sub-groups you need
 - How many of the following you would like in your project(s):
-    - Labels
-    - Milestones
-    - Issues
-    - Branches
-    - Files
-    - Merge requests (limit 1 per branch)
+  - Labels
+  - Milestones
+  - Issues
+  - Branches
+  - Files
+  - Merge requests (limit 1 per branch)
 - Any specific names or values for the above data types (for example, a branch named 'staging')
 - Feature flags you need enabled (note that only those which have been release into production are available)
 

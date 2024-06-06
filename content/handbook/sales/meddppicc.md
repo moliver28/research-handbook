@@ -15,6 +15,7 @@ description: "MEDDPPICC is a proven methodology used for strategic opportunity m
 ## Overview
 
 MEDDPPICC is a proven methodology used for strategic opportunity management and complex sales process orchestration for enterprise organizations and is an acronym for:
+
 - [Metrics](/handbook/sales/meddppicc/#metrics)
 - [Economic Buyer](/handbook/sales/meddppicc/#economic-buyer)
 - [Decision Process](/handbook/sales/meddppicc/#decision-process)
@@ -46,8 +47,8 @@ Check out the [Demystifying the Metrics Conversation](/handbook/sales/command-of
 - What is the business case?
 - Have you quantified the challenge(s) the customer is having and the impact to the organization?
 - What quantifiable metrics/measurements have been identified?
-    - Top-line metrics include quicker time to market, higher quality (improvements towards sales and revenue)
-    - Bottom line metrics include reduction in operating costs
+  - Top-line metrics include quicker time to market, higher quality (improvements towards sales and revenue)
+  - Bottom line metrics include reduction in operating costs
 - How will you prove the business benefits of the solution?
 - Has the customer bought into your Metrics?
 - Are your Metrics aligned with the desired business outcomes?
@@ -110,8 +111,8 @@ Check out the [Demystifying the Metrics Conversation](/handbook/sales/command-of
 ### Qualifying Questions
 
 - What is the customer's criteria for selection?
-    - What is the Business Decision Criteria (BDC)?
-    - What is the Technical Decision Criteria (TDC)?
+  - What is the Business Decision Criteria (BDC)?
+  - What is the Technical Decision Criteria (TDC)?
 - What are the highest priority Required Capabilities?
 - How will these criteria be weighted during the decision process?
 - Have all key customer stakeholders helped shape the above requirements?
@@ -194,6 +195,7 @@ Check out the [Demystifying the Metrics Conversation](/handbook/sales/command-of
 ### Video
 
 Check out the below podcasts
+
 - [Coaches vs. Champions](https://podcasts.apple.com/gb/podcast/24-coaches-vs-champions-w-john-kaplan/id991362894?i=1000487042596) (12.5 minutes)
 - [How to Test Your Champion](https://podcasts.apple.com/us/podcast/10-how-to-test-your-champion-w-john-kaplan/id991362894?i=1000472867963) (11 minutes)
 

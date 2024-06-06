@@ -33,7 +33,6 @@ The Director, Partnerships is a [grade 10](/handbook/total-rewards/compensation/
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
-
 ## VP, Business Development and Strategic Partnerships
 
 In this role, you develop and implement a multi-year sales plan to rapidly grow revenue and build strategic partnerships with Cloud, Hyperscalers, and Strategic Technology Partnerships. You are tasked with continuously enhancing our partnership organization, processes, and metrics. As a Vice President, you will serve as a key adviser to GitLab’s executives, Directors, and the sales group with regards to GitLab’s overall global partner strategy.
@@ -81,4 +80,3 @@ The next step in the Strategic Partnerships job family is not yet defined at Git
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
-

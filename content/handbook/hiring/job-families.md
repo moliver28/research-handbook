@@ -32,11 +32,13 @@ For Grades 10 and above:
 1. **Your executive leader**: Your executive leader is responsible for confirming the role is in plan and review of department/division structure and levels.
 1. **Your People Business Partner** Who will review and typically notify Total Rewards
 1. **Total Rewards**: The Total Rewards Team, `@gl-total-rewards`, is the final approver for job families on the merge request ensuring.:
-  - There is a business need for the level within the job family.
-  - The level is common in the market based on survey data.
-  - All components of the job family are populated.
-  - A [benchmark]({{< ref "compensation-calculator#new-benchmark" >}}) is set to add to the Compensation Calculator.
-  - A Job Title is created within Workday.
+
+   - There is a business need for the level within the job family.
+   - The level is common in the market based on survey data.
+   - All components of the job family are populated.
+   - A [benchmark]({{< ref "compensation-calculator#new-benchmark" >}}) is set to add to the Compensation Calculator.
+   - A Job Title is created within Workday.
+
 1. To create more visibility for the Merge Request, send a note to the `#job-family` slack channel
 
 For Grades 9 and below:
@@ -45,13 +47,14 @@ For Grades 9 and below:
 1. **Your Department Head**: Your Department Head (typically at the VP level) is responsible for confirming the role is in plan and review of department/division structure and levels. It is highly recommended that the Department Head notifies the EGroup Leader for awarenesss.
 1. **Your People Business Partner** Who will review and typically notify Total Rewards
 1. **Total Rewards**: The Total Rewards Team, `@gl-total-rewards`, is the final approver for job families on the merge request ensuring.:
-  - There is a business need for the level within the job family.
-  - The level is common in the market based on survey data.
-  - All components of the job family are populated.
-  - A [benchmark]({{< ref "compensation-calculator#new-benchmark" >}}) is set to add to the Compensation Calculator.
-  - A Job Title is created within Workday.
-1. To create more visibility for the Merge Request, send a note to the `#job-family` slack channel
 
+   - There is a business need for the level within the job family.
+   - The level is common in the market based on survey data.
+   - All components of the job family are populated.
+   - A [benchmark]({{< ref "compensation-calculator#new-benchmark" >}}) is set to add to the Compensation Calculator.
+   - A Job Title is created within Workday.
+
+1. To create more visibility for the Merge Request, send a note to the `#job-family` slack channel
 
 ## Templates for New Job Family
 
@@ -173,7 +176,7 @@ Additional details about our process can be found on our [hiring page]({{</* ref
 - List levels in ascending order. Start w/ junior/associate and end with the highest level.
 - List any overarching responsibilities or requirements that are applicable for the entire job family before listing the levels.
 - Do not repeat the junior requirement list for more senior levels:
-   - You do not want to relist an entire requirement set from a more junior level that also pertains to a more senior one. You can choose to keep the section title as {Level} Requirements. You can then add a first bullet that says, "Extends the {name of lower job level} responsibilities" or "Extends the {name of lower job level} requirements."
+  - You do not want to relist an entire requirement set from a more junior level that also pertains to a more senior one. You can choose to keep the section title as {Level} Requirements. You can then add a first bullet that says, "Extends the {name of lower job level} responsibilities" or "Extends the {name of lower job level} requirements."
 - Specialities may be relevant for some but not all levels. Clarify which specialties each level pertains to. If there are no specialties remove the section.
 - [Segment](/handbook/sales/field-operations/gtm-resources/): A Segment is something you will see with Sales based Job Families (Example, Enterprise, Mid-market, SMB, Public Sector). If there is no segment for the job family remove the section.
 - If performance indicators are the same for all the levels on the job family do not list them under the levels section, rather list them at the end of the entire job family. Remove either the performance indicator section in the level section or at the end of the template.
@@ -311,11 +314,12 @@ created starting from the template. There's only a few additions you should do w
 1. The file type should be `index.html.haml`.
 1. Copy the template and add it to your new file
 1. Update all the places that need updates:
- - replace {Job Title} with the job titile
- - replace {Job Family introduction} with a paragraph giving more information about the job itself.
- - if there's a video for this job family, switch out the youtube `ID_FOR_VIDEO` with the relevant ID
- - if there's no video, remove the entire snippet that adds the video
- - for every role within the job family, you need a `card`.
+
+   - replace {Job Title} with the job titile
+   - replace {Job Family introduction} with a paragraph giving more information about the job itself.
+   - if there's a video for this job family, switch out the youtube `ID_FOR_VIDEO` with the relevant ID
+   - if there's no video, remove the entire snippet that adds the video
+   - for every role within the job family, you need a `card`.
 
 ### Template for New Job Family Overview
 
@@ -336,7 +340,7 @@ This video will walk you through how to change a Job Family URL as well as set u
 We have a CI job that checks job families for hard requirements:
 
 - Requirements
-   - every role must have `Ability to use GitLab` as a bullet point.
+  - every role must have `Ability to use GitLab` as a bullet point.
 - Responsibilities
 - Performance Indicators
 - [Job Grades]({{< ref "compensation-calculator#gitlab-job-grades" >}})
@@ -362,9 +366,9 @@ The following results lead to failure of the pipeline:
 - Usage of any misused words as this could excluded diverse groups.
 - High usage of fixed-coded language: this means the job family is using more fixed-coded words than growth-coded.
 - Usage of gendered pronouns: we want to be inclusive to all.
-   - You should use this [online tool](https://inclusiveness-check.herokuapp.com/) to check your job family before running the pipeline.
-   - If you're using language that is marked as subtly masculine-coded, fixed-coded or using misused words, the pipeline will fail and you will need to fix it before following the approval flow. Please reference (and add to) [this list](https://docs.google.com/document/d/1YBzbnzKrsTLtAL5L3M5Gt4ZCuCDwPVgwJbeCt62qBIY/edit) for suggested words to use in place of masculine or fixed language.
-   - If the pipeline does fail, the first recommendation is to read the error. It will say what is wrong with the text. For example:
+  - You should use this [online tool](https://inclusiveness-check.herokuapp.com/) to check your job family before running the pipeline.
+  - If you're using language that is marked as subtly masculine-coded, fixed-coded or using misused words, the pipeline will fail and you will need to fix it before following the approval flow. Please reference (and add to) [this list](https://docs.google.com/document/d/1YBzbnzKrsTLtAL5L3M5Gt4ZCuCDwPVgwJbeCt62qBIY/edit) for suggested words to use in place of masculine or fixed language.
+  - If the pipeline does fail, the first recommendation is to read the error. It will say what is wrong with the text. For example:
 
    ```text
    1. ["ATTENTION: In /builds/gitlab-com/www-gitlab-com/sites/uncategorized/source/job-families/marketing/reference-program-manager/index.html.md you're using masculine gender-coded language", "Masculine coded words used: analyst, analytical, decision, driven, leader"]

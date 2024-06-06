@@ -87,9 +87,9 @@ Hiring managers check references:
 
 - To ensure we are hiring the right candidate.
 - To understand under what circumstances this candidate thrives vs. what circumstances frustrates them.
-    - As the hiring manager, you will be the closest to the GitLab team-member and benefit most from learning about them.
+  - As the hiring manager, you will be the closest to the GitLab team-member and benefit most from learning about them.
 - To build your network.
-    - As a hiring manager, you need to build a network for great talent.  Each reference you talk to can be a part of that network.
+  - As a hiring manager, you need to build a network for great talent.  Each reference you talk to can be a part of that network.
 - To use the opportunity to spread the GitLab story.  We could spark new customers and new GitLab team-members.
 
 All GitLab hiring managers should be making the best effort to complete and conduct the reference checks for their candidate.

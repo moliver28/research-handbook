@@ -5,15 +5,6 @@ description: "A 5-day plan to get started with GitLab"
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
 ## Get familiar with GitLab
 
 We've laid out a 5-day plan you and your team can use to begin learning about and using GitLab successfully.

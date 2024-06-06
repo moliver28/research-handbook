@@ -12,6 +12,7 @@ This Recruitment Privacy Policy describes GitLab Inc. and its affiliates ("GitLa
 *Information You Provide Directly*
 
 We may collect the following personal data from you when you apply for a position:
+
 - Contact Information such as name, email address, physical address, telephone number;
 - Employment Background Information such as resume/CV, employment history, academic and professional qualifications;
 - Work eligibility and citizenship information;
@@ -20,6 +21,7 @@ We may collect the following personal data from you when you apply for a positio
 *Information We Collect from Other Parties*
 
 We may collect personal data from other parties as part of the recruitment process. For example:
+
 - Information provided from agencies performing background checks or right to work verifications;
 - Information from public sources and social media sites;
 - Information from recruitment agencies that you have asked to support you in finding a job;
@@ -28,6 +30,7 @@ We may collect personal data from other parties as part of the recruitment proce
 #### How does GitLab Use Your Personal Data?
 
 We may collect and use your personal data for the following purposes:
+
 - To communicate with you about your job application and potential future job opportunities;
 - To administer, support, and manage the job application process;
 - Where necessary to comply with applicable legal or regulatory requirements;
@@ -37,6 +40,7 @@ We may collect and use your personal data for the following purposes:
 #### When Does GitLab Share Your Data and Who are the Recipients?
 
 As part of the recruitment process, GitLab may disclose your personal data in the following circumstances:
+
 - Internally with GitLab team members, contractors, and vendors who require the information to administer and manage the recruitment process;
 - To third-party service providers which process personal data on our behalf to provide certain services, such as background checks;
 - To third-parties with whom you instruct GitLab to share your personal data;
@@ -90,4 +94,3 @@ The controller of your personal data is the GitLab affiliate who is hiring.
 #### Policy Updates
 
 This policy was last updated on `2023-03-14`.
-

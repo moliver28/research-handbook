@@ -30,9 +30,7 @@ The Director, IT Audit is a [grade 10](/handbook/total-rewards/compensation/comp
 - Operate in conformance with the Institute of Internal Auditors International Professional Practices Framework (IPPF)
 - Lead/participate in internal audit department non-audit or special projects related to strategic goals or other Company initiatives.
 
-
 ### Requirements
-
 
 - Undergraduate degree in engineering or business
 - 12+ years of combined professional experience in IT audit, security, risk, controls or information technology
@@ -47,7 +45,6 @@ The Director, IT Audit is a [grade 10](/handbook/total-rewards/compensation/comp
 - Experience in the software industry is highly preferred.
 - Professional certifications like CISA, CISSP, CISM or similar preferred
 - Ability to use GitLab
-
 
 ### Performance Indicators
 

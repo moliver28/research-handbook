@@ -14,6 +14,7 @@ title: "Delaney Persona snippets"
 ### [Delaney (Development Team Lead)](/handbook/product/personas/#delaney-development-team-lead)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
@@ -32,11 +33,9 @@ title: "Delaney Persona snippets"
 
 - How long does it take to provision a new team/project with a working CI pipeline? What if they could self-service that in 1 hour, and you could have the confidence that all of your corporate standards and best practices were included in that pipeline from day 1?
 - As a team lead, your team’s productivity and ability to deliver planned work on time is of the utmost importance. Have your teams run into roadblocks or hurdles automating builds/tests at scale?
-   - Do you see any degradation in velocity as you scale?
+  - Do you see any degradation in velocity as you scale?
 - How often is your day to day or planned work interrupted to fix or maintain your CI tool? What about the developers on your team(s)?
 - ...
-
-
 
 ##### SDR Use Case Snippets
 

@@ -13,13 +13,11 @@ Join the [#gitlab-germany channel](https://gitlab.slack.com/archives/CCLBN72TW) 
 
 ## Eye Exam and Glasses Reimbursement
 
-Under The Occupational Health and Saftey Act, employers must provide computer glasses when medically necessary to preform the job. If an eye exam determines that a team member needs glasses solely and exclusively for VDU (visual display unit i.e. computer screen) use, GitLab will reimburse towards the cost of a basic pair of frames and lenses (i.e. not designer frames) up to 150 Euro.
+Under The Occupational Health and Saftey Act, employers must provide computer glasses when medically necessary to perform the job. If an eye exam determines that a team member needs glasses solely and exclusively for VDU (visual display unit i.e. computer screen) use, GitLab will reimburse towards the cost of a basic pair of frames and lenses (i.e. not designer frames) up to 150 Euro.
 
 The team member needs to provide documentation (a prescription) from the optician that confirms if the lenses are specifically required for reading a display screen only and not required for general day to day use.
 
 Please submit your prescription to Total Rewards for approval. Once approved, please send your receipts to expensify for reimbursement.
-
-
 
 ## German Supplemental Pension Plans
 
@@ -76,6 +74,13 @@ Following receipt, the Benefits Team will countersign and confirm with WTW on yo
 If a Team member notifies Total Rewards before the 5th of the month that they want to change their Direct Insurance Plan contributions, changes will be reflected on the 1st of the current month. If they notify Total Rewards after the 5th of the month enrollment/changes will be reflected the 1st of the following  month. Total Rewards will inform WTW and Non-US Payroll of the change and when to update the change.
 The team member will receive a new version of the contract (may take up to 8 weeks to receive the new contract), however in the meantime Payroll will update the contribution amount.
 
+#### Options for existing direct insurance contracts with prior employer
+
+There are two different options on how to handle existng direct insurance contracts:
+
+- There is a legal claim to the transfer of the value of the existing insurance (transfer of actuarial reserve) if, for example, it is a direct insurance that was concluded as a new commitment as of 01.01.2005. However, the transfer is only possible within 15 months of leaving the previous employer In this case, a new insurance policy is taken out on the basis of current legal principles. This may change the existing insurance cover. The value of the existing insurance will be included in the new insurance to be taken out
+- Optionally, the existing contract can be continued privately contributory or non-contributory (in this case, GitLab will not take over the existing contract) and the employee takes out a new contract within the group contract with GitLab.
+
 ### Team Members On Leave
 
 For the Direct Insurance plan, Team Members on Leave, including unpaid, maternity, and paternity and extended Long Term Sickness (42 continuous calendar days of sick leave- 6 weeks) are not eligible to contribute on the plans while on leave.
@@ -103,6 +108,7 @@ Direct Entitlement is excluded from the plan, meaning the premiums are only taxe
 In the unfortunate event of an accident, please find the Group Personal Accident Flier in [German](https://drive.google.com/file/d/1AbBRSZ1-mkUyITCU0eLhltfRvu3Z3ppy/view?usp=sharing) & in [English](https://drive.google.com/file/d/1GFMTLLgMeyj1EZQ8K0axu8zxhV7jM4QT/view?usp=sharing) with information on how to report an accident and start a claim.
 
 Accidents at work that are fatal or lead to an inability to work for more than 3 days must be reported within three days of the accident to our Berufsgenossenschaft VBG.
+
 1. If you had an accident, please review the criteria [here](https://www.vbg.de/DE/2_Versicherungsschutz_und_Leistungen/2_Was_ist_versichert/1_Arbeits-_und_Wegeunfaelle/arbeits-_und_wegeunfaelle_node.html;jsessionid=1D2B9247A96790725C91E29C620D9109.live4) to clarify if the accident is insured as a work accident
 1. If it meets the criteria for a work accident, please fill in [this form](https://drive.google.com/file/d/1oIum7DOjuRBdJPGOzv07cIEEdGHVVEcp/view?usp=sharing) and report your accident to the Absence Management Team by emailing the form to leaves@gitlab.com. Fields 2 and 28 will get completed by the Absence Management Team.
 1. The Absence Management Team will [notify the VBG](https://service.vbg.de/arbeits-und-wegeunfall-berufskrankheit/unfallanzeige) about the accident report and inform the specialist for occupational safety.
@@ -147,16 +153,16 @@ In case a woman takes parental leave subsequently to the child’s birth, the pe
 - If you are a member of the statutory health insurance, you are entitled to a maximum maternity allowance of 13 euros per day during the Maternity Protection Period. GitLab will supplement your pay so that you receive 100% of your salary for the duration of the Maternity Protection Period.
 - If you are privately insured and receive a daily sickness allowance during the Maternity Protection Period, GitLab will supplement your pay so that you receive 100% of your salary for the duration of the Maternity Protection Period.
 - If you are privately insured and will not receive a daily sickness allowance, you may qualify for a one-time payment of up to 210 euros from the [Federal Social Security Office](https://www.bundesamtsozialesicherung.de/de/mutterschaftsgeld/ueberblick/). GitLab will supplement your pay so that you receive 100% of your salary for the duration of the Maternity Protection Period.
-    - GitLab may receive reimbursement of these payments from the team member's health insurance carrier. Please provide the Absence Management team at `leaves@domain` with the name of your insurance provider and Versichertennummer (insurance number).
-    - The Absence Management team will then send payroll the team member's insurance details.
+  - GitLab may receive reimbursement of these payments from the team member's health insurance carrier. Please provide the Absence Management team at `leaves@domain` with the name of your insurance provider and Versichertennummer (insurance number).
+  - The Absence Management team will then send payroll the team member's insurance details.
 - If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), paid Parental Leave at GitLab will start from the beginning of the Maternity Protection Period and run concurrently with any statutory allowances, if applicable.
 - If you wish to take Parental Leave directly after your Maternity Protection Period ends, you may do so. If eligible, GitLab will pay up to 16 weeks of your total leave (including Maternity Protection), the rest will be unpaid.
 
 **Parental Leave Payment**
 
 - Eligible team members may choose to receive government-funded Parental Leave Pay (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). Please note:  Any benefits received will be reduced due to the payments received by GitLab.  If a team member chooses to apply for ElterngeldPlus they should notify leaves@domain, otherwise GitLab will provide 100% of their wages for up to 16 weeks.
-    - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child’s birth and completion of the 14th month of life.
-    - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance’s amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
+  - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child’s birth and completion of the 14th month of life.
+  - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance’s amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
 
 **Applying for Parental Leave in Germany**
 
@@ -196,7 +202,7 @@ Per the [Family Care Leave Act and the Care Leave Act](https://www.bundesgesundh
 
 - Team members who need time to organize or ensure the care of a close relative in need of care in an acute care situation leave for up to ten days;
 - Team members who care for a close relative or a close relative at home can also, under certain conditions, take full or partial leave of work for up to six months.
-    - GitLab must be informed at least ten working days before the leave commences.
+  - GitLab must be informed at least ten working days before the leave commences.
 - Team members who accompany a close relative in the last phase of life can claim full or partial leave from work for up to three months;
 - Team members who care for a close relative in need of care in a home environment are entitled to family care leave, i.e. to a partial leave of absence for one continuous period of up to 24 months with a minimum of 15 working hours per week;
 - If the relative is underage, there is an entitlement to leave even if care takes place outside the home environment.
@@ -207,12 +213,11 @@ How to Apply:
 
 - Team members must email leaves@domain proof of the relevant illness of the close relative by means of a medical certificate.
 
-
 ## Sick Leave
 
 #### Statutory Sick Leave
 
-Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/paid-time-off/#sick-time-procedures---all-team-members) policy.
+Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/people-group/paid-time-off/#sick-time-procedures---all-team-members) policy.
 
 - If a team member is sick for more than six weeks, they can apply for "Krankengeld" from their health insurer. The benefit amount will be less than the team member's salary.
 
@@ -271,7 +276,6 @@ During onboarding you may have been asked to set up your GitLab Gmail and your e
 ## Company details/Signature on Company Communications
 
 Some company related details are required to be added as a signature to certain forms of communication, where that communication is going from a team member employed by our German entity GitLab GmbH to outside of the company, *and* relates to GitLab's business activities. There are further details listed [here]({{< ref "tools-and-tips#add-company-details-to-certain-company-communications-if-employed-by-our-german-entity" >}}) (accessible internally to GitLab only).
-
 
 ## Useful links
 

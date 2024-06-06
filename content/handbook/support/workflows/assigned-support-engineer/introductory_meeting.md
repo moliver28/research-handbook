@@ -60,17 +60,20 @@ There are only a few goals for this meeting:
    1. How are they using the product right now?
    1. What's going well and what's not going well?
    1. What are their goals for using GitLab?
+   1. Determine whether it would make sense to use a
+     [collaboration project](../../../customer-success/csm/customer-collaboration-project.html)
+     to track any long-term plans
 
 ## Tips
 
 1. State clearly to the account team when the meeting is being scheduled that
    the ASE will run the meeting and that they will use the entire meeting for
    their set agenda.
-1. For the meeting to be successful, these people must participate:
+1. For the meeting to be successful, all stakeholders must participate. This
+   can include:
    1. The customer's technical people who are expected to be the ones working
       with the ASE on a frequent basis
-   1. The person on the customer's team who will be monitoring and measuring
-      the success of the ASE engagement
+   1. The individual(s) designated by the customer to oversee and assess the success of the ASE engagement
    1. The ASE
 1. Do **not** let the meeting become a troubleshooting session
 1. Throughout the meeting, be sure that you speak clearly, slowly but not too

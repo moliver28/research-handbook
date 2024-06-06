@@ -55,6 +55,6 @@ In [this Tomorrow/Today clip](https://www.youtube.com/watch?v=VG2jwWtjyXU), whic
 >
 > Wouldn't you rather work in Hawaii?"
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -14,6 +14,7 @@ These requirements are meant to provide a level of consistency across how change
 Changes, in the context of this policy, are defined as **modifications** to the production environment and include supporting infrastructure and key corporate systems. The policy applies to changes that are made to systems assigned a [Critical System Tier]({{< ref "critical-systems" >}}) of `Tier 1 Mission Critical`, `Tier 2 Business Critical`, and `Tier 3 Business Operational`.
 
 **Modifications** include, but are not limited to:
+
 - Creation/development/implementation of new systems, integrations, features, key reports, databases, etc.
 - Changes to configurations
 - Deployment of patches or vendor supplied changes not managed by the vendor
@@ -26,13 +27,13 @@ Changes, in the context of this policy, are defined as **modifications** to the 
 While Tier 4 Administrative systems are not subject to the scope of this policy, team members are encouraged to proactively adopt the requirements established by this policy across all systems, especially if there is a good probability that a system may move from a `Tier 4 Administrative` system to a [higher system tier]({{< ref "critical-systems" >}}) handbook page.
 {{% /note %}}
 
-### Applicable Change Management Procedures:
+### Applicable Change Management Procedures
 
 In conjunction with this policy, supplemental change management procedures are formally documented to describe the standard operating procedure/workflow for executing changes in accordance with this policy and the [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}}). GitLab's current change management procedures are listed below for reference, including a brief statement on the applicable scope for each change procedure. Additional information on scope is provided directly on each respective procedure's handbook page:
 
 - [Infrastructure Change Management Procedure](/handbook/engineering/infrastructure/change-management/), for changes made to environments and cloud infrastructure services directly supporting the `GitLab.com SaaS product`
 - [Business Technology Change Management Procedure](/handbook/business-technology/change-management/), for changes made to production systems/tools/infrastructure that `do not` directly support the `GitLab.com SaaS product`
-- [Organizational Change Management Procedure](/handbook/organizational-change-management/), for organization-wide impacting changes, such as significant team restructures, revisions to hot button policies, etc.
+- [Organizational Change Management Procedure](/handbook/people-group/organizational-change-management/), for organization-wide impacting changes, such as significant team restructures, revisions to hot button policies, etc.
 - [Security Change Management Procedure]({{< ref "security-change-management-procedure" >}}) for changes made to systems and applications owned by Security and processes owned by Security sub-departments.
 
 ## Roles & Responsibilities
@@ -51,10 +52,11 @@ The minimum change management requirements described below have been identified 
 ### Change Management Policy Guidance
 
 Supplemental change management procedures must incorporate the requirements called out in the sections below:
-   - [Change Request Documentation Requirements](#change-request-documentation-requirements)
-   - [Change Testing Requirements](#change-testing-requirements)
-   - [Change Review and Approval Requirements](#change-review-and-approval-requirements)
-   - [Change Deployment Requirements](#change-deployment-requirements)
+
+- [Change Request Documentation Requirements](#change-request-documentation-requirements)
+- [Change Testing Requirements](#change-testing-requirements)
+- [Change Review and Approval Requirements](#change-review-and-approval-requirements)
+- [Change Deployment Requirements](#change-deployment-requirements)
 
 #### Change Request Documentation Requirements
 
@@ -70,18 +72,18 @@ Supplemental change management procedures must incorporate the requirements call
 
 - Where possible, changes are tested in a non-production environment. The exception to this requirement would be changes to systems in which GitLab does not have a environment separate from production. Team members are required to leverage test accounts/test data where feasible if testing must be conducted in a production system due to lack of availability of a non-production environment.
 - Documented testing requirements / test plans, which consider the following, as applicable:
-   - security testing (e.g. if there is sensitive data involved)
-   - manual testing / reconciliations (e.g. new finance report created to support month end activities - testing should include verifying calculated totals are complete and accurate and intended account data is included)
-   - configurations changes are tested to confirm they function as intended
-   - any additional testing procedures applicable based on the nature of the change
+  - security testing (e.g. if there is sensitive data involved)
+  - manual testing / reconciliations (e.g. new finance report created to support month end activities - testing should include verifying calculated totals are complete and accurate and intended account data is included)
+  - configurations changes are tested to confirm they function as intended
+  - any additional testing procedures applicable based on the nature of the change
 - Testing is documented and includes the team members who performed the testing. The results and evidence of testing is attached/linked back to the change request
 
 #### Change Review and Approval Requirements
 
 - Once developed and tested, a change is formally reviewed and approved. Review(s) and approval(s) meet the following requirements:
-   - Reviewer(s) and approver(s) must be different than the team members who worked on/developed the change
-   - Reviewer(s) and approver(s) must not make changes to the change that do not go through additional approval/review by another individual
-   - Where technically feasible, tools or systems utilized to develop, test, and approve changes should be configured in a way that prohibits unauthorized changes to be made without the appropriate approval(s). Subsequently, configurations should also restrict the ability for team members who developed and/or tested a change from being able to approve their change.
+  - Reviewer(s) and approver(s) must be different than the team members who worked on/developed the change
+  - Reviewer(s) and approver(s) must not make changes to the change that do not go through additional approval/review by another individual
+  - Where technically feasible, tools or systems utilized to develop, test, and approve changes should be configured in a way that prohibits unauthorized changes to be made without the appropriate approval(s). Subsequently, configurations should also restrict the ability for team members who developed and/or tested a change from being able to approve their change.
 - Reviewer(s) and Approver(s), alongside dates of review and approval, are documented on the change request to ensure auditability
 
 #### Change Deployment Requirements
@@ -102,11 +104,11 @@ Team members who have questions about the minimum requirements in this policy or
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}). Procedure exceptions will be tracked by the procedure owner and must be approved by management.
+Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions). Procedure exceptions will be tracked by the procedure owner and must be approved by management.
 
 ## References
 
 - [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}})
 - [Critical System Tiers]({{< ref "critical-systems" >}})
 - [GitLab Control Framework (GCF)]({{< ref "sec-controls#gitlab-control-framework-gcf" >}})
-- [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}})
+- [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions)

@@ -122,7 +122,7 @@ _For example, if the intended removal milestone is `16.0`, given the following r
 
 1. Make sure the deprecation has an issue leveraging the [deprecation issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Deprecations.md).
     - Leveraging this template to create a deprecation issue is required because it serves as the SSOT/communication cross-functionally and across other stable counterparts, such as CSMs and Marketing, who need awareness of upcoming removals.
-1. Identify if deprecating the feature creates a [breaking change](#breaking-change). If so, you will need to wait until a XX.0 major release for removal. (Consider providing a notice as much in advance as you can - especially for features that have large impact.)
+1. Identify if deprecating the feature creates a breaking change. If so, you will need to wait until a XX.0 major release for removal. (Consider providing a notice as much in advance as you can - especially for features that have large impact.)
 
 **If you believe you need to push a breaking change outside a major release, tag your manager into the deprecation issue for approval. Upon manager approval, tag in [Delivery group](/handbook/product/categories/features/#saas-platformsdelivery-group) PM `@swiskow` into the deprecation issue for advisement/collaboration on whether any additional communication to users is required. Communicating to SaaS users on breaking changes is critical, it is recommended you set up a [broadcast message](/handbook/product/product-processes/#gitlabcom-in-app-messages-broadcast-messaging) one milestone ahead of the milestone in which the breaking change will happen.**
 
@@ -143,7 +143,7 @@ The release post automatically shows all removals that occur during a milestone.
 - The deprecation notice and the linked issue must have clear language describing the change and the impact to users.
 - It is the responsibility of the PM and EM for a category to carefully review the language in the linked issue for clarity.
 - Regardless of whether the Product Manager or Engineering Manager creates the initial deprecation epic/issue, they must @mention the following stable counterparts for their category on each deprecation epic/issue to keep them informed: Support, Customer Success, and Product Marketing.
-     - To make this easy and consistent across teams, using the [deprecations issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Deprecations.md) is required.
+  - To make this easy and consistent across teams, using the [deprecations issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Deprecations.md) is required.
 
 #### Video on deprecations and removals process
 

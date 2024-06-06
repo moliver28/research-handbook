@@ -7,7 +7,6 @@ controlled_document: true
 
 This document defines asset management measures and requirements to support the protection of information assets in GitLab's all remote environment. The measures and requirements noted within the standard are designed to create a secure infrastructure, work environment, and protect sensitive information from physical threats.
 
-
 ## Scope
 
 This standard applies to all GitLab team-members, contractors, advisors, and contracted parties interacting with GitLab computing resources and accessing company or customer data.
@@ -32,20 +31,19 @@ GitLab has two distinct security zones:
 - [Shared responsibility model](/handbook/security/isms/#assets)
 - Adherance to physical security requrements reviewed annually as part of the Third Party Risk Management (TPRM) review and Complementary User Entity Contro (CUEC) review. This includes confirmation that independent third parties attest to effective physical security procedures including but not limited to:
 
-    - Visitor Management
-    - Premises Protection
-    - Environmental Securities
-    - Access Management
+  - Visitor Management
+  - Premises Protection
+  - Environmental Securities
+  - Access Management
 
 ### Physical Devices and Location
 
 - Laptops are protected through [Endpoint Management Procedures](https://internal.gitlab.com/handbook/it/endpoint-tools/) and secured through system configurations defined in the [IT Security - System Configurations handbook page](/handbook/business-technology/it/security/system-configuration/#clean-deskclear-screen) which include, but are not limited to:
 
-   - Passwords
-   - Screen timeout
-   - Encryption
-   - Endpoint detection and response
-
+  - Passwords
+  - Screen timeout
+  - Encryption
+  - Endpoint detection and response
 
 - Utilize trusted networks when available. If you are connecting from an untrusted network such as a public Wi-Fi, guest networks, or unsecured hotspots, you should use a [personal VPN](/handbook/tools-and-tips/personal-vpn/). GitLab has selected [NordLayer](/handbook/it/guides/nordlayer/) as the preferred provider.
 
@@ -65,7 +63,7 @@ GitLab has two distinct security zones:
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

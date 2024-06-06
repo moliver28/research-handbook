@@ -45,5 +45,3 @@ No yearly board for FY21.
 | ------- | ----:| ------:|
 | [@leetickett](https://gitlab.com/leetickett) | 1 | 400 |
 | [@firelizzard](https://gitlab.com/firelizzard) | 2 | 200 |
-
-

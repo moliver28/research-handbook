@@ -79,7 +79,7 @@ You’ve now got some time to do some investigation on some of your accounts. Yo
 
 **The required 7 are not optional. They must be up to date by 5pm in your timezone every day. If you are on PTO or otherwise out, your back-up is required to help. AEs are expected to cover as much as they possibly can before taking time off, so as not to leave the backup with a huge workload.**
 
-# The 7 in detail
+## The 7 in detail
 
 ## 1/ Call notes
 
@@ -241,8 +241,6 @@ Please review the [how to update the commercial slide deck document](https://doc
 
 - If you are selling through the channel, create the pitch deck for the channel partner. This has the added benefit of being repeatable with any other deals through that partner - i.e. you only do it once.
 - You can copy and paste your notes from the deck into your call notes to save a lot of time
-
-##
 
 ## 7/ Recording key information
 

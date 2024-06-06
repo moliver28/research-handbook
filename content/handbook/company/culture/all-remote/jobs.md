@@ -115,6 +115,7 @@ While there are myriad job boards that curate part-time and freelance gigs which
 
 Here's a [list](https://www.ryrob.com/remote-jobs-websites/) of 60 remote jobs sites in 2020, including:
 
+1. [DailyRemote](https://dailyremote.com/)
 1. [Real Work From Anywhere](https://realworkfromanywhere.com/)
 1. [Remote jobs in AR/VR and Mixed Reality](https://www.arvrok.com/location/remote)
 1. [Startup Jobs](https://startup.jobs/remote-jobs)
@@ -174,7 +175,7 @@ Keep in mind that many great all-remote and remote-first companies aren't big en
 
 Thus, it's worth a concerted effort to scour [LinkedIn](https://www.linkedin.com/) (including the [Remote Workers on LI Group](https://www.linkedin.com/groups/13657237/)), [Instagram](https://www.instagram.com/), and [Twitter](http://twitter.com).
 
-Oftentimes, founders will put out [informal]({{< ref "./informal-communication" >}}) calls for help through a single tweet, Instagram story, or LinkedIn post. These calls do not make it to formal job boards, yet they represent opportunities to join a fledgling company during a formative time when there is potential to secure a significant stake via equity or [stock options](/handbook/stock-options/).
+Oftentimes, founders will put out [informal]({{< ref "./informal-communication" >}}) calls for help through a single tweet, Instagram story, or LinkedIn post. These calls do not make it to formal job boards, yet they represent opportunities to join a fledgling company during a formative time when there is potential to secure a significant stake via equity or [stock options](/handbook/total-rewards/stock-options/).
 
 Each of these platforms support search via hashtag. Be aware that many results will be spam, but diligent searchers can find diamonds in the proverbial rough. Here's a [list](https://www.yonder.io/post/best-remote-work-hashtags-social-media) of popular remote work hashtags, including the below. Where you can, combine searches to include the below along with hashtags such as `#hiring` or `#nowhiring`.
 
@@ -191,6 +192,6 @@ Each of these platforms support search via hashtag. Be aware that many results w
 
 Working in an all-remote environment is unique. Be sure to read over the distinct [benefits]({{< ref "remote-benefits" >}}) and [drawbacks]({{< ref "./drawbacks" >}}) when considering if such a setting is ideal for you.
 
-- - -
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

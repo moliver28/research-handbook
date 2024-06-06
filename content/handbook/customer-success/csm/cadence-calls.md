@@ -10,7 +10,7 @@ title: Cadence Calls
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
+---
 
 ## Overview
 
@@ -33,7 +33,7 @@ An effective cadence call involves more than just the call itself. There are sev
 
 Leading up to a cadence call, the CSM should prepare a meeting agenda. This is the foundation of an effective call, and should be collaborated on by all attendees. The agenda should be made available to everyone at least a few days in advance of the call.
 
-#### Recommended details to include in the agenda include:
+#### Recommended details to include in the agenda include
 
 - Attendees, both from GitLab and from the customer
 - Advance materials or read-only items
@@ -75,6 +75,7 @@ The following items are to be covered/completed in your initial cadence call/kic
 After the initial call, you will have subsequent cadence calls, each of which you will need to prep for and ensure is an impactful and successful meeting.
 
 Prior to the call, review the following items:
+
 - Success plan objectives and progress
 - Open CTAs
 - Last timeline entry/notes doc to ensure follow-up items were closed out and if not, follow up on them during the next call
@@ -86,6 +87,7 @@ Prior to the call, review the following items:
 With every customer call, always be sure to have an agenda prepared and share it with the customer in advance. Here is [a template](https://docs.google.com/document/d/1sAt4dFCnPm0vupfFEpZT9dCFLfhgdfCdcj0nOjCM9SI/edit) that some CSMs use to prepare agendas for customer meetings.
 
 Additionally, there may be specific items that are worthwhile to discuss about their self-managed subscription on a regular basis:
+
 - Discuss monthly releases & inquire about frequency of their planned upgrades, letting them know about our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html)
 - Inform customer about our [reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) and that these are the only supported architectures
   - Inquire about current and projected user count to ensure the architecture allows for future growth and is the appropriate scale

@@ -29,7 +29,7 @@ SA Managers have discretion for additional opportunities to be included or exclu
 
 A Technical Close Plan is primarily focused on opportunity rigor by capturing customer business outcomes and a plan to meet their needs, whereas a Customer Success Plan is primarily focused on successful customer adoption of GitLab after successfully evaluating GitLab against their needs.
 
-As both are customer-centric, the Technical Close Plan can and should feed into a Customer Success Plan. See [Converting to a Customer Success Plan](#converting-to-a-customer-success-plan) for more information.
+As both are customer-centric, the Technical Close Plan can and should feed into a Customer Success Plan. See [Converting to a Customer Success Plan](/handbook/solutions-architects/sa-practices/customer-success-plan/#how-does-this-differ-from-a-technical-close-plan) for more information.
 
 ![Sales Process](sales-process.png)
 
@@ -44,6 +44,7 @@ This [Google Drive Folder](https://drive.google.com/drive/folders/1nQaUD5l05eTN5
 The specific structure of a Technical Close Plan is not as relevant as the content and conversation.
 
 The primary focus areas should include:
+
 - [Business Outcomes](#business-outcomes) that describe what is valuable to the customer, using their terminology
 - [Key Stakeholders](#key-stakeholders) and how they align to the opportunity
 - [Notional Architecture](#notional-architecture) for the current and proposed state
@@ -73,6 +74,7 @@ Both notional architectures should reflect the customer's environment and how th
 ##### Current State
 
 A critical step in showing trust and empathy is knowing the current state of a customer. Capture the relevant information for their use case and their painpoints, which may include:
+
 - The value stream of a typical team showing issues like long vulnerability time to remediation
 - The typical application pipeline steps, or path to production, which includes inefficiencies or delays in releasing software
 - The different SDLC/DevOps/DevSecOps tools, how and when they're used, and how they're integrated, which show how developers need to context switch or operators manage many tools and integrations
@@ -83,6 +85,7 @@ Regardless of the focus for the current state notional architecture, the struggl
 ##### Proposed / Future State
 
 The proposed or future state notional architecture should be a deliberate contrast to the current state, and obviously highlight the outcomes the customer would realize if they adopted the recommendation. Some examples include:
+
 - Changing their value stream to identify a vulnerability at the point of change
 - A parallelized pipeline with a fail-fast mentality
 - Consolidated tooling that simplifies operations, reduces cognitive load, and enables reporting
@@ -113,11 +116,3 @@ If there are several opportunities relevant to the plan, each can point to the s
 ## Regular Review
 
 Since the Technical Close Plan is used to progress a technical evaluation, the scope and definition could be fluid. It's important to regularly review the plan during 1:1s, account plans, and opportunity consults.
-
-## Converting to a Customer Success Plan
-
-In many instances, the Technical Close Plan can be used as-is for a Customer Success Plan, where the only real difference is the timing.
-
-In other cases, there may be additional adoption information to capture, like other known tools, migration plan, adoption plan, adoption risks, etc.
-
-There also may be parts of the original Technical Close Plan that are no longer relevant to share with the customer, like internal relationship notes, sales or GitLab terminology, or mitigated risks.

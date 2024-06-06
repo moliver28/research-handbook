@@ -7,7 +7,7 @@ title: Elevate Applied
 
 **Apply what you learned in Elevate to build your high performing team.**
 
-Leaders at GitLab should feel supported with excellent resources to enable their practice, application, and integration of concepts taught in [Elevate](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate/) to their day to day work at GitLab.
+Leaders at GitLab should feel supported with excellent resources to enable their practice, application, and integration of concepts taught in [Elevate](/handbook/people-group/learning-and-development/elevate/) to their day to day work at GitLab.
 
 To provide this support, the Talent Development team is launching `Elevate Applied`.
 
@@ -23,7 +23,6 @@ If you've had thoughts or questions like:
 `Elevate Applied` is an ongoing resource for Managers and Senior Managers at GitLab meant to strengthen leadership competencies, enable leaders to take action, and build connections between managers. **It's a combined community and toolkit to help you build high performing teams.**
 
 Beginning in January 2024, the Talent Development team will begin this program with the ~130 managers who have earned their Elevate certification. We'll use data and feedback to inform and shape the future of manager training at GitLab.
-
 
 ## Overview
 
@@ -48,7 +47,6 @@ Below, you'll find a general outline of topics you can expect to learn about dur
 | March | Coaching for High Performance |
 | April | Practice Coaching Skills |
 
-
 ## Benefits
 
 Throughout this program, managers can expect to:
@@ -59,7 +57,6 @@ Throughout this program, managers can expect to:
      - Conversation strategies for giving and receiving feedback
      - Frameworks and templates for efficient career growth conversations
 1. Expand their network and build upon existing relationships with other managers across the organization
-
 
 ## Measuring Success
 

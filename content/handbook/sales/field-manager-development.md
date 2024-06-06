@@ -25,6 +25,7 @@ All people managers in the GitLab field organization
 ## Approach
 
 Managers will participate in a series of quarterly training & reinforcement exercises throughout FY22. While there will be formal training elements, a large focus will be on social learning (learning from others) and practical, real-world application to convert knowledge to action.
+
 - **Q1FY22** (2021-03-22): Program Launch & Recruiting Top Talent (virtual)
 - **Q2FY22** (2021-05-24, 2021-05-26, and 2021-06-02): Field Manager Challenge (virtual)
 - **Q3FY22** (2021-10-04): Recognition, Coaching & Manager Operating Rhythm (virtual)
@@ -32,6 +33,7 @@ Managers will participate in a series of quarterly training & reinforcement exer
 ## Topics
 
 This program will leverage content from the GitLab Manager Challenge and address multiple learning objectives supporting the following categories:
+
 1. Winning Top Talent
 1. What is a High Performing Team?
 1. Organizational / Team Health
@@ -62,11 +64,11 @@ This program will leverage content from the GitLab Manager Challenge and address
 - Breakout Exercise: [High Performing vs. Low Performing Teams](https://youtu.be/5k6uxPKOzgk) (3 minutes)
 - [Drexler-Sibbet Team Performance Model Overview](https://youtu.be/EN2clCFoBJk) (3 minutes)
 - Breakout Exercises: Drexler-Sibbet Team Performance Model
-    - [Stages 1-4](https://youtu.be/vWShPg_lpro) (18.5 minutes)
-    - [Stages 5-7](https://youtu.be/4H2wQ8UnFjk) (4 minutes)
+  - [Stages 1-4](https://youtu.be/vWShPg_lpro) (18.5 minutes)
+  - [Stages 5-7](https://youtu.be/4H2wQ8UnFjk) (4 minutes)
 - Key Take-Aways
-    - [8am PT session](https://youtu.be/XnLz-vG5iIo) (4.5 minutes)
-    - [2pm PT session](https://youtu.be/E3OG6w-wWLQ) (5.5 minutes)
+  - [8am PT session](https://youtu.be/XnLz-vG5iIo) (4.5 minutes)
+  - [2pm PT session](https://youtu.be/E3OG6w-wWLQ) (5.5 minutes)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gB5Yfz_MaqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -79,9 +81,9 @@ This program will leverage content from the GitLab Manager Challenge and address
 - Pre-work: Module 2 of the [Field Manager Development Program journey](https://gitlab.edcast.com/journey/field-manager-development-program-journey)
 - Organizational & Team Health ([slides](https://docs.google.com/presentation/d/1GCufbe3ceV-ijUCWhqnDsg24185pZPpKPhBKXILzg6Q/edit?usp=sharing)) (GitLab internal only)
 - [Building Trust with Remote Teams](https://youtu.be/cBPAbuZo8Ns) with Dr. Jeb Hurley from [TrustMetryx](https://www.xmetryx.com/) (76 minutes)
-    - [Connecting the Human Dots](https://drive.google.com/file/d/1Hu3cCS8zyrhJrt5_vMC23cjRNi-IcaUA/view?usp=sharing) (slides)
-    - GitLab Field Managers' [Cross Team TrustMetryx Experience Report](https://drive.google.com/file/d/1HjVb_LAYSJFgVNd7zcM9yd5TA6YoPfE2/view?usp=sharing)
-    - GitLab Field Managers' [Your Manager TrustMetryx Experience Report](https://drive.google.com/file/d/1OWVgDArooTOGx2TZzZ56JHLXbZUO0rqb/view?usp=sharing)
+  - [Connecting the Human Dots](https://drive.google.com/file/d/1Hu3cCS8zyrhJrt5_vMC23cjRNi-IcaUA/view?usp=sharing) (slides)
+  - GitLab Field Managers' [Cross Team TrustMetryx Experience Report](https://drive.google.com/file/d/1HjVb_LAYSJFgVNd7zcM9yd5TA6YoPfE2/view?usp=sharing)
+  - GitLab Field Managers' [Your Manager TrustMetryx Experience Report](https://drive.google.com/file/d/1OWVgDArooTOGx2TZzZ56JHLXbZUO0rqb/view?usp=sharing)
 - [Five Dysfunctions of a Team](https://youtu.be/zewH5BzZ4l4) with Denise Parsonage (People Business Partner) (17 minutes)
 - [Q2 Module 2 Wrap-Up](https://youtu.be/AFGYLmYjxFo) with Michael Leutz (6.5 minutes)
 
@@ -96,12 +98,12 @@ This program will leverage content from the GitLab Manager Challenge and address
 - Pre-work: Module 3 of the [Field Manager Development Program journey](https://gitlab.edcast.com/journey/field-manager-development-program-journey)
 - Performance Management ([slides](https://docs.google.com/presentation/d/1Owxaz0VtFHR3FOVFHvYq2GCnStmbWfhhc4CWEMdhcw8/edit?usp=sharing)) (GitLab internal only)
 - Performance Management Module Introduction
-    - [David Sakamoto (VP, Customer Success](https://youtu.be/OaKic20yEFU) 8am PT intro (3 minutes)
+  - [David Sakamoto (VP, Customer Success](https://youtu.be/OaKic20yEFU) 8am PT intro (3 minutes)
 - [Q3 Field Manager Summit Look Ahead](https://youtu.be/_nb9nVCuqu8) (1 minute)
 - [Performance Management Module Learning Objectives](https://youtu.be/dqP0UbG_Mdc) (1 minute)
 - Field Manager Spotlight: Giving Feedback
-    - [Jennifer Kenney-Smith](https://youtu.be/JrPMBCVEpLk) (12 minutes)
-    - [Reshmi Krishna](https://youtu.be/3q2awSaR_Z8) (13 minutes)
+  - [Jennifer Kenney-Smith](https://youtu.be/JrPMBCVEpLk) (12 minutes)
+  - [Reshmi Krishna](https://youtu.be/3q2awSaR_Z8) (13 minutes)
 - [Performance Management Best Practices](https://youtu.be/mzJ6RZKLUGI) featuring Amy Tisdale (Team Member Relations Specialist) (26 minutes)
 - Group Discussion: [Performance Management Lessons Learned](https://youtu.be/CyLdMdwHU1M) (16 minutes)
 - Group Discussion: [Tailoring Your Approach to Giving Feedback](https://youtu.be/SDNGXI1TXNQ) (12 minutes)
@@ -131,7 +133,7 @@ This program will leverage content from the GitLab Manager Challenge and address
 - [Field Manager Spotlight: GROW Model](https://youtu.be/uCuQjwrkNO4) featuring Ed Cepulis (Sr. Director, Channel Programs and Enablement) (11 minutes)
 - [Role Play Breakout Activity: GROW Coaching Model](https://youtu.be/Yagj9t7BDF4) (35 minutes, GitLab internal only))
 - [Manager Operating Rhythm & Closing](https://youtu.be/q2Z6mviXGjg) (5 minutes)
-    - [Manager Operating Rhythm (MOR)](/handbook/sales/manager-operating-rhythm/) Handbook page
+  - [Manager Operating Rhythm (MOR)](/handbook/sales/manager-operating-rhythm/) Handbook page
 
 <br>
 
@@ -153,9 +155,9 @@ This program will leverage content from the GitLab Manager Challenge and address
 - [Josh Zimmerman](/handbook/company/team/#Josh_Zimmerman) (Learning & Development Manager)
 - [David Somers](/handbook/company/team/#dcsomers) (Sr. Director, Field Enablement)
 - Field Manager Advisors
-    - [Dave Astor](/handbook/company/team/#disastor) (Manager, Solutions Architects, US East)
-    - [Robbie Byrne](/handbook/company/team/#RobbieB) (Area Sales Manager, EMEA)
-    - [Ed Cepulis](/handbook/company/team/#ecepulis) (Sr. Director, Channel Programs and Enablement)
-    - [Michael Leutz](/handbook/company/team/#mrleutz) (Manager, Customer Success Managers, EMEA)
-    - [Helen Mason](/handbook/company/team/#hmason) (Area Sales Manager (Mid-Market), EMEA)
-    - [Jacob Potter](/handbook/company/team/#jpotter1) (Area Sales Manager, Mid Market First Order)
+  - [Dave Astor](/handbook/company/team/#disastor) (Manager, Solutions Architects, US East)
+  - [Robbie Byrne](/handbook/company/team/#RobbieB) (Area Sales Manager, EMEA)
+  - [Ed Cepulis](/handbook/company/team/#ecepulis) (Sr. Director, Channel Programs and Enablement)
+  - [Michael Leutz](/handbook/company/team/#mrleutz) (Manager, Customer Success Managers, EMEA)
+  - [Helen Mason](/handbook/company/team/#hmason) (Area Sales Manager (Mid-Market), EMEA)
+  - [Jacob Potter](/handbook/company/team/#jpotter1) (Area Sales Manager, Mid Market First Order)

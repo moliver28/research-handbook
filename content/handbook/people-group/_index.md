@@ -20,14 +20,13 @@ The People Group strategy is to set the [foundation for GitLab’s 3 year strate
 
 We’ve published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
 
-
 ## Connect with us
 
 You can also check out pages related to People Group in the section below. If you can not find what you are looking for please do the following:
 
 - [**The People Group**](https://gitlab.com/gitlab-com/people-ops) holds several subprojects to organize the people group; please create an issue in the appropriate subproject or `general` if you're not sure. Please use confidential issues for topics that should only be visible to GitLab team-members. Similarly, if your question can be shared please use a public issue. Tag `@gl-people-connect-team` or `@gl-hiring` so the appropriate team members can follow up.
-    - Please note that not all People Group projects can be shared in an issue due to confidentiality. When we cannot be completely transparent, we will share what we can in the issue description, and explain why.
-    - [**Employment Issue Tracker**](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates): Only Onboarding, Offboarding and Transition Issue Templates are held in this subproject, and they are created by the People Connect Team only. Interview Training Issues, are held in the [Training project](https://gitlab.com/gitlab-com/people-group/Training) and created by the Talent Acquisition team. Please see the [interviewing page](/handbook/hiring/interviewing/#typical-hiring-timeline) for more info.
+  - Please note that not all People Group projects can be shared in an issue due to confidentiality. When we cannot be completely transparent, we will share what we can in the issue description, and explain why.
+  - [**Employment Issue Tracker**](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates): Only Onboarding, Offboarding and Transition Issue Templates are held in this subproject, and they are created by the People Connect Team only. Interview Training Issues, are held in the [Training project](https://gitlab.com/gitlab-com/people-group/Training) and created by the Talent Acquisition team. Please see the [interviewing page](/handbook/hiring/interviewing/#typical-hiring-timeline) for more info.
 - [**People Connect**](https://app.slack.com/client/T02592416/C02360SQQFR); Please use the `#people-connect` Slack chat channel for questions that do not seem appropriate for the issue tracker - if your question contains personal data or sensitive information we encourage you to direct message the People Connect Team which can be found in the Apps Dropdown within Slack. For access requests regarding Google or Slack groups, please create an issue here: https://gitlab.com/gitlab-com/team-member-epics/access-requests. For questions that relate to Payroll and contractor invoices please direct your question to the `#payroll`, `#expense-reporting-inquiries` and `#finance` channel for Carta. Regarding questions for our recruiting team, including questions relating to access, or anything to do with Greenhouse, referrals, interviewing, or interview training please use the `#talent-acquisition` channel.
 - If you need to discuss something that is confidential/private (including sensitive matters surrounding your team), you can send an email to the Team Member Relations team: teammemberrelations@gitlab.com. Any team member, regardless of location, can use this alias to discuss a private sensitive matter.
 - If you only feel comfortable speaking with one team member, you can ping an individual member of the People Group, as listed on our [Team page](/handbook/company/team/).
@@ -43,7 +42,7 @@ The People Group works together as one team, made up of five departments: People
 | Department | Teams |
 | ---------- | ----- |
 | People Operations | People Connect, Employment Solutions, People Compliance, People Tools & Technology, People Analytics, Team Member Relations |
-| Talent and Engagement | Talent Acquisition; Candidate Experience, Talent Acquisition Operations and Insights, Sourcing, Talent Brand<br>Engagement; Learning & Development, Engagement |
+| Talent and Engagement | Talent Acquisition; Candidate Experience, Talent Acquisition Operations and Insights, Sourcing, Talent Brand<br>Engagement; Talent Development, Engagement, Talent Management |
 | Total Rewards | Global Compensation, Benefits, and Equity Strategy |
 | People Business Partners | Aligned to Engineering, Product, Sales, Marketing, and G&A |
 | DIB |  |
@@ -72,10 +71,10 @@ Lighthouse has a toll free number and other methods of reporting are available 2
 
 - Website: [https://www.lighthouse-services.com/gitlab](https://www.lighthouse-services.com/gitlab)
 - USA Telephone:
-    - English speaking USA and Canada: 833-480-0010
-    - Spanish speaking USA and Canada: 800-216-1288
-    - French speaking Canada: 855-725-0002
-    - Spanish speaking Mexico: 01-800-681-5340
+  - English speaking USA and Canada: 833-480-0010
+  - Spanish speaking USA and Canada: 800-216-1288
+  - French speaking Canada: 855-725-0002
+  - Spanish speaking Mexico: 01-800-681-5340
 - All other countries telephone: +1-800-603-2869
 - E-mail: reports@lighthouse-services.com (must include company name with report)
 - Fax: (215) 689-3885 (must include company name with report)
@@ -88,7 +87,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 
 | Subgroup | GitLab handle | Email | Slack Group handle/channel | Greenhouse | Issue tracker |
 | -------- | ------------- | ----- | -------------------------- | ---------- | ------------- |
-| [People Business Partners](https://gitlab.com/gitlab-com/people-group/General) | @gl-peoplepartners, *Please add the `pbp-attention` label to any issue or MR that requires PBP review, collaboration, or feedback* | peoplepartners@ gitlab.com | @peoplepartners | n/a |  |
+| [People Business Partners](/handbook/people-group/people-business-partners/) | @gl-peoplepartners, *Please add the `pbp-attention` label to any issue or MR that requires PBP review, collaboration, or feedback* | peoplepartners@ gitlab.com | @peoplepartners | n/a |  |
 | [Total Rewards](https://gitlab.com/gitlab-com/people-group/total-rewards) | @gl-total-rewards | total-rewards@ gitlab.com | #people-connect | n/a |  |
 | [People Compliance Partner](https://gitlab.com/gitlab-com/people-group/compliance) | TBA | TBA | TBA | n/a |  |
 | [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | people-connect@ gitlab.com | @people-connect-team | n/a |  |
@@ -103,6 +102,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [Candidate Experience Specialist](/job-families/people-group/candidate-experience) | @gitlab-com/gl-ces | ces@ gitlab.com | @ces | @ces* |  |
 | Talent Acquisition Operations and Insights | @gl-talent acquisitionops | talentacquisitionops@ gitlab.com | @talent-acquisition-ops | @talent-acquisitionops |  |
 | Sourcing | @gl-sourcingteam | n/a | @sourcingteam | n/a |  |
+| [People Analytics](/handbook/people-group/people-ops-tech-analytics/people-analytics/) | No alias, create issues for People Analytics [here](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/issues/?sort=updated_desc&state=opened&first_page_size=100) | n/a | @peopleanalyticstriage | n/a | [People Analytics Issue Board](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/boards/5251608) |
 
 ## People Group Program Calendar for Managers and Team Members
 
@@ -118,50 +118,6 @@ Each month on the first Monday there's a calendar reminder to update the calenda
 Also with sharing the calendars in the news letters People Business Partners and L&D will be tagged.
 
 The goal of the calendar is to include information at least two quarters ahead of the current quarter. For questions about the updates to the calendars you can always reach out to People Connect.
-
-## People Business Partner Alignment to Division
-
-Please reach out to your aligned People Business Partner (PBP) to engage in the following areas:
-
-- Career development/[Promotions]({{< ref "promotions-transfers" >}})
-- [Succession planning](/handbook/people-group/talent-assessment)
-- New organizational structures or re-alignment of team members
-- [Talent Assessment programs](/handbook/people-group/talent-assessment)
-- Team member retention
-- [Team member Engagement tools](/handbook/people-group/talent-assessment#impact-of-being-identified-as-key-talent)
-- [Coaching]({{< ref "coaching" >}}) guidance
-- An unbiased third party to discuss issues or problems and possible ideas for next steps
-- [Organizational Design](/handbook/people-group/organizational-design)
-
-{{< people-business-partners >}}
-
-**If you would like People Business Partners' input, collaboration, or feedback on an issue or MR, please add the `pbp-attention` label, which will flag the issue for triaging on our People Business Partner issue board.** See the [People Business Partner Issue Board](#people-business-partner-issue-board) section below for more information on our triaging and lableing process.
-
-### People Business Partner Issue Board
-
-The People Business Partners (PBPs) have an [issue board](https://gitlab.com/groups/gitlab-com/-/boards/1898818?scope=all&utf8=%E2%9C%93&state=opened) to track collaboration on issues across GitLab.com to keep us efficient and collaborative with other teams.
-
-We utilize labels for triaging amongst the PBPs, and to indicate to other teams the level of priority for the PBPs and the status (doing, done, etc.)
-
-#### Triaging and Labeling Flow
-
-1. `pbp-attention` label is added by team member/group seeking input, collaboration, or feedback on an issue or MR. This will flag the issue for triaging on our People Business Partner issue board. *Note: While MRs will not appear on our board, we ask that the `pbp-attention` label is added regardless for analytics purposes.*
-1. The PBP team will triage the issue in accordance of PBP priority. Each scoped label will have one PBP DRI, *plus* the additional number of PBP reviewers indicated depending on the level of priority.
-1. The PBP who is the DRI will indicate they are the DRI by tagging themselves in the issue.
-    - `pbp::low` 1 PBP DRI with 1 additional reviewer
-    - `pbp::medium` 1 PBP DRI with 2 additional PBP reviewers
-    - `pbp::high` 1 PBP DRI with 3 additional PBP reviewers (at least one should be at the Director level)
-1. If the issue is coming from another team seeking PBP collaboration, the PBP team will add the label of the other team for analytics purposes.
-    - `pbp-DIB` (Diversity, Inclusion, & Belonging)
-    - `pbp-LD` (Learning & Development)
-    - `pbp-TR` (Total Rewards)
-    - `pbp-legal`
-    - `pbp-peopleops`
-    - `pbp-talent-acquisition`
-    - `pbp-other`
-1. The PBP team will add the `pbp-done` label when PBP action is complete.
-
-You may reference the [GitLab.com labels](https://gitlab.com/groups/gitlab-com/-/labels?utf8=%E2%9C%93&subscribed=&search=pbp) for an overview of all labels included in the PBP issue board triaging and labeling process.
 
 ## Support provided by the Legal, Employment team to the People Group
 
@@ -209,7 +165,6 @@ Please note that the source of truth for role responsibilites is the job family 
 | Slack and Email Queries | Within 12 - 24 hours |
 | [Probation Period Notifications]({{< ref "contracts-probation-periods#probation-period" >}}) | Daily (when applicable) |
 | [Determining quarterly winners of the onboarding buddy program]({{< ref "onboarding-buddies" >}}) | Last week of each quarter |
-| [People Connect Shadow Program]({{< ref "people-connect-shadow-program" >}}) | As requested by other team members |
 | [Contract Renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}) | 30 days or more prior to team member's renewal date |
 | [Exit Interviews]({{< ref "offboarding#exit-survey" >}}) | During voluntary offboarding team member's last week |
 | [Administration of the signing of our Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) | Annually in Feb/March |
@@ -241,7 +196,7 @@ GitLab does not actively search for LinkedIn profiles that have inaccurate infor
 - If the team member cannot confirm the profile, team members should reach out to the People Connect Team in the #people-connect Slack channel with the LinkedIn profile in question.
 - The People Connect Team member will confirm in Workday that they are not/have not been a team member.
 - The People Connect Team member will confirm with talent acquisition to confirm if they have ever been interviewed, made an offer or were declined.
-- The People Connect Team member will reach out to the [Developer Relations team](/handbook/marketing/community-relations/) to confirm if they are an active wider community member via the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel, using the `@devrel-team` tag.
+- The People Connect Team member will reach out to the [Developer Relations team](/handbook/marketing/developer-relations/) to confirm if they are an active wider community member via the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel, using the `@devrel-team` tag.
 - If they are a confirmed member of the wider community but not a team member, the Developer Relations team will reach out the profile and ask them to change their profile to match their GitLab involvement.
 - If they are not a current member of the wider community and talent acquisition has confirmed they do not have a profile in Greenhouse, talent acquisition will create a Do Not Hire profile.
 - The People Connect Team member will report the account to LinkedIn via the [Reporting Inaccurate Information on Another Member's Profile](https://www.linkedin.com/help/linkedin/answer/30200?src=or-search&veh=www.google.com%7Cor-search)
@@ -266,6 +221,10 @@ To request access please open an access request with the type of account [access
 If you need support with a specific CultureAmp Survey, please complete this [issue template](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/blob/main/.gitlab/issue_templates/survey_request.md) to alert the People Analytics Team.
 
 ## Other pages related to the People Group
+
+### People Business Partners
+
+- [People Business Partner Team](/handbook/people-group/people-business-partners/)
 
 ### Total Rewards
 
@@ -295,7 +254,6 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 
 - [Learning & Development]({{< ref "learning-and-development" >}})
 - [Guidance on Feedback]({{< ref "guidance-on-feedback" >}})
-
 
 ### Diversity, Inclusion and Belonging
 

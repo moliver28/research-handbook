@@ -44,4 +44,6 @@ The following practice and process are lead by the Solutions Architects during p
 
 [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan/)
 
+[Mutual Customer Success Plan](/handbook/solutions-architects/sa-practices/customer-success-plan/)
+
 [Business Value Consulting](/handbook/solutions-architects/sa-practices/business-value-consulting/)

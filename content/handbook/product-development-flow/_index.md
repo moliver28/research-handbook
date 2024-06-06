@@ -31,6 +31,7 @@ No. Although the phases described on this page appear to be independent and line
 We aim to achieve key outcomes in each phase in order to de-risk subsequent phases. However, the product development flow doesn't dictate the order we go through the phases, or the time spent in each. When teams have a high confidence in their direction, they should feel empowered to skip or shorten phases that won't contribute to improved confidence.
 
 Examples:
+
 - An engineering team conducts a technical review while other team members are performing Validation Phase activities. The team can then move to the Build phase rapidly with high confidence that their improvement is good for customers and technically feasible.
 
 - A bug is reported by a GitLab customer. The Product Manager tests the bug and confirms its existence (Problem Validation). The team is extremely confident in the solution, so Design and Solution Validation are not needed. The bug is moved immediately to Build.
@@ -107,7 +108,6 @@ The growth of a world class product is built from a well maintained backlog. Pro
 | <i aria-hidden="true" style="color:rgb(252,109,38); font-size:1.25em" class="fab fa-gitlab fa-fw"></i>**Up to date issues and epics**: At GitLab, issues are the single source of truth for any change to the product. Keeping these up to date increases efficiency and transparency by allowing all team members to understand the planned work. | - Create issues in response to a [sensing mechanism](/handbook/product/product-processes/#sensing-mechanisms). Consider using the *Problem Validation* issue template for new features. <br/>- Review issue discussions and update relevant info in the description. <br/>- Keep metadata (such as labels) up-to-date. <br/>- Actively respond to stakeholder comments. <br/>- Transfer discussion notes, and external information to the issue (as links or discussion/description details). | Product Manager |
 | <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i>**Prioritized backlog**: The issue and epic backlog is the primary signal stakeholders use to know what's "up next" for a group. The backlog is also the queue for a group to work from, as features progress through the Product Development Flow phases. This queue is kept up to date with milestones and rank ordering on issue boards. | - Regular review of issue prioritization (such as issue board ordering and milestone assignment). <br/>- Align prioritized backlog to category direction and category maturity state. <br/>- Consider using the [RICE formula](https://www.productplan.com/glossary/rice-scoring-model/) to help make prioritization tradeoffs.<br/>- Consider holding [prioritization sessions](/handbook/product/product-processes/#prioritization-sessions) to collect priority feedback from stable counterparts as there are [other DRIs for bug and maintenance work](/handbook/product/product-processes/). | Product Manager |
 
-
 ### Validation phase 2: Problem validation
 
 <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> Label: `workflow::problem validation`
@@ -119,7 +119,6 @@ The growth of a world class product is built from a well maintained backlog. Pro
 | DRI           | Product Manager |
 | Collaborators | Product Designer <br/>UX Researcher |
 | Informed      | Development team <br/>Other [stakeholders](/handbook/product/product-processes/#what-is-a-stakeholder) as appropriate |
-
 
 #### Description
 
@@ -168,7 +167,6 @@ To start the Design phase, the Product Designer or Product Manager applies the `
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Confidence in the technical feasibility**: It's important that Engineering understands the technical feasibility of the solution(s) to avoid rework or significant changes when we start the build phase. | - Discuss the technical implications with Engineering to ensure that what is being proposed is possible within the desired timeframe. When sharing design work, use both Figma's collaboration tools and GitLab's design management features. Read to understand [what tool to use](/handbook/product/ux/product-designer/#deliver). <br/>- Engage engineering peers early and often through Slack messages, pings on issues or by scheduling sessions to discuss the proposal.<br>- If the solution is large and complex, consider scheduling a [spike](/handbook/product/product-processes/#spikes) to mitigate risks and uncover the optimal iteration path. | Product Designer |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Updated issues/epic descriptions**: The Product Manager and Product Designer ensure issues and epics are up-to-date. | - Ensure issues and epics are up-to-date, so we can continue our work efficiently and asynchronously. <br/>- [Experiment definition](/handbook/marketing/growth/engineering/#experiment-definition-standards). | Product Manager |
 |Continue Dogfooding process | - If applicable to their feature, the Product Manager continues the Dogfooding process by deciding whether to [build the feature in GitLab or keep outside](/handbook/product/product-processes/#dogfooding-process) the product. | Product Manager |
-
 
 ### Validation phase 4: Solution Validation
 
@@ -258,8 +256,6 @@ During this phase, it's important to keep Application Security Engineers informe
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Defined Quality Plan** - Involving SETs in this phase ensures they are able to understand and effectively plan their own capacity before engineering is truly underway.| - [Quad Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/)<br>- [Test planning](/handbook/engineering/infrastructure/test-platform/test-engineering/#test-planning)  | - Software Engineer in Test |
 |**Implementation Issue Refinement** - Some teams have found it useful to treat issue refinement as a separate, iterative task from planning breakdown. This separation allows them to focus backlog refinement on the aspects of the original feature that will be delivered first.| - Further refine implementation issues identified in the `workflow::planning breakdown` step by  additionally applying `workflow::refinement`.| - Engineering Manager |
 
-
-
 ### Build phase 2: Develop & Test
 
 #### Required Labels
@@ -271,7 +267,6 @@ During this phase, it's important to keep Application Security Engineers informe
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::blocked` | Applied if at any time during development the issue is blocked. For example: technical issue, open question to PM or PD, cross-group dependency. |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::verification` | After the MRs in the issue have been merged, this label is applied signaling the issue needs to be verified in staging or production. |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::awaiting security release` | Applied by an engineer after the security issue has passed verification, this label signals that it is ready but awaiting the next [monthly security release](https://about.gitlab.com/handbook/engineering/releases/security-releases/).|
-
 
 #### Key Participants
 
@@ -380,5 +375,3 @@ The Product Operations DRI will ensure the MR gets included in product develomen
 1. [Product Leadership Team](/handbook/product/product-leadership/#product-leadership-team-structure)
 
 In some cases, when significant changes to the product development flow are needed, affecting multiple teams and/or function workflows, Product Operations may request a draft page and/or a [working group](/handbook/company/working-groups/) for multiple iterations prior to pushing changes to this framework, to minimize disruption and distraction during product development.
-
-

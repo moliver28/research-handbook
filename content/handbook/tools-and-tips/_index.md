@@ -588,6 +588,15 @@ To find the referrals for a certain page, continue from the steps above.
 
 Optional: [Set your picture](https://myaccount.google.com/personal-info) in Google so that your picture will show where you are in a Google document (vs showing just your first intial). This will allow others to more easily follow a discussion when meeting attendees move around in a document.
 
+### Add name pronunciation in Google
+
+Consider adding a phonetic pronunciation of your name and/or a pronunciation recording in your Google profile.
+
+- Click on your profile icon on the top-right of any Google account page (i.e. Google Docs, Google Sheets)
+- Select "Manage your Google account"
+- On the left-hand side panel, select "Personal info" >> on the center of the page, go to "Name & pronunciation"
+- Add a recording or a phonetic pronunciation e.g. Rochana (Rosh-ah-na)
+
 ### Google Calendar
 
 #### Finding a time
@@ -876,7 +885,7 @@ If you are employed by our German entity GitLab GmbH, you will need to include s
 
 <img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
 
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen und Craig Adam Mestel</span>
+<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
 
 #### Add company details to certain company communications if employed by our German entity
 
@@ -896,7 +905,7 @@ If you are sending such a communication, externally, please look at the setting 
 
 If you are employed by our German entity you may have been asked during onboarding to set up your signature wherever it's required to be used and to include these company details, and if you have not been, please do so now, adding these details to the end of your signature:
 
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen und Craig Adam Mestel</span>
+<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
 
 #### Filters
 
@@ -908,6 +917,28 @@ It might be useful to add a Gmail filter that adds a label to any GitLab notific
 1. Click the down arrow on the right side of the search field.
 1. Click **Create filter with this search**.
 1. Check **Apply the label:** and select a label to add, or create a new one, such as "Mentioned".
+1. Check **Also apply filter to matching conversations**.
+1. Click **Create filter**.
+
+##### Apply label when assigned as reviewer
+
+You can create a Gmail filter that adds a label to any GitLab notification email in which you are assigned as a reviewer:
+
+1. Search for `from:(gitlab@mg.gitlab.com) "(Reviewer) (Firstname Lastname)"`.
+1. Click the down arrow on the right side of the search field.
+1. Click **Create filter with this search**.
+1. Check **Apply the label:** and select a label to add, or create a new one, such as "Assigned".
+1. Check **Also apply filter to matching conversations**.
+1. Click **Create filter**.
+
+##### Apply label when MR is merged
+
+You can create a Gmail filter that adds a label to any GitLab notification email in which an MR has been merged:
+
+1. Search for `from:(gitlab@mg.gitlab.com) "Merge Request"+"was merged"`.
+1. Click the down arrow on the right side of the search field.
+1. Click **Create filter with this search**.
+1. Check **Apply the label:** and select a label to add, or create a new one, such as "Merged".
 1. Check **Also apply filter to matching conversations**.
 1. Click **Create filter**.
 

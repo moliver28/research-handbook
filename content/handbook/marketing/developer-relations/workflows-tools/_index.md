@@ -33,7 +33,6 @@ title: "Developer Relations Workflows and Tools"
 - [Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)
 - [Twitter](/handbook/marketing/developer-relations/workflows-tools/twitter/)
 
-
 ## Tool Stack Overview
 
 These are the tools the Developer Relations team is the DRI for:
@@ -58,7 +57,6 @@ These are the tools the Developer Relations team is the DRI for:
 | Crowdin | [Crowdin](https://translate.gitlab.com/) is the platform for the wider community to collaboratively contribute translations for GitLab | [How we use Crowdin](https://docs.gitlab.com/ee/development/i18n/translation.html) |
 | Discourse | [Discourse](https://www.discourse.org) is the platform on which the [GitLab forum](https://forum.gitlab.com) is run. | [How we use Discourse](/handbook/marketing/developer-relations/workflows-tools/forum/#administration)|
 | Discord | [Discord](https://discord.gg/gitlab) is the instant messaging platform the GitLab community communicates on (in addition to GitLab.com itself) | popular channels are #contribute, #general and the support channels |
-| KeyHole | [KeyHole](https://keyhole.io) is the tool we use to collect Twitter impressions and YouTube views | [How we use KeyHole](/handbook/marketing/developer-relations/developer-advocacy/metrics/#metrics-collections) |
 | Meetup | [Meetup.com](https://www.meetup.com/pro/gitlab/) is the platform we use and offer to our community to organize meetups | [How we use Meetup.com](/handbook/marketing/developer-relations/evangelist-program/#meetups) |
 | SheerId | [SheerId](https://www.sheerid.com/) is the platform we use to automatically qualify applications to our community programs | |
 | Zapier | [Zapier](https://zapier.com) is an automation tool used to identify mentions and to route them into Zendesk as tickets, and also to Slack in some cases | [How we use Zapier](/handbook/marketing/developer-relations/workflows-tools/zapier) |
@@ -72,7 +70,6 @@ The Developer Relations team is also the DRI for these tools which are [pending 
 
 | Tool | Description | How we use it |
 |---|---|---|
-| KeyHole | [KeyHole](https://keyhole.io) is the tool we use to collect Twitter impressions and YouTube views | [How we use KeyHole](/handbook/marketing/developer-relations/developer-advocacy/metrics/#metrics-collections) |
 | SheerId | [SheerId](https://www.sheerid.com/) is the platform we use to automatically qualify applications to our community programs | |
 
 ##### Other tools we rely on
@@ -91,4 +88,3 @@ These are the tools that are essential to some Community programs, but the Devel
 
 1. Please follow the procurement process as you would for [adding any new tool to GitLab's tech stack](/handbook/business-technology/tech-stack-applications/#add-new-system-to-the-tech-stack).
 1. Ensure that the `group_owner` field on the tech stack file entry is set to `Developer Relations`. This will make the tool to be automatically listed on the [Developer Relations toolstack](#tool-stack-overview).
-

@@ -95,6 +95,7 @@ Example of the Staging environment rollback pipeline:
 ### Deployment blockers
 
 Anyone can **halt or block a deployment to Production** by:
+
 1. Declaring a [incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
 1. Applying the `blocks deployments` label. This prevent automated deployments to the Production environment from starting.
 1. Alerting the Release Managers in the [#releases] channel.
@@ -133,6 +134,9 @@ request is especially urgent. For example:
 - Resolves a regression that can lead to a severity::1/severity::2 problem
 - Urgent performance or availability fix that can improve the stability of
 GitLab.com
+
+In case of high-severity bugs, please proceed to [report an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) to track
+events and response.
 
 If this label is added because a merge request is blocking further deploys,
 consider leaving a note in [#releases] Slack channel to raise awareness of the status.

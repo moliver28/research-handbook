@@ -42,7 +42,3 @@ SA working with SAE and AE can define the POV scope with the customer, with alig
 - [DevSecOps](/handbook/solutions-architects/tools-and-resources/pov/devsecops/)
 - [Software Compliance](/handbook/solutions-architects/tools-and-resources/pov/compliance/)
 - [DevOps Platform](/handbook/solutions-architects/tools-and-resources/pov/platform/)
-
-
-
-

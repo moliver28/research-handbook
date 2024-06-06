@@ -26,7 +26,6 @@ When used in these guidelines:
 
 Just because something is available for free on the internet (including on Google Images, Google Maps, YouTube, blogs, social media, and news websites) does not mean it can be freely used. The vast majority of internet content is subject to copyright and/or trademark rights, and GitLab’s use of that content could constitute infringement.
 
-
 ## Trademarks - logos and wordmarks
 
 “**Logo**” means a symbol used to identify a company, product, or service, like the [GitLab Tanuki logo](https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png).
@@ -59,6 +58,7 @@ Just because something is available for free on the internet (including on Googl
 *For Unsplash images, it’s good practice to credit Unsplash as the source and photographer. This helps team members repurposing materials determine if images can be used, and is courteous to the photographer.
 
 {{% details summary="Expand for Unsplash attribution instructions" %}}
+
 1. Create a small text box at the bottom right of the relevant slide.
 1. Locate the image on [unsplash.com](https://unsplash.com).
 1. Click on `Download free` but ignore the downloaded file.

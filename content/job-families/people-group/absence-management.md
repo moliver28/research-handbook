@@ -53,7 +53,7 @@ The Senior Absence Management Specialist is a [grade 6](/handbook/total-rewards/
 - Answers complex leave-related questions and concerns from Team Members, working closely with the Manager, People Business Partner, Legal, and other key stakeholders as needed.
 - Acts as the first point of contact for Managers, People Business Partners, and other key stakeholders related to the team members’ time away request(s).
 - Responsible for leading the interactive process related to all requested accommodations as prescribed under the Americans with Disabilities Act. This may also include religious, lactation, and other work-related accommodations.
-- Champions a [handbook first](/handbook/handbook-usage/) mentality keeping all internal processes and policies up to date at all times.
+- Champions a [handbook first](/handbook/about/handbook-usage/) mentality keeping all internal processes and policies up to date at all times.
 - Maintains LOA trend data and status reports as needed.
 - Must exercise confidentiality and discretion in dealing with sensitive, complex, and time-sensitive time-away requests.
 

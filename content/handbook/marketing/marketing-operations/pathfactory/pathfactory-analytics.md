@@ -21,7 +21,6 @@ All roles and permissions have access to reporting functionality in PathFactory.
 
 If you are using Safari as your preferred browser, ensure `Prevent cross-site tracking` is disabled in your privacy settings. Path Analytics uses Looker which requires external cookies. If this option is enabled, you will not be able to view Path Analytics using Safari.
 
-
 ### Target Track Analytics
 
 1. [Analytics for a Specific Target Track](https://lookbookhq.force.com/nook/s/article/analytics-for-a-specific-target-track)

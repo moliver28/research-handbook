@@ -10,21 +10,15 @@ The Customer Success department is part of the [GitLab Sales](/handbook/sales/) 
 
 The team can be reached in [Slack channel](https://gitlab.slack.com/archives/customer-success) (internal only).
 
-
-
-
-
-
-
 ## Mission Statement
 
 To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
 
 - The mission of the Customer Success Department is to provide these customers with experience in order to:
-    - Accelerate initial customer value
-    - Maximize long-term, sustainable customer value
-    - Improve overall customer satisfaction & referenceability
-    - Maximize the total value of the customer to GitLab
+  - Accelerate initial customer value
+  - Maximize long-term, sustainable customer value
+  - Improve overall customer satisfaction & referenceability
+  - Maximize the total value of the customer to GitLab
 
 ## Vision Page
 
@@ -87,7 +81,6 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 ### Renewals Managers
 
 - [Renewals Managers handbook](/handbook/customer-success/renewals-managers/home)
-
 
 ### Demo Systems
 
@@ -180,9 +173,9 @@ Customer Success team members maintain a [FAQ](/handbook/customer-success/faq/) 
 - [Sales Skills Best Practices](/handbook/sales/training/)
 - [Sales Discovery Questions](/handbook/sales/qualification-questions/)
 - [EE Product Qualification Questions](/handbook/sales/qualification-questions/)
-- [GitLab Positioning](/handbook/positioning-faq/)
+- [GitLab Positioning](/handbook/marketing/positioning-faq/)
 - [FAQ from prospects](/handbook/sales/faq-from-prospects/)
-- [Client Use Cases](/handbook/use-cases/)
+- [Client Use Cases](/handbook/marketing/use-cases/)
 - [Proof of Value Guidelines](/handbook/solutions-architects/tools-and-resources/pov)
 - [Account Planning Template for Large/Strategic Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24))
 - [Sales Demo](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/)
@@ -199,4 +192,3 @@ Customer Success has a few standing meetings:
 - Quarterly Reverse AMA with Sakamoto and Female+ Team Members
 
 The different groups within CS also have standing meetings, including meetings for the SAs, PS, and CSMs groups, regional groups, and social calls.
-

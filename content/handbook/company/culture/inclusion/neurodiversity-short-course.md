@@ -32,7 +32,6 @@ There isn't a predefined list of what falls under the umbrella, it is a personal
 
 These groups make up a large portion of the population, and have many talents to lend to an organization. As an HR professional, you can guide your organization in learning how to hire, employ, and support this population to maximize this fantastic and talented workforce. Neurodiversity creates a new landscape of hiring and supporting employees. Human resource professionals can increase their competencies to support this group and educate the workforce to ensure inclusion for all types of minds. The world is ready to embrace neurodiversity. Neurodivergent people bring unique perspectives, solutions, and innovative ideas. Starting here is a great first step to embrace this population within your organization.
 
-
 [Defining the spectrum of neurodiversity via Linkedin Learning](https://www.linkedin.com/learning/hiring-and-supporting-neurodiversity-in-the-workplace/defining-the-spectrum-of-neurodiversity?autoAdvance=true&autoSkip=false&autoplay=true&resume=false&u=2255073)
 {.h4}
 

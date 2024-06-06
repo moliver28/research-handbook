@@ -53,14 +53,14 @@ appropriate action.
 
 In the meantime, you should continue to assist the customer with their queries
 and address their feedback if appropriate. If you are unsure on how to proceed,
-pleaes ask for help in the
+please ask for help in the
 [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) Slack channel.
 
 ### Venting
 
 There may be cases where a customer will simply be unsatisfied with all available solutions and/or steps taken to solve problems they are facing or have faced. De-escalate the situation the best you can - apologize as necessary, offer solutions or alternatives that may work. Most importantly, in this situation, allow the customer to vent and assure that their feedback is taken very seriously. In some cases, you may want to CC a manager, especially [if you feel threatened or harassed](/handbook/support/engineering/#what-if-i-feel-threatened-or-harassed-while-handling-a-support-request).
 
-It is important to note that apologies should be sincere - this includes not apologizing when not necessary. Phrases like "I'm sorry that you're having trouble..." can sound ingenuine and "script like". Apologies can also be seen as an admission of guilt, which should not happen when a problem is not the fault of GitLab (such as when a feature works as intended but not the way customer wants).
+It is important to note that apologies should be sincere - this includes not apologizing when not necessary. Phrases like "I'm sorry that you're having trouble..." can sound disingenuous and "script like". Apologies can also be seen as an admission of guilt, which should not happen when a problem is not the fault of GitLab (such as when a feature works as intended but not the way customer wants).
 
 ### Product Feedback
 

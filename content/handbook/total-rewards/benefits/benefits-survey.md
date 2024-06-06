@@ -602,7 +602,6 @@ By demographic:
 
 #### Entity Specific Questions
 
-
 1. The country-specific benefits provided by GitLab are comparable or better than what is offered by similar employers in my country.
 
     | GitLab                 | Australia Score | United States Score | Netherlands Score | Canada Score | India Score | United Kingdom Score | Germany Score | New Zealand Score |
@@ -745,9 +744,8 @@ By demographic:
     | Visiting grant | 21% | 20% | 0% |
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | n/a | 3% | 0% |
     | Medical/Health coverage | 0% | 0% | n/a |
-    | Dental/Vision | 0% | n/a | n/a | n/a |
-    | 401(k) Match | 1% | n/a | n/a | n/a |
-
+    | Dental/Vision | 0% | n/a | n/a |
+    | 401(k) Match | 1% | n/a | n/a |
 
 - EMEA
 
@@ -763,9 +761,8 @@ By demographic:
     | Stock options | 0% | 0% | 0% | 0% | 13% | 0% | 0% | 0% | 0% | 0% | 0% |
     | Visiting grant | 17% | 12% | 12% | 0% | 13% | 0% | 25% | 14% | 17% | 0% | 0% |
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | 13% | 8% | 0% | 14% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
-    | Medical/Health coverage | n/a | n/a | 4% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-    | Pension | n/a | n/a | 0% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-
+    | Medical/Health coverage | n/a | n/a | 4% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+    | Pension | n/a | n/a | 0% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
 - APAC
 
@@ -802,7 +799,6 @@ By demographic:
     | Dental/Vision | 74% | n/a | n/a |
     | 401(k) Match | 73% | n/a | n/a |
 
-
 - EMEA
 
     | Response | Ireland (% of Respondents) | Netherlands (% of Respondents) | United Kingdom (% of Respondents) | Germany (% of Respondents) | Hungary (% of Respondents) | Austria (% of Respondents) | Poland (% of Respondents) | Romania (% of Respondents) | Russian Federation (% of Respondents) | Turkey (% of Respondents) | Ukraine (% of Respondents) |
@@ -817,9 +813,8 @@ By demographic:
     | Stock options | 87% | 84% | 69% | 62% | 100% | 100% | 83% | 86% | 100% | 80% | 80% |
     | Visiting grant | 0% | 40% | 22% | 38% | 60% | 50% | 17% | 14% | 17% | 0% | 40% |
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | 13% | 12% | 6% | 10% | 0% | 33% | 8% | 0% | 0% | 20% | 20% |
-    | Medical/Health coverage | n/a | n/a | 37% | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-    | Pension | n/a | n/a | 59% | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-
+    | Medical/Health coverage | n/a | n/a | 37% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+    | Pension | n/a | n/a | 59% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
 - APAC
 
@@ -853,11 +848,11 @@ By demographic:
 | Other (Expanded on below.)      | 16    | 4%               |
 
 - Summary of Other responses:
-     - Plan details would matter more.
-     - Not enrolled in GitLab's plan.
-     - Reflections on the American healthcare system.
-     - Unsure how to compare.
-     - Smaller provider not listed here.
+  - Plan details would matter more.
+  - Not enrolled in GitLab's plan.
+  - Reflections on the American healthcare system.
+  - Unsure how to compare.
+  - Smaller provider not listed here.
 
 - **Canada**
 
@@ -882,7 +877,7 @@ By demographic:
 | Other (Expanded on below.)      | 3     | 20%              |
 
 - Summary of Other responses:
-     - No opinion, but would like a higher coverage level.
+  - No opinion, but would like a higher coverage level.
 
 - **United Kingdom**
 
@@ -897,8 +892,8 @@ By demographic:
 | Other (Expanded on below.)      | 22    | 45%              |
 
 - Summary of Other responses:
-     - No preference.
-     - Vitality.
+  - No preference.
+  - Vitality.
 
 1. What provider for Dental/Vision do you prefer?
 
@@ -938,9 +933,9 @@ By demographic:
 | Other (Expanded on below.) | 53    | 12%              |
 
 - Summary of Other responses:
-     - Don't utilize this benefit.
-     - Not informed enough on the choices to respond.
-     - Option not listed above.
+  - Don't utilize this benefit.
+  - Not informed enough on the choices to respond.
+  - Option not listed above.
 
 1. If GitLab were to convert you to a team member employed through an entity, what benefits would you expect to receive/are offered by most employers in your country? (select all that apply)
 

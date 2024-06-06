@@ -62,7 +62,7 @@ We empower how people work by providing thought leadership on remote work which 
 1. All remote [certification](/handbook/company/culture/all-remote/remote-certification/) to allow more companies to hire remote team members
 1. Reaching hundreds of thousands of remote transitioners via our [How to Manage a Remote Team](https://www.coursera.org/learn/remote-team-management) course on Coursera
 1. [REMOTE by GitLab](https://remotebygitlab.com/) Event
-1. Network effects around evangelizing the remote movement: 30+ organizations openly [inspired by GitLab](/handbook/inspired-by-gitlab/)
+1. Network effects around evangelizing the remote movement: 30+ organizations openly [inspired by GitLab](/handbook/company/inspired-by-gitlab/)
 1. [Asynchronous communication](/handbook/company/culture/all-remote/asynchronous/) gives flexibility which better allows child care providers to combine work with parental responsibilities
 1. [Non-linear workday](/handbook/company/culture/all-remote/non-linear-workday/)
 
@@ -126,6 +126,7 @@ Access to a broader set of more valuable opportunities ultimately **increases pe
 ## Purpose Resources
 
 Additional Purposes resources:
+
 1. [Creating a Meaningful Corporate Purpose](https://docs.google.com/document/d/1mXYu-Wf5lzcRC7yknSKCKpdgXx3DEO-E/edit)
 1. [Find Your Why: A Practical Guide for Discovering Purpose for You and Your Team](https://www.amazon.com/Find-Your-Why-Practical-Discovering/dp/0143111728)
 

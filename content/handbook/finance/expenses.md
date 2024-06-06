@@ -55,8 +55,8 @@ Payments, gifts, favors, or entertainment for officials, employees, or represent
 - Expense claims for a single item up to $5,000 can be expensed via Navan. >$5,000 needs to go through the procurement process in Zip.
 - Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager.
 - Navan Description box: Expense items must have a description filled out. This box is showing as optional but we require this to be filled in. This helps to correctly record the transaction and assist any reporting purposes downstream.
-   - When filling in the description box , we ask for you to enter details of the expense so anyone looking at the line on a report can tell immediately (without the need of looking at the receipt) what the expense relates to and why it is claimed.
-   - Please fill in the description box with details like : Items Purchased/Claimed, Period service relates to, Trip Details this claim relates to, Reason for trip, Clients Name, etc. If left blank, the expense will be bounced back to the team member to complete this portion.
+  - When filling in the description box , we ask for you to enter details of the expense so anyone looking at the line on a report can tell immediately (without the need of looking at the receipt) what the expense relates to and why it is claimed.
+  - Please fill in the description box with details like : Items Purchased/Claimed, Period service relates to, Trip Details this claim relates to, Reason for trip, Clients Name, etc. If left blank, the expense will be bounced back to the team member to complete this portion.
 - The maximum monthly limit to be reimbursed is $10K USD (or local currency equivalent). Once this limit has been reached, all expense items will need to be approved by the A/P team in Navan.  This limit may be increased for Team Members whose positions require more spend (eg. Field Marketing), but the increase request needs to be submitted via an issue for approval by the VP, Corporate Controller and CAO. Due to the nature of their roles, E-Group members have a maximum monthly limit to be reimbursed of $20K USD before additional approvals are required.
 - Expenditures related to client entertainment or marketing must be necessary, prudent, and job-related.
 - Expenses that span longer than a month must be submitted on a monthly basis (eg. Although you paid for a year upfront for the internet, you must divide the total by 12 months and submit the cost monthly), with the exception of VPN.
@@ -101,8 +101,8 @@ All business related flights need to be booked through Navan, and will be paid b
 #### Advance Purchase
 
 - Team Members should make air reservations as early as possible, in order to take advantage of discounted fares. Travelers will ideally book:
-   - Domestic: At least 14 days in advance
-   - International: At least 21 days in advance
+  - Domestic: At least 14 days in advance
+  - International: At least 21 days in advance
 
 The airfare policy in Navan is set up as a “Dynamic Policy” which calculates a fair market price for every search based on travel dates and destinations. Any purchases that are over 20% of the Dynamic Policy will be flagged for further review by your manager. Also note that anything booked outside of Navan will flag as “Out of Policy”, and will need to be reviewed by your manager and the AP team.
 
@@ -135,9 +135,9 @@ The airfare policy in Navan is set up as a “Dynamic Policy” which calculates
 #### Common Out-of-policy Airfare Flags in Navan
 
 - The system automatically flags the following as out-of-policy:
-   - Flight price selected is more expensive than the cheapest option + our buffer
-   - Out-of-policy air class is selected
-   - Flights booked less than 14 days in advance
+  - Flight price selected is more expensive than the cheapest option + our buffer
+  - Out-of-policy air class is selected
+  - Flights booked less than 14 days in advance
 - If the flight selected triggers any of these criteria, an email will automatically be sent to your manager for approval. Please provide sufficient reasoning to make approval easier and faster.
 - After 24 hours without any manual action (approved/denied) the booking will automatically be accepted.
 
@@ -168,9 +168,9 @@ Do Not purchase the Collision Damage Waiver offered at the rental counter. GitLa
 Countries other than the US and Canada:
 
 - Third Party Liability
-   - Purchase the liability insurance offered at the rental counter when traveling outside the US and Canada. Automobile Bodily Injury and Property Damage Liability insurance are required by law in almost every country. Please verify this coverage is included with the rental agreement.
+  - Purchase the liability insurance offered at the rental counter when traveling outside the US and Canada. Automobile Bodily Injury and Property Damage Liability insurance are required by law in almost every country. Please verify this coverage is included with the rental agreement.
 - Physical Damage - Collision Damage Waiver
-   - Purchase the Collision Damage Waiver or Physical Damage Coverage offered by the rental agency when traveling outside the US and Canada.
+  - Purchase the Collision Damage Waiver or Physical Damage Coverage offered by the rental agency when traveling outside the US and Canada.
 
 In the event of an accident resulting in damage to the rental car, the Non-US rental agency will charge the credit card used to make the reservation with an estimated amount of repair costs if insurance is not purchased. If this happens, GitLab does not purchase Foreign Corporate Hired Auto Physical Damage Coverage to reimburse for damages.
 
@@ -286,13 +286,14 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 - If you are nursing while traveling on GitLab approved business, you can reimburse costs in order to travel with breast milk or ship your breast milk back home.
 - You can expense:
-   - Fees associated with a milk shipment service, such as MilkStork.
-   - If a milk shipment service is unavailable, you may expense the cost of checking a bag while flying
-   - Coolers or containers to store breast milk while traveling
-   - Shipment costs and materials, including dry ice, packaging, styrofoam coolers, and labels.
+  - Fees associated with a milk shipment service, such as MilkStork.
+  - If a milk shipment service is unavailable, you may expense the cost of checking a bag while flying
+  - Coolers or containers to store breast milk while traveling
+  - Shipment costs and materials, including dry ice, packaging, styrofoam coolers, and labels.
 - Check with your health plan to see if you are eligible for reimbursement for the cost of a breast pump or any other supplies.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** 6080 - Other Travel- Visas, Permits, Covid Tests
 - **GL Code COGS:** 5080 - Other Travel- Visas, Permits, Covid Tests COGS
@@ -322,7 +323,6 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Limit is set at $150 per quarter.
 - Expenses higher than this limit require manager's approval via email. The email should be attached to the expense transaction as an additional receipt.
 
-
 {{% panel header="**Coding**" header-bg="green" %}}
 **Expense Type / Navan Policy Category:** Office Supplies
 {{% /panel %}}
@@ -344,9 +344,10 @@ The company will cover all work-related travel expenses. This includes lodging a
 - If co-working space is used together with a combination of working from home, we will allow the reimbursement of the internet cost for where you spend most of your time. i.e. if you expense a co-working space for a full month then internet for home cannot be expensed. If you expense co-work for a few days in a month then home internet can be expensed in full.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
-- **GL Code NON-COGS:** 6076 - Co Working Space
-- **GL Code COGS:** 5076 - Co Working Space COGS
+- **GL Code NON-COGS:** 6076 - Coworking Space
+- **GL Code COGS:** 5076 - Coworking Space COGS
 {{% /panel %}}
 
 #### Conferences
@@ -394,16 +395,17 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Cash or cash equivalents, such as gift cards, are not allowed; Qualified gifts are capped at $125 per transaction.
 - People Managers have the ability to send gifts and flowers on behalf of their team.
 - Any People Manager can send a gift or flowers to any Team Member at GitLab to let them know they are thinking about them. Examples include:
-   - A new Team Member recently purchased a new home and shared their news with others. A People Manager sends a "Home Sweet Home" doormat as a congratulatory gift.
-   - While working a People Manager noticed a Team Member’s children in the background of a Zoom call and surprised the kids with a new game.
-   - A Team Member wasn’t feeling well, which was noticed by a People Manager who sent a care package of food as a ‘get well soon’ gesture.
+  - A new Team Member recently purchased a new home and shared their news with others. A People Manager sends a "Home Sweet Home" doormat as a congratulatory gift.
+  - While working a People Manager noticed a Team Member’s children in the background of a Zoom call and surprised the kids with a new game.
+  - A Team Member wasn’t feeling well, which was noticed by a People Manager who sent a care package of food as a ‘get well soon’ gesture.
 - Baby gifts are not reimbursable, as the GitLab People team already sends team members a congratulatory gift.
 - The cost of the gifts and flowers provided to GitLab Team Members will be allocated to the senders departmental budget. The allowable cost for gifts is up to $125 USD (including shipping) per gift.
 - If you would like to buy holiday gifts for your team, these need to be done personally and should not be expensed.
-- People Managers are to use their own personal card for expense reimbursement. People Managers will need to be sure to use Team MemberGiftsFlowers and the account 6028 in Navan Expense for the expense.
+- People Managers are to use their own personal card for expense reimbursement. People Managers will need to be sure to use Team `EmployeeGiftsFlowers` and the account 6028 in Navan Expense for the expense.
 - For further questions regarding expensing of gifts and flowers, please reach out to the AP team via the #expense-reporting-inquiries Slack channel or through email (expenses@gitlab.com).
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Gifts - internal
 - **Classification:** EmployeeGiftsFlowers
 {{% /panel %}}
@@ -413,8 +415,8 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Monthly service charges for the internet are reimbursable, but GitLab will not reimburse for any initial setup, equipment, change fees, or monthly insurance charges.
 - Please expense internet costs monthly, reflecting current charges only (even if you pay by a different cadence).
 - For Team Members in the Netherlands:
-   - If you have not already completed the form as part of onboarding with our Netherlands payroll provider, fill in and sign the Regeling Internet Thuis form and send it to the HRSavvy team at payroll@savvy-group.eu. Please do not expense your Internet costs via Navan - these will be rejected.
-   - If your address changes or the amount changes, please send a new form to the HRSavvy team, along with the invoice/letter for processing.
+  - If you have not already completed the form as part of onboarding with our Netherlands payroll provider, fill in and sign the Regeling Internet Thuis form and send it to the HRSavvy team at payroll@savvy-group.eu. Please do not expense your Internet costs via Navan - these will be rejected.
+  - If your address changes or the amount changes, please send a new form to the HRSavvy team, along with the invoice/letter for processing.
 - This is a taxable expense for GitLab Ltd. United Kingdom Team Members assuming that the internet connection is used partially for personal use as well as business use.
 - Policy is set at $80, anything over that amount will still be considered for approval as we know there are exceptions, and will be checked and approved on an individual basis depending on the user's circumstances, i.e. location etc.
 - Itemized Receipt required.
@@ -454,6 +456,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - >$5,000 needs to go through the procurement process in [Zip](/handbook/business-technology/enterprise-applications/guides/zip-guide/).
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** Multiple- will be required to choose GL account
 - **GL Code COGS:** Multiple- will be required to choose GL account
@@ -520,7 +523,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 - No software subscriptions are reimbursable.
 - Team Members that would like to purchase software will need to go through the Procurement process.
-- Please follow the Guidance from the [Individual Use Software Handbook Page](/handbook/finance/procurement/personal-use-software/).
+- Please follow the Guidance from the [Individual Use Software Handbook Page](/handbook/finance/procurement/individual-use-software/).
 
 ### Swag
 
@@ -539,6 +542,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - The expense needs to be submitted in the same month as the event or if not possible due to the timing of the event, the latest acceptable submission will be before the end of the fiscal quarter that the event took place.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Team events & meals
 - **Classification:** FY25 Team Building Budget
 {{% /panel %}}
@@ -552,6 +556,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - AP Admin needs to review expense for approved issue.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** 6065 - Training & Development
 - **GL Code COGS:** 5065 - Training & Development COGS
@@ -567,6 +572,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Multi year Policy - only current year subscription can be claimed.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** 6060 - Software Subscriptions
 - **GL Code COGS:** 5060 - Software Subscriptions COGS
@@ -579,6 +585,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Will flag approval required by AP Admin.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** 6080 - Other Travel- Visas, Permits, Covid Tests
 - **GL Code COGS:** 5080 - Other Travel- Visas, Permits, Covid Tests COGS
@@ -603,6 +610,7 @@ The procedure by which reimbursable expenses are processed varies and is depende
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
 **Global Upside, Remote.com and Papaya Global**
+
 - The list of Global Upside, Remote & Papaya countries can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
@@ -623,8 +631,8 @@ The procedure by which reimbursable expenses are processed varies and is depende
 ### 4.5 Submitting Expenses on Behalf (or Requested By) Team Member’s Manager
 
 - A Team Member submitting expenses on behalf of their manager is a violation of our Expense policy and GitLab's internal controls. The AP team will review these on a quarterly basis during their review of the quarterly Manager issue. If this is found during the expense review process, the following actions will take place:
-   - AP Admins to notify the Team Member, the Team Member's manager, the Team Member manager's manager, and Finance leadership team of the violation.
-   - The expense is to be repaid to GitLab immediately and the Team Member's manager will need to resubmit the expense themselves.
+  - AP Admins to notify the Team Member, the Team Member's manager, the Team Member manager's manager, and Finance leadership team of the violation.
+  - The expense is to be repaid to GitLab immediately and the Team Member's manager will need to resubmit the expense themselves.
 
 ## 5. Physical Cards
 
@@ -704,4 +712,4 @@ These instructions apply if a team member is unable to purchase required items, 
 
 ### Expense Reimbursement for Terminated Team Members
 
-If a team member whom you manage has left GitLab and comes to you with final expenses that are valid for reimbursement, please verify that they were not already processed in Navan and then contact Accounts Payable. You must submit valid receipts and a completed copy of the [Expense Reimbursement template](https://docs.google.com/spreadsheets/d/1D0kWlqol7jBjqn7yDY6uc7UCWSIcUmiF/edit?usp=sharing&ouid=108533621432009168804&rtpof=true&sd=true) along with your approval. Please note that we may also ask the terminated team member to provide valid banking details in order to process the payment to them. AP will do their best to process and pay the reimbursement to the individual within 1 week.
+If a team member whom you manage has left GitLab and comes to you with final expenses that are valid for reimbursement, please verify that they were not already processed in Navan and then contact Accounts Payable. You must submit valid receipts and a completed copy of the [Expense Reimbursement template](https://docs.google.com/spreadsheets/d/1TiSbp1C3-7WERqDanfBKTxdm5VevQ5QDOAiI_GaizBg/edit#gid=1450348181) along with your approval. Please note that we may also ask the terminated team member to provide valid banking details in order to process the payment to them. AP will do their best to process and pay the reimbursement to the individual within 1 week.

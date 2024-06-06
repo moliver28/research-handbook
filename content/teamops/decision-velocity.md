@@ -37,11 +37,13 @@ To keep their globally-distributed team equipped with instructions for a variety
 
 {{% details summary="Change management support for documented workflows" %}}
 **Quick Start Tips:**
+
 - *Individual:* As you are implementing a documented workflow, update as needed through the process in order to maintain the accuracy of the documentation.
 - *Team:* When starting a new project, discuss and document the anticipated workflow in either the SSoT (if the workflow will be repeated) or in the project management plan.
 - *Company:* Review the SSoT to confirm that the relevant departments have a documented workflow for every item in the cadence calendar.
 
 **Recommended TeamOps Partners:**
+
 - [Modern Leaders](https://www.modernleaders.co/) (consultant)
 - [Code Traveller HR](https://codetravellerhr.com) (consultant)
 {{% /details %}}
@@ -64,6 +66,7 @@ Giving agency begins in the most typical of places. Video calls are a natural pa
 
 {{% details summary="Change management support for give agency" %}}
 **Quick Start Tips:**
+
 - *Individual:* Ask your team members what their preferred task management systems, work environments, and typical working hours are. Set an example by publicly publishing your own. Celebrate the diversity of each.
 - *Team:* Replace your instinct to supervise with a mindset of support. Instead of asking, “Is this task going to be done by the due date?”, offer “Is there anything you need to ensure the task will be complete by the due date?”
 - *Company:* Update your company’s onboarding and continuing education programs to include training about what expectations are for operating as a manager of one.
@@ -91,6 +94,7 @@ A Senior Developer Advocate at GitLab recognized that many coaching and mentorin
 
 {{% details summary="Change management support for push decisions to the lowest possible level" %}}
 **Quick Start Tips:**
+
 - *Individual:* If/when you see a task or decision that could be completed by a more junior team member, flag it and offer to facilitate the transition.
 - *Team:* When designing a project management plan, determine which decisions will be made by which team members. For decisions from anyone other than the DRI, document why the approval authority was moved to that level.
 - *Company:* Update your company’s management training program to include training to prioritize delegation and employee empowerment.
@@ -114,6 +118,7 @@ To minimize miscommunications that can stem from cultural diversity, contextual 
 
 {{% details summary="Change management support for bias for action" %}}
 **Quick Start Tips:**
+
 - *Individual:* Every time you’re about to ask for approval to do something, stop to consider, “Do I already have approval to do this as the DRI?” or “Is there any part of this task that I can get started on without approval?”
 - *Team:* Publicly recognize and celebrate when a team member demonstrates a strong bias for action for positive reinforcement.
 - *Company:* Update your company’s onboarding and continuing education programs to include training about proactivity and self-efficacy.
@@ -152,6 +157,7 @@ GitLab's Recruitment Privacy Policy was updated. Rather than updating the policy
 
 {{% details summary="Change management support for low-context communication" %}}
 **Quick Start Tips:**
+
 - *Individual:* Before sending an asynchronous message to a team member that is any kind of request, proofread it at least once before sending while pretending that you have started working in this team today and know nothing about the project. Confirm that the “why” and the “ask” of the message are explicit and easy to find.
 - *Team:* Add “good” and “bad” examples of asynchronous messages to the collaboration guidelines section of your SSoT.
 - *Company:* Update your company’s onboarding and continuing education programs to include training about low-context communication.
@@ -185,11 +191,13 @@ By being transparent in your virtual work, your team can easily prove productivi
 
 {{% details summary="Change management support for operational transparency" %}}
 **Quick Start Tips:**
+
 - *Individual:* In a 1:1 with your manager, ask them, “What is a time that you were most impressed with my productivity?” Then, consider how you can recreate that performance visibility.
 - *Team:* Design a cadence and channel for operational transparency between your team, such as asynchronously a weekly recap.
 - *Company:* Design and document suggestions for increasing operational transparency. Include a protocols for how to report and resolve when a team member doesn’t feel adequately valued at work.
 
 **Recommended TeamOps Partners:**
+
 - [Lance Robbins](http://lancehrobbins.com/) (consultant)
 - [Modern Leaders](https://www.modernleaders.co/) (consultant)
 {{% /details %}}

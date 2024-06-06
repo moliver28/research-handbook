@@ -81,13 +81,13 @@ The Director, Corporate Controller is a [10](/handbook/total-rewards/compensatio
 1. [New hire location factor](/#new-hire-location-factor)
 1. [Percentage of ineffective SOX Controls](/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)
 
-### Senior Director, Corporate Controller
+### Senior Director, Assistant Controller
 
-#### Senior Director, Corporate Controller Job Grade
+#### Senior Director, Assistant Controller Job Grade
 
 The Senior Director, Corporate Controller is a [11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Director, Corporate Controller Responsibilities
+#### Senior Director, Assistant Controller Responsibilities
 
 - Responsible for and drives the monthly close process and is accountable for achieving our target for days to close.
 - Accountable to ensure consistent compliance of corporate accounting principles and procedures in full compliance with US GAAP and SEC reporting standards.
@@ -101,7 +101,7 @@ The Senior Director, Corporate Controller is a [11](/handbook/total-rewards/comp
 - Viewed as a leader and coach for increased levels of employee job satisfaction and employee engagement through development of the accounting team.
 - Leader in hiring and developing remote employees.
 
-#### Senior Director, Corporate Controller Requirements
+#### Senior Director, Assistant Controller Requirements
 
 - Proven experience developing and leading a high-performing accounting and control organization.
 - Leadership experience at the Sr. Director level or higher in a software or global technology company.
@@ -123,7 +123,7 @@ The Senior Director, Corporate Controller is a [11](/handbook/total-rewards/comp
 both grow in the role and grow with the company, demonstrating leadership capabilities and upward progression.
 - Ability to use GitLab.
 
-#### Senior Director, Corporate Controller Performance Indicators
+#### Senior Director, Assistant Controller Performance Indicators
 
 1. [Average days to close](/handbook/finance/accounting/#average-days-to-close-kpi-definition)
 1. [Number of material audit adjustments](/handbook/internal-audit/#performance-measures-for-accounting-related-to-audit)

@@ -17,7 +17,6 @@ Before we jump into all of the offerings we need to first cover definitions beca
 - Lunch & Learns: Primarily a term used by the CSE/CSM group to describe demos they give to a larger crowd. Will typically cover a topic like CICD in a short time frame with no hands-on portion. Almost all of the content here can be converted to this format.
 - Cohorts: Term for a session put on by the CSE team that is halfway between a lab and a workshop. The content is typically a workshop focusing only on the important stuff, but also is in a setting where the students can ask questions live.
 
-
 ### Workshops
 
 Workshops are meant to be offered in 3 hour sessions (with a few exceptions) generally in partnership with the FFM team. This content often doesn't get very technical as workshops are open to the public resulting in many different skill sets, so we want to make sure everyone can still learn something from the events. If you are not currently partnered with the FMM team, you most likely are looking for a Lab instead.
@@ -25,45 +24,45 @@ Workshops are meant to be offered in 3 hour sessions (with a few exceptions) gen
 The content in this section is typically updated at least 1 month after each release, with smaller updates provided before and after a workshop is ran.
 
 - GitLab Security & Compliance Workshop
-    - [Slides](https://drive.google.com/drive/folders/1kWp97Whuf-OH_1wSq9DpcQbSUPZtYhfA)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/security-and-compliance-workshop)
-    - What does it sell/cover: Ultimate heavy. The majority of this workshop is showing how to run Security scans in your pipelines & then enforcing compliance based off of the results.
-    - Instruqt?: No
+  - [Slides](https://drive.google.com/drive/folders/1kWp97Whuf-OH_1wSq9DpcQbSUPZtYhfA)
+  - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/security-and-compliance-workshop)
+  - What does it sell/cover: Ultimate heavy. The majority of this workshop is showing how to run Security scans in your pipelines & then enforcing compliance based off of the results.
+  - Instruqt?: No
 - GitLab DevSecOps Workshop
-    - [Slides](https://drive.google.com/drive/folders/1kWp97Whuf-OH_1wSq9DpcQbSUPZtYhfA)
-    - [Content](https://play.instruqt.com/gitlab/tracks/devsecops-workshop)
-    - What does it sell/cover: Ultimate heavy. This workshop is basically the Security & Compliance workshop minus the compliance plus deploying out a live application. 99% of the time it makes more sense to just run the Security & Compliance workshop.
-    - Instruqt?: Yes
+  - [Slides](https://drive.google.com/drive/folders/1kWp97Whuf-OH_1wSq9DpcQbSUPZtYhfA)
+  - [Content](https://play.instruqt.com/gitlab/tracks/devsecops-workshop)
+  - What does it sell/cover: Ultimate heavy. This workshop is basically the Security & Compliance workshop minus the compliance plus deploying out a live application. 99% of the time it makes more sense to just run the Security & Compliance workshop.
+  - Instruqt?: Yes
 - GitLab Adv CICD Workshop
-    - [Slides](https://drive.google.com/drive/folders/1JyA-_8ymrG5axRWas2ZHX1k5mT4dubqn)
-    - [Content](https://play.instruqt.com/gitlab/tracks/advanced-cicd)
-    - What does it sell/cover: Good for premium or ultimate. This workshop takes advanced topics (like DAGS, Includes, Needs, ETC) and presents them in basic ways. The goal is for someone new to CICD to get something out of the workshop and for experts to see how they can apply what they have learned to advanced features.
-    - Instruqt?: Yes
+  - [Slides](https://drive.google.com/drive/folders/1JyA-_8ymrG5axRWas2ZHX1k5mT4dubqn)
+  - [Content](https://play.instruqt.com/gitlab/tracks/advanced-cicd)
+  - What does it sell/cover: Good for premium or ultimate. This workshop takes advanced topics (like DAGS, Includes, Needs, ETC) and presents them in basic ways. The goal is for someone new to CICD to get something out of the workshop and for experts to see how they can apply what they have learned to advanced features.
+  - Instruqt?: Yes
 - GitLab AI Workshop
-    - [Slides](https://drive.google.com/drive/folders/1OsGp7HyrPO3tC0OFxtVHuD_kEiP_6dzY)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/ai-workshop)
-    - What does it sell/cover: Ultimate heavy. Think of this workshop as a code suggestions workshop that also shows the students how to enable every other AI feature and test it out on their own. Always run this earlier in the week so that students have time to go back and see features like Suggested Reviewers.
-    - Instruqt?: No
+  - [Slides](https://drive.google.com/drive/folders/1OsGp7HyrPO3tC0OFxtVHuD_kEiP_6dzY)
+  - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/ai-workshop)
+  - What does it sell/cover: Ultimate heavy. Think of this workshop as a code suggestions workshop that also shows the students how to enable every other AI feature and test it out on their own. Always run this earlier in the week so that students have time to go back and see features like Suggested Reviewers.
+  - Instruqt?: No
 - GitLab Basics Workshop
-    - [Slides](https://drive.google.com/drive/folders/11ETvCDMUMp7pNlZdkLXaCU71nOprTjLa)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/gitlab-basics-issues)
-    - What does it sell/cover: Any Tier. We just focus on the basics of GitLab and the fact that it is one platform that ties many things together without taking a deep dive into any specific topic.
-    - Instruqt?: No
+  - [Slides](https://drive.google.com/drive/folders/11ETvCDMUMp7pNlZdkLXaCU71nOprTjLa)
+  - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/gitlab-basics-issues)
+  - What does it sell/cover: Any Tier. We just focus on the basics of GitLab and the fact that it is one platform that ties many things together without taking a deep dive into any specific topic.
+  - Instruqt?: No
 - GitLab PM Workshop
-    - [Slides](https://drive.google.com/drive/folders/1Hi8aeh2oDQpCkvKTamss06Vw85S4aKim)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/pm-workshop-issues)
-    - What does it sell/cover: Good for Premium or Ultimate. Focuses only only the planning stage, so make sure that the students you have coming are not expecting a technical workshop.
-    - Instruqt?: No
+  - [Slides](https://drive.google.com/drive/folders/1Hi8aeh2oDQpCkvKTamss06Vw85S4aKim)
+  - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/pm-workshop-issues)
+  - What does it sell/cover: Good for Premium or Ultimate. Focuses only only the planning stage, so make sure that the students you have coming are not expecting a technical workshop.
+  - Instruqt?: No
 - GitOps Workshop (Temporarily Paused, reach out to Logan Stucker with questions)
-    - [Slides](https://drive.google.com/drive/folders/1xFxULChxjLmiQYjIENKNpbiifhhDfvo2)
-    - [Content](https://play.instruqt.com/gitlab/tracks/gitlab-gitops-workshop)
-    - What does it sell/cover: Good for both premium and ultimate. Real benefit of this workshop is that it will set students up for how to use the agent for IAC or deploying an application. In the future we will be a deep dive into Flux as well.
-    - Instruqt?: Yes
+  - [Slides](https://drive.google.com/drive/folders/1xFxULChxjLmiQYjIENKNpbiifhhDfvo2)
+  - [Content](https://play.instruqt.com/gitlab/tracks/gitlab-gitops-workshop)
+  - What does it sell/cover: Good for both premium and ultimate. Real benefit of this workshop is that it will set students up for how to use the agent for IAC or deploying an application. In the future we will be a deep dive into Flux as well.
+  - Instruqt?: Yes
 - X to GitLab Workshop ( GitHub, Bitbucket, etc.)
-    - [Slides](https://drive.google.com/drive/folders/1L_kd6QudSWcvAKDM-h6oPvvC6LiNj_ER)
-    - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects)
-    - What does it sell/cover: This can be many different topics but typically is GitHub or Bitbucket. The goal here is to take people new to GitLab and show them how easy it is to swap platforms and what they are missing.
-    - Instruqt?: Maybe
+  - [Slides](https://drive.google.com/drive/folders/1L_kd6QudSWcvAKDM-h6oPvvC6LiNj_ER)
+  - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects)
+  - What does it sell/cover: This can be many different topics but typically is GitHub or Bitbucket. The goal here is to take people new to GitLab and show them how easy it is to swap platforms and what they are missing.
+  - Instruqt?: Maybe
 
 ### Labs/hands-on Content
 
@@ -82,6 +81,8 @@ These demos are meant for anyone in the CS org to use when they get asked a ques
 #### [AI](https://gitlab.com/gitlab-learn-labs/webinars/ai)
 
 - [Code Suggestions Python Demo](https://gitlab.com/gitlab-learn-labs/webinars/ai/code-suggestions-python-demo): This demo takes the basic Simply Simple Notes application and shows how you can use code suggestions to quickly finish a restful API and rewrite an insecure application
+
+- [GitLab Duo Java Demo](https://gitlab.com/gitlab-learn-labs/webinars/ai/just-a-web-app-gitlab-duo): This demo takes the simple application and shows how you can use the full potential of GitLab Duo to quickly remediate vulnerabilities and generate code faster.
 
 #### [Analytics](https://gitlab.com/gitlab-learn-labs/webinars/analytics)
 

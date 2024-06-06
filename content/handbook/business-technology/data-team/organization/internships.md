@@ -31,6 +31,7 @@ The initial focus of the 2022 Program will be **Data Internship for Learning**, 
 The Data Internship for Learning follows [GitLab Internship for Learning Program](/handbook/people-group/learning-and-development/internship-for-learning/) guidelines. In addition, given the rapid growth of the Data Team, we seek to partner every Intern with a current [individual contributor](/handbook/engineering/development/dev/training/ic-to-manager/) Data Team member who is interested in exploring their own career development towards a [Leadership](/handbook/people-group/learning-and-development/new-to-leadership/#new-to-leadership-and-management) role, such as a Team Lead specialization or [Data Management](/job-families/finance/manager-data/) role. In this model, both team members share a commitment to support each other's success.
 
 At launch in January 2022, **Data Internship for Learning** will be structured as follows:
+
 - Follows the [GitLab Internship for Learning Program](/handbook/people-group/learning-and-development/internship-for-learning/)
 - Open to only current GitLab Team Members
 - Intern time allocation should range from 25%-50%, with a 3-month commitment
@@ -111,10 +112,10 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 - Basic knowledge of dashboard tools (we use Sisense)
 - At least 1 completed demoable data project (Non-commercial projects done in a spare time also count, as do school projects)
 - Nice to have
-     - Understanding of software industry
-     - Prior experience in a Data Role
-     - Experience designing and managing projects
-     - Working knowledge of Python (we use Jupyter notebooks to analyse and visualise data)
+  - Understanding of software industry
+  - Prior experience in a Data Role
+  - Experience designing and managing projects
+  - Working knowledge of Python (we use Jupyter notebooks to analyse and visualise data)
 
 ### Data Science Internship for Learning
 
@@ -130,7 +131,6 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 | FY24Q2 | 1 | 1 | 0 |
 | FY24Q3 | 2 | 0 | 2 |
 
-
 #### Requirements
 
 - Familiarity with and Interest in the [Data Science](/job-families/finance/data-science/) job family
@@ -145,8 +145,8 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 - At least 1 completed data science project (Non-commercial projects done in a spare time also count, as do school projects)
 - Being proactive in a work you do, but also not afraid to ask questions
 - Nice to have
-     - Understanding of CRISP-DM framework
-     - Understanding of software industry
+  - Understanding of CRISP-DM framework
+  - Understanding of software industry
 
 ### Data Platform Team Internship for Learning
 
@@ -172,13 +172,12 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 - Self-motivated and self-managing, with task organizational skills
 - Working knowledge of SQL
 - Nice to have
-     - Understanding of software industry
-     - Prior experience in a Data Role
-     - Experience designing and managing projects
+  - Understanding of software industry
+  - Prior experience in a Data Role
+  - Experience designing and managing projects
 
 ### Data Analyst Internship for Learning
 
 #### Openings
 
 No openings at this time.
-

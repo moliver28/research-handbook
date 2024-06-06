@@ -13,7 +13,6 @@ GitLab covers **100%** of team member, spouse, dependents, and/or domestic partn
 
 Please review the [Employee Booklet](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) and full [policy document](https://drive.google.com/file/d/1UFEPx7LI1kUmOr2BX47ZlRniQip_qewJ/view?usp=sharing) for more information on the benefits being offered.
 
-
 ## Group Health Coverage
 
 GitLab offers medical, dental, and vision coverage at no cost to the team member. The benefits are outlined in the following [benefit summary](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) as well as below. This documentation also has details on the products and services available under the plan.
@@ -87,9 +86,7 @@ Effective May 1, 2021 GitLab team members and their dependants enrolled in Canad
 
 **Beneficiary Designation**
 
-Team Members should designate a beneficiary for your Life Insurance Plan with Canada Life.
-
-In order to assign a beneficiary for the Life Insurance plan, team members should download the "Beneficiary Form"  on the [Canada Life Beneficiary](https://www.canadalife.com/support/forms/plan-administrators/apply-or-make-changes-to-group-coverage-or-beneficiary-trustee-i/beneficiary-or-trustee-change.html) webpage. If the beneficiary is a minor, please also download the "Trustee Appointment" form. Please email the completed from to Total-rewards@gitlab.com and Darren@scinsurance.ca
+Team Members should designate a beneficiary for your Life Insurance Plan with Canada Life. [See instructions](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/#updating-beneficiary-information) on how to update your Beneficiary.
 
 It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible.
 
@@ -130,6 +127,15 @@ Member ID: When you complete your digital enrollment, Collage will populate a Me
 
 In order to assign a beneficiary for the Life Insurance plan, team members should download the "Beneficiary Form"  on the [Canada Life Beneficiary webpage](https://www.canadalife.com/support/forms/plan-administrators/apply-or-make-changes-to-group-coverage-or-beneficiary-trustee-i/beneficiary-or-trustee-change.html). If the beneficiary is a minor, please also download the "Trustee Appointment" form. Canada Life requires a wet signature on these forms, so please print, complete, and scan back the forms to Total-rewards@gitlab.com and Darren@scinsurance.ca.
 
+When filling out the form you may enter the following under Part 1:
+
+- Plan Number: [Link to Plan Number](https://docs.google.com/document/d/1fwBuM3lgCOeiWcrgf2tfUJ9S72-ODWZKBBtKBdFzNJw/edit?usp=sharing)
+- Division Number: [You May Leave this Section Blank]
+- Plan Member ID: [When you complete your digital enrollment, Collage will populate a Member ID # for you. You can find the Member ID # in the Benefits Tab on your Collage profile page.]
+- Plan Sponsor: GitLab Canada Corp
+
+It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible.
+
 Please note that there is a separate process for electing a beneficiary for the RRSP plan.
 
 ### Updating Coverage Status and Enrollment of Domestic Partners, Spouses, and Dependents
@@ -140,7 +146,7 @@ Domestic Partner Enrollment: Canada Life uses the first day cohabitating as the 
 
 ### Canada Life Enrollment
 
-In addition to enrollment in the Collage portal, you can also register directly with Canada Life. To register, you can do so by following this [registration link](https://gwl.greatwestlife.com/MyRegistration). This will allow you access to Canada Life’s GroupNet for Plan Members and the ability to download the GroupNet Mobile app on your mobile device. Once registered you will have access to online claims submission, your electronic benefits card, direct deposit of claim payments, view the status of your claims and more. Canada Life has also provided the following [Welcome Packet](https://drive.google.com/file/d/1Fg9LxE-eyLqgDihpw5kUb-4PuDK5AeMa/view?usp=sharing). The [french version of the welcome packet](https://drive.google.com/file/d/1SChNz6Ir6Vyk8scbM-WJR1N8solVmpeE/view?usp=sharing) is also available.
+In addition to enrollment in the Collage portal, you can also register directly with Canada Life. To register, you can do so by following this [registration link](https://gwl.greatwestlife.com/climsMyLogin). This will allow you access to Canada Life’s GroupNet for Plan Members and the ability to download the GroupNet Mobile app on your mobile device. Once registered you will have access to online claims submission, your electronic benefits card, direct deposit of claim payments, view the status of your claims and more. Canada Life has also provided the following [Welcome Packet](https://drive.google.com/file/d/1Fg9LxE-eyLqgDihpw5kUb-4PuDK5AeMa/view?usp=sharing). The [french version of the welcome packet](https://drive.google.com/file/d/1SChNz6Ir6Vyk8scbM-WJR1N8solVmpeE/view?usp=sharing) is also available.
 
 Learn how to use GroupNet for Plan Members by watching the helpful videos in the following [pdf](https://drive.google.com/file/d/1mrZPMKd17m9cwC1Qnsdq6KyJ2lmfehFe/view?usp=sharing).
 
@@ -171,12 +177,12 @@ Canada Life has designed [tools and services](https://www.greatwestlife.com/you-
 - What are my key responsibilities as a plan member?
   - If you experience a major lifestyles event, you must advise your plan administrator within 31 days of the event and complete any corresponding paperwork. Failure to notify Canada Life of a lifestyle event within 31 days of the event, could result in limitations or declined coverage. Please see your plan administrator for support.
   - Major lifestyles events include:
-     - Marriage - legal or common-law (1st day of cohabitation)
-     - Legal Separation
-     - Divorce or termination of a common-law relationship
-     - Death of spouse or insured child, Birth or adoption of a child
-     - Loss of spouse’s benefits
-     - Dependents becoming ineligible for dependent coverage either because of their age or student status
+    - Marriage - legal or common-law (1st day of cohabitation)
+    - Legal Separation
+    - Divorce or termination of a common-law relationship
+    - Death of spouse or insured child, Birth or adoption of a child
+    - Loss of spouse’s benefits
+    - Dependents becoming ineligible for dependent coverage either because of their age or student status
 
 ## Registered Retirement Savings Plan (RRSP)
 
@@ -388,16 +394,16 @@ The following leave types run concurrently with GitLab time away policies (PTO, 
 **Reservist Leave**
 
 - A reservist of the Canadian Armed Forces may be absent from civilian work, without pay, to conduct operations in Canada or abroad:
-    - Abroad: After 12 months of uninterrupted service with their employer, reservists may be absent from work to take part in a Canadian Armed Forces operation abroad for a period of up to 18 months. An operation abroad includes preparation, training, rest and travel from their place of residence and back;
-    - In Canada: A reservist may be absent from work to take part in a Canadian Armed Forces operation in Canada in order to:
-        - provide assistance in the event of a major disaster within the meaning of the Loi sur la sécurité civile;
-        - assist the civil authority at the request of the Attorney General of Québec pursuant to the National Defence Act;
-        - intervene in any other emergency situation designated by the Government.
-    - In Canada or abroad: A reservist may be absent from work to take part in any other Canadian Armed Forces operation under the circumstances, the conditions and for the period prescribed by regulation;
-    - Annual training: A reservist may be absent from work to take part in annual training with the Canadian Armed Forces for a period of up to 15 days;
-    - Exceptions: A reservist does not have the right to be absent from work in the following situations:
-        - if there is a danger to the life, health or safety of other workers or the population;
-        - if there is a risk of destruction or serious deterioration of buildings or movable property, or in a case of force majeure; if their absence is contrary to their professional code of ethics.
+  - Abroad: After 12 months of uninterrupted service with their employer, reservists may be absent from work to take part in a Canadian Armed Forces operation abroad for a period of up to 18 months. An operation abroad includes preparation, training, rest and travel from their place of residence and back;
+  - In Canada: A reservist may be absent from work to take part in a Canadian Armed Forces operation in Canada in order to:
+    - provide assistance in the event of a major disaster within the meaning of the Loi sur la sécurité civile;
+    - assist the civil authority at the request of the Attorney General of Québec pursuant to the National Defence Act;
+    - intervene in any other emergency situation designated by the Government.
+  - In Canada or abroad: A reservist may be absent from work to take part in any other Canadian Armed Forces operation under the circumstances, the conditions and for the period prescribed by regulation;
+  - Annual training: A reservist may be absent from work to take part in annual training with the Canadian Armed Forces for a period of up to 15 days;
+  - Exceptions: A reservist does not have the right to be absent from work in the following situations:
+    - if there is a danger to the life, health or safety of other workers or the population;
+    - if there is a risk of destruction or serious deterioration of buildings or movable property, or in a case of force majeure; if their absence is contrary to their professional code of ethics.
 - Team Members should select `Mandatory Civilian Service` in Time Off by Deel.
 
 **Marriage or civil union**
@@ -659,7 +665,6 @@ More information can be found on the [Government of Manitoba website](https://ww
 
 </details>
 
-
 ## Administrative Details for Benefits Team
 
 ### Onboarding & Offboarding in Collage
@@ -725,7 +730,8 @@ Adjustments for Current Team Members
 1. Enrollment tab > request reports> coverage summary> effective date(today’s date)> sort by Employee name
 1. Review the data to identify  if the team member is eligible for more Life Insurance and LTD Coverage than they are currently receiving (i.e. compare the LTD and LTD eligible Amount Columns to see if there is a delta)
 1. Reach out to the team member with the Eligiblity of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quartelry audit was completed as an fyi.
- - View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
+
+- View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
 
 ### RRSP Process (Semi-monthly)
 
@@ -750,6 +756,7 @@ Adjustments for Current Team Members
 1. Total rewards will add a line in the Canada Payroll Change Report with the team member's entry. If there are no other changes, they can leave the Employee and Employer amount blank and just add the Member Voluntary amount with an explanation of the payment.
 
 Offboarding:
+
 - The Canada Life RRSP portal is not able to be connected to Collage so team members will need to be manually removed from the RRSP plan upon termination.
 
 Please see the [administration guide](https://drive.google.com/drive/u/0/folders/1qJ3NmOzDjeXKFpwwO2J0upF5ZVBs_YLD) for additional instructions.

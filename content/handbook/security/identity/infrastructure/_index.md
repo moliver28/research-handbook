@@ -16,7 +16,7 @@ We provision AWS accounts and GCP projects for each service/workload that more t
 We believe in "one account/project per workload" for security blast radius and cost attribution reasons. Do **not** deploy different functional applications in the same AWS account or GCP project that has your team's name on it. You simply need to use the issue template to request a new AWS account or GCP project.
 
 - [Sandbox Cloud Documentation](/handbook/infrastructure-standards/realms/sandbox)
-- Self Service: [Create an Individual AWS Account or GCP Project](https://handbook.gitlab.com/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project)
+- Self Service: [Create an Individual AWS Account or GCP Project](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project)
 - Issue Template: [Create a Service/Team/Workload AWS Account](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_create_request)
 - Issue Template: [Create a Service/Team/Workload GCP Project](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_create_request)
 - Issue Template: [Add or Remove IAM Users from AWS Account](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_iam_update_request)
@@ -209,8 +209,8 @@ We use a shared responsibility model for cloud providers.
 - GCP Project creation
 - Azure sandbox user management
 - Defining Identity Roles and Identity Groups
-    - Managing AWS Identity Center Groups and Permission Sets
-    - Managing Google Groups and User Memberships (using Identity Roles)
+  - Managing AWS Identity Center Groups and Permission Sets
+  - Managing Google Groups and User Memberships (using Identity Roles)
 - Services Cloud Architecture and Automation (production-esque environments)
 - Sandbox Cloud Architecture and Automation (dev/test environments)
 - Tech debt reduction of legacy AWS accounts
@@ -235,9 +235,9 @@ See the team's [handbook page](/handbook/security/product-security/infrastructur
 > Responsible for product hosting, reliability, and scalability of customer-facing applications and services related to the GitLab product.
 
 - GCP Infrastructure (SaaS Production) Folder and Projects
-    - Architecture, deployment, and management of all product workloads
-    - Reliability of customer-facing services in the [production architecture](/handbook/engineering/infrastructure/production/architecture)
-    - Management of GitOps deployments using [config-mgmt](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) and [runbooks](https://gitlab.com/gitlab-com/runbooks)
+  - Architecture, deployment, and management of all product workloads
+  - Reliability of customer-facing services in the [production architecture](/handbook/engineering/infrastructure/production/architecture)
+  - Management of GitOps deployments using [config-mgmt](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) and [runbooks](https://gitlab.com/gitlab-com/runbooks)
 - Runway Infrastructure for Development Teams
 
 See the team's [handbook page](/handbook/engineering/infrastructure) to learn more.

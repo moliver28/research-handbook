@@ -8,7 +8,7 @@ description: Describes how to service internal requests for licensing & renewals
 
 
 
-----
+---
 
 ### Servicing Internal Requests
 

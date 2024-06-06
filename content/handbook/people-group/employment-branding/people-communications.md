@@ -35,8 +35,8 @@ Given the amount of information we need to communicate with GitLab team members 
 
 There are several different ways our People Communications & Engagement team can support cross-functional projects depending on the need. These include:
 
-| Type of involvement | What this type of involvement entails | How People Comms & Engagement can support
-| ------------------- | ------------------------------------- |
+| Type of involvement | What this type of involvement entails | How People Comms & Engagement can support |
+| ------------- | --------------------------------- | --------------------------------- |
 | Review of communications | The most basic level of support provided is a review of planned communications, typical lead time is 48 hours | This means reviewing a single message or series of messages for tone and format, alignment with communication principles, cascade of information, and appropriate channel use |
 | Collaborative communications planning | This is a partnered approach on the creation of a message or a communications plan anticipated to impact a significant amount of team members or have a high impact to a select amount of team members, typical lead time is 1-2 weeks depending on bandwidth | For projects with a defined DRI outside of the People Communications & Engagement team, we will often work together on a collaborative comms plan by reviewing and editing copy, reccomending channels, cascade of information, and communications best practices |
 | Accountable for communications | For project with change management complexity or a large communications component, we look to establish a comms DRI to be accountable for communications, typical lead time is 3+ weeks to understand the project and advise | This means writing communications, getting neccesary stakeholder input, aligning to our typical template for leadership review, plus everything we would typically do for a review of communications |
@@ -88,6 +88,7 @@ We use a variety of channels to communicate with various audiences within GitLab
 GitLab Assembly is our quarterly all-company meeting and is an opportunity for team members to hear from leaders and teams across the company. Assembly provides a holistic view of top priorities, customer stories and data, cross-collaboration, department deep dives, and other team member stories to bolster team member engagement, shared visibility, and company connectedness. Assembly is a 50-minute meeting consisting of ~35 minutes of content and ~15 minutes of Q&A and is scheduled to take place late in the second month or early in the third month of each quarter (January, April, June, October). To give global team members an opportunity to join live, there will be two live-hosted Assembly events each quarter, with the first event at 5pm PT (12am UTC) and the second event the next day at 8am PT (3pm UTC).
 
 To produce each quarterly Assembly, the People Communications & Engagement DRI:
+
 1. Works with the EBA team to schedule a date six to eight weeks in advance
 1. Engages a production partner for the live event production
    - Collaborates with the production partner on run of show

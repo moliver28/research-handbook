@@ -85,7 +85,6 @@ The Senior Anti-Abuse Analyst is responsible for leading and implementing the va
 
 See [Security Compliance](/job-families/security/security-compliance/)
 
-
 ### Security Operations
 
 [Security Operations](/handbook/security/#security-operations) is responsible for the proactive security measures to protect GitLab the company, GitLab the product, and GitLab.com, as well as detecting and responding to security incidents.  The Security Analysts in Security Operations play a vital role in identifying and responding to incidents, and using the resulting knowledge and experience to help build automated methods of remediating these issues in the future.
@@ -125,7 +124,6 @@ Candidates for this position can expect the hiring process to follow the order b
 
 As always, the interviews and screening call will be conducted via a video call.
 See more details about our hiring process on the [hiring handbook](/handbook/hiring/).
-
 
 ## Career Ladder
 

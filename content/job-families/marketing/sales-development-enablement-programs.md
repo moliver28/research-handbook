@@ -60,7 +60,6 @@ Senior Manager, Sales Development Strategy Programs & Enablement is a [grade 9](
 - Understand market trends, customer requirements, usage and buying behavior, and the partner ecosystem to better identify market opportunities and customer demand for GitLab’s product offerings.
 - Responsible for the Sales Development execution and planning of Quarterly revenue plays.
 
-
 #### Senior Manager, Sales Development Strategy Programs & Enablement Programs Requirements
 
 - Extends that of the Manager, SDR Enablement Programs requirements
@@ -70,7 +69,6 @@ Senior Manager, Sales Development Strategy Programs & Enablement is a [grade 9](
 - Relevant experience evangelizing, developing, and executing global sales teams’ effectiveness strategies, tactics and action plans for a technology platform.
 - Proven experience communicating to senior leadership the effectiveness of sales development enablement programs
 
-
 ## Performance Indicators
 
 - Percent of Ramped Reps at or Above Quota
@@ -78,7 +76,6 @@ Senior Manager, Sales Development Strategy Programs & Enablement is a [grade 9](
 - Pipeline conversion and velocity
 - Sales Accepted Opportunity Attainment vs Goal
 - Net ARR Pipeline Generated
-
 
 ## Career Ladder
 

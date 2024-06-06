@@ -65,14 +65,15 @@ the project, ensuring clarity on objectives with the responsibility of looking
 forward 3-6 months to identify potential blocks or risks. Their work is not
 limited to that area and they also work in other areas as needed.
 
-| Project | DRI |
-| ------ | ------ |
-| [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex, Abdul, Rutger, Peter, Zack Cuddy |
-| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj, Tiger Watson |
-| Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) | Thong, Steve, Omar, Bojan |
-| Cells Services: [SSH Routing](https://gitlab.com/groups/gitlab-org/-/epics/12708) | Igor Drozdov, Bojan |
-| Cells Services: [Global Service](https://gitlab.com/groups/gitlab-org/-/epics/13153) | Kamil, Omar, Rutger |
-| [Database sequences](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/97) | Prabakaran Murugesan, Diogo Frazão |
+| Project | DRI | Team |
+| ------ | ------ | ------ |
+| Application Readiness questions | Manoj | |
+| [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter, Zack Cuddy |
+| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj | |
+| Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) | Thong | Bojan, Filipe Santos |
+| Cells Services: [SSH Routing](https://gitlab.com/groups/gitlab-org/-/epics/12708) | Vasilii Iakliushin | |
+| Cells Services: [Topology Service](https://gitlab.com/groups/gitlab-org/-/epics/13153) | Thong | Omar, Manoj, David Leach, Jonathon Sisson |
+| Cells Services: [Database sequences](https://gitlab.com/groups/gitlab-org/-/epics/13155) | Prabakaran Murugesan | |
 
 ## Meetings
 
@@ -81,8 +82,8 @@ however, we also have synchronous meetings. It's unlikely everyone can attend
 those meetings, so we record them and share written summaries ([agenda](https://docs.google.com/document/d/1W7QsQL_2wMLW9KJU5ZEZdyIqYtRC6_bwOoNXJUWNbiU/edit)).
 Currently we have the following recurring meetings scheduled:
 
- - Weekly Monday - Tenant Scale Group Sync (APAC/EMEA) 8:30AM UTC (2:30AM PDT)
- - Weekly Thursday - Tenant Scale Group Sync (EMEA/AMER) 3:00PM UTC (7:00AM PDT)
+- Weekly Monday - Tenant Scale Group Sync (APAC/EMEA) 8:30AM UTC (2:30AM PDT)
+- Weekly Thursday - Tenant Scale Group Sync (EMEA/AMER) 3:00PM UTC (7:00AM PDT)
 
 ## Work
 
@@ -100,6 +101,7 @@ counterparts. Quality engineering is included in our workflow via the
 
 Before starting a milestone, the group coordinates using [planning issues](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/issues/?label_name%5B%5D=Planning%20Issue).
 We follow this process:
+
 - The PM defines the goals of the milestone.
 - The team members comment about the issues they consider relevant for the milestone.
 - The PM and EM work together to decide the final list of issues.
@@ -129,6 +131,7 @@ guidelines. To get a high-level overview of the status of all issues in the
 current milestone, check the [development workflow board](https://gitlab.com/groups/gitlab-org/-/boards/2594854).
 
 The process primarily follows this:
+
 - `workflow::ready for design` to signal an issue was ready to begin the design.
 - `workflow::design` designer would use this to signal it was actively being worked on.
 - `workflow::refinement` to signal that the design is complete and the issue is ready for engineering input. Please also tag the PM to assign the appropriate milestone for implementation.
@@ -172,16 +175,25 @@ graph LR
 
 We track our work on the following issue boards:
 
-- [Data Stores:Tenant Scale milestone prioritization](https://gitlab.com/groups/gitlab-org/-/boards/5548886)
-- [Data Stores:Tenant Scale cross-functional prioritization](https://gitlab.com/groups/gitlab-org/-/boards/4424394)
-- [Data Stores:Tenant Scale planning](https://gitlab.com/gitlab-org/gitlab/-/boards/3782673)
-- [Data Stores:Tenant Scale validation](https://gitlab.com/gitlab-org/gitlab/-/boards/4403984)
-- [Data Stores:Tenant Scale build](https://gitlab.com/groups/gitlab-org/-/boards/2594854)
-- [Data Stores:Tenant Scale bug](https://gitlab.com/gitlab-org/gitlab/-/boards/4620745)
-- [Data Stores:Tenant Scale release posts](https://gitlab.com/gitlab-org/gitlab/-/boards/4908764)
-- [Data Stores:Tenant Scale milestones](https://gitlab.com/groups/gitlab-org/-/boards/5549104)
-- [Data Stores:Tenant Scale team members](https://gitlab.com/groups/gitlab-org/-/boards/5549106)
-- [Data Stores:Tenant Scale important](https://gitlab.com/groups/gitlab-org/-/boards/1438588)
+- [Core Platform:Tenant Scale milestone prioritization](https://gitlab.com/groups/gitlab-org/-/boards/5548886?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale cross-functional prioritization](https://gitlab.com/groups/gitlab-org/-/boards/4424394?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale planning](https://gitlab.com/groups/gitlab-org/-/boards/7487616?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale validation](https://gitlab.com/groups/gitlab-org/-/boards/7487708?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale development workflow](https://gitlab.com/groups/gitlab-org/-/boards/2594854?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale bugs](https://gitlab.com/groups/gitlab-org/-/boards/7487700?label_name[]=group%3A%3Atenant%20scale&label_name[]=type%3A%3Abug)
+- [Core Platform:Tenant Scale release posts](https://gitlab.com/groups/gitlab-org/-/boards/7487687?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale milestones](https://gitlab.com/groups/gitlab-org/-/boards/5549104?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale team members](https://gitlab.com/groups/gitlab-org/-/boards/5549106?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale important](https://gitlab.com/groups/gitlab-org/-/boards/1438588?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale community contributions](https://gitlab.com/groups/gitlab-org/-/boards/7487739?label_name[]=group%3A%3Atenant%20scale&label_name[]=Community%20contribution)
+
+### Tracking Dashboards
+
+In addition to issue boards, we also track progress on major initiatives with bespoke dashboards such as the [Cells Progress Tracker](https://gitlab.com/gitlab-org/tenant-scale-group/cells-progress-tracker).
+
+The team has also spun off [Epic Dashboards](https://gitlab.com/gitlab-org/tenant-scale-group/epic-dashboard) into a project that other teams can use to create their own epic-based tracking dashboards.
+
+@manojmj is the creator and DRI of [Epic Dashboards](https://gitlab.com/gitlab-org/tenant-scale-group/epic-dashboard) and supports this project on a best-effort basis outside of core project responsibilities.
 
 ### Capacity Planning
 
@@ -312,8 +324,6 @@ to allow the group to focus on long-term scalability work.
 ## Dashboards
 
 You can find our group metrics in the [Tenant Scale Group Engineering Metrics page](/handbook/engineering/metrics/enablement/data-stores/tenant-scale).
-
-
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="tenant scale" >}}

@@ -50,8 +50,7 @@ The Solutions Architecture promotion process augments the [People Group Promotio
     - For Staff level promotions, the promotion candidate's manager will consult with existing Staff and Principal level SAs for peer-level review and feedback while taking detailed notes.
     - For Principal level promotions, the Principal candidates will prepare and present their accomplishments and their vision for improving GitLab and the SA organization to a panel of SA leaders and Principal level SAs after calibration has occurred.
     - The Principal promotion panel will then meet to discuss the candidate's suitability for the Principal SA role.
-1. After reviewing and providing feedback, the VP of Solutions Architecture will inform the VP of Customer success, typically during a weekly 1 on 1 meeting.
-1. The VP of Customer Success will review the request and provide feedback if necessary. If the request is approved, the VP will annotate the justification document with their approval.
+1. After reviewing and providing feedback, the VP of Solutions Architecture will inform the Manager or Director of his/her approval.
 1. At this point, the standard quarterly promotion process is followed
 
 ### Associate Solution Architecture Program
@@ -90,7 +89,6 @@ The content is supplemental to the [30/60/90 day onboarding](/handbook/solutions
 |**[SA-to-AE Coffee Chats](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/associate-program/training/-/issues/new?issuable_template=SA-to-AE%20Coffee%20Chats)**||As the cohort becomes comfortable with demoing and taking the lead on calls, it is important to begin establishing relationships with the Account Executives they will support. |
 |**[Associate SA Reference Materials](https://drive.google.com/drive/folders/1NRp-a8WHdaY3nq_lLb6ejJt4Am0JEyG2)**||Associate SAs can refer to examples of demos leveraging Demo2win strategies along with the slide deck, as well as other supplemental materials. |
 
-
 #### Cohort Coaches
 
 Coaches meet with the entire cohort for either a specific session or multiple sessions.
@@ -116,7 +114,7 @@ Coaches meet with the entire cohort for either a specific session or multiple se
 | Sarah Bailey      | Sophia Manicor   |
 | Corina Patachia   | Christian Nnachi |
 
-#### How to Get Engaged with the Program!
+#### How to Get Engaged with the Program
 
 **If you are looking to coach or mentor Associate SAs** that are going through the program you can do so by helping the Associate SAs understand
 the value of different [GitLab categories within our stages](/handbook/product/categories/#hierarchy). Upon completion of Demo2Win, every week, the team is assigned a new Category to learn about and
@@ -139,9 +137,7 @@ Recognizing (and being recognized) by your peers is extremely fulfilling.  If an
 - The #deal-gratitude Slack Channel (Used primarily by the [Field Organization](/handbook/sales/field-operations/field-enablement/field-team-recognition/#deal-gratitude-slack-channel) for recognizing work on sales deals.)
 - The #wins-key-deals Slack Channel (When an SA is associated with a high profile win, they are automatically added to the details of the win within this channel. SA Leadership is working with Sales Ops to bring more attention to this notification.)
 - Various team meetings (At the start of most SA calls, there is a devoted section for expressing gratitude and appreciation.)
-- [Discretionary Bonuses](/handbook/incentives/#discretionary-bonuses-for-individuals) (If an SA has gone above and beyond and truly lived up to GitLab's CREDIT values, a discretionary bonus of $1000 US can be awarded. These nominations can come from anyone in the company and at any time.)
-
-
+- [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses-for-individuals) (If an SA has gone above and beyond and truly lived up to GitLab's CREDIT values, a discretionary bonus of $1000 US can be awarded. These nominations can come from anyone in the company and at any time.)
 
 ### Management Recognition
 

@@ -287,6 +287,7 @@ IMPORTANT NOTE: If at any point you are unsure of next steps or have any questio
 
 1. Add the `Awaiting::Challenge Answers` label, and wait for the requestor to reply.
    1. If no response is received after 10 calendar days, apply the `Account Verification Failed` and `deletion request::denied` labels to the issue, and close it using the following snippet:
+
 <details>
   <summary markdown="span">Request Closed - No Response (Account Deletion - Deceased User) </summary>
 
@@ -372,20 +373,22 @@ Use the following workflows based on the type of request submitted.
 
   <p>Greetings,</p>
 
-  <p>You've opened a Data Access Request which is used specifically to obtain a copy of any personal data GitLab holds on you. In the course of filing this request, you've asked for data beyond the scope of what can be provided.
+  <p>You've opened a Data Access Request which is used specifically to obtain a copy of any personal data GitLab holds on you. In the course of filing this request, you've asked for data beyond the scope of what can be provided.</p>
 
-  Usage and other out-of-scope account data can be obtained by logging into your GitLab.com account and cannot be provided through a Data Access Request. If you have specific questions about this kind of data, please review your options for support at https://about.gitlab.com/support.
+  <p>Usage and other out-of-scope account data can be obtained by logging into your GitLab.com account and cannot be provided through a Data Access Request. If you have specific questions about this kind of data, please review your options for support at https://about.gitlab.com/support.</p>
 
-  Regarding this request, we can:
+  <p>Regarding this request, we can:</p>
 
-  - continue the process and provide a report of all in-scope personal data.
-  - close this request with no further action
+  <ul>
+  <li>continue the process and provide a report of all in-scope personal data.</li>
+  <li>close this request with no further action.</li>
+  </ul>
 
-  Please let us know how you would like to proceed. </p>
+  <p>Please let us know how you would like to proceed. </p>
 
   <p>Regards,</p>
-</details>
 
+</details>
 
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [personal_data_access_request](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=personal_data_access_request) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.

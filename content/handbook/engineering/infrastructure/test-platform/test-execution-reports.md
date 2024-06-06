@@ -5,7 +5,6 @@ description: "Data on all E2E test runs"
 
 ## E2E test execution reports
 
-
 This page contains overview of all the automated end-to-end test execution reports across different environments and pipelines.
 
 ## Master

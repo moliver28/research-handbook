@@ -20,4 +20,4 @@ and verify the issue you're about to submit isn't a duplicate.
 <!-- If you can, propose one or more possible solutions. -->
 
 <!-- Please read the priority guidelines before updating the labels: https://handbook.gitlab.com/handbook/content-websites/#priority -->
-/label ~"Handbook::Operations" ~"priority::4"
+/label ~"Handbook::Operations" ~"hb-priority::4"

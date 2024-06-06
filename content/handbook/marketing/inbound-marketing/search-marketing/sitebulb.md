@@ -20,7 +20,7 @@ Access is limited based on the amount of licenses we've purchased. To request ac
 
 ## Use
 
-The inbound marketing team are the primary business owners and users of Sitebulb as it is used to auditing our marketin site (`about.gitlab.com`). 
+The inbound marketing team are the primary business owners and users of Sitebulb as it is used to auditing our marketin site (`about.gitlab.com`).
 
 ## Training
 

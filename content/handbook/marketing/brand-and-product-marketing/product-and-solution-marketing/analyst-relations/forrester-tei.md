@@ -39,7 +39,7 @@ This study looked at the cost savings and business benefits of enterprises using
 | [**Impactful Metrics & Quotes from the TEI & Customer Case Studies for GitLab Team Members (slides)**](https://docs.google.com/presentation/d/1qGYIf_5L-gZkROLSVqwo8OVDFYqB-qG8NBQ8YHx2ZQY/edit?usp=sharing) | [**Gated landing page link to the TEI study to share with anyone**](https://about.gitlab.com/resources/report-forrester-tei/) |
 | [**DevOps.com Article on the Forrester TEI of GitLab**](https://devops.com/gitlab-makes-economic-case-for-devops-platform/) | [**GitLab Blog Article on the TEI**](https://about.gitlab.com/blog/2020/07/29/forrester-tei/) |
 
-## How to use the TEI Study (Sales):
+## How to use the TEI Study (Sales)
 
 Introduce early in your conversations with prospects and customers to add 3rd party validation credibility and jumpstart business justification conversations.
 
@@ -63,7 +63,7 @@ The composite (model) organization created based on the interviewed customer set
 
 This TEI™ study explicitly incorporated the impact of costs into the model based on actual customer experiences, including Licensing costs, Implementation and ongoing management costs, and training costs.
 
-### Summarized quantified benefits include:
+### Summarized quantified benefits include
 
 - 407% Return of Investment (ROI)
 - 87% improved development and delivery efficiency (reduced time), resulting in over $23 Million in savings
@@ -122,6 +122,6 @@ A: Your Industry Analyst Relations team ([Handbook Page](/handbook/marketing/bra
 - **Keep the conversation focused on our own TEI study** - To minimize confusion and maximize the use of our customer and prospective customer's time we should keep focus on our TEI study, model, and potential results. We should feel comfortable enough with our own study to be able to contrast/highlight the differences between a competitior's TEI or similar study if it comes up, we should be aware that they may exist, but we should not assume everyone understands, is familiar with, or is even aware of a competitior's TEI or similar study.
 - **ROIs are unique** - We should remember and help those we have the opportunity to discuss our TEI study with that ROI’s are not all the same, they are not interchangable - you can’t and shouldn’t just compare one ROI figure directly to another as they won’t be based on the same data, the same assumptions, the same constraints.
 - **Emphasize the important qualities of our TEI study** - We should be quick, comfortable, and confident to draw attention to key qualities of our TEI study that enhance both its credibility and its usefulness. Doing so makes the lack of these qualities in other's studies all the more apparent.
-    - **Depth & Breadth:** The depth and breadth of our study (spanning 3 Use Cases - Version Control & Collaboration/SCM, CI, and CD) is objectively greater than most - we cover more and deeper, than many.
-    - **Realistic Costs:** Our study takes into account realistic costs like implementation, training, ongoing maintenance requirements that our interviewed customers actually experienced - many studies do not or only do so minimally, leading to unrealistic expectations and disappointment.
-    - **Consistent Customer Sample:** Our sample of customers (ours range from 1,600-4,000 users - a good, medium range for an enterprise investment, with similar experiences) is reasonably consistent, resulting, in our opinion, to **better analysis, a better model, and ultimately better results for our customers.**
+  - **Depth & Breadth:** The depth and breadth of our study (spanning 3 Use Cases - Version Control & Collaboration/SCM, CI, and CD) is objectively greater than most - we cover more and deeper, than many.
+  - **Realistic Costs:** Our study takes into account realistic costs like implementation, training, ongoing maintenance requirements that our interviewed customers actually experienced - many studies do not or only do so minimally, leading to unrealistic expectations and disappointment.
+  - **Consistent Customer Sample:** Our sample of customers (ours range from 1,600-4,000 users - a good, medium range for an enterprise investment, with similar experiences) is reasonably consistent, resulting, in our opinion, to **better analysis, a better model, and ultimately better results for our customers.**

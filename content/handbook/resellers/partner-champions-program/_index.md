@@ -8,7 +8,7 @@ title: "GitLab Partner Champions Program"
 
 The GitLab Partner Champions Program will empower, support, reward, and recognize members of the GitLab Partner community who champion great customer outcomes based on the GitLab DevSecOps platform.
 
-# GitLab Champions: Advocating for Shared Success
+## GitLab Champions: Advocating for Shared Success
 
 GitLab Champions enlists, supports, rewards, and recognizes members of the GitLab Partner community who make outstanding contributions to GitLab and our community around the globe .
 [Become a GitLab Champion](https://docs.google.com/forms/d/e/1FAIpQLSdLonA8F4Msz8wujNeOYKwkC0ohjUamgv4ZH3FNgC2MQHgBzA/viewform?subject=GitLab%20Heroes%20Application&body)
@@ -46,6 +46,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 **- Training and Certification Opportunities:** Benefit from training and certification programs that can enhance your expertise in GitLab, making you become more valuable asset to your partner organization, GitLab certifications vouchers will be provided to the champions so that they can keep their technical knowledge updated in GitLab with no extra cost
 
 ## Who is the Right Candidate for the Program?
+
 **- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](https://about.gitlab.com/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 
 **- Passion for GitLab:** Genuine passion for GitLab and a desire to drive practice building within the partner organization.
@@ -77,3 +78,12 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 **- GitLab Publications:** Participate in the GitLab community by contributing at least two artifacts annually, such as blogs, videos, or whitepapers.
 
 **- GitLab Community Support:** When possible attend GitLab Champions regional social events (dinners, meetups, gatherings).
+
+## Internal Champion Approval and Onboarding
+
+1. Program Manager: Monitor the Champions Nomination form for new applicants
+1. Partner Support: For new Nominees, set the "GitLab Champion" user field in Impartner to "Nominated".
+1. Program Manager: Gain approval for the addition of new champion applicant
+1. Program Manager: Once approval is granted, notify the Sponsor GitLab SA to begin onboarding the new Champion.
+1. Sponsor GitLab SA: Invite the new Champion via email address to be a `Developer` member of the [https://gitlab.com/gitlab-partners-public/gitlab-champions](https://gitlab.com/gitlab-partners-public/gitlab-champions) group.
+1. Sponsor GitLab SA: Create an onboarding issue for the new Champion, and assign users appropriately to handle the tasks in the issue

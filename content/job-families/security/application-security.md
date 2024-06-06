@@ -17,7 +17,7 @@ extra_js:
   <iframe src="https://www.youtube.com/embed/DgJhvait4gI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-*[Andrew Kelly](/handbook/company/team/#ankelly), one of our AppSec team managers talks about his experience here at GitLab, including what makes GitLab a unique and exciting place to learn and grow.*
+*[Andrew Kelly](/handbook/company/team/#ankelly), one of our former AppSec team managers talks about his experience here at GitLab, including what makes GitLab a unique and exciting place to learn and grow.*
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/5RYc0KqX48Q" frameborder="0" allowfullscreen="true"> </iframe>

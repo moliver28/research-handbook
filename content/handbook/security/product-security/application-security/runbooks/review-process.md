@@ -5,7 +5,7 @@ description: "This review template is tailored to application security reviews o
 
 ## :warning: Prioritization Note
 
-[As of 2023-11-02, AppSec is only prioritizing P1 AppSec reviews and threat models](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues/475#note_1632226713). This does not mean P2 or P3 AppSec reviews or threat model requests can't be submitted, but please understand that due to capacity limitations we will only be able to prioritize P1 reviews. Reach out to us in the #sec-appsec Slack channel if you have any questions or concerns.
+[As of 2023-11-02, AppSec is only prioritizing P1 AppSec reviews and threat models](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/475#note_1632226713). This does not mean P2 or P3 AppSec reviews or threat model requests can't be submitted, but please understand that due to capacity limitations we will only be able to prioritize P1 reviews. Reach out to us in the #sec-appsec Slack channel if you have any questions or concerns.
 
 ## Review preparation
 
@@ -66,7 +66,7 @@ manner.
 ### Preparation Output
 
 Output of the preparation step should be captured in the review issue using the
-`Preparation` section in the [issue template](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews/-/tree/master/.gitlab/issue_templates/AppSec%20Review.md)(internal link). The table of to-be-tested in-scope
+`Preparation` section in the [issue template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/tree/master/.gitlab/issue_templates/AppSec%20Review.md)(internal link). The table of to-be-tested in-scope
 items should be kept up to date whenever a test item has been addressed. The
 coverage percentage should be estimated and noted in the according column as
 well. This table might be a high-level overview only but should contain all
@@ -114,7 +114,7 @@ documented as a finding during the review process.
 ### Conclusion
 
 When the review is done a conclusion section should be added as a comment to
-the issue using the `Conclusion` section in the [issue template](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews/-/tree/master/.gitlab/issue_templates/AppSec%20Review.md).
+the issue using the `Conclusion` section in the [issue template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/tree/master/.gitlab/issue_templates/AppSec%20Review.md).
 
 The conclusion section should contain a brief summary of the findings,
 potentially highlighting any critical findings. When the review process itself
@@ -132,7 +132,7 @@ review steps which did not produce a finding should be noted as well.
 #### Findings
 
 The findings section should contain a list of all findings made during the
-review. The [`finding_table.rb`](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews/-/tree/master/tools/finding_table.rb) script will try to
+review. The [`finding_table.rb`](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/tree/master/tools/finding_table.rb) script will try to
 pre-populate a table for this. The `Remediation` column still needs to be
 filled out manually to point to the accordin remediation MRs or issues.
 

@@ -31,7 +31,7 @@ In an effort to improve data quality at GitLab, the Central Data Team is creatin
 
 1. The DRI of the epic can validate that the newly linked issues are related.
 
-1. If there is no epic opened that addresses the problem, then the issue requires further validation to determine if a governance plan is needed. If the issue relates to one of the detection rules [in a Data Quality Scorecard Detection framework, which is coming in the future], then the triager can refer the issue to the R&D Data Fusion Team manager for next steps. If the issue does not relate to one of the detection rules, then the triager should follow the business as usual triage process.  
+1. If there is no epic opened that addresses the problem, then the issue requires further validation to determine if a governance plan is needed. If the issue relates to one of the detection rules [in a Data Quality Scorecard Detection framework, which is coming in the future], then the triager can refer the issue to the R&D Data Fusion Team manager for next steps. If the issue does not relate to one of the detection rules, then the triager should follow the business as usual triage process.
 
 **Governance Plan Runbook**
 
@@ -186,8 +186,6 @@ There have been a number of issues raised to the CS Ops team related to customer
 
 <summary><b>6. Quality Standards and Monitoring</b></summary>
 
-
-
 **Quality Standards**
 
 A SaaS section of a data quality dashboard for Instances w/out Subscriptionsshould provide the following metrics:
@@ -273,9 +271,9 @@ The Data Quality System is composed of **Scorecards**, which help people monitor
 - **Data Quality Scorecard** - The Data Quality Scorecard is a dashboard used by Data Customers and Data Creators. The Dashboard displays the overall quality of a subject area as measured by the status of individual Detection Rules for the subject area. Specific and independent Data Quality Scorecards can and will be created for specific purposes. For example, we are actively developing a "Data Quality Scorecard - Product Usage Data" and anticipate developing a separate "Data Quality Scorecard - Zuora" to measure quality of our Zuora billing system.
 
 - **Data Quality Detection Rule** - A Data Quality Detection Rule is a SQL-based test to check the quality of data in a field or row versus a pre-defined condition. To run a Detection Rule, data must already exist in the Enterprise Data Warehouse. Detection Rules are enumerated and only one test is expressed per SQL statement. Examples of Detection Rules are:
-     - Detection Rule 1: Inaccurate Data - State Field in Account Location record
-     - Detection Rule 2: Duplicate Data - Account Name in Account Master record
-     - Detection Rule 3: Missing Data - License Key should exist for new Usage Ping submissions
+  - Detection Rule 1: Inaccurate Data - State Field in Account Location record
+  - Detection Rule 2: Duplicate Data - Account Name in Account Master record
+  - Detection Rule 3: Missing Data - License Key should exist for new Usage Ping submissions
 
 - **Operational Process** - Every week, the Detection Rule “Batch” is run and output is saved in a persistent table. The persistent table includes a run date, detection rule identifier, and transaction id to enable linking to the source system. The persistent table is the basis from which the Scorecard is generated.
 
@@ -284,7 +282,8 @@ The Data Quality System is composed of **Scorecards**, which help people monitor
 **Purpose** - Product Data Quality Scorecard quantifies the Data Quality Issues with respect to the Product Usage Data.
 
 The Scorecard Dashboard contains visualizations that display the following information:
- - **Pass/Fail Percentage** of each of the Product Data Quality Detection rules. The Percentage of records passed is calculated by taking the Percentage of total number of records that have satisfy the condition or the data quality detection rule. The formula used for the Calculation is:
+
+- **Pass/Fail Percentage** of each of the Product Data Quality Detection rules. The Percentage of records passed is calculated by taking the Percentage of total number of records that have satisfy the condition or the data quality detection rule. The formula used for the Calculation is:
 **((passed_record_count/processed_record_count)*100)**
 
 Likewise, the Percentage of records failed is calculated by taking the percentage of total number of records that have failed to satisfy the condition or the data quality detection rule.
@@ -296,9 +295,9 @@ IF the **percentage of records passed > threshold limit** then the Status of Det
 
 IF the **percentage of records passed < threshold limit** then the Status of Detection rule is **Red**. For example, if the percentage of records passed is 40%(which is less than 50%), it means that 60% of records have failed to satisfy the Data Detection Rule/condition. And they need attention and the data needs to be fixed by the Source teams.
 
- - **Trend Analysis Chart** indicates the change in Pass/Fail percentage of each of the Data Quality Detection Rules over the period of a week.
+- **Trend Analysis Chart** indicates the change in Pass/Fail percentage of each of the Data Quality Detection Rules over the period of a week.
 
- - **Summarized Counts for each day** shows the Total number of processed rows for each of the Data Quality Detection Rule along with the Number of rows that Satisfy(pass) the rule/condition and that also do not satisfy(fail) the rule/condition for each day that is tracked by the Rule Run date.
+- **Summarized Counts for each day** shows the Total number of processed rows for each of the Data Quality Detection Rule along with the Number of rows that Satisfy(pass) the rule/condition and that also do not satisfy(fail) the rule/condition for each day that is tracked by the Rule Run date.
 
 ### Data Pipeline Health Dashboard
 
@@ -323,7 +322,7 @@ This dashboard captures the percentage of data availability for Product Usage Me
   - Percentage of Missing Values: Percentage of how many records are missing this data
   - Data Source: whether the data comes from source such as database, redis, redis_hll, or system
   - Description: Definition of the metric
-  - Performance Indicator Type Flags: whether the metric IS UMAU/SMAU/GMAU/PAID GMAU. Please refer to the [xMAU Analysis page](/handbook/business-technology/data-team/data-catalog/xmau-analysis/) for more information
+  - Performance Indicator Type Flags: whether the metric IS UMAU/SMAU/GMAU/PAID GMAU. Please refer to the [xMAU Analysis page](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/xmau-analysis/) for more information
 - Refresh runs on a weekly cadence
 
 ### Quick Links
@@ -338,7 +337,7 @@ The Data Quality Detection Rules that have currently been identified for Product
 |4|Subscriptions with Self-Managed plans having License Start dates in the future||
 |5|Subscriptions with Self-Managed plans having License Start date greater than License Expire date||
 |6|Expired License IDs with Subscription End Dates in the Past||
-|7|SaaS Subscriptions with missing Namespace IDs|
+|7|SaaS Subscriptions with missing Namespace IDs||
 
 ## Additional Resources
 
@@ -368,11 +367,11 @@ Our own [Postgres_Pipeline](https://gitlab.com/gitlab-data/analytics/tree/master
 
 We use dbt for all transformations in the warehouse. [We require tests on all new dbt models](/handbook/business-technology/data-team/#transformation) and regularly update tests as needed. These tests, as well as the extraction tests and checks, should be written in line with the data quality philosophy described above.
 
-
 ### Data Quality Incidents Resulting in Permanently Lost Data
 
 | Issue | Impacted Data Source | Impact | Impact Window |
 | --- | --- | --- | --- |
 | [Snowplow endpoint certificate expired for a day](https://gitlab.com/gitlab-org/gitlab/-/issues/416991) | Snowplow | No Snowplow events recorded for most of one day | `2023-07-04` |
 | [Redis/RedisHLL events don't get triggered](https://gitlab.com/gitlab-org/gitlab/-/issues/442875) | Automated GitLab.com Service Ping | GitLab.com customers will underreport values for Redis metrics at the instance level | `2024-02-15` to `2024-03-05` for 7d metrics; `2024-02-15` to `2024-03-26` for 28d metrics |
-| [Missing Service Pings for version <= 12.0](https://gitlab.com/gitlab-org/gitlab/-/issues/443639) | SM Service Ping | Installations on v12.0 or less were not sending Service Pings | `2024-02-12` to `insert date` |
+| [Missing Service Pings for version <= 12.0](https://gitlab.com/gitlab-org/gitlab/-/issues/443639#note_1887042557) | SM Service Ping | All installations on v12.0 or earlier were not sending Service Pings | `2024-02-12` to `2024-04-28` |
+| [Service Pings not mapped to country Feb 2023 - June 2023](https://gitlab.com/gitlab-data/analytics/-/issues/15980) | SM Service Ping | Service pings from `2023-02-21` to `2023-06-21` have a null `dim_location_country_id` | `2023-02-21` to `2023-06-21` |
