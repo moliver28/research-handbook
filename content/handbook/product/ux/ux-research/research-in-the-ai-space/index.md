@@ -35,7 +35,7 @@ AI solutions themselves won’t reveal the user problem they are meant to solve.
 
 - Take a look at the existing research and JTBD for the problem being solved. Consider whether it's a good for for an AI tool. Tasks that are tedious, repetitive, error-prone, boring, or low stakes are good candidates for AI tools. 
 - Then, validate your problem statements through a quantitative [online survey](/handbook/product/ux/ux-research/surveys/), or existing analytics or other data, to understand:
-   - The frequency of users encountering this problem
+  - The frequency of users encountering this problem
    - The importance of addressing the problem
 - There are other parameters you can include in your survey, such as:
    - How users currently solve the problem
