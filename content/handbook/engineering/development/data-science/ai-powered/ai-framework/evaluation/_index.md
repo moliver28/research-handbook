@@ -58,7 +58,7 @@ Edit the `.env` files to include your API keys and tokens.
 1. Ensure you are running GDK in SaaS mode, if not then `export GITLAB_SIMULATE_SAAS=1` in your terminal then `gdk restart`
 1. Navigate to Admin Area > Settings > [General](http://127.0.0.1:3000/admin/application_settings/general) > expand the section on "Account and limit" and go to the section at the bottom titled "Check feature availability on namespace plan" and tick the box to "Allow use of licensed EE features" then "Save"
 1. Navigate to the Admin Area > [Groups](http://127.0.0.1:3000/admin/groups) section, click any group then "Edit" and under "Permissions and group features" change the "Plan" to "Ultimate" and "Save"
-1. Navigate to the group and check the "Duo Chat" button is available  
+1. Navigate to the group and check the "GitLab Duo Chat" button is visible and works  
 1. Insidde your terminal run `gdk rails c` then `Feature.enable(:access_rest_chat)`
 
 ### Step 2: Create and upload your dataset
