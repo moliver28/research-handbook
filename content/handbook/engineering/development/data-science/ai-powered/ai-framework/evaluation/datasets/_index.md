@@ -13,7 +13,7 @@ Creating a dataset tailored to your evaluation needs is a critical step in ensur
 - Define Your Data Requirements:
   - Identify the types of inputs and expected outputs you need for evaluation. For a chat model, this might include various questions and their corresponding expected responses.
 - Prepare Your Data
-  - Create a CSV or JSON file containing your data. Each entry should include the necessary fields such as input questions and expected answers.
+  - Create a CSV file containing your data. Each entry should include the necessary fields such as input questions and expected answers.
 
 #### Example CSV Structure
 
@@ -26,33 +26,6 @@ question,expected_answer
 "Explain quantum physics.","Quantum physics is the branch of physics relating to the very small."
 ```
 
-#### Example JSON Structure
-
-```json
-[
-  {
-    "question": "What's your name?",
-    "expected_answer": "My name is GitLab Bot."
-  },
-  {
-    "question": "How can I reset my password?",
-    "expected_answer": "You can reset your password by going to the login page and clicking on 'Forgot password?'."
-  },
-  {
-    "question": "What is the weather today?",
-    "expected_answer": "I'm sorry, I can't provide weather updates."
-  },
-  {
-    "question": "Tell me a joke.",
-    "expected_answer": "Why did the scarecrow win an award? Because he was outstanding in his field!"
-  },
-  {
-    "question": "Explain quantum physics.",
-    "expected_answer": "Quantum physics is the branch of physics relating to the very small."
-  }
-]
-```
-
 #### Upload Your Dataset to LangSmith
 
 Once your dataset is prepared, follow these steps to upload it to LangSmith:
@@ -60,10 +33,10 @@ Once your dataset is prepared, follow these steps to upload it to LangSmith:
 - Log In to LangSmith:
   - Visit the LangSmith website at `https://smith.langchain.com` and log in with your credentials.
 - Navigate to the Datasets Section:
-  - In the LangSmith dashboard, locate and click on the "Datasets and Experiments" section.
+  - In the LangSmith dashboard, locate and click on the "Datasets & Testing" section.
 - Upload the Dataset:
-  - Click on the “Upload Dataset” button.
-  - Choose your `CSV` or `JSON` file and upload it. Ensure you provide a meaningful name and description for your dataset.
+  - Click on the "+ New Dataset” button.
+  - Choose your `CSV` file and upload it. Ensure you provide a meaningful name and description for your dataset.
 - Verify the Upload:
   - After uploading, verify that the dataset appears in your list of datasets and that the entries are correctly formatted.
 
