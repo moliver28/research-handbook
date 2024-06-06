@@ -4,6 +4,9 @@
 clean:
 	@rm -rf public
 
+lint:
+	markdownlint-cli2 --fix "content/**/*.md"
+
 sync-data:
 	@scripts/sync-data.sh
 
