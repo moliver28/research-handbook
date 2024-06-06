@@ -30,8 +30,8 @@ Have fun!
 
 If you require a license for testing:
 
- - For a **self-managed instance**, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
- - For **GitLab.com**, individual test namespaces with licenses pre-applied have been provisioned as part of your onboarding.
+- For a **self-managed instance**, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
+- For **GitLab.com**, individual test namespaces with licenses pre-applied have been provisioned as part of your onboarding.
 
 Please keep in mind *you can't generate licenses for customers*, only for your own testing purposes.
 

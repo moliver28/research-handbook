@@ -24,17 +24,17 @@ You can skip Steps 3 through 6 below by importing the "Preference Question Block
 
 **Step 3:** Add your preference questions using the 'Multiple Choice' question type
 
-   - Make sure the 'Allow one answer' option is selected
-   - Click on the response item and select the ['Insert Graphic'](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/rich-content-editor/insert-a-graphic/) item from the dropdown
-   - Upload the graphic from your computer by selecting the 'Upload a new Graphic' from your computer
-   - Repeat for each response option
+- Make sure the 'Allow one answer' option is selected
+- Click on the response item and select the ['Insert Graphic'](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/rich-content-editor/insert-a-graphic/) item from the dropdown
+- Upload the graphic from your computer by selecting the 'Upload a new Graphic' from your computer
+- Repeat for each response option
 
 ![Preference Test](preference-test.png)
 
 **Step 4:** Add a question that will help you understand user preferences
 
 - Follow that question with a [Text Entry](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/standard-content/text-entry/) question to understand why participants chose that option.
-   - Example questions:
-     - Why did you prefer that design?
-     - Why did you pick that option?
-     - Why did that option seem like the most [adjective] one?
+  - Example questions:
+    - Why did you prefer that design?
+    - Why did you pick that option?
+    - Why did that option seem like the most [adjective] one?

@@ -257,7 +257,7 @@ It is a requirement for the Commercial Sales Team to tier their accounts using t
 **Example**: It's April 23rd, a new business Mid-Market opportunity is identified for a company at 410 employees and growing at an unknown rate (unclear due to being an agency). The company completed their evaluation with a trial ending this month, there are defined problems initially trying to solve, with some people who have used GitLab before.
 
 - Question for AE and self, what % chance of the purchase occurring in April, May, or June?
-    - 90% April, 10% May
+  - 90% April, 10% May
 
 ## Chorus recordings
 
@@ -666,11 +666,11 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 - If you find themselves thinking 1. “a Partner SA could execute on this customer-requested SA task”, or 2. AEs have customers that could benefit from a “Partner services attach engagement”, reach out on slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) with a Partner engagement request, if possible with a link to the related account or opportunity. A member of the channel team will promptly reach out to learn more about the request, and connect you with a Partner that is pre-qualified to promptly and properly execute on the task at hand, and keep you updated along the way.
 - AEs should lead planning and execution of the joint opportunity/customer pursuit with alignment and support of the partner and GitLab Channel Manager. The plan should be [tracked in SFDC with tasks and action items](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans). Partners should always get an email confirmation of any tasks assigned to them (via AE or Channel Mgr).
 - Channel Managers will engage with AE’s in the following ways:
-    - When a new deal registration arrives in the AE’s pipeline
-    - To review 2-3 Partners for the AE to work with for AE-selected joint customer success motions:
-        - The Channel Manager will bring the possibilities forward during this call
-        - 2 examples of working with Partners are featured in this <b>[this Levelup](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2)</b>
-        - AEs should share their thoughts about prioritizing which Partner activities would be best for which of their customers
+  - When a new deal registration arrives in the AE’s pipeline
+  - To review 2-3 Partners for the AE to work with for AE-selected joint customer success motions:
+    - The Channel Manager will bring the possibilities forward during this call
+    - 2 examples of working with Partners are featured in this <b>[this Levelup](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2)</b>
+    - AEs should share their thoughts about prioritizing which Partner activities would be best for which of their customers
 - In the case of Open partners via distributions, when the opportunity is ready, AE's email `partnersupport@gitlab.com` with the link to the opportunity requesting quote-to-order support (chatter alias coming soon)
 
 #### Resources to learn more about teaming with Channel Partners?

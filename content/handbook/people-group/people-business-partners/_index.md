@@ -19,16 +19,23 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 
 ### People Business Partner Alignments
 
-| Contact | Division - Department |
-|-------------------|------------|
-| Anjali Kaufmann   | G&A: People Group, Finance, LACA  |
-| Denise Parsonage  | Marketing: Awareness, Brand Activation, Campaigns, CMO Executive, Communications, Developer Relations, Content Marketing, Digital Design, Digital Marketing, Field Marketing, Marketing Ops, Partner Marketing, Sales Development, and Search Marketing |
-| Carolyn Bednarz   | Sales: Enterprise Sales  |
-| Carlie Russell    | Sales: Customer Success, Channel and Alliances |
-| Lauren Tepper     | Sales: Commercial Sales, Field Operations   |
-| Giuliana Lucchesi | Product: Product Management and UX; CISO: Security   |
-| Kristina Bullock  | Engineering: CTO, Customer Support, Quality/Infrastructure, Chief of Staff   |
-| Jess Durbin       | Engineering: Core Development and Expansion  |
+Please reach out to your aligned People Business Partner (PBP) (listed aplhabetically by first name) to engage in the following areas:
+
+| Contact | Division or Departments |
+|-------------------|-------------|
+| Anjali Kaufmann   | People Goup |
+| Anjali Kaufmann   | Legal and Corporate Affairs |
+| Anjali Kaufmann   | Finance |
+| Carlie Russell    | Sales - Partners, CSM & Renewals,  Solutions Architecture, Professional Services|
+| Carolyn Bednarz   | Sales - APJ|
+| Giuliana Lucchesi | Product |
+| Giuliana Lucchesi | Security |
+| Jenny Burns       | Sales - EMEA |
+| Jess Durbin       | Engineering - Core Development, Expansion |
+| Kristina Bullock       |Chief of Staff to the CEO|
+| Kristina Bullock  | Engineering - Customer Support, Infrastructure, Quality |
+| Lauren Tepper     | Sales - AMER, Public Sector, Global Digital, Field Operations  |
+| Brandi McDonald | Marketing |
 
 ## How to partner with PBPs to foster high performance in your team
 

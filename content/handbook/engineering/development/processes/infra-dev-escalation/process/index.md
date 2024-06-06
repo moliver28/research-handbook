@@ -161,9 +161,9 @@ year. They are free to choose shifts that are convenient for them, and to
 arrange shifts in blocks if they prefer. A few conditions apply:
 
 - No engineer should be on call for more than 3 shifts in a row (12 hours),
- with 1-2 being the norm
+  with 1-2 being the norm
 - No engineer should take more than 12 shifts (48 hours) per week, with 10
- shifts (40 hours) being the usual maximum.
+  shifts (40 hours) being the usual maximum.
 
 Scheduling and claiming specific shifts is done on the oncall spreadsheet.
 
@@ -180,9 +180,9 @@ Other general exceptions: (i.e. exempted from on-call duty)
 - Distinguished engineers and above.
 - Intern and Associate engineers.
 - Where the law or regulation of the country/region poses restrictions. According to legal department -
-    - There are countries with laws governing hours that can be worked.
-    - This would not be an issue in the U.S.
-    - At this point we would only be looking into countries where 1) we have legal entities, as those team members are employees or 2) countries where team members are hired as employees through one of our PEO providers. For everyone else, team members are contracted as independent contractors so general employment law would not apply.
+  - There are countries with laws governing hours that can be worked.
+  - This would not be an issue in the U.S.
+  - At this point we would only be looking into countries where 1) we have legal entities, as those team members are employees or 2) countries where team members are hired as employees through one of our PEO providers. For everyone else, team members are contracted as independent contractors so general employment law would not apply.
 - Team members participating in another on-call rotation. Examples of this include a team specific rotation for a service owned by that team or in the [Engineering Incident Manager rotation](/handbook/engineering/on-call/#engineering-incident-manager).
 
 The eligibility is maintained in this [team members list(internal only)](https://drive.google.com/drive/search?q=%22Development-Team-BE%22) and part of the spreadsheet is refreshed automatically by our [automation script](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb).
@@ -207,8 +207,8 @@ engineers. The assignment should take into account:
 - Respecting the timezones engineers are based in
 - Ensuring assigned on-call shifts fit between the hours of 8am-8pm local time for all team members in general, and 7am-9pm for engineers in the US Pacific Time timezone (approved in [this issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/9638#note_1035704658)).
 - Optimize for better alignment of shift hours
-    - When assigning the first Friday shifts (00:00 UTC/Saturday 1pm NZT/ 4-6pm PST). Please favour/allocate these shifts to AMER engineers within their working hours.
-    - When assigning the final Sunday shift of a typical weekend 20:00-00:00 UTC/Sunday Monday NZT, choose a New Zealand based engineer unless it is a public holiday in New Zealand.
+  - When assigning the first Friday shifts (00:00 UTC/Saturday 1pm NZT/ 4-6pm PST). Please favour/allocate these shifts to AMER engineers within their working hours.
+  - When assigning the final Sunday shift of a typical weekend 20:00-00:00 UTC/Sunday Monday NZT, choose a New Zealand based engineer unless it is a public holiday in New Zealand.
 
 In general, engineers who aren't signing up to cover on-call shifts will be
 the ones who end up being assigned shifts that nobody else wants to cover,
@@ -219,28 +219,28 @@ There is additional information regarding weekend shifts, which can be found in 
 #### Relay Handover
 
 - Since the engineers who are on call may change frequently, responsibility
- for being available rests with them. Missing an on-call shift is a serious
- matter.
+  for being available rests with them. Missing an on-call shift is a serious
+  matter.
 - In the instance of an ongoing escalation no engineer should finish
- their on-call duties until they have paged and confirmed the engineer
- taking over from them is present, or they have notified someone who
- is able to arrange a replacement. They do not have to find a
- replacement themselves, but they need confirmation from someone that
- a replacement will be found.
+  their on-call duties until they have paged and confirmed the engineer
+  taking over from them is present, or they have notified someone who
+  is able to arrange a replacement. They do not have to find a
+  replacement themselves, but they need confirmation from someone that
+  a replacement will be found.
 - In the instance of an ongoing escalation being handed over to
- another incoming on-call engineer the current on-call engineers
- summarize full context of on-going issues, such as but not limited to
-    - Current status
-    - What was attempted
-    - What to explore next if any clue
-    - Anything that helps bring the next on-call engineer up to speed quickly
+  another incoming on-call engineer the current on-call engineers
+  summarize full context of on-going issues, such as but not limited to
+  - Current status
+  - What was attempted
+  - What to explore next if any clue
+  - Anything that helps bring the next on-call engineer up to speed quickly
 
-      These summary items should be in written format in the following locations:
+    These summary items should be in written format in the following locations:
 
-        - *Existing* threads in [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4)
-        - Incident tracking issues
+    - *Existing* threads in [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4)
+    - Incident tracking issues
 
-      This shall be completed at the end of shifts to hand over smoothly.
+    This shall be completed at the end of shifts to hand over smoothly.
 - For current Infrastructure issues and status, refer to [Infra/Dev Triage](https://gitlab.com/groups/gitlab-org/-/boards/1193197?&label_name[]=gitlab.com&label_name[]=infradev) board.
 - For current Production incident issues and status, refer to [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident) board.
 - If an incident is ongoing at the time of handover, outgoing engineers may
@@ -280,8 +280,8 @@ The coordinators should assign themselves to the corresponding monthly issue fro
 The coordinator will:
 
 1. Remind engineers to sign up, by:
-    - Posting reminders to the [#development](https://app.slack.com/client/T02592416/C02PF508L) and [#backend](https://app.slack.com/client/T02592416/C8HG8D9MY) channels in Slack
-    - Asking managers in [#eng-managers](https://app.slack.com/client/T02592416/CU4RJDQTY) to remind team-members in 1-1s
+   - Posting reminders to the [#development](https://app.slack.com/client/T02592416/C02PF508L) and [#backend](https://app.slack.com/client/T02592416/C8HG8D9MY) channels in Slack
+   - Asking managers in [#eng-managers](https://app.slack.com/client/T02592416/CU4RJDQTY) to remind team-members in 1-1s
 1. Assign folks to unfilled slots when needed. Use purple text in the spreadsheet to indicate this was an assigned slot.
 1. Coordinate temporary changes or special requests that cannot be
    resolved by engineers themselves.  Fix any schedules that conflict with local labor law.
@@ -342,8 +342,8 @@ When responding to an Infrastructure Incident, utilize the below procedure as gu
 1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#incident-<ISSUE NUMBER>`
 1. Work with the EOC to determine if a known code path is problematic
 
-  - Should the knowledge of this be in your domain, continue working with the Engineer to troubleshoot the problem
-  - Should this be something you may be unfamiliar with, attempt to determine code ownership by team - Knowing this will enable us to see if we can bring online an Engineer from that team into the Incident
+- Should the knowledge of this be in your domain, continue working with the Engineer to troubleshoot the problem
+- Should this be something you may be unfamiliar with, attempt to determine code ownership by team - Knowing this will enable us to see if we can bring online an Engineer from that team into the Incident
 
 1. Work with the Incident Manager to ensure that the Incident issue is assigned to the appropriate Engineering Manager - if applicable
 
@@ -353,9 +353,9 @@ You can read about the process workflow [here](https://handbook.gitlab.com/handb
 
 ### Bot (Pagerslack) Usage
 
- - In order to use the bot, type `/devon-call incident-issue-url` to trigger the escalation process.
- - Message the bot privately with `top` to show the top 25 members that are next in the escalation queue
- - Message the bot privately with `position` to see your position in the queue. The higher the number, the less probabilities to get pinged.
+- In order to use the bot, type `/devon-call incident-issue-url` to trigger the escalation process.
+- Message the bot privately with `top` to show the top 25 members that are next in the escalation queue
+- Message the bot privately with `position` to see your position in the queue. The higher the number, the less probabilities to get pinged.
 
 *Please report any problems by creating an issue in the [pagerslack project](https://gitlab.com/jameslopez/pagerslack/-/issues).*
 

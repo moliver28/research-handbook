@@ -111,16 +111,16 @@ Once the Common Screener is set up, there are a few more steps to follow.
 
 1. Find an existing and active Common Screener Coordination Issue (see table below) that you think would be a good fit.
 
-| Common Screener | Types of Studies |
-| ------ | ------ |
-|   [Benchmark Loop Stages Common Screener](https://gitlab.com/gitlab-org/ux-research/-/issues/2246)     |   60, 90 or 120 min Zoom sessions  or moderated usability studies   |
-|   [2023 CI/CD Solution Validation Studies](https://gitlab.com/gitlab-org/ux-research/-/issues/2284)   |   Surveys, 20 min online unmoderated studies, 30 or 60 min interviews or moderated usability sessions  |
-|   [Problem Validation + Foundational Research 2023](https://gitlab.com/gitlab-org/ux-research/-/issues/1894)   |  30 or 60 min Zoom interviews, 60 min interviews, 30 or 60 min task based moderated usability studies   |
+   | Common Screener | Types of Studies |
+   | ------ | ------ |
+   |   [Benchmark Loop Stages Common Screener](https://gitlab.com/gitlab-org/ux-research/-/issues/2246)     |   60, 90 or 120 min Zoom sessions  or moderated usability studies   |
+   |   [2023 CI/CD Solution Validation Studies](https://gitlab.com/gitlab-org/ux-research/-/issues/2284)   |   Surveys, 20 min online unmoderated studies, 30 or 60 min interviews or moderated usability sessions  |
+   |   [Problem Validation + Foundational Research 2023](https://gitlab.com/gitlab-org/ux-research/-/issues/1894)   |  30 or 60 min Zoom interviews, 60 min interviews, 30 or 60 min task based moderated usability studies   |
 
 1. Tag the owner of the Common Screener Coordination issue (linked above) and let them know:
 
-  - what study you’d like to recruit for
-  - the Personas you are looking for
-  - when you’d like to start recruiting participants and the number of participant you are looking for
+   - what study you’d like to recruit for
+   - the Personas you are looking for
+   - when you’d like to start recruiting participants and the number of participant you are looking for
 
 1. The owner of the coordination issue will ask you to fill out the Common Screener as if you were your ideal participant and will create a filter that the ReOps team can use to help you shortlist participants.

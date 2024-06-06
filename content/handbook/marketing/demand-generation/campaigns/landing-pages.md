@@ -1,17 +1,10 @@
 ---
-
 title: "Landing Page Creation"
 description: "Overview of Marketo landing pages at GitLab. This page will be moved under Demand Generation."
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
-
 
 ## Best Practices
 
@@ -25,7 +18,7 @@ twitter_creator: "@gitlab"
 1. Use plain, value-oriented and action-oriented language
 1. Use "first date" content to put our best foot forward
 
-  * Let's not tell them about how cool we are and how amazing our stamp collection is. Make it about them, and drive the desired action of a form fill.
+   * Let's not tell them about how cool we are and how amazing our stamp collection is. Make it about them, and drive the desired action of a form fill.
 
 ## Landing Page URL Best Practices
 
@@ -79,7 +72,7 @@ _Curious how to estimate when a landing page due date should be set? We've tried
 1. Use the approved copy that meets the character limits to update the landing page. Please ensure your copy meets [conversion best practices](/handbook/marketing/demand-generation/campaigns/landing-pages/#landing-page-conversion-best-practices).
 1. When the landing page is finished, click `Preview` to ensure all tokens are correctly applied and the page appears as intended (copy, design, etc). Click `Preview Actions` > `Approve and Close`.
 
-  * Note: if you see tokens instead of the desired text, you may need to troubleshoot. Make sure your token code in the page exactly matches the Marketo program token name.
+   * Note: if you see tokens instead of the desired text, you may need to troubleshoot. Make sure your token code in the page exactly matches the Marketo program token name.
 
 1. Update URL by clicking `Landing Page Actions` > `URL Tools` > `Edit URL setting`. The new URL should reflect our [landing page naming convention](/handbook/marketing/demand-generation/campaigns/landing-pages/#landing-page-naming-convention)
 1. Edit any related emails, such as `confirmation` or `sales alert` and approve the edits
@@ -141,8 +134,8 @@ This standardizes our page names for use in reporting and systems such as our AB
 ## Landing page QA review steps
 
 * Go to the page you are going to test:
-    * For Marketo landing pages, open an incognito window and go to the URL of the page you are testing
-    * For landing pages in an MR, when the pipeline approves, go to the review app and navigate to the page you are testing
+  * For Marketo landing pages, open an incognito window and go to the URL of the page you are testing
+  * For landing pages in an MR, when the pipeline approves, go to the review app and navigate to the page you are testing
 * Check for spelling and grammatical errors (note: these should ideally be caught during copy review prior to landing page creation)
 * Check that [conversion best practices](/handbook/marketing/demand-generation/campaigns/landing-pages/#landing-page-conversion-best-practices) are met
 * Fill out the form and ensure all flow steps in Marketo trigger appropriately (i.e. you receive confirmation email, interesting moment applied, program membership updated, alert sent if applicable, etc.)

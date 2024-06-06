@@ -31,8 +31,8 @@ The Code Review group is responsible for the following product categories:
 
 ### Category performance indicators
 
- - [Code Review Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---category-mau---unique-users-using-merge-requests) (Internal Only)
- - [Editor Extension Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---editor-extension---category-mau) (Internal Only)
+- [Code Review Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---category-mau---unique-users-using-merge-requests) (Internal Only)
+- [Editor Extension Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---editor-extension---category-mau) (Internal Only)
 
 ## Work
 

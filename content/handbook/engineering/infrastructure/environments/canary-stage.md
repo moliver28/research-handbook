@@ -127,13 +127,13 @@ Some examples for the most commonly used environments are as follows
 
 Feature flags on staging and staging-canary:
 
-  * Enable:  `/chatops run feature set feature_flag_name true --staging`
-  * Disable: `/chatops run feature set feature_flag_name false --staging`
+* Enable:  `/chatops run feature set feature_flag_name true --staging`
+* Disable: `/chatops run feature set feature_flag_name false --staging`
 
 Feature flags on production and production-canary:
 
-  * Enable `/chatops run feature set feature_flag_name true`
-  * Disable `/chatops run feature set feature_flag_name false`
+* Enable `/chatops run feature set feature_flag_name true`
+* Disable `/chatops run feature set feature_flag_name false`
 
 ### How do I get console access to the canary stage?
 

@@ -112,7 +112,7 @@ After creating the merge request, you now have 3 linked items that all relate on
 ## Task E. Verify changes in a merge request
 
 1. On the merge request page, locate the **Assignee** section in the upper right-hand corner (you might have to click the double arrow at the top right of
-the screen to expand the pane). Ensure the merge request is assigned to yourself. If it is not, click **Assignees > Edit** and click your username from the resulting list. Click **Apply**.
+the screen to expand the pane). Ensure the merge request is assigned to yourself. If it is not, click **Assignees > Edit** and click your username from the resulting list. Click away from the list to apply the change.
 
 1. Click the **Changes** tab directly below the merge request title.
 

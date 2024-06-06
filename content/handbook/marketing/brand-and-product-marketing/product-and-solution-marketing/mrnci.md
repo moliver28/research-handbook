@@ -35,15 +35,15 @@ title: "Market Strategy and Insights"
 
 **Why We Do It**
 
- - Simplify Selling
- - Help Build Better Products
- - Improve the Customer Experience and Value Realized
+- Simplify Selling
+- Help Build Better Products
+- Improve the Customer Experience and Value Realized
 
 ### Which Market Strategy and Insights team member should I contact?
 
-  - Listed below are areas of responsibility within the Market Research and Customer Insight team:
+- Listed below are areas of responsibility within the Market Research and Customer Insight team:
 
-    - [Ryan](/handbook/company/team/#ryanragozzine), Staff Analyst Relations Manager
-    - [Fiona](/handbook/company/team/#fokeeffe), Senior Reference Program Manager; Regional Lead: EMEA and APAC; Program Lead: Customer Advisory Board, Customer Speaking Requests, Industry Analyst Relations Requests
-    - [Traci](/handbook/company/team/#tracirobinson), Principal Market Insights Manager
-    - [Laura](/handbook/company/team/#lclymer), Director, Market Strategy and Insights
+  - [Ryan](/handbook/company/team/#ryanragozzine), Staff Analyst Relations Manager
+  - [Fiona](/handbook/company/team/#fokeeffe), Senior Reference Program Manager; Regional Lead: EMEA and APAC; Program Lead: Customer Advisory Board, Customer Speaking Requests, Industry Analyst Relations Requests
+  - [Traci](/handbook/company/team/#tracirobinson), Principal Market Insights Manager
+  - [Laura](/handbook/company/team/#lclymer), Director, Market Strategy and Insights

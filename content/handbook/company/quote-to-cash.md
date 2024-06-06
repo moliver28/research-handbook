@@ -403,8 +403,9 @@ See the [Architecture Blueprint](https://docs.gitlab.com/ee/architecture/bluepri
 [Align CustomersDot Orders to Zuora objects](https://gitlab.com/groups/gitlab-org/-/epics/9748)
 
 - [Phase 1: Implement Zuora Cache Models](https://gitlab.com/groups/gitlab-org/-/epics/11751)
-- [Phase 2: Utilize Zuora Cache Models](https://gitlab.com/groups/gitlab-org/-/epics/11752)
-- [Phase 3: Replace CDot Order with Subscription](https://gitlab.com/groups/gitlab-org/-/epics/11753)
+- [Phase 2: Implement Zuora Cache Sync and Backfill](https://gitlab.com/groups/gitlab-org/-/epics/13630)
+- [Phase 3: Utilize Zuora Cache Models](https://gitlab.com/groups/gitlab-org/-/epics/11752)
+- [Phase 4: Replace CDot Order with Subscription](https://gitlab.com/groups/gitlab-org/-/epics/11753)
 
 ### Snowflake Data Warehouse and dbt (data build tool)
 

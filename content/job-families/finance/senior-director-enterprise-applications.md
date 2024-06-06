@@ -29,11 +29,11 @@ CRM Systems, Manager is a [grade 8](https://handbook.gitlab.com/handbook/total-r
 - Bachelor’s degree in Computer Science, Information Technology, or a related discipline. A Master’s degree is advantageous.
 - 5-7 years of experience implementing, configuring, customizing and integrating SaaS software for Lead to Cash Eg: Salesforce, Zuora Billing, Zuora Revenue, DocuSign CLM, Netsuite, Xactly etc.
 - Application specific skills :
-    - Salesforce : Development experience with advanced Salesforce.com development tools and techniques (e.g. LWC, Apex Class, Triggers, Aura Components,  Lightning Design System (LDS), Visualforce Pages, JavaScript, SOAP and REST APIs, SOQL, SOSL, Platform Events, Flows,
+  - Salesforce : Development experience with advanced Salesforce.com development tools and techniques (e.g. LWC, Apex Class, Triggers, Aura Components,  Lightning Design System (LDS), Visualforce Pages, JavaScript, SOAP and REST APIs, SOQL, SOSL, Platform Events, Flows,
       Profiles, Roles, Lightning Pages etc.,)
-    - Billing Systems: CPQ, Billing, Revenue (Zuora, NetSuite, etc.)
-    - CLM: DocuSign CLM, Ironclad
-    - Middleware : Workato/Mulesoft/Dell Boomi etc.,
+  - Billing Systems: CPQ, Billing, Revenue (Zuora, NetSuite, etc.)
+  - CLM: DocuSign CLM, Ironclad
+  - Middleware : Workato/Mulesoft/Dell Boomi etc.,
 - Salesforce certifications such as Salesforce Certified Technical Architect or Salesforce Certified Application Architect/System Architect, CPQ Specialist is highly desirable.
 - Exhibit strong security and confidentiality practices with systems that handle sensitive data. Experience partnering with internal information security and compliance teams. SOX experience is preferred.
 - In-depth understanding of enterprise architecture standards, superior engineering practices, and the capabilities of the Salesforce platform.
@@ -80,14 +80,14 @@ Mentorship: Build and manage global teams. Guide and coach team members. Mentors
 - Change management knowledge and ability to operate effectively in fast paced environment.
 - Demonstrated experience in vendor management and capacity planning in a fast growth environment.
 - Nice to have, application specific skills:
-    - Salesforce: Development experience with advanced Salesforce.com development tools and techniques (e.g. Apex language, Force.com custom development, triggers, controllers, JavaScript, Force.com SOAP and REST APIs, JSON, AngularJS, jQuery, JavaScript, sObjects, SOQL, SOSL, Chatter APIs, outbound messaging, Bootstrap, Lightning Design System (LDS), Lightning Components and Visualforce pages).
-    - Marketo
-    - GainSight
-    - ZenDesk / Service Cloud / ServiceNow
-    - Enablement tools, such as WalkMe, SpekIt, etc.
-    - CLM: DocuSign CLM, Ironclad
-    - Billing Systems: CPQ, Billing, Revenue (Zuora, NetSuite, etc.)
-    - Integration: Mulesoft, Talend, Workato etc.
+  - Salesforce: Development experience with advanced Salesforce.com development tools and techniques (e.g. Apex language, Force.com custom development, triggers, controllers, JavaScript, Force.com SOAP and REST APIs, JSON, AngularJS, jQuery, JavaScript, sObjects, SOQL, SOSL, Chatter APIs, outbound messaging, Bootstrap, Lightning Design System (LDS), Lightning Components and Visualforce pages).
+  - Marketo
+  - GainSight
+  - ZenDesk / Service Cloud / ServiceNow
+  - Enablement tools, such as WalkMe, SpekIt, etc.
+  - CLM: DocuSign CLM, Ironclad
+  - Billing Systems: CPQ, Billing, Revenue (Zuora, NetSuite, etc.)
+  - Integration: Mulesoft, Talend, Workato etc.
 
 ## Manager, Enterprise Applications
 

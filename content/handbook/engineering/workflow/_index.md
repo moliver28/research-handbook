@@ -33,7 +33,7 @@ should be avoided in order to prevent designing by committee.
 The intent of a revert is never to place blame on the original author. Additionally, it is helpful
 to inform the original author so they can participate as a DRI on any necessary follow up actions.
 
-The `pipeline:expedite` label, and `master:broken` or `master:foss-broken` label must be set on merge requests that fix `master` to skip some non-essential jobs in order to speed up the MR pipelines.
+The `pipeline::expedited` label, and `master:broken` or `master:foss-broken` label must be set on merge requests that fix `master` to skip some non-essential jobs in order to speed up the MR pipelines.
 
 ## Broken `master`
 
@@ -186,9 +186,9 @@ When an incident is attributed to a group, a notification will be sent to the tr
 1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/ai_features.html#root-cause-analysis) feature by clicking the "Root cause analysis" button on the failed job page.
 2. To confirm flakiness, you can use the `@gitlab-bot retry_job <job_id>` or the `@gitlab-bot retry_pipeline <pipeline_id>` command to retry the failed job(s), even if you are not a project maintainer.
 
-  - **Note**, The `retry_job` command can fail for the following reasons:
-    - Retrying the same job twice with the `retry_job` command will result in a failure message because each failed job can only be retried once.
-    - If there is no response to either of the `retry` commands, you are likely invoking them in non-supported projects. If you'd like to request for the commands to be added to your project, please [make an issue](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new) and inform `#g_engineering_productivity`. You are encouraged to self-serve the MR following [this example](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/2536) and submit it for review for maximum efficiency.
+   - **Note**, The `retry_job` command can fail for the following reasons:
+     - Retrying the same job twice with the `retry_job` command will result in a failure message because each failed job can only be retried once.
+     - If there is no response to either of the `retry` commands, you are likely invoking them in non-supported projects. If you'd like to request for the commands to be added to your project, please [make an issue](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new) and inform `#g_engineering_productivity`. You are encouraged to self-serve the MR following [this example](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/2536) and submit it for review for maximum efficiency.
 
 ### Resolution of broken master
 
@@ -204,7 +204,7 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
      of the reverted merge request.
        - Reverts can go straight to maintainer review and require 1 maintainer approval.
        - The maintainer can request additional review/approvals if the revert is not trivial.
-       - The `pipeline:expedite` label, and `master:broken` or `master:foss-broken` label must be set on merge requests that fix `master` to skip some non-essential jobs in order to speed up the MR pipelines.
+       - The `pipeline::expedited` label, and `master:broken` or `master:foss-broken` label must be set on merge requests that fix `master` to skip some non-essential jobs in order to speed up the MR pipelines.
    - [Quarantine](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#quarantined-tests) the failing test if you can confirm that it is flaky (e.g. it wasn't touched recently and passed after retrying the failed job).
      - Add the `quarantined test` label to the `failure::flaky-test` issue you previously created during the identification phase.
    - Create a new merge request to fix the failure if revert is not possible or would introduce additional risk. This should be treated as a `priority::1` `severity::1` issue.
@@ -362,29 +362,29 @@ For better efficiency, it's common for a regression to be fixed in an MR without
 1. If you are working on an issue that requires access to specific features, systems, or groups, open an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request) to obtain access on staging and production for testing your changes after they are merged.
 1. When you start working on an issue:
 
-  - Add the `workflow::in dev` label to the issue.
-  - Create a merge request (MR) by clicking on the **Create merge request** button in the issue. This creates a MR with the labels, milestone and title of the issue. It also relates the just created MR to the issue.
-  - Assign the MR to yourself.
-  - Work on the MR until it is ready, it meets GitLab's [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), and the pipeline succeeds.
-  - Edit the description and click on the **Remove the Draft: prefix from the title** button.
-  - Assign it to the suggested reviewer(s) from [Reviewer Roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette). If there are reviewers for multiple categories, for example: frontend, backend and database, assign all of them. Alternatively, assign someone who specifically needs to review. When assigning, also @mention them in the comments, requesting a review.
-  - (Optionally) Unassign yourself from the MR. Some may find leaving the MR assigned to themselves easier to track the MRs they are responsible for by using the built in MR button/notification icon in the GitLab navigation bar.
-  - Change the workflow label of the issue to `workflow::in review`. If multiple people are working on the issue or multiple workflow labels might apply, consider breaking the issue up. Otherwise, default to the workflow label farthest away from completion.
-  - Potentially, a reviewer offers feedback and assigns back to the author.
-  - The author addresses the feedback and this goes back and forth until all reviewers approve the MR.
-  - After approving, the reviewer in each category unassigns themselves and assigns the suggested maintainer in their category.
-  - Maintainer reviews take place with any back and forth as necessary and attempts to resolve any open threads.
-  - The last maintainer to approve the MR, follows the [Merging a merge request](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) guidelines.
-  - (Optionally) Change the workflow label of the issue to `workflow::verification`, to indicate all the development work for the issue has been done and it is waiting to be deployed and verified. We will use this label in cases where the work was requested to be verified by product OR we determined we need to perform this verification in production.
-  - When the change has been verified, change the workflow label to `workflow::complete` and close the issue.
+   - Add the `workflow::in dev` label to the issue.
+   - Create a merge request (MR) by clicking on the **Create merge request** button in the issue. This creates a MR with the labels, milestone and title of the issue. It also relates the just created MR to the issue.
+   - Assign the MR to yourself.
+   - Work on the MR until it is ready, it meets GitLab's [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), and the pipeline succeeds.
+   - Edit the description and click on the **Remove the Draft: prefix from the title** button.
+   - Assign it to the suggested reviewer(s) from [Reviewer Roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette). If there are reviewers for multiple categories, for example: frontend, backend and database, assign all of them. Alternatively, assign someone who specifically needs to review. When assigning, also @mention them in the comments, requesting a review.
+   - (Optionally) Unassign yourself from the MR. Some may find leaving the MR assigned to themselves easier to track the MRs they are responsible for by using the built in MR button/notification icon in the GitLab navigation bar.
+   - Change the workflow label of the issue to `workflow::in review`. If multiple people are working on the issue or multiple workflow labels might apply, consider breaking the issue up. Otherwise, default to the workflow label farthest away from completion.
+   - Potentially, a reviewer offers feedback and assigns back to the author.
+   - The author addresses the feedback and this goes back and forth until all reviewers approve the MR.
+   - After approving, the reviewer in each category unassigns themselves and assigns the suggested maintainer in their category.
+   - Maintainer reviews take place with any back and forth as necessary and attempts to resolve any open threads.
+   - The last maintainer to approve the MR, follows the [Merging a merge request](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) guidelines.
+   - (Optionally) Change the workflow label of the issue to `workflow::verification`, to indicate all the development work for the issue has been done and it is waiting to be deployed and verified. We will use this label in cases where the work was requested to be verified by product OR we determined we need to perform this verification in production.
+   - When the change has been verified, change the workflow label to `workflow::complete` and close the issue.
 
 1. You are responsible for the issues assigned to you. This means it has to ship with the milestone it's associated with. If you are not able to do this, you have to communicate it early to your manager and other stakeholders (e.g. the product manager, other engineers working on dependent issues). In teams, the team is responsible for this (see [Working in Teams](#working-in-teams)). If you are uncertain, err on the side of overcommunication. It's always better to communicate doubts than to wait.
 1. You (and your team, if applicable) are responsible for:
 
-  - Ensuring that your changes [apply cleanly to GitLab Enterprise Edition][ce-ee-docs].
-  - The testing of a new feature or fix, especially right after it has been merged and packaged.
-  - Creating any [relevant feature or API documentation](https://docs.gitlab.com/ee/development/documentation/workflow.html#developers)
-  - Shipping secure code, (see [Security is everyone's responsibility](#security-is-everyones-responsibility)).
+   - Ensuring that your changes [apply cleanly to GitLab Enterprise Edition][ce-ee-docs].
+   - The testing of a new feature or fix, especially right after it has been merged and packaged.
+   - Creating any [relevant feature or API documentation](https://docs.gitlab.com/ee/development/documentation/workflow.html#developers)
+   - Shipping secure code, (see [Security is everyone's responsibility](#security-is-everyones-responsibility)).
 
 1. Once a release candidate has been deployed to the staging environment, please verify that your changes work as intended. We have seen issues where bugs did not appear in development but showed in production (e.g. due to CE-EE merge issues).
 

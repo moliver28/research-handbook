@@ -1,12 +1,9 @@
 ---
-
 title: Making Changes and Taking Actions on an Account
 category: GitLab.com
 subcategory: Accounts
 description: "Workflow for when and how to make account changes on behalf of a customer"
 ---
-
-
 
 ## Overview
 
@@ -157,13 +154,13 @@ Enterprise users have user accounts that are administered by an organization tha
 
 1. Requester’s Ticket:
 
- - Add as an internal comment the ticket created above.
- - Reply to the requester with the snippet below and mark the ticket as `On-hold`.
+   - Add as an internal comment the ticket created above.
+   - Reply to the requester with the snippet below and mark the ticket as `On-hold`.
 
-> Hi,
->
-> Thanks for verifying your account with us. We are now waiting for permission from your organization to release the account by updating your primary email address.
-> We will keep you updated.
+   > Hi,
+   >
+   > Thanks for verifying your account with us. We are now waiting for permission from your organization to release the account by updating your primary email address.
+   > We will keep you updated.
 
 1. If one of the owners approve, update the primary email address of the enterprise user by swapping with a secondary if applicable.
 1. Add an [Admin Note]({{< ref "admin_note.md" >}}) to the user’s account.

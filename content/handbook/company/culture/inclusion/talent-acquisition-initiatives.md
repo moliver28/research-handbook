@@ -15,10 +15,10 @@ By sharing these stories, we're able to highlight the diversity of our team in a
 
 - Blog posts from team members
 - Recorded videos and panels
-   - [What Diversity, Inclusion and Belonging means to the Sales team](https://www.youtube.com/watch?v=paPXSdfl_To&feature=youtu.be)
-   - [Get to know the Support team at GitLab](https://youtu.be/fLTs1oiKabI)
-   - [Women at GitLab fireside chat](https://youtu.be/qS0kebPUhTo) from Virtual Contribute 2020
-   - [Tips for working remotely + parenting](https://youtu.be/TYdPXSYpBcg)
+  - [What Diversity, Inclusion and Belonging means to the Sales team](https://www.youtube.com/watch?v=paPXSdfl_To&feature=youtu.be)
+  - [Get to know the Support team at GitLab](https://youtu.be/fLTs1oiKabI)
+  - [Women at GitLab fireside chat](https://youtu.be/qS0kebPUhTo) from Virtual Contribute 2020
+  - [Tips for working remotely + parenting](https://youtu.be/TYdPXSYpBcg)
 
 ### Employer and Diversity, Inclusion & Belonging awards
 

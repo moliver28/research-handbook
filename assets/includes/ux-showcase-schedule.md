@@ -1,6 +1,5 @@
-| Date       | Host                 | Presenter 1            | Presenter 2            | Presenter 3            |
+| Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-05-29 | Paul Wright          | Pedro Moreira da Silva | Jeremy Elder           | Michael Fangman        |
 | 2024-06-12 | Marcel van Remmerden | Veethika Mishra        | Sascha Eggenberger     | Katie Macoy            |
 | 2024-06-26 | APAC                 | Libor Vanc             | Bonnie Tsang           |                        |
 | 2024-07-03 | Taurie Davis         | Tim Noah               | Austin Regnery         | Graham Bachelder       |

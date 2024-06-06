@@ -27,20 +27,20 @@ Here's what you need to get started.
 #### Plan
 
 - No product/promotional messaging across company channels
-   - Organic brand social channels
-   - Paid social media advertising using brand channels
-   - Executives, leadership, reporters, and personalities
-      - Personal posts can continue
-   - [insert other channels as appropriate]
+  - Organic brand social channels
+  - Paid social media advertising using brand channels
+  - Executives, leadership, reporters, and personalities
+    - Personal posts can continue
+  - [insert other channels as appropriate]
 - No engagement across brand social media channels
-   - No likes at all
-   - No comments on posts other than what is deemed necessary for triage, in mentions only
+  - No likes at all
+  - No comments on posts other than what is deemed necessary for triage, in mentions only
 - Inform your team of this pause, immediately
 - Determine if it's appropriate for your company to issue a statement or to communicate actions being taken
-   - You will need to work with others on your team, and in many cases a communications leader and/or executive to make this decision
-   - Create a process that allows you to write, approve, and publish a public statement within 24-48 hours. This means identifying all approproate stakeholders beforehand (for example, do you need legal review?), and perhaps creating new workflows to enable expedited approvals
+  - You will need to work with others on your team, and in many cases a communications leader and/or executive to make this decision
+  - Create a process that allows you to write, approve, and publish a public statement within 24-48 hours. This means identifying all approproate stakeholders beforehand (for example, do you need legal review?), and perhaps creating new workflows to enable expedited approvals
 - In the first day, review all drafts and future posts for copy and creative that is out of touch with the new reality
-   - Be conservative with this review - rewrite or remove anything that could be viewed as inappropriate
+  - Be conservative with this review - rewrite or remove anything that could be viewed as inappropriate
 
 #### Why These Recommendations
 
@@ -51,7 +51,7 @@ Here's what you need to get started.
 #### Timeline
 
 - Immediate and hard pause for 36 to 48 hours to assess the situation
-   - You will need every hour of this time to make sure that your team understands the risks involved and to make a sound a decision
+  - You will need every hour of this time to make sure that your team understands the risks involved and to make a sound a decision
 - In this short pause, you'll need to determine next steps - a longer pause based on the event progression or another option
 - Use the "How do we turn back on" section below for more guidance on evaluating your pause
 

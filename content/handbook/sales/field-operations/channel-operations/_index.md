@@ -107,10 +107,13 @@ For more information: [Deal Registration Program Overview](/handbook/resellers/c
 
 #### Partner Billing Record Creation
 
-Billing Account and billing account Contact records must be created when onboarding a new partner that will be purchasing directly from GitLab. The Channel Manager should take the following action upon being notified of a new partner:
+Billing Account and billing account Contact records must be created when onboarding a new partner that will be purchasing directly from GitLab. The Partner Manager should take the following action when a new partner has signed the click-through agreement or agreed to a customer MPA:
 
-1. Create a contact record on the partner account that represents the partners accounts payable contact information with naming convention "[Partner Account Name] - Accounts Payable"
-2. Chatter `@Billing Ops` on the Partner Account with the partners accounts payable contact information to request that they create a Billing Account
+1. Create a contact record on the partner account that represents the partners accounts payable contact information with naming convention "[Partner Account Name] - Accounts Payable". Ensure the address on the contact record matches the address on the partner account.
+2. Chatter `@Billing Ops` on the Partner Account to request a new billing account. Include the following information:
+   - Billing Account Company Name
+   - Billing Account Contact Name and Email
+   - VAT # if applicable
 
 Partner accounts that will transact via distribution do not need a Billing Account or billing account Contact.
 
@@ -719,7 +722,7 @@ For more information on quoting or the Partner Program, please visit:
 
 ## Partner Influence
 
-Partners can influence GitLab opportunities without sourcing or transacting the deal. The Partner Sales team is required to submit an internal Partner Influence Registration which must be approved by the ASM to receive influence credit for an opportunity.
+Partners can influence GitLab opportunities without sourcing or transacting the deal. The Partner Team (PTM, PAM, or Partner SA) is required to submit an internal Partner Influence Registration which must be approved by the ASM to receive influence credit for an opportunity.
 
 Qualifying partner influence activities include customer executive engagement and advocacy and/or working side by side with GitLab on the customer pursuit, and at least one of the following must be met to submit a Registration:
 
@@ -736,11 +739,11 @@ Partner Influence Registration should only be submitted and approved for:
 1. a partner that did not source and/or transact the opportunity
 2. one partner (i.e., one approved Influence Registration/Partner per opportunity). Only the first approved record will qualify if multiple influence registrations are submitted and/or approved for one opportunity.
 
-The GitLab ASM has one business day to either approve or reject the Influence Registration, which begins when the Registration hits their queue for approval. The ASM must communicate with the GitLab Partner Territory Manager if their approval is anticipated to push beyond the one business day SLA. Approval by the ASM will update the Influence Registration's `Status` to Approved and stamp `Influence Partner` on the opportunity with the partner account.
+The GitLab ASM has one business day to either approve or reject the Influence Registration, which begins when the Registration hits their queue for approval. Approval by the ASM will update the Influence Registration's `Status` to Approved and stamp `Influence Partner` on the opportunity with the partner account.
 
 Follow the steps below to register partner influence on an opportunity:
 
-### Partner Sales Team for Submission
+### Partner Team for Submission
 
 1. From the Related List Quick Links at the top of the opportunity page, hover your cursor over Influence Partners and select `New Influence Partner`
     ![Alt text](image.png)
@@ -770,10 +773,18 @@ Follow the steps below to register partner influence on an opportunity:
 1. Confirm alignment with the Partner Territory Manager and GitLab Sales Rep prior to providing final approval or rejection on the influence registration.
 1. Click `Approve/Reject`
     ![Alt text](image-3.png)
-1. Add any message for the Partner Territory Manager in the Comments field if applicable. Select `Approve`or `Reject` to complete the process.
+1. Add any message for the Partner Team in the Comments field if applicable. Select `Approve`or `Reject` to complete the process.
     ![Alt text](image-4.png)
 
 _Please reach out to @Partner Operations via chatter if you have any questions or if the ASM approver needs to be reassigned._
+
+### Partner Influence: Reporting
+
+- [Global Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000036nh32AA/view?queryScope=userFolders)
+- [AMER Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003XZ6x2AG/view?queryScope=userFolders)
+- [APJ Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000036n7a2AA/view?queryScope=userFolders)
+- [EMEA Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003Xkoj2AC/view?queryScope=userFolders)
+- [PUBSEC Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003XkSA2A0/view?queryScope=userFolders)
 
 ## Channel Approvals
 
@@ -835,51 +846,44 @@ The following price files are provided by Partner Ops in Google Sheet, Excel, an
 
 Distributor and Reseller partners can access the [Partner Portal](https://partners.gitlab.com/English/) for the current GitLab Price File. If you have any issues accessing the Partner Portal, please contact the Partner Operations team at [partnersupport@gmail.com](mailto:partnersupport@gmail.com).
 
-### How to Access and Share the Price Files (GitLab Team Member)
+### How to Access and Share the Price Files (GitLab Team Member, Internal Use Only)
 
-Price Files can be found [in this folder](https://drive.google.com/drive/folders/1pouTUH1BHNQjKt-lNsIEu5IQppIRinbg).
+When sharing a Channel Price File with a partner (either a distributor or reseller), please do NOT share the Channel Price File folder or file location. To share a price file, please direct the distributor or partner to log into the Partner Portal, click on Library and search "Price File". The partner will be able to access and download their most up-to-date Channel Price File via this route.
 
-Only Channel Managers should be sharing Channel Price Files.
-
-When sharing a Channel Price File with a partner (either a distributor or reseller), please do NOT share the folder or file location. To share a document, please either copy it into your own google drive and update the permissions accordingly when you share a link, or download a copy and email to a partner. No partners should be given access to this folder.
-
-### Naming Conventions and Which File to Use
-
-Within the Price List Folder, there are other folders. For the current active price file, always use the one with the most recent date that has not passed yet. The folder name will also say [ACTIVE] at the front of it.
-
-For example:
-If there are three folders within the Price List Folder. One is dated two months ago, and one is dated for one month in the future. The one dated two months ago says [ACTIVE] in front of the file name.
-
-The file dated two months ago is the one currently in use with our partners. For current questions and quoting purposes, this is the file that should be used.
-
-The file dated one month in the future is the file that should be provided to partners (especially distributors) to set up their systems. It will go into effect on the date in the file name.
-
-If there are any questions, please reach out to the #partner-programs-ops Slack channel.
+Price Files for internal use can be found [in this folder](https://drive.google.com/drive/folders/1L-wxZmmIOA4DiOX7vZnOpBsiyBaxVr6S).
 
 ## Price File Update Process
 
-At the beginning of the [second month of every quarter](/handbook/finance/#fiscal-year), Partner Operations will create an issue and reach out to product and professional services (PS) departments to collect information on any new changes, additions, or discontinuations of part numbers. It is the **responsibility of the product/PS departments** to provide any and all information about SKUs that will be active on the first date of the next quarter.
-
-Once the price book is updated, Partner Operations will tag the product and professional services team to check to make sure the information is up-to-date before publishing. The due date for this approval is five (5) business days before the end of the second month of a given quarter.*
+At the beginning of the [second month of every quarter](/handbook/finance/#fiscal-year), Partner Operations will create an issue and tag product and professional services (PS) departments to collect information on any new changes, additions, or discontinuations of part numbers. It is the **responsibility of the product/PS departments** to provide any and all information about SKUs that will be active on the first date of the next quarter.
 
 The following departments/people will be tagged for gathering this information:
 
-- **Professional Services** - Bryan May, Brian Will
+- **Professional/ Education Services** - Brian Will, Sean Sandoval
 - **Channel Services** - Boughty Canton
-- **Product/Finance** -  Brian Wong
+- **Product/Finance** -  Brian Wong, Justin Farris
+- **Fulfillment** - Courtney Meddaugh
+- **Partner Programs & Enablement** - Ed Cepulis (any changes to existing/ new channel/ distributor discounts)
+- **Customer Success Management** - Sherrod Patching
 
 The following departments/people will be tagged for FYI/Additional Input:
 
-- **Partner Operations:** Nick Scala, Niles Jamshaid
-- **Channel Programs**: Evon Collett
-- **Deal Desk**: Cal Baker
+- **Partner Operations:** Nick Scala, Marcella Summers
+- **Partner Programs**: David Forsch
+- **Deal Desk**: Jesse Rabbits
 - **PubSec Channel**: Pilar Meija
+- **Business Technology**: Caroline Swanson
 
-After all product approvals are complete, Partner Operations will request approval in the same issue from the following Channel Teams/Individuals:
+Once the Price Files are updated for the upcoming quarter, Partner Support will upload the files to the Partner Portal and share them via email with the below distributors 30 days prior to the new quarter.
 
-- **Channel & Alliances**: Nick Scala
-- **Programs:** Ed Cepulis
-- **Public Sector**: Chris Novello
+- Carahsoft
+- Amazic
+- Tech Data (APAC)
+- Redington
+- Get On Technology
+- Climb Solutions
+- Networld
+
+If there are no updates to the files, this will be documented on the version changes tab.
 
 Please reach out to the #partner-programs-ops Slack channel for assistance.
 
@@ -887,13 +891,7 @@ Please reach out to the #partner-programs-ops Slack channel for assistance.
 
 ### Internal Price File Communications
 
-Partner Operations will post a message on the slack channel #partner-fyi to share the updated Price Files and call out any major changes.
-
-### External Price File Communications
-
-Updated Price Files will be uploaded to the Partner Portal approximately 30 days before the upcoming fiscal quarter.
-
-Partner Operations will share a copy of the pricelists to the main contacts of each distributor and work with the distributor to ensure any applicable contract vehicles are updated (e.g., Public Sector contracts).
+Partner Support will post a message on the slack channel #partner-fyi to share the updated Price Files and call out any major changes.
 
 ## SFDC Channel Manager Activity Tracker
 
@@ -934,22 +932,22 @@ Winners receive a physical award, virtual badge for use on the partner’s websi
 **Award Categories - proposed for FY25:**
 
 - Americas and Public Sector Categories
-  - AMER Partner of the Year
-  - AMER Emerging Partner of the Year (optional)
-  - AMER Services Partner of the Year
-  - Public Sector Partner of the Year
-  - Public Sector Services Partner of the Year
-  - AMER / Public Sector Distributor of the Year
+   - AMER Partner of the Year
+   - AMER Emerging Partner of the Year (optional)
+   - AMER Services Partner of the Year
+   - Public Sector Partner of the Year
+   - Public Sector Services Partner of the Year
+   - AMER / Public Sector Distributor of the Year
 - Asia-Pacific Categories
-  - APAC Partner of the Year
-  - APAC Emerging Partner of the Year (optional)
-  - APAC Distributor of the Year
-  - APAC Services Partner of the Year
+   - APAC Partner of the Year
+   - APAC Emerging Partner of the Year (optional)
+   - APAC Distributor of the Year
+   - APAC Services Partner of the Year
 - Europe-Middle East-Africa Categories
-  - EMEA Partner of the Year
-  - EMEA Emerging Partner of the Year (optional)
-  - EMEA Distributor of the Year
-  - EMEA Services Partner of the Year
+   - EMEA Partner of the Year
+   - EMEA Emerging Partner of the Year (optional)
+   - EMEA Distributor of the Year
+   - EMEA Services Partner of the Year
 
 **Award Consideration Timing:**
 GitLab will announce the Partner Award winners at a Global-level event within their Q1 timeframe. Awards will be shipped to the winners 4-6 weeks post-announcement. Award celebrations will be held at Partner Leadership Summit or other similar event.

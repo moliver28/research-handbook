@@ -41,5 +41,5 @@ For navigation studies, tasks should be standardized to be able to compare studi
 For studies that target a specific persona, it is recommended to collaborate with stakeholders that are knowledgeable about these personas to identify relevant tasks.
 
 - One suggestion is to consider the [differentiating tasks (internal link)](https://docs.google.com/document/d/1MpNTFpdNc-ysOD2Um0uy9ZRMw6hA4yZTARbDTctbo8M/edit) for each persona. However, these are written in a way that can be used for screeners, but not for testing. These would need to be framed and written as things they can do in GitLab for the purpose of testing.
-    - For example, a Sasha task is “Translate product designs into code”
-    - This may be reframed as something like “Where would you find a list of all code changes that have been assigned to you for review across every project you are participating in?.”
+  - For example, a Sasha task is “Translate product designs into code”
+  - This may be reframed as something like “Where would you find a list of all code changes that have been assigned to you for review across every project you are participating in?.”

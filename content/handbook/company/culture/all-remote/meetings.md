@@ -28,7 +28,6 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Start on time.** It's important to [begin and end meetings on time]({{< ref "./meetings#3-start-on-time-end-on-time" >}}) in order to minimize disruption.
 1. **Recording.** For group meetings where there are multiple time zones, consider recording the meeting to allow for async participation.
 1. **Give audio and video feedback.** If you are unable to see or hear someone, let them know so they can address and correct.
-1. **Name pronunciation.** Consider these tips to ensure name pronunciation during the meeting:
 1. **Name pronunciation.** Inline with our [values](https://handbook.gitlab.com/handbook/values/#learn-how-to-pronounce-other-peoples-names), consider these tips to ensure name pronunciation during the meeting:
    1. Ask all participants what is your preferred name or do you have a nickname? Example: “My name is pronounced….you can call me….”
    1. Introduce yourself, and mention your pronouns and pronunciation, and ask participants if they want to introduce themselves. Reminder that pronouns can be set in [applications we use for collaborating](https://handbook.gitlab.com/handbook/people-group/pronouns/#setting-your-pronouns-in-applications)
@@ -49,7 +48,7 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 
 1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature]({{< ref "1-1" >}}) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
 1. **Consider important decisions.**  When the meeting takes place outside of some participants' time zones, consider confirming decisions and actions for 24-48 hours. This will allow participants to contribute asynchronously.
-1. **Upload recording.** When the meeting is recorded, add the recording link and password in the agenda shortly after the meeting to allow for async consumption for people in different time zones. Also consider uploading to YouTube if it can be done so consistent with SAFE guidelines.
+1. **Upload recording.** When the meeting is recorded, add the recording link and password in the agenda with in 12 hours after the meeting to allow for async consumption for people in different time zones. Also consider uploading to YouTube if it can be done so consistent with SAFE guidelines.
 1. **Assess and Iterate.** Once the meeting concludes, reflect on what worked, what didn’t work, and what you need to do differently to run a more effective meeting. This process touches three of our CREDIT values: Iteration, Efficiency, and Results for Customers. By taking a small amount of time after a meeting to focus on continuous improvement, we can apply those improvements in future meetings. This drive for continuous improvement drives Efficiency, which is the foundation for Results.
 
 ## What is a remote meeting?

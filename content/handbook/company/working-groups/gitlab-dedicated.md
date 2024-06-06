@@ -19,9 +19,9 @@ status: active
 
 - [GitLab Dedicated external webpage](https://about.gitlab.com/dedicated/)
 - [Product Category Direction](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
-    - [Limited Availability Roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
+  - [Limited Availability Roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
 - [Engineering Team](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
-    - [Project Management](/handbook/engineering/infrastructure/team/gitlab-dedicated/#project-management)
+  - [Project Management](/handbook/engineering/infrastructure/team/gitlab-dedicated/#project-management)
 - [Internal Handbook](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
 - [Top-Level Initiative Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479)(only accessible from within the company)
 - [Limited Availability Epic - main project epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/484)  (only accessible from within the company)

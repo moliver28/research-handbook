@@ -252,9 +252,9 @@ Please submit a request via an `announcement` [issue template in the Corporate M
 - **Level 2** - A level 2 announcement will be announced via a blog post and amplified with social media. The DRI/SME of the announcement will be responsible for working with the content team on creating the content and MR for the blog post (please see [the blog handbook](/handbook/marketing/blog/) for more on this process). Example announcements and news include but are not limited to: partner integrations, new feature/capability highlights from the monthly release cycles (ex. Windows Shared Runners), customer case study announcement (not household names).
 - **Level 3** - A level 3 announcement will be announced and promoted via GitLab’s social media channels. Example announcements and news include but are not limited to: awards from media publications (ex. DEVIES), speaking opps that GitLab employees are participating in (drive attendees/awareness) and ecosystem partner integrations.
 - **Other** - In some cases, the following communications channels may be more appropriate:
-    - A targeted email to affected users
-    - Including an item in an upcoming release post (where the announcement is specifically tied to a release, does not require communication in advance of the release, and is not a sensitive topic)
-    - A public issue (see [below](/handbook/marketing/corporate-communications/#using-public-issues-to-communicate-with-users))
+  - A targeted email to affected users
+  - Including an item in an upcoming release post (where the announcement is specifically tied to a release, does not require communication in advance of the release, and is not a sensitive topic)
+  - A public issue (see [below](/handbook/marketing/corporate-communications/#using-public-issues-to-communicate-with-users))
 
 ## Requests for Press Releases
 
@@ -275,13 +275,13 @@ Any use of GitLab’s name, brand, or logo requires prior email approval by GitL
 
 - **Partner-led Blog Posts:** GitLab is proud of its collaborative partner program, and we encourage partners to showcase their solutions, capabilities and customer success stories through partner-led blogs. Please send all blog posts including GitLab to the GitLab Corporate Communications team at press@gitlab.com for review and approval.
 - **Press Release Criteria and Approval Process:** Partners seeking to issue a press release that includes mention of their partnership with GitLab must meet the criteria outlined below (and in the [GitLab Partner Portal](https://partners.gitlab.com/English/?ReturnUrl=%2fEnglish%2fPartner%2fhome.aspx)).
-    - Partner public relations participation criteria:
-      - A signed partner contract
-      - Minimum 10 joint customers
-      - New partners: please reach out to your account representative for guidance.
-    - Please note: GitLab requires up to 6 weeks of lead time to support external communications requests.
-    - Please email your account representative for guidance on the approvals required and copy the GitLab Corporate Communications team at press@gitlab.com.
-    - GitLab account representatives: Any requests for public relations support requires approval from your executive sponsor, Patty Cheung. Please reach out via #external-comms in Slack if you have questions about this.
+  - Partner public relations participation criteria:
+    - A signed partner contract
+    - Minimum 10 joint customers
+    - New partners: please reach out to your account representative for guidance.
+  - Please note: GitLab requires up to 6 weeks of lead time to support external communications requests.
+  - Please email your account representative for guidance on the approvals required and copy the GitLab Corporate Communications team at press@gitlab.com.
+  - GitLab account representatives: Any requests for public relations support requires approval from your executive sponsor, Patty Cheung. Please reach out via #external-comms in Slack if you have questions about this.
 
 ### GitLab Vendor Reference Requests
 

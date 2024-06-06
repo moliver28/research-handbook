@@ -48,7 +48,7 @@ There are three main reasons you would want to change our Tech Stack:
 
 - [Adding a new system to the tech stack](#add-new-system-to-the-tech-stack)
 - [Updating the tech stack](#update-tech-stack-information)
-    - This includes updating any of the columns in the tech stack, like Provisioner/Deprovisioner, Business Owner or Technical Owner.
+  - This includes updating any of the columns in the tech stack, like Provisioner/Deprovisioner, Business Owner or Technical Owner.
 - [Removing a system from the tech stack](#removing-a-system-from-the-tech-stack)
 
 ### **What data lives in the Tech Stack?**

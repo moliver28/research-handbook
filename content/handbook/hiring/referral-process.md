@@ -28,19 +28,19 @@ Ensure you inform the person that you are endorsing them and that they allow you
 A Referral is **not**:
 
 - Someone the Talent Acquisition Team has already sourced, screened, or been in contact with for the same requisition or job family.
-    - This applies to *Prospects* as well as *Candidates*.
+  - This applies to *Prospects* as well as *Candidates*.
 - Someone you **do not** know and **would not** be able to speak about confidently.
 - Someone you sourced or someone who reached out to you regarding a vacancy through social media (LinkedIn, Blind, etc). If someone you have **not** worked with reaches out requesting to be referred, you could respond with the message below. Please adjust the order and content to reflect your own style and tone as needed:
     > *"Thank you for your interest in GitLab. Unfortunately I cannot refer you for the position as we have not had a chance to work together. To ensure we maintain an [inclusive (https://about.gitlab.com/company/culture/inclusion/)](/handbook/company/culture/inclusion/) recruiting process, I cannot influence your application. We would prefer you apply for the position you have in mind directly via our [Jobs page (https://about.gitlab.com/jobs/)](https://about.gitlab.com/jobs/). This will ensure the right GitLab team member reviews your profile!"*
 - Someone who applied via a unique link you shared from Greenhouse on a social site (a.k.a. a `Social Referral`).
-    - While the unique link creation/sharing feature is in the `Add a Referral` section of Greenhouse and reads, *"Share your link with people interested in working at your company
+  - While the unique link creation/sharing feature is in the `Add a Referral` section of Greenhouse and reads, *"Share your link with people interested in working at your company
 Every time someone clicks on your link and applies for a job, your hiring team can track you as a source,"* this is **not** considered a referral because there's **no** way of determining who clicked a link on Twitter from a genuine referral, for example. For that very reason, `Social Referrals` are **ineligible** for the referral bonus. Regardless, the promotion of our vacancies is always appreciated!
 - A former (or "Boomerang") Team Member.
 
 Other Referral clarifications:
 
 - *Contract* or *temporary* roles, including *Internships*, are **not** eligible for Referral Bonuses.
-    - However, if the *Intern* is converted to a *Team Member* for the same/similar role, then the referring Team Member will receive a Referral Bonus per the [referral bonus guidelines]({{< ref "incentives#referral-bonuses" >}}) upon transitioning to the new employment status.
+  - However, if the *Intern* is converted to a *Team Member* for the same/similar role, then the referring Team Member will receive a Referral Bonus per the [referral bonus guidelines]({{< ref "incentives#referral-bonuses" >}}) upon transitioning to the new employment status.
 
 #### Referral Bonus Eligibility
 
@@ -150,15 +150,15 @@ As a way of ensuring a consistent and positive experience with both the candidat
 #### Common Referral Situations
 
 - Your Referral was referred by someone else.
-    - In the event that your claimed Referral was submitted by someone else, the **first** Team Member to have submit the candidate will be considered their *Referrer*.
-        - In the event of **multiple** *Referrers* claiming ownership on a similar vacancy, it will be up to the *Referrers* to decide how to split the Referral Bonus and inform People Ops of that compromise.
-            - When such a situation arises, a People Ops team member will notify the Referrers and what will need to happen next.
+  - In the event that your claimed Referral was submitted by someone else, the **first** Team Member to have submit the candidate will be considered their *Referrer*.
+    - In the event of **multiple** *Referrers* claiming ownership on a similar vacancy, it will be up to the *Referrers* to decide how to split the Referral Bonus and inform People Ops of that compromise.
+      - When such a situation arises, a People Ops team member will notify the Referrers and what will need to happen next.
 - If you referred the candidate to **dissimilar** vacancy, then you would be named their *Referrer* for that specific vacancy.
 
 - If the Referrer is part of the Hiring Team they'll...
-    - ... recuse themselves from interviewing the candidate and the Hiring Manager will choose a replacement Interviewer.
+  - ... recuse themselves from interviewing the candidate and the Hiring Manager will choose a replacement Interviewer.
 - When a Referral is from a Referring Manager they...
-    - ... may choose to move the candidate on in the interview process, even if the candidate received a "no" from a fellow Interviewer - we **don't** operate on a single-veto basis.
-    - ... will review all information and feedback about the Referral (giving both positive and negative feedback fair consideration) and will make the final hire or no hire decision.
+  - ... may choose to move the candidate on in the interview process, even if the candidate received a "no" from a fellow Interviewer - we **don't** operate on a single-veto basis.
+  - ... will review all information and feedback about the Referral (giving both positive and negative feedback fair consideration) and will make the final hire or no hire decision.
 
 For any additional questions, please post in the #talent-acquisition Slack channel.

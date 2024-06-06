@@ -5,13 +5,6 @@ description: "The charter of this working group is to succesfully decompose the 
 canonical_path: "/company/team/structure/working-groups/secure-govern-database-decomposition/"
 ---
 
-## On this page
-
-{:.no_toc}
-
-- TOC
-{:toc}
-
 ## Attributes
 
 | Property        | Value           |
@@ -20,7 +13,7 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 | Start Date      | 13 May 2024 |
 | End Date        |  |
 | Slack           | [#wg_secure-govern-database-decomposition](https://gitlab.slack.com/archives/C01NB475VDF) (only accessible from within the company) |
-| Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1HB_mDNugJjk5dmwagNs8xvYj-oBfPX5qXn0zhTARl4Q/edit) (only accessible from within the company) |
+| Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/16JxSsh7AleszlsXU8h0Xevk5nZ-if7YJtRPjpwgqhn4/edit) (only accessible from within the company) |
 | Issue Board     |              |
 | Meeting Cadence | Weekly on Mondays. Recorded. EMEA and APAC options. |
 
@@ -177,16 +170,11 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 | DRI - Data                           | Ved Prakash       | Staff Data Engineer|
 | DRI - Secure: Composition Analysis   |                   ||
 | DRI - Secure: Dynamic Analysis       | Arpit Gogia       | Backend Engineer - Secure, Dynamic Analysis |
-| DRI - Secure: Static Analysis        |                   ||
+| DRI - Secure: Static Analysis        | Schmil Monderer   | Staff Backend Engineer - Secure, Static Analysis |
 | DRI - Secure: Secret Detection       |                   ||
 | DRI - Govern: Security Policies      |                   ||
-| DRI - Govern: Compliance             |                   ||
-| DRI - Govern: Anti Abuse             |                   ||
-| DRI - Govern: Authentication         |                   ||
-| DRI - Govern: Authorization          |                   ||
 | Member                               | Dylan Griffith    | Principal Engineer, Create |
 | Member                               | Thong Kuah        | Principal Engineer, Data Stores |
-| Member                               |                   ||
 | Member                               |                   ||
 
 ## Useful References

@@ -96,9 +96,9 @@ All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.
 
 - Resources assigned in order of priority
 - An appropriated label:
-   - **Committed**: Projects that are in-flight / being worked on
-   - **Planned**: Projects that will be picked up once the resources from a committed project becomes available
-   - **Backlog**: Projects that are in the pipeline but not yet ready to start
+  - **Committed**: Projects that are in-flight / being worked on
+  - **Planned**: Projects that will be picked up once the resources from a committed project becomes available
+  - **Backlog**: Projects that are in the pipeline but not yet ready to start
 
 ### T-Shirt Sizing
 
@@ -145,9 +145,9 @@ Visit the [Governance and IT Program Management](/handbook/business-technology/p
 Every week, the IT PMO Management team review the [IT-Intake-PMO](https://gitlab.com/groups/gitlab-com/-/boards/5982959?label_name[]=it-intake-pmo) board, with only a single outcome for the issues listed under the _Open_ list:
 
 - The issue is related to an ongoing project from the [IT Portfolio of Projects](/handbook/business-technology/pmo/#it-portfolio-of-projects) and it will be picked up by the IT Program Manager that is assigned to the project.
-   - IT PMO will add the appropriated [team label](/handbook/business-technology/pmo/#labels) and work with the business requestor to get all necessary information so the issue can be placed into the appropriated EntApps Milestone.
+  - IT PMO will add the appropriated [team label](/handbook/business-technology/pmo/#labels) and work with the business requestor to get all necessary information so the issue can be placed into the appropriated EntApps Milestone.
 - The issue **is not** related to an ongoing project from the [IT Portfolio of Projects](/handbook/business-technology/pmo/#it-portfolio-of-projects) and so it will be placed in the backlog in the [IT Prioritization tracker](/handbook/business-technology/pmo/#it-project-prioritization). The IT Prioritization tracker is reviewed during the [IT Portfolio Review (monthly) meeting](/handbook/business-technology/pmo/#it-portfolio-review-meetings-lead-to-cash-cro-and-ga)
-   - The _it-pmo-backlog_ label will be added.
+  - The _it-pmo-backlog_ label will be added.
 
 ## Project Epics & Issues
 
@@ -218,7 +218,7 @@ To better organize and manage their work, the IT teams have different label cate
 ## Project Reporting
 
 - The IT PMO team uses the Rolly Bot, a tool created by the IT Integrations team aimed at automating the generation and distribution of weekly status updates. Every Friday, the PMO updates the Rolly section of each project Epic (that they are assigned to) to deliver consistent updates on ongoing projects.
-   - A new roll up is created every Monday.
+  - A new roll up is created every Monday.
 - Asynchronous updates of the program are communicated through the dedicated program Slack channel, using [Geekbot](https://geekbot.com/).
 - For more extensive programs, the IT PMO team may generate a [Weekly Status Report](https://docs.google.com/presentation/d/1FvtL0MHftG33b-6eKO1sVx3vPFKu0DaeVp-GGbLdpcs/edit#slide=id.p1) intended for distribution among the program team and is frequently reviewed during the weekly program status meetings.
 
@@ -281,10 +281,10 @@ The IT Integrations team designed the Rolly Bot, a tool aimed at automating the 
 | **Incident** | An incident is an unplanned interruption or reduction in the quality of an IT service. It can also refer to the failure of a configuration item (CI) that has not yet impacted service but poses a significant risk of doing so in the future. | Incidents are unexpected events that disrupt normal service operations and require immediate attention to restore service to its normal state. Incident management focuses on minimizing the impact of incidents on users and business operations. | Network outage, application crash, server failure, data loss, email delivery problems, etc. |
 
 - **Project:** To be considered a project the request need to meet all the below criteria:
-   - The work will taken more than 48hrs to be built and tested (end to end)
-   - Involves 2 or more systems
-   - Involves 2 or more stakeholders
-   - Involves 2 or more teams (even within IT so for example, EntApps LTC and EntApps Integrations)
+  - The work will taken more than 48hrs to be built and tested (end to end)
+  - Involves 2 or more systems
+  - Involves 2 or more stakeholders
+  - Involves 2 or more teams (even within IT so for example, EntApps LTC and EntApps Integrations)
 
 The main difference between a project and a change request in ITIL lies in their scope, nature, and the processes they follow. Projects are temporary, comprehensive efforts aimed at achieving specific goals, while change requests are smaller, routine or ad-hoc requests to modify existing IT services or configurations.
 
@@ -303,66 +303,66 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 ### IT Leadership Meeting
 
 - **Purpose**: Every week the IT Leadership team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
-   - **Frequency**: Weekly, on Thursdays
-      - The time of this meeting may vary to accommodate the different timezones of the IT / Business Technology team members.
-   - **Participants**: VP, IT (host), IT PMO, Enterprise Applications Leadership, IT Operations Leadership.
+  - **Frequency**: Weekly, on Thursdays
+    - The time of this meeting may vary to accommodate the different timezones of the IT / Business Technology team members.
+  - **Participants**: VP, IT (host), IT PMO, Enterprise Applications Leadership, IT Operations Leadership.
 
 ### IT Management Team Meetings
 
 - **Purpose**: Every week each IT functional team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
-   - **Frequency**: Weekly
-      - The time of this meeting may vary to accommodate the different timezones of the IT / Business Technology team members.
-   - **Participants**: IT Functional Teams.
+  - **Frequency**: Weekly
+    - The time of this meeting may vary to accommodate the different timezones of the IT / Business Technology team members.
+  - **Participants**: IT Functional Teams.
 
 ### OKR Review
 
 - **Purpose**: Every month the IT Leadership team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
-   - **Frequency**: Monthly
-   - **Participants**: VP, IT (host), IT PMO, Enterprise Applications Leadership, IT Operations Leadership.
+  - **Frequency**: Monthly
+  - **Participants**: VP, IT (host), IT PMO, Enterprise Applications Leadership, IT Operations Leadership.
 
 ### IT Key Review
 
 - **Purpose**: Key review meetings allow a functional group to stay updated on and discuss essential success measurements, such as: OKRs, KPIs, how the team is trending toward achieving goals, blocked tasks, new assignments, workstream changes, etc.
-   - **Frequency**: Quarterly
-   - **Participants**: VP, IT (host), all GitLab.
+  - **Frequency**: Quarterly
+  - **Participants**: VP, IT (host), all GitLab.
 
 ### IT All Hands
 
 - **Purpose**: Share company updates, stay connected, and receive feedback.
-   - **Frequency**: Quarterly (on the first week of the new quarter)
-   - **Participants**: VP, IT (host), all IT cross functional teams.
+  - **Frequency**: Quarterly (on the first week of the new quarter)
+  - **Participants**: VP, IT (host), all IT cross functional teams.
 
 ## Stakeholder Management Meetings
 
 ### Project Status Meetings
 
 - **Purpose**: For each project led by the IT PMO team, a Project Status Meeting is organized to review the project's current state, address ongoing tasks, and discuss any blockers.
-   - **Frequency**: Weekly or every 2 weeks
-   - **Participants**: IT PMO (host), Business DRI(s), Project Subject Matter Experts (SMEs)
+  - **Frequency**: Weekly or every 2 weeks
+  - **Participants**: IT PMO (host), Business DRI(s), Project Subject Matter Experts (SMEs)
 
 ### IT Portfolio Review Meetings (Lead to Cash, CRO and G&A)
 
 - **Purpose**: During these meetings the IT PMO team discuss roadmap & timelines, shifts in priorities and alignment to goals.
-   - **Frequency**: Monthly (on the third week of each month)
-   - **Participants**: IT PMO (host), Business DRI(s).
+  - **Frequency**: Monthly (on the third week of each month)
+  - **Participants**: IT PMO (host), Business DRI(s).
 
 ### IT Portfolio: Quarter Planning (Lead to Cash, CRO and G&A)
 
 - **Purpose**: Discuss roadmap & timelines, shifts in priorities, alignment to goals. This is a strategic meeting to ensure that teams are aligned with their key business partners and have clarity on our shared roadmap.
-   - **Frequency**: Quarterly (on the third week of the month before quarter end)
-   - **Participants**: IT PMO (host), Business & IT Leadership.
+  - **Frequency**: Quarterly (on the third week of the month before quarter end)
+  - **Participants**: IT PMO (host), Business & IT Leadership.
 
 ### IT SteerCo
 
 - **Purpose**: Provide advice, ensure delivery of IT project outputs and the achievement of IT project outcomes.
-   - **Frequency**: Quarterly
-   - **Participants**: VP, IT (host), Business & IT Leadership.
+  - **Frequency**: Quarterly
+  - **Participants**: VP, IT (host), Business & IT Leadership.
 
 ### Budget Planning
 
 - **Purpose**: Discuss the company's budget and make adjustments as needed.
-   - **Frequency**: Annual
-   - **Participants**: Business & IT Leadership.
+  - **Frequency**: Annual
+  - **Participants**: Business & IT Leadership.
 
 ## <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
 

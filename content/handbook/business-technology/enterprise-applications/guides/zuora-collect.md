@@ -54,27 +54,27 @@ The main user interface of the Collections Window consists of the following tabs
 This is the default tab when you start the Collections Window and contains three sections:
 
 - **Status of Accounts**: Pie chart that shows the distribution of accounts in different statuses (in good standing vs. in collections).
-   - Drill down the data in the pie chart by clicking the part for In Collections. It will display a new pie chart that shows the distribution of accounts in collections by age.
-   - Customize the time periods used in the pie chart by clicking `Edit Parameters` on the top right. Both the time period names (Bucket Name) and the numbers of days are customizable.
-      - After modifying the parameters, the user will need to refresh the page to see the changes in the pie charts.
+  - Drill down the data in the pie chart by clicking the part for In Collections. It will display a new pie chart that shows the distribution of accounts in collections by age.
+  - Customize the time periods used in the pie chart by clicking `Edit Parameters` on the top right. Both the time period names (Bucket Name) and the numbers of days are customizable.
+    - After modifying the parameters, the user will need to refresh the page to see the changes in the pie charts.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/zLDY4C87e_A" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 - **Collection Accounts Sorted by Age and Balance**: Scatter plot that shows the age and balance distribution of accounts.
-   - A dot in the plot represents an account: Blue dots are accounts that are assigned to the current user.
-   - Hover over a dot to see details including the account name, total invoice balance and assigned agent.
-   - Click on a dot to open the details page of the corresponding account.
+  - A dot in the plot represents an account: Blue dots are accounts that are assigned to the current user.
+  - Hover over a dot to see details including the account name, total invoice balance and assigned agent.
+  - Click on a dot to open the details page of the corresponding account.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/uzPGDHJfKPk" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 - **Agents**: Displays all agents and the details about the accounts they are responsible for, including the total number of accounts, total accounts balance and numbers of accounts in different statuses.
-   - Click on the name of an agent to open a new page:
-      - The Accounts tab displays the list of accounts that the agent is assigned to.
-      - The Metrics tab includes a pie chart for account balance distribution, a bar chart for account statuses and a bar chart for total balance by accounts.
+  - Click on the name of an agent to open a new page:
+    - The Accounts tab displays the list of accounts that the agent is assigned to.
+    - The Metrics tab includes a pie chart for account balance distribution, a bar chart for account statuses and a bar chart for total balance by accounts.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/lNmCq7SeDmU" frameborder="0" allowfullscreen="true"> </iframe>
@@ -90,7 +90,7 @@ The Accounts tab displays the accounts in collections based on the system condit
 
 - Click `Edit Conditions` on the top right.
 - In the pop up, modify the number of days overdue and the total invoice amount.
-   - *The balance is in the home currency.*
+  - *The balance is in the home currency.*
 
 > For an account to be considered "in Collections" and populated in the Accounts tab, the total invoice balance must be a positive value greater than the specified number and the days overdue must be greater than the specified number. If either of the two conditions is not met, the account is not considered "In Collections".
 
@@ -212,7 +212,7 @@ The UI of Notes consists of four tabs:
 In the Users tab, you can view and manage all users (collection agents) in your organization:
 
 - Change the active status of a user (from active to deactivated or vice versa).
-   - To deactivate the user, deselect Active. To reactivate the user, select Active.
+  - To deactivate the user, deselect Active. To reactivate the user, select Active.
 - Edit the user escalation point by clicking on the menu icon (3 dots on the left) and select Edit.
   - To assign an escalation point for the user, click the drop-down list and type two or more characters from the user name of the intended escalation point.
 

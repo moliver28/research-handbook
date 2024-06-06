@@ -74,9 +74,9 @@ DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/
 
 - <i class="fas fa-envelope fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Email: `securityrisk@gitlab.com`
 - <i class="fab fa-slack fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Slack:
-   - [#security-risk-management channel](https://gitlab.slack.com/archives/C01EKDNRVFD)
-   - [#sec-assurance channel](https://gitlab.slack.com/archives/C0129P7DW75) (includes the broader Security Assurance Team)
-   - Mention `@security-risk`
+  - [#security-risk-management channel](https://gitlab.slack.com/archives/C01EKDNRVFD)
+  - [#sec-assurance channel](https://gitlab.slack.com/archives/C0129P7DW75) (includes the broader Security Assurance Team)
+  - Mention `@security-risk`
 - <i class="fab fa-gitlab fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> GitLab: Tag the team across GitLab using `@gitlab-com/gl-security/security-assurance/security-risk-team`
 
 <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

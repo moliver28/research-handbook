@@ -149,13 +149,13 @@ The [#marketing_integratedmarketing](https://gitlab.slack.com/archives/C03HJQW0D
 In between bi-weekly Campaigns Team Connect calls:
 
 - **Updates** should be added to MRs when possible
-   - Add to #marketing_programs Slack
-   - Begin with `UPDATE: <brief description>` (i.e. `UPDATE: Marketo segmentation live for sales segment`)
-   - Include link to MR (preferred) or issue
+  - Add to #marketing_programs Slack
+  - Begin with `UPDATE: <brief description>` (i.e. `UPDATE: Marketo segmentation live for sales segment`)
+  - Include link to MR (preferred) or issue
 - **Topics** that need input should be added as an MR when possible, with issues as a secondary option, and pinged in Slack with `DISCUSS`
-   - Add to #marketing_programs Slack
-   - Begin with `DISCUSS: <brief description>` (i.e. `DISCUSS: Marketing tool champions`)
-   - Include link to MR (preferred) or issue
+  - Add to #marketing_programs Slack
+  - Begin with `DISCUSS: <brief description>` (i.e. `DISCUSS: Marketing tool champions`)
+  - Include link to MR (preferred) or issue
 
 ## Out of office team coverage
 
@@ -254,7 +254,7 @@ Is our single source of truth (SSoT) for processes and relevant links
 - `mktg-status::complete`: work (or build) is complete and the issue can be closed
 - `mktg-status::blocked`: there were insufficient details in the issue for work to be completed
 - `mktg-status::plan`: this is used for work that is in an earlier stage of planning and a specific request has not been made (backlog issues)
-    - This will likely be used mainly by campaign managers on issues that are not high priority but there is a desire to capture the idea/notes.
+  - This will likely be used mainly by campaign managers on issues that are not high priority but there is a desire to capture the idea/notes.
 
 #### Campaign Team Issue Templates
 

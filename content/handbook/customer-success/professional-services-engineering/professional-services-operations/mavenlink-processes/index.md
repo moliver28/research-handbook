@@ -14,13 +14,13 @@ description: "Learn about the GitLab Professional Services operations processes 
 
 Mavenlink is our current PSA, follow the link below to view process steps and guidelines.
 
-All other processed that relates to professional services operations [can be found on the this page](/handbook/customer-success/professional-services-engineering/professional-services-operations/)
+All other processes that relate to professional services operations [can be found on the this page](/handbook/customer-success/professional-services-engineering/professional-services-operations/).
 
 #### Mavenlink Log In
 
-To log into Mavenlik, you will need to access the GitLab's Okta account
+To log into Mavenlik, you will need to access GitLab's Okta account.
 
-- Confirm access is given to Mavenlink and Okta
+- Confirm access has been given to Mavenlink and Okta
 
 - Click on Mavenlink inside Okta
 
@@ -28,7 +28,7 @@ To log into Mavenlik, you will need to access the GitLab's Okta account
 
 - Verify email
 - Enter password
-- click on Sign On with Okta
+- click "Sign On with Okta"
 
 ![verification1](./verification1.png)
 
@@ -68,7 +68,7 @@ To view projects as Read only/ Guest:
 
 ![User Profile](./Profile.png)
 
-- Update the profile information along with a phote and hit save
+- Update the profile information along with a photo and hit save
 
 #### Mavenlink Collaborator (PSE) Onboarding Checklist
 
@@ -103,7 +103,7 @@ Project Close
 
 ****Account Configuration****
 
-- When you first enter Mavenlink, these are the items to review and update
+- When you first enter Mavenlink, these are the items to review and update:
 - [ ] Update your profile
 - [ ] Configure your email settings and notification preference
 - [ ] Configure your default Project List view
@@ -129,9 +129,9 @@ Project Close
 
 ****Weekly- completed by EOD each Thursday****
 
-- To ensure everything is up to date, review and/or update these items on a weekly basis.
+- To ensure everything is up to date, review and/or update these items on a weekly basis:
 - [ ] Review and approve time sheets each Monday morning, approvals should be done by noon each Monday
-- [ ] Review project status and be sure up to date
+- [ ] Review project status and be sure it is up to date
   - Prospect- PC is setting up Mavenlink project/ Project is at a Stage 5- start reviewing staffing plan
   - In Set Up- PC is setting up Mavenlink project/ Reviewing Staffing/ Welcome to PS Email
   - Okay to Start- Project setup complete/ PM Planning the project
@@ -150,7 +150,7 @@ Project Close
 
 ****Project Close****
 
-- These are the items to complete prior to close out your Project
+- These are the items to complete prior to closing out a Project:
 - [ ] Ensure all your tasks are marked complete
 - [ ] Confirm all time has been tracked in your timesheet
 - [ ] Confirm all expenses have been logged and submitted
@@ -206,7 +206,7 @@ Overview
 
 With Mavenlink’s time approval functionality, members with Project Lead account permissions (or higher) can access the Time Approvals page where they can view and manage time for all projects in which they have Financials permissions (or higher).
 
-The Time Approvals page allows you to view Submitted, Unsubmitted, and Rejected time entries from tabs with the corresponding names. Depending on the state of the submission, you can view the timesheet, private message a user who submitted time, and either approve or reject the time entry. You can also directly message those who still needs to submit time, reminding them to do so.
+The Time Approvals page allows you to view Submitted, Unsubmitted, and Rejected time entries from tabs with the corresponding names. Depending on the state of the submission, you can view the timesheet, private message a user who submitted time, and either approve or reject the time entry. You can also directly message those who still need to submit time, reminding them to do so.
 
 If you have Report Viewer account permissions (or higher)—or have been designated as a Time Approver for an individual member or project—you’ll see the Your Approvals check box. You can select this checkbox to only see the time that you’re responsible for approving; otherwise, deselect it to review and take action on all submissions.
 
@@ -295,39 +295,37 @@ Once the PS Opportunity is closed/ won, a notification is sent from SFDC.
 1. Review project opportunity and documentation
    - PS Project- SOW
    - Training Project- Order Form or SOW if custom training purchased
+
 1. Update the project status to In Set Up
 1. Review project settings:
-
-  - Delete out the Start and End Date
-  - Update [project color](/handbook/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/#mavenlink-project-status-colors)
-  - Update the project budget to match the budget of the opportunity, SOW or Order Form
-  - Uncheck the include expenses box
-  - Target Margin should be 40%
-  - Update [Rate Card](https://docs.google.com/spreadsheets/d/1yzpCk68aomSxY1vvhZ7dLZEckknx63FQRz3k2bjkFxs/edit#gid=0)
-  - Update task billing mode
-  - Update task default
-  - Review Organization to be sure it is set to GitLab
+   - Delete out the Start and End Date
+   - Update [project color](/handbook/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/#mavenlink-project-status-colors)
+   - Update the project budget to match the budget of the opportunity, SOW or Order Form
+   - Uncheck the include expenses box
+   - Target Margin should be 40%
+   - Update [Rate Card](https://docs.google.com/spreadsheets/d/1yzpCk68aomSxY1vvhZ7dLZEckknx63FQRz3k2bjkFxs/edit#gid=0)
+   - Update task billing mode
+   - Update task default
+   - Review Organization to be sure it is set to GitLab
 
 1. Update the Custom Fields
-
-  - Engagement Manager
-  - Add GitLab Project Link
-  - Security Requirements
-  - Project Components
-  - Billing Type
-  - Billing Terms
-  - Passice Acceptance Language
-  - Revenue Release
+   - Engagement Manager
+   - Add GitLab Project Link
+   - Security Requirements
+   - Project Components
+   - Billing Type
+   - Billing Terms
+   - Passice Acceptance Language
+   - Revenue Release
 
 1. Review task tracker
-
-  - For Customer SOW, remove the task and ask the EM to push over the tasks to the Mavenlink project
-  - Once tasks are pushed over to the Mavenlink project, review task hours and milestone budget to be sure they are correct
-  - For SKUd offerings, review the task to be sure they match the SOW or Order form
-    - Also update the task details
-      - PS Category
-      - PS Type
-      - PS Services
+   - For Customer SOW, remove the task and ask the EM to push over the tasks to the Mavenlink project
+   - Once tasks are pushed over to the Mavenlink project, review task hours and milestone budget to be sure they are correct
+   - For SKUd offerings, review the task to be sure they match the SOW or Order form
+     - Also update the task details
+       - PS Category
+       - PS Type
+       - PS Services
 
 1. Be sure there are no start or due dates set in the task tracker
 1. Add Unnamed resources in the Master Planning until resources have been selected

@@ -54,10 +54,10 @@ The Associate Partner Territory Manager is responsible for the following with si
 - Coordinate GitLab team members to meet partner performance objectives and partners’ expectations.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 - In collaboration with partner leaders at designated partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions.
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions.
 - Participate in the partner planning process that develops mutual performance objectives, financial targets, and critical milestones associated with a productive partner relationship.
 - In collaboration with the Partner Program team, Partner Marketing, etc., identify partner go-to-market (GTM) demand generation activities and/or partner services offerings to grow joint revenue.
 - Stay abreast of competitive products, technologies and industry trends.
@@ -137,10 +137,10 @@ The Partner Territory Manager (intermediate) is a [grade 6]({{< ref "compensatio
 - Coordinate GitLab team members to meet partner performance objectives and partners’ expectations.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 - In collaboration with partner leaders at designated partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions.
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions.
 - Participate in the partner planning process that develops mutual performance objectives, financial targets, and critical milestones associated with a productive partner relationship.
 - In collaboration with the Partner Program team, Partner Marketing, etc., identify partner go-to-market (GTM) demand generation activities and/or partner services offerings to grow joint revenue.
 - Stay abreast of competitive products, technologies and industry trends.
@@ -233,10 +233,10 @@ The Senior Partner Territory Manager is responsible for the following with occas
 - Manage the day-to-day needs of the partners they manage.
 - Coordinate GitLab team members to meet partner performance objectives and partners’ expectations.
 - In collaboration with partner leaders at designated partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions.
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 - Participate in the partner planning process that develops mutual performance objectives, financial targets, and critical milestones associated with a productive partner relationship.
 - In collaboration with the Partner Program team, Partner Marketing, etc., identify partner go-to-market (GTM) demand generation activities and/or partner services offerings to grow joint revenue.
@@ -340,10 +340,10 @@ The Staff Partner Territory Manager is responsible for the following with minima
 - Manage the day-to-day needs of the partners they manage.
 - Coordinate GitLab team members to meet partner performance objectives and partners’ expectations.
 - In collaboration with partner leaders at designated partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions.
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 - Participate in the partner planning process that develops mutual performance objectives, financial targets, and critical milestones associated with a productive partner relationship.
 - In collaboration with the Partner Program team, Partner Marketing, etc., identify partner go-to-market (GTM) demand generation activities and/or partner services offerings to grow joint revenue.

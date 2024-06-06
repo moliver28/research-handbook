@@ -20,21 +20,21 @@ It’s important to note that there are pros and cons to using unmoderated testi
 **Unmoderated**
 
 - Pros:
-    - Very fast turnaround time (hours)
-    - No coordination needed for scheduling or gratuities
-    - Large, diverse participant panel
+  - Very fast turnaround time (hours)
+  - No coordination needed for scheduling or gratuities
+  - Large, diverse participant panel
 - Cons:
-    - Can’t talk to participants to get them back on track or to confirm if they understand the task
-    - Requires a clear set of tasks/instructions/questions
+  - Can’t talk to participants to get them back on track or to confirm if they understand the task
+  - Requires a clear set of tasks/instructions/questions
 
 **Moderated**
 
 - Pros:
-    - Able to have discussions with participants and go deep into an observed behavior
-    - Can course correct if needed
+  - Able to have discussions with participants and go deep into an observed behavior
+  - Can course correct if needed
 - Cons:
-    - Time consuming (weeks)
-    - Requires scheduling and gratuity coordination
+  - Time consuming (weeks)
+  - Requires scheduling and gratuity coordination
 
 ### Best practices for your study
 

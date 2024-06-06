@@ -62,11 +62,11 @@ It's sometimes hard to remember to stay active when you work from home. If you'r
 1. Avoid "Digital Eye Strain" by following the [20-20-20 Rule](https://www.healthline.com/health/eye-health/20-20-20-rule#definition). Every 20 minutes look into the distance (at least 20 feet/6 meters) for 20 seconds.
 1. Schedule physical time on your calendar
 
-  - Go for a walk or do a short exercise for at least 15 minutes a day. Model this practice for your team by adding it to your calendar.
+   - Go for a walk or do a short exercise for at least 15 minutes a day. Model this practice for your team by adding it to your calendar.
 
-> **"Getting out of the house before I start my day is very important for me.
-> Either walking the dog or going for a swim to clear my head and get the blood flowing.”**
-> [- *Daniel G., Product Manager*](/handbook/company/team#danielgruesso)
+   > **"Getting out of the house before I start my day is very important for me.
+   > Either walking the dog or going for a swim to clear my head and get the blood flowing.”**
+   > [- *Daniel G., Product Manager*](/handbook/company/team#danielgruesso)
 
 ## What are the challenges of all-remote management?
 

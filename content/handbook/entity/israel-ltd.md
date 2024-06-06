@@ -66,7 +66,7 @@ Currently, GitLab provides the below additional benefits, in addition to mandato
 All team members in Israel are enrolled in the Pension Arrangement. In general the Pension Plan contributions are outlined below, however please refer to your employment agreement for specific details.
 
 - Team Members contribute 6% through payroll deductions. Team Members have the option to increase their payroll deductions if they choose, up to 7% max.
-- Gitlab contributes up to 6.5% (includes disability) and 8.33% (severance pay).There are special cases where this may vary, please refer to your employee contract for specfics.
+- Gitlab contributes up to 6.5% (includes disability) and 8.33% (severance pay).There are special cases where this may vary, please refer to your employee contract for specifics.
 - You can elect and personalize your plan via Shaldan or your private insurance agency.
 - Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
 
@@ -95,7 +95,7 @@ Accrued Recuperation is an Israel entitlement meant to help fund expenses that e
 
 ### Gifts
 
-As customary in Israel, GitLab offers monetary gifts to team members during major holidays (Passover and Rosh Hashannah) and during major life events, such as birth of a child, or marriage. These gifts will be provided via gift card and reported as taxabile income.
+As customary in Israel, GitLab offers monetary gifts to team members during major holidays (Passover and Rosh Hashannah) and during major life events, such as birth of a child, or marriage. These gifts will be provided via gift card and reported as taxable income.
 
 The People-Connect Team will administer this benefit.
 
@@ -127,9 +127,9 @@ Team members are entitled to 1.5 days of sick leave per month, up to a maximum o
 From the first day of sick leave, the team member is not entitled to pay, but on the second and third day of sickness, the team member is entitled to 50.00% of their regular pay
 From the 4th day onwards, the team member is entitled to 100.00% of their regular pay.  Upon return, team members must provide a medical certificate from a medical professional.  All medical certificates should be sent to the Absence Management Team (leaves@gitlab.com).
 
-Under the Sick Pay Law amendment an team member suffering from a malignant disease (i.e cancer) or a condition that requires regular dialysis treatments, or who recovered from such a disease, is eligible for full sick pay (100%) from the first day of absence, if on leave from work to receive care or undergo periodic examinations for that condition. (up to a maximum of 90 days). Team members must provide a medical certificate from a medical professional confirming the necessity of treatment or examination because of the condition.
+Under the Sick Pay Law amendment a team member suffering from a malignant disease (i.e. cancer) or a condition that requires regular dialysis treatments, or who recovered from such a disease, is eligible for full sick pay (100%) from the first day of absence, if on leave from work to receive care or undergo periodic examinations for that condition (up to a maximum of 90 days). Team members must provide a medical certificate from a medical professional confirming the necessity of treatment or examination because of the condition.
 
-If eligible, sick Leave runs concurrently with GitLab's Sick Leave policy and offers supplemental wages for the first 25 working days. Team members must notify their manager of any sick time usage, and then enter the time away into Time Off by Deel by selecting the label `Out Sick`.  If a team member is out sick for more than 5 working days, they must contact the Absence Management Team (leaves@gitlab.com).
+If eligible, sick leave runs concurrently with GitLab's Sick Leave policy and offers supplemental wages for the first 25 working days. Team members must notify their manager of any sick time usage, and then enter the time away into Time Off by Deel by selecting the label `Out Sick`.  If a team member is out sick for more than 5 working days, they must contact the Absence Management Team (leaves@gitlab.com).
 
 ### Maternity Leave
 

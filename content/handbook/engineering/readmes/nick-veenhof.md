@@ -7,10 +7,10 @@ job: "Director of Contributor Success"
 
 ## Related links
 
- - [GitLab profile](https://gitlab.com/nick_vh)
- - [LinkedIn profile](https://www.linkedin.com/in/nickveenhof/)
- - [Twitter](https://twitter.com/Nick_vh)
- - [Function profile](/job-families/marketing/developer-relations/contributor-success/management/#director-contributor-success)
+- [GitLab profile](https://gitlab.com/nick_vh)
+- [LinkedIn profile](https://www.linkedin.com/in/nickveenhof/)
+- [Twitter](https://twitter.com/Nick_vh)
+- [Function profile](/job-families/marketing/developer-relations/contributor-success/management/#director-contributor-success)
 
 ## About me
 
@@ -44,10 +44,10 @@ Here's a bunch of topics I'll be happy to talk about:
 These are some places I've lived in for a while, or live in that I am always
 keen to talk about:
 
- - [Boston, USA](https://en.wikipedia.org/wiki/Boston)
- - [Barcelona, Spain](https://en.wikipedia.org/wiki/Barcelona)
- - [Lisbon, Portugal](https://en.wikipedia.org/wiki/Lisbon)
- - [Ghent, Belgium](https://en.wikipedia.org/wiki/Ghent)
+- [Boston, USA](https://en.wikipedia.org/wiki/Boston)
+- [Barcelona, Spain](https://en.wikipedia.org/wiki/Barcelona)
+- [Lisbon, Portugal](https://en.wikipedia.org/wiki/Lisbon)
+- [Ghent, Belgium](https://en.wikipedia.org/wiki/Ghent)
 
 ### Conferences I adore
 

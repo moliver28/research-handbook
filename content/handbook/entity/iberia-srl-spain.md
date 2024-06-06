@@ -75,9 +75,30 @@ Overtime, if appropriate, _must be expressly and previously authorized in writin
 
 ## Timesheets
 
-Team members will be expected to fill out a monthly timesheet at the end of each month. The timesheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF) and either the english or spanish version can be used.The timesheet must then be sent to the Non-US Payroll team via HelpLab (under the time-tracking category) before the 2nd of the following month. For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For more information please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
+Team members will be expected to fill out a monthly timesheet at the end of each month. The timesheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF) and either the English or Spanish version can be used.
 
-For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
+### Submitting Timesheets
+
+1. Completed timesheets must be submitted before the 2nd of the following month.
+1. Completed timesheets must be saved as a PDF file.
+1. Go to your Okta account and click on the HelpLab SSO tile.
+1. Click on the Payroll dropdown, and select Timecards.
+
+![HelpLab Payroll dropdown](/handbook/entity/images/timecards.png "HelpLab Payroll dropdown")
+
+1. Click on the Timecards request tile.
+
+![Timecards request tile](/handbook/entity/images/timecards-request.png "HelpLab Timecards Request")
+
+1. Enter the Entity (GitLab Iberia srl)
+1. Enter that No, you do not require your manager's approval
+1. In the How can we help box, state that you are submitting your timesheet for MONTH YEAR, for GitLab Iberia srl.
+1. Upload your timesheet pdf file, and ensure that it contains your Name, the Month and Year of the timesheet in the file title.
+1. Click Submit.
+
+![Timecards submission](/handbook/entity/images/timecards-submission.png "HelpLab Timecard Submission")
+
+For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
 
 ## Spain-Specific Team Member Benefits
 

@@ -76,49 +76,49 @@ To learn more about these factors, see [our definition of usability](#usability-
 #### Effectiveness
 
 - What’s being measured?
-    - Effectiveness can be determined by calculating the pass rate. This shows the success or completion rate of each task.
+  - Effectiveness can be determined by calculating the pass rate. This shows the success or completion rate of each task.
 - How is it measured?
-    - The pass rate can be determined by dividing the number of participants that were able to complete the task by the total number of participants.
-    - Ensure that you are observing and documenting *why* participants are failing as well.
+  - The pass rate can be determined by dividing the number of participants that were able to complete the task by the total number of participants.
+  - Ensure that you are observing and documenting *why* participants are failing as well.
 - Why are we measuring it?
-    - We want users to succeed in reaching their goals. Understanding why and where they fail will help us improve the experience.
+  - We want users to succeed in reaching their goals. Understanding why and where they fail will help us improve the experience.
 
 #### Efficiency
 
 - What’s being measured?
-    - Efficiency can be measured by understanding the participants perception of how easy a task is.
+  - Efficiency can be measured by understanding the participants perception of how easy a task is.
 - How is it measured?
-    - After each task, ask the [Single Ease Question](/handbook/product/ux/category-maturity/category-maturity-scorecards/#the-3-questions-we-ask).
-       - *“Overall, this task was…”* <br> *- Extremely difficult* <br> *- Difficult* <br> *- Neither easy nor difficult* <br> *- Easy* <br> *- Extremely easy* <br> *“Why?”*
-    - Ensure that you are asking *why* participants rated it this way right after they reply.
+  - After each task, ask the [Single Ease Question](/handbook/product/ux/category-maturity/category-maturity-scorecards/#the-3-questions-we-ask).
+    - *“Overall, this task was…”* <br> *- Extremely difficult* <br> *- Difficult* <br> *- Neither easy nor difficult* <br> *- Easy* <br> *- Extremely easy* <br> *“Why?”*
+  - Ensure that you are asking *why* participants rated it this way right after they reply.
 - Why are we measuring it?
-    - We also collect this during [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/#the-3-questions-we-ask) (CM Scorecards). Collecting it as part of a usability test gives a prediction and pulse check for a later CM Scorecards study.
-    - It is important to understand the participants’ reasons for giving a rating, especially in situations where a rating is low. This is especially important in usability testing when the number of participants is also low.
+  - We also collect this during [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/#the-3-questions-we-ask) (CM Scorecards). Collecting it as part of a usability test gives a prediction and pulse check for a later CM Scorecards study.
+  - It is important to understand the participants’ reasons for giving a rating, especially in situations where a rating is low. This is especially important in usability testing when the number of participants is also low.
 
 #### Satisfaction
 
 - What’s being measured?
-    - Satisfaction can be determined by understanding the participants' perception of how the experience is.
+  - Satisfaction can be determined by understanding the participants' perception of how the experience is.
 - How is it measured?
-    - After all tasks are completed, ask the [User Experience rating question](/handbook/product/ux/category-maturity/category-maturity-scorecards/#the-3-questions-we-ask).
-       - *“How would you rate the quality of the user experience?”* <br> *- Extremely good* <br> *- Good* <br> *- Neither good nor bad* <br> *- Bad* <br> *- Extremely bad*
-    - Ensure that you are asking *why* participants rated it this way right after they reply.
+  - After all tasks are completed, ask the [Satisfaction rating question](/handbook/product/ux/category-maturity/category-maturity-scorecards/#the-3-questions-we-ask).
+    - *“How would you rate the quality of this experience?”* <br> *- Extremely good* <br> *- Good* <br> *- Neither good nor bad* <br> *- Bad* <br> *- Extremely bad*
+  - Ensure that you are asking *why* participants rated it this way right after they reply.
 - Why are we measuring it?
-    - We also collect this during CM Scorecards. Collecting it as part of a usability test gives a prediction and pulse check for a later CM Scorecards study.
-    - It is important to understand the participants’ reasons for giving a rating. This is especially important in usability testing when the number of participants is also low.
+  - We also collect this during CM Scorecards. Collecting it as part of a usability test gives a prediction and pulse check for a later CM Scorecards study.
+  - It is important to understand the participants’ reasons for giving a rating. This is especially important in usability testing when the number of participants is also low.
 
 #### Usefulness
 
 - What’s being measured?
-    - Usefulness can be determined by understanding the participants perception of how much the tested features would enable them to achieve their goals.
+  - Usefulness can be determined by understanding the participants perception of how much the tested features would enable them to achieve their goals.
 - How is it measured?
-    - After all tasks are completed, ask our [adjusted UMUX Lite question](/handbook/product/ux/category-maturity/category-maturity-scorecards/#the-3-questions-we-ask).
-       - *“You just experienced our implementation of <Feature/Scenario>. How would you agree or disagree with the following statement: <Feature/Scenario> has the capabilities I need for what I need to do in my own work.”* <br> *- Strongly agree* <br> *- Agree* <br> *- Neither agree nor disagree* <br> *- Disagree* <br> *- Strongly disagree*
-    - Ensure that you are asking *why* participants rated it this way right after they reply.
+  - After all tasks are completed, ask our [adjusted UMUX Lite question](/handbook/product/ux/category-maturity/category-maturity-scorecards/#the-3-questions-we-ask).
+    - *“You just experienced our implementation of <Feature/Scenario>. How would you agree or disagree with the following statement: <Feature/Scenario> has the capabilities I need for what I need to do in my own work.”* <br> *- Strongly agree* <br> *- Agree* <br> *- Neither agree nor disagree* <br> *- Disagree* <br> *- Strongly disagree*
+  - Ensure that you are asking *why* participants rated it this way right after they reply.
 - Why are we measuring it?
-    - We also collect this during CM Scorecards. Collecting it as part of a usability test gives a prediction and pulse check for a later CM Scorecards study.
-    - This score highly correlates to the [System Usability Scale](/handbook/product/ux/performance-indicators/system-usability-scale/) (SUS) score, one of our [regular performance indicators](/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score).
-    - It is important to understand the participants’ reasons for giving a rating, especially in situations where a rating is low. This is especially important in usability testing when the number of participants is also low.
+  - We also collect this during CM Scorecards. Collecting it as part of a usability test gives a prediction and pulse check for a later CM Scorecards study.
+  - This score highly correlates to the [System Usability Scale](/handbook/product/ux/performance-indicators/system-usability-scale/) (SUS) score, one of our [regular performance indicators](/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score).
+  - It is important to understand the participants’ reasons for giving a rating, especially in situations where a rating is low. This is especially important in usability testing when the number of participants is also low.
 
 ## How usability testing relates to Category Maturity Scorecards (CM Scorecards)
 

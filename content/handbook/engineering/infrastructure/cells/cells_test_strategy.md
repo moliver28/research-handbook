@@ -17,16 +17,16 @@ This approach has the following requirements:
 The testing strategy for Cells follows our practice of testing at the correct level. The testing will be focused on a couple of efforts:
 
 - Ensuring we have good functional coverage at the appropriate level
-    - Reusing existing testing as much as possible to reduce burden on the teams.
+  - Reusing existing testing as much as possible to reduce burden on the teams.
 - Creating system level E2E tests incrementally to cover boundary conditions
-    - These will be built incrementally as features are built, they will be automated and added to the E2E test suite
-    - These tests will be included in our existing pipelines and run per their cadence (unless a need is raised to run on a separate pipeline)
+  - These will be built incrementally as features are built, they will be automated and added to the E2E test suite
+  - These tests will be included in our existing pipelines and run per their cadence (unless a need is raised to run on a separate pipeline)
 - Non functional testing will also be included
-    - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
-    - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
-    - Performance testing
-        - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures
-        - Enhancing our existing pipelines to capture performance metrics to Shift Left performance testing and enable devs to have better visibility into performance concerns
+  - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
+  - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
+  - Performance testing
+    - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures
+    - Enhancing our existing pipelines to capture performance metrics to Shift Left performance testing and enable devs to have better visibility into performance concerns
 
 Viewed as a diagram, this apporach would look like:
 

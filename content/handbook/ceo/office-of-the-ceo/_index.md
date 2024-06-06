@@ -103,14 +103,14 @@ Examples of tasks or initiatives that are important to the CEO:
 - Values updates
 - Preparing for calls
 - Special projects. These have included:
-    - Operationalizing charitable donations
-    - Supporting updates to GitLab's expense policy
-    - Quantifying the value of transparency
-    - Auditing training resources and creating an accessible source of truth
-    - Calculating GitLab's carbon emissions and leading a first iteration of a carbon reduction initiative
-    - Identifying the underlying reasons for why we didn't meet targets for a core GTM KPI and identifying optimizations
-    - Supporting an initiative to increase customer CI adoption
-    - Serving as the DRI for the [SaaS free user initiative](https://docs.gitlab.com/ee/user/free_user_limit.html#:~:text=A%20five%2Duser%20limit%20applies,applied%20on%20June%2013%2C%202023)
+  - Operationalizing charitable donations
+  - Supporting updates to GitLab's expense policy
+  - Quantifying the value of transparency
+  - Auditing training resources and creating an accessible source of truth
+  - Calculating GitLab's carbon emissions and leading a first iteration of a carbon reduction initiative
+  - Identifying the underlying reasons for why we didn't meet targets for a core GTM KPI and identifying optimizations
+  - Supporting an initiative to increase customer CI adoption
+  - Serving as the DRI for the [SaaS free user initiative](https://docs.gitlab.com/ee/user/free_user_limit.html#:~:text=A%20five%2Duser%20limit%20applies,applied%20on%20June%2013%2C%202023)
 
 ## How to Work
 

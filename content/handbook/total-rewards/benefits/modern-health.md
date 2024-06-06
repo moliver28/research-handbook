@@ -173,7 +173,7 @@ Similar to coaching, therapists will start each session with an introduction and
 Before your first session, we encourage you to ask yourself a few questions. As with many other aspects of your life, the more effort you put into your coaching and/or therapy experience, the more you’ll get out of it. These can help guide your initial conversations with your coach or therapist.
 
 - Where do you want to start?
-   - You might have a lot of areas of interest (e.g., you want to learn mindfulness, and work on your finances). Spend some time thinking about where you want to get started before your first visit. What is most on your mind or stressing you out?
+  - You might have a lot of areas of interest (e.g., you want to learn mindfulness, and work on your finances). Spend some time thinking about where you want to get started before your first visit. What is most on your mind or stressing you out?
 - Do you know what your goals are or do you need help figuring that out?
 - What do you want to get out of coaching or therapy?
 - What do you want your coach to be like? Do you want someone who holds you accountable, who is a cheerleader, who challenges you?

@@ -13,7 +13,7 @@ Both prospects and existing customers should request an Ultimate trial by going 
 
 ### Notes Regarding Trial Licenses
 
- - If a Premium Trial is required instead of an Ultimate trial, then the customer should request the trial license as defined above. Then the GitLab Account Executive must create a [GitLab Support Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) (Internal) in order to downgrade the Trial license from Ultimate to Premium. Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the **Self-Managed Trial related - Modify an existing Self-managed trial** request type. GitLab Support will create a Premium license and email it to the user.
+- If a Premium Trial is required instead of an Ultimate trial, then the customer should request the trial license as defined above. Then the GitLab Account Executive must create a [GitLab Support Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) (Internal) in order to downgrade the Trial license from Ultimate to Premium. Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the **Self-Managed Trial related - Modify an existing Self-managed trial** request type. GitLab Support will create a Premium license and email it to the user.
 
 ## Trial Guidelines
 
@@ -40,18 +40,18 @@ All internal requests regarding licensing, subscriptions, trials, and grace peri
 
 Once you access the form, enter your email and choose "GitLab L&R Internal Request for Global Customers" or "GitLab L&R Internal Request for US Federal Customers" to renew and extend a trial license.  
 
-Note you also need to have [Zendesk Light Agent account](content/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) before you make this request.
+Note you also need to have [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) before you make this request.
 
 References
 
-- [Support Internal Requests](content/handbook/support/internal-support/#internal-requests)
-- [Support Super Form](content/handbook/support/readiness/operations/docs/gitlab/support_super_form/)
+- [Support Internal Requests](/handbook/support/internal-support/#internal-requests)
+- [Support Super Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/)
 
 ### Populating your group with project data
 
 - When determining which projects to import into the trial namespace, we recommend considering the following criteria:
-   - Use copies of your own existing groups/projects - see [General Approaches](#general-approaches) below
-   - Use GitLab Security demo projects - GitLab provides a set of [security demos](https://gitlab.com/gitlab-org/security-products/demos) to show how the various security scans work
+  - Use copies of your own existing groups/projects - see [General Approaches](#general-approaches) below
+  - Use GitLab Security demo projects - GitLab provides a set of [security demos](https://gitlab.com/gitlab-org/security-products/demos) to show how the various security scans work
 
 - Only one [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) is available with a trial license and [Group Access Tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) are not available on a trial license
 

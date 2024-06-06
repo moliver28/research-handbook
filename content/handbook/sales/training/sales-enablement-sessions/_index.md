@@ -13,12 +13,9 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| May 23 | Winning with Analyst Relations | AR Team  |
-| May 30 | Partner e-marketplace | Partner Team |
-| Jun 6 | TBD |  |
 | Jun 13 | GitLab 17 Launch  | Product Marketing |
 | Jun 20 | TBD |  |
-| Jun 27 | TBD |  |
+| Jun 27 | Business Value Services & Ecosystems | Field Enablement |
 | Jul 4 | TBD |  |
 | Jul 11 | TBD |  |
 | Jul 18 | *No session during the last week of the quarter* | N/A |
@@ -31,8 +28,10 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
-| 2024-05-16 | **GitLab Ultimate vs. GitHub Advanced Security Comparison** | Private |
-| 2024-05-09 | **[New CSE Workflow Overview](https://drive.google.com/file/d/1KPPbmBGByrdy14F9dUCqD3e0sSaPJWvx/view?usp=drive_link)** | CS Team  |
+| 2024-05-30 | **[Partner e-marketplace](https://drive.google.com/file/d/13pJQu_gAIwtFDvvc-Xriq1g4huOZkaOb/view?usp=drive_link)** | Private |
+| 2024-05-23 | **[Winning with Analyst Relations](https://drive.google.com/file/d/13kyzyQ6CYMampDNCTkF5I6_CMA_G1Cbc/view?usp=drive_link)** | Private  |
+| 2024-05-16 | **[GitLab Ultimate vs. GitHub Advanced Security Comparison](https://drive.google.com/file/d/1G93ZjvcGL1UmBl9R5Rm-DqBq0wSamW8u/view?usp=drive_link)** | Private |
+| 2024-05-09 | **[New CSE Workflow Overview](https://drive.google.com/file/d/1KPPbmBGByrdy14F9dUCqD3e0sSaPJWvx/view?usp=drive_link)** | Private  |
 | 2024-05-02  | **[New GitLab x Google Cloud Integrations](https://drive.google.com/file/d/1wd8d5lVVsLUeOkbScmlp-eZTAokgxqqx/view?usp=drive_link)** | Private  |
 | 2024-04-18 | **[GitLab Duo AI + Competitive Update](https://drive.google.com/file/d/1tHoBhnRyGooHduEryOUPfXJwVpesZcG4/view?usp=drive_link)** | Private |
 | 2024-04-11 | **[FY25-Q1 - GitLab Cloud Partnerships Update](https://drive.google.com/file/d/1hcoGgS7u_Ea_h93aprWhHezRVoEOxood/view?usp=drive_link)** | Private |
@@ -254,24 +253,24 @@ There are a few places to see previous Sales Enablement sessions:
 **2-4 weeks before the start of a new quarter**
 
 - Alignment call to finalize topics & tentative schedule with
-    - Sales Training Facilitator (John Blevins)
-    - Director, Sales & Customer Enablement (David Somers)
+  - Sales Training Facilitator (John Blevins)
+  - Director, Sales & Customer Enablement (David Somers)
 - After alignment call, John Blevins to open issues for each enablement session with
-    - Documentation of preliminary learning objectives, title, expected outcomes, etc.
-    - Tentative dates listed as “TENTATIVE - ZZZ”
-    - Intended SME/speaker(s) assigned to the issue
-    - Ping the SME in the issue to ask if they can commit to it, get their commitment before you schedule.
+  - Documentation of preliminary learning objectives, title, expected outcomes, etc.
+  - Tentative dates listed as “TENTATIVE - ZZZ”
+  - Intended SME/speaker(s) assigned to the issue
+  - Ping the SME in the issue to ask if they can commit to it, get their commitment before you schedule.
 
 **1-2 weeks before the start of a new quarter**
 
 - John Blevins to schedule meeting with all SMEs/speakers
-    - Goal: Ensure SMEs/speakers are aware of the upcoming sessions and can own the sessions
-        - Review schedule, outcomes, objectives
-        - Answer questions
-        - Adjust as needed
-    - Manage ongoing collaboration via issue, Google Docs, and public Slack channels (e.g. #product-marketing or #sales-and-customer-enablement)
+  - Goal: Ensure SMEs/speakers are aware of the upcoming sessions and can own the sessions
+    - Review schedule, outcomes, objectives
+    - Answer questions
+    - Adjust as needed
+  - Manage ongoing collaboration via issue, Google Docs, and public Slack channels (e.g. #product-marketing or #sales-and-customer-enablement)
 
-    - The Sales and Customer Enablement team discusses upcoming trainings in regular meetings with sales leadership and the GitLab Product Marketing Management (PMM) team.
+  - The Sales and Customer Enablement team discusses upcoming trainings in regular meetings with sales leadership and the GitLab Product Marketing Management (PMM) team.
 - Sessions picked to execute on should be chosen from the backlog, or a new issue created, and moved to the `status:plan` column.
 - Assign the issue to the speaker and add `Moderator: <name>` to the issue description.
   - The speaker will then research and generate the conent for the training.

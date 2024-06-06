@@ -56,13 +56,13 @@ In order to track the contacts that are associated with a PSE, we utilize the PS
 - Success Criteria - the pre-defined criteria for what success will look like at the end of this engagement
 - Sertifi EContract - link to the Sertifi contract
 - Status - the current project status
-   - Backlog - new booking, project initiation has not started
-   - On Hold - project is on hold due to the customer
-   - Initiation - in kick off or planning stages
-   - In Progress - the project is being worked on
-   - Closure - waiting for customer signature or finalizing paperwork but the services have been rendered
-   - Completed - the project is 100%, all items have been signed-off, and this PS Engagement object is complete
-   - Cancelled - the project has been cancelled
+  - Backlog - new booking, project initiation has not started
+  - On Hold - project is on hold due to the customer
+  - Initiation - in kick off or planning stages
+  - In Progress - the project is being worked on
+  - Closure - waiting for customer signature or finalizing paperwork but the services have been rendered
+  - Completed - the project is 100%, all items have been signed-off, and this PS Engagement object is complete
+  - Cancelled - the project has been cancelled
 - SOW Link - link to the SOW
 - Collaboration Project - link to the GitLab collaboration project
 - % Complete - the PS engineer's estimate on the project's completion

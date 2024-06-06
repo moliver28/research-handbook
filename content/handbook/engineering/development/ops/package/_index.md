@@ -319,22 +319,22 @@ Before the milestone is finished:
 Refinement guidelines:
 
 * Identify and resolve outstanding questions or discussions.
-    * Does the issue has a clear, updated, and confirmed design associated?
-    * Does the issue contains all the data necessary to start implementation?
+  * Does the issue has a clear, updated, and confirmed design associated?
+  * Does the issue contains all the data necessary to start implementation?
 * Identify missing dependencies.
-    * Is the issue dependent on any other issue in the milestone, or the dependency is explicitly communicated, noted in the description and the issue is linked?
-    * The GraphQL API or the REST API contains all the data necessary to implement the UI?
-    * The GraphQL API or the REST API implements all the necessary filters, sorting, and pagination to implement the UX?
-    * The GraphQL API or the REST API contains all the necessary mutation/actions to implement the UX?
+  * Is the issue dependent on any other issue in the milestone, or the dependency is explicitly communicated, noted in the description and the issue is linked?
+  * The GraphQL API or the REST API contains all the data necessary to implement the UI?
+  * The GraphQL API or the REST API implements all the necessary filters, sorting, and pagination to implement the UX?
+  * The GraphQL API or the REST API contains all the necessary mutation/actions to implement the UX?
 * Raise any questions, concerns, or alternative approaches.
-    * Could this issue be resolved in different ways?
-    * What is the biggest risk?
+  * Could this issue be resolved in different ways?
+  * What is the biggest risk?
 * Involve stable counterparts.
-    * The impact on QA and Feature tests of this issue is clear and, if necessary, the SET stable counterpart is involved in reviewing them?
-    * The impact on security of this issue is clear, and if necessary, a stable counterpart is involved?
+  * The impact on QA and Feature tests of this issue is clear and, if necessary, the SET stable counterpart is involved in reviewing them?
+  * The impact on security of this issue is clear, and if necessary, a stable counterpart is involved?
 * Outline an implementation plan.
-    * What is the smallest thing possible to do?
-    * Should we use a feature flag?
+  * What is the smallest thing possible to do?
+  * Should we use a feature flag?
 * Assign labels.
 * Assign a weight to the issue according to [weighting guidelines](/handbook/engineering/development/ops/package/#issue-weighting).
 * Create any follow-up issues that come out of refinement

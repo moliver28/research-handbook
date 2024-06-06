@@ -146,16 +146,16 @@ GitLab and PMG triage issues and plan the completion of work in relevant milesto
 PMG initiates & manages Publisher/Sponsorship contracts using the following process:
 
 - Pre-RFP
-   - GitLab and PMG collaborate to confirm the available quarterly budget, targeting guidelines, and GitLab’s content priorities for publisher programs.
+  - GitLab and PMG collaborate to confirm the available quarterly budget, targeting guidelines, and GitLab’s content priorities for publisher programs.
 - RFP Process
-   - PMG begins the RFP process by contacting multiple vendors that may be a potential fit. (PMG handles all email and phone communication with vendors). Ideally, for any particular initiative - it is best to stick to a maximum of 3 potential partners to look into.
-   - Based on a vendor’s program offerings and targeting capabilities, PMG will evaluate and recommend potential vendors to GitLab.
-   - Once GitLab has decided on a recommended vendor(s), PMG will handle contracting the program—vendors bill PMG directly.
+  - PMG begins the RFP process by contacting multiple vendors that may be a potential fit. (PMG handles all email and phone communication with vendors). Ideally, for any particular initiative - it is best to stick to a maximum of 3 potential partners to look into.
+  - Based on a vendor’s program offerings and targeting capabilities, PMG will evaluate and recommend potential vendors to GitLab.
+  - Once GitLab has decided on a recommended vendor(s), PMG will handle contracting the program—vendors bill PMG directly.
 - Campaign Process
-   - Once the contract is signed by PMG and the vendor, program deliverables are posted to a new issue by PMG.
-   - GitLab will post completed deliverables to the issue and PMG will pass the information along to the vendor.
-   - If the program generates leads, leads will be sent directly from the vendor to GitLab for PII/GDPR reasons. GitLab must ensure that GDPR language is in place when the user downloads GitLab content from the vendor’s site.
-   - The designated sender at GitLab will then open a publisher engagement epic to upload lead lists and enable program tracking.
+  - Once the contract is signed by PMG and the vendor, program deliverables are posted to a new issue by PMG.
+  - GitLab will post completed deliverables to the issue and PMG will pass the information along to the vendor.
+  - If the program generates leads, leads will be sent directly from the vendor to GitLab for PII/GDPR reasons. GitLab must ensure that GDPR language is in place when the user downloads GitLab content from the vendor’s site.
+  - The designated sender at GitLab will then open a publisher engagement epic to upload lead lists and enable program tracking.
 
 ### Channel Rep Syncs
 
@@ -179,20 +179,20 @@ Before the beginning of each fiscal year, GitLab and PMG meet to review the Digi
 Before each upcoming quarter, the teams will meet for [media planning](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#digital-campaign-planning-timeline) sessions to determine the coverage mix for our paid digital programs. Given the quarter’s KPI goals as a whole & per segment/region, the media planning’s key topics include the degree of coverage for the following (tiers listed in order of [visualization](https://app.mural.co/t/gitlab2474/m/gitlab2474/1643743560333/b21487a8f639d5981526c20164cad39cb9faca43?sender=uda52d8b28f84e1a3d6af1431):
 
 - Audience Targeting
-   - Segments: Enterprise, Mid-Market, and SMB
-   - General Prospecting: for coverage outside of segment-targeting platforms
-   - Retargeting: account lists or pixel audiences
-   - Publisher Programs: each publisher has its own unique audience filters
+  - Segments: Enterprise, Mid-Market, and SMB
+  - General Prospecting: for coverage outside of segment-targeting platforms
+  - Retargeting: account lists or pixel audiences
+  - Publisher Programs: each publisher has its own unique audience filters
 - Region
-   - AMER, EMEA, APAC, PubSec
+  - AMER, EMEA, APAC, PubSec
 - Platform Targeting
-   - Prospecting, Retargeting, or Account Targeting
+  - Prospecting, Retargeting, or Account Targeting
 - Platforms
-   - LinkedIn, Facebook, Twitter, Google Search, Google Display
+  - LinkedIn, Facebook, Twitter, Google Search, Google Display
 - Use Cases
-   - DevOps Platform, CI/CD, GitOps, DevSecOps, VC&C, Ecomm, etc
+  - DevOps Platform, CI/CD, GitOps, DevSecOps, VC&C, Ecomm, etc
 - Content
-   - eBooks, Whitepapers, Demos, Fireside Chats, etc.
+  - eBooks, Whitepapers, Demos, Fireside Chats, etc.
 
 The final asset mix for each budget line item will be recorded in the [Paid Demand Generation Asset Tracker](https://drive.google.com/drive/u/2/folders/16fZrpfzRJzd8k-rs8ApQQZMUIbW_upcp), with each month’s assets separated by tab.
 
@@ -255,22 +255,22 @@ PMG uses the following rules when building UTM and platform names:
 - All letters should be lowercase only.
 - For campaign/content utm, there should be no blank values. Always select from the dropdown. `x` is most often used as a placeholder when there is not a correct value to choose from.
 - Hyphens `-` and Underscores `_` can be used accordingly:
-   - Underscores are used as our delimiter - that is, they separate one dimension from another.
-   - Hyphens are used to combine multiple elements together of the same category. Example being geo: `_amer-california_; or _emea-turkey_`
-   - Another example could be in targeting; we are doing ABM, but also retargeting: `_abm-rtg_`
+  - Underscores are used as our delimiter - that is, they separate one dimension from another.
+  - Hyphens are used to combine multiple elements together of the same category. Example being geo: `_amer-california_; or _emea-turkey_`
+  - Another example could be in targeting; we are doing ABM, but also retargeting: `_abm-rtg_`
 - Whenever adding a country or state to the geo, always spell the full name, never abbreviate.
 - The last thing in any url string should be an underscore, to prevent any additional elements from being added to links like GCLID often does.
 - Always use the `Paid Social Campaign Name` tab in the [GitLab Platform Campaign Name & UTM Parameter Builder](https://drive.google.com/drive/u/1/folders/1bNxyuMECGQ2ENyBHM2DYv0HPap9nEyZ2) to build social campaign names. The Campaign Name is the joining point we use to integrate with Google Analytics data to report on conversions.
-   - This is different than in Google CPC and Display, where we use Final URL to join/stack with Analytics data.
+  - This is different than in Google CPC and Display, where we use Final URL to join/stack with Analytics data.
 
 Creating the utm_content name follows a similar process:
 
 - Content name is either provided by GitLab or taken from the URL of the content/web page
 - Content name is created using the following identifiers:
-   - Content name
-   - Team
-   - Budget
-   - Language
+  - Content name
+  - Team
+  - Budget
+  - Language
 - Example: `content_team_budget_language`
 
 ### Alli

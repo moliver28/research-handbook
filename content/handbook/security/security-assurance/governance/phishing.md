@@ -15,11 +15,11 @@ The GitLab Phishing Program is designed to educate and evaluate GitLab's ability
 The Security Governance team coordinates with the following teams before a phishing simulation exercise:
 
 - Security Incident Response Team (SIRT)
-   - Responsible for triaging phishing emails
-   - If they are made aware of a simulation they will provide the team member with additional instructions
+  - Responsible for triaging phishing emails
+  - If they are made aware of a simulation they will provide the team member with additional instructions
 
 - IT Operations/Team Member Enablement
-   - Owner of GSuite (GitLab's email platform)
+  - Owner of GSuite (GitLab's email platform)
 
 ### Phishing Simulation Campaigns
 
@@ -223,7 +223,7 @@ What should you do if you receive a potential phishing email or text [\(smishing
 1. If the email is determined to be fake, follow the instructions for [phishing attacks]({{< ref "phishing#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}) below.
 1. If the text, including those received on apps like WhatsApp or Signal, is determined to be fake: block the number, notify [Security](/handbook/security/#-contacting-the-team), and delete the text.
 
-  - If using iOS, [report the message as spam or junk](https://support.apple.com/guide/iphone/block-filter-and-report-messages-iph203ab0be4/ios)
+- If using iOS, [report the message as spam or junk](https://support.apple.com/guide/iphone/block-filter-and-report-messages-iph203ab0be4/ios)
 
 ### Suspicious LinkedIn profiles
 

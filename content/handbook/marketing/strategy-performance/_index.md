@@ -75,8 +75,8 @@ We follow a weekly triage schedule and alternate responsibility between the team
 
 During your rotation, you are expected to:
 
-  - Triage new issues in our board according to our stakeholder alignment, checking at least twice per day.
-  - Triage or help with new messages in [#mktg-strat-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5)
+- Triage new issues in our board according to our stakeholder alignment, checking at least twice per day.
+- Triage or help with new messages in [#mktg-strat-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5)
 
 Dennis is responsible for all web analytics triage.
 

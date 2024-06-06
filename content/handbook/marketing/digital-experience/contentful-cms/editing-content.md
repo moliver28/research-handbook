@@ -1,5 +1,4 @@
 ---
-
 title: "Editing content in Contentful"
 description: "Editing content in Contentful"
 ---
@@ -72,13 +71,13 @@ The process for creating new content in Contentful is varied.
 1. Scroll waaaaay to the bottom and select + Add Content -> Card
 1. From here, it might be helpful to open an existing card and make sure the same fields are filled out, but the gist is:
 
- - the Title goes in both `Internal Name` and `Title`
- - the Language goes in `Subtitle`
- - the Teaser goes in `Description`
- - the Topics go in `List` (hit enter after each topic)
- - the Solutions go in `Pills` (hit enter after each topic)
- - the Type of resource goes in `Icon Name`
- - the URL goes in `Card Link`
+   - the Title goes in both `Internal Name` and `Title`
+   - the Language goes in `Subtitle`
+   - the Teaser goes in `Description`
+   - the Topics go in `List` (hit enter after each topic)
+   - the Solutions go in `Pills` (hit enter after each topic)
+   - the Type of resource goes in `Icon Name`
+   - the URL goes in `Card Link`
 
 1. Publish that card, drag it to the top of the list if you want it to appear first, and publish that section too.
 

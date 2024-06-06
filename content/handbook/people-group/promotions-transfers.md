@@ -107,8 +107,8 @@ Below is the timeline for FY25:
 - Planning: 2022-12-20 to 2023-01-06
 - Calibrations: 2023-01-09 to 2023-01-20
 - Processing: 2023-01-23 to 2023-02-01 (Promotions must be added to Workday by 2023-01-20)
-    - Effective date for promotions: 2023-02-01.
-    - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
+  - Effective date for promotions: 2023-02-01.
+  - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
 
 ## FY25-Q3 (2nd Half)
 
@@ -155,15 +155,15 @@ Please list the 3 most impactful results (accomplishments, initiatives, or proje
 For each result, please use the following structure:
 
 - Project/accomplishment
-    - Example: Creation of the company-wide Org Design Playbook
+  - Example: Creation of the company-wide Org Design Playbook
 - Team member role
-    - Example: Lead the playbook creation from inception to publishing in the handbook in partnership with two other People Business Partners
+  - Example: Lead the playbook creation from inception to publishing in the handbook in partnership with two other People Business Partners
 - Brief (2-3 sentence) description of project/accomplishment and business relevance/importance
-    - Example: One of our [FY25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies) is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member's velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
+  - Example: One of our [FY25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies) is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member's velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
 - Project/accomplishment impact
-    - Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
+  - Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
 - Business result
-    - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook's creation.
+  - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook's creation.
 
 Business relevance refers to why the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). Impact refer to how the project/accomplishment will help drive us in the direction we need to go as an organization. Business result refers to the direct result seen from the team members' contribution.
 
@@ -177,12 +177,14 @@ We ask that the structure above be followed for business results consistently to
 
 GitLab considers both individual readiness and business need when we think about promotions. Managers are responsible for completing the business justification section of the promotion document to include what justifies the need for the team members skills and work to be completed at the higher level. Possible business justifications typically include: more complex projects, additional scope of work required as the team scales, and/or additional responsibility due to XYZ business reason.
 
+##### Additional Tips
+
 When creating promotion documents, remember:
 
 - Promotions are based on performance, not growth potential.
 - Promotion documents should not exceed 3 pages total.
 - Please reference the [job frameworks]({{< ref "structure#job-frameworks" >}}) in the handbook for guidance pertaining to expectations at the various levels at GitLab. The job levels should help guide data chosen to be included in the promotion document, in addition to discussion during calibration sessions.
-- Please be sure that the promotion document has “comment” access enabled to ‘Anyone at GitLab who has the link!’ to ensure the review and approval process is not delayed. Please delete the instructions associated with each section of the promotion document below before submitting the promotions.
+- Please be sure that the promotion document has “comment” access enabled to ‘GitLab’ to ensure the review and approval process is not delayed. Please delete the instructions associated with each section of the promotion document below before submitting the promotions.
 - If you find yourself struggling to articulate your accomplishments, your manager can help support you and provide feedback. You can also consider reaching out to stakeholders for feedback, or meeting with a trusted colleague or mentor to brainstorm.
 - It should not include Talent Assessment ratings, such as "Exceeding Performance", as these must remain confidential and only discussed in confidential settings such as [Promotion Calibration]({{< ref "promotions-transfers#calibration" >}}), talent assessment calibrations, and within reporting structures.
 
@@ -266,12 +268,11 @@ Approvals for the Director+ level off-cycle promotion exceptions require E-Group
 
 Regardless of the promotion level, it is critical that leaders work with their People Business Partner, Total Rewards, and FP&A [as outlined]({{< ref "compensation-review-cycle#compensation-program-budget" >}}) to identify tradeoffs we can review to fund the promotion.
 
-### FY25 CTO Org Promo Guidance
+### FY25 CTO Organization Promotion Guidance
 
 **Required Documentation**
 
-In the CTO Organization, we will follow the company process for promotions and use the standard Promotion Document. We will require business justification to be filled out for every role, regardless of seniority. There is specific guidance that we’d like our managers to focus on when considering promotions in this fiscal year. Please see below.
-Please note, effective for the FY25 Q3 promotions, peer feedback is not required for promotion consideration. We may re-evaluate this component in the future.
+In the CTO Organization, we will follow the company process for promotions and use the standard Promotion Document. We will require business justification to be filled out for every role, regardless of seniority. There is specific guidance that we’d like our managers to focus on when considering promotions in this fiscal year. Please see below. Please note, effective for the FY25 Q3 promotions, peer feedback is not required for promotion consideration. We may re-evaluate this component in the future.
 
 #### CTO Timeline for FY25-Q3
 
@@ -302,6 +303,76 @@ As a leader, if your team member's promotion is approved, you will need to reset
     1. **Additional Detail:** All promotions increase cost and expectations of a given team and/or project. How will you and the person ensure the return on this increased investment of the company in this person/team/project. Elaborating on the commitment and changes that will occur with a positive outcome will benefit the decision makers to have confidence that this promotion will produced improved outcomes for all parties.
 
 4. Do I need this many "X" level (i.e. Senior Engineer)  team members in my current team state? Is there enough work at that level to be done?
+
+### FY25 Security Promotion Process
+
+Giving and receiving feedback is a critical part of building high performing teams. Feedback from team members on key business results achieved is an important data point to consider when assessing team member promotion readiness. In an effort to continue to foster a feedback culture within the Security division and ensure we are calibrating collaboration effectiveness through business results, starting in FY25 Q3 we will be embedding a formal feedback touchpoint into our promotion process for the division. **Please note that the feedback does not determine whether the team member is ready for promotion in isolation, but is rather a data point to consider throughout the promotion planning and calibration process.**
+
+The steps below outline the process promotion candidates should follow to request feedback as part of our bi-annual promotion process, key due dates, and helpful resources for both promotion candidates and feedback providers to review.
+
+1. Team members aligns with manager on promotion readiness and candidacy
+    - Ahead of requesting feedback, team members should have a conversation on promotion readiness with their manager. If there is alignment on readiness for the upcoming promotion cycle between both manager and team member, the team member qualifies as a "promotion candidate".
+    - **Due date: 2024-05-31**
+2. Team member completes their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document)
+    - The promotion document completion should be team member driven with manager support, review, and feedback. Ahead of requesting feedback, the promotion document should be complete, as it will serve as the baseline to provide feedback. Team members should ensure their manager has reviewed their promotion document and is aligned with the content ahead of requesting feedback.
+    - **Due date: 2024-06-06**
+3. Team member makes a copy of feedback form template
+    - This [Google Form](https://docs.google.com/forms/d/1h-_ZOQS8Hug168P76qgdO5Coj2rfPceLHZ6xjjLPWjQ/edit) provides a template for promotion feedback collection across the Security division to ensure consistency in the format and questions to facilitate more consistent and equitable [calibration process](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#calibration). This process focuses specifically on feedback related to the business results section of the promotion document to ensure feedback is consistently tied back to key deliverables that demonstrate next level performance.
+    - *Each promotion candidate should make a copy of this form to use to collect feedback from their respective feedback providers.*
+    - **Due date: 2024-06-07**
+4. Team member identifies stakeholders for feedback request
+    - Team members should ideally select 3-4 distinct team members to provide feedback across the three business results highlighted in their [promotion documents](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document), but are required to select *at least* 2 distinct team members to provide feedback. All three of the business results highlighted in the promotion document should have feedback provided from at least one feedback provider. Team members should review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment.
+    - Requirements for feedback providers are:
+        - Feedback providers should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document) as a project team member, DRI, or stakeholder.
+        - Feedback provider is not in the same reporting line as the manager (I.E. not team member's manager, skip level, etc.)
+        - Feedback providers can be cross-functional or within the division, with a mix of both being the preference and recommendation. The core focus when thinking through who the most appropriate team members to provide feedback are is to reflect on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
+        - Feedback providers should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher). Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
+    - You can reference our [job grades](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and inidividual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](https://handbook.gitlab.com/job-families/security/) as a resource for Security-specific differences in expectations by level.
+    - If you need assistance meeting these requirements for selecting feedback providers, please discuss with your manager for support.
+5. Team member sends out feedback form copy to feedback providers
+    - This references the form promotion candidates made a copy of in Step 3.
+    - Team members can leverage this as a structure to include in the feedback request if helpful: *Hi [team member name], I am currently under consideration for a promotion to [next level job title]. I would really appreciate your feedback on our work together, specifically on results and our collaboration related to [name business result]. Please complete this feedback form by [insert due date]. You can read more about the feedback process [link this handbook section].*
+    - For promotion candidates requesting feedback and for team members providing feedback, we recommend that you review our [Guidance on Feedback](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/) ahead of the process kicking off. The [S-B-I model](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/#s-b-i-model) can be a helpful framework in ensuring feedback is structured in a clear and digestible way.
+    **Feedback will be ongoing from 2024-06-10 through 2024-06-21. All feedback needs to be obtained by 2024-06-21.**
+6. Team member and manager analyze feedback
+    - Team member shares the feedback obtained with their manager and they discuss and analyze themes and trends
+    - Team member and manager compile themes to share with CISO direct. Leverage [this template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for theme compilation and analysis to ensure consistency. Analysis should focus on key themes and feedback provided in the Google Form.
+    - CISO direct has the opportunity to review, provide feedback, and ask any clarifying questions to ensure they are able to represent the feedback in the CISO directs [calibration session](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#calibration).
+    - **Due date: 2024-06-28**
+7. CISO direct adds feedback summary to calibration agenda
+    - CISO direct is responsible for adding promotion themes reviewed in Step 6 to the CISO directs promotion calibration agenda to ensure visibility ahead of the calibration session.
+    - **Due date: 2024-07-05**
+8. Calibration session occurs
+    - Calibration is scheduled for 2024-07-08 where CISO directs calibrate promotion candidates across the division.
+    - CISO direct is responsible for following up with the promotion candidate's manager to provide feedback and key takeaways from the calibration session.
+9. Managers communicate promotion status
+    - Promotions are effective 2024-08-01 and the communication window is 2024-07-24 to 2024-08-01 aligned with the [company-wide timeline](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#fy25-q3-2nd-half)
+    - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
+
+#### Feedback Confidentiality
+
+A goal through this process is to continue to facilitate opportunity to provide more regular and ongoing feedback and flex the feedback muscle as a division. We encourage team members to own the feedback that they provide to strengthen relationships, invest in each other's growth and development, and provide the opportunity for team members receiving the feedback to ask clarifying questions if needed.
+
+The feedback form asks for feedback provider's information, so promotion candidates and their managers will have visibility into specifics of the feedback provided. At the CISO directs calibration session we will review themes in [this structure](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit).
+
+Feedback provided **will not** be shared outside of the promotion candidates' leadership chain, CISO directs group, and aligned [People Busines Partner](https://handbook.gitlab.com/handbook/people-group/people-business-partners/#people-business-partner-alignments).
+
+#### Resources
+
+An overview of key resources highlighted above for the Security promotion feedback process. These are either resources that will be used during the process, or resources we recommend team members and feedback providers review ahead of kicking off the process.
+
+- [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0)
+- [Security job families](https://handbook.gitlab.com/job-families/security/)
+- [Guidance on Feedback](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/)
+- [GitLab job grades](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#job-grades)
+- [Business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results)
+- [Promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGmEF-Cf0IlGgVOznjXMq9FxGiQ/edit#heading=h.5ahg1o4v53q7)
+- [Feedback Provider Google Form](https://docs.google.com/forms/d/1h-_ZOQS8Hug168P76qgdO5Coj2rfPceLHZ6xjjLPWjQ/edit)
+- [Feedback analysis template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit)
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 
 ## Hiring for VP+ Roles
 
@@ -337,7 +408,7 @@ At GitLab, we ensure that promotions are impactful from the compensation perspec
 
 - When a team member is promoted from one level to the next in the same job family, it is typical to be brought between the minimum and median of the compensation range.
 - The Total Rewards Team typically recommends a 5%-10% increase as part of the promotion to cash compensation. Additional equity is fixed based on [equity for promotions](/handbook/total-rewards/stock-options/#promotions).
-    - Benchmarking data relays that typically [4-8% of your population will be promoted](https://www.shrm.org/ResourcesAndTools/business-solutions/Documents/Human-Capital-Report-All-Industries-All-FTEs.pdf) annually with an average of a [4.1% increase to base salary](https://worldatwork.org/media/CDN/dist/CDN2/documents/pdf/resources/sbs/SBS2022-23_TopLevelData.pdf).
+  - Benchmarking data relays that typically [4-8% of your population will be promoted](https://www.shrm.org/ResourcesAndTools/business-solutions/Documents/Human-Capital-Report-All-Industries-All-FTEs.pdf) annually with an average of a [4.1% increase to base salary](https://worldatwork.org/media/CDN/dist/CDN2/documents/pdf/resources/sbs/SBS2022-23_TopLevelData.pdf).
 - Any promotions with the following conditions will require additional justification to the Total Rewards team and executive approver. Please add the business justification as a comment in the promotion worksheet.
     1. An increase of more than 10%
     1. The promotion exceeds the range in the compensation calculator.
@@ -371,7 +442,7 @@ This section describes the approval chain after the People Business Partner subm
 #### Job Change Letter
 
 1. For all the [GitLab entities](/handbook/people-group/employment-solutions/#gitlab-entities) and [Independent Contractors](/handbook/people-group/employment-solutions/#team-members-hired-as-contractors-via-our-gitlab-it-bv-entity) create a job change letter as per the steps mentioned below. If the team member is employed by a PEO, notify the applicable [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity) either by email or for remote.com via their dashboard. See the People Connect 1password vault for contact details.
-1. Review the [Signature requirements per country](https://docs.google.com/spreadsheets/d/1L85i10rGZuECx-Wxe-lr9O5AaTN2iuD-oVQDAwKDeQ8/edit?usp=sharing) and process the job change letter accordingly.
+1. Review the [Signature requirements per country](https://docs.google.com/spreadsheets/d/1soc-j0Z_UUqHX8X04zJUzBrDv0I1SNCjkbO8-OTZQ24/edit#gid=712364544) and process the job change letter accordingly.
 1. Make a copy of the [Job Change Letter template](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/edit) and enter all applicable information based on the Workday request and add the applicable [Signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) or [Company Signature Stamp](https://docs.google.com/document/d/1RWkI7zuFIUkW_sh1TmYii6e8zNOmz9USUoEr1wBIBpQ/edit?usp=sharing). The effective date is as follows:
     - For sales personnel with a variable change, the effective date is always the 1st of the month regardless of their entity.
     - If the team member is making a lateral move where there is no change in compensation, then the start date can be any Monday.
@@ -493,16 +564,16 @@ To easily access a report for what current job title specialties are for your te
 #### For Development, Infrastructure, and Quality departments
 
 - Who should have a specialty:
-    - ICs: Job grade 11 and below should  should have Stage and/or primary group (if applicable)
-    - People Mgrs: Managers, Senior Engineering Managers, and Group Product Managers managing ICs should have Stage and/or primary group (if applicable)
+  - ICs: Job grade 11 and below should  should have Stage and/or primary group (if applicable)
+  - People Mgrs: Managers, Senior Engineering Managers, and Group Product Managers managing ICs should have Stage and/or primary group (if applicable)
 - When requesting a job title specialty update, please follow the following formatting:
-    - Review Product/Categories and make sure the group names you use match these. If they don't, please connect with your Product Manager to confirm and work with them to update if needed.
-    - Add both stage and group in the job title specialty field
-        - Example:  Add “Govern: Authentication” instead of “Authentication”
-        - **Important: Please ensure that you leave a space after the colon (:) between stage and group.**. For example, `Create: Source Code` is *correct* formatting, and `Create:Source Code` is *incorrect* formatting. This helps ensure that when pulling reports we have accurate counts for investment alignment.
-    - Review each person and make sure it only lists one group.
-        - Note: In situations where there are two groups, pick the primary group.
-    - Ensure all specialty information is in the `Job Title Specialty` field as opposed to the `Job Title Specialty (Multi-Select)` field.
+  - Review Product/Categories and make sure the group names you use match these. If they don't, please connect with your Product Manager to confirm and work with them to update if needed.
+  - Add both stage and group in the job title specialty field
+    - Example:  Add “Govern: Authentication” instead of “Authentication”
+    - **Important: Please ensure that you leave a space after the colon (:) between stage and group.**. For example, `Create: Source Code` is *correct* formatting, and `Create:Source Code` is *incorrect* formatting. This helps ensure that when pulling reports we have accurate counts for investment alignment.
+  - Review each person and make sure it only lists one group.
+    - Note: In situations where there are two groups, pick the primary group.
+  - Ensure all specialty information is in the `Job Title Specialty` field as opposed to the `Job Title Specialty (Multi-Select)` field.
 
 #### For Customer Support department
 
@@ -553,13 +624,13 @@ If you are interested in applying for an open role, please do so  through [Green
 Please understand the following eligibility guidelines that need to be met to be able to proceed with your application:
 
 - Guidelines for performance eligibility:
-   - Team members who are assessed at a Performing or Exceeding Performance level during Talent Assessment are eligible to be considered for another role
-   - Team members whose Performance is assessed as Developing or are actively undergoing written performance management, may not be eligible. These situations require manager and/or PBP approval to proceed.
-   - Team members that have not had a Talent Assessment require manager and/or PBP approval to proceed
-   - Time in role eligibility will be 6 months in current role. Exceptions to this:
-   - Business Impact  (revenue-dependencies, interim role to perm)
-   - Business driven transfers (example of realignments)
-   - SDR/BDR 12 months in role
+  - Team members who are assessed at a Performing or Exceeding Performance level during Talent Assessment are eligible to be considered for another role
+  - Team members whose Performance is assessed as Developing or are actively undergoing written performance management, may not be eligible. These situations require manager and/or PBP approval to proceed.
+  - Team members that have not had a Talent Assessment require manager and/or PBP approval to proceed
+  - Time in role eligibility will be 6 months in current role. Exceptions to this:
+  - Business Impact  (revenue-dependencies, interim role to perm)
+  - Business driven transfers (example of realignments)
+  - SDR/BDR 12 months in role
 
 **Please note that internal applicants are required to speak with their current manager or People Business Partner prior to application submission. An official application is signaled by a team member applying to the open role or reaching out to the talent acquisition team. Informal conversations about the role do not require a team member to inform their manager. If you have concerns about communicating your interest in an internal role to your manager, please reach out to your People Business Partner.**
 

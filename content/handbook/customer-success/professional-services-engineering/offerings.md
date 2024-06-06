@@ -45,6 +45,6 @@ The GitLab Professional Services Engineering group will also work with a custome
 - Integration with LDAP/AD or other OAuth services for authentication
 - Integration to Jira, Jenkins, Redmine, Mattermost
 - Custom Integrations
-   - Automation
-   - API: Automate GitLab via a simple and powerful API.
-   - GitLab Webhooks: Let GitLab notify another system when new code is pushed
+  - Automation
+  - API: Automate GitLab via a simple and powerful API.
+  - GitLab Webhooks: Let GitLab notify another system when new code is pushed

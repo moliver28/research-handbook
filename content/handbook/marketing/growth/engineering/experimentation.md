@@ -79,9 +79,9 @@ To track the status of an Experiment, Experiment tracking issues using the `~"ex
 #### Experiment Setup
 
 * Once the experiment hypothesis & measurement criteria are well-defined, an [Experiment Epic](#experiment-epic) is created at the top-level group most appropriate for the experimentation work (usually the `gitlab-org` group)
-    * The epic becomes the single source of truth (SSoT) for the experiment
-    * The original [Experiment Definition Issue](#experiment-definition-issue) is closed and gets attached to the epic
-    * The final definition, hypothesis, & measurement criteria from the [Experiment Definition Issue](#experiment-definition-issue) are copied into the new epic's description
+  * The epic becomes the single source of truth (SSoT) for the experiment
+  * The original [Experiment Definition Issue](#experiment-definition-issue) is closed and gets attached to the epic
+  * The final definition, hypothesis, & measurement criteria from the [Experiment Definition Issue](#experiment-definition-issue) are copied into the new epic's description
 * New issues related to the experiment (such as an [experiment rollout](#experiment-rollout-issue) issue, an [experiment cleanup](#experiment-cleanup-issue) issue, a UX spec issue, or an Engineering work issue) are attached to the epic
 
 ##### Experiment Definition Issue
@@ -127,14 +127,14 @@ The [Experiment Successful Cleanup](https://gitlab.com/gitlab-org/gitlab/-/issue
 #### Experiment issue templates
 
 * GitLab `gitlab-org/gitlab` project
-    * [Experiment idea](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Idea) issue template
-    * [Experiment implementation](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experimentation%20Implementation) issue template for Engineering
-    * [Experiment rollout](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Rollout)
-    * [Experiment successful cleanup](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Successful%20Cleanup) issue template for converting a successful experiment into a feature
+  * [Experiment idea](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Idea) issue template
+  * [Experiment implementation](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experimentation%20Implementation) issue template for Engineering
+  * [Experiment rollout](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Rollout)
+  * [Experiment successful cleanup](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Successful%20Cleanup) issue template for converting a successful experiment into a feature
 * Growth `team-tasks` project
-    * [Milestone planning](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/new?issuable_template=growth_team_planning_template) issue template for Growth groups
-    * [Experiment idea](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/new?issuable_template=Growth%20experiment) issue template for Growth groups
-    * [Experiment rollout](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/new?issuable_template=Experiment%20Rollout) issue template for Growth groups
+  * [Milestone planning](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/new?issuable_template=growth_team_planning_template) issue template for Growth groups
+  * [Experiment idea](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/new?issuable_template=Growth%20experiment) issue template for Growth groups
+  * [Experiment rollout](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/new?issuable_template=Experiment%20Rollout) issue template for Growth groups
 
 ## Minimum Viable Experiment (MVE)
 

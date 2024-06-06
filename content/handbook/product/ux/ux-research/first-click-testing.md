@@ -39,8 +39,8 @@ You have a navigation design that’s in the very early stages (it may just be a
 |Confidence |1 = Not at all confident, 2 = Not very confident, 3 = Somewhat confident 4 = Very confident, 5 = Extremely confident) <br> And why they chose that rating| How confident participants are with their choice|
 
 - Qualitative: Collect qualiative feedback to add understanding to their answers:
-    - Ask **why** participants made their selection (open-ended question): Why did you click there?
-    - Ask for their expectation for the selection: What would you expect to see after clicking there?
+  - Ask **why** participants made their selection (open-ended question): Why did you click there?
+  - Ask for their expectation for the selection: What would you expect to see after clicking there?
 
 **Recommended testing platform:** Qualtrics
 
@@ -59,8 +59,8 @@ To report brief/initial findings in Slack or in an Issue, please use the followi
 - For the correct selections, the average confidence level was X/Z
 - Note any themes about their correct choice “6 participants mentioned that they would expect to find X in choice B because…”
 - Other common incorrect first click choices were:
-    - Choice B: 27% of participants (6 out of 20)
-    - Choice C: 27% of participants (6 out of 20)
+  - Choice B: 27% of participants (6 out of 20)
+  - Choice C: 27% of participants (6 out of 20)
 - If there is anything to note about their confidence level and incorrect choices: Interestingly, participants felt more confident on average in choice B (3.5) than Choice A (2)
 - Note any themes about their incorrect choice “4 participants mentioned that they would expect to find X in choice B because…”
 - Can note any other interesting finding or verbatim.

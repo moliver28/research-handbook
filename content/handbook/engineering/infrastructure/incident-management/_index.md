@@ -176,6 +176,21 @@ EOCs are responsible for responding to alerts even on the weekends.  Time should
 If a `~severity::3` and `~severity::4` occurs multiple times and requires weekend work, the multiple incidents should be combined into a single `severity::2` incident.
 If assistance is needed to determine severity, EOCs and Incident Managers are encouraged to contact [Reliability Leadership via PagerDuty](https://gitlab.pagerduty.com/schedules#P12EH0Z)
 
+#### Incident Manager Escalation
+
+A page will be escalated to the Incident Manager (IM) if it is not answered by the Engineer on Call (EOC).
+This escalation will happen for all alerts that go through PagerDuty, which includes lower severity alerts.
+It's possible that this can happen when there is a large number of pages and the EOC is unable to focus on acknowledging pages.
+When this occurs, the IM should reach out in Slack in the `#incident-management` channel to see if the EOC needs assistance.
+
+Example:
+
+```plaintext
+@sre-oncall, I just received an escalation. Are you available to look into LINK_TO_PAGERDUTY_INCIDENT, or do you need some assistance?
+```
+
+If the EOC does not respond because they are unavailable, you should escalate the incident using the PagerDuty application, which will alert Infrastructure Engineering leadership.
+
 #### Infrastructure Leadership Escalation
 
 During a verified Severity 1 Incident the IM will page for Infrastructure Leadership.  This is not a substitute or replacement for the active Incident Manager. The Infrastructure Leadership responsibilities include:
@@ -273,11 +288,11 @@ Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab
 - Assign the label for the associated affected service if applicable.
 - Provide enough context so that any engineer in the Corrective Action issue's project could pick up the issue and know how to move forward with it.
 - Avoid creating Corrective Actions that:
-    - Are too generic (most typical mistake, as opposed to Specific)
-    - Only fix incident symptoms.
-    - Introduce more human error.
-    - Will not help to keep the incident from happening again.
-    - Can not be promptly implemented (time-bounded).
+  - Are too generic (most typical mistake, as opposed to Specific)
+  - Only fix incident symptoms.
+  - Introduce more human error.
+  - Will not help to keep the incident from happening again.
+  - Can not be promptly implemented (time-bounded).
 - Examples: (taken from several best-practices Postmortem pages)
 
 | Badly worded | Better |

@@ -34,13 +34,13 @@ The current coverage includes:
 - Full outpatient cover
 - £0 Excess (meaning that employees are fully covered)
 - Extra covers (all included)
-   - Therapies cover option
-   - Mental Health cover option
-   - Extra Care option includes hospital at home, cash benefit, oral surgery, chiropody
-   - Extra Cancer care option
-   - Dental £400 (80%)
-   - Optical £200 (80%)
-   - £25 a year for eye test
+  - Therapies cover option
+  - Mental Health cover option
+  - Extra Care option includes hospital at home, cash benefit, oral surgery, chiropody
+  - Extra Cancer care option
+  - Dental £400 (80%)
+  - Optical £200 (80%)
+  - £25 a year for eye test
 - Virtual GP appointments – [DR@Hand](https://drive.google.com/file/d/1YzkeG0qMLPLi6TEY6mQXqV8xooMQb4_Z/view?usp=sharing)
 
 **Please note: the AXA plan underwriting is based on a MHD (Medical History Disregarded) basis, meaning that pre-existing medical conditions that existed prior to the date on which the individual joined the AXA scheme will be covered for treatment** (subject to the rules and benefits of the AXA policy, please review your AXA membership package sent by AXA for further reference).
@@ -141,15 +141,15 @@ Team Members who have signed a UK Employment contract after 13 December 2022 wil
 **Salary Sacrifice FAQ**
 
 - Can we change the amount during the period we're contracted for salary exchange?
-    - Yes it is possible to change the amount/increase your employee percent
+  - Yes it is possible to change the amount/increase your employee percent
 - What happens if our 'actual' salary changes during the period?
-    - Your employee contribution is a percent of basic pay so if your basic pay increase the pension contribution will too.
+  - Your employee contribution is a percent of basic pay so if your basic pay increase the pension contribution will too.
 - What happens if we receive a discretionary bonus?
-    - Your definition of pensionable pay is basic salary the percent will not automatically be applied to the bonus. Should you wish to contribute part of you bonus to your pension pot you can do that.
+  - Your definition of pensionable pay is basic salary the percent will not automatically be applied to the bonus. Should you wish to contribute part of you bonus to your pension pot you can do that.
 - Is it possible to start from any month?
-    - Yes it is; it would be processed on the next available payroll.
+  - Yes it is; it would be processed on the next available payroll.
 - How do I opt in or out or make changes to my salary sacrifice amount?
-    - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. Email total-rewards@gitlab.com and nonuspayroll@gitlab.com with the new percentage of your salary that you would like to sacrifice or to opt in/out of the salary sacrifice provision.
+  - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. Email total-rewards@gitlab.com and nonuspayroll@gitlab.com with the new percentage of your salary that you would like to sacrifice or to opt in/out of the salary sacrifice provision.
 
 ### Auto-Enrollment
 
@@ -202,8 +202,8 @@ Some other key points of the scheme are as follows:
 The certification level that has been chosen is **basic salary** only and will not include commission, bonuses or any over time payments. The contributions will be paid monthly and will be shown on the pay-slips.
 
 - From April 6, 2019 to a minimum of:
-   - Employee: 5% of basic salary
-   - GitLab:   4% of basic salary
+  - Employee: 5% of basic salary
+  - GitLab:   4% of basic salary
 
 - As your contribution is a percentage of your pay, the amounts will automatically increase or decrease in accordance with your basic pay. These contributions will be taken from your pay and will include tax relief.
 - You may increase the contribution percentage you pay by contacting Non US Payroll team via email. Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you ‘flexibly access’ pension
@@ -344,8 +344,8 @@ This section details the statutory maternity, paternity, parental, and adoption 
 **Statutory Maternity Leave:** Team members can take up to 52 weeks of Maternity Leave.
 
 - The earliest that the Maternity Leave can start is 11 weeks before the expected week of childbirth.
-   - If the baby is early, maternity leave will start the day after childbirth
-   - Maternity leave will begin automatically if the team member is off work for a pregnancy-related illness in the 4 weeks before the expected week of childbirth.
+  - If the baby is early, maternity leave will start the day after childbirth
+  - Maternity leave will begin automatically if the team member is off work for a pregnancy-related illness in the 4 weeks before the expected week of childbirth.
 - Team members are not required to take the full 52 weeks of maternity leave, but **must** take at least 2 weeks of leave after the baby is born.  Team members should give at least eight weeks’ notice if they would like to change their return to work date.
 
 **Statutory Paternity Leave:** Team members can take up to 2 weeks of Paternity Leave or up to 50 weeks of [Shared Parental Leave](https://www.gov.uk/shared-parental-leave-and-pay).  Paternity Leave *cannot* be taken after Shared Parental Leave.
@@ -353,20 +353,20 @@ This section details the statutory maternity, paternity, parental, and adoption 
 - Eligibility:
 You must be taking time off to look after the child and be one of the following:
 
-    - the father
-    - the husband or partner of the mother (or adopter) - this includes same-sex partners
-    - the child’s adopter
-    - the intended parent (if you’re having a baby through a surrogacy arrangement)
+  - the father
+  - the husband or partner of the mother (or adopter) - this includes same-sex partners
+  - the child’s adopter
+  - the intended parent (if you’re having a baby through a surrogacy arrangement)
 
-*There are extra conditions you need to meet to qualify for leave and pay.
+`*` There are extra conditions you need to meet to qualify for leave and pay.
 
 **Statutory Adoption Leave:** Team members can take up to 52 weeks of Adoption Leave.
 
 - Leave can start:
-   - up to 14 days before the expected placement date
-   - when a team member has been matched with a child by a UK adoption agency
-   - when the child arrives in the UK or within 28 days of this date (for overseas adoptions)
-   - the day the child is born or the day after (for parents in surrogacy arrangements).
+  - up to 14 days before the expected placement date
+  - when a team member has been matched with a child by a UK adoption agency
+  - when the child arrives in the UK or within 28 days of this date (for overseas adoptions)
+  - the day the child is born or the day after (for parents in surrogacy arrangements).
 - Only one person in a couple can take adoption leave.  The other parent may be entitled to take paternity leave.
 - Team members must notify the Absence Management team at `leaves@gitlab.com` within 28 days if the date of placement (or UK arrival date for overseas adoptions) changes.
 - Team members should give at least 8 weeks’ notice if they would like to change their return to work date.
@@ -376,10 +376,10 @@ You must be taking time off to look after the child and be one of the following:
 Team members can receive Statutory Maternity Pay for up to 39 weeks:
 
 - Eligibility:
-    - Team members must have continuous employment with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the expected week of childbirth).
+  - Team members must have continuous employment with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the expected week of childbirth).
 - Eligible team members are entitled to:
-    - 90% of the team member's average weekly earnings (before tax) for the first 6 weeks.
-    - £172.48 or 90% of the team member's average weekly earnings (whichever is lower) for the next 33 weeks. This also applies to the leave amounts provided for Paternity Leave and Adoption Leave.
+  - 90% of the team member's average weekly earnings (before tax) for the first 6 weeks.
+  - £172.48 or 90% of the team member's average weekly earnings (whichever is lower) for the next 33 weeks. This also applies to the leave amounts provided for Paternity Leave and Adoption Leave.
 
 To apply for Maternity Leave:
 
@@ -395,7 +395,7 @@ If you do not qualify for Statutory Maternity Pay, you may qualify for [Maternit
 Team members can receive Statutory Paternity Pay for up to 2 weeks or up to 37 weeks if taking Shared Parental Leave:
 
 - Eligibility:
-    - Team members must have been continuously employed with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the baby is due or the matching week if adopting).
+  - Team members must have been continuously employed with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the baby is due or the matching week if adopting).
 - Eligible team members are entitled to:
   - £172.48 or 90% of the team member's average weekly earnings (whichever is lower) for up to 2 weeks OR up to 37 weeks if taking Shared Parental Leave.
 
@@ -410,10 +410,10 @@ To apply for Paternity Leave:
 Team members can receive statutory adoption pay for up to 39 weeks:
 
 - Eligibility:
-    - Team members must have had continuous employment with GitLab for at least 26 weeks leading up to the week they were matched with the child.
+  - Team members must have had continuous employment with GitLab for at least 26 weeks leading up to the week they were matched with the child.
 - Eligible team members are entitled to:
-    - 90% of your average weekly earnings (before tax) for the first 6 weeks
-    - £172.48 or 90% of your average weekly earnings (whichever is lower) for the next 33 weeks
+  - 90% of your average weekly earnings (before tax) for the first 6 weeks
+  - £172.48 or 90% of your average weekly earnings (whichever is lower) for the next 33 weeks
 
 To apply for Adoption Leave:
 
@@ -423,9 +423,9 @@ To apply for Adoption Leave:
 #### Unpaid Parental Leave
 
 - Team members who have been employed with GitLab for more than one year are eligible for up to 18 weeks of unpaid leave to look after their child's welfare.
-   - The entitlement is per child up to the age of 18, regardless of the person's employer.
-   - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
-   - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
+  - The entitlement is per child up to the age of 18, regardless of the person's employer.
+  - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
+  - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
 
 ### Other Job-Protected Leave
 

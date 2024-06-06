@@ -32,7 +32,7 @@ Using either the email address or the form will result in the creation of a Sale
 
 1. Share the link to the Chatter message (right-click on timestamp) in an internal note on the ticket.
 
- - Note that you can only link to the original Chatter message, not to any of its comments.
+- Note that you can only link to the original Chatter message, not to any of its comments.
 
 1. You may want to check the account owner's Slack status to see if they're
  currently taking time off work.

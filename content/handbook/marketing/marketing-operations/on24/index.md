@@ -229,9 +229,9 @@ Much of the landing page set up is controlled by program tokens, same as email a
 - What the tokens plug in to the LP or email asset and other various assets can be changed at the program level, under the `tokens` section. Many tokens have definitions of what they are and what they plug in to the program assets. Take special care when changing tokens as they can affect buttons/links.
 - The `elements` and `variables` sections on landing pages will help determine the look of the LP. `Elements` is primarily for text editing whereas `variables` affects page meta data and allows toggling of sections' visibility. Feel free to toggle any section on/off to see what appears or disappears. Change the LP to your liking and or use case.
 - With `on-demand` or `gated content` LPs, there is also an option to toggle video/content previews, if the content host allows for the proper embed URL. In [this example](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/landingpage/5910), the embed preview is a Vimeo feature, so mileage may vary on how often video previews can be used. It is video host dependent. To set this up:
-    - Add text to describe the `value` area under the `Value Content` section of the LP `elements`. This element acts as a header for the `value content` section
-    - Place embed preview links and update wording in the `Value Examples` LP `element`.
-    - Under LP variables, toggle `valueBox Visibility` and `valueBox Examples` to `visible to activate the sections on the LP
+  - Add text to describe the `value` area under the `Value Content` section of the LP `elements`. This element acts as a header for the `value content` section
+  - Place embed preview links and update wording in the `Value Examples` LP `element`.
+  - Under LP variables, toggle `valueBox Visibility` and `valueBox Examples` to `visible to activate the sections on the LP
 
 ##### Webcasts
 

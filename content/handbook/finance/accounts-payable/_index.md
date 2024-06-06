@@ -69,13 +69,13 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
 - Make note that invoices are paid per the due date on the invoice or per the vendors payment terms in their contract, whichever comes first.
 - Please note that **AP cannot process same day requests for payments**. We must follow the process outlined above and ensure all approvals are attained before paying.
 - Payments are set up each **Thursday** and the money is released to vendors through the respective payment systems. It may take a few days for transfers to reach vendors depending on their location and the bank they use.
-    - In order for an invoice to be included on the Thursday payment run, it must have been received and fully approved by the Tuesday. **For example**, if we are doing a payment batch on Thursday June 3rd, the invoice would have to be approved by end of day on Tuesday, June 1st in order to be included.
+  - In order for an invoice to be included on the Thursday payment run, it must have been received and fully approved by the Tuesday. **For example**, if we are doing a payment batch on Thursday June 3rd, the invoice would have to be approved by end of day on Tuesday, June 1st in order to be included.
 - Manual Payments are **only** applicable to the following:
-    - Payroll Invoices
-    - Speaker Reimbursement
-    - Ex-Team member reimbursement
-    - Interview Candidate Reimbursement
-    - BOD Reimbursement
+  - Payroll Invoices
+  - Speaker Reimbursement
+  - Ex-Team member reimbursement
+  - Interview Candidate Reimbursement
+  - BOD Reimbursement
 
 ## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fas fa-receipt"></i> Coupa Virtual Card
 

@@ -1,5 +1,5 @@
 ---
-title: AI Framework Group - Eval like I am 5
+title: AI Framework Group - Eval like I'm 5
 description: "The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab AI feature development."
 aliases: /handbook/engineering/development/data-science/ai-framework
 ---
@@ -16,8 +16,8 @@ This guide is designed to help Backend and Frontend developers at GitLab conduct
 - Python Installation:
   - Make sure Python is installed on your machine. You can download and install it from the [official Python website](https://www.python.org/downloads/).
 - API Keys and Tokens:
-  - Obtain the necessary API keys for LangSmith and Anthropic. You can get these from `@oregand`, `@m_gill` or `@tzallmann`. You can also reach out to the `#g_ai_framework` slack channel and ask. An account will be created for you under `https://smith.langchain.com`.
-  - Ensure you have a GitLab private token with the necessary permissions. You can generate one from your GitLab profile settings under [“Access Tokens”](https://gitlab.com/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
+  - [Create an issue using the AI Acesss Request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=AI_Access_Request). Specify LangSmith and Anthropic as the required providers.
+  - Ensure you have a GitLab private token with the necessary permissions from **your local GDK instance**. You can generate one from your GitLab profile settings under [“Access Tokens”](http://127.0.0.1:3000/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
 
 ### Step 1: Setting Up Your Environment
 
@@ -25,35 +25,39 @@ This guide is designed to help Backend and Frontend developers at GitLab conduct
 
 Ensure Python 3 is installed on your machine. If not, download and install it from the official [Python website](https://www.python.org/downloads/).
 
-#### Install Required Python Libraries
-
-Open your terminal and install the following libraries
+You can check if Python is installed by running the following command:
 
 ```bash
-pip install requests langsmith langchain langchain-openai python-dotenv
+python --version
 ```
 
-#### Create the Evaluation Directory
+#### Clone the ELI5 Cookbook
 
-Navigate to your project directory and create a new folder called `evaluation_scripts`. Inside this folder, create subfolders for each feature you plan to evaluate, such as `chat` and `code_suggestions`:
+Clone the `eli5` project which has everything set up for you.
 
 ```bash
-mkdir -p evaluation_scripts/chat evaluation_scripts/code_suggestions
-cd evaluation_scripts
+git clone git@gitlab.com:gitlab-org/ai-powered/eli5.git
+cd eli5
+```
+
+#### Setup the project
+
+From the `eli5` folder, run the following:
+
+```bash
+./setup.sh
 ```
 
 #### Set Environment Variables
 
-In the `evaluation_scripts` directory  create a `.env` file and add the following lines. This file stores your environment variables securely. Leave the `OPENAI_API_KEY` blank.
+Copy the example `.env` files and fill in your API keys.
 
 ```bash
-LANGCHAIN_TRACING_V2=true
-LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
-LANGCHAIN_API_KEY="your_langsmith_api_key"
-LANGCHAIN_PROJECT="26a248f8-d774-467d-860f-047f99a8e8b5"
-OPENAI_API_KEY=""
-GITLAB_PRIVATE_TOKEN="your_gitlab_private_token"
+cp evaluation_scripts/chat/.env.example evaluation_scripts/chat/.env
+cp evaluation_scripts/code_suggestions/.env.example evaluation_scripts/code_suggestions/.env
 ```
+
+Edit the `.env` files to include your API keys and tokens.
 
 ### Step 2: Create and upload your dataset
 
@@ -61,81 +65,24 @@ GITLAB_PRIVATE_TOKEN="your_gitlab_private_token"
 
 **The goal would be to use an exisitng dataset, or create and upload a new one specific to your evaluations. See `duo_chat_questions_0shot` as an example.**
 
-### Step 3: Create a Basic Evaluation Script
+Follow the instructions in the example project to create and upload datasets, you can see some sample datsets in `https://gitlab.com/gitlab-org/ai-powered/eli5/datasets`.
 
-#### Write the Evaluation Script
+### Step 3: Running the Evaluation Scripts
 
-In the `evaluation_scripts/chat` directory, create a new file named `evaluate.py`.
-
-```python
-import os
-import requests
-from langsmith import traceable, wrappers
-from langsmith.evaluation import evaluate
-from dotenv import load_dotenv
-
-load_dotenv()  # Load environment variables from .env file
-
-@traceable
-def get_chat_answer(question):
-    base_url = 'http://localhost:3000'
-    url = f"{base_url}/api/v4/chat/completions"
-    headers = {
-        "Content-Type": "application/json",
-        "PRIVATE-TOKEN": os.getenv("GITLAB_PRIVATE_TOKEN"),
-    }
-    payload = {
-        "content": question
-    }
-    response = requests.post(url, json=payload, headers=headers)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        raise Exception(f"Error: {response.status_code} - {response.text}")
-
-def main():
-    chain_results = evaluate(
-        lambda inputs: get_chat_answer(inputs["question"]),
-        # Replace "duo_chat_questions_0shot" with the name of your uploaded dataset
-        data="duo_chat_questions_0shot",
-        evaluators=["oshot_choice"],
-        experiment_prefix="Run Small Duo Chat Questions on GDK",
-    )
-    print(chain_results)
-
-if __name__ == "__main__":
-    main()
-```
-
-**note: make sure to replace "duo_chat_questions_0shot" with the name of your uploaded dataset**
-
-#### Directory Structure
-
-Your project directory should look like this:
-
-```bash
-project_root/
-├── evaluation_scripts/
-│   ├── chat/
-│   │   ├── .env
-│   │   └── evaluate.py
-│   ├── code_suggestions/
-│   │   ├── .env
-│   │   └── evaluate.py
-```
+The example project includes pre-configured evaluation scripts. Navigate to the respective directories and run the scripts. [See our evaluators guide here](./evaluators/) for more information.
 
 #### Running the Script Locally
 
-Make sure your GDK is running. Open a new terminal window, navigate to your GDK directory, and start it:
+Make sure your GDK is running:
 
 ```bash
-cd path/to/your/gdk
 gdk start
 ```
 
 Then, in your terminal where `evaluate.py` is located, run:
 
 ```bash
+cd evaluation_scripts/chat
 python evaluate.py
 ```
 

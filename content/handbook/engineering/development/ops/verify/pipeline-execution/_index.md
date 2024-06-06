@@ -24,29 +24,29 @@ The Verify:Pipeline Execution Group is focused on supporting the functionality w
 
 ### Performance
 
-  - Improving perceived performance from a customer perspective. For example, responsive UIs, reduced time to results.
-  - Reducing processing time in Pipeline Execution owned code.
-  - Ensuring the reliably of results. For example, return results to web requests in a timely manner (overlaps with scalability).
+- Improving perceived performance from a customer perspective. For example, responsive UIs, reduced time to results.
+- Reducing processing time in Pipeline Execution owned code.
+- Ensuring the reliably of results. For example, return results to web requests in a timely manner (overlaps with scalability).
 
 ### Scalability
 
-  - Supporting a lot of customers.
-  - Supporting a single customer with a large and/or complex set up.
+- Supporting a lot of customers.
+- Supporting a single customer with a large and/or complex set up.
 
 ### Developer Efficiency
 
-  - Reducing the complexity of the codebase.
-  - Dealing with the breadth of the code owned by the team.
-  - Reducing length of time it takes to get an MR through the review process.
-  - Ensuring efficiency related to Community Contributions;
-     - Ensuring that issues are approachable by the community.
-     - Improving efficiency in the review process for community contributions.
+- Reducing the complexity of the codebase.
+- Dealing with the breadth of the code owned by the team.
+- Reducing length of time it takes to get an MR through the review process.
+- Ensuring efficiency related to Community Contributions;
+  - Ensuring that issues are approachable by the community.
+  - Improving efficiency in the review process for community contributions.
 
 ### Customer Experience
 
-  - Ensuring that customer issues are resolved in a timely manner.
-  - Addressing SUSImpacting issues in a timely manner.
-  - Ensuring reliable and accurate documentation is available.
+- Ensuring that customer issues are resolved in a timely manner.
+- Addressing SUSImpacting issues in a timely manner.
+- Ensuring reliable and accurate documentation is available.
 
 ## Performance Indicator
 
@@ -140,7 +140,7 @@ These are our high-level engineering driven goals for the year. As with any of o
 **Goals:**
 
 - Deep dive into existing pipeline status issues and code
-    - Determine if there are and make systemic changes to address a number of the issues
+  - Determine if there are and make systemic changes to address a number of the issues
 
 #### Scalability
 
@@ -162,7 +162,7 @@ These are our high-level engineering driven goals for the year. As with any of o
 
 - Contribute to data retention planning
 - Identify potential cost savings from compressing job logs - [Spike](https://gitlab.com/gitlab-org/gitlab/-/issues/390114)
-    - Depending on results, schedule work to implement compression
+  - Depending on results, schedule work to implement compression
 
 #### Developer Efficiency
 
@@ -342,8 +342,8 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
 
 - By the Monday of release week:
   - The PM will set `~cicd::active` on any issues in `workflow::ready for development` that could be worked on in the upcoming milestone. The total weight for this column on [the board](https://gitlab.com/groups/gitlab-org/-/boards/3465921) will not exceed 100% of the average shipped milestone's weight. For example, if the team's average closed issues weight for a milestone is 30, the column should not exceed 30 weight.
-      - The EM will ensure that `~Deliverable` is added to any `~Verify::P1` issues
-      - The PM will set the milestone for any `~Verify::P1` issues to the current milestone.
+    - The EM will ensure that `~Deliverable` is added to any `~Verify::P1` issues
+    - The PM will set the milestone for any `~Verify::P1` issues to the current milestone.
   - The designated DRI for milestone refining will review the state of issues on the [`~needs weight` board][needs-weight-board] to ensure that all issues for future milestones are being weighted and refined by team members.
     - For any `Verify::P*` issues where team members have not already started the refinement process, the designated DRI will comment on the issue asking a specific team member or team members to start the process.
   - The EM will work with the PM and engineers to decide what should happen to any unassigned issues. They might be:
@@ -457,8 +457,8 @@ Development moves through workflow states in the following order:
 
 `workflow::planning breakdown` is driven by Product, but is a collaborative effort between Product and Engineering. The steps for **planning breakdown** typically consists of:
 
- - Product defining or clarifying the problem statement. Product  will collaborate on `problem validation` as needed.
- - Engineering clarifying the issue description as stated. Then refining and weighting the issue. If there is not enough information to do so, the PM should be tagged on the issue and the workflow state should be set to `workflow::problem validation`.
+- Product defining or clarifying the problem statement. Product  will collaborate on `problem validation` as needed.
+- Engineering clarifying the issue description as stated. Then refining and weighting the issue. If there is not enough information to do so, the PM should be tagged on the issue and the workflow state should be set to `workflow::problem validation`.
 
 At any point, if an issue becomes blocked, it would be in the `workflow::blocked` status. If there is a blocking issue, it needs to be added to the issue description or linked to the issue with a 'blocked by' relationship. If there is not a blocking issue, the reason for being blocked should be clearly communicated in a comment on the issue.
 
@@ -722,7 +722,7 @@ All the testing should be defined before the implementation starts and all parti
 - Who is the DRI for which test.
 - What is to be delivered.
 - When it will be delivered.
-    - If Feature flag is required consider [strategy for testing feature flags in end to end tests](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/782)
+  - If Feature flag is required consider [strategy for testing feature flags in end to end tests](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/782)
 
 #### E2E tests are written in parallel
 

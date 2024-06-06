@@ -7,10 +7,8 @@ GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contrib
 
 Contributions are part of the day-to-day jobs of the following people:
 
-- Principal Pricing Manager (Lisa Hoang)
-- Principal Pricing Manager (TBH)
+- Principal Pricing Manager (Sean Hall)
 - Sr Director, Product Monetization (Justin Farris)
-- Product Marketing (Saumya Upadhyaya)
 
 ## Pricing Strategy
 

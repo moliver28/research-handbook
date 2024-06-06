@@ -14,7 +14,7 @@ There is a quarterly GitLab CEO 101 call with new hires and the CEO. This is a z
 1. Team structure [{{< ref "structure" >}}]({{< ref "structure" >}}) or [organization chart](https://comp-calculator.gitlab.net/org_chart)
 1. How we work [/handbook](/handbook)
 
-  - Please pay special attention to the guideline about developing content and procedures in a public, transparent, [handbook-first](/handbook) manner
+   - Please pay special attention to the guideline about developing content and procedures in a public, transparent, [handbook-first](/handbook) manner
 
 1. [Reinforcements to stay a startup]({{< ref "still-a-startup" >}})
 

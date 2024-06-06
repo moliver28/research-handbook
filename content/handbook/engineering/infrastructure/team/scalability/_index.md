@@ -297,13 +297,13 @@ For an Incident Manager:
 If you are not EOC or an Incident Manager when an incident occurs:
 
 * For S1 incidents
-   * the priority is to get GitLab.com up and running and getting back to a stable state takes priority over project work
-   * when the system is stable, contribute to determining the root cause and writing up the corrective actions
-   * the IM or Reliability EM will delegate corrective actions
-   * work with the Scalability EM to prioritize any work that arises from an S1
+  * the priority is to get GitLab.com up and running and getting back to a stable state takes priority over project work
+  * when the system is stable, contribute to determining the root cause and writing up the corrective actions
+  * the IM or Reliability EM will delegate corrective actions
+  * work with the Scalability EM to prioritize any work that arises from an S1
 * For all other incidents
-   * if you are called into an incident, the priority is to enable others to resolve the problem
-   * the expectation is to be hands-off, giving guidance where necessary, and returning to project work as soon as possible
+  * if you are called into an incident, the priority is to enable others to resolve the problem
+  * the expectation is to be hands-off, giving guidance where necessary, and returning to project work as soon as possible
 
 The reason for this position is that our project work prevents future large S1 incidents from occurring.
 If we try to participate in and resolve many incidents, our project work is delayed and the risk of future S1 incidents increases.

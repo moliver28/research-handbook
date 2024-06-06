@@ -1,14 +1,7 @@
 ---
-
 title: "Staging Ref environment"
 description: "Detailed information about Staging Ref environment"
 ---
-
-
-
-
-
-
 
 ## Staging Ref
 
@@ -184,9 +177,9 @@ For using SAML SSO, you will need to:
 1. [Upgrade the pricing plan](#upgrade-paid-plans) of this group to "Premium".
 1. Visit [https://staging-ref.gitlab.com/groups/saml-sso-group/-/saml](https://staging-ref.gitlab.com/groups/saml-sso-group/-/saml) and:
 
-  - Check "Enforce SSO-only authentication for web activity for this group"
-  - Update the value of "Identity provider single sign-on URL" to the value saved in 1Password
-  - Update the value of "Certificate fingerprint" to the value saved in 1Password
+   - Check "Enforce SSO-only authentication for web activity for this group"
+   - Update the value of "Identity provider single sign-on URL" to the value saved in 1Password
+   - Update the value of "Certificate fingerprint" to the value saved in 1Password
 
 1. Save the changes.
 1. Sign out.

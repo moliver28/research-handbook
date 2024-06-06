@@ -45,6 +45,6 @@ While the solutions area is more flexible to account for solution oriented asset
 It is important that MRs for Solution Docs use the appropriate MR Template so that the documentation change is not routed through the normal tech editing process and CI jobs - but through the optimized workflow of Solutions Docs instead.
 
 1. Prepare your changes in https://gitlab.com/gitlab-org/gitlab
-2. **IMPORTANT:** When preparing your Merge Request, use the MR Template called "Documentation SA Solutions Docs"
-  1. This leaves off the label ~"docs::improvement" and adds the label ~"Solutions" (which also affects which CI jobs run)
-  2. This adds the appropriate reviewers (which can be seen in the MR template here: https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/merge_request_templates/Documentation%20SA%20Solutions%20Docs.md)
+1. **IMPORTANT:** When preparing your Merge Request, use the MR Template called "Documentation SA Solutions Docs"
+   1. This leaves off the label ~"docs::improvement" and adds the label ~"Solutions" (which also affects which CI jobs run)
+   1. This adds the appropriate reviewers (which can be seen in the MR template here: https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/merge_request_templates/Documentation%20SA%20Solutions%20Docs.md)

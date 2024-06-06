@@ -64,10 +64,10 @@ We are a showcase of GitLab’s culture. Interacting with us is flexible, asynch
 ## Success Metrics
 
 - **Accelerate Self-Service nARR**: nARR vs. plan > 1
-    - This is our north star metric
+  - This is our north star metric
 - **Efficiency**: growth efficiency >= 1.5 by FY’23
 - **Customer Experience**: self-service utilization `target coming soon`
-    - What is self-service utilization? % of self-service functionality used by customers
+  - What is self-service utilization? % of self-service functionality used by customers
 
 Illustrative example of self-service utilization.
 

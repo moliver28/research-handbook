@@ -26,20 +26,20 @@ Are you looking for security certifications/attestations for GitLab Dedicated? P
 ### Current
 
 - [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html): Security, Confidentiality and Availability Criteria
-   - The SOC 2 Type 2 report is available for customers and potential customers upon request. The report is scoped to GitLab.com. There are elements of the report that cover organizational-level security considerations (e.g., Business Continuity Planning, Risk Assessments, etc.) which go beyond the scope of GitLab.com as a SaaS product and speak to the mature state of GitLab's information security program.
+  - The SOC 2 Type 2 report is available for customers and potential customers upon request. The report is scoped to GitLab.com. There are elements of the report that cover organizational-level security considerations (e.g., Business Continuity Planning, Risk Assessments, etc.) which go beyond the scope of GitLab.com as a SaaS product and speak to the mature state of GitLab's information security program.
 - [SOC 3 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc3report.html): Security, Confidentiality and Availability Criteria
-   - The SOC 3 report is available for general use by both customers and potential customers upon request. Please see SOC 2 Type 2 Report above for scope.
+  - The SOC 3 report is available for general use by both customers and potential customers upon request. Please see SOC 2 Type 2 Report above for scope.
 - [ISO/IEC 27001:2013](https://www.iso.org/isoiec-27001-information-security.html) Certification
-   - This standard specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system (ISMS). The certificate is scoped to GitLab SaaS services (GitLab.com and GitLab Dedicated). There are many elements of the certification that cover organizational-level security considerations (e.g., Business Continuity Planning, Risk Assessments, etc.) which go beyond the scope of GitLab SaaS services and speak to the mature state of GitLab's information security management program.
+  - This standard specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system (ISMS). The certificate is scoped to GitLab SaaS services (GitLab.com and GitLab Dedicated). There are many elements of the certification that cover organizational-level security considerations (e.g., Business Continuity Planning, Risk Assessments, etc.) which go beyond the scope of GitLab SaaS services and speak to the mature state of GitLab's information security management program.
 - [ISO/IEC 27017:2015](https://www.iso.org/standard/43757.html) Certification
-   - This standard establishes guidelines for information security controls applicable to the provision and use of cloud services.
+  - This standard establishes guidelines for information security controls applicable to the provision and use of cloud services.
 - [ISO/IEC 27018:2019](https://www.iso.org/standard/76559.html) Certification
-   - This standard establishes commonly accepted control objectives, controls and guidelines for implementing measures to protect Personally Identifiable Information (PII).
+  - This standard establishes commonly accepted control objectives, controls and guidelines for implementing measures to protect Personally Identifiable Information (PII).
 - [Trusted Information Security Assessment Exchange (TISAX)](https://enx.com/en-us/tisax/) AL2 certification for Information with High Protection and High Availability requirements.
 - [ISO/IEC 20243-1:2018](https://www.iso.org/standard/74399.html) Self Assessment
-   - This is a set of guidelines, requirements, and recommendations that address specific threats to the integrity of hardware and software COTS ICT products throughout the product life cycle. Scoped to GitLab.com and GitLab self managed.
+  - This is a set of guidelines, requirements, and recommendations that address specific threats to the integrity of hardware and software COTS ICT products throughout the product life cycle. Scoped to GitLab.com and GitLab self managed.
 - [CSA Consensus Assessments Initiative Questionnaire v3.1](https://cloudsecurityalliance.org/star/registry/gitlab/) Security Self-Assessment
-   - Based off the Cloud Controls Matrix and the CSA Code of Conduct for GDPR Compliance.
+  - Based off the Cloud Controls Matrix and the CSA Code of Conduct for GDPR Compliance.
 - [CSA Trusted Cloud Provider](https://cloudsecurityalliance.org/artifacts/trusted-cloud-provider-faq/)
 - [Standardized Information Gathering Questionnaire](https://sharedassessments.org/sig/) Self-Assessment
 - [Annual Third Party Penetration Test](/handbook/security/penetration-testing-policy)

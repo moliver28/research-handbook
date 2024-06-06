@@ -80,15 +80,16 @@ Account Name contains a number of options related to managing your account in Co
 
 - **Groups**: Access to Groups setup and allows user to add members in the group he/she belongs to.
 - **Settings**: Contains consolidated personal settings.
-   - **General**: The General tab is where you can load a profile photo and check user forms.
-   - **Address Book**: Allows you to view your default shipping address and change it as needed (you can also change the shipping address of a particular requisition on the requisition page).
-   - **Delegates**: Users can delegate their receiving and approvals to another user by using the Delegates functionality (it is possible to add multiple, overlapping delegates, and enable notifications). *Check the [How to add a Delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) section for more details*.
-   - **Reports**: Users can schedule a report by going to a particular report view and specifying the scheduling details (only certain users will have access to reports and report views are dependent on role).
-   - **Notifications**: Coupa notifications can be managed under the User's Settings.
-      ![coupa-image-26](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa26.png)
+  - **General**: The General tab is where you can load a profile photo and check user forms.
+  - **Address Book**: Allows you to view your default shipping address and change it as needed (you can also change the shipping address of a particular requisition on the requisition page).
+  - **Delegates**: Users can delegate their receiving and approvals to another user by using the Delegates functionality (it is possible to add multiple, overlapping delegates, and enable notifications). *Check the [How to add a Delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) section for more details*.
+  - **Reports**: Users can schedule a report by going to a particular report view and specifying the scheduling details (only certain users will have access to reports and report views are dependent on role).
+  - **Notifications**: Coupa notifications can be managed under the User's Settings.
 
-      For each type of notification, the User can choose whether to receive notifications via email, Slack, or within Coupa (Online) and can select multiple platforms.
-   - **Two-Factor Authentication (2FA)**: Should be enabled on user profiles to ensure that financial accounts and instruments are protected for control and use by the individual to whom they are intended. This extra authentication layer on the user profile is required before that user can be granted privileged permissions for working with payment features like creating batches for expense and invoice payments, creating accounts, and many other secured payment functions. *Check the [How to enable Two-Factor Authentication (2FA)](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-enable-two-factor-authentication) section for more details*.
+    ![coupa-image-26](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa26.png)
+
+    For each type of notification, the User can choose whether to receive notifications via email, Slack, or within Coupa (Online) and can select multiple platforms.
+  - **Two-Factor Authentication (2FA)**: Should be enabled on user profiles to ensure that financial accounts and instruments are protected for control and use by the individual to whom they are intended. This extra authentication layer on the user profile is required before that user can be granted privileged permissions for working with payment features like creating batches for expense and invoice payments, creating accounts, and many other secured payment functions. *Check the [How to enable Two-Factor Authentication (2FA)](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-enable-two-factor-authentication) section for more details*.
 - **Inbox** - Displays all current and previous notifications.
 - **Sign Out** - to exit the application.
 
@@ -130,10 +131,10 @@ Effective 2023-02-01, all purchase requisitions will be created in `Zip`. To lea
 ![coupa-image-42](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa42.png)
 
 - a) On Behalf Of *(synced from `Zip`)*<br>
-   - This is used to create a request on behalf of another user. The approval chain will update following the person selected as “on behalf of”. This user will then have to approve the invoice once received.
+  - This is used to create a request on behalf of another user. The approval chain will update following the person selected as “on behalf of”. This user will then have to approve the invoice once received.
 - b) Description of Purchase *(synced from `Zip`)*<br>
 - c) Hide Price *(optional)*<br>
-   - Used by Procurement to hide Purchase Order price from the Vendor.
+  - Used by Procurement to hide Purchase Order price from the Vendor.
 - d) Attachments *(synced from `Zip`)*<br>
 
 If an invoice is attached, it will also need to be emailed to **ap@gitlab.com** for processing.
@@ -143,7 +144,7 @@ If an invoice is attached, it will also need to be emailed to **ap@gitlab.com** 
 - f) Vendor has access to red/orange data? *(optional)*<br>
 - g) List data and systems involved *(optional)*<br>
 - h) Vendor’s Security Contact Email *(optional)*<br>
-   - Click on the magnifying glass icon to select or create a different address.
+  - Click on the magnifying glass icon to select or create a different address.
 - i) Virtual Card Supporting Documentation *(optional)*<br>
 - j) Address *(defaults from the User record)*<br>
 - k) Attn *(defaults from the User record)*<br>
@@ -191,9 +192,9 @@ Once the requisition integrates from `Zip` into `Coupa`, the applicable approver
 
 - Click on the "Add" button.
 - Type in a few letters of the approver name and the system displays all possible entries.
-   - New approver must be an existing user in Coupa.
+  - New approver must be an existing user in Coupa.
 - Select if the person is to be added after the current approver, end of the chain, or only as a watcher.
-   - A watcher cannot approve or reject the cart but will receive notifications about the requisition.
+  - A watcher cannot approve or reject the cart but will receive notifications about the requisition.
 
 ![coupa-image-45](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa45.png)
 ![coupa-image-46](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa46.png)
@@ -207,34 +208,34 @@ Once the requisition integrates from `Zip` into `Coupa`, the applicable approver
 There are several ways to approve transactions in Coupa:
 
 - **To Do’s** notification on the homepage screen
-   - To view the requisition/invoice/PO change request details, click on the subject line.
-   - The approver may add comments on the “Approval Comments” section before clicking on the Reject or Approve buttons.
-   - All approvers are displayed in the “Approvers” section.
-   - When rejected, a requisition goes back to “Draft” status, the requestor needs to make changes and re-submit. (Please, remember leave a comment about the rejection for the requester).
-      - When an invoice is rejected, it goes under “Rejected” status and the Accounts Payable needs to edit and resubmit the invoice (or void if necessary).
+  - To view the requisition/invoice/PO change request details, click on the subject line.
+  - The approver may add comments on the “Approval Comments” section before clicking on the Reject or Approve buttons.
+  - All approvers are displayed in the “Approvers” section.
+  - When rejected, a requisition goes back to “Draft” status, the requestor needs to make changes and re-submit. (Please, remember leave a comment about the rejection for the requester).
+    - When an invoice is rejected, it goes under “Rejected” status and the Accounts Payable needs to edit and resubmit the invoice (or void if necessary).
 - **Inbox**
-   - Users can access all their notifications through the “Inbox” section under “Account Name”.
-   - The User can change the report View to "To Do" to filter all notifications requiring action.
+  - Users can access all their notifications through the “Inbox” section under “Account Name”.
+  - The User can change the report View to "To Do" to filter all notifications requiring action.
 - Via **Activity > “Transactional Tabs” > Requiring My Approval** view
-   - In each Activity transactional subtabs, users can change the report view to Requiring My Approval.
+  - In each Activity transactional subtabs, users can change the report view to Requiring My Approval.
 - **Email**
-   - The approver receives a system-generated email notifying about the requisition or invoice as soon as a user submits the transaction.
-   - All the basic information is displayed on the email.
-   - The approver selects an appropriate action (View Req / Approve / Reject).
-      - The “View Req” option is a link to Coupa to see the transaction in the system.
-   - Once a choice is selected, an automatic email is created. The approver needs to send the e-mail for the approval to be made in Coupa.
-   - Once the e-mail is sent, the transaction will move to the next approver based on the approval chain in Coupa.
-      - If rejecting the Purchase Request, the approver should include a comment explaining the rationale for rejecting it.
+  - The approver receives a system-generated email notifying about the requisition or invoice as soon as a user submits the transaction.
+  - All the basic information is displayed on the email.
+  - The approver selects an appropriate action (View Req / Approve / Reject).
+    - The “View Req” option is a link to Coupa to see the transaction in the system.
+  - Once a choice is selected, an automatic email is created. The approver needs to send the e-mail for the approval to be made in Coupa.
+  - Once the e-mail is sent, the transaction will move to the next approver based on the approval chain in Coupa.
+    - If rejecting the Purchase Request, the approver should include a comment explaining the rationale for rejecting it.
 - **Coupa Mobile App**
-   - A mobile application of Coupa can be downloaded either at the Apple or Android stores. Once you download the app you need to sign-in as you normally would to the instance.
-   - The app allows you to do approvals for both Requisitions and Invoices:
-      - To Approve: Open the requisition or invoice notification, review the information, and approve.
-      - To Reject: Open the requisition or invoice notification, review the information, and reject.
+  - A mobile application of Coupa can be downloaded either at the Apple or Android stores. Once you download the app you need to sign-in as you normally would to the instance.
+  - The app allows you to do approvals for both Requisitions and Invoices:
+    - To Approve: Open the requisition or invoice notification, review the information, and approve.
+    - To Reject: Open the requisition or invoice notification, review the information, and reject.
 - **Coupa Slack integration**
-   - Coupa has built-in integration with Slack, which provides users with another method for Coupa notifications. To activate Slack notifications please follow below steps or view the Coupa Slack [quick demo](https://www.loom.com/share/188a2df7f1cd4b35a3df9e96db7c05e7):
-      - Click "Settings" under your name on the top right;
-      - Click "Notifications";
-      - Click button "Add to Slack". New window will pop up. Click "Allow"
+  - Coupa has built-in integration with Slack, which provides users with another method for Coupa notifications. To activate Slack notifications please follow below steps or view the Coupa Slack [quick demo](https://www.loom.com/share/188a2df7f1cd4b35a3df9e96db7c05e7):
+    - Click "Settings" under your name on the top right;
+    - Click "Notifications";
+    - Click button "Add to Slack". New window will pop up. Click "Allow"
 
    Once Slack notifications are activated you can choose what type of notifications you want to receive via slack.
    To specify notifications that should be received in slack please go to Settings - Notifications - mark "IM" boxes.
@@ -330,10 +331,10 @@ To complete a New Supplier Request form:
 ![coupa-image-41](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa41.png)
 
 - Complete the form details and click the "Review" button (located at the bottom of the page/screen).
-   - Review the information and if any changes need to be made, click the "Edit" button (located at the bottom of the page/screen) to make necessary changes.
-   - If the information is correct, click the "Submit" button (located at the bottom of the page/screen).
+  - Review the information and if any changes need to be made, click the "Edit" button (located at the bottom of the page/screen) to make necessary changes.
+  - If the information is correct, click the "Submit" button (located at the bottom of the page/screen).
 - An External Supplier Form will be automatically sent to the Supplier to gather additional information.
-   - The Supplier must complete the form and submit it back.
+  - The Supplier must complete the form and submit it back.
 - After supplier submission, the external form will be routed to the Accounts Payable Approval Group for review and approval.
 - After approval, the Supplier details will be integrated to NetSuite and it will flow back to Coupa to complete the New Supplier creation. By then, the Supplier should be available in `Zip` when creating Purchase Requests.
 

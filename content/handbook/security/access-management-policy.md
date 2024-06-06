@@ -45,11 +45,11 @@ These templates should be used during the [onboarding process](/handbook/people-
 
 - All access requests must be approved by the team member's manager with the exception of:
 
-   - ARs for Google Workspace email distribution lists for internal GitLab team members
-   - ARs for Slack groups for internal GitLab team members
-   - ARs using a role based template
-   - ARs for access removal
-   - ARs resulting from a [User Access Review](/handbook/security/security-assurance/security-compliance/access-reviews) in which users are marked for an access change by the technical/business owner performing the review
+  - ARs for Google Workspace email distribution lists for internal GitLab team members
+  - ARs for Slack groups for internal GitLab team members
+  - ARs using a role based template
+  - ARs for access removal
+  - ARs resulting from a [User Access Review](/handbook/security/security-assurance/security-compliance/access-reviews) in which users are marked for an access change by the technical/business owner performing the review
 
   Please note that ARs for access to internal systems for "external to GitLab individuals" require managerial approval. This includes access to Google Workspace security groups.
 
@@ -92,9 +92,9 @@ The structure of the baseline role-based entitlements ensures that team members 
 
 - A team member's title (excluding levels, such as Junior, Senior, etc.), as listed in their Workday employment profile
 - A combination of a team member's title (excluding levels, such as Junior, Senior, etc.) listed in their Workday employment profile **AND** their specific **job specialty**
-   - **Example**: Team members within the Security Assurance sub-department all utilize the Security Assurance Engineer title, but there are job specialities in Compliance, Risk, Governance and Field Security, which have different role based access requirements. As such, the baseline role-based entitlements are named like so:
-      - [role_security_assurance_engineer_security_risk](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_security/role_security_assurance_engineer_security_risk.md)
-      - [role_security_assurance_engineer_compliance](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_security/role_security_assurance_engineer_compliance.md)
+  - **Example**: Team members within the Security Assurance sub-department all utilize the Security Assurance Engineer title, but there are job specialities in Compliance, Risk, Governance and Field Security, which have different role based access requirements. As such, the baseline role-based entitlements are named like so:
+    - [role_security_assurance_engineer_security_risk](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_security/role_security_assurance_engineer_security_risk.md)
+    - [role_security_assurance_engineer_compliance](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_security/role_security_assurance_engineer_compliance.md)
 
 Specific instructions for the creation, review, and maintenance of these templates can be found [here](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/). These instructions also include details on any nuances that should be considered as part of the creation of the template.
 
@@ -142,7 +142,7 @@ GitLab operates its access management under the [principle of least privilege](h
   - A specific example of why the requested access is excessive. For example, a team member is requesting Super Admin access on Google Workspace to provision user accounts, but the Super Admin role provides access far beyond user account provisioning.
   - An alternative level of access and a brief explanation of how the new level of access allows the team member to fulfill their role. For example, a User Admin role on Google Workspace allows the team member to provision user accounts without providing the additional access a Super Admin would receive. If no alternative can be given, the access request should be approved in the interest of the team member's productivity.
 
-- Should there be disagreement on an access request rejection on the basis of least privilege, an [exception request]({{< ref "_index.md#information-security-policy-exception-management-process" >}}) should be submitted. An exception request is important because it provides a clearly defined escalation process, promotes transparency, and allows us to appropriately track any policy deviations.
+- Should there be disagreement on an access request rejection on the basis of least privilege, an [exception request](/handbook/security/controlled-document-procedure/#exceptions) should be submitted. An exception request is important because it provides a clearly defined escalation process, promotes transparency, and allows us to appropriately track any policy deviations.
 
 ### Deprovisioning
 
@@ -221,13 +221,13 @@ Access tokens for each service account should be requested accordingly.
 ### Account Naming Conventions
 
 - GitLab.com Administrator Account Naming Convention:
-    - Use user's GitLab Google Workspace email `+admin@gitlab.com` as the email address: **username+ADMIN@gitlab.com**
-    - GitLab.com admin account name should be the user's normal account with `-admin` appended: **username-admin**
-    - The admin account "Full name" should include text to indicate it is an admin account: **First Last (Admin)**
+  - Use user's GitLab Google Workspace email `+admin@gitlab.com` as the email address: **username+ADMIN@gitlab.com**
+  - GitLab.com admin account name should be the user's normal account with `-admin` appended: **username-admin**
+  - The admin account "Full name" should include text to indicate it is an admin account: **First Last (Admin)**
 - GitLab.com Bot Account Naming Convention:
-    - Use email for the group who owns the bot `+[TASK NAME]-bot@gitlab.com` as the email address: **GROUP+TASK-BOT@gitlab.com**
-    - GitLab.com bot account name should start with `gitlab` and append the task name and `-bot`: **gitlab-task-bot**
-    - The bot account "Full name" should include text to indicate it is a bot account: **First Last (Bot)**
+  - Use email for the group who owns the bot `+[TASK NAME]-bot@gitlab.com` as the email address: **GROUP+TASK-BOT@gitlab.com**
+  - GitLab.com bot account name should start with `gitlab` and append the task name and `-bot`: **gitlab-task-bot**
+  - The bot account "Full name" should include text to indicate it is a bot account: **First Last (Bot)**
 - Temporary Contractor Account Naming Convention: **username-CTR@gitlab.com**
 
 ### Automated Group Membership Reports for Managers
@@ -266,7 +266,7 @@ Additionally, all GitLab Team Member access is reviewed as a part of the [Access
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

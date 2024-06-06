@@ -11,7 +11,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 {.h2}
 
 - [Finance Issues](https://gitlab.com/gitlab-com/finance/issues)
-    - Please use confidential issues for topics that should only be visible to team members at GitLab.
+  - Please use confidential issues for topics that should only be visible to team members at GitLab.
 - [Accounts Payable]({{< ref "./accounts-payable" >}})
 - [Expense Guidelines]({{< ref "./expenses" >}})
 - [Operating Metrics]({{< ref "key-review" >}})
@@ -34,6 +34,13 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 - **Billing Operations**- customer billing inquiries should be sent to our Billing mailbox – *billing@gitlab.com*.
 - **Accounts Receivable** - customer payment/remittance inquiries should be sent to our Accounts Receivable mailbox - *AR@gitlab.com*
 - **Payroll**- inquiries which relate to contractor invoices should be sent to our Payroll mailbox - *nonuspayroll@gitlab.com*.
+
+## CFO Approvals
+
+- Please use the `#cfo-approvals` chat channel in Slack for alerting the CFO to a request for his approval
+- Tag the CFO's Staff EBA in the Slack request for visibility and followup
+- Appropriate Finance team members in the approval flow must approve prior to requesting CFO approval
+- All requests must go through the appropriate approvals process, include a link to the Issue or description and receive all approvals prior to requesting CFO approval
 
 ---
 

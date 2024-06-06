@@ -78,13 +78,13 @@ During the process of mapping the codebase we would need to do:
 - Inside the `lib` directory, distinguish between generic code that should be extracted as gem and domain code that should be namespaced
   the same as code in app. All code related to the same domain should have the exact same namespace. For example, we should not have
   `Ci::` (from app) and `Gitlab::Ci::` (from `lib`).
-    - We will have a special [`platform` category](https://gitlab.com/gitlab-org/gitlab/-/issues/365293#proposal) for code that should be
+  - We will have a special [`platform` category](https://gitlab.com/gitlab-org/gitlab/-/issues/365293#proposal) for code that should be
       extracted as gems and cross-cutting concerns in `app` and `lib` (generic base classes, utility, loggers, framework code, etc.).
 - It's important to focus only on the top-level bounded contexts without getting carried away with renaming nested classes.
   This can be a refactoring activity at the discretion of the team owning this feature, but not in scope of the working group.
 - Identify similar namespaces and the merging strategy. It could be any of the below:
-    - Create a new namespace that represents a larger domain and move the classes in there.
-    - Identify a representative namespace for the bounded context and move all other classes in there.
+  - Create a new namespace that represents a larger domain and move the classes in there.
+  - Identify a representative namespace for the bounded context and move all other classes in there.
 - Distinguish ambiguous namespaces by putting them into separate bounded context.
   When 2 namespaces seem similar but they operate in completely different contexts, move them under the respective bounded context.
 - Identify namespaces that have multiple responsibilities and should be split. In this case classes could go into other namespaces

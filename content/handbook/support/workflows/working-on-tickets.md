@@ -40,9 +40,9 @@ for:
 
  Choosing Tickets:
 
-   - Focus on handling tickets from the top down in your First Response Time (FRT) stage view, as they are sorted by `Ticket Weight` to highlight the highest-priority issues first. This approach ensures that you address the most critical tickets promptly. Additionally, keep an eye on tickets that are nearing their SLA deadlines to prevent any breaches. Please note, while the Ticket Weight field itself isn’t visible in the view, it is used to order the tickets, ensuring that those with the highest priority appear at the top.
-   - Next, work collaboratively to address unassigned NRT tickets, ensuring respect for the customer preferred regional preference.
-   - You should follow the tickets workflow, as shown in the flowchart below.
+- Focus on handling tickets from the top down in your First Response Time (FRT) stage view, as they are sorted by `Ticket Weight` to highlight the highest-priority issues first. This approach ensures that you address the most critical tickets promptly. Additionally, keep an eye on tickets that are nearing their SLA deadlines to prevent any breaches. Please note, while the Ticket Weight field itself isn’t visible in the view, it is used to order the tickets, ensuring that those with the highest priority appear at the top.
+- Next, work collaboratively to address unassigned NRT tickets, ensuring respect for the customer preferred regional preference.
+- You should follow the tickets workflow, as shown in the flowchart below.
 
 ```mermaid
 flowchart TD
@@ -54,26 +54,26 @@ flowchart TD
 
  Assigning Tickets:
 
-   - Assign tickets to yourself using the "Take It" button and update status to
+- Assign tickets to yourself using the "Take It" button and update status to
      `Open` or `Pending`.
-   - Ensure every response is linked to an assigned ticket.
-   - Please Note that the SLA clock continues to run until you’ve sent a public
+- Ensure every response is linked to an assigned ticket.
+- Please Note that the SLA clock continues to run until you’ve sent a public
       response to the user.
 
 ## Managing ticket load
 
-   - Regularly review your `open`, `pending`, and `on-hold` tickets under
+- Regularly review your `open`, `pending`, and `on-hold` tickets under
       [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834)
       to maintain a balanced workload, as well as align with
       [other responsibilities](/handbook/support/support-global-groups/#se-responsibilities-and-priorities).
-   - Aim for a manageable number of tickets, adjusting based on daily demands
+- Aim for a manageable number of tickets, adjusting based on daily demands
      and personal capacity.
-   - Aim to adhere to the support ticket SLA/SLOs:
-      - Urgent FRT 30m, NRT 4h
-      - High FRT 4h, NRT 4h
-      - Normal FRT 8h, NRT 24h
-      - Low FRT 24h, NRT 72h
-   - During periods of reduced operational capacity, such as holidays or company
+- Aim to adhere to the support ticket SLA/SLOs:
+  - Urgent FRT 30m, NRT 4h
+  - High FRT 4h, NRT 4h
+  - Normal FRT 8h, NRT 24h
+  - Low FRT 24h, NRT 72h
+- During periods of reduced operational capacity, such as holidays or company
      events, the Support team will prioritize handling all incoming tickets
      through the special ‘All FRT and Emergencies’ and ‘All NRT’ views, with
      each engineer expected to take ownership of any unassigned tickets they

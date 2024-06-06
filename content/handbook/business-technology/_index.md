@@ -137,10 +137,10 @@ You can see all of our IT Careers and job families in this page to learn more ab
 ## <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
 
 - Groups in GitLab
-    - `@gitlab-com/business-technology`
-    - `@gitlab-com/business-technology/enterprise-apps`
-    - `@gitlab-com/business-technology/end-user-services`
+  - `@gitlab-com/business-technology`
+  - `@gitlab-com/business-technology/enterprise-apps`
+  - `@gitlab-com/business-technology/end-user-services`
 - Channels in Slack
-    - [`#business-technology`](https://gitlab.slack.com/archives/C01BLS12V37)
-    - [`#enterprise_apps`](https://gitlab.slack.com/archives/CCPG8P3K4)
-    - [`#it_help`](https://gitlab.slack.com/archives/CK4EQH50E)
+  - [`#business-technology`](https://gitlab.slack.com/archives/C01BLS12V37)
+  - [`#enterprise_apps`](https://gitlab.slack.com/archives/CCPG8P3K4)
+  - [`#it_help`](https://gitlab.slack.com/archives/CK4EQH50E)

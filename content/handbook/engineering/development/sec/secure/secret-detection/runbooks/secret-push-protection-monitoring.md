@@ -13,18 +13,18 @@ This runbook is intended to be used when monitoring the [secret push protection]
 While the feature, in its [current form](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#high-level-architecture), doesn't have any external components and is entirely encapsulated within the application server as a dependency, it does interact with a number of components as can be seen in this [push event sequence diagram](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#push-event-detection-flow). Those components are:
 
 * GitLab Shell (Git over SSH):
-    * `git-receive-pack`
+  * `git-receive-pack`
 * Workhorse (Git over HTTP/S):
-    * `git-receive-pack`
+  * `git-receive-pack`
 * Gitaly:
-    * `SSHReceivePack`
-    * `PostReceivePack`
-    * `PreReceiveHook`
-    * `ListAllBlobs()` RPC
-    * `ListBlobs()` RPC
-    * `GetTreeEntries()` RPC
+  * `SSHReceivePack`
+  * `PostReceivePack`
+  * `PreReceiveHook`
+  * `ListAllBlobs()` RPC
+  * `ListBlobs()` RPC
+  * `GetTreeEntries()` RPC
 * Rails:
-    * `/internal/allowed` Endpoint
+  * `/internal/allowed` Endpoint
 
 Below is a sequence diagram showing the entire workflow whether a `git push` takes place over HTTP or SSH:
 
@@ -85,26 +85,35 @@ These components are therefore the main elements we are trying to focus on when 
 As discussed above, the functionality spans a number of components. Therefore, are three main tools we could use for monitoring the feature:
 
 * Kibana (Logs)
-    * [Staging](https://nonprod-log.gitlab.net)
-        * `pubsub-rails-inf-gstg`
-        * `pubsub-gitaly-inf-gstg`
-        * `pubsub-workhorse-inf-gstg`
-        * `pubsub-shell-inf-gstg`
-    * [Production](https://log.gprd.gitlab.net)
-        * `pubsub-rails-inf-gprd`
-        * `pubsub-gitaly-inf-gprd`
-        * `pubsub-workhorse-inf-gprd`
-        * `pubsub-shell-inf-gprd`
+  * [Staging](https://nonprod-log.gitlab.net)
+    * `pubsub-rails-inf-gstg`
+    * `pubsub-gitaly-inf-gstg`
+    * `pubsub-workhorse-inf-gstg`
+    * `pubsub-shell-inf-gstg`
+  * [Production](https://log.gprd.gitlab.net)
+    * `pubsub-rails-inf-gprd`
+    * `pubsub-gitaly-inf-gprd`
+    * `pubsub-workhorse-inf-gprd`
+    * `pubsub-shell-inf-gprd`
 * Prometheus/Grafana (Metrics)
-    * [Internal API](https://dashboards.gitlab.net/dashboards/f/internal-api/internal-api)
-    * [Gitaly](https://dashboards.gitlab.net/dashboards/f/gitaly/gitaly-service)
-    * [GitLab Shell](https://dashboards.gitlab.net/d/git-main/git3a-overview)
+  * [Internal API](https://dashboards.gitlab.net/dashboards/f/internal-api/internal-api)
+  * [Gitaly](https://dashboards.gitlab.net/dashboards/f/gitaly/gitaly-service)
+  * [GitLab Shell](https://dashboards.gitlab.net/d/git-main/git3a-overview)
 * Sentry (Error Tracking)
-    * [Gitlab.com](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitlabcom)
-    * [Gitaly](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitaly)
-    * [Workhorse](https://new-sentry.gitlab.net/organizations/gitlab/projects/workhorse-gprd)
+  * [Gitlab.com](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitlabcom)
+  * [Gitaly](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitaly)
+  * [Workhorse](https://new-sentry.gitlab.net/organizations/gitlab/projects/workhorse-gprd)
 
 This runbook focuses primarly on the Prometheus metrics available in Grafana, but also shares brief information about other tools and how they could be used. In later iterations, this may change as the feature grows and develops.
+
+### How to check the logs emitted from the feature?
+
+To check the logs emitted from the feature, please look at the following Kibana views:
+
+* 📖 [Kibana: Logs for all scans](https://log.gprd.gitlab.net/app/discover#/view/31afcbb2-28e9-466f-a6c3-486e869e1ee3).
+* 📖 [Kibana: Logs for blocked pushes](https://log.gprd.gitlab.net/app/discover#/view/db7ba29d-d406-46df-8b43-e6d9c47fbed7).
+
+>**Note:** Kibana [retain logs for only 7 days](https://handbook.gitlab.com/handbook/support/workflows/kibana/#using-kibana).
 
 ### How to identify and mitigate a reliability or performance issue with the feature?
 
@@ -196,8 +205,8 @@ This panel displays the average duration of establish SSH sessions summed up ove
 _Panel Information_
 
 * Metrics:
-    * `gitlab_shell_sshd_session_established_duration_seconds_sum`
-    * `gitlab_shell_sshd_session_established_duration_seconds_count`
+  * `gitlab_shell_sshd_session_established_duration_seconds_sum`
+  * `gitlab_shell_sshd_session_established_duration_seconds_count`
 * Label Filters:
   * `env` = `gprd`
   * `stage` = `main`
@@ -216,8 +225,8 @@ This panel displays the average duration of all SSH sessions (whether establishe
 _Panel Information_
 
 * Metrics:
-    * `gitlab_shell_sshd_session_duration_seconds_sum`
-    * `gitlab_shell_sshd_session_duration_seconds_count`
+  * `gitlab_shell_sshd_session_duration_seconds_sum`
+  * `gitlab_shell_sshd_session_duration_seconds_count`
 * Label Filters:
   * `env` = `gprd`
   * `stage` = `main`
@@ -334,8 +343,8 @@ This panel displays the average latency (duration) in seconds for the `/.git/git
 _Panel Information_
 
 * Metrics:
-    * `gitlab_workhorse_http_request_duration_seconds_sum`
-    * `gitlab_workhorse_http_request_duration_seconds_count`
+  * `gitlab_workhorse_http_request_duration_seconds_sum`
+  * `gitlab_workhorse_http_request_duration_seconds_count`
 * Label Filters:
   * `env` = `gprd`
   * `stage` = `main`

@@ -125,7 +125,6 @@ principle described above. Scheduled people are pinged in the merge request to m
 They don't need to confirm or approve, since they can always update the list if they are not
 available for the given release post.
 
-<i class="fas fa-exclamation-triangle" aria-hidden="true" style="color: red"></i>
 {{% alert title="⚠️ Important" color="warning" %}}
 If you're scheduled for a given month and you can't make it because you're on
 vacation, overloaded, or for any other reason, that is okay, **as long as you swap the
@@ -935,9 +934,9 @@ Use the following pattern to apply the correct badge to the feature (Free, Premi
 
 For the feature availability tier, use `available_in` with:
 
-  - For GitLab Free, `[core, premium, ultimate]`
-  - For GitLab Premium, `[premium, ultimate]`
-  - For GitLab Ultimate, `[ultimate]`
+- For GitLab Free, `[core, premium, ultimate]`
+- For GitLab Premium, `[premium, ultimate]`
+- For GitLab Ultimate, `[ultimate]`
 
   **Important note**: The GitLab Free tier is listed as `core` in the data file. This is intentional and the page templates will apply the proper tier name on the frontend.
 

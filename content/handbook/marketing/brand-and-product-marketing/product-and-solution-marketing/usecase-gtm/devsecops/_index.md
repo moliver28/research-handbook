@@ -275,8 +275,8 @@ When speaking with C-levels, ask them about Governance and control challenges.
 - Does automation enforce security standards? Are Security policies automated with security requirements built into the development process? Or are most projects secured a bit differently every time? How much manual intervention is needed?
 - How difficult is it to evaluate compliance with policies and drift/exceptions?
 - Compliance should be regularly evaluated and exceptions reviewed. Automating overly rigorous policies may prove detrimental to business objectives and may not be realistically achieved, so it is important to find a balance between compliance and efficiency.
-   - Do you have Visibility into access control, reporting, and change logs?
-   - Do you know how often policy exceptions are granted?
+  - Do you have Visibility into access control, reporting, and change logs?
+  - Do you know how often policy exceptions are granted?
 
 **6. Tools**
 

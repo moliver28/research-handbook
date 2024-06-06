@@ -92,8 +92,8 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
 </figure>
 
 - **Learn more**:
-    - Review the [No Tissues with Issues](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/101/) page
-    - Watch this [How to set up GitLab groups and projects to run multiple Agile teams with microservices](https://www.youtube.com/watch?v=VR2r1TJCDew) video (Jan 2019, 15 minutes)
+  - Review the [No Tissues with Issues](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/101/) page
+  - Watch this [How to set up GitLab groups and projects to run multiple Agile teams with microservices](https://www.youtube.com/watch?v=VR2r1TJCDew) video (Jan 2019, 15 minutes)
 
 #### How can we integrate Jira?
 
@@ -142,11 +142,11 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
 #### What are best practices for a developer workflow?
 
 - **Short answer**: A few best practices:
-    - Automate redundant tasks
-    - Simplify and enable collaboration for stakeholders
-    - Reduce time it takes to process information and data
-    - Provide visibility to all stakeholders
-    - Establish accountability
+  - Automate redundant tasks
+  - Simplify and enable collaboration for stakeholders
+  - Reduce time it takes to process information and data
+  - Provide visibility to all stakeholders
+  - Establish accountability
 - **Context video** (8 minutes, May 2020):
 
 <figure class="video_container">

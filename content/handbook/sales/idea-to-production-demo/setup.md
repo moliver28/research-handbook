@@ -20,8 +20,8 @@ can provision a Linux machine in the cloud to run your setup on.
 
 Tested on:
 
- - [Digital Ocean](https://www.digitalocean.com/): `16 GB RAM / 8 CPUs`
- - [Amazon EC2](https://aws.amazon.com/ec2/): `t2.xlarge`
+- [Digital Ocean](https://www.digitalocean.com/): `16 GB RAM / 8 CPUs`
+- [Amazon EC2](https://aws.amazon.com/ec2/): `t2.xlarge`
 
  You need to have ports `8443` and `80` open to the public for TCP traffic.
 
@@ -57,38 +57,38 @@ Once Docker is installed and running, we need to configure support for a insecur
 
 Configure the Docker daemon with an insecure registry parameter of `172.30.0.0/16`
 
- - In RHEL and Fedora, edit the `/etc/sysconfig/docker` file and add or uncomment the insecure registry line:
+- In RHEL and Fedora, edit the `/etc/sysconfig/docker` file and add or uncomment the insecure registry line:
 
-   ```console
-   sudo vi /etc/sysconfig/docker
-   ```
+  ```console
+  sudo vi /etc/sysconfig/docker
+  ```
 
-   ```console
-   INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
-   ```
+  ```console
+  INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
+  ```
 
- - After editing the config, restart the Docker daemon.
+- After editing the config, restart the Docker daemon.
 
-   ```console
-   sudo systemctl restart docker
-   ```
+  ```console
+  sudo systemctl restart docker
+  ```
 
- - In Ubuntu edit `/lib/systemd/system/docker.service` and edit the `ExecStart` line:
+- In Ubuntu edit `/lib/systemd/system/docker.service` and edit the `ExecStart` line:
 
-   ```console
-   sudo vi /lib/systemd/system/docker.service
-   ```
+  ```console
+  sudo vi /lib/systemd/system/docker.service
+  ```
 
-   ```console
-   ExecStart=/usr/bin/dockerd --insecure-registry 172.30.0.0/16 -H fd://
-   ```
+  ```console
+  ExecStart=/usr/bin/dockerd --insecure-registry 172.30.0.0/16 -H fd://
+  ```
 
- - After editing the config, restart the Docker daemon.
+- After editing the config, restart the Docker daemon.
 
-   ```console
-   sudo systemctl daemon-reload
-   sudo systemctl restart docker
-   ```
+  ```console
+  sudo systemctl daemon-reload
+  sudo systemctl restart docker
+  ```
 
 For troubleshooting these steps refer to the [OpenShift cluster up docs](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md#linux)
 
@@ -96,11 +96,11 @@ For troubleshooting these steps refer to the [OpenShift cluster up docs](https:/
 
 Once Docker is running, add an insecure registry of `172.30.0.0/16`:
 
- - From the Docker menu in the toolbar, select Preferences...
- - Click on Advanced in the preferences dialog
- - Under Insecure registries:, click on the + icon to add a new entry
- - Enter `172.30.0.0/16` and press return
- - Click on Apply and Restart
+- From the Docker menu in the toolbar, select Preferences...
+- Click on Advanced in the preferences dialog
+- Under Insecure registries:, click on the + icon to add a new entry
+- Enter `172.30.0.0/16` and press return
+- Click on Apply and Restart
 
 For troubleshooting these steps refer to the [OpenShift cluster up docs](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md#macos-with-docker-for-mac)
 
@@ -118,18 +118,18 @@ To install the tools, run the following from a terminal on the OpenShift host ma
 
 1. In a new directory, download and extract the tools:
 
-  - Linux:
+   - Linux:
 
-    ```console
-    curl -L  https://github.com/openshift/origin/releases/download/v1.3.2/openshift-origin-client-tools-v1.3.2-ac1d579-linux-64bit.tar.gz | tar -xz
-    ```
+     ```console
+     curl -L  https://github.com/openshift/origin/releases/download/v1.3.2/openshift-origin-client-tools-v1.3.2-ac1d579-linux-64bit.tar.gz | tar -xz
+     ```
 
-  - Mac:
+   - Mac:
 
-    ```console
-    curl -L -O https://github.com/openshift/origin/releases/download/v1.3.2/openshift-origin-client-tools-v1.3.2-ac1d579-mac.zip
-    unzip openshift-origin-client-tools*
-    ```
+     ```console
+     curl -L -O https://github.com/openshift/origin/releases/download/v1.3.2/openshift-origin-client-tools-v1.3.2-ac1d579-mac.zip
+     unzip openshift-origin-client-tools*
+     ```
 
 1. Place the tools on your path:
    - Linux:
@@ -187,45 +187,45 @@ changes to your cluster.
 
 1. Place the script on your path:
 
-  - Linux:
+   - Linux:
 
-    ```console
-    cd omnibus-gitlab-*
-    echo "export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:\$PATH" >> ~/.bashrc
-    export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:$PATH
-    ```
+     ```console
+     cd omnibus-gitlab-*
+     echo "export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:\$PATH" >> ~/.bashrc
+     export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:$PATH
+     ```
 
-  - Mac:
+   - Mac:
 
-    ```console
-    cd omnibus-gitlab-*
-    sudo echo $(pwd)/docker/openshift/oc-cluster-wrapper >> /private/etc/paths.d/origin-paths
-    export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:$PATH
-    ```
+     ```console
+     cd omnibus-gitlab-*
+     sudo echo $(pwd)/docker/openshift/oc-cluster-wrapper >> /private/etc/paths.d/origin-paths
+     export PATH=$(pwd)/docker/openshift/oc-cluster-wrapper:$PATH
+     ```
 
 1. Test that the script is on your path:
 
-  ```console
-  oc-cluster help
-  ```
+   ```console
+   oc-cluster help
+   ```
 
-  This should return a list of valid commands.
+   This should return a list of valid commands.
 
-  ```console
-  oc-cluster up [profile] [OPTIONS]
-  oc-cluster down
-  oc-cluster destroy [profile]
-  oc-cluster list
-  oc-cluster status
-  oc-cluster ssh
-  oc-cluster console
-  oc-cluster completion bash
-  oc-cluster plugin-install <plugin>
-  oc-cluster plugin-uninstall <plugin>
-  oc-cluster plugin-list
-  oc-cluster create-volume volumeName [size|10Gi] [path|/root/.oc/profiles/<profile>/volumes/<volumeName>]
-  oc-cluster create-shared-volume project/volumeName [size|10Gi] [path|/root/.oc/volumes/<volumeName>]
-  ```
+   ```console
+   oc-cluster up [profile] [OPTIONS]
+   oc-cluster down
+   oc-cluster destroy [profile]
+   oc-cluster list
+   oc-cluster status
+   oc-cluster ssh
+   oc-cluster console
+   oc-cluster completion bash
+   oc-cluster plugin-install <plugin>
+   oc-cluster plugin-uninstall <plugin>
+   oc-cluster plugin-list
+   oc-cluster create-volume volumeName [size|10Gi] [path|/root/.oc/profiles/<profile>/volumes/<volumeName>]
+   oc-cluster create-shared-volume project/volumeName [size|10Gi] [path|/root/.oc/volumes/<volumeName>]
+   ```
 
 ## Set up and Run the cluster
 
@@ -252,10 +252,10 @@ changes to your cluster.
 you are working on a cloud instance, this link will probably be wrong, and showing
 and internal IP address.
 
-To access the console open `https://<your public hostname>:8443` in a browser tab.
+   To access the console open `https://<your public hostname>:8443` in a browser tab.
 You will have to accept the invalid certificate.
 
-Then login to OpenShift using username: `developer` password: `developer`
+   Then login to OpenShift using username: `developer` password: `developer`
 
 1. In your terminal, install the gitlab plugin:
 
