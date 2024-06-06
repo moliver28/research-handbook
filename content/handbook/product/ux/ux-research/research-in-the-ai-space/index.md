@@ -40,7 +40,7 @@ AI solutions themselves won’t reveal the user problem they are meant to solve.
 - There are other parameters you can include in your survey, such as:
    - How users currently solve the problem
    - The difficulty of solving this problem today
-   - The time involved in solving this problem today
+   - User satisfaction with time spent
 - See this [template](https://docs.google.com/document/d/1-81BH7JPj_SU5L1YvfX2HpYuIdKnUuTpRHuRlKb5w3M/copy) for example questions. More example studies coming soon.
 
 This type of research can help us evaluate the time and effort we can save users by alleviating tedious tasks. There is a big advantage to having this information, as it can also be used to make a business case for why a customer would purchase this AI tool.
