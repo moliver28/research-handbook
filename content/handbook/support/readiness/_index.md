@@ -7,7 +7,8 @@ canonical_path: "/handbook/support/readiness/"
 ## Purpose
 
 The purpose of Support Readiness is to enable GitLab to provide delightful customer experiences by:
-- equipping the Customer Support team with the right knowledge, training, tools and data to efficiently solve customer problems.
+
+- equipping the Customer Support team with the right knowledge, tools and data to optimize productivity and efficiently solve customer problems. 
 - equipping our customers and wider GitLab with the right data, knowledge and insights to prevent customer problems before they occur.
 - delivering delightful experiences to both our own internal and external customers.
 
@@ -17,39 +18,41 @@ The purpose of Support Readiness is to enable GitLab to provide delightful custo
 
 The FY25 Direction for Support Readiness should support and substantiate the overall [Support Direction]((/handbook/support/#fy25-direction)). To that end, in FY25 we will:
 
-
 ### Improve our ability to achieve results for customers
+
  - Update and refine issue triage, prioritization and work assignment processes.
  - Create sub-department and role-based performance indicators.
  - Simplify and refine customer and support engineer experiences using Zendesk.
 
 ### Team structure and how it supports our ability to achieve results
+
  - Refine team structure and team member roles; check-in with team members to make sure they're in the right "seat" and have the right responsibilities.
  - Make strategic hires to help better achieve our purpose and advance us in our direction.
 
 ### Team culture and how it supports our ability to achieve results
+
  - Run a SWOT analysis and use its output to form purpose and direction statements.
  - Share knowledge, document and train on operationally critical issues to ensure business continuity.
 
 ### Delight our customers
+
  - Foster a customer-centric mindset that prioritizes empathy and proactive support.
- - Survey Support team and take action on findings.
-
-
+ - Survey the Support team and take action based on the findings.
 
 *Our direction is re-evaluated annually, following the completion of the [Support Direction](/handbook/support/#fy25-direction)*
 
 ## Meet the team
 
-| Name                                                  | Role                                  |
-|-------------------------------------------------------|---------------------------------------|
+| Name                                                  | Role                                  | Specialization                             |
+|-------------------------------------------------------|---------------------------------------|---------------------------|
 | [Lyle Kozloff](https://gitlab.com/lyle)               | Director of Support, Global Readiness and Acting Support Operations Manager |
-| [Jason Colyer](https://gitlab.com/jcolyer)            | Fullstack Engineer |
-| [Nabeel Bilgrami](https://gitlab.com/nabeel.bilgrami) | Support Operations Specialist         |
-| [Alyssa Villa](https://gitlab.com/avilla4)            | Support Operations Specialist         |
-| [Dylan Tragjasi](https://gitlab.com/dtragjasi)        | Support Operations Specialist         |
-| [Sarah Cole](https://gitlab.com/Secole)               | Support Operations Specialist         |
-| [Rene Verschoor](https://gitlab.com/rverschoor)       | Support Operations Specialist         |
+| [Jason Colyer](https://gitlab.com/jcolyer)            | Fullstack Engineer                   | Operations |
+| [Nabeel Bilgrami](https://gitlab.com/nabeel.bilgrami) | Support Readiness Specialist         | Operations |
+| [Alyssa Villa](https://gitlab.com/avilla4)            | Support Readiness Specialist         | Operations |
+| [Dylan Tragjasi](https://gitlab.com/dtragjasi)        | Support Readiness Specialist         | Operations |
+| [Sarah Cole](https://gitlab.com/Secole)               | Support Readiness Specialist         | Operations |
+| [Rene Verschoor](https://gitlab.com/rverschoor)       | Support Readiness Specialist         | Operations |
+| [Melissa Magoma](https://gitlab.com/Melissa_Magoma)   | Support Readiness Specialist         | Service Delivery |
 
 ## Hiring Plan
 
