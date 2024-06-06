@@ -16,6 +16,8 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 ## Q2-FY25
 
+### 2024-06-17 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/576))
+
 ### 2024-06-03 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/565))
 
 **[6sense for Sales Intelligence Dashboards in Salesforce](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2741)**
