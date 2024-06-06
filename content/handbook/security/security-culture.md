@@ -59,7 +59,7 @@ Previously nominated committee members (FY22):
 
 ### Meetings
 
-The meetings will alternate between APAC & AMEA-friendly timezones. The recordings will be available in the [GitLab Videos Recorded](https://drive.google.com/drive/folders/1bGPEGVdzoT650bFc7nAmU5nBzHu0rRe1) folder. Any team member is welcome to join - ask in `#security-culture` if you can't find the event.
+The meetings will alternate between APAC & EMEA-friendly timezones. The recordings will be available in the [Security Culture Meetings Recorded](https://drive.google.com/drive/folders/16MQUEZ8VLz6Ay-BT_nuzv6hM2W2kmik_) folder. Any team member is welcome to join - ask in `#security-culture` if you can't find the event.
 
 ## Process for change
 
@@ -76,3 +76,5 @@ We are tracking our efforts in this issue: https://gitlab.com/gitlab-com/gl-secu
 The processes for forming the Security Culture Committee were updated in [May 2024](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/4886).
 
 Previous documentation on forming the security culture committee and nomination processes can be found [here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/06e23cbcfada90c2b8ae01d89335efde5c248cd5/content/handbook/security/security-culture.md#formation-process-overview).
+
+Meeting recordings from 2020-2021 are located [here](https://drive.google.com/drive/folders/1bGPEGVdzoT650bFc7nAmU5nBzHu0rRe1). 
