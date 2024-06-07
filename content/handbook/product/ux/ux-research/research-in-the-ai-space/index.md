@@ -33,14 +33,14 @@ AI solutions themselves won’t reveal the user problem they are meant to solve.
 
 **Use case definition (recommended option for medium and high level confidence)**
 
-- Take a look at the existing research and JTBD for the problem being solved. Consider whether it's a good for for an AI tool. Tasks that are tedious, repetitive, error-prone, boring, or low stakes are good candidates for AI tools. 
-- Then, validate your problem statements through a quantitative [online survey](/handbook/product/ux/ux-research/surveys/), or existing analytics or other data, to understand:
-  - The frequency of users encountering this problem
-   - The importance of addressing the problem
+* Take a look at the existing research and JTBD for the problem being solved. Consider whether it's a good for for an AI tool. Tasks that are tedious, repetitive, error-prone, boring, or low stakes are good candidates for AI tools.
+* Then, validate your problem statements through a quantitative [online survey](/handbook/product/ux/ux-research/surveys/), or existing analytics or other data, to understand:
+ * The frequency of users encountering this problem
+ * The importance of addressing the problem
 - There are other parameters you can include in your survey, such as:
-   - How users currently solve the problem
-   - The difficulty of solving this problem today
-   - User satisfaction with time spent
+ * How users currently solve the problem
+ *  The difficulty of solving this problem today
+ * User satisfaction with time spent
 - See this [template](https://docs.google.com/document/d/1-81BH7JPj_SU5L1YvfX2HpYuIdKnUuTpRHuRlKb5w3M/copy) for example questions. More example studies coming soon.
 
 This type of research can help us evaluate the time and effort we can save users by alleviating tedious tasks. There is a big advantage to having this information, as it can also be used to make a business case for why a customer would purchase this AI tool.
@@ -50,11 +50,11 @@ While outside the scope of UX research, a good step is always to validate that t
 
 **Extended solution validation**
 
-- Use [solution validation-type studies](/handbook/product/ux/ux-research/solution-validation-and-methods/) to learn more about the users’ needs *before* they engage with the prototype or capability. To do so, add a few questions about their job tasks, workflows, tools, expectations, pain points etc. before participants start their tasks with the prototype (see this [example](https://docs.google.com/document/d/1FXvp1690AGCxJTUeuewit3e8JDljP4sLCf9R7K3wYtk/edit#heading=h.f246e42afjt9)). [Moderated sessions](/handbook/product/ux/ux-research/usability-testing/#different-types-of-usability-testing) are more suitable than [unmoderated ones](/handbook/product/ux/ux-research/unmoderated-testing/#pros-and-cons) and are recommended.
+* Use [solution validation-type studies](/handbook/product/ux/ux-research/solution-validation-and-methods/) to learn more about the users’ needs *before* they engage with the prototype or capability. To do so, add a few questions about their job tasks, workflows, tools, expectations, pain points etc. before participants start their tasks with the prototype (see this [example](https://docs.google.com/document/d/1FXvp1690AGCxJTUeuewit3e8JDljP4sLCf9R7K3wYtk/edit#heading=h.f246e42afjt9)). [Moderated sessions](/handbook/product/ux/ux-research/usability-testing/#different-types-of-usability-testing) are more suitable than [unmoderated ones](/handbook/product/ux/ux-research/unmoderated-testing/#pros-and-cons) and are recommended.
 
 **Generative research (recommended option for low confidence)**
 
-- If you don’t have a high level of confidence or understanding of the problem statement or user needs, you will want to take the time to conduct generative research to learn more about a user group and their needs. While this approach takes more time, it provides deep insights into users’ needs, goals, and pain points that can be used to ideate on new solutions. We should do this type of research when we are solving a new user problem with AI, but we don't necessarily require it when we are using AI to enhance or improve existing functionality.
+* If you don’t have a high level of confidence or understanding of the problem statement or user needs, you will want to take the time to conduct generative research to learn more about a user group and their needs. While this approach takes more time, it provides deep insights into users’ needs, goals, and pain points that can be used to ideate on new solutions. We should do this type of research when we are solving a new user problem with AI, but we don't necessarily require it when we are using AI to enhance or improve existing functionality.
 
 ### Guideline 2: Pre-Solution validation - Collect user feedback on your idea before building anything
 
@@ -74,19 +74,18 @@ It may be tempting, but don’t ask users if they would use this AI capability. 
 
 Once an AI powered solution is available for validation, make sure to not only collect feedback on its usability, but also:
 
-- **Baseline data** - on how users currently solve this problem. This allows us to assess the impact the AI solution may have and how helpful it is.
-- **On trust** - If people trust the information provided by AI. If they don’t trust it, they won’t use it. Here are some example questions to consider:
-   - *How much do you trust the [capability/tool name, e.g. code suggestions] provided?*
-   - *Do you trust [capability/tool name, e.g. code suggestions] with [task, e.g. providing correct code]? Why/Why not?*
-- **On giving feedback** - If they feel comfortable giving system feedback, e.g. when a code suggestion is not helpful. The AI improves based on user feedback, so it’s important they can do it. You can do this by including a task that focuses on giving feedback on a “wrong” recommendation and measure if they were successful doing it and how they felt about it.
-- **On attitudes towards third-party AI services** - If your AI solution is powered by a third party (e.g. OpenAI), it’s important to understand if users are aware of the use of a third-party and their attitude towards it. This provides insights into users’ mental model (see [Guideline 5](#guideline-5-plan-ahead-for-longitudinal-research)) and impact on GitLab as a brand.
+* **Baseline data** - on how users currently solve this problem. This allows us to assess the impact the AI solution may have and how helpful it is.
+* **On trust** - If people trust the information provided by AI. If they don’t trust it, they won’t use it. Here are some example questions to consider:
+  * *How much do you trust the [capability/tool name, e.g. code suggestions] provided?*
+  * *Do you trust [capability/tool name, e.g. code suggestions] with [task, e.g. providing correct code]? Why/Why not?*
+* **On giving feedback** - If they feel comfortable giving system feedback, e.g. when a code suggestion is not helpful. The AI improves based on user feedback, so it’s important they can do it. You can do this by including a task that focuses on giving feedback on a “wrong” recommendation and measure if they were successful doing it and how they felt about it.
+* **On attitudes towards third-party AI services** - If your AI solution is powered by a third party (e.g. OpenAI), it’s important to understand if users are aware of the use of a third-party and their attitude towards it. This provides insights into users’ mental model (see [Guideline 5](#guideline-5-plan-ahead-for-longitudinal-research)) and impact on GitLab as a brand.
 
 We are piloting a [set of AI metrics](#ai-user-experience-metrics-pilot) and recommend including them in your solution validation.
 
 To get robust feedback during solution validation, it’s recommended to collect at least three data points. As AI output varies, it’s not sufficient to rely on the first output only. You can do this by having three similar tasks to see how participants react to the AI’s responses in these three different scenarios.
 
 **Tip:** Avoid asking the tempting “Would you use this?” question.
-
 
 ### Guideline 4: Learn about the cost of errors that AI will make
 
