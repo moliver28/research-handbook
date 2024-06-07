@@ -64,6 +64,8 @@ Not all Fulfillment features are available at the time for all types of customer
 
 #### Project Storage Enforcement
 
+> You can access the [internal handbook page](https://internal.gitlab.com/handbook/engineering/fulfillment/namespace-storage-enforcement/) for more details about the storage enforcement.
+
 **Purpose**: document what notifications customers see as part of today's existing [repository/project 10GB enforcement](https://docs.gitlab.com/ee/user/usage_quotas.html#project-storage-limit).
 
 | Question | Banner Notification | CLI |
