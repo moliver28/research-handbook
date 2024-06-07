@@ -39,8 +39,7 @@ We currently cannot procure Apple laptops for Brazil or Israel. If your country 
 
 If the team member desires financial assistance to purchase the hardware, the Company will advance the funds to help facilitate the purchase (see Exception Processes below).
 
-{{% alert title="**Warning: fake job scams**" color="warning" %}}
-Scammers may impersonate GitLab and target job seekers. GitLab will never ask new hires to send us funds for equipment purchases.
+**Warning: fake job scams**: Scammers may impersonate GitLab and target job seekers. GitLab will never ask new hires to send us funds for equipment purchases.
 
 Read the ["What to know about a fake job scam impersonating GitLab"](https://about.gitlab.com/blog/2023/06/29/fake-gitlab-job-scam/) blog post to learn the warning signs and how to protect yourself.
 
