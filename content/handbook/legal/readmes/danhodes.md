@@ -1,1 +1,9 @@
-Now this is Dan's README
+## About Me & My Role
+
+## Communicating With Me
+
+## Strengths
+
+## Flaws
+
+## Random Facts
