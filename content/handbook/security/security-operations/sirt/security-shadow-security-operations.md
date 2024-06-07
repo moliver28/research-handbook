@@ -32,7 +32,7 @@ The Trust and Safety teams' purpose is to try and ensure that users of GitLab.co
 The AUP mainly consists of 3 parts:
 
 - Compliance: Ensuring that we are enforcing the relevant laws and regulations that are applicable to GitLab.com.
-    - These are non-negtiables and include things like complying with the [DMCA](/handbook/legal/dmca/) and removing illegal content.
+  - These are non-negotiable and include things like complying with the [DMCA](/handbook/legal/dmca/) and removing illegal content.
 - Principles: Ensuring that GitLab.com is not used in a way that negatively impacts others.
     - This is primarily based on our [Values]({{< ref "values" >}}) and include things like removing content that is concidered harmful and protecting others privacy.
 - Goal: Ensuring that GitLab.com is not used in a way that would negatively impact our [Vision](/handbook/company/vision/#vision).
