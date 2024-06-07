@@ -88,6 +88,7 @@ Being the marketing experts for the region, GitLab Field Marketers are also resp
 ## Regional Marketing Content
 Current regional marketing content and presentations can be accessed [here](drive.google.com/drive/u/0/folders/0AHFbLUWw3IEJUk9PVA)
 Content is classified into 2 groups: Economic Buyer and Technical Buyer. Choose the content category that aligns best - Economic Buyer for those focusing on business aspects, and Technical Buyer for those interested in technical details or specifications.
+Field Marketing Managers are responsible for adding new content for Own Events and Executive Engagement Tactics to this folder on an ongoing basis. NOTE: Naming convention of the folder should reflect the SFDC Campaign name for easier tracking.
 
 
 ### ReachDesk
