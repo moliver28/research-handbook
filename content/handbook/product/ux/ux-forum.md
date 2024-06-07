@@ -31,7 +31,7 @@ Forums are scheduled every two weeks. They are 60 minutes long to allow up to th
 
 - To be inclusive of our distributed team, we alternate the meeting start time every other occurrence to be either Americas/LAC/EMEA friendly or APAC friendly.
 - Each forum is hosted by a Product Design Manager.
-    - Due to time zone restrictions for managers, the APAC UX Forum is hosted by another Product Designer, Technical Writer or UX researcher.
+  - Due to time zone restrictions for managers, the APAC UX Forum is hosted by another Product Designer, Technical Writer or UX researcher.
 - Product Designers are assigned dates based on a randomly generated rotation:
     - We ensure each designer has the opportunity to share twice a year.
     - Gaps are left throughout the schedule for additional speakers.
