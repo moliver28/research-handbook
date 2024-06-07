@@ -11,11 +11,23 @@ This email will include a link to the Laptop Order Form where the new team membe
 
 Please review the [Macbook Model Eligibility](/handbook/security/corporate/services/laptops/hardware#macbook-model-eligibility) to choose the appropriate model.
 
-> **Important:** If your job title includes the word `Engineer` and your team is not approved for a performance model, it may be an oversight or typo. Please ask in `#it_help` before submitting an order form to confirm whether you can order the performance model. If you have not started at GitLab yet, please send this question via email to your Candidate Experience Specialist.
+> **Important:** If your job title includes the word `Engineer` and your team is not approved for a performance model, it may be an oversight or typo. Please ask in [#it_help](https://gitlab.enterprise.slack.com/archives/CK4EQH50E) before submitting an order form to confirm whether you can order the performance model. If you have not started at GitLab yet, please send this question via email to your Candidate Experience Specialist.
 
 Team members that live in these countries can be serviced via the Laptop Ordering Process:
 
-USA, Canada, Mexico, all of the EU, Thailand, China, Japan, Philippines, Singapore, Australia, New Zealand, India and the UK.
+- USA
+- Canada
+- Mexico
+- Thailand
+- China
+- Japan
+- Philippines
+- Singapore
+- Australia
+- New Zealand
+- India
+- UK
+- All of the EU
 
 Please note that we are adding supported countries to this list as we discover our ability to order in them.
 
@@ -31,7 +43,6 @@ If the team member desires financial assistance to purchase the hardware, the Co
 Scammers may impersonate GitLab and target job seekers. GitLab will never ask new hires to send us funds for equipment purchases.
 
 Read the ["What to know about a fake job scam impersonating GitLab"](https://about.gitlab.com/blog/2023/06/29/fake-gitlab-job-scam/) blog post to learn the warning signs and how to protect yourself.
-{{% /alert %}}
 
 ### Exception Processes
 

@@ -23,7 +23,7 @@ Apple hardware is the common choice among GitLab team members. Team members may 
 
 Most roles that require higher performance machines are approved for a 14" or 16" MacBook Pro M3 Max. Please see this [spreadsheet](https://docs.google.com/spreadsheets/d/1OuC0_iliCzASKfOhDLWO4fBmDS-uL3VGRMI6063R6tk/edit?usp=sharing) (public) to locate your department group and determine which machine you are eligible for.
 
-> **New Team Members:** If your job title includes the word `Engineer` and your team is not approved for a performance model, it may be an oversight or typo. Please ask in `#it_help` before submitting an order form to confirm whether you can order the performance model. If you have not started at GitLab yet, please send this question via email to your Candidate Experience Specialist.
+> **New Team Members:** If your job title includes the word `Engineer` and your team is not approved for a performance model, it may be an oversight or typo. Please ask in [#it_help](https://gitlab.enterprise.slack.com/archives/CK4EQH50E) before submitting an order form to confirm whether you can order the performance model. If you have not started at GitLab yet, please send this question via email to your Candidate Experience Specialist.
 
 ### Standard MacBook Model
 
@@ -47,11 +47,11 @@ Most roles that require higher performance machines are approved for a 14" or 16
 
 ### Linux Model Eligibility
 
-> Corporate Security strongly encourages team members to choose a Mac. Please only request a Linux laptop if you are experienced in Linux and capable of self-support.
+> Corporate Security strongly encourages team members to choose a Mac. Please only request a Linux laptop if you are experienced in Linux and capable of self-support. Linux is **not** a substitute for MacBooks if you don’t know how to use Macs.
 >
 > **Fun Fact:** Less than 10% of team members use Linux on their work laptop. We provide AWS and GCP cloud infrastructure for each team member to deploy Linux virtual machine servers and containers for experiments while maintaining corporate security standards on their laptop for day-to-day work.
 
-If you are a die hard Linux user, we approve Linux laptops for the following roles:
+If you are adamant on using a Linux machine, we approve Linux laptops for the following roles:
 
 - Engineers
 - Support Engineers
@@ -85,7 +85,7 @@ Due to supply constraints, specific models available may vary. Due to custom ord
 We will work with each person to find an available model meeting the following specifications:
 
 - 15.6" Display
-- Intel i7/i9 CPU
+- Intel i9 CPU
 - 512GB SSD
 - 32GB Memory
 
