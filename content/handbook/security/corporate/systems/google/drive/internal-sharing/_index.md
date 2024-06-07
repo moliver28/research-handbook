@@ -9,10 +9,10 @@ As part of our transparency value, most Google Docs should be transparent to all
 > **Efficiency Tip:** You should use your team's Shared Drive instead of `My Drive` and create documents in a folder that is already shared with the company. This simplifies your workflow so you don't need to remember to share each document.
 
 - [Company Policy - Confidentiality Levels](https://handbook.gitlab.com/handbook/communication/confidentiality-levels/)
-- [Vendor Documentation - Levels of Permissions](https://support.google.com/drive/answer/2494822?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cchoose-if-people-can-view-comment-or-edit)
-- [Vendor Documentation - Google Drive Sharing](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947)
-- [Vendor Documentation - Google Drive File](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947)
-- [Vendor Documentation - Google Drive Folder](https://support.google.com/drive/answer/7166529?hl=en&co=GENIE.Platform%3DDesktop)
+- [Vendor Docs - Levels of Permissions](https://support.google.com/drive/answer/2494822?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cchoose-if-people-can-view-comment-or-edit)
+- [Vendor Docs - Google Drive Sharing](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947)
+- [Vendor Docs - Google Drive File](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947)
+- [Vendor Docs - Google Drive Folder](https://support.google.com/drive/answer/7166529?hl=en&co=GENIE.Platform%3DDesktop)
 
 ## Google Drive Permission Levels
 

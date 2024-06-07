@@ -6,7 +6,7 @@ title: Google Mail Guides (Delegation)
 
 You can allow other team members to access and manage the emails in your inbox. This is particularly helpful for Executive Business Administrators or for managers that need to make changes to an offboarded team member's calendar events.
 
-- [Vendor Documentation](https://support.google.com/mail/answer/138350?hl=en)
+- [Vendor Docs](https://support.google.com/mail/answer/138350?hl=en)
 
 ## Access a Delegated Inbox
 
