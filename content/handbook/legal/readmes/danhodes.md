@@ -1,1 +1,1 @@
-This is going to be Dan's README
+Now this is Dan's README
