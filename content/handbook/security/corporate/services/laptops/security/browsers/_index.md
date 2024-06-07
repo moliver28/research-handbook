@@ -14,6 +14,18 @@ We do not recommend using other browsers such as Firefox, Safari, etc.
 - [Vendor Docs - Install Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop&oco=0#zippy=%2Cmac)
 - [Vendor Docs - Chrome Profiles](https://support.google.com/chrome/answer/185277?hl=en&ref_topic=7439538&sjid=3263200837792153330-NC)
 
+## Enterprise Browser Management
+
+[Chrome Enterprise Browser Management](https://chromeenterprise.google/browser/management/) is a service that allows Corporate Security system administrators to achieve the following benefits:
+
+- Effective management and security reports
+- Improve the user experience and implement standardized configurations
+- Implement quick and effective patching for outdated or vulnerable Chrome versions
+- Management of Chrome extensions and versions, including allowlist and blocklist
+- Implementation of [Chrome policies](https://chromeenterprise.google/policies/)
+
+Changes are managed using standard [Change Management](https://gitlab.com/gitlab-com/business-technology/change-management) processes, including testing with designated alpha and beta testing users for feedback prior to organization rollouts. All significant changes are announced in company-wide channels.
+
 ## Password Management
 
 Do not allow the Chrome, Safari, or Firefox web browser to save your passwords. Do not use a personal password manager (Bitwarden, LastPass, etc.) or personal 1Password account to store your work credentials. This presents an unnecessary risk.
