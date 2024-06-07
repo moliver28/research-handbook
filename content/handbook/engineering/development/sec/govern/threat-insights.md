@@ -24,17 +24,48 @@ to be addressed quickly.
 
 **Threat Insights features are reliable and perform at scale** - As we add more group and organization level features, we will be optimizing query performance and move forward with confidence that our database will scale and perform as we grow.
 
-### Threat Insights teams
+## Threat Insights Team Structure
+
+The Threat Insights group is structured into three focused swimlanes that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/): Performance and Optimization, Projects, and AI. This subdivision is to provided bounded focus to each area: enabling us to to progress on multiple fronts and reduce planning overhead.
+
+### Stable Counterparts
+
+The following members of other functional teams are our stable counterparts, and work across all swimlanes:
+
+{{% stable-counterparts role="Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
+
+### Performance and Optimization
+
+[Current focus](https://gitlab.com/groups/gitlab-org/-/epics/12114)
+
+DRI: {{< member-by-gitlab "nmccorrison" >}}
+
+{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "Quintasan" "subashis">}}
+
+### Projects
+
+[Current focus](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html)
+
+DRI: {{< member-by-gitlab "ryaanwells" >}}
+
+{{< member-and-role-by-gitlab "balakumar" "lorenzvanherwaarden" "Quintasan" "svedova" >}}
+
+### AI
+
+[Current focus](https://gitlab.com/groups/gitlab-org/-/epics/10337)
+
+DRI: {{< member-by-gitlab "sming-gitlab" >}}
+
+{{< member-and-role-by-gitlab "dpisek" >}}
+
+### Reporting Structure
+
+Threat Insights was previously sub-divided into Navy and Tangerine, following the reporting lines below.
+Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "ryaanwells" >}}.
 
 {{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Govern:Threat Insights" %}}
 
 {{% team-by-manager-slug manager="ryaanwells" team="end Engineer(.*)Govern:Threat Insights" %}}
-
-## Stable Counterparts
-
-The following members of other functional teams are our stable counterparts:
-
-{{% stable-counterparts role="Govern:Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
 
 ## Common Links
 
@@ -50,19 +81,7 @@ The following members of other functional teams are our stable counterparts:
 
 ### Prioritization
 
-We use our Threat Insights Priorities pages [16.x](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html) and [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) page to track what we are doing, and what order to do it in.
-
-## How we work
-
-Threat Insights is a large group, and to reduce planning overhead, engineering is organized into two teams, Navy and Tangerine, that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/). This is more efficient because it virtually eliminates the cross-team dependency that comes from organizing a large group by technical expertise.
-
-We use the scoped labels `~"Threat Insights::Navy"` `~"Threat Insights::Tangerine"` to designate work for each team. Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "ryaanwells" >}}.
-
-In FY25-Q2 we are grouping projects into three main `swimlanes`:
-
-1. Performance and optimization (DRI: @nmccorrison)
-2. Roadmap projects (DRI: @ryaanwells)
-3. AI Vulnerability Management (DRI: @sming-gitlab)
+We use our Threat Insights Priorities page for [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) to track what we are doing, and what order to do it in.
 
 ### Metrics
 
@@ -74,7 +93,7 @@ In FY25-Q2 we are grouping projects into three main `swimlanes`:
   {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssuesDetails" >}}
   {{< tableau/filters "GROUP_NAME"="threat insights" >}}
 {{< /tableau >}}
 
