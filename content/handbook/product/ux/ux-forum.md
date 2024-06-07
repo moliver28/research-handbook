@@ -8,9 +8,7 @@ aliases:
 
 ## About UX Forum
 
-The UX Forum is a recurring meeting for UX team members to share and discuss their work.
-This includes past, current, or future work, and covers Product Design, UX Research, and Technical Writing.
-All showcases are recorded and made available on [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) for Product, UX, Engineering, and Leadership to watch at their convenience.
+{{% ux-forum %}}
 
 ### Purpose
 
@@ -29,7 +27,7 @@ All showcases are recorded and made available on [GitLab Unfiltered](https://www
 
 ### Schedule
 
-Showcases are scheduled every two weeks. They are 60 minutes long to allow up to three team members to share for 15 minutes, plus 5 minutes of discussion time with the attendees.
+Forums are scheduled every two weeks. They are 60 minutes long to allow up to three team members to share for 15 minutes, plus 5 minutes of discussion time with the attendees.
 
 - To be inclusive of our distributed team, we alternate the meeting start time every other occurrence to be either Americas/LAC/EMEA friendly or APAC friendly.
 - Each forum is hosted by a Product Design Manager.
@@ -58,7 +56,7 @@ If you need more time to share and discuss a complex topic, ask the host about h
 
 Preparation for a forum should be minimal.
 You should come prepared with just enough to tell a story and ellicit feedback from the audience.
-Successful showcases share these aspects:
+Successful forums share these aspects:
 
 - **Informal**:
     Avoid creating dedicated slides or assets, but use your best judgment to determine what's most effective: a prototype, a series of mockups, a process diagram, a journey map, a few slides, or something else.
@@ -77,7 +75,7 @@ Successful showcases share these aspects:
 
 See [helpful tips](#helpful-tips-for-those-sharing).
 
-Examples of minimal showcases:
+Examples of minimal forums:
 
 - [Fulfillment: Improve provisioning and onboarding of new sales assisted GitLab com subscribers](https://youtu.be/JYl2_Pnh_-I )
 - [Secure: Validating and prioritizing your roadmap](https://youtu.be/FVhZ_XNiR6U)

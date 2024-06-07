@@ -124,7 +124,7 @@ To understand the specific challenges faced by the UX Department, we hold an asy
 
 ### UX Forum
 
-{{% ux-showcase %}}
+{{% ux-forum %}}
 
 ## UX Talent Assessment
 
