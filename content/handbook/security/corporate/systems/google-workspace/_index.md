@@ -2,7 +2,7 @@
 title: Google Workspace (Organization)
 ---
 
-This is a placeholder page. Please see the links below for any child pages that exist.
+This is a placeholder page for organization and policy management. Please see the links below for any child pages that exist.
 
 ### Related Pages
 
@@ -10,3 +10,4 @@ This is a placeholder page. Please see the links below for any child pages that 
 - [Google Calendar](/handbook/security/corporate/systems/google-calendar)
 - [Google Cloud](/handbook/security/corporate/systems/google-cloud)
 - [Google Groups](/handbook/security/corporate/systems/google-groups)
+- [Google Users](/handbook/security/corporate/systems/google-users)
