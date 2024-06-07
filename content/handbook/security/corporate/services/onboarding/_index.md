@@ -4,7 +4,7 @@ title: Onboarding Services
 
 The Corporate Security Helpdesk provides day-to-day support and handles the provisioning of accounts, hardware, and software for new team members (aka employees), temporary service providers (aka contractors), and any external collaborators (aka customers, partners, and vendors).
 
-If you need any help with onboarding that isn't answered in the handbook or you're overwhelmed, simply ask in the `#it_help` Slack channel.
+If you need any help with onboarding that isn't answered in the handbook or you're overwhelmed, simply ask in the [#it_help](https://gitlab.enterprise.slack.com/archives/CK4EQH50E) Slack channel.
 
 ## Related Services
 
@@ -64,14 +64,9 @@ Corporate Security also supports the onboarding of both types of contractors, ho
     -
 - Role Changes (Career Mobility)
 - Provisioning
--
 
 
 ### Team Member Guides
-
-
-
-
 
 - Access Requests
     - New request for a single system
@@ -81,7 +76,6 @@ Corporate Security also supports the onboarding of both types of contractors, ho
     - Find an existing access request
 - Baseline Entitlements
     - Create a role-based entitlement
-
 
 ## Issue Trackers
 
