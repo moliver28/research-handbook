@@ -6,8 +6,8 @@ title: Google Calendar Guide (Delegation)
 
 You can allow other team members to manage events on your calendar. This is particularly helpful for Executive Business Administrators or for managers that need to make changes to an offboarded team member's calendar events.
 
-- [Vendor Documentation](https://support.google.com/a/users/answer/168126)
-- [Vendor Documentation](https://support.google.com/calendar/answer/37082)
+- [Vendor Docs](https://support.google.com/a/users/answer/168126)
+- [Vendor Docs](https://support.google.com/calendar/answer/37082)
 
 ## Calendar Permission Levels
 
