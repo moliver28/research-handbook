@@ -13,7 +13,7 @@ Before we used Jamf for compliance and monitoring, all team members needed to pr
 
 ### Apple macOS
 
-> **No Action Required:** We use [Jamf MDM](/handbook/security/corporate/systems/jamf) to enable hard drive encryption for you automatically and monitor for any laptops that are misconfigured. You do not need to configure anything, however you are encouraged to verify that is enabled.
+> **No Action Required:** We use [Jamf](/handbook/security/corporate/systems/jamf) to enable hard drive encryption for you automatically and monitor for any laptops that are misconfigured. You do not need to configure anything, however you are encouraged to verify that is enabled.
 
 You need to enable FileVault to ensure that your laptop hard drive is encrypted.
 
@@ -22,7 +22,7 @@ You need to enable FileVault to ensure that your laptop hard drive is encrypted.
 3. Click on the "FileVault" tab.
 4. Verify that FileVault is turned on and your drive is encrypted.
 
-- [Vendor Docs - Protect data on your Mac with FileVault](https://support.apple.com/guide/mac-help/protect-data-on-your-mac-with-filevault-mh11785/mac)
+[Vendor Docs - Protect data on your Mac with FileVault](https://support.apple.com/guide/mac-help/protect-data-on-your-mac-with-filevault-mh11785/mac)
 
 ### Linux
 
@@ -36,11 +36,13 @@ To provide proof of Full Disk Encryption, please do the following depending on t
 
 Take a single screenshot with two windows side-by-side showing both the confirmation of enabled Full Disk Encryption as well as the info showing your serial number.
 
-Both pieces of information can be found by clicking on the Apple icon in the top left corner of your screen.
+Both pieces of information can be found by:
 
-For proof of disk encryption, choose `System Preferences -> Security & Privacy`, and then choose the `FileVault` tab near the top of the window.
-
-For your serial number, choose the `About This Mac` option.
+1. In the Menu Bar click on  ** > System Settings**.
+2. Click on the "Security & Privacy" icon.
+3. Click on the "FileVault" tab.
+4. Then in the Menu Bar click on  ** > About This Mac**.
+5. Take a screenshot for both windows side by side
 
 ### Linux
 

@@ -5,7 +5,7 @@ title: Laptop Security Standards for Backups
 
 ## Overview
 
-When backing up data team members should use GitLab’s Google Drive.
+When backing up data team members' laptops should use GitLab’s Google Drive.
 
 Our deployment is regularly tested and data at rest is encrypted by default.
 
