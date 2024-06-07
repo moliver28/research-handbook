@@ -1,5 +1,5 @@
 ---
-title: Onboarding Laptop Process
+title: Laptop Procurement for New Team Members
 # controlled_document: true
 ---
 
