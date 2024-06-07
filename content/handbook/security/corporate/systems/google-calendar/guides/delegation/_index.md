@@ -18,7 +18,7 @@ You can allow other team members to manage events on your calendar. This is part
 
 ## Delegate Your Calendar
 
-1. Log into `calendar.google.com` with your GitLab email address
+1. Sign in to [https://calendar.google.com](https://calendar.google.com) with your GitLab email address.
 
 1. In the top right click on the `Gear` icon to go into the [Google Calendar Settings](https://support.google.com/calendar/answer/6084644?hl=en&co=GENIE.Platform%3DAndroid)
 
