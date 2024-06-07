@@ -81,7 +81,7 @@ The Risk Management and Dispute Resolution team addresses dispute resolution acr
 
 ## Authorization Matrix
 
-The [Authorization Matrix](/handbook/finance/authorization-matrix/#authorization-matrix) designates who is authorized to sign legal documents. Only GitLab Team Members with signature authority can execute agreements on behalf of GitLab.
+The [Authorization Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/) designates who is authorized to sign legal documents. Only GitLab Team Members with signature authority can execute agreements on behalf of GitLab.
 
 ## Non-Disclosure Agreements
 
