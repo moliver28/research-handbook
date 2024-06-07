@@ -7,7 +7,7 @@ title: Laptop Security Standards for Web Browsers
 
 We use Google Chrome as our primary web browser since many of our collaboration and security tools are natively integrated with Google.
 
-We do not recommend using Firefox or Safari, although we do not prevent it. A few team members use Brave, however it is not supported by Security.
+We do not recommend using other browsers such as Firefox, Safari, etc.
 
 ## Configuration Steps
 
