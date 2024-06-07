@@ -32,7 +32,7 @@ The Threat Insights group is structured into three focused swimlanes that each a
 
 The following members of other functional teams are our stable counterparts, and work across all swimlanes:
 
-{{% stable-counterparts role="Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
+{{% stable-counterparts role="Govern:Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
 
 ### Performance and Optimization
 
