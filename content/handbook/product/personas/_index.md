@@ -149,7 +149,7 @@ Our personas span across stages (see table below for a depiction of how our user
 
 *Note: To change the tables above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit?usp=sharing).*
 
-### Technical Business Personas
+### Technical Business Personas Across Use Cases
 
 | Personas | Persona Titles | Summary | Use Case(s) |
 |:---:|:---:|:---:|:---:|
