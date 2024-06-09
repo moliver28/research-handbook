@@ -315,7 +315,17 @@ DORA Metrics Pricing/ Track DORA-4 lead time for changes metric Title needs edit
 
 #### Value Stream Management
 
+[GitLab Value Stream Dashboard: Demo how to manage the trade-off between speed, quality, and security exposure
+](https://www.youtube.com/watch?v=yNZRac7gyYo) - Apr, 2024
+[GitLab Value Streams Dashboard - Label filters demo](https://www.youtube.com/watch?v=4qDAHCxCfik) - Aug, 2023
+[GitLab 15.8 - Value Streams Dashboard overview](https://www.youtube.com/watch?v=PeR_zoS6Nfg) - June, 2023
+[GitLab Value Streams Dashboard](https://www.youtube.com/watch?v=8pLEucNUlWI) - Jun, 2023
 [GitLab Value Stream Management](https://youtu.be/TE6Hv6v4p3U) - Aug 13, 2021
+
+#### DORA
+
+[DORA forecasting static-demo](https://tech-marketing.gitlab.io/static-demos/value-stream-forecasting.html) - Aug, 2023
+[DORA metrics in GitLab DevSecOps Platform](https://www.youtube.com/watch?v=1BrcMV6rCDw) - May, 2023
 
 #### Partner Demos
 
