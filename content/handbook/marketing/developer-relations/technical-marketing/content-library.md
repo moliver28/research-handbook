@@ -324,7 +324,7 @@ DORA Metrics Pricing/ Track DORA-4 lead time for changes metric Title needs edit
 
 #### DORA
 
-[DORA forecasting static-demo](https://tech-marketing.gitlab.io/static-demos/value-stream-forecasting.html) - Aug, 2023
+[DORA forecasting click-through demo](https://tech-marketing.gitlab.io/static-demos/value-stream-forecasting.html) - Aug, 2023
 [DORA metrics in GitLab DevSecOps Platform](https://www.youtube.com/watch?v=1BrcMV6rCDw) - May, 2023
 
 #### Partner Demos
