@@ -109,9 +109,9 @@ Calendly has a
 and a [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/calendly-meeting-scheduling/)
 that makes it easy to generate a single-use link to send to the customer. After adding it to your browser, look for
 the Calendly icon at the top right in your browser. Sign in to Calendly, then you will see a list of events. You
-probably want to "star" your personal Support Call event to simplify the pop-up window.
-Then simply click on the one-time link icon next to the event of your choice to generate a link you can paste into
-your message to the customer.
+may want to "star" your personal Support Call event to simplify the pop-up window.
+
+To generate a one-time link, select that option from the dropdown menu on the `Share availability` button for the event of your choice.
 
 ![Browser plug-in](../assets/calendly.png)
 
@@ -235,9 +235,9 @@ need to attend a customer call
 1. In Google Calendar **Other calendars > + > Subscribe to calendar**,
    start typing the name of your colleague and
    click on their auto-completed name to subscribe.
-1. In Calendly, navigate to **Account > Calendar Connections > Configuration > Check for conflicts**
+1. In Calendly, [navigate](https://calendly.com/app/personal/availability/connected_calendars) to **Account > Calendar Sync > Configuration > Check for conflicts**
    and click the **Edit** button.
-1. Select your colleague's calendar via their `…@gitlab.com` entry.
+1. Add your colleague's calendar to the availability check via their `…@gitlab.com` entry.
 1. After the call has been scheduled, remove that entry again.
 
 ## Suggestions

@@ -5,10 +5,10 @@ description: "Tips on how to prepare for your interview - Infrastructure"
 
 ## Most common open roles in Infrastructure
 
-- [Backend Engineer]({{< ref "/job-families/engineering/infrastructure/backend-engineer" >}})
-- [Site Reliability Engineer]({{< ref "/job-families/engineering/infrastructure/site-reliability-engineer" >}})
-- [Database Reliability Engineer]({{< ref "/job-families/engineering/infrastructure/database-reliability-engineer" >}})
-- [Engineering Manager]({{< ref "/job-families/engineering/infrastructure/engineering-management" >}})
+- [Backend Engineer](/job-families/engineering/infrastructure/backend-engineer)
+- [Site Reliability Engineer](/job-families/engineering/infrastructure/site-reliability-engineer)
+- [Database Reliability Engineer](/job-families/engineering/infrastructure/database-reliability-engineer)
+- [Engineering Manager](/job-families/engineering/infrastructure/engineering-management)
 
 ## Tips on how to prepare for Infrastructure interviews
 

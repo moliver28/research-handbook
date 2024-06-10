@@ -13,13 +13,11 @@ title: "Sales Strategy and Analytics - Pipeline Management Tools"
 
 ### Goal
 
-The goal of this documentation is to provide you with an overview of the Pipeline Management tools from the Sales Analytics team.  
-
+The goal of this documentation is to provide you with an overview of the Pipeline Management tools from the Sales Analytics team.
 
 ### What is Pipeline and Why do we manage Pipeline?
 
 Pipeline is the sum of all open sales opportunities and is one of the key metrics that helps us to consistently hit our targets. It is one of the leading indicators of the health of our business and it informs us on our sales motion dynamics.
-
 
 ### Metrics in Pipeline Management Tools
 
@@ -71,8 +69,7 @@ The inverse of historical pipeline coverage against actuals is the historical wi
      <th>Name</th>
      <th>Contents</th>
         <th>Link</th>
- </tr>
-
+    </tr>
     <tr>
         <td rowspan="2"> Provides <strong>operational insights and action items</strong> on current and future quarters </td>
         <td>Pipeline X-Ray: Current & Next Quarters Overview</td>
@@ -95,7 +92,6 @@ The inverse of historical pipeline coverage against actuals is the historical wi
         <td>< Ask a member of the Revenue Strategy and Analytics team for the link in Slack </td>
     </tr>
 </table>
-
 
 <br>
 
@@ -150,7 +146,6 @@ To reduce quarter-specific variation, a polynomial curve is fitted using the las
   - 🟠 You see that there is one particular team member who struggles with Pipeline Generation.
     - This can be a conversation starter. Is there anything you can do as Sales Leadership to support?
 
-
 ### Evolving Definitions
 
 We iterate on the definition of Sales Accepted Opportunities (SAOs), Pipeline Generation, and Created ARRs. If you would like to understand the latest version of them, please reach out to the SS&A team.
@@ -166,7 +161,6 @@ Please refer to Permission Handling section below
 
 - **Are there any SFDC reports that I can refer to to cross-check numbers?** <br>
 Please have a look at `Readme` tab in Pipeline X-Ray tool for links for the related SFDC reports
-
 
 - **Why do some charts have negative (-) days in the X axis?** <br>
 It is quite common that an opportunity is expected to close far in the future (in the coming quarters), therefore it is possible for us to track the pipeline before a quarter starts. When a snapshot is taken for an Opportunity object (table) today and the close date of some opportunities is in next quarters, the `Normalized Close Day of Fiscal Quarter` would be a negative value for those opportunities.
@@ -191,7 +185,6 @@ Please create an issue in [SS&A project](https://gitlab.com/gitlab-com/sales-tea
 - **Who should I contact when I have issues with tools?**
 As we are constantly iterating on our data models and dashboards, you might come across some issues. In those cases, please reach out to [@nfiguera](https://gitlab.com/nfiguera) or [@j_kim](https://gitlab.com/j_kim).
 
-
 ### Data Models
 
 #### Models Available in dbt
@@ -213,11 +206,9 @@ The following list of models (with dbt Docs links) are in use for creating Pipel
 | [restricted_safe_workspace_sales.report_agg_demo_sqs_ot_keys](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.wk_sales_report_agg_demo_sqs_ot_keys) | Helper table containing different keys that can be used for aggregation |
 | ([EDM](/handbook/business-technology/data-team/platform/edw/) not `sales_workspace`) <br> [restricted_safe_common_mart_sales.mart_sales_funnel_target](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_sales_funnel_target) | Model with sales targets |
 
-
 #### Models not Available in dbt
 
 For some tools, we have introduced another layer of transformation in Python on top of dbt models to overcome limitations from SQL. Sisense dashboards are used for this purpose at the moment and tables are exported to Google Sheet based tools.
-
 
 #### Model Exports for Google Sheet based Tools
 
@@ -225,9 +216,4 @@ Each Google Sheet based dashboard has a `source` Google sheet pair which contain
 
 ### Permission Handling
 
-To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to the Sisense SAFE Environment. Also for non-Sisense dashboards (e.g. Pipeline X-Ray), access is automatically granted for those to have access to SAFE dashboards in Sisense.
-
-
-
-
-
+To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to the Sisense SAFE Environment. Also for non-Sisense dashboards (e.g. Pipeline X-Ray), access is automatically granted for those to have access to SAFE dashboards in Sisense.

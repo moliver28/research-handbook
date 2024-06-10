@@ -37,5 +37,3 @@ All Dashboards and Reports are a part of system itself. No separate Sisense repo
 ### Support Guides and Step by Step Articles
 
 The [Instruqt Support page](https://docs.instruqt.com/) offers a docs website with full articles on processes and step by step guides on using the system.
-
-

@@ -95,7 +95,7 @@ Systems are assigned a Critical Logging tier based on the following matrix:
 
 <span style="color:#DB3B21;"><b>\**</b></span> By default, any system that contains <b>RED Data</b> per the [Data Classification Standard]({{< ref "data-classification-standard#red" >}}) OR is a [Third Party Sub-Processor](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors) will be a **Tier 1 Mission Critical** system. This is due to the fact that this data is customer owned and uploaded and as such, has been deemed to be mission critical in nature.
 
-<span style="color:#DB3B21;"><b>*\*\*</b></span> By default, any system in-scope for [SOX](/handbook/business-technology/it-compliance/ITGC.html#what-are-itgcs) will be a **Tier 2 Business Critical** system, at minimum.
+<span style="color:#DB3B21;"><b>*\*\*</b></span> By default, any system in-scope for [SOX](https://internal.gitlab.com/handbook/it/it-compliance/#what-are-gitlabs-itgcs) will be a **Tier 2 Business Critical** system, at minimum.
 {{% /panel %}}
 
 ### Why does GitLab need this methodology?

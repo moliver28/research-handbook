@@ -69,7 +69,7 @@ Plan issues are opened in the [production](https://gitlab.com/gitlab-com/gl-infr
 
 To open the change management issue from Slack issue the following slash command:
 
-```
+```text
 /change declare
 ```
 
@@ -257,21 +257,21 @@ Steps:
   - Director of Support, Global Readiness
   - [Release Managers](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team)
 - 1 month before the change at least (if possible):
-    - Ask our CSMs in our `#customer-success` Slack channel about their preferences on how to communicate this change to our main customers:
-        - Ping CSM managers using the `@cs-tam-mgrs` alias to request that they notify the CSMs for our top SaaS customers.
-        - They might propose that we communicate in the customer's channel about the specifics of the change. If that is the case draft a msg, agree on its content with the CSM and share it in the relevant customer Slack channels (in sync with the CSM).
-    - Share information and a link to the Issue in `#whats-happening-at-gitlab` Slack channel, mentioning `@release-managers`, `@db-team` and `@dbre` for visibility and engagement.
+  - Ask our CSMs in our `#customer-success` Slack channel about their preferences on how to communicate this change to our main customers:
+    - Ping CSM managers using the `@cs-tam-mgrs` alias to request that they notify the CSMs for our top SaaS customers.
+    - They might propose that we communicate in the customer's channel about the specifics of the change. If that is the case draft a msg, agree on its content with the CSM and share it in the relevant customer Slack channels (in sync with the CSM).
+  - Share information and a link to the Issue in `#whats-happening-at-gitlab` Slack channel, mentioning `@release-managers`, `@db-team` and `@dbre` for visibility and engagement.
 - Shortly after that, the communication or change issue should be linked to a simple post in status.io (by clicking in "new maintenance"). We should engage with the CMOC to Share that maintenance in status.io, via all the possible channels (mail, tweet, slack, etc). From there customers will be able to ask questions and comment on it.
 [The company official way to communicate downtime to customers is via status.io].
 - From this point, when the upcoming change is already public, we should:
-    - Check the Communication Issue periodically, to see if we have question/comments from our customers, to address them timely.
-    - Remind customers about the upcoming change 2 weeks, 1 week, 3 days and 1 day before the change time, via status.io.
+  - Check the Communication Issue periodically, to see if we have question/comments from our customers, to address them timely.
+  - Remind customers about the upcoming change 2 weeks, 1 week, 3 days and 1 day before the change time, via status.io.
 
 ## Production Change Lock (PCL)
 
 While changes we make are rigorously tested and carefully deployed, it is a good practice to temporarily halt production changes during certain events such as GitLab Summit, major global holidays, and other times where GitLab Team Member availability is substantially reduced.
 
-Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called **Production Change Lock (PCL)**. During a PCL, automated deployments are paused. A deployment may be manually executed at the discretion of the EOC. For example, the EOC may choose to deploy changes because they are necessary to ensure the stability of GitLab.com, or in order to ensure that deployments continue running smoothly when the PCL is lifted. A PCL is enforced via [C1 Change issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/8676) and [gl-infra/change-lock](https://gitlab.com/gitlab-com/gl-infra/change-lock) as an automated process which, provided a time range, locks production deployments, prevents Feature Flags as well infrastructure config changes, then releases the lock once the time expires. However, we are continuing to list the events here so that teams are aware of the PCL periods.
+Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called **Production Change Lock (PCL)**. During a PCL, automated deployments are paused. A deployment may be manually executed at the discretion of the EOC. For example, the EOC may choose to deploy changes because they are necessary to ensure the stability of GitLab.com, or in order to ensure that deployments continue running smoothly when the PCL is lifted. A PCL is enforced via [C1 Change issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=change_pcl&issue[title]=Production+Change+Lock) and [gl-infra/change-lock](https://gitlab.com/gitlab-com/gl-infra/change-lock) as an automated process which, provided a time range, locks production deployments, prevents Feature Flags as well infrastructure config changes, then releases the lock once the time expires. However, we are continuing to list the events here so that teams are aware of the PCL periods.
 
 The following dates are currently scheduled PCLs. Times for the dates below begin at 09:00 UTC and end the next day at 09:00 UTC.
 

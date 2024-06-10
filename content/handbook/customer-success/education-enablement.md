@@ -14,7 +14,6 @@ description: "As a Solutions Architect, Customer Success Manager, or Professiona
 
 As a Solutions Architect, Customer Success Manager, or Professional Services Engineer, it is important to be continuously learning more about our product and related industry topics. This handbook page provides an dashboard of aggregated resources that we encourage you to use to get up to speed. Although we aggregated and/or developed these resources for Customer Success team members, they are generic enough that all team members and partners can benefit from the education and enablement resources that we have published here.
 
-
 ## Overview of GitLab Feature and Use Cases
 
 The GitLab product is organized based on the DevOps stages.
@@ -35,7 +34,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### DevOps Sections
 
-***
+---
 
 ##### Foundations Level
 
@@ -45,7 +44,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Manage Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -63,7 +62,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Plan Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -83,7 +82,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Create Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -110,7 +109,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Verify Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -144,7 +143,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Package Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -163,7 +162,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Release Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -189,7 +188,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Configure Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -209,7 +208,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Monitor Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -226,7 +225,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Secure Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -245,7 +244,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Govern Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -257,12 +256,9 @@ To align our education and enablement with our product, each of the topics below
 - [Container Scanning Feature Docs](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
 - [Security Orchestration Feature Doc](https://docs.gitlab.com/ee/user/application_security/threat_monitoring/#configuring-network-policy-alerts)
 
-
-
-
 #### Kubernetes Certification
 
-***
+---
 
 ##### Foundations Level
 
@@ -284,7 +280,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### HashiCorp Terraform
 
-***
+---
 
 ##### Foundations Level
 
@@ -304,9 +300,9 @@ To align our education and enablement with our product, each of the topics below
 
 - [Terraform Associate Certification](https://www.hashicorp.com/certification/terraform-associate)
 
-#### HashiCorrp Vault
+#### HashiCorp Vault
 
-***
+---
 
 ##### Foundations Level
 
@@ -322,7 +318,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### HashiCorp Consul
 
-***
+---
 
 ##### Foundations Level
 
@@ -346,10 +342,11 @@ If you do not already have a login are outside of the customer success organizat
 
 ### O'Reilly Answer Slack Bot
 
-As part of GitLab's O'Reilly subscrition, team members have access to the O'Reilly Answer Slack Bot. To get started, in Slack, just type /oreilly-answers followed by your tech question. It’s that simple.
+As part of GitLab's O'Reilly subscription, team members have access to the O'Reilly Answer Slack Bot. To get started, in Slack, just type `/oreilly-answers` followed by your tech question. It’s that simple.
 
 For example:
-- /oreilly-answers How do I fine-tune a model?
+
+- `/oreilly-answers` How do I fine-tune a model?
 - O’Reilly Answers will respond to your question with highly relevant snippets of content right within Slack.
 
 **More Answers**
@@ -367,7 +364,6 @@ To share a helpful answer with others in Slack click the “Post” button and t
 If you want to share an answer in a private channel you’ll need to invite the O’Reilly Answers app to the channel first. Simply type: /invite @O’Reilly Answers
 
 If you want to share an answer in a direct message you’ll need to create a group message and include O’Reilly Answers in the group. You can add O’Reilly Answers the same way you would add another person.
-
 
 ## Additional Resources
 

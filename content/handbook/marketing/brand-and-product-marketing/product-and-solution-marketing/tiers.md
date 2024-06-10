@@ -20,17 +20,18 @@ title: "GitLab tiers"
 1. License: open source vs. source-available, for example moving a feature from a source-available tier to an open-source tier.
 1. [Distribution](#history-of-ce-and-ee-distributions): self-managed CE vs. EE, for example you can have a EE distribution but in the Free tier.
 1. Version: the [release of GitLab](https://about.gitlab.com/releases/), for example asking what version a user is on.
+1. [Product Category](https://internal.gitlab.com/handbook/sales/deal-desk/product_category/_productcategory/): An internal field that identifies the primary product sold on an opportunity.
 
 ## Types of Users
 
 1. Free User - anyone who uses GitLab free tier and does not pay for additional compute minutes or storage (but is eligible to beyond what is included in the free tier).
-2. Trial User - anyone who is currently in trial on one of the paid tiers.
-3. Consumption User - anyone who uses GitLab free tier and pays by consumption for additional compute minutes or storage beyond what is included in the free tier.
-4. Licensed User - anyone who is on a source-available license
-    1. Ultimate User - a licensed user on Ultimate
-    2. Premium User - a licensed user on Premium
-    3. Starter User - a licensed user on Starter (No longer available, but some users are finishing out previously purchased licenses.)
-5. Program User - anyone who is on Premium or Ultimate tier through programs such as [GitLab for Startups](https://about.gitlab.com/solutions/startups/), [GitLab for Education](https://about.gitlab.com/solutions/education/) or [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/)
+1. Trial User - anyone who is currently in trial on one of the paid tiers.
+1. Consumption User - anyone who uses GitLab free tier and pays by consumption for additional compute minutes or storage beyond what is included in the free tier.
+1. Licensed User - anyone who is on a source-available license
+   1. Ultimate User - a licensed user on Ultimate
+   1. Premium User - a licensed user on Premium
+   1. Starter User - a licensed user on Starter (No longer available, but some users are finishing out previously purchased licenses.)
+1. Program User - anyone who is on Premium or Ultimate tier through programs such as [GitLab for Startups](https://about.gitlab.com/solutions/startups/), [GitLab for Education](https://about.gitlab.com/solutions/education/) or [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/)
 
 ## Delivery
 
@@ -83,27 +84,27 @@ See the [Tier Messaging](#tier-messaging) section for how to talk about GitLab, 
 
 Community Edition (CE) and Enterprise Edition (EE) refer to software distributions of GitLab. We used to encourage customers to use the EE distribution since it provided the least painful upgrade path if/when users discovered they needed commercial features. If you aren't talking specifically about the distribution packages, then don't use these terms, [you are probably using them incorrectly](/handbook/communication/top-misused-terms/#enterprise_edition).
 
-### Don't use CE/EE to refer to non-paid/paid **users**.
+### Don't use CE/EE to refer to non-paid/paid **users**
 
 Users can be on the EE distribution for free. Distribution doesn't imply if a user is a customer or not.
 
-    1. Say "users" when you mean all users - paid and unpaid.
-    2. Say "customers" when you mean paid users.
-    3. Say "Free users" when you mean unpaid users.
+1. Say "users" when you mean all users - paid and unpaid.
+1. Say "customers" when you mean paid users.
+1. Say "Free users" when you mean unpaid users.
 
 ❌ Incorrect:  "Let's run a marketing campaign to encourage CE users to upgrade to a paid tier."
 
 ✅ Correct: "Let's run a marketing campaign to encourage Free users to upgrade to a paid tier."
 
-### Don't use CE/EE to refer to **tiers**.
+### Don't use CE/EE to refer to **tiers**
 
 GitLab has 3 tiers: Free, Premium, and Ultimate. Distribution doesn't imply which tier a user is on.
 
-    1. Say the "Free" when you mean the $0 tier.
-    2. Say "Open source" when you mean features in the $0 tier.
-    3. Say "Premium" or "Ultimate" to refer to those tiers.
-    4. Optionally, say "GitLab Free," "GitLab Premium," or "GitLab Ultimate" when you want to refer to a pricing tier.
-    5. Say "commercial tier" when you mean any paid tier.
+1. Say the "Free" when you mean the $0 tier.
+1. Say "Open source" when you mean features in the $0 tier.
+1. Say "Premium" or "Ultimate" to refer to those tiers.
+1. Optionally, say "GitLab Free," "GitLab Premium," or "GitLab Ultimate" when you want to refer to a pricing tier.
+1. Say "commercial tier" when you mean any paid tier.
 
 ❌ Incorrect:  "Let's move this feature to CE."
 

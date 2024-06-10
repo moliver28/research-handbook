@@ -4,15 +4,30 @@
 # or operating system, you probably want to add a global ignore instead:
 # git config --global core.excludesfile ~/.gitignore_global
 
+# System/Editors
 .DS_Store
-.hugo_build.lock
+/.idea
+/.vscode
+/.nova
+
+# Generated
 /resources
 /public
-/node_modules
 
+# Synced from external data sources (scripts/sync-data.sh)
 /data/public
 
-# Ignore code quality output
-markdownlint-cli2-codequality.json
-handbook-codequality.json
+# Hugo
+.hugo_build.lock
+
+# Caching
+/node_modules
+
+# Scripts/Linting
 /scripts/issue_log
+handbook-codequality.json
+markdownlint-cli2-codequality.json
+
+# Ignore new partials and shortcodes added to layout
+/layout/partials
+/layout/shortcodes

@@ -84,11 +84,10 @@ Zoom templates do not include most of the branding used to set up the original t
 
 1. For the **Email Contact** row, click **Edit** and change the email contact name and address to your own. This will result in all automated emails received by attendees to be from your email address.
 
-### Add the survey link ###
+### Add the survey link
 
 1. On the "Polls/Survey" tab in the **Survey** row, click **Use a 3rd party survey** and paste in [the link](https://docs.google.com/forms/d/e/1FAIpQLScdTGl7Wwcw2yzFpvCd5jYMPgOf_lp8BYMKKhaW0Mrpt51TXg/viewform?usp=sf_link) to the training survey.
     - This will result in the survey popping up for each attendee immediately after you end the session.
-
 
 ### View and communicate the registration page link
 
@@ -141,12 +140,3 @@ Zoom templates do not include most of the branding used to set up the original t
 1. Click **Copy Sharing Information to the Clipboard**.
 
 1. Paste the recording access information into the issue and into the follow up email you send the customer.
-
-
-
-
-
-
-
-
-

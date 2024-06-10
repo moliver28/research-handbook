@@ -138,6 +138,6 @@ goals, which can be evaluated regularly at major adoption milestones (0%, 25%,
 - The UX team sends surveys to Product Designers and Front-End Engineers to gather
 data related to the time they spend building unique components.
 - We pull reports to determine the number of `UI polish` and
-[`UX debt`](https://docs.gitlab.com/ee/development/labels/index.html#technical-and-ux-debt)
+[`Deferred UX`](https://docs.gitlab.com/ee/development/labels/index.html#technical-debt-and-deferred-ux)
 issues to track trends over time. A reduction in overall issues affirms consistency
 throughout the product.

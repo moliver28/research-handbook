@@ -10,9 +10,11 @@ Support can access GitLab Dedicated tenant logs through our [OpenSearch](https:/
 
 When working on a GitLab Dedicated ticket, prioritize asking for information that will help identify applicable log entries. It is best to start collecting this information as early in the ticket as possible. The specific kinds of information will vary depending on the problem you are trying to solve but username, project path, project ID, exact date and time with time zone, [correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html) and outgoing IP address are all good examples.
 
+The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
+
 ## Identifying tenants
 
-Each customer has a dedicated set of credentials needed for examining logs in Opensearch. The credentials and the URL for that customer's Opensearch instance are stored in the `GitLab Dedicated - Support` [1Password vault](/handbook/security/#vaults). Each customer is noted by a customer number in the vault, so you must refer to the `<tenant name>` to identify the proper credentials to use for a customer. This is used as part of the accessible URL, such as: `opensearch.<tenant name>.gitlab-dedicated.com`.
+Each customer has a dedicated set of credentials needed for examining logs in OpenSearch. The credentials and the URL for that customer's OpenSearch instance are stored in the `GitLab Dedicated - Support` [1Password vault](/handbook/security/#vaults). Each customer is noted by a customer number in the vault, so you must refer to the `<tenant name>` to identify the proper credentials to use for a customer. This is used as part of the accessible URL, such as: `opensearch.<tenant name>.gitlab-dedicated.com`.
 
 ## Accessing logs
 
@@ -23,7 +25,7 @@ Once in the tenant's OpenSearch site:
 1. Choose "Discover" at the sidebar under OpenSearch Dashboards
 1. On the next screen, you should see logs. Make sure that index `gitlab-*` is selected.
 
-It is recommended to start with the `gitlab-*` index because it has a timestamp field. It shows a useful skyline graph and allows for time-filtering. The `git*` index is less useful as it does not have a timestamp field defined/used.
+It is recommended to start with the `gitlab-*` index because it has a timestamp field. It shows a useful skyline graph and allows for time-filtering. The `git*` index is less useful as it does not have a timestamp field defined/used. If you are unable to see the logs, try clearing cookies, local storage, and all session data for the site and repeat the steps above.
 
 Logs are retained for 7 days in OpenSearch; retention is longer in S3, but these are not accessible to Support.  Copy and paste relevant log entries or screenshots of frequently occurring errors into an internal note in the ticket or a [field note]({{< ref "fieldnote_issues" >}}) in order to preserve them beyond the retention period.
 
@@ -50,7 +52,7 @@ directly with the customer by default. If you think sharing the log entry would
 benefit the customer, please read
 [Sharing internal logs, data & graphs]({{< ref "dedicated#sharing-internal-logs-data--graphs" >}}).
 
-GitLab Dedicated customers can request [access to application logs](https://docs.gitlab.com/ee/administration/dedicated/#access-to-application-logs).
+GitLab Dedicated customers can request [access to application logs](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#access-to-application-logs).
 
 #### Sharing log links within GitLab
 
@@ -65,13 +67,13 @@ Share the link that is copied rather than the URL in your browser bar.
 
 ## Log Identification
 
-Not sure what to look for? Consider using a Self-Managed instance to replicate the bug/action you're investigating. This will allow you to confirm whether or not an issue is specific to the specific GitLab Dedicated tenant, while also providing easily accessible logs to reference while searching through Opensearch.
+Not sure what to look for? Consider using a Self-Managed instance to replicate the bug/action you're investigating. This will allow you to confirm whether or not an issue is specific to the specific GitLab Dedicated tenant, while also providing easily accessible logs to reference while searching through OpenSearch.
 
 Support Engineers looking to configure a Self-Managed instance should review our [Sandbox Cloud page](/handbook/infrastructure-standards/realms/sandbox/) for a list of company-provided hosting options.
 
 ### Table vs JSON
 
-Each entry in Opensearch can be expanded to show more information by clicking the `>` icon. The **Expanded document** view has two tabs: `Table` and `JSON`. The `Table` will be shown by default. If you don't see the information you are looking for when viewing `Table`, click `JSON`. In the `JSON` view, you'll see a prettified version of the JSON content of the log entry. You can copy the JSON and parse it locally with tools like [jq](https://jqlang.github.io/jq/) or [jless](https://jless.io/).
+Each entry in OpenSearch can be expanded to show more information by clicking the `>` icon. The **Expanded document** view has two tabs: `Table` and `JSON`. The `Table` will be shown by default. If you don't see the information you are looking for when viewing `Table`, click `JSON`. In the `JSON` view, you'll see a prettified version of the JSON content of the log entry. You can copy the JSON and parse it locally with tools like [jq](https://jqlang.github.io/jq/) or [jless](https://jless.io/).
 
 ## Searching logs
 
@@ -112,7 +114,7 @@ Filters are a powerful way to identify the log entries you care about.
 
 ##### Creating a filter
 
-You can create a filter in Opensearch by following these steps after you browse to **OpenSearch Dashboards** > **Discover**:
+You can create a filter in OpenSearch by following these steps after you browse to **OpenSearch Dashboards** > **Discover**:
 
 1. Select **Add filter**
 1. Click **Select a field first** in the **Field** drop-down
@@ -134,7 +136,7 @@ Use this OpenSearch filter to find logs related to the GitLab application:
 
 ###### Filter by HTTP response status code
 
-These Opensearch filters can be used to find logs by their [HTTP response status codes](https://http.dev/status).
+These OpenSearch filters can be used to find logs by their [HTTP response status codes](https://http.dev/status).
 
 To find logs where the HTTP response status code is `422`:
 
@@ -153,7 +155,7 @@ To find all logs where the HTTP response status code is in the [4xx client error
 
 #### Identify a deleted group or project
 
-Information about deleted groups and projects is available in the **Audit Events**. The customer should be able to review this information in the **Admin Area**. Provided the deletion occurred within the log retention window, additional information can be sought in Opensearch. In order to identify more information about a deleted project or group in Opensearch, you can use this information to guide the [filters](#filters) that you use.
+Information about deleted groups and projects is available in the **Audit Events**. The customer should be able to review this information in the **Admin Area**. Provided the deletion occurred within the log retention window, additional information can be sought in OpenSearch. In order to identify more information about a deleted project or group in OpenSearch, you can use this information to guide the [filters](#filters) that you use.
 
 1. Select **Add filter**
 1. Click **Select a field first**
@@ -165,7 +167,7 @@ You can look at the values in `username`, `user_id` (or `meta.user_id`) to get m
 
 #### Identify a created or deleted user
 
-Information about a user being created or deleted is available in the **Audit Events**. The customer should be able to review this information in the **Admin Area**. Provided the user was created or deleted within the log retention window, information about these events can be sought in Opensearch. In order to identify more information about a created or deleted user, you can use this information to guide the [filters](#filters) that you want to use. For these events, we are interested in `RegistrationsController`.
+Information about a user being created or deleted is available in the **Audit Events**. The customer should be able to review this information in the **Admin Area**. Provided the user was created or deleted within the log retention window, information about these events can be sought in OpenSearch. In order to identify more information about a created or deleted user, you can use this information to guide the [filters](#filters) that you want to use. For these events, we are interested in `RegistrationsController`.
 
 1. Select **Add filter**
 1. Click **Select a field first**
@@ -204,7 +206,7 @@ You can now read through the Sidekiq logs related to that specific pipeline.
 
 #### Identify who viewed CI/CD Variables
 
-While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_events.html#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
+While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_event_reports.html#group-audit-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
 
 1. Select **Add filter**
 1. Click **Select a field first**
@@ -217,7 +219,7 @@ You now have a list of logs to sort through. You can get a bit more information 
 
 #### Retrieve and inspect SAML Responses
 
-When [troubleshooting](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html) unexpected behavior in [instance-wide SAML single sign on (SSO)](https://docs.gitlab.com/16.4/ee/integration/saml.html) for GitLab Dedicated customers, you can use Opensearch to retrieve the SAML response.
+When [troubleshooting](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html) unexpected behavior in [instance-wide SAML single sign on (SSO)](https://docs.gitlab.com/ee/integration/saml.html) for GitLab Dedicated customers, you can use OpenSearch to retrieve the SAML response.
 
 1. Select **Add filter**
 1. Click **Select a field first**

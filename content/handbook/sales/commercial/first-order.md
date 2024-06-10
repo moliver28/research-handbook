@@ -24,11 +24,11 @@ We uphold GitLab brand integrity though our outreach, and we collaborate to ensu
 ### Account Research
 
 This part will help you with:
+
 1. Becoming effective in Account Research
 2. Prioritizing the right accounts
 3. Finding new greenfield accounts
 4. Building a monthly target account strategy
-
 
 #### SalesForce existing accounts
 
@@ -66,7 +66,6 @@ This report filters by 6 main categories:
 5. Monday and Fridays are best used for Account research, adding new accounts, import new contacts and enroll in sequence
 6. Tuesday, Wednesday, Thursday are best used for Outbound Sequence Activities
 
-
 ## First Order Skills and Skills Development
 
 ### First Meeting
@@ -94,7 +93,6 @@ This report filters by 6 main categories:
 1. You can use [this presentation deck](https://docs.google.com/presentation/d/1MoiL4EkI2goklfSk-rCp_vivbsag9hrEHbd6FVwKy7Q/edit#slide=id.g889353d428_0_0) to help you pitch the Paid POC (particulary refer to slide 9)
 
 ### Discovery
-
 
 ### FORC Calls
 
@@ -141,9 +139,9 @@ The BDR and SDR team are responsible for pre-qualifying leads and setting meetin
 
 1. Get yourself familiar with the [inbound responsibilities](/handbook/marketing/sales-development/#bdr-and-sdr-inbound-workflow--process) of the SDR team and their way of working
 1. FO AEs are not meant to be working leads. This is why it is critical to be aware of incoming leads your SDRs are receiving for your territory and work effectively and together to drive conversations with leads
-2. The SDR team works round-robin which means you will work with all the SDR’s in your region. It’s recommended to set up a coffee chat with all of them so you know which SDR’s you’re going to collaborate with
-3. SDR’s don’t have visibility into accounts that are important to you. That’s why it’s recommended to create visibility into the leads that are coming in for your own territory.
-4. If there is an incoming lead that is part of a high priority account chatter the assigned SDR on Salesforce to pick up the lead with high priority. You can ask the SDR Manager of your region to share a report that shows all incoming leads per Quarter and add filters to the report so it is set for only your territory. Team members or FO Manager can help with this
+1. The SDR team works round-robin which means you will work with all the SDR’s in your region. It’s recommended to set up a coffee chat with all of them so you know which SDR’s you’re going to collaborate with
+1. SDR’s don’t have visibility into accounts that are important to you. That’s why it’s recommended to create visibility into the leads that are coming in for your own territory.
+1. If there is an incoming lead that is part of a high priority account chatter the assigned SDR on Salesforce to pick up the lead with high priority. You can ask the SDR Manager of your region to share a report that shows all incoming leads per Quarter and add filters to the report so it is set for only your territory. Team members or FO Manager can help with this
 
 ### Channel
 
@@ -181,7 +179,7 @@ The Alliances team can assist with connecting you to the Alliance Partner sales 
 
 1. Get yourself familiar with the [Alliances](https://gitlab-com.gitlab.io/alliances/alliances-internal/) team, what they do and how they can help
 1. Select a list of your top 10 accounts where you know they are using one of our Alliances Partners
-1. Schedule time with the Alliances Manager in your region and bring up that you’d like to be introduced to the Partner representative from the 10 selected accounts. To get in contact with the right Alliances Manager post a new message to the #alliances Slack channel with a brief description of the request. The alliance team member(s) managing the partnership will follow-up with next steps
+1. Schedule time with the Alliances Manager in your region and bring up that you’d like to be introduced to the Partner representative from the 10 selected accounts. To get in contact with the right Alliances Manager post a new message to the #cloud-aws or #cloud-gcp Slack channel with a brief description of the request. The alliance team member(s) managing the partnership will follow-up with next steps
 1. The Alliances Manager is responsible for bringing you in contact with the dedicated customer teams from the Partner (AWS, GCP etc) and set up the meetings
 1. Leverage Alliances help you to break into new accounts where there is already a warm relationship with the Alliances Partner who can help to warm introduce you to the right people in the company
 1. Make sure you understand what the benefit for the Alliances Partner is to introduce you. Always make sure you understand how we can help them and the customer and align your GitLab proposal to this.
@@ -219,4 +217,3 @@ The Alliances team can assist with connecting you to the Alliance Partner sales 
 1. What is the most efficient way of prospecting? What tools are being used to find potential clients?
 1. What are good call notes / next steps?
 1. How does GitLab handle discount requests? What is the guidline?
-

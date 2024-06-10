@@ -1,14 +1,6 @@
 ---
-
 title: Experimentation Design & Analysis
 ---
-
-<!------->
-
-
-
-
-
 
 ## Overview
 
@@ -29,6 +21,7 @@ This experiment framework is derived from the previous version of our Experiment
 The current experiment framework that is being utilized by GitLab is called the `gitlab-experiment-gem` or GLEX for short. Here at GitLab we run experiments as A/B/n tests and review the data the experiment generates. From that data, we determine the best performing code path and promote it as the new default code path, or revert back to the original code path. You can read our [Experiment Guide documentation](https://docs.gitlab.com/ee/development/experiment_guide/) if you're curious about how we use this [gem](https://www.solutelabs.com/blog/how-to-create-a-gem-in-ruby-on-rails) internally at GitLab. This experiment framework relies heavily on front-end events or events that are created by our data collector, Snowplow.
 
 When we discuss the behavior of this gem, we'll use terms like experiment, context, control, candidate, and variant. It's worth defining these terms so they're more understood. These are the universal terms used across the company.
+
 - **experiment** is any deviation of code paths we want to run sometimes and not others.
 - **contexts** is used to identify a consistent experience we'll provide in an experiment.
 - **control** is the default, or "original" code path.
@@ -45,6 +38,7 @@ This is the JSON column that will contain any useful identifiers that are used t
 Context_keys are used in experiment analysis to determine the unique users/projects/namespaces that engage in the various features and/or stages as defined by the experiment analysis. Context_keys can be “sticky” to various identifiers (either user, namespace, project or some combination of user per project or user per namespace) depending on what is needed for the experiment.
 
 Examples:
+
 - Assigning context_key to be sticky to a user (1 context key = 1 user), if we’re identifying how many users adopted specific features as a result of an experiment regardless of their namespace or project.
 - Assigning context_key to be sticky to namespaces (1 context key = 1 namespace) , if we’re identifying how many stages were adopted as a result of an experiment regardless of how many users engaged in each stage.
 - Assigning context_key to be sticky per user, per namespace (1 context key = 1 user per namespace) if we’re identifying how many specific users in a namespace adopted specific features as a result of an experiment. This will prevent users who are part of multiple namespaces to have their feature and/or stage adoption from being counted towards all the namespaces they are a part of.
@@ -109,22 +103,22 @@ The last part of the formula or the **because** portion refers to the rationale 
 
 Start with defining the metrics that you will use to determine success in the experiment. The different types of metrics that are defined are outlined in more detail below, but here are some additional components that should be considered when going through the thought process of outlining an experiment:
 
-  1. The reasoning behind selecting the target metrics over conversion metrics
-    - Ex: low traffic/volume would bring our velocity to a screeching halt if we use conversion metrics, we would have to run the experiment for 9 months to reach significance
-    - Ex: the experiment is intended to drive traffic to a page, not necessarily influence conversion
+1. The reasoning behind selecting the target metrics over conversion metrics
+   - Ex: low traffic/volume would bring our velocity to a screeching halt if we use conversion metrics, we would have to run the experiment for 9 months to reach significance
+   - Ex: the experiment is intended to drive traffic to a page, not necessarily influence conversion
 
-  2. The assumptions we are making about the collision (or lack thereof) of concurrent experiments (if there are two or more experiments targeting the same population of users)
-    - Ex: we assume that a concurrent experiment will not be a material impact on this experiment's target metric
+2. The assumptions we are making about the collision (or lack thereof) of concurrent experiments (if there are two or more experiments targeting the same population of users)
+   - Ex: we assume that a concurrent experiment will not be a material impact on this experiment's target metric
 
-  3. The risks we are assuming by proceeding with the given metrics, experiment sequencing, and experiment design
-    - Ex: Higher clicks might not lead to higher conversion, it's possible that we have a negative impact on down-funnel metrics
+3. The risks we are assuming by proceeding with the given metrics, experiment sequencing, and experiment design
+   - Ex: Higher clicks might not lead to higher conversion, it's possible that we have a negative impact on down-funnel metrics
 
-  4. Why we have the appetite for those risks
-    - Ex: We want to be able to keep the business moving and continue iterating on experiments
+4. Why we have the appetite for those risks
+   - Ex: We want to be able to keep the business moving and continue iterating on experiments
 
-  5. Whether we will do a longer-term follow-up to try to look at conversion metrics. (It may be that a longer-term follow-up measurement is not even possible due to experiments colliding)
-    - Ex: We will follow-up in 2 months to see what conversions look like for the control and candidate
-    - Ex: We will not be able to do a follow-up to see conversion because of the following experiments colliding
+5. Whether we will do a longer-term follow-up to try to look at conversion metrics. (It may be that a longer-term follow-up measurement is not even possible due to experiments colliding)
+   - Ex: We will follow-up in 2 months to see what conversions look like for the control and candidate
+   - Ex: We will not be able to do a follow-up to see conversion because of the following experiments colliding
 
 ##### How to identify success metrics
 
@@ -143,27 +137,30 @@ There are three different kinds of metrics that can be defined for an experiment
 
 **1.Primary Metrics**
 
-  These are the main KPIs or metrics that you expect to be impacted by the experiment. Usually these metrics will be used to define the success or failure of the experiment using statistical significance - be sure to consult the Product Analysis team to identify how long it will take these metrics to hit statistical significance.
+These are the main KPIs or metrics that you expect to be impacted by the experiment. Usually these metrics will be used to define the success or failure of the experiment using statistical significance - be sure to consult the Product Analysis team to identify how long it will take these metrics to hit statistical significance.
 
-  Examples:
-  - If launching an experiment that affects trials, a primary metric you could use is the count of trials that are being created from this experiment
-  - If launching an experiment that affects conversions, a primary metric you could use is the count of conversions generated from this experiment
+Examples:
+
+- If launching an experiment that affects trials, a primary metric you could use is the count of trials that are being created from this experiment
+- If launching an experiment that affects conversions, a primary metric you could use is the count of conversions generated from this experiment
 
 **2. Secondary Metrics**
 
-  These are any metrics that you expect could be impacted by the experiment but are not going to be the main metrics that we will use to declare success or failure for an experiment.
+These are any metrics that you expect could be impacted by the experiment but are not going to be the main metrics that we will use to declare success or failure for an experiment.
 
-  Examples:
-  - If your experiment specifically is looking at the number of trials, you could also place conversions as a secondary metric as the increase in trials would theoretically impact the number of conversions.
-  - If your experiment is targeting adoption of a specific stage, you could place Stages per Organization as a secondary metric as the increase in adoption of a stage could lead to additional stages being adopted.
+Examples:
+
+- If your experiment specifically is looking at the number of trials, you could also place conversions as a secondary metric as the increase in trials would theoretically impact the number of conversions.
+- If your experiment is targeting adoption of a specific stage, you could place Stages per Organization as a secondary metric as the increase in adoption of a stage could lead to additional stages being adopted.
 
 **3. Leading Indicators**
 
-  Leading indicators are a directional determinant of the performance of an experiment based on the volume of front-end events between variants
+Leading indicators are a directional determinant of the performance of an experiment based on the volume of front-end events between variants
 
-  Examples:
-  - If your experiment is looking at visits to a new landing page, you could place pageviews as a leading indicator
-  - If your experiment is looking at new CTAs being added to the product, you could place button clicks as a leading indicator
+Examples:
+
+- If your experiment is looking at visits to a new landing page, you could place pageviews as a leading indicator
+- If your experiment is looking at new CTAs being added to the product, you could place button clicks as a leading indicator
 
 #### Experiment types
 
@@ -185,6 +182,7 @@ size. In addition, there needs to be extra care taken to ensure that experiments
 
 True RCTs will be developed and evaluated with the industry standard statistical significance level
 of p <= 0.05 and a power of 0.8.
+
 - p <= 0.05: results are **statistically significant**
   - Ex: The variant landing page showed a significant increase of 10% in click rate.
 - p > 0.05: results are **not statistically significant**
@@ -204,6 +202,7 @@ these measurements needs to be very intentional so as to not overstate our confi
 means that we should *not* communicate a percent change (ex: 10% increase) because our level of
 certainty and statistical significance could be misinterpreted. In addition, including the p-value
 (or noting the confidence level) helps to avoid misinterpretation.
+
 - p <= 0.05: experiment **“had an impact”**
   - Ex: The variant landing page showed a lift in click rate from 40% to 44% (p=0.04).
 - p > 0.05 and p < 0.2: experiment **"had a directional impact"** (or **“might have had an impact”**)
@@ -213,6 +212,7 @@ certainty and statistical significance could be misinterpreted. In addition, inc
 
 It is not always straightforward or easy to select which type of experiment to run. Here are a
 few questions to help guide that decision:
+
 - **How certain do I need to be that this experiment *caused* a change in a metric?** Is a
 directional learning sufficient?
   - If the metric is critical to the business and you need to be certain that the experiment
@@ -256,13 +256,13 @@ We will continue to build out a guide on how to select which type of experiment 
 
 1. Work with your Product Managers to list the event names, type of event, and where the data is expected to be collected. Use the event definition table that is below to help format your event definitions.
 
-|     Action    | Funnel | Level | Source |                                                                                                    Description                                                                                                   |
-|:-------------:|:------:|:-----:|:------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|  assignment   |   1    |   BE  |  auto  | Any time the experiment is evaluated. Use unique keys to get experiences, or review as a total count. Group by unique keys to see changes over time or subsequent evaluations. Experiment is sticky to the user. |
-|  focus_form   |   2    |   FE  |  [link](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60038/diffs#7232c8176a30817af010d3e442ef46afe5429362_0_6)  |                                                                                    Standard event with the [focus_form context.](https://github.com/snowplow/iglu-central/blob/master/schemas/com.snowplowanalytics.snowplow/focus_form/jsonschema/1-0-0)                                                                                   |
-|  change_form  |   3    |   FE  |  [link](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60038/diffs#7232c8176a30817af010d3e442ef46afe5429362_0_6)  |                                                                                   Standard event with the [change_form context.](https://github.com/snowplow/iglu-central/blob/master/schemas/com.snowplowanalytics.snowplow/change_form/jsonschema/1-0-0)                                                                                   |
-|  submit_form  |   4    |   FE  |  [link](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60038/diffs#7232c8176a30817af010d3e442ef46afe5429362_0_6)  |                                                                                   Standard event with the [submit_form context.](https://github.com/snowplow/iglu-central/blob/master/schemas/com.snowplowanalytics.snowplow/submit_form/jsonschema/1-0-0)                                                                                   |
-| create_group  |   5    |   BE  |  [link](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60038/diffs#dc240efebd5278da9bb46419b7f74a5a9a3f12e9_26_26)  |                                                                              When a group is created in subsequent onboarding steps                                                                              |
+    |     Action    | Funnel | Level | Source |                                                                                                    Description                                                                                                   |
+    |:-------------:|:------:|:-----:|:------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+    |  assignment   |   1    |   BE  |  auto  | Any time the experiment is evaluated. Use unique keys to get experiences, or review as a total count. Group by unique keys to see changes over time or subsequent evaluations. Experiment is sticky to the user. |
+    |  focus_form   |   2    |   FE  |  [link](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60038/diffs#7232c8176a30817af010d3e442ef46afe5429362_0_6)  |                                                                                    Standard event with the [focus_form context.](https://github.com/snowplow/iglu-central/blob/master/schemas/com.snowplowanalytics.snowplow/focus_form/jsonschema/1-0-0)                                                                                   |
+    |  change_form  |   3    |   FE  |  [link](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60038/diffs#7232c8176a30817af010d3e442ef46afe5429362_0_6)  |                                                                                   Standard event with the [change_form context.](https://github.com/snowplow/iglu-central/blob/master/schemas/com.snowplowanalytics.snowplow/change_form/jsonschema/1-0-0)                                                                                   |
+    |  submit_form  |   4    |   FE  |  [link](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60038/diffs#7232c8176a30817af010d3e442ef46afe5429362_0_6)  |                                                                                   Standard event with the [submit_form context.](https://github.com/snowplow/iglu-central/blob/master/schemas/com.snowplowanalytics.snowplow/submit_form/jsonschema/1-0-0)                                                                                   |
+    | create_group  |   5    |   BE  |  [link](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60038/diffs#dc240efebd5278da9bb46419b7f74a5a9a3f12e9_26_26)  |                                                                              When a group is created in subsequent onboarding steps                                                                              |
 
 2. Link any tracking and/or related-issues to the main experiment issue assigned to Product Analytics
 
@@ -318,7 +318,6 @@ In this section, we will review some of the most common errors that are made by 
 
 - Cross-contamination of data can happen when too many experiments are being run in the same area of the product and/or are being shown to the same population of users.
 - Be sure to check how many experiments are being run at any given time.
-
 
 ## Additional resources
 

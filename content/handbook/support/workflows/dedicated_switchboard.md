@@ -60,4 +60,3 @@ Check the `Cloud Account Config` collapsible section.
 - Click the **Audit Logs** link at the top of the page.
 - Filter for `Tenant`.
 - Check the **Tenant#<tenant_id>** records to view changes.
-

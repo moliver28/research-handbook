@@ -15,4 +15,3 @@ The Internal Audit and SOX function has a career ladder represented below:
 | [Sr Manager, Internal Audit]({{< ref "senior-manager-internal-audit" >}}) <br> [Sr Audit Manager, IT and Security]({{< ref "senior-audit-manager-it-and-security" >}}) | 9 |
 | [Director, Internal Audit]({{< ref "director-internal-audit" >}}) <br> [Director, IT Audit]({{< ref "director-IT-audit" >}}) | 10 |
 | [VP, Internal Audit]({{< ref "vp-internal-audit" >}}) | 12 |
-

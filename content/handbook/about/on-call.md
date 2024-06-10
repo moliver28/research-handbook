@@ -1,79 +1,92 @@
 ---
-title: Handbook On-Call
+title: Handbook Escalation
+aliases:
+- /about/support/
 ---
 
-## Important Update
-
-**See [Content Websites](/handbook/content-websites/) for the latest information about the DRI and support processes for the about.gitlab.com and handbook.gitlab.com site.**
+For information on team members' roles and responsibilities, see [Content Websites page](../).
 
 ## Introduction
 
-GitLab recognizes that the Handbook is a critical part of empowering team members to do their jobs effectively. As such we have implemented a basic on-call process (refer to [First-response Service Level Objective](#first-response-service-level-objective) below) to ensure that someone is available to assist team members in the event that something is broken in the handbook or if they are having trouble with making updates to it.
+The Handbook is a critical part of empowering team members to do their jobs effectively. As such, we have a group of team members who assist in resolving issues affecting all team members.
 
 ## Reporting an issue
+
+If you're looking for general help, please see the [editing handbook page](../editing-handbook/#need-help).
 
 Any issues should be reported in the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel in Slack.
 
 ### When to escalate an issue
 
-Issues should only be escalated to the Handbook On-Call team if it relates to:
+Issues should only be escalated if it relates to:
 
-1. Master being broken
-1. Security incidents
-1. Significant broken pages in production (e.g. the values page being unreachable)
+1. Default branch being broken
 1. Broken infrastructure
-1. Bugs that prevents team members from accessing important information
-1. Time sensitive updates to the Handbook where there are any issue in making the update
+1. Time sensitive updates to the handbook where there are any issue in making the update
 
-## On-call schedule
+## "Keep main green" group
 
-Until recently members of the `Editor` team were part of the on-call process and members of the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel.
-Additionally any GitLab team member can volunteer to join the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel and help out.
+If after posting in `#handbook-escalation`, you are not receiving a response, please ping the [issue triager](../content-websites/#team-structure) if it's within their working hours.
 
-We are looking into formulating alternatives and the future.
+If they are not available, the following team members (in the table below) have volunteered to assist when available. Please take into consideration the listed timezone where they are generally located and their Slack status on whether they're out of office.
 
-### Expectations for being on-call
+Additionally, any GitLab team member can volunteer to join the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel and help out.
 
-1. Make sure you are set to receive notifications for the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel
+| Slack username | Usual timezone(s) |
+| ----- | ----- |
+| `@Arty-chan` | Pacific Time (UTC-8/-7) |
+| `@mayra` | Central Time (UTC-6) |
+| `@David Nelson` | Central Time (UTC-6/-5) |
+| `@A.J. Romaniello` | Eastern Time (UTC-5/-4) |
+| `@Max Woolf` | GMT (UTC+0/+1) |
+| `@Filip` | Central European (UTC+1/+2) |
+| `@Marcin SJ` | Central European (UTC+1/+2) |
+| `@arpit` | India Time (UTC+5:30) |
+| `@jaime` | Australia Eastern Time (UTC+10/11) |
+| `@charlie` | New Zealand (UTC+12/13) |
+
+### Expectations for the group
+
+1. Make sure you are in and do not mute the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel.
 1. When an issue is reported:
-    1. Acknowledge the team member and let them know you are looking into it
-    1. You can check on `#production`, `#incident-management`, and `#is-this-known` to see if it's a know issue with infrastructure or other problems.
+    1. Acknowledge the team member and let them know you are looking into it.
+    1. You can check on `#production`, `#incident-management`, and `#is-this-known` to see if it's a known issue with infrastructure or other problems.
     1. Provide an update as soon as you are able to confirm their problem.
-    1. You can also post updates in `#website` and/or `#handbook` as appropriate.
-    1. Resolve the problem, or provide feedback to the team member on how they can resolve it.
+    1. You can also post updates in `#mr-buddies` and/or `#handbook` as appropriate.
     1. Offer to have a Zoom call to help replicate or resolve the issue if it is not straight forward.
+    1. Resolve the problem, or provide feedback to the team member on how they can resolve it.
+    1. If you do not believe you can resolve it and need further assistance, consider any or all of the following:
+       1. Ping another member of the [Keep main green group](#keep-main-green-group).
+       1. Ping the [technical DRI](../content-websites/#team-structure), or a member of the code maintainer group.
+       1. [Create a bug issue](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/new) with details.
 
 ### When to hand over to Reliability Engineering
 
-The Handbook On-Call deals specifically with matters relating to the `www-gitlab-com` repo source code and configuration.
-If a reported issue relates to the GitLab product or the infrastructure running the [https://about.gitlab.com](https://about.gitlab.com) website then it should be escalated to the Reliability Engineering team.
-To report an incident follow the instructions on the Incident Management page: [https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
-
-### First-response Service Level Objective
-
-All incidents reported in the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel, during weekdays (Mon - Fri, 08:00 UTC+0 - 18:00 UTC-7), should receive an initial response of acknowledgement within 1 hour of it being reported.
+The Handbook On-Call deals specifically with matters relating to the `content-sites` projects.
+If a reported issue relates to the GitLab product or the infrastructure running the handbook then it should be escalated to the Reliability Engineering team.
+To report an incident follow the instructions on the Incident Management page: [https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
 
 ## Common Incidents and Tips
 
-### Runbook for about.gitlab.com
+### Failing pipeline
 
-There is also a [runbook for about.gitlab.com incident handling](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/about-gitlab-com.md).
+Please see the [handbook editing page](../editing-handbook/#failing-pipelines) for guidance and examples.
 
-### Managing broken master alerts in #handbook-escalation
+### Managing broken main alerts in #handbook-escalation
 
-All broken CI pipelines for the `master` branch of the `www-gitlab-com` repo are automatically posted in the Slack channel.
+All broken CI pipelines for the `main` branch of the `handbook` repo are automatically posted in the Slack channel.
 These reports should be investigated and addressed where needed.
 
 Once a report has been looked at, please leave a comment stating the nature of the problem, action taken and add a ✅ reaction to the message to show that it has been handled.
 
-If for some reason there is a large amount of failures resulting in spamming the channel, the error reporting can be turned off in the repo settings: [https://gitlab.com/gitlab-com/www-gitlab-com/-/services/slack/edit](https://gitlab.com/gitlab-com/www-gitlab-com/-/services/slack/edit)
-
-### Merging Urgent MRs
-
-See [the description of this issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/6356) for details on the current workarounds required for [this bug related to the Merge Train](https://gitlab.com/gitlab-org/gitlab/-/issues/214742#note_338664758)
+If for some reason there is a large amount of failures resulting in spamming the channel, the error reporting can be turned off in the repo settings: [https://gitlab.com/gitlab-com/content-sites/handbook/-/settings/integrations](https://gitlab.com/gitlab-com/content-sites/handbook/-/settings/integrations)
 
 ### Stuck Merge Train
 
 To see the status of the merge train (useful when team members are reporting that their MRs seem 'stuck' on the train), see [this issue to check the status and perform a workaround, if necessary](https://gitlab.com/gitlab-org/gitlab/-/issues/217908#when-the-merge-train-in-the-www-gitlab-com-project-might-be-stuck).
 
 TL;DR for workaround: If the first/oldest MR `iid` in [the FIFO list](https://gitlab.com/api/v4/projects/7764/merge_trains?scope=active&per_page=100&sort=asc) (`sort=asc` by ID) is actively running a pipeline and eventually gets merged, then things are moving along, just slowly.  If the first one in the list isn't currently running any pipeline, remove it from the train and re-add it (it should go to the end).
+
+### Runbook for about.gitlab.com
+
+While the handbook is no longer on `about.gitlab.com`, some of the information in the [runbook for about.gitlab.com incident handling](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/about-gitlab-com.md) may be helpful.

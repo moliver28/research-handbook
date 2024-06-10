@@ -19,13 +19,12 @@ At GitLab, we use centralized laptop management for company-issued laptops. If y
 | Business Technology | Responsible for implementing and executing this procedure |
 | Business Technology Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
-
 ## GitLab Laptops
 
 ### New Hire Laptop Ordering Process
 
 The laptop ordering process for new hires starts as soon as an offer is accepted by a candidate and the initial Welcome email is sent by the Candidate Experience Specialist.
-This email will include a link to the Notebook Order Form where the new team member will state their intent for obtaining or ordering hardware.
+This email will include a link to the Laptop Procurement Form to start the ordering process for your GitLab issued laptop.
 
 Team members that live in these countries can be serviced via the IT Laptop Ordering Process:
 
@@ -35,8 +34,8 @@ Please note that we are adding supported countries to this list as we discover o
 You can test this by going to order a MacBook Pro (or Dell) from the regional Apple store, and seeing if they let you customize a build or alternately refer you to local retailers.
 If the latter, see below.
 
-We currently cannot procure Apple laptops for Brazil or Israel. If your country is not listed above or for any general laptop procurement questions please contact `IT-Help@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
-If the team member desires financial assistance to purchase the hardware, the Company will advance the funds to help facilitate the purchase (see Exception Processes below).
+We currently cannot procure Apple laptops for Israel, Brazil, Costa Rica, Chile, Armenia, or Ukraine. If your country is not listed above or for any general laptop procurement questions please contact `IT-Help@gitlab.com` or your Candidate Experience Specialist to discuss alternate options.
+If the team member requires financial assistance to purchase the hardware, the Company will advance the funds to help facilitate the purchase (see Exception Processes below).
 
 {{% alert title="**Warning: fake job scams**" color="warning" %}}
 Scammers may impersonate GitLab and target job seekers. GitLab will never ask new hires to send us funds for equipment purchases.
@@ -47,7 +46,7 @@ Read the ["What to know about a fake job scam impersonating GitLab"](https://abo
 
 ### Laptop Refresh
 
-Team members can choose to refresh their laptop, no questions asked, after 3 years of use (not necessarily 3 years of employment if a used laptop was issued at the time of onboarding). If the laptop is sufficient for your needs, you may opt to continue using a laptop until it no longer receives the latest macOS version from Apple (approximately 5 years).
+Team members can choose to refresh their laptop, no questions asked, after 3 years of use (not necessarily 3 years of employment if a used laptop was issued at the time of onboarding). If the laptop is sufficient for your needs, you may opt to continue using the laptop until it no longer receives the latest macOS version from Apple (approximately 5 years).
 
 The old laptop must be [wiped](/handbook/business-technology/end-user-services/#laptop-wipe-schedules-for-it-analysts) or [returned](#laptop-recyclereturn) **within 2 weeks of receiving the replacement laptop**, so please prioritize transferring information between laptops within this timeframe.
 
@@ -57,9 +56,9 @@ If you qualify/complete a laptop refresh, please also refer to our [Laptop Buy b
 
 ### GitLab Laptop Replacement Program
 
-We get it, sometimes things happen! If you laptop is broken or not sufficient for your role you can request a replacement laptop if you do not qualify for the 3 year refresh yet.
+We get it, sometimes things change! If your laptop is not sufficient for your role, you can request a replacement laptop if you do not qualify for the 3 year refresh yet. Be advised, replaced laptops do not qualify for the [Laptop Buy back Policy](#laptop-buy-back-policy) and will need to be returned to be repurposed at GitLab IT's discretion.
 
-Replacement laptops for broken GitLab laptops can be requested as needed by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., my screen and battery are damaged) also, please note replacements will require your manager's approval in the issue.
+Replacement laptops can be requested as needed by [creating an issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement) in the End User Services issue tracker project. Please describe the reason for your replacement in the issue. (i.e., laptop is not sufficient for job dutied, screen and battery are damaged) also, please note replacements will require your manager's approval in the issue.
 
 Many team members can use their company issued laptop until it breaks. If your productivity is suffering, you can request a new laptop. The typical expected timeframe for this is about three years, but it can depend on your usage and specific laptop.
 
@@ -70,20 +69,20 @@ Since these items are company property, you do not need to buy insurance for the
 
 ### Laptop Repair
 
-If your primary laptop is broken and needs to be repaired you can take it into an Apple store (or any authorized service center) . You should ensure that you have a recent backup before doing so, and that your laptop is not your only registered device for iCloud two-factor authentication.
+If your primary laptop is broken and needs to be repaired you can take it into an Apple store (or any authorized service center). You should ensure that you have a recent backup before doing so, and that your laptop is not your only registered device for iCloud two-factor authentication.
 
-If the repair is not going to be too expensive (less than $1,000 USD), follow the below process to repair and expense. If the repair is going to take longer than a day, then you need to make sure you have a back up laptop to work on that uses a supported hardware OS.
+If the repair is not going to be too expensive (less than $1,000 USD), the below process must be followed to repair and expense. If the repair is going to take longer than a day, then you need to make sure you have a back up laptop to work on that uses a supported hardware OS.
 
-Before repairing, you must open an issue in the [End User Services Issue Tracker](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Repair) to document the repair. The issue must include IT and your managers approvals prior to the repair being done. Please make sure to attach/include any estimates or receipts for the repair that you get from Apple (or any authorized service center) in the issue. Picture or PDF will work just fine.
+Before repairing, you must open an issue in the [End User Services Issue Tracker](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Repair) to document the repair. The issue must include IT and your managers approvals **prior** to the repair being done. Please make sure to attach/include any estimates or receipts for the repair that you get from Apple (or any authorized service center) in the issue. Picture or PDF will work just fine.
 
 Do not provide the repair center with any credentials to your laptop. If they ask, you can tell them that they're authorized to do a factory reset on the laptop should it be necessary to run diagnostics. This will help prevent sensitive data from being accidentally or intentionally leaked during repair.
 
 Once you receive your laptop back, re-install MacOS ([instructions here](https://support.apple.com/en-au/HT208496)) and restore your data from a recent backup. This is to ensure that no unauthorized software was added during the repair process. Make sure that your [disk is encrypted](/handbook/business-technology/end-user-services/onboarding-access-requests/#full-disk-encryption) and you've reinstalled [Jamf for Mac or DriveStrike for Linux](/handbook/business-technology/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe). Also, ensure that you have installed [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/#endpoint-management-technologies) in order to keep your laptop secure.
 
-If, however, the repair is going to be expensive and take weeks to fix and you have no back up laptop, your best option is to replace the laptop.
+If, however, the repair is going to be expensive and take weeks to fix or you have no back up laptop, your best option is to replace the laptop. Be advised, replaced laptops do not qualify for the [Laptop Buy back Policy](#laptop-buy-back-policy) and will need to be returned to be repaired/recycled at GitLab IT's discretion.
 
 In this case please open [an issue to replace](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement).
-When you receive the new laptop, please follow the guidelines in the template. After you have moved to the replacement laptop, we can have the old one sent off to be [recycled](#laptop-recyclereturn)
+When you receive the new laptop, please follow the guidelines in the template. After you have moved to the replacement laptop, we will have the old one sent off to be [recycled or repaired](#laptop-recyclereturn).
 
 ### Laptop Purchasing and Shipping Process
 
@@ -143,7 +142,6 @@ NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased
 - MacBook Pro 16" - M3 Max / 36GB Unified memory / 512GB or 1TB storage (depending on vendor) **Performance model**
 - MacBook Pro 14" - M3 Max / 36GB Unified memory / 512GB or 1TB storage (depending on vendor) **Performance model**
 
-
 Most roles that require higher performance machines are approved for a 14" or 16" MacBook Pro M3 Max. Please see this [spreadsheet](https://docs.google.com/spreadsheets/d/1OuC0_iliCzASKfOhDLWO4fBmDS-uL3VGRMI6063R6tk/edit?usp=sharing) (public) to locate your department group and determine which machine you are eligible for.
 
 #### Linux Hardware
@@ -153,8 +151,8 @@ IT strongly encourages team members to select Macs; please only request a Linux 
 {{% /alert %}}
 
 **Below are roles that qualify for Linux Laptops**
-- Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5570 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [15.6” display / 512 GB SSD / 32 GB of RAM / Intel i9 or i7 CPU](https://www.dell.com/en-us/shop/laptops/new-15-5560-workstation/spd/precision-15-5570-laptop).
 
+- Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, and Digital Production are eligible for Dell Precision Mobile Workstation laptops from the 5570 line. Due to supply constraints, specific models available from these lines my vary. IT will work with each person to find an available model meeting the following specifications: [15.6” display / 512 GB SSD / 32 GB of RAM / Intel i9 CPU](https://www.dell.com/en-us/shop/laptops/new-15-5560-workstation/spd/precision-15-5570-laptop).
 
 \*\*NOTE: The maximum price of Linux laptops is not to exceed **the price of the equivalent [16” MacBook pro laptop](#apple-hardware)**. Please make sure you order this model a minimum of 14 days, based on your locality, prior to your desired date to receive.
 
@@ -201,7 +199,6 @@ Apple macOS and Dell Linux distributions meet the operating system needs.
 
 GitLab needs the ability to ensure a secure and stable platform. From an operating system perspective, macOS and Linux meet the needs. The Security team has found a slight advantage in Ubuntu as a Linux distribution due to their rapid response time when it comes to patching security flaws, and we recommend this distribution. It is necessary to use an [approved Linux distribution](https://internal.gitlab.com/handbook/it/it-self-service/operating-systems/).
 
-
 #### Compliance needs
 
 To meet compliance needs for the various certifications, programs, and industry regulations, we have to meet criteria including the ability to restrict access to sensitive data to company-issued laptops running company-monitored software.
@@ -221,8 +218,8 @@ In other words, we eliminate this possibility of becoming a situation to be mana
 #### Logistics needs
 
 To be able to use a laptop vendor, we have to be able to purchase and ship hardware to our team members regardless of where they live.
-Therefore the vendor should be able to handle most if not all shipping requirements to all team members. Our current hardware provider for the US is CDW. GitLab laptops that are procured from CDW will come with GitLab branded asset labels by default. Please refer to this issue for more information on GitLab asset labels. [GitLab Branded Laptop Labels](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/914)
-
+Therefore the vendor should be able to handle most if not all shipping requirements to all team members. Our current hardware vendors are: CDW for US requests. Presidio for EMEA requests. Sycomp for most other regions.
+GitLab laptops that are procured from our vendors will come with GitLab branded asset labels by default. Please refer to this issue for more information on GitLab asset labels. [GitLab Branded Laptop Labels](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/914)
 
 ### Configuring New Laptops & Apple IDs
 
@@ -246,20 +243,23 @@ For laptops shipped with OEM Windows you may want to make a full drive backup (e
 That way you could restore your laptop to the original state at any time.
 It will make the RMA process much easier in case you need it.
 
-
 ### Laptop Buy back Policy
 
-If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year, they can opt to keep their laptop at no cost.
+If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year at the time of offboarding, they can opt to keep their laptop at no cost. Subject to promptly working with the Company during the offboarding process to enable the laptop to be wiped and, when required by applicable legal obligations, imaged for preservation purposes.
 
-If the team member would like to purchase the laptop at the current market value, they will need to send an email to laptops@gitlab.com to start the process. If purchasing, our Manager of IT, or Lead IT Analyst will approve, and we will send the employee an email with the determined value. If the employee decides to move forward with purchasing, our accounting department will reach out with payment information.
+If the team member would like to purchase the laptop at the current market value, they will need to send an email to laptops@gitlab.com to start the process. If purchasing, our Manager of IT, or Lead IT Analyst can approve, and send the employee an email with the determined value. If the employee decides to move forward with purchasing, our accounting department will reach out with payment information.
 
 Retained laptops must be [wiped](#laptop-wipe).
 
 If the departing team member opts not to retain or [donate](#laptop-donations) their laptop, they can return them to GitLab. See the [returning old/offboarded laptops](#laptop-recyclereturn) section for details.
 
+**If the team member is under an active Legal Hold or possesses material related to an active Company investigation, they must comply with the notice requirements. Failure to comply with an active Legal Hold may expose the team member or the Company to adverse consequences, including civil or criminal penalties and sanctions. Their obligation to follow the procedures outlined in the notice continues until the hold is lifted, even if they depart the Company. If the team member departs the Company, all Company devices and any material they're holding in accordance with any active Legal Hold Notice or active Company investigation should be turned over upon their departure.**
+
 ### Laptop Recycle/Return
 
-We use [SIPI Asset Recovery](https://www.sipicorp.com/itad/) for devices that need to be recycled/returned.  At GitLab IT's discretion, laptops may also be sent to an IT Team member for repurposing. Either way, GitLab IT will provide a shipping label and box upon request at no cost to yourself.
+We use [SIPI Asset Recovery](https://www.sipicorp.com/itad/) for devices that need to be recycled.  At GitLab IT's discretion, laptops may also be sent to our vendor for repair. Either way, GitLab IT can provide a shipping label and box upon request at no cost to yourself. If you are able to purchase and expense the box, please do so.
+
+We use Sycomp [Sycomp](https://sycomp.com/professional-services/endpoint-msp/) for devices that need to be repaired. At GitLab IT's discretion, laptops may also be sent to be recycled. Either way, GitLab IT can request a shipping label and box from the vendor at no cost to yourself. If you are able to purchase and expense the box, please do so.
 
 If the IT department has record of a current litigation hold for the offboarded employee, IT will consult with Legal before proceeding.
 
@@ -290,15 +290,14 @@ If you, as a GitLab team member, would like to add a vendor aligned with the cri
 1. Create an issue for [laptop refresh](#laptop-refresh)
 1. Indicate in the issue you want to donate your used laptop to a vendor on the curated list.
 1. Indicate in the issue which option of logistics will be used: Local Drop off or Sending via courier.
-1. For security reasons we want to make sure all laptops are fully [wiped](#laptop-wipe) before drop off or sending.
+1. For security reasons we must make sure all laptops are fully [wiped](#laptop-wipe) before drop off or sending.
 1. When you receive your new laptop, complete the donation.
-
 
 ## GitLab Asset Management
 
 ### Snipe-IT
 
-The End User Services Team has been busy iterating and setting up [Snipe-IT open source asset management](https://snipeitapp.com/). As of April 2021, GitLab has an asset-tracking application that is the source of truth for all GitLab hardware! 
+The End User Services Team has been busy iterating and setting up [Snipe-IT open source asset management](https://snipeitapp.com/). As of April 2021, GitLab has an asset-tracking application that is the source of truth for all GitLab hardware!
 
 How does it work exactly?
 
@@ -336,10 +335,9 @@ GitLab has a large and ever-growing fleet of laptops, which IT Operations is res
 In order to do this and combined with our Zero Trust security policies and various Compliance needs, there must be some measure of intelligence and reporting in place.
 To accomplish this goal we are utilizing Jamf for MacOS devices to obtain only the essential information required. For Linux machines we will be utilizing DriveStrike as a light-touch mechanism.
 
-For more information regarding Jamf, refer to our [Endpoint Management](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/) handbook page.
+For more information regarding Jamf, refer to our [Endpoint Management](https://internal.gitlab.com/handbook/it/endpoint-tools/) handbook page.
 
 For more information regarding DriveStrike, refer to our [DriveStrike](/handbook/it/guides/drivestrike/) handbook page.
-
 
 ### Google Workspace Deprovisioning
 
@@ -372,7 +370,7 @@ IT Ops has an automated workflow that triggers upon a notification from PeopleOp
 - The FTM’s account will be moved to NoGSuiteLicense OU
 - The Google Workspace License is removed from the account
 
-#### The following notifications will be sent out to the FTM’s manager and IT over Slack.
+#### The following notifications will be sent out to the FTM’s manager and IT over Slack
 
 **Immediate Slack notification:**
 
@@ -398,7 +396,7 @@ IT Ops has an automated workflow that triggers upon a notification from PeopleOp
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

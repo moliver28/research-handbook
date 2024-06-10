@@ -123,8 +123,7 @@ The [`populate_ssat` job](https://gitlab.com/gitlab-com/support/readiness/suppor
 
 To run this job:
 
-1. Create a new pipeline by going to CI/CD -> Pipelines -> Run Pipeline
-1. Click the "Play" button on the manual `populate_ssat` job
+1. [Run a manual pipeline] (https://docs.gitlab.com/ee/ci/pipelines/#run-a-pipeline-manually) and run the `populate_ssat` job.
 
 You can safely re-run this task as many times as you'd like as it will append to the issue.
 
@@ -151,7 +150,6 @@ ticket!):
 The above text will be automatically added as a comment to "bad" reviews. You might also consider adding the above snippet to a [comment template](https://docs.gitlab.com/ee/user/profile/comment_templates.html) for quick use.
 
 If no action needs to be taken, and the customer does not need to be contacted to discuss the ticket, `/close` the Feedback Issue.
-
 
 #### When you see "bad" feedback on an apparently successful ticket
 

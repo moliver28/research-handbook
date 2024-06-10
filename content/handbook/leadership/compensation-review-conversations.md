@@ -16,7 +16,7 @@ Please make sure to review and understand the following content with regards to 
 - [LevelUp Training: GitLab Total Rewards Compensation Fundamentals](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/total-rewards-compensation-fundamentals-training)
 - [Compensation Calculator](https://comp-calculator.gitlab.net/users/sign_in)
 - [Annual Compensation Review Cycle](/handbook/total-rewards/compensation/compensation-review-cycle/#determining-cash-compensation-increases)
-- [Equity Refresh Program](https://about.gitlab.com/handbook/stock-options)
+- [Equity Refresh Program](https://about.gitlab.com/handbook/total-rewards/stock-options/)
 - [Talent Assessment at GitLab](/handbook/people-group/talent-assessment/)
 
 ## Total Compensation Statements
@@ -27,15 +27,15 @@ For FY25, Total Rewards will be providing [Total Compensation Statements](/handb
 
 - **Communicate the increase face-to-face over [Zoom]({{< ref "communication#zoom" >}}).** As a manager, this is an opportunity for you to have a conversation with your team member about their compensation, increase and/or equity refresh grant (if applicable). Having the conversation over Zoom allows for you to have a dialogue with your team member (versus just sharing the number) and allows you to pick up other information like tone and non-verbal cues which can tell you more about how someone is feeling.
 - **Prepare for the call ahead of time.** As a manager, you should have awareness of the following facts about GitLab's compensation principles (please review the handbook's [Global Compensation](/handbook/total-rewards/compensation/) page), any recent changes to the compensation calculator/band and personal details about your team member in Workday:
-    - Hire date
-    - Current compensation (including base salary, variable pay (where applicable), equity etc.)
-    - Date of last compensation adjustment
-    - Performance Factor
-    - Growth Potential Factor
-    - Key Talent
-    - Location factor changes
-    - Benchmark changes
-    - % and # increase: This number can be found on the Total Compensation Statement
+  - Hire date
+  - Current compensation (including base salary, variable pay (where applicable), equity etc.)
+  - Date of last compensation adjustment
+  - Performance Factor
+  - Growth Potential Factor
+  - Key Talent
+  - Location factor changes
+  - Benchmark changes
+  - % and # increase: This number can be found on the Total Compensation Statement
 - Communicate the change at the beginning of the meeting. You want to give the team member time to ask questions and discuss their compensation change. Avoid trying to rush to communicate at the end of a [1:1 meeting]({{< ref "1-1" >}}).
 - Try to clearly explain the reasoning behind the compensation change. As Compensation differentials are related to performance, the preparation done for the [Talent Assessment conversation](/handbook/people-group/talent-assessment/#best-practices-for-communicating-performancegrowth-factors) could also be useful in explaining the "why". It is also recommended to review the Annual Compensation review page for [all considerations that go into compensation reviews.](/handbook/total-rewards/compensation/compensation-review-cycle/)
 - Protect the confidentiality of other team members by avoiding saying things like “everyone else received less than you” or “you were the only team member to get a discretionary increase.”
@@ -83,14 +83,14 @@ This section provides and overview of potential compensation conversation scenar
         - ***A team member's New hire equity grant was significant***.  "You are meeting performance expectations at this time (if applicable), however, with proposing equity refresh grants we review holdings against hire date and peers for equality. Based on that extensive review, we feel you are well positioned from an equity perspective for your role compared to peers in the organization.
 1. ***Team member was hired after the cut-off date:*** "At GitLab we review compensation (cash + equity + benefits) on a yearly basis. Due to your hire date you were not eligible to receive additional compensation at this time. You will be eligible for the next Annual Compensation Review where we will review both your cash and equity compensation."
 1. ***Team member is receiving either just a compensation adjustment or just an equity grant*** Please refer to the guidance above to explain to a team member why they may be receiving either just a compensation adjustment or just an equity grant.
-1. ***Team member is receiving a (cash compensation increase/equity refresh grant) while on Leave:*** Our recommendation is to send this via email to the team members GitLab email address, but team members are not required to respond.  
+1. ***Team member is receiving a (cash compensation increase/equity refresh grant) while on Leave:*** Our recommendation is to send this via email to the team members GitLab email address, but team members are not required to respond.
 
     Sample Email:
 
 - "I am so pleased to inform you that you will be receiving a (cash compensation adjustment/equity refresh grant) as a result of this year’s compensation review. You will see your compensation increase effective on February 1st.  Your (compensation increase/equity refresh grant) is based on one or more the following factors (Talent Assessment, Location Factor/Geo Region, Benchmark change and/or Discretionary).
 Details of this will be outlined on the Annual Compensation Statement attached.
-    - Your salary will be increased to (insert $ amount in local currency) which is a (insert %) adjustment (and/or)
-    - I am (also) pleased to inform you that your equity refresh grant is approved at (insert USD). This means your total unvested equity is $XX based on the share price of $X (as listed on the Total Compensation Statement)".
+  - Your salary will be increased to (insert $ amount in local currency) which is a (insert %) adjustment (and/or)
+  - I am (also) pleased to inform you that your equity refresh grant is approved at (insert USD). This means your total unvested equity is $XX based on the share price of $X (as listed on the Total Compensation Statement)".
 Thank you for your ongoing commitment to results at GitLab! If you have any questions you can reach out, otherwise this email is for your information only and no reply is required."
 
 1. **Other scenarios:** If you have a scenario different from the above, and/or you need help with messaging, please work with your manager or [People Business Partner](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group).
@@ -110,4 +110,3 @@ Thank you for your ongoing commitment to results at GitLab! If you have any ques
     - If your team member is in good standing from a performance perspective, work with them to put together a [development plan](/handbook/people-group/learning-and-development/career-development/) to help them continue to grow.
 
 **If you need assistance after reviewing the [handbook](/handbook/total-rewards/compensation/), please work directly with your manager or your [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division)**
-

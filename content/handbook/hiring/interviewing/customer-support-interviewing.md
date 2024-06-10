@@ -5,9 +5,9 @@ description: "Tips on how to prepare for your interview - Customer Support"
 
 ## Most common open roles in Customer Support
 
-- [Support Engineer]({{< ref "/job-families/engineering/support-engineer" >}})
-- [Support Engineering Manager]({{< ref "/job-families/engineering/support-management" >}})
-- [Support Operations Specialist]({{< ref "/job-families/engineering/support-readiness-specialist" >}})
+- [Support Engineer](/job-families/engineering/support-engineer)
+- [Support Engineering Manager](/job-families/engineering/support-management)
+- [Support Operations Specialist](/job-families/engineering/support-readiness-specialist)
 
 ## Tips on how to prepare for your Support Engineer interview
 
@@ -15,7 +15,7 @@ What is it like to interview for the Support Engineer role at GitLab? Here are s
 
 ### 1. Application
 
-Before submitting your application, read through our [Employment Solutions]({{< ref "/handbook/people-group/employment-solutions#country-hiring-guidelines" >}}) page to review the list of countries we are currently hiring in.
+Before submitting your application, read through our [Employment Solutions](/handbook/people-group/employment-solutions#country-hiring-guidelines) page to review the list of countries we are currently hiring in.
 When applying for the Support Engineer role at GitLab, make sure to upload the resume that will highlight your skills and experience, so that you are noticed! Review the role's description carefully to understand if this is a good match, not only in terms of your technical skills but also in terms of your expectations from the role. It's a customer-facing role, so you should be comfortable when interacting with people daily. If you like solving puzzles, love helping people, have a passion for DevOps and open source, if you feel confident in your Linux skills and if the role excites you, it's probably a good match!
 
 A well-written resume or a detailed LinkedIn profile will increase your chances to be selected for this role. Read the requirements carefully and make sure that some of those specific areas are outlined in your resume/LinkedIn profile. In the Support Engineer role, we especially pay attention to your experience/knowledge of:
@@ -38,9 +38,9 @@ Now it's time to get excited! Here are some links that might help you understand
 - [Values]({{< ref "values" >}})
 - [GitLab Company Culture](/handbook/company/culture/)
 - [Informal Communication in an all-remote environment](/handbook/company/culture/all-remote/informal-communication/)
-- [Support Team Handbook]({{< ref "/handbook/support" >}})
+- [Support Team Handbook](/handbook/support)
 - [Support Engineer Responsibilities]({{< ref "support-engineer-responsibilities" >}})
-- [Support Workflows]({{< ref "/handbook/support/workflows" >}})
+- [Support Workflows](/handbook/support/workflows)
 - [Support Team Member Time Off]({{< ref "support-time-off" >}})
 - [Jobs at GitLab - Frequently Asked Questions]({{< ref "candidate-faq" >}})
 - [Working for GitLab - A Support Engineer's perspective](https://about.gitlab.com/blog/2020/08/10/working-for-gitlab-a-support-engineers-perspective/)

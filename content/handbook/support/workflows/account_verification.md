@@ -17,11 +17,11 @@ This workflow covers how a user can provide account verification. While the work
 
 As of Aug 16, 2023, GitLab.com now requires that users without 2FA enabled verify their email address when a login attempt meets certain high-risk criteria. Review the [blog post](https://about.gitlab.com/blog/2023/08/08/gitlab-account-security/) announcing this change. If a user contacts support with questions, use the [`Support::SaaS::Gitlab.com::Abuse::Email Address Verification`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Abuse/Email%20Address%20Verification.md?ref_type=heads) macro.
 
-If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com/handbook/support/#phone-number-verification-issues) to follow.
+If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com/handbook/support/workflows/phone-number-verification) to follow.
 
 ### GitLab Team Members
 
-If the user is a GitLab team member, have them [contact IT Ops]({{< ref "/handbook/business-technology/end-user-services/_index.md" >}}).
+If the user is a GitLab team member, have them [contact IT Ops](/handbook/business-technology/end-user-services/_index.md).
 
 ## 2FA removal within GitLab
 
@@ -56,7 +56,7 @@ Do not allow the customer to bring up unrelated topics.
 
 Ensure that the ticket form, category, subcategory, and topic are accurate.
 
-Most SaaS Account categories have [automations]({{< ref "/handbook/support/readiness/operations/docs/zendesk/automations.md" >}}) or [triggers]({{< ref "/handbook/support/readiness/operations/docs/zendesk/triggers.md" >}}), including 2FA removal.
+Most SaaS Account categories have [automations](/handbook/support/readiness/operations/docs/zendesk/automations.md) or [triggers](/handbook/support/readiness/operations/docs/zendesk/triggers.md), including 2FA removal.
 
 ### Step 1: Checking user eligibility (2FA requests only)
 
@@ -81,9 +81,9 @@ In many cases, a top-level group owner may submit a ticket on behalf of the user
 
 The table below provides a summary of the available verification options based on the owner and user type:
 
-| Requester | Target | Challenges | Owner vouch | Notes
-| --- | --- | --- | --- | ---
-| Enterprise Owner | Own account | Owner passes challenges on own account | Owner vouch (if required) must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal-handbook.gitlab.io/handbook/support) for other challenges. |  |
+| Requester | Target | Challenges | Owner vouch | Notes |
+| --- | --- | --- | --- | --- |
+| Enterprise Owner | Own account | Owner passes challenges on own account | Owner vouch (if required) must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com/handbook/support) for other challenges. |
 | Enterprise Owner | Member of paid group or intent to be added | Owner or target user passes challenges on their own account | Owner vouch can be from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
 | Owner | Non-enterprise user | Target user passes challenges on own account | Owner can vouch | One user per ticket. Communication is direct from the target user who must be CC'd on ticket.  |
 | Paid User | Own account | User passes challenges on own account | Owner can vouch |  |

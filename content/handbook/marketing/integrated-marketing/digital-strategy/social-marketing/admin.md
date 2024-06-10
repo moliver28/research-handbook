@@ -42,7 +42,7 @@ Head to the [corporate marketing project](https://gitlab.com/gitlab-com/marketin
 
 ##### Event Request Templates
 
-[Epic: GitLab Events](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/epic_templates/social-event-epic.md){:.btn .btn-purple-inv} 
+[Epic: GitLab Events](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/epic_templates/social-event-epic.md){:.btn .btn-purple-inv}
 [Issue: GitLab Owned Event Template for CFP, Reg, or Engagement](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-event-owned-request){:.btn .btn-purple-inv}
 [Issue: 3rd Party Sponsored Event Request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-event-sponsored-request){:.btn .btn-purple-inv}
 
@@ -89,9 +89,9 @@ Key parameters on sharing blogs
 - Schedule each blog at least 1x across Twitter, Facebook, and LinkedIn, unless the blog would only benefit from key niche audiences on specific channels (e.g. community-oriented posts for Twitter, or job related ones on LinkedIn). Our audiences do have a great amount of cross-pollination, so many blogs will make sense across channels.
 - Consider scheduling additional timeslots 2-8 weeks ahead of your first scheduled posts. E.g. a new product launch, timed details are included with end dates, etc. If there are weeks between posts, using the same copy is fine. However, if these posts would appear back-to-back week over week, consider editing the copy to be different.
 - General blog coverage without subjective needs added may look like this:
-   - Copy 1 scheduled on FB, TW, LI
-   - Copy 1 scheduled on TW again in 2 weeks
-   - Copy 2 scheduled on FB, TW, and LI approx 4 weeks from the original scheduled date above.
+  - Copy 1 scheduled on FB, TW, LI
+  - Copy 1 scheduled on TW again in 2 weeks
+  - Copy 2 scheduled on FB, TW, and LI approx 4 weeks from the original scheduled date above.
 - Unless dates/times require specific publishing time windows, the specific publishing volume and timelines aren't are important as it is to dynamically create variability in our content and our topics by mixing blogs and topics with other posts.
 
 ## Organic Social and GTM Motions
@@ -126,11 +126,13 @@ The social team may reject any request to share links in social posts that do no
 ![elements-of-an-opengraph](/images/handbook/marketing/integrated-marketing/social-marketing/elements-of-an-opengraph.png)
 
 There are a number of reasons these elements are required. These elements...
+
 - are more inclusive due to the nature of the elements - providing additional text to describe links in place of being able to understand the content visually
 - aid in building more "Social SEO", making the link more searchable on social media channels
 - utlize the basic features that express a link on social networks (titles, descriptions, images, and alt text)
 
 The elements are:
+
 - Page title
 - Page description
 - a unique-to-page-content image
@@ -146,6 +148,7 @@ No matter the circumstance, the social team will need a visual asset to accompan
 ###### Consider using an existing template in our Canva Enterprise account. These images have been approved to use
 
 #### Templates
+
 - [Generic Website Template](https://www.canva.com/design/DAEefl8BdlA/L27eJQgZuophxErdjRMnDw/view?utm_content=DAEefl8BdlA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
 - [Generic Brand Template](https://www.canva.com/design/DAEexdigCaQ/hd7RR6KYWWWEymV6f8Cy_A/view?utm_content=DAEexdigCaQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
 - [Brand Specific Content with Photo Template](https://www.canva.com/design/DAEextfdRJo/93kW1E--D3PqIZvqqxrmbA/view?utm_content=DAEextfdRJo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
@@ -211,6 +214,7 @@ UTMs are used to track traffic sources & reach of posts/links. All posts that co
 Please see [details in the Digital Marketing handbook](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#utm-tracking). In short, it's important to outline UTM campaign, content, and other variables if you're looking to measure more deeply. Campaign section is a requirement, and is likely connected to your ongoing marketing campaign. If you have questions or are unsure how to tag a URL please reach out to the Digital Marketing team &/or the Social Media Manager responsible for the campaign.
 
 ### Links in bio with LinkTree
+
 [LinkTree](https://linktr.ee/) is bio link tool. The Social Media team uses LinkTree to drive traffic to the GitLab website. Folks will click the link in bio and have a few options to choose from before landing on a webpage. The GitLab brand Linktree is: https://linktr.ee/GitLab
 
 At GitLab we have multiple CTA's and campaign goals. The idea here is that a LinkTree will give our community an exit route and determine themselves- on where they land. Once you click the link in bio you'll have tiles to choose from: Homepage, Handbook, Press, Blog, Get a Free Trial, etc. Tile options are a continuous iteration as they will change to reflect current campaigns.
@@ -260,7 +264,6 @@ rules of engagement and the Corporate Events Manager for prizes.</li>
 <li>Create and publish an <a href="#officialrules">Official Sweepstakes Rules page</a></li>
 </ol>
 
-
 </details>
 
 <details>
@@ -274,7 +277,6 @@ How to Create an Official Sweepstakes Rules Page </summary>
 <li>Create merge request and publish.</li>
 </ol>
 
-
 </details>
 
 <details>
@@ -286,7 +288,6 @@ Post-Giveaway </summary>
 <li>Announce the winners</li>
 </ol>
 <p><a href="https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/giveaways/">Find out more about the swag giveaways here.</a></p>
-
 
 </details>
 
@@ -310,7 +311,6 @@ Creating the Campaign </summary>
 </li>
 </ul>
 
-
 </details>
 
 <details>
@@ -329,7 +329,6 @@ Pre-Launch </summary>
 </ul>
 
 </details>
-
 
 #### Day of giveaway
 
@@ -351,9 +350,7 @@ Day of Giveaway </summary>
 <li>RT and use gifs with abandon but also judgment</li>
 </ul>
 
-
 </details>
-
 
 #### After the Giveaway
 
@@ -446,7 +443,9 @@ Events that are not authorized to be promoted as organized by the GitLab brand i
 LinkedIn events should only be used for events and not for campaigns. Events are defined as a specific moment in time on a calendar in which the expectation is that users will join synchronously. Campaigns are defined as initiatives that run for a longer than a specific moment in time and where users can participate asynchronously.
 
 ### Social channel colors
+
 Please use the following hex colors to represent the channels in reports, in charts, or when calling it out in plain text.
+
 - Facebook - #1778F2
 - Insta - #8A3AB9
 - LI - #0E76A8
@@ -457,6 +456,7 @@ Please use the following hex colors to represent the channels in reports, in cha
 Social Media profile assets would include profile images and banners. Banners are specific to each site and should include the latest best practices in dimensions and care for where designs appear in the asset, so that they are visibile on desktop and on mobile properly. [This Google Drive folder includes existing approved assets](https://drive.google.com/drive/folders/1OTF7Ef07OflOIt6lSTmzhbv3SXgHMczE). Note, this folder is only accessible to the communications and brand design team at this time.
 
 ### User Generated Content confirmation
+
 The following code is required when asking for team members or anyone in the wider community to submit elements that the social team intends to create content around. Please include this on rules pages or in Google Forms, or in any location where we'd be asking for content from users.
 
 <details>

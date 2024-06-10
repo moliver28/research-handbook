@@ -5,9 +5,11 @@ title: Security Policies - Working on features
 ---
 
 ## Process
+
 Feature development is organized in an epic that collects feature related issues. Features are usually developed behind a feature flag. The goal of the feature development process is to default enable the feature flag.
 
 Feature development epics are listed in [team priorities](https://about.gitlab.com/direction/govern/security_policies/#priorities)
+
 ### Epic's issues
 
 - Title
@@ -28,11 +30,12 @@ Feature development epics are listed in [team priorities](https://about.gitlab.c
 ### Follow-up work
 
 - When additional work is identified that is not required for a release of a feature, a separate follow-up/improvements epic should be created and the issues should be added to it
-    - This additional epic should not go into the priorities list for the group as not all of the issues may be important enough to schedule for a specific milestone. Instead the issues should be prioritized individually
+  - This additional epic should not go into the priorities list for the group as not all of the issues may be important enough to schedule for a specific milestone. Instead the issues should be prioritized individually
 - When we close the feature flag rollout issue, which happens when the feature flag has been defaulted on and the feature flag cleanup issue has been created (per the rollout issue template), we close the feature epic and move any remaining issues to the follow-up/improvement epic
 
 ### Bugs
+
 - Bugs found before the feature flag is defaulted should be added to the epic and evaluated for impact
   - if a bug blocks the release, they should stay with the epic
-  - if a bug does not block the release, they should be added to the follow-up epic 
+  - if a bug does not block the release, they should be added to the follow-up epic
 - Bugs found after the feature flag is defaulted on do not need to be added to any epic

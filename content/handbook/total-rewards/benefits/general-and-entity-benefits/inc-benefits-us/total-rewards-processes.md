@@ -83,7 +83,6 @@ Temporary process until integrations are in place
 1. Once the report is completed, download it as a CSV file. Return to the Wex Import Page where you had left off. Click on "Next", then upload the CSV file. Click "import"
 1. Check if the report had any errors or issues by going back to the "Import" page on the Administration Portal. Under "Pending" you will see if your report had any errors. If there were only a handful of errors you can update directly on the portal by selecting "Fix All". If there were many errors, you can cancel the report and upload a new one.
 
-
 ### Monthly Finance HSA & FSA Reporting
 
 Finance requires the ongoing FSA and HSA account reporting for tracking purposes
@@ -123,7 +122,7 @@ The Total Rewards Analyst will review and initiate payment for all monthly healt
 
 - All bills are available on the first of the month and should be paid by the 13th.
 - A reconciliation report will be made available in the PlanSource system. Total Rewards will transfer the reconciliation and Group Invoice documents to the US Benefits Billing Google Drive.
-    - These documents will be used to verify the proper amount was billed and to provide department breakdowns to AP.
+  - These documents will be used to verify the proper amount was billed and to provide department breakdowns to AP.
 - Total Rewards will login to each admin platform and pay the bills using the banking information and links found in the 1password note: "Monthly Heath Bills"
 - Total Rewards will then email a detailed breakdown of the amount/department totals to `ap@gitlab.com` for accounting purposes.
 - TODO Build in step-by-step process
@@ -132,7 +131,7 @@ The Total Rewards Analyst will review and initiate payment for all monthly healt
 
 The People Operations team will update the 'Benefits Group' in the HR system of record for Team Members when they are onboarded or relocated. The Benefits Group determines which plans team members are eligible for.
 
-##### Instructions on assigning a benefits group:
+##### Instructions on assigning a benefits group
 
 There are two parts of the Benefits Group: **1. The entity** and **2. The team member's location.**
 For example'Fed-FT-Colorado' would be the correct option for a GitLab Federal Team Member living in Colorado.

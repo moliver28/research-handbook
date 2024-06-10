@@ -14,6 +14,7 @@ title: "Kennedy Persona snippets"
 ### [Kennedy (Infrastructure Engineering Director)](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#kennedy---the-infrastructure-engineering-director)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)

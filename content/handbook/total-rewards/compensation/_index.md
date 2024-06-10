@@ -28,7 +28,7 @@ If you have any feedback or questions relating to compensation, please reach out
 1. We use a [compensation calculator]({{< ref "compensation-calculator" >}}) to ensure transparent and consistent compensation.
 1. We do not disclose individual compensation since compensation is [not public](/handbook/communication/confidentiality-levels/#not-public).
 1. We adjust our calculator based on survey data, feedback from applicants and team members, and candidate data. Please email `total-rewards@ gitlab` if you want to contribute.
-1. We offer [restricted stock units (RSUs)](/handbook/stock-options/) for most positions.
+1. We offer [restricted stock units (RSUs)](/handbook/total-rewards/stock-options/) for most positions.
 1. We base compensation on current position and performance at GitLab – not on what we paid you last month – and, generally, we don't reduce compensation.
 1. Increases within the market pay bands will be based on performance.
     - At hire, we base our compensation offer on the position and experience in the market.
@@ -121,8 +121,8 @@ Effective Q2 of FY 2021, we have established a one time bonus payment process fo
 
 - For an interim role to be considered, the need for coverage would need to be longer than a 30 day time period.
 - The interim role has to be at a higher level than the current role of the team member.
-    - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) and leader of the group.
-    - Effective 2023-02-01, interim bonuses in Go-to-Market roles (CRO Organization, Sales Development) will be available to people managers temporarily occupying a lateral or higher management position **in addition to their permanent full time role.**
+  - If a team member assumes 100% of the workload of a lateral role for 60 days or more **in addition to their permanent full time role,** an interim bonus may be considered by the [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division) and leader of the group.
+  - Effective 2023-02-01, interim bonuses in Go-to-Market roles (CRO Organization, Sales Development) will be available to people managers temporarily occupying a lateral or higher management position **in addition to their permanent full time role.**
 - In case the interim role is within another job family, team members will also be eligible for the interim compensation on a lateral level.
 
 *Since Acting roles do not typically end in promotion, the decision on whether the acting role meets the eligible criteria rests with the Hiring Manager and the Department head.*
@@ -141,9 +141,9 @@ For team members on an OTE (On Target Earnings) compensation plan in Go-to-Marke
 
 - Interim leaders will dotted-line manage the new team, meaning they will not assume direct management of the team in Workday, but will instead act as a temporary leader. As such, quotas will not change during the interim period.
 - When interim managing a lateral team:
-    - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate), calculated based on the leader's OTI and the interim role's annual quota
+  - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate), calculated based on the leader's OTI and the interim role's annual quota
 - When interim covering for a higher leadership position:
-    - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate) for the higher leadership position
+  - The interim bonus will be calculated based on Net ARR closed during the period x a representative BCR (base commission rate) for the higher leadership position
 - Standard commissions payments will continue for the duration of the interim role
 - All in-plan (within OTI) components are eligible to be included in an interim bonus calculation for a GTM role, e.g. Net ARR, New Logo, Professional Services Bookings, etc.
 - All people managers in GTM roles are candidates for interim management assignments, outside of members of the CRO or CMO leadership teams, i.e. direct reports of the CRO or CMO
@@ -297,7 +297,7 @@ Directors and above are eligible for the Company Bonus Plan.
 
 - The bonus will be paid out semi-annually.
 - The first semi-annual payment will be funded up to a maximum of 80% of target bonus amount for the period of February through July. Any full plan year adjustments will be made as part of the final bonus payout.
-     - Example: A director who has been eligible for the bonus plan from February 1 has an annual target of 30,000 USD. Their target bonus amount for the first half of the fiscal year, February through July, is 15,000 USD. Therefore, they will receive 80% of 15,000 USD or 12,000 USD for their first semi-annual payment.
+  - Example: A director who has been eligible for the bonus plan from February 1 has an annual target of 30,000 USD. Their target bonus amount for the first half of the fiscal year, February through July, is 15,000 USD. Therefore, they will receive 80% of 15,000 USD or 12,000 USD for their first semi-annual payment.
 - The final bonus payout will be based on actual performance against plan less amount paid at the semi-annual payout.
 - If the first semi-annual bonus is achieved but Company performance falls below the annual threshold the second half bonus will not be achieved but the first half bonus will not be rescinded or otherwise payable back to the Company.
 

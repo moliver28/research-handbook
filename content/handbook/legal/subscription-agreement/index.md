@@ -323,4 +323,3 @@ GitLab will occasionally perform scheduled system maintenance which requires lim
 #### SUSPENSION OF SERVICE
 
 GitLab reserves the right to suspend service to the SaaS Software if: (i) Customer fails to comply with the Agreement and this Appendix, (ii) Customer exceeds set application limits, or (iii) requests or usage deemed malicious in nature is identified to be sourced from Customer accounts, personnel, or systems.
-

@@ -3,7 +3,7 @@ title: "Biggest Tailwinds"
 ---
 
 We believe that the market opportunity for a complete DevSecOps platform designed as a single application for the software development lifecycle is [several billion dollars and expanding](/handbook/sales/tam/#:~:text=Total%20Addressable%20Market%20(TAMkt)%20is,revenue%20per%20user%20(ARPU).&text=Additional%20potential%20users%3A,Product%20managers). There are three primary trends outlined below that we have identified as the most significant to supporting the long term success of our business.
-We also have a [Mitigating Concerns page](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/).
+We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/).
 
 ## 1. Digital Transformation
 

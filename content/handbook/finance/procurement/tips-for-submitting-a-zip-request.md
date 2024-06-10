@@ -5,6 +5,7 @@ title: Tips for Submitting a Zip Request
 If purchasing Home Office Equipment and/or Software for your individual work use that is <$5K USD, see [Other Services](/handbook/finance/procurement/#other-services) since a Zip Purchase Request is not required in these instances.
 
 Getting started with Zip:
+
 1. Login to Zip via your [Okta home page](https://gitlab.okta.com/app/UserHome#).
 1. If you need Zip access, [submit an access request here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request&_gl=1*bsfkbc*_ga*MzkwMDUyMjg5LjE2MzU3NzYxMDA.*_ga_ENFH3X7M5Y*MTY3NzYyMDEwMi4xMzkuMS4xNjc3NjIwOTc3LjAuMC4w).
 1. Review Zip training materials:
@@ -17,6 +18,7 @@ Depending on the commodity type of your request, specific conditional questions 
 ### Description and Category
 
 Provide a brief description of your purchase and be sure to select the correct category, subcategories, and type of purchase
+
 - **New** purchase would be any product or service that is brand new.
 - **Renewal** would be any renewals or add-ons with an existing vendor.
 
@@ -25,9 +27,9 @@ Provide a brief description of your purchase and be sure to select the correct c
 A Contractor or an Independent Contractor (IC) **is an individual** (not an entity / business) who provides goods, labor, or services to an organization but is not employed by the business. Instead, they work with the business as or part of a third party. Instead of being hired through the talent acquisition process, a Contractor communicates directly with the manager for the project and submits a competitive bid to be hired.
 
 - For GitLab purposes, a Contractor will likely communicate directly with the Procurement Team initially for onboarding and regarding the terms of the contract and the statement of work. Contractors set their own schedules and are responsible for arranging their own training and covering the costs of training. The specific test of whether someone is an “employee” or truly meets the definition of a “Contractor” depends on the law of the jurisdiction where the Contractor is located. For example, in California, a worker is by default considered an employee, unless the hiring entity meets all three conditions of the ABC Test:
-   - The person is independent of the hiring organization in connection with the performance of the work, both under the contract for the performance of the work and in fact.
-   - The person performs work that is outside the hiring entity’s business
-   - The person is routinely doing work in an independently established trade, occupation, or business that is the same as the work being requested and performed.
+  - The person is independent of the hiring organization in connection with the performance of the work, both under the contract for the performance of the work and in fact.
+  - The person performs work that is outside the hiring entity’s business
+  - The person is routinely doing work in an independently established trade, occupation, or business that is the same as the work being requested and performed.
 - **NOTE:** All requests for an Independent Contractor should include the requestor and/or Procurement asking if the potential Independent Contractor has a company under which they will, (i) receive payment(s), or (ii) enter into terms and conditions with GitLab for the delivery of services. GitLab's preference is to enter into a business-to-business relationship with all vendors.
 - For GitLab procurement process purposes, the term Independent Contractor (IC) is used when the ICSA form is required for completion and the IC is separate (independent) from a Third Party Professional Services vendor. If you have any questions on the definition or when to use the applicable contracts/terms, please reach out to Procurement in the Procurement slack channel.
 
@@ -55,7 +57,6 @@ A Contractor or an Independent Contractor (IC) **is an individual** (not an enti
 
 *Contractors / Consultants that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](/handbook/security/security-assurance/security-risk/third-party-risk-management.html) for more details.
 
-
 #### Submitting a request for New Software
 
 1. All new software purchases also need reviewed by [IT](/handbook/finance/procurement/#it-review-if-purchasing-new-software)
@@ -64,7 +65,7 @@ A Contractor or an Independent Contractor (IC) **is an individual** (not an enti
    - Please make a copy of this tab (if not filled out during a formal RFP), have the vendor complete, and attach in the documents section of your Zip Request for IT review.
 1. If you have any questions regarding the IT Questionnaire, please contact the Enterprise Applications team in the #enterprise-apps slack channel.
 
-#### Other tips for submitting requests:
+#### Other tips for submitting requests
 
 1. Will a virtual card be used to pay this vendor?
    - This applies to instances where the supplier only accepts online credit card payments or for one-time vendor use such as events. More info on allowed uses [here](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/)
@@ -112,4 +113,3 @@ By submitting a Zip Change Request, the applicable approvers will be added to th
 ## Procurement Office Hours
 
 If you have any questions or concerns that may not be addressed in the Handbook, we invite you to join us for Procurement Office Hours every Wednesday. During this dedicated time, our Procurement Team will be readily available to assist you and provide answers to your inquiries. If you're unable to join a call, please feel free to submit your questions in our [Agenda](https://docs.google.com/document/d/1jm_LMJn_y4aNEO1eREz5Va0I1btuk65FPaXVy8oJpfQ/edit), and we'll ensure a prompt response.
-

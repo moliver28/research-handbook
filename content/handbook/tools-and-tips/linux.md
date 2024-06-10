@@ -14,7 +14,7 @@ The following is a guide to go over the basics of what is recommended for instal
 
 ## Basic Setup
 
-Outside of the basics listed [here](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration) for all laptop and desktop systems, there are a few additional steps required for Linux. Currently, the recommended laptop for Linux is Dell running Ubuntu, which is discussed in detail [here](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#laptop-configurations). These instructions assume that setup, so for alternate choices in hardware or Linux distribution it is recommended you use this as a general guideline but adapt as needed.
+Outside of the basics listed [here](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration) for all laptop and desktop systems, there are a few additional steps required for Linux. Currently, the recommended laptop for Linux is Dell running Ubuntu, which is discussed in detail [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-configurations). These instructions assume that setup, so for alternate choices in hardware or Linux distribution it is recommended you use this as a general guideline but adapt as needed.
 
 Dell maintains its own Ubuntu distribution. While not needed to use Linux on Dell, it does seem to offer direct support for various chipsets and hardware components. This means that for a stock Ubuntu (or other distribution) install, generic choices are often made by the installer, and if you wish to take advantage of drivers that better support the hardware, you may have to install and configure drivers for certain components. The Dell Ubuntu distribution removes that burden.
 
@@ -288,8 +288,12 @@ Some caveats apply to this workaround.
 
 ### Common issues
 
-- Here's a list of common situations that prove to be problematic on Linux.
-  You'll want to ensure these components work as desired:
+Here's a list of common situations that prove to be problematic on Linux.
+
+- You'll want to ensure these components work as desired:
   - Audio through various types of headphones
   - Video capturing - Zoom video and Zoom screen sharing
   - Display - screen resolution or video card related issues
+- When having problems with Okta under Linux, make sure to:
+  - To use the latest Chrome (not Chromium) and your Yubi-Key or a phone without a custom ROM
+  - Install SentinelOne and DirectStrike after your start as soon as possible

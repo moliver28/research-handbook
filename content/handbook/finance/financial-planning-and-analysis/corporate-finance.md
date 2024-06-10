@@ -27,11 +27,11 @@ We collaborate with tax to review actual tax expenses, forecast tax provision fo
 - **2022-05-10**: FP&A locks forecast and shares with Tax a full GAAP PTI forecast, including the forecasts for the non-GAAP entity-level P&L, stock-based compensation expense, and other GLs including depreciation, amortization, capital additions, etc.
 - **2022-05-13**: Tax shares preliminary quarterly tax provision forecast with FP&A
 - **2022-05-16**: Tax provision meeting with CFO, where Tax discusses a range of topics, including but not limited to: projected vs actual income tax expense and ETR, cash tax paid, tax attributes, tax reserves, and the final provision forecast. Corporate FP&A will use the final provision forecast communicated in this meeting in preparing the guidance.
-    - Notes:
-        - Typically, FP&A will lock the forecast 48 hours after the books have closed. Tax will have at least 48 hours (2 days) to provide a preliminary provision forecast.
-        - In the **second month of each quarter**, FP&A will share the latest locked forecast with Tax on Day 9 (or 48 hours after the books have closed, whichever is sooner) every month. Providing the latest forecast with Tax enables the team to update their tax models for the full year provision. The following is an example of such timeline for Month 2 of Q1-FY23 (using the 2+10 Forecast):
-        - **2022-04-15**: Accounting closes books and consolidations occurs
-        - **2022-04-18**: FP&A locks forecast and shares with Tax a full GAAP PTI forecast, including the forecasts for the non-GAAP entity-level P&L, stock-based compensation expense, and other GLs including depreciation, amortization, capital additions, etc.
+  - Notes:
+    - Typically, FP&A will lock the forecast 48 hours after the books have closed. Tax will have at least 48 hours (2 days) to provide a preliminary provision forecast.
+    - In the **second month of each quarter**, FP&A will share the latest locked forecast with Tax on Day 9 (or 48 hours after the books have closed, whichever is sooner) every month. Providing the latest forecast with Tax enables the team to update their tax models for the full year provision. The following is an example of such timeline for Month 2 of Q1-FY23 (using the 2+10 Forecast):
+    - **2022-04-15**: Accounting closes books and consolidations occurs
+    - **2022-04-18**: FP&A locks forecast and shares with Tax a full GAAP PTI forecast, including the forecasts for the non-GAAP entity-level P&L, stock-based compensation expense, and other GLs including depreciation, amortization, capital additions, etc.
 - Close timelines can be found in GitLab Issues created by the Accounting team to increase transparency and efficiency across teams as part of close. The Q1-FY23 close timeline can be found at the issue here.
 
 ### Revenue Accounting Partnerships

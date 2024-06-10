@@ -49,6 +49,7 @@ A code owner:
 1. Work with the other code owners that already cover the area you wish to join.
 
 Requirements that should be taken into consideration to become a code owner:
+
 - You should have an advanced understanding of the particular subject area.
 - The MRs you've written consistently make it through reviewer and maintainer review without significant required changes.
 - The MRs you've reviewed consistently make it through maintainer review without significant additionally required changes.
@@ -92,4 +93,3 @@ If those subjective requirements are satisfied, this is the process to add yours
 ### Merge Request Workflow
 
 Every MR follows the applicable MR template. When a MR is ready for review, assign a code owner for review. When a code owner approves the MR, the MR can be merged by a maintainer. This could be the same person if the code owner is also a maintainer. If not, a maintainer is tagged in the MR, asking for final review and merge.
-

@@ -76,7 +76,6 @@ The Senior Global Workforcce Strategy Program Manager is a [grade 7](/handbook/t
 - Act as a point of escalation for internal teams if items have not been addressed timely by PEO vendors.
 - Announce hiring restriction changes as needed across the organization.
 
-
 #### Senior Global Workforcce Strategy Program Manager Requirements
 
 - The ability to work autonomously and to drive your own performance and development.
@@ -88,7 +87,6 @@ The Senior Global Workforcce Strategy Program Manager is a [grade 7](/handbook/t
 - Proven organizational skills with high attention to detail and the ability to prioritize.
 - Exceptional customer service skills.The ability to work in a fast-paced environment and thrive in ambiguity.
 - Experience with the following tools is a plus: Greenhouse, Workday, GitLab and Culture Amp.
-
 
 ### Senior Global Workforce Strategy Program Manager Performance Indicators
 

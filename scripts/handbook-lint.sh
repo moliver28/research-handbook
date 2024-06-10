@@ -88,7 +88,7 @@ BROKEN_OWNERSHIP=""
 sed -n '/^.*\[Controlled-Documents\]/,$p' .gitlab/CODEOWNERS | sed "/\[*\]/d" | sed "/^#/d" | sed '/^[[:space:]]*$/d' | sed "/^*/d" > /tmp/CODEOWNERS
 printf "%b" "${bold}Checking if files have broken ownership...${normal}"
 while read LINE; do
-  if ! echo $LINE | grep -qE "@gitlab-com/handbook|@gitlab-com/egroup"; then
+  if ! echo $LINE | grep -qE "@gitlab-com/content-sites|@gitlab-com/egroup"; then
     ERROR_FOUND=true
     FILE=$(echo $LINE | cut -d " " -f 1)
     BROKEN_OWNERSHIP="$BROKEN_OWNERSHIP- $FILE\n"
@@ -229,5 +229,4 @@ if [[ $ERROR_FOUND == "true" ]]; then
   exit 1
 else
     printf "%b" "\n${green}Success!${normal} - No issues found with CODEOWNERS or Controlled Documents\n"
-    rm handbook-codequality.json
 fi

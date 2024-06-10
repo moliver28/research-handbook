@@ -24,6 +24,6 @@ During this time of physical distancing, GitLab team members are welcome to use 
 
 Please visit a detailed guide covering [everything you need to know about hosting or participating in a GitLab webinar](/handbook/communication/zoom/webinars/).
 
-----
+---
 
 Return to the main [Communication page](/handbook/communication/).

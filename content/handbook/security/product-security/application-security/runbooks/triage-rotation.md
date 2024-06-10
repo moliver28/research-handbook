@@ -12,10 +12,10 @@ One application security engineer is assigned this task each week and can be fou
 The following rotations are defined:
 
 - (Weekly Assignment) HackerOne + Security Dashboard Review
-    - Point of contact for "New" HackerOne reports during that week.
-    - Responsible to escalating to other team members and management if the size of
+  - Point of contact for "New" HackerOne reports during that week.
+  - Responsible to escalating to other team members and management if the size of
     the either queue spikes.
-    - Responsible for reviewing [security dashboards]({{< ref "security-dashboard-review" >}}) on a best-effort level
+  - Responsible for reviewing [security dashboards]({{< ref "security-dashboard-review" >}}) on a best-effort level
 - (Weekly Assignment) Triage Rotation (mentions and issues), by order of priority:
   - Daily triage of [FedRAMP vulnerabilities reported by our scanners](https://internal.gitlab.com/handbook/security/application_security/runbooks/fedramp-scanner-triage-process/)
     - This is a mandatory daily check to make sure we do triage of vulnerabilities.
@@ -29,7 +29,7 @@ The following rotations are defined:
       - Otherwise contact SIRT and the merge request author to get the merge request removed.
       - Use the `Urgent - SEOC should be paged right away` option if waiting up to 24 hours for a resolution would be too long.
   - First responder to mentions of the following group aliases:
-    - @gitlab-com/gl-security/appsec on GitLab.com
+    - @gitlab-com/gl-security/product-security/appsec on GitLab.com
     - @appsec-team in Slack
   - First responder for issues created needing triage: [~security-triage-appsec issue search](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=security-triage-appsec)
     - Refer to [this page]({{ ref "engaging-with-security#reproducibility-on-security-issues" }}) to learn about the different labels that we can apply to issues when they're not vulnerabilities

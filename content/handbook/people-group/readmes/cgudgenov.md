@@ -22,11 +22,11 @@ Hi! 👋 I'm **Cassiana Gudgenov, People Compliance Partner**
 - I love British comedy and rom coms 😀
 - My favorite GitLab value is [Iteration]({{< ref "values#iteration" >}})
 - My 5 favorite sub-values are:
-    - [Don't wait]({{< ref "values#dont-wait" >}})
-    - [Family and friends first, work second]({{< ref "values#family-and-friends-first-work-second" >}})
-    - [Embracing Neurodiversity]({{< ref "values#embracing-neurodiversity" >}})
-    - [Freedom and Responsibility over Rigidity]({{< ref "values#freedom-and-responsibility-over-rigidity" >}})
-    - [Assume Positive Intent]({{< ref "values#assume-positive-intent" >}})
+  - [Don't wait]({{< ref "values#dont-wait" >}})
+  - [Family and friends first, work second]({{< ref "values#family-and-friends-first-work-second" >}})
+  - [Embracing Neurodiversity]({{< ref "values#embracing-neurodiversity" >}})
+  - [Freedom and Responsibility over Rigidity]({{< ref "values#freedom-and-responsibility-over-rigidity" >}})
+  - [Assume Positive Intent]({{< ref "values#assume-positive-intent" >}})
 
 ### Myers-Briggs / 16 Personalities
 
@@ -77,7 +77,7 @@ People with the S (Supporter) personality type tend to be "calm, patient and res
 
 ### What I am Working on
 
-- I'm also working on continiously improving GitLab's [People Compliance]({{< ref "/handbook/people-group/people-compliance" >}}), if you would like us to work on something specific or have a problem we can help resolve, please open an issue in the [People Compliance Issue Tracker](https://gitlab.com/gitlab-com/people-group/compliance/-/issues).
+- I'm also working on continiously improving GitLab's [People Compliance](/handbook/people-group/people-compliance), if you would like us to work on something specific or have a problem we can help resolve, please open an issue in the [People Compliance Issue Tracker](https://gitlab.com/gitlab-com/people-group/compliance/-/issues).
 
 ## What I Assume about Others
 

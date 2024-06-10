@@ -61,7 +61,6 @@ The Director, Marketing Strategy is a [grade 10](/handbook/total-rewards/compens
 - Partner with the Central Data Team and other functional data teams across the company to build and maintain shared source of truth data and definitions to enable consistent and fast answers to business questions.
 - Build for long-term scalability by looking for automation and self-service reporting opportunities.
 
-
 #### Director, Marketing Analytics Requirements
 
 - 8-10+ years of experience marketing analytics and operations, ideally in a B2B SaaS environment that has grown and scaled quickly
@@ -83,7 +82,6 @@ BA/BS degree, MBA or other related advanced degree preferred
 - [Total number of SAOs by month](/handbook/marketing/performance-indicators/#total-number-of-mqls-by-month)
 - INQ to SAO conversion rate
 - Marketing influenced pipeline
-
 
 ## Career Ladder
 

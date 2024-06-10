@@ -15,7 +15,7 @@ twitter_creator: '@gitlab'
 
 
 
-## Welcome to the Corporate Communications Handbook!
+## Welcome to the Corporate Communications Handbook
 
 ## Mission Statement
 
@@ -36,6 +36,7 @@ The GitLab Corporate Communications team is responsibility for the following act
 - [Incident Communications](/handbook/marketing/corporate-communications/incident-communications-plan/) (separate handbook page)
 
 ## Team Norms
+
 - We have trust in one another, are transparent and supportive
 - We collaborate and share context, background and objectives on our initiatives and projects
 - We are invested in one another’s growth and development
@@ -163,7 +164,6 @@ In these instances, it’s necessary to keep your role at GitLab and affiliation
 
 If you’re considering a speaking opportunity that could be perceived as being associated with GitLab even if it is not, please share the opportunity with your manager and #external-comms for review before accepting it to avoid any potential conflicts.
 
-
 #### Event Booth Staffing
 
 If you are staffing the GitLab booth at an in-person or virtual event, you are representing GitLab. Please follow the company’s [SAFE framework](/handbook/legal/safe-framework/) when engaging with booth visitors and event attendees.
@@ -211,6 +211,7 @@ GitLab's Corporate Communications and Product Marketing teams are the [DRI](/han
 Some media outlets (including [these ~14,000 newspapers and magazines](https://hubtitlesearch.nlamediaaccess.com/TitleList/NLA%20Title%20List.xlsx)) require GitLab to hold a license to share (and do the various other things noted below with) extracts, quotes or headlines of print and online articles - both internally (eg. via slack, email or in confidential GitLab issues) and externally (eg. on GitLab's social media channels). The sharing of bare hyperlinks to articles (without extracts, quotes or headlines) does not require a license.
 
 A license may be required to do any of the following with extracts, quotes or headlines of print and online articles:
+
 - photocopying, faxing, scanning, emailing or copying;
 - saving on an internal or external intranet or shared drive;
 - printing, photocopying, emailing or distributing material received from a media monitoring organisation or PR agency;
@@ -251,9 +252,9 @@ Please submit a request via an `announcement` [issue template in the Corporate M
 - **Level 2** - A level 2 announcement will be announced via a blog post and amplified with social media. The DRI/SME of the announcement will be responsible for working with the content team on creating the content and MR for the blog post (please see [the blog handbook](/handbook/marketing/blog/) for more on this process). Example announcements and news include but are not limited to: partner integrations, new feature/capability highlights from the monthly release cycles (ex. Windows Shared Runners), customer case study announcement (not household names).
 - **Level 3** - A level 3 announcement will be announced and promoted via GitLab’s social media channels. Example announcements and news include but are not limited to: awards from media publications (ex. DEVIES), speaking opps that GitLab employees are participating in (drive attendees/awareness) and ecosystem partner integrations.
 - **Other** - In some cases, the following communications channels may be more appropriate:
-    - A targeted email to affected users
-    - Including an item in an upcoming release post (where the announcement is specifically tied to a release, does not require communication in advance of the release, and is not a sensitive topic)
-    - A public issue (see [below](/handbook/marketing/corporate-communications/#using-public-issues-to-communicate-with-users))
+  - A targeted email to affected users
+  - Including an item in an upcoming release post (where the announcement is specifically tied to a release, does not require communication in advance of the release, and is not a sensitive topic)
+  - A public issue (see [below](/handbook/marketing/corporate-communications/#using-public-issues-to-communicate-with-users))
 
 ## Requests for Press Releases
 
@@ -271,22 +272,20 @@ If your request for an external announcement meets the Level 1 criteria, please 
 ### Partner Requests for External Communications Support
 
 Any use of GitLab’s name, brand, or logo requires prior email approval by GitLab according to the process outlined below.
+
 - **Partner-led Blog Posts:** GitLab is proud of its collaborative partner program, and we encourage partners to showcase their solutions, capabilities and customer success stories through partner-led blogs. Please send all blog posts including GitLab to the GitLab Corporate Communications team at press@gitlab.com for review and approval.
 - **Press Release Criteria and Approval Process:** Partners seeking to issue a press release that includes mention of their partnership with GitLab must meet the criteria outlined below (and in the [GitLab Partner Portal](https://partners.gitlab.com/English/?ReturnUrl=%2fEnglish%2fPartner%2fhome.aspx)).
-    - Partner public relations participation criteria:
-      - A signed partner contract
-      - Minimum 10 joint customers
-      - New partners: please reach out to your account representative for guidance.
-    - Please note: GitLab requires up to 6 weeks of lead time to support external communications requests.
-    - Please email your account representative for guidance on the approvals required and copy the GitLab Corporate Communications team at press@gitlab.com.
-    - GitLab account representatives: Any requests for public relations support requires approval from your executive sponsor, Patty Cheung. Please reach out via #external-comms in Slack if you have questions about this.
-
-
+  - Partner public relations participation criteria:
+    - A signed partner contract
+    - Minimum 10 joint customers
+    - New partners: please reach out to your account representative for guidance.
+  - Please note: GitLab requires up to 6 weeks of lead time to support external communications requests.
+  - Please email your account representative for guidance on the approvals required and copy the GitLab Corporate Communications team at press@gitlab.com.
+  - GitLab account representatives: Any requests for public relations support requires approval from your executive sponsor, Patty Cheung. Please reach out via #external-comms in Slack if you have questions about this.
 
 ### GitLab Vendor Reference Requests
 
 If you receive a vendor request for GitLab to act as a reference (case study, blog post, GitLab logo on their website, etc.) for the product, service, and/or technology that your GitLab team is using, please refer to the [process](/handbook/marketing/brand-and-product-marketing/brand/brand-strategy/#vendor-reference-requests) outlined on the Brand Strategy team's handbook. If the vendor requests a press release, please refer to the [Corporate Communications handbook page](/handbook/marketing/corporate-communications/#partner-requests-for-public-relations-support).
-
 
 ### GitLab Press Releases
 
@@ -354,11 +353,13 @@ This answers the following questions.
 ## Submitting for an Award
 
 ### Flagging an Award for Consideration
+
 If you would like to propose an award for consideration by the Corporate Communications team, please start by creating an issue, using the `pr-award-submissions` [issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new#pr-award-submissions). The template will prompt you to provide a few key pieces of information, including deadlines, fees, and a brief description of the award.
 
 Please flag awards as soon as possible – ideally, six weeks ahead of the deadline. This helps the PR team create and stick to a timeline, and allows for the necessary stakeholder and legal reviews.
 
 ### Amplifying Award Wins
+
 As a standard practice, we don’t issue press releases for award wins. However, there are many ways to spread the word about your recognition, both within GitLab and externally.
 
 The publication that arranges the award will typically conduct its own promotion cycle. The accolade will be shared on its website, social media platforms, and in some cases, will be presented as part of a virtual or in-person event. In addition to the publication's promotion, other recommended mediums for promotion include submitting a [blog post request](/handbook/marketing/blog/#communication) and sharing the accolade via [GitLab's social media channels](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/).
@@ -386,7 +387,7 @@ Internally, we share the recognition in our `#whats-happening-at-gitlab` channel
 1. Add a new file using the following format `YYYY-MM-DD-title-of-press-release.html.md`.
 1. Add the following to the beginning of your document:
 
-```
+```text
 ---
 
 title: "Title of press release"

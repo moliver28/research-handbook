@@ -61,7 +61,7 @@ As a single-application for the entire DevOps lifecycle GitLab strives to enable
 
 ### The Minimal Viable Change (MVC)
 
-We only ship in a [Minimal Viable Product](http://ask.leanstack.com/en/articles/902991-what-is-a-minimum-viable-product-mvp) (MVP) style. We call it Minimal Viable Change (MVC) because our business model is focused on adding additional value to our integrated product suite instead of building separate, new products.
+We only ship in a Minimal Viable Product (MVP) style. We call it Minimal Viable Change (MVC) because our business model is focused on adding additional value to our integrated product suite instead of building separate, new products.
 
 MVC means we deliver the smallest possible solution that **offers value** to our users. To avoid [feature bloat](https://www.productplan.com/glossary/feature-bloat/), we rely on user research to validate whether our idea addresses a market need in a desirable way. This approach sets us up to expend the smallest possible amount of effort to build new capabilities, while learning more about how to best add additional functionality over time.
 
@@ -88,10 +88,12 @@ When considering how to scope a feature for a release, remember that it is ok to
 MVC means reducing the scope so we can ship quickly. It doesn’t mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
 
 Examples:
+
 - Ship a feature through the API and not the UI -  [See this release post](https://about.gitlab.com/releases/2022/09/22/gitlab-15-4-released/#graphql-api-endpoint-for-deleting-attachments-from-project) as a great example of this approach was used to build a GraphQL endpoint for deleting attachment from a project.
 - Exposing a minimal set of functionality  - [See this release post](https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/#admin-area-runners-job-queued-and-duration-times) where a basic read-only page displaying queued jobs was added and more capabilities were added in subsequent releases.
 
 There are scenarios when an MVC approach is not advised. These include:
+
 - When changing core parts of the experience - An example of a core experience is [comments](https://docs.gitlab.com/ee/user/discussions/#comments-and-threads). When building this out for work items, we waited to release the new feature to end users until we reached parity with comments in Issues and MRs.
 
 ### Iteration
@@ -188,19 +190,19 @@ You should prefer well-considered choices based on current best practices. Avoid
 When considering adding new configuration, we follow the following principles:
 
 - **Ensure a great experience by default** - GitLab should work perfectly right out of the box for most users. While it should be resisted, sometimes configuration is inevitable or preferable. Your configuration must not make that [experience worse](https://gitlab.com/gitlab-org/gitlab/issues/14432) and should always _get out of the way of the user_.
-    - **GitLab.com values should be the default** - the settings used on GitLab.com should be the defaults for self-managed. Not only does this provide a consistent experience for users, but we get the highest fidelity feedback via GitLab.com. If we find that the GitLab.com setting is wrong, it is usually wrong for self-managed too. If you believe you have a strong case for using custom (non-default) settings for GitLab.com, please document the justification in alignment with your Product Section Lead. Any custom (non-default) settings for GitLab.com need to be [tracked here](https://docs.gitlab.com/ee/user/gitlab_com/).
+  - **GitLab.com values should be the default** - the settings used on GitLab.com should be the defaults for self-managed. Not only does this provide a consistent experience for users, but we get the highest fidelity feedback via GitLab.com. If we find that the GitLab.com setting is wrong, it is usually wrong for self-managed too. If you believe you have a strong case for using custom (non-default) settings for GitLab.com, please document the justification in alignment with your Product Section Lead. Any custom (non-default) settings for GitLab.com need to be [tracked here](https://docs.gitlab.com/ee/user/gitlab_com/).
 - **Encourage favorable behaviors by limiting configuration** - Convention also implies that we're encouraging our customers to do things
 in a certain way. A very concrete example of this is the ability to disable pipelines. We believe that our integrated solution will give a superior user experience and we're motivated to encourage this behavior. For this reason, adding a configuration to allow disabling this permanently (be that in a template or instance-wide), is something that should be avoided.
 - **Design for users not intermediaries** - GitLab should avoid falling into the [Blackboard trap](https://twitter.com/random_walker/status/1182637292869115904) of building a product that administrators of GitLab love because it is configurable, but developers and other users of GitLab hate because it is overly complex and confusing.
 - **Working by Default** - From the perspective of someone using GitLab, the feature does not exist until it works by default. This means, with few exceptions, features should simply work on GitLab.com and self-managed installations of GitLab without setup, toggling feature flags, modifying GitLab Omnibus (`gitlab.rb`) or Charts configurations, or installing extra components. This is more difficult than "enabled by default," which implies that features may be available by default but then require additional effort to set up. Working by default is worth the extra thoughtfulness and effort, because it enables an extremely important outcome: It allows customers to easily adopt our entire platform and experience the benefits of a single app for the entire DevOps lifecycle. In order to be properly working by default a feature needs two things:
-    - **Enabled-by-default** - it must not require modifying GitLab Omnibus (`gitlab.rb`) or Charts configurations, installing extra components on the host machine, or be behind a feature flag. When features are not enabled-by-default most people will never benefit from it because admin access to the GitLab application or the host machine will be needed. Feature flags should be consistently ON for both GitLab.com and self-managed users whenever possible.
-    - Enabled-by-default can be rolled out incrementally. A feature can sometimes be activated within days via a feature flag on [GitLab.com](https://gitlab.com). Other times a feature can take months to prove that it has the performance and visibility enterprises need.
-    - **Setup-by-default** - it should not require the setup before the feature can be used. We should ensure every feature has sensible defaults, and automatically migrate existing users/groups/projects to have the new features setup by default, while ensuring that the security and infrastructure costs would not be substantially affected. It is important to remember that most people are not likely to take the extra effort to setup a new feature, nor will they be aware that the feature has been added. The vocal proponents of issues who a Product Manager might interact with would likely be inclined to take the extra effort to setup a feature, but most people will not.
+  - **Enabled-by-default** - it must not require modifying GitLab Omnibus (`gitlab.rb`) or Charts configurations, installing extra components on the host machine, or be behind a feature flag. When features are not enabled-by-default most people will never benefit from it because admin access to the GitLab application or the host machine will be needed. Feature flags should be consistently ON for both GitLab.com and self-managed users whenever possible.
+  - Enabled-by-default can be rolled out incrementally. A feature can sometimes be activated within days via a feature flag on [GitLab.com](https://gitlab.com). Other times a feature can take months to prove that it has the performance and visibility enterprises need.
+  - **Setup-by-default** - it should not require the setup before the feature can be used. We should ensure every feature has sensible defaults, and automatically migrate existing users/groups/projects to have the new features setup by default, while ensuring that the security and infrastructure costs would not be substantially affected. It is important to remember that most people are not likely to take the extra effort to setup a new feature, nor will they be aware that the feature has been added. The vocal proponents of issues who a Product Manager might interact with would likely be inclined to take the extra effort to setup a feature, but most people will not.
 - **Avoid Limits** - Limits should be in place to [protect the system](https://gitlab.com/gitlab-com/www-gitlab-com/issues/5617) but not to "slowly try out" a feature. By limiting the usefulness of a feature right from the start the only thing you are achieving is limiting its adoption and usefulness. If you are going to default to OFF or limited, you must have a good, documented reason for this.
 - **Avoid configuration completely when possible** - Requests for configuration can be a proxy for trying to support a fragile workflow. Rather than enabling bad habits and incurring product debt, effort should be spent helping customers adopt best practices.
-    - **Configuration builds up over time** - Every configuration option in GitLab multiplies its complexity, which means the application is harder to use, harder to develop, and less friendly to users.
-    - **Configuration is hard to remove** - Removing a configuration after it shipped and in use is much more work than not introducing it in the first place. This is because you change the behavior for customers that selected the less popular option.
-    - **Configuration is an expensive testing mechanism** - It's a natural reaction to propose a big change to be configurable, as you worry it'll negatively affect certain users. However, by making a feature configurable, you've now created [two problems](https://xkcd.com/927/) to maintain going forward. Adding a configuration is a [one way door](/handbook/values/#make-two-way-door-decisions) that should be avoided if possible. As a result, consider using feature flags instead of configuration.
+  - **Configuration builds up over time** - Every configuration option in GitLab multiplies its complexity, which means the application is harder to use, harder to develop, and less friendly to users.
+  - **Configuration is hard to remove** - Removing a configuration after it shipped and in use is much more work than not introducing it in the first place. This is because you change the behavior for customers that selected the less popular option.
+  - **Configuration is an expensive testing mechanism** - It's a natural reaction to propose a big change to be configurable, as you worry it'll negatively affect certain users. However, by making a feature configurable, you've now created [two problems](https://xkcd.com/927/) to maintain going forward. Adding a configuration is a [one way door](/handbook/values/#make-two-way-door-decisions) that should be avoided if possible. As a result, consider using feature flags instead of configuration.
 
 #### Always Allow for Deploying to Production
 
@@ -371,20 +373,20 @@ While the AARRR framework is commonly used to drive overall active users, it is 
 ``` mermaid
 classDiagram
   Acquistion --|> Activation
-	Acquistion : Are users aware of the product or feature set?
-	Acquistion: Measurement (Insert Metric)
+    Acquistion : Are users aware of the product or feature set?
+    Acquistion: Measurement (Insert Metric)
   Activation --|> Retention
-	Activation : Are users applying the feature?
-	Activation: Measurement (Insert Metric)
+    Activation : Are users applying the feature?
+    Activation: Measurement (Insert Metric)
   Retention --|> Revenue
-	Retention : Are users applying the feature over time?
-	Retention: Measurement (Insert Metric)
+    Retention : Are users applying the feature over time?
+    Retention: Measurement (Insert Metric)
   Revenue --|> Referral
-	Revenue : Are users paying for the features?
-	Revenue: Measurement (Insert Metric)
+    Revenue : Are users paying for the features?
+    Revenue: Measurement (Insert Metric)
   Referral --|> Acquistion
-	Referral : Are users encouraging others to use the feature?
-	Referral: Measurement (Insert Metric)
+    Referral : Are users encouraging others to use the feature?
+    Referral: Measurement (Insert Metric)
 ```
 
 Add AARRR funnels for your stage or group's Product Performance Indicators directly with mermaid markdown. It's easy if you use this [live editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG4gIEFjcXVpc3Rpb24gLS18PiBBY3RpdmF0aW9uXG5cdEFjcXVpc3Rpb24gOiBBcmUgdXNlcnMgYXdhcmUgb2YgdGhlIHByb2R1Y3Qgb3IgZmVhdHVyZSBzZXQ_ICAgIFxuXHRBY3F1aXN0aW9uOiBNZWFzdXJlbWVudCAoSW5zZXJ0IE1ldHJpYykgXG4gIEFjdGl2YXRpb24gLS18PiBSZXRlbnRpb25cblx0QWN0aXZhdGlvbiA6IEFyZSB1c2VycyBhcHBseWluZyB0aGUgZmVhdHVyZT9cblx0QWN0aXZhdGlvbjogTWVhc3VyZW1lbnQgKEluc2VydCBNZXRyaWMpIFx0XHRcdFx0XG4gIFJldGVudGlvbiAtLXw-IFJldmVudWVcblx0UmV0ZW50aW9uIDogQXJlIHVzZXJzIGFwcGx5aW5nIHRoZSBmZWF0dXJlIG92ZXIgdGltZT9cblx0UmV0ZW50aW9uOiBNZWFzdXJlbWVudCAoSW5zZXJ0IE1ldHJpYykgXG4gIFJldmVudWUgLS18PiBSZWZlcnJhbFxuXHRSZXZlbnVlIDogQXJlIHVzZXJzIHBheWluZyBmb3IgdGhlIGZlYXR1cmVzP1xuXHRSZXZlbnVlOiBNZWFzdXJlbWVudCAoSW5zZXJ0IE1ldHJpYykgXG4gIFJlZmVycmFsIC0tfD4gQWNxdWlzdGlvblxuXHRSZWZlcnJhbCA6IEFyZSB1c2VycyBlbmNvdXJhZ2luZyBvdGhlcnMgdG8gdXNlIHRoZSBmZWF0dXJlP1xuXHRSZWZlcnJhbDogTWVhc3VyZW1lbnQgKEluc2VydCBNZXRyaWMpICIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9).
@@ -547,7 +549,9 @@ a demonstrated need for refinement, onboarding for less sophisticated users, or
 other new abstractions needed that were identified through real-world usage.
 
 ### Component Principles
+
 In GitLab the product, it is sometimes the case that optional software or infrastructure is required to enable new capabilities. Some examples include:
+
 - Infrastructure in the form of Runners are required to enable use of GitLab CI/CD
 - Infrastructure and software in the form of Elasticsearch is required to enable Advanced Search
 - Software in the form of the Kubernetes Agent is required to enable GitOps pull-based workflows
@@ -555,9 +559,11 @@ In GitLab the product, it is sometimes the case that optional software or infras
 The following are best practices we consider when building such components.
 
 #### Start with enabling Developers
+
 As we learned with GitLab CI/CD, the ability for developers to quickly attach needed Runners to enable their own use of GitLab CI/CD allowed for rapid adoption of GitLab CI/CD within an organization. When considering the workflow to enable additional capabilities, start with enabling developers first. A guiding principle should be **low-friction** developer enablement, which will positively impact adoption.
 
 #### Build for production use, not demo use
+
 As we learned from the certificate-based Kubernetes Integration, building starting experiences that support demoing a getting-started process doesn't necessarily translate into real usage. For example, the certificate-based integration lacked strong security primitives and the ability to manage the integration on an ongoing basis. As a result, we should build capabilities that target real-world production use first, even as part of MVCs.
 
 ### Integrate other applications thoughtfully
@@ -567,35 +573,35 @@ GitLab's vision is to be the best single application for every part of the DevOp
 With this in mind, below are some product guidelines to consider:
 
 - **Don't clone everything**
-    - Don't feel like we need to _clone every feature_ of an integrated product. Ultimately, this approach costs us the most possible resources, while creating an experience that will always be sub-par compared to the native one offered by the other application. We should focus our efforts on places where we can deliver value by helping bridge the gap between the two applications.
-    - Here are some potential (completely theoretical) examples, highlighting the difference between cloning vs. bridging:
-        - In an event log, surface only recent activity and link to a full log on the other system, instead of trying to display all records inside of GitLab.
-        - In an issue/ticket, offer only the most used functionality, like commenting or status changes, instead of trying to replicate all possible actions.
+  - Don't feel like we need to _clone every feature_ of an integrated product. Ultimately, this approach costs us the most possible resources, while creating an experience that will always be sub-par compared to the native one offered by the other application. We should focus our efforts on places where we can deliver value by helping bridge the gap between the two applications.
+  - Here are some potential (completely theoretical) examples, highlighting the difference between cloning vs. bridging:
+    - In an event log, surface only recent activity and link to a full log on the other system, instead of trying to display all records inside of GitLab.
+    - In an issue/ticket, offer only the most used functionality, like commenting or status changes, instead of trying to replicate all possible actions.
 - **Prevent broken workflows for free**
-    - Based on the quote above: _"While a single application is the best approach, multiple applications that work well together is better than ones that don't."_
-    - Features and UX that might break a customers workflow should be offered freely. In particular, we should offer features that help customers avoid productivity antipatterns like allowing multiple sources of truth (multiple wikis) or duplicating work (not showing work activity on an issue).
+  - Based on the quote above: _"While a single application is the best approach, multiple applications that work well together is better than ones that don't."_
+  - Features and UX that might break a customers workflow should be offered freely. In particular, we should offer features that help customers avoid productivity antipatterns like allowing multiple sources of truth (multiple wikis) or duplicating work (not showing work activity on an issue).
 - **Charge for adding value to an interaction**
-    - By having such an incredible breadth, GitLab has _the opportunity to add value to external features that they could never otherwise have_, if not integrated with GitLab. For example, our excellent **To Dos** feature puts actionable work at the fingertips of developers, and it's a feature somewhat unique to GitLab. Many other tools make it harder to identify work that needs immediate action, so by integrating those tools with this part of GitLab, **we can make them even more powerful than they'd be alone.**
+  - By having such an incredible breadth, GitLab has _the opportunity to add value to external features that they could never otherwise have_, if not integrated with GitLab. For example, our excellent **To Dos** feature puts actionable work at the fingertips of developers, and it's a feature somewhat unique to GitLab. Many other tools make it harder to identify work that needs immediate action, so by integrating those tools with this part of GitLab, **we can make them even more powerful than they'd be alone.**
 - **Consider the right buyer for pricing**
-    - While we typically think about who is _using the functionality_ as an indicator of our buyer, this may not be appropriate for your integration.
-    - When an integration is driven by an organizational requirement (such as having all teams in the company use Jira), [Buyer Based Tiering](/handbook/company/pricing/#buyer-based-tiering-clarification) likely indicates that the integration is for _multiple team_ (Premium) or _strategic organizational_ (Ultimate) use.
-    - When an integration is _extending GitLab capabilities_, the buyer is more likely to be the end-user, similar to how we'd think about pricing other GitLab functionality.
+  - While we typically think about who is _using the functionality_ as an indicator of our buyer, this may not be appropriate for your integration.
+  - When an integration is driven by an organizational requirement (such as having all teams in the company use Jira), [Buyer Based Tiering](/handbook/company/pricing/#buyer-based-tiering-clarification) likely indicates that the integration is for _multiple team_ (Premium) or _strategic organizational_ (Ultimate) use.
+  - When an integration is _extending GitLab capabilities_, the buyer is more likely to be the end-user, similar to how we'd think about pricing other GitLab functionality.
 - **Low level of shame still applies here**
-    - When we start to integrate with another product, it's almost like opening a whole new Category of work. With this in mind, a friendly reminder that [low level of shame](/handbook/values/#low-level-of-shame) applies, just like it would anywhere else. The integration may not be very valuable _today_, but it's just a starting place, and we should use our first iteration to validate what belongs in the next one.
+  - When we start to integrate with another product, it's almost like opening a whole new Category of work. With this in mind, a friendly reminder that [low level of shame](/handbook/values/#low-level-of-shame) applies, just like it would anywhere else. The integration may not be very valuable _today_, but it's just a starting place, and we should use our first iteration to validate what belongs in the next one.
 - **Track the maturity of the integration**
-    - Like any other category of work, we should track the maturity of the integration somewhere that's visible. Consider adding your integration to the Ecosystem Integrations direction page, which contains a table that tracks our high-priority integrations and their maturity levels.
+  - Like any other category of work, we should track the maturity of the integration somewhere that's visible. Consider adding your integration to the Ecosystem Integrations direction page, which contains a table that tracks our high-priority integrations and their maturity levels.
 - **Respect security and permissions**
-    - External applications may have security and permissions concerns that we don't have in our application. We should take careful consideration of these, since ignoring them could be potentially disastrous for our users. For example, if we ask a user for an administrative token with full access and then display content in our UI based on those privileges, we could potentially display sensitive data that shouldn't leave that application.
+  - External applications may have security and permissions concerns that we don't have in our application. We should take careful consideration of these, since ignoring them could be potentially disastrous for our users. For example, if we ask a user for an administrative token with full access and then display content in our UI based on those privileges, we could potentially display sensitive data that shouldn't leave that application.
 - **Navigation**
-    - Integrations should be as discoverable as any native GitLab feature, if they're enabled. In cases where the two features are mutually exclusive, we should allow the user to hide our native functionality to prevent confusion. For example, having two project management tools is a (generally) _bad_ idea. Collaborators may end up filing issues in the wrong tool, slowing down their velocity and worsening their overall experience. Reducing velocity is antithetical to the value GitLab provides.
-    - When features _aren't_ mutually exclusive (there's nothing wrong with using _multiple_ security scanning services, for example), we should group navigation to those integrations near our own.
+  - Integrations should be as discoverable as any native GitLab feature, if they're enabled. In cases where the two features are mutually exclusive, we should allow the user to hide our native functionality to prevent confusion. For example, having two project management tools is a (generally) _bad_ idea. Collaborators may end up filing issues in the wrong tool, slowing down their velocity and worsening their overall experience. Reducing velocity is antithetical to the value GitLab provides.
+  - When features _aren't_ mutually exclusive (there's nothing wrong with using _multiple_ security scanning services, for example), we should group navigation to those integrations near our own.
 - **Use empty states for feature discovery**
-    - Consider adding an [_empty state_](https://design.gitlab.com/regions/empty-states) that highlights the availability of this integration. If someone is not using the GitLab feature _and also not_ integrating their tool of choice, that's the worst possible experience. We should respect the choices of our users, and if they've decided to use a 3rd-party tool that we integrate with, we shouldn't hide that option in a dark corner.
-    - This is also a great opportunity to educate the user on what GitLab can offer relative to other products. It's the best of both worlds: promoting our own features while helping them improve their current experience, regardless of choice.
+  - Consider adding an [_empty state_](https://design.gitlab.com/regions/empty-states) that highlights the availability of this integration. If someone is not using the GitLab feature _and also not_ integrating their tool of choice, that's the worst possible experience. We should respect the choices of our users, and if they've decided to use a 3rd-party tool that we integrate with, we shouldn't hide that option in a dark corner.
+  - This is also a great opportunity to educate the user on what GitLab can offer relative to other products. It's the best of both worlds: promoting our own features while helping them improve their current experience, regardless of choice.
 - **Use our own design language**
-    - Just because we're leveraging _functionality_ from a 3rd-party service doesn't mean we should allow that service's UI to dictate what ours looks like. GitLab has its own [design language](https://design.gitlab.com/), and by keeping it cohesive across the application, we create a significantly better experience for our users.
+  - Just because we're leveraging _functionality_ from a 3rd-party service doesn't mean we should allow that service's UI to dictate what ours looks like. GitLab has its own [design language](https://design.gitlab.com/), and by keeping it cohesive across the application, we create a significantly better experience for our users.
 - **Be transparent about the data source**
-    - When data is populated from an external source, make it clear that it comes from elsewhere. This prevents confusion, reduces cognitive load, and ensures that users are well informed about the choices they're making when interacting with the application.
+  - When data is populated from an external source, make it clear that it comes from elsewhere. This prevents confusion, reduces cognitive load, and ensures that users are well informed about the choices they're making when interacting with the application.
 
 #### Avoid plugins and commercial marketplaces
 
@@ -632,7 +638,9 @@ _Note: GitLab does support [plugins that respond to system hooks](https://docs.g
 ### Product and feature naming guidelines
 
 #### Give products and features descriptive, not distinctive, names
+
 GitLab is a DevOps Platform, not a collection of DevOps point solutions; the naming of GitLab products and features should reflect this. Adopting descriptive names brings other advantages:
+
 - It's [efficient](/handbook/values/#efficiency). Descriptive names are generally not eligible for trademark registration, avoiding the time, effort, and expense of clearing, filing, and maintaining trademark registrations.
 - It's [inclusive](/handbook/values/#diversity-inclusion). Descriptive names are most accessible to a global audience because they can be directly translated into other languages, reducing the risk of loss of meaning inherent in translating abstract, metaphorical, or colloquial names.
 
@@ -641,6 +649,7 @@ As an [example](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/815)
 Exceptions to this principle are considered in limited circumstances - if a product or feature is a differentiator in the market, adopting a descriptive name risks it getting lost in the _sea of same_. Here, a distinctive name may be justified. To discuss an exception, reach out to [#marketing](https://app.slack.com/client/T02592416/C0AKZRSQ5) in Slack.
 
 #### Use prepositions when referring to third-party products and services in names
+
 When naming a GitLab extension, plugin, app, or integration for a third-party product or service (a "tool"), either include the third-party service name with a preposition like `for`, or don't include it at all. A preposition is important as it indicates that the third party isn't officially affiliated with the tool. For example, our [integration with Jira Cloud](https://docs.gitlab.com/ee/integration/jira/connect-app.html) is called `GitLab.com for Jira Cloud`.
 
 Provided we use the tool's full name in marketing materials and technical documentation, as exceptions to this general principle we can: (1) refer to the tool solely by the third-party service name in places where we list GitLab's tools in product; and (2) refer to the tool solely as "GitLab" in the third-party product's app directory. For example, we refer to the GitLab for Slack app as "Slack" in our lists of GitLab integrations, and as "GitLab" in the [Slack App Directory](https://gitlab.slack.com/apps/A676ADMV5-gitlab?tab=more_info).
@@ -688,6 +697,7 @@ By focusing on next-generation development flows, personas, and use cases - we b
 For example - We first provided the ability to attach Kubernetes Clusters via the Certificate method. After realizing this wasn't optimal for production use cases we added the GitLab Agent for Kubernetes method of cluster attachment. As soon as we were certain that the certificate method was no longer the preferred method we communicated via our docs and in the product that the Agent was the preferred path for current adopters. This should not mean an immediate [deprecation](https://docs.gitlab.com/ee/development/deprecation_guidelines/), but a clear signal that the legacy method will become deprecated once the alternative approach is able to substitute it.
 
 #### Customer Support on all features
+
 {: #support-all-features}
 
 We provide customer support to paying customers on all features that are in the tier of their paid license as well as any lower tiers.

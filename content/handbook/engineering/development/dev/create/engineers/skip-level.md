@@ -13,6 +13,7 @@ description: This page describes how we implement Skip Level Meetings.
 ## Why are Skip Level meetings important?
 
 Skip Level meetings provide a wealth of opportunities
+
 - Team members can provide the Senior Manager valuable feedback
 - Senior Manager can give the team member praise for their most recent accomplishments
 - Senior Managers can learn more about what is going on in their organization
@@ -21,6 +22,7 @@ Skip Level meetings provide a wealth of opportunities
 **Receiving Feedback**
 
 1-1 meetings are a great opportunity for direct reports to give feedback to their Managers, however Skip Level meetings afford the same opportunities.  In the case that the feedback is not given or accurately received, the Skip Level Meeting gives the team member another chance to communicate feedback.  The feedback can be specific to the team members manager, team processes, GitLab policies, GitLab leadership or whatever the team member would like to share about the company. This feedback can lead to strengthening of our CREDIT values.  Here are a few results that have come from some of my Skip Level Meetings
+
 - Creation of new Handbook Pages (e.g: [Transitioning from an Individual Contributor to a Manager](/handbook/engineering/development/dev/training/ic-to-manager/))
 - Changes to teams Sprint Planning Process
 - Engineers requesting more direct feedback from their Managers
@@ -28,6 +30,7 @@ Skip Level meetings provide a wealth of opportunities
 **Giving Praise**
 
 Skip Level Meetings are a unique opportunity for the Senior Manager to layer on the praise! The team members here at GitLab do such an awesome job, that we can't say thank you enough. However, Senior Managers are not sometimes privy to the day to day wins that don't make it quite to the level of a Discretionary Bonus.  The Senior Manager can capture praise from the following locations and share with the team member during the Skip Level Meetings:
+
 - Make time to review Praise sections from the Individual Team Retrospectives
 - Make time to review the Thanks channel looking for team members from your organization
 - Check in with the team member's manager to git the latest accomplishments
@@ -128,7 +131,6 @@ The Senior Manager will use this opportuntity to say thank you to the team membe
 - Has anyone gone well above and beyond lately? What did they do?
 - Who on your team makes those around them better? How do they do it?
 - Is there a recent example would you like to share with me where you feel like your manager did a great job?
- 
 
 **Your Manager**
 

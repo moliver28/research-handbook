@@ -5,15 +5,6 @@ description: "Style and content guide information for Digital Customer Programs.
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
 ## CS Ops Content Guide
 
 This guide outlines information about customer programs and other customer communications sent by CS Ops and other CS teams, including webinars, monthly newsletters, and email.
@@ -79,7 +70,7 @@ Our email programs go to many different customers, including paid and free, self
 
 ### Style
 
-We use the [Handbook Style Guide](/handbook/style-guide/) as our base. This covers things like punctuation, capitalization, and branding. For example, whether we use contractions or not, and how to capitalize brand names.
+We use the [Handbook Style Guide](/handbook/about/style-guide/) as our base. This covers things like punctuation, capitalization, and branding. For example, whether we use contractions or not, and how to capitalize brand names.
 
 We also use the [Pajamas Design System](https://design.gitlab.com/brand/overview) to guide our own brand principles and tone.
 
@@ -135,5 +126,3 @@ We can send email to the following regions:
 - EMEA
 
 Email programs can be set to send to any region at a locally relative time.
-
-

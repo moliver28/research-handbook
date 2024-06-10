@@ -22,7 +22,7 @@ Capturing these insights while the session is fresh in your minds makes the over
 **Synthesizing user interview data**
 Affinity diagramming is one way of finding themes in a collection of ideas, quotes, or observations. This method helps you draw out insights from qualitative data quickly and collaboratively. This is traditionally done in person with sticky notes on a large blank wall or whiteboard. At GitLab, we use a tool called [Figjam](https://www.figma.com/figjam/online-whiteboard/) to recreate this experience remotely.
 
-We use Dovetail to capture notes from each participant session and to store the insights which result from synthesizing the data. As you record data from research sessions, please remove any [personal identifiable information](/handbook/support/workflows/pii_removal_requests.html#overview) or PII (such as first and last names). Additionally, Dovetail has the option of allowing you to highlight and tag your notes within the platform.
+We use Dovetail to capture notes from each participant session and to store the insights which result from synthesizing the data. As you record data from research sessions, please remove any [personal identifiable information](/handbook/support/workflows/pii_removal_requests/#overview) or PII (such as first and last names). Additionally, Dovetail has the option of allowing you to highlight and tag your notes within the platform.
 
 Aside from Dovetail, Figjam is a helpful tool when you are just learning how to synthesize and analyze your data.
 
