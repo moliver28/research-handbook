@@ -12,7 +12,7 @@ Domains rarely have a 1:1 relationship with an Organization's Product Team struc
 Examples of Domains at GitLab include:
 
 - **Code Development:** This domain involves all activities related to writing, reviewing, and managing code.
-- **Code Deployment:** This domain covers the processes of integrating, testing, and deploying code into production environments. 
+- **Code Deployment:** This domain covers the processes of integrating, testing, and deploying code into production environments.
 - **Application Security:** This domain focuses on ensuring the security of the code and the deployment environment.
 - **Compliance and Governance:** This domain deals with ensuring that the software development and deployment processes comply with industry regulations and organizational policies.
 - **Project Planning:** This domain involves organizing and managing the software development lifecycle, including task management, scheduling, and resource allocation.
@@ -25,16 +25,16 @@ The Job Performer is a critical concept referring to the individual undertaking 
 
 | Do | Don't | 
 | --- | --- | 
-| Describe an individual completing a task | Use Job titles or Personas | 
-| Keep it focused on a single action | Compound actions using (and/or) | 
-| Keep it simple and generic | Reference technologies or solutions | 
+| Describe an individual completing a task | Use Job titles or Personas |
+| Keep it focused on a single action | Compound actions using (and/or) |
+| Keep it simple and generic | Reference technologies or solutions |
 
 **Examples:**
 | Good examples | Bad examples |
 | --- | --- | 
-| Code Author | Software Engineer (Job title, not a Job Performer)
-| Code Reviewer | Merge Request Approver (References a specific solution/technology)
-| Change Deployer | Rachel, Release Manager (Persona, not a Job Performer)
+| Code Author | Software Engineer (Job title, not a Job Performer) |
+| Code Reviewer | Merge Request Approver (References a specific solution/technology) |
+| Change Deployer | Rachel, Release Manager (Persona, not a Job Performer) |
 
 ## Job Types
 
@@ -44,45 +44,45 @@ The Main Job serves as the central focus for innovation efforts. It represents a
 
 Main Jobs follow the Job Statement format.
 
->💡 Main Jobs are mapped using a Job Map. 
+>💡 Main Jobs are mapped using a Job Map.
 
 **Examples:**
 
 | Good examples | Bad examples |
 | --- | --- | 
-| Deploy [verb] code changes [object] | Manage Releases -- No clear end state, the Job will never be done. 
-| Ensure code changes meet Org standards | Review Merge Request efficiently -- References a solution (Merge Request) and uses an Adjective (efficiently)
+| Deploy [verb] code changes [object] | Manage Releases -- No clear end state, the Job will never be done. |
+| Ensure code changes meet Org standards | Review Merge Request efficiently -- References a solution (Merge Request) and uses an Adjective (efficiently) |
 
 ### Consumption Jobs
 
-Products go through several stages after being purchased. After buying a product, it must be received, installed, and set up. Users must learn how to use it, and they might also need to transport, clean, store, maintain, upgrade, repair, and eventually dispose of it. While people don't buy products to configure or maintain them, making these tasks easier can make a product more attractive. 
+Products go through several stages after being purchased. After buying a product, it must be received, installed, and set up. Users must learn how to use it, and they might also need to transport, clean, store, maintain, upgrade, repair, and eventually dispose of it. While people don't buy products to configure or maintain them, making these tasks easier can make a product more attractive.
 
-These tasks are called Consumption Jobs. Each job has its own set of desired outcomes. Even the purchasing process is a Consumption Job involving research, evaluation, and transaction. 
+These tasks are called Consumption Jobs. Each job has its own set of desired outcomes. Even the purchasing process is a Consumption Job involving research, evaluation, and transaction.
 
 Focusing on other consumption chain jobs can lead to better products and competitive advantages. For example, making it easier to configure, and optimize deployments or set up branch rules can set a product apart.
 
->💡 Consumption Jobs are **not** mapped using a Job Map. Instead, they are listed and do not have a specific order. 
+>💡 Consumption Jobs are **not** mapped using a Job Map. Instead, they are listed and do not have a specific order.
 
-Consumption Jobs should be written in a similar format to Main Jobs, using the [verb] + [object] + [(optional) clarifier] structure. However, _Consumption Jobs can be solution-specific and reference technologies_. 
+Consumption Jobs should be written in a similar format to Main Jobs, using the [verb] + [object] + [(optional) clarifier] structure. However, _Consumption Jobs can be solution-specific and reference technologies_.
 
-Some examples of Consumption Jobs Types: 
+Some examples of Consumption Jobs Types:
 
 - Purchase
 - Download, Install
 - Set up, Configure, Organize, Provision
 - Learn to use, Onboard
 - Maintain, Upgrade, Optimize
-- Troubleshoot, Diagnose, Debug 
+- Troubleshoot, Diagnose, Debug
 - Repair, Resolve, Restore
 - Archive, Delete, Destroy, Remove
 
 ### Related Jobs
 
-While completing the Main Job, the end user may need to complete other jobs. Knowing what those related jobs are is important as it can lead to the creation of a platform-level solution that gets many jobs done. It is not uncommon for the end user to have 3 to 5 related jobs on their mind. 
+While completing the Main Job, the end user may need to complete other jobs. Knowing what those related jobs are is important as it can lead to the creation of a platform-level solution that gets many jobs done. It is not uncommon for the end user to have 3 to 5 related jobs on their mind.
 
-Related Jobs are often within the same or adjacent Domain. For example, A related job to "Implement enhancements to my application" would be "ensure code changes adhere to Org standards." Both of these are in the Code Development domain.  
+Related Jobs are often within the same or adjacent Domain. For example, A related job to "Implement enhancements to my application" would be "ensure code changes adhere to Org standards." Both of these are in the Code Development domain.
 
->💡 Knowing what your related jobs are can lead to the creation of a platform-level solution that gets many jobs done. 
+>💡 Knowing what your related jobs are can lead to the creation of a platform-level solution that gets many jobs done.
 
 ## Main Job Hierarchy
 
@@ -90,9 +90,9 @@ Related Jobs are often within the same or adjacent Domain. For example, A relate
 
 ### Job Stages
 
-Job Stages are the sequential series of objectives a Job Performer must complete to accomplish their Main Job. These objectives form a Job Map. Each Job Stage is high-level and can be broken out into it's own workflow if you were to zoom-in on it; they are not individual tasks. Avoid being too granular when writing Job Stages in order to keep them relevant to all performers executing the job. 
+Job Stages are the sequential series of objectives a Job Performer must complete to accomplish their Main Job. These objectives form a Job Map. Each Job Stage is high-level and can be broken out into it's own workflow if you were to zoom-in on it; they are not individual tasks. Avoid being too granular when writing Job Stages in order to keep them relevant to all performers executing the job.
 
-Job Stages follow the Job Statement format. Examples of Job Stage verbs include: 
+Job Stages follow the Job Statement format. Examples of Job Stage verbs include:
 
 - Define. Plan, Select, Determine
 - Locate, Gather, Access, Receive
@@ -120,12 +120,12 @@ The Job Statement is a structured way to write clear and concise job statements 
 
 **Helpful Tips:**
 
-| Do | Don't | 
-| --- | --- | 
-| Start with a verb | Use adjectives | 
-| Use verbs with an end state (Deploy, Implement, Plan) | Use verbs with no end state (Manage, Track, Optimize)
-| Write as a utilitarian goal | Mention solutions or technologies | 
-| Keep it focused on a single goal | Combine goals by using (and/or) |  
+| Do | Don't |
+| --- | --- |
+| Start with a verb | Use adjectives |
+| Use verbs with an end state (Deploy, Implement, Plan) | Use verbs with no end state (Manage, Track, Optimize) |
+| Write as a utilitarian goal | Mention solutions or technologies |
+| Keep it focused on a single goal | Combine goals by using (and/or) |
 
 The key is to focus on the Job Performer's goal and desired outcome, rather than the means to achieve it. This allows for more innovative solutions that may not have been considered before.
 
@@ -144,7 +144,7 @@ Good Job Differentiators examples:
 - If the Code Author is implementing a new feature vs. implementing a security patch
 - If the Code Reviewer is reviewing a database update vs. a feature enhancement
 
-## Outcomes 
+## Outcomes
 
 Outcomes are vital in the Jobs to Be Done framework because they reveal what customers value. You can identify unmet needs and create differentiated value by focusing on outcomes rather than features or functionality. Understanding customer outcomes helps in designing effective solutions, making better prioritization decisions, and measuring the real impact of your work.
 
@@ -160,11 +160,11 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 
 | Dimension | Definition | Formula |
 | --- | --- | --- |
-| Speed | Measured by time. Progress is evaluated by minimizing the time required to accomplish a specific task in a given context. | Minimize the time it takes to [accomplish something] [in some context] when getting a job done. | 
-| Reliability/Predictability | Measured using likelihood as the metric. Progress is determined by minimizing the likelihood of undesired outcomes in task completion. | Minimize the likelihood that [some unwanted thing happens] [in some context] when getting a job done. | 
-| Efficiency | Measured using likelihood as the metric. Progress is gauged by minimizing the likelihood of actions leading to waste or inefficiency in task completion. | Minimize the likelihood of [doing something that causes waste/inefficiency] [in some context] when getting a job done. | 
+| Speed | Measured by time. Progress is evaluated by minimizing the time required to accomplish a specific task in a given context. | Minimize the time it takes to [accomplish something] [in some context] when getting a job done. |
+| Reliability/Predictability | Measured using likelihood as the metric. Progress is determined by minimizing the likelihood of undesired outcomes in task completion. | Minimize the likelihood that [some unwanted thing happens] [in some context] when getting a job done. |
+| Efficiency | Measured using likelihood as the metric. Progress is gauged by minimizing the likelihood of actions leading to waste or inefficiency in task completion. | Minimize the likelihood of [doing something that causes waste/inefficiency] [in some context] when getting a job done. |
 
->💡 Every Job Step and Consumption Job will have three outcome statements, one for each dimension. 
+>💡 Every Job Step and Consumption Job will have three outcome statements, one for each dimension.
 
 ### Measuring Outcome statements
 
@@ -183,7 +183,7 @@ Key Characteristics of Overserved Needs:
 
 By identifying and addressing overserved needs, businesses can streamline their offerings, reduce costs, enhance usability, and better align their products and services with what customers truly value.
 
-#### Properly Served Needs 
+#### Properly Served Needs
 
 Customer requirements or desires that are adequately and satisfactorily addressed by existing market offerings. These needs are met to such an extent that customers feel their expectations are fulfilled and have little to no frustration or dissatisfaction with the current solutions.
 
@@ -212,5 +212,5 @@ Understanding and addressing underserved needs is a powerful strategy for achiev
 ## Job Canvas
 
 A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-jobs) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
-Each canvas has a number of different sections which combine to provide a **holistic picture of a Job Performer's Main Job**. 
+Each canvas has a number of different sections which combine to provide a **holistic picture of a Job Performer's Main Job**.
 

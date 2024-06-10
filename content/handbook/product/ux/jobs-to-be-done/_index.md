@@ -11,9 +11,9 @@ Reference guide: JTBD topics and definitions
 
 ## Framework Overview
 
-1. **Define the Job:** The first step of the JTBD framework is to understand who your Job Performers are and the Jobs they are responsible for in your Domain. This step lays the groundwork for the rest of the framework upon which all activities rely. 
-2. **Uncover Needs:** After defining the Jobs in your domain, the next step is to draft Outcome statements. These will be used to benchmark the experience, evaluate solutions, and prioritize future efforts. 
-3. **Quantify Outcomes:** The next step in the process is to understand how well your customers' needs are met with the current experience. This is akin to benchmarking and will result in a quantitative analysis of all your Outcomes and the degree to which they are being met. 
+1. **Define the Job:** The first step of the JTBD framework is to understand who your Job Performers are and the Jobs they are responsible for in your Domain. This step lays the groundwork for the rest of the framework upon which all activities rely.
+2. **Uncover Needs:** After defining the Jobs in your domain, the next step is to draft Outcome statements. These will be used to benchmark the experience, evaluate solutions, and prioritize future efforts.
+3. **Quantify Outcomes:** The next step in the process is to understand how well your customers' needs are met with the current experience. This is akin to benchmarking and will result in a quantitative analysis of all your Outcomes and the degree to which they are being met.
 4. **Evaluate Solutions:** Once you establish a benchmark for your Outcomes, you will continually refer to it as you create and validate solutions, checking to see if you have made a significant impact.
 
 ## Core Concepts
@@ -26,7 +26,7 @@ Understanding the roles and contributions of Job Performers (someone executing a
 
 Understanding the different job types and how they relate to each other is crucial for mapping out the entire customer experience and identifying opportunities to create value. There are several key job types to consider in the JTBD framework:
 
-- **Main Jobs:** The overarching goal or objective that the customer is trying to achieve is the Main Job. This is the highest-level job for a given Domain. Main Jobs are mapped using a Job Map and are always solution-agnostic. 
+- **Main Jobs:** The overarching goal or objective that the customer is trying to achieve is the Main Job. This is the highest-level job for a given Domain. Main Jobs are mapped using a Job Map and are always solution-agnostic.
 - **Consumption Jobs:** The specific tasks that a customer undertakes when interacting with a product or service are the Consumption Jobs. These includes every step from identifying a need, finding and selecting a solution, purchasing, configuring, using, maintaining, and eventually discontinuing its use. Consumption Jobs do not have a Job Map and are often solution-dependent.
 - **Related Jobs:** Other jobs that the customer may be trying to get done, either before, during, or after the Main Job. Understanding the Related Jobs is **vital to providing the best platform experience** for the customer.
 
@@ -55,7 +55,7 @@ Learn more about Mapping the Job
 
 ### Outcomes
 
-Outcomes are the specific, measurable, and actionable results that customers want to achieve when getting a Job done. They represent the desired end-state or performance metrics that customers use to evaluate the success of a solution. 
+Outcomes are the specific, measurable, and actionable results that customers want to achieve when getting a Job done. They represent the desired end-state or performance metrics that customers use to evaluate the success of a solution.
 
 **Outcomes are the most crucial part of the JTBD framework**, as they help you understand what customers truly value and how to design solutions that better meet their needs. By focusing on Outcomes rather than features or functionality, you can uncover unmet or underserved needs and identify opportunities to create differentiated value. By understanding the Outcomes that customers care about, you can design more effective solutions, make better prioritization decisions, and measure the true impact of your work.
 
@@ -65,8 +65,8 @@ Learn more about generating Outcome statements.
 
 ### Continuous Evaluation
 
-Using Outcomes allows for predictable, repeatable, and consistent evaluation methods, creating feedback loops that relate directly to the outcomes you are trying to influence. 
-- **Benchmarking:** Evaluate the Main Job and Consumption Job Outcomes to establish a benchmark and assist with prioritization by identifying underserved needs. 
+Using Outcomes allows for predictable, repeatable, and consistent evaluation methods, creating feedback loops that relate directly to the outcomes you are trying to influence.
+- **Benchmarking:** Evaluate the Main Job and Consumption Job Outcomes to establish a benchmark and assist with prioritization by identifying underserved needs.
 - **Baselining:** Evaluate the Outcomes your team has delivered solutions for in the last six months, checking against the prior benchmark scores.
 - **Solution Validation:** Evaluate how your soluition improves the targeted Outcome(s), using the established benchmark as reference.
 
@@ -74,7 +74,7 @@ Learn more about evaluation methods
 
 ## Jobs Gitlab helps get done
 
-### Main jobs 
+### Main jobs
 
 _placeholder for jtbd-yml file_
 
