@@ -31,7 +31,7 @@ In addition to the [Fulfillment Product Direction](https://about.gitlab.com/dire
 
 ## Team members
 
-See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section for a list of team members for the Fulfillment section and sub-groups. 
+See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section for a list of team members for the Fulfillment section and sub-groups.
 
 
 ## Stable counterparts
@@ -110,9 +110,9 @@ We strictly adhere to this Intake Request process to ensure we capture the full 
 
 ### Prioritization
 
-We follow our [prioritization framework](/handbook/product/product-processes/#prioritization) including [cross-functional prioritization guidelines](/handbook/product/cross-functional-prioritization/) to prioritize our backlog on a monthly basis. R&D teams use a variety of inputs and sensing mechanisms, including SLAs, OKRs, [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues/#supports-issue-list-for-fulfillment), technical debt, and more to set priorities. 
+We follow our [prioritization framework](/handbook/product/product-processes/#prioritization) including [cross-functional prioritization guidelines](/handbook/product/cross-functional-prioritization/) to prioritize our backlog on a monthly basis. R&D teams use a variety of inputs and sensing mechanisms, including SLAs, OKRs, [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues/#supports-issue-list-for-fulfillment), technical debt, and more to set priorities.
 
-We aim to maximize business value by balancing short-term, mid-term, and long-term investments across new initiatives and technical debt. At GitLab, we target an overall company allocation of 60% for new product development and 40% for technical debt and maintenance. However, this 60/40 split is flexible and may vary across different groups and sections over time. 
+We aim to maximize business value by balancing short-term, mid-term, and long-term investments across new initiatives and technical debt. At GitLab, we target an overall company allocation of 60% for new product development and 40% for technical debt and maintenance. However, this 60/40 split is flexible and may vary across different groups and sections over time.
 
 In the Fulfillment section, we adopt the 60/40 ratio as a guideline to ensure a well-balanced approach to our OKR-focused work as well as making sure we prioritize enough Engineering initiatives to improve our reliability and efficiency. We remain adaptable in our planning and execution, avoiding a rigid adherence to these percentages. Instead, we prioritize work based on a comprehensive assessment of company needs, which is reflected in our OKRs. We leave it to each group to find the right balance in their OKRs. If an agreement can't be reached within the group, it should be escalated to the section-level to be decided.
 
