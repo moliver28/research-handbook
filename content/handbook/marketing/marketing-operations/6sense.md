@@ -121,6 +121,8 @@ Publishing a 6sense segment extends its account membership to specific 6sense ex
 
 Only `admin users` and `operations users` are able to publish segments in 6sense. If you need to publish a segment in 6sense, please [open a new Marketing Operations issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=6sense_publish_segment_req).
 
+To push a segment to Marketo, you'll need an Add to Audience orchestration. You can open a request by using this [Marketing Operations issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=6sense_add_audience_to_marketo). For more information on how it works, see this [internal handbook page.](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/#add-audience-to-marketo-list)
+
 ## Best Practices
 
 ### Folder Naming Convention

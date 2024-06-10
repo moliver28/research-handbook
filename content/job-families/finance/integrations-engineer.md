@@ -268,22 +268,22 @@ Senior Manager, Enterprise Architecture & Integration Engineering is a [grade 9]
 Extends that of the Manger, Enterprise Architecture & Integration Engineering responsibilities:
 
 - Partnerships:
-   - Working with internal and external cross functional teams, business stakeholders, service providers, vendors to design, develop and implement enterprise architecture strategies.
-   - Provides thought leadership and clear technical direction to the team to deliver results and business value.
-   - Analyze existing business processes and data flows to develop system designs, delivery roadmaps and integrations to other systems
+  - Working with internal and external cross functional teams, business stakeholders, service providers, vendors to design, develop and implement enterprise architecture strategies.
+  - Provides thought leadership and clear technical direction to the team to deliver results and business value.
+  - Analyze existing business processes and data flows to develop system designs, delivery roadmaps and integrations to other systems
 - Strategy:
-   - Create secure, scalable and high performance enterprise solutions.
-   - Developing methodologies and processes to ensure compliance to Integrations & Architecture strategies.
-   - Responsible for the high-level design and implementations of integrations across the application eco-system by effectively partnering with business users, application developers and vendors.
+  - Create secure, scalable and high performance enterprise solutions.
+  - Developing methodologies and processes to ensure compliance to Integrations & Architecture strategies.
+  - Responsible for the high-level design and implementations of integrations across the application eco-system by effectively partnering with business users, application developers and vendors.
 - Technical Solutions:
-   - Responsible to develop and maintain current state and future state technology roadmaps aligned with approved IT Investments and approved by Leadership.
-   - Support the transformation of the technology architecture to support the company growth plans, building scalable platform solutions as well as building and customizing best in class software products.
-   - Lead master data management initiatives from the data modeling side. Design and promote the enterprise data model.
-   - Evaluate alternatives and formulates system scope and objectives to create or modify integration services.
-   - Troubleshoots production problems and works to fix issues
+  - Responsible to develop and maintain current state and future state technology roadmaps aligned with approved IT Investments and approved by Leadership.
+  - Support the transformation of the technology architecture to support the company growth plans, building scalable platform solutions as well as building and customizing best in class software products.
+  - Lead master data management initiatives from the data modeling side. Design and promote the enterprise data model.
+  - Evaluate alternatives and formulates system scope and objectives to create or modify integration services.
+  - Troubleshoots production problems and works to fix issues
 - Leadership:
-   - Builds and leads a transformational team that is required to design and execute on key business and technical strategies.
-   - Mentors and coaches the team to foster a culture of continuous learning and collaboration.
+  - Builds and leads a transformational team that is required to design and execute on key business and technical strategies.
+  - Mentors and coaches the team to foster a culture of continuous learning and collaboration.
 
 ### Requirements
 

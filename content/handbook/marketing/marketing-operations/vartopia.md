@@ -296,14 +296,38 @@ This will allow the Distributor to tie the DR to the campaign, HOWEVER, we’ll 
 
 This process is still a work in progress, follow along in this [epic](https://gitlab.com/groups/gitlab-com/-/epics/2249) for the next iteration.
 
-#### Value-Add Campaign
+#### Campaigns Without Leads
 
-The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI.
+The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI, which doesn't require a lead list.
 
-1. Gabby - Create a Marketing Ops issue assigned to Salina requesting to have the SFDC campaign created and provide the name of the campaign.
-2. Salina - Create the SFDC campaign, and Salina will provide Gabby with the Salesforce Campaign ID
-3. Gabby - Add Campaign name and info to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1)
-4. This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
+1. Carahsoft - Add the Event/Activity Name and Campaign Code to the [Carahsoft Marketing Plan spreadsheet](https://docs.google.com/spreadsheets/d/12HTBd4wye-G-Ep6-WKFQ6dtYkambLN2U-OMihzF0NFE/edit)
+1. Gabby - Assign Salina to the Campaign Code column
+1. Salina - Create the SFDC campaign and add Campaign Name and Campaign Code to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1). This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
+1. Salina - Add SFDC Campaign ID, SFDC Campaign Link and confirm the campaign name has been added to the Smartsheet under the `Added to smartsheet` column.
+
+#### Campaigns Worked by Sales Dev
+
+This is not an MDF campaign, as referenced in the name, it's a value-added where the leads will be worked by the Sales Dev team. [Video recording](https://youtu.be/WwWYFCmPs7M) available
+
+1. Setup Allocadia
+    1. Create a subcategory and line item
+    1. Update `Worked by Sales Dev` to `True` on the subcategory (required)
+    1. Open GitLab epic and issues using the GitLab issue - Allocadia integration. The Gitlab epic and issues will include an issue template called, [Partner Sales Campaign - BDR Collaboration Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads). The purpose of this issue is to communicate how the Sales Dev team is expected to follow up with the campaign.
+       1. Tag the Public Sector Business Development & AMER SDR on the Partner Sales Campaign BDR issue for visibility.
+1. Follow the [instructions](https://handbook.gitlab.com/handbook/marketing/channel-marketing/partner-campaigns/#partner-campaigns) to setup Marketo Program and SFDC Campaign.
+   1. Setup in Marketo
+       1. Clone the appropriate FM program template
+       1. Go to the Program > My Token - Fill out the Tokens
+   1. Sync to Salesforce Campaign
+   1. Update Salesforce Campaign
+       1. Update `Is the Channel Partner Involved?` = Yes (Automated with Allocadia integration)
+       1. Update `Channel Partner Name` with Partner Name (Automated with Allocadia integration)
+       1. Mark campaign as `High Priority`
+1. Spreadsheet - Assign Salina to the [Carahsoft Marketing Plan spreadsheet](https://docs.google.com/spreadsheets/d/12HTBd4wye-G-Ep6-WKFQ6dtYkambLN2U-OMihzF0NFE/edit) to  Add Salesforce Campaign to [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1) (Interim process until the next iteration)
+1. Upload lead list via Google Drive
+    1. Include `CRM Partner ID`
+    1. Add `Partner Lead Worked by Sales Dev` = `True` column
+    1. Once imported, if the lead is net new, the source will be changed to `Partner Qualified Lead` (Automated)
 
 ## Field Glossary
 
@@ -373,12 +397,12 @@ These are some guidelines to become familiar with when working on a module with 
 - Vartopia uses managed flows in their change sets. Thus, we should always ask how it functions or request a demo in Classic, and have a Salesforce App Builder be on the call to inspect the flow to ensure that capabilities won’t break any existing processes before they are deployed.
 - Preempt any change set updates with a managed package upgrade to reduce the chances of any problems or errors.
 - Vartopia uses flows/alerts as part of their managed package intended to notify the partners of every update related to partner leads for the Prospect module ie when the leads are shared, accepted, assigned, rejected, etc. Our partners do not see the value in needing to be updated for every lead and every status change. Ensure the following flows/alerts are turned off before every managed package upgrade:
-   - Vartopia Prospect Lead Flow
-   - Vartopia Prospect Contact Flow
-   - Prospect Assigned to Sales Rep Workflow on Contact
-   - Prospect Assigned to Sales Rep on Lead
-   - The Salesperson when the Prospect admin has Assigned to the Contact
-   - The Salesperson when the Prospect Admin has Assigned the Lead
+  - Vartopia Prospect Lead Flow
+  - Vartopia Prospect Contact Flow
+  - Prospect Assigned to Sales Rep Workflow on Contact
+  - Prospect Assigned to Sales Rep on Lead
+  - The Salesperson when the Prospect admin has Assigned to the Contact
+  - The Salesperson when the Prospect Admin has Assigned the Lead
 
 ## FAQ
 

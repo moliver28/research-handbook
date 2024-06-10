@@ -36,11 +36,11 @@ description: Information and guidelines about the Innovation Pitch Competition
 * For the competition entry, participants had to build an innovative pitch into a proof of concept on GitLab. They had to make a 2.5 minute video demoing the project and include a text description about the problem it solves.
 * The proof of concept demos had to do at least one of the following: expand the [global CI/CD catalog](https://gitlab.com/explore/catalog) with CI/CD component additions, conduct AI experiments with/on GitLab, contribute to the development of GitLab, create a social impact for the Wider GitLab Community, or enhance the overall quality of GitLab.
 * Submissions to the competition had to meet the following requirements:
-    * A demo video of the project which should not be more than 2.5 minutes.
-    * Video should include footage that shows the Project functioning, and be uploaded and made publicly visible on YouTube (preferred), Vimeo, Facebook Video, or Youku.
-    * A working proof of concept for the project in a publicly visible repository on [GitLab.com](http://GitLab.com)
-    * Provide a URL to the open-source code repository, licensed under the MIT license.
-    * A text description explaining the features and functionality of the project as they relate to the judging criteria.
+  * A demo video of the project which should not be more than 2.5 minutes.
+  * Video should include footage that shows the Project functioning, and be uploaded and made publicly visible on YouTube (preferred), Vimeo, Facebook Video, or Youku.
+  * A working proof of concept for the project in a publicly visible repository on [GitLab.com](http://GitLab.com)
+  * Provide a URL to the open-source code repository, licensed under the MIT license.
+  * A text description explaining the features and functionality of the project as they relate to the judging criteria.
 * The [official rules](https://gitlab.devpost.com/rules) are published on DevPost.
 
 ## Participant engagement
@@ -49,10 +49,10 @@ description: Information and guidelines about the Innovation Pitch Competition
 * Participants were kept up to date mainly via an [Updates](https://gitlab.devpost.com/updates) channel on DevPost. Each time an update was published, all participants were sent an email containing the information of the update.
 * Participants could contact the GitLab team via a [Discussions](https://gitlab.devpost.com/forum_topics) channel on DevPost. The GitLab team also made use of this channel to craft FAQ’s.
 * The GitLab team organized 4 AMA’s (video sessions) which ran on Discord.
-    * AMA 1: [General info on the Innovation Pitch Competition](https://www.youtube.com/watch?v=c0hDvIE3q00)
-    * AMA 2: [How to Give a Great Pitch](https://www.youtube.com/watch?v=IHUz7xr0vmU)
-    * AMA 3: [Public Speaking 101](https://www.youtube.com/watch?v=uFDLzyH7RDM)
-    * AMA 4: [The Importance of Feedback and Iteration](https://www.youtube.com/watch?v=bDGjzyS_9b0)
+  * AMA 1: [General info on the Innovation Pitch Competition](https://www.youtube.com/watch?v=c0hDvIE3q00)
+  * AMA 2: [How to Give a Great Pitch](https://www.youtube.com/watch?v=IHUz7xr0vmU)
+  * AMA 3: [Public Speaking 101](https://www.youtube.com/watch?v=uFDLzyH7RDM)
+  * AMA 4: [The Importance of Feedback and Iteration](https://www.youtube.com/watch?v=bDGjzyS_9b0)
 
 ## Competition marketing
 
@@ -62,31 +62,31 @@ description: Information and guidelines about the Innovation Pitch Competition
 
 ## Judging Criteria and Process
 
-  * The entries were evaluated on 6 judging criteria:
-      * Does it solve a real problem for GitLab users?
-      * Innovativeness
-      * Overall Quality
-      * Scalability
-      * Total Addressable Market
-      * Feasibility
-  * Extra informative criterion given to the jury members: Evaluate the contributor's ability to advance, execute, and potentially scale the project. It's crucial they possess the coding skills needed to further develop the proof of concept (POC) for additional funding.
-  * Judges were given 5 working days (2024-02-29 - 2024-03-06) to evaluate the entries via a spreadsheet.
-  * The judging process occured in two phases.
-      * In the first wave, nine judges with diverse backgrounds assessed the submissions. Their evaluations determined the initial selection, resulting in an initial ranking.
-      * Following this initial wave, entries underwent further evaluation. The Chief Marketing Officer (CMO) and the VP of Developer Relations conducted an async voting session with the Director of Contributor Success to score these submissions.
-      * The final scores were calculated by aggregating the assessments from all jury members.
-  * Judges (exclusively GitLab team members)
-      * Ashley Kramer, CMO
-      * Emilio Salvador, VP, Developer Relations
-      * Dov Herschkovitch, Senior Product Manager, Pipeline Authoring - Verify
-      * Lee Tickett, Staff Fullstack Engineer
-      * Jocelyn Eillis, Product Manager
-      * Sheela Viswanathan, Senior Manager, Sales Systems
-      * Christian Couder, Staff Backend Engineer Gitaly: Git
-      * Abubakar Siddiq Ango, Developer Advocate
-      * Christina Lohr, Senior Product Manager, Data Stores Tenant Scale
-      * Dave Steer, VP, Brand & Product Marketing
-      * Lis Vinueza, Analytics Engineer
+* The entries were evaluated on 6 judging criteria:
+  * Does it solve a real problem for GitLab users?
+  * Innovativeness
+  * Overall Quality
+  * Scalability
+  * Total Addressable Market
+  * Feasibility
+* Extra informative criterion given to the jury members: Evaluate the contributor's ability to advance, execute, and potentially scale the project. It's crucial they possess the coding skills needed to further develop the proof of concept (POC) for additional funding.
+* Judges were given 5 working days (2024-02-29 - 2024-03-06) to evaluate the entries via a spreadsheet.
+* The judging process occured in two phases.
+  * In the first wave, nine judges with diverse backgrounds assessed the submissions. Their evaluations determined the initial selection, resulting in an initial ranking.
+  * Following this initial wave, entries underwent further evaluation. The Chief Marketing Officer (CMO) and the VP of Developer Relations conducted an async voting session with the Director of Contributor Success to score these submissions.
+  * The final scores were calculated by aggregating the assessments from all jury members.
+* Judges (exclusively GitLab team members)
+  * Ashley Kramer, CMO
+  * Emilio Salvador, VP, Developer Relations
+  * Dov Herschkovitch, Senior Product Manager, Pipeline Authoring - Verify
+  * Lee Tickett, Staff Fullstack Engineer
+  * Jocelyn Eillis, Product Manager
+  * Sheela Viswanathan, Senior Manager, Sales Systems
+  * Christian Couder, Staff Backend Engineer Gitaly: Git
+  * Abubakar Siddiq Ango, Developer Advocate
+  * Christina Lohr, Senior Product Manager, Data Stores Tenant Scale
+  * Dave Steer, VP, Brand & Product Marketing
+  * Lis Vinueza, Analytics Engineer
 
 ## Results and Winners
 
@@ -179,12 +179,12 @@ Discuss whether the competition should become a recurring event and, if so, any 
 * This inaugural edition set the groundwork for future iterations, hence the detailed documentation.
 * For subsequent editions with similar objectives, a 2 to 3-month lead time from inception to public announcement is anticipated, leveraging existing materials and insights.
 * Narrow down on exactly what GitLab wants to achieve with a future competition :
-    * Development of new functionality
-    * More CI/CD components
-    * More GitLab Duo (AI) projects
-    * A focus on Social Impact projects
-    * Activate certain regions more
-    * Investing in and developing new projects/ventures
+  * Development of new functionality
+  * More CI/CD components
+  * More GitLab Duo (AI) projects
+  * A focus on Social Impact projects
+  * Activate certain regions more
+  * Investing in and developing new projects/ventures
 * Address the legal aspects of reward structures. Design participant incentives that minimize legal complexities, thus widening the competition's accessibility globally. Investigate non-monetary incentives such as presenting to management, donating developer time for projects, mentoring opportunities, and enhancing visibility. Some incentives might also be offered as supplementary to the main competition.
 * Tackle intellectual property (IP) legalities proactively, but only once the competition's aims and framework are established.
 * Evaluate entrusting DevPost with complete project management responsibilities rather than limiting their role to mid-level management tasks. Full project management will give GitLab a dedicated project manager who runs the project planning, offers best practices along the way, helps engage participants, provides additional assistance by participating in office hours and workshops, keeps things highly organized, and includes structured weekly call times.
@@ -200,11 +200,11 @@ Projects poised to deliver significant benefits to the wider community, with str
 * **The Community Pairing App** aims to connect contributors seeking teammates, spotlight intriguing projects for interested contributors, and assist in promoting visibility for their initiatives. Also in this situation the recommendation is to create an AI that surfaces relevant contact information.
 * **GitLab News TV** offers a regular dose of GitLab updates through engaging, bite-sized YouTube bulletins, designed for both the GitLab team and the broader community. Covering a range of topics from new releases and MVP highlights to innovative solutions, unique initiatives, and conference updates, each segment is delivered in concise, easily digestible clips. With a focus on fast-paced, entertaining content, GitLab TV ensures viewers stay informed and connected. Timestamps for effortless navigation and detailed show notes guide viewers to further information effortlessly.
 * **Social Impact Specials** spotlight areas of societal importance that GitLab aims to enhance through focused development efforts. By concentrating on social themes, GitLab not only reinforces its dedication to Diversity, Equity, and Inclusion (DEI) but also distinguishes itself in the competitive landscape. These initiatives could also serve as additional channels for attracting new contributors. It's recommended to explore targeted industries or development areas further. Example themes include:
-    * Improving mobility for people with disabilities to foster better inclusion, possibly through enhancing or developing security software for autonomous vehicles.
-    * Enhancing access to health data by focusing on its security, user authentication, authorization, traceability, and overall trust.
-    * Advancing company documentation by creating tools (guardrails) that detect bias or employ AI to refine search capabilities.
-    * Leverage the power of AI to reduce carbon footprint or to improve the yield of alternative energy sources.
-    * Create components aimed at achieving a more equitable distribution of intellectual property rights or providing assistance to the unbanked and uninsured.
+  * Improving mobility for people with disabilities to foster better inclusion, possibly through enhancing or developing security software for autonomous vehicles.
+  * Enhancing access to health data by focusing on its security, user authentication, authorization, traceability, and overall trust.
+  * Advancing company documentation by creating tools (guardrails) that detect bias or employ AI to refine search capabilities.
+  * Leverage the power of AI to reduce carbon footprint or to improve the yield of alternative energy sources.
+  * Create components aimed at achieving a more equitable distribution of intellectual property rights or providing assistance to the unbanked and uninsured.
 * **Beyond the Platform** initiatives that transcend the traditional boundaries of a coding community. For example advice on healthier living, tips to manage mental stress, and guidance for career growth. GitLab is not just about code and contributions; it’s about caring for you as a human being (see also: ‘Social Impact Specials’ above). This approach aligns perfectly with the GitLab ethos and is not a radical shift but a natural progression.
 
 ## Closing

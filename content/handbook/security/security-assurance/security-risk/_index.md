@@ -42,11 +42,11 @@ Establishing a complete and accurate inventory of assets is key to the success o
 
 |Team Member|Role|
 |:----------:|:----------:|
-|[Ty Dilbeck](https://gitlab.com/tdilbeck)|[Manager, Security Risk](handbook/job-families/security/security-risk/#manager-security-risk)|
-|[Eric Geving](https://gitlab.com/ericgeving)|[Senior Security Risk Engineer](handbook/job-families/security/security-risk/#senior-security-risk-engineer)|
-|[Kyle Smith](https://gitlab.com/kylesmith2)|[Senior Security Risk Engineer](handbook/job-families/security/security-risk/#senior-security-risk-engineer)|
-|[Ryan Lawson](https://gitlab.com/rlawson1)|[Senior Security Risk Engineer](handbook/job-families/security/security-risk/#senior-security-risk-engineer)|
-|[Nirmal Devarajan](https://gitlab.com/ndevarajan)|[Security Assurance Engineer](handbook/job-families/security/security-risk/#security-risk-engineer-intermediate)|
+|[Ty Dilbeck](https://gitlab.com/tdilbeck)|[Senior Manager, Security Risk](/job-families/security/security-leadership/#senior-manager-security)|
+|[Eric Geving](https://gitlab.com/ericgeving)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
+|[Kyle Smith](https://gitlab.com/kylesmith2)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
+|[Ryan Lawson](https://gitlab.com/rlawson1)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
+|[Nirmal Devarajan](https://gitlab.com/ndevarajan)|[Security Assurance Engineer](/job-families/security/security-assurance-job-family/#security-risk)|
 
 ## <i class="fa-solid fa-d" style="color:rgb(110,73,203)" aria-hidden="true"></i> Functional DRIs{#dris}
 
@@ -74,9 +74,9 @@ DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/
 
 - <i class="fas fa-envelope fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Email: `securityrisk@gitlab.com`
 - <i class="fab fa-slack fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Slack:
-   - [#security-risk-management channel](https://gitlab.slack.com/archives/C01EKDNRVFD)
-   - [#sec-assurance channel](https://gitlab.slack.com/archives/C0129P7DW75) (includes the broader Security Assurance Team)
-   - Mention `@security-risk`
+  - [#security-risk-management channel](https://gitlab.slack.com/archives/C01EKDNRVFD)
+  - [#sec-assurance channel](https://gitlab.slack.com/archives/C0129P7DW75) (includes the broader Security Assurance Team)
+  - Mention `@security-risk`
 - <i class="fab fa-gitlab fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> GitLab: Tag the team across GitLab using `@gitlab-com/gl-security/security-assurance/security-risk-team`
 
 <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

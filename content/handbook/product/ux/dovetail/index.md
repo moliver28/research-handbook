@@ -247,24 +247,24 @@ To properly manage research insights within Dovetail, here are some do's and don
 ##### Do's
 
 - Tag the data while it's fresh in your mind
-    - Tag your data immediately after conducting the sessions, or after re-reading your transcripts. Having everything fresh in your mind will make themes more clear.
+  - Tag your data immediately after conducting the sessions, or after re-reading your transcripts. Having everything fresh in your mind will make themes more clear.
 - Align your tags with your research hypothesis
-    - The goal of each tag is to link your user data to your research goals. Each tag should be directly related to one of your research hypotheses.
+  - The goal of each tag is to link your user data to your research goals. Each tag should be directly related to one of your research hypotheses.
 - Be consistent
-    - When you identify what tags you will be using, stick to them. The more consistent our tags are, the easier it is to find trends in our data.
+  - When you identify what tags you will be using, stick to them. The more consistent our tags are, the easier it is to find trends in our data.
 - Less is more
-    - It is better to have 5 tags that you are confident in than 10 tags you aren't. As a guideline, try to limit most studies to **less than 15 tags**.
+  - It is better to have 5 tags that you are confident in than 10 tags you aren't. As a guideline, try to limit most studies to **less than 15 tags**.
 - Think about how they'll be used
-    - Assume that someday, someone other than yourself will use your tags to identify similar insights.  Make it easy for them to do that.
+  - Assume that someday, someone other than yourself will use your tags to identify similar insights.  Make it easy for them to do that.
 - Take a second look
-    - After making your tags, take a small break and then read over them one more time.
+  - After making your tags, take a small break and then read over them one more time.
 
 ##### Don'ts
 
 - Do not use full sentences
-    - A tag should be 1-3 words long. Using multiple different tags will result in more useful insights than one longer tag.
+  - A tag should be 1-3 words long. Using multiple different tags will result in more useful insights than one longer tag.
 - Do not use emoji
-    - Emoji are naturally more ambiguous than text, and tags should be as clear as possible.
+  - Emoji are naturally more ambiguous than text, and tags should be as clear as possible.
 
 | Poor Tag Examples     | Better Tag Examples  |
 | ----- | ------ |

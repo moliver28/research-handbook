@@ -20,7 +20,7 @@ leaders being a guide to help their team members understand how to use the tools
 1. [This article](https://www.wsj.com/articles/10-performance-review-preparation-tips-11610125896) provides 10 useful tips to prepare for, and succeed in, your annual review from a performance perspective. What were your goals (personal, departmental, etc.), how did you contribute, and what were the results?
 1. [Performance v. Trust](https://www.youtube.com/watch?v=kJdXjtSnZTI)
 
-  - Of course, performance (and results) are fundamental to a talent assessment, but trust is an often overlooked trait that should be cultivated to reach your maximum potential. At the end of the day, high trust leads to better growth.
+- Of course, performance (and results) are fundamental to a talent assessment, but trust is an often overlooked trait that should be cultivated to reach your maximum potential. At the end of the day, high trust leads to better growth.
 
 ### Using career ladders
 

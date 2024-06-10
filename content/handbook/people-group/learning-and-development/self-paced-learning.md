@@ -112,8 +112,6 @@ As a GCP Partner, GitLab has *unlimited* seats to Google Cloud's [Skills Boost P
 
 This is a completely self-paced learning platform with a variety of learning formats, including video content and hands-on labs style engagement.
 
-For those interested in pursuing a certification, exam vouchers are available upon completing certification learning pathways, and commemorative Google swag is issued upon completing and passing a Professional level exam!
-
 ### Sign Up
 
 Any current GitLab team member can gain access to the learning platform by filling out [this form](https://inthecloud.withgoogle.com/partner-training/request-training-resources.html). Required information includes your first and last name, your gitlab email address, a phone number, and your location. While it asks you to identify areas of interest, this is optional, and you are not limited to just the area of interest you've indicated.

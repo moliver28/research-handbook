@@ -10,21 +10,21 @@ The purpose of this page is to present some Figma process guidelines for the Git
 **Figma master project name:**
 
 * `Parent page / Child page (if none, leave blank)`
-    * *`Solutions / DevSecOps`*
-    * *`Pricing Page`*
+  * *`Solutions / DevSecOps`*
+  * *`Pricing Page`*
 
 **Master project files:**
 
 * `Parent page / Child page / Type or Phase / Version`
-    * *`Solutions / DevSecOps / Wireframes / 1.0`*
-    * *`Solutions / DevSecOps / Design / 1.0`*
-    * *`Pricing Page / Mock / 1.0`*
+  * *`Solutions / DevSecOps / Wireframes / 1.0`*
+  * *`Solutions / DevSecOps / Design / 1.0`*
+  * *`Pricing Page / Mock / 1.0`*
 
 **Figma file pages:**
 
 * Page names should be short and clear
 * Pages that are ready for engineering should be labeled with the ship icon:
-    * 🚢 PAGE NAME 🚢
+  * 🚢 PAGE NAME 🚢
 
 Example: In this example, the pages ready for engineering are at the top labeled with a 🚢 icon and a divider separates other working pages.
 

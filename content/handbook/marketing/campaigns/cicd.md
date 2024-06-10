@@ -60,12 +60,12 @@ Always On Lead Generation:
 - **Level:** Manager
 - **Function:** Dev, App
 - **Challenges we're trying to solve with this campaign:**
-   - Too many DevOps integrations/toolchain overload
-   - Lack of scalability (usually intensified the larger the org)
-   - Easy entry for teams to get started with CI/CD
-   - Additional info:
-     - DevOps Manager: Needs to effectively support the DevOps tools and infrastructure integral to their org’s application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
-     - Dev Leads (Development Manager): Needs to have a finger on the pulse of their development team’s capacity and priorities. Concerned with improving productivity and unblocking any issues that get in the way of progress. Challenged when development deadlines and assigned tasks change rapidly or too frequently. Also challenged when work on feature delivery is interrupted by show-stopping bugs or blockers.
+  - Too many DevOps integrations/toolchain overload
+  - Lack of scalability (usually intensified the larger the org)
+  - Easy entry for teams to get started with CI/CD
+  - Additional info:
+    - DevOps Manager: Needs to effectively support the DevOps tools and infrastructure integral to their org’s application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
+    - Dev Leads (Development Manager): Needs to have a finger on the pulse of their development team’s capacity and priorities. Concerned with improving productivity and unblocking any issues that get in the way of progress. Challenged when development deadlines and assigned tasks change rapidly or too frequently. Also challenged when work on feature delivery is interrupted by show-stopping bugs or blockers.
 - **Ideal state:**
   - Dev and Ops are empowered to work better together, no more "throwing things over the proverbial wall"
   - Improved visibility and communication, gain faster feedback and integrate smaller code changes frequently (with less risk of build-breaking changes)

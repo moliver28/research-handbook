@@ -101,12 +101,12 @@ The following information is required to fulfill a request to create these proje
 - Dates your study will run
 - Number of projects and sub-groups you need
 - How many of the following you would like in your project(s):
-    - Labels
-    - Milestones
-    - Issues
-    - Branches
-    - Files
-    - Merge requests (limit 1 per branch)
+  - Labels
+  - Milestones
+  - Issues
+  - Branches
+  - Files
+  - Merge requests (limit 1 per branch)
 - Any specific names or values for the above data types (for example, a branch named 'staging')
 - Feature flags you need enabled (note that only those which have been release into production are available)
 

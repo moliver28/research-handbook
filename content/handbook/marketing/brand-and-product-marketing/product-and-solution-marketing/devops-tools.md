@@ -147,7 +147,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 ### Continuous Delivery/Deployment
 
 - [Spinnaker](https://www.spinnaker.io/)
-    - [Armory](https://www.armory.io/)
+  - [Armory](https://www.armory.io/)
 - [Go CD](https://www.gocd.org/index.html)
 - [Puppet Pipelines](https://puppet.com/products/puppet-pipelines)
 - [Cloudbees Codeship](https://codeship.com/)

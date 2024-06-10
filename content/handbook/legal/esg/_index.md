@@ -52,6 +52,53 @@ All team members and volunteer activities must adhere to the [GitLab Philanthrop
 
 As with our unique ways of working, GitLab and its team members have identified and sought out opportunities for impact that speak not only to our [values](/handbook/values/) but also to our [all-remote](/handbook/company/culture/all-remote/guide/) nature. To review previous opportunities that team members participated in, visit the [historical activities page](/handbook/people-group/givelab-volunteer-initiatives/#gitlab-donation-drives).
 
+#### GiveLab Champions
+
+**GiveLab Champions overview**
+
+The GiveLab Champions are team members who are passionate about giving back to their communities and want to encourage other team members to do the same.
+
+GiveLab Champions self-identify to participate in the voluntary Champions group, managed by the ESG team. The GiveLab Champions help activate the GiveLab signature program (launching Fall of 2024), but also work to organize and promote volunteer opportunities year-round.
+
+**The importance of GiveLab Champions**
+
+GiveLab Champions help team members build trust through social connections, build connections within their communities, and help GitLab provide meaningful opportunities for team members to give back. The GiveLab Champions ensure global voices are heard and relevant causes are represented based on where team members live. GiveLab Champions help to make GitLab a better place to work.
+
+**Team member benefits of volunteering**
+
+- Champions introduce new and current team members to GitLab’s culture and help to build and maintain engagement
+- Champions help build trust through social connections
+- Champions have the opportunity to develop professional and leadership skills, build relationships across the company and make a difference at work and in local communities
+- Champions can network and provide positive impacts to the business
+
+**GiveLab Champion responsibilities**
+
+- Recommend local [Registered Nonprofit Organizations](https://handbook.gitlab.com/handbook/legal/philanthropy-policy/#who-we-support) that meet GitLab’s eligibility criteria for volunteer activities
+- Help organize local volunteer events for team members to participate in
+- Provide recommendations to the ESG Team for virtual volunteer opportunities
+- Encourage team members to volunteer
+- Help plan and execute the GiveLab signature program
+- Participate in quarterly Champion group meetings
+- Provide feedback to the ESG team on the GiveLab and ESG Programs
+
+**Time commitment**
+
+The time commitment for a GiveLab Champion is estimated to be 3-5 hours per quarter. Participation can vary throughout the year.
+
+**Selection criteria**
+
+- The team member must be performing in their role and not part of any performance management process as confirmed by the People Group
+- Must be a full-time GitLab team member. This includes team members employed through a PEO or who contract with CXC or directly with GitLab IT BV
+- At least 3-month tenure at GitLab
+- Approval from your direct manager and support to commit the time and to use this leadership role as a professional development opportunity
+- A minimum one-year commitment in the role but understanding this may change to less and can be more
+
+**Selection process**
+
+- Interested team members should complete the [GiveLab Champions survey](https://docs.google.com/forms/d/e/1FAIpQLSf1Nx999ruN-_Ja0T6nd-ClkNOMRXNEEj-P40R7rQ64iV7ABQ/viewform) expressing their interest
+- Team members must confirm that they have approval from their manager to participate
+- The ESG Team evaluates interest at a minimum on a monthly cadence and will reach out to the interested individual for follow up questions
+
 #### In Kind Support
 
 **GitLab for Nonprofits**

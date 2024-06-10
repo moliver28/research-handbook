@@ -29,9 +29,9 @@ Everyone can contribute. See something you'd like to discuss or iterate on? Star
 
 - Create the DevOps Platform Category
 - Support sales in land and expand motion:
-   - Bottoms up driving awareness in Developer and Operations professional personas
-   - Tops down with purpose tops down marketing to owners of DevOps Tools, CTO, CIO, CISO, VP of Application Development
-   - Land and expand requires both bottoms up and tops down
+  - Bottoms up driving awareness in Developer and Operations professional personas
+  - Tops down with purpose tops down marketing to owners of DevOps Tools, CTO, CIO, CISO, VP of Application Development
+  - Land and expand requires both bottoms up and tops down
 
 #### Marketing Pillars
 
@@ -48,9 +48,9 @@ Everyone can contribute. See something you'd like to discuss or iterate on? Star
 
 - Simplify motions and increase collaboration with the 3 GTM Motions
 - Continue to drive levers identified in FY21 Project Compass, including:
-    - Scale ABM Program
-    - Improve Inquiry to SAO conversion rates
-    - Increase Free.com and open source conversion
+  - Scale ABM Program
+  - Improve Inquiry to SAO conversion rates
+  - Increase Free.com and open source conversion
 - Align with sales with the 4x2 segment strategies
 - Build partners into our marketing motions
 - Help develop marketing team-members with training and mentoring
@@ -86,10 +86,10 @@ Internal only - search for `GTM Slides - w Data`
 <!-- DO NOT CHANGE ANCHOR -->
 
 - Quarterly Epic to present a proposed set of sales plays to deliver across the 3 GTM Motions
-    - PMMs list their proposed sales plays along with expected delivery dates in the Epic
-    - Sales Enablement (@dcsomers @tanuja) review the proposed delivery dates and add expected dates for enablement sessions.
-    - Sales Leadership (@mpyle @ronell) review the proposed plays and approve or provide input/requests on changes.
-    - If plans/priorities change they will be communicated at minimum via a comment in the issue/Epic as the SSoT.
+  - PMMs list their proposed sales plays along with expected delivery dates in the Epic
+  - Sales Enablement (@dcsomers @tanuja) review the proposed delivery dates and add expected dates for enablement sessions.
+  - Sales Leadership (@mpyle @ronell) review the proposed plays and approve or provide input/requests on changes.
+  - If plans/priorities change they will be communicated at minimum via a comment in the issue/Epic as the SSoT.
 - Once agreed between sales and marketing, add campaign and enablement dates to [calendar](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1300837366) as the SSoT
 
 ### TOPO Marketing Model
@@ -149,18 +149,18 @@ _The list below includes potential and recommended items to include in a GTM Mot
 **Potential/Recommended Pieces of a GTM Motion:**
 
 - [Solution GTM Strategy Doc](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/), including:
-    - Buyer personas
-    - Messaging and positioning framework
-    - Market landscape
-    - Product capabilities
-    - etc.
+  - Buyer personas
+  - Messaging and positioning framework
+  - Market landscape
+  - Product capabilities
+  - etc.
 - [Campaign Brief(s)](/handbook/marketing/plan-fy22/#gtm-motion-campaign)
 - [Sales Play(s)](/handbook/marketing/plan-fy22/#sales-plays)
 - Supporting content
-    - Buyer journey content (including awareness, consideration, and decision)
-    - Competitive assets
-    - Analyst relations content and activitie
-    - Customer references
+  - Buyer journey content (including awareness, consideration, and decision)
+  - Competitive assets
+  - Analyst relations content and activitie
+  - Customer references
 - Alliance partner joint GTM campaigns and activities
 - Channel partner campaigns
 - Web ROI model
@@ -333,7 +333,7 @@ These events are a great opportunity to test new messaging, discuss new product 
 
 - Write cohesive event-specific messaging and positioning across event (emails, landing pages, ads, booth, promotional assets, etc.)
 - Consult on topics, content, and activities at the event to engage the right personas and segements
-   - example: for AWS re:Invent, PMM define the target personas, and suggest activities and topics to engage those personas
+  - example: for AWS re:Invent, PMM define the target personas, and suggest activities and topics to engage those personas
 - Review email and landing page copy for technical accuracy and consistent messaging/positioning
 - 60 second pitch (in collaboration with TMM)
 - Recruit speakers for sponsored speaking sessions
@@ -358,7 +358,7 @@ These events are a great opportunity to test new messaging, discuss new product 
 
 - Digital Marketing: Digital Ads Strategy (Paid Search, Paid Social)
 - ABM: Demandbase ABM targeting
-   - For design isssue, is that opened by ABM
+  - For design isssue, is that opened by ABM
 
 **Responsibilities: Brand**
 
@@ -378,7 +378,7 @@ These events are a great opportunity to test new messaging, discuss new product 
 - Setting up Drift chatbot and tracking to set meetings in advance
 - In-booth meeting setting processes
 - Landing page setup (or digital experience?)
-   - updated process needs to be defined
+  - updated process needs to be defined
 
 ### GTM 4x2 - Strategy by Sales Segment
 
@@ -488,6 +488,6 @@ The GTM Motions will each have an epic, where all teams can reference plans and 
 - The "Scrum of Scrums" kanban issue board is based on the GTM Motion labels and can be found at the gitlab.com level under GTM Motions FY22
 
 - Main Epic: [https://gitlab.com/groups/gitlab-com/marketing/-/epics/1785](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1785)
-    - CI/CD Epic: [https://gitlab.com/groups/gitlab-com/marketing/-/epics/1821](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1821)
-    - DevOps Platform Epic: [https://gitlab.com/groups/gitlab-com/marketing/-/epics/1822](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1822)
-    - GitOps Epic: [https://gitlab.com/groups/gitlab-com/marketing/-/epics/1823](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1823)
+  - CI/CD Epic: [https://gitlab.com/groups/gitlab-com/marketing/-/epics/1821](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1821)
+  - DevOps Platform Epic: [https://gitlab.com/groups/gitlab-com/marketing/-/epics/1822](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1822)
+  - GitOps Epic: [https://gitlab.com/groups/gitlab-com/marketing/-/epics/1823](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1823)

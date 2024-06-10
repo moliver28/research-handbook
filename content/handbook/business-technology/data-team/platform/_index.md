@@ -87,7 +87,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 - Prep Schema: The schema in the `PREP` database where [source models](/handbook/business-technology/data-team/platform/dbt-guide/#source-models) are materialized.
 - Audience: The primary users of the data.
 - SLO: Service Level Objective. Our SLO is the time between real-time and the data made available for consumption.
-   - Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
+  - Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
 - `x` indicates undefined or not run
 
 | [Data Source](/handbook/business-technology/data-team/platform/pipelines) | Pipeline | Raw Schema | Prep Schema | Audience | RF / SLO | MNPI | Tier |
@@ -181,9 +181,9 @@ Sensitive data is locked down through the security paradigms listed below;
 
 - [Customer Success Dashboards](https://drive.google.com/open?id=1FsgvELNmQ0ADEC1hFEKhWNA1OnH-INOJ)
 - [Netsuite](https://www.youtube.com/watch?v=u2329sQrWDY)
-    - [Netsuite and Campaign Data](https://drive.google.com/open?id=1KUMa8zICI9_jQDqdyN7mGSWSLdw97h5-)
+  - [Netsuite and Campaign Data](https://drive.google.com/open?id=1KUMa8zICI9_jQDqdyN7mGSWSLdw97h5-)
 - [Version (pings)](https://drive.google.com/file/d/1S8lNyMdC3oXfCdWhY69Lx-tUVdL9SPFe/view)
-    - Note that up until October 2019, the data team referred to the entire **version** data source as "pings". However, usage ping is only one subset of the version data source which is why we now use "version" or "version app" to refer to the version.gitlab.com *data source* and "usage data" or "usage pings" or "pings" to refer to the [specific usage data feature](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html) of the version data source. In the context of Data extraction, when it comes to `Service ping` data ingestion, specific details should be found in the [Service ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) page or in the [Readme.md](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/README.md) page for Service ping
+  - Note that up until October 2019, the data team referred to the entire **version** data source as "pings". However, usage ping is only one subset of the version data source which is why we now use "version" or "version app" to refer to the version.gitlab.com *data source* and "usage data" or "usage pings" or "pings" to refer to the [specific usage data feature](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html) of the version data source. In the context of Data extraction, when it comes to `Service ping` data ingestion, specific details should be found in the [Service ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) page or in the [Readme.md](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/README.md) page for Service ping
 - [Salesforce](https://youtu.be/KwG3ylzWWWo)
 - [Zendesk](https://drive.google.com/open?id=1oExE1ZM5IkXcq1hJIPouxlXSiafhRRua)
 
@@ -252,9 +252,9 @@ To get access to snowflake support portal, please follow the below steps.
 - This registration will send a welcome email to gitlab mail with the subject `Welcome to the Snowflake Community`. In the mail it will ask you to finish the registration as part of that you will be asked to set your password for the community portal.
 - Once done login again to your snowflake community account and on the home page, click `submit case`. For the first time, the user who do not have access to submit a case with snowflake. It will ask you to fill in the form for access.
 - In the form select the access for already snowflake customer. On the next page, it will ask for information `Account Name`, `Cloud Name`, and  `Region Name`. Below is one way to pull this information from the snowflake console.
-    - `Account Name` - select CURRENT_ACCOUNT();
-    - `Region Name`- select CURRENT_REGION();
-    - `Cloud Name` - Based on the [region name](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html#snowflake-region-ids)  value we can identify the cloud name.
+  - `Account Name` - select CURRENT_ACCOUNT();
+  - `Region Name`- select CURRENT_REGION();
+  - `Cloud Name` - Based on the [region name](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html#snowflake-region-ids)  value we can identify the cloud name.
 
 - Once done you should receive the acknowledgment mail with the subject `[Request received] Case#` instantly. In case you don't receive the mail resubmit the form.
 - Post that you will receive confirmation mail within 24 hours on your request with the subject line  `Case# -Self Register - Enable Case access`
@@ -375,14 +375,14 @@ Here are the proper steps for provisioning a new user and user role:
 
 - Make sure we have an issue in the GitLab Data Team project linking the original request with the `Provisioning` label applied
 - Login to Snowflake and switch to `securityadmin` role
-    - All roles should be under `securityadmin` ownership
+  - All roles should be under `securityadmin` ownership
 - Copy the [`user_provision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_provision.sql) script and replace the email, firstname, and lastname values in the initial block
 - If a password is needed, use [Password Generator](https://passwordsgenerator.net/) to create one
-    - Send username and password credentials to user with [One Time Secret](https://onetimesecret.com/) or via Slack
+  - Send username and password credentials to user with [One Time Secret](https://onetimesecret.com/) or via Slack
 - Document in Snowflake [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
-    - Add the user and user role you created
-    - Assign the user role to new user
-    - Assign any additional roles to user
+  - Add the user and user role you created
+  - Assign the user role to new user
+  - Assign any additional roles to user
 - Ensure the user is assigned the application in Okta
 - Ensure the user is assigned to the `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
 
@@ -391,7 +391,7 @@ Here are the proper steps for deprovisioning existing user:
 - Snowflake deprovision should be done via an offboarding issue or access request issue.
 - Make sure we have an issue in the GitLab Data Team project linking the original source request with the `Deprovisioning` label applied.
 - Login to Snowflake and switch to `securityadmin` role
-    - All roles should be under `securityadmin` ownership.
+  - All roles should be under `securityadmin` ownership.
 - Copy the [`user_deprovision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_deprovision.sql) script and replace the USER_NAME. The reason for not removing and leaving the user in snowflake and setting disabled = TRUE is to have a record of when the user lost access.
 - Remove the user from `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
 - Remove the user records in Snowflake [roles.yml](https://gitxlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
@@ -618,9 +618,9 @@ If you're running into query time limits please check your query for optimisatio
 
 - Warehouses are set as t-shirt sizes. Larger warehouses are more costly for GitLab
 - Consider using a running warehouse
-   - If you resume a paused warehouse, there is a initial start cost
-   - Every warehouse suspends after a set period, but when idle (time between query result and the suspend time), we still consume snowflake credits
-   - In general we don't spend more money if we run concurrent queries.
+  - If you resume a paused warehouse, there is a initial start cost
+  - Every warehouse suspends after a set period, but when idle (time between query result and the suspend time), we still consume snowflake credits
+  - In general we don't spend more money if we run concurrent queries.
 
 - The query timeout in Snowflake is set to 30 minutes for the `REPORTING` warehouse.
 

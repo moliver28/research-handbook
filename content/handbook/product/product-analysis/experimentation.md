@@ -1,9 +1,6 @@
 ---
-
 title: Experimentation Design & Analysis
 ---
-
-<!------->
 
 ## Overview
 
@@ -106,22 +103,22 @@ The last part of the formula or the **because** portion refers to the rationale 
 
 Start with defining the metrics that you will use to determine success in the experiment. The different types of metrics that are defined are outlined in more detail below, but here are some additional components that should be considered when going through the thought process of outlining an experiment:
 
-  1. The reasoning behind selecting the target metrics over conversion metrics
-    - Ex: low traffic/volume would bring our velocity to a screeching halt if we use conversion metrics, we would have to run the experiment for 9 months to reach significance
-    - Ex: the experiment is intended to drive traffic to a page, not necessarily influence conversion
+1. The reasoning behind selecting the target metrics over conversion metrics
+   - Ex: low traffic/volume would bring our velocity to a screeching halt if we use conversion metrics, we would have to run the experiment for 9 months to reach significance
+   - Ex: the experiment is intended to drive traffic to a page, not necessarily influence conversion
 
-  2. The assumptions we are making about the collision (or lack thereof) of concurrent experiments (if there are two or more experiments targeting the same population of users)
-    - Ex: we assume that a concurrent experiment will not be a material impact on this experiment's target metric
+2. The assumptions we are making about the collision (or lack thereof) of concurrent experiments (if there are two or more experiments targeting the same population of users)
+   - Ex: we assume that a concurrent experiment will not be a material impact on this experiment's target metric
 
-  3. The risks we are assuming by proceeding with the given metrics, experiment sequencing, and experiment design
-    - Ex: Higher clicks might not lead to higher conversion, it's possible that we have a negative impact on down-funnel metrics
+3. The risks we are assuming by proceeding with the given metrics, experiment sequencing, and experiment design
+   - Ex: Higher clicks might not lead to higher conversion, it's possible that we have a negative impact on down-funnel metrics
 
-  4. Why we have the appetite for those risks
-    - Ex: We want to be able to keep the business moving and continue iterating on experiments
+4. Why we have the appetite for those risks
+   - Ex: We want to be able to keep the business moving and continue iterating on experiments
 
-  5. Whether we will do a longer-term follow-up to try to look at conversion metrics. (It may be that a longer-term follow-up measurement is not even possible due to experiments colliding)
-    - Ex: We will follow-up in 2 months to see what conversions look like for the control and candidate
-    - Ex: We will not be able to do a follow-up to see conversion because of the following experiments colliding
+5. Whether we will do a longer-term follow-up to try to look at conversion metrics. (It may be that a longer-term follow-up measurement is not even possible due to experiments colliding)
+   - Ex: We will follow-up in 2 months to see what conversions look like for the control and candidate
+   - Ex: We will not be able to do a follow-up to see conversion because of the following experiments colliding
 
 ##### How to identify success metrics
 
@@ -140,30 +137,30 @@ There are three different kinds of metrics that can be defined for an experiment
 
 **1.Primary Metrics**
 
-  These are the main KPIs or metrics that you expect to be impacted by the experiment. Usually these metrics will be used to define the success or failure of the experiment using statistical significance - be sure to consult the Product Analysis team to identify how long it will take these metrics to hit statistical significance.
+These are the main KPIs or metrics that you expect to be impacted by the experiment. Usually these metrics will be used to define the success or failure of the experiment using statistical significance - be sure to consult the Product Analysis team to identify how long it will take these metrics to hit statistical significance.
 
-  Examples:
+Examples:
 
-  - If launching an experiment that affects trials, a primary metric you could use is the count of trials that are being created from this experiment
-  - If launching an experiment that affects conversions, a primary metric you could use is the count of conversions generated from this experiment
+- If launching an experiment that affects trials, a primary metric you could use is the count of trials that are being created from this experiment
+- If launching an experiment that affects conversions, a primary metric you could use is the count of conversions generated from this experiment
 
 **2. Secondary Metrics**
 
-  These are any metrics that you expect could be impacted by the experiment but are not going to be the main metrics that we will use to declare success or failure for an experiment.
+These are any metrics that you expect could be impacted by the experiment but are not going to be the main metrics that we will use to declare success or failure for an experiment.
 
-  Examples:
+Examples:
 
-  - If your experiment specifically is looking at the number of trials, you could also place conversions as a secondary metric as the increase in trials would theoretically impact the number of conversions.
-  - If your experiment is targeting adoption of a specific stage, you could place Stages per Organization as a secondary metric as the increase in adoption of a stage could lead to additional stages being adopted.
+- If your experiment specifically is looking at the number of trials, you could also place conversions as a secondary metric as the increase in trials would theoretically impact the number of conversions.
+- If your experiment is targeting adoption of a specific stage, you could place Stages per Organization as a secondary metric as the increase in adoption of a stage could lead to additional stages being adopted.
 
 **3. Leading Indicators**
 
-  Leading indicators are a directional determinant of the performance of an experiment based on the volume of front-end events between variants
+Leading indicators are a directional determinant of the performance of an experiment based on the volume of front-end events between variants
 
-  Examples:
+Examples:
 
-  - If your experiment is looking at visits to a new landing page, you could place pageviews as a leading indicator
-  - If your experiment is looking at new CTAs being added to the product, you could place button clicks as a leading indicator
+- If your experiment is looking at visits to a new landing page, you could place pageviews as a leading indicator
+- If your experiment is looking at new CTAs being added to the product, you could place button clicks as a leading indicator
 
 #### Experiment types
 

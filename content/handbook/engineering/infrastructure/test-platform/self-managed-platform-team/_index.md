@@ -125,13 +125,13 @@ Anything that would be assigned a weight of 8 or larger should be broken down.
 ### Status Updates
 
 * By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
-     * Format for weekly update:
-          * Date of Update (YYYY-MM-DD)
-          * Brief update (~sentence or couple bullets) for each of these four bullets:
-               * Status update - Progress has been updated to X %.
-               * What was done :white_check_mark: - Unblocked blockers, any other progress acheived
-               * Next steps :construction_worker:
-               * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
+  * Format for weekly update:
+    * Date of Update (YYYY-MM-DD)
+    * Brief update (~sentence or couple bullets) for each of these four bullets:
+      * Status update - Progress has been updated to X %.
+      * What was done :white_check_mark: - Unblocked blockers, any other progress acheived
+      * Next steps :construction_worker:
+      * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
 * ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionaire on Slack.
 
 ## Test Platform process across product sections

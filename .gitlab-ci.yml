@@ -139,7 +139,9 @@ build:
 #
 ###################################
 pages:
+  image: alpine:latest
   stage: deploy
+  dependencies: [build]
   environment:
     # tracking DORA deployment frequency
     name: $ENVIRONMENT
@@ -148,6 +150,7 @@ pages:
   variables:
     ENVIRONMENT: production
     HUGO_BASEURL: https://handbook.gitlab.com/
+    GIT_STRATEGY: none
   pages:
     path_prefix: "$PAGES_PREFIX"
   artifacts:
@@ -163,6 +166,8 @@ pages:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+      when: manual
+      allow_failure: true
 
 ####################################
 ##
@@ -278,24 +283,3 @@ notify_slack_on_build_failures:
   script: ./scripts/send-failure-notification-to-slack.sh
   rules:
   - <<: *default-branch
-
-####################################
-##
-## MAINTENANCE STAGE
-##
-####################################
-
-modules:tidy:
-  image: $HUGO_IMAGE
-  stage: maintenance
-  allow_failure: true
-  rules:
-    - <<: *merge-request-only
-  needs: []
-  script:
-    - apk update
-    - apk upgrade
-    - apk add go
-    - hugo mod tidy
-    - echo "If this job failed, please commit changes to the go.mod and go.sum files"
-    - git diff --exit-code go.mod go.sum

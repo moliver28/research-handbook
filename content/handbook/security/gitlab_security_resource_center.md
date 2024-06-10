@@ -67,14 +67,14 @@ The following links contain frequently asked security, legal & privacy, and avai
 ### Disaster recovery
 
 - [Disaster recovery plan](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md)
-- [Database disaster recovery](/handbook/engineering/infrastructure/database/disaster_recovery.html)
+- [Database disaster recovery](/handbook/engineering/infrastructure/database/disaster-recovery/)
 - [Database overview](/handbook/engineering/infrastructure/database/)
 
 ### Endpoint management
 
 - [Endpoint management at GitLab](https://internal.gitlab.com/handbook/it/endpoint-tools/)
-    - [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/)
-    - [EDR](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/)
+  - [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/)
+  - [EDR](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/)
 - [Use Gitleaks as a pre-commit git hook on laptops]({{< ref "gitleaks" >}})
 
 ### GitLab.com hardening techniques
@@ -100,7 +100,7 @@ The following links contain frequently asked security, legal & privacy, and avai
 - [Logging and monitoring architecture](/handbook/engineering/infrastructure/production/architecture/#monitoring-and-logging)
 - [GitLab audit logging policy]({{< ref "audit-logging-policy" >}})
 - [Log and audit requests process]({{< ref "log_requests" >}})
-- [Infrastructure department KPIs](/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability)
+- [Infrastructure department KPIs](/handbook/engineering/infrastructure/performance-indicators/)
 - [Infrastructure production runbooks](https://gitlab.com/gitlab-com/runbooks/)
 
 ### Network security

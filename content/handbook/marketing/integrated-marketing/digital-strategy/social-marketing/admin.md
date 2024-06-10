@@ -89,9 +89,9 @@ Key parameters on sharing blogs
 - Schedule each blog at least 1x across Twitter, Facebook, and LinkedIn, unless the blog would only benefit from key niche audiences on specific channels (e.g. community-oriented posts for Twitter, or job related ones on LinkedIn). Our audiences do have a great amount of cross-pollination, so many blogs will make sense across channels.
 - Consider scheduling additional timeslots 2-8 weeks ahead of your first scheduled posts. E.g. a new product launch, timed details are included with end dates, etc. If there are weeks between posts, using the same copy is fine. However, if these posts would appear back-to-back week over week, consider editing the copy to be different.
 - General blog coverage without subjective needs added may look like this:
-   - Copy 1 scheduled on FB, TW, LI
-   - Copy 1 scheduled on TW again in 2 weeks
-   - Copy 2 scheduled on FB, TW, and LI approx 4 weeks from the original scheduled date above.
+  - Copy 1 scheduled on FB, TW, LI
+  - Copy 1 scheduled on TW again in 2 weeks
+  - Copy 2 scheduled on FB, TW, and LI approx 4 weeks from the original scheduled date above.
 - Unless dates/times require specific publishing time windows, the specific publishing volume and timelines aren't are important as it is to dynamically create variability in our content and our topics by mixing blogs and topics with other posts.
 
 ## Organic Social and GTM Motions

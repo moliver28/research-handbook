@@ -99,17 +99,17 @@ If you would like to see the activity logging process in action, please watch th
 Gainsight Timeline also displays the following Salesforce activities. While these are synced, they do **not** impact CSM health scorecards, `Last Activity Date`, or `Last Timeline Activity` since Salesforce activities are typically sales-related.
 
 - Source:
-   - Opportunities
-   - Accounts
+  - Opportunities
+  - Accounts
 - Type:
-   - Included: `Call`, `Demo`, `Workshop
-   - Purposefully **excluded**: `Email` and `Other`
-      - There are certain email activities classified as `Other` thus why they're excluded (noise to signal)
+  - Included: `Call`, `Demo`, `Workshop`
+  - Purposefully **excluded**: `Email` and `Other`
+    - There are certain email activities classified as `Other` thus why they're excluded (noise to signal)
 
 ### Limitations
 
 - Any Salesforce activity that does **not** have any content in the description
-   - Example: a call with a subject and no body will [fail to sync](https://support.gainsight.com/Gainsight_NXT/Timeline/02Admin_Guides/Integrate_Salesforce_Activities_in_Gainsight_Timeline#Limitations)
+  - Example: a call with a subject and no body will [fail to sync](https://support.gainsight.com/Gainsight_NXT/Timeline/02Admin_Guides/Integrate_Salesforce_Activities_in_Gainsight_Timeline#Limitations)
 
 ## BCCing Emails
 

@@ -146,10 +146,10 @@ En plus des conseils donnés à l'échelle globale dans la section Communicating
 - Désabonnez-vous de tous les MR qui seront probablement résolus pendant votre absence, ce qui vous évitera d'avoir à traiter tous les e-mails qu'ils vous enverront à votre retour.
 - Mettez en place des filtres de messagerie pour classer les e-mails dans des catégories que vous pourrez traiter un par un à votre retour.
 - Déconnectez-vous de Slack et de Gmail de l'une ou l'autre de ces façons : REMARQUE : Time Off by Deel est censé désactiver les notifications Slack sur votre téléphone et activer le mode DND. Mais juste au cas où, vous pouvez faire l'une de ces opérations:
-    - vous déconnecter de Slack et de Gmail sur votre téléphone, ou;
-    - supprimer Slack et Gmail de votre téléphone, ou;
-    - mettre en pause les applications Slack et Gmail sur votre téléphone, ou;
-    - configurer manuellement Slack et Gmail pour qu'ils n'envoient pas de notifications sur votre téléphone.
+  - vous déconnecter de Slack et de Gmail sur votre téléphone, ou;
+  - supprimer Slack et Gmail de votre téléphone, ou;
+  - mettre en pause les applications Slack et Gmail sur votre téléphone, ou;
+  - configurer manuellement Slack et Gmail pour qu'ils n'envoient pas de notifications sur votre téléphone.
 
 #### 10. Engagements de la société en matière de sensibilisation et de formation au droit à la déconnexion
 

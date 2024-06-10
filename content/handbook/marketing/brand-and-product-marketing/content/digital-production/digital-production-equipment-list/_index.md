@@ -62,7 +62,7 @@ twitter_creator: "@gitlab"
 ##### Camera
 
 - Camera:
-   - The Digital Production team is awaiting the release of the [Sony a6400](https://www.bhphotovideo.com/c/product/1453770-REG/sony_ilce_6400l_b_alpha_a6400_mirrorless_digital.html), which is set to debut at the end of March 2021.
+  - The Digital Production team is awaiting the release of the [Sony a6400](https://www.bhphotovideo.com/c/product/1453770-REG/sony_ilce_6400l_b_alpha_a6400_mirrorless_digital.html), which is set to debut at the end of March 2021.
 
    If you are in need of a camera before the Sony a6400 release, we recommend considering the [Sony A7C](https://www.bhphotovideo.com/c/product/1592776-REG/sony_alpha_a7c_mirrorless_digital.html) as listed in the packages below.
 - Camera Lens: TBD - Coming Soon!
@@ -155,13 +155,13 @@ This package is very advanced and intended for those with a high need of profess
 
 ##### Audio
 
- - Lavalier microphone kit - [Example](https://www.bhphotovideo.com/c/product/1385594-REG/sennheiser_ew_112p_g4_a1_ew_112p_g4_camera.html?gclid=CjwKCAiAkan9BRAqEiwAP9X6UcPXPNWTfrUHoz9YxiCTsjaXN0MTO3lKNQGHjHAO9Ys68UAY2aOA2xoC3jkQAvD_BwE&pcur=CAD)
- - Adapter to connect Lavalier microphone to Camera - [Example](https://www.bhphotovideo.com/c/product/1537930-REG/kondor_blue_kb_mxlr_16_bk_mini_xlr_male_to.html).
- - Shotgun Micrphone (for camera) - [Example](https://www.bhphotovideo.com/c/product/1183909-REG/rode_videomicro_compact_on_camera.html?sts=pi&pim=Y)
+- Lavalier microphone kit - [Example](https://www.bhphotovideo.com/c/product/1385594-REG/sennheiser_ew_112p_g4_a1_ew_112p_g4_camera.html?gclid=CjwKCAiAkan9BRAqEiwAP9X6UcPXPNWTfrUHoz9YxiCTsjaXN0MTO3lKNQGHjHAO9Ys68UAY2aOA2xoC3jkQAvD_BwE&pcur=CAD)
+- Adapter to connect Lavalier microphone to Camera - [Example](https://www.bhphotovideo.com/c/product/1537930-REG/kondor_blue_kb_mxlr_16_bk_mini_xlr_male_to.html).
+- Shotgun Micrphone (for camera) - [Example](https://www.bhphotovideo.com/c/product/1183909-REG/rode_videomicro_compact_on_camera.html?sts=pi&pim=Y)
 
 ##### Green Screen
 
- - Free Standing Green Screen - [Example](https://www.bhphotovideo.com/c/product/910676-REG/lastolite_ll_lb7622_panoramic_background_13_chromakey.html)
+- Free Standing Green Screen - [Example](https://www.bhphotovideo.com/c/product/910676-REG/lastolite_ll_lb7622_panoramic_background_13_chromakey.html)
 
 ##### Lighting
 

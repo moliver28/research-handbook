@@ -82,7 +82,7 @@ We follow these guidelines when submitting MRs for review when the change is wit
 ### Issue Boards
 
 * [Security Policies Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754674?milestone_title=Started)
-   * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
+  * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
 * [Security Policies Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420731?label_name%5B%5D=group%3A%3Asecurity%20policies)
   * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
 * [Security Policies EM Board](https://gitlab.com/groups/gitlab-org/-/boards/4738985)

@@ -67,13 +67,13 @@ The Executive Sponsorship Advocates are nominated senior leaders by the E-Group 
 **A sponsor at GitLab is:**
 
 - A Senior Leader at a minimum [job grade 10+]({{< ref "compensation-calculator#job-grades" >}}) and is not the sponsees direct manager.
-    - The senior leader should be a People Manager or Manager of Managers
+  - The senior leader should be a People Manager or Manager of Managers
 - Must have been at GitLab for 6+ months
 - Be able to commit to the defined duration of the sponsorship program which will include
-    - Sponsor Training
-    - Kick-off calls
-    - Bi-weekly 1-1 with Sponsee
-    - Be able to fully commit and be held accountable for their role within the Sponsorship Program
+  - Sponsor Training
+  - Kick-off calls
+  - Bi-weekly 1-1 with Sponsee
+  - Be able to fully commit and be held accountable for their role within the Sponsorship Program
 
 **As a Sponsor you should be:**
 
@@ -128,7 +128,7 @@ The Executive Sponsorship Advocates are nominated senior leaders by the E-Group 
 ## Role of Manager
 
 - The manager will support the team member in ensuring that they have a Individual Growth Plan (IGP)
-    - As well reassess the IGP at regular intervals during the sponsorship program
+  - As well reassess the IGP at regular intervals during the sponsorship program
 - The manager will regularly check in on the progress of the Sponsorship Program with their report
 - The manager will regularly report on the success of the program to the leadership advocates of the program
 - Participate in a manager of sponsees session

@@ -54,11 +54,11 @@ Once the SA leader(s) has identified a suitable location (city) for the team off
 
 - Do not underestimate the value of constantly accessible coffee, tea and water, as well as healthy snacks - cordinating with the event organizer
 - Consider the conference rooms carefully - you'll be spending a lot of time in them
-    - Does the room have adequate lighting?
-    - Does it have natural light?
-    - Where are the Restroom facilites (WC, toilets, washrooms) nearby?
-    - Temperature controls independent of the rest of the building? (AC (aircon)/Heating)
-    - Dedicated smoking area nearby?
+  - Does the room have adequate lighting?
+  - Does it have natural light?
+  - Where are the Restroom facilites (WC, toilets, washrooms) nearby?
+  - Temperature controls independent of the rest of the building? (AC (aircon)/Heating)
+  - Dedicated smoking area nearby?
 
 ## Weeks leading to event start date
 

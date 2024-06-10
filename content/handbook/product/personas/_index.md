@@ -325,13 +325,13 @@ I’m a software engineer in my organization with a keen interest in quality and
 - **A cloud management console**: To access the infrastructure (Google Cloud Platform, Amazon Web Services, Azure)
 - **Environment Provisioning**: Terraform and Ansible
 - **Triage and mitigation**:
-    - Docker - to reproduce issues and emulate environments
-    - Accounts for different environments - for testing and infrastructure
-    - Data repositories and generators
-    - Logging tools
-        - Elastic Stack (Elasticsearch, Kibana, Beats, Logstash)
-        - Sentry
-        - Prometheus
+  - Docker - to reproduce issues and emulate environments
+  - Accounts for different environments - for testing and infrastructure
+  - Data repositories and generators
+  - Logging tools
+    - Elastic Stack (Elasticsearch, Kibana, Beats, Logstash)
+    - Sentry
+    - Prometheus
 
 ##### Collaboration with other teams
 
@@ -533,13 +533,13 @@ I’m the firefighter of the Security team. My objective is to **prevent malicio
 - **Google Docs**: Real-time documentation
 - **Terminal, coding environment**: Mostly Python, some Go - for building and/or running tools
 - **The Hive**: A security incident management tracking tool
-    - Cortex - part of The Hive, allows for easy automation
+  - Cortex - part of The Hive, allows for easy automation
 - **A cloud management console**: To access the infrastructure
 - **Various tools for triage and mitigation**:
-    - Docker - to reproduce security issues and test approaches
-    - Accounts for different environments - to test against
-    - ELK stack - to go over logs
-    - Stackdriver or BigQuery - long-term storage, used for incidents that are open for a long period of time
+  - Docker - to reproduce security issues and test approaches
+  - Accounts for different environments - to test against
+  - ELK stack - to go over logs
+  - Stackdriver or BigQuery - long-term storage, used for incidents that are open for a long period of time
 
 ##### Collaboration with other teams
 

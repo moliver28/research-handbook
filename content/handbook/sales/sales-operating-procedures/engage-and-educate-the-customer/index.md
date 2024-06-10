@@ -65,50 +65,50 @@ Work with your extended team to analyze your territory and build your strategy. 
 Your Routes to Market/Territory Plan will help you determine which GitLab resources to use to gain a point of entry into prospective opportunities. Use the list below with your team to determine the best activities to make contact with an opportunity representative.
 
 - **Marketing**
-    - What external events attract my customers?
-    - What internal events might apply?
-        - **External:**
-            - Trade Shows
-        - **Internal (Growth or Land and Expand):**
-            - Lunch and Learns
-            - Workshops
-        - **Networking**
-            - Meetups
-        - **[Marketing Campaigns](https://about.gitlab.com/resources/)**
+  - What external events attract my customers?
+  - What internal events might apply?
+    - **External:**
+      - Trade Shows
+    - **Internal (Growth or Land and Expand):**
+      - Lunch and Learns
+      - Workshops
+    - **Networking**
+      - Meetups
+    - **[Marketing Campaigns](https://about.gitlab.com/resources/)**
 - **Division Programs**
-    - Are there specific company initiatives that might provide an entry point?
-        - The goal is to pick off individual programs within company divisions to build momentum towards capturing your market
+  - Are there specific company initiatives that might provide an entry point?
+    - The goal is to pick off individual programs within company divisions to build momentum towards capturing your market
 - **Cloud Provider Partnerships**
-    - Are they using the Cloud? - Which ones?
-        - Partner with those that your customer uses as a way to leverage an entry point.
-        - Work with our Channel Team to get to the right contacts with the right value proposition
-        - You have to sell the Cloud provider on what’s in it for them:
-            - GitLab accelerates Cloud Adoption - drives usage growth
+  - Are they using the Cloud? - Which ones?
+    - Partner with those that your customer uses as a way to leverage an entry point.
+    - Work with our Channel Team to get to the right contacts with the right value proposition
+    - You have to sell the Cloud provider on what’s in it for them:
+      - GitLab accelerates Cloud Adoption - drives usage growth
 - **System Integrator (SI) Partnerships**
-    - Do they do their own IT support or hire it out? - Which ones?
-        - Work with the Channel Team to get to the right contacts.
-        - Use this as a way to “create an internal champion”
-            - If they are currently not a GitLab partner, make them one
-            - Sell them on “thought leadership, speed to delivery, revenue stream.”
+  - Do they do their own IT support or hire it out? - Which ones?
+    - Work with the Channel Team to get to the right contacts.
+    - Use this as a way to “create an internal champion”
+      - If they are currently not a GitLab partner, make them one
+      - Sell them on “thought leadership, speed to delivery, revenue stream.”
 - **Resellers**
-    - Do they buy direct or through resellers? - Which ones?
-        - Work with the Channel Team to get to the right contacts.
-        - Use this as a way to “be a force multiplier” (there is only one of you)
-            - If they are currently not a GitLab partner, make them one
-            - They typically rep a lot of products, so make it easy for them to give the GitLab Story
-                - Give them your latest briefing deck, walk them through the talking points.
-            - Sell them on “thought leadership, speed to delivery, revenue stream.”
+  - Do they buy direct or through resellers? - Which ones?
+    - Work with the Channel Team to get to the right contacts.
+    - Use this as a way to “be a force multiplier” (there is only one of you)
+      - If they are currently not a GitLab partner, make them one
+      - They typically rep a lot of products, so make it easy for them to give the GitLab Story
+        - Give them your latest briefing deck, walk them through the talking points.
+      - Sell them on “thought leadership, speed to delivery, revenue stream.”
 - **Original Equipment Manufacturers** (OEM)
-    - Are there other software technologies they currently use that might integrate with GitLab to provide **an entry point?**
-        - Work with the OEM Team or the customer to get to the right contacts.
-            - You will have to sell them on the benefits of working with us.
-                - “thought leadership, speed to delivery, revenue stream.”
-        - This can be both an entry point but also a growth strategy.
+  - Are there other software technologies they currently use that might integrate with GitLab to provide **an entry point?**
+    - Work with the OEM Team or the customer to get to the right contacts.
+      - You will have to sell them on the benefits of working with us.
+        - “thought leadership, speed to delivery, revenue stream.”
+    - This can be both an entry point but also a growth strategy.
 - **Industry Memberships**
-    - Do the executive and management staff belong to any industry groups? - Which ones?
-        - Not just the obvious ones (Tech or DevOps) but their own industry Groups (Healthcare, Manufacturing, Transportation, Financial, etc.)
-        - Meet with our Marketing Team for advice
-            - Use this as a way to gain credibility and for networking.
+  - Do the executive and management staff belong to any industry groups? - Which ones?
+    - Not just the obvious ones (Tech or DevOps) but their own industry Groups (Healthcare, Manufacturing, Transportation, Financial, etc.)
+    - Meet with our Marketing Team for advice
+      - Use this as a way to gain credibility and for networking.
 
 ## Step 4. Meeting preparation and execution
 
@@ -145,16 +145,16 @@ As a rule of thumb, here is the cadence for updating your [Command Plans](/handb
 Once you have conducted the initial qualifying meeting. You and your team should review all the data gathered in the [Command Plan](/handbook/sales/command-of-the-message/command-plan/). This includes a review of the research conducted, the discovery questions asked, how much [MEDDPPICC](/handbook/sales/meddppicc/) data was captured in the Command Plan, and what gaps you still have outstanding to capture. Depending on the level of data captured, the lead can then be evaluated according to the below listed criteria to recategorize from a lead to a <b>[Sales Accepted Opportunity](/handbook/sales/field-operations/gtm-resources/)</b>:
 
 - **Authority (Is the prospect a person with decision- making authority?)**
-    - The prospect being met is directly involved in a project or team related to the potential purchase of GitLab within this buying group, either as an evaluator, decision maker, technical buyer, or *influencer.
+  - The prospect being met is directly involved in a project or team related to the potential purchase of GitLab within this buying group, either as an evaluator, decision maker, technical buyer, or *influencer.
 - **Initiative (Is it a Small Box sale or is this a Top 2 priority?)**
-    - A Small Box opportunity is one where the buyer buys the smallest solution necessary that will solve the very specific problem they know they need to solve immediately. (**This criteria is specific to Commercial Sales**)
-    - A Top 2 Priority is an initiative the company is working on has been identified and GitLab can potentially help the initiative. Identified by either a business problem (i.e too many tools), strategic direction or modernization interest (impetus to change).
+  - A Small Box opportunity is one where the buyer buys the smallest solution necessary that will solve the very specific problem they know they need to solve immediately. (**This criteria is specific to Commercial Sales**)
+  - A Top 2 Priority is an initiative the company is working on has been identified and GitLab can potentially help the initiative. Identified by either a business problem (i.e too many tools), strategic direction or modernization interest (impetus to change).
 - **Fit (How well does the lead align with the GitLab product? )**
-    - Current DevOps or software development lifecycle tools (from conversation or credible data source)
-    - Expected entry point use case (e.g. SCM or CI)
-    - Potential seats of the first opportunity (if this is a new account or buying group)
+  - Current DevOps or software development lifecycle tools (from conversation or credible data source)
+  - Expected entry point use case (e.g. SCM or CI)
+  - Potential seats of the first opportunity (if this is a new account or buying group)
 - **Timing (How Soon Will They Buy?)**
-    - After the initial qualifying meeting with the account leader/executive, there must be a next step that is set to occur within a *60 day timeframe*. (If next step isn’t within a 60 day timeframe, the opportunity remains in stage 0).
+  - After the initial qualifying meeting with the account leader/executive, there must be a next step that is set to occur within a *60 day timeframe*. (If next step isn’t within a 60 day timeframe, the opportunity remains in stage 0).
 
 Once the lead has been evaluated according to the above criteria, it can be designated as a qualified opportunity. An OPPORTUNITY can be created in Salesforce a) when converting a LEAD to CONTACT; b) from a CONTACT. **All opportunities** should be created with a Stage = 0-Pending Acceptance regardless of how you create the OPPORTUNITY. Once the initial setup is complete, the [OPPORTUNITY Stage](/handbook/sales/field-operations/gtm-resources/) can be updated within Salesforce.
 

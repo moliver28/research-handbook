@@ -16,10 +16,14 @@ All teams in SaaS Platforms follow these guidelines so that it is easy for team-
 1. Indicate any project blockers.
 2. Briefly highlight progress since the last update.
 3. Indicate planned next steps, or mitigations required to progress.
+
 This enables other engineers and other managers to have good information about projects in an asynchronous fashion.
 
 Completed epics should remain "Open" with the ~"workflow-infra::In Progress" label.
 Update the status block in the epic description to summarize the project and share the completed status.
+
+We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) to collect the status information into top-level epics for each group.
+This automation runs several times each day, and can be triggered by [running the pipeline listed on the project page](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/pipeline_schedules).
 
 #### When a project is finished
 

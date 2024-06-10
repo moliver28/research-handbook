@@ -84,9 +84,9 @@ The list of job responsibilities is in ranked order with the highest priority ta
 
 ### Skills Development
 
- - Learning about GitLab offerings and how to position them
- - Learning about new GitLab features
- - Professional Development
+- Learning about GitLab offerings and how to position them
+- Learning about new GitLab features
+- Professional Development
 
 ### Patch-specific responsibilities
 

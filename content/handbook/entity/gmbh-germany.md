@@ -153,16 +153,16 @@ In case a woman takes parental leave subsequently to the child’s birth, the pe
 - If you are a member of the statutory health insurance, you are entitled to a maximum maternity allowance of 13 euros per day during the Maternity Protection Period. GitLab will supplement your pay so that you receive 100% of your salary for the duration of the Maternity Protection Period.
 - If you are privately insured and receive a daily sickness allowance during the Maternity Protection Period, GitLab will supplement your pay so that you receive 100% of your salary for the duration of the Maternity Protection Period.
 - If you are privately insured and will not receive a daily sickness allowance, you may qualify for a one-time payment of up to 210 euros from the [Federal Social Security Office](https://www.bundesamtsozialesicherung.de/de/mutterschaftsgeld/ueberblick/). GitLab will supplement your pay so that you receive 100% of your salary for the duration of the Maternity Protection Period.
-    - GitLab may receive reimbursement of these payments from the team member's health insurance carrier. Please provide the Absence Management team at `leaves@domain` with the name of your insurance provider and Versichertennummer (insurance number).
-    - The Absence Management team will then send payroll the team member's insurance details.
+  - GitLab may receive reimbursement of these payments from the team member's health insurance carrier. Please provide the Absence Management team at `leaves@domain` with the name of your insurance provider and Versichertennummer (insurance number).
+  - The Absence Management team will then send payroll the team member's insurance details.
 - If [eligible](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), paid Parental Leave at GitLab will start from the beginning of the Maternity Protection Period and run concurrently with any statutory allowances, if applicable.
 - If you wish to take Parental Leave directly after your Maternity Protection Period ends, you may do so. If eligible, GitLab will pay up to 16 weeks of your total leave (including Maternity Protection), the rest will be unpaid.
 
 **Parental Leave Payment**
 
 - Eligible team members may choose to receive government-funded Parental Leave Pay (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). Please note:  Any benefits received will be reduced due to the payments received by GitLab.  If a team member chooses to apply for ElterngeldPlus they should notify leaves@domain, otherwise GitLab will provide 100% of their wages for up to 16 weeks.
-    - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child’s birth and completion of the 14th month of life.
-    - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance’s amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
+  - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child’s birth and completion of the 14th month of life.
+  - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance’s amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
 
 **Applying for Parental Leave in Germany**
 
@@ -202,7 +202,7 @@ Per the [Family Care Leave Act and the Care Leave Act](https://www.bundesgesundh
 
 - Team members who need time to organize or ensure the care of a close relative in need of care in an acute care situation leave for up to ten days;
 - Team members who care for a close relative or a close relative at home can also, under certain conditions, take full or partial leave of work for up to six months.
-    - GitLab must be informed at least ten working days before the leave commences.
+  - GitLab must be informed at least ten working days before the leave commences.
 - Team members who accompany a close relative in the last phase of life can claim full or partial leave from work for up to three months;
 - Team members who care for a close relative in need of care in a home environment are entitled to family care leave, i.e. to a partial leave of absence for one continuous period of up to 24 months with a minimum of 15 working hours per week;
 - If the relative is underage, there is an entitlement to leave even if care takes place outside the home environment.

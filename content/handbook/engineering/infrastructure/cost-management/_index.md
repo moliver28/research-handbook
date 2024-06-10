@@ -59,8 +59,8 @@ We maintain a list of vendors/[coupa renewal](/handbook/business-technology/ente
 - [Infra Analyst Board](/handbook/engineering/infrastructure/cost-management/infra-analyst-board)
 - [Infra Analyst Role](/handbook/engineering/infrastructure/cost-management/infrastructure-analyst-role)
 - [Learning Resources](/handbook/engineering/infrastructure/cost-management/learning)
-    - [GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp)
-    - [AWS](/handbook/engineering/infrastructure/cost-management/learning/aws)
+  - [GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp)
+  - [AWS](/handbook/engineering/infrastructure/cost-management/learning/aws)
 
 ## <i class="fas fa-bullhorn fa-fw" style="color: rgb(107, 79, 187); font-size: 0.85em; --darkreader-inline-color:#785fc1;" data-darkreader-inline-color=""></i>Contact Us
 

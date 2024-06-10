@@ -83,9 +83,9 @@ The benefits of frequent peer review sessions include:
   - Sends a reminder to team members BEFORE the meeting to ensure they review what has been filled in
 - Presenting SA
   - Creates a copy and fills out the [SA Peer Review template](https://docs.google.com/document/d/1d-2cmSAR-KQ9bGOIMxfWgJFMOad_nSgnsNBCf4pB-0s/edit) document before the session. This should not be a heavy lift preparation and the presenting SA is expected to spend max. 10-15 minutes on this. The document should incude:
-     - High level description of the account and opportunity;
-     - Technical Opportunity Plan; Timeline; Actions already executed or planned;
-     - Links to additional information (SFDC, slide decks, opportunity / strategy / success plans, etc.)
+    - High level description of the account and opportunity;
+    - Technical Opportunity Plan; Timeline; Actions already executed or planned;
+    - Links to additional information (SFDC, slide decks, opportunity / strategy / success plans, etc.)
 - Attending SAs
   - Review meeting notes / template beforehand
   - Ask questions & provide suggestions during the session. E.g.:

@@ -14,11 +14,11 @@ Conducting a RITE study is quite simple and is similar to conducting a tradition
 To summarize:
 
 - **Step 1: Start with 3 participants**
-     - If issues are found, address them, and repeat Step 1 with 3 new participants
-     - If issues are NOT found, proceed to Step 2
+  - If issues are found, address them, and repeat Step 1 with 3 new participants
+  - If issues are NOT found, proceed to Step 2
 - **Step 2: Add 2 more participants**
-     - If issues are found, address them, and start at Step 1 again with 3 new participants
-     - If issues are NOT found after testing 5 total participants, the study is done!
+  - If issues are found, address them, and start at Step 1 again with 3 new participants
+  - If issues are NOT found after testing 5 total participants, the study is done!
 
 ### Elements of RITE
 

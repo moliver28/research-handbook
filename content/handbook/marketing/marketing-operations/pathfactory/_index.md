@@ -282,25 +282,25 @@ Before creating a new content track, decide what type of content track (target v
 - You can only use the `Header` feature with the `Sign Posts` and `Bottom Bar` promoters.
 - The `Header` is used to add additional branding to your content track.
 - The `Flow`, `Sign Posts`, and `Bottom Bar` cannot be used together. Choose 1 of the 3.
-    - **Flow:** Scrollable content menu allows visitors to jump ahead in their Content Track, or simply use the Next buttons to move forward.
-    - **Sign Posts:** Customizable Next and Previous buttons allow visitors to navigate through content. Used for more of a linear journey through the content.
-    - **Bottom Bar:** Collapsible content menu along page bottom.
+  - **Flow:** Scrollable content menu allows visitors to jump ahead in their Content Track, or simply use the Next buttons to move forward.
+  - **Sign Posts:** Customizable Next and Previous buttons allow visitors to navigate through content. Used for more of a linear journey through the content.
+  - **Bottom Bar:** Collapsible content menu along page bottom.
 - The `End Promoter`, `Exit`, and `Inactivity` promoters can be used in conjunction with either the `Flow`, `Sign Posts`, or `Bottom Bar` promoters.
-    - **End Promoter:** Opens final asset in a new tab.
-        - Available overrides:
-            - Link
-            - CTA Label
-            - Delay (seconds)
-    - **Exit:** Suggested content window appears when visitor tries to navigate away from the Content Track. **In order to provide a popup-free web experience, please do not enable an Exit promoter without explicit approval from Craig Mestel (CMO) and Michael Preuss (Director, Digital Experience)**
-        - Available overrides:
-            - Headline
-            - Message
-            - Items to show (choose from assets within the current track)
-            - Delay (seconds)
-    - **Inactivity:** Message flashes on tab when left inactive.
-        - Available overrides:
-            - Inactive tab title
-            - Delay (seconds)
+  - **End Promoter:** Opens final asset in a new tab.
+    - Available overrides:
+      - Link
+      - CTA Label
+      - Delay (seconds)
+  - **Exit:** Suggested content window appears when visitor tries to navigate away from the Content Track. **In order to provide a popup-free web experience, please do not enable an Exit promoter without explicit approval from Craig Mestel (CMO) and Michael Preuss (Director, Digital Experience)**
+    - Available overrides:
+      - Headline
+      - Message
+      - Items to show (choose from assets within the current track)
+      - Delay (seconds)
+  - **Inactivity:** Message flashes on tab when left inactive.
+    - Available overrides:
+      - Inactive tab title
+      - Delay (seconds)
 
 #### CTAs
 
@@ -385,16 +385,16 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 - These tracks align to the [Prescriptive Buyer Journeys ("PBJs")](/handbook/marketing/prescriptive-buyer-journeys/) which will be iterated on collaboratively across marketing
 - The Campaigns Team will iterate and test out different styles, form strategy, end promoter settings, and .
 - The [Example "PBJ" Track](https://gitlab.lookbookhq.com/authoring/content-library/target/57384) has the following elements and settings applied (for easy cloning) but only contains one asset when the future ones would have 3-4 assets:
-   - _Reminder Campaigns Team: The example below is just a starting point. Experimentation and testing recommended!_
-   - Track settings: (FYI) set to default according to [these instructions](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings)
-   - Track Settings: Custom URL Slug (REQUIRED): `[motion]-[stage]-[persona][#]` (i.e. `ci-awareness-prac1` or `vcc-`) - [see more](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings)
-   - Flow: `ON` > `Start Free SaaS Trial`
-   - End Promoter: `ON`
-   - End Promoter Link: Set this to point to the next track in the prescriptive buyer journey. (i.e. if you're on `CI Awareness Practitioner 1`, set the end promoter to go to `CI Awareness Practitioner 2` to move them to the next stage and continue binging)
-   - End Promoter CTA Label: Add an enticing CTA, but keep it short... max characters TBD
-   - End Promoter Delay: 5 seconds
-   - Forms Strategy: Set to trigger to **Unknown Visitors** after EITHER 30 seconds on main offer OR 30 seconds overall on track.
-   - Forms Strategy: Not dismissable.
+  - _Reminder Campaigns Team: The example below is just a starting point. Experimentation and testing recommended!_
+  - Track settings: (FYI) set to default according to [these instructions](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings)
+  - Track Settings: Custom URL Slug (REQUIRED): `[motion]-[stage]-[persona][#]` (i.e. `ci-awareness-prac1` or `vcc-`) - [see more](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings)
+  - Flow: `ON` > `Start Free SaaS Trial`
+  - End Promoter: `ON`
+  - End Promoter Link: Set this to point to the next track in the prescriptive buyer journey. (i.e. if you're on `CI Awareness Practitioner 1`, set the end promoter to go to `CI Awareness Practitioner 2` to move them to the next stage and continue binging)
+  - End Promoter CTA Label: Add an enticing CTA, but keep it short... max characters TBD
+  - End Promoter Delay: 5 seconds
+  - Forms Strategy: Set to trigger to **Unknown Visitors** after EITHER 30 seconds on main offer OR 30 seconds overall on track.
+  - Forms Strategy: Not dismissable.
 
 ## PathFactory Forms
 

@@ -106,9 +106,9 @@ We interpret prioritized themes as what we're being asked to deliver; we use the
 
 The planning issue serves multiple purposes:
 
- - Within the group and stable counterparts, the issue helps us identify and agree on the scope of work we seek to execute in the next milestone.
- - Outside the group, the issue communicates our priorities and what might be delivered during the milestone.
-   - Note: although we seek to deliver on our plans, the planning issue is not itself a _promise_ to deliver a given issue by a certain time.
+- Within the group and stable counterparts, the issue helps us identify and agree on the scope of work we seek to execute in the next milestone.
+- Outside the group, the issue communicates our priorities and what might be delivered during the milestone.
+  - Note: although we seek to deliver on our plans, the planning issue is not itself a _promise_ to deliver a given issue by a certain time.
 
 #### Planning issue format
 

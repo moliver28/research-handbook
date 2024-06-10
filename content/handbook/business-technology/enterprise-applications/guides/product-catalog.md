@@ -135,23 +135,23 @@ In the issue template, three asterisks are considered a "non-standard" configura
 
 **Pricing approval ALWAYS required**:
 
-   - Provide a link to the Cost of Goods Sold (COGS) spreadsheet (Make a copy of [this template](https://docs.google.com/spreadsheets/d/1em_4RiKOzvA3W9N4FxjmDxH6Rtr4my_o6ZifSXEWz0o/edit#gid=1853638008))
-   - Provide a justification if project margins are below 55% for internally delivered services
-   - Obtain approval from the `Senior Director of Product Monetization`
+- Provide a link to the Cost of Goods Sold (COGS) spreadsheet (Make a copy of [this template](https://docs.google.com/spreadsheets/d/1em_4RiKOzvA3W9N4FxjmDxH6Rtr4my_o6ZifSXEWz0o/edit#gid=1853638008))
+- Provide a justification if project margins are below 55% for internally delivered services
+- Obtain approval from the `Senior Director of Product Monetization`
 
 **Fulfillment approval required if**:
 
-   - Proposed SKU (meant to be) sold to Customers: `Self-serve`
-   - Subscription with the proposed SKU (meant to) have specific behavior for self-service subscription modifications (for example, no self-service renewal)
-   - Any non-standard (***) Charge Type, Charge Model, Charge Timing requests
-   - Proposed SKU (meant to) provision specific product features to the customer (SaaS or SM)
-   - Obtain approval from the `Fulfillment Product Managers`
+- Proposed SKU (meant to be) sold to Customers: `Self-serve`
+- Subscription with the proposed SKU (meant to) have specific behavior for self-service subscription modifications (for example, no self-service renewal)
+- Any non-standard (***) Charge Type, Charge Model, Charge Timing requests
+- Proposed SKU (meant to) provision specific product features to the customer (SaaS or SM)
+- Obtain approval from the `Fulfillment Product Managers`
 
 **Sales Operations approval required if**:
 
-   - If SKU has limited quoting availability (only available to sell by certain groups)
-   - Any non-standard (***) Charge Type, Charge Model, Charge Timing requests
-   - Obtain approval from the `Senior Manager of Deal Desk`
+- If SKU has limited quoting availability (only available to sell by certain groups)
+- Any non-standard (***) Charge Type, Charge Model, Charge Timing requests
+- Obtain approval from the `Senior Manager of Deal Desk`
 
 ### Step 3. Finance
 

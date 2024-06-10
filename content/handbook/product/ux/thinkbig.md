@@ -37,23 +37,23 @@ If any of the above questions are answered with a **"No"** it is a sign to reeva
 - Divide the meeting into modules with each module averaging 15 minutes. A full session can typically over three topics.
 - As the meeting starts, look for an ordered list of discussion topics in the agenda doc. This will be the order for participants to go in.
 - There are many ways to gather feedback in a synchronous meeting. An example is to use a round-robin, turn-based structure that gives everyone on the call an opportunity to share their thoughts quickly and efficiently.
-   - The facilitator (usually a Product Designer) will kick off the meeting by quickly reviewing the guidelines and starting the 15-minute timer.
-   - The facilitator presents the problem or design by communicating what type of feedback they need. For more genuine reactions and feedback, keep the explanation as short as possible.
-   - Following the order in the agenda, participants take turns asking relevant questions and providing a single piece of feedback to the design. Each "turn" should be limited to about 1 minute.
-   - Repeat this turn-based process until time runs out or all the participants "pass".
-   - If you need inspiration for feedback, consider taking a [few different hats for a spin](https://www.mindtools.com/pages/article/newTED_07.htm)!
+  - The facilitator (usually a Product Designer) will kick off the meeting by quickly reviewing the guidelines and starting the 15-minute timer.
+  - The facilitator presents the problem or design by communicating what type of feedback they need. For more genuine reactions and feedback, keep the explanation as short as possible.
+  - Following the order in the agenda, participants take turns asking relevant questions and providing a single piece of feedback to the design. Each "turn" should be limited to about 1 minute.
+  - Repeat this turn-based process until time runs out or all the participants "pass".
+  - If you need inspiration for feedback, consider taking a [few different hats for a spin](https://www.mindtools.com/pages/article/newTED_07.htm)!
 - Action items from the meeting will be turned into issues with a think big label, such as `Package:ThinkBIG!`.
 
 ### General guidelines for presenters
 
 - Add the discussion items to the think big agenda doc ahead of the meeting and make sure you link to relevant issues, research insights, and prototypes.
 - There are many ways to gather feedback in a sync-meeting, one example is to use a Round Robin turn-based structure that gives everyone on the call an opportunity to share their thoughts quickly and efficiently.
-   - Try to be quick, as each turn should only last around 1 minute. During your turn, you can do a few things (in order of priority):
-      - Ask questions to the facilitator.
-      - +1 or -1 someone else's feedback.
-      - Provide **one(1)** piece of feedback.
-      - "Pass" - you can skip your turn.
-      - You officially end your turn by calling out the name of who is next.
+  - Try to be quick, as each turn should only last around 1 minute. During your turn, you can do a few things (in order of priority):
+    - Ask questions to the facilitator.
+    - +1 or -1 someone else's feedback.
+    - Provide **one(1)** piece of feedback.
+    - "Pass" - you can skip your turn.
+    - You officially end your turn by calling out the name of who is next.
 
 ### Suggested discussion items
 
@@ -86,9 +86,9 @@ At GitLab, a great outcome of a Think Small meeting is having a small issue that
 ### General guidelines for facilitators
 
 - Start the meeting by doing a recap from Think Big:
-   - Review the User Personas you have discussed during the Think Big. Shortly revisit their needs and challenges.
-   - Revisit some ideas for solutions that you have previously discussed.
-   - Review design files that may already exist for the solution.
+  - Review the User Personas you have discussed during the Think Big. Shortly revisit their needs and challenges.
+  - Revisit some ideas for solutions that you have previously discussed.
+  - Review design files that may already exist for the solution.
 - Think about and discuss what could the team do in the next milestone to test these ideas.
 - Discuss what can be the hardest part of the problem to solve in order to get ready for the possible roadblocks
 - Define and agree on the steps to take.

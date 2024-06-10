@@ -38,13 +38,13 @@ The SLA for each import method has been decided based on the perceived optimal r
 #### Import Cleaning Template - Info for Pre-MktgOps Hand-off
 
 - Please utilize the Google Sheet included in the [event list upload](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838) and [general list upload](https://docs.google.com/spreadsheets/d/1dzFqwjoBat8sna0uZu9RSVTsPvAZnJ4Xx4GkZllAUD0/edit#gid=1770876869) issue templates. This spreadsheet template allows for quick edits and faster data checks, such as:
-     - Capitalizing `First name` and `Last name`
-     - Highlighting `last names` that appear more than once in green for faster duplicate detection
-     - Highlighting duplicate emails and GitLab emails in red
-     - Labeling possibly erroneous emails as `FALSE`. Be advised, this does not work for all email domains
-     - Highlighting when `self` or `GitLab` are listed as `Company Name` in red
-     - Converting `State` abbreviations from `Canada` and the `US` into full names
-     - Highlighting when `Country` names match with each other in green for faster typo detection
+  - Capitalizing `First name` and `Last name`
+  - Highlighting `last names` that appear more than once in green for faster duplicate detection
+  - Highlighting duplicate emails and GitLab emails in red
+  - Labeling possibly erroneous emails as `FALSE`. Be advised, this does not work for all email domains
+  - Highlighting when `self` or `GitLab` are listed as `Company Name` in red
+  - Converting `State` abbreviations from `Canada` and the `US` into full names
+  - Highlighting when `Country` names match with each other in green for faster typo detection
 - Be aware that any changes to the spreadsheet layout may affect the built-in formulas. Consults MktgOps before making changes
 - Columns highlighted in teal are considered `Required Data` and not including this data is grounds for refusal
 
@@ -54,10 +54,10 @@ The following data cleanup is required for any list prior to sending it to the M
 
 - It is the responsibility of the person submitting the list to clean the list utilizing the import cleaning template
 - All fields are separated into their own column
-     - Person name separated into two columns - `First Name` `Last Name`
-     - Duplicates must be reviewed and reduced
-     - Address separated into individual fields (`Street`, `City`, `State/Province`, `Zip/Postal Code`, `Country`)
-     - `Country` that **are not** `United States`, `Australia` or `Canada` *must* have `State` field deleted or cleared as it will create conflicts and will not sync to SFDC
+  - Person name separated into two columns - `First Name` `Last Name`
+  - Duplicates must be reviewed and reduced
+  - Address separated into individual fields (`Street`, `City`, `State/Province`, `Zip/Postal Code`, `Country`)
+  - `Country` that **are not** `United States`, `Australia` or `Canada` *must* have `State` field deleted or cleared as it will create conflicts and will not sync to SFDC
 - Please use the correct member statuses based on the definitions and type [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status). They must be exact matches, no abbreviations.
 - Preferred format for Marketo upload is .csv, but will accept an .xls, or .xlsx. Provide as Google Sheet in the upload issue. **DO NOT** upload the file directly on the issue. Uploading files to the issue exposes ALL collected personal data to the internet and opens GitLab up to litigation
 - Record ownership will be assigned using established lead routing, which is [controlled by Traction Complete](/handbook/marketing/marketing-operations/traction-lead-complete)
@@ -117,18 +117,18 @@ Its also super important that if there are notes, the notes are clear to someone
 #### Required Data and Recommended Data
 
 - For all uploads, there is mandatory data required for a successful upload. At a minimum, the following data must appear on the spreadsheet and **without this data an upload can be refused by MktgOps**:
-     - First Name
-     - Last Name
-     - Company Name
-     - Email Address
-     - Country
-     - State (United States and Canada only)
-     - [Campaign Member Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status)
-     - Opt-In status: `True`, `False`, or `leave blank` (determines if leads are **legally** signed up for GitLab's marketing emails)
+  - First Name
+  - Last Name
+  - Company Name
+  - Email Address
+  - Country
+  - State (United States and Canada only)
+  - [Campaign Member Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status)
+  - Opt-In status: `True`, `False`, or `leave blank` (determines if leads are **legally** signed up for GitLab's marketing emails)
 - Additionally, there is data required for leads to be successfully routed to SDRs. While this information is not mandatory, it is strongly preferred.. GitLab employs tools that enrich leads and `Accounts`, but those tools are not guaranteed to work, so if the data can be found at the source it is preferred. Lastly, while it is less likely to have an upload refused due to missing this data, **missing this data is still considered grounds for refusal by the MktgOps team**. The recommended information is as follows:
-     - Employee Bucket or Number of Employees
-          - GitLab's segmentation standard for `Employees Bucket` includes the following groups: `1-99`, `100-499`, `500-1,999`, `2,000-9,999` and `10,000+`.
-          - You can also enter an integer in for `Num Employees` and this will automatically update the `Employees Bucket` field if blank.
+  - Employee Bucket or Number of Employees
+    - GitLab's segmentation standard for `Employees Bucket` includes the following groups: `1-99`, `100-499`, `500-1,999`, `2,000-9,999` and `10,000+`.
+    - You can also enter an integer in for `Num Employees` and this will automatically update the `Employees Bucket` field if blank.
 
 #### Partner Lead Imports
 
@@ -146,12 +146,12 @@ In order to assure proper attribution of `MQL Scoring` and `Last Interesting Mom
 
 - If a campaign does not exist, tag the `Campaign Owner` on the `campaign epic` or `upload issue` to ask for campaign creation
 - Check that the campaign's `tokens` are filled in, which are found under the `My Tokens` tab in the main campaign
-     - `Tokens` are used via `Smart Campaigns` to apply `Last Interesting Moments` to all leads whom appear in the campaign. The minimum `tokens` that should be used relate to the campaign's `Event Name`, `Event Date` and `Landing Page URL`. Without these filled out, `Last Interesting Moments` will fill in permanently `blank`
+  - `Tokens` are used via `Smart Campaigns` to apply `Last Interesting Moments` to all leads whom appear in the campaign. The minimum `tokens` that should be used relate to the campaign's `Event Name`, `Event Date` and `Landing Page URL`. Without these filled out, `Last Interesting Moments` will fill in permanently `blank`
 - Review the components of the campaign. The needed components include:
-     - `Static List(s)` in which to load lead list(s). The `static list(s)` should be renamed to resemble the program name. Depending on the campaign template, there may be more than one `static list` available. Some templates have been automated in a way that will fully launch relevant `Smart Campaigns` to append all relevant data, including `Campaign Member Statuses` and other important fields
-     - `Smart List` for finding loading errors, or leads Marketo perceives as `duplicates`. If the `Smart List` list is not present, create a `Smart List` with the following filters: `Member of Program = current program name` and `SFDC Created Date = is empty`
-     - `Smart Campaign` that triggers a `flow` when leads are added to the campiagn's static list(s). This flow should set to append data to all of the following fields **if the fields are empty ONLY**: `Acquisition Program` and `Person Source` (same as `Initial Source` in SFDC). This `Smart Campaign` should end with a `Wait 5 Minutes` followed by `Change Program Status: Registered -> No Show`
-     - `Smart Campaign` to add an `Interesting Moment`. Check there are enough `triggers` and `flows` to activate for each `Campaign Member Status` that appears on the list. Usually these include, but are not limited to: `Attended`, `Attended On-Demand`, `Visited Booth` and `No Show`. A general rule is to not include `Registered`, `Sales Nominated` or `Marketing Nominated`. The previously mentioned `tokens` will be used to apply the full event data of the `Interesting Moments` to the leads. Depending on the template, sometimes this `Smart Sampaign` and the previously mentioned campaign are one and the same
+  - `Static List(s)` in which to load lead list(s). The `static list(s)` should be renamed to resemble the program name. Depending on the campaign template, there may be more than one `static list` available. Some templates have been automated in a way that will fully launch relevant `Smart Campaigns` to append all relevant data, including `Campaign Member Statuses` and other important fields
+  - `Smart List` for finding loading errors, or leads Marketo perceives as `duplicates`. If the `Smart List` list is not present, create a `Smart List` with the following filters: `Member of Program = current program name` and `SFDC Created Date = is empty`
+  - `Smart Campaign` that triggers a `flow` when leads are added to the campiagn's static list(s). This flow should set to append data to all of the following fields **if the fields are empty ONLY**: `Acquisition Program` and `Person Source` (same as `Initial Source` in SFDC). This `Smart Campaign` should end with a `Wait 5 Minutes` followed by `Change Program Status: Registered -> No Show`
+  - `Smart Campaign` to add an `Interesting Moment`. Check there are enough `triggers` and `flows` to activate for each `Campaign Member Status` that appears on the list. Usually these include, but are not limited to: `Attended`, `Attended On-Demand`, `Visited Booth` and `No Show`. A general rule is to not include `Registered`, `Sales Nominated` or `Marketing Nominated`. The previously mentioned `tokens` will be used to apply the full event data of the `Interesting Moments` to the leads. Depending on the template, sometimes this `Smart Sampaign` and the previously mentioned campaign are one and the same
 
 #### Best Practices and Procedure
 
@@ -177,11 +177,11 @@ In order to assure proper attribution of `MQL Scoring` and `Last Interesting Mom
 In the event that a manual upload needs to occur for operational needs:
 
 - Use a current or create a new program or smart list within the [Non-Event List Loads](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF4394A1) folder
-     - If creating a new program or smart list, start by making a new, appropriately named sub-folder under the `Non-Event List Loads` folder
+  - If creating a new program or smart list, start by making a new, appropriately named sub-folder under the `Non-Event List Loads` folder
 - Create a new program or smart list within the appropriate folder by right clicking the correct folder
-     - If creating a new program, select the correct `Channel` for the task. For most non-event uploads, `Operational` should work
+  - If creating a new program, select the correct `Channel` for the task. For most non-event uploads, `Operational` should work
 - Some notable `Operational` programs already in place are listed below with links. This section will be updated on a needed basis:
-     - [Opt-Outs](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF6347A1)
+  - [Opt-Outs](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/MF6347A1)
 
 ### Trusted vs Non-Trusted Imports
 

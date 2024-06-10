@@ -203,6 +203,20 @@ To change a start date after a **PEO** contract has been signed and the new team
    - Under "Comment" write "Start Date Change"
    - Upload
 
+### How to Update a Start Date for an internal candidate after the Job Change Letter is Signed
+
+To change a start date after a Job Change Letter (JCL) has been signed and the internal team member has been “hired” in GreenHouse, the Candidate Experience Specialist will complete the following steps:
+
+1. Once the start date change request comes through, CES will advise the recruiter to collaborate with the hiring manager or PBP to raise a HelpLab ticket for the People Connect team to make these changes in Workday.
+The hiring manager or PBP should provide confirmation of the new start date via the HelpLab ticket.
+1. CES can update GreenHouse:
+   - Go to Offer Details
+   - Click the edit pencil next to the start date
+   - Select the new Start Date
+   - Save
+   - In the "Make a Note" section in Greenhouse, state the old start date and the new state date, and tag the person on FP&A (typically the second approver) who approved the offer.
+   - Save
+
 ### How to Void a Contract Before a Candidate Signs
 
 In rare cases, we may rescind our offer before a candidate signs the contract. Work with the Recruiter, Hiring Manager, People Business Partner, VP of Talent Acquisition, and Contract Employment Counsel on ensuring uniform communication. Once the candidate has been informed verbally and via email by the talent acquisition team, follow these steps:
@@ -543,7 +557,7 @@ The process for creating and sending an agreement is as follows:
 
 ## Remote.com
 
-GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, South Africa, Mexico, Austria, Denmark, Switzerland, Spain, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
+GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, South Africa, Mexico, Austria, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
 
 To create the contract:
 
@@ -615,7 +629,6 @@ Kindly note the following when filling in this section:
 | Luxembourg | Premium |
 | Brazil | Omint Plan (should be added for you) |
 | Italy | Premium |
-| Spain  | Premium |
 | Switzerland | None |
 | Sweden | Standard |
 
@@ -711,10 +724,10 @@ Please follow the outlined steps below before sending the unsigned copy of the C
     1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field blank.
     1. **Scroll down to the end of the contract** - replace Signatory's name with “GitLab Signatory”. Save the contract as a PDF format.
 - To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-    - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
-    - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
-    - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
-    - **Attachment** : CES to attach the unsigned PDF contract
+  - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
+  - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
+  - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
+  - **Attachment** : CES to attach the unsigned PDF contract
 - In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “German Contract already sent to counsel”.
 - A welcome email should be sent to the candidate, and they should be marked as hired as per the normal hiring process.
 - Once the candidate has confirmed that they have received the physical contract in mail. CES will send the email template "German Contract step 2" to the candidate and close out the issue.
@@ -736,11 +749,11 @@ The Intern contract template will be used for both C2C interns and all other int
 1. After the offer is sent, CES will initiate the background check by selecting the Comprehensive Criminal Check with Employment. **IMPORTANT NOTE - If this is a C2C (Code2College) intern - you will only need to select the Comprehensive Criminal Check in Sterling. Employment check is not needed as most C2C interns will be minors.**
 1. Because most interns from C2C are minors, at the time the BGC is initiated, CES will also need to send the [Parental Consent Form](https://docs.google.com/document/d/1J0xundRL___Hhg0zNkt7KTMMEgTv63U5rseqTlmv8ok/edit) to the interns guardian.
 
- - This form can be send via DocuSign
- - Please add appropriate tokens
- - Please set up distribution as follows (guardian email can be recieved from Emerging Talent Coordinator):
-    - 1. Guardian - Needs to sign
-    - 2. Emerging Talent Coordinator - receives a copy
+   - This form can be send via DocuSign
+   - Please add appropriate tokens
+   - Please set up distribution as follows (guardian email can be recieved from Emerging Talent Coordinator):
+      1. Guardian - Needs to sign
+      1. Emerging Talent Coordinator - receives a copy
 
 1. Once the offers are signed by the candidate, CES will send the GitLab Inc Intern Welcome Email. **Note: GitLab will provide laptops to these interns. The Welcome Email asks them to fill out form ASAP**
 1. Once the req is cleared, CES can mark the Intern as hired.

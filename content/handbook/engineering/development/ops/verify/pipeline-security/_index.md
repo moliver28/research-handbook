@@ -250,7 +250,7 @@ For iterations on features behind feature flags, even when the changes won't be 
 
 - **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
-   - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
+  - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
 - **At Risk** - The issue in its current state will not make the planned release and immediate action is needed to get it back to `On Track` today.
   - If you are moving an item into this status please consider posting in the [#g_pipeline-security](https://gitlab.slack.com/archives/CPANF553J) channel in slack. Try to include anything that can be done to unstick the item so that it can get back to an `On Track` status in your message.
   - Note: It is possible that there is nothing to be done that can get the item back on track in the current milestone. If that is the case please let your manager know as soon as you are aware of this.

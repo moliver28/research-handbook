@@ -766,12 +766,12 @@ The following is the policy for identification and auto-closure of inactive bugs
 
 * If a `~"severity::3"` or `~"severity::4"` `~"type::bug"` issue is inactive for at least 12 months, it will be
 identified as eligible for auto-closure. At this point, the following actions occur:
-    * Application of `~"vintage"` to indicate the issue has been inactive for a year.
-    * Application of `~"stale"` to indicate that it is currently being identified for auto-closure.
-    * Comment by GitLab Bot to the author to check whether the reported bug still persists and to comment accordingly within the next 7 days.
+  * Application of `~"vintage"` to indicate the issue has been inactive for a year.
+  * Application of `~"stale"` to indicate that it is currently being identified for auto-closure.
+  * Comment by GitLab Bot to the author to check whether the reported bug still persists and to comment accordingly within the next 7 days.
 * After 7 days, one of the below mentioned actions happen:
-    * Issues which have not received a comment will be closed and the `~"auto-closed"` is applied.
-    * Issues with a comment from anyone other than the gitlab-bot in the last 7 days are considered active and `~"stale"` is removed
+  * Issues which have not received a comment will be closed and the `~"auto-closed"` is applied.
+  * Issues with a comment from anyone other than the gitlab-bot in the last 7 days are considered active and `~"stale"` is removed
 * Policy: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/hygiene/close-stale-bugs.yml>
 
 #### Prompt for Tier labels on issues

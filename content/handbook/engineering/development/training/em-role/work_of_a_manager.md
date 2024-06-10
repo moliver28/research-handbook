@@ -144,8 +144,8 @@ Where in the matrix was your attention in the recent past? Where _wasn't_ it?
 
 ## References
 
-  * [Transitioning to a manager role](/handbook/people-group/learning-and-development/manager-development/)
-  * [Becoming a GitLab manager issue](https://gitlab.com/gitlab-com/people-group/Training/-/blob/master/.gitlab/issue_templates/becoming-a-gitlab-manager.md)
-  * [Elevate training program](/handbook/people-group/learning-and-development/elevate/)
-  * [High Output Management](/handbook/leadership/high-output-management/)
-  * [How to be a great remote manager](/handbook/company/culture/all-remote/being-a-great-remote-manager/)
+* [Transitioning to a manager role](/handbook/people-group/learning-and-development/manager-development/)
+* [Becoming a GitLab manager issue](https://gitlab.com/gitlab-com/people-group/Training/-/blob/master/.gitlab/issue_templates/becoming-a-gitlab-manager.md)
+* [Elevate training program](/handbook/people-group/learning-and-development/elevate/)
+* [High Output Management](/handbook/leadership/high-output-management/)
+* [How to be a great remote manager](/handbook/company/culture/all-remote/being-a-great-remote-manager/)

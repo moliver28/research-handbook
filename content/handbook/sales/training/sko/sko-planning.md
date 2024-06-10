@@ -77,9 +77,9 @@ The sub-team DRIs are responsible for maintaining the efficacy of this document 
 The SKO planning team has one 50-minute planning meeting that includes ALL DRIs and sub-DRIs + team members leading planning and content for keynote sessions.
 
 - SKO Core Team Weekly Meeting
-   - Q2: Monthly
-   - Q3: Weekly
-   - Q4: 2x weekly (consider making one occurrence 25 min)
+  - Q2: Monthly
+  - Q3: Weekly
+  - Q4: 2x weekly (consider making one occurrence 25 min)
 
 In addition, the SKO planning team delivers CRO Leader Status Updates in the following cadence:
 

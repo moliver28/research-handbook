@@ -50,8 +50,7 @@ The Solutions Architecture promotion process augments the [People Group Promotio
     - For Staff level promotions, the promotion candidate's manager will consult with existing Staff and Principal level SAs for peer-level review and feedback while taking detailed notes.
     - For Principal level promotions, the Principal candidates will prepare and present their accomplishments and their vision for improving GitLab and the SA organization to a panel of SA leaders and Principal level SAs after calibration has occurred.
     - The Principal promotion panel will then meet to discuss the candidate's suitability for the Principal SA role.
-1. After reviewing and providing feedback, the VP of Solutions Architecture will inform the VP of Customer success, typically during a weekly 1 on 1 meeting.
-1. The VP of Customer Success will review the request and provide feedback if necessary. If the request is approved, the VP will annotate the justification document with their approval.
+1. After reviewing and providing feedback, the VP of Solutions Architecture will inform the Manager or Director of his/her approval.
 1. At this point, the standard quarterly promotion process is followed
 
 ### Associate Solution Architecture Program

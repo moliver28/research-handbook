@@ -288,11 +288,11 @@ Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab
 - Assign the label for the associated affected service if applicable.
 - Provide enough context so that any engineer in the Corrective Action issue's project could pick up the issue and know how to move forward with it.
 - Avoid creating Corrective Actions that:
-    - Are too generic (most typical mistake, as opposed to Specific)
-    - Only fix incident symptoms.
-    - Introduce more human error.
-    - Will not help to keep the incident from happening again.
-    - Can not be promptly implemented (time-bounded).
+  - Are too generic (most typical mistake, as opposed to Specific)
+  - Only fix incident symptoms.
+  - Introduce more human error.
+  - Will not help to keep the incident from happening again.
+  - Can not be promptly implemented (time-bounded).
 - Examples: (taken from several best-practices Postmortem pages)
 
 | Badly worded | Better |

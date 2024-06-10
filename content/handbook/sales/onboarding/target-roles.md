@@ -19,17 +19,17 @@ If you need to cancel for any reason, you must obtain approval from your VP.
 Please send a copy of the written approval to the Field Onboarding Program Manager.
 
 - Targeted roles for the Sales Quick Start learning path include recently hired:
-   - Enterprise and Public Sector Account Executives
-   - Mid-Market and SMB Account Executives
-   - Renewals Managers (RM)
-   - Solution Architects (SA)
-   - Customer Success Managers (CSM)
-   - [Customer Success Engineers (CSE)](https://handbook.gitlab.com/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
-   - Professional Services Engagement Managers and Practice Managers
-   - Area Sales Managers (ASMs), Regional Directors (RDs) & Vice Presidents (VPs)
-   - Customer Success Managers and Directors
-   - Channels (all roles)
-   - Alliances (all roles)
-   - Field Operations Revenue, Strategy, Enablement & Operations (all roles)
+  - Enterprise and Public Sector Account Executives
+  - Mid-Market and SMB Account Executives
+  - Renewals Managers (RM)
+  - Solution Architects (SA)
+  - Customer Success Managers (CSM)
+  - [Customer Success Engineers (CSE)](https://handbook.gitlab.com/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
+  - Professional Services Engagement Managers and Practice Managers
+  - Area Sales Managers (ASMs), Regional Directors (RDs) & Vice Presidents (VPs)
+  - Customer Success Managers and Directors
+  - Channels (all roles)
+  - Alliances (all roles)
+  - Field Operations Revenue, Strategy, Enablement & Operations (all roles)
 - Professional Services Engineers (PSEs) do not participate in the Sales Quick Start Workshop
 - Sales Development Reps (SDRs) have their own separate onboarding process (but many of the same elements are shared), and they attend SQS Workshops as well

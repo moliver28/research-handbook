@@ -23,7 +23,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 
 ## What do we work on?
 
- - **Design System** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/design_system/))
+- **Design System** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/design_system/))
 
     We are currently focused on integrating our design system, [Pajamas], into the GitLab product.
 
@@ -33,7 +33,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 
     **Do you want to contribute?** Please see [the Migration Day Picker for a good entry point](https://picker.pajamasmigrationday.com/).
 
- - **Navigation & Settings** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/navigation_settings/))
+- **Navigation & Settings** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/navigation_settings/))
 
 ## How do we work?
 

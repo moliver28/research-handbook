@@ -27,6 +27,7 @@ The information contained on this page is organized into two distinct categories
 | [**Best Practices for a Legal Call**](#best-practices-for-a-legal-call) |  |
 | [**Request for Training (LevelUp) Certification Purchases**](#request-for-training-levelup-certification-purchases)|  |
 | [**Request for an Evaluation Agreeement**](#request-for-a-trial-or-evaluation-agreement) |  |
+| [**Request for New or Non-Standard Go-To-Market Monetization Structure**](https://gitlab.com/gitlab-com/Product/-/issues/new) | |
 
 ## OPERATIONAL
 
@@ -84,7 +85,7 @@ a valid and authorized partner. Once confirmed by Partner Operations, Legal will
 
 #### RFP Process
 
-With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, please find information in the [RFP Process handbook page](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) on how sales team members can operate as the DRI to utilize the existing Answer Base and collect relevant information from cross-functional stakeholders.
+With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, please find information in the [RFP Process handbook page](/handbook/security/security-assurance/field-security/field-security-rfp/) on how sales team members can operate as the DRI to utilize the existing Answer Base and collect relevant information from cross-functional stakeholders.
 
 ### Completing Vendor Request Forms
 
@@ -103,9 +104,9 @@ With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, pl
 
 1. If there are answers which are not found in the Company Information Page, the Sales team member should read, understand, and determine which GitLab departments should be involved and are the owner of the remaining matters. If you are uncertain, Legal  can assist in guiding you to the right department or contact.
 1. W9 is located on the Finance [Forms page](/handbook/finance/#forms)
-1. If there are Security-related questions that are not found at the GitLab [Trust Center Page](https://about.gitlab.com/security/) or the GitLab [Customer Assurance Package Page](https://about.gitlab.com/security/cap/), the Sales team member should engage the Field Security Team per their process, which can be found at GitLab's [Customer Assurance Activities Pag](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+1. If there are Security-related questions that are not found in GitLab's [Trust Center](https://trust.gitlab.com/), the Sales team member should engage the Field Security Team per their process, which can be found at GitLab's [Customer Assurance Activities Page](/handbook/security/security-assurance/field-security/customer-security-assessment-process).
 1. If there are questions / elements that are not found in the Company Information Page, the Sales Rep should engage Deal Desk to organize requests of finance and tax. Information regarding contacting Deal Desk and overall process can be found at the [Sales Order Process Page](/handbook/sales/field-operations/order-processing/#how-to-process-customer-requested-vendor-setup-forms).
-1. If there are Security related questions / elements that are not found at the [GitLab Trust Center Page](https://about.gitlab.com/security/) or the [GitLab Customer Assurance Package Page](https://about.gitlab.com/security/cap/), the Sales Rep should engage the Field Security Team per their process, which can be found at [GitLab's Customer Assurance Activities Page](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+1. If there are Security related questions / elements that are not found in GitLab's [Trust Center](https://trust.gitlab.com/), the Sales Rep should engage the Field Security Team per their process, which can be found at [GitLab's Customer Assurance Activities Page](/handbook/security/security-assurance/field-security/customer-security-assessment-process/).
 1. If there are tax related questions, the Sales team member should engage the Tax Team within the Tax Slack Channel. For Tax Certificate requests please email the Finance team at 'tax@gitlab.com'.
 1. If there are finance related questions, the Sales team member should engage the Finance team within the Finance Slack channel.
 
@@ -170,7 +171,7 @@ For matters that necessitate being handled outside of SFDC (e.g. project-based w
 
 #### RFP Process
 
-With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, please find information in the [RFP Process](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) handbook page.
+With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, please find information in the [RFP Process](/handbook/security/security-assurance/field-security/field-security-rfp/) handbook page.
 
 ### Best Practices for a Legal Call
 
@@ -198,6 +199,10 @@ If a customer declines the trial process and is adamant to have a separate Evalu
 Provided the customer has been directed to the trial process first and approvals have been received, the applicable Legal team member will then provide a Request Form, setting forth the details of the evaluation for execution by the customer and GitLab. The Request Form and free access to the GitLab Software will be subject to the terms of the Evaluation Agreement which is attached to the Request Form.
 
 Once the Request Form is executed, the sales team member or solutions architect should save the document in the customer’s account in SFDC. Sales Support should then be tagged in SFDC to assist in activating customer’s free access to the GitLab Software for the applicable term and number of users.
+
+### Request for Non-Standard Go-To-Market and Pricing From Legal
+
+All sales-related requests for a non-standard GTM structure, including pricing and packaging variations (e.g. OEM), will likely require Legal assistance but should begin with an Issue opened by the requestor on the Product board [here](https://gitlab.com/gitlab-com/Product/-/issues/new) to properly vet the monetization request with the appropriate cross-functional stakeholders. Please choose either the **monetization-intake** template or the **monetization-intake-simple** template. Once created, the issue will alert the appropriate stakeholders for internal review, comments, and approvals. Legal will follow the progress of the Issue, and will begin drafting the associated agreement, or non-standard language, after appropriate stakeholders have provided clear guidance on the approved structure.
 
 ## EDUCATIONAL
 

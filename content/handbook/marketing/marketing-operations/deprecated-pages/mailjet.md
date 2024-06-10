@@ -15,11 +15,11 @@ MailJet is used by only certain Marketing Ops and Marketing Campaigns users.
 ### Use Cases
 
 - Large sends (50k) or more.
-     - Security Incidents
-     - Account Updates (Account and pricing notifications, etc)
-     - Privacy Policy Updates
+  - Security Incidents
+  - Account Updates (Account and pricing notifications, etc)
+  - Privacy Policy Updates
 - Non-database sends
-     - Community alerts + newsletter
+  - Community alerts + newsletter
 
 ### Requesting Email Send from MailJet
 

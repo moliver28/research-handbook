@@ -120,7 +120,7 @@ Running test faster.
 1. Run all tests at the same time, the whole suite takes only as long as the longest test.
 1. Evaluation of a subset of tests instead of running all the E2E tests depending on what changed.
 
-  * Investigate the use of [running jobs when there are changes for a given path](https://gitlab.com/gitlab-org/gitlab-ce/issues/19232) for GitLab QA jobs.
+   * Investigate the use of [running jobs when there are changes for a given path](https://gitlab.com/gitlab-org/gitlab-ce/issues/19232) for GitLab QA jobs.
 
 ### API Usage
 
@@ -145,7 +145,7 @@ Come up with standardized test data that can be seeded in all environments for p
 Define better project structure for ease of debugging, more readability in automated test data output, better group, project and issue naming (not just using timestamps).
 1. Script to setup testdata and clean them up.
 
-  * Idempotent script based on API calls (E.g. adds project if missing, uses existing if exists).
+   * Idempotent script based on API calls (E.g. adds project if missing, uses existing if exists).
 
 1. Setup 50% of planned test data from Phase 2 in [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit), Review Apps, Staging and Canary/Production.
 1. Setup 100% of planned test data from Phase 2 in [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit), Review Apps, Staging and Canary/Production.
@@ -179,17 +179,17 @@ Work that will help us triage issues and merge requests more efficiently.
 
 1. Basic reminder for issues and merge requests. => Done
 
-  * Merge requests that are open for a long time
-  * Merge requests that do not have appropriate stage, group, and type labels.
-  * Issues that are open for a long time (3 months / 6 months).
-  * Merge requests that do not have any labels or milestones.
+   * Merge requests that are open for a long time
+   * Merge requests that do not have appropriate stage, group, and type labels.
+   * Issues that are open for a long time (3 months / 6 months).
+   * Merge requests that do not have any labels or milestones.
 
 1. Enforce one team label per merge request.
 1. Automatically infer stage and group label from category labels
 1. Automatically infer team label from author.
 1. Automatic labelling via [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) of issue description.
 
-  * Investigate integrating [https://gitlab.com/tromika/gitlab-issues-label-classification](https://gitlab.com/tromika/gitlab-issues-label-classification) with GitLab Insights.
+   * Investigate integrating [https://gitlab.com/tromika/gitlab-issues-label-classification](https://gitlab.com/tromika/gitlab-issues-label-classification) with GitLab Insights.
 
 ## [Measure track](https://gitlab.com/groups/gitlab-org/-/epics/1462) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1462#roadmap))
 
@@ -225,4 +225,4 @@ Work that helps in validating the release process.
 1. [Improve review apps reliability](https://gitlab.com/groups/gitlab-org/-/epics/605)
 1. Make review app a mandatory testing gate with smoke tests.
 1. Shift QA tests to completely run against review apps, only orchestrated test run in the package-and-test job.
-1. [Improve review apps usefulness, add testdata into review apps to ease testability[https://gitlab.com/groups/gitlab-org/-/epics/606].
+1. [Improve review apps usefulness, add testdata into review apps to ease testability](https://gitlab.com/groups/gitlab-org/-/epics/606).

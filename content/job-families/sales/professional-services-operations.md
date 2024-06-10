@@ -307,19 +307,19 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 #### Global Services Partners Manager Responsibilities
 
 - Strategic Partnership Development:
-   - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
+  - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
 - Partnership Management and Optimization:
-   - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
-   - Responsible for facilitating and onboarding  consulting and training partners
+  - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
+  - Responsible for facilitating and onboarding  consulting and training partners
 - Program Development and Execution:
-   - Collaborate with GitLab's Consulting and Education Services team to ensure that training content delivered by partners and subcontractors is up-to-date, effective, and aligned with GitLab's product advancements and educational philosophy.
-   - Oversee the certification process for consulting and training delivered by partners, ensuring it meets GitLab's high standards for quality and relevance.
-   - Ensure that all consulting and training partners and subcontractors operate in compliance with GitLab's policies, industry standards, and regulatory requirements.
-   - Assisting with processing for receiving and integrating feedback from partners on training programs.
+  - Collaborate with GitLab's Consulting and Education Services team to ensure that training content delivered by partners and subcontractors is up-to-date, effective, and aligned with GitLab's product advancements and educational philosophy.
+  - Oversee the certification process for consulting and training delivered by partners, ensuring it meets GitLab's high standards for quality and relevance.
+  - Ensure that all consulting and training partners and subcontractors operate in compliance with GitLab's policies, industry standards, and regulatory requirements.
+  - Assisting with processing for receiving and integrating feedback from partners on training programs.
 - Market Expansion and Engagement:
-   - Work with marketing and sales teams to develop and execute strategies for promoting GitLab's consulting and training programs through partners, increasing market penetration and customer engagement.
+  - Work with marketing and sales teams to develop and execute strategies for promoting GitLab's consulting and training programs through partners, increasing market penetration and customer engagement.
 - Cross-Functional Collaboration:
-   - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
+  - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 - This role will be required to flex into the PC reponsibilities as needed.
 
 #### Global Services Partners Manager Partners Requirements
@@ -338,13 +338,13 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 #### Senior Global Services Partners Manager Responsibilities
 
 - Strategic Partnership Development
-   - Identify, assess, and develop relationships with potential consulting and training partners and subcontractors to expand GitLab's ecosystem, ensuring alignment with GitLab's strategic goals and consulting educational standards.
-   - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
+  - Identify, assess, and develop relationships with potential consulting and training partners and subcontractors to expand GitLab's ecosystem, ensuring alignment with GitLab's strategic goals and consulting educational standards.
+  - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
 - Partnership Management and Optimization:
-   - Serve as the primary point of contact for GitLab's consulting training partners and subcontractors, fostering strong, productive relationships.
-   - Regularly evaluate the performance and impact of partners and subcontractors, implementing strategies for continuous improvement and alignment with GitLab's consulting training objectives.
-   - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
-   - Responsible for facilitating and onboarding  consulting and training partners
+  - Serve as the primary point of contact for GitLab's consulting training partners and subcontractors, fostering strong, productive relationships.
+  - Regularly evaluate the performance and impact of partners and subcontractors, implementing strategies for continuous improvement and alignment with GitLab's consulting training objectives.
+  - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
+  - Responsible for facilitating and onboarding  consulting and training partners
 - Program Development and Execution:
   - Collaborate with GitLab's Consulting and Education Services team to ensure that training content delivered by partners and subcontractors is up-to-date, effective, and aligned with GitLab's product advancements and educational philosophy.
   - Oversee the certification process for consulting and training delivered by partners, ensuring it meets GitLab's high standards for quality and relevance.

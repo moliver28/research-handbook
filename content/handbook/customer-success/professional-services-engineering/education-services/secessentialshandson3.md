@@ -16,7 +16,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Open your browser to to the **Security Labs** project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL and the group should appear in your history.
+    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL if you are in Self-Paced Training, or https://ilt.gitlabtraining.cloud if you are in Instructor-Lead Training, and the project should appear in your history.
 
 1. Before beginning this lab and all later labs, you should disable any scanners that you enabled in previous labs to speed up pipeline runtime. You should have already completed this in Lab 2.
 

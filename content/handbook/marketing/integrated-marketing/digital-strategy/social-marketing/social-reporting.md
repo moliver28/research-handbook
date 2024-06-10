@@ -33,9 +33,9 @@ For GitLab Team Members only
 ##### Reporting changes in FY23
 
 - Reordering metrics based on priority
-   - Engagement, Engagement Rate, Clicks (most important 3 metrics)
-   - then
-   - Impressions, followers, and social ad value (least important metrics)
+  - Engagement, Engagement Rate, Clicks (most important 3 metrics)
+  - then
+  - Impressions, followers, and social ad value (least important metrics)
 - Previously, CPC ad value was measured for owned links only. However, FY23 we’ve combined all links as one metric since all links are treated the same on social channels (they do not discriminate between owned and 3rd party links; performance is performance). We expect a creep up of value in reporting link click ad value
 - Previously CPM was measure only on posts without a link. However, impressions are measured as impressions, and for FY23 we’re counting all impressions, not just those that appeared on posts without a link (again, performance is performance). Expect increases in CPM ad value for FY23.
 
@@ -150,11 +150,11 @@ All tags, except campaign tags, can be used together and often should be include
 ###### Sprout tag use examples
 
 - Promoting REMOTE event with a highlight video and registration link
-   - use: Pillar: All Remote, Type: Link, Type: Video, Campaign: REMOTE event
+  - use: Pillar: All Remote, Type: Link, Type: Video, Campaign: REMOTE event
 - Promoting a general new blog about how it's like to work at GitLab
-   - use: Pillar: Blogs, Pillar: Talent Brand, Type: Link
+  - use: Pillar: Blogs, Pillar: Talent Brand, Type: Link
 - Promoting a Twitter Spaces Q&A with a speaker from Commit, the topic is DevOps Leadership
-   - use: Pillar: Corporate Events, Pillar: DevOps, Type: Audio, Campaign: Commit
+  - use: Pillar: Corporate Events, Pillar: DevOps, Type: Audio, Campaign: Commit
 
 ### Content Pillar Tags
 
@@ -164,21 +164,21 @@ These tags are stackable, they can be combined.
 {: .alert .alert-success}
 
 - 🏷 Pillar: All Remote
-   - _when scheduling any content about GitLab's all remote brand_
+  - _when scheduling any content about GitLab's all remote brand_
 - 🏷 Pillar: Blogs
-   - _when scheduling any content from the blog_
+  - _when scheduling any content from the blog_
 - 🏷 Pillar: Community
-   - _when scheduling any content associated with the community team_
+  - _when scheduling any content associated with the community team_
 - 🏷 Pillar: Corporate Events
-   - _when scheduling any content related to the corporate events team_
+  - _when scheduling any content related to the corporate events team_
 - 🏷 Pillar: DevOps
-   - _when scheduling any content about DevOps as a topic, it does not need to be about GitLab. Thought leadership._
+  - _when scheduling any content about DevOps as a topic, it does not need to be about GitLab. Thought leadership._
 - 🏷 Pillar: Press / News
-   - _when scheduling anu content related to the corporate comms team, or comes from PR agencies_
+  - _when scheduling anu content related to the corporate comms team, or comes from PR agencies_
 - 🏷 Pillar: Product
-   - _when scheduling any content directly related to GitLab's product offering_
+  - _when scheduling any content directly related to GitLab's product offering_
 - 🏷 Pillar: Talent Brand
-   - _when scheduling any content related to talent / employer brand efforts_
+  - _when scheduling any content related to talent / employer brand efforts_
 
 ### Content Type Tags
 
@@ -188,19 +188,19 @@ These tags are stackable, they can be combined.
 {: .alert .alert-success}
 
 - 🏷 Type: Audio
-   - _when scheduling content that contains audio only files, like Twitter Spaces_
+  - _when scheduling content that contains audio only files, like Twitter Spaces_
 - 🏷 Type: Case Studies
-   - _when scheduling content that has links to, or contains details from, GitLab case studies. If Sharing case study link, also include the Type: Link tag._
+  - _when scheduling content that has links to, or contains details from, GitLab case studies. If Sharing case study link, also include the Type: Link tag._
 - 🏷 Type: Link
-   - _when scheduling any content we add a link to, whether or not it includes a social card, an image instead of a card, or if the link is to a GitLab or 3rd party destination._
+  - _when scheduling any content we add a link to, whether or not it includes a social card, an image instead of a card, or if the link is to a GitLab or 3rd party destination._
 - 🏷 Type: Photo
-   - _when scheduling content with a photo asset attached._
+  - _when scheduling content with a photo asset attached._
 - 🏷 Type: Poll
-   - _when scheduling content that uses the poll feature on a social channel. Not to be confused with questions, this is when there is a shortlist of preselected options for users to choose from._
+  - _when scheduling content that uses the poll feature on a social channel. Not to be confused with questions, this is when there is a shortlist of preselected options for users to choose from._
 - 🏷 Type: Question
-   - _when scheduling content that includes an open-ended question for users to answer as they please. Not to be confused with polls, where there are pre-determined options for users to choose from_
+  - _when scheduling content that includes an open-ended question for users to answer as they please. Not to be confused with polls, where there are pre-determined options for users to choose from_
 - 🏷 Type: Video
-   - _when scheduling content that includes native video or links to a video assets elsewhere. If linking to a video asset elsewhere, include the Type: Link tag as well_
+  - _when scheduling content that includes native video or links to a video assets elsewhere. If linking to a video asset elsewhere, include the Type: Link tag as well_
 
 ### Campaigns
 

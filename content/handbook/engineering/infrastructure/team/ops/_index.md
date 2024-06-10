@@ -111,9 +111,9 @@ The Ops team coordinates the monthly process to identify incident and pager tren
 - Identify actions to address issues identified in the Reliability Team Monthly Availability Reports.
 - Generate action items based on the review of key metrics for incidents and pages.
 - Generate and delegate action items to the relevant teams based on the review process.  This includes:
-   - [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions)
-   - [Infradev Issues](/handbook/engineering/workflow/#infradev)
-   - [Reliability Improvement Issues](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new)
+  - [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions)
+  - [Infradev Issues](/handbook/engineering/workflow/#infradev)
+  - [Reliability Improvement Issues](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new)
 
 These efforts are coordinated asynchronously via the [GitLab Incident and Pager Trends Monthly Review Agenda](https://docs.google.com/document/d/1SBoyuKK_g3RbYMcwJZs6dFqCGH9NCqu-M3QsHIwiKMw/edit#)
 

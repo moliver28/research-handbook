@@ -85,7 +85,7 @@ Solutions Architects frequently interact with customers for demos, presentations
 - [Switch between full screen applications](https://www.intego.com/mac-security-blog/how-to-enter-and-exit-full-screen-mode-in-macos/) using the trackpad, Command keys or other options
 - Use the [Zoom Accessibility Features](https://www.imore.com/how-use-zoom-mac) to zoom in on targeted screen locations
 - [Work in multiple spaces on a single monitor](https://support.apple.com/en-gb/guide/mac-help/mh14112/mac) to keep multiple app windows or browser tabs open in fullscreen mode
-    - Enables switching between windows or tabs with trackpad gestures, keeping display screen clean and uncluttered
+  - Enables switching between windows or tabs with trackpad gestures, keeping display screen clean and uncluttered
 
 ### Useful Customer Facing Presentations
 
@@ -111,9 +111,9 @@ Here are courses that will facilitate the onboarding process of associate SAs an
 **Free for GitLab members**
 
 - The learning path [Become a DevOps Engineer](https://www.linkedin.com/learning/paths/become-a-devops-engineer), particularly the following sections:
-    - [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations)
-    - [Learning Docker](https://www.linkedin.com/learning/learning-docker-2018)
-    - [DevOps Foundations - CI/CD](https://www.linkedin.com/learning/devops-foundations-continuous-delivery-continuous-integration-14449917)
+  - [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations)
+  - [Learning Docker](https://www.linkedin.com/learning/learning-docker-2018)
+  - [DevOps Foundations - CI/CD](https://www.linkedin.com/learning/devops-foundations-continuous-delivery-continuous-integration-14449917)
 
 - [Docker for the Absolute Beginner - Hands-On](https://learning.oreilly.com/videos/docker-for-the/9781788991315/)
 
@@ -129,3 +129,7 @@ The [GitLab Data Seeder](https://docs.gitlab.com/ee/topics/data_seeder.html) is 
 The data that is generated is customizable, time-relative, and can be used on-demand to generate data to demonstrate.
 
 The Demo Data can be showcased on any self-managed instance including Docker, GDK, and customer environments.
+
+### Diagramming Tools
+
+Being able to diagram as-is and to-be workflows and architectures is a key tactic for Solution Architects to communicate key benefits of a GitLab DevSecOps transformation.  GitLab has made FigJam available for SAs to use and we have [Solutions Architecture Workspace](https://www.figma.com/files/972612628770206748/workspace/1338898741676176280/directory/teams?fuid=1339310988336517144) available for storing our diagrams.

@@ -26,9 +26,9 @@ This method involves managing conflict through unilateral decision making.
 - Primarily used for: Situations that require a quick decision, instances where there is no compromise or debate on making a hard decision.
 - Competing styles: Win-Lose approach, Assertive & Uncooperative and You try to satisfy your own concerns at the other team members expense.
 - Examples:
-    - Imposing or dictating a decision - "Sorry X, but that's my decision as your manager"
-    - Arguing for a conclusion that fits your data - "Our customer survey shows a steady decline.  We need to design the route"
-    - Hard bargaining (making no concessions) - I won't take less than X - Take it or leave it.
+  - Imposing or dictating a decision - "Sorry X, but that's my decision as your manager"
+  - Arguing for a conclusion that fits your data - "Our customer survey shows a steady decline.  We need to design the route"
+  - Hard bargaining (making no concessions) - I won't take less than X - Take it or leave it.
 
 ### Avoiding method
 
@@ -37,9 +37,9 @@ Actively deciding not to manage a conflict.
 - Primarily used for: Unimportant, non-work relates issues, buying time until a resolution can be reached and recognizing issues as symptoms.
 - Avoiding styles: "Lose-Lose" approach, unassertive and uncooperative, evading conflict without trying to satisfy either person's concerns and effective in emotionally charged circumstances.
 - Examples:
-    - Avoiding people you find troublesome - "This doesn't seem to be a good time to discuss this issue with X".
-    - Avoiding issues that are unimportant, complex or perceived threatening - "Maybe. We'll see. Let's move along to the next topic."
-    - Postponing the discussion until later - "Let me check on that and get back to you next week."
+  - Avoiding people you find troublesome - "This doesn't seem to be a good time to discuss this issue with X".
+  - Avoiding issues that are unimportant, complex or perceived threatening - "Maybe. We'll see. Let's move along to the next topic."
+  - Postponing the discussion until later - "Let me check on that and get back to you next week."
 
 ### Accomodating method
 
@@ -48,11 +48,11 @@ Allowing the other side to "win."
 - Primarily used for: Maintaining perspective in a conflict situation, making active decisions on what can be "let go" and maintaining peace and creating goodwill.
 - Accomodating styles: Unassertive & cooperative and you attempt to satisfy the other team members concerns at the expense of your own concerns.
 - Examples:
-    - Doing a favor to help someone - " I can see this is important to you, OK.""
-    - Being persuaded - I didn't think of that, you are right."
-    - Obeying an authority - "I'd do it differently, but it is your call."
-    - Deferring to another's expertise - "You are the experts, I'll trust your judgement.""
-    - Appeasing someone who is threatening - Ok, ok, please calm down."
+  - Doing a favor to help someone - " I can see this is important to you, OK.""
+  - Being persuaded - I didn't think of that, you are right."
+  - Obeying an authority - "I'd do it differently, but it is your call."
+  - Deferring to another's expertise - "You are the experts, I'll trust your judgement.""
+  - Appeasing someone who is threatening - Ok, ok, please calm down."
 
 ### Compromising method
 
@@ -61,9 +61,9 @@ Reaching a resolution with a "win" on both sides.
 - Primarily used for: Resolving issues of moderate to high importance, finding a solution that involves equal power and strong commitment on both sides, situations where a temporay "fix" may be needed and backing up a decision that's been made via the competing or collaborating method.
 - Compromising style: In the middle and you try to find an acceptable settlement that only partially satisfies both team members concerns.
 - Examples:
-    - Soft bargaining or exchanging concessions - "Let's split the difference and settle for X".
-    - Taking turns - "Suppose I do X this time and then you do Y next time."
-    - Moderating your conclusions - "You think X will solve the problem but I think Y will, so perhaps we say X&Y are possible solutions?"
+  - Soft bargaining or exchanging concessions - "Let's split the difference and settle for X".
+  - Taking turns - "Suppose I do X this time and then you do Y next time."
+  - Moderating your conclusions - "You think X will solve the problem but I think Y will, so perhaps we say X&Y are possible solutions?"
 
 ### Collaborating method
 
@@ -72,8 +72,8 @@ Managing conflict through team input.
 - Primarily used for: Gaining support from the team, using different perspectives as an opportunity to learn and improving relationships through collaboration.
 - Collaborating style: Assertive and cooperative and finding a "win-win."
 - Examples:
-    - Reconciling interest through a "win-win" solution - "You need to fund project X but I need to project Y, how can we do both?"
-    - Combining insights into a richer understanding - "You are praising X's technical skills, however I have concerns about their iteration and collaborations skills.  Both are true aren't they?  They have high potential if they can improve on their interpersonal skills."
+  - Reconciling interest through a "win-win" solution - "You need to fund project X but I need to project Y, how can we do both?"
+  - Combining insights into a richer understanding - "You are praising X's technical skills, however I have concerns about their iteration and collaborations skills.  Both are true aren't they?  They have high potential if they can improve on their interpersonal skills."
 
 ## 8 tips for managing conflict
 

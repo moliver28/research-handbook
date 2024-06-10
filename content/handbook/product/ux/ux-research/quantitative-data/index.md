@@ -85,10 +85,10 @@ There are dozens of ways to [lie with visualizations](https://handsondataviz.org
 
 - Visualizations should be quick and easy to interpret. The visualization should not result in more questions than answers.
 - Each of your axes should be understandable and practical:
-    - Always start your axis at 0.
-    - Do not skip or remove large sections of your data by limiting the axis.
-    - Do not use double Y axes unless absolutely necessary.
-    - If you are comparing two graphs, ensure the axes are on the same scale and range.
+  - Always start your axis at 0.
+  - Do not skip or remove large sections of your data by limiting the axis.
+  - Do not use double Y axes unless absolutely necessary.
+  - If you are comparing two graphs, ensure the axes are on the same scale and range.
 - For chronological studies, always put time on the X axis.
 - Keep it simple. Titles should be clear and concise, and there should be enough context for a team member unfamiliar with the topic to understand the message.
 - State the limitations, including the date the data was pulled, and where it was pulled from. Use subtitles for references when needed.
@@ -102,8 +102,8 @@ This section covers how to read visualizations, look for trends, and turn the re
 - Similarities or differences when comparing across one category or more
 - Data that is consistently increasing or decreasing.
 - Two variables that are correlated with each other. The correlation could look like:
-    - As one metric goes up/down, another metric cosistently goes up/down with it.
-    - As one metric goes up/down, another metric consistently does the opposite.
+  - As one metric goes up/down, another metric cosistently goes up/down with it.
+  - As one metric goes up/down, another metric consistently does the opposite.
 
 Once you have identified patterns, summarize those patterns as best you can while considering your original hypotheses/questions.
 

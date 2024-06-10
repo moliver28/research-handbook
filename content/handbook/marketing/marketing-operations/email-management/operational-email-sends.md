@@ -45,7 +45,7 @@ Fill out the issue template with the following information:
 - What kind of release? (critical, coordinated or normal)
 - Review copy and confirm what versions should upgrade
 - Communication with MktgOps team on time of send or changes to date/time
-   - If the release will happen during EMEA hours, please note ahead of time.
+  - If the release will happen during EMEA hours, please note ahead of time.
 - Reviewing email copy for content
 
 Marketing Ops Responsibilities:

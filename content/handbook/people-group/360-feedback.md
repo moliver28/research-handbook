@@ -185,7 +185,7 @@ We encourage all team members to complete this training, and recommend it specif
 - Keep it actionable- always describe behaviors, not traits. Focus on what the person can actually do something about going forward (i.e. more of, less of, keep doing - "it would be good to see more of X as it leads to Y".)
 - Be respectful AND honest - feedback on improvement areas can at times be challenging to give. Keep in mind the purpose of the feedback is for development and not to judge or evaluate performance. Team members cannot improve and grow if they don't know where to focus, so this type of feedback is also important and encouraged.
 - Try to avoid comparing different team members and rather look at a person's progress, comparing them against themselves only.
-    - Ex: Person X's performance in January compared to their performance in May, as opposed to person X's performance compared to person Z's performance.
+  - Ex: Person X's performance in January compared to their performance in May, as opposed to person X's performance compared to person Z's performance.
 
 Below are a couple of tips for team members who may have received a significant number of feedback requests to contribute to.
 

@@ -25,29 +25,29 @@ A strategic group of Senior leaders Leaders who assist the DIB team in implement
 Senior leadership representative (Snr. Dir +) from each Department and a person from an underrepresented group who is manager+ where representation at Snr Dir+ is not possible.
 
 - Engineering - Two Representatives
-    - Darva Satcher
-    - Tim Zallman
+  - Darva Satcher
+  - Tim Zallman
 - Product - Two Representatives
-    - Taylor McCaslin
-    - TBC
+  - Taylor McCaslin
+  - TBC
 - Sales - Two Representatives
-    - Sherrod Patching
-    - Michel Isnard
+  - Sherrod Patching
+  - Michel Isnard
 - Marketing - Two Representatives
-    - Christine Lee
-    - TBC
+  - Christine Lee
+  - TBC
 - Finance
-    - Andrew Murray
-    - Dennis van Rooijen
+  - Andrew Murray
+  - Dennis van Rooijen
 - Legal & Corporate Affairs
-    - Stacy Cline
+  - Stacy Cline
 - Security
-    - Joaquin Fuentes
+  - Joaquin Fuentes
 - People
-    - People Business Partners
+  - People Business Partners
 - Representative from DIB Influencer Group
 - Office of CEO representative
-    - TBC
+  - TBC
 - VP of DIB - Leadership DIB Council Lead
 - DIB Team
 - Executive Sponsors
@@ -77,11 +77,11 @@ Senior leadership representative (Snr. Dir +) from each Department and a person 
 These are the Accountabilities and Commitments that members of the Leadership DIB Council will commit to during their tenure on the The Leadership DIB Council:
 
 - To being an active member of the Leadership DIB Council this includes but is not limited:
-    - Attending a regular sync meeting that is suitable for your working hours. We will host two meetings: One in AM PST and one in PM PST or switch the times on rotation to allow all members to attend bi-monthly
-    - Actively participate in the meeting by providing leadership, insights and actions on agenda items
-    - Reading the notes or viewing the recording from the sync call you were unable to attend.
-    - Taking on action items as an individual or part of a group
-    - Advocate and sponsor DIB programs, Initiatives and Trainings
+  - Attending a regular sync meeting that is suitable for your working hours. We will host two meetings: One in AM PST and one in PM PST or switch the times on rotation to allow all members to attend bi-monthly
+  - Actively participate in the meeting by providing leadership, insights and actions on agenda items
+  - Reading the notes or viewing the recording from the sync call you were unable to attend.
+  - Taking on action items as an individual or part of a group
+  - Advocate and sponsor DIB programs, Initiatives and Trainings
 - Contribute asynchronously via Slack, GitLab or other means on projects that the group is working on
 - Actively seek and distribute DIB related information within your department and other team members
 - Be a trusted advisor to team members on DIB related issues and processes

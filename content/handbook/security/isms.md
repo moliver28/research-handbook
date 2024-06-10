@@ -43,11 +43,11 @@ Business functions included in the scope of the ISMS include:
 This ISMS governs GitLab security operations. Interested parties include:
 
 - Customers
-   - Require GitLab to operate according to this ISMS to protect their information
+  - Require GitLab to operate according to this ISMS to protect their information
 - Shareholders/owners of the business
-   - Require GitLab to operate in a secure manner to maintain a sustainable business
+  - Require GitLab to operate in a secure manner to maintain a sustainable business
 - Team Members
-   - GitLab requires Team Members to operate in a secure manner as defined by this ISMS. Require GitLab to operate in a secure manner to maintain services and provide continued employment
+  - GitLab requires Team Members to operate in a secure manner as defined by this ISMS. Require GitLab to operate in a secure manner to maintain services and provide continued employment
 
 ## ISMS Roles and Responsibilities
 

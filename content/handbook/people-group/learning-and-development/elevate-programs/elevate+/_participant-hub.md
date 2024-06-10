@@ -48,6 +48,10 @@ Making the most out of Elevate+:
 - 🤔Stay curious and open to learning
 - 💃Have fun!
 
+## Certification
+
+Elevate+ concludes with an oral certification to demonstrate your mastery of leadership competencies. Please review [this handbook page](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/#certification) for a detailed outline of the certification process.
+
 ## Module 1: My Leadership Identity
 
 `My Leadership Identity` is the starting point for Elevate+. Live sessions and intersession work will focus on building your self awareness, executive presence, and intentionality behind your behavior and impact on your team's results.
@@ -119,7 +123,3 @@ In Module 4, increase your cross-functional effectiveness in order to clear the 
 **Key Links**
 
 1. [Module 5 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSdHJnLbjDSj-gsDdSwigOn3zIW_7BxpJ1Xgae9htEp6zE3_1w/viewform?usp=sf_link)
-
-## Certification
-
-*Certification and pre-certificaiton session material will be added soon.*

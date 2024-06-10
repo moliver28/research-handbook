@@ -50,12 +50,12 @@ Most of the details discussed below are also available as individual issues whic
 
 - Where are your runners located?
 - Runner Flavors
-    - [Openshift](https://docs.openshift.com/rosa/welcome/index.html)
+  - [Openshift](https://docs.openshift.com/rosa/welcome/index.html)
 
 - Strategies on how to connect to GitLab Dedicated
-    - Multi-Cloud
-        - Leverage on [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
-            - [Example Architecture](https://gitlab.com/gitlab-com/account-management/apac/pre-sales/govtech/uploads/243461695aff0443e6df749d585cf648/image__2_.png)
+  - Multi-Cloud
+    - Leverage on [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
+      - [Example Architecture](https://gitlab.com/gitlab-com/account-management/apac/pre-sales/govtech/uploads/243461695aff0443e6df749d585cf648/image__2_.png)
 
 ## Domain - Customer Desired Sub-Domains
 
@@ -69,9 +69,9 @@ Most of the details discussed below are also available as individual issues whic
 
 - Are you looking for log streaming to an S3 bucket?
 - Log Sources to be streamed to S3 bucket and where?
-    - production_json.log
-    - Production.log
-    - api_json.log
-    - Application.log
-    - Application_json.log
-    - audit_json.log
+  - production_json.log
+  - Production.log
+  - api_json.log
+  - Application.log
+  - Application_json.log
+  - audit_json.log

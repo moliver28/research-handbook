@@ -18,7 +18,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 1. Open your browser to to the **Security Labs** project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL and the group should appear in your history.
+    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL if you are in Self-Paced Training, or https://ilt.gitlabtraining.cloud if you are in Instructor-Lead Training, and the project should appear in your history.
 
 2. To disable a scanner, add a hash before the template that enables it in `.gitlab-ci.yml`. For example, the DAST scanner takes some time to run, so, to disable the DAST scanner configured in Lab 1, make these edits to your existing `.gitlab-ci.yml`.
 

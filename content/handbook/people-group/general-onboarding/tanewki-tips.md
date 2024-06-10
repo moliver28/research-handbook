@@ -32,11 +32,11 @@ After you sign your offer and complete your background check and references, you
 1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
 1. In some entity countries, GitLab uses external companies to assist with the collection of payroll documents from you.
 
-  - France: Papaya
-  - Netherlands: HR Savvy
-  - Singapore: Global Upside / Safeguard
-  - South Korea: Global Upside / Safeguard
-  - UK: Papaya
+   - France: Papaya
+   - Netherlands: HR Savvy
+   - Singapore: Global Upside / Safeguard
+   - South Korea: Global Upside / Safeguard
+   - UK: Papaya
 
 1. If you are hired through a PEO location, the PEO will reach out to you prior to your start date to obtain the necessary documents and start their onboarding process.
 1. The next email you will receive, is a [TaNEWki call](/handbook/people-group/general-onboarding#tanuki-orange) invite. We hope you can join us! This Zoom call addresses those first day nerves and gives you some time to meet other new team members. You will see this invite sent to you 1-2 weeks before your start date.

@@ -109,9 +109,9 @@ Calendly has a
 and a [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/calendly-meeting-scheduling/)
 that makes it easy to generate a single-use link to send to the customer. After adding it to your browser, look for
 the Calendly icon at the top right in your browser. Sign in to Calendly, then you will see a list of events. You
-probably want to "star" your personal Support Call event to simplify the pop-up window.
-Then simply click on the one-time link icon next to the event of your choice to generate a link you can paste into
-your message to the customer.
+may want to "star" your personal Support Call event to simplify the pop-up window.
+
+To generate a one-time link, select that option from the dropdown menu on the `Share availability` button for the event of your choice.
 
 ![Browser plug-in](../assets/calendly.png)
 

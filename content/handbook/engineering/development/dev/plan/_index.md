@@ -257,9 +257,9 @@ With Value stream analytics (VSA) our team is getting visibility to the [lifecyc
 
 For example, for the review phase, we are using VSA to count the [time between "workflow::in review" and "MR merged"](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2023-03-01&created_before=2023-04-29&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=779&stage_id=17092&sort=duration&direction=desc&page=1). With this data, we can identify:
 
-   - MRs that were bottlenecked due to limited reviewers/maintainers capacity.
-   - Types of work that move slower than other types.
-   - Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
+- MRs that were bottlenecked due to limited reviewers/maintainers capacity.
+- Types of work that move slower than other types.
+- Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
 
 Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan/-/issues/759).
 
@@ -441,20 +441,16 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-03-04 | Kushal Pandya |
-| 2024-03-11 | John Hope |
-| 2024-03-18 | Brandon Labuschagne |
-| 2024-03-25 | Donald Cook |
-| 2024-04-01 | Kushal Pandya |
-| 2024-04-08 | John Hope |
-| 2024-04-15 | Brandon Labuschagne |
-| 2024-04-22 | Donald Cook |
-| 2024-04-29 | Vladimir Shushlin |
-| 2024-05-06 | Kushal Pandya |
-| 2024-05-13 | John Hope |
-| 2024-05-20 | Brandon Labuschagne |
 | 2024-05-27 | Donald Cook |
 | 2024-06-03 | Vladimir Shushlin |
+| 2024-06-10 | Kushal Pandya |
+| 2024-06-17 | Donald Cook |
+| 2024-06-24 | Brandon Labuschagne |
+| 2024-07-01 | John Hope |
+| 2024-07-08 | Vladimir Shushlin |
+| 2024-07-15 | Kushal Pandya |
+| 2024-07-22 | John Hope |
+| 2024-07-29 | Brandon Labuschagne |
 
 #### Links
 
@@ -615,14 +611,14 @@ Engineering team-members can shadow a product stable-counterpart. Shadowing sess
 ### Speed Runs
 
 - Labels
-    - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
+  - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
 - Issues
-    - [Description Change History](https://youtu.be/-JgfJSSLYlI)
+  - [Description Change History](https://youtu.be/-JgfJSSLYlI)
 - Epics
-    - [Organize sub-Epics with the Epic Tree](https://youtu.be/TzRCan5ki6o)
+  - [Organize sub-Epics with the Epic Tree](https://youtu.be/TzRCan5ki6o)
 - Requirements Management
-    - [Requirements MVC](https://youtu.be/uSS7oUNSEoU)
-    - [Satisfy Requirements from CI Pipeline](https://youtu.be/4m1mSEb2ywU)
+  - [Requirements MVC](https://youtu.be/uSS7oUNSEoU)
+  - [Satisfy Requirements from CI Pipeline](https://youtu.be/4m1mSEb2ywU)
 
 ### Engineering Scaling Targets
 
@@ -630,17 +626,30 @@ We're tracking a number of issues that we believe could cause scalability proble
 
 | Type | Description | Estimated Timeline for Failure | Resolution Due Date | 12 Month Target | Issue | Status |
 | ---- | ---          | ---                            | ---                | ---    | ---   | ---    |
-| Primary key int4 overflow | `system_note_metadata.id` column is at 50% saturation and must be converted to bigint (int8). | March 2024 - 2025 | 2023-12-22 | Sub-50% | [#424114](https://gitlab.com/gitlab-org/gitlab/-/issues/424114) | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:red;'>Urgent</span> |
 | Redis Primary CPU | Unexpected load on the Shared State Redis instance caused by `SUBSCRIBE`, `UNSUBSCRIBE` and `PUBLISH` commands. | Unknown | November 2023 | [150k Concurrent WebSocket Connections][websockets] at peak | | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
 | Redis Memory | Retention of Action Cable messages in Redis Shared State memory due to high numbers of and/or stalled/hung clients.  | Unknown | November 2023 | [150k Concurrent WebSocket Connections][websockets] at peak | [#326364](https://gitlab.com/gitlab-org/gitlab/-/issues/326364) | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
-| Various | Scaling a combined 'Work Items' table consisting of all current issues, epics, requirements and test cases. | Unknown | November 2023 | [100k Work Items](#work-items) created per day| | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
+| Primary DB | Scaling a combined 'Work Items' table consisting of all current issues, epics, requirements and test cases. | Unknown | November 2024 | [50k Work Items](#work-items) created per day| | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
+
+[websockets]: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets
 
 Note: Work is ongoing on [migration helpers](https://gitlab.com/gitlab-org/gitlab/-/issues/292874) to mitigate Int4 Primary Key Overflows. These will provide a standard way to resolve these issues.
+
+#### Current Large Tables
+
+Some tables in our database have grown significantly and may pose scalability issues.
+
+| Table Name            | Current Size (Bytes) | Planned Mitigation Issue                             | Status                                                                                                                                          |
+| --------------------- | -------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| description_versions  | 424.2                | https://gitlab.com/gitlab-org/gitlab/-/issues/412704 | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:red;'>Critical</span> |
+| issues                | 278.4                | https://gitlab.com/groups/gitlab-org/-/epics/10987   | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:orange;'>Warning</span>  |
+| resource_label_events | 165.3                | https://gitlab.com/gitlab-org/gitlab/-/issues/412705 | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:orange;'>Warning</span>  |
+| sent_notifications    | 508.1                | https://gitlab.com/gitlab-org/gitlab/-/issues/417233 | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:red;'>Critical</span> |
+| system_note_metadata  | 173.5                |                                                      | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:yellow;'>Warning</span>  |
+
+By continually monitoring these tables and applying the planned mitigations, we aim to maintain optimal performance and prevent any scalability issues.
 
 ### Metrics
 
 #### Plan xMAU
 
 - [Product Planning Performance Indicators](/handbook/product/performance-indicators/)
-
-[websockets]: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets

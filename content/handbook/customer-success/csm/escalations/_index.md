@@ -1,13 +1,6 @@
 ---
-
 title: Customer Success Escalations Process
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -61,20 +54,20 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
 
 - The DRI is responsible for managing the account engagement (not the ticket), including:
 
-   - Management of internal team and customer meetings for follow-up activities.
+  - Management of internal team and customer meetings for follow-up activities.
 
-     - Note: To ensure the DRI does not slow the resolution of issues, the DRI doesn't need to be in all meetings (e.g., technical troubleshooting with the customer and support/development).
-   - Driving and coordinating the escalation process internally and with the customer, including associated communications and executive-level meetings.
-   - Developing and maintaining the escalation document and supporting account documents.
-   - Acting as an escalation point for customer-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.)
-   - Developing the business case justification and escalation to Product for escalations related to enhancement requests
-   - Posting a daily update to the dedicated escalated customer Slack channel to ensure all parties are kept updated
+    - Note: To ensure the DRI does not slow the resolution of issues, the DRI doesn't need to be in all meetings (e.g., technical troubleshooting with the customer and support/development).
+  - Driving and coordinating the escalation process internally and with the customer, including associated communications and executive-level meetings.
+  - Developing and maintaining the escalation document and supporting account documents.
+  - Acting as an escalation point for customer-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.)
+  - Developing the business case justification and escalation to Product for escalations related to enhancement requests
+  - Posting a daily update to the dedicated escalated customer Slack channel to ensure all parties are kept updated
 
 - Support Engineering is responsible for:
 
-   - Collaborating with technical resources (e.g., Development, Quality Assurance, SREs, and Support Engineering staff) to drive resolution of the technical issues
-   - Managing the 24x7 incident resolution and escalation process (i.e., Support Engineering, SRE, Development)
-   - Supporting executive and customer calls (as needed)
+  - Collaborating with technical resources (e.g., Development, Quality Assurance, SREs, and Support Engineering staff) to drive resolution of the technical issues
+  - Managing the 24x7 incident resolution and escalation process (i.e., Support Engineering, SRE, Development)
+  - Supporting executive and customer calls (as needed)
 
 If an escalation is opened as high or critical, and the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002).
 
@@ -92,7 +85,7 @@ If an escalation is opened as high or critical, and the escalation is product re
 - [Declare a GitLab.com Incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) if you suspect a widespread issue on GitLab.com
 - [Escalate an individual support ticket to Support Management](/handbook/support/internal-support/support-ticket-attention-requests) for cases with context that necessitate they should be handled outside of standard priority order.
 - Have the customer [trigger Emergency Support](https://about.gitlab.com/support/#how-to-trigger-emergency-support) for S1/instance down issues to connect directly with the Support Engineer on-call.
-   - You can also [page the on-call support manager](/handbook/support/on-call/#engaging-the-on-call-manager) in cases where you've received word that a customer attempted to raise an emergency, but the on-call engineer was not paged.
+  - You can also [page the on-call support manager](/handbook/support/on-call/#engaging-the-on-call-manager) in cases where you've received word that a customer attempted to raise an emergency, but the on-call engineer was not paged.
 - This page outlines the additional support and operational procedures for the varying levels of account escalation.
 
 ## Initiating, Managing and Closing an Escalation
@@ -125,17 +118,17 @@ The following steps are to be taken by the escalation DRI:
 
 This channel will remain open until the escalation is closed and should be listed in the escalation document. Name the channel #esc_customername (must start with #esc_ to be included in our data retention policy) and ensure it is a public channel so that relevant parties can be easily added/find the channel. Some more tips & tricks for opening and managing the temporary slack channel can be found below:
 
-   - a) Create an opening message in the escalation channel which should include the link to the escalation tracker doc + the initial ask / link to it within the gdoc as deep link.
-      - Example for a potential opening message to get things going:
-        - "*Welcome! This is the channel for the <CUSTOMER_NAME> escalation regarding ongoing performance problems which are impacting the whole user base.*"
-           - *The escalation tracker document is ready and available at "<*LINK*>"*
-           - *The initial ask/need from DRI (CSM) to GitLab management is defined in the tracker gdoc - Quote:*
-              - "*We need a GitLab team (member) who can engage with the customer on a daily basis to further analyze the performance issues root cause(s) and identify potential changes to reduce the performance problems for the  users.*"
-              - "*Once the root causes are identified, we need a team working with the customer to implement required changes, which may range from configuration updates to changing the architecture of the GitLab platform or involving cloud vendor support for changes in underlying infrastructure.*"
-        - "Whats next?"
-           - "Our next sync with the customer team is scheduled for Monday at 10:30am CEST where we would like to have the team (member) defined internally, who can then be introduced to the customer (can be a separate call at afternoon time) to engage in the following days."
+- a) Create an opening message in the escalation channel which should include the link to the escalation tracker doc + the initial ask / link to it within the gdoc as deep link.
+  - Example for a potential opening message to get things going:
+    - "*Welcome! This is the channel for the <CUSTOMER_NAME> escalation regarding ongoing performance problems which are impacting the whole user base.*"
+      - *The escalation tracker document is ready and available at "<*LINK*>"*
+      - *The initial ask/need from DRI (CSM) to GitLab management is defined in the tracker gdoc - Quote:*
+        - "*We need a GitLab team (member) who can engage with the customer on a daily basis to further analyze the performance issues root cause(s) and identify potential changes to reduce the performance problems for the  users.*"
+        - "*Once the root causes are identified, we need a team working with the customer to implement required changes, which may range from configuration updates to changing the architecture of the GitLab platform or involving cloud vendor support for changes in underlying infrastructure.*"
+    - "Whats next?"
+      - "Our next sync with the customer team is scheduled for Monday at 10:30am CEST where we would like to have the team (member) defined internally, who can then be introduced to the customer (can be a separate call at afternoon time) to engage in the following days."
 
-   - b) If posted, pin the opening message to the channel, so that it is easily available for everyone. Also add the escalation tracker doc as a SLACK channel bookmark along
+- b) If posted, pin the opening message to the channel, so that it is easily available for everyone. Also add the escalation tracker doc as a SLACK channel bookmark along
 
 ##### Escalation Tracker Doc
 
@@ -147,12 +140,12 @@ Copy and save the document for the individual customer and replace (CUSTOMER) wi
 
 Set up and document an internal standup cadence series while the escalation is running and put the details in the tracker doc
 
-   - At least the major stakeholders from each team involved in the escalation should be invited directly in the calendar invite.
-   - Let the temporary slack channel know about the new tracking doc with a post about the standup being in place.
-   - Mark the tracking document URL in your SLACK message as sticky + add a bookmark to the temporary slack channel with the URL to the tracking doc.
-      - Benefit: This enables everyone to join the cadence, who may need or want to join. The gdoc is the central place to get up2speed or contribute.
-   - Tip: 10min before each standup, post the link to the escalation doc with a note that the standup will happen at the scheduled time. You can also schedule & automate the message via SLACK.
-      - Benefit: Stakeholders get notified in SLACK and interested or required team members can already add topics to the agenda.
+- At least the major stakeholders from each team involved in the escalation should be invited directly in the calendar invite.
+- Let the temporary slack channel know about the new tracking doc with a post about the standup being in place.
+- Mark the tracking document URL in your SLACK message as sticky + add a bookmark to the temporary slack channel with the URL to the tracking doc.
+  - Benefit: This enables everyone to join the cadence, who may need or want to join. The gdoc is the central place to get up2speed or contribute.
+- Tip: 10min before each standup, post the link to the escalation doc with a note that the standup will happen at the scheduled time. You can also schedule & automate the message via SLACK.
+  - Benefit: Stakeholders get notified in SLACK and interested or required team members can already add topics to the agenda.
 
 During the internal cadence, be sure to note any changes in exit criteria or DRI.
 
@@ -169,15 +162,15 @@ Make sure you write down the initial ask & needs (to initially make progress) in
 
 Example message for the event when the escalation is identified and created and you have to post to `#escalated_customers`:
 
-   - New Escalation
-   - **Customer**: "<customer_name>"
-   - **Slack Channel**: "#<esc_customername>"
-   - **Tracking Document**: "<LINK:Escalation Tracker Doc>"
-   - **Severity**: High
-   - **Status**: Opened
-   - **Product DRI**: "[Assigned Product DRI](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002)"
-   - **Description**: "<Example <Customer> platform is impacted by performance problems since several weeks and users are affected on a daily base which is driving the customer into a critical state. The performance problems are also risking their our license expansion.>”
-   - **FYI**: "<TAG_YOUR_MANAGER_HERE>"
+- New Escalation
+- **Customer**: "<customer_name>"
+- **Slack Channel**: "#<esc_customername>"
+- **Tracking Document**: "<LINK:Escalation Tracker Doc>"
+- **Severity**: High
+- **Status**: Opened
+- **Product DRI**: "[Assigned Product DRI](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002)"
+- **Description**: "<Example <Customer> platform is impacted by performance problems since several weeks and users are affected on a daily base which is driving the customer into a critical state. The performance problems are also risking their our license expansion.>”
+- **FYI**: "<TAG_YOUR_MANAGER_HERE>"
 
 For high or critical escalations, and if the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). The Product DRI should be added to the #esc_customername channel and will drive any product related items throughout the escalation.
 
@@ -185,9 +178,9 @@ For high or critical escalations, and if the escalation is product related, a Pr
 
 To keep noise to a minimum, posting in `#escalated_customers` should happen only at key moments:
 
-   - when the escalation is identified and created
-   - when the escalation is closed or risk reduced to standard business process to manage (i.e., issue resolved and monitoring the solution)
-   - when there is a change in the priority of the escalation
+- when the escalation is identified and created
+- when the escalation is closed or risk reduced to standard business process to manage (i.e., issue resolved and monitoring the solution)
+- when there is a change in the priority of the escalation
 
 The `#escalated_customers` channel is for awareness only and is not intended to replace the dedicated slack channel created as above, the account or support channels. Leverage the specific escalation channel created for working communications, collaborations and executive updates.
 
@@ -203,7 +196,7 @@ Tips & Tricks:
 
 - Create a daily reminder (at afternoon before you leave, for example) in your Google calendar just for yourself to update the escalation doc + customer SLACK channel with latest status/next steps. This ensures everyone is kept up2date.
 - Depending on the state of the escalation, also think about to setup an GitLab internal cadence for the GitLab team, which is responsible for the escalation:
-   - CSM, SAL, Manager of CSM and potential other involved stakeholders, PS lead and  the DRIs who are working in this escalation actively with the customer and the internal team. This way
+  - CSM, SAL, Manager of CSM and potential other involved stakeholders, PS lead and  the DRIs who are working in this escalation actively with the customer and the internal team. This way
 
 ### Closing the Escalation
 

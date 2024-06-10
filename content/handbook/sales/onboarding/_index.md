@@ -34,7 +34,7 @@ For a detailed list of SQS Learning Objectives, please visit [this page](/handbo
 | DATES | GEO | LOCATION | ISSUE |
 | ------ | ------ | ------ | ------ |
 | June 7th - 24th, 2024  | AMER / EMEA | Virtual | [SQS 39 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2425) |
-| July 22nd - August 2nd, 2024  | AMER / EMEA | Virtual | [SQS 40 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2660) |
+| July 15th - July 26th, 2024  | AMER / EMEA | Virtual | [SQS 40 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2660) |
 
 ## Past Sales Quick Start (SQS) Workshops
 

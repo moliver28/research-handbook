@@ -30,7 +30,7 @@ Feature development epics are listed in [team priorities](https://about.gitlab.c
 ### Follow-up work
 
 - When additional work is identified that is not required for a release of a feature, a separate follow-up/improvements epic should be created and the issues should be added to it
-    - This additional epic should not go into the priorities list for the group as not all of the issues may be important enough to schedule for a specific milestone. Instead the issues should be prioritized individually
+  - This additional epic should not go into the priorities list for the group as not all of the issues may be important enough to schedule for a specific milestone. Instead the issues should be prioritized individually
 - When we close the feature flag rollout issue, which happens when the feature flag has been defaulted on and the feature flag cleanup issue has been created (per the rollout issue template), we close the feature epic and move any remaining issues to the follow-up/improvement epic
 
 ### Bugs

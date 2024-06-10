@@ -65,32 +65,32 @@ description: "Tableau at GitLab"
 Having completed the migration to Tableau in FY25-Q1, we are now focused on improving the Tableau developer experience and scaling our implementation to stregthen enterprise reporting.
 
 - FY25-Q2 - Establish the framework for the Future State of Tableau, with input from Functional teams
-    - Publish the Executive Landing Page to drive users towards critical dashboards
-    - Document an approach to Tableau data source creation that promotes single-source-of-truth reporting
-    - Document and implement a user deprovisioning policy & process, in order to free up unused licenses on a set cadence
-    - Document the key GTM domain areas that lack single-source-of-truth data sources
-    - Run an assessment of our Tableau environment, using quantitative and qualitative measures
-        - Data sources (number of data sources that exist, custom SQL vs. table-based, commonly used tables that may indicate an opportunity for data source consolidation, etc.)
-        - Dashboards (number of dashboards that exist, distribution of usage, average user views per dashboard, etc.)
-        - Users (login frequency, etc.)
+  - Publish the Executive Landing Page to drive users towards critical dashboards
+  - Document an approach to Tableau data source creation that promotes single-source-of-truth reporting
+  - Document and implement a user deprovisioning policy & process, in order to free up unused licenses on a set cadence
+  - Document the key GTM domain areas that lack single-source-of-truth data sources
+  - Run an assessment of our Tableau environment, using quantitative and qualitative measures
+    - Data sources (number of data sources that exist, custom SQL vs. table-based, commonly used tables that may indicate an opportunity for data source consolidation, etc.)
+    - Dashboards (number of dashboards that exist, distribution of usage, average user views per dashboard, etc.)
+    - Users (login frequency, etc.)
 - FY25-Q3 - Achieve the following targets (specific numbers will be updated in Q2, and will be informed by findings from Q2 assessment):
-    - Document and implement dashboard/data source archival policies & process, in order to remove clutter from our environment
-    - Document and implement a process to help users distinguish between certified & uncertified dashboards
-    - Initiate the BI Enablement charter with programs & materials to support the Tableau community at GitLab
-    - Define, calculate, and publish quantitative metrics for Tableau health to be viewed on-demand, and incorporate into the quarterly Data Key Review. Examples below, but will be iterated on and updated:
-        - Average user views per dashboard (should increase as we declutter the Tableau environment through archival policies)
-        - Average # dashboards per published data source (should increase as we build up the inventory of SSOT published data sources)
-        - % of published dashboards in the Production environment (should increase as we build up the inventory of SSOT dashboards)
-        - etc.
-    - Publish X certified Tableau data sources for critical domain areas that require single-source-of-truth data sources
-    - Support functional teams in repointing dashboards to leverage certified data sources
-    - Refresh assessment of Tableau environment
+  - Document and implement dashboard/data source archival policies & process, in order to remove clutter from our environment
+  - Document and implement a process to help users distinguish between certified & uncertified dashboards
+  - Initiate the BI Enablement charter with programs & materials to support the Tableau community at GitLab
+  - Define, calculate, and publish quantitative metrics for Tableau health to be viewed on-demand, and incorporate into the quarterly Data Key Review. Examples below, but will be iterated on and updated:
+    - Average user views per dashboard (should increase as we declutter the Tableau environment through archival policies)
+    - Average # dashboards per published data source (should increase as we build up the inventory of SSOT published data sources)
+    - % of published dashboards in the Production environment (should increase as we build up the inventory of SSOT dashboards)
+    - etc.
+  - Publish X certified Tableau data sources for critical domain areas that require single-source-of-truth data sources
+  - Support functional teams in repointing dashboards to leverage certified data sources
+  - Refresh assessment of Tableau environment
 - FY25-Q4 - Achieve the following targets (specific numbers will be updated in Q3)
-    - Iterate on the BI Enablement charter  
-    - Accelerate certified data source creation with support from Functional Analytics teams, publishing X additional certified data sources
-    - Repoint X dashboards to leverage certified data sources
-    - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of concentrating user views on certified dashboards
-    - Refresh assessment of Tableau environment and quantative metrics for Tableau health
+  - Iterate on the BI Enablement charter  
+  - Accelerate certified data source creation with support from Functional Analytics teams, publishing X additional certified data sources
+  - Repoint X dashboards to leverage certified data sources
+  - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of concentrating user views on certified dashboards
+  - Refresh assessment of Tableau environment and quantative metrics for Tableau health
 
 ## Governance Model
 
@@ -118,8 +118,8 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 <summary><b>Project and Sub-Project Folder Descriptions</b></summary>
 
 - **Top Level Project Folders:** **The top level project provides what the purpose of the workbook is.** There are four top level projects; Production, Ad-hoc, Development, and Resources. This is the highest folder level that the Tableau user lands on. These folders guide the user either down a Production path to view certified content, an Ad-hoc path to view Ad-Hoc content, a development path to view sandbox content, or a resources path to access workbook templates and certified data sources to be used in workbook development.
-    - **2nd Level Sub-Project Folders:** **The 2nd level project provides who the primary owner of the workbook is.** This level of the architecture contains sub-projects for each department and cross-functional business motion such as the Go To Market Motion. Each department and cross-functional business motion will have their own sub-project. This gives us flexibility to create different types of security at the sub-project level based on specific departmental and business motion needs.
-        - **3rd Level Sub-Project Folders:**  **The 3rd level project provides security around who can see the workbook.** Our SAFE Data Program is applied on this level of the architecture. This allows us flexibility to apply more security controls, by department, in the future to include enhanced SAFE Data program controls, row and column level security, and security around confidential information. Applying the security at this level will allow for customized, and scalable security programs by department and business motion.
+  - **2nd Level Sub-Project Folders:** **The 2nd level project provides who the primary owner of the workbook is.** This level of the architecture contains sub-projects for each department and cross-functional business motion such as the Go To Market Motion. Each department and cross-functional business motion will have their own sub-project. This gives us flexibility to create different types of security at the sub-project level based on specific departmental and business motion needs.
+    - **3rd Level Sub-Project Folders:**  **The 3rd level project provides security around who can see the workbook.** Our SAFE Data Program is applied on this level of the architecture. This allows us flexibility to apply more security controls, by department, in the future to include enhanced SAFE Data program controls, row and column level security, and security around confidential information. Applying the security at this level will allow for customized, and scalable security programs by department and business motion.
 
 </details>
 
@@ -323,49 +323,49 @@ Each section below below corresponds to a limited access user group and the desi
 
 ##### **General SAFE Access**
 
-  - This group allows viewing of and development with data that contains material non-pulic information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=Designated%20Insiders) list to be added to this group.
-  - To gain [access to SAFE data](/handbook/business-technology/data-team/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager and VP approval.
+- This group allows viewing of and development with data that contains material non-pulic information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=Designated%20Insiders) list to be added to this group.
+- To gain [access to SAFE data](/handbook/business-technology/data-team/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager and VP approval.
 
 ##### **ASM AMER Commercial Restricted Access**
 
-  - This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
-  - Please work with Keith Gliksman @keith.gliksman for access approval.
+- This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
+- Please work with Keith Gliksman @keith.gliksman for access approval.
 
 ##### **ASM EMEA Commercial Restricted Access**
 
-  - This project allows access to the ASM EMEA Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
-  - Please work with Keith Gliksman @keith.gliksman for access approval.
+- This project allows access to the ASM EMEA Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
+- Please work with Keith Gliksman @keith.gliksman for access approval.
 
 ##### **ASM Restricted Access**
 
-  - Please work with the GTM Planning & Ops team and/or Alex Cohen @alex.cohen for access approval.
+- Please work with the GTM Planning & Ops team and/or Alex Cohen @alex.cohen for access approval.
 
 ##### **Customer Success Access**
 
-  - Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
+- Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
 
 ##### **Internal Audit Restricted Access**
 
-  - Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
+- Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
 
 ##### **People Restricted Access**
 
-  - Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
+- Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
 
 ##### **RSA SAFE Access**
 
-  - This group is for the Revenue Strategy and Analytics team and is restricted because analysis performed are confidential planning efforts that may impact people roles. Team members must be on the Designated Insiders list to be added to this group.
-  - Please work with the Sales Strategy team and/or Olga Falkenhof @ofalken for access approval.
+- This group is for the Revenue Strategy and Analytics team and is restricted because analysis performed are confidential planning efforts that may impact people roles. Team members must be on the Designated Insiders list to be added to this group.
+- Please work with the Sales Strategy team and/or Olga Falkenhof @ofalken for access approval.
 
 ##### **Sales Development SAFE Access**
 
-  - Team members must be on the Designated Insiders list to be added to this group.
-  - Please work with Keith Gliksman @keith.gliksman for access approval.
+- Team members must be on the Designated Insiders list to be added to this group.
+- Please work with Keith Gliksman @keith.gliksman for access approval.
 
 ##### **Self-Service SAFE Access**
 
-  - Team members must be on the Designated Insiders list to be added to this group.
-  - Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
+- Team members must be on the Designated Insiders list to be added to this group.
+- Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
 
 <details markdown=1>
 
@@ -691,14 +691,14 @@ GitLab team members who realize the full potential of analytical insights can do
 
 - [Free Training](https://www.tableau.com/learn/training)
 - [Training Portal](https://elearning.tableau.com/)
-    - eLearning from Tableau is available for users with the Creator or Explorer license type
-    - Request Access Code from Data Team. The BI Platform team will share the Access Code via email.
-    - New Creators without prior Tableau experience should complete the Tableau Fundamentals training course at the minimum. Tableau Intermediate is also recommended as a follow up course.
-    - If you experience any issues accessing the training content, check [this page](https://support.skilljar.com/hc/en-us/articles/360033553054) for solutions to the most common problems.
+  - eLearning from Tableau is available for users with the Creator or Explorer license type
+  - Request Access Code from Data Team. The BI Platform team will share the Access Code via email.
+  - New Creators without prior Tableau experience should complete the Tableau Fundamentals training course at the minimum. Tableau Intermediate is also recommended as a follow up course.
+  - If you experience any issues accessing the training content, check [this page](https://support.skilljar.com/hc/en-us/articles/360033553054) for solutions to the most common problems.
 - [Tableau Community](https://community.tableau.com/s/)
 - [Tableau Support](https://www.tableau.com/support)
 - [Tableau Classroom training](https://www.tableau.com/learn/classroom/course-catalog) & [Training Pass](https://www.tableau.com/tableau-training-pass)
-    - These could be options for you to use as part of your [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/). Bring this up with your manager during your [career development conversations](/handbook/people-group/learning-and-development/career-development/#what-is-career-development).
+  - These could be options for you to use as part of your [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/). Bring this up with your manager during your [career development conversations](/handbook/people-group/learning-and-development/career-development/#what-is-career-development).
 
 </details>
 

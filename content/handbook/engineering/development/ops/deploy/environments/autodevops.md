@@ -35,7 +35,7 @@ The following tests, if they are tagged `quarantine`, will run in these environm
 `Configure AutoDevOps Templates template: express|rails|spring works with Auto DevOps`
 
 - [`staging`](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines)
-    - `qa-triggers-browser_ui-quarantine`
+  - `qa-triggers-browser_ui-quarantine`
 
 ## Configure your GDK to run the tests
 

@@ -28,7 +28,7 @@ Use the **Earnings Toolkit** to perform outreach, get customer legal permissions
 
 ***Please reach out to the Product CAB Manager (slack the cab-internal channel) before you nominate a customer for the Product CAB. Typically the customer profile is enterprise level with over 1200 licenses; however we review every nomination on its own merit***
 
- - **[Enablement Video for Nomination Process](https://www.youtube.com/watch?v=8Le_Ovglnq8&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=63)**
+- **[Enablement Video for Nomination Process](https://www.youtube.com/watch?v=8Le_Ovglnq8&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=63)**
 
    1. Sales team member nominates champion by pushing the [**Nominate a Reference** button on the **individual champion's name** in SFDC.](https://gitlab.my.salesforce.com/home/home.jsp)
    2. Sales team member works with the Customer Success Manager (CSM) to fill out the details for used stages, product purchased, and referenceable activities.
@@ -84,7 +84,7 @@ The CRM reviews the deck above on a 3 monthly basis; working with the PMM team t
 
 ### Which customer reference team member should I contact?
 
-  - Listed below are areas of responsibility within the Customer Reference team:
+- Listed below are areas of responsibility within the Customer Reference team:
 
-    - [Fiona](/handbook/company/team/#fokeeffe), Senior Reference Program Manager
-    - [Laura](/handbook/company/team/#lclymer), Director of Market Strategy and Insights
+  - [Fiona](/handbook/company/team/#fokeeffe), Senior Reference Program Manager
+  - [Laura](/handbook/company/team/#lclymer), Director of Market Strategy and Insights

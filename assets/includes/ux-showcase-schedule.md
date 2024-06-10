@@ -1,4 +1,4 @@
-| Date       | Host                 | Presenter 1            | Presenter 2            | Presenter 3            |
+| Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
 | 2024-06-12 | Marcel van Remmerden | Veethika Mishra        | Sascha Eggenberger     | Katie Macoy            |
 | 2024-06-26 | APAC                 | Libor Vanc             | Bonnie Tsang           |                        |

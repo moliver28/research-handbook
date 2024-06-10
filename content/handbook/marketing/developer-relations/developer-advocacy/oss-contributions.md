@@ -20,8 +20,8 @@ The Developer Advocacy team believes in Open Source and wants to lead by example
 We organize our projects in the [Developer Advocacy group](https://gitlab.com/gitlab-da). A few examples are:
 
 * [Docker Hub Limit Monitoring](https://about.gitlab.com/blog/2020/11/18/docker-hub-rate-limit-monitoring/)
-    * [Exporter for Prometheus](https://gitlab.com/gitlab-da/docker-hub-limit-exporter)
-    * [Monitoring Plugin](https://gitlab.com/gitlab-da/check-docker-hub-limit)
+  * [Exporter for Prometheus](https://gitlab.com/gitlab-da/docker-hub-limit-exporter)
+  * [Monitoring Plugin](https://gitlab.com/gitlab-da/check-docker-hub-limit)
 * [CI/CD API Lint Git Hook](https://gitlab.com/gitlab-da/ci-cd-api-lint-hook)
 * [Go Excusegen](https://gitlab.com/gitlab-da/go-excusegen)
 

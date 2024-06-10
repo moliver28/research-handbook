@@ -53,10 +53,10 @@ Read more about the topic area from the links below:
 ### Related GitLab projects
 
 - [Spamcheck](https://gitlab.com/gitlab-org/spamcheck)
-    - [Architecture Diagram](https://gitlab.com/gitlab-org/spamcheck#architecture-diagram)
+  - [Architecture Diagram](https://gitlab.com/gitlab-org/spamcheck#architecture-diagram)
 - [Tanuki-Stan](https://gitlab.com/gitlab-org/ml-ops/tanuki-stan)
 - [UnReview](/handbook/engineering/development/data-science/ai-assisted/projects/unreview/)
-    - [Architecture Diagram](/handbook/engineering/development/data-science/appliedml/projects/unreview/#architecture)
+  - [Architecture Diagram](/handbook/engineering/development/data-science/appliedml/projects/unreview/#architecture)
 
 ### Related ML Slack channels
 

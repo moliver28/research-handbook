@@ -81,16 +81,16 @@ All artifacts from an investigation must be handled per the [Artifact Handling a
 Assigning severity to an incident isn't an exact science and it takes some rational concepts mixed with past experiences and gut feelings to decide how bad a situation may be. When considering severity, look at:
 
 - The type of data involved and how it's classified using the [Data Classification Policy]({{< ref "data-classification-standard" >}})
-    - Was this data leaked or disclosed to parties who should not have visibility to it?
-    - Has the data been modified in our records? (either confirmed or believed to be)
+  - Was this data leaked or disclosed to parties who should not have visibility to it?
+  - Has the data been modified in our records? (either confirmed or believed to be)
 - Was a user or service account taken over?
-    - What level of access did this account have and to what services or hosts?
-    - What actions were taken by the compromised account?
+  - What level of access did this account have and to what services or hosts?
+  - What actions were taken by the compromised account?
 - If a vulnerability is present on a host or service, consider the impact it might have on GitLab and the likelihood of it being exploited by using the [Risk Factors and Risk Scoring]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}) documentation.
-    - Was the vulnerability exploited? If so, how was it used and how frequently?
+  - Was the vulnerability exploited? If so, how was it used and how frequently?
 - What is the scope of the incident?
-    - How many GitLab.com users were/may have been impacted?
-    - How many hosts or services?
+  - How many GitLab.com users were/may have been impacted?
+  - How many hosts or services?
 - Has this incident resulted in any hosts or services being unavailable?
 
 To help place the correct severity rating on the incident you are about to submit, please refer to the [Incident Classification]({{< ref "severity-matrix" >}}) page.
@@ -103,8 +103,8 @@ Coordinate with internal teams and prepare for the incident investigation:
 - Pin a link to the SIRT Zoom conference bridge to the Slack channel's topic and invite all available parties to this call for easier discussion.
 - If a different high-severity incident is already in progress, create a new Zoom conference call and pin it to the incident Slack channel's topic. Invite all available parties to this call for easier discussion.
 - If the incident was created by the security pager, a Google Drive folder and shared Google Doc should have been created automatically and linked to the issue. If the incident was created manually:
-    - Set up a [shared Google Drive folder or GCS bucket](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/external_requests/handling_and_sharing_artifacts.md#storing-and-sharing-files-using-google-cloud-storage) for centralized storage of evidence, data dumps, or other pieces of critical information for the incident.
-    - Try to capture significant thoughts, actions, and events in the incident issue as they're unfolding. This will simplify potential hand-offs and an eventual Incident Review of the incident.
+  - Set up a [shared Google Drive folder or GCS bucket](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/external_requests/handling_and_sharing_artifacts.md#storing-and-sharing-files-using-google-cloud-storage) for centralized storage of evidence, data dumps, or other pieces of critical information for the incident.
+  - Try to capture significant thoughts, actions, and events in the incident issue as they're unfolding. This will simplify potential hand-offs and an eventual Incident Review of the incident.
 
 In the event that an incident needs to be escalated within GitLab, the Security Engineer On Call (SEOC) will page the Security Incident Manager On Call (SIMOC). It is the responsibility of the SIMOC to direct response activities, gather technical resources from required teams, coordinate communication efforts with the Communications Manager On Call, and further escalate the incident as necessary.
 
@@ -127,7 +127,7 @@ The first step in this process is to identify impacted resources and determine a
 
 It's important to remember the containment phase is typically a stop-gap measure to limit damage and not to produce a long term fix for the underlying problem. Additionally the impact of the mitigation on the service must be weighed against the severity of the incident.
 
-When triaging `priority::1/severity::1` incidents there may be times that SIRT or Infrastructure are unable to mitigate an issue, or identify the full impact of a potential mitigation. In these cases the [Development Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) can be used to engage with the development team on-call. It is important that this process is followed [as documented](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#process-outline) and only for `priority::1/severity::1` issues.
+When triaging `priority::1/severity::1` incidents there may be times that SIRT or Infrastructure are unable to mitigate an issue, or identify the full impact of a potential mitigation. In these cases the [Development Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/process/) can be used to engage with the development team on-call. It is important that this process is followed [as documented](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline) and only for `priority::1/severity::1` issues.
 
 ### Remediation and Recovery
 

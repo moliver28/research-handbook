@@ -28,7 +28,7 @@ The Rules engine is a business automation tool build within Gainsight that allow
 ### Bi-Directional rules
 
 - Bi-Directional Builds
-   - Pull/Push CSM changes: This rule maintains the Customer Success Manager on the account between the two systems.
+  - Pull/Push CSM changes: This rule maintains the Customer Success Manager on the account between the two systems.
 
 ### Syncing data from Salesforce to Gainsight
 

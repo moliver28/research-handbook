@@ -491,21 +491,21 @@ label to use for database related performance work.
 Some general notes about parameters that affect database performance, at a very crude level.
 
 - From whitebox monitoring,
-   - Of time spent on/by Rails controllers, this much is spent in the database: <https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller?viewPanel=13864&orgId=1> (for a specific Rails controller / page)
-   - _Global_ SQL timings: <https://dashboards.gitlab.net/dashboard/db/transaction-overview?panelId=9&fullscreen&orgId=1&from=now-2d&to=now>
+  - Of time spent on/by Rails controllers, this much is spent in the database: <https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller?viewPanel=13864&orgId=1> (for a specific Rails controller / page)
+  - _Global_ SQL timings: <https://dashboards.gitlab.net/dashboard/db/transaction-overview?panelId=9&fullscreen&orgId=1&from=now-2d&to=now>
 - A single HTTP request will execute a single controller. A controller in turn will usually only use one available database connection, though it may use 2 if first a read was performed, followed by a write.
-   - pgbouncer allows up to 150 concurrent PostgreSQL connections. If this limit
+  - pgbouncer allows up to 150 concurrent PostgreSQL connections. If this limit
 is reached it will block pgbouncer connections until a PostgreSQL connection becomes available.
-   - PostgreSQL allows up to 300 connections (connected, whether they're active or not doesn't matter). Once this limit is reached new connections will be rejected, resulting in an error in the application.
-   - When the number of processes > number of cores available on the database servers, the CPU constantly switches cores to run the requested processes; this contention for cores can lead to degraded performance.
+  - PostgreSQL allows up to 300 connections (connected, whether they're active or not doesn't matter). Once this limit is reached new connections will be rejected, resulting in an error in the application.
+  - When the number of processes > number of cores available on the database servers, the CPU constantly switches cores to run the requested processes; this contention for cores can lead to degraded performance.
 - As long as the database CPU load < 100% (<https://dashboards.gitlab.net/dashboard/db/postgresql-overview?refresh=5m&orgId=1&from=now%2Fw&to=now&panelId=13&fullscreen>), then in theory the database can handle more load without adding latency. In practice database specialists like to keep CPU load below 50%.
-    - As an example of how load is determined by underlying application design:
+  - As an example of how load is determined by underlying application design:
        DB CPU percent used to be lower (20%, prior to 9.2, then up to 50-75% [when 9.2 RC1 went live](https://gitlab.com/gitlab-org/gitlab-ce/issues/32536), then back down to 20% by the time 9.2 was released.
 - pgbouncer
-   - What it does: pgbouncer maps _N_ incoming connections to _M_ PostreSQL connections, with _N_ >= _M_ (_N_ < _M_ would make no sense). For example, you can map 1024 incoming connections to 10 PostgreSQL connections. This is mostly influenced by the number of concurrent queries you want to be able to handle. For example, for GitLab.com our primary rarely goes above 100 (usually it sits around 20-30), while secondaries rarely go above 20-30 concurrent queries. The more secondaries you add, the more you can spread load and thus require fewer connections (at the
+  - What it does: pgbouncer maps _N_ incoming connections to _M_ PostreSQL connections, with _N_ >= _M_ (_N_ < _M_ would make no sense). For example, you can map 1024 incoming connections to 10 PostgreSQL connections. This is mostly influenced by the number of concurrent queries you want to be able to handle. For example, for GitLab.com our primary rarely goes above 100 (usually it sits around 20-30), while secondaries rarely go above 20-30 concurrent queries. The more secondaries you add, the more you can spread load and thus require fewer connections (at the
   cost of having more servers).
-   - Analogy: pgbouncer is a bartender serving drinks to many customers. Instead of making the drinks himself she instructs 1 out of 20 “backend” bartenders to do so. While one of these bartenders is working on a drink the other 19 (including the “main” one) are available for new orders. Once a drink is done one of the 20 “backend” bartenders gives it to the main bartender, which in turn gives it to the customer that requested the drink. In this analogy, the _N_ incoming connections are the patrons of the bar, and there are _M_ "backend"
+  - Analogy: pgbouncer is a bartender serving drinks to many customers. Instead of making the drinks himself she instructs 1 out of 20 “backend” bartenders to do so. While one of these bartenders is working on a drink the other 19 (including the “main” one) are available for new orders. Once a drink is done one of the 20 “backend” bartenders gives it to the main bartender, which in turn gives it to the customer that requested the drink. In this analogy, the _N_ incoming connections are the patrons of the bar, and there are _M_ "backend"
    bartenders.
-   - Pgbouncer frontend connections (= incoming ones) are very cheap, and you have lots of these (e.g. thousands). Typically you want _N_ >= _A_ with _N_ being the pgbouncer connection limit, and _A_ being the number of connections needed for your application.
-   - PostgreSQL connections are much more expensive resource wise, and ideally you have no more than the number of CPU cores available per server (e.g. 32). Depending on your load this may not always be sufficient, e.g. a primary in our setup will need to allow 100-150 connections at peak.
-   - Pgbouncer can be configured to terminate PostgreSQL connections when idle for a certain time period, conserving resources.
+  - Pgbouncer frontend connections (= incoming ones) are very cheap, and you have lots of these (e.g. thousands). Typically you want _N_ >= _A_ with _N_ being the pgbouncer connection limit, and _A_ being the number of connections needed for your application.
+  - PostgreSQL connections are much more expensive resource wise, and ideally you have no more than the number of CPU cores available per server (e.g. 32). Depending on your load this may not always be sufficient, e.g. a primary in our setup will need to allow 100-150 connections at peak.
+  - Pgbouncer can be configured to terminate PostgreSQL connections when idle for a certain time period, conserving resources.

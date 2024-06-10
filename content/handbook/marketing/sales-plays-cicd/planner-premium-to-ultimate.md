@@ -60,9 +60,9 @@ See [this section](https://docs.google.com/document/d/1AdF47jJpE9aKvL2g5fs6kHK0h
 Budget and influence are key for this play, so our basic assumption is that upleveling to someone’s boss isn’t going to be enough - people need to reach out to additional business units, namely security, and bring in “fresh” teams and opportunities within existing accounts. Additionally, we need to enable and equip current premium customers and their teams to be more “active champions” and essentially show them the light that is the value of Ultimate. (Think risk! and protecting the business)
 
 * **Economic buyers:**
-   * CISO or Security Manager, VP of Security, Director of Security, VP of IT or CTO, App/Dev Director
+  * CISO or Security Manager, VP of Security, Director of Security, VP of IT or CTO, App/Dev Director
 * **Technical influencers:**
-   * Chief Architect, App Dev Manager, DevOps lead
+  * Chief Architect, App Dev Manager, DevOps lead
 
 #### **Target verticals**  {#target-verticals}
 
@@ -112,12 +112,12 @@ Which GitLab stages/feature make up this sales play:
 * Auto rollback- Automatic rollback to the last successful deployment.
 * DORA 4 metrics (Deployment frequency available now, lead time scheduled to ship in 13.11), the remaining two are on the roadmap later this year)
 * Static Application Security Testing - check for potential security issues by evaluating static code but with Ultimate, see the results of the scans directly in the MR pipeline and also in the Security Dashboard, alongside all of the additional scans below that come with Ultimate:
-   * Dynamic Application Security Testing - analyze review applications to identify potential security issues on running web applications before deployment
-   * Secrets Detection - avoid exposing secrets and credentials for potential exploit.
-   * Dependency Scanning - evaluate third-party dependencies to identify potential security issues.
-   * Container Scanning - analyze Docker images and check for potential security issues.
-   * License Compliance - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
-   * Coverage-guided Fuzz testing API Fuzz testing - surface security and logic flaws not identified as known vulnerabilities.
+  * Dynamic Application Security Testing - analyze review applications to identify potential security issues on running web applications before deployment
+  * Secrets Detection - avoid exposing secrets and credentials for potential exploit.
+  * Dependency Scanning - evaluate third-party dependencies to identify potential security issues.
+  * Container Scanning - analyze Docker images and check for potential security issues.
+  * License Compliance - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
+  * Coverage-guided Fuzz testing API Fuzz testing - surface security and logic flaws not identified as known vulnerabilities.
 * Security Dashboard - visualize security status for projects.
 * Vulnerability Management
 * Security Approvals in Merge Requests
@@ -195,32 +195,32 @@ tbd
 See [Security FAQ slides](https://docs.google.com/presentation/d/1mLnmgQ5hqTzcwk3Vjh0BEIdx9SYgORV-2g7zPKmFKFc/edit) and Objections on [DevSecOps use case page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#potential-objections)
 
 * Why is the price 5x?
-   * What features or value justify the price jump?
-      * Answer:
+  * What features or value justify the price jump?
+    * Answer:
 * What’s been added over the last 12 months? I didn’t see a lot of value the last time I looked at Ultimate
-   * Answer:
+  * Answer:
 * Lots of value maps to project management, what’s the CI/CD value for adopting Ultimate? What about security?
-   * Answer:
+  * Answer:
 * I’ve already got security scanners that I can use
-   * Answer:
+  * Answer:
 * I’ve already spent so much on AppSec tooling, not to mention DevOps
-   * Answer:
+  * Answer:
 * We don’t even use a lot of what we spend money on today
-   * Answer:
+  * Answer:
 * How do I justify this to my boss?
-   * Answer:
+  * Answer:
 * We’re way too immature and early on in our journey to think about something like Ultimate
-   * Answer:
+  * Answer:
 * I’ve never heard of ya’ll. I’ve known of our current vendor for 20 years or more. “If it ain’t broke, don’t fix it”
-   * Answer:
+  * Answer:
 * “Just not good timing right now”
-   * Answer:
+  * Answer:
 * “There’s a plugin for that” or “there’s an action for that” and they’re FREE
-   * Answer:
+  * Answer:
 * Specific competitor objections….?
-   * Jenkins
-   * GH
-   * Checkmarx
-   * Veracode
+  * Jenkins
+  * GH
+  * Checkmarx
+  * Veracode
 
 #### Other resources

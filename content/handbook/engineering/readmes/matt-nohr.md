@@ -36,8 +36,8 @@ This document is a living breathing thing and likely incomplete. I update it fre
 ### Work Patterns
 
 - I live and work in the [Central Time Zone](https://www.timeanddate.com/time/zones/ct).
-    - Central Standard Time (UTC-6) in the winter
-    - Central Daylight Time (UTC-5) in the summer.
+  - Central Standard Time (UTC-6) in the winter
+  - Central Daylight Time (UTC-5) in the summer.
 - I spend time with my family before school in the mornings and in the evenings, and I am typically not available during these times. I will sometimes break this rule, especially if I have advanced warning.
 - Fridays are reserved for focused aschyrnous work, not meetings in alignment with [GitLab's Focus Fridays](/handbook/communication/#focus-fridays)
 - Even if I am working a bit on weekends, I never expect anyone else to work outside of regular work hours.

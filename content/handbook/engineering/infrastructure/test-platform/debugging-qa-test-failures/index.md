@@ -122,8 +122,7 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 
 | Environment | Tests type | Schedule | Slack channel | Latest test report |
 |-------------|------------|----------|---------------|--------------------|
-| [Production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines)           | Smoke            | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Production Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/production-sanity/master/index.html) |
-| [Production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines)           | Full                          | [after a feature flag in production has been updated](https://docs.gitlab.com/ee/development/feature_flags/) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Production Full](https://gitlab-qa-allure-reports.s3.amazonaws.com/production-full/master/index.html) |
+| [Production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines)           | Smoke            | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) and [after a feature flag in production has been updated to *true* or *100%*](https://docs.gitlab.com/ee/development/feature_flags/) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Production Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/production-sanity/master/index.html) |
 | [Canary](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines)                   | Smoke             | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Canary Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/canary-sanity/master/index.html) |
 | [Canary Full](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines)              | Full                          | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Canary Full](https://gitlab-qa-allure-reports.s3.amazonaws.com/canary-full/master/index.html) |
 | [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines)                 | Smoke             | [after each deployment to Staging-Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)   | [Staging Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity/master/index.html) |
@@ -132,7 +131,6 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 | [Staging-Canary](https://ops.gitlab.net/gitlab-org/quality/staging-canary/pipelines)   | Smoke             | [after each deployment to Staging](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) | [Staging-Canary](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-canary-sanity/master/index.html) |
 | [CustomersDot Staging](https://gitlab.com/gitlab-org/customers-gitlab-com/-/pipelines) | Full | After each deployment to CustomersDot Staging | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) [`#s_fulfillment_status`](https://gitlab.slack.com/messages/CL7SX4N86) | [CustomersDot Staging](https://gitlab-qa-allure-reports.s3.amazonaws.com/cdot-e2e-staging/main/index.html) |
 | [Staging Ref](https://ops.gitlab.net/gitlab-org/quality/staging-ref/pipelines)         | Smoke            | [after each deployment to Staging Ref](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines). | [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) | [Staging Ref Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-ref-sanity/master/index.html)  |
-| [Staging Ref](https://ops.gitlab.net/gitlab-org/quality/staging-ref/pipelines)         | Full                          | [After each deployment to Staging Ref](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines). | [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) | [Staging Ref Full](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-ref-full/master/index.html)  |
 | [Preprod](https://ops.gitlab.net/gitlab-org/quality/preprod/pipelines)                 | Smoke               | [Every month for a few days before release, at 03:00 UTC](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipeline_schedules) and after [deployment to preprod](/handbook/engineering/infrastructure/environments/#pre) during Security and Patch releases | [`#qa-preprod`](https://gitlab.slack.com/archives/CR7QH0RV1) | [Preprod](https://gitlab-qa-allure-reports.s3.amazonaws.com/preprod-sanity/master/index.html) |
 | [Release](https://ops.gitlab.net/gitlab-org/quality/release)                            | Smoke              | [Every month after the final release](https://ops.gitlab.net/gitlab-org/quality/release/-/pipeline_schedules) and after [deployment to Release](/handbook/engineering/infrastructure/environments/#release) during Security and Patch releases | [`#qa-release`](https://gitlab.slack.com/archives/C0154HCFLRE) | [Release](https://gitlab-qa-allure-reports.s3.amazonaws.com/release-sanity/master/index.html) |
 | [GitLab `master`'s `e2e:package-and-test-ee`](https://gitlab.com/gitlab-org/gitlab/pipelines)     | Full                          | When the `e2e:package-and-test-ee` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master EE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test/master/index.html) |
@@ -231,7 +229,7 @@ Note the diagram has been updated as part of increasing rollback availability by
 [Staging Ref](/handbook/engineering/infrastructure/environments/staging-ref/) is a Sandbox environment used for pre-production testing of the latest Staging Canary code. It is a shared
 environment with wide access permissions and as a result of engineers testing their code, the environment may become unstable and may need to be rebuilt.
 
-As such failures in any QA pipelines on Staging Ref are _not blocking_ the deployment. QA suites are triggered when a new GitLab version
+As such failures in any QA pipelines on Staging Ref are *not blocking* the deployment. QA suites are triggered when a new GitLab version
 is deployed to the environment. They are used to check that the environment is healthy and functionality is working as expected.
 Quality team maintains the environment and has full access to its resources for in-depth debugging.
 
@@ -423,7 +421,7 @@ If you suspect that certain test is failing due to the `gitlab/gitlab-{ce|ee}-qa
 ##### Checking application version has the specific MR
 
 1. Find the version which GitLab application is running on. In the failing job logs, search for `docker pull dev.gitlab.org:5005/gitlab/omnibus-gitlab/gitlab-ee-qa` and use the version specified after `gitlab-ee-qa:`.
-    - For _nightly_ the approach above won't work. There are two ways for finding the commit version of nightly:
+    - For nightly, the approach above won't work. There are two ways for finding the commit version of nightly:
         - Run the [nightly image on local](#run-the-test-against-a-gitlab-docker-container), sign-in as admin and navigate to `/help` page or call the `/api/v4/version` API.
         - Search for the commit in the [omnibus-gitlab pipeline](https://dev.gitlab.org/gitlab/omnibus-gitlab/-/pipelines) that built the last nightly. Jobs that build nightly have `bundle exec rake docker:push:nightly` command in the `Docker-branch` job of the `Package-and-image` stage. Once you find the latest pipeline, search for `gitlab-rails` under `build-component_shas` in any job under the `Gitlab_com:package` stage. For example, in [this `Ubuntu-16.04-branch` job](https://dev.gitlab.org/gitlab/omnibus-gitlab/-/jobs/9610785#L3373), the commit SHA for `gitlab-rails` is `32e76bc4fb02a615c2bf5a00a8fceaee7812a6bd`.
 1. Open commits list for the specific version:
@@ -604,7 +602,7 @@ If the test was in quarantine, [remove it from quarantine](#dequarantining-tests
 
 ### Quarantining Tests
 
-The aim of quarantining a test is _not_ to get back a green pipeline, but rather to reduce the noise (due to constantly failing tests, flaky tests, and so on) so that new failures are not missed. If you're unsure about quarantining a test ask for help in the`#quality` Slack channel, and then consider adding to the list of examples below to help future pipeline triage DRIs.
+The aim of quarantining a test is not to get back a green pipeline, but rather to reduce the noise (due to constantly failing tests, flaky tests, and so on) so that new failures are not missed. If you're unsure about quarantining a test ask for help in the`#quality` Slack channel, and then consider adding to the list of examples below to help future pipeline triage DRIs.
 
 Examples of when to quarantine a test:
 
@@ -658,7 +656,7 @@ Here is an [example quarantine merge request](https://gitlab.com/gitlab-org/gitl
 
 #### Quarantined Test Types
 
-If a test is placed under quarantine, it is important to specify _why_. By specifying a quarantine type we can see
+If a test is placed under quarantine, it is important to specify *why*. By specifying a quarantine type we can see
 quickly the reason for the quarantine.
 
 The report accepts the quarantine types below:
@@ -666,7 +664,7 @@ The report accepts the quarantine types below:
 | Quarantine Type | Description |
 | --------------- | ----------- |
 | [`:flaky`] | This test fails intermittently |
-| [`:bug`] | This test is failing due to an _actual bug_ in the application |
+| [`:bug`] | This test is failing due to a bug in the application |
 | [`:stale`] | This test is outdated due to a feature change in the application and must be updated to fit the new changes |
 | `:broken` | This test is failing because of a change to the test code or framework |
 | `:waiting_on` | This test is quarantined temporarily due to an issue or MR that is a prerequisite for this test to pass |

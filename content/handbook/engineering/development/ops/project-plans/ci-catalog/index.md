@@ -13,14 +13,14 @@ The following page may contain information related to upcoming products, feature
 #### Goals
 
 - [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509) (Complete)
-- [Spike for Cells 1.0 support for CI Catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/456843) (In Progress)
+- [How to use components from different Cells](https://gitlab.com/gitlab-org/gitlab/-/issues/456843) (In Progress)
   - From recent [conversation](https://gitlab.com/gitlab-org/gitlab/-/issues/442195#note_1917201790), determining if CI Catalog support can be deferred to Cells 1.5 at the moment.
 - Post-GA follow-ups/technical debt
-  - [Exclude pre-release from catalog, latest tag, and shorthand fetching](https://gitlab.com/gitlab-org/gitlab/-/issues/460873) (In-Review)
-  - [Add sorting option for prerelease for semver concern](https://gitlab.com/gitlab-org/gitlab/-/issues/441266) (In Progress)
-  - [Remove ignore rule on inputs and path for catalog_resource_components](https://gitlab.com/gitlab-org/gitlab/-/issues/455431) (In-Review)
-  - GA follow-ups from "Create CI component usage record when component is included in pipeline" - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/460776) (In-Review) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/460490) (In-Review)
-- Tableau component usage visualization work - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/452545) (In Progress) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/454912) (In Progress)
+  - [Exclude pre-release from catalog, latest tag, and shorthand fetching](https://gitlab.com/gitlab-org/gitlab/-/issues/460873) (Complete)
+  - [Add sorting option for prerelease for semver concern](https://gitlab.com/gitlab-org/gitlab/-/issues/441266) (On Hold)
+  - [Remove ignore rule on inputs and path for catalog_resource_components](https://gitlab.com/gitlab-org/gitlab/-/issues/455431) (Complete)
+  - GA follow-ups from "Create CI component usage record when component is included in pipeline" - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/460776) (Complete) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/460490) (Complete)
+- Tableau component usage visualization work - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/452545) (In Progress) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/454912) (Complete)
 
 ### Milestone 17.2 (June 15, 2024 - July 12, 2024)
 
@@ -255,8 +255,8 @@ All deliverables for CI Catalog GA are now complete.
 #### Team Capacity
 
 - .5 Backend Engineers
-    - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
-    - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
+  - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
+  - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
 
 #### Goals
 
@@ -267,8 +267,8 @@ All deliverables for CI Catalog GA are now complete.
 #### Team Capacity
 
 - 1.5 Backend Engineers
-    - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
-    - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
+  - Due to %16.4 `security` priorities, the weekly goals list will be shorter due to our focus there.
+  - Working on [https://gitlab.com/gitlab-org/gitlab/-/issues/423456](https://gitlab.com/gitlab-org/gitlab/-/issues/423456) for feature addition for `needs: parallel: matrix` enhancements.
 
 #### Goals
 

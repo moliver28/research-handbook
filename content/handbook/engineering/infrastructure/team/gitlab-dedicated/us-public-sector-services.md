@@ -35,10 +35,10 @@ To engage with the GitLab US Public Sector Services team:
 - In case you want to get attention, use a specific team handle as defined in [group hierarchy below](#gitlab-group-hierarchy)
 - Slack channels
   - For GitLab US Public Sector specific questions, you can find us in [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
-      - The `@dedicated-uspubsec-team` Slack group can be used in any internal channel to tag the team.
+    - The `@dedicated-uspubsec-team` Slack group can be used in any internal channel to tag the team.
   - Other teams in Dedicated group have their own work channels for team work discussions:
-      - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
-      - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
+    - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
+    - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
 
 ## How we work
 

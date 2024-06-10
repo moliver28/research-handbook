@@ -168,7 +168,7 @@ We use the [security-triage-automation](https://gitlab.com/gitlab-org/secure/too
 Note that we do not yet automatically create security issues for non-FedRAMP vulnerabilities. Please see the [Non-FedRAMP vulnerabilities section](#non-fedramp-vulnerabilities) for more details.
 1. [Resolve all vulnerabilities (both FedRAMP and non-FedRAMP) no longer detected on the default branch and close their issues](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#resolve-vulnerabilities-and-close-their-issues), executed every 2 days.
 
-[The Vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper) also provides some [automation to vulnerability management](/handbook/security/threat-management/vulnerability-management/#automation) like:
+[The Vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper) also provides some [automation to vulnerability management](/handbook/security/product-security/vulnerability-management/#automation) like:
 
 1. Adding labels to security issues to further classify the fix availability (fix_available, fix_unavailable, will_not_be_fixed, etc.).
 1. Creating Deviation Request issues for FedRAMP related security issues that should have one.
@@ -288,11 +288,11 @@ For that, we rely on the [geekbot](https://geekbot.io/) slack plugin to automate
 
 * Use the "`description in backquote` + `[link to issue](#)`" format when mentioning issues in your standup report.
 * Prepend CI status icons to the answer lines for `What did you do since yesterday?` to denote the current state:
-    * ![Accomplished](img/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
-    * ![Overdue](img/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
-    * ![In progress](img/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
-    * ![Paused](img/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
-    * any other `:ci_...` icon you find applicable
+  * ![Accomplished](img/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
+  * ![Overdue](img/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
+  * ![In progress](img/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
+  * ![Paused](img/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
+  * any other `:ci_...` icon you find applicable
 
 **Example:**
 

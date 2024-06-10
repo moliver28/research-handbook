@@ -98,6 +98,16 @@ In addition to the `Platforms leads call`, we have some recurring events and rem
 
 The Director of Product and Director of Infrastructure for SaaS Platforms conduct weekly progress reviews. During `Platforms Grand Review`, they review [progress across all groups](https://gitlab.com/groups/gitlab-com/-/epics/2115) with the goals of being informed of progress made, learning about existing blockers, and supporting the team. The review is private streamed to the GitLab Unfiltered channel because the review covers confidential issues. All recordings are made available in the [Platforms Grand Review YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqDXSHdlUvPWHOj_Hw8JdQ1).
 
+##### Infrastructure Platforms Leads Demo
+
+The Infrastructure Platforms Leads Demo is an opportunity for sync discussions between Staff+ IC across the Infrastructure Platforms Group to highlight current ongoing efforts underway in the teams they support.
+All team members are welcome to join the call, but the emphasis is on Staff+ ICs to present and discuss the work they’re focused on, the problems they’re experiencing, and solutions they’re considering.
+
+The call is recorded to the [Infrastructure Platforms Leads Demo Unfiltered Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KpI98ZtrhYrA_gJgYJjnOgl). The agenda can be found in [Google Docs](https://docs.google.com/document/d/1MX__hMUcxEUv2JlRiXySNvFnOPHv7-Uul1_VbzImbKw/edit).
+
+While the intention is for the call to be made public on GitLab Unfiltered, the default is for it to be published as private.
+At the end of the call, a quick vote is held between the attendees and if all agree that the content is #SAFE, it can be published as public.
+
 ### Slack to GitLab Issue Tracker Integration
 
 In an effort to enhance the tracking and resolution of requests directed to the Infrastructure team, we are evaluating a bot that converts Slack messages in [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV) channel into GitLab issues.

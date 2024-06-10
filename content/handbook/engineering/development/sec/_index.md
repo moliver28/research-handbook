@@ -277,6 +277,11 @@ When creating a new project, all settings should be left to the default options,
          - `Disabled`
       - `Code owner approval`
          - `Enabled`
+   - `Settings -> Repository -> Protected tags`
+      - `Tag`
+         - `v*`
+      - `Allowed to create`
+         - `Maintainers`
    - `Settings -> Merge Requests`
       - `Squash commits when merging`
          - `Require`
@@ -386,16 +391,16 @@ We encourage utilizing our available [Google Groups](https://groups.google.com/m
 
 Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues/246) and are structured as:
 
-  - sec-section
-  - sec-govern
-  - sec-secure
-  - sec-govern-threat-insights
-  - sec-govern-security-policies
-  - sec-govern-compliance
-  - sec-secure-static-analysis
-  - sec-secure-secret-detection
-  - sec-secure-dynamic-analysis
-  - sec-secure-composition-analysis
+- sec-section
+- sec-govern
+- sec-secure
+- sec-govern-threat-insights
+- sec-govern-security-policies
+- sec-govern-compliance
+- sec-secure-static-analysis
+- sec-secure-secret-detection
+- sec-secure-dynamic-analysis
+- sec-secure-composition-analysis
 
 The members of each google group consists of stable counterparts and the correct `eng-dev-[sub-department]-[team]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated.
 

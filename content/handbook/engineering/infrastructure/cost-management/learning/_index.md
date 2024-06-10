@@ -41,7 +41,7 @@ There are some basic cloud optimizations that apply to all resources, regardless
 - downsize over-provisioned resources
 - rightsize servers to make most efficient use of their performance characteristics (cpu v ram v storage)
 - prefer using newer instance types
-    - generally newer instance types will have better cost/performance
+  - generally newer instance types will have better cost/performance
 
 ### Storage Optimizations
 

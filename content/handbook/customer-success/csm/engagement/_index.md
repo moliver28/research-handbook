@@ -1,13 +1,6 @@
 ---
-
 title: "Account Engagement"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -44,8 +37,8 @@ The "Welcome to GitLab" call will introduce the customer to the Customer Success
 1. Make use of the [account management projects](https://gitlab.com/gitlab-com/account-management)  ([Template](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template))
 1. Whenever a customer asks a question via email/Slack, kindly prompt them to open a Support ticket or an issue in the collaboration project
 
-  - Examples of a Support issue: Reporting GitLab downtime, errors or accessibility problems
-  - Examples of a Collaboration Project Issue: General questions about product usage, best practices or recommendations, adoption or integration questions
+   - Examples of a Support issue: Reporting GitLab downtime, errors or accessibility problems
+   - Examples of a Collaboration Project Issue: General questions about product usage, best practices or recommendations, adoption or integration questions
 
 1. Show customers the power of GitLab by using GitLab with them (ex: related issues, tracking milestones, threaded conversations, ability to interact directly with GitLab’s product/engineering teams)
 1. Make sure you are responding in a timely manner to customer's open issues. When you are prompt to respond, the customer is more likely to continue using the account management projects
@@ -60,7 +53,7 @@ Occasionally, a GitLab e-group member (VP or C-level) will be meeting with a cus
 1. Work on the prep doc and call resources with your account team.
 1. Be as thorough as possible about your customer's details (e.g. ARR, # of users, tier, renewal date, stages in use)
 1. Ensure you answer the 5 W's (who,what,where,when,why) of the meeting and what should be the outcome of the meeting.
-    - Make sure that we detail both what GitLab wants out of the meeting and what the customer wants out of the meeting. This is a collaborative partnership that benefits both parties.
+   - Make sure that we detail both what GitLab wants out of the meeting and what the customer wants out of the meeting. This is a collaborative partnership that benefits both parties.
 1. Be prepared in advance of what you want the E-Group member to do, say, and ask.
 1. Have an agenda for the call and ensure everyone knows what they're supposed to do (who will speak when and about what).
 1. Add any topics you think the customer may bring up (positive or negative) and advice on how to approach it.
@@ -162,6 +155,6 @@ The templates provided below can be used for certain outreach efforts to custome
 >
 > Thank you for choosing GitLab, and I look forward to working with you to achieve your business goals.
 >
-> Best regards,  
-> `[YOUR NAME]`  
+> Best regards,
+> `[YOUR NAME]`
 > Your GitLab Customer Success Manager

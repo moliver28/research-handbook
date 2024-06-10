@@ -33,13 +33,13 @@ This page focuses on email best practices and their implementation at GitLab. Yo
 * Be specific - emphasize what the reader "gets" out of reading this email
 * Test when you can!
 * Chad White, email marketing strategist and book author created the **CUE-DIVE method**:
-   * ❏ Contextual - personalized, localized, segmented, relevant, anticipated
-   * ❏ Urgent - topical, events, deadlines, newsjacking
-   * ❏ Emotional - aspirations, happiness, anxiety, duty, fear
-   * ❏ Detailed - answers the question “what is this email about?”
-   * ❏ Intriguing - questions, curiosity, mysterious, humor, puns
-   * ❏ Visual - very long or very short, unusual spelling, emoji, unusual punctuation
-   * ❏ Earned - testimonials, reviews, endorsements, media coverage
+  * ❏ Contextual - personalized, localized, segmented, relevant, anticipated
+  * ❏ Urgent - topical, events, deadlines, newsjacking
+  * ❏ Emotional - aspirations, happiness, anxiety, duty, fear
+  * ❏ Detailed - answers the question “what is this email about?”
+  * ❏ Intriguing - questions, curiosity, mysterious, humor, puns
+  * ❏ Visual - very long or very short, unusual spelling, emoji, unusual punctuation
+  * ❏ Earned - testimonials, reviews, endorsements, media coverage
 * SUBJECT LINES AFFECT OTHER METRICS TOO! Subject lines affect click through rates & conversions! Poor subject lines can damage the performance of future email campaigns. Do not underestimate their importance!
 * The preview text is the first sentence displayed in an email client alongside the subject line (before opening the email), don't ignore it! Some email clients show 90 characters, so there is some flexibility with length
 

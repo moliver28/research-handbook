@@ -114,7 +114,7 @@ All forms should follow these guidelines:
 - Fields should be stacked in a vertical line
 - `Country` field label should be `Country/Region`
 - `State/Province` only visible when `Country` = `United States` or `Canada` or `Australia`; the visibility rule dynamically displays `Province` when `Canada` is selected or `State` when `United States` or `Australia` is selected
-    - See more information on the [standardization of Country &/or State Values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) to avoid sync errors
+  - See more information on the [standardization of Country &/or State Values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) to avoid sync errors
 - Generally `City` is only visible when `Country` = `Ukraine`
 - Forms should all contain a checkbox to obtain consent to `opting in` to communications via email
 - When `Country` = `Ukraine` there is an additional checkbox for the submitter to confirm they do not live in the Crimean region of the Ukraine
@@ -214,6 +214,7 @@ Some leads are exluded from scoring if they:
 - Status = `Disqualified` or `Ineligible`
 - Company name of `student`, `personal`, `test` and similar
 - Actively worked by a partner (`Prospect Share Status` = `Sending to Partner`, `Accepted`, or `Pending`)
+  - Scores are time-stamped at the time of being shared with partners and saved for when the leads return to the in-house SDR teams. The scores are re-applied to leads, with score decay, when returning to our team members for further prospecting
 
 #### Why Do We Use A Scoring Model?
 
@@ -226,8 +227,6 @@ For details on the data driven changes made to lead scoring at the beginning of 
 #### Auto-MQL
 
 Based on certain criteria, a lead may auto-MQL. Note that any auto-MQL is considered to be part of the `Behavior` score category. The scenarios are listed below:
-
-WIP
 
 <!-- Self-Managed Trial + Business email domain
 - SaaS Trial - Signed Up + Business email domain
@@ -258,10 +257,9 @@ Behavior scoring is based on the actions that person has taken. The cadence of h
 |* Survey - Low|Googleforms, <br> Default    |+15|  Everytime|
 |* PathFactory |Consumes PF content|+10| Everytime|
 |Subscription|Fills out Subscription Form    |+5|1/week    |
-|Visits Key Webpage|`/pricing/`,<br> `/sales`,<br> `/install`,<br> `/features`,<br> `/direction`,<br> `/solutions/startups/`,<br> `/releases/gitlab-com/`    |+25    |1/week    |
-|* Trial - Default | SaaS,<br>Subscription Portal   |    +40| 1/day    |
-|* Trial - Personal | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +65|1/day    |
-|* Trial | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +100| 1/day    |
+|* Trial - Default | SaaS,<br>Subscription Portal   |    +20| 1/day    |
+|* Trial - Personal | Signed up with generic email domain: <br> SaaS,<br>Self-Managed,<br>Subscription Portal   |    +10|1/day    |
+|* Trial | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +30| 1/day    |
 
 ##### Interaction Boosters
 
@@ -270,6 +268,7 @@ Boosts to scores occur when a special action takes place above the traditional a
 |**Interaction Boosters**|Campaign Description|**Points Assigned**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|
 |Re-MQL Score|    Status is Nurture,user takes an activity that increases behaviour score<br>MQL Counter >0    |+20    |    1/month|
+|Visits Key Webpage|`/pricing/`,<br> `/sales`,<br> `/install`,<br> `/features`,<br> `/direction`,<br> `/solutions/startups/`,<br> `/releases/gitlab-com/`    |+25    |1/week    |
 
 <!--|PF Engagement Booster 2|Engagement Time > 4 minutes|+15|Everytime|
 |PF Engagement Booster 1|Engagement Time >  2 minutes < 4 minutes|+10|Everytime|
@@ -278,7 +277,7 @@ Boosts to scores occur when a special action takes place above the traditional a
 
 #### Demographic Scoring
 
-For Job role/function and seniority descriptions can be found [here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing). There is a 60 pt hard limit on demographic scoring that applies to both demographic and person score.
+For Job role/function and seniority descriptions can be found [here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing). There is a 70 pt hard limit on demographic scoring that limits further person score accumulation as it relates to demographic score after the max is reached.
 
 |**Demographic Characteristic**|Campaign Type|**Points**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|
@@ -293,6 +292,8 @@ For Job role/function and seniority descriptions can be found [here](https://doc
 |Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](/handbook/marketing/localization/#priority-countries)|    +5   |Once|
 
 #### Score Decay
+
+Please note that score decay also applies to scores frozen by the lead being in `partner` status
 
 |**Behavior Decay**|**Campaign Description**|**Points Removed**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|

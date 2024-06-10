@@ -934,9 +934,9 @@ Use the following pattern to apply the correct badge to the feature (Free, Premi
 
 For the feature availability tier, use `available_in` with:
 
-  - For GitLab Free, `[core, premium, ultimate]`
-  - For GitLab Premium, `[premium, ultimate]`
-  - For GitLab Ultimate, `[ultimate]`
+- For GitLab Free, `[core, premium, ultimate]`
+- For GitLab Premium, `[premium, ultimate]`
+- For GitLab Ultimate, `[ultimate]`
 
   **Important note**: The GitLab Free tier is listed as `core` in the data file. This is intentional and the page templates will apply the proper tier name on the frontend.
 

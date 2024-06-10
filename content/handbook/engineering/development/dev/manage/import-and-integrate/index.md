@@ -104,15 +104,15 @@ To maintain good label hygiene, please apply the correct labels when creating or
 All issues should have:
 
 - All of our section, stage and group labels:
-    - `~"section::core platform"`
-    - `~"devops::manage"`
-    - `~"group::import and integrate"`
+  - `~"section::core platform"`
+  - `~"devops::manage"`
+  - `~"group::import and integrate"`
 - One or more of the category labels:
-    - `~"Category:API"`
-    - `~"Category:Importers"`
-    - `~"Category:Integrations"`
-    - `~"Category:Internationalization"`
-    - `~"Category:Webhooks"`
+  - `~"Category:API"`
+  - `~"Category:Importers"`
+  - `~"Category:Integrations"`
+  - `~"Category:Internationalization"`
+  - `~"Category:Webhooks"`
 - A [type label](/handbook/engineering/metrics/#work-type-classification)
 - A [workflow label](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development)
 - `~"backend"` or `~"frontend"` if appropriate
@@ -459,8 +459,8 @@ This is a collection of links for monitoring our features.
 ### Grafana dashboards
 
 - [Import and Integrate group dashboard][grafana-dashboard] which contain:
-    - Links to various Kibana logs, filtered to our feature categories
-    - Our [error budget](#error-budgets) spend attribution
+  - Links to various Kibana logs, filtered to our feature categories
+  - Our [error budget](#error-budgets) spend attribution
 - [Worker queues](https://dashboards.gitlab.net/d/sidekiq-queue-detail/sidekiq-queue-detail?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-queue=jira_connect:jira_connect_sync_branch) where you can switch queues with the `queue` dropdown
 
 ### Sentry errors

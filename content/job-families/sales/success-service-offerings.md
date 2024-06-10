@@ -19,28 +19,28 @@ The SSM (Intermediate) is a job grade [level 6](/handbook/total-rewards/compensa
 
 #### Success Services Manager Responsibilities
 
- - Work closely with customer success and support teams to ensure effective service delivery and customer satisfaction.
- - Gather feedback from customers and the sales team to identify areas for improvement in the success services offering and customer experience
- - Collaborate with the sales team to identify and pursue opportunities to sell success services to new and existing customers
- - Drive the success and adoption of our paid success plan offerings and services within a designated region (EMEA, AMER or APJ)
- - Sales Enablement: Collaborate with sales teams to develop and deliver compelling service offerings, value propositions, and commercial collateral. Explain GitLab Services value proposition, catalog of service offerings, and methodologies.
- - Participate in sales meetings, product demos, and customer calls to provide expertise on success services and how they can help customers achieve their goals.
- - Performance Tracking: Monitor and report on key performance indicators for service offerings, identifying trends and areas for improvement.
- - Continuous Improvement: Drive continuous improvement of service offerings based on customer feedback, performance data, and best practices.
- - Stakeholder Management: Build and maintain strong relationships with key stakeholders, including customers, partners, and internal teams.
+- Work closely with customer success and support teams to ensure effective service delivery and customer satisfaction.
+- Gather feedback from customers and the sales team to identify areas for improvement in the success services offering and customer experience
+- Collaborate with the sales team to identify and pursue opportunities to sell success services to new and existing customers
+- Drive the success and adoption of our paid success plan offerings and services within a designated region (EMEA, AMER or APJ)
+- Sales Enablement: Collaborate with sales teams to develop and deliver compelling service offerings, value propositions, and commercial collateral. Explain GitLab Services value proposition, catalog of service offerings, and methodologies.
+- Participate in sales meetings, product demos, and customer calls to provide expertise on success services and how they can help customers achieve their goals.
+- Performance Tracking: Monitor and report on key performance indicators for service offerings, identifying trends and areas for improvement.
+- Continuous Improvement: Drive continuous improvement of service offerings based on customer feedback, performance data, and best practices.
+- Stakeholder Management: Build and maintain strong relationships with key stakeholders, including customers, partners, and internal teams.
 
 ### Success Services Manager Requirements
 
- - Proven experience in customer success services or professional services, preferably in DevOps or a similar technical domain.
- - Strong understanding of the DevOps methodology, software development lifecycle, and related technologies
- - Ability to develop and maintain strong relationships with customers, understanding their needs, and identifying opportunities to improve their experience and time to value
- - Excellent communication and interpersonal skills, with the ability to collaborate effectively with sales teams, customers, and internal stakeholders.
- - Data-driven mindset with the ability to analyze customer data, identify trends, and make data-informed decisions to optimize success services and improve customer time to value.
- - Experience with customer success metrics, KPIs, and reporting.
- - Strong problem-solving skills and the ability to think creatively to develop innovative solutions that address customer challenges and improve their experience.
- - Experience in creating and delivering compelling presentations, demonstrations, and training sessions to showcase the value of success services and educate customers on best practices.
- - Collaborative and team-oriented mindset, with the ability to work closely with cross-functional teams, including product management, engineering, and marketing, to align success services with company goals and objectives.
- - Willingness to travel as required - up to 25%.
+- Proven experience in customer success services or professional services, preferably in DevOps or a similar technical domain.
+- Strong understanding of the DevOps methodology, software development lifecycle, and related technologies
+- Ability to develop and maintain strong relationships with customers, understanding their needs, and identifying opportunities to improve their experience and time to value
+- Excellent communication and interpersonal skills, with the ability to collaborate effectively with sales teams, customers, and internal stakeholders.
+- Data-driven mindset with the ability to analyze customer data, identify trends, and make data-informed decisions to optimize success services and improve customer time to value.
+- Experience with customer success metrics, KPIs, and reporting.
+- Strong problem-solving skills and the ability to think creatively to develop innovative solutions that address customer challenges and improve their experience.
+- Experience in creating and delivering compelling presentations, demonstrations, and training sessions to showcase the value of success services and educate customers on best practices.
+- Collaborative and team-oriented mindset, with the ability to work closely with cross-functional teams, including product management, engineering, and marketing, to align success services with company goals and objectives.
+- Willingness to travel as required - up to 25%.
 
 ### Senior Success Services Manager
 
@@ -70,15 +70,15 @@ The Director, Success Services is a job grade [level 10](/handbook/total-rewards
 
 ### Director, Success Services Responsibilities
 
- - Strategic Leadership: Develop and articulate a clear vision for paid success plan offerings, ensuring alignment with company goals and customer needs.
- - Product and Service Development: Lead the design and iterative development of new and existing service offerings, ensuring they are customer-centric, scalable, and technologically advanced.
- - Cross-functional Collaboration: Work closely with teams across sales, marketing, product development, customer success, and support to ensure effective service delivery and alignment.
- - Market Research: Conduct thorough analysis to understand customer needs, industry trends, competitor offerings, and technology advancements.
- - Customer Experience: Develop detailed customer journey maps and manage customer feedback loops to enhance service offerings and customer touchpoints.
- - Performance Management: Define and monitor KPIs for service offerings, evaluating success and identifying improvement areas.
- - Team Leadership: Guide and support a diverse team, fostering a culture of innovation and continuous improvement.
- - Communication: Regularly report on service offerings' progress and outcomes to senior leadership and stakeholders.
- - Commercial Management: Oversee the services product portfolio, manage commercial collateral, and ensure alignment with commercial targets.
+- Strategic Leadership: Develop and articulate a clear vision for paid success plan offerings, ensuring alignment with company goals and customer needs.
+- Product and Service Development: Lead the design and iterative development of new and existing service offerings, ensuring they are customer-centric, scalable, and technologically advanced.
+- Cross-functional Collaboration: Work closely with teams across sales, marketing, product development, customer success, and support to ensure effective service delivery and alignment.
+- Market Research: Conduct thorough analysis to understand customer needs, industry trends, competitor offerings, and technology advancements.
+- Customer Experience: Develop detailed customer journey maps and manage customer feedback loops to enhance service offerings and customer touchpoints.
+- Performance Management: Define and monitor KPIs for service offerings, evaluating success and identifying improvement areas.
+- Team Leadership: Guide and support a diverse team, fostering a culture of innovation and continuous improvement.
+- Communication: Regularly report on service offerings' progress and outcomes to senior leadership and stakeholders.
+- Commercial Management: Oversee the services product portfolio, manage commercial collateral, and ensure alignment with commercial targets.
 
 ### Director, Success Services Requirements
 

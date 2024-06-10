@@ -232,10 +232,10 @@ Each member of the team can choose which issues to work on during a milestone by
 
 Specifically, this means our work is prioritized in the following order:
 
- - Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
- - Conducting code reviews on issues that are `workflow::in review`
- - Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
- - Then, lastly, picking from the top of the `workflow::ready for development` for development column
+- Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
+- Conducting code reviews on issues that are `workflow::in review`
+- Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
+- Then, lastly, picking from the top of the `workflow::ready for development` for development column
 
 The goal of this process is to reduce the amount of work in progress (WIP) at any given time. Reducing WIP forces us to "Start less, finish more", and it also reduces cycle time. Engineers should keep in mind that the DRI for a merge request is **the author(s)**, to reflect the importance of teamwork without diluting the notion that having a [DRI is encouraged by our values](/handbook/people-group/directly-responsible-individuals/#dris-and-our-values).
 

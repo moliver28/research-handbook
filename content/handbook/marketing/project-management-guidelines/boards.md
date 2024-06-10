@@ -14,9 +14,9 @@ title: "Issue and Kanban boards project management guidelines"
 
 1. First, a common use of boards is in the Kanban style of visualizing work
 
-  - In this scenario there are three or four lists: **Backlog**; **Doing**; **Waiting for**; **Done**
-  - A user would move an issue from the **Backlog** to the **Doing** list to indicate they are working on the specific issue.   If they finish the task, then they would move the item to **Done**, and if they ran into a barrier and had to wait for something outside their control, then they would move it to **Waiting for**
-  - In this simple example, the Board is essentially `adding` and `removing` labels when the issue is moved from one list to another.
+   - In this scenario there are three or four lists: **Backlog**; **Doing**; **Waiting for**; **Done**
+   - A user would move an issue from the **Backlog** to the **Doing** list to indicate they are working on the specific issue.   If they finish the task, then they would move the item to **Done**, and if they ran into a barrier and had to wait for something outside their control, then they would move it to **Waiting for**
+   - In this simple example, the Board is essentially `adding` and `removing` labels when the issue is moved from one list to another.
 
 1. A second situation where boards are useful is assigning work to an individual.   In this situation the board is defined by team members, where different users are represented by the lists.   When an issue is moved to a user's list the issue is then assigned to that user.
 1. The third example of how boards can be used is where the lists are defined as different `milestones`, and moving an issue from one list to another, effectively changes which milestone when the issue will be worked on.

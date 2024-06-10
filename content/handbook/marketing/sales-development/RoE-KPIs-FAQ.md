@@ -132,6 +132,12 @@ The Operations team and/or Director will review the information and decide wheth
 **Q:** What should BDRs do when a prospect or contact responds with a complince related question or objects to being contacted? <br>
 **A:** Immediately reach out to the Privacy Team via #privacy-team-help and forward any email from the contact to dpo@gitlab.com.
 
+**Q:** How do I know if a lead is associated to a Partner Account and is being worked by a Partner?
+**A:** Partner leads will not be asigned to BDRs or SDRs as they will be assigned to the Partner Queue. To tell whether a lead is associated to a Partner Account, check their `Vartopia Partner Account` - if it's empty, you are may proceed with outreach.
+
+**Q:** When a partner lead is assigned to Partner, when and how can we recall the lead?
+**A:** Partner lead will be recalled after a certain period of time if they are not accepted by Partners for joint marketing campaigns. They will be initially be recalled with a Recycle status, once they become MQL, they will be assigned to BDRs or SDRs. For more information on this process, see the [Vartopia handbook page](/handbook/marketing/marketing-operations/vartopia/#partner-recall).
+
 ### Announcement Common Questions
 
 There are three deciding factors on what channel you should use for your announcement:

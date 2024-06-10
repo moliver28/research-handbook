@@ -251,7 +251,7 @@
               url: /handbook/marketing/digital-experience/website
     - name: Sales Development
       url: /handbook/marketing/sales-development
-    - name: Marketing Strategy, Ops, & Analytics
+    - name: Marketing Operations and Analytics
       url: /handbook/marketing/marketing-strategy-and-platforms
       links:
         - name: Marketing Operations
@@ -260,14 +260,12 @@
           url: /handbook/marketing/strategy-performance
     - name: Growth
       url: /handbook/marketing/growth
-    - name: Developer Relations & Community
+    - name: Developer Relations
       url: /handbook/marketing/developer-relations
       links:
-      - name: Evangelist Program
-        url: /handbook/marketing/developer-relations/evangelist-program
       - name: Community Programs
         url: /handbook/marketing/developer-relations/community-programs
-      - name: Developer Advocate
+      - name: Developer Advocacy
         url: /handbook/marketing/developer-relations/developer-advocacy
       - name: Contributor Success
         url: /handbook/marketing/developer-relations/contributor-success

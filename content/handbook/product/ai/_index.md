@@ -16,13 +16,16 @@ This page serves as a resource for team members looking for information about wo
 * [UX research in AI space](/handbook/product/ux/ux-research/research-in-the-ai-space/): Helps team members evaluate the usefullness and usability of AI features.
 * [UX maturity guidelines](/handbook/product/ai/ux-maturity/): Suggested UX validation to move up in AI feature maturity.
 
+## Evaluating Quality of AI features
+
+* The [AI Model Validation group](/handbook/engineering/development/data-science/ai-powered/model-validation/#-metrics) has [guidance (internal link)](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/ai_testing_and_evaluation/) for testing your AI-powered feature, which includes model validation via the [Central Evaluation Framework(CEF) (internal link)](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/ai_testing_and_evaluation/#test-2-centralized-evaluation-framework). You can [make a request](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/model-validation/#-how-to-work-with-us) to have your feature evaluated.
+* The UX Research team maintains a [usability evaluation and scoring process](/handbook/product/ux/ux-research/research-in-the-ai-space/#ai-user-experience-metrics-pilot) to ensure ease of use.
+* For fast, qualitative feedback on AI response quality, as well as to get an idea of what kinds of prompts users write, you can run a [UX Chat Bash](/handbook/product/ux/ux-research/ux-bash/).
+
 ## Special considerations for AI features
 
 * [AI ethics principles](/handbook/legal/ethics-compliance-program/ai-ethics-principles/#1-avoid-unfair-bias): Principles to guide our decision making as we continue to build AI features into GitLab and to ensure that these features properly embody our values.
 * [AI data usage and privacy](https://docs.gitlab.com/ee/user/ai_features.html#data-usage): Public facing docs about how we use and protect data.
-* (Coming soon) Measuring AI accuracy
-* (Coming soon) Measuring risk of AI features
-* (Coming soon) Measuring AI cost
 
 ## Engineering AI features
 
@@ -33,10 +36,6 @@ This page serves as a resource for team members looking for information about wo
 ## Support engineering AI features
 
 * [Support AI workflow](/handbook/support/workflows/ai_features/): This page has information for handling tickets related to AI features.
-
-## Questions while developing AI features
-
-* (Coming soon) Office hours
 
 ## Current AI features and teams
 

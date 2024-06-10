@@ -12,9 +12,9 @@ The Global DIB Influencer Group is an action oriented group that advocates, spon
 ### Responsibilities of the Group
 
 - Become influencers with regards to Diversity, Inclusion & Belonging at GitLab:
-    - Be a go to person for DIB related queries and issues
-    - Reply and engage in team member DIB Discussions in issues or slack
-    - Blogging and other social activities
+  - Be a go to person for DIB related queries and issues
+  - Reply and engage in team member DIB Discussions in issues or slack
+  - Blogging and other social activities
 - Have a pulse on team member sentiment towards inclusion and develop actions in conjunction with the DIB team
 - Assist the DIB team in evangelizing Trainings, Programs, and Initiatives
 - Act as an advocate and/or sponsor for DIB throughout GitLab. Embodying the value and being an active ally for URGs
@@ -119,11 +119,11 @@ Once a quarter, the DIB Team will assess attendance, team member departure, and 
 These are the Accountabilities and Commitments of the DIB Influencer Group for the duration of tenure:
 
 - To being an active member of the DIB Influencer Group this includes but is not limited:
-    - Attending a monthly sync meeting that is suitable for your working hours. We will either host two meetings: Once in AM PST and once in PM PST to allow all members to attend bi-monthly
-    - Actively participate in the monthly meeting by providing leadership, insights and actions on agenda items
-    - Reading the notes or viewing the recording from the sync call you were unable to attend
-    - Taking on action items as an individual or part of a group
-    - Advocate and sponsor DIB programs, Initiatives, and Trainings
+  - Attending a monthly sync meeting that is suitable for your working hours. We will either host two meetings: Once in AM PST and once in PM PST to allow all members to attend bi-monthly
+  - Actively participate in the monthly meeting by providing leadership, insights and actions on agenda items
+  - Reading the notes or viewing the recording from the sync call you were unable to attend
+  - Taking on action items as an individual or part of a group
+  - Advocate and sponsor DIB programs, Initiatives, and Trainings
 - Contribute asynchronously on projects that the group is working on
 - Actively seek and distribute DIB related information within your department and other team members
 - Develop measurables on a yearly and quarterly basis such as OKRs, KPIs or other measurable goals

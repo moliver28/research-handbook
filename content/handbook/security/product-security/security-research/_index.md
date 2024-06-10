@@ -22,7 +22,7 @@ projects aim to identify, quantify, and communicate technical security risks.
 Examples include:
 
 - [Security testing of FOSS applications and dependencies used within GitLab](#gitlab-ecosystem-security-testing)
-- Introduction and practice of [threat modeling](/handbook/security/threat-modeling/)
+- Introduction and practice of [threat modeling](/handbook/security/product-security/application-security/threat-modeling/)
 - Publishing of internal technical risk reports
 
 ### Security Capability Development
@@ -276,10 +276,10 @@ In total there are ten projects in four different categories to pick from. The c
 - Data access [(red/orange/green)]({{< ref "data-classification-standard#data-classification-levels" >}})
 - GitLab API scopes used (if any)
 - Functionality provided, especially aiming for high-impact features like:
-     - authentication and authorization
-     - file access
-     - up/download handling
-     - handling of secrets
+  - authentication and authorization
+  - file access
+  - up/download handling
+  - handling of secrets
 - Adoption within and beyond GitLab, how widely is the project used?
 
 When a project from this list gets assessed the spot on the list will be filled with another project to always keep the funnel filled.

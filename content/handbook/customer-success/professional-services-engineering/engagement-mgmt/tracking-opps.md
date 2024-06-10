@@ -69,8 +69,8 @@ As we have a quarterly reporting cycle, we need to know the quarter in which the
 ### Other Labels Used for Tracking Scoping Issues
 
 - `EM_Status` - manually added to scoping issues as a visual to see what the EM needs to follow up on
-   - `Waiting`: EM is waiting for information from the account team or customer before we can take action to move the issue to the next stage
-   - `ToDo`: EM has the next action for the current scoping issue
+  - `Waiting`: EM is waiting for information from the account team or customer before we can take action to move the issue to the next stage
+  - `ToDo`: EM has the next action for the current scoping issue
 - `Segment` - manually added to scoping issues to track what sales region the issue is for
   - Ent_APAC
   - Ent_EAST
