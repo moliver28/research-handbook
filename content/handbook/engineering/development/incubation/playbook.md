@@ -60,7 +60,7 @@ An example of this structure can be seen on the [Mobile DevOps Handbook Page](/h
 
 #### GitLab Product Development Group affinity
 
-List the the [product development groups](/handbook/product/categories/), if any, that the SEG project may impact as a link to the appropriate handbook page. In the early stages this may not be known and may change as the SEG project evolves, please update when there are changes.
+List the [product development groups](/handbook/product/categories/), if any, that the SEG project may impact as a link to the appropriate handbook page. In the early stages this may not be known and may change as the SEG project evolves, please update when there are changes.
 
 #### References
 

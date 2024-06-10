@@ -222,7 +222,7 @@ Watch the [2024 High Deductible (HDHP) & HSA Deep dive Webinar](https://drive.go
 
 <summary>Cigna Emotional Well-Being Virtual Support</summary>
 
-Enrolled Cigna members can find in-network mental health providers by logging in to their mycigna.com account, selecting "connect now" under "My Health Team". For more information on virtual support please see the the [Emotional Well-Being Virtual Support flyer](https://drive.google.com/file/d/12-4LPGTPPsw4rBH7l-BBz_dbr3nPwHRm/view?usp=sharing).
+Enrolled Cigna members can find in-network mental health providers by logging in to their mycigna.com account, selecting "connect now" under "My Health Team". For more information on virtual support please see the [Emotional Well-Being Virtual Support flyer](https://drive.google.com/file/d/12-4LPGTPPsw4rBH7l-BBz_dbr3nPwHRm/view?usp=sharing).
 
 </details>
 
@@ -538,7 +538,7 @@ See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7m
 <summary>GitLab Process for Disability Claims</summary>
 
 1. Team Members unable to work due to disability, as defined by the applicable short-term disability plan, should contact the Absence Management team (leaves@gitlab.com) as soon as possible.  See [Sick Time reporting procedures in the US]({{< ref "paid-time-off#sick-time-procedures---usa" >}}).
-1. The Absence Management team will complete the Employer portion of the the [Short-Term disability](https://drive.google.com/file/d/1guydUTEc0vBFMaa_IsSktZ5hXAbOXdvD/view?usp=sharing) application and email the completed portion along with the [Assignment of Benefits](https://drive.google.com/file/d/1nd0r5qj9PS21HDFH97Jbft9dZzlpTOsr/view?usp=sharing) form.
+1. The Absence Management team will complete the Employer portion of the [Short-Term disability](https://drive.google.com/file/d/1guydUTEc0vBFMaa_IsSktZ5hXAbOXdvD/view?usp=sharing) application and email the completed portion along with the [Assignment of Benefits](https://drive.google.com/file/d/1nd0r5qj9PS21HDFH97Jbft9dZzlpTOsr/view?usp=sharing) form.
 1. At the end of the maximum benefit period for short-term disability of 12 weeks, the team member will determine whether they are able to return back to work.
    - If the team member intends to return on or before the end of the 12 weeks, they should email leaves@gitlab.com a Return to Work authorization form from their physician stating that they are able to return to work and listing any accommodations needed, if applicable, at least 5 calendar days before their return date. The Absence Management team will request this at least 5 business days before the team member's anticipated return to work date if not already provided by the team member.
    - If the team member is unable to return, the team member will be moved to unpaid leave and will have the option to continue their benefits by electing [COBRA coverage](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf). The team member will be eligible to apply for long-term disability at this time.

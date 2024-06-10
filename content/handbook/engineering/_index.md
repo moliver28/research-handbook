@@ -203,7 +203,7 @@ In certain cases we may need to manually verify in the production environment.
 
 If you need to test features that are built for GitLab Ultimate then you can get added to the [issue-reproduce](https://gitlab.com/issue-reproduce)
 group on production and staging environments by asking in the [#development](https://gitlab.slack.com/archives/C02PF508L) Slack channel.
-These groups are are on an Ultimate plan.
+These groups are on an Ultimate plan.
 
 ## Critical Customer Escalations
 

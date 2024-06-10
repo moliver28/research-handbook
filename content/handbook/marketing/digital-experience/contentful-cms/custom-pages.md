@@ -57,6 +57,7 @@ The list below includes all available Content Types that can be utilized in the 
 
 Enhance your content with the [🛠️ Text Block](https://app.contentful.com/spaces/xz1dnu24egyd/environments/master/content_types/textBlock/fields) content type. This versatile option empowers content editors to establish a fundamental header and a markdown text section. Additionally, it offers the flexibility to seamlessly incorporate a CTA, images and videos into your content.
 
+<!-- vale handbook.Repetition = NO -->
 | Text Block Field | Description | Example Value |
 |------------------|-------------|---------------|
 | Internal Name | Name to find the entry within Contentful | N/A |
@@ -66,6 +67,7 @@ Enhance your content with the [🛠️ Text Block](https://app.contentful.com/sp
 | CTA Url | CTA button redirection link | /text-block/ |
 | Image | Optional image from Contentful | N/A |
 | Video URL | Optional external video URL (Youtube, Vimeo) | https://www.youtube.com/embed/8aV5AxJrHDg?si=l1vgM17YlRJHC8T2 |
+<!-- vale handbook.Repetition = YES -->
 
 ##### Visual Representation
 

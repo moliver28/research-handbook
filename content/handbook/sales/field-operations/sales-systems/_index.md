@@ -127,7 +127,7 @@ Changes to Salesforce.com come in a variety of formats but all of them will feat
 1. All changes will start with an GitLab Issue defining the ask or problem, and capturing additional decisions and business requirements.
 1. All changes will be developed and tested in a Salesforce Sandbox environment before being deployed or replicated in production.
 1. All changes will be require Business DRI (the requestor) to sign off on the related GitLab Issue once ready and determine a deploy window.
-1. All changes will be be reviewed by the Business DRI once deployed or replicated in production.
+1. All changes will be reviewed by the Business DRI once deployed or replicated in production.
 
 We have defined the following ending Label stages for the Sales Systems workflow. Please see the label name as well as SDLC expectations:
 
@@ -137,7 +137,7 @@ Label: `SalesSystems::Deployed - 0 - No Changes`
 Description: This issue is completed. There was no setting, configuration or code change to SFDC. No Sign-off Needed, No Change Set Used.
 
 1. These issues resulted in no Setting, Configuration or Code changes to SFDC.
-1. The most most common use case are question or research issues.
+1. The most common use case are question or research issues.
 1. Data changes as part of a backfill for another operations team fall into this category.
 
 ### Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments)

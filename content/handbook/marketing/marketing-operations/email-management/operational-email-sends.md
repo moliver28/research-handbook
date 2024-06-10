@@ -23,7 +23,7 @@ The Marketing Operations team works very closely with the Lifecyle Marketing tea
 
 These issue templates are different from `marketing` emails and have their own checklists that apply. The SLA is 5 business days from final assets to send, but please put in issues as soon as you know you need to complete a send (even if you do not have final deliverables) as complexity may push out the SLA. Here are some [helpful tips](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#customer-comms-email) to consider when sending a customer email. If you require a marketing email, please work with the [lifecycle team](/handbook/marketing/lifecycle-marketing/#issue-templates).
 
-Marketing Ops is not responsible for the list pull. You must open an [list request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-target-list) issue with the Marketing Strategy and Analytics team, or the appropriate data engineers.
+Marketing Ops is not responsible for the list pull. You must open an [list request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-target-list) with the Marketing Strategy and Analytics team, or the appropriate data engineers.
 
 ## Common Email Types
 

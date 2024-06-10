@@ -332,6 +332,7 @@ Dual career tracks can be added to each job family (regardless of division) when
 
 ##### Customer Success
 
+<!-- vale handbook.Repetition = NO -->
 | Grade    | Management       | Individual Contributor    |
 |-------|------------------|---------------------------|
 | 15    | CEO              |                           |
@@ -345,6 +346,7 @@ Dual career tracks can be added to each job family (regardless of division) when
 | 6            |                  | Intermediate              |
 | 5            |                  | Junior                    |
 | 4            |                  | Intern                    |
+<!-- vale handbook.Repetition = YES -->
 
 ## Compa Ratio
 

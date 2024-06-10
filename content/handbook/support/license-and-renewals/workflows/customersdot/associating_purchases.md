@@ -51,7 +51,7 @@ If the requester is an existing subscription contact and has access to the Custo
 
 #### Error "Email has already been taken" reported
 
-If the requestor follow the [self-service option](#self-service-option) and get the error "Email has already been taken", this means the new account owner is an existing CustomersDot user. Assist them by following the [the Support-assisted option for existing CustomersDot user](#process-for-existing-customersdot-user).
+If the requestor follow the [self-service option](#self-service-option) and get the error "Email has already been taken", this means the new account owner is an existing CustomersDot user. Assist them by following the [Support-assisted option for existing CustomersDot user](#process-for-existing-customersdot-user).
 
 ### Support-assisted option
 
@@ -137,7 +137,7 @@ Support may receive an [Internal Request](/handbook/support/license-and-renewals
 1. Navigate to the `Billing account contacts` section of the `CustomersDot Admin` page.
 1. From there you can search for the account to be updated in Zuora by searching for the existing email address for either the `Bill To:` or the `Sold To:` on record.
 1. Once the account has been located it may be edited by selecting the small pencil icon located at the right side of the page.
-1. On the edit page you will see a highlighted warning banner near the top of the page indicating whether you will be editing the the `sold to contact`, the `bill to contact`, or the `sold to and bill to contact`.
+1. On the edit page you will see a highlighted warning banner near the top of the page indicating whether you will be editing the `sold to contact`, the `bill to contact`, or the `sold to and bill to contact`.
 1. Once you have confirmed the correct account in the `Billing account contacts` section of the `CustomerDot Admin` page, you may update the relevant fields.  Normally this is the `First name`, `Last name`, and `Email address`.  The physical address may be updated here as well, if desired.
 1. Upon completion of the changes, click the `Save` button near the bottom of the page.
 1. To confirm the changes propogated properly this can be done by verifying in Zuora that the `Sold To:` and/or the `Bill To:` contacts have been updated.

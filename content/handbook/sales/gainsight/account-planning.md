@@ -90,7 +90,7 @@ This activity is best done as a team, Solutions Architects and Customer Success 
       - **Whitespace (Use Case Visual):** After data has been entered, use this tab to see a visual representation of the data.  There are multiple views from which to choose.
 1. Reference this [Whitespace Mapping page](/handbook/sales/account-planning/#white-space-mapping) for further detail on the methodology.
 
-For each use case, seek to understand if the customer is using a competing technology aligned to each of the use cases (there is a picklist in Gainsight), if there is an appetite for replacement (green indicates there is an appetite for change), and when that contract ends.  
+For each use case, seek to understand if the customer is using a competing technology aligned to each of the use cases (there is a picklist in Gainsight), if there is an appetite for replacement (green indicates there is an appetite for change), and when that contract ends.
 
 ### Company Intelligence
 
@@ -105,7 +105,7 @@ Company Intelligence allows users to stay up-to-date on their key customers and 
 - [Company Intelligence FAQs](https://support.gainsight.com/Gainsight_NXT/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
 - [Company Intelligence, The long version](https://support.gainsight.com/SFDC_Edition/Company_Intelligence/About/Company_Intelligence_Overview?mt-draft=true#Overview).
 
-*Note: Only 5,000 Accounts can be tracked at at time. To request an account be added to tracking, please submit an issue in the [Sales Ops project](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues) and select the General Request template.*
+*Note: Only 5,000 Accounts can be tracked at a time. To request an account be added to tracking, please submit an issue in the [Sales Ops project](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues) and select the General Request template.*
 
 ### Sponsor Tracking
 

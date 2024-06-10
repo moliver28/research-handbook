@@ -1,12 +1,12 @@
 ---
 title: Data Dictionary
 description: >-
-  Our goal is to to ensure the consistency of data attribute keys and values for tagging the Marketing site. This will result in properly formatted event data getting added to the dataLayer and sent to Google Analytics.
+  Our goal is to ensure the consistency of data attribute keys and values for tagging the Marketing site. This will result in properly formatted event data getting added to the dataLayer and sent to Google Analytics.
 ---
 
 ## Digital definitions
 
-Our goal is to to ensure the consistency of data attribute keys and values for tagging the Marketing site. This will result in properly formatted event data getting added to the dataLayer and sent to Google Analytics.
+Our goal is to ensure the consistency of data attribute keys and values for tagging the Marketing site. This will result in properly formatted event data getting added to the dataLayer and sent to Google Analytics.
 
 ## Data Attribute Usage
 

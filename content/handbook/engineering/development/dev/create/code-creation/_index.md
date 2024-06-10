@@ -72,7 +72,7 @@ Here are other groups within GitLab that we work closely with:
 
 ## Core Responsibilities
 
-A lot of the terms we use in this area sound similiar and can be confusing at first. Here are the basic basic terms:
+A lot of the terms we use in this area sound similiar and can be confusing at first. Here are the basic terms:
 
 - **Code Creation**: The group name and a collection of features relating to providing AI generated code
 - **Code Suggestions**: A feature within Code Creation that provides AI-generated code within an IDE

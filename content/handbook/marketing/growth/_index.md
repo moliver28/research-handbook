@@ -97,7 +97,7 @@ Growth requires constant learning, and many compaines face similar challenges or
 * *User Onboarding:* A general term that refers to experiences we create to support users during their first 90 days, or any time they engage with a new stage.
   * *Continuous onboarding:* Specifically our onboarding experience that allows users to choose when and if they want to continue onboarding tasks. It starts with simple tasks and builds to more complex ones.
   * *Onboarding Emails:* Refers to emails that are sent to Saas and self-managed users intended to drive stage adoption via the email service the instance sets up.
-* *SaaS Purchase Flow* - We consider the SaaS purchase flow (or "funnel") to begin with with the first screen of the checkout experience (the first page that displays the total cost of their GitLab subscription) and continues through the payment sequence with the last step of the flow being the successful first-time purchase of a GitLab paid tier. A potential customer can enter this experience directly within the SaaS app from the /billings page or on `about.gitlab.com/pricing`.
+* *SaaS Purchase Flow* - We consider the SaaS purchase flow (or "funnel") to begin with the first screen of the checkout experience (the first page that displays the total cost of their GitLab subscription) and continues through the payment sequence with the last step of the flow being the successful first-time purchase of a GitLab paid tier. A potential customer can enter this experience directly within the SaaS app from the /billings page or on `about.gitlab.com/pricing`.
 
 ## Growth Shared Calendar
 

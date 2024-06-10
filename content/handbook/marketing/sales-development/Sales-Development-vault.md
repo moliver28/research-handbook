@@ -576,7 +576,7 @@ On folder #5 in the [6Sense segments list](https://gitlab.abm.6sense.com/segment
 
 ## New Account AE Reports
 
-- Use [this report](https://gitlab.my.salesforce.com/00O8X000008gmAA) to figure out the the territory name for the account you are working. Use command F to find the zip/state/country and figure out correct territory name.
+- Use [this report](https://gitlab.my.salesforce.com/00O8X000008gmAA) to figure out the territory name for the account you are working. Use command F to find the zip/state/country and figure out correct territory name.
 - Then use [this report](https://gitlab.my.salesforce.com/00O8X000008glPn) by plugging in the territory name to figure out who the correct AE is
 - Please make sure you have all the correct location information on the lead you converting to initially create this new account.
 

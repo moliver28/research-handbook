@@ -562,7 +562,7 @@ To easily access a report for what current job title specialties are for your te
 #### For Development, Infrastructure, and Quality departments
 
 - Who should have a specialty:
-    - ICs: Job grade 11 and below should  should have Stage and/or primary group (if applicable)
+    - ICs: Job grade 11 and below should have Stage and/or primary group (if applicable)
     - People Mgrs: Managers, Senior Engineering Managers, and Group Product Managers managing ICs should have Stage and/or primary group (if applicable)
 - When requesting a job title specialty update, please follow the following formatting:
     - Review Product/Categories and make sure the group names you use match these. If they don't, please connect with your Product Manager to confirm and work with them to update if needed.

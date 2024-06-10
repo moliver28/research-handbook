@@ -250,7 +250,7 @@ be safely ignored.
 This will cause an actual pipeline failure.
 
 This error indicates that when trying to do a create/update, which requires
-locking a row in SFDC, it was was unable to do so. This usually means something
+locking a row in SFDC, it was unable to do so. This usually means something
 in either the specific reference (i.e. the case) or the parent reference (i.e
 the SFDC account) already had a lock in place that conflicts with the newly
 needed lock.

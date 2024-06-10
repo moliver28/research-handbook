@@ -139,7 +139,7 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 - From there, we are able to select a ratio of the top issues to be planned for the milestone by using our [cross-functional issue board](https://gitlab.com/groups/gitlab-org/-/boards/4657720?milestone_title=15.4&label_name[]=group%3A%3Acompliance). Our target ratio is to plan 60% features, 30% maintenance, and 10% bugs per milestone. The data below helps us understand our overall cross-functional status.
 - Each area will include a 20% stretch target of issues. EG capacity 40W x 60% features = 24W + 20% = ~28W
 - With a list now determined, Milestones and label `workflow::ready for development` can be added to this work, ready for the Milestone to start.
-- Engineering Manager will comment and add label to the the assigned issues with clear expectations for the Milestone using one of four scoped label types:
+- Engineering Manager will comment and add label to the assigned issues with clear expectations for the Milestone using one of four scoped label types:
   - `goal::planning` - full implementation plan created and if needed reviewed and approved
   - `goal::development` - development has begun and either has in dev or in review workflow
   - `goal::complete` - development complete and issue verified
@@ -307,7 +307,7 @@ The verification process is also about sharing knowledge of development between 
 
 In cases where verification in staging or production is unfeasible, the [staging-ref environment](/handbook/engineering/infrastructure/environments/staging-ref/) may be used. For complex setups, the DRI for the MR should work with a domain expert to ensure verification steps are clear and correct.
 
-In some cases it may be appropriate for the MR author to to verify the change themselves, for example feature flag rollout or monitoring a background migration. In these cases, the author should add the `verified-by-author` label to the issue to prevent the triage bot from assigning another team member, and the author should add a comment in the issue explaining why they are verifying the issue themselves.
+In some cases it may be appropriate for the MR author to verify the change themselves, for example feature flag rollout or monitoring a background migration. In these cases, the author should add the `verified-by-author` label to the issue to prevent the triage bot from assigning another team member, and the author should add a comment in the issue explaining why they are verifying the issue themselves.
 
 ##### Handling Discoveries of Issues
 

@@ -178,7 +178,7 @@ This page outlines the process of [DIB Roundtables]({{< ref "dib-roundtables" >}
 
 At GitLab we launched the #IamRemarkable workshop in April 2021, and aim to continue with two workshops per quarter on an ongoing basis. Before the start of each quarter, a quarterly workshop planning issue will be opened where team members have the opportunity to volunteer to participate. Slots will be allocated on first come first serve basis.
 
-Our pilot workshop was for team members who are a part of our Women's TMRG. Our Q2 workshops will be open for any member of an underrepresented group, from Q3 moving forward, we will also also have three slots/session for allies to attend the workshops.
+Our pilot workshop was for team members who are a part of our Women's TMRG. Our Q2 workshops will be open for any member of an underrepresented group, from Q3 moving forward, we will also have three slots/session for allies to attend the workshops.
 
 The workshops are kept to a max of 15 team members to generate more comfort and psychological safety within the group, in addition to providing everyone with an opportunity to share and contribute to discussion. Each workshop is two hours in duration. Due to the personal nature of the workshop, we do not record #IamRemarkable sessions.
 

@@ -150,7 +150,7 @@ The greater cost of operational inefficiencies is business agility.
 | Differentiator | Value | Proof Point  |
 |-----------------|-------------|---------------|
 | **A Complete DevOps Platform delivered as a single Application** | A single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity. | [DevOps Platform with GitLab](https://www.youtube.com/watch?v=2aJnWkzAwks) |
-| **End-to-End Visibility** | GitLab's common data model enables enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically. | [Deliver More Value and Fewer Headaches with an End-to-End DevOps Platform](https://youtu.be/wChaqniv3HI) |
+| **End-to-End Visibility** | GitLab's common data model enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically. | [Deliver More Value and Fewer Headaches with an End-to-End DevOps Platform](https://youtu.be/wChaqniv3HI) |
 | **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](https://about.gitlab.com/install/) |
 
 ## Required capabilities

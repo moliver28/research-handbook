@@ -613,7 +613,7 @@ To add a new space:
 
 - Create an issue in the [`analytics`](https://gitlab.com/gitlab-data/analytics/) project and open a new merge request
 - Create a new folder in [`/models/workspaces/`](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt/models/workspaces/) e.g. `workspace_security`
-- Add an entry to to the [`dbt_project.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/dbt_project.yml#L340) file for the new workspace. Include the schema it should write to:
+- Add an entry to the [`dbt_project.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/dbt_project.yml#L340) file for the new workspace. Include the schema it should write to:
 
     ```yaml
     # ------------------
@@ -1185,7 +1185,7 @@ In the case where you have a merge request in `data-tests` and one in `analytics
 
 Steps to follow in order to run the tests you implemented in the data-tests project from your machine, while developing them:
 
-1. Push your changes to the remote branch you are working on on the data-tests project
+1. Push your changes to the remote branch you are working on the data-tests project
 2. Go to your `analytics` project locally, create a new branch (`git checkout -b <branch_name>`) with the same name as the one at `data-tests` & modify the `Makefile` to edit the `DATA_TEST_BRANCH` to match your branch name on the `data-test` project
 3. From the `analytics` project run `make run-dbt`
 4. You should see some logs, which also show the revision data-tests was installed from, where you should see your branch

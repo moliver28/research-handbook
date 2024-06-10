@@ -57,7 +57,7 @@ From here, create the merge request in the sync repo project.
 #### Updating an existing ticket field
 
 Updating an existing ticket form is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 The one caveat is when you are adding new `custom_field_options`, as you will

@@ -95,7 +95,7 @@ Without one, your request will be declined.
 #### Check namespace availability
 
 This is for checking the availability of a namespace. In the event the namespace
-in in use, this request will also check into the _potential_ of the namespace
+is in use, this request will also check into the _potential_ of the namespace
 being releasable.
 
 Please note this is fully automated. The request will create an issue that has

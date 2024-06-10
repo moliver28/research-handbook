@@ -45,7 +45,7 @@ The EM will discuss in more detail the details of the engagement. The Delivery t
 
 ### Scheduling
 
-The Professional Services (PS) team scheduling is processed through the Sr. PS Project Coordinator (PC).  Our PSA sytem calendar is our single source of truth for scheduing our customer and internal projects.  
+The Professional Services (PS) team scheduling is processed through the Sr. PS Project Coordinator (PC).  Our PSA sytem calendar is our single source of truth for scheduing our customer and internal projects.
 
 Follow these steps to schedule a customer engagement.
 
@@ -83,7 +83,7 @@ See the details in the Project workflow section of the [PS Project Management](/
 
 ### Discovery
 
-During discovery or fact finding sessions with the customer, PSEs will often have a predefined list of questions that need to be answered to to ensure we're designing and building the appropriate solution given customer constraints and requirements. It is good practice to send these question to the customer prior to the discovery call so they can be prepared for the discussion.
+During discovery or fact finding sessions with the customer, PSEs will often have a predefined list of questions that need to be answered to ensure we're designing and building the appropriate solution given customer constraints and requirements. It is good practice to send these question to the customer prior to the discovery call so they can be prepared for the discussion.
 
 During the call, take notes to ensure that things that have validated or invalidated your initial assumptions have been captured. At the end of the meeting, review the things you've learned to memorialize what will be designed and built. Reiterating back your understanding of the details of the agreement instills confidence in the customer representative that we understand their requirements and can deliver what was reviewed.
 
@@ -103,14 +103,14 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 1. The Project Coordinator will use these [email communication templates](https://docs.google.com/document/d/1rJ9q9gEzsumRxDhoWEe45u70efmKA0eWNg69WONuCYs/edit?usp=sharing) to ensure communication of the key details with the customer and training participants.
 
-1. During the training planning meeting, be sure to discuss and document all of the event logistics listed in the [Training Event Plan Template](https://docs.google.com/document/d/1huNauyfhFPvLCuo-9T7Ol3FtBDYowYxiP_T5ItP2FN4/edit?usp=sharing). The Project Coordinator will create a draft of the Training Event Plan prior to the meeting and update the document during the training planning meeting.  
-   - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.  
-      - [GitLab with Git Fundamentals course outline](https://about.gitlab.com/services/education/git-fundamentals/)  
-      - [GitLab CI/CD course course outline](https://about.gitlab.com/services/education/gitlab-ci/)  
-      - [GitLab Agile Portfolio Management course outline](https://about.gitlab.com/services/education/pm/)  
-      - [GitLab Security Essentials course outline](https://about.gitlab.com/services/education/security-essentials/)  
-      - [GitLab System Administration course outline](https://about.gitlab.com/services/education/admin/)  
-      - [System Requirements](https://about.gitlab.com/services/education/prereq/)  
+1. During the training planning meeting, be sure to discuss and document all of the event logistics listed in the [Training Event Plan Template](https://docs.google.com/document/d/1huNauyfhFPvLCuo-9T7Ol3FtBDYowYxiP_T5ItP2FN4/edit?usp=sharing). The Project Coordinator will create a draft of the Training Event Plan prior to the meeting and update the document during the training planning meeting.
+   - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.
+      - [GitLab with Git Fundamentals course outline](https://about.gitlab.com/services/education/git-fundamentals/)
+      - [GitLab CI/CD course outline](https://about.gitlab.com/services/education/gitlab-ci/)
+      - [GitLab Agile Portfolio Management course outline](https://about.gitlab.com/services/education/pm/)
+      - [GitLab Security Essentials course outline](https://about.gitlab.com/services/education/security-essentials/)
+      - [GitLab System Administration course outline](https://about.gitlab.com/services/education/admin/)
+      - [System Requirements](https://about.gitlab.com/services/education/prereq/)
 
 1. The Project Coordinator will set up a Zoom Meeting or Webinar session for each session using [these set up instructions](/handbook/customer-success/professional-services-engineering/remote-training-session-setup/) and add the registration link(s) to the issue. You will receive an email message with your unique link to join the Zoom Meeting or Webinar session. Make sure to locate the Zoom information within the email message and familiarize yourself with the Zoom functionality. Here is a useful Zoom article for [Managing Attendees and Panelists in a Webinar](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-attendees-and-panelists-in-a-webinar). Depending on your Zoom set up, you may want to log into https://zoom.us, go to Join a Meeting, and enter the meeting ID/webinar ID to start the Zoom session.
 

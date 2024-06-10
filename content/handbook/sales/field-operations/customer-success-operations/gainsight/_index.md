@@ -152,7 +152,7 @@ Username and password are saved in Jeff Beaumont’s 1Password account. If you n
 
 ### Salesforce Connector
 
-`Connectors` is used as one of the main import methods of data from Salesforce to Gainsight, and is a native integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce instance. More information in regards to the connector and how to set it up in in the [Gainsight Knowledge Base](https://support.gainsight.com/Gainsight_NXT/01Onboarding_and_Implementation/Onboarding_for_Gainsight_NXT_in_Salesforce/Salesforce_Connector/Salesforce_Connector_Overview).
+`Connectors` is used as one of the main import methods of data from Salesforce to Gainsight, and is a native integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce instance. More information in regards to the connector and how to set it up in the [Gainsight Knowledge Base](https://support.gainsight.com/Gainsight_NXT/01Onboarding_and_Implementation/Onboarding_for_Gainsight_NXT_in_Salesforce/Salesforce_Connector/Salesforce_Connector_Overview).
 
 `Connectors` is used between our Salesforce and Gainsight instances to sync these objects:
 | Job Name               | SFDC Object           | Gainsight Object      |

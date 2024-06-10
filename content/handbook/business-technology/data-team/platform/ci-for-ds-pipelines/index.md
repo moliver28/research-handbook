@@ -1,16 +1,7 @@
 ---
-
 title: "Getting Started With CI/CD for Data Science Pipelines"
 description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -132,7 +123,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
      - Change `n_trials` to a new value between `10` and `20`.
      - For the commit message enter `train notebooks/training_example.ipynb`. This will tell the GitLab that you want to execute the training CI pipeline on the **training_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
 1. Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the training CI pipeline for the newly created MR.
-1. Click on "**Pipelines**" and you should see the training pipeline running. Click into the pipeline to see which which stage the pipeline is in.
+1. Click on "**Pipelines**" and you should see the training pipeline running. Click into the pipeline to see which stage the pipeline is in.
    - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Training Pipeline Jobs](training_pipeline_jobs.png)
 1. Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request).
    - <img src="model_metrics.png" width="700" alt="">
@@ -196,7 +187,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - Make a change to `notebooks/scoring_example.ipynb` so that we have something to commit. This could be as simple as adding a line to one of the cells.
    - For the commit message enter `score notebooks/scoring_example.ipynb`. This will tell the GitLab that you want to execute the `score-commit-activated`` CI pipeline on the **scoring_example.ipynb** notebook found in the notebooks directory. Commit the change.
    - Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the scoring CI pipeline for the newly created MR.
-   - Click on "**Pipelines**" and you should see the scoring pipeline running. Click into the pipeline to see which which stage the pipeline is in.
+   - Click on "**Pipelines**" and you should see the scoring pipeline running. Click into the pipeline to see which stage the pipeline is in.
    - **Note:** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Scoring Pipeline Jobs](scoring_pipeline_jobs.png)
    - Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request). This is the same process you would have seen during training, except it is now writting out descriptives about the scored dataset.
 1. We can also set the model to score at a defined time using Pipeline Schedules
@@ -218,4 +209,4 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 - We’ve setup our slack notifications so that notifications are sent to our #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
 - <img src="slack_notifications.png" width="700" alt="">
 
-**And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). If you you are experiencing any difficulty or if you have any suggestions to improve these pipelines, feel free to [open an issue with us](https://gitlab.com/gitlab-data/data-science-ci-example/-/issues/new). Happy pipelining!**
+**And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). If you are experiencing any difficulty or if you have any suggestions to improve these pipelines, feel free to [open an issue with us](https://gitlab.com/gitlab-data/data-science-ci-example/-/issues/new). Happy pipelining!**

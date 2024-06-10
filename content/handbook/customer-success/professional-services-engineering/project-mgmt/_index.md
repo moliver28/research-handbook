@@ -79,7 +79,7 @@ Kantata is our primary Resource Management software. From here the PMO team revi
 
 _Billable vs NonBillable information_, please refer to [Team Metrics](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/#team-metrics) page
 
-##### Reporting Project Health  
+##### Reporting Project Health
 
 The PMO team ensures our forecast & upside is updated by Monday, 11am EST, as the PS Ops team prepares the weekly reports per the PS Reporting schedule. The Top Customer is provided to the PM team by PS Ops by 12pm EST on Tuesdays, and the PM team is expected to update the notes (as outlined below) by The PS Reporting Schedule, Weekly Revenue Forecast Reports, and Kantata information pinned to the ps_PMO Slack channel
 
@@ -193,7 +193,7 @@ Project scope for Professional Services is the outline of the work required to d
          * If you feel the Project needs a CO (especially on FF projects)
 
       * Does not need a CO:
-         * If there is a change of project scope definitions within the SOW duration and budget, no change order is needed. The PM must get written confirmation with the Customer on the change of Scope definitions. This written confirmation must be screenshot & attached to the associated Project Epic.  
+         * If there is a change of project scope definitions within the SOW duration and budget, no change order is needed. The PM must get written confirmation with the Customer on the change of Scope definitions. This written confirmation must be screenshot & attached to the associated Project Epic.
          * For extensions less than 2 months past the SOW expiration, the PM should capture written confirmation (from email of Slack) and attach the Confirmation to the Epic.
 
    2. Work at Risk (WaR)
@@ -205,7 +205,7 @@ Project scope for Professional Services is the outline of the work required to d
 
    3. Work Exception (WE)
       * A Work Exception is used by a PM when seeking approval for a project to exceed the hours/budget originally allotted. Use the Work Exception issue template to gain approvals from PS leadership. It can be used independently or including a CO.
-      * Ensuring we include labels as a PM is crucial, as this is how we will better track and and improve our transition process from Sales to PS.
+      * Ensuring we include labels as a PM is crucial, as this is how we will better track and improve our transition process from Sales to PS.
 
       [Work Exception Report](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&or%5Blabel_name%5D%5B%5D=WE-product&or%5Blabel_name%5D%5B%5D=WE-ps&or%5Blabel_name%5D%5B%5D=WE-scoping&or%5Blabel_name%5D%5B%5D=WE-time&first_page_size=20) - callouts for reasonings behind additional PS effort without a CO request. This  includes Product challenges, scoping definition misalignment, insufficient PS hours, or other PS related items.
 
@@ -215,7 +215,7 @@ _to be updated_
 
    * Complete this [sign off workflow](/handbook/customer-success/professional-services-engineering/workflows/project_execution/sign-off.html)
    * Schedule [Project closure meeting](https://docs.google.com/document/d/1Cw5eLe8VKFtHG9xGqUiCua8Pbu52reMzHujcPWq3ofQ/edit?usp=sharing)
-   * Schedule [Project Retrospective](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit?usp=sharing)  
+   * Schedule [Project Retrospective](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit?usp=sharing)
    * Regional Manager to provide a closeout report including estimated hours, actual hours, deliverable documents, and lessons learned to broader team. Post this in [#ps-project-leadership](https://gitlab.slack.com/archives/GR4A7UJSF) and make sure to mention the Engagement Manager team `@em`
    * Request/capture CSAT responses from Customer
    * Close Project in Kantata

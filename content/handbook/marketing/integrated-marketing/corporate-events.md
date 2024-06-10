@@ -147,13 +147,13 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 
 If our sponsorship does include a speaking session, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in choosing a session topic into the issue.
 
-Once a session topic is chosen, the sponsored events manager will hand off to the ECM and content creation lead. The ECM will ensure that that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
+Once a session topic is chosen, the sponsored events manager will hand off to the ECM and content creation lead. The ECM will ensure that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
 
 #### If our sponsorship **does not include** speaking session
 
 If our sponsorship does not include a speaking session, the ECM will ensure that our Developer Advocate team has it on their radar via the [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/) to submit during the event’s open CFP.
 
-If a session is chosen by an event for a CFP that was submitted, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in creating the presentation into the issue. The sponsored events manager will hand off to the ECM and they will ensure that that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
+If a session is chosen by an event for a CFP that was submitted, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in creating the presentation into the issue. The sponsored events manager will hand off to the ECM and they will ensure:25 that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
 
 If the event we are sponsoring is not on the Developer Advocate team's radar to submit the CFP the ECM will start the conversation with the DE team via a comment on the [strategy issue](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/).
 

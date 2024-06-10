@@ -103,4 +103,4 @@ The purpose is to facilitate conversations on topics like continuous development
 Scheduled Sync Calls:
 
 - APAC: Every third Thursday of the month at 02:00 UTC
-- EMEA: Every first Wednesday of the month at at 11:00 UTC
+- EMEA: Every first Wednesday of the month at 11:00 UTC

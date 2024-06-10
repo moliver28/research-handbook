@@ -319,7 +319,7 @@ Board member onboarding from a GitLab orientation perspective:
 
 #### CLO DRI
 
-New Director will be be provided with:
+New Director will be provided with:
 
 1. Links to relevant Handbook pages, including:
 

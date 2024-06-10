@@ -16,7 +16,7 @@ In this lab, you will learn how to scan for vulnerabilities in your project depe
 
 Before beginning this lab and all later labs, you should disable any scanners that you enabled in previous labs to speed up pipeline runtime.
 
-1. Open your browser to to the **Security Labs** project that you created in Lab 1.
+1. Open your browser to the **Security Labs** project that you created in Lab 1.
 
     > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL and the group should appear in your history.
 

@@ -81,7 +81,7 @@ Team members can complete a [Expression of Wish Form](https://drive.google.com/f
 
 All full-time GitLab team members are eligible for disability cover in the amount of 66% of base salary less social welfare to age 65 (after 13 weeks deferred period). This benefit is administered through Aviva.
 
-Please find the the following documentation to assist you with the disability claim, and notify Total-Rewards@gitlab.com should you need to file a claim.
+Please find the following documentation to assist you with the disability claim, and notify Total-Rewards@gitlab.com should you need to file a claim.
 
 - [Group Income Protection Claim Form](https://drive.google.com/file/d/1pHwaBoc0raokcgVsInJeE6QqhVa22XtF/view?usp=sharing)
 - [Early Intervention and Claim Expertise Flyer](https://drive.google.com/file/d/1ESvfiqTa6Gw3OsvMvgXrykgUZA80QImn/view?usp=sharing)

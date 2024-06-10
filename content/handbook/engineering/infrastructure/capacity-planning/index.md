@@ -221,9 +221,9 @@ While capacity planning for GitLab.com is a shared activity, capacity planning f
 
 1. The Dedicated team is responsible for defining saturation metrics Tamland monitors, and to configure tenants for capacity planning.
 1. The Dedicated team runs Tamland inside tenant environments and produces saturation forecasting data.
-1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) team owns the reporting side of capacity planning and makes sure reports and warnings are available.
+1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) owns the reporting side of capacity planning and makes sure reports and warnings are available.
 1. The Dedicated team is responsible for triaging and responding to the forecasts and warnings generated, and applying any insights to Dedicated tenant environments.
-1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) team implements new features and fixes for Tamland to aid the capacity planning process for GitLab Dedicated.
+1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) implements new features and fixes for Tamland to aid the capacity planning process for GitLab Dedicated.
 
 ### Defining saturation metrics and tenants
 

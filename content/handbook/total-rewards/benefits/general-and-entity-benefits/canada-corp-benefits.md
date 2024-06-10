@@ -374,7 +374,7 @@ To initiate leave, and ensure that statutory entitlements are properly tracked, 
 
 **Organ Donor Leave** *Team members who have been employed with GitLab for at least 13 weeks*
 
-- Up to to 13 weeks of [organ donor leave](https://www.ontario.ca/document/your-guide-employment-standards-act-0/organ-donor-leave) for the purpose of undergoing surgery to donate all or part of certain organs to a person.
+- Up to 13 weeks of [organ donor leave](https://www.ontario.ca/document/your-guide-employment-standards-act-0/organ-donor-leave) for the purpose of undergoing surgery to donate all or part of certain organs to a person.
 - This leave may be extended an additional 13 weeks for a maximum of 26 weeks.
 - Team Members should select `Out Sick` in Time Off by Deel.
 

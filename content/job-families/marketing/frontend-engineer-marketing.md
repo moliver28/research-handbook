@@ -36,7 +36,7 @@ Frontend Engineers on the Marketing team work on our marketing site: about.GitLa
 
 ### Frontend Engineer (Intermediate)
 
-The Frontend Engineer (Intermediate) reports the the [Director, Digital Experience](/job-families/marketing/digital-experience/#director-of-digital-experience).
+The Frontend Engineer (Intermediate) reports to the [Director, Digital Experience](/job-families/marketing/digital-experience/#director-of-digital-experience).
 
 #### Frontend Engineer (Intermediate) Job Grade
 
@@ -105,7 +105,7 @@ The Staff Frontend Engineer is a [grade 8](/handbook/total-rewards/compensation/
 
 ### Manager, Engineering
 
-The Manager, Engineering reports the the [Director, Digital Experience](/job-families/marketing/digital-experience/#director-of-digital-experience).
+The Manager, Engineering reports to the [Director, Digital Experience](/job-families/marketing/digital-experience/#director-of-digital-experience).
 
 #### Manager, Engineering Job Grade
 

@@ -253,7 +253,7 @@ Merging while `master` is broken can only be done for:
 
 #### How to request a merge during a broken `master`
 
-First, ensure the latest pipeline has completed less than 2 hours ago (although it is likely to have have failed due to
+First, ensure the latest pipeline has completed less than 2 hours ago (although it is likely to have failed due to
 `gitlab-org/gitlab` using
 [merged results pipelines](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html)).
 
@@ -640,7 +640,7 @@ UI polish issues are visual improvements to the existing user interface, touchin
 - **Aesthetic improvements** ([example](https://gitlab.com/gitlab-org/gitlab/-/issues/290262)): removing unnecessary borders from a UI, updating the background color of an element, fixing the font size of a heading element.
 - **Misalignment of text, buttons, etc** ([example](https://gitlab.com/gitlab-org/gitlab/-/issues/280538)): although because many times something isn't broken, these improvements are considered UI polish. These could also be considered a bug.
 - **Incorrect spacing between UI elements** ([example](https://gitlab.com/gitlab-org/gitlab/-/issues/7905)): when two interface elements are using inconsistent spacing values, such as 10px instead of 8px. It could also be considered technical debt. Note that if two interface elements have zero space between them, its an obvious bug.
-- **Visual inconsistencies across different product areas** ([example](https://gitlab.com/gitlab-org/gitlab/-/issues/296948)): visual inconsistencies could occur when we have have a series of buttons on a particular view. For example, when 3/4 of them have been migrated to use the Pajamas component, and 1/4 of them are still using a deprecated button, resulting in a visual inconsistency. This is considered a UI polish.
+- **Visual inconsistencies across different product areas** ([example](https://gitlab.com/gitlab-org/gitlab/-/issues/296948)): visual inconsistencies could occur when we have a series of buttons on a particular view. For example, when 3/4 of them have been migrated to use the Pajamas component, and 1/4 of them are still using a deprecated button, resulting in a visual inconsistency. This is considered a UI polish.
 
 ### What is not UI polish
 

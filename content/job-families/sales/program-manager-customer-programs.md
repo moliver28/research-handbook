@@ -145,7 +145,7 @@ The Senior Manager, Digital CS is a [grade 9](/handbook/total-rewards/compensati
 
 ### Digital CS
 
-Digital CS Program Managers focuse on enabling the onboarding-only and digital customer segments. They support and enable our digital only (email, surveys, etc) segment of customers and are are responsible for increasing stickiness and customer satisfaction of this segment along with the other members of the [Customer Success team](/handbook/customer-success/).
+Digital CS Program Managers focuse on enabling the onboarding-only and digital customer segments. They support and enable our digital only (email, surveys, etc) segment of customers and are responsible for increasing stickiness and customer satisfaction of this segment along with the other members of the [Customer Success team](/handbook/customer-success/).
 
 - Extends responsibilities of the Program Manager, Senior, or Staff level
 - Drive collaboration with webinars, Education Services, surveys, and other means for a fully integrated customer experience

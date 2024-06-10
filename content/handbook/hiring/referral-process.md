@@ -19,8 +19,8 @@ For process instructions regarding referrals, please visit the [Referral Operati
 
 - The candidate's full name.
 - The role.
-- Please provide a description of how you know the candidate and why they are aligned with the role with GitLab.  
-  
+- Please provide a description of how you know the candidate and why they are aligned with the role with GitLab.
+
 Ensure you inform the person that you are endorsing them and that they allow you to do so.
 
 **Sourcing** - Proactively sourcing candidates and adding them to Greenhouse. These candidates are not referrals as you cannot personally vouch for their work or alignment to our values.
@@ -102,7 +102,7 @@ To see what positions are available to submit an external candidate for please v
 **Things to note:**
 
 - A referral must be submitted to a **specific requisition** - general referrals are **not** accepted.
-- If you see `CURRENT TEAM MEMBERS ONLY -` before a requisition, please note that that requisition is for **Internal Team Members only**; please do **not** submit a referral.
+- If you see `CURRENT TEAM MEMBERS ONLY -` before a requisition, please note that the requisition is for **Internal Team Members only**; please do **not** submit a referral.
 - Please keep in mind that it is up to the Recruiter and/or Hiring Manager's discretion to move forward with your referral once submitted, based on skill/experience alignment to their role.
 
 #### Referral Statuses

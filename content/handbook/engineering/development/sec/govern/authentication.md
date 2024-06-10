@@ -28,7 +28,7 @@ Our detailed priority list can be found at the [direction page](https://about.gi
 
 As a result of the above roadmap items, we aim to driver the following outcomes for our customers:
 
-- By supporting Cells work, customers should experience improved reliability and compartmentalization of disruptions on GitLab.com  
+- By supporting Cells work, customers should experience improved reliability and compartmentalization of disruptions on GitLab.com
 - Expanding Service accounts will reduce the human touch points around credentials setup for automation use cases, bolstering customer's security posture and efficiency when using GitLab. At the same time, new Service account UI will allow them to easily setup, manage and revoke these higher privilege accounts providing better transparency and audit-ability. Combined with token management enhancements, customers will be able to confidently manage, enforce and mitigate access token related risks.
 - Additional Enterprise user admin controls will result in reduced workload and improved security policy management for organizations while migration of Credential Inventory to SaaS will provide all administrators better visibility and control around credentials in use.
 - We aim to improve and unify user provisioning setup for customers by expanding SCIM group sync support such that they don't need to rely on both SAML and SCIM for user provisioning and access management.
@@ -167,7 +167,7 @@ With keeping the above in mind, some areas to consider when estimating are:
 - Impact on unit, feature and QA testing. Sometimes an apparently small modification in the code can lead to many changes in the tests.
 - Is there a hidden inter-dependency between the frontend and backend that needs to be agreed upon?
 - Are there data persistence requirements e.g in browser, redis or database?
-- How would this feature/bug-fix be deployed and is there complexity in managing the the rollout?
+- How would this feature/bug-fix be deployed and is there complexity in managing the rollout?
 - Does this work require collaboration across teams? e.g security
 
 #### During a release
@@ -189,7 +189,7 @@ For work items that span greater than 1 week or are high priority deliverables (
 
 ##### Verification
 
-The issue verification step is optional starting starting 16.4 and will be required in 16.6. It should be done by someone else other than the MR author. Verification decreases the risk of defects getting into production and a different perspective to cover more test cases.
+The issue verification step is optional starting 16.4 and will be required in 16.6. It should be done by someone else other than the MR author. Verification decreases the risk of defects getting into production and a different perspective to cover more test cases.
 
 - All MRs should have verification steps in the description. In the case where multiple MRs are created for an issue, the engineer who is assigned to the issue should add complete verification steps in the issue description or as a reply to the triage bot's comment.
 - When an engineer has merged their work, they should move their issue into the verification status, indicated by the ~workflow:verification label and wait until they receive notification that their work has been deployed on staging via the release issue email.

@@ -1,13 +1,6 @@
 ---
-
 title: Product Division OKRs
 ---
-
-
-
-
-
-
 
 {{% include "includes/product-handbook-links.md" %}}
 
@@ -59,7 +52,7 @@ This page provides an overview of the Product Division OKR workflow. All departm
 
 - Prior to the start of each quarter, shared product KR owners should lead and align on a plan for the [Product Group](/handbook/product/product-processes/#quad--infra--security-product-group-dris) to accomplish their KRs.
 - For guidance on how to structure and score OKRs, refer to the Scoring OKRs section on the GitLab OKRs page (/company/okrs/#scoring-okrs).
-- At the end of each quarter the OKR owner will do a final scoring of the OKRs. If the OKR shifted from the original OKR, always score the the latest agreed to KRs that are still valid.
+- At the end of each quarter the OKR owner will do a final scoring of the OKRs. If the OKR shifted from the original OKR, always score the latest agreed to KRs that are still valid.
 
 ### Sharing OKR completion at the end of the quarter
 

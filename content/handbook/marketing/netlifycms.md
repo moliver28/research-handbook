@@ -186,7 +186,7 @@ Every two weeks, we create a Netlify CMS learning resource video. In the video, 
 
 ## Report an issue
 
-If you experience an issue or bug using the system, submit an issue! GitLab's marketing website (about.gitlab.com) is led by the Inbound Marketing Team and anyone can contribute. Please visit the [the Inbound Marketing handbook](/handbook/marketing/inbound-marketing/#requesting-support) to submit a support issue and make merge requests.
+If you experience an issue or bug using the system, submit an issue! GitLab's marketing website (about.gitlab.com) is led by the Inbound Marketing Team and anyone can contribute. Please visit the [Inbound Marketing handbook](/handbook/marketing/inbound-marketing/#requesting-support) to submit a support issue and make merge requests.
 
 ### Known issues in Netlify CMS
 

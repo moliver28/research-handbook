@@ -30,7 +30,7 @@ By looking at the Adoption scores, the CSM will gain an understanding of the cus
 
 The first step in the process of building a Use Case adoption score starts with identifying Lighthouse metrics that can gauge a customer’s level of performance and adoption for a given use case. To capture the breadth of use case adoption, we rely on Leading Indicators that capture weekly/monthly usage of key features within a use case to accurately measure the maturity of a customer's adoption.
 
-Product Management, Data, and Customer Success teams play a big role in identifying use case adoption specific metrics. Product Marketing works with Product Managers to identify Adoption Recommendations for each use case which can be viewed on the the respective Use Case Resource Pages. After identifying key metrics, the respective Product team taken on the responsibility of instrumenting said metrics (if they do not exist already), after which we move on to identifying a denominator to normalize the metric (i.e. `Git Operations - User L28D` / by `Billable Users` = `Git Operation Utilization %`).
+Product Management, Data, and Customer Success teams play a big role in identifying use case adoption specific metrics. Product Marketing works with Product Managers to identify Adoption Recommendations for each use case which can be viewed on the respective Use Case Resource Pages. After identifying key metrics, the respective Product team taken on the responsibility of instrumenting said metrics (if they do not exist already), after which we move on to identifying a denominator to normalize the metric (i.e. `Git Operations - User L28D` / by `Billable Users` = `Git Operation Utilization %`).
 
 <details>
   <summary markdown="span"> Use Case Resource Pages </summary>

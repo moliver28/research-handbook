@@ -742,6 +742,6 @@ The PathFactory Google Chrome Extension will only de-anonymize users who view co
 ### How Access Protection Works
 
 1. When someone tries to access the content track, they will be prompted to enter their email address.
-1. When they submit an email address address which is in the group, they will get the confirmation message and will need to navigate to their email inbox where they will find an email from support (`support@pathfactory.com`) with the link to access the content track.
+1. When they submit an email address which is in the group, they will get the confirmation message and will need to navigate to their email inbox where they will find an email from support (`support@pathfactory.com`) with the link to access the content track.
 1. The visitor must click this link to validate that they are the owner of the email address. Once they click the link in the email they will gain access to the content track.
 1. If they enter an email address that is not in the access protection group(s) you've selected, they will get the warning message you set in the configuration and will have the ability to try again.

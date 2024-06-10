@@ -119,7 +119,7 @@ It is advisable to manually trigger the `Package and QA` downstream [E2E](https:
 To manually trigger the QA job:
 
 1. Navigate to the pipelines tab of the MR.
-1. Click the the `>` arrow on the right of the `Stages` and click the `package-and-qa` item.
+1. Click the `>` arrow on the right of the `Stages` and click the `package-and-qa` item.
 
 It's advisable to run the QA job on the latest pipeline at least once during the MR review cycle.
 

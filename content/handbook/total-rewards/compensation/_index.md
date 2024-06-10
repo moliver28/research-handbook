@@ -181,7 +181,7 @@ The process for tracking interim/acting roles in both cases is as follows:
     - Whether the role is in a new job family or the same job family
     - Whether the interim/acting role is lateral or a higher level
     - The effective start date of the interim/acting period
-1. *(for interim)* People Business Partner will submit a [Job Change - Change Job Details](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit?usp=sharing) request in Workday. Job title should not be changed, as compensation and job family are not altered as part of the interim/acting process. Only a modification to  to the team member's `Business Title` is required. This step is only done for interim positions as acting positions are not tracked in Workday, but exclusively on the spreadsheet.
+1. *(for interim)* People Business Partner will submit a [Job Change - Change Job Details](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit?usp=sharing) request in Workday. Job title should not be changed, as compensation and job family are not altered as part of the interim/acting process. Only a modification to the team member's `Business Title` is required. This step is only done for interim positions as acting positions are not tracked in Workday, but exclusively on the spreadsheet.
 1. People Connect will either, 1) confirm that the interim/acting period has been added to the [Acting/Interim Tracker](https://docs.google.com/spreadsheets/d/1Uoz0frqDYEDINeodeeKBGMFVzdTuoe4x63LpHxU9WMo/edit#gid=0), or 2) confirm that the job title has been added to Workday.
 
 #### Submitting

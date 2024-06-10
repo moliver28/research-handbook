@@ -80,7 +80,7 @@ are likely to need to adjust **many** view files due to positioning.
 #### Updating an existing view
 
 Updating an existing view is considerably easier than creating a new one. Simply
-change change the code in the source project and it will occur via the sync
+change the code in the source project and it will occur via the sync
 repo.
 
 The one caveat you need to consider is when you are changing a view to allow for

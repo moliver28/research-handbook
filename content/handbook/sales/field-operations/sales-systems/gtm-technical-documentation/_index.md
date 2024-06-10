@@ -523,7 +523,7 @@ Once this is complete, a validation rule will prohibit anyone other than the abo
 
 **Overview:**
 
-- Currently the process that stamps Channel Managers on on Opportunity records is being updated more details are coming soon
+- Currently the process that stamps Channel Managers on Opportunity records is being updated more details are coming soon
 
 **Logic Locations:**
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Configuring GitLab with group-level Kubernetes cluster"
 description: “How to configure GitLab with your Google Kubernetes cluster”
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -47,7 +40,7 @@ For additional assistance with accessing your GCP project, see the [GitLab Sandb
 
    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-19.png"  style="width: 50%" alt=""/>
 
-6. On the *Kubernetes clusters* page, click on **ENABLE** to initialize the Google API service. *This action might take take a few moments.*
+6. On the *Kubernetes clusters* page, click on **ENABLE** to initialize the Google API service. *This action might take a few moments.*
 
    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-20.png"  style="width: 75%" alt=""/>
 

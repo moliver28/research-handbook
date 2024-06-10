@@ -315,7 +315,7 @@ The dashboard will now display the top actively working accounts in your name. D
 
 Navigate to 6Sense through Okta
 On the left-hand bar, click on the Segments tab
-You will find all of the relevant resources for BDRs and SDRs on the first 5 folders. These folders can be be used as per the table below.
+You will find all of the relevant resources for BDRs and SDRs on the first 5 folders. These folders can be used as per the table below.
 (In each folder you will find a saved template that can be cloned and edited for your individual territories.)
 
 | Folder                       | Usage                                                                                                                                                                       |

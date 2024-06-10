@@ -295,7 +295,7 @@ If you need assistance with Sales Systems follow the next steps:
 2. If Mops member can create a changeset, please do so shortly after creating the issue to decrease time to deploy,
 3. Add [prioritization label](/handbook/marketing/marketing-operations/#labeling) of `MktgOpsPrio::00: Requested`
 4. Business process owner (Amy or Christine) will review, and if they approve of the request from a business standpoint, they will check the appropriate box and add the `MktgOpsPrio::01: Approved` label. If not, the request will stay in `MktgOpsPrio::00: Requested` status until blockers or outstanding questions are resolved.
-5. Once approved, requests will be added to the prioritization queue by the business proess owner to review with with Sales Systems or the PMO and labeled `MktgOpsPrio::02: In Queue - Mops`
+5. Once approved, requests will be added to the prioritization queue by the business proess owner to review with Sales Systems or the PMO and labeled `MktgOpsPrio::02: In Queue - Mops`
 6. Once Systems or PMO has agreed to take on work, the request will be added to a `Temp` holding milestone for further prioritization, and labeled `MktgOpsPrio::03: In Queue - Systems`
 7. Once a milestone is added and the issue is discussed, the label will be updated to `MktgOpsPrio::04: Actioned` by the MktgOps representative that is in the prioritization call.
     - Once the label has been updated to `MktgOpsPrio::04: Actioned`, follow along with the Sales Systems labels for next steps.

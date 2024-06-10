@@ -4,7 +4,7 @@ title: GitLab Password Guidelines
 <!-- markdownlint-disable MD051 -->
 ## Passwords at GitLab
 
-Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard]({{< ref "password-standard" >}}) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
+Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard](password-standard.md) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
 The password standard sets the requirements for constructing secure passwords and ensuring proper password management. GitLab utilizes 1Password for password management.
 
 ## 1Password
@@ -67,7 +67,7 @@ have saved in 1Password Teams, so users can take action. This is not something
 account administrators can review for team members, so it is up to you to enable!
 Enable Watchtower by going to your 1Password app and then to **Preferences > Watchtower**.
 1. Use the ["Security Audit"](https://i.agilebits.com/dt/Blank_Skitch_Document_18FB0234.png)
-functionality of 1Password to meet the [password standard]({{< ref "password-standard" >}}).
+functionality of 1Password to meet the [password standard](password-standard.md).
 It will report reused passwords, weak passwords, accounts that
 are missing 2-factor authorization, and so forth that can then be fixed.
 1. Do not copy passwords from inside a 1Password vault to a personal password
@@ -263,7 +263,7 @@ op run --env-file=$HOME/.gitlab-pat.env -- glab api version
 Where the process is interactive or has dynamic output (progress bars, etc) you may need to disable masking to make the display work correctly. You can do this by adding `--no-masking`
 
 Manually adding `op run` every time for common tasks is cumbersome, so check out
-the [tools and tips]({{< ref "../tools-and-tips/onepassword-cli" >}}) section for more more user-friendly configurations.
+the [tools and tips](../tools-and-tips/onepassword-cli.md) section for more user-friendly configurations.
 
 ### Several accounts and unlocking the app
 
@@ -287,7 +287,7 @@ which you can share with up to 5 family members.
 
 ### Two factor authentication and time-based one time passwords
 
-As stated in the [GitLab Password Standards]({{< ref "password-standard" >}}), the usage of 2FA is mandatory for all GitLab team members. **Users without 2FA enabled that are stale for over 30 days will be blocked/suspended until resolved. This improves the security posture for both the user and GitLab.** If any systems provide an option to use SMS text as a second factor, this is highly discouraged. Phone company security can be easily subverted by attackers allowing them to take over a phone account.
+As stated in the [GitLab Password Standards](password-standard.md), the usage of 2FA is mandatory for all GitLab team members. **Users without 2FA enabled that are stale for over 30 days will be blocked/suspended until resolved. This improves the security posture for both the user and GitLab.** If any systems provide an option to use SMS text as a second factor, this is highly discouraged. Phone company security can be easily subverted by attackers allowing them to take over a phone account.
 
 Okta is configured such that it only supports the use of WebAuthn. 1Password TOTP should only be used when WebAuthn is unavailable.
 
@@ -338,7 +338,7 @@ If unsure which mechanism to use, we require using WebAuthn (when possible) as a
 
 Follow this [guideline](https://gizmodo.com/how-to-easily-switch-your-two-factor-security-to-a-new-1821808681) when getting a new mobile device, if you are using Google Authenticator as a TOTP mechanism.
 
-There may be cases where TOTP might be used with a non-GitLab account. If you have any questions and need to speak with the Security Team, you can contact [Security]({{< ref "_index.md#-contacting-the-team" >}})
+There may be cases where TOTP might be used with a non-GitLab account. If you have any questions and need to speak with the Security Team, you can contact [Security](_index.md#-contacting-the-team)
 
 ### Passkeys
 

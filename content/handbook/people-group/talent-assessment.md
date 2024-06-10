@@ -470,7 +470,7 @@ The script below is intended to help you structure your Performance and Growth P
 
 If a team member was identified as **key talent**, please ensure to communicate to the team member during the talent assessment conversation.
 
-I'd like to thank you for your hard work as, and I look forward to continuing to work together! Do you you have any questions? ***[Allow team member to ask questions and respond]***
+I'd like to thank you for your hard work as, and I look forward to continuing to work together! Do you have any questions? ***[Allow team member to ask questions and respond]***
 As a next step, let's schedule some time to talk more about what you want to do in the future and create a career development plan together OR let's talk about how this feedback should be incorporated into your Individual Growth Plan.
 
 ### Sample Next Steps

@@ -131,7 +131,7 @@ All our welcome to participate in the process of identifying trends.  EOCs, espe
 1. Week 2: Reply to the announcement thread and solicit additional feedback.
 1. Week 2: Review the agenda and respond to any questions or comments
 1. Week 3: Review the `Identified Trends` section of the agenda and coordinate the creation of any required Corrective Actions, Infradev Issues, or Infrastructure Improvement Issues.
-1. Week 4: Reply to the announcement thread that the the process is coming to a close
+1. Week 4: Reply to the announcement thread that the process is coming to a close
 1. Week 4: Add an item to the [Reliability Leadership Sync Agenda](https://docs.google.com/document/d/1K-od3_I1TsMcyLag-KyUw-iuCAaaqjR0GIbrmBwVU4M/edit#) and include a summary of action items created.  Please include severity for each item.
 1. Week 4: Send a final reply to the announcement thread indicating that the process is closed for the month.
 

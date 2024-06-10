@@ -306,7 +306,7 @@ These will be completed by Marketing Ops when setting up the landing page.
 
 **DRI: FMC**
 
-  - Activate the `00 Interesting Moments` smart campaign campaign by going to the `schedule` tab and selecting `activate`.
+  - Activate the `00 Interesting Moments` smart campaign by going to the `schedule` tab and selecting `activate`.
   - Activate the `01a Registration Flow (single timeslot)` smart campaign by going to the `schedule` tab and selecting `activate`.
 
 ### Step 3.C: Create the Landing Page

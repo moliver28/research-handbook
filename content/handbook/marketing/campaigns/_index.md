@@ -222,7 +222,7 @@ The below global integrated campaigns are continally optimized by the Marketing 
 - [WIP:FY24 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460#memo-campaign-brief)
 - [FY24 Campaign Core Team Members](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460#busts_in_silhouette-campaign-core-team)
 - [FY23 DevOps Platform Campaign Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858)
-- [FY23 DevOps Platform Campaign Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858#memo-campaign-brief)
+- [FY23 DevOps Platform Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858#memo-campaign-brief)
 
 ### 🚀 Security & Compliance Campaign
 

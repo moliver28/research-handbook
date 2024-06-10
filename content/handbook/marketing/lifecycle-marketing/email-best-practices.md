@@ -1,16 +1,10 @@
 ---
-
 title: Email Best Practices
 description: An overview of GitLab's email best practices.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -29,7 +23,7 @@ This page focuses on email best practices and their implementation at GitLab. Yo
 * Ask yourself "why would I open this email"? - include the **value proposition**
 * Keep it short and sweet - only include that is absolutely necessary
 * Try 28 to 39 characters - studies suggest this is a "sweet spot" but that is always debatable and testable
-* Front-load - put information information **first**
+* Front-load - put important information **first**
 * Be specific - emphasize what the reader "gets" out of reading this email
 * Test when you can!
 * Chad White, email marketing strategist and book author created the **CUE-DIVE method**:

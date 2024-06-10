@@ -304,7 +304,7 @@ In order to get `Q&A`, `poll` and `survey` data into Marketo from On24, a list u
 1. Once in the webinar `Report` area, there is a spreadsheet download button next to the `Dashboards` page header. It looks like a downward arrow.
 1. [Here is the link to the On24 list upload template](https://docs.google.com/spreadsheets/d/14tzunNba-2NhRLfuHESW8RPInMKUV69mFkXtbcwCNKg/edit#gid=0). Similar to the regular list upload spreadsheet, `do not make changes to the orignal spreadsheet. Make a duplicate of the spreadsheet to be used specifically for your upload.`
 1. Only upload the data shown in the spreadsheet column headers. Pick and choose from the exported On24 spreadsheet what notes you want uploaded and add them to their appropriate columns on the freshly duplicated `On24 Notes Upload Doc`. It is okay if some of the columns are left blank.
-    - `On24 Note Upload Activate` should should be filled in with `True`.
+    - `On24 Note Upload Activate` should be filled in with `True`.
     - The Marketo Program Name must match 1:1 with what is in Marketo.
     - For every poll or survey answer uploaded, be sure to include the question asked.
 1. To start, these will be treated the same as manual list uploads to be completed by MktgOps. Please follow the regular process of sharing the spreadsheet with MktgOps to have them upload via a list upload issue. Soon this will be moved to more of a drag-and-drop process, similar to the [self-service list import process](/handbook/marketing/marketing-operations/automated-list-import/). This page will be updated when that is ready.

@@ -84,7 +84,7 @@ In the issue template, three asterisks are considered a "non-standard" configura
 {: .alert .alert-warning}
 
 1. `Rate Plan Name`
-    - This is the customer facing name of the SKU. The `Rate Plan Name` should be be in the format of `Deployment type - Name`. Some examples:
+    - This is the customer facing name of the SKU. The `Rate Plan Name` should be in the format of `Deployment type - Name`. Some examples:
    1. `Self Managed - Ultimate`
    1. `SaaS - Ultimate`
    1. `Dedicated - Ultimate`

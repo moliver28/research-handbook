@@ -266,7 +266,7 @@ Quality Engineering will do the following in order to identify the issues to be 
 Quality Engineering will track productivity, metric and process automation improvement work items
 in the [Development-Quality](https://gitlab.com/groups/gitlab-org/-/boards/1262515) board to service the [Development](/handbook/engineering/development/) department.
 Requirements and requests are to be created with the label `~dev-quality`. The head of both departments will review and refine the board on an on-going basis.
-Issues will be assigned and worked on by an Engineer in the [Engineering Productivity team](engineering-productivity) team and [communicated broadly](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#communicate-early-and-broadly-about-expected-automation-impact) when each work item is completed.
+Issues will be assigned and worked on by an Engineer in the [Engineering Productivity team](engineering-productivity) and [communicated broadly](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#communicate-early-and-broadly-about-expected-automation-impact) when each work item is completed.
 
 ### Release process overview
 

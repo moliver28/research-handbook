@@ -151,7 +151,7 @@ dbt test --select my_model # run custom tests on my_model
 
 Once you are running dbt, linting a model can be done with a single command. Please read the
 [SQLFluff section of the SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide/#sqlfluff)
-for instructions on how to install SQLFluff on your local machine and more more details about
+for instructions on how to install SQLFluff on your local machine and more details about
 the linter settings. When you run the linter, the results will be printed in your terminal.
 
 You can also leverage the `fix` command to have the linter apply fixes to rule violations

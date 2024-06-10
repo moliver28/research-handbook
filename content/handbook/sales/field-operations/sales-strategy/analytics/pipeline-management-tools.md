@@ -159,7 +159,7 @@ Please refer to Permission Handling section below
   - If you are looking for insights related to current (and upcoming future quarters) and you want to know if your team (or globally) is on the right trajectory for achieving the target, you can leverage the “Pipeline X-Ray: Current & Next Quarters Overview” dashboard. After checking specific region/ order type, you might be interested in more granular detail and move on to the "SAE Heatmap" to check metrics per each SAE.
   - If you would like to see metrics development for a longer timeframe (across multiple years and quarters) for various segments (Sales Segment, Order Type, Geo etc), you can check out the “Pipeline Velocity & Generation” dashboard.
 
-- **Are there any SFDC reports that I can refer to to cross-check numbers?** <br>
+- **Are there any SFDC reports that I can refer to, to cross-check numbers?** <br>
 Please have a look at `Readme` tab in Pipeline X-Ray tool for links for the related SFDC reports
 
 - **Why do some charts have negative (-) days in the X axis?** <br>

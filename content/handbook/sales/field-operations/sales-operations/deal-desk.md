@@ -135,7 +135,7 @@ In case of a specific opportunity or quote related question please use SF Chatte
 
 ##### Slack Announcements
 
-Desk Desk process updates and announcements will be communicated via #field-fyi, #sales and #sales-support Slack channels.
+Deal Desk process updates and announcements will be communicated via #field-fyi, #sales and #sales-support Slack channels.
 
 #### Deal Desk Office Hours
 

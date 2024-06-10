@@ -27,7 +27,7 @@ The Secure team works on GitLab's [Secure stage].
 
 {{< team-by-manager-slug manager="thomaswoodham" team="Manager(.*)Secure" >}}
 
-To contact Secure stage development people leaders leaders use the following aliases:
+To contact Secure stage development people leaders, use the following aliases:
 
 * GitLab: `@gitlab-org/secure/managers`
 * Slack: `@s_secure_managers`

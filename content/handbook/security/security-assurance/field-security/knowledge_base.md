@@ -34,7 +34,7 @@ Of course, everyone can always query the Knowledge Base regardless of their acce
 
 ## Maintenance and Improvements
 
-The knowledge base is a living library that is continuously being updated and expanded. As Field Security completes questionnaires, the the knowledge base libraries are updated with current and accurate answers. Field Security updates the structure and tagging within the knowledge base in an ad-hoc manner to ensure The knowledge base remains an easy to navigate and effective self-service tool for all team members.
+The knowledge base is a living library that is continuously being updated and expanded. As Field Security completes questionnaires, the  base libraries are updated with current and accurate answers. Field Security updates the structure and tagging within the knowledge base in an ad-hoc manner to ensure The knowledge base remains an easy to navigate and effective self-service tool for all team members.
 
 If you have suggestions for improvements, please reach out to Field Security via any of the contact methods listed below.
 

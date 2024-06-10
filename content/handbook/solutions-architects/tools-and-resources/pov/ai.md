@@ -238,7 +238,7 @@ highlights the importance of the developer’s role and skill: review, adjust, u
   > The name GitLab Duo is rooted in You + GitLab AI = the AI dynamic duo.
 - Be mindful that some companies or individuals might have a pre-existing bias against Gen-AI. Some might even see any Gen-AI effort as dangerous, or as a way to replace human workers. If this is the case
   - try to understand why
-  - consider giving a presentation to popularize Gen-AI to explain how how it works, and explore its strengths and limitations. This could go a long way towards putting it under a more favorable light.
+  - consider giving a presentation to popularize Gen-AI to explain how it works, and explore its strengths and limitations. This could go a long way towards putting it under a more favorable light.
   - Convey the message that any Gen-AI suggestion is only useful if used in the right context, reviewed, and adjusted as needed by an expert.
   > GitLab Duo is a customer-centric approach focused on privacy first, where customers know their intellectual property is secured.
 

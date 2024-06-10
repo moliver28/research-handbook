@@ -1,6 +1,6 @@
 ## TD: Campaign Performance Dashboard
 
-The [TD: Campaign Performance](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/Overview?:iid=4) dashboard is is the source of truth dashboard for marketing campaign performance. It is based on [Marketo Measure (Bizible)](/handbook/marketing/marketing-operations/bizible/) Touchpoints, where each Touchpoint represents a form submitted to a GitLab Marketing website from a person. TD: Campaign Performance (TDP) is based on MS&A's Lead to Revenue model that combines Touchpoints, persons, and Opportunities, allowing TDP to create a single pane of glass view from Inquiry to closed won SAO.
+The [TD: Campaign Performance](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/Overview?:iid=4) dashboard is the source of truth dashboard for marketing campaign performance. It is based on [Marketo Measure (Bizible)](/handbook/marketing/marketing-operations/bizible/) Touchpoints, where each Touchpoint represents a form submitted to a GitLab Marketing website from a person. TD: Campaign Performance (TDP) is based on MS&A's Lead to Revenue model that combines Touchpoints, persons, and Opportunities, allowing TDP to create a single pane of glass view from Inquiry to closed won SAO.
 
 ## Cohorting
 

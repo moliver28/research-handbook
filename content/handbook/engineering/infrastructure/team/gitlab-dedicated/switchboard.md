@@ -4,7 +4,7 @@ title: Switchboard team
 
 ## Summary
 
-Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/). Our mission is to empower external GitLab Dedicated customers to manage their tenant environments and reduce the operational overhead on the Environment Automation team so we can scale up the GitLab Dedicated offering. We follow the same processes as listed on the [the Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/), unless a difference exists which is explicitly noted on this page.
+Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/). Our mission is to empower external GitLab Dedicated customers to manage their tenant environments and reduce the operational overhead on the Environment Automation team so we can scale up the GitLab Dedicated offering. We follow the same processes as listed on the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/), unless a difference exists which is explicitly noted on this page.
 
 ### Resources
 

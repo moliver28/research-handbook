@@ -51,7 +51,7 @@ The content in this section is typically updated at least 1 month after each rel
 - GitLab PM Workshop
     - [Slides](https://drive.google.com/drive/folders/1Hi8aeh2oDQpCkvKTamss06Vw85S4aKim)
     - [Content](https://gitlab.com/gitlab-learn-labs/sample-projects/pm-workshop-issues)
-    - What does it sell/cover: Good for Premium or Ultimate. Focuses only only the planning stage, so make sure that the students you have coming are not expecting a technical workshop.
+    - What does it sell/cover: Good for Premium or Ultimate. Focuses only on the planning stage, so make sure that the students you have coming are not expecting a technical workshop.
     - Instruqt?: No
 - GitOps Workshop (Temporarily Paused, reach out to Logan Stucker with questions)
     - [Slides](https://drive.google.com/drive/folders/1xFxULChxjLmiQYjIENKNpbiifhhDfvo2)

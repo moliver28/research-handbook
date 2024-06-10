@@ -275,7 +275,7 @@ We currently offer the Self-Managed form in English, Spanish, German, French, Ko
 
 ## How to Sign up for the GitLab Free Trial Program
 
-- Reach out to the GitLab Global Channel Marketing team via email at partner-marketing@gitlab.com to get your custom free trial link(s) and assign your your Partner Prospect Admin. This role will need to be assigned before you [test](https://partners.gitlab.com/prm/English/s/assets?id=455381) and use your free trial link.
+- Reach out to the GitLab Global Channel Marketing team via email at partner-marketing@gitlab.com to get your custom free trial link(s) and assign your Partner Prospect Admin. This role will need to be assigned before you [test](https://partners.gitlab.com/prm/English/s/assets?id=455381) and use your free trial link.
 
    - Please note if you are using the SaaS free trial form you must add the following consent on your website and any marketing materials you are using that point your customers to the SaaS free trial form:
 

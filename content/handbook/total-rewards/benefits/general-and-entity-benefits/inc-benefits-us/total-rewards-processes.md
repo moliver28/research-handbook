@@ -161,7 +161,7 @@ Temporary until Integrations are put in place between PlanSource/Workday & Navia
 1. Pull PlanSource/Workday report
     1. Termination Report - get termination dates for team members
     1. PlanSource/Workday report of Cigna enrollees
-1. Do a vlook up to to see which team members need to be termed in Navia & team members who need to be added in to the portal
+1. Do a vlook up to see which team members need to be termed in Navia & team members who need to be added in to the portal
 1. If not that many team members, you can log on to Navia and Upload the data individually > Plan Management > Participants > Add Participant
 1. If there are many team members, fill out the [Navia Upload Report](https://docs.google.com/spreadsheets/d/1RcqGMpUnEmDDm6AKtsIVWidh22JEIIqa/edit#gid=1692401370). Log on to Navia Portal > Data Management > Send File > Upload the file > File Recipient is Lydnsey Rush
 

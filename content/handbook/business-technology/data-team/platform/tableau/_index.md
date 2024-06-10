@@ -1,14 +1,7 @@
 ---
-
 title: "Tableau"
 description: "Tableau at GitLab"
 ---
-
-
-
-
-
-
 
 ---
 
@@ -86,7 +79,7 @@ Having completed the migration to Tableau in FY25-Q1, we are now focused on impr
     - Support functional teams in repointing dashboards to leverage certified data sources
     - Refresh assessment of Tableau environment
 - FY25-Q4 - Achieve the following targets (specific numbers will be updated in Q3)
-    - Iterate on the BI Enablement charter  
+    - Iterate on the BI Enablement charter
     - Accelerate certified data source creation with support from Functional Analytics teams, publishing X additional certified data sources
     - Repoint X dashboards to leverage certified data sources
     - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of concentrating user views on certified dashboards
@@ -319,7 +312,7 @@ Limited access user groups will allow business teams to manage accessibility to 
 
 #### List of User Groups
 
-Each section below below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
+Each section below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
 
 ##### **General SAFE Access**
 
@@ -543,7 +536,7 @@ permission_templates:
 
 #### Tableau Licenses
 
-The Data Team will regularly review users' Tableau activity to determine if users have the appropriate license type, and will potentially downgrade users whose activity suggests they would be adequately served by a lower license tier. License adjustments will be made to optimize the pool of available licenses and will be based on the the following activity guidelines:
+The Data Team will regularly review users' Tableau activity to determine if users have the appropriate license type, and will potentially downgrade users whose activity suggests they would be adequately served by a lower license tier. License adjustments will be made to optimize the pool of available licenses and will be based on the following activity guidelines:
 
 - To maintain a Creator license the team member must meet any of the following:
   - Have published a datasource within the past 90 days

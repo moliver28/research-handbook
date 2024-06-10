@@ -245,7 +245,7 @@ Don’t stress, weight points are estimates, unforeseen events happen. Any carry
 
 **What if I complete my iteration board early?**
 
-A few options for when an an individual's iteration board is complete:
+A few options for when an individual's iteration board is complete:
 
 1. Offer assistance to other team members.
 2. Pull a new issue from the backlog into the current iteration.

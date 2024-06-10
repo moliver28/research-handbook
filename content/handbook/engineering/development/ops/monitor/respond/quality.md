@@ -103,7 +103,7 @@ pipeline directly. All test jobs will produce artifacts from test execution (log
 a [downstream pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines/767219117) that runs all E2E tests. You want to
 inspect why [ee:instance-parallel 3/5](https://gitlab.com/gitlab-org/gitlab/-/jobs/3714070554) failed:
 
-- First, check the the job log. It contains stacktrace that can be helpful for investigation.
+- First, check the job log. It contains stacktrace that can be helpful for investigation.
 - Or in the job's artifacts, under `gitlab-qa-run-*/gitlab-ee-qa-*/qa-test-*/`,  you will find screenshots of where
 the test failed at during execution.
 

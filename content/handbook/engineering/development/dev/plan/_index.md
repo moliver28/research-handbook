@@ -309,7 +309,7 @@ Please reassure the participants that the purpose is not to apportion blame but 
 
 ### UX
 
-The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
+The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
 
 #### UX issue management, weights and capacity planning
 

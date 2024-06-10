@@ -365,7 +365,7 @@ Designating each opportunity that has a shot to close at the end of each fiscal 
     - Is this opportunity Red or Green?
     - Why do anything at all?
     - Why GitLab?
-    - Why now? (Is there a time-driven reason this opportunity will close within a specific time time frame)
+    - Why now? (Is there a time-driven reason this opportunity will close within a specific time frame)
     - What level is your closest relationship with?
     - How can they help you:
         - Get accurate information on the ideal time for the customer to buy GitLab?
@@ -669,7 +669,7 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
     - When a new deal registration arrives in the AE’s pipeline
     - To review 2-3 Partners for the AE to work with for AE-selected joint customer success motions:
         - The Channel Manager will bring the possibilities forward during this call
-        - 2 examples of working with Partners are featured in this <b>[this Levelup](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2)</b>
+        - 2 examples of working with Partners are featured in **[this Levelup](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2)**
         - AEs should share their thoughts about prioritizing which Partner activities would be best for which of their customers
 - In the case of Open partners via distributions, when the opportunity is ready, AE's email `partnersupport@gitlab.com` with the link to the opportunity requesting quote-to-order support (chatter alias coming soon)
 

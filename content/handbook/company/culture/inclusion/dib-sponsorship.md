@@ -276,7 +276,7 @@ This will solidify any expectations for after the program, whether that is to en
 
 **Goals:**
 
-The goals of including Sponsorship Programs at GitLab is to help ensure that our top performers and team members from underrepresented groups are giving increased opportunities to work with senior leaders. This will increase engagement within these groups and ultimately increase the retention of of team members.
+The goals of including Sponsorship Programs at GitLab is to help ensure that our top performers and team members from underrepresented groups are giving increased opportunities to work with senior leaders. This will increase engagement within these groups and ultimately increase the retention of team members.
 
 **Benefits:**
 

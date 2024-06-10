@@ -294,7 +294,7 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
 
 ## Reporting for Relocations
 
-Access to to the 'GitLab Team Member Relocations' Workday report can be requested via [this issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/issues/new?issuable_template=intake) and automatically sent on a regular basis.
+Access to the 'GitLab Team Member Relocations' Workday report can be requested via [this issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/issues/new?issuable_template=intake) and automatically sent on a regular basis.
 
 This report will include the following information:
 

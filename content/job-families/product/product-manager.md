@@ -559,7 +559,7 @@ We're looking for a PM to ensure an excellent purchase, trial, upgrade, seat add
 
 ### Platforms - GitLab Dedicated
 
-We're looking for a product manager to mature GitLab Dedicated, GitLab's Enterprise DevSecOps Platform as a single-tenant SaaS deployment. This role will involve defining a compeling roadmap that focuses on delivering customer results and growing Dedicated as a platform. You will will work closely with several engineering teams and with teams across GitLab to drive adoption of Dedicated.
+We're looking for a product manager to mature GitLab Dedicated, GitLab's Enterprise DevSecOps Platform as a single-tenant SaaS deployment. This role will involve defining a compeling roadmap that focuses on delivering customer results and growing Dedicated as a platform. You will work closely with several engineering teams and with teams across GitLab to drive adoption of Dedicated.
 
 #### Requirements
 

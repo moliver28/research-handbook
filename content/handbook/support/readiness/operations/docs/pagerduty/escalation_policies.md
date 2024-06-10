@@ -17,7 +17,7 @@ The steps to create an escalation policy in Pagerduty are:
 
 1. Login to [pagerduty](https://gitlab.pagerduty.com/)
 1. Hover over `People` and click `Escalation Policies` to go to the
-   [escalation policies page page](https://gitlab.pagerduty.com/escalation_policies)
+   [escalation policies page](https://gitlab.pagerduty.com/escalation_policies)
 1. Click the blue `New Escalation Policy` button on the top-right of the page
 1. Enter a name for your escalation policy
 1. For the description, enter something sensible that makes it clear what it is
@@ -50,7 +50,7 @@ The steps to edit an escalation policy in Pagerduty are:
 
 1. Login to [pagerduty](https://gitlab.pagerduty.com/)
 1. Hover over `People` and click `Escalation Policies` to go to the
-   [escalation policies page page](https://gitlab.pagerduty.com/escalation_policies)
+   [escalation policies page](https://gitlab.pagerduty.com/escalation_policies)
 1. Use the search on the right-hand side of the page to search for the
    escalation policy you wish to edit
 1. Click the blue text of the escalation policy once located
@@ -66,7 +66,7 @@ deleted. You might need to edit it first to remove rules and persons first.
 
 1. Login to [pagerduty](https://gitlab.pagerduty.com/)
 1. Hover over `People` and click `Escalation Policies` to go to the
-   [escalation policies page page](https://gitlab.pagerduty.com/escalation_policies)
+   [escalation policies page](https://gitlab.pagerduty.com/escalation_policies)
 1. Use the search on the right-hand side of the page to search for the
    escalation policy you wish to edit
 1. Click the blue text of the escalation policy once located

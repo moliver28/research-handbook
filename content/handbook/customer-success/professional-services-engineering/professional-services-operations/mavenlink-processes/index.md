@@ -49,7 +49,7 @@ Although similar, here are some differences between members with View Only proje
 
 - Members with View Only access appear as allocatable project resources. With Guest Access, members can view project information without appearing as an option to be scheduled or allocated on a project.
 - Since they are not official project participants, guest viewers won't appear on the project as either the Provider or Client.
-- Guests are not tied to Account-level permissions; therefore, if a member has Collaborator account permissions and is assigned Guest Access at the Project Financials level, this member will have have Project Financials view-only access.
+- Guests are not tied to Account-level permissions; therefore, if a member has Collaborator account permissions and is assigned Guest Access at the Project Financials level, this member will have Project Financials view-only access.
 - Instead of using the API or manually assigning View Only access to one team member at a time, Access Groups allows you to assign Guest Access in bulk.
 Note: Members cannot be invited to a project as a guest viewer, they must be assigned Guest Access using Access Groups.
 - A yellow notification banner at the top-right of the project indicates you are Viewing as Guest.

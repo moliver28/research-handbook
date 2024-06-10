@@ -24,7 +24,7 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 - Do not schedule over DNB (Do Not Book).
 - Prefers “appropriate length” conversations, so short meetings are okay on the calendar. If a topic only needs 10 mins, book 10 mins instead of 25, etc.
 - Schedule two 30 minute blocks a day for work time - title “DNB”. This is time for email/Slack follow-up and general work time. If the time has to move to accommodate another meeting, ensure another time is found and that daily workflow is still achieved.
-- Schedule one 60 minute block a day for for lunch - title “DNB / lunch”. This is time for a lunch break, follow-up and general work time. If the time has to move to accommodate another meeting ensure another time is found and that daily lunch break is still achieved.
+- Schedule one 60 minute block a day for lunch - title “DNB / lunch”. This is time for a lunch break, follow-up and general work time. If the time has to move to accommodate another meeting ensure another time is found and that daily lunch break is still achieved.
 - If you add any meetings to the calendar directly, tick the box “Attendees can modify” so the Sr. EBA can change if necessary.
 - Please do not @ Brian for scheduling questions or requests in Slack, please reach out to his Sr. EBA.
 - Please do cc: @ Brian and his Sr. EBA with last minute scheduling changes in Slack.

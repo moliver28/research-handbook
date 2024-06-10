@@ -529,11 +529,11 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 **Use Case:** DevOps, Cloud Native
 
 ---
-
+<!-- vale handbook.Repetition = NO -->
 "[Great self-managed, open source source control system](https://www.g2.com/products/gitlab/reviews/gitlab-review-436746)" — Administrator, Mid-Market from [G2 Crowd Leader]<br>
 **Value Drivers:** Efficiency<br>
 **Use Case:** VC&C
-
+<!-- vale handbook.Repetition = YES -->
 ---
 
 "[Efficient, can trace back, easy to collaborate](https://www.g2.com/products/gitlab/reviews/gitlab-review-701837)" — Industry Analyst / Tech Writer, SMB from [G2 Crowd Leader]<br>
@@ -607,13 +607,13 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 **Vertical:** Technology
 
 ---
-
+<!-- vale handbook.Repetition = NO -->
 "[Great self-managed, open source source control system](https://www.g2.com/products/gitlab/reviews/gitlab-review-436746)" — Administrator, Mid-Market from [G2 Crowd Leader]<br>
 **Value Drivers:** Efficiency<br>
 **Use Case:** SCM <br>
 **Differentiator:** Software Anywhere, SCM&CI <br>
 **Vertical:** Education <br>
-
+<!-- vale handbook.Repetition = YES -->
 ---
 
 "[Efficient, can trace back, easy to collaborate](https://www.g2.com/products/gitlab/reviews/gitlab-review-701837)" — Industry Analyst / Tech Writer, SMB from [G2 Crowd Leader]<br>

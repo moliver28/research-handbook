@@ -18,7 +18,7 @@ Note that Vakantiegeld is built into offers as well as our [Compensation Calcula
 
 Effective 1 August 2023, Full-Time Netherlands team members will be paid a gross monthly allowance of 100 Euros to subsidize healthcare costs.
 
-Team Members will still need to purchase their own health insurance package (basisverzekering) with a a health insurance company, as required by the Netherland's statutory healthcare system. If you do not have health insurance, you can be fined by the Sociale Verzekeringsbank.
+Team Members will still need to purchase their own health insurance package (basisverzekering) with a health insurance company, as required by the Netherland's statutory healthcare system. If you do not have health insurance, you can be fined by the Sociale Verzekeringsbank.
 
 Team Members will automatically receive the allowance via payroll. No documentation is needed to receive the allowance. The allowance is subject to taxes, which payroll will withhold on a monthly basis.
 

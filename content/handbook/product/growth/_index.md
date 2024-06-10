@@ -168,7 +168,7 @@ In addition to the [Validation Phase Outcomes](/handbook/product-development-flo
 
 - For an experiment, experiment issues have been created with a hypothesis and experiment plan, and experiment labels have been applied
 - Cross-team dependencies have been identified and those teams notified and their feedback received
-- Prototypes or mocks for the selected solution have been completed and and it is clear through the documentation and content of issues that they are Ready for Development
+- Prototypes or mocks for the selected solution have been completed and it is clear through the documentation and content of issues that they are Ready for Development
 - Previous versions and discussions of the solution(s) are labeled as 'Draft', and should not appear in the Epic description
 - If changes involve copy, ~"Technical Writing" and ~"UI text" labels have been added
 - Design spec has been added to the designs. Try to link to relevant components in gitlab-ui

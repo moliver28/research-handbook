@@ -71,7 +71,7 @@ A Contractor or an Independent Contractor (IC) **is an individual** (not an enti
    - This applies to instances where the supplier only accepts online credit card payments or for one-time vendor use such as events. More info on allowed uses [here](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/)
    - More information in the [Zip End Users Guide](/handbook/business-technology/enterprise-applications/guides/zip-guide/) on how to submit a request using for a virtual card
 1. Vendor Name and Primary Contact
-   - If an existing vendor or you are unsure, start typing the vendor name in Zip. If vendor exists, Zip will populate it in the dropdown. You can then select the existing Primary Vendor Contact or select ‘Add new contact’ and complete the the contact information
+   - If an existing vendor or you are unsure, start typing the vendor name in Zip. If vendor exists, Zip will populate it in the dropdown. You can then select the existing Primary Vendor Contact or select ‘Add new contact’ and complete the contact information
    - If New Vendor:
       - Review the [Vendor Selection Process](/handbook/finance/procurement/#1-rfp-and-vendor-selection) and the [RFP guidelines](https://internal.gitlab.com/handbook/finance/procurement/) or reach out to your Procurement Category Manager if you have questions or need support
       - If this supplier is not already in our system, you will need to click the “add new” option once you type in the supplier name. Please be sure to fill in all details so that the Procurement team can complete the [New Vendor Onboarding step](/handbook/finance/procurement/#4-vendor-onboarding). While we use Zip internally now, Coupa will still be the tool used to pay our suppliers.

@@ -102,7 +102,7 @@ GitLab Software Compliance solution overview
 | Differentiator | Description |
 | ------ | ------ |
 | Single Application for Entire DevOps Lifecycle | a single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity |
-| End-to-End Insight and Visibility | GitLab's common data model enables enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically |
+| End-to-End Insight and Visibility | GitLab's common data model enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically |
 | Deploy Your Software Anywhere | GitLab is infrastructure-agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment |
 | Leading SCM and CI in One Application | having the backbone of a DevOps toolchain in one application streamlines code review & collaboration (one interface, one user model, one data model) |
 | Built-in Security and Compliance | move security testing earlier in the development lifecycle with out-of-the-box security features (code scanning, dependency scanning, secrets detection, etc.) and automated security testing and audit controls to facilitate policy compliance |

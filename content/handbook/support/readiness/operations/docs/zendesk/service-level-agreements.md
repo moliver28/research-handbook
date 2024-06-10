@@ -67,7 +67,7 @@ From here, create the merge request in the sync repo project.
 #### Updating an existing SLA
 
 Updating an existing SLA is considerably easier than creating a new one. Simply
-change change the code in the source project and it will occur via the sync
+change the code in the source project and it will occur via the sync
 repo.
 
 #### Deleting a SLA

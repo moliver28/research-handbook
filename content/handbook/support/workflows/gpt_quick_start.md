@@ -10,7 +10,7 @@ category: Self-managed
 
 GitLab recommends running GPT against your GitLab environment to get an effective performance test. We do not recommend running on a production instance. Only run on production if it’s really required. If so, then run it at the quietest possible time. Depending on your system environment, the test may take up at least 4 hours.
 
-**NOTE**: This quick start was written and adopted based on [documentation for `GPT v2` (2.10.0)](https://gitlab.com/gitlab-org/quality/performance/-/blob/2.10.0/docs/README.md). Please always check the [the official GitLab Project documentation: GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/README.md) for latest changes.
+**NOTE**: This quick start was written and adopted based on [documentation for `GPT v2` (2.10.0)](https://gitlab.com/gitlab-org/quality/performance/-/blob/2.10.0/docs/README.md). Please always check the [official GitLab Project documentation: GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance/-/blob/main/docs/README.md) for latest changes.
 
 ## Requirements
 

@@ -46,5 +46,5 @@ To request access please create an [Access Request](/handbook/business-technolog
 1. Sales Ops can export the results of a report directly into Salesforce onto the matching Salesforce account record.
    - Once a LinkedIn company has been exported to our Salesforce CRM, it will continue to auto-enrich with LinkedIn data daily at midnight PST.
    - Exporting records from LSI uses 1 credit per record. We purchase annual credits in increments of 20k records.
-   - Purchasing additional credits will need to be approved by Senior Director Director of Sales Operations and Senior Director, Sales Strategy & Analytics
+   - Purchasing additional credits will need to be approved by Senior Director, Director of Sales Operations and Senior Director, Sales Strategy & Analytics
 1. For further Sales Operations use cases such as buying credits and info on the initial implementation, reference the LSI Sync Doc [Here](https://docs.google.com/document/d/1acxMAloxho4y3EjFb47OjuMhA0QvuTai-CQs-X89KN4/edit)

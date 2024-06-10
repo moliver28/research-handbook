@@ -32,7 +32,7 @@ Routing rules are set up in Qualified to send a visitor to the most appropiate r
 - A visitor that is existing in our CRM and being Actively Sequenced, they will be routed to the sequencing rep.
 - A visitor that is identified as being associated to a US PubSec account will be routed to the BDR Assigned on that account. If no BDR Assigned is present on the account they will be round robined to the PubSec team.
 - A visitor that is identified to be associated with an Actively Working account will be routed to the BDR Assigned on that account. If the rep is not available, the visitor will be routed to the inbound SDR team based on Geo to further qualify the lead. Once routed to an SDR, ownership of the lead will be determined by our standard [Rules of Engagement](/handbook/marketing/sales-development/#rules-of-engagement-quick-guide).
-- A visitor that is not being sequenced, not PubSec, and not part of an Actively Working account will be routed to the the appropriate Geo based SDR round robin pool.
+- A visitor that is not being sequenced, not PubSec, and not part of an Actively Working account will be routed to the appropriate Geo based SDR round robin pool.
 
 If you feel you have been routed a conversation or visitor in error please post a link to the lead/conversation in the #mktgops Slack channel.
 

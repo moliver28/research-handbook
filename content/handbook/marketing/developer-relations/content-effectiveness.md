@@ -25,7 +25,7 @@ The key measure of content effectiveness for the Developer Relations team is how
 #### The Metrics we measure
 
 - Blog Views: These are impressions generated from blog posts published by the team on the GitLab blog.
-- Video Views: Videos are uploaded to the [Official](https://www.youtube.com/gitlab) and the [GitLab Unfiltered](https://youtube.com/gitlabunfiltered) channels on YouTube. We also include include Shortened links with Relevant UTM codes.
+- Video Views: Videos are uploaded to the [Official](https://www.youtube.com/gitlab) and the [GitLab Unfiltered](https://youtube.com/gitlabunfiltered) channels on YouTube. We also include Shortened links with Relevant UTM codes.
 - Campaigns: The Developer Relations team use the `devrel` UTM Campaign name to track engagement with our content or activities shared on external mediums.
 - Influenced Campaigns: These are campaigns owned by other marketing teams that we contribute to, we track the result of our influence on the [Marketing Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?%3Aiid=1).
 
@@ -147,7 +147,7 @@ flowchart LR
 
 #### Blog posts
 
-Once a blog post has been published on the GitLab Blog, add the URL along with other details to the `devrel_blog_posts_views` sheet. This is an important step in getting the content piece to appear in the the relevant dashboards.
+Once a blog post has been published on the GitLab Blog, add the URL along with other details to the `devrel_blog_posts_views` sheet. This is an important step in getting the content piece to appear in the relevant dashboards.
 
 #### Videos
 

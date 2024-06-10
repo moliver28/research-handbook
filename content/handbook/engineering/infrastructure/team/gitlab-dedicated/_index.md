@@ -309,7 +309,7 @@ Epic boards are used to track the overall status of epics. We use the following 
 
 #### Epic roadmap
 
-All epics and sub-epics are set with due dates according to the [the Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
+All epics and sub-epics are set with due dates according to the [Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
 
 Limited Availability phases end and are closed on the release day of each phase's corresponding month.
 
@@ -552,7 +552,7 @@ and is not expected to be perfect in every situation.
 Do your best,
 and understand that the process is inherently imprecise and fuzzy at the edges.
 
-The Dedicated capacity process process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
+The Dedicated capacity process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
 
 The overall flow of work is to assess any new reported saturation risks,
 and re-review any which are due to be looked at again.

@@ -134,7 +134,7 @@ It's okay to create specific engineering-driven implementation issues for more c
 The IDE group has decided to use an alternate planning process for the following reasons:
 
 1. Remote Development is a large, greenfield category, with many engineering, infrastructure, and technical concerns and unknowns which will continue to evolve and change as the category matures.
-1. The Remote Development category is also currently receiving much attention as part of of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
+1. The Remote Development category is also currently receiving much attention as part of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
 1. In order to meet this need for more accurate and realistic planning and delivery estimates, the Remote Development category team has decided to modify parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies. The goal is to provide accurate delivery estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
 1. To better support the use of these methodologies, the IDE group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint.html) where possible.
 1. However, due to existing limitations of the Iterations and Boards features in fully supporting these methodologies, we will also experiment with new and alternate tools and processes, with the goal of informing and potentially contributing back to improve GitLab's support for them. More details will be shared as this effort evolves.
@@ -214,7 +214,7 @@ graph TD;
 
 **Process:**
 
-**TL;DR: Assign the [`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues) milestone to all issues that should be refined and prioritized in the next Pre-IPM meeting(s).**
+**TL;DR: Assign the [`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues) to all issues that should be refined and prioritized in the next Pre-IPM meeting(s).**
 
 1. All higher-priority issues should be [contained in the category epic or one of its sub-epics](https://gitlab.com/groups/gitlab-org/-/epics/7419)
 1. They should all have the `~(rd|webide)-workflow::unprioritized` label assigned.
@@ -285,7 +285,7 @@ The "Pre-Iteration Planning" (Pre-IPM) meeting prepares for the Iteration Planni
 
 During the Pre-IPM, the team will collaborate on creating/refining, organizing, and clarifying all issues which are to be prioritized for the upcoming iteration(s). This will normally involve Product and Engineering leaders on the team, but may also involve Design or other team members depending on the nature of the issues involved. The goal is to ensure that all issues which have been identified as a priority for the upcoming releases are properly refined, curated, prioritized, and ready for the wider team to briefly discuss and estimate in the next IPM.
 
-If a single piece of work spans multiple projects/repos, there should be be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks.html#set-task-weight), because boards cannot display individual
+If a single piece of work spans multiple projects/repos, there should be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks.html#set-task-weight), because boards cannot display individual
 tasks.
 
 **QUESTION: Why isn't there a `~(rd|webide)-workflow::refined` phase instead of using the `~refined` label?**

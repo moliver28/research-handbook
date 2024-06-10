@@ -137,7 +137,7 @@ In the process of refinement we may discover a new feature will require a [bluep
 
 When possible, the assigned team member is encouraged to schedule synchronous time with another developer to pair on the investigation and publishing of the results (Example Technical Investigation issue [gitlab#336617](https://gitlab.com/gitlab-org/gitlab/-/issues/336617)). By default Technical Investigation issues are weighted at a 2 and we timebox them to 3 business days from start to presentation of data. Team members may change this weight and/or time frame at their discretion.
 
-We limit the number of of technical investigation issues assigned in each milestone to two so that we can maintain overall velocity and [MR Rate](../engineering/metrics/#merge-request-rate).
+We limit the number of technical investigation issues assigned in each milestone to two so that we can maintain overall velocity and [MR Rate](../engineering/metrics/#merge-request-rate).
 
 #### Splitting issues
 

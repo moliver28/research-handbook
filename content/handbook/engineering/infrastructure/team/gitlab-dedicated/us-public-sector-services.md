@@ -62,7 +62,7 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 We use [GitLab Groups](https://docs.gitlab.com/ee/user/group/#groups) to logically organize team-members working on GitLab Dedicated projects.
 The groups cover the following use-cases:
 
-1. GitLab GitLab US Public Sector Services group membership: `@gitlab-dedicated/uspubsec`
+1. GitLab US Public Sector Services group membership: `@gitlab-dedicated/uspubsec`
     - All permanent team-members in any of the GitLab Dedicated teams should gain access to this GitLab group as part of onboarding
     - Group mention should only be used in circumstances where the information shared is pertinent for all team members of GitLab Dedicated group
 2. Individual team GitLab groups have two additional subgroups `maintainers` and `reviewers`, e.g.: `@gitlab-dedicated/uspubsec/maintainers`

@@ -162,7 +162,7 @@ See the [source contact spreadsheet](https://docs.google.com/spreadsheets/d/1VKv
 
 | Aspect | Tier 1 | Tier 2  | Tier 3 |
 |:-|:-|:-|:-|
-| **Description**  | - Trusted Data solutions that are most important and business critical. <br><br> - Components needs to  be available and refreshed to ensure day-by-day operation | - Data solutions that are important and beneficial for gathering insights. <br><br> - Components should be available and refreshed to supporting day-by-day operation | - Data solutions that are important for for Ad-Hoc, periodically or one-time analysis. <br><br> - Components could be unavailable or data not refreshed. |
+| **Description**  | - Trusted Data solutions that are most important and business critical. <br><br> - Components needs to  be available and refreshed to ensure day-by-day operation | - Data solutions that are important and beneficial for gathering insights. <br><br> - Components should be available and refreshed to supporting day-by-day operation | - Data solutions that are important for Ad-Hoc, periodically or one-time analysis. <br><br> - Components could be unavailable or data not refreshed. |
 |**Criteria**|- Any data, process, or related service that would result in a $100k or *higher* business impact if unavailable for 24 hours <br><br>-  Affecting more than 15 business users | - Any data, process, or related service that would result in  *less*  than $100k business impact if unavailable for 24 hours <br><br> - Affecting between 5 and 15 business users | - Any data, process or related service that would *not* result in a immediate business impact if unavailable for more than 5 working days <br><br> - Affecting less then 5 business users |
 |**Impact due to outage**|Severe|Lenient|Negligible |
 
@@ -208,7 +208,7 @@ In order not to extract geo data into Snowplow, the following columns were nul
 - `geo_longitude`
 - `user_ipaddress`
 
-This nullified is applied in Snowplow from `2023-02-01` and the files have the same structure, just column values are set to `NULL`. The Data Team updated old old files and set mentioned columns to `NULL`, and also set columns to `NULL` in Snowflake. This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
+This nullified is applied in Snowplow from `2023-02-01` and the files have the same structure, just column values are set to `NULL`. The Data Team updated old files and set mentioned columns to `NULL`, and also set columns to `NULL` in Snowflake. This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
 
 As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [**Snowflake documentation**](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-ts#unable-to-reload-modified-data-modified-data-loaded-unintentionally), the folder structure is modified from:
 

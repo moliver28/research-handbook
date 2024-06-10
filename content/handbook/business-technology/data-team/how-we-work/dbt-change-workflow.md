@@ -215,7 +215,7 @@ flowchart LR
 
 #### Build Models
 
-Models that that will be reconstructed as part of building or testing changes are classified as build models. These models contain the code changes or are models affected by the code changes and will need to be re-created multiple times during the development process.
+Models that will be reconstructed as part of building or testing changes are classified as build models. These models contain the code changes or are models affected by the code changes and will need to be re-created multiple times during the development process.
 
 ### Prepare Local Environment
 
@@ -258,7 +258,7 @@ Test all components, integrations, and system tests remotely to ensure that the 
    - This can be performed with one of the [`specify_model`](/handbook/business-technology/data-team/platform/ci-jobs/#specify_model) CI Jobs.  If the build command only contains models with direct changes then one of the [`run_changed_models_sql`](/handbook/business-technology/data-team/platform/ci-jobs/#%EF%B8%8Frun_changed_models_sql) CI jobs can be used.
    - If the changed models are incremental models, the models run more than one hour on a full refresh, and a full refresh does not need to be explicitly tested then the full refresh overridden should be used by adding the `REFRESH =` [variable](/handbook/business-technology/data-team/platform/ci-jobs/#%EF%B8%8F-dbt-run).
 1. Run the [grant_clones](/handbook/business-technology/data-team/platform/ci-jobs/#grant_clones) CI job, to grant permissions to yourself and run any remaining components, integrations, and system tests on the build models, adding the results of the tests to the MR.
-    - If the table is new then the grant_clones job will not be able to grant access the the table. In this case documentation of local tests are required for verification and validation.
+    - If the table is new then the grant_clones job will not be able to grant access the table. In this case documentation of local tests are required for verification and validation.
 
 ### Reviews
 

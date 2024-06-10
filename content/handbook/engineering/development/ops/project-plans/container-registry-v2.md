@@ -207,7 +207,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Finalize progress bar and UX improvements for the importer.
   - Continue communication with beta customers who are testing the import process.
 - Completed:
-  - [Discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/431701) regarding regarding expansion of usage ping metrics.
+  - [Discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/431701) regarding expansion of usage ping metrics.
   - Draft of importer progress bar is ready for review.
 
 #### Week of Dec 4-8

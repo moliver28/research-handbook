@@ -150,7 +150,7 @@ Our strategy to building representative teams is rooted in our top of funnel str
 
 - As a best practice, Recruiters will focus on screening internal candidates, referrals, and sourced candidates for the first 5 business days a req is open.
 
-1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter, SeekOut, our our CRM)
+1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter, SeekOut, our CRM)
 1. For each candidate that is sourced in step 2 utilizing a DIB sourcing strategy (ie: leveraging HCBUs in a boolean string, utilizing GraceHopper resume books, etc), apply the appropriate tag.
 
 **IMPORTANT NOTE** These indicators are not assuming or identifying an individual’s gender, race, or ethnicity—we cannot be certain of this information from a search and do not want to make any assumptions without self-identification.
