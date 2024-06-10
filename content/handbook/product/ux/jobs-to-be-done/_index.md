@@ -40,14 +40,14 @@ The Job Map is a visual representation of the sequence of Stages a Job Performer
 
 Common Stages of a Job Map include, _but are not limited to:_
 
-   - Define: Determine objectives and plan how to get the job done
-   - Locate: Gather materials and information needed to do the job
-   - Prepare: Organize materials and create the right setup
-   - Confirm: Ensure that everything is ready to perform the job
-   - Execute: Perform the job as planned
-   - Monitor: Evaluate success as the job is executed
-   - Modify: Modify and iterate as necessary
-   - Conclude: End the job and follow-up
+- Define: Determine objectives and plan how to get the job done
+- Locate: Gather materials and information needed to do the job
+- Prepare: Organize materials and create the right setup
+- Confirm: Ensure that everything is ready to perform the job
+- Execute: Perform the job as planned
+- Monitor: Evaluate success as the job is executed
+- Modify: Modify and iterate as necessary
+- Conclude: End the job and follow-up
 
 These Stages are arranged in a logical flow, with related Job Steps clustered together with their relevant Job Stage. When complete and validated with users, the Job Map will serve as a foundation for creating Outcomes and uncovering underserved needs.
 
@@ -66,6 +66,7 @@ Learn more about generating Outcome statements.
 ### Continuous Evaluation
 
 Using Outcomes allows for predictable, repeatable, and consistent evaluation methods, creating feedback loops that relate directly to the outcomes you are trying to influence.
+
 - **Benchmarking:** Evaluate the Main Job and Consumption Job Outcomes to establish a benchmark and assist with prioritization by identifying underserved needs.
 - **Baselining:** Evaluate the Outcomes your team has delivered solutions for in the last six months, checking against the prior benchmark scores.
 - **Solution Validation:** Evaluate how your soluition improves the targeted Outcome(s), using the established benchmark as reference.
@@ -84,7 +85,6 @@ _placeholder for jtbd-yml file_
 - [Jobs to be Done by Anthony Ulwick](https://jobs-to-be-done-book.com/)
 - [Competing Against Luck by Clay Christenson](https://www.amazon.com/dp/0062435612/ref=cm_sw_em_r_mt_dp_U_v0k9Eb92AEDZX)
 - [Intercom on Jobs to be Done by Intercom](https://www.intercom.com/resources/books/intercom-jobs-to-be-done)
-
 
 <!-- OLD CONTENT - from deleted pages -- may be re-incorporated, so keeping it here for now
 

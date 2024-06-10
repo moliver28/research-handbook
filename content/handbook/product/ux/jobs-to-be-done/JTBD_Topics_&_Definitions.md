@@ -23,15 +23,15 @@ The Job Performer is a critical concept referring to the individual undertaking 
 
 **Helpful Tips:**
 
-| Do | Don't | 
-| --- | --- | 
+| Do | Don't |
+| --- | --- |
 | Describe an individual completing a task | Use Job titles or Personas |
 | Keep it focused on a single action | Compound actions using (and/or) |
 | Keep it simple and generic | Reference technologies or solutions |
 
 **Examples:**
 | Good examples | Bad examples |
-| --- | --- | 
+| --- | --- |
 | Code Author | Software Engineer (Job title, not a Job Performer) |
 | Code Reviewer | Merge Request Approver (References a specific solution/technology) |
 | Change Deployer | Rachel, Release Manager (Persona, not a Job Performer) |
@@ -49,7 +49,7 @@ Main Jobs follow the Job Statement format.
 **Examples:**
 
 | Good examples | Bad examples |
-| --- | --- | 
+| --- | --- |
 | Deploy [verb] code changes [object] | Manage Releases -- No clear end state, the Job will never be done. |
 | Ensure code changes meet Org standards | Review Merge Request efficiently -- References a solution (Merge Request) and uses an Adjective (efficiently) |
 
@@ -114,6 +114,7 @@ Job Steps are the small tasks a user may undergo to accomplish their Job Stage a
 The Job Statement is a structured way to write clear and concise job statements that capture the essence of what the Job Performer is trying to accomplish no matter the level of the Job. The formula is:
 
 [verb] + [object] + [(optional) clarifier]
+
 - **Verb**: The action the Job Performer is taking to accomplish the job.
 - **Object**: The target or focus of the verb's action.
 - **Clarifier**: An optional phrase that provides additional context or specificity to the job statement.
@@ -213,4 +214,3 @@ Understanding and addressing underserved needs is a powerful strategy for achiev
 
 A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-jobs) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
 Each canvas has a number of different sections which combine to provide a **holistic picture of a Job Performer's Main Job**.
-
