@@ -8,7 +8,7 @@ canonical_path: "/handbook/support/readiness/"
 
 The purpose of Support Readiness is to enable GitLab to provide delightful customer experiences by:
 
-- equipping the Customer Support team with the right knowledge, tools and data to optimize productivity and efficiently solve customer problems. 
+- equipping the Customer Support team with the right knowledge, tools and data to optimize productivity and efficiently solve customer problems.
 - equipping our customers and wider GitLab with the right data, knowledge and insights to prevent customer problems before they occur.
 - delivering delightful experiences to both our own internal and external customers.
 
@@ -45,7 +45,7 @@ The FY25 Direction for Support Readiness should support and substantiate the ove
 
 | Name                                                  | Role                                  | Specialization                             |
 |-------------------------------------------------------|---------------------------------------|---------------------------|
-| [Lyle Kozloff](https://gitlab.com/lyle)               | Director of Support, Global Readiness and Acting Support Operations Manager |
+| [Lyle Kozloff](https://gitlab.com/lyle)               | Director of Support, Global Readiness and Acting Support Operations Manager | Leadership |
 | [Jason Colyer](https://gitlab.com/jcolyer)            | Fullstack Engineer                   | Operations |
 | [Nabeel Bilgrami](https://gitlab.com/nabeel.bilgrami) | Support Readiness Specialist         | Operations |
 | [Alyssa Villa](https://gitlab.com/avilla4)            | Support Readiness Specialist         | Operations |
