@@ -45,7 +45,7 @@ Your Hiring Manager will be responsible for completing their reference checks.
 
 #### Recruiter Quality Check (Engineering Only)
 
-Once a candidate has gone through the whole process before creating an offer the recruiter will ensure the scorecard requirements in [Engineering Hiring Practices](/handbook/engineering/#hiring-practices) are met.
+Once a candidate has gone through the whole process before creating an offer the recruiter will ensure the scorecard requirements in [Engineering Hiring Practices](/handbook/engineering/hiring/#hiring-practices) are met.
 
 The recruiter will leave a note in Greenhouse for the hiring manager as follows:
 

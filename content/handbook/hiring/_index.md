@@ -86,7 +86,7 @@ Please find pages for potential and active applicants below.
 
 {{% details summary="Get your headcount assignments" %}}
 
-- [How to open headcount on R&D](/handbook/engineering/#hiring-practices)
+- [How to open headcount on R&D](/handbook/engineering/hiring/#hiring-practices)
 - [How to open headcount on Sales and G&A]({{< ref "req-creation#creation-and-approval" >}})
 {{% /details %}}
 
