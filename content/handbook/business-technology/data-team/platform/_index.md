@@ -268,8 +268,8 @@ To gain access to Snowflake:
 - We loosely follow the paradigm explained in [this blog post](https://blog.fishtownanalytics.com/how-we-configure-snowflake-fc13f1eb36c4) around permissioning users.
 - When asking to mirror an existing account, please note that access to restricted SAFE data will **not** be provisioned/mirrored (currently provided via `restricted_safe` role).
 - Snowflake is part of the [Access Review Procedure](https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/access-reviews/) and manager will be asked on a quarterly basis to review the access their team members have in Snowflake. It is expected from the manager to understand the available roles(structure) in Snowflake if approving an AR or reviewing their team member access.
-  - In the access review, only the first level of Snowflake roles are reported (the ones that are directly attached to the user). I.e. if a team member do have the `analyst_marketing` role, only the `analyst_marketing` is reported and all inherriated roles in the `analyst_marketing` are not.
-    - Roles could be distinquished beteen functional roles and object roles
+  - In the access review, only the first level of Snowflake roles are reported (the ones that are directly attached to the user). I.e. If a team member does have the `analyst_marketing` role, only the `analyst_marketing` is reported and all inherited roles in the `analyst_marketing` are not.
+    - Roles could be distinguished between functional roles and object roles
       - See this list of functional roles in Snowflake [here](/handbook/business-technology/data-team/platform/#Functional_Role_Assignment) and object roles.
       - Object roles are directly related to systems and gives Team Members access to **all** of the data we extract from those upstream source systems. 
       - To know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml). 
@@ -327,11 +327,11 @@ It makes the most sense when there are multiple people who have very similar job
 
 ##### Functional Role Assignment
 
-This list of functional roles give a highlevel understanding of what the role entails. If missing or to know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).  
+This list of functional roles gives a high level understanding of what the role entails. If missing or to know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).  
 
 | Functional Role | Description | SAFE Data Y/N |
 | --- | --- | --- | 
-| `data_team_analyst` | Access to all `PROD` data, sensitive marketing data, Data Platform meta data and some sources. | Yes |
+| `data_team_analyst` | Access to all `PROD` data, sensitive marketing data, Data Platform metadata and some sources. | Yes |
 | `analyst_core` | Access to all `PROD` data and meta data in the Data Platform | No |
 | `analyst_engineering` | Access to all `PROD` data, meta data in the Data Platform and Engineering related data sources. | Yes |
 | `analyst_growth` | Access to all `PROD` data, meta data in the Data Platform and various data sources. | Yes | 
@@ -339,9 +339,9 @@ This list of functional roles give a highlevel understanding of what the role en
 | `analyst_marketing` |  Access to all `PROD` data, meta data in the Data Platform and marketing related data sources. | Yes |
 | `analyst_people` |  Access to all `PROD` data, meta data in the Data Platform and various related data sources, including sensitive people data. | Yes | 
 | `analyst_sales` |  Access to all `PROD` data, meta data in the Data Platform and various related data sources | Yes | 
-| `analytics_engineer_core` |  A combination of `analyst_core`, `data_team_analyst` role with some additons | Yes | 
+| `analytics_engineer_core` |  A combination of `analyst_core`, `data_team_analyst` role with some additions | Yes | 
 | `data_manager` | Extension access to Snowflake data  | Yes | 
-| `engineer` | Extension access to Snowflake data to perform data operation taks in Snowflake | Yes |
+| `engineer` | Extension access to Snowflake data to perform data operation tasks in Snowflake | Yes |
 | `snowflake_analyst` | Access to `PROD` data in Snowflake, EDM schema and workspaces | No |
 | `snowflake_analyst_safe` | Access to `PROD` data in Snowflake, EDM schema and workspaces including SAFE data | Yes |
 
