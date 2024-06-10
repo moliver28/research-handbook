@@ -48,7 +48,7 @@ Below is a list of steps followed during the refinement process.
 - The refinement process is kicked off when a planning issue is finalized.
 - A bot or an automated script assigns a number of issues (e.g. 2-3) randomly to each engineer.
 - An engineer is responsible for refining their assigned issues, but could ask for help if needed.
-- Engineers would follow a certain [checklist](handbook/engineering/development/sec/secure/secret_detection/#checklist) to determine if an issue is refined and ready to be picked up.
+- Engineers would follow a certain [checklist](#checklist) to determine if an issue is refined and ready to be picked up.
 - The refinement process is time-boxed (e.g. one week), after which all issues ready for development is picked up.
 - When an engineer completes refining an issue, they pass it on to another engineer (a reviewer) for review.
 - The reviewer should follow the guidelines outlined in the checklist as much as possible:
@@ -73,7 +73,7 @@ If a checkbox is not relevant for the issue, please remove or strikethrough it.
 - [ ] This issue requires assistance or support from other groups, and it's indicated in the issue description.
 - [ ] This issue could affect application security or performance, and the concern is explained in the issue description.
 - [ ] This issue is the smallest iteration possible and doesn't require further break down.
-- [ ] This issue has weight set - according to [this list of possible values](/handbook/engineering/development/sec/secure/workflow/#possible-values) - and ~"needs weight" label is removed.
+- [ ] This issue has weight set - according to [this list of possible values](https://handbook.gitlab.com/handbook/engineering/development/sec/secure/workflow/#possible-values) - and ~"needs weight" label is removed.
 - [ ] This issue has a success criteria defined, and it is outlined in the issue description.
 - [ ] This issue is labeled correctly.
 - [ ] This issue is reviewed by another team member to confirm proposal/implementation plan and weight.
@@ -84,7 +84,7 @@ If a checkbox is not relevant for the issue, please remove or strikethrough it.
 If you're assigned this issue to review its refinement, please follow the guidelines below.
 
 1. Please validate the proposal or the implementation plan described in the issue.
-1. Please validate the weight of the issue according to [this list of possible values](/handbook/engineering/development/sec/secure/workflow/#possible-values).
+1. Please validate the weight of the issue according to [this list of possible values](https://handbook.gitlab.com/handbook/engineering/development/sec/secure/workflow/#possible-values).
 1. If in disagreement, please state your thoughts/reasoning and notify the engineer refining this issue.
 1. If the disagreement can't be resolved, please bring this issue to the next team meeting for discussion.
 ```
@@ -108,7 +108,7 @@ Issues are assigned randomly to engineers using [`triage-ops`](https://gitlab.co
             1. `None`.
         1. Milestone:
             1. Issue has a milestone.
-            1. Issue's milestone title = [`next_milestone_title`](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/96cd054ee6017ddd8dec546914f5fc5ac4df105f/lib/next_milestone_helper.rb#L6-9).
+            1. Issue's milestone title = [`next_milestone`](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/de25e11d0c006551eaece0dcb95c5b5bf8216b90/lib/milestone_helper.rb#L13-15).
     1. Actions:
         1. Assigns the issue to a random engineer from the Secure:Secret Detection group.
         1. Adds the following labels:
