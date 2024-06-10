@@ -42,7 +42,7 @@ The Job Performer is a critical concept referring to the individual undertaking 
 
 The Main Job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. What is the Job Performer trying to get done in the selected Domain? Main Jobs should be timeless and as unchanging as possible. It should be expressed in functional terms, like a utilitarian goal. It’s an act that should be performed and have a clear end state… the “done” part of JTBD. It is not what your company needs to do to deliver a service. Always think in terms of the Job Performer’s perspective. The level of granularity for the Main Job can vary, depending on the innovation's purpose and feasibility.
 
-Main Jobs follow the [Job Statement format]().
+Main Jobs follow the Job Statement format.
 
 >💡 Main Jobs are mapped using a Job Map. 
 
@@ -57,13 +57,13 @@ Main Jobs follow the [Job Statement format]().
 
 Products go through several stages after being purchased. After buying a product, it must be received, installed, and set up. Users must learn how to use it, and they might also need to transport, clean, store, maintain, upgrade, repair, and eventually dispose of it. While people don't buy products to configure or maintain them, making these tasks easier can make a product more attractive. 
 
-These tasks are called Consumption Jobs. Each job has its own set of [desired outcomes](). Even the purchasing process is a Consumption Job involving research, evaluation, and transaction. 
+These tasks are called Consumption Jobs. Each job has its own set of desired outcomes. Even the purchasing process is a Consumption Job involving research, evaluation, and transaction. 
 
 Focusing on other consumption chain jobs can lead to better products and competitive advantages. For example, making it easier to configure, and optimize deployments or set up branch rules can set a product apart.
 
->💡 Consumption Jobs are **not** mapped using a Job Map. Instead the are listed and do not have a specific order. 
+>💡 Consumption Jobs are **not** mapped using a Job Map. Instead, they are listed and do not have a specific order. 
 
-Consumption Jobs should be written in a similar [format]() to Main Jobs, using the [verb] + [object] + [(optional) clarifier] structure. However, _Consumption Jobs can be solution-specifc and reference technologies_. 
+Consumption Jobs should be written in a similar format to Main Jobs, using the [verb] + [object] + [(optional) clarifier] structure. However, _Consumption Jobs can be solution-specific and reference technologies_. 
 
 Some examples of Consumption Jobs Types: 
 
@@ -92,7 +92,7 @@ Related Jobs are often within the same or adjacent Domain. For example, A relate
 
 Job Stages are the sequential series of objectives a Job Performer must complete to accomplish their Main Job. These objectives form a Job Map. Each Job Stage is high-level and can be broken out into it's own workflow if you were to zoom-in on it; they are not individual tasks. Avoid being too granular when writing Job Stages in order to keep them relevant to all performers executing the job. 
 
-Job Stages follow the [Job Statement format](). Examples of Job Stage verbs include: 
+Job Stages follow the Job Statement format. Examples of Job Stage verbs include: 
 
 - Define. Plan, Select, Determine
 - Locate, Gather, Access, Receive
@@ -107,7 +107,7 @@ Job Stages follow the [Job Statement format](). Examples of Job Stage verbs incl
 
 ### Jobs Steps
 
-Job Steps are the small tasks a user may undergo to accomplish their Job Stage and Main Job. These should be self-explanatory and easy to understand without much context. Job Steps follow the [Job Statement format]().
+Job Steps are the small tasks a user may undergo to accomplish their Job Stage and Main Job. These should be self-explanatory and easy to understand without much context. Job Steps follow the Job Statement format.
 
 ## Job Statements
 

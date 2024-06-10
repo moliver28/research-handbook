@@ -7,38 +7,38 @@ Customers purchase products and services to get a Job done. This principle is at
 
 _The Jobs-to-be-done (JTBD) Theory provides a framework for categorizing, defining, capturing, and organizing all your customers' needs and tying customer-defined performance metrics (in the form of desired outcome statements) to the job-to-be-done. - Anthony Ulwick, Jobs-to-be-done, Theory to Practice, 2023._
 
-[Reference guide: JTBD topics and definitions]()
+Reference guide: JTBD topics and definitions
 
 ## Framework Overview
 
-1. **[Define the Job]():** The first step of the JTBD framework is to understand who your [Job Performers]() are and the Jobs they are responsible for in your [Domain](). This step lays the groundwork for the rest of the framework upon which all activities rely. 
-2. **[Uncover Needs]():** After defining the Jobs in your domain, the next step is to draft [Outcome statements](). These will be used to [benchmark]() the experience, [evaluate solutions](), and prioritize future efforts. 
-3. **[Quantify Outcomes]():** The next step in the process is to understand how well your customers' needs are met with the current experience. This is akin to [benchmarking]() and will result in a quantitative analysis of all your [Outcomes]() and the degree to which they are being met. 
-4. **[Evaluate Solutions]():** Once you establish a [benchmark]() for your [Outcomes](), you will continually refer to it as you create and [validate solutions](), checking to see if you have made a significant impact.
+1. **Define the Job:** The first step of the JTBD framework is to understand who your Job Performers are and the Jobs they are responsible for in your Domain. This step lays the groundwork for the rest of the framework upon which all activities rely. 
+2. **Uncover Needs:** After defining the Jobs in your domain, the next step is to draft Outcome statements. These will be used to benchmark the experience, evaluate solutions, and prioritize future efforts. 
+3. **Quantify Outcomes:** The next step in the process is to understand how well your customers' needs are met with the current experience. This is akin to benchmarking and will result in a quantitative analysis of all your Outcomes and the degree to which they are being met. 
+4. **Evaluate Solutions:** Once you establish a benchmark for your Outcomes, you will continually refer to it as you create and validate solutions, checking to see if you have made a significant impact.
 
 ## Core Concepts
 
 ### Job Performers vs. Personas
 
-Understanding the roles and contributions of [Job Performers]() (someone executing a Job) and Personas is crucial and highly valuable in the JTBD framework. Each Persona, like a Software Developer, may undertake various Jobs as part of their role (writing code, reviewing code, maintaining infrastructure, and so on). Similarly, other job titles or Personas may also undertake the [Main Jobs]() in JTBD; for example, an engineering manager may review code or plan projects. Both Personas and [Job Performers]() are valuable constructs that help understand and improve your product, but it is essential to keep them separate.
+Understanding the roles and contributions of Job Performers (someone executing a Job) and Personas is crucial and highly valuable in the JTBD framework. Each Persona, like a Software Developer, may undertake various Jobs as part of their role (writing code, reviewing code, maintaining infrastructure, and so on). Similarly, other job titles or Personas may also undertake the Main Jobs in JTBD; for example, an engineering manager may review code or plan projects. Both Personas and Job Performers are valuable constructs that help understand and improve your product, but it is essential to keep them separate.
 
 ### Job Types
 
-Understanding the different [job types]() and how they relate to each other is crucial for mapping out the entire customer experience and identifying [opportunities]() to create value. There are several key [job types]() to consider in the JTBD framework:
+Understanding the different job types and how they relate to each other is crucial for mapping out the entire customer experience and identifying opportunities to create value. There are several key job types to consider in the JTBD framework:
 
-- **Main Jobs:** The overarching goal or objective that the customer is trying to achieve is the [Main Job](). This is the highest-level job for a given [Domain](). Main Jobs are mapped using a [Job Map]() and are always solution-agnostic. 
-- **Consumption Jobs:** The specific tasks that a customer undertakes when interacting with a product or service are the [Consumption Jobs](). These includes every step from identifying a need, finding and selecting a solution, purchasing, configuring, using, maintaining, and eventually discontinuing its use. [Consumption Jobs]() do not have a [Job Map]() and are often solution-dependent.
-- **Related Jobs:** Other jobs that the customer may be trying to get done, either before, during, or after the [Main Job](). Understanding the [Related Jobs]() is **vital to providing the best platform experience** for the customer.
+- **Main Jobs:** The overarching goal or objective that the customer is trying to achieve is the Main Job. This is the highest-level job for a given Domain. Main Jobs are mapped using a Job Map and are always solution-agnostic. 
+- **Consumption Jobs:** The specific tasks that a customer undertakes when interacting with a product or service are the Consumption Jobs. These includes every step from identifying a need, finding and selecting a solution, purchasing, configuring, using, maintaining, and eventually discontinuing its use. Consumption Jobs do not have a Job Map and are often solution-dependent.
+- **Related Jobs:** Other jobs that the customer may be trying to get done, either before, during, or after the Main Job. Understanding the Related Jobs is **vital to providing the best platform experience** for the customer.
 
-[Learn more about Job Types]()
+Learn more about Job Types
 
 ### Job Maps
 
-The [Job Map]() is a visual representation of the sequence of [Stages]() a [Job Performer]() goes through to complete the [**Main Job**](). It reveals the underlying patterns of intent and the subgoals that make up the overall Job.
+The Job Map is a visual representation of the sequence of Stages a Job Performer goes through to complete the **Main Job**. It reveals the underlying patterns of intent and the subgoals that comprise the overall Job.
 
 ![Job Map](Concepts_Job_Map.png)
 
-Common [Stages]() of a [Job Map]() include, _but are not limited to:_
+Common Stages of a Job Map include, _but are not limited to:_
 
    - Define: Determine objectives and plan how to get the job done
    - Locate: Gather materials and information needed to do the job
@@ -49,28 +49,28 @@ Common [Stages]() of a [Job Map]() include, _but are not limited to:_
    - Modify: Modify and iterate as necessary
    - Conclude: End the job and follow-up
 
-These [Stages]() are arranged in a logical flow, with related [Job Steps]() clustered together with their relevant [Job Stage](). When complete and validated with users, the [Job Map]() will serve as a foundation for creating [Outcomes]() and uncovering [underserved needs]().
+These Stages are arranged in a logical flow, with related Job Steps clustered together with their relevant Job Stage. When complete and validated with users, the Job Map will serve as a foundation for creating Outcomes and uncovering underserved needs.
 
-[Learn more about Mapping the Job]()
+Learn more about Mapping the Job
 
 ### Outcomes
 
-[Outcomes]() are the specific, measurable, and actionable results that customers want to achieve when getting a Job done. They represent the desired end-state or performance metrics that customers use to evaluate the success of a solution. 
+Outcomes are the specific, measurable, and actionable results that customers want to achieve when getting a Job done. They represent the desired end-state or performance metrics that customers use to evaluate the success of a solution. 
 
-**[Outcomes]() are the most crucial part of the JTBD framework**, as they help you understand what customers truly value and how to design solutions that better meet their needs. By focusing on [Outcomes]() rather than features or functionality, you can uncover unmet or [underserved needs]() and identify opportunities to create differentiated value. By understanding the [Outcomes]() that customers care about, you can design more effective solutions, make better prioritization decisions, and measure the true impact of your work.
+**Outcomes are the most crucial part of the JTBD framework**, as they help you understand what customers truly value and how to design solutions that better meet their needs. By focusing on Outcomes rather than features or functionality, you can uncover unmet or underserved needs and identify opportunities to create differentiated value. By understanding the Outcomes that customers care about, you can design more effective solutions, make better prioritization decisions, and measure the true impact of your work.
 
 ![Job Map](Concepts_Outcomes.png)
 
-[Learn more about generating Outcome statements]()
+Learn more about generating Outcome statements.
 
 ### Continuous Evaluation
 
-Using [Outcomes]() allows for predictable, repeatable, and consistent evaluation methods, creating feedback loops that relate directly to the outcomes you are trying to influence. 
-- **Benchmarking:** Evaluate the [Main Job]() and [Consumption Job]() [Outcomes]() to establish a [benchmark]() and assist with prioritization by identifying [underserved needs](). 
-- **Baselining:** Evaluate the [Outcomes]() your team has delivered solutions for in the last six months, checking against the prior [benchmark]() scores.
-- **Solution Validation:** Evaluate how your soluition improves the targeted [Outcome(s)](), using the established [benchmark]() as reference.
+Using Outcomes allows for predictable, repeatable, and consistent evaluation methods, creating feedback loops that relate directly to the outcomes you are trying to influence. 
+- **Benchmarking:** Evaluate the Main Job and Consumption Job Outcomes to establish a benchmark and assist with prioritization by identifying underserved needs. 
+- **Baselining:** Evaluate the Outcomes your team has delivered solutions for in the last six months, checking against the prior benchmark scores.
+- **Solution Validation:** Evaluate how your soluition improves the targeted Outcome(s), using the established benchmark as reference.
 
-[Learn more about evaluation methods]()
+Learn more about evaluation methods
 
 ## Jobs Gitlab helps get done
 
