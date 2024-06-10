@@ -105,11 +105,11 @@ Additional information can be found on the [Planning page](/handbook/engineering
 
 * On the second Tuesday of the month the Product Manager kicks off the planning issue. They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
 * By the third Tuesday of the month the Engineering Managers have reviewed the planning issue and agreed on the scope for the milestone.
-   * All epics scheduled for this milestone should have the `~auto-report` label and **one** of these labels:
-      * `~Threat Insights::AI`
-      * `~Threat Insights::Performance`
-      * `~Threat Insights::Projects`
-   * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
+  * All epics scheduled for this milestone should have the `~auto-report` label and **one** of these labels:
+    * `~Threat Insights::AI`
+    * `~Threat Insights::Performance`
+    * `~Threat Insights::Projects`
+  * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
 
 ### Tracking Deliverables
