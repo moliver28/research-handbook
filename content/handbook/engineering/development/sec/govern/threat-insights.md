@@ -103,15 +103,41 @@ Additional information can be found on the [Planning page](/handbook/engineering
 
 ### Milestone Planning
 
-* On the second Tuesday of the month the Product Manager kicks off the planning issue.  They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
+* On the second Tuesday of the month the Product Manager kicks off the planning issue. They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
 * By the third Tuesday of the month the Engineering Managers have reviewed the planning issue and agreed on the scope for the milestone.
-* All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone.
+  * All epics scheduled for this milestone should have the `~auto-report` label and **one** of these labels:
+    * `~Threat Insights::AI`
+    * `~Threat Insights::Performance`
+    * `~Threat Insights::Projects`
+  * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
 
 ### Tracking Deliverables
 
 * Issues that are marked as Deliverables for a milestone serve as the single source of truth for what we aimed to deliver for a given milestone. Throughout the milestone, things may change, become blocked, etc. *Ideally, we'd like to keep the Planning Issue unchanged after the milestone starts.*
 * Something is considered delivered if it is either a. merged into production in time for the release date, b. completed before the next milestone start, or c. the feature flag enabling the feature is turned on.  It is important to keep track of the milestone of the deliverable; we encourage self-managed customers to turn on feature flags so they can try different features. Ensuring the milestone is correct, allows someone to tell if that change is available in a specific release.
+
+#### Weekly async issue updates
+
+At the end of every week, each engineer is expected to provide a quick async issue update by commenting on their assigned issues using the following template:
+
+```markdown
+### Async issue update
+
+* Current status:
+<!--- Please provide a quick summary of the current status (one sentence) -->
+
+* Shipping this milestone: <!-- Not confident | Slightly confident | Very confident -->
+
+* Scope reduction opportunities: <!-- No | Yes, ... -->
+
+/health_status <!-- on_track | needs_attention | at_risk -->
+/label <!-- ~"workflow::blocked" | ~"workflow::refinement" | ~"workflow::ready for development" | ~"workflow::In dev" | ~"workflow::In review" | ~"workflow::verification" -->
+
+<!-- Please apply a :triangular_flag_on_post: emoji to this comment. Fore more information see https://gitlab.com/jayswain/automated-reporting -->
+```
+
+We do this to encourage our team to be more async in collaboration and to allow the community and other team members to know the progress of issues that we are actively working on. This also enables us to automatically collate updates across swimlanes, removing some manual process.
 
 ### MR Reviews
 
