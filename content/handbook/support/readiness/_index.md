@@ -16,28 +16,28 @@ The purpose of Support Readiness is to enable GitLab to provide delightful custo
 
 ## Support Readiness FY25 Direction
 
-The FY25 Direction for Support Readiness should support and substantiate the overall [Support Direction]((/handbook/support/#fy25-direction)). To that end, in FY25 we will:
+The FY25 Direction for Support Readiness should support and substantiate the overall [Support Direction](/handbook/support/#fy25-direction). To that end, in FY25 we will:
 
 ### Improve our ability to achieve results for customers
 
- - Update and refine issue triage, prioritization and work assignment processes.
- - Create sub-department and role-based performance indicators.
- - Simplify and refine customer and support engineer experiences using Zendesk.
+- Update and refine issue triage, prioritization and work assignment processes.
+- Create sub-department and role-based performance indicators.
+- Simplify and refine customer and support engineer experiences using Zendesk.
 
 ### Team structure and how it supports our ability to achieve results
 
- - Refine team structure and team member roles; check-in with team members to make sure they're in the right "seat" and have the right responsibilities.
- - Make strategic hires to help better achieve our purpose and advance us in our direction.
+- Refine team structure and team member roles; check-in with team members to make sure they're in the right "seat" and have the right responsibilities.
+- Make strategic hires to help better achieve our purpose and advance us in our direction.
 
 ### Team culture and how it supports our ability to achieve results
 
- - Run a SWOT analysis and use its output to form purpose and direction statements.
- - Share knowledge, document and train on operationally critical issues to ensure business continuity.
+- Run a SWOT analysis and use its output to form purpose and direction statements.
+- Share knowledge, document and train on operationally critical issues to ensure business continuity.
 
 ### Delight our customers
 
- - Foster a customer-centric mindset that prioritizes empathy and proactive support.
- - Survey the Support team and take action based on the findings.
+- Foster a customer-centric mindset that prioritizes empathy and proactive support.
+- Survey the Support team and take action based on the findings.
 
 *Our direction is re-evaluated annually, following the completion of the [Support Direction](/handbook/support/#fy25-direction)*
 
