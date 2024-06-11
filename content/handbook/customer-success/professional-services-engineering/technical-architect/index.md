@@ -25,13 +25,7 @@ description: "Learn about the processes that the GitLab Technical Architect team
 
 ### Establish Credibility Around a Subject Matter
 
-**Purpose:**  
-
-- Address troubled accounts or those where establishing the value of working with services is challenging.
-
-**Role of TA:**  
-
-- Leverage their expertise to build trust and demonstrate the value of GitLab services in achieving desired outcomes.
+Addressing troubled accounts or those where establishing the value of working with services is challenging. TA's Leverage their expertise to build trust and demonstrate the value of GitLab services in achieving desired outcomes.
 
 ### Help with Discovery Calls
 
@@ -44,6 +38,10 @@ Facilitate effective discovery sessions to gather detailed requirements and insi
 **Role of TA:**  
 
 - Take over to ask more detailed, technical questions, ensuring all necessary information is gathered for successful project planning.
+- Clarify technical requirements and constraints, and document technical dependencies.
+Identify potential risks and challenges early in the discovery process.
+- Provide insights on best practices and suggest innovative solutions based on past experiences.
+- Ensure all technical aspects are comprehensively understood and documented to avoid scope creep and misunderstandings later in the project.
 
 ### Estimating Level of Effort (LOE) and Required Scope
 
@@ -53,11 +51,11 @@ Accurately determine the resources and time needed for a project.
 
 - Collaborate with EMs to figure out the LOE.
 - Account for potential risks and develop a comprehensive scope of work.
-- Utilize experience and technical knowledge to provide accurate estimates.
+- Utilize experience and technical knowledge to provide accurate estimates and assumptions.
 
 ### Helping Deliver Technical Details During Proposal
 
-- Ensure proposals are detailed and credible.
+Ensure proposals are detailed and credible.
 
 **Role of EM:**  
 
