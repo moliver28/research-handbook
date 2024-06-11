@@ -1,6 +1,7 @@
-# Professional Services Technical Architect
-
-Learn about the processes that the GitLab Technical Architect team uses for technical leadership, enablement, and to deliver successful engagements with customers. In Professional Services (PS), we strive to provide a first-class experience for all engagements.
+---
+title: "Professional Services Technical Architect"
+description: "Learn about the processes that the GitLab Technical Architect team uses for technical leadership, enablement, and to deliver successful engagements with customers. In Professional Services (PS), we strive to provide a first-class experience for all engagements."
+---
 
 ## Pre-Sales Support
 
