@@ -659,10 +659,10 @@ Swag are promotional merchandise or items branded with GitLab's logo or message 
 
 For information regarding Brand support, please visit the [Brand Creative Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand--marketing-design-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
 
-## Swag Distribution Guidelines 
+## Swag Distribution Guidelines
 
-- Identify the Event Type: The selection of swag will be based on the [event tactic](/handbook/marketing/field-marketing/#field-marketing-campaign-issue-templates-epic-codes-and-progression-status). Some examples - for a conference low value item such as pens, stickers or stess balls. For an executive dinner/roundtable a GitLab branded speaker or laptop bag. 
-- Analyze Audience Demographics: Understand the attendees' demographics, interests, and preferences. Consider factors like profession, seniority and location. 
+- Identify the Event Type: The selection of swag will be based on the [event tactic](/handbook/marketing/field-marketing/#field-marketing-campaign-issue-templates-epic-codes-and-progression-status). Some examples - for a conference low value item such as pens, stickers or stess balls. For an executive dinner/roundtable a GitLab branded speaker or laptop bag.
+- Analyze Audience Demographics: Understand the attendees' demographics, interests, and preferences. Consider factors like profession, seniority and location.
 - Budget Allocation: Set a budget for swag and shipping (contact your regional FMC for latest regional shipping charges).
 - Choose Swag Items: Select swag items that are practical, unique, and relevant to your audience. - Ensure the items align with the [brand identity and value](/handbook/marketing/brand-and-product-marketing/design/).
 - Promotional Games or giveaways - please refer to [Legal](/handbook/legal/marketing-collaboration/#promotional-games) if planning such an event.
@@ -675,7 +675,7 @@ For information regarding Brand support, please visit the [Brand Creative Handbo
 | Owned Events  | Examples such as Tshirts, stickers | The quantity depends on the confirmed number of attendees|
 | Executive roundtables/Dinners | High-quality items some examples include branded journals, laptop sleeves, and luxury tech accessories| The quantity depends on the confirmed number of executives attending. Aim for a smaller quantity of higher-quality items, ensuring each attendee receives a memorable and meaningful gift|
 
-### Swag distribution strategy for large conferences 
+### Swag distribution strategy for large conferences
 
 - To manage the availability of swag during large conferences, it may be useful to implement a swag distribution strategy. Implementing a swag distribution strategy that requires attendees to qualify to receive swag may enhance attendee engagement, incentivize participation, and maximize the impact of swag investment at large conferences.
 
@@ -684,7 +684,7 @@ For information regarding Brand support, please visit the [Brand Creative Handbo
 1. Everyone (badge) that is scanned > receive stickers
 1. People participating at demos > receive a pen or notebook or lego set
 1. High Value customers/prospects/specific titles > T-Shirts
- 
+
 #### Pre-Event Planning (FMM)
 
 - Identify the qualifying criteria for attendees to receive swag . This could include factors such as registering for the conference, attending specific demo sessions or presentations, engaging with sponsors or exhibitors, or completing surveys or challenges.
