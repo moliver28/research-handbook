@@ -1,5 +1,5 @@
 ---
-title: Google Calendar Guide (Delegation)
+title: Google Calendar Delegation Guide
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-title: Google Cloud
+title: Google Cloud Platform (GCP)
 ---
 
 This is a placeholder page. Please see the links below for any child pages that exist.

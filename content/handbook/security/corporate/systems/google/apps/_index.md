@@ -1,5 +1,5 @@
 ---
-title: Guide: Google Docs and Drive External Sharing Guide
+title: Google Workspace Apps
 ---
 
 This is a placeholder page. Please see the links below for any child pages that exist.
