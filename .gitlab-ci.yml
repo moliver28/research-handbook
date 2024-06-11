@@ -161,6 +161,11 @@ pages:
   rules:
     - <<: *default-branch
     - <<: *scheduled-pipeline
+    - if: '$CI_MERGE_REQUEST_LABELS =~ /hb-deploy-pages/'
+      variables:
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
     - <<: *merge-request-only
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
