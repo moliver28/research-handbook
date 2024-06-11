@@ -10,13 +10,13 @@ If you need any help with onboarding that isn't answered in the handbook or you'
 
 - [External Collaborators](/handbook/security/corporate/services/external-collaborators) (Customers, Partners, Vendors)
 - Team Members (Employees)
-    - [Access Requests](/handbook/security/corporate/services/access-requests)
-    - [Career Mobility (Role Changes)](/handbook/security/corporate/services/role-changes)
-    - [Laptops](/handbook/security/corporate/services/laptops)
-    - [Offboarding](/handbook/security/corporate/services/offboarding)
+  - [Access Requests](/handbook/security/corporate/services/access-requests)
+  - [Career Mobility (Role Changes)](/handbook/security/corporate/services/role-changes)
+  - [Laptops](/handbook/security/corporate/services/laptops)
+  - [Offboarding](/handbook/security/corporate/services/offboarding)
 - Temporary Service Providers (Contractors)
-    - [Contractors (Temporary Service Providers)](/handbook/security/corporate/services/temporary-users)
-    - [Laptops](/handbook/security/corporate/services/temporary-users/laptops)
+  - [Contractors (Temporary Service Providers)](/handbook/security/corporate/services/temporary-users)
+  - [Laptops](/handbook/security/corporate/services/temporary-users/laptops)
 
 ## Overview
 
@@ -39,32 +39,27 @@ Corporate Security also supports the onboarding of both types of contractors, ho
 
 ### Contractor (Temporary Service Provider) Guides
 
-
-
 ### Manager Guides
 
 - Access Requests
-    - Adding Team Member to Groups and Systems
-    - Create an AR for Team Member (Single System)
-    - Create an Onboarding AR for Missing Baseline Entitlement
-    -
+  - Adding Team Member to Groups and Systems
+  - Create an AR for Team Member (Single System)
+  - Create an Onboarding AR for Missing Baseline Entitlement
 - Approvals
-    - Approving an Access Request
+  - Approving an Access Request
 - Baseline and Role Entitlements
-    - Create a Baseline Template
-    - Deprecate a Baseline Template
-    - Missing Baseline Entitlement for New Team Member
-    - Rename a Baseline Template
-    - Update a Baseline Template
+  - Create a Baseline Template
+  - Deprecate a Baseline Template
+  - Missing Baseline Entitlement for New Team Member
+  - Rename a Baseline Template
+  - Update a Baseline Template
 - Group Memberships
-    - GitLab Groups
-    - Google Workspace Groups
-    - Slack Groups
+  - GitLab Groups
+  - Google Workspace Groups
+  - Slack Groups
 - Offboarding
-    -
 - Role Changes (Career Mobility)
 - Provisioning
-
 
 ### Team Member Guides
 
@@ -87,5 +82,3 @@ Corporate Security also supports the onboarding of both types of contractors, ho
 
 - [Access Management Policy](/handbook/security/access-management-policy/)
 - [Baseline Entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/)
-
-## FAQs

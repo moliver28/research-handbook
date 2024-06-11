@@ -26,9 +26,9 @@ After your 1Password account has been created during onboarding, you should [gen
 
 **After your onboarding tasks are completed, you should not be able to type or memorize your Okta password and it should be autofilled from 1Password.**
 
-[1Password Vendor Docs - Generate Strong Passwords](https://support.1password.com/strong-account-password/)
-[Okta Vendor Docs - Change Your Okta Password](https://help.okta.com/eu/en-us/content/topics/end-user/manage-account-settings.htm#Reset)
-[GitLab’s Password Policy](/handbook/security/#GitLab-password-policy-guidelines)
+- [1Password Vendor Docs - Generate Strong Passwords](https://support.1password.com/strong-account-password/)
+- [Okta Vendor Docs - Change Your Okta Password](https://help.okta.com/eu/en-us/content/topics/end-user/manage-account-settings.htm#Reset)
+- [GitLab’s Password Policy](/handbook/security/#GitLab-password-policy-guidelines)
 
 ### 2FA
 
@@ -39,18 +39,18 @@ For your first few days, don't worry about setting up mobile devices.
 For most users, this is simply adding your TouchID fingerprint to Okta for 2FA.
 
 - **macOS**
-    - 👀 [macOS Touch ID Guide](/handbook/security/corporate/systems/okta/user/touchid)
-    - [Okta Verify Device Trust for macOS](/handbook/security/corporate/systems/okta/verify/macos)
-    - [YubiKey Guide](/handbook/security/corporate/systems/okta/user/yubikey)
+  - 👀 [macOS Touch ID Guide](/handbook/security/corporate/systems/okta/user/touchid)
+  - [Okta Verify Device Trust for macOS](/handbook/security/corporate/systems/okta/verify/macos)
+  - [YubiKey Guide](/handbook/security/corporate/systems/okta/user/yubikey)
 - **Linux**
-    - Exception Group <!-- TODO -->
-    - [YubiKey Guide](/handbook/security/corporate/systems/okta/user/yubikey)
+  - Exception Group <!-- TODO -->
+  - [YubiKey Guide](/handbook/security/corporate/systems/okta/user/yubikey)
 - **Android 2FA**
-    - [Android 2FA Guide](/handbook/security/corporate/systems/okta/user/android)
-    - [Okta Verify Device Trust for Android](/handbook/security/corporate/systems/okta/verify/android)
+  - [Android 2FA Guide](/handbook/security/corporate/systems/okta/user/android)
+  - [Okta Verify Device Trust for Android](/handbook/security/corporate/systems/okta/verify/android)
 - **Apple iOS**
-    - [iOS Face ID 2FA Guide](/handbook/security/corporate/systems/okta/user/ios)
-    - [Okta Verify Device Trust for iOS](/handbook/security/corporate/systems/okta/verify/ios)
+  - [iOS Face ID 2FA Guide](/handbook/security/corporate/systems/okta/user/ios)
+  - [Okta Verify Device Trust for iOS](/handbook/security/corporate/systems/okta/verify/ios)
 
 ## Access Applications
 

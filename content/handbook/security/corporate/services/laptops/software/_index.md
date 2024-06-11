@@ -4,7 +4,6 @@ title: Laptop Software Configuration Standards
 
 ## Overview
 
-
 ## Security Policy
 
 Do not install software with many known security vulnerabilities.

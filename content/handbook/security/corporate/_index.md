@@ -72,11 +72,11 @@ Our mission is to empower our employees, enable the business, protect our custom
 - 👀 **Please see [CorpSec Support](/handbook/security/corporate/support) if you are looking for help.**
 - 📚 [Applications and Systems](/handbook/security/corporate/systems)
 - 🛟 [Helpdesk Services](/handbook/security/corporate/services/helpdesk)
-    - 🔐 [Access Requests](/handbook/security/corporate/services/access-requests)
-    - 💻 [Laptop and Logistics Services](/handbook/security/corporate/services/laptops)
-    - 🛬 [Onboarding](/handbook/security/corporate/services/onboarding)
-    - 🛫 [Offboarding](/handbook/security/corporate/services/offboarding)
-    - 🧑‍💻 [Tech Support (for Team Members)](/handbook/services/corporate/services/)
+  - 🔐 [Access Requests](/handbook/security/corporate/services/access-requests)
+  - 💻 [Laptop and Logistics Services](/handbook/security/corporate/services/laptops)
+  - 🛬 [Onboarding](/handbook/security/corporate/services/onboarding)
+  - 🛫 [Offboarding](/handbook/security/corporate/services/offboarding)
+  - 🧑‍💻 [Tech Support (for Team Members)](/handbook/services/corporate/services/)
 - ☁ [Infrastructure Services](/handbook/security/corporate/services/infrastructure)
 
 ## Engineering
