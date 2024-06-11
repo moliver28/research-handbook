@@ -1,6 +1,5 @@
 ---
 title: Laptop Recycling and Refurbishing
-# controlled_document: true
 ---
 
 ## Overview

@@ -1,6 +1,5 @@
 ---
 title: Laptop Donations
-# controlled_document: true
 ---
 
 ## Overview

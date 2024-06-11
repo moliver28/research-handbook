@@ -1,6 +1,5 @@
 ---
 title: Laptop Refresh Age Replacement
-# controlled_document: true
 ---
 
 ## Overview

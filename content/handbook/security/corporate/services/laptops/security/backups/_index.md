@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Backups
-# controlled_document: true
 ---
 
 ## Overview

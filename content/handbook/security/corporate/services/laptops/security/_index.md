@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Configuration Standards
-# controlled_document: true
 ---
 
 ## Overview

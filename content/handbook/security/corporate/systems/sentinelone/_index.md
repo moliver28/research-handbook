@@ -1,5 +1,4 @@
 ---
-# controlled_document: true
 title: "SentinelOne Endpoint Detection and Response (EDR)"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Apple iCloud Drive
-# controlled_document: true
 ---
 
 ## Overview

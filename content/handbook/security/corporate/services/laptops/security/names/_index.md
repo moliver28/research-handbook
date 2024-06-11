@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Hostnames and Usernames
-# controlled_document: true
 ---
 
 ## Overview

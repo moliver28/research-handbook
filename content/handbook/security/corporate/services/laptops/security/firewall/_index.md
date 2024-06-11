@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Firewalls
-# controlled_document: true
 ---
 
 ## Overview

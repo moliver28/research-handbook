@@ -1,6 +1,5 @@
 ---
 title: CorpSec Laptop and Logistics Services
-# controlled_document: true
 ---
 
 ## Purpose

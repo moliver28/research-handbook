@@ -1,6 +1,5 @@
 ---
 title: CorpSec Mobile Devices (Phones and Tablets) Services
-# controlled_document: true
 ---
 
 ## Overview

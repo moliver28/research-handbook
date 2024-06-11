@@ -1,6 +1,5 @@
 ---
 title: Laptop Procurement for New Team Members
-# controlled_document: true
 ---
 
 ## Overview

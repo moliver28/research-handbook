@@ -1,6 +1,5 @@
 ---
 title: Laptop Repairs and Replacements
-# controlled_document: true
 ---
 
 ### GitLab Laptop Replacement Program
@@ -30,7 +29,7 @@ Before repairing, you must open an issue in the [End User Services Issue Tracker
 
 Take the MacBook to the Apple Store (or any authorized service center). You should ensure that you have a recent backup before doing so, and that your laptop is not your only registered device for iCloud two-factor authentication.
 
-If the repair is less than $1,000 USD, follow the below process to repair and expense. 
+If the repair is less than $1,000 USD, follow the below process to repair and expense.
 
 Please make sure to attach/include any estimates or receipts for the repair that you get from Apple (or any authorized service center) in the issue. Picture or PDF will work just fine.
 

@@ -1,6 +1,5 @@
 ---
 title: Laptop Hardware Models and Specs
-# controlled_document: true
 ---
 
 ## Overview

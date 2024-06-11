@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Remote Management and Monitoring
-# controlled_document: true
 ---
 
 ## Overview

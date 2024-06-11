@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Web Browsers
-# controlled_document: true
 ---
 
 ## Overview

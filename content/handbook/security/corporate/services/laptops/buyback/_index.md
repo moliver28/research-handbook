@@ -1,6 +1,5 @@
 ---
 title: Laptop Buyback
-# controlled_document: true
 ---
 
 ## Overview
