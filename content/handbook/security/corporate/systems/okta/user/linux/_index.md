@@ -1,5 +1,5 @@
 ---
-title: Okta Verify Device Trust Guides (macOS Setup)
+title: Okta User Linux Setup Guide
 ---
 
 This is a placeholder page. Please see the links below for any child pages that exist.
