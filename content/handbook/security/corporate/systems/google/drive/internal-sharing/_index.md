@@ -1,5 +1,5 @@
 ---
-title: Google Docs and Drive Guide (Internal Sharing)
+title: Google Docs and Drive Internal Sharing Guide
 ---
 
 ## Overview

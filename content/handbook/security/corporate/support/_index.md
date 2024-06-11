@@ -12,7 +12,7 @@ The Corporate Security team provides tech support helpdesk services for team mem
 
 As part of our [self-service and self-learning](https://handbook.gitlab.com/handbook/values/#self-service-and-self-learning) efficiency value, we encourage you to check out the security self-service guides and runbooks documentation to see if you can find the answer to your question.
 
--  **👀 New Team Members:** [Onboarding 101 Guide](/handbook/security/corporate/support/onboarding)
+-  **👀 New Team Members:** [Security Onboarding 101 Guide](/handbook/security/corporate/support/onboarding)
 - (Public) [Corporate Security Systems and Access Requests](/handbook/security/corporate/systems)
 - (Internal) [Systems Handbook (Configuration and Runbooks)](https://handbook.gitlab.systems)
 
@@ -22,7 +22,6 @@ We have 24x5 coverage provided by [Helpdesk Support Analysts](/handbook/security
 
 - [Identity and Access Management](/handbook/security/corporate/services/identity)
     - [Access Requests](/handbook/security/corporate/services/access-requests)
-    - [Account Password and 2FA Resets](/handbook/security/corporate/services/account-resets)
     - [Career Mobility (Mover) and Role Changes Provisioning](/handbook/security/corporate/services/role-changes)
     - [External Collaborators (Customers, Partners, Vendors)](/handbook/security/corporate/services/external-collaborators)
     - [Onboarding (Joiner) Provisioning (Baseline Entitlements) and User Support](/handbook/security/corporate/services/onboarding)
@@ -34,6 +33,7 @@ We have 24x5 coverage provided by [Helpdesk Support Analysts](/handbook/security
     - [GCP](/handbook/security/corporate/systems/gcp)
 - [Laptops and Logistics](/handbook/security/corporate/services/laptops)
 - [Tech Support for Team Members](/handbook/security/corporate/services/support)
+    - [Account Password and 2FA Resets](/handbook/security/corporate/support/reset)
 
 **Please ask for assistance in the `#it_help` Slack channel.**
 

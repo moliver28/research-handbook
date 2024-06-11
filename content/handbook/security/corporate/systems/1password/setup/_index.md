@@ -2,8 +2,6 @@
 title: 1Password Setup Guide
 ---
 
-## Overview
-
 You will receive an invitation to get started in your email on your first day. You will get access to service or team-specific vaults in your onboarding or through access requests.
 
 As an added benefit, we give all team members a free [family account](https://support.1password.com/link-family/) for securing your personal passwords as well in two separate accounts with respective vaults.
