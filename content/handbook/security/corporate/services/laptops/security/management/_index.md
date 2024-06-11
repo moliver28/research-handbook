@@ -26,25 +26,25 @@ Your personal laptop is not enrolled in Jamf, and cannot be used for accessing G
 - [Jamf (Mac) Handbook Page](/handbook/security/corporate/systems/jamf)
 - [Jamf (Mac) Enrollment](/handbook/security/corporate/systems/jamf/setup)
 - [Laptop Services](/handbook/security/corporate/services/laptops)
-    - **Policies**
-        - [Procurement Guide and Shipping Times](/handbook/security/corporate/services/laptops/procurement)
-        - [Hardware Models and Specs](/handbook/security/corporate/services/laptops/hardware)
-        - [Operating System Standards](/handbook/security/corporate/services/laptops/os)
-        - [Security Configuration Standards](/handbook/security/corporate/services/laptops/security)
-        - [Apps and Software Standards](/handbook/security/corporate/services/laptops/software)
-    - **New Laptops**
-        - [Onboarding Hardware Ordering Guide](/handbook/security/corporate/services/laptops/onboarding)
-        - [Onboarding Software Setup Guide](/handbook/security/guides/onboarding)
-        - [Apple macOS Setup Guide](/handbook/security/corporate/systems/macos/guides/setup)
-        - [Linux Setup Guide](/handbook/security/corporate/systems/linux)
-    - **Laptop Replacement and Repairs**
-        - [Refresh/Replace Guide](/handbook/security/corporate/services/laptops/refresh)
-        - [Repair Guide](/handbook/security/corporate/services/laptops/)
-    - **Old Laptops**
-        - [Wipe (Factory Reset) Guide](/handbook/security/corporate/services/laptops/wipe)
-        - [Buy Back Guide](/handbook/security/corporate/services/laptops/buy-back)
-        - [Donation Guide](/handbook/security/corporate/services/laptops/donation)
-        - [Recycle/Return Guide](/handbook/security/corporate/services/laptops/recycle)
+  - **Policies**
+    - [Procurement Guide and Shipping Times](/handbook/security/corporate/services/laptops/procurement)
+    - [Hardware Models and Specs](/handbook/security/corporate/services/laptops/hardware)
+    - [Operating System Standards](/handbook/security/corporate/services/laptops/os)
+    - [Security Configuration Standards](/handbook/security/corporate/services/laptops/security)
+    - [Apps and Software Standards](/handbook/security/corporate/services/laptops/software)
+  - **New Laptops**
+    - [Onboarding Hardware Ordering Guide](/handbook/security/corporate/services/laptops/onboarding)
+    - [Onboarding Software Setup Guide](/handbook/security/guides/onboarding)
+    - [Apple macOS Setup Guide](/handbook/security/corporate/systems/macos/guides/setup)
+    - [Linux Setup Guide](/handbook/security/corporate/systems/linux)
+  - **Laptop Replacement and Repairs**
+    - [Refresh/Replace Guide](/handbook/security/corporate/services/laptops/refresh)
+    - [Repair Guide](/handbook/security/corporate/services/laptops/)
+  - **Old Laptops**
+    - [Wipe (Factory Reset) Guide](/handbook/security/corporate/services/laptops/wipe)
+    - [Buy Back Guide](/handbook/security/corporate/services/laptops/buy-back)
+    - [Donation Guide](/handbook/security/corporate/services/laptops/donation)
+    - [Recycle/Return Guide](/handbook/security/corporate/services/laptops/recycle)
 
 ## Endpoint Detection and Response (EDR)
 

@@ -13,7 +13,7 @@ The Corporate Security team provides tech support helpdesk services for team mem
 As part of our [self-service and self-learning](https://handbook.gitlab.com/handbook/values/#self-service-and-self-learning) efficiency value, we encourage you to check out the security self-service guides and runbooks documentation to see if you can find the answer to your question.
 
 -  **👀 New Team Members:** [Security Onboarding 101 Guide](/handbook/security/corporate/support/onboarding)
-- (Public) [Corporate Security Systems and Access Requests](/handbook/security/corporate/systems)
+- 👀 [Corporate Security Systems and Access Requests](/handbook/security/corporate/systems)
 - (Internal) [Systems Handbook (Configuration and Runbooks)](https://handbook.gitlab.systems)
 
 ### Tier 2. Helpdesk Support
@@ -21,19 +21,19 @@ As part of our [self-service and self-learning](https://handbook.gitlab.com/hand
 We have 24x5 coverage provided by [Helpdesk Support Analysts](/handbook/security/corporate/services/helpdesk) that can help you with access requests, account lockouts, authentication issues, laptop hardware, laptop software configuration problems, 1:1 training for unfamiliar technologies, and triage problems for any [Corporate Security Systems](/handbook/security/corporate/systems).
 
 - [Identity and Access Management](/handbook/security/corporate/services/identity)
-    - [Access Requests](/handbook/security/corporate/services/access-requests)
-    - [Career Mobility (Mover) and Role Changes Provisioning](/handbook/security/corporate/services/role-changes)
-    - [External Collaborators (Customers, Partners, Vendors)](/handbook/security/corporate/services/external-collaborators)
-    - [Onboarding (Joiner) Provisioning (Baseline Entitlements) and User Support](/handbook/security/corporate/services/onboarding)
-    - [Offboarding (Leaver) Deprovisioning](/handbook/security/corporate/services/offboarding)
-    - [Service Accounts](/handbook/security/corporate/services/service-accounts)
-    - [Temporary Service Providers](/handbook/security/corporate/services/temporary-service-providers)
+  - [Access Requests](/handbook/security/corporate/services/access-requests)
+  - [Career Mobility (Mover) and Role Changes Provisioning](/handbook/security/corporate/services/role-changes)
+  - [External Collaborators (Customers, Partners, Vendors)](/handbook/security/corporate/services/external-collaborators)
+  - [Onboarding (Joiner) Provisioning (Baseline Entitlements) and User Support](/handbook/security/corporate/services/onboarding)
+  - [Offboarding (Leaver) Deprovisioning](/handbook/security/corporate/services/offboarding)
+  - [Service Accounts](/handbook/security/corporate/services/service-accounts)
+  - [Temporary Service Providers](/handbook/security/corporate/services/temporary-service-providers)
 - [Infrastructure Management](/handbook/security/corporate/services/infrastructure)
-    - [AWS](/handbook/security/corporate/systems/aws)
-    - [GCP](/handbook/security/corporate/systems/gcp)
+  - [AWS](/handbook/security/corporate/systems/aws)
+  - [GCP](/handbook/security/corporate/systems/gcp)
 - [Laptops and Logistics](/handbook/security/corporate/services/laptops)
 - [Tech Support for Team Members](/handbook/security/corporate/services/support)
-    - [Account Password and 2FA Resets](/handbook/security/corporate/support/reset)
+  - [Account Password and 2FA Resets](/handbook/security/corporate/support/reset)
 
 **Please ask for assistance in the `#it_help` Slack channel.**
 

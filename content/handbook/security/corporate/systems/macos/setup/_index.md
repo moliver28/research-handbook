@@ -37,7 +37,6 @@ Please read through the [security standards](/handbook/security/corporate/servic
 
 <!-- TODO -->
 
-
 ## Apps Steps
 
 <!-- TODO -->

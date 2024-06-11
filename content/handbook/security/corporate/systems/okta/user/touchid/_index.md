@@ -6,7 +6,6 @@ title: Okta User SSO Guide (Touch ID 2FA Setup)
 
 ## Overview
 
-
 ## Configuration Steps
 
 1. While logged in to Okta from the device you wish to add, access the [Settings](https://gitlab.okta.com/enduser/settings) page.
@@ -19,9 +18,7 @@ title: Okta User SSO Guide (Touch ID 2FA Setup)
 
 <img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
 
-
 1. For iCloud Keychain or a YubiKey, click "Use a different passkey". For the local Chrome browser choose "Continue".
-
 
     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Add Passkey #1" width="300"/>
 
@@ -35,7 +32,6 @@ title: Okta User SSO Guide (Touch ID 2FA Setup)
 
     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Add Passkey #2" width="300"/>
 
-
 1. For Security Key, relevant prompts will appear.
 
     <img src="/handbook/business-technology/okta/images/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
@@ -43,7 +39,6 @@ title: Okta User SSO Guide (Touch ID 2FA Setup)
 1. You may be prompted for a PIN, and then finally click `Allow`.
 
     <img src="/handbook/business-technology/okta/images/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
-
 
 1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the [mobile device](#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android), then if required add the other computer [browser](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled) (for example, Safari).
 2. If clearing your browser cache, please be careful as you can delete your passkey.
@@ -53,6 +48,5 @@ title: Okta User SSO Guide (Touch ID 2FA Setup)
 Follow the GitLab Okta [FAQ](/handbook/business-technology/okta/okta-enduser-faq/).
 
 We have also prepared Introductory Videos on [Configuring Applications](https://youtu.be/xS2CarGUPLc) and [Dashboard Tips](https://youtu.be/xQQwa_pbe2U).
-
 
 <!-- END FIXME -->
