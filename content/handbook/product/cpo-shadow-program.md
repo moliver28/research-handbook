@@ -15,7 +15,7 @@ As the program has emphasis on customer meetings, travel is required for partici
 
 ## What To Expect
 
-As a CPO Shadow you will: 
+As a CPO Shadow you will:
 
 * Travel with CPO to meet with future and existing customers. This includes:
   * Customers where the CPO serves as their [Executive Sponsor](https://handbook.gitlab.com/handbook/sales/field-operations/field-enablement/executive-sponsor-program/)
@@ -25,30 +25,30 @@ As a CPO Shadow you will:
 * Take meeting notes and associated action items
   * Follow up with Product team members and customers ensuring associated action items are handled in a timely manner
   * Assist Sales with identifying the correct owner of the action items
-* Answer questions and interact with customers when it involves your product domain and expertise 
+* Answer questions and interact with customers when it involves your product domain and expertise
 * Build relationships with customers and with members of the Sales organization
 
-## What This Is Not 
+## What This Is Not
 
 The CPO Shadow Program is not a performance evaluation or the next step to a promotion. Being a CPO Shadow is not needed to get a promotion or a raise, and should not be a consideration factor for a promotion or raise, as diverse applicants have different eligibilities.
 
 ## Program Goals
 
-* Empower members of the Product division to operate with greater context 
+* Empower members of the Product division to operate with greater context
 * Contribute to the success of GitLab by supporting Sales
-* Enable the CPO to act on action items 
+* Enable the CPO to act on action items
 * Strengthen the connection between members of the Product division and the Sales organization
 
 ## Eligibility
 
 To ensure that the plan achieves maximum impact within GitLab, applications are limited to the following people:
 
-* Product Manager 
-* Product Designer 
-* UX Researcher 
-* Product Analyst 
-* Program Manager 
-* Pricing Manager 
+* Product Manager
+* Product Designer
+* UX Researcher
+* Product Analyst
+* Program Manager
+* Pricing Manager
 
 Only people within these job titles are eligible to apply for the CPO program.
 
