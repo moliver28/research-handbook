@@ -1,6 +1,5 @@
 ---
 title: Laptop Wipe (Factory Reset) Process
-# controlled_document: true
 ---
 
 ## Overview

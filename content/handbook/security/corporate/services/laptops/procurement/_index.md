@@ -1,6 +1,5 @@
 ---
 title: Laptop Procurement Processes
-# controlled_document: true
 ---
 
 <!-- TODO: Add links to other pages -->

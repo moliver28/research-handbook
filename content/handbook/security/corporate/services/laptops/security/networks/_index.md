@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Wireless Networks
-# controlled_document: true
 ---
 
 ## Overview

@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Locking When Unattended
-# controlled_document: true
 ---
 
 ## Overview

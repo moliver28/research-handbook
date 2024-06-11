@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Touch ID Biometrics
-# controlled_document: true
 ---
 
 ## Overview

@@ -1,6 +1,5 @@
 ---
 title: Laptop Security Standards for Disk Encryption
-# controlled_document: true
 ---
 
 ## Overview
