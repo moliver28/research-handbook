@@ -38,9 +38,9 @@ A Key Review should not be cancelled without permission. Permission to cancel or
 Required invitees are the CEO, the CFO, and the function head.
 Optional attendees are all other members of [the e-group](/handbook/company/structure/#e-group), the Chief of Staff to the CEO, and other team members as designated by their E-Group leader.
 
-Key Review Meetings may contain MNPI. As materials are limited access, participation is limited.
+Key Review Meetings may contain MNPI. As materials are limited access, participation is limited. Key Review agenda's and recording's should not be shared with team members who are not on the Key Review invite.
 
-If the Key Review meeting will not contain MNPI, it can be privately livestreamed to GitLab Unfiltered. Currently only the Data and Enterprise Apps Key Reviews are privately streamed.
+If the Key Review meeting will not contain MNPI, it can be privately livestreamed to GitLab Unfiltered. Currently only the Data and Enterprise Apps Key Reviews are privately streamed. 
 
 Functions that have these quarterly meetings are:
 
