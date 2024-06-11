@@ -7,7 +7,7 @@ Learn about the processes that the GitLab Technical Architect team uses for tech
 **Collaboration:**
 
 - Assist Sales, Solution Architects, Customer Success Managers, and Professional Services Engagement Managers with technical sales.
-- Follow MEDDPICC sales qualification methodology.
+- Follow [MEDDPICC](https://handbook.gitlab.com/handbook/sales/meddppicc/) sales qualification methodology.
 - Act as a trusted advisor during the scoping process.
 - Provide Engagement Managers with strategic technical solutions that complement the Customer Journey to full platform adoption
 <!-- - Understand and incorporate security, compliance, and observability into customer engagements. -->
