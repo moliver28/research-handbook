@@ -64,13 +64,13 @@ Corporate Security also supports the onboarding of both types of contractors, ho
 ### Team Member Guides
 
 - Access Requests
-    - New request for a single system
-    - New temporary service provider onboarding
-    - New team member onboarding (for new team member)
-    - Escalate the priority of an access request
-    - Find an existing access request
+  - New request for a single system
+  - New temporary service provider onboarding
+  - New team member onboarding (for new team member)
+  - Escalate the priority of an access request
+  - Find an existing access request
 - Baseline Entitlements
-    - Create a role-based entitlement
+  - Create a role-based entitlement
 
 ## Issue Trackers
 

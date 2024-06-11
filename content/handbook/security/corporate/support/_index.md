@@ -12,8 +12,8 @@ The Corporate Security team provides tech support helpdesk services for team mem
 
 As part of our [self-service and self-learning](https://handbook.gitlab.com/handbook/values/#self-service-and-self-learning) efficiency value, we encourage you to check out the security self-service guides and runbooks documentation to see if you can find the answer to your question.
 
--  **👀 New Team Members:** [Security Onboarding 101 Guide](/handbook/security/corporate/support/onboarding)
-- 👀 [Corporate Security Systems and Access Requests](/handbook/security/corporate/systems)
+- **👀 New Team Members:** [Security Onboarding 101 Guide](/handbook/security/corporate/support/onboarding)
+- **👀 Existing Team Members:** [Corporate Security Systems and Access Requests](/handbook/security/corporate/systems)
 - (Internal) [Systems Handbook (Configuration and Runbooks)](https://handbook.gitlab.systems)
 
 ### Tier 2. Helpdesk Support

@@ -1,5 +1,4 @@
 ---
-controlled_document: true
 title: "Access Requests (AR) Services"
 ---
 
@@ -71,15 +70,15 @@ If you have any access requests related questions, please reach out to `#it_help
 
 ## Role Based Entitlements
 
-* Role based entitlements are a pre-approved set of permissions that are granted to all people in a role. Make sure that whatever set of permissions you are adding to these templates should be granted to anyone with that role.
+- Role based entitlements are a pre-approved set of permissions that are granted to all people in a role. Make sure that whatever set of permissions you are adding to these templates should be granted to anyone with that role.
 
-* Role based entitlements need to be approved only once, when the template is created, and they don't need to be approved again on a case-by-case basis.
+- Role based entitlements need to be approved only once, when the template is created, and they don't need to be approved again on a case-by-case basis.
 
-* These templates cannot be edited to remove or add extra permissions once created, unless those changes are approved by a manager (or higher) of the team the role belongs to. Note that an approval is still required even if a change comes from a manager or higher on a baseline entitlement template to mitigate the risk of a permission change being pushed through by a single team member.
+- These templates cannot be edited to remove or add extra permissions once created, unless those changes are approved by a manager (or higher) of the team the role belongs to. Note that an approval is still required even if a change comes from a manager or higher on a baseline entitlement template to mitigate the risk of a permission change being pushed through by a single team member.
 
-* We have decided to remove all SOX applications from the Role-Based Entitlements templates.  Therefore, any access that is requested for our SOX-in-scope systems should follow the standard A/R process outlined here in our [handbook](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).  The impact to you is for any access going forward that was granted automatically via a role based entitlement will now need to be requested via a standard A/R so we can ensure approvals are properly captured.
+- We have decided to remove all SOX applications from the Role-Based Entitlements templates.  Therefore, any access that is requested for our SOX-in-scope systems should follow the standard A/R process outlined here in our [handbook](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).  The impact to you is for any access going forward that was granted automatically via a role based entitlement will now need to be requested via a standard A/R so we can ensure approvals are properly captured.
 
-* Please note when editing an existing template or creating a new one do not include access of any kind to a rolebased access template.  Full listing of SOX applications can be found [here](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
+- Please note when editing an existing template or creating a new one do not include access of any kind to a rolebased access template.  Full listing of SOX applications can be found [here](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
 
 ## Need help?
 
