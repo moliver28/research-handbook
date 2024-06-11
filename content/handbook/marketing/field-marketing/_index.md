@@ -627,6 +627,7 @@ Swag are promotional merchandise or items branded with GitLab's logo or message 
 For information regarding Brand support, please visit the [Brand Creative Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand--marketing-design-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
 
 ## Swag Distribution Guidelines 
+
 - Identify the Event Type: The selection of swag will be based on the [event tactic](/handbook/marketing/field-marketing/#field-marketing-campaign-issue-templates-epic-codes-and-progression-status). Some examples - for a conference low value item such as pens, stickers or stess balls. For an executive dinner/roundtable a GitLab branded speaker or laptop bag. 
 - Analyze Audience Demographics: Understand the attendees' demographics, interests, and preferences. Consider factors like profession, seniority and location. 
 - Budget Allocation: Set a budget for swag and shipping (contact your regional FMC for latest regional shipping charges).
@@ -634,29 +635,32 @@ For information regarding Brand support, please visit the [Brand Creative Handbo
 - Promotional Games or giveaways - please refer to [Legal](/handbook/legal/marketing-collaboration/#promotional-games) if planning such an event.
 
 
+## Recommended quantities for swag items based on different event types
+
 | Event Type |Swag Item | Recommended Quantity | 
 | ------ | ------ | -------------- | 
-|Conferences |Low-value items ($2-6 per item). Always have stickers and some examples of giveaways are pens, stress balls and mints  |The quantity depends on the expected number of attendees—an estimate based on previous similar events or registration numbers. Approx. recommended 30% of total attendance, if 1000 people are expected send 300 pieces of swag|
+|Conferences |Low-value items ($2-6 per item). Always have stickers and some other examples of giveaways are pens, stress balls and mints.  |The quantity depends on the expected number of attendees—an estimate based on previous similar events or registration numbers. Approx. recommended 30% of total attendance, if 1000 people are expected send 300 pieces of swag|
 | Owned Events  | Examples such as Tshirts, stickers | The quantity depends on the confirmed number of attendees|
 | Executive roundtables/Dinners | High-quality items some examples include branded journals, laptop sleeves, and luxury tech accessories| The quantity depends on the confirmed number of executives attending. Aim for a smaller quantity of higher-quality items, ensuring each attendee receives a memorable and meaningful gift|
 
 
-###Swag distribution strategy for large conferences 
+### Swag distribution strategy for large conferences 
+
 - To manage the availability of swag during large conferences, it may be useful to implement a swag distribution strategy. Implementing a swag distribution strategy that requires attendees to qualify to receive swag may enhance attendee engagement, incentivize participation, and maximize the impact of swag investment at large conferences.
 
-**Example of a Swag Distribution Strategy at a large 2 day Conference**
+**An Example of a Swag Distribution Strategy at a large 2 day Conference**
 
 1. Everyone (badge) that is scanned > receive stickers 
 1. People participating at demos > receive a pen or notebook or lego set
 1. High Value customers/prospects/specific titles > T-Shirts
  
-
 #### Pre-Event Planning (FMM):
+
 - Identify the qualifying criteria for attendees to receive swag . This could include factors such as registering for the conference, attending specific demo sessions or presentations, engaging with sponsors or exhibitors, or completing surveys or challenges.
 - Determine the types of swag items to be distributed and establish the quantity based on the anticipated attendance and budget constraints.
 
-
 #### Post-Event Follow-Up:
+
 - Analyze data collected during the event to evaluate the effectiveness of the swag strategy and identify opportunities for refinement in future conferences.
 - Request team's who attended the event for their feedback and to add to the recap spreadsheet located in the main event issue.
 
