@@ -11,11 +11,11 @@ In other words...
 - Never leave your unlocked computer unattended.
 - Activate the screensaver, lock the desktop, or close the lid.
 - When possible, sign out or close active web browser sessions when finished.
-- If using public [wireless networks](/handbook/security/corporate/services/laptops/security/networks), you should disable WiFi on your laptop when not in use or when traveling to avoid network traffic interception.
+- If using public [wireless networks](/handbook/security/corporate/services/laptops/security/networks), you should disable WiFi on your laptop when not in use or when traveling to avoid network traffic interception or use Nordlayer VPN.
 
 ## Screen Saver and Password Lock
 
-> **No Action Required:** This has been automatically configured by [Jamf MDM](/handbook/security/corporate/systems/jamf), however verification is recommended.
+> **No Action Required:** This has been automatically configured by [Jamf](/handbook/security/corporate/systems/jamf), however verification is recommended.
 
 - Set up a screen saver with password lock on your laptop with a timeout of 15 minutes (or less).
 - Require password after screen saver starts after 5 seconds (or less).
