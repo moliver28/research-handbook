@@ -85,7 +85,7 @@ You’ve now got some time to do some investigation on some of your accounts. Yo
 
 ### When to do it
 
-You should log your call notes immediately after the call. Even better: during the call. It is required that all verbal interactions with customers are logged as call notes, this includes if you are shadowing the call or doing a prep call. Additionaly when in customer visit you should log an activity as "Customer Onsite" and add your notes of the meeting. 
+You should log your call notes immediately after the call. Even better: during the call. It is required that all verbal interactions with customers are logged as call notes, this includes if you are shadowing the call or doing a prep call. Additionaly when in customer visit you should log an activity as "Customer Onsite" and add your notes of the meeting.
 
 ### How to do it
 
