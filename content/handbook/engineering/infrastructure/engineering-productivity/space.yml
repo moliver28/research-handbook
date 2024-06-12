@@ -1,0 +1,24 @@
+- name: Test
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/"
+  definition: Test
+  target: equal or greater than 99.80%
+  org: Infrastructure Department
+  category: satisfaction
+  dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons:
+      - April 2024 Availability 99.95%
+      - March 2024 Availability 100.00%
+      - February 2024 Availability 99.82%
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/GitlabAvailabilitySLO
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+  urls:
+    - https://about.gitlab.com/handbook/engineering/monitoring/#historical-service-availability
+    - https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now
+    - https://10az.online.tableau.com/#/site/gitlab/views/InfrastructureKPIs/Gitlab_comAvailabilityKPI
+    - https://docs.google.com/spreadsheets/d/1ee7O2k0Krg9PYDta_nehRZM2JMssPm81vS8kv05fu5g/edit#gid=0
