@@ -21,7 +21,7 @@ This action should only be taken if given explicit permission in a ticket from t
 
 ## Workflow
 
-1. Confirm / add the spt_meta_5144 tag to the ticket tags. This will automatically be done if the [Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletio](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro was used earlier.
+1. Add the `spt_meta_5144` tag to the ticket. This will automatically be done if the [Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro was used earlier.
 1. Access the user account from the admin account - https://gitlab.com/admin/users/example_username
 1. Verify the Admin Note says `User deleted own account on {timestamp}`
 1. Click the **elipses icon (kabab) > Delete User**
