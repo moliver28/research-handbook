@@ -208,4 +208,65 @@ The following metrics are used to determine a customer's SCM Adoption Score:
 - [Account Landscape](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTAccountLandscapeUseCaseAdoption/AccountLandscapeDashboard?:iid=1) - A dashboard that provides macro level overview of all customers to identify and target specific segments of customers with change in use case adoption
 <br>
 
-##### **Disclaimer:**  The scoring criterias & thresholds will continue to evolve as we iterate
+### Lack of Adoption Reason Tracking
+
+**Overview:**
+<br>
+
+With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at Gitlab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer’s Success Plan.
+<br>
+
+**How to Track:**
+<br>
+
+1. Log-in to Gainsight
+2. Navigate to a customer's C360
+3. Scroll down to the Account Attributes (Editable) section
+4. Locate the field corresponding to the Use Case for which you'd like to track a Lack of Adoption Reason (The two currently available are Lack of CI Adoption Reason and Lack of Security Adoption Reason)
+5. Select the most applicable reason from the dropdown
+6. Your selection will auto-save
+<br>
+
+**How to view all of your customers' Lack of Adoption Reasons:**
+<br>
+
+1. Log-in to Gainsight
+2. Navigate to Dashboards using the side navigation
+3. Select the CSM Portfolio dashboard from the picklist located in the top left
+4. The currently populated Lack of Adoption Reasons can be found in the Customer Detail Report section of the dashboard
+<br>
+
+**Lack of CI Adoption Reasons:**
+<br>
+
+1. Challenges Related to Licensing Tiers, Seats, Compute Mins and Storage Costs
+2. Security and Compliance Workflow Challenges
+3. Challenges Related to Learning About Functionality and How to Use It
+4. Organizational Challenges Within Your Company Related to Adopting
+5. GitLab Continuous Integration (CI) Workflow(s) Challenges
+6. Deployment Workflow(s) Challenges within Gitlab
+7. Challenges with Planning and Tracking Work
+8. Repository and Code Review Workflow Challenges
+9. Migrating to GitLab
+10. Platform downtime / availability
+11. Does not intend to use GitLab CI
+12. Is all-in on GitLab CI (no other solution) but has high business user count
+13. N/A (Green CI adoption)
+<br>
+
+**Lack of Security Adoption Reasons:**
+<br>
+
+1. User Roles and Access Management
+2. Configuring and maintaining the security scanning of application code
+3. Managing security scan results and remediating confirmed vulnerabilities
+4. Dependency management, scanning, and visualization
+5. Secrets and/or CI Variables Management
+6. Integration with SSO Providers
+7. Compliance Workflows (including rolled-up views, workflows)
+8. Stuck on adoption outside of DSO (CI, etc)
+9. Migrating to GitLab
+10. Organizational Challenges Within Your Company Related to Adopting
+11. Security and Compliance Workflow Challenges
+12. N/A (Green DSO Adoption)
+<br>
