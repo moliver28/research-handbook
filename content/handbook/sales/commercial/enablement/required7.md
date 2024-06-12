@@ -41,9 +41,9 @@ You’ve now got some time to do some investigation on some of your accounts. Yo
    <td><strong>Why?</strong></td>
   </tr>
   <tr>
-   <td><strong>Logging call notes with (ii) in the title</strong></td>
+   <td><strong>Logging call notes & Customer visits with (ii) in the title</strong></td>
    <td>Every verbal interaction with an account is logged.</td>
-   <td>It is important to have a log of what was discussed previously, as no one has a memory that good. It also enables your buddy or manager to take over. In addition, the Customer Success Managers, Solutions Architects and Product teams review call notes for their own jobs.</td>
+   <td>It is important to have a log of what was discussed previously, as no one has a memory that good. It also enables your buddy or manager to take over. In addition, the Customer Success Managers, Solutions Architects and Product teams review call notes for their own jobs. If you go visit your customer please log your notes under "Customer Onsite".</td>
   </tr>
   <tr>
    <td><strong>Rank/tier all of your accounts </strong></td>
@@ -61,8 +61,8 @@ You’ve now got some time to do some investigation on some of your accounts. Yo
    <td>Enables you to forecast with precision.</td>
   </tr>
   <tr>
-   <td><strong>Command plans for all deals over $5k amount or $10k ARR (SMB) or $10k amount or $20k ARR (Mid-Market)</strong></td>
-   <td>Overview section must be completed for deals over $5k in SMB (Total Contract Value, not ARR) or $10k in Mid-Market. Full for deals over $10k ARR in SMB or $20k in Mid-Market</td>
+   <td><strong>Command plans for all deals over $50k NetARR (Mid-Market)</strong></td>
+   <td>Command plan must be completed for deals over $50k in Mid-Market. You are expected to update in at least every 30 days for as long as the deal is open.</td>
    <td>The command plan is a guide of how well qualified your opportunity is and signposts what needs to happen next. If you have not spoken to the customer yet, then add in questions you will ask in the Command Plan fields. If the deal is going through a partner then work with the partner and the Channel Account Manager (CAM) to get the answers required.</td>
   </tr>
   <tr>
@@ -81,11 +81,11 @@ You’ve now got some time to do some investigation on some of your accounts. Yo
 
 ## The 7 in detail
 
-## 1/ Call notes
+## 1/ Call notes & Customer visits
 
 ### When to do it
 
-You should log your call notes immediately after the call. Even better: during the call. It is required that all verbal interactions with customers are logged as call notes, this includes if you are shadowing the call or doing a prep call.
+You should log your call notes immediately after the call. Even better: during the call. It is required that all verbal interactions with customers are logged as call notes, this includes if you are shadowing the call or doing a prep call. Additionaly when in customer visit you should log an activity as "Customer Onsite" and add your notes of the meeting. 
 
 ### How to do it
 
@@ -195,20 +195,15 @@ Command Plans are your guide throughout your opportunities. They signpost where 
 
 They should be created as soon as you have spoken to the account. If you have not yet spoken to them, then the command plan must be filled in with the questions you will ask when you do speak to them. If the deal is going through a partner then work with the partner and the Channel Account Manager (CAM) to get the answers required.
 
-*You need to continually update your Command Plan with every interaction with an account. A good Command Plan will get more content over time. Opportunities in stage 2 or above must have real information in the Command Plan, i.e. no template questions.*
+*You need to continually update your Command Plan with every interaction with an account. A good Command Plan will get more content over time. Opportunities in stage 2 or above must have real information in the Command Plan, i.e. no template questions. We consider command plan that have not been updated in the past 30 days obsolete*
 
 ### How to do it
 
 Navigate to your opportunity and hit the Command Plan button. Enter in the information / questions in the fields.
 
-**For deals over $5k AMOUNT but less than $10k ARR (SMB) or $10k AMOUNT but less than $20k AMOUNT (MM)**
+**For all deals over $50k with a close date in current quarter or next quarter (MM)**
 
 - Opportunity Overview
-
-**For deals over $10k ARR (SMB) or $20k (MM)**
-
-All of the above and:
-
 - MEDDPPICC
 - Close Plan Details
 
