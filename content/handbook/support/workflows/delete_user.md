@@ -35,7 +35,7 @@ If the user has not been deleted within a reasonable amount of time, verify the 
 
 - Check the delete request from the UI went through
 
-```
+```text
 View: pubsub-rails-inf-gprd*
 
 Search: json.action: destroy AND json.meta.user: "<your-admin-username>"
@@ -43,7 +43,7 @@ Search: json.action: destroy AND json.meta.user: "<your-admin-username>"
 
 - Check the delete user worker completed
 
-```
+```text
 View: pubsub-sidekiq-inf-gprd*
 
 Search: json.class: DeleteUserWorker AND json.meta.user: "<your-admin-username>"
@@ -51,7 +51,7 @@ Search: json.class: DeleteUserWorker AND json.meta.user: "<your-admin-username>"
 
 - Check the users_migrate_records_to_ghost_user_in_batches_worker cron job is completing. This job runs every 2 minutes. There might be a delay depending on how many batches there are.
 
-```
+```text
 View: pubsub-sidekiq-inf-gprd*
 
 Search: json.class: Users::MigrateRecordsToGhostUserInBatchesWorker
