@@ -26,13 +26,17 @@ UX research operations coordinators have several resources to recruit from. Lear
 
 For us to best respect our participant’s time, we place people on cool-down after they have been contacted by UX Research for a study. This not only ensures we are mindful of our participants' experience, but also enables us to remain tax compliant when it comes to gratuities. The table below shows the timelines that we follow. These timelines apply only to outreach we carry out directly. Third party tools such as Respondent or UserTesting will have their own cool-down rules.
 
+
 | **Recruitment Stage** | **Cool-Down Period** |
 | ------ | ------ |
-| Invitation Sent and/or survey/screener filled in only | 4 weeks |
+| Invitation Sent for screener/survey* and no response | 4 weeks |
+| Invitation Sent for screener/survey* and they do respond but not selected  | 4 weeks    |
 | Invited for follow-up interview and does _not_ take part  | 6 weeks    |
-| Invited for follow-up interview and does take part |  12 weeks* |
+| Invited for follow-up interview and does take part |  12 weeks** |
 
-*The 12 week cool-down is the bucket many participants will fall into. For hard to reach participants, or participants that have agreed to take part in multiple research studies, this is reduced to 6-8 weeks. 
+*If a participant is invited for a survey such as SUS or CSAT, we ensure that they are not added to the next large survey outreach that is conducted. Receiving multiple surveys back to back can lead to opt-outs and is not a pleasant participant experience. These participants may still be invited to fill in individual screeners if they are not on cool-down during the time of outreach.
+
+**The 12 week cool-down is the bucket many participants will fall into. For niche participants, or participants that have agreed to take part in multiple research studies, this is reduced to 6-8 weeks. 
 
 ### GDPR and CAN-SPAM requirements
 
