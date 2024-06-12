@@ -10,7 +10,7 @@ We believe in staying up to date with security patches on all endpoint operating
 
 You should plan on performing software updates for 30-60 minutes every 2-3 weeks. It is easiest to plan for this towards the end of your workday or the end of the work week so that you can save any work and close any application windows before needing to restart your laptop.
 
-When a new macOS version is released, our security beta testers will perform testing on the latest version to ensure the upgrade goes smoothly without any breaking changes that impact your productivity. After 1-3 weeks of testing (except for critical vulnerabilities), we use [Jamf MDM](/handbook/security/corporate/systems/jamf) and [Nudge](#nudge-reminders) to send desktop popup notifications to remind team members to update their operating system at their earliest convenience within the next few days.
+When a new macOS version is released, our security beta testers will perform testing on the latest version to ensure the upgrade goes smoothly without any breaking changes that impact your productivity. After 1-3 weeks of testing (except for critical vulnerabilities), we use [Jamf](/handbook/security/corporate/systems/jamf) and [Nudge](#nudge-reminders) to send desktop pop-up notifications to remind team members to update their operating system at their earliest convenience within the next few days.
 
 ## Configuration Steps
 
