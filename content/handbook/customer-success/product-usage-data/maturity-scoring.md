@@ -210,10 +210,33 @@ The following metrics are used to determine a customer's SCM Adoption Score:
 
 ### Lack of Adoption Reason Tracking
 
-With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at Gitlab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer’s Success Plan. Below are the two lists of reasons for CI & Security.
+**Overview:**
 <br>
 
-**CI**
+With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at Gitlab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer’s Success Plan. 
+<br>
+
+**How to Track:**
+<br>
+
+1. Log-in to Gainsight
+2. Navigate to a customer's C360
+3. Scroll down to the Account Attributes (Editable) section
+4. Locate the field corresponding to the Use Case for which you'd like to track a Lack of Adoption Reason (The two currently available are Lack of CI Adoption Reason and Lack of Security Adoption Reason)
+5. Select the most applicable reason from the dropdown
+6. Your selection will auto-save
+<br>
+
+**How to view all of your customers' Lack of Adoption Reasons:**
+<br>
+
+1. Log-in to Gainsight
+2. Navigate to Dashboards using the side navigation
+3. Select the CSM Portfolio dashboard from the picklist located in the top left
+4. The currently populated Lack of Adoption Reasons can be found in the Customer Detail Report section of the dashboard
+<br>
+
+**Lack of CI Adoption Reasons:**
 <br>
 
 1. Challenges Related to Licensing Tiers, Seats, Compute Mins and Storage Costs
@@ -231,7 +254,7 @@ With each of our CSM/A managed customers we track the primary reasons for lack o
 13. N/A (Green CI adoption)
 <br>
 
-**Security**
+**Lack of Security Adoption Reasons:**
 <br>
 
 1. User Roles and Access Management
