@@ -4,9 +4,9 @@ title: Laptop Security Standards for Disk Encryption
 
 ## Overview
 
-All laptops need to have hard drive disk encryption enabled.
+All laptops are required to have hard drive disk encryption enabled.
 
-Before we used Jamf for compliance and monitoring, all team members needed to provide proof of disk encryption in the new laptop order issue.
+All team members needed to provide proof of disk encryption in the new laptop order or onboarding issue.
 
 ## Configuration Steps
 

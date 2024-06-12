@@ -6,7 +6,7 @@ title: Laptop Security Standards for Apple ID
 
 **Please create a new Apple ID** using your `{handle}@gitlab.com` work email address to keep your personal and work data separate.
 
-**Do not use your personal email address Apple ID.**
+**Do not sign into your MacBook with a personal email address Apple ID.**
 
 When prompted for a credit card for purchases, use a personal card. You can submit expense reports for apps that you purchase on the App Store using an `@gitlab.com` Apple ID.
 
