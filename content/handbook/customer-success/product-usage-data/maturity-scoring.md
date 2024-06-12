@@ -208,4 +208,42 @@ The following metrics are used to determine a customer's SCM Adoption Score:
 - [Account Landscape](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTAccountLandscapeUseCaseAdoption/AccountLandscapeDashboard?:iid=1) - A dashboard that provides macro level overview of all customers to identify and target specific segments of customers with change in use case adoption
 <br>
 
-##### **Disclaimer:**  The scoring criterias & thresholds will continue to evolve as we iterate
+### Lack of Adoption Reason Tracking
+
+With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at Gitlab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer’s Success Plan. Below are the two lists of reasons for CI & Security.
+<br>
+
+**CI**
+<br>
+
+1. Challenges Related to Licensing Tiers, Seats, Compute Mins and Storage Costs
+2. Security and Compliance Workflow Challenges
+3. Challenges Related to Learning About Functionality and How to Use It
+4. Organizational Challenges Within Your Company Related to Adopting 
+5. GitLab Continuous Integration (CI) Workflow(s) Challenges
+6. Deployment Workflow(s) Challenges within Gitlab
+7. Challenges with Planning and Tracking Work
+8. Repository and Code Review Workflow Challenges
+9. Migrating to GitLab
+10. Platform downtime / availability
+11. Does not intend to use GitLab CI
+12. Is all-in on GitLab CI (no other solution) but has high business user count
+13. N/A (Green CI adoption)
+<br>
+
+**Security**
+<br>
+
+1. User Roles and Access Management
+2. Configuring and maintaining the security scanning of application code
+3. Managing security scan results and remediating confirmed vulnerabilities
+4. Dependency management, scanning, and visualization
+5. Secrets and/or CI Variables Management
+6. Integration with SSO Providers
+7. Compliance Workflows (including rolled-up views, workflows)
+8. Stuck on adoption outside of DSO (CI, etc)
+9. Migrating to GitLab
+10. Organizational Challenges Within Your Company Related to Adopting 
+11. Security and Compliance Workflow Challenges
+12. N/A (Green DSO Adoption)
+<br>
