@@ -151,7 +151,7 @@ If both of previous devices are not available, you could use a [YubiKey](https:/
 
 ### I would like to get a YubiKey, how can I do so?
 
-Please fill open up the Slack form using /yubikey in a DM to yourself, ([check out our guide for some additional information](/handbook/it/guides/yubikey/)), and we will coordinate shipment of one to you thru our group buy.
+Please fill open up the Slack form using /yubikey in a DM to yourself, ([check out our guide for some additional information](handbook/security/guides/yubikey/)), and we will coordinate shipment of one to you thru our group buy.
 
 ### Lost access to your 2FA or your OKTA account has been locked out because of failed attempts?
 
