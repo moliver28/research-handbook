@@ -161,7 +161,7 @@ pages:
   rules:
     - <<: *default-branch
     - <<: *scheduled-pipeline
-    - if: '$CI_MERGE_REQUEST_LABELS =~ /hb-deploy-pages/'
+    - if: '$CI_MERGE_REQUEST_LABELS =~ /deploy-review-app-always/'
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
