@@ -96,6 +96,8 @@ Some examples where an RFI can provide value:
 - Decisions on product security features and functionality
 - Third-party vendor and product evaluations
 
+Supporting S1 incidents will always take priority over all other work.
+
 Requests for Information use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/rfi.md?ref_type=heads).
 
 ## <i class="fas fa-chart-simple" id="biz-tech-icons"></i> How We Measure Success
