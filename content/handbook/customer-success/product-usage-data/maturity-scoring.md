@@ -213,7 +213,7 @@ The following metrics are used to determine a customer's SCM Adoption Score:
 **Overview:**
 <br>
 
-With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at Gitlab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer’s Success Plan. 
+With each of our CSM/A managed customers we track the primary reasons for lack of adoption of CI and Security Use Cases as these are critical for unlocking broader platform value. With the reasons tracked systematically we are then able to make a more concerted effort in building content and programs around each reason. As a CSM/A at Gitlab, it is expected that for every customer managed we have this reason populated and updated as needed (Security reasons are only needed for Ultimate customers). It should then be kept in mind when developing and executing against the customer’s Success Plan.
 <br>
 
 **How to Track:**
@@ -242,7 +242,7 @@ With each of our CSM/A managed customers we track the primary reasons for lack o
 1. Challenges Related to Licensing Tiers, Seats, Compute Mins and Storage Costs
 2. Security and Compliance Workflow Challenges
 3. Challenges Related to Learning About Functionality and How to Use It
-4. Organizational Challenges Within Your Company Related to Adopting 
+4. Organizational Challenges Within Your Company Related to Adopting
 5. GitLab Continuous Integration (CI) Workflow(s) Challenges
 6. Deployment Workflow(s) Challenges within Gitlab
 7. Challenges with Planning and Tracking Work
@@ -266,7 +266,7 @@ With each of our CSM/A managed customers we track the primary reasons for lack o
 7. Compliance Workflows (including rolled-up views, workflows)
 8. Stuck on adoption outside of DSO (CI, etc)
 9. Migrating to GitLab
-10. Organizational Challenges Within Your Company Related to Adopting 
+10. Organizational Challenges Within Your Company Related to Adopting
 11. Security and Compliance Workflow Challenges
 12. N/A (Green DSO Adoption)
 <br>
