@@ -12,6 +12,7 @@ We need to proactively identify languages, testing questions and teams with them
 
 - Small team size
 - Languages which has a lot of open source contributions like Java, Python
+- Familiarize yourself with [Duo Chat best practices](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/) and [Duo Code Suggestions top tips](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/). There are some great tips and tricks in this blog to assist with integrating Duo Chat and Code Suggestions into a customer's workflow. Check the documentation for more practical [GitLab Duo uses case](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html).
 - Proactive testing scenario
 - Time boxed hands on POV with active guidance throughout
 - Conduct a pre survey before the POV and post survey after the POV to gauge the success
