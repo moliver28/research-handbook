@@ -38,5 +38,5 @@ Improve the consistency of results across the Product Division by implementing t
 |-----------------------|-----------------------|
 | Facilitators          | Jackie Porter, Giuliana Lucchesi         |
 | Functional Lead(s)    | Angela Pesta (UX), TBA (Product Management), TBA (Monetization/Fulfillment)   |
-| Member                |  |
+| Member                | Tre Ely (Talent Development) |
 | Executive Stakeholder | David DeSanto |
