@@ -53,6 +53,59 @@ Candidates will then be invited to schedule a second interview with our CPO, Dir
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
 
+#### . Director, People Tools and Technology Career Ladder
+
+The next step is to move to VP, People Operations.
+
+### Sr. Director, People Technology and Analytics
+
+The Director, People Tools and Technology reports to VP, People Operations.
+
+#### Director, People Tools and Technology Job Grade
+
+The Director, People Group Tools and Technology is [Job Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Director, People Tools and Technology Responsibilities
+
+- Collaborate across GitLab to implement various systems to improve scalability and efficiency.
+- Create and execute a 3-Year technology roadmap.
+- Create and implement a data analytics roadmap, creating data elements needed to support decision making and to create business insights.
+- Improve and automate our onboarding, career mobility and offboarding processes in particular to ensure streamlined workflows and compliance.
+- Implement tools that improve the Team Member experience at GitLab.
+- Ensure seamless data sharing from single sources of truth (Human Capital Management System) to external systems such as payroll, benefits, Okta.
+- Implement People Group support tool to streamline questions from multiple sources.
+- Implement People Group processes/iterating for efficiency.
+- Create and implement data dictionary for consistent use of People data.  Implement data requirements and audits to ensure accuracy.
+- Help the People Group maintain Single Source of Truth within the handbook
+- Keep confidentiality in mind with all the projects and automations and actively look out that other People Group projects do this as well
+- Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
+- Represent GitLab and its values in public communication around specific projects and community contributions.
+
+#### Director, People Tools and Technology Requirements
+
+- Ten+ years’ experience in People Technology, with seven+ years' experience leading and managing a People Technology organization or Applications group at a fast growing high technology company.
+- Excellent change management skills and ability to operate effectively in a fast-paced environment.
+- Experience with SaaS based solution and cloud architectures.
+- Demonstrated ability to successfully lead and develop global People applications team in collaboration with overall People strategy.
+- Knowledgeable in compliance and information security.
+- Current on business applications, trends in People technology and experience evaluating/implementing new innovative People solutions
+- A process-oriented individual, with substantial project management skills, who has the flexibility to thrive in a fast-paced, dynamic organization.
+- Candidate must have proven ability to consistently and collaboratively resolve issues, mitigate roadblocks, and meet all financial and management goals on time. Will be a self-starter who maps own direction to succeed.
+- Excellent team management, coaching, and mentoring skills
+- Must be comfortable with ambiguity and fast change with an ability to adapt quickly and easily.
+  Relevant business/industry acumen with the ability to quickly and thoroughly understand business priorities, operations, and People enablement potential.
+- Ability to use GitLab
+
+#### Director, People Tools and Technology Hiring Process
+
+Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
+
+Selected candidates will be invited to schedule a screening call with our Global Recruiters
+Next, candidates will be invited to schedule a first interview with our VP, People Operations
+Candidates will then be invited to schedule a second interview with our CPO, Director, People Operations, and Sr. Director, IT Enterprise Applications
+
+Additional details about our process can be found on our [hiring page](/handbook/hiring/).
+
 #### Director, People Tools and Technology Career Ladder
 
 The next step is to move to VP, People Operations.
