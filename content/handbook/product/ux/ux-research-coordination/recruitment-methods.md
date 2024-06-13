@@ -28,10 +28,13 @@ For us to best respect our participant’s time, we place people on cool-down af
 
 | **Recruitment Stage** | **Cool-Down Period** |
 | ------ | ------ |
-| Invitation Sent for screener/survey* and no response | 4 weeks |
-| Invitation Sent for screener/survey* and they _do_ respond but _not selected_  | 4 weeks |
+| Invitation Sent for screener and no response | 4 weeks |
+| Invitation Sent for survey* and no response | 4 weeks |
+| Invitation Sent for screener and they _do_ respond but _not selected_ | 4 weeks |
+| Invitation Sent for survey* and they _do_ respond | 4 weeks |
 | Invited for follow-up interview and does _not_ take part | 6 weeks |
 | Invited for follow-up interview and does take part | 12 weeks** |
+| Invitation Sent for Product or CSM CSAT | Once per quarter from one team **not** both |
 
 *If a participant is invited for a survey (such as, but not limited to, SUS, CSAT, or JTBD), we ensure that they are not added to the next wave of survey outreach that is conducted. Receiving multiple surveys back to back can lead to opt-outs and is not a pleasant participant experience. These participants may still be invited to fill in individual screeners if they are not on cool-down during the time of outreach.
 
