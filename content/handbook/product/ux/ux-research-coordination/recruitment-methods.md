@@ -29,13 +29,13 @@ For us to best respect our participant’s time, we place people on cool-down af
 | **Recruitment Stage** | **Cool-Down Period** |
 | ------ | ------ |
 | Invitation Sent for screener/survey* and no response | 4 weeks |
-| Invitation Sent for screener/survey* and they do respond but not selected  | 4 weeks |
+| Invitation Sent for screener/survey* and they _do_ respond but _not selected_  | 4 weeks |
 | Invited for follow-up interview and does _not_ take part | 6 weeks |
 | Invited for follow-up interview and does take part | 12 weeks** |
 
-*If a participant is invited for a survey such as SUS or CSAT, we ensure that they are not added to the next large survey outreach that is conducted. Receiving multiple surveys back to back can lead to opt-outs and is not a pleasant participant experience. These participants may still be invited to fill in individual screeners if they are not on cool-down during the time of outreach.
+*If a participant is invited for a survey (such as, but not limited to, SUS, CSAT, or JTBD), we ensure that they are not added to the next wave of survey outreach that is conducted. Receiving multiple surveys back to back can lead to opt-outs and is not a pleasant participant experience. These participants may still be invited to fill in individual screeners if they are not on cool-down during the time of outreach.
 
-**The 12 week cool-down is the bucket many participants will fall into. For niche participants, or participants that have agreed to take part in multiple research studies, this is reduced to 6-8 weeks.
+**The 12 week cool-down is the bucket many participants will fall into. For niche participants (such as, but not limited to, system admins or product managers), or participants that have agreed to take part in multiple research studies, this is reduced to 8 weeks. If a participant has agreed to take part in multiple sessions over several weeks, they are added to the 12 week cool-down list from the time of their last session and cannot be invited to any other studies while taking part in their ongoing sessions with their researcher.
 
 ### GDPR and CAN-SPAM requirements
 
