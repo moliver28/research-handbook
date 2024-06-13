@@ -21,7 +21,9 @@ This page describes the program methodology for GitLab IT programs to ensure str
 ## Non SOX projects tha tfollow Prgram development
 
 - Please refer to the one time program development controls below and follow the requirements as a best practice
-- For UAT, obtain testing screenshots only for high/critical risk test scenarios. For high/critical risk test failures, obtain screenshots documenting resolution
+- Non SOX projects User Acceptance Testing (UAT) practices:
+   - Obtain testing screenshots only for high/critical risk test scenarios. These should be test cases that are used to validate the core functionalities of the system. If a high/critical test case failed, the failure would have a significant negative impact on the operations of the system and business processes.
+   - For high/critical risk test failures, testers should take screenshots of their own testing and also obtain screenshots documenting resolution.
 
 ## Program governance
 
