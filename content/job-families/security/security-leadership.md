@@ -17,7 +17,6 @@ Leaders in the security department at GitLab are customer focused. While they ar
 - **Building Effective Teams:** Inspires team members to do their best work. Creates and fosters environments where team members can grow and deliver their best work.
 - **Vision:** Communicates a compelling and inspired vision or sense of core purpose: talks beyond today, talks about possibilities, is optimistic, creates mileposts and symbols to rally support behind the vision, makes the vision shareable by everyone, can inspire and motivate the entire organization.
 
-
 ## Responsibilities
 
 - Drive quarterly Objectives and Key Results (OKRs)
@@ -70,7 +69,7 @@ The Senior Security Manager is a [grade 9](/handbook/total-rewards/compensation/
 - Technical credibility: Significant experience in multiple domains of sub-department
 - Management credibility: relevant, progressive experience in Security management
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
 
@@ -130,7 +129,6 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 - Proficient experience with security technologies and engineering domains such as application security, cloud security, infrastructure security, containerized workloads and security automation
 
-
 ##### Security Assurance
 
 ###### Responsibilities
@@ -146,7 +144,6 @@ Additional details about our process can be found on our [hiring page](/handbook
 ###### Requirements
 
 - Proficient experience with industry standard security and risk frameworks/standards/laws/regulations: NIST 800-53, NIST CSF, HITRUST, PCI, FedRAMP, ISO27002, ISO 31000, etc.
-
 
 ##### Security Operations
 
@@ -175,7 +172,6 @@ controls, and common security flaws that apply to Ruby on Rails applications
 - Experience managing teams of engineers, and leading managers
 - Experience with incident management
 
-
 ##### Platform Security
 
 ###### Responsibilities
@@ -193,8 +189,6 @@ controls, and common security flaws that apply to Ruby on Rails applications
 ###### Requirements
 
 - Proficient experience with software development and engineering domains such as data engineering, machine learning, distrbuted systems, and security engineering
-
-
 
 ### Senior Director, Security
 
@@ -222,7 +216,7 @@ The Senior Director, Security is a [grade 11](/handbook/total-rewards/compensati
 - Technical credibility: Significant experience in all domains within sub-department
 - Management credibility: Relevant, progressive experience Security management leadership
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
 
@@ -298,12 +292,11 @@ The Corporate Security & IT Operations function leads a team of highly-collabora
 - SaaS experience: Expert level understanding of tools like Google Workspace, Okta, Zoom, Slack etc.
 - InfoSec experience partnering with internal information security and compliance teams. SOX experience is a plus
 - Team building experience. Past experience managing a global support team
-- Experience working on a fleet of MacOS and ChromeOS endpoints  
+- Experience working on a fleet of MacOS and ChromeOS endpoints
 - Proven ability to effectively lead and meet business objectives in a global, collaborative and high performance work environment
 - Change management knowledge and ability to operate effectively in fast-paced environment
 - Desirable: PMP, ITIL certification. CISSP or similar certification is a plus
 - Demonstrated experience in vendor management and capacity planning in a fast growth environment
-
 
 ### Vice President (VP), Security
 
@@ -324,7 +317,6 @@ The VP of Security is a [grade 12](/handbook/total-rewards/compensation/compensa
 - Work with customers and prospects to address security concerns
 - Manage a best-in-class bug-bounty program with the highest rewards
 - Act as central point-of-contact to Facility Security Officer for cleared facilities
-
 
 #### VP of Security Requirements
 
@@ -370,4 +362,3 @@ Additional details about our process can be found on our [hiring page](/handbook
 ## Career Ladder
 
 For more details on the security engineering career ladders, please review the [security engineering career development](/job-families/security/security-engineer/) handbook page.
-

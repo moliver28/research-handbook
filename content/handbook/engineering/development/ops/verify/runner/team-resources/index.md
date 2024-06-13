@@ -1,14 +1,7 @@
 ---
-
 title: Runner Group - Team Resources
 description: "The goal of this page is to document resources needed for day-to-day work within the Runner group."
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -37,7 +30,7 @@ The goal of this page is to document resources needed for day-to-day work within
   - [Runner Metrics](https://docs.gitlab.com/runner/monitoring/index.html)
 - Logs
   - [Runner Logs](https://log.gprd.gitlab.net/goto/3d8891e0-2035-11ee-8afc-c9851e4645c0) (filter by shard)
-  - You can find a list of shards in the the dropdown along the top baf of any service dashboard:
+  - You can find a list of shards in the dropdown along the top baf of any service dashboard:
 
 ![runner-shards](runner-shards.png)
 
@@ -128,7 +121,7 @@ We also have a [team sandbox](https://gitlabsandbox.cloud/cloud/accounts/5442c67
 Access to the team sandbox can be acquired via access request.
 Within the team sandbox is also a role which has access to the staging and production Mac environments.
 
-### Access Mac Runner Production
+### Access Mac Runner Staging
 
 From the team sandbox, activate a role named `eng_dev_verify_runner` with the account ID `251165465090` (staging).
 

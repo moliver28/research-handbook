@@ -74,9 +74,9 @@ Nomination reasons for how Brendan demonstrated GitLab's values:
 
 - Collaboration and Iteration: Whether Brendan is developing content for sales and marketing, participating in the Marketing Hack Day, or recording a product demo, he is easy to collaborate with, and he keeps moving forward with discrete, concise improvements.
 - Marketing hack day examples:
-    - [gitlab-com/marketing-hack-day#60](https://gitlab.com/gitlab-com/marketing-hack-day/issues/60)
-    - [gitlab-com/marketing-hack-day#21](https://gitlab.com/gitlab-com/marketing-hack-day/issues/21)
-    - [gitlab-com/marketing-hack-day#19](https://gitlab.com/gitlab-com/marketing-hack-day/issues/19)
+  - [gitlab-com/marketing-hack-day#60](https://gitlab.com/gitlab-com/marketing-hack-day/issues/60)
+  - [gitlab-com/marketing-hack-day#21](https://gitlab.com/gitlab-com/marketing-hack-day/issues/21)
+  - [gitlab-com/marketing-hack-day#19](https://gitlab.com/gitlab-com/marketing-hack-day/issues/19)
 - Collaborating on improving [how our customers get educational content](https://gitlab.com/gitlab-com/marketing/issues/1943).
 
 ### February 2018 Top Team Member
@@ -87,7 +87,7 @@ Nomination reasons for how Andreas demonstrated GitLab's values:
 
 - Andreas has been very productive, incredibly helpful, manages his time/work very effectively, actively communicates the status of things, and engages with other teams to resolve issues; all that in his first month.
 - Some examples of his work:
-    - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/17327
-    - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/17454
-    - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/17476
-    - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/16976
+  - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/17327
+  - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/17454
+  - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/17476
+  - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/16976

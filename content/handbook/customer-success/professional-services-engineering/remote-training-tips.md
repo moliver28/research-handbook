@@ -18,7 +18,6 @@ Making the transition from onsite trainer to remote trainer can be a challenge â
 
 When you can see participants it keeps them accountable for paying attention, and youâ€™ll be able to observe the non-verbal cues indicating a wane in attention. On the other hand, if you have a large number of participants, having everyone's video on at the same time can be distracting -- in that case, you can invite specific participants to turn on their video when they are speaking. Also keep in mind that some participants may not be comfortable with sharing their video -- be sensitive to this and do not make video sharing a requirement.
 
-
 #### Tip 2: Take frequent breaks
 
 If your session will last more than 90 minutes, build in a break at least every 60 - 75 minutes. Let attendees know what time they need to return, and request they indicate their return by turning their video back on and/or raising their virtual hand (if that tool is available in our video conferencing software).
@@ -39,9 +38,9 @@ At the beginning of the session show attendees how to ask questions using your v
 
 A team member can play the role of session manager, managing questions coming in from the chat and being timekeeper, reminding you of breaks and Q&A points.
 
-#### Tip 7: Minimize the text on your slides:
+#### Tip 7: Minimize the text on your slides
 
-- Avoid using text on your slides and use them as visuals to reinforce your key points.     
+- Avoid using text on your slides and use them as visuals to reinforce your key points.
 - Include notes for yourself in the presenter notes area of your slides but use these only as key points -- do not read them out loud verbatim. Your audience will be turned off listening to you read.
 - Provide attendees with access to the slides as soon as possible after the session.
 
@@ -103,7 +102,7 @@ Be sure to practice ahead of time with pinning your video conferencing Chat or Q
 
 #### Share the content, not your screen
 
-Adhering to the F-shaped pattern for reading, it makes little sense to share your full screen. This UX rule may affect the way in which presentation content is developed: minimize the amount of right, white space that the learners need to see. Also, when presenting content, employ the F-shaped rule where the first line is the topic, and the following 2-3 lines are supporting sentences. From a development perspective, presentations with bullets would only include 3-5 topics, with supporting content in the presentation's speaker's notes.  
+Adhering to the F-shaped pattern for reading, it makes little sense to share your full screen. This UX rule may affect the way in which presentation content is developed: minimize the amount of right, white space that the learners need to see. Also, when presenting content, employ the F-shaped rule where the first line is the topic, and the following 2-3 lines are supporting sentences. From a development perspective, presentations with bullets would only include 3-5 topics, with supporting content in the presentation's speaker's notes.
 
 #### If you're sharing your Terminal window, share your Terminal window
 

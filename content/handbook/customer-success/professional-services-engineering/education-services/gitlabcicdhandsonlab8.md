@@ -1,11 +1,9 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Working with the GitLab Container Registry"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through building and storing a Docker container in GitLab."
 ---
 
 > Estimate time to complete: 15 - 20 minutes
-
-> **We are transitioning to the latest version of this course.** If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab8.md).
 
 ## Objectives
 
@@ -61,7 +59,7 @@ Docker is a platform commonly used by developers to build container applications
 
 1. In the **Commit message** field, type `Add "build image" job definition`, ensure the **Target Branch** is set to `main`, and click **Commit changes**.
 
-### Task C: Ensure the Pipeline is Running 
+### Task C: Ensure the Pipeline is Running
 
 1. Go to **Build > Pipelines**. Click the most recent pipeline run.
 

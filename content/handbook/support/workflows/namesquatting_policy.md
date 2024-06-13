@@ -114,7 +114,7 @@ In Zendesk:
 
    Yes, we should always release the namespace as long as it meets the release criteria. Trust and Safety will take the necessary steps to mitigate any abusive activity which may subsequently originate from the namespace. See [Support Team Meta issue 3145](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3145) for discussion and additional context from Support, Legal, and Trust and Safety.
 
-__________________
+---
 
 **Macros**
 

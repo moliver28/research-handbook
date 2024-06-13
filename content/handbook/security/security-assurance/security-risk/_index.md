@@ -8,14 +8,13 @@ To drive security risk treatment at GitLab by empowering teams to make informed 
 
 ## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Competencies{#core-competencies}
 
-----
+---
 
 ### <i class="fas fa-shield-alt" style="color:rgb(253,109,38)" aria-hidden="true"></i> Security Operational Risk Management (StORM) Program{#storm}
 
 The Security Risk team manages an integrated Operational Risk Management program focused on the identification, assessment, continuous monitoring, and reporting of Security Risks across the organization. Risk Reduction is 1 of 5 of the Security Department's operating principles ([Security Vision and Mission](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)). As such, the Security Risk Team takes a leading role in providing the information required by leadership to establish our Strategic Roadmap and our quarterly [Objectives and Key Results (OKRs)](/handbook/company/okrs/).
 
  Visit the [StORM Program & Procedures]({{< ref "storm-program" >}}) handbook page for additional details, including a quick introduction to Risk Management at GitLab as well as information about the purpose, scope, and specific procedures executed as part of the program.
-
 
 {{% panel header="**Need to communicate a potential risk to the team?**" header-bg="warning" %}}
 Please refer to the [communication section of the StORM Program & Procedures]({{< ref "storm-program#communication-of-risks-to-the-security-risk-team" >}}) page for information on the various ways that team members can use to escalate potential risks to the Security Risk Team.
@@ -29,25 +28,25 @@ The integration of GitLab's TPRM program within the vendor Procurement flow enab
 
 ### <i class="fas fa-exclamation-triangle" style="color:rgb(253,109,38)" aria-hidden="true"></i> Business Impact Analysis (BIA) and Critical System Tiering (CST){#bia}
 
-The [Business Impact Analysis]({{< ref "business-impact-analysis" >}}) (BIA) helps determine the systems critical to serving GitLab's Customers. It also helps determine the prioritization of system restoration efforts in the event of a disruption.
+The [Business Impact Analysis]({{< ref "business-impact-analysis" >}}) (BIA) helps determine the systems critical to serving GitLab's Customers.
 
-The Security Risk Team facilitates a BIA for all new systems. A BIA is performed or previously collected BIA data is validated for existing systems based on [Critical System Tiering (CST)]({{< ref "critical-systems#critical-systems-tiering-methodology" >}}).
+The output of the BIA is the designation of a [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) (CST) for a new system by the Security Risk Team.
 
 ### <i class="fas fa-warehouse" style="color:rgb(253,109,38)" aria-hidden="true"></i> Asset Inventory Maintenance{#asset-inventory}
 
-Establishing a complete and accurate inventory of assets is key to the success of GitLab's Risk Program. As such, the Security Risk Team collaborates closely with IT and Business Owners to ensure new systems are added to the [Tech Stack](/handbook/business-technology/tech-stack-applications/#roles-and-responsibilities) and that associated data is maintained via our BIA processes.
+Establishing a complete and accurate inventory of assets is key to the success of GitLab's Risk Program. As such, the Security Risk Team collaborates closely with IT and Business Owners to ensure new systems are added to the [Tech Stack](/handbook/business-technology/tech-stack-applications/#roles-and-responsibilities).
 
-----
+---
 
 ## <i class="fas fa-users" style="color:rgb(110,73,203)" aria-hidden="true"></i> Team Members{#team-members}
 
 |Team Member|Role|
 |:----------:|:----------:|
-|[Ty Dilbeck](https://gitlab.com/tdilbeck)|[Manager, Security Risk](handbook/job-families/security/security-risk/#manager-security-risk)|
-|[Eric Geving](https://gitlab.com/ericgeving)|[Senior Security Risk Engineer](handbook/job-families/security/security-risk/#senior-security-risk-engineer)|
-|[Kyle Smith](https://gitlab.com/kylesmith2)|[Senior Security Risk Engineer](handbook/job-families/security/security-risk/#senior-security-risk-engineer)|
-|[Ryan Lawson](https://gitlab.com/rlawson1)|[Senior Security Risk Engineer](handbook/job-families/security/security-risk/#senior-security-risk-engineer)|
-|[Nirmal Devarajan](https://gitlab.com/ndevarajan)|[Security Assurance Engineer](handbook/job-families/security/security-risk/#security-risk-engineer-intermediate)|
+|[Ty Dilbeck](https://gitlab.com/tdilbeck)|[Senior Manager, Security Risk](/job-families/security/security-leadership/#senior-manager-security)|
+|[Eric Geving](https://gitlab.com/ericgeving)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
+|[Kyle Smith](https://gitlab.com/kylesmith2)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
+|[Ryan Lawson](https://gitlab.com/rlawson1)|[Senior Security Risk Engineer](/job-families/security/security-assurance-job-family/#security-risk-1)|
+|[Nirmal Devarajan](https://gitlab.com/ndevarajan)|[Security Assurance Engineer](/job-families/security/security-assurance-job-family/#security-risk)|
 
 ## <i class="fa-solid fa-d" style="color:rgb(110,73,203)" aria-hidden="true"></i> Functional DRIs{#dris}
 
@@ -58,8 +57,8 @@ DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/
 |Function     |DRI|
 |:----------:|:----------:|
 |[Annual Risk Assessment]({{< ref "storm-program#storm-procedures" >}})     |Kyle Smith|
-|[Business Impact Analysis - Design And Requirements]({{< ref "business-impact-analysis" >}})     |Nirmal Devarajan|
-|[Business Impact Analysis - Reporting and Periodic BIA Execution]({{< ref "business-impact-analysis" >}})     |Nirmal Devarajan|
+|[Business Impact Analysis]({{< ref "business-impact-analysis" >}})     |Nirmal Devarajan|
+|[New System Additions to Tech Stack and Post-Implementation Checks]({{< ref "tech-stack-applications" >}})     |Nirmal Devarajan|
 |[Critical System Tiering]({{< ref "critical-systems#determining-critical-system-tiers" >}})     |Kyle Smith|
 |[Ongoing SecRisk-Related Observations Management]({{< ref "observation-management-procedure#introduction-to-observation-management-at-gitlab" >}})     |Nirmal Devarajan|
 |[Ongoing Risk Treatment](storm-program#storm-procedures)     |Kyle Smith|
@@ -75,9 +74,9 @@ DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/
 
 - <i class="fas fa-envelope fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Email: `securityrisk@gitlab.com`
 - <i class="fab fa-slack fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> Slack:
-   - [#security-risk-management channel](https://gitlab.slack.com/archives/C01EKDNRVFD)
-   - [#sec-assurance channel](https://gitlab.slack.com/archives/C0129P7DW75) (includes the broader Security Assurance Team)
-   - Mention `@security-risk`
+  - [#security-risk-management channel](https://gitlab.slack.com/archives/C01EKDNRVFD)
+  - [#sec-assurance channel](https://gitlab.slack.com/archives/C0129P7DW75) (includes the broader Security Assurance Team)
+  - Mention `@security-risk`
 - <i class="fab fa-gitlab fa-fw" style="color:rgb(219,59,33)" aria-hidden="true"></i> GitLab: Tag the team across GitLab using `@gitlab-com/gl-security/security-assurance/security-risk-team`
 
 <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

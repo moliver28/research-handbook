@@ -23,16 +23,17 @@ The information contained on this page is organized into two distinct categories
 | [**Escalation Process**](#escalation-process) | [**Data Privacy and the GitLab Data Processing Addendum**](#data-privacy-security-and-the-gitlab-data-processing-addendum) |
 | [**Request for Name Change or Change in Control**](#request-for-name-change-or-change-in-control) | [**Legal Commercial Coverage Model**](#legal-commercial-coverage-model)|
 | [**Legal Commercial Coverage Model**](#legal-commercial-coverage-model) | [**Contract Lifecycle Management (CLM) Process**](#clm-process)|
-| [**GitLab Issues: Collaborating Cross-Functionally**](#collaborating-cross-functionally-with-gitlab-issues) |
-| [**Best Practices for a Legal Call**](#best-practices-for-a-legal-call) |
-| [**Request for Training (LevelUp) Certification Purchases**](#request-for-training-levelup-certification-purchases)|
-| [**Request for an Evaluation Agreeement**](#request-for-a-trial-or-evaluation-agreement) |
+| [**GitLab Issues: Collaborating Cross-Functionally**](#collaborating-cross-functionally-with-gitlab-issues) |  |
+| [**Best Practices for a Legal Call**](#best-practices-for-a-legal-call) |  |
+| [**Request for Training (LevelUp) Certification Purchases**](#request-for-training-levelup-certification-purchases)|  |
+| [**Request for an Evaluation Agreeement**](#request-for-a-trial-or-evaluation-agreement) |  |
+| [**Request for New or Non-Standard Go-To-Market Monetization Structure**](https://gitlab.com/gitlab-com/Product/-/issues/new) | |
 
 ## OPERATIONAL
 
 ### How to Reach the Legal Commercial Team
 
-#### Different situations require different approaches. In the vast majority of cases regarding revenue-related requests, the proper way to engage the Legal team is through Salesforce (SFDC) by creating a legal request per the process below.
+#### Different situations require different approaches. In the vast majority of cases regarding revenue-related requests, the proper way to engage the Legal team is through Salesforce (SFDC) by creating a legal request per the process below
 
 1. Click the "Legal Request” button under the customer’s opportunity in SFDC (or at the account level if related to a partner). This enables Legal to gather more information regarding Legal Requests created and the applicable opportunity information. If an opportunity does not exist, please open a $0 opportunity and then create the Legal Request following the steps within this section.
 1. Once the Legal Request is correctly created, the request is logged in a queue where the appropriate Legal team member will assign themselves to the case and will communicatewith originator as applicable.
@@ -84,7 +85,7 @@ a valid and authorized partner. Once confirmed by Partner Operations, Legal will
 
 #### RFP Process
 
-With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, please find information in the [RFP Process handbook page](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) on how sales team members can operate as the DRI to utilize the existing Answer Base and collect relevant information from cross-functional stakeholders.
+With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, please find information in the [RFP Process handbook page](/handbook/security/security-assurance/field-security/field-security-rfp/) on how sales team members can operate as the DRI to utilize the existing Answer Base and collect relevant information from cross-functional stakeholders.
 
 ### Completing Vendor Request Forms
 
@@ -103,9 +104,9 @@ With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, pl
 
 1. If there are answers which are not found in the Company Information Page, the Sales team member should read, understand, and determine which GitLab departments should be involved and are the owner of the remaining matters. If you are uncertain, Legal  can assist in guiding you to the right department or contact.
 1. W9 is located on the Finance [Forms page](/handbook/finance/#forms)
-1. If there are Security-related questions that are not found at the GitLab [Trust Center Page](https://about.gitlab.com/security/) or the GitLab [Customer Assurance Package Page](https://about.gitlab.com/security/cap/), the Sales team member should engage the Field Security Team per their process, which can be found at GitLab's [Customer Assurance Activities Pag](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+1. If there are Security-related questions that are not found in GitLab's [Trust Center](https://trust.gitlab.com/), the Sales team member should engage the Field Security Team per their process, which can be found at GitLab's [Customer Assurance Activities Page](/handbook/security/security-assurance/field-security/customer-security-assessment-process).
 1. If there are questions / elements that are not found in the Company Information Page, the Sales Rep should engage Deal Desk to organize requests of finance and tax. Information regarding contacting Deal Desk and overall process can be found at the [Sales Order Process Page](/handbook/sales/field-operations/order-processing/#how-to-process-customer-requested-vendor-setup-forms).
-1. If there are Security related questions / elements that are not found at the [GitLab Trust Center Page](https://about.gitlab.com/security/) or the [GitLab Customer Assurance Package Page](https://about.gitlab.com/security/cap/), the Sales Rep should engage the Field Security Team per their process, which can be found at [GitLab's Customer Assurance Activities Page](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html).
+1. If there are Security related questions / elements that are not found in GitLab's [Trust Center](https://trust.gitlab.com/), the Sales Rep should engage the Field Security Team per their process, which can be found at [GitLab's Customer Assurance Activities Page](/handbook/security/security-assurance/field-security/customer-security-assessment-process/).
 1. If there are tax related questions, the Sales team member should engage the Tax Team within the Tax Slack Channel. For Tax Certificate requests please email the Finance team at 'tax@gitlab.com'.
 1. If there are finance related questions, the Sales team member should engage the Finance team within the Finance Slack channel.
 
@@ -170,7 +171,7 @@ For matters that necessitate being handled outside of SFDC (e.g. project-based w
 
 #### RFP Process
 
-With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, please find information in the [RFP Process](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) handbook page.
+With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, please find information in the [RFP Process](/handbook/security/security-assurance/field-security/field-security-rfp/) handbook page.
 
 ### Best Practices for a Legal Call
 
@@ -191,13 +192,17 @@ Order Form Process for Sales:
 
 ### Request for a Trial or Evaluation Agreement
 
-All customers that desire free access to GitLab Software should be directed to initiate a [free trial](https://gitlab.com/-/trials/new) for access to the GitLab Software, which is subject to and governed by GitLab’s Subscription Agreement.  A free trial is typically used by a customer for internal evaluation, and, as applicable, may also support a more involved [proof of value](/handbook/customer-success/solutions-architects/tools-and-resources/pov/) guided by GitLab.
+All customers that desire free access to GitLab Software should be directed to initiate a [free trial](https://gitlab.com/-/trials/new) for access to the GitLab Software, which is subject to and governed by GitLab’s Subscription Agreement.  A free trial is typically used by a customer for internal evaluation, and, as applicable, may also support a more involved [proof of value](/handbook/solutions-architects/tools-and-resources/pov/) guided by GitLab.
 
 If a customer declines the trial process and is adamant to have a separate Evaluation Agreement, the sales team member or solutions architect should open a Legal Request to request an Evaluation Agreement with Request Form. The Legal Request should first include a request for approval from the Area Sales Manager or higher and also set forth applicable details to fill out the Request Form, such as customer contact information, length of evaluation, number of users, etc.
 
 Provided the customer has been directed to the trial process first and approvals have been received, the applicable Legal team member will then provide a Request Form, setting forth the details of the evaluation for execution by the customer and GitLab. The Request Form and free access to the GitLab Software will be subject to the terms of the Evaluation Agreement which is attached to the Request Form.
 
 Once the Request Form is executed, the sales team member or solutions architect should save the document in the customer’s account in SFDC. Sales Support should then be tagged in SFDC to assist in activating customer’s free access to the GitLab Software for the applicable term and number of users.
+
+### Request for Non-Standard Go-To-Market and Pricing From Legal
+
+All sales-related requests for a non-standard GTM structure, including pricing and packaging variations (e.g. OEM), will likely require Legal assistance but should begin with an Issue opened by the requestor on the Product board [here](https://gitlab.com/gitlab-com/Product/-/issues/new) to properly vet the monetization request with the appropriate cross-functional stakeholders. Please choose either the **monetization-intake** template or the **monetization-intake-simple** template. Once created, the issue will alert the appropriate stakeholders for internal review, comments, and approvals. Legal will follow the progress of the Issue, and will begin drafting the associated agreement, or non-standard language, after appropriate stakeholders have provided clear guidance on the approved structure.
 
 ## EDUCATIONAL
 
@@ -211,7 +216,7 @@ Once the Request Form is executed, the sales team member or solutions architect 
 
 ### When does GitLab Negotiate?
 
-GitLab has certain thresholds when determining when, and to what extent, we will negotiate our standard terms.  GitLab will consider engaging in negotiations as detailed [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/).
+GitLab has certain thresholds when determining when, and to what extent, we will negotiate our standard terms.  GitLab will consider engaging in negotiations as detailed [here](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/).
 **NOTE: This is available to GitLab team members only**
 
 If the net ARR threshold requirements are met, a Sales team member must open a Legal Request to ask for the most current agreement template. Please do not save an agreement template to a local drive as it may not be the most current version of the agreement. It is highly recommended that the Sales team member uses discretion and discusses the approach with the assigned Legal team member to set the appropriate expectations with the customer. Please see the Subscription Agreement basics below. While negotiation may be inevitable, it is always worth considering the following implications and how best to establish the tone of potential negotiations:
@@ -242,10 +247,11 @@ If the net ARR threshold requirements are met, a Sales team member must open a L
 
 ### Business Associate Agreements (BAAs)
 
-1. Why will GitLab not sign a BAA?
-    -GitLab is transparent with respect to information it requires, or does not require, in order to provide our products and services.
-    -GitLab does not require, nor is it  designed to be used to store, Protected Health Information (PHI). In addition, GitLab, as an organization, does not desire or need to receive, process, store, transact or otherwise possess PHI in order to provide our products and services. Please view [Section 14.3](/handbook/legal/subscription-agreement/#14-security--data-protection) of the Subscription Agreement, which specifically highlights that GitLab should not receive PHI. As such, GitLab does not meet, and has no intention of meeting, the definition of a "Business Associate" as defined under the Health Insurance Portability and Accountability Act (HIPAA).
-    -In the event a customer questions "incidental disclosures," please highlight the HIPAA definition itself, which states: “Business associate functions or activities on behalf of a covered entity include claims processing, data analysis, utilization review, and billing. Business associate services to a covered entity are limited to legal, actuarial, accounting, consulting, data aggregation, management, administrative, accreditation, or financial services. **However, persons or organizations are not considered business associates if their functions or services do not involve the use or disclosure of protected health information, and where any access to protected health information by such persons would be incidental, if at all.**”
+Why will GitLab not sign a BAA?
+
+- GitLab is transparent with respect to information it requires, or does not require, in order to provide our products and services.
+- GitLab does not require, nor is it  designed to be used to store, Protected Health Information (PHI). In addition, GitLab, as an organization, does not desire or need to receive, process, store, transact or otherwise possess PHI in order to provide our products and services. Please view [Section 14.3](/handbook/legal/subscription-agreement/#14-security--data-protection) of the Subscription Agreement, which specifically highlights that GitLab should not receive PHI. As such, GitLab does not meet, and has no intention of meeting, the definition of a "Business Associate" as defined under the Health Insurance Portability and Accountability Act (HIPAA).
+- In the event a customer questions "incidental disclosures," please highlight the HIPAA definition itself, which states: “Business associate functions or activities on behalf of a covered entity include claims processing, data analysis, utilization review, and billing. Business associate services to a covered entity are limited to legal, actuarial, accounting, consulting, data aggregation, management, administrative, accreditation, or financial services. **However, persons or organizations are not considered business associates if their functions or services do not involve the use or disclosure of protected health information, and where any access to protected health information by such persons would be incidental, if at all.**”
 
 ### Data Privacy, Security and the GitLab Data Processing Addendum
 

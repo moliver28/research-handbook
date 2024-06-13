@@ -16,11 +16,13 @@ That said, it is encouraged for team members to keep these baseline configuratio
 The scope of the projects which should have these baseline configurations applied are any project which influences the GitLab codebase directly or indirectly and/or which impact the build, release or deployment of GitLab.
 
 Examples of a project that fits this criteria:
+
 - A project that builds a component of GitLab
 - A project that builds a bot which helps manage the codebase for a component of GitLab
 - A project used for updating a critical non-GitLab system's codebase (e.g. Salesforce)
 
 Examples of a project that *do not* fit this criteria:
+
 - A project that has no code
 - A project that builds a bot which doesn't impact the GitLab codebase (e.g a script to convert a YAML file into a CSV)
 

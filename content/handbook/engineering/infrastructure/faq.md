@@ -27,7 +27,7 @@ A: Neither the git repo backups nor the database backups will be purged immediat
 
 A: You can view how our runbooks for specifics on how our [database](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/postgresql-backups-wale-walg.md) and [filesystems](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/disaster-recovery/gcp-snapshots.md) are backed up.
 
-### GitLab.com Settings 
+### GitLab.com Settings
 
 #### Q: Where can I find the settings used for various services in production?
 
@@ -45,7 +45,7 @@ A: Currently you can only use the [project import/export](https://docs.gitlab.co
 
 A: No, once a project is deleted it cannot be restored. For some projects, [Delayed project deletion](https://docs.gitlab.com/ee/user/gitlab_com/index.html#delayed-project-deletion) will allow users to restore a project during the soft deletion state.
 
-For Support team members looking for further guidance, please refer to [Support's restoring deleted data workflow](/handbook/support/workflows/restore_requests.html).
+For Support team members looking for further guidance, please refer to [Support's restoring deleted data workflow](/handbook/support/workflows/restore_requests/).
 
 #### Q: Can customers be put on the allowlist for the API?
 
@@ -53,10 +53,10 @@ A: Yes, with sufficient evidence that it's necessary, customers can request to b
 
 ### GitLab.com Logging
 
-#### Q: What does GitLab.com log? 
+#### Q: What does GitLab.com log?
 
 A: [You can see what services we're logging in our runbooks](https://gitlab.com/gitlab-com/runbooks/tree/master/logging/doc#what-are-we-logging).
 
-#### Q: How long are GitLab logs retained? 
+#### Q: How long are GitLab logs retained?
 
 A: [You can see the retention policy in our runbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/logging/README.md?plain=0#retention).

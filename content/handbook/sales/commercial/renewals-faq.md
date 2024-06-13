@@ -16,7 +16,6 @@ This page aims to answer the most commonly asked questions regarding a customers
 
 ### Customer Focused Questions
 
-
 Q: When is my GitLab subscription due for renewal?
 
 A: Login to customers.gitlab.com to see the renewal/ expiry date.
@@ -33,8 +32,10 @@ Q: Will my GitLab subscription auto renew?
 
 A: Once logged into to customer.gitlab.com, you will see one of the following under your subscription name;
 
+```text
     Renews on XX/XX/XXXX
     Expires on XX/XX/XXX
+```
 
 *Renews* indicates Auto Renew is On, *Expire*s indicates Auto Renew is Off.  Should you wish to turn Auto Renew back on, you can select the *Resume Subscription* option.
 
@@ -48,7 +49,7 @@ Be aware that if you don't renew manually, you will be auto renewed at the curre
 
 More information on this can be found [here](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#automatic-subscription-renewal).
 
-Q: I see I was charged for a Quarterly Subscription Reconciliation. What is is this for?
+Q: I see I was charged for a Quarterly Subscription Reconciliation. What is this for?
 
 A: Quarterly reconciliation occurs when you exceed your license limit. You will be charged an overage based on the maximum number of seats you used during the quarter.
 
@@ -88,7 +89,7 @@ A: Yes, these users will count as a billable user, and will be charged for.
 
 Q: I would like to give another user access to my subscription account in the GitLab Customers Portal. How do I do this?
 
-A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases.html#self-service-option) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
+A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases/#self-service-option) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
 
 Q: I am part way through my GitLab subscription term and I would like to buy extra licenses for some recent hires. Am I able to do this?
 
@@ -138,7 +139,7 @@ Q: How do I determine how much revenue my customer has up for renewal?
 
 A: On the Renewal Opportunity the *ARR Basis* is the revenue Available to Renew (ATR)
 
-Q: I think some Renewal Opportunity data is incorrect, who can I reach out to to review?
+Q: I think some Renewal Opportunity data is incorrect, who can I reach out to for review?
 
 A: Reach out to Deal Desk in chatter by @ mentioning @ sales-support.
 

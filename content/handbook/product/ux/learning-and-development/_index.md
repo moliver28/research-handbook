@@ -8,7 +8,7 @@ Welcome to Learning and Development for the UX Department at GitLab! You are wel
 
 The resources in this page are meant to support product designers, researchers, technical writers, and their managers to explore, learn and grow at their own pace. We aim to collect content that spans various skill levels, as well as various levels of depth/commitment. It is recommended that the UX Department engage with the resources here to help them have a successful journey at GitLab and in their career as a whole.
 
-Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/spending-company-money/).
+Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/finance/spending-company-money/).
 
 ## Growth and Development
 
@@ -198,4 +198,3 @@ Managers should add approved growth and development programs to the [department 
 - From time to time, we run an internal book club on a book from one of our resource lists. Join the conversation in `#ux-book-club`.
 - [GitLab Book Clubs project](https://gitlab.com/gitlab-com/book-clubs)
 - [Leadership Book clubs](/handbook/leadership/book-clubs/)
-

@@ -51,7 +51,6 @@ We do not use or create tool-specific Slack channels (e.g. `#zoominfo`).
 
 For information regarding the tech stack at GitLab, please visit the [Tech Stack Applications page](/handbook/business-technology/tech-stack-applications/) of the Business Operations handbook where we maintain a comprehensive table of the tools used across the company. Below are tools that are primarily owned and managed by data intelligence.
 
-
 ### Integrated with Salesforce
 
 - OpenPrise

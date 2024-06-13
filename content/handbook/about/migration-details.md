@@ -503,7 +503,7 @@ support/channels/index.html.md
 support/index.html.md.erb
 ```
 
-### CEO and CoST
+### CEO and Office of the CEO
 
 - **Total Pages:** 14
 - **Total Markdown Pages:** 12
@@ -1645,7 +1645,6 @@ people-group/employment-branding/index.html.md
 people-group/employment-branding/awards-process/index.html.md
 people-group/employment-branding/content-library/index.html.md
 people-group/employment-branding/glassdoor-escalation/index.html.md
-people-group/people-connect-shadow-program/index.html.md
 people-group/celebrations/index.html.md
 people-group/frequent-requests/index.html.md
 people-group/contracts-probation-periods/index.html.md.erb
@@ -3048,7 +3047,7 @@ engineering/development/growth/activation/index.html.md.erb
 engineering/development/growth/sisense_alert.html.md
 engineering/development/growth/index.html.md.erb
 engineering/development/secure-coding/index.html.md.erb
-engineering/development/dev/plan-project-management/index.html.md.erb
+engineering/development/dev/plan/project-management/index.html.md.erb
 engineering/development/dev/plan/plan-fe/internship/index.html.md.erb
 engineering/development/dev/plan/plan-fe/index.html.md.erb
 engineering/development/dev/plan/product-planning/index.html.md.erb
@@ -3073,7 +3072,6 @@ engineering/development/dev/plan/_product_planning_planning_rotation.md.erb
 engineering/development/dev/plan/_capacity_planning.md.erb
 engineering/development/dev/plan/_scalability_targets.md.erb
 engineering/development/dev/plan/knowledge/index.html.md.erb
-engineering/development/dev/plan/plan-project-management-be/index.html.md.erb
 engineering/development/dev/plan/_product_planning_backend_okrs.md.erb
 engineering/development/dev/plan/_project_management_dashboard.md.erb
 engineering/development/dev/plan/_historical_capacity.md.erb
@@ -3279,7 +3277,6 @@ engineering/development/enablement/systems/index.html.md.erb
 engineering/development/enablement/index.html.md.erb
 engineering/development/onboarding/manager/index.html.md
 engineering/development/analytics/product-intelligence/gitlab_com_performance_dashboard.html.md.erb
-engineering/development/analytics/product-intelligence/event_system_draft.html.md.erb
 engineering/development/analytics/product-intelligence/index.html.md.erb
 engineering/development/analytics/product-analytics/index.html.md.erb
 engineering/development/index.html.md.erb
@@ -3463,7 +3460,6 @@ engineering/readmes/craig-miskell/index.html.md
 engineering/readmes/ben-king/index.html.md
 engineering/readmes/_toc.html.haml
 engineering/readmes/savas-vedova/index.html.md
-engineering/readmes/wayne-haber/index.html.md
 engineering/readmes/katrin-leinweber/index.html.md
 engineering/readmes/lyle-kozloff/index.html.md
 engineering/readmes/mlunoe/index.html.md

@@ -91,7 +91,6 @@ Below you can find a list of which CWEs are detected by each analyzer:
 
 {{% /details %}}
 
-
 #### DAST
 
 The table below shows the combined

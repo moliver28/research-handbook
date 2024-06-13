@@ -18,15 +18,15 @@ The templates used for the creation of the issues and the issues itself are in t
 
 ### Onboarding issues
 
-See our [Onboarding Automation Flow]({{< ref "/handbook/people-group/engineering/onboarding#onboarding-issue-creation" >}}) for more information on current onboarding automations and manual triggers.
+See our [Onboarding Automation Flow](/handbook/people-group/engineering/onboarding#onboarding-issue-creation) for more information on current onboarding automations and manual triggers.
 
 ### Offboarding issues
 
-See our [Offboarding Automation flow]({{< ref "/handbook/people-group/engineering/offboarding#automations" >}}) for more information on current offboarding automations.
+See our [Offboarding Automation flow](/handbook/people-group/engineering/offboarding#automations) for more information on current offboarding automations.
 
 ### Career Mobility issues
 
-See our [Career Mobility Automation Flow]({{< ref "/handbook/people-group/engineering/career-mobility#career-mobility-issue-creation" >}}) for more information on current Career Mobility automations and manual triggers.
+See our [Career Mobility Automation Flow](/handbook/people-group/engineering/career-mobility#career-mobility-issue-creation) for more information on current Career Mobility automations and manual triggers.
 
 ### Epics
 

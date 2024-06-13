@@ -86,10 +86,10 @@ In addition to the company-wide tips in [Communicating Your Time Off]({{< ref "p
 - Unsubscribe from any MRs that will likely resolve while you're away, and then you won't have to deal with all the emails from them when you return.
 - Set up some email filters to move emails into buckets that you can address one-at-a-time when you return.
 - Disconnect yourself from Slack and Gmail in any of these ways: NOTE: Time Off by Deel is supposed to turn off Slack notifications on your phone and set DND mode. But just in case, you may want to do one of these:
-    - log out from Slack and Gmail on your phone, or
-    - remove Slack and Gmail from your phone, or
-    - pause the Slack and Gmail apps on your phone, or
-    - manually configure Slack and Gmail to send no notifications on your phone.
+  - log out from Slack and Gmail on your phone, or
+  - remove Slack and Gmail from your phone, or
+  - pause the Slack and Gmail apps on your phone, or
+  - manually configure Slack and Gmail to send no notifications on your phone.
 
 ## 11. Raising concerns
 
@@ -98,4 +98,3 @@ The effectiveness of the Policy will be reviewed as required and we encourage te
 ## Current and Past Versions (accessible internally only)
 
 A PDF of the current version of this Policy is available [here](https://drive.google.com/file/d/1Ne4YfyJHi44c6DaSR98UHZ52YGWr4W4u/view?usp=drive_link). If/when the Policy is updated, PDFs of previous versions will be made available here for transparency.
-

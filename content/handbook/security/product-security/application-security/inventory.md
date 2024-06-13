@@ -10,7 +10,7 @@ Keeping track of all these moving parts can not rely only upon our current under
 Automation is a key aspect of our work, and GitLab is no exception.
 
 The AppSec Inventory is a private GitLab project to identify and track all projects, components, and dependencies important to us.
-xtThe project is available at [https://gitlab.com/gitlab-com/gl-security/product-security/inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
+The project is available at [https://gitlab.com/gitlab-com/gl-security/product-security/inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
 to GitLab team members. The Inventory is built using this [CLI tool](https://gitlab.com/gitlab-com/gl-security/product-security/gib/).
 
 Not all projects are important, and we certainly don't want to monitor projects that are POCs, demos, or tests.
@@ -82,7 +82,7 @@ Rules define actions to take, based on the project categories. These actions are
 [Approvals]: https://docs.gitlab.com/ee/api/merge_request_approvals.html
 [Approval Rules]: https://docs.gitlab.com/ee/api/merge_request_approvals.html#get-project-level-rules
 
-These policies are aligned with our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements.html).
+These policies are aligned with our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements/).
 
 ### How to categorize projects
 
@@ -138,4 +138,3 @@ The review aims to:
 1. Review projects and groups updates: Review `project.json` and `group.json` for changes, especially the visibility (public/private).
 
 The Merge Request will report a test coverage, corresponding to the ratio of projects categorized. Ideally, these review Merge Requests keep the same coverage, which means the new projects are categorized before getting merged.
-

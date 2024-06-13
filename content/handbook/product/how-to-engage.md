@@ -5,17 +5,7 @@ title: How to Engage with Product Management
 
 This document describes how to engage with the product management team.
 
-
-
-
-
-
-
-
-
 ## Where to reach Product Managers
-
-
 
 - **[Public Issue Tracker (for Product)](https://gitlab.com/gitlab-com/Product/issues)**; please use confidential issues for topics that should only be visible to team members at GitLab.
 - **[Chat channel](https://gitlab.slack.com/archives/product)**; please use the `#product` chat channel for questions that don't seem appropriate for the issue tracker.
@@ -34,7 +24,7 @@ In general terms, if you require something to happen with the product or if you 
 
 In the same vein, PMs are required to ask for feedback from the stakeholder on particular changes. If a change will affect GitLab.com and its maintenance, a PM should proactively reach out to infrastructure engineers to help with the scope, design, and decisions regarding this change.
 
-It is then up to the PM to weigh all these inputs and decide on a [prioritization](#prioritization). It is to be expected that they are the best equipped to make this prioritization, while also keeping in mind all goals of GitLab.
+It is then up to the PM to weigh all these inputs and decide on a prioritization. It is to be expected that they are the best equipped to make this prioritization, while also keeping in mind all goals of GitLab.
 
 ## How do I share feedback?
 
@@ -51,12 +41,12 @@ If a customer has a feature request that doesn't already exist, refer to the [pr
 Whenever you're sharing feedback on an issue (e.g. "Customer X wants this"), please make sure to do the following:
 
 - Link to the source. Usually, this is a link to Salesforce or Zendesk
-    - Use the Salesforce Account URL when it's a paying customer and you want to relate the ARR
-    - Use the Salesforce Opportunity URL when it's related to a prospect or significant growth opportunity
+  - Use the Salesforce Account URL when it's a paying customer and you want to relate the ARR
+  - Use the Salesforce Opportunity URL when it's related to a prospect or significant growth opportunity
 - Provide context: if a customer wants this feature, include *why* they are interested in this. If you don't know, make sure to ask or bring the relevant PM in contact with the customer
 - Include any further useful context (e.g. what kind of software is this customer building, or how they will use the feature)
 - Mention the [Product Manager](/handbook/product/categories/)
-    - Feel free to ask them anything that isn't clear to you (e.g. it's not clear what the status is of the issue, etc)
+  - Feel free to ask them anything that isn't clear to you (e.g. it's not clear what the status is of the issue, etc)
 
 If a customer expresses interest by simply mentioning an issue number or e.g. "an integration with X", that is not sufficient information. Before creating or commenting on an issue, make sure to ask them:
 
@@ -76,13 +66,13 @@ It is highly recommended to use the feedback template below to make this easier.
 
 You can copy/paste this to make sure you don't miss anything or [create a comment template](https://docs.gitlab.com/ee/user/profile/comment_templates.html#create-comment-templates) for reusability:
 
-```
+```markdown
 <!-- Select the appropriate subscription and product text below and remove the others (note: do not add them as labels)>
 <!-- Click on ~customer priority:: below to select an appropriate label 1 through 10 with 10 being the highest>
 
-The following ~customer is interested in this capability 
+The following ~customer is interested in this capability
 
-- Subscription: ~"GitLab Ultimate" OR ~"GitLab Premium" OR ~"GitLab Free" 
+- Subscription: ~"GitLab Ultimate" OR ~"GitLab Premium" OR ~"GitLab Free"
 - Product: ~"self-managed" OR ~"gitlab.com" OR ~"GitLab Dedicated"
 - Link to request:
 - Priority: ~customer priority::
@@ -102,13 +92,13 @@ The `~customer priority::*` labels are inputs for the prioritization model power
 
 These dashboards represent the relative importance of a given issue to the specific customer. 1 is the lowest priority and 10 is the highest. These can be updated at any point in time and will be reflected in the model within 24 hours. You can find more context about priority labels on the [customer issues prioritization framework handbook page](/handbook/product/product-processes/customer-issues-prioritization-framework/#priority-points).
 
-##### Good example:
+##### Good example
 
 > A customer with more than 1000 users mentioned they are interested in this feature to be able to do their sprint planning more effectively. The problem they are trying to solve is that with the current implementation, they can't X and need to do so because Y. They are using software X to do this today, but would be able to move to GitLab if we would do this.
 >
 > @productmanager this issue doesn't have a milestone right now, are we planning to address this in the near term?
 
-##### Bad example:
+##### Bad example
 
 > salesforce.com/blabla
 
@@ -158,11 +148,11 @@ A salesperson for an organization asking for a paid-tier feature request shall w
 
 - Sales schedules 1-hour zoom meeting with the product manager, customer, and themselves. Call recorded if the customer gives permission.
 - Product Manager prepares any additional questions they would like answered, beyond what is below.
-    - What version of GitLab are you currently using? CE / Premium / Ultimate?
-    - How are you currently doing source code management? GitLab merge requests or another tool? How about CI/CD?
-    - How are you currently doing issue management? How are you using HP ALM? Agile/Kanban? What do your sprint/iterations look like? 1 week? 1 month? 2 months?
-    - What is the integration like between issue management and source code management?
-    - How do teams manage multiple repos? Does a team typically work on one repo at a time? Or do they work on multiple repos at the same time?
+  - What version of GitLab are you currently using? CE / Premium / Ultimate?
+  - How are you currently doing source code management? GitLab merge requests or another tool? How about CI/CD?
+  - How are you currently doing issue management? How are you using HP ALM? Agile/Kanban? What do your sprint/iterations look like? 1 week? 1 month? 2 months?
+  - What is the integration like between issue management and source code management?
+  - How do teams manage multiple repos? Does a team typically work on one repo at a time? Or do they work on multiple repos at the same time?
 - Sales sends questions to the customer prior to the meeting.
 - Meeting is created in Salesforce.com
 - Sales creates a Google document for notes from previous calls with customer. Google Doc shared with product manager and sales manager
@@ -229,12 +219,12 @@ In advance to the product call, have a conversation with the customer about expe
 
 Ask the following questions, as applicable:
 
-   - What features and/or functionality do they want to discuss?
-   - How familiar are they with those features and/or functionality?
-   - Have they had a demo of the features already or is this their first exposure?
-   - Are they actively using the features in production, in a POC, or have they not yet tried the features themselves?
-   - Are they more interested in an overview of the functionality that already exists or in future roadmap functionality?
-   - What are their goals for this call?
+- What features and/or functionality do they want to discuss?
+- How familiar are they with those features and/or functionality?
+- Have they had a demo of the features already or is this their first exposure?
+- Are they actively using the features in production, in a POC, or have they not yet tried the features themselves?
+- Are they more interested in an overview of the functionality that already exists or in future roadmap functionality?
+- What are their goals for this call?
 
 ### Contact the Appropriate PM
 
@@ -243,7 +233,6 @@ It is best practice to ask for a PM to join your call through the slack channel 
 Before reaching out to the PM, fill out the [PM Customer Meeting Briefing Document](https://docs.google.com/document/d/1TPJwjJTOrlrtuJ_srs631ndL6dkiwl9yIi3PPtgStos/edit#heading=h.sujaka5bd7jl) and send it to the PM along with your request. The PM will review the doc and let you know if they are able to attend the meeting. PMs may decline meeting requests if they do not receive the context doc or if it is only partially complete. We recommend sending this context along with your request at least 3 business days before the meeting. The PM will review the document and provide feedback to ask for further clarity if needed.
 
 In addition, once the call is scheduled, make sure you have a detailed agenda set at least 24 hours before the call that is shared with both the customer and the Product team.
-
 
 ### EBR Preparation
 
@@ -260,12 +249,6 @@ Throughout the customer lifecycle, customer-facing teams (Support, Account Execu
 To ensure these requests can be quickly triaged, easily scheduled, and later tracked, there is a standardized request process based on issues.
 
 ### Requesting support from Product
-
-Product support requests are tracked in the [Product team project](https://gitlab.com/gitlab-com/Product). To create a request:
-
-1. Create a [new issue with the Product-Support-Request template](https://gitlab.com/gitlab-com/Product/issues/new?issuable_template=Product-Support-Request)
-2. Fill out the form within the template, be sure to include relevant details and issues
-3. Ensure the issue is confidential and save it
 
 For time-sensitive and high-impact requests, please paste a link to the issue in the `#product` Slack channel, and `@mention` the recommended PM's in the template.
 

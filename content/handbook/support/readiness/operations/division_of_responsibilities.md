@@ -44,7 +44,7 @@ The current division of responsibilities is:
 |                     | [Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                                             | @jcolyer         | @lyle            |
 | Slack               | [SGG Slackbot](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot)                                                         | @avilla4         | @jcolyer         |
 |                     | [Workflows](https://gitlab.com/gitlab-com/support/support-ops/other-software/slack-workflows)                                                         | @jcolyer         | @nabeel.bilgrami |
-| Status.io           | [Provisioning]((https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/))                                                           | @jcolyer         | @lyle            |
+| Status.io           | [Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                                           | @jcolyer         | @lyle            |
 | Support Ops Project | [Issues](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/)                                                                      | Everyone         | Everyone         |
 | Ticket work         |                                                                                                                                                       | Everyone         | Everyone         |
 | Zapier              | Support Ops Zap management                                                                                                                            | @jcolyer         | @secole          |

@@ -60,7 +60,7 @@ YAML file will need within it.
 #### Updating an existing article
 
 Updating an existing article is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 #### Deactivating an article

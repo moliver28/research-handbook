@@ -18,7 +18,6 @@ Check out what GitLab team members are saying about their experience with Modern
 1. *Career Coaching:* `I've absolutely had an amazing and helpful experience. My coach helped me advocate for myself, something I've never really felt comfortable doing before. She supported and uplifted me as well, cheering me on as I made improvements and learned how to handle adversity.`
 1. *Confidence Coaching:* `I've only had one session so far but it was great and led to helpful insights. I'm looking forward to another in a few weeks. I wanted help with imposter syndrome and overall lack of confidence. My coach talked with me about the source of the imposter syndrome, dug in to how it's manifested earlier in my career, and suggested a few strategies for reframing the negativity of my inner dialog into something more productive. I already feel better by having a "to-do" list of things to work on, and I feel a lot more supported and validated. I highly recommend it!`
 
-
 ### What does Modern Health offer?
 
 Modern Health is the one-stop shop for all tools related to mental well-being and self-improvement. Members gain access to the following features:
@@ -114,7 +113,7 @@ Once you are registered you can you grant access to your eligible family members
 - You can invite your adult family members (18+) through the Modern Health app using these [instructions](https://support.modernhealth.com/hc/en-us/articles/360045577552-How-do-I-invite-my-dependents-)
 - You can invite minor family members through Modern Health app using these [instructions](https://support.modernhealth.com/hc/en-us/articles/5386344007451-How-do-I-invite-my-minor-dependents-)
 
-If you have trouble registering for Modern Health, please don’t hesitate to reach out to `help@joinmodernhealth.com` with a note or screenshot. Their customer support team will verify the information against what they have on file to provide you the best instructions on how to successfully access Modern Health.
+If you have trouble registering for Modern Health, please don’t hesitate to reach out to `help@joinmodernhealth.com` with a note or screenshot. Their customer support team will verify the information against what they have on file to provide you the best instructions on how to successfully access Modern Health. For new starters, please note that your account might not be immediately available but will be within the first 14 days.
 
 ### What is the well-being assessment, and why should I take it?
 
@@ -174,7 +173,7 @@ Similar to coaching, therapists will start each session with an introduction and
 Before your first session, we encourage you to ask yourself a few questions. As with many other aspects of your life, the more effort you put into your coaching and/or therapy experience, the more you’ll get out of it. These can help guide your initial conversations with your coach or therapist.
 
 - Where do you want to start?
-   - You might have a lot of areas of interest (e.g., you want to learn mindfulness, and work on your finances). Spend some time thinking about where you want to get started before your first visit. What is most on your mind or stressing you out?
+  - You might have a lot of areas of interest (e.g., you want to learn mindfulness, and work on your finances). Spend some time thinking about where you want to get started before your first visit. What is most on your mind or stressing you out?
 - Do you know what your goals are or do you need help figuring that out?
 - What do you want to get out of coaching or therapy?
 - What do you want your coach to be like? Do you want someone who holds you accountable, who is a cheerleader, who challenges you?
@@ -201,7 +200,7 @@ In addition to Coaching, please see additional Modern Health Manager Resources:
 - You have unlimited access to your coach over text and/or email.
 - Coaching and therapy sessions are held over video/phone.
 - If you need to miss a scheduled session please let your coach/therapist know at least 24 hours before your appointment. If you cancel after that time, or miss the session, it will count towards your total covered sessions.
-- Remember that the [GitLab PTO policy](/handbook/paid-time-off/) and a [non-linear workday structure](/handbook/company/culture/all-remote/non-linear-workday/) are meant to enable you to make time for your mental health. Team members should feel empowered to make an appointment for therapy in the middle of the day or take time off to attend an appointment.
+- Remember that the [GitLab PTO policy](/handbook/people-group/paid-time-off/) and a [non-linear workday structure](/handbook/company/culture/all-remote/non-linear-workday/) are meant to enable you to make time for your mental health. Team members should feel empowered to make an appointment for therapy in the middle of the day or take time off to attend an appointment.
 
 **What do I do if I need support in between sessions?**
 

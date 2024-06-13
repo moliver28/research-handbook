@@ -34,7 +34,7 @@ Backfills require a needed approval process prior to moving to the next step of 
 
 In order to open a backfill:
 
-1. Manager of departing team member enters attrition in Workday via the [off-boarding process]({{< ref "/handbook/people-group/offboarding" >}}).
+1. Manager of departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding).
 1. Talent Acquisition Leadership (Dir+) is notified via automated reporting once attrition is entered into the system.
 1. Leadership allocates the role to appropriate recruiter.
 1. Recruiter creates a backfill issue that informs: FP&A, PBP, VP via the appropriate backfill template in [department] headcount project. For Sales, add Sales Strategy. For R&D, add the corresponding E-Group member.
@@ -42,7 +42,6 @@ In order to open a backfill:
 *For Sales roles only*: Once the backfill issue is created, TA leadership posts in Sales Leadership channel for approval from the VP of the department. Once approval is received, TA leader is to document approval in the backfill issue for future reference. For templates, GitLab team members can utilize [this link](https://docs.google.com/document/d/19LjNhyNhcqmBMHoaGbjPvUfjWQk0wR9w8iowPlgdfkU/edit)
 *For roles being repurposed*: the business leader owns communication to the team to discuss rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
 1. Once the role is approved/decision has been reached and all has been documented in the issue, the recruiter can create a position in Greenhouse for approval and move to the next step of the process.
-
 
 ### Create or Review the Job Family (DRI: Hiring Manager)
 
@@ -64,18 +63,17 @@ There are a few options for what to open in Greenhouse.
 
 - **Open a new job**
 - **Open an additional opening onto an existing job**
-   - If the job is currently open, recruiters can add an additional opening through the approvals page. It is vital that each opening is opened, associated with the correct GHPiD and documented in Greenhouse so reporting can tell us how many positions are open.
+  - If the job is currently open, recruiters can add an additional opening through the approvals page. It is vital that each opening is opened, associated with the correct GHPiD and documented in Greenhouse so reporting can tell us how many positions are open.
 - **Reopen an old job**
-   - We do not reopen old jobs.
+  - We do not reopen old jobs.
 - **Evergreen job**
-   - An Evergreen Job is a requisition that is `always open`... more specifically, it is used when we have at least 3 openings for a particular job repeated each quarter. There is then one Evergreen job posted for internal, external and passive candidates. It is important that no candidate is hired to an Evergreen job, and instead is moved to an approved opening (aka - an opening with a single corresponding GHPiD).
+  - An Evergreen Job is a requisition that is `always open`... more specifically, it is used when we have at least 3 openings for a particular job repeated each quarter. There is then one Evergreen job posted for internal, external and passive candidates. It is important that no candidate is hired to an Evergreen job, and instead is moved to an approved opening (aka - an opening with a single corresponding GHPiD).
 - **When should an Evergreen req be used?**
    TA Leadership will open EVG roles at the start of a fiscal year, with a quarterly review cadence, by leveraging the hiring plan and attrition assumptions. Typically, EVG postings will be utilized when there are multiple openings for a set of roles (3 or more) that have very similar technical qualifications and are expected to be hired on a regular basis (for example, Business Development Rep, AMER). These roles usually span multiple teams and hiring managers., but are all interviewed with the same process by the same interviewer 'pool'. `Regular basis` refers to consistent volume over a period of 3+ quarters.
 - **How do I open an evergreen req?**
-   All evergreen reqs need to be approved by TALT (Jake Foster, Ursula Knezevic or Jess Dallmar) prior to opening.
+   All evergreen reqs need to be approved by TALT (Jake Foster or Jess Dallmar) prior to opening.
 
 If you are looking to open a job for pipeline reasons, because a Hiring Manager has requested that you work on a role that will be open in the future but has not been approved, instead of an EVG role use our Greenhouse CRM.
-
 
 **The Recruiter will:**
 
@@ -89,12 +87,11 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 1. `Department` is the department this role will fall under. Always choose a department and **not** a division (e.g. for a Security Engineer opening, choose **Security** within the `Engineering` division, and do **not** choose `Engineering`). If you are unsure of what department to choose, reach out to your FP&A partner.
 1. If a requisition can be located anywhere GitLab hires, check `Anywhere` next to `Office`. If an opening is dedicated to a certain region or time zone, uncheck the `Anywhere` box and select any of the predetermined regions or time zones.
 1. Click `Generate IDs` to create a requisition ID. You’ll need this again when you set up your opening(s).
+1. Under `Job Family URL`, ensure you are linking to the correct job family page. It is the Recruiter's responsibility to ensure that the job family has the specific job listed before submitting the requisition for approval. If the job family is currently in approvals, please contact Total Rewards to ensure you are clear before moving forward. If you skip this step and the job makes it to the offer stage, the process will stall during Total Rewards approval and will take significantly longer to get approved. It is OK if the job title in Greenhouse is not identical to the job family for posting purposes.
 1. Under `Employment Type`, select your opening type - which unless there is an explicit exception, should be Full-Time. *Contract* refers to a true consultant, who works on short-term projects, and not someone in a country like the Netherlands who requires a one-year contract before indefinite. Talent Acquisition only supports Full Time Employee hiring at this time.
 1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, Rich Kahn, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
-1. `Salary` will be input by the Total Rewards Team.
-   - Total Rewards will use `benchmark x level x 0.45` for the low end and `benchmark x level x 0.8` on the high end.
-1. `CO/WA Salary Range` `CA/NY/NJ Salary` and will be input by the Total Rewards Team if the role accepts US applicants, unless the role is state-specific outside of the states listed. Recruiters can use `1-1` as the range as a placeholder when submitting the req for approval. The Recruiter will use the approved ranges from Total Rewards in their job post.
-1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is not the GHPID.
+1. `CA/CO/HI/NY/NJ/WA Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
+1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is **not** the GHPID.
 1. Enter the `Target Start Date` as listed on the GitLab Hiring Plan
 1. Under `Type` choose if this is a *New Hire*, *Evergreen*, or a *Backfill*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below. If you choose *Evergreen*, ensure this is first approved by Jess Dallmar.
 1. Enter the `GHP ID` listed on the GitLab Hiring Plan. If you do not have a GHPID for any reason, FP&A will not approve your opening and you cannot post your position.
@@ -113,11 +110,8 @@ Set up Notifications where appropriate. You should make sure that you are always
 
 Scroll to the bottom of the page and click `Request Approval`.
 
-In order to fully open a requisition in Greenhouse, you will need to complete the following approval paths:
+In order to fully open a requisition in Greenhouse, you will need to complete the following approval path:
 
-1. `Start Recruiting` Approval:
-   1. Total Rewards
-1. `Official Job` Approval:
    1. Finance
    1. Department Lead
 
@@ -157,7 +151,6 @@ If you find that someone is delayed in responding to an approval request, you ca
    - Uncheck `Include 'Apply with SEEK' button`
 1. Click `Save`, then click the red button to publish the opening to our internal job board.
 1. After publishing, announce on Slack in `#new-vacancies` for team members to apply or send in referrals.
-
 
 ```text
 Slack message template:
@@ -284,6 +277,10 @@ There are set location options in Greenhouse to make this possible. Recruiters c
 | Remote, APAC | Australia, New Zealand, South Korea, Singapore, Japan, Phillipines |
 | Remote, Asia | Singapore, Phillipines, South Korea, Japan |
 | Remote, US | United States |
+| Remote, US-Southeast | Georgia, North Carolina, South Carolina, Florida, Virginia |
+| Remote, Canada | Canada |
+| Remote, Chile | Chile |
+| Remote, Costa Rica | Costa Rica |
 | Remote, North America | United States, Canada |
 | Remote, France | France |
 | Remote, India | India |

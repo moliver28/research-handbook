@@ -32,7 +32,7 @@ The objective of these group discussions is to determine where we may be able to
 - **Intros `<all>`:** Very brief introductions, one or two sentences from each person to bring their voice into the room.
 - **Intros `<all>`:** Moderator sets the expectations for the meeting
 - **Defining Key Operating principles <breakout groups>:** In groups of 4, identify and define the operating principles for `<value>` that resonates with you and you see yourself living daily.
-    - TO DO PRIOR TO EACH SESSION: Prepare a doc for each group that lists each operating principle with definitions
+  - TO DO PRIOR TO EACH SESSION: Prepare a doc for each group that lists each operating principle with definitions
 - **Identify less notable operating principles <breakout groups>:** Inversely, which operating principles don’t seem as important? Can these be combined with others?
 - **Sharing and discussing outcomes `<all>`:** Each group presents the principles they selected and the definitions they came up with as a group.
 - **Summarize `<all>`:** each group verbalizes if they changed their definitions or top principles. Each group can present less notable operating principle(s).

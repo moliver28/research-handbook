@@ -43,7 +43,7 @@ In addition, as a PM, you also play a critical role in the regular development a
 | Maintain and update [Direction pages](https://about.gitlab.com/direction/#devops-stages) | Direction pages communicate our [vision](https://about.gitlab.com/direction/) and plan externally and internally. |
 | Review PIs and update [PI pages](/handbook/product/performance-indicators/) | Product Indicators are how we know whether or not we are making the right investments or measuring the right thing. PMs should be intimately knowledgeable with the PIs in their domain. |
 | Release planning for every milestone | PMs are the DRIs for planning and [prioritizing](/handbook/product/product-processes/#prioritization-ahead-of-kickoff) the work for their respective development group. Some of the output for release planning can be planning issues and [kick-off](/handbook/product/product-processes/#kickoff-meetings) videos. |
-| Create [release post content](/handbook/product/product-processes/#release-posts) | The release post is the way to broadcast what features have been released. PMs are responsible to ensure release post item MRs are created, reviews are complete and posted.
+| Create [release post content](/handbook/product/product-processes/#release-posts) | The release post is the way to broadcast what features have been released. PMs are responsible to ensure release post item MRs are created, reviews are complete and posted. |
 | Drive alignment with stable counterparts via [OKRs](/handbook/product/product-processes/#objectives-and-key-results-okrs) | PMs play a role in facilitating alignment by ensuring individual functional groups' objectives are appropriately prioritized within their development group. |
 | Connect user and customer insights with [product prioritization](/handbook/product/product-processes/#issues-important-to-customers) | Customer interviewing, collecting insights about customer adoption, pain points, and reprioritizing "What's Next". PMs are responsible for continuously refining the most important feature, bugs, and tech debt to ensure relevance to the market, install base, and expansion. |
 | [Triage new issues](/handbook/product/product-processes/#prioritization) (features, bugs, security vulnerabilities, etc) | PMs [share responsibility](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs) for prioritizing the most important issues based on [work type](/handbook/engineering/metrics/#work-type-classification). |
@@ -112,7 +112,7 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 [Stage Monthly Active Users](/handbook/product/performance-indicators/)
 
-----
+---
 
 ## Career paths
 
@@ -146,7 +146,7 @@ The unique needs and circumstances of individual roles may vary; however, the li
 - Champion feature development in your group and advocate for what you need to contribute to GitLab’s success.
 - Maintain a roadmap that helps to progress your categories toward the next level of maturity.
 - Be adept at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in quarterly strategy reviews.
-   - Counterparts, executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
+  - Counterparts, executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
 - Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to prioritize higher demand items over lower demand items. Remove or deprioritize items that don’t have enough demand.
 - Collaborate with your manager as needed to push back appropriately on requests to prioritize items that provide comparatively lower value.
 - Ensure that milestone priorities are ready to go into development and that requirements are clear for engineering.
@@ -193,7 +193,6 @@ Beyond the [base requirements](#base-pm-requirements), Senior Product Manager re
 - Uses multiple sources of data (qualitatative, quantiative) and proactibvely monitors usage data and metrics to inform product direction
 - Appropriately influence, persuade, and collaborate closely with Product Design, User Research, Product Marketing, Data Analyst team, and Engineering Counterparts to build an ambitious but realistic plan across the stage
 
-
 #### Example Behaviors
 
 The unique needs and circumstances of individual roles may vary; however, the list below outlines some examples of behaviors that may be expected at this level:
@@ -204,8 +203,8 @@ The unique needs and circumstances of individual roles may vary; however, the li
 - Surface investment needs that are truly required for the success of your group.
 - Curate and maintain a list of what epics are specifically required to advance your categories to the next level of maturity.
 - Be skilled at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in regular strategy reviews.
-   - Counterparts are familiar with your strategy at a high level.
-   - Executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
+  - Counterparts are familiar with your strategy at a high level.
+  - Executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
 - Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to ensure that the effort required by the top priorities is justified by the expected impact on GitLab’s profits. Remove or de-prioritize items from the roadmap that are unlikely to impact profits.
 - Push back appropriately on requests to prioritize items that provide comparatively lower value.
 - Ensure that 12-month roadmap priorities are clear for engineering.
@@ -257,7 +256,6 @@ Beyond the [base requirements](#base-pm-requirements) and Senior Product Manager
 - Coach and mentor to other Product Managers or active in career development for others
 - Recognized as thought leader in the industry (e.g. published author or regular speaker at conferences)
 
-
 #### Example Behaviors
 
 The unique needs and circumstances of individual roles may vary; however, the list below outlines some examples of behaviors that may be expected at this level:
@@ -267,9 +265,9 @@ The unique needs and circumstances of individual roles may vary; however, the li
 - Have a clear understanding and well articulated message showing how your 3+ year strategy relates to the overall stage strategy and the overall company strategy.
 - Advocate for investment decisions that are in the best interest of the company. Present clear business reasons to support your proposed investment decisions.
 - Be an expert at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in quarterly strategy reviews.
-   - Counterparts are able to clearly articulate your strategy themselves and have a personal understanding of how your roadmap priorities relate to your strategy.
-   - Key sales, support, and internal team members are familiar with your strategy at a high level.
-   - Executives and customers can find and understand your strategy when they go to look for it.
+  - Counterparts are able to clearly articulate your strategy themselves and have a personal understanding of how your roadmap priorities relate to your strategy.
+  - Key sales, support, and internal team members are familiar with your strategy at a high level.
+  - Executives and customers can find and understand your strategy when they go to look for it.
 - Use your strategy to guide and drive your roadmap priorities. Artfully balance near-term and long-term impact to profit against the need to also make progress on key strategic initiatives.
 - Demonstrate that you place the needs of the stage and company ahead of the needs of your own group. Advocate for your group when that is in the company’s best interest and willingly help others when success is best achieved by working outside your group.
 - Actively explore partnership and acquisition opportunities for your group. Cultivate and recommend next steps for opportunities that make sense and also avoid investing time in those that don’t.
@@ -401,7 +399,7 @@ solving customers problems on a daily basis make great fits for Customer Success
 - **General Management**: As a result of their exposure to a wide variety of functions, Product Managers often make a
 transition from Product Management to General Management.
 
-----
+---
 
 ## Specialties
 
@@ -561,7 +559,7 @@ We're looking for a PM to ensure an excellent purchase, trial, upgrade, seat add
 
 ### Platforms - GitLab Dedicated
 
-We're looking for a product manager to mature GitLab Dedicated, GitLab's Enterprise DevSecOps Platform as a single-tenant SaaS deployment. This role will involve defining a compeling roadmap that focuses on delivering customer results and growing Dedicated as a platform. You will will work closely with several engineering teams and with teams across GitLab to drive adoption of Dedicated.
+We're looking for a product manager to mature GitLab Dedicated, GitLab's Enterprise DevSecOps Platform as a single-tenant SaaS deployment. This role will involve defining a compeling roadmap that focuses on delivering customer results and growing Dedicated as a platform. You will work closely with several engineering teams and with teams across GitLab to drive adoption of Dedicated.
 
 #### Requirements
 

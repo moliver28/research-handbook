@@ -62,7 +62,7 @@ Though it has some [criticisms](https://qz.com/1144504/the-world-is-relying-on-a
 
 ## Strategies for Managing Unconscious Bias in Practice
 
-The [SPACE2 Model of Inclusion](https://cultureplusconsulting.com/2018/10/17/six-proven-strategies-for-managing-unconscious-bias/) - Six evidence based techniques for managing bias in oneself and others:
+The [SPACE2 Model of Inclusion](https://drive.google.com/file/d/1TZ_bkpjtUjzZGipjEfjgPhtMXBKjd194/view) - Six evidence based techniques for managing bias in oneself and others:
 
 - Slowing Down
 - Perspective Taking
@@ -88,13 +88,13 @@ On 2020-06-24 we held three Live Learning sessions to cover how to recognize bia
 
 ## Resources
 
-#### Inner resources
+### Inner resources
 
 - [Ongoing discussion](https://gitlab.com/gitlab-com/diversity-and-inclusion/issues/27)
 - [This MVC is based on Ashley Sullivan's comment here](https://gitlab.com/gitlab-com/people-ops/General/issues/379#note_208972342)
 - [Diversity, Inclusion and Belonging at GitLab]({{< ref "inclusion" >}})
 
-#### External resources
+### External resources
 
 - [Teaching Tolerance](https://www.tolerance.org/professional-development/test-yourself-for-hidden-bias)
 - [Diversity and Outreach, UCSF](https://diversity.ucsf.edu/resources/unconscious-bias)

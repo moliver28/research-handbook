@@ -17,7 +17,7 @@ The Director, Business Technology Operations is a [level 10](/handbook/total-rew
 #### Director, Business Technology Operations Responsibilities
 
 - Head a multi-continent team in an all-remote Organization.
-- Build and lead a team of  technology leaders, engineers, analysts and and service management staff.
+- Build and lead a team of  technology leaders, engineers, analysts, and service management staff.
 - Create the Business Technology Strategy and roadmap, effectively defining and delivering on new SOPs, process improvements, and projects.
 - ITIL: Lead the design, implementation, and enhancement of ITIL processes like Incident, Problem, Change, Configuration, and Release Management to achieve operational excellence.
 - Business Technology Service Desk: Foster customer-centricity in business technology operations, manage a responsive service desk, focusing on end-user satisfaction. Prioritize incident resolution, escalate effectively, and strategize for optimal first-call resolution.
@@ -78,12 +78,11 @@ The Sr. Director, IT Operations is a [level 11](/handbook/total-rewards/compensa
 - Excellent team management, coaching, and mentoring skills.
 - Business acumen with the ability to understand business priorities, operations, and IT enablement potential.
 
-
 ## Performance Indicators
 
-1. [New Hire Location Factor < 0.69](/handbook/business-technology/metrics/#new-hire-location-factor--069)
-1. [Average Delivery Time of Laptop Machines < 21 days](/handbook/business-technology/metrics/#average-delivery-time-of-laptop-machines--21-days)
-1. [Cycle Time for IT Support Issue Resolution](/handbook/business-technology/metrics/#cycle-time-for-it-support-issue-resolution)
+1. [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
+1. [Average Delivery Time of Laptop Machines < 21 days](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-delivery-time-of-laptop-machines--21-days)
+1. [Cycle Time for IT Support Issue Resolution](https://internal.gitlab.com/handbook/it/it-performance-indicators/#cycle-time-for-it-support-issue-resolution)
 
 ## Career Ladder
 

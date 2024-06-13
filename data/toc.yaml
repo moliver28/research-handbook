@@ -52,10 +52,8 @@
         url: /handbook/company/okrs
       - name: Pricing Model
         url: /handbook/company/pricing
-    - name: Creator pairing
-      url: /handbook/engineering/development/director-shadow-program
-    - name: Chief of Staff Team to the CEO
-      url: chief-of-staff-team
+    - name: Office of the CEO
+      url: office-of-the-ceo
     - name: Key Reviews
       url: key-review
     - name: Group Conversations
@@ -63,15 +61,13 @@
     - name: E-Group Weekly
       url: e-group-weekly
     - name: Environmental, Social, and Governance
-      url: /handbook/esg
+      url: /handbook/company/esg
 - name: Handbook
   icon: fa-solid fa-book
   url: handbook
   links:
   - name: About the Handbook
     url: about
-  - name: Handbook Preferences
-    url: preferences
   - name: Handbook Changelog
     url: changelog
   - name: Handbook Roadmap
@@ -81,15 +77,13 @@
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide
-    url: docs
-  - name: Practical Handbook Edits
-    url: /handbook/editing-handbook/practical-handbook-edits
-  - name: Edit This Website Locally
-    url: https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main
+    url: /docs/development/
+  - name: Editing the handbook
+    url: /handbook/editing-handbook/
   - name: Handbook Style Guide
-    url: /handbook/style-guide
-  - name: Content Websites
-    url: content-websites
+    url: /handbook/about/style-guide/
+  - name: Handbook maintenance
+    url: /handbook/about/maintenance/
 - name: People Group
   icon: fa-solid fa-people-group
   url: /handbook/people-group/
@@ -146,8 +140,8 @@
           url: paid-time-off
         - name: Compensation
           url: compensation
-        - name: Stock Options
-          url: /handbook/stock-options
+        - name: Equity Compensation
+          url: /handbook/total-rewards/stock-options
     - name: Tools and Tips
       url: tools-and-tips
       links:
@@ -257,7 +251,7 @@
               url: /handbook/marketing/digital-experience/website
     - name: Sales Development
       url: /handbook/marketing/sales-development
-    - name: Marketing Strategy, Ops, & Analytics
+    - name: Marketing Operations and Analytics
       url: /handbook/marketing/marketing-strategy-and-platforms
       links:
         - name: Marketing Operations
@@ -266,14 +260,12 @@
           url: /handbook/marketing/strategy-performance
     - name: Growth
       url: /handbook/marketing/growth
-    - name: Developer Relations & Community
+    - name: Developer Relations
       url: /handbook/marketing/developer-relations
       links:
-      - name: Evangelist Program
-        url: /handbook/marketing/developer-relations/evangelist-program
       - name: Community Programs
         url: /handbook/marketing/developer-relations/community-programs
-      - name: Developer Advocate
+      - name: Developer Advocacy
         url: /handbook/marketing/developer-relations/developer-advocacy
       - name: Contributor Success
         url: /handbook/marketing/developer-relations/contributor-success
@@ -345,8 +337,8 @@
     links:
      - name: Sarbanes-Oxley (SOX) Compliance
        url: sarbanes-oxley
-  - name: Stock Options
-    url: /handbook/stock-options
+  - name: Equity Compensation
+    url: /handbook/total-rewards/stock-options
 - name: Product
   icon: fa-solid fa-comments
   url: /handbook/product

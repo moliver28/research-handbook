@@ -12,7 +12,6 @@ description: "Overview of the SMB AMER Handover Scenarios and Process"
 | Sales Assisted FO   | FO AE hands over to the Expand AE | Automated hand over, which commences a Low Touch digital journey |
 | Web Direct FO       | FO AE hands over to the Expand AE | Automated hand over, which commences a Low Touch digital journey |
 
-
 ### Sales Assisted FO to Expand AE
 
 When a customer purchases GitLab with the assistance of a First Order Account Executive, it’s important to give that customer a seamless experience from the initial purchase to the implementation phase. Expecting a customer to have to repeat things they just shared with the First Order AE will lead to frustration and lack of confidence in GitLab’s ability to support them. Alternatively, if a customer feels like everyone is collaborating to deliver an excellent experience, they will be more likely to meet when asked, knowing that value will come from the experience.
@@ -83,13 +82,11 @@ Once the FO AE has handed over the account via email, they are some keys steps t
 
 [AMER SMB FO Clean Your Room Dash](https://gitlab.my.salesforce.com/01Z8X000001DkoE)
 
-
 #### Web Direct FO to Expand
 
 These customers have made it to a GitLab paid plan without ever speaking to someone in sales, so we should be completing discovery as a first step to understand what brought the customer here. Typically, customers have a preconceived notion of what GitLab does and aren’t aware of all of the great features included in what they just paid for. It’s important to share that with them at this stage to ensure they get off to a successful start.
 
 In this scenario an Expand AE should leverage the FYE Web Direct [report](https://gitlab.my.salesforce.com/00O8X000008Qg6r) so they can reach out to new customers to introduce themselves, and schedule time to discuss success planning.
-
 
 #### Assisted FO & Web Direct to Pooled
 
@@ -119,18 +116,3 @@ Need technical assistance? Please contact customer support by submitting a case 
 Thank you for being a part of the GitLab community,
 
 -Your GitLab Sales Team
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -25,8 +25,8 @@ These principles will guide our benefit strategies and decisions.
 
 ### Strategy
 
-- Given Benefits vary by country, we do not offer the same benefits globally, instead we take a **country specific approach.** We will transparently outline why we do or do not offer benefits.  
-- Country specific appraoch based on **statutory requirements, entity status, headcount, and market practice**
+- Given Benefits vary by country, we do not offer the same benefits globally, instead we take a **country specific approach.** We will transparently outline why we do or do not offer benefits.
+- Country specific approach based on **statutory requirements, entity status, headcount, and market practice**
 - To provide **equitable programs** for team members within the **same country location** when possible.
 - To continuously improve the **team member experience**
 
@@ -37,40 +37,36 @@ These principles will guide our benefit strategies and decisions.
 - Provide **core** medical, life, and pension benefits either through supplementary or statutory plans
 - Create new programs/enhancement with *broad reach, high value, and sustainability**
 - **CREDIT**: Collaboration, Results, Efficiency, Diversity, Inclusion & Belonging, Transparency
-     - Collaboration
-          - Work with providers, vendors, and global networks to benchmark benefit data from other similar sized companies.
-          - Foster Cross Company understanding
-     - Results
-          - Evangelize benefit programs in each entity.
-          - Transform “statutory” to “competitive.”
-          - Make benefits a very real aspect of compensation during the hiring process.
-          - Measure team member engagement and benefit enrollment.
-     - Efficiency
-          - Iterate on changes for specific countries based on common practices and statutory regulations.
-     - Diversity, Inclusion & Belonging
-          - Actively work to ensure that our benefit choices are inclusive of all team members.
-     - Iteration
-         - Regularly review current benefits (bi-annually) and propose changes.- - Everything is always in draft.
-     - Transparency
-         - Announce and document benefits to keep them updated.
-         - Share upcoming benefit plans internally before implementing them.
-         - Invite discussion and feedback.
-
-
+  - Collaboration
+    - Work with providers, vendors, and global networks to benchmark benefit data from other similar sized companies.
+    - Foster Cross Company understanding
+  - Results
+    - Evangelize benefit programs in each entity.
+    - Transform “statutory” to “competitive.”
+    - Make benefits a very real aspect of compensation during the hiring process.
+    - Measure team member engagement and benefit enrollment.
+  - Efficiency
+    - Iterate on changes for specific countries based on common practices and statutory regulations.
+  - Diversity, Inclusion & Belonging
+    - Actively work to ensure that our benefit choices are inclusive of all team members.
+  - Iteration
+    - Regularly review current benefits (bi-annually) and propose changes.- - Everything is always in draft.
+  - Transparency
+    - Announce and document benefits to keep them updated.
+    - Share upcoming benefit plans internally before implementing them.
+    - Invite discussion and feedback.
 
 We do not have specific budgets around benefit costs, but instead look to increasing the ability to recruit and retain team members in favorable locations. We do not take a global approach to offering the same benefits in all countries, but will transparently outline why we do or do not offer the above benefits on their respective [entity specific benefits]({{< ref "general-and-entity-benefits#entity-benefits" >}}) page.
 
-
 ## Annual Global Benefit  Review Process
-
 
 The Total Rewards team reviews GitLab’s global benefits on an annual basis and proposes changes for the next Fiscal Year. The Planning Process is as follows:
 
-#### 1. Team Member Feedback:
+#### 1. Team Member Feedback
 
 - In Q2, Total Rewards review  team member feedback via the Engagement Survey Results and assess  sentiments and gaps within the plans
 
-#### 2. Market Data Collection:
+#### 2. Market Data Collection
 
 - In Q2 & Q3,Total Rewards engages with the benefits broker to collect market data and benchmark benefit plans against other hi-tech employers.
 Benchmarking Data is the broker’s proprietary information that GitLab purchases. While some high-level benchmarking information can be shared with team members, most details cannot be disclosed outside of the People Team.

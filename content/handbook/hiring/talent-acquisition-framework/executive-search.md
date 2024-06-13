@@ -35,7 +35,6 @@ For executive level searches, we have a Talent DRI and Hiring DRI.
 - Ensures interview process is followed and feedback is documented
 - Lead for all steps in the recruitment process, including sourcing strategy, candidate engagement, candidate screening, next steps, references, offer negotiation and approvals. These responsibilities may vary if an external search vendor is engaged.
 
-
 **Hiring DRI Responsibilities**
 
 - Attends intake meeting and approves of direction taken at intake meeting
@@ -138,21 +137,21 @@ At the onset of a search, The Talent DRI will set up two Slack channels:
 
 - Core search channel: (#search-job-title). This channel will be the SSoT and communications vehicle for the search and will include the core search group.
 - Panel search channel: (#panel-job-title). This channel will be for communication with the interview panel and broader stakeholder group that may include:
-    - Core search group
-    - Interview panel
-    - EBA group
-    - CES
-    - People Business Partner
+  - Core search group
+  - Interview panel
+  - EBA group
+  - CES
+  - People Business Partner
 
 **Progress Calls**
 
 - The Talent DRI will recommend communication cadences to the Hiring DRI. After the intake call, it is common to allow the recruiting process 2-3 weeks head-start prior to the first progress call.
 - Progress calls are normally weekly (unless otherwise planned) and have the core group in attendance.
-    - During the progress calls, the core group will cover:
-        - Longlist and shortlist summaries (prospect candidate lists)
-        - Interview feedback
-        - Next steps for candidates
-        - Any special timeline requirements of candidates, if applicable
+  - During the progress calls, the core group will cover:
+    - Longlist and shortlist summaries (prospect candidate lists)
+    - Interview feedback
+    - Next steps for candidates
+    - Any special timeline requirements of candidates, if applicable
 - In addition, the Talent DRI is also responsible for providing relevant async updates to the search team via Slack channels
 
 **Coordination Work Between Progress Calls**
@@ -203,35 +202,35 @@ To ensure a consistent and in-depth process, we employ competency-based intervie
 A screening call with the candidate will be conducted via Zoom by the Talent DRI or external search partner.
 
 - Within 24 hours of the interview, the Talent DRI provides:
-    - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in the designated feedback repo.
+  - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in the designated feedback repo.
 - The Talent DRI or external search partner will tag the Hiring DRI in the search Slack channel with a link to feedback and a recommendation on next steps. The Hiring DRI will confirm next steps before the Talent DRI moves the process forward.
 
 **Hiring DRI Interview**
 
 - Interview between Hiring DRI and the candidate. The purpose of this interview is to:
-    - Discuss the role requirements and responsibilities
-    - Discuss the candidate’s background
-    - Share GitLab pitch and positioning
-    - Assess GitLab values fit
+  - Discuss the role requirements and responsibilities
+  - Discuss the candidate’s background
+  - Share GitLab pitch and positioning
+  - Assess GitLab values fit
 - Within 24 hours of the interview, the Hiring DRI provides:
-    - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in designated feedback repo.
+  - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in designated feedback repo.
 - Within 24 hours of Hiring DRI feedback being received, the Talent DRI will action one of the following next steps:
-    - Schedule panel interview series
-    - Reject candidate
+  - Schedule panel interview series
+  - Reject candidate
 
 **Values and Leadership Interview**
 
 - The People Business Partner or CPO will conduct a values and leadership Interview.
 - This interview will be scheduled in parallel to the panel interview series
 - Within 24 hours of the interview, the values and leadership interviewer provides:
-    - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in designated feedback repo.
+  - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in designated feedback repo.
 
 **Panel Interview Series**
 
 - The panel interview series will be scheduled in parallel to the values and leadership interview
 - The Talent DRI and Hiring DRI collaborate to assign focus areas upfront, which are to be shared in the (#panel-job-title) Slack channel using this template.
 - Within 24 hours of the interview, the panel interviewer provides:
-    - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in designated feedback repo.
+  - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in designated feedback repo.
 - Within 24 hours of the values and leadership and panel interview series concluding, the Talent DRI will tag the Hiring DRI in the search Slack channel with a summary of feedback and a recommendation on next steps. The Hiring DRI will confirm next steps before the Talent DRI moves the process forward.
 
 **Board Interviews**
@@ -243,7 +242,7 @@ For E-Group and other senior level searches, meeting board members may be necess
 - The Talent DRI is responsible for briefing board members with a written briefing incorporating all feedback and recommendations.
 - The Talent DRI is responsible for sharing an interview notes document with the board member, following the process in “Interview Documentation” above.
 - Within 24 hours of the interview, the board interviewer provides:
-    - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in designated feedback repo.
+  - Candidate rating (Strong Yes, Yes or No), as well as shorthand feedback in designated feedback repo.
 - Within 24 hours of the board interviews concluding, the Talent DRI will tag the Hiring DRI in the search Slack channel with a summary of feedback and a recommendation on next steps. The Hiring DRI will confirm next steps before the Talent DRI moves the process forward.
 
 **Additional Meetings**

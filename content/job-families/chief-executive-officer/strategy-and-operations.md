@@ -53,7 +53,7 @@ The Staff Strategy and Operations is a [grade 8](/handbook/total-rewards/compens
 - Support the creation of prepared materials (documents, decks) for the Chief of Staff to the CEO and the CEO
 - Support special projects that are urgent and important
 - Execute on projects and ongoing assignments for the Chief of Staff to the CEO
-- Readiness to partner directly with the CEO, CoST to the CEO, or other Strategy and Operations Team members on high priority initiatives
+- Readiness to partner directly with the CEO, Office of the CEO, or other Strategy and Operations Team members on high priority initiatives
 - Determine long-term owners outside of the Strategy and Operations team for initiatives and asks that are best served through a functional home. Partner with future owners to ensure that ownership and responsibilities are understood and agreed upon
 - Demonstrate GitLab values in all work
 
@@ -241,9 +241,9 @@ dependencies to achieve project goals
 
 ## Performance Indicators
 
-- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/chief-of-staff-team/performance-indicators/#throughput-for-the-cost)
+- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/office-of-the-ceo/performance-indicators/#throughput-for-the-office-of-the-ceo)
 
-In addition, we are exploring [additional ways to measure performance](/handbook/ceo/chief-of-staff-team/#measuring-results).
+In addition, we are exploring [additional ways to measure performance](/handbook/ceo/office-of-the-ceo/#measuring-results).
 
 ## Career Ladder
 

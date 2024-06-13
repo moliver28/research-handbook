@@ -11,7 +11,7 @@ The data flows below are based on the experience of one enterprise customer who 
 
 The source data can be found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1yui5UYY46HQ-KcwTCZ-8OXXQylBpxvEYk_QZW3qabAk/edit#gid=0).
 
-# GitLab
+## GitLab
 
 ```mermaid
 graph TB
@@ -50,7 +50,7 @@ graph TB
   %%class GitLab,Developer test
 ```
 
-# Multiple DevOps Tools
+## Multiple DevOps Tools
 
 ``` mermaid
 

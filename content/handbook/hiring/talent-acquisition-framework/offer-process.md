@@ -45,7 +45,7 @@ Your Hiring Manager will be responsible for completing their reference checks.
 
 #### Recruiter Quality Check (Engineering Only)
 
-Once a candidate has gone through the whole process before creating an offer the recruiter will ensure the scorecard requirements in [Engineering Hiring Practices](/handbook/engineering/#hiring-practices) are met.
+Once a candidate has gone through the whole process before creating an offer the recruiter will ensure the scorecard requirements in [Engineering Hiring Practices](/handbook/engineering/hiring/#hiring-practices) are met.
 
 The recruiter will leave a note in Greenhouse for the hiring manager as follows:
 
@@ -146,13 +146,13 @@ Offer details usually include:
 - Job Title
 - Salary
 - General and specific [benefits]({{< ref "benefits" >}})
-- Contract type and [employment type]({{< ref "/handbook/people-group/employment-solutions#team-member-types-at-gitlab" >}})
+- Contract type and [employment type](/handbook/people-group/employment-solutions#team-member-types-at-gitlab)
 - [Onboarding process]({{< ref "general-onboarding#onboarding-at-gitlab" >}})
 - [Asynchronous communication](/handbook/company/culture/all-remote/asynchronous/)
-- [Stock options](/handbook/stock-options/)
+- [Stock options](/handbook/total-rewards/stock-options/)
 - [Unlimited paid-time-off]({{< ref "paid-time-off" >}})
 - [Incentives]({{< ref "incentives" >}})
-- [Office equipment/reimbursements](/handbook/spending-company-money/)
+- [Office equipment/reimbursements](/handbook/finance/spending-company-money/)
 - [Configuring your new laptop](/handbook/business-technology/end-user-services/onboarding-access-requests/#configuring-new-laptops--apple-ids)
 - [Employment Assistance Program]({{< ref "benefits" >}})
 
@@ -169,13 +169,13 @@ Once a verbal offer is made to a candidate, the Recruiter will notify `@ces` to 
 Although rare, there are times a candidate may decline an offer once an offer is verbalized, and/or once they have received a contract from GitLab. It is important to take the following steps if this occurs:
 
 - Declined at time of verbal offer (no contract generated, but offer fully approved)
-   - Notify your [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer (DRI: Recruiter)
-   - FP&A will make appropriate changes in Adaptive (DRI: FBP)
+  - Notify your [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer (DRI: Recruiter)
+  - FP&A will make appropriate changes in Adaptive (DRI: FBP)
 - Declined at time of contract (a contract has been generated)
-   - Notify CES via the candidate notes section in GH that the candidate has declined offer and the contract needs to be voided. CES will then follow their own decline process. (DRI: Recruiter)
-   - Add a "Rescinded Acceptance" tag to the candidate's profile. Depending on the circumstance, you may also choose to add a "Do Not Hire" tag, such as in the case of a rescind due to accepting another offer.
-   - Notify your [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer (DRI: Recruiter)
-   - FP&A will make appropriate changes in Adaptive (DRI: FBP)
+  - Notify CES via the candidate notes section in GH that the candidate has declined offer and the contract needs to be voided. CES will then follow their own decline process. (DRI: Recruiter)
+  - Add a "Rescinded Acceptance" tag to the candidate's profile. Depending on the circumstance, you may also choose to add a "Do Not Hire" tag, such as in the case of a rescind due to accepting another offer.
+  - Notify your [Finance Business Partner](/handbook/finance/#finance-business-partner-alignment) via the candidates notes section in GH that the candidate has declined the offer (DRI: Recruiter)
+  - FP&A will make appropriate changes in Adaptive (DRI: FBP)
 
 ## After the Employment Contract is Signed
 

@@ -28,7 +28,7 @@ Know someone who might be a great fit for our team? Please refer them to the job
 - When supporting a customer, any issue, incident or loss is *GitLab's loss*.
   - When a customer experiences trouble or downtime, take action with the same urgency you'd have if GitLab were experiencing downtime.
   - When a customer is losing productivity, take action with the same urgency you'd have if GitLab were losing productivity.
-  - A customer with 2,500 users whose instance is down, gets the same urgency as if GitLab were losing $1,000,000 per day. This treatment is equal regardless of how much they are paying us.
+  - A customer with 2,500 users whose instance is down, gets the same urgency as if GitLab were losing $1,000,000 per day.
 - Escalate early. Visibility across GitLab, up to and including the CEO, is always better earlier rather than later. Ensure all resources needed are on the case for customers early.
 
 Remember, as members of the support team we are the first to interact with someone when they have a problem or question. As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are expected to:
@@ -103,7 +103,7 @@ If you go through the responsibilities for each role in Support you can piece to
 
 - Support Engineers help solve customer problems via tickets, merge requests, and other customer facing activities.
 - Managers help solve Support Engineer problems by removing obstacles, joining in on customer facing activities, and working with support engineers to build systems that work to reduce friction and enable results and efficiency.
-- Senior Managers help resolve and avoid scaling problems by addressing team performance to KPIs, prioritizing initiatives and being responsible for the achievement of global results.
+- Senior Leaders help resolve and avoid scaling problems by addressing team performance to KPIs, prioritizing initiatives and being responsible for the achievement of global results.
 - VP of Support helps resolve and avoid company wide problems, by identifying growth and team design challenges, and reporting on progress to the Executives and Board.
 
 This simple list helps to give an easy way to set expectations and align problem solving in different roles.
@@ -121,7 +121,7 @@ We review these KPIs weekly in the [Support Week-in-Review](/handbook/support/#s
 In service of achieving our KPIs and OKRs, there are three key pillars that we must balance to achieve success:
 
 - People: Continue to hire excellent engineers and managers, at the right time, and the right places. Support our existing engineers and work with each team member towards realizing their full potential through professional development and smart tooling.
-- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling
+- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling.
 - Performance: People understand how their contributions help the global team attain our results, with guidance on what these contributions look like in practice.
 
 At various times it's easy to over-optimize on one of the pillars to solve a problem, but considering all three is key to avoiding short-sighted decision making.
@@ -162,14 +162,14 @@ Below we also have some commonly referenced pages:
 
 GitLab Support’s vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
 
-The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company’s overall [strategic objectives](https://handbook.gitlab.com/handbook/company/strategy/), specific areas of focus are:
+The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company’s overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
 
 - [Our ability to achieve business aligned results for our customers](#improving-our-ability-to-achieve-results-for-our-customers)
 - [How our team structure supports that ability](#team-structure-and-how-it-supports-our-ability-to-achieve-results)
 - [Maintaining and augmenting the culture of our team](#team-culture-and-how-it-supports-our-ability-to-achieve-results)
 - [Delighting our customers](#delight-our-customers)
 
-While our [publicly visible OKR page](https://handbook.gitlab.com/handbook/company/okrs/) and [Key Performance Indicators](https://handbook.gitlab.com/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY25.
+While our [publicly visible OKR page](/handbook/company/okrs/) and [Key Performance Indicators](/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY25.
 
 ### Improving our ability to achieve results for our customers
 
@@ -213,7 +213,7 @@ Dogfooding is using a piece of GitLab *for its intended purpose*. For example, o
 
 In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports [customer results](/handbook/values/#customer-results).
 
-At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/ee/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note).
+At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/legal/privacy/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/ee/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note).
 
 We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize [customer results](/handbook/values/#customer-results) over any other consideration.
 
@@ -254,8 +254,6 @@ Where we want to ensure that important messages are passed to the global support
 
 #### Groups
 
-
-
 We use the following GitLab Groups to notify or add support team members to issues and merge requests on
 GitLab.com.
 
@@ -275,8 +273,6 @@ GitLab.com.
 | [@gitlab-com/support/managers/emea](https://gitlab.com/groups/gitlab-com/support/managers/emea-managers/-/group_members?with_inherited_permissions=exclude&sort=recent_last_activity) | All EMEA support managers |
 
 #### Projects
-
-
 
 Our team projects and issue trackers can be found in the [Support parent group](https://gitlab.com/gitlab-com/support). Here are some selected projects
 which are relevant to team communications.
@@ -316,21 +312,15 @@ issue trackers or customer tickets.
 
 #### spt_vs. support_ prefix
 
-
-
 When naming channels, "spt" is meant for internal channels, meaning those that will be of use to the Support Team mainly. They should be public so others may join if they choose. If a channel has a "support" prefix, it is meant as a public interface where other teams will interact with the Support Team.
 
 The "spt_gg_" prefix is used for [Support Global Groups](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3879) internal channels.
 
 #### Daily Stand-up bot
 
-
-
 The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot) Daily Stand-up posts at the commencement of each region's [Support Hours](https://about.gitlab.com/support/#definitions-of-gitlab-global-support-hours) regularly, in a number of channels to advise global groups of different information. For further details of the different variations, please refer to the SGG handbook page of the group you are curious about.
 
 #### Channels
-
-
 
 | Channel | Purpose |
 | ------- | ------- |
@@ -347,8 +337,6 @@ The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-sof
 
 ##### Private Channels
 
-
-
 At GitLab we are to be [public by default](/handbook/communication/confidentiality-levels/#not-public) unless there is a valid reason for it to not be public. While Slack
 is not public, the spirit of opening up discussions so that *everyone can contribute* means that private channels should be kept to a minimum.
 
@@ -356,14 +344,14 @@ The following private channels are permanent fixtures in support. Usage estimate
 
 | Channel | Who is in it | Purpose | How often is it used?  |
 | ---- | ---- | ---- | ---- |
-| `#spt-senior-mgmt` | Senior Managers+ | Used for Senior leadership to discuss and coordinate on sensitive topics / budget / etc. | 3-4 threads per week |
+| `#spt-vp-directors` | Directors+ | Used for Senior leadership to discuss and coordinate on sensitive topics / budget / etc. | 3-4 threads per week |
 | `#spt_managers-internal` | Managers+  | Used for sensitive topics that are applicable to managers that aren't appropriate for public channels | 4-5 threads per week |
 | `#spt_managers-internal-apac` | APAC Managers+ | Used for sensitive topics that are applicable to APAC managers that aren't appropriate for public channels | 3-4 threads per week |
 | `#spt_managers-emea` | EMEA Managers+ | Used for sensitive topics that are applicable to EMEA managers that aren't appropriate for public channels | 4-5 threads per week |
 | `#spt_managers-amer` | AMER Managers+ | Used for sensitive topics that are applicable to AMER managers that aren't appropriate for public channels | 1-2 threads per week |
 | `#spt_hiring-mgmt` | Managers+, Recruiting, Finance | Used for coordinating offers and discussing hiring specifics that can be shared in the public channel | 1-2 threads per week |
 | `#fy23_support_promotions` | Managers+, People Business Partner | Used for coordinating and planning promotions in FY23 | 0 threads per week, mostly informational |
-| `#cto_spt_directors` | CTO, Directors | Used for Directors + CTO to discuss and coordinate on sensitive topics / budget / etc. | 3-4 threads per week |
+| `#spt_leadership_internal` | Managers+, Staff+ | Private version of `#support_leadership`, used for sensitive topics where Staff and Managers are the appropriate audience | rarely used |
 
 Before starting a new private channel, ask yourself *Why **can't** everyone contribute here?* Appropriate answers might be:
 
@@ -529,21 +517,14 @@ as possible.
 #### Support Stable Counterpart
 
 The Support Stable Counterpart role is designed to provide a strong connection
-between a product team and Support for the purpose of discussing product issues,
-sharing product knowledge and representing customer needs. If you are interested
+between a product or non-product team and Support. The purpose is discussing
+product issues, sharing product knowledge and representing customer needs, as
+well as sharing knowledge about each team's work and developing processes and
+documentation to allow the two teams to work together well. If you are interested
 in becoming a Support Stable Counterpart, or would like to learn more about the
 role, read the
 [Support Stable Counterparts](/handbook/support/support-stable-counterparts)
 page.
-
-#### Support Liaison
-
-The Support Liaison role is designed to provide a strong relationship between
-a non-product team and Support for the purpose of sharing knowledge
-about each team's work and of developing processes and documentation to allow
-the two teams to work together well. If you are interested in becoming a
-Support Liaison, or would like to learn more about the role, read the
-[Support Liaisons](/handbook/support/support-liaisons) page.
 
 ## Processes
 
@@ -569,7 +550,7 @@ Artifacts of approval can include:
   - [How to Work with Tickets](/handbook/support/workflows/working-on-tickets)
   - [How to Submit issues to Product/Development](/handbook/support/workflows/working-with-issues)
   - [How to Submit Code to the GitLab Application](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md)
-  - [How to Submit Docs when working on customer issues](/handbook/documentation) (see 'docs-first methodology')
+  - [How to Submit Docs when working on customer issues](/handbook/product/ux/technical-writing/documentation/) (see 'docs-first methodology')
 - [License & Renewals Workflows](/handbook/support/license-and-renewals/workflows)
 
 ### Slack Workflows
@@ -673,7 +654,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 - [Support Managers](/handbook/support/managers/)
 - [Support Hiring](/handbook/support/managers/hiring/)
 - [Support Channels](/handbook/support/channels/)
-- [On-Call](/handbook/on-call/)
+- [On-Call](/handbook/engineering/on-call/)
 - [License & Renewals](/handbook/support/license-and-renewals/)
 - [Support Ops](/handbook/support/readiness/operations/)
 - [Advanced Topics](/handbook/support/advanced-topics/)
@@ -681,33 +662,33 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 ### Documentation
 
 - GitLab
-    - [GitLab.com Status](https://status.gitlab.com/)
-    - [GitLab Releases](https://about.gitlab.com/releases/categories/releases/)
+  - [GitLab.com Status](https://status.gitlab.com/)
+  - [GitLab Releases](https://about.gitlab.com/releases/categories/releases/)
 - Writing docs
-    - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html)
-    - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
-    - [GitLab Markdown](https://docs.gitlab.com/ee/user/markdown.html)
+  - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html)
+  - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
+  - [GitLab Markdown](https://docs.gitlab.com/ee/user/markdown.html)
 - Setting up GitLab
-    - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
-    - [Requirements](https://docs.gitlab.com/ee/install/requirements.html)
-    - [Installation methods for GitLab](https://about.gitlab.com/install/)
-    - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
-    - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/README.html)
-    - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration.html)
-    - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)
+  - [GitLab Architecture Overview](https://docs.gitlab.com/ee/development/architecture.html)
+  - [Requirements](https://docs.gitlab.com/ee/install/requirements.html)
+  - [Installation methods for GitLab](https://about.gitlab.com/install/)
+  - [Backing up and restoring GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
+  - [Omnibus configuration settings](https://docs.gitlab.com/omnibus/settings/README.html)
+  - [Omnibus Configuration options](https://docs.gitlab.com/omnibus/settings/configuration.html)
+  - [Omnibus Database settings](https://docs.gitlab.com/omnibus/settings/database.html#seed-the-database-fresh-installs-only)
 - Debugging GitLab
-    - [Log system](https://docs.gitlab.com/ee/administration/logs.html)
-    - [Rake tasks](https://docs.gitlab.com/ee/raketasks/)
-    - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance.html)
-    - [Debugging Tips](https://docs.gitlab.com/ee/administration/troubleshooting/debug.html)
-    - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index.html#support-team-docs)
-    - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet.html)
+  - [Log system](https://docs.gitlab.com/ee/administration/logs.html)
+  - [Rake tasks](https://docs.gitlab.com/ee/raketasks/)
+  - [Maintenance Rake Tasks](https://docs.gitlab.com/ee/administration/raketasks/maintenance.html)
+  - [Debugging Tips](https://docs.gitlab.com/ee/administration/troubleshooting/debug.html)
+  - [Debugging resources for GitLab Support Engineers](https://docs.gitlab.com/ee/administration/index.html#support-team-docs)
+  - [GitLab Rails Console Cheat Sheet](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet.html)
 - GitLab features
-    - [Install GitLab Runner](https://docs.gitlab.com/runner/install/)
-    - [GitLab CI example projects](https://gitlab.com/gitlab-examples)
-    - [Elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html)
-    - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)
+  - [Install GitLab Runner](https://docs.gitlab.com/runner/install/)
+  - [GitLab CI example projects](https://gitlab.com/gitlab-examples)
+  - [Elasticsearch](https://docs.gitlab.com/ee/integration/elasticsearch.html)
+  - [Connecting GitLab with a Kubernetes cluster](https://docs.gitlab.com/ee/user/project/clusters/)
 - Developing GitLab
-    - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities.html)
-    - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html)
-    - [What requires downtime?](https://docs.gitlab.com/ee/development/what_requires_downtime.html)
+  - [GitLab development utilities](https://docs.gitlab.com/ee/development/utilities.html)
+  - [Feature flags](https://docs.gitlab.com/ee/development/feature_flags/index.html)
+  - [What requires downtime?](https://docs.gitlab.com/ee/development/what_requires_downtime.html)

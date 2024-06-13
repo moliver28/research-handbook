@@ -45,7 +45,7 @@ If the YubiKey is not working for that application, try using Touch ID, and then
 
 ### Using YubiKey on Mobile Devices
 
-If you have configured an NFC key, see the [Android](/handbook/security/guides/2fa/android) and [iOS](/handbook/security/guides/2fa/ios) guides for instructions on signing in with your YubiKey to approved mobile applications that do not use FaceID or biometrics.
+If you have configured an NFC key, see the [Android](android/) and [iOS](ios/) guides for instructions on signing in with your YubiKey to approved mobile applications that do not use FaceID or biometrics.
 
 ### Leaving YubiKey Inserted or Removing
 

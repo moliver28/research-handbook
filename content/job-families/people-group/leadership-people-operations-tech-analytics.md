@@ -72,8 +72,7 @@ The Director, Risk and Resilience is [Job Grade 10](/handbook/total-rewards/comp
 - Develop strategic plans vital to the long-term success and efficiency of the global Business Continuity program.
 - Work with internal partners to develop Business Continuity and Disaster Recovery plans.
 - Develop, implement, and train a core team of leaders to respond to crisis incidents impacting the company.  Facilitate and train senior leaders on the Crisis Management program and processes.
-- Develop and implement GitLab’s Executive Threat Assessment Program, including protective services for employees traveling in high-risk locations
-- Manage global COVID-19 resources and response plans
+- Develop and implement GitLab’s Executive Threat Assessment Program, including protective services for employees traveling in high-risk locations.
 - Ensure regulatory compliance, protect employees, and the environment in a remote work environment setting
 - Provide business continuity leadership and expertise to the organization globally
 - Lead in developing, maintaining, testing, and refining Business Continuity strategies and plans in partnership with critical business functions

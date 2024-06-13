@@ -24,6 +24,7 @@ GitLab mentions on Hacker News are tracked on the [#hn-mentions](https://gitlab.
 In 2020, we ran multiple experiments to try to drive interest in new posts about GitLab. We learned that the key to a post reaching the front page was the content itself. Timing of when a post is shared can also help but is out of our control as we do not post our own content. Creating a coordinated response was not effective in driving interest in the posts without organic interest from the Hacker News community. The content is the key to success.
 
 We conducted an audit to see what types of posts about GitLab landed on the front page of Hacker News. We learned that the following types of GitLab-related content generated the most interest on Hacker News:
+
 - Major company news such as announcements about funding, acquisitions, or moving features to core
 - Release posts
 - Announcements from our open source program members including posts from Gnome, KDE, and WikiMedia and other open-source focused content
@@ -74,7 +75,6 @@ Follow the [formatting options documentation](https://news.ycombinator.com/forma
 1. When replying to a specific sentence or thought, use `>` to quote the section in your reply, add a blank line, and your comment.
 2. Indent the lines with 2 spaces to format shell commands and code as code blocks (thanks to [this comment](https://news.ycombinator.com/item?id=33108536))
 3. When sharing more than 2 URLs, consider using `[0]`, `[1]`, etc. anchors with a list of URLs at the bottom of the comment. The list needs a blank line between items to render correctly. Separating URLs from text can increase readability and intention of the comment, and making the URLs less important. ([example](https://news.ycombinator.com/item?id=32155848)).
-
 
 ### Conveying without convincing
 

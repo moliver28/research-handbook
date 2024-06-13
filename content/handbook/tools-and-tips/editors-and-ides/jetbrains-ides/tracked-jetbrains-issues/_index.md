@@ -49,7 +49,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
 
 - Title: DIRC checksum mismatch error in Settings Sync
 - Link: https://youtrack.jetbrains.com/issue/IDEA-337625
-- Notes: The Settings Sync feature currently does not work. This is problematic because [JetBrains has also deprecated the previous alternative Settings Repository Plugin](https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/setup-and-config/#update-2023-11)
+- Notes: The Settings Sync feature currently does not work. This is problematic because [JetBrains has also deprecated the previous alternative Settings Repository Plugin](/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/setup-and-config/#update-2023-11)
 
 ### RUBY-25400
 
@@ -69,23 +69,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
   - Requires `# noinspection SqlResolve` or sometimes maybe `# noinspection RubyResolve` (e.g. if it's indirectly accessed via Rspec).
   - UPDATE 2023-07-10: Got a response from JetBrains here: <https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-7813387.0-0> providing some information and requesting more info and follow-up
   - UPDATE 2024-01-06: JetBrains marked the issue resolved, but we are still seeing errors which seem related. See comment here:
-    https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-8744712.0-0
-
-### RUBY-31543
-
-- Title: Fixtures declared with `let_it_be` from `test-prof` gem cannot be found, and give `RubyResolve` warning
-- Link: <https://youtrack.jetbrains.com/issue/RUBY-31543/Fixtures-declared-with-letitbe-from-test-prof-gem-cannot-be-found-and-give-RubyResolve-warning>
-- Notes: Requires `# noinspection RubyResolve`
-- UPDATE 2024-01-06: Issue was closed, but it still appears to be a problem in some cases. See:
-  https://youtrack.jetbrains.com/issue/RUBY-31543/Support-test-prof-gem-fixtures-declared-with-letitbe#focus=Comments-27-8744742.0-0
-
-### RUBY-32041
-
-- Title: Mismatched argument type inspection false positive on RSpec parameterized table syntax
-- Link: <https://youtrack.jetbrains.com/issue/RUBY-32041>
-- Notes: Requires `# noinspection RubyMismatchedArgumentType`.
-  Note that this is different than <#ruby-31544> (<https://youtrack.jetbrains.com/issue/RUBY-31544/Cannot-find-fixtures-defined-with-RSpecParameterizedTableSyntax-causes-RubyResolve-warning>), which appears to be fixed in the latest EAP.
-  RUBY-32041 seems to be specific to using `Array` types with `RSpec::Parameterized::TableSyntax`.
+    https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-8744712.0-0  
 
 ### RUBY-32287
 
@@ -113,6 +97,14 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
       it has written its own DSL. We'll create an issue requesting support for this library (so that you can mention it in your comments), but there isn't any timeframe
       on implementing it right now sorry."
 
+### RUBY-32975
+
+- Title: Update unconventional name inspections to match RuboCop further
+- Link: https://youtrack.jetbrains.com/issue/RUBY-32975
+- Notes:
+  - Requires `# noinspection RubyClassModuleNamingConvention`
+  - Required to allow 2-character module names like `EE`
+
 ## Closed Issues
 
 ### RUBY-31540
@@ -131,4 +123,18 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
 
 - Title: Cannot find fixtures defined with `RSpec::Parameterized::TableSyntax`, causes `RubyResolve` warning
 - Link: <https://youtrack.jetbrains.com/issue/RUBY-31544/Cannot-find-fixtures-defined-with-RSpecParameterizedTableSyntax-causes-RubyResolve-warning>
+- Notes: Requires `# noinspection RubyResolve`
+
+### RUBY-32041
+
+- Title: Mismatched argument type inspection false positive on RSpec parameterized table syntax
+- Link: <https://youtrack.jetbrains.com/issue/RUBY-32041>
+- Notes: Requires `# noinspection RubyMismatchedArgumentType`.
+  Note that this is different than <#ruby-31544> (<https://youtrack.jetbrains.com/issue/RUBY-31544/Cannot-find-fixtures-defined-with-RSpecParameterizedTableSyntax-causes-RubyResolve-warning>), which appears to be fixed in the latest EAP.
+  RUBY-32041 seems to be specific to using `Array` types with `RSpec::Parameterized::TableSyntax`.
+
+### RUBY-31543
+
+- Title: Fixtures declared with `let_it_be` from `test-prof` gem cannot be found, and give `RubyResolve` warning
+- Link: <https://youtrack.jetbrains.com/issue/RUBY-31543/Fixtures-declared-with-letitbe-from-test-prof-gem-cannot-be-found-and-give-RubyResolve-warning>
 - Notes: Requires `# noinspection RubyResolve`

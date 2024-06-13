@@ -60,7 +60,6 @@ A Product Manager will lead their quad team, in collaboration with a Product Mar
   - Each slide should be an opportunity to show your work and justification behind your rating.
   - Remember: the competitor comparison should be completely data/evidence driven.
 
-
 - **Step 8 - Document/update the scoring**
   - Either add or amend the existing category score on [this handbook page](https://about.gitlab.com/direction/maturity/) with the appropriate signal
 
@@ -88,6 +87,7 @@ To indicate if a JTBD is best in class, we use a simple rating in the form of an
 - No marking means competitor analysis was not performed.
 
 Example:
+
 - ‘Viable’ - The absence of any marking indicates that a competitor analysis was not performed
 - ‘Viable (+)’ - (+) indicates best in class
 - ‘Viable (**+**)’ - (**+**) indicates best in class and a GitLab sweep, where GitLab scored better than the competitor on every JTBD
@@ -115,6 +115,7 @@ If you’re having trouble determining if your heuristics are objective vs. subj
 - If your heuristics can be compared using numbers, yes/no, or descriptions, then they’re probably objective heuristics.
 
 Tip: it’s sometimes best to go into a comparison without heuristics identified ahead of time.  Heuristics can often reveal themselves to you once the comparison is underway.  A real example:
+
 - In comparing features, it became clearly apparent that one application contained far more steps than the other application to complete the same task.  In this example, a comparable heuristic became ‘number of steps’.
 
 A good number of heuristics to aim for per JTBD is 3 or 4. Focus on what you think are the important differentiators that can help tell the story of ‘best in class’.

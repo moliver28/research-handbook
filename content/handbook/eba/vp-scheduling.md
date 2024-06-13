@@ -88,5 +88,3 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
   - Provide context: include agenda to be covered, share google doc if available, include a link to any relevant issues, slides, etc.
   - For customer meetings please create an issue request using [this template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/product-leader-customer-meeting-request-template.md) and tag Jennifer Garcia (Product EBA) for review and availability
 - If you add any meetings to calendar directly, tick the box “Attendees can modify” so EBA can change if necessary
-
-

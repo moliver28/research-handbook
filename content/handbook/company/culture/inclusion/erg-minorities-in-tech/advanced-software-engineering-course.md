@@ -125,5 +125,5 @@ For those interested in using GitLab to support a course whether it is Face to F
 | [GitLab CD(Continuous Deployment)](https://docs.gitlab.com/ee/ci/) | Used to push every day code changes into the production environment resulting in continuous deployments to production. |
 | [Requirements](https://docs.gitlab.com/ee/user/project/requirements/) | Used for homework assignments to mimic real world environments where you have customers who submit requirements to engineering teams. |
 | [Designs](https://docs.gitlab.com/ee/user/project/issues/design_management.html) | Used for homework assignments to provide a visual for the Handbook Pages they will contribute to |
-| [GitLab Handbook]({{< ref "/handbook" >}}) | Students will learn to update the GitLab Handbook and they will also use some Handbook content as supplemental lecture material. |
+| [GitLab Handbook](/handbook) | Students will learn to update the GitLab Handbook and they will also use some Handbook content as supplemental lecture material. |
 | [GitLab Docs](https://docs.gitlab.com) | Students will use GitLab docs as supplemental lecture material. |

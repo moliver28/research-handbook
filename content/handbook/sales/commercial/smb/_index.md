@@ -83,9 +83,9 @@ True-ups are conversations that often come to the table with customers during re
 
 - [True Up Policy](/handbook/company/pricing/#true-up-pricing)
 - [How To Find True Ups](https://about.gitlab.com/pricing/licensing-faq/#what-does-users-over-license-mean)
-- [Licensing and Subscription Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting.html#licensing)
+- [Licensing and Subscription Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting/#licensing)
 
-Additionally, [quarterly subscription reconciliations](/handbook/support/license-and-renewals/workflows/quarterly_subscription_reconciliations.html) should also be understood related to customer billing.
+Additionally, [quarterly subscription reconciliations](/handbook/support/license-and-renewals/workflows/quarterly_subscription_reconciliations/) should also be understood related to customer billing.
 
 ### Account Planning Lifecycle
 
@@ -164,8 +164,8 @@ Customer success planning should be broken into three categories based off the p
 - Follow the [Commercial Sales standards](/handbook/customer-success/comm-sales/#additional-engagement-guidelines-for-sales) for engaging a Customer Success Manager or Solution Architect into the conversation with a customer or prospect.
 - Consider a [Live Optimization Session](/handbook/sales/commercial/smb/live-optimization/) with a Solutions Architect.
 - If limited on resources, encourage clients to submit questions to the following communities:
-    - Community Forum: https://forum.gitlab.com/
-    - Reddit: https://www.reddit.com/r/gitlab/
+  - Community Forum: https://forum.gitlab.com/
+  - Reddit: https://www.reddit.com/r/gitlab/
 
 ### Compensation
 

@@ -10,8 +10,7 @@ description: Process for submitting a promotions request
 ## Overview
 
 This page supplements the [Promotions and Transfers handbook page](/handbook/people-group/promotions-transfers/)
-and documents promotions-related workflows and processes specific to the
-Customer Support department.
+and the [Support Engineer Career path](/handbook/support/support-engineer-career-path/#career-development-in-support) page. It documents workflows and processes specific to preparing your promotion document in the Customer Support department.
 
 ## Process
 
@@ -24,19 +23,23 @@ The general process for promotions is:
      praising their co-workers easier than doing so for themselves.
 1. The manager circulates the promotion document for review and feedback
    amongst the manager's peers.
-1. Support Directs review and calibrate all proposed promotions once a quarter.
-1. Approved promotions proceed through the rest of the process.
+1. Support Directs review and calibrate all proposed promotions [twice per year](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline).
+1. Approved promotions proceed through the rest of the [process](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline).
 
 ## Promotion Document
 
 The promotion document template can be found in the
-[Pillars section of the Promotions and Transfers handbook page](/handbook/people-group/promotions-transfers/#pillars).
+[Promotion document section of the Promotions and Transfers handbook page](/handbook/people-group/promotions-transfers/#promotion-document). This section of the handbook provides a lot of guidance on how to complete your document. Spend some time reading through it before you begin your document. You can refer to [completed Support team promotion documents](/handbook/support/workflows/team/promotions/#completed-promotion-documents) to see examples of what to include in each section of the document.
 
 Business Results and Business Justifications section should closely align with
 the expected competencies for the role as laid out in:
 
 - The [GitLab Job Frameworks](/handbook/company/structure/#job-frameworks).
 - The [Support Career Framework](/handbook/engineering/careers/matrix/support/).
+
+### Feedback process for promotion to Staff+ roles
+
+In the FY25-Q1 promotion cycle, a feedback portion was required for Staff+ promotions.  For the FY25-Q3 cycle this has been removed. It may be introduced in a future cycle. For more information, see [FY25 CTO Org promo guidance](/handbook/people-group/promotions-transfers/#fy25-cto-org-promo-guidance).
 
 ## In-Progress Promotion Documents
 

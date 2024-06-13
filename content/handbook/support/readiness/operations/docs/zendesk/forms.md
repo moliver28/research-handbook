@@ -44,7 +44,7 @@ On this page, you will do the following:
 
 After doing so, click the blue `Save` button. You will then locate the
 placeholder ticket form you just created (should be at the bottom), hover over
-it, click the three vertical dots at at the right-hand side of the ticket form,
+it, click the three vertical dots at the right-hand side of the ticket form,
 and click `Deactivate`. After doing so, you will need to get the ID value for it
 (if you click it, you can see it in the URL).
 
@@ -54,7 +54,7 @@ are likely to need to adjust **many** ticket form files due to positioning.
 #### Updating an existing ticket form
 
 Updating an existing ticket form is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 #### Deactivating a ticket form
@@ -167,14 +167,15 @@ team.
 
 ## Current Zendesk US Federal forms
 
-| Name               | ID           | Visibility | Category |
-|--------------------|:------------:|------------|----------|
-| Support            | 360000446511 | Public     | Support  |
-| Upgrade Assistance | 360001434131 | Public     | Support  |
-| Support Ops        | 360001421052 | Public     | Support  |
-| L&R                | 360001421072 | Public     | Support  |
-| Emergency          | 360001421112 | Public     | Support  |
-| License Issue      | 360001803151 | Internal   | Support  |
+| Name               | ID             | Visibility | Category |
+|--------------------|----------------|------------|----------|
+| Support            | 360000446511   | Public     | Support  |
+| GitLab Dedicated   | 26347526042004 | Public     | Support  |
+| Upgrade Assistance | 360001434131   | Public     | Support  |
+| Support Ops        | 360001421052   | Public     | Support  |
+| L&R                | 360001421072   | Public     | Support  |
+| Emergency          | 360001421112   | Public     | Support  |
+| License Issue      | 360001803151   | Internal   | Support  |
 
 ## Positioning
 

@@ -47,9 +47,9 @@ If you receive a question from a manager about why a template was not linked in 
 
 Note: If a People Connect Team member needs to create the onboarding issue for interns, they can use the same Slack command.
 
-This issue is added to the [team member's epic]({{< ref "/handbook/people-group/engineering/employment-issues#epics" >}}).
+This issue is added to the [team member's epic](/handbook/people-group/engineering/employment-issues#epics).
 
-If you want to read more about how employment issues are set up, please read [this section]({{< ref "/handbook/people-group/engineering/employment-issues" >}}).
+If you want to read more about how employment issues are set up, please read [this section](/handbook/people-group/engineering/employment-issues).
 
 ## Invited to GitLab.com
 
@@ -113,7 +113,7 @@ graph TD
 If changes are required to the onboarding email template, follow these steps to update them:
 
 - Browse to the MJML [page](https://mjml.io/try-it-live/)
-- Open the MJML template [template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/onboarding_email.mjml)
+- Open the MJML [template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/onboarding_email.mjml)
 - Copy and paste the template file of your choice into MJML website on the left
 - Make the relevant changes and then select `View HTML` on the top left hand side of the website.
 - Copy the HTML version to the HTML template.
@@ -223,7 +223,7 @@ that they have to complete the anti-harrassment training.
 There's a scheduled pipeline that runs every day that checks for hires that started a week ago.
 For those hires we will look if the incoming
 team member is a people manager. Currently there's no exact field
-on Workday for us to check this. The way we do this is by by looking
+on Workday for us to check this. The way we do this is by looking
 at their job title. If it **starts** with any of the following:
 
 - `Team Lead`

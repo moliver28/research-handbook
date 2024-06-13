@@ -47,7 +47,6 @@ Finally, you need to have your Git and SSH credentials correctly set up in your 
 
     Make sure to check for the existence of this particular text in your GDK-powered environment. Do so by going to one of the sample projects and clicking on Settings and then in General. The helper text of the first section is what we will be changing.
 
-
 1. Now that we have a clear goal of what we are changing is time to find the file or files that need to be modified for this change to happen. To do this go to Visual Studio Code and click on the Global Search icon on the left sidebar of your Visual Studio Code window. This should reveal a text box where you can type your search query. In this particular case, we are searching for a particular string which is `Update your project name, topics, description and avatar`. Simply copy and paste that line in the search box.
 
     At this point, you should see some search results that match your query. Since this guide is focused on making UI string changes here are some general rules to make sure that you're indeed changing the correct occurrence of that text:
@@ -69,9 +68,9 @@ Finally, you need to have your Git and SSH credentials correctly set up in your 
 1. Finally, we are ready to open an MR with this change against the main GitLab repo. Don't worry about this step. You won't break anything and your MR can be closed later without affecting anything in the main repo. To push your change you want to do two things:
 
    - Enter the following git command in your terminal:
-    - `git add .`. This command will add the files that you just changed so they can be committed.
-    - `git commit -m 'A meaningful message'`. This command will create a commit with your changes. It's very important that you comply with the commit message rules, otherwise your pipeline will fail. To comply with the rules make sure that your commit message it's a least three words but not more than 75 characters, the first letter needs to be capitalized and it can't end in period `.`.
-    - `git push --set-upstream origin your-branch-name`. This command will create an upstream branch and push your changes against that remote branch. After the push is completed the terminal will show the MR url which you can open in a browser to finalize your change.
+     - `git add .`. This command will add the files that you just changed so they can be committed.
+     - `git commit -m 'A meaningful message'`. This command will create a commit with your changes. It's very important that you comply with the commit message rules, otherwise your pipeline will fail. To comply with the rules make sure that your commit message it's a least three words but not more than 75 characters, the first letter needs to be capitalized and it can't end in period `.`.
+     - `git push --set-upstream origin your-branch-name`. This command will create an upstream branch and push your changes against that remote branch. After the push is completed the terminal will show the MR url which you can open in a browser to finalize your change.
 
 1. You're done! Just make sure that you add all the final details to your MR including a milestone and a [type label](/handbook/engineering/metrics/#data-classification)
 

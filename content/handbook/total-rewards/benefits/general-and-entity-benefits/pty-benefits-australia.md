@@ -67,7 +67,7 @@ Please email *paul.dervan@wtwco.com* and cc’ *total-rewards@gitlab.com*
 
 ### Superannuation
 
-GitLab will make superannuation contributions directly to the team member's nominated super fund according to the Australian Government Super Guarantee rate which is currently set at 11% of the team member's total salary, with a quarterly cap of $6,849.70 AUD. Super is on top of the salary listed in the compensation calculator/contract.
+GitLab will make superannuation contributions directly to the team member's nominated super fund according to the Australian Government Super Guarantee rate. Effective 2024, the superannuation rate is set at 11.5% of the team member's total salary, with a quarterly cap of $7,483.05 AUD. Super is on top of the salary listed in the compensation calculator/contract.
 
 #### Superannuation payments due dates
 
@@ -81,7 +81,7 @@ Payments due dates can be found on the [ATO website](https://www.ato.gov.au/busi
 
 #### Superannuation Salary Sacrifice
 
-Team members in Australia have the option to make concessional super contributions by sacrificing some of their pre-tax pay and arrange to have it paid into their superfund instead. The combined total of GitLab and salary sacrificed contributions [must not be more than $27,500](https://www.ato.gov.au/Individuals/Super/In-detail/Growing-your-super/Super-contributions---too-much-can-mean-extra-tax/?page=2#Concessional_contributions_and_contribution_caps) per financial year.
+Team members in Australia have the option to make concessional super contributions by sacrificing some of their pre-tax pay and arrange to have it paid into their superfund instead. Effective July 1, 2024 the combined total of GitLab and salary sacrificed contributions [must not be more than $30,000](https://www.ato.gov.au/Individuals/Super/In-detail/Growing-your-super/Super-contributions---too-much-can-mean-extra-tax/?page=2#Concessional_contributions_and_contribution_caps), per financial year.
 
 *Salary Sacrifice FAQ*
 
@@ -120,7 +120,7 @@ If you need to file a claim, kindly reach out to the Payroll Team or email nonus
 
 ### On-Call (Engineering only)
 
-Certain groups in the Engineering division are expected to participate in on-call for business continuity and/or customer support. For more details on the on-call procedure, please reference the [on-call page](/handbook/on-call/). The purpose of this section is to provide an overview of **time in lieu that will be offered for the Development and Infrastructure departments effective February 1, 2021.** We will continue to review and implement to other departments within Engineering iteratively.
+Certain groups in the Engineering division are expected to participate in on-call for business continuity and/or customer support. For more details on the on-call procedure, please reference the [on-call page](/handbook/engineering/on-call/). The purpose of this section is to provide an overview of **time in lieu that will be offered for the Development and Infrastructure departments effective February 1, 2021.** We will continue to review and implement to other departments within Engineering iteratively.
 
 With our global team, we strive for a "follow the sun" model for on-call rotation. This way, team members can participate in on-call during their daytime rather than their nighttime in their respective regions (APAC, EMEA and AMER). In APAC, the majority of the team members are located in Australia. We want to ensure engineers in Australia are 1) eligible for on-call shifts, and 2) stay aligned with local laws to ensure proper rest/recovery time after on-call shifts.
 
@@ -151,7 +151,6 @@ No, only on-call shifts outside of working hours (I.E. weekends, evenings, etc.)
 ##### How do I request time in lieu?
 
 Time in lieu should be requested via [Time Off by Deel]({{< ref "paid-time-off#time-off-by-deel" >}}) by selecting the `On-Call Time in Lieu` option.
-
 
 ### GitLab PTY Australia Annual, Sick and Carer's Leave, and Other Statutory Leaves
 
@@ -399,7 +398,7 @@ added to the policy within three months of the child’s birth. Congenital condi
 ### New Hires
 
 Eligible New Hires will be given a link and code to access the portal and enroll in the plan during their onboarding issue
-Total Rewards will also send a monthly report to WTW with new hires as a backup (This process will soon be replaced by automated notifications from Workday)  
+Total Rewards will also send a monthly report to WTW with new hires as a backup (This process will soon be replaced by automated notifications from Workday)
 WTW will have Southern Cross email the eligible new hire with enrollment instructions.
 
 ### Leavers
@@ -447,7 +446,7 @@ If it’s impossible to find a replacement and the team member ends up taking th
 *How to Apply:*
 
 - Team members must contact leaves@gitlab.com when reporting their leave.
-    - In accordance with the Holidays Act, GitLab may require a medical certificate
+  - In accordance with the Holidays Act, GitLab may require a medical certificate
 - Designate any time off for illness as `Out Sick` in Time Off by Deel to ensure that sick leave entitlement is properly tracked.
 - Unused sick leave will not be paid out to the team member upon termination of employment.
 
@@ -483,7 +482,7 @@ Special Leave
 
 - Team members who are pregnant can also take up to 10 days of unpaid special leave for pregnancy-related reasons such as antenatal classes, scans, or midwife appointments. This is in addition to primary carer leave.
 - This leave will run concurrently with GitLab PTO.
-    - If you do not want to select `Out Sick` in Time Off by Deel, you may email `leaves@gitlab.com` with the date(s) that you will be taking special leave.
+  - If you do not want to select `Out Sick` in Time Off by Deel, you may email `leaves@gitlab.com` with the date(s) that you will be taking special leave.
 
 Partner Leave
 
@@ -495,9 +494,9 @@ Partner Leave
 #### Applying for Parental Leave in New Zealand
 
 - To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts.
-    - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
+  - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 - To apply for government-funded Parental Leave pay, please submit your application via [IRD](https://www.ird.govt.nz/paid-parental-leave/apply).
-   - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
+  - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
 - If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
 
 #### Other Types of Leave
@@ -512,7 +511,7 @@ Partner Leave
 *How to Apply:*
 
 - Team members must contact `leaves@gitlab.com` to report their leave.
-   - If the team member has been sick for a period of 3 or more consecutive days, the team member may be asked to provide a medical certificate.
+  - If the team member has been sick for a period of 3 or more consecutive days, the team member may be asked to provide a medical certificate.
 - To designate and track Stress Leave properly, select as `Out Sick` in Time Off by Deel.
 
 For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/stress-leave/)
@@ -527,6 +526,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - This leave runs concurrently with GitLab PTO for up to 25 days.
 
 *How to Apply:*
+
 - Team members must email the Absence Management team `leaves@gitlab.com` as soon as possible to notify them of the first date of leave and, if possible, the end date of their leave.
 - Team members must select `Mandatory Civilian Service` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
@@ -574,6 +574,7 @@ For more information related to this policy, please reivew the [Employment New Z
 <summary>Family Violence Leave</summary>
 
   All team members who have been employed for a six month continuous period are entitled to 10 days of paid leave if they have been affected by family violence.
+
 - This leave may also be taken to support a child who has experienced domestic violence as long as they live with the team member for some of the time.
 - A person is affected by family violence if they are a person against whom any other person is inflicting, or has inflicted family violence, and/or a person with whom there ordinarily or periodically resides a child against whom any other person is inflicting or has inflicted, family violence.
 - Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/domestic-violence-leave/short-term-flexible-working/) for up to 2 months.
@@ -634,7 +635,6 @@ While not a legal requirement, long service leave may be negotiated between a te
 - This leave runs concurrently with GitLab PTO. Team members must designate this time off as `Vacation` in Time Off by Deel.
 
 </details>
-
 
 ### Pension
 

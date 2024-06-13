@@ -63,7 +63,7 @@ are likely to need to adjust **many** trigger files due to positioning.
 #### Updating an existing trigger
 
 Updating an existing trigger is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 The one caveat you need to consider is when you are changing a trigger to allow

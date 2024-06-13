@@ -42,6 +42,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 ## Holistic security training and enablement
 
 {{% details summary="1. Throughout the pipeline" %}}
+
 - **At the discovery stage**
 - **During scoping discussions**
 - **With the technical evaluation**
@@ -50,6 +51,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 {{% /details %}}
 
 {{% details summary="2. During their time at GitLab" %}}
+
 - **Before they join GitLab**
 - **During the onboarding process**
   - Sales Quick Start
@@ -60,6 +62,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 {{% /details %}}
 
 {{% details summary="3. Across the different roles" %}}
+
 - **SDR/BDR**
 - **Account Executives**
 - **Strategic Account Leaders**
@@ -72,6 +75,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 {{% /details %}}
 
 {{% details summary="4. In every territory" %}}
+
 - **EMEA**
 - **APAC**
 - **AMER**
@@ -79,6 +83,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 {{% /details %}}
 
 {{% details summary="5. For every type of customer" %}}
+
 - **SMB**
 - **Mid-Market**
 - **Enterprise**

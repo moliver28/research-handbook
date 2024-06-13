@@ -32,7 +32,7 @@ This role will help enable communication, collaboration, strategy execution, and
 #### Collaboration
 
 - Act as a sounding board to the CTO for new ideas and initiatives.
-- Maintain and foster a close partnership, collaborating effectively with the CEO’s Chief of Staff Team on strategic initiatives.
+- Maintain and foster a close partnership, collaborating effectively with the Office of the CEO on strategic initiatives.
 - Consult and partner with People Business partners on strategic People-related initiatives, challenges, and goals.
 - Create a structure for the CTO to improve visibility and accountability with their direct reports.
 

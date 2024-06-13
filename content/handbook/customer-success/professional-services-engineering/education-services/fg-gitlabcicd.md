@@ -2,7 +2,8 @@
 title: "Facilitator Guide for Certified Trainers for the GitLab CI/CD course"
 description: "This Facilitator Guide is intended to walk you through all important links, preparation items, and after class items for our GitLab CI/CD course."
 ---
-# GitLab CI/CD Facilitator Guide
+
+## GitLab CI/CD Facilitator Guide
 
 ## Important Links
 
@@ -16,9 +17,11 @@ description: "This Facilitator Guide is intended to walk you through all importa
 ### For GitLab Team Members and Contractors
 
 1. Instructor Slides: You will make your own copy of this [Main Presentation](https://docs.google.com/presentation/d/1Eb7m7cGFrmMDfaHF3TRWLqhgSxZpYxl0RzA8DHWIcDU/edit?usp=sharing)-
-  - Go to File > Make a Copy > Entire Presentation to save a copy of your deck.
-  - PDF the presentation at the end of the course to send to the client
-  - Save  your copy in the applicable [client folder](https://drive.google.com/drive/u/0/folders/1ozPKiAlUzbKwpkscaYVTp9PVoi9hWm4U)
+
+   - Go to File > Make a Copy > Entire Presentation to save a copy of your deck.
+   - PDF the presentation at the end of the course to send to the client
+   - Save  your copy in the applicable [client folder](https://drive.google.com/drive/u/0/folders/1ozPKiAlUzbKwpkscaYVTp9PVoi9hWm4U)
+
 2. Hands On Lab Environment: Use the sample projects located in the GitLab Demo Cloud
 3. [Hands On Guide](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson.html)
 4. [Remote Sessions Tips and Tricks](/handbook/customer-success/professional-services-engineering/remote-training-tips/)
@@ -27,7 +30,7 @@ description: "This Facilitator Guide is intended to walk you through all importa
 
 1. Lab set up and preparation
    1. Set up the lab environment for your organization (if not already done)
-     - When building the lab environment in a standalone instance or a virtual machine, follow the step by step instructions in the [README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/partner-training-template-projects/gitlab-cicd-hands-on-demo/-/blob/master/README.md) to ensure your Hands On evnironment is set up correctly prior to class.
+      - When building the lab environment in a standalone instance or a virtual machine, follow the step by step instructions in the [README](https://gitlab.com/gitlab-com/customer-success/professional-services-group/partner-training-template-projects/gitlab-cicd-hands-on-demo/-/blob/master/README.md) to ensure your Hands On evnironment is set up correctly prior to class.
    2. Provision learners
 2. Hands-on walkthrough
    1. Practice each demo in the lab environment
@@ -72,7 +75,6 @@ description: "This Facilitator Guide is intended to walk you through all importa
 1. Highlight the GitLab Certified CI/CD Specialist Certification and encourage attendees to complete the exams.
 2. Ask attendees to access the link on the last slide to complete the [GitLab Training Survey](https://www.surveymonkey.com/r/proservtraining).
 
-
 ## Cleaning up your Local Comp and Hands on Environments After Class
 
 Afer each class you will want to clean up your systems both locally and in your Hands On Environment so you do not end up with duplicates that intefere with future classes.
@@ -80,5 +82,6 @@ Afer each class you will want to clean up your systems both locally and in your 
 1. Remove the Training directory from your local system:  (rm -rf Training)
 1. Navigate to the training users group and remove the projects you created in labs
 1. If you followed the lab guide; the projects will be:
+
 - Runner Demo
 - CICD Hands On

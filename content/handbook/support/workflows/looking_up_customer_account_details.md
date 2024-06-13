@@ -26,7 +26,7 @@ video.
 
 ## GitLab User Lookup app in Zendesk
 
-From the Zendesk [GitLab User Lookup application]({{< ref "/handbook/support/readiness/operations/docs/zendesk/apps#gitlab-user-lookup" >}}) you have access to the requester details in SFDC and GitLab.com.
+From the Zendesk [GitLab User Lookup application](/handbook/support/readiness/operations/docs/zendesk/apps#gitlab-user-lookup) you have access to the requester details in SFDC and GitLab.com.
 
 ## Within customers.gitlab.com
 
@@ -106,7 +106,7 @@ This will return nice URL that will take you the relevant license in CustomersDo
 
 ## Within Salesforce
 
-If you have access, you have the ability to look up the ticket requester's organization directly directly in Salesforce.
+If you have access, you have the ability to look up the ticket requester's organization directly in Salesforce.
 
 ### Finding the customer's organization
 

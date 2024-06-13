@@ -29,27 +29,27 @@ A hypothesis is basically an assumption. It’s a statement about what you belie
 A strong hypothesis is usually driven by existing evidence. Ask yourself: Why do you believe your assumption to be true? Perhaps your hunch was sparked by a passing conversation with a customer, something you read in a support ticket or issue, or even something you spotted in GitLab’s usage data.
 
 - Ask yourself:
-    - What current beliefs do you have about the user?
-    - What organizational or other barriers do you need to be mindful of?
-    - What are the business objectives for the project?
-    - What questions does the research need to answer?
-    - What are we trying to learn?
-    - What *must* the research achieve?
-    - Does any [prior research](/handbook/product/ux/ux-research/finding-existing-research/#how-to-find-existing-research) exist?
-        - What did prior research tell us?
+  - What current beliefs do you have about the user?
+  - What organizational or other barriers do you need to be mindful of?
+  - What are the business objectives for the project?
+  - What questions does the research need to answer?
+  - What are we trying to learn?
+  - What *must* the research achieve?
+  - Does any [prior research](/handbook/product/ux/ux-research/finding-existing-research/#how-to-find-existing-research) exist?
+    - What did prior research tell us?
 
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives** |
 | ------ | ------ | ------ | ------ | ------ |
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. |
+| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | | | | |
 
 ## Step 2 - Start populating ‘Questions we need answers to’
 
 - This is meant to be a brain dump of all the answers you came up with from step 1.
 - These aren't the questions you'll directly ask users - you'll get to that step later as you fill out your discussion guide.
 
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives** |
 | ------ | ------ | ------ | ------ | ------ |
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | <ul><li>Are people not booking because they don’t like the hotels we have? <li>Do we have issues with the website or app? <li>Are our prices too high? <li>Are we missing hotel amenities that customers are looking for?</li></ul> |
+| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | <ul><li>Are people not booking because they don’t like the hotels we have? <li>Do we have issues with the website or app? <li>Are our prices too high? <li>Are we missing hotel amenities that customers are looking for?</li></ul> | | | |
 
 ## Step 3 - Fill out the hypothesis
 
@@ -69,9 +69,9 @@ The statement consists of three elements.
 
 For example:
 
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives** |
 | ------ | ------ | ------ | ------ | ------ |
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | <ul><li>Are people not booking because they don’t like the hotels we have? <li>Do we have issues with the website or app? <li>Are our prices too high? <li>Are we missing hotel amenities that customers are looking for?</li></ul>  | We believe `that by improving the experience of selecting and deciding which of our hotels to stay at` for `users of our website` will achieve `in an increased number of hotel bookings`.
+| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | <ul><li>Are people not booking because they don’t like the hotels we have? <li>Do we have issues with the website or app? <li>Are our prices too high? <li>Are we missing hotel amenities that customers are looking for?</li></ul>  | We believe `that by improving the experience of selecting and deciding which of our hotels to stay at` for `users of our website` will achieve `in an increased number of hotel bookings`. | | |
 
 When writing your hypothesis, focus on simple solutions first and keep the scope small. If you’re struggling to articulate your assumptions about users, it’s probably better to start with developing a better understanding of users first, rather than forming weak hypotheses and running aimless research studies.
 
@@ -82,24 +82,24 @@ When writing your hypothesis, focus on simple solutions first and keep the scope
 - Always start goals using a verb such as identify, understand, learn, gauge, etc.
 - Limit the number of goals you define per project. Try to learn one or two things very well. This will help you connect your research to a design outcome and emerge with a clear understanding of one aspect of user behavior.
 
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives** |
 | ------ | ------ | ------ | ------ | ------ |
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | <ul><li>Are people not booking because they don’t like the hotels we have? <li>Do we have issues with the website or app? <li>Are our prices too high? <li>Are we missing hotel amenities that customers are looking for?</li></ul> | We believe `that by improving the experience of selecting and deciding which of our hotels to stay at` for `users of our website` will achieve `in an increased number of hotel bookings`. | Understand how people make their travel plans. |
+| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | <ul><li>Are people not booking because they don’t like the hotels we have? <li>Do we have issues with the website or app? <li>Are our prices too high? <li>Are we missing hotel amenities that customers are looking for?</li></ul> | We believe `that by improving the experience of selecting and deciding which of our hotels to stay at` for `users of our website` will achieve `in an increased number of hotel bookings`. | Understand how people make their travel plans. | |
 
 ## Step 5 - Create research objectives
 
 - A well written list of research objectives:
-    - Delineate and align with the goal of the project.
-    - Define the overall high-level approach and the questions you might ask.
-    - Dictate the most suitable methods and tools at your disposal.
-    - Determine the outcomes you will get from the study.
-    - Need to be high level, but specific enough that research can provide a concise answer for each.
+  - Delineate and align with the goal of the project.
+  - Define the overall high-level approach and the questions you might ask.
+  - Dictate the most suitable methods and tools at your disposal.
+  - Determine the outcomes you will get from the study.
+  - Need to be high level, but specific enough that research can provide a concise answer for each.
 - Create **no more than 4 objectives** per research effort. If you try to achieve more than 4 objectives in one study, you are doing too much, as each objective will represent up to a dozen questions/tasks in your discussion guide.
 - Review the list of the ‘Questions we need answers to’ and identify the themes you see there. Reference the 'Hypothesis' and the 'Goal(s)' you have previously written.
 
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives** |
 | ------ | ------ | ------ | ------ | ------ |
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | <ul><li>Are people not booking because they don’t like the hotels we have? <li>Do we have issues with the website or app? <li>Are our prices too high? <li>Are we missing hotel amenities that customers are looking for?</li></ul> | We believe `that by improving the experience of selecting and deciding which of our hotels to stay at` for `users of our website` will achieve `in an increased number of hotel bookings`.  | Understand how people make their travel plans. | <ul><li>Identify ways people start planning their travel and the tools they use. <li>Understand what elements make it easy for people to plan travel and what elements make it difficult.</li></ul> |
+| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | <ul><li>Are people not booking because they don’t like the hotels we have? <li>Do we have issues with the website or app? <li>Are our prices too high? <li>Are we missing hotel amenities that customers are looking for?</li></ul> | We believe `that by improving the experience of selecting and deciding which of our hotels to stay at` for `users of our website` will achieve `in an increased number of hotel bookings`.  | Understand how people make their travel plans. | <ul><li>Identify ways people start planning their travel and the tools they use.</li><li>Understand what elements make it easy for people to plan travel and what elements make it difficult.</li></ul> |
 
 The chart below shows the relationship between your research goal and the tasks and questions you will ask your participants in usability tests.
 

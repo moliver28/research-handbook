@@ -9,7 +9,7 @@ Business Continuity Plan is the process involved in creating a system of prevent
 
 ## Scope
 
-GitLab, by its remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. System data from the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis.html) may be leveraged as part of business continuity planning and testing. Please search the [BIA Data File](https://docs.google.com/spreadsheets/d/1GNrZIaTsQV5Xz2f_yQWPyftgYjKvL6fi4USb1ii4Zow/edit#gid=148367290) by system for more information.  Additionally, the BCP works in conjunction with the [Disaster Recovery Plan (DRP)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
+GitLab, by its remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. System data from the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis.html) may be leveraged as part of business continuity planning and testing. Additionally, the BCP works in conjunction with the [Disaster Recovery Plan (DRP)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
 
 ## Roles & Responsibilities
 
@@ -65,7 +65,7 @@ GitLab.com and customers.gitlab.com are hosted on Google Cloud Platform. Dedicat
 
 1. Unavailability of support staff in case of a customer emergency.
     - Effect: emergency response times are greater than intended.
-    - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by *any* person who is in the [on-call rotation](/handbook/on-call/). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
+    - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by *any* person who is in the [on-call rotation](/handbook/engineering/on-call/). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
 
 1. Disruption of service of ZenDesk.
     - Effect: support workflows are disrupted. New tickets cannot be created,
@@ -104,7 +104,7 @@ More details on this will be covered in the `BC plan - roles & responsibilities 
 
 ### Backup check
 
-[Make sure that backups are performed daily](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they’re backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html).
+[Make sure that backups are performed daily](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md), and include running an additional full local backup on all servers and data in the Business Continuity preparation plan. Run them as far in advance as possible tp ensure that they’re backed up to a location that will not be impacted by the disaster. [Alternate storage provisioning](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/library/disaster-recovery/index.md).
 
 ### Distribute and Verify the Plan / Approval from Senior management
 
@@ -174,7 +174,7 @@ Some testing scenarios that can be performed, are given below:
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

@@ -22,17 +22,20 @@ Note: Think of a sales play as a recipe. If you follow the recipe, we can achiev
 **Objective** - Competitive take out of JFrog's Artifactory and Sonatype's Nexus.
 
 Who is this sales play for?  
+
 * Primary: SAEs and AEs who call on one or more existing GitLab Premium/Ultimate customers  
 * Secondary: SAs and CSMs who support one or more existing GitLab Premium/Ultimate customers  
 
 ## Who to meet
+
 {: .alert .alert-gitlab-orange}
 
 **Ideal Customer Profile**  - GitLab customers looking to consolidate on GitLab and migrate away from JFrog's Artifactory or Sonatype's Nexus.
-- Bonus points for:
-   - Organizations at lower maturity level undergoing or planning to undergo tranformation
-   - Siloed teams with disparate tools for managing artifacts, such as packages or container images
-   - Organizations with stringent regulatory security or compliance requirements
+
+* Bonus points for:
+  * Organizations at lower maturity level undergoing or planning to undergo tranformation
+  * Siloed teams with disparate tools for managing artifacts, such as packages or container images
+  * Organizations with stringent regulatory security or compliance requirements
 
 **Target Buyer Personas**
 
@@ -45,6 +48,7 @@ Who is this sales play for?
 ## Getting Started
 
 Consider the following questions:
+
 * What has prevented the customer from moving away from (or considering moving away from) JFrog's Artifactory?
 * Does the customer have any strategic initiative or priority to which consolidating on GitLab and removing an additional tool/license?
 * Are you engaged with the right personas/teams (see Target Buyer Personas above)?
@@ -53,6 +57,7 @@ Consider the following questions:
 * Are the capabilities that are enabled by GitLab Package important to the customer? Why or why not? How do you know?
 
 ## Value Discovery
+
 {: .alert .alert-gitlab-orange}
 
 ### Common Pains  

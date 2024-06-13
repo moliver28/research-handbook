@@ -17,7 +17,7 @@ You can find a more detailed breakdown of the benefits below [here](https://docs
 
 #### Housing Allowance
 
-Team members are eligible for a housing allowance which is paid monthly and the details will be outlined in the employment agreement. If circumstance arise in which a lump sum is required before the employment start date, there may be an option to request the first 3 months up front (with the monthly amount for remainder of the year being reduced accordingly). If this is required, the request will need to be sent to both Papaya Global and Total Rewards, where it will be be reviewed. If approved, the conditions of this variation will be outlined in a separate letter.
+Team members are eligible for a housing allowance which is paid monthly and the details will be outlined in the employment agreement. If circumstance arise in which a lump sum is required before the employment start date, there may be an option to request the first 3 months up front (with the monthly amount for remainder of the year being reduced accordingly). If this is required, the request will need to be sent to both Papaya Global and Total Rewards, where it will be reviewed. If approved, the conditions of this variation will be outlined in a separate letter.
 
 #### Child Education Allowance
 

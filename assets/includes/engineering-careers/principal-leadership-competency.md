@@ -2,7 +2,7 @@
 
 A principal engineer generally operates at an organizational (sub-department or stage, for example) level scope, serving as their organization's technical lead and connecting their organization to other parts of GitLab.
 
-* Helps team members of all levels understand their organization's domain and technology through clear and effective communication. 
+* Helps team members of all levels understand their organization's domain and technology through clear and effective communication.
 * Makes responsible decisions and evaluates tradeoffs impacting their organization and various aspects of the business.
 * Exhibits a deep understanding of their organization's features, how customers use them, and how they fit into the larger business.
 * Improves processes at the organization level.

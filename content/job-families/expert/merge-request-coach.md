@@ -81,7 +81,7 @@ Sometimes community contributions become stale or obsolete and changes become no
 
 In all cases, **always** provide some context on why the merge request is being closed as this can lead to fewer questions later on and create a point for future reference which would be useful for team members and community contributors.
 
-Last but not least, if there's an opportunity to provide any help or pointers for future contributions try to do that. This could be pointing to [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html), documentation on [how to contribute](https://docs.gitlab.com/ee/development/contributing/#how-to-contribute), or [getting help](https://about.gitlab.com/community/contribute/#getting-help) while [contributing](https://about.gitlab.com/community/contribute/) to GitLab.
+Last but not least, if there's an opportunity to provide any help or pointers for future contributions try to do that. This could be pointing to [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html), documentation on [how to contribute](https://docs.gitlab.com/ee/development/contributing/#how-to-contribute), or [getting help](https://docs.gitlab.com/ee/development/contributing/#get-help) while [contributing](https://about.gitlab.com/community/contribute/) to GitLab.
 
 #### Closing empty merge requests
 

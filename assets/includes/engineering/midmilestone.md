@@ -21,11 +21,11 @@ We do this by tallying up:
 We then compile a small report like this:
 
 <pre>
-Done + Verification: 		1 	w1 	2.27%
-In review: 		        6 	w15 	34.09%
-In dev: 		        6 	w20 	45.45%
-Unstarted: 		        3 	w8 	18.18%
-Progress: 				        47.73%
+Done + Verification:         1     w1     2.27%
+In review:                 6     w15     34.09%
+In dev:                 6     w20     45.45%
+Unstarted:                 3     w8     18.18%
+Progress:                         47.73%
 Conclusion: ...
 </pre>
 

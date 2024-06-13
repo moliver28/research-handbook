@@ -33,7 +33,6 @@ Currently, Zendesk views have some limitations:
   [archived tickets](https://support.zendesk.com/hc/en-us/articles/203657756-About-ticket-archiving)
   (i.e. Closed tickets after 120 days.)
 
-
 ## Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
@@ -81,7 +80,7 @@ are likely to need to adjust **many** view files due to positioning.
 #### Updating an existing view
 
 Updating an existing view is considerably easier than creating a new one. Simply
-change change the code in the source project and it will occur via the sync
+change the code in the source project and it will occur via the sync
 repo.
 
 The one caveat you need to consider is when you are changing a view to allow for

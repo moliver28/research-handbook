@@ -9,9 +9,11 @@ description: "These are the expected competencies of a Senior Backend Engineer, 
 
 **Senior Backend Engineers, Engineering Productivity at GitLab are expected to exhibit the following competencies:**
 
+<!-- markdownlint-disable MD051 -->
 - [Leadership Competencies](#leadership-competencies)
 - [Technical Competencies](#technical-competencies)
 - [Values Alignment](#values-alignment)
+<!-- markdownlint-enable MD051 -->
 
 ---
 

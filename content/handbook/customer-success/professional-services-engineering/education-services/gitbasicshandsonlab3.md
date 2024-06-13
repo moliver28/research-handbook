@@ -1,11 +1,9 @@
 ---
 title: "GitLab with Git Essentials - Hands-On Lab: Use GitLab To Merge Code"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
+description: "This Hands-On Guide walks you through creating projects, issues, and merge requests."
 ---
 
 > Estimated time to complete: 40 minutes
-
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitbasicshandsonlab3.md).
 
 ## Objectives
 
@@ -45,7 +43,7 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
 > Merge requests are a core feature of source control with GitLab since they let you make suggestions to update documents in a repository. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/).
 
-1. On the issue details page, click the the **dropdown arrow** to the right of the **Create merge request** button. This is where you can customize the merge request.
+1. On the issue details page, click the **dropdown arrow** to the right of the **Create merge request** button. This is where you can customize the merge request.
 
 1. Set the **Branch name** to `fix-issue`. Make sure that the **Source** is set to `main`.
 
@@ -65,7 +63,7 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
 1. In the merge request description, note the text: **Closes #1**. This description ensures that merging the merge request will also automatically close the issue it is associated with.
 
-   > Note: Your description may show a different number beside the `#` character. This number will match the issue number that the merge request was opened from.
+   > Your description may show a different number beside the `#` character. This number will match the issue number that the merge request was opened from.
 
 1. Leave all the merge request fields at their default values.
 
@@ -107,14 +105,14 @@ After creating the merge request, you now have 3 linked items that all relate on
 
 1. You should see notification box that says `Success! Your changes have been committed` in the bottom right corner of the screen. Click the **Go to project** option from the notification box in the bottom right corner.
 
-   > Note: If this dialog box disappears, you can get back to the project by clicking the GitLab icon on the bottom left of the screen. When you click this button a dialog will appear in the middle of the screen with various options. Click `Go to Second Project project on GitLab`.
+   > If this dialog box disappears, you can get back to the project by clicking the GitLab icon on the bottom left of the screen. When you click this button a dialog will appear in the middle of the screen with various options. Click `Go to Second Project project on GitLab`.
 
 1. From the project landing page, click **Code > Merge requests**. Click the name of your merge request.
 
 ## Task E. Verify changes in a merge request
 
 1. On the merge request page, locate the **Assignee** section in the upper right-hand corner (you might have to click the double arrow at the top right of
-the screen to expand the pane). Ensure the merge request is assigned to yourself. If it is not, click **Assignees > Edit** and click your username from the resulting list. Click **Apply**.
+the screen to expand the pane). Ensure the merge request is assigned to yourself. If it is not, click **Assignees > Edit** and click your username from the resulting list. Click away from the list to apply the change.
 
 1. Click the **Changes** tab directly below the merge request title.
 
@@ -122,7 +120,7 @@ the screen to expand the pane). Ensure the merge request is assigned to yourself
 
 1. In the comment field, type `This is a comment` and click **Start a review**.
 
-   > Note: When you start a review, your comments will only be visible to you until you submit the review.
+   > When you start a review, your comments will only be visible to you until you submit the review.
 
 1. You’d normally add more comments to your review before submitting them all at once, but for this lab just click the **Finish review** button.
 
@@ -142,7 +140,7 @@ the screen to expand the pane). Ensure the merge request is assigned to yourself
 
 ## Task F. Merge the branch and close the merge request
 
-1. Click the the **Overview** tab under the MR title.
+1. Click the **Overview** tab under the MR title.
 
 1. To mark the merge request as ready to merge, click **Mark as ready**. This removes `Draft:` from your MR’s title.
 

@@ -182,7 +182,7 @@ The Manager, Field Marketing is a [grade 8](/handbook/total-rewards/compensation
 
 - The manager role includes all of the requirements above, plus:
 - 10+ years of marketing experience
-   - Direct Field and Channel Marketing is a plus
+  - Direct Field and Channel Marketing is a plus
 - Exemplary communication skills with senior marketing and sales leaders.
 - Experience managing direct or cross-functional teams of 3-10 marketers.
 - Experience managing a multi-million dollar marketing budget and working with senior finance and marketing leaders on annual budgeting processes.

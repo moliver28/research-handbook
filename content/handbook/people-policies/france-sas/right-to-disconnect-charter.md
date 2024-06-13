@@ -85,7 +85,6 @@ Il incom be à tous les gestionnaires/superviseurs de:
 
 (vii) Ne pas encourager, valoriser ou récompenser un comportement différent susceptible d'entrer en conflit avec la Charte; et
 
-
 (b) *Collaborateurs*
 
 Il incombe à tous les Salariés de:
@@ -147,10 +146,10 @@ En plus des conseils donnés à l'échelle globale dans la section Communicating
 - Désabonnez-vous de tous les MR qui seront probablement résolus pendant votre absence, ce qui vous évitera d'avoir à traiter tous les e-mails qu'ils vous enverront à votre retour.
 - Mettez en place des filtres de messagerie pour classer les e-mails dans des catégories que vous pourrez traiter un par un à votre retour.
 - Déconnectez-vous de Slack et de Gmail de l'une ou l'autre de ces façons : REMARQUE : Time Off by Deel est censé désactiver les notifications Slack sur votre téléphone et activer le mode DND. Mais juste au cas où, vous pouvez faire l'une de ces opérations:
-    - vous déconnecter de Slack et de Gmail sur votre téléphone, ou;
-    - supprimer Slack et Gmail de votre téléphone, ou;
-    - mettre en pause les applications Slack et Gmail sur votre téléphone, ou;
-    - configurer manuellement Slack et Gmail pour qu'ils n'envoient pas de notifications sur votre téléphone.
+  - vous déconnecter de Slack et de Gmail sur votre téléphone, ou;
+  - supprimer Slack et Gmail de votre téléphone, ou;
+  - mettre en pause les applications Slack et Gmail sur votre téléphone, ou;
+  - configurer manuellement Slack et Gmail pour qu'ils n'envoient pas de notifications sur votre téléphone.
 
 #### 10. Engagements de la société en matière de sensibilisation et de formation au droit à la déconnexion
 
@@ -185,7 +184,6 @@ En cas de conflit entre les versions en langue française et anglaise de la Char
 La présente Charte entre en vigueur le 3 Avril 2023.
 
 La présente Charte est conclue pour une durée indéterminée.
-
 
 ## English: GITLAB FRANCE S.A.S. RIGHT TO DISCONNECT CHARTER
 
@@ -261,9 +259,7 @@ It is the responsibility of all managers to:
 
 (i) Know the regular working hours of their direct reports, and communicate any changes in scheduling to team members in as timely a manner as possible to the extent permitted by French law;
 
-
 (ii) Set clear and reasonable expectations with respect to workload and  deliverables;
-
 
 (iii) Set clear and reasonable expectations with respect to when work, and engaging in work-related communications, outside of regular working hours may be required as a normal part of the team member’s job;
 
@@ -380,4 +376,3 @@ This Charter is concluded for an indefinite period.
 ## Current and Past Versions (accessible internally only)
 
 A PDF of the current version of the Charter is available [here](https://drive.google.com/file/d/11yL_Lw1qpoHp1dZ_zYowR1Dlcvmn7kfV/view?usp=drive_link). If/when the Charter is updated, PDFs of previous versions will be made available here for transparency.
-

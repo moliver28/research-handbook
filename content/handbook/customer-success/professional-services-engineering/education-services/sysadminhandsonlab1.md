@@ -1,11 +1,11 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Install GitLab"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "This Hands-On Guide walks you through installing GitLab on a virtual machine."
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson2.md).
+## Objectives
 
 In this lab, you will install GitLab and its necessary dependencies on a virtual machine using the command line.
 Before you get started, complete the following:
@@ -43,7 +43,7 @@ Before you get started, complete the following:
 
 1. If your system displays an authentication warning, type `yes` and press <kbd>Enter</kbd>.
 
-1. After typing yes, you will be connected to your server. 
+1. After typing yes, you will be connected to your server.
 
 ### Task B. Install necessary dependencies
 
@@ -68,16 +68,16 @@ Before you get started, complete the following:
     curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
     ```
 
-1. Install the GitLab package using the command below. Use your training system's assigned public IP address in lieu of a fully qualified domain name. Make sure not to include in the <> symbols.
+1. Install the GitLab package using the command below. Use your training system's assigned public IP address in lieu of a fully qualified domain name. Make sure not to include the <> symbols.
 
     ```bash
     sudo EXTERNAL_URL="http://<your_assigned_public_ip>" dnf install -y gitlab-ee
     ```
 
     > This step may take a few minutes to complete.
-    > For this example, we added `http://` to the front of the URL. For this set of labs, we are using the `http` protocol. If you are installing GitLab in a production environment, it is recommended to use `https://` to use the `https` protocol. 
+    > For this example, we added `http://` to the front of the URL. For this set of labs, we are using the `http` protocol. If you are installing GitLab in a production environment, it is recommended to use `https://` to use the `https` protocol.
 
-### Task D. Log in and reset password
+### Task D. Login and reset password
 
 1. During installation, a password is randomly generated and stored for 24 hours in `/etc/gitlab/initial_root_password`. To view the generated password, use the command below:
 
@@ -108,5 +108,3 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 ### Suggestions?
 
 If you’d like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.
-
-

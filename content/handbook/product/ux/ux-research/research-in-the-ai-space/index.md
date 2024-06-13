@@ -34,14 +34,14 @@ AI solutions themselves won’t reveal the user problem they are meant to solve.
 **Use case definition (recommended option for medium level confidence)**
 
 - Use existing research and your domain expertise to formulate assumptions on the user problem you believe is being addressed with the AI solution. Use the following format to phrase the problem statement, which is aligned to how we write [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD):
-   - “When [circumstance a person is in when they want to accomplish something], I want to [something the person wants to accomplish].”
-   - Example: *When I am on triage rotation and prioritizing business-critical risks, I want to review the most recent risk detected in my assets.*
+  - “When [circumstance a person is in when they want to accomplish something], I want to [something the person wants to accomplish].”
+  - Example: *When I am on triage rotation and prioritizing business-critical risks, I want to review the most recent risk detected in my assets.*
 - Then, validate your problem statements through a quantitative [online survey](/handbook/product/ux/ux-research/surveys/) to understand:
-   - The frequency of users encountering this problem
-   - The importance of addressing the problem
+  - The frequency of users encountering this problem
+  - The importance of addressing the problem
 - There are other parameters you can include in your survey, such as:
-   - How users currently solve the problem
-   - The difficulty of solving this problem today
+  - How users currently solve the problem
+  - The difficulty of solving this problem today
 - See this [template](https://docs.google.com/document/d/1-81BH7JPj_SU5L1YvfX2HpYuIdKnUuTpRHuRlKb5w3M/copy) for example questions. More example studies coming soon.
 
 **Extended solution validation**
@@ -73,8 +73,8 @@ Once an AI powered solution is available for validation, make sure to not only c
 
 - **Baseline data** - on how users currently solve this problem. This allows us to assess the impact the AI solution may have and how helpful it is.
 - **On trust** - If people trust the information provided by AI. If they don’t trust it, they won’t use it. Here are some example questions to consider:
-   - *How much do you trust the [feature name, e.g. code suggestions] provided?*
-   - *Do you trust [feature name, e.g. code suggestions] with [task, e.g. providing correct code]? Why/Why not?*
+  - *How much do you trust the [feature name, e.g. code suggestions] provided?*
+  - *Do you trust [feature name, e.g. code suggestions] with [task, e.g. providing correct code]? Why/Why not?*
 - **On giving feedback** - If they feel comfortable giving system feedback, e.g. when a code suggestion is not helpful. The AI improves based on user feedback, so it’s important they can do it. You can do this by including a task that focuses on giving feedback on a “wrong” recommendation and measure if they were successful doing it and how they felt about it.
 - **On attitudes towards third-party AI services** - If your AI solution is powered by a third party (e.g. OpenAI), it’s important to understand if users are aware of the use of a third-party and their attitude towards it. This provides insights into users’ mental model (see [Guideline 5](#guideline-5-plan-ahead-for-longitudinal-research)) and impact on GitLab as a brand.
 

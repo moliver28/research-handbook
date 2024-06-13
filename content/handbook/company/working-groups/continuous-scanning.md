@@ -22,7 +22,7 @@ The goal for this working group is to complete the work described in [this Epic]
 Our exit criteria maps to the proposal found in [this Epic](https://gitlab.com/groups/gitlab-org/-/epics/7886):
 
  1. SBOM information is ingested and stored in the database
- 1. ~~Advisory DB information is ingested and stored the the database~~
+ 1. ~~Advisory DB information is ingested and stored the database~~
  1. ~~Scans are triggered automatically when any changes are detected for either the SBOM information or the Advisory DB information~~
 
 ## Outcome

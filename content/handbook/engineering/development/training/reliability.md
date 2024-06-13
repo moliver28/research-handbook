@@ -16,7 +16,7 @@ As we have a renewed focus on reliability in engineering to reduce outages, we h
 
 We want to gather all the crucial changes, explain why we made them, discuss a summary, and link to where you can find more information.
 
-This material is available as a [learning pathway on GitLab's Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/development-reliability). 
+This material is available as a [learning pathway on GitLab's Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/development-reliability).
 
 ## Introduction
 
@@ -41,6 +41,7 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 [Importance of reliability to the business](https://gitlab.com/gitlab-com/Product/-/issues/3171)
 
 ## Impact of reliability on users
+
 [Video (not public)](https://drive.google.com/file/d/1-nuLKwpkkMJnd5ceoYfX23gKh85V3zUy/view?usp=sharing)
 
 [Improving SUS](https://docs.google.com/presentation/d/1kMZcRnOjuQ0K3TtT1YxedhFb5-Ej_cr2mXxeeJ9sbZ0/edit#slide=id.g98418cf290_0_29) - slides 9 through 14 in particular
@@ -129,7 +130,6 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 
 [Stage group dashboard documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html)
 
-
 ## Error budgets
 <!-- blank line -->
 <figure class="video_container">
@@ -150,7 +150,6 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 [Feature change locks](/handbook/engineering/#feature-change-locks)
 
 ## Added past due infradev as a KPI
-
 
 <!-- blank line -->
 <figure class="video_container">
@@ -176,4 +175,3 @@ This material is available as a [learning pathway on GitLab's Level Up](https://
 * What did you not like that we should improve?
 
 Add your comments in this [feedback issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/12507).
-

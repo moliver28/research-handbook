@@ -27,6 +27,7 @@ Security shared communications efforts: Corporate Marketing reviews and approves
 1. External notifications associated with Security certifications and initiatives such as SOC 2 and FedRAMP
 
 Security Consult - Corporate Marketing Owned
+
 1. Interviews / media engagement
 1. Contributed articles
 
@@ -50,7 +51,7 @@ NOTE: If the security incident or issue is considering critical and an emergency
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](" >}}_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

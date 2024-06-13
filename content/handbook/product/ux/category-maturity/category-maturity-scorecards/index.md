@@ -32,14 +32,14 @@ It is important to note that there are specifc requirements that should be met b
 
 The below table outlines the requirements for each maturity level:
 
-| Category level | Conducted with?                   | [Usability status](https://handbook.gitlab.com/handbook/product/ux/ux-scorecards/#overall-experience)                                                                                          | [GitLab Design Standards](https://docs.gitlab.com/ee/development/contributing/design.html) criteria              | [Competitive add-on](https://handbook.gitlab.com/handbook/product/ux/category-maturity/competitor-comparison/)                    |
+| Category level | Conducted with?                   | [Usability status](/handbook/product/ux/ux-scorecards/#overall-experience)                                                                                          | [GitLab Design Standards](https://docs.gitlab.com/ee/development/contributing/design.html) criteria              | [Competitive add-on](/handbook/product/ux/category-maturity/competitor-comparison/)                    |
 |----------------|-----------------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------------------|---------------------------------------|
 | Complete       | External users on the JTBDs       | **A** (High quality/Exceeds expectations). This is the same grading system as the UX Scorecard grading rubric. / The path for all JTBDs are well established, intentional in design, and clear in the outcomes they enable users to reach. | Meets 100% of GitLab design standards         | GitLab scores: **Best in class**          |
 | Competitive    | External users on the JTBDs       | **B** (Meets expectations). This is the same grading system as the UX Scorecard grading rubric. / The path for the primary and related JTBDs are well established, intentional in design, and clear in the outcomes they enable users to reach.               | Meets 100% of GitLab design standards         | GitLab scores: **Equal** or **Best in class** |
 | Viable         | Internal users who are dogfooding | **C** (Average). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is well established, intentional in design, and clear in the outcome it enables users to reach.                       | Meets 100% of GitLab design standards         | (not required)                        |
 | Minimal        | (not required)                    | **D** (Poor). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is established, intentional in design, and nearing a clear outcome for users to reach.                            | Meets at least 80% of GitLab design standards | (not required)                        |
 
-Refer to the [Category Maturity](https://about.gitlab.com/direction/maturity/) page to understand scoring of a Category Maturity Scorecard study. 
+Refer to the [Category Maturity](https://about.gitlab.com/direction/maturity/) page to understand scoring of a Category Maturity Scorecard study.
 
 Previously completed Category Maturity Scorecards can be found in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/6930).
 
@@ -111,7 +111,7 @@ Make sure to test these scenarios with coworkers before evaluating with research
 
 - Successful scenario completion.
 - A single scenario may have several paths to the end goal that result in completion, and thereby a ‘Success’. The team must identify the end goal prior to the study starting so everyone is aligned.
-    - *Why is this important?* Identifying and being aligned on the end goal allows the moderator to accurately know what is success/failure, which is critical to know since follow-up questions are dependent on completing the scenario.
+  - *Why is this important?* Identifying and being aligned on the end goal allows the moderator to accurately know what is success/failure, which is critical to know since follow-up questions are dependent on completing the scenario.
 - How the participant ended up at the end goal may not be important for the team to document. If the participant took the long path and felt it was or wasn’t easy, that should be reflected in their score. What matters most is if they ended up at the end goal.
 
 👎 **Defining ‘Failure’**
@@ -122,7 +122,7 @@ Make sure to test these scenarios with coworkers before evaluating with research
 **What to do if ‘Failure’ happens during a study**
 
 - If there is a failure, the team should try their best to understand why it occurred (ex: Was it the way the scenario was phrased? Was the experience confusing? etc.).
-    - *How can this be done?* One way to do this is to go back at the end of the study to have the participant go through that scenario again. This time, you can ask targeted questions to understand why they took the route they took in the experience. (ex: *‘It looks like you clicked on ‘Issues’. Tell me more about why you selected that menu item.’, ‘You felt you completed the scenario at this point. What gave you the confidence that you accomplished the goal of XYZ?’*)
+  - *How can this be done?* One way to do this is to go back at the end of the study to have the participant go through that scenario again. This time, you can ask targeted questions to understand why they took the route they took in the experience. (ex: *‘It looks like you clicked on ‘Issues’. Tell me more about why you selected that menu item.’, ‘You felt you completed the scenario at this point. What gave you the confidence that you accomplished the goal of XYZ?’*)
 - When a participant is unable to complete a scenario, their ratings on that scenario are discarded and not accounted for when calculating the CM Scorecard score.
 - If at any point you notice that less than 80% of participants are able to pass a scenario, the study should stop at that most recent participant to conserve resources.
 
@@ -158,11 +158,11 @@ The [Single Ease Question (SEQ)](https://measuringu.com/single-question/) is a n
 - Difficult
 - Extremely difficult
 
-**Question 2: User Experience rating**
+**Question 2: Satisfaction rating**
 
 Admittedly, the term ‘user experience’ is broad; as it encompasses many components we care about (ex: efficiency, speed, usability, etc) that are completely applicable to how one rates an overall user experience. Because of that, we’re intentionally not defining ‘user experience’ and feel that given our audience, the definition will be collectively understood with a high level of accuracy. This question is also used for the UX Scorecard formative evaluation approach.
 
-*Q2: “How would you rate the quality of the user experience?”*
+*Q2: “How would you rate the quality of this experience?”*
 
 - Extremely good
 - Good
@@ -227,8 +227,9 @@ Note: Do not enter in ratings for participants who experienced task failure, as 
 [Step three](cms_step3.png)
 
 For example:
- - 4.70 average = ‘A’ CM Scorecard grade = ‘78.9-100’ SUS = Complete
- - 3.93 average = ‘B’ CM Scorecard grade = ‘72.6 - 78.8’ SUS = Competitive
+
+- 4.70 average = ‘A’ CM Scorecard grade = ‘78.9-100’ SUS = Complete
+- 3.93 average = ‘B’ CM Scorecard grade = ‘72.6 - 78.8’ SUS = Competitive
 
 **Minimum % pass rate:** Minimum % pass rates help indicate what percentage of participants must succeed in a scenario to meet a minimum requirement. This also helps indicate what level of scenario failure is acceptable. Scenario failures are important to note and we can’t discount them, so they must be incorporated as part of the criteria to move category maturity levels. If the Minimum % pass rate for any scenario is less than 80% during a study, the study should stop at that most recent participant to conserve resources. In the event this should occur, the category maturity cannot be moved up a level. The team should take those learnings, iterate, and retest when they’re ready again. It’s also recommended that a retrospective take place to learn:
 

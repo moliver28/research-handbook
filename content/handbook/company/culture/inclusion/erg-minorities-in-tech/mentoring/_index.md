@@ -23,7 +23,7 @@ During every cycle of this program we end with a virtual showcase for all of the
 
 ## Roles & Responsibilities
 
-### Mentees:
+### Mentees
 
 - Complete Initial Questionnaire form
 - Complete GitLab Mentee Training
@@ -33,7 +33,7 @@ During every cycle of this program we end with a virtual showcase for all of the
 - Keep your Mentor informed of progress being made on the project
 - Participate in the End of the Program Showcase
 
-### Mentors:
+### Mentors
 
 - Complete [Questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSctTamiQdaAubr-gDJNNpgwa_xyx7rmDMOmlOszJc5veedKKQ/viewform?vc=0&c=0&w=1)
 - Complete GitLab Mentor Training
@@ -41,18 +41,18 @@ During every cycle of this program we end with a virtual showcase for all of the
 - Provide guidance to Mentees
 - Share professional experiences that will enrich the Mentoring Process
 
-### Minorities in Tech (MIT) Mentoring Program Working Group:
+### Minorities in Tech (MIT) Mentoring Program Working Group
 
 - Evangelize the program to GitLab team members
 - Define the mentoring program's framework and processes
 - Attend the End of the Program Showcase
 
-### Minorities in Tech (MIT) TMRG:
+### Minorities in Tech (MIT) TMRG
 
 - Evangelize the program to GitLab team members
 - Provide resources and support to the mentorship program and working group as needed
 
-## Matching Mentors & Mentees:
+## Matching Mentors & Mentees
 
 Mentors and Mentees will be asked to complete a questionnaire. The responses received will enable a small, three-person sub committee from the Mentoring Program Working Group to determine the best matches based on the participants who have applied for the program. Some example of criteria that will be used for matching are:
 

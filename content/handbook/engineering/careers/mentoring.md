@@ -18,7 +18,7 @@ For Mentoring to be successful, Mentees must be prepared to invest time in their
 - Review previous performance reviews or 360 results
 - Reach out to your management and ask for feedback
 - Identify future roles you might be interested in
-    - For those roles, identify the skills required that you don't currently possess
+  - For those roles, identify the skills required that you don't currently possess
 
 After performing this activity, decide whether you want to improve upon your strengths, weaknesses or both.
 
@@ -51,23 +51,23 @@ The DRI for all Meeting Agendas should be the Mentee. The Mentee should pre-popu
 Agenda
 
 1. Introduction
-   -  Share personal and professional backgrounds
+   - Share personal and professional backgrounds
 1. Communications Preferences
-   -  Identify methods and frequency of Communication
+   - Identify methods and frequency of Communication
 1. Questions
-   -  Prepared list of questions for your mentor to break the ice
+   - Prepared list of questions for your mentor to break the ice
 1. SMART Goals
-   -  Prepared list of SMART Goals
+   - Prepared list of SMART Goals
 
 ### Sample Standard Meeting Agenda
 
 Agenda
 
 1. Last Week's Action Items
-   -  Review Action Items from the Previous Meeting
+   - Review Action Items from the Previous Meeting
 1. Discuss new challenges that have arisen unexpectedly
-   -  Review Mentee progress on
+   - Review Mentee progress on
 1. SMART Goals
-   -  Review Mentee progress on
+   - Review Mentee progress on
 1. Action Items
-   -  Document Mentee Action Items
+   - Document Mentee Action Items

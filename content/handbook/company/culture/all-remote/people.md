@@ -31,10 +31,7 @@ Below, we're detailing examples of people who have adopted a [remote lifestyle](
 
 The thought of having no permanent residence while maintaining the same career would conjure laughter and confusion a few decades ago. Thanks to rapid advancement in internet infrastructure, technology, software, tools, and cultural appreciation for [asynchronous communication]({{< ref "./informal-communication" >}}), it's now quite [feasible]({{< ref "./jobs" >}}).
 
-
-{{% tweet user="JTGenter" id="1051185813344669696" %}}
-
-[JT Genter](https://thepointsguy.com/author/jtgenter) and [Katie Genter](https://thepointsguy.com/author/katiegenter) aspire to explore the world, embrace their passion for writing, and fly on as many airlines as possible. As members of [The Points Guy](https://thepointsguy.com)'s editorial staff, they're able to contribute asynchronously and maintain connections with team members through tools like Slack and Zoom. They've built their careers while crisscrossing the globe, embracing the digital nomad lifestyle while informing others on how to do similar.
+[JT Genter](https://thepointsguy.com/author/jtgenter) and [Katie Genter](https://thepointsguy.com/author/katiegenter) aspire to explore the world, embrace their passion for writing, and fly on as many airlines as possible. As members of [The Points Guy](https://thepointsguy.com)'s editorial staff, they're able to contribute asynchronously and maintain connections with team members through tools like Slack and Zoom. They've built their careers while crisscrossing the globe, embracing the digital nomad lifestyle while informing others on how to do similar. See [this tweet from JT Genter on his travel statistics](https://twitter.com/JTGenter/status/1051185813344669696).
 
 Those looking to connect professionally with other digital nomads should consider joining [LinkedIn's Digital Nomads Group](https://www.linkedin.com/groups/13657237).
 
@@ -165,7 +162,6 @@ It's wise to rank all of the above in order of importance for you. If you find t
 >
 > I expected remote work to be [a hurdle to overcome](https://about.gitlab.com/blog/2019/12/30/mastering-the-all-remote-environment) upon joining GitLab. I wondered how having the filter of a webcam would impact people and how they reacted or interacted. These questions were [squashed](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) after my first day. I am extremely happy to have been given this insane opportunity. To make things better for others and at the same time, make things better for myself. We are like an open source community *within* an open source community.
 
-
 ### Employer benefits
 
 [Employers]({{< ref "./management" >}}) should recognize that this reality [also benefits them]({{< ref "remote-compensation" >}}). When you hire individuals who place a high degree of value on not having to commute and being able to live and work where they're most comfortable, they will generally hold the company in higher regard, find greater connection with their work, and exhibit greater loyalty. Research by [TINYpulse and Owl Labs](https://www.tinypulse.com/blog/the-state-of-remote-work) found that "companies that support remote work have a 25% higher retention rate than companies that don't."
@@ -220,13 +216,12 @@ Beyond the personal, communal, and societal benefits from empowering people to p
 
 > When we made the decision to relocate to help care for my dad, it was a huge relief to know I didn't have to worry about the move impacting my career. The asynchronous nature of our work also means I have the freedom to shape my days and weeks to prioritize time with my parents. Being part of the GitLab team gives me invaluable flexibility, support, and stability that benefits my entire family during this challenging chapter of life. - *[Betsy B., All-Remote Evangelist](/handbook/company/team#bbula)*
 
-
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

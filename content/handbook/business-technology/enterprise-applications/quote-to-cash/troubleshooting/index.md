@@ -13,18 +13,18 @@ title: "Troubleshooting: True Ups, Licenses + EULAs"
 
 - [L&R Notice Board](https://gitlab.com/gitlab-com/support/license-and-renewals/-/issues/1)
 - Need Access to [CustomersDot?](https://customers.gitlab.com/admins/sign_in)
-    - to get a login to the CustomersDot, by [opening an access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request); remove all systems in the list except for the CustomersDot row.
+  - to get a login to the CustomersDot, by [opening an access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request); remove all systems in the list except for the CustomersDot row.
 Make sure to save these credentials as distinct from your regular GitLab credentials.
 - Need Access to the [Version Application?](https://version.gitlab.com/users/sign_in)
-    - to get a login to the version application, [open an access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and remove all systems in the list except for the row for `GitLab DEV` which you will use to OAuth into the application.
+  - to get a login to the version application, [open an access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and remove all systems in the list except for the row for `GitLab DEV` which you will use to OAuth into the application.
 Make sure to save these credentials as distinct from your regular GitLab credentials.
 - [Kyla's Quote Creation Videos](https://drive.google.com/drive/u/0/folders/1CAXWx2SSXbIIW5bmPv4Lahlv_VPYdJce)
-- [Support: Common Licensing, Transaction and Billing Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting.html)
+- [Support: Common Licensing, Transaction and Billing Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting/)
 - [Sales Enablement Renewal Doc](https://docs.google.com/document/d/15WKHS-LxE4c4BbZ4eNREwwH_n_DhX_Q2yzT0OYTNjh0/edit)
 - How to create a quote
-    - [new subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote)
-    - [amend subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#amend-subscription-quote)
-    - [renew subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#renew-subscription-quote)
+  - [new subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote)
+  - [amend subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#amend-subscription-quote)
+  - [renew subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#renew-subscription-quote)
 - [Quote Approval instruction](/handbook/sales/field-operations/order-processing/#how-to-submit-a-quote-for-discount-and-payment-term-approval)
 - [Good resource of helpful links from CSMs](https://gitlab.com/gitlab-com/account-management/commercial/triage/blob/master/LINKS.md)
 - [How GitLab.com Subscriptions Work](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/enablement/dotcom-subscriptions/)
@@ -32,8 +32,8 @@ Make sure to save these credentials as distinct from your regular GitLab credent
 ## Important Links for Customers and Prospects
 
 - Resources for Prospects who are trialing and need direction
-    - [Get started with GitLab](https://docs.gitlab.com/ee/intro/)
-    - [GitLab epics](https://docs.gitlab.com/ee/user/group/epics/)
+  - [Get started with GitLab](https://docs.gitlab.com/ee/intro/)
+  - [GitLab epics](https://docs.gitlab.com/ee/user/group/epics/)
 - [Instructions on how to renew self-managed](https://about.gitlab.com/pricing/licensing-faq/#how-do-i-renew-my-subscription)
 - [Customer Facing: Licensing, Renewing, and Subscription FAQ](https://about.gitlab.com/pricing/licensing-faq/)
 - [Subscription Setup and Management (user facing)](https://docs.gitlab.com/ee/subscriptions/)
@@ -84,7 +84,7 @@ The “Maximum Users” count in the instance refers to this running list of act
 Communicate to customer
 
 >>>
-- Navigate to the [CustomersDot](http://customers.gitlab.com/admin) and sign in or [reset the password](https://customers.gitlab.com/customers/password/new) if required
+- Navigate to the [CustomersDot](https://customers.gitlab.com) and sign in using your GitLab.com account or [request a one-time sign-in link](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#sign-in-to-customers-portal)
 - Go to `Manage Purchases`
 - Locate the subscription you wish to add more users to and click the button `Add more seats`
 - Enter the additional amount of users you wish to have (i.e. you have 50 but want to have 60, so you have to enter 10)
@@ -424,7 +424,7 @@ E.g. Customer in UK purchased web direct, at renewal (if sales assisted) the quo
 This is to make sure we ask for Tax ID or VAT ID which prevents a customer from paying tax or VAT charges.
 
 The following image reflects how inside the quote object you can change the entity to US.
-<img src="/handbook/business-technology/enterprise-applications/applications/troubleshooting/entity2.png" class="full-width">
+<img src="/handbook/business-technology/enterprise-applications/applications/troubleshooting/entity2.png" class="full-width" alt="">
 
 ## Checklists for quotes
 

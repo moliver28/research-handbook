@@ -13,8 +13,6 @@ description: "Sales Operations aim to help facilitate new and existing processes
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
 ## **Charter**
 
 Sales Operations is a part of Field Operations.

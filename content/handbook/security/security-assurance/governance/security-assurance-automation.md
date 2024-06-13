@@ -29,7 +29,6 @@ The Security Assurance team uses scoped labels to identify the priority and indi
 - Description - Criteria the issue must fit to be assigned the label.
 - Provide Solution - The time it will take to update the issue and provide a solution to the automation request.
 
-
 | Priority | Color | Description | Provide Solution |
 | -------- | ---------- | --------- | --- |
 | `~"SAA::1"` | Red | These issues have a direct, immediate impact on business continuity AND are critical for compliance engagements. These are “drop everything so the team can do work” types of requests.                 | 1 Business Day |
@@ -72,8 +71,8 @@ The planning stage occurs during 1:1s, bi-weekly sprint planning meetings, Slack
 - Who is requesting the automation project?
 - What are they requesting?
 - Why are they requesting this project?
-    - What efficiencies will be gained?
-    - How much time will be saved?
+  - What efficiencies will be gained?
+  - How much time will be saved?
 - When is this project expected to be completed by?
 - How is the automation expected to function?
 - What is the expected time savings? (If applicable)

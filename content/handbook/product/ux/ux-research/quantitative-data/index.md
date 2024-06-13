@@ -85,10 +85,10 @@ There are dozens of ways to [lie with visualizations](https://handsondataviz.org
 
 - Visualizations should be quick and easy to interpret. The visualization should not result in more questions than answers.
 - Each of your axes should be understandable and practical:
-    - Always start your axis at 0.
-    - Do not skip or remove large sections of your data by limiting the axis.
-    - Do not use double Y axes unless absolutely necessary.
-    - If you are comparing two graphs, ensure the axes are on the same scale and range.
+  - Always start your axis at 0.
+  - Do not skip or remove large sections of your data by limiting the axis.
+  - Do not use double Y axes unless absolutely necessary.
+  - If you are comparing two graphs, ensure the axes are on the same scale and range.
 - For chronological studies, always put time on the X axis.
 - Keep it simple. Titles should be clear and concise, and there should be enough context for a team member unfamiliar with the topic to understand the message.
 - State the limitations, including the date the data was pulled, and where it was pulled from. Use subtitles for references when needed.
@@ -97,12 +97,13 @@ There are dozens of ways to [lie with visualizations](https://handsondataviz.org
 #### Summarizing quantitative data
 
 This section covers how to read visualizations, look for trends, and turn the results into insights. Start by looking for any kind of patterns. Some examples are:
+
 - Cyclic patterns based on time
 - Similarities or differences when comparing across one category or more
 - Data that is consistently increasing or decreasing.
 - Two variables that are correlated with each other. The correlation could look like:
-    - As one metric goes up/down, another metric cosistently goes up/down with it.
-    - As one metric goes up/down, another metric consistently does the opposite.
+  - As one metric goes up/down, another metric cosistently goes up/down with it.
+  - As one metric goes up/down, another metric consistently does the opposite.
 
 Once you have identified patterns, summarize those patterns as best you can while considering your original hypotheses/questions.
 
@@ -119,6 +120,7 @@ Based on these charts, it is evident that there is a huge decline in issues clos
 #### State the limitations of your data
 
 When sharing your research, state what you believe are the limitations that may have impacted your results. For example, if your data:
+
 - Is missing a collection of users
 - Includes usage from only the last 3 months
 - Has concerns about its accuracy

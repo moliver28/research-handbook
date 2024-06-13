@@ -7,7 +7,6 @@ title: "GitLab.com Subscriptions"
 GitLab.com subscriptions work slightly differently to Self-managed licenses.
 Unlike Self-managed licenses which grant equal access to features across an installation, GitLab.com subscriptions are applied to *[namespaces](https://docs.gitlab.com/ee/user/group/#namespaces)* on GitLab.com (typically groups). Members of groups that have subscriptions applied to them will enjoy those features anywhere within the licensed namespace. For example, if `BigCorp` has an Ultimate license, the sub-groups `BigCorp/Frontend`, `BigCorp/Backend` will each have access to Ultimate features and share a common pool of Shared Runner minutes.
 
-
 ### Common Misconceptions
 
 1. **Misconception**: If I'm in an Ultimate group, my GitLab.com profile should say "Ultimate"
@@ -86,6 +85,8 @@ The [Pricing page](https://about.gitlab.com/pricing/) includes a "Frequently ask
 1. Features availability including [SAML](https://docs.gitlab.com/ee/integration/saml.html)/[LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/index.html) is Free vs. [SAML SSO](https://docs.gitlab.com/ee/user/group/saml_sso/) is Premium.
 1. Access controls: customer is admin on GitLab instance vs. group owner on GitLab.com
 1. Log information and auditing: unrestricted access vs. no access on GitLab.com (can work with Support/Security to answer questions)
-  - On GitLab.com, each user is "signing a contract" (TOS, privacy policy, etc) as individuals, regardless of what email domain they use. Because of that,  we cannot provide their employer with any personally identifiable information (like email address, log info, etc.) as it would be a violation of the user's contract.
+
+   - On GitLab.com, each user is "signing a contract" (TOS, privacy policy, etc) as individuals, regardless of what email domain they use. Because of that,  we cannot provide their employer with any personally identifiable information (like email address, log info, etc.) as it would be a violation of the user's contract.
+
 1. Instance wide settings: custom vs. same for all GitLab.com users
 1. Infrastructure: manage your own, anywhere vs. GitLab manages HA Architecture, instance level backups/recovery, upgrades, based in US

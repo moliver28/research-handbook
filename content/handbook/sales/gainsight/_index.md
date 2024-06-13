@@ -90,6 +90,7 @@ If your receive the error message "SUCCESS_PLAN_OBJECTIVES_UPDATED_FAILED" when 
 #### Account says "TO BE DELETED NO LONGER IN SFDC"
 
 This is because two SFDC accounts were merged into one. What happens is this:
+
 1. Salesforce has 2 records of the same account
 1. SAE/or someone asks SalesOps/Deal Desk to merge
 1. The two Salesforce accounts are merged
@@ -107,4 +108,4 @@ If this doesn't solve the issue, reach out to [Gainsight support](#support-ticke
 
 - You can find more information about how Sales uses Gainsight on the [Using Gainsight within Sales](/handbook/sales/gainsight/account-planning/) page
 - You can find more information about how Customer Success Managers use Gainsight on the [Using Gainsight for CSMs](/handbook/customer-success/csm/gainsight/) page
-- You can find more information about how Solutions Architect use Gainsight on the [Using Gainsight for SAs](/handbook/customer-success/solutions-architects/processes/account-planning)
+- You can find more information about how Solutions Architect use Gainsight on the [Using Gainsight for SAs](/handbook/solutions-architects/processes/account-planning)

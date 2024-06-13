@@ -92,10 +92,10 @@ The Manager, Business Value Services Team is a [grade #9](/handbook/total-reward
 
 ## Performance Indicators
 
-As with all roles in the Sales Department, the Business Value Services job family participates in a subset the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary).
+As with all roles in the Sales Department, the Business Value Services job family participates in a subset the [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary).
 
-- [Net ARR versus Plan](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#net-arr-vs-plan)
-- [New Logos](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#new-logos)
+- [Net ARR versus Plan](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#net-arr-vs-plan)
+- [New Logos](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#new-logos)
 
 ## Career Ladder
 

@@ -54,7 +54,7 @@ Your compensation = [SF benchmark](#sf-benchmark) x [Location Factor](#location-
 
 The calculator will output the amount as `base + variable = total target cash (TTC)`
 
-Your options can be found on [stock options](/handbook/stock-options/) and benefits can be found on relevant [entity specific benefits pages]({{< ref "general-and-entity-benefits" >}}).
+Your options can be found on [stock options](/handbook/total-rewards/stock-options/) and benefits can be found on relevant [entity specific benefits pages]({{< ref "general-and-entity-benefits" >}}).
 
 The compensation calculator is updated in December and June with the proper exchange rate, keeping compensation levels in line with local purchasing power.
 
@@ -69,15 +69,15 @@ As with all things at GitLab, the compensation calculator is a constant work in 
 **If you are an internal GitLab team member or external to GitLab:**
 
 - Create an issue utilizing the issue templates.
-   - [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
-   - [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
-   - [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
+  - [Requesting a review of a new location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/new_location_factor.md)
+  - [Requesting a review of an existing location factor.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_existing_location_factor.md)
+  - [Requesting a review of a benchmark.](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/review_benchmark.md)
 - Email total-rewards@domain for more personal inquiries.
 
 **If you prefer to remain anonymous:**
 
 - You can use the [Reporting a Compensation Discrepancy Form](https://forms.gle/tEmiwzYxCJqZhivF8).
-   - Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
+  - Providing an email is optional, but we will only reach out directly with any updates if an email is provided.
 
 ### Rounding Best Practice
 
@@ -153,9 +153,9 @@ If any one, or a combination of, the following statistics is met, a benchmark re
   - It is important to ensure when we discuss compensation we have an idea of the candidate's expectations of total rewards which is inclusive of cash and equity for compensation.
 - A voluntary departure rate of 12% or more by current GitLab team members in any given department due to the reason of compensation.
 - Evidence of leading indicators of increased compensation, for example:
-   - Increased recruiter reachouts to a specific department or role.
-   - Government policy announcements related to a specific business sector.
-   - Engagement Survey Results.
+  - Increased recruiter reachouts to a specific department or role.
+  - Government policy announcements related to a specific business sector.
+  - Engagement Survey Results.
 
 **Timing of requests for benchmark adjustments:**
 
@@ -295,7 +295,7 @@ The nomenclature can be adjusted for each job family to ensure the appropriate l
 
 GitLab job grades aid in mapping a role for internal equity with respect to cash and equity. For example, if there is a stock option update, this mapping can act as a reference to update the compensation calculator for the various roles to ensure alignment. Job Grades can also provide an alternative path to finding the current number of options offered without having to fill out the compensation calculator.
 
-#### Job Grades:
+#### Job Grades
 
 *Note: This table excludes Enterprise Sales, Commercial Sales, Channel Sales, and Sales Development. Grading can be seen in the table below.*
 
@@ -310,12 +310,12 @@ GitLab job grades aid in mapping a role for internal equity with respect to cash
 | 8        | Manager          | Staff <br> Senior Product Manager <br> Consultant |
 | 7            |                  | Senior <br> Product Manager                       |
 | 6            |                  | Intermediate              |
-| 5            |                  | Junior                    |
+| 5            |                  | Junior  <br> Associate        |
 | 4            |                  | Intern                    |
 
 Dual career tracks can be added to each job family (regardless of division) when supported by data. Each individual contributor level above senior (grade 7) will have links to market examples of that level in the relevant section of the job family.
 
-##### Sales/Sales Development:
+##### Sales/Sales Development
 
 | Grade    | Management      | Individual Contributor          |
 |-------|-----------------|---------------------------------|
@@ -325,13 +325,14 @@ Dual career tracks can be added to each job family (regardless of division) when
 | 11    | Senior Director |                                    |
 | 10    |    Director          |                                 |
 | 9        | Manager (Sales) <br> Senior Manager (Sales)        |                                   |
-| 8        | Manager (Demand Generation)                |    Alliance Business Development Manager <br> Enterprise  |
+| 8        | Manager (SDR/BDR)   <br> Associate Manager (Sales)             |    Alliance Business Development Manager <br> Enterprise  |
 | 7            |                 | Mid Market                      |
-| 6            |                 | SMB/SDR Lead & Acceleration                             |
-| 5            |                 | Analyst/ SDR  |
+| 6            |                 | SMB                            |
+| 5            |                 | SDR/BDR  |
 
-##### Customer Success:
+##### Customer Success
 
+<!-- vale handbook.Repetition = NO -->
 | Grade    | Management       | Individual Contributor    |
 |-------|------------------|---------------------------|
 | 15    | CEO              |                           |
@@ -345,6 +346,7 @@ Dual career tracks can be added to each job family (regardless of division) when
 | 6            |                  | Intermediate              |
 | 5            |                  | Junior                    |
 | 4            |                  | Intern                    |
+<!-- vale handbook.Repetition = YES -->
 
 ## Compa Ratio
 
