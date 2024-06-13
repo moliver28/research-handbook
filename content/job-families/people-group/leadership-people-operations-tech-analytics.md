@@ -57,6 +57,8 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 The next step is to move to VP, People Operations.
 
+### Sr. Director, People Technology & Analytics
+
 ### Director, Risk and Resilience
 
 The Director, Risk and Resilience reports to VP, People Operations.
