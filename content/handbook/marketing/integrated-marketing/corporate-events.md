@@ -44,6 +44,7 @@ twitter_creator: gitlab
 * Marina Conrad - Senior Corporate Events Manager - `@marinaconrad`
 * Amanda Shen - Corporate Events Manager - `@amandawshen`*
 * Suli King - Corporate Events Content Manager -`@sstuelp`
+* Lauren Roberts - Corporate Events Coordinator - `@lroberts`
 
 ### Current Slack Corporate Event Channels
 
