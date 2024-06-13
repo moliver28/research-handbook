@@ -14,7 +14,7 @@ description: "Integrating High Performing Teams Framework into the Product Divis
 
 ## Business Goal
 
-Improve the consistency of results across the Product Division by implementing the HPT framework 
+Improve the consistency of results across the Product Division by implementing the HPT framework.
 
 | Company-Wide:<br>HPT Principles + Indicators |  Product Division: <br>Indicators of success |
 | --- | --- |
@@ -24,13 +24,12 @@ Improve the consistency of results across the Product Division by implementing t
 | Deliver results on time.<br>Prioritized → Managers are realistic and ruthless in prioritizing what their team will deliver each quarter.<br><br>Documented → Timeframes and deliverables are documented in a place for the team to easily access.<br><br>Communicated & Delegated → Team members know their roles and responsibilities and are held accountable for when their deliverables are due. | Set ambitious, measurable goals within your product groups using OKRs and KPIs as guiding targets for delivering superior customer experiences. |
 | Collaborate with open & effective communication.<br>Safe → Team members feel psychologically safe to admit they are wrong, make mistakes, and challenge each other to do their best.<br><br>Streamlined → Teams set and maintain clear expectations on where, when, and how they will communicate.<br><br>Filtered → Managers reduce noise and distractions by sharing context at the right time for relevant team members. | Both written and verbal communication are paramount for success in a remote and largely asynchronous work environment where our teams are globally distributed. Be a great teammate in accessible, open environments so your teammates can co-create with you. |
 
-
 ## Exit Criteria
 
-1. Align the HPT definitions across artifacts for career development 
-1. Determine if artifacts for career development are meeting the needs of the team 
-1. Revamp the artifacts 
-1. Roll out updated artifacts and HPT framework for the Product Division  
+1. Align the HPT definitions across artifacts for career development
+1. Determine if artifacts for career development are meeting the needs of the team
+1. Revamp the artifacts
+1. Roll out updated artifacts and HPT framework for the Product Division
 
 ## Roles and Responsibilities
 
