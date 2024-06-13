@@ -24,17 +24,17 @@ UX research operations coordinators have several resources to recruit from. Lear
 
 ### Participant Cool-Down timelines
 
-For us to best respect our participant’s time, we place people on cool-down after they have been contacted by UX Research for a study. This not only ensures we are mindful of our participants' experience, but also enables us to remain tax compliant when it comes to gratuities. The table below shows the timelines that we follow. These timelines apply only to outreach we carry out directly. Third party tools such as Respondent or UserTesting will have their own cool-down rules.
+For us to best respect our participant’s time, we place people on cool-down after they have been contacted by UX Research or CSM for the purpose of a research study. This not only ensures we are mindful of our participants' experience, but also enables us to remain tax compliant when it comes to gratuities. The table below shows the timelines that we follow. These timelines apply only to outreach we carry out directly. Third party tools such as Respondent or UserTesting will have their own cool-down rules.
 
 | **Recruitment Stage** | **Cool-Down Period** |
 | ------ | ------ |
-| Invitation Sent for screener and no response | 4 weeks |
 | Invitation Sent for survey* and no response | 4 weeks |
-| Invitation Sent for screener and they _do_ respond but _not selected_ | 4 weeks |
-| Invitation Sent for survey* and they _do_ respond | 4 weeks |
-| Invited for follow-up interview and does _not_ take part | 6 weeks |
-| Invited for follow-up interview and does take part | 12 weeks** |
-| Invitation Sent for Product or CSM CSAT | Once per quarter from one team **not** both |
+| Invitation Sent for survey* and they do respond | 4 weeks |
+| Invitation Sent for Product or [CSM CSAT](https://handbook.gitlab.com/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/) | Once every other quarter from one team, **not** both |
+| Invitation Sent for user interview and no response | 4 weeks |
+| Invitation Sent for user invterview and they do respond but not selected | 4 weeks |
+| Qualified and invited for user interview but does not take part | 6 weeks |
+| Qualified and invited for user interview and does take part | 12 weeks** |
 
 *If a participant is invited for a survey (such as, but not limited to, SUS, CSAT, or JTBD), we ensure that they are not added to the next wave of survey outreach that is conducted. Receiving multiple surveys back to back can lead to opt-outs and is not a pleasant participant experience. These participants may still be invited to fill in individual screeners if they are not on cool-down during the time of outreach.
 
