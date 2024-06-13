@@ -653,7 +653,7 @@ Once the report is downloaded (or the event/tactic has ended and all swag has be
 
 ## Field Marketing Swag
 
-Swag are promotional merchandise or items branded with GitLab's logo or message that are distributed for marketing purposes. The goal is to provide useful items that recipients will enjoy using while also promoting GitLab's brand.
+Swag (Stuff We All Get) are promotional merchandise or items branded with GitLab's logo or message that are distributed for marketing purposes. The goal is to provide useful items that recipients will enjoy using while also promoting GitLab's brand.
 
 ## Brand Details for Swag and Event Assets
 
@@ -684,11 +684,17 @@ For information regarding Brand support, please visit the [Brand Creative Handbo
 1. Everyone (badge) that is scanned > receive stickers
 1. People participating at demos > receive a pen or notebook or lego set
 1. High Value customers/prospects/specific titles > T-Shirts
+1. A special SWAG "bucket high value item" for Sales people on-site, meeting clients directly (pre-booked meetings) during the conference but not necessarily at our booth (sometimes it's directly at the client booth) > laptop sleeve
 
 #### Pre-Event Planning (FMM)
 
-- Identify the qualifying criteria for attendees to receive swag . This could include factors such as registering for the conference, attending specific demo sessions or presentations, engaging with sponsors or exhibitors, or completing surveys or challenges.
+- Identify the qualifying criteria for attendees to receive swag. This could include factors such as registering for the conference, attending specific demo sessions or presentations, engaging with sponsors or exhibitors, or completing surveys or challenges.
 - Determine the types of swag items to be distributed and establish the quantity based on the anticipated attendance and budget constraints.
+- Ensure the delivery of swag reaches venues on time and in good condition, the following are some best practices.
+- Ensure all boxes are labeled correctly to include GitLab and the booth number.
+- Check with the event organizer of best address, contact person and any special delivery instructions.
+- Rather than sendind to a venue, SWAG can be delivered to hotels where team members are staying for an event but always check with the hotel that this is permitted.
+- Having a SWAG Back-up plan is essential to ensure that you can still capture valuable leads and maintain a positive impression even if you run out of physical items. For example, design and create an On-Booth Survey with [QR Code](/handbook/marketing/events/#steps-to-generating-a-qr-code), incase you are running out of SWAG you can still collect the email address of the people who asked for it and send them a voucher or a low value item after the event.
 
 #### Post-Event Follow-Up
 
