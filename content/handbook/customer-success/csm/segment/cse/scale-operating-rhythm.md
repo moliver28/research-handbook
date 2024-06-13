@@ -44,7 +44,7 @@ The upcoming month's webinar dates are added to an issue in the [Customer Succes
 
 The host of the webinar should download the recording from [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) and do a practice session in the zoom webinar to ensure it plays successfully.  Here are details for playing the video for the webinar:
 
-1. Download Mp4 to your computer the day before session starts.
+1. Download Mp4 to your computer **at least two business days** before the session starts.
 1. Start practice session. You'll get a reminder email one day and one hour before the webinar starts and can click on that link. You can join the webinar anytime before it starts in a practice session in order to test the video playback.
 1. Mute yourself and turn off video. The customer will only see the pre-recorded presenter, at no time should they see the panelists.
 1. Press "Share Screen" > Advanced > Video **DE-Select "Optimize for video clip"** Share > Select the Mp4 file of the recording
