@@ -1,25 +1,25 @@
 ---
 title: Jira with GitLab
-description: This guide provides steps to set up a Jira Server as well as some troubleshooting steps from a Support Engineer's perspective
+description: This guide provides steps to set up a Jira and troubleshooting steps from a Support Engineer's perspective
 category: Self-managed
 ---
 
-### What is Jira Software
+### What is Jira
 
-Jira Software is part of a family of products designed to help teams of all types manage work. Originally, Jira was designed as a bug and issue tracker. But today, Jira has evolved into a powerful work management tool for all kinds of use cases, from requirements and test case management to agile software development.
+Jira is a work management tool for software teams that need to organize and track their work. Jira has recently pushed for migration to the [Atlassian Cloud](https://developer.atlassian.com/cloud/jira/platform/). Jira no longer offers support for [Jira Server](https://www.atlassian.com/blog/announcements/farewell-to-server) and only offers the option of the [Jira Software Data Center](https://www.atlassian.com/enterprise/data-center/jira) for on-premises customers. 
 
 For more information about various uses of Jira Please check out the [Get started with Jira Software](https://www.atlassian.com/software/jira/guides/getting-started/basics)
 
 ### How to Set Up Jira Server
 
-1. You need to create an instance from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
+1. Create an instance from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
 
 #### Prerequisite software
 
 - You need to install Java as Jira uses java JVM.
 - You need to install certbot, python3-certbot-apache for you to generate certificates for HTTPS
 
-#### Installing Jira and prerequisites
+#### Install Jira
 
 1. Install Java because Jira uses Java JVM
 
