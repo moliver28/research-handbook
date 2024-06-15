@@ -24,7 +24,7 @@ As part of the team tasks, team has responsibility towards the following nodes/t
 
 * Build Machines: Runner manager machines that spins up machines that are used
   by various CI jobs for building and publishing packages. Details of the node
-  as well as the maintenance tasks can be found in [the build machines specific docs](./build-machines.html)
+  as well as the maintenance tasks can be found in [the build machines specific docs](./build-infrastructure.html)
 
 * `packages.gitlab.com`: This is a self-hosted package server managed by
   GitLab Infrastructure team. It's used by Distribution team to ship GitLab CE and EE
