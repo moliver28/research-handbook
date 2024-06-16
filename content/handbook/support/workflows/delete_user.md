@@ -48,4 +48,3 @@ If the user has not been deleted within a reasonable amount of time, verify the 
 - Check the `users_migrate_records_to_ghost_user_in_batches_worker` cron job is completing. This job runs every 2 minutes. There might be a delay depending on how many batches there are.
   - **View**: `pubsub-sidekiq-inf-gprd*`
   - **Search**: `json.class: Users::MigrateRecordsToGhostUserInBatchesWorker`
-
