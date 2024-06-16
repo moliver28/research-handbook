@@ -21,11 +21,15 @@ This action should only be taken if given explicit permission in a ticket from t
 
 ## Workflow
 
+1. Verify the account deletion was initiated by the user. If this was not done, do not proceed with the deletion.
+    - Check Kibana logs for the self delete action
+        **View**: `pubsub-rails-inf-gprd*`
+        **Search**: `json.meta.user: <username> AND json.action: destroy`
+    - Check if Admin Note for user says `User deleted own account on {timestamp}`
 1. Add the `spt_meta_5144` tag to the ticket. This will automatically be done if the [Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro was used earlier.
 1. Access the user account from the admin account - https://gitlab.com/admin/users/example_username
-1. Verify the Admin Note says `User deleted own account on {timestamp}`
-1. Click the **vertical ellipsis icon (kebab) > Delete User**
-1. Complete the confirmation pop-up
+1. Click the **3 dots menu <i class="fa-solid fa-ellipsis-vertical"></i> > Delete User**
+1. Complete the confirmation pop-up.
 
 Deletion will not be immediate, but should complete within the hour if not sooner.
 
@@ -33,26 +37,15 @@ Deletion will not be immediate, but should complete within the hour if not soone
 
 If the user has not been deleted within a reasonable amount of time, verify the jobs have completed in Kibana.
 
-- Check the delete request from the UI went through
+- Check the delete request from the UI went through:
+  - **View**: `pubsub-rails-inf-gprd*`
+  - **Search**: `json.action: destroy AND json.meta.user: "<your-admin-username>"`
 
-```text
-View: pubsub-rails-inf-gprd*
+- Check the delete user worker completed:
+  - **View**: `pubsub-sidekiq-inf-gprd*`
+  - **Search**: `json.class: DeleteUserWorker AND json.meta.user: "<your-admin-username>"`
 
-Search: json.action: destroy AND json.meta.user: "<your-admin-username>"
-```
+- Check the `users_migrate_records_to_ghost_user_in_batches_worker` cron job is completing. This job runs every 2 minutes. There might be a delay depending on how many batches there are.
+  - **View**: `pubsub-sidekiq-inf-gprd*`
+  - **Search**: `json.class: Users::MigrateRecordsToGhostUserInBatchesWorker`
 
-- Check the delete user worker completed
-
-```text
-View: pubsub-sidekiq-inf-gprd*
-
-Search: json.class: DeleteUserWorker AND json.meta.user: "<your-admin-username>"
- ```
-
-- Check the users_migrate_records_to_ghost_user_in_batches_worker cron job is completing. This job runs every 2 minutes. There might be a delay depending on how many batches there are.
-
-```text
-View: pubsub-sidekiq-inf-gprd*
-
-Search: json.class: Users::MigrateRecordsToGhostUserInBatchesWorker
-```
