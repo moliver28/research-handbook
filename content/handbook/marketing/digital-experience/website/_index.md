@@ -36,7 +36,6 @@ The GitLab marketing site, or simply the "GitLab Website" refers to all of the c
 - Team: `about.gitlab.com/company/team/`
 - Servies: `about.gitlab.com/services/`
 
-
 ## Metrics
 
 - Increase clicks from search engine results pages (SERPs)
