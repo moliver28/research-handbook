@@ -9,7 +9,6 @@ description: "Workflow to follow if manually deleting a user"
 This workflow covers the process of manually deleting a user in Gitlab.com.
 
 This process should only be used in extenuating circumstances for paid namespaces:
-
 - [User initiated self-serve deletion](/handbook/support/workflows/reinstating-blocked-accounts/#user-initiated-self-serve-deletion)
 
 This action should only be taken if given explicit permission in a ticket from the paid customer.
@@ -23,13 +22,13 @@ This action should only be taken if given explicit permission in a ticket from t
 ## Workflow
 
 1. Verify the account deletion was initiated by the user. If this was not done, do not proceed with the deletion.
-    - Check Kibana logs for the self delete action
-      - **View**: `pubsub-rails-inf-gprd*`
-      - **Search**: `json.meta.user: <username> AND json.action: destroy`
-    - Check if Admin Note for user says `User deleted own account on {timestamp}`
+     - Check Kibana logs for the self delete action
+       - **View**: `pubsub-rails-inf-gprd*`
+       - **Search**: `json.meta.user: <username> AND json.action: destroy`
+     - Check if Admin Note for user says `User deleted own account on {timestamp}`
 1. Add the `spt_meta_5144` tag to the ticket. This will automatically be done if the [Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro was used earlier.
-1. Access the user account from the admin account - https://gitlab.com/admin/users/example_username
-1. Click the **3 dots menu <i class="fa-solid fa-ellipsis-vertical"></i> > Delete User**
+1. Access the user account from the admin account. For example: `https://gitlab.com/admin/users/example_username`
+1. Click the **3 dots menu (<i class="fa-solid fa-ellipsis-vertical"></i>) > Delete User**
 1. Complete the confirmation pop-up.
 
 Deletion will not be immediate, but should complete within the hour if not sooner.
