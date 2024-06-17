@@ -34,7 +34,7 @@ The GitLab marketing site, or simply the "GitLab Website" refers to all of the c
 - Direction: `about.gitlab.com/direction`
 - Releases: `about.gitlab.com/releases` including `about.gitlab.com/releases/categories/releases/`
 - Team: `about.gitlab.com/company/team/`
-- Servies: `about.gitlab.com/services/`
+- Services: `about.gitlab.com/services/`
 
 ## Metrics
 
