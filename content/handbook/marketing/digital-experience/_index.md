@@ -443,6 +443,5 @@ The deletion of BE files is handled in the same WWW delete job by [pulling the l
     <li>Know the URL and keywords you want to use</li>
     <ul>
       <li>SEO and keyword analysis from the Search Team <a href="https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/issues/new?issuable_template=keyword-research-request">Issue Templates</a> is recommended.</li>
-      <li>See <a href="https://about.gitlab.com/handbook/marketing/digital-experience/website/#naming-conventions">naming conventions</a></li>
     </ul>
 </details>
