@@ -9,7 +9,7 @@ description: "Workflow to follow if manually deleting a user"
 This workflow covers the process of manually deleting a user in Gitlab.com.
 
 This process should only be used in extenuating circumstances for paid namespaces:
-    - [User initiated self-serve deletion](/handbook/support/workflows/reinstating-blocked-accounts/#user-initiated-self-serve-deletion)
+  - [User initiated self-serve deletion](/handbook/support/workflows/reinstating-blocked-accounts/#user-initiated-self-serve-deletion)
 
 This action should only be taken if given explicit permission in a ticket from the paid customer.
 
