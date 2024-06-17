@@ -106,7 +106,7 @@ Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illust
 
 Humans tend to [favor solutions that add features than solutions that remove them, even when removing features is more efficient](https://www.nature.com/articles/d41586-021-00592-0) - great PMs recognize this bias and utilize subtractive thinking to create great user experiences. Customers will tell us when we’re missing something they need, but they’re unlikely to explicitly tell us when we’re overwhelming them with unwanted features. However, we do have evidence that this challenge is already a consideration for us, as reflected consistently in our [System Usability Scale verbatims](/handbook/product/ux/performance-indicators/system-usability-scale/). Here is [an episode on the Hidden Brain podcast](https://hiddenbrain.org/podcast/do-less/) that explores this bias further.
 
-#### Rollout features on SaaS First
+#### SaaS First
 
 Our customers choose SaaS because it reduces their operating costs, helps them adopt the latest capabilities without performing upgrades, and provides them peace of mind of high availability. This principle implies the following:
 
@@ -210,17 +210,15 @@ Sometimes fast deployments are needed to fix a service or application outage tha
 
 #### Design for self-managed for feature parity between deployments
 
-We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS, Dedicated or Self-managed). At the same time, we believe in the power of a [single code base](/handbook/product/single-application/#single-codebase). Therefore we strive to maintain feature parity between SaaS and Self-managed installations.
-
-All GitLab SaaS environments leverage the same installation method available to self-managed users, with a different licensing structure. By designing and implementing features for self-managed, we achieve maximum parity between the various installations.
+We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS, Dedicated or Self-managed). All GitLab SaaS environments leverage the same installation method available to self-managed users, with a different licensing structure. By designing and implementing features for self-managed, we achieve maximum parity between the various installations.
 
 A few examples:
 
-- Downtime is not acceptable in SaaS, but that is also not acceptable for self-managed users. By designing a feature that covers both of these use cases, we can avoid inflicting additional work to the end users whether they are using SaaS or self-managed.
-- It is ok to release functionality to SaaS first, as long as there is a solution for self-managed users. By designing a feature that can be managed in SaaS environments, and thinking through how self-managed users could operate this feature on their own, we reduce the burden of supporting many different ways of operating individual functionality.
+- Design features to avoid downtime since it's not acceptable for SaaS nor self-managed users.
+- It is ok to release functionality to SaaS first, as long as the solution is applicable for self-managed too.
 - While a feature can be enabled first on SaaS via a [feature flag](../product-development-flow/feature-flag-lifecycle/_index.md) or setting, the underlying implementation must also exist, although disabled, on self-managed.
 
-In line with our [SaaS-first rollouts](#rollout-features-on-saas-first) principle, some features may be released on SaaS to gain operational experience and apply learnings prior to recommending and supporting customers using it. Features would be present of self-managed codebase but are disabled until General Availability.
+In line with our [SaaS-first](#saas-first) principle, some features may be released on SaaS to gain operational experience and apply learnings prior to recommending and supporting customers using it. Features would be present of self-managed codebase but are disabled until General Availability.
 
 For functionality where implementation may be especially challenging without cloud services, for example with AI, self-managed functionality may be dependent on an underlying SaaS service. This allows us to provide end users the same capabilities regardless of deployment type, and not overly constrain our feature set or impose significant operational complexities on each deployment. Product managers need to be aware that this may impact the adoption of these features, as not all customers may be willing or able to leverage underlying SaaS services, such as air-gapped deployments.
 
