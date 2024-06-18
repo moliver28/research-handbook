@@ -1,6 +1,6 @@
 ---
 title: JTBD Topics & Definitions
-description: 
+description:
 ---
 
 ## Domain
@@ -46,7 +46,7 @@ The Job Performer is a critical concept referring to the individual undertaking 
 
 The Main Job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. What is the Job Performer trying to get done in the selected Domain? Main Jobs should be timeless and as unchanging as possible. It should be expressed in functional terms, like a utilitarian goal. It’s an act that should be performed and have a clear end state… the “done” part of JTBD. It is not what your company needs to do to deliver a service. Always think in terms of the Job Performer’s perspective. The level of granularity for the Main Job can vary, depending on the innovation's purpose and feasibility.
 
-Main Jobs follow the [Job Statement](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format: [verb] + [object] + [(optional) clarifier]
+Main Jobs follow the [Job Statement](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format: [verb] + [object] + [(optional) clarifier]
 
 >💡 Main Jobs are mapped using a Job Map.
 
@@ -117,7 +117,7 @@ The key is to focus on the Job Performer's goal and desired outcome, rather than
 
 Job Stages should represent high-level job statements that describe the step or _stage_ the Job Performer is in during this process of achieving their Main Job. The complete set of Stages and their Job Steps form a Job Map.
 
-Job Stages follow the [Job Statement](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format. Examples of Job Stage _verbs_ include:
+Job Stages follow the [Job Statement](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format. Examples of Job Stage _verbs_ include:
 
 - Define. Plan, Select, Determine
 - Locate, Gather, Access, Receive
@@ -134,7 +134,7 @@ Job Stages follow the [Job Statement](https://handbook.gitlab.com/handbook/produ
 
 Job Steps are the small objectives a user must complete to accomplish the Stages and, therefore Main Job. These should be self-explanatory and easy to understand without much context. They are the sequential series of objectives a Job Performer must complete to accomplish the Stage. Each Job Step is high-level and can be broken out into it's own workflow if you were to zoom-in on it; they are not individual tasks. Avoid being too granular when writing Job Steps in order to keep them relevant to all performers executing the job.
 
-Job Steps follow the [Job Statement](https://handbook.gitlab.com/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format.
+Job Steps follow the [Job Statement](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#Job-Statements) format.
 
 ## Job Differentiators
 

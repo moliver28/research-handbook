@@ -18,7 +18,7 @@ title: "IT Program Management Office"
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> IT PMO Team
 
-We are a global team of five, focused on building and managing world-class information technology systems and business processes. To learn more about our individual job functions, visit the [Program Management, Business Technology family page](https://handbook.gitlab.com/job-families/finance/program-management-bt/).
+We are a global team of five, focused on building and managing world-class information technology systems and business processes. To learn more about our individual job functions, visit the [Program Management, Business Technology family page](/job-families/finance/program-management-bt/).
 
 **Barbara Roncato - Manager, IT Program Management**
 GitLab handle: [@broncato](https://gitlab.com/broncato)

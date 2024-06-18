@@ -170,7 +170,7 @@ In order to engage with the team, please refer to the [Engineering Analytics tea
 
 - [Create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new) with `~"Engineering Metrics"` to be added to the [Engineering Analytics](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic) board.
   - State clearly what are the requirements and measures of the performance indicator.
-- The [Director of Engineering Analytics](https://gitlab.com/cdeleon_gitlab) is the DRI for triage, prioritization, and assignment.
+- The Director of Engineering Analytics is the DRI for triage, prioritization, and assignment.
   - If work can be done without the need of new data warehouse capabilities, the DRI will schedule and assign the work within Engineering.
   - If new Data warehouse capabilities are needed from the Data team, a linked issue will be created on the [Data team's Engineering](https://gitlab.com/groups/gitlab-data/-/boards/1496166?label_name%5B%5D=Engineering) board.
     - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/business-technology/data-team/how-we-work/#request-to-expedite-responses)

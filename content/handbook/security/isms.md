@@ -31,7 +31,7 @@ GitLab's headquarter mailing address is in scope and covers all sub organization
 
 Business functions included in the scope of the ISMS include:
 
-- Engineering - Chief Information Security Officer; Security Assurance; Product Security; Security Operations; Threat Management Security teams. Division structure is defined [here](https://handbook.gitlab.com/handbook/security/#division-structure)
+- Engineering - Chief Information Security Officer; Security Assurance; Product Security; Security Operations; Threat Management Security teams. Division structure is defined [here](/handbook/security/#division-structure)
 - Engineering - VP of Development
 - Engineering - VP of Infrastructure and Quality
 - Finance - VP of Information Technology

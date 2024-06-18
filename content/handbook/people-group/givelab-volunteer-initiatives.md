@@ -5,11 +5,11 @@ description: "Discover GitLab's volunteering opportunities with GiveLab"
 
 ### About GiveLab
 
-GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](https://handbook.gitlab.com/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](https://handbook.gitlab.com/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
+GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
 
 GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
 
-To learn more about GiveLab, please visit the [ESG handbook page](https://handbook.gitlab.com/handbook/legal/esg/#givelab).
+To learn more about GiveLab, please visit the [ESG handbook page](/handbook/legal/esg/#givelab).
 
 ### Historical GiveLab and Related Activities
 

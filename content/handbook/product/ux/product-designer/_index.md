@@ -32,7 +32,7 @@ Must do:
 - Last minute adjustments, if any, to issues in the current release milestone and labeled `Deliverable`.
 - Issues assigned to you labeled `workflow::problem validation`, `workflow::solution validation`, or `workflow::design`.
 - Planning and prioritization of UX issues in the next release milestone. See [Milestone planning](/handbook/product/ux/ux-department-workflow/#milestone-planning).
-- Share your work with other team members at GitLab through a UX showcase presentation, a Slack post or by adding it as a discussion topic in the weekly UX meeting.
+- Share your work with other team members at GitLab in a UX Forum, a Slack post or by adding it as a discussion topic in the weekly UX meeting.
 
 Should do:
 
@@ -368,7 +368,7 @@ For iteration inspiration watch our Product Designers discuss [iteration at GitL
 
 Socializing design work provides Product Designers with opportunities to mentor, engage, and inspire other designers inside and outside GitLab. Widening one's attention to different work areas can also help understand how design decisions impact the product at large.
 
-Product Designers are encouraged to socialize their work internally through Slack, Unfiltered, and [UX showcases](/handbook/product/ux/ux-showcase/) to open new pathways to collaboration and other teams with similar objectives and overlapping JTBDs to address opportunities.
+Product Designers are encouraged to socialize their work internally through Slack, Unfiltered, and [UX Forum](/handbook/product/ux/ux-forum/) to open new pathways to collaboration and other teams with similar objectives and overlapping JTBDs to address opportunities.
 
 Other ways to socialize design decisions is by writing design focused [blog posts](/handbook/marketing/blog/) and [speaking at events/conferences](/handbook/marketing/corporate-communications/speaking-resources/). This type of engagement empowers designers outside GitLab to draw inspiration from our work. The additional visibility can also positively impact our hiring pipeline by providing future applicants a glimpse of what working in the UX Department at GitLab looks like. Sharing brings in more transparency into the design-decision making process and benefits community members by [reducing threshold to contributions](/handbook/values/#transparency).
 

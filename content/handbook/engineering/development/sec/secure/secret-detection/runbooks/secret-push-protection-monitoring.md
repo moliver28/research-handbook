@@ -113,7 +113,7 @@ To check the logs emitted from the feature, please look at the following Kibana 
 * 📖 [Kibana: Logs for all scans](https://log.gprd.gitlab.net/app/discover#/view/31afcbb2-28e9-466f-a6c3-486e869e1ee3).
 * 📖 [Kibana: Logs for blocked pushes](https://log.gprd.gitlab.net/app/discover#/view/db7ba29d-d406-46df-8b43-e6d9c47fbed7).
 
->**Note:** Kibana [retain logs for only 7 days](https://handbook.gitlab.com/handbook/support/workflows/kibana/#using-kibana).
+>**Note:** Kibana [retain logs for only 7 days](/handbook/support/workflows/kibana/#using-kibana).
 
 ### How to identify and mitigate a reliability or performance issue with the feature?
 

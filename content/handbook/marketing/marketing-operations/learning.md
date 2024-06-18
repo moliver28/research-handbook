@@ -78,7 +78,7 @@ Last updated: December 2023
 - 🎙️ [OpsCast - How to continuously learn and grow in Marketing Ops](https://open.spotify.com/episode/5gVVWM5v54DASY7ZuPbPYw?si=7QjfC8KRQwmmwnrt6PsokA)
 - 📝 [LXA - Five tips to skyrocket your Marketing Ops career](https://www.lxahub.com/stories/5-tips-to-skyrocket-your-career-in-marketing-ops)
 - 📝 [Madkudu - Defining Your Marketing Ops Career Path - Consulting and In-House](https://www.madkudu.com/marketing-operations-guide/defining-your-marketing-ops-career-path)
-- 📝 [GitLab - Marketing Operations Career Path - Job Families](https://handbook.gitlab.com/job-families/marketing/marketing-operations-manager/)
+- 📝 [GitLab - Marketing Operations Career Path - Job Families](/job-families/marketing/marketing-operations-manager/)
 
 ### Marketo
 

@@ -548,7 +548,7 @@ The Data Team will regularly review users' Tableau activity to determine if user
   - Have accessed a View within the past 90 days
   - Have accessed a Datasource within the past 90 days
 
-Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](https://handbook.gitlab.com/handbook/business-technology/data-team/data-management/#tableau).
+Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/business-technology/data-team/data-management/#tableau).
 
 **Tracking License Usage**
 

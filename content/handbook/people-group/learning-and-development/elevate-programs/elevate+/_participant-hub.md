@@ -50,7 +50,7 @@ Making the most out of Elevate+:
 
 ## Certification
 
-Elevate+ concludes with an oral certification to demonstrate your mastery of leadership competencies. Please review [this handbook page](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/#certification) for a detailed outline of the certification process.
+Elevate+ concludes with an oral certification to demonstrate your mastery of leadership competencies. Please review [this handbook page](/handbook/people-group/learning-and-development/elevate-programs/elevate+/#certification) for a detailed outline of the certification process.
 
 ## Module 1: My Leadership Identity
 

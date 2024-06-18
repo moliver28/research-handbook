@@ -14,7 +14,7 @@ The AI Model Validation team mission is to support and improve the integrity, re
 
 ## 🚀 Team members
 
-The team is composed of [ML engineers](https://handbook.gitlab.com/job-families/engineering/development/data-science/machine-learning/) focused on ML science and MLOps backend, and they are permanent members of the AI Model Validation Group.
+The team is composed of [ML engineers](/job-families/engineering/development/data-science/machine-learning/) focused on ML science and MLOps backend, and they are permanent members of the AI Model Validation Group.
 
 | Who | Role |
 | --- | --- |
@@ -54,7 +54,7 @@ Our current customers include GitLab [AI-powered Duo feature teams:](https://doc
 2. [Create: Code Creation team](https://about.gitlab.com/direction/create/code_creation/)
 3. [Govern: Threat Insights `AI Vulnerability Management` team](https://about.gitlab.com/direction/govern/threat_insights/vulnerability_management/)
 4. [Root Cause Analysis](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#root-cause-analysis)
-5. [RAG Evaluation](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/search/)
+5. [RAG Evaluation](/handbook/engineering/infrastructure/core-platform/data_stores/search/)
 6. [Issue Summarization](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#issue-description-generation)
 7. [AI Powered: Group Custom Models](https://about.gitlab.com/direction/ai-powered/custom_models/)
 

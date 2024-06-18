@@ -27,9 +27,9 @@ Hi there. My current role is Engineering Manager on the Switchboard Team. We are
 ## My working style
 
 - **Direct Communication**
-  - I value direct communication and feedback. I adopt the principle of [Short Toes](https://handbook.gitlab.com/teamops/everyone-contributes/#short-toes) and expect others to provide feedback where appropriate.
+  - I value direct communication and feedback. I adopt the principle of [Short Toes](/teamops/everyone-contributes/#short-toes) and expect others to provide feedback where appropriate.
 - **Relator**
-  - My prominent Gallup Strength is [Relator](https://www.gallup.com/cliftonstrengths/en/252311/relator-theme.aspx). I enjoy building genuine relationships and working closely with others to achieve outcomes. I am most productive when I understand team members' strengths and can set them up for success.  
+  - My prominent Gallup Strength is [Relator](https://www.gallup.com/cliftonstrengths/en/252311/relator-theme.aspx). I enjoy building genuine relationships and working closely with others to achieve outcomes. I am most productive when I understand team members' strengths and can set them up for success.
 - **Assume Good Intent**
   - We are all working together to achieve outcomes and I assume that each team member does the best they can with the skills and information they have at the time.
 - **Technical Knowledge & Understanding**

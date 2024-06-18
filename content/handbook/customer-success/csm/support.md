@@ -113,7 +113,7 @@ As described at that link, support already collects feedback via an automatic em
 
 ## Support Contact Management Projects
 
-CSM guidance on [contact management projects](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/gitlab/contact_management_projects/).
+CSM guidance on [contact management projects](/handbook/support/readiness/operations/docs/gitlab/contact_management_projects/).
 
 Who has access to a Contact Management Projects?
 

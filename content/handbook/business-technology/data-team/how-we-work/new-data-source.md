@@ -3,10 +3,10 @@
 title: "New Data Source"
 description: "How to add a new data source"
 ---
- 
 
 
- 
+
+
 
 
 
@@ -87,7 +87,7 @@ When you want to do a data minimization and specify one or more columns to the 
 
 ```sql
 WITH base AS (
-    SELECT try_parse_json('{"id":1, 
+    SELECT try_parse_json('{"id":1,
                             "name": "ABC"}'
                                        ) AS json_data)
 SELECT object_insert(json_data,'email','test@gitlab.com')
@@ -104,7 +104,7 @@ In the situation when you want to discard one or more columns from the JSON file
 
 ```sql
 WITH base AS (
-    SELECT try_parse_json('{"id":1, 
+    SELECT try_parse_json('{"id":1,
                             "name": "ABC",
                             "address":{"add1":"1234",
                                        "add2":"XYZ",
@@ -118,7 +118,7 @@ SELECT object_delete(json_data,'id','address')
 
 ```
 
-In this situation, you can **exclude** the column that shouldn't be processed for various reasons ([RED data](https://handbook.gitlab.com/handbook/security/data-classification-standard/#red), PII data, no value for the data or other minimization principles).
+In this situation, you can **exclude** the column that shouldn't be processed for various reasons ([RED data](/handbook/security/data-classification-standard/#red), PII data, no value for the data or other minimization principles).
 
 #### Extraction solution
 
@@ -142,7 +142,7 @@ Its the Data Team that determines which instrument is used. The following decisi
 
 ```mermaid
 graph LR
-   
+
 %%descisions
     api_available{API Available?}
     data_bucket{Data available in the gcp or s3 bucket?}
@@ -161,7 +161,7 @@ graph LR
     Snowflake_task([Snowflake task])
 %%flow
     ds_request[New Request]-->data_bucket
-    data_bucket-->|No|api_available 
+    data_bucket-->|No|api_available
     data_bucket-->|Yes|streaming
     streaming-->|Yes|Snowpipe
     streaming-->|No|Snowflake_task

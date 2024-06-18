@@ -349,7 +349,7 @@ When responding to an Infrastructure Incident, utilize the below procedure as gu
 
 #### Master broken guidelines
 
-You can read about the process workflow [here](https://handbook.gitlab.com/handbook/engineering/workflow/#broken-master-escalation) and follow the [triage responsibilities](https://handbook.gitlab.com/handbook/engineering/workflow/#triage-dri-responsibilities)
+You can read about the process workflow [here](/handbook/engineering/workflow/#broken-master-escalation) and follow the [triage responsibilities](/handbook/engineering/workflow/#triage-dri-responsibilities)
 
 ### Bot (Pagerslack) Usage
 

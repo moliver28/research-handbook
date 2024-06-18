@@ -26,7 +26,7 @@ to be addressed quickly.
 
 ## Threat Insights Team Structure
 
-The Threat Insights group is structured into three focused swimlanes that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/): Performance and Optimization, Projects, and AI. This subdivision is to provided bounded focus to each area: enabling us to to progress on multiple fronts and reduce planning overhead.
+The Threat Insights group is structured into three focused swimlanes that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/): Performance and Optimization, Projects, and AI. This subdivision is to provided bounded focus to each area: enabling us to progress on multiple fronts and reduce planning overhead.
 
 ### Stable Counterparts
 

@@ -8,7 +8,7 @@ The CRM Systems, Manager (SFDC Architect) reports to the CRM Systems, Director a
 
 ### Job Grade
 
-CRM Systems, Manager is a [grade 8](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [CRM Systems, Director](https://handbook.gitlab.com/job-families/finance/senior-director-enterprise-applications/#crm-systems-director)
+CRM Systems, Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [CRM Systems, Director](/job-families/finance/senior-director-enterprise-applications/#crm-systems-director)
 
 ### Responsibilities
 
@@ -53,7 +53,7 @@ The Director, CRM Systems reports to the Senior Director, Enterprise Application
 
 ### Job Grade
 
-The Director, CRM Systems is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Senior Director, Enterprise Applications](https://handbook.gitlab.com/job-families/finance/senior-director-enterprise-applications/#senior-director-enterprise-applications).
+The Director, CRM Systems is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Senior Director, Enterprise Applications](/job-families/finance/senior-director-enterprise-applications/#senior-director-enterprise-applications).
 
 ### Responsibilities
 
@@ -95,7 +95,7 @@ The Manager, Enterprise Applications, reports to the Senior Director, Enterprise
 
 ### Job Grade
 
-The Manager, Enterprise Applications is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Senior Director, Enterprise Applications](https://handbook.gitlab.com/job-families/finance/senior-director-enterprise-applications/#senior-director-enterprise-applications).
+The Manager, Enterprise Applications is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Senior Director, Enterprise Applications](/job-families/finance/senior-director-enterprise-applications/#senior-director-enterprise-applications).
 
 ### Responsibilities
 
@@ -129,7 +129,7 @@ The Senior Manager, Enterprise Applications, reports to the Senior Director, Ent
 
 ### Job Grade
 
-The Senior Manager, Enterprise Applications is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Senior Director, Enterprise Applications](https://handbook.gitlab.com/job-families/finance/senior-director-enterprise-applications/#senior-director-enterprise-applications).
+The Senior Manager, Enterprise Applications is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Senior Director, Enterprise Applications](/job-families/finance/senior-director-enterprise-applications/#senior-director-enterprise-applications).
 
 ### Responsibilities
 
@@ -163,7 +163,7 @@ The Director, Enterprise Applications, reports to the Senior Director, Enterpris
 
 ### Job Grade
 
-The Director, Enterprise Applications is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Senior Director, Enterprise Applications](https://handbook.gitlab.com/job-families/finance/senior-director-enterprise-applications/#senior-director-enterprise-applications).
+The Director, Enterprise Applications is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Senior Director, Enterprise Applications](/job-families/finance/senior-director-enterprise-applications/#senior-director-enterprise-applications).
 
 ### Responsibilities
 

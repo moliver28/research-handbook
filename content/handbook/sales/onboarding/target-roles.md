@@ -24,7 +24,7 @@ Please send a copy of the written approval to the Field Onboarding Program Manag
   - Renewals Managers (RM)
   - Solution Architects (SA)
   - Customer Success Managers (CSM)
-  - [Customer Success Engineers (CSE)](https://handbook.gitlab.com/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
+  - [Customer Success Engineers (CSE)](/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
   - Professional Services Engagement Managers and Practice Managers
   - Area Sales Managers (ASMs), Regional Directors (RDs) & Vice Presidents (VPs)
   - Customer Success Managers and Directors

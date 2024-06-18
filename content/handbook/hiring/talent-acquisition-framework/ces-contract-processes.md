@@ -219,7 +219,7 @@ The hiring manager or PBP should provide confirmation of the new start date via 
 
 ### How to Update a Start Date After a French contract has been signed
 
-   Please follow the normal start date change [process](https://handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-update-a-start-date-after-the-contract-is-signed), thereafter, please follow the following steps:
+   Please follow the normal start date change [process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-update-a-start-date-after-the-contract-is-signed), thereafter, please follow the following steps:
 
    1. Make a copy of this Start Date Amendment [letter](https://docs.google.com/document/d/1qpxTi6nPrT4KXDi87tDAWm49D9NZNvTS/edit)
    1. Edit all the highlighted details and save the document on your desktop
@@ -601,7 +601,7 @@ To create the contract:
 
 ## Advance Funds process for locations GitLab can not order laptops
 
-There are a handful of countries, listed [here](https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
+There are a handful of countries, listed [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
 
 1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Israel, Brazil, Costa Rica, Chile template.
 1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:

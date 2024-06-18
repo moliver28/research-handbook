@@ -119,7 +119,7 @@ This survey is available for you to send to your participants who are working wi
 
 ## AI Usability Metric
 
-To effectively evaluate the usability of our AI experiences and track progress over time, we will follow the existing [Usability testing](https://handbook.gitlab.com/handbook/product/ux/ux-research/usability-testing/) process. Specific asks for AI usability:
+To effectively evaluate the usability of our AI experiences and track progress over time, we will follow the existing [Usability testing](/handbook/product/ux/ux-research/usability-testing/) process. Specific asks for AI usability:
 
 - Use external users as your participants
 - Utilize the measures called out below
@@ -130,9 +130,9 @@ As with our standard approach to usability testing, not only do we measure pass/
 
 For the purposes of AI Usability testing, the following measures are to be used for each task:
 
-- [Effectiveness](https://handbook.gitlab.com/handbook/product/ux/ux-research/usability-testing/#effectiveness) (pass/fail)
-- [Efficiency](https://handbook.gitlab.com/handbook/product/ux/ux-research/usability-testing/#efficiency) (Single Ease Question)
-- [Satisfaction](https://handbook.gitlab.com/handbook/product/ux/ux-research/usability-testing/#satisfaction) of the experience
+- [Effectiveness](/handbook/product/ux/ux-research/usability-testing/#effectiveness) (pass/fail)
+- [Efficiency](/handbook/product/ux/ux-research/usability-testing/#efficiency) (Single Ease Question)
+- [Satisfaction](/handbook/product/ux/ux-research/usability-testing/#satisfaction) of the experience
 
 These measures can be applied in either moderated or unmoderated tests.
 

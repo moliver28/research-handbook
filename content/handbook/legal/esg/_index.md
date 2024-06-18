@@ -40,11 +40,11 @@ Once all necessary approvals have been documented for your charitable contributi
 
 #### GiveLab
 
-GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](https://handbook.gitlab.com/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
+GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
 
 GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
 
-Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a [Registered Nonprofit Organization](https://handbook.gitlab.com/handbook/legal/philanthropy-policy/#who-we-support) that isn’t on the current [GiveLab Nonprofit Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?gid=0#gid=0), please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
+Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a [Registered Nonprofit Organization](/handbook/legal/philanthropy-policy/#who-we-support) that isn’t on the current [GiveLab Nonprofit Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?gid=0#gid=0), please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
 
 Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write “yes” for the question, “Would you like the ESG team’s help organizing the volunteer activity?”
 
@@ -52,13 +52,13 @@ All team members and volunteer activities must adhere to the [GitLab Philanthrop
 
 If volunteering in person, team members may incur some expenses. All expenses should be submitted in Navan using the “GiveLab” classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
 
-As with all [company expenses](https://handbook.gitlab.com/handbook/finance/expenses/#1-policy), team members must be thoughtful in spending the company’s money and use best judgment to ensure that all expenses are deemed “ordinary and necessary.” Team members should follow all [team member expense responsibilities](https://handbook.gitlab.com/handbook/finance/expenses/#2-responsibilities).
+As with all [company expenses](/handbook/finance/expenses/#1-policy), team members must be thoughtful in spending the company’s money and use best judgment to ensure that all expenses are deemed “ordinary and necessary.” Team members should follow all [team member expense responsibilities](/handbook/finance/expenses/#2-responsibilities).
 
 Expenses allowed for reimbursement (for in-person volunteer events):
 
-- Local travel only -  [mileage](https://handbook.gitlab.com/handbook/finance/expenses/#mileage), [train](https://handbook.gitlab.com/handbook/finance/expenses/#train), [taxi/rideshares](https://handbook.gitlab.com/handbook/finance/expenses/#transportationparking). Must follow and comply with the current limits of our Expense Policy. Code under their individual travel category and use the “GiveLab” classification in Navan
-- [Parking](https://handbook.gitlab.com/handbook/finance/expenses/#transportationparking) for the event.  Must follow and comply with the current limits of our Expense Policy.  Please use the “GiveLab” classification in Navan
-- [Meal](https://handbook.gitlab.com/handbook/finance/expenses/#meals-company-provided-while-traveling) during the event.  Must follow and comply with the current limits of our Expense Policy.  Code under Travel-Meals for Myself and use the “GiveLab” classification in Navan
+- Local travel only -  [mileage](/handbook/finance/expenses/#mileage), [train](/handbook/finance/expenses/#train), [taxi/rideshares](/handbook/finance/expenses/#transportationparking). Must follow and comply with the current limits of our Expense Policy. Code under their individual travel category and use the “GiveLab” classification in Navan
+- [Parking](/handbook/finance/expenses/#transportationparking) for the event.  Must follow and comply with the current limits of our Expense Policy.  Please use the “GiveLab” classification in Navan
+- [Meal](/handbook/finance/expenses/#meals-company-provided-while-traveling) during the event.  Must follow and comply with the current limits of our Expense Policy.  Code under Travel-Meals for Myself and use the “GiveLab” classification in Navan
 
 Expenses not allowed for reimbursement:
 
@@ -96,7 +96,7 @@ GiveLab Champions help team members build trust through social connections, buil
 
 **GiveLab Champion responsibilities**
 
-- Recommend local [Registered Nonprofit Organizations](https://handbook.gitlab.com/handbook/legal/philanthropy-policy/#who-we-support) that meet GitLab’s eligibility criteria for volunteer activities
+- Recommend local [Registered Nonprofit Organizations](/handbook/legal/philanthropy-policy/#who-we-support) that meet GitLab’s eligibility criteria for volunteer activities
 - Help organize local volunteer events for team members to participate in
 - Provide recommendations to the ESG Team for virtual volunteer opportunities
 - Encourage team members to volunteer

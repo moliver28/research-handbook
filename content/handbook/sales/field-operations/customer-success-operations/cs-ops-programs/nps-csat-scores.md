@@ -18,7 +18,7 @@ In order to target leaders and decision-makers on accounts, three types of users
 
 - Identified Billing or Procurement personas configured as Owners or GitLab Admins on accounts
 - Guest, Reporter, Developer or Maintainer roles on accounts
-- Users that have been contacted by others CSAT Surveys within the past eight weeks, such as the [Product CSAT](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/csat/) survey administered by the UX Research Team.
+- Users that have been contacted by others CSAT Surveys within the past eight weeks, such as the [Product CSAT](/handbook/product/ux/performance-indicators/csat/) survey administered by the UX Research Team.
 
 ## All-Customer CSAT Survey
 
@@ -86,7 +86,7 @@ Customers received NPS surveys at multiple points in their lifecycle from 2021 t
 
 You may request data for the following NPS surveys:
 
-- **Post-Onboarding NPS/CSAT**  
+- **Post-Onboarding NPS/CSAT**
 - **Pre-Renewal NPS**
 - **Post-Renewal NPS/CSAT**
 
@@ -94,4 +94,4 @@ You may request data for the following NPS surveys:
 
 - Post-Scale Engagement CSAT Survey
   - Transactional to Scale/CSE customers only
-- [Case Closure Survey](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey
+- [Case Closure Survey](/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey

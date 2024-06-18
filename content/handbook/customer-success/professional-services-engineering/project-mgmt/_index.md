@@ -69,7 +69,7 @@ Kantata is our primary Resource Management software. From here the PMO team revi
    *You can request your soft bookings to become hard bookings and hours to be adjusted as needed and agreed with the customer during the kick-off. You can do that from the Resource Center by clicking the resource row under the project and entering your request as a message for your assigned OPS person under Activity. Don't forget to click "Post" once ready!
 6. If you need to create a new resource request, you do that from the Resource Center > Projects. Under the list of assigned team members, you can click "Add Team Member" or "Add unnamed Resource", fill-in the information at the top of the pop-up and click "Submit Request". NB: Clicking "Post" will not submit the request.
 
-_Billable vs NonBillable information_, please refer to [Team Metrics](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/#team-metrics) page
+_Billable vs NonBillable information_, please refer to [Team Metrics](/handbook/customer-success/professional-services-engineering/#team-metrics) page
 
 ##### Reporting Project Health
 

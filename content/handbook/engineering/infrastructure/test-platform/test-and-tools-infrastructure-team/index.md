@@ -60,7 +60,7 @@ graph LR
 
 ## Current Roadmap and OKR
 
-Every quarter, the team reviews its Roadmap and [Objectives and Key Results (OKRs)](https://handbook.gitlab.com/company/okrs/).
+Every quarter, the team reviews its Roadmap and [Objectives and Key Results (OKRs)](/company/okrs/).
 
 - [FY25 Roadmap - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2315)
 - [FY25 Q1 OKR - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2317#note_1730107488)

@@ -123,9 +123,9 @@ To create this content, **our team operates as both an editorial newsroom and in
 
 * Writing blog posts to support strategic needs
 
-* Writing [topic pages and subtopic pages](https://handbook.gitlab.com/topics/)
+* Writing [topic pages and subtopic pages](/topics/)
 
-* Writing and reviewing [customer case studies](https://handbook.gitlab.com/customers/), in collaboration with the [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)
+* Writing and reviewing [customer case studies](/customers/), in collaboration with the [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)
 
 * Reviewing content for web pages, emails, or other marketing assets
 
@@ -210,9 +210,9 @@ Any technical GitLab team member is welcome to write a whitepaper and collaborat
 
 **Examples:**
 
-1. [A seismic shift in application security](https://handbook.gitlab.com/resources/whitepaper-seismic-shift-application-security/)
+1. [A seismic shift in application security](/resources/whitepaper-seismic-shift-application-security/)
 
-2. [How to deploy on AWS from GitLab](https://handbook.gitlab.com/resources/whitepaper-deploy-aws-gitlab/)
+2. [How to deploy on AWS from GitLab](/resources/whitepaper-deploy-aws-gitlab/)
 
 #### Ebook
 
@@ -240,19 +240,19 @@ An infographic is an illustrated overview of a topic or process, and is typicall
 
 #### Topic page
 
-A topic page is a high-level explanatory “pillar” page dedicated to a specific topic, such as [version control](https://handbook.gitlab.com/topics/version-control/), [DevSecOps](https://handbook.gitlab.com/topics/devsecops/), or [continuous integration](https://handbook.gitlab.com/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](/handbook/marketing/blog/)).
+A topic page is a high-level explanatory “pillar” page dedicated to a specific topic, such as [version control](/topics/version-control/), [DevSecOps](/topics/devsecops/), or [continuous integration](/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](/handbook/marketing/blog/)).
 
 **Examples:**
 
 1. [What is CI/CD?](https://about.gitlab.com/topics/ci-cd/)
 
-2. [What is developer-first security?](https://handbook.gitlab.com/topics/devsecops/what-is-developer-first-security/)
+2. [What is developer-first security?](/topics/devsecops/what-is-developer-first-security/)
 
 #### Case study
 
 Case studies are in-depth customer stories that provide insight as to how GitLab has resolved significant software workflow problems for a company. The case study tells the story using quotes from customer interviews and straightforward metrics that broadly show the impact of adopting GitLab.
 
-[Case studies](https://handbook.gitlab.com/customers/) are created in partnership with the customer reference team. The customer reference team has a process in place for how they add new references and provide a list of [customer value drivers](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#command-of-message-questions). Customer case studies are typically written by the Content Strategy & Ops team, but the case study development process is managed by the Customer Advocacy team. If you have an idea for a new case study, please contact the [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/).
+[Case studies](/customers/) are created in partnership with the customer reference team. The customer reference team has a process in place for how they add new references and provide a list of [customer value drivers](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#command-of-message-questions). Customer case studies are typically written by the Content Strategy & Ops team, but the case study development process is managed by the Customer Advocacy team. If you have an idea for a new case study, please contact the [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/).
 
 **Examples:**
 

@@ -39,7 +39,7 @@ The GitLab design project is primarily used by the Product Design team to docume
 
 - [UX Team](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5)
 - [UX Scorecards](https://www.youtube.com/playlist?list=PL05JrBw4t0KrDmSVDZfwW0jxOQyl1wW9G)
-- [UX Showcases](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
+- [UX Forum](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
 - [GitLab Design Talks - Iteration](https://youtube.com/playlist?list=PL05JrBw4t0KpgzLWbRCXf8o7iap-uoe7o)
 - [GitLab Design Talks - Collaboration](https://www.youtube.com/playlist?list=PL05JrBw4t0KrER807JktsL-addVZa4N0-)
 - [GitLab Design Talks - Design Leadership & Career Development](https://youtube.com/playlist?list=PL05JrBw4t0KqmiCAEF-Bb7VD4YWUuA_Nf)

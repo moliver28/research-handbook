@@ -54,4 +54,4 @@ Candidates for this position can expect the hiring process to follow the order b
 - Finally, candidates will interview with Chairman of the Audit Committee.
 - Successful candidates will subsequently be made an offer via email.
 
-Additional details about our process can be found on our [hiring pag](https://handbook.gitlab.com/handbook/hiring/interviewing/).
+Additional details about our process can be found on our [hiring pag](/handbook/hiring/interviewing/).

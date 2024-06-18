@@ -49,7 +49,7 @@ The [pay date](https://internal.gitlab.com/handbook/finance/payroll/#pay-dates) 
 
 ### Payslip Access
 
-All team members can access their payslips though Papaya SSO available as a tile in OKTA. Access will be activated with the first payslip. For any payslip access or general payroll issues please contact payroll in HelpLab by following the [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
+All team members can access their payslips though Papaya SSO available as a tile in OKTA. Access will be activated with the first payslip. For any payslip access or general payroll issues please contact payroll in HelpLab by following the [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
 
 ## Timekeeping Policies
 

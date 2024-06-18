@@ -121,7 +121,7 @@ Follow the [development guidelines for Ruby gems](https://docs.gitlab.com/ee/dev
 
 ## Get involved with the wider community
 
-- Become a [Merge Request Coach](https://handbook.gitlab.com/job-families/expert/merge-request-coach/)
+- Become a [Merge Request Coach](/job-families/expert/merge-request-coach/)
 - Join the [Community Discord](https://discord.gg/gitlab)
 - Encourage teams to host [Community Office Hours](/handbook/marketing/developer-relations/contributor-success/#community-office-hours)
 - Reach out to the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success) on Slack in `#contributor-success`

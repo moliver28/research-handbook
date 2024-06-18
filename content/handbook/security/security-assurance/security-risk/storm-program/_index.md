@@ -175,7 +175,7 @@ For each risk identified, a formal risk response decision is made to determine h
 
 | RESPONSE<br>OPTION  | DEFINITION |
 | :-----------------: | ------------------------------------------- |
-| Monitor (do nothing) | The risk score falls within our [risk tolerance levels](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/#translating-gitlabs-security-risk-appetite-to-risk-tolerance) and no additional actions are required at this time. Risks that have been treated, resulting in a risk score that is within the risk tolerance level will be given the status of Monitor within our GRC system. |
+| Monitor (do nothing) | The risk score falls within our [risk tolerance levels](/handbook/security/security-assurance/security-risk/storm-program/#translating-gitlabs-security-risk-appetite-to-risk-tolerance) and no additional actions are required at this time. Risks that have been treated, resulting in a risk score that is within the risk tolerance level will be given the status of Monitor within our GRC system. |
 | Remediate the Risk   | The risk is not within our risk tolerance. Complete a risk remediation plan to remediate the risk through: Sharing the risk (identify and implement solutions to share the risk with other parties), Reducing the likelihood of occurrence, and/or Reducing the level of impact to GitLab |
 | Accept the Risk | The risk is not within our risk tolerance. Accept or take the risk without executing a remediation plan because the cost to pursue remediation is higher than the potential benefit. |
 

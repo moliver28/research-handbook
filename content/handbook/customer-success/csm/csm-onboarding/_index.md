@@ -90,16 +90,16 @@ A great resource to learn how to engage with GitLab product is [available in the
 
 Collection of key handbook pages for CSMs to read and focus on when onboarding in their first 3 months
 
-- [CSM Onboarding at GitLab](https://handbook.gitlab.com/handbook/customer-success/csm/csm-onboarding/)
-- [Responsibilities and Services of a CSM at GitLab](https://handbook.gitlab.com/handbook/customer-success/csm/services/#responsibilities-and-services)
-- [Using Gainsight](https://handbook.gitlab.com/handbook/customer-success/csm/gainsight/)
-- [Searching GitLab like a pro](https://handbook.gitlab.com/handbook/tools-and-tips/searching/)
-- [Answer client questions](https://handbook.gitlab.com/handbook/customer-success/csm/researching-customer-questions/)
-- [Process for CSM lead account escalations](https://handbook.gitlab.com/handbook/customer-success/csm/escalations/)
-- [STAR - Process for managing support tickets that, due to the situation that is critical for the customer’s business, require our attention](https://handbook.gitlab.com/handbook/support/internal-support/support-ticket-attention-requests/)
-- [Process for CSM to CSM Account Handoff](https://handbook.gitlab.com/handbook/customer-success/csm/account-handoff/)
-- [Available development paths and resources for Customer Success Managers at GitLab](https://handbook.gitlab.com/handbook/customer-success/csm/csm-development/)
-- [DevOps - Foundations Learning](https://handbook.gitlab.com/handbook/customer-success/csm/csm-development/#devops)
+- [CSM Onboarding at GitLab](/handbook/customer-success/csm/csm-onboarding/)
+- [Responsibilities and Services of a CSM at GitLab](/handbook/customer-success/csm/services/#responsibilities-and-services)
+- [Using Gainsight](/handbook/customer-success/csm/gainsight/)
+- [Searching GitLab like a pro](/handbook/tools-and-tips/searching/)
+- [Answer client questions](/handbook/customer-success/csm/researching-customer-questions/)
+- [Process for CSM lead account escalations](/handbook/customer-success/csm/escalations/)
+- [STAR - Process for managing support tickets that, due to the situation that is critical for the customer’s business, require our attention](/handbook/support/internal-support/support-ticket-attention-requests/)
+- [Process for CSM to CSM Account Handoff](/handbook/customer-success/csm/account-handoff/)
+- [Available development paths and resources for Customer Success Managers at GitLab](/handbook/customer-success/csm/csm-development/)
+- [DevOps - Foundations Learning](/handbook/customer-success/csm/csm-development/#devops)
 
 ### Product Knowledge
 
@@ -122,13 +122,13 @@ Collection of initial set of key product links, which will help in the first 4-6
   - [**SCM**](https://docs.gitlab.com/ee/user/get_started/get_started_managing_code.html)
 - **GitLab Product**
   - [Pricing](https://about.gitlab.com/pricing/)
-  - [Find responsible SLACK Channel and Team for GitLab features](https://handbook.gitlab.com/handbook/product/categories/#devops-stages)
-  - Stages - Separation inside the product - [Aligned to DevOps](https://handbook.gitlab.com/handbook/product/categories/#devops-stages)
+  - [Find responsible SLACK Channel and Team for GitLab features](/handbook/product/categories/#devops-stages)
+  - Stages - Separation inside the product - [Aligned to DevOps](/handbook/product/categories/#devops-stages)
     - https://handbook.gitlab.com/handbook/product/categories/#hierarchy
 
 ## GitLab Certifications
 
-At the moment (Feb. 2023) there are 6 [GitLab Technical Certifications - Self-Paced Options](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/). All of those are relevant and great learning material for CSMs at GitLab.
+At the moment (Feb. 2023) there are 6 [GitLab Technical Certifications - Self-Paced Options](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/). All of those are relevant and great learning material for CSMs at GitLab.
 The [Customer Success Manager Onboarding Pathway](https://university.gitlab.com/learn/learning-path/technical-account-manager-tam-onboarding) includes the GitLab Certified [Git Associate](https://university.gitlab.com/learning-paths/certified-git-associate-learning-path), [CI/CD Associate](https://university.gitlab.com/learning-paths/certified-ci-cd-specialist-learning-path), [Project Management Associate](https://university.gitlab.com/learning-paths/gitlab-project-management-associate-learning-path) and [Security Specialist](https://university.gitlab.com/learning-paths/certified-security-specialist-learning-path) learning paths.
 So if you are planning on doing **all 4** of those, start directly with the **CSM Onboarding Pathway**.
 

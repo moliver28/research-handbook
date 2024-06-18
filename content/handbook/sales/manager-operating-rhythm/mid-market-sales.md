@@ -16,11 +16,11 @@ The below detail offers additional guidance on how responsibilities and activiti
 
 ## Quick links
 
-- [**Commercial Sales handbook page**](https://handbook.gitlab.com/handbook/sales/commercial/#welcome-to-the-commercial-sales-handbook): This page is the home base for Commercial Sales and includes links to our content hub [Highspot](https://gitlab.highspot.com/spots/6335790e985c4ea48cb01588), training hub, slack channels, tools, strategy and planning resources. It also includes all resources for our Commercial Accounts Executives (AEs).
+- [**Commercial Sales handbook page**](/handbook/sales/commercial/#welcome-to-the-commercial-sales-handbook): This page is the home base for Commercial Sales and includes links to our content hub [Highspot](https://gitlab.highspot.com/spots/6335790e985c4ea48cb01588), training hub, slack channels, tools, strategy and planning resources. It also includes all resources for our Commercial Accounts Executives (AEs).
 - [**Commercial Sales update ticker**](https://baton.fyi/r/#/ufEIX672CN3F/pm2P2oOenrFu): This is updated weekly based on focus areas and key topics for the week. Bookmark it and consistently point your team back to it.
 - [**Sales handbook page**](/handbook/sales/#welcome-to-the-sales-team-homepage): This page has general sales guidance applicable to all roles and segments, including deal and order processing information, customer reference resources, executive sponsorship, and more.
 - [**Global Area Sales Operating playbook**](https://docs.google.com/presentation/d/1HmzgSsau959CSZxEOoXCHdFS9h6a0vvvtDMVsFX57yo/edit#slide=id.g2cc694d6ee3_0_649): A set of slides showing the typical operating rhythm that area sales managers use to run their business, manage their teams, and get results. It also includes key reports and dashboards to help you.
-- [**Commercial Account Executive onboarding journey**](https://handbook.gitlab.com/handbook/sales/commercial/enablement/): An at-a-glance view of your team member’s first 90 days, and the milestones they should reach during this time.
+- [**Commercial Account Executive onboarding journey**](/handbook/sales/commercial/enablement/): An at-a-glance view of your team member’s first 90 days, and the milestones they should reach during this time.
 
 ## Strategic sales planning
 
@@ -141,7 +141,7 @@ ASMs should focus on providing coaching and mentoring in a collaborative and pro
 
 ASMs routinely participate in sales calls with their new AEs or with AEs working on extremely complex, strategic, or high-impact deals including:
 
-- Helping with meeting prep (see [Develop a Pre-Call Plan](https://handbook.gitlab.com/handbook/sales/playbook/discovery/#develop-a-pre-call-plan))
+- Helping with meeting prep (see [Develop a Pre-Call Plan](/handbook/sales/playbook/discovery/#develop-a-pre-call-plan))
 - Participating on the call
 - Debriefing immediately after the call
 

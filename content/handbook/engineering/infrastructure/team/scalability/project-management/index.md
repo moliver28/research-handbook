@@ -29,7 +29,7 @@ The owner needs to:
 
 ## Project Workflow
 
-[Workflow labels](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#workflow-labels) for issues also apply to epics.
+[Workflow labels](/handbook/engineering/infrastructure/platforms/project-management/#workflow-labels) for issues also apply to epics.
 
 ### Preparation
 
@@ -114,7 +114,7 @@ For an epic to be ready, the following information must be present on the epic:
 2. Participants (only required when in 'Next' section)
 3. Context - why are we working on this (problem, background)
 4. Goals or Impact - what do we expect this project to accomplish
-5. [Dependencies and Stakeholders](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) - who is relying on this work, who should be informed, who should be consulted
+5. [Dependencies and Stakeholders](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) - who is relying on this work, who should be informed, who should be consulted
 6. Phases of Delivery
 7. Project Management Arrangements - expectations of the DRI, EM and Participants, and specific status reporting requirements, if sub-epics or milestones are to be used
 8. Status block - should be the final heading in the description with the format `### Status yyyy-mm-dd`.
@@ -174,7 +174,7 @@ The start and target date should be set, the DRI assigned, and the participants 
 
 ### Completed
 
-When the project is complete, follow the instructions on the [SaaS Plaforms project management page](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#when-a-project-is-finished).
+When the project is complete, follow the instructions on the [SaaS Plaforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#when-a-project-is-finished).
 
 When the epic is closed, it can remain associated to the top-level epic. When we have too many epics associated, or when the end-of-year summary is produced, these epics are moved to the "Completed in Year xxx" epics, of which [this](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1266) is an example.
 

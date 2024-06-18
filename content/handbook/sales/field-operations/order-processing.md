@@ -791,13 +791,13 @@ The following is intended as a guide for quote approvers who receive approval re
 
 #### Where do I approve?
 
-Quote Approval requests will originate from one of two sources: [The quote](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval), or [Salesforce Chatter](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#how-to-request-quote-approval-via-chatter).
+Quote Approval requests will originate from one of two sources: [The quote](/handbook/sales/field-operations/order-processing/#standard-quote-approval), or [Salesforce Chatter](/handbook/sales/field-operations/order-processing/#how-to-request-quote-approval-via-chatter).
 
 If the request originates from the quote, you will receive an email alert and a Slack alert. If the request originates from SFDC Chatter, you will receive an email alert. Click [here](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.1p0vwiqmoq15) to learn more about which requests should go through the quote vs. SFDC Chatter. In FY25 we will move away from SFDC Chatter entirely, routing all approvals through the quote.
 
 #### Approval Requests Submitted via Quote "Submit for Approval" Button
 
-Approval requests submitted via [this process](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval) can be approved one of three ways: (1) via email alert, (2) via Slack alert, or (3) directly in Salesforce.
+Approval requests submitted via [this process](/handbook/sales/field-operations/order-processing/#standard-quote-approval) can be approved one of three ways: (1) via email alert, (2) via Slack alert, or (3) directly in Salesforce.
 
 Once a user submits a quote for approval, it will follow the order of approvers as stated on the quote and in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit). You will be notified by an email and a Slack alert, both of which contain information about the request, and a link to the quote.
 

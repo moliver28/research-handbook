@@ -85,7 +85,7 @@ DRI: CSM/A the customer is transferring to
 
 **How to handle overrides**
 
-At Gitlab, we value [Collaboration](https://handbook.gitlab.com/handbook/values/#collaboration). The stance we take as far as making sure Salesforce Opportunities are attributed to the right compensation pools is that we lean in on that value and work together to ensure the right pool is being compensated for the opportunities that close shortly after a transfer is made. The managers associated with the compensation pools involved are responsible for agreeing which opportunities may need an override of the compensation pool that was stamped at the time of close. In the case of a disagreement, the Geo’s senior leader should make the final decision. **If an agreement results in a need for an override, the CSM/E Manager should chatter @sales-comp on the opportunity that needs the override.**
+At Gitlab, we value [Collaboration](/handbook/values/#collaboration). The stance we take as far as making sure Salesforce Opportunities are attributed to the right compensation pools is that we lean in on that value and work together to ensure the right pool is being compensated for the opportunities that close shortly after a transfer is made. The managers associated with the compensation pools involved are responsible for agreeing which opportunities may need an override of the compensation pool that was stamped at the time of close. In the case of a disagreement, the Geo’s senior leader should make the final decision. **If an agreement results in a need for an override, the CSM/E Manager should chatter @sales-comp on the opportunity that needs the override.**
 
 ## Topics to Cover
 

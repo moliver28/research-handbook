@@ -14,19 +14,19 @@ For more information about the Zendesk fields that are editable via the support-
 
 ### Display name
 
-By default, your display name in Zendesk will be `Firstname Lastname`.  You can choose to personalize your display name that appears in your ticket replies and in your signature, by setting up an alias.  
+By default, your display name in Zendesk will be `Firstname Lastname`.  You can choose to personalize your display name that appears in your ticket replies and in your signature, by setting up an alias.
 
 To change your display name to use an alias:
 
 1. Edit your [support-team.yaml](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/agents/) page.
 2. Find the section for the instace of Zendesk you want to update (`main` for Global or `us-federal` for US Government).
-3. Update the `alias` line to the name you would like to use as an alias.  
+3. Update the `alias` line to the name you would like to use as an alias.
 
 Be aware that there are other ways that your name may be displayed to customers that you also might want to consider, for example:
 
-* Your Zoom [display name](https://handbook.gitlab.com/handbook/support/#zoom-name-format),
+* Your Zoom [display name](/handbook/support/#zoom-name-format),
 * Calendly [Personal Link](https://calendly.com/app/personal/link) URLs,
-* GitLab [username](https://handbook.gitlab.com/handbook/tools-and-tips/#change-your-username-at-gitlabcom).
+* GitLab [username](/handbook/tools-and-tips/#change-your-username-at-gitlabcom).
 
 ### GitLab handle displayed in your Zendesk signature
 

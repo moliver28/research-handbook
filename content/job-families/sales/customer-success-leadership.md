@@ -100,7 +100,7 @@ The Vice President of Customer Success is a job grade [level 12](/handbook/total
 
 ##### Vice President of Customer Success Performance Indicators
 
-- Extends the Customer Success KPIs articulated [here](https://handbook.gitlab.com/job-families/sales/customer-success-management/#performance-indicators)
+- Extends the Customer Success KPIs articulated [here](/job-families/sales/customer-success-management/#performance-indicators)
 - Gross and net retention
 - Customer metrics (onboarding, time-to-first value, use case and platform adoption, use case expansion, sentiment measured by NPS, CSAT, or surveys)
 
@@ -126,7 +126,7 @@ In addition to the corresponding Customer Success Leadership level requirements:
 
 ## Career Ladder
 
-Team members in the Customer Success Leadership job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Professional Services or Solutions Architect.  
+Team members in the Customer Success Leadership job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Professional Services or Solutions Architect.
 
 ## Hiring Process
 

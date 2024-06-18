@@ -47,7 +47,7 @@ If the answer to any of these questions is 'no', then the issue should be moved 
 
 ### Issue Estimation
 
-This system should be used when estimating tasks, *inspired* by the Foundations team's [weighting system](https://handbook.gitlab.com/handbook/engineering/development/dev/manage/foundations/#how-we-weight-issues).
+This system should be used when estimating tasks, *inspired* by the Foundations team's [weighting system](/handbook/engineering/development/dev/manage/foundations/#how-we-weight-issues).
 
 - **0 - Little to no effort is required** Something that would be quicker to do than it was to create the issue.
 - **1 - Extra small**  The engineers feel they understand most requirements and consider it relatively easy, probably the smallest item in the milestone and mostly likely completed in one day.

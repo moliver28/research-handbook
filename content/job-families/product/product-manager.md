@@ -116,7 +116,7 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 ## Career paths
 
-The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](https://handbook.gitlab.com/handbook/product/product-manager-role/product-cdf-competencies/).
+The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](/handbook/product/product-manager-role/product-cdf-competencies/).
 
 ### Intermediate Product Manager
 

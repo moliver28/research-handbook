@@ -209,7 +209,7 @@ When beginning work to implement custom tooling into the product, we take the fo
 
 As we begin to build context on the tool, as part of our planning phase we will:
 
-- Create and document an appropriately sized [Architecture Design Workflow](https://handbook.gitlab.com/handbook/engineering/architecture/workflow/) for the tool, if one does not yet exist
+- Create and document an appropriately sized [Architecture Design Workflow](/handbook/engineering/architecture/workflow/) for the tool, if one does not yet exist
 - Identify and create an epic for each piece of discrete functionality or required component
   - Make these epics children of the tooling integration epic
   - Be sure each of these have the `~ProdSecEngMetric::Tooling Integration` label

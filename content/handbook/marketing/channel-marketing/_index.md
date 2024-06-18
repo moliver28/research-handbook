@@ -518,7 +518,7 @@ This process requires the following platforms: Allocadia, Marketo, Salesforce, T
 
 1. Allocadia - Create the subcategory and line item in Allocadia.
    1. [Create Sales Dev - Partner Campaign Alignment issue (automated when Worked by Sales Dev = True)](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads) to communicate how the Sales Dev team is expected to follow up with the campaign.
-2. Marketo - Clone the appropriate [FM Marketo template](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns). Follow the [instructions](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#types-of-partner-campaigns) to set up Marketo Program and SFDC Campaign.
+2. Marketo - Clone the appropriate [FM Marketo template](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns). Follow the [instructions](/handbook/marketing/channel-marketing/#types-of-partner-campaigns) to set up Marketo Program and SFDC Campaign.
    1. Add Allocadia Subcategory ID to Marketo Program/SFDC campaign description, then sync to Salesforce Campaign
 3. SFDC - Update Salesforce Campaign
    1. Mark Campaigns as High Priority
@@ -624,7 +624,7 @@ If a form isn't available to capture registration, follow these additional steps
 **Step 1: Setup in Marketo**
 
 1. Clone Marketo Template: [YYYYMMDD_ExternalWebcastVendorName_Topic_Region](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG5523A1)
-2. Update the Marketo tokens: {{my.Partner Name}} with Partner Name and {{my.CRM Partner ID}} with [Account ID (18)](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
+2. Update the Marketo tokens: {{my.Partner Name}} with Partner Name and {{my.CRM Partner ID}} with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
 
 **Step 2: Update SFDC Campaign**
 
@@ -651,10 +651,10 @@ Step 3: Export Leads from Salesforce
 2. Add Labra Leads to the spreadsheet.
 3. Add CRM Partner ID Column in Google Sheet.
    1. Notes, in the list upload, include the CRM Partner ID value in the spreadsheet column. If the lead is not associated with an Alliance partner, please leave the column blank.
-4. Follow the general [list import criteria and guidelines](https://handbook.gitlab.com/handbook/marketing/marketing-operations/automated-list-import/#data-cleaning-instructions) for the list import spreadsheet.
+4. Follow the general [list import criteria and guidelines](/handbook/marketing/marketing-operations/automated-list-import/#data-cleaning-instructions) for the list import spreadsheet.
    1. Ensure the Countries, States and the Program Member Statuses are an exact match to the picklist values.
    2. Leads should not be marked as `Opt-In`, unless they specifically opted into **GitLab** emails.
-5. Once the spreadsheet is completed, proceed with [self service list import](https://handbook.gitlab.com/handbook/marketing/marketing-operations/automated-list-import/) steps 3-6.
+5. Once the spreadsheet is completed, proceed with [self service list import](/handbook/marketing/marketing-operations/automated-list-import/) steps 3-6.
 
 ## List Import for Partner Leads
 

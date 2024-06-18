@@ -348,7 +348,7 @@ Best practices for managing multi-part bug issues:
 The entire bug resolution process includes the following phases in order:
 
 1. GitLab Issue triage procedure: we have a handbook section we can follow
-   [here](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+   [here](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
 
 2. Environment's team [refinement process](#issue-refinement)
 
@@ -366,11 +366,11 @@ The entire bug resolution process includes the following phases in order:
 - Reprioritazation will have a dedicated section in the milestone planning
   issue.
 - Outdated bugs are closed in accordance with [the existing handbook
-  practice](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#outdated-issues)
+  practice](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#outdated-issues)
 
 ###### Best practices
 
-- Read the issue triage [handbook page](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+- Read the issue triage [handbook page](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - Ask the reporter for detailed steps to reproduce the problem, including minimal setup and expected versus actual outputs.
 - Request relevant documentation to validate the unexpected behavior, or an explanation if no documentation exists.
 - If the reporter is a GitLab team member, inquire if there are any insights on the impact of the issue, such as the number of users affected or specific features involved, to help prioritize the resolution.

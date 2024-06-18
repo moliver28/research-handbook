@@ -59,7 +59,7 @@ After you complete Module 5, attend a pre-certification coaching session to prep
 
 The intention of this session is to allow space to practice and ask questions about what certification will look and feel like.
 
-In preparation for the pre-certification session, please review the [certification scoring rubric](https://docs.google.com/document/d/1gCHmc8lQPPaFYdaC4Xmd5xfLto2NdpdI2RvMfm0fVzI/edit), the [GROW coaching model](https://handbook.gitlab.com/handbook/leadership/coaching/#grow-model), and the [certification scenarios](https://docs.google.com/document/d/1mLjg_qQNv0Fz5PIsFYND3VbgskMOrVthVAlH3KiH-eI/edit).
+In preparation for the pre-certification session, please review the [certification scoring rubric](https://docs.google.com/document/d/1gCHmc8lQPPaFYdaC4Xmd5xfLto2NdpdI2RvMfm0fVzI/edit), the [GROW coaching model](/handbook/leadership/coaching/#grow-model), and the [certification scenarios](https://docs.google.com/document/d/1mLjg_qQNv0Fz5PIsFYND3VbgskMOrVthVAlH3KiH-eI/edit).
 
 During the session, you can expect the following:
 

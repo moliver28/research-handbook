@@ -78,7 +78,7 @@ As part of your SDR responsibilities, you are expected to perform due diligence 
 
 #### Telco and Finserv Routing
 
-For leads that connect to companies that operate in the Financial Services (AMER only) and Telecommunications (EMEA only) industries. We have a seperate routing process that supercedes all of our current [Rules of Engagement](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/#rules-of-engagement-roe).
+For leads that connect to companies that operate in the Financial Services (AMER only) and Telecommunications (EMEA only) industries. We have a seperate routing process that supercedes all of our current [Rules of Engagement](/handbook/marketing/sales-development/roe-kpis-faq/#rules-of-engagement-roe).
 
 Only named TELCO/FinServe accounts are rolling up to the TELCO/FinServe territories. If a new account is a subsidiary of an existing carved company, it will need to be assigned to the AE owning the ultimate account. If it is a totally separate entity then it can be allocated to the regional AE. If a lead comes in that is related to a TELCO/FinServe account, it must be assigned to the BDR assigned on the account.
 
@@ -249,7 +249,7 @@ For more personal events, such as Executive Roundtables, there many be more deta
 
 ### How to Change your Email Signature
 
-You must change your email signature [in Terminus](https://handbook.gitlab.com/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Outreach or Gmail your signature will revert back within 24 hours.
+You must change your email signature [in Terminus](/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Outreach or Gmail your signature will revert back within 24 hours.
 
 **Steps to change your signature**
 

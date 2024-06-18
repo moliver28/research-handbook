@@ -29,7 +29,7 @@ Initiatives driven within the Platforms section, often spanning multiple quarter
 
 Our main method of communication is Slack.
 
-If you need assistance with a production issue or incident, please see the section on [getting assistance](https://handbook.gitlab.com/handbook/engineering/infrastructure/#getting-assistance).
+If you need assistance with a production issue or incident, please see the section on [getting assistance](/handbook/engineering/infrastructure/#getting-assistance).
 
 **SaaS Platforms**
 

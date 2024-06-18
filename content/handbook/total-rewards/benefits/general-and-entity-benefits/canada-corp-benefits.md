@@ -86,7 +86,7 @@ Effective May 1, 2021 GitLab team members and their dependants enrolled in Canad
 
 **Beneficiary Designation**
 
-Team Members should designate a beneficiary for your Life Insurance Plan with Canada Life. [See instructions](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/#updating-beneficiary-information) on how to update your Beneficiary.
+Team Members should designate a beneficiary for your Life Insurance Plan with Canada Life. [See instructions](/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/#updating-beneficiary-information) on how to update your Beneficiary.
 
 It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible.
 

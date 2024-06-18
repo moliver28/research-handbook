@@ -25,11 +25,11 @@ Can't find what you're looking for? Try the main [People Operations page](/handb
 
 ## Employment Policies
 
-The [People Policies](https://handbook.gitlab.com/handbook/people-policies/) page of the Handbook serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable.
+The [People Policies](/handbook/people-policies/) page of the Handbook serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable.
 
 ## Legal Policies
 
-The [Legal Policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies) page of the Handbook serves as a directory of relevant policies.
+The [Legal Policies](/handbook/legal/#gitlab-policies) page of the Handbook serves as a directory of relevant policies.
 
 ## Timekeeping
 
@@ -107,7 +107,7 @@ GitLab does not plan to offer Private Health Insurance at this time because all 
 
 ### Annual Leave
 
-Team members in Israel may make use of [GitLab's Flexible PTO Policy](https://handbook.gitlab.com/handbook/paid-time-off/), as may be amended from time to time, in addition to their statutory vacation entitlements, which will accrue in accordance with local laws. Team members should check their individual employment contracts for the minimum number of vacation days to which they are entitled and note that team members are required to take at least five consecutive vacation days each year.
+Team members in Israel may make use of [GitLab's Flexible PTO Policy](/handbook/paid-time-off/), as may be amended from time to time, in addition to their statutory vacation entitlements, which will accrue in accordance with local laws. Team members should check their individual employment contracts for the minimum number of vacation days to which they are entitled and note that team members are required to take at least five consecutive vacation days each year.
 
 The accrual and use period for statutory vacation days is the calendar year, from 1 January 1 to 31 December, and any unused statutory vacation leave will be foreited if not used within the balance period.
 

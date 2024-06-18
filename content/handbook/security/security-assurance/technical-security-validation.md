@@ -1,6 +1,6 @@
 # Technical Security Validation (TSV)
 
-The Technical Security Validation (TSV) process is a partnership between GitLab's Security Risk and Security Research teams, designed to supplement [TPRM procedures](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/) performed during software procurement. While the TPRM process serves to validate the design and operating effectiveness of a company's internal controls, the TSV is leveraged to perform additional due diligence around high risk systems such as those associated to a [Security Notice](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process). These procedures align with Security's Post Implementation Checklist, which serves as an attestation from the Business Owner that appropriate controls have been established by GitLab to secure third party systems.
+The Technical Security Validation (TSV) process is a partnership between GitLab's Security Risk and Security Research teams, designed to supplement [TPRM procedures](/handbook/security/security-assurance/security-risk/third-party-risk-management/) performed during software procurement. While the TPRM process serves to validate the design and operating effectiveness of a company's internal controls, the TSV is leveraged to perform additional due diligence around high risk systems such as those associated to a [Security Notice](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process). These procedures align with Security's Post Implementation Checklist, which serves as an attestation from the Business Owner that appropriate controls have been established by GitLab to secure third party systems.
 
 The output of the TSV, such as conclusions on control deficiencies or opportunities for mitigation, are presented to the system's Business Owner to support informed purchasing decisions and completion of remedation steps where necessary.
 
@@ -8,7 +8,7 @@ The output of the TSV, such as conclusions on control deficiencies or opportunit
 
 A TSV is opened upon identification of control gaps or failures identified during a TPRM review in order to better understand their severity and to identify compensating controls where possible. Necessity of a TSV is determined based on the nature of deficiencies identified, data transmitted, and criticality of the system.
 
-Upon creation of the TSV, the Business Owner is required to provide necessary documentation, systems access, and support as requested within [the TSV issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/technical-security-validation/-/blob/master/.gitlab/issue_templates/TSV%20Intake%20Template.md?ref_type=heads). Once these items are reviewed by the TSV engineer, additional evidence or system access may be required to support these procedures. Provision of these items within a timely manner is critical to support this effort, and failure to to provide them in a timely manner may result in escalations as defined below.
+Upon creation of the TSV, the Business Owner is required to provide necessary documentation, systems access, and support as requested within [the TSV issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/technical-security-validation/-/blob/master/.gitlab/issue_templates/TSV%20Intake%20Template.md?ref_type=heads). Once these items are reviewed by the TSV engineer, additional evidence or system access may be required to support these procedures. Provision of these items within a timely manner is critical to support this effort, and failure to provide them in a timely manner may result in escalations as defined below.
 
 Once the TSV has been completed, the conclusion of the evaluation will be documented within the comments section of the TSV issue, with the Business Owner tagged. If adverse findings are identified, the Business Owner is responsible for acknowledging these findings and actioning them where possible. If no findings are identified, the issue will be closed and the Business Owner will be tagged for visibility.
 
@@ -41,7 +41,7 @@ The Security Risk Engineer opening the TSV is responsible for ensuring initial e
 
 ## Resources
 
-- [GitLab's Integrated Third Party Risk Management (TPRM) Program](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/) <br>
-- [Third Party Minimum Security Standards](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#third-party-minimum-security-standards) <br>
-- [GitLab's Security Research Team](https://handbook.gitlab.com/handbook/security/product-security/security-research/) <br>
+- [GitLab's Integrated Third Party Risk Management (TPRM) Program](/handbook/security/security-assurance/security-risk/third-party-risk-management/) <br>
+- [Third Party Minimum Security Standards](/handbook/security/security-assurance/security-risk/third-party-risk-management/#third-party-minimum-security-standards) <br>
+- [GitLab's Security Research Team](/handbook/security/product-security/security-research/) <br>
 - [TSV Project Workspace](https://gitlab.com/gitlab-com/gl-security/security-assurance/technical-security-validation)

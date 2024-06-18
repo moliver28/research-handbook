@@ -1,17 +1,6 @@
 ---
-
 title: "Merge Request Roles and Responsibilities"
 description: "GitLab Data Team MR responsibilities"
----
-
-
-
-
-
-
-
-
-
 ---
 
 ## <i class="fas fa-users fa-fw color-orange font-awesome" aria-hidden="true"></i>Merge Request Roles and Responsibilities
@@ -96,7 +85,7 @@ Every MR follows the applicable MR template. When a MR is ready for review, assi
 
 #### Merge Request approval requirements
 
-Because of quality and [security](https://handbook.gitlab.com/handbook/security/gitlab_projects_baseline_requirements/#mr-approval-rule-configurations) we require every MR to be approved before merged with multiple Team Members involved. By default the CODEOWNER file sets that an approval is needed and by who. But if a file or folder is not present in the CODEOWNER file a MR still can be merged without approval or without other Team Members involvement. To enforce the following 2 settings must be applied on each project within the [GitLab-Data Group](https://gitlab.com/gitlab-data/).
+Because of quality and [security](/handbook/security/gitlab_projects_baseline_requirements/#mr-approval-rule-configurations) we require every MR to be approved before merged with multiple Team Members involved. By default the CODEOWNER file sets that an approval is needed and by who. But if a file or folder is not present in the CODEOWNER file a MR still can be merged without approval or without other Team Members involvement. To enforce the following 2 settings must be applied on each project within the [GitLab-Data Group](https://gitlab.com/gitlab-data/).
 
 1. `Approvals required` = `1`
 [setting 1](/handbook/business-technology/data-team/how-we-work/sett1.png)

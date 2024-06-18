@@ -19,7 +19,7 @@ The goals of this page are to:
 
 ## Key Competencies
 
-Regardless of the team, our Program Management key competencies are consistent to ensure the function at its core remains aligned. While the job families remain the [SSOT](https://handbook.gitlab.com/teamops/shared-reality/#single-source-of-truth-ssot) for roles across GitLab, a few key competencies and behaviors to expect from all Program Managers within the People Group are:
+Regardless of the team, our Program Management key competencies are consistent to ensure the function at its core remains aligned. While the job families remain the [SSOT](/teamops/shared-reality/#single-source-of-truth-ssot) for roles across GitLab, a few key competencies and behaviors to expect from all Program Managers within the People Group are:
 
 | Key Competency | Behavior |
 | ------ | ------ |
@@ -31,7 +31,7 @@ Regardless of the team, our Program Management key competencies are consistent t
 | Strategic planning | Ensures work aligns with the division’s and organization’s overall goals. |
 | Program management methodologies | Research, discovery, and documentation of current state processes and workflow. Creates and maintains the project plan in collaboration with team members and helps identify, mitigate, and escalate risks and issues. |
 
-*Note: Company-wide competencies can be referenced [here](https://handbook.gitlab.com/handbook/competencies/) and company-wide job frameworks can be referenced [here](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618). The competencies outlined above are intended to complement these existing artifacts, not replace them.*
+*Note: Company-wide competencies can be referenced [here](/handbook/competencies/) and company-wide job frameworks can be referenced [here](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618). The competencies outlined above are intended to complement these existing artifacts, not replace them.*
 
 ## Roles
 
@@ -41,27 +41,27 @@ While the core competencies remain across all of the roles, we have separate job
 
 Role overviews, responsibilities, requirements, and performance indicators can be reviewed on the team-specific job family pages below.
 
-- [People Operations Program Manager](https://handbook.gitlab.com/job-families/people-group/people-operations-program-manager/)
+- [People Operations Program Manager](/job-families/people-group/people-operations-program-manager/)
   - Key Ongoing Programs: Quarterly intake and program management of HR systems, tools, and technologies (i.e. Workday)
-- [Global Workforce Strategy Program Manager](https://handbook.gitlab.com/job-families/people-group/global-workforce-strategy/#senior-global-workforce-strategy-program-manager)
+- [Global Workforce Strategy Program Manager](/job-families/people-group/global-workforce-strategy/#senior-global-workforce-strategy-program-manager)
   - Key Ongoing Programs: Own employment solution model across every country and PEO relationships
-- [People Compliance Program Manager](https://handbook.gitlab.com/job-families/people-group/people-compliance/)
-  - Key Ongoing Programs: Cross-functional programs that mitigate risk and drive success, People policy and labor-law related program iterations and implementations (US and EMEA)  
-- [Learning & Development Program Manager](https://handbook.gitlab.com/job-families/people-group/learning-development/)
+- [People Compliance Program Manager](/job-families/people-group/people-compliance/)
+  - Key Ongoing Programs: Cross-functional programs that mitigate risk and drive success, People policy and labor-law related program iterations and implementations (US and EMEA)
+- [Learning & Development Program Manager](/job-families/people-group/learning-development/)
   - Key Ongoing Programs: Growth & Development Fund, Elevate (Leadership Development experience), Mentorship Programs, etc.
-- [Talent Acquisition Enablement Program Manager](https://handbook.gitlab.com/job-families/people-group/talent-acquisition-enablement-ops/)
+- [Talent Acquisition Enablement Program Manager](/job-families/people-group/talent-acquisition-enablement-ops/)
   - Key Ongoing Programs: Talent Acquisition metrics and reporting, Interviewer training
   - Job Architecture: [Job Architecture for Talent Brand & Enablement Program Management job families](https://docs.google.com/spreadsheets/d/1kQPdeUEhIMoN0RtzcGlwf8jWCG2UzgDfKxBZmFhlMT4/edit#gid=1508763785)
-- [Talent Brand Program Manager](https://handbook.gitlab.com/job-families/people-group/talent-brand-and-talent-acquisition-enablement/#talent-brand)
+- [Talent Brand Program Manager](/job-families/people-group/talent-brand-and-talent-acquisition-enablement/#talent-brand)
   - Key Ongoing Programs: Talent Attraction content, Careers platform management, Talent Brand Events
   - Job Architecture: [Job Architecture for Talent Brand & Enablement Program Management job families](https://docs.google.com/spreadsheets/d/1kQPdeUEhIMoN0RtzcGlwf8jWCG2UzgDfKxBZmFhlMT4/edit#gid=1508763785)
-- [People Communications & Engagement Program Manager](https://handbook.gitlab.com/job-families/people-group/people-communications-engagement/)
+- [People Communications & Engagement Program Manager](/job-families/people-group/people-communications-engagement/)
   - Key Ongoing Programs: Onboarding, Engagement Survey, Values and DZ Awards
-- [Benefits Program Manager](https://handbook.gitlab.com/job-families/people-group/total-rewards/#senior-benefits-program-manager)
+- [Benefits Program Manager](/job-families/people-group/total-rewards/#senior-benefits-program-manager)
   - Key Ongoing Programs: Benefits Renewals and Open Enrollments for Entities, PEO to Entity enablement; Benefits Communication Strategy and Execution
-- [Compensation Program Manager](https://handbook.gitlab.com/job-families/people-group/total-rewards/#compensation-program-manager)
+- [Compensation Program Manager](/job-families/people-group/total-rewards/#compensation-program-manager)
   - Key Ongoing Programs: ACR, Job Architecture and Comp Calculator maintenance, CLDC meetings; Bonus program management in partnership with Finance; equity program management in partnership with Stock Admin
-- [People Business Partner Program Manager](https://handbook.gitlab.com/job-families/people-group/program-manager-people-business-partner/)
+- [People Business Partner Program Manager](/job-families/people-group/program-manager-people-business-partner/)
   - Key Ongoing Programs: Org design capability review, Realignments, Quarterly org health metrics, Division-specific programs that drive success
 
 ### Determining Drive

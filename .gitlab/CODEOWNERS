@@ -173,13 +173,13 @@
 /content/handbook/engineering/workflow/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
 
 ^[Eng-Infrastructure-Quality-department]
-/content/handbook/engineering/infrastructure-quality.md @marin @meks @cdeleon_gitlab @vincywilson
+/content/handbook/engineering/infrastructure-quality.md @marin @meks @vincywilson
 
 ^[Eng-Infrastructure-department]
 /content/handbook/engineering/careers/matrix/infrastructure @marin @kwanyangu @meks @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
-/content/handbook/engineering/infrastructure/ @cdu1 @cdeleon_gitlab @marin @meks @vincywilson
+/content/handbook/engineering/infrastructure/ @cdu1 @marin @meks @vincywilson
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/core-platform/ @cdu1
 /content/handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/ @rmar1
@@ -193,7 +193,7 @@
 /content/handbook/engineering/infrastructure/core-platform/systems/gitaly.md @andrashorvath @jcaigitlab
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @meks
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @kwanyangu @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @cdu1 @cdeleon_gitlab @marin @meks @vincywilson @rymai
+/content/handbook/engineering/infrastructure/performance-indicators.md @cdu1 @marin @meks @vincywilson @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
 /content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @meks
 /content/handbook/engineering/infrastructure/team/ @marin
@@ -215,7 +215,7 @@
 /content/handbook/engineering/infrastructure/test-platform/quad-planning/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
 /content/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/ @ksvoboda
 /content/handbook/engineering/infrastructure/test-platform/test-engineering-team/ @kkolpakova
-/content/handbook/engineering/quality/engineering-analytics.md @meks @cdeleon_gitlab @lmai1
+/content/handbook/engineering/quality/engineering-analytics.md @meks @lmai1
 
 ^[Eng-Incubation-department]
 /content/handbook/engineering/development/incubation/ @bmarnane
