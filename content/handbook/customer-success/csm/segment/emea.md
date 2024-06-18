@@ -16,7 +16,6 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 CSMs aligned with customers in EMEA can use this handbook page to help define their processes and approaches that are unique to their segment. 
 
-
 ### GitLab Duo / AI - Interaction with customers
 
 EMEA CSMs regular engage with customers and drive adoption of GitLab's AI and machine learning capabilities. This should include:
@@ -46,10 +45,3 @@ If you are reporting feedback related to one of our IDE extensions, for example 
 
 - VSCode: https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/issues/
 - JetBrains / Intellij: https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin/-/issues/
-
-
-Set Label to Label ist immer AI-powered sowie Data Science aus der Stage - https://handbook.gitlab.com/handbook/product/categories/features/#ai-powered
-
-
-
-
