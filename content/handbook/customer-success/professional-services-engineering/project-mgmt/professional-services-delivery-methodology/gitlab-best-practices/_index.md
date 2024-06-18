@@ -122,7 +122,7 @@ Scenarios in which the final approver might not merge an MR:
 * Approver doesn’t realize that they are the final approver.
 * Approver sets auto-merge but it is un-set by GitLab.
 
-If any of these scenarios occurs, an MR author may merge their own MR if it has all required approvals and they have merge rights to the repository. This is also in line with the GitLab [bias for action](https://handbook.gitlab.com/handbook/values/#bias-for-action) value.
+If any of these scenarios occurs, an MR author may merge their own MR if it has all required approvals and they have merge rights to the repository. This is also in line with the GitLab [bias for action](../../../../../values/_index.md#bias-for-action) value.
 
 This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](https://about.gitlab.com/handbook/security/change-management-policy.html).
 
