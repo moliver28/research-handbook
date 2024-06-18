@@ -8,6 +8,12 @@ This page is intended to help everyone to understand how I work, how to find me,
 
 Please feel free to contribute to this page by opening a merge request.
 
+## About me
+
+Grown up in Linz, Austria, I wanted to understand how a computer works in school. A 486 PC turbo-boost button that was not enabled by default inspired me to study Hardware/Software Systems Engineering, leading to circuit design, hardware and software programming languages, and more adventures with NFC and multimedia streaming in 2005. A student's dorm network project in Vienna, Austria, allowed me to dive into spanning trees (and loops!) and routing, which I expanded on with DNS and monitoring at the University of Vienna, Computer Center. Maintaining an open-source monitoring project for 11 years required me to understand how the software is used in production. CVEs raised awareness about security scanning. I therefore engaged with global events and community meetups to learn and understand the roles in modern DevSecOps and cloud-native workflows. My passion for open-source communities also inspired me to move to Nuremberg, Germany, in 2012, where I live today in the countryside. In March 2020, I started my all-remote adventure at GitLab.
+
+Outside of work, you'll find me building LEGO models, combining embedded hardware with home automation, exploring nature, and travelling. You can learn more on my personal website: https://dnsmichi.at/about/
+
 ## My work values
 
 I follow [GitLab's values](https://handbook.gitlab.com/handbook/values/) and specifically embrace these:
@@ -32,7 +38,26 @@ I follow [GitLab's values](https://handbook.gitlab.com/handbook/values/) and spe
 
 I bring my authentic-self to work every day -- can you spot all easter eggs in [my remote workspace](https://dnsmichi.at/all-remote-workspace/)?
 
-## Availability and communication preferences
+## Strengths and weaknesses
+
+### Strengths
+
+- **I'm a fast learner.** I'm always eager to expand my knowledge and skills, whether it's learning a new programming language, framework, or technology. I enjoy tackling challenges and finding creative solutions.
+- **I'm adaptable.** I'm comfortable working in various environments and can quickly adjust to changing priorities or requirements. I'm able to pivot and find new ways to contribute when needed.
+- **I document everything.** Depending on the scope, a [handbook merge request](https://gitlab.com/groups/gitlab-com/content-sites/-/merge_requests?scope=all&state=all&author_username=dnsmichi) or GitLab issue is never far away. You can help me with your bias for action, and also assign handbook merge requests for review.
+- **I love connecting everyone.** I'm not shy to engage in important discussions to help achieve company goals or contribute to cross-functional work, often in [key Slack channels](https://handbook.gitlab.com/handbook/communication/chat/#key-slack-channels), epics, working groups, cross-functional initiatives, or monthly field syncs.
+- **I'm a team player and prioritize helping others achieve their results.** I take the time to unblock processes and results (content reviews, feature and setup debugging, etc.) or contribute ideas to iterate faster.
+- **I have a broad knowledge base.** [My career](https://dnsmichi.at/about/) has touched on many different technical topics and open-source collaboration. I'm here to share my knowledge and help you advance your knowledge, goals and career.
+
+### Weaknesses
+
+- **I'm passionate about my work, and sometimes push my opinion.** When I think that my solution has the most impact for the business, I push for it, even though I am not the DRI (Directly Responsible Individual). I can also be [direct](https://handbook.gitlab.com/handbook/values/#directness), which can come across as overbearing at times. I am working on being more mindful of this and balancing my passion with consideration for others' perspectives.
+- **I say yes too often.** I'm constantly challenged with many requests and my own ideas, and I sometimes overload myself with tasks and need to reprioritize. The printed [Eisenhower Matrix](https://slab.com/blog/eisenhower-matrix/) on my desk helps me `do, schedule, delegate, or delete` tasks. I might forget about requests that are not tracked in an issue with a due date and a to-do assignment (Google Docs, Slack, Email). Please be proactive and create [Developer Advocacy requests](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#want-to-work-with-the-team) and assign them to me.
+- **My native language is German, not English, sometimes leading to misunderstandings.** I have a vocabulary weakness for day-to-day items (e.g., kitchen and food). I'm learning through coffee chats, social conversations, and using Grammarly to improve my English. For example, when I share a tip to `make you more efficient`, it does not mean that you are not efficient. Instead, I am always looking for ways to help others benefit from my discovered efficiency tips, and need to word it differently.
+- **I'm not good at email communication.** If I should follow up on an external email conversation, you might have to remind me to do so, or create a tracking issue.
+- **I occasionally fall into old habits and aim for perfection and completeness.** Minimal viable changes, boring solutions, and [iteration](https://handbook.gitlab.com/handbook/values/#iteration) are challenging sometimes. If you see me writing a long tutorial blog post or a capture-everything issue, please jump in and remind me to break down the tasks.
+
+## Working with me
 
 - I prefer asynchronous written communication over synchronous calls.
   - GitLab issues, merge requests, and forum topics are preferred over Slack or Discord.
@@ -64,26 +89,7 @@ My private mobile number is in my Slack profile. Please do not share it with any
 
 I do not have Slack installed on my mobile unless I am traveling for events. If an incident is urgent, text me on my private mobile.
 
-## Strengths and weaknesses
-
-### Strengths
-
-- **I'm a fast learner.** I'm always eager to expand my knowledge and skills, whether it's learning a new programming language, framework, or technology. I enjoy tackling challenges and finding creative solutions.
-- **I'm adaptable.** I'm comfortable working in various environments and can quickly adjust to changing priorities or requirements. I'm able to pivot and find new ways to contribute when needed.
-- **I document everything.** Depending on the scope, a [handbook merge request](https://gitlab.com/groups/gitlab-com/content-sites/-/merge_requests?scope=all&state=all&author_username=dnsmichi) or GitLab issue is never far away. You can help me with your bias for action, and also assign handbook merge requests for review.
-- **I love connecting everyone.** I'm not shy to engage in important discussions to help achieve company goals or contribute to cross-functional work, often in [key Slack channels](https://handbook.gitlab.com/handbook/communication/chat/#key-slack-channels), epics, working groups, cross-functional initiatives, or monthly field syncs.
-- **I'm a team player and prioritize helping others achieve their results.** I take the time to unblock processes and results (content reviews, feature and setup debugging, etc.) or contribute ideas to iterate faster.
-- **I have a broad knowledge base.** [My career](https://dnsmichi.at/about/) has touched on many different technical topics and open-source collaboration. I'm here to share my knowledge and help you advance your knowledge, goals and career.
-
-### Weaknesses
-
-- **I'm passionate about my work, and sometimes push my opinion.** When I think that my solution has the most impact for the business, I push for it, even though I am not the DRI (Directly Responsible Individual). I can also be [direct](https://handbook.gitlab.com/handbook/values/#directness), which can come across as overbearing at times. I am working on being more mindful of this and balancing my passion with consideration for others' perspectives.
-- **I say yes too often.** I'm constantly challenged with many requests and my own ideas, and I sometimes overload myself with tasks and need to reprioritize. The printed [Eisenhower Matrix](https://slab.com/blog/eisenhower-matrix/) on my desk helps me `do, schedule, delegate, or delete` tasks. I might forget about requests that are not tracked in an issue with a due date and a to-do assignment (Google Docs, Slack, Email). Please be proactive and create [Developer Advocacy requests](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#want-to-work-with-the-team) and assign them to me.
-- **My native language is German, not English, sometimes leading to misunderstandings.** I have a vocabulary weakness for day-to-day items (e.g., kitchen and food). I'm learning through coffee chats, social conversations, and using Grammarly to improve my English. For example, when I share a tip to `make you more efficient`, it does not mean that you are not efficient. Instead, I am always looking for ways to help others benefit from my discovered efficiency tips, and need to word it differently.
-- **I'm not good at email communication.** If I should follow up on an external email conversation, you might have to remind me to do so, or create a tracking issue.
-- **I occasionally fall into old habits and aim for perfection and completeness.** Minimal viable changes, boring solutions, and [iteration](https://handbook.gitlab.com/handbook/values/#iteration) are challenging sometimes. If you see me writing a long tutorial blog post or a capture-everything issue, please jump in and remind me to break down the tasks.
-
-## Expertise
+### Experience and engagements
 
 In [my career](https://www.linkedin.com/in/dnsmichi/#experience), I studied hardware/software engineering, debugged networks, hardware packet filters and DNS, and learned how services behave differently on Linux, Unix and Windows. I enjoy debugging and troubleshooting in production - therefore I run cloud VMs, containers, Kubernetes, Raspberry Pi, Arduino boards to keep me in practice, learning and building in public. Depending on the audience, I create [GitLab blog posts](https://about.gitlab.com/blog/authors/dnsmichi/) or write about it on my [personal blog](https://dnsmichi.at).
 
@@ -99,17 +105,13 @@ My role as Developer Advocate enables me to take different hats: provide product
 
 I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and connections with everyone. I'm active in the [Global Voices TMRG](https://handbook.gitlab.com/handbook/company/culture/inclusion/tmrg-global-voices/), and I'm an ally, for example, by supporting underrepresented groups in my [mentoring and coaching activities](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/mentoring-coaching/).
 
-## About me
-
-Grown up in Linz, Austria, I wanted to understand how a computer works in school. A 486 PC turbo-boost button that was not enabled by default inspired me to study Hardware/Software Systems Engineering, leading to circuit design, hardware and software programming languages, and more adventures with NFC and multimedia streaming in 2005. A student's dorm network project in Vienna, Austria, allowed me to dive into spanning trees (and loops!) and routing, which I expanded on with DNS and monitoring at the University of Vienna, Computer Center. Maintaining an open-source monitoring project for 11 years required me to understand how the software is used in production. CVEs raised awareness about security scanning. I therefore engaged with global events and community meetups to learn and understand the roles in modern DevSecOps and cloud-native workflows. My passion for open-source communities also inspired me to move to Nuremberg, Germany, in 2012, where I live today in the countryside. In March 2020, I started my all-remote adventure at GitLab.
-
-Outside of work, you'll find me building LEGO models, combining embedded hardware with home automation, exploring nature, and travelling. You can learn more on my personal website: https://dnsmichi.at/about/
+## Resources
 
 ### Biography and headshots
 
 I have a detailed biography and CV available in different text lengths and languages, as well as professional headshot photos. You can find these resources in [this public document](https://docs.google.com/document/d/1UZVKbMgB-3dvOdahxpvSm94KBP6vu4fAHex937hlzQQ/edit#heading=h.2eg84apkwfv7).
 
-### Other resources
+### All-remote experience
 
 1. [Work setup](https://gitlab.com/dnsmichi/dotfiles)
 1. [GitLab profile](https://gitlab.com/dnsmichi)
