@@ -14,8 +14,8 @@ For more information about various uses of Jira Please check out the [Get starte
 
 #### Steps
 
-1. Create an basic server instance from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
-1. Optional: [Install Java](https://confluence.atlassian.com/adminjiraserver/installing-java-938846828.html) if installing Jira via zip or archive file. The Linux installer will do this automatically
+1. Create a server from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Using the [basic server](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/examples/basic-server.tf?ref_type=heads) will ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
+1. Optional: [Install Java](https://confluence.atlassian.com/adminjiraserver/installing-java-938846828.html) if installing Jira via zip or archive file. The Jira Linux installer will do this automatically
 1. Install certbot and python3-certbot-apache to generate certificates for HTTPS
    
    ```bash
@@ -24,9 +24,12 @@ For more information about various uses of Jira Please check out the [Get starte
    sudo apt-get install python3-certbot-apache
    ```
 
-1. [Generate SSL certificate using certbot](#adding-a-lets-encrypt-certificate-to-enable-https-connection)
+1. [Generate SSL certificate using certbot](#create-ssltls-certificate-for-https)
 1. [Convert keypair and certificate to Java Keystore](#convert-keypair-and-certificate-to-java-keystore)
 1. [Install Jira](#install-jira)
+1. [Configure Jira access through port 443](#configure-jira-to-use-port-443)
+1. [Set up Jira](#set-up-jira)
+]
 
 #### Install Jira
 
@@ -163,7 +166,9 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
    -alias tomcat
    ```
 
-1. Copy the generated JKS file to /opt/atlassian/jira/conf
+#### Configure Jira to use port 443
+
+1. Copy the [generated JKS file](#convert-keypair-and-certificate-to-java-keystore) to /opt/atlassian/jira/conf
 
    ```bash
    cp /tmp/dwainaina-gitlab-jira-test-runner.sr.gitlab.support.jks  /opt/atlassian/jira/conf/
@@ -212,7 +217,7 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
    vim web.xml
    ```
 
-   Add the following lines right after the `<web-app ... version="3.1">` tag:
+   Add the following lines right after the `<web-app ... version="X.X">` tag:
 
    ```xml
    <security-constraint>
