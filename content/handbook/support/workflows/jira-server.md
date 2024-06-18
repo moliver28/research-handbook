@@ -10,22 +10,25 @@ Jira is a work management tool for software teams that need to organize and trac
 
 For more information about various uses of Jira Please check out the [Get started with Jira Software](https://www.atlassian.com/software/jira/guides/getting-started/basics)
 
-### How to Set Up Jira Server
+### Set Up Jira Server
 
-1. Create an instance from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
+#### Steps
 
-#### Prerequisite software
+1. Create an basic server instance from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
+1. Optional: [Install Java](https://confluence.atlassian.com/adminjiraserver/installing-java-938846828.html) if installing Jira via zip or archive file. The Linux installer will do this automatically
+1. Install certbot and python3-certbot-apache to generate certificates for HTTPS
+   
+   ```bash
+   sudo apt-get update && apt-get upgrade
+   sudo apt-get install certbot
+   sudo apt-get install python3-certbot-apache
+   ```
 
-- You need to install Java as Jira uses java JVM.
-- You need to install certbot, python3-certbot-apache for you to generate certificates for HTTPS
+1. [Generate SSL certificate using certbot](#adding-a-lets-encrypt-certificate-to-enable-https-connection)
+1. [Convert keypair and certificate to Java Keystore](#convert-keypair-and-certificate-to-java-keystore)
+1. [Install Jira](#install-jira)
 
 #### Install Jira
-
-1. Install Java because Jira uses Java JVM
-
-   ```bash
-   apt install openjdk-11-jdk  openjdk-11-jre
-   ```
 
 1. Create a folder to store Jira software for installation.
 
@@ -71,6 +74,8 @@ For more information about various uses of Jira Please check out the [Get starte
 
 1. Run Jira setup. You will activate a 30 day trial period. Select set up Jira manually.
 1. You now have Jira setup and accessible in your localhost:8080.
+
+#### Set Up Jira
 1. You will have to set up Jira before using it. After you access from the browser, Select `I’II set it up myself`.
 
    ![Jira Set It Up Myself Screenshot](../assets/JIRA_Setupmyself.png)
@@ -105,33 +110,21 @@ For more information about various uses of Jira Please check out the [Get starte
 1. Continue with the setup and create a test project.  “GITLAB”.
 1. Create a test issue that we will be using to test with.
 
-#### Adding a lets-encrypt certificate to enable HTTPS connection
+#### Create SSL/TLS certificate for HTTPS
 
 NOTE:
 HTTPS connection is **required** for DVCS Connector
 
-1. Install certbot to enable you to generate the certificate
-
-   ```bash
-   sudo apt-get update && apt-get upgrade
-   sudo apt-get install certbot
-   ```
-
-   Optionally, you can install the Certbot Apache plugin:
-
-   ```bash
-   sudo apt-get install python3-certbot-apache
-   ```
 
 1. Generate a certificate for your domain. Input your e-mail when prompted.
 
    ```bash
-   sudo certbot certonly --standalone -d www.example.com
+   sudo certbot certonly --standalone -d <www.example.com>
    ```
 
    ![Jira certbot](../assets/Jira_certbot_successful.png)
 
-1. If everything goes fine. A new SSL will be issued at the below location. Navigate to the below directory and view files.
+1. A new SSL will be issued at /etc/letsencrypt/live/<example.com>. Navigate to the directory and view the files.
 
    ```bash
    cd /etc/letsencrypt/live/example.com
@@ -144,23 +137,6 @@ HTTPS connection is **required** for DVCS Connector
    - chain.pem
    - fullchain.pem
    - privkey.pem
-
-   NOTE:
-   In case you get a `Problem binding to port 80: Could not bind to IPv4 or IPv6.` error, check the PID of the application using port 80 then stop the application running on that port and retry generating the certificates.
-
-   ![Error Message: Problem binding to port 80: Could not bind to IPv4 or IPv6.](../assets/Jira_port80error.png)
-
-   ```bash
-   # Check with lsof
-   lsof -i :80
-
-   # You can also use
-   netstat -antlup | grep 80
-
-   # If it's Apache, you can run the following:
-   systemctl stop apache2
-   systemctl disable apache2
-   ```
 
 #### Convert keypair and certificate to Java Keystore
 
@@ -292,6 +268,26 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
    systemctl restart jira
    systemctl status jira
    ```
+
+### Server Setup Troubleshooting
+
+#### Problem binding to port 80: Could not bind to IPv4 or IPv6.
+
+In case you get a `Problem binding to port 80: Could not bind to IPv4 or IPv6.` error, check the PID of the application using port 80 then stop the application running on that port and retry generating the certificates.
+
+![Error Message: Problem binding to port 80: Could not bind to IPv4 or IPv6.](../assets/Jira_port80error.png)
+
+```bash
+# Check with lsof
+lsof -i :80
+
+# You can also use
+netstat -antlup | grep 80
+
+# If it's Apache, you can run the following:
+systemctl stop apache2
+systemctl disable apache2
+```
 
 ### Common Troubleshooting Steps for Jira tickets
 
