@@ -35,24 +35,24 @@ I bring my authentic-self to work every day -- can you spot all easter eggs in [
 ## Availability and communication preferences
 
 - I prefer asynchronous written communication over synchronous calls.
-    - GitLab issues, merge requests, and forum topics are preferred over Slack or Discord.
-    - I love [low-context communication](https://handbook.gitlab.com/handbook/communication/#top-tips-and-best-practices), providing all necessary context so that everyone can continue when I'm offline or focused on other tasks.
-    - Avoid live screensharing presentations in meetings. Instead, record a walkthrough video, upload it to GitLab Unfiltered on YouTube, and share the resources in advance for the synchronous meeting.
+  - GitLab issues, merge requests, and forum topics are preferred over Slack or Discord.
+  - I love [low-context communication](https://handbook.gitlab.com/handbook/communication/#top-tips-and-best-practices), providing all necessary context so that everyone can continue when I'm offline or focused on other tasks.
+  - Avoid live screensharing presentations in meetings. Instead, record a walkthrough video, upload it to GitLab Unfiltered on YouTube, and share the resources in advance for the synchronous meeting.
 - Ask questions in [public Slack channels](https://handbook.gitlab.com/handbook/communication/#use-public-channels), so that everyone can contribute.
-    - This helps loop in more team members, subject matter experts, and those responsible for specific areas (DRIs).
-    - Please avoid direct messages (DMs) unless it's private feedback or confidential information. I'll respond to DMs with lower priority than public requests.
+  - This helps loop in more team members, subject matter experts, and those responsible for specific areas (DRIs).
+  - Please avoid direct messages (DMs) unless it's private feedback or confidential information. I'll respond to DMs with lower priority than public requests.
 - I enjoy helping in public, and sometimes work evening hours to assist with incidents or timezone aligned tasks (after 10 AM PT, which is 7 PM CET).
-    - If I need to leave during a planned task, I will communicate the sign-off time and provide a handover summary.
+  - If I need to leave during a planned task, I will communicate the sign-off time and provide a handover summary.
 - My calendar invites are editable by guests.
-    - Feel free to adjust the time to fit everyone's schedule.
-    - No worries on short notice reschedules. I always have a task or project to work on, or appreciate the short break.
-    - My default Zoom URL has a meeting room set up for external guests. If I don't show up in Zoom on time and let you in, ping me on Slack.
+  - Feel free to adjust the time to fit everyone's schedule.
+  - No worries on short notice reschedules. I always have a task or project to work on, or appreciate the short break.
+  - My default Zoom URL has a meeting room set up for external guests. If I don't show up in Zoom on time and let you in, ping me on Slack.
 - If you think a repeating coffee chat or a topic-specific 1:1 would be beneficial for efficient collaboration, propose a new calendar event and include an agenda document.
 - My work hours cover mostly AMER and EMEA time zones.
-    - Meetings can be scheduled in my afternoon (5 AM to 10 AM PT, 2 PM CET to 7 PM CET). My mornings are reserved for focused work or personal time (shopping, extended lunch with friends).
-    - Ask when scheduling during my focus time blocks (customer calls, EMEA syncs, etc.).
+  - Meetings can be scheduled in my afternoon (5 AM to 10 AM PT, 2 PM CET to 7 PM CET). My mornings are reserved for focused work or personal time (shopping, extended lunch with friends).
+  - Ask when scheduling during my focus time blocks (customer calls, EMEA syncs, etc.).
 - Team members can always schedule a coffee chat with me. I'd love to learn about you, your background, life stories, experiences, and interests.
-    - Wider community members can ask for my Calendly link.
+  - Wider community members can ask for my Calendly link.
 
 ### Finding me
 
@@ -99,7 +99,6 @@ My role as Developer Advocate enables me to take different hats: provide product
 
 I'm a leader within GitLab, and I'm happy to share my knowledge, expertise, and connections with everyone. I'm active in the [Global Voices TMRG](https://handbook.gitlab.com/handbook/company/culture/inclusion/tmrg-global-voices/), and I'm an ally, for example, by supporting underrepresented groups in my [mentoring and coaching activities](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/mentoring-coaching/).
 
-
 ## About me
 
 Grown up in Linz, Austria, I wanted to understand how a computer works in school. A 486 PC turbo-boost button that was not enabled by default inspired me to study Hardware/Software Systems Engineering, leading to circuit design, hardware and software programming languages, and more adventures with NFC and multimedia streaming in 2005. A student's dorm network project in Vienna, Austria, allowed me to dive into spanning trees (and loops!) and routing, which I expanded on with DNS and monitoring at the University of Vienna, Computer Center. Maintaining an open-source monitoring project for 11 years required me to understand how the software is used in production. CVEs raised awareness about security scanning. I therefore engaged with global events and community meetups to learn and understand the roles in modern DevSecOps and cloud-native workflows. My passion for open-source communities also inspired me to move to Nuremberg, Germany, in 2012, where I live today in the countryside. In March 2020, I started my all-remote adventure at GitLab.
@@ -119,7 +118,6 @@ I have a detailed biography and CV available in different text lengths and langu
 1. Blog: [3 years all-remote at GitLab](https://dnsmichi.at/2023/03/02/three-years-all-remote-at-gitlab-know-the-unknown-unknowns-growth-life-work/)
 1. Blog: [2 years all-remote at GitLab](https://dnsmichi.at/2022/03/02/2-years-all-remote-and-2022-vision/)
 1. Blog: [1 year all-remote at GitLab](https://dnsmichi.at/2021/03/02/my-1st-year-all-remote-at-gitlab/)
-
 
 ## Thanks for reading
 
