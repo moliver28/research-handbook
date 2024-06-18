@@ -356,7 +356,7 @@ The specific application of this timeline to the Analytics Instrumentation Miles
 - **Tasks**: 
 
 1. Issue Request
-PM: Following the product data insights handbook, create an issue focused on instrumentation of products at a category level. Ad Hoc Request issue template should be utilized. Assign your Product Data Insights counterpart and cc Carolyn Braza for visibility. 
+PM: Following the [Product Data Insights handbook](https://handbook.gitlab.com/handbook/product/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level. The [Ad Hoc Request issue template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Ad%20Hoc%20Request) should be utilized. Assign the issue to your Product Data Insights counterpart and cc Carolyn Braza (`@cbraza`) for visibility. 
 Alignment
 PM/PDI: Once all stakeholders have been added to the issue, Product Data Insights team will set time with the PM counterpart to align on:
 - Goals
