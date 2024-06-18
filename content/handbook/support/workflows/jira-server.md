@@ -79,6 +79,7 @@ For more information about various uses of Jira Please check out the [Get starte
 1. You now have Jira setup and accessible in your localhost:8080.
 
 #### Set Up Jira
+
 1. You will have to set up Jira before using it. After you access from the browser, Select `I’II set it up myself`.
 
    ![Jira Set It Up Myself Screenshot](../assets/JIRA_Setupmyself.png)
@@ -117,7 +118,6 @@ For more information about various uses of Jira Please check out the [Get starte
 
 NOTE:
 HTTPS connection is **required** for DVCS Connector
-
 
 1. Generate a certificate for your domain. Input your e-mail when prompted.
 
@@ -276,7 +276,7 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
 
 ### Server Setup Troubleshooting
 
-#### Problem binding to port 80: Could not bind to IPv4 or IPv6.
+#### Problem binding to port 80: Could not bind to IPv4 or IPv6
 
 In case you get a `Problem binding to port 80: Could not bind to IPv4 or IPv6.` error, check the PID of the application using port 80 then stop the application running on that port and retry generating the certificates.
 
