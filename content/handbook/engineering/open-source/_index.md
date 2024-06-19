@@ -81,3 +81,26 @@ If you decide to create a fork, make sure you open an issue that:
 ## GPL Cooperation Commitment
 
 Visit the [Legal & Corporate Affairs Product handbook](/handbook/legal/product/#gpl-cooperation-commitment) for further information on this.
+
+## Sponsoring open-source projects 
+
+At GitLab we are committed to open-source. There may be a case to consider sponsoring an open-source project or project maintainer from a business continuity perspective. In such cases, GitLab may want to become a vested member of said project. This can happen in two main approaches: 
+
+- GitLab becomes a maintainer in the open source project 
+- GitLab actively manages and contributes upstream by sponsoring the project maintainer 
+
+### Becoming a maintainer in an open source project 
+
+For GitLab to become a maintainer in a project, review the guidelines in [contribtuing to open source](/handbook/company/stewardship/#how-we-think-about-contributing-more-to-open-source). 
+
+### Contributing upstream to an open source project 
+
+A business case must be established for GitLab to commit to sponsoring and providing finanical support to an open source project. Budgets for open source project and support models will be allocated from Engineering. 
+
+The steps for establishing a business case for an open source project outlined below: 
+
+1. Create a confidential [new issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new) in GitLab.org using sing the Problem Validation Template
+1. Title the issue - "Business Case: Open Source Sponsorship for Project X" 
+1. Fill in the details leveraging the RICE scoring of expected impact of the Open Source Sponsorship, also include the estimated cost of the Sponsorship 
+1. As an optional task, you can make a copy of the [Opportunity Canvas template](https://docs.google.com/document/d/1pTEMcwH10xWilQEnVc65oC6PdC3VMjn2XoARfNTaHkc/edit#heading=h.4mt5fmtn0ax4) to further illustrate the impact this sponsorship will have on the business. Link in the issue proposal 
+1. Tag in the issue the Director of Engineering, Director of Product, Director of Contributor Contributor Success for review and approval   
