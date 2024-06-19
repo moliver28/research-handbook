@@ -225,6 +225,9 @@ In this scenario:
 1. Set a reminder for yourself to check in with the customer 1-2 days after
    their planned return date.
 
+Do not use [the `skip_autosolve`/`close` tags](../readiness/operations/docs/zendesk/tags.md#zendesk-global-common-tags),
+because a built-in ZenDesk limit of approx. 21 days ignores those.
+
 Because of the [behavior of `On-Hold` tickets](/handbook/support/workflows/zendesk-ticket-basics/#behavior-of-on-hold-tickets)
 the ticket will remain in the `on-hold` state until the customer returns. This
 is useful if the customer will be unavailable for 1-2 weeks. If a customer will
