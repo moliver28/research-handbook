@@ -91,7 +91,7 @@ At GitLab we are committed to open-source. There may be a case to consider spons
 
 ### Becoming a maintainer in an open source project 
 
-For GitLab to become a maintainer in a project, review the guidelines in [contribtuing to open source](/handbook/company/stewardship/#how-we-think-about-contributing-more-to-open-source). 
+For GitLab to become a maintainer in a project, review the guidelines in [contributing to open source](/handbook/company/stewardship/#how-we-think-about-contributing-more-to-open-source). 
 
 ### Contributing upstream to an open source project 
 
