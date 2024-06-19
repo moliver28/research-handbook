@@ -99,7 +99,7 @@ A business case must be established for GitLab to commit to sponsoring and provi
 
 The steps for establishing a business case for an open source project outlined below: 
 
-1. Create a confidential [new issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new) in GitLab.org using sing the Problem Validation Template
+1. Create a confidential [new issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new) in GitLab.org using the Problem Validation Template
 1. Title the issue - "Business Case: Open Source Sponsorship for Project X" 
 1. Fill in the details leveraging the RICE scoring of expected impact of the Open Source Sponsorship, also include the estimated cost of the Sponsorship 
 1. As an optional task, you can make a copy of the [Opportunity Canvas template](https://docs.google.com/document/d/1pTEMcwH10xWilQEnVc65oC6PdC3VMjn2XoARfNTaHkc/edit#heading=h.4mt5fmtn0ax4) to further illustrate the impact this sponsorship will have on the business. Link in the issue proposal 
