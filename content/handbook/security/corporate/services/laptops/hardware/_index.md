@@ -6,13 +6,13 @@ title: Laptop Hardware Models and Specs
 
 Laptops are **purchased by Corporate Security** during a team member's onboarding process. The team-member will be sent a form to fill out for ordering.
 
-GitLab approves and supports the use of Linux and Apple's macOS as the OS for employee laptops. For security concerns and support efficiency reasons, Windows is not supported as a hardware laptop OS for team members unless it is for [specific product development and testing use cases](#windows).
+GitLab approves and supports the use of macOS as the OS for employee laptops. We also approve Linux for employee laptops, however team members will be self-supporting. For security concerns and support efficiency reasons, Windows is not supported as a hardware laptop OS for team members unless it is for [specific product development and testing use cases](#windows).
 
 Further information on GitLab authorized operating systems, versions, and exception process is available on the [Approved Operating Systems](/handbook/security/corporate/services/laptops/os) page.
 
 The operating system choices have obviously affected the hardware selection process.
 
-Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support, as long as they are using an approved operating system.
+Apple hardware is the common choice among GitLab team members. Team members may also select a Dell Linux laptop if they are familiar with Linux and capable of self-support, as long as they are using an approved operating system. Please do not select Linux if you have never used macOS or Apple products before. 
 
 > We have a corporate discount for corporate-purchased Apple products only. Apple does **not** have an employee discount program for GitLab at this time.
 
