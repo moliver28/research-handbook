@@ -86,6 +86,7 @@ Visit the [Legal & Corporate Affairs Product handbook](/handbook/legal/product/#
 
 At GitLab we are committed to open-source. There may be a case to consider sponsoring an open-source project or project maintainer from a business continuity perspective. In such cases, GitLab may want to become a vested member of said project. This can happen in two main approaches: 
 
+- GitLab takes full ownership of open source project
 - GitLab becomes a maintainer in the open source project 
 - GitLab contributes upstream and/or sponsors the project maintainer(s)
 
