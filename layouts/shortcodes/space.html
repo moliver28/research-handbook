@@ -2,7 +2,7 @@
 {{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}
-{{- $dataURL := printf "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/%s/content/handbook/engineering/infrastructure/engineering-productivity/space.yml" $publicHandbookRef }}
+{{- $dataURL := printf "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/draft-space/content/handbook/engineering/infrastructure/engineering-productivity/space.yml" }}
 {{- with resources.GetRemote $dataURL }}
   {{- with .Err}}
     <h2>Unable to fetch data</h2>
