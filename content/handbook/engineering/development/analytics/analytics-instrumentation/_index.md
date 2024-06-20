@@ -375,7 +375,7 @@ PM: Update the categories.yml file with the applicable implementation status. Ut
 
 5. Analytics Instrumentation 
 PM/PDI: Once category instrumentation audit has been completed. For categories marked as either red (needing implementation) or yellow (some instrumentation, not complete), 
-PM/EM: will create an instrumentation ticket with the label ‘analytics instrumentation’ and utilizing the new issue template to set up issues needing new instrumentation.
+PM/EM: will create an instrumentation issue with the label `analytics instrumentation` and utilizing the new issue template to set up issues needing new instrumentation.
 
 #### Milestone Capacity
 
