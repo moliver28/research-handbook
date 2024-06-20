@@ -14,13 +14,11 @@ Empower GitLab to make informed, intelligence-driven decisions that keep our com
 
 ## <i class="fas fa-compass" id="biz-tech-icons"></i> Our Mission Statement
 
-We work hard to stay ahead of emerging threats. Our mission is to provide actionable intelligence that empowers GitLab to make informed, proactive decisions about security.
+Our mission is to provide actionable intelligence that empowers GitLab to make informed, proactive decisions about security.
 
-When new threats emerge, we aim to quickly assess the risks, evaluate our defenses, and provide clear recommendations for action.
+We monitor the threat landscape with a focus on identifying the most relevant risks to GitLab. We analyze these risks, track the associated threat actors, and build relationships with industry peers. These connections give us access to timely, unique insights that are not otherwise available. We focus on extracting the information most relevant to our organization, allowing us to deliver clear, concise reports that recommend immediate actions.
 
-We do this by continuously monitoring the threat landscape, analyzing risks, and building and maintaining relationships with industry peers. These connections give us access to timely, unique insights that are not otherwise available. We focus on extracting the most relevant information to our organization, allowing us to deliver clear, concise reports that recommend immediate actions.
-
-By staying vigilant and sharing targeted intelligence, we strive to help GitLab anticipate challenges, move swiftly, and protect our platform and customers.
+By staying vigilant and sharing targeted intelligence, we strive to help GitLab anticipate challenges, move swiftly, and protect our customers and our platform.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> The Team
 
@@ -32,9 +30,9 @@ The Threat Intelligence initiative is driven by cross-functional participants fr
 
 The initiative's current priorities are:
 
-1. **Building connections**: Establishing relationships with industry peers, government entities, and other experts who specialize in relevant threats.
-2. **Delivering actionable threat briefings**: Preparing and presenting concise, actionable [threat briefings](#threat-briefings) that inform GitLab of relevant threats, their potential impact, and recommended actions.
-3. **Refining reporting processes**: Continuously improving reporting templates and processes to ensure clear, consistent, and efficient communication of threat intelligence findings.
+1. **Delivering actionable intelligence**: Preparing and presenting concise, actionable reports that inform GitLab of relevant threats, their potential impact, and recommended actions.
+1. **Building meaningful connections**: Establishing relationships with industry peers, government entities, and other experts who specialize in the top threats most impactful to GitLab.
+1. **Refining reporting processes**: Continuously improving reporting templates and processes to ensure clear, consistent, and efficient communication of threat intelligence findings.
 
 As the program matures, we will expand our focus to additional service offerings outlined below.
 
@@ -69,20 +67,20 @@ Recommendations linked to Flash Reports are often time-sensitive and critical. T
 
 Flash Reports use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/flash_report.md?ref_type=heads).
 
-#### Threat Briefings
+#### Threat Insights
 
-Threat Briefings offer regular, high-level updates on the evolving threat landscape. They highlight the most relevant trends, actors, and campaigns that could affect GitLab in the coming weeks or months.
+Threat Insights offer regular, high-level updates on the evolving threat landscape. They highlight the most relevant trends, actors, and campaigns that could affect GitLab in the coming weeks or months.
 
 These reports help team members stay informed, vigilant, and prepared.
 
-Recommendations linked to Threat Briefings are not as time-sensitive as those from a Flash Report. They are leveraged for activities like:
+Recommendations linked to Threat Insights are not as time-sensitive as those from a Flash Report. They are leveraged for activities like:
 
 - Product roadmap and prioritization
 - Standard iterations to security controls and detection capabilities
 - Training on security awareness and job-specific skills
 - Purchasing decisions and vendor evaluations
 
-Threat Briefings are produced monthly using [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/threat_briefing.md?ref_type=heads) and include a live presentation with a Q&A session.
+Threat Insights are produced monthly using [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/threat_insights.md?ref_type=heads) and include a live presentation with a Q&A session.
 
 ### Threat Actor Tracking
 
@@ -139,7 +137,7 @@ Monitoring these metrics helps us continually refine our services, prioritize hi
 
 **Attribution Labels (source of validated intelligence):**
 
-- Threat Briefings (`TIAttribution::ThreatBriefing`)
+- Threat Insights (`TIAttribution::ThreatInsights`)
 - Flash Reports (`TIAttribution::FlashReport`)
 - Threat Actor Tracking (`TIAttribution:ThreatActorTracking`)
 - Request for Information (`TIAttribution::RFI`)
