@@ -174,7 +174,6 @@ Make sure to join the [#macOS](https://gitlab.slack.com/archives/CDKA4RCE7) Slac
 | Productivity | [Maccy](https://maccy.app/) | Clipboard manager - keeps a history of your clipboard. |
 | Productivity | [Skitch](https://evernote.com/products/skitch) | A simple tool to snap a part of your screen and point out details with annotations, shapes, and highlights. **IMPORTANT:** Do not save screenshots to Evernote as it violates the [Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/#unacceptable-system-and-network-activities). |
 | System control | [Lungo](https://apps.apple.com/us/app/lungo/id1263070803) | Lungo prevents macOS from falling asleep and your screen from dimming. |
-| System control | [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) | Amphetamine can keep your macOS, and optionally its display(s), awake through a super simple on/off switch, or automatically through easy-to-configure Triggers |
 | System control | [Keeping You Awake (Free & Open Source)](https://github.com/newmarcel/KeepingYouAwake) | Prevents your macOS from entering sleep mode for a predefined duration or as long as it is activated |
 | System control | [Macs Fan Control](https://crystalidea.com/macs-fan-control) | Control fans on macOS computers |
 | System control | [ToothFairy](https://apps.apple.com/us/app/toothfairy/id1191449274) | If clicking on 2 things to connect your AirPods is too much, this makes it a single click |
