@@ -374,7 +374,7 @@ PM/PDI:  will audit implementation/review implementation to quality check and en
 PM: Update the categories.yml file with the applicable implementation status. Utilizing the categories.yml file, the Product Data Insights team will create a Tableau dashboard to track implementation at a category level overtime. 
 
 5. Analytics Instrumentation 
-PM/PDI: Once feature instrumentation intake has been completed. For features marked as either red (needing implementation) or yellow (some instrumentation, not complete), 
+PM/PDI: Once category instrumentation audit has been completed. For categories marked as either red (needing implementation) or yellow (some instrumentation, not complete), 
 PM/EM: will create an instrumentation ticket with the label ‘analytics instrumentation’ and utilizing the new issue template to set up issues needing new instrumentation.
 
 #### Milestone Capacity
