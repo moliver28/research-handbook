@@ -365,7 +365,7 @@ PM/PDI: Once all stakeholders have been added to the issue, Product Data Insight
 TPgM may assist in implementation of planning documentation. 
 
 2. Feature Inventory & Instrumentation Mapping
-PM/PDI:l work together to outline a feature inventory using this template. Category level implementation should be prioritized by most utilized features and the features we believe have the largest impact on the business. From there, PM and Product Data Insights counterparts will utilize labels outlined here for markers of implementation status. The PM will lead mapping of instrumentation at a category level, in close partnership with the Product Data Insights counterpart.
+PM/PDI: Work together to outline a feature inventory using this template. Category level implementation should be prioritized by most utilized features and the features we believe have the largest impact on the business. From there, PM and Product Data Insights counterparts will utilize labels outlined here for markers of implementation status. The PM will lead mapping of instrumentation at a category level, in close partnership with the Product Data Insights counterpart.
 
 3. Audit & Review
 PM/PDI:  will audit implementation/review implementation to quality check and ensure accuracy async. TPgM may assist in QA. 
