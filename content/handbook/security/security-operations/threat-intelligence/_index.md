@@ -2,6 +2,12 @@
 title: Threat Intelligence Team
 ---
 
+## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging Threat Intelligence
+
+Please follow our [RFI process](#requests-for-information-rfi) to contact the team.
+
+For a less formal discussion, you can find us in Slack in the `#sd_security_threat_intel` channel.
+
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Our Vision
 
 Empower GitLab to make informed, intelligence-driven decisions that keep our company and customers secure, while setting a new standard for transparency and collaboration across the industry.
@@ -143,12 +149,6 @@ Monitoring these metrics helps us continually refine our services, prioritize hi
 - Intelligence prevented an incident (`TIImpact::Prevention`)
 - Intelligence allowed us to identify an attempted attack (`TIImpact::Detection`)
 - Intelligence allowed us to respond to an incident (`TIImpact::Response`)
-
-## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging Threat Intelligence
-
-Please follow our [RFI process](#requests-for-information-rfi) to contact the team.
-
-For a less formal discussion, you can find us in Slack in the `#g_security_threat_intel` channel.
 
 ## <i class="fas fa-link" id="biz-tech-icons"></i> Additional Resources
 
