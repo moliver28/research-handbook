@@ -14,13 +14,13 @@ Empower GitLab to make informed, intelligence-driven decisions that keep our com
 
 ## <i class="fas fa-compass" id="biz-tech-icons"></i> Our Mission Statement
 
-Our mission is to provide actionable intelligence that empowers our organization to stay ahead of emerging threats.
+We work hard to stay ahead of emerging threats. Our mission is to provide actionable intelligence that empowers GitLab to make informed, proactive decisions about security.
 
-When a new threat makes headlines, we're already prepared with answers. We assess our risk, evaluate our ability to detect and prevent an attack, and provide recommendations for a rapid response.
+When new threats emerge, we aim to quickly assess the risks, evaluate our defenses, and provide clear recommendations for action.
 
-We achieve this by continuously monitoring the threat landscape, analyzing risks, and building and maintaining relationships with industry peers. These connections give us access to timely, unique insights that are not otherwise available. We focus on extracting the most relevant information to our organization, allowing us to deliver clear, concise reports that recommend immediate actions.
+We do this by continuously monitoring the threat landscape, analyzing risks, and building and maintaining relationships with industry peers. These connections give us access to timely, unique insights that are not otherwise available. We focus on extracting the most relevant information to our organization, allowing us to deliver clear, concise reports that recommend immediate actions.
 
-By staying proactive and providing targeted intelligence, we enable GitLab to make informed decisions and take quick, decisive action to protect our platform and customers.
+By staying vigilant and sharing targeted intelligence, we strive to help GitLab anticipate challenges, move swiftly, and protect our platform and customers.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> The Team
 
