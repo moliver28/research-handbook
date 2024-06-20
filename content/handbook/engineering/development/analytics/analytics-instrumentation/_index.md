@@ -350,6 +350,7 @@ The specific application of this timeline to the Analytics Instrumentation Miles
 1. PM/EM: Present the plan for the milestone in the first Analytics Instrumentation sync of the new milestone focusing on the overall objective and themes.
 
 #### 3. Post Launch Instrumentation 
+- **Goal**: Our goal is to increase product instrumentation across our features to deliver greater product insights. There is a need to retroactively evaluate what features have been instrumented and need instrumentation from past feature launches. Post launch implementation will allow us to gather insights that currently are being missed and to allow our CSM team to assist customers in seeking to understand feature usage + adoption within their organizations. 
 
 - **Timelines**:  18th of month N – 17th of month N+1.
 
