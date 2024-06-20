@@ -15,7 +15,12 @@ For more information about various uses of Jira Please check out the [Get starte
 #### Steps
 
 1. Create a server from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Using the [basic server](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/examples/basic-server.tf?ref_type=heads) will ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
-1. Optional: [Install Java](https://confluence.atlassian.com/adminjiraserver/installing-java-938846828.html) if installing Jira via zip or archive file. The Jira Linux installer will do this automatically
+1. [Install Java](https://confluence.atlassian.com/adminjiraserver/installing-java-938846828.html). Check the appropriate version of [supported platforms](https://confluence.atlassian.com/adminjiraserver0822/supported-platforms-1142236965.html) to install the correct version. 
+
+   ```bash
+   apt install openjdk-11-jdk  openjdk-11-jre
+   ```
+
 1. Install certbot and python3-certbot-apache to generate certificates for HTTPS
    
    ```bash
@@ -29,7 +34,6 @@ For more information about various uses of Jira Please check out the [Get starte
 1. [Install Jira](#install-jira)
 1. [Configure Jira access through port 443](#configure-jira-to-use-port-443)
 1. [Set up Jira](#set-up-jira)
-]
 
 #### Install Jira
 
@@ -75,8 +79,7 @@ For more information about various uses of Jira Please check out the [Get starte
 
    ![Jira bin process](../assets/Jira_bin_process.png)
 
-1. Run Jira setup. You will activate a 30 day trial period. Select set up Jira manually.
-1. You now have Jira setup and accessible in your localhost:8080.
+1. Jira will be accessible via localhost:8080, but needs [HTTPS to be enabled](#configure-jira-to-use-port-443) for the DVCS connector to work. 
 
 #### Set Up Jira
 
