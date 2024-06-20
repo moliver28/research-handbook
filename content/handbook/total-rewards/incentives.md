@@ -26,6 +26,7 @@ The following incentives are available for GitLab team members. Also see our sep
    It's at the discretion of the manager if they still want to publicly recognize the team member's behavior for the nomination.
 1. Only individuals in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing [underperformance remediation]({{< ref "underperformance" >}})). If a team member receives a discretionary bonus nomination during a period of underperformance remediation, managers should wait until the underperformance remediation period concludes successfully before determining whether to admit the discretionary bonus request.
 1. Any bonus that sits idle for 90 days will be automatically canceled. At GitLab, only 90 days of Slack is retained and therefore any history of this request has also been deleted for the approver.
+1. A discretionary bonus receiver can opt in to donate the money to a GitLab approved charity of choice.
 
 ### Valid and Invalid criteria for discretionary bonuses
 
