@@ -12,7 +12,7 @@ Each automation added to this page should contain the below details at minimum:
 
 - Header title as anchor
 - Brief Description
-- Repository Link
+- Repository Link (may be a private/limited access project)
 - Best Point of Contact for Questions
 
 ### What is in place and always running?
@@ -22,6 +22,12 @@ Each automation added to this page should contain the below details at minimum:
 - Brief Description
 - Repository Link
 - Point of Contact
+
+#### Authomize Sync
+
+- This automation syncs user listings from various systems into Authomize (User Access Review Tool) on a daily basis. A manual sync can be triggered if required.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/authomize)
+- [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
 ### What can I trigger ad-hoc?
 
