@@ -108,9 +108,9 @@ Requests for Information use [this template](https://gitlab.com/gitlab-com/gl-se
 
 We measure the success of our threat intelligence program using three key metrics: Adoption Rate, Attribution, and Impact. We track these metrics using GitLab.com issues and custom labels.
 
+1. Impact: Measures how often our intelligence helps prevent incidents, detect attacks, and improve response times, and drive significant product improvements that keep our customers secure.
 1. Adoption Rate: Measures the extent to which our intelligence-driven recommendations are accepted and implemented.
-2. Attribution: Measures the accuracy, relevance, and source of our intelligence by tracking how often it is validated by real-life events.
-3. Impact: Measures how often our intelligence helps prevent incidents, detect attacks, and improve response times.
+1. Attribution: Measures the accuracy, relevance, and source of our intelligence by tracking how often it is validated by real-life events.
 
 Monitoring these metrics helps us continually refine our services, prioritize high-impact activities, and demonstrate the value of our program.
 
