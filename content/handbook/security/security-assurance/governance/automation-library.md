@@ -9,7 +9,7 @@ This page is intended to provide a jumping off point for what components of Secu
 ## Layout
 
 Each automation added to this page should contain the below details at minimum:
-- Header Title as anchor
+- Header title as anchor
 - Brief Description
 - Repository Link
 - Best Point of Contact for Questions
@@ -18,10 +18,16 @@ Each automation added to this page should contain the below details at minimum:
 ### What is in place and always running?
 
 #### Header Title Anchor
+- Brief Description
+- Repository Link
+- Point of Contact
 
 ### What can I trigger ad-hoc?
 
 #### Header Title Anchor
+- Brief Description
+- Repository Link
+- Point of Contact
 
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> I have questions
 
