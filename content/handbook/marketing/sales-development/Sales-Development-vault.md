@@ -355,7 +355,7 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ## 6Sense
 
-6Sense is a targeting and personalization platform that we use to reach our different audiences based on intent data and our ideal customer profiles. [6Sense Handbook Page](/handbook/marketing/marketing-operations/6sense/)
+6Sense is a targeting and personalization platform that we use to reach our different audiences based on intent data and our ideal customer profiles. While the content beblow is more specific to our Sales Development team, please visit the [Marketing Operation's handbook page here](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/6sense/) for a full breakdown of 6Sense's functionality.
 
 ### 6Sense Training Resources
 
