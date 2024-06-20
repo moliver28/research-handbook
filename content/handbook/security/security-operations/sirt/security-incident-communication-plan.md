@@ -25,7 +25,7 @@ This communication response plan maps out the who, what, when, and how of GitLab
 
 ## What is an incident?
 
-The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.  You can learn more about how we identify incidents in the [GitLab security incident response guide]({{< ref "sec-incident-response#incident-identification" >}}).
+The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.  You can learn more about how we identify incidents in the [GitLab security incident response guide]({{< ref "sec-incident-response#incident-identification" >}}). It's also important to mention that not all security events rise to the level of becoming an incident. For example, a failed login is a security event, but by itself likely not constitute a security incident.
 
 ### 💁 Corporate incident response
 
