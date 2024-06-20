@@ -38,3 +38,22 @@
   urls:
     - https://about.gitlab.com/handbook/engineering/monitoring/#historical-service-availability
     - https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now
+- name: Escape Rate
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Test description
+  target: equal or greater than 99.80%
+  category: performance
+  dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons:
+      - April 2024 Availability 99.95%
+      - March 2024 Availability 100.00%
+  tableau_data:
+    charts:
+      - url: https://10az.online.tableau.com/#/site/gitlab/views/DRAFTIssueTypesDetail/EscapeRate?:iid=2
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+  urls:
+    - https://handbook.gitlab.com/handbook/engineering/development/performance-indicators/#escape-rate-over-time
