@@ -137,7 +137,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
     1. If the EOC believes the alert is incorrect, comment on the thread in `#production`. If the alert is flappy, create an issue and post a link in the thread. This issue might end up being a part of RCA or end up requiring a change in the alert rule.
 1. _Be inquisitive_. _Be vigilant_. If you notice that something doesn't seem right, investigate further.
 1. The EOC should not consider immediate work on an incident completed until the top description section in the Incident Issue (above the "Incident Review" section) is filled out with useful information to describe all the key aspects of the Incident.
-1. After the incident is resolved, the EOC should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity. If it has a `~review-requested` label, the EOC should start on performing an [incident review](/handbook/engineering/infrastructure/incident-review/), in some cases this may be be a synchronous review meeting or an async review depending on what is requested by those involved with the incident.
+1. After the incident is resolved, the EOC should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity. If it has a `~review-requested` label, the EOC should start on performing an [incident review](/handbook/engineering/infrastructure/incident-review/), in some cases this may be a synchronous review meeting or an async review depending on what is requested by those involved with the incident.
 
 ##### Incident Mitigation Methods - EOC/Incident Manager
 
@@ -175,6 +175,21 @@ EOCs are responsible for responding to alerts even on the weekends.  Time should
 
 If a `~severity::3` and `~severity::4` occurs multiple times and requires weekend work, the multiple incidents should be combined into a single `severity::2` incident.
 If assistance is needed to determine severity, EOCs and Incident Managers are encouraged to contact [Reliability Leadership via PagerDuty](https://gitlab.pagerduty.com/schedules#P12EH0Z)
+
+#### Incident Manager Escalation
+
+A page will be escalated to the Incident Manager (IM) if it is not answered by the Engineer on Call (EOC).
+This escalation will happen for all alerts that go through PagerDuty, which includes lower severity alerts.
+It's possible that this can happen when there is a large number of pages and the EOC is unable to focus on acknowledging pages.
+When this occurs, the IM should reach out in Slack in the `#incident-management` channel to see if the EOC needs assistance.
+
+Example:
+
+```plaintext
+@sre-oncall, I just received an escalation. Are you available to look into LINK_TO_PAGERDUTY_INCIDENT, or do you need some assistance?
+```
+
+If the EOC does not respond because they are unavailable, you should escalate the incident using the PagerDuty application, which will alert Infrastructure Engineering leadership.
 
 #### Infrastructure Leadership Escalation
 
@@ -273,11 +288,11 @@ Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab
 - Assign the label for the associated affected service if applicable.
 - Provide enough context so that any engineer in the Corrective Action issue's project could pick up the issue and know how to move forward with it.
 - Avoid creating Corrective Actions that:
-    - Are too generic (most typical mistake, as opposed to Specific)
-    - Only fix incident symptoms.
-    - Introduce more human error.
-    - Will not help to keep the incident from happening again.
-    - Can not be promptly implemented (time-bounded).
+  - Are too generic (most typical mistake, as opposed to Specific)
+  - Only fix incident symptoms.
+  - Introduce more human error.
+  - Will not help to keep the incident from happening again.
+  - Can not be promptly implemented (time-bounded).
 - Examples: (taken from several best-practices Postmortem pages)
 
 | Badly worded | Better |
@@ -297,7 +312,7 @@ of the above roles.
 
 ## Who is the Current EOC?
 
-The chatops bot will give you this information if you DM it with `/chatops run oncall prod`.
+Use the `@sre-oncall` handle to check who the current EOC is
 
 ### When to Contact the Current EOC
 
@@ -632,7 +647,7 @@ These labels are added to incident issues as a mechanism to add metadata for the
 | `~incident-type::automated traffic` | The incident occurred due to activity from security scanners, crawlers, or other automated traffic |
 | `~backstage` | Indicates that the incident is internally facing, rather than having a direct impact on customers. Examples include issues with monitoring, backups, failing tests, self-managed release or general deploy pipeline problems. |
 | `~group::*` | Any development group(s) related to this incident |
-| `~review-requested` | Indicates that that the incident would benefit from undergoing additional review. All S1 incidents are required to have a review. Additionally, anyone including the EOC can request an incident review on any severity issue. Although the review will help to derive [corrective actions](#corrective-actions), it is expected that corrective actions are filled whether or not a review is requested. If an incident does not have any corrective actions, this is probably a good reason to request a review for additional discussion. |
+| `~review-requested` | Indicates that the incident would benefit from undergoing additional review. All S1 incidents are required to have a review. Additionally, anyone including the EOC can request an incident review on any severity issue. Although the review will help to derive [corrective actions](#corrective-actions), it is expected that corrective actions are filled whether or not a review is requested. If an incident does not have any corrective actions, this is probably a good reason to request a review for additional discussion. |
 | `~Incident-Comms::*` | Scoped label indicating the level of communications. |
 | `~blocks deployments` | Indicates that if the incident is active, it will be a blocker for deployments. This is automatically applied to `~severity::1` and `~severity::2` incidents. The EOC or Release Manager can remove this label if it is safe to deploy while the incident is active. A comment must accompany the removal stating the safety or reasoning that enables deployments to continue. This label may also be applied to lower severity incidents if needed. |
 | `~blocks feature-flags` | Indicates that while the incident is active, it will be a blocker for changes to feature flags. This is automatically applied to `~severity::1` and `~severity::2` incidents. The EOC or Release Manager can remove this label if there is no risk in making feature flag changes while the incident is active. A comment must accompany the removal stating the safety or reasoning that enables feature flag changes to continue. This label may also be applied to lower severity incidents if needed. |

@@ -155,10 +155,11 @@ We have found following steps beneficial to make the process of time off easy fo
 - [ ] Any quotes that are currently out to clients, resend via docusign with the person covering for you cc’d on them. Intro AE covering to client in case either have questions via email
 - [ ] Run [this report](https://gitlab.my.salesforce.com/00O4M000004odxl), edit the `dates` field in the top right corner to be the dates you are OOO, then select ‘run report’. Make sure ZERO next steps are falling on the dates you are out and cover anything not urgent before PTO. This will ensure you leave you without a huge workload for your backup or you in return.
   - If you have an urgent next step scheduled, reach out before vacation, inform the client you will be OOO and get either the person covering for you or your manager included by `cc:` on the email w/ intro
- - If you have less urgent next steps approaching, assess if they should be handled before or after vacation and then edit the next steps date based on your assessment
+  - If you have less urgent next steps approaching, assess if they should be handled before or after vacation and then edit the next steps date based on your assessment
 - [ ] Set your email OOO auto-reply including the email of the person covering for you. If your manager is available the days you are out you can add them as well in the email message and any other urgent correspondence
 
 On the day before time off:
+
 - [ ] Ensure all required 7 reports are up to date
 - [ ] Submit forecast in Clari
 - [ ] Options on phone notifications related to work:
@@ -167,6 +168,7 @@ On the day before time off:
   - Leave your computer closed and have a blast!
 
 Area Sales Managers have additional steps to consider before leaving for time off:
+
 - [ ] Set expectations on coverage for 1:1s and team meetings
 - [ ] Updating quote approval routing in SFDC to the person covering for you. Navigate to you name dropdown - My Settings - Personal - Approver Settings.  Search for the person covering next to Delegated Approver, confirm and select Save
 - [ ] In Navan, set Vacation Delegate in Settings - Account Details
@@ -181,6 +183,7 @@ Area Sales Managers have additional steps to consider before leaving for time of
 - Work on and close deals in the absent AE’s territory while they are out.
 
 Backup AEs are not required to:
+
 - Cover tasks unrelated to the specific AE role. For example, if the absent AE is a member of a Team Member Resource Group (TMRG), you are not expected to attend TMRG meetings.
 - Outbound campaigns to the absent AE’s customers (you can if you want to, of course).
 - Agree to be a backup if you do not have time to do so, or cover multiple team members. There are other AEs who can help.
@@ -254,7 +257,7 @@ It is a requirement for the Commercial Sales Team to tier their accounts using t
 **Example**: It's April 23rd, a new business Mid-Market opportunity is identified for a company at 410 employees and growing at an unknown rate (unclear due to being an agency). The company completed their evaluation with a trial ending this month, there are defined problems initially trying to solve, with some people who have used GitLab before.
 
 - Question for AE and self, what % chance of the purchase occurring in April, May, or June?
-    - 90% April, 10% May
+  - 90% April, 10% May
 
 ## Chorus recordings
 
@@ -275,6 +278,7 @@ Follow instructions for using [Chorus Scheduler](/handbook/sales/field-operation
 As we continue to grow as an organization, developing our sales skills to deliver an impeccable sales experience is a critical component of the customer experience, either leading them to enjoy working with GitLab or not, depending on the quality of that experience. We’ve created a program called “Project 35” to help you improve your selling skills. We are utilizing our largest opportunities for the quarter to hone in our selling skills with the goal of these skills being valuable on all other sales opportunities.
 
 As part of Project 35 we will be focusing on the following core selling skills:
+
 1. Running excellent sales calls & importance of pre-call prep
 1. Stronger discovery to uncover Command Plan (why now, why GitLab, why do anything at all)
 1. Building ROI
@@ -285,6 +289,7 @@ As part of Project 35 we will be focusing on the following core selling skills:
 1. Preparation for your next role & large deal management
 
 During a Project 35 call, The AE who is discussing their opportunity will answer the following questions:
+
 1. Prep for a no. What are all the questions or reasons they will say no?
 1. Are we building a relationship (onsite, something else?)
 1. Nail the project name and the timing of the project (sell services)
@@ -292,14 +297,11 @@ During a Project 35 call, The AE who is discussing their opportunity will answer
 1. Based on the information uncovered in the prior questions, use supporting reasons for AEs to update their next steps live. Managers should enter their comments in the Manager Notes section for any deals they review live or asynchronously.
 1. Engage wider sales team. Who are, by name, the CSMs, SAs, Partners that are helping sell the deal. Please assign them to the discussion in the document so that they are able to join the call and contribute to the discussion.
 
-
 ### Opportunity Consults and Lightweight Deal Reviews
 
 An [Opportunity Consult](/handbook/sales/command-of-the-message/opportunity-consults/) (OCF) is an in depth, two-way conversation between the AE and the ASM to review the opportunity [Command Plan](/handbook/sales/command-of-the-message/command-plan/#overview). The AE should expect to provide the ASM with more detailed information about the [Opportunity Overview](/handbook/sales/command-of-the-message/command-plan/#opportunity-overview) fields, the customer's pain points and desired outcomes, challenges or gaps in qualification aligned to the [MEDDPPICC](/handbook/sales/meddppicc/) opportunity qualification framework, articulate a [Close Plan](/handbook/sales/command-of-the-message/command-plan/#close-plan-details) and identify the biggest opportunity risk(s) and action(s) to mitigate those risks.
 
-
 A Lightweight Deal Review (LDR) is a shorter (5-10 minute) deal review that is designed to identify gaps in the [Command Plan](/handbook/sales/command-of-the-message/command-plan/#overview) and specific next steps. At the end of an LDR, an AE and ASM should have a plan in place to capture the information that is not in the Command Plan, and a specific plan of action on and before the next call.
-
 
 ### Opportunity Next Steps Best Practices
 
@@ -363,7 +365,7 @@ Designating each opportunity that has a shot to close at the end of each fiscal 
     - Is this opportunity Red or Green?
     - Why do anything at all?
     - Why GitLab?
-    - Why now? (Is there a time-driven reason this opportunity will close within a specific time time frame)
+    - Why now? (Is there a time-driven reason this opportunity will close within a specific time frame)
     - What level is your closest relationship with?
     - How can they help you:
         - Get accurate information on the ideal time for the customer to buy GitLab?
@@ -394,6 +396,7 @@ SMB Account Executives "SMB AEs" act as Account Executives and the face of GitLa
 ### SMB Roles
 
 SMB Account Executives are designated into one of the following pod positions:
+
 1. First Order
 1. Pooled
 1. Expand
@@ -426,7 +429,6 @@ Please read below and through the [SMB handbook page for more information](/hand
 - [Quotes / Sales Order Processing](/handbook/sales/commercial/#quotes--sales-order-processing)
 - [Customer Health Check Process](/handbook/sales/commercial/enablement/#commercial-sales-account-health-check-process)
 - [Gainsight Data in SFDC Definitions](/handbook/customer-success/product-usage-data/using-gainsight-data-in-sfdc/)
-
 
 ### Inbound Queue Management
 
@@ -468,7 +470,6 @@ Support will take the lead on all incoming requests in the queue and only forwar
 ![comm-sales-stages-exit-criteria](/handbook/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
 
 - Please read through the [Commercial Sales Opportunity Stages handbook page](/handbook/sales/commercial/comm-sales-opp-stages/) for more information.
-
 
 #### Web Direct Oppty Management in Salesforce
 
@@ -551,7 +552,6 @@ Mid-Market AEs work closely in tandem with the business development team and sal
 - [Customer Health Check Process](/handbook/sales/commercial/enablement/#commercial-sales-account-health-check-process)
 - [Gainsight Data in SFDC Definitions](/handbook/customer-success/product-usage-data/using-gainsight-data-in-sfdc/)
 
-
 ## Account Ownership Rules of Engagement for Commercial Sales updated 2022-09-22
 
 The Commercial Sales Team follows the [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement)
@@ -560,6 +560,7 @@ This section provides step by step clarity on how to follow the **ROE**.
 ### Process to follow
 
 Account will be organized into the following two categories:
+
 1. Accounts who were customers before February 1st of the fiscal year
 1. Accounts who became customers on or after February 1st of the fiscal year
 
@@ -597,7 +598,6 @@ All accounts that are not researched or identified as being assigned to the wron
 
 If the AE qualifies this and then keeps it, this can lead to disciplinary action.
 
-
 As part of the qualification process tt is expected to qualify the location of company headquarters and employee count so we can best support the customer. It is not acceptable to qualify location and employee count in a manner that jeopardizes the customer experience. If you are unsure, always tag your manager in chatter to review the data before involving the customer.
 
 ### Rules of Engagement Between MMKAFO and Mid-Market Territory for FY '23
@@ -605,6 +605,7 @@ As part of the qualification process tt is expected to qualify the location of c
 #### Fiscal Year 2023 Account Moves
 
 For all accounts that are in SalesForce.com as of February 24, 2022 the Mid-Market Key Accounts First Order team will own all accounts that are:
+
 1. Segmented to Mid-Market NORAM or EMEA
 1. Marked as "First Order Available" in SalesForce
 AND
@@ -665,11 +666,11 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 - If you find themselves thinking 1. “a Partner SA could execute on this customer-requested SA task”, or 2. AEs have customers that could benefit from a “Partner services attach engagement”, reach out on slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) with a Partner engagement request, if possible with a link to the related account or opportunity. A member of the channel team will promptly reach out to learn more about the request, and connect you with a Partner that is pre-qualified to promptly and properly execute on the task at hand, and keep you updated along the way.
 - AEs should lead planning and execution of the joint opportunity/customer pursuit with alignment and support of the partner and GitLab Channel Manager. The plan should be [tracked in SFDC with tasks and action items](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans). Partners should always get an email confirmation of any tasks assigned to them (via AE or Channel Mgr).
 - Channel Managers will engage with AE’s in the following ways:
-    - When a new deal registration arrives in the AE’s pipeline
-    - To review 2-3 Partners for the AE to work with for AE-selected joint customer success motions:
-        - The Channel Manager will bring the possibilities forward during this call
-        - 2 examples of working with Partners are featured in this <b>[this Levelup](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2)</b>
-        - AEs should share their thoughts about prioritizing which Partner activities would be best for which of their customers
+  - When a new deal registration arrives in the AE’s pipeline
+  - To review 2-3 Partners for the AE to work with for AE-selected joint customer success motions:
+    - The Channel Manager will bring the possibilities forward during this call
+    - 2 examples of working with Partners are featured in **[this LevelUp](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2)**
+    - AEs should share their thoughts about prioritizing which Partner activities would be best for which of their customers
 - In the case of Open partners via distributions, when the opportunity is ready, AE's email `partnersupport@gitlab.com` with the link to the opportunity requesting quote-to-order support (chatter alias coming soon)
 
 #### Resources to learn more about teaming with Channel Partners?
@@ -680,7 +681,6 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 - Slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) or reach out to your Channel Account Manager with any questions or requests for assistance. The channel is closely monitored by several members of the channel team who are here to help AE’s succeed in co-selling in any way we can.
 - List of [GitLab-trained OPEN and SELECT channel partners](https://help.salesforce.com/articleView?id=reports_schedule.htm&type=5)
 - Channel Partner Finder **[Here](https://partners.gitlab.com/English/directory/)
-
 
 #### Mid-Market First Order Account Handoff and Named/Territory Collaboration Process
 
@@ -745,17 +745,12 @@ Mid-Market First Order AEs will own an account until the customer has a working 
     - In an effort to not waste Named/Territory AEs time, an introduction should not be made unless there is a very high close percentage. Therefore, an introduction is best if made when the opportunity is in *stage 5 or 6*.
 1. Named/Territory AEs and First Order AEs should meet often (every other week on average) to identify accounts where a pre-contract introduction would make sense.
 
-
-
-
-
-
-
 ## Commercial Leadership Development Pilot Program
 
 This pilot program is for Commercial team members interested in learning more about Sales management and building foundational leadership skills.
 
 This program is designed to give team members:
+
 1. Exposure to leadership topics and development of foundational leadership skills
 1. Leadership frameworks that they can modify and apply to their teams
 1. Experience with the expectations of a sales leader and how that differs from an individual contributor role
@@ -765,20 +760,21 @@ The program will run for a total of **8** weeks;  each week focusing on a new to
 
 | Week | Topic | Description |
 | ---------- | ----- | --------|
-| 1 | Leading People | Primary differences between being an individual contributor and a leader, establishing a V2MOM for your newly created team, building an inclusive culture, situational leadership, coaching model, establishing expectations for success and the cadence of events to drive consistent results on a daily, weekly, monthly, quarterly and annual basis
-| 2 | Running Effective 1 on 1s | Core components for every meeting, how to capture and provide feedback from activities during the week, building consistency in performance through consistent accountability in one on one.
-| 3 | A Leaders Responsibility on Sales Calls| Structure of an effective pre-call meeting, what roles a leader should focus on during the sales call, expected follow up for coaching and delivering results
-| 4 | Running Effective Team Meetings | Key components to a great team meeting - recognition, training, results, pipeline creation and current events. How to structure a meeting to bring energy and ensure AEs leave with clear expectations for the week ahead
-| 5 | Coaching and Providing Feedback | Utilizing different coaching frameworks based on situational need - GROW, SBI, Skill/Will Coaching Model. An HR partner’s perspective on key professional items that may arise and how to handle them
-| 6 | Forecasting & Managing Metrics |Understanding what leading and lagging indicators to measure. Implementing programs based on the trends identified in metrics to ensure consistent, positive results. Learning how to forecast effectively and the role Red/Green plays in being a great coach and manager
-| 7 | Recruiting and Interviewing | How Diversity, Inclusion and Belonging is essential to building a world class team. A recruiter’s point of view on how to attract top talent. Review and discuss our Commercial interview methodology. Discuss what questions and activities ensure our interview process is inclusive and legal
-| 8 |Components of an Effective Pipe Generation Campaign| Review the primary reasons consistent pipe gen campaigns are needed for sustainable growth. Key components of an effective pipeline campaign. How to launch, reinforce, measure and recognize for effective results.
+| 1 | Leading People | Primary differences between being an individual contributor and a leader, establishing a V2MOM for your newly created team, building an inclusive culture, situational leadership, coaching model, establishing expectations for success and the cadence of events to drive consistent results on a daily, weekly, monthly, quarterly and annual basis |
+| 2 | Running Effective 1 on 1s | Core components for every meeting, how to capture and provide feedback from activities during the week, building consistency in performance through consistent accountability in one on one. |
+| 3 | A Leaders Responsibility on Sales Calls| Structure of an effective pre-call meeting, what roles a leader should focus on during the sales call, expected follow up for coaching and delivering results |
+| 4 | Running Effective Team Meetings | Key components to a great team meeting - recognition, training, results, pipeline creation and current events. How to structure a meeting to bring energy and ensure AEs leave with clear expectations for the week ahead |
+| 5 | Coaching and Providing Feedback | Utilizing different coaching frameworks based on situational need - GROW, SBI, Skill/Will Coaching Model. An HR partner’s perspective on key professional items that may arise and how to handle them |
+| 6 | Forecasting & Managing Metrics |Understanding what leading and lagging indicators to measure. Implementing programs based on the trends identified in metrics to ensure consistent, positive results. Learning how to forecast effectively and the role Red/Green plays in being a great coach and manager |
+| 7 | Recruiting and Interviewing | How Diversity, Inclusion and Belonging is essential to building a world class team. A recruiter’s point of view on how to attract top talent. Review and discuss our Commercial interview methodology. Discuss what questions and activities ensure our interview process is inclusive and legal |
+| 8 |Components of an Effective Pipe Generation Campaign| Review the primary reasons consistent pipe gen campaigns are needed for sustainable growth. Key components of an effective pipeline campaign. How to launch, reinforce, measure and recognize for effective results. |
 
 #### Expectations of Participants
 
 - Time Committment: A total of ~40 hours of dedicated time during the quarter between synchronous meetings and asynchronous work.
 
 The GitLab Commercial department expects all Team members to uphold the highest standards of moral and ethical behavior in harmony with GitLab’s CREDIT values. Engaging or promoting activities that are inconsistent with GitLab’s values is not acceptable. It is expected that Team members who are enrolled will uphold both stated and inferred values of working at GitLab. Items include but are not limited to:
+
 - Good collaboration with other team members
 - Assuming positive intent
 - Continuing to deliver results in the team member’s current position
@@ -788,8 +784,6 @@ Additionally, it is our expectation that if participating in the program, team m
 
 **Who is eligible to participate?**
 Any Commercial team member that is in good performance standing (not currently on a performance or behavioral warning) and has been in their current role for over 3 months.  We will be selecting 12 participants for this first cohort. It is our itention that this program continue after the first pilot program to continue to give Commercial team members a chance to grow their skills.
-
-
 
 ## Other Related Pages
 

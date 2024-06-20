@@ -52,11 +52,11 @@ Application Requests are managed via a [Change Management Issue](https://gitlab.
 
 **Things to consider before opening a request:**
 
-   - Has the Vendor Representative (AE, CSM) confirmed that SSO, SAML or SCIM is supported?
-      - Please set up a call with a technical contact for the vendor and start an email thread to confirm available features for SSO and automated user management.
-   - How should user creation, updates, and deactivation be processed?
-   - Which groups of users need access to this? An exact list of existing Google groups or a list of users will be needed.
-   - **Timeline:** Please allow up to *4 weeks* for an application integration to be completed. If the request is urgent, please tag your manager and explain the urgency and requested date of completion.
+- Has the Vendor Representative (AE, CSM) confirmed that SSO, SAML or SCIM is supported?
+  - Please set up a call with a technical contact for the vendor and start an email thread to confirm available features for SSO and automated user management.
+- How should user creation, updates, and deactivation be processed?
+- Which groups of users need access to this? An exact list of existing Google groups or a list of users will be needed.
+- **Timeline:** Please allow up to *4 weeks* for an application integration to be completed. If the request is urgent, please tag your manager and explain the urgency and requested date of completion.
 
 ## How do I request an app to be updated?
 
@@ -108,7 +108,7 @@ There is an example of this in the Application configuration Video linked on the
 
 ## Can the apps be renamed or append their function?
 
-Yes, we can add App Notes to each of the Apps, and will work through them to add intuitive labels. For an example, we have already enabled this on BambooHR and a few others. To configure Apps and improve your user experience, please see the Dashboard Tips video on the Okta main page.
+Yes, we can add App Notes to each of the Apps, and will work through them to add intuitive labels. For an example, we have already enabled this on Workday and a few others. To configure Apps and improve your user experience, please see the Dashboard Tips video on the Okta main page.
 
 ## Is there a reason why my Application is not integrated via SAML2.0?
 
@@ -120,7 +120,7 @@ At GitLab, your GitLab email address is your username. If you've forgotten your 
 
 ## How do I make a safe password?
 
-Okta supports strong passwords through the use of password complexity rules and length, consistent with our password policy. Please follow [GitLab’s Password Policy guidelines](/handbook/security/#GitLab-password-policy-guidelines) to determine the rules.
+Okta supports strong passwords through the use of password complexity rules and length, consistent with our password policy. Please follow [GitLab’s Password Policy guidelines](/handbook/security/#gitlab-password-policy-guidelines) to determine the rules.
 
 ## How does Multi-­factor Authentication (MFA) work?
 

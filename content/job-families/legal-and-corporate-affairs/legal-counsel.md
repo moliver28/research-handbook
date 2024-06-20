@@ -218,7 +218,7 @@ The Senior Managing Legal Counsel is a [Grade 9](/handbook/total-rewards/compens
 
 ### Product and Privacy
 
-The Legal Counsel, Product and Privacy collaborates with clients across GitLab on a broad range of matters including IP, product, marketing and privacy. In addition to the general Responsibilities and and Requirements above, this role specifically requires:
+The Legal Counsel, Product and Privacy collaborates with clients across GitLab on a broad range of matters including IP, product, marketing and privacy. In addition to the general Responsibilities and Requirements above, this role specifically requires:
 
 - Experience providing counseling to product and engineering teams on products and features throughout the development lifecycle, and identifying legal issues
 - Knowledge and understanding of open source licensing

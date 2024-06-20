@@ -31,12 +31,14 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen, Pattie Egan. Backups: Jim Gladen & Simon Mundy |
 | GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan|
+| GitLab Israel LTD | Jim Gladen, Simon Mundy|
 | GitLab IT BV | Marissa Farris, Pattie Egan |
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar & Rob Allen |
 | GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
 | GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
+| Oxeye Security Ltd. | James Gladen, Simon Mundy|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
@@ -200,6 +202,34 @@ To change a start date after a **PEO** contract has been signed and the new team
    - Under "Document Category" select "Contracts & Changes"
    - Under "Comment" write "Start Date Change"
    - Upload
+
+### How to Update a Start Date for an internal candidate after the Job Change Letter is Signed
+
+To change a start date after a Job Change Letter (JCL) has been signed and the internal team member has been “hired” in GreenHouse, the Candidate Experience Specialist will complete the following steps:
+
+1. Once the start date change request comes through, CES will advise the recruiter to collaborate with the hiring manager or PBP to raise a HelpLab ticket for the People Connect team to make these changes in Workday.
+The hiring manager or PBP should provide confirmation of the new start date via the HelpLab ticket.
+1. CES can update GreenHouse:
+   - Go to Offer Details
+   - Click the edit pencil next to the start date
+   - Select the new Start Date
+   - Save
+   - In the "Make a Note" section in Greenhouse, state the old start date and the new state date, and tag the person on FP&A (typically the second approver) who approved the offer.
+   - Save
+
+### How to Update a Start Date After a French contract has been signed
+
+   Please follow the normal start date change [process](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#how-to-update-a-start-date-after-the-contract-is-signed), thereafter, please follow the following steps:
+
+   1. Make a copy of this Start Date Amendment [letter](https://docs.google.com/document/d/1qpxTi6nPrT4KXDi87tDAWm49D9NZNvTS/edit)
+   1. Edit all the highlighted details and save the document on your desktop
+   1. In Docusign, create a new envelope and set the signing order as follows:
+      - 1 - GitLab France Signatory (sign)
+      - 2 - The candidate (sign)
+      - 3 - Alessio Spaggiari (copy)
+   1. Use the TextExpander ‘Francesd’ in the body of the email in Docusign
+   1. Request the signatory in the contracts Slack Channel `#contracts-to-sign` to sign the letter
+   1. Once the document has been signed, load it onto the candidate's profile in WorkDay
 
 ### How to Void a Contract Before a Candidate Signs
 
@@ -536,12 +566,10 @@ The process for creating and sending an agreement is as follows:
     -CES should double-check that the contract reflects all the correct information that we sent to them.
 1. Once the contract is signed by the new hire, Global Upside will notify the CES.
 1. Proceed with marking them as hired in Greenhouse, adjusting the ‘Accepted’ date to match the ‘Sent’ date, sending the welcome email, and making sure all other candidates have been rejected prior to marking as hired and closing the req.
-1. Lastly, once the background check is completed for the new hire, the CES needs to share that background check with Global Upside.     - Send the new hire the 'India - Background Check Notification' email that is located in the candidate email templates. This notifies the new hire that GitLab will be sharing their background check with Global Upside.
-    - The CES will upload the PDF of the completed background check to the safe and encrypted portal, Egnyte, in the 'Background Checks' folder under Client Upload.
 
 ## Remote.com
 
-GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, South Africa, Mexico, Austria, Denmark, Switzerland, Spain, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
+GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, South Africa, Mexico, Austria, Denmark, Switzerland, Italy, and Hungary. The actual employment contracts will be sent and issued by Remote and are in accordance with local labor law.  The offer details will be provided to Remote by GitLab's hiring team.
 
 To create the contract:
 
@@ -570,6 +598,16 @@ To create the contract:
 1. Remote will prepare the New Employee Contract and will inform the Candidate Experience Specialist when the contract is sgined.
 1. Once  CES receives confirmation that the candidate has signed the Remote.com contract (can be viewed in portal), they will continue steps as normal - send Welcome Email and [mark the candidate as hired]({{< ref "./coordinator#send-contract" >}}). See steps 10-12.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
+
+## Advance Funds process for locations GitLab can not order laptops
+
+There are a handful of countries, listed [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#new-hire-laptop-ordering-process) where new hires will need to procure their own laptop before their start date.
+
+1. The CES team member will identify that the new hire is located in one of these countries, and will send the New Hire Welcome Email - Israel, Brazil, Costa Rica, Chile template.
+1. This email uses a different Google form than the regular Welcome Email. The new hire will be presented with two options and be asked to select their preference:
+    - Purchase and expense for reimbursement through NAVAN on their first day at GitLab
+    - Request advanced funds to self-procure
+1. IT will receive an issue in their [IT Equipment Order Processing](https://gitlab.com/gitlab-com/it/end-user-services/issues/it-equipment-order-processing/-/issues/?sort=closed_at_desc&state=opened&first_page_size=100) desk with the new hire’s selection. If the candidate has requested advanced funds, IT will then tag AP within the issue and provide approval for the laptop purchase. AP will gather the new hire’s banking details and release the funds.
 
 ## How to add the New Hire to the Remote platform
 
@@ -613,7 +651,6 @@ Kindly note the following when filling in this section:
 | Luxembourg | Premium |
 | Brazil | Omint Plan (should be added for you) |
 | Italy | Premium |
-| Spain  | Premium |
 | Switzerland | None |
 | Sweden | Standard |
 
@@ -709,10 +746,10 @@ Please follow the outlined steps below before sending the unsigned copy of the C
     1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field blank.
     1. **Scroll down to the end of the contract** - replace Signatory's name with “GitLab Signatory”. Save the contract as a PDF format.
 - To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-    - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
-    - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
-    - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
-    - **Attachment** : CES to attach the unsigned PDF contract
+  - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
+  - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
+  - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
+  - **Attachment** : CES to attach the unsigned PDF contract
 - In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “German Contract already sent to counsel”.
 - A welcome email should be sent to the candidate, and they should be marked as hired as per the normal hiring process.
 - Once the candidate has confirmed that they have received the physical contract in mail. CES will send the email template "German Contract step 2" to the candidate and close out the issue.
@@ -734,11 +771,11 @@ The Intern contract template will be used for both C2C interns and all other int
 1. After the offer is sent, CES will initiate the background check by selecting the Comprehensive Criminal Check with Employment. **IMPORTANT NOTE - If this is a C2C (Code2College) intern - you will only need to select the Comprehensive Criminal Check in Sterling. Employment check is not needed as most C2C interns will be minors.**
 1. Because most interns from C2C are minors, at the time the BGC is initiated, CES will also need to send the [Parental Consent Form](https://docs.google.com/document/d/1J0xundRL___Hhg0zNkt7KTMMEgTv63U5rseqTlmv8ok/edit) to the interns guardian.
 
- - This form can be send via DocuSign
- - Please add appropriate tokens
- - Please set up distribution as follows (guardian email can be recieved from Emerging Talent Coordinator):
-    - 1. Guardian - Needs to sign
-    - 2. Emerging Talent Coordinator - receives a copy
+   - This form can be send via DocuSign
+   - Please add appropriate tokens
+   - Please set up distribution as follows (guardian email can be recieved from Emerging Talent Coordinator):
+      1. Guardian - Needs to sign
+      1. Emerging Talent Coordinator - receives a copy
 
 1. Once the offers are signed by the candidate, CES will send the GitLab Inc Intern Welcome Email. **Note: GitLab will provide laptops to these interns. The Welcome Email asks them to fill out form ASAP**
 1. Once the req is cleared, CES can mark the Intern as hired.

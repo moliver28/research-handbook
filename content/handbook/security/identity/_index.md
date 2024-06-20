@@ -55,7 +55,7 @@ In Identity v3, we will use programmatic provisioning so every action and metada
 
 Our next-gen architecture will allow us to automate just-in-time access for elevated and administrative actions that are burdensome to manage manually.
 
-For users that need perpetual administrative access, we have an additional admin account for each of the users in Customer Support, Infrastructure, IT, Security and other roles. See [access level wristbands](/handbook/it/policies/access-level-wristbands/) to learn more.
+For users that need perpetual administrative access, we have an additional admin account for each of the users in Customer Support, Infrastructure, IT, Security and other roles. See [access level wristbands](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/) to learn more.
 
 We are also investing in additional administrative control plane separation. Details are not published in the public handbook for security reasons.
 

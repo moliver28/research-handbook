@@ -65,7 +65,7 @@ In additional to enabling sales, PMMs should partner with sales and actively eng
 1. Improved Messaging - test messaging directly on end customers to gauge their reaction and get feedback. Understand their pain points and values in order to use them to fuel your messaging.
 2. Know the buyers journey end-to-end - understand the stages of the buyer process by actively engaging with them.
 3. Assist sales on key deals - PMM can serve as product and market SMEs who can tell the story of thier solutions in a compelling way to help move key deals forward.
-4. PM triage/assist/feedback -As part of the PM <> PMM partnership PMMs can recommend customers they've talked to to their PMs to enage with and assist in the gathering of product feedback during customer calls to share with the PM. Similarly, PMs can share messaging feedback, buyer persona info, and sales process insights they gather on calls with customers with their PMMs.
+4. PM triage/assist/feedback -As part of the PM <> PMM partnership PMMs can recommend customers they've talked to their PMs to enage with and assist in the gathering of product feedback during customer calls to share with the PM. Similarly, PMs can share messaging feedback, buyer persona info, and sales process insights they gather on calls with customers with their PMMs.
 
 ### Metrics and Measures
 
@@ -115,7 +115,6 @@ In additional to enabling sales, PMMs should partner with sales and actively eng
 ### PMM Talk Inventory
 
 <iframe width="950" height="900" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvkbjALQnaEu_vg0i_UEfFStZttVxMP0WCzTaDIGS31ZL_ndVvBgaEWn_OkrRYRPYQtj6g9bJV2J0C/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;rm=minimal&amp;range=published_talks"></iframe>
-
 
 ### Release vs. launch
 

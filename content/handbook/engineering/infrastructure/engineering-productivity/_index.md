@@ -15,14 +15,14 @@ description: "The Engineering Productivity team increases productivity of GitLab
 
 | Team Members                                     | Role                                                |
 |------------------------------------------------- | --------------------------------------------------  |
-| {{< member-by-name "Ethan Guo" >}}               | Acting Engineering Manager                          |
-| {{< member-by-name "Alina Mihaila" >}}           | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Vincy Wilson" >}}            | Acting Engineering Manager                          |
+| {{< member-by-name "Rémy Coutable" >}}           | Principal Engineer, Infrastructure                  |
 | {{< member-by-name "David Dieulivol" >}}         | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Nao Hashizume" >}}           | Backend Engineer, Engineering Productivity          |
+| {{< member-by-name "Kev Kloss" >}}               | Frontend Engineer, Engineering Productivity         |
+| {{< member-by-name "Peter Leitzen" >}}           | Staff Backend Engineer, Engineering Productivity    |
 | {{< member-by-name "Jennifer Li" >}}             | Senior Backend Engineer, Engineering Productivity   |
 | {{< member-by-name "Jen-Shin Lin" >}}            | Senior Backend Engineer, Engineering Productivity   |
-| {{< member-by-name "Nao Hashizume" >}}           | Backend Engineer, Engineering Productivity          |
-| {{< member-by-name "Peter Leitzen" >}}           | Staff Backend Engineer, Engineering Productivity    |
-| {{< member-by-name "Rémy Coutable" >}}           | Principal Engineer, Infrastructure                  |
 
 ### Stable Counterpart
 
@@ -174,7 +174,7 @@ Pipeline changes that have the potential to have an impact on the GitLab.com inf
 
 Pipeline changes that meet the following criteria must follow the [Criticality 3](/handbook/engineering/infrastructure/change-management/#criticality-3) process:
 
-- update to the [`cache-repo` job](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/ci/cache-repo.gitlab-ci.yml) job
+- update to the [`cache-repo` job](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/ci/cache-repo.gitlab-ci.yml)
 
 These kind of changes [led to production issues in the past](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/3013).
 

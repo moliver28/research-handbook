@@ -333,8 +333,7 @@ charts and operator pipelines with the `review__<cluster_version>`,
 
 We do smoke testing for our `N`, `N-1`, and `N-2` Kubernetes releases. Smoke
 testing is done in our pipelines with the `review_vcluster_<cluster_version>`
-jobs. This test deploys the GitLab Helm chart or Operator to a [virtual
-cluster](https://www.vcluster.com/).
+jobs. This test deploys the GitLab Helm chart or Operator to a [virtual cluster](https://www.vcluster.com/).
 
 #### Validation testing
 

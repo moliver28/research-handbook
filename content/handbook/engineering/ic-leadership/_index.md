@@ -79,8 +79,7 @@ There are [four common archetypes of Staff-plus roles in the industry](https://s
 The most common archetype for a new Staff Engineer is the Tech Lead, as a
 Senior Engineer may start showing Staff level behaviors emerging from their
 team. At GitLab, this is not only an archetype but also a role assigned to
-engineers on per-project basis. Read more about this on a dedicated [Tech Lead
-Handbook page](/handbook/engineering/ic-leadership/tech-lead).
+engineers on per-project basis. Read more about this on a dedicated [Tech Lead Handbook page](/handbook/engineering/ic-leadership/tech-lead).
 
 A Staff Engineer partners with the Engineering Manager and the Product Manager
 for milestone planning and helps teammates address complexity with their

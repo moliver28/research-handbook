@@ -20,14 +20,14 @@ Some of these resources include:
 - Ability to [add a Financial Coach](https://drive.google.com/file/d/1bZj00YXuWfl47QXOMBzLXkej5NgQvygQ/view?usp=sharing) to your care team.
 - Digital program through the app titled `Financial Well-being`.
 - [**Modern Health Money Management Circle:**](#modern-health) GitLab hosted a **Money Management Circle** through Modern Health with an emphasis on the psychological component of Financial Wellness. **Link to [Recording](https://www.youtube.com/watch?v=YhoHMT94Mkg)**
-    - **Session Description:** What does “wealth” mean to you? Understanding the psychology of money and wealth can help you achieve your financial goals. Join this session with a Modern Health provider to learn how to assess your financial situation and identify your financial values and self-identity.
+  - **Session Description:** What does “wealth” mean to you? Understanding the psychology of money and wealth can help you achieve your financial goals. Join this session with a Modern Health provider to learn how to assess your financial situation and identify your financial values and self-identity.
 
 ### SageView
 
 GitLab offers all team members the ability to use the Financial Wellness Program through SageView. This program includes:
 
 - 1:1 sessions for all GitLab team members globally to connect with a dedicated Wellness Specialist to discuss topics such as Investment Assets (including Stock Options), Asset Protection, Income Protection, Debt Management, and Estate Planning.
-    - The main goal here is the commitment to help understanding how the GitLab equity plan works, and providing resources in what team members can consider in financial management. SageView won't provide tax, legal, or financial advice, but can help you to understand the pieces of information you will need to seek personal advise on to manage your own personal situation.
+  - The main goal here is the commitment to help understanding how the GitLab equity plan works, and providing resources in what team members can consider in financial management. SageView won't provide tax, legal, or financial advice, but can help you to understand the pieces of information you will need to seek personal advise on to manage your own personal situation.
 - Access to [Sage411](http://www.sage411.com) for general questions and investment support.
 - Access to SageView’s communications
 - Financial Wellness Workshops hosted by SageView
@@ -38,7 +38,7 @@ GitLab hosted a kickoff call with SageView to discuss an overview of the program
 
 - **Recording:** [Presentation (Option 1)](https://www.youtube.com/watch?v=2rsUjnjjYQ0), AMA [(Option 2)](https://www.youtube.com/watch?v=kKJii7YbFxY)
 - **[Session Description](https://drive.google.com/file/d/1rPc_7iCiZV33BMuoithOlaJefeWNYgAK/view?usp=sharing):**
-    - The specifics of Financial Wellness are different for everyone, but the common underlying theme is similar for most; identify your resources and utilize your opportunities in a way that gives you both peace of mind and the highest likelihood of achieving your financial goals.
+  - The specifics of Financial Wellness are different for everyone, but the common underlying theme is similar for most; identify your resources and utilize your opportunities in a way that gives you both peace of mind and the highest likelihood of achieving your financial goals.
 
 ### LinkedIn Learning
 
@@ -62,20 +62,20 @@ Schwab can also assist with investment support as a complimentary service throug
 **Resources Available within Schwab:**
 
 - Award Calculators: The following award calculators are available to account holders to hypothetically model different option and share scenarios.
-    - Raise cash: How many shares would I need to sell, or options to exercise and sell, to raise a specific dollar amount?
-    - Get shares: How much would it cost to exercise a stock option and hold the shares?
-    - ​​Estimate the proceeds from a potential sale: How much cash could I receive from selling shares or exercising and selling stock options?
-    - Raise cash and get shares: How many shares would I need to sell to pay for a stock option exercise and hold, plus raise additional cash?
-    - Schwab also has a [calculator library](https://client.schwab.com/app/accounts/financialplanning/#/tools) for modeling many other types of financial goals.
+  - Raise cash: How many shares would I need to sell, or options to exercise and sell, to raise a specific dollar amount?
+  - Get shares: How much would it cost to exercise a stock option and hold the shares?
+  - ​​Estimate the proceeds from a potential sale: How much cash could I receive from selling shares or exercising and selling stock options?
+  - Raise cash and get shares: How many shares would I need to sell to pay for a stock option exercise and hold, plus raise additional cash?
+  - Schwab also has a [calculator library](https://client.schwab.com/app/accounts/financialplanning/#/tools) for modeling many other types of financial goals.
 - Schwab Insights - Examples of Available Modules include:
-    - [How to Invest](https://www.schwab.com/how-to-invest)
-    - [Investing Basics](https://www.schwab.com/how-to-invest/investing-basics)
-    - [How to Start Investing on Your Own](https://www.schwab.com/how-to-invest/how-to-start-investing)
-    - How to Invest [1,000](https://www.schwab.com/how-to-invest/what-to-do-with-1k), [10,000](https://www.schwab.com/how-to-invest/what-to-do-with-10k) or [100,000](https://www.schwab.com/how-to-invest/what-to-do-with-100k).
-    - There is also a [full Library](https://client.schwab.com/secure/cc/guidance/insights) of content relating
+  - [How to Invest](https://www.schwab.com/how-to-invest)
+  - [Investing Basics](https://www.schwab.com/how-to-invest/investing-basics)
+  - [How to Start Investing on Your Own](https://www.schwab.com/how-to-invest/how-to-start-investing)
+  - How to Invest [1,000](https://www.schwab.com/how-to-invest/what-to-do-with-1k), [10,000](https://www.schwab.com/how-to-invest/what-to-do-with-10k) or [100,000](https://www.schwab.com/how-to-invest/what-to-do-with-100k).
+  - There is also a [full Library](https://client.schwab.com/secure/cc/guidance/insights) of content relating
 - [Schwab Learning Center](https://client.schwab.com/secured/learning-center/start-learning-about-stocks) with specific content related to:
-    - **Stocks:** Develop a better understanding of the benefits and risks of stock ownership and how it may fit in your trading and investing plans.
-    - **Options:** Take a closer look at options trading and different ways to build a strategy.
+  - **Stocks:** Develop a better understanding of the benefits and risks of stock ownership and how it may fit in your trading and investing plans.
+  - **Options:** Take a closer look at options trading and different ways to build a strategy.
 
 ## Total Rewards and Financial Wellness for Managers
 
@@ -91,9 +91,9 @@ The Total Rewards Summary will be available to managers of team members who have
 - Navigate to the profile of one of your direct reports. Select the Documents tab and expand the `Annual Compensation Review Total Rewards Statements` folder.
 - You can either select the linked document name to open a quick view of the Total Rewards Summary in BambooHR or select the download button that appears to the right of the letter. If you are a manager and are unable to see the Documents tab for your team member, please reach out to `total-rewards@ gitlab` and we will review your access level.
 - [Total Rewards Summary example](https://drive.google.com/file/d/1TxOdKxPuFvTRJIswZQEJTmd5IGEMZgx7/view?usp=sharing)
-    - Each summary will have a Cash Compensation section outlining the current (FY22) compensation as of November 1st.
-    - For team members who are paid a base salary only, the `Target Bonus (Variable)` column will show `Not Applicable`.
-    - Each summary will also have a section for Equity Compensation. The table will show the amount and value of vested and unvested shares held by the team member as of 2021-10-14 with the conversion price detailed on the statement.
+  - Each summary will have a Cash Compensation section outlining the current (FY22) compensation as of November 1st.
+  - For team members who are paid a base salary only, the `Target Bonus (Variable)` column will show `Not Applicable`.
+  - Each summary will also have a section for Equity Compensation. The table will show the amount and value of vested and unvested shares held by the team member as of 2021-10-14 with the conversion price detailed on the statement.
 - Team Members have access to their own equity holdings, so it’s not required to share the Total Rewards Summary with team members, unless it is useful in facilitating a conversation. To share the letter directly with the team member, select the gear button to the right of the letter, select "Share with Employee", and, in the pop up prompt, select "Share" again.
 - ![share letter](/images/handbook/people-group/Share_Letter.png)
 

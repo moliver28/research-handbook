@@ -125,28 +125,28 @@ Board meetings can happen remotely or in-person. We establish the meeting calend
 1. Board of Directors meetings are held quarterly and they are all remote; everyone joins with their own video conference setup from a separate location.
 1. Meetings are scheduled on/around the Thursday 6 weeks after the end of the quarter, assuming availability of the Directors.
 1. The 2024 schedule of Board meetings is as follows:
-    - 2024-03-28
-    - 2024-06-27
-    - 2024-09-26
-    - 2024-12-12
+   - 2024-03-28
+   - 2024-06-27
+   - 2024-09-26
+   - 2024-12-12
 
 The Staff EBA to the CEO shall ensure that there are separate calendar invites for all attendees within each session, all including exact session start and end times, the appropriate Zoom link, and links to the agenda document. Any supplemental materials are required to be linked in the agenda document for each session:
 
 - Session 1: Closed Session (Part 1)
-    - Duration: 15 minutes
-    - Attendees: GitLab Board of Directors
+  - Duration: 15 minutes
+  - Attendees: GitLab Board of Directors
 - Session 2: Administration Session
-    - Duration: 30 minutes
-    - Attendees: GitLab Board of Directors, GitLab CFO, CPO and CLO, outside legal firm, Board observers
+  - Duration: 30 minutes
+  - Attendees: GitLab Board of Directors, GitLab CFO, CPO and CLO, outside legal firm, Board observers
 - Session 3: Board of Directors Meeting - General Session
-    - Duration: 75 minutes
-    - Attendees: GitLab Board of Directors, E-Group, CoS to the CEO, Staff EBA, outside legal firm representatives, Board observers
+  - Duration: 75 minutes
+  - Attendees: GitLab Board of Directors, E-Group, CoS to the CEO, Staff EBA, outside legal firm representatives, Board observers
 - Session 4: Closed Session (Part 3) (optional, if needed)
-    - Duration: 20 minutes
-    - Attendees: GitLab Board of Directors
+  - Duration: 20 minutes
+  - Attendees: GitLab Board of Directors
 - Session 5: Board Only (without GitLab CEO)
-    - Duration: 20 minutes
-    - Attendees: GitLab Board of Directors (without the GitLab CEO)
+  - Duration: 20 minutes
+  - Attendees: GitLab Board of Directors (without the GitLab CEO)
 
 ## Board Meeting Process
 
@@ -215,7 +215,7 @@ Each quarter, [E-Group]({{< ref "structure#e-group" >}}) can choose to invite an
 1. High performance
 1. Clear results
 1. Function (should have representation across functions throughout the year)
-1. Diversity (participation from members in [GitLab Team Member Resource Groups]({{< ref "erg-guide" >}})
+1. Diversity (participation from members in [GitLab Team Member Resource Groups]({{< ref "erg-guide" >}}))
 
 Once the Key Talent Guest has been identified, it is the relevant E-Group team member's responsibility to ensure that managers of this person are aware of the invite. The EBA to the CEO will then confirm that the guest is able to join. If not, the invite will go to the runner up. Once a Key Talent Guest is confirmed, the EBA to the CEO should enter their name in the [Key Talent Board Dinner Guests](#key-talent-board-dinner-guests).
 
@@ -319,15 +319,15 @@ Board member onboarding from a GitLab orientation perspective:
 
 #### CLO DRI
 
-New Director will be be provided with:
+New Director will be provided with:
 
 1. Links to relevant Handbook pages, including:
 
-  - Committee Membership
-  - Committee Charters
-  - Code of Conduct
-  - Related Party Transactions Policy
-  - Bylaws
+   - Committee Membership
+   - Committee Charters
+   - Code of Conduct
+   - Related Party Transactions Policy
+   - Bylaws
 
 1. Certificate of Incorporation
 1. Access to the Legal Board Drive
@@ -341,65 +341,65 @@ New Director will be be provided with:
 1. Update Board distribution list with Board Member and support staff
 1. Send calendar invites to Board member and support staff for:
 
-  - Board meetings as well as a Board calendar covering meetings for next fiscal year
-  - Board dinners
-  - Board Committee Meetings (as needed)
-  - Commit
-  - Contribute
-  - Sales Kickoff
-  - President's Club
+   - Board meetings as well as a Board calendar covering meetings for next fiscal year
+   - Board dinners
+   - Board Committee Meetings (as needed)
+   - Commit
+   - Contribute
+   - Sales Kickoff
+   - President's Club
 
 1. Update Board Member contact information list and circulate to Board and support staff
 1. Schedule AMA with New Board member
 1. Schedule *Functional Reviews* within the first month:
 1. Corporate Strategy (CEO) - 50 mins
 
-  - Materials for meeting: Most recent Board of Directors meeting presentation, Key Review slides, current quarter OKRs. Please do not generate new content. The Staff EBA to the CEO sends material to the new Director at least 72 hours in advance. The meeting is centered around the new Director's questions
-  - [GitLab Strategy](/handbook/company/strategy/)
-  - [3 year strategy](/handbook/company/strategy/#three-year-strategy)
-  - [Company KPI's](/handbook/company/kpis/)
-  - [Quarterly OKRs](/handbook/company/okrs/)
-  - [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/)
+   - Materials for meeting: Most recent Board of Directors meeting presentation, Key Review slides, current quarter OKRs. Please do not generate new content. The Staff EBA to the CEO sends material to the new Director at least 72 hours in advance. The meeting is centered around the new Director's questions
+   - [GitLab Strategy](/handbook/company/strategy/)
+   - [3 year strategy](/handbook/company/strategy/#three-year-strategy)
+   - [Company KPI's](/handbook/company/kpis/)
+   - [Quarterly OKRs](/handbook/company/okrs/)
+   - [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/)
 
 1. Finance (CFO) - 80 minutes suggested
 
-  - Financing profile, liquidity, creditworthiness, credit ratings
-  - Current issues, Board oversight issues
-  - Risk assessment
-  - Disclosure controls, internal controls
-  - Information systems
-  - Internal audits
-  - Role of independent auditor
-  - Current topics, Board oversight
-  - Discuss separate meeting with Auditors
-  - Audit Committee Overview
+   - Financing profile, liquidity, creditworthiness, credit ratings
+   - Current issues, Board oversight issues
+   - Risk assessment
+   - Disclosure controls, internal controls
+   - Information systems
+   - Internal audits
+   - Role of independent auditor
+   - Current topics, Board oversight
+   - Discuss separate meeting with Auditors
+   - Audit Committee Overview
 
 1. Legal, Compliance, Regulatory, Governance (CLO)  - 50 minutes suggested
-    - Legal matters, if any
-    - Compliance and regulatory, generally
-    - Current topics, Board oversight
-    - Nominating Corporate Governance Overview
+   - Legal matters, if any
+   - Compliance and regulatory, generally
+   - Current topics, Board oversight
+   - Nominating Corporate Governance Overview
 1. People Group (CPO) - 50 minutes suggested
-    - Compensation philosophy
-    - Benefits structure
-    - Equity plans
-    - Executive compensation structure and policy
-    - DIB overview
-    - Compensation Committee Overview
+   - Compensation philosophy
+   - Benefits structure
+   - Equity plans
+   - Executive compensation structure and policy
+   - DIB overview
+   - Compensation Committee Overview
 1. Sales (CRO) - 80 minutes suggested
-    - The Staff EBA to the CRO sends material to the new Director at least 72 hours in advance.
-    - Materials and key topics include: Sales Key Review slides, Sales KPI dashboard, most recent CRO Board Appendix slides and Sales section of the BOD deck, market definiton, current organization design, current sales motion, customer motion, sales philosophy and current CRO priorities.
+   - The Staff EBA to the CRO sends material to the new Director at least 72 hours in advance.
+   - Materials and key topics include: Sales Key Review slides, Sales KPI dashboard, most recent CRO Board Appendix slides and Sales section of the BOD deck, market definiton, current organization design, current sales motion, customer motion, sales philosophy and current CRO priorities.
 1. Marketing (CMO) - 50 minutes suggested
 1. Product Overview (EVP, Product, EVP, Engineering, CEO) - 80 minutes suggested
-    - Product review
-    - Roadmap
-    - Security
+   - Product review
+   - Roadmap
+   - Security
 1. Investor Relations (Sr. Director of IR) - Optional 50 minutes suggested
-    - IR strategy, shareholder base, external perceptions
-    - Overview of large investors
-    - If available/applicable:
-      - Share analyst reports from any new banks
-      - Share copies of recent investor presentations
+   - IR strategy, shareholder base, external perceptions
+   - Overview of large investors
+   - If available/applicable:
+     - Share analyst reports from any new banks
+     - Share copies of recent investor presentations
 
 ## References
 

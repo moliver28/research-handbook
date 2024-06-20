@@ -305,7 +305,7 @@ Since [Key Results are the measure](#what-are-okrs) that helps us understand if 
 
 To add new key results in GitLab, follow the steps below:
 
-1. Navigate to the the objective that you want to add a child key result to by opening the [GitLab OKRs project](https://gitlab.com/gitlab-com/gitlab-OKRs), selecting **Issues** on the left sidebar, then clicking on the target objective.
+1. Navigate to the objective that you want to add a child key result to by opening the [GitLab OKRs project](https://gitlab.com/gitlab-com/gitlab-OKRs), selecting **Issues** on the left sidebar, then clicking on the target objective.
 1. [Add new key result](https://docs.gitlab.com/ee/user/okrs#add-a-child-key-result) by clicking **Add** in the **Child objectives and key results** section of an objective and then select **New key result**. Use the [SAFE framework](/handbook/legal/safe-framework/) to determine whether it needs to have limited access.
 1. Enter a short but descriptive title for the key result then click **Create key result**.
     1. When referring to a division, use the division name, not the e-group leader's position. For example, use "Marketing KR" (not "CMO KR").

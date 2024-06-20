@@ -73,6 +73,6 @@ We are tracking our efforts in this issue: https://gitlab.com/gitlab-com/gl-secu
 
 ### Previous Security Committee Formation Documentation
 
-The processes for forming the Security Culture Committee were updated in Spring 2024.
+The processes for forming the Security Culture Committee were updated in [May 2024](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/4886).
 
 Previous documentation on forming the security culture committee and nomination processes can be found [here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/06e23cbcfada90c2b8ae01d89335efde5c248cd5/content/handbook/security/security-culture.md#formation-process-overview).

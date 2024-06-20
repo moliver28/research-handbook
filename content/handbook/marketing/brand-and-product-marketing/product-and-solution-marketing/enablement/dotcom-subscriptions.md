@@ -7,7 +7,6 @@ title: "GitLab.com Subscriptions"
 GitLab.com subscriptions work slightly differently to Self-managed licenses.
 Unlike Self-managed licenses which grant equal access to features across an installation, GitLab.com subscriptions are applied to *[namespaces](https://docs.gitlab.com/ee/user/group/#namespaces)* on GitLab.com (typically groups). Members of groups that have subscriptions applied to them will enjoy those features anywhere within the licensed namespace. For example, if `BigCorp` has an Ultimate license, the sub-groups `BigCorp/Frontend`, `BigCorp/Backend` will each have access to Ultimate features and share a common pool of Shared Runner minutes.
 
-
 ### Common Misconceptions
 
 1. **Misconception**: If I'm in an Ultimate group, my GitLab.com profile should say "Ultimate"
@@ -52,8 +51,7 @@ a subscription to an internal group or internal project, please submit an
 1. Dealing with True-ups
    - Support team sometime receives tickets in Zendesk from sales-assisted clients with problem conerning true-up being reconciled before the subscription renewal.
    - Case: The customer purchased a license for `39` Premium seats with start date of `2020-03-04` and end date `2021-03-04`. During the license period, the customer add more users to the system that incurs `112 Users over license`/`True-up`. If this is charged as True-up on SFDC, the new license will not include the extra users in the current term so the customer would end up with a license with `39` seats and `112` true-up which cannot be uploaded to their system because they now have `39 + 112` = `151` billable users on the system.
-   - If the customer would like to deal with `Users over license`/`True-ups`, it should be charged as `Add-on users` to the license as mentioned in [Quarterly Self-Managed Seat Reconciliation & Billing
-](https://gitlab.com/groups/gitlab-org/-/epics/2747).
+   - If the customer would like to deal with `Users over license`/`True-ups`, it should be charged as `Add-on users` to the license as mentioned in [Quarterly Self-Managed Seat Reconciliation & Billing](https://gitlab.com/groups/gitlab-org/-/epics/2747).
 1. Dealing with Add-ons Users
    - In contrast to Dealing with True-ups, if the customer purchased `Add-on users` while there's only a few weeks left before their renewal, please reconcile the `Users over license`/`True-ups` at the renewal instead.
    - Assisting the customer on purchasing `Add-on users` when there's only a few week left until the license expires will resulted in an error license once the purchase is processed. Please take into consideration the existing license Service Period, the time it takes to process the purchase, and the time for the customer to upload the license.
@@ -86,6 +84,8 @@ The [Pricing page](https://about.gitlab.com/pricing/) includes a "Frequently ask
 1. Features availability including [SAML](https://docs.gitlab.com/ee/integration/saml.html)/[LDAP](https://docs.gitlab.com/ee/administration/auth/ldap/index.html) is Free vs. [SAML SSO](https://docs.gitlab.com/ee/user/group/saml_sso/) is Premium.
 1. Access controls: customer is admin on GitLab instance vs. group owner on GitLab.com
 1. Log information and auditing: unrestricted access vs. no access on GitLab.com (can work with Support/Security to answer questions)
-  - On GitLab.com, each user is "signing a contract" (TOS, privacy policy, etc) as individuals, regardless of what email domain they use. Because of that,  we cannot provide their employer with any personally identifiable information (like email address, log info, etc.) as it would be a violation of the user's contract.
+
+   - On GitLab.com, each user is "signing a contract" (TOS, privacy policy, etc) as individuals, regardless of what email domain they use. Because of that,  we cannot provide their employer with any personally identifiable information (like email address, log info, etc.) as it would be a violation of the user's contract.
+
 1. Instance wide settings: custom vs. same for all GitLab.com users
 1. Infrastructure: manage your own, anywhere vs. GitLab manages HA Architecture, instance level backups/recovery, upgrades, based in US

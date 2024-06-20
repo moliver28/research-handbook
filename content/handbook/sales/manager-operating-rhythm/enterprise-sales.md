@@ -27,6 +27,7 @@ The below detail offers additional guidance on how responsibilities and activiti
 ## Strategic sales planning
 
 Strategic sales planning is a key activity every Area Sales Manager (ASM) leads for their team - validating that **sales team members**:
+
 - Are focused on the accounts and opportunities that have the highest potential,
 - Are aware of the things that may impact their plan positively or negatively, rooted in strong data analysis
 - Are collaborating effectively with their deal team and internal business partners like field marketing, deal desk, channel, partners & alliances
@@ -50,7 +51,6 @@ Following a territory plan, a AE has identified and prioritized the accounts the
 
 High-level account plans are often shared using a [strategic account plan template](https://docs.google.com/presentation/d/1AcwkYebTZ9mPfGsKlzd5IvppB_cc8to9z_yUvievSL4/edit?usp=sharing), and can be stored alongside territory plans. Detail and month to month maintenance usually occurs in Gainsight in collaboration with Customer Success Managers (CSMs) for expand accounts that have a CSM assigned. CS team members and AEs can build joint success plans in [Gainsight and use it to view customer product usage and health scoring](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#quick-links).
 
-
 ## Reviews and consults
 
 #### Quarterly Business Reviews (QBRs)
@@ -68,6 +68,7 @@ Customer Success participation is critical to ensure alignment between the accou
 #### Partner Reviews
 
 Partner reviews are used to make sure the partner plan is aligned with regional sales goals and objectives and covers questions like:
+
 - Do we have the right set of partners to support the business?
 - Where and what type of additional partners are needed and why?
 - How do we drive even more alignment and collaboration between key partners and GitLab account teams?
@@ -85,16 +86,17 @@ ASMs either host or participate in these depending on who owns the activity (thi
 **Run consults every week.** ASMs should be conducting multiple opportunity consults every week (though not necessarily with the same AEs). Sometimes these reviews follow the standard opportunity consult format. Other times, these reviews are working sessions that include the ASM working with the AE and/or account team to collaboratively complete the Command Plan for a given opportunity. And other times, the ASM may choose to hone in on one or a few specific areas of the opportunity (this may especially be the case for follow up opportunity reviews).
 
 Some ASMs also choose to conduct opportunity consults with a group to incorporate peer review and feedback (either during regularly scheduled team meetings or as separate meetings). Consider the below framework and iterate as you deem appropriate:
+
 - Invite AEs to volunteer in advance to do a group consult and present their Command - Plan for a key deal to the rest of the team
 - Schedule a 30-45 minute meeting once you have a volunteer
-    - ASM to decide whether team participation is mandatory or optional (consider starting as optional but strongly encouraged until the value is proven)
+  - ASM to decide whether team participation is mandatory or optional (consider starting as optional but strongly encouraged until the value is proven)
 - During the meeting, the volunteer AE presents his or her Command Plan for one key opportunity and then receives questions, input, and feedback from the team
 - If successful, consider creating a recurring meeting series (1-2x per month)
-
 
 #### Forecasting and pipeline reviews
 
 **Find Clari and Salesforce resources for these reviews in the [Enterprise Area Sales Manager Playbook](https://docs.google.com/presentation/d/1HmzgSsau959CSZxEOoXCHdFS9h6a0vvvtDMVsFX57yo/edit?usp=sharing).** The following forecast & pipeline review cadence is recommended:
+
 1. Month 1 of a quarter: current fiscal quarter (CFQ)
 1. Month 2 of a quarter: next fiscal quarter (Current Quarter + 1)
 1. Month 3 of a quarter: two fiscal quarters out (Current Quarter + 2)
@@ -106,6 +108,7 @@ Month 2 and Month 3 forecast & pipeline reviews are typically scheduled for 2 ho
 **In-Quarter Forecasting:** Every week, ASMs must review the team's Commit & Best Case opportunities and submit their forecast. ASMs should work with their teams to ensure that the Single Source of Truth (SSOT) for Best Case and Commit deals is in Salesforce.
 
 **Out-Quarter Forecasting and Pipeline Reviews:** As outlined above, out-quarter reviews typically take place in Month 2 and 3 of the quarter. Each AE has 15-20 minutes to cover the following topics:
+
 1. Forecast
     - Summary of Stage 3+ opportunities by stage
     - Churn risks
@@ -119,11 +122,10 @@ Month 2 and Month 3 forecast & pipeline reviews are typically scheduled for 2 ho
 #### Best practices for forecasting and pipeline reviews
 
 We have detailed guidance on Sales Forecasting, Opportunity Management, and using our tools to review on the [internal handbook page](https://internal.gitlab.com/handbook/sales/sales-forecasting/).  Guide AEs to [the Clari cheat sheet](https://docs.google.com/presentation/d/1ZvQzFrmmqsJPUIk_FxfTy5X0G59IIWDve0Rfmfw1Wec/edit#slide=id.g133719dda83_2_102) and #sales-support Slack channel for additional support.
+
 - **AEs should be empowered to be the CEO of their own territory and manage their business accordingly.** ASMs will need to manage the agenda to ensure the team doesn't get bogged down in too much detail and encourage AEs to focus on the bigger picture. More specifically, even the best AEs will miss their quarterly quota from time to time. What's important is that the AE and ASM are aware of the risk in advance and that there is sufficient pipeline in other quarters to make up for a down quarter.
 - **It’s not a performance review.** ASMs should also continuously reinforce that the dashboards, heat map, and other resources listed below are for the AE's benefit (not management tools) and to help them effectively manage their business.
 - **3.5x is the rule of thumb for pipeline.** A general rule of thumb is that a AE has 3.5x their target in pipeline (view the [Prospecting handbook page](/handbook/sales/prospecting/#build-your-strategy) for in-depth guidance). During strategic planning they should identify this number and then work backwards to determine the value they need to deliver every quarter and every month.
-
-
 
 ## Coaching team members
 
@@ -132,6 +134,7 @@ We have detailed guidance on Sales Forecasting, Opportunity Management, and usin
 Follow [Performance Management best practices](/handbook/sales/field-manager-development/#performance-management-and-giving-feedback), and leverage [GitLab's Field Functional Competencies](/handbook/sales/training/field-functional-competencies/) to reinforce the critical skills and behaviors that will lead to desired outcomes/results.
 
 ASMs should focus on providing coaching and mentoring in a collaborative and proactive way. Examples include but are not limited to:
+
 - Reinforce [effective discovery](/handbook/sales/playbook/discovery/) best practices
 - Maintain proper focus on customer value ([Command of the Message](/handbook/sales/command-of-the-message/)) and avoid technical rabbit holes
 - Identify when and how to position GitLab's holistic differentiators to the right people at the right time
@@ -139,19 +142,19 @@ ASMs should focus on providing coaching and mentoring in a collaborative and pro
 - Improve the quality of [Command Plans](/handbook/sales/command-of-the-message/command-plan/)
 
 ASMs routinely participate in sales calls with their new AEs or with AEs working on extremely complex, strategic, or high-impact deals including:
+
 - Helping with meeting prep (see [Develop a Pre-Call Plan](/handbook/sales/playbook/discovery/#develop-a-pre-call-plan))
 - Participating on the call
 - Debriefing immediately after the call
-
 
 #### Team assessment
 
 Last but not least, ASMs also assess their teams annually following the [Performance / Growth Matrix](/handbook/people-group/talent-assessment/).
 
-
 ## Onboarding new team members
 
 All team members go through an onboarding journey by segment and role. [View the AE onboarding journey here.](/handbook/sales/onboarding/#learning-journeys). In it, AEs are assigned the following activities:
+
 - Standard GitLab onboarding issue (1-2 weeks): AEs should complete all ‘red dot’ tasks in their onboarding issue, bookmark and organize key resources, and learn about the GitLab product they’re going to be selling
 - Customer Ready Shadow Program: Shadowing can start as soon as they take the 20-minute training in their onboarding issue.
 - Sales Quickstart (async pre-work and 1 week of ): This time should be spread across their first two weeks. This covers general sales methodology, DevOps landscape, MEDDPPICC, our portfolio of products, and our customers, personas, and their pain points.
@@ -166,17 +169,16 @@ ASMs should work with new AEs to develop and monitor progress against their 30/6
 - Actively support their shadow time with peers. 100% of our new hires recommend customer call shadowing as a key way to onboard fast. Learn about the program, help them prioritize participation, and foster a culture of shadowing within your team.
 - Get familiar with their onboarding journey. Every AE is required to complete role-specific training - this is the content that the majority of AEs need to know to do their everyday jobs. Without it, AEs generally don’t know where to find what they need or who to go to for what.
 
-
 ## Recruiting top talent
 
 Always be recruiting! As outlined in the [Winning Top Talent](/handbook/sales/field-manager-development/#winning-top-talent) portion of the GitLab Field Manager Development Program, the importance of effective recruiting to GitLab's continued growth and success cannot be understated. ASMs should meet regularly with your Talent Acquisition Recruiter (exact cadence will vary based on hiring needs) and should also be comfortable and confident in selling the amazing opportunity here at GitLab.
 
 **Key Resources**
+
 - Success Profile
 - Interview Guide
 - Networking tools
 - "Why GitLab" Summary
-
 
 ### Career development and mobility for your team
 
@@ -188,7 +190,6 @@ Always be recruiting! As outlined in the [Winning Top Talent](/handbook/sales/fi
 
 Start by encouraging them to create an [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) and then go over it together.
 
-
 ## Manager development program
 
 Manager effectiveness is important to GitLab’s continued ability to attract, develop, and retain key talent and deliver scalable, efficient growth. In response, the Corporate L&D, People, and Field Enablement teams collaborated to launch programs to equip managers with a foundational set of skills & practices for effectively managing remote teams across GitLab’s field organization.
@@ -196,5 +197,3 @@ Manager effectiveness is important to GitLab’s continued ability to attract, d
 **Manager Challenge:** [The Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/) addresses your specific needs to understand the qualities of a good leader and to master practical leadership styles that empower you to become a confident people leader. Effective leadership is grounded in your understanding of powerful interpersonal skills that inspire performance, communication, team member retention, and motivation to achieve results.
 
 **Field Manager Development Program:** Managers participate in a series of quarterly training & reinforcement exercises throughout each fiscal year. While there will be formal training elements, a large focus will be on social learning (learning from others) and practical, real-world application to convert knowledge to action. Learn more on the [Field Manager Development Program handbook page](/handbook/sales/field-manager-development/).
-
-

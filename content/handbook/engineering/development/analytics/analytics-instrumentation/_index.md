@@ -95,7 +95,7 @@ _(DRI: The PM of the Analytics Instrumentation group)_
 
 We're responsible to deliver a reliable Service Ping that runs every week on SaaS and Self Managed instances. Our responsiblity is tooling and automations for metric collections to set the company up for success to deliver Service Ping data to our data warehouse. Due to the amount of metrics we can't maintain the health of all metrics or can provide insights into the business logic of metrics.
 
-- For questions related to a specific metric, its definition and/or implementation, please contact the Product Manager of the group which owns the metric. You can find information about the metric including its [data category](/handbook/legal/privacy/customer-product-usage-information/#categories-of-data-collected), whether it is considered an [xMAU metric](/handbook/business-technology/data-team/data-catalog/xmau-analysis/), its group designation and more in the [metric dictionary](/handbook/product/analytics-instrumentation-guide/#metrics-dictionary).
+- For questions related to a specific metric, its definition and/or implementation, please contact the Product Manager of the group which owns the metric. You can find information about the metric including its [data category](/handbook/legal/privacy/customer-product-usage-information/#categories-of-data-collected), whether it is considered an [xMAU metric](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/xmau-analysis/), its group designation and more in the [metric dictionary](/handbook/product/analytics-instrumentation-guide/#metrics-dictionary).
 - When a metric times out, we will create an issue and inform the responsible team.
 - When a metric is using too many resources to time out the whole Service Ping, we will quarantine the metric and inform the responsible team.
 - When the metric is business critical (defined as any metric with an xMAU value in `performance_indicator_type`) we also inform the responsible team but will treat it as a Severity 1/Priority 1 issue and try to provide a fix.
@@ -503,4 +503,3 @@ All new team members to the Analytics Instrumentation teams are provided an onbo
 | [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)     | An implementation guide for Service Ping      |
 | [Privacy Policy](https://about.gitlab.com/privacy/)        | Our privacy policy outlining what data we collect and how we handle it     |
 | [Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/)  | The roadmap for Analytics Instrumentation at GitLab  |
-| [GitLab Performance Snowplow Dashboards](./gitlab_com_performance_dashboard.html) | Performance dashboards for GitLab.com via Snowplow  |

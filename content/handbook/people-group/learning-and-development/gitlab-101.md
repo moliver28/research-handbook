@@ -149,7 +149,7 @@ To comment on a GitLab issue:
 
 1. Open the issue that you want to comment on
 1. If there are other comments, scroll to the bottom and add your comment there
-1. It is also possible that you may want to reply to someone's comment that is already on the issue. To do this, you will click the speech balloon on their comment (when you hover over it it will say "reply to comment") and it will add a box for you to type your reply.
+1. It is also possible that you may want to reply to someone's comment that is already on the issue. To do this, you will click the speech balloon on their comment (when you hover over it, it will say "reply to comment") and it will add a box for you to type your reply.
 1. When you are done typing your comment, click the green "Comment" button to add it to the issue
 
 ### How to search for a GitLab Issue

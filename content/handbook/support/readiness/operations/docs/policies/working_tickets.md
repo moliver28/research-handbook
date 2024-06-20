@@ -131,7 +131,7 @@ be:
 1. Disable all plugins/extensions/addons on the browser.
 1. Disable any themes on the browser.
 1. Clear all cookies and cache on the browser.
-1. Try logging in again to the the Support Portal.
+1. Try logging in again to the Support Portal.
 1. If you are still having issues, obtain the following:
    - the browser’s version
    - the browser's type

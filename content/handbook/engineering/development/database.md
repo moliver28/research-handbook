@@ -40,7 +40,7 @@ The Database Maintainer role:
 * It is not expected to participate in incident management issues.
 * Adheres to the [review turnaround time](https://docs.gitlab.com/ee/development/code_review.html#review-turnaround-time) of 2 working days.
 
-If you're interested in participating in database reviews, please start by reviewing the [the Database maintainer process](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/handbook/engineering/workflow/code-review/index.md#project-maintainer-process-for-gitlab-database) which contains all the resources for a reviewer.
+If you're interested in participating in database reviews, please start by reviewing [the Database maintainer process](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/sites/handbook/source/handbook/engineering/workflow/code-review/index.md#project-maintainer-process-for-gitlab-database) which contains all the resources for a reviewer.
 
 ## Recommended links and reference materials
 

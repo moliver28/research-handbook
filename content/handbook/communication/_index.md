@@ -134,7 +134,7 @@ In those cases, the DRIs may want to engage the [Internal Communications functio
 ### Top tips and best practices
 
 1. All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.
-1. Use **asynchronous communication** when possible: merge requests (preferred) or issues. Announcements happen on the appropriate Slack channels and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk).
+1. Use **asynchronous communication** when possible: merge requests (preferred) or issues. Announcements happen on the appropriate Slack channels and people should be able to do their work without getting interrupted by chat.
 1. Discussion in issues or Merge Requests is preferred over everything else. If you need a response urgently, you can Slack someone with a link to your comment on an issue or merge request, asking them to respond there, however be aware that they still may not see it straight away. See [Slack](/handbook/communication#slack) for more.
 1. If you choose to email instead of chat it is OK to send an *internal* email that contains only a short message, similar as you would use in chat.
 1. You are not expected to be available all the time. There is no expectation to respond to messages outside of your planned working hours.
@@ -299,7 +299,7 @@ social media, when you see alignment to our values: [GitLab's values](/handbook/
 
 ![Custom emoji](/images/handbook/values-custom-emoji.png)
 
-As a second iteration, we will [add these custom emoji to GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/231317) to enable tanuki values reactions in issues and MRs.
+As a second iteration, we have [added these custom emoji to GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/231317) to enable tanuki values reactions in issues, epics, and MRs within the `gitlab-com` and `gitlab-org` groups.
 
 As a later iteration, we will begin tracking the number of emoji reactions for each value through the Reacji API and update this page with our findings!
 
@@ -348,8 +348,7 @@ When possible, it's best practice to start a discussion with a [Merge Request (M
 1. If you have received any feedback or questions on your MR, try to acknowledge comments as [that's how we ensure we create an environment of belonging for all team members](/handbook/company/culture/inclusion/#gitlabs-definition-of-diversity-inclusion--belonging). Merging your MR as-is without giving an answer or any response makes the commenters feel their opinions are unheard. If you are the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals/) (DRI) who does not have to make a fast decision, you can choose not to change your MR, but you should acknowledge the comments or feedback, consider if they warrant a change to your MR, and [say why, not just what](/handbook/values/#say-why-not-just-what).
    If there are many comments, you can choose to summarize key feedback areas and share your response at a high level. We appreciate that [if you force a DRI to explain too much, you'll create incentives to ship projects under the radar. The fear of falling into a perpetual loop of explaining can derail a DRI, and cause people to defer rather than working with a bias for action](/handbook/people-group/directly-responsible-individuals/#empowering-dris). This is something we want to avoid.
    When fast decisions are needed, [we'll have to accept that people listened to us but don't owe us an explanation to have fast decisions based on everyone's input](/handbook/leadership/#making-decisions). The goals are to be transparent and collaborative--not to lose efficiency. Not everyone will agree, but we expect all people to [disagree, commit, and disagree](/handbook/values/#disagree-and-commit).
-1. For GitLab, the product merge request guidelines are in the [Contribution
-   guide](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-guidelines) and code review guidelines for reviewers and maintainers are described in our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html).
+1. For GitLab, the product merge request guidelines are in the [Contribution guide](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-guidelines) and code review guidelines for reviewers and maintainers are described in our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html).
 1. Even when something is not done, share it internally so people can comment early and prevent rework.
 1. Create a <b>[Draft](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html)</b> merge request to prevent an accidental early merge. Only use Draft when merging it would **make things worse**, which should rarely be the case when contributing to the handbook. Most merge requests that are in progress don't make things worse. In this case, do not use Draft; if someone merges it earlier than you expected just create a new merge request for additional items. Never ask someone to do a final review or merge something that still has Draft status. At that point you should be convinced it is good enough to go out.
 1. If any follow-up actions are required on the issue after the merge request is merged (like reporting back to any customers or writing documentation), avoid auto-closing the issue.
@@ -1280,10 +1279,10 @@ Once service is restored, go back to Slack.
 
 #### Zoom is down
 
-To use Slack calls:
+To use Slack Huddle:
 
 1. Navigate to the appropriate Slack channel or direct message.
-1. Use `/call` to trigger a call.
+1. Use `/huddle` to trigger a huddle, which supports both audio and video calls.
 1. You may need to give permissions if it's the first time you are using Slack calls.
 
 Once service is restored, go back to Zoom.

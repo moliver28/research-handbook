@@ -378,9 +378,7 @@ to focus on quality and testing more"
     Having a rapid release cycle contributes to increasing quality over time being able to iterate faster. For
     particular concerns in an individual issue, please raise your concerns in the
     issue. Because GitLab has gotten very popular the absolute amount of bugs might be increasing.
-    But to individual users it feels like we've "[been squashing bugs and releasing
-    features rapidly while also decreasing the number of regressions introduced and
-    improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)".
+    But to individual users it feels like we've "[been squashing bugs and releasing features rapidly while also decreasing the number of regressions introduced and improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)".
     Obviously quality is and will always be a top concern, especially code quality
     since that enables better testing, faster fixes, and more contributions.
 1. "Better supervision in the first two months"
@@ -424,8 +422,7 @@ to focus on quality and testing more"
 
 ### Feedback from the GitLab team - September 2015
 
-Summarized in this presentation about ["Stuff the GitLab team likes and does not
-like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing),
+Summarized in this presentation about ["Stuff the GitLab team likes and does not like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing),
 here is what the team said in September of 2015.
 
 #### What we love about working at GitLab

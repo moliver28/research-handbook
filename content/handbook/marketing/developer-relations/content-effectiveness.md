@@ -25,7 +25,7 @@ The key measure of content effectiveness for the Developer Relations team is how
 #### The Metrics we measure
 
 - Blog Views: These are impressions generated from blog posts published by the team on the GitLab blog.
-- Video Views: Videos are uploaded to the [Official](https://www.youtube.com/gitlab) and the [GitLab Unfiltered](https://youtube.com/gitlabunfiltered) channels on YouTube. We also include include Shortened links with Relevant UTM codes.
+- Video Views: Videos are uploaded to the [Official](https://www.youtube.com/gitlab) and the [GitLab Unfiltered](https://youtube.com/gitlabunfiltered) channels on YouTube. We also include Shortened links with Relevant UTM codes.
 - Campaigns: The Developer Relations team use the `devrel` UTM Campaign name to track engagement with our content or activities shared on external mediums.
 - Influenced Campaigns: These are campaigns owned by other marketing teams that we contribute to, we track the result of our influence on the [Marketing Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?%3Aiid=1).
 
@@ -49,13 +49,11 @@ There are 2 filters applicable to the Developer Relations team: Developer Relati
 
 The "Developer Relations" option under the "Integrated Budget Holder" filter shows data for campaign touchpoints generated with the teams' use of  `devrel`, or `cmty` for old campaigns, for `utm_budget`. These are only applicable to links we share ourselves, mostly using CommunityApps. When you use CommunityApps to create a short link under the DevRel team, the `utm_budget` is automatically added when tracking is enabled.
 
-
 #### DevRel Influence Type Filter
 
 ![devrel_influence_type](/images/handbook/marketing/developer-relations/devrel_influence_type.png)
 
 To access the "DevRel Influence Type" filter, click on "Advanced filters" on the "Campaign Drill Down" tab of the Marketing Campaigns Dashboard. The DevRel Influence Type filter shows all campaigns influenced by the Developer Relations team, including those with the `devrel` UTM campaign budget code. Uncheck the "No DevRel Influence" check box to filter the dashboard. You can also filter by specific influence types to further filter the results. The "Owned" filter are touchpoints data from the `devrel` budget holder.
-
 
 ### Content Asset Inventory
 
@@ -116,9 +114,7 @@ Here is an example of a blend:
 
 ![looker-blend](/images/handbook/marketing/developer-relations/looker-blend.png)
 
-
-
-##  Maintenance guide
+## Maintenance guide
 
 This section details how the different components of the Content Effectiveness wokflow link togther and how to maintain them.
 
@@ -151,7 +147,7 @@ flowchart LR
 
 #### Blog posts
 
-Once a blog post has been published on the GitLab Blog, add the URL along with other details to the `devrel_blog_posts_views` sheet. This is an important step in getting the content piece to appear in the the relevant dashboards.
+Once a blog post has been published on the GitLab Blog, add the URL along with other details to the `devrel_blog_posts_views` sheet. This is an important step in getting the content piece to appear in the relevant dashboards.
 
 #### Videos
 

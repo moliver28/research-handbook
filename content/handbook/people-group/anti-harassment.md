@@ -161,7 +161,7 @@ Training and guidance on understanding, preventing, and dealing with discriminat
 ### Course
 
 [COM 001 Common Ground: Prevention of Harassment, Sexual Harassment, and Abusive Conduct in the workplace](https://learning.willinteractive.com/) (2 hrs for managers, 1 hr for non-managers). This training will be assigned to all team members and managers using [Will Interactive's content and LMS platform](https://willinteractive.com/) by email invitation. Details on how to use the platform can be found on the [learning and development page](/handbook/people-group/learning-and-development/#compliance-courses).
-Once the course has been completed, each team member and manager will receive a certificate of completion which will be kept in their employee record in BambooHR.
+Once the course has been completed, each team member and manager will receive a certificate of completion which will be kept in their employee record in Workday.
 
 ## Country & US State-Specific Requirements
 
@@ -339,7 +339,7 @@ If the a team member who resides in Vermont is dissatisfied with this employer's
 We are continuously gathering country specific references to review regulation and obtain guidance on the management of harassment or misconduct at work. Here are a few authorities we referred to in the creation of this policy:
 
 - [Equal Employer Opportunity Commission (EEOC)](https://www.eeoc.gov/laws-guidance)
-    - Contact [EEOC](https://www.eeoc.gov/employees/charge.cfm): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
+  - Contact [EEOC](https://www.eeoc.gov/employees/charge.cfm): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
 - [Society of Human Resource Management (SHRM)](https://www.shrm.org/ResourcesAndTools/legal-and-compliance/employment-law/pages/federal-statutes-regulations-and-guidance.aspx)
 
 ## Further Guidance (Country-Specific)

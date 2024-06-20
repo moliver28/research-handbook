@@ -44,7 +44,7 @@ On this page, you will do the following:
 
 After doing so, click the blue `Save` button. You will then locate the
 placeholder ticket form you just created (should be at the bottom), hover over
-it, click the three vertical dots at at the right-hand side of the ticket form,
+it, click the three vertical dots at the right-hand side of the ticket form,
 and click `Deactivate`. After doing so, you will need to get the ID value for it
 (if you click it, you can see it in the URL).
 
@@ -54,7 +54,7 @@ are likely to need to adjust **many** ticket form files due to positioning.
 #### Updating an existing ticket form
 
 Updating an existing ticket form is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 #### Deactivating a ticket form

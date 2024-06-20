@@ -118,9 +118,9 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 
 - Treat the wider community as the primary audience ([see relevant summary for rationale][community-contributions-wider-community]).
 - Provide a meaningful **title** that describes a deliverable result.
-    - ✅ `Add a cancel button to the edit workspace form page`
-    - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
-    - ❌ `Make WebIDE better`
+  - ✅ `Add a cancel button to the edit workspace form page`
+  - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
+  - ❌ `Make WebIDE better`
 - Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
 - Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 - The issue should have a weight assigned.
@@ -134,7 +134,7 @@ It's okay to create specific engineering-driven implementation issues for more c
 The IDE group has decided to use an alternate planning process for the following reasons:
 
 1. Remote Development is a large, greenfield category, with many engineering, infrastructure, and technical concerns and unknowns which will continue to evolve and change as the category matures.
-1. The Remote Development category is also currently receiving much attention as part of of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
+1. The Remote Development category is also currently receiving much attention as part of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
 1. In order to meet this need for more accurate and realistic planning and delivery estimates, the Remote Development category team has decided to modify parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies. The goal is to provide accurate delivery estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
 1. To better support the use of these methodologies, the IDE group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint.html) where possible.
 1. However, due to existing limitations of the Iterations and Boards features in fully supporting these methodologies, we will also experiment with new and alternate tools and processes, with the goal of informing and potentially contributing back to improve GitLab's support for them. More details will be shared as this effort evolves.
@@ -214,7 +214,7 @@ graph TD;
 
 **Process:**
 
-**TL;DR: Assign the [`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues) milestone to all issues that should be refined and prioritized in the next Pre-IPM meeting(s).**
+**TL;DR: Assign the [`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues) to all issues that should be refined and prioritized in the next Pre-IPM meeting(s).**
 
 1. All higher-priority issues should be [contained in the category epic or one of its sub-epics](https://gitlab.com/groups/gitlab-org/-/epics/7419)
 1. They should all have the `~(rd|webide)-workflow::unprioritized` label assigned.
@@ -252,8 +252,8 @@ See the [following discussion thread](https://gitlab.com/gitlab-org/create-stage
    1. Have the `%"Next 1-3 releases"` milestone applied (optionally include additional milestones for next `3-4`/`4-7` releases, if these are being used) **AND**
    1. Do **NOT** yet have the `~refined` label
 1. This can be done by a direct search:
-   1. Remote Development: [direct search for `Label is ~rd-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=rd-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&not%5Blabel_name%5D%5B%5D=refined&first_page_size=100)
-   1. Web IDE: [direct search for `Label is ~webide-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=webide-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&not%5Blabel_name%5D%5B%5D=refined&first_page_size=20).
+   1. Remote Development: [direct search for `Label is ~rd-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=rd-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&amp;not%5Blabel_name%5D%5B%5D=refined&first_page_size=100)
+   1. Web IDE: [direct search for `Label is ~webide-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=webide-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&amp;not%5Blabel_name%5D%5B%5D=refined&first_page_size=20).
 1. Assign each of these issues to an appropriate team member to be refined, and leave a comment on the issue mentioning the team member and linking to
    [Async Phase of Pre-IPM Process - Refinement](#async-phase-of-pre-ipm-process---refinement)
    This selection process can be whatever works for the team, but in general issues should be refined by someone who has the knowledge and availability
@@ -285,7 +285,7 @@ The "Pre-Iteration Planning" (Pre-IPM) meeting prepares for the Iteration Planni
 
 During the Pre-IPM, the team will collaborate on creating/refining, organizing, and clarifying all issues which are to be prioritized for the upcoming iteration(s). This will normally involve Product and Engineering leaders on the team, but may also involve Design or other team members depending on the nature of the issues involved. The goal is to ensure that all issues which have been identified as a priority for the upcoming releases are properly refined, curated, prioritized, and ready for the wider team to briefly discuss and estimate in the next IPM.
 
-If a single piece of work spans multiple projects/repos, there should be be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks.html#set-task-weight), because boards cannot display individual
+If a single piece of work spans multiple projects/repos, there should be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks.html#set-task-weight), because boards cannot display individual
 tasks.
 
 **QUESTION: Why isn't there a `~(rd|webide)-workflow::refined` phase instead of using the `~refined` label?**
@@ -402,9 +402,9 @@ To assign weights to issues effectively, it's important to remember that issue w
 
 - **Weight 0:** Reserved for the smallest and easiest issues, such as typos or minor formatting changes, or very minor code changes with no tests required.
 - **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like "good for new contributors" or "Hackathon - Candidate". For example:
-    - Changing copy text which may be simple but take some time.
-    - Making CSS or UI adjustments.
-    - Minor code changes to one or two files, which require tests to be written or updated.
+  - Changing copy text which may be simple but take some time.
+  - Making CSS or UI adjustments.
+  - Minor code changes to one or two files, which require tests to be written or updated.
 - **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
 - **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant [breaking down into smaller separate issues](#-breaking-down-large-issues).
 - **Weight 5:** Normally, this weight should be avoided, and indicate that the issue ideally [should be broken down into smaller separate issues](#-breaking-down-large-issues). However, in some cases a issue with a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.

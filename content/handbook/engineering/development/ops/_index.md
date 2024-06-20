@@ -12,17 +12,18 @@ The Ops Sub-department is composed of development teams working on Verify, Packa
 The following teams comprise the Ops sub-department:
 
 - Verify stage - [handbook](/handbook/engineering/development/ops/verify/)
-    - Pipeline Execution - [handbook](/handbook/engineering/development/ops/verify/pipeline-execution/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
-    - Pipeline Authoring - [handbook](/handbook/engineering/development/ops/verify/pipeline-authoring/), jtbd
-    - Pipeline Security - [handbook](/handbook/engineering/development/ops/verify/pipeline-security/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
-    - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), jtbd
+  - Pipeline Execution - [handbook](/handbook/engineering/development/ops/verify/pipeline-execution/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
+  - Pipeline Authoring - [handbook](/handbook/engineering/development/ops/verify/pipeline-authoring/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
+  - Pipeline Security - [handbook](/handbook/engineering/development/ops/verify/pipeline-security/), [jtbd](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
+  - Runner - [handbook](/handbook/engineering/development/ops/verify/runner/), [jtbd](/handbook/engineering/development/ops/verify/runner/jtbd/)
+  - CI Platform - [handbook](/handbook/engineering/development/ops/verify/ci-platform/)
 - Package stage - [handbook](/handbook/engineering/development/ops/package/), [jtbd](/handbook/engineering/development/ops/package/jtbd/)
-    - Container Registry - [handbook](/handbook/engineering/development/ops/package/container-registry/)
-    - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
+  - Container Registry - [handbook](/handbook/engineering/development/ops/package/container-registry/)
+  - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
 - Deploy stage
-    - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
+  - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
 - Monitor stage
-    - Monitor:Observability - [handbook](/handbook/engineering/development/ops/monitor/observability/), jtbd
+  - Monitor:Observability - [handbook](/handbook/engineering/development/ops/monitor/observability/), jtbd
 
 ## Product Direction
 
@@ -38,7 +39,7 @@ Teams in the Ops Sub-Department map to several Product Sections.  Product direct
 - [#cd-section](https://gitlab.slack.com/archives/C05BTB4CBGQ) - CD Section discussions spanning Deploy Stage
 - [#ops_staff_plus](https://gitlab.slack.com/archives/C0305PJB9JR) - Foster collaboration and technical leadership within Ops section
 - [#doe-ops](https://gitlab.slack.com/archives/CT9CM1VDJ) - Channel for GitLab's Director of Engineering, Ops
-- 🔒ops-staff-confidential - Channel for reviewing Ops promotion docs or sharing other confidential information.  Please use #doe-ops or other public channels for topics that don’t require confidentiality.
+- 🔒ops-staff-confidential - Channel for reviewing topics for Ops Engineering leaders.  Please use #doe-ops or other public channels for topics that don’t require confidentiality.
 
 ## Meetings
 
@@ -105,7 +106,7 @@ Planning processes followed by teams in the Sub-department:
 
 ### Forced Priority planning/scheduling
 
-Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work within the appropriate SLO/SLAs where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
+Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work [within the appropriate SLO/SLAs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
 
 With this in mind, here's a process that groups are encouraged to use and iterate on in the event that they don't have an existing approach or are falling behind on SLA/SLOs.
 
@@ -116,6 +117,31 @@ To be clear, this is not a required process, if your group's approach is working
 1. Have someone in the group assign themselves to work on the issue
 1. Update the issue regularly with progress
 1. Treat blockers with the same *or higher* priority than the original issue
+
+## Sustaining / Non-Sustaining planning exercise
+
+In FY23, each EM in Ops was asked to participate in a [capacity planning exercise that involved evaluating the sustaining vs non-sustaining work](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/125) in their team's backlog. This exercise was also repeated by the [Verify Pipeline teams in FY24](https://gitlab.com/groups/gitlab-org/-/epics/11284) to better understand Engineering capacity needs for each of the Pipeline teams.
+
+Each team created a staffing justification based on the breakdown of sustaining vs non-sustaining issues in their backlog. EMs estimated the number of backend engineers and frontend engineers that would be needed, per quarter, of the given fiscal year to burndown these issues, as ordered by the [prioritization framework](/handbook/product/product-processes/#prioritization-framework) and relevant priority/severity labels.
+
+### Sustaining work
+
+Sustaining work refers to the most important security, availability, scalability and performance, essential for "keeping the lights on" for the feature categories the team supports. Capacity planning for sustaining work was based on meeting the SLO/SLAs of these types of issues.  The labels for sustaining work include, but are not limited to:
+
+- `bug::vulnerability` (note: specifically this label, as an issue with only a `security` label does not make it a security vulnerability)
+- `bug::availability`
+- `bug::performance`
+- `infradev`
+
+### Non-Sustaining work
+
+Non-sustaining effort refers to all other work the teams would work on, including:
+
+- `type::feature`
+- `type::maintenance` (e.g. technical debt that does not impact availability, scalability, performance, etc)
+- all other `type::bug` issues not covered as sustaining work
+- reviewing community contributions
+- responding to customer inquiries / support requests
 
 ## Ops Promotion Process
 

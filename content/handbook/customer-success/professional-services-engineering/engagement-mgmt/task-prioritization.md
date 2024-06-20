@@ -26,6 +26,7 @@ The list of job responsibilities is in ranked order with the highest priority ta
 **Note: SOW processing activities are a collaboration between the EM and the account team; who the “DRI” is will vary based on the circumstances.  For smaller, tactical opportunities, the EM might own the entire process with little or no SAE involvement.  For larger, strategic opportunities, especially when there are licenses and services being sold together, the SAE might handle all of the communication with the customer themselves.  It’s important to have a conversation with the SAE for each opportunity to gain agreement on how that opportunity will be worked.  It’s also important to keep a collaborative mindset when working with the SAEs.**
 
 **Suggested SLAs:**
+
 - 48 hours from confirmation of customer intent to move forward with an SOW to SOW draft in their hands.
 - 72 hours from confirmation of final SOW content to stamped SOW in customer’s hands for signature (Revenue and PS approval -> Legal stamp -> Dale signature-> Customer)
 
@@ -38,6 +39,7 @@ The list of job responsibilities is in ranked order with the highest priority ta
 - Providing estimate to account team and customer for feedback
 
 **Suggested SLAs:**
+
 - 24 hours from initial scoping issue creation to EM interaction/reminder to SA or CSM to provide information about customer need
 - 72 hours from customer scoping call to estimate in customer’s hands for review
 
@@ -82,9 +84,9 @@ The list of job responsibilities is in ranked order with the highest priority ta
 
 ### Skills Development
 
- - Learning about GitLab offerings and how to position them
- - Learning about new GitLab features
- - Professional Development
+- Learning about GitLab offerings and how to position them
+- Learning about new GitLab features
+- Professional Development
 
 ### Patch-specific responsibilities
 
@@ -97,6 +99,3 @@ The list of job responsibilities is in ranked order with the highest priority ta
 - Act in a collaborative manner with account teams, Professional Services team members, and others within GitLab
 - Maintain a current understanding of the forecast and risk for each opportunity in the current quarter
 - Escalate any blockers and communicate any needs for help via the #ps-engagement-mgrs channel
-
-
-

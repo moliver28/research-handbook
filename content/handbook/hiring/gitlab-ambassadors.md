@@ -56,9 +56,7 @@ Here are some steps you can take to get started optimizing your profile.
 
 #### More training for rocking your profile on LinkedIn
 
-- [How to optimize your LinkedIn presence
-(and why it matters)
-](https://docs.google.com/presentation/d/12APD_Ov1bCufRAyQEGGAnPHUq1PzHhR1U_57avtmP9g/edit#slide=id.g12b319f6181_0_0)
+- [How to optimize your LinkedIn presence (and why it matters)](https://docs.google.com/presentation/d/12APD_Ov1bCufRAyQEGGAnPHUq1PzHhR1U_57avtmP9g/edit#slide=id.g12b319f6181_0_0)
 
 ### 2. Share what life is like as part of the GitLab team
 
@@ -117,9 +115,11 @@ There are several important things to keep in mind when sharing your opinions ab
   - > Join a company that values transparency, collaboration, and iteration. @gitlab is hiring a [INSERT ROLE NAME]. Discover how our 6 CREDIT values drive our culture and learn more about this role: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Unlock a world of opportunities at @gitlab. We're looking for a [INSERT ROLE NAME] to join our diverse and passionate team. Explore your potential with us: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
 
-#### Other platforms
+#### Glassdoor & Comparably
 
 There are a number of platforms and touchpoints where candiates interact with our talent brand or our jobs prior to ever applying or talking with us.
+
+Beyond helping us to identify top candidates for our team and making referrals, you can also help us attract great candidates by sharing why GitLab is a great place to work on our Glassdoor & Comparably pages. Taking 3-5 minutes to post a review will help future joiners understand our culture and company!
 Here are a couple of ways you can help tell GitLab's story on these sites.
 
 - Leave a [Glassdoor review](https://www.glassdoor.com/mz-survey/start_input.htm?cr=&c=&showSurvey=Reviews)

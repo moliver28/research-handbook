@@ -62,7 +62,7 @@ From here, create the merge request in the sync repo project.
 #### Updating an existing macro
 
 Updating an existing macro is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 The one caveat you need to consider is when you are changing a macro to allow

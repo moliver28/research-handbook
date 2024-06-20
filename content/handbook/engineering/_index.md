@@ -101,9 +101,9 @@ There are four departments within the Engineering Division:
 - [Developer onboarding](/handbook/engineering/developer-onboarding/)
 - [Engineering Demo Process](/handbook/engineering/demos/)
 - [Engineering Workflow](/handbook/engineering/workflow/)
-    - [Code Review](/handbook/engineering/workflow/code-review/)
-    - [Security Issues](/handbook/engineering/workflow/#security-issues)
-    - [Architecture Design](/handbook/engineering/architecture/workflow/)
+  - [Code Review](/handbook/engineering/workflow/code-review/)
+  - [Security Issues](/handbook/engineering/workflow/#security-issues)
+  - [Architecture Design](/handbook/engineering/architecture/workflow/)
 - [GitLab Repositories](/handbook/engineering/gitlab-repositories/)
 - [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - [Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/index.html)
@@ -177,7 +177,7 @@ FCL xxxx - [team name]
 - Incident Issue: `<issue link>`
 - Incident Review Issue: `<issue link>`
 - Incident Timeline: `<link to Timeline tab of the Incident issue>`
-   - e.g. time to detection, time to initiate/complete rollback (as applicable), time to mitigation
+  - e.g. time to detection, time to initiate/complete rollback (as applicable), time to mitigation
 - Cause of Incident
 - Mitigation
 - Status of Planned/completed work associated with FCL
@@ -203,7 +203,7 @@ In certain cases we may need to manually verify in the production environment.
 
 If you need to test features that are built for GitLab Ultimate then you can get added to the [issue-reproduce](https://gitlab.com/issue-reproduce)
 group on production and staging environments by asking in the [#development](https://gitlab.slack.com/archives/C02PF508L) Slack channel.
-These groups are are on an Ultimate plan.
+These groups are on an Ultimate plan.
 
 ## Critical Customer Escalations
 
@@ -255,8 +255,7 @@ Following this procedure will:
 
 ## Canary Testing
 
-Information on canary testing has been moved to dedicated page [covering the
-canary stage and how to use it](/handbook/engineering/infrastructure/environments/canary-stage)
+Information on canary testing has been moved to dedicated page [covering the canary stage and how to use it](/handbook/engineering/infrastructure/environments/canary-stage)
 
 ## Engineering private handbook
 

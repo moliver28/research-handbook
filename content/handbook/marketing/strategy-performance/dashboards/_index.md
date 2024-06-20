@@ -29,7 +29,7 @@ At the highest level, TD Marketing Key Dashboards are intended to provide insigh
 
 | **Dashboard** | **Platform** | **Access Type** | **Description** |
 |:--------------|:-------------|:----------------|:----------------|
-| [Marketing Influenced Pipeline](https://10az.online.tableau.com/#/site/gitlab/views/MarketingInfluencedPipeline/ExecutiveOverview) | Tableau | SAFE | Tracks marketing contribution to overall pipeline generation through a combination of Adobe Marketo Measure Touchpoints and Sales Qualified Source (SQS) to find opportunities that were influenced by Marketing. See the [handbook page](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-analytics/marketing_influenced_pipeline/) for more details.
+| [Marketing Influenced Pipeline](https://10az.online.tableau.com/#/site/gitlab/views/MarketingInfluencedPipeline/ExecutiveOverview) | Tableau | SAFE | Tracks marketing contribution to overall pipeline generation through a combination of Adobe Marketo Measure Touchpoints and Sales Qualified Source (SQS) to find opportunities that were influenced by Marketing. See the [handbook page](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-analytics/marketing_influenced_pipeline/) for more details. |
 
 #### TD Marketing Functional Dashboards
 
@@ -47,10 +47,9 @@ At the highest level, TD Marketing Key Dashboards are intended to provide insigh
 
 While our Campaign Performance and Marketing Influenced Pipeline dashboards display similar data, they serve different purposes. The Campaign Performance dashboard is a live view of our campaign data as it exists in our marketing tools (SFDC, Marketo, Marketo Measure) today. It gives the best view into a campaign's near real-time performance.
 
-The Marketing Influenced Pipeline dashboard uses snapshots of our [Adobe Marketo Measure](/handbook/marketing/marketing-operations/bizible/) and Opportunity data taken on the last day of the fiscal quarter. Snapshotting ensures the total amount of marketing influenced across our marketing campaigns credited to opportunities can not change as the live data is updated. Meaning GitLab has an unchanging record of of marketing influence that we use to compare quarters without worrying that values have changed over time.
+The Marketing Influenced Pipeline dashboard uses snapshots of our [Adobe Marketo Measure](/handbook/marketing/marketing-operations/bizible/) and Opportunity data taken on the last day of the fiscal quarter. Snapshotting ensures the total amount of marketing influenced across our marketing campaigns credited to opportunities can not change as the live data is updated. Meaning GitLab has an unchanging record of marketing influence that we use to compare quarters without worrying that values have changed over time.
 
 The Campaign Performance dashboard is better suited for reporting where close to live data is required, while the Marketing Influenced Pipeline dashboard is preferred when quarterly reviews are done, as the data remains unchanged for previous quarters.
-
 
 ## Dashboard Development and Publishing Stages
 

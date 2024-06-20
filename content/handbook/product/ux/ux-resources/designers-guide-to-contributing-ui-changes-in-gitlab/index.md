@@ -47,7 +47,7 @@ For a detailed step by step guide of how to make UI code changes against the Git
 
 [Step by Step Guide to Make Code Changes](/handbook/product/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/)
 
-### UX showcase video on finding opportunities to do UI code contributions
+### Finding opportunities to do UI code contributions
 
 {{< youtube "GUTalaJt_qU" >}}
 
@@ -86,7 +86,7 @@ If you're viewing [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/stor
 
 **Note:** Don't be afraid to ask a [GitLab UI maintainer](/handbook/engineering/projects/#gitlab-ui) for help with setting up your integration test.
 
-### UX showcase video on updating GitLab UI
+### Updating GitLab UI
 
 {{< youtube "WWwQ2-UtWRg" >}}
 

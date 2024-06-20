@@ -40,17 +40,87 @@ Once all necessary approvals have been documented for your charitable contributi
 
 #### GiveLab
 
-GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](https://handbook.gitlab.com/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
+GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
 
 GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
 
-Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
+Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a [Registered Nonprofit Organization](/handbook/legal/philanthropy-policy/#who-we-support) that isn’t on the current [GiveLab Nonprofit Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?gid=0#gid=0), please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
 
-Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by reaching out to the ESG team in the #givelab slack channel.
+Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by going to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and opening a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support). Please write “yes” for the question, “Would you like the ESG team’s help organizing the volunteer activity?”
 
-All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/).
+All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/). Team members must follow GitLab’s paid time off (PTO) policy if volunteering during work hours and use the “public service/volunteer” option in Time Off by Deel.
+
+If volunteering in person, team members may incur some expenses. All expenses should be submitted in Navan using the “GiveLab” classification. Please note that GitLab does not allow team members to travel to in-person volunteer events. All in-person volunteering should be local to the team member.
+
+As with all [company expenses](/handbook/finance/expenses/#1-policy), team members must be thoughtful in spending the company’s money and use best judgment to ensure that all expenses are deemed “ordinary and necessary.” Team members should follow all [team member expense responsibilities](/handbook/finance/expenses/#2-responsibilities).
+
+Expenses allowed for reimbursement (for in-person volunteer events):
+
+- Local travel only -  [mileage](/handbook/finance/expenses/#mileage), [train](/handbook/finance/expenses/#train), [taxi/rideshares](/handbook/finance/expenses/#transportationparking). Must follow and comply with the current limits of our Expense Policy. Code under their individual travel category and use the “GiveLab” classification in Navan
+- [Parking](/handbook/finance/expenses/#transportationparking) for the event.  Must follow and comply with the current limits of our Expense Policy.  Please use the “GiveLab” classification in Navan
+- [Meal](/handbook/finance/expenses/#meals-company-provided-while-traveling) during the event.  Must follow and comply with the current limits of our Expense Policy.  Code under Travel-Meals for Myself and use the “GiveLab” classification in Navan
+
+Expenses not allowed for reimbursement:
+
+- Any airfare, lodging, rental cars, coworking space, internet expenses are not allowed
+- Any supplies or items needed for the event
+- Donations to the nonprofit
+- Any expenses that are not mentioned as “allowed” above are not reimbursable and there will be no exceptions
 
 As with our unique ways of working, GitLab and its team members have identified and sought out opportunities for impact that speak not only to our [values](/handbook/values/) but also to our [all-remote](/handbook/company/culture/all-remote/guide/) nature. To review previous opportunities that team members participated in, visit the [historical activities page](/handbook/people-group/givelab-volunteer-initiatives/#gitlab-donation-drives).
+
+#### GiveLab Nonprofits
+
+We have created an internal [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing) that features a list of vetted nonprofit organizations with available volunteer opportunities. Team members can search the document for virtual volunteer opportunities, opportunities to volunteer with [GitLab Foundation](https://www.gitlabfoundation.org/) grantees and search for local opportunities.
+
+We encourage all team members to contribute to our GiveLab Volunteer Directory. To recommend a nonprofit organization to add to the Directory, please open a [Volunteer Recommendation Issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/volunteer_recommendation.md).
+
+#### GiveLab Champions
+
+**GiveLab Champions overview**
+
+The GiveLab Champions are team members who are passionate about giving back to their communities and want to encourage other team members to do the same.
+
+GiveLab Champions self-identify to participate in the voluntary Champions group, managed by the ESG team. The GiveLab Champions help activate the GiveLab signature program (launching Fall of 2024), but also work to organize and promote volunteer opportunities year-round.
+
+**The importance of GiveLab Champions**
+
+GiveLab Champions help team members build trust through social connections, build connections within their communities, and help GitLab provide meaningful opportunities for team members to give back. The GiveLab Champions ensure global voices are heard and relevant causes are represented based on where team members live. GiveLab Champions help to make GitLab a better place to work.
+
+**Team member benefits of volunteering**
+
+- Champions introduce new and current team members to GitLab’s culture and help to build and maintain engagement
+- Champions help build trust through social connections
+- Champions have the opportunity to develop professional and leadership skills, build relationships across the company and make a difference at work and in local communities
+- Champions can network and provide positive impacts to the business
+
+**GiveLab Champion responsibilities**
+
+- Recommend local [Registered Nonprofit Organizations](/handbook/legal/philanthropy-policy/#who-we-support) that meet GitLab’s eligibility criteria for volunteer activities
+- Help organize local volunteer events for team members to participate in
+- Provide recommendations to the ESG Team for virtual volunteer opportunities
+- Encourage team members to volunteer
+- Help plan and execute the GiveLab signature program
+- Participate in quarterly Champion group meetings
+- Provide feedback to the ESG team on the GiveLab and ESG Programs
+
+**Time commitment**
+
+The time commitment for a GiveLab Champion is estimated to be 3-5 hours per quarter. Participation can vary throughout the year.
+
+**Selection criteria**
+
+- The team member must be performing in their role and not part of any performance management process as confirmed by the People Group
+- Must be a full-time GitLab team member. This includes team members employed through a PEO or who contract with CXC or directly with GitLab IT BV
+- At least 3-month tenure at GitLab
+- Approval from your direct manager and support to commit the time and to use this leadership role as a professional development opportunity
+- A minimum one-year commitment in the role but understanding this may change to less and can be more
+
+**Selection process**
+
+- Interested team members should complete the [GiveLab Champions survey](https://docs.google.com/forms/d/e/1FAIpQLSf1Nx999ruN-_Ja0T6nd-ClkNOMRXNEEj-P40R7rQ64iV7ABQ/viewform) expressing their interest
+- Team members must confirm that they have approval from their manager to participate
+- The ESG Team evaluates interest at a minimum on a monthly cadence and will reach out to the interested individual for follow up questions
 
 #### In Kind Support
 

@@ -35,8 +35,7 @@ running the onboarding script.
 - `role:` This is your Snowflake role, usually first initial + last name (ex: `JSMITH`)
 - `database:` This is your first initial + last name (ex: `JSMITH`)
 - Set up targets for different sized warehouses (ex: one for `DEV_XS` and one for `DEV_L`)
-  - Note: You should always default to using an XS warehouse. The [example provided in the
-  dbt guide](/handbook/business-technology/data-team/platform/dbt-guide/#example) defaults
+  - Note: You should always default to using an XS warehouse. The [example provided in the dbt guide](/handbook/business-technology/data-team/platform/dbt-guide/#example) defaults
   to an XS warehouse.
 
 ## Setting up development databases in Snowflake
@@ -151,7 +150,7 @@ dbt test --select my_model # run custom tests on my_model
 
 Once you are running dbt, linting a model can be done with a single command. Please read the
 [SQLFluff section of the SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide/#sqlfluff)
-for instructions on how to install SQLFluff on your local machine and more more details about
+for instructions on how to install SQLFluff on your local machine and more details about
 the linter settings. When you run the linter, the results will be printed in your terminal.
 
 You can also leverage the `fix` command to have the linter apply fixes to rule violations

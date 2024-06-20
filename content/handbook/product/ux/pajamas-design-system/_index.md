@@ -85,8 +85,7 @@ Not every component used in the GitLab product must be codified as part of the
 design system, because sometimes we create components that are relevant for only
 a specific use case in a distinct product area.
 
-To learn more about when to add a new component to Pajamas, read our [component
-lifecycle documentation](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas).
+To learn more about when to add a new component to Pajamas, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas).
 
 ## What is the component development lifecycle?
 
@@ -94,8 +93,7 @@ The goal of this process is to make it easy to: submit new designs (including
 documentation), propose changes to existing designs, and translate component
 designs into built components.
 
-To learn more about the stages of the component lifecycle, read our [component
-lifecycle documentation](https://design.gitlab.com/get-started/lifecycle).
+To learn more about the stages of the component lifecycle, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle).
 
 ## Beautifying the GitLab UI
 

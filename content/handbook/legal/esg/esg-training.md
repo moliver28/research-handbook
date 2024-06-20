@@ -26,20 +26,20 @@ By ensuring that good ESG practices are embedded into the organization, this wil
   - [93% of U.S. investors](https://www.edelman.com/sites/g/files/aatuss191/files/2020-11/Edelman%202020%20Institutional%20Investor%20Trust_0.pdf?utm_campaign=Friends%20of%20Dave&utm_medium=email&utm_source=Revue%20newsletter) expect the companies they invest in to increase their prioritization of ESG initiatives.
   - According to a [report](https://www.georgeson.com/us/insights/early-2022-us-agm-season-data#:~:text=In%20its%202022%20Early%20Proxy,season%20and%20754%20in%202020.) from Georgeson, there was a record-breaking volume of shareholder proposal submissions on ESG matters in 2022 for Russell 3000 companies. Shareholders submitted 924 ESG shareholder proposals at Russell 3000 companies between July 1, 2021 and May 16, 2022, compared to 837 during the 2021 season and 754 in 2020.
 - Customers
-    - [84%](https://www.ey.com/en_us/consumer-products-retail/make-sustainability-accessible-to-the-consumer#:~:text=84%25%20say%20sustainability%20is%20important,from%20the%20risk%20of%20infection.) of global consumers consider sustainability important when choosing a brand.
-    - [66%](https://www.porternovelli.com/wp-content/uploads/2021/05/2021-PN-Business-and-Social-Justice-Study.pdf) of Americans believe it’s good for business when companies address social justice issues – and perhaps that is because individuals are prepared to put their power behind brands that align with them on important issues. Six-in-10 (61%) said they will reward companies that actively address social justice issues.
+  - [84%](https://www.ey.com/en_us/consumer-products-retail/make-sustainability-accessible-to-the-consumer#:~:text=84%25%20say%20sustainability%20is%20important,from%20the%20risk%20of%20infection.) of global consumers consider sustainability important when choosing a brand.
+  - [66%](https://www.porternovelli.com/wp-content/uploads/2021/05/2021-PN-Business-and-Social-Justice-Study.pdf) of Americans believe it’s good for business when companies address social justice issues – and perhaps that is because individuals are prepared to put their power behind brands that align with them on important issues. Six-in-10 (61%) said they will reward companies that actively address social justice issues.
 - Team Members
-    - Over the past three years, the [trends show](https://www.wespire.com/blog/state-of-employee-engagement) that more than half of all employees are open to leaving their current company for new roles, but this drops to less than 12% if they believe that their company is positively impacting the world.
-    - [72%](https://www.ibm.com/downloads/cas/WLJ7LVP4) of employees are more likely to apply for a job at an organization they consider to be socially responsible.
-    - [43%](https://www.porternovelli.com/findings/2021-porter-novelli-focus-all-gender/) of employees are reconsidering their current job because their company is not doing enough to address social justice issues externally.
+  - Over the past three years, the [trends show](https://www.wespire.com/blog/state-of-employee-engagement) that more than half of all employees are open to leaving their current company for new roles, but this drops to less than 12% if they believe that their company is positively impacting the world.
+  - [72%](https://www.ibm.com/downloads/cas/WLJ7LVP4) of employees are more likely to apply for a job at an organization they consider to be socially responsible.
+  - [43%](https://www.porternovelli.com/findings/2021-porter-novelli-focus-all-gender/) of employees are reconsidering their current job because their company is not doing enough to address social justice issues externally.
 - Regulators
-    - New ESG disclosure requirements in the EU [(CSRD)](https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en) and [proposed requirements](https://www.sec.gov/news/press-release/2022-46) from the SEC will require public companies to disclose information on how companies manage ESG risks in addition to ESG metrics, such as greenhouse gas emissions (GHG). Many EU companies already require GHG data from their vendors, including GitLab, and for this reason, providing accurate and complete data is a priority. This will ensure that GitLab is in compliance with local regulations and continues to be easy to buy from.
+  - New ESG disclosure requirements in the EU [(CSRD)](https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en) and [proposed requirements](https://www.sec.gov/news/press-release/2022-46) from the SEC will require public companies to disclose information on how companies manage ESG risks in addition to ESG metrics, such as greenhouse gas emissions (GHG). Many EU companies already require GHG data from their vendors, including GitLab, and for this reason, providing accurate and complete data is a priority. This will ensure that GitLab is in compliance with local regulations and continues to be easy to buy from.
 
 ## GitLab's Key ESG Topics
 
 ### Materiality Assessment Overview
 
- - GitLab completed its first [double materiality assessment](/handbook/legal/esg/#esg-materiality-matrix) in January 2023. The assessment considered the perspectives of all of GitLab’s stakeholders including team members, senior leadership, customers, community members, board members, investors. The assessment involved speaking with GitLab’s stakeholders to understand the key topics they believe have the biggest impact on the success of the business and where GitLab has the biggest impact on the environment, society and people. We also considered ESG regulation, our peers, competitors and nonprofit organizations.The materiality assessment was the first step in developing the company’s first ESG strategy.
+- GitLab completed its first [double materiality assessment](/handbook/legal/esg/#esg-materiality-matrix) in January 2023. The assessment considered the perspectives of all of GitLab’s stakeholders including team members, senior leadership, customers, community members, board members, investors. The assessment involved speaking with GitLab’s stakeholders to understand the key topics they believe have the biggest impact on the success of the business and where GitLab has the biggest impact on the environment, society and people. We also considered ESG regulation, our peers, competitors and nonprofit organizations.The materiality assessment was the first step in developing the company’s first ESG strategy.
 
 ### GitLab's 6 Key Topcs
 
@@ -87,15 +87,15 @@ By ensuring that good ESG practices are embedded into the organization, this wil
 ## Developing an ESG Strategy
 
 - In collaboration with teams across the company, the ESG team uses the results of the materiality assessment to develop an ESG strategy. The goal of the strategy is to identify 1) areas where we are already aligned with best practice, 2) areas of improvement, 3) meaningful metrics for tracking performance, and 4) issues where we can demonstrate our commitment to improving our ESG performance in the short and long term by setting quantifiable and time bound goals.
-    - For example, in 2023, GitLab took the first step in developing a climate action plan to address the company’s GHG emissions. We completed the company’s first GHG inventory. The ESG team will collaborate with teams across the company to leverage the results of the inventory to identify areas where the company can reduce its carbon footprint.
+  - For example, in 2023, GitLab took the first step in developing a climate action plan to address the company’s GHG emissions. We completed the company’s first GHG inventory. The ESG team will collaborate with teams across the company to leverage the results of the inventory to identify areas where the company can reduce its carbon footprint.
 
 ## GitLab's ESG Disclosures
 
 - Watch [ESG Reporting](https://www.linkedin.com/learning/search?keywords=esg%20reporting&u=2255073) module from LinkedIn Learning
 - Every year, GitLab will publish an ESG report in the Handbook, which will describe key accomplishments for the year, include descriptions of how we manage relevant ESG risks and opportunities, highlight new programs and policies and report metrics across our material ESG topics to hold ourselves accountable year over year for improving our performance.
 - As you’ll see in GitLab’s first ESG report we use two best practice ESG reporting frameworks to guide our disclosures:
-    - [GRI](https://www.globalreporting.org/)
-    - [SASB](https://www.sasb.org/)
+  - [GRI](https://www.globalreporting.org/)
+  - [SASB](https://www.sasb.org/)
 
 ## GitLab Philanthropy
 
@@ -109,12 +109,12 @@ To learn more about how GitLab supports and encourages team members to support N
 
 ## Responding to ESG questions in RFPs
 
- - Please follow the steps outlined in the [RFP process](/handbook/security/security-assurance/field-security/Field-Security-RFP.html). Frequently asked questions and answers are available in AnswerBase.
+- Please follow the steps outlined in the [RFP process](/handbook/security/security-assurance/field-security/field-security-rfp/). Frequently asked questions and answers are available in AnswerBase.
 
 ## Responding to Investor Questions
 
- - If an investor contacts you regarding ESG, please advise them to reach out via the [IR page](https://ir.gitlab.com/ir-resources/contact-ir).
+- If an investor contacts you regarding ESG, please advise them to reach out via the [IR page](https://ir.gitlab.com/ir-resources/contact-ir).
 
 ## Where to get more info
 
- - Learn more about GitLab’s current progress on [ESG initiatives](/handbook/legal/ESG/) and read our first ESG report [here](/handbook/company/esg/). Follow #ESG on slack.
+- Learn more about GitLab’s current progress on [ESG initiatives](/handbook/legal/ESG/) and read our first ESG report [here](/handbook/company/esg/). Follow #ESG on slack.

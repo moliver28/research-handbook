@@ -43,7 +43,7 @@ The GitLab instructors below have volunteered their time to create the course co
 - [Ash McKenzie](/handbook/company/team/#ashmckenzie), Staff Backend Engineer
 - [Florie Guibert](/handbook/company/team/#fguibert), Senior Frontend Engineer
 - [Taurie Davis](/handbook/company/team/#tauriedavis), Product Design Manager
-- [Darren Eastman](/handbook/company/team/#DarrenEastman), Senior Product Manager
+- [Darren Eastman](/handbook/company/team/#darreneastman), Senior Product Manager
 - [Ezekiel Kigbo](/handbook/company/team/#ekigbo), Senior Frontend Engineer
 - [Dave Smith](/handbook/company/team/#dawsmith), Engineering Manager, Reliability
 - [Andrew Kelly](/handbook/company/team/#ankelly), Senior Security Engineer
@@ -53,7 +53,7 @@ The GitLab instructors below have volunteered their time to create the course co
 - [Thomas Randolph](/handbook/company/team/#thomasrandolph), Senior Frontend Engineer
 - [Eric Schurter](/handbook/company/team/#ericschurter), Senior Product Manager
 - [Sean Carroll](/handbook/company/team/#sean_carroll), Engineering Manager
-- [Sharif Bennett](/handbook/company/team/#SharifATL), Mid Market Account Executive
+- [Sharif Bennett](/handbook/company/team/#sharifatl), Mid Market Account Executive
 
 ## Career Stories
 

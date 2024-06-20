@@ -16,9 +16,9 @@ This policy applies specifically to customer-facing services and the underlying 
 
 #### Reliability::General
 
- - Contains all customer-facing services tied to the monolith architecture.
- - Responsibilities include design, development, deployment, and operational stability.
- - Ensuring alignment with organizational standards and meeting service level objectives (SLOs) for customer-facing services.
+- Contains all customer-facing services tied to the monolith architecture.
+- Responsibilities include design, development, deployment, and operational stability.
+- Ensuring alignment with organizational standards and meeting service level objectives (SLOs) for customer-facing services.
 
 #### Reliability::Practices
 

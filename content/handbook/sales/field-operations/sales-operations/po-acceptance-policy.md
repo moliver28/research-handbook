@@ -55,4 +55,3 @@ If a customer requires a Purchase Order to accept our invoice, the following inf
 If a customer is listed as **PO Required** , they must issue a PO following the guidelines above OR they must provde the following email confirmation (attached to the opportunity):
 
 "We will accept the invoice for [QUOTE NUMBER] without issuing a Purchase Order".
-

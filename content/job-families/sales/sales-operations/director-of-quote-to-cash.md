@@ -36,7 +36,7 @@ The Senior Manager, Quote to Cash is a [grade 9](/handbook/total-rewards/compens
 - Interest in GitLab, and open source software, ability to use GitLab
 - You share our values, and work in accordance with those values
 - Ability to use GitLab
-- Aligns with GitLab [Values](/handbook/values/
+- Aligns with GitLab [Values](/handbook/values/)
 
 #### Performance Indicators
 
@@ -96,7 +96,7 @@ In addition to the responsibilities of the Senior Manager, Quote to Cash below, 
 - Interest in GitLab, and open source software, ability to use GitLab
 - You share our values, and work in accordance with those values
 - Ability to use GitLab
-- Aligns with GitLab [Values](/handbook/values/
+- Aligns with GitLab [Values](/handbook/values/)
 
 #### Performance Indicators
 

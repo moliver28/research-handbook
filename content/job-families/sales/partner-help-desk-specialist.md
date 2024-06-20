@@ -91,7 +91,7 @@ The Manager, Partner Help Desk is a [Grade 8](/handbook/total-rewards/compensati
 
 ## Career Ladder
 
-The next step in the Partner Helpdesk Specialist job family is is to move into the [Channel Programs and Enablement](/job-families/sales/director-channel-programs-and-enablement/), the [Channel Sales Manager](/job-families/sales/channel-sales-manager/) or the [Sales Operations](/job-families/sales/sales-operations/) Job Family.
+The next step in the Partner Helpdesk Specialist job family is to move into the [Channel Programs and Enablement](/job-families/sales/director-channel-programs-and-enablement/), the [Channel Sales Manager](/job-families/sales/channel-sales-manager/) or the [Sales Operations](/job-families/sales/sales-operations/) Job Family.
 
 ## Hiring Process
 

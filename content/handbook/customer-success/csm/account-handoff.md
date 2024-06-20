@@ -41,6 +41,52 @@ The first step once you are aware of a handoff is for the new CSM to open an [CT
 
 As you follow the tasks in the CTA and collaborate amongst each other, be aware of the following suggestions to ensure a seamless handoff experience.
 
+## Account Handoff: Compensation Specific Systems Process
+
+Many of our internal processes rely on accurate assignments in our CRMs. This includes the way CSM/E variable compensation is tracked and attributed.
+<br>
+
+### Key Fields & Their Use
+
+| Field Name | Source of Truth (SOT) Location | Other Locations Updated by SOT | Description |
+| -------- | -------- | -------- | -------- |
+| Customer Success Manager | Gainsight C360 | SFDC Account Page | Represents who is assigned to the customer |
+| CSM Compensation Pool | Gainsight C360| SFDC Account Page | Assigns the account to a compensation pool. This is the "live" version of the pool |
+| Compensation Pool Team | SFDC Opportunity | N/A | This field is updated by the CSM Compensation Pool team field on the SFDC Account and is stamped at opportunity closure. It then represents the Compensation Pool who will receive credit for the opportunity. |
+| Compensation Pool Team Override | SFDC Opportunity | N/A | When the Compensation Pool Team field is stamped with the incorrect pool the process outlined below uses this field to override the stamped value. |
+<br>
+
+### Types of Coverage Transfers and How to Handle Them
+
+**Handoff between two named resources (CSM/A to CSM/A)**
+
+DRI: New CSM/A being assigned
+
+1. On the day of the transfer, change the name listed as the Customer Success Manager in Gainsight to the new named resource
+1. If the new CSM/A is associated with a different CSM Compensation Pool, update the CSM Compensation Pool in Gainsight to the new CSM/A’s pool.
+
+**CSM/A to CSE Organization**
+
+DRI: CSM/A that the customer is transferring away from
+
+1. On the day of transfer change the name listed as the Customer Success Manager in Gainsight to TAM Scale. This is the name that represents the CSE organization as a whole in our CRMs.
+1. The CSM Compensation Pool will need to be changed. Change it to the CSE pool that represents the Geo of the customer:
+    1. CSE_AMER_1
+    1. CSE_EMEA_1
+    1. CSE_APAC_1
+    1. CSE_PUBSEC_1
+
+**CSE Organization to CSM/A**
+
+DRI: CSM/A the customer is transferring to
+
+1. On the day of the transfer, change the name listed as the Customer Success Manager in Gainsight to the new named resource
+1. Update the CSM Compensation Pool in Gainsight to the new CSM/A’s pool.
+
+**How to handle overrides**
+
+At Gitlab, we value [Collaboration](/handbook/values/#collaboration). The stance we take as far as making sure Salesforce Opportunities are attributed to the right compensation pools is that we lean in on that value and work together to ensure the right pool is being compensated for the opportunities that close shortly after a transfer is made. The managers associated with the compensation pools involved are responsible for agreeing which opportunities may need an override of the compensation pool that was stamped at the time of close. In the case of a disagreement, the Geo’s senior leader should make the final decision. **If an agreement results in a need for an override, the CSM/E Manager should chatter @sales-comp on the opportunity that needs the override.**
+
 ## Topics to Cover
 
 ### License

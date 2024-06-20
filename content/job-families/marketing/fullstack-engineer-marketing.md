@@ -88,7 +88,7 @@ The Senior Fullstack Engineer is a [grade 7](/handbook/total-rewards/compensatio
 - Advanced technical expertise and proficiency in web architecture
 - Demonstrated capacity to clearly and concisely communicate about technical, architectural, and/or organizational problems and propose solutions
 - Demonstrated ability to solve performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Proficiency working in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration) software development process
+- Proficiency working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 
 ### Staff Fullstack Engineer
 
@@ -115,7 +115,7 @@ The Senior Fullstack Engineer is a [grade 8](/handbook/total-rewards/compensatio
 - Demonstrated ability to pivot from core engineering and coding work, to stakeholder conversations to understand business requirements and needs
 - Demonstrated ability to coach team members without direct reporting responsibilities
 - Experience with diagnosing and solving performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Proficient working in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration) software development process
+- Proficient working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 
 ### Manager, Engineering
 
@@ -142,7 +142,7 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 - Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose solutions
 - Demonstrated ability to coach and lead a team of direct reports, including hiring, development and growth  and driving a culture of high performance
 - Experience with diagnosing and solving  performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Experience leading team to work  in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration0) software development process
+- Experience leading team to work  in a highly agile, [intensely iterative](/handbook/values/#iteration0) software development process
 
 ## Performance Indicators
 

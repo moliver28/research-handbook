@@ -60,8 +60,7 @@ relevant teams using your feature in their daily work. This can be done by
 recording a demo of the new functionality and sharing it with the team,
 running through examples of usage on Product calls, or identifying current
 workflows or processes the feature could help improve.
-1. Including top internal user issues in the relevant [category
-epics](/handbook/product/product-processes/#category-direction) when they align with our strategy.
+1. Including top internal user issues in the relevant [category epics](/handbook/product/product-processes/#category-direction) when they align with our strategy.
 1. Maintaining a set of [internal customer DRIs](#internal-customer-dris) who represent GitLab team members
 who use GitLab for the purposes of developing and operating GitLab and
 GitLab.com.

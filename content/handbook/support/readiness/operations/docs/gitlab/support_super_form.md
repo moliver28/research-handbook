@@ -4,6 +4,8 @@ description: An overview of the Support Super Form
 canonical_path: "/handbook/support/readiness/operations/docs/gitlab/support_super_form"
 ---
 
+Located at: [support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
+
 ## Support Related Requests
 
 #### A request for Gratis Support
@@ -95,7 +97,7 @@ Without one, your request will be declined.
 #### Check namespace availability
 
 This is for checking the availability of a namespace. In the event the namespace
-in in use, this request will also check into the _potential_ of the namespace
+is in use, this request will also check into the _potential_ of the namespace
 being releasable.
 
 Please note this is fully automated. The request will create an issue that has

@@ -44,8 +44,8 @@ The following members of other functional teams are our stable counterparts:
 - [Release Board](https://gitlab.com/groups/gitlab-org/-/boards/2159734)
 - [Workflow Board](https://gitlab.com/groups/gitlab-org/-/boards/2365724) (be sure to add a `milestone` filter)
 - [Reliability](https://gitlab.com/gitlab-org/gitlab/-/boards/4227439?not[label_name][]=type%3A%3Afeature&label_name[]=group%3A%3Acode%20review)
-- [Security](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Acode%20review&not%5Blabel_name%5D%5B%5D=type%3A%3Afeature)
-- [InfraDev Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=infradev&label_name%5B%5D=group%3A%3Acode%20review&not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&not%5Blabel_name%5D%5B%5D=severity%3A%3A4)
+- [Security](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Acode%20review&amp;not%5Blabel_name%5D%5B%5D=type%3A%3Afeature)
+- [InfraDev Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=infradev&label_name%5B%5D=group%3A%3Acode%20review&amp;not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&amp;not%5Blabel_name%5D%5B%5D=severity%3A%3A4)
 
 ## Metrics and KPIs
 
@@ -76,7 +76,7 @@ To contact the Code Review BE team in GitLab, you can use the `@code-review-be` 
 
 ### Meeting Schedule
 
-[Team members](/handbook/engineering/development/dev/create/code-review/backend/#team-members) meet monthly and are encouraged to join in order to to interact with peers, solve technical challenges, and discuss freely with each other. You can check for the next meeting on the [Code Review Group calendar](https://calendar.google.com/calendar/embed?src=c_bt3jpkj6afr7321vpg9ra1191s%40group.calendar.google.com&ctz=America%2FChicago).
+[Team members](/handbook/engineering/development/dev/create/code-review/backend/#team-members) meet monthly and are encouraged to join in order to interact with peers, solve technical challenges, and discuss freely with each other. You can check for the next meeting on the [Code Review Group calendar](https://calendar.google.com/calendar/embed?src=c_bt3jpkj6afr7321vpg9ra1191s%40group.calendar.google.com&ctz=America%2FChicago).
 
 #### Planning
 

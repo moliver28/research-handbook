@@ -4,8 +4,7 @@ title: "How To Use Google Drive Sharing"
 
 ## Introduction
 
-The purpose of this handbook page is to describe how to utilize [Google
-Drive Sharing](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947). Google Drive sharing gives the ability to access another team members [Google Drive File](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947) or [Google Drive Folder](https://support.google.com/drive/answer/7166529?hl=en&co=GENIE.Platform%3DDesktop) that is stored in their `My Drive`.
+The purpose of this handbook page is to describe how to utilize [Google Drive Sharing](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947). Google Drive sharing gives the ability to access another team members [Google Drive File](https://support.google.com/drive/answer/2494822?hl=en&ref_topic=7000947) or [Google Drive Folder](https://support.google.com/drive/answer/7166529?hl=en&co=GENIE.Platform%3DDesktop) that is stored in their `My Drive`.
 
 There are different [Levels of Permissions](https://support.google.com/drive/answer/2494822?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cchoose-if-people-can-view-comment-or-edit) that can be assigned to Google Drive Sharing.
 

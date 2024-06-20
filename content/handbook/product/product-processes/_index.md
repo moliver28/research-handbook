@@ -27,21 +27,21 @@ The structure of a roadmap on a direction page might looks something like this:
 
 1. Now
 
-  - Prioritized development work
-  - Exploratory work
-  - How we are measuring success
+   - Prioritized development work
+   - Exploratory work
+   - How we are measuring success
 
 1. Next
 
-  - Prioritized development work
-  - Exploratory work
-  - How we are measuring success
+   - Prioritized development work
+   - Exploratory work
+   - How we are measuring success
 
 1. Future
 
-  - Prioritized development work
-  - Exploratory work
-  - How we are measuring success
+   - Prioritized development work
+   - Exploratory work
+   - How we are measuring success
 
 If the category has developed a [UX Roadmap](/handbook/product/ux/product-design/ux-roadmaps/) we recommend the product designer to create a merge request to incorporate UX Roadmap themes into the category direction page roadmap. Assign the MR to the PM for review and merge.
 
@@ -250,7 +250,7 @@ Depending on the [maturity level](https://about.gitlab.com/direction/maturity/) 
 - Any new features.
 - Any significant UI additions.
 - Disruptive features that may significantly improve workflows or occasionally introduce unavoidable inconveniences.
-     - We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
+  - We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
 - UX improvements that significantly adjust current workflow should be included.
 - New API only functionality, if many users leverage the API instead or UI.
 - Significant bug fixes.
@@ -482,7 +482,7 @@ Development Kit (GDK).
 
 ### Dealing with security issues
 
-Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/engineering/metrics/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
+Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/engineering/metrics/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
 
 While Product Managers are the DRIs for [milestone planning](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
@@ -503,9 +503,9 @@ Application limits should be enabled by default. If we are considering enabling 
 - **Proactively notify Customer Success and Support of the change** - Reach out in `#customer-success` and `#support_escalations` to announce the upcoming change, and consider discussing in the next `All CS Team Call` to solicit feedback.
 - **Ensure Customer Success and Support are equipped to help users** - Make sure that Customer Success and Support has access to the documentation that they need to help customers who contact them regarding the limit.
 - **Document the limits on docs.gitlab.com**
-    - Make sure that the limit is documented on the page for the feature and include details such as if it's configurable, what the default value is, and what impact this can have on the end user.
-    - Document the limit for customers on the [instance limits](https://gitlab.com/help/administration/instance_limits.md) help page, ensuring the limit for gitlab.com is specified. Include instructions on how the limit can be changed on self-managed instances.
-    - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/ee/security/rate_limits.html)
+  - Make sure that the limit is documented on the page for the feature and include details such as if it's configurable, what the default value is, and what impact this can have on the end user.
+  - Document the limit for customers on the [instance limits](https://gitlab.com/help/administration/instance_limits.md) help page, ensuring the limit for gitlab.com is specified. Include instructions on how the limit can be changed on self-managed instances.
+  - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/ee/security/rate_limits.html)
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
 - **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
 
@@ -519,7 +519,7 @@ See [this page](/handbook/product/cross-stage-features/) for details on working 
 
 #### Making changes to stages, groups, or categories
 
-Documentation on how to make changes to stages, groups, and categories, as well as what approvals are required, can be found in our [website handbook page](/handbook/marketing/digital-experience/website/#working-with-stages-groups-and-categories).
+Documentation on how to make changes to stages, groups, and categories, as well as what approvals are required, can be found in our [website handbook page](/handbook/marketing/digital-experience/).
 
 #### Managing creation and transition of groups, stages, and categories
 
@@ -992,15 +992,15 @@ Once the resolution criteria have been satisfied:
 1. Host a retrospective to understand what about the rapid action process could be improved. (Note: there could also be other retros that happen related to more specific sub-efforts of the rapid action, this retro should act as a touch point to ensure collaboration + communication worked.)
 1. Consider making the epic public. If the problem is related to security, ask `@gitlab-com/gl-security/secops` to determine when the epic can be made public.
 1. Communicate the resolution to stakeholders.
-1. Consider awarding [discretionary bonuses](../../incentives/#sts=Discretionary%20Bonuses) to the people who stepped in to help resolve the problem.
+1. Consider awarding [discretionary bonuses](../../incentives/#sts=discretionary%20bonuses) to the people who stepped in to help resolve the problem.
 
 ### Borrow
 
-Borrow is used when team members are shifted from one team to another temporarily. Team members complete assignment when the work is done. Borrows are meant to align management structures into a single group for coordination and logistics of the effort. It is important to define the work upfront so that it is bounded. We prefer borrows to be for a milestone, but generally can extend to multiple milestones. Any borrow more than 3 months should be reviewed carefully for scope and minimized to the extent possible. Where the ask likely extends beyond 6 months, a realignment should be considered.
+Borrow is used when team members are shifted from one team to another temporarily. Team members complete assignment when the work is done. Borrows are meant to align management structures into a single group for coordination and logistics of the effort. It is important to define the work upfront so that it is bounded. We prefer borrows to be for a milestone, but generally can extend to multiple milestones. Any borrow more than 3 months should be reviewed carefully for scope and minimized to the extent possible. Where the ask likely extends beyond 6 months, a realignment should generally be used instead.
 
-It is recommended that EMs, PMs, and Product Design Managers utilize [the issue template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Borrow-Request.md) for Borrow requests. Following this template helps ensure the process is efficient, well-organized, and receives the proper approvals. Identification of the group/individals that will be borrowed should be done in a private google doc or limited access project. Once a borrow request is approved, details about the impacted groups/team should be added to the issue to communicate the change more broadly.
+It is recommended that quad counterparts are able to seek alignment on their own first for fulfilling a borrow. As an example, in a stage where the quad leadership is already aligned on the most important business priorities, we are able to move quickly by aligning at a lower level and using a [lighter version of the Borrow template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Borrow-Request-Lite.md) to document the decision. This example might also make sense at a product group level if multiple groups are able to align themselves, or when multiple stakeholders are required (e.g. different reporting structures) but agreed. This template can also be used for individual team members who pick up work outside their assigned group. For efficiency, this approach should be preferred whenever possible.
 
-Alternatively, team members can use a [lighter version of the Borrow template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Borrow-Request-Lite.md). This is ideal for individual team members who pick up work outside their assigned group.
+If this is not possible or for broader support (e.g. looking far outside your area), EMs, PMs, and Product Design Managers utilize [the issue template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Borrow-Request.md) for Borrow requests. Following this template helps ensure the process is efficient, well-organized, and receives the proper approvals. Identification of the group/individals that will be borrowed should be done in a private google doc or limited access project. Once a borrow request is approved, details about the impacted groups/team should be added to the issue to communicate the change more broadly.
 
 Every borrow must have a specific deliverable commitment described. The intent is to set expectations and provide team members an opportunity to clearly understand the expectation. Selected team member preference is considered and providing this would also be an opportunity for other interested team members with the required skills to become involved.
 
@@ -1212,17 +1212,17 @@ the planned feature set should be clearly visible from the corresponding
 category strategy page. e.g.:
 
 - Stage strategy (page)
-    - Category strategy (page)
-        - Category epic (epic)
-            - Minimal maturity (epic)
-                - Cool Feature/Capability A (epic)
-                - Issue
-                - Issue
-                - Issue
-                - Cool Feature/Capability B
-                - Cool Feature/Capability C
-            - Viable maturity (epic)
-            - ...
+  - Category strategy (page)
+    - Category epic (epic)
+      - Minimal maturity (epic)
+        - Cool Feature/Capability A (epic)
+        - Issue
+        - Issue
+        - Issue
+        - Cool Feature/Capability B
+        - Cool Feature/Capability C
+      - Viable maturity (epic)
+      - ...
 
 The category epic should include:
 
@@ -1231,7 +1231,7 @@ The category epic should include:
 - A link to a search query which can be used to find all issues with the category label
 
 Maturity plans adhering to the [maturity framework](https://about.gitlab.com/direction/maturity/) are
-highly encouraged - but not required - for [non-marketing categories](/handbook/marketing/digital-experience/website/#category-attributes).
+highly encouraged - but not required - for non-marketing categories.
 
 For specifics of how the category strategy page should look, see the [category strategy template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/category_strategy_template.html.md).
 
@@ -1534,6 +1534,14 @@ Here are some examples of feedback issues:
 - [Fonts](https://gitlab.com/gitlab-org/gitlab/-/issues/386205)
 - [`master` -> `main`](https://gitlab.com/gitlab-org/gitlab/-/issues/221164)
 
+##### Feedback issue considerations
+
+Feedback issues are intended to collect feedback from the wider community and users. In some cases, internal user will be posting on behalf of users and customers. As a result we need to consider the following:
+
+1. Feedback issues that are public cannot contain [SAFE](/handbook/legal/safe-framework/#what-is-safe) information
+1. A linked confidential issue for Field feedback can be used, if needed, to support the exchange of customer details and feedback
+1. Leverage [internal comments](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) as needed if customer details are being shared
+
 #### Other Best Practice Considerations
 
 Consider the following to improve iteration:
@@ -1681,23 +1689,23 @@ Follow the below guidance to prepare and conduct Customer Discovery Meetings:
 **After the meeting:**
 
 - Document your findings. Create a folder (sharable only within GitLab) in [Google Drive](https://drive.google.com/drive/folders/0AH_zdtW5aioNUk9PVA) with a structure as follows:
-    - Customer Meetings
-        - Customer Name A
-            - 2020-04-01
-                - agenda (Google Doc)
-                - artifacts (folder for docs, images, etc.)
-            - 2020-10-03
-        - Customer Name B
-    - Competitive Research
-        - Vendors
-            - Vendor A
-                - summary (Google Doc, optional)
-                - 2020-04-01
-                - 2020-10-03
-            - Vendor B
-        - Projects
-            - product-10132-code-scan-results (reference GitLab issue number)
-            - ux-13840-selector-widget
+  - Customer Meetings
+    - Customer Name A
+      - 2020-04-01
+        - agenda (Google Doc)
+        - artifacts (folder for docs, images, etc.)
+      - 2020-10-03
+    - Customer Name B
+  - Competitive Research
+    - Vendors
+      - Vendor A
+        - summary (Google Doc, optional)
+        - 2020-04-01
+        - 2020-10-03
+      - Vendor B
+    - Projects
+      - product-10132-code-scan-results (reference GitLab issue number)
+      - ux-13840-selector-widget
 - Share your findings with your fellow product managers and the sales and customer success account teams for the customer
 - Make appropriate adjustments to category strategies, feature epics, and personas
 
@@ -1815,14 +1823,14 @@ See [issue template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/i
 ### Competition Channel
 
 When someone posts information in the `#competition` channel that warrants
-creating an issue and/or [a change in `features.yml`](/handbook/marketing/digital-experience/website/#adding-features-to-webpages), follow this
+creating an issue and/or a change in `features.yml`, follow this
 procedure:
 
 - Create a thread on the item by posting `I'm documenting this`
 - Either do the following yourself, or [link](#competition-channel)
 to this paragraph for the person picking this up to follow
 - If needed: create an issue
-- [Add the item to the `features.yml`](/handbook/marketing/digital-experience/website/#adding-features-to-webpages)
+- Add the item to the `features.yml`
 - If GitLab does not have this feature yet, link to the issue you created
 - Finish the thread with a link to the commit and issue
 
@@ -1946,17 +1954,19 @@ When we speak to users and customers directly during this workflow, we must be m
 
 #### Overall process
 
-1. Product leaders go through the list of CSAT responders who have agreed to a followup conversation. They either sign up for outreach or tag in their Group Product Managers and Product Managers as appropriate.
-1. Those Group Product Managers and Product Managers then view the sheet and confirm who they want to talk with.
-1. They reach out to users and schedule interviews.
-1. They mark which users they interview.
-1. They add notes and video recordings from the interviews to the CSAT column in this [Dovetail project](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
+1. UX Researcher DRI opens a Responder Outreach issue and notifies Product team members in the comments that the issue is ready.
+1. Product leaders go through the list of CSAT responders who have agreed to a follow up conversation. Those Product leaders either sign up for outreach or tag in their Group Product Managers and Product Managers as appropriate.
+1. Group Product Managers and Product Managers then view the sheet and confirm who they want to talk with.
+1. Product team members reach out to users and schedule interviews.
+1. Product team members add notes and video recordings from the interviews to the CSAT column in this [Dovetail project](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
+1. Product team members mark which users they interviewed and include any additional notes about the session in the follow up users sheet.
+1. As Product team members create or continue to work on issues related to CSAT follow up interviews, they use the following label (CSAT::Responder Outreach) to help the UX Research team track the impact of these interviews.
 
 **Note:** GitLab Customer Success Managers will also follow the process above so please be mindful to coordinate with them if they reach out or if they've already signed up for a user. Users should never be contacted by more than one GitLab team member. Users should never be contacted more than twice if they do not respond to an outreach email.
 
 #### Instructions for Product leaders
 
-1. Look at the CSAT Follow-up Users Google Sheet that will be shared with you in an issue. Identify any users you think a Group Product Manager or Product Manager from your group would be interested in speaking to. Assign the specific Group Product Manager or Product Manager to reach out to that user by putting their name in the appropriate column. This will also serve as a "hold" on the user and if others are interested they will need to coordinate with this Group Product Manager or Product Manager.
+1. Look at the `CSAT Follow Up Users` Google Sheet that will be shared with you in an issue. Identify any users you think a Group Product Manager or Product Manager from your group would be interested in speaking to. Assign the specific Group Product Manager or Product Manager to reach out to that user by putting their name in the appropriate column. This will also serve as a "hold" on the user and if others are interested they will need to coordinate with this Group Product Manager or Product Manager.
 1. If you think another Group Product Manager or Product Manager in your group or another group would be interested in speaking to the same customer, consider notifying that Group Product Manager or Product Manager for the sake of efficiency.
 1. If you're interested in having one of your Group Product Managers or Product Managers speak with a user that has already been "claimed" by another GitLab team member, have your Group Product Manager or Product Manager reach out to that team member so they can coordinate a joint conversation. **We need to be mindful of our users' time and should limit this outreach to a single conversation rather than successive conversations.**
 
@@ -2011,7 +2021,7 @@ When we speak to users and customers directly during this workflow, we must be m
 1. Collect all notes that were taken and Zoom recording from the interview and add them to the CSAT column in this [Dovetail project](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
 1. If you told the user you'd follow up on anything or promised to send them further information, make sure you do so, ideally within two business days.
 1. Go back to the spreadsheet and mark that you spoke to a user in the _Status_ column.
-1. If you create any epics/issues to address feedback gathered in the calls, add the label `CSAT improvement` and link them to the corresponding CSAT responder outreach issue from that quarter.
+1. If you create any epics/issues to address feedback gathered in the calls, add the label `CSAT:Responder Outreach` and link them to the corresponding CSAT responder outreach issue from that quarter.
 
 Note: It's important to tag your CSAT related issues to help tracking/reporting such as the [improvement slides](https://docs.google.com/presentation/d/1ZXEfR1lo5y5tpRi0i5l-OSX3v3wMe6jepjJcZfKyTvw/edit#slide=id.ge2b883c896_6_0) in Product Key Reviews.
 
@@ -2022,7 +2032,7 @@ Every Product Manager is responsible for the user experience and cost profile of
 There are a few questions a Product Manager should ask when thinking about their features:
 
 - What are the costs associated with my product area? What is the impact on the margin for each tier of GitLab.com?
-    - Consider network, compute, and storage costs
+  - Consider network, compute, and storage costs
 - Are there tools in place to help GitLab, Inc and self-managed admins optimize the cost footprint for running GitLab (e.g. node rebalancing, transitioning objects to less costly storage classes, garbage collection capabilities)
 - Are there features and default settings that help users stay within their [CI and Storage limits](https://about.gitlab.com/pricing/)?
 - Are there configurable [application limits](/handbook/product/product-processes/#introducing-application-limits) in place for admins to enhance the availability and performance of GitLab and reduce [abuse vectors](/handbook/security/security-operations/trustandsafety/#examples-of-common-forms-of-abuse-include-but-are-not-limited-to)?
@@ -2051,7 +2061,7 @@ There are a few different tools PM's can utilize to understand the operational c
 #### Tools to understand end user experience
 
 - [Snowplow data](/handbook/business-technology/data-team/platform/snowplow/) on GitLab.com
-- Quarterly NPS and SUS surveys
+- Quarterly Product CSAT and SUS surveys
 - [Page load performance](../product-processes/#page-load-performance-metrics)
 
 ## Roadmaps, Boards, Issues & Epics
@@ -2184,14 +2194,14 @@ people in another channel after the issue has been created (Slack, email).
 GitLab product issues will often have one of the three [type labels](https://docs.gitlab.com/ee/development/labels/index.html#type-labels) `~"type::bug"`, `~"type::feature"`, or `~"type::maintenance"`. Features can be further clarified as:
 
 - `~feature::addition` - Refers to the first MVC that gives GitLab users a foundation of new capabilities that were previously unavailable. For example, these issues together helped create the first MVC for our Reviewer feature:
-    - [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921)
-    - [Show which reviewers have commented on an MR](https://gitlab.com/gitlab-org/gitlab/-/issues/10294)
-    - [Add reviewers to MR form](https://gitlab.com/gitlab-org/gitlab/-/issues/216054)
-    - [Increase MR counter on navbar when user is designated as reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/255102)
+  - [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921)
+  - [Show which reviewers have commented on an MR](https://gitlab.com/gitlab-org/gitlab/-/issues/10294)
+  - [Add reviewers to MR form](https://gitlab.com/gitlab-org/gitlab/-/issues/216054)
+  - [Increase MR counter on navbar when user is designated as reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/255102)
 - `~feature::enhancement` - Refers to GitLab user-facing improvements that refine the initial MVC to make it more useful and usable. For example, these issues enhance the existing Reviewer feature:
-    - [Show MRs where user is designated as a Reviewer on the MR list page](https://gitlab.com/gitlab-org/gitlab/-/issues/237922)
-    - [Display which approval rules match a given reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/233736)
-    - [Add Reviewers quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/241244)
+  - [Show MRs where user is designated as a Reviewer on the MR list page](https://gitlab.com/gitlab-org/gitlab/-/issues/237922)
+  - [Display which approval rules match a given reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/233736)
+  - [Add Reviewers quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/241244)
 
 There are also other higher precedence labels, as documented by [Engineering Metrics](/handbook/engineering/metrics/#data-classification).
 

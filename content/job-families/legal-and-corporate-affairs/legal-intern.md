@@ -35,7 +35,7 @@ The Legal Intern is a grade 4 (/handbook/total-rewards/compensation/compensation
 - Proactive, dynamic and result driven individual with attention to detail
 - Enthusiasm and "self-starter" qualities enabling the intern  to manage responsibilities with an appropriate sense of urgency; the ability to function effectively and efficiently in a fast-paced & dynamic environment
 - Superior analytical, project management experience, and communication skills
-- Outstanding interpersonal skills, including diplomacy and flexibility, and the ability to interface effectively and engender trust and confidence with with all business functions throughout the organization
+- Outstanding interpersonal skills, including diplomacy and flexibility, and the ability to interface effectively and engender trust and confidence with all business functions throughout the organization
 - A curious mind who does not back down from a challenge.
 - Ability to use GitLab
 

@@ -14,10 +14,10 @@ Dev.gitlab.org is a GitLab instance hosted in Azure. The instance is running a v
 
 It's primary use is for building official Docker images and GitLab packages which are later used as part of the official release pipelines.
 
-It is also used as an OAuth authentication service which allows users to to sign in to other services using their dev.gitlab.org account, such as:
+It is also used as an OAuth authentication service which allows users to sign in to other services using their dev.gitlab.org account, such as:
 
-  * Sentry
-  * Version app
+* Sentry
+* Version app
 
 <img src="/images/handbook/engineering/infrastructure/supporting-architecture/dev-oauth.png" alt="">
 

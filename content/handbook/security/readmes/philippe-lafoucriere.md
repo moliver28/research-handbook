@@ -9,11 +9,10 @@ job: "Security Architect"
 ### About me
 
 Hi! I'm a [Security Architect](/job-families/security/security-engineer#security-architect) at
-GitLab, which is a specialty on top of my [Security Distinguished
-Engineer](/job-families/security/security-engineer#distinguished-security-engineer) role.
+GitLab, which is a specialty on top of my [Security Distinguished Engineer](/job-families/security/security-engineer#distinguished-security-engineer) role.
 
-I have an Engineering background, having graduated from the [Université de Technologie de
-Compiègne](https://www.utc.fr/en/) (France) with a Master's Degree in Computer Science.
+I have an Engineering background, having graduated from the
+[Université de Technologie de Compiègne](https://www.utc.fr/en/) (France) with a Master's Degree in Computer Science.
 Nevertheless, my career almost involved an Entrepreneur aspect. This makes me a Jack of all
 trades and a master of none.
 
@@ -30,11 +29,10 @@ A few facts about me:
 
 ### Background story at GitLab
 
-I joined GitLab with the [acquisition of
-Gemnasium](https://about.gitlab.com/press/releases/2018-01-30-gemnasium-acquisition.html) in 2018, when I become the first
+I joined GitLab with the [acquisition of Gemnasium](https://about.gitlab.com/press/releases/2018-01-30-gemnasium-acquisition.html)
+in 2018, when I become the first
 manager of the [Secure Stage](https://about.gitlab.com/direction/secure/). After having designed and developed security
-products, I decided to switch to the other side of the mirror and joined the [Security
-Department](/handbook/security) in 2020.
+products, I decided to switch to the other side of the mirror and joined the [Security Department](/handbook/security) in 2020.
 
 ![timeline](../timeline.png)
 
@@ -91,9 +89,8 @@ mode”, but it’s usually family time.
 
 ### Projects
 
-I maintain the [GitLab Inventory
-Builder](https://gitlab.com/gitlab-com/gl-security/product-security/gib) as well as our
-[internal inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
+I maintain the [GitLab Inventory Builder](https://gitlab.com/gitlab-com/gl-security/product-security/gib)
+as well as our [internal inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
 (private project).
 
 ### Office Hours
@@ -114,9 +111,9 @@ These tools make my day, every single day. I would have a really hard time worki
 #### Alfred
 
 [Alfred](https://www.alfredapp.com/) is a productivity app for mac. It's a blazing-fast application
-launcher with some nice extra features. The best is the [clipboard
-history](https://www.alfredapp.com/help/features/clipboard/) that stacks everything copied in the
-clipboard. I can copy many different links for example and then switch to another window to paste
+launcher with some nice extra features. The best is the [clipboard history](https://www.alfredapp.com/help/features/clipboard/)
+that stacks everything copied in the clipboard.
+I can copy many different links for example and then switch to another window to paste
 them. It's also smart enough to remove secrets from 1password from the history once pasted.
 
 #### Little Snitch

@@ -106,7 +106,7 @@ This will return nice URL that will take you the relevant license in CustomersDo
 
 ## Within Salesforce
 
-If you have access, you have the ability to look up the ticket requester's organization directly directly in Salesforce.
+If you have access, you have the ability to look up the ticket requester's organization directly in Salesforce.
 
 ### Finding the customer's organization
 

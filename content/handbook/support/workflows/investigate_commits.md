@@ -34,4 +34,4 @@ Based on the search results, check to see if the user is authorized to have acce
 
 If yes, then respond to customer clarifying which user made the commit and for the user to double check their `gitconfig` name and email address.
 
-If not, then open a [a secops issue](https://gitlab.com/gitlab-com/gl-security/secops/operations/-/issues) for further investigation.
+If not, then open a [secops issue](https://gitlab.com/gitlab-com/gl-security/secops/operations/-/issues) for further investigation.

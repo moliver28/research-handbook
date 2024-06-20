@@ -80,8 +80,7 @@ of the review.
 Following the in-scope items by priority the reviewer will conduct the
 requested review. Any security related findings and concerns should be captured
 in a dedicated thread in the review issue. Having all initial security concerns
-and findings within the issue allows the review issue to be a [single source of
-truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)
+and findings within the issue allows the review issue to be a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)
 for its review cycle. The individual findings can be discussed in the separate
 threads with the development team, if the issue needs a dedicated in-depth
 discussion a separate issue should be created in the according project and
@@ -168,6 +167,5 @@ team.
 In order to close the review issue there should be either a follow up issue or
 MR on the respective development repository. If a follow up is missing it
 should be created by the reviewer and linked to in the respective finding
-thread. For those issues the normal [triage
-process](https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+thread. For those issues the normal [triage process](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 applies.

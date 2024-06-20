@@ -82,6 +82,9 @@ To make changes to that information, submit an MR for the
   - a link to the group's handbook page
   - a link to the Support Team page showing the group's membership
   - a link to a permanent Zoom room for that group to use in collaborating
+- Each Slack channel is setup with a bot alert (managed via the [sgg-notifications](https://gitlab.com/gitlab-com/support/toolbox/sgg-notifications) project) to notify on tickets set to breach in under 2 hours
+  - Each group can customize the criteria for alerts based on group preference
+  - See the [Contributing](https://gitlab.com/gitlab-com/support/toolbox/sgg-notifications#contributing) section in the project for details on how to collaborate on customization
 
 ##### Daily Stand-up Bot
 

@@ -57,9 +57,9 @@ To engage with the GitLab Dedicated teams:
   - For GitLab Dedicated specific questions, you can find us in [#f_gitlab_dedicated](https://gitlab.slack.com/archives/C01S0QNSYJ2)
   - The `@dedicated-envauto-team` Slack group can be used in any internal channel to tag the Environment Automation team.
   - Engineering teams have their own work channels for team work discussions:
-      - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
-      - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
-      - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
+    - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
+    - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
+    - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
   - Our [social channel](https://gitlab.slack.com/archives/C03QBGQ3K5W) is accessible to everyone who wants to casually interact with the team
 
 ### Handling Configuration Changes for Tenant Environments
@@ -309,7 +309,7 @@ Epic boards are used to track the overall status of epics. We use the following 
 
 #### Epic roadmap
 
-All epics and sub-epics are set with due dates according to the [the Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
+All epics and sub-epics are set with due dates according to the [Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
 
 Limited Availability phases end and are closed on the release day of each phase's corresponding month.
 
@@ -490,11 +490,10 @@ There are three other workflow labels of importance:
 
 #### Support labels
 
-Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance via the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated).
+Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance via the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated) and the [GitLab docs](https://docs.gitlab.com/).
 
 | State Label | Description |
 | ----------- | ----------- |
-| `support::toreview` | The `support::toreview` label is applied by default to issues created by Support Engineers [formally seeking assistance](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) on behalf of a customer in a ticket. |
 | `support::reviewed` | The `support::reviewed` label is applied when these issues have been reviewed and the review did not directly result in an issue or MR. |
 | `support::reviewed-and-improvement-made` | The `support::reviewed-and-improvement-made` label is applied when an improvement has been made based on a review. Improvements include opened issues or MRs. |
 
@@ -553,7 +552,7 @@ and is not expected to be perfect in every situation.
 Do your best,
 and understand that the process is inherently imprecise and fuzzy at the edges.
 
-The Dedicated capacity process process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
+The Dedicated capacity process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
 
 The overall flow of work is to assess any new reported saturation risks,
 and re-review any which are due to be looked at again.
@@ -611,7 +610,7 @@ as a high priority task that is second only to active incidents:
       1. Work on the tamland
          [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
         to exclude or tweak the specific saturation signal.
-         - The [Scalability:Observability](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/observability/) team
+         - The [Scalability:Observability](/handbook/engineering/infrastructure/team/scalability/observability/) team
         can offer advice on the finer details of the tamland configuration.
 1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
    The pipeline should run successfuly every day.
@@ -652,12 +651,31 @@ Some tips:
    [Capacity Planning Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-tracker/gitlab-dedicated/-/issues) can be a good source of information,
    as some recurring saturation forecast share the same or similar causes,
    or just to gain some insight into how these issues have been investigated and resolved in the past.
+1. Remember that some items may alert across multiple tenants.
+   If possible, treat them as a unit rather than per-tenant,
+   unless the causes and fixes are truly distinct.
+   This is particularly important for false-positives or items needing tuning
 1. Trust your instincts.
    If it looks concerning, raise a remediation issue; they are free, and can easily be closed again after additional input.
    If it looks fine it probably is,
    and even if it isn't then there's a rotating schedule of other engineers in the following weeks who can spot something you missed.
    This process is designed to get warning of things that are coming when possible,
    not to be a perfect predictor in all cases.
+
+#### Example responses
+
+Here are some concrete examples of responses to capacity planning alerts.
+
+- Removing a metric from capacity planning - [Advanced search memory pressure](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/merge_requests/3322)
+  does not follow long-term trends and was not a useful prediction.
+  It remains a metric that is _alerted_ on if it exceeds practical limits.
+- Remove saturation metric entirely - [kube_pool_cpu](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/7412)
+  was incorrect in many cases, and difficult to get right.
+  It needed to be replaced with a different saturation metric (node-based CPU).
+- Add Saturation metrics - [Kubernetes PVCs](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/7411)
+  were not being monitored at all, leading to near-miss incidents
+- Fix the saturation metric - [Advanced search disk](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/merge_requests/3331)
+  was inaccurate and needed to be replaced with better promql expressions
 
 ### Resources
 

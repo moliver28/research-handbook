@@ -130,34 +130,27 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- |
-| 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | [Ian Pedowitz](https://gitlab.com/ipedowitz) - Director, Strategy and Operations (Limited availability Thursday 8am PT - 12am PT due to a flight)  | REMOTE - PT, MON - THURS |
-| 2024-05-06 | 2024-05-10 | Karen Murphy - Chief Editorial Officer, Sijbrandij Family Office | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | REMOTE - PT, MON, FRI |
-| 2024-05-13 | 2024-05-17 | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | Karen Murphy - Chief Editorial Officer, Sijbrandij Family Office | REMOTE - PT, MON - TUES |
-| 2024-05-20 | 2024-05-24 | NO SHADOW | NO SHADOW | PRESIDENT'S CLUB |
-| 2024-05-27 | 2024-05-31 | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
-| 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | REMOTE - PT |
-| 2024-06-10 | 2024-06-14 |  [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
-| 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT |
-| 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success | [Emilio Salvador](@esalvadorp) - VP Developer Relations & Community | In Person - East Coast |
+| 2024-06-10 | 2024-06-14 | [Sacha Guyon](https://gitlab.com/sguyon) - Sr. Product Manager (Observability) | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - ET |
+| 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | OPEN | REMOTE - ET |
+| 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success | [Emilio Salvador](@esalvadorp) - VP Developer Relations & Community | REMOTE - ET |
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
 | 2024-07-08 | 2024-07-12 | NO SHADOW | NO SHADOW | travel in EMEA |
-| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | REMOTE - PT |
-| 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - PT |
-| 2024-07-29 | 2024-08-02 |  Ivan French - CEO, Sijbrandij Foundation | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
-| 2024-07-29 | 2024-08-02 | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
-| 2024-08-05 | 2024-08-09 |  OPEN | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - CT - limited week due to MS conference |
-| 2024-08-12 | 2024-08-16 |  OPEN | OPEN | REMOTE - PT |
-| 2024-08-19 | 2024-08-23 |  OPEN | OPEN | REMOTE - PT - limited week (M-W)|
+| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | REMOTE - ET |
+| 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - ET |
+| 2024-07-29 | 2024-08-02 | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
+| 2024-08-05 | 2024-08-09 |  Ivan French - CEO, Sijbrandij Foundation | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - CT - limited week due to MS conference |
+| 2024-08-12 | 2024-08-16 | OPEN | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
+| 2024-08-19 | 2024-08-23 | OPEN | OPEN | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
-| 2024-09-02 | 2024-09-06 |  [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
-| 2024-09-09 | 2024-09-13 |  OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
-| 2024-09-16 | 2024-09-20 |  OPEN | OPEN | REMOTE - PT |
-| 2024-09-23 | 2024-09-27 |  VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
-| 2024-09-30 | 2024-10-04 |  OPEN | OPEN | REMOTE - PT |
-| 2024-10-07 | 2024-10-11 |  OPEN | OPEN | REMOTE - PT |
-| 2024-10-14 | 2024-10-18 |  OPEN | OPEN | REMOTE - PT - very limited week due to multiple conferences |
-| 2024-10-21 | 2024-10-25 |  [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
-| 2024-10-28 | 2024-11-01 |  OPEN | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
+| 2024-09-02 | 2024-09-06 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
+| 2024-09-09 | 2024-09-13 | OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
+| 2024-09-16 | 2024-09-20 | OPEN | OPEN | REMOTE - PT |
+| 2024-09-23 | 2024-09-27 | VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
+| 2024-09-30 | 2024-10-04 | OPEN | OPEN | REMOTE - PT |
+| 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | OPEN | REMOTE - PT |
+| 2024-10-14 | 2024-10-18 | OPEN | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT - very limited week due to multiple conferences |
+| 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
+| 2024-10-28 | 2024-11-01 | OPEN | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -185,8 +178,8 @@ Outgoing shadows are responsible for training incoming shadows. We currently tra
 
 **Make sure you do the following:**
 
- - **Create an onboarding issue.** The incoming shadow is responsible for creating their onboarding issue by the Friday before they start the program using the [`onboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=onboarding). Assign the issue to both the incoming and outgoing shadows (the person who will be "teaching one" and yourself).
- - In your second week, you'll **create an offboarding issue.** by using the [`offboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=offboarding).
+- **Create an onboarding issue.** The incoming shadow is responsible for creating their onboarding issue by the Friday before they start the program using the [`onboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=onboarding). Assign the issue to both the incoming and outgoing shadows (the person who will be "teaching one" and yourself).
+- In your second week, you'll **create an offboarding issue.** by using the [`offboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=offboarding).
 
 #### Consider creating goals
 
@@ -835,4 +828,10 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-03-18 | 2024-04-05 | [Miracle Banks](https://gitlab.com/miraclebanks) | Full Stack Engineer | |
 | 2024-04-01 | 2024-04-12 | [Jeremy Wagner](https://gitlab.com/jeremywagner) | Sr Solutions Architect | |
 | 2024-04-08 | 2024-04-26 | [Karen Kwentus](https://gitlab.com/kkwentus1) | Sr Solutions Architect | |
-| 2024-04-22 | 2024-04-26 | Kelsey Turcotte  | VP, Investor Relations | REMOTE - PT |
+| 2024-04-22 | 2024-04-26 | [Kelsey Turcotte](https://gitlab.com/KTurcotteGTLB) | VP, Investor Relations | |
+| 2024-04-29 | 2024-05-03 | [Ian Pedowitz](https://gitlab.com/ipedowitz) | Director, Strategy and Operations, Office of the CEO | |
+| 2024-04-29 | 2024-05-10 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) | Staff Marketing Campaigns Manager | |
+| 2024-05-06 | 2024-05-17 | Karen Murphy | Chief Editorial Officer, Sijbrandij Family Office | |
+| 2024-05-13 | 2024-05-31 | [Djordje Micovic](https://gitlab.com/dmicovic) | Staff Data Analyst, Marketing Analytics | |
+| 2024-05-27 | 2024-06-07 | [Rigerta Demiri](https://gitlab.com/Rigerta) | Senior Data Engineer, Data | |
+| 2024-06-03 | 2024-06-14 | [Christopher Wang](https://gitlab.com/cs.wang) | Sr. Manager Strategy and Enablement (Sales Development) | |

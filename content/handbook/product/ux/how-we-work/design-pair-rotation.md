@@ -48,4 +48,6 @@ This is the rotation schedule for FY25-Q1 and Q2 (2024-02-01 until 2024-07-31).
 
 ### Temporary pairing
 
-No temporary pairings at this time.
+| Designer               | Design Pair                |
+|------------------------|----------------------------|
+| Pedro Moreira da Silva | Nicolle Merrill            |

@@ -25,7 +25,6 @@ Helpful Buffer extensions/apps:
 
 Read more in [this article](https://buffer.com/library/save-time-social-media-scheduling/).
 
-
 ## Grammarly
 
 Grammarly helps improve written text from grammatical mistakes

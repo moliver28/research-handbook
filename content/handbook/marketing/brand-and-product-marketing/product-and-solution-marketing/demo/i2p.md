@@ -23,17 +23,14 @@ end-to-end visibility and traceability so they can work to improve their
 software development and operations over time. But for most teams, getting this
 tooling right is incredibly difficult.
 
-This demonstration will highlight [GitLab’s single platform for the complete
-DevOps lifecycle](https://about.gitlab.com/direction/#scope), from plan to
+This demonstration will highlight [GitLab’s single platform for the complete DevOps lifecycle](https://about.gitlab.com/direction/#scope), from plan to
 monitor, through issues, planning, merge request, CI, CD, and monitoring.
 
-![](/images/press/devsecops-lifecycle.svg)
+![''](/images/press/devsecops-lifecycle.svg)
 
 If you encounter issues replicating this demo on GKE or on your own Kubernetes
-cluster please [open an
-issue](https://gitlab.com/gitlab-com/marketing/product-marketing/-/issues/new). We're still
-working to improve this demo further, please see [all open idea-to-production
-issues](https://gitlab.com/gitlab-org/gitlab-ce/boards/814228?label_name[]=idea-to-production).
+cluster please [open an issue](https://gitlab.com/gitlab-com/marketing/product-marketing/-/issues/new). We're still
+working to improve this demo further, please see [all open idea-to-production issues](https://gitlab.com/gitlab-org/gitlab-ce/boards/814228?label_name[]=idea-to-production).
 
 ## Preparation
 
@@ -236,7 +233,6 @@ the language and framework and build an appropriate Docker image.
 
 #### (optional: if CI/CD is taking a while)
 
-
 While it’s running, we can head back to our Kubernetes console to see that our
 GitLab Runner is working directly with Kubernetes to spawn new containers for
 each job, as they are needed. It even creates a namespace for the project,
@@ -269,7 +265,6 @@ and other quality problems. Catching these types of problems early makes them
 
 ##### (optional: requires GitLab Ultimate)
 
-
 > - Click back (to pipeline view)
 > - Click `container_scanning`
 
@@ -280,7 +275,6 @@ application is running in as secure an environment as possible from the start.
 ### Dependency scanning (Security)
 
 ##### (optional: requires GitLab Ultimate)
-
 
 > - Click back (to pipeline view)
 > - Click `dependency_scanning`
@@ -294,7 +288,6 @@ development gets too far.
 
 ##### (optional: requires GitLab Ultimate)
 
-
 > - Click back (to pipeline view)
 > - Click `license_management`
 
@@ -306,7 +299,6 @@ early, before it is more costly to change.
 ### Static Application Security Testing (Security)
 
 ##### (optional: requires GitLab Ultimate)
-
 
 > - Click back (to pipeline view)
 > - Click `sast`

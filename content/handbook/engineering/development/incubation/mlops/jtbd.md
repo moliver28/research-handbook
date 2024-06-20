@@ -94,7 +94,7 @@ When working with software that includes Machine Learning, I want be able to ite
 | Code          | Job Description |
 |---------------|-----------------|
 | <a id="IE_MLOPS_MN_1">IE_MLOPS_MN_1</a> | When input data configuration changes, I want to be warned, so that I can retrain my machine learning model                                                                      |
-| <a id="IE_MLOPS_MN_2">IE_MLOPS_MN_2</a> | When the performance of a a Machine Learning model degrades, I want to be informed, so that I can retrain my machine learning model                                              |
+| <a id="IE_MLOPS_MN_2">IE_MLOPS_MN_2</a> | When the performance of a Machine Learning model degrades, I want to be informed, so that I can retrain my machine learning model                                              |
 | <a id="IE_MLOPS_MN_3">IE_MLOPS_MN_3</a> | When a deployed machine learning model is taking too much resources, I want to be informed, so that I don't incur into too much cost                                             |
 | <a id="IE_MLOPS_MN_4">IE_MLOPS_MN_4</a> | After deploying a model, I want to run adhoc analysis on the prediction data, to explore the outcomes and potential improvements                                                 |
 | <a id="IE_MLOPS_MN_5">IE_MLOPS_MN_5</a> | After deploying a model, I want to run adhoc analysis on the prediction data, so that I can answer questions from the business                                                   |

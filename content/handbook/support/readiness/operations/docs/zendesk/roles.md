@@ -47,7 +47,7 @@ new role.
 #### Updating an existing role
 
 Updating an existing role is considerably easier than creating a new one. Simply
-change change the code in the source project and it will occur via the sync
+change the code in the source project and it will occur via the sync
 repo.
 
 #### Deleting a role

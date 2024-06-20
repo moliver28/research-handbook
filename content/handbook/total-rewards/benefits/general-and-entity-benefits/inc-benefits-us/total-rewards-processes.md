@@ -122,7 +122,7 @@ The Total Rewards Analyst will review and initiate payment for all monthly healt
 
 - All bills are available on the first of the month and should be paid by the 13th.
 - A reconciliation report will be made available in the PlanSource system. Total Rewards will transfer the reconciliation and Group Invoice documents to the US Benefits Billing Google Drive.
-    - These documents will be used to verify the proper amount was billed and to provide department breakdowns to AP.
+  - These documents will be used to verify the proper amount was billed and to provide department breakdowns to AP.
 - Total Rewards will login to each admin platform and pay the bills using the banking information and links found in the 1password note: "Monthly Heath Bills"
 - Total Rewards will then email a detailed breakdown of the amount/department totals to `ap@gitlab.com` for accounting purposes.
 - TODO Build in step-by-step process
@@ -161,7 +161,7 @@ Temporary until Integrations are put in place between PlanSource/Workday & Navia
 1. Pull PlanSource/Workday report
     1. Termination Report - get termination dates for team members
     1. PlanSource/Workday report of Cigna enrollees
-1. Do a vlook up to to see which team members need to be termed in Navia & team members who need to be added in to the portal
+1. Do a vlook up to see which team members need to be termed in Navia & team members who need to be added in to the portal
 1. If not that many team members, you can log on to Navia and Upload the data individually > Plan Management > Participants > Add Participant
 1. If there are many team members, fill out the [Navia Upload Report](https://docs.google.com/spreadsheets/d/1RcqGMpUnEmDDm6AKtsIVWidh22JEIIqa/edit#gid=1692401370). Log on to Navia Portal > Data Management > Send File > Upload the file > File Recipient is Lydnsey Rush
 

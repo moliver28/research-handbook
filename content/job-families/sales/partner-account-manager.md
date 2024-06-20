@@ -31,29 +31,29 @@ The Associate Partner Account Manager is responsible for the following with sign
 
 - Evangelize GitLab’s value proposition to assigned partners.
 - In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions
 - which contribute to GitLab growth and adoption.
 - Cultivate partner offerings and solutions to drive customer engagement and adoption of GitLab DevSecOps.
 
 **Partner Management**
 
 - Manage a portfolio of assigned partners focusing on the following key areas:
-    - Business planning
-    - Executive alignment
-    - Technical alignment
-    - Marketing alignment
+  - Business planning
+  - Executive alignment
+  - Technical alignment
+  - Marketing alignment
 - Collaborate with the GitLab Enablement and Partner Program teams to arrange enablement for assigned partners.
 - Lead quarterly business reviews (QBRs) and iterate joint plans quarterly for assigned partners.
 - Assist in driving the execution of partner programs and initiatives.
 - Manage the day-to-day needs of assigned partners including
-    - Deal Registration Review of sourced opportunities
-    - Reviewing MDF requests
-    - Proper use and assignment of partner incentives
-    - Connecting partners to GitLab resources
-    - Etc.
+  - Deal Registration Review of sourced opportunities
+  - Reviewing MDF requests
+  - Proper use and assignment of partner incentives
+  - Connecting partners to GitLab resources
+  - Etc.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 
 **Joint Activity**
@@ -74,11 +74,11 @@ The Associate Partner Account Manager is responsible for the following with sign
 **riving Results**
 
 - Drive the growth of GitLab investment within each assigned partner organization from among the following:
-    - Quarterly demand generation programs
-    - Number of certifications
-    - GitLab practice capacity
-    - GitLab-specific solutions
-    - Customer success stories
+  - Quarterly demand generation programs
+  - Number of certifications
+  - GitLab practice capacity
+  - GitLab-specific solutions
+  - Customer success stories
 - Attain KPI’s to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
@@ -138,29 +138,29 @@ The Partner Account Manager (Intermediate)  is responsible for the following wit
 
 - Evangelize GitLab’s value proposition to assigned partners.
 - In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions
 - which contribute to GitLab growth and adoption.
 - Cultivate partner offerings and solutions to drive customer engagement and adoption of GitLab DevSecOps.
 
 **Partner Management**
 
 - Manage a portfolio of assigned partners focusing on the following key areas:
-    - Business planning
-    - Executive alignment
-    - Technical alignment
-    - Marketing alignment
+  - Business planning
+  - Executive alignment
+  - Technical alignment
+  - Marketing alignment
 - Collaborate with the GitLab Enablement and Partner Program teams to arrange enablement for assigned partners.
 - Lead quarterly business reviews (QBRs) and iterate joint plans quarterly for assigned partners.
 - Assist in driving the execution of partner programs and initiatives.
 - Manage the day-to-day needs of assigned partners including
-    - Deal Registration Review of sourced opportunities
-    - Reviewing MDF requests
-    - Proper use and assignment of partner incentives
-    - Connecting partners to GitLab resources
-    - Etc.
+  - Deal Registration Review of sourced opportunities
+  - Reviewing MDF requests
+  - Proper use and assignment of partner incentives
+  - Connecting partners to GitLab resources
+  - Etc.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 
 **Joint Activity&&
@@ -181,11 +181,11 @@ The Partner Account Manager (Intermediate)  is responsible for the following wit
 **Driving Results**
 
 - Drive the growth of GitLab investment within each assigned partner organization from among the following:
-    - Quarterly demand generation programs
-    - Number of certifications
-    - GitLab practice capacity
-    - GitLab-specific solutions
-    - Customer success stories
+  - Quarterly demand generation programs
+  - Number of certifications
+  - GitLab practice capacity
+  - GitLab-specific solutions
+  - Customer success stories
 - Attain KPI’s to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
@@ -245,29 +245,29 @@ The Senior Partner Account Manager is responsible for the following with little 
 
 - Evangelize GitLab’s value proposition to assigned partners.
 - In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions
 - which contribute to GitLab growth and adoption.
 - Cultivate partner offerings and solutions to drive customer engagement and adoption of GitLab DevSecOps.
 
 **Partner Management**
 
 - Manage a portfolio of assigned partners focusing on the following key areas:
-    - Business planning
-    - Executive alignment
-    - Technical alignment
-    - Marketing alignment
+  - Business planning
+  - Executive alignment
+  - Technical alignment
+  - Marketing alignment
 - Collaborate with the GitLab Enablement and Partner Program teams to arrange enablement for assigned partners.
 - Lead quarterly business reviews (QBRs) and iterate joint plans quarterly for assigned partners.
 - Assist in driving the execution of partner programs and initiatives.
 - Manage the day-to-day needs of assigned partners including:
-    - Deal Registration Review of sourced opportunities
-    - Reviewing MDF requests
-    - Proper use and assignment of partner incentives
-    - Connecting partners to GitLab resources
-    - Etc.
+  - Deal Registration Review of sourced opportunities
+  - Reviewing MDF requests
+  - Proper use and assignment of partner incentives
+  - Connecting partners to GitLab resources
+  - Etc.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 
 **Joint Activity**
@@ -288,11 +288,11 @@ Represent GitLab at partner events.
 **Driving Results**
 
 - Drive the growth of GitLab investment within each assigned partner organization from among the following:
-    - Quarterly demand generation programs
-    - Number of certifications
-    - GitLab practice capacity
-    - GitLab-specific solutions
-    - Customer success stories
+  - Quarterly demand generation programs
+  - Number of certifications
+  - GitLab practice capacity
+  - GitLab-specific solutions
+  - Customer success stories
 - Attain KPI’s to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
@@ -352,29 +352,29 @@ The Staff Partner Account Manager is responsible for the following with minimal 
 
 - Evangelize GitLab’s value proposition to assigned partners.
 - In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
-    - Practice Development
-    - Co-selling
-    - Sourcing GitLab business, and
-    - Developing industry and cloud-based solutions
+  - Practice Development
+  - Co-selling
+  - Sourcing GitLab business, and
+  - Developing industry and cloud-based solutions
 - which contribute to GitLab growth and adoption.
 - Cultivate partner offerings and solutions to drive customer engagement and adoption of GitLab DevSecOps.
 
 **Partner Management**
 
 - Manage a portfolio of assigned partners focusing on the following key areas:
-    - Business planning
-    - Executive alignment
-    - Technical alignment
-    - Marketing alignment
+  - Business planning
+  - Executive alignment
+  - Technical alignment
+  - Marketing alignment
 - Collaborate with the GitLab Enablement and Partner Program teams to arrange enablement for assigned partners.
 - Lead quarterly business reviews (QBRs) and iterate joint plans quarterly for assigned partners.
 - Assist in driving the execution of partner programs and initiatives.
 - Manage the day-to-day needs of assigned partners including:
-    - Deal Registration Review of sourced opportunities
-    - Reviewing MDF requests
-    - Proper use and assignment of partner incentives
-    - Connecting partners to GitLab resources
-    - Etc.
+  - Deal Registration Review of sourced opportunities
+  - Reviewing MDF requests
+  - Proper use and assignment of partner incentives
+  - Connecting partners to GitLab resources
+  - Etc.
 - Monitor partner compliance with GitLab Partner Programs and partner agreements.
 
 **Joint Activity**
@@ -395,11 +395,11 @@ The Staff Partner Account Manager is responsible for the following with minimal 
 **Driving Results**
 
 - Drive the growth of GitLab investment within each assigned partner organization from among the following:
-    - Quarterly demand generation programs
-    - Number of certifications
-    - GitLab practice capacity
-    - GitLab-specific solutions
-    - Customer success stories
+  - Quarterly demand generation programs
+  - Number of certifications
+  - GitLab practice capacity
+  - GitLab-specific solutions
+  - Customer success stories
 - Attain KPI’s to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.

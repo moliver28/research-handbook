@@ -34,7 +34,6 @@ To address this, organizations moved to the second phase, *Best in Class DevOps*
 
 To remedy this problem, organizations adopted “Do It Yourself DevOps,” building on top of and between their tools. They performed a lot of custom work to integrate their DevOps point solutions together; however, since these tools were developed independently without integration in mind, they never fit quite right. For many organizations, maintaining DIY DevOps was a significant effort and resulted in higher costs, with engineers maintaining tooling integration rather than working on their core product.
 
-
 ### Phase 4: DevOps Platform: Single application
 
 A platform approach was needed to improve the team experience and to improve business efficiency. GitLab, *The DevOps Platform*, replaces DIY DevOps, allowing visibility throughout and control over all stages of the DevOps lifecycle.
@@ -76,7 +75,6 @@ In their [Market Guide for DevOps Value Stream Delivery Platforms](https://page.
 GitLab believes this indicates that the market for a DevOps platform delivered as a single application will grow much faster than the DevOps market as a whole.
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/-_CDU6NFw7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 ## Segment messaging and positioning
 

@@ -62,8 +62,8 @@ Non-public items for discussion should be added directly to the [agenda document
 - **When:** During the last two weeks of every month
 - **Duration:** 50 minutes
 - **Format:** The meeting is lead by the Section Leader
-     - All data reviewed will be published on the Section's PI page in the internal handbook ([example](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/). Sections may optionally provide supporting slides.
-     - Content will focus on the following areas:
+  - All data reviewed will be published on the Section's PI page in the internal handbook ([example](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/). Sections may optionally provide supporting slides.
+  - Content will focus on the following areas:
      1. Development - Error Budgets, Past Due Security/InfraDev Issues (S1/S2)
      2. Quality - Past Due Bugs (S1/S2)
      3. UX - Past Due SUS Impacting Issues (S1/S2)
@@ -112,7 +112,7 @@ the product is developed with [directly responsible individuals](/handbook/peopl
 | :--------------: | :------------------: | :---: | :---: |
 | Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. Prioritizes maintenance work | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
 
-At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
+At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
 
 We call this the [Product Group](/handbook/company/structure/#product-groups) model. It is an extension of the classic quad concept at the leadership level and is currently comprised of Development, Quality, User Experience, Infrastructure, Product, and Security.
 

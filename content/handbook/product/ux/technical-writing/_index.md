@@ -16,7 +16,7 @@ Anyone can contribute to the documentation. Follow our [GitLab documentation gui
 
 - A group of [Technical Writers](/job-families/product/technical-writer/).
 - Two [Technical Writing Managers](/job-families/product/technical-writing-manager/).
-- A [Senior Fullstack Engineer, Technical Writing](/job-families/product/ux-fullstack-engineer/).
+- Two [Fullstack Engineers, Technical Writing](/job-families/product/ux-fullstack-engineer/).
 - A [Technical Writing Director](/job-families/product/technical-writing-manager/#director-technical-writing).
 
 ## Contact Us
@@ -197,6 +197,7 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 
 | Date          | # of pages | Increase from previous quarter |
 |---------------|------------| ------------|
+| June 2024     | 2,456      | 6 %         |
 | Mar  2024     | 2,308      | 5 %         |
 | Dec  2023     | 2,201      | 5 %         |
 | Sept 2023     | 2,088      | 8 %         |
@@ -208,12 +209,13 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | Jan 2022      | 1,562      | -           |
 | May 2020      | 1,165      | -           |
 
-**Change between May 2020 and Mar 2024:** 1,143 more pages (a 98% increase)
+**Change between May 2020 and Mar 2024:** 1,291 more pages (a 111% increase)
 
 The number of words in these repositories:
 
 | Date          | Word count | Increase from previous quarter |
 |---------------|------------| ------------|
+| June 2024     | 3,325,823  | 4 %         |
 | Mar  2024     | 3,183,647  | 6 %         |
 | Dec  2023     | 2,990,400  | 5 %         |
 | Sept 2023     | 2,842,399  | 5 %         |
@@ -225,7 +227,7 @@ The number of words in these repositories:
 | Jan 2022      | 2,017,183  | -           |
 | May 2020      | 1,190,371  | -           |
 
-**Change between May 2020 and Mar 2024:** 1,993,276 more words (a 167% increase)
+**Change between May 2020 and Mar 2024:** 2,135,452 more words (a 179% increase)
 
 The word count has more than doubled in this timeframe.
 

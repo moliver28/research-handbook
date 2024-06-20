@@ -63,8 +63,8 @@ To document actionable insights:
 
 - **Step 1:** If already documented in Dovetail as an insight, preface the actionable insight's title with 'ACTIONABLE:' and clearly describe the next action that needs to be taken. If you are putting insights in a research report instead of Dovetail for your project, skip this step.
 - **Step 2:** Create a unique issue in [GitLab.com/GitLab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/-/issues/new) using the appropriate *Actionable Insight* issue template:
-    - **Actionable Insight - Exploration needed** -  This is an actionable research insight derived from a UX research study. To address this insight, further exploration is required. That might be in the form of follow-up research, design explorations, etc. This issue template includes the `~"Actionable Insight::Exploration needed"` scoped label.
-    - **Actionable Insight - Product change** -  This is an actionable research insight derived from a UX research study. To address this insight, a change to the product experience is required. This issue template includes the `~"Actionable Insight::Product change"` scoped label.  *Note that the `~"SUS::Impacting"` label and a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) are both required for actionable insights that require product changes.*
+  - **Actionable Insight - Exploration needed** -  This is an actionable research insight derived from a UX research study. To address this insight, further exploration is required. That might be in the form of follow-up research, design explorations, etc. This issue template includes the `~"Actionable Insight::Exploration needed"` scoped label.
+  - **Actionable Insight - Product change** -  This is an actionable research insight derived from a UX research study. To address this insight, a change to the product experience is required. This issue template includes the `~"Actionable Insight::Product change"` scoped label.  *Note that the `~"SUS::Impacting"` label and a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) are both required for actionable insights that require product changes.*
 
     ![New issue screenshot with issue template](actionable_insight_template_location.png)
 
@@ -112,12 +112,12 @@ Actionable insights are tracked at GitLab for:
 The following data is presently being tracked:
 
 - **Number of newly opened and closed actionable insights issues, by quarter**
-   - How many new actionable insight issues were created, per quarter
-   - How many actionable insight issues were closed, per quarter - and why they were closed
+  - How many new actionable insight issues were created, per quarter
+  - How many actionable insight issues were closed, per quarter - and why they were closed
 - **Average number of days it takes for an actionable insight issue to close to completion**
-   - Important to understand how long it's taking to address actionable insights within the product
+  - Important to understand how long it's taking to address actionable insights within the product
 - **Breakdown of all actionable insight issues, to date**
-   - Provides us with an understanding of how many total actionable insights there are, broken down by open and closed statuses
+  - Provides us with an understanding of how many total actionable insights there are, broken down by open and closed statuses
 
 The data for the above can be viewed for each actionable insight scoped label:
 
@@ -129,9 +129,9 @@ Over time, once there's enough data, we might be able to slice this data at the 
 Future data tracking considerations for actionable insights:
 
 - **Number of total actionable insights currently open, no activity within the issue** (>6 month of no activity)
-   - Total number of actionable insights that have not seen activity in at least a month.  These actionable insights will be followed up to understand why there hasn’t been activity.
+  - Total number of actionable insights that have not seen activity in at least a month.  These actionable insights will be followed up to understand why there hasn’t been activity.
 - **Number of total of actionable insights currently open, activity within the issue** (activity <=6 months ago)
-   - Total number of actionable insights that have seen activity within the past month.  It’s implied that these are actively being addressed in some way and not discarded.
+  - Total number of actionable insights that have seen activity within the past month.  It’s implied that these are actively being addressed in some way and not discarded.
 
 #### How we document actionable insights as closed
 

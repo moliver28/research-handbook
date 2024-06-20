@@ -27,12 +27,9 @@
     "no-emphasis-as-heading": false,
     "no-inline-html": false,
     "no-trailing-punctuation": { "punctuation": ".,;:!。，；：！？" },
-    "ul-indent": false
+    "no-trailing-spaces": false
   },
   "ignores": [
-    "content/handbook/customer-success/**/*.md",
-    "content/handbook/marketing/**/*.md",
-    "content/handbook/sales/**/*.md",
     "content/handbook/company/culture/all-remote/remote-work-report-2020.md",
     "content/handbook/company/culture/all-remote/universal-remote.md"
   ]

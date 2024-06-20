@@ -27,7 +27,7 @@ Alternatively once you are active on [Slack](/handbook/communication/chat), whic
 
 ## 30-60-90 Day Program
 
-As a task in your onboarding issue, you will directed to our learning platform, Level up, to enroll in a CSM onboarding pathway based on your respective CSM Segment. Learning modules in this course provide guidance as to where you can find the processes & tools needed during your first months at GitLab.  
+As a task in your onboarding issue, you will directed to our learning platform, Level up, to enroll in a CSM onboarding pathway based on your respective CSM Segment. Learning modules in this course provide guidance as to where you can find the processes & tools needed during your first months at GitLab.
 
 ## Meeting shadowing
 
@@ -39,11 +39,98 @@ To learn how we conduct both customer meetings and internal planning meetings, a
 
 We host weekly CSM office hours meetings to help you answer questions in a judgment-free space. You can add your questions to the agenda document linked in the Google Calendar invite and hop on the call to work through questions or learn how to find helpful resources.
 
+## Helpful resources for faster onboarding
+
+By talking to new hires and recent new CSM team members, it was identified that the onboarding buddy relationship plays a critical role for success of a new hire in the CSM team. Existing CSMs explained that having a very close / short loop to their onboarding saw a close relationship as a tremendous speed up of their onboarding.
+
+Buddies should always be CSMs (same department), to match the role as close as possible, as it will help the new hire to resolve questions around their responsibilities and tasks quicker and more efficient, compared to going through multiple chats or calls. To pick an onboarding buddy, CSM managers [will use the guidance section for buddies](/handbook/people-group/general-onboarding/onboarding-buddies/#managers-who-should-i-pick-as-an-onboarding-buddy) from our general handbook section.
+
+### General
+
+Following responsibilities should be seen as a priority for the onboarding buddy:
+
+- The buddy should join the first 5-10 customer meetings led by the new joiner.
+  - It is not only for technical guidance but much more for general **feedback and building confidence in the CSM role**.
+  - The close feedback loop will enable new CSMs to learn faster by helping them understand if their approach was the best one, where they can improve, and what went well.
+- Generally, increased interaction between the onboarding buddy and new CSM will reduce the onboarding time.
+  - Asking questions and feeling comfortable doing so, improved new hire satisfaction to start working with clients
+
+### SLACK Channels
+
+New team members often struggle to find the right set of slack channels to participate in, and to filter out noise that is not relevant to them, especially in the first weeks of their start in the CSM team. The following list should provide an initial set of channels that will be helpful to new hires.
+
+- **CSM - General**
+  - #cs-questions
+  - #customer-success
+  - #sales-support
+  - #field-fyi
+  - #csm-updates
+  - #tim-tams
+- **GitLab - General**
+  - #questions
+  - #whats-happening-at-gitlab
+  - #company-fyi
+  - #it-help
+  - #ai_field_strategy
+  - #people-connect
+  - #escalated_customers
+  - #thanks
+  - #whats-happening-at-gitlab
+- **CSM - Regional - EMEA / DACH Team**
+  - #team-csm-dach
+  - #emea-customer-success
+  - #team-csm-emea
+  - #social-csm-emea
+
+For all product management related questions, a CSM should review our handbook page at [following location](/handbook/product/categories/features/) to identify the right channel for the topic they are looking to learn more. Those team channels should be asked if there is no documentation available for the problem/question and also if the CSM did not find an issue that already discusses this question.
+
+A great resource to learn how to engage with GitLab product is [available in the product handbook here](/handbook/product/how-to-engage/)
+
+### Handbook
+
+Collection of key handbook pages for CSMs to read and focus on when onboarding in their first 3 months
+
+- [CSM Onboarding at GitLab](/handbook/customer-success/csm/csm-onboarding/)
+- [Responsibilities and Services of a CSM at GitLab](/handbook/customer-success/csm/services/#responsibilities-and-services)
+- [Using Gainsight](/handbook/customer-success/csm/gainsight/)
+- [Searching GitLab like a pro](/handbook/tools-and-tips/searching/)
+- [Answer client questions](/handbook/customer-success/csm/researching-customer-questions/)
+- [Process for CSM lead account escalations](/handbook/customer-success/csm/escalations/)
+- [STAR - Process for managing support tickets that, due to the situation that is critical for the customer’s business, require our attention](/handbook/support/internal-support/support-ticket-attention-requests/)
+- [Process for CSM to CSM Account Handoff](/handbook/customer-success/csm/account-handoff/)
+- [Available development paths and resources for Customer Success Managers at GitLab](/handbook/customer-success/csm/csm-development/)
+- [DevOps - Foundations Learning](/handbook/customer-success/csm/csm-development/#devops)
+
+### Product Knowledge
+
+Collection of initial set of key product links, which will help in the first 4-6 weeks of onboarding as a new hire.
+
+- **Offerings: GitLab Dedicated vs. GitLab SaaS vs. GitLab Self Managed**
+  - [**Self Managed**](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html): In GitLab Self-managed you will have full control over the server itself and the environment
+  - [**Dedicated**](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/index.html)**:**: A single-tenant SaaS service for highly regulated and large enterprises
+  - [**SaaS**](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html): The GitLab software-as-a-service offering. You don’t need to install anything to use GitLab SaaS, you only need to sign up and start using GitLab straight away
+- **GitLab Self Managed**
+  - [**GitLab Application components**](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) ([details](https://docs.gitlab.com/ee/development/architecture.html#component-list))
+  - [**Installation Methods**](https://docs.gitlab.com/ee/install/install_methods.html)
+  - [**Reference Architectures**](https://docs.gitlab.com/ee/administration/reference_architectures/)
+  - [**Runners**](https://docs.gitlab.com/runner/) (GitLab's "worker" for CI/CD jobs - pipelines)
+  - [**Upgrade & Update of GitLab**](https://docs.gitlab.com/ee/update/)
+    - [**Upgrade Path**](https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/)
+- **Key functionality of GitLab**
+  - [**AI**](https://docs.gitlab.com/ee/user/gitlab_duo/index.html)
+  - [**CI / CD**](https://docs.gitlab.com/ee/ci/)
+  - [**SCM**](https://docs.gitlab.com/ee/user/get_started/get_started_managing_code.html)
+- **GitLab Product**
+  - [Pricing](https://about.gitlab.com/pricing/)
+  - [Find responsible SLACK Channel and Team for GitLab features](/handbook/product/categories/#devops-stages)
+  - Stages - Separation inside the product - [Aligned to DevOps](/handbook/product/categories/#devops-stages)
+    - https://handbook.gitlab.com/handbook/product/categories/#hierarchy
+
 ## GitLab Certifications
 
-At the moment (Feb. 2023) there are 6 [GitLab Technical Certifications - Self-Paced Options](/services/education/gitlab-technical-certification-self-paced/). All of those are relevant and great learning material for CSMs at GitLab.  
-The [GitLab Certified DevOps Professional Pathway](https://levelup.gitlab.com/courses/gitlab-certified-devops-professional-bundle) includes the GitLab Certified [Git Associate](https://levelup.gitlab.com/courses/gitlab-certified-associate), [CI/CD Associate](https://levelup.gitlab.com/courses/gitlab-ci-cd-specialist-self-paced-bundle), [Project Management Associate](https://levelup.gitlab.com/courses/gitlab-certified-project-management-specialist-bundle) and [Security Specialist](https://levelup.gitlab.com/courses/gitlab-certified-security-specialist).  
-So if you are planing on doing **all 4** of those, start directly with the **DevOps Professional**.
+At the moment (Feb. 2023) there are 6 [GitLab Technical Certifications - Self-Paced Options](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/). All of those are relevant and great learning material for CSMs at GitLab.
+The [Customer Success Manager Onboarding Pathway](https://university.gitlab.com/learn/learning-path/technical-account-manager-tam-onboarding) includes the GitLab Certified [Git Associate](https://university.gitlab.com/learning-paths/certified-git-associate-learning-path), [CI/CD Associate](https://university.gitlab.com/learning-paths/certified-ci-cd-specialist-learning-path), [Project Management Associate](https://university.gitlab.com/learning-paths/gitlab-project-management-associate-learning-path) and [Security Specialist](https://university.gitlab.com/learning-paths/certified-security-specialist-learning-path) learning paths.
+So if you are planning on doing **all 4** of those, start directly with the **CSM Onboarding Pathway**.
 
 ## GitLab Webinars
 

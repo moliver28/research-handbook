@@ -19,16 +19,23 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 
 ### People Business Partner Alignments
 
-| Contact | Division - Department |
-|-------------------|------------|
-| Anjali Kaufmann   | G&A: People Group, Finance, LACA  |
-| Denise Parsonage  | Marketing: Awareness, Brand Activation, Campaigns, CMO Executive, Communications, Developer Relations, Content Marketing, Digital Design, Digital Marketing, Field Marketing, Marketing Ops, Partner Marketing, Sales Development, and Search Marketing |
-| Carolyn Bednarz   | Sales: Enterprise Sales  |
-| Carlie Russell    | Sales: Customer Success, Channel and Alliances |
-| Lauren Tepper     | Sales: Commercial Sales, Field Operations   |
-| Giuliana Lucchesi | Product: Product Management and UX; CISO: Security   |
-| Kristina Bullock  | Engineering: CTO, Customer Support, Quality/Infrastructure, Chief of Staff   |
-| Jess Durbin       | Engineering: Core Development and Expansion  |
+Please reach out to your aligned People Business Partner (PBP) (listed aplhabetically by first name) to engage in the following areas:
+
+| Contact | Division or Departments |
+|-------------------|-------------|
+| Anjali Kaufmann   | People Goup |
+| Anjali Kaufmann   | Legal and Corporate Affairs |
+| Anjali Kaufmann   | Finance |
+| Carlie Russell    | Sales - Partners, CSM & Renewals,  Solutions Architecture, Professional Services|
+| Carolyn Bednarz   | Sales - APJ|
+| Giuliana Lucchesi | Product |
+| Giuliana Lucchesi | Security |
+| Jenny Burns       | Sales - EMEA |
+| Jess Durbin       | Engineering - Core Development, Expansion |
+| Kristina Bullock       |Chief of Staff to the CEO|
+| Kristina Bullock  | Engineering - Customer Support, Infrastructure, Quality |
+| Lauren Tepper     | Sales - AMER, Public Sector, Global Digital, Field Operations  |
+| Brandi McDonald | Marketing |
 
 ## How to partner with PBPs to foster high performance in your team
 
@@ -71,3 +78,18 @@ People Business Partners often collaborate with others in People Group or other 
 | Accountable  | PBP is not the enterprise program DRI, but is responsible for the execution in their client group. The program requires significant lift by team members/managers. In this type of project, a PBP is part of the core project team to bring business perspective to the build phase, helps develop a communication/change mgmt plan, and executes the program in their aligned client group, including any bespoke enablement needed. The PBP is often the face of this program for their client group, and recipient of team member feedback | Talent Assessment, Promotion, ACR    |
 | Consulted | PBP provides input on how the program can be most effectively communicated or embedded in their division, but may not have a direct role in execution. Engaging the assigned PBP in reviewing comms or supporting change management can help drive adoption deeper in the organization |Elevate   |
 | Informed    | PBPs should be made aware of the project as it will impact team members and questions may be directed toward the PBP team. If PBPs are given a preview of comms for final feedback and visibility before launch, they can help ensure the comms will meet the needs of their client group | Policy or benefit changes that impact team members    |
+
+#### PBP Talent Program DRI
+
+The PBP team assigns specific PBPs and/or a PBP Program Manager to cross-functional projects to ensure participation from the PBP team in a scalable and efficient way. If you are the PBP DRI for a talent program, you play an important role in bringing business insights to the wider project team, and in enabling the rest of the PBPs to prepare and execute the program successfully with their client groups. Below are ways to do this effectively:
+
+- Ensure PBPs have regular updates on the program including project timeline, any changes to prepare for, and what information is appropriate to be sharing with our client groups to successfully prepare.
+- Stay informed on the details of the program in order to answer PBP questions as much as possible to assist the program DRI
+- Collect feedback from PBPs in advance of key program decisions so that PBP DRI can accurately represent a well rounded view of the PBP team feedback
+- When appropriate conduct tool testing (ex/ Workday)
+- Carefully review communication and training materials with the lens of the business in mind to help proactively address questions that might arise
+- Help PBPs stay accountable to any milestones or deliverables by keep due dates and actions top of mind for the team
+
+<br>
+<br>
+<br>

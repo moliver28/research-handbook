@@ -8,7 +8,7 @@ The Corporate Security & IT Operations Job Family leads a team of highly-collabo
 
 ### Senior Director, Corporate Security & IT Operations
 
-The Director, Corporate Security & IT Operations reports to the [CISO](https://handbook.gitlab.com/job-families/chief-information-security-officer/)
+The Director, Corporate Security & IT Operations reports to the [CISO](/job-families/chief-information-security-officer/)
 
 #### Senior Director, Corporate Security & IT Operations Job Grade
 
@@ -46,7 +46,7 @@ The Senior Director, Corporate Security & IT Operations is a [level 11](/handboo
 - Knowlege of data security and data inventory and governance practices.
 - Experience partnering with internal information security and compliance teams. SOX experience is a plus.
 - Team building experience. Past experience managing a global support team.
-- Experience working on a fleet of MacOS and ChromeOS endpoints  
+- Experience working on a fleet of MacOS and ChromeOS endpoints
 - Proven ability to effectively lead and meet business objectives in a global, collaborative and high performance work environment.
 - Experience securing SaaS applications and secure baselining in a shared responsibility model
 - Change management knowledge and ability to operate effectively in fast-paced environment.

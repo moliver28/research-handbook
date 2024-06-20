@@ -238,7 +238,7 @@ Our current contract is 99.95% availability and a 20 minute monthly error budget
 
 |**Stage Group**   | **Monthly Spend (28 days)** | **Business Reason** | **Review Date**|
 |------------------|---------------------|---------------------|---------------------|
-| Enablement:Tenant Scale | 99.80% | To allow the group to focus on long-term scalability work as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2024-06-30 (or if total traffic share exceeds 5%) |
+| Enablement:Tenant Scale | 99.80% | To allow the group to focus on long-term scalability work (Cells) as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2025-01-31 (or if total traffic share exceeds 5%) |
 | Deploy:Environments | 99.9% | [To safely account for a disproportion in traffic in the feature flag endpoint that skews the budget](https://gitlab.com/gitlab-org/gitlab/-/issues/415063#note_1457186576), by using an custom error budget we can keep the correct urgency while accurately represnt the situation for the other services. | 2024-06-06 |
 | Plan:Product Planning | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-org/gitlab/-/issues/454045). | 2024-05-30 |
 
@@ -318,8 +318,8 @@ The changes below aim to increase the maturity of the Error Budgets.
 - ***Completed*** SLI calculations used request duration threshold which was not appropriate for all endpoints. [The threshold was increased to 5s](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1243) on the 21st of Sept and it will take 28 days for the full effect to be shown in the Error Budgets.
 - **Completed** Stage groups will next be enabled to set their own SLI per endpoint by expanding on the configurability of SLI request duration threshold. [epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/525).
 - Endpoints that are currently `not_owned` will be attributed to the correct feature category. This will be addressed by
-   - **Completed** [using caller information for Sidekiq](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1200), and
-   - having [graphQL query-to-feature correlation](https://gitlab.com/gitlab-org/gitlab/-/issues/328535).
+  - **Completed** [using caller information for Sidekiq](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1200), and
+  - having [graphQL query-to-feature correlation](https://gitlab.com/gitlab-org/gitlab/-/issues/328535).
 - The [impact of system-wide outages on Error Budgets should be more clear](https://gitlab.com/gitlab-com/Product/-/issues/2884).
 - Provide guidance for PM's who report on both Error Budgets and Service Availability. (Such as Runner and Pages).
 
@@ -334,8 +334,7 @@ Product Development teams are encouraged to:
 
 #### 2. Increase visibility into Error Budgets (error portion)
 
-- Stage groups are provided with error count information. This can be supplemented with further detail by [making error information
-explorable with Sentry](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/396).
+- Stage groups are provided with error count information. This can be supplemented with further detail by [making error information explorable with Sentry](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/396).
 
 #### 3. Tune the scope of Error Budgets
 
@@ -360,6 +359,6 @@ explorable with Sentry](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/39
 [stage group dashboards]: https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups
 [rapid action]: /handbook/engineering/development/#rapid-action
 [corrective action]: /handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership
-[security vulnerabilities]: /handbook/security/threat-management/vulnerability-management/#vulnerability-management-overview
+[security vulnerabilities]: /handbook/security/product-security/vulnerability-management/#vulnerability-management-overview
 [engineering allocation]: /handbook/engineering/#engineering-allocation
 [engineering prioritization]: /handbook/engineering/development/principles/#prioritizing-technical-decisions

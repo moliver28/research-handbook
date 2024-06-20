@@ -6,8 +6,7 @@ canonical_path: "/company/stewardship/"
 
 ## Business Model
 
-GitLab Inc. is a for profit company that balances the need to improve the open source code of GitLab with the need to add source-available features in order to generate income. We have an [open
-core](https://en.wikipedia.org/wiki/Open_core) business model and generate
+GitLab Inc. is a for profit company that balances the need to improve the open source code of GitLab with the need to add source-available features in order to generate income. We have an [open core](https://en.wikipedia.org/wiki/Open_core) business model and generate
 almost all our revenue with [subscriptions to paid tiers](https://about.gitlab.com/pricing/). We
 recognize that we need to balance the need to generate income and with the
 needs of the open source project.

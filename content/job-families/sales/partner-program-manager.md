@@ -80,7 +80,7 @@ The Sr. Partner Program Manager will be responsible for the design, management &
 - Together with Partner Operations, lead the overall partner experience including design changes for the partner portal.  Help operationalize internal partner sales and services transactions and activities.
 - Manage communications to the channel via portal, newsletters, webcasts, social channels.
 - Document policies and processes to support all aspects of the program, including field / Services / partner rules of engagement and enable global execution
-- Design & launch field enablement on Partner Program, Rules of Engagement, Deal Reg, How to Partner, etc.  Collaborate with with Field Enablement in the development of enablement materials
+- Design & launch field enablement on Partner Program, Rules of Engagement, Deal Reg, How to Partner, etc.  Collaborate with Field Enablement in the development of enablement materials
 - Collect and manage feedback from channel partners into the ongoing roadmap for the Partner Program.
 - Work cross functionally with Operations, Customer Success/Professional Services, Marketing, Finance, Field Enablement and technical teams to secure, operationalize and manage all the committed benefits to the partners.
 - Establish and track metrics of the program, run a quarterly compliance process with the Channel & Alliances field.
@@ -114,7 +114,7 @@ The Lead Partner Program Manager will set the direction and roadmap for the over
 - Together with Partner Operations, lead the overall partner experience including design changes for the partner portal.
 - Manage communications to the channel via portal, newsletters, webcasts, social channels.  Support the development of messaging and content for partner events such as Partner Sales Kick-off and Partner Summits.
 - Document policies and processes to support all aspects of the program, including field / channel rules of engagement and enable global execution
-- Design & launch field enablement on Partner Program, Rules of Engagement, Deal Reg, How to Partner, etc.  Collaborate with with Field Enablement in the development of enablement materials
+- Design & launch field enablement on Partner Program, Rules of Engagement, Deal Reg, How to Partner, etc.  Collaborate with Field Enablement in the development of enablement materials
 - Collect and manage feedback from channel partners into the ongoing roadmap for the Partner Program.
 - Establish and track metrics of the program, run a quarterly compliance process with the Channel & Alliances field.
 
@@ -153,7 +153,7 @@ The Senior Manager, Partner Programs is a [grade 9](/handbook/total-rewards/comp
 The Sr. Manager, Partner Programs will manage a team of Partner Program Managers in the development, rollout and execution of partner programs.
 
 - The Sr. Manager, Partner Programs will set the direction and roadmap for the overall Partner Program.  They will define and lead key initiatives and program changes to increase the program value to partners and GitLab.
-- The Sr. Manager, Partner Programs will set the direction and roadmap for the overall Partner Partner Program.  They will define and lead key initiatives and program changes to increase the program value to partners and GitLab.
+- The Sr. Manager, Partner Programs will set the direction and roadmap for the overall Partner Program.  They will define and lead key initiatives and program changes to increase the program value to partners and GitLab.
 - Responsible for the design, management & execution of GitLab’s global sales and services Partner Programs.
 - Manage deal registration, sales and/or services engagement and partner success programs and support partner events.
 - Collaborate at senior levels of the Sales, Finance, Marketing and other organizations and drive alignment around specific channel programs with those organizations.
@@ -163,7 +163,7 @@ The Sr. Manager, Partner Programs will manage a team of Partner Program Managers
 - Together with Partner Operations, lead the overall partner experience including design changes for the partner portal.
 - Manage communications to the channel via portal, newsletters, webcasts, social channels.  Support the development of messaging and content for partner events such as Partner Sales Kick-off and Partner Summits.
 - Document policies and processes to support all aspects of the program, including field / channel rules of engagement and enable global execution
-- Design & launch field enablement on Partner Program, Rules of Engagement, Deal Reg, How to Partner, etc.  Collaborate with with Field Enablement in the development of enablement materials
+- Design & launch field enablement on Partner Program, Rules of Engagement, Deal Reg, How to Partner, etc.  Collaborate with Field Enablement in the development of enablement materials
 - Collect and manage feedback from channel partners into the ongoing roadmap for the Partner Program.
 - Establish and track metrics of the program, run a quarterly compliance process with the Channel & Alliances field
 

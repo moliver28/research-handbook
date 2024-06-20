@@ -1,7 +1,7 @@
 ---
 title: "Office of the CEO"
 description: "Details about Office of the CEO (OCEO) at GitLab"
-aliases: 
+aliases:
 - /handbook/ceo/office-of-the-ceo/
 - /handbook/ceo/chief-of-staff-team/
 ---
@@ -22,7 +22,7 @@ The [Office to the CEO](/handbook/ceo/office-of-the-ceo/) consists of:
 1. [Strategy and Operations team members](job-families/chief-executive-officer/strategy-and-operations/): internal consultants and doers who support priority cross-functional projects within GitLab. Roles vary based on business needs, but these folks can be specialists (for example, focused on China or technology) or generalists.
 1. [EBAs](/handbook/eba/) to the CEO: EBAs who support the CEO and the Chief of Staff to the CEO.
 
-When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](https://handbook.gitlab.com/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](https://handbook.gitlab.com/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
+When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
 
 ## Kinds of projects Strategy and Operations team members work on {#what-projects-does-the-cost-work-on}
 
@@ -103,14 +103,14 @@ Examples of tasks or initiatives that are important to the CEO:
 - Values updates
 - Preparing for calls
 - Special projects. These have included:
-    - Operationalizing charitable donations
-    - Supporting updates to GitLab's expense policy
-    - Quantifying the value of transparency
-    - Auditing training resources and creating an accessible source of truth
-    - Calculating GitLab's carbon emissions and leading a first iteration of a carbon reduction initiative
-    - Identifying the underlying reasons for why we didn't meet targets for a core GTM KPI and identifying optimizations
-    - Supporting an initiative to increase customer CI adoption
-    - Serving as the DRI for the [SaaS free user initiative](https://docs.gitlab.com/ee/user/free_user_limit.html#:~:text=A%20five%2Duser%20limit%20applies,applied%20on%20June%2013%2C%202023)
+  - Operationalizing charitable donations
+  - Supporting updates to GitLab's expense policy
+  - Quantifying the value of transparency
+  - Auditing training resources and creating an accessible source of truth
+  - Calculating GitLab's carbon emissions and leading a first iteration of a carbon reduction initiative
+  - Identifying the underlying reasons for why we didn't meet targets for a core GTM KPI and identifying optimizations
+  - Supporting an initiative to increase customer CI adoption
+  - Serving as the DRI for the [SaaS free user initiative](https://docs.gitlab.com/ee/user/free_user_limit.html#:~:text=A%20five%2Duser%20limit%20applies,applied%20on%20June%2013%2C%202023)
 
 ## How to Work
 
@@ -266,7 +266,7 @@ Meeting Cleanup Day is intentionally near the start of the new fiscal year. The 
 
 A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with JiHu. Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
 
-For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu] (https://about.gitlab.com/pricing/faq-jihu/#customer-details):
+For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu](https://about.gitlab.com/pricing/faq-jihu/#customer-details):
 
 1. After the Customer's request of novation from GitLab to JiHu is approved, the member of the Office of the CEO opens a new issue as soon as the contract is issued, and assigns the issue to GitLab Accounting department.
 1. This issue triggers the Accounting development to update SFDC, Zuora and NS.

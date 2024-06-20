@@ -15,6 +15,7 @@ title: "Sidney Persona snippets"
 ### [Sidney (Systems Administrator)](/handbook/product/personas/#sidney-systems-administrator)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)

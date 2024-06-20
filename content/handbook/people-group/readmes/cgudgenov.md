@@ -22,11 +22,11 @@ Hi! 👋 I'm **Cassiana Gudgenov, People Compliance Partner**
 - I love British comedy and rom coms 😀
 - My favorite GitLab value is [Iteration]({{< ref "values#iteration" >}})
 - My 5 favorite sub-values are:
-    - [Don't wait]({{< ref "values#dont-wait" >}})
-    - [Family and friends first, work second]({{< ref "values#family-and-friends-first-work-second" >}})
-    - [Embracing Neurodiversity]({{< ref "values#embracing-neurodiversity" >}})
-    - [Freedom and Responsibility over Rigidity]({{< ref "values#freedom-and-responsibility-over-rigidity" >}})
-    - [Assume Positive Intent]({{< ref "values#assume-positive-intent" >}})
+  - [Don't wait]({{< ref "values#dont-wait" >}})
+  - [Family and friends first, work second]({{< ref "values#family-and-friends-first-work-second" >}})
+  - [Embracing Neurodiversity]({{< ref "values#embracing-neurodiversity" >}})
+  - [Freedom and Responsibility over Rigidity]({{< ref "values#freedom-and-responsibility-over-rigidity" >}})
+  - [Assume Positive Intent]({{< ref "values#assume-positive-intent" >}})
 
 ### Myers-Briggs / 16 Personalities
 

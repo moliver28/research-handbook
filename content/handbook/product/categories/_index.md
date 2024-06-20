@@ -45,7 +45,7 @@ Portfolio Management. To the extent possible we should map categories to
 vendor categories defined by [analysts](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/).
 There are a maximum of 8 high-level categories per stage to ensure we can
 display this on our website and pitch deck.
-([Categories that do not show up on marketing pages](/handbook/marketing/digital-experience/website/#working-with-stages-groups-and-categories)
+(Categories that do not show up on marketing pages
 show up here in _italics_ and do not count toward this limit.) There may need
 to be fewer categories, or shorter category names, if the aggregate number of
 lines when rendered would exceed 13 lines, when accounting for category names
@@ -56,7 +56,7 @@ Each category has a corresponding [`Category:<Category>` label](https://docs.git
 common features are listed within parentheses to facilitate finding
 responsible PMs by keyword.
 Features are maintained in [`data/features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/features.yml).
-It's recommended to associate [feature labels](https://docs.gitlab.com/ee/development/labels/index.html#feature-labels) to a category or a group with `feature_labels` in the [`data/categories.yml` or `data/stages.yml`](/handbook/marketing/digital-experience/website/#working-with-stages-groups-and-categories).
+It's recommended to associate [feature labels](https://docs.gitlab.com/ee/development/labels/index.html#feature-labels) to a category or a group with `feature_labels` in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/categories.yml?ref_type=heads) or [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml?ref_type=heads).
 
 Notes:
 
@@ -168,7 +168,7 @@ The impact of changes to sections, stages and groups is felt [across the company
 All new category creation needs to be specifically approved via our Opportunity Canvas review process. This is to avoid scope creep and breadth at the expense of depth and user experience.
 
 Merge requests with
-[changes to sections, stages and groups and significant changes to categories](/handbook/marketing/digital-experience/website/#working-with-stages-groups-and-categories)
+changes to sections, stages and groups and significant changes to categories
 need to be created, approved, and/or merged by each of the below:
 
 1. Chief Product Officer
@@ -216,7 +216,7 @@ Changes that require the above approvers include:
 
 Changes that require approval only from the relevant [Product Leadership Team](/handbook/product/product-leadership/#product-leadership-team-structure) member include:
 
-- Changing name or removing a [non-marketing category](/handbook/marketing/digital-experience/website/#stage-attributes), per the `marketing` attribute.
+- Changing name or removing a non-marketing category, per the `marketing` attribute.
 
 Changes that require approval only from the relevant Product Director include:
 
@@ -226,17 +226,9 @@ Changes that require approval only from the relevant Product Director include:
 
 ### Changing group name
 
-When changing the name of a group, make sure to go through the following steps:
-
-- Create a MR to change the group name in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml) using the Group-Stage-Category-Change template
-- Get the required signoff
-- Merge the group name change MR
-- Create an issue in the triage-ops project to [update GitLab Bot automation for Stage or Group change](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new?issuable_template=stage-or-group-label-change)
-- Tag the group's Technical Writer in the merge request to ensure documentation metadata is updated after the group change is merged
-- Share MR in #product, #development, #g_engineering_analytics and relevant #s_, #g_, and #f_ Slack channels
-- Review direction pages, groups, projects, epics, issues, templates and documentation to ensure the name change is applied consistently.
-- Rename Slack channels to reflect the new group name
-- Update the event and metric definitions belonging to the group by following [this guide](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_lifecycle.html#group-name-changes)
+When changing the name of a group, create a merge request to change the group name in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml)
+using the [Group-Stage-Category-Change](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Group-Stage-Category-Change.md) template,
+and make sure to complete all the steps in the template.
 
 ### Changing category name
 

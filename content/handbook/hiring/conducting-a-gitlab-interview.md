@@ -183,7 +183,7 @@ Just like those leading an interview, shadowers should ensure that they are not 
 
 If you are shadowing an interview, part of this process should be taking notes and writing feedback in addition to the interviewer. Take notes using the scorecard just like you would if you were leading, but do not submit the scorecard because you are still considered to be in training during this period. As an interview training best practice, we recommend that a debrief meeting occur between the interviewer and shadow trainee after the interview to compare feedback notes (ideally in a sync meeting). Only one official scorecard should be submitted by the main interviewer. Even if you receive multiple prompts and reminders from Greenhouse as a shadow interviewer, please ignore.
 
-More info on [engineering hiring practices](https://about.gitlab.com/handbook/engineering/#hiring-practices).
+More info on [engineering hiring practices](/handbook/engineering/hiring/#hiring-practices).
 
 ### Level Categories in Engineering Scorecards
 

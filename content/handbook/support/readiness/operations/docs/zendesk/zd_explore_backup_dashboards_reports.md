@@ -974,7 +974,7 @@ This is bottom left chart in Slide 26.
     1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`, `Other`.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
 ### Slide 26: Report 3: IK - Linked Issues
@@ -999,7 +999,7 @@ This is bottom middle chart in Slide 26.
     1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`, `Other`.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
 ### Slide 26: Report 4: IK - Linked MR's
@@ -1024,7 +1024,7 @@ This is bottom middle chart in Slide 26.
     1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`, `Other`.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
 ### Slide 26: Report 4: IK - Linked HB's
@@ -1049,7 +1049,7 @@ This is bottom right chart in Slide 26.
     1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`, `Other`.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
 ### Slide 27 is Federal US Slide so the access to Federal Explore is not possible
@@ -1805,7 +1805,7 @@ aka IK - Main - SSAT Distribution 12 months SM
     1. Ticket Form filter should include only `Self-Managed`.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
 ### Poor SSAT Reason Breakdown For .COM
@@ -1828,7 +1828,7 @@ aka IK - Poor CSAT For .COM Breakdown Per Month
     1. Ticket Form filter should include only `SaaS` and `SaaS Account`.
     1. Has Plan - Ticket Tags is not used for any filteration.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "Total" shows in percentage in columns inside every month for every reason in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "Total" shows in percentage in columns inside every month for every reason in Result Manipulation.
 
 ### Poor SSAT Reason Breakdown For SM
 
@@ -1993,7 +1993,7 @@ aka IK - Linked Docs
     1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
 ### Linked Issues
@@ -2018,7 +2018,7 @@ aka IK - Linked Issues
     1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
 ### Linked MR's
@@ -2044,7 +2044,7 @@ aka IK - Linked MR's
     1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
 ### Linked HB's
@@ -2069,7 +2069,7 @@ aka IK - Linked HB's
     1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
 ### Linked Total - Private
@@ -2275,7 +2275,7 @@ aka IK - Public comments on Unassigned VS Assigned Tickets Per Team
     1. Comment Type
 - Custom Settings:
     1. Unassigned - Update and Assigned - update are a custom metric.
-    1. Updater Tags should should show all manager tags on right side and shows Legend for row values on top of report for metrics value.
+    1. Updater Tags should show all manager tags on right side and shows Legend for row values on top of report for metrics value.
     1. Ticket Form filter should include `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
     1. Comment Type filter should include `Public`.
     1. Update - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 Month in the past`.
@@ -3590,7 +3590,7 @@ aka IK - Main - SSAT Distribution 12 Months Licensing
 - Custom Settings:
     1. Ticket Form filter should include only `L&R`.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
 ### L&R Incoming Volume Per Week
@@ -3669,7 +3669,7 @@ aka IK - L&R Escalated to Sales AVG Time to Resolve
     1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
     1. Ticket Form filter should include only `L&R`.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "Total" shows on top of columns on every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "Total" shows on top of columns on every month in Result Manipulation.
 
 ### L&R No Transaction Type Per Month
 
@@ -3689,7 +3689,7 @@ aka IK - L&R No Transaction Type Per Month
 - Custom Settings:
     1. Ticket Form filter should include only `L&R`.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "Total" shows inside of columns on every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "Total" shows inside of columns on every month in Result Manipulation.
 
 ## Intake Per Hour Last 12 Months L&R - All Plans
 
@@ -3733,7 +3733,7 @@ aka IK - Poor CSAT For L&R Breakdown Per Month
     1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
     1. Ticket Form filter should include only `L&R`.
     1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and and "Total" shows on top of every column as well as in percentage in columns inside every month for every reason in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and "Total" shows on top of every column as well as in percentage in columns inside every month for every reason in Result Manipulation.
 
 ### Time To Resolve Escalated to Sales - Custom Metric Error (TTR)
 

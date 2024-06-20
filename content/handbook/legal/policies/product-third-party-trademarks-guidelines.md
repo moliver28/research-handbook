@@ -81,8 +81,8 @@ Do:
 
 - Use the trademark for referential purposes only, i.e. to refer to another company, product, or service, and for no other purpose.
 - Review the trademark owner's published trademark guidelines to see if it permits the proposed use, if:
-    - the proposed trademark and use have not already been approved by legal, or
-    - if the proposed use does not constitute *fair use*.
+  - the proposed trademark and use have not already been approved by legal, or
+  - if the proposed use does not constitute *fair use*.
 - For logos, comply with any applicable trademark or brand guidelines, or other terms of use imposed by the trademark owner.
 - For logos, obtain the image file from the owner’s repository of brand assets or another owner-authorized source. The file format can be changed, or the logo recreated in another file format, provided the result is visually identical to the original.
 - For logos, save the image file in the [illustrations/third-party-logos](https://gitlab.com/gitlab-org/gitlab-svgs/-/tree/main/illustrations/third-party-logos) directory in the [gitlab-svgs](https://gitlab.com/gitlab-org/gitlab-svgs) project.

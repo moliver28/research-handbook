@@ -104,8 +104,7 @@ feedback, we often feel like we have to either justify our actions or promise
 change, and since change isn't always easy when you're responsible for a
 large team, justification becomes the default. It's OK to say you need time to
 evaluate the feedback and decide how to proceed.
-- [The Right Way to Respond to Negative
-Feedback](https://hbr.org/2018/05/the-right-way-to-respond-to-negative-feedback)
+- [The Right Way to Respond to Negative Feedback](https://hbr.org/2018/05/the-right-way-to-respond-to-negative-feedback)
 - If a team member from your department or another part of the org comes to you and says they do not feel like they or their reports' contributions are valued by your reports, the manager should try to resolve this. Research shows that this is more likely to happen to underrepresented minorities. Please note that [DRIs are free to ignore feedback](/handbook/people-group/directly-responsible-individuals/) without acknowledging it and that [valuing contributions isn't the same as agreeing with them](/handbook/values/#collaboration-is-not-consensus). This is about co-opting someone else's idea without attribution and/or dismissing an idea with an ad-hominem remark.
 
 ## 1-to-1
@@ -129,7 +128,7 @@ GitLab division README pages are linked below for context. Reading other READMEs
 - [Engineering READMEs](/handbook/engineering/readmes/)
 - [Marketing Team READMEs](/handbook/marketing/readmes/)
 - [Product READMEs](/handbook/product/readme/)
-    - [UX Department READMEs](/handbook/product/ux/#meet-some-of-our-team-members)
+  - [UX Department READMEs](/handbook/product/ux/#meet-some-of-our-team-members)
 - [Sales Team READMEs](/handbook/sales/readmes/)
 - [People Group READMEs](/handbook/people-group/readmes/)
 - [Finance Team READMEs](/handbook/finance/readmes/)
@@ -140,9 +139,9 @@ GitLab division README pages are linked below for context. Reading other READMEs
 
 1. Copy the [README-template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/issue_templates/README-template.md) and paste into your favorite Markdown editor. If you do not have a Markdown editor, [Typora](https://www.typora.io/) and [Bear](https://bear.app/) are recommended.
 1. Fill out the recommended sections. Note that each section is *optional*. You can remove those you aren't comfortable filling out, and add sections that are interesting or important to you.
-1. Once complete, you'll need to [create a new page](/handbook/marketing/digital-experience/website/#creating-a-new-page) and a subsequent merge request to add the page to GitLab's website.
-    1. If your [division](/handbook/company/structure/) *already* has a page to host READMEs (see above), follow the guidelines to [add a new page](/handbook/marketing/digital-experience/website/#creating-a-new-page) within that directory (e.g. [Darren M.](https://gitlab.com/dmurph), a member of the marketing team, would add a new directory and page within `/handbook/marketing/readmes`, creating `/handbook/marketing/readmes/dmurph`)
-    1. If your [division](/handbook/company/structure/) does not yet have a holding page for READMEs, follow the guidelines to [add a new page](/handbook/marketing/digital-experience/website/#creating-a-new-page) (`readmes`) within your division's handbook section *first*, then create your username directory within `readmes`.
+1. Once complete, you'll need to [create an issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) with the Digital Experience team to add a page to GitLab's website.
+    1. If your [division](/handbook/company/structure/) *already* has a page to host READMEs (see above), follow the guidelines to [add a new page](/handbook/marketing/digital-experience) within that directory (e.g. [Darren M.](https://gitlab.com/dmurph), a member of the marketing team, would add a new directory and page within `/handbook/marketing/readmes`, creating `/handbook/marketing/readmes/dmurph`)
+    1. If your [division](/handbook/company/structure/) does not yet have a holding page for READMEs, follow the guidelines to [add a new page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) (`readmes`) within your division's handbook section *first*, then create your username directory within `readmes`.
 1. Bonus points if you add your README & yourselves as codeowner to the [.gitlab/CODEOWNERS](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/CODEOWNERS) file.
 
 Alternatively you can create your README [dogfooding]({{< ref "values#dogfooding" >}}) GitLab's README profile customization feature. Follow [documentation](https://docs.gitlab.com/ee/user/profile/#add-details-to-your-profile-with-a-readme) on how to add details to your GitLab profile with a README. Do not forget to add your profile's link to you division's holding page.

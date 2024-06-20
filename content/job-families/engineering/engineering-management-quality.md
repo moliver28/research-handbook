@@ -42,7 +42,7 @@ The Manager, Quality Engineering is a [grade 8](/handbook/total-rewards/compensa
 - Experience with Continuous Integration systems (e.g. Jenkins, Travis, GitLab).
 - Experience defining high-level test automation strategy based on DevOps industry's best practices.
 - Experience driving organizational change with cross-functional stakeholders.
-- Demonstrate longevity at at least one recent job.
+- Demonstrate longevity at, at least, one recent job.
 - Ability to be successful managing at a remote-only company.
 - Humble, servant leader.
 - You share our [values](/handbook/values/), and work in accordance with those values.

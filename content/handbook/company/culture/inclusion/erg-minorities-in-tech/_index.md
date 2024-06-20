@@ -10,11 +10,11 @@ We are the Minorities in Tech (MIT) Enterprise Resource Group (TMRG) founded in 
 ## Leads
 
 - [Aricka Flowers](/handbook/company/team/#atflowers)
-- [Sharif Bennett](/handbook/company/team/#SharifATL)
+- [Sharif Bennett](/handbook/company/team/#sharifatl)
 
 ## Sub-committees
 
-**Mentorship**: [Sharif Bennett](/handbook/company/team/#SharifATL) & [Darva Satcher](/handbook/company/team/#dsatcher)
+**Mentorship**: [Sharif Bennett](/handbook/company/team/#sharifatl) & [Darva Satcher](/handbook/company/team/#dsatcher)
 
 **Events**: [Aricka Flowers](/handbook/company/team/#atflowers), [Morgen Smith](/handbook/company/team/#msmith6) & [Shakarra McGuire](/handbook/company/team/#samcguire)
 

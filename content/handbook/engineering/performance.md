@@ -1,13 +1,6 @@
 ---
-
 title: "Performance"
 ---
-
-
-
-
-
-
 
 ## Performance Facets
 
@@ -174,38 +167,38 @@ All items that start with the tachometer (<i class="fas fa-tachometer-alt fa-fw"
 
 Consider the scenario of a user opening their browser, and surfing to their dashboard by typing `gitlab.com/dashboard`, here is what happens:
 
-1. <a name="request-reaches-BE"></a> [**User request**](#tb-request-reaches-BE)
+1. <a name="request-reaches-be"></a> [**User request**](#tb-request-reaches-be)
     1. <a name="start-request"></a> User enters gitlab.com/dashboard in their browser and hits enter
-    1. <a name="lookup-IP"></a> [Lookup IP in DNS](#tb-lookup-IP) (not measured)
+    1. <a name="lookup-ip"></a> [Lookup IP in DNS](#tb-lookup-ip) (not measured)
        - Browser looks up IP address in DNS server
        - DNS request goes out and comes
     back (typically ~10-20 ms, [data?]; often times it is already cached so
       then it would be faster).
        - For more details on the steps from browser to application, enjoy reading <https://github.com/alex/what-happens-when>
-    1. <a name="browser2AzLB"></a> [Browser to Azure LB](#tb-browser2AzLB) (not measured)
+    1. <a name="browser2azlb"></a> [Browser to Azure LB](#tb-browser2azlb) (not measured)
        - Now that the browser knows where to find the IP address, browser sends the web
     request (for gitlab.com/dashboard) to Azure's load balancer (LB).
 1. <a name="backend-processes"></a> [**Backend processes**](#tb-backend-processes)
-    1. <a name="AzLB2HAProxy"></a> [Azure LB to HAProxy](#tb-AzLB2HAProxy) (not measured)
+    1. <a name="azlb2haproxy"></a> [Azure LB to HAProxy](#tb-azlb2haproxy) (not measured)
        - Azure's load balancer determines where to route the packet (request), and
        sends the request to our Frontend Load Balancer(s) (also referred to as
          HAProxy).
-    1. <a name="HAProxy-SSL"></a> [HAProxy SSL with browser](#tb-HAProxy-SSL) (not measured)
+    1. <a name="haproxy-ssl"></a> [HAProxy SSL with browser](#tb-haproxy-ssl) (not measured)
        - HAProxy (load balancer) does SSL negotiation with the browser
-    1. <a name="HAProxy2NGINX"></a> [HAProxy to NGINX](#tb-HAProxy-SSL) (not measured)
+    1. <a name="haproxy2nginx"></a> [HAProxy to NGINX](#tb-haproxy-ssl) (not measured)
        - HAProxy forwards the request to NGINX in one of our front end workers.
        In this case, since we are tracking a web request, it would be the NGINX box in the
          "Web" box in the [production-architecture diagram](/handbook/engineering/infrastructure/production/architecture/); but alternatively the request can come in via API or a git command
          from the command line, hence the API, and git "boxes" in that diagram.
        - Since all of our servers are in ONE Azure VNET, the overhead of SSL
           handshake and teardown between HAProxy and NGINX should be close to negligible.
-    1. <a name="NGINX-buffer"></a> [NGINX buffers request](#tb-NGINX-buffer) (not measured)
+    1. <a name="nginx-buffer"></a> [NGINX buffers request](#tb-nginx-buffer) (not measured)
        - NGINX gathers all network packets related to the request ("request
        buffering"). The request may be split into multiple packets by the intervening network,
        for more on that, read up on [MTUs](https://en.wikipedia.org/wiki/Maximum_transmission_unit).
        - In other flows, this won't be true. Specifically, request buffering is
        [switched off for LFS](https://gitlab.com/gitlab-org/gitlab-workhorse/issues/130).
-    1. <a name="NGINX2workhorse"></a> [NGINX to Workhorse](#tb-NGINX2workhorse) (not measured)
+    1. <a name="nginx2workhorse"></a> [NGINX to Workhorse](#tb-nginx2workhorse) (not measured)
        - NGINX forwards the full request to Workhorse (in one combined request).
     1. <a name="workhorse2various"></a> [Workhorse distributes request](#tb-workhorse2various)
        - Workhorse splits the request into parts to forward to:
@@ -269,10 +262,10 @@ Consider the scenario of a user opening their browser, and surfing to their dash
     1. <a name="html2browser"></a> [HTML to Browser](#tb-html2browser) (not measured)
        - The HTML blob is sent back to the Browser via the following path:
        - <a name="unicorn2workhorse"></a> [Unicorn to Workhorse](#tb-unicorn2workhorse) (not measured)
-       - <a name="workhorse2NGINX"></a> [Workhorse to NGINX](#tb-workhorse2NGINX) (not measured)
-       - <a name="NGINX2HAProxy"></a> [NGINX to HAProxy](#tb-NGINX2HAProxy) (not measured)
-       - <a name="HAProxy2AzLB"></a> [HAProxy to Azure LB](#tb-HAProxy2AzLB) (not measured)
-       - <a name="AzLB2browser"></a> [Azure LB to Browser](#tb-AzLB2browser) (not measured)
+       - <a name="workhorse2nginx"></a> [Workhorse to NGINX](#tb-workhorse2nginx) (not measured)
+       - <a name="nginx2haproxy"></a> [NGINX to HAProxy](#tb-nginx2haproxy) (not measured)
+       - <a name="haproxy2azlb"></a> [HAProxy to Azure LB](#tb-haproxy2azlb) (not measured)
+       - <a name="azlb2browser"></a> [Azure LB to Browser](#tb-azlb2browser) (not measured)
 1. <a name="renderpage"></a> [**Render Page**](#tb-renderpage)
     1. <a name="browser-firstbyte"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/dashboard/db/gitlab-web-status?refresh=1m&panelId=14&fullscreen&orgId=1&from=now-90d&to=now) [**First Byte**](#tb-browser-firstbyte)
       - The time when the browser receives the first byte.
@@ -310,7 +303,7 @@ Consider the scenario of a user opening their browser, and surfing to their dash
       loaded with `defer="true"`, so they are parsed and executed in the same
       order as they are called but only after html + css has been rendered.
       - Enough meaningful content is rendered on screen to calculated the "Speed Index".
-    1. <a name="reaching-fullyLoaded"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) [Fully Loaded](#tb-reaching-fullyLoaded)
+    1. <a name="reaching-fullyloaded"></a> [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/) [Fully Loaded](#tb-reaching-fullyloaded)
       - When the scripts are loaded, Javascript compiles and evaluates them within the page.
       - On some pages, we use AJAX to allow for async loading. The AJAX call can
       be triggered by all kinds of things; for example a frontend element (button)
@@ -321,8 +314,7 @@ Consider the scenario of a user opening their browser, and surfing to their dash
       are two separate AJAX calls, triggered by `DOMContentLoaded`. (The
       `DOMContentLoaded` event "marks the point when both the [DOM](https://css-tricks.com/dom/)
       is ready and there are no stylesheets that are blocking JavaScript
-      execution" (taken from an article about the [critical rendering
-      path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp))).
+      execution" (taken from an article about the [critical rendering path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp))).
       The alternative to using AJAX would be to include the full Rails code to
       generate the calendar and activity feed within the same controller that
       is called by the gitlab.com/username URL; which would lead to slower First
@@ -369,15 +361,15 @@ Guide to this table:
 
 | Step                                                    | # per request | p99 Q2-17 | p99 Now | p99 Q3-17 goal | Issue links and impact |
 |---------------------------------------------------------|--------------:|--------:|--------:|-------------:|------------------------|
-| <a name="tb-request-reaches-BE"></a>[**USER REQUEST**](#request-reaches-BE) |               |         |         |              |                        |
-| <a name="tb-lookup-IP"></a>[Lookup IP in DNS](#lookup-IP)                          |     1         |~10| ? |~10|  [Use a second DNS provider](https://gitlab.com/gitlab-com/infrastructure/issues/1711)  |
-| <a name="tb-browser2AzLB"></a>[Browser to Azure LB](#browser2AzLB)                    |     1         |~10| ? |~10|                        |
+| <a name="tb-request-reaches-be"></a>[**USER REQUEST**](#request-reaches-be) |               |         |         |              |                        |
+| <a name="tb-lookup-ip"></a>[Lookup IP in DNS](#lookup-ip)                          |     1         |~10| ? |~10|  [Use a second DNS provider](https://gitlab.com/gitlab-com/infrastructure/issues/1711)  |
+| <a name="tb-browser2azlb"></a>[Browser to Azure LB](#browser2azlb)                    |     1         |~10| ? |~10|                        |
 | <a name="tb-backend-processes"></a>[**BACKEND PROCESSES**](#backend-processes) |    |         |         |              | [Extend monitoring horizon](https://gitlab.com/gitlab-com/infrastructure/issues/1879) |
-|<a name="tb-AzLB2HAProxy"></a>[Azure LB to HAProxy](#AzLB2HAProxy)                     |     1         |~2| ? |~2|                        |
-|<a name="tb-HAProxy-SSL"></a>[HAProxy SSL with Browser](#HAProxy-SSL)                 |     1         |~10| ? |~10| [Speed up SSL](https://gitlab.com/gitlab-com/infrastructure/issues/2321) |
-|<a name="tb-HAProxy2NGINX"></a>[HAProxy to NGINX](#HAProxy2NGINX)              |     1         |~2| ? |~2|                        |
-|<a name="tb-NGINX-buffer"></a>[NGINX buffers request](#NGINX-buffer)                   |     1         |~10| ? |~10|                        |
-|[<a name="tb-NGINX2workhorse"></a>NGINX to Workhorse](#NGINX2workhorse)          |     1         |~2|  ? |~2|                        |
+|<a name="tb-azlb2haproxy"></a>[Azure LB to HAProxy](#azlb2haproxy)                     |     1         |~2| ? |~2|                        |
+|<a name="tb-haproxy-ssl"></a>[HAProxy SSL with Browser](#haproxy-ssl)                 |     1         |~10| ? |~10| [Speed up SSL](https://gitlab.com/gitlab-com/infrastructure/issues/2321) |
+|<a name="tb-haproxy2nginx"></a>[HAProxy to NGINX](#haproxy2nginx)              |     1         |~2| ? |~2|                        |
+|<a name="tb-nginx-buffer"></a>[NGINX buffers request](#nginx-buffer)                   |     1         |~10| ? |~10|                        |
+|[<a name="tb-nginx2workhorse"></a>[NGINX to Workhorse](#nginx2workhorse)          |     1         |~2|  ? |~2|                        |
 |<a name="tb-workhorse2various"></a>[Workhorse distributes request](#workhorse2various)      |     1         |         |         |      | [Adding monitoring to workhorse](https://gitlab.com/gitlab-com/infrastructure/issues/2025) |
 |<a name="tb-workhorse2unicorn"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Workhorse to Unicorn_](#workhorse2unicorn) | 1 | 18  | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/dashboard/db/transaction-overview?panelId=13&fullscreen&orgId=1) | 10 | [Adding Unicorns](https://gitlab.com/gitlab-com/infrastructure/issues/1883) |
 |<a name="tb-workhorse2gitaly"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Workhorse to Gitaly_](#workhorse2gitaly)   | |     | ?  |     |   |
@@ -391,14 +383,14 @@ Guide to this table:
 |<a name="tb-unicorn2html"></a>[Unicorn makes HTML](#unicorn2html) |  |    |   |  |       |
 |<a name="tb-html2browser"></a>[HTML to Browser](#html2browser) |  |    |   |  |       |
 |<a name="tb-unicorn2workhorse"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Unicorn to Workhorse_](#unicorn2workhorse) | 1 | ~2 | ?  | ~2  |  |
-|<a name="tb-workhorse2NGINX"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Workhorse to NGINX_](#workhorse2NGINX)             |      1        | ~2| ? |~2|                        |
-|<a name="tb-NGINX2HAProxy"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_NGINX to HAProxy_](#NGINX2HAProxy)                 |      1        |~2| ? |~2| [Compress HTML in NGINX](https://gitlab.com/gitlab-org/gitlab-ce/issues/33719)  |
-|<a name="tb-HAProxy2AzLB"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_HAProxy to Azure LB_](#HAProxy2AzLB)               |      1        |~2| ? |~2|                        |
-|<a name="tb-AzLB2browser"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Azure LB to Browser_](#AzLB2browser)               |      1        |~20| ? |~20|                        |
+|<a name="tb-workhorse2nginx"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Workhorse to NGINX_](#workhorse2nginx)             |      1        | ~2| ? |~2|                        |
+|<a name="tb-nginx2haproxy"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_NGINX to HAProxy_](#nginx2haproxy)                 |      1        |~2| ? |~2| [Compress HTML in NGINX](https://gitlab.com/gitlab-org/gitlab-ce/issues/33719)  |
+|<a name="tb-haproxy2azlb"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_HAProxy to Azure LB_](#haproxy2azlb)               |      1        |~2| ? |~2|                        |
+|<a name="tb-azlb2browser"></a>&nbsp;&nbsp;&nbsp;&nbsp;[_Azure LB to Browser_](#azlb2browser)               |      1        |~20| ? |~20|                        |
 |<a name="tb-renderpage"></a>[**RENDER PAGE**](#renderpage) |  |         |         |              |                        |
 |<a name="tb-browser-firstbyte"></a> [**FIRST BYTE**](#browser-firstbyte) (see [note 1](#note-blackbox))]  |   | **1080 - 6347** |   [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](https://dashboards.gitlab.net/dashboard/db/gitlab-web-status)      | **1000**  |                        |
 |<a name="tb-reaching-speed-index"></a>[**SPEED INDEX**](#reaching-speed-index) (see [note 2](#note-fp-times)) |  | **3230 - 14454** | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |   **2000**     | [Remove inline scripts](https://gitlab.com/gitlab-org/gitlab-ce/issues/34903), [Defer script loading when possible](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/12759), [Lazy load images](https://gitlab.com/gitlab-org/gitlab-ce/issues/34361), [Set up a CDN for faster asset loading](https://gitlab.com/gitlab-com/infrastructure/issues/2092), [Use image resizing in CDN](https://gitlab.com/gitlab-org/gitlab-ce/issues/34364) |
-|<a name="tb-reaching-fullyLoaded"></a>[Fully Loaded](#reaching-fullyLoaded) (see [note](#note-fl-time)) |  |   6093 - 14003   |  [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |  not specified  |   [Enable webpack code splitting](https://gitlab.com/gitlab-org/gitlab-ce/issues/33391) |
+|<a name="tb-reaching-fullyloaded"></a>[Fully Loaded](#reaching-fullyloaded) (see [note](#note-fl-time)) |  |   6093 - 14003   |  [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>](http://207.154.197.115/gl/sitespeed-result/gitlab.com/)  |  not specified  |   [Enable webpack code splitting](https://gitlab.com/gitlab-org/gitlab-ce/issues/33391) |
 |---------------------------------------------------------|---------------|---------|---------|--------------|------------------------|
 
 **Notes:**
@@ -469,8 +461,7 @@ pick:
 1. How frequently something is used.
 2. How likely it is for something to cause an outage.
 
-For strictly performance related work you can use the [Controller Timings
-Overview](https://dashboards.gitlab.net/dashboard/db/controller-timings-overview?)
+For strictly performance related work you can use the [Controller Timings Overview](https://dashboards.gitlab.net/dashboard/db/controller-timings-overview?)
 Grafana dashboard. This dashboard categorises data into three different
 categories, each with their associated severity label:
 
@@ -491,21 +482,21 @@ label to use for database related performance work.
 Some general notes about parameters that affect database performance, at a very crude level.
 
 - From whitebox monitoring,
-   - Of time spent on/by Rails controllers, this much is spent in the database: <https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller?viewPanel=13864&orgId=1> (for a specific Rails controller / page)
-   - _Global_ SQL timings: <https://dashboards.gitlab.net/dashboard/db/transaction-overview?panelId=9&fullscreen&orgId=1&from=now-2d&to=now>
+  - Of time spent on/by Rails controllers, this much is spent in the database: <https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller?viewPanel=13864&orgId=1> (for a specific Rails controller / page)
+  - _Global_ SQL timings: <https://dashboards.gitlab.net/dashboard/db/transaction-overview?panelId=9&fullscreen&orgId=1&from=now-2d&to=now>
 - A single HTTP request will execute a single controller. A controller in turn will usually only use one available database connection, though it may use 2 if first a read was performed, followed by a write.
-   - pgbouncer allows up to 150 concurrent PostgreSQL connections. If this limit
+  - pgbouncer allows up to 150 concurrent PostgreSQL connections. If this limit
 is reached it will block pgbouncer connections until a PostgreSQL connection becomes available.
-   - PostgreSQL allows up to 300 connections (connected, whether they're active or not doesn't matter). Once this limit is reached new connections will be rejected, resulting in an error in the application.
-   - When the number of processes > number of cores available on the database servers, the CPU constantly switches cores to run the requested processes; this contention for cores can lead to degraded performance.
+  - PostgreSQL allows up to 300 connections (connected, whether they're active or not doesn't matter). Once this limit is reached new connections will be rejected, resulting in an error in the application.
+  - When the number of processes > number of cores available on the database servers, the CPU constantly switches cores to run the requested processes; this contention for cores can lead to degraded performance.
 - As long as the database CPU load < 100% (<https://dashboards.gitlab.net/dashboard/db/postgresql-overview?refresh=5m&orgId=1&from=now%2Fw&to=now&panelId=13&fullscreen>), then in theory the database can handle more load without adding latency. In practice database specialists like to keep CPU load below 50%.
-    - As an example of how load is determined by underlying application design:
+  - As an example of how load is determined by underlying application design:
        DB CPU percent used to be lower (20%, prior to 9.2, then up to 50-75% [when 9.2 RC1 went live](https://gitlab.com/gitlab-org/gitlab-ce/issues/32536), then back down to 20% by the time 9.2 was released.
 - pgbouncer
-   - What it does: pgbouncer maps _N_ incoming connections to _M_ PostreSQL connections, with _N_ >= _M_ (_N_ < _M_ would make no sense). For example, you can map 1024 incoming connections to 10 PostgreSQL connections. This is mostly influenced by the number of concurrent queries you want to be able to handle. For example, for GitLab.com our primary rarely goes above 100 (usually it sits around 20-30), while secondaries rarely go above 20-30 concurrent queries. The more secondaries you add, the more you can spread load and thus require fewer connections (at the
+  - What it does: pgbouncer maps _N_ incoming connections to _M_ PostreSQL connections, with _N_ >= _M_ (_N_ < _M_ would make no sense). For example, you can map 1024 incoming connections to 10 PostgreSQL connections. This is mostly influenced by the number of concurrent queries you want to be able to handle. For example, for GitLab.com our primary rarely goes above 100 (usually it sits around 20-30), while secondaries rarely go above 20-30 concurrent queries. The more secondaries you add, the more you can spread load and thus require fewer connections (at the
   cost of having more servers).
-   - Analogy: pgbouncer is a bartender serving drinks to many customers. Instead of making the drinks himself she instructs 1 out of 20 “backend” bartenders to do so. While one of these bartenders is working on a drink the other 19 (including the “main” one) are available for new orders. Once a drink is done one of the 20 “backend” bartenders gives it to the main bartender, which in turn gives it to the customer that requested the drink. In this analogy, the _N_ incoming connections are the patrons of the bar, and there are _M_ "backend"
+  - Analogy: pgbouncer is a bartender serving drinks to many customers. Instead of making the drinks himself she instructs 1 out of 20 “backend” bartenders to do so. While one of these bartenders is working on a drink the other 19 (including the “main” one) are available for new orders. Once a drink is done one of the 20 “backend” bartenders gives it to the main bartender, which in turn gives it to the customer that requested the drink. In this analogy, the _N_ incoming connections are the patrons of the bar, and there are _M_ "backend"
    bartenders.
-   - Pgbouncer frontend connections (= incoming ones) are very cheap, and you have lots of these (e.g. thousands). Typically you want _N_ >= _A_ with _N_ being the pgbouncer connection limit, and _A_ being the number of connections needed for your application.
-   - PostgreSQL connections are much more expensive resource wise, and ideally you have no more than the number of CPU cores available per server (e.g. 32). Depending on your load this may not always be sufficient, e.g. a primary in our setup will need to allow 100-150 connections at peak.
-   - Pgbouncer can be configured to terminate PostgreSQL connections when idle for a certain time period, conserving resources.
+  - Pgbouncer frontend connections (= incoming ones) are very cheap, and you have lots of these (e.g. thousands). Typically you want _N_ >= _A_ with _N_ being the pgbouncer connection limit, and _A_ being the number of connections needed for your application.
+  - PostgreSQL connections are much more expensive resource wise, and ideally you have no more than the number of CPU cores available per server (e.g. 32). Depending on your load this may not always be sufficient, e.g. a primary in our setup will need to allow 100-150 connections at peak.
+  - Pgbouncer can be configured to terminate PostgreSQL connections when idle for a certain time period, conserving resources.

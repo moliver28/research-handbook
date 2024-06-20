@@ -1,16 +1,7 @@
 ---
-
 title: "Professional Services Offerings"
 description: "Find information about GitLab Professional services Offerings."
 ---
-# Professional Services Offerings
-
-
-
-
-
-
-
 
 ## Discovery Engagement
 
@@ -41,6 +32,7 @@ GitLab will work with you to identify and scope the training needs for your team
 As part of services engagement, we offer migration services from a customer's current systems.  These services include consulting with the customer's technical staff about the best way to migrate not only the customer's source code but also their entire SDLC to the GitLab platform.  We may implement the migration in a phased approach or a replacement approach depending on the customer's comfort level and desires around adoption.
 
 This can include:
+
 - Importing your projects from GitHub, Bitbucket, GitLab.com, FogBugz and SVN into GitLab
 - Migrating from SVN: Convert a SVN repository to Git and GitLab
 
@@ -53,7 +45,6 @@ The GitLab Professional Services Engineering group will also work with a custome
 - Integration with LDAP/AD or other OAuth services for authentication
 - Integration to Jira, Jenkins, Redmine, Mattermost
 - Custom Integrations
-   - Automation
-   - API: Automate GitLab via a simple and powerful API.
-   - GitLab Webhooks: Let GitLab notify another system when new code is pushed
-
+  - Automation
+  - API: Automate GitLab via a simple and powerful API.
+  - GitLab Webhooks: Let GitLab notify another system when new code is pushed

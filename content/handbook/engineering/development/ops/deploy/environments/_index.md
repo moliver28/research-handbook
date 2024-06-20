@@ -116,8 +116,8 @@ We try to be conscious of sync time and so we expect a maximum of two of these m
 A technical discovery meeting consists of:
 
 - 2 Meetings across timezones so that everyone has a fair opportunity to join the sync meeting.
-    - APAC/EMEA
-    - EMEA/AMER
+  - APAC/EMEA
+  - EMEA/AMER
 - The 2 meetings are recorded and share the same agenda.
 - The meetings are announced at least one week before they will be held and each participant must familiarize themselves with the issue that is being investigated prior to attending one of the meetings.
 - Discussing the topic async in advance in the issue/epic is encouraged.
@@ -187,6 +187,47 @@ Every week the [refinement bot](https://gitlab.com/gitlab-org/ci-cd/deploy-stage
 
 The refinement process is described in the [issue template](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/refinement/-/blob/main/templates/default.erb).
 
+### Labels used
+
+#### Discovery backlog
+
+In discovery we use the following labels
+
+1. `~workflow::problem validation` (optional) - to signal loosely defined problems where either the user problem or the business value is not yet understood
+1. `~workflow::ready-for-design` - this is our (likely endless) design backlog
+1. `~workflow::solution validation` (optional) - used for work with a concrete solution proposal that needs user validation
+1. `~workflow::design` - for ongoing design work
+
+#### Delivery backlog
+
+1. `~workflow::refinement` - this is our delivery backlog; it contains all the issues that were not discussed by engineers in depth yet; this has no WIP limits
+1. `~workflow::scheduling` - this is our backlog of already discussed issues; these issues are still waiting to be scheduled or even to be put on the roadmap; issues entering should have a preliminary weight; this has no WIP limits
+1. `~workflow::planning breakdown` - this is the backlog for the upcoming milestone;  it has a WIP limit of 2-months capacity
+1. `~workflow::ready-for-development` - this is the list of issues refined for the current or the upcoming milestone; it has a WIP limit of 2-months capacity; issues here should have a final weight
+
+The PM is responsible for moving proposed issues from `~workflow::scheduling` to `~workflow::planning breakdown` and to maintain the WIP limits. Everyone is welcome to recommend issues for planning.
+
+The EM is responsible for moving accepted issues from `~workflow::planning breakdown` to `~workflow::ready-for-development` and to maintain the WIP limits. Everyone is welcome to improve issues to make the ready for development.
+
+#### Special labels
+
+- the `~environments::parked` label is used to signal that we don't intend to focus on an issue in the next 9-12 months
+
+### Milestone Board
+
+The issues scheduled for a milestone can be tracked at [Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/4176401?not[label_name][]=environments%3A%3Aparked).
+
+This board contains all the necessary columns to track the workflow of the team, in particular:
+
+- Labels of interest as outlined above
+- One or more Milestone columns containing the planned work for the given milestone.
+
+All the columns are prioritised top to bottom.
+
+Once a team memeber self-assigns an issue on the Milestone Board, issue labels should follow the [Engineering Workflow](/handbook/engineering/workflow/#updating-issues-throughout-development).
+
+For Merge Requests, it's up to the author and the project they are contributing to, to decide if they want to use these `~workflow::` labels. It is not required to use them or keep them synced up with the Issue labels.
+
 ### Planning
 
 #### Issue Weighting
@@ -227,23 +268,7 @@ When making decisions about how much work the team can take on for a milestone, 
 
 The [GitLab Terraform Provider](/handbook/engineering/projects/#terraform-provider-gitlab) is managed by the Environments group.
 
-### Milestone Board
-
-The issues scheduled for a milestone can be tracked at [Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/4176401?not[label_name][]=environments%3A%3Aparked).
-
-This board contains all the necessary columns to track the workflow of the team, in particular:
-
-- `~"workflow::refinement"` the list of issues that needs to be refined before they can be assigned.
-- `~"workflow::ready for development"` the list of issues that are ready to be worked on, both assigned and not assigned to the milestone.
-- One or more Milestone columns containing the planned work for the given milestone.
-
-All the columns are prioritised top to bottom.
-
-Once a team memeber self-assigns an issue on the Milestone Board, issue labels should follow the [Engineering Workflow](/handbook/engineering/workflow/#updating-issues-throughout-development).
-
-For Merge Requests, it's up to the author and the project they are contributing to, to decide if they want to use these `~workflow::` labels. It is not required to use them or keep them synced up with the Issue labels.
-
-#### Feature development
+### Feature development
 
 Our goal is to move towards a continuous delivery model so the team completes tasks regularly, and keeps working off of a prioritized backlog of issues. We default to team members self-scheduling their work:
 
@@ -266,59 +291,89 @@ While diligently pursuing our objectives, we also recognize the significance of 
 1. **Maximum issue size**: To rule out likely surprises and extra investigation, only issues with [weight 1-2](#issue-weighting) are acceptable for "~Environments::EngineeringChoice".
 1. **Tracking in Milestone Planning**: Progress and choices under the "~Environments::EngineeringChoice" category will be monitored and recorded in a specific section of the Milestone Planning issue.
 
-#### Bug fixing and priortized work
+#### Bug fixing and prioritized work
 
 In every milestone plan, we compile a list of bugs due in the coming milestone based on the severity SLA.
 
-In addition to the self-scheduling of feature development, the manager will from time to time assign bugs, or other work deemed important, directly to a team member.
-
-On top of the official issue-triaging process, when severity labels are assigned/changed, we aim to set the issue due date at the same time. If there are bugs with a severity label and without a deadline,
+When severity labels are assigned/changed on a `~type::bug` issue, we aim to set/adjust the issue due date at the same time.
 everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
 ##### Best practices for managing bug issues
 
 Goals:
 
-  - Effectively track and label bug related issues.
-  - Ensure bug Due Dates are not missed due to a lack of DRIs on sub issues.
-  - Ensure the team is aware that help is needed in a specific area on a bug
+- Effectively track and label bug related issues.
+- Ensure bug Due Dates are not missed due to a lack of DRIs on sub issues.
+- Ensure the team is aware that help is needed in a specific area on a bug
     that already has an overall DRI.
 
 Context:
 
-  - Single part bug issues
-    - Some bugs only require a single cohesive effort to resolve. For example an
+- Single part bug issues
+  - Some bugs only require a single cohesive effort to resolve. For example an
       isolated backend fix that requires no database or frontend changes. In
       these cases, the DRI of the bug issue is the person doing the work, and
       all work is tracked in the bug report issue.
 
-  - Multi-part bug issues
-    - In other cases, a bug issue may result in work across frontend, backend,
+- Multi-part bug issues
+  - In other cases, a bug issue may result in work across frontend, backend,
       and database. This can result multiple engineers working separately as
       DRIs of individual issues that all contributing to solving the bug.
       Multiple issues are needed.
 
 Problem:
 
-  - Without a clear structure of issues for multi-part bugs, it's difficult for
+- Without a clear structure of issues for multi-part bugs, it's difficult for
     the team to know how to help and how to plan. This difficulty can negatively
     impact our say-do ratio.
 
 Best practices for managing multi-part bug issues:
 
-  - The original bug issue should be promoted to an epic.
-  - The original DRI becomes the overall bug epic DRI (note this on the epic).
-  - New sub issues representing each part of the work should be created on the
+- The original bug issue should be promoted to an epic.
+- The original DRI becomes the overall bug epic DRI (note this on the epic).
+- New sub issues representing each part of the work should be created on the
     epic.
-  - The new issues should be noted as blocking the epic.
-  - Except for severity and priority, Labels should be copied over.
-  - Due dates should keep in mind the due date of the epic, which is based on
+- The new issues should be noted as blocking the epic.
+- Except for severity and priority, Labels should be copied over.
+- Due dates should keep in mind the due date of the epic, which is based on
     severity and priority.
-  - Deliverable labels should be applied if the epic is deliverable.
-  - DRI can use the Milestone Planning issue and/or reach out to relevant team
+- Deliverable labels should be applied if the epic is deliverable.
+- DRI can use the Milestone Planning issue and/or reach out to relevant team
     members to ask if there's availability within the Due Date. cc your
     engineering manager so they can give a high level thumbs up/thumbs down
     regarding the change in priority.
+
+##### Bug resolution process
+
+The entire bug resolution process includes the following phases in order:
+
+1. GitLab Issue triage procedure: we have a handbook section we can follow
+   [here](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+
+2. Environment's team [refinement process](#issue-refinement)
+
+3. [Planning](#planning)
+
+4. Reprioritazation. The EM will change unplanned `p3` bugs that have had no
+   activity to `p4` and remove the due date.
+
+###### Putting the process together
+
+- Bug must be refined a milestone before it is due. This is done by the
+  refinement DRI.
+- Bug fix must be planned for a milestone that ends before the bug's due date.
+  This takes place on the milestone planning issue.
+- Reprioritazation will have a dedicated section in the milestone planning
+  issue.
+- Outdated bugs are closed in accordance with [the existing handbook practice](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#outdated-issues)
+
+###### Best practices
+
+- Read the issue triage [handbook page](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+- Ask the reporter for detailed steps to reproduce the problem, including minimal setup and expected versus actual outputs.
+- Request relevant documentation to validate the unexpected behavior, or an explanation if no documentation exists.
+- If the reporter is a GitLab team member, inquire if there are any insights on the impact of the issue, such as the number of users affected or specific features involved, to help prioritize the resolution.
+- Partner with the PM if you think it may not actually be a bug.
 
 #### Say-do ratio
 
@@ -375,8 +430,7 @@ following milestone planning. For example, for Deferred UX issues opened in the 
 milestone, engineers should evaluate and ensure appropriate prioritization of
 the issue during the planning of the 16.4 milestone. This does not mean that the
 issue must be resolved during the 16.4 milestone, but that the issue is placed
-into the appropriate step of our [product development
-flow](/handbook/product-development-flow), or closed if appropriate.
+into the appropriate step of our [product development flow](/handbook/product-development-flow), or closed if appropriate.
 
 This helps to ensure that Deferred UX issues are resolved in a timely manner,
 keeping with the overall goals of the group and adherence to broader
@@ -398,7 +452,7 @@ addressed, or scheduled for work. Additional issues should be created and added 
 rake tasks, database migrations, or other tasks that need to be run, they need to see those through to being
 run on the production systems with the help of the Site Reliability counterpart.
 
-This places a lot of responsibility with the DRI, but the PM and EM are always there to support them. This ownerships
+This places a lot of responsibility with the DRI, but the PM and EM are always there to support them. This ownership
 removes bottlenecks and situations where only the PM or EM is able to advance an idea. In addition, the best people
 to decide on how to implement an issue are often the people who will actually perform the work.
 

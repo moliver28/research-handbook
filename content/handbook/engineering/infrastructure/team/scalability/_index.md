@@ -135,8 +135,7 @@ requests with care so that we can help to find an effective resolution for the i
 #### Scalability review requests
 
 If you're working on a feature that has specific scaling requirements, you
-can create an issue with the [review request
-template](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/new?issuable_template=Review%20Request).
+can create an issue with the [review request template](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/new?issuable_template=Review%20Request).
 Some examples are:
 
 1. [Review Request - Impact on database load for enabling advanced global search](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/377)
@@ -154,8 +153,7 @@ the code is performing, or the way in which it is running on GitLab.com. For exa
 if the problem is in what the queue does, or how the worker should run.
 
 If we find that the problem is in what the code is doing, then we engage with the EM/PM of that group to find the right path
-forward. If work is required from that group, we will create a new issue in the gitlab-org project and use the [Availability
-and Performance Refinement process](/handbook/engineering/workflow/#process-1) to highlight this issue.
+forward. If work is required from that group, we will create a new issue in the gitlab-org project and use the [Availability and Performance Refinement process](/handbook/engineering/workflow/#process-1) to highlight this issue.
 
 ## How we work
 
@@ -297,13 +295,13 @@ For an Incident Manager:
 If you are not EOC or an Incident Manager when an incident occurs:
 
 * For S1 incidents
-   * the priority is to get GitLab.com up and running and getting back to a stable state takes priority over project work
-   * when the system is stable, contribute to determining the root cause and writing up the corrective actions
-   * the IM or Reliability EM will delegate corrective actions
-   * work with the Scalability EM to prioritize any work that arises from an S1
+  * the priority is to get GitLab.com up and running and getting back to a stable state takes priority over project work
+  * when the system is stable, contribute to determining the root cause and writing up the corrective actions
+  * the IM or Reliability EM will delegate corrective actions
+  * work with the Scalability EM to prioritize any work that arises from an S1
 * For all other incidents
-   * if you are called into an incident, the priority is to enable others to resolve the problem
-   * the expectation is to be hands-off, giving guidance where necessary, and returning to project work as soon as possible
+  * if you are called into an incident, the priority is to enable others to resolve the problem
+  * the expectation is to be hands-off, giving guidance where necessary, and returning to project work as soon as possible
 
 The reason for this position is that our project work prevents future large S1 incidents from occurring.
 If we try to participate in and resolve many incidents, our project work is delayed and the risk of future S1 incidents increases.

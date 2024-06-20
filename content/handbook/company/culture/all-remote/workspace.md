@@ -260,7 +260,7 @@ Plan your work time and [time off]({{< ref "paid-time-off" >}}) in advance. When
 
 Have an open, honest conversation with co-dwellers about your working hours. Explain that while you are home, you should be considered unreachable unless there's a significant level of need.
 
-Be sure to have the ["I'm home but working" conversation with children](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home), who may struggle to understand why a [a working parent](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby) is in the home but unable or unwilling to engage with them for certain parts of the day.
+Be sure to have the ["I'm home but working" conversation with children](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home), who may struggle to understand why [a working parent](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby) is in the home but unable or unwilling to engage with them for certain parts of the day.
 
 ### How can I decorate my home office?
 

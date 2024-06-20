@@ -46,7 +46,7 @@ aliases:
 - /handbook/old/page/location/
 ```
 
-If you need to do a folder redirect or a redirect to an external page, you can add a line to the [redirects](https://handbook.gitlab.com/docs/development/#redirects).
+If you need to do a folder redirect or a redirect to an external page, you can add a line to the [redirects](/docs/development/#redirects).
 
 ## Controlled Documents
 

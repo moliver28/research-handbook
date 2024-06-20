@@ -402,8 +402,7 @@ Using the Zoom app:
 
 ### Recording video transcripts
 
-[Closed captioning and live
-transcription](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription)
+[Closed captioning and live transcription](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription)
 is enabled by default for all users, however the subtitles will not show for participants unless
 a host manually enables it once the meeting starts.
 

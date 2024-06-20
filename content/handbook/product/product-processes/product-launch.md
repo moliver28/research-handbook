@@ -52,13 +52,7 @@ We are actively iterating on the NPI process. You can use the [`#npi-process-wor
 
 This phase happens before the NPI process officially launches with cross-functional stakeholders.
 
-### Step 1: Assign a DRI and Program Manager to launch the product/service or SKU
-
-The project should have both a DRI and a Program Manager. **The DRI** drives the feature or service strategy and is the primary business owner. This is the person requesting a new product, service, or SKU. The person is responsible for delivering the initial business plan, and ensuring that the launch meets business goals.
-
-**The Program Manager** coordinates and directs the multiple parallel work streams required by the NPI process. The Program Manager can be assigned from the Product division, or if necessary from the [Office of the CEO](/handbook/ceo/office-of-the-ceo/). The Professional Services team can Program Manage SKU additions or modifications for Professional Services. In some cases, the DRI and the Program Manager may be the same person.
-
-### Step 2: Write up the details of the product or service
+### Step 1: Write up the details of the product or service
 
 The DRI should create a business plan based on an NPI Planning Info Sheet (template not finalized, to be linked once done) to communicate how you’ve defined the specific product or service that is being launched. At this point in the project you may not have all the details - use this resource as a starting point to help you and your stakeholders understand what still needs to be resolved cross-functionally over the course of the project.
 
@@ -69,11 +63,19 @@ Ideally at this point you will already know the pricing structure, but if not, a
 1. Pricing team will conduct required research following our process, and pricing principles. Depending on the complexity of the offer, and potential market size this research could take a couple of weeks, up to a few months to complete.
 1. Pricing team will make a recommendation of what business model the product/service should have (e.g. fixed fee, subscription, consumptive, add-on, new tier), and recommend a price point or range to consider for the offering
 
-### Step 3: Meet with the NPI SteerCo and get alignment on the launch plan
+### Step 2: Meet with the NPI SteerCo and get alignment on the launch plan
 
 The DRI/Business Sponsor and the Program Manager meet with the NPI SteerCo and present the information included in the NPI Planning Info Sheet.
 
 The NPI SteerCo will advise on whether there are available resources to complete the NPI process for your proposed feature or service. In some cases, there may not be sufficient resources to match the prioritization level of a given project. In that case, it is important for the Business Sponsor and the NPI SteerCo to work together to escalate to the E-Group for further direction.
+
+To meet with the SteerCo, reach out to Natalie Pinto or Lee Work who will add you to the next meeting.
+
+### Step 3: Assign a DRI and Program Manager to launch the product/service or SKU
+
+Once approved by the NPI SteerCO, the project should have both a DRI and a Program Manager. **The DRI** drives the feature or service strategy and is the primary business owner. This is the person requesting a new product, service, or SKU. The person is responsible for delivering the initial business plan, and ensuring that the launch meets business goals.
+
+**The Program Manager** coordinates and directs the multiple parallel work streams required by the NPI process. The Program Manager can be assigned from the Product division, or if necessary from the [Office of the CEO](/handbook/ceo/office-of-the-ceo/). The Professional Services team can Program Manage SKU additions or modifications for Professional Services. In some cases, the DRI and the Program Manager may be the same person.
 
 ### Step 4: Communicate the plan to stakeholders
 

@@ -20,6 +20,17 @@ The Pricing team owns the definition and execution of pricing strategy at GitLab
 - Comfort working in a highly agile, intensely iterative software development process
 - Ability to use GitLab
 
+## Performance Indicators
+
+The pricing team measures its success by tracking growth in the following areas:
+
+- Net Annual Recurring Revenue (nARR)
+- Net Revenue Retention (NRR)
+- Average Selling Price (ASP)
+- Average Revenue Per User (ARPU)
+
+Additional performance indicators may be added as the team expands. 
+
 ## Levels
 
 ### Pricing Analyst
@@ -73,9 +84,45 @@ The Senior Pricing Analyst is a [grade 7](/handbook/total-rewards/compensation/c
 - 7+ years of experience with financial analysis, preferably focused on pricing
 - 4+ years of experience with pricing research and a basic understanding of common pricing research techniques
 
+### Senior Pricing Manager
+
+The Senior Pricing Manager brings pricing and packaging domain expertise, contributing to the overall success of the monetization strategy of GitLab.  This role reports to the [VP of Product Monetization](//job-families/product/product-management-leadership/#senior-director-of-product-monetization)
+
+#### Senior Pricing Manager Responsibilities
+
+- Develop and implement effective pricing strategies for our individal product offerings
+- Analyze market trends, competitor pricing, and customer data to inform pricing decisions
+- Conduct regular pricing reviews to help create plans for optimization
+- Monitor performance of ongoing initiatives and pricing and packaging changes.
+- Partner with key stakeholders in Sales Strategy, Finance, and Marketing on key strategic iniativies
+
+#### Senior Pricing Manager Requirements
+
+- 5+ years of experience in managing SaaS pricing strategy and analysis
+- Experience in financial analysis and modeling
+- Familiarity in pricing research methodologies, such as conjoint, Van Westendorp, and max diff analysis
+- Strong analytical skills with the ability to interpret complex data and provide actionable insights
+- Comfortable working in an environment of ambiguity, driving towards clarity to acheive results
+- Successful track record of maintaing alignment across key cross functional stakeholders 
+
+#### Senior Pricing Manager Job Grade
+
+The Senior Pricing Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Senior Pricing Manager Hiring Process
+
+Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
+
+- Selected candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters
+- Next, candidates will be invited to schedule an interview with a Principal Pricing Manager
+- Next, candidates will be initied to schedule an interview with a member of the Product Organization
+- Next, candidates will be invited to schedule an interview with a member of the Finance Organization
+- Next, candidates will be invited to schedule an interview with a member of the Sales and/or Marketing Organization 
+- Next, candidates will be invited to schedule an interview with the VP of Product
+
 ### Principal Pricing Manager
 
-The Principal Pricing Manager reports to the [Director of Pricing](/job-families/product/pricing/#sr-director-of-pricing).
+The Principal Pricing Manager role builds upon the Senior Pricing Manager role by bringing additional expertise in pricing and packaging strategies, increased influence over strategic pricing decisions, and leading larger cross functional company wide pricing iniatives. This role reports to the [VP of Product Monetization](/job-families/product/product-management-leadership/#senior-director-of-product-monetization).
 
 #### Principal Pricing Manager Responsibilities
 
@@ -97,7 +144,7 @@ The Principal Pricing Manager reports to the [Director of Pricing](/job-families
 
 #### Principal Pricing Manager Job Grade
 
-The Principal Pricing Manager is a [grade 9.5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Principal Pricing Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Principal Pricing Manager Hiring Process
 
@@ -113,7 +160,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ### Director of Pricing
 
-The Director of Pricing reports to the [Sr Director of Product Monetization](/job-families/product/product-management-leadership/#senior-director-of-product-monetization)
+The Director of Pricing reports to the [VP of Product Monetization](/job-families/product/product-management-leadership/#senior-director-of-product-monetization)
 
 #### Director of Pricing Responsibilities
 
@@ -154,11 +201,6 @@ Candidates for this position can expect the hiring process to follow the order b
 - Finally, candidates may be invited to schedule an interview with the VP of Product Management
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
-
-## Performance Indicators
-
-- Average Revenue per User
-- Average Selling Price
 
 ## Career Ladder
 

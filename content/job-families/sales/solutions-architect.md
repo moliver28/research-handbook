@@ -475,7 +475,7 @@ As with all roles in the Sales Department, the Solutions Archtiect job family pa
 
 ## Career Ladder
 
-A Solution Architect can progress through the various individual contributor levels or leadership roles and associated levels. More on this in the SA [Career Development page](https://handbook.gitlab.com/handbook/solutions-architects/sa-career-development/#career-paths)
+A Solution Architect can progress through the various individual contributor levels or leadership roles and associated levels. More on this in the SA [Career Development page](/handbook/solutions-architects/sa-career-development/#career-paths)
 
 ---
 

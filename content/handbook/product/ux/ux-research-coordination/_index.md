@@ -3,7 +3,7 @@ title: "UX Research Operations (ReOps) Coordination at GitLab"
 description: "We empower UX Research DRIs with the resources needed for efficient and high-quality research, enabling team members to focus on generating insights that drive exceptional user experiences and product innovation."
 ---
 
-## What is UX Research Operations
+## What is UX Research Operations?
 
 UX Research Operations (often referred to as UX ReOps) is a discipline within UX Research focused on managing and optimizing the processes, tools, and infrastructure that support UX research activities. The primary goal of UX Research Operations is to enable UX Researchers to conduct their work more efficiently and effectively by providing the necessary support and resources.
 
@@ -34,7 +34,7 @@ In general, we adhere to 3 pillars and 1 principle.
 
 * Be transparent about our work and progress, and foster a culture of continuous improvement in our research process and practice, that everyone (UX Researchers, Product Designers, Product Managers, etc.) can participate.
 
-## How many studies can a UX Research Operations Coordinater support?
+## How many studies can a UX Research Operations Coordinator support?
 
 The short answer is approximately 5-10 at any given time. The long answer is that it depends on the type of study and the target population. When each study only requires 5-8 participants who are relatively abundant in our database and community, the number of studies recruited per milestone could be ~10. This is also contingent upon the Product Designer and Product Manager submitting their complete requests early enough to allow coordinators to juggle multiple recruiting efforts at once. When there are surveys that require 50+ respondents, or studies addressing new user groups or features, the number of studies recruited per milestone may be closer to 5. Those studies require sustained effort and creativity.
 

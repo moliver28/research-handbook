@@ -6,13 +6,6 @@ description: "Effective ways to apply product usage reporting for Sales and Cust
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
 ---
 
 ## Purpose
@@ -209,6 +202,7 @@ When an account has multiple GitLab instances identified as Production (Instruct
 4. To select your **primary** instance for health scoring, click on **⋮**, Edit, and click “Included in Health Score” then click "Update"
 
 **Best Practices**:
+
 1. Only have ONE instance marked as "Included in Health Measure"
 2. All Production instances are automatically marked "Included in Health Measure" unless they are marked "Opt-Out"
 3. Select "Opt-Out" rather than null, or the system may overwrite your update
@@ -295,10 +289,10 @@ When they activate with Cloud Licensing, customers share `Subscription Data`, wh
 #### What is the relationship between Cloud Licensing, Service Ping and Operational Metrics?
 
 - **Cloud Licensing**: an activation method that allows a customer to share `Subscription Data`
-   - Available on 14.1+
-   - [Cloud Licensing Overview](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/)
+  - Available on 14.1+
+  - [Cloud Licensing Overview](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/)
 - **Service Ping**: a service that collects the payload including Subscription, Operational, and Optional Metrics
-   - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) - internal handbook
+  - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) - internal handbook
 - **Operational Metrics**: a subset of Service Ping containing product usage data that is required to collect the core metrics required metrics per [Customer Success Services](https://about.gitlab.com/services/customer-success-services/))
   -. Available on 14.1+
 
@@ -418,6 +412,7 @@ Usage Statistics are received and collected weekly, and those stats are added to
 - Shows the data for the last 28 days, including the most recent usage ping date.<br>
 
 **Example:**<br>
+
 - Jan 9th ping shows data for Dec 12 - Jan 9
 - Jan 16th ping shows data for Dec 19 - Jan 16
 - Jan 23th ping shows data for Dec 26 - Jan 23
@@ -425,6 +420,7 @@ Usage Statistics are received and collected weekly, and those stats are added to
 - Since this is the final ping, January data is Jan 3 - Jan 30.
 - January data in Gainsight would include Jan 3 - Jan 30 and exclude Jan 1, 2, 31.
 - Feb 6th ping shows data for Jan 9 - Feb 6 <br>
+
 <details>
   <summary markdown="span"> Refer to the visual for example: </summary>
  ![28d Logic](https://lucid.app/publicSegments/view/0de4f2de-99f8-44a1-a47d-a7b31cab896e/image.png)

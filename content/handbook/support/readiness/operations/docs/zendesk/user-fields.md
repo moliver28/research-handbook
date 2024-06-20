@@ -53,7 +53,7 @@ are likely to need to adjust **many** user field files due to positioning.
 #### Updating an existing user field
 
 Updating an existing user field is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 The one caveat is when you are adding new `custom_field_options`, as you will

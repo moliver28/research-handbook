@@ -17,7 +17,7 @@ The Director, Business Technology Operations is a [level 10](/handbook/total-rew
 #### Director, Business Technology Operations Responsibilities
 
 - Head a multi-continent team in an all-remote Organization.
-- Build and lead a team of  technology leaders, engineers, analysts and and service management staff.
+- Build and lead a team of  technology leaders, engineers, analysts, and service management staff.
 - Create the Business Technology Strategy and roadmap, effectively defining and delivering on new SOPs, process improvements, and projects.
 - ITIL: Lead the design, implementation, and enhancement of ITIL processes like Incident, Problem, Change, Configuration, and Release Management to achieve operational excellence.
 - Business Technology Service Desk: Foster customer-centricity in business technology operations, manage a responsive service desk, focusing on end-user satisfaction. Prioritize incident resolution, escalate effectively, and strategize for optimal first-call resolution.

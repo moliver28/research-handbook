@@ -67,11 +67,11 @@ If you have any questions or require assistance with completing an access review
 ### Annual Access Review Cadence
 
 - In-scope:
-    - Quarterly Terminated User Access Reviews - system specific
-    - Quarterly Entitlement Reviews for privileged users - system specific
-    - Annual Entitlement Reviews for all users - system specific
+  - Quarterly Terminated User Access Reviews - system specific
+  - Quarterly Entitlement Reviews for privileged users - system specific
+  - Annual Entitlement Reviews for all users - system specific
 - [SOX In-Scope Appplications](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
-    - Quarterly Entitlement Reviews for all users
+  - Quarterly Entitlement Reviews for all users
 
 All components of a user access review must be completed within the time period under audit. For example, if a user access review is scheduled for Q2, all components of the review including any required actions for modification/removal and lookbacks must be completed by the end of the quarter. It would not be sufficient to have outstanding requests for modification/removal at the quarter end, regardless of the users being identified for modification/removal prior to quarter end.
 
@@ -158,7 +158,7 @@ The following fields are the most comprehensive to assist in performing a thorou
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 

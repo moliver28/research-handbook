@@ -54,15 +54,11 @@ Depending on the context here are the most appropriate ways to reach out to the 
    * **When:** Every Monday, alternating between 09:00 AM GMT+1 and 17:00 PM GMT+1
    * **What:** This meeting replaces the previous Work Assignment Meeting and focuses on refining and assigning weights to issues. The Engineering Manager and Product Manager ensure all issues are properly refined and weighted.
 
-2. **Bi-Weekly Engineering Sync**
-   * **When:** Every other Thursday, alternating between 11:00 AM GMT+1 and 18:00 PM GMT+1
-   * **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning upcoming sprints.
-
-3. **Monthly Capacity Review Meeting**
+2. **Monthly Capacity Review Meeting**
    * **When:** Once a month
    * **What:** This meeting focuses on reviewing the team's capacity, monitoring fluctuations, and reacting to any drops in capacity. It includes a review of the points completed in the past month and adjustments to estimates if necessary.
 
-4. **Think BIG sessions**
+3. **Think BIG sessions**
    * **When:** Once a month
    * **What:** This session will alternate between EMEA/AMER and APAC regions every other month, focusing on broad discussions about group dynamics and strategic planning.
 
@@ -114,9 +110,9 @@ To ensure that our developers are aware of the priority of their work, we [use t
 These guidelines apply to all issues we use for planning and scheduling work within our group. Our Engineers can define specific implementation issues when needed, but the overall goal for our issues are as follows:
 
 * Provide a meaningful **title** that describes a deliverable result.
-    * ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
-    * ✅ `Chat: move away from using OpenAI embeddings`
-    * ❌ `Make Chat better`
+  * ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
+  * ✅ `Chat: move away from using OpenAI embeddings`
+  * ❌ `Make Chat better`
 * Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
 * Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 * The issue should have a weight, milestone and workflow label assigned.
@@ -134,6 +130,10 @@ To assign weights to issues effectively, it’s important to remember that issue
 * **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant breaking down into smaller separate issues.
 * **Weight 5:** Normally, this weight should be avoided, and indicates that the issue ideally should be broken down into smaller separate issues. However, in some cases, a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn’t necessarily involve significant risk or uncertainty.
 * **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and must be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to “placeholder” issues to capture the scope of the effort in our velocity-based capacity planning calculations.
+
+## 📝 AI Feature Evaluations Guidelines - Evaluate like I am 5
+
+See the [Evaluate like I am 5](https://gitlab.com/gitlab-org/ai-powered/eli5) Project and read the docs [here](https://gitlab.com/gitlab-org/ai-powered/eli5/-/tree/main/doc?ref_type=heads).
 
 ## 👏 Communication
 

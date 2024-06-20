@@ -160,9 +160,9 @@ The prioritization framework uses an [Eisenhower Matrix](https://todoist.com/pro
 
  **Urgent** is based on forecast threshold (e.g. `100% saturation` vs. `hard SLO violation`) and **important** is based on scalable resources (e.g. `non_horizontal` vs. `horizontal`). The following resources are available for prioritization:
 
- * [Quadrant board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/boards/5273449)
- * [Issues sorted by priority](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/?sort=label_priority&state=opened)
- * [Scoped prioritized labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/labels?subscribed=&search=capacity-planning%3A%3Apriority)
+* [Quadrant board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/boards/5273449)
+* [Issues sorted by priority](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/?sort=label_priority&state=opened)
+* [Scoped prioritized labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/labels?subscribed=&search=capacity-planning%3A%3Apriority)
 
 #### Quality Assessment and User Feedback
 
@@ -221,9 +221,9 @@ While capacity planning for GitLab.com is a shared activity, capacity planning f
 
 1. The Dedicated team is responsible for defining saturation metrics Tamland monitors, and to configure tenants for capacity planning.
 1. The Dedicated team runs Tamland inside tenant environments and produces saturation forecasting data.
-1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) team owns the reporting side of capacity planning and makes sure reports and warnings are available.
+1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) owns the reporting side of capacity planning and makes sure reports and warnings are available.
 1. The Dedicated team is responsible for triaging and responding to the forecasts and warnings generated, and applying any insights to Dedicated tenant environments.
-1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) team implements new features and fixes for Tamland to aid the capacity planning process for GitLab Dedicated.
+1. The [Scalability:Observability team](/handbook/engineering/infrastructure/team/scalability/observability) implements new features and fixes for Tamland to aid the capacity planning process for GitLab Dedicated.
 
 ### Defining saturation metrics and tenants
 

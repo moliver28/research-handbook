@@ -190,7 +190,7 @@ Digitally documented design with videos is a helpful way to keep the creative ed
 
 > "In these videos, we lay out the rationale behind our designs and also offer information about other options we thought about and decided against. In certain situations, it also makes sense to add additional background about our long-term vision.
 >
-> One of the many positive outcomes from this approach is that even team members who have only been minimally involved are now empowered to provide feedback, add their own ideas, or provide us with additional information about the amount of work our ideas will require." — *[Christie Lenneville](/handbook/company/team/#CLenneville), Director of UX, GitLab*
+> One of the many positive outcomes from this approach is that even team members who have only been minimally involved are now empowered to provide feedback, add their own ideas, or provide us with additional information about the amount of work our ideas will require." — *[Christie Lenneville](/handbook/company/team/#clenneville), Director of UX, GitLab*
 
 ### Sketch workshops
 

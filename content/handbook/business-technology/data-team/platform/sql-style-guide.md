@@ -338,17 +338,17 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 - CTEs should be placed at the top of the query.
 - Where performance permits, CTEs should perform a single, logical unit of work.
 - CTE names should be as concise as possible while still being clear.
-    - Avoid long names like `replace_sfdc_account_id_with_master_record_id` and prefer a shorter name with a comment in the CTE. This will help avoid table aliasing in joins.
+  - Avoid long names like `replace_sfdc_account_id_with_master_record_id` and prefer a shorter name with a comment in the CTE. This will help avoid table aliasing in joins.
 - CTEs with confusing or notable logic should be commented in file and documented in dbt docs.
 - CTEs that are duplicated across models should be pulled out into their own models.
 
 ### Data Types
 
 - Use default data types and not aliases. Review the [Snowflake summary of data types](https://docs.snowflake.com/en/sql-reference/intro-summary-data-types.html) for more details. The defaults are:
-    - `NUMBER` instead of `DECIMAL`, `NUMERIC`, `INTEGER`, `BIGINT`, etc.
-    - `FLOAT` instead of `DOUBLE`, `REAL`, etc.
-    - `VARCHAR` instead of `STRING`, `TEXT`, etc.
-    - `TIMESTAMP` instead of `DATETIME`
+  - `NUMBER` instead of `DECIMAL`, `NUMERIC`, `INTEGER`, `BIGINT`, etc.
+  - `FLOAT` instead of `DOUBLE`, `REAL`, etc.
+  - `VARCHAR` instead of `STRING`, `TEXT`, etc.
+  - `TIMESTAMP` instead of `DATETIME`
 
     The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that the default for `TIMESTAMP` is `TIMESTAMP_NTZ` which does not include a time zone.
 

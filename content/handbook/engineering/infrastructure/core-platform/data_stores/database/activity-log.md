@@ -19,9 +19,9 @@ This page captures the database group's activity and documents the outcomes, key
 
 Starting in November 2021, we performed a migration file cleanup with these goals:
 
- - Improve the performance of GitLab CI jobs.
- - Remove maintenance cost for old migrations.
- - Improve initialization speed for new GitLab instances.
+- Improve the performance of GitLab CI jobs.
+- Remove maintenance cost for old migrations.
+- Improve initialization speed for new GitLab instances.
 
 We decided to remove all of the migration files before version 14. We implemented a script that squashed multiple migrations files into one file (`init_schema`).
 

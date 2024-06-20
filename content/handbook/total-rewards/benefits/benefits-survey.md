@@ -848,11 +848,11 @@ By demographic:
 | Other (Expanded on below.)      | 16    | 4%               |
 
 - Summary of Other responses:
-     - Plan details would matter more.
-     - Not enrolled in GitLab's plan.
-     - Reflections on the American healthcare system.
-     - Unsure how to compare.
-     - Smaller provider not listed here.
+  - Plan details would matter more.
+  - Not enrolled in GitLab's plan.
+  - Reflections on the American healthcare system.
+  - Unsure how to compare.
+  - Smaller provider not listed here.
 
 - **Canada**
 
@@ -877,7 +877,7 @@ By demographic:
 | Other (Expanded on below.)      | 3     | 20%              |
 
 - Summary of Other responses:
-     - No opinion, but would like a higher coverage level.
+  - No opinion, but would like a higher coverage level.
 
 - **United Kingdom**
 
@@ -892,8 +892,8 @@ By demographic:
 | Other (Expanded on below.)      | 22    | 45%              |
 
 - Summary of Other responses:
-     - No preference.
-     - Vitality.
+  - No preference.
+  - Vitality.
 
 1. What provider for Dental/Vision do you prefer?
 
@@ -933,9 +933,9 @@ By demographic:
 | Other (Expanded on below.) | 53    | 12%              |
 
 - Summary of Other responses:
-     - Don't utilize this benefit.
-     - Not informed enough on the choices to respond.
-     - Option not listed above.
+  - Don't utilize this benefit.
+  - Not informed enough on the choices to respond.
+  - Option not listed above.
 
 1. If GitLab were to convert you to a team member employed through an entity, what benefits would you expect to receive/are offered by most employers in your country? (select all that apply)
 

@@ -55,7 +55,7 @@ Whenever allowed by law GitLab's 16 weeks [Parental Leave policy](/handbook/tota
 
 #### Pregnancy Leave
 
-For [pregnancies with an expected due date of 4 September 2022 or later](https://www.kela.fi/quick-guide-expected-due-date-on-or-after-04-09-2022), the Finnish Social Insurance Institution (Kela) will pay pregnancy leave allowance allowance for 40 continuous working days, to start from 14 to 30 days before the estimated due date.
+For [pregnancies with an expected due date of 4 September 2022 or later](https://www.kela.fi/quick-guide-expected-due-date-on-or-after-04-09-2022), the Finnish Social Insurance Institution (Kela) will pay pregnancy leave allowance for 40 continuous working days, to start from 14 to 30 days before the estimated due date.
 
 #### Parental leave
 

@@ -29,7 +29,7 @@ There are different survey types that we run at different times throughout the y
 1. 14 On-Survey Demographic Questions
 1. 2 Open-Ended Questions
 
-**FY25 Great Place to Work Survey Results**
+<details><summary>FY25 Great Place to Work Survey Results</summary>
 
 GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 4th year in a row in the US in May 2024 and was recognized as a top employer where team members are proud to work.
 
@@ -38,7 +38,9 @@ GitLab received [Great Place to Work Certification](https://www.greatplacetowork
 
 [Read more about the survey results](https://docs.google.com/presentation/d/1Sh9Q_rPBz3vO4HgvIkC574esC2F7UI5C_g3tOjddwm0/edit#slide=id.g123a13deda8_0_405).
 
-**FY24 Great Place to Work Survey Results**
+</details>
+
+<details><summary>FY24 Great Place to Work Survey Results</summary>
 
 GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 3rd year in a row in the US in May 2023 and was recognized for our outstanding company culture.
 
@@ -47,8 +49,9 @@ GitLab received [Great Place to Work Certification](https://www.greatplacetowork
 
 [Read more about the survey results](https://docs.google.com/presentation/d/1lT6E46aDmMM8JGAdXmNJFnhoSeCBx9DstsOq-y6yFH0/edit#slide=id.g123a13deda8_0_405).
 
-<details>
-<summary>FY23 Great Place to Work Survey Result</summary>
+</details>
+
+<details><summary>FY23 Great Place to Work Survey Result</summary>
 
 GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 2nd year in a row in the US in December 2021 and was recognized for our outstanding company culture.
 
@@ -704,4 +707,3 @@ GitLab used McKinsey & Company’s [Organizational Health Index "OHI"](https://w
 We’ve summarized high level results of the OHI survey for all GitLab team members in [this document](https://docs.google.com/presentation/d/1B-T8TUcuidyIwbcpih01id2-TxZpE6D91Xt6w3z0uIw/edit?usp=sharing).
 
 The document linked above is only available to GitLab team members.
-</details>

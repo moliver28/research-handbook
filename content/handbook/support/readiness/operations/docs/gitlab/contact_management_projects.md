@@ -148,7 +148,7 @@ You then need to create a new webhook using the following information:
 
 - URL:
   `https://ops.gitlab.net/api/v4/projects/619/ref/master/trigger/pipeline?token=TOKEN&variables[PROJECT_ID]=PROJECT_ID`
-  - Replace TOKEN with the Contact Sync Token found within the Support Ops Vault
+  - Replace TOKEN with the Contact Management Project Token found within the Support Ops Vault
     in 1Password.
   - Replace PROJECT_ID with the project's ID.
 - Click the bubble next to `Mask portions of URL`
@@ -197,7 +197,7 @@ contact's email. Both are required, so if you do not know the `NAME_OF_CONTACT`,
 use the `EMAIL_OF_CONTACT` value.
 
 An example of a working and valid contacts.yaml can be found
-[here](https://gitlab.com/support/zd-global-orgs/organization-380989798980/-/blob/master/contacts.yaml).
+[here](https://gitlab.com/support/zd-global-orgs/aaa-jason-test-setup-zzz/-/blob/master/contacts.yaml).
 
 You should ensure the contacts listed matching what the Zendesk organization
 *currently* has in place.
@@ -212,9 +212,7 @@ You should have a list of who to invite from your previous work in the ticket.
 
 To invite the users, do the following:
 
-1. Click `Project information` on the top-left hand side of the page
-1. Click `Members` on the top-left hand side of the page (under
-   `Project information`)
+1. Select `Manage > Members` from the menu in the left hand side of the page
 1. Click the blue `Invite members` button at the top-right hand side of the page
 1. Enter the email(s) to use under the `Username or email address` text box
 1. Under `Select a role`, select `Developer`
@@ -307,3 +305,15 @@ terms of customer experience.
 
 If this happens repeatedly to the same customer, consider reaching out to their
 Account Manager regarding it.
+
+#### Pipeline failed due to "Unable to create user"
+
+This reflects a Zendesk caching issue. It normally is a problem indicating that
+the user *was* created but the response from the creation task didn't render
+properly via the API. You can normally wait 5 or so minutes and then re-run the
+pipeline to resolve this problem. If you continue seeing issues:
+
+- Create the user manually
+- Associate the user to the org manually
+- Wait 5 minutes
+- Run a new sync by triggering the webhook on the project

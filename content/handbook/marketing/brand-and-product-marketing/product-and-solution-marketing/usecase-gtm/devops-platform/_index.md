@@ -72,7 +72,6 @@ For Kennedy, the most important benefit of a DevOps Platform delivered as a sing
 
 Both buyer personas are also secondary user personas. While their day-to-day tasks may not revolve around the DevOps lifecycle, the collaboration and broad visibility the DevOps Platform provides will offer benefit to all adjacent roles. For example, a Product Management executive may not have historically engaged with developers, but the DevOps Platform's ability to provide a value stream view of the product roadmap's execution may encourage the executive to engage more, help discover and remove blockers, and otherwise become more collaboratve.
 
-
 ## Discovery questions
 
 The suggested discovery questions below are meant to help you uncover opportunities when speaking with prospects or customers who are not currently using GitLab or are only using GitLab as a point solution, and not experiencing the full value of an end-to-end platform.
@@ -94,7 +93,6 @@ Don’t try to use them all—just those most relevant to your customer that wil
 3. **What if your security teams, business stakeholders, and others had access to all the information they needed on-demand?** This paints a very clear picture of both the benefits of collaboration and the extent to which a DevOps Platform can broaden engagement beyond developers and operations. It can reveal a desire to get more people included in the conversation.
 4. **What if you could track all your discussions, the code changes that resulted from them, the performance and security impact of those changes, and all the collaboration around them--in one place, automatically?** This is similar to the question above, but more appropriate for a compliance-minded or frequently audited organization.
 5. **What would you do if you could reclaim the time you spend integrating and maintaining your DevOps toolchain?** This provides the customer an opportunity to discuss what true success would look like if given the opportunity to rise above task work. This is the kind of transformational success a DevOps Platform can enable by freeing resources to work on more business-productive value.
-
 
 ## Potential Objections
 
@@ -140,7 +138,6 @@ One common set of pain points solved by the DevOps Platform involves the ineffic
 - Productivity lost to context switching: Even in a fully-integrated toolchain, moving from one set of tools to another creates a measurable dip in productivity, compounded by each additional tool in a toolchain. Industry experts such as Forrester have [noted the benefits of platforms in reducing this cost](https://www.forrester.com/report/accelerate-sustainable-innovation-with-platforms/) (please contact Analyst Relations for more information on this or other reports).
 - Productivity lost to hard limitations: In many cases, DevOps toolchains are created by chaining together disparate tools that were never designed to work in concert, or in the ways modern organizations demand. In some cases, APIs mauy simply not offer access to necessary data, or organizations may need to embed sub-optimal workarounds into their toolchain to assemble necessary information.
 
-
 ### Business agility and innovation
 
 The greater cost of operational inefficiencies is business agility.
@@ -153,7 +150,7 @@ The greater cost of operational inefficiencies is business agility.
 | Differentiator | Value | Proof Point  |
 |-----------------|-------------|---------------|
 | **A Complete DevOps Platform delivered as a single Application** | A single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity. | [DevOps Platform with GitLab](https://www.youtube.com/watch?v=2aJnWkzAwks) |
-| **End-to-End Visibility** | GitLab's common data model enables enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically. | [Deliver More Value and Fewer Headaches with an End-to-End DevOps Platform](https://youtu.be/wChaqniv3HI) |
+| **End-to-End Visibility** | GitLab's common data model enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically. | [Deliver More Value and Fewer Headaches with an End-to-End DevOps Platform](https://youtu.be/wChaqniv3HI) |
 | **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](https://about.gitlab.com/install/) |
 
 ## Required capabilities
@@ -205,17 +202,21 @@ In their [Market Guide for DevOps Value Stream Delivery Platforms](https://page.
 GitLab believes this indicates that the market for a DevOps platform delivered as a single application will grow much faster than the DevOps market as a whole.
 
 ### Case Studies
+
 - [BI Worldwide](https://about.gitlab.com/customers/bi_worldwide/) removed technology barriers to focus on building microservices.
+
 > One tool for SCM+CI/CD was a big initial win. Now wrapping security scans into that tool as well has already increased our visibility into security vulnerabilities. The integrated Docker registry has also been very helpful for us. Issue/Product management features let everyone operate in the same space regardless of role.
 >
 > Adam Dehnel, Product Architect, BI Worldwide
 
 - [Glympse](https://about.gitlab.com/customers/glympse/) consolidated ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience
+
 >Development can move much faster when engineers can stay on one page and click buttons to release auditable changes to production and have easy rollbacks; everything is much more streamlined. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab’s CI templates and their pre-existing Docker-based deployment scripts.
 >
 >Zaq Wiedmann, Lead Software Engineer, Glympse
 
 - [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) improves from bi-monthly builds to over a thousand per day
+
 > GitLab has allowed us to dramatically increase the velocity of development in our Engineering Division. We believe GitLab’s dedication to helping enterprises rapidly and effectively bring software to market will help other companies achieve the same sort of efficiencies we have seen inside Goldman Sachs. We now see some teams running and merging 1000+ CI feature branch builds a day!
 >
 > Andrew Knight, Managing Director, Goldman Sachs
@@ -233,7 +234,6 @@ When viewed through the lens of "the most comprehensive suite of end-to-end func
 
 For a list of analysts with a current understanding of GitLab's capabilities for this use case, please reach out to Analyst Relations via Slack (#analyst-relations) or by submitting an [issue](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new) and selecting the "AR-Analyst-Validation" template.
 
-
 ## Professional Service Offers
 
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
@@ -245,15 +245,18 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 ## Resources
 
 ### Presentations
+
 - [GitLab Enterprise DevOps Platform Customer Deck](https://docs.google.com/presentation/d/1vtFnh8DU6ZZzASTHg83UrhM6LJWqo5lq9mJDAY2ILpw/edit)
 
 ### DevOps Platform videos
+
 - [Deliver more value with fewer headaches using an end-to-end DevOps platform](https://youtu.be/wChaqniv3HI)
 - [Benefits of a single application](https://www.youtube.com/watch?v=MNxkyLrA5Aw)
 - [GitLab in 3 minutes](https://www.youtube.com/watch?v=Jve98tlZ394)
 - [Auto DevOps Click Through Demo Video](https://youtu.be/V_6bR0Kjju8?t=315)
 
 ### Clickthrough & Live Demos
+
 - [All Marketing Click Through Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#click-throughs)
 - [All Marketing Live Demos](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#live-instructions)
 
@@ -265,4 +268,3 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 
 Sometimes customers and prospects have unique requirements, often around using an preferred scanning tool to integrating with some other part of their tool chain. If you or your customer has a third party they'd like to see integrated into GitLab, send them to the [partner integration page](https://about.gitlab.com/partners/technology-partners/integrate/) for instructions. While GitLab can be a single platform to meet all of their needs, often they need an on-ramp to help them transition or proof of the integration before purchasing GitLab. The resources below may help.
 **NOTE:** Please do not use these to put GitLab in the position where users expect us to support a 3rd-party product integration that we do not [officially recognize](https://about.gitlab.com/partners/technology-partners/).
-

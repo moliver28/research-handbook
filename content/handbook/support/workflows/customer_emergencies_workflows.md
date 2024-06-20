@@ -531,8 +531,8 @@ If a non-24x7 eligible customer submits an emergency case outside the [working h
 
 Team members who are working after the 12x5 hours may opt to provide support for customers who are having a production incident at the engineer's own discretion. When addressing these it is important to ensure the following is clear with the customer:
 
-   - They are not entitled to 24x7 support based on their subscription
-   - Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
+- They are not entitled to 24x7 support based on their subscription
+- Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
 
 The responding engineer should also add their manager as a follower and indicate in an internal note that after hours support is being provided. This will help ensure the appropriate follow-up occurs with the customer's account team.
 

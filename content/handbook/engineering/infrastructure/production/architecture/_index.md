@@ -46,8 +46,7 @@ The compute and network layout that runs GitLab.com
 
 [Source](https://docs.google.com/drawings/d/1NmafL3ULQnjuY3_JFMWDwXpjdd0I1hyMXkZ0bwUYNhI/edit), GitLab internal use only
 
-Most of GitLab.com is deployed on Kubernetes using  [GitLab cloud native helm
-chart](https://docs.gitlab.com/charts/). There are a few exceptions for this
+Most of GitLab.com is deployed on Kubernetes using  [GitLab cloud native helm chart](https://docs.gitlab.com/charts/). There are a few exceptions for this
 which are mainly the datastore services like `PostgresSQL`, `Gitaly`, `Redis`, `Elasticsearch`.
 
 ##### Cluster Configuration {#cluster-configuration }

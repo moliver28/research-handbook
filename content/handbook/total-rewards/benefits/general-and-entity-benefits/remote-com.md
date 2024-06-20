@@ -104,6 +104,14 @@ Team members in Denmark can also access the [public healthcare system](https://w
 
 Team members can expense up to $250 for eye examination and glasses if they require corrective eyeware to work at a computer screen for extended periods of time. (Login required to see [policy](https://support.remote.com/hc/en-us/articles/20050865403149-Screen-Work-Eye-Examination))
 
+### Eye Examination and Corrective Lenses
+
+Team Members who spend a significant portion of their working hours in front of a screen are entitled to receive an eye and vision examination. This examination should be conducted by either an optician or an ophthalmologist. The employer is responsible for covering the cost of this examination, and every effort should be made to schedule it during regular working hours.
+
+In cases where the Team Member requires corrective eyewear, the employer is obligated to provide, at a minimum, one standard frame with lenses or standard contact lenses at no expense to the Team Member.
+
+Remote has implemented a self-service model to facilitate this process, with a budget allocation of $250 USD to cover frame with lenses or standard contact lenses. This approach allows employees to independently arrange their eye examinations, purchase necessary eyeglasses, and then submit their expenses for reimbursement through the Remote platform.
+
 ### Pension
 
 Remote will directly contribute to a Group Pension Plan (Soderberg & Partners). The team member will contribute 4% of the monthly base salary, with the Employer contributing 8% of the team members monthly base salary. The contribution to the pension savings plan will be paid directly into the pension plan in conjunction with the Employer’s payment of the monthly salary to the team member.
@@ -278,10 +286,10 @@ Under the Remote Technology scheme, the employer and member both pay **5% each t
 
 - Sum insured of the Group Life Cover will be 4 times of the annual salary.
 - The primary protection offered by group life cover is as follows:
-    - Provide for living expenses for surviving dependants
-    - Extinguish debt
-    - Protect the lifestyle of the surviving dependants
-    - Fund for the education costs of the surviving children
+  - Provide for living expenses for surviving dependants
+  - Extinguish debt
+  - Protect the lifestyle of the surviving dependants
+  - Fund for the education costs of the surviving children
 - Upon the death of the member, spouse or child, a benefit payment equal to the amount of the Funeral Cover will be made.
 - The sum assured for this benefit is up to R30,000
 - This benefit is 100% contributed and covered by Remote.
@@ -497,9 +505,9 @@ The family allowance is not paid out automatically, it must be applied for.
 All workers employed in Mexico must be registered with and contribute to the following institutions that deal with different social security insurance benefits:
 
 - Mexican Institute of Social Security (IMSS):
-    - Provides medical services, child day care, accident and sickness compensation, pregnancy benefits and disability pensions
+  - Provides medical services, child day care, accident and sickness compensation, pregnancy benefits and disability pensions
 - National Workers’ Housing Fund Institute (INFONAVIT):
-    - Provides subsidized housing to employees as well as loans, and the Retirement Savings Program (SAR). SAR provides employees with retirement benefits when they reach 65 years of age.
+  - Provides subsidized housing to employees as well as loans, and the Retirement Savings Program (SAR). SAR provides employees with retirement benefits when they reach 65 years of age.
 
 Employees in Mexico are covered by the Social Security Law, under IMSS who is responsible for administering social security insurance benefits and the collection of contributions.
 
@@ -579,7 +587,7 @@ Below is the information related to Mexico's statutory leave policies.  Please n
 
 - 12 weeks of the team member's Maternity Leave will be paid by the Mexican Social Security Institute (MSSI).
 - GitLab Parental Leave Pay Calculations: If [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), pay will be supplemented up to 100% minus any MSSI payments received for up to 16 weeks of leave.
-    - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
+  - For example: if the team member receives  80% of their pay from MSSI payments, Remote will provide the remaining 20% of their pay following the normal payroll calendar.
 
 ##### Paternity Leave Payment
 

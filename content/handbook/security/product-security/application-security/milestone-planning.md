@@ -92,6 +92,21 @@ These issues must be labeled with the appropriate AppSecRotation label:
 | Security Release | `AppSecWorkType::ReleaseRotation` |
 | Federal AppSec VAT | `AppSecWorkType::VATRotation` |
 
+## Milestone Planning Refinement Guidelines
+
+- Is the problem clearly defined or is more followup/data needed?
+- Is the scope too large to be completed within the milestone? Does the issue need to be broken down into smaller ones or promoted to an epic instead?
+- For projects and net-new intiatives, is the scope and Definition of Done clear and measurable? Is it clear what's expected?
+- Does it have at least one DRI assigned and are they aware?
+- Are there dependencies? If so, document them.
+- Are there other stakeholders and are they looped in and aware?
+- Is the correct `AppSecWorkType::` label set?
+- Is the `AppSecWeight::` label set?
+- Does it have the `team::Application Security` label?
+- Across the whole milestone, is the total operational + project weight achievable?
+
+When issue is fully refined, please set the `AppSecWorkflow:planned` label, indicating it's ready to be worked on in the assigned milestone.
+
 ### Unplanned work
 
 Sometimes high-priority and/or urgent work comes up after a milestone starts. When an unplanned issue is added after the milestone began:

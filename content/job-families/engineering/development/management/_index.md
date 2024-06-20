@@ -32,7 +32,7 @@ The Senior Engineering Manager, Development is a [grade 9](/handbook/total-rewar
 - Technical credibility: Past experience as a product engineer and leading teams thereof
 - Management credibility: Past experience (3 to 5 years) as an engineering manager
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
 - Ability to use GitLab
@@ -65,7 +65,7 @@ The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/
 - Experience managing managers
 - Agile project management skills
 - Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
+- Demonstrate longevity at, at least, one recent job
 - Ability to be successful managing at a remote-only company
 - Humble, servant leader
 

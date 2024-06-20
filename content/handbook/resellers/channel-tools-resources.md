@@ -81,7 +81,7 @@ Select Partners may be eligible for [Marketing Development Funds, or MDF,](/hand
 
 #### Requesting Marketing Development Funds
 
-Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/Channel-Program-Guide/MDF/) page or login to the [Partner Portal](https://partners.gitlab.com/prm/English/c/marketing) marketing development funds page.
+Our Select Partners are eligible to submit requests for consideration for marketing development funds (MDF). To learn more, check out our [MDF handbook page](/handbook/resellers/Channel-Program-Guide/MDF/) or login to the [Partner Portal](https://partners.gitlab.com/prm/English/c/marketing) marketing development funds page.
 
 ### **GitLab Branded Item Requests**
 

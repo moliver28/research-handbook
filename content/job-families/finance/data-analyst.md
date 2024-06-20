@@ -126,7 +126,7 @@ The responsibilities of the Senior Data Analyst extend the Data Analyst (Interme
 The requirements of the Senior Data Analyst extend the Data Analyst (Intermediate) role and include:
 
 - 6+ years experience in an analytics role or equivalent experience/training
-- Fluent in all Data Analysis technologies defined in in the [Data Team Platform](/handbook/business-technology/data-team/platform/)
+- Fluent in all Data Analysis technologies defined in the [Data Team Platform](/handbook/business-technology/data-team/platform/)
 - Recognized expert in SQL, Data Visualization and Business Intelligence
 - Own and maintain one or more sections of the [Data Catalog](/handbook/business-technology/data-team/data-catalog/)
 - Own and maintain one or more sections of the [Trusted Data Framework](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework)  for a specified Trusted Model

@@ -138,13 +138,13 @@ Like the handbook, issues and epics should be public by default. If an issue or 
 Working Groups should leverage issues and epics in the projects, groups, and sub-groups that drive maximum efficiency. For Working Groups operating within the [GitLab.com](https://gitlab.com/gitlab-com) group on GitLab company related projects, the following resources are available:
 
 - Per Working Group scoped labels
-    - `WorkingGroup::<NewWorkingGroupName>`
+  - `WorkingGroup::<NewWorkingGroupName>`
 - [Working Group status labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=wg-status) for tracking status of issues and epics
-    - `wg-status::Not Started`
-    - `wg-status::Ready`
-    - `wg-status::In Progress`
-    - `wg-status::Blocked`
-    - `wg-status::Complete`
+  - `wg-status::Not Started`
+  - `wg-status::Ready`
+  - `wg-status::In Progress`
+  - `wg-status::Blocked`
+  - `wg-status::Complete`
 - [working-groups](https://gitlab.com/gitlab-com/working-groups) subgroup for organizing per Working Group issues, epics, and projects
 
 ### Communicating status, updates, and changes
@@ -201,11 +201,10 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 ## Active Working Groups (alphabetic order)
 
-1. [17.0 Major Release]({{< ref "17-0-major-release" >}})
+1. [Major Releases]({{< ref "major-releases" >}})
 1. [Account Escalation Process]({{< ref "account-escalation-process" >}})
 1. [Automotive Development]({{< ref "automotive-development" >}})
 1. [AWS/GCP Partnerships](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/11)
-1. [Bounded Contexts]({{< ref "bounded-contexts" >}})
 1. [Category Leadership]({{< ref "category-leadership" >}})
 1. [CI/CD Build Speed time-to-result]({{< ref "ci-build-speed" >}})
 1. [Continue to win against GitHub and ship AI features]({{< ref "yearlies" >}})
@@ -220,10 +219,8 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [GitLab Dedicated]({{< ref "gitlab-dedicated" >}})
 1. [GitLab.com Disaster Recovery]({{< ref "disaster-recovery" >}})
 1. [Government Support Offerings (Internal only)](https://internal.gitlab.com/handbook/company/internal-working-groups/govt-support-offerings/)
-1. [Inclusive Practices]({{<ref "inclusive-practices" >}})
 1. [Issue Prioritization Framework]({{< ref "issue-prioritization-framework" >}})
 1. [Learning Experience]({{< ref "learning-experience" >}})
-1. [Lighthouse Metric Definitions]({{< ref "lighthouse-metric-definitions" >}})
 1. [Modern Applications Go-To-Market]({{< ref "modern-applications-gtm" >}})
 1. [Product Accessibility]({{< ref "product-accessibility" >}})
 1. [Revenue Globalization]({{< ref "globalization" >}})
@@ -237,6 +234,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [AI Integration]({{< ref "ai-integration" >}})
 1. [API Vision]({{< ref "api-vision" >}})
 1. [Architecture Kickoff]({{< ref "architecture-kickoff" >}})
+1. [Bounded Contexts]({{< ref "bounded-contexts" >}})
 1. [Category Leadership](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/10)
 1. [China Service]({{< ref "china-service" >}})
 1. [CI Queue Time Stabilization]({{< ref "ci-queue-stability" >}})
@@ -314,6 +312,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Usage Reporting](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/1)
 1. [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794)
 1. [Webpack (Frontend build tooling)]({{< ref "webpack" >}})
+1. [Lighthouse Metric Definitions]({{< ref "lighthouse-metric-definitions" >}})
 
 ## What were Top Cross-Functional Initiatives?
 

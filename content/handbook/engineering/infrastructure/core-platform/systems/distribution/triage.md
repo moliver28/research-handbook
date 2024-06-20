@@ -44,13 +44,13 @@ During triage additional labels should be added to indicate what part of the pro
 
 Issues for triaging can be identified using the following criteria:
 
-  * They have no milestone
-  * They have no assignee
-  * They do **not** have any of the following labels applied:
-    * `awaiting feedback`
-    * `for scheduling`
-    * `maintainer-discussion`
-    * `needs investigation`
+* They have no milestone
+* They have no assignee
+* They do **not** have any of the following labels applied:
+  * `awaiting feedback`
+  * `for scheduling`
+  * `maintainer-discussion`
+  * `needs investigation`
 
 Such issues can be listed using the [issues filter](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&assignee_id=None&milestone_title=None&not[label_name][]=For%20Scheduling&not[label_name][]=awaiting%20feedback&not[label_name][]=maintainer-discussion)
 
@@ -67,8 +67,7 @@ triage duty can be summarized as follows
 1. We follow the policy of closing an issue if it has been 14 days since
    `awaiting feedback` label was added and no response was received from
    submitter. Check out the issue list with `awaiting feedback` label for such
-   issues and close them with the ["for issues with no reply"
-   response](#for-issues-with-no-reply).
+   issues and close them with the ["for issues with no reply" response](#for-issues-with-no-reply).
 1. Check out the issues to be triaged and assign [appropriate labels](#label-glossary) to them.
    While it is normal for some issues to demand a bit of research to get to the
    bottom, do keep in mind issue triaging need not end up in issue resolution.
@@ -84,11 +83,9 @@ triage duty can be summarized as follows
 1. If an issue doesn't deal with the code base or work flow of the project
   but is more of a request for help for
    installing/configuring/troubleshooting a GitLab instance, close the issue
-   using the ["problems not related to package installation and
-   configuration" response](#for-problems-not-related-to-the-gitlab-codebases).
+   using the ["problems not related to package installation and configuration" response](#for-problems-not-related-to-the-gitlab-codebases).
 1. If an issue doesn't have all necessary information to successfully triage the
-   issue, request the information using the ["issues that lack enough
-   information" response](#for-issues-that-lack-enough-information) and
+   issue, request the information using the ["issues that lack enough information" response](#for-issues-that-lack-enough-information) and
    add the `awaiting feedback` label.
 1. If an issue couldn't be triaged in reasonable time, add the `needs investigation`
    label to it.
@@ -126,10 +123,6 @@ triage duty can be summarized as follows
    you think something should be changed regarding the process. Also, create a
    similar header for the next presenter as an agenda item for the next week's
    meeting in the meeting doc.
-1. Close the meta issue.
-1. Create a new meta issue for the next team member on triage duty, and assign
-   them to it. The issue title should be `Issue triage rotation week of <starting
-   date>`. Use the `Triage` template to fill in the description.
 
 #### Response templates
 

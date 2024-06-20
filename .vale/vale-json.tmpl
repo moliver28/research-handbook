@@ -1,0 +1,43 @@
+{{- /* Modify Vale's output https://docs.errata.ai/vale/cli#--output */ -}}
+
+{{- $fileIndexes := len .Files -}}
+{{- $fileIndexes = sub $fileIndexes 1 -}}
+
+[
+  {{- /* Range over the linted files */ -}}
+  {{- range $idx1, $a := .Files -}}
+    {{- $path := .Path -}}
+
+    {{/* Range over the file's alerts */}}
+    {{- range $idx2, $b := .Alerts -}}
+      {{- $error := "info" -}}
+      {{- if eq .Severity "error" -}}
+        {{- $error = "blocker" -}}
+      {{- else if eq .Severity "warning" -}}
+        {{- $error = "major" -}}
+      {{- end}}
+
+      {{- /* Variables setup */ -}}
+      {{- $loc := printf "%d" .Line -}}
+      {{- $message := printf "%s" .Message -}}
+      {{- $check := printf "%s" .Check -}}
+      {{- $link := printf "%s" .Link -}}
+      {{- if $idx2 -}},{{- end -}}
+
+  {{/* Output */}}
+  {
+    "rule": "{{ $check }}",
+    "description": "{{ $message }}",
+    "fingerprint": "{{ $path }}-{{ $loc }}",
+    "severity": "{{ $error }}",
+    "location": {
+      "path": "{{ $path }}",
+      "lines": {
+        "begin": {{ $loc }}
+      }
+    },
+    "link": "{{ $link }}"
+  }
+    {{- end}}{{- if (lt $idx1 $fileIndexes) -}},{{- end -}}
+  {{- end}}
+]

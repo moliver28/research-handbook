@@ -38,7 +38,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 1. Detection
     - The SIRT, other internal, or external entity identifies a Security or Privacy Event that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may the result of an innocent error
     - One of our Security detection controls identifies event outside of the established security baseline
-    - A security issue is [escalated into an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) as a preventative measure
+    - A security issue is [escalated into an incident](/handbook/security/#reporting-vulnerabilities-and-security-issues ) as a preventative measure
 1. Analysis
     - SIRT determines whether the reported security or privacy event is in actuality security or a privacy event
     - SIRT determines the incident severity and priority based on the following [incident classification]({{< ref "severity-matrix" >}}) methodology
@@ -70,9 +70,9 @@ A **confidential** issue means any data within the issue and any discussions abo
 
 ### Incident Tracking
 
-Security incident investigations must begin by opening a new project and associated incident-type issue in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project should be created using the [Incident Response project template](https://gitlab.com/gitlab-sirt/project-templates/Incident-template). The created issue will be used as tracking issue, and will be the primary location where all work and resulting data collection will reside throughout the investigation. If you would like to report an incident but do not have access to the SIRT group, please refer to the [Engaging the Security Engineer On-Call page]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}).
+Security incident investigations must begin by opening a new project and associated incident-type issue in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project should be created using the [Incident Response project template](https://gitlab.com/gitlab-sirt/project-templates/Incident). The created issue will be used as tracking issue, and will be the primary location where all work and resulting data collection will reside throughout the investigation. If you would like to report an incident but do not have access to the SIRT group, please refer to the [Engaging the Security Engineer On-Call page]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}).
 
-All artifacts from an investigation must be handled per the [Artifact Handling and Sharing](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/external_requests/handling_and_sharing_artifacts.md) internal only runbook.
+All artifacts from an investigation must be handled per the [Artifact Handling and Sharing](https://internal.gitlab.com/handbook/security/security_operations/sirt/operations/artifacts_handling_sharing/) internal only runbook.
 
 **NOTE:** The tracking issue, any collected data, and all other engagements involved in a Security Incident must be kept **strictly confidential**.
 
@@ -81,16 +81,16 @@ All artifacts from an investigation must be handled per the [Artifact Handling a
 Assigning severity to an incident isn't an exact science and it takes some rational concepts mixed with past experiences and gut feelings to decide how bad a situation may be. When considering severity, look at:
 
 - The type of data involved and how it's classified using the [Data Classification Policy]({{< ref "data-classification-standard" >}})
-    - Was this data leaked or disclosed to parties who should not have visibility to it?
-    - Has the data been modified in our records? (either confirmed or believed to be)
+  - Was this data leaked or disclosed to parties who should not have visibility to it?
+  - Has the data been modified in our records? (either confirmed or believed to be)
 - Was a user or service account taken over?
-    - What level of access did this account have and to what services or hosts?
-    - What actions were taken by the compromised account?
+  - What level of access did this account have and to what services or hosts?
+  - What actions were taken by the compromised account?
 - If a vulnerability is present on a host or service, consider the impact it might have on GitLab and the likelihood of it being exploited by using the [Risk Factors and Risk Scoring]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}) documentation.
-    - Was the vulnerability exploited? If so, how was it used and how frequently?
+  - Was the vulnerability exploited? If so, how was it used and how frequently?
 - What is the scope of the incident?
-    - How many GitLab.com users were/may have been impacted?
-    - How many hosts or services?
+  - How many GitLab.com users were/may have been impacted?
+  - How many hosts or services?
 - Has this incident resulted in any hosts or services being unavailable?
 
 To help place the correct severity rating on the incident you are about to submit, please refer to the [Incident Classification]({{< ref "severity-matrix" >}}) page.
@@ -99,12 +99,12 @@ To help place the correct severity rating on the incident you are about to submi
 
 Coordinate with internal teams and prepare for the incident investigation:
 
-- Open an incident-focused Slack channel to centralize non-verbal discussion, particularly if the incident is of a sensitive nature. This should follow the naming convention `#sirt_####` where #### is the GitLab issue number in the SIRT project.
-- Pin a link to the SIRT Zoom conference bridge to the Slack channel's topic and invite all available parties to this call for easier discussion.
+- Open an incident-focused Slack channel to centralize non-verbal discussion, particularly if the incident is of a sensitive nature. This can be done by using `/sirt_escalate` in slack.
+- Invite all required stakeholders to the channel. Use the channel and the SIRT Zoom conference bridge for confidential discussions.
 - If a different high-severity incident is already in progress, create a new Zoom conference call and pin it to the incident Slack channel's topic. Invite all available parties to this call for easier discussion.
 - If the incident was created by the security pager, a Google Drive folder and shared Google Doc should have been created automatically and linked to the issue. If the incident was created manually:
-    - Set up a [shared Google Drive folder or GCS bucket](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/external_requests/handling_and_sharing_artifacts.md#storing-and-sharing-files-using-google-cloud-storage) for centralized storage of evidence, data dumps, or other pieces of critical information for the incident.
-    - Try to capture significant thoughts, actions, and events in the incident issue as they're unfolding. This will simplify potential hand-offs and an eventual Incident Review of the incident.
+  - Set up a [shared Google Drive folder or GCS bucket](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/external_requests/handling_and_sharing_artifacts.md#storing-and-sharing-files-using-google-cloud-storage) for centralized storage of evidence, data dumps, or other pieces of critical information for the incident.
+  - Try to capture significant thoughts, actions, and events in the incident issue as they're unfolding. This will simplify potential hand-offs and an eventual Incident Review of the incident.
 
 In the event that an incident needs to be escalated within GitLab, the Security Engineer On Call (SEOC) will page the Security Incident Manager On Call (SIMOC). It is the responsibility of the SIMOC to direct response activities, gather technical resources from required teams, coordinate communication efforts with the Communications Manager On Call, and further escalate the incident as necessary.
 
@@ -127,7 +127,7 @@ The first step in this process is to identify impacted resources and determine a
 
 It's important to remember the containment phase is typically a stop-gap measure to limit damage and not to produce a long term fix for the underlying problem. Additionally the impact of the mitigation on the service must be weighed against the severity of the incident.
 
-When triaging `priority::1/severity::1` incidents there may be times that SIRT or Infrastructure are unable to mitigate an issue, or identify the full impact of a potential mitigation. In these cases the [Development Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) can be used to engage with the development team on-call. It is important that this process is followed [as documented](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#process-outline) and only for `priority::1/severity::1` issues.
+When triaging `priority::1/severity::1` incidents there may be times that SIRT or Infrastructure are unable to mitigate an issue, or identify the full impact of a potential mitigation. In these cases the [Development Escalation Process](/handbook/engineering/development/processes/infra-dev-escalation/process/) can be used to engage with the development team on-call. It is important that this process is followed [as documented](/handbook/engineering/development/processes/infra-dev-escalation/process/#process-outline) and only for `priority::1/severity::1` issues.
 
 ### Remediation and Recovery
 
@@ -172,11 +172,10 @@ Incident delineator `Incident` denotes that an issue should be considered an inc
 
 | **`Incident::Phase`**              | What stage is the incident at? |
 | ---------------------------------- | ------------------------------ |
-| `Incident::Phase::Identification`  | Incident is currently being triaged (log dives, analysis, and verification) |
-| `Incident::Phase::Containment`     | Limiting the damage (mitigations being put in place) |
-| `Incident::Phase::Eradication`     | Cleaning, restoring, removing affected systems, or otherwise remediating findings |
+| `Incident::Phase::Created`         | Incident just has been created and has not been triaged yet |
+| `Incident::Phase::Active`          | Incident started being triaged (log dives, analysis, verification, Eradication and Containment) |
 | `Incident::Phase::Recovery`        | Testing fixes, restoring services, transitioning back to normal operations |
-| `Incident::Phase::Incident Review` | The incident review process has begun (required for all S1/P1 incidents) |
+| `Incident::Phase::Report`          | Incident is done and is ready for management review |
 
 | **`Incident::Category`**                    | What is the nature of the incident? |
 | ------------------------------------------- | ----------------------------------- |
@@ -207,11 +206,6 @@ Incident delineator `Incident` denotes that an issue should be considered an inc
 | `Incident::Organization::end-user-devices` | Team member devices |
 | `Incident::Organization::EnterpriseApps`   | Other enterprise apps not defined here (Zoom, Slack, etc) |
 
-| **`Incident::Source`**       | How did SIRT learn of the incident? |
-| ---------------------------- | ----------------------------------- |
-| `Incident::Source::External` | An external source (such as a GitLab.com customer) |
-| `Incident::Source::Internal` | An internal source (such as a finding by a team member) |
-
 | **`Incident::Origin`**                  | How did GitLab learn of the incident? |
 | --------------------------------------- | ------------------------------------- |
 | `Incident::Origin::Email`               | Reported via email |
@@ -237,16 +231,17 @@ We currently track several labels specific to phishing-related incidents:
 
 | **`Phishing::Category`**            | What type of phishing attack? |
 | ----------------------------------------- | ----------------------------- |
-| `Phish_Target::Compromise`  | Denotes the attempt of having the user install an unwanted application. |
-| `Phish_Target::Credentials`  | Denotes phishing attacks that try to collect credentials. |
-| `Phish_Target::Financial`  | Denotes phishing attacks that have a clear financial goal. |
-| `Phish_Target::Invalid`  | Denotes a situation where there is no phishing goal possible. |
-| `Phish_Target::Simulation`  | Denotes phishing emails that are part of an internal phishing simulation campaign. |
-| `Phish_Target::Spam`  | A spam email that has been reported as phishing. |
+| `Phish_Conclusion::Compromise`  | Denotes the attempt of having the user install an unwanted application. |
+| `Phish_Conclusion::Credentials`  | Denotes phishing attacks that try to collect credentials. |
+| `Phish_Conclusion::Financial`  | Denotes phishing attacks that have a clear financial goal. |
+| `Phish_Conclusion::Invalid`  | Denotes a situation where there is no phishing goal possible. |
+| `Phish_Conclusion::Simulation`  | Denotes phishing emails that are part of an internal phishing simulation campaign. |
+| `Phish_Conclusion::Spam`  | A spam email that has been reported as phishing. |
+| `Phish_Conclusion::legitimate` | A legitimate email that has been reported as phishing. |
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

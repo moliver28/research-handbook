@@ -88,17 +88,17 @@ The calibration agenda will consist of the following for each candidate:
 
 1. General Information
 
-  - Promotion Doc Peer Reviewer(s)
-  - Link to GitLab Profile
+   - Promotion Doc Peer Reviewer(s)
+   - Link to GitLab Profile
 
 1. Core accomplishments (list 2)
 1. Improvement areas (list 2)
 
-  - The promotion document outlines strengths, but we also want to highlight how we will support a team member's development areas at the next level.
+   - The promotion document outlines strengths, but we also want to highlight how we will support a team member's development areas at the next level.
 
 1. Cross-functional Feedback
 
-  - As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
+   - As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
 
 1. Questions/feedback?
 
@@ -315,7 +315,7 @@ The shared services and components below are extracted from the GitLab [product 
 | NGINX |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 | Object Storage |  | Centralized with Specific Team |  @lmcandrew | [Scalability::Frameworks](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks) |  |
 | Patroni | General except Geo secondary clusters | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
-|  | Geo secondary standby clusters | Centralized with Specific Team | @juan-silva | [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/) |  |
+|  | Geo secondary standby clusters | Centralized with Specific Team | @luciezhao | [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/) |  |
 | PgBouncer |  | Centralized with Specific Team | @twk3 | [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/) |  |
 | PostgreSQL | PostgreSQL Framework and Tooling | Centralized with Specific Team | @alexives | [Database](/handbook/engineering/infrastructure/core-platform/data_stores/database/) | Specific to the development portion of PostgreSQL, such as the fundamental architecture, testing utilities, and other productivity tooling |
 |  | GitLab Product Features | Decentralized |  |  | Examples like feature specific schema changes and/or performance tuning, etc. |
@@ -410,10 +410,10 @@ Far-reaching work is work that has wide-ranging, diffuse implications, and inclu
 If your group, product area, feature, or merge request fits within one of the descriptions above, you must seek to understand your impact and how to reduce it. When releasing far-reaching work, use a [rollout plan](/handbook/engineering/development/processes/rollout-plans). You might additionally need to consider creating a one-off process for those types of changes, such as:
 
 - [Creating a rollout plan procedure](/handbook/engineering/development/processes/rollout-plans)
-   - Consider how to reduce the risk in your rollout plan
-   - Document how to monitor the rollout while in progress
-   - Describe the metrics you will use to determine the success of the rollout
-   - Account for different states of data during rollout, such as cached data or data that was in a previously valid state
+  - Consider how to reduce the risk in your rollout plan
+  - Document how to monitor the rollout while in progress
+  - Describe the metrics you will use to determine the success of the rollout
+  - Account for different states of data during rollout, such as cached data or data that was in a previously valid state
 - Requiring feature flag usage ([example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/88298))
 - Changing a recommended process to a required process for this change, such as a domain expert review
 - Requesting manual testing of the work before approval

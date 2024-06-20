@@ -181,8 +181,8 @@ Despite its many [advantages]({{< ref "./remote-benefits" >}}), all-remote work 
 
 The first month in a remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/), especially if you're [transitioning from a traditional office setting](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/).
 
-  - To prevent loneliness, all-remote companies should consider an [intentional structure to informal communications]({{< ref "./informal-communication" >}}).
-  - Scheduling [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}), [social calls]({{< ref "./informal-communication#social-calls" >}}), and [incentivizing in-person visits]({{< ref "incentives#visiting-grant" >}}) between team members are several of the ways in which GitLab accomplishes this.
+- To prevent loneliness, all-remote companies should consider an [intentional structure to informal communications]({{< ref "./informal-communication" >}}).
+- Scheduling [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}), [social calls]({{< ref "./informal-communication#social-calls" >}}), and [incentivizing in-person visits]({{< ref "incentives#visiting-grant" >}}) between team members are several of the ways in which GitLab accomplishes this.
 
 ### Feeling left out
 

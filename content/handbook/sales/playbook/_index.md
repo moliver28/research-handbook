@@ -27,11 +27,9 @@ Besides this page, there are a few bookmarks you’ll want to set that will be y
 - **[Enterprise Sales Highspot landing page](https://gitlab.highspot.com/spots/6329c1e293fedc634e196730):** You’ll receive access to Highspot in Okta during your first week of onboarding. It’s where all sales content is stored - whether you’re looking for competitive intelligence, solution selling guidance, templates to use in proposals, or the latest marketing assets.
 - **[The Customer-Ready Shadow Program](/handbook/sales/shadow-program/):** Shadowing customer calls offers a hands-on way to learn how different GitLab roles represent GitLab. We often learn best when we have the opportunity to learn from our peers, practice, and get feedback in an interactive way. It’s also a great way to make new hires feel welcome and a part of our sales culture at GitLab. All sellers in Enterprise Sales participate in the shadow program in some way - whether they shadow or host their peers.
 
-
 ## The Enterprise Seller playbook
 
 [The Enterprise Seller playbook](https://docs.google.com/presentation/d/1S-8Jvr-NcMAEjqB5j0i53WZg4aEtTGTicCpWbZ9JaNk/edit#slide=id.g10c6ab6d93e_0_318) is how a typical, high-performing SAE runs their business on an annual, quarterly, monthly, and weekly basis. Use it as a guide to understand the basics of what key activities and collaboration points are required for things to run smoothly in your territory. This includes collaborating with your deal team. This playbook aligns directly to [the manager version used by Area Sales Managers in Enterprise Sales](/handbook/sales/manager-operating-rhythm/enterprise-sales/).
-
 
 #### Collaborating with your team
 
@@ -45,7 +43,7 @@ As the account lead, your role centers on successfully orchestrating all of the 
 |---------------------------|---------------------|
 |[Channel Account Manager (CAM)](https://partners.gitlab.com/English/directory/):| Understand and map the partner landscape: opportunities and collaborations, suggest partners for onboarding and recruiting, incorporate System Integrators into your plan, view current partners in the [Partner Directory](https://partners.gitlab.com/English/directory/) |
 |[Professional services](/handbook/customer-success/professional-services-engineering/working-with/):| Match the needs of your solution or customer to  training, education, and adoption or deployment support provided by this team. Or bring them in to help you pitch services to your prospects or customers.|
-|[Field marketing](/handbook/marketing/field-marketing/#whats-currently-scheduled-in-my-region) and account-based marketing:| Include this team during strategic planning for your territory, accounts, and pipe generation. And when when planning to run & host events or webinars, attend relevant third-party events. Learn what’s scheduled: [GitLab event site](https://about.gitlab.com/events/) , [All marketing activities (internal)](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493). Nominate priority accounts for [Account-based marketing (ABM) support](/handbook/marketing/account-based-marketing/abm-campaign-approach/). Slack: #abmteam, #emea_marketing (EMEA), #fieldmarketing (Global)|
+|[Field marketing](/handbook/marketing/field-marketing/#whats-currently-scheduled-in-my-region) and account-based marketing:| Include this team during strategic planning for your territory, accounts, and pipe generation. And when planning to run & host events or webinars, attend relevant third-party events. Learn what’s scheduled: [GitLab event site](https://about.gitlab.com/events/) , [All marketing activities (internal)](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493). Nominate priority accounts for [Account-based marketing (ABM) support](/handbook/marketing/account-based-marketing/abm-campaign-approach/). Slack: #abmteam, #emea_marketing (EMEA), #fieldmarketing (Global)|
 | Sales leaders and executives | You may need to [provide executive sponsorship of an account](/handbook/sales/field-operations/gtm-resources/#executive-sponsorship-program), [request an e-group member in a meeting](/handbook/eba/#customer-prospect-and-partner-meetings-with-an-e-group-member), or [request that Sid join a meeting](/handbook/eba/ceo-scheduling/#how-to-request-a-meeting-with-ceo) |
 |[Sales operations and deal desk:](/handbook/sales/field-operations/sales-operations/deal-desk/) |For structuring and closing deals, you’ll often work with Deal Desk, especially for non-standard quotes. #sales-support is also the go-to channel for any urgent questions around progressing a deal through our processes. |
 | [GitLab Support](/handbook/support/): | The Support Team serves our customers at different levels depending on what they’ve purchased.|
@@ -54,17 +52,16 @@ As the account lead, your role centers on successfully orchestrating all of the 
 | Compete:| You may also bring in the compete team to help with intelligence or positioning. Use the #competition channel on Slack to collaborate and view important resources in their bookmarks.  |
 | [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/sales-support/):| You may want to construct a deal where the customer agrees to be reference or to logo usage, or perhaps you've delivered incredible value and they are ready to be a case study. |
 
-
 ## Sales planning
 
 Every Strategic Account Executive in Enterprise Sales should have a **territory plan** for how they're approaching their patch.
+
 - The first step is to [create a sales territory plan](https://internal.gitlab.com/handbook/sales/territory-planning/): a collaborative, workable plan for targeting the right customers and implementing goals for income and consistent sales growth over time. It’s usually done annually and updated throughout the year.
 - Your MVP territory plan will help you prioritize and rank your accounts. We use the **Account Rank** field in Salesforce to mark priority accounts.
 - This is followed by creating [account plans](/handbook/sales/account-planning/) for those accounts. Every priority account identified in your territory plan should have an account plan complete and linked in the Gainsight overview in Salesforce.
 - View the territory planning template and worksheet in [our internal handbook](https://internal.gitlab.com/handbook/sales/territory-planning/). And view the [account planning template here](https://gitlab.highspot.com/items/6369653ef05315a895837bf6?lfrm=isd.1).
 - And view additional data sources and reports in the plan template (beneath the slides) as well as at the [bottom of this page](/handbook/sales/playbook/#quick-links-to-common-tools).
 - If an account is moving to a new seller, use the [Account Handover issue template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1240) and associated process to give the new rep everything they need to best support their customer.
-
 
 ## Prospecting and keeping your pipeline healthy
 
@@ -73,7 +70,6 @@ Every Strategic Account Executive in Enterprise Sales should have a **territory 
 Generally, surprises - whether in the form of sudden, major deals or sudden, major losses - are a bad thing. We have to strive to create predictable results. At first, this seems like trying to predict the vast unknown. But if you have a strong strategy in place for your pipeline, you’ll be able to see exactly how your year will turn out well before it happens. This means better, more reliable forecasts and less stress for you on whether you’ll meet that target. When forecasting, use the **[Sales Forecasting handbook page](https://internal.gitlab.com/handbook/sales/sales-forecasting/)** and [Clari cheat sheet](https://docs.google.com/presentation/d/1ZvQzFrmmqsJPUIk_FxfTy5X0G59IIWDve0Rfmfw1Wec/edit#slide=id.g133719dda83_2_102) to help you.
 
 **Validate, validate, validate.** Effective qualification is just the first step. As you invest in a prospect, it’s important to continuously validate the opportunity throughout the sales cycle and make sure it can deliver results for you and that we are the effective solution for the prospect.
-
 
 ## Moving a deal through the pipeline
 
@@ -88,12 +84,12 @@ Generally, surprises - whether in the form of sudden, major deals or sudden, maj
 **Additional resources for opportunity management:**
 During each stage in the detailed spreadsheet, you'll also see major strategic resources that can help you be successful during each milestone of a deal - from prospecting to transitioning to a the post-sales team. For operational resources, head to the general sales page up top. For commonly used sales assets like marketing plays and pitch decks, head to the [marketing resources handbook page](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7).
 
-
 #### Opportunity management
 
 Opp management starts with [effective discovery](/handbook/sales/playbook/discovery/). At GitLab, that means [MEDDPPICC](/handbook/sales/command-of-the-message/command-plan/#meddppicc) and having a complete [Command Plan](/handbook/sales/command-of-the-message/command-plan/) for all $50k+ NARR opportunities.
 
 **Use data to validate your opportunities.** If you’re making big bets because you ‘hope’ a prospect will change their mind it’s a sign that you need to go back to the validation process:
+
 - What evidence do you have that this deal is ‘real’?
 - What data tells you it will happen this quarter or next?
 - What is not being talked about is usually a sign something is not going as planned. For example, do you know their paper process inside and out? Do you know the potential people on their team that could derail the deal later?
@@ -103,7 +99,6 @@ Opp management starts with [effective discovery](/handbook/sales/playbook/discov
 
 Holding hurts our prospective customers because while they’re sitting there, they aren’t getting any real value from us (and likely to get more value from a competitor). It’s for their benefit that we push deals along or move them to close.
 
-
 ## Sales enablement resources
 
 If you're looking for templates, guides, customer 1-pagers, and other editable sales content, head to the [Enterprise Sales Highspot page](https://gitlab.highspot.com/spots/6329c1e293fedc634e196730). If you're looking for skills-based training, [LevelUp](https://levelup.gitlab.com/learn/dashboard?_gl=1*1ejz71x*_ga*MTEwMjkzNzM1MS4xNjI1NTI2MTE3*_ga_ENFH3X7M5Y*MTY3NDI1MjgyMS4zOS4xLjE2NzQyNTU4MjYuMC4wLjA.) is where you need to go.
@@ -111,7 +106,6 @@ If you're looking for templates, guides, customer 1-pagers, and other editable s
 **External training opportunities:** GitLab also has a robust [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) to help you supplement your learning. And if you want to stretch your technical muscle and hear customer feedback, you can sign up to join our audiences in our [CS webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/).
 
 If you want to know more about what's available to help you be successful, reach out to your enablement lead in the #field-enablement Slack channel.
-
 
 ## Quick links to common tools
 
@@ -150,6 +144,5 @@ If you don’t have access to the items below and believe you should, open an [A
 - [Datafox](/handbook/business-technology/tech-stack/#datafox) is used to view relevant account information.
 - [LeanData](/handbook/marketing/marketing-operations/leandata/) is automatically pulled into Salesforce as data that you can use to better understand contacts and accounts. You don’t need to request access.
 -[GitLab Propensity Models](https://internal.gitlab.com/handbook/sales/propensity_models/) allow you to dive deep into data provided by our Data Science Team including Propensity to Buy, Propensity to Churn, and Propensity to Expand. You can also find these fields in Salesforce and use them to inform your strategy in your territory.
-
 
 Looking for information on the Commercial Sales Organization? View the [Commercial Sales Playbook](/handbook/sales/commercial/) here.

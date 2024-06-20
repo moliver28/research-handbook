@@ -13,6 +13,7 @@ description: "GitLab uses Highspot as its Sales Asset Management System. This pa
 ## Highspot at GitLab
 
 Highspot is a sales enablement tool we use to gather, categorize, and share content within GitLab and externally to our customers. It brings together native content and guidance, training and coaching, and engagement intelligence – all supported by actionable analytics. GitLab uses Highspot as a sales portal to:
+
 1. **Provide a single repository** in which GitLab's go-to-market (GTM) team members can find all of the resources they need.
 1. **Enable more efficient discovery** of new resources and content.
 1. **Drive consistency in GitLab collateral** including the branding and messaging across assets.
@@ -33,12 +34,14 @@ GitLab ultimately chose to onboard Highspot as a sales asset management system t
 Highspot is managed by the [Field Enablement organization](/handbook/sales/field-operations/field-enablement/), specifically, the [Field Communications & Content](/handbook/sales/field-communications) team. The team leverages a contract agency, [Arnic Business Solutions](https://arnicbizsolutions.com/), to help manage the day-to-day administration of our Highspot instance.
 
 There are two primary Slack channels to communicate with platform DRIs and other content owners / contributors about Highspot at GitLab:
+
 1. #highspot-help-center: Public channel for team members to ask questions and get updates regarding Highspot.
 1. #highspot-content-owners: Public channel for content owners to ask questions and collaborate on ongoing upkeep and growth of Highspot instance.
 
 ### Submitting Highspot Requests
 
 The Highspot team creates GitLab Issue Templates within the Enablement Project for common requests:
+
 1. Can't find a Spot that meets your business needs? Use [this Highspot Spot Creation template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=Highspot-Spot-Creation-Request) to submit your request.
 1. Need Editor or Owner permissions within a Spot, or Analyst permissions within reporting? Use [this Highspot Permissions template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=highspot-spot-permissions-request) to submit your request.
 1. Need to complete Highspot role-based onboarding? Following the instructions within [this template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=Highspot-Role-Onboarding).
@@ -81,6 +84,7 @@ The Highspot team creates GitLab Issue Templates within the Enablement Project f
 ### Availability and Access Requests
 
 Teams with access to Highspot include:
+
 1. Sales
 1. Customer Success Management
 1. Renewals
@@ -102,9 +106,9 @@ Access to the tool is provisioned via SSO in Okta. To access Highspot, please na
 There are two training courses for Highspot available in the GitLab Level Up platform:
 
 1. [Highspot User Training](https://university.gitlab.com/learn/course/highspot-user/main/highspot-user-training?client=internal-team-members) - Foundational knowledge that all Highspot users should possess to get the most out of the platform. This includes a brief tour of the tool, how to search and discover content, how to share content for buyer engagement and how to leverage Highspot for personal organization and efficiency. All new Field team members should complete this course as a part of the [Sales Quick Start](/handbook/sales/onboarding/) training program in onboarding. Non-Field team members who gain access to Highspot via an [access request](/handbook/sales/field-communications/gitlab-highspot/#availability-and-access-requests) will be highly encouraged to complete this training upon being provisioned access.
-1. [Highspot Content Contributor Training ](https://university.gitlab.com/learn/course/highspot-content-contributor-training/main/highspot-content-contributor-training) - All Content Owners and Content Contributors in Highspot are required to complete this training prior to being provisioned edit access to any spot. This ensures that all contributors are trained to uphold GitLab's Highspot governance best-practices to support the best end user experience.
+1. [Highspot Content Contributor Training](https://university.gitlab.com/learn/course/highspot-content-contributor-training/main/highspot-content-contributor-training) - All Content Owners and Content Contributors in Highspot are required to complete this training prior to being provisioned edit access to any spot. This ensures that all contributors are trained to uphold GitLab's Highspot governance best-practices to support the best end user experience.
 
-# Guidance for Field Team
+## Guidance for Field Team
 
 ### Finding Content | Searching and Browsing in Highspot
 
@@ -133,10 +137,11 @@ Another way to navigate a spot is by using Sort under the spot title:
 ![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_SpotSort.png)
 
 Here is an overview of each sort:
+
 - **Popularity:** Item determined by the following types of activities: Views, Pitches, Shares, Downloads, Bookmarks, Remixes, and Copies. Shows each item only once, grouped by:
-   - **Trending:** Popular items for the last 2 weeks
-   - **Most Popular:** Most popular items for all time
-   - **By Popularity:** Remaining items, sorted from the most to the least popular
+  - **Trending:** Popular items for the last 2 weeks
+  - **Most Popular:** Most popular items for all time
+  - **By Popularity:** Remaining items, sorted from the most to the least popular
 - **Rating:** Items sorted by rating, starting with highest rated. Users can rate items and optionally leave reviews.
 - **Your Activity Date:** Items sorted by your last activity. Activity includes any interaction with the items, such as bookmarking, downloading, and reviewing.
 - **Date Added:** Items sorted by the date they were added to Highspot.
@@ -155,6 +160,7 @@ You’ll see the Search results page, pictured below:
 You can scroll through the search results and use the left nav to filter down the results.
 
 Learn more about browsing and searching in the Highspot Help Center:
+
 - [Browse and Filter Spots](https://help.highspot.com/hc/en-us/articles/214982023-Browse-and-filter-spots)
 - [Search for Content](https://help.highspot.com/hc/en-us/articles/213579426-Search-for-content)
 - [Advanced search](https://help.highspot.com/hc/en-us/articles/216378503-Advanced-Search)
@@ -176,13 +182,13 @@ Pitching through Highspot improves conversion rates and helps you more effective
 Adding a custom email signature to your Highspot profile will give your email Pitches a consistent look and feel for recipients.
 
 - **To add your email signature, follow these steps:**
-   - Log into the Highspot web App
-   - Click on your profile picture in the top right corner
-   - Click the Settings option from the drop down menu
-   - Under USER SETTINGS in the left hand menu, select Pitches
-   - Copy paste your Gmail signature into the box, or manually enter your name, job title, logo, or any information you typically include
-   - Check the box for "Set as default signature"
-   - Click Save Changes
+  - Log into the Highspot web App
+  - Click on your profile picture in the top right corner
+  - Click the Settings option from the drop down menu
+  - Under USER SETTINGS in the left hand menu, select Pitches
+  - Copy paste your Gmail signature into the box, or manually enter your name, job title, logo, or any information you typically include
+  - Check the box for "Set as default signature"
+  - Click Save Changes
 
 Once these steps are complete, you will see your custom signature included under the Signature section of your Highspot email Pitches.
 
@@ -197,21 +203,21 @@ Once these steps are complete, you will see your custom signature included under
 - **When to use:** When you would like to generate a new email and understand exactly who is looking at what.
 
 - **Email Pitch Settings:** When preparing to send an email pitch, you can control the following activities:
-   - Set expiration on pitch
-   - Set passcode on pitch
-   - Allow content to be downloaded
-      - Download as PDF
-      - Download original
-   - Allow content to be shared by recipient
-   - Send notification when there is activity by recipient
+  - Set expiration on pitch
+  - Set passcode on pitch
+  - Allow content to be downloaded
+    - Download as PDF
+    - Download original
+  - Allow content to be shared by recipient
+  - Send notification when there is activity by recipient
 
 - **Email Pitch Data Considerations:** Depending how you have configured the settings of your email pitch, you can view the following activities:
-   - Email address(es) of who opened the email pitch
-   - Email address(es) of who viewed the email pitch
-   - Duration of time spent viewing the email pitch
-   - Detail of which pitch slides or pages were viewed
-   - If email pitch was downloaded
-   - If pitch was shared by recipient through share function
+  - Email address(es) of who opened the email pitch
+  - Email address(es) of who viewed the email pitch
+  - Duration of time spent viewing the email pitch
+  - Detail of which pitch slides or pages were viewed
+  - If email pitch was downloaded
+  - If pitch was shared by recipient through share function
 
 - **CS/Gainsight considerations:** By relating a pitch to a Salesforce record, the activity will be logged in Salesforce and carried through in Gainsight (same as it does today).
 
@@ -222,19 +228,19 @@ Once these steps are complete, you will see your custom signature included under
 - **When to use:** When you want to package up content to share via LinkedIn, a text message, an existing email thread, a QR code (good for industry conferences), etc., and don’t need to know exactly who looked at it. (Note: You will still be able to see the number of views.)
 
 - **Link Pitch Settings:** When preparing to send a link pitch, you can control the following activities:
-   - Set expiration on pitch
-   - Set passcode on pitch
-   - Allow content to be downloaded
-      - Download as PDF
-      - Download original
-   - Allow content to be shared by recipient
-   - Send notification when there is activity by recipient
+  - Set expiration on pitch
+  - Set passcode on pitch
+  - Allow content to be downloaded
+    - Download as PDF
+    - Download original
+  - Allow content to be shared by recipient
+  - Send notification when there is activity by recipient
 
 - **Link Pitch Data Considerations:** Depending how you have configured the settings of your link pitch, you can view the following activities:
-   - Duration of time spent viewing the link pitch
-   - Detail of which pitch slides or pages were viewed
-   - If link pitch was downloaded
-   - If link pitch was shared by recipient through share function
+  - Duration of time spent viewing the link pitch
+  - Detail of which pitch slides or pages were viewed
+  - If link pitch was downloaded
+  - If link pitch was shared by recipient through share function
 - **Reminder:** You won’t be able to know exactly who looked at the link pitch.
 
 - **Gainsight considerations:** Send a pitch link from within Gainsight or Gmail to automatically log activity in Gainsight.
@@ -248,21 +254,21 @@ Once these steps are complete, you will see your custom signature included under
 ![Screenshot_AddBookmark](/handbook/sales/field-communications/gitlab-highspot/images/Example_PitchDirectlyFromGmail.png)
 
 - **Gmail Pitch Settings:** When preparing to send a pitch directly through Gmail, you can control the following activities:
-   - Set expiration on pitch
-   - Set passcode on pitch
-   - Allow content to be downloaded
-      - Download as PDF
-      - Download original
-   - Allow content to be shared by recipient
-   - Send notification when there is activity by recipient
+  - Set expiration on pitch
+  - Set passcode on pitch
+  - Allow content to be downloaded
+    - Download as PDF
+    - Download original
+  - Allow content to be shared by recipient
+  - Send notification when there is activity by recipient
 
 - **Gmail Pitch Data Considerations:** Depending how you have configured the settings of your Gmail pitch, you can view the following activities:
-   - Email address of who opened the Gmail pitch
-   - Email address of who viewed the Gmail pitch
-   - Duration of time spent viewing the Gmail pitch
-   - Detail of which pitch slides or pages were viewed
-   - If Gmail pitch was downloaded
-   - If Gmail pitch was shared by recipient through share function
+  - Email address of who opened the Gmail pitch
+  - Email address of who viewed the Gmail pitch
+  - Duration of time spent viewing the Gmail pitch
+  - Detail of which pitch slides or pages were viewed
+  - If Gmail pitch was downloaded
+  - If Gmail pitch was shared by recipient through share function
 
 - **Gainsight considerations:** Can use both Highspot and Gainsight Gmail extensions to track this email activity in Gainsight (same as you do today).
 
@@ -275,76 +281,81 @@ Once these steps are complete, you will see your custom signature included under
    1. Within a new / existing sequence
 
 - **Outreach Pitch Settings:** When preparing to send a pitch directly through Outreach, you can control the following activities:
-   - Set expiration on pitch
-   - Set passcode on pitch
-   - Allow content to be downloaded
-      - Download as PDF
-      - Download original
-   - Allow content to be shared by recipient
-   - Send notification when there is activity by recipient
+  - Set expiration on pitch
+  - Set passcode on pitch
+  - Allow content to be downloaded
+    - Download as PDF
+    - Download original
+  - Allow content to be shared by recipient
+  - Send notification when there is activity by recipient
 
 - **Outreach Pitch Data Considerations:** Analytics on pitches sent via Outreach depend on *how* the pitch was sent:
-   - **For pitches sent via direct mail in Outreach:** A pitch record is created immediately in Highspot, and analytics on the pitch can be viewed immediately in the `Engagement` tab:
-      - Duration of time spent viewing the Outreach pitch
-      - Detail of which pitch slides or pages were viewed
-      - If an Outreach pitch was downloaded
-      - If an Outreach pitch was shared by recipient through share function
-      - Note: Highspot currently does NOT pull in email addresses of recipients for pitches sent via direct mail. This data will need to be pulled / cross-referenced from Outreach.
-   - **For pitches sent via a sequence in Outreach:** A pitch record is not created until a recipient engages with a piece of content in the pitch. For example, if you send a sequence to 100 recipients but only 20 click on the invite link in your pitch, 20 pitches will be created in Highspot at the time of engagement and analytics can be viewed in the `Engagement` tab. Each pitch and the associated analytics are unique to one recipient / email address.
-      - Email address of who opened the Outreach pitch
-      - Email address of who viewed the Outreach pitch
-      - Duration of time spent viewing the Outreach pitch
-      - Detail of which pitch slides or pages were viewed
-      - If an Outreach pitch was downloaded
-      - If an Outreach pitch was shared by recipient through share function
+  - **For pitches sent via direct mail in Outreach:** A pitch record is created immediately in Highspot, and analytics on the pitch can be viewed immediately in the `Engagement` tab:
+    - Duration of time spent viewing the Outreach pitch
+    - Detail of which pitch slides or pages were viewed
+    - If an Outreach pitch was downloaded
+    - If an Outreach pitch was shared by recipient through share function
+    - Note: Highspot currently does NOT pull in email addresses of recipients for pitches sent via direct mail. This data will need to be pulled / cross-referenced from Outreach.
+  - **For pitches sent via a sequence in Outreach:** A pitch record is not created until a recipient engages with a piece of content in the pitch. For example, if you send a sequence to 100 recipients but only 20 click on the invite link in your pitch, 20 pitches will be created in Highspot at the time of engagement and analytics can be viewed in the `Engagement` tab. Each pitch and the associated analytics are unique to one recipient / email address.
+    - Email address of who opened the Outreach pitch
+    - Email address of who viewed the Outreach pitch
+    - Duration of time spent viewing the Outreach pitch
+    - Detail of which pitch slides or pages were viewed
+    - If an Outreach pitch was downloaded
+    - If an Outreach pitch was shared by recipient through share function
 
 **Learn more:** Check out [this quick demo video](https://gitlab.highspot.com/items/64b1c228139060dabfd1e504) to begin using this awesome feature.
 
 #### Live Pitch
+
 - **When to use:** If you want to understand how long you spend on each slide/piece of content during a client conversation. Also, if you want to automatically log the activity/touchpoint on a SFDC opportunity. (Opportunity must be linked in Highspot.)
 
 - **Live Pitch lets you present content 3 different ways while talking to a prospect or customer:**
-   - Slide Cast: Present content securely via the browser, without using a screen sharing app. Does not support sharing web links or videos.
-   - Screen Share: Present content and live demos via your preferred screen sharing app.
-   - In Person: Present content and live demos via a camera attached to your computer.
+  - Slide Cast: Present content securely via the browser, without using a screen sharing app. Does not support sharing web links or videos.
+  - Screen Share: Present content and live demos via your preferred screen sharing app.
+  - In Person: Present content and live demos via a camera attached to your computer.
 
 - **Live Pitch Data Considerations:** you can view the following activities:
-   - Live pitch participant list
-   - Duration of time spent viewing the pitch
-   - Detail of which pitch slides or pages were viewed
+  - Live pitch participant list
+  - Duration of time spent viewing the pitch
+  - Detail of which pitch slides or pages were viewed
 
 **Learn more:** [Use Live Pitch to Present Content](https://help.highspot.com/hc/en-us/articles/213580266-Use-Live-Pitch-to-Present-Content)
 
 ### Integrating Pitching with Your Existing Workflows
 
 **SFDC Integration**
-   - Make sure to [link your Salesforce and Highspot accounts](https://help.highspot.com/hc/en-us/articles/214982803-Relate-Pitches-to-Salesforce), and then your pitches can be related to a lead, contact, opportunity or account in your CRM, logging the email as well as the following engagement in the ongoing email exchange.
-   - Note: This also helps us tie ROI back to content, so that Sales and Marketing can understand what content is driving revenue for the team and place more focus on these value-added areas.
+
+- Make sure to [link your Salesforce and Highspot accounts](https://help.highspot.com/hc/en-us/articles/214982803-Relate-Pitches-to-Salesforce), and then your pitches can be related to a lead, contact, opportunity or account in your CRM, logging the email as well as the following engagement in the ongoing email exchange.
+- Note: This also helps us tie ROI back to content, so that Sales and Marketing can understand what content is driving revenue for the team and place more focus on these value-added areas.
 
 **Pitch Styles**
-   - Pitch Styles determine how your content will display when shared with an external contact. Pitch Styles are available on all pitch types.
-   - **When to use `Simple Content View` Pitch Style**: This is the default pitch style on all pitch types and will display content in a simple thumbnail view in the pitch and a webpage view upon clicking.
-   - **When to use `Content Portal` Pitch Style:** If you want to create a more official, branded “landing page” to serve up more than 3+ pieces of content to customers or prospects. Example: Create a content repository for a champion that they can refer back to through a deal cycle.
-   - Learn more: [Create a Pitch Style](https://help.highspot.com/hc/en-us/articles/360010866653-Create-a-Pitch-Style)
+
+- Pitch Styles determine how your content will display when shared with an external contact. Pitch Styles are available on all pitch types.
+- **When to use `Simple Content View` Pitch Style**: This is the default pitch style on all pitch types and will display content in a simple thumbnail view in the pitch and a webpage view upon clicking.
+- **When to use `Content Portal` Pitch Style:** If you want to create a more official, branded “landing page” to serve up more than 3+ pieces of content to customers or prospects. Example: Create a content repository for a champion that they can refer back to through a deal cycle.
+- Learn more: [Create a Pitch Style](https://help.highspot.com/hc/en-us/articles/360010866653-Create-a-Pitch-Style)
 
 **Pitch Templates**
-   - **When to use:** If you/your team has an email that you send often. Example: Meeting request / follow-up, “thank you” email, renewal notification, prospecting, etc.
-   - The Highspot admins will work with content owners to create pitch templates where relevant, but we encourage you to create your own. Pitch templates that you create will only be visible and usable by you. If you have a pitch template that you think others could benefit from, we encourage you to uplevel it and make it available for all Highspot users to leverage. Please contact the Highspot Admins in #highspot-help-center to do this.
-   - Learn more: [Create a Pitch Template](https://help.highspot.com/hc/en-us/articles/360048380134-Use-Pitch-Templates-and-Pitch-Styles-to-Customize-Pitches#h_01EZAZFVEEMHPZ4NWS71ZYYGD0)
+
+- **When to use:** If you/your team has an email that you send often. Example: Meeting request / follow-up, “thank you” email, renewal notification, prospecting, etc.
+- The Highspot admins will work with content owners to create pitch templates where relevant, but we encourage you to create your own. Pitch templates that you create will only be visible and usable by you. If you have a pitch template that you think others could benefit from, we encourage you to uplevel it and make it available for all Highspot users to leverage. Please contact the Highspot Admins in #highspot-help-center to do this.
+- Learn more: [Create a Pitch Template](https://help.highspot.com/hc/en-us/articles/360048380134-Use-Pitch-Templates-and-Pitch-Styles-to-Customize-Pitches#h_01EZAZFVEEMHPZ4NWS71ZYYGD0)
 
 **Pitch Analytics**
-   - After you've sent a pitch to a prospect or customer, you can view how they've interacted with the content.
-   - The default tracking for pitches is currently on for all users, except for regions/teams where privacy policies require a different treatment (ex. EMEA).
-   - Highspot pitch analytics currently track:
-        - When the email is opened if it's an email pitch from Highspot.
-        - When the link in the email is clicked.
-        - How long the recipient looks at the content as well as each slide.
-        - When content is downloaded.
-        - If content is shared through the share button, including which email it was sent to.
-   - At the Group level, Highspot can:
-        - Ask recipients for consent to track. If the recipient opts-out, we don't track anything. If they opt-in, all data listed above is tracked, except email opens.
-        - Disable pitch tracking.
-   - Learn more: [View Pitch Activity](https://help.highspot.com/hc/en-us/articles/216042403-View-pitch-activity-)
+
+- After you've sent a pitch to a prospect or customer, you can view how they've interacted with the content.
+- The default tracking for pitches is currently on for all users, except for regions/teams where privacy policies require a different treatment (ex. EMEA).
+- Highspot pitch analytics currently track:
+  - When the email is opened if it's an email pitch from Highspot.
+  - When the link in the email is clicked.
+  - How long the recipient looks at the content as well as each slide.
+  - When content is downloaded.
+  - If content is shared through the share button, including which email it was sent to.
+- At the Group level, Highspot can:
+  - Ask recipients for consent to track. If the recipient opts-out, we don't track anything. If they opt-in, all data listed above is tracked, except email opens.
+  - Disable pitch tracking.
+- Learn more: [View Pitch Activity](https://help.highspot.com/hc/en-us/articles/216042403-View-pitch-activity-)
 
 ### How to create Pitches using existing Pitch Style and Pitch Template combos
 
@@ -368,17 +379,19 @@ To prepare for a pitch, you can customize content for the customer you are corre
 There are two ways you can customize content inside of Highspot: **Remix** and **Edit in Google Drive**.
 
 **Remix Content**
-   - Remix is a quick way to rearrange decks and documents. You can also combine decks and documents, mixing and matching different slides or pages.
-   - When to use: You want to create a collection of content (ex. Slides, PDF/eBook pages/videos/etc.) but do not need to edit any of the content (i.e. you do not need to edit content on a slide or in a doc)
-   - Learn more: [Remix Content](https://help.highspot.com/hc/en-us/articles/214983703-Remix-content)
+
+- Remix is a quick way to rearrange decks and documents. You can also combine decks and documents, mixing and matching different slides or pages.
+- When to use: You want to create a collection of content (ex. Slides, PDF/eBook pages/videos/etc.) but do not need to edit any of the content (i.e. you do not need to edit content on a slide or in a doc)
+- Learn more: [Remix Content](https://help.highspot.com/hc/en-us/articles/214983703-Remix-content)
 
 **Edit in Google Drive**
-   - You can edit Google items  - Google Docs, Sheets, and Slide - directly from within Highspot.
-   - When to use: You want to edit/add/remove content on slides or in a doc. You will save a copy to your personal spot to customize and pitch from there.
-   - Note: You must have connected your Google Drive account with Highspot in order to use this feature and many others in Highspot.
-   - Learn more: [Edit in Google Drive](https://help.highspot.com/hc/en-us/articles/115002515023-Edit-in-Google-Drive)
 
-# FAQs
+- You can edit Google items  - Google Docs, Sheets, and Slide - directly from within Highspot.
+- When to use: You want to edit/add/remove content on slides or in a doc. You will save a copy to your personal spot to customize and pitch from there.
+- Note: You must have connected your Google Drive account with Highspot in order to use this feature and many others in Highspot.
+- Learn more: [Edit in Google Drive](https://help.highspot.com/hc/en-us/articles/115002515023-Edit-in-Google-Drive)
+
+## FAQs
 
 **Who has access to Highspot?**
 
@@ -482,8 +495,7 @@ If you would like to send Highspot content or a pitch template to a mass audienc
 **Is Highspot a tool for Marketing automation and email nurture?**
 Highspot is not a replacement for marketing automation or email nurture tools such as Marketo. All email pitches are sent by a member of the Field team, who can then view insights.
 
-
-# Guidance for Highspot Content Owners
+## Guidance for Highspot Content Owners
 
 ### Adding/Managing Content in Highspot
 
@@ -545,6 +557,7 @@ Using the embed code will allow Highspot users to view the webpage content direc
 **EXCEPTIONS FOR EMBEDDING**
 
 *The following exceptions should be made for embedding links. Do not select `Use embed code` when adding these types of links.*
+
 1. PathFactory - In order to allow PathFactory to gather the necessary analytics, external audiences will need to access the link that takes them directly to the asset in PathFactory.
 1. External - Some external links (ex. industry articles) will not allow embedding. You can test this by selecting `Use embed code` and then clicking on the item to check. You will see a broken link message if that link is unable to be embedded.
 1. Private YouTube Unfiltered - Links for videos set to private will not embed.
@@ -578,6 +591,7 @@ When a piece of content does expire, it will not be deleted. Instead, it will be
 #### Validation Rules
 
 There are three validation rules set in GitLab's Highspot instance. Each piece of content must include:
+
 1. An expiration date - A built-in checkpoint to maintain the quality of content in Highspot (see [Content expiration 101](/handbook/sales/field-communications/gitlab-highspot/#content-expiration-101) for more details)
 1. A description - Whether one sentence or a full paragraph, a description will help make content more discoverable by users when searching for key words
 1. At least one list - Content should be tagged to at least one list (but preferably more) to help increase discoverability
@@ -589,7 +603,6 @@ A piece of content that has this flag will still be visible in Highspot for user
 ![Screenshot_ViolatesPolicyFlag](/handbook/sales/field-communications/gitlab-highspot/images/Example_ViolatesPolicyFlag.png)
 
 ![Screenshot_ValidationRuleMessage](/handbook/sales/field-communications/gitlab-highspot/images/Example_ValidationRuleMessage.png)
-
 
 #### Including content in more than one spot
 
@@ -615,14 +628,14 @@ Once a pitch template is created, currently anyone with access to the Company Pi
 
 The Highspot Help Center provides instructions on how to create pitch templates, which you can read [here](https://help.highspot.com/hc/en-us/articles/214982823-Create-a-Pitch-Template). In addition, follow these steps to help keep GitLab's pitch templates organized and consistent:
 
-   - Create new pitch templates in the Company Pitch Templates Spot. Users can bookmark templates to their own Spot, and Spot Owners can bookmark or filter pitch templates in SmartPages to quickly surface these items.
-      - If you do not already have Editor access to the Company Pitch Templates Spot, you will not be able to add a new template. You can gain access by creating an Issue using [this Template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=highspot-spot-permissions-request).
-   - Add a descriptive title and description. These fields are internal to Highspot and should help users know when/how/why to use the template. Titles should be consistent, such as when adding a sequence of templates.
-   - Add a message using text and dynamic fields (i.e. Customer name, Company), which will auto-fill for the user when pitching. Users can edit the message when pitching. This will not affect the template. However, the user's edits will show clearly in their own Pitches Spot, as well as in SFDC.
-   - Attach an item. All pitch templates must include at least one piece of content from within Highspot. If no content is selected when creating the pitch template, users must add an item when pitching.
-   - Tag all relevant lists within the pitch template properties. Lists are how users filter content on Highspot. Assigning the Use Case, Role, Market Segment, and Industry, at a minimum, will support a segment and role-based user experience of Highspot.
-   - Remember: Users can relate a pitch template to a lead, contact, opportunity, or account in SFDC using the Relate and Send To fields within the Send Email Pitch window.
-   - Remember: Users can enter a custom email signature in Highspot, which will auto-display when pitching.
+- Create new pitch templates in the Company Pitch Templates Spot. Users can bookmark templates to their own Spot, and Spot Owners can bookmark or filter pitch templates in SmartPages to quickly surface these items.
+  - If you do not already have Editor access to the Company Pitch Templates Spot, you will not be able to add a new template. You can gain access by creating an Issue using [this Template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=highspot-spot-permissions-request).
+- Add a descriptive title and description. These fields are internal to Highspot and should help users know when/how/why to use the template. Titles should be consistent, such as when adding a sequence of templates.
+- Add a message using text and dynamic fields (i.e. Customer name, Company), which will auto-fill for the user when pitching. Users can edit the message when pitching. This will not affect the template. However, the user's edits will show clearly in their own Pitches Spot, as well as in SFDC.
+- Attach an item. All pitch templates must include at least one piece of content from within Highspot. If no content is selected when creating the pitch template, users must add an item when pitching.
+- Tag all relevant lists within the pitch template properties. Lists are how users filter content on Highspot. Assigning the Use Case, Role, Market Segment, and Industry, at a minimum, will support a segment and role-based user experience of Highspot.
+- Remember: Users can relate a pitch template to a lead, contact, opportunity, or account in SFDC using the Relate and Send To fields within the Send Email Pitch window.
+- Remember: Users can enter a custom email signature in Highspot, which will auto-display when pitching.
 
 ### Highspot for GitLab Duo Content
 
@@ -643,4 +656,3 @@ Moving forward, **all AI-related content – internal and external – should be
 ### Highspot Video training for Field Marketing
 
 In addition to the training links above, a video training for Field Marketing can be found [here](https://gitlab.highspot.com/items/6531ac81f2cb7f5067cc03b6?lfrm=shp.0).
-

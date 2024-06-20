@@ -209,9 +209,9 @@ Once the situation is resolved, take time to reflect on your actions and what yo
 could do next time to mitigate that situation from happening again.
 
 If you feel that is something the wider support team can learn from, please share
-your experience in your regional support team meeting and/or in the [Support Week in
-Review (SWIR)](/handbook/support/#support-week-in-review). If appropriate, ensure
-that you make a merge request to our Support documentation as well. By sharing your
-experiences, others can contribute to other methods on how they might have dealt
+your experience in your regional support team meeting and/or in the
+[Support Week in Review (SWIR)](/handbook/support/#support-week-in-review).
+If appropriate, ensure that you make a merge request to our Support documentation as well.
+By sharing your experiences, others can contribute to other methods on how they might have dealt
 with your situation and it also makes them aware, so they are less likely to repeat
 that same mistake themselves.

@@ -36,15 +36,15 @@ All Tier 3 cases will be managed together with Legal and the TMR team.
 
 Team members who would like to discuss a private matter should send an email requesting support from our Team Member Relations team to teammemberrelations@gitlab.com.  Please include the following in your email:
 
- - Subject Line should be  "New Request for assistance"
- - Name of Team member requesting support (Name of the person sending the email)
- - Name of Team member(s) involved in the matter
- - Team members location (example Orlando, Florida or Berlin, Germany) for managers who are requesting support regarding a team member issue on their team please use the location of the team member and not your location.
- - Tier level as listed above
- - Job title of team member requesting support
- - Division
- - Department
- - Brief description of type support needed. Example - I am looking for guidance for managing a team members' performance.
+- Subject Line should be  "New Request for assistance"
+- Name of Team member requesting support (Name of the person sending the email)
+- Name of Team member(s) involved in the matter
+- Team members location (example Orlando, Florida or Berlin, Germany) for managers who are requesting support regarding a team member issue on their team please use the location of the team member and not your location.
+- Tier level as listed above
+- Job title of team member requesting support
+- Division
+- Department
+- Brief description of type support needed. Example - I am looking for guidance for managing a team members' performance.
 
 The Team Member Relations team will reach out within 24 hours from when the request was sent via email during the business week.
 

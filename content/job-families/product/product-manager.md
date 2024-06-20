@@ -116,7 +116,7 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 ## Career paths
 
-The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](https://handbook.gitlab.com/handbook/product/product-manager-role/product-cdf-competencies/).
+The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](/handbook/product/product-manager-role/product-cdf-competencies/).
 
 ### Intermediate Product Manager
 
@@ -146,7 +146,7 @@ The unique needs and circumstances of individual roles may vary; however, the li
 - Champion feature development in your group and advocate for what you need to contribute to GitLab’s success.
 - Maintain a roadmap that helps to progress your categories toward the next level of maturity.
 - Be adept at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in quarterly strategy reviews.
-   - Counterparts, executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
+  - Counterparts, executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
 - Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to prioritize higher demand items over lower demand items. Remove or deprioritize items that don’t have enough demand.
 - Collaborate with your manager as needed to push back appropriately on requests to prioritize items that provide comparatively lower value.
 - Ensure that milestone priorities are ready to go into development and that requirements are clear for engineering.
@@ -203,8 +203,8 @@ The unique needs and circumstances of individual roles may vary; however, the li
 - Surface investment needs that are truly required for the success of your group.
 - Curate and maintain a list of what epics are specifically required to advance your categories to the next level of maturity.
 - Be skilled at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in regular strategy reviews.
-   - Counterparts are familiar with your strategy at a high level.
-   - Executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
+  - Counterparts are familiar with your strategy at a high level.
+  - Executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
 - Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to ensure that the effort required by the top priorities is justified by the expected impact on GitLab’s profits. Remove or de-prioritize items from the roadmap that are unlikely to impact profits.
 - Push back appropriately on requests to prioritize items that provide comparatively lower value.
 - Ensure that 12-month roadmap priorities are clear for engineering.
@@ -265,9 +265,9 @@ The unique needs and circumstances of individual roles may vary; however, the li
 - Have a clear understanding and well articulated message showing how your 3+ year strategy relates to the overall stage strategy and the overall company strategy.
 - Advocate for investment decisions that are in the best interest of the company. Present clear business reasons to support your proposed investment decisions.
 - Be an expert at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in quarterly strategy reviews.
-   - Counterparts are able to clearly articulate your strategy themselves and have a personal understanding of how your roadmap priorities relate to your strategy.
-   - Key sales, support, and internal team members are familiar with your strategy at a high level.
-   - Executives and customers can find and understand your strategy when they go to look for it.
+  - Counterparts are able to clearly articulate your strategy themselves and have a personal understanding of how your roadmap priorities relate to your strategy.
+  - Key sales, support, and internal team members are familiar with your strategy at a high level.
+  - Executives and customers can find and understand your strategy when they go to look for it.
 - Use your strategy to guide and drive your roadmap priorities. Artfully balance near-term and long-term impact to profit against the need to also make progress on key strategic initiatives.
 - Demonstrate that you place the needs of the stage and company ahead of the needs of your own group. Advocate for your group when that is in the company’s best interest and willingly help others when success is best achieved by working outside your group.
 - Actively explore partnership and acquisition opportunities for your group. Cultivate and recommend next steps for opportunities that make sense and also avoid investing time in those that don’t.
@@ -559,7 +559,7 @@ We're looking for a PM to ensure an excellent purchase, trial, upgrade, seat add
 
 ### Platforms - GitLab Dedicated
 
-We're looking for a product manager to mature GitLab Dedicated, GitLab's Enterprise DevSecOps Platform as a single-tenant SaaS deployment. This role will involve defining a compeling roadmap that focuses on delivering customer results and growing Dedicated as a platform. You will will work closely with several engineering teams and with teams across GitLab to drive adoption of Dedicated.
+We're looking for a product manager to mature GitLab Dedicated, GitLab's Enterprise DevSecOps Platform as a single-tenant SaaS deployment. This role will involve defining a compeling roadmap that focuses on delivering customer results and growing Dedicated as a platform. You will work closely with several engineering teams and with teams across GitLab to drive adoption of Dedicated.
 
 #### Requirements
 

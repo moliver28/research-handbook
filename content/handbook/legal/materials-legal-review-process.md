@@ -29,9 +29,9 @@ Review is **always** required for:
 - External materials which quote, or are written in the name of, the CEO; CFO; CLO; CRO; CTO; VP, Investor Relations; or a member of the [Board of Directors](/handbook/company/team/board-of-directors);
 - Quarterly and year-end earnings reports, and materials which include financial data that has not been publicly disclosed, or a variation previously disclosed financial data;
 - Materials relating to:
-   - Mergers and acquisitions, including spin outs, investments, or acqui-hires;
-   - Executive or other material organizational or management changes; or
-   - The announcement or release of new products material to GitLab.
+  - Mergers and acquisitions, including spin outs, investments, or acqui-hires;
+  - Executive or other material organizational or management changes; or
+  - The announcement or release of new products material to GitLab.
 - Social media posts that include earnings reports, financial data not yet publicly disclosed, a variation of previously disclosed financial data, or items relating to mergers and acquisitions (including spin outs, investments, or acqui-hires), and disclosing material nonpublic informations (e.g., material management changes, material product releases etc.).
 
 ### Excluded from review

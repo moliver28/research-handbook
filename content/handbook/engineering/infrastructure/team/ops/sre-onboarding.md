@@ -1,13 +1,6 @@
 ---
-
 title: "SRE Onboarding"
 ---
-
-
-
-
-
-
 
 ## Onboarding Template
 
@@ -152,10 +145,10 @@ The list may not be up to date.  If something is missing, please add it.
 1. Chef access
 1. Cloud Providers
 
-  * Amazon Web Services
-  * Azure
-  * Digital Ocean
-  * Google Cloud
+   * Amazon Web Services
+   * Azure
+   * Digital Ocean
+   * Google Cloud
 
 ## Slack Channels
 

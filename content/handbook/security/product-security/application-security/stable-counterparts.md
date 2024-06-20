@@ -33,8 +33,8 @@ Stable Counterparts can be added or updated by following these steps:
 
 - (Optional) Organise a 1:1 with the group(s) and App Sec engineer(s) involved to discuss handover, learning opportunities, upcoming priorities, and practicalities like links to GitLab Issue Boards and meeting invitations
 - Open an MR to [gitlab-com/www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/)
-    - Add or update `data/stages.yml`, setting the `appsec_engineer` attribute to `Firstname Lastname` in each group
-    - For each App Sec Engineer involved, update the `role` attribute in `data/team_members/person/DIVISION/LETTER/PERSON_NAME.yml` to include `STAGE_NAME (GROUP_A, GROUP_B)`
+  - Add or update `data/stages.yml`, setting the `appsec_engineer` attribute to `Firstname Lastname` in each group
+  - For each App Sec Engineer involved, update the `role` attribute in `data/team_members/person/DIVISION/LETTER/PERSON_NAME.yml` to include `STAGE_NAME (GROUP_A, GROUP_B)`
 
 ## Success Stories
 
@@ -72,17 +72,17 @@ Here are some verbatim answers, capturing how AppSec does (or did) Stable Counte
 ### Dominic
 
 - How do/did you get started with your stable counterpart groups?
-    - I introduced myself in Slack and had coffee chats with EMs / PMs, though admittedly when the managers change on those teams I didn't do a good job of keeping that up
+  - I introduced myself in Slack and had coffee chats with EMs / PMs, though admittedly when the managers change on those teams I didn't do a good job of keeping that up
 - How do you maintain relationships with them?
-    - I don't do sync meetings at all, I keep an eye in their Slack channels and we talk a lot in issues because they happen to work on a lot of security-sensitive topics. The "maintenance" happens a bit by itself :sweat_smile:
+  - I don't do sync meetings at all, I keep an eye in their Slack channels and we talk a lot in issues because they happen to work on a lot of security-sensitive topics. The "maintenance" happens a bit by itself :sweat_smile:
 - How do you keep track of the work they're doing?
-    - Slack channel for the section, issues filtered by Milestone
+  - Slack channel for the section, issues filtered by Milestone
 - How do you get involved in the work they're doing?
-    - Most of the time they ping me, but I keep an eye on issues and MRs I've already been pinged in and keep reading discussions and will often jump in without being re-pinged. I keep up with existing issues and MRs via my emails.
+  - Most of the time they ping me, but I keep an eye on issues and MRs I've already been pinged in and keep reading discussions and will often jump in without being re-pinged. I keep up with existing issues and MRs via my emails.
 - How do you get familiar with the work they've done / their code?
-    - When I'm pinged for a review I take whatever time needed to understand the context. If that means reviewing 5 other MRs that introduced the feature, setting up GDK to play with it and asking a few questions then so be it! I make it clear when I'm not familiar with something and I need ramping up so the expectations are clear.
+  - When I'm pinged for a review I take whatever time needed to understand the context. If that means reviewing 5 other MRs that introduced the feature, setting up GDK to play with it and asking a few questions then so be it! I make it clear when I'm not familiar with something and I need ramping up so the expectations are clear.
 - How do you balance this with other work?
-    - I would say this is my highest priority "non-urgent" work. Incidents and time-sensitive requests will be handled first but other than that I'll do my SC work.
+  - I would say this is my highest priority "non-urgent" work. Incidents and time-sensitive requests will be handled first but other than that I'll do my SC work.
 
 ### Greg A
 

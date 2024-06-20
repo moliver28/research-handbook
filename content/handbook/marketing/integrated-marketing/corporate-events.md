@@ -18,25 +18,23 @@ twitter_creator: gitlab
 ## Mission Statement
 
 * The mission of the Corporate Events Team is to:
-    * Tell the GitLab story through engaging events
-    * Make customers the hero
-    * Build lasting and trusting vendor and internal relationships
-    * Help elevate the attendee/customer's GitLab experience during events
-
+  * Tell the GitLab story through engaging events
+  * Make customers the hero
+  * Build lasting and trusting vendor and internal relationships
+  * Help elevate the attendee/customer's GitLab experience during events
 
 ## What does the Corporate Events team handle?
 
 * Sponsored events
-    * Events with a global audience of 5000+ attendees for NA
-    * 3000+ for other territories (50% or more of audience is national or global).
-    * A handful of smaller events that we handle due to the nature of the audience, product specific, and the awareness and thought leadership positions we are trying to build out as a company.
-    * The primary goal is always driving brand awareness but that cannot be the only result.
+  * Events with a global audience of 5000+ attendees for NA
+  * 3000+ for other territories (50% or more of audience is national or global).
+  * A handful of smaller events that we handle due to the nature of the audience, product specific, and the awareness and thought leadership positions we are trying to build out as a company.
+  * The primary goal is always driving brand awareness but that cannot be the only result.
 * Owned events
-    * [GitLab Commit](https://about.gitlab.com/events/commit/), our User Conference
+  * [GitLab Commit](https://about.gitlab.com/events/commit/), our User Conference
 * Internal events
-    * [GitLab Summit](https://about.gitlab.com/events/summit-las-vegas/), our internal company and core community event
-    * Please review our events decision tree to ensure Corporate Marketing is the appropriate owner for an event. If it is not clear who should own an event based on the [decision tree](https://docs.google.com/spreadsheets/d/1aWsmsksPfOlX1t6TeqPkh5EQXergt7qjHAjGTxU27as/edit?usp=sharing), please email events@gitlab.com.
-
+  * [GitLab Summit](https://about.gitlab.com/events/summit-las-vegas/), our internal company and core community event
+  * Please review our events decision tree to ensure Corporate Marketing is the appropriate owner for an event. If it is not clear who should own an event based on the [decision tree](https://docs.google.com/spreadsheets/d/1aWsmsksPfOlX1t6TeqPkh5EQXergt7qjHAjGTxU27as/edit?usp=sharing), please email events@gitlab.com.
 
 ## Meet the Corporate Events Team and How to Reach Us
 
@@ -46,6 +44,7 @@ twitter_creator: gitlab
 * Marina Conrad - Senior Corporate Events Manager - `@marinaconrad`
 * Amanda Shen - Corporate Events Manager - `@amandawshen`*
 * Suli King - Corporate Events Content Manager -`@sstuelp`
+* Lauren Roberts - Corporate Events Coordinator - `@lroberts`
 
 ### Current Slack Corporate Event Channels
 
@@ -71,7 +70,6 @@ twitter_creator: gitlab
   <tr>
 </table>
 
-
 ### If you’d like to email us instead, please reach us at
 
 General Questions: [events at gitlab dot com](mailto:events@gitlab.com)
@@ -79,7 +77,6 @@ General Questions: [events at gitlab dot com](mailto:events@gitlab.com)
 Summit-related Questions: [summit at gitlab dot com](mailto:summit@gitlab.com)
 
 DevSecOps World Tour-related Questions: [events at gitlab dot com](mailto:events@gitlab.com)
-
 
 ## How We Evaluate and Build Potential Events
 
@@ -96,14 +93,12 @@ All GitLab events must check at least  three or more of the goals of our events 
 9. Communicate the marketplace positioning
 10. Promote Partnerships and Alliances
 
-
 ### Corporate Events must also meet
 
 1. Audience minimum requirement will vay based on the type of sponsored event
 2. Audience demographic requirements. We consider the balance of roles represented (contributor, user, customer, potential hires), and the Global reach of the audience. Audience profile must be over 50% national/ global.
 
 **If you are looking to request a new Corporate Event, please use the following [issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_Request)
-
 
 ## Questions we ask ourselves when assessing an event
 
@@ -121,17 +116,16 @@ All GitLab events must check at least  three or more of the goals of our events 
 
 Suggested events will be subject to a valuation calculation - will it meet or exceed objectives listed above?
 
-
 ### Corporate Events Strategy / Goals / OKRs
 
 * **Brand**
-    * For Sponsored Events: Get the GitLab brand in front of 15% of the event audience. 40,000 person event we would hope to get 4,000+ leads (10%) and 5% general awareness and visibility with additional branding and activities surrounding participation.
-    * Human touches- Tracked by leads collected, social interactions, number of opportunities created, referrals, current customers met, and quality time spent on each interaction.
-    * Audience Minimum Requirements- volume, relevance (our buyer persona, thought leaders, contributors), reach (thought leaders?), and duration of user/ buyer journey considered.
+  * For Sponsored Events: Get the GitLab brand in front of 15% of the event audience. 40,000 person event we would hope to get 4,000+ leads (10%) and 5% general awareness and visibility with additional branding and activities surrounding participation.
+  * Human touches- Tracked by leads collected, social interactions, number of opportunities created, referrals, current customers met, and quality time spent on each interaction.
+  * Audience Minimum Requirements- volume, relevance (our buyer persona, thought leaders, contributors), reach (thought leaders?), and duration of user/ buyer journey considered.
 * **ROI**
-    * Work closely with Integrated Marketing colleagues to ensure events are driving results and touching the right audience.
-    * Exceed minimum threshold of 8X ROI for any events that also have a demand generation.
-    * Aim to keep the cost per lead for a live event around $100.
+  * Work closely with Integrated Marketing colleagues to ensure events are driving results and touching the right audience.
+  * Exceed minimum threshold of 8X ROI for any events that also have a demand generation.
+  * Aim to keep the cost per lead for a live event around $100.
 * Thought Leadership and Education
 * Corporate Events Team OKRs are algined quarterly to the Integrated Marketing (therefore the CMO) OKRs.
 
@@ -140,6 +134,7 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 ### Third party sponsored events speaking session & CFP process
 
 **Corporate Events speaking session & CFP process references:**
+
 * [FY25 Sponsored Events & Epics](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4775)
 * [FY25 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/)
 * [Developer Advocate CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
@@ -153,13 +148,13 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 
 If our sponsorship does include a speaking session, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in choosing a session topic into the issue.
 
-Once a session topic is chosen, the sponsored events manager will hand off to the ECM and content creation lead. The ECM will ensure that that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
+Once a session topic is chosen, the sponsored events manager will hand off to the ECM and content creation lead. The ECM will ensure that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
 
 #### If our sponsorship **does not include** speaking session
 
 If our sponsorship does not include a speaking session, the ECM will ensure that our Developer Advocate team has it on their radar via the [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/) to submit during the event’s open CFP.
 
-If a session is chosen by an event for a CFP that was submitted, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in creating the presentation into the issue. The sponsored events manager will hand off to the ECM and they will ensure that that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
+If a session is chosen by an event for a CFP that was submitted, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in creating the presentation into the issue. The sponsored events manager will hand off to the ECM and they will ensure:25 that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
 
 If the event we are sponsoring is not on the Developer Advocate team's radar to submit the CFP the ECM will start the conversation with the DE team via a comment on the [strategy issue](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/).
 
@@ -171,18 +166,18 @@ If the event we are sponsoring is not on the Developer Advocate team's radar to 
 
 ### Teams we work with internally at Tier 1 shows
 
-    * Event Marketing — Project management, execute logistics, budget management, event staffing/training, lead collection/reporting, and ancillary events
-    * Field Marketing — Field communication, meeting program support, onsite booth support, ancillary event support
-    * Inside Sales Rep  — Drive registration, booth support, lead follow-up
-    * Customer Success (TAM, SAs attending) / Developer Relations — Booth support, attend customer meetings, presentations/speaking engagements
-    * Product/Alliance Marketing — Messaging, content creation (blogs, sponsorship deliverables, post event emails etc), onsite booth support
-    * Developer Advocate — Demos creation, onsite support
-    * Social and Communications — Pre-event, on-site, post-event social content creation, PR & media
-    * Lifecycle Marketing — Event landing pages, email blasts, database email reviews, SEO, copyedit
-    * Recruiting - Onsite booth support
-    * Design — Look & feel, tone, collateral (print), digital, environmental
-    * Large & MidMarket sales teams - Attending & setting up meetings
-    * [Leading Organization Team](/handbook/marketing/developer-relations/leading-organizations/) — Executive/customer meetings, attending social events (ex: receptions, dinners), panel discussions, speaking engagements, media interviews
+* Event Marketing — Project management, execute logistics, budget management, event staffing/training, lead collection/reporting, and ancillary events
+* Field Marketing — Field communication, meeting program support, onsite booth support, ancillary event support
+* Inside Sales Rep  — Drive registration, booth support, lead follow-up
+* Customer Success (TAM, SAs attending) / Developer Relations — Booth support, attend customer meetings, presentations/speaking engagements
+* Product/Alliance Marketing — Messaging, content creation (blogs, sponsorship deliverables, post event emails etc), onsite booth support
+* Developer Advocate — Demos creation, onsite support
+* Social and Communications — Pre-event, on-site, post-event social content creation, PR & media
+* Lifecycle Marketing — Event landing pages, email blasts, database email reviews, SEO, copyedit
+* Recruiting - Onsite booth support
+* Design — Look & feel, tone, collateral (print), digital, environmental
+* Large & MidMarket sales teams - Attending & setting up meetings
+* [Leading Organization Team](/handbook/marketing/developer-relations/leading-organizations/) — Executive/customer meetings, attending social events (ex: receptions, dinners), panel discussions, speaking engagements, media interviews
 
 ### Staffing 3rd party sponsored event booths
 
@@ -230,10 +225,10 @@ These are estimated numbers that the Corporate Events team uses to account for b
 ### DRI's
 
 * Overall Content DRI: Senior Management in Product Marketing or otherwise assigned by senior management, could be vary based on event
-    * Partner Lightning Talk DRI: Kelley Walker `@kmwalker`
-    * GitLab Lightning Talk DRI: Senior Management in Product Marketing, could be vary based on event
+  * Partner Lightning Talk DRI: Kelley Walker `@kmwalker`
+  * GitLab Lightning Talk DRI: Senior Management in Product Marketing, could be vary based on event
 * Corporate Events Lightning Talk Content Manager DRI: Suli King `@sstuelp`
-    * Ensures that the team is on track to identify lightning talks, finalize lightning talk schedule, and that lightning talk content deadlines are being hit.
+  * Ensures that the team is on track to identify lightning talks, finalize lightning talk schedule, and that lightning talk content deadlines are being hit.
 * Brand Compliance DRI: Adam Mittner or otherwise assigned by Adam Mittner `@amittner`
 
 ### Process
@@ -247,7 +242,6 @@ These are estimated numbers that the Corporate Events team uses to account for b
 4. Once GitLab content is created, it will then go through the review process which will entail: Overall Content DRI Review, Brand Compliance DRI Review, and Legal Review (only if necessary). Reviewers will leave feedback as comments in the slide presentation to be addressed.
 5. Once Parter content is created, it will then go through the review process which will entail: Overall Content DRI Review. Reviewers will leave feedback as comments in the slide presentation to be addressed.
 6. Once the content has gone through the review process and all reviewer comments have been addressed the content will then be deemed final.
-
 
 ## GitLab DevSecOps World Tour
 
@@ -409,32 +403,32 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
 ### Communicating Accessibility
 
 * Gathering attendee needs during registration.
-    * Dietary restrictions: If you have any questions, please follow up with the individual privately. Determine the specific restrictions and provide information on how ingredients will be provided. Offer solutions in case there is an issue onsite so that the attendee is prepared.
-    * Additional needs: Include an open text area in which attendees can list specific needs to help ensure full guest participation. Example requests include:
-        * Interpreting services
-        * Assistive listening devices
-        * Accessible parking
-        * Accessible hotel rooms
-        * Captioning
-        * Reserved front row seat
-        * Wheelchair access to working tables throughout the room
-        * Lactation room
-        * Seating for in-person events
-    * The team will make all good faith efforts to carry out requests, or will open lines of discussion for options when not available.
-    * Preferred pronouns: Aim to avoid a closed field for gender and instead provide a blank write-in field or inclusive dropdown options so attendees can select/type their preference pending on the badging system. This information will be displayed on name badges, or available to add with stickers etc. Email and landing page communication
+  * Dietary restrictions: If you have any questions, please follow up with the individual privately. Determine the specific restrictions and provide information on how ingredients will be provided. Offer solutions in case there is an issue onsite so that the attendee is prepared.
+  * Additional needs: Include an open text area in which attendees can list specific needs to help ensure full guest participation. Example requests include:
+    * Interpreting services
+    * Assistive listening devices
+    * Accessible parking
+    * Accessible hotel rooms
+    * Captioning
+    * Reserved front row seat
+    * Wheelchair access to working tables throughout the room
+    * Lactation room
+    * Seating for in-person events
+  * The team will make all good faith efforts to carry out requests, or will open lines of discussion for options when not available.
+  * Preferred pronouns: Aim to avoid a closed field for gender and instead provide a blank write-in field or inclusive dropdown options so attendees can select/type their preference pending on the badging system. This information will be displayed on name badges, or available to add with stickers etc. Email and landing page communication
 * Put accessibility information in the event page footer or have a page dedicated to accessibility.
 * Send out email on accessibility specifics and resources in advance of the event. Examples of what to communicate in that email:
-    * Use of flash photography
-    * Any sort of strobe lights or flashing images that may cause seizures
-    * Distinctly amplified sounds/music
-    * The use of fog machines/any other chemicals or smells that may make your space inaccessible to individuals with Multiple Chemical Sensitivity (MCS) or Idiopathic Environmental Intolerances (IEI)
-    * Whether interpreting services will be provided for various speakers, panels, talks, etc.
-    * Whether assistive listening devices will be provided.
-    * All optional parts of your event, including off-site social activities, that may not be fully accessible.
-    * Information about meals and dietary restrictions.
-    * Accessible transportation options
-    * First Aid/Medical Assistance options
-    * Info on how to get in touch with questions or concerns.
+  * Use of flash photography
+  * Any sort of strobe lights or flashing images that may cause seizures
+  * Distinctly amplified sounds/music
+  * The use of fog machines/any other chemicals or smells that may make your space inaccessible to individuals with Multiple Chemical Sensitivity (MCS) or Idiopathic Environmental Intolerances (IEI)
+  * Whether interpreting services will be provided for various speakers, panels, talks, etc.
+  * Whether assistive listening devices will be provided.
+  * All optional parts of your event, including off-site social activities, that may not be fully accessible.
+  * Information about meals and dietary restrictions.
+  * Accessible transportation options
+  * First Aid/Medical Assistance options
+  * Info on how to get in touch with questions or concerns.
 
 ### For speakers
 
@@ -486,7 +480,7 @@ Virtual events require considerable lead time and effort to plan, especially if 
 * Link to any resources as needed
 * If there are no questions, feel free to post an FAQ (and answer) or 2
 * Gamefy it! Any cool trivia or info that you didn't have time to cover in your talk? Add nuggets in the chat throughout the session
-    * "I'm going to sprinkle in the chat 4 little-known facts about Kubernetes – get ready!"
+  * "I'm going to sprinkle in the chat 4 little-known facts about Kubernetes – get ready!"
 
 #### Execution
 
@@ -518,6 +512,7 @@ As part of the event planning and execution process at GitLab, the event lead wi
 
 The planning committee will ensure that there is an inclusive environment when selecting CFP/keynote/speakers which aligns with [GitLab's event requirements for speaking](/handbook/marketing/corporate-communications/speaking-resources/#event-requirements).
 This includes researching and sourcing for speakers from [underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) and with various backgrounds including:
+
 * Ability, disability, and ableism
 * Faith and/or religious identity
 * Gender identity
@@ -530,6 +525,7 @@ This includes researching and sourcing for speakers from [underrepresented group
 #### Venue/Vendor/Supplier Selection
 
 When working with a vendor or supplier, the team will ensure that the selected venue/vendor/supplier is supportive of GitLab’s DIB values. These may include, but are not limited to the following:
+
 * LGBTQIA+, racial, faith/religious, and gender friendly
 * Are able to accommodate accessibility needs or are able to make special arrangements if needed
 * Work with diverse and locally owned businesses when possible
@@ -553,18 +549,19 @@ When working with a vendor or supplier, the team will ensure that the selected v
 At GitLab, the Corporate Events team wants to continue to play our part and operate with integrity when we are making decisions. The team is consciously making decisions that help align with the company’s social and environmental efforts.
 
 The Corporate Events team works with our [swag vendor](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/) that sources swag with a goal of 95% of swag is sustainable or eco-friendly or work with companies that have sustainable initiatives. Some categories that the Corporate Events team considers when selecting suppliers are:
+
 * Union Made Products
 * Give-Back Programs
 * Eco Products
 * Supplier Diversity
-    * Women Owned
-    * Black Owned
-    * Asian-Am Owned
-    * Hispanic/Lantinx-Am Owner
-    * Native American Owned
-    * Native Hawaiian/PI Owned
-    * Owner with Disability
-    * Veteran Owned
-    * LGBTQIA+ Owned
-    * Small Business Enterprise
-    * Small Disadvantaged Business
+  * Women Owned
+  * Black Owned
+  * Asian-Am Owned
+  * Hispanic/Lantinx-Am Owner
+  * Native American Owned
+  * Native Hawaiian/PI Owned
+  * Owner with Disability
+  * Veteran Owned
+  * LGBTQIA+ Owned
+  * Small Business Enterprise
+  * Small Disadvantaged Business

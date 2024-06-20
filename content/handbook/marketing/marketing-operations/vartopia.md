@@ -5,18 +5,22 @@ Vartopia is a partner lead sharing and deal registration system designed to maxi
 ## Prospects Module
 
 ## Channel Partner Lead Flow Overview
+
 Channel Partners can work with the Channel Marketing team to create campaigns that will be shared to the Vartopia Prospects module. The [campaign types](/handbook/marketing/channel-marketing/partner-campaigns/#types-of-partner-campaigns) include Partner sponsored, MDF funded, free trial and joint partner campaign.
 
 The flow starts from Marketo > Salesforce > Traction > Vartopia.
 
 The partner lead is:
+
 1. Created in Marketo via list import or form submission
 2. Synced SFDC via Salesforce Campaign Sync
 3. Assigned to `Partner Queue` via Traction
 4. Added to the Prospects Module in Vartopia.
 
 ## Vartopia Sync Requirements
+
 In order for the Partner to be able to see and action the lead in Vartopia, the SFDC record must have the following fields updated. Vartopia calls SFDC every hour looking for updates to the SFDC record.
+
 1. `Vartopia Partner Account` not equal to `NULL` (set by Marketo)
 1. `Prospect Share Status` = `Sending to Partner` (set by Traction)
 1. `Partner Prospect Status` = `Qualifying` (set by Traction)
@@ -24,9 +28,11 @@ In order for the Partner to be able to see and action the lead in Vartopia, the 
 Once synced sucessfully between systems, the `Vartopia Transaction Id` in SFDC will update from Vartopia. If this ID is missing, the lead did not sync correctly.
 
 ### Vartopia Access
+
 The account in SFDC must be set to `Vartopia Partner Account: Vartopia Access = Yes` in order to be passed leads. If that field is marked false, a SFDC error will occur when `Vartopia Partner Account` tries to be set. If this error occurs, the lead will not sync from marketo to SFDC, or if they are already existing in SFDC, that field will not be populated.
 
 ### Troubleshooting Vartopia Sync
+
 When the `Prospect Share Status` shows as `Sending to Partner` and the `Vartopia Transaction ID` isn't populated after a day, this typically means there is a sync error between Vartopia and Salesforce.
 
 Here are the steps to resolve the sync fail.
@@ -99,7 +105,6 @@ In the final phase, GitLab Inc. will allow Channel Partners a period of 5 days, 
 - At any time, a lead participates in an MDF campaign, they will not and can not be recalled.
 - Actively working leads will not shared to partners which means their `CRM Partner ID` can not be updated or should be removed. The only exception to this rule are leads who participate in an MDF campaign.
 
-
 ### FAQ - Partner Recall
 
 <details><summary>What is Vartopia and how does it fit in the Channel Partner Lead Flow? </summary>
@@ -131,7 +136,9 @@ A partner lead is recalled when their `Prospect Share Status` = `Recall`. After 
 <details><summary>What resources are available to track the leads that are recalled?</summary>
 
 This google sheet contains the records recalled from partner, and recalled records in Actively Working Accounts:
+
 - [Partner Recall Records](https://docs.google.com/spreadsheets/d/1A8Z_vKazprQJDkniX9kvfYuGXuzVBeG0JBXk51FAnHA/edit#gid=0)
+
 </details>
 
 <details><summary>What will happen when the leads get recalled?</summary>
@@ -167,7 +174,7 @@ Follow the steps to create a report that summarizes new leads that are assigned 
       1. Update the Selected Columns
    1. Update Date Filter
       1. Update Created Within (Number of days)
-   2. Update Scheduling and Distribution
+   1. Update Scheduling and Distribution
       1. Frequency
       1. Day of Week
       1. Update the Distribution List
@@ -190,12 +197,12 @@ Campaign will be synced to Vartopia starting September 27, 2023 (module launch d
 5. Vartopia - when a lead is ready to convert to DR, Vartopia will recognize there's a campaign linked to the account, and display a dropdown to select the campaign name.
 6. Salesforce - see the deal registration that's created and update the metrics on the campaign.
 
-## Vartopia Sync Requirements
+## Vartopia Sync Requirements for Campaign Module
 
-* The `Partner Account` must be selected with a Channel Partner to sync to Vartopia.
-* `Sync to Vartopia` must be checked on the campaign.
-* Campaign must be active to sync.
-* Only one `Partner Account` can be selected per campaign. For campaigns with multiple partners, you are required to create a child campaign per partner.
+- The `Partner Account` must be selected with a Channel Partner to sync to Vartopia.
+- `Sync to Vartopia` must be checked on the campaign.
+- Campaign must be active to sync.
+- Only one `Partner Account` can be selected per campaign. For campaigns with multiple partners, you are required to create a child campaign per partner.
 
 ## Create a new Salesforce Campaign to Sync to Vartopia
 
@@ -226,7 +233,7 @@ There are two path that partners can access the `GitLab Marketing Campaign` fiel
 **Through the Prospects tab:**
 
 1. Retrieve the lead from the Prospects tab
-  1. In the Prospect details, Partners will be able to see the campaign history on the `Web Form` field.
+1. In the Prospect details, Partners will be able to see the campaign history on the `Web Form` field.
 1. Update Prospect Share Status to `Accepted`
 1. Change Partner Prospect Status to `Qualified` to unlock the `Convert to Deal Registration` button
 1. Fill out the first step of Deal Registration form
@@ -240,15 +247,16 @@ There are two path that partners can access the `GitLab Marketing Campaign` fiel
 1. Create a new deal registration if POP has not be sent to GitLab
 1. Fill out the first step of Deal Registration form by adding a new company and contact.
 1. In the second step of the form, select the GitLab marketing campaign that drove the deal reg.
-  1. `GitLab Marketing Campaign` is a required field
-  1. The best practice is to select the marketing campaign.
-  1. But, If the deal reg was not influenced by a marketing campaign, select `Not Applicable`.
+1. `GitLab Marketing Campaign` is a required field
+1. The best practice is to select the marketing campaign.
+1. But, If the deal reg was not influenced by a marketing campaign, select `Not Applicable`.
 
 ## Deal Registration Change Request
 
 In the scenario where the `GitLab Marketing Campaign` needs to be added, updated or removed, the marketing team will need to create a Marketing Ops issue using the [pntr_dr_campaign_request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=ptnr_dr_campaign_request) template.
 
 The following will be required in this change request:
+
 1. Identify the DR(s) that need to be updated with proof of campaign member or touchpoint
 2. Marketing Ops will verify DR(s)
 3. Partner Marketing team Approval
@@ -288,25 +296,51 @@ This will allow the Distributor to tie the DR to the campaign, HOWEVER, we’ll 
 
 This process is still a work in progress, follow along in this [epic](https://gitlab.com/groups/gitlab-com/-/epics/2249) for the next iteration.
 
-#### Value-Add Campaign
+#### Campaigns Without Leads
 
-The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI.
+The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI, which doesn't require a lead list.
 
-1. Gabby - Create a Marketing Ops issue assigned to Salina requesting to have the SFDC campaign created and provide the name of the campaign.
-2. Salina - Create the SFDC campaign, and Salina will provide Gabby with the Salesforce Campaign ID
-3. Gabby - Add Campaign name and info to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1)
-4. This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
+1. Carahsoft - Add the Event/Activity Name and Campaign Code to the [Carahsoft Marketing Plan spreadsheet](https://docs.google.com/spreadsheets/d/12HTBd4wye-G-Ep6-WKFQ6dtYkambLN2U-OMihzF0NFE/edit)
+1. Gabby - Assign Salina to the Campaign Code column
+1. Salina - Create the SFDC campaign and add Campaign Name and Campaign Code to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1). This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
+1. Salina - Add SFDC Campaign ID, SFDC Campaign Link and confirm the campaign name has been added to the Smartsheet under the `Added to smartsheet` column.
+
+#### Campaigns Worked by Sales Dev
+
+This is not an MDF campaign, as referenced in the name, it's a value-added where the leads will be worked by the Sales Dev team. [Video recording](https://youtu.be/WwWYFCmPs7M) available
+
+1. Setup Allocadia
+    1. Create a subcategory and line item
+    1. Update `Worked by Sales Dev` to `True` on the subcategory (required)
+    1. Open GitLab epic and issues using the GitLab issue - Allocadia integration. The Gitlab epic and issues will include an issue template called, [Partner Sales Campaign - BDR Collaboration Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads). The purpose of this issue is to communicate how the Sales Dev team is expected to follow up with the campaign.
+       1. Tag the Public Sector Business Development & AMER SDR on the Partner Sales Campaign BDR issue for visibility.
+1. Follow the [instructions](/handbook/marketing/channel-marketing/partner-campaigns/#partner-campaigns) to setup Marketo Program and SFDC Campaign.
+   1. Setup in Marketo
+       1. Clone the appropriate FM program template
+       1. Go to the Program > My Token - Fill out the Tokens
+   1. Sync to Salesforce Campaign
+   1. Update Salesforce Campaign
+       1. Update `Is the Channel Partner Involved?` = Yes (Automated with Allocadia integration)
+       1. Update `Channel Partner Name` with Partner Name (Automated with Allocadia integration)
+       1. Mark campaign as `High Priority`
+1. Spreadsheet - Assign Salina to the [Carahsoft Marketing Plan spreadsheet](https://docs.google.com/spreadsheets/d/12HTBd4wye-G-Ep6-WKFQ6dtYkambLN2U-OMihzF0NFE/edit) to  Add Salesforce Campaign to [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1) (Interim process until the next iteration)
+1. Upload lead list via Google Drive
+    1. Include `CRM Partner ID`
+    1. Add `Partner Lead Worked by Sales Dev` = `True` column
+    1. Once imported, if the lead is net new, the source will be changed to `Partner Qualified Lead` (Automated)
 
 ## Field Glossary
 
 ## Lead Object
 
 ### Partner Prospect Admin
+
 The `Partner Prospect Admin` is a role that is responsible for managing and assigning the Prospects. Each `Vartopia Partner Account` can only have one person that will fill this role.
 
 This SFDC field in the `Vartopia Partner Account` MUST be filled in or else the records will be passed to no one.
 
 ### Prospect Share Status
+
 The `Prospect Share Status` governs the sharing of the lead and the receipt of the lead by the partner. The prospect share status has statuses that are set by both the manufacturer and the partner. Partners see this field as `Sharing Status`.
 
 1. **Sending to Partner**: This is the initial status set when sharing a lead to a partner. This status is set by GitLab.
@@ -363,12 +397,12 @@ These are some guidelines to become familiar with when working on a module with 
 - Vartopia uses managed flows in their change sets. Thus, we should always ask how it functions or request a demo in Classic, and have a Salesforce App Builder be on the call to inspect the flow to ensure that capabilities won’t break any existing processes before they are deployed.
 - Preempt any change set updates with a managed package upgrade to reduce the chances of any problems or errors.
 - Vartopia uses flows/alerts as part of their managed package intended to notify the partners of every update related to partner leads for the Prospect module ie when the leads are shared, accepted, assigned, rejected, etc. Our partners do not see the value in needing to be updated for every lead and every status change. Ensure the following flows/alerts are turned off before every managed package upgrade:
-   - Vartopia Prospect Lead Flow
-   - Vartopia Prospect Contact Flow
-   - Prospect Assigned to Sales Rep Workflow on Contact
-   - Prospect Assigned to Sales Rep on Lead
-   - The Salesperson when the Prospect admin has Assigned to the Contact
-   - The Salesperson when the Prospect Admin has Assigned the Lead
+  - Vartopia Prospect Lead Flow
+  - Vartopia Prospect Contact Flow
+  - Prospect Assigned to Sales Rep Workflow on Contact
+  - Prospect Assigned to Sales Rep on Lead
+  - The Salesperson when the Prospect admin has Assigned to the Contact
+  - The Salesperson when the Prospect Admin has Assigned the Lead
 
 ## FAQ
 
@@ -406,12 +440,10 @@ When you've selected a number of leads, a button will be unlocked called "Bulk U
 Vartopia is not available to administrator nor manufacturer, that being said, only Channel Partners will have access, and CAMs can not get access to Vartopia. You will be able to find the leads share to Partners via these Tableau reports:
 
 - [Partner Lead Status](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerLeadsContacts?:iid=2)
+
 </details>
 
 <details><summary>Can Distributors create deal registrations?</summary>
 
 Yes, Distributors can only create deal registrations on behalf of partners.
 </details>
-
-
-

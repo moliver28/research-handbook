@@ -27,7 +27,7 @@ The **readiness review issue** is used to coordinate among stakeholders who will
 |--------------|-------------|
 | [Readiness Planning Board](https://gitlab.com/gitlab-com/gl-infra/readiness/-/boards/7418781) | [Readiness Status Board](https://gitlab.com/gitlab-com/gl-infra/readiness/-/boards/5177836) |
 | Readiness currently being prepared. | Readiness actively in review. |
-| ![Triage](../team/scalability/img/label-triage.png)    <br/>![Proposal](../team/scalability/img/label-proposal.png) <br/>![Ready](../team/scalability/img/label-ready.png) | ![Ready](../team/scalability/img/label-ready.png) <br/>![In Progress](../team/scalability/img/label-in_progress.png) <br/>![Stalled](../team/scalability/img/label-stalled.png) <br/>![Blocked](../team/scalability/img/label-blocked.png) <br/>![Cancelled](../team/scalability/img/label-cancelled.png) <br/>![Done](../team/scalability/img/label-done.png)|
+| ![Triage](../../team/scalability/img/label-triage.png)    <br/>![Proposal](../../team/scalability/img/label-proposal.png) <br/>![Ready](../../team/scalability/img/label-ready.png) | ![Ready](../../team/scalability/img/label-ready.png) <br/>![In Progress](../../team/scalability/img/label-in_progress.png) <br/>![Stalled](../../team/scalability/img/label-stalled.png) <br/>![Blocked](../../team/scalability/img/label-blocked.png) <br/>![Cancelled](../../team/scalability/img/label-cancelled.png) <br/>![Done](../../team/scalability/img/label-done.png)|
 
 ## Criteria for starting a Production Readiness Review
 

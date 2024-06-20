@@ -40,7 +40,7 @@ Associate Developer Relations Program Manager is a [grade 5](/handbook/total-rew
 - You have had experience working in a customer, or community-facing environment, and are able to communicate effectively and empathetically.
 - You are very detail oriented.
 - You have proven experience creating documentation and process-oriented content.
-- You share our [values](https://handbook.gitlab.com/handbook/values/), and work in accordance with those values.
+- You share our [values](/handbook/values/), and work in accordance with those values.
 - You are willing to use GitLab.
 
 Nice-to-haves:
@@ -89,7 +89,7 @@ The Developer Relations Program Manager is a [grade 6](https://about.gitlab.com/
 - Experience in publishing, journalism, content marketing, social, and events. At least 1 year of experience giving talks and developing technical content.
 - Self-directed and work with minimal supervision.
 - Outstanding written and verbal communication skills with the ability to explain and translate complex technology concepts into simple and intuitive communications.
-- You share our [values](https://handbook.gitlab.com/handbook/values/) and work in accordance with those values.
+- You share our [values](/handbook/values/) and work in accordance with those values.
 - Ability to use GitLab.
 
 ## Senior Developer Relations Program Manager
@@ -117,7 +117,7 @@ The Senior Developer Relation Program Manager is a [grade 7](/handbook/total-rew
 - You have experience facilitating sensitive and complex community situations with humility, empathy, judgment, tact, and humor.
 - Excellent spoken and written English.
 - Familiarity with developer tools, Git, Continuous Integration, Containers, and Kubernetes.
-- You share our [values](https://handbook.gitlab.com/handbook/values/), and work in accordance with those values.
+- You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
 
 ### Performance Indicators

@@ -15,6 +15,7 @@ description: "Opportunity consults are deal reviews that focus on helping a sale
 ## Overview
 
 Opportunity consults are deal reviews that focus on helping a sales team member maximize the likelihood of winning and securing the customer's business. They are based on a joint inspection of the "health" of the opportunity's [Command Plan](/handbook/sales/command-of-the-message/command-plan/) and a 2-way dialogue to identify and commit to specific actions that aim to increase the likelihood of success. During every opportunity consult, the sales manager should assess whether or not the sales team member is able to do the below and provide coaching to help the sales team member address gaps identified.
+
 1. Concisely explain the opportunity background leveraging information from the [Opportunity Overview](/handbook/sales/command-of-the-message/command-plan/#opportunity-overview) fields
 1. Describe the customer's pain points and desired outcomes
 1. Highlight challenges or gaps in qualification aligned to the [MEDDPPICC](/handbook/sales/meddppicc/) opportunity qualification framework
@@ -35,6 +36,7 @@ Below is a general recommendation of the format and flow of an opportunity consu
 ## Opportunity Consult Coverage
 
 Regular opportunity consults on strategic deals are a linchpin to successfully reinforcing and sustaining the critical skills and behaviors underlying [Command of the Message](/handbook/sales/command-of-the-message/) and [MEDDPPICC](/handbook/sales/meddppicc/) that maximize the likelihood of winning and securing the customer's business. To improve win rates, forecast accuracy, and predictability, front-line sales managers should conduct at least one opportunity consult every 30 days for any and all opportunities that warrant a full Command Plan as outlined [here](/handbook/sales/command-of-the-message/command-plan/#overview). **Opportunity Consult Coverage** is a pair of metrics that measures how well sales managers are adhering to the above policy. More specifically, Opportunity Consult Coverage measures:
+
 1. The % of Stage 3+ opportunities at or above defined ARR thresholds (**$250K+ for Enterprise**, **$100K+ for Mid-Market**) that have had a documented opportunity consult (as measured by the [Manager Review](/handbook/sales/command-of-the-message/command-plan/#manager-review) field in the Command Plan) in the last 30 days.
 1. Same as above parameters but calculated based on opportunity pipeline *value* (versus opportunity count)
 
@@ -56,11 +58,11 @@ The higher the Opportunity Consult Coverage, the greater confidence sales leader
     1. **Document action items in a shared way** (e.g. document in Salesforce or send a summary wrap-up communication after the meeting)
 - Consider including key account team members (e.g. SAs and CSMs) in Opportunity Consults from time to time to facilitate improved transparency and collaboration
 - Coach sales team members on the best practices related to the Close Plan within a [Command Plan](/handbook/sales/command-of-the-message/command-plan/)
-    - Close plans should be updated in real time and, at minimum, on a weekly basis for later-stage (Stage 4+) deals
-    - Time stamp the latest update at the top with the date of the refresh so each line item starts with a specific date
-    - Liberally use ( ) or **** between line items or at the end of line items to denote Close Plan gaps that the sales team member intends to address during the next communication with the prospect/customer
-    - Keep documented actions as crisp and succinct as possible; endeavor to keep it on one line so as not to make it a blog
-    - Refer to the [Paper Process](/handbook/sales/meddppicc/#paper-process) field when appropriate so efforts aren't duplicated
+  - Close plans should be updated in real time and, at minimum, on a weekly basis for later-stage (Stage 4+) deals
+  - Time stamp the latest update at the top with the date of the refresh so each line item starts with a specific date
+  - Liberally use ( ) or **** between line items or at the end of line items to denote Close Plan gaps that the sales team member intends to address during the next communication with the prospect/customer
+  - Keep documented actions as crisp and succinct as possible; endeavor to keep it on one line so as not to make it a blog
+  - Refer to the [Paper Process](/handbook/sales/meddppicc/#paper-process) field when appropriate so efforts aren't duplicated
 
 ## Additional Resources
 

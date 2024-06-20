@@ -31,7 +31,7 @@
 /content/handbook/about/ @gitlab-com/content-sites
 /content/handbook/editing-handbook/ @gitlab-com/content-sites
 
-[Job Families]
+# The higher level job-families directory needs to be outside of a section and near the top of this CODEOWNERS file as job-families require additional approvals beyond what's listed in other sections below
 /content/job-families/ @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @gitlab-com/content-sites @gitlab-com/egroup
 
 ^[Acquisitions]
@@ -94,7 +94,7 @@
 ^[customer-success]
 /content/handbook/customer-success/ @spatching @mrleutz
 /content/handbook/customer-success/csm/segment/cse/ @afrusciano @esivak @ofalk
-/content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake
+/content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake @darmans
 /content/handbook/customer-success/professional-services-engineering/education-services/ @scottcosentinogitlab @nshah19
 
 ^[eba-team]
@@ -111,17 +111,20 @@
 /content/job-families/engineering/ @sabrinafarmer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/engineering/incubation/ @bmarnane @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
+^[Eng-Architecture]
+/content/handbook/engineering/architecture/ @ayufan @grzesiek @glopezfernandez @andrewn @mappelman @DylanGriffith @theoretick @shekharpatnaik @stanhu @fabiopitino @tkuah @ntepluhina @jessieay @vitallium
+
 ^[Eng-Development-department]
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
 /content/handbook/engineering/development/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
+/content/handbook/engineering/development/analytics/product-analytics.md @timzallmann @dennis @rob.hunt @mwoolf
 /content/handbook/engineering/development/analytics/analytics-instrumentation/ @bastirehm @timzallmann
-/content/handbook/engineering/development/analytics/analytics-instrumentation/gitlab_com_performance_dashboard.md @bastirehm
-/content/handbook/engineering/development/data-science/ @timzallmann @bmarnane @dsatcher @m_gill @pcalder
+/content/handbook/engineering/development/data-science/ @timzallmann @bmarnane @dsatcher @m_gill
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/model-validation @mray2020 @pcalder
-/content/handbook/engineering/development/data-science/modelops/ @bmarnane @pcalder @mray2020
+/content/handbook/engineering/development/data-science/ai-powered/model-validation @mray2020
+/content/handbook/engineering/development/data-science/modelops/ @m_gill @mray2020
 /content/handbook/engineering/development/database.md @alexives
 /content/handbook/engineering/development/dev/ @timzallmann
 /content/handbook/engineering/development/dev/create/ @dsatcher
@@ -152,6 +155,7 @@
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
 /content/handbook/engineering/development/ops/verify/pipeline-security/ @shampton
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
+/content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @pcalder
 /content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @pcalder @ryaanwells
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
@@ -169,13 +173,13 @@
 /content/handbook/engineering/workflow/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
 
 ^[Eng-Infrastructure-Quality-department]
-/content/handbook/engineering/infrastructure-quality.md @marin @meks @cdeleon_gitlab @vincywilson
+/content/handbook/engineering/infrastructure-quality.md @marin @meks @vincywilson
 
 ^[Eng-Infrastructure-department]
 /content/handbook/engineering/careers/matrix/infrastructure @marin @kwanyangu @meks @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
-/content/handbook/engineering/infrastructure/ @cdu1 @cdeleon_gitlab @marin @meks @vincywilson
+/content/handbook/engineering/infrastructure/ @cdu1 @marin @meks @vincywilson
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/core-platform/ @cdu1
 /content/handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/ @rmar1
@@ -185,11 +189,11 @@
 /content/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale.md @arturoherrero
 /content/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @cdu1 @plu8
-/content/handbook/engineering/infrastructure/core-platform/systems/geo/ @juan-silva
+/content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
 /content/handbook/engineering/infrastructure/core-platform/systems/gitaly.md @andrashorvath @jcaigitlab
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @meks
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @kwanyangu @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @cdu1 @cdeleon_gitlab @marin @meks @vincywilson @rymai
+/content/handbook/engineering/infrastructure/performance-indicators.md @cdu1 @marin @meks @vincywilson @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
 /content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @meks
 /content/handbook/engineering/infrastructure/team/ @marin
@@ -210,8 +214,8 @@
 /content/handbook/engineering/infrastructure/test-platform/onboarding/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
 /content/handbook/engineering/infrastructure/test-platform/quad-planning/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
 /content/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/ @ksvoboda
-/content/handbook/engineering/infrastructure/test-platform/test-engineering-team.md @kkolpakova
-/content/handbook/engineering/quality/engineering-analytics.md @meks @cdeleon_gitlab @lmai1
+/content/handbook/engineering/infrastructure/test-platform/test-engineering-team/ @kkolpakova
+/content/handbook/engineering/quality/engineering-analytics.md @meks @lmai1
 
 ^[Eng-Incubation-department]
 /content/handbook/engineering/development/incubation/ @bmarnane
@@ -255,16 +259,6 @@
 /content/handbook/engineering/readmes/sean-carroll.md @sean_carroll
 /content/handbook/engineering/readmes/thong-kuah.md @tkuah
 
-# CODEOWNER approvals are required for Source Code to support dogfooding approvals
-[Eng-SourceCode]
-/content/handbook/engineering/development/dev/create/source-code-be/ @sean_carroll @igor.drozdov @vyaklushin @gitlab-com/egroup @gitlab-com/content-sites
-
-# CODEOWNER approvals are required for Code Review to support dogfooding approvals
-[Eng-CodeReview]
-/content/handbook/engineering/development/dev/create/code-review/ @phikai @andr3 @francoisrose @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/development/dev/create/code-review/backend/ @francoisrose @phikai @kerrizor @marc_shaw @dskim_gitlab @garyh @patrickbajao @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/development/dev/create/code-review/frontend.md @andr3 @phikai @gitlab-com/egroup @gitlab-com/content-sites
-
 ^[entity]
 /content/handbook/entity/ @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
 
@@ -296,33 +290,6 @@
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin
 /content/handbook/legal/privacy/gdpr.md @lasayers @emccrann
 
-# This is the required approvals LACA section
-[Legal-and-Corporate-Affairs-approval-required]
-/content/handbook/legal/acceptable-use-policy.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/agile-planning-terms.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/ai-functionality-terms.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/api-terms.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/data-processing-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/dmca.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/education-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/opensource-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/policies/website-terms-of-use.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/professional-services-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/reseller-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/subscription-agreement/index.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/technology-partner-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/testing-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @gitlab-com/egroup @gitlab-com/content-sites
-# The second part of the LACA section is for the legacy agreement pages.
-/content/handbook/legal/ai-functionality-terms-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/legacy/legacy-ospa-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/legacy/legacy-psa-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/legacy/legacy-subscription-agreement-v2.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/legacy/legacy-subscription-agreement-v3.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/legacy/legacy-subscription-agreement-v4.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/testing-agreement-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/testing-agreement-v2.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-
 ^[marketing]
 /content/handbook/marketing/ @akramer
 /content/handbook/marketing/account-based-marketing/ @megan_odowd @marcigee
@@ -336,6 +303,7 @@
 /content/handbook/marketing/demand-generation/ @akramer
 /content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5
 /content/handbook/marketing/developer-relations/ @esalvadorp @akramer
+/content/handbook/marketing/developer-relations/cocreation.md @esalvadorp @nick_vh @stingrayza
 /content/handbook/marketing/developer-relations/community-programs/ @esalvadorp
 /content/handbook/marketing/developer-relations/community-programs/education-program/ @esalvadorp @johncoghlan
 /content/handbook/marketing/developer-relations/community-programs/open-source-program/ @esalvadorp
@@ -373,6 +341,7 @@
 /content/handbook/marketing/positioning-faq.md @akramer @dsteer
 /content/handbook/marketing/project-management-guidelines/ @johncoghlan
 /content/handbook/marketing/readmes/ @akramer
+/content/handbook/marketing/readmes/michael-friedrich.md @dnsmichi
 /content/handbook/marketing/sales-development/ @akramer @jlarramendy
 /content/handbook/marketing/sales-plays-cicd/ @dsteer
 /content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @warias @dsteer
@@ -472,9 +441,6 @@
 /content/job-families/product/ux-research-operations-coordinator.md @asmolinski2 @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/ux-researcher.md @asmolinski2 @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
-[product-ai]
-/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @hbenson @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites
-
 ^[product-dev-flow]
 /content/handbook/product-development-flow/ @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
 
@@ -569,21 +535,6 @@
 /content/handbook/support/ @gitlab-com/support
 /content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi
 
-[support-require-approvals]
-/content/handbook/support/workflows/account_deletion_access_request_workflows.md @jcolyer @lyle @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/data_processing_addendums.md @lyle @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/dmca.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/how-to-set-up-shift-coverage-for-an-event.md @gitlab-com/support/managers @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/information-request.md @lasayers @dfrhodes @emccrann @smccreesh @rachelpack @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/log_requests.md @gitlab-com/support/managers @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/personal_data_access_account_deletion.md @jcolyer @lyle @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/pii_removal_requests.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/reinstating-blocked-accounts.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/setting_ticket_priority.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/team/performance_review.md @sabrinafarmer @lbot @lyle @shaunmccann @vparsons @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/working_with_security.md @gitlab-com/support/managers @gitlab-com/gl-security @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/zendesk-instances.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
-
 ^[teamops]
 /content/teamops/ @nshah19
 /content/handbook/teamops/ @nshah19
@@ -597,9 +548,6 @@
 /content/handbook/total-rewards/benefits/ @shristikauffman @Rkole
 /content/handbook/total-rewards/compensation/ @shristikauffman @mwilkins @franzrivera
 
-[values]
-/content/handbook/values/ @sytses @streas @drogozinski @sheridam @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites
-
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup
 /content/handbook/company/working-groups/ai-integration.md @hbenson @timzallmann @tmccaslin
@@ -612,9 +560,19 @@
 /content/handbook/company/working-groups/multi-large.md @cdu1 @mbursi
 /content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @pcalder
 
-## Please keep the required handbook sections near the end
+## Please keep the required handbook sections near the end, with the exception of fallback items, such as `handbook` and `Job Families`
 [CODEOWNERS]
 /.gitlab/ @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
+
+# CODEOWNER approvals are required for Code Review to support dogfooding approvals
+[Eng-CodeReview]
+/content/handbook/engineering/development/dev/create/code-review/ @phikai @andr3 @francoisrose @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/development/dev/create/code-review/backend/ @francoisrose @phikai @kerrizor @marc_shaw @dskim_gitlab @garyh @patrickbajao @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/development/dev/create/code-review/frontend.md @andr3 @phikai @gitlab-com/egroup @gitlab-com/content-sites
+
+# CODEOWNER approvals are required for Source Code to support dogfooding approvals
+[Eng-SourceCode]
+/content/handbook/engineering/development/dev/create/source-code-be/ @andr3 @dpoosarla @vyaklushin @ashmckenzie @gitlab-com/egroup @gitlab-com/content-sites
 
 [handbook-operations]
 /.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
@@ -637,16 +595,65 @@
 /README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /scripts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 
+# This is the required approvals LACA section
+[Legal-and-Corporate-Affairs-approval-required]
+/content/handbook/legal/acceptable-use-policy.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/agile-planning-terms.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/ai-functionality-terms.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/api-terms.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/data-processing-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/dmca.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/education-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/opensource-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/policies/website-terms-of-use.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/professional-services-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/reseller-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/subscription-agreement/index.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/technology-partner-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/testing-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @gitlab-com/egroup @gitlab-com/content-sites
+# The second part of the LACA section is for the legacy agreement pages.
+/content/handbook/legal/ai-functionality-terms-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/legacy/legacy-ospa-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/legacy/legacy-psa-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/legacy/legacy-subscription-agreement-v2.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/legacy/legacy-subscription-agreement-v3.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/legacy/legacy-subscription-agreement-v4.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/testing-agreement-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/legal/testing-agreement-v2.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
+
+[product-ai]
+/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @hbenson @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites
+
+[support-require-approvals]
+/content/handbook/support/workflows/account_deletion_access_request_workflows.md @jcolyer @lyle @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/data_processing_addendums.md @lyle @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/dmca.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/how-to-set-up-shift-coverage-for-an-event.md @gitlab-com/support/managers @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/information-request.md @lasayers @dfrhodes @emccrann @smccreesh @rachelpack @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/log_requests.md @gitlab-com/support/managers @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/personal_data_access_account_deletion.md @jcolyer @lyle @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/pii_removal_requests.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/reinstating-blocked-accounts.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/setting_ticket_priority.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/team/performance_review.md @sabrinafarmer @lbot @lyle @shaunmccann @vparsons @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/working_with_security.md @gitlab-com/support/managers @gitlab-com/gl-security @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/zendesk-instances.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
+
+[values]
+/content/handbook/values/ @sytses @streas @drogozinski @sheridam @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites
+
 ## Controlled Documents must be in this section, and it must be the last section
 [Controlled-Documents]
 /content/handbook/entity/iberia-srl-spain.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/entity/israel-ltd.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
 /content/handbook/business-technology/data-team/data-management.md @amiebright @dvanrooijen2 @iweeks @nmcavinue @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/data-team/platform/_index.md @amiebright @dvanrooijen2 @iweeks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/end-user-services/onboarding-access-requests/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/end-user-services/self-help-troubleshooting/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/engineering/infrastructure/change-management.md @marin @meks @joergheilig @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/infrastructure/change-management.md @marin @meks @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @cdu1 @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/network-security.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
@@ -691,6 +698,7 @@
 /content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 ### This is not a controlled doc however it mentions how to make a page a controlled doc, so this line is required for validation. See issue#213 for excluding this.
-/content/handbook/editing-handbook/frontmatter.md @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
-
+/content/handbook/engineering/gitlab-com/policies/teleport/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/editing-handbook/frontmatter.md @gitlab-com/ceo-chief-of-staff-team @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites

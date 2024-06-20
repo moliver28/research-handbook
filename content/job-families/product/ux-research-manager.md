@@ -78,7 +78,7 @@ The Manager, UX Research is a [grade 8](/handbook/total-rewards/compensation/com
 > ### Some useful resources
 >
 > - Unsure on where to get started? Check out our [handbook page on recording a presentation in Zoom](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom). A free Zoom account is all you'd need to complete this presentation.
-> - Interested in the type of work our UX team does? Check out our [UX Showcases on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
+> - Interested in the type of work our UX team does? Check out our [UX Forum on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
 > - We work with a [low level of shame](/handbook/values/#low-level-of-shame) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
 > - Other questions? Want the Recruiter to review your presentation before the review from the Hiring Manager? Don't hesitate to get in touch with the Recruiter who conducted your screening call.
 
@@ -106,7 +106,7 @@ The Senior Manager, UX Research is a [grade 9](/handbook/total-rewards/compensat
 - Facilitate the creation and execution of UX Research OKRs in collabration with the UX Research team and UX Leadership.
 - Define and manage performance indicators for the UX Research team by actively contributing to the UX Research KPIs on the UX KPIs page in the handbook.
 - Coach UX Research Managers on how to conduct 1:1s, growth, and feedback conversations with their direct reports.
-- Help drive cross-product research by having an awareness of what's happening across all sections through active participation in UX Research peer reviews, UX Showcases, and Group Conversations.
+- Help drive cross-product research by having an awareness of what's happening across all sections through active participation in UX Research peer reviews, UX Forum, and Group Conversations.
 - Actively advocate for UX Research throughout the company, so that the company is aware of what UX Research does, how they do it, and what insights they have delivered.
 - Support UX Research Managers' career development by ensuring: 1) they each have a Career Development Plan in place, 2) there are frequent check-ins on the plan, and 3) when applicable, special projects are being matched to support one's Career Development Plan.
 - Align the way that UX Researchers work with how their cross-functional partners in Product Managment, Product Design, and Engineering prioritize, track, and manage work.

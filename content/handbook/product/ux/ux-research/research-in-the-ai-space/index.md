@@ -34,14 +34,14 @@ AI solutions themselves won’t reveal the user problem they are meant to solve.
 **Use case definition (recommended option for medium level confidence)**
 
 - Use existing research and your domain expertise to formulate assumptions on the user problem you believe is being addressed with the AI solution. Use the following format to phrase the problem statement, which is aligned to how we write [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD):
-   - “When [circumstance a person is in when they want to accomplish something], I want to [something the person wants to accomplish].”
-   - Example: *When I am on triage rotation and prioritizing business-critical risks, I want to review the most recent risk detected in my assets.*
+  - “When [circumstance a person is in when they want to accomplish something], I want to [something the person wants to accomplish].”
+  - Example: *When I am on triage rotation and prioritizing business-critical risks, I want to review the most recent risk detected in my assets.*
 - Then, validate your problem statements through a quantitative [online survey](/handbook/product/ux/ux-research/surveys/) to understand:
-   - The frequency of users encountering this problem
-   - The importance of addressing the problem
+  - The frequency of users encountering this problem
+  - The importance of addressing the problem
 - There are other parameters you can include in your survey, such as:
-   - How users currently solve the problem
-   - The difficulty of solving this problem today
+  - How users currently solve the problem
+  - The difficulty of solving this problem today
 - See this [template](https://docs.google.com/document/d/1-81BH7JPj_SU5L1YvfX2HpYuIdKnUuTpRHuRlKb5w3M/copy) for example questions. More example studies coming soon.
 
 **Extended solution validation**
@@ -73,12 +73,12 @@ Once an AI powered solution is available for validation, make sure to not only c
 
 - **Baseline data** - on how users currently solve this problem. This allows us to assess the impact the AI solution may have and how helpful it is.
 - **On trust** - If people trust the information provided by AI. If they don’t trust it, they won’t use it. Here are some example questions to consider:
-   - *How much do you trust the [feature name, e.g. code suggestions] provided?*
-   - *Do you trust [feature name, e.g. code suggestions] with [task, e.g. providing correct code]? Why/Why not?*
+  - *How much do you trust the [feature name, e.g. code suggestions] provided?*
+  - *Do you trust [feature name, e.g. code suggestions] with [task, e.g. providing correct code]? Why/Why not?*
 - **On giving feedback** - If they feel comfortable giving system feedback, e.g. when a code suggestion is not helpful. The AI improves based on user feedback, so it’s important they can do it. You can do this by including a task that focuses on giving feedback on a “wrong” recommendation and measure if they were successful doing it and how they felt about it.
 - **On attitudes towards third-party AI services** - If your AI solution is powered by a third party (e.g. OpenAI), it’s important to understand if users are aware of the use of a third-party and their attitude towards it. This provides insights into users’ mental model (see [Guideline 5](#guideline-5-plan-ahead-for-longitudinal-research)) and impact on GitLab as a brand.
 
-We are piloting a [set of AI metrics](#ai-user-experience-metrics-pilot) and recommend including them in your solution validation.
+We are piloting a [set of AI metrics](#ai-user-experience-survey-pilot) and recommend including them in your solution validation.
 
 To get robust feedback during solution validation, it’s recommended to collect at least three data points. As AI output varies, it’s not sufficient to rely on the first output only. You can do this by having three similar tasks to see how participants react to the AI’s responses in these three different scenarios.
 
@@ -96,15 +96,15 @@ AI will make mistakes due to their probabilistic nature. It’s important to und
 
 ### Guideline 5: Plan ahead for longitudinal research
 
-AI evolves as users engage with it over time. As a result, users’ mental models about how it works as they engage with it over time may change (it’s a continuous loop). To ensure we’re continuing to offer AI solutions of value, it’s  important to understand how mental models change over time and evaluate the performance of AI solutions as use cases and users increase.
+AI evolves as users engage with it over time. As a result, users’ mental models about how it works as they engage with it over time may change (it’s a continuous loop). To ensure we’re continuing to offer AI solutions of value, it’s important to understand how mental models change over time and evaluate the performance of AI solutions as use cases and users increase.
 
-We are piloting a [set of AI metrics](#ai-user-experience-metrics-pilot) that allow you to evaluate and track user's experience with AI powered features over time.
+We are piloting a [set of AI metrics](#ai-user-experience-survey-pilot) that allow you to evaluate and track user's experience with AI powered features over time.
 
-## AI User Experience Metrics (Pilot)
+## AI User Experience Survey (Pilot)
 
-We developed, and are currently piloting, a set of metrics to evaluate AI powered features in terms of how well they are meeting user needs. These metrics can be used during Solution Validation and to track a user's experience with an AI powered feature over time.
+We developed, and are currently piloting, a survey that contains a set of questions to evaluate AI powered features in terms of how well they are meeting user needs (not usability). This survey can be used to track a user's experience with an AI powered feature over time.
 
-The metrics focus on the following 8 constructs that we observed in a literature review and are captured in [11 survey questions](https://gitlab.fra1.qualtrics.com/jfe/form/SV_e3yxudPETRbZzfM).
+The survey focuses on the following 8 constructs that we observed in a literature review and are captured in [11 survey questions](https://gitlab.fra1.qualtrics.com/jfe/form/SV_e3yxudPETRbZzfM).
 
 - **Accuracy:** How accurate do users find our AI? How much effort is needed to get a meaningful response?
 - **Trustability/Fallibility:** Do users trust GitLab's AI?
@@ -115,7 +115,50 @@ The metrics focus on the following 8 constructs that we observed in a literature
 - **Learnability:** Are users able to quickly understand the AI powered feature?
 - **AI limits:** Do users feel like they understand what the AI powered feature can and can't do?
 
-A survey with these metrics is available for you to send to your participants who are working with AI features. If you want to use this survey, ask Anne Lasch for access to the Qualtrics project.
+This survey is available for you to send to your participants who are working with AI features. If you want to use this survey, ask Anne Lasch or Erika Feldman for access to the Qualtrics project.
+
+## AI Usability Metric
+
+To effectively evaluate the usability of our AI experiences and track progress over time, we will follow the existing [Usability testing](/handbook/product/ux/ux-research/usability-testing/) process. Specific asks for AI usability:
+
+- Use external users as your participants
+- Utilize the measures called out below
+
+### Measures
+
+As with our standard approach to usability testing, not only do we measure pass/fail rates, we also have the participant rate each task using specific metrics, which were chosen for three reasons: they're lightweight, they focus on the mechanics/usability of the experience, and they should already be familiar because they're used in other validation research. This approach gives us observational and perceptive data to use when measuring a given task.
+
+For the purposes of AI Usability testing, the following measures are to be used for each task:
+
+- [Effectiveness](/handbook/product/ux/ux-research/usability-testing/#effectiveness) (pass/fail)
+- [Efficiency](/handbook/product/ux/ux-research/usability-testing/#efficiency) (Single Ease Question)
+- [Satisfaction](/handbook/product/ux/ux-research/usability-testing/#satisfaction) of the experience
+
+These measures can be applied in either moderated or unmoderated tests.
+
+### Scoring
+
+Similar to the Category Maturity Scorecard scoring (Figure 1), the calculated AI Usability score will be a number between 1.00 - 5.00. This is intended to give some granularity to the scores as regression/progression occurs. If need be, the score is translatable to an A-F grade scale.
+
+| ![Scoring rubric from our Category Maturity Scorecard process](AI_usability_metric_chart.png)  |
+|------------------------------------------------------------------------------------------------|
+| **Figure 1: Borrowing the existing scoring rubric from our Category Maturity Scorecard process** |
+
+A new Google Sheet is located [here](https://docs.google.com/spreadsheets/d/1LeBsDFgE_UTinRLG4IVatSfzPB1bz9yIYP3ZaWhU58Q/edit?gid=1157931099#gid=1157931099), which will calculate the AI Usability score for you.
+
+### Goals
+
+The quality bar for AI experiences is just as high as our other experiences within GitLab. That translates to
+
+- a pass rate of 4/5 or 80%
+- a score range of 3.63-3.94, or a ‘B’ grade.
+
+### Considerations
+
+- Focus on user tasks that provide value to the user. JTBD may not exist yet in the space you’re working in. That’s ok; it shouldn’t be a blocker for AI usability testing.
+- If you have 1 task failure, the failure (pass/fail) is documented, but their ratings aren’t documented; find a replacement participant to meet the minimum of 5 participants.
+- If you have 2 task failures on the same task, stop testing that task. Understand what needs to be addressed, make adjustments, then start testing that task again.
+- Testing AI experiences introduces new challenges to consider. For example, it's important to be clear and accurate on the capabilities of what's being shown to participants. This is to set the right kind of expectations. More details on this topic can be found in the **Challenges of Testing AI Products** section of [this article](https://www.uxmatters.com/mt/archives/2023/06/testing-the-future-a-guide-to-testing-ai-products-with-users.php).
 
 ### References
 

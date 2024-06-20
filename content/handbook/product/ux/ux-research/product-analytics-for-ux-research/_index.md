@@ -87,23 +87,23 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
 
 1. **Get access to:**
 
-  - The right tools (usually Tableau online is sufficient)
-  - The data (do you need SAFE access)
+   - The right tools (usually Tableau online is sufficient)
+   - The data (do you need SAFE access)
 
 1. **Determine the set of questions you’re trying to answer, including:**
 
-  - Which user criteria / segment?
-  - Which metrics?
-  - Which components or features (if applicable)?
+   - Which user criteria / segment?
+   - Which metrics?
+   - Which components or features (if applicable)?
 
 1. **Check with your PM (and/or your PDI counterpart) to determine:**
 
-  - Is this tracked today?
-    - This can be difficult to determine, try asking in #data or by working with your PM and PDI counterpart.
-    - If not, consider reaching out to the Analytics Instrumentation team or ask in #data.
-  - Is there a dashboard or analysis done already, or do you need a new chart or dashboard?
-    - Before opening a request, do a quick search to see if an analysis already exists. If you have trouble determining that, you can ask in #data.
-    - If new analysis is needed, open a PDI request. Alternatively, you can try to build out your own charts and dashboards, though based on past UXR experiences, partnering with PDI is a great way to get more familiar with Tableau and product usage data.
+   - Is this tracked today?
+     - This can be difficult to determine, try asking in #data or by working with your PM and PDI counterpart.
+     - If not, consider reaching out to the Analytics Instrumentation team or ask in #data.
+   - Is there a dashboard or analysis done already, or do you need a new chart or dashboard?
+     - Before opening a request, do a quick search to see if an analysis already exists. If you have trouble determining that, you can ask in #data.
+     - If new analysis is needed, open a PDI request. Alternatively, you can try to build out your own charts and dashboards, though based on past UXR experiences, partnering with PDI is a great way to get more familiar with Tableau and product usage data.
 
 #### How can I get help?
 

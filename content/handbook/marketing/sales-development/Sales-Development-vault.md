@@ -81,7 +81,6 @@ Additionally, you can use the matrix below as a quick-cheet to determine what da
 | Use cases on website   | - Do they have the same customers as us? How do they help them?                                                    |
 | Speak to a user of the tool to create personalized message to decision maker | - Speak to someone who uses out tools every day to uncover pain-points (performance degradation at peak times) and take that information to a decision maker |
 
-
 ## Making Changes to the handbook
 
 [Video Walkthrough of how to make changes to the GitLab Handbook for the Sales Development org](https://www.youtube.com/watch?v=P7Nv7bzksiY&t=1032s)
@@ -100,11 +99,19 @@ Steps:
 
 ## Automatic Enrollment to Sequences
 
-From FY24Q4 onwards, we will pilot [automatic triggers](https://support.outreach.io/hc/en-us/articles/221361788-How-To-Create-an-Outreach-Trigger) through Outreach. As a first iteration, we will be automatically enrolling leads that indicate a high Propensity to Purchase (PTP) score to a full High Touch outreach sequence. The filters applicable for this trigger are:
+From FY24Q4 onwards, we will pilot [automatic triggers](https://support.outreach.io/hc/en-us/articles/221361788-How-To-Create-an-Outreach-Trigger) through Outreach.
+
+### Automatic High PTP Sequence
+
+As a first iteration, we will be automatically enrolling leads that indicate a high Propensity to Purchase (PTP) score to a full High Touch outreach sequence. The filters applicable for this trigger are:
 
 - Lead has direct phone in their record
 - Lead has a high PTP score (4 or 5)
 - Lead is actively enrolled to a Low Touch Sequence
+
+### Automatic Bounced Sequence
+
+We have an additional process where leads that [were automatically moved to disqualify lead status because of a wrong email]https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/7718(), BUT have a phone number associated to them, will automatically be enrolled to a [sequence.](https://web.outreach.io/sequences/13842)
 
 ## BDR Territory Movement Rules of Engagement
 
@@ -140,28 +147,27 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 - The BDR team makes sure to book calls, with a minimum notice time of 48 business hours.
 - The BDR team makes sure to properly fulfil Outbound SAO criteria, or work with AE to create a mutual command plan.
 - The AE team makes sure to:
-    - Accept SAOs within 8 working hours after an IQM call.
-    - To leave a chatter note on the opportunity record, tagging BDR and AE manager with feedback on the level of qualification and handoff in case of discrepancies.
-    - To be responsible for managing the prospect relationship after all handoff types have taken place. This includes re-scheduling conflicts.
+  - Accept SAOs within 8 working hours after an IQM call.
+  - To leave a chatter note on the opportunity record, tagging BDR and AE manager with feedback on the level of qualification and handoff in case of discrepancies.
+  - To be responsible for managing the prospect relationship after all handoff types have taken place. This includes re-scheduling conflicts.
 
 ### 1. BDR Qualified Meeting
 
 - Are leads that have been qualified by the BDR over a Discovery call.
-- CoM principles have been applied to the call and some of the Before/After Scenarios, Positive Business Outcomes, Requirements and Metrics have been identified and agreed upon between the prospect and the BDR.
+- [CoM principles](https://docs.google.com/document/d/1m5YBOCc--M1Iq5-SEEd2OUWDjYyc6VJ3xTsDEEqisUQ/edit) have been applied to the call and some of the Before/After Scenarios, Positive Business Outcomes, Requirements and Metrics have been identified and agreed upon between the prospect and the BDR.
 - There is a clear need or intent identified from the side of the company, and the prospect has clearly articulated a path to the ultimate decision-maker, as per the guidelines for outbound SAO criteria.
-
 
 **BDR steps after discovery call**
 
 - Summarize CoM principles uncovered during the call
 - Schedule next step through Outreach while being on the call with the prospect
-    - Meeting Type should be 45’ Evaluation Orchestration Call and body of invitation should be adjusted to meet the prospect’s needs.
+  - Meeting Type should be 45’ Evaluation Orchestration Call and body of invitation should be adjusted to meet the prospect’s needs.
 - Send AE Intro Email
-    - For demanding hand-offs, customer-facing agenda may also be copied and attached to intro email.
+  - For demanding hand-offs, customer-facing agenda may also be copied and attached to intro email.
 - Log Required SFDC fields and populate Notes field.
 - Unless there’s a scheduling conflict for the BDR, attend Evaluation Orchestration Call and kick-off the call:
-    - Summarize the BDR qualifying conversation by mentioning and verifying the before and after scenario of the prospect, as transcribed on the SAO notes.
-    - After prospect acknowledges that their internal situation have not changes inbetween BDR and AE call, recap the expectations and metrics as transcribed on the SAO notes and handoff to AE to move forward.
+  - Summarize the BDR qualifying conversation by mentioning and verifying the before and after scenario of the prospect, as transcribed on the SAO notes.
+  - After prospect acknowledges that their internal situation have not changes inbetween BDR and AE call, recap the expectations and metrics as transcribed on the SAO notes and handoff to AE to move forward.
 
 #### 2. Joint IQM
 
@@ -172,11 +178,11 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 **BDR steps before discovery call**
 
 - Schedule next step through Outreach while being on the call with the prospect, and schedule straight to the AEs calendar.
-    - Meeting Type should be 15’ Discovery Call.
+  - Meeting Type should be 15’ Discovery Call.
 - Create SFDC opportunity, and log any pre-determined or relevant information from your past reseearch.
 - Communicate with AE, and create a mutual command plan for the call.
-    - When kicking off the call, summarize the BDR research and reason for reaching out, such compelling events, Persons with LIM, etc
-    - After prospect acknowledges their compelling event and internal situation, discovery call continues with pre agreed upon structure with AE.
+  - When kicking off the call, summarize the BDR research and reason for reaching out, such compelling events, Persons with LIM, etc
+  - After prospect acknowledges their compelling event and internal situation, discovery call continues with pre agreed upon structure with AE.
 
 ## Organizing a Group Demo
 
@@ -199,7 +205,6 @@ Organizing a shared demo makes it more simple for us to offer spontaneously a de
 | 5. Change the Dial country to match attendees' language                      |                                                                                                                                                                                                                                                    |
 | 6. Configure additional settings such as Q&A, recording, and email settings |                                                                                                                                                                                                                                                    |
 | 7. Save the configuration as a template for future use                       |                                                                                                                                                                                                                                                    |
-
 
 ## Outbound Account Ranking Matrix
 
@@ -232,13 +237,13 @@ This complementary table can help structure your thinking around what outbound a
 | - Early Adopters / Innovative IT Shops (Identifiers & Keywords): Kubernetes / Containers, Microservices, Multi-cloud, DevOps, DevSecOps, CICD (and open-source + proprietary tools), SAST / DAST, Digital Transformation |
 | - Current DevOps Adoption (multiple DevOps roles on staff or hiring for multiple DevOps positions) |
 | **Outbound Prospecting Framework** |
+
 | **Priority Level** | **Account Strategy Includes** | **Next Step Date** | **Next Step Notes** |
 | Priority 1 | Priority #, Any Details | Future based next steps | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell, events |
 | Priority 2 | Priority #, Weekly Plan or Length of Sequence | Future based next steps depending on account strategy | Include the weeks outreach and overall strategy |
 | Priority 3 | Priority # | Update Next Step Date to next months outreach | BDR Next Step, What kind of nurture (Product Updates, Events, Ect) |
 
 ## Growth Strategies, Ranking and RoE
-
 
 **Strategies:**
 
@@ -255,7 +260,6 @@ This complementary table can help structure your thinking around what outbound a
 **Professional Services Opportunities**
 
 A Professional Services Opportunity will be used to cover any integration, consulting, training or other service that a Sales rep will sell to a prospect/client and needs or wants to be invoiced separately. To invoice separately a new quote and opportunity must be created.
-
 
 ## Frequently Used Terms
 
@@ -305,7 +309,7 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | Warm Calling              | The method used to strategically incorporate phone calls and voicemails into an outbound prospecting workflow.                                                               |
 | Rules of Engagement (RoE) | Defines ownership of a lead, SAO credit, and collaboration between SDRs and BDRs.                                                                                          |
 | BDR Prospecting Status    | Salesforce status includes Queued, Actively Working, Worked in FY, and Restricted.                                                                                         |
-| Partner Prospecting Status| If populated, the lead/contact is worked by a partner, and Sales Dev should not proceed with outreach.                                                                     |
+| Vartopia Partner Account | If populated, the lead/contact is worked by a partner, and Sales Dev should not proceed with outreach.                                                                     |
 | Actively Working Status   | Accounts chosen for strategic outreach based on alignment, news, initiatives, etc. Recycles after 10 weeks if not worked.                                                    |
 | Actively Working Status Requirements | BDR Account Strategy field must be populated. Research and Next Steps notes within 10 days. Minimum 5 people in sequences.                                               |
 | Queued status             | Accounts waiting to be moved into Actively Working. SDRs work MQLs in this status.                                                                                          |
@@ -329,13 +333,13 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ### ZoomInfo Training Resources
 
-* ZoomInfo University: [40 Minute Introduction Video](https://university.zoominfo.com/learn/course/101-introduction-to-zoominfo-on-demand/training-session/101-introduction-to-zoominfo)
-* GitLab Edcast: [ZoomInfo Introduction Training](https://gitlab.edcast.com/journey/week)
-* GitLab Edcast: [ZoomInfo Advanced Training](https://gitlab.edcast.com/journey/week-note)
-* ZI 101 Video: [Quick Saved Searches](https://www.youtube.com/watch?v=OpTgvoOQ1jM)
-* ZI 101 Video: [Leveraging List Match](https://www.youtube.com/watch?v=vl1kpsNa874)
-* ZI 101 Video: [Tagging Prospects in LinkedIn](https://www.youtube.com/watch?v=GQWTZWbMgg8)
-* GitLab Handbook: [Zoominfo handbook page](/handbook/marketing/marketing-operations/zoominfo/)
+- ZoomInfo University: [40 Minute Introduction Video](https://university.zoominfo.com/learn/course/101-introduction-to-zoominfo-on-demand/training-session/101-introduction-to-zoominfo)
+- GitLab Edcast: [ZoomInfo Introduction Training](https://gitlab.edcast.com/journey/week)
+- GitLab Edcast: [ZoomInfo Advanced Training](https://gitlab.edcast.com/journey/week-note)
+- ZI 101 Video: [Quick Saved Searches](https://www.youtube.com/watch?v=OpTgvoOQ1jM)
+- ZI 101 Video: [Leveraging List Match](https://www.youtube.com/watch?v=vl1kpsNa874)
+- ZI 101 Video: [Tagging Prospects in LinkedIn](https://www.youtube.com/watch?v=GQWTZWbMgg8)
+- GitLab Handbook: [Zoominfo handbook page](/handbook/marketing/marketing-operations/zoominfo/)
 
 ## LinkedIn Sales Navigator
 
@@ -343,11 +347,11 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ### LinkedIn Training Resources
 
-* LinkedIn Intro: [70 Minute Navigator Tutorial](https://www.linkedin.com/learning/learn-linkedin-sales-navigator-3/welcome-to-sales-navigator)
-* GitLab Edcast: [LinkedIn Navigator Training](https://gitlab.edcast.com/journey/week-note)
-* GitLab Video: [Peer Tips](https://drive.google.com/file/d/1xzz8cEiSFqZ7bOw-dpqoNlHjSDwrIFE4/view)
-* GitLab Video: [LinkedIn Personalization](https://www.youtube.com/watch?v=7vEVB-WgDPA)
-* GitLab Video: [Loading Accounts from Salesforce into LinkedIn](https://www.youtube.com/watch?v=_D8walmmOAU)
+- LinkedIn Intro: [70 Minute Navigator Tutorial](https://www.linkedin.com/learning/learn-linkedin-sales-navigator-3/welcome-to-sales-navigator)
+- GitLab Edcast: [LinkedIn Navigator Training](https://gitlab.edcast.com/journey/week-note)
+- GitLab Video: [Peer Tips](https://drive.google.com/file/d/1xzz8cEiSFqZ7bOw-dpqoNlHjSDwrIFE4/view)
+- GitLab Video: [LinkedIn Personalization](https://www.youtube.com/watch?v=7vEVB-WgDPA)
+- GitLab Video: [Loading Accounts from Salesforce into LinkedIn](https://www.youtube.com/watch?v=_D8walmmOAU)
 
 ## 6Sense
 
@@ -355,10 +359,10 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ### 6Sense Training Resources
 
-* [General 6Sense Resources](https://6sense.com/resource-library/)
-* [6Sense for BDRs Video](https://6sense.com/resources/videos/inside-sales-persona-demo)
-* [6Sense Account Identification Guide](https://6sense.com/platform/account-matching/the-guide-to-account-identification/)
-* [6Sense Persona Identification Guide](https://6sense.com/guides/how-to-identify-and-influence-the-entire-buying-team/)
+- [General 6Sense Resources](https://6sense.com/resource-library/)
+- [6Sense for BDRs Video](https://6sense.com/resources/videos/inside-sales-persona-demo)
+- [6Sense Account Identification Guide](https://6sense.com/platform/account-matching/the-guide-to-account-identification/)
+- [6Sense Persona Identification Guide](https://6sense.com/guides/how-to-identify-and-influence-the-entire-buying-team/)
 
 ### 6Sense 6QA Automations
 
@@ -368,20 +372,20 @@ Specifically:
 
 - We have three segments (SMB, MM, ENTG) saved on folder 9a of 6Sense. Each of these segments tries to identify the top accounts we currently have on SFDC that are not being worked by our team.
 - Through 6Sense Orchestrations, we will automatically update these accounts weekly.
-     - We aim for 200 records to be enriched every week.
-     - We aim for a 90 day buffer period between records being enriched.
-     - The SFDC field `Sales Dev Automation` will be enriched with the value of the respective segment (SMB, MM, ENTG)
+  - We aim for 200 records to be enriched every week.
+  - We aim for a 90 day buffer period between records being enriched.
+  - The SFDC field `Sales Dev Automation` will be enriched with the value of the respective segment (SMB, MM, ENTG)
 - From the moment these accounts get enriched by 6Sense, they will automatically show up on our pre-saved searches on ZoomInfo, one for each segment.
 
-     - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
-     - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
-     - [ENTG](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiVlBfRVhFQ1VUSVZFUyxESVJFQ1RPUiIsInJwcCI6MjUsImRlcGFydG1lbnRzIjoiSW5mb3JtYXRpb24gVGVjaG5vbG9neSxFbmdpbmVlcmluZyAmIFRlY2huaWNhbCIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWMiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+  - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+  - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+  - [ENTG](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiVlBfRVhFQ1VUSVZFUyxESVJFQ1RPUiIsInJwcCI6MjUsImRlcGFydG1lbnRzIjoiSW5mb3JtYXRpb24gVGVjaG5vbG9neSxFbmdpbmVlcmluZyAmIFRlY2huaWNhbCIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWMiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
 
 - These saved searches will pull the relevant decision-makers per segment, and through ZoomInfo workflows do the following:
 
-     - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
-     - Automatically add MM/ENTG accounts to the [SFDC dashboard here.](https://gitlab.my.salesforce.com/01ZPL000000kAPN)
-     - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
+  - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
+  - Automatically add MM/ENTG accounts to the [SFDC dashboard here.](https://gitlab.my.salesforce.com/01ZPL000000kAPN)
+  - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
 
 ## Qualified
 
@@ -393,9 +397,9 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 
 ### Chorus Training Resources
 
-* Chorus: [Tips for Getting Start](https://docs.chorus.ai/hc/en-us/articles/115009183547-Tips-on-Getting-Started-with-Chorus)
-* GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
-* GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
+- Chorus: [Tips for Getting Start](https://docs.chorus.ai/hc/en-us/articles/115009183547-Tips-on-Getting-Started-with-Chorus)
+- GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
+- GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
 
 ## Crayon Competitive Messaging Resources
 
@@ -410,8 +414,8 @@ This is where you can find messaging related to GitLab vs some of our competiors
 We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit).
 
 ### General leadership principles
-This page will serve as a training resource and operational guide for current and future managers. All Sales Development Managers should follow the [general leadership
-principles](/handbook/leadership/) set out in the handbook.
+
+This page will serve as a training resource and operational guide for current and future managers. All Sales Development Managers should follow the [general leadership principles](/handbook/leadership/) set out in the handbook.
 
 - [1-1s](/handbook/leadership/1-1/)
 - [Providing regular feedback](/handbook/leadership/#giving-feedback)
@@ -455,16 +459,16 @@ To help structure your usage of the above, you can follow the steps below during
 | :----: | :-----: |
 |  SSoT Sales > Sales Development Territory Alignment Sheet  | Can be found in Manager Home Base sheet. Single source of truth document for Sales Development to AE/SAE/Territory Alignment |
 |  [Territory Change Request Issue Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691) | Use the territory Change Request Issue Board and the BDR_Territory_Change Sales Development Issue Template in order to request a territory change for your rep.  |
-|  [Sales Dev Internal Onboarding and Transition issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Internal_Onboarding_and_Transition_Template.md) | This issue template is to be used when a new teamember is joining the Sales Development Org for the first time or they are transitioning from SDR to BDR or vice versa.
+|  [Sales Dev Internal Onboarding and Transition issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Internal_Onboarding_and_Transition_Template.md) | This issue template is to be used when a new teamember is joining the Sales Development Org for the first time or they are transitioning from SDR to BDR or vice versa. |
 |  [BDR Territory Change Request issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/BDR_Territory_Change.md) | Use this issue template when you would like to request territory changes for your BDRs. |
 |  [Sales Dev Exit Handover Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/BDR_Territory_Change.md) | This template is meant to be used for team members that are departing from a team to hand off their pending tasks to their peers. |
 
-##  GitLab Resources
+## GitLab Resources
 
 |                                                                                             Resource                                                                                             | Purpose |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| :-----: |
 |                                         [Adding yourself or someone else to the team page](/handbook/editing-handbook/#add-yourself-to-the-team-page)                                          | Video to assist new hires with updating their blank team page placeholder |
-|                                                                             Update manager or SDR role in Salesforce                                                                             | To update a manager or Sales Development role in Salesforce, submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of roles that need to be updated.
+|                                                                             Update manager or SDR role in Salesforce                                                                             | To update a manager or Sales Development role in Salesforce, submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of roles that need to be updated. |
 |                                                                          Create or update members of a Slack user group                                                                          | A user group is a group of members in a workspace who often need to be notified at once — for example, @managers. To update who is in one of the Sales Development groups, submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of people that need to be added. Fill out the requested info and delete any remaining info that isn't needed. Under 'Account Creation' put Slack User Group: @ Name (i.e. @Managers). You can also use the bulk AR to request the creation of a user group and list the users who should be in it.  |
 |                                                                                Add someone to the Sales Development Gmail alias                                                                                | Submit a [single person access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or [bulk access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) depending on the number of people that need to be added. Fill out the appropriate info and delete any remaining info that isn't needed. Under 'Account Creation' put the Sales Development email alias |
 |                                                         [Make an edit to the handbook](/handbook/editing-handbook/)                                                          | Guide for how to edit the handbook. *Note: all new hires must do this as part of their onboarding |
@@ -473,7 +477,7 @@ To help structure your usage of the above, you can follow the steps below during
 |                                           [Resolve failed pipeline when creating an MR](https://www.youtube.com/watch?v=WlgH-6cX1k8&feature=youtu.be)                                            | Quick overview of how to go about identifying why a pipeline might be failing for a merge request to the handbook page |
 | [Sales Development Onboarding Job Specific Task Section](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_sales_development.md) | This task section will automatically be added to the general onboarding issue for new SDRs based on their role when hired. |
 
-##  Tracking & Monitoring Resources
+## Tracking & Monitoring Resources
 
 | Resource | Purpose |
 | :----: | :-----: |
@@ -495,46 +499,45 @@ To help structure your usage of the above, you can follow the steps below during
 ## Sales_Dev_fyi Channel Information
 
 ### Post Naming Convention
-* Posts in #Sales_Dev_fyi should have a header that lets the Reps know who the post is for, what type of post it is, and the urgency of the post.
-* It is requested  when a post in the Sales Dev FYI channel pertains to you that you leave a 👀  emoji on the post to let management know that you read it
 
+- Posts in #Sales_Dev_fyi should have a header that lets the Reps know who the post is for, what type of post it is, and the urgency of the post.
+- It is requested  when a post in the Sales Dev FYI channel pertains to you that you leave a 👀  emoji on the post to let management know that you read it
 
 Format: **Audience | Type | Urgency**
 Example:
 
-* **Audience**
-     * All of Sales Development
-     * All SDRs
-     * All BDRS
-     * Specific Teams/Positions
-          * Ex. AMER Large Land East
+- **Audience**
+  - All of Sales Development
+  - All SDRs
+  - All BDRS
+  - Specific Teams/Positions
+    - Ex. AMER Large Land East
 
-* **Type**
-     * Enablement - (Mandatory, Optional)
-     * Operations -  (Process Change, Tools, Sequences, Reports, System Changes/System Updates )
-     * New Event/Initiative/Resource
-     * Survey
-     * Org Wide Announcement
+- **Type**
+  - Enablement - (Mandatory, Optional)
+  - Operations -  (Process Change, Tools, Sequences, Reports, System Changes/System Updates )
+  - New Event/Initiative/Resource
+  - Survey
+  - Org Wide Announcement
 
-* **Urgency**
-     * 🚨 Action Required - urgent, action required with a due date
-          * Example: Mandatory enablement launch
-     * 🧠 Need to Know - urgent, update directly impacts audiences' workflows/processes
-          * Example: Sales Dev process change
-     * 📊 Feedback Requested - less urgent, action requested (with or without long-lead due date) but not required
-          * Example: Survey from Product Group
-     * 👀 Review - less urgent, does not directly or materially impact audiences' workflows/processes
-          * Example: New customer story or new competitive resource
+- **Urgency**
+  - 🚨 Action Required - urgent, action required with a due date
+    - Example: Mandatory enablement launch
+  - 🧠 Need to Know - urgent, update directly impacts audiences' workflows/processes
+    - Example: Sales Dev process change
+  - 📊 Feedback Requested - less urgent, action requested (with or without long-lead due date) but not required
+    - Example: Survey from Product Group
+  - 👀 Review - less urgent, does not directly or materially impact audiences' workflows/processes
+    - Example: New customer story or new competitive resource
 
-* **Example Sales_Dev_fyi channel post titles**
-     * `[All of Sales Development] | [Enablement - Mandatory] | [🚨 Action Required]`
+- **Example Sales_Dev_fyi channel post titles**
+  - `[All of Sales Development] | [Enablement - Mandatory] | [🚨 Action Required]`
 
-     * `[All BDRs] | [Operations - Outreach Process Cleanup] | [🧠 Need to Know ]`
+  - `[All BDRs] | [Operations - Outreach Process Cleanup] | [🧠 Need to Know ]`
 
-     * `[EMEA Enterprise Land] | [Operations - New Outreach Event Sequence] | [🚨 Action Required ]`
+  - `[EMEA Enterprise Land] | [Operations - New Outreach Event Sequence] | [🚨 Action Required ]`
 
-     * `[All of Sales Development] | [Survey - People Group Survey Reminder] | [📊 Feedback Requested ]`
-
+  - `[All of Sales Development] | [Survey - People Group Survey Reminder] | [📊 Feedback Requested ]`
 
 ## Field Marketing <> BDR Collaboration Process
 
@@ -548,33 +551,33 @@ On folder #5 in the [6Sense segments list](https://gitlab.abm.6sense.com/segment
 
 **[Currently Actively Working Accounts Template](https://gitlab.abm.6sense.com/segments/segment/495284/accounts/?mode=edit&segment_type=6sense_network)**
 
-* This report will cross-reference your team's currently AWAs against 6Sense intent data, and will highlight the best ICP accounts currently on your team's pipeline.
+- This report will cross-reference your team's currently AWAs against 6Sense intent data, and will highlight the best ICP accounts currently on your team's pipeline.
 
 **[CE/SFDC Accounts not in Actively Working Status](https://gitlab.abm.6sense.com/segments/segment/495296/accounts/?mode=edit&segment_type=6sense_network)**
 
-* This report will highlight the best ICP accounts on our existing database, that are not actively being pursued by your team.
+- This report will highlight the best ICP accounts on our existing database, that are not actively being pursued by your team.
 
 **[Greenfield Accounts not in Actively Workin](https://gitlab.abm.6sense.com/segments/segment/495295/accounts/?mode=edit&segment_type=6sense_network)**
 
-* This report will highlight the best ICP accounts that are NOt currently on our existing database. Please note that due to the complexity of our sales territories, there may be edits required on filter #8 (Address). There are multiple variants for City, Country or Region that can be used to accurately display each team's territory. Please feel free to reach out to the Ops team to help you determine these and generate the best reports possible.
+- This report will highlight the best ICP accounts that are NOt currently on our existing database. Please note that due to the complexity of our sales territories, there may be edits required on filter #8 (Address). There are multiple variants for City, Country or Region that can be used to accurately display each team's territory. Please feel free to reach out to the Ops team to help you determine these and generate the best reports possible.
 
 ## Sales Dev Territory and Role Reports
 
-**[Sales Dev by Salesforce Profile and Role - ](https://gitlab.my.salesforce.com/00O8X000008gonx)**
+**[Sales Dev by Salesforce Profile and Role -](https://gitlab.my.salesforce.com/00O8X000008gonx)**
 
-* Sales Dev Ops profile is the only profile with the ability to help add a member to opps beyond stage 0 (we can't add SDR/BDR to closed won opps however)
-* Certain roles have certain permissions ie. Team Lead roles are able to transfer leads. Director level roles are able to help when account assignments are incorrect by updating account address and employee size information.
-* Roles determine visibility based on the region (AMER, APAC, EMEA). Example: a BDR with EMEA in their role, will be able to see all accounts where the account territory owner has EMEA in their territory role name.
+- Sales Dev Ops profile is the only profile with the ability to help add a member to opps beyond stage 0 (we can't add SDR/BDR to closed won opps however)
+- Certain roles have certain permissions ie. Team Lead roles are able to transfer leads. Director level roles are able to help when account assignments are incorrect by updating account address and employee size information.
+- Roles determine visibility based on the region (AMER, APAC, EMEA). Example: a BDR with EMEA in their role, will be able to see all accounts where the account territory owner has EMEA in their territory role name.
 
-**[Sales Dev Territories by Team role/member associated with each territory - ](https://gitlab.my.salesforce.com/00O8X000008gpBL)**
+**[Sales Dev Territories by Team role/member associated with each territory -](https://gitlab.my.salesforce.com/00O8X000008gpBL)**
 
-* This allows you to see what members/roles are associated with each territory. When you need a change in BDR assignment to a territory, please sharethe territory name with Sales Dev Ops, not the name of the account. Search for the account owner name and tell Sales Dev Ops which territory/territories require that BDR to be assigned.
+- This allows you to see what members/roles are associated with each territory. When you need a change in BDR assignment to a territory, please sharethe territory name with Sales Dev Ops, not the name of the account. Search for the account owner name and tell Sales Dev Ops which territory/territories require that BDR to be assigned.
 
 ## New Account AE Reports
 
-* Use [this report](https://gitlab.my.salesforce.com/00O8X000008gmAA) to figure out the the territory name for the account you are working. Use command F to find the zip/state/country and figure out correct territory name. 
-* Then use [this report](https://gitlab.my.salesforce.com/00O8X000008glPn) by plugging in the territory name to figure out who the correct AE is
-* Please make sure you have all the correct location information on the lead you converting to initially create this new account. 
+- Use [this report](https://gitlab.my.salesforce.com/00O8X000008gmAA) to figure out the territory name for the account you are working. Use command F to find the zip/state/country and figure out correct territory name.
+- Then use [this report](https://gitlab.my.salesforce.com/00O8X000008glPn) by plugging in the territory name to figure out who the correct AE is
+- Please make sure you have all the correct location information on the lead you converting to initially create this new account.
 
 ## Onboarding
 
@@ -590,20 +593,21 @@ With the creation of this issue, an [access request (AR) will also be automatica
 On your new hire's first day, the assigned People Connect Team member will [schedule a welcome email](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#day-1-onboarding-tasks) to arrive at 7:30am (local time of the new team member) on their start date detailing how your new hire can access GitLab and begin their onboarding process.
 
 ### Manager Onboarding Checklist
+
 ##### Prior to Day 1
-* Complete ‘Manager’ tasks on the onboarding issue *Note: there are tasks to complete prior to your new hire starting
-* Schedule a welcome call at the start of your new hire’s first day to discuss:
-     * Main focus should be completing as much of your onboarding as possible.
-     * When you have available time feel free to move ahead as some onboarding task lists for the day won't take you all day.
-     * How to manage meeting invites in your inbox (there are a ton!)
-     * You will receive numerous emails in their first two weeks asking you to register or activate your license to a specific tool we use, please go ahead and do all of this.
-     * What you can expect in regards to [onboarding at GitLab as an SDR](/handbook/marketing/sales-development/sdr-playbook-onboarding/)
+
+- Complete ‘Manager’ tasks on the onboarding issue *Note: there are tasks to complete prior to your new hire starting
+- Schedule a welcome call at the start of your new hire’s first day to discuss:
+  - Main focus should be completing as much of your onboarding as possible.
+  - When you have available time feel free to move ahead as some onboarding task lists for the day won't take you all day.
+  - How to manage meeting invites in your inbox (there are a ton!)
+  - You will receive numerous emails in their first two weeks asking you to register or activate your license to a specific tool we use, please go ahead and do all of this.
+  - What you can expect in regards to [onboarding at GitLab as an SDR](/handbook/marketing/sales-development/sdr-playbook-onboarding/)
 
 ##### After new hire has started
 
-* Complete remaining ‘Manager’ tasks on the onboarding issue
-* Set up [1:1s](/handbook/leadership/1-1/)
-
+- Complete remaining ‘Manager’ tasks on the onboarding issue
+- Set up [1:1s](/handbook/leadership/1-1/)
 
 ## Career Mobility Issues
 
@@ -620,27 +624,30 @@ A career mobility issue should be opened 2 weeks before the transition date by t
 ## Leave of Absence
 
 If an SDR will be out for a prolonged period of time, please follow the proper processes and complete the SDR leave checklist.
+
 - [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
 - [Emergency Situations](/handbook/people-group/paid-time-off/#communicating-time-off-for-emergency-situations)
 - [Unpaid leave](/handbook/people-group/paid-time-off/#unpaid-leave-of-absence)
 
 ### Manager Sales Development Leave Checklist
+
 -
 
 ## Offboarding
+
 The full process for offboarding at GitLab differs based on whether it is voluntary or involuntary. These processes can be found on the [offboarding handbook page](/handbook/people-group/offboarding/#offboarding).
 
 ### Manager Offboarding Checklist
 
-* The people team will create an [offboarding issue](/handbook/people-group/offboarding/#offboarding), complete all ‘Manager’ tasks on the issue. If you have any questions use the #managers #people-connect slack channels. You can also reach out to the assigned people ops team member on the issue.
+- The people team will create an [offboarding issue](/handbook/people-group/offboarding/#offboarding), complete all ‘Manager’ tasks on the issue. If you have any questions use the #managers #people-connect slack channels. You can also reach out to the assigned people ops team member on the issue.
 
 ### Sales Dev Handover Issue
 
-* When a teamember is either leaving GitLab, leaving the Sales Dev Org, or transferring to another BDR team the departing team's manager must created a [Sales Dev Handover Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Exit_handover_template.md?ref_type=heads)
+- When a teamember is either leaving GitLab, leaving the Sales Dev Org, or transferring to another BDR team the departing team's manager must created a [Sales Dev Handover Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Exit_handover_template.md?ref_type=heads)
 
 ## Sequence Creation
 
-* We follow the process outlined [here](/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+- We follow the process outlined [here](/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
 ### Sequence needs to be a globally applicable
 
@@ -656,19 +663,19 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 ### Things to look out for when reviewing a sequence as a Manager
 
 - Does the messaging of the sequence follow Command Of the Message?
-     - Are all emails formatted appropriately with pain-probing questions and value propositions?
-     - Are the relevant value drivers for the personas targeted by this sequence used?
+  - Are all emails formatted appropriately with pain-probing questions and value propositions?
+  - Are the relevant value drivers for the personas targeted by this sequence used?
 - Is there a proper mix of automated and manual touches?
-     - Are 1-2 highly personalized emails used for High-Touch sequences?
-     - Are there at least 4 call steps for High-Touch sequences?
-     - For Low-Touch/Awareness campaigns are all touchpoints automated?
+  - Are 1-2 highly personalized emails used for High-Touch sequences?
+  - Are there at least 4 call steps for High-Touch sequences?
+  - For Low-Touch/Awareness campaigns are all touchpoints automated?
 - Are proper Outreach elements used?
-     - Are automated variables used all on all emails?
-     - Are manual personalisation variables used on manual emails?
+  - Are automated variables used all on all emails?
+  - Are manual personalisation variables used on manual emails?
 - Is the purpose of the sequence clearly articulated on the issue description?
-     - Are there other sequences that are proven to work that could be used instead?
-     - Is there a valid reason for this campaign? Will it contribute to results in terms of SAOs or awareness?
-     - Is the target demographic clearly thought out?
+  - Are there other sequences that are proven to work that could be used instead?
+  - Is there a valid reason for this campaign? Will it contribute to results in terms of SAOs or awareness?
+  - Is the target demographic clearly thought out?
 
 ## Sales Development Onboarding
 
@@ -680,35 +687,39 @@ The goal in all of this is to ensure that you feel confident and comfortable to 
 
 ## Sales Development Onboarding Process
 
-1.  The People Team initiates a general GitLab onboarding issue for every new GitLab team member. On your first day, you will receive a welcome email with a link to your specific onboarding issue and steps to get started. You will also meet with your manager to discuss:
-    * Access to your sales development specific issue
-    * Prioritizing your onboarding issues
-    * How to manage calendar invites in your inbox on Day 1
-1.  Within 3 days of starting at GitLab, you will receive an email giving you access to [Command of the Message (CoM)](/handbook/sales/command-of-the-message/) e-learning materials. CoM is our value-driven conversation framework that will be covered during SQS.
-1.  During your second week, the Sales Enablement Team will send you a calendar invite for the upcoming SQS as well as an email prompting you to log in to Google Classroom to begin working through the [Sales Quick Start learning path](/handbook/sales/onboarding/sales-learning-path/). Connect with your manager to arrange travel for SQS or if you are unable to attend the next session.
-2.  Within a week of attending SQS, you will receive access to the 13-week Command of the Message Fast Start program.
-3.  In your first few weeks you will receive access to your Sales Development Technical Development training. This is to be completed within your first 180 days and ties directly to SDR [levels](/job-families/marketing/sales-development-representative/#levels).
+1. The People Team initiates a general GitLab onboarding issue for every new GitLab team member. On your first day, you will receive a welcome email with a link to your specific onboarding issue and steps to get started. You will also meet with your manager to discuss:
+    - Access to your sales development specific issue
+    - Prioritizing your onboarding issues
+    - How to manage calendar invites in your inbox on Day 1
+1. Within 3 days of starting at GitLab, you will receive an email giving you access to [Command of the Message (CoM)](/handbook/sales/command-of-the-message/) e-learning materials. CoM is our value-driven conversation framework that will be covered during SQS.
+1. During your second week, the Sales Enablement Team will send you a calendar invite for the upcoming SQS as well as an email prompting you to log in to Google Classroom to begin working through the [Sales Quick Start learning path](/handbook/sales/onboarding/sales-learning-path/). Connect with your manager to arrange travel for SQS or if you are unable to attend the next session.
+1. Within a week of attending SQS, you will receive access to the 13-week Command of the Message Fast Start program.
+1. In your first few weeks you will receive access to your Sales Development Technical Development training. This is to be completed within your first 180 days and ties directly to SDR [levels](/job-families/marketing/sales-development-representative/#levels).
 
 ## Graduating from Sales Development Onboarding
-* Complete GitLab general onboarding issue
-* Complete BDR/SDR specific onboarding issue
-* Complete Google Classroom SQS prep work
-* Attend the SQS workshop
-* Complete the 13-week Command of the Message Fast Start program
+
+- Complete GitLab general onboarding issue
+- Complete BDR/SDR specific onboarding issue
+- Complete Google Classroom SQS prep work
+- Attend the SQS workshop
+- Complete the 13-week Command of the Message Fast Start program
 
 ## BDR/SDR Quota for Months 0-4 and Compensation
+
 For BDRs and SDRs joining on the first Monday of the month
-* Month 1 = 25% quota
-* Month 2 = 50% quota
-* Month 3 = 75% quota
-* Month 4 = 100% quota
+
+- Month 1 = 25% quota
+- Month 2 = 50% quota
+- Month 3 = 75% quota
+- Month 4 = 100% quota
 
 For BDRs and SDRs joining GitLab on the 15th or after of the month
-* Month 0 = no quota
-* Month 1 = 25% quota
-* Month 2 = 50% quota
-* Month 3 = 75% quota
-* Month 4 = 100% quota
+
+- Month 0 = no quota
+- Month 1 = 25% quota
+- Month 2 = 50% quota
+- Month 3 = 75% quota
+- Month 4 = 100% quota
 
 Quota and compensation will be assigned by the BDR/SDR Manager and discussed in the first 1:1. If a fully ramped BDR/SDR transfers BDR/SDR teams they will have a 50% ramp for month 1 and 100% quota for month 2.
 

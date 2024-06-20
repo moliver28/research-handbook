@@ -1,13 +1,7 @@
 ---
-
 title: "Pricing and Packaging - GitLab for Campuses"
 canonical_path: "/handbook/product/packaging-and-pricing/gitlab-for-campuses/"
 ---
-
-
-
-
-
 
 ---
 
@@ -82,9 +76,9 @@ The steps for building a GitLab for Campuses quote vary slightly from standard q
 1. Before building the quote, determine the proper tier based on the most recently published enrollment data provided by the insitution.
 2. After creating the opportunity and a new quote following the steps in the [Sales Order Processing handbook page](/handbook/sales/field-operations/order-processing/)
 
-  - On the `Select Billing Account page`choose the appropriate Quote Template - `01.21 New Order Form - EDU / 01.21 Amendment Order Form - EDU / 01.21 Renewal Order Form - EDU`.
-  - Proceed as usual until the  `Add base products`, and Click `Select Plan` on the relevant product. Scroll to the appropriate product SKU names from the table above. For example, `[EDU Enterprise-Small] SaaS - Ultimate (formerly Gold) - 1 Year`.
-  - Proceed as usual.
+   - On the `Select Billing Account page`choose the appropriate Quote Template - `01.21 New Order Form - EDU / 01.21 Amendment Order Form - EDU / 01.21 Renewal Order Form - EDU`.
+   - Proceed as usual until the  `Add base products`, and Click `Select Plan` on the relevant product. Scroll to the appropriate product SKU names from the table above. For example, `[EDU Enterprise-Small] SaaS - Ultimate (formerly Gold) - 1 Year`.
+   - Proceed as usual.
 
 ### GitLab for Campuses Order Form
 

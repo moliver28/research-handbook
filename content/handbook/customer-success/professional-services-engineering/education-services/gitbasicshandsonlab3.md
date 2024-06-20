@@ -43,7 +43,7 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
 > Merge requests are a core feature of source control with GitLab since they let you make suggestions to update documents in a repository. You can learn more about merge requests in the [documentation](https://docs.gitlab.com/ee/user/project/merge_requests/).
 
-1. On the issue details page, click the the **dropdown arrow** to the right of the **Create merge request** button. This is where you can customize the merge request.
+1. On the issue details page, click the **dropdown arrow** to the right of the **Create merge request** button. This is where you can customize the merge request.
 
 1. Set the **Branch name** to `fix-issue`. Make sure that the **Source** is set to `main`.
 
@@ -112,7 +112,7 @@ After creating the merge request, you now have 3 linked items that all relate on
 ## Task E. Verify changes in a merge request
 
 1. On the merge request page, locate the **Assignee** section in the upper right-hand corner (you might have to click the double arrow at the top right of
-the screen to expand the pane). Ensure the merge request is assigned to yourself. If it is not, click **Assignees > Edit** and click your username from the resulting list. Click **Apply**.
+the screen to expand the pane). Ensure the merge request is assigned to yourself. If it is not, click **Assignees > Edit** and click your username from the resulting list. Click away from the list to apply the change.
 
 1. Click the **Changes** tab directly below the merge request title.
 
@@ -140,7 +140,7 @@ the screen to expand the pane). Ensure the merge request is assigned to yourself
 
 ## Task F. Merge the branch and close the merge request
 
-1. Click the the **Overview** tab under the MR title.
+1. Click the **Overview** tab under the MR title.
 
 1. To mark the merge request as ready to merge, click **Mark as ready**. This removes `Draft:` from your MR’s title.
 

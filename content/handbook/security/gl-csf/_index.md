@@ -19,14 +19,12 @@ first. In order to facilitate this process, the framework supports the engineeri
 the life cycle of the feature, to facilitate the creation of the required documentation and other
 artifacts.
 
-The framework relies heavily on the [data
-classification]({{< ref "data-classification-standard" >}}) of the feature in
+The framework relies heavily on the [data classification]({{< ref "data-classification-standard" >}}) of the feature in
 scope. It is not necessary for features managing Green data, and more activities are required as the
 level increases, up to Red data.
 
 The framework targets mostly Engineering Managers and their team, but also Product Managers, to
-track progress from the early phases of the [Product Development
-Workflow](/handbook/product-development-flow/), to the release or deployment to production.
+track progress from the early phases of the [Product Development Workflow](/handbook/product-development-flow/), to the release or deployment to production.
 
 Once released or deployed, the SDLC loops and a new iteration can start. The framework continues to
 support the team with insights and recommendations. More importantly, changes in the framework
@@ -39,8 +37,7 @@ This framework is meant to be used for all significant engineering changes in se
 and more precisely for changes in:
 
 1. The [GitLab Architecture](https://docs.gitlab.com/ee/development/architecture.html)
-1. The [GitLab.com
-   infrastructure](/handbook/engineering/infrastructure/production/architecture/)
+1. The [GitLab.com    infrastructure](/handbook/engineering/infrastructure/production/architecture/)
 1. The [classification](/handbook/security/data-classification-standard.html) of
    the data being managed (stored, transferred, or updated)
 
@@ -88,8 +85,7 @@ A value among: `Green`, `Yellow`, `Orange`, or `Red`.
 
 ##### Resources
 
-1. The [Data Classification
-   Standard]({{< ref "data-classification-standard" >}}) handbook page
+1. The [Data Classification Standard]({{< ref "data-classification-standard" >}}) handbook page
 
 #### Architecture
 

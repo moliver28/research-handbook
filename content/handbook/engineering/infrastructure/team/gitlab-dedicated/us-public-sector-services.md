@@ -35,10 +35,10 @@ To engage with the GitLab US Public Sector Services team:
 - In case you want to get attention, use a specific team handle as defined in [group hierarchy below](#gitlab-group-hierarchy)
 - Slack channels
   - For GitLab US Public Sector specific questions, you can find us in [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
-      - The `@dedicated-uspubsec-team` Slack group can be used in any internal channel to tag the team.
+    - The `@dedicated-uspubsec-team` Slack group can be used in any internal channel to tag the team.
   - Other teams in Dedicated group have their own work channels for team work discussions:
-      - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
-      - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
+    - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
+    - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
 
 ## How we work
 
@@ -62,7 +62,7 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 We use [GitLab Groups](https://docs.gitlab.com/ee/user/group/#groups) to logically organize team-members working on GitLab Dedicated projects.
 The groups cover the following use-cases:
 
-1. GitLab GitLab US Public Sector Services group membership: `@gitlab-dedicated/uspubsec`
+1. GitLab US Public Sector Services group membership: `@gitlab-dedicated/uspubsec`
     - All permanent team-members in any of the GitLab Dedicated teams should gain access to this GitLab group as part of onboarding
     - Group mention should only be used in circumstances where the information shared is pertinent for all team members of GitLab Dedicated group
 2. Individual team GitLab groups have two additional subgroups `maintainers` and `reviewers`, e.g.: `@gitlab-dedicated/uspubsec/maintainers`

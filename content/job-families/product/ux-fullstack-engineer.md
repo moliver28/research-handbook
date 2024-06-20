@@ -2,7 +2,7 @@
 title: Fullstack Engineer, Technical Writing
 ---
 
-Fullstack engineers work across the front- and backend of the the GitLab documentation site to improve the user experience.
+Fullstack engineers work across the front- and backend of the GitLab documentation site to improve the user experience.
 
 ## Responsibilities
 

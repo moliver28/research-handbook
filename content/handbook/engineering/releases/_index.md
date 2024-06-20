@@ -66,8 +66,7 @@ When we create release candidates, and when we create a new release package,
 the [Release Tools project][release-tools] will
 [add a label to the merge requests included](#labels-indicating-inclusion-in-upcoming-self-managed-release).
 
-For more information, refer to the [Auto-deploy
-status](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#auto-deploy-status)
+For more information, refer to the [Auto-deploy status](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#auto-deploy-status)
 command.
 
 In the runup to the [release date](/handbook/engineering/releases/), release managers will also start announcing
@@ -170,8 +169,7 @@ MR will be published with the Self-managed release.
 
 ### Who are the release managers for release X?
 
-You can find this out by taking a look at the [GitLab Release
-Managers](https://about.gitlab.com/community/release-managers/) schedule.
+You can find this out by taking a look at the [GitLab Release Managers](https://about.gitlab.com/community/release-managers/) schedule.
 
 ### What is a release candidate and when are they created?
 

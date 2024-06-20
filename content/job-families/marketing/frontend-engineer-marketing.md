@@ -36,7 +36,7 @@ Frontend Engineers on the Marketing team work on our marketing site: about.GitLa
 
 ### Frontend Engineer (Intermediate)
 
-The Frontend Engineer (Intermediate) reports the the [Director, Digital Experience](/job-families/marketing/digital-experience/#director-of-digital-experience).
+The Frontend Engineer (Intermediate) reports to the [Director, Digital Experience](/job-families/marketing/digital-experience/#director-of-digital-experience).
 
 #### Frontend Engineer (Intermediate) Job Grade
 
@@ -74,7 +74,7 @@ The Senior Frontend Engineer is a [grade 7](/handbook/total-rewards/compensation
 - Advanced technical expertise and proficiency in web development and related web technologies, including HTML, CSS, and JavaScript
 - Demonstrated capacity to clearly and concisely communicate about technical, architectural, and/or organizational problems and propose solutions
 - Demonstrated ability to solve performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Proficiency working in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration) software development process
+- Proficiency working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 
 ### Staff Frontend Engineer
 
@@ -101,11 +101,11 @@ The Staff Frontend Engineer is a [grade 8](/handbook/total-rewards/compensation/
 - Demonstrated ability to pivot from core engineering and coding work, to stakeholder conversations to understand business requirements and needs
 - Demonstrated ability to coach team members without direct reporting responsibilities
 - Experience with diagnosing and solving performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Proficient working in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration) software development process
+- Proficient working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 
 ### Manager, Engineering
 
-The Manager, Engineering reports the the [Director, Digital Experience](/job-families/marketing/digital-experience/#director-of-digital-experience).
+The Manager, Engineering reports to the [Director, Digital Experience](/job-families/marketing/digital-experience/#director-of-digital-experience).
 
 #### Manager, Engineering Job Grade
 
@@ -128,7 +128,7 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 - Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose solutions
 - Demonstrated ability to coach and lead a team of direct reports, including hiring, development and growth  and driving a culture of high performance
 - Experience with diagnosing and solving  performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Experience leading team to work  in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration0) software development process
+- Experience leading team to work  in a highly agile, [intensely iterative](/handbook/values/#iteration0) software development process
 
 ## Nice-to-haves
 

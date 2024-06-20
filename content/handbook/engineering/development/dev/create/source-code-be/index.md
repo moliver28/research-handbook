@@ -15,7 +15,7 @@ We interface with the Gitaly and Code Review teams, and work closely with the [C
 
 The following people are permanent members of the Create:Source Code BE Team:
 
-{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*Backend.*Create:Source Code" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Create:Source Code Backend" team=".*Backend.*Create:Source Code" >}}
 
 ## Stable Counterparts
 
@@ -305,7 +305,7 @@ We have 1 regularly scheduled "Per Milestone" retrospective, and can have ad-hoc
 
 #### Per Milestone
 
-{{% engineering/create-retrospectives group-label="Source Code" group-slug="source-code" %}}
+{{% engineering/create-retrospectives group-label="Source Code" group-slug="source-code" use-coordinator="1" %}}
 
 #### Per Project
 

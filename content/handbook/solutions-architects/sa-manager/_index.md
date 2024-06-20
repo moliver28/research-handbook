@@ -25,7 +25,7 @@ It increases efficiecies towards the achievement of regional goals and objective
 
 ### Deliberate Practice
 
-Deliberate practice allows the team to sharpen their skills and continue delivering deal-winning engagements. The SA Manager needs to support ongoing role play exercises and dry-runs for key accounts. This includes facilitating sessions, helping the team make this a priority, and ensure the team is adhering to key delivery methodologies, including MEDDPPICC and Demo2Win. Important tools include Google Slides, Role Plays, and the [wheel of Names](http://weelofnames.com/).
+Deliberate practice allows the team to sharpen their skills and continue delivering deal-winning engagements. The SA Manager needs to support ongoing role play exercises and dry-runs for key accounts. This includes facilitating sessions, helping the team make this a priority, and ensure the team is adhering to key delivery methodologies, including MEDDPPICC and Demo2Win. Important tools include Google Slides, Role Plays, and the [picker wheel](https://pickerwheel.com/).
 
 ### Regular Syncs with ASM
 

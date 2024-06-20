@@ -49,8 +49,7 @@ how to handle feedback.
 ## Coaching
 
 - [GitLab Coaching Framework](/handbook/leadership/coaching/) (Handbook)
-- [Improve Your Coaching Skills as a Manager
-](https://www.linkedin.com/learning/paths/improve-your-coaching-skills-as-a-manager?u=2255073)
+- [Improve Your Coaching Skills as a Manager](https://www.linkedin.com/learning/paths/improve-your-coaching-skills-as-a-manager?u=2255073)
 
 ## Mentoring
 

@@ -50,9 +50,9 @@ Partners shall be sensitive to its impact on the environment (including but not 
 Partners shall not engage in any form of corrupt practices including without limitation to, extortion, fraud, impersonation, false declarations, bribery, money laundering, supporting or involved with terrorist or organized crime organizations or activities. Partners shall not offer bribes, kickbacks, illegal political contributions or other improper payments to GitLab representative or agency, any customer, government official or third party, with the intention of obtaining or retaining a business or other improper advantage. Partners must have a written anti-corruption / anti-bribery policy that includes an annual review with its employees of such policy.
 
 **PRIVACY AND SECURITY**
-
+<!-- vale handbook.Repetition = NO -->
 Partners shall ensure that there are appropriate administrative, technological, physical and technical controls in place to ensure the protection and security of any data subject subject to laws and regulations.  Partners will execute any necessary agreement relating to the handling of data and will notify GitLab of any known or suspected vulnerabilities that may compromise individuals subject to the relationship with GitLab.
-
+<!-- vale handbook.Repetition = YES -->
 **COMPLIANCE**
 
 If a Partner’s efforts to comply with this Code have been deficient and Partner fails to cooperate in developing and implementing reasonable remedial steps, GitLab reserves the right to take appropriate actions up to, and including, discontinuing the relationship with Partner. Nothing in this Code is intended to, in any way, grant any additional rights or expectations to a GitLab Partner or, in any way, modify or otherwise limit any of GitLab’s contractual or legal rights.

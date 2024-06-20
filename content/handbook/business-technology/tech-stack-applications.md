@@ -48,7 +48,7 @@ There are three main reasons you would want to change our Tech Stack:
 
 - [Adding a new system to the tech stack](#add-new-system-to-the-tech-stack)
 - [Updating the tech stack](#update-tech-stack-information)
-    - This includes updating any of the columns in the tech stack, like Provisioner/Deprovisioner, Business Owner or Technical Owner.
+  - This includes updating any of the columns in the tech stack, like Provisioner/Deprovisioner, Business Owner or Technical Owner.
 - [Removing a system from the tech stack](#removing-a-system-from-the-tech-stack)
 
 ### **What data lives in the Tech Stack?**
@@ -126,7 +126,7 @@ The Legal, IT Compliance, Internal Audit, Security Risk, and Business Systems te
 
 To update any system information listed in the Tech Stack, you must start a merge request in the [tech stack yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml). Please use the `tech-stack-update-existing-system.md` template when submitting your MR and follow the instructions in the template. Ensure to update the information following the instructions in the [Tech Stack Data section](/handbook/business-technology/tech-stack-applications/#what-data-lives-in-the-tech-stack).
 
-### [**Removing a system from the Tech Stack**](https://gitlab.com/gitlab-com/business-technology/business-technology/-/issues/new?issuable_template=offboarding_tech_stack)
+### **Removing a system from the Tech Stack**
 
 Occasionally systems listed in our tech stack will be deprecated. If a system is being offboarded (no longer being used and/or being replaced), please create an MR in the [tech stack yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) to remove the entry for the tool (DON'T MERGE IT), and then create [an issue following this template](https://gitlab.com/gitlab-com/business-technology/business-technology/-/issues/new?issuable_template=offboarding_tech_stack). Once the issue has been submitted, link the MR in the comments. The Business Owner will need to work with Legal and IT Compliance to ensure that the data deletion process is being completed as outlined in the vendor contract regarding their process and responsibilities.
 

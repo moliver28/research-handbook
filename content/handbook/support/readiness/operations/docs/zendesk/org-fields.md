@@ -54,7 +54,7 @@ positioning.
 #### Updating an existing organization field
 
 Updating an existing organization field is considerably easier than creating a
-new one. Simply change change the code in the source project and it will occur
+new one. Simply change the code in the source project and it will occur
 via the sync repo.
 
 The one caveat is when you are adding new `custom_field_options`, as you will

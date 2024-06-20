@@ -21,11 +21,11 @@ The Distribution team uses the [Reviewers feature](https://docs.gitlab.com/ee/de
 
 1. Author opens a merge request in a project.
 1. When ready for review:
-   - For all projects expept `gitlab-org/charts/gitlab/` and `gitlab-org/omnibus-gitlab`:
+   - If the merge request included an automatic Reviewer Roulette comment like [this one](https://gitlab.com/gitlab-org/charts/gitlab/-/merge_requests/3801#note_1947892314), after the `danger-review` CI/CD job has finished:
+      - The Author assigns the review directly to the reviewer suggested by the Reviewer Roulette and applies the "workflow::ready for review" label using the command "@gitlab-bot ready @username-of-someone".
+   - If not:
       - The Author applies the "workflow::ready for review" label.
       - A reviewer checks the [Distribution merge requests ready for review dashboard](https://gitlab-org.gitlab.io/distribution/monitoring/mrs/) per their priority regularly, and then picks up the merge request when they are able to work on it by adding themselves under the Reviewers section, and adding the "workflow::in review" label.
-   - (Experimental) For `gitlab-org/charts/gitlab/` and `gitlab-org/omnibus-gitlab`:
-      - The Author assigns the review directly to the reviewer suggested by the Reviewer Roulette and applies the "workflow::ready for review" label by the command "@gitlab-bot ready @username-of-someone". The SLO for the assigned reviewer to start working on your MR is the same as for other projects.
 1. Once approved, the Reviewer adds a Maintainer under the Reviewers section for final review/merge. At this point, the Reviewer may decide whether to keep themselves listed as a Reviewer or to remove themselves (so the MR no longer appears in their MR list). If the Maintainer has any comments, then they work with the Author to clarify. It is the responsibility of the Maintainer to find another Maintainer to look at a merge request that is assigned to them if they are unable.
 
 **NOTE**: If you are working on a merge request that requires a response quicker than the [SLO][], please `@` mention the `gitlab-org/distribution` group in order to alert the Distribution team. The team will exercise best effort in handling these requests.

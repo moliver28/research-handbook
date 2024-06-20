@@ -31,8 +31,8 @@ helps to understand the conception of the software, and also bring some interest
 consequences (which can be drawbacks).
 
 At GitLab, we already have everything to document decisions: git and Merge Requests are a perfect
-way to document and keep track of decisions. We actually already [use this
-flow]({{< ref "handbook-usage#flow-structure" >}}) since the creation of this handbook. So instead of
+way to document and keep track of decisions. We actually already [use this flow]({{< ref "handbook-usage#flow-structure" >}})
+since the creation of this handbook. So instead of
 storing these discussions in a Markdown file, a Merge Request is enough to detail a change, discuss
 it, and keep track of the evolution of the architecture. This way, your architecture doc remains the
 free from lengthy discussions, and we don't scatter the actual architecture content with the decision making process.
@@ -42,8 +42,7 @@ free from lengthy discussions, and we don't scatter the actual architecture cont
 To get started, create a document with the  relevant views to describe best your architecture using
 the [viewpoints](#views-and-viewpoints) described in the next section. This document can be created
 along with the [readiness review](/handbook/engineering/infrastructure/production/readiness/) merge
-request, or directly in the [GitLab
-docs](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/development) if possible.
+request, or directly in the [GitLab docs](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/development) if possible.
 
 Make sure to apply the relevant [perspectives](#perspectives) to your views.
 
@@ -206,11 +205,9 @@ The content of this page is based on the following books and articles:
 
 1. [Software Systems Architecture](https://www.viewpoints-and-perspectives.info/home/book/) -
    Rozanski & Woods - (ISBN-13: 978-0321718334)
-1. [Continuous
-   Architecture](https://learning.oreilly.com/library/view/continuous-architecture/9780128032855/) -
+1. [Continuous Architecture](https://learning.oreilly.com/library/view/continuous-architecture/9780128032855/) -
    Erder & Pureur - (ISBN-13: 978-0136523567)
 1. [Continuous Architecture in Practice](https://continuousarchitecture.com/) -
    Erder, Pureur, & Woods - (ISBN-13: 978-0136523567)
-1. [Architecture Tradeoff Analysis
-   Method](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2000_005_001_13706.pdf) -
+1. [Architecture Tradeoff Analysis Method](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2000_005_001_13706.pdf) -
    Kazman, Klein, & Clements - (CMU/SEI-2000-TR-004)

@@ -58,7 +58,7 @@ To propose an idea or solution that addresses one of the [defined problems](http
 
 - Contributors will generate MRs and tag the Contributor group '@wg-contributors-pd-flow' for feedback first. [The Facilitator](/handbook/company/working-groups/product-development-flow/#roles-and-responsibilities) and Contributors will then review and align if the MR is merge-able (non-controversial) or if it needs more feedback before the merge
 - Next, [the Facilitator](/handbook/company/working-groups/product-development-flow/#roles-and-responsibilities) or the MR author will tag in specific people and/or tag in the whole Reviewer group (which includes Executive Sponsors) '@wg-reviewers-pd-flow' for feedback before the merge
-   - If unique action is needed from any individual, especially Executive Sponsors, they will be directly pinged. Otherwise, getting pinged as a Reviewer is a standard review/feedback before the merge cycle.
+  - If unique action is needed from any individual, especially Executive Sponsors, they will be directly pinged. Otherwise, getting pinged as a Reviewer is a standard review/feedback before the merge cycle.
 - Our goal is to minimize noise for Reviewers (inclusive of Executive Sponsors) and focus feedback efforts to move forward efficiently. If you want to follow every issue/MR, you're welcome to do so via our [WG board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/2012861?label_name[]=wg-product-development-flow)
 
 **NOTE:** Please pay attention to your To-Do list! We'll not hold the train on MRs for more than 24 hours, specially non-controversial ones.
@@ -85,7 +85,7 @@ To propose an idea or solution that addresses one of the [defined problems](http
 **Downstream Process Review**
 
 - Identify any downstream process changes that might need review.
-    - [Quad Planning process](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/9130)
+  - [Quad Planning process](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/9130)
 
 **Matrix and Dashboards**
 

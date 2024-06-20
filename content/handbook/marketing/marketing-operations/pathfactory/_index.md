@@ -116,9 +116,9 @@ For more info on the capabilities of each role, [see the knowledge base article]
 **[Campaigns](/handbook/marketing/demand-generation/campaigns/)**
 
 1. [Pathfactory Upload Request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-upload) - per [rules of engagement](/handbook/marketing/marketing-operations/pathfactory/#rules-of-engagement-by-team), the content owner is DRI on uploading their new content
-   - *The upload issue may be created in the content owner's GitLab project; this issue template may be helpful in outlining the steps, campaigns team is not responsible for uploads.*
+   - _The upload issue may be created in the content owner's GitLab project; this issue template may be helpful in outlining the steps, campaigns team is not responsible for uploads._
 1. [Pathfactory Bulk Upload Request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-upload-bulk)
-   - *This issue template should be used sparingly, as content should be added to Pathfactory by content owners ongoing as it becomes available. This is helpful for examples like a number of videos produced during a Commit event with many sessions.*
+   - _This issue template should be used sparingly, as content should be added to Pathfactory by content owners ongoing as it becomes available. This is helpful for examples like a number of videos produced during a Commit event with many sessions._
 1. [Pathfactory Track Request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-track)
 
 ## Important Note Using PathFactory
@@ -282,25 +282,25 @@ Before creating a new content track, decide what type of content track (target v
 - You can only use the `Header` feature with the `Sign Posts` and `Bottom Bar` promoters.
 - The `Header` is used to add additional branding to your content track.
 - The `Flow`, `Sign Posts`, and `Bottom Bar` cannot be used together. Choose 1 of the 3.
-    - **Flow:** Scrollable content menu allows visitors to jump ahead in their Content Track, or simply use the Next buttons to move forward.
-    - **Sign Posts:** Customizable Next and Previous buttons allow visitors to navigate through content. Used for more of a linear journey through the content.
-    - **Bottom Bar:** Collapsible content menu along page bottom.
+  - **Flow:** Scrollable content menu allows visitors to jump ahead in their Content Track, or simply use the Next buttons to move forward.
+  - **Sign Posts:** Customizable Next and Previous buttons allow visitors to navigate through content. Used for more of a linear journey through the content.
+  - **Bottom Bar:** Collapsible content menu along page bottom.
 - The `End Promoter`, `Exit`, and `Inactivity` promoters can be used in conjunction with either the `Flow`, `Sign Posts`, or `Bottom Bar` promoters.
-    - **End Promoter:** Opens final asset in a new tab.
-        - Available overrides:
-            - Link
-            - CTA Label
-            - Delay (seconds)
-    - **Exit:** Suggested content window appears when visitor tries to navigate away from the Content Track. **In order to provide a popup-free web experience, please do not enable an Exit promoter without explicit approval from Craig Mestel (CMO) and Michael Preuss (Director, Digital Experience)**
-        - Available overrides:
-            - Headline
-            - Message
-            - Items to show (choose from assets within the current track)
-            - Delay (seconds)
-    - **Inactivity:** Message flashes on tab when left inactive.
-        - Available overrides:
-            - Inactive tab title
-            - Delay (seconds)
+  - **End Promoter:** Opens final asset in a new tab.
+    - Available overrides:
+      - Link
+      - CTA Label
+      - Delay (seconds)
+  - **Exit:** Suggested content window appears when visitor tries to navigate away from the Content Track. **In order to provide a popup-free web experience, please do not enable an Exit promoter without explicit approval from Craig Mestel (CMO) and Michael Preuss (Director, Digital Experience)**
+    - Available overrides:
+      - Headline
+      - Message
+      - Items to show (choose from assets within the current track)
+      - Delay (seconds)
+  - **Inactivity:** Message flashes on tab when left inactive.
+    - Available overrides:
+      - Inactive tab title
+      - Delay (seconds)
 
 #### CTAs
 
@@ -375,26 +375,26 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 - Removing an asset or changing the custom URL slug of an asset in a `[LIVE]` track can disrupt the user experience for the visitor and activate the `#all` track or fallback URL (`about.gitlab.com`) instead of the intended content track. Please ensure that the link to the asset is not being used in any other marketing channels before deleting.
 
 ### Prescriptive Buyer Journey Content Tracks
+
 {: #pbj-content-tracks}
 
 **DRI for track creation: Campaign Managers**
 
-* [This GDoc](https://docs.google.com/spreadsheets/d/1MYGePezz7666yXJJNRkif0ekJwxnIoJMBgFPshOm1IY/edit#gid=1504719228) tracks progress toward all prescriptive buyer journeys being built out in Pathfactory, *including live links*.
-* These tracks live under [Target Tracks](https://gitlab.lookbookhq.com/authoring/content-library/target) > Demand Gen > `Segment Campaigns` (subject to change if the folders get massive - HB to update as needed)
-* These tracks align to the [Prescriptive Buyer Journeys ("PBJs")](/handbook/marketing/prescriptive-buyer-journeys/) which will be iterated on collaboratively across marketing
-* The Campaigns Team will iterate and test out different styles, form strategy, end promoter settings, and .
-* The [Example "PBJ" Track](https://gitlab.lookbookhq.com/authoring/content-library/target/57384) has the following elements and settings applied (for easy cloning) but only contains one asset when the future ones would have 3-4 assets:
-   - *Reminder Campaigns Team: The example below is just a starting point. Experimentation and testing recommended!*
-   - Track settings: (FYI) set to default according to [these instructions](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings)
-   - Track Settings: Custom URL Slug (REQUIRED): `[motion]-[stage]-[persona][#]` (i.e. `ci-awareness-prac1` or `vcc-`) - [see more](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings)
-   - Flow: `ON` > `Start Free SaaS Trial`
-   - End Promoter: `ON`
-   - End Promoter Link: Set this to point to the next track in the prescriptive buyer journey. (i.e. if you're on `CI Awareness Practitioner 1`, set the end promoter to go to `CI Awareness Practitioner 2` to move them to the next stage and continue binging)
-   - End Promoter CTA Label: Add an enticing CTA, but keep it short... max characters TBD
-   - End Promoter Delay: 5 seconds
-   - Forms Strategy: Set to trigger to **Unknown Visitors** after EITHER 30 seconds on main offer OR 30 seconds overall on track.
-   - Forms Strategy: Not dismissable.
-
+- [This GDoc](https://docs.google.com/spreadsheets/d/1MYGePezz7666yXJJNRkif0ekJwxnIoJMBgFPshOm1IY/edit#gid=1504719228) tracks progress toward all prescriptive buyer journeys being built out in Pathfactory, _including live links_.
+- These tracks live under [Target Tracks](https://gitlab.lookbookhq.com/authoring/content-library/target) > Demand Gen > `Segment Campaigns` (subject to change if the folders get massive - HB to update as needed)
+- These tracks align to the [Prescriptive Buyer Journeys ("PBJs")](/handbook/marketing/prescriptive-buyer-journeys/) which will be iterated on collaboratively across marketing
+- The Campaigns Team will iterate and test out different styles, form strategy, end promoter settings, and .
+- The [Example "PBJ" Track](https://gitlab.lookbookhq.com/authoring/content-library/target/57384) has the following elements and settings applied (for easy cloning) but only contains one asset when the future ones would have 3-4 assets:
+  - _Reminder Campaigns Team: The example below is just a starting point. Experimentation and testing recommended!_
+  - Track settings: (FYI) set to default according to [these instructions](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings)
+  - Track Settings: Custom URL Slug (REQUIRED): `[motion]-[stage]-[persona][#]` (i.e. `ci-awareness-prac1` or `vcc-`) - [see more](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings)
+  - Flow: `ON` > `Start Free SaaS Trial`
+  - End Promoter: `ON`
+  - End Promoter Link: Set this to point to the next track in the prescriptive buyer journey. (i.e. if you're on `CI Awareness Practitioner 1`, set the end promoter to go to `CI Awareness Practitioner 2` to move them to the next stage and continue binging)
+  - End Promoter CTA Label: Add an enticing CTA, but keep it short... max characters TBD
+  - End Promoter Delay: 5 seconds
+  - Forms Strategy: Set to trigger to **Unknown Visitors** after EITHER 30 seconds on main offer OR 30 seconds overall on track.
+  - Forms Strategy: Not dismissable.
 
 ## PathFactory Forms
 
@@ -458,6 +458,7 @@ We use external forms (added by External URL or Custom HTML generated from Marke
     - With custom URL: `https://learn.gitlab.com/cicd/cloud-ci-tools-matur?lb_email={{lead.Email Address}}`
 
 **Hiding Top Navigation When Adding Pages from the Marketing Site to a Track**
+
 1. Add `?menu=hide` to the end of the asset's source URL. For example, `https://about.gitlab.com/blog/2021/04/28/devops-platform-supply-chain-attacks/?menu=hide`
 
 *Note: for simplicity in tracking, we strongly urge you to use a custom URL slug on all tracks. [Video regarding custom URL slugs](https://www.youtube.com/watch?v=VHgR33cNeJg)
@@ -487,6 +488,7 @@ PathFactory’s [Microsite Builder](https://nook.pathfactory.com/s/article/micro
 Microsite builder expands on how Explore Pages are used and improves on Explore Pages with a more robust and advanced feature set.
 
 With Microsite builder you can:
+
 - Include more than one Content Track on a page.
 - Tie multiple pages together with navigation
 - Use your own custom code to add page sections and elements
@@ -496,9 +498,11 @@ With Microsite builder you can:
 You can request a new microsite, or an update to an existing microsite via [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=pathfactory_microsite_request).
 
 Microsite templates:
+
 - Personalized/co-branded content hub: `[Template] Partner Custom Microsite`
 - Resource center: TBA
 - Event or webcast follow-up: TBA
+
 ## Explore Pages
 
 [Explore pages](https://nook.pathfactory.com/nook/s/article/getting-started-explore) allow your visitors to quickly view all content assets in a content track. Each explore page you create is built on top of an existing target or recommend content track.
@@ -651,7 +655,7 @@ There are custom PathFactory fields available in Salesforce and Marketo.
 | PathFactory Funnel State | Each asset is tagged with stage of funnel most applicable to asset - Top of Funnel, Middle of Funnel or Bottom of Funnel |
 | PathFactory Query String | Returns any values captured by a query string which you have added to the content experience URL. |
 | PathFactory Query String Value | The value of a key in the query string. |
-| PathFactory Topic List | Assets are tagged by **topic**. This is manually set & aligns with the [tracking content](#tracking-content) list. |
+| PathFactory Topic List | Assets are tagged by **topic**. This is manually set & aligns with the [tracking content](#content-tracks) list. |
 | PathFactory Track Custom URL | The custom URL of the content track. |
 | PathFactory Track ID | The automatically generated PathFactory ID of the content track. |
 
@@ -738,6 +742,6 @@ The PathFactory Google Chrome Extension will only de-anonymize users who view co
 ### How Access Protection Works
 
 1. When someone tries to access the content track, they will be prompted to enter their email address.
-1. When they submit an email address address which is in the group, they will get the confirmation message and will need to navigate to their email inbox where they will find an email from support (`support@pathfactory.com`) with the link to access the content track.
+1. When they submit an email address which is in the group, they will get the confirmation message and will need to navigate to their email inbox where they will find an email from support (`support@pathfactory.com`) with the link to access the content track.
 1. The visitor must click this link to validate that they are the owner of the email address. Once they click the link in the email they will gain access to the content track.
 1. If they enter an email address that is not in the access protection group(s) you've selected, they will get the warning message you set in the configuration and will have the ability to try again.

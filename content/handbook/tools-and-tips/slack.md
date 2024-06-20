@@ -22,6 +22,7 @@ Fill in your Slack profile, as we use Slack profiles as our Team Directory to st
 - Consider changing your "display name" if you prefer to be addressed by a nickname
 - Consider adding your pronouns in the Pronouns field. By making it normal to set pronouns we create a more inclusive environment for people who use non-traditional pronouns.
 - Consider adding pronunciation guides for your full name Name pronunication field to help others to pronounce your name correctly (e.g. sid see-brandy for Sid Sijbrandij).
+- Consider adding a "Name recording" to help with name pronunciation.
 - Do not enter anything in the G-Cal Booking! field unless you would like to set up and make use of a [Calendly Account](/handbook/tools-and-tips/other-apps/#calendly)
 
 ## Channels
@@ -110,6 +111,14 @@ For full information on Slack reminders [see the Slack help](https://get.slack.h
 ### Set aside time to work through notifications
 
 Building dedicated time into your day can help minimize the distractions that Slack can create. Consider using a 15 or 30 minute block in your morning or afternoon to enjoy a cup of coffee and catch up on messages you might have missed. When the time you set comes to an end, close out of the Slack app and move on to your next project. Having a set end time can help you feel more in control, and serves as a reminder that [it's impossible to know everything](/handbook/values/#its-impossible-to-know-everything)
+
+### Scheduled Slack Messages
+
+When working in an all-remote environment it can be sometimes difficult to draw the line between home and work, and it can be especially tempting to check Slack messages after hours. To foster a more inclusive environment at GitLab, we can avoid sending messages outside of the recipient's working hours by composing a message but not sending it until the recipient begins their working day. In Slack, you can schedule messages to be sent later, which helps reduce immediate disruptions. You can still edit, delete, or cancel scheduled messages before they are sent, making it a very family-friendly tool to use. This approach aligns with our [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication).
+
+It's simple: when composing a message, click the arrow icon (next to the paper plane icon) to schedule it for a later time.
+
+For more details on scheduling messages in Slack, please refer to [Slack help](https://slack.com/help/articles/201457107-Send-and-read-messages#:~:text=hide%20formatting%20tools-,Send%20or%20schedule%20messages,-You%20can%20send).
 
 ### Minimize Visual Distractions
 

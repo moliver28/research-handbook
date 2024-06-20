@@ -171,6 +171,5 @@ actually benchmarking it, which is an anti-pattern as outlined above.
 
 It is not an area we think developers should rely on too much for performance sensitive tasks, but in some cases it can
 be useful to give directions as to how something can be improved, especially if the improvement is simple or could
-even be auto-corrected because it's a one-liner. A good example for this is the file I/O API, which offers [faster
-variants of certain methods](https://docs.gitlab.com/ee/development/performance.html#reading-from-files-and-other-data-sources)
+even be auto-corrected because it's a one-liner. A good example for this is the file I/O API, which offers [faster variants of certain methods](https://docs.gitlab.com/ee/development/performance.html#reading-from-files-and-other-data-sources)
 that are just as easy to use, so we might as well make sure that these will never turn into performance problems to begin with!

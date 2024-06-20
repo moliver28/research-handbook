@@ -70,8 +70,7 @@ The runners are connected as follows:
 
 - `prometheus.gprd.gitlab.net` scrapes each runner host with the job `ci-node`.
    Prometheus also scrapes specific prometheus nodes within the runners' regions
-   using [prometheus
-   federation](https://prometheus.io/docs/prometheus/latest/federation/).
+   using [prometheus federation](https://prometheus.io/docs/prometheus/latest/federation/).
 - `chef.gitlab.com` server is accessed by all hosts from inside of Cloud
    Provider Region, excluding autoscaled machines.
 
@@ -126,8 +125,7 @@ The runners are connected as follows:
 {: #ci-configuration}
 
 The Runner and it’s configuration is handled with Chef and defined on
-chef.gitlab.com. The detailed upgrade process is described in the [associated
-runbook](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/update-gitlab-runner-on-managers.md).
+chef.gitlab.com. The detailed upgrade process is described in the [associated runbook](https://gitlab.com/gitlab-com/runbooks/blob/master/howto/update-gitlab-runner-on-managers.md).
 
 In summary:
 
@@ -186,15 +184,9 @@ Runner Upgrade.
 ### Monitoring Links
 
 - [CI Monitoring Overview](https://dashboards.gitlab.net/d/000000159/ci)
-- [CI Cloud Provider
-  Stats](https://dashboards.gitlab.net/d/sXVh89Imk/ci-autoscaling-providers)
-- [CI Autoscaling
-  Stats](https://dashboards.gitlab.net/d/sv_pUrImz/ci-autoscaled-machines-metrics)
-- [CI Logs (only
-  GCP)](https://log.gprd.gitlab.net/goto/28a7ad7581fa7e86d519247a5456addd)
-- [CI Shared Runners Sentry (srm
-  machines)](https://sentry.gitlab.net/gitlab/shared-gitlab-runners/)
-- [CI Internal Runners Sentry (gsrm & prm
-  machines)](https://sentry.gitlab.net/gitlab/internal-gitlab-runners/)
-- [CI Alert
-  Configuration](https://gitlab.com/gitlab-com/runbooks/blob/master/alerts/gitlab-com-ci.yml)
+- [CI Cloud Provider Stats](https://dashboards.gitlab.net/d/sXVh89Imk/ci-autoscaling-providers)
+- [CI Autoscaling Stats](https://dashboards.gitlab.net/d/sv_pUrImz/ci-autoscaled-machines-metrics)
+- [CI Logs (only GCP)](https://log.gprd.gitlab.net/goto/28a7ad7581fa7e86d519247a5456addd)
+- [CI Shared Runners Sentry (srm machines)](https://sentry.gitlab.net/gitlab/shared-gitlab-runners/)
+- [CI Internal Runners Sentry (gsrm & prm machines)](https://sentry.gitlab.net/gitlab/internal-gitlab-runners/)
+- [CI Alert Configuration](https://gitlab.com/gitlab-com/runbooks/blob/master/alerts/gitlab-com-ci.yml)

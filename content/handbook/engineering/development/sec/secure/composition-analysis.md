@@ -70,7 +70,7 @@ On top of our development roadmap, engineering teams need to perform tasks relat
 To avoid excessive context-switching, and better distribute the workload, our team reserves capacity for these tasks as part of milestone planning:
 
 - **Primary engineer**. Fully allocated to the tasks below. They must prioritize these tasks above all other work, in the following order: Security, Support, Maintenance.
-- **Secondary engineer**. Acts as a backup in case the primary engineer has an unplanned absence or exceeds their capacity. They must prioritize requests from the primary engineer, but otherwise focus on `type::bug`, then `type::maintenance` issues.
+- **Secondary engineer**. Acts as a backup in case the primary engineer has an unplanned absence or exceeds their capacity. They must prioritize requests from the primary engineer, but otherwise focus on `type::maintenance` issues.
 
 Neither engineer should be allocated to work on Features or critical deliverables. In the context of [Cross-functional milestone planning](/handbook/product/cross-functional-prioritization/#cross-functional-milestone-planning), their allocation counts towards the bugs and maintenance ratio.
 
@@ -78,11 +78,12 @@ The [rotation schedule](https://gitlab.com/groups/gitlab-org/secure/-/epics/2#sc
 
 Please keep track of the actions you're doing during your rotation and add notes in the corresponding issue (e.g. copying tools command executed locally, sharing relevant changes to projects and processes, etc.)
 
+At the end of the rotation, add the next engineers as Owners of [`@gitlab-org/secure/composition-analysis-dev/reaction-rotation`](https://gitlab.com/groups/gitlab-org/secure/composition-analysis-dev/reaction-rotation/-/group_members?with_inherited_permissions=exclude), and remove the current engineers. This group is used to tag the engineers on rotation without having to look-up the schedule.
+
 #### Responsibilities - Security
 
 1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
-1. Check for security [automation
-   failures](/handbook/engineering/development/sec/secure/#automation-failures)
+1. Check for security [automation failures](/handbook/engineering/development/sec/secure/#automation-failures)
 1. Check for new security releases of our dependencies and ensure we use them:
    1. Upstream scanners (see [Updating an upstream scanner](#updating-an-upstream-scanner))
    1. Container base images
@@ -154,8 +155,7 @@ On a weekly basis: review the vulnerability report to resolve no longer detected
 
 #### Manually creating security issues for FedRAMP vulnerabilities
 
-Follow the Secure sub-department process on [manually creating security
-issues for FedRAMP vulnerabilities](/handbook/engineering/development/sec/secure/#manually-creating-security-issues-for-fedramp-vulnerabilities)
+Follow the Secure sub-department process on [manually creating security issues for FedRAMP vulnerabilities](/handbook/engineering/development/sec/secure/#manually-creating-security-issues-for-fedramp-vulnerabilities)
 for each of these projects:
 
 - [container scanning](#container-scanning)
@@ -163,8 +163,7 @@ for each of these projects:
 
 #### Manually creating deviation requests for FedRAMP vulnerabilities
 
-Follow the Secure sub-department process on [manually creating deviation
-requests for FedRAMP vulnerabilities](/handbook/engineering/development/sec/secure/#manually-creating-deviation-requests-for-fedramp-vulnerabilities)
+Follow the Secure sub-department process on [manually creating deviation requests for FedRAMP vulnerabilities](/handbook/engineering/development/sec/secure/#manually-creating-deviation-requests-for-fedramp-vulnerabilities)
 for each of the [vulnerabilities near SLA breach][Vulnerabilities near
 SLA breach].
 
@@ -227,11 +226,11 @@ When an issue is both blocked for a few releases and low risk you may dismiss th
 
 The following class of container scan vulnerabilities can be considered low risk:
 
-  - Many kernel-related findings will be at a decrease of risk and hence severity because of the way our process works with temporary containers with limited inputs which are developer-controlled.
-  - Issues related to a software stack that will not apply to the analyzer e.g GUI related issues, issues in Bluetooth drivers, browser-related issues which require browser running in non-headless mode, etc.
-  - S3 or S4 findings with complex exploit method or limited risk which have no fix available, or the upstream has stated there are no plans to release a patch.
-  - Denial of Service (of the container/analyzer) as these containers run in ephemeral pipelines, are automatically stopped once a timeout is reached, and are accepting in code from users who already have developer access. This as a result is not an expansion of the risk profile.
-  - Random number generator issues (where the numbers are not random) as we don't use random numbers for security purposes from the containers. (At the time this was last updated these were true, please use your knowledge of our analyzers or ask if unsure)"
+- Many kernel-related findings will be at a decrease of risk and hence severity because of the way our process works with temporary containers with limited inputs which are developer-controlled.
+- Issues related to a software stack that will not apply to the analyzer e.g GUI related issues, issues in Bluetooth drivers, browser-related issues which require browser running in non-headless mode, etc.
+- S3 or S4 findings with complex exploit method or limited risk which have no fix available, or the upstream has stated there are no plans to release a patch.
+- Denial of Service (of the container/analyzer) as these containers run in ephemeral pipelines, are automatically stopped once a timeout is reached, and are accepting in code from users who already have developer access. This as a result is not an expansion of the risk profile.
+- Random number generator issues (where the numbers are not random) as we don't use random numbers for security purposes from the containers. (At the time this was last updated these were true, please use your knowledge of our analyzers or ask if unsure)"
 
   **To add items to the list above discuss repeatable finding patterns with Application Security, get approval from a leader in the security section, and add to this list.**
 
@@ -465,6 +464,6 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 
 [License-db vulnerabilities that are no longer detected]: https://gitlab.com/groups/gitlab-org/security-products/license-db/-/security/vulnerabilities/?state=CONFIRMED,DETECTED&projectId=39193358,39229232,39233486,39298809,39622674,40857363,45266022&activity=NO_LONGER_DETECTED
 
-[Vulnerability SLAs]: /handbook/security/threat-management/vulnerability-management/#remediation-slas
+[Vulnerability SLAs]: /handbook/security/product-security/vulnerability-management/#remediation-slas
 
-[Vulnerabilities near SLA breach]: https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ANear%20Breach&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3ADenied&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AAccepted&first_page_size=20
+[Vulnerabilities near SLA breach]: https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ANear%20Breach&amp;not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3ADenied&amp;not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&amp;not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AAccepted&first_page_size=20

@@ -81,7 +81,7 @@ Team members can complete a [Expression of Wish Form](https://drive.google.com/f
 
 All full-time GitLab team members are eligible for disability cover in the amount of 66% of base salary less social welfare to age 65 (after 13 weeks deferred period). This benefit is administered through Aviva.
 
-Please find the the following documentation to assist you with the disability claim, and notify Total-Rewards@gitlab.com should you need to file a claim.
+Please find the following documentation to assist you with the disability claim, and notify Total-Rewards@gitlab.com should you need to file a claim.
 
 - [Group Income Protection Claim Form](https://drive.google.com/file/d/1pHwaBoc0raokcgVsInJeE6QqhVa22XtF/view?usp=sharing)
 - [Early Intervention and Claim Expertise Flyer](https://drive.google.com/file/d/1ESvfiqTa6Gw3OsvMvgXrykgUZA80QImn/view?usp=sharing)
@@ -183,25 +183,25 @@ Relevant parents can take paternity leave. These are:
 #### State Maternity Leave Payment
 
 - You may be eligible to receive State [Maternity Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/maternity_benefit.html) at €250 per week for up to 26 weeks subject to your PRSI contributions.
-    - Effective 2023 the PRSI contributions will increase to €262/week.
+  - Effective 2023 the PRSI contributions will increase to €262/week.
 - To apply for State Maternity Benefit, please notify leaves@gitlab.com of the start and end date of your leave.
-    - The Absence Management team will then send you a completed [MB2 form]( https://assets.gov.ie/10309/8753cb545c3a4e4890dda6f3ff69e310.pdf).
-    - Submit your application via the [Maternity Benefit gov.ie website](https://www.gov.ie/en/service/apply-for-maternity-benefit/) at least 6 weeks before you intend to start your leave.
+  - The Absence Management team will then send you a completed [MB2 form]( https://assets.gov.ie/10309/8753cb545c3a4e4890dda6f3ff69e310.pdf).
+  - Submit your application via the [Maternity Benefit gov.ie website](https://www.gov.ie/en/service/apply-for-maternity-benefit/) at least 6 weeks before you intend to start your leave.
 
 #### State Adoptive Leave Payment
 
 - You may be eligible to receive State [Adoptive Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/adoptive_benefit.html) at €250 per week for up to 24 weeks subject to your PRSI contributions.
-    - Effective 2023 the PRSI contributions will increase to €262/week.
+  - Effective 2023 the PRSI contributions will increase to €262/week.
 - To apply for State Adoptive Benefit, please notify leaves@gitlab.com of the start and end date of your leave.
 - Submit your application via the [Adoptive Benefit gov.ie website](https://www.gov.ie/en/service/295b84-adoptive-benefit/) at least 6 weeks before you intend to start your leave.
 
 #### State Paternity Leave Payment
 
 - You may be eligible to receive State [Paternity Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/paternity_benefit.html#:~:text=Paternity%20Benefit%20is%20a%20payment,or%20after%201%20September%202016) at 250 EUR per week for up to 2 weeks subject to your PRSI contributions.
-    - Effective 2023 the PRSI contributions will increase to €262/week.
+  - Effective 2023 the PRSI contributions will increase to €262/week.
 - To apply for State Paternity Benefit, please notify leaves@gitlab.com of your child's due date.
-    - The Absence Management team will then send you a completed [PB2 form](https://assets.gov.ie/10312/a293b948613c41edaeb84ae4396725e3.pdf).
-    - Submit your application via the [Paternity Benefit gov.ie website](https://www.gov.ie/en/service/apply-for-paternity-benefit/) at least 4 weeks before you intend to start your leave.
+  - The Absence Management team will then send you a completed [PB2 form](https://assets.gov.ie/10312/a293b948613c41edaeb84ae4396725e3.pdf).
+  - Submit your application via the [Paternity Benefit gov.ie website](https://www.gov.ie/en/service/apply-for-paternity-benefit/) at least 4 weeks before you intend to start your leave.
 
 #### State Parent’s Leave Payment
 
@@ -234,7 +234,7 @@ To initiate your leave, submit your time off by selecting the `Parental Leave` c
 **Carer's Leave**
 
 - Team members who have been continuously employed for 12 months are entitled to up to 104 weeks of unpaid leave to personally provide full-time care and attention to a person who needs such care.
-    - The decision as to whether the relevant person is in need of full-time care and attention will be made by a Deciding Officer or Appeals Officer of the Dept. of Employment Affairs and Social Protection based on information provided by the person's general medical practitioner and assessment by the Department's medical advisor.
+  - The decision as to whether the relevant person is in need of full-time care and attention will be made by a Deciding Officer or Appeals Officer of the Dept. of Employment Affairs and Social Protection based on information provided by the person's general medical practitioner and assessment by the Department's medical advisor.
 - Leave may be taken in one continuous period of 104 weeks, or in several periods that amount to no more than 104 weeks.
 - The minimum period of Carer’s Leave you can take is 13 weeks. If Carer’s Leave is taken in more than one period, there must be at least 6 weeks in between each period.
 - You must submit written notice to the Absence Management team at `leaves@gitlab.com` of your intention to take Carer's Leave at least 6 weeks before the leave begins. Written notice must include the following details:
