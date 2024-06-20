@@ -251,7 +251,9 @@ With each of our CSM/A managed customers we track the primary reasons for lack o
 10. Platform downtime / availability
 11. Does not intend to use GitLab CI
 12. Is all-in on GitLab CI (no other solution) but has high business user count
-13. N/A (Green CI adoption)
+13. Competitor product in use
+14. GitLab features do not cover their use case
+15. N/A (Green CI adoption)
 <br>
 
 **Lack of Security Adoption Reasons:**
@@ -268,5 +270,7 @@ With each of our CSM/A managed customers we track the primary reasons for lack o
 9. Migrating to GitLab
 10. Organizational Challenges Within Your Company Related to Adopting
 11. Security and Compliance Workflow Challenges
-12. N/A (Green DSO Adoption)
+12. Competitor product in use
+13. GitLab features do not cover their use case
+14. N/A (Green DSO Adoption)
 <br>
