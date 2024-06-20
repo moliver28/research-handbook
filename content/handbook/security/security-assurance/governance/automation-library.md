@@ -9,15 +9,16 @@ This page is intended to provide a jumping off point for what components of Secu
 ## Layout
 
 Each automation added to this page should contain the below details at minimum:
+
 - Header title as anchor
 - Brief Description
 - Repository Link
 - Best Point of Contact for Questions
 
-
 ### What is in place and always running?
 
 #### Header Title Anchor
+
 - Brief Description
 - Repository Link
 - Point of Contact
@@ -25,6 +26,7 @@ Each automation added to this page should contain the below details at minimum:
 ### What can I trigger ad-hoc?
 
 #### Header Title Anchor
+
 - Brief Description
 - Repository Link
 - Point of Contact
