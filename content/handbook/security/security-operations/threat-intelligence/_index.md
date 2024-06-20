@@ -32,9 +32,8 @@ The initiative's current priorities are:
 
 1. **Delivering actionable intelligence**: Preparing and presenting concise, actionable reports that inform GitLab of relevant threats, their potential impact, and recommended actions.
 1. **Building meaningful connections**: Establishing relationships with industry peers, government entities, and other experts who specialize in the top threats most impactful to GitLab.
-1. **Refining reporting processes**: Continuously improving reporting templates and processes to ensure clear, consistent, and efficient communication of threat intelligence findings.
 
-As the program matures, we will expand our focus to additional service offerings outlined below.
+As the program matures, we will also include automation and AI as top priorities.
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
