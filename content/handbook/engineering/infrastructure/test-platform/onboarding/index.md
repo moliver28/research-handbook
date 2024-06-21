@@ -63,7 +63,7 @@ These internal Slack channels may be helpful to join.
   * [#infrastructure-managers](https://gitlab.slack.com/archives/C017BFF9CJU) - channel to communicate and collaborate with all engineering managers in Infrastructure
   * [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM) - channel with end-to-end test results on master pipeline
   * [#qa-nightly](https://gitlab.slack.com/messages/CGLMP1G7M) - channel with end-to-end test results against FIPS nightly package
-  * [#qa-preprod](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with  end-to-end test results for run against pre.gitlab.com
+  * [#e2e-run-preprod](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with  end-to-end test results for run against pre.gitlab.com
   * [#qa-release](https://gitlab.slack.com/archives/C0154HCFLRE) - channel with end-to-end test results for run against release.gitlab.net
   * [#qa-staging](https://gitlab.slack.com/messages/CBS3YKMGD) -  channel with  end-to-end test results for run against staging.gitlab.com
   * [#e2e-run-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ) - channel with end-to-end test results for run against staging-ref.gitlab.com

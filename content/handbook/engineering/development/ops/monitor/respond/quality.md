@@ -118,7 +118,7 @@ pipelines for that specific environment:
 
 - Staging, staging-cananry, customers-dot: [#qa-staging](https://gitlab.slack.com/archives/CBS3YKMGD)
 - Production, canary: [#qa-production](https://gitlab.slack.com/archives/CCNNKFP8B)
-- Preprod: [#qa-preprod](https://gitlab.slack.com/archives/CR7QH0RV1)
+- Preprod: [#e2e-run-preprod](https://gitlab.slack.com/archives/CR7QH0RV1)
 - Release: [#qa-release](https://gitlab.slack.com/archives/C0154HCFLRE)
 - Staging-ref: [#e2e-run-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ)
 - Master: [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM)

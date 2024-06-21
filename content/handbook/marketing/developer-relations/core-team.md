@@ -123,7 +123,7 @@ details summary * {
 - production
 - qa-master
 - qa-nightly
-- qa-preprod
+- e2e-run-preprod
 - qa-production
 - qa-staging
 - quality
