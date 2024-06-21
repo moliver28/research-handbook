@@ -27,11 +27,11 @@ This communication response plan maps out the who, what, when, and how of GitLab
 
 The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.  You can learn more about how we identify incidents in the [GitLab security incident response guide]({{< ref "sec-incident-response#incident-identification" >}}). It's also important to mention that not all security events rise to the level of becoming an incident. For example, a failed login is a security event, but by itself likely not constitute a security incident.
 
-### 💁 Corporate incident response
+### Corporate incident response (non-security related)
 
-For Support or Infrastructure managed incidents where external communication guidance is needed, please see the [corporate communications incident response plan](/handbook/marketing/corporate-communications/incident-communications-plan/#defining-the-scopeseverity-of-a-potential-incident) and engage that team via #corp-comms in slack.
+For Support or Infrastructure managed incidents where non-security related external communication guidance is needed, please follow the [corporate communications incident response plan](/handbook/marketing/corporate-communications/incident-communications-plan/#defining-the-scopeseverity-of-a-potential-incident).
 
-### 👷 Infrastructure incident response
+### Infrastructure incident response (non-security related)
 
 For Infrastructure incidents, please follow the [infrastructure incident management and communication process](/handbook/engineering/infrastructure/incident-management/#communication).
 
