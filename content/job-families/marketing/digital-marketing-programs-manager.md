@@ -132,11 +132,11 @@ The Manager, Digital Marketing is a [grade 8](/handbook/total-rewards/compensati
 - In-depth industry experience and knowledge in at least one digital marketing or marketing programs specialty.
 - Strong technical marketing and advanced digital analytics skills
 
-#### Director, Digital Strategy
+#### Director, Digital Marketing
 
 ##### Job Grade
 
-The Director, Digital Strategy is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Director, Digital Marketing is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ##### Responsibilities
 
@@ -157,10 +157,35 @@ The Director, Digital Strategy is a [grade 10](/handbook/total-rewards/compensat
 - Extensive team management skills, including career development and coaching
 - Experience partnering cross-functionally across marketing, internal stakeholders and agency partners
 
+#### Senior Director, Digital Marketing
+
+##### Job Grade
+
+The Senior Director, Digital Marketing is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+##### Responsibilities
+
+- Leading the strategy and execution of all owned and paid digital channels and programs including email, web, paid media, SEM, SEO, website, paid social, webinars, nurture, ABM and digital advertising
+- Drive creative multi-channel acquisition campaigns for both new and existing customers to source and accelerate pipeline across SMB, Mid Market and Enterprise segments
+- Create a culture of experimentation and optimization to improve conversion rates and achieve above-average ROI; while managing a $5M+ budget and optimizing spend
+- Foster collaborative, cross-functional partnerships, including Product Marketing, Sales, Analytics, Operations, Brand
+- Own and deliver reporting analysis on performance and business impact, as well as conceiving and executing testing strategies, including functional and regional level reviews
+- Guide, mentor and lead a diverse team of digital specialists, engineers, designers, campaign strategists and media planners, in addition to managing our important agency relationships;
+
+##### Requirements
+- 15+ years experience in B2B digital demand generation, 8+ years experience in team management
+- Extensive experience managing and continually improving multi-channel marketing campaigns
+- Deep understanding and practical experience of planning global, regional and localized campaigns, including emerging markets
+- Experience in driving differentiated strategies across multiple segments, including SMB and Enterprise, self-serve vs sales-assisted acquisition,  and scaled vs ABM execution
+- Expert in audience insights, segmentation, persona targeting and integrating propensity models
+- Highly proficient in analyzing and reporting on demand generation impact as well as specific measurement of functional results including paid media performance to a range of audiences, including marketing counterparts and business stakeholders
+- Extensive team management skills, including career development and coaching
+- Highly proficient in partnering cross-functionally across marketing, internal stakeholders and agency partners
+
+
 ## Key Performance Indicators
 
 - No. of leads/MQLs created, cost per lead
-
 - % increase in MQL to SAO conversion rate and nurture progression
 - % of SMB/MM leads from digital source, cost per trial acquisition
 - % YoY growth in accounts engaged
@@ -172,7 +197,6 @@ branded/non-branded Search volume, keyword rankings
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
 - Qualified candidates will be invited to a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters.
-- Candidates will be invited to a 50 min interview with the VP, Integrated Marketing
 - Candidates will be invited to a 50 min interview with the Sr. Manager, Campaigns (and ABM)
 - Candidates will be invited to a 50 min interview with the Director, Content
 - Candidates will be invited to a 50 min interview with the Marketing - Director, People Business Partner
