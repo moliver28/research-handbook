@@ -17,7 +17,8 @@ You need a Google Cloud Platform account, GitLab employees will have this. Ensur
 ### Steps to create Kubernetes cluster
 
 |  **Step**   | **What it looks like** |
-| 1. Open a browser and login to [Google Kubernetes Engine](https://console.cloud.google.com/kubernetes)  |
+|-------------|------------------------|
+| 1. Open a browser and login to [Google Kubernetes Engine](https://console.cloud.google.com/kubernetes)  | |
 | 2. GitLab employees - Sign-in using your GitLab email.  |  |
 | 3. GitLab employees should use the gitlab-demos project. Others should select or create a project to work in.| ![gitlab demos](/images/workshop/k8s/2_gitlab_demos.png)|
 | 4. Under COMPUTE on the side bar select Kubernetes Engine -> Clusters.|  ![kubernetes engine](/images/workshop/k8s/3_clusters.png)|
@@ -27,5 +28,5 @@ You need a Google Cloud Platform account, GitLab employees will have this. Ensur
 | 8. Enable legacy authorization. | ![kubernetes engine](/images/workshop/k8s/7_legacy_auth.png)|
 | 9. You are ready to create the cluster, click Create. | ![kubernetes engine](/images/workshop/k8s/8_create.png)|
 | 10. It will take a few minutes to create the cluster, once it is created, you will see your just created cluster on the list.| ![kubernetes engine](/images/workshop/k8s/9_cluster_list.png)|
-| 11. Now you are ready to integrate your GitLab project with Kubernetes, and use the Auto DevOps feature.
+| 11. Now you are ready to integrate your GitLab project with Kubernetes, and use the Auto DevOps feature. | |
 | 12. Cleanup steps PLACEHOLDER ||
