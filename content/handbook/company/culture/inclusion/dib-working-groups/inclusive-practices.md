@@ -19,7 +19,7 @@ The DIB Inclusive Practices Working Group aims to improve the use of Inclusive P
 
 ### Overview
 
-Inclusive Practices are essential for creating a workplace where everyone feels valued and can bring a diverse set of skills and qualities to the organization. The focus of the DIB Working Group is to create inclusive practices practices to be leveraged in team meetings through name pronunciations and time zones.
+Inclusive Practices are essential for creating a workplace where everyone feels valued and can bring a diverse set of skills and qualities to the organization. The focus of the DIB Working Group is to create inclusive practices to be leveraged in team meetings through name pronunciations and time zones.
 
 ### Goals
 
