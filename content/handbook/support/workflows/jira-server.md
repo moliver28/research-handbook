@@ -49,12 +49,12 @@ HTTPS connection is **required** for DVCS Connector
 1. Generate a certificate for your domain. Input your e-mail when prompted.
 
    ```bash
-   sudo certbot certonly --standalone -d <www.example.com>
+   sudo certbot certonly --standalone -d <your-domain-name>
    ```
 
    ![Jira certbot](../assets/Jira_certbot_successful.png)
 
-1. A new SSL will be issued at /etc/letsencrypt/live/<example.com>. Navigate to the directory and view the files.
+1. A new SSL will be issued at /etc/letsencrypt/live/<your-domain-name>. Navigate to the directory and view the files.
 
    ```bash
    cd /etc/letsencrypt/live/example.com
@@ -71,14 +71,14 @@ HTTPS connection is **required** for DVCS Connector
 #### Convert keypair and certificate to Java Keystore
 
 NOTE:
-I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my domain for the rest of the examples.
+Substitute <your-domain-name> with the domain name for your jira instance.
 
 1. Create a PKCS12 that contains both your full chain and the private key. You need to have OpenSSL installed for that.
 
    ```text
-   openssl pkcs12 -export -out /tmp/dwainaina-gitlab-jira-test-runner.sr.gitlab.support.p12 \
-      -in /etc/letsencrypt/live/dwainaina-gitlab-jira-test-runner.sr.gitlab.support/fullchain.pem \
-      -inkey /etc/letsencrypt/live/dwainaina-gitlab-jira-test-runner.sr.gitlab.support/privkey.pem \
+   openssl pkcs12 -export -out /tmp/<your-domain-name>.p12 \
+      -in /etc/letsencrypt/live/<your-domain-name>/fullchain.pem \
+      -inkey /etc/letsencrypt/live/<your-domain-name>/privkey.pem \
       -name tomcat
    ```
 
@@ -94,6 +94,9 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
    ```
 #### Install Jira
 
+NOTE:
+   We will be using the  Jira 8.13 version so that we can test all supported GitLab integrations. However, this will not work for OAuth2.0  integration so we will later upgrade Jira to test the connection. Substitute the following commands as appropriate for your installation verison. 
+
 1. Create a folder to store Jira software for installation.
 
    ```bash
@@ -101,8 +104,6 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
    ```
 
 1. Choose the version of Jira that you want to download from [Atlassian Jira Website](https://www.atlassian.com/software/jira/update).
-
-   We will be using the  Jira 8.13 version so that we can test all supported GitLab integrations. However, this will not work for OAuth2.0  integration so we will later upgrade Jira to test the connection.
 
 1. Select the Jira version that you want to download.
 
@@ -136,17 +137,25 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
 
    ![Jira bin process](../assets/Jira_bin_process.png)
 
-1. Jira will be accessible via localhost:8080, but needs [HTTPS to be enabled](#configure-jira-to-use-port-443) for the DVCS connector to work. 
+1. Jira will be accessible via localhost:8080 (HTTP)
+
+   ```bash
+   lsof -i :8080
+   COMMAND  PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+   java    9324 jira  165u  IPv6  75803      0t0  TCP *:http-alt (LISTEN)
+   ```
+ 
+[HTTPS must be enabled](#configure-jira-to-use-port-443) for the DVCS connector to work. 
 
 #### Configure Jira to use port 443
 
 1. Copy the [generated JKS file](#convert-keypair-and-certificate-to-java-keystore) to /opt/atlassian/jira/conf
 
    ```bash
-   cp /tmp/dwainaina-gitlab-jira-test-runner.sr.gitlab.support.jks  /opt/atlassian/jira/conf/
+   cp /tmp/<your-domain-name>.jks  /opt/atlassian/jira/conf/
    ```
 
-1. Change directory to `/opt/atlassian/jira/conf/` and edit the `server.xml`. Before editing your `server.xml` file, consider backing it up first, just in case you need to quickly roll back.
+1. Change directory to `/opt/atlassian/jira/conf/` and edit the `server.xml`. Back up `server.xml` before making changes.
 
    ```bash
    cd /opt/atlassian/jira/conf
@@ -176,7 +185,7 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
                  sslEnabledProtocols="TLSv1.2,TLSv1.3"
            clientAuth="false" useBodyEncodingForURI="true"
            relaxedPathChars="[]|" relaxedQueryChars="[]|{}^&#x5c;&#x60;&quot;&lt;&gt;"
-                 keyAlias="tomcat" keystoreFile="conf/dwainaina-gitlab-jira-test-runner.sr.gitlab.support.jks" keystorePass="Jira_PASSWORD" keystoreType="JKS" />
+                 keyAlias="tomcat" keystoreFile="conf/<your-domain-name>.jks" keystorePass="Jira_PASSWORD" keystoreType="JKS" />
    ```
 
    Replace the values for your `keyAlias`, `keystoreFile` and `keystrokePass` accordingly.
