@@ -701,7 +701,7 @@ containing any GitLab key messaging term (like, amongst other things, DevOps, De
 These instructions apply if a team member is unable to purchase required items, for whatever reason.
 
 1. A request is sent to Payroll explaining the reason for the advance. uspayroll@gitlab.com or nonuspayroll@gitlab.com
-1. [Expense reimbursement](https://docs.google.com/spreadsheets/d/1D0kWlqol7jBjqn7yDY6uc7UCWSIcUmiF/edit?usp=sharing&ouid=108533621432009168804&rtpof=true&sd=true) template is filled out and returned to Payroll.
+1. [Expense reimbursement](https://docs.google.com/spreadsheets/d/1TiSbp1C3-7WERqDanfBKTxdm5VevQ5QDOAiI_GaizBg/edit?gid=1450348181#gid=1450348181) template is filled out and returned to Payroll.
    - Must include the correct entity, currency, VAT, valid receipts and banking details for payment.
 1. Payroll reviews and approves/rejects.
    - If approved, they forward the report to the VP, Corporate Controller, or Chief Accounting Officer to request approval for reimbursement.
