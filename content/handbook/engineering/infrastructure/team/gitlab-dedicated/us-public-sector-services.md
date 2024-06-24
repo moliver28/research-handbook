@@ -144,9 +144,9 @@ The status for all work for the team is maintained in the description of the top
 
 #### Status Update Process
 
-Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process:
+Status updates are provided weekly in accordance with [SaaS Platforms Project Management](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review) guidelines
 
-1. **By 17:00 PST on Thursdays** DRIs of _active_ epics (or the person covering if DRI OOO) provide an update in the [status section of the description](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure) of the epic regarding status of the epic including any relevant details of active sub-epics.
+1. **Epic DRI Updates** DRIs of _active_ epics (or the person covering if DRI OOO) provide an update in the [status section of the description](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure) of the epic regarding status of the epic including any relevant details of active sub-epics.
     - If the DRI for a sub-epic is different than the epic DRI, the epic DRI is responsible for getting updates from the sub-epic DRI.
     - Format for weekly update:
       - **Date of Update** (YYYY-MM-DD)
