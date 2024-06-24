@@ -23,8 +23,11 @@ title: "Customer Advocacy at GitLab"
 
 - Nicole Smith — Director, Product Marketing, Customer Advocacy
 - Steve George — Product Marketing Manager, Customer Advocacy
+- Jocelyn Hernandez Vazquez — Product Marketing Manager - Customer Advocacy
+- Rachel Lurie — Product Marketing Manager - Customer Advocacy
 
 ## Programs we drive and support
+
 
 **Evergreen customer story creation**
 
