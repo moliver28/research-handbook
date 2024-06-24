@@ -58,14 +58,14 @@ After you sign your offer and complete your background check and references, you
 1. [Brag Docs](https://jvns.ca/blog/brag-documents/) are a way of tracking the work you've done. It can be a very helpful document when talking with managers, leadership, or when seeking promotions. Here's a [recording](https://youtu.be/oVd3jN76b5c) of an event hosted by the Early Career Team Member Discussion Group to talk about some advice for keeping a brag doc and more.
 1. To manage timezone pains:
 
-    -  [Clocker App](https://apps.apple.com/us/app/clocker/id1056643111?mt=12)
+    - [Clocker App](https://apps.apple.com/us/app/clocker/id1056643111?mt=12)
 
         <img src="handbook/people-group/general-onboarding/images/clocker_app.png" alt="a screenshot of clocker app on mac desktop" width="300"/>
 
-    -  [Find a Time in Google Calendar](https://www.getclockwise.com/blog/google-calendar-find-a-time)
-    -  [See Other TimeZone in Google Calendar](https://support.google.com/calendar/answer/37064?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csee-other-time-zones)
-    -  [Better Team Page](https://leipert-projects.gitlab.io/better-team-page/timezones/) - Okta Sign In Required
-    -  [Every Timezone](https://everytimezone.com/)
+    - Find a Time in Google Calendar](https://www.getclockwise.com/blog/google-calendar-find-a-time)
+    - [See Other TimeZone in Google Calendar](https://support.google.com/calendar/answer/37064?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csee-other-time-zones)
+    - [Better Team Page](https://leipert-projects.gitlab.io/better-team-page/timezones/) - Okta Sign In Required
+    - [Every Timezone](https://everytimezone.com/)
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Acronym Dictionary
 
