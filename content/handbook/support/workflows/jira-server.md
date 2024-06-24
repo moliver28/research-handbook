@@ -15,6 +15,12 @@ For more information about various uses of Jira Please check out the [Get starte
 #### Steps
 
 1. Create a server from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Using the [basic server](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/examples/basic-server.tf?ref_type=heads) will ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
+1. Disable Apache if using the basic server image
+   
+   ```bash
+   systemctl stop apache2
+   systemctl disable apache2
+   ```
 1. [Install Java](https://confluence.atlassian.com/adminjiraserver/installing-java-938846828.html). Check the appropriate version of [supported platforms](https://confluence.atlassian.com/adminjiraserver0822/supported-platforms-1142236965.html) to install the correct version. 
 
    ```bash
@@ -34,88 +40,6 @@ For more information about various uses of Jira Please check out the [Get starte
 1. [Install Jira](#install-jira)
 1. [Configure Jira access through port 443](#configure-jira-to-use-port-443)
 1. [Set up Jira](#set-up-jira)
-
-#### Install Jira
-
-1. Create a folder to store Jira software for installation.
-
-   ```bash
-   mkdir  jira && cd jira
-   ```
-
-1. Choose the version of Jira that you want to download from [Atlassian Jira Website](https://www.atlassian.com/software/jira/update).
-
-   We will be using the  Jira 8.13 version so that we can test all supported GitLab integrations. However, this will not work for OAuth2.0  integration so we will later upgrade Jira to test the connection.
-
-1. Select the Jira version that you want to download.
-
-   ![Download Jira Screenshot](../assets/JIRA_1_Download.png)
-
-1. Accept and right-click submit button to get the download URL. (Choose copy link address during the file download)
-
-1. Use `wget <URL>` command to download the Jira installer. Example:
-
-   ```bash
-   wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-8.13.7-x64.bin
-   ```
-
-   ![wget data](../assets/Jira_wget.png)
-
-1. Change the script to be executable using
-
-   ```bash
-   chmod a+x atlassian-jira-software-8.13.7-x64.bin
-   ```
-
-1. Run the installer and enter Y if it requests you to install OpenJDK.
-
-   ```bash
-   sudo ./atlassian-jira-software-8.13.7-x64.bin
-   ```
-
-   ![Jira bin](../assets/Jira_bin.png)
-
-1. Follow the installation instructions and enter default for all questions asked in the installation.
-
-   ![Jira bin process](../assets/Jira_bin_process.png)
-
-1. Jira will be accessible via localhost:8080, but needs [HTTPS to be enabled](#configure-jira-to-use-port-443) for the DVCS connector to work. 
-
-#### Set Up Jira
-
-1. You will have to set up Jira before using it. After you access from the browser, Select `I’II set it up myself`.
-
-   ![Jira Set It Up Myself Screenshot](../assets/JIRA_Setupmyself.png)
-
-1. In the next step, select `Built-in (for evaluation or demonstration)`.
-
-   ![Jira Database setup](../assets/Jira_db_setup.png)
-
-1. While waiting for the database to be created,  login to your atlassian account and open [https://my.atlassian.com/product](https://my.atlassian.com/product) .  Generate a license trial license for your server.
-
-   ![Jira Licenses](../assets/Jira_licenses.png)
-
-1. On the next page, select `Jira Software` for Product and  `Jira Software (Data Center)` for License type.  Enter any details for the remaining fields.  For `Server ID`, you will get it when the server finishes setting up the database.
-
-   ![Jira License Setup](../assets/Jira_license_setup.png)
-
-1. After the database creation is complete, the next section will be setting application properties. Leave it as default and click `Next`.
-
-   ![Jira Application Propertpplication_properties.png
-
-1. In the next scene, specify your license Key.  Copy the `Server ID` and paste it to the `New trial License Generation` screen and click on `Generate License`.
-
-   ![Jira Generate License](../assets/Jira_generate_license.png)
-
-1. Copy and paste the license key generated and update license in your Jira setup.
-
-   ![Jira License Atlassian](../assets/Jira_license_atlassian.png)
-
-   ![Jira Specify License](../assets/Jira_specify_license.png)
-
-1. Create a Jira Admin user and continue with the next steps.
-1. Continue with the setup and create a test project.  “GITLAB”.
-1. Create a test issue that we will be using to test with.
 
 #### Create SSL/TLS certificate for HTTPS
 
@@ -168,6 +92,51 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
    -srckeystore /tmp/<your-domain-name>.p12  -srcstoretype PKCS12 -srcstorepass <password> \
    -alias tomcat
    ```
+#### Install Jira
+
+1. Create a folder to store Jira software for installation.
+
+   ```bash
+   mkdir  jira && cd jira
+   ```
+
+1. Choose the version of Jira that you want to download from [Atlassian Jira Website](https://www.atlassian.com/software/jira/update).
+
+   We will be using the  Jira 8.13 version so that we can test all supported GitLab integrations. However, this will not work for OAuth2.0  integration so we will later upgrade Jira to test the connection.
+
+1. Select the Jira version that you want to download.
+
+   ![Download Jira Screenshot](../assets/JIRA_1_Download.png)
+
+1. Accept and right-click submit button to get the download URL. (Choose copy link address during the file download)
+
+1. Use `wget <URL>` command to download the Jira installer. Example:
+
+   ```bash
+   wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-8.13.7-x64.bin
+   ```
+
+   ![wget data](../assets/Jira_wget.png)
+
+1. Change the script to be executable using
+
+   ```bash
+   chmod a+x atlassian-jira-software-8.13.7-x64.bin
+   ```
+
+1. Run the installer and enter Y if it requests you to install OpenJDK.
+
+   ```bash
+   sudo ./atlassian-jira-software-8.13.7-x64.bin
+   ```
+
+   ![Jira bin](../assets/Jira_bin.png)
+
+1. Follow the installation instructions and enter default for all questions asked in the installation.
+
+   ![Jira bin process](../assets/Jira_bin_process.png)
+
+1. Jira will be accessible via localhost:8080, but needs [HTTPS to be enabled](#configure-jira-to-use-port-443) for the DVCS connector to work. 
 
 #### Configure Jira to use port 443
 
@@ -276,6 +245,42 @@ I will be using `dwainaina-gitlab-jira-test-runner.sr.gitlab.support` as my doma
    systemctl restart jira
    systemctl status jira
    ```
+   
+#### Set Up Jira
+
+1. You will have to set up Jira before using it. After you access from the browser, Select `I’II set it up myself`.
+
+   ![Jira Set It Up Myself Screenshot](../assets/JIRA_Setupmyself.png)
+
+1. In the next step, select `Built-in (for evaluation or demonstration)`.
+
+   ![Jira Database setup](../assets/Jira_db_setup.png)
+
+1. While waiting for the database to be created,  login to your atlassian account and open [https://my.atlassian.com/product](https://my.atlassian.com/product) .  Generate a license trial license for your server.
+
+   ![Jira Licenses](../assets/Jira_licenses.png)
+
+1. On the next page, select `Jira Software` for Product and  `Jira Software (Data Center)` for License type.  Enter any details for the remaining fields.  For `Server ID`, you will get it when the server finishes setting up the database.
+
+   ![Jira License Setup](../assets/Jira_license_setup.png)
+
+1. After the database creation is complete, the next section will be setting application properties. Leave it as default and click `Next`.
+
+   ![Jira Application Propertpplication_properties.png
+
+1. In the next scene, specify your license Key.  Copy the `Server ID` and paste it to the `New trial License Generation` screen and click on `Generate License`.
+
+   ![Jira Generate License](../assets/Jira_generate_license.png)
+
+1. Copy and paste the license key generated and update license in your Jira setup.
+
+   ![Jira License Atlassian](../assets/Jira_license_atlassian.png)
+
+   ![Jira Specify License](../assets/Jira_specify_license.png)
+
+1. Create a Jira Admin user and continue with the next steps.
+1. Continue with the setup and create a test project.  “GITLAB”.
+1. Create a test issue that we will be using to test with.
 
 ### Server Setup Troubleshooting
 
