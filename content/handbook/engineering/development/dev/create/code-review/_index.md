@@ -79,7 +79,7 @@ experience = f(perceived performance, task completion)
   {{< tableau/filters "GROUP_LABEL"="code review" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssuesDetails" >}}
   {{< tableau/filters "GROUP_NAME"="code review" >}}
 {{< /tableau >}}
 
