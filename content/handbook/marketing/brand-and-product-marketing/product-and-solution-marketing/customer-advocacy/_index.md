@@ -26,7 +26,6 @@ title: "Customer Advocacy at GitLab"
 - Jocelyn Hernandez Vazquez — Product Marketing Manager, Customer Advocacy
 - Rachel Lurie — Product Marketing Manager, Customer Advocacy
 
-
 ## Programs we drive and support
 
 **Evergreen customer story creation**
