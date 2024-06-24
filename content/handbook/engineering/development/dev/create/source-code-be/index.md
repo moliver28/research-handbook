@@ -31,7 +31,7 @@ We have a [metrics dashboard](https://app.periscopedata.com/app/gitlab/570334/Un
   {{< tableau/filters "GROUP_LABEL"="source code" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssuesDetails" >}}
   {{< tableau/filters "GROUP_NAME"="source code" >}}
 {{< /tableau >}}
 
