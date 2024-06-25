@@ -28,7 +28,7 @@ After your 1Password account has been created during onboarding, you should [gen
 
 - [1Password Vendor Docs - Generate Strong Passwords](https://support.1password.com/strong-account-password/)
 - [Okta Vendor Docs - Change Your Okta Password](https://help.okta.com/eu/en-us/content/topics/end-user/manage-account-settings.htm#Reset)
-- [GitLab’s Password Policy](/handbook/security/#GitLab-password-policy-guidelines)
+- [GitLab’s Password Policy](/handbook/security/#gitlab-password-policy-guidelines)
 
 ### 2FA
 

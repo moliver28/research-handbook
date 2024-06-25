@@ -20,13 +20,13 @@ If you need any help with onboarding that isn't answered in the handbook or you'
 
 ## Overview
 
-At GitLab, we use the term **onboarding** to refer to the first few weeks after a team member was hired and enabling you to be productive. The onboarding processes are cross-functionally managed with Corporate Security, [People Operations](https://handbook.gitlab.com/handbook/people-group/general-onboarding/), and [Security Assurance](https://handbook.gitlab.com/handbook/security/security-assurance/).
+At GitLab, we use the term **onboarding** to refer to the first few weeks after a team member was hired and enabling you to be productive. The onboarding processes are cross-functionally managed with Corporate Security, [People Operations](/handbook/people-group/general-onboarding/), and [Security Assurance](/handbook/security/security-assurance/).
 
 We also enable our customers, partners, and vendors that are external to GitLab to collaborate with internal teams on GitLab.com, Google, Slack, etc. Please see the [external collaborators](/handbook/security/corporate/services/external-collaborators) handbook page for access requests related to users without a `@gitlab.com` email address.
 
 ## Contractors
 
-At GitLab, we use the term **team member** instead of **employee**, except in documentation (like this page) when trying to relate to what you already may be familiar with. See the [People Group Employment Solutions](https://handbook.gitlab.com/handbook/people-group/employment-solutions/#team-member-types-at-gitlab) page to learn more about the different types of team members, including **contractors**.
+At GitLab, we use the term **team member** instead of **employee**, except in documentation (like this page) when trying to relate to what you already may be familiar with. See the [People Group Employment Solutions](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab) page to learn more about the different types of team members, including **contractors**.
 
 The fundamental difference between a **team member contractor** and **temporary service provider contractor** is:
 
