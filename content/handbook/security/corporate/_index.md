@@ -22,9 +22,13 @@ Please try exploring the following pages to see if your question has been answer
 
 [Security Division Mission](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)
 
-As a remote company, we do not have office buildings, physical datacenters, or other traditional IT environments. All of our team members are issued a laptop that they use to work from home or on the road, we predominately use SaaS application vendors, and use AWS and GCP for virtualized cloud infrastructure. Although it is a simpler physical threat landscape, the cybersecurity threat landscape is vast and still requires a lot of attention to do it right. While GitLab is both a company and a product, the Corporate Security department focuses on protecting the technology that the company uses to conduct business, and provides the hardware, software, and tools that our team members need to get their job done. We have a 24x5 technical support helpdesk for team members and have engineers that configure and maintain many of our company-wide tech stack applications.
+As a remote company, we do not have office buildings, physical datacenters, or other traditional IT environments. All of our team members are issued a laptop that they use to work from home or on the road. Although our engineering and product teams are building software that is deployed on AWS and GCP, almost all of our corporate software is vendor-managed software-as-a-service (SaaS). Although this results in a simpler physical threat landscape, the cybersecurity threat landscape is vast and still requires a lot of attention to do it right.
 
 Our mission is to empower our employees to be productive with the technology provided by the business, enable the business to be successful, protect our customers and their data, and provide internal security for GitLab (the company) and our team member's use of GitLab (the product).
+
+GitLab is both a company and a product. The Corporate Security department focuses on protecting the technology that the company uses to conduct business internally, and provides the hardware, software, and tools that our team members need to get their job done. We have a 24x5 technical support helpdesk for team members and have engineers that configure and maintain many of our company-wide tech stack applications. We also invest heavily in device trust and identity management to provide the highest level of security assurance for the administrators of our product and ensure all appropriate controls are in place when handling customer data.
+
+### Prime Directive
 
 - Safeguard our organization's digital assets, ensuring the integrity, confidentiality, and availability of all data.
 - Implement robust security measures, fostering a culture of awareness and compliance among employees, and continuously monitoring and enhancing our information technology systems to protect against evolving threats.
@@ -33,7 +37,7 @@ Our mission is to empower our employees to be productive with the technology pro
 
 ### Scope
 
-- Architecting next-generation automation and integration between security-related systems that provides data consistency, reliability, strong security, and audibility
+- Architecting next-generation automation and integration between security-related systems that provides data consistency, reliability, strong security, and auditability.
 - Building relationships with cross-department system owners and proposing solutions to ensure our tech stack applications conform to our latest security best practices
 - Consolidating and refactoring legacy tech debt
 - Designing processes and choosing software tools that improves back office automation or mitigates security risks
@@ -80,7 +84,7 @@ Our mission is to empower our employees to be productive with the technology pro
   - 💻 [Laptop and Logistics Services](/handbook/security/corporate/services/laptops)
   - 🛬 [Onboarding](/handbook/security/corporate/services/onboarding)
   - 🛫 [Offboarding](/handbook/security/corporate/services/offboarding)
-  - 🧑‍💻 [Tech Support (for Team Members)](/handbook/services/corporate/services/)
+  - 🧑‍💻 [Tech Support (for Team Members)](/handbook/security/corporate/services/)
 - ☁ [Infrastructure Services](/handbook/security/corporate/services/infrastructure)
 
 ### Engineering

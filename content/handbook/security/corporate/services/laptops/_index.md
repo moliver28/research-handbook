@@ -1,5 +1,5 @@
 ---
-title: CorpSec Laptop and Logistics Services
+title: Laptops and Logistics
 ---
 
 ## Purpose

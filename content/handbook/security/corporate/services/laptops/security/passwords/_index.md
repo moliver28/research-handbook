@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Passwords
+title: Laptop Passwords
 ---
 
 ## Overview

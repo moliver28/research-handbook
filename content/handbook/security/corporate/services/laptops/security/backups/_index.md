@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Backups
+title: Laptop Backups
 ---
 
 ## Overview

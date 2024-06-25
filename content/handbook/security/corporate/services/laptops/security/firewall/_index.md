@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Firewalls
+title: Laptop Firewalls
 ---
 
 ## Overview

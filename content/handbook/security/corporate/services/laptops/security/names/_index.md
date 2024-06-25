@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Hostnames and Usernames
+title: Laptop Hostnames and Usernames
 ---
 
 ## Overview

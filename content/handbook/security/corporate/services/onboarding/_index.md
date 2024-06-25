@@ -1,5 +1,5 @@
 ---
-title: Onboarding Services
+title: CorpSec Onboarding Services
 ---
 
 The Corporate Security Helpdesk provides day-to-day support and handles the provisioning of accounts, hardware, and software for new team members (aka employees), temporary service providers (aka contractors), and any external collaborators (aka customers, partners, and vendors).

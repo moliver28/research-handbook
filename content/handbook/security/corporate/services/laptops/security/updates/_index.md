@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Software Updates
+title: Laptop Software Updates
 ---
 
 ## Overview
