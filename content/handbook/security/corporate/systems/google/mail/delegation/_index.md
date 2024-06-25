@@ -1,5 +1,5 @@
 ---
-title: Google Mail Guides (Delegation)
+title: Google Mail (Gmail) User Delegation Guide
 ---
 
 ## Overview

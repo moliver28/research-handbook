@@ -1,5 +1,5 @@
 ---
-title: Corporate Security (CorpSec) Helpdesk
+title: CorpSec Helpdesk
 ---
 
 ## Need Help?

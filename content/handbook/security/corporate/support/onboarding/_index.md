@@ -2,9 +2,7 @@
 title: Corporate Security Onboarding 101 Guide
 ---
 
-Congratulations on joining GitLab! This page is dedicated to the IT and Security onboarding experience.
-
-We use many applications at GitLab and provide you with the latest hardware to enable you to complete your work to the best of your ability!
+👋 Welcome to GitLab! We're glad you're here. The links on this page will help you get your laptop set up and access to the various systems that you will use to collaborate with other team members and start working on projects with your team.
 
 ## Need Help?
 
@@ -74,7 +72,12 @@ As you complete your employment onboarding tasks, you may also need to access th
 
 Each team has one or more Google Drive folders or shared drives that will be shared with you. Please ask your onboarding buddy or manager for a tour of where they create and access documents at.
 
+### Additional Documentation
+
+We have documentation for many of our systems on the [Corporate Security Systems](/handbook/security/corporate/systems) handbook page.
+
 ## Getting Help
 
+- [Corporate Security Systems](/handbook/security/corporate/systems)
 - [Corporate Security Support](/handbook/security/corporate/support)
 - Ask in the `#it_help` Slack channel

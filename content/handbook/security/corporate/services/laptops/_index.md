@@ -45,8 +45,8 @@ At GitLab, we use centralized laptop management for company-issued laptops. If y
 ### New Laptops
 
 - 👀 [Onboarding Hardware Ordering Guide](/handbook/security/corporate/services/laptops/onboarding)
-- [Onboarding Software Setup Guide](/handbook/security/guides/onboarding)
-- [Apple macOS Setup Guide](/handbook/security/corporate/systems/macos/guides/setup)
+- [Onboarding Software Setup Guide](/handbook/security/corporate/support/onboarding)
+- [Apple macOS Setup Guide](/handbook/security/corporate/systems/macos/setup)
 - [Linux Setup Guide](/handbook/security/corporate/systems/linux)
 
 ### Laptop Replacement and Repairs

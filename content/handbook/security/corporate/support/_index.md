@@ -10,11 +10,83 @@ The Corporate Security team provides tech support helpdesk services for team mem
 
 ### Tier 1. Self Service
 
-As part of our [self-service and self-learning](https://handbook.gitlab.com/handbook/values/#self-service-and-self-learning) efficiency value, we encourage you to check out the security self-service guides and runbooks documentation to see if you can find the answer to your question.
+As part of our [self-service and self-learning](/handbook/values/#self-service-and-self-learning) efficiency value, we encourage you to check out the [security self-service guides and systems documentation](/handbook/security/corporate/systems) to see if you can find the answer to your question.
 
+If you can't find what you're looking for, please ask in `#it_help`.
+
+#### Future State
+
+- (Internal) Why: [Direction and Strategy](https://internal.gitlab.com/handbook/security/corporate/direction)
+- (Internal) What: [Initiatives and Projects](https://internal.gitlab.com/handbook/security/corporate/projects)
+- (Internal) When: [OKRs and Roadmap](https://internal.gitlab.com/handbook/security/corporate/roadmap)
+- (Internal) How: [CorpSec Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues)
+- (Public) Who: [Team Functions](/handbook/security/corporate/#team-functions) and [Team Directory](/handbook/security/corporate/#team-directory)
+
+#### Current State
+
+- [Team Directory](/handbook/security/corporate/#team-directory)
 - **👀 New Team Members:** [Security Onboarding 101 Guide](/handbook/security/corporate/support/onboarding)
-- **👀 Existing Team Members:** [Corporate Security Systems and Access Requests](/handbook/security/corporate/systems)
-- (Internal) [Systems Handbook (Configuration and Runbooks)](https://handbook.gitlab.systems)
+- **👀 Existing Team Members:** [Corporate Security Systems Documentation, Access Requests, and Self Service Guides](/handbook/security/corporate/systems)
+- **👷 Administration Docs:** (Internal) [Systems Handbook (Configuration and Runbooks)](https://handbook.gitlab.systems)
+- 👷 [Engineering](/handbook/security/corporate/engineering)
+  - [Device Trust Engineering](/handbook/security/corporate/engineering/device-trust)
+  - [Identity Engineering](/handbook/security/corporate/engineering/identity)
+  - [Infrastructure Engineering](/handbook/security/corporate/engineering/infrastructure)
+  - [Platform Engineering (Self-Service Tool Software Development)](/handbook/security/corporate/engineering/platform)
+  - [SaaS Engineering (Corporate Tech Stack Applications and Platforms)](/handbook/security/corporate/saas/)
+- 💻 [Services](/handbook/security/corporate/services)
+  - [Access Requests](/handbook/security/corporate/services/access-requests)
+    - **Need Access?** See the [Systems](/handbook/security/corporate/sysetms) page for instructions for each specific system.
+    - [External Collaborators (Auditors, Customers, Partners, Vendors)](/handbook/security/corporate/services/external-collaborators)
+    - [Infrastructure Provisioning (AWS, Azure, GCP, Sandbox Cloud)](/handbook/security/corporate/services/infrastructure)
+    - [Okta Applications](/handbook/security/corporate/systems/okta/ar)
+    - [Service Accounts](/handbook/security/corporate/services/service-accounts)
+    - [Temporary Service Providers (Contractor Users)](/handbook/security/corporate/services/temporary-users)
+  - [Change Management](/handbook/security/corporate/services/change-management)
+  - [Email](/handbook/security/corporate/services/email)
+  - Device Management
+    - [Cell Phones and Mobile Devices](/handbook/security/corporate/services/phones)
+    - [Laptops](/handbook/security/corporate/services/laptops)
+      - **New Laptops**
+        - 👀 [Onboarding Hardware Ordering Guide](/handbook/security/corporate/services/laptops/onboarding)
+        - 👀 [Onboarding Software Setup Guide](/handbook/security/corporate/support/onboarding)
+        - 👀 [Apple macOS Setup Guide](/handbook/security/corporate/systems/macos/guides/setup)
+        - [Linux Setup Guide](/handbook/security/corporate/systems/linux)
+      - **Laptop Replacement and Repairs**
+        - [Refresh/Replace Guide](/handbook/security/corporate/services/laptops/refresh)
+        - [Repair Guide](/handbook/security/corporate/services/laptops/)
+      - **Old Laptops**
+        - [Wipe (Factory Reset) Guide](/handbook/security/corporate/services/laptops/wipe)
+        - [Buy Back Guide](/handbook/security/corporate/services/laptops/buy-back)
+        - [Donation Guide](/handbook/security/corporate/services/laptops/donation)
+        - [Recycle/Return Guide](/handbook/security/corporate/services/laptops/recycle)
+      - **Laptop Policies**
+        - [Procurement Guide and Shipping Times](/handbook/security/corporate/services/laptops/procurement)
+        - [Hardware Models and Specs](/handbook/security/corporate/services/laptops/hardware)
+        - [Operating System Standards](/handbook/security/corporate/services/laptops/os)
+        - [Apps and Software Standards](/handbook/security/corporate/services/laptops/software)
+        - [Security Configuration Standards](/handbook/security/corporate/services/laptops/security)
+          - [Apple ID for Work](/handbook/security/corporate/services/laptops/security/appleid)
+          - [Backups](/handbook/security/corporate/services/laptops/security/backups)
+          - [Disk Encryption](/handbook/security/corporate/services/laptops/security/encryption)
+          - [Firewall](/handbook/security/corporate/services/laptops/security/firewall)
+          - [Hostnames and Usernames](/handbook/security/corporate/services/laptops/security/names)
+          - [iCloud Drive](/handbook/security/corporate/services/laptops/security/icloud)
+          - [Locking When Unattended](/handbook/security/corporate/services/laptops/security/unattended)
+          - [Password Management](/handbook/security/corporate/services/laptops/security/passwords)
+          - [Personal Use](/handbook/security/corporate/services/laptops/security/personal)
+          - [Remote Management (MDM and EDR)](/handbook/security/corporate/services/laptops/security/management)
+          - [Software Updates](/handbook/security/corporate/services/laptops/security/updates)
+          - [Touch ID (Biometric Passwords and 2FA)](/handbook/security/corporate/services/laptops/security/touchid)
+          - [Web Browsers](/handbook/security/corporate/services/laptops/security/browsers)
+          - [Wireless Networks and VPN](/handbook/security/corporate/services/laptops/security/networks)
+- Employment Lifecycle
+  - [Onboarding](/handbook/security/corporate/services/onboarding)
+  - [Role Changes (Career Mobility)](/handbook/security/corporate/services/role-changes)
+  - [Offboarding](/handbook/security/corporate/services/offboarding)
+- [Helpdesk Support](/handbook/security/corporate/services/helpdesk)
+  - See [Support](/handbook/security/corporate/support) and/or [Systems](/handbook/security/corporate/systems) pages to get help.
+  - If you can't find the answer you're looking for, scroll down for Tier 2 support.
 
 ### Tier 2. Helpdesk Support
 
@@ -50,6 +122,8 @@ Our Security Engineers and Systems Engineers are the technical owners for our [C
 For team member support requests, please ask for assistance in the `#it_help` Slack channel.
 
 For advanced requests or change/configuration management, please open a GitLab issue in the [Corporate Security Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues) and choose the appropriate issue template that will automatically add the appropriate labels and assign it to the respective system owners.
+
+**Courtesy Reminder:** We do **not** provide same day support in our engineering issues. We have a prioritized queue for our issues that is managed by our engineering managers and program managers. We have allocated buffer in each team to triage new day-to-day requests within a few business days. Please add the appropriate priority label to any issues that you create. **Please ask in the `#it_help` Slack channel for anything urgent** and we will handle escalations and prioritization internally.
 
 ### Tier 4. Automation Engineering
 

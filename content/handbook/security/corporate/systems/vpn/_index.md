@@ -1,5 +1,5 @@
 ---
-title: "Laptop VPN for Public Networks and System Administration"
+title: Laptop VPN for Public Networks and System Administration
 ---
 
 ## Overview
