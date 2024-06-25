@@ -20,7 +20,7 @@ Please try exploring the following pages to see if your question has been answer
 
 ### Mission
 
-[Security Division Mission](https://handbook.gitlab.com/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)
+[Security Division Mission](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)
 
 As a remote company, we do not have office buildings, physical datacenters, or other traditional IT environments. All of our team members are issued a laptop that they use to work from home or on the road, we predominately use SaaS application vendors, and use AWS and GCP for virtualized cloud infrastructure. Although it is a simpler physical threat landscape, the cybersecurity threat landscape is vast and still requires a lot of attention to do it right. While GitLab is both a company and a product, the Corporate Security department focuses on protecting the technology that the company uses to conduct business, and provides the hardware, software, and tools that our team members need to get their job done. We have a 24x5 technical support helpdesk for team members and have engineers that configure and maintain many of our company-wide tech stack applications.
 
@@ -65,7 +65,7 @@ Our mission is to empower our employees to be productive with the technology pro
 - (Internal) [CorpSec Direction and Strategy](https://internal.gitlab.com/handbook/security/corporate/direction)
 - (Internal) [CorpSec OKRs and Roadmap](https://internal.gitlab.com/handbook/security/corporate/roadmap)
 - (Internal) [CorpSec Projects and Initiatives](https://internal.gitlab.com/handbook/security/corporate/projects)
-- [Security Division OKRs](https://handbook.gitlab.com/handbook/security/okr/)
+- [Security Division OKRs](/handbook/security/okr/)
 - (Internal) [Corporate Security Epics List](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/epics?state=opened&page=1&sort=start_date_desc)
 - (Internal) [Corporate Security Epics Gantt Chart](https://gitlab.com/groups/gitlab-com/gl-security/corp/-/roadmap?state=opened&sort=START_DATE_ASC&layout=QUARTERS&timeframe_range_type=THREE_YEARS&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=true)
 - (Internal) [CorpSec Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues)
@@ -106,21 +106,21 @@ See the [Team Directory](/handbook/security/corporate/team).
 - [CorpSec Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues)
 - Engineers and System Owners - See [CorpSec Systems](/handbook/security/corporate/systems) for GitLab group handle and Slack group handle.
 - Helpdesk Team
-    - `#it_help` Slack Channel
-    - `@it-help` Slack group
-    - `it-help [at] gitlab [dot] com`
-    - `@gitlab-com/gl-security/corp/services`
+  - `#it_help` Slack Channel
+  - `@it-help` Slack group
+  - `it-help [at] gitlab [dot] com`
+  - `@gitlab-com/gl-security/corp/services`
 - Management Team
-    - `@gitlab-com/gl-security/corp/managers`
-    - Tag the respective [functional team manager](/handbook/security/corporate/team) or director in Slack.
-        - Director - Steve Manzuik
-        - Program Management - Steve Manzuik, Kim Waters
-        - Device Trust - Eric Rubin
-        - Helpdesk Support - Michael Beltran
-        - Infrastructure - Jeff Martin
-        - Laptops and Logistics - Michael Beltran
-        - Onboarding and Offboarding Day-to-Day Operations (Helpdesk Services) - Michael Beltran
-        - Onboarding and Offboarding Policy and Strategy (Identity Engineering) - David Zhu
-        - Platform Engineering (Custom Software Development) - Jeff Martin
-        - SaaS Engineering - David Zhu, Eric Rubin
-        - Sensitive Data or Employment Requests - Michael Beltran
+  - `@gitlab-com/gl-security/corp/managers`
+  - Tag the respective [functional team manager](/handbook/security/corporate/team) or director in Slack.
+    - Director - Steve Manzuik
+    - Program Management - Steve Manzuik, Kim Waters
+    - Device Trust - Eric Rubin
+    - Helpdesk Support - Michael Beltran
+    - Infrastructure - Jeff Martin
+    - Laptops and Logistics - Michael Beltran
+    - Onboarding and Offboarding Day-to-Day Operations (Helpdesk Services) - Michael Beltran
+    - Onboarding and Offboarding Policy and Strategy (Identity Engineering) - David Zhu
+    - Platform Engineering (Custom Software Development) - Jeff Martin
+    - SaaS Engineering - David Zhu, Eric Rubin
+    - Sensitive Data or Employment Requests - Michael Beltran

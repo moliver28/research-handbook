@@ -44,7 +44,7 @@ The links for each application below will take you to the step-by-step instructi
 
 - **[GitLab.com](/handbook/security/corporate/systems/gitlab/com/setup):** This will automatically provision your GitLab.com user account if you do not already have one. We use our own product to run the company day-to-day and you will spend a lot of time working with issues and merge requests. Your onboarding issue is the first issue assigned to you and will give you a feel for what to expect and how to use the [GitLab product](https://about.gitlab.com/features/).
 
-- **[GitLab Internal Handbook](https://internal.gitlab.com):** We have an internal handbook that requires authentication for information that is not suitable for our public handbook. During your onboarding, you'll need to read through  the [confidentiality levels](https://handbook.gitlab.com/handbook/communication/confidentiality-levels/) and [data classification standard](https://handbook.gitlab.com/handbook/security/data-classification-standard/).
+- **[GitLab Internal Handbook](https://internal.gitlab.com):** We have an internal handbook that requires authentication for information that is not suitable for our public handbook. During your onboarding, you'll need to read through  the [confidentiality levels](/handbook/communication/confidentiality-levels/) and [data classification standard](/handbook/security/data-classification-standard/).
 
 - **[Slack SSO](/handbook/security/corporate/systems/slack/setup):** This is where async collaboration happens at GitLab. If you're not familiar with [Slack](https://slack.com/help/categories/360000049043), it is group text messaging on steroids with all of our team members, vendors, and customers, and is similar to Microsoft Teams.
 
@@ -60,11 +60,11 @@ As you complete your employment onboarding tasks, you may also need to access th
 
 - **[Workday SSO](/handbook/people-group/workday-guide/):** This is our Human Resources Information Systems (HRIS) where all of your employment and benefits information is managed.
 
-- **[Level Up SSO](https://handbook.gitlab.com/handbook/people-group/learning-and-development/level-up/):** This is our learning management system (LMS) that has professional development and product training courses to learn more about various topics.
+- **[Level Up SSO](/handbook/people-group/learning-and-development/level-up/):** This is our learning management system (LMS) that has professional development and product training courses to learn more about various topics.
 
 - **Will Learning:** Compliance training learning management system (LMS) for some courses
 
-- **[Navan SSO](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/):** This is our [expense reporting](https://internal.gitlab.com/handbook/finance/expenses/) and travel booking system for most countries.
+- **[Navan SSO](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/):** This is our [expense reporting](https://internal.gitlab.com/handbook/finance/expenses/) and travel booking system for most countries.
 
 - [Payroll Provider](https://internal.gitlab.com/handbook/finance/payroll/#legal-entity-payroll-providers)
 

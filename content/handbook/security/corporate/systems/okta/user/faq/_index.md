@@ -8,10 +8,12 @@ If you have a question that is not answered here, please ask in `#it_help` on Sl
 
 ### GitLab.com 2FA
 
-> Why does GitLab.com ask for an additional MFA when I login via Okta?
+> Why does GitLab.com ask for an additional MFA when I login using Okta?
 
 Your gitlab.com account will have 2FA installed as required by our policy.
+
 Note that the 2FA for GitLab.com is different to the MFA you use to log into Okta.
+
 [This issue](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues/7397) has been opened to propose a solution.
 
 ### Android Authentication Errors
@@ -34,13 +36,13 @@ GitLab is using Secure Web Authentication (SWA) for some of its apps, and the Ok
 
 ### How can I change the order in which my apps appear?
 
-To change the order of your apps, click and hold on an app icon, then drag and drop the app to the location you would like it to be displayed.
+You can click and hold on an app icon to drag and drop the app to the location that you would like it to be displayed.
 
 ### Bookmarks
 
 A bookmark is a way to save the URL login of an app not currently available to you. When you create a new bookmark, your Okta dashboard will display an app icon to that app URL login. This bookmark will only store the URL, not your username and password.
 
-To add a bookmark, go to the `+Add Apps` button on the top right of your dashboard to open a search menu. Search for your app. If no app is found, Okta will display the option to create a bookmark.  Enter the URL of the app and the name of the bookmark you would like displayed. Click ‘Add’ button to create your bookmark.  Click on "Home” at the top of your dashboard to see your new bookmark.
+To add a bookmark, go to the `+Add Apps` button on the top right of your dashboard to open a search menu. Search for your app. If no app is found, Okta will display the option to create a bookmark.  Enter the URL of the app and the name of the bookmark you would like displayed. Click the **Add** button to create your bookmark. Click on **Home** at the top of your dashboard to see your new bookmark.
 
 ### Remove Unused App
 
@@ -54,7 +56,7 @@ Apps granted by Corporate Security or the tech stack owner cannot be removed, bu
 
 > How do I search an app if I can't remember which tab I put it on?
 
-At the top of your dashboard, you can find apps in the "Launch App" search bar. If you can't remember which tab your app is on, go to the Launch App search, type in the name of your app and select the name to open it when it appears.
+At the top of your dashboard, you can find apps in the **Launch App** search bar. If you can't remember which tab your app is on, go to the Launch App search, type in the name of your app and select the name to open it when it appears.
 
 ### Application Data Privacy
 
@@ -80,13 +82,13 @@ If you are having issues with excessive authentication requests, please [log an 
 
 > Is it acceptable to continue using Google Oauth login for some of the apps (with its own 2FA)?
 
-Yes, this is fine. Our end state will be to use Okta for most/all applications, but in the meantime existing authentication methods are fine. Once we have broader user adoption of Okta, we’ll be taking on migration of some of these apps to use Okta instead of Google OAuth, where this makes the most sense.
+Yes, this is fine. Our end state will be to use Okta for most/all applications, but in the meantime existing authentication methods are fine. Once we have broader user adoption of Okta, we'll be taking on migration of some of these apps to use Okta instead of Google OAuth, where this makes the most sense.
 
 ### Outages
 
 When Okta is down, basically GitLab will be down. Any mitigation strategy would enlarge our security surface area.
 
-Okta is built on an “Always On” architecture. However, if their services were to go down, you would not be able to log in to Okta or access your applications via Single Sign‐On.
+Okta is built on an *always on* architecture. However, if their services were to go down, you would not be able to log in to Okta or access your applications using single sign‐on.
 
 Many applications have long lived sessions (ex. Slack, Gmail, GitLab) so it is likely that although not all applications would work, you could still get by with a few, or take a break for a while.
 

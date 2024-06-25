@@ -39,16 +39,16 @@ Our core product offers remote code execution as a feature. Other applications w
 
 Our [Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/) prohibits circumventing the security of any computer owned by GitLab, and using ngrok in this manner is an example of circumventing our firewall requirements.
 
-An alternative to ngrok is to use [GitLab Sandbox Cloud](https://handbook.gitlab.com/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) to create temporary infrastructure.
+An alternative to ngrok is to use [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) to create temporary infrastructure.
 
 If you do need to circumvent the firewall, please ensure that you do it as safely as possible by ensuring one of the following network scenarios/configurations is used for your laptop:
 
 - If you do not need Internet access during your test scenario, disconnect from the Internet before disabling the firewall for your tests and re-enable it before re-connecting to the Internet.
 
-- Make sure the connected network is not a public network, or a network with a publicly-known WiFi password (e.g. a coffee shop WiFi network with the password written on a chalkboard). Your home network with your laptop behind the built-in firewall in your Internet router that protects your network is considered a non-public network. Refer to [wireless networks](https://handbook.gitlab.com/handbook/security/network-isolation/) for more information.
+- Make sure the connected network is not a public network, or a network with a publicly-known WiFi password (e.g. a coffee shop WiFi network with the password written on a chalkboard). Your home network with your laptop behind the built-in firewall in your Internet router that protects your network is considered a non-public network. Refer to [wireless networks](/handbook/security/network-isolation/) for more information.
 
 - Keep the firewall active and make use of virtual machines and containers to create a self-contained network configuration.
 
-- If your testing is frequent, configure the firewall to only allow the ports needed for your testing, and stay on an [isolated network](https://handbook.gitlab.com/handbook/security/network-isolation/) or use a [personal VPN](/handbook/tools-and-tips/personal-vpn/).
+- If your testing is frequent, configure the firewall to only allow the ports needed for your testing, and stay on an [isolated network](/handbook/security/network-isolation/) or use a [personal VPN](/handbook/tools-and-tips/personal-vpn/).
 
 - Contact the Security department in the `#security` Slack channel if you have questions about this.

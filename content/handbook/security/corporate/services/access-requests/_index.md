@@ -28,16 +28,16 @@ If you have any access requests related questions, please reach out to `#it_help
 - Standard Access Requests
   - **(Use this by default)** [Individual or Bulk Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request): One or multiple people requesting access to systems
     - Create one issue for **one or multiple people** to get access to the **same** system
-    - Create one issue for **one person** to to get access to **multiple systems** (checklist)
+    - Create one issue for **one person** to get access to **multiple systems** (checklist)
     - Create **multiple issues** (one per system) to grant **multiple people** to the **each (same)** system
     - When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level (ex. Director, Vice President, Division E-Group Leader). Comment approval by cross-functional managers is sufficient since only one manager can apply the approved label.
   - [Access Change Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Access_Change_Request): Remove or change the level of access to an application/system/distro (non-urgent change).
   - [Access Reviews](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=Access_Review)
 - Infrastructure
-  - [New AWS Account (Individual)](https://handbook.gitlab.com/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
+  - [New AWS Account (Individual)](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
   - [New AWS Account (Group/Team/Service)](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_create_request)
   - [Add IAM Users to AWS Account](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=aws_group_account_iam_update_request)
-  - [New GCP Project (Individual)](https://handbook.gitlab.com/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
+  - [New GCP Project (Individual)](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) - self service using Sandbox Cloud (powered by HackyStack)
   - [New GCP Project (Group/Team/Service)](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_create_request)
   - [Add IAM Users to GCP Project](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues/new?issuable_template=gcp_group_account_iam_update_request)
 - Sysadmin (BLACK) Account Requests
