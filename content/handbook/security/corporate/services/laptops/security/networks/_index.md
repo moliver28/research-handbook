@@ -31,4 +31,4 @@ When connecting to a wireless network at a coffee shop or co-working space or ho
 
 ## Separate Network
 
-Refer to the [network isolation guide](https://handbook.gitlab.com/handbook/security/network-isolation/) for setting up a dedicated WiFi so that your work laptop is isolated from other personal devices in your home network, including smart home devices and [home media servers](https://thehackernews.com/2023/03/lastpass-hack-engineers-failure-to.html).
+Refer to the [network isolation guide](/handbook/security/network-isolation/) for setting up a dedicated WiFi so that your work laptop is isolated from other personal devices in your home network, including smart home devices and [home media servers](https://thehackernews.com/2023/03/lastpass-hack-engineers-failure-to.html).
