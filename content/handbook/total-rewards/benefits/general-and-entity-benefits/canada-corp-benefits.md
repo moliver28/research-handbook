@@ -21,7 +21,6 @@ GitLab offers medical, dental, and vision coverage at no cost to the team member
 
 Effective 1 July 2024, GitLab Team Members will be enrolled in to the GitLab ManuLife Health Plan. For a high-level overview of the plan please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing)
 
-
 #### WorldCare Medical Second Opinion (MSO)
 
 Medical Second Opinion provided by WorldCare Inc., easily connects you with a team of specilist who can evaluate diagnoses and treatment plans confidentially.
@@ -33,13 +32,12 @@ Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/
 Personalized Medicine is about learning about your genetics. Access reimbursement for genetic test that helps determine with medication and does may work best for you.
 
 Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
-
-
 #### Telus Health - Virtual Care
 
 Offering 24/7 on-deman access to healt practitioners via secure text, video, and chat, TELUS Health Virtual Care is available across Canada with services in English and French.
 
 Connect via your ManuLife App for services including:
+
 - Diagnostics
 - Advice
 - Prescriptions
@@ -55,13 +53,11 @@ Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/
 - Benefit: 2 times annual earnings to a maximum of $500,000
 - Reduces by 50% at age 65, and terminates at age 71 or earlier retirement
 
-
 **Beneficiary Designation**
 
 Team Members should designate a beneficiary for your Life Insurance Plan with ManuLife. Team Members will have the opportunity to designate a beneficiary on the ManuLife platform during initial enrollment. 
 
 It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible. Please note that there is a separate process for electing a beneficiary for the RRSP plan.
-
 
 ## Long Term Disability
 
@@ -74,13 +70,11 @@ It's important to have this information up to date to ensure that team member's 
 - Tax-Status: Taxable benefit at time of claim
 - Termination age: 65 or earlier retirement 
 
-
 ## Enrollment 
 
 **For new hires:**
 
 You will be receiving an invitation from ManuLife with a personalized link. Click on that link to set up your profile. Please reach out to the Total Rewards team at `total-rewards@gitlab.com` if you have any questions!
-
 
 ### Updating Coverage Status and Enrollment of Domestic Partners, Spouses, and Dependents
 
