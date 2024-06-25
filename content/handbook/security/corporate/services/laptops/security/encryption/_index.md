@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Disk Encryption
+title: Laptop Disk Encryption
 ---
 
 ## Overview

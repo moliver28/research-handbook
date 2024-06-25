@@ -33,11 +33,11 @@ For systems not managed by Corporate Security, you can locate the owner in the [
 
 ## Support Hours
 
-We provide support 24x5 to support standarding working hours for our team members during the work week from Sunday 22:00 UTC to Friday 23:59 UTC. We do not provide support coverage on weekends.
+We provide support 24x5 to support standard working hours for our team members during the work week from Sunday 22:00 UTC to Friday 23:59 UTC. We do not provide support coverage on weekends.
 
 In the event of an emergency or urgent request, `#it_help` is still the fastest and best place to ask.
 
-**Courtesy Reminder:** Our team members have scheduled on-call shifts, so we kindly ask that you ask in the channel and **not send Slack direct messages to specific individuals**. There is no need to tag any group or person in the channel since your request **will be responded to by the first available person**.
+**Courtesy Reminder:** Our team members have scheduled on-call shifts, so we kindly ask that you ask in the channel and **not send Slack direct messages to specific individuals (unless it's for a sensitive matter)**. There is no need to tag any group or person in the `#it_help` channel since your request **will be responded to by the first available person**.
 
 ### Holiday Schedule
 

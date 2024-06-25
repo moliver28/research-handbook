@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Personal Use
+title: Laptop Personal Use
 ---
 
 ## Overview

@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Locking When Unattended
+title: Locking Laptop When Unattended
 ---
 
 ## Overview

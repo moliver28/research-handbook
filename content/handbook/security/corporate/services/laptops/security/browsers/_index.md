@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Web Browsers
+title: Laptop Web Browsers
 ---
 
 ## Overview

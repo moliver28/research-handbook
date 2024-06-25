@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Wireless Networks
+title: Laptop Wireless Networks
 ---
 
 ## Overview

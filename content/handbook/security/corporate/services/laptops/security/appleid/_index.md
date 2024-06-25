@@ -1,5 +1,5 @@
 ---
-title: Laptop Security Standards for Apple ID
+title: Apple ID for Work
 ---
 
 ## Overview
