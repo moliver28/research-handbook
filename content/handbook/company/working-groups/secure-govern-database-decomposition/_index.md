@@ -22,6 +22,7 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 The charter of this working group is to:
 
 - Successfully decompose the Secure/Govern datasets to a separate database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
+- Consider the timing, scope, and impact of the decomposition related to prioritization and implementation of additional efforts to support GitLab.com db performance and optimization for related tables - [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/7863) (GitLab internal)
 - Evaluate the impact of the decomposition on Self-Managed instances regarding feature parity, performance/hardware requirement, improvements for different size of DBs, and admin's effort to support.
 - Provide an effective migration guide and/or tooling to assist Self-Managed instances in the decomposition of their local CI and Secure/Govern databases in alignment with GitLab.com
 
@@ -162,17 +163,17 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 | Working Group Role                   | Name              | Title |
 | -----------                          | -----------       | ----------- |
 | Executive Stakeholder                | Bartek Marnane    | VP, Expansion |
-| Facilitator/DRI                      | Gregory Havenga   | Senior Backend Engineer, Govern: Threat Insights  |
+| Functional Lead                      | Gregory Havenga   | Senior Backend Engineer, Govern: Threat Insights  |
 | Functional Lead                      | Lucas Charles     | Principal Software Engineer, Secure & Govern |
-| DRI - Infrastructure                 |                   ||
-| DRI - Database                       | Jon Jenkins       | Senior Backend Engineer, Database |
-| DRI - Data                           | Ved Prakash       | Staff Data Engineer|
-| DRI - Secure                         | Thiago Figueiró   | Manager, Software Engineering |
-| DRI - Secure: Composition Analysis   | Fabien Catteau    | Staff Engineer, Secure: Composition Analysis |
-| DRI - Secure: Dynamic Analysis       | Arpit Gogia       | Backend Engineer - Secure, Dynamic Analysis |
-| DRI - Secure: Static Analysis        | Schmil Monderer   | Staff Backend Engineer - Secure, Static Analysis |
-| DRI - Secure: Secret Detection       | Ethan Urie        | Staff Backend Engineer - Secure: Secret Detection |
-| DRI - Govern: Security Policies      |                   ||
+| Facilitator                          | Neil McCorrison   | Manager, Software Engineering |
+| Facilitator                          | Thiago Figueiró   | Manager, Software Engineering |
+| Member                               | Fabien Catteau    | Staff Engineer, Secure: Composition Analysis |
+| Member                               | Arpit Gogia       | Backend Engineer, Secure, Dynamic Analysis |
+| Member                               | Schmil Monderer   | Staff Backend Engineer, Secure, Static Analysis |
+| Member                               | Ethan Urie        | Staff Backend Engineer, Secure: Secret Detection |
+| Member                               |                   ||
+| Member                               | Jon Jenkins       | Senior Backend Engineer, Database |
+| Member                               | Ved Prakash       | Staff Data Engineer, Data Science|
 | Member                               | Dylan Griffith    | Principal Engineer, Create |
 | Member                               | Thong Kuah        | Principal Engineer, Data Stores |
 | Member                               |                   ||
