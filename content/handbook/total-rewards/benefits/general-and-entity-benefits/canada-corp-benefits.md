@@ -32,6 +32,7 @@ Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/
 Personalized Medicine is about learning about your genetics. Access reimbursement for genetic test that helps determine with medication and does may work best for you.
 
 Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
+
 #### Telus Health - Virtual Care
 
 Offering 24/7 on-deman access to healt practitioners via secure text, video, and chat, TELUS Health Virtual Care is available across Canada with services in English and French.
