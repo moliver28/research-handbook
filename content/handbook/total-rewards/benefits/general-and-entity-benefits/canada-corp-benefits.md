@@ -17,163 +17,89 @@ Please review the [Employee Booklet](https://drive.google.com/file/d/1QToHbxyoqA
 
 GitLab offers medical, dental, and vision coverage at no cost to the team member. The benefits are outlined in the following [benefit summary](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) as well as below. This documentation also has details on the products and services available under the plan.
 
-### Medical Coverages
+### Medical, Dental, and Vision Coverages
 
-**Coverage Summary:**
+Effective 1 July 2024, GitLab Team Members will be enrolled in to the GitLab ManuLife Health Plan. For a high-level overview of the plan please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing)
 
-- Prescription Drugs: 80% - Nil deductible; 90% if purchased at Costco
-- Pay Direct Drug Card: Included - Generic Mandatory
-- Maximum:    Unlimited
-- Fertility Drugs: Unlimited as per all prescription medication
-- Smoking Cessations: $500 lifetime maximum
-- Vaccines: Included - reasonable & customary maximum
-- Major Medical: 80%
-- Annual Deductible: None
-- Hospitalization: 100% - Bill deductible - Semi-Private
-- Orthotic Shoes: $ 300 per benefit year maximum
-- Othotic Inserts: combined with shoes
-- Hearing Aids: $700 every 5 years
-- Paramedical Practitioners: 80% - $300 per practitioner per benefit year maximum
-- Included Specialists: Chiropractor, Osteopath, Naturopath, Podiatrist, Chirpodist, Speech Therapist, Psychologist, Social Worker, Massage Therapist, Physiotherapist, Acupuncturist, Dietician, No Doctor's referral required on any paramedical services
-- Out of Country: 100% - Nill deductible - Unlimited
-- Maximum Duration: 60 consecutive days
-- Trip Cancellation: Not Included
-- Private Duty Nursing: $5,000 for a maximum of 12 months per condition
-- Survivor Benefit: 24 months
-- Termination Age: Retirement
+
+#### WorldCare Medical Second Opinion (MSO)
+
+Medical Second Opinion provided by WorldCare Inc., easily connects you with a team of specilist who can evaluate diagnoses and treatment plans confidentially.
+
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
+
+#### Personalized Prescribing 
+
+Personalized Medicine is about learning about your genetics. Access reimbursement for genetic test that helps determine with medication and does may work best for you.
+
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
+
 
 #### Telus Health - Virtual Care
 
-GitLab team members enrolled in Canada Life have the option of Telus Health Virtual Care. This is a on-demand virtual care solution. It gives members and their family direct access to secure medical consults with friendly, knowledgeable clinicians – 24/7. For more information, please see the [flyer](https://assets.ctfassets.net/rz9m1rynx8pv/6BZLFipvFOvw2jTkMANuan/7cae0abc0e730543b07f876a6ce1f3e6/THCC_Virtual_Care_brochure_Web_en.pdf) and their [website](https://www.telus.com/en/health/care-centres/virtual-care).
+Offering 24/7 on-deman access to healt practitioners via secure text, video, and chat, TELUS Health Virtual Care is available across Canada with services in English and French.
 
-#### Consult+ - Virtual Health Care
+Connect via your ManuLife App for services including:
+- Diagnostics
+- Advice
+- Prescriptions
+- Lab & imaging orders
+- Specialist referrals
 
-Effective May 1, 2021 GitLab team members and their dependants enrolled in Canada Life have the option of Consult+. This gives members and their family online access to meet with medical professionals and spend less time in clinic waiting rooms. For more information, please see the [flyer](https://drive.google.com/file/d/16xwn32pwgbKXHIo1BvcXgI_Zv6N5ifon/view?usp=sharing)
-
-### Dental Coverages
-
-**Coverage Summary:**
-
-- Annual Deductible: None
-- Basic & Preventative: 80%
-- Periodontic & Endodontic:    80%
-  - Annual Maximum: $2,000 per benefit year
-- Major Restorative Services: 50%
-  - Annual Maximum: $2,000 per benefit year
-- Orthodontic Services: 50% (children age 6 and older)
-  - Lifetime Maximum: $1,500
-- Recall visit: Two visits per benefit year
-- Scaling & Rooting Units: 10 in any 12 months
-- White Filings: Included
-- Free Guide: Current
-- Survivor Benefit: 24 months
-- Termation Age: Retirement
-
-### Vision Coverages
-
-**Coverage Summary:**
-
-- Vision Care: 100% - $200 every 24 months
-- Eye Exams: 100% - 1 visit every 24 months - reasonable & customary maximum
+Please see the [GitLab Canada Benefits Summary](https://drive.google.com/file/d/1ILDdpjn4_qPPflJQFz98bcMh8r7F2Se4/view?usp=sharing) for more details.
 
 ## Life Insurance / AD&D
 
 **Coverage Summary:**
 
-- Benefit: 2 times annual earnings to a maximum of $250,000
-- Reduction: Reduces by 50% at age 65
-- Termination Age: Reduces by 50% at age 65
+- Benefit: 2 times annual earnings to a maximum of $500,000
+- Reduces by 50% at age 65, and terminates at age 71 or earlier retirement
+
 
 **Beneficiary Designation**
 
-Team Members should designate a beneficiary for your Life Insurance Plan with Canada Life. [See instructions](/handbook/total-rewards/benefits/general-and-entity-benefits/canada-corp-benefits/#updating-beneficiary-information) on how to update your Beneficiary.
+Team Members should designate a beneficiary for your Life Insurance Plan with ManuLife. Team Members will have the opportunity to designate a beneficiary on the ManuLife platform during initial enrollment. 
 
-It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible.
+It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible. Please note that there is a separate process for electing a beneficiary for the RRSP plan.
+
 
 ## Long Term Disability
 
 **Coverage Summary:**
 
-- Benefit: 66.67% of monthly earnings to a maximum of $12,500 (Taxable)
-- Monthly Maximum: 12,500
-- Tax Status: Taxable
-- Elimination Period: 90 days
-- Benefit Period: To age 65
-- Definition: 2 years own occupation
-- Offsets: Primary
-- Cost of Living Adjustment: Not included
-- Non-Evidence Maximum: 10,000 (see below for EOI instructions to increase up to 12,500)
-- Termination: Age 65
+- 90 day waiting period
+- Benefit Period: to age  65 with a 2 year own occupation definition
+- 66.67% of basic monthly earnings
+- Maximum $12,500
+- Tax-Status: Taxable benefit at time of claim
+- Termination age: 65 or earlier retirement 
 
-### Evidence of Insurability (EOI)
 
-If your annual salary places you above the Non-Evidence Maximum of 10,000 CAD - (earnings of approx 180,001 CAD annually) - and you would like  coverage over the Non-Evidence Maxiumum, please fill out the [Evidence of Insurability Form](https://drive.google.com/file/d/10ufkx55lIXY9dbwdals41FIAz52PS0YH/view?usp=sharing)
-
-- Reach out to Total Rewards to fill out section 1-3 first.
-- Total Rewards will return this to you to complete the remaining sections.
-- Once completed, please submit directly to Canada Life at groupmed@canadalife.com
-
-## Enrollment
-
-GitLab has chosen a digital administration platform, Collage, to manage our benefits administration for all plans except the RRSP plan. Consider this platform as your single source of truth when it comes to benefits, where you can enroll in the plan, update your enrollment information and view coverage.
+## Enrollment 
 
 **For new hires:**
 
-You will be receiving an invitation from `no-reply@collage.co` with a personalized link. Click on that link to set up your profile. Please reach out to the Total Rewards team at `total-rewards@gitlab.com` if you have any questions! Here are some additional [instructions](https://drive.google.com/file/d/0B4eFM43gu7VPRWZFOHBxMUZnaUVoOGxWbzVSNEdiWk9qOVpR/view?usp=sharing) on how to set up your account and enroll in benefits.
+You will be receiving an invitation from ManuLife with a personalized link. Click on that link to set up your profile. Please reach out to the Total Rewards team at `total-rewards@gitlab.com` if you have any questions!
 
-Member ID: When you complete your digital enrollment, Collage will populate a Member ID # for you. You can find the Member ID # in the Benefits Tab on your Collage profile page. You may need this number to complete your Evidence of Insurability form or your Beneficiary Designation form.
-
-### Updating Beneficiary Information
-
-In order to assign a beneficiary for the Life Insurance plan, team members should download the "Beneficiary Form"  on the [Canada Life Beneficiary webpage](https://www.canadalife.com/support/forms/plan-administrators/apply-or-make-changes-to-group-coverage-or-beneficiary-trustee-i/beneficiary-or-trustee-change.html). If the beneficiary is a minor, please also download the "Trustee Appointment" form. Canada Life requires a wet signature on these forms, so please print, complete, and scan back the forms to Total-rewards@gitlab.com and Darren@scinsurance.ca.
-
-When filling out the form you may enter the following under Part 1:
-
-- Plan Number: [Link to Plan Number](https://docs.google.com/document/d/1fwBuM3lgCOeiWcrgf2tfUJ9S72-ODWZKBBtKBdFzNJw/edit?usp=sharing)
-- Division Number: [You May Leave this Section Blank]
-- Plan Member ID: [When you complete your digital enrollment, Collage will populate a Member ID # for you. You can find the Member ID # in the Benefits Tab on your Collage profile page.]
-- Plan Sponsor: GitLab Canada Corp
-
-It's important to have this information up to date to ensure that team member's loved ones receive the funds tax free in the unfortunate event of a team member passing.  Without a beneficiary in place, the funds may go into an estate and could be subject to taxes before beneficiaries are eligible.
-
-Please note that there is a separate process for electing a beneficiary for the RRSP plan.
 
 ### Updating Coverage Status and Enrollment of Domestic Partners, Spouses, and Dependents
 
-For instructions on adding your spouse, dependents, and updating your coverage stutus, please review the [Employee Collage Benefits HQ Handbook](https://drive.google.com/file/d/1Ph5ur-tguZ0EIWXCaJvmWlUOhnfcy7X9/view?usp=sharing)
+TBD - Instructions will be updated after the launch of the benefit plan on July 1st. 
 
-Domestic Partner Enrollment: Canada Life uses the first day cohabitating as the date of eligibility to enter into the GitLab health plan. Anyone who has a common law spouse that they wish to add, moving from Single to Family coverage, for example, will need to do so within 30 days of moving in together. For further instructions on adding your
-
-### Canada Life Enrollment
-
-In addition to enrollment in the Collage portal, you can also register directly with Canada Life. To register, you can do so by following this [registration link](https://gwl.greatwestlife.com/climsMyLogin). This will allow you access to Canada Life’s GroupNet for Plan Members and the ability to download the GroupNet Mobile app on your mobile device. Once registered you will have access to online claims submission, your electronic benefits card, direct deposit of claim payments, view the status of your claims and more. Canada Life has also provided the following [Welcome Packet](https://drive.google.com/file/d/1Fg9LxE-eyLqgDihpw5kUb-4PuDK5AeMa/view?usp=sharing). The [french version of the welcome packet](https://drive.google.com/file/d/1SChNz6Ir6Vyk8scbM-WJR1N8solVmpeE/view?usp=sharing) is also available.
-
-Learn how to use GroupNet for Plan Members by watching the helpful videos in the following [pdf](https://drive.google.com/file/d/1mrZPMKd17m9cwC1Qnsdq6KyJ2lmfehFe/view?usp=sharing).
-
-New Hires and Current Team Members can book an appointment with a Canada Life Member Guide to help review the plan, coverage, processes and assist with any questions. For more information and a link to book an appointment, please view the [Canada Life Concierge Support Flyer](https://drive.google.com/file/d/1a6AgXQeMhAgZdjRVzfv3tzIn__5zUIv6/view?usp=sharing).
-
-### Canada Life User Portal and App
-
-Canada Life has a [user portal](https://www.canadalife.com/) and App available to download that allows you to access your benefits information and ID cards. Please see the [brochure](https://drive.google.com/file/d/1ohL0svax7CEyfuNl1Xn0HcURwJ9I5HYm/view?usp=sharing) for more information and instructions on registering.
+Domestic Partner Enrollment: tbd
 
 ### Insurance Cards
 
-Printed Canada Life benefits cards are being phased out and it is recommended to print a PDF card for yourself and your spouse (if applicable). You can also access your electronic drug card online through the Groupnet for Plan Members site or through the mobile app.
-
-For further instructions on how this can be obtained online, please review the following [PDF](https://drive.google.com/file/d/1x3Ug5nYQir-Ct_8YxN2dwBP0b7uMvGX9/view?usp=sharing).
+Printed benefits cards are being phased out and it is recommended to print a PDF card for yourself and your spouse (if applicable). You can access this on the ManuLife Portal. 
 
 This card provides your group plan number and member identification number. Keep this information with you at all times and use it when requested by a health or dental provider or in case of medical emergency when traveling.
-
-### Canada Life Tools
-
-Canada Life has designed [tools and services](https://www.greatwestlife.com/you-and-your-family/products/group-benefits.html) to make your life easier, allowing you to access your coverage details when you want, the way you want.  
 
 ## Frequently asked questions
 
 - Can the pharmacist submit my prescription claim electronically without a drug card?
-  - Yes, as long as you have the necessary information, a physical card is not needed for your prescription claim to be electronically submitted. Here are a few options for you: Log-on to [GroupNet for Plan Members](https://gwl.greatwestlife.com/MyLogin) and print out a paper copy of your drug card. Log-on to GroupNet for Plan Members (Mobile App or online) and save an electronic card to your phone. Provide your pharmacist you plan number, identification number, date of birth and identify if the patient is the employee, spouse or dependent child.
+  - Yes, as long as you have the necessary information, a physical card is not needed for your prescription claim to be electronically submitted. Here are a few options for you: Log-on and print out a paper copy of your drug card. Provide your pharmacist you plan number, identification number, date of birth and identify if the patient is the employee, spouse or dependent child.
 - Who should I contact with questions?
-  - For health, prescription drug, dental or out-of-country coverage or claims inquiries, please call 1-800-957-9777 or email Canada Life at `grp_hd_inquire@gwl.ca`.
+  - For general questions about group coverage, claims and more, you can contact manulife at 1-800-268-6195 (8 a.m. to 8 p.m. EST, Mon. to Fri.) 
 - What are my key responsibilities as a plan member?
   - If you experience a major lifestyles event, you must advise your plan administrator within 31 days of the event and complete any corresponding paperwork. Failure to notify Canada Life of a lifestyle event within 31 days of the event, could result in limitations or declined coverage. Please see your plan administrator for support.
   - Major lifestyles events include:
