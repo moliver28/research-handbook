@@ -509,6 +509,20 @@ Application limits should be enabled by default. If we are considering enabling 
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
 - **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
 
+### Data storage for features
+
+As we continue to scale our product, we should consider the amount of data being stored for new features. Data storage is not an infinite resource, so we should think carefully about what data needs persistent storage to provide the desired user experience.
+
+Data storage comes in two main forms for GitLab -- database storage, and Git repository storage. While we have dedicated teams devoted to ensuring we can scale these storages appropriately, it is in our best interest to only store what is required for a feature to perform as intended. Additionally, there may be situations where storage should be subject to data retention policies.
+
+#### Considerations around data storage
+
+When evaluating feature data storage, the following data storage topics should be considered.
+
+- **What quantity data needs to be stored?** - What amount of data will need to be stored for the feature to function as intended. Is this level of data storage bounded, or is there a potential for unbounded growth? Unbounded growth should be avoided if possible.
+- **How long should data be retained?** - We should consider carefully the need to store data indefinitely. Some features may solve their intended problem, but removing certain data after a specified time period won't impact the viability of the feature. In these instances, we should put retention policies in place. These retention polices can be configurable, and a default set for GitLab.com. _Note: it is easier to increase data retention timeframes than reduce them, so consider starting out with a conservative timeframe._
+- **How often will this data be accessed?** - Much like the quantity of data stored can lead to scalability issues, so can the increased load on the data stores when the data is accessed frequently. There are ways to ease the burden on our infrastructure by properly forming queries, caching often used data, or carefully considering how repository data is accessed. If there are questions, consider reaching out to the [Database Group](/handbook/product/categories/#database-group) or the [Gitaly::Git Group](/handbook/product/categories/#gitalygit-group) for assistance.
+
 ### Cross-stage features
 
 See [this page](/handbook/product/cross-stage-features/) for details on working across stages at GitLab.
