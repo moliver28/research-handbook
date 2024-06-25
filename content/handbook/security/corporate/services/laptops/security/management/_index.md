@@ -34,8 +34,8 @@ Your personal laptop is not enrolled in Jamf, and cannot be used for accessing G
     - [Apps and Software Standards](/handbook/security/corporate/services/laptops/software)
   - **New Laptops**
     - [Onboarding Hardware Ordering Guide](/handbook/security/corporate/services/laptops/onboarding)
-    - [Onboarding Software Setup Guide](/handbook/security/guides/onboarding)
-    - [Apple macOS Setup Guide](/handbook/security/corporate/systems/macos/guides/setup)
+    - [Onboarding Software Setup Guide](/handbook/security/corporate/support/onboarding)
+    - [Apple macOS Setup Guide](/handbook/security/corporate/systems/macos/setup)
     - [Linux Setup Guide](/handbook/security/corporate/systems/linux)
   - **Laptop Replacement and Repairs**
     - [Refresh/Replace Guide](/handbook/security/corporate/services/laptops/refresh)

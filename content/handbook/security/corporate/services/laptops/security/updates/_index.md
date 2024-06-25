@@ -30,4 +30,6 @@ If you use `brew` or a package manager, it can keep your [software updated autom
 
 ## Nudge Reminders
 
+This is a placeholder.
+
 <!-- TODO -->
