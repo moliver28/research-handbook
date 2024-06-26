@@ -40,6 +40,11 @@ Each automation added to this page should contain the below details at minimum:
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-private/gl-security/security-assurance/security-assurance-automation/uar-ar-autocreate)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
+#### Automated Terminated Access Review
+- This automation consumes a UAR output from our Access Review tool and performs a review for terminated users against team member and contractor records. Account details are populated for strongly matched identities and weakly matched identities have found details compiled for ease of review.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-private/gl-security/security-assurance/security-assurance-automation/uar-terminations-check)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+
 ### What can I trigger ad-hoc?
 
 #### Header Title Anchor
