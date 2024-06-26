@@ -35,6 +35,10 @@ Each automation added to this page should contain the below details at minimum:
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-private/gl-security/security-assurance/sec-compliance/gitlab-export)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
+#### Automated Access Request Issue Creation
+- This automation consumes a completed UAR output from our Access Review tool and parses the information into a standardized GitLab Issue Access Request for actioning by the appropriate systems owner.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-private/gl-security/security-assurance/security-assurance-automation/uar-ar-autocreate)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
 ### What can I trigger ad-hoc?
 
