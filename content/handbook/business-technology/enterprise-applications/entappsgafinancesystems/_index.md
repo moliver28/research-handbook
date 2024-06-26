@@ -6,7 +6,7 @@ description: "insert description here"
 
 ## About Us (sub section hyperlink)
 
-The **Enterprise Applications, G&A Team** implements and supports specialized applications that support our internal business processes spanning the procure-to-pay and record-to-report processes at GitLab. We are directly responsible for the administration and expansion of GitLab’s financial systems to support scalability and compliance. 
+The **Enterprise Applications, G&A Team** implements and supports specialized applications that support our internal business processes spanning the procure-to-pay and record-to-report processes at GitLab. We are directly responsible for the administration and expansion of GitLab’s financial systems to support scalability and compliance.
 Our team ensures the availability of these applications through monitoring and alerting. These internal-facing applications include the following applications - NetSuite, Coupa, Zip, Navan Travel & Expense, Adaptive Planning, etc. We are also responsible for the IT Audit and Compliance function to ensure we pass SOX Audit for our IT General Controls (ITGC).
 
 ### Mission
@@ -14,7 +14,7 @@ Our team ensures the availability of these applications through monitoring and a
 * To enable end to end business processes within the enterprise applications that seamlessly hand off to each other and ensure it provides a great user experience to our business partners.
 * Ensure data integrity between systems and security of that data.
 * Constantly iterate to simplify and ensure processes are efficient and automated as much as possible.
-* Leverage out of the box best practices as much as possible. We buy and extend applications where we don’t see building them as GitLabs core engineering competency.
+* Leverage out of the box best practices as much as possible. We buy and extend applications where we don't see building them as GitLabs core engineering competency.
 * IT Audit and Compliance - Ensure that all customer / business data is secure and can pass key audits for attestations and compliance with SOX, SOC, etc.
 
 ### Roadmap
@@ -38,7 +38,7 @@ In collaboration with the PMO team, we directly implement or configure new appli
 
 ### Finance Systems Administration
 
-The team supports Keeping-the-lights-on (KTLO) of the in-scope financial applications. This includes, user provisioning and offboarding, COA segment additions, financial report builds, release upgrade testing, and daily maintenance to ensure the system works as expected. 
+The team supports Keeping-the-lights-on (KTLO) of the in-scope financial applications. This includes, user provisioning and offboarding, COA segment additions, financial report builds, release upgrade testing, and daily maintenance to ensure the system works as expected.
 
 ### Non-Project Operational Enhancements
 
@@ -50,7 +50,7 @@ A majority of our time is spent supporting and deploying smaller, non-project-si
 
 * Projects
   * For any requests that will span several weeks, have a cross functional impact, and will require a project manager, please reach out to the PMO team. to get the project on the roadmap and prioritized.
-* Operational Enhancements 
+* Operational Enhancements
   * As most issues require a change to our system to comply with SOX, it must be documented through a CM: Configuration Change [Generic] template linked here. For any new requests, please submit an issue through the template. These issues will be evaluated and assigned to the ~BT:Backlog label.
 
 ### Planning and Milestones
