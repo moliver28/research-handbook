@@ -138,6 +138,44 @@ At the end of every week, each engineer is expected to provide a quick async iss
 
 We do this to encourage our team to be more async in collaboration and to allow the community and other team members to know the progress of issues that we are actively working on. This also enables us to automatically collate updates across swimlanes, removing some manual process.
 
+### Reaction rotation
+
+On top of our development roadmap, engineering teams need to perform tasks related to support and triage. Our team nominates an individual person each week to reserve capacity for these tasks. This is to avoid excessive context-switching and better distribute the workload. It is important we defend our focus within the team to support the delivery of our commitments.
+
+If you are **not** the nominated person in a given week then:
+
+1. You are not expected to triage and investigate by default. Use your best judgement here (e.g. critical issues still take priority, no change in expectations here).
+1. You should redirect the question to the nominated person (e.g. if it comes in a DM in Slack, redirect it to our public channel).
+
+Please keep track of the actions you're doing during your rotation and add notes in the corresponding issue (e.g. copying tools command executed locally, sharing relevant changes to projects and processes, etc.)
+
+#### Triage expectations
+
+Triage does not immediately guarantee a change to currently-planned work in a milestone. Triage is the process of determining impact and priority so we can justify changes to scope and milestone committments.
+
+  - Refine the request for help tickets: do we have reproduction steps, does this relate to other scoped or planned work, is this a bug or feature request or an acceptable limitation of the system.
+    - Outcomes could be: updates to our documentation or Handbook pages, validated reproduction of bugs and then creating issues from this.
+  - Directly answering support questions.
+  - Engaging with Product to agree on priority and scheduling of any work required.
+
+When dealing with Slack interactions you are expected to use the following reactions:
+
+  - :eyes: - I am actively looking at this
+  - :white_tick: (or a variant) - This is resolved
+
+#### Responsibilities - Support
+
+1. Monitor slack channels for questions, support requests, and alerts. The person assigned to the reaction rotation is expected to handle them primarily.
+If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help).
+  - [#g_govern_threat_insights](https://gitlab.slack.com/archives/CV09DAXEW)
+  - [#s_secure](https://gitlab.slack.com/archives/C8S0HHM44)
+  - [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
+  - [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
+  - [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
+1. Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Athreat%20insights&first_page_size=20) project for support requests.
+
+These items must be triaged continuously which means they must be checked multiple times a week.
+
 ### MR Reviews
 
 We follow these guidelines when submitting MRs for review when the change is within the Threat Insights domain:
