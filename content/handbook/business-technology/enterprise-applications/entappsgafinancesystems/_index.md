@@ -42,7 +42,7 @@ The team supports Keeping-the-lights-on (KTLO) of the in-scope financial applica
 
 ### Non-Project Operational Enhancements
 
-A majority of our time is spent supporting and deploying smaller, non-project-sized tasks that will be prioritized into a milestone.These include adding or updating workflows, custom field enhancements, enabling a quick feature, updating expense policies, etc. 
+A majority of our time is spent supporting and deploying smaller, non-project-sized tasks that will be prioritized into a milestone.These include adding or updating workflows, custom field enhancements, enabling a quick feature, updating expense policies, etc.
 
 ## How We Operate - Intake, Planning and Milestones (sub section hyperlink)
 
