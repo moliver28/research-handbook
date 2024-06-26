@@ -1,5 +1,5 @@
 <!-- As a draft, this is a copy of layouts/shortcodes/performance-indicators.md -->
-{{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
+{{ $publicHandbookRef := "main" }}
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}
 {{- $dataURL := printf "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/%s/content/handbook/engineering/infrastructure/engineering-productivity/space.yml" $publicHandbookRef }}
