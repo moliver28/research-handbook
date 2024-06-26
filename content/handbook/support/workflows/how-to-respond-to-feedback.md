@@ -42,10 +42,9 @@ The single source of truth for these definitions can be found in the [Go to Mark
 
 ## Who is responsible for reviewing Support Satisfaction feedback
 
-The [SSAT Reviewing Manager PagerDuty schedule](https://gitlab.pagerduty.com/schedules#P9UIIDY) is the [SSOT](/handbook/values/#single-source-of-truth) for who is on-call. The [Support Week in Review document](https://docs.google.com/document/d/1eyMzbzImSKNFMpmu33C6imvC1iWEWHREJqaD6mkVDNg/edit) identifies the current **SSAT Reviewing Manager**, with a link to the PagerDuty schedule.
+AS of XXX, Each Support Engineering Manager is responsible for reviewing and actioning feedback for their reports. Issues will be directly assigned to managers, and should be addressed promptly.
 
-The **SSAT Reviewing Manager** on duty when a feedback issue is created is responsible for reviewing the issue and responding as needed. Feedback issues
-[are assigned](/handbook/support/readiness/operations/docs/zendesk/ssat/) to the SSAT Reviewing Manager automatically. The manager receives email notification from GitLab and a To-Do item.
+This SSAT data will be reviewed by Senior Leaders and presented in Monthly region reviews.
 
 ### Sources of feedback
 
@@ -60,7 +59,7 @@ Currently, the following methods create feedback issues for review:
 
 ### What does success look like?
 
-At the end of your rotation:
+At the end of your week:
 
 1. You should have performed the triage work described in the handling
 ["Good"](#handling-good-reviews) and ["Bad"](#handling-bad-reviews) sections
