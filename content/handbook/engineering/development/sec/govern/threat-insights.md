@@ -151,27 +151,29 @@ Please keep track of the actions you're doing during your rotation and add notes
 
 #### Triage expectations
 
-Triage does not immediately guarantee a change to currently-planned work in a milestone. Triage is the process of determining impact and priority so we can justify changes to scope and milestone committments.
+Triage does not immediately guarantee a change to currently-planned work in a milestone. Triage is the process of determining impact and priority so we can justify changes to scope and milestone commitments.
 
-  - Refine the request for help tickets: do we have reproduction steps, does this relate to other scoped or planned work, is this a bug or feature request or an acceptable limitation of the system.
-    - Outcomes could be: updates to our documentation or Handbook pages, validated reproduction of bugs and then creating issues from this.
-  - Directly answering support questions.
-  - Engaging with Product to agree on priority and scheduling of any work required.
+* Refine the request for help tickets: do we have reproduction steps, does this relate to other scoped or planned work, is this a bug or feature request or an acceptable limitation of the system.
+  * Outcomes could be: updates to our documentation or Handbook pages, validated reproduction of bugs and then creating issues from this.
+* Directly answering support questions.
+* Engaging with Product to agree on priority and scheduling of any work required.
 
 When dealing with Slack interactions you are expected to use the following reactions:
 
-  - :eyes: - I am actively looking at this
-  - :white_tick: (or a variant) - This is resolved
+* :eyes: - I am actively looking at this
+* :white_tick: (or a variant) - This is resolved
 
 #### Responsibilities - Support
 
 1. Monitor slack channels for questions, support requests, and alerts. The person assigned to the reaction rotation is expected to handle them primarily.
 If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help).
-  - [#g_govern_threat_insights](https://gitlab.slack.com/archives/CV09DAXEW)
-  - [#s_secure](https://gitlab.slack.com/archives/C8S0HHM44)
-  - [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
-  - [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
-  - [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
+
+* [#g_govern_threat_insights](https://gitlab.slack.com/archives/CV09DAXEW)
+* [#s_secure](https://gitlab.slack.com/archives/C8S0HHM44)
+* [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
+* [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
+* [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
+
 1. Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Athreat%20insights&first_page_size=20) project for support requests.
 
 These items must be triaged continuously which means they must be checked multiple times a week.
@@ -205,7 +207,7 @@ These boards show current status of issues.
 
 ### Indicating Status and Raising Risk
 
-Our teams use the [Health Status](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) feature within issues to indicate the likelyhood of completion within the milestone. We assign `On Track` at the beginning of a milestone to a small number of issues where we have high confidence in delivery during that milestone. If there is concern with marking something as initially on track, then we should discuss why.
+Our teams use the [Health Status](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) feature within issues to indicate the likelihood of completion within the milestone. We assign `On Track` at the beginning of a milestone to a small number of issues where we have high confidence in delivery during that milestone. If there is concern with marking something as initially on track, then we should discuss why.
 
 Raising risk early is important. The more time we have, the more options we have. For example, issues that have not gone into review by the 10th of the month may not have enough time to get merged. These should be considered Needs Attention or At Risk depending on their complexity and other factors.
 
@@ -241,7 +243,7 @@ Therefore, it's important to confirm this when introducing a new feature flag. A
 
 ## Monitoring
 
-* [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-threat_insights/stage-groups-threat-insights-group-dashboard)
+* [Stage Group dashboard on Grafana](https://dashboards.gitlab.net/d/stage-groups-threat_insights/stage-groups-threat-insights-group-dashboard)
 * [Largest Contentful Paint (LCP)](https://dashboards.gitlab.net/d/sftijGFMz/sitespeed-lcp-leaderboard?from=now-90d&orgId=1&to=now&refresh=30s&var-namespace=sitespeed_io&var-path=desktop&var-domains=gitlab_com&var-pages=Secure_Instance_Dashboard_Settings&var-pages=Secure_Instance_Security_Dashboard&var-pages=Secure_Instance_Vulnerability_Report&var-pages=Secure_Group_Security_Dashboard&var-pages=Secure_Group_Vulnerability_Report&var-pages=Secure_Project_Security_Dashboard&var-pages=Secure_Project_Vulnerability_Report&var-pages=Secure_Standalone_Vulnerability&var-browser=chrome&var-connectivity=cable&var-function=median) for our web pages.
 
 ## Contributing
