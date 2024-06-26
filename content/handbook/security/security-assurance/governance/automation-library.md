@@ -61,6 +61,12 @@ Each automation added to this page should contain the below details at minimum:
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-testing-and-populations)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
+#### Automated Testing of CM-3 (Test for MRs with SOD violations)
+
+- This automation allows users to generate a testing workbook for a project in a given time period with details on whether MRs that were merged contained SOD violations such as a user making changes to an MR after approvals were captured without requesting a new review.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-testing-and-populations)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+
 #### Header Title Anchor
 
 - Brief Description
