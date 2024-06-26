@@ -6,7 +6,7 @@ description: "insert description here"
 
 ## About Us (sub section hyperlink)
 
-The **Enterprise Applications, G&A Team** implements and supports specialized applications that support our internal business processes spanning the procure-to-pay and record-to-report processes at GitLab. We are directly responsible for the administration and expansion of GitLab’s financial systems to support scalability and compliance.
+The **Enterprise Applications, G&A Team** implements and supports specialized applications that support our internal business processes spanning the procure-to-pay and record-to-report processes at GitLab. We are directly responsible for the administration and expansion of GitLab's financial systems to support scalability and compliance.
 Our team ensures the availability of these applications through monitoring and alerting. These internal-facing applications include the following applications - NetSuite, Coupa, Zip, Navan Travel & Expense, Adaptive Planning, etc. We are also responsible for the IT Audit and Compliance function to ensure we pass SOX Audit for our IT General Controls (ITGC).
 
 ### Mission
