@@ -29,6 +29,12 @@ Each automation added to this page should contain the below details at minimum:
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/authomize)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
+#### Automated Testing of CM-5 (Testing for Project Settings to enforce SOD)
+
+- This automation generates a testing workbook on a weekly basis with details of which projects in a curated list of critical projects are configured in a way to enforce SOD for repository changes by reviewing MR Approvals, Approval Rules, and Protected Branch settings. The output is an excel workbook with details of which individual settings caused any noted failures where SOD wouldn't be enforced.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-testing-and-populations)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+
 ### What can I trigger ad-hoc?
 
 #### GitLab Export
