@@ -1,25 +1,26 @@
 ---
 title: "Engineering Productivity team"
-description: "The Engineering Productivity team maximizes the value and throughput of Product Development teams and wider community contributors by improving the Developer Experience, streamlining the Product Development processes and keeping projects Maintainable & Secure."
+description: "The Engineering Productivity team maximizes the value and throughput of Product Development teams and wider community contributors by improving the developer experience, streamlining the product development processes, and keeping projects maintainable and secure."
 ---
 
 ## Mission
 
-- Constantly improve efficiency for our entire engineering and product teams, to ultimately increase value for our customer.
+- Constantly improve efficiency for our entire engineering and product teams to increase customer value.
 - Measure what matters: quality of life, efficiency, and toil reduction improvements with quantitative and qualitative measures.
 - Build partnerships across organizational boundaries to deliver broad maintainable & secure efficiency improvements.
 
 ## Vision
 
-The Engineering Productivity team vision is to focus on the satisfaction of engineers & product/engineering managers, while keeping GitLab projects maintainable, compliant and secure.
+The Engineering Productivity team's vision is to focus on the satisfaction of engineers, product managers, and engineering managers while keeping GitLab projects
+–[including JiHu](https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35)– maintainable, compliant, and secure.
 
 Integral parts of this vision:
 
-- Developer Experience: Provide stable development environments and tools, as well as a consistent & streamlined contributing experience.
-- Product Development processes: Help product and engineering managers see the whole picture about their group's bugs, feature proposals, planned and started work, as well as automate issues and merge requests hygiene (labels, milestones, staleness etc.).
-- Maintainability & Security of GitLab's projects: Enforce configuration consistency (project settings, CI/CD pipelines) for all GitLab projects to ensure they're maintainable, compliant and secure in the long-term.
+- Developer experience: Provide stable development environments and tools, as well as a consistent and streamlined contributing experience.
+- Product development processes: Help product and engineering managers see the whole picture about their group's bugs, feature proposals, planned and started work, as well as automate issues and merge requests hygiene (labels, milestones, staleness etc.).
+- Maintainability and security of GitLab's projects: Enforce configuration consistency (project settings, CI/CD pipelines) for all GitLab projects to ensure they're maintainable, compliant and secure in the long-term.
 
-## Our Principles
+## Our principles
 
 - **See it and find it**: Build automated measurements and dashboards to gain insights into the productivity of the Engineering organization to identify opportunities for improvement.
   - Implement new measurements to provide visibility into improvement opportunities.
@@ -39,9 +40,9 @@ Integral parts of this vision:
 - **Engineering workflow**: Develop automated processes for improving label classification hygiene in support of product and Engineering workflows.
   - [Automated issues and merge requests triage](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
   - Improvements to the labelling classification and automation used to support Engineering measurements.
-- **Dogfood build**: Enhance and add new features to the GitLab product to ultimately improve productivity & efficiency of GitLab customers.
+- **Dogfood build**: Enhance and add new features to the GitLab product to ultimately improve productivity and efficiency of GitLab customers.
 
-## Areas of Responsibilities
+## Areas of responsibilities
 
 ```mermaid
 graph LR
@@ -56,32 +57,31 @@ graph LR
     click C3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/34"
     C --> C4[Merge Request Pipelines<br>Providing fast and reliable pipelines]
     click C4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/28"
-    C --> C5[Review apps<br>Providing review apps to explore a merge request changes]
-    click C5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/33"
+    C --> C5[Automated main branch failing pipelines management<br>Providing a stable `master` branch]
+    click C5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/30"
+    C --> C6[Review apps<br>Providing review apps to explore a merge request changes]
+    click C6 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/33"
 
-    A --> B[Product Development processes]
+    A --> B[Product development processes]
     B --> B1[Weekly team reports<br>Providing teams with an overview of their current, planned & unplanned work]
     click B1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/32"
     B --> B2[Issues & MRs hygiene automation<br>Ensuring healthy issue/MR trackers]
     click B2 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/32"
+    B --> B3[Metrics and dashboards<br>Making data-driven decisions]
+    click B3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/36"
 
-    A --> D[Maintainability & Security of GitLab's projects]
+    A --> D[Maintainability and security of GitLab's projects]
     D --> D1[Automated dependency updates<br>Ensuring dependencies are up-to-date]
     click D1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/40"
     D --> D2[Automated management of CI/CD secrets<br>Providing a secure CI/CD environment]
     click D2 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/46"
-    D --> D3[Automated main branch failing pipelines management<br>Providing a stable `master` branch]
-    click D3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/30"
-    D --> D4[Static analysis<br>Ensuring the codebase style and quality is consistent and reducing bikeshedding]
-    click D4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/38"
-    D --> D5[Shared CI/CD components<br>Providing CI/CD components to ensure consistency in all GitLab projects]
+    D --> D3[Static analysis<br>Ensuring the codebase style and quality is consistent and reducing bikeshedding]
+    click D3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/38"
+    D --> D4[Shared CI/CD components<br>Providing CI/CD components to ensure consistency in all GitLab projects]
     click D5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/41"
-
-    A --> G[JiHu Support]
-    click G "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35"
 ```
 
-## Team Structure 
+## Team structure
 
 ### Members
 
@@ -96,7 +96,7 @@ graph LR
 | {{< member-by-name "Jennifer Li" >}}             | Senior Backend Engineer, Engineering Productivity   |
 | {{< member-by-name "Jen-Shin Lin" >}}            | Senior Backend Engineer, Engineering Productivity   |
 
-### Stable Counterpart
+### Stable counterpart
 
 | Person | Role |
 | --- | --- |
