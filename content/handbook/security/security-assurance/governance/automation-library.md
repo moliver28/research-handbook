@@ -27,7 +27,14 @@ Each automation added to this page should contain the below details at minimum:
 
 - This automation syncs user listings from various systems into Authomize (User Access Review Tool) on a daily basis. A manual sync can be triggered if required.
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/authomize)
-- [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+
+#### GitLab Export
+
+- This automation allows users to generate listings of Accounts, Deployments, Issues, Label Usage, Group/Project Members, and Personal Access Tokens in an easy to use .csv format.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-private/gl-security/security-assurance/sec-compliance/gitlab-export)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+
 
 ### What can I trigger ad-hoc?
 
