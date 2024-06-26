@@ -29,6 +29,8 @@ Each automation added to this page should contain the below details at minimum:
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/authomize)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
+### What can I trigger ad-hoc?
+
 #### GitLab Export
 
 - This automation allows users to generate listings of Accounts, Deployments, Issues, Label Usage, Group/Project Members, and Personal Access Tokens in an easy to use .csv format.
@@ -36,16 +38,28 @@ Each automation added to this page should contain the below details at minimum:
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
 #### Automated Access Request Issue Creation
+
 - This automation consumes a completed UAR output from our Access Review tool and parses the information into a standardized GitLab Issue Access Request for actioning by the appropriate systems owner.
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-private/gl-security/security-assurance/security-assurance-automation/uar-ar-autocreate)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
 #### Automated Terminated Access Review
+
 - This automation consumes a UAR output from our Access Review tool and performs a review for terminated users against team member and contractor records. Account details are populated for strongly matched identities and weakly matched identities have found details compiled for ease of review.
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-private/gl-security/security-assurance/security-assurance-automation/uar-terminations-check)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
-### What can I trigger ad-hoc?
+#### Merged MRs Listing
+
+- This automation allows users to generate listings of GitLab MRs for a desired project in a defined time period with the output into an easy to use .csv format.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-testing-and-populations)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+
+#### Closed or Open Issues Listing
+
+- This automation allows users to generate listings of GitLab Issues for a desired project in a defined time period with the output into an easy to use .csv format.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-testing-and-populations)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
 #### Header Title Anchor
 
