@@ -42,7 +42,7 @@ The single source of truth for these definitions can be found in the [Go to Mark
 
 ## Who is responsible for reviewing Support Satisfaction feedback
 
-AS of XXX, Each Support Engineering Manager is responsible for reviewing and actioning feedback for their reports. Issues will be directly assigned to managers, and should be addressed promptly.
+AS of XXX, Each Support Engineering Manager is responsible for reviewing and actioning feedback for their reports. Issues will be directly assigned to managers, and should be addressed within 7 days.
 
 This SSAT data will be reviewed by Senior Leaders and presented in Monthly region reviews.
 
