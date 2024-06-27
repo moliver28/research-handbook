@@ -165,7 +165,6 @@ For a more detailed explanation of the steps that comprise each stage of the del
 
 ![Post-Sales Stages & Steps](post-sales-methodology/PS-delivery-workflow.png) -->
 
-
 <!-- ---
 
 title: "Go To Market (Pre-Sales)"
@@ -303,7 +302,7 @@ The following questions are about bringing multiple GitLab instances together in
 SVN to Git Questions:
 
 1. What is the structure of the SVN repos and subprojects? Do they follow the "standard" of:
-    ```
+    ```html
         Repository
             Project 1
                 branches/trunks/tags
@@ -311,7 +310,7 @@ SVN to Git Questions:
                 branches/trunks/tags
     ```
     1. Any other variations? Example:
-        ```
+        ```html
             Trunk
                 Project 1
                 Project 2
@@ -353,7 +352,6 @@ For scoping infrastructure implementation, we have several questions that can he
 [Implementation Infrastructure Scoping Questions](https://docs.google.com/spreadsheets/d/1TsCUNLuWdpX1V_dTn5MMXIUqnAYKm9Megu5MO9S8eGM/edit?usp=sharing)
 
 **Note:** This document contains tabs for various public and private cloud providers - AWS, GCP, Azure, OpenShift and other on-prem deployments - you should only have to fill out the tab(s) relative to your customer.--> 
-
 
 <!--
 title: "Post-Sales"
