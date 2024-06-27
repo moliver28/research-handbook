@@ -29,6 +29,14 @@ Each automation added to this page should contain the below details at minimum:
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/authomize)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
+#### Hyperproof Task Sync
+
+- This is a two way sync between Hyperproof Tasks and GitLab Issues that scans for changes every 5 minutes and syncs to keep both data sources up to date.
+- Primary GitLab Project Link
+- Contact: 
+  - [[Donovan Felton - Security Assurance Engineer](https://gitlab.com/dfelton)]
+  - [James Sandlin, Staff Security Assurance Engineer](https://gitlab.com/jsandlin)
+
 #### Automated Testing of CM-5 (Testing for Project Settings to enforce SOD)
 
 - This automation generates a testing workbook on a weekly basis with details of which projects in a curated list of critical projects are configured in a way to enforce SOD for repository changes by reviewing MR Approvals, Approval Rules, and Protected Branch settings. The output is an excel workbook with details of which individual settings caused any noted failures where SOD wouldn't be enforced.
