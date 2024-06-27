@@ -35,6 +35,12 @@ Each automation added to this page should contain the below details at minimum:
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-testing-and-populations)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
+#### User Access Review Listing Requests
+
+- This automation generate UAR listing requests for those systems unable to be/not yet integrated into Authomize (User Access Review Tool). The schedule for requests is defined per listing and issues are automatically assigned to the correct team members for actioning.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/user-access-review-pipelines)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+
 ### What can I trigger ad-hoc?
 
 #### GitLab Export
