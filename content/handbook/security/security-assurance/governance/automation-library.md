@@ -6,6 +6,8 @@ title: "Security Assurance - Automations Library"
 
 This page is intended to provide a jumping off point for what components of Security Assurance have been automated and are available for use by team members. It includes ad-hoc automations that should be triggered by team members whenever desired as well as ongoing scheduled automations in place.
 
+If you have more ideas about what could be automated, please open an issue in 
+
 ## Layout
 
 Each automation added to this page should contain the below details at minimum:
@@ -16,12 +18,6 @@ Each automation added to this page should contain the below details at minimum:
 - Best Point of Contact for Questions
 
 ### What is in place and always running?
-
-#### Header Title Anchor
-
-- Brief Description
-- Repository Link
-- Point of Contact
 
 #### Authomize Sync
 
@@ -71,7 +67,7 @@ Each automation added to this page should contain the below details at minimum:
   - [Commercial Compliance](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/security-risk-recurring-issues)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
-### What can I trigger ad-hoc?
+### What can I run ad-hoc?
 
 #### Feedback Bot
 
@@ -97,6 +93,12 @@ Each automation added to this page should contain the below details at minimum:
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-private/gl-security/security-assurance/security-assurance-automation/uar-terminations-check)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
+#### Audit Events Listing
+
+- This automation generates a list of all audit events for a given project in defined time period. When run, the automation also flags Audit Events that may impact SOD settings for a project for closer review. The report outputs into an easy to use excel format.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/scripts)
+- Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+
 #### Merged MRs Listing
 
 - This automation allows users to generate listings of GitLab MRs for a desired project in a defined time period with the output into an easy to use .csv format.
@@ -114,12 +116,6 @@ Each automation added to this page should contain the below details at minimum:
 - This automation allows users to generate a testing workbook for a project in a given time period with details on whether MRs that were merged contained SOD violations such as a user making changes to an MR after approvals were captured without requesting a new review.
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-testing-and-populations)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
-
-#### Header Title Anchor
-
-- Brief Description
-- Repository Link
-- Point of Contact
 
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> I have questions
 
