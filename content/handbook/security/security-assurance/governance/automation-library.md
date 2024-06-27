@@ -101,7 +101,6 @@ Each automation added to this page should contain the below details at minimum:
 
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> I have questions
 
-[Donovan Felton](/handbook/company/team/#dfelton), @dfelton, Security Assurance Engineer, Automation
-
-- [Automation design, development, and implementation]({{< ref "security-assurance-automation" >}})
-- [GRC application administration]({{< ref "security-assurance#core-tools-and-systems-1" >}})
+- [Donovan Felton](/handbook/company/team/#dfelton), @dfelton, Security Assurance Engineer, Automation
+- [James Sandlin](/handbook/company/team/#jsandlin), @jsandlin, Staff Security Assurance Engineer, Automation
+- [Byron Boots](/handbook/company/team/#byronboots), @byronboots, Senior Security Assurance Engineer, Compliance
