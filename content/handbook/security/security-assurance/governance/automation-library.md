@@ -73,6 +73,12 @@ Each automation added to this page should contain the below details at minimum:
 
 ### What can I trigger ad-hoc?
 
+#### Feedback Bot
+
+- This automation enables team members to send private feedback to other team members through Slack.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/feedback-bot)
+- Contact: [Donovan Felton - Security Assurance Engineer](https://gitlab.com/dfelton)
+
 #### GitLab Export
 
 - This automation allows users to generate listings of Accounts, Deployments, Issues, Label Usage, Group/Project Members, and Personal Access Tokens in an easy to use .csv format.
