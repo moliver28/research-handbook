@@ -1,4 +1,4 @@
----
+<!-- ---
 
 title: "Go To Market (Pre-Sales)"
 description: “Discover how GitLab Scopes Professional Services for customers who have requirements that fall outside the scope of the packaged services.”
@@ -115,7 +115,7 @@ Once the SOW is fully executed, the deal desk team updates the Salesforce PS-Onl
 
 TODO: update this with documents and delivery kits that are organized to help the delivery team be successful with the engagement.
 
-![''](../PS-delivery-workflow.png)
+![''](../PS-delivery-workflow.png) -->
 
 <!--This page provides scoping questions designed to collect details and uncover the customer's required capabilities. This ensures alignment of the SOW and PS delivery with the positive business outcomes the customer is looking for.  While not an exhaustive list, these questions and suggestions will help spark the discovery conversations.
 

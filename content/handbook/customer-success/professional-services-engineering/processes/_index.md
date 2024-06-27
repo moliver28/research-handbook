@@ -143,9 +143,9 @@ By optimizing and automating internal controls (sign-offs / approvals), cycle ti
 
 The Professional Services process and methodology fits within the Customer journey that is supported by Customer Success.Professional Services contributes to the customer journey from the point of **SOW Close** through the **Project Closee** phase.
 
-![<!--!\[''\](/handbook/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)-->](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
+![!\[''\](/handbook/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
 
-<!-- [Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1eC_ocJkzNkH4Vw3v4Vkd3S58a0NALYxXtnb6BZ7pJdc/edit?usp=sharing)
+ [Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1eC_ocJkzNkH4Vw3v4Vkd3S58a0NALYxXtnb6BZ7pJdc/edit?usp=sharing)
 
 ## PS Process Methodology Stages
 
@@ -163,4 +163,4 @@ For a more detailed explanation of the steps that comprise each stage of the sco
 
 For a more detailed explanation of the steps that comprise each stage of the delivery phase, check out the [Delivery (Post-Sales)](post-sales-methodology) page. In this page, we drill down into- and describe- specific steps in each phase of the post-sales delivery process.
 
-![Post-Sales Stages & Steps](post-sales-methodology/PS-delivery-workflow.png) --> -->
+![Post-Sales Stages & Steps](post-sales-methodology/PS-delivery-workflow.png) -->
