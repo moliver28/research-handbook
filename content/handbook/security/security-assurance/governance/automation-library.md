@@ -6,7 +6,7 @@ title: "Security Assurance - Automations Library"
 
 This page is intended to provide a jumping off point for what components of Security Assurance have been automated and are available for use by team members. It includes ad-hoc automations that should be triggered by team members whenever desired as well as ongoing scheduled automations in place.
 
-If you have more ideas about what could be automated, please open an issue in 
+If you have more ideas about what could be automated, please open an issue in the [Security Assurance Automation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/security-assurance-automation).
 
 ## Layout
 
@@ -35,7 +35,7 @@ Each automation added to this page should contain the below details at minimum:
 
 #### Escalator Engine
 
-- This automation takes a defined ruleset for a specific project and leaves a comment to "escalate" issues that meet the defined criteria such as open issues without specific labels, open issues past due etc.
+- This automation takes a defined ruleset for a specific project and leaves a comment to "escalate" issues that meet the defined criteria such as open issues without specific labels, open issues past due etc. If you'd like to set this up for another project, just reach out!
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/escalator)
 - Contact:
   - [Donovan Felton - Security Assurance Engineer](https://gitlab.com/dfelton)
