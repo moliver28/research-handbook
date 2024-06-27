@@ -6,9 +6,11 @@ title: "Security Assurance - Automations Library"
 
 This page is intended to provide a jumping off point for what components of Security Assurance have been automated and are available for use by team members. It includes ad-hoc automations that should be run by team members whenever desired as well as ongoing scheduled automations in place.
 
+Each automation includes a brief description of available functionality and links to a relevant project. Detailed guidance on how to run the automations including inputs to pipelines etc. are available in detailed READMEs for each automation as needed.
+
 If you have more ideas about what could be automated, please open an issue in the [Security Assurance Automation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/security-assurance-automation).
 
-## Layout
+### Layout
 
 Each automation added to this page should contain the below details at minimum:
 
@@ -17,7 +19,7 @@ Each automation added to this page should contain the below details at minimum:
 - Repository Link (may be a private/limited access project)
 - Best Point of Contact for Questions
 
-## What is in place and always running?
+### What is in place and always running?
 
 #### Authomize Sync
 
@@ -67,7 +69,7 @@ Each automation added to this page should contain the below details at minimum:
   - [Commercial Compliance](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/weekly-highlights)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
-## What can I run ad-hoc?
+### What can I run ad-hoc?
 
 #### Feedback Bot
 
