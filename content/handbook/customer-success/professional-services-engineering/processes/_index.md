@@ -164,3 +164,370 @@ For a more detailed explanation of the steps that comprise each stage of the sco
 For a more detailed explanation of the steps that comprise each stage of the delivery phase, check out the [Delivery (Post-Sales)](post-sales-methodology) page. In this page, we drill down into- and describe- specific steps in each phase of the post-sales delivery process.
 
 ![Post-Sales Stages & Steps](post-sales-methodology/PS-delivery-workflow.png) -->
+
+
+<!-- ---
+
+title: "Go To Market (Pre-Sales)"
+description: “Discover how GitLab Scopes Professional Services for customers who have requirements that fall outside the scope of the packaged services.”
+---
+
+## Overview
+
+The purpose of this page is to document the sales-assisted selling motion used by Professional Services Engagement Managers and Regional Delivery Managers. If you're on a GitLab sales account team looking for information, try these pages on [positioning professional services](/handbook/customer-success/professional-services-engineering/positioning) or [selling professional services](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services).
+
+This page will help outline the when and how to get involved with positioning and scoping services, how to estimate, how to use SOW generation software, and the processes to gain approval.
+
+> *Note: Services engagements can take [two forms](/handbook/customer-success/professional-services-engineering/selling). This will focus on the **custom SOW scoping** process, not the Standard SKU process.*
+
+For custom SOWs, the [workflow for SOW creation](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services) involves a partnership between the Account Team and the Professional Services Team.
+
+![''](./scoping-workflow.png)
+[Source](https://docs.google.com/presentation/d/1TOI2aoseBoyWYQC6-xpJVMknEncCNreSFfMvOHO7EBA/edit#slide=id.gbfb62d0c00_0_58) (GitLab Team Members Only)
+
+## 1. Positioning
+
+- **DRI**: Account Team (SAE/AE, SA, CSM)
+- **Supported By**: Engagement Manager
+
+### MEDDPICC
+
+Professional services can be positioned when a prospect becomes a customer (e.g. the Land of a new deal) or when an already existing customer is growing their staff or interesting in adopting new features of GitLab (e.g. expansion). The SA, SAE, AE, or CSM (e.g. "Account Team") is primarily responsible for this process, following the [Command of the Message](/handbook/sales/command-of-the-message/) and [MEDDPICC](/handbook/sales/meddppicc/) messaging frameworks.
+
+For the larger, more strategic customers PS Engagement Managers tend to get involved earlier in the selling process to help with discovery and provide lessons learned on rollout from past engagements. For the medium sized customers, Engagement managers tend to get involved with account teams when the SFDC stage 4 (Proposal) is achieved.
+
+### Customer Success Discovery
+
+The Account team should be encouraged to use the [Customer Terrain Mapping templates](/handbook/customer-success/customer-terrain-mapping/#catalog-of-customer-terrain-mapping-engagements) to help the customer to start thinking about *how* they will achieve their longer term success. This typically results in conversations about services to aide them in their journey.
+
+### Services Needed
+
+Once its identified that the customer will likely want to engage with professional services, its the responsibility of the Account Team to [get in touch with the Engagement Manager](/handbook/customer-success/professional-services-engineering/engagement-mgmt/#how-to-contact-or-collaborate-with-us).
+
+## 2. Scoping
+
+- **DRI**: Engagement Manager
+- **Supported By**: PS Practice, Account Team (SAE/AE, SA, CSM)
+
+### Gather Data
+
+After the [services calculator](https://services-calculator.gitlab.io/) is run by the Account Team, scoping issues and Project Scheduling Intake issues are automatically created and land in the [PS Plan](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-plan/-/issues) Project. Using this customer scoping issue and Project Scheduling Intake issue, the engagement manager gathers data asynchronously from the account team. Questions about the potential engagement can sometimes be answered by the Account Team from the discovery that was done already. We want to make sure we avoid asking duplicate questions to the customer. In some cases when the account team cannot provide the level of detail to create an egagement, the EM will meet with the Account team and Customer to ask additional discovery questions to get to a level of detail needed. Once the data has been gathered, the EM will populate the answers to the Project Scheduling Intake issue.
+
+### Create Engagement Estimate
+
+A PS Engagement Estimate spreadsheet used for scoping services. The Engagement Manager uses the [PS engagement estimate spreadsheet](https://docs.google.com/spreadsheets/d/1wkmKhhGyLoxqWCXFtiI99tNgVaEJ-hTQJRwTOsU0j_Y/edit#gid=1815139260) to define the services in scope and estimate the amount of time for each activity. There is a catalog of activities in the [SOW generation automation](https://gitlab.com/services-calculator/services-calculator.gitlab.io) project or a list of services can be found at our [offerings framework](/handbook/customer-success/professional-services-engineering/framework) page.
+
+### Iterate / Review Engagement Estimate
+
+After the first iteration of building detail into the straw-man, the Engagement manager posts a request for review in the [professional services slack channel](/handbook/customer-success/professional-services-engineering/working-with/#slack) to the Account team. Often the Engagement Manager will get on a zoom call with the customer and provide context and gather feedback from the customer.
+
+### Generate SOW
+
+Once the Engagement Manager can get buy in from the account team and/or customer on the size and activities included in the services engagement, the [SOW generation automation](https://gitlab.com/services-calculator/services-calculator.gitlab.io) can be run using the straw-man as an input.  The engagement manager is responsible for running this automation which can be done by following the instructions on the readme in the above project.
+
+### Iterate/Review SOW Data
+
+Once the SOW is generated, it is ready for review by the account team. Iteration can occur here but should be minimized if the proper iteration was done on the Straw-man Steps.
+
+### SOW Review/Approval
+
+After one or more rounds of iteration on feedback from the account team, the SOW will be ready for Review and Approval by Sr. Director of Professional Services. The review processes are signaled in the [professional services slack channel](/handbook/customer-success/professional-services-engineering/working-with/#slack) and **at-mention** the GitLab engagement stakeholders.
+
+## 3. Delivery Prep
+
+- **DRI**: Project Manager
+- **Supported By**: EM, PM, PSE, TA, Account Team
+
+Once the engagement moves to stage 6, `awaiting signature` in salesforce, the engagement manager schedules an intro meeting between the PM and the customer stakeholder to discuss "how we manage projects at GitLab".  During this call, the PM will also discuss resource assignment, and scheduling details. Simultaneously, the PM will schedule an internal transition meeting with the EM, PM, PSE, TA, and Account Team to review the technical discussions that occurred during the customer scoping meetings.  This is a opportunity for the entire team to discuss and disclose the inner workings and dynamics of the customer project team.
+
+### PM Introduction
+
+Engagement managers introduce the PS Project Manager as they are in contract with the customer during the scoping exercise and are perfectly positioned to do so.
+
+### Resource Identification
+
+The PS Proejct Coodinator, working closely with the Regional Delivery Manager, will identify the best resource to deliver the project based on skillset, timezone, personality, tenure, and availability.
+
+### Project Prep call
+
+This is a call between the customer stakeholder and the PS Project Manager to discuss HOW we work.  Where we track project progress, what status report will look like, what the meeting cadence might be, a review of the contract terms that affect how we work such as minimum hours per week, expiration dates, delay language, and most importantly, how to achieve mutual agreement with the customer on a preliminary project schedule, prior to the kick-off call which includes the entire project team.
+
+Check out the PS Delivery methodology to understand the details around pre-sales handoff to the delivery team, to ensure a successful relationship and productive engagement.
+
+### 4. SOW Execution/Close
+
+- **DRI** Engagement Manager
+- **Supported By**: PS Leader, Sr. PSE, SAE/AE, Legal, Finance, Deal Desk
+
+Finance Approval
+The engagement manager can kick off the finance approval process in Salesforce. TODO: Add more details.
+
+### Legal Approval
+
+The Engagement Manager is responsible for creating a Legal Approval Case in Salesforce from the associated opportunity. This process often involves reviewing and accepting redlines from the customer and from our legal team. The source of truth for the latest SOW is managed in the SFDC legal case. The EM should coordinate who "holds the pen" to ensure we maintain version control of the SOW with the latest redlines.
+
+### Customer Signature
+
+Once the SOW has been approved by PS leadership, Legal and Revenue, the account team is owns the process of executing the SOW. They should take the approved SOW from the legal case and route it for signature with the customer.
+
+### Deal Desk updates SFDC
+
+Once the SOW is fully executed, the deal desk team updates the Salesforce PS-Only opportunity to `closed-won`.
+
+### Journal Epic (Delivery Kit)
+
+TODO: update this with documents and delivery kits that are organized to help the delivery team be successful with the engagement.
+
+![''](../PS-delivery-workflow.png) -->
+
+<!--This page provides scoping questions designed to collect details and uncover the customer's required capabilities. This ensures alignment of the SOW and PS delivery with the positive business outcomes the customer is looking for.  While not an exhaustive list, these questions and suggestions will help spark the discovery conversations.
+
+## Migration scoping questions
+Migrations are one of the most complex types of services in any technical field.  Systems store data in a variety of ways that evolves.  Also, customers and users often use the same data model and system to represent completely different logical units to their teams.  To ensure a transition that meets the customer's needs, we want to make sure we understand their usage of their current systems.
+
+### GitLab to GitLab scoping questions
+The following questions are about bringing multiple GitLab instances together into a single "parent" instance:
+
+1. How many instances need to be migrated together?
+1. Breakdown of repositories per instance (and total git storage space)
+1. Breakdown of users per instance
+1. Breakdown of groups per instance
+1. Breakdown of disk space per instance
+1. Do any of the users use SSO (LDAP, SAML, etc.) to log in users?
+1. What is the version of every GitLab instance involved?
+1. What integrations are used on each instance?
+1. For each instance, how is artifact, upload, container registry and Git LFS storage handled?
+
+### SVN to Git scoping questions
+
+SVN to Git Questions:
+
+1. What is the structure of the SVN repos and subprojects? Do they follow the "standard" of:
+    ```
+        Repository
+            Project 1
+                branches/trunks/tags
+            Project 2
+                branches/trunks/tags
+    ```
+    1. Any other variations? Example:
+        ```
+            Trunk
+                Project 1
+                Project 2
+            Tags
+                tag name
+                    Project 1
+                    Project 2
+            Branches
+                Branch name
+                    Project 1
+                    Project 2
+        ```
+1. How many SVN repositories are there? How are they broken up?
+1. What is the overall size of the SVN repos?
+1. How much history (e.g. tags, branches, etc.) should be migrated?
+1. Are any binary files stored in SVN?
+1. How are you currently using SVN externals? Do you have some example use cases?
+1. Which migration/conversion environment (local, VM, cloud) and OS (Windows, Linux, macOS) is preferred?
+
+### GitLab self-managed to GitLab.com scoping questions
+
+Self-Manged to GitLab.com questions:
+
+1. How many repositories are there?
+1. What is the average size of the repositories? What is the size of the largest repositories?
+1. How many groups are there?
+1. How many users?
+1. Do we want the same structure of groups/projects/user access? Do we want it to be restructured?
+1. Do you use other tools with GitLab. If so, which ones?
+1. How are the runners currently set up?
+  1. Where are they hosted?
+  1. How many specific runners do you have and what are the details of these runners?
+  1. Are you looking to make any changes to the runner strategy at your organization or will it stay the same?
+1. GitLab.com uses SAML for authorization. What SAML tool would your organization be using?
+
+## Implementation scoping questions
+For scoping infrastructure implementation, we have several questions that can help us understand the scope. To get started, make a copy of the spreadsheet below and fill in the answers. If there are questions you want to add, ping the `@ps-team` in Slack channel #[professional-services](https://gitlab.slack.com/archives/CFRLYG77X). Then you can attach this document to the issue created by the [GitLab Services (SoW) Calculator](https://services-calculator.gitlab.io/).
+
+[Implementation Infrastructure Scoping Questions](https://docs.google.com/spreadsheets/d/1TsCUNLuWdpX1V_dTn5MMXIUqnAYKm9Megu5MO9S8eGM/edit?usp=sharing)
+
+**Note:** This document contains tabs for various public and private cloud providers - AWS, GCP, Azure, OpenShift and other on-prem deployments - you should only have to fill out the tab(s) relative to your customer.--> 
+
+
+<!--
+title: "Post-Sales"
+description: "Describes the workflow governing delivery of GitLab professional service projects."
+---
+
+## Overview
+
+The purpose of this page is to describe the workflow governing delivery of professional service projects. We will start by outlining the general workflow that is common across all service delivery categories. Then we will describe the differences for engagements that do not fit the general workflow shown below.
+
+![ps-delivery-workflow](PS-delivery-workflow.png)
+
+[Source](https://docs.google.com/presentation/d/1TOI2aoseBoyWYQC6-xpJVMknEncCNreSFfMvOHO7EBA/edit?usp=sharing),  internal only
+
+Update this below
+GitLab professional services employs three different workflows that control projects for the following categories:  standard professional services, education, and dedicated engineers.  Each of these categories have unique attributes that warrant a different approach.
+
+## 1. Pre-sales
+
+_Note: for presales scoping and SOW signature, see the [pre-sales methodology page](/handbook/customer-success/professional-services-engineering/processes/pre-sales-methodology)*
+
+### PS/EM Assessment
+
+**TODO: Add content about what happens in this step**
+
+## 2. PS Project Planning
+
+### Resource Assignment
+
+Resource assignment happens only after the SOW is received with Customer signature. The Sr. PS Operations team identifies delivery resources based on the needs of the engagement.
+
+### Sales to PS Handoff
+
+The Project Coordinator will schedule a handoff call with the account team (SAE/AE, SA, CSM), the EM who scoped the engagement, and the delivery team (PM, PSE, Trainer, Training Coordinator). The meeting will start with the EM and account team describing the customers high-level goals, current state, and desired business outcomes. The Account team should note what the growth potential is for this customer and their strategic plan to drive that growth. These topics give the context about the customer to the delivery team to understand where there might be follow on opportunities.
+
+The EM will discuss in more detail the details of the engagement. The Delivery team will ask clarifying questions for what is in scope and what is out of scope. The PMs will review where the project definition document is stored, which is usually in the [Active Projects](https://drive.google.com/drive/u/0/folders/1ozPKiAlUzbKwpkscaYVTp9PVoi9hWm4U) folder under the Customer project.
+
+**TODO: Add or link to content about what happens in this step. E.g. List link to the skills matrix,  Show example of skills requirements breakdown that come from a scoping issue, Link to the appropriate PS Operations handbook page to show the process in mavenlink**.
+
+### Scheduling
+
+The Professional Services (PS) team scheduling is processed through the Sr. PS Project Coordinator (PC).  Our PSA sytem calendar is our single source of truth for scheduing our customer and internal projects.
+
+Follow these steps to schedule a customer engagement.
+
+Submit a Resource Request through Mavenlink with the following details:
+
+- Role
+- Dates to be worked
+- Hours requested
+- Soft or Hard allocation
+
+The PC will review the master planning for availability and procecss the resource request.  If there is a schedule conflict the PC will provide another set of project dates.
+
+Scheduling updates and changes follow this same process with a resource request in Mavenlink.
+
+If a customer project has not booked, but planning/scheduling discussions need to take place, reach out to the PC to review.
+
+#### How to schedule internal time
+
+There are 2 project that track internal time, Creditable and Non Creditable.  If hours need to be scheduled for the projects, a comment in the project activity and mention the PC:
+
+- Requested Dates
+- Hours requested
+- Task assignment
+- Soft or Hard allocation
+
+## 3. Engagement Execution
+
+#### Kickoff
+
+See the details in the Project workflow section of the [PS Project Management](/handbook/customer-success/professional-services-engineering/project-mgmt/) page.
+
+### Plan
+
+**TODO: Add content about what happens in this step**
+
+### Discovery
+
+During discovery or fact finding sessions with the customer, PSEs will often have a predefined list of questions that need to be answered to ensure we're designing and building the appropriate solution given customer constraints and requirements. It is good practice to send these question to the customer prior to the discovery call so they can be prepared for the discussion.
+
+During the call, take notes to ensure that things that have validated or invalidated your initial assumptions have been captured. At the end of the meeting, review the things you've learned to memorialize what will be designed and built. Reiterating back your understanding of the details of the agreement instills confidence in the customer representative that we understand their requirements and can deliver what was reviewed.
+
+After the meeting, based on meeting notes, create issues in the gitlab.com customer collaboration project outlining the work. Include Consider using a simple template with `Overview`, `Open Questions`, `Tasks`, and `Acceptance Criteria`. These can be helpful in further memorializing the scope of work with the customer and getting asynchronous feedback to open questions. Make sure the `overview` is as detailed as possible, and the `tasks` section has build-to level tasks (e.g. update congregate list() function to include data from CI sources).
+
+### Build/Validate
+
+The build validation step is a bit vague on purpose because it depends on what was included in the scope of the engagement. The PSE can use the [delivery kits mapped to our service offerings](/handbook/customer-success/professional-services-engineering/framework/#service-offering-framework) which include templatized discovery documents, automation software to facilitate service delivery, and templatized deliverable documents. Most of the collateral will be modified and updated right from the delivery kits so this section is intentionally light on detail.
+
+### Train
+
+PSEs or Technical Instructors who deliver GitLab Education Services instructor-led courses can use the following workflow to ensure smooth interactions with customers. In addition, PSEs and Technical Instructors should complete these [GitLab Certified Trainer](/handbook/customer-success/professional-services-engineering/gitlab-certified-trainer-process/) steps for each course they are scheduled to deliver.
+
+#### Preparation steps
+
+1. The Project Coordinator will contact the customer with a "Welcome to Education Services Email" to initiate the training scheduling.  After the training dates and times are confirmed, the Project Coordinator will schedule a training session planning meeting. Trainer participation in this meeting is recommended -- please let the Project Coordinator know if you need the meeting to be rescheduled to ensure your attendance.
+
+1. The Project Coordinator will use these [email communication templates](https://docs.google.com/document/d/1rJ9q9gEzsumRxDhoWEe45u70efmKA0eWNg69WONuCYs/edit?usp=sharing) to ensure communication of the key details with the customer and training participants.
+
+1. During the training planning meeting, be sure to discuss and document all of the event logistics listed in the [Training Event Plan Template](https://docs.google.com/document/d/1huNauyfhFPvLCuo-9T7Ol3FtBDYowYxiP_T5ItP2FN4/edit?usp=sharing). The Project Coordinator will create a draft of the Training Event Plan prior to the meeting and update the document during the training planning meeting.  
+   - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.  
+      - [GitLab with Git Fundamentals course outline](https://university.gitlab.com/pages/gitlab-fundamentals-training)  
+      - [GitLab CI/CD course outline](https://university.gitlab.com/pages/ci-cd-training)  
+      - [GitLab Agile Portfolio Management course outline](https://university.gitlab.com/pages/agile-training)  
+      - [GitLab Security Essentials course outline](https://university.gitlab.com/pages/security-training)  
+      - [GitLab System Administration course outline](https://university.gitlab.com/pages/system-admin-training)  
+      - [GitLab Duo Principles course outline](https://university.gitlab.com/pages/duo-training)
+      - [System Requirements](https://university.gitlab.com/pages/gitlab-ilt-sysreq)  
+
+1. The Project Coordinator will set up a Zoom Meeting or Webinar session for each session using [these set up instructions](/handbook/customer-success/professional-services-engineering/remote-training-session-setup/) and add the registration link(s) to the issue. You will receive an email message with your unique link to join the Zoom Meeting or Webinar session. Make sure to locate the Zoom information within the email message and familiarize yourself with the Zoom functionality. Here is a useful Zoom article for [Managing Attendees and Panelists in a Webinar](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-attendees-and-panelists-in-a-webinar). Depending on your Zoom set up, you may want to log into https://zoom.us, go to Join a Meeting, and enter the meeting ID/webinar ID to start the Zoom session.
+
+1. At least 2 weeks prior to the training session, the Project Coordinator will email the session registration link(s) to the customer, asking them to send the link(s) to each of the employees whom they want to attend the session(s). When each person registers, they will receive an automated confirmation email with a Zoom Meeting or Webinar join link unique to each person, along with a link to add the session to their calendar.
+
+1. The Project Coordinator will advise if a different teleconferencing system is being used for the training and provide additional details for accessing the teleconferencing meeting.
+
+1. Contact the GitLab Education Services team to confirm you have the latest versions of course slides and other materials.
+
+1. Review the train-the-trainer (T3) video for the course you are delivering.
+
+1. Review and follow the [Instructor Pre-Training Checklist](/handbook/customer-success/professional-services-engineering/processes/delivery-checklists/) to ensure that you are properly prepared for your delivery.
+
+1. Review, practice, and use these [PS Remote Training Tips and Tricks](/handbook/customer-success/professional-services-engineering/remote-training-tips/).
+
+1. Complete the GitLab Training Lab set up steps below. Make sure that you review the lab exercises and ensure that the labs are working properly prior to the first day of class.
+
+1. When it's time to join the teleconferencing as a presenter, use the provided information to join the session.
+
+##### Training lab pre-course instructor workflow
+
+PS uses the [GitLab Lab Environment](http://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
+
+**1. GitLab Demo System invitation codes**
+
+1. The Project Coordinator will generate the invitation code for your class and provide the invitation code information approximately a week prior to your class start date as part of the instructor friendly reminders post within your Kantata project.
+1. Follow the instructions on the [GitLab Lab Environment Invitation Code Redemption handbook page](/handbook/customer-success/demo-systems/#invitation-code-redemption) to redeem the invitation code and access the lab environment.
+1. For any edits/extensions/etc or any custom redemption rules (different durations than our standards), contact the GitLab Professional Services Operations team for assistance.
+
+**2. Share the invitation code and access instructions with attendees**:
+
+1. On the first day of class, share the invitation code and review the login process with the attendees. Also let them know the expiration date (which is 30 days from the date they generate the login).
+
+#### Training Closeout
+
+1. Review the [Instructor Post-Training Checklist](/handbook/customer-success/professional-services-engineering/processes/delivery-checklists/) to ensure that you have followed all of the steps to close out your training class.
+1. The Project Coordinator will download the attendance report and send a close out email to the customer using an email template located in the [email communication templates](https://docs.google.com/document/d/1rJ9q9gEzsumRxDhoWEe45u70efmKA0eWNg69WONuCYs/edit?usp=sharing).
+
+### Complete
+
+For blended engagements, see the `Deploy & Close` section of our [project management page])(/handbook/customer-success/professional-services-engineering/project-mgmt/#project-workflow)
+
+### Financial Closeout
+
+**TODO: Add or link to content about what happens in this step**
+
+## 4. Customer Success
+
+### Retrospective
+
+The project manager should schedule a retrospective at the end of the project. Invite the accout team (SAE, AE, CSM, SA), the delivery team (PSEs, trainers, Project Coordinators), Engagement Manager who scoped the engagement, and PS Leadership team.
+
+The [Retrospective TEMPLATE](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit#heading=h.yqd5ghhhm2lh) can be used to capture notes during the meeting.
+
+The Retrospective meeting should be run by someone that is not intimately familiar with the execution of the project (typically PS Practice Manager or Engagement Manager). During the meeting, encourage contributions into the notes doc in real time and offer for participants to verbalize their feedback.
+
+Toward the end of the call, gather actions and assign owners to complete those actions.
+
+### Project Go-live/Recap Document
+
+At the end of a project the Project leader should document the customer value drives/positive business outcomes they were looking to accomplish, what PS delivered to help them accelerate their journey, and special thanks to the project team. A [template of this write up](https://docs.google.com/document/d/1U0rOXcSEsBFRITQzIKopIspkrldl804PK08cU4onoUU/edit#) be found in the PMO templates Google Drive folder. An example can be found [here](https://docs.google.com/document/d/1ltSU_2UBKovVE6y6MxG2aKImsnIwicbYjCBS385Zx0A/edit#heading=h.huf1p7y95gl9).
+
+### Success Plan (CSM)
+
+**TODO: Add or link to content about what happens in this step**
+
+### Handoff (Support)
+
+At the end of a small/medium sized projects or after the initial implementation phase of a large engagement, open a [support ops issue](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) and add a link to the collaboration project architecture diagram that was deployed. The Support team will load it into a field in Zendesk to help them have context for customer support requests. --> 
