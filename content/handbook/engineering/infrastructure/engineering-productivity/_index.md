@@ -1,18 +1,18 @@
 ---
 title: "Engineering Productivity team"
-description: "The Engineering Productivity team maximizes the value and throughput of Product Development teams and wider community contributors by improving the developer experience, streamlining the product development processes, and keeping projects maintainable and secure."
+description: "The Engineering Productivity team maximizes the value and throughput of Product Development teams and wider community contributors by improving the developer experience, streamlining the product development processes, and keeping projects secure, compliant, and easy to work on for everyone."
 ---
 
 ## Mission
 
 - Constantly improve efficiency for our entire engineering and product teams to increase customer value.
 - Measure what matters: quality of life, efficiency, and toil reduction improvements with quantitative and qualitative measures.
-- Build partnerships across organizational boundaries to deliver broad maintainable & secure efficiency improvements.
+- Build partnerships across organizational boundaries to deliver maintainability and efficiency improvements for all stakeholders.
 
 ## Vision
 
-The Engineering Productivity team's vision is to focus on the satisfaction of engineers, product managers, and engineering managers while keeping GitLab projects
-–[including JiHu](https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35)– maintainable, compliant, and secure.
+The Engineering Productivity team's vision is to focus on the satisfaction of the Product Development teams and wider community contributors while keeping GitLab projects
+–[including JiHu](https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35)– secure, compliant, and easy to work on.
 
 Integral parts of this vision:
 
@@ -52,7 +52,7 @@ graph LR
     C --> C1[GitLab Development Kit<br>Providing a reliable development environment]
     click C1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/31"
     C --> C2[GitLab Remote Development<br>Providing a remote reliable development environment]
-    click C2 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/31"
+    click C2 "https://gitlab.com/groups/gitlab-org/-/epics/11799"
     C --> C3[Merge Request Review Process<br>Ensuring a smooth, fast and reliable review process]
     click C3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/34"
     C --> C4[Merge Request Pipelines<br>Providing fast and reliable pipelines]
@@ -78,7 +78,9 @@ graph LR
     D --> D3[Static analysis<br>Ensuring the codebase style and quality is consistent and reducing bikeshedding]
     click D3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/38"
     D --> D4[Shared CI/CD components<br>Providing CI/CD components to ensure consistency in all GitLab projects]
-    click D5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/41"
+    click D4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/41"
+    D --> D5[Support of the JiHu development team]
+    click D5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35"
 ```
 
 ## Team structure
