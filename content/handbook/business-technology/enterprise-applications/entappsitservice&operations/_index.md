@@ -19,6 +19,7 @@ To provide frictionless, world class, Application Support Experience for the Git
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
 Service Operations
+
 - Application LifeCycle Management
 - Systems Administration
 - Budget & Vendor Management
@@ -27,10 +28,11 @@ Service Operations
 - Change & Release Management
 
 IT Compliance (SOX, GRC)
+
 - ITGC
 - External & Internal Audit Support
 - User Access REview
-- Separation of Duty 
+- Separation of Duty
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> How We Operate
 
