@@ -14,10 +14,7 @@ To provide frictionless, world class, Application Support Experience for the Git
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Roadmap
 
-
-
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
-
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
@@ -43,4 +40,3 @@ IT Compliance (SOX, GRC)
 - Change Management (Coming Soon)
 - Release Management (Coming Soon)
 - New Application SOX Compliance Review
-

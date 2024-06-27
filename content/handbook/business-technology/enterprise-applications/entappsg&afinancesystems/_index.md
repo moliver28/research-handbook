@@ -34,7 +34,6 @@ TBD
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
 
-
 ### System Evaluations & Implementations
 
 - In collaboration with the PMO team, we directly implement or configure new applications or significant additions to existing applications. By collecting and vetting user requirements and stories, we determine if an application can support the business process to drive further automation and hours saved.
@@ -63,6 +62,3 @@ Planning and Milestones
 
 - Our team works on a 2 week milestone spanning Wednesday - Tuesday. Click here (link){:target="_https://gitlab.com/groups/gitlab-com/-/milestones?search_title=entapps&state=&sort="} to see a list of our open milestones.
 - At the end of each milestone, any issues that were not started, or are still in progress will get moved to the new milestone. Additionally, new issues in the backlog (link){:target="_https://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BT%3A%3ABacklog&first_page_size=100"} will be evaluated to determine the resources required and feasibility of starting it in the new milestone. Please note that any KTLO requests and financially impacting requests will take precedence over any requests that are not critical.
-
-. 
-
