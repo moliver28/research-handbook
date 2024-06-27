@@ -51,8 +51,8 @@ Each automation added to this page should contain the below details at minimum:
 
 - These automations generate issues on a weekly basis to track weekly action items, highlights and other recurring work activities.
 - Project Links
-    - [Risk Team](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/security-risk-recurring-issues)
-    - [Commercial Compliance](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/security-risk-recurring-issues)
+  - [Risk Team](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/security-risk-recurring-issues)
+  - [Commercial Compliance](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/security-risk-recurring-issues)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
 
 ### What can I trigger ad-hoc?
