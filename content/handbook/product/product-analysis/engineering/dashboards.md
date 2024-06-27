@@ -1,7 +1,7 @@
 ---
 title: "Engineering Metrics Dashboards"
 aliases:
-- /handbook/engineering/metrics/dashboards/index
+- /handbook/engineering/metrics/dashboards/_index
 ---
 
 ### Welcome

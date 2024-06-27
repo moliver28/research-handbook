@@ -1,7 +1,7 @@
 ---
 title: "Engineering Dashboarding and Metrics"
 aliases:
-- /handbook/engineering/metrics/index
+- /handbook/engineering/metrics/_index
 ---
 
 ## Engineering Analytics Dashboard Inventory
