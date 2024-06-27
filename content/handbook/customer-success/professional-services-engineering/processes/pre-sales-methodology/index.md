@@ -4,11 +4,6 @@ title: "Go To Market (Pre-Sales)"
 description: “Discover how GitLab Scopes Professional Services for customers who have requirements that fall outside the scope of the packaged services.”
 ---
 
-
-
-
-
-
 ## Overview
 
 The purpose of this page is to document the sales-assisted selling motion used by Professional Services Engagement Managers and Regional Delivery Managers. If you're on a GitLab sales account team looking for information, try these pages on [positioning professional services](/handbook/customer-success/professional-services-engineering/positioning) or [selling professional services](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services).

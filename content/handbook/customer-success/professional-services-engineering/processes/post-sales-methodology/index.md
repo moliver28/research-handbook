@@ -4,12 +4,6 @@ title: "Post-Sales"
 description: "Describes the workflow governing delivery of GitLab professional service projects."
 ---
 
-
-
-
-
-
-
 ## Overview
 
 The purpose of this page is to describe the workflow governing delivery of professional service projects. We will start by outlining the general workflow that is common across all service delivery categories. Then we will describe the differences for engagements that do not fit the general workflow shown below.
