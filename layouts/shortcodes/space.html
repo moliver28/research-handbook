@@ -1,8 +1,8 @@
 <!-- As a draft, this is a copy of layouts/shortcodes/performance-indicators.md -->
-{{ $publicHandbookRef := "main" }}
+{{ $publicHandbookRef := "move-space.yml-under-data" }}
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}
-{{- $dataURL := printf "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/%s/content/handbook/engineering/infrastructure/engineering-productivity/space.yml" $publicHandbookRef }}
+{{- $dataURL := printf "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/%s/data/engineering-productivity/space.yml" $publicHandbookRef }}
 {{- with resources.GetRemote $dataURL }}
   {{- with .Err}}
     <h2>Unable to fetch data</h2>
