@@ -11,11 +11,7 @@ CRM Systems exists to support the GitLab field organization by providing reliabl
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-
-
-
 ## Salesforce.com Change Management Processes and SDLC (Software Development Life Cycle)
-
 Changes to Salesforce.com come in a variety of formats but all of them will feature the following change managment controls:
 
 1. All changes will start with an GitLab Issue defining the ask or problem, and capturing additional decisions and business requirements.
@@ -187,7 +183,6 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 ## <i class="fas fa-users" id="biz-tech-icons"></i> How we Operate
 
 ## Technical Documentation
-
 - [Go-To-Market Technical Documentation](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/)
 - [Go-To-Market Integrated Environments](/handbook/sales/field-operations/sales-systems/gtm-integrated-environments/)
 - [License Usage App Documentation](/handbook/sales/field-operations/sales-systems/license-usage-app/)
@@ -472,4 +467,3 @@ This tool will enable our admins to track complex changes to their developer org
 Once we do so, we can expand our pipeline to include these objects in our pipeline in STAGING.  This will allow us to validate administrative changes such as field renames, picklist value changes, validation rules, workflow, or flows, and deploy them quickly to STAGING.  As this removes the manual step for admins to build change sets from their environments into STAGING, it will save them time to focus on other things.
 
 After this, our next goal will be to see if we want to start automating deployments to STAGING once an MR is merged.  This will only save us a click, but is an important step for us as a team to become comfortable with using the process of automated deployments into our STAGING environment.
-
