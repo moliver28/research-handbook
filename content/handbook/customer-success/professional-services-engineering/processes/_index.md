@@ -112,7 +112,7 @@ MVP Pilot Phases of an engagement consist of:
 
 Integrating business and IT needs is accomplished through a disciplined decomposition of higher level Vision and Goals into Epics and User Stories, which in turn drive the technical implementation of the customer engagement.Depending on the size and complexity of the engagement, one or several Program Managers are closely coordinating with executive level stakeholders and business sponsors in order to ensure that key business goals are achieved.Lower level technical coordination and tasking is done by one or several projects managers, working with the GitLab TA/PSE Team and the customer sourced Dev Team.
 
-![IntegrateBizAndIT.jpg](./IntegrateBizAndIT.jpg) 
+![IntegrateBizAndIT.jpg](./professional-services-delivery-methodology/IntegrateBizAndIT.jpg) 
 
 ##### 3. Adopt GitLab's Consistent Tools
 
@@ -121,13 +121,13 @@ Helping customers adopt the GitLab platform across the entire software developme
 1. Achieving significant license savings by replacing a complex DIY tool chain
 2. Enabling productivity improvements due to an enhanced developer experience, streamlined collaboration, and reduced context switching
 
-![GitLabPlatformOptimizesValueStream.jpg](./GitLabPlatformOptimizesValueStream.jpg)
+![GitLabPlatformOptimizesValueStream.jpg](./professional-services-delivery-methodology/GitLabPlatformOptimizesValueStream.jpg)
 
 ##### 4. Optimize Internal Controls
 
 By optimizing and automating internal controls (sign-offs / approvals), cycle times are significantly reduced and Time to Market windows are shortened. Collaboration is streamlined, context switching is eliminated, and velocity is increased. Overall productivity increases.
 
- ![ValueStreamOptimization.jpg](./ValueStreamOptimization.jpg)
+ ![ValueStreamOptimization.jpg](./professional-services-delivery-methodology/ValueStreamOptimization.jpg)
  
 ##### 5. Establish Thought Leadership through Continuous Value Delivery and Cost Savings
 
