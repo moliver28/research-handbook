@@ -4,7 +4,7 @@ title: "Security Assurance - Automations Library"
 
 ## Has this been automated for the team yet?
 
-This page is intended to provide a jumping off point for what components of Security Assurance have been automated and are available for use by team members. It includes ad-hoc automations that should be triggered by team members whenever desired as well as ongoing scheduled automations in place.
+This page is intended to provide a jumping off point for what components of Security Assurance have been automated and are available for use by team members. It includes ad-hoc automations that should be run by team members whenever desired as well as ongoing scheduled automations in place.
 
 If you have more ideas about what could be automated, please open an issue in the [Security Assurance Automation project](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/security-assurance-automation).
 
@@ -116,6 +116,10 @@ Each automation added to this page should contain the below details at minimum:
 - This automation allows users to generate a testing workbook for a project in a given time period with details on whether MRs that were merged contained SOD violations such as a user making changes to an MR after approvals were captured without requesting a new review.
 - [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-testing-and-populations)
 - Contact: [Byron Boots - Senior Security Assurance Engineer](https://gitlab.com/byronboots)
+
+## Related Resources
+
+- [Security Assurance Automation Team Page](/handbook/security/security-assurance/governance/security-assurance-automation/)
 
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> I have questions
 
