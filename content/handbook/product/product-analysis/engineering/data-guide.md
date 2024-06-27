@@ -1,17 +1,19 @@
 ---
 title: "Guide to Engineering Analytics Data"
+aliases:
+- /handbook/engineering/data-guide/
 ---
 
 ## Introduction
 
-Engineering Analytics is responsible for building and evolving analytics capabilities and creating insights for Engineering to understand how well we are building our product. In this case, "wellness" is measured in terms of efficiency, as well as cost. Our main role as engineering analysts is to support department heads or DRI in creating or updating their metrics so that they can use them in the key meetings.
+This handbook page details the data sources used to create insights for Engineering to understand how well we are building our product. In this case, “wellness” is measured in terms of efficiency, as well as cost. Our main role as analysts is to support department heads or DRI in creating or updating their metrics so that they can use them in the key meetings.
 
 ## Data Sources
 
 Dive into our analytics by exploring the specific data sources that underpin our metrics.
 
 - [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) data is used for reporting on metrics like MR Rate & Performance KPIs
-- [Workday](Workday) is GitLab's current central HRIS and we use this data to determine which group a team member is a part of.
+- [Workday](Workday) is GitLab’s current central HRIS and we use this data to determine which group a team member is a part of.
 - [Zendesk](/handbook/support/readiness/operations/docs/zendesk/) data is used to fuel Customer Support metrics.
 
 ## Data Models
@@ -121,5 +123,3 @@ In this section, we share commonly used data models that fuel many of our dashbo
 - [Performance Indicator page shortcodes](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main/layouts/partials/performance-indicators)
 - [Performance Indictoar page generator](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/layouts/shortcodes/performance-indicators.md?ref_type=heads&plain=1)
 - [Performance Indicator Pages](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators?ref_type=heads )
-
-If you have any questions, please feel free to drop them in `#g_engineering_analytics` or open a [new issue](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/issues/new) for our team.
