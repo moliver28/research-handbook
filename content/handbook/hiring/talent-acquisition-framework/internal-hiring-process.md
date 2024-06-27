@@ -15,7 +15,7 @@ description: "This page discusses the Internal Hiring Process"
     - Job Family specialty changes
     - Business Impact  (revenue-dependencies, interim role to perm)
     - Business driven transfers (example of realignments)
-    - SDR 12 months in role
+    - SDR & BDR 12 months in role
 - Important things to consider when applying:
    1. Ensure the opportunity aligns with your career goals here at GitLab
    1. Ensure you have taken a look at the compensation calculator and assessed if the compensation range for the new role is suitable for you. We encourage you to bring any questions around compensation and leveling to the recruiter and/or hiring manager for the open role you are interested in and applying for.
