@@ -1,14 +1,8 @@
----
+<!-- ---
 
 title: "Post-Sales"
 description: "Describes the workflow governing delivery of GitLab professional service projects."
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -180,4 +174,4 @@ At the end of a project the Project leader should document the customer value dr
 
 ### Handoff (Support)
 
-At the end of a small/medium sized projects or after the initial implementation phase of a large engagement, open a [support ops issue](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) and add a link to the collaboration project architecture diagram that was deployed. The Support team will load it into a field in Zendesk to help them have context for customer support requests.
+At the end of a small/medium sized projects or after the initial implementation phase of a large engagement, open a [support ops issue](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) and add a link to the collaboration project architecture diagram that was deployed. The Support team will load it into a field in Zendesk to help them have context for customer support requests. -->
