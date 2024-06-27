@@ -1,5 +1,7 @@
 ---
 title: "Engineering Metrics Dashboards"
+aliases:
+- /handbook/engineering/metrics/dashboards/
 ---
 
 ### Welcome
