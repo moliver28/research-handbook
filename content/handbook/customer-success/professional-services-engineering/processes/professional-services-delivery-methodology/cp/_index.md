@@ -1,19 +1,19 @@
 ---
-title: "CPR"
-description: "Learn about the CPR process."
+title: "How to Use CP Automation to Manage Engagements"
+description: "Learn about the CP process."
 ---
 
-DRAFT!
+[Example Project build with CP Automation](https://gitlab.com/gitlab-org/professional-services-automation/test-psg/test-delivery/zayo-1/SOW-2690) - guiding light, new automation template
 
-[Link](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) to CPR projects.
+[Current Projects built with CP automation](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) - mostly includes older automation template\*
 
 ## What is CPR?
 
-Customer Project Reformation (CPR) was an effort initially designed back in 2022 by Adriano Fonseca as an OKR to improve our delivery processes. The original design can be found [here](https://gitlab.com/gitlab-com/customer-success/okrs/-/issues/258). This design has changed a bit as we have worked to revive the effort.
+Customer Project (CP) automation was an effort initially designed back in 2022 by Adriano Fonseca as an OKR to improve our delivery processes. The original design can be found [here](https://gitlab.com/gitlab-com/customer-success/okrs/-/issues/258). This design has changed a bit as we have worked to revive the effort.
 
 CPR is the framework for how we would like to manage delivering engagements in a standardized, repeatable manner all within GitLab. Each customer will have their own group in GitLab and that group will contain a project for each SOW we deliver for that customer. These groups and projects will house all the information around the project delivery to easily track the progress and health of a project as well as provide a paper trail for all the work we have done during the project.
 
-## How does an SOW flow into CPR?
+## How does an SOW flow into CP?
 
 A PSQuote quote contains one to many quote lines. Those quote lines map 1:1 to epics within a customer group on gitlab.com and each epic is then treated as a workstream. That customer group will contain one to many projects depending on how many SOWs we deliver for that customer. For each epic, the PM will create various issues tracking specific work towards the completion of each workstream.
 
@@ -30,3 +30,8 @@ A PSQuote quote contains one to many quote lines. Those quote lines map 1:1 to e
 ## How will all this get created?
 
 We have a project called [CPR_GitOps](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/cpr_gitops) that handles the process of automatically creating the foundation of groups, projects, epics, etc. per customer project. This automation is triggered by our Quilt API through PSQuote. We are currently using a merge request as the staging area to provide all the necessary details CPR_GitOps needs to properly scaffold out a project to deliver.
+
+## What does the PM need to configure once the Project is ready?
+
+- issue board
+- readme

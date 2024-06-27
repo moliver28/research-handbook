@@ -20,11 +20,12 @@ What is known of the projects scope, is written down and documented in the form 
 The Product Backlog is the source for the Sprint Backlog. Whereas the Product Backlog represents the requirements repository for the project / engagement, the Sprint Backlog is the agreed upon scope for the next upcoming sprint and as such represents the GitLab Implementation and Customer Development Team’s deliverable commitment. The GitLab Implementation Team does not operate in a vacuum, it close coordinates priorities with the Customer Development Team.
 
 ![IterationCycle.jpg](../definition-of-done/IterationCycle.jpg)
+
 Once agreed upon and committed to, the Sprint Backlog usually does not change in order to ensure the GitLab Implementation Team and the Customer Development Team can deliver against their commitment.
 
 The Implementation Team and Development Team works through the Sprint Backlog top to bottom (most important to least important) and if it runs out of work would usually look at the Product Backlogs’ top items in order to pull additional work into the current sprint.
 
-If items are not finished during the current sprint, then they are a) considered for implementation in the next sprint, or b) revert back to the Product Backlog to be reconsidered for the next sprint in the upcoming Sprint Planning Meeting.
+If items are not finished during the current sprint, then they are **a)** considered for implementation in the next sprint, or **b)** revert back to the Product Backlog to be reconsidered for the next sprint in the upcoming Sprint Planning Meeting.
 
 Newly discovered requirements are added to the Product Backlog in the form of user stories, to be considered for future sprints.
 

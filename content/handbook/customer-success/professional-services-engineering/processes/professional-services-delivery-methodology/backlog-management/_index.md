@@ -17,7 +17,7 @@ The problem arises from a combination of issues such as:
 
 The following picture shows how these things are strongly related:
 
-![IntegrateBizAndIT.jpg](../../IntegrateBizAndIT.jpg){width="631" height="358"}
+![IntegrateBizAndIT.jpg](../IntegrateBizAndIT.jpg)refi
 
 ## Prerequisites
 
@@ -33,9 +33,9 @@ To reiterate some of the basic preconditions that have to be met in order to eff
 
 The Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, sprint goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the sprint scope is defined and committed to by the development team.
 
-![Backlog Change](../release-and-engagement-planning/Product-Backlog-Change.jpg){width="308" height="348"}
+![Backlog Change](./refine-backlog.png)
 
-Sizing and estimation of the product backlog usually occurs in sprint planning meetings or at regularly intervals during ongoing sprints. Depending on how fast the Program Manager / Project Manager adds user stories, more frequent, maybe even daily estimation sessions might be needed. The GitLab Implementation Team and the Customer Development Team and Program Manager / Project Manager must work together to estimate the backlog items, may that be in sprint planning meetings or during ongoing regular sessions.
+[Sizing and estimation](../good-estimation-techniques/_index.md) of the product backlog usually occurs in sprint planning meetings or at regularly intervals during ongoing sprints. Depending on how fast the Program Manager / Project Manager adds user stories, more frequent, maybe even daily estimation sessions might be needed. The GitLab Implementation Team and the Customer Development Team and Program Manager / Project Manager must work together to estimate the backlog items, may that be in sprint planning meetings or during ongoing regular sessions.
 
 The important point here is that product backlog items need to get estimated continuously in order to avoid the big bang estimation effort at one critical juncture of the effort. The frequency of the estimation effort is depending on your engagement development effort. This has the added benefit of exposing the entire team to the Program Manager / Project Managers’ thinking, keeping everybody in sync and with an improved understanding of requested product features and functionality.
 

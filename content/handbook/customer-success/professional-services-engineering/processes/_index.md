@@ -3,12 +3,112 @@ title: "Professional Services Delivery Methodology"
 description: "Learn the processes and methodology that GitLab Professional Services uses to help ensure Customer Success."
 ---
 
-### Professional Services Delivery Methodology (PSDM)
+## What is the Professional Services Delivery Methodology (PSDM)
 
-#### Introduction
+The Professional Services Delivery Methodology (PSDM) is the guiding light for Program and Project Delivery within Gitlab. The goal is to ensure the PS Delivery team operates within a predictable time slice against the Project scope while ensuring we’re focused on Customer Success. This is done through Gitlab.com as the SSOT, label guidelines for managing and reporting against progress, risk, iterations needed against our processes and enablement material, and fundamental Agile best practices.
 
-This guide will provide a high level understanding about the PS Delivery Methodology (PSDM) and the underlying reasoning why we have it and why we want to follow it.
+## Iteration 0
 
+[Iteration 0](./professional-services-delivery-methodology/iteration-0/_index.md) includes the initial discovery and planning between the Gitlab & Customer Project Team(s). This includes: 
+
+- EM>PS Delivery Transition
+- Stakeholder Planning
+- Customer Kickoff
+- Discovery sessions with the Customer
+
+To prepare and deliver Iteration 0, the PM will work with the Gitlab Project team to review the timeline against the agreed upon scope and dependencies. This ensures we are gathering the right information and understanding the potential risks. Allowing us to show up to Iteration 0 more aligned with our Customers and prepared to deliver against a more predictable schedule.
+
+Proper Iteration 0 preparedness allows us to address risk early and instills confidence with our Customers. 
+
+## Managing a Project in GitLab
+
+GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below.
+
+Please reference the following tips for [Gitlab best practices](./professional-services-delivery-methodology/gitlab-best-practices/_index.md) when navigating Gitlab.
+
+How to initially configure Gitlab as a Project Management tool can be found [here](./professional-services-delivery-methodology/cp/_index.md).
+
+## Project Management Mapping in GitLab
+
+| PM Term    | GitLab Definition |
+| -------- | ------- |
+| Group  | This is the landing page for Customer the project. The single source of truth of Project Governance.    |
+| Projects | If an engagement has more than one Workstream (or SOW), we will track against more than one Project.    |
+| Boards    | Typically organized by labels or scoped labels to keep the team on track together. Sometimes the Gitlab/Customer team works to track against multiple Boards over Projects.    |
+| Epics    | Generally from Workstreams or "Activities" from the SOW.    |
+| Issues    | These are the atomic units of work that roll into the Epic.    |
+| Iterations    | Time-boxed (generally) two-week events, that are reviewed during the Agile ceremonies.      |
+| Milestones    | How we can track against the Project Phase    |
+| Labels    | We use these in a variety of ways, but the most important ones are: </br> <ul><li>To manage progress during delivery using a left-to-right flow</li><li>To manage progress during delivery using a left-to-right flow</li><li>To manage prioritization</li><li>To organize specific sub-categories of work to keep the team organized.</li><li>To manage risk and mitigation</li><li>Weight (size or level of effort of the issue) -See [Good Estimation Techniques](./professional-services-delivery-methodology/good-estimation-techniques/_index.md) for assigning weight</li></ul>    |
+
+Reference [here](./professional-services-delivery-methodology/agile-to-gitlab-terminology/_index.md) for additional clarity around mapping Agile terminology to Gitlab. 
+
+## Label Guidelines
+
+Labels are the best way to generate reports around our Projects and sort according to the Project teams’ needs. The team is free to make labels as they see fit for Project reporting, but there are also current guidelines around label generation for internal use.
+
+Currently, our [CP (Customer Project) automation](./professional-services-delivery-methodology/cp/_index.md) includes the following labels:
+
+- SOW-# or PO# - helps the Gitlab team search for Projects within the Professional service Group
+- PM name - helps the gitlab team sort by PM name
+- PSD workflow (for issue board management)
+
+Labels used for *Internal retro & RAID tracking/reporting* can be found in “Reporting throughout the Iteration” below.
+
+## Iteration Scheduling
+
+The [iteration schedule and cadence](./professional-services-delivery-methodology/iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Communication Plan that lives within the Gitlab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff, but should be introduced & collaborated with the Customer as part of our Stakeholder Planning meeting.
+
+There are five components within an Iteration schedule:
+
+1. Iteration Planning
+2. Iteration Review
+3. Daily Standup
+4. Backlog Refinement
+5. Retrospective
+
+## Iteration Planning & Review
+
+The Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, and iteration goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the iteration scope is defined and committed to by the development team.
+
+Please reference [Backlog Management](./professional-services-delivery-methodology/backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips.
+
+## Reporting within the Iteration Schedule and Project
+
+### Who Updates What?
+
+While the PM is expected to prepare for the various ceremonies, report on status, and work within Issues, the Gitlab PSE (Professional Services Engineer) & TA (Technical Architect), along with the team members on the Customer side, are also expected to work within the planned issues (tasks) within the Project board. 
+
+Working asynchronously & remotely can be challenging. Ensuring the DRI within the issue is actively contributing to is crucial to the project’s velocity. It’s the best way the PM can protect the technical teams from distractions as well as make sure there is an effective status roll-up.
+
+### RAID & Internal/Customer Retrospective 
+
+The RAID, Internal Retrospective, and Customer Retrospective not only assist with the progression of a Project, but these records act as a mechanism to feed back into our Business Development, Customer Success tracking, and Team celebrations. [Please reference here](./professional-services-delivery-methodology/manage-risk/_index.md) for more guidelines on how to manage these reports once a Project begins. 
+
+The Customer Retrospective guidelines can be [found here](./professional-services-delivery-methodology/retrospectives/_index.md). 
+
+## Guidelines for PSDM
+
+Applying the suggested PSDM with a full Iteration schedule is needed only when the Project exceeds 5 Iterations or when the engagement plans to exceed two months. 
+
+Please review the [archetype definitions](./professional-services-delivery-methodology/archetype-definition/_index.md) around what a “large” Customer looks like. 
+
+Please use the below as a guide, when planning for Iteration 0.
+
+|    | Projects > 5 Iterations (~9 weeks, incl. iteration 0) | Projects < 5 Iterations |
+| -------- | ------- | ------- |
+| Managed in GitLab as SSOT | x | x |
+| Iteration 0 | x | x |
+| Internal Retrospective tracking | x | x |
+| RAID tracking | x | x |
+| Backlog Refinement | x | Only as needed |
+| Daily Standup | x (determined cadence with customer team) | Only if needed |
+| Communication Plan | x | x |
+| Iteration Planning | x | Only as needed |
+| Iteration Review (status report) | x | Weekly Status at the minimum |
+| In-project Retrospectives | x | Only if needed |
+
+<!-- 
 ##### What Kind of Engagements is PSDM Suited For?
 
 PSDM is intended to be used on the large, complex, customers ([see archetype definition](./professional-services-delivery-methodology/archetype-definition/_index.md)) that are falling into one of two use case scenarios:
@@ -137,7 +237,7 @@ By optimizing and automating internal controls (sign-offs / approvals), cycle ti
 * Teams are empowered to make decisions and are responsible for end-to-end outcomes
 * Our engagements enable customers to conduct production deployments automatically without lengthy approval processes
 * Cycle times are greatly reduced and value streams are more optimized
-* Cost savings are achieved due to a simplified tool chain using the GitLab platform
+* Cost savings are achieved due to a simplified tool chain using the GitLab platform -->
 
 <!-- ## PS Process & Methodology Mapped to the Customer Journey
 

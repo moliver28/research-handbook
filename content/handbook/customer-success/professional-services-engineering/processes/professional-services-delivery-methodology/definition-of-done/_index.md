@@ -1,6 +1,6 @@
 ---
 title: "Definition of Done"
-description: "Learn about the definition of done."
+description: "Learn about the PS definition of done."
 ---
 
 The Definition of Done and the Definition of Ready are closely related. Or the other way around; it is a chicken and egg thing.
@@ -13,16 +13,19 @@ The Product Backlog is essentially the project’s To-Do list, or requirements r
 
 All items that are deemed in scope for the project, regardless of level of detail, are in the Product Backlog, and they are ordered, not just prioritized – meaning the one on top is more important than the one in 5th position, which is more important than the one in 23rd position. Order is decided by the Program Manager / Product Manager and usually driven by business value – in consultation with the Customer Development Team.
 
-![Example Backlog](./Backlog.png)What is known of the projects scope, is written down and documented in the form of user stories, with the expectation that discovery will lead to change. The Product Backlog is a living repository and is owned by the Program Manager / Project Manager.
+![Example Backlog](./Backlog.png)
+
+What is known of the projects scope, is written down and documented in the form of user stories, with the expectation that discovery will lead to change. The Product Backlog is a living repository and is owned by the Program Manager / Project Manager.
 
 The Product Backlog is the source for the Sprint Backlog. Whereas the Product Backlog represents the requirements repository for the project / engagement, the Sprint Backlog is the agreed upon scope for the next upcoming sprint and as such represents the GitLab Implementation and Customer Development Team’s deliverable commitment. The GitLab Implementation Team does not operate in a vacuum, it close coordinates priorities with the Customer Development Team.
 
 ![Iteration Cycle](./IterationCycle.jpg)
+
 Once agreed upon and committed to, the Sprint Backlog usually does not change in order to ensure the GitLab Implementation Team and the Customer Development Team can deliver against their commitment.
 
 The Implementation Team and Development Team works through the Sprint Backlog top to bottom (most important to least important) and if it runs out of work would usually look at the Product Backlogs’ top items in order to pull additional work into the current sprint.
 
-If items are not finished during the current sprint, then they are a) considered for implementation in the next sprint, or b) revert back to the Product Backlog to be reconsidered for the next sprint in the upcoming Sprint Planning Meeting.
+If items are not finished during the current sprint, then they are **a)** considered for implementation in the next sprint, or **b)** reverted back to the Product Backlog to be reconsidered for the next sprint in the upcoming Sprint Planning Meeting.
 
 Newly discovered requirements are added to the Product Backlog in the form of user stories, to be considered for future sprints.
 
