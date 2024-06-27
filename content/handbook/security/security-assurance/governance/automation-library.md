@@ -32,10 +32,18 @@ Each automation added to this page should contain the below details at minimum:
 #### Hyperproof Task Sync
 
 - This is a two way sync between Hyperproof Tasks and GitLab Issues that scans for changes every 5 minutes and syncs to keep both data sources up to date.
-- Primary GitLab Project Link
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/hyperproof-sync)
 - Contact: 
-  - [[Donovan Felton - Security Assurance Engineer](https://gitlab.com/dfelton)]
-  - [James Sandlin, Staff Security Assurance Engineer](https://gitlab.com/jsandlin)
+  - [Donovan Felton - Security Assurance Engineer](https://gitlab.com/dfelton)
+  - [James Sandlin - Staff Security Assurance Engineer](https://gitlab.com/jsandlin)
+
+#### Escalator Engine
+
+- This automation takes a defined ruleset for a specific project and leaves a comment to "escalate" issues that meet the defined criteria such as open issues without specific labels, open issues past due etc.
+- [Primary GitLab Project Link](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/escalator)
+- Contact:
+  - [Donovan Felton - Security Assurance Engineer](https://gitlab.com/dfelton)
+  - [James Sandlin - Staff Security Assurance Engineer](https://gitlab.com/jsandlin)
 
 #### Automated Testing of CM-5 (Testing for Project Settings to enforce SOD)
 
