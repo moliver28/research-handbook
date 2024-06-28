@@ -1,10 +1,12 @@
 ---
 title: "Guide to Engineering Analytics Data"
+aliases:
+- /handbook/engineering/data-guide/
 ---
 
 ## Introduction
 
-Engineering Analytics is responsible for building and evolving analytics capabilities and creating insights for Engineering to understand how well we are building our product. In this case, "wellness" is measured in terms of efficiency, as well as cost. Our main role as engineering analysts is to support department heads or DRI in creating or updating their metrics so that they can use them in the key meetings.
+Product Data Insights is responsible for building and evolving analytics capabilities and creating insights for Engineering to understand how well we are building our product. In this case, "wellness" is measured in terms of efficiency, as well as cost.
 
 ## Data Sources
 
