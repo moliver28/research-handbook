@@ -27,7 +27,7 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 
 ## Deal Management
 
-- `Stage` [link](/handbook/sales/field-operations/gtm-resources/#opportunity-stages)- indicates where in the Renewal/Sales cycle the deal is
+- `Stage` - indicates where in the Renewal/Sales cycle the deal is
 - `Next Steps` - field to record critical information and actions that have occurred during the deal lifecycle and what and when the next step is to progress the deal forward
 - `Next Steps History` - the record of previous Next Steps
 
