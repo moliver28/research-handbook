@@ -104,7 +104,6 @@
 /content/handbook/engineering/ @sabrinafarmer
 /content/handbook/engineering/cross-functional-prioritization.md @sabrinafarmer @david
 /content/handbook/engineering/developer-onboarding.md @sabrinafarmer @timzallmann @bmarnane
-/content/handbook/engineering/metrics/ @meks @lmai1 @rymai
 /content/handbook/engineering/open-source/ @rymai @meks @nick_vh
 /content/handbook/engineering/on-call.md @jfuentes2 @meks @jscarborough
 /content/handbook/engineering/performance.md @timzallmann
@@ -440,6 +439,7 @@
 /content/job-families/product/ux-research-manager.md @asmolinski2 @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/ux-research-operations-coordinator.md @asmolinski2 @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/ux-researcher.md @asmolinski2 @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/handbook/product/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
 
 ^[product-dev-flow]
 /content/handbook/product-development-flow/ @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
