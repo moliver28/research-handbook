@@ -89,6 +89,13 @@ Printed benefits cards are being phased out and it is recommended to print a PDF
 
 This card provides your group plan number and member identification number. Keep this information with you at all times and use it when requested by a health or dental provider or in case of medical emergency when traveling.
 
+### Offboarding GitLab 
+
+Your benefits will cease on the day of your termination. There may be options to convert elements of your benefit plan to individual coverage, without medical questions. You can contact our brokers, SC Insurance for more information about your options. You can find contact information below. Options are limited to a period of time after your coverage terminates, typically 30 or 60 days.
+
+Canada Benefits Contacts:
+SC Insurance: info@scinsurance.ca or call 416.259.1166
+
 ## Frequently asked questions
 
 - Can the pharmacist submit my prescription claim electronically without a drug card?
