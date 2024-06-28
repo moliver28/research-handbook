@@ -76,12 +76,12 @@ Simply copy and paste this code into your page. It will save your selected filte
 
 ### S1 Open Customer Bug Age Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenCustomerBugAge" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenCustomerBugAgeKPI" >}}
 {{< /tableau >}}
 
 ### S2 Open Customer Bug Age Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S2OpenCustomerBugAge" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S2OpenCustomerBugAgeKPI" >}}
 {{< /tableau >}}
 
 ### Security Dashboard
