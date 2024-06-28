@@ -394,6 +394,7 @@ after the 18th that issue will be used to discuss what was brought up.
 
 ### Useful links
 
+- [Debugging Gitaly](debug.md)
 - [Actual pending Infradev issues](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfrastructureEmbeddedDashboard?:iid=1) (sort by group, focus on gitaly)
 - [Out of SLO Infradev issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2219735/views)
 - [Error budget](https://dashboards.gitlab.net/d/stage-groups-detail-gitaly/stage-groups-gitaly-group-error-budget-detail?orgId=1&from=now-28d%2Fm&to=now)
