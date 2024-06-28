@@ -141,6 +141,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
    d. Ensure hard bookings are in place for all projects post kick-off
 
 ### Deliver, Train, and Monitor
+
 Please reference our [PSDM (Professional Service Delivery Methodology)](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/processes/) for more details around planning and governing Projects & Programs
 ### Iterate and Validate
 
