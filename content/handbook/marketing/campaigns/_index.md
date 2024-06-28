@@ -1,15 +1,8 @@
 ---
-
 title: "Integrated Campaigns"
 description: "GitLab Marketing Handbook: Integrated Campaigns"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
-
-
-
-
-
-
 
 ## Integrated Campaigns Overview
 

@@ -1,13 +1,6 @@
 ---
-
 title: "Enterprise Data Warehouse"
 ---
-
-
-
-
-
-
 
 ## Enterprise Data Warehouse Overview
 

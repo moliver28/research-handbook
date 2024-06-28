@@ -64,13 +64,13 @@ Please keep in mind that code review is a process that can take multiple iterati
 * The first reviewer of your code is you. Before you perform that first push of your shiny new branch, read through the entire diff. Does it make sense? Did you include something unrelated to the overall purpose of the changes? Did you forget to remove any debugging code?
 * Write a detailed description as outlined in the [merge request guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-guidelines-for-contributors). Some reviewers may not be familiar with the product feature or area of the codebase. Thorough descriptions help all reviewers understand your request and test effectively.
 * If you know your change depends on another being merged first, note it in the description and set a [merge request dependency](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html).
-* Be grateful for the reviewer’s suggestions. (“Good call. I’ll make that change.”)
-* Don’t take it personally. The review is of the code, not of you.
-* Explain why the code exists. (“It’s like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?”)
+* Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
+* Don't take it personally. The review is of the code, not of you.
+* Explain why the code exists. ("It's like that because of these reasons. Would it be more clear if I rename this class/file/method/variable?")
 * Extract unrelated changes and refactorings into future merge requests/issues.
-* Seek to understand the reviewer’s perspective.
+* Seek to understand the reviewer's perspective.
 * Try to respond to every comment.
-* The merge request author resolves only the threads they have fully addressed. If there’s an open reply, an open thread, a suggestion, a question, or anything else, the thread should be left to be resolved by the reviewer.
+* The merge request author resolves only the threads they have fully addressed. If there's an open reply, an open thread, a suggestion, a question, or anything else, the thread should be left to be resolved by the reviewer.
 * It should not be assumed that all feedback requires their recommended changes to be incorporated into the MR before it is merged. It is a judgment call by the MR author and the reviewer as to if this is required, or if a follow-up issue should be created to address the feedback in the future after the MR in question is merged.
 * Push commits based on earlier rounds of feedback as isolated commits to the branch. Do not squash until the branch is ready to merge. Reviewers should be able to read individual updates based on their earlier feedback.
 * Request a new review from the reviewer once you are ready for another round of review. If you do not have the ability to request a review, @ mention the reviewer instead.
@@ -78,10 +78,10 @@ Please keep in mind that code review is a process that can take multiple iterati
 ### Requesting a review
 
 * When you are ready to have your merge request reviewed, you should [request an initial review](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/index.html) by selecting a reviewer based on the [approval guidelines](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines).
-* When a merge request has multiple areas for review, it is recommended you specify which area a reviewer should be reviewing, and at which stage (first or second). This will help team members who qualify as a reviewer for multiple areas to know which area they’re being requested to review. For example, when a merge request has both backend and frontend concerns, you can mention the reviewer in this manner: @John_doe can you please review \~backend? or @Jane_Doe - could you please give this MR a \~frontend maintainer review?
-* You can also use workflow::ready for review label. That means that your merge request is ready to be reviewed and any reviewer can pick it. It is recommended to use that label only if there isn’t time pressure and make sure the merge request is assigned to a reviewer.
+* When a merge request has multiple areas for review, it is recommended you specify which area a reviewer should be reviewing, and at which stage (first or second). This will help team members who qualify as a reviewer for multiple areas to know which area they're being requested to review. For example, when a merge request has both backend and frontend concerns, you can mention the reviewer in this manner: @John_doe can you please review \~backend? or @Jane_Doe - could you please give this MR a \~frontend maintainer review?
+* You can also use workflow::ready for review label. That means that your merge request is ready to be reviewed and any reviewer can pick it. It is recommended to use that label only if there isn't time pressure and make sure the merge request is assigned to a reviewer.
 * When your merge request receives an approval from the first reviewer it can be passed to a maintainer. You should default to choosing a maintainer with [domain expertise](https://docs.gitlab.com/ee/development/code_review.html#domain-experts), and otherwise follow the Reviewer Roulette recommendation or use the label ready for merge.
-* Sometimes, a maintainer may not be available for review. They could be out of the office or [at capacity](https://about.gitlab.com/handbook/engineering/workflow/code-review/#review-response-slo). You can and should check the maintainer’s availability in their profile. If the maintainer recommended by the roulette is not available, choose someone else from that list.
+* Sometimes, a maintainer may not be available for review. They could be out of the office or [at capacity](https://about.gitlab.com/handbook/engineering/workflow/code-review/#review-response-slo). You can and should check the maintainer's availability in their profile. If the maintainer recommended by the roulette is not available, choose someone else from that list.
 * It is the responsibility of the author for the merge request to be reviewed. If it stays in the ready for review state too long it is recommended to request a review from a specific reviewer.
 
 ### Reviewing a merge request
@@ -89,18 +89,18 @@ Please keep in mind that code review is a process that can take multiple iterati
 Understand why the change is necessary (fixes a bug, improves the user experience, refactors the existing code). Then:
 
 * Try to be thorough in your reviews to reduce the number of iterations.
-* Communicate which ideas you feel strongly about and those you don’t.
+* Communicate which ideas you feel strongly about and those you don't.
 * Identify ways to simplify the code while still solving the problem.
-* Offer alternative implementations, but assume the author already considered them. (“What do you think about using a custom validator here?”)
-* Seek to understand the author’s perspective.
+* Offer alternative implementations, but assume the author already considered them. ("What do you think about using a custom validator here?")
+* Seek to understand the author's perspective.
 * Check out the branch, and test the changes locally. You can decide how much manual testing you want to perform. Your testing might result in opportunities to add automated tests.
-* If you don’t understand a piece of code, say so. There’s a good chance someone else would be confused by it as well.
+* If you don't understand a piece of code, say so. There's a good chance someone else would be confused by it as well.
 * Ensure the author is clear on what is required from them to address/resolve the suggestion.
   * Consider using the [Conventional Comment format](https://conventionalcomments.org/#format) to convey your intent.
   * For non-mandatory suggestions, decorate with (non-blocking) so the author knows they can optionally resolve within the merge request or follow-up at a later stage.
-  * There’s a [Chrome/Firefox add-on](https://gitlab.com/conventionalcomments/conventional-comments-button) which you can use to apply [Conventional Comment](https://conventionalcomments.org/) prefixes.
+  * There's a [Chrome/Firefox add-on](https://gitlab.com/conventionalcomments/conventional-comments-button) which you can use to apply [Conventional Comment](https://conventionalcomments.org/) prefixes.
 * Ensure there are no open dependencies. Check [linked issues](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) for blockers. Clarify with the authors if necessary. If blocked by one or more open MRs, set an [MR dependency](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html).
-* After a round of line notes, it can be helpful to post a summary note such as “Looks good to me”, or “Just a couple things to address.”
+* After a round of line notes, it can be helpful to post a summary note such as "Looks good to me", or "Just a couple things to address."
 * Let the author know if changes are required following your review.
 
 If the merge request is from a fork, also check the [additional guidelines for community contributions](https://docs.gitlab.com/ee/development/code_review.html#community-contributions).
@@ -119,7 +119,7 @@ At least one maintainer must approve an MR before it can be merged. MR authors a
 Scenarios in which the final approver might not merge an MR:
 
 * Approver forgets to set auto-merge after approving.
-* Approver doesn’t realize that they are the final approver.
+* Approver doesn't realize that they are the final approver.
 * Approver sets auto-merge but it is un-set by GitLab.
 
 If any of these scenarios occurs, an MR author may merge their own MR if it has all required approvals and they have merge rights to the repository. This is also in line with the GitLab [bias for action](../../../../../values/_index.md#operate-with-a-bias-for-action) value.
@@ -139,15 +139,15 @@ Some actions, such as rebasing locally or applying suggestions, are considered t
 
 #### **When ready to merge:**
 
-* Consider using the [Squash and merge](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html#squash-and-merge) feature when the merge request has a lot of commits. When merging code, a maintainer should only use the squash feature if the author has already set this option, or if the merge request clearly contains a messy commit history, it will be more efficient to squash commits instead of circling back with the author about that. Otherwise, if the MR only has a few commits, we’ll be respecting the author’s setting by not squashing them.
-* Go to the merge request’s Pipelines tab, and select Run pipeline. Then, on the Overview tab, enable Auto-merge. Note that:
+* Consider using the [Squash and merge](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html#squash-and-merge) feature when the merge request has a lot of commits. When merging code, a maintainer should only use the squash feature if the author has already set this option, or if the merge request clearly contains a messy commit history, it will be more efficient to squash commits instead of circling back with the author about that. Otherwise, if the MR only has a few commits, we'll be respecting the author's setting by not squashing them.
+* Go to the merge request's Pipelines tab, and select Run pipeline. Then, on the Overview tab, enable Auto-merge. Note that:
   * If [the default branch is broken](https://about.gitlab.com/handbook/engineering/workflow/#broken-master), do not merge the merge request except for [very specific cases](https://about.gitlab.com/handbook/engineering/workflow/#criteria-for-merging-during-broken-master). For other cases, follow these [handbook instructions](https://about.gitlab.com/handbook/engineering/workflow/#merging-during-broken-master).
   * If the latest pipeline was created before the merge request was approved, start a new pipeline to ensure that the full RSpec suite has been run. You may skip this step only if the merge request does not contain any backend change.
   * If the latest [merged results pipeline](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html) was created less than 6 hours ago, and finished less than 2 hours ago, you may merge without starting a new pipeline as the merge request is close enough to main.
 * When you set the MR to auto-merge, you should take over subsequent revisions for anything that would be spotted after that.
-* For merge requests that have had [Squash and merge](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html#squash-and-merge) set, the squashed commit’s default commit message is taken from the merge request title. You’re encouraged to [select a commit with a more informative commit message](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html) before merging.
+* For merge requests that have had [Squash and merge](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html#squash-and-merge) set, the squashed commit's default commit message is taken from the merge request title. You're encouraged to [select a commit with a more informative commit message](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html) before merging.
 
-Thanks to merged results pipelines, authors no longer have to rebase their branch as frequently anymore (only when there are conflicts) because the Merge Results Pipeline already incorporates the latest changes from main. This results in faster review/merge cycles because maintainers don’t have to ask for a final rebase: instead, they only have to start a MR pipeline and set auto-merge. This step brings us very close to the actual Merge Trains feature by testing the Merge Results against the latest main at the time of the pipeline creation.
+Thanks to merged results pipelines, authors no longer have to rebase their branch as frequently anymore (only when there are conflicts) because the Merge Results Pipeline already incorporates the latest changes from main. This results in faster review/merge cycles because maintainers don't have to ask for a final rebase: instead, they only have to start a MR pipeline and set auto-merge. This step brings us very close to the actual Merge Trains feature by testing the Merge Results against the latest main at the time of the pipeline creation.
 
 ## 5. Deployments are automatic based on branches or tags
 

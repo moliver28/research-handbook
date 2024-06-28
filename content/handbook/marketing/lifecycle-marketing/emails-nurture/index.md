@@ -1,16 +1,10 @@
 ---
-
 title: Emails & Nurture Programs
 description: An overview of emails and nurture programs at GitLab.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -127,7 +121,7 @@ To be updated and documented upon revamp of nurture engine and database nurturin
 <!-- DO NOT CHANGE THIS ANCHOR -->
 What happens to Marketo when a contact is a member of a program equal to True.
 Marketo within the engagement programs will try to send the number 1 email of the stream. If the contact does not comply with the requirements, Marketo will try to send the mail number 2 and so on until only 2 things happen: 1 – that the mail is sent or 2 – that no mail is sent from the stream and the contact becomes exhausted.
-In the image below there is an explicit way on how Marketo “plays” with the send controller of 2 different emails on the same day.
+In the image below there is an explicit way on how Marketo "plays" with the send controller of 2 different emails on the same day.
 ![Marketo-Journey](/uploads/668ae822065318dc3ebc6c8910a70a77/Screen_Shot_2022-04-28_at_8.56.57_AM.png)
 The ONLY way for a contact to advance from one stream to another is when it generates enough interaction and its scoring increases enough to move it from RAW to INQ from INQ to MQL or from MQL to SAO.
 
@@ -227,14 +221,14 @@ We recenlty moved what was formerly known as "In-product emails" from Mailgun to
 **Iterations:**
 We relaunched these emails in Iterable and turned off Mailgun. Send time is now based on when the user joins GitLab and implemented skipping weekend send dates. In August 2023, we launched a welcome email and simplified some of the content. We will be iterating more on this program going forward.
 
-**Who’s part of this project?**
+**Who's part of this project?**
 
 * Allie Klatzkin - email marketing DRI, Iterable analytics, & assist technical setup
 * Paige Cordero (Growth)
 * Sam Awezec (Growth)
 * Gayle Doud (Growth)
 
-**So what’s the deal?**
+**So what's the deal?**
 Basically, we have a series of emails that deploy to net new namespaces. The goal is to get free users to use features of the product. There are 4 tracks - adopt Create, adopt Verify, invite Team, try a Trial. Each track has emails that try to nudge users to take action. If a user takes the action referenced in the email, they will not get the next email in the series and will move to the next series.
 
 **From email and reply-to email**

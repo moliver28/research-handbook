@@ -33,7 +33,7 @@ The Corporate Events Manager (Intermediate) is a [grade 5](/handbook/total-rewar
 - Exemplary communicator and collaborator; able to work with a variety of teams and personalities, possessing excellent verbal and written communications skills.
 - Very detail-oriented.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 ### Corporate Events Manager (Intermediate)
@@ -67,7 +67,7 @@ The Corporate Events Manager (Intermediate) is a [grade 6](/handbook/total-rewar
 - Very detail-oriented.
 - Flexible work schedule and the availability to travel approximately 50% of the time.
 - Ability to use GitLab
-Ability to travel if needed and comply with the company’s travel policy.
+Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 - Additional Requirement for Europe candidates:
   - Must be in Europe and must be fully eligible to travel within the EU.
@@ -94,7 +94,7 @@ The Senior Corporate Events Manager is a [grade 7](/handbook/total-rewards/compe
 
 - Extends the Corporate Events Manager (Intermediate) Requirements
 - Relevant, progressive experience.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 #### Senior Corporate Events Manager Performance Indicators
@@ -114,7 +114,7 @@ The Senior Global Events Manager is a [grade 8](/handbook/total-rewards/compensa
 - Extends the Senior Corporate Event Manager Responsibilities
 - Exemplary analytical skills and proven aptitude to use data to optimize program performance and inform future strategies.
 - Plans and operatea in a transparent manner for cross-organizational visibility and be a leader in sharing best practices with other corporate event managers.
-Ability to travel if needed and comply with the company’s travel policy.
+Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 #### Senior Global Events Manager Responsibilities
@@ -172,7 +172,7 @@ The Event Content Manager reports to Manager, Corporate Events and Branding.
 - Substantial knowledge with live and virtual corporate events and conferences
 - Highly collaborative, fostering effective relationships across all parts of the business and must enjoy learning/sharing knowledge
 - This position will require doing occasional work on‐site and includes occasional weekend work
-- Ability to travel if needed and comply with the company’s travel policy
+- Ability to travel if needed and comply with the company's travel policy
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies
 - Anticipated travel 15 to 20%
 - 4+ years in events work and 2+ in software or tech related space
@@ -205,7 +205,7 @@ The Manager, Corporate Events is a [grade 8](/handbook/total-rewards/compensatio
 - Proven skills interacting with executive/senior management teams.
 - Exemplary project management and decision-making skills.
 - Very detail oriented.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 - Flexible work schedule and the ability to travel approximately 30% of the time.
 
@@ -233,7 +233,7 @@ The Senior Manager, Corporate Events is a [grade 9](/handbook/total-rewards/comp
 - Background working with leadership to collaborate on corporate event strategy, goals and execution.
 - Ability to think creatively to solve problems that arise.
 - Proven experience managing budgets for large corporate marketing events.
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 #### Manager and Senior Manager Performance Indicators
@@ -278,7 +278,7 @@ The Director, Corporate Events is a [grade 10](/handbook/total-rewards/compensat
 - Expert in budget and project management and superior organizational skills
 - Extensive experience collaborating and communicating with Sales, Product, Marketing; agencies and vendors
 
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 - If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 
 #### Director Performance Indicators

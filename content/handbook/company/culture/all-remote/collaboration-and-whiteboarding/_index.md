@@ -106,7 +106,7 @@ Tools and technology will enable a company to operate efficiently, but ensuring 
 
 Remote collaboration requires an alignment of [principles and values]({{< ref "values" >}}) as a baseline for stakeholders. Creating mental methods, or frameworks, for collaborators sets a clear roadmap for expectations, ethics, and goals.
 
-> “Without the principles and an understanding of which decision-making framework to use and when, people could apply the wrong tool to the job,” — *Mike Long, UX Manager, GitLab*
+> "Without the principles and an understanding of which decision-making framework to use and when, people could apply the wrong tool to the job," — *Mike Long, UX Manager, GitLab*
 
 ## Collaborative whiteboarding supports diversity, inclusion and belonging
 
@@ -122,7 +122,7 @@ The most important aspect of collaboration meetings is to [have an agenda]({{< r
 
 Most design discussions and decisions at GitLab are created and worked in [GitLab Issues]({{< ref "gitlab-for-remote" >}}). Recently, [Design Management](https://docs.gitlab.com/ee/user/project/issues/design_management.html) was released in order for designers to upload images and make comments in the same platform that Product Managers and Developers use.
 
-> “The most important thing to remember when designing remotely is: document, document, document,” — *Christie Lenneville, Director of UX, GitLab*
+> "The most important thing to remember when designing remotely is: document, document, document," — *Christie Lenneville, Director of UX, GitLab*
 
 ### Company handbook
 
@@ -132,7 +132,7 @@ At GitLab, we believe that "everyone can contribute." The company handbook is wh
 
 Since the inception of GitLab, [iteration](https://about.gitlab.com/blog/2020/02/04/power-of-iteration/) has been one of six core values and steers the creation of product development. Making many small changes has been a way to make improvements faster.
 
-> "To a UX researcher iteration means something different to me than other people. The value of iteration should encourage people to change directions when they find answers to their questions. Iteration should be a stop-gap measure to say ‘This is not the right solution. We will stop and reassess and rethink what is the right solution to this problem." — *Lorie Whitaker, Senior UX Researcher, GitLab*
+> "To a UX researcher iteration means something different to me than other people. The value of iteration should encourage people to change directions when they find answers to their questions. Iteration should be a stop-gap measure to say 'This is not the right solution. We will stop and reassess and rethink what is the right solution to this problem." — *Lorie Whitaker, Senior UX Researcher, GitLab*
 
 ### Zoom for all
 
@@ -142,7 +142,7 @@ Any meeting at GitLab happens over a [Zoom call](/handbook/communication/zoom). 
 
 Slack is generally accepted as an [informal method of communication]({{< ref "how-to-work-remote-first#expire-your-slack-or-teams-messages-after-90-days" >}}). Slack channels can be created easily for various groups or individuals. If there are questions or comments that require a quick response, Slack is the best way to get in touch with a co-worker. Slack is a fast way to collaborate on a topic without having to schedule a meeting in advance.
 
-> “Pinging someone on slack is like bumping into them in the hallway,” — *Alexis Ginsberg, Senior Product Designer at GitLab*
+> "Pinging someone on slack is like bumping into them in the hallway," — *Alexis Ginsberg, Senior Product Designer at GitLab*
 
 ## Synchronous collaboration
 
@@ -157,7 +157,7 @@ Schedule meetings with a co-worker. Meeting in pairs allows for some serious one
 
 At GitLab, the [Pair Design program](/handbook/product/ux/how-we-work/#pair-designing) was launched to connect a product designer with a design peer who is within the same time zone, but works on a different part of the product. Each pair meets for six months and then they are swapped out to give everyone exposure to different ideas, product areas, and collaborations.
 
-> "I have loved working with each of my ‘pairs’ in UX! Usually we meet once a week for 30 minutes to an hour and spend about half the time each talking about something that is top of mind for us.
+> "I have loved working with each of my 'pairs' in UX! Usually we meet once a week for 30 minutes to an hour and spend about half the time each talking about something that is top of mind for us.
 >
 > Sometimes it is just discussing some process or higher level stuff; most of the time we are sharing our screens in Zoom and walking through Sketch, Figma, Axure, someone's branch, etc. to talk through design challenges we are having.
 >
@@ -173,7 +173,7 @@ Every week the Plan designs and Plan PMs meet and discuss research in-flight or 
 
 ### Social hours
 
-Create a [social hour]({{< ref "informal-communication#team-social-calls" >}}) where everyone is welcome to join to chat or play games together. Try two social hours every other week with the purpose of capturing enough time zones so that teammates can be "in-person.” This isn't exactly "work" collaboration related, but creates a bond with teammates in order to feel more comfortable together and therefore more effective and excited to collaborate.
+Create a [social hour]({{< ref "informal-communication#team-social-calls" >}}) where everyone is welcome to join to chat or play games together. Try two social hours every other week with the purpose of capturing enough time zones so that teammates can be "in-person." This isn't exactly "work" collaboration related, but creates a bond with teammates in order to feel more comfortable together and therefore more effective and excited to collaborate.
 
 ## Asynchronous collaboration
 

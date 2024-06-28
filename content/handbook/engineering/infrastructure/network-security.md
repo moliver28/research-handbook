@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Purpose
 
-GitLab architects a defense-in-depth methodology that enforces the concept of “least functionality” through restricting network access to systems, applications and services and ensures sufficient security and privacy controls are executed to protect the confidentiality, integrity, availability and safety of the organization’s network infrastructure, as well as to provide situational awareness of activity on GitLab’s networks.
+GitLab architects a defense-in-depth methodology that enforces the concept of "least functionality" through restricting network access to systems, applications and services and ensures sufficient security and privacy controls are executed to protect the confidentiality, integrity, availability and safety of the organization's network infrastructure, as well as to provide situational awareness of activity on GitLab's networks.
 
 ## Scope
 

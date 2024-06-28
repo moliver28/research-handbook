@@ -1,13 +1,6 @@
 ---
-
 title: "Market Strategy and Insights"
 ---
-
-
-
-
-
-
 
 ## Market Strategy and Insights (MSI) at GitLab
 

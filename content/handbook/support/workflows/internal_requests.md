@@ -1,11 +1,8 @@
 ---
-
 title: Handling Internal Requests
 description: "Various templates and workflows that should be followed in order to properly handle GitLab.com related requests that Support receives in the internal requests issue tracker"
 category: GitLab.com
 ---
-
-
 
 **NOTE:** If you are a GitLab team member who wants to file an internal request, please see the [Support Internal Requests handbook page](/handbook/support/internal-support/).
 
@@ -150,7 +147,7 @@ If you're not completely sure about the specifics of the script or commands, tes
 
    ```graphql
    mutation {
-     verifiedNamespaceCreate(input: { namespaceId: "root-level-group", 
+     verifiedNamespaceCreate(input: { namespaceId: "root-level-group",
        verificationLevel: "gitlab_partner_maintained"
        }) {
        errors

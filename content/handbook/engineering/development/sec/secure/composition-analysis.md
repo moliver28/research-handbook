@@ -55,7 +55,7 @@ To share your time-off:
 
 1. In Slack, find the `Time Off by Deel` application under the `Apps` menu.
 1. Under `Home`, click on `Your Events` to show a dropdown.
-1. Click on ‘Calendar Sync’ under the Settings break.
+1. Click on 'Calendar Sync' under the Settings break.
 1. Click `Add calendar` under `Additional calendars to include?`. Use the calendar ID above.
 
 To visualize the calendar:

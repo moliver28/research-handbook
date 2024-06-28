@@ -1,13 +1,6 @@
 ---
-
 title: "Sales Process > Account Management"
 ---
-
-
-
-
-
-
 
 ## Touching base with standard subscribers
 
@@ -19,7 +12,7 @@ title: "Sales Process > Account Management"
 
 1. A signed quote (the quote that we send)
 
-1. An e-mail agreement (“we accept the quote/subscription/etc”) or any other written statement
+1. An e-mail agreement ("we accept the quote/subscription/etc") or any other written statement
 
 ## Development work management
 
@@ -81,11 +74,11 @@ Do NOT invoice before feature/work is completed.
 
 1. If an unforeseen GitLab bug needs to be fixed in order to address the consultancy request, the Support Engineer will inform the client that GitLab B.V. will make the fix, and that the additional hours spent will be invoiced to the client at normal consultancy rate
 
-1. If the work is finished or the client decides to stop the consultancy process, support logs the hours spent in the ‘Hourly’ sales sheet, column “Realized” and informs sales via email or Highrise
+1. If the work is finished or the client decides to stop the consultancy process, support logs the hours spent in the 'Hourly' sales sheet, column "Realized" and informs sales via email or Highrise
 
 1. Support notifies customer via Zendesk that Sales will be in touch with them
 
-1. Sales creates invoice corresponding to the number of hours in the “Realized” column
+1. Sales creates invoice corresponding to the number of hours in the "Realized" column
 
 ## Handover from sales to support for subscription clients
 

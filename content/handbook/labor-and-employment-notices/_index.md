@@ -561,7 +561,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Parental and Family Leave](https://labor.vermont.gov/sites/labor/files/doc_library/Parental%20and%20Family%20Leave%20Poster.pdf)
 - [Sexual Harassment Poster](https://drive.google.com/file/d/1cuwlVBW8CbAkt-HIf2XpEneHVHG7sWEk/view?usp=sharing)
 - [Workers Compensation Reinstatement Rights](https://labor.vermont.gov/sites/labor/files/doc_library/Notice%20to%20Employers%20Employers%20Liability%20and%20WC%20Poster%20%5BEnglish%5D.pdf)
-  - GitLab has complied with the provisions of Title 21 of the Vermont Statutes, Annotated §687, by obtaining Workers’ Compensation Insurance coverage through The Hartford.
+  - GitLab has complied with the provisions of Title 21 of the Vermont Statutes, Annotated §687, by obtaining Workers' Compensation Insurance coverage through The Hartford.
 - [Employment Protections for Victims of Crime](https://labor.vermont.gov/sites/labor/files/doc_library/Crime%20Victim%20Poster_2022.pdf)
 
 ### Virginia

@@ -211,28 +211,28 @@ We will not attempt to auto-renew if:
 
 - Self-Managed customer is not on Cloud Licensing
 - Customer is not on QSR
-- Customer is on QSR, but QSR failed and there’s overage
-- Customer’s credit card is expired
+- Customer is on QSR, but QSR failed and there's overage
+- Customer's credit card is expired
 
 Auto-renewal will fail if:
 
 - Credit card payment failed
 - EoA subscription has more than 25 users
-- Another system error that wasn’t accounted for previously
+- Another system error that wasn't accounted for previously
 
 Accounts and Subscriptions excluded from auto-renewal:
 
-1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn’t transact with GitLab directly).
+1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
 2. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
 3. Subscriptions with non-standard term (not in 12 month term increments).
 4. Multi-year subscriptions (with term greater than 12 months). This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/9591) is done.
 5. Accounts with the following settings in Zuora:
-   1. `Account.PO Required = Yes` (customer notifies GitLab they have a “no PO, no Pay policy”, booking requirement and pre-billing).
+   1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
    2. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
    3. `Account.Support Hold = Yes` (customers are placed on support hold when accounts become >90 days past due without payment commitment).
    4. `Account.Credit Hold = Yes` (customers are placed on credit hold when any balance is written off to bad debt)
 
-There’s an automated process (Zuora Workflow) that sets `Subscription.TurnOnAutoRenew__c` to `No` for the use cases listed above.
+There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnAutoRenew__c` to `No` for the use cases listed above.
 
 #### GitLab Docs for SaaS (public)
 
@@ -277,17 +277,17 @@ With QSR, paying for the seat overages is easy to understand, saves precious tim
 
 Accounts and Subscriptions excluded from QSR:
 
-1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn’t transact with GitLab directly).
+1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
 2. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
 3. Subscriptions with non-standard term (not in 12 month term increments).
 4. Multi-year subscriptions (with term greater than 12 months). This is a temporary measure until [this epic](https://gitlab.com/groups/gitlab-org/-/epics/9591) is done.
 5. Accounts with the following settings in Zuora:
-   1. `Account.PO Required = Yes` (customer notifies GitLab they have a “no PO, no Pay policy”, booking requirement and pre-billing).
+   1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
    2. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
    3. `Account.Support Hold = Yes` (customers are placed on support hold when accounts become >90 days past due without payment commitment).
    4. `Account.Credit Hold = Yes` (customers are placed on credit hold when any balance is written off to bad debt)
 
-There’s an automated process (Zuora Workflow) that sets `Subscription.TurnOnSeatReconciliation__c` to No for the use cases listed above.
+There's an automated process (Zuora Workflow) that sets `Subscription.TurnOnSeatReconciliation__c` to No for the use cases listed above.
 
 ##### QSR Process
 
@@ -314,10 +314,10 @@ This functionality lives in Customers Portal and runs daily at midnight UTC. Ple
 5. 7 days later, create an amendment in Zuora to add additional seats at Effective Price. The new seat count is effective at the end of the quarter and through the end of Subscription Term (no historical chargeback for overage).
    1. Amendment Name is set to `Automated seat reconciliation`.
 6. Generate an invoice and apply payment.
-   1. If payment fails, or no payment method is on file, reconciliation doesn’t happen. Email is sent (subject: “Your GitLab subscription failed to reconcile”). Copy this email to SFDC, and display under the Contact Activity.
+   1. If payment fails, or no payment method is on file, reconciliation doesn't happen. Email is sent (subject: "Your GitLab subscription failed to reconcile"). Copy this email to SFDC, and display under the Contact Activity.
    2. For Sales Assisted customers, an invoice is generated and sent for payment (from Zuora). Account specific payment terms apply.
 7. Send an email with the Receipt from Zuora (via a scheduled Zuora Workflow).
-8. Send an email that reconciliation has occurred, include provisioning instructions (subject: “Your GitLab subscription has been reconciled”). This email is copied to SFDC and displayed under Contact Activity.
+8. Send an email that reconciliation has occurred, include provisioning instructions (subject: "Your GitLab subscription has been reconciled"). This email is copied to SFDC and displayed under Contact Activity.
 9. Additional seats are provisioned.
    1. For SaaS customers, provision additional seats immediately.
    2. For Self-managed customers, provision additional seats in the next instance sync (24 hrs), or customer can trigger the update from within their instance.
@@ -345,7 +345,7 @@ As of 2023-05-22, SFDC Opportunities created for QSR have 2 new fields populated
 2. **Customer is enrolled in QSR, but no reconciliations have been performed.**.
    1. QSR could have been skipped for various reasons, including declined payment. Please follow the instructions in point `1` for looking up the QSR status.
 3. **Customer is enrolled in QSR, but reconciliation has been skipped with `reconciliations_disabled` reason code.**
-   1. Customer’s Self-Managed instance must be activated with Cloud License. This will enable seat usage collection, so that we can perform the reconciliation.
+   1. Customer's Self-Managed instance must be activated with Cloud License. This will enable seat usage collection, so that we can perform the reconciliation.
 4. **Customer is on EOA or another plan at a discounted per-seat price. Will their QSR amendment be based on the discounted/effective or list price?**
    1. QSR Amendment for additional seats will be based on the effective price.
 5. **Does QSR respect the EOA business rule of 25 maximum seats at a discounted price?**
@@ -354,7 +354,7 @@ As of 2023-05-22, SFDC Opportunities created for QSR have 2 new fields populated
 ##### Additional documentation
 
 - [Customer-facing documentation](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
-- [Finance team’s documentation about QSR refunds and escalations](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/WIP%20Quarterly%20Subscription%20Reconciliation%20Escalation#quarterly-subscription-reconciliation-process-post-billing)
+- [Finance team's documentation about QSR refunds and escalations](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/WIP%20Quarterly%20Subscription%20Reconciliation%20Escalation#quarterly-subscription-reconciliation-process-post-billing)
 - [Process illustrations](https://gitlab.com/groups/gitlab-org/-/epics/5560#illustration)
 
 #### Subscription Display
@@ -369,7 +369,7 @@ The target audience is the internal GitLab team, and covers the [admin panel](ht
 
 File an access request for [customers.gitlab.com/admin/](https://customers.gitlab.com/admin/sign_in) ([example access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/14359)) to get access.
 
-Once access is granted, either go to [customers.gitlab.com/admin/](https://customers.gitlab.com/admin/sign_in) and click “Sign in with Okta” or go to your Okta App and look for the Customers Portal App.
+Once access is granted, either go to [customers.gitlab.com/admin/](https://customers.gitlab.com/admin/sign_in) and click "Sign in with Okta" or go to your Okta App and look for the Customers Portal App.
 
 ### Searching
 
@@ -815,9 +815,9 @@ By nature of our [direction](https://about.gitlab.com/direction/fulfillment/), F
 1. Many cross-team dependencies: project execution relies on collaboration with other teams, with significant coordination of time and resources required.
 1. Downstream impacts: projects may change how other teams operate (e.g., Field Operations, Enterprise Apps, Billing) and may also impact the success of their efforts (e.g., achieving sales efficiency targets, accomplishing e-commerce conversion goals)
 
-To focus on the most impactful work, Fulfillment’s prioritization process seeks to:
+To focus on the most impactful work, Fulfillment's prioritization process seeks to:
 
-1. Prioritize the highest ROI initiatives as measured by long-term impact on GitLab, Inc’s value. (Note: “cost to build” is a key consideration in the I of the ROI calculation)
+1. Prioritize the highest ROI initiatives as measured by long-term impact on GitLab, Inc's value. (Note: "cost to build" is a key consideration in the I of the ROI calculation)
 1. Provide future visibility into priorities to adequately plan cross-team and cross-functional resource needs.
 1. Minimize waste and churn due to re-prioritization mid-execution.
 
@@ -840,7 +840,7 @@ A project will be prioritized in the Fulfillment roadmap based on the considerat
    1. Number of GitLab team members able to contribute towards e-commerce improvements
    1. Work that will help us scale (support more customers, improve operations, simplify business processes, etc.)
 1. Confidence level around the impact and solution
-   1. Low for initiatives that haven’t been properly scoped or researched. PM/UX/Eng and cross-functional partners will increase the confidence by scoping the initiative.
+   1. Low for initiatives that haven't been properly scoped or researched. PM/UX/Eng and cross-functional partners will increase the confidence by scoping the initiative.
 1. Ease of implementation
    1. Consider the time and resources required to complete the initiative.
    1. Consider a solution that is long-term sustainable, and corresponds to the revenue/cost impact estimated.
@@ -862,7 +862,7 @@ Prioritization based on the established criteria will drive the order in which w
 1. Impact of changes to existing customer and partner commitments
 1. Feedback from cross-functional partners
 
-To minimize impact and give more predictability to partner teams, we will minimize changes to initiatives that we’ve already agreed with cross-functional partners to do within the ongoing quarter.
+To minimize impact and give more predictability to partner teams, we will minimize changes to initiatives that we've already agreed with cross-functional partners to do within the ongoing quarter.
 
 Anyone can request new items to be added to the roadmap via an [intake request](/handbook/engineering/development/fulfillment/#intake-request).
 
@@ -872,7 +872,7 @@ One of our prioritization goals is to maximize overall team output across Fulfil
 
 To enable this, we will do a roadmap review with our [stable counterparts](/handbook/engineering/development/fulfillment/#stable-counterparts) before the beginning of a new fiscal quarter. As part of this review, we gather feedback on roadmap priorities, update the roadmap based on the feedback, and agree with partners on the scope and delivery milestones for the upcoming 3-6 months.
 
-During these quarterly reviews we will aim to commit up to 70% of Fulfillment’s engineering capacity for the upcoming quarter, and no more than 30% of capacity for the quarter after. This is meant to provide enough visibility into upcoming activities for cross-functional partners to plan for them while leaving room for reprioritization and changes as needed.
+During these quarterly reviews we will aim to commit up to 70% of Fulfillment's engineering capacity for the upcoming quarter, and no more than 30% of capacity for the quarter after. This is meant to provide enough visibility into upcoming activities for cross-functional partners to plan for them while leaving room for reprioritization and changes as needed.
 
 #### Communicating roadmap changes
 

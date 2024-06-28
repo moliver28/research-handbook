@@ -1,14 +1,7 @@
 ---
-
 title: "GitLab Usage Statistics"
 description: "This page outlines our usage statistics and SFDC instance information."
 ---
-
-
-
-
-
-
 
 ---
 

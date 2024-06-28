@@ -2,7 +2,7 @@
 title: "Partner Account Manager"
 ---
 
-A strong partner ecosystem is crucial in the success and growth of  GitLab’s business. Partners are a strategic imperative for GitLab’s continued growth and market expansion. As customer requirements become more complex we need partners with capability and capacity to help customers implement, support and grow their usage of GitLab.  We work closely with cross functional leadership to ensure partners are integrated throughout the sales cycle both pre and post sales. Partner Account Managers are critical in recruiting and building relationships with partners. Partner Account Managers also work with partners to establish and measure goals and performance including pipeline, revenue generation and growing their overall GitLab practice.
+A strong partner ecosystem is crucial in the success and growth of  GitLab's business. Partners are a strategic imperative for GitLab's continued growth and market expansion. As customer requirements become more complex we need partners with capability and capacity to help customers implement, support and grow their usage of GitLab.  We work closely with cross functional leadership to ensure partners are integrated throughout the sales cycle both pre and post sales. Partner Account Managers are critical in recruiting and building relationships with partners. Partner Account Managers also work with partners to establish and measure goals and performance including pipeline, revenue generation and growing their overall GitLab practice.
 
 ## Levels
 
@@ -29,7 +29,7 @@ The Associate Partner Account Manager is responsible for the following with sign
 
 **Partner Planning**
 
-- Evangelize GitLab’s value proposition to assigned partners.
+- Evangelize GitLab's value proposition to assigned partners.
 - In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
   - Practice Development
   - Co-selling
@@ -58,7 +58,7 @@ The Associate Partner Account Manager is responsible for the following with sign
 
 **Joint Activity**
 
-- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner’s GitLab-related practice, revenue (sourcing and co-selling), and solutions.
+- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner's GitLab-related practice, revenue (sourcing and co-selling), and solutions.
 - Coordinate GitLab teams (e.g., Partner Program, Partner Marketing, Field Sales, etc.) in support of joint partner plans.
 - Match partner services capabilities to opportunity-specific needs.
 - Facilitate account and opportunity mapping between GitLab field sales and assigned partners to accelerate and amplify GitLab revenue growth and adoption.
@@ -79,7 +79,7 @@ The Associate Partner Account Manager is responsible for the following with sign
   - GitLab practice capacity
   - GitLab-specific solutions
   - Customer success stories
-- Attain KPI’s to ensure that the goals are met.
+- Attain KPI's to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
 - Produce weekly forecasts for assigned partners.
@@ -114,7 +114,7 @@ The Associate Partner Account Manager is responsible for the following with sign
 - Willingness to deepen technical and domain knowledge
 - Results driven
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Associate Performance Indicators
 
@@ -136,7 +136,7 @@ The Partner Account Manager (Intermediate)  is responsible for the following wit
 
 ##### Partner Planning
 
-- Evangelize GitLab’s value proposition to assigned partners.
+- Evangelize GitLab's value proposition to assigned partners.
 - In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
   - Practice Development
   - Co-selling
@@ -165,7 +165,7 @@ The Partner Account Manager (Intermediate)  is responsible for the following wit
 
 **Joint Activity&&
 
-- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner’s GitLab-related practice, revenue (sourcing and co-selling), and solutions.
+- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner's GitLab-related practice, revenue (sourcing and co-selling), and solutions.
 - Coordinate GitLab teams (e.g., Partner Program, Partner Marketing, Field Sales, etc.) in support of joint partner plans.
 - Match partner services capabilities to opportunity-specific needs.
 - Facilitate account and opportunity mapping between GitLab field sales and assigned partners to accelerate and amplify GitLab revenue growth and adoption.
@@ -186,7 +186,7 @@ The Partner Account Manager (Intermediate)  is responsible for the following wit
   - GitLab practice capacity
   - GitLab-specific solutions
   - Customer success stories
-- Attain KPI’s to ensure that the goals are met.
+- Attain KPI's to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
 - Produce weekly forecasts for assigned partners.
@@ -221,7 +221,7 @@ The Partner Account Manager (Intermediate)  is responsible for the following wit
 - Willingness to deepen technical and domain knowledge
 - Results driven
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Intermediate Performance Indicators
 
@@ -243,7 +243,7 @@ The Senior Partner Account Manager is responsible for the following with little 
 
 **Partner Planning**
 
-- Evangelize GitLab’s value proposition to assigned partners.
+- Evangelize GitLab's value proposition to assigned partners.
 - In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
   - Practice Development
   - Co-selling
@@ -272,7 +272,7 @@ The Senior Partner Account Manager is responsible for the following with little 
 
 **Joint Activity**
 
-- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner’s - - - GitLab-related practice, revenue (sourcing and co-selling), and solutions.
+- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner's - - - GitLab-related practice, revenue (sourcing and co-selling), and solutions.
 - Coordinate GitLab teams (e.g., Partner Program, Partner Marketing, Field Sales, etc.) in support of joint partner plans.
 - Match partner services capabilities to opportunity-specific needs.
 - Facilitate account and opportunity mapping between GitLab field sales and assigned partners to accelerate and amplify GitLab revenue growth and adoption.
@@ -293,7 +293,7 @@ Represent GitLab at partner events.
   - GitLab practice capacity
   - GitLab-specific solutions
   - Customer success stories
-- Attain KPI’s to ensure that the goals are met.
+- Attain KPI's to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
 - Produce weekly forecasts for assigned partners.
@@ -328,7 +328,7 @@ Represent GitLab at partner events.
 - Willingness to deepen technical and domain knowledge
 - Results driven
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Senior Performance Indicators
 
@@ -350,7 +350,7 @@ The Staff Partner Account Manager is responsible for the following with minimal 
 
 **Partner Planning**
 
-- Evangelize GitLab’s value proposition to assigned partners.
+- Evangelize GitLab's value proposition to assigned partners.
 - In collaboration with partner leaders at assigned partners, develop a joint partnership strategy and GTM plan that includes investments in:
   - Practice Development
   - Co-selling
@@ -379,7 +379,7 @@ The Staff Partner Account Manager is responsible for the following with minimal 
 
 **Joint Activity**
 
-- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner’s GitLab-related practice, revenue (sourcing and co-selling), and solutions.
+- Collaborate with regional GitLab teams and leaders to develop joint opportunities that expand each partner's GitLab-related practice, revenue (sourcing and co-selling), and solutions.
 - Coordinate GitLab teams (e.g., Partner Program, Partner Marketing, Field Sales, etc.) in support of joint partner plans.
 - Match partner services capabilities to opportunity-specific needs.
 - Facilitate account and opportunity mapping between GitLab field sales and assigned partners to accelerate and amplify GitLab revenue growth and adoption.
@@ -400,7 +400,7 @@ The Staff Partner Account Manager is responsible for the following with minimal 
   - GitLab practice capacity
   - GitLab-specific solutions
   - Customer success stories
-- Attain KPI’s to ensure that the goals are met.
+- Attain KPI's to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
 - Produce weekly forecasts for assigned partners.
@@ -435,7 +435,7 @@ The Staff Partner Account Manager is responsible for the following with minimal 
 - Willingness to deepen technical and domain knowledge.
 - Results driven.
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Staff Performance Indicators
 
@@ -474,7 +474,7 @@ The Senior Manager, Partner Account Management is a [grade 9] ({{< ref "compensa
 - Work closely with GitLab regional sales leadership to inform the partner strategies, programs and best practices.
 - Engage GitLab regional sales leadership, solutions architects and partner marketing teams to ensure awareness and leverage of partners.
 - Foster executive relationships regionally of GitLab sales leaders and partner organizations.
-- Evangelize GitLab’s value proposition to partner organizations.
+- Evangelize GitLab's value proposition to partner organizations.
 - Provide executive support at regional partner marketing events.
 - Oversee partner-led demand generation, pipeline building activities, and related go-to-market planning within the assigned region.
 - Leverage your extensive, long-standing professional network to maximize relationships with partners.
@@ -526,7 +526,7 @@ The Senior Manager, Partner Account Management is a [grade 9] ({{< ref "compensa
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
 - Strong tolerance for ambiguity; able to focus and execute in a changing environment; ability to make things happen
 - Experience with managing remote teams.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Senior Manager Performance Indicators
 
@@ -565,7 +565,7 @@ The Director, Partner Account Management is a [grade 10] ({{< ref "compensation-
 - Work closely with GitLab sales leadership to inform global partner strategies, programs and best practices.
 - Engage GitLab sales leadership, solutions architects and partner marketing teams to ensure awareness and leverage of global partners.
 - Foster executive relationships regionally of GitLab sales leaders and global partner organizations.
-- Evangelize GitLab’s value proposition globally to partner organizations.
+- Evangelize GitLab's value proposition globally to partner organizations.
 - Provide executive support at regional and global partner marketing events.
 - Oversee global partner-led demand generation, pipeline building activities, and related go-to-market planning.
 - Leverage your extensive, long-standing professional network to maximize relationships with global partners.
@@ -617,7 +617,7 @@ The Director, Partner Account Management is a [grade 10] ({{< ref "compensation-
 - Tenacity. Persists under tough circumstances. Resilient. Overcomes obstacles.
 - Strong tolerance for ambiguity; able to focus and execute in a changing environment; ability to make things happen
 - Experience with managing remote teams.
-- Ability to travel up to 50% within the assigned territory and comply with the company’s travel policy.
+- Ability to travel up to 50% within the assigned territory and comply with the company's travel policy.
 
 #### Director Performance Indicators
 

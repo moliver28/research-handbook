@@ -34,7 +34,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 1. Create Project in Gitlab.com using CP (Customer Project requirements) _new steps to CP coming soon_
    * Create sub group with customer name under [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
    * Create a blank project under your new subgroup with SOW-<sow_number>
-   * Add epics for each activity including labels: “PM::name” “PSD Workflow::Not Started” “SOW-00”. Issues will be created at a later stage by the technical team under the right epic
+   * Add epics for each activity including labels: "PM::name" "PSD Workflow::Not Started" "SOW-00". Issues will be created at a later stage by the technical team under the right epic
 
 1. The PM to ensure the communiation plan, delivery methodology, scope definitions, time, and budget are aligned as we head into Delivery
    * _add Methodology steps_
@@ -89,12 +89,12 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 * For Consulting Blocks and Dedicated Engineer Services,  we sometimes enter these engagements knowing very little about the project (as it is generally purchased as a SKU). Therefore, our goal is to be within +/- 10% of our estimated forecast after we have our initial EM>PS Transition Meeting
 
 * To ensure forecast revenue is accurate go under Resource Center in Kantata:
-  1. Select “Project Tab” and filter via “My Projects”
+  1. Select "Project Tab" and filter via "My Projects"
   1. Expand project you are allocating for so you can see all PS Engineers and yourself
-  1. Click on each team member’s name and submit RR request via the “activity” window opened and assign to Project Coordinator as recipient
+  1. Click on each team member's name and submit RR request via the "activity" window opened and assign to Project Coordinator as recipient
 
 * If it's a FF project, we need to update the dates on the Milestones in order for it to reflect in our forecast:
-  1. Open your project and open the “Task Tracker” tab
+  1. Open your project and open the "Task Tracker" tab
   1. Expand milestones
   1. Update sign off date
 
@@ -106,7 +106,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 * If we are unable to confidently forecast the project resources 2 months out, we need to soft-book their/our time in Katata, and ensure that time is added to the upside report.
 * If we have a pending CO that is not yet reflected in Katata, add it to Upside if the work in the CO will be completed this quarter
 * If we anticipate a Milestone date will be adjusted to complete in the quarter, but it has not yet been confirmed/verified, add it to the Upside
-* It is helpful to call upside out in the customer report. ex: can only soft-forecast “x” amount because of “y” restraints
+* It is helpful to call upside out in the customer report. ex: can only soft-forecast "x" amount because of "y" restraints
 
 ##### Top Customer Report
 
@@ -148,7 +148,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
    1. Tracking Risk (with our Customer) through the RAID issue
       * The RAID, Risks, Actions, Issues, and Decisions is our way to ensure a single source of truth for project risk & resolution
       * It is where our internal project stakeholders and leadership can reference the latest project information when the project is trending or sitting in a Y/R health status
-      * The RAID is automatically created when the PM creates the CP template. First step is to rename template “RAID - Customer - SOW/PO#
+      * The RAID is automatically created when the PM creates the CP template. First step is to rename template "RAID - Customer - SOW/PO#
       * While the RAID is created, managed, and reported by the PM, **the internal team is encouraged to be updated the RAID as we work through Project challenges and mitigations**
       * [Example](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/southwest/sow-2206/-/issues/8)
    1. [Reporting on Risk via RAID](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Escalated&first_page_size=20)
@@ -157,7 +157,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
    * [The process of a project retrospective is started when the project starts](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/project_retrospective.md?ref_type=heads), as this is a collection of team celebration, lessons learned, what could be improved, questions, comments, assets created, etc. It is highly encouraged the entire GitLab project team contributes to the below information throughout the course of the Project
       * A meeting towards the end of each PS engagement will be held to celebrate our delivery as a team, review areas of improvement around our PS methodology, and to share our Customer Success stories. A PM will facilitate & work with the Project team to fill out the appropriate areas.
       * When in doubt, add it to the Project Journal!
-      * It is asked by the PMs, PSE, TA’s callout “ProjectWin”’s throughout the course of the project within the Journal/Issue and attach it to the ps-internal Slack update - celebrating team wins!
+      * It is asked by the PMs, PSE, TA's callout "ProjectWin"'s throughout the course of the project within the Journal/Issue and attach it to the ps-internal Slack update - celebrating team wins!
       * Be sure to pin to internal Slack
       * If giving out a "thanks" or noticing a "thanks" related to a Project team member in Slack - be sure to track within the Project issue
    * Reporting on Project Wins, leasons learned, and Customer stories

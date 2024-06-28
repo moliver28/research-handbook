@@ -1,8 +1,6 @@
 ---
-
 title: Selling Professional Services
 ---
-
 
 This is a practice guide for a Solutions Architect (SA) to position Professional Services to a customer during the sales cycle and gather the appropriate information to provide to the Professional Services Engagement Management Team for custom scoping, if necessary.  The overall workflow for selling Professional Services is defined in the [Professional Services Handbook - Selling Professional Services page](/handbook/customer-success/professional-services-engineering/selling/).
 

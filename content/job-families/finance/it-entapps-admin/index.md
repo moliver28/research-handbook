@@ -24,7 +24,7 @@ Associate IT Enterprise Applications Administrator is a [grade 5](https://about.
 
 ### Associate IT Enterprise Applications Administrator Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - Ability to use GitLab.
 - 0-2 years of experience in a system administration role ideally with enterprise SaaS software model.
 - Hands-on entry-level administrator experience across multiple platforms: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
@@ -52,7 +52,7 @@ IT Enterprise Applications Administrator is a [grade 6](https://about.gitlab.com
 
 ### IT Enterprise Applications Administrator Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - Ability to use GitLab.
 - 2-3 years of experience in a systems administrator.
 - Hands-on administrator experience: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.

@@ -53,7 +53,7 @@ The message house provides a structure to describe and discuss value and differe
 
 ## Analyst Coverage
 
-[Media coverage, 20 Feb. of Gartner’s 2020 Magic Quadrant For Data Science And Machine Learning Platforms.](https://www.forbes.com/sites/janakirammsv/2020/02/20/gartners-2020-magic-quadrant-for-data-science-and-machine-learning-platforms-has-many-surprises/#4b57dd763f55)
+[Media coverage, 20 Feb. of Gartner's 2020 Magic Quadrant For Data Science And Machine Learning Platforms.](https://www.forbes.com/sites/janakirammsv/2020/02/20/gartners-2020-magic-quadrant-for-data-science-and-machine-learning-platforms-has-many-surprises/#4b57dd763f55)
 
 Internal to GitLab:
 

@@ -1,5 +1,4 @@
 ---
-
 title: Elevate Applied 1:1 Coaching
 
 ---

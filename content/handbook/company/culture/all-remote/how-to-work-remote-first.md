@@ -28,7 +28,7 @@ Letting Slack pings dictate your working life is a recipe for burnout. It's also
 
 To solve for this, only pay for a chat plan that retains messages for 90 days or less. If your team knows that they'll never be able to query a message thread for context on a project, they will not use the tool for work. Instead, they'll be forced to start, discuss, and complete work in the place where it should end up. At GitLab (the company), this is GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle)).
 
-This not only forces work to happen [in the open](/handbook/values/#transparency), where more people can provide feedback as they work to [see each other succeed]({{< ref "values#see-others-succeed" >}}), but it's also a far more inclusive way to work.
+This not only forces work to happen [in the open](/handbook/values/#transparency), where more people can provide feedback as they work to [see each other succeed](/handbook/values/#see-others-succeed), but it's also a far more inclusive way to work.
 
 {{< youtube "IU2nTj6NSlQ?" >}}
 
@@ -80,13 +80,13 @@ When you give the bonus and celebrate the bonus in Slack, it also serves as a re
 
 ### Use technology to remind people to take time off
 
-Remote teams have an easier time speaking freely about travel. Because they're remote, they're autonomous by default, and location is [decoupled from output]({{< ref "values#measure-results-not-hours" >}}). In-office teams face stigmas related to conversing about vacations in the office.
+Remote teams have an easier time speaking freely about travel. Because they're remote, they're autonomous by default, and location is [decoupled from output](/handbook/values/#measure-results-not-hours). In-office teams face stigmas related to conversing about vacations in the office.
 
 An easy way to force this toxic cloud of taboo out of your team is to use a digital program to remind team members to take time off. At GitLab, we've worked with [Time Off by Deel](https://www.deel.com/engage/pto) to create an [opt-in program]({{< ref "paid-time-off#monthly-reminder-to-consider-taking-pto" >}}) which sends a direct message on the first working day of each month asking the individual to consider what time they plan on taking this month to rest and recharge. It also gives permission to the team member to directly confront their manager if they feel as if they cannot possibly take time off.
 
 GitLab's verbiage is below.
 
-> Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can’t reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `https://about.gitlab.com/handbook/people-group/paid-time-off/`
+> Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can't reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `https://about.gitlab.com/handbook/people-group/paid-time-off/`
 
 This remote-first behavior triggers a healthy reminder for people to chat about travel or spending time in their community — informal communication that is centered about prioritizing [mental health]({{< ref "./mental-health" >}}).
 
@@ -105,7 +105,7 @@ The call can be taken from anywhere, and your remote team will function more coh
 
 ### Decline all meetings which lack an agenda
 
-Every meeting should be [a review of a concrete proposal]({{< ref "values#make-a-proposal" >}}), and only called when it will lead to a more efficient outcome than would be possible [asynchronously]({{< ref "./asynchronous" >}}).
+Every meeting should be [a review of a concrete proposal](/handbook/values#make-a-proposal), and only called when it will lead to a more efficient outcome than would be possible [asynchronously]({{< ref "./asynchronous" >}}).
 
 If you get a meeting invite without an agenda — and it's not an [informal coffee chat]({{< ref "./informal-communication#coffee-chats" >}}) — leaders should empower their teams to decline. This will force team members to think long and hard on whether a meeting is necessary, and the burden of adding an agenda shows those who are invited that the organizer is proactively thinking through the meeting's purpose.
 
@@ -123,7 +123,7 @@ This added burden forces team members to consider approaching work [asynchronous
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
 
-> I think [documentation]({{< ref "./management#scaling-by-documenting" >}}) has to be [instilled as a value]({{< ref "values#write-things-down" >}}). It has to start there, and the whole leadership team in an organization has to be onboard.
+> I think [documentation]({{< ref "./management#scaling-by-documenting" >}}) has to be [instilled as a value](/handbook/values/#write-things-down). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
 > All of [leadership](/handbook/leadership) needs to understand the importance of documentation — not just with lip service. A true, genuine understanding of its value. If they *truly* understand the value of it, they'll emanate that to their direct reports.
 >
@@ -137,7 +137,7 @@ This added burden forces team members to consider approaching work [asynchronous
 
 *In the [video](https://youtu.be/SP7u0gYCHiY) above, Darren Murph, Head of Remote at GitLab sits down with Jeff Frick for a [Digital CUBE Conversation](https://siliconangle.com/2020/05/01/all-remote-gitlab-offers-advice-and-resources-as-companies-adjust-to-life-away-from-offices-cubeconversations) about the way the global Covid-19 crisis is affecting the way people work, and work from home. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
 
-The *quickest* way to send the *clearest* signal that remote is the future is to start at the top of the organizational chart. Remove execs from the office, and you’ll quickly figure out what gaps you need to fill with tools and process.
+The *quickest* way to send the *clearest* signal that remote is the future is to start at the top of the organizational chart. Remove execs from the office, and you'll quickly figure out what gaps you need to fill with tools and process.
 
 If you force the executive team to work remotely for a meaningful amount of time (over one month, in most cases), you'll discover communication gaps, as well as voids in tooling and process.
 
@@ -152,7 +152,7 @@ So long as your company adheres — even if unofficially — to set working hour
 
 The only way to remove that bias and open your company to a [truly global and diverse workforce]({{< ref "./hiring" >}}) is to destroy the epicenter of power as it relates to working hours.
 
-This also enables your workforce to design their work around their life, empowering them to be [managers of one]({{< ref "values#managers-of-one" >}}). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities) and [healthier]({{< ref "./mental-health" >}}) way of working.
+This also enables your workforce to design their work around their life, empowering them to be [managers of one](/handbook/values/#managers-of-one). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities) and [healthier]({{< ref "./mental-health" >}}) way of working.
 
 ### If it's not in the handbook, it doesn't exist
 

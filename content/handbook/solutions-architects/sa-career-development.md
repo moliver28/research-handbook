@@ -6,7 +6,6 @@ description: >-
   contributor or leadership track
 ---
 
-
 ## Career Development
 
 Solutions Architecture team members you should review the [GitLab People Group Career Development page](/handbook/people-group/learning-and-development/career-development/) for the roles, responsibilities, and helpful career development resources.
@@ -22,7 +21,7 @@ The diagram below can help you exploring potential evolutions of your career dev
 
 While maturing a decision or assessing options, the below steps can help you throughout the process:
 
-1. Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to:
+1. Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to:
 
     - Discuss the Career Path you want to explore and your motivation
     - Learn about what involves to be in these roles (for instance, you can read the job description for the roles you are interested in or speak directly with people who are in these roles)
@@ -58,7 +57,7 @@ The Solutions Architecture promotion process augments the [People Group Promotio
 In FY23, GitLab kicked off its first ever Associate Program across Customer Success with the aim to:
 
 - Build the next generation of highly-diverse, well-prepared GitLab Solutions Architects
-- Grow pre-sales engineering skill sets that are focused on GitLab’s product offering, business model and aligned to customer needs
+- Grow pre-sales engineering skill sets that are focused on GitLab's product offering, business model and aligned to customer needs
 - Give existing SAs an opportunity to grow in their careers through having early-in-career SAs to mentor and coach
 
 The program leverages the enablement material that all SAs use in the onboarding process in addition

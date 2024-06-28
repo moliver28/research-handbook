@@ -42,7 +42,7 @@ When we are talking about a disability, we are referring to any physical or ment
 
 Disclosing your disability is an entirely personal choice. Disclosure is not required. However, we aim to live our Transparency value and to ensure that all team members have an equitable opportunity to succeed in their role, and disclosure could aid in this.
 
-You don’t have to be specific about your diagnosis. An employer may ask for verification from a doctor but it can just say you have a disability and need some accommodation. **You are not required to share health details if you don’t want to**.
+You don't have to be specific about your diagnosis. An employer may ask for verification from a doctor but it can just say you have a disability and need some accommodation. **You are not required to share health details if you don't want to**.
 
 #### Formal disclosure of your disability
 

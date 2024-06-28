@@ -24,7 +24,7 @@ Meltano is a separate company to GitLab, but for the purposes of Total Rewards, 
 
 ## Requirements
 
-- Bachelor’s degree in a technical field.
+- Bachelor's degree in a technical field.
 - Experience in open source software product development.
 - Proven communication and leadership skills.
 - Ability to meet deadlines, iterate and get results.

@@ -9,7 +9,7 @@ The Definition of Ready and the Definition of Done are closely related. Or the o
 
 One of the key artifacts of Agile is the idea of backlogs – both at the Product level as well as at the Sprint level.
 
-The Product Backlog is essentially the project’s To-Do list, or requirements repository.
+The Product Backlog is essentially the project's To-Do list, or requirements repository.
 
 All items that are deemed in scope for the project, regardless of level of detail, are in the Product Backlog, and they are ordered, not just prioritized – meaning the one on top is more important than the one in 5th position, which is more important than the one in 23rd position. Order is decided by the Program Manager / Product Manager and usually driven by business value – in consultation with the Customer Development Team.
 
@@ -17,13 +17,13 @@ All items that are deemed in scope for the project, regardless of level of detai
 
 What is known of the projects scope, is written down and documented in the form of user stories, with the expectation that discovery will lead to change. The Product Backlog is a living repository and is owned by the Program Manager / Project Manager.
 
-The Product Backlog is the source for the Sprint Backlog. Whereas the Product Backlog represents the requirements repository for the project / engagement, the Sprint Backlog is the agreed upon scope for the next upcoming sprint and as such represents the GitLab Implementation and Customer Development Team’s deliverable commitment. The GitLab Implementation Team does not operate in a vacuum, it close coordinates priorities with the Customer Development Team.
+The Product Backlog is the source for the Sprint Backlog. Whereas the Product Backlog represents the requirements repository for the project / engagement, the Sprint Backlog is the agreed upon scope for the next upcoming sprint and as such represents the GitLab Implementation and Customer Development Team's deliverable commitment. The GitLab Implementation Team does not operate in a vacuum, it close coordinates priorities with the Customer Development Team.
 
 ![IterationCycle.jpg](../definition-of-done/IterationCycle.jpg)
 
 Once agreed upon and committed to, the Sprint Backlog usually does not change in order to ensure the GitLab Implementation Team and the Customer Development Team can deliver against their commitment.
 
-The Implementation Team and Development Team works through the Sprint Backlog top to bottom (most important to least important) and if it runs out of work would usually look at the Product Backlogs’ top items in order to pull additional work into the current sprint.
+The Implementation Team and Development Team works through the Sprint Backlog top to bottom (most important to least important) and if it runs out of work would usually look at the Product Backlogs' top items in order to pull additional work into the current sprint.
 
 If items are not finished during the current sprint, then they are **a)** considered for implementation in the next sprint, or **b)** revert back to the Product Backlog to be reconsidered for the next sprint in the upcoming Sprint Planning Meeting.
 
@@ -31,9 +31,9 @@ Newly discovered requirements are added to the Product Backlog in the form of us
 
 ## Definition of Ready (DoR) vs. Definition of Done (DoD)
 
-A sprint is a time-boxed development cycle that takes high-priority items off the Sprint Backlog and turns them into a product increment. However, in order to successfully pull items into the current sprint, it is important that the defined user stories are “ready” – pulling unfinished or unrefined user stories into a sprint causes problems during the implementation cycle, as it follows the old principle of “garbage in, garbage out”. If developers work off of insufficiently detailed or defined user stories, they are unlike to produce high quality code.
+A sprint is a time-boxed development cycle that takes high-priority items off the Sprint Backlog and turns them into a product increment. However, in order to successfully pull items into the current sprint, it is important that the defined user stories are "ready" – pulling unfinished or unrefined user stories into a sprint causes problems during the implementation cycle, as it follows the old principle of "garbage in, garbage out". If developers work off of insufficiently detailed or defined user stories, they are unlike to produce high quality code.
 
-A “ready” backlog item needs to be clear, feasible and testable:
+A "ready" backlog item needs to be clear, feasible and testable:
 
 * A user story is **clear** if all team members (GitLab Implementation Team and Customer Development Team) have a shared understanding of what it means. Collaboratively writing user stories, and adding acceptance criteria to the high-priority ones facilitates clarity
 * An item is **testable** if there is an effective way to determine if the functionality works as expected. Acceptance criteria ensure that each story can be tested
@@ -43,7 +43,7 @@ A “ready” backlog item needs to be clear, feasible and testable:
 
 Whereas a **_Definition of Ready is focused on user story level characteristics_**, the **_Definition of Done is focused on the sprint or release level_**.
 
-Essentially, a DoD represents the acceptance criteria for a sprint or release. It spells out what the Implementation and Development Team has to cover in order for the product increment to be considered “done”.
+Essentially, a DoD represents the acceptance criteria for a sprint or release. It spells out what the Implementation and Development Team has to cover in order for the product increment to be considered "done".
 
 The Definition of Done is an agreement between GitLab Implementation Team, the Customer Development Team and the Program Manager / Project Manager on what needs to be completed for each user story – and it is often standardized across the customer engagement in order to guarantee consistent delivery of quality.
 
@@ -77,7 +77,7 @@ Please note that the DoD may be different for sprints vs. releases, meaning inte
 
 ## Sample Definition of Done (DoD)
 
-* Code produced (all ‘to do’ items in code completed)
+* Code produced (all 'to do' items in code completed)
 * Code commented, checked in and run successfully
 * Peer reviewed (or produced with pair programming) and meeting development standards
 * Builds without errors
@@ -89,7 +89,7 @@ Please note that the DoD may be different for sprints vs. releases, meaning inte
 
 ## Other uses of the Definition of Ready and Definition of Done
 
-The original intent of DoR and DoD was to create brief documents representing internal agreements between the projects’ stakeholders, the Program Manager / Project Manager, the GitLab Implementation Team, and the Customer Development Team.
+The original intent of DoR and DoD was to create brief documents representing internal agreements between the projects' stakeholders, the Program Manager / Project Manager, the GitLab Implementation Team, and the Customer Development Team.
 
 However, with more development work being outsourced or subcontracted, the DoR and DoD are now used more and more in contract agreements and statements of work, spelling out exact expectations as to what needs to be done - this is especially useful when setting expectations with partner consultants.
 

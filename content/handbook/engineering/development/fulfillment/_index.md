@@ -682,7 +682,7 @@ Everyone is encouraged to participate in asynchronous retrospective issues. This
 
 Some things to keep in mind:
 
-- Items shared do not have to be monumental successes or failures. Consider including even small items in the “what went well” and “what didn't go so well” sections of the retrospective issue.
+- Items shared do not have to be monumental successes or failures. Consider including even small items in the "what went well" and "what didn't go so well" sections of the retrospective issue.
 - Use a team specific thread to share items that may be feel less relevant to the entire department.
 - Pull from the "wins" or "challenges" team sync agenda items for inspiration.
 - Find the limits of your computer, and keep the current retrospective issue open throughout the milestone.

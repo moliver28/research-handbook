@@ -74,7 +74,7 @@ The first three criteria drove a lot of research into many applications + collab
 
 ##### Android Settings
 
-Android tablets with no physical buttons put a navigation bar on the bottom part of the screen. I found that I was having my palm be picked up by the Home Screen button, which would close the white boarding app. Also, when any of these buttons are activated by the stylus it is equally disruptive to the flow. For the Navigation Bar settings I set “Navigation type” to “Swipe gestures” and I enable “Block gestures with S Pen” (Android 12, Samsung OneUI v4.1)
+Android tablets with no physical buttons put a navigation bar on the bottom part of the screen. I found that I was having my palm be picked up by the Home Screen button, which would close the white boarding app. Also, when any of these buttons are activated by the stylus it is equally disruptive to the flow. For the Navigation Bar settings I set "Navigation type" to "Swipe gestures" and I enable "Block gestures with S Pen" (Android 12, Samsung OneUI v4.1)
 
 #### Questions About This Setup
 

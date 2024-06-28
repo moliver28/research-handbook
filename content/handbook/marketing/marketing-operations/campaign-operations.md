@@ -1,16 +1,10 @@
 ---
-
 title: Marketo program/campaign support
 description: 'Marketo campaign projects, processes, and notes'
 twitter_image: /images/tweets/handbook-marketing.png
 twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
-
-
-
-
-
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->

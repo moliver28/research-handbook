@@ -1,12 +1,6 @@
 ---
-
 title: "Incent Technical Documentation"
 ---
-
-
-
-
-
 
 ## How to use this documentation
 

@@ -1,13 +1,6 @@
 ---
-
 title: "Community Learning Pathway: Course Resources"
 ---
-
-
-
-
-
-
 
 ## Community Learning Pathway
 

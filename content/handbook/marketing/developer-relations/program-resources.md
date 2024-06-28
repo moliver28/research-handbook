@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations: Program Resources"
 ---
-
-
-
-
-
-
 
 ## Contact e-mails
 

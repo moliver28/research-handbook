@@ -88,7 +88,7 @@ In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDR
 
 Remote work is the last great competitive advantage for employers. Remote maximizes a person's freedom and autonomy to integrate work into their life instead of the other way around. If two employers offer a talented applicant the same title, salary, and benefits, the tipping point will be the employer that **supports remote work**.
 
-We've gathered extra ways to attract top talent to your organization (Note: this list assumes a workplace supports remote and [permission to play]({{< ref "values#permission-to-play" >}}) behaviors.)
+We've gathered extra ways to attract top talent to your organization (Note: this list assumes a workplace supports remote and [permission to play](/handbook/values/#permission-to-play) behaviors.)
 
 1. Benefits for families and caregivers (daycare stipend, cleaning/laundry stipend, meal stipend, enhanced health insurance options, continuing education, adoption/fertility support, etc.)
 1. [No ask, must tell vacation policy]({{< ref "paid-time-off" >}}) which senior leaders visibly model
@@ -100,9 +100,9 @@ We've gathered extra ways to attract top talent to your organization (Note: this
 1. Transparent policies for investing in and championing [diversity, inclusion & belonging](/handbook/values/#diversity-inclusion) (and published goals for improvement)
 1. Restricted stock units (RSU) or stock options
 1. Enhanced hiring bonuses and higher salaries
-1. Large annual bonuses based on performance (*remote work [measures results]({{< ref "values#measure-results-not-hours" >}}), not hours spent, input, or time-in-seat*)
+1. Large annual bonuses based on performance (*remote work [measures results](/handbook/values/#measure-results-not-hours), not hours spent, input, or time-in-seat*)
 1. Well-trained remote managers that default to [asynchronous workflows]({{< ref "./asynchronous" >}}) (*Confidently assuring prospective talent that they will endure fewer meetings and micromanagement is a solid way to differentiate from other employers.*)
-1. Publishing supportive policies which explicitly allow employees to create better [work/life harmony]({{< ref "./people#worklife-harmony" >}}) and put [family and friends before work]({{< ref "values#family-and-friends-first-work-second" >}})
+1. Publishing supportive policies which explicitly allow employees to create better [work/life harmony]({{< ref "./people#worklife-harmony" >}}) and put [family and friends before work](/handbook/values/#family-and-friends-first-work-second)
 1. Supporting (via time and money) learning for self-development
 1. Building and explicitly publishing a culture of trust, empowerment, and autonomy for employees to do great work regardless of location (*view [GitLab's guide on building culture]({{< ref "./building-culture" >}}) and its [Values page]({{< ref "values" >}}) for more*)
 1. Engage and respect *existing* employees, empowering them to become [talent brand ambassadors]({{< ref "gitlab-ambassadors" >}}) on platforms such as Glassdoor, LinkedIn, Twitter, and Comparably
@@ -119,7 +119,7 @@ However, there are plenty of people who thrive in remote jobs (as GitLab's globa
 
 #### Self-management
 
-There are nuances to loving remote work and being a great remote worker. An operating principle at GitLab calls it being a ["manager of one"]({{< ref "values#managers-of-one" >}}).
+There are nuances to loving remote work and being a great remote worker. An operating principle at GitLab calls it being a ["manager of one"](/handbook/values/#managers-of-one).
 
 #### Communication skills
 
@@ -129,7 +129,7 @@ How do you screen for text-communication skills? Whether they realize it or not,
 
 #### Remote-work experience
 
-If someone has not worked in a remote environment, chances are that they *have* worked outside of their office (e.g., working while traveling, advancing a university project while away from campus, etc.) Ask candidates for examples of how they managed those instances, looking specifically for how they embrace autonomy and [blameless problem solving]({{< ref "values#blameless-problem-solving" >}}).
+If someone has not worked in a remote environment, chances are that they *have* worked outside of their office (e.g., working while traveling, advancing a university project while away from campus, etc.) Ask candidates for examples of how they managed those instances, looking specifically for how they embrace autonomy and [blameless problem solving](/handbook/values/#blameless-problem-solving).
 
 Even if your company didn't define it this way, those offices [were remote to one another]({{< ref "./stages" >}}). You had to navigate Zoom calls, time zone differences, etc. For example, you may be based in Seattle with colleagues in Singapore and London. Asking applicants to dive into those situations will help uncover how they handle remote work.
 
@@ -147,12 +147,12 @@ Other qualities unique to a remote workplace are:
 
 1. Inclination for [self-learning and self-service]({{< ref "./self-service" >}})
 1. Appreciation for [documentation]({{< ref "./handbook-first" >}})
-1. Proven ability to be a [manager of one]({{< ref "values#managers-of-one" >}})
+1. Proven ability to be a [manager of one](/handbook/values/#managers-of-one)
 1. Capable of (and enjoys) working [asynchronously]({{< ref "./asynchronous" >}})
 
 When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](http://insead.edu) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder and CEO Sid Sijbrandij replied:
 
-> "What's essential in all-remote is that you are a [manager of one]({{< ref "values#managers-of-one" >}}).
+> "What's essential in all-remote is that you are a [manager of one](/handbook/values/#managers-of-one).
 >
 > You're not going to have someone expecting you at the office and hold your hand, so you have to be able to manage yourself and work independently.
 >
@@ -160,7 +160,7 @@ When asked if anyone could learn to work well in an all-remote setting during an
 
 ### Tips for interviewing all-remote candidates
 
-We’ve created a guide on [How to Conduct a Remote Interview]({{< ref "./interviews" >}}), and included some highlights below.
+We've created a guide on [How to Conduct a Remote Interview]({{< ref "./interviews" >}}), and included some highlights below.
 
 #### The top 10 questions to ask a remote candidate
 

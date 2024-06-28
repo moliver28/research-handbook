@@ -26,7 +26,7 @@ GitLab's Performance/Growth Potential Matrix is a type of talent assessment that
 
 The FY24 talent assessment should consider performance from the period FY23Q4 - FY24Q3 (Nov 1, 2022 to Oct 31, 2023).
 
-In addition to assessing Performance/Growth Potential, we annually review Key Talent aligned with the criteria outlined below on this page. The combination of Performance/Growth Potential and Key Talent assessments allow us to identify team members who drive the organization’s success and use our engagement tools to retain them.
+In addition to assessing Performance/Growth Potential, we annually review Key Talent aligned with the criteria outlined below on this page. The combination of Performance/Growth Potential and Key Talent assessments allow us to identify team members who drive the organization's success and use our engagement tools to retain them.
 
 For team members with a tenure up to three months to the launch of the Talent Assessment Program will be designated as "Too New to Rate". Also in some cases a "Too New to Rate" designation might be applicable for newly promoted or transferred team members. More about that designation can be found below.
 
@@ -74,7 +74,7 @@ Examples:
 
 ### Performing
 
-Based on Job Family responsibilities, [values](/handbook/people-group/competencies/#values-competencies) and [remote working competencies](/handbook/people-group/competencies/#remote-work-competencies) team members in this category are “on track” and meeting all expectations. They can independently and competently perform all aspects of the Job Family responsibilities in a way that is aligned with our values and competencies. Their performance consistently meets the requirements, standards, or objectives of the job, and they can occasionally exceed expectations. They deliver results in a timely and accurate fashion. This performance may be expected as a result of:
+Based on Job Family responsibilities, [values](/handbook/people-group/competencies/#values-competencies) and [remote working competencies](/handbook/people-group/competencies/#remote-work-competencies) team members in this category are "on track" and meeting all expectations. They can independently and competently perform all aspects of the Job Family responsibilities in a way that is aligned with our values and competencies. Their performance consistently meets the requirements, standards, or objectives of the job, and they can occasionally exceed expectations. They deliver results in a timely and accurate fashion. This performance may be expected as a result of:
 
 - The team member is consistent and stable in their performance.
 - The team member has the required knowledge, skills and abilities to perform in the role successfully and also applies values and competencies in their work.
@@ -90,11 +90,11 @@ Examples:
 
 ### Exceeding
 
-Team members that are exceeding consistently surpass the demands of their current position. They demonstrate unique understanding of work beyond the assigned area of responsibility. They contribute to GitLab’s success by adding significant value well beyond Job Family requirements, [values](/handbook/people-group/competencies/#values-competencies), and [remote working competencies](/handbook/people-group/competencies/#remote-work-competencies). This performance may be expected as a result of:
+Team members that are exceeding consistently surpass the demands of their current position. They demonstrate unique understanding of work beyond the assigned area of responsibility. They contribute to GitLab's success by adding significant value well beyond Job Family requirements, [values](/handbook/people-group/competencies/#values-competencies), and [remote working competencies](/handbook/people-group/competencies/#remote-work-competencies). This performance may be expected as a result of:
 
 - Individual is developing more quickly than the demands of their current position.
 - They rise to the challenge when give additional assignments and achieve significant results.
-- A “go-to” team member for their peers for tough problems and day-to-day guidance.
+- A "go-to" team member for their peers for tough problems and day-to-day guidance.
 - High commitment and engagement to GitLab combined with extensive knowledge, skills, and abilities to perform in the role.
 
 Examples:
@@ -113,7 +113,7 @@ Note that this is an expected distribution, not a forced distribution. The bell 
 Performance:
 
 - **Developing**: 10%, not yet meeting all of the expectations
-- **Performing**: 60-65%, “on track” and meeting expectations
+- **Performing**: 60-65%, "on track" and meeting expectations
 - **Exceeding**: 25%, consistently surpasses the demands of their current role
 
 Growth Potential:
@@ -276,7 +276,7 @@ The introduction of a "Too New to Rate" category is a solution as feedback was r
 
 While newly onboarded team members do not need to complete the Talent Assessment evaluation in Workday, it's still important for them to have a check-in conversation with their manager. We recommend that this conversation happens after the team member has completed 3 months with GitLab. We've created [this template](https://docs.google.com/document/d/1itxP_OOuNC2oRXYu3ep_ZQdutqcZUdUyXgzQomEpuKM/edit) for team members and managers to complete. The goal would be for the newly onboarded team member and their manager to come together to have a conversation reflecting on their first 3 months at GitLab, highlighting their strengths and opportunities, then aligning on any support needed for the team member moving forward.
 
-Besides team members with a GitLab tenure up to 3 months (New hire TNTR), the “Too New to Rate” designation will also be available for team members that have just transferred or were promoted to a new role. Please see the [Promotions or Transfer During Assessment Cycle](/handbook/people-group/talent-assessment/#promotions-or-transfers-during-assessment-cycle) section for more details and guidance on how to evaluate and consider performance in these scenarios.
+Besides team members with a GitLab tenure up to 3 months (New hire TNTR), the "Too New to Rate" designation will also be available for team members that have just transferred or were promoted to a new role. Please see the [Promotions or Transfer During Assessment Cycle](/handbook/people-group/talent-assessment/#promotions-or-transfers-during-assessment-cycle) section for more details and guidance on how to evaluate and consider performance in these scenarios.
 
 If any of the above cases arise it is recommend that you discuss with your People Business Partner to ensure the Too New to Rate designation is consistently applied.
 
@@ -421,18 +421,18 @@ When assessing team members who have transferred teams or changed roles througho
 
 ## Best Practices for Communicating Performance/Growth Potential Factors
 
-After calibration sessions are done and performance and growth potential factors are determined, it’s time to communicate the final results with team members. **Communications can begin after you have been notified that final talent assessment factors have been approved by the E-group**. The conversation following the talent assessment process is the most important part; it is a great way to drive alignment with your team members and set them up for success moving forward.  Below are  some of the best practices for communications, but remember, if you are ever in doubt please reach out to your manager or [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) for additional support.
+After calibration sessions are done and performance and growth potential factors are determined, it's time to communicate the final results with team members. **Communications can begin after you have been notified that final talent assessment factors have been approved by the E-group**. The conversation following the talent assessment process is the most important part; it is a great way to drive alignment with your team members and set them up for success moving forward.  Below are  some of the best practices for communications, but remember, if you are ever in doubt please reach out to your manager or [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) for additional support.
 
 1. **Communicate performance and growth potential factors face-to-face over Zoom**. As a manager, this is the opportunity for you to have a conversation with your team member about their performance and growth potential. Having the conversation over Zoom allows for you to have a dialogue with your team member (versus just sharing their performance and growth potential factor asynchronously) and allows you to pick up other information, like tone and non-verbal cues which can tell you more about how someone is feeling during this conversation. You may also choose to share the PDF of the review prior to the conversation so that your team member has time to process the information. If so, ideally share just 1-2 days prior to the conversation so you are able to address questions promptly.
-1. **Prepare for the discussion ahead of time.** As a manager, you should prepare in advance of calibration discussions with your team members. Before communicating a team member’s [performance and growth potential factors]({{< ref "compensation-review-cycle#performance-factor" >}}), it’s beneficial to look back through your preparation document, notes, and anything relevant that was discussed as part of the calibration exercise. Be prepared with notes on the following:
+1. **Prepare for the discussion ahead of time.** As a manager, you should prepare in advance of calibration discussions with your team members. Before communicating a team member's [performance and growth potential factors]({{< ref "compensation-review-cycle#performance-factor" >}}), it's beneficial to look back through your preparation document, notes, and anything relevant that was discussed as part of the calibration exercise. Be prepared with notes on the following:
     - Areas the team member is doing well
     - Areas that need improvement
     - Areas that you identified as either strengths and/or development areas that differed from the team member's self-assessment.
     - Provide specific examples for both strengths and improvement areas. The [SBI]({{< ref "guidance-on-feedback#s-b-i-model" >}}) (Situation - Behavior - Impact) model can be effective for delivering examples structured in a way that makes impact clear to team members.
-    - Think about recommendations and/or focus areas for a team member’s development OR if a team member has an active [Individual Growth Plan(IGP)](/handbook/people-group/learning-and-development/career-development/igp-guide/), consider how the feedback fits into their current IGP
-1. **Schedule a separate call or repurpose your [1:1]({{< ref "1-1" >}}) to discuss a team member’s performance and growth potential factor**. The performance and growth potential factors should be communicated at the beginning of the meeting. This allows the team member time to ask questions, discuss their assessment, and most importantly, determine next steps. If your 1:1s are often filled with agenda items, the recommendation is to schedule another call to make sure you have ample time allocated.
-1. **Protect the confidentiality of other team members** by avoiding saying things like “you were the only team member to be rated this performance factor.”
-1. **Avoid making future promises** like, “In the next review, I will rate you X performance/growth potential factor.”
+    - Think about recommendations and/or focus areas for a team member's development OR if a team member has an active [Individual Growth Plan(IGP)](/handbook/people-group/learning-and-development/career-development/igp-guide/), consider how the feedback fits into their current IGP
+1. **Schedule a separate call or repurpose your [1:1]({{< ref "1-1" >}}) to discuss a team member's performance and growth potential factor**. The performance and growth potential factors should be communicated at the beginning of the meeting. This allows the team member time to ask questions, discuss their assessment, and most importantly, determine next steps. If your 1:1s are often filled with agenda items, the recommendation is to schedule another call to make sure you have ample time allocated.
+1. **Protect the confidentiality of other team members** by avoiding saying things like "you were the only team member to be rated this performance factor."
+1. **Avoid making future promises** like, "In the next review, I will rate you X performance/growth potential factor."
 
 ### Sample Script for Delivering a Talent Assessment
 
@@ -443,7 +443,7 @@ The script below is intended to help you structure your Performance and Growth P
 "I assessed your performance factor as ****[Insert Performance factor]***:"
 
 - ***Exceeding*** (consistently surpassing the demands of their current position)
-- ***Performing*** (“on track” and meeting all expectations of current position)
+- ***Performing*** ("on track" and meeting all expectations of current position)
 - ***Developing*** (room to learn and grow, not currently meeting all expectations of current position)
 - ***Too New To Rate*** (hired or transferred <90 days from the start of the Talent Assessment program)
 
@@ -537,7 +537,7 @@ The Performance/Growth Potential Factor is one of the factors considered in the 
   - You should continue to move forward with communicating their performance factor to them and use the meeting as an opportunity to reinforce the expectations of meeting the goals highlighted in the plan.
 
 - **My team member has recently been promoted - but we assessed the Performance/Growth Potential prior to the promotion. How do I communicate that to the team member?**
-  - Now that we have moved to a bi-annual (or twice a year) promotion process, there are some team members that would have been promoted effective the start of Q3. Your talent assessment will be based on the team member’s new role. In most cases the rating will be `Too New To Rate`, the exception being where a team member has been operating at the higher level for some time. Being promoted recognizes high performance both in terms of increased scope/responsibility and monetarily through compensation increase; therefore a **promotion "resets" the performance/growth potential factor evaluation**. With the promotion, the job responsibilities and scope can change significantly; therefore a new assessment should be made during the talent assessment period. We recommend you review the responsibilities of the new role and identify focus points for growth in the new role.
+  - Now that we have moved to a bi-annual (or twice a year) promotion process, there are some team members that would have been promoted effective the start of Q3. Your talent assessment will be based on the team member's new role. In most cases the rating will be `Too New To Rate`, the exception being where a team member has been operating at the higher level for some time. Being promoted recognizes high performance both in terms of increased scope/responsibility and monetarily through compensation increase; therefore a **promotion "resets" the performance/growth potential factor evaluation**. With the promotion, the job responsibilities and scope can change significantly; therefore a new assessment should be made during the talent assessment period. We recommend you review the responsibilities of the new role and identify focus points for growth in the new role.
 
 ### Talent Assessment - Manager Scenarios
 
@@ -547,7 +547,7 @@ If they will be returning from leave before the due date to communicate [Talent 
 
 **My team member was on protected leave for a large portion of the Talent Assessment period. How should I factor this in when assessing them?**
 
-It’s important to ensure you are assessing the team member's performance for their contributions while working during the assessment time period. There should be no adverse impact on their overall assessment due to being on leave for a portion of the period. During calibration, please remain vigilant to ensure no private details related to their time away are disclosed. Please reach out to your PBP to discuss the specific details related to your team member.
+It's important to ensure you are assessing the team member's performance for their contributions while working during the assessment time period. There should be no adverse impact on their overall assessment due to being on leave for a portion of the period. During calibration, please remain vigilant to ensure no private details related to their time away are disclosed. Please reach out to your PBP to discuss the specific details related to your team member.
 
 **My team member is on leave of absence during the Talent Assessment communication window. What happens to their Talent Assessment?**
 
@@ -556,28 +556,28 @@ Please do not action the To-Do task "Meet with your Employee" if your team membe
 **My team member was assessed as key talent last year, and is not for this assessment period. How should I handle communication with them?**
 
 There is no guarantee that team members will retain their key talent assessment each assessment period. Make sure to explain the reasons why their key talent assessment has changed, including how we assess Key Talent and the [definition outlined in the Handbook](#key-talent).
-Remember to end the conversation by discussing what your expectations are of key talent going forward. It’s important not to make promises about future assessments, but to focus on what makes a team member critical to the business, and how you, their manager, will support them.
+Remember to end the conversation by discussing what your expectations are of key talent going forward. It's important not to make promises about future assessments, but to focus on what makes a team member critical to the business, and how you, their manager, will support them.
 
 **My team member was exceeding performance last assessment, and is not for this period. How should I communicate this change?**
 
-It’s important to take a look at what may have changed since last year. Is your team member in a new role? On a new team? Did they take on bigger stretch assignments?
-Any of these factors can influence a team member’s performance. Be prepared with specific examples to share which support your performance assessment. The feedback conversation should also focus on what success looks like for the team member in the year to come and how you, as the manager, can support them with their goals.
+It's important to take a look at what may have changed since last year. Is your team member in a new role? On a new team? Did they take on bigger stretch assignments?
+Any of these factors can influence a team member's performance. Be prepared with specific examples to share which support your performance assessment. The feedback conversation should also focus on what success looks like for the team member in the year to come and how you, as the manager, can support them with their goals.
 
 **I have just adopted a new team, and the previous manager is no longer at GitLab. How can I assess the performance of my team fairly?**
 
-You may be able to gather insights from your manager or cross functional stakeholders who have worked closely with the team member in the performance period. You may have access to the recent 360 feedback for each of your team members, as well as their talent assessment from last year to help inform your thinking. If you haven’t already, it’s important to ask the team member to share their own perspective on their accomplishments prior to you taking the role, so you are well prepared for the discussion of your assessment.
+You may be able to gather insights from your manager or cross functional stakeholders who have worked closely with the team member in the performance period. You may have access to the recent 360 feedback for each of your team members, as well as their talent assessment from last year to help inform your thinking. If you haven't already, it's important to ask the team member to share their own perspective on their accomplishments prior to you taking the role, so you are well prepared for the discussion of your assessment.
 
 **My team member does not agree with their placement in performance and growth potential. How should I approach this?**
 
-Remember that this conversation will be most effective if you are well prepared. If you haven’t yet, take an opportunity before the performance and growth potential conversation to understand their own assessment of their results.
-During the performance and growth potential conversation, provide the opportunity for a dialogue with your team member. Remain open and curious about their perspective. Engage in active listening, ensuring that you aren’t planning your counterpoints while they are sharing. The expectation is not that the results will necessarily change but the insights they provide may shape how you both think about their growth and development path.
+Remember that this conversation will be most effective if you are well prepared. If you haven't yet, take an opportunity before the performance and growth potential conversation to understand their own assessment of their results.
+During the performance and growth potential conversation, provide the opportunity for a dialogue with your team member. Remain open and curious about their perspective. Engage in active listening, ensuring that you aren't planning your counterpoints while they are sharing. The expectation is not that the results will necessarily change but the insights they provide may shape how you both think about their growth and development path.
 If you feel a conversation might be particularly challenging, you may reach out to the TMR team or your PBP to role play the discussion and ensure you are prepared.
 
 **My team member is exceeding growth potential expectations, how should I be thinking about their ongoing development?**
 
-Great! At GitLab team members have the opportunity to own their own development, and deserve a great manager (you) to facilitate it. Ask your team member to articulate where they would like to see their skills and career develop. You may have insights that help them refine those goals based on where you see the business going, as they will be most successful in gaining the experience they’re looking for if there are opportunities to align those goals with business goals.
+Great! At GitLab team members have the opportunity to own their own development, and deserve a great manager (you) to facilitate it. Ask your team member to articulate where they would like to see their skills and career develop. You may have insights that help them refine those goals based on where you see the business going, as they will be most successful in gaining the experience they're looking for if there are opportunities to align those goals with business goals.
 Using the [70-20-10 model for learning](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#70-20-10-rule-for-development), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
-The [Career Development handbook page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) has more ideas to help your team member craft a growth plan, including information on GitLab’s [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development).
+The [Career Development handbook page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) has more ideas to help your team member craft a growth plan, including information on GitLab's [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development).
 
 **How should we be communicating Growth Potential to team members who we haven't communicated this to before?**
 
@@ -595,15 +595,15 @@ If and when appropriate, check in with your peer on how improvements are going. 
 For team members who have assumed an [Acting or an Interim role]({{< ref "promotions-transfers#interim-and-acting-roles" >}}), we will assess team members aligned with their *permanent positions* (I.E. not the Acting or Interim position).
 As the Talent Assessment impacts compensation, and Acting/Interim periods are not permanent, in the instance that a team member does not end up moving into the Acting/Interim role permanently, we would not want to have their compensation impacted by a temporary position.
 
-**My team member is performing at a high level in terms of results, but they struggle with behavioral alignment to one or more of our values. How do I take the “how” into account when I am assessing their performance and growth?**
+**My team member is performing at a high level in terms of results, but they struggle with behavioral alignment to one or more of our values. How do I take the "how" into account when I am assessing their performance and growth?**
 
 Review the handbook content on how we [measure Performance](#measuring-performance) and how we [measure Growth Potential](#measuring-growth). When a high output/results-oriented team member is struggling with soft skills and/or behavior, this is oftentimes related to improvement areas in terms of alignment to our [values competencies](#gitlab-competencies), and/or our [Growth Potential pillars](#measuring-growth) (particularly, but not limited to, Self-Awareness). Considering our measurement guidelines for Performance and Growth Potential holistically, and be sure that your assessment takes all of our competencies, job family responsibilities, and pillars into account.
 
-**My team member has the skills to perform, but there are [will-based performance issues]({{< ref "underperformance#will-based-performance" >}}) that are impacting their ability or the team’s ability to succeed. How should I think about this in terms of assessing their performance?**
+**My team member has the skills to perform, but there are [will-based performance issues]({{< ref "underperformance#will-based-performance" >}}) that are impacting their ability or the team's ability to succeed. How should I think about this in terms of assessing their performance?**
 
 First, act early. Do not wait for a formal performance and growth potential assessment conversation to deliver feedback about your concerns. Be specific, and document your conversation. Loop in a TMR specialist for support as these conversations can be challenging.
 
-Review the definition of “Developing” performance. Note that one criteria that applies to this category is a team member who is struggling to perform in a way that is aligned to our values and competencies. Think about the specific behaviors or impacts of their work or how they are working that have led you to assess that they are not fully engaged. Despite having the skills, if your team member is not contributing at the level they are expected to be, you should consider that a performance issue in the way you would a skill based performance issue. Keep in mind that not addressing these challenges may be affecting your other team members, especially those who may be picking up the slack. We encourage to review the handbook page on [Underperformance]({{< ref "underperformance#talent-assessment-and-managing-underperformance" >}}).
+Review the definition of "Developing" performance. Note that one criteria that applies to this category is a team member who is struggling to perform in a way that is aligned to our values and competencies. Think about the specific behaviors or impacts of their work or how they are working that have led you to assess that they are not fully engaged. Despite having the skills, if your team member is not contributing at the level they are expected to be, you should consider that a performance issue in the way you would a skill based performance issue. Keep in mind that not addressing these challenges may be affecting your other team members, especially those who may be picking up the slack. We encourage to review the handbook page on [Underperformance]({{< ref "underperformance#talent-assessment-and-managing-underperformance" >}}).
 
 ## Mid-Year Check In
 
@@ -625,7 +625,7 @@ Recommended process for our FY'25 Q2 cycle will be as follows:
 
 1. *Team Member Led: Team member provides a self-assessment on their own performance in their [1:1 document]({{< ref "1-1" >}})*
 
-   Team members can leverage their 1:1 document and should reflect on their achievements, strengths, and opportunity areas since the last formal Talent Assessment in Q4. It is the team member’s responsibility to provide the self-assessment and bring it to the conversation with their manager to discuss and align. Documenting in the 1:1 agenda ensures the material is available to come back to throughout the rest of the year.
+   Team members can leverage their 1:1 document and should reflect on their achievements, strengths, and opportunity areas since the last formal Talent Assessment in Q4. It is the team member's responsibility to provide the self-assessment and bring it to the conversation with their manager to discuss and align. Documenting in the 1:1 agenda ensures the material is available to come back to throughout the rest of the year.
 
     A recommended agenda for the Mid-Year check-in 1:1 is as follows:
 
@@ -736,7 +736,7 @@ Key Talent makes up roughly ~10% of the population. Key Talent represents team m
 Team members identified as Key Talent typically have knowledge, skills, and experience that:
 
 - Contribute to key areas of the product
-- Substantially impact the company’s ability to achieve significant milestones and results
+- Substantially impact the company's ability to achieve significant milestones and results
 - Have a substantial impact to a key process which drives business performance
 - Have a significant impact to the operation of a critical functional area
 - Demonstrate consistently strong performance
@@ -748,13 +748,13 @@ While not all of the criteria above need to be met for an individual to be desig
 
 Team members identified as key talent must be assessed at minimum Performing and Growing (Box 4) in the [Talent Assessment process](#the-performancegrowth-potential-matrix).
 
-The only exception is for newly promoted individuals that fall into “Developing” Performance and “Developing” Growth Potential due to time and experience in their new role. Although Performance and Growth Potential are a consideration in the Key Talent selection process, they are not the only criteria used to determine the designation and should not be used in isolation. It is important to look holistically at the Key Talent Criteria outlined above when determining who qualifies as Key Talent on your team.
+The only exception is for newly promoted individuals that fall into "Developing" Performance and "Developing" Growth Potential due to time and experience in their new role. Although Performance and Growth Potential are a consideration in the Key Talent selection process, they are not the only criteria used to determine the designation and should not be used in isolation. It is important to look holistically at the Key Talent Criteria outlined above when determining who qualifies as Key Talent on your team.
 
 "Too new to rate" team members can be considered key talent but this would be an exception. In order for a "too new to rate" team member to be identified as key talent they must have specialized skills that drive a significant impact to business results.
 
 Below are a few examples to help managers think through Key Talent designations as they relate to Performance and Growth Potential:
 
-1. A team member that has a performance assessment of “Exceeding” is not automatically indicated as Key Talent. Perhaps they are doing exceptionally well in their role, but the impact on the business would not be considered “critical” if they were to leave.
+1. A team member that has a performance assessment of "Exceeding" is not automatically indicated as Key Talent. Perhaps they are doing exceptionally well in their role, but the impact on the business would not be considered "critical" if they were to leave.
 1. A team member that is new to the role due to recent promotion and still "Developing" could be identified as Key Talent if they work in an area of the business that is highly specialized and critical to the success of key results at the company.
 
 *Note: Intentionally hoarding knowledge is in direct conflict with our [transparency value](/handbook/values/#transparency) and is viewed as a performance issue as we measure performance based on alignment with our values.*
@@ -765,7 +765,7 @@ Single Points of Failure (SPOF) refers to a single person whose absence would si
 
 Team members that are identified as Key Talent can also be SPOF, as the definition of SPOF overlaps with a few of the Key Talent Criteria outlined above, however, a team member who is identified as SPOF is not also Key Talent by default.
 
-A few key differences between Key Talent and SPOF include: team member’s performance and growth potential, risk mitigation plans, and support/development strategies.
+A few key differences between Key Talent and SPOF include: team member's performance and growth potential, risk mitigation plans, and support/development strategies.
 
 Four scenarios exist in the context of our Talent Assessment:
 
@@ -792,16 +792,16 @@ The process to determine Key Talent is as follows:
 
 ## Organizational Value
 
-A very small portion of our business (roughly ~10% of the population) is considered to be key talent. As such, a team members’ value in the organization should not be determined based on whether or not they are identified as key talent.
+A very small portion of our business (roughly ~10% of the population) is considered to be key talent. As such, a team members' value in the organization should not be determined based on whether or not they are identified as key talent.
 
-While some team members are identified as key talent, this does not mean the rest of our team is not valued and important to our organization’s success. Aligned with our [expected performance distribution](#expected-distribution-company-wide), approximately 60-65% of our team are core performers (or ["performing"](#performing)). Core performers are responsible for keeping things consistently moving forward. This group comprises the largest population in companies across the board for a reason and is an essential part of any organization’s success.
+While some team members are identified as key talent, this does not mean the rest of our team is not valued and important to our organization's success. Aligned with our [expected performance distribution](#expected-distribution-company-wide), approximately 60-65% of our team are core performers (or ["performing"](#performing)). Core performers are responsible for keeping things consistently moving forward. This group comprises the largest population in companies across the board for a reason and is an essential part of any organization's success.
 
 ## Impact of Being Identified as Key Talent
 
 We want to make sure we use engagement tools to retain Key Talent. A few of our primary engagement tools are: [Learning & Development](/handbook/people-group/learning-and-development), growth opportunities and compensation.
 
-- **Learning & Development:** We want to support the growth of Key Talent and their competencies, skills, and knowledge by providing them with the tools they need and the opportunities to progress their own personal and professional development goals. As a people manager it’s your priority to identify [L&D opportunities](/handbook/people-group/learning-and-development) for your team.
-- **Growth Opportunities:** As a people manager, it’s important to have career conversations and identify growth opportunities with your team members. For Key Talent, it’s especially important to discuss their motivation and ambitions. Growth opportunities can be both horizontal and vertical. Examples of growth opportunities are: expanding the scope within a team member's current role, a lateral move to a new role, or a promotion to the next level.
+- **Learning & Development:** We want to support the growth of Key Talent and their competencies, skills, and knowledge by providing them with the tools they need and the opportunities to progress their own personal and professional development goals. As a people manager it's your priority to identify [L&D opportunities](/handbook/people-group/learning-and-development) for your team.
+- **Growth Opportunities:** As a people manager, it's important to have career conversations and identify growth opportunities with your team members. For Key Talent, it's especially important to discuss their motivation and ambitions. Growth opportunities can be both horizontal and vertical. Examples of growth opportunities are: expanding the scope within a team member's current role, a lateral move to a new role, or a promotion to the next level.
 - **Compensation:** At GitLab, compensation = cash + equity + benefits. We have a [market based approach]({{< ref "compensation#market-based-approach" >}}) and differentiate pay based on performance. Our Annual Compensation Review Cycle and Annual Equity Refresh program allow us to differentiate compensation based on performance and for Key Talent.
 - **Succession Planning:** As team members identified as Key Talent are critical to roles that have a high impact on the company's success, it is important that we identify successors to avoid any single points of failure within the organization.
 

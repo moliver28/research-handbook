@@ -1,13 +1,6 @@
 ---
-
 title: Airflow Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## About the Airflow SEG
 

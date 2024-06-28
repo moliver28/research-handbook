@@ -77,7 +77,7 @@ Steps:
 
 ### Closing merge requests
 
-Sometimes community contributions become stale or obsolete and changes become no longer relevant or applicable. If the changes are no longer needed, it's fine to close the merge request whether the author is responsive or not. If there’s an open discussion or questions for the author, allow some time for them to get back to the discussion before closing the merge request.
+Sometimes community contributions become stale or obsolete and changes become no longer relevant or applicable. If the changes are no longer needed, it's fine to close the merge request whether the author is responsive or not. If there's an open discussion or questions for the author, allow some time for them to get back to the discussion before closing the merge request.
 
 In all cases, **always** provide some context on why the merge request is being closed as this can lead to fewer questions later on and create a point for future reference which would be useful for team members and community contributors.
 

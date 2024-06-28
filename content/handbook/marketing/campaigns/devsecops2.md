@@ -1,15 +1,8 @@
 ---
-
 title: "DevSecOps 2.0 Campaign"
 description: "Everything you need to know about the DevSecOps Capability campaign."
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
-
-
-
-
-
-
 
 ## Campaign Overview
 

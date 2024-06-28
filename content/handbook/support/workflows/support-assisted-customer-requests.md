@@ -1,12 +1,8 @@
 ---
-
 title: Support Assisted Customer Requests
 description: "GitLab Support Assisted customer requests"
 category: References
 ---
-
-
-
 
 ## Overview
 

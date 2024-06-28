@@ -1,20 +1,13 @@
 ---
-
 title: "Okta"
 ---
-
-
-
-
-
-
 
 ## What is Okta?
 
 From the Okta website
 
 > Okta is the foundation for secure connections between people and technology.
-> It’s a service that gives employees, customers, and partners secure access to the tools they need to do their most important work.
+> It's a service that gives employees, customers, and partners secure access to the tools they need to do their most important work.
 
 In practice - Okta is an Identity and Single Sign On solution for applications and Cloud entities.
 It allows GitLab to consolidate authentication and authorisation to applications we use daily through a single dashboard and ensure a consistent, secure and auditable login experience for all our GitLab team members.

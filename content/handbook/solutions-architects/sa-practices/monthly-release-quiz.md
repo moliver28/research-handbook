@@ -1,9 +1,7 @@
 ---
-
 title: "Monthly Release Quiz"
 description: "Enable SAs and the larger CS team on new and existing features with a monthly quiz event"
 ---
-
 
 Solutions Architects need to stay on top of all product changes and with GitLab releasing new features in each monthly update, it can be hard to keep track.
 A monthly quiz is organized as a way for team members to test their knowledge on new and existing features.

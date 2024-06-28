@@ -22,7 +22,7 @@ Please submit your prescription to Total Rewards for approval. Once approved, pl
 ## German Supplemental Pension Plans
 
 GitLab has introduced two supplemental Pension Plans for our Germany Team Members.
-GitLab offers a **Support fund** (*effective 2023-04*, GitLab contributions only) and a **Direct Insurance Pension Plan** (*effective 2023-05*, Team Member contributions with GitLab matching up to 1% via [Allianz](https://www.allianz.de/?gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB&AZMEDID=SEM_SE-GG_VT-g_TH-Brand.Gold_KA-perma%7Copen%7CBrandGold_AG-Brand.Gold.Brand_KW-allianz_MT-p_AZ-334946579704_SL-keinSL_EG-Multiple&ef_id=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB:G:s&s_kwcid=AL!8161!3!334946579704!p!!g!!allianz&gclsrc=aw.ds)). Please see the below “Plan Design” section for additional plan details.
+GitLab offers a **Support fund** (*effective 2023-04*, GitLab contributions only) and a **Direct Insurance Pension Plan** (*effective 2023-05*, Team Member contributions with GitLab matching up to 1% via [Allianz](https://www.allianz.de/?gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB&AZMEDID=SEM_SE-GG_VT-g_TH-Brand.Gold_KA-perma%7Copen%7CBrandGold_AG-Brand.Gold.Brand_KW-allianz_MT-p_AZ-334946579704_SL-keinSL_EG-Multiple&ef_id=Cj0KCQiA-oqdBhDfARIsAO0TrGFOXdVxBxDl1GdNzweGsEGxNyDBojrXXa_aita6JwWV_fudgFJOhyAaAhspEALw_wcB:G:s&s_kwcid=AL!8161!3!334946579704!p!!g!!allianz&gclsrc=aw.ds)). Please see the below "Plan Design" section for additional plan details.
 
 For an overview of the Pension Plan please see the [GitLab German Pension Plan Deck](https://drive.google.com/file/d/1fdZBxhIxE0UJrrxFrIwuaL8AY5miHVRl/view?usp=sharing).
 
@@ -40,7 +40,7 @@ Team members can also email this form directly to WTW  to obtain further support
 
 - **Please note: you can choose to update your elections or enroll in the Direct Insurance Plan at any time throughout the year.** If a team member notifies Total Rewards before the 5th of the month that they want to join or change their Direct Insurance Plan election - their enrollment/changes will be reflected on the 1st of the current month. If they notify TR after the 5th of the month, enrollment/changes will be reflected the 1st of the following month.
 
-- If there are any questions regarding the Direct Insurance plan or specific inquiries on your enrollment - please reach out our Pension Plan designated expert, meinebAV@wtwco.com, who will be able to further support via email or schedule a call/meeting/consultation, cc’ing total-rewards@gitlab.com
+- If there are any questions regarding the Direct Insurance plan or specific inquiries on your enrollment - please reach out our Pension Plan designated expert, meinebAV@wtwco.com, who will be able to further support via email or schedule a call/meeting/consultation, cc'ing total-rewards@gitlab.com
 - Team members can also email this [form](https://drive.google.com/file/d/1YFWOK4Wsh3g8bU4EMVwYvZyfyHqvES1V/view?usp=sharing) directly to WTW (meinebAV@wtwco.com) to obtain a quote for the salary sacrifice on the direct insurance plan.
 - Team Members should expect a contract (for their reference/records) from Allianz via post mail within 8 weeks of enrollment. If a team member does not receive a contract within the first 2 months of enrollment, please contact meinebAV@wtwco.com.
 
@@ -91,7 +91,7 @@ Contributions will cease the month after the team member goes on leave.  – For
 
 ### Team Member Leaving the Company
 
-When a team member leaves the company, Total-Rewards will notify Allianz of the GitLab alumni’s leave date. The alumni can then expect a letter from Allianz with instructions on how to update the insurer of the pension plan from GitLab to the Team Member. Please contact meinebAV@wtwco.com, if you have any questions or may not have received your letter from Allianz.
+When a team member leaves the company, Total-Rewards will notify Allianz of the GitLab alumni's leave date. The alumni can then expect a letter from Allianz with instructions on how to update the insurer of the pension plan from GitLab to the Team Member. Please contact meinebAV@wtwco.com, if you have any questions or may not have received your letter from Allianz.
 
 ## German Social Security System
 
@@ -144,9 +144,9 @@ Under the Maternity Protection Act, a breastfeeding woman may request time off d
 
 All team members who are or become parents are entitled to take up to three years of Parental Leave.
 
-Regardless of the length of service, under German law employees may take up to three years of parental leave following the child’s birth, adoption or foster care placement. The entitlement is valid until a child reaches the age of three years. A period of up to 24 months may be taken between the child's third birthday and the completion of his or her eighth year of life. The parental leave can be distributed over three time periods, without approval of the employer. Distribution over further periods is possible only with the employer's consent.
+Regardless of the length of service, under German law employees may take up to three years of parental leave following the child's birth, adoption or foster care placement. The entitlement is valid until a child reaches the age of three years. A period of up to 24 months may be taken between the child's third birthday and the completion of his or her eighth year of life. The parental leave can be distributed over three time periods, without approval of the employer. Distribution over further periods is possible only with the employer's consent.
 
-In case a woman takes parental leave subsequently to the child’s birth, the period of maternity leave is credited for the parental leave. For expecting mothers, they may take the Maternity Protection period followed by Parental Leave. GitLab will provide full Parental Leave pay (provided the team member meets the [eligibility criteria](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)) for up to 16 weeks of the total leave (including the Maternity Protection period). The team member may apply for state benefits for the remainder of their Parental Leave.
+In case a woman takes parental leave subsequently to the child's birth, the period of maternity leave is credited for the parental leave. For expecting mothers, they may take the Maternity Protection period followed by Parental Leave. GitLab will provide full Parental Leave pay (provided the team member meets the [eligibility criteria](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)) for up to 16 weeks of the total leave (including the Maternity Protection period). The team member may apply for state benefits for the remainder of their Parental Leave.
 
 **Maternity Leave Payment**
 
@@ -161,8 +161,8 @@ In case a woman takes parental leave subsequently to the child’s birth, the pe
 **Parental Leave Payment**
 
 - Eligible team members may choose to receive government-funded Parental Leave Pay (Basiselterngeld, ElterngeldPlus or Partnerschaftsbonus). Please note:  Any benefits received will be reduced due to the payments received by GitLab.  If a team member chooses to apply for ElterngeldPlus they should notify leaves@domain, otherwise GitLab will provide 100% of their wages for up to 16 weeks.
-  - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child’s birth and completion of the 14th month of life.
-  - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance’s amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
+  - Parents are generally entitled to a monthly parental allowance paid by the German state for the maximum of in total 14 months. The allowance is granted for the time between the child's birth and completion of the 14th month of life.
+  - The total amount of parental allowance months can be split up between the parents or taken by only one parent. The allowance's amount is 67% of the income from employment before childbirth, but at least EUR 300 and a maximum of EUR 1,800. There is no entitlement to parental allowance in the case of foster children. Team members can find further information on parental leave benefits via the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](https://www.elterngeld-digital.de/ams/Elterngeld).
 
 **Applying for Parental Leave in Germany**
 
@@ -178,7 +178,7 @@ During Parental leave, employees are statutorily entitled to part-time work (15 
 
 - The employer usually employs more than 15 employees, the employment relationship exists for at least six months,
 - The reduction is not opposed by urgent operational reasons, and
-- The employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child’s third birthday and 13 weeks for the period between the child’s third birthday and the completion of his or her eighth year of life before the start of the part-time work.
+- The employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child's third birthday and 13 weeks for the period between the child's third birthday and the completion of his or her eighth year of life before the start of the part-time work.
 
 The request must include the start and scope of the reduced working hours.
 

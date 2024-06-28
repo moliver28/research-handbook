@@ -33,7 +33,7 @@ The VETS deadline is September 30 every year, looking back at the previous full 
 
 #### California Pay Data Report
 
-As of 2021, due to Senate Bill 973, California employers are required to submit annual information on its employees’ pay data by gender, race, and ethnicity to the state’s Department of Fair Employment and Housing (DFEH). Specifically, the new law requires employers, (a) with 100 or more employees; and (b) that must file an annual Employer Information Report (EEO-1) under federal law, to submit an annual report to the DFEH that includes the number of employees (and the hours they worked):
+As of 2021, due to Senate Bill 973, California employers are required to submit annual information on its employees' pay data by gender, race, and ethnicity to the state's Department of Fair Employment and Housing (DFEH). Specifically, the new law requires employers, (a) with 100 or more employees; and (b) that must file an annual Employer Information Report (EEO-1) under federal law, to submit an annual report to the DFEH that includes the number of employees (and the hours they worked):
 
 - By race, ethnicity, and sex;
 - In each of the Job Categories in the federal EEO-1 Report; and
@@ -48,7 +48,7 @@ Employers must create a "snapshot" that counts all of the individuals in each jo
 
 **EEO-1 data filing requirements**
 
-Illinois’ SB 1480 requires employers to make their EEO-1 reports public beginning in early 2023. SB 1480 amends the Illinois Business Corporation Act to require public-facing reporting of employee demographic data to the Illinois Secretary of State. Applicable employers required to file an EEO-1 report must report information “substantially similar” to the employment data reported under Section D of the corporation’s EEO-1 form.
+Illinois' SB 1480 requires employers to make their EEO-1 reports public beginning in early 2023. SB 1480 amends the Illinois Business Corporation Act to require public-facing reporting of employee demographic data to the Illinois Secretary of State. Applicable employers required to file an EEO-1 report must report information "substantially similar" to the employment data reported under Section D of the corporation's EEO-1 form.
 
 **Amendments to the Illinois Equal Pay Act**
 
@@ -57,8 +57,8 @@ Illinois SB 1480 amends the Illinois Equal Pay Act of 2003 and requires private 
 To apply for an Equal Pay Registration Certificate employers must pay a $150 filing fee and provide the following to the Illinois Department of Labor:
 
 - Equal Pay Compliance Statement: An Equal Pay Compliance Statement, signed by a corporate officer, legal counsel, or authorized agent of the business that certifies the organization is in compliance with state and federal equal pay laws, including but not limited to, Title VII of the Civil Rights Act of 1964, the Equal Pay Act of 1963, the Illinois Human Rights Act, the Equal Wage Act, and the Equal Pay Act of 2003.
-- Employer Information Report EEO-1: If required to file an EEO-1 report with the EEOC, a copy of the business’s most recently filed EEO-1 report for each county in which the business has a facility or employees.
-- List of employees: Separated by gender and race/ethnicity categories as reported in the business’s most recently filed EEO-1 report and the total wages as defined by Section 2 of the Illinois Wage Payment and Collection Act paid to each employee during the past calendar year. The Illinois Department of Labor may also audit a business’s compliance by requesting the following information in the major job categories in the EEO-1 report: Number of male employees; Number of female employees; Average annualized salaries paid to male and female employees; Information on performance payments, benefits, or other elements of compensation; The average length of service for male and female employees in each major job category; Other information identified by the business or by the Illinois Department of Labor as needed to determine compliance with the above-specified requirements.
+- Employer Information Report EEO-1: If required to file an EEO-1 report with the EEOC, a copy of the business's most recently filed EEO-1 report for each county in which the business has a facility or employees.
+- List of employees: Separated by gender and race/ethnicity categories as reported in the business's most recently filed EEO-1 report and the total wages as defined by Section 2 of the Illinois Wage Payment and Collection Act paid to each employee during the past calendar year. The Illinois Department of Labor may also audit a business's compliance by requesting the following information in the major job categories in the EEO-1 report: Number of male employees; Number of female employees; Average annualized salaries paid to male and female employees; Information on performance payments, benefits, or other elements of compensation; The average length of service for male and female employees in each major job category; Other information identified by the business or by the Illinois Department of Labor as needed to determine compliance with the above-specified requirements.
 
 ## Australia
 
@@ -74,6 +74,6 @@ GitLab is tracking our headcount in Australia, so that in the event that we fall
 
 ### Gender Pay Gap Report
 
-Under the [Gender Pay Gap Information Act 2021](https://www.irishstatutebook.ie/eli/2021/act/20/enacted/en/print.html), certain employers are required to report not only whether there is a gender pay gap in their organisation, but why there is one, and what they intend to do about it. Employers must choose a “snapshot date” in June, which will establish the data set for its December report, and which will then be used for year-on-year comparison purposes into the future.
+Under the [Gender Pay Gap Information Act 2021](https://www.irishstatutebook.ie/eli/2021/act/20/enacted/en/print.html), certain employers are required to report not only whether there is a gender pay gap in their organisation, but why there is one, and what they intend to do about it. Employers must choose a "snapshot date" in June, which will establish the data set for its December report, and which will then be used for year-on-year comparison purposes into the future.
 
 Employers are required to publish the information annually on their website and ensure that the information is accessible to their employees and also the general public. From 2024, this report will be required for employers with a minimum of 150 employees, and from 2025, this report will be required for employers with a minimum of 50 employees. GitLab Ireland Ltd will continue to monitor our team member head count to ensure that we comply with this reporting requirement should we reach this or above the threshold.

@@ -23,7 +23,7 @@ description: "Learn about how to conduct retrospectives."
 * What would we like to change?
 * How can we implement that change?
 
-1. The key to making a Sprint Retrospective useful is to keep it “**_action focused_**” (have a bias for action) – meaning the team needs to focus in on what they can change to make their own process better
+1. The key to making a Sprint Retrospective useful is to keep it "**_action focused_**" (have a bias for action) – meaning the team needs to focus in on what they can change to make their own process better
 
 1. The meeting time is fixed: 45 minutes for each week of sprint duration
 
@@ -31,7 +31,7 @@ description: "Learn about how to conduct retrospectives."
 
 As mentioned, the Retrospectives should be **_action focused_** – the intent is to rapidly improve upon the process in order to enable better productivity.
 
-But, the reality is that some improvement suggestions might be quickly addressed, some might take some time, and others might be outside of the teams’ area of decision power or exceed the engagement duration.
+But, the reality is that some improvement suggestions might be quickly addressed, some might take some time, and others might be outside of the teams' area of decision power or exceed the engagement duration.
 
 It is suggested to keep a running log of improvement suggestions that will help you keep track of what improvement ideas came up, what category they fall into, and what sprint / release they first came up in, etc.
 
@@ -55,13 +55,13 @@ Something that you coordinate beyond the current engagement, for example, improv
 
 Yes, some people do not like the idea that some improvement suggestions will never be addressed, but we all know situations like this. For example, if an automation task would be nice to implement but the implementation effort takes so long that we cannot realize a ROI, we'll probably never implement it.
 
-This is an improvement suggestion that falls into the “Never” category; not because it might never happen, but because it is a decision in terms of impact and scope that cannot be decided upon by the team.
+This is an improvement suggestion that falls into the "Never" category; not because it might never happen, but because it is a decision in terms of impact and scope that cannot be decided upon by the team.
 
 ## Common Challenges and How to Deal with Them
 
 ### Boiling the Ocean
 
-It is incumbent on the Program Manager / Project Manager to keep the team on track during Retrospectives. Sometimes teams have a tendency to focus in on problems that fall into the “Boiling the Ocean” category.
+It is incumbent on the Program Manager / Project Manager to keep the team on track during Retrospectives. Sometimes teams have a tendency to focus in on problems that fall into the "Boiling the Ocean" category.
 
 Those are sometimes great discussion topics (especially for a long night over a cup of mint tea), but they almost always fall outside of the scope and sphere of influence of the team.
 
@@ -75,7 +75,7 @@ In order to make sure that the Retrospective is useful and produces good improve
 
 Several years ago a team member refused to participate in a Retrospective. When I asked him why, he said:
 
-`“Retrospectives are supposed to be like Lessons Learned meetings… but we never learn any lessons, we still got the same issues we had 2 years ago, so why waste time?”`
+`"Retrospectives are supposed to be like Lessons Learned meetings… but we never learn any lessons, we still got the same issues we had 2 years ago, so why waste time?"`
 
 His point was completely valid. To make Sprint Retrospectives work, you need to focus on what is relevant (last iteration / current engagement) and what your team can actually implement. Keeping track in a log as to what improvement suggestions were brought up, which ones got implemented, etc. keeps the team accountable but also shows the progress.
 

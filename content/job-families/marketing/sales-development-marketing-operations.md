@@ -109,12 +109,12 @@ The Manager, Global Sales Development Operations is a grade 8.
 - Contributes to evaluation, selection, implementation and integration of Sales Development tool stack.
 - Sets up regular touchpoints with Sales Dev teams and CSMs to ensure tools are being used optimally.
 - Recommends iterations to tool workflows that optimize results. (SFDC, Outreach, Cognism, ZoomInfo, Chorus, Sales Navigator, Conversica, Drift)
-- Designs and drives strategies and processes focused on outbound pipeline generation, with emphasis on LAM and first order SAO’s
+- Designs and drives strategies and processes focused on outbound pipeline generation, with emphasis on LAM and first order SAO's
 - Identifies needs in process improvement, with primary focus on BDR workflows
 - Responsible for designing effective processes and providing visibility on adoption of those processes by Sales Development management team
 - Recruits, develops and guides a team to execute on key outbound pipeline generation strategies
 - Establishes, Standardizes, Documents and Monitors all aspects related to Sales Development operational excellence. This includes standardizing Sales Dev Playbooks, agendas (1:1's, SAE/BDR, Team Meeting), shared/public views in tools, sales dev issue templates & sales dev issue boards
-- Oversees the testing, optimization and measurement of Sales Dev Outreach messaging so that it's aligned to our brand and uses “best in class” resources/strategies in collaboration with product marketing
+- Oversees the testing, optimization and measurement of Sales Dev Outreach messaging so that it's aligned to our brand and uses "best in class" resources/strategies in collaboration with product marketing
 - Conducts bi-weekly 1:1s with sales dev leadership to review key processes and ensure effective pass downs
 
 #### Manager, Global Sales Development Operations Requirements
@@ -142,12 +142,12 @@ The Senior Manager, Global Sales Development Operations is a [grade 9](/handbook
 - Contributes to evaluation, selection, implementation and integration of Sales Development tool stack.
 - Sets up regular touchpoints with Sales Dev teams and CSMs to ensure tools are being used optimally.
 - Recommends iterations to tool workflows that optimize results. (SFDC, Outreach, Cognism, ZoomInfo, Chorus, Sales Navigator, Conversica, Drift)
-- Desigsn and drives strategies and processes focused on outbound pipeline generation, with emphasis on LAM and first order SAO’s
+- Desigsn and drives strategies and processes focused on outbound pipeline generation, with emphasis on LAM and first order SAO's
 - Identifies needs in process improvement, with primary focus on BDR workflows
 - Responsible for designing effective processes and providing visibility on adoption of those processes by Sales Development management team
 - Recruits, develops and guides a team to execute on key outbound pipeline generation strategies
 - Establishes, Standardizes, Documents and Monitors all aspects related to Sales Development operational excellence. This includes standardizing Sales Dev Playbooks, agendas (1:1's, SAE/BDR, Team Meeting), shared/public views in tools, sales dev issue templates & sales dev issue boards
-- Oversees the testing, optimization and measurement of Sales Dev Outreach messaging so that it's aligned to our brand and uses “best in class” resources/strategies in collaboration with product marketing
+- Oversees the testing, optimization and measurement of Sales Dev Outreach messaging so that it's aligned to our brand and uses "best in class" resources/strategies in collaboration with product marketing
 - Conducts bi-weekly 1:1s with sales dev leadership to review key processes and ensure effective pass downs
 
 #### Senior Manager, Global Sales Development Operations Requirements
@@ -184,7 +184,7 @@ The Director, Sales Development Operations is a [grade 10](/handbook/total-rewar
 - Continually works to simplify systems and processes, avoiding customization bloat and over-engineered processes
 - Manages, builds, and leads a strong team by coaching and developing existing members and closing talent gaps where needed through acquisition of new team members.
 - SDR DRI on selection of new vendors
-- Designs process changes to improve SDR’s experience and enhance productivity
+- Designs process changes to improve SDR's experience and enhance productivity
 
 #### Director, Global Sales Development Operations Requirements
 

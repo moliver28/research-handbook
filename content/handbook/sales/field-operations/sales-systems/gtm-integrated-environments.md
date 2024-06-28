@@ -1,12 +1,6 @@
 ---
-
 title: "Go-To-Market Integrated Environments"
 ---
-
-
-
-
-
 
 ## How to use this documentation
 

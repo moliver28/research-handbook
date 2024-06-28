@@ -11,7 +11,7 @@ This brief How-To guide will quickly summarize the key issues addressed in Agile
 
 Note: **We only suggest applying Estimation techniques for Projects over 2 months in duration.**
 
-## Estimating Gitlab Professional Services Projects 
+## Estimating Gitlab Professional Services Projects
 
 We recommend the below t-shirt sizing estimation if the Gitlab and Customer Project teams decides to move forward with applying weight to Gitlab Issues:
 
@@ -22,14 +22,14 @@ We recommend the below t-shirt sizing estimation if the Gitlab and Customer Proj
 
 ## Estimation Uncertainty
 
-It is worth noting that the meaning of “estimate” can be
+It is worth noting that the meaning of "estimate" can be
 
 1. to roughly calculate or judge the value, number, quantity, or extent of something \[verb\], and
 2. an approximate calculation or judgment of the value, number, quantity, or extent of something \[noun\]
 
-Synonyms include: _calculate roughly, approximate, rough guess_ – hence the slang term “guestimate” – a mixture of guesswork and calculation.
+Synonyms include: _calculate roughly, approximate, rough guess_ – hence the slang term "guestimate" – a mixture of guesswork and calculation.
 
-Dwight D. Eisenhower famously said: _“Plans are worthless, but planning is everything. There is a very great distinction because when you are planning for an emergency you must start with this one thing: the very definition of "emergency" is that it is unexpected, therefore it is not going to happen the way you are planning.”_[\[1\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftn1)
+Dwight D. Eisenhower famously said: _"Plans are worthless, but planning is everything. There is a very great distinction because when you are planning for an emergency you must start with this one thing: the very definition of "emergency" is that it is unexpected, therefore it is not going to happen the way you are planning."_[\[1\]](http://file///C:/Users/brian/Dropbox/My%20Documents/Will%20Consulting%20Group/Published%20on%20LinkedIn/Agile%20Estimation%20How%20To/Agile%20Estimation%20How%20To.docx#\_ftn1)
 
 The point is that estimates are never precise, but in project management – especially software / IT project management – estimates regularly are baselined, cast in stone, tracked against, and then cause many political problems because it is perceived that the people that originally estimated the effort got it all wrong.
 
@@ -55,7 +55,7 @@ Production lines usually have been optimized with lots of empirical time measure
 
 **If you are doing anything that involves uncertainty, creativity, or something that has never been before, the Cone of Uncertainty rules. This applies to most software development and IT projects.**
 
-Even regular IT tasks such as server upgrades frequently take longer than expected – may that be that your system administrator runs out of disk space, experiences an unexpected power outage that corrupts the upgrade, or some other “emergency”.
+Even regular IT tasks such as server upgrades frequently take longer than expected – may that be that your system administrator runs out of disk space, experiences an unexpected power outage that corrupts the upgrade, or some other "emergency".
 
 You can automate the process and make it more predictable, such as Amazon Web Services automated server requisitions in the cloud, but this usually requires process standardization which basically means it is not something that involves uncertainty, creativity, or has never been done before – to the contrary, it is something that has been done thousands of time, is known, and is well understood.
 
@@ -67,13 +67,13 @@ If I plan what I am going to do today, I most likely will have a good understand
 
 On the other hand, if I am trying to plan for something 5 months out, the best I can do is put down a reminder – the chances of something unforeseen happening that might change my plans are high. I might get sick, be out of town for unexpected business travel, or need to tend to my parents.
 
-For estimation of software projects, this translates into the traditional “Planning Onion” as follows:
+For estimation of software projects, this translates into the traditional "Planning Onion" as follows:
 
 ![PlanningOnion.jpg](./PlanningOnion.jpg)
 
-This “Planning Onion” basically works from the outside in to provide ever increasing levels of detail; as such it is closely related to the concept presented in the Cone of Uncertainty.
+This "Planning Onion" basically works from the outside in to provide ever increasing levels of detail; as such it is closely related to the concept presented in the Cone of Uncertainty.
 
-To reflect the timing aspect and estimation detail, you can think of the “Planning Onion” like this:
+To reflect the timing aspect and estimation detail, you can think of the "Planning Onion" like this:
 
 ![PlanningOnionTiming.jpg](./PlanningOnionTiming.jpg)
 
@@ -91,10 +91,10 @@ From an estimation technique perspective, there is no reason why T-Shirt Sizing 
 
 **The main problem with Waterfall is that it attempts to estimate the entire project upfront, thereby committing the project to an unrealistic time line early on, without clearly understanding the scope.**
 
-The following picture shows a traditional Waterfall process with three imaginary (but in my experience very common) “interruptions”, which basically reset the project to the beginning.
+The following picture shows a traditional Waterfall process with three imaginary (but in my experience very common) "interruptions", which basically reset the project to the beginning.
 
 1. Requirements Change – key requirements changed and force the team back to the Analysis drawing board
-2. Customer Management Turnover – your customer / client management or key stakeholders changed and the “new team” wants to provide input (read “new direction”) on the project which causes a reset
+2. Customer Management Turnover – your customer / client management or key stakeholders changed and the "new team" wants to provide input (read "new direction") on the project which causes a reset
 3. Technology Innovation – new technologies allow for better ways to deliver the project, which forces the team to re-evaluate existing analysis, design, and code and start over
 
 ![WaterfallModel.jpg](./WaterfallModel.jpg)
@@ -107,15 +107,15 @@ Using Agile on the other hand, you are able to deliver small product increments 
 
 Even if requirements change mid sprint, the product increment at the end of that sprint will be delivered. New requirements make it into the product backlog to be prioritized for later sprints.
 
-Even if customer / client management or stakeholders change, in Agile / Scrum the project team can demonstrate working software at the end of every sprint, many times lessening the desire to “change direction” (because, after all, it works already!). Any changes requested are logged as additional requirements in the product backlog to be prioritized for later sprints.
+Even if customer / client management or stakeholders change, in Agile / Scrum the project team can demonstrate working software at the end of every sprint, many times lessening the desire to "change direction" (because, after all, it works already!). Any changes requested are logged as additional requirements in the product backlog to be prioritized for later sprints.
 
 Lastly, even technology innovation can be accommodated by including it into the product backlog to be prioritized for later sprints.
 
-**The important thing here is that in Agile, despite interruptions, unexpected developments, and “emergencies”, the team keeps delivering working software in the form of product increments at the end of every sprint – delivering real tangible value.**
+**The important thing here is that in Agile, despite interruptions, unexpected developments, and "emergencies", the team keeps delivering working software in the form of product increments at the end of every sprint – delivering real tangible value.**
 
 Contrast that with the Waterfall methodology, where the only value created often is a large set of documents that the team struggles to keep updated.
 
-Delivering working software also creates “facts on the ground” that are harder to ignore or debate about than if the team had merely produced a set of documents.
+Delivering working software also creates "facts on the ground" that are harder to ignore or debate about than if the team had merely produced a set of documents.
 
 ## Common Estimation Approaches
 
@@ -145,13 +145,13 @@ As mentioned before, Estimation Poker is a relative estimation technique that fa
 
 The Implementation Team members doing the work have to do the estimates; this is critical. You cannot have people other than the actual Implementation Team estimate the work. This is critical in order to create accountability and make sure the Implementation Team is fully committed to the estimate.
 
-Estimation Poker self-corrects for team idiosyncrasies – meaning two teams might estimate the same work and come up with different estimates because the specific team’s composition and skill set might be different.
+Estimation Poker self-corrects for team idiosyncrasies – meaning two teams might estimate the same work and come up with different estimates because the specific team's composition and skill set might be different.
 
 The following 8 steps describe the basic Estimation Poker process:
 
 ### STEP 1
 
-Identify an “anchor story” – the best understood story everybody can agree on and provides a size / effort reference
+Identify an "anchor story" – the best understood story everybody can agree on and provides a size / effort reference
 
 ### STEP 2
 
@@ -194,7 +194,7 @@ There are basically 4 ways to resolve disagreement during the estimation process
 
 The best way to resolve disagreements is to have the discussion and all team member agree on the estimate.
 
-Remember that estimation is team specific, and that the estimate is basically the Implementation Team’s commitment to deliver based on this estimate – so consensus is important.
+Remember that estimation is team specific, and that the estimate is basically the Implementation Team's commitment to deliver based on this estimate – so consensus is important.
 
 All for one, and one for all!
 
@@ -205,7 +205,7 @@ All for one, and one for all!
 T-Shirt Sizing (aka Affinity Estimation) is based upon the need to estimate things quickly without necessarily having all the details available that you usually might require. Here are some examples of how T-Shirt Sizing can be use:
 
 1. For budgeting purposes – when a Vision and Roadmap are being discussed, T-Shirt Sizing can do the trick by having some experienced developers look at the high level asks and sizing it appropriately. The same applies for staffing plans (how many PSEs do we need to hire next year?)
-2. When user stories are not available – Program Manager / Project Managers are the detail level domain experts that know what their engagement is supposed to do in detail. During Estimation Poker, the Program Manager explains, discuss, and clarifies each user story. But, the reality is that oftentimes fully fleshed out user stories might not be available yet, nor will the Program Manager sometimes know 6 months ahead of the potential sprint what necessarily has to be developed. Having said that, at a minimum you should have a placeholder subject line for each user story you wish to estimate, for example, “Support HP OfficeJet 9800” – at least developers will quickly be able to grasp what is required in the larger scheme of things without knowing the exact details
+2. When user stories are not available – Program Manager / Project Managers are the detail level domain experts that know what their engagement is supposed to do in detail. During Estimation Poker, the Program Manager explains, discuss, and clarifies each user story. But, the reality is that oftentimes fully fleshed out user stories might not be available yet, nor will the Program Manager sometimes know 6 months ahead of the potential sprint what necessarily has to be developed. Having said that, at a minimum you should have a placeholder subject line for each user story you wish to estimate, for example, "Support HP OfficeJet 9800" – at least developers will quickly be able to grasp what is required in the larger scheme of things without knowing the exact details
 3. When you have 2,986 user stories – it is not uncommon for a productive Program Manager / Project Manager to crank out hundreds and even thousands of user stories – at varying levels of detail, some fully fleshed out, and some only with a subject line. Then the challenge becomes the excessive amount of time it would take to estimate all those stories. Do you put your development effort on hold for 6 weeks simply to generate estimates with Estimation Poker?
 
 The answer to these estimation challenges is to use T-Shirt Sizing. In order to have a somewhat comparable scheme between Estimation Poker and T-Shirt Sizing, it is suggested to use the following quantification scheme:
@@ -216,13 +216,13 @@ The answer to these estimation challenges is to use T-Shirt Sizing. In order to 
 * Large = 5 story points
 * XL = 8 story points
 * XXL = 13 story points
-* EPIC = Program Manager / Project Manager needs to break down the Epic into more refined User Stories (for example, the EPIC might state something like “Internationalization Support”. This needs to be broken down into more detailed user stories like “Provide Support for British English”, “Provide Support for Spanish”, in order to be able to estimate it)
+* EPIC = Program Manager / Project Manager needs to break down the Epic into more refined User Stories (for example, the EPIC might state something like "Internationalization Support". This needs to be broken down into more detailed user stories like "Provide Support for British English", "Provide Support for Spanish", in order to be able to estimate it)
 
 Then, follow these four easy steps:
 
 ### STEP 1
 
-Take 1 minute and have the Development Team agree on a single “small” user story. Repeat with XS, medium, large, XL, XXL, and EPIC sized stories
+Take 1 minute and have the Development Team agree on a single "small" user story. Repeat with XS, medium, large, XL, XXL, and EPIC sized stories
 
 ### STEP 2
 
@@ -268,7 +268,7 @@ What is important to understand, both for estimation efficiency as well as team 
 
 The bigger the team, the harder it is to effectively communicate, estimate, and come to consensus. The bigger the team, the more likely something will fall through the cracks because of miscommunication. Because most of our PS engagements are conducted remotely, this problem is amplified even more.
 
-This challenge of ever increasing communication paths with larger teams is also somewhat related to the famous “[Dunbar’s number](http://en.wikipedia.org/wiki/Dunbar's_number)”, which suggested a cognitive limit to the number of people with whom one can maintain stable social relationships (\~150).
+This challenge of ever increasing communication paths with larger teams is also somewhat related to the famous "[Dunbar's number](http://en.wikipedia.org/wiki/Dunbar's_number)", which suggested a cognitive limit to the number of people with whom one can maintain stable social relationships (\~150).
 
 ## What is Velocity?
 
@@ -282,13 +282,13 @@ Using Estimation Poker, estimation variability decreases usually over the course
 
 ![Estimation Accuracty](./EstimationAccuracySelfCorrect.jpg)
 
-Pleases note that “stable teams” is key here – teams need to be stable, meaning team members need to know each other, have worked with each other, and successfully formed a team – following the standard “forming–storming–norming–performing” model of group development, first proposed by [Bruce Tuckman in 1965](http://en.wikipedia.org/wiki/Tuckman's_stages_of_group_development).
+Pleases note that "stable teams" is key here – teams need to be stable, meaning team members need to know each other, have worked with each other, and successfully formed a team – following the standard "forming–storming–norming–performing" model of group development, first proposed by [Bruce Tuckman in 1965](http://en.wikipedia.org/wiki/Tuckman's_stages_of_group_development).
 
 These phases are all necessary and inevitable in order for the team to grow, to face up to challenges, to tackle problems, to find solutions, to plan work, and to deliver results. As most of our larger PS engagement will require extensive cross-team communication and collaboration with Customer Development Teams, it is necessary to understand and be aware of team dynamics on the customer side as well.
 
 ## Estimate Accuracy and Velocity over Time
 
-Once a Implementation Team has gone through the “forming–storming–norming–performing” process, team velocity is established. Estimation accuracy and predictable velocity allow for longer term forecasting.
+Once a Implementation Team has gone through the "forming–storming–norming–performing" process, team velocity is established. Estimation accuracy and predictable velocity allow for longer term forecasting.
 
 ![Velocity Over Time](./Velocity-Forecast.jpg)
 

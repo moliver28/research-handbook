@@ -1,5 +1,4 @@
 ---
-
 title: Working on Zendesk automations, triggers, macros and views
 description: "How to collaborate on Zendesk automations, triggers, macros and views"
 category: Zendesk

@@ -2,12 +2,6 @@
 title: "Customer Events"
 ---
 
-
-
-
-
-
-
 ### Requesting a Reference Customer
 
 Requesting a Reference Customer to speak and/or otherwise support an event
@@ -27,7 +21,7 @@ Alliances/ Partners (1 per qtr)
 
 To request a reference customer to speak and/or otherwise support an event the first step is to [open the Customer Speaker Request template](https://gitlab.com/gitlab-com/marketing/product-marketing/-/issues/new?issuable_template=customer-speaker-request) a minimum of 75 days before the event. This issue will be tracked on the Customer Reference Program [board](https://gitlab.com/groups/gitlab-com/marketing/-/boards/927283?label_name[]=Customer%20Reference%20Program). As customer references need to be effectively optimised we suggest a maximum of two customer speakers at events.
 
-*Please note that requests that fall without the timing parameters outlined in the handbook may not be supported, and if we’re supporting past the mininum requirement, we will require additional approvals to support the request*
+*Please note that requests that fall without the timing parameters outlined in the handbook may not be supported, and if we're supporting past the mininum requirement, we will require additional approvals to support the request*
 
 **Process for fulfilling a request to support a Field Marketing, Corporate Marketing/Company, or Community Event**
 

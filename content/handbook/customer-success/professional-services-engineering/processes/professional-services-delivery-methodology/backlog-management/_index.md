@@ -37,7 +37,7 @@ The Program Manager / Project Manager provides strategy and direction for the pr
 
 [Sizing and estimation](../good-estimation-techniques/_index.md) of the product backlog usually occurs in sprint planning meetings or at regularly intervals during ongoing sprints. Depending on how fast the Program Manager / Project Manager adds user stories, more frequent, maybe even daily estimation sessions might be needed. The GitLab Implementation Team and the Customer Development Team and Program Manager / Project Manager must work together to estimate the backlog items, may that be in sprint planning meetings or during ongoing regular sessions.
 
-The important point here is that product backlog items need to get estimated continuously in order to avoid the big bang estimation effort at one critical juncture of the effort. The frequency of the estimation effort is depending on your engagement development effort. This has the added benefit of exposing the entire team to the Program Manager / Project Managers’ thinking, keeping everybody in sync and with an improved understanding of requested product features and functionality.
+The important point here is that product backlog items need to get estimated continuously in order to avoid the big bang estimation effort at one critical juncture of the effort. The frequency of the estimation effort is depending on your engagement development effort. This has the added benefit of exposing the entire team to the Program Manager / Project Managers' thinking, keeping everybody in sync and with an improved understanding of requested product features and functionality.
 
 Sprint Planning meetings or more frequent estimation session need to follow established Agile Estimation best practices, meaning Product Backlog Items are estimated using either Estimation Poker or T-Shirt sizing.
 
@@ -65,7 +65,7 @@ Labels can be used to tag user stories / issues.
 
 Using such tagging lets you easily view relevant information about the specific user story and what state it is in.
 
-Usually the next upcoming sprint is sized and estimated in detail using Estimation Poker, with the following two to three sprints and their contents being sized and estimated using either Estimation Poker or T-Shirt Sizing. Remember that once a sprint is committed to by the team, the scope should not change any longer as you are “in-flight” - changing stories "in-flight" causes unnecessary context switching, which is costly in terms of productivity. Future sprints can still be adjusted and items can be reshuffled as the Product Owner and Development Team agree on.
+Usually the next upcoming sprint is sized and estimated in detail using Estimation Poker, with the following two to three sprints and their contents being sized and estimated using either Estimation Poker or T-Shirt Sizing. Remember that once a sprint is committed to by the team, the scope should not change any longer as you are "in-flight" - changing stories "in-flight" causes unnecessary context switching, which is costly in terms of productivity. Future sprints can still be adjusted and items can be reshuffled as the Product Owner and Development Team agree on.
 
 ![Release Backlog](./Agile-Release-Planning-Sprint.jpg){width="767" height="518"}
 
@@ -85,7 +85,7 @@ Remember that the Sprint Backlog is supposed to be the most precise and fleshed 
 
 ## Backlogs are the Fulcrum of Agile / Scrum
 
-“Garbage in, garbage out”, in the case of Agile backlogs, it is true.
+"Garbage in, garbage out", in the case of Agile backlogs, it is true.
 
 The single most important artifact impacting the delivery success of the current sprint is the Sprint Backlog.
 
@@ -111,7 +111,7 @@ User stories should follow the INVEST principle. They should be:
 
 * Independent (to the degree possible, user stories should not rely on other user stories to be implemented)
 * Negotiable
-* Valuable (meaning they are feature focused, not task oriented, and are written in the user’s language to the extent possible; where domain specific language is required, such as in genomics or medicine, a subject matter expert will have to be available)
+* Valuable (meaning they are feature focused, not task oriented, and are written in the user's language to the extent possible; where domain specific language is required, such as in genomics or medicine, a subject matter expert will have to be available)
 * Estimable
 * Small (half a Sprint or less for one Dev Team member)
 * Testable (needs to have acceptance criteria and not be subjective)
@@ -130,9 +130,9 @@ Sometimes the Program Manager / Project Manager might start adding user stories 
 
 Or, the Program Manager / Project Manager, out of desperation because the Implementation and Development Teams are busy with implementation tasks, starts estimating the effort himself/herself, without the technical teams being involved. This is a bad idea!
 
-One of the core Agile principles is that “business people and developers must work together daily”, as such the Program Manager / Project Manager cannot simply hand over user stories to the technical teams as it defeats the purpose of jointly understanding and estimating user stories.
+One of the core Agile principles is that "business people and developers must work together daily", as such the Program Manager / Project Manager cannot simply hand over user stories to the technical teams as it defeats the purpose of jointly understanding and estimating user stories.
 
-If the inflow of requirements outpaces the teams’ ability to understand the requirements in detail and estimate them accordingly, the best course of action is to set up additional backlog refinement sessions to get things back on course.
+If the inflow of requirements outpaces the teams' ability to understand the requirements in detail and estimate them accordingly, the best course of action is to set up additional backlog refinement sessions to get things back on course.
 
 ## Fantasy Wish List
 
@@ -146,7 +146,7 @@ Especially during Agile Transformation / Adoption efforts, teams often times dea
 
 For example, customers might have many UML diagrams, functional or technical requirements specifications, etc. Why not put them to good use and just make them part of the user stories?
 
-The reason not to do this is because specification have the side effect of shutting down discussions, as in “this is the specification we need to implement, nothing more, nothing less” – essentially specification hinder the discover of newly emerging requirements.
+The reason not to do this is because specification have the side effect of shutting down discussions, as in "this is the specification we need to implement, nothing more, nothing less" – essentially specification hinder the discover of newly emerging requirements.
 
 However, this is not to say that once a user story is well understood by the team, you will never, ever, write a technical specification document in order to document the implementation.
 

@@ -1,15 +1,8 @@
 ---
-
 title: "Proof Points"
 description: "GitLab proof points including customer references, case studies, industry awards, analyst reports and studies, GitLab reports and studies, and peer reviews"
 twitter_image: '/images/tweets/research-panel.png'
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -288,7 +281,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 ---
 
 <big>[Jasper Solutions](https://about.gitlab.com/customers/jasper-solutions/)</big><br>
-**Problem:** Jasper Solutions needed a platform that offers security, code management, and consistent pipelines in order to create its dynamic tactical edge “DevSecOps in a box<br>
+**Problem:** Jasper Solutions needed a platform that offers security, code management, and consistent pipelines in order to create its dynamic tactical edge "DevSecOps in a box<br>
 **Solution:** GitLab Ultimate (SCM, CI, CD)<br>
 **Result:** 30% reduction in cycle time, 25% increase in deployment frequency and 90-95% of projects are on time and on budget<br>
 **Value Drivers:** Efficiency, Speed, Security<br>
@@ -363,7 +356,7 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 
 #### 2020
 
-<big>[GitLab Recognized by 451 Research as a ‘451 Firestarter'](https://www.globenewswire.com/news-release/2020/01/14/1970490/0/en/GitLab-Recognized-by-451-Research-as-a-451-Firestarter.html)</big><br>
+<big>[GitLab Recognized by 451 Research as a '451 Firestarter'](https://www.globenewswire.com/news-release/2020/01/14/1970490/0/en/GitLab-Recognized-by-451-Research-as-a-451-Firestarter.html)</big><br>
 *The complete DevOps platform delivered as a single application recognized by leading analyst firm for innovation and vision in the technology industry*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Rapid Dev, Simply Dev Ops
@@ -475,7 +468,7 @@ GitLab customers were interviewed and related data was collected independently b
 #### 2019
 
 <big>[Forrester: Manage Your Toolchain Before it Manages You](https://about.gitlab.com/resources/whitepaper-forrester-manage-your-toolchain/)</big><br>
-*Multiple tools and toolchains create visibility, security, and productivity challenges for development and operations teams. “Out-of-the-box” toolchain solutions are seen as a solution, increasing security, revenue, and quality.*<br>
+*Multiple tools and toolchains create visibility, security, and productivity challenges for development and operations teams. "Out-of-the-box" toolchain solutions are seen as a solution, increasing security, revenue, and quality.*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Visibility<br>
 **Usecase** VC&C, CI, CD, Simplify DevOps
@@ -491,7 +484,7 @@ GitLab customers were interviewed and related data was collected independently b
 #### 2018
 
 <big>[Forrester: Continuous Delivery and Release Automation - Contender](/analysts/forrester-cdra20/)</big><br>
-*Release automation tools enable faster, higher-quality, more automated software delivery through modeling applications, infrastructure, middleware, and their supporting installation processes and dependencies. “GitLab’s release automation is ideal for cloud-native, Kubernetes-centric organizations.”*<br>
+*Release automation tools enable faster, higher-quality, more automated software delivery through modeling applications, infrastructure, middleware, and their supporting installation processes and dependencies. "GitLab's release automation is ideal for cloud-native, Kubernetes-centric organizations."*<br>
 **Value Drivers:** Efficiency, Speed<br>
 **Usecase** CD
 
@@ -553,8 +546,8 @@ DevSecOps = changing roles: Security can be found on cross-functional teams and 
 ---
 
 <big>[2020 Global Developer Report: DevSecOps](/developer-survey/)</big><br>
-**Findings Included:** DevOps = faster releases: If you’re a developer, DevOps just works. Nearly 83% of them report they’re releasing code more quickly.
-About 35% report code is released twice as rapidly, while nearly 25% said it’s now being released 10 times faster.
+**Findings Included:** DevOps = faster releases: If you're a developer, DevOps just works. Nearly 83% of them report they're releasing code more quickly.
+About 35% report code is released twice as rapidly, while nearly 25% said it's now being released 10 times faster.
 <br>
 **Customer Value:** Automated testing in the CI pipeline accelerates delivery, finding defects earlier.<br>
 **Value Drivers:** Speed<br>
@@ -563,7 +556,7 @@ About 35% report code is released twice as rapidly, while nearly 25% said it’s
 ---
 
 <big>[2020 Global Developer Report: DevSecOps](/developer-survey/)</big><br>
-**Findings Included:** CD is real: Nearly 60% deploy multiple times a day, once a day, or once every few days. That’s up from 45% last year.  And 74% of organizations report they have shifted testing left, meaning they’ve moved it earlier into the development process.<br>
+**Findings Included:** CD is real: Nearly 60% deploy multiple times a day, once a day, or once every few days. That's up from 45% last year.  And 74% of organizations report they have shifted testing left, meaning they've moved it earlier into the development process.<br>
 **Customer Value:** Visibility and transparency into future work leads to more efficient planning and execution.<br>
 **Value Drivers:** Efficiency<br>
 **Usecase** Continuous Integration, Continuous Delivery**

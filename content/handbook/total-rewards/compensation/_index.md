@@ -32,7 +32,7 @@ If you have any feedback or questions relating to compensation, please reach out
 1. We base compensation on current position and performance at GitLab – not on what we paid you last month – and, generally, we don't reduce compensation.
 1. Increases within the market pay bands will be based on performance.
     - At hire, we base our compensation offer on the position and experience in the market.
-    - For promotions, increases are based on ensuring alignment to the new role’s market range.
+    - For promotions, increases are based on ensuring alignment to the new role's market range.
     - At [Annual Compensation review]({{< ref "compensation-review-cycle#annual-compensation-review" >}}), increases will ensure alignment to the market (by being within the entire range of the calculator), and resources will be allocated to top performing team members within the organization.
 1. GitLab will continue to monitor [pay equality](/handbook/people-group/people-success-performance-indicators/#sts=Pay%20Equality) to ensure underrepresented groups are paid at the same rate as the company.
 1. We want to follow the processes on this page for everyone, please email `total-rewards@ gitlab` when we don't. If you have a specific question around your compensation or one of your direct reports' please schedule a call with `total-rewards@ gitlab` to review.
@@ -97,7 +97,7 @@ We have a market-based approach to compensation because:
 1. It allows for us to adapt to market changes, thus remaining competitive for local talent
 1. Role, location, and level benchmarks keep compensation bands consistent. Market-based benchmarks also help with keeping it fair and consistent rather than expecting our team members to negotiate their pay.
 1. Prevents wage compression which occurs when new employees negotiate and get higher wages than those being paid to current team members.
-1. As long as budget permits, we do what’s right for the market even if it means paying a team member higher than their “expected” pay.
+1. As long as budget permits, we do what's right for the market even if it means paying a team member higher than their "expected" pay.
 
 ## Compensation Group
 

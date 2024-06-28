@@ -1,13 +1,6 @@
 ---
-
 title: "Devon Persona snippets"
 ---
-
-
-
-
-
-
 
 ## SDR persona snippets by use case
 
@@ -34,7 +27,7 @@ title: "Devon Persona snippets"
 - We find that our customers with complicated toolchains, especially towards the left side of the SDLC, have more difficulty managing complex pipelines and supporting integrations. This usually makes implementing and maintaining CI more expensive than originally planned.
   - Is this something your team is dealing with?
 - Some of the teams I talk with spend hours 'babysitting' their pipeline jobs - has that been the case for you or your teams?
-- What is the workflow if a developer wants to create a new pipeline or add a job to an existing pipeline? How much time does that take the developer away from doing “real work”?
+- What is the workflow if a developer wants to create a new pipeline or add a job to an existing pipeline? How much time does that take the developer away from doing "real work"?
 - ...
 
 ##### SDR Use Case Snippets

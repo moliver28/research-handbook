@@ -1,11 +1,11 @@
 ---
 title: "Minorities in Tech Mentoring Program"
-description: "The purpose of the MIT Mentoring Program is to improve GitLab’s ability to attract, retain and engage minority team members."
+description: "The purpose of the MIT Mentoring Program is to improve GitLab's ability to attract, retain and engage minority team members."
 ---
 
 ## Purpose
 
-The purpose of the MIT Mentoring Program is to improve GitLab’s ability to attract, retain and engage minority team members. Through this program we can build relationships between team members and develop relationships across GitLab.
+The purpose of the MIT Mentoring Program is to improve GitLab's ability to attract, retain and engage minority team members. Through this program we can build relationships between team members and develop relationships across GitLab.
 
 ## Goals
 

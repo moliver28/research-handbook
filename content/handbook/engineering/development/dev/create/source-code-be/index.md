@@ -287,6 +287,10 @@ You should generally take on follow-up work that is part of our [definition of d
 
 If there are many follow-up issues, consider creating an epic.
 
+##### Double-assign for overly-complex or time-sensitive issues
+
+As discussed in a [previous retrospective](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/74#note_1914857307), in addition to breaking down issues, we should assign two engineers to each task instead of just one for overly-complex or time-sensitive issues. This co-ownership will help parallelize efforts in multiple-MR tasks, speed up immediate code reviews, and ultimately lead to faster delivery of results.
+
 #### Backend and Frontend issues
 
 Many issues require work on both the backend and frontend, but the weight of that work may not be the same. Since an issue can only have a single weight set on it, we use scoped labels instead when this is the case: `~backend-weight::<number>` and `~frontend-weight::<number>`.

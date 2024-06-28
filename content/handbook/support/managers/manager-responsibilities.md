@@ -1,11 +1,8 @@
 ---
-
 title: Support Engineering Manager Responsibilities
 description: "Support Engineering Manager Responsibilities"
 category: Support Management
 ---
-
-
 
 ## Introduction
 

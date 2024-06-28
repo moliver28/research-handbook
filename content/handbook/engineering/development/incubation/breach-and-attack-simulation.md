@@ -1,13 +1,6 @@
 ---
-
 title: Breach and Attack Simulation (BAS) Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## Breach and Attack Simulation (BAS) Single-Engineer Group
 

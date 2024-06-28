@@ -1,5 +1,4 @@
 ---
-
 title: "Smartling (retired)"
 description: "Smartling was our translation management system used for translation needs at GitLab but is now retired from our tech stack."
 ---

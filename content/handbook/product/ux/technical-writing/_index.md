@@ -264,7 +264,7 @@ When taking PTO, Technical Writers:
 1. Send a message in the group Slack channels indicating where to find the available mechanisms. For example:
 
    ```text
-   I’m off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
+   I'm off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
    https://about.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
    For urgent _named time-sensitive task_ matters, ping _named TW_.
    ```

@@ -1,14 +1,6 @@
 ---
-
 title: "Product and Solution Marketing Project Management Overview"
 ---
-
-
-
-
-
-
-
 
 ### Project management overview
 

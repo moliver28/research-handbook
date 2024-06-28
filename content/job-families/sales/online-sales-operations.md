@@ -79,7 +79,7 @@ The Senior Analyst, Online Sales & Self Service Operations is a [grade 7](/handb
 ## Responsibilities
 
 - Extends that of the Analyst requirements
-- Improve the self-service team’s effectiveness and efficiency and provide increased insights through data, automation, and analytics
+- Improve the self-service team's effectiveness and efficiency and provide increased insights through data, automation, and analytics
 - Develop content and train our customer-facing teams on self-service systems and business processes
 
 ## Requirements

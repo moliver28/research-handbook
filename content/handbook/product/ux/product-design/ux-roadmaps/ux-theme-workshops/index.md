@@ -55,7 +55,7 @@ The activities will take place entirely in FigJam. Only `Step 1 - Warm-up: UX vi
 
 Follow the links provided by the PM.
 
->💡 Tip: Not every direction page is consistent. You’ll likely find a mishmash of some or all of these sections within a Stage Group or Category page. You may even see inconsistencies across categories within the same Stage Group. Do the best you can in gathering the most relevant goals for each.
+>💡 Tip: Not every direction page is consistent. You'll likely find a mishmash of some or all of these sections within a Stage Group or Category page. You may even see inconsistencies across categories within the same Stage Group. Do the best you can in gathering the most relevant goals for each.
 
 1. Go to the Stage Group's Direction Page
 1. Read the Overview Mission, Vision, Letter from the Editor, and Strategic Direction sections. Pull outlines that will be relevant to help align the other workshoppers in crafting a UX vision and ultimately create the group's UX Themes for the year.
@@ -110,13 +110,13 @@ Note: If a participant does not have a Figma license they will not be able to ed
 
 Welcome everyone to the workshop; introduce yourself and anyone acting as a co-facilitator. Here you should mention the roles and responsibilities of everyone on the call. Restate the purpose of the workshop as well as reinforce that this is collaborative.
 
-*“Hello <team>, I am <...> and I am joined by <...> and we are here to guide you through this workshop.*
+*"Hello <team>, I am <...> and I am joined by <...> and we are here to guide you through this workshop.*
 
-*“The goal of today’s workshop is to leave with a stronger sense of a UX direction, goals, vision, and a prioritized list of themes. For your group”*
+*"The goal of today's workshop is to leave with a stronger sense of a UX direction, goals, vision, and a prioritized list of themes. For your group"*
 
-*“<participant>, <participant>, <participant>,  you will be collaborating on this together, while <facilitator>, <co-facilitator> are here to assist you if needed.  We encourage you to think and talk out loud as you go through the exercises.*
+*"<participant>, <participant>, <participant>,  you will be collaborating on this together, while <facilitator>, <co-facilitator> are here to assist you if needed.  We encourage you to think and talk out loud as you go through the exercises.*
 
-*“This is a safe space and saying ‘I don’t know` is encouraged. That’s why we are here, to define the known and identify the unknown.”*
+*"This is a safe space and saying 'I don't know` is encouraged. That's why we are here, to define the known and identify the unknown."*
 
 #### 2. Review the itinerary
 
@@ -136,13 +136,13 @@ Ask everyone to open the FigJam file (share the link over the Zoom chat), and in
 
 #### 1. Set the scene for the activity
 
-*“Looking at the first exercise in the top left you will see the stage and category goal and direction information. This was copied from the direction pages and should be referenced for this exercise.”*
+*"Looking at the first exercise in the top left you will see the stage and category goal and direction information. This was copied from the direction pages and should be referenced for this exercise."*
 
-*“Next you will see a set of prompts to use to help define the vision and goal statement, talking amongst yourselves, try to add statements that you can use to help in your definitions.*
+*"Next you will see a set of prompts to use to help define the vision and goal statement, talking amongst yourselves, try to add statements that you can use to help in your definitions.*
 
-*“This is going to be our reference point for this year and act as our north star when scoping our work. Let’s take about 10 minutes to brainstorm. If you need more time then that is okay.”*
+*"This is going to be our reference point for this year and act as our north star when scoping our work. Let's take about 10 minutes to brainstorm. If you need more time then that is okay."*
 
-*“Does that make sense, any questions?” okay, I will start the timer now.”*
+*"Does that make sense, any questions?" okay, I will start the timer now."*
 
 >💡 Try not to get too bogged down in this step. The goal is for the workshop participants to walk away with an understsanding of the group's direction and goals for the year as this will be the anchor for the rest of the workshop steps. It's ok if it's not the most perfectly written statement.
 
@@ -153,7 +153,7 @@ Ask everyone to open the FigJam file (share the link over the Zoom chat), and in
 - Ensure participants are talking
 - Ensure statements are being added to the stickies
 
-ℹ️ Watch as statements are added and ask probing questions, “Why is that important, tell me more about…” etc.
+ℹ️ Watch as statements are added and ask probing questions, "Why is that important, tell me more about…" etc.
 
 #### 3. Wrap-up the activity
 
@@ -175,7 +175,7 @@ Based on the number of stickies generated, you'll get a sense that more time is 
 
 📖 Read the Step 2 instruction in FigJam out loud and ask if there are any questions.
 
-*“I’ve transferred the inputs you linked me to in the workshop issue. Now working together, we are going to group these stickies thematically based on the user need they are addressing”*
+*"I've transferred the inputs you linked me to in the workshop issue. Now working together, we are going to group these stickies thematically based on the user need they are addressing"*
 
 ⏲️ **In FigJam Start the timer for 45 minutes**
 
@@ -257,7 +257,7 @@ Ask:
 
 Briefly summarize the activities in the workshop, and celebrate the team's progress. Something to the effect of:
 
-*“Today we created goal and vision statements, bundled work into themes, refined themes and generated the inputs to prioritize them in your roadmap!"*
+*"Today we created goal and vision statements, bundled work into themes, refined themes and generated the inputs to prioritize them in your roadmap!"*
 
 🏁 Ask if there are any questions about the next steps and end the meeting.
 

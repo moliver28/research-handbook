@@ -1,14 +1,7 @@
 ---
-
 title: "Quad Planning"
 description: "The Quality Engineering Sub-Department helps facilitate the quad-planning process. This is the participation of Product Management, Development, UX, and Quality which aims to bring test planning as a topic before the development of any feature."
 ---
-
-
-
-
-
-
 
 The Quality Engineering Sub-Department helps facilitate the quad-planning process.
 This is the participation of Product Management, Development, UX, and Quality which aims to bring test planning as a topic before the development of any feature.
@@ -81,32 +74,32 @@ flowchart TB
    %% external links
    click add_avail_section_simple "https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md#L74"
    click add_avail_section_complex "https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md#L74"
-   
+
    %% diagram
 
    quad_planning_issue --> issues_to_triage
- 
+
    issues_to_triage -->|No| Done
    issues_to_triage -->|Yes| next_issue
    next_issue --> questions_issue
    questions_issue -->|Yes| discuss_issue
    questions_issue -->|No| document_issue
    discuss_issue --> document_issue
-   
+
    document_issue -->|Yes| documentation_recommendation
    document_issue -->|No| tests_needed
    tests_needed -->|Yes| add_avail_section
    tests_needed -->|No| documentation_recommendation
    e2e_tests -->|Yes| complex_recommendation
    e2e_tests -->|No| action_label
-   
+
    complex_recommendation --> track_new_test
    add_avail_section --> simple_recommendation
    simple_recommendation --> e2e_tests
-   
+
    documentation_recommendation --> no_action_label
    track_new_test --> action_label
-   
+
    no_action_label --> issue_done
    action_label --> issue_done
    issue_done --> issues_to_triage

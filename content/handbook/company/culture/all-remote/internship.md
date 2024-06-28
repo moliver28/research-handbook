@@ -57,7 +57,7 @@ Like any remote-working situation, remote internships have multiple [advantages]
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)]
 {style="max-width: 50%;"}
 
-It is unlikely that an intern will be equipped to be a [manager of one]({{< ref "values#managers-of-one" >}}), and companies should expect interns to require a great deal of hand-holding.
+It is unlikely that an intern will be equipped to be a [manager of one](/handbook/values/#managers-of-one), and companies should expect interns to require a great deal of hand-holding.
 
 Learn more about the importance of clear [communication]({{< ref "communication" >}}), intentional [onboarding]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}), and utilizing [asynchronous workflows]({{< ref "./asynchronous" >}}) in a Harvard Business School article entitled "[Best practices for creating a successful virtual internship](https://www.hbs.edu/recruiting/blog/post/best-practices-for-creating-a-successful-virtual-internship)."
 
@@ -130,7 +130,7 @@ Because remote internships are learning-based and fast-paced, there are some [re
 
 It's important for organizations to remember that remote interns are essentially learning **two** fundamental things: the job itself, and how to work well [with no office]({{< ref "./getting-started" >}}). In turn, it's important to calibrate expectations and what is measured.
 
-This may be particularly challenging in fast-paced all-remote settings. All-remote companies tend to be highly [efficient](/handbook/values/#efficiency). In a firm where [results, not hours]({{< ref "values#measure-results-not-hours" >}}), are measured, there is a natural inclination to expect expediency. When a remote intern is learning two major lessons at once, progress may feel slower than usual.
+This may be particularly challenging in fast-paced all-remote settings. All-remote companies tend to be highly [efficient](/handbook/values/#efficiency). In a firm where [results, not hours](/handbook/values/#measure-results-not-hours), are measured, there is a natural inclination to expect expediency. When a remote intern is learning two major lessons at once, progress may feel slower than usual.
 
 For organizations with a strong desire to use their remote internship program as an intern-to-hire mechanism, be sure to screen for this during the interview process. Encourage prospective interns to be transparent about their intentions and readiness to start if successful.
 
@@ -174,7 +174,7 @@ It's important to ask questions during the interview phase to understand the wor
 
 Too, consider reading GitLab's [guide to evaluating a remote job]({{< ref "./evaluate" >}}) and ask relevant questions as you interview.
 
-All-remote forces you to do things that you [should do anyway]({{< ref "./management" >}}), but more quickly and more intentionally. That's a great backdrop for remote interns, who stand to gain not only work experience, but experience working in an environment where you're in control of your [space]({{< ref "./workspace" >}}), your [time]({{< ref "./people#those-who-value-flexibility-and-autonomy" >}}), and your [approach]({{< ref "values#give-agency" >}}).
+All-remote forces you to do things that you [should do anyway]({{< ref "./management" >}}), but more quickly and more intentionally. That's a great backdrop for remote interns, who stand to gain not only work experience, but experience working in an environment where you're in control of your [space]({{< ref "./workspace" >}}), your [time]({{< ref "./people#those-who-value-flexibility-and-autonomy" >}}), and your [approach](/handbook/values/#give-agency).
 
 ## What are the best ways to stay connected with remote interns?
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Engineering Internships"
 description: "Learn about GitLab's engineering internship program."
 ---

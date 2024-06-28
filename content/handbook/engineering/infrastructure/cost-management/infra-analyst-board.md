@@ -1,15 +1,7 @@
 ---
-
 title: "Infrastructure Analyst Board"
 description: "Infra Analyst Workflow Planning"
 ---
-
-
-
-
-
-
-
 
 ---
 

@@ -1,14 +1,7 @@
 ---
-
 title: "SQL Style Guide"
 description: "A set of conventions and guidelines for writing SQL at GitLab"
 ---
-
-
-
-
-
-
 
 ---
 
@@ -207,8 +200,8 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
     LEFT JOIN cost_category
         ON budget_forecast.unique_account_name = cost_category.unique_account_name
 
- 
-    -- vs 
+
+    -- vs
 
     -- Not Preferred
     SELECT
@@ -229,14 +222,14 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     ```sql
         -- Preferred
-        SELECT 
+        SELECT
             "First_Name_&_" AS first_name,
             ...
 
         -- vs
 
         -- Not Preferred
-        SELECT 
+        SELECT
             FIRST_NAME AS first_name,
             ...
 
@@ -249,7 +242,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         SELECT
             data_by_row['id']::bigint as id_value
             ...
-        
+
         -- vs
 
         -- Not Preferred
@@ -310,7 +303,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
             specific_column
         FROM other_table
         WHERE specific_column != 'foo'
-        
+
     )
 
     SELECT
@@ -320,7 +313,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
     INNER JOIN important_list
         ON primary_table.column_3 = important_list.specific_column
 
-    -- vs   
+    -- vs
 
     -- Not Preferred
     SELECT
@@ -328,8 +321,8 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         primary_table.column_2
     FROM primary_table
     WHERE primary_table.column_3 IN (
-        SELECT DISTINCT specific_column 
-        FROM other_table 
+        SELECT DISTINCT specific_column
+        FROM other_table
         WHERE specific_column != 'foo')
 
     ```
@@ -359,11 +352,11 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     ```sql
     -- Preferred
-    SELECT 
+    SELECT
         IFF(column_1 = 'foo', column_2,column_3) AS logic_switch,
         ...
 
-    -- vs 
+    -- vs
 
     -- Not Preferred
     SELECT
@@ -378,13 +371,13 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     ```sql
     -- Preferred
-    SELECT 
+    SELECT
         IFF(amount < 10,TRUE,FALSE) AS is_less_than_ten,
         ...
     -- vs
 
     -- Not Preferred
-    SELECT 
+    SELECT
         (amount < 10) AS is_less_than_ten,
         ...
     ```
@@ -404,10 +397,10 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         END AS field_type,
         ...
 
-    -- vs 
+    -- vs
 
     -- Not Preferred
-    SELECT 
+    SELECT
         CASE
             WHEN field_id = 1 THEN 'date'
             WHEN field_id = 2 THEN 'integer'
@@ -417,7 +410,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
             WHEN field_id = 6 THEN 'text'
         END AS field_type,
         ...
-    
+
     ```
 
 - Prefer the explicit date function over `date_part`, but prefer `date_part` over `extract`:

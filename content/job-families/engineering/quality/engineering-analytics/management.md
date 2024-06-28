@@ -15,7 +15,7 @@ Engineering Analytics Manager manages a team of Engineering Analysts that work o
 - Plan Engineering Analytics's long-term tasks and align with Quality Department's direction and vision.
 - Hire and growth a team of Engineering Analysts.
 - Provide guidance and coaching to Engineering Analysts.
-- Collaborate closely with GitLab’s Data team.
+- Collaborate closely with GitLab's Data team.
 
 ## Requirements
 
@@ -63,8 +63,8 @@ The Manager, Engineering Analytics is a [grade 8](/handbook/total-rewards/compen
 - Own the hiring and team formation process of the Engineering Analytics team.
 - Provide guidance to Engineering Analysts on technical and non-technical aspects.
 - Own project management, agile process of the Engineering Analytics team.
-- Collaborate with GitLab’s Data team on data dependencies for Engineering.
-- Partner with GitLab’s Data team on training activities for Engineering Analysts.
+- Collaborate with GitLab's Data team on data dependencies for Engineering.
+- Partner with GitLab's Data team on training activities for Engineering Analysts.
 
 ### Senior Manager, Engineering Analytics
 

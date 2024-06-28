@@ -1,5 +1,4 @@
 ---
-
 title: "Customer Success Management Handbook"
 description: "The Customer Success Management team at GitLab is a part of the Customer Success department, acting as trusted advisors to our customers and helping them realize value faster."
 ---
@@ -246,9 +245,9 @@ To ensure that opportunities are listed with the correct Order Type, [this Sales
 
 Next steps for you:
 
-1. Customize [this SFDC report](https://gitlab.my.salesforce.com/00O4M000004agfP) where “Account Owner = your SAEs”; “CSM = You”
+1. Customize [this SFDC report](https://gitlab.my.salesforce.com/00O4M000004agfP) where "Account Owner = your SAEs"; "CSM = You"
 1. Save report
-1. Subscribe to report when “Record Count Greater Than 0” and Frequency = Weekly (You’ll get a weekly email as a reminder to look at the report)
+1. Subscribe to report when "Record Count Greater Than 0" and Frequency = Weekly (You'll get a weekly email as a reminder to look at the report)
 1. If you find an opp that is tagged incorrectly, chatter (@Sales-Support) in the opportunity and let them know there is a mistake ([example](/handbook/customer-success/csm/#csm-tools))
 
 ## Related pages

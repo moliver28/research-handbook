@@ -1,12 +1,9 @@
 ---
-
 title: Weekly Support Team Call
 category: Support Team
 subcategory: Meetings
 description:
 ---
-
-
 
 ## Overview
 

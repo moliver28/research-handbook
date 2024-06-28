@@ -1,14 +1,7 @@
 ---
-
 title: "Salesforce Config"
 description: "The purpose of this page is to document configuration of our instance of Salesforce at GitLab. This will serve as the go-to place to check in regards to questions on our general Salesforce configuration."
 ---
-
-
-
-
-
-
 
 ## Salesforce Config
 

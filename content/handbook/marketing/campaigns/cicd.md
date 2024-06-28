@@ -1,15 +1,8 @@
 ---
-
 title: "CI/CD Campaign"
 description: "Everything you need to know about the CI/CD campaign."
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
-
-
-
-
-
-
 
 ## Campaign Overview
 
@@ -64,8 +57,8 @@ Always On Lead Generation:
   - Lack of scalability (usually intensified the larger the org)
   - Easy entry for teams to get started with CI/CD
   - Additional info:
-    - DevOps Manager: Needs to effectively support the DevOps tools and infrastructure integral to their org’s application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
-    - Dev Leads (Development Manager): Needs to have a finger on the pulse of their development team’s capacity and priorities. Concerned with improving productivity and unblocking any issues that get in the way of progress. Challenged when development deadlines and assigned tasks change rapidly or too frequently. Also challenged when work on feature delivery is interrupted by show-stopping bugs or blockers.
+    - DevOps Manager: Needs to effectively support the DevOps tools and infrastructure integral to their org's application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
+    - Dev Leads (Development Manager): Needs to have a finger on the pulse of their development team's capacity and priorities. Concerned with improving productivity and unblocking any issues that get in the way of progress. Challenged when development deadlines and assigned tasks change rapidly or too frequently. Also challenged when work on feature delivery is interrupted by show-stopping bugs or blockers.
 - **Ideal state:**
   - Dev and Ops are empowered to work better together, no more "throwing things over the proverbial wall"
   - Improved visibility and communication, gain faster feedback and integrate smaller code changes frequently (with less risk of build-breaking changes)
@@ -78,7 +71,7 @@ Always On Lead Generation:
 - **Why is GitLab a better solution than competitors:**
   - GitLab as a single application provides end-to-end visibility into the SDLC and promotes better, more frequent, collaboration among teams. Errors are caught earlier in the process before they turn into bigger problems.
   - GitLab enables faster release cycles in batches of small iterations without requiring a complete overhaul of existing development workflows and/or DevOps tools
-  - GitLab’s built-in CI means less context switching between tools and more time that developers spend writing code. Overall productivity increases
+  - GitLab's built-in CI means less context switching between tools and more time that developers spend writing code. Overall productivity increases
 
 #### Target Persona 2: Practitioners
 
@@ -93,7 +86,7 @@ Always On Lead Generation:
   - Lack of education and/or official support
   - Additional info:
     - Developers: Needs automation to replace otherwise tedious, manual, work. Concerned with delivering high quality code as fast as possible. Challenged when planned work is disrupted and productivity is negatively impacted.
-    - DevOps Engineer: Needs to effectively support the DevOps tools and infrastructure integral to their org’s application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
+    - DevOps Engineer: Needs to effectively support the DevOps tools and infrastructure integral to their org's application delivery. Concerned with providing development teams with the best possible tools, environments, and integrations for them to be successful. Challenged with prioritizing development work as an individual contributor (features/bug fixes) and supporting dev teams.
 - **Ideal state:**
   - Dev and Ops are empowered to work better together, no more "throwing things over the proverbial wall"
   - Improved visibility and communication, gain faster feedback and integrate smaller code changes frequently (with less risk of build-breaking changes)
@@ -104,7 +97,7 @@ Always On Lead Generation:
   - Increasing operational efficiencies - Automation reduces manual work and overall cost of tools. Less overhead. Improved performance.
   - Reducing security and compliance risk: Regular releases on a monthly cadence (thanks to rapid innovation) minimizes security risk along with automated tests and scan
 - **Why is GitLab a better solution than competitors:**
-  - GitLab’s built-in CI means less context switching between tools and more time that developers spend writing code. Overall productivity increases
+  - GitLab's built-in CI means less context switching between tools and more time that developers spend writing code. Overall productivity increases
   - GitLab as a single application provides end-to-end visibility into the SDLC and promotes better, more frequent, collaboration among teams. Errors are caught earlier in the process before they turn into bigger problems.
   - GitLab enables faster release cycles in batches of small iterations without requiring a complete overhaul of existing development workflows and/or DevOps tools
 

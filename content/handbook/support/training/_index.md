@@ -1,12 +1,7 @@
 ---
-
 title: Support Learning & Training
 description: Learning Pathways available to Support team members
 ---
-
-
-
-
 
 ## Support Learning Pathways
 

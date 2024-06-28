@@ -1,8 +1,6 @@
 ---
-
 title: "EMEA CSMs"
 ---
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -12,7 +10,7 @@ This handbook page defines processes and approaches that are unique to CSMs alig
 
 ### Org Structure
 
-CSM EMEA is further divided into different regions. There are four different teams: 
+CSM EMEA is further divided into different regions. There are four different teams:
 
 * CSM SOUTH - responsible for customers in the south of Europe such as France, Italy and Spain
 * CSM DACH - aligned with customers in Germany, Austria and Switzerland
@@ -21,9 +19,9 @@ CSM EMEA is further divided into different regions. There are four different tea
 
 ### Team Contacts and Responsibilities
 
-[Michael Leutz](/handbook/company/team/#mrleutz) is the director of CSM EMEA. Additionally, he manages the SOUTH, NORTH and META teams. The DACH team is led by [Christina Souleles](/handbook/company/team/#csouleles). 
+[Michael Leutz](/handbook/company/team/#mrleutz) is the director of CSM EMEA. Additionally, he manages the SOUTH, NORTH and META teams. The DACH team is led by [Christina Souleles](/handbook/company/team/#csouleles).
 
-* [**_Subject Matter Experts_**](https://gitlab.com/gitlab-com/customer-success/emea/sme-collaboration-requests/-/blob/main/emea_sme_map.yml?ref_type=heads) 
+* [**_Subject Matter Experts_**](https://gitlab.com/gitlab-com/customer-success/emea/sme-collaboration-requests/-/blob/main/emea_sme_map.yml?ref_type=heads)
 * **_Staff team - Specific experts / DRIs for EMEA CSM_**
   * Martin Brümmer
   * Sander Brienen
@@ -36,8 +34,8 @@ Compared to AMER or APJ, the EMEA CSMs are further divided into four different r
 
 There are several meetings for all EMEA CSMs:
 
-* EMEA CSM & CSE Sync - biweekly on Mondays. In this meeting, announcements, changes, issues and learnings that are relevant for all CSMs in EMEA are discussed. 
-* EMEA CSM Triage & CSE Office Hours - weekly on Tuesdays. CSMs can ask questions, discuss current problems and share insights. 
+* EMEA CSM & CSE Sync - biweekly on Mondays. In this meeting, announcements, changes, issues and learnings that are relevant for all CSMs in EMEA are discussed.
+* EMEA CSM Triage & CSE Office Hours - weekly on Tuesdays. CSMs can ask questions, discuss current problems and share insights.
 * EMEA CSM Social - weekly on Fridays. This is an informal and optional meeting without an agenda to chat with your coworkers.
 
 ### Slack Channels

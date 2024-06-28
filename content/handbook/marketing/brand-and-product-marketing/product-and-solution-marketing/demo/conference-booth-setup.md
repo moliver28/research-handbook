@@ -1,5 +1,4 @@
 ---
-
 title: "Conference Booth Setup"
 ---
 

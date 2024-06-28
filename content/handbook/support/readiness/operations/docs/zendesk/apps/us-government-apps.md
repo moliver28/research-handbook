@@ -24,7 +24,7 @@ App information:
 
 This app uses the Organization field `AM Project ID` to check for an existing
 Account Management project. If it finds it, it will then link to that
-project’s Architecture Diagram.
+project's Architecture Diagram.
 
 **NOTE**: The AM Project ID field is manually populated. To get that added in,
 you would want to submit a Support Ops Project issue.

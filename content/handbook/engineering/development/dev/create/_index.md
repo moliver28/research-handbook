@@ -1,12 +1,10 @@
 ---
-
 title: Create Stage
 description: >-
   The Create Stage is a group of teams including
   Code Creation, Code Review, Editor Extensions,
   IDE, and Source Code.
 ---
-
 
 ## Hello
 

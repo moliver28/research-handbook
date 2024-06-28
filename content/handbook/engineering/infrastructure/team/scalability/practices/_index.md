@@ -55,7 +55,7 @@ Refer to [Scalability Group's Project Management Section](/handbook/engineering/
 
 ### Issue management
 
-Our work is collaborative across teams and we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues). We work from our main epic: [Scaling GitLab’s SaaS Platforms.](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148)
+Our work is collaborative across teams and we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues). We work from our main epic: [Scaling GitLab's SaaS Platforms.](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148)
 
 #### Labels
 

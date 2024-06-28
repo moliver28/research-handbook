@@ -1,5 +1,4 @@
 ---
-
 title: How to Engage with Product Management
 ---
 
@@ -126,16 +125,16 @@ If a customer has identified an issue that is high priority for them, such as a 
 
 The following part of [this UX design article](https://uxdesign.cc/wanting-a-faster-horse-doesnt-mean-the-customer-is-wrong-90b1bed8b7e) sums it up well:
 
-Listening to the right customers at the right time is a great first start, but you also need to make sure you are interpreting their feedback/requests correctly. The reason for that is generally customers ask for something to be better, not different — **they interpret their problems through existing solutions**. A customer is unlikely to tell you what new product to create (that’s your company’s job!) but they will tell you what problem that product needs to solve.
+Listening to the right customers at the right time is a great first start, but you also need to make sure you are interpreting their feedback/requests correctly. The reason for that is generally customers ask for something to be better, not different — **they interpret their problems through existing solutions**. A customer is unlikely to tell you what new product to create (that's your company's job!) but they will tell you what problem that product needs to solve.
 
 To do this you need to get to the underlying why behind the feature request — what is the basic problem to be solved, and then think about how to solve that problem in a fundamentally better (e.g., 10x faster, easier, cheaper) way.
 
-This concept is best described by the (most likely misattributed) quote by the founder of the Ford Motor Company, Henry Ford: "If I had asked people what they wanted, they would have said faster horses.”
+This concept is best described by the (most likely misattributed) quote by the founder of the Ford Motor Company, Henry Ford: "If I had asked people what they wanted, they would have said faster horses."
 
 > When the customer asks for a faster horse, you should then ask why. You would invariably hear things like:
-> I’d like to shorten my commute from home to work
-> I’d like to be able to sell my widgets to more cities
-> I’d like to win the Kentucky Derby
+> I'd like to shorten my commute from home to work
+> I'd like to be able to sell my widgets to more cities
+> I'd like to win the Kentucky Derby
 > **Now that you understand the basic problem to be solved (of which there are many solutions including a faster horse), its your job to think of a fundamentally better way to solve it** — e.g., what does a 10x faster horse look like? And one potential solution to that is obviously a car.
 
 ### Feedback Examples
@@ -159,7 +158,7 @@ A salesperson for an organization asking for a paid-tier feature request shall w
 - Sales and product manager schedule 15-minute pre-meeting to share what we know about the customer thus far, so as to not waste time asking questions we already know the answer to. Notes from this pre-meeting are added to the Google document.
 - Sales adds a link to the Google document under the account object as a note.
 
-In the event that a paid customer is willing to pay for us to develop a specific feature, we should still respond as above. It's great that they're willing to pay for it: that means they really need it. However, we will not make a custom version of GitLab; even gitlab.com is running on GitLab Ultimate, and we move faster that way by minimizing technical complexity to determine features to follow after, it’s a trade-off to make. This doesn’t mean that "no" is always going to stay "no." We keep an open mind to improvements.
+In the event that a paid customer is willing to pay for us to develop a specific feature, we should still respond as above. It's great that they're willing to pay for it: that means they really need it. However, we will not make a custom version of GitLab; even gitlab.com is running on GitLab Ultimate, and we move faster that way by minimizing technical complexity to determine features to follow after, it's a trade-off to make. This doesn't mean that "no" is always going to stay "no." We keep an open mind to improvements.
 
 #### Example: Customer needs support configuring a self-managed runner with a SaaS license or is looking for prescriptive advice for setting up GitLab
 

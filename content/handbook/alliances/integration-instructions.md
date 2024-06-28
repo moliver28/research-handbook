@@ -1,14 +1,7 @@
 ---
-
 title: "GitLab Integration Instructions"
 description: Learn about integrating with GitLab, as well as partnership, marketing, and licensing opportunities.
 ---
-
-
-
-
-
-
 
 ## Instructions for getting listed as a GitLab Technology Partner
 
@@ -30,9 +23,9 @@ Once [these steps](https://about.gitlab.com/partners/technology-partners/integra
 
 Once you have the above items, follow these steps to add yourself to the Partners page:
 
-1. Sign into gitlab.com and navigate to the home project of [www.gitlab.com](http://www.gitlab.com) found [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/). Click on the **’Fork’** button at the top right to make a copy of the repository within your account.
-1. Next, click on the **’Web IDE**’ button to make changes to specific YAML files.
-1. Navigate to the ‘/content’ directory in the left pane and you will see the `apps.yml` file within the folder. Click on the file to open it within the WebIDE. Add the following fields to the correct category of the file and enter the following application information into each of the blank fields:
+1. Sign into gitlab.com and navigate to the home project of [www.gitlab.com](http://www.gitlab.com) found [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/). Click on the **'Fork'** button at the top right to make a copy of the repository within your account.
+1. Next, click on the **'Web IDE**' button to make changes to specific YAML files.
+1. Navigate to the '/content' directory in the left pane and you will see the `apps.yml` file within the folder. Click on the file to open it within the WebIDE. Add the following fields to the correct category of the file and enter the following application information into each of the blank fields:
 
 ```yaml
 - title: Company Name
@@ -55,16 +48,16 @@ Choose the app's category accordingly. The code block is to be added **to the en
 
 1. After updating `apps.yml`, use the file browser on the left side of the screen to navigate to `static/nuxt-images/applications/apps/`.
 1. Click the `⋁` icon next to the `apps` directory, select upload file, and upload you company logo. Be sure to follow the picture requirements listed above and confirm that the file name matches your `picture` entry in `apps.yml`.
-    > **Note:** The image name should match the application title exactly. For example, if your app is titled ‘GitLab Inc’ then the image name being uploaded would be ‘gitlab_inc.png’ and it will then map to your app listing when the site is generated.
+    > **Note:** The image name should match the application title exactly. For example, if your app is titled 'GitLab Inc' then the image name being uploaded would be 'gitlab_inc.png' and it will then map to your app listing when the site is generated.
 1. Once you have finished this, click the `Commit` button in the bottom left. It should say something like `2 unstaged and 0 staged changes`. This will bring up a sidebar with an `Unstaged` and `Staged` area.
 1. Check the files to ensure your updates are what you expect. If they are, click the check mark next to the filename to "stage" these changes.
 1. Once you have verified all of the edits, enter a short commit message including what you've changed. Choose `Create a new branch`. Name the branch in the format of `CompanyName-partners-page` or similar. Tick the `Start a new merge request` checkbox. Then click `Commit` once more.
-1. A new merge request will then initiate and you will be able to fill out a description and details around the MR. Select the ‘Applications’ template and fill out the information accordingly.
+1. A new merge request will then initiate and you will be able to fill out a description and details around the MR. Select the 'Applications' template and fill out the information accordingly.
 1. When you have filled out the merge request details. **Please ensure you tick the box to `Allow commits from members who can merge to target branch` as detailed on the [Allow collaboration on merge requests across forks](https://docs.gitlab.com/ee/user/project/merge_requests/allow_collaboration.html#enabling-commit-edits-from-upstream-members) page in our docs.**
     > Make sure when submitting the MR, the source is the branch that was just created from the MR and the destination/target is the `/gitlab-com/marketing/digital-experience/buyer-experience/`.
 1. Once the MR is created, use the Application template and complete the instructions.
 
-## If you’d like to do further development
+## If you'd like to do further development
 
 Open an issue in the [Alliance project](https://gitlab.com/gitlab-com/alliances/alliances) requesting a joint private project in the Alliance group.
 
@@ -77,7 +70,7 @@ We will need a list of the email addresses that were used to create a GitLab.com
 
 ## Questions?
 
-We are here to help. The Alliance team works from issues and issue boards. If you are needing our assistance with any project, please [open an issue](https://gitlab.com/gitlab-com/alliances/alliances/-/issues/new/?issuable_template=general_alliance_request) and we’ll get back to you as soon as we can! If it’s technical assistance you’re looking for, please see below for troubleshooting.
+We are here to help. The Alliance team works from issues and issue boards. If you are needing our assistance with any project, please [open an issue](https://gitlab.com/gitlab-com/alliances/alliances/-/issues/new/?issuable_template=general_alliance_request) and we'll get back to you as soon as we can! If it's technical assistance you're looking for, please see below for troubleshooting.
 
 ## Troubleshooting
 

@@ -226,7 +226,7 @@ This flow is determined by:
 
 For instance, a large end-user may choose to avoid doing a software release during a maintenance window to avoid any chance that issues may affect their release.
 
-Furthermore, avoiding information overload is necessary to keep every stakeholder’s focus.
+Furthermore, avoiding information overload is necessary to keep every stakeholder's focus.
 
 To improve communication the following are recommendations for high criticality Changes:
 

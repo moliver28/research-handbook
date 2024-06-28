@@ -457,7 +457,7 @@ in order to keep the team small and nimble. The group is a non-authoritative, su
 - There will be a DRI assigned to the issue that is being discussed
 - The DRI will be decided by either who has to address the issue first or where the code change is occurring the most (in that order)
 - The issue will be discussed and the DRI will be the ultimate decision-maker for the approach taken
-- Issues will be tackled on a First-In-and-First-Out (FIFO) order. Attempts to minimize SLA overlap should be made to prevent scheduling conflicts between member’s time
+- Issues will be tackled on a First-In-and-First-Out (FIFO) order. Attempts to minimize SLA overlap should be made to prevent scheduling conflicts between member's time
 
 #### Considerations when determining the approach
 
@@ -496,7 +496,7 @@ The table below captures characteristics (requirements?) of work that is in-scop
 
 #### Acceptance Criteria
 
-GitLab’s Stance for Architectural issues: https://about.gitlab.com/handbook/engineering/architecture/
+GitLab's Stance for Architectural issues: https://about.gitlab.com/handbook/engineering/architecture/
 
 #### Team Representatives
 

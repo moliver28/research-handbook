@@ -1,9 +1,7 @@
 ---
-
 title: Solutions Architects Content Calendar
 description: "Content calendar for Solutions Architects."
 ---
-
 
 ## Introduction
 

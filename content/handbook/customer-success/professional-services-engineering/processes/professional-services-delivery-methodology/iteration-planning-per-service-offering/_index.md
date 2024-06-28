@@ -5,7 +5,7 @@ description: "Learn about PS Transformational planning."
 
 ## Iteration 0 Planning for Transformational/Large scale Migrations
 
-As we head into Kickoff and Planning & Design with our customers, its important that we're able to articulate what we plan to cover within the initial planning phases, and how it will impact the overall project and roll into future Iterations. The below guide includes the management principles across the Iterations to ensure operational excellence as we move into delivery. This allows us to show measurable results early and often to emphasize the importance of the initiative and continually gain buy in from stakeholders. We need to teach the core Customer team how to use GitLab to manage large initiatives, to help reinforce the Customer’s decision to leverage the GitLab platform.
+As we head into Kickoff and Planning & Design with our customers, its important that we're able to articulate what we plan to cover within the initial planning phases, and how it will impact the overall project and roll into future Iterations. The below guide includes the management principles across the Iterations to ensure operational excellence as we move into delivery. This allows us to show measurable results early and often to emphasize the importance of the initiative and continually gain buy in from stakeholders. We need to teach the core Customer team how to use GitLab to manage large initiatives, to help reinforce the Customer's decision to leverage the GitLab platform.
 
 In all Transformation projects, there will be elements of SCM migration and CI transition. Focus on creating a structure that is detailed and specific to drive adoption of those key GitLab features.
 

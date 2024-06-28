@@ -232,7 +232,7 @@ This is especially useful when you're working on a cellular/metered connection. 
 
 ### Stream Deck
 
-If you're not good at remembering hotkeys, or you are in need of a multi-step automation, a [Stream deck](https://www.elgato.com/ww/en/s/welcome-to-stream-deck) or similar might be the right thing for you. A Stream Deck allows you to program buttons to execute complex sequences of actions with a single press. 
+If you're not good at remembering hotkeys, or you are in need of a multi-step automation, a [Stream deck](https://www.elgato.com/ww/en/s/welcome-to-stream-deck) or similar might be the right thing for you. A Stream Deck allows you to program buttons to execute complex sequences of actions with a single press.
 
 #### How to use Apple Shortcuts with the Stream deck
 
@@ -250,7 +250,7 @@ Besides the official integrations, you can also use the Apple Shortcuts app to h
       end tell
    end run
    ```
-   
+
 1. Add a new Action in your Stream deck application. Use System > Open as template for this. You can freely choose the title of the action, this is only for your own reference and does not have to do anything with the Shortcut. As for the App/File - you can use the file locator to reference the .scpt file from step 2. Afterwards you have to click back into the input field and delete the apostrophes that were added by the file locator around the path. Now we can pass the name of the Shortcut to the script, if your Shortcut had blank spaces in its name you have to enclose it in quotes. So f.e for a Shortcut called `Active Speaker` the App/File input should contain the following `/path/to/script/ShortcutScript.scpt "Activate speaker"`
 
 1. Add more actions as you need them. Since the .scpt file is parameterized you dont have to repeat step 2 and can just use the script for all Shortcuts!
@@ -269,7 +269,7 @@ Besides the official integrations, you can also use the Apple Shortcuts app to h
 
 ### GitHub Copilot
 
-GitHub released [Copilot](https://copilot.github.com), an AI-powered tool for in-situ suggestions within VSCode, in 2021. It’s an interesting and exciting tool. However at this time it does not guarantee that the code being suggested is strictly sourced from codebases governed by [an open source license compatible with our own project](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/LICENSE) which could lead to license conflicts. Until the licensing of the suggestions is established, please don't use Copilot.
+GitHub released [Copilot](https://copilot.github.com), an AI-powered tool for in-situ suggestions within VSCode, in 2021. It's an interesting and exciting tool. However at this time it does not guarantee that the code being suggested is strictly sourced from codebases governed by [an open source license compatible with our own project](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/LICENSE) which could lead to license conflicts. Until the licensing of the suggestions is established, please don't use Copilot.
 
 ## Video calling
 

@@ -60,13 +60,13 @@ Team members in UAE are entitled fully paid annual leave of
 - 30 days/22 working days after one year of service
 - 2 days per month after completing 6 months of service but have not worked a full year
 
-Part-time team members are entitled to annual leave according to the actual working hours they spent at work, as specified in the employment contract, and in accordance with the ‘Executive Regulations of the Labour Law’- Available in Arabic only- (PDF, 10.9 MB).
+Part-time team members are entitled to annual leave according to the actual working hours they spent at work, as specified in the employment contract, and in accordance with the 'Executive Regulations of the Labour Law'- Available in Arabic only- (PDF, 10.9 MB).
 
 ### Sick leave
 
 Eligibility for a sick leave (paid and unpaid)
 
-A UAE team member is entitled to a sick leave of not more than 90 days per year, only after the end of probationary period. The 90 days’ sick leave can be continuous or intermittent, and the salary is paid as follows:
+A UAE team member is entitled to a sick leave of not more than 90 days per year, only after the end of probationary period. The 90 days' sick leave can be continuous or intermittent, and the salary is paid as follows:
 
 - full pay for the first 15 days
 - half pay for the next 30 days

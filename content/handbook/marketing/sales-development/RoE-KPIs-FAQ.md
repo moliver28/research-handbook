@@ -1,5 +1,4 @@
 ---
-
 title: RoEs, FAQs and KPIs
 description: Use this page to clarify any questions or expectations around Rules of Engagement (RoE), Key Performance Indicators (KPIs) or Service Level Agreements (SLAs).
 
@@ -16,7 +15,7 @@ This page is part of the Sales Development team's handbook [page](/handbook/mark
     **No:** It is worked by the SDR team <br>
     **Yes:** Check the BDR Prospecting Status
 
-2. Is the Account in “Actively Working” Status?
+2. Is the Account in "Actively Working" Status?
 
     **No:** It is worked by the SDR team <br>
     **Yes:** Check for Activity
@@ -34,19 +33,19 @@ This page is part of the Sales Development team's handbook [page](/handbook/mark
     **Yes:** It is worked by the BDR Assigned <br>
     **No:** It is worked by the SDR Team.
 
-    **Next Steps:** SDR chatters the BDR Assigned and lets them know you didn’t find activity and will go ahead and sequence the lead. FYI’s the BDR Manager. BDR Manager will work with the BDR to put the account into the correct BDR Prospecting status. If a BDR is able to relay information that was not picked up in the SDR’s research, the SDR should end the sequence if the prospect hasn’t engaged and change lead ownership to BDR so the BDR can reach out. If the SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between SDR and BDR. Note: Only activity logged in SFDC will be recognized as activity.
+    **Next Steps:** SDR chatters the BDR Assigned and lets them know you didn't find activity and will go ahead and sequence the lead. FYI's the BDR Manager. BDR Manager will work with the BDR to put the account into the correct BDR Prospecting status. If a BDR is able to relay information that was not picked up in the SDR's research, the SDR should end the sequence if the prospect hasn't engaged and change lead ownership to BDR so the BDR can reach out. If the SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between SDR and BDR. Note: Only activity logged in SFDC will be recognized as activity.
 
-5. Is the Account in “Queued” Status?
-
-    **Yes:** It is worked by the SDR team
-
-6. Is the Account in “Worked in FY” Status?
+5. Is the Account in "Queued" Status?
 
     **Yes:** It is worked by the SDR team
 
-7. Is the Account in “Restricted” Status?
+6. Is the Account in "Worked in FY" Status?
 
-    **Yes:** It should be routed to the BDR assigned. The BDR assigned will chatter the SAE about whether they’d like them to reach out or whether they would like to own that responsibility. The AE should respond within 48 hours.
+    **Yes:** It is worked by the SDR team
+
+7. Is the Account in "Restricted" Status?
+
+    **Yes:** It should be routed to the BDR assigned. The BDR assigned will chatter the SAE about whether they'd like them to reach out or whether they would like to own that responsibility. The AE should respond within 48 hours.
 
     - If they reply back that the BDR can work, the BDR will continue with the prospect as a lead record and take action.
 
@@ -72,7 +71,7 @@ This page is part of the Sales Development team's handbook [page](/handbook/mark
 
     **No:** The MQL can be worked by the SDR that received it through the round robin. If you are not sure, double-check with the related SDR.
 
-If the related SDR relays information that was not picked up in the new SDR’s research, the new SDR should end any active sequence if the prospect hasn’t engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
+If the related SDR relays information that was not picked up in the new SDR's research, the new SDR should end any active sequence if the prospect hasn't engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
 
 ### Routing Workflow Chart
 
@@ -82,11 +81,11 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 
 ### General Sales Dev Trouble-shooting
 
-**Q:** I can’t see certain Outreach collections!: <Br>
+**Q:** I can't see certain Outreach collections!: <Br>
 **A:** You potentially were added to the incorrect Sales Dev Team in Outreach. Please reach out to Sales Dev Operations.
 
 **Q:** My version of Salesforce seems very basic…: <br>
-**A:** Make sure you are using the Sales version of Salesforce. To check, please go to the top right corner of your Salesforce window and click the blue button with the drop down window. From there select “Sales”.
+**A:** Make sure you are using the Sales version of Salesforce. To check, please go to the top right corner of your Salesforce window and click the blue button with the drop down window. From there select "Sales".
 
 **Q:** I have not received access to all of my tools and it has been a week. <br>
 **A:** Notify your manager and have them comment on your Onboarding Role Entitlements Issue.
@@ -101,11 +100,11 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 **A:** Our MOPs team has set up a process to address any data subject requests for deletion or access to data. If you receive a request for deletion or access to data, please re-direct inquiries to the [Personal Data Subject Request.](https://support.gitlab.io/account-deletion/) This messaging snippet can be [used and tailored.](https://web.outreach.io/snippets/1903)
 
 **Q:** Why are BDRs no longer the Account Owner in Outreach? <br>
-**A:** BDRs are no longer listed as the account Owner in Outreach to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the ‘BDR Assigned’ field.
+**A:** BDRs are no longer listed as the account Owner in Outreach to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the 'BDR Assigned' field.
 
 **Q:** A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did? <br>
-**A:** SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect’s account. Then follow the process to request SAO credit.
-Note: Sometimes someone else from your prospect’s company actually made the GitLab purchase, leading to the opportunity being related to them instead
+**A:** SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect's account. Then follow the process to request SAO credit.
+Note: Sometimes someone else from your prospect's company actually made the GitLab purchase, leading to the opportunity being related to them instead
 
 **Q:** How do I request credit for a web direct opportunity? <br>
 **A:** On the opportunity record in Salesforce, compose a new Chatter message that includes the following:
@@ -124,14 +123,14 @@ The Operations team and/or Director will review the information and decide wheth
 **A:** SDR and BDR first try to talk through a solution If no agreement: Managers will determine a solution If no agreement between the managers: Escalate to Senior Leadership Double credit nor double compensation will be given
 
 **Q:** Who will be handling inquiries from an SDR/BDR standpoint? <br>
-**A:** Inquiries will go to an open queue. SDR’s will not work them. We want to give marketing time to progress these to MQLs. <br>
-**A:** BDR’s can work leads in all statuses if they are related to their “Actively working” accounts. Outreach to these leads would be part of their account strategy.
+**A:** Inquiries will go to an open queue. SDR's will not work them. We want to give marketing time to progress these to MQLs. <br>
+**A:** BDR's can work leads in all statuses if they are related to their "Actively working" accounts. Outreach to these leads would be part of their account strategy.
 
-**Q:** What if a prospect comes back directly to the BDR much delayed, when the account is not marked as “Actively Working” anymore, but resulting from personalized messaging? <br>
-**A:** Yes, if they email, reply via LI, or call the BDR directly, the BDR will need to check that the lead is in queue ownership. If so, they must move the account back to “Actively Working”, so that the lead can be put into their ownership.
+**Q:** What if a prospect comes back directly to the BDR much delayed, when the account is not marked as "Actively Working" anymore, but resulting from personalized messaging? <br>
+**A:** Yes, if they email, reply via LI, or call the BDR directly, the BDR will need to check that the lead is in queue ownership. If so, they must move the account back to "Actively Working", so that the lead can be put into their ownership.
 
 **Q:** Why are my leads being reassigned to Inquiry Queue? <br>
-**A:** Marketing Operations has a daily scheduled clean at 10:30 PM EST/EDT that update Status = Inquiry to Inquiry Queue. To prevent the reassignment, you’ll want to update the leads from Inquiry to Accepted or add to an Outreach sequence.
+**A:** Marketing Operations has a daily scheduled clean at 10:30 PM EST/EDT that update Status = Inquiry to Inquiry Queue. To prevent the reassignment, you'll want to update the leads from Inquiry to Accepted or add to an Outreach sequence.
 
 **Q:** What should BDRs do when a prospect or contact responds with a complince related question or objects to being contacted? <br>
 **A:** Immediately reach out to the Privacy Team via #privacy-team-help and forward any email from the contact to dpo@gitlab.com.
@@ -148,7 +147,7 @@ There are three deciding factors on what channel you should use for your announc
 
 - Urgency: How crucial is it that the Sales Dev Org or team/teams see this announcement right now?
 - Who: The entire Sales Dev Org, SDR/BDRs, or a specific SalesDev Team
-- Impact: How much does it impact the audience’s ability to sell and create SAOs?
+- Impact: How much does it impact the audience's ability to sell and create SAOs?
 
 Announcement Channels
 
@@ -165,7 +164,7 @@ Announcement Channels
 
 | Qualifiers by Channel        | Qualifier(s)                                                          |
 |------------------------------|-----------------------------------------------------------------------|
-| Sales Dev Global Slack       | Shoutouts, Questions, Concerns, Share something that’s working, Fun for Multiple Teams, New Team Members |
+| Sales Dev Global Slack       | Shoutouts, Questions, Concerns, Share something that's working, Fun for Multiple Teams, New Team Members |
 | Sales Dev FYI Slack          | Announcements and Reminders that involve multiple teams or are of high importance |
 | Email Newsletter             | Impacts Multiple Teams                                                |
 | All Hands Meeting            | Important updates that affect multiple teams                          |
@@ -263,25 +262,25 @@ Announcement Channels
 |                                        | - Hitting quota cumulatively over the last fully-ramped 5 months                                                                                                                    |
 |                                        | - Willingness to coach and up-level peers                                                                                                                                           |
 |                                        | - Endorsement from SDR management                                                                                                                                                   |
-|                                        | - Demonstration of GitLab’s Values                                                                                                                                                  |
+|                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of SDR Q1-Q3 Tanuki Techs                                                                                                                                              |
 |                                        | NOTE: Not every SDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | SDR to BDR                             | - Minimum 12 months in the SDR Role (incl. ramp)                                                                                                                                    |
 |                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
 |                                        | - Endorsement from current SDR manager                                                                                                                                              |
-|                                        | - Demonstration of GitLab’s Values                                                                                                                                                  |
+|                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of SDR Q1-Q4 Tanuki Techs                                                                                                                                              |
 |                                        | NOTE: All promotions require a formal application + interview. Performance and adherence to values guarantee an interview, but candidates must demonstrate suitability during the process. Factors such as interview performance, headcount, and language requirements can influence promotion timelines. |
 | BDR to Senior BDR                      | - Minimum 6 months in the BDR Role (incl. ramp)                                                                                                                                     |
 |                                        | - Hitting quota cumulatively over the last 6 months (fully-ramped months must hit 100% cumulatively)                                                                               |
 |                                        | - Endorsement from BDR management                                                                                                                                                   |
-|                                        | - Demonstration of GitLab’s Values                                                                                                                                                  |
+|                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of BDR Q1-Q2 Tanuki Techs                                                                                                                                              |
 | BDR to BDR Team Lead                   | - Minimum 9 months in the BDR Role (incl. ramp)                                                                                                                                     |
 |                                        | - Hitting quota cumulatively over the last fully-ramped 5 months                                                                                                                    |
 |                                        | - Willingness to coach and up-level peers                                                                                                                                           |
 |                                        | - Endorsement from BDR management                                                                                                                                                   |
-|                                        | - Demonstration of GitLab’s Values                                                                                                                                                  |
+|                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of BDR Q1-Q3 Tanuki Techs                                                                                                                                              |
 |                                        | NOTE: Not every BDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | BDR and BDR Team Lead to Next Step     | - Minimum 12 months in the BDR Role (incl. ramp)                                                                                                                                    |
@@ -360,14 +359,14 @@ To log a PTO Territory Planning request, please go to the Issue list on the SDR 
 
 ### Flexible working
 
-At GitLab we have flexible working hours. This means that you can organize your working day as you like and are not expected to arrive and leave at a set time every day, but we do expect MQL’s to be followed up within 1 hour (during business hours) so communication with your manager will be necessary if you plan to be out for an extended period of time. Managers will provide direction on the routing of leads during that time.
+At GitLab we have flexible working hours. This means that you can organize your working day as you like and are not expected to arrive and leave at a set time every day, but we do expect MQL's to be followed up within 1 hour (during business hours) so communication with your manager will be necessary if you plan to be out for an extended period of time. Managers will provide direction on the routing of leads during that time.
 
 With a prospect-facing role in Sales Development, do keep in mind when you are calling and emailing prospects:
 
 - The best times to call are early and late in the business day, so these may be best blocked for this activity.
-- Outreach allows you to schedule emails at set times. For outbound prospecting, the most effective emails are those that come in the early morning and early evening, so you can take advantage of this feature. On the other hand, inbound MQL’s must be handled regularly throughout your day as they come in.
+- Outreach allows you to schedule emails at set times. For outbound prospecting, the most effective emails are those that come in the early morning and early evening, so you can take advantage of this feature. On the other hand, inbound MQL's must be handled regularly throughout your day as they come in.
 - Lunchtimes are good for outreach as most prospects have meeting blocks for three hours in the morning and then two hours mid-afternoon.
 - The above blocks you can use for account research and planning, customer meetings, or meetings with your sales reps, manager, peers, and teams.
 - Although you are not expected to start work and end work at the same time every day, please do keep in mind the normal business hours of your prospects, and make sure to schedule your own working hours to ensure you maximize opportunities.
 
-In short, working at GitLab means that if you start the day early you can take a long lunch break to hit the gym or go grocery shopping in the middle of the day when it’s quiet, yet you can still do a full day’s work around that and don’t need to be accountable all the time, as long as you are available to call prospects and be available for prospect meetings during normal working hours for your region/territory.
+In short, working at GitLab means that if you start the day early you can take a long lunch break to hit the gym or go grocery shopping in the middle of the day when it's quiet, yet you can still do a full day's work around that and don't need to be accountable all the time, as long as you are available to call prospects and be available for prospect meetings during normal working hours for your region/territory.

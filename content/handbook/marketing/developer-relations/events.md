@@ -1,15 +1,6 @@
 ---
-
 title: "Developer Relations Events"
 ---
-
-
-
-
-
-
-
-
 
 Events are a great way for GitLab and the Developer Relations team to connect with customers
 and the wider GitLab community.

@@ -1,8 +1,6 @@
 ---
-
 title: "Integration Technologies"
 ---
-
 
 This is a collection of best practices collected from working with customers on each stage of the SDLC. This list is not supposed to be exhaustive but provide the SA with a few good pointers when going into a meeting on a specific stage or feature.
 

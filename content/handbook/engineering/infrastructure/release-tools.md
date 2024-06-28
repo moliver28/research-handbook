@@ -1,14 +1,7 @@
 ---
-
 title: Release Tools
 description: "Guide to GitLab's tools for new releases"
 ---
-
-
-
-
-
-
 
 ## Introduction
 

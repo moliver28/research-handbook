@@ -14,7 +14,7 @@ The VP, Developer Relations and Community is responsible for engaging our commun
 - Create and maintain a GitLab heroes program to build evangelists in the community to grow the number of evangelists that regularly give talks, write blog posts, and organize meetups about GitLab.
 - Build out key community programs such as open-source, education, non-profits, startups, etc.
 - Develop the plan to attract and retain code contributors to hit our contribution goals.
-- Develop GitLab’s open-source partnership strategy and expand the number of active open source projects either self-hosting GitLab or using GitLab.com.
+- Develop GitLab's open-source partnership strategy and expand the number of active open source projects either self-hosting GitLab or using GitLab.com.
 - Develop widely read content focussed on users (Development, Security and Operations) of GitLab for our blog, newsletter and YouTube channel. Ensure that content is relevant and syndicated to our community.
 
 ## Requirements

@@ -24,41 +24,41 @@ Managing remotely is much like managing in-person, but there are certain traits 
 
 ### Self-awareness
 
-Self-awareness is critical for relationship building and trust, particularly in an all-remote setting. The reality is that people prefer to learn, and to be managed, differently. GitLab's CEO goes so far as to [publicize his communication preferences](/handbook/ceo#communication) and [flaws](/handbook/ceo#flaws), which requires a high degree of self-awareness, a [low level of shame]({{< ref "values#low-level-of-shame" >}}), and a penchant for [transparency](/handbook/values/#transparency).
+Self-awareness is critical for relationship building and trust, particularly in an all-remote setting. The reality is that people prefer to learn, and to be managed, differently. GitLab's CEO goes so far as to [publicize his communication preferences](/handbook/ceo#communication) and [flaws](/handbook/ceo#flaws), which requires a high degree of self-awareness, a [low level of shame](/handbook/values/#low-level-of-shame), and a penchant for [transparency](/handbook/values/#transparency).
 
 Self-aware managers will be open with reports on their learning and communication preferences, enabling those who report to them to interact without ambiguity.
 
 Be highly sensitive to micromanaging. Particularly for new remote managers, you may be inclined to "check in" on projects with increased frequency given the inability to see someone working in the same physical space. This is a destructive practice. Instead, have an open discussion with a direct report on communication and work styles, and find a mechanism that suits all parties.
 
-What a manager perceives as proactively working to keep a project on track can be received as toxic micromanagement by a direct report. Without an open channel to communicate preferences, this can quickly [erode]({{< ref "values#five-dysfunctions" >}}) a working relationship.
+What a manager perceives as proactively working to keep a project on track can be received as toxic micromanagement by a direct report. Without an open channel to communicate preferences, this can quickly [erode](/handbook/values/#five-dysfunctions) a working relationship.
 
 ### Empathy
 
-Empathy and [kindness]({{< ref "values#kindness" >}}) are core to being a great remote manager. It can be challenging to put yourself in the shoes of a direct report using [text communication]({{< ref "./effective-communication" >}}) and [Zoom calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). In-person interactions allow for body language to be more easily read. In a remote setting, managers must instead be proactive in *asking* direct reports how life is going and what their learning preferences are.
+Empathy and [kindness](/handbook/values/#kindness) are core to being a great remote manager. It can be challenging to put yourself in the shoes of a direct report using [text communication]({{< ref "./effective-communication" >}}) and [Zoom calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). In-person interactions allow for body language to be more easily read. In a remote setting, managers must instead be proactive in *asking* direct reports how life is going and what their learning preferences are.
 
-GitLab [gives people agency]({{< ref "values#give-agency" >}}) and trusts each team member to embrace [ownership]({{< ref "values#ownership" >}}), and act as a [manager of one]({{< ref "values#managers-of-one" >}}).
+GitLab [gives people agency](/handbook/values/#give-agency) and trusts each team member to embrace [ownership](/handbook/values/#ownership), and act as a [manager of one](/handbook/values/#managers-of-one).
 
 For a greater understanding of the importance of empathy in a manager, read [GitLab's guide to combating burnout, isolation, and anxiety]({{< ref "./mental-health" >}}).
 
 ### Servant-leader
 
-Working to have [no ego]({{< ref "values#no-ego" >}}), recognizing that [people are not their work]({{< ref "values#people-are-not-their-work" >}}), and having [short toes]({{< ref "values#short-toes" >}}) will go a long way to building trust as a manager. The humility required to be a [servant-leader](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) is rare, and is of great importance in a remote setting. Particularly for reports who are [acclimating to their first remote role]({{< ref "./getting-started" >}}), managers may need to go above and beyond to lead by example.
+Working to have [no ego](/handbook/values/#no-ego), recognizing that [people are not their work](/handbook/values/#people-are-not-their-work), and having [short toes](/handbook/values/#short-toes) will go a long way to building trust as a manager. The humility required to be a [servant-leader](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) is rare, and is of great importance in a remote setting. Particularly for reports who are [acclimating to their first remote role]({{< ref "./getting-started" >}}), managers may need to go above and beyond to lead by example.
 
 In many cases, reports will be discovering in real-time how they prefer to be managed remotely. Maintaining the perspective that managers excel by serving is critical to building confidence in a direct report.
 
 People tend to feel more guilty about asking a manager for step-by-step guidance in a remote setting — e.g. "I'm bothering them in their home!" To proactively address this, be sure to reinforce that you (as a manager) are not bothered by sincere requests for assistance.
 
-In sum, remote managers should operate from a standpoint of [wanting others to succeed]({{< ref "values#see-others-succeed" >}}). In the event that critical feedback must be delivered, strive to [surface issues constructively]({{< ref "values#surface-issues-constructively" >}}) and [do so in a 1-1 setting]({{< ref "values#negative-feedback-is-1-1" >}}).
+In sum, remote managers should operate from a standpoint of [wanting others to succeed](/handbook/values/#see-others-succeed). In the event that critical feedback must be delivered, strive to [surface issues constructively](/handbook/values/#surface-issues-constructively) and [do so in a 1-1 setting](/handbook/values/#negative-feedback-is-1-1).
 
 ### Detailed
 
-Managers are often stretched for time. A critical, though common, mistake is to assume that you can earn back time by not communicating in full to one's direct reports. Great remote managers will devote time to [writing things down]({{< ref "values#write-things-down" >}}). GitLab's [handbook-first approach]({{< ref "handbook-usage#why-handbook-first" >}}) to documentation encourages managers to contextualize thoughts in text.
+Managers are often stretched for time. A critical, though common, mistake is to assume that you can earn back time by not communicating in full to one's direct reports. Great remote managers will devote time to [writing things down](/handbook/values/#write-things-down). GitLab's [handbook-first approach]({{< ref "handbook-usage#why-handbook-first" >}}) to documentation encourages managers to contextualize thoughts in text.
 
-Transmitting expectations, updates, and feedback through text is highly respectful. It enables a direct report to ingest information at their own pace, and it removes margin for misinterpretation. Written words are more easily [questioned]({{< ref "values#anyone-and-anything-can-be-questioned" >}}), thereby creating a more direct path to absolute truth and understanding.
+Transmitting expectations, updates, and feedback through text is highly respectful. It enables a direct report to ingest information at their own pace, and it removes margin for misinterpretation. Written words are more easily [questioned](/handbook/values/#anyone-and-anything-can-be-questioned), thereby creating a more direct path to absolute truth and understanding.
 
 ### Builds Trust
 
-To be a successful leader of remote teams, one must develop a [level of trust]({{< ref "building-trust" >}}) in each team. A trustworthy leader of remote teams consistently [provides feedback]({{< ref "values#give-feedback-effectively" >}}) to enable team members to feel included, valued, empowered, and respected.
+To be a successful leader of remote teams, one must develop a [level of trust]({{< ref "building-trust" >}}) in each team. A trustworthy leader of remote teams consistently [provides feedback](/handbook/values/#give-feedback-effectively) to enable team members to feel included, valued, empowered, and respected.
 
 A remote leader must be intuitive and able to adapt to the preferences of their direct reports. Some team members prefer more or less communication from their leader, some need consistent affirmation, others prefer autonomy. The ability to ask about and adapt to these preferences is crucial. Many of these elements are viewed as unspoken needs in other organizations, but great leaders seek to clarify and remove ambiguity. This is a key element of servant leadership.
 
@@ -114,7 +114,7 @@ So long as your company adheres — even if unofficially — to set working hour
 
 The only way to remove that bias and open your company to a [truly global and diverse workforce]({{< ref "./hiring" >}}) is to destroy the epicenter of power as it relates to working hours.
 
-This also enables your workforce to design their work around their life, empowering them to be [managers of one]({{< ref "values#managers-of-one" >}}). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/) and [healthier]({{< ref "./mental-health" >}}) way of working.
+This also enables your workforce to design their work around their life, empowering them to be [managers of one](/handbook/values/#managers-of-one). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/) and [healthier]({{< ref "./mental-health" >}}) way of working.
 
 ### Make it fun
 
@@ -196,10 +196,10 @@ Remote settings can cause a breakdown in communication skills if organizations a
 It can be hard to separate personal and work life. It's important to model and encourage boundaries.
 
 - [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}), to regular [1:1s]({{< ref "1-1" >}}).
-  - All-remote companies should consider putting focus on [results (as opposed to hours worked)]({{< ref "values#measure-results-not-hours" >}}). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
+  - All-remote companies should consider putting focus on [results (as opposed to hours worked)](/handbook/values/#measure-results-not-hours). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
   - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
 
-1. Remote work requires you to [manage your own time]({{< ref "values#managers-of-one" >}}) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
+1. Remote work requires you to [manage your own time](/handbook/values/#managers-of-one) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
 
 ## The importance of video chats
 
@@ -217,7 +217,7 @@ To better understand how this impacts management style, consider this example. E
 
 In the latter case, this act of managing a *process* instead of a *person* creates outsized long-term [efficiency](/handbook/values/#efficiency). Every future direct report who has the same question will now be able to side-step the interruption and locate the answer themselves, creating two positive loops in the process.
 
-One, new hires recognize that they are [empowered to search for answers]({{< ref "./self-service" >}}), securing important information to keep projects moving even when their manager is on vacation, out of the office, or engaged in other work. This should lead to fewer blockers, less [dysfunction]({{< ref "values#five-dysfunctions" >}}), greater [autonomy]({{< ref "values#give-agency" >}}), improved [mental health]({{< ref "./mental-health" >}}), and greater productivity.
+One, new hires recognize that they are [empowered to search for answers]({{< ref "./self-service" >}}), securing important information to keep projects moving even when their manager is on vacation, out of the office, or engaged in other work. This should lead to fewer blockers, less [dysfunction](/handbook/values/#five-dysfunctions), greater [autonomy](/handbook/values/#give-agency), improved [mental health]({{< ref "./mental-health" >}}), and greater productivity.
 
 Two, managers carve out more bandwidth in their day to focus, rather than re-answering questions.
 
@@ -276,11 +276,11 @@ GitLab favors more frequent conversations on this topic — even during [routine
 
 ## Remove roadblocks to improve productivity
 
-In a global all-remote organization, [driving results]({{< ref "values#hierarchy" >}}) is a core value. As a manager, you have to keep many balls in the air simultaneously and shift your energy and attention to activities that will produce the greatest output (also known as "[managerial leverage](https://medium.com/@iantien/top-takeaways-from-andy-grove-s-high-output-management-2e0ecfb1ea63)"). Removing roadblocks to improve productivity is a key skillset of any remote manager. Great managers will delegate activities while giving team members the full picture, encourage others to work according to [GitLab's values]({{< ref "values" >}}), and set their direct reports up for success.
+In a global all-remote organization, [driving results](/handbook/values/#hierarchy) is a core value. As a manager, you have to keep many balls in the air simultaneously and shift your energy and attention to activities that will produce the greatest output (also known as "[managerial leverage](https://medium.com/@iantien/top-takeaways-from-andy-grove-s-high-output-management-2e0ecfb1ea63)"). Removing roadblocks to improve productivity is a key skillset of any remote manager. Great managers will delegate activities while giving team members the full picture, encourage others to work according to [GitLab's values]({{< ref "values" >}}), and set their direct reports up for success.
 
 To improve managerial productivity:
 
-1. Create [feedback]({{< ref "values#give-feedback-effectively" >}}) mechanisms for team members to understand what they are doing well and what could be improved.
+1. Create [feedback](/handbook/values/#give-feedback-effectively) mechanisms for team members to understand what they are doing well and what could be improved.
 1. Develop incentives that benefit the team and individuals.
 1. Craft training mechanisms for leaders and continuously improve tools to help the team achieve results.
 1. Prioritize tasks and have a clear expectation of what everyone is working on with due dates.
@@ -307,7 +307,7 @@ Transparency helps keep your team connected to the work and each other. Some bes
 
 - Be open about as many things as possible. By making information public we can reduce the threshold to contribution and make collaboration easier. Use public issue trackers, projects, and repositories when possible.
 - An example is the public repository of our website that also contains our company handbook. Everything we do is public by default, for example, the GitLab CE and GitLab EE issue trackers, but also marketing and infrastructure.
-- Transparency creates awareness for GitLab, which allows us to recruit people that care about our values. It gets us more and faster feedback from people outside the company, and makes it easier to collaborate with them. It’s also about sharing great software, documentation, examples, lessons, and processes with the whole community and world in the spirit of open source, which we believe creates more value than it captures.
+- Transparency creates awareness for GitLab, which allows us to recruit people that care about our values. It gets us more and faster feedback from people outside the company, and makes it easier to collaborate with them. It's also about sharing great software, documentation, examples, lessons, and processes with the whole community and world in the spirit of open source, which we believe creates more value than it captures.
 
 ## Managing non-remote team members
 

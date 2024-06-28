@@ -1,10 +1,8 @@
 ---
-
 title: Creating a license key
 description: "How to create a GitLab license key"
 category: GitLab Self-Managed licenses
 ---
-
 
 ## Overview
 

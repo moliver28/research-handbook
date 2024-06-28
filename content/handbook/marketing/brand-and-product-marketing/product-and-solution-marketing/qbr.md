@@ -1,13 +1,6 @@
 ---
-
 title: "QBR Support"
 ---
-
-
-
-
-
-
 
 ## Strategic QBR Support
 
@@ -47,7 +40,7 @@ At GitLab, we conduct quarterly business reviews to understand and learn from ou
        1. Create a copy Page 2 (The section for each QBR action items) for EACH QBR Meeting.
        1. Update the Header "Date-Region" to be the specific date and Region.
        1. Add the link to the QBR Notes Document (If it exists yet)
-       1. Add the link to the QBR Slides folder for THIS SPECIFIC QBR.  
+       1. Add the link to the QBR Slides folder for THIS SPECIFIC QBR.
        1. From the QBR Agenda, update the Agenda Outline with the reps names in the order they are presenting.
        1. IF their slides are loaded in the folder, Update their Name to include a link to their specific slide deck.
 

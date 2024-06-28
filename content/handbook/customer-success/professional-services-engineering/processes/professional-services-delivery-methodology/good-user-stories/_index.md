@@ -5,7 +5,7 @@ description: "Learn how to write good user stories."
 
 ## Quick and Dirty Way to Write Good User Stories
 
-User stories serve one main purpose: To encourage conversation and discussion about the user story. By design, user stories are supposed to be simple and short descriptions of features to be developed; written from the end user’s perspective, in the end user’s language.   This is important to remember. User stories facilitate conversation and discussion in order to create a common understanding of the desired functionality amongst the team members. User stories are NOT comprehensive specifications.
+User stories serve one main purpose: To encourage conversation and discussion about the user story. By design, user stories are supposed to be simple and short descriptions of features to be developed; written from the end user's perspective, in the end user's language.   This is important to remember. User stories facilitate conversation and discussion in order to create a common understanding of the desired functionality amongst the team members. User stories are NOT comprehensive specifications.
 
 User stories typically follow a simple template:
 
@@ -19,7 +19,7 @@ Basic understanding of the user story requires all team members to be clear on:
 * [ ] What?... I want to \<action\>
 * [ ] Why?... So that \<result / benefit\>
 
-Every team member is supposed to be able to explain “Who?”, “What?”, and “Why?” for each user story. It’s important to explicitly call this out because unless each team member understands the essence of each story, the team as a whole is lacking the necessary understanding of the problem space. Note that not each team member needs to understand how to implement the user story, but each member should understand the essence - for example, I do not need to know the details how to build a complex multi-stage CI yaml file, but I do need to know that our customer has a Dev, Test, Integration, Security, Staging, and Production stage setup that progressively stabilizes the system.
+Every team member is supposed to be able to explain "Who?", "What?", and "Why?" for each user story. It's important to explicitly call this out because unless each team member understands the essence of each story, the team as a whole is lacking the necessary understanding of the problem space. Note that not each team member needs to understand how to implement the user story, but each member should understand the essence - for example, I do not need to know the details how to build a complex multi-stage CI yaml file, but I do need to know that our customer has a Dev, Test, Integration, Security, Staging, and Production stage setup that progressively stabilizes the system.
 
 User stories should follow the INVEST principle. They should be:
 
@@ -27,7 +27,7 @@ User stories should follow the INVEST principle. They should be:
 * **N**egotiable
 * **V**aluable
   * Feature focused, not task oriented
-  * Written in the user’s language to the extent possible; where domain specific language is required, such as in genomics or medicine, a subject matter expert will have to be available
+  * Written in the user's language to the extent possible; where domain specific language is required, such as in genomics or medicine, a subject matter expert will have to be available
 * **E**stimable
 * **S**mall
   * Half a Sprint or less for one Dev Team member
@@ -40,7 +40,7 @@ All sounds simple enough, but frequently teams and Product Owners really struggl
 
 When a user story is too big, it is hard understand, estimate, implement, and prone to wildly different opinions. So what is a good size for a user story? Basic guidance is that the user stories at the top of the product backlog (the ones that should have sufficient specificity in order to be worked on by a PSE) should be sized such that a team member could easily complete two user stories during a sprint.
 
-When a team’s user stories are smaller, the team complete stories more frequently. One of the great side effects of smaller user stories is that the team gets more frequent feedback, more frequent successes, and the burndown charts are more granular and look more like a graph instead of a set of stairs.
+When a team's user stories are smaller, the team complete stories more frequently. One of the great side effects of smaller user stories is that the team gets more frequent feedback, more frequent successes, and the burndown charts are more granular and look more like a graph instead of a set of stairs.
 
 How does a team take the big stories in its product backlog and split them into smaller stories? There are 3 basic techniques that we can use to split user stories.
 
@@ -50,11 +50,11 @@ How does a team take the big stories in its product backlog and split them into 
 
 **Splitting User Stories with Generic Words**
 
-This approach simply looks out for words that are open to a wide interpretation (i.e. that are too “generic”) or have multiple meanings. For example, if you read a sentence like “We are moving all infrastructure to the cloud”, what does that mean? You might have seen or heard sales pitches that sound great, but 2 minutes later you set back and think to yourself “I have no idea what that means!”.
+This approach simply looks out for words that are open to a wide interpretation (i.e. that are too "generic") or have multiple meanings. For example, if you read a sentence like "We are moving all infrastructure to the cloud", what does that mean? You might have seen or heard sales pitches that sound great, but 2 minutes later you set back and think to yourself "I have no idea what that means!".
 
 _What is infrastructure_? Servers? Desktops? Laptops? Only database servers? Buildings? Are you getting rid of all your data centers? Some? Move from desktops / laptops to Chromebooks?
 
-_What cloud_? Amazon’s AWS? Microsoft’s Windows Azure? IBM’s Bluemix? Public? Private? Hybrid?
+_What cloud_? Amazon's AWS? Microsoft's Windows Azure? IBM's Bluemix? Public? Private? Hybrid?
 
 _What SSO_? SAML, OIDC, OAuth, JWT, others?
 
@@ -66,7 +66,7 @@ _What SSO_? SAML, OIDC, OAuth, JWT, others?
 >
 > So that the account ledger is up to date.
 
-In this story, the word “activities” is pretty generic. We can replace “activities” with more specific words such as: _debits, credits, voided transactions_. We will get these stories.
+In this story, the word "activities" is pretty generic. We can replace "activities" with more specific words such as: _debits, credits, voided transactions_. We will get these stories.
 
 > As a credit card transaction,
 >
@@ -94,9 +94,9 @@ By providing specificity, you enable to team members to realistically asses what
 
 **Splitting User Stories by Acceptance Criteria**
 
-This method looks at the acceptance criteria listed on the back of a user story card to split user stories into smaller, digestible chunks. What are acceptance criteria? Each user story should have between 6 and 12 acceptance criteria. The Product Owner works with the team to create, agree-upon, and record the acceptance criteria for each user story before the story enters a sprint. Think of this as the “definition of done” at the user story level.
+This method looks at the acceptance criteria listed on the back of a user story card to split user stories into smaller, digestible chunks. What are acceptance criteria? Each user story should have between 6 and 12 acceptance criteria. The Product Owner works with the team to create, agree-upon, and record the acceptance criteria for each user story before the story enters a sprint. Think of this as the "definition of done" at the user story level.
 
-Again, let’s look at an example:
+Again, let's look at an example:
 
 > As a credit card user,
 >
@@ -115,11 +115,11 @@ Here are some acceptance criteria for this story:
 * Transaction do not support Diners Club cards
 * No transactions above $500
 
-If we examine each one of the acceptance criteria, we can ask “Who wants this?” The answer to this question becomes the user in “As a (type of user).”
+If we examine each one of the acceptance criteria, we can ask "Who wants this?" The answer to this question becomes the user in "As a (type of user)."
 
-Next, we ask “Why do they want that?” The answer to this question identifies the value in “so that (some value is created).”
+Next, we ask "Why do they want that?" The answer to this question identifies the value in "so that (some value is created)."
 
-The body of the acceptance criteria provides the “I want (something)” part. Here are user stories that could be derived from the acceptance criteria above.
+The body of the acceptance criteria provides the "I want (something)" part. Here are user stories that could be derived from the acceptance criteria above.
 
 > As a Visa credit card user,
 >
@@ -201,6 +201,6 @@ You can easily make this into three distinct user stories:
 >
 > Of course, each of these in turn can be analyzed based on other criteria (Visa Card user, MasterCard user, etc.).
 
-That’s pretty much it! Simple. Although there are other techniques to analyze user stories, the three mentioned above will get most teams to write much better, more precise, and smaller user stories.
+That's pretty much it! Simple. Although there are other techniques to analyze user stories, the three mentioned above will get most teams to write much better, more precise, and smaller user stories.
 
 Because of the more granular specificity, the implementation team will have a better chance of actually implementing the right thing, while providing the Product Owner with the opportunity to prioritize the backlog in a more optimal way.

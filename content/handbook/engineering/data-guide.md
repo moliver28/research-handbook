@@ -4,14 +4,14 @@ title: "Guide to Engineering Analytics Data"
 
 ## Introduction
 
-Engineering Analytics is responsible for building and evolving analytics capabilities and creating insights for Engineering to understand how well we are building our product. In this case, “wellness” is measured in terms of efficiency, as well as cost. Our main role as engineering analysts is to support department heads or DRI in creating or updating their metrics so that they can use them in the key meetings.
+Engineering Analytics is responsible for building and evolving analytics capabilities and creating insights for Engineering to understand how well we are building our product. In this case, "wellness" is measured in terms of efficiency, as well as cost. Our main role as engineering analysts is to support department heads or DRI in creating or updating their metrics so that they can use them in the key meetings.
 
 ## Data Sources
 
 Dive into our analytics by exploring the specific data sources that underpin our metrics.
 
 - [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) data is used for reporting on metrics like MR Rate & Performance KPIs
-- [Workday](Workday) is GitLab’s current central HRIS and we use this data to determine which group a team member is a part of.
+- [Workday](Workday) is GitLab's current central HRIS and we use this data to determine which group a team member is a part of.
 - [Zendesk](/handbook/support/readiness/operations/docs/zendesk/) data is used to fuel Customer Support metrics.
 
 ## Data Models

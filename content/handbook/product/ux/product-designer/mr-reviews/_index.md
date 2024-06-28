@@ -5,13 +5,13 @@ description: "Guidelines for Product Designers when reviewing merge requests."
 
 ## Overview
 
-This page outlines the guidelines for Product Designers when reviewing merge requests (MRs), also called “UX reviews” or “Product Design MR reviews”.
+This page outlines the guidelines for Product Designers when reviewing merge requests (MRs), also called "UX reviews" or "Product Design MR reviews".
 
 ## Requirement
 
-**Almost all merge requests (MRs) change the UX in one way or another, but Product Designers are only required to review and approve MRs that include *user-facing changes***. Per the [approval guidelines](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines), “user-facing changes include both visual changes (regardless of how minor) and changes to the rendered DOM that impact how a screen reader may announce the content.”
+**Almost all merge requests (MRs) change the UX in one way or another, but Product Designers are only required to review and approve MRs that include *user-facing changes***. Per the [approval guidelines](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines), "user-facing changes include both visual changes (regardless of how minor) and changes to the rendered DOM that impact how a screen reader may announce the content."
 
-MRs with only backend changes sometimes affect the UX (for example, performance changes, sorting of lists, etc.), but you *are not required* to review them unless they fall under the definition of “user-facing changes”.
+MRs with only backend changes sometimes affect the UX (for example, performance changes, sorting of lists, etc.), but you *are not required* to review them unless they fall under the definition of "user-facing changes".
 
 To help triage, be aware of all MRs in your stage group and ask engineers about which MRs could affect the UX and how. Product Designers often give constructive feedback on any kind of MR, including MRs that *seem* to not affect the UX, so use your best judgment when deciding which MRs you should review.
 
@@ -159,7 +159,7 @@ Some MRs have additional set up requirements.
 - Ensure the author is clear on what is required from them to address/resolve the suggestion.
   - Consider using the [Conventional Comment format](https://conventionalcomments.org/#format) to convey your intent.
   - For non-mandatory suggestions, decorate with (non-blocking) so the author knows they can optionally resolve within the merge request or follow-up at a later stage.
-  - There’s a [Chrome/Firefox add-on](https://gitlab.com/conventionalcomments/conventional-comments-button) which you can use to apply [Conventional Comment](https://conventionalcomments.org/) prefixes.
+  - There's a [Chrome/Firefox add-on](https://gitlab.com/conventionalcomments/conventional-comments-button) which you can use to apply [Conventional Comment](https://conventionalcomments.org/) prefixes.
 - Share annotated screenshots or screen recordings in your comments whenever possible. Visual materials make issues clearer and communication more efficient.
   - To capture your screen, use free apps like [CloudApp](https://www.getcloudapp.com/), [Monosnap](https://monosnap.com/), or Mac's Screenshot (see how to [capture](https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac) and [annotate](https://support.apple.com/guide/mac-help/mark-up-files-mchl1fd88863/mac)).
   - Annotate screenshots to highlight specific aspects that need to be addressed.

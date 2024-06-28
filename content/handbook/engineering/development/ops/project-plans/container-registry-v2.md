@@ -1,15 +1,8 @@
 ---
-
 title: Container Registry Metadata Database Self-managed
 description: >-
   Project plan for the rollout of Container Registry Metadata Database to self-managed users.
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 

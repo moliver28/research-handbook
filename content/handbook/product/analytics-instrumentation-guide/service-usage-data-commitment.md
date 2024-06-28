@@ -1,8 +1,6 @@
 ---
-
 title: Our Commitment to Individual User Privacy in relation to Service Usage Data
 ---
-
 
 ## Our Commitment to Individual User Privacy in relation to Service Usage Data
 
@@ -45,7 +43,7 @@ As many other organizations offering digital products, GitLab strives to get bet
 
 To get to such understanding, we look to collected [service usage data](/handbook/legal/privacy/customer-product-usage-information/). And as part of collecting usage data, we aim to provide robust privacy protection, and assurance that this data would not be ill-used. With that obligation in mind, we are working to prepare a privacy protection mechanism that would include technical tools and various policies.
 
-### Pseudonymization Isn’t Perfect
+### Pseudonymization Isn't Perfect
 
 While we will be pseudonymizing personal information for individual users, there are cases where a project or namespace could be identified. There are a few primary examples:
 

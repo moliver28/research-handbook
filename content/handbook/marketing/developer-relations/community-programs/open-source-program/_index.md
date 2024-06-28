@@ -1,5 +1,4 @@
 ---
-
 title: "Open Source Program"
 description: "Learn about the GitLab for Open Source Program and other open source programs from GitLab's Developer Relations team"
 ---

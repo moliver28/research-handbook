@@ -112,7 +112,7 @@ Below are the [market requirements](/handbook/marketing/brand-and-product-market
   - Add an inline comment on code
   - Add a suggestion
   - Show the total unresolved threads at the tops
-  - Show you can’t merge until you resolve comments/suggestions
+  - Show you can't merge until you resolve comments/suggestions
   - Resolve a thread
   - Resolve a thread by creating a new issue
   - Apply a suggestion (accept a suggestion)

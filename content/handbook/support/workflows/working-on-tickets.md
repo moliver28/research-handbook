@@ -40,7 +40,7 @@ for:
 
  Choosing Tickets:
 
-- Focus on handling tickets from the top down in your First Response Time (FRT) stage view, as they are sorted by `Ticket Weight` to highlight the highest-priority issues first. This approach ensures that you address the most critical tickets promptly. Additionally, keep an eye on tickets that are nearing their SLA deadlines to prevent any breaches. Please note, while the Ticket Weight field itself isn’t visible in the view, it is used to order the tickets, ensuring that those with the highest priority appear at the top.
+- Focus on handling tickets from the top down in your First Response Time (FRT) stage view, as they are sorted by `Ticket Weight` to highlight the highest-priority issues first. This approach ensures that you address the most critical tickets promptly. Additionally, keep an eye on tickets that are nearing their SLA deadlines to prevent any breaches. Please note, while the Ticket Weight field itself isn't visible in the view, it is used to order the tickets, ensuring that those with the highest priority appear at the top.
 - Next, work collaboratively to address unassigned NRT tickets, ensuring respect for the customer preferred regional preference.
 - You should follow the tickets workflow, as shown in the flowchart below.
 
@@ -57,7 +57,7 @@ flowchart TD
 - Assign tickets to yourself using the "Take It" button and update status to
      `Open` or `Pending`.
 - Ensure every response is linked to an assigned ticket.
-- Please Note that the SLA clock continues to run until you’ve sent a public
+- Please Note that the SLA clock continues to run until you've sent a public
       response to the user.
 
 ## Managing ticket load
@@ -75,7 +75,7 @@ flowchart TD
   - Low FRT 24h, NRT 72h
 - During periods of reduced operational capacity, such as holidays or company
      events, the Support team will prioritize handling all incoming tickets
-     through the special ‘All FRT and Emergencies’ and ‘All NRT’ views, with
+     through the special 'All FRT and Emergencies' and 'All NRT' views, with
      each engineer expected to take ownership of any unassigned tickets they
      address.
 
@@ -88,11 +88,11 @@ the customer's needs and streamline the resolution process:
    understanding of the customer's situation, needs, and the problem or question
    they need resolved. If unsure, request clarification or propose a brief
    meeting to discuss details.
-2. **Review Past Interactions:** Check the customer’s recent tickets for related
+2. **Review Past Interactions:** Check the customer's recent tickets for related
    issues or useful background information. Confirm any relevant environmental
    details with the customer and review any organizational notes in Zendesk that
    might dictate specific actions or communication methods.
-3. **Adjust Priorities:** If the ticket’s priority doesn’t align with our
+3. **Adjust Priorities:** If the ticket's priority doesn't align with our
    [Definitions of Support Impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact),
    discuss and adjust the priority with the customer using the
    `General::Changed priority` macro.
@@ -102,7 +102,7 @@ the customer's needs and streamline the resolution process:
    is near breaching, send an initial brief response. Outline the actions you
    will take and when the customer can expect an update. Adjust timelines as
    necessary based on customer feedback.
-6. **Use Tools:** Set the ticket to Open and use ‘Due Date’ and ‘Reminder’ apps
+6. **Use Tools:** Set the ticket to Open and use 'Due Date' and 'Reminder' apps
    to keep track.
 
 By following these steps, you ensure a structured approach to ticket handling
@@ -137,8 +137,8 @@ The Slack Handover Form is designated for tickets with high weight values, high 
    Handover to EMEA).
 - **Complete the Form:** Fill in all required fields and submit the form.
 - **Communication:** Upon submission, a notification will be sent to your
-   group’s Slack channel, alerting the regional group handle.
-- **Reminder:** You’ll receive a private Slack reminder to use the mandatory
+   group's Slack channel, alerting the regional group handle.
+- **Reminder:** You'll receive a private Slack reminder to use the mandatory
    Handover Ticket Summary macro.
 - **Tracking:** All handover requests are logged in the #spt_handover-log
    channel for tracking purposes.
@@ -167,7 +167,7 @@ Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
    an internal note for context.
 2. Slack: Notify the CSM/AM with one of the following:
    - Mention them in an existing ticket discussion.
-   - Start a new thread in the customer’s channel
+   - Start a new thread in the customer's channel
      (#a_customerName-internal).
    - Post a message in a relevant support channel (`#support_leadership`,
      `#support_gitlab-com`, or `#support-self_managed`).
@@ -251,9 +251,9 @@ and learn in the process. If that person determines that they need to take the
 lead due to the advanced or complex nature of the problem, then:
 
 1. Send a message to the customer informing them:
-   - You’ve asked another support engineer with relevant expertise to take the
+   - You've asked another support engineer with relevant expertise to take the
      ticket
-   - You’ve reviewed the ticket with that engineer
+   - You've reviewed the ticket with that engineer
    - You'll stay involved in order to help in any way you can
 1. Assign the ticket to the expert
 

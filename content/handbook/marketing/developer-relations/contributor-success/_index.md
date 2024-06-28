@@ -240,7 +240,7 @@ More details can be found at the [MRARR Community-Relations PI section](/handboo
 - Activities:
   - Work with Development Department (Christopher L, VP of Development) for volunteers.
   - Work with UX Department (Christie L, VP of UX) Christie for volunteers.
-  - Refresh MR coaches as “Community coaches” so non-code review work can be encouraged (design, etc)
+  - Refresh MR coaches as "Community coaches" so non-code review work can be encouraged (design, etc)
   - Launch training materials for coaches
 
 More details can be found at the [Community Coaches per Month Community-Relations PI section](/handbook/marketing/developer-relations/performance-indicators/#community-mr-coaches-per-month)

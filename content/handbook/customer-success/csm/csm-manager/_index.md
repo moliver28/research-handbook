@@ -1,14 +1,7 @@
 ---
-
 title: "CSM Manager Handbook"
 description: "Field guide for CSM Managers on standard and recurring practices."
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -68,7 +61,7 @@ This page provides an overview on relevant CSM leadership processes.
   </tr>
   <tr>
     <td>Team development (quarterly)</td>
-    <td><ul><li>The manager schedules an additional 1-hour sync to discuss their IDP and progress/obstacles</li><li>The CSM is responsible for building and maintaining this document in partnership with their manager</li><li>When a CSM is working towards a promotion, the promotion doc is built and collaborated on in partnership between the CSM and CSM manager. It is the manager’s role to ensure the areas the CSM needs to develop to move towards the promotion are clear and articulated</li></ul></td>
+    <td><ul><li>The manager schedules an additional 1-hour sync to discuss their IDP and progress/obstacles</li><li>The CSM is responsible for building and maintaining this document in partnership with their manager</li><li>When a CSM is working towards a promotion, the promotion doc is built and collaborated on in partnership between the CSM and CSM manager. It is the manager's role to ensure the areas the CSM needs to develop to move towards the promotion are clear and articulated</li></ul></td>
     <td>An active IDP in place for every team member, reviewed on a quarterly basis</td>
   </tr>
   <tr>

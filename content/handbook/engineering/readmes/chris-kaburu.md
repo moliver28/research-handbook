@@ -1,5 +1,4 @@
 ---
-
 title: "Chris 'CK' README"
 description: "Personal readme page for CK, Support Engineer, GitLab"
 job: "Support Engineering"

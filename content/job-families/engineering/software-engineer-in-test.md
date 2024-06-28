@@ -17,7 +17,7 @@ strong engineering principles, and methodical problem-solving skills.
 CI/CD, and load balancing.
 - Have the ability to grow your knowledge of GitLab provisioning and setup tools like Terraform and Ansible.
 - Setup and maintain new GitLab test environments.
-- You’ll work on test automation issues related to the Quality department, the [stage group you're embedded in](/handbook/product/categories/#devops-stages), and the entire GitLab product. The work you’ll do will be [transparent and open to the GitLab community](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Quality)
+- You'll work on test automation issues related to the Quality department, the [stage group you're embedded in](/handbook/product/categories/#devops-stages), and the entire GitLab product. The work you'll do will be [transparent and open to the GitLab community](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Quality)
 - Participate in test pipeline triage rotation and ensure pipeline failures are triaged promptly.
 - Develop working knowledge of the entire GitLab application stack including tests at all levels. (Unit, Integration, and End-to-end).
 - Groom and prune GitLab tests at all levels to ensure optimal coverage and effective deduplication.
@@ -34,12 +34,12 @@ You see distributed systems as a core challenge of good test automation infrastr
 
 - You have a few years of professional experience developing in Ruby or working on a Ruby on Rails application
 - You bring significant experience using Git and its command line
-- You’re comfortable with Selenium-based test automation tools like Capybara
-- You’ve got a working knowledge of Docker
-- You’re interested in growing your knowledge and skills in Test Environment Provisioning and Configuring using technologies like Terraform, Ansible, Kubernetes, GCP, or AWS
+- You're comfortable with Selenium-based test automation tools like Capybara
+- You've got a working knowledge of Docker
+- You're interested in growing your knowledge and skills in Test Environment Provisioning and Configuring using technologies like Terraform, Ansible, Kubernetes, GCP, or AWS
 - You have experience with Continuous Integration systems (e.g., Jenkins, Travis, GitLab)
 - Our [values](/handbook/values/) of collaboration, results, efficiency, diversity, iteration, and transparency resonate with you
-- You’ll thrive in an environment where [self-learning and self-service](/handbook/company/culture/all-remote/self-service/#self-service-and-self-learning-in-onboarding) is encouraged and instilled as a part of our culture
+- You'll thrive in an environment where [self-learning and self-service](/handbook/company/culture/all-remote/self-service/#self-service-and-self-learning-in-onboarding) is encouraged and instilled as a part of our culture
 - Ability to use GitLab
 
 ## Levels

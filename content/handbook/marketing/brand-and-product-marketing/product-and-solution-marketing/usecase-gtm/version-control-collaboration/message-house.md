@@ -1,9 +1,6 @@
 ---
-
 title: "Version Control & Collaboration Message House"
 ---
-
-
 
 | **Positioning Statement** | Application development and DevOps is fast and iterative, making it essential that teams can rapidly collaborate and iterate on new features and deliver business value. They must avoid working in silos which creates complex integration conflicts and constantly broken builds. GitLab is a comprehensive Version Control and Collaboration (VC&C) solution to deliver better software faster. A Git-based web repository that aggregates all development milestones and metadata, GitLab enables clear code reviews, asset version control, feedback loops, and powerful branching patterns to streamline software delivery. GitLab helps you deliver faster, more efficiently, and increase compliance. |
 |------------------------|-------------------------------------------------------------------------|

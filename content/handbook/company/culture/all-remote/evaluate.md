@@ -41,7 +41,7 @@ Remote [organizations](./jobs/) search for people who place a high degree of val
 
 Because of the self-directed nature of remote work, employers look for people capable of:
 
-- being a [manager of one]({{< ref "values#managers-of-one" >}})
+- being a [manager of one](/handbook/values/#managers-of-one)
 - working [asynchronously]({{< ref "./asynchronous" >}})
 - [communicating through text]({{< ref "./effective-communication" >}})
 - setting up an ideal [workspace]({{< ref "./workspace" >}})
@@ -71,7 +71,7 @@ This ensures that each team member is treated equally, and removes typical board
 
 Flex-work and workplace flexibility have grown in popularity, but it's important to ask for specific examples of how this actually works within a company you are considering joining.
 
-Do only senior leaders have complete flexibility to schedule their working hours and days around their lives? Is workplace flexibility truly embraced and supported throughout the organization? Does the company empower team members to be a [manager of one]({{< ref "values#managers-of-one" >}}), valuing [outputs](/handbook/values/#results) rather than inputs such as hours worked?
+Do only senior leaders have complete flexibility to schedule their working hours and days around their lives? Is workplace flexibility truly embraced and supported throughout the organization? Does the company empower team members to be a [manager of one](/handbook/values/#managers-of-one), valuing [outputs](/handbook/values/#results) rather than inputs such as hours worked?
 
 When life happens and you need to restructure your day on the fly, is this openly encouraged and supported or quietly frowned upon?
 

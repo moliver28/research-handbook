@@ -1,11 +1,8 @@
 ---
-
 title: Testing Environment
 category: Infrastructure for troubleshooting
 description: "Support Engineer test environment setup options and guidelines"
 ---
-
-
 
 ## Selecting the Right Testing Environment
 
@@ -483,15 +480,15 @@ Once installed, use `multipass help` to get an idea of what it can do. The gener
    apt install -y "gitlab-ee=$GL_VERSION-ee.0"
    ```
 
-   ***Please note:*** You need to replace the above password entry "your_root_password" with an alphanumeric password which is not a series of words and phrases otherwise you will encounter the error message "Password must not contain commonly used combinations of words and letters”.
+   ***Please note:*** You need to replace the above password entry "your_root_password" with an alphanumeric password which is not a series of words and phrases otherwise you will encounter the error message "Password must not contain commonly used combinations of words and letters".
 
-1. Run the following one-liner. If you’d like to increase/decrease memory or disk, replace with the appropriate values. You can use `multipass help launch` for more details on this command.
+1. Run the following one-liner. If you'd like to increase/decrease memory or disk, replace with the appropriate values. You can use `multipass help launch` for more details on this command.
 
    ```bash
    multipass launch --cpus 4 --memory 8G --disk 10G --name gitlab-omnibus && multipass mount ~/mp_mount/ gitlab-omnibus:/mp_mount && multipass exec gitlab-omnibus -- sh -c 'sudo sh /mp_mount/install-omnibus.sh'
    ```
 
-1. You’re finished! Use `multipass shell gitlab-omnibus` to access your instance. Additionally:
+1. You're finished! Use `multipass shell gitlab-omnibus` to access your instance. Additionally:
     - `multipass list` or `multipass ls` to see all instances
     - `multipass stop gitlab-omnibus` to stop the instance
     - `multipass delete gitlab-omnibus` to delete the instance

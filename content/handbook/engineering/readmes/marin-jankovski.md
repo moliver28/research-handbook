@@ -1,14 +1,7 @@
 ---
-
 title: "Marin Jankovski's README"
 job: "Director of Platform Infrastructure"
 ---
-
-
-
-
-
-
 
 ## Purpose
 

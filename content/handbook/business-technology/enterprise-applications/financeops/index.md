@@ -1,5 +1,4 @@
 ---
-
 title: "Finance Systems"
 description: "Finance Systems Operations"
 ---
@@ -34,8 +33,8 @@ The **Finance Systems Administrator Team** implements and supports specialized a
 - Issues will be assigned to a [Milestone by Enterprise Applications leadership team](/handbook/business-technology/enterprise-applications/#entapps-milestone-planning). Assignment to a milestone is based on the [issue weight](/handbook/business-technology/enterprise-applications/#issue-weights), priority, and team member capacity.
 - Once issues are assigned to a Finance Systems Administrator and assigned to a Milestone, we track the status of the issue by assigning labels:
   - **Open:** Pending Priority and Admin assignment. Access Requests will progress to "In Progress" within 72 hours of assignment of the `~FinSys::Service Desk` label.
-  - **`~BT::InProgress`:** Priority and Admin has been assigned and it’s actively being worked on.
-  - **Closed or BT::Done External:** Request has been fulfilled entirely or next steps have been agreed to. Sometimes an issue cannot be closed by the FinSys team because there are tasks/requests for other teams (i.e. Access Requests), so in those cases we’ll mark it with BT::Done External which indicates all work for the FinSys team has been completed.
+  - **`~BT::InProgress`:** Priority and Admin has been assigned and it's actively being worked on.
+  - **Closed or BT::Done External:** Request has been fulfilled entirely or next steps have been agreed to. Sometimes an issue cannot be closed by the FinSys team because there are tasks/requests for other teams (i.e. Access Requests), so in those cases we'll mark it with BT::Done External which indicates all work for the FinSys team has been completed.
   - If an issue is still Open, and a milestone is pending closure, we may move to the next Milestone during the Milestone Planning process.
 
 ### Finance Systems Change Management Procedures

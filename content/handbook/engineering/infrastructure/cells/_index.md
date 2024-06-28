@@ -212,7 +212,7 @@ DRI of Expansion Software Development
 </tr>
 
 <tr>
-<td>Application’s Cell readiness</td>
+<td>Application's Cell readiness</td>
 <td>
 
 [Kamil Trzciński](https://gitlab.com/ayufan)
@@ -472,7 +472,7 @@ We use t-shirt sizing to estimate the time and effort needed to deliver issues/e
 
 ### Status updates
 
-- Weekly “Cells & Organizations Status Update - [yyyy-mm-dd]” issues in this [project](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/?sort=created_date&state=all&label_name%5B%5D=cells-organizations-status)
+- Weekly "Cells & Organizations Status Update - [yyyy-mm-dd]" issues in this [project](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/?sort=created_date&state=all&label_name%5B%5D=cells-organizations-status)
 - Weekly status updates in Slack [#cto channel (internal only)](https://gitlab.enterprise.slack.com/archives/C9X79MNJ3) channel
 
 ## Additional Information

@@ -1,14 +1,6 @@
 ---
-
 title: Cultivating Contributions from the Wider Community
 ---
-
-
-
-
-
-
-
 
 ## Impact of wider community contributions
 

@@ -71,7 +71,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
    > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
-1. In the **Project URL** field, click the dropdown for the second half of the URL to make sure it’s pointing to a **group name** (starts with `gitlab-learn-labs/*` for Self-paced training, and `training-users/*` for Instructor-Lead Training) and not a **username**. You should create this project inside a group, not directly in your user’s namespace.
+1. In the **Project URL** field, click the dropdown for the second half of the URL to make sure it's pointing to a **group name** (starts with `gitlab-learn-labs/*` for Self-paced training, and `training-users/*` for Instructor-Lead Training) and not a **username**. You should create this project inside a group, not directly in your user's namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
@@ -171,4 +171,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

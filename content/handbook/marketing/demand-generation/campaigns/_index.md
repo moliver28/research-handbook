@@ -1,16 +1,10 @@
 ---
-
 title: Demand Generation Campaigns Team
 description: Demand Generation Campaigns Handbook
 twitter_image: /images/tweets/handbook-marketing.png
 twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
-
-
-
-
-
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Campaigns Team
 

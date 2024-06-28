@@ -46,7 +46,7 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 **Learning Objectives**
 
 - [How to Write Clear Learning Objectives](http://www.bu.edu/cme/forms/RSS_forms/tips_for_writing_objectives.pdf)
-- [Using Bloom’s Taxonomy to Write Effective Learning Objectives](https://tips.uark.edu/using-blooms-taxonomy/)
+- [Using Bloom's Taxonomy to Write Effective Learning Objectives](https://tips.uark.edu/using-blooms-taxonomy/)
 
 **Thought Leadership**
 

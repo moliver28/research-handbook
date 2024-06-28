@@ -12,7 +12,7 @@ Diversity, Inclusion and Belonging ([DIB]({{< ref "inclusion" >}})) are fundamen
 
 ## GitLab Benefits
 
-- Partnering with HBCUs will provide an opportunity for GitLab to diversify it’s talent acquisition pipeline, and enhance its commitment to diversity.
+- Partnering with HBCUs will provide an opportunity for GitLab to diversify it's talent acquisition pipeline, and enhance its commitment to diversity.
 - Opportunity to diversify and to our Community of Contributors
 - Evangelizing GitLab software to future Engineers
 - Opportunity to diversify our talent acquisition pipeline
@@ -35,7 +35,7 @@ Diversity, Inclusion and Belonging ([DIB]({{< ref "inclusion" >}})) are fundamen
 
 The GitLab instructors below have volunteered their time to create the course content that made this course possible. A special thanks goes out to each person listed below:
 
-- [Brendan O’Leary](/handbook/company/team/#brendan), Senior Developer Evangelist
+- [Brendan O'Leary](/handbook/company/team/#brendan), Senior Developer Evangelist
 - [Michael Friedrich](/handbook/company/team/#dnsmichi), Developer Advocate
 - Darren Murph, Head of Remote
 - [Paul Slaughter](/handbook/company/team/#pslaughter), Senior Frontend Engineer

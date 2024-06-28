@@ -19,12 +19,12 @@ title: Data Intelligence
 - Establish data quality metrics, detection/correction of data quality issues
 - Manage team performance; support professional development
 - Manage and monitor data attributes and definitions through the data dictionary
-- Support Deal Desk/Order Management and SOps teams’ data initiatives
+- Support Deal Desk/Order Management and SOps teams' data initiatives
 
 ## Requirements
 
 - Ability to use GitLab
-- Bachelor’s degree in computer science, business, statistics or related fields
+- Bachelor's degree in computer science, business, statistics or related fields
 - 6-8 years of data management experience
 - Excellent verbal and written communication skills, presentation and storytelling
 - SFDC Admin certified

@@ -1,5 +1,4 @@
 ---
-
 title: "Development OKRs"
 description: "Development OKRs"
 canonical_path: "/handbook/engineering/development/okrs/"

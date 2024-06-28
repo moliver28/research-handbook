@@ -13,8 +13,8 @@ Winners may submit their receipt for the meal for reimbursement via Navan.
 Please see the instructions below.
 
 In Navan, click Add Transaction Select Upload receipt (or select Type in details)
-Under Expense Type field, please select “Team events & meals”
-Under Classification, please select “FY24 Team Building”
+Under Expense Type field, please select "Team events & meals"
+Under Classification, please select "FY24 Team Building"
 Under Description field, please include this link: https://about.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner
 Click Submit (or Save & close if you need to come back to add more information).
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Quote to Cash Entity Relationship Diagrams"
 description: "Entity Relationship Diagrams for Quote to Cash Systems"
 ---

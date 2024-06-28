@@ -1,14 +1,13 @@
 ---
-
 title: "Field Accreditation Program"
-description: "To support and scale GitLab’s continued growth and success, the Field Enablement Team has developed a role-based accreditation program that includes functional, soft skills, and technical training for field team members"
+description: "To support and scale GitLab's continued growth and success, the Field Enablement Team has developed a role-based accreditation program that includes functional, soft skills, and technical training for field team members"
 ---
 
 ## Field Accreditation Program
 
 ## Field Accreditation Program Overview
 
-During [Sales Quick Start](/handbook/sales/onboarding/), every GitLab field team member is trained on [customer value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers) and GitLab’s value-based messaging framework (see the [Command of the Message](/handbook/sales/command-of-the-message/) page). Once new team members complete SQS, they will begin their role-based certifiction program.
+During [Sales Quick Start](/handbook/sales/onboarding/), every GitLab field team member is trained on [customer value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers) and GitLab's value-based messaging framework (see the [Command of the Message](/handbook/sales/command-of-the-message/) page). Once new team members complete SQS, they will begin their role-based certifiction program.
 
 To improve efficiency & predictability with a consistent and scalable customer engagement, the Field Enablement Team has developed a role based accreditation program that includes functional, soft skills, and [product training](/handbook/sales/training/product-certification/) for field team members.
 
@@ -54,10 +53,10 @@ Course content will be a combination of handbook pages, YouTube videos, and inte
 
 ### Accreditation Assessments
 
-To achieve GitLab “certified” status, candidates must complete both the online written exam (knowledge) and practical assessment (skill) with a passing score on each exam.
+To achieve GitLab "certified" status, candidates must complete both the online written exam (knowledge) and practical assessment (skill) with a passing score on each exam.
 
 - Anyone can sign up and take the written exam, but only learners who successfully pass the online written assessment will be granted access to the practical assessment
-- The practical assessment will require team members to demonstrate the ability to deliver customer engagements to GitLab’s standards
+- The practical assessment will require team members to demonstrate the ability to deliver customer engagements to GitLab's standards
 - Upon completion of all courses within each accreditation, learners will receive a badge
 
 #### GitLab Use Cases Overview

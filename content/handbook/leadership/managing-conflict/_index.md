@@ -93,7 +93,7 @@ Managing conflict through team input.
 1. **Encourage transparency and inclusion**
     - All team members must feel free to express their opinions in a non judgemental environment.
 1. **Serve as a resource**
-    - Serve as a resource in business decisions to [coach through conflict](#balancing-conflict) and understand a path forward to support [GitLab’s Vision](https://about.gitlab.com/direction/#vision).
+    - Serve as a resource in business decisions to [coach through conflict](#balancing-conflict) and understand a path forward to support [GitLab's Vision](https://about.gitlab.com/direction/#vision).
 
 ## Balancing conflict
 

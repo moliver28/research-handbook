@@ -26,7 +26,7 @@ status: active
 1. In its current form, the [Architecture Evolution Workflow](/handbook/engineering/architecture/workflow/)
    is not leveraged for many initiatives within departments of Engineering. Without
    a unified roadmap of our own, it is difficult to weigh priorities against
-   Product’s own roadmap.
+   Product's own roadmap.
 
 ### Exit Criteria
 

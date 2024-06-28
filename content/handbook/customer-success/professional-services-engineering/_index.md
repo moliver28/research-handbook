@@ -47,7 +47,7 @@ GitLab Professional Services enables customers and partners to realize the full 
 
 ### Goals
 
-1. Measure benefits of Professional Services’ contributions to product growth, adoption, retention, and time-to-value to drive internal stakeholders (Sales, Product, CS), external customers and partner success
+1. Measure benefits of Professional Services' contributions to product growth, adoption, retention, and time-to-value to drive internal stakeholders (Sales, Product, CS), external customers and partner success
 1. Predictably meet or exceed company financial performance goals for Professional Services through services delivery by overachieving project goals while maintaining project profitability targets
 1. Increase market opportunities and delivery elasticity by expanding to a partner-leveraged delivery model in order to reach more customers
 1. Ensure high-quality service delivery for GitLab direct and partner delivered services

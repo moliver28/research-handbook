@@ -175,7 +175,7 @@ The list may not be up to date.  If something is missing, please add it.
 
 ## Zendesk
 
-Every SRE should register for a “Light Agent” account in ZenDesk. Often times incidents are generated from customer reports, and it’s useful to see their submission and the back and forth with support. You can also leave internal notes for support engineers so that they can gather more information for troubleshooting purposes. See ['Light Agent' Zendesk accounts available for all GitLab staff](/handbook/support/internal-support/#viewing-support-tickets)
+Every SRE should register for a "Light Agent" account in ZenDesk. Often times incidents are generated from customer reports, and it's useful to see their submission and the back and forth with support. You can also leave internal notes for support engineers so that they can gather more information for troubleshooting purposes. See ['Light Agent' Zendesk accounts available for all GitLab staff](/handbook/support/internal-support/#viewing-support-tickets)
 
 ## Time Off by Deel
 

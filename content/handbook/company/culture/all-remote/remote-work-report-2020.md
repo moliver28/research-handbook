@@ -66,7 +66,7 @@ unlisted: true
         .image-divider
           = image_tag "/images/remote-work-survey/train.svg"
         %h4.u-margin-top-md Debunking Remote Work Myths
-        %p Remote workers aren’t all traveling nomads. Findings showed 38% saw lack of commute as a top benefit, with that time instead spent with family (43%), working (35%), resting (36%), and exercising (34%). Employees find themselves to overall be more productive (52%) and efficient (48%), with 74% of remote workers agreeing that their company lives by its values. Additionally, unlike traditionally thought, 52% of remote workers actually travel less.
+        %p Remote workers aren't all traveling nomads. Findings showed 38% saw lack of commute as a top benefit, with that time instead spent with family (43%), working (35%), resting (36%), and exercising (34%). Employees find themselves to overall be more productive (52%) and efficient (48%), with 74% of remote workers agreeing that their company lives by its values. Additionally, unlike traditionally thought, 52% of remote workers actually travel less.
         %h4.u-margin-top-md Accessibility and Opportunity to Grow/Continue Your Career as a Parent
         %p Benefits of working remotely have enabled employees to focus on their families without having to give up their career. 34% percent found the ability to care for family a top benefit of remote work, in addition to 53% citing schedule flexibility and 38% saying lack of commute. It was also found that, in place of commuting, 43% are able to spend more quality time with family — 55% of respondents having children under 18.
         .image-divider
@@ -78,15 +78,15 @@ unlisted: true
         .image-divider
           = image_tag "/images/remote-work-survey/mountain.svg"
         %h4.u-margin-top-md Remote is Here to Stay
-        %p 86% of respondents believe remote work is the future. But it’s also the present, as evidenced by 84% of those surveyed saying that they are able to accomplish all of their tasks remotely right now.
+        %p 86% of respondents believe remote work is the future. But it's also the present, as evidenced by 84% of those surveyed saying that they are able to accomplish all of their tasks remotely right now.
         %h4.u-margin-top-md Remote is the Ultimate Hiring Advantage
         %p 62% of respondents said that they would consider leaving a co-located company for a remote role. Why? Everyone values remote benefits differently, from reduced anxiety to improved health to reduced office politics. Said another way, the freedom of remote <strong>universally matters</strong> for a <strong>remarkably diverse array of reasons</strong>.
         .image-divider
           = image_tag "/images/remote-work-survey/beach.svg"
         %h4.u-margin-top-md The Work From Anywhere Opportunity
-        %p 47% said that managing at-home distractions were a top challenge. It’s time to phase out the phrase “work from home,” empowering team members to work from anywhere that they’re optimally productive. Reimbursing for co-working spaces and external offices is a good place to start.
+        %p 47% said that managing at-home distractions were a top challenge. It's time to phase out the phrase "work from home," empowering team members to work from anywhere that they're optimally productive. Reimbursing for co-working spaces and external offices is a good place to start.
         %h4.u-margin-top-md All The Feels
-        %p Nearly half of those surveyed consider themselves “Lucky” to work remotely, with Practical, Valued, Smart, and Proud rounding out the top 5. Fewer than 10% associated with the terms Alone, Tired and Misunderstood.
+        %p Nearly half of those surveyed consider themselves "Lucky" to work remotely, with Practical, Valued, Smart, and Proud rounding out the top 5. Fewer than 10% associated with the terms Alone, Tired and Misunderstood.
         %h4.u-margin-top-md Remote ≠ Alone
         %p When in-person interactions are intentional, as is the case in a remote setting, they matter more. 82% of remote workers say their company supports in-person gatherings through events, summits, meet-ups, and more. Meanwhile, 66% are already connected to remote work communities.
 

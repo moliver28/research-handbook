@@ -3,7 +3,6 @@ title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Dependen
 description: "This Hands-On Guide walks you through enabling and using a Dependency Scan in a GitLab project."
 ---
 
-
 > Estimated time to complete: 15 to 30 minutes
 
 ## Objectives
@@ -81,7 +80,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 > The Dependency Scanner will traverse your project dependencies looking for security vulnerabilities.
 >
-> You’ll enable Dependency Scanning by including a GitLab-provided template in your CI/CD configuration file. You can do this manually, or you can use the GitLab GUI to make a merge request that does it for you. Since you used the manual technique to enable SAST, Secret Detection, and DAST in the last lab, use the GUI to enable Dependency Scanning in this lab.
+> You'll enable Dependency Scanning by including a GitLab-provided template in your CI/CD configuration file. You can do this manually, or you can use the GitLab GUI to make a merge request that does it for you. Since you used the manual technique to enable SAST, Secret Detection, and DAST in the last lab, use the GUI to enable Dependency Scanning in this lab.
 
 1. Navigate to **Secure > Security configuration**.
 
@@ -92,7 +91,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 1. On the merge request (MR) creation page, leave all fields at their default values and click the **Create merge request** button. You will be redirected to the details page for the MR that you just created.
 
-1. In the middle of the page, find the notification that a pipeline is running on the MR’s branch.
+1. In the middle of the page, find the notification that a pipeline is running on the MR's branch.
 
     1. It could take a few minutes for the pipeline to finish, even if you've disabled scans from the previous lab.
     2. Do **not** click **Auto-merge** button since that can lead to unexpected behavior.
@@ -104,11 +103,11 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 ## Task D. Configure Dependency Scanning
 
-> You can configure Dependency Scanning by setting variables in your the `gitlab-ci.yml` file. In this task, you’ll change the Dependency Scanner's log level to `info`.
+> You can configure Dependency Scanning by setting variables in your the `gitlab-ci.yml` file. In this task, you'll change the Dependency Scanner's log level to `info`.
 
 1. Navigate to **Build > Pipeline editor**.
 
-1. Add this job definition to the bottom of your `.gitlab-ci.yml` file. It overrides an existing job that’s defined by the Dependency Scanning template. *Note that there are 2 hyphens and 1 underscore in the first line.*
+1. Add this job definition to the bottom of your `.gitlab-ci.yml` file. It overrides an existing job that's defined by the Dependency Scanning template. *Note that there are 2 hyphens and 1 underscore in the first line.*
 
     ```yml
     gemnasium-python-dependency_scanning:
@@ -122,7 +121,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
     > This commit triggers a pipeline run using your new Dependency Scanning configuration.
 
-1. Navigate to **Build > Pipelines** and wait for the most recent pipeline to finish. If you want to watch its progress, go to the pipeline’s details page and click on the job the **gemnasium-python-dependency_scanning** pill button to see the console output for the job. Remember that Dependency Scanning can take a few minutes to run.
+1. Navigate to **Build > Pipelines** and wait for the most recent pipeline to finish. If you want to watch its progress, go to the pipeline's details page and click on the job the **gemnasium-python-dependency_scanning** pill button to see the console output for the job. Remember that Dependency Scanning can take a few minutes to run.
 
 ## Task E. Take Action on Vulnerabilities
 
@@ -152,4 +151,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the *GitLab Security Essentials Hands-on Guide*, please submit them via merge request.
+If you'd like to suggest changes to the *GitLab Security Essentials Hands-on Guide*, please submit them via merge request.

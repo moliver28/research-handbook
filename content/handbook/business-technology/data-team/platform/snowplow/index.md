@@ -1,14 +1,7 @@
 ---
-
 title: Snowplow
 description: Snowplow Infrastructure Management
 ---
-
-
-
-
-
-
 
 ### Snowplow Overview
 

@@ -84,9 +84,9 @@ Make the most of `onsites` with intentional time to get to know one another.
 
 ### Consider Utilizing Design Thinking Exercises
 
-Design thinking is a non-linear, iterative process that teams use to understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test. (Source: [Interaction Design](https://www.interaction-design.org/literature/topics/design-thinking)). What makes design thinking unique is that it's a user-centric, solution-based approach to problem solving. The focus is on the solution, rather than the problem. Design thinking gives opportunity for [everyone to contribute]({{< ref "mission#mission" >}}) and can help develop a [growth mindset]({{< ref "values#growth-mindset" >}}).
+Design thinking is a non-linear, iterative process that teams use to understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test. (Source: [Interaction Design](https://www.interaction-design.org/literature/topics/design-thinking)). What makes design thinking unique is that it's a user-centric, solution-based approach to problem solving. The focus is on the solution, rather than the problem. Design thinking gives opportunity for [everyone to contribute]({{< ref "mission#mission" >}}) and can help develop a [growth mindset](/handbook/values/#growth-mindset).
 
-Design thinking directly supports our GitLab values of Results, Collaboration, and  Efficiency. We balance being [ambitious]({{< ref "values#ambitious" >}}) along with a focus on [boring solutions]({{< ref "#boring-solutions" >}}) - both of which are solutions-oriented.
+Design thinking directly supports our GitLab values of Results, Collaboration, and  Efficiency. We balance being [ambitious](/handbook/values/#ambitious) along with a focus on [boring solutions]({{< ref "#boring-solutions" >}}) - both of which are solutions-oriented.
 
 Listen to [Tim Brown speak about the Design Thinking process in this TedTalk](https://www.ted.com/talks/tim_brown_designers_think_big/transcript?language=en).
 

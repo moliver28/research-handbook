@@ -73,13 +73,13 @@ Make sure as you (and/or the partner) is delivering the implementation services,
 If the project requirements exceed the current capacity of the available resources then the professional services team may employ a Consultant to help deliver the project.  The following provides a checklist of items to process before and during the use of a subcontracted resource:
 
 1. Partner Search
-    - Share “sample PS Projects” with viable partners
+    - Share "sample PS Projects" with viable partners
         - [Advisory Project](https://docs.google.com/document/d/1KhADjTUOndaAev3dSLlRgyEJtBIT6wv_rr3aH5hsKKQ/edit?usp=sharing)
         - [Implementation Project](https://docs.google.com/document/d/13Mw-7uSSclfwm6JWcs8UrXM9SunX8ebIeIk-n9q9b6Y/edit?usp=sharing)
         - [Migration Project](https://docs.google.com/document/d/1OuCZqxZvjiPx2S0bFnX8tGgfBFWeg_gdifQWhdtTlAg/edit?usp=sharing)
         - Project Management Project (coming soon)
         - Training Project (coming soon)
-    - Share “PSE Profiles” with viable partners
+    - Share "PSE Profiles" with viable partners
         - Advisory (Profile coming soon)
         - Implementation (Profile coming soon)
         - Migration (Profile coming soon)

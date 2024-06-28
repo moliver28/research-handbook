@@ -1,5 +1,4 @@
 ---
-
 title: "Test Platform Onboarding"
 description: "Guidelines for onboarding as a new Test Platform team member"
 ---

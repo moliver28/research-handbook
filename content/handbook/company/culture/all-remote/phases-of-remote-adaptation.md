@@ -67,7 +67,7 @@ Some businesses will choose not to invest time, energy, and resources to moving 
 
 Entering Phase 2 is simple. It begins with leadership asking a fundamental question: "What if we didn't do things the way we've always done them?"
 
-Remote enables you to function differently than a conventional colocated company. It challenges preconceived notions and it provides new opportunities to increase [efficiency](/handbook/values/#efficiency) of work and [agency]({{< ref "values#give-agency" >}}) of people.
+Remote enables you to function differently than a conventional colocated company. It challenges preconceived notions and it provides new opportunities to increase [efficiency](/handbook/values/#efficiency) of work and [agency](/handbook/values/#give-agency) of people.
 
 ### Evolving processes
 
@@ -125,7 +125,7 @@ You can learn more at GitLab's [remote team solutions page]({{< ref "./gitlab-fo
 
 Phase 4 is marked by an extraordinary amount of intentionality, particularly in areas that are typically assumed to need minimal guardrails. The list below is not exhaustive, but showcases examples of this approach.
 
-- Measuring [output]({{< ref "values#measure-results-not-hours" >}}) (results) rather than input (hours). This requires a deliberate choice to not measure hours spent working, as well as a strong commitment to outlining deliverables and expectations that can be measured. This enables team members to work towards their goals in any manner they choose.
+- Measuring [output](/handbook/values/#measure-results-not-hours) (results) rather than input (hours). This requires a deliberate choice to not measure hours spent working, as well as a strong commitment to outlining deliverables and expectations that can be measured. This enables team members to work towards their goals in any manner they choose.
 - Hiring outside of a company's home geography without relocating. By intentionally opening one's talent acquisition pipeline to the globe, you assume certain risks (time zone headaches, legal and regulatory hurdles in foreign nations, etc.) understanding that the ability to hire the world's best talent is worthwhile.
 - Structure social interactions and non-work activities. While colocated companies allow fate to dictate these interactions, remote companies look to their people group to brainstorm ideas with functional leaders and put opportunities to gather as a team on the calendar.
 - Create [team building opportunities]({{< ref "./informal-communication" >}}) that are even grander than those in colocated spaces, such as [team-wide talent shows](https://twitter.com/darrenmurph/status/1243194687453835265), trivia events, show-and-tell gatherings, virtual lobbies for water-cooler conversation, [global pizza parties/celebrations](https://about.gitlab.com/blog/2019/10/02/support-virtual-pizza-party), and even global [family-oriented chats]({{< ref "./informal-communication#juice-box-chats" >}}).
