@@ -73,13 +73,10 @@ _Billable vs NonBillable information_, please refer to [Team Metrics](/handbook/
 
 ##### Reporting Project Health
 
-The PMO team ensures our forecast, Project/Program health, upside is updated by Monday, 11am EST, as the PS Ops team prepares the weekly reports per the PS Reporting schedule. 
+The PMO team ensures our forecast, Project/Program health, upside is updated by Monday, 11am EST, as the PS Ops team prepares the weekly reports per the PS Reporting schedule
 
-The Top Customer is how we reort on Project/program heath. The PM team is expected to update the RYG notes (as outlined below). 
-
-The PS Reporting Schedule includes the timing of the Weekly Revenue Forecast reports, Top Customer Updates, and Kantata guidelines. This pinned to the ps_PMO Slack channel
-
-_Time & Materials (T&M) vs Fixed Fee (Fixed Fee)_
+The Top Customer is how we reort on Project/program heath. The PM team is expected to update the RYG notes (as outlined below)
+The PS Reporting Schedule includes the timing of the Weekly Revenue Forecast reports, Top Customer Updates, and Kantata guidelines.Both are pinned to the ps_PMO Slack channel
 
 ##### Forecasting Time and Materials (T&M) and Fixed Fee (FF)
 
@@ -144,9 +141,7 @@ Forecast allocations impact PS revenue forecast and team members availability, u
    d. Ensure hard bookings are in place for all projects post kick-off
 
 ### Deliver, Train, and Monitor
-
 Please reference our [PSDM (Professional Service Delivery Methodology)](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/processes/) for more details around planning and governing Projects & Programs
-
 ### Iterate and Validate
 
 Managing to Project Scope Changes
