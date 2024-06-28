@@ -100,6 +100,10 @@ To do this, reply with the following:
 >
 >   - After the `env.runit` file is setup, please run `gdk restart`
 >   - You should then be able to apply the license to your GDK instance
+> - For Kubernetes instances where GitLab is deployed using Helm:
+>   - Pass the following values to the Helm chart:
+>     - `global.extraEnv.GITLAB_LICENSE_MODE=“test”`
+>     - `global.extraEnv.CUSTOMER_PORTAL_URL="https://customers.staging.gitlab.com"`
 >
 > If you get an error that your license key is invalid, this will indicate you
 > have not done the needed setup to work with a staging license.
