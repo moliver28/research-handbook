@@ -9,12 +9,12 @@ This document is intended for **Gitaly engineers**, to become familiar with GitL
 ## Generic GitLab background
 
 Skim / read the following, focusing on an overview then on Gitaly:
-- [Production Architecture](https://handbook.gitlab.com/handbook/engineering/infrastructure/production/architecture/)
-- [Monitoring](https://handbook.gitlab.com/handbook/engineering/monitoring/#monitoring)
+- [Production Architecture](../../../infrastructure/production/architecture/)
+- [Monitoring](../../../../engineering/monitoring/#monitoring)
 
 Other useful links:
-- [Product sections, stages, groups, and categories](https://handbook.gitlab.com/handbook/product/categories/)
-- [Features by Group](https://handbook.gitlab.com/handbook/product/categories/features/)
+- [Product sections, stages, groups, and categories](../../../../../product/categories/)
+- [Features by Group](../../../../../product/categories/features/)
 
 ### Gitaly specific background
 
