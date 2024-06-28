@@ -104,7 +104,7 @@ As a team we strive to be responsive and accommodating when we communicate. When
 
 ### Merge Request reviews
 
-When giving Merge Request review feedback, we aim to provide additional context by utilizing the [conventional: comments](https://conventionalcomments.org/) standard.
+{{% include "includes/engineering/create/conventional-comments.md" %}}
 
 ### Triage process
 
