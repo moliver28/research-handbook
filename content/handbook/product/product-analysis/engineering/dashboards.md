@@ -6,7 +6,7 @@ title: "Engineering Metrics Dashboards"
 
 Welcome to our Engineering Metrics Dashboards hub – your go-to spot for checking out how things are rolling across our engineering org. The dashboards below capture data on key metrics such as past due issues, merge request types, open bugs, review time, merge request rate, and the age of bugs and issues. These metrics serve as vital indicators, offering a granular understanding of our development processes, code quality, and team efficiency.
 
-The Engineering Metrics on this page are available for all product group teams. The indicators captured here may or may not roll into an existing KPI/PI. The Engineering Analytics team reserves the urgency for these dashboards to provide timely visibility without the requirement of having all indicators be a KPI/PI at the department level. Please reach out to us in `#g_engineering_analytics` if you have any questions!
+The Engineering Metrics on this page are available for all product group teams. The indicators captured here may or may not roll into an existing KPI/PI.
 
 #### Dashboards
 
@@ -76,12 +76,12 @@ Simply copy and paste this code into your page. It will save your selected filte
 
 ### S1 Open Customer Bug Age Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenCustomerBugAge" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenCustomerBugAgeKPI" >}}
 {{< /tableau >}}
 
 ### S2 Open Customer Bug Age Dashboard
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S2OpenCustomerBugAge" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S2OpenCustomerBugAgeKPI" >}}
 {{< /tableau >}}
 
 ### Security Dashboard
