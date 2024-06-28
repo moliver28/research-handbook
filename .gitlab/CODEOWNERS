@@ -425,6 +425,7 @@
 ^[product]
 /content/handbook/product/ @david
 /content/handbook/product/fulfillment-guide.md @ofernandez2
+/content/handbook/product/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
 /content/handbook/product/product-processes/product-mgt-operations/board-deck-prep.md @natalie.pinto
 /content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/pricing.md @justinfarris @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
@@ -439,7 +440,6 @@
 /content/job-families/product/ux-research-manager.md @asmolinski2 @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/ux-research-operations-coordinator.md @asmolinski2 @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/ux-researcher.md @asmolinski2 @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
-/content/handbook/product/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
 
 ^[product-dev-flow]
 /content/handbook/product-development-flow/ @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
