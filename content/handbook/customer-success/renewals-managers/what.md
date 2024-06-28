@@ -8,7 +8,6 @@ View the Renewals Manager handbook pages:
 - [How We Do It](/handbook/customer-success/renewals-managers/how) - Information about how renewals managers execute on the mission.
 
 Renewals Managers --> visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/) for more information.
-
 ---
 
 ## FY24 Renewals Opportunity Management
@@ -109,20 +108,19 @@ The key risk fields for capturing risk on the renewal are:
 
 If assigning risk with a quote, the quote will have a value that is less than the original ATR on the opportunity, and therefore will automatically update the `Amount` field to indicate the expected contraction/churn. 
 
-  - For `Will Churn (actionable)`
+For `Will Churn (actionable)`
     1. Turn the `Renewal Forecast Health` field `Red` and check the `Renewal Forecast Health Override` box. (Note that checking this box with Red will automatically set Won ATR to $0)
     2. Fill in the `Renewal ARR Swing` field
     3. Record your `(Most Likely) Forecasted Churn`, indicating the most likely amount of churn or contraction. This should indicated your 80% confidence level in expected outcome. 
     4. Record your `Next Steps`, which may be the tactical steps to take to mitigate the risk (i.e. a meeting time, customer name, follow up cadence, etc)
     5. Record the details of the risk intervention in the `Renewal Manager Notes` section (you can use the risk intervention table for ideas) and categorize the main intervention motion in the `Active Mitigation` field.
 
-  - For `Will Contract (actionable)`
+For `Will Contract (actionable)`
     1. Ensure the primary quote is showing the most conservative (or Commit) renewal outcome. A placeholder or "dummy" quote may be required to forecast the most conservative outcome. If the primary quote reflects Contraction the `Renewal Forecast Health` will automatically indicate Red.
     2. Update the `Renewal Swing ARR`field
     3. Record your `(Most Likely) Forecasted Churn`, indicating the most likely amount of churn or contraction. This should indicated your 80% confidence level in expected outcome. 
     4. Record your `Next Steps`, which may be the tactical steps to take to mitigate the risk (i.e. a meeting time, customer name, follow up cadence, etc)
     5. Record the details of the risk intervention in the `Renewal Manager Notes` section (you can use the risk intervention table for ideas) and categorize the main intervention motion in the `Active Mitigation` field.
-
 
 Both the `Will Churn` and `Will Contract` selections should only occur very close to the `Subscription Renewal Date` - as situations at a customer may change rapidly. These selections indicate that the risk on the opportunity will no longer be actively mitigated.
 
