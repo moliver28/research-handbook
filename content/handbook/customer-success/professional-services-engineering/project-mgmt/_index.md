@@ -142,7 +142,8 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 ### Deliver, Train, and Monitor
 
-Please reference our [PSDM (Professional Service Delivery Methodology)](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/processes/) for more details around planning and governing Projects & Programs
+Please reference our [PSDM (Professional Service Delivery Methodology)](processes/) for more details around planning and governing Projects & Programs
+
 ### Iterate and Validate
 
 Managing to Project Scope Changes
