@@ -67,7 +67,7 @@
     reasons: []
   tableau_data:
     charts:
-      - url:https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenBugAgePI
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenBugAgePI
         height: 400px
         toolbar: hidden
         hide_tabs: true
