@@ -56,3 +56,63 @@
         height: 400px
         toolbar: hidden
         hide_tabs: true
+- name: S1 Bugs
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Number of open S1 bugs over time
+  target: TBD
+  category: performance
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url:https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/S1OpenBugAgePI
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: MR Rate
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: This is the ratio of product MRs to the number of team members in the group. It’s important because it shows us how productivity of our projects have changed over time. 
+  target: Varies by group
+  category: activity
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DevelopmentEmbeddedDashboard/GroupMRRate
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: Time from hire to first contribution
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: This measures the median time it takes for team members to merge their first contribution to the product.
+  target: TBD
+  category: collaboration
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TimetoFirstContribution/TimetoFirstContribution
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: MR Group Collaboration Count
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: This measures the number of groups involved in an MR.
+  target: TBD
+  category: collaboration
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MRGroupCollaborationCount/MRGroupCollaborationCount
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
