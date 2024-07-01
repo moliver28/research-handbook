@@ -1,5 +1,6 @@
 ---
 title: "Demo Architect"
+description: "Demo architect or Demonstration architects are the trusted advisors to Customer Success Engineering and Solutions Architect teams. Demo architects own creation, maintenance and enablement of delivery of customized customer facing demos, workshops and other customer facing collateral."
 ---
 
 Demo architect or Demonstration architects are the trusted advisors to the Solutions Architect team. Demo architects owns creation, maintenance and enablement of delivery of customized customer facing demos, workshops and other customer facing collateral. Demo Architects are critical in scaling pre-sales functions across the organization and delivering customer revenue.
