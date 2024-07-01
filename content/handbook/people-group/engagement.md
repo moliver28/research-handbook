@@ -101,6 +101,16 @@ Overall survey ranges anywhere from 40 to 50 questions. The format of the survey
 
 Our Engagement Survey for FY'25 is scheduled to run from 2024-06-17 to 2024-06-28. Survey will be open to all team members hired before 2024-05-31.
 
+### FY'25 Annual Engagement Survey Timeline
+
+- 202-06-17: Survey launch @ 8am PT
+- 2024-06-28: Survey close @ 5pm PT
+- 2024-07-08: High-level summary shared with CPO and PBPs
+- 2024-07-09: High-level summary shared with e-group
+- 2024-07-18: High-level summary release (company-wide)
+- 2024-07-18 through 2024-07-31: E-group division-level summary release
+
+
 ### Summit Pulse Surveys Overview
 
 The goal of the Summit is to build trust through social connections. This trust should lead to higher individual and team motivation, leading to higher productivity and retention. Higher trust between individuals and teams fuels collaboration and leads to stronger results.
