@@ -117,7 +117,7 @@ handling. Exceptions should be made only under the following conditions:
 - The ticket has been escalated/STAR'ed, requiring immediate attention regardless of region.
 - The customer has specifically requested it to be handled outside of region.
 
-#### Preparing a ticket for handover
+### Preparing a ticket for handover
 
 1. Set the proper expectations to the customer.
    1. It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving region.
@@ -128,7 +128,7 @@ handling. Exceptions should be made only under the following conditions:
 1. CC yourself on the ticket and save the ticket to the `Open State`.
 1. If you require assistance with the handover process, please contact the SGG managers for support.
 
-#### Using the cross region handover form
+### Using the cross region handover form
 
 The Slack Handover Form is designated for tickets with high weight values, high priority, or those that are business critical. This streamlines the process for urgent transfers, allowing Support Engineers to manage lower-priority tickets autonomously via the Handover Ticket Summary macro. To ensure a smooth handover, follow these steps:
 
@@ -143,7 +143,7 @@ The Slack Handover Form is designated for tickets with high weight values, high 
 - **Tracking:** All handover requests are logged in the #spt_handover-log
    channel for tracking purposes.
 
-#### Working tickets handed over from another region
+### Working tickets handed over from another region
 
 1. Update the `Handover Status` text field to reflect the receiving region. For
    example, if you are in the EMEA region, set it to `Handed over to EMEA` to

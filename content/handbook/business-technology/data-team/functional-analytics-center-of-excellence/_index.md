@@ -40,7 +40,7 @@ The [central data team](/handbook/business-technology/data-team/) serves as the 
 - **Subject Matter Expert Lookup**: we will develop a documented list of people and their associated areas of expertise. SME's will also be able to document their source of truth resources (eg snippets, dashboards, reports).
 - **Quarterly Projects**: we will propose and pick cross-functional projects for us to work on quarterly. This will make us all more efficient by assigning 1 DRI with 2 or more code reviewers.
 - **Peer Review + Assumptions Approval**: as a part of the quarterly projects, we will establish a code peer review and assumptions approval process that will ensure we will all be enthusiastic adopters of the ultimate output.
-- **Code Repo**: after a project has gone through the peer review and assumptions approval process, we will commit it to a repo that any data person can leverage in their work.
+- **Code Repo**: after a project has gone through the peer review and assumptions approval process, we will commit it to a repository that any data person can leverage in their work.
 
 ## Examples: what are the types problems the FACE tackles?
 

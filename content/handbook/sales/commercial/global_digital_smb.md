@@ -49,12 +49,12 @@ The criteria that determines whether an SMB account is a Tier 1 account or not, 
 
 Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events/ scenarios are triggered. Once one of these defined scenarios is triggered, a case will auto be created. An SMB Advocate will then pick up the case, and work it through to completion.
 
-#### Why?
+### Why?
 
 - Enables Advocates to focus on those SMB customers that require, or would benefit from, sales assistance.
 - Removes low potential customers from view, since these customers will seldom trigger a case.
 
-#### How?
+### How?
 
 Cases are automatically created when;
 
@@ -80,7 +80,7 @@ Churn & Contraction Mitigation - These occur when the account in question has ex
 - Auto Renew recently turned off
 - Renewal with Payment Failure
 
-Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.  
+Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.
 
 - FO Opp
 - FO Opp (Startup)
@@ -111,7 +111,7 @@ The case logic, context behind the case, and CTA can be viewed on the Case Trigg
 
 ## Working with the Global Digital SMB Account Team
 
-If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APAC/ EMEA Sales Users are not monitored).  
+If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APAC/ EMEA Sales Users are not monitored).
 
 [Case Creation How-to Video](https://drive.google.com/file/d/1cExv6WlzM4RBkOBDJlSWG56o5BsRGnns/view?usp=drive_link)
 
@@ -275,7 +275,7 @@ The Advocate is advised to build relationships with these customers, understand 
 
 The Advocate is advised to schedule ongoing touchpoints, update Next Steps/ Next Steps Date, and create future dated reminder Tasks, so that they plan their outreach throughout the year.
 
-Note that these Accounts will still trigger other cases types, which should be worked and closed out within the 15 day period.  This will include High Value Check In Cases, which will remind the Advocate to touch base with the customer!  These cases will be auto assigned to the Advocate who owns the High Value Account case.  Any off created off the back of these cases i.e If a High Value Check In Case results in an Add On Opp, the opp should be linked to the originating case.  Once the opp is closed, the case should be closed. Reminder: The High Value Account case should never be closed.  
+Note that these Accounts will still trigger other cases types, which should be worked and closed out within the 15 day period.  This will include High Value Check In Cases, which will remind the Advocate to touch base with the customer!  These cases will be auto assigned to the Advocate who owns the High Value Account case.  Any off created off the back of these cases i.e If a High Value Check In Case results in an Add On Opp, the opp should be linked to the originating case.  Once the opp is closed, the case should be closed. Reminder: The High Value Account case should never be closed.
 
 Note: A High Value Account can be closed out if the customer advises ahead of renewal that they definitely fully churn.  Only in this scenario should the case be closed out, and the *Resolution Action* must be set to *Request Not Possible*.  By setting the *Resolution Action* to *Request Not Possible*, future High Value Cases will not be created on the account.
 
@@ -392,7 +392,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. As an GitLab Team Member who is not part of the SMB Team, how do I engage with the team?
 - A. Follow the process above entitled *Working with the Global Digital SMB Account Team*.
 - Q.  What happens if the end user speaks a different language than I do?
-- A. Discuss with your manager who might be best placed in the team to handle this case, then switch the Case Owner to that individual. Also add the tab #languagebarrier to the Feedback field on the case.  This will allow the SMB Team to track how often language becomes an issue.  
+- A. Discuss with your manager who might be best placed in the team to handle this case, then switch the Case Owner to that individual. Also add the tab #languagebarrier to the Feedback field on the case.  This will allow the SMB Team to track how often language becomes an issue.
 - Q. As an Advocate, if I pick up a FO Opp case, and discover the customer is actually a MM account, what do I do?
 - A. Follow the below steps;
   - If the FO Opp is still in Stage 0, advise the SDR via Chatter that they should loop in the MM AE.

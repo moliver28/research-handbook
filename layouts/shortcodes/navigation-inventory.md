@@ -4,6 +4,7 @@ from `{{ index .Site.Data.navigation "commit_sha" }}`.
 </div>
 
 {{ range .Site.Data.navigation.contexts }}
+
 ### {{ .title }}
 
 <table>

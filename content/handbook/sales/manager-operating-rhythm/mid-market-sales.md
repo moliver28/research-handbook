@@ -51,11 +51,11 @@ High-level account plans are often shared using a [strategic account plan templa
 
 ## Reviews and consults
 
-#### Quarterly Business Reviews (QBRs)
+### Quarterly Business Reviews (QBRs)
 
 [QBRs](https://gitlab.highspot.com/items/649f398774e51fe2635fcac9?lfrm=srp.0) happen during the first two weeks of each quarter for the previous quarter. Preparation usually starts about two weeks before that.
 
-#### Account reviews
+### Account reviews
 
 Initially, ASMs and CSM Managers may want or need to partner on scheduling and facilitating these reviews, but regular account reviews should eventually become part of an account team's normal operating rhythm. See [Customer 360](https://10az.online.tableau.com/#/site/gitlab/views/Customer360_17097388485010/Customer360LandingPage) for a comprehensive overview of individual customers, consolidating vital information such as health scores, product usage, subscription & billing details, and open opportunities. Can be used alongside the [Use Case Adoption page](https://10az.online.tableau.com/#/site/gitlab/views/Customer360_17097388485010/UseCaseAdoption?:iid=1) for adoption scores covering SCM, CI, CD, and security.
 
@@ -63,7 +63,7 @@ Accounts reviews are conducted quarterly (or more frequently as needed) at vario
 
 Customer Success participation is critical to ensure alignment between the account plan and the customer success plan (see [What is the Difference Between an Account Plan and a Success Plan?](/handbook/sales/account-planning/#what-is-the-difference-between-an-account-plan-and-a-success-plan)).
 
-#### Partner Reviews
+### Partner Reviews
 
 Partner reviews are used to make sure the partner plan is aligned with regional sales goals and objectives and covers questions like:
 
@@ -73,7 +73,7 @@ Partner reviews are used to make sure the partner plan is aligned with regional 
 
 ASMs either host or participate in these depending on who owns the activity (this looks different in different regions and sectors). It’s a best practice have either a bi-weekly or monthly connect with your regional Channel & Alliances team, and support it with a plan of how you'd like to collaborate.
 
-#### Opportunity Reviews
+### Opportunity Reviews
 
 [Opportunity consults](/handbook/sales/command-of-the-message/opportunity-consults/) are deal reviews that focus on helping a sales team member maximize the likelihood of winning and securing the customer's business. They are based on a joint inspection of the "health" of the opportunity's [Command Plan](/handbook/sales/command-of-the-message/command-plan/) and a 2-way dialogue to identify and commit to specific actions that aim to increase the likelihood of success.
 
@@ -91,7 +91,7 @@ Some ASMs also choose to conduct opportunity consults with a group to incorporat
 - During the meeting, the volunteer AE presents his or her Command Plan for one key opportunity and then receives questions, input, and feedback from the team
 - If successful, consider creating a recurring meeting series (1-2x per month)
 
-#### Forecasting and pipeline reviews
+### Forecasting and pipeline reviews
 
 **Find Clari and Salesforce resources for these reviews in the [Global Sales Operating Manager Playbook](https://docs.google.com/presentation/d/1HmzgSsau959CSZxEOoXCHdFS9h6a0vvvtDMVsFX57yo/edit#slide=id.g2cd9c973e13_1_0).** The following forecast & pipeline review cadence is recommended:
 
@@ -117,7 +117,7 @@ Month 2 and Month 3 forecast & pipeline reviews are typically scheduled for 2 ho
     - Actions with partners and SDRs
 1. Prioritized Actions
 
-#### Best practices for forecasting and pipeline reviews
+### Best practices for forecasting and pipeline reviews
 
 We have detailed guidance on Sales Forecasting, Opportunity Management, and using our tools to review on the [internal handbook page](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#sales-forecasting).  Guide AEs to [the Clari cheat sheet](https://docs.google.com/presentation/d/1ZvQzFrmmqsJPUIk_FxfTy5X0G59IIWDve0Rfmfw1Wec/edit#slide=id.g133719dda83_2_102) and #sales-support Slack channel for additional support.
 
@@ -145,7 +145,7 @@ ASMs routinely participate in sales calls with their new AEs or with AEs working
 - Participating on the call
 - Debriefing immediately after the call
 
-#### Team assessment
+### Team assessment
 
 Last but not least, ASMs also assess their teams annually following the [Performance / Growth Matrix](/handbook/people-group/talent-assessment/).
 
@@ -160,7 +160,7 @@ All team members go through an onboarding journey by segment and role. [View the
 
 ASMs should work with new AEs to develop and monitor progress against their 30/60/90 day plan, set clear performance expectations, and provide regular feedback during the onboarding process.
 
-#### Key activities for managers during team onboarding
+### Key activities for managers during team onboarding
 
 - Support your ramping AE. ASMs should encourage new AEs to complete “red dot” tasks in their general GitLab onboarding issue, bookmark and organize key resources, complete their role-speific onboarding, and prioritize peer-to-peer shadowing of customers calls.
 - Connect the dots. Encourage your new hires to speak up or ask for help when and if they need it. Pair them with an onboarding buddy to support their first 90 days, and point them to the right resource and team when they’re not sure where to find something.

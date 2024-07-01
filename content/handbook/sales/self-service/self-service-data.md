@@ -172,7 +172,7 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
 7. Run the extract
 8. Publish the updated Data Source
 
-#### Current SSOT Queries (Updated Quarterly)
+### Current SSOT Queries (Updated Quarterly)
 
 - ARR Mart Price Quantity
 - Churn Renewal Rates (Low Touch)
@@ -192,7 +192,7 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
 - Touch Level Data on Opportunities (WIP)
 - TO BE ADDED: Tableau Queries
 
-#### Ad Hoc Analysis (updated Quarterly)
+### Ad Hoc Analysis (updated Quarterly)
 
 - Account Tiering (deprecated)
 - Credit Card Failure and Payment Method Analysis

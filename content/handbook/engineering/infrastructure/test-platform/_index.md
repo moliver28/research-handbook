@@ -152,7 +152,7 @@ Test Platform Engineers are always available to provide technical support and ex
 
 Infrastructure Department structure is documented [here](/handbook/engineering/infrastructure/#organization-structure).
 
-#### Test Platform sub-department structure
+### Test Platform sub-department structure
 
 ```mermaid
 graph TD

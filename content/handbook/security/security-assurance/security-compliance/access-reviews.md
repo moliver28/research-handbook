@@ -81,11 +81,11 @@ If appropriateness of access cannot be verified as part of the review or a syste
 
 ## Additional Guidance
 
-#### Timing of Quarterly Access Reviews
+### Timing of Quarterly Access Reviews
 
 - Access reviews are targeted to be completed within 1 month from when the system listing is exported to completion of all steps of the review. By completing the access review within a month's timeframe, we ensure the access data has not become stale. If any components of an access review are not completed within the quarter they are initiated, the review would likely be considered ineffective for compliance purposes making the month timeline all the more important to adhere to.
 
-#### Lookback Reviews
+### Lookback Reviews
 
 For any accounts that require any removal of access (full removal or individual roles/privileges), a lookback review may be required. A lookback review is a review of activity for the period of time which the access was inappropriate.
 
@@ -109,11 +109,11 @@ The most simple method to perform a lookback for users is to review their last l
 
 Evidence of the completed lookback review should be retained and documented within the access review workbook or other associated documentation.
 
-#### Validation of Modifications completed
+### Validation of Modifications completed
 
 For any accounts that are requested for modification or removal, validation they were modified as requested should be completed and evidence captured of their successful modification (i.e screenshot, updated user listing that reflects changes made).
 
-#### Access Review Notification Reminders
+### Access Review Notification Reminders
 
 Security Compliance managed access reviews required for audit evidence have a deadline of 10 business days from the launch of the review in Authomize.  Automated reminders will be used based on number of days out from the due date:
 

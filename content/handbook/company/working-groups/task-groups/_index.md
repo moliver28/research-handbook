@@ -53,7 +53,7 @@ organizational goals, they differ in structure, scope, and function.
 
 ## Roles and Responsibilities
 
-#### Task Group Directly Responsible Individual (DRI)
+### Task Group Directly Responsible Individual (DRI)
 
 This role is pivotal, with the individual taking full accountability for the
 group's success. They coordinate activites, lead meetings, and ensure the

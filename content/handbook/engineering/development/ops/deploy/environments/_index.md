@@ -469,11 +469,11 @@ Within the Environments group we use the following processes and best practices 
 1. On a weekly basis, we review our [Triage report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#triage-reports) for bugs and regressions and take the appropriate action.
 1. We review the [quality dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/OpenBugAgeOBADashboard) each milestone to track our long term progress at improving quality.
 
-#### End to End Testing
+### End to End Testing
 
 The Environments group uses [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa) for End-to-End testing. We have [guidelines](/handbook/engineering/development/ops/deploy/environments/quality) for how our team is leveraging these tests.
 
-#### gitlab-agent QA bot
+### gitlab-agent QA bot
 
 In [`feed_alerts_configure`](https://gitlab.slack.com/archives/C025U6U6HA9) we have a bot that  runs tests at [this project](https://gitlab.com/gitlab-org/configure/k8s-agent-qa/-/pipelines)
 
@@ -505,7 +505,7 @@ The status comment should include what percentage complete the work is, the conf
 
 As a part of the async update it's important to verify that the issue and related MRs workflow labels are correctly set.
 
-#### Example
+### Example
 
 ```markdown
 ## Async status update

@@ -48,7 +48,7 @@ The following section point to more detailed processes for Marketo landing pages
 
 > To build the most advanced and efficient landing page processes in Marketo, we utilize `My Tokens` in our Marketo program templates along with character limits based on conversion best practices to write copy.
 
-#### Marketo landing page instructions, character limits, and workback timelines
+### Marketo landing page instructions, character limits, and workback timelines
 
 _Curious how to estimate when a landing page due date should be set? We've tried to make it easy with a workback, so that you can also clearly see the **dependencies** for a landing page to be created (including landing page copy, which is a separate issue teamplate).*
 
@@ -63,7 +63,7 @@ _Curious how to estimate when a landing page due date should be set? We've tried
 * Event meeting request or general info pages
   * [Handbook page to reference for process and details](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) (YML)
 
-#### General Marketo landing page creation instructions
+### General Marketo landing page creation instructions
 
 1. In Marketo, you will have already [cloned the correct template](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-1-clone-the-marketo-program-indicated-below) for your campaign type and followed the standard process for Marketo program creation and SFDC campaign creation via sync.
 1. In your Marketo program, fill in the appropriate Marketo tokens (Marketo program > `My Tokens`) for the template you are creating

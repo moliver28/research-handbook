@@ -168,13 +168,13 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 
 ## Canceling MDF Activities
 
-#### Channel Marketing Manager Tasks
+### Channel Marketing Manager Tasks
 
 - CMM to update Allocadia showing the MDF activity as canceled by going to the mdf sub-category panel and selecting `Yes` to the `Campaign Canceled?` dropdown. CMM to also add in `CANCELED` to the event sub-category title and to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
 - CMM to remove any planned/forecasted costs in Allocadia accordingly.
 - CMM to ping the Channel Marketing Programs Manager (CMPM) and staff/DRI's in the main MDF epic to communicate the cancelation and close out the issue.
 
-#### Channel Marketing Programs Manager Tasks
+### Channel Marketing Programs Manager Tasks
 
 - The CMPM will comment regarding the cancelation in all open sub-issues and close out the issues.
 - If applicable, CMPM to delete the Zip req and comment that the MDF has been canceled.

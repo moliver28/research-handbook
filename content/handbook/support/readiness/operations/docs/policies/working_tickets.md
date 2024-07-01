@@ -152,7 +152,7 @@ This is specifically related to questions related with information related to
 Support Portal related inquiries like how to change Name or Profile Picture etc.
 This information is publicly available on https://about.gitlab.com/support/portal/
 
-#### Adding Secondary Email
+### Adding Secondary Email
 
 Sometimes a customer will raise issue stating they want to add a secondary
 email to their support portal account. Secondary emails are used to tie
@@ -233,7 +233,7 @@ graph TD;
 1. When moving tickets to a new form, do your best to fill out the ticket
    metadata for the team that will work the ticket.
 
-#### If you are making a new ticket
+### If you are making a new ticket
 
 Once you determine the correct form, you should review what ticket fields that
 form uses and what information is missing. In the original ticket, leave an

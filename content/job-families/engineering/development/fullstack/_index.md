@@ -46,7 +46,7 @@ The Staff Fullstack Engineer is a [grade 8](/handbook/total-rewards/compensation
 - Ability to use GitLab
 - Ability to thrive in a fully remote organization
 
-#### Nice-to-haves
+### Nice-to-haves
 
 - Experience working with modern frontend frameworks (eg. React, Vue.js, Angular)
 - Experience in a peak performance organization, preferably a tech startup

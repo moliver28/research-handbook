@@ -95,7 +95,7 @@ We fetch some other data besides the region as well:
 
 This data is used to populate the email that we then send to them. The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-connect@domain` as nobody monitors replies to `onboarding@`. The email address is strictly used for automation.
 
-#### Manual Onboarding E-Mail
+### Manual Onboarding E-Mail
 
 If for some reason the e-mail could not be sent, we have added functionality for a People Connect Team member to be able to manually send this by running the `onboardingemail` Slack command.
 
@@ -162,7 +162,7 @@ but if there are two, the code will use both to create the issue, if there is ju
 
 The issue will be created in the [AR project](https://gitlab.com/gitlab-com/team-member-epics/access-requests).
 
-The bot will announce in Slack (#peopleops-alerts) the list of people that we were able to
+The bot will announce in Slack (#peopleops-alerts-private) the list of people that we were able to
 create the AR. As well as the list of people (with their role) that we weren't
 able to create the AR for. This way we can connect with the teams so they can add a template for this role.
 

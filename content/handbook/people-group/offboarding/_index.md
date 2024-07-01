@@ -208,7 +208,7 @@ Joining the channel is voluntary and subject to GitLab's [Code of Conduct](https
 GitLab, the company, monitors the channel and can remove people from it at their sole discretion.
 The GitLab [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) is enforced in the channel.
 
-#### Process for Team Members Outside of the US
+### Process for Team Members Outside of the US
 
 *To be documented*
 
@@ -294,11 +294,11 @@ GitLab's [turnover data](https://10az.online.tableau.com/#/site/gitlab/workbooks
 
 ## Managing the Offboarding Tasks
 
-#### Offboarding Issue
+### Offboarding Issue
 
 To track all tool deprovisioning, please open an offboarding issue following the [offboarding standards]({{< ref "offboarding_standards" >}}).
 
-#### Returning Property to GitLab
+### Returning Property to GitLab
 
 As part of offboarding, any GitLab property valued above 1,000 USD needs to be returned to GitLab.
 
@@ -306,7 +306,7 @@ For laptops, please refer to the [Laptop Buy Back Policy](/handbook/business-tec
 
 To return your laptop to GitLab, please contact `itops@gitlab.com` immediately upon offboarding.
 
-#### Navan Expense
+### Navan Expense
 
 This section of the Accounting Department.
 

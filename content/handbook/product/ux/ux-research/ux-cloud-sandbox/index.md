@@ -58,7 +58,7 @@ There are several reasons you might wish to generate sample data within your gro
 
 For questions or troubleshooting, reach out to @leducmills on Slack.
 
-#### Option 1: If you have the GDK and are comfortable with some light code editing
+### Option 1: If you have the GDK and are comfortable with some light code editing
 
 Note: It is easier to create a project and populate it with sample data than to populate an already existing project. However, you can edit the sample data ruby scripts (linked below), if you feel comfortable.
 
@@ -91,7 +91,7 @@ If everything has worked properly, you should see your imported project, with al
 
 If you do need MR, issue, and label data, you must repeat the import process for each session you wish to run by creating a new project, selecting import, importing from gitlab export, and selecting your .tar.gz file for each upload.
 
-#### Option 2: Create a sample data request
+### Option 2: Create a sample data request
 
 If you would like a project (or projects) with sample data to be created for you, please create a new [UX Research issue](https://gitlab.com/gitlab-org/ux-research/-/issues/new#) using the 'Sample Data Request' template. **Note: It is easier for the team if you do not create your project before opening the issue, as it is easier to create and populate the project at the same time.**
 
@@ -123,7 +123,7 @@ Please note, the following items are NOT exported when a test project is created
 
 While you **can** create users and user credentials through the scripts, it is generally discouraged, as we do not want the sandbox to be bloated with fake user accounts. Luckily, the UX Research team has a set of user accounts specifically for testing that you can use.
 
-#### Accessing Test User Accounts
+### Accessing Test User Accounts
 
 Once you are logged into the sandbox, navigate to a group called `User Test Accounts`. There is a project in that group named `testing accounts`. On the main branch of this project is a file called  `accounts.md`. This file contains the credentials for all the user test accounts, as well as instructions on how to create more accounts if needed.
 

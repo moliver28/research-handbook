@@ -67,7 +67,7 @@ operation ["Stage and group labels inference from category labels"](/handbook/en
 - We don't have silos. If one group needs something in a category that is owned by another group, go ahead and contribute it.
 - This hierarchy includes both paid and unpaid features.
 
-#### Naming
+### Naming
 
 Anytime one hierarchy level's scope is the same as the one above or below it, they can share the same name.
 
@@ -77,7 +77,7 @@ If you want to refer to a group in context of their stage you can write that as 
 
 When naming a new stage, group, or category, you should search the handbook and main marketing website to look for other naming conflicts which could confuse customers or employees. Uniqueness is preferred if possible to help drive clarity and reduce confusion. See additional [product feature naming guidelines](/handbook/product/gitlab-the-product/#factors-in-picking-a-name) as well.
 
-#### More Details
+### More Details
 
 Every category listed on this page must have a link to a direction page. Categories may also have documentation and marketing page links. When linking to a category using the category name as the anchor text (e.g. from the chart on the homepage) you should use the URLs in the following hierarchy:
 
@@ -85,7 +85,7 @@ Marketing product page > docs page > direction page
 
 E.g Link the marketing page. If there's no marketing page, link to the docs. If there's no docs, link to the direction page.
 
-#### Solutions
+### Solutions
 
 [Solutions](/handbook/marketing/use-cases/) can consist of multiple categories and are typically used to align to a customer challenge (e.g. the need to reduce security and compliance risk) or to market segments defined by analysts such as Software Composition Analysis (SCA). Solutions are also often used to align to challenges unique to an industry vertical (e.g. financial services), or to a sales segment (e.g. SMB vs Enterprise).
 
@@ -98,11 +98,11 @@ Market segments defined by analysts don't always align to GitLab stages and cate
 
 We are [intentional in not defining SCA as containing SAST and Code Quality](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/26897#note_198503054) despite some analysts using the term to also include those categories.
 
-#### Capabilities
+### Capabilities
 
 Capabilities can refer to stages, categories, or features, but not solutions.
 
-#### Layers
+### Layers
 
 Adding more layers to the hierarchy would give it more fidelity but would hurt
 usability in the following ways:
@@ -243,7 +243,7 @@ When changing an existing category name, there are some considerations to the or
 
 ### Changing category maturity
 
-We primarily use the [Category Maturity Scorecard](/handbook/product/ux/category-maturity-scorecards) process to determine category maturity.
+We primarily use the [Category Maturity Scorecard](/handbook/product/ux/category-maturity/category-maturity-scorecards) process to determine category maturity.
 
 Typically, category maturity moves up from planned to minimal to viable to complete to lovable. However, maturity can also be downgraded. For example, in cases where we discover a JTBD is not met (see [example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/74367)), or when we [change the definition of maturity](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/92858), we may choose to move category maturity down.
 

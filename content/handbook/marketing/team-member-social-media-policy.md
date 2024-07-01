@@ -34,7 +34,7 @@ The GitLab Social Media policy for team members applies to traditional social me
 
 The term "social media" applies to any online technology in use now or in the future that enables you to send or receive information and communicate or interact with others. Any site where you can share a post or comment on a post would be considered a social media website for the purposes of this policy.
 
-##### Exclusions for anonymous review sites
+#### Exclusions for anonymous review sites
 
 This policy is not intended to limit team members from sharing their feedback or reviews of their experiences at GitLab on sites like Glassdoor, Fishbowl, Indeed, or similar sites. While we encourage you to share feedback with your manager and the people ops team, we celebrate our value of transparency and welcome feedback from team members on these sites, as long as the feedback follows our [SAFE Framework](/handbook/legal/safe-framework/).
 
@@ -42,7 +42,7 @@ This policy is not intended to limit team members from sharing their feedback or
 
 Please adhere to the [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/), [Anti-Harrassment Policy](/handbook/people-group/anti-harassment/), which includes sexual harrassment and discrimination policies, and our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d). These policies all apply to team member behavior within social media and in public online spaces.
 
-##### Social Media sometimes generates press and media attention or legal questions. Please refer all inquires to the Communications Team in the #external-comms Slack channel
+#### Social Media sometimes generates press and media attention or legal questions. Please refer all inquires to the Communications Team in the #external-comms Slack channel
 
 ### What you should do
 
@@ -107,7 +107,7 @@ If it's written in a blog, presented at a public conference, or simply on GitLab
 
 Whether you're an intern or our CEO, protecting the GitLab brand, the company, and our entire team is a part of your job description.
 
-##### You can protect GitLab by not sharing the following data with the public on your social media profiles
+#### You can protect GitLab by not sharing the following data with the public on your social media profiles
 
 _Click each recommendation below for more details_
 

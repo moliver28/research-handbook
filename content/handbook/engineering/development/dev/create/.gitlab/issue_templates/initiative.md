@@ -94,13 +94,13 @@ Identify potential risks and strategies for mitigation, preparing the team for u
 
 ## Metrics/Dashboards/Charts
 
-#### Metrics
+### Metrics
 
 1. [Tableau Chart 1](#)
 1. [Tableau Chart 1](#)
 1. [Tableau Chart 1](#)
 
-#### Monitoring
+### Monitoring
 
 1. [Grafana Board 1](#)
 1. [Kibana Graph 1](#)

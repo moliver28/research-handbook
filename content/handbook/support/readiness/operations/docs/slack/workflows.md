@@ -77,7 +77,7 @@ dots at the top-right of the page, then select the option you are looking for
 Remember to test it all out and update this page to reflect the new workflow (if
 it is Support Readiness managed)!
 
-## Currently used Slack workflows
+### Currently used Slack workflows
 
 This section serves as a form of "backup" for the Slack workflows we manage, as
 the current implementation of Slack workflows does not allow an export/import

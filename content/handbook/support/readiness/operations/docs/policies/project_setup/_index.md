@@ -22,7 +22,7 @@ use.
 to the processor itself. An example of this situation would be a "ticket
 processor".
 
-#### Is this related to Zendesk Global?
+### Is this related to Zendesk Global?
 
 If what you are working with is going to be managing anything within our Zendesk
 Global instance (such as macros, triggers, SLA, etc.), this is the section you
@@ -36,7 +36,7 @@ yourself is "Does this enable support contributions?"
 - If it does not enable support contributions, refer to
   [Zendesk Global without contributions](./zendesk_global_without)
 
-#### Is this related to Zendesk US Government?
+### Is this related to Zendesk US Government?
 
 To determine how to setup the project, the final question you need to ask
 yourself is "Does this enable support contributions?"

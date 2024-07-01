@@ -199,11 +199,11 @@ Additional attributes can be applied:
 
 List of features managed by the [subscription management group](https://about.gitlab.com/direction/fulfillment/subscription-management/) within the [Fulfillment section](https://about.gitlab.com/direction/fulfillment/).
 
-#### Subscription Renewal and Auto-Renewal
+### Subscription Renewal and Auto-Renewal
 
 Customers can renew their SaaS or Self-managed subscriptions using either auto-renewal or manual renewal. By default, subscriptions are set to auto-renew. Customers who are not eligible for auto-renew or do not want to auto-renew their subscription can manually renew their subscription through the `Renew` button on the subscription card in the [Customers Portal](https://customers.gitlab.com/).
 
-##### Auto-Renewal eligibility
+#### Auto-Renewal eligibility
 
 As of 2023-01-21, almost all of the subscriptions enrolled in auto-renewal (identified in Zuora as `Subscription.TurnOnAutoRenew = Yes`) will be scheduled for auto-renewal and processed. Certain exceptions exist:
 
@@ -234,24 +234,24 @@ Accounts and Subscriptions excluded from auto-renewal:
 
 There’s an automated process (Zuora Workflow) that sets `Subscription.TurnOnAutoRenew__c` to `No` for the use cases listed above.
 
-##### GitLab Docs for SaaS (public)
+#### GitLab Docs for SaaS (public)
 
 - [Preparing for renewal](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#prepare-for-renewal-by-reviewing-your-account)
 - [Renewing a subscription](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#renew-or-change-a-gitlab-saas-subscription)
 - [Automatic subscription renewal](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#automatic-subscription-renewal)
 
-##### GitLab Docs for Self-managed (public)
+#### GitLab Docs for Self-managed (public)
 
 - [Preparing for renewal](https://docs.gitlab.com/ee/subscriptions/self_managed/#prepare-for-renewal-by-reviewing-your-account)
 - [Renewing a subscription](https://docs.gitlab.com/ee/subscriptions/self_managed/#renew-subscription-manually)
 - [Automatic subscription renewal](https://docs.gitlab.com/ee/subscriptions/self_managed/#automatic-subscription-renewal)
 
-##### Other public docs
+#### Other public docs
 
 - [Auto-renewals FAQ](https://about.gitlab.com/pricing/faq-improved-billing-and-subscription-management/#auto-renewals)
 - [Community programs renewal workflow](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#renewal)
 
-##### Developer docs
+#### Developer docs
 
 - [Renewal: UX Scorecard](https://gitlab.com/gitlab-org/gitlab-design/-/issues/2160)
 - [Creating a subscription in Zuora to renew it in a local environment](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/zuora/zuora_tips_and_tricks.md#create-a-subscription)
@@ -259,7 +259,7 @@ There’s an automated process (Zuora Workflow) that sets `Subscription.TurnOnAu
 - [Auto-Renew: Experience Flowchart (password protected)](https://www.figma.com/file/4IAnGWRKIxIKqMLUDxWf1A/Autorenew-experience-flowchart?node-id=0%3A1&t=x31XThz7dVzhhIaK-0)
 - [Generating coupon codes for community programs renewals](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/community_programs/coupons.md#coupons)
 
-##### Related terminology
+#### Related terminology
 
 - [QSR](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)
 - [True-up](https://docs.gitlab.com/ee/subscriptions/quarterly_reconciliation.html)

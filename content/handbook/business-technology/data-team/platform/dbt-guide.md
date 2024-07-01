@@ -1390,11 +1390,11 @@ Performance should be balanced between model execution times, which directly aff
 - All models should individually execute in less than 60 minutes.
 - All models should be run on the smallest warehouse allowable
 
-#### Categorization
+### Categorization
 
 To provide a basis for communication and criteria for applying methods of improvements, categorizations for model and table size have been developed as follows:
 
-##### Model Run Time
+#### Model Run Time
 
 Defined as the total run time of all queries associated with the execution of a model.  [Categorization Details](https://gitlab.com/gitlab-data/analytics/-/issues/13941#note_1107497369)
 
@@ -1407,7 +1407,7 @@ Defined as the total run time of all queries associated with the execution of a 
 | XL             | 1800                | 3600                 |
 | XL+            | 3600                |                      |
 
-##### Model Size
+#### Model Size
 
 Defined as the rows and bytes of the table produced by the model.  [Categorization Details](https://gitlab.com/gitlab-data/analytics/-/issues/13941#note_1107271393)
 
@@ -1419,7 +1419,7 @@ Defined as the rows and bytes of the table produced by the model.  [Categorizati
 | L              | 100,000,000   | 1,000,000,000 | 100   | 1,000 |
 | XL             | 1,000,000,000 |               | 1,000 |       |
 
-##### Model Efficiency
+#### Model Efficiency
 
 Defined as the total bytes spilled compared to the total bytes written of all the queries of a model.  [Categorization Details](https://gitlab.com/gitlab-data/analytics/-/issues/13941#note_1107564876)
 

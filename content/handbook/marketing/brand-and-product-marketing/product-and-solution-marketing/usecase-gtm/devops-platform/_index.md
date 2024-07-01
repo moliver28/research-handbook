@@ -1,13 +1,6 @@
 ---
-
 title: "DevOps Solution Resource: DevOps Platform"
 ---
-
-
-
-
-
-
 
 ## Looking for a customer-facing overview of GitLab's DevOps Platform? See the [DevOps Platform Solution](https://about.gitlab.com/solutions/devops-platform/)
 
@@ -15,7 +8,7 @@ title: "DevOps Solution Resource: DevOps Platform"
 
 The page below is intended to align GitLab's sales and marketing efforts with a single source of truth for our go-to-market efforts around the benefits of a single DevOps Platform.
 
-#### Who to contact
+### Who to contact
 
 | Product Marketing | Developer Advocate |
 | ---- | --- |
@@ -78,7 +71,7 @@ The suggested discovery questions below are meant to help you uncover opportunit
 
 Don’t try to use them all—just those most relevant to your customer that will help you identify the value they need to see. Please contribute additional questions!
 
-#### Current state: Where’s the pain?
+### Current state: Where’s the pain?
 
 1. **How far along are you in your DevOps journey?** This will scope their maturity and help you understand what success looks like. If the organization is new to DevOps, The DevOps Platform can be a guide toward DevOps best practices that helps them avoid common pitfalls as they mature. If the company is well along their journey already, they have likely encountered very specific challenges that the benefits of a single, end-to-end platform can help them overcome.
 2. **What / how many DevOps tools are you using today?** Similarly, this will help scope the situation. A large number of tools will almost always equal integration complexity and sub-optimal communication among tools and teams. A very small number of tools could indicate a lack of automation or an acceptance that there are just some things they cannot do (see below).
@@ -86,7 +79,7 @@ Don’t try to use them all—just those most relevant to your customer that wil
 4. **How important are audits and compliance?** Audits are a well-understood risk with a well-documented cost, and they are one of the easiest problems for The DevOps Platform to address. The presence of a strong audit/compliance culture can often indicate a desire for business stakeholders to gain visibility into DevOps / software production practices—something a DevOps Platform can enable.
 5. **Can you predict your tool costs 2-3 years out?** Since GitLab provides an end-to-end solution, it offers extremely predictable cost scaling, regardless of additional features activated, and its variety of deployment options provides additional future-proofing, even if infrastructure needs change.
 
-#### Future state: Where would you like to be?
+### Future state: Where would you like to be?
 
 1. **In an ideal world, what would collaboration look like in your organization?** In addition to spelling out success criteria, this can help identify companies who may not be thinking big enough because they aren't aware that a better option exists.
 2. **Are there things you'd like to do with DevOps but complexity is holding you back?** This is a more explicit version of the question above, generally suitable for companies that are further along their DevOps journeys.

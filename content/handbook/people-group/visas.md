@@ -68,7 +68,7 @@ The IND (Dutch immigration services) in general take about 4 to 6 weeks’ time 
 
 - **A direct flight to the Netherlands is required, indirect travel may result in entry refusal**
 
-#### 30% Ruling in the Netherlands
+### 30% Ruling in the Netherlands
 
 The [30% reimbursement ruling](https://www.iamsterdam.com/en/living/take-care-of-official-matters/highly-skilled-migrants/thirty-percent-ruling) (better known as the 30% ruling) is a tax advantage for highly skilled migrants moving to the Netherlands. This benefit, granted for five years, allows them to receive 30% of their employment income tax free. As an example, when your employment income is EUR 60,000; the 30% ruling ensures a net pay of EUR 18,000. The remainder of EUR 42,000 is subject to Dutch taxes. In addition, when being entitled to the 30% ruling you can exclude your savings from Dutch income tax (which can be beneficial once you have exercised your stock options).
 
@@ -84,11 +84,11 @@ The 30% ruling is a mutual application filed by the employee and GitLab BV as th
 
 Here is [an approximate net-salary calculator in The Netherlands](https://relocate.me/net-pay-calculators/the-netherlands) to reckon additional salary payment with 30% ruling.
 
-#### Transferring the 30% Ruling from a Previous Employer
+### Transferring the 30% Ruling from a Previous Employer
 
 The 30% ruling is a tax advantage granted for five years, which means that you can carry this over to a new employer if your new role still fulfills the requirements of the 30% ruling. Note that you are only allowed to transfer the 30% ruling when there is a gap of maximum three months between your previous employment and your employment at GitLab BV. The 30% ruling questionnaire includes a section where you can state that you have already been entitled to the 30% ruling. Transferring the 30% ruling tends to be faster since your qualifications were already assessed at your previous employment.
 
-#### BSN Number
+### BSN Number
 
 A [BSN number](https://www.iamsterdam.com/en/living/take-care-of-official-matters/registration/citizen-service-number) is like a citizen number. It is required so new team members can be added to the B.V. Netherlands payroll. It's also required for things like health insurance and opening a bank account.
 

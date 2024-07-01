@@ -304,7 +304,7 @@ This report will include the following information:
 - Starting Location
 - Ending Location
 
-#### Steps for a Canceled Relocation Request
+### Steps for a Canceled Relocation Request
 
 In the event that the team member decides not to proceed with the relocation. Not all of these steps will be needed, depending on how far into the relocation process has taken place.
 

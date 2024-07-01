@@ -106,6 +106,17 @@ The Incident Manager is the DRI for all of the items listed above, but it is exp
 The IM won't be engaged on these tasks unless they are paged, which is why the default is to page them for all Sev1 and Sev2 incidents.
 In other situations, to engage the Incident Manager run `/pd trigger` and choose the `GitLab Production - Incident Manager` as the impacted service.
 
+#### Incident Manager Coordinator
+
+1. Around the 1st Tuesday of each month:
+   - The coordinator will review any open `~IM-Onboarding::Ready` and `~IM-Offboarding` issues on the [IM onboarding/offboarding board](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/5078854?label_name%5B%5D=IM) and add these team members to the schedule.
+   - The schedule is updated by creating an MR that updates [im_locals.tf](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/pagerduty/im_locals.tf?ref_type=heads).
+     A single MR is created for all users that need updating. They will be assigned to the appropriate shift and the `start_date` will be set to the beginning of the second full month after the current day.
+     For example, if the current day is Jan 5, the `start_date` will be make to go into effect during the first week of March.
+1. An announcement will be posted in [`#imoc_general`](https://gitlab.slack.com/archives/C01NY82EJF6) indicating that the schedule has been modified with a link to the MR and a brief overview of who was added or removed.
+1. All issues on the [IM onboarding/offboarding board](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/5078854?label_name%5B%5D=IM) need to be reviewed once a month for overdue due dates.
+   If any issues are overdue, the coordinator will need to check in with the author to see if they need more time or support to finish their on-boarding.
+
 #### Engineer on Call (EOC) Responsibilities
 
 The Engineer On Call is responsible for the mitigation of impact and resolution to the incident that was declared.

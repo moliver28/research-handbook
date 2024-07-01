@@ -23,7 +23,7 @@ Please contact the appropriate channel based on your role:
 
 ### Set-Up
 
-##### Non-admin users
+#### Non-admin users
 
 Users will be able to access Outreach through OKTA within 24 hours of gaining access. Please set up the following once you have access:
 
@@ -32,7 +32,7 @@ Users will be able to access Outreach through OKTA within 24 hours of gaining ac
 - Update your email signature. If you are a BDR/SDR, then your signature is managed through Terminus.Log into Terminus and update your details and within 24 hours it will update in Outreach.
 - Download and install the [Outreach Everywhere](https://support.outreach.io/hc/en-us/articles/115004084328-Installing-the-Outreach-Everywhere-Chrome-Extension) chrome extension.
 
-##### Admin users
+#### Admin users
 
 When provisioning new users or altering current users' credentials for role changes, there are a few things to keep in mind:
 

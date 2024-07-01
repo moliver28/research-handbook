@@ -30,14 +30,14 @@ Solutions Architects operate within Circles (small teams of SAs).  Each Circle i
 
 #### SA Circle Triage Guidelines
 
-###### #1: No Circle Team Member Self-assigns an Opportunity
+##### #1: No Circle Team Member Self-assigns an Opportunity
 
 _Self-assignment does not happen without first discussing the opportunity and the “4 Questions” in the Circle-slack channel_
 
 - **This is the #1 immutable rule.**  All others build off of it.  We must Collaborate, prioritizing The Circle and The Process over “just this once”.
   - We will have a Fast-track prioritization route for those demos that were scheduled with less than 24 hours.   We will still collaborate in Slack circle-region channels when this situation occurs.
 
-###### #2: Triage within One Business Day
+##### #2: Triage within One Business Day
 
 _It doesn’t need to be within an hour.  You can eat lunch first_
 
@@ -45,7 +45,7 @@ _It doesn’t need to be within an hour.  You can eat lunch first_
 - Totally Acceptable Circle Behavior: A new opportunity is created, and someone in the Circle-slack channel says “hey there is a new opp and I would like to discuss” and that Circle follow-up discussion doesn’t come for 2, or even 4 hours, because the rest of the Circle is busy with other things.  This is still okay.  The wait period is not a diss to anyone, the Circle will get to it when they can, in natural pauses of the day.
 - One Full Business Day Defined:  If it comes in at 4pm, the Circle has 4pm the next day to Triage.
 
-###### #3: Better Triage Happens with a Second Review
+##### #3: Better Triage Happens with a Second Review
 
 _If possible, two team members review a Command Plan before assignment_
 

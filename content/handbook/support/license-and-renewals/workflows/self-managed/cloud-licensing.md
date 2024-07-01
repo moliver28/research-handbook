@@ -125,7 +125,7 @@ Refer to the alternative methods below for guidance on different cases.
     - Check the `Subscription Name` in the quote which is at the 4th row of the top section.
     - If it is empty, or does not show up in CustomersDot, find the subscription by locating the customer account using the Sold To contact's email and verifying the subscription seat count matches the quote you opened.
 
-## Support FAQ
+### Support FAQ
 
 #### 1. Which license type should I provide for an approved opt out?
 

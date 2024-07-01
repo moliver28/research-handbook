@@ -16,7 +16,7 @@ As per
 Services interact with `/chatops oncall` commands to display who is currently
 on-call in Slack.
 
-## Current services used by support
+### Current services used by support
 
 #### Customer Support
 
@@ -95,12 +95,12 @@ As the Pagerduty changes are unique in deployment, please see
 [Pagerduty change management](/handbook/support/readiness/operations/docs/pagerduty/change_management)
 for more information.
 
-#### Labels to use
+### Labels to use
 
 For all issues and MRs involving Pagerduty fields, the label
 `Support-Ops-Category::Pagerduty` should be used.
 
-#### Change criticality
+### Change criticality
 
 Due to wildly varying nature and impact adding/editing/deleting things in
 Pagerduty can impose, all issues/MRs related to Pagerduty need

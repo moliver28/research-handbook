@@ -70,7 +70,7 @@ Examples of how we engage with analysts include:
 
 ## Process for responding to industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.)
 
-#### Before the questionnaire arrives
+### Before the questionnaire arrives
 
 - GitLab AR is aware of what industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.) we may be asked to participate in, particularly if we have done so before.  AR should be checking with Forrester/Gartner to see if
   - A MQ or Wave or similar comparative research is likely to be repeated

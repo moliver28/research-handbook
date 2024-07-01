@@ -67,7 +67,7 @@ Work completed per two-week iteration ([Total Issue Velocity](/handbook/product/
 
 ## Career paths
 
-## Job Grades
+### Job Grades
 
 Read more about GitLab [Job Grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

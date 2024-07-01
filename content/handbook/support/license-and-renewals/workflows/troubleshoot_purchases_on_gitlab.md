@@ -86,9 +86,9 @@ This fails when a CustomersDot account with the email already exists.
 
 See the example scenarios for a more detailed explanation.
 
-##### Example Scenarios
+#### Example Scenarios
 
-###### Unlinked CustomersDot account for GitLab purchases
+##### Unlinked CustomersDot account for GitLab purchases
 
 Let's say a Customer X has an existing Customers Portal account with their email <customerX@example.com> either because:
 
@@ -100,7 +100,7 @@ The error is reported because *they did not link their Customers Portal account 
 
 🔧 To fix the problem, Customer X needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account and [link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
 
-###### Unlinked CustomersDot account for purchases via Sales
+##### Unlinked CustomersDot account for purchases via Sales
 
 Let's say a Customer Y purchases a subscription through Sales. Their signed Order Form has the **Sold To** contact's email as <customerY@example.com>.
 Once the Quote is processed, Zuora's [callout service](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/zuora/zuora_callouts.md#purpose)
@@ -117,7 +117,7 @@ The error is reported because *they did not link their Customers Portal account 
 
 🔧 To fix the problem, Customer Y needs to log in to their [Customers Portal](https://customers.gitlab.com/customers/sign_in) account and [link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
 
-###### Linked accounts have different emails
+##### Linked accounts have different emails
 
 Let's say a Customer Z has an existing Customers Portal account (<customerZ@example.com>) either from an existing purchase or by creating a new account.
 And this Customers Portal account has been linked to a GitLab account (check the `GitLab Groups` tab) whose email is <gitlabZ@example.com>.

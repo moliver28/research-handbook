@@ -126,6 +126,4 @@ The [GitLab Channel Partner Program Guide](https://partners.gitlab.com/prm/api/o
 
 ### Contact Us
 
-## All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. This Slack channel allows you to reach out to our sales and marketing team in a timely manner, as well as other resellers
-
-## Additionally, you can email the GitLab Partner Support Team at partnersupport@gitlab.com
+You can email the GitLab Partner Support Team at `partnersupport@gitlab.com`.

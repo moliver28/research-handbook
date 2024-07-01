@@ -308,7 +308,7 @@ For those new to the team, these links may be helpful in learning more about the
   {{< tableau/filters "GROUP_LABEL"="pipeline execution" >}}
 {{< /tableau >}}
 
-#### Cross-functional prioritisation
+### Cross-functional prioritisation
 
 The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-execution/#merged-merge-request-types) which shows the % of MRs that are [bugs](https://gitlab.com/groups/gitlab-org/-/boards/4439443?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Abug) vs [maintenance](https://gitlab.com/groups/gitlab-org/-/boards/4439961?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Amaintenance) vs [features](https://gitlab.com/groups/gitlab-org/-/boards/4440070?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Afeature) to ensure the team's efforts are properly aligned to the prioritisation.
 

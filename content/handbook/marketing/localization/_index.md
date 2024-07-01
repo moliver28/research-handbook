@@ -10,8 +10,8 @@ This page contains guidelines for localization at GitLab. This page is currently
 
 - Daniel Sullivan, Director, Globalization & Localization
 - Oleks Pysaryuk, Sr. Manager, Globalization Technology
-- [Sr. Localization Content Manager (Japan)](https://boards.greenhouse.io/gitlab/jobs/6881554002)
-- more coming soon...
+- Megumi Uchikawa, Senior Localization Content Manager
+- Rasam Hossain, Senior Fullstack Engineer
 
 ## Overview
 
@@ -35,10 +35,6 @@ Our current localization capablities are limited due to resources and bandwidth.
 We are currently moving the internal review process over to language leads and constractors, so that our in-market GitLab teams can focus on their normal duties. Please note, however, that we may need to engage the internal review team from time to time, as our new teams ramp up and build the context they need to successfully localize our content in a way that aligns to GitLab and local expectations.
 
 At the moment, our internal reviewers are volunteers. We completely appreciate that this task is on top of your day job and will continue to respect that. Both translation and reviews are conducted in Translated tooling; processes for review are currently a work in progress.
-
-### Priority Countries
-
-Annually we prioritize countries that we believe offer the most opportunity for GitLab. A listing of those countries and our expected level of investment are tracked in an internal document called: [Globalization Tracker](https://docs.google.com/spreadsheets/d/14GOJvADjS7R-zonQvx3ejiCgJGsCks3U0IbjwiFChRQ/edit#gid=427771731).
 
 ### Tools & Capabilities
 

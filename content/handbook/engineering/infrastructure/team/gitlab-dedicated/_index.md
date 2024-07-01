@@ -196,6 +196,8 @@ The group has a set of regular synchronous calls for PMs and EMs to ensure align
 - `GitLab Dedicated Product <> Eng Sync` - This call is weekly on Mondays and Thursdays for PMs and EMs to align
 - `Dedicated Managers Sync` - This call is every two weeks for Dedicated EMs to sync and ensure alignment
 
+It is the organizer's responsibility to ensure these calls can be recorded regardless of whether the organizer is present by [enabling "Alternative Hosts" in Zoom](/handbook/tools-and-tips/zoom/#how-to-allow-recording-when-the-host-is-not-present).
+
 Impromptu Zoom meetings for discussing GitLab Dedicated work between individuals are created as needed.
 It is expected that these meetings are private streamed, or recorded(1*), and then uploaded to [GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqC5FfUVPyndvLvTWifWbfB).
 The outcome of the call is shared in a persistent location (Slack is not persistent). This is especially important as the team grows, because any decisions that are made in the early stage have will be questioned in the later stages when the team is larger.

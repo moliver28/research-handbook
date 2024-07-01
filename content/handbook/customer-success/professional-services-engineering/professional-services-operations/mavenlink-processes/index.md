@@ -5,20 +5,15 @@ category: Internal
 description: "Learn about the GitLab Professional Services operations processes and workflows."
 ---
 
-
-
-
-
-
 ## Mavenlink Processes
 
 Mavenlink is our current PSA, follow the link below to view process steps and guidelines.
 
 All other processes that relate to professional services operations [can be found on the this page](/handbook/customer-success/professional-services-engineering/professional-services-operations/).
 
-#### Mavenlink Log In
+### Mavenlink Log In
 
-To log into Mavenlik, you will need to access GitLab's Okta account.
+To log into Mavenlink, you will need to access GitLab's Okta account.
 
 - Confirm access has been given to Mavenlink and Okta
 
@@ -40,7 +35,7 @@ To log into Mavenlik, you will need to access GitLab's Okta account.
 
 You should now be in Mavenlink, Enjoy!
 
-#### Mavenlink Project Read/ Guest Access
+### Mavenlink Project Read/ Guest Access
 
 With Guest Access, members can view information about a project without joining.
 Mavenlink members would have the same access as their permission set without being a project participant.
@@ -62,7 +57,7 @@ To view projects as Read only/ Guest:
 
 ![Read Only 2](./Mavenlinkguestaccess2.png)
 
-#### Mavenlink Update User Profile
+### Mavenlink Update User Profile
 
 - From the Dashboard, click on Edit Profile
 
@@ -70,7 +65,7 @@ To view projects as Read only/ Guest:
 
 - Update the profile information along with a photo and hit save
 
-#### Mavenlink Collaborator (PSE) Onboarding Checklist
+### Mavenlink Collaborator (PSE) Onboarding Checklist
 
 Account Configuration
 
@@ -99,9 +94,9 @@ Project Close
 - [ ] Confirm all time has been tracked in your timesheet
 - [ ] Confirm all expenses have been logged and submitted
 
-#### Mavenlink Project Lead, Project Manager Onboarding Checklist
+### Mavenlink Project Lead, Project Manager Onboarding Checklist
 
-****Account Configuration****
+**Account Configuration**
 
 - When you first enter Mavenlink, these are the items to review and update:
 - [ ] Update your profile
@@ -110,7 +105,7 @@ Project Close
 - [ ] Configure your default Global Task Tracker view
 - [ ] Set your preferred default login screen
 
-****Project Assignment****
+**Project Assignment**
 
 - When project is assigned, review the SOW along with the project details in Mavenlink to be sure there is an understanding of the project technical and financial details
 - [ ] SOW
@@ -127,7 +122,7 @@ Project Close
   - [ ] Project Internal Agenda
   - [ ] Slack Channels
 
-****Weekly- completed by EOD each Thursday****
+**Weekly- completed by EOD each Thursday**
 
 - To ensure everything is up to date, review and/or update these items on a weekly basis:
 - [ ] Review and approve time sheets each Monday morning, approvals should be done by noon each Monday
@@ -148,16 +143,16 @@ Project Close
   - Could be internal call and/or customer call depending on project
 - [ ] Project Definition/ Issue Tracking/Customer Updates
 
-****Project Close****
+**Project Close**
 
 - These are the items to complete prior to closing out a Project:
 - [ ] Ensure all your tasks are marked complete
 - [ ] Confirm all time has been tracked in your timesheet
 - [ ] Confirm all expenses have been logged and submitted
 
-#### Mavenlink Time Off Scheduling, Holidays, Family and Friends Days
+### Mavenlink Time Off Scheduling, Holidays, Family and Friends Days
 
-****Regional Holidays and Family and Friends Days****
+**Regional Holidays and Family and Friends Days**
 
 Regional holidays and Family and Friends days are included in Mavenlink on each members calendar, followed by the  [time off process](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).  Since the days are included in the calendar there is no need to submit the time in the Mavenlink PTO feature or the users time sheet.  When logging into the time sheet, the required work week is shown on the time sheet entry.
 
@@ -232,7 +227,7 @@ Members that do not have account permission of Report Viewer (or higher) will on
 | ------ | ------ |
 | [Due Date, by Noon EST](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0) | [Due Date, by 1 EST](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0) |
 
-****Project Notes****
+**Project Notes**
 
 - Project notes are required for all Credit and Non Credit time entries
 - If the notes section is blank, reject the time sheet asking for project notes
@@ -276,7 +271,7 @@ When SFDC Opportunities reach a stage 5 status, there is a push to Mavenlink whi
 
 There are steps to follow to update the Mavenlink project:
 
-Reponsible Role: PC
+Responsible Role: PC
 
 ##### Prospect Projects
 

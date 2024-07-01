@@ -14,7 +14,7 @@ requirements and responsibilities:
 
 <a id="intermediate-requirements"></a>
 
-#### Requirements
+### Requirements
 
 - Significant [professional experience](#professional-experience) with Ruby on Rails **or** [language](#primary-programming-language) required by the [specialty](#specialties)
 - Professional experience with any other technologies that may be required by the [specialty](#specialties)
@@ -34,7 +34,7 @@ requirements and responsibilities:
 - Ability to use GitLab
 - Comfort and familiarity with our [code review process](/handbook/engineering/workflow/code-review/)
 
-#### Nice-to-haves
+### Nice-to-haves
 
 - Experience in a peak performance organization, preferably a tech startup
 - Experience with the GitLab product as a user or contributor
@@ -46,7 +46,7 @@ requirements and responsibilities:
 - Computer science education or equivalent experience
 - Passionate about/experienced with open source and developer tools
 
-#### Responsibilities
+### Responsibilities
 
 - Develop features and improvements to the GitLab product in a secure,
   well-tested, and performant way
@@ -62,7 +62,7 @@ requirements and responsibilities:
 
 ---
 
-#### Professional Experience
+### Professional Experience
 
 At GitLab, due to the pace we're moving, people joining our team will
 be expected to have **significant** professional experience in the
@@ -75,7 +75,7 @@ For context, see this merge request with some [history on this policy](https://g
 
 ---
 
-#### Primary programming language
+### Primary programming language
 
 Some [specialties](#specialties) within GitLab are using primary programming
 languages other than Ruby. These programming languages are defined as being
@@ -84,7 +84,7 @@ to day. The expectation from the specialty is that engineers will have extensive
 experience in this primary programming language as well as some level of
 understanding of Ruby and, Ruby on Rails.
 
-#### Backend Engineer Performance Indicators
+### Backend Engineer Performance Indicators
 
 Backend Engineers have the following job-family performance indicators.
 

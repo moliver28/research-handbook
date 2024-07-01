@@ -30,7 +30,7 @@ We have 3 separate Google calendars to manage different types and platforms of v
 
 All 3 calendars are consolidated into a single GitLab virtual events calendar view (above - calendars are not public because they contain secure login for presenters). **The purpose of the consolidated view is to help event organizer(s) minimize topic overlap with other GitLab virtual events happening around the same time and to provide executive visibility into ALL virtual events that GitLab is running/participating in.**
 
-#### Glossary of calendar event naming convention
+### Glossary of calendar event naming convention
 
 {: #calendar-glossary}
 
@@ -50,7 +50,7 @@ The [external virtual events](https://calendar.google.com/calendar?cid=Z2l0bGFiL
 
 **DRI adding to external virtual events calendar: Sponsor owner**
 
-##### Planned external virtual events
+### Planned external virtual events
 
 {: #calendar-planned-external-virtual-event}
 As soon as you create the epic for the sponsored virtual event, add the event to the external virtual events calendar by creating an event on the day the sponsored virtual event will be live.Make sure to also include the link to the epic in the calendar description.
@@ -60,7 +60,7 @@ As soon as you create the epic for the sponsored virtual event, add the event to
 * For executive round tables please use the following naming convention `[Hold ER sponsored] Event title` (e.g: `[Hold ER sponsored] DevOps 101`).
 * For vendor arranged meetings, please use the following naming convention  `[Hold VA sponsored] Vendor Name Region` (e.g: `[Hold VA sponsored] Captive Eight APAC`).
 
-##### Confirmed external virtual events
+### Confirmed external virtual events
 
 {: #calendar-confirmed-external-virtual-event}
 Once the sponsorship has been confirmed, go to your calendar event and remove `Hold` from the event title. **Note:** In the spirit of efficiency and to avoid creating multiple calendar invites, please include the epic or issue, add the marketing DRI, any GitLab speakers and/or attendees (SAEs, SAs, etc.), as well as any other team members who would benefit from being included in the calendar invite as this invite will provide a hold for team members participating in the event. The 3rd party sponsor will send out additional event details separately.
@@ -173,7 +173,7 @@ Below is a summary of the promotion plan for webcasts. MPMs will be responsible 
 
 {: #operations}
 
-#### Zoom capabilities
+### Zoom capabilities
 
 {: #zoom-capabilities}
 

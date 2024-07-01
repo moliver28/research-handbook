@@ -1,0 +1,104 @@
+- name: Quarterly Engineering satisfaction survey NPS score
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Test description
+  target: equal or greater than 99.80%
+  category: satisfaction
+  dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/GitlabAvailabilitySLO
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+  urls:
+    - https://about.gitlab.com/handbook/engineering/monitoring/#historical-service-availability
+    - https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now
+- name: Team member retention
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Test description
+  target: equal or greater than 99.80%
+  category: satisfaction
+  dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/GitlabAvailabilitySLO
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+  urls:
+    - https://about.gitlab.com/handbook/engineering/monitoring/#historical-service-availability
+    - https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now
+- name: Escape Rate
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Test description
+  target: equal or greater than 99.80%
+  category: performance
+  dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://10az.online.tableau.com/#/site/gitlab/views/DRAFTIssueTypesDetail/EscapeRate?:iid=2
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+  urls:
+    - https://handbook.gitlab.com/handbook/engineering/development/performance-indicators/#escape-rate-over-time
+- name: MR Rate
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Test description
+  target: equal or greater than 99.80%
+  category: activity
+  dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/GroupMRRate?:iid=6
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+  urls:
+    - https://handbook.gitlab.com/handbook/engineering/development/performance-indicators/#escape-rate-over-time
+- name: Time from hire to first contribution
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Test description
+  target: equal or greater than 99.80%
+  category: collaboration
+  dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/GroupMRRate?:iid=6
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+  urls:
+    - https://handbook.gitlab.com/handbook/engineering/development/performance-indicators/
+- name: Review Time to Merge
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Test description
+  target: equal or greater than 99.80%
+  category: efficiency
+  dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://10az.online.tableau.com/#/site/gitlab/views/RTTM/Sheet1
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+  urls:
+    - https://handbook.gitlab.com/handbook/engineering/development/performance-indicators/

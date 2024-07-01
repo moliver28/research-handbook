@@ -50,7 +50,7 @@ API Security, DAST, and Fuzzing are Ultimate features. Increasing adoption of th
 | [GitLab Cov Fuzz](https://gitlab.com/gitlab-org/security-products/analyzers/gitlab-cov-fuzz-src) | Private - GitLab's coverage fuzzing orchestration that integrates fuzzing engines/results with GitLab CI and GitLab Security Dashboard. |
 | [HAR Recorder](https://gitlab.com/gitlab-org/security-products/har-recorder) | A utility to record HAR files based on web traffic. |
 
-##### Open Source Fuzzers
+#### Open Source Fuzzers
 
 | Repo | Purpose |
 | ---- | ------- |

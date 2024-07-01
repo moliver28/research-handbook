@@ -14,7 +14,7 @@ As per
 > when a ticket has been opened. Another can be created to then notify the
 > customer when the ticket is solved.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -116,7 +116,7 @@ dots at the right-hand side, and then click `Delete` This will cause a pop-up
 modal to appear asking you to confirm the action. Click red `Delete trigger`
 button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "No managed content file"
 
@@ -181,7 +181,7 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 
@@ -216,7 +216,7 @@ triggers into the order you desire. After making the changes, click the blue
 While this does not matter in the UI, it will matter in the repo sync we
 utilize.
 
-## Trigger standards
+### Trigger standards
 
 To ensure all triggers we utilize are both consistent in nature and transparent
 in their actions, we strive to meet some standards on all triggers we work with.

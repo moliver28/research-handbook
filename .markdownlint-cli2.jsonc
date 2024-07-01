@@ -19,7 +19,6 @@
     "first-header-h1": false,
     "first-line-h1": false,
     "header-style": { "style": "atx" },
-    "heading-increment": false,
     "hr-style": { "style": "---" },
     "line-length": false,
     "no-bare-urls": false,
@@ -31,6 +30,8 @@
   },
   "ignores": [
     "content/handbook/company/culture/all-remote/remote-work-report-2020.md",
-    "content/handbook/company/culture/all-remote/universal-remote.md"
+    "content/handbook/company/culture/all-remote/universal-remote.md",
+    "layouts/shortcodes/pricing-themes.md",
+    "layouts/shortcodes/section-group-table.md"
   ]
 }

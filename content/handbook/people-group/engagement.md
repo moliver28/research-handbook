@@ -72,17 +72,17 @@ Engagement surveys are geared toward giving team members an opportunity to provi
 
 Feedback from the survey in turn allows Leadership within GitLab to gain insight into what is most important to team members, in particular what the business is doing well and what may need future iteration with the intention of improving the underlying team member experience and ensuring healthy levels of attrition are maintained.
 
-#### Survey Confidentiality
+### Survey Confidentiality
 
 In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ guide](https://support.cultureamp.com/hc/en-us/articles/204529829-Survey-participant-FAQs).
 
-#### Survey Participation
+### Survey Participation
 
 To make sure we hear from as many team members as possible, the People Group will provide Divisional leaders and People Business Partners with access to participation rates at the Divisional level and to managers with 5 or more direct reports.
 
 We will share with individual managers how close they are to recieving enough responses to view a detailed report noting that managers can only see individualized results for their teams if 5 or more of their direct reports complete the survey. We will not report participation statistics for managers with fewer than 5 direct reports.
 
-#### Survey Sections and Factors
+### Survey Sections and Factors
 
 The GitLab Team Member Engagement Survey is comprised of eleven sections each of which is aligned to a specific area of focus otherwise known as a factor.
 
@@ -121,7 +121,7 @@ Team members can access Summit Pulse Survey results [here](https://docs.google.c
 
 ## FY'24 Engagement Survey
 
-#### FY'24 Engagement Survey Timeline
+### FY'24 Engagement Survey Timeline
 
 - 2023-05-16: Engagement Survey launch
 - 2023-06-07: Engagement Survey close
@@ -295,13 +295,13 @@ Below you will find a summary of our overall results, as well as key insights an
 
 A huge thanks to everyone who completed the survey and made their voice heard. Your feedback helps us to continually improve the experience of working at GitLab.
 
-#### Company Results (Overall)
+### Company Results (Overall)
 
 | **Favourable** | **Neutral** | **Unfavourable** |
 | ---------- | ------- | ------------ |
 | 81% | 13% | 6% |
 
-#### Top Three Scores
+### Top Three Scores
 
 In addition to Engagement, we asked questions about other factors regarding our workplace and culture. A factor score is the average score of all questions within that factor.
 
@@ -321,7 +321,7 @@ GitLab was rated between 5%-8% percent higher than the industry benchmark i.e. N
 
 GitLab was rated between 6-8% higher than the industry benchmark i.e. New Tech (1,000+) 2022 across all three questions detailed above.
 
-#### Top Three Opportunities
+### Top Three Opportunities
 
 | **Factor** | **Favourability Rating** |
 | ------ | -------------------- |
@@ -421,13 +421,13 @@ Below you will find a summary of our overall results, as well as key insights an
 
 A huge thanks to everyone who completed the survey and made their voice heard. Your feedback helps us to continually improve the experience of working at GitLab.
 
-#### Company Results (Overall)
+### Company Results (Overall)
 
 | **Favourable** | **Neutral** | **Unfavourable** |
 | ---------- | ------- | ------------ |
 | 85% | 11% | 4% |
 
-#### Top Three Scores
+### Top Three Scores
 
 In addition to Engagement, we asked questions about other factors regarding our workplace and culture. A factor score is the average score of all questions within that factor.
 
@@ -447,7 +447,7 @@ GitLab was rated between 4%-12% percent higher than the industry benchmark i.e. 
 
 GitLab was rated between 7-12% percent higher than the industry benchmark i.e. New Tech (1,000+) 2021 across all three questions detailed above.
 
-#### Top Three Opportunities
+### Top Three Opportunities
 
 | **Factor** | **Favourability Rating** |
 | ------ | -------------------- |
@@ -465,7 +465,7 @@ GitLab was rated between 1%-10% percent higher than the industry benchmark i.e. 
 
 GitLab scored 1-2% below the industry benchmark i.e. New Tech +1,000 2021 for the two lowest scoring questions surrounding positive actions however GitLab scored 6% higher than the benchmark regarding career opportunities.
 
-#### FY' 22 E-Group Focus Areas
+### FY' 22 E-Group Focus Areas
 
 For the FY'22 Q4 Pulse Engagement Survey results, we will be leaning into epics and issues for tracking and planning.
 

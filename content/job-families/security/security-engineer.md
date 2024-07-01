@@ -383,7 +383,7 @@ This role reports directly to the CISO. Generally we would see this specialty to
 
 All interviews are conducted using Zoom video conferencing software. Candidates for Security Engineer roles can expect the hiring process to follow the order below, with modifications to the process as required, based on specific situations. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-#### Screening call with Recruiter
+### Screening call with Recruiter
 
 ### Round 1
 

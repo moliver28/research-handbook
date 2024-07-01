@@ -151,7 +151,7 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 
 ```
 
-#### Corporate Marketing: Issue best practices
+### Corporate Marketing: Issue best practices
 
 - During these issue creations, DUE DATE is required to be added by issue creator.
 - Issue creator associates all issues to the event epic.

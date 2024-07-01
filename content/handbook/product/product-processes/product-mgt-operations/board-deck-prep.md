@@ -45,7 +45,7 @@ description: >-
 <details>
 <summary>Click this to expand / collapse </summary>
 
-#### Slack Message: Board Prep Intro
+### Slack Message: Board Prep Intro
 
 ```markdown
 I’ve started this channel so we have a place to discuss updates to the Qx-FYxx board deck [link].
@@ -58,7 +58,7 @@ I've tagged each of you for updates in the comments of the relevant slide. A cou
 - Reminder that the audience for this deck is Director+.
 ```
 
-#### Slack Message: Status Update
+### Slack Message: Status Update
 
 ```markdown
 Hey all, here’s the latest status for the board deck. Reminder that we're trying to have this complete by the end of the day on xx-xx (pacific time).
@@ -75,7 +75,7 @@ Material changes to be aware of
 …
 ```
 
-#### Slack Message: Feedback Request
+### Slack Message: Feedback Request
 
 ```text
 The board content is all wrapped up for Qx! Thank you all for your work in putting these materials together. I’m going to close this slack channel since it’s no longer needed. Feedback is always welcome - please let me know if you have any thoughts (positive or negative) about the board prep process.

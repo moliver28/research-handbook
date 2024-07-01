@@ -37,7 +37,7 @@ This short video summarizes our unique DevOps solution and bold way of working:
 
 ### What people are saying
 
-##### Customer case studies
+#### Customer case studies
 
 [Our case studies feature GitLab customers sharing their accomplishments, in their own words](https://about.gitlab.com/customers/), including the few introduced below.
 
@@ -51,7 +51,7 @@ This short video summarizes our unique DevOps solution and bold way of working:
 
 From enterprise customers and [an established retailer like Fanatics](https://about.gitlab.com/customers/fanatics/), to [a growing startup like Glympse](https://about.gitlab.com/customers/glympse/), GitLab’s singular approach offers efficiency, velocity, reliability, and more at levels only possible with a truly seamless, continuous solution.
 
-##### Peer reviews
+#### Peer reviews
 
 GitLab is a 2-time Gartner Peer Insights “Customers Choice” award winner, recently in the [2019 Enterprise Agile Planning Tools](https://www.gartner.com/reviews/market/enterprise-agile-planning-tools/vendor/gitlab/product/gitlab?months=12) following on our recognition in the [2018 Application Release Orchestration](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab). Below are a few select quotes from Gartner Peer Insights and G2 Crowd reviews:
 
@@ -61,7 +61,7 @@ GitLab is a 2-time Gartner Peer Insights “Customers Choice” award winner, re
 - “[Powerful team collaboration tool for managing software development projects.](https://www.g2.com/products/gitlab/reviews/gitlab-review-1976773)”
 - “[GitLab is an amazing solution with a very fast-paced feature release cycle. They are great at listening to our feedback and incorporate in future roadmaps.](https://www.gartner.com/reviews/review/view/612634)”
 
-##### Analysts
+#### Analysts
 
 GitLab’s unique breadth in DevOps has enabled us to enjoy similarly [broad coverage across analysts’ categories and reports](/analysts/). A few highlights across the DevOps lifecycle include:
 

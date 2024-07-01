@@ -27,7 +27,7 @@ The reasons for creating a Gender and Sexual Orientation Identity page in the Gi
 
 ## Definitions
 
-#### Gender identity
+### Gender identity
 
 A person's internal perception of their own gender and the words they use to label themselves. A person may identify as a woman, or a man, a blend of the two (keep reading for more information on this), or neither. A person's gender identity may or may not be the same as their sex assigned at birth.
 
@@ -35,15 +35,15 @@ In our HRIS (Human Resource Information System) [Workday](/handbook/people-group
 
 At GitLab, we have the additional **Other Gender Options** field, which currently has a number of options for our team members to choose if you would like to. If you would like an additional option added, please contact our DIB team at `diversityinclusion@gitlab.com`. We are transparent in our results in our anonymous [Identity Data](/handbook/company/culture/inclusion/identity-data/).
 
-#### Gender expression
+### Gender expression
 
 A person's external display of their gender identity through clothing, grooming, behavior, etc. Gender expression commonly falls on a spectrum between feminine, androgynous, and masculine.
 
-#### Cisgender
+### Cisgender
 
 Cisgender or cis, refers to a person whose gender identity and/or expression generally aligns with the typical expectations of their sex assigned at birth.
 
-#### Assigned Female/Male at Birth (AFAB, AMAB)
+### Assigned Female/Male at Birth (AFAB, AMAB)
 
 **Sex Assignment** is the determination of an infant's [sex](#whats-the-difference-between-sex-and-gender) at birth. All babies are assigned a sex at birth which is generally directly related to their anatomy.
 However, there are a variety of situations in which an individual may be assigned a certain sex but develop differing physical characteristics as they age.
@@ -52,7 +52,7 @@ Being assigned female/male at birth sets an expectation of the associated social
 
 The terms AFAB/AMAB are often used by people to communicate about their gender identity without reinforcing the typical views on sex.
 
-#### Transgender
+### Transgender
 
 Transgender or "trans", is an umbrella term for people whose gender identity and/or expression generally differs from typical expectations of their sex assigned at birth. For example, along with trans men and trans women, people who identify genderqueer, non-binary, or genderfluid can be also identified as transgender. Transgender people may or may not choose to alter their bodies hormonally and/or surgically.
 
@@ -60,15 +60,15 @@ There are many people who choose to socially identify as transgender, or "trans"
 
 Some people may be visibly transgender. It is important that you do not address them by the gender and pronouns you *think* they are based on physical appearance. If you are not sure, use gender-neutral pronouns (they/them).
 
-#### Trans man
+### Trans man
 
 An identity that describes a man who was assigned a female gender at birth. The term female-to-male transgender, abbreviated as FTM or F2M, is also used by some transgender people.
 
-#### Trans woman
+### Trans woman
 
 An identity that describes a woman who was assigned a male gender at birth. The term male-to-female transgender, abbreviated as MTF or M2F, is also used by some transgender people.
 
-#### Genderqueer
+### Genderqueer
 
 Genderqueer is an umbrella term to refer to gender identities that differ from the binary identities of male and female, including gender non-conforming and non-binary identities. People who identify as genderqueer may see themselves as a combination of both male and female, neither male nor female, different genders at different times or as no specific gender at all.
 
@@ -76,23 +76,23 @@ There can be an overlap between genderqueer, gender non-conforming, non-binary, 
 
 Genderqueer, gender non-conforming, non-binary, and genderfluid people may or may not identify as lesbian, gay, bisexual, transgender, or queer.
 
-#### Gender non-conforming (GNC)
+### Gender non-conforming (GNC)
 
 Gender non-conforming is an umbrella term for gender identities and expressions that don't conform to typical gender expectations and falls outside of or in between the feminine and masculine binary.
 
-#### Non-binary
+### Non-binary
 
 Non-binary refers to gender identities other than the traditional female and male "binary" identities.
 
-#### Genderfluid
+### Genderfluid
 
 Genderfluid is a gender identity where someone sees themselves as male, female, or non-binary at different times or under different circumstances. Some people like to express different sides of themselves depending on who they are with or where they are.
 
-#### Transition or transitioning
+### Transition or transitioning
 
 Gender transition is a process of changing to align more closely with one's gender identity. It is not a one-time event but involves many steps over time to change social, medical, and/or legal aspects of one's life such as name, appearance, and pronouns. Transitioning can involve talking to friends, family, and coworkers, changing legal and medical documents, and/or medical intervention such as taking hormones or undergoing surgeries. It's important to understand that not everyone who transitions chooses to change their body and some people may choose to change some parts of their body but not others in order to feel comfortable within themselves.
 
-#### Gender dysphoria
+### Gender dysphoria
 
 [Gender dysphoria](https://www.psychiatry.org/patients-families/gender-dysphoria) is a clinical diagnosis in the American Psychiatric Association's Diagnostic and Statistical Manual of Mental Disorders (DSM) that refers to undue pain and distress experienced when a person's gender assigned at birth is different from their gender identity.
 

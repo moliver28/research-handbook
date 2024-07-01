@@ -302,7 +302,7 @@ The below instructions apply to livestreams to YouTube.
 1. The host should do an introduction stating who they are, what their role is, and what the meeting is about, e.g. "I am Jane Doe, the VP of Widget Production, and today's Group Conversation is about the molding phase of widget production."
 1. Please note that if the recording starts a 'this meeting is being recorded' message the host should talk over that because otherwise the recorded video will needed editing to prevent an awkward pause. Livestreaming doesn't trigger this message, only recording does.
 
-#### Useful links
+### Useful links
 
 - [My Live Events: schedule and review upcoming live events](https://www.youtube.com/my_live_events)
 - [YouTube live streaming introduction page](https://support.google.com/youtube/answer/2474026?hl=en) - Here you can check if your channel meets all requirements for live streaming

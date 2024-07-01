@@ -248,19 +248,19 @@ There are several activities that take place to prepare for new OKRs / commits a
 - **Finalize Upcoming Quarter OKR(s)**: Upcoming quarter commits are completed.
 - **IT All Hands Quarterly Meeting**: The IT Leadership hosts the Quarterly IT All Hands.
 
-#### FY25 Q1 Calendar
+### FY25 Q1 Calendar
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q1.png)
 
-#### FY25 Q2 Calendar
+### FY25 Q2 Calendar
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q2.png)
 
-#### FY25 Q3 Calendar
+### FY25 Q3 Calendar
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q3.png)
 
-#### FY25 Q4 Calendar
+### FY25 Q4 Calendar
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q4.png)
 

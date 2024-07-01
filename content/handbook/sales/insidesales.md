@@ -39,13 +39,13 @@ The mission of the Inside Sales department is to create valuable experiences for
 
 After completing onboarding, Inside Sales Representatives are assigned a territory by *region* or a defined set of *Account Territories*. Current Enterprise ISR territory assignments can be found in the [Territories Mapping File - SSoT](https://docs.google.com/spreadsheets/d/1gElhORjqraKDMQnWzApPelyP_vVa24tAOA85vb5f3Uc/edit#gid=1765694827).
 
-#### ISR Account Alignment
+### ISR Account Alignment
 
 Once an ISR has been added to the Territories Mapping File, their name will **automatically** be populated in the `Proposed ISR` field on all Accounts associated with ther respective `Sales Territory`.
 
 It's expected for the Inside Sales Team to follow the [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/). The section linked above provides step by step clarity on how to follow the ROE.
 
-#### ISR Opportunity Alignment
+### ISR Opportunity Alignment
 
 The `ISR` field will be **automatically** populated on an opportunity based on the `Proposed ISR` field from the opportunity's associated Account.
 

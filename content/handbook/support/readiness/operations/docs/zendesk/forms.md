@@ -13,7 +13,7 @@ These fall into one of two types:
 - Public - meaning both agents and end-users can see these
 - Internal - meaning only agents can see these
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -97,7 +97,7 @@ click on it. After doing so, click the three vertical dots at top-right of the
 page and click `Delete`. This will cause a pop-up modal to appear asking you to
 confirm the action. Click red `Delete` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 
@@ -139,7 +139,7 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 
@@ -149,7 +149,7 @@ team.
 
 - [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/tickets/forms-and-fields)
 
-## Current Zendesk Global forms
+### Current Zendesk Global forms
 
 | Name                     | ID             | Visibility | Category    |
 |--------------------------|:--------------:|------------|-------------|
@@ -165,7 +165,7 @@ team.
 | GitLab Incidents         | 360001629679   | Internal   | Support     |
 | Support Internal Request | 12829030177948 | Internal   | Support     |
 
-## Current Zendesk US Federal forms
+### Current Zendesk US Federal forms
 
 | Name               | ID             | Visibility | Category |
 |--------------------|----------------|------------|----------|
@@ -177,7 +177,7 @@ team.
 | Emergency          | 360001421112   | Public     | Support  |
 | License Issue      | 360001803151   | Internal   | Support  |
 
-## Positioning
+### Positioning
 
 By default, new forms gain a position of `N+1`, where `N` is the highest
 position value of all forms currently in Zendesk (both active and inactive).
@@ -190,7 +190,7 @@ Clicking that will then allow you to drag and drop the list of forms into the
 order you desire. After making the changes, click the blue `Save` button at the
 top right of the page.
 
-## Ticket form standards
+### Ticket form standards
 
 To ensure all ticket forms we utilize are both consistent in nature and
 transparent in their actions, we strive to meet some standards on all

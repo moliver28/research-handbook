@@ -1,12 +1,6 @@
 ---
-
 title: Previous Quarter OKR Timelines
 ---
-
-
-
-
-
 
 {{% include "includes/product-handbook-links.md" %}}
 
@@ -15,7 +9,7 @@ title: Previous Quarter OKR Timelines
 - Incorporates [FY23-Q2 learnings](https://gitlab.com/gitlab-com/Product/-/issues/3892)
 - [FY23-Q3 feedback issue](https://gitlab.com/gitlab-com/Product/-/issues/4296)
 
-#### OKR Kick-off by the Product and Engineering Leadership Teams
+### OKR Kick-off by the Product and Engineering Leadership Teams
 
 - **8 weeks** prior to the start of the fiscal quarter, the Product Leadership Team drafts initial OKRs aligned to the [annual product investment themes](https://about.gitlab.com/direction/#fy23-product-investment-themes). Product Operations will lead this effort with the  [FY23 Q3 PLT OKR Pre-planning issue](https://gitlab.com/gitlab-com/Product/-/issues/4363 ) in preparation for Shared R&D OKR planning with Engineering.
 - **6 weeks** prior to the start of the fiscal quarter, the VP of Product and the CTO begin alignment on potential Shared R&D OKRs to recommend to the CEO. Product Operations will work with the CTO to schedule these meetings and include cross-functional team members as needed. Please reference the agenda docs and video recording below to follow these meetings:
@@ -35,7 +29,7 @@ title: Previous Quarter OKR Timelines
   - Product Operations adds the aligned upon Shared R&D OKRs plus any additional Product organization specific OKRs to [FY23-Q3 Shared R&D and Product Org OKR Planning](https://gitlab.com/gitlab-com/Product/-/issues/4295) and the VPP reviews the proposed OKRs with the CEO
   - Product Operations informs Product team members that Q3 OKR planning has begun by tagging them into this issue, highlighting that it is recommended for Product Managers to review and activate their [Product Group](/handbook/product/product-processes/#quad--infra--security-product-group-dris) to begin ideation on their Q4 KRs at this time.
 
-#### OKR Collaboration by the Product Team
+### OKR Collaboration by the Product Team
 
 - **3 weeks** prior to the start of the new quarter, the CEO approves the Shared R&D OKRs and Product organization specific OKRs. Product Operations works with the VPP and Section leads to ensure both the  Shared R&D and Product organization specific OKRs in [FY23-Q3 Shared R&D and Product Org OKR Planning](TBD) are updated as appropriate and tags in the teams for alignment and to finalize ownership of the KRs
 - **2 weeks** prior to the start of the new quarter:

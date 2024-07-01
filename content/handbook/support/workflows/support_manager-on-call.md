@@ -140,7 +140,7 @@ When GitLab experiences a [security incident](/handbook/security/security-operat
 
 [Upgrade assistance requests](https://about.gitlab.com/support/scheduling-upgrade-assistance/) are currently triaged by engineers as part of the [Working on Tickets](/handbook/support/workflows/working-on-tickets) but in some cases the triaging agent(s) may need assistance from Support management.
 
-#### Example situations and potential solutions
+### Example situations and potential solutions
 
 - User requesting Upgrade Assistance outside of [GitLab Support Hours](https://about.gitlab.com/support/#definitions-of-gitlab-global-support-hours)
   - Reach out to your reports to determine whether any individuals would be open to shifting their working hours to accommodate the day/time being requested

@@ -35,7 +35,7 @@ GitLab security awareness training has been developed by [GitLab Security](/hand
   - [Data Classification]({{< ref "data-classification-standard" >}})
   - [No Red Data on Unapproved Locations](/handbook/people-group/acceptable-use-policy/#security-and-proprietary-information)
 
-#### Training Feedback
+### Training Feedback
 
 You are strongly encouraged to engage the team behind the training and provide feedback, or ask any questions related to the content of the training. You can do that through:
 

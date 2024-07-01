@@ -9,7 +9,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/agents"
 For information about user fields, please refer to
 [User Fields](./user-fields.md).
 
-## Agent Provisioning
+### Agent Provisioning
 
 #### For Zendesk US Federal
 
@@ -104,7 +104,7 @@ assign the application to the requester's profile.
 Any special request issues to provision on either Zendesk instance not related
 to role based entitlements need to be assigned to the provisioning DRI.
 
-## Special setups
+### Special setups
 
 #### Support team
 

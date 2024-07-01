@@ -307,7 +307,7 @@ See the [Bike To Work Flyer](https://drive.google.com/file/d/1vLmVX18ptsKj-AFpAK
 
 The Bike to Work limit is £3000 for the total cost of the bicycle and accessories. The scheme may be availed once in 4 consecutive tax years.
 
-#### Bike Applications
+### Bike Applications
 
 Once your account is created, select a Bike to Work UK partner shop.
 Pick the new bike and accessories if required.

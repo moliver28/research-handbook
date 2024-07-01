@@ -1,15 +1,7 @@
 ---
-description: "How GitLab approaches the DevSecOps solution including messaging and key resources to help marketing and sales."
-
 title: "DevOps Solution Resource: DevSecOps"
+description: "How GitLab approaches the DevSecOps solution including messaging and key resources to help marketing and sales."
 ---
-
-
-
-
-
-
-
 
 ## Looking for a customer-facing overview of GitLab's DevSecOps capabilities? See the [DevSecOps Solution](https://about.gitlab.com/solutions/dev-sec-ops)
 
@@ -17,7 +9,7 @@ title: "DevOps Solution Resource: DevSecOps"
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
-#### Who to contact
+### Who to contact
 
 |     Product Marketing    |    Developer Advocate    |
 | ------------------------ | ------------------------- |

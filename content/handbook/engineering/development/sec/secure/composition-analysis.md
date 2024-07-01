@@ -133,7 +133,7 @@ We are responsible for triaging vulnerabilities reported on 2 sets of projects: 
 
 See the [Secure sub-department vulnerability management process](/handbook/engineering/development/sec/secure/#vulnerability-management-process).
 
-##### Security Policy
+#### Security Policy
 
 We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas), and currently focus on security findings with these severity levels:
 
@@ -144,7 +144,7 @@ An exception is made for `Container scanning` findings - we focus only on findin
 
 Please utilize all the time you have set aside. If you complete all the ones at Critical and High, please continue to triage - we want to address all findings but we are working in a risk based order.
 
-##### Triaging vulnerabilities
+#### Triaging vulnerabilities
 
 We use the Vulnerability Report with filters to focus on items matching [our policy](#security-policy) and reported on the relevant projects.
 

@@ -101,7 +101,7 @@ Please [add a **required question**](https://help.calendly.com/hc/en-us/articles
 
 ## Generating a single-use Calendly link
 
-#### using Chrome plug-in / Firefox extension
+### using Chrome plug-in / Firefox extension
 
 Calendly has a
 [Chrome plug-in](https://chrome.google.com/webstore/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp)
@@ -115,7 +115,7 @@ your message to the customer.
 
 If you do not want to use a supported browser, you can generate a link from your Calendly home page according to [the Calendly documentation](https://help.calendly.com/hc/en-us/articles/1500001292022-How-to-create-and-share-a-single-use-link-to-a-specific-event).
 
-#### using curl
+### using curl
 
 Set your Calendly API token:
 
@@ -168,7 +168,7 @@ This will output something like the following:
 
 > <https://calendly.com/d/m6we-x8r7/support-call-with-me>
 
-#### using [httpie](https://github.com/httpie/httpie)
+### using [httpie](https://github.com/httpie/httpie)
 
 The following uses the same setup, patterns, and output as above.
 

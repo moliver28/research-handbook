@@ -11,7 +11,7 @@ While the information here is meant as a shortcut for people doing UX Research, 
 
 To efficiently get to the usage data you need to conduct research, it’s important to understand the various tools and teams involved in data and analytics at GitLab.
 
-#### Tools
+### Tools
 
 _In order of most to least relevant to UX Researchers:_
 
@@ -20,7 +20,7 @@ _In order of most to least relevant to UX Researchers:_
 - **Service Ping** - an event tracking tool GitLab built to perform event tracking on self-managed instances (i.e., the thing that tracks events on GitLab self managed).
 - **Snowplow** - an open-source event tracking platform used for collecting, processing, and enriching event-level data from various sources (i.e., the thing that tracks the events on GitLab.com).
 
-#### Useful Links
+### Useful Links
 
 - [Tableau workbooks](https://docs.google.com/document/d/10JoLjHSFCUvSzXXN_Fv4CFxj1yu07n5zZoAHka17qV4/edit#heading=h.unc286iee2a) (A list of workbooks UX Researchers have found useful)
 - [Tableau handbook page](/handbook/business-technology/data-team/platform/tableau/) (The GitLab handbook page on Tableau)
@@ -32,7 +32,7 @@ _In order of most to least relevant to UX Researchers:_
 ![Simplified usage data stack](datastack_simple.png)
 The above illustration shows a simplified version of GitLab's usage data stack, based on [this document.](/handbook/business-technology/data-team/platform/#i-classfas-fa-cubes-fa-fw-stylecolorrgb25210938-font-size85em-aria-hiddentrueiour-data-stack)
 
-#### Getting Access
+### Getting Access
 
 Complete an [access request to use Tableau](/handbook/business-technology/data-team/platform/tableau/#tableau-online-access). Some UX Researchers have Explorer roles, and some have Viewer roles - if you want to see the differences in capabilities between the two roles, [check this handbook page](/handbook/business-technology/data-team/platform/tableau/#capabilities).
 
@@ -40,7 +40,7 @@ To view some dashboards and data, you will need SAFE access, but others are avai
 
 NOTE: Obtaining SAFE access to user data will put you on the [designated insiders list](/handbook/legal/publiccompanyresources/#designated-insiders), which will require you to obtain pre-clearance in order to sell any GitLab shares you own, as well as restrict the trading window in which you can do so.
 
-#### Teams to collaborate with
+### Teams to collaborate with
 
 There’s a [more complete explanation](/handbook/business-technology/data-team/#how-data-works-at-gitlab) of the various groups that are responsible for data at GitLab, but here are two teams you’ll want to know about if you’re performing UX Research.
 
@@ -66,7 +66,7 @@ Is it possible to associate user level behavior in our GitLab.com data to our Sn
 
 _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user identifiers are not. However, it is possible to join Snowplow and GitLab.com data at the namespace (group/project) level (i.e., track more broadly)._
 
-#### Common metrics and segments that GitLab tracks
+### Common metrics and segments that GitLab tracks
 
 - Monthly active users (MAU)
   - Examples: MAU per stage, per group, per section
@@ -105,7 +105,7 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
      - Before opening a request, do a quick search to see if an analysis already exists. If you have trouble determining that, you can ask in #data.
      - If new analysis is needed, open a PDI request. Alternatively, you can try to build out your own charts and dashboards, though based on past UXR experiences, partnering with PDI is a great way to get more familiar with Tableau and product usage data.
 
-#### How can I get help?
+### How can I get help?
 
 - If you ever get stuck or have a question, please ask for help in the #data Slack channel.
 - Attend the [Product Data Insights team’s office hours](/handbook/product/product-analysis/#office-hours).

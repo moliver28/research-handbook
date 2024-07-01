@@ -70,6 +70,6 @@ in future milestones. Full chart [to be migrated](https://gitlab.com/gitlab-data
 
 {{< engineering/child-dashboards filters="Provision" >}}
 
-##### OKRs
+### OKRs
 
 The Engineering Manager will report on the progress of [OKRs](/handbook/company/okrs/) every two weeks. Current OKRs: [FY22-Q1](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10680)

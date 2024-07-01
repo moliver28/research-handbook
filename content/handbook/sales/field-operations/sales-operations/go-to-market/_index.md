@@ -26,7 +26,7 @@ The purpose of this page is to centralize and document all key Go To Market poli
 
 TSP is an automated process workflow intended to properly segment & route Salesforce accounts to the correct Sales territory & respective owner. This clarifies who should own which accounts & reduces current Ops overhead to manage manually. TSP fields are designed to be real time reflections of the best data we have, not necessarily the current Go To Market approach. [Requests to override](https://gitlab.com/gitlab-com/www-gitlab-com/-/edit/tsp-process-overview-updates/source/handbook/sales/field-operations/sales-operations/go-to-market/index.html.md?from_merge_request_iid=49546#process-for-requesting-tsp-changes) the TSP information can also be submitted in the **Account Review** section of the account.
 
-#### Primary TSP Workflow Components
+### Primary TSP Workflow Components
 
 1. **Account Routing** (*Next Owner recommendation process*):
     - Sales Segment (i.e. max employee count of the account hierarchy)
@@ -39,7 +39,7 @@ TSP is an automated process workflow intended to properly segment & route Salesf
     - (Re)Assignment of an account to the correct owner
     - Updating of Account Territory, Sales Segment, Employees fields
 
-#### Firmographic TSP Fields
+### Firmographic TSP Fields
 
 - `[TSP] Sales Segment`: Segment of the account based on the MAX employee count in that account's hierarchy (regardless if MAX is parent or child).
 - `[TSP] Account Employees`: Number of employees **for this specific account**
@@ -47,19 +47,19 @@ TSP is an automated process workflow intended to properly segment & route Salesf
 - `[TSP] Address (Street, City, State, Post Code, Country)`: Location of Ultimate Parent Account based on the TSP data hierarchy
 - `[TSP] Geo Story`: Source of address data from TSP Data Hierarchy
 
-#### Ownership TSP Fields
+### Ownership TSP Fields
 
 - `[TSP] Next Approved Owner`: Owner of territory as determined by [SSoT Territory Mapping File](https://docs.google.com/spreadsheets/d/1iTDCaHN-i_xrfiv_Tkg27lYbZ3LHsERySkvv4cPsSNo/edit#gid=720021722)
 - `[TSP] Transfer Date`: Date when account ownership will change to `TSP Next Approved Owner`
 
-#### Territory TSP Fields
+### Territory TSP Fields
 
 - `[TSP] Territory`: Territory account falls under, as per the [SSoT Territory Mapping File](https://docs.google.com/spreadsheets/d/1iTDCaHN-i_xrfiv_Tkg27lYbZ3LHsERySkvv4cPsSNo/edit#gid=720021722)
 - `[TSP] Region`: Sales territory region the account falls under
 - `[TSP] Subregion`: Sales territory sub-region the account falls under
 - `[TSP] Area`: Sales territory area the account falls under
 
-#### Account Exclusions
+### Account Exclusions
 
 The current TSP design supports our Geo sales accounts & territories.
 

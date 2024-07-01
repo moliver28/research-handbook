@@ -154,7 +154,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Zuora Data Query](https://knowledgecenter.zuora.com/Zuora_Central_Platform/Query/Data_Query/A_Overview_of_Data_Query#Using_Data_Query)| Airflow | `zuora_query_api`| `zuora_query_api`|Finance | 24h / 48h | Yes | Tier 1 |
 | [Zuora Revenue](https://knowledgecenter.zuora.com/Zuora_Revenue) | Airflow | `zuora_revenue` | `zuora_revenue` | Finance | 24h / 48h | Yes | Tier 1 |
 
-##### Source contacts
+#### Source contacts
 
 See the [source contact spreadsheet](https://docs.google.com/spreadsheets/d/1VKvqyn7wy6HqpWS9T3MdPnE6qbfH2kGPQDFg2qPcp6U/edit) for who to contact if there are any external errors.
 
@@ -199,7 +199,7 @@ We use Airflow on Kubernetes for our orchestration. Our specific setup/implement
 
 We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as our data warehouse. The Enterprise Data Warehouse (EDW) is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. The EDW supports GitLab’s data-driven initiatives by providing all teams a common platform and framework for reporting, dashboarding, and analytics. With the exception of point-to-point application integrations all current and future data projects will be driven from the EDW. As a recipient of data from a variety of GitLab source systems, the EDW will also help inform and drive Data Quality best-practices, measures, and remediation to help ensure all decisions are made using the best data possible.
 
-#### Snowplow nullify columns
+### Snowplow nullify columns
 
 In order not to extract geo data into Snowplow, the following columns were nullified:
 
@@ -469,7 +469,7 @@ Furthermore, the next section provides additional details on optional **template
 
 <details><summary>Optional Templated Arguments</summary>
 
-##### Custom Templates
+#### Custom Templates
 
 This is useful if you have many users that need a value different from the default. One option would be to run with the default values, and then manually update the MR, but depending on the number of users to update, a potentially better option is to pass in a custom values template.
 
@@ -1108,7 +1108,7 @@ Sales Systems Use-Case: Using the Snowflake API
 
 We use [Tableau](https://www.tableau.com/) as our Data Visualization and Business Intelligence tool. To request access, please follow submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Access_Request). Use the template [Tableau_Rquest](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/Tableau_Request.md) for Tableau access requests.
 
-#### Meta Analyses for the Data Team
+### Meta Analyses for the Data Team
 
 - Tableau Usage! 📈 - coming soon
 - Tableau Account Optimization 💪 - coming soon
@@ -1165,7 +1165,7 @@ Some of those are:
 
 For this, we have implemented a solution consisting of multiple Airflow dags, per schedule.
 
-#### The process, explained
+### The process, explained
 
 As of right now (subject to further iterations and changes), the steps are the following:
 

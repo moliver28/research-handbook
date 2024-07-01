@@ -43,7 +43,7 @@ If you would like the Hiring Manager to receive an email when the form has been 
 
 Your Hiring Manager will be responsible for completing their reference checks.
 
-#### Recruiter Quality Check (Engineering Only)
+### Recruiter Quality Check (Engineering Only)
 
 Once a candidate has gone through the whole process before creating an offer the recruiter will ensure the scorecard requirements in [Engineering Hiring Practices](/handbook/engineering/hiring/#hiring-practices) are met.
 
@@ -68,19 +68,20 @@ A description on what to input into each Offer field in Greenhouse can be found 
 - **Department:** This field is synched with WorkDay and will update as new divisions are created.
 - **Employment Type:** Talent Acquisition typically only hires Full-Time or Interns.
 - **Employment Status:** This field is used for the US. If you’re not sure of the status, think of how they are paid: If the job is paid by the hour, the person is typically non-exempt (aka not exempt from overtime). If the job is salaried, they will be exempt, as they do not receive overtime.
-- **Hiring Manager/Hiring Manager Title:** Please provide a full title for your hiring manager rather than abbreviations, as this will appear in the candidates’ contract.
+- **Hiring Manager/Hiring Manager Title:** Please provide a full title for your hiring manager rather than abbreviations, as this will appear in the candidates’ contract. For Hiring Manager, use the hiring manager's preferred name - this is the same name you'll see if you search for them in Workday.
 - **Candidate City:** Choose the actual city where the candidate is located, not their locality.
 - **State/Province:** This field is synched with WorkDay and is only applicable to the US and Canada.
 - **Candidate Country:** This field is synched with WorkDay. If the candidate is currently living in a different country than where their contract is stating (ie they currently live in Germany and are going to be working in Netherlands), please choose the place they will be working, but let CES know so they can order a background check for the place where they are currently working. Please note that Northern Ireland is part of the United Kingdom, so ask Enablement if you're unsure of what country to list.
 - **Locality:** Use [this link]({{< ref "compensation-calculator#location-factor" >}}) to help you determine your locality. More details on how to select a specific city can be found [here]({{< ref "compensation-calculator#introduction-2" >}}).
 - **Comp Calc Link:** Include a link to the comp calc that you used to determine salary, or outside documentation. If you had an exception, please include a link to that documentation here.
+- **Compensation Package:** Tell us what type of offer this is---whether it has a bonus or signing bonus included. This field is used to populate information within the contract itself, so it's important that you select the correct option.
 - **Currency and Annual Salary:** Candidates are paid in local currency. [Click here]({{< ref "compensation#paid-in-your-local-currency" >}}) for a current list of any locations where exceptions can be made if a candidate asks. Annual and monthly salaries should be rounded up or down to the nearest whole currency unit and should always end with a zero (e.g., "50,110.00" or "23,500.00"). Hourly rates should be rounded to the nearest quarter-currency unit (e.g., 11.25/hr.).
 - **Are they paid yearly or hourly?:** If the salary is an annual salary, rather than an hourly rate, choose yearly.
 - **Variable Bonus Type:** Choosing this field will add a designated paragraph to your candidate’s contract that explains how a commission or director bonus works.
 - **Variable bonus frequency:** This details whether the variable bonus shown is per year, not how it is paid out. All bonus information is calculated per year.
 - **Bonus Currency & Amount:** This is calculated per year, in the same currency as their salary.
 - **Signing Currency & Amount:** This is a one-time payment in the same currency as their salary.
-- **Bonus/Variable Percent:** This is a bonus field that specifies what percent of the total salary is bonus. This field will not be used in contracts and is only used for WorkDay.
+- **Bonus/Variable Percent:** This is a bonus field that specifies what percent of the total salary is bonus. This field will not be used in contracts and is only used for Workday.
 - **References Checked:** This verifies for record whether you have already completed references, or if you’ve told the candidate that the offer is contingent on positive references as they’re still in progress.
 - **Family Relationship:** Use this field to let CES know if there’s a family relationship that will require a [Family Member Acknowledgement form]({{< ref "ces-contract-processes#how-to-send-a-family-member-relationship-acknowledgment" >}}).
 - **Signatory Name & Signatory Title:** See [this chart]({{< ref "ces-contract-processes#entity-contract-signatories" >}}) for a list of signatories per country.
@@ -88,7 +89,7 @@ A description on what to input into each Offer field in Greenhouse can be found 
 - **End Date:** Use for Inc (USA) contractors and interns only.
 - **Entity:** [This]({{< ref "general-and-entity-benefits#entity-benefits" >}}) is a great place to see which entities are currently associated with different countries. If your candidate has a position that includes “Federal” or PubSec” in the title, or you believe they’ll be working in government contracts, please discuss with your Hiring Manager if they belong in the Federal entity. If you’re not sure, discuss with Legal before CES sends a contract. If the candidate is internal and is moving from a different entity to Federal, or from Federal to a different entity, please send a note to CES that the candidate requires a full contract rather than an LOA.
 - **Total Rewards:** Skip these fields, Total Rewards will add them during their approval stage.
-- **Candidate BSN and DOB:** These fields are for Netherlands candidates only, and answers to these can be found in your completed Reference Check form.
+- **Candidate BSN:** These fields are for Netherlands candidates only, and answers can be found in your completed Reference Check form.
 - **Nationality & Country of Citizenship:** Please fill these out for any PEO contracts. The answer will be in your completed Reference Check form.
 - **Indefinite or Fixed Contract:** Netherlands hires will receive a fixed contract for their first year, as will any contractors or interns. Other than these, you can select “no” or leave this field blank.
 {{% /details %}}
@@ -113,7 +114,7 @@ Do not move a candidate into the Background Check and Offer stage in Greenhouse 
 The offer approval process begins with Total Rewards, who reviews the following:
 
 - Ensure the compensation is in line with our compensation benchmarks
-- Ensure the bonus percentage, if applicable, matches bonus percent amount. For bonus/commission, this will be a percent of    OTE. For Director level bonus, this will be a percent of base.
+- Ensure the bonus percentage, if applicable, matches bonus percent amount. For bonus/commission, this will be a percent of OTE. For Director level bonus, this will be a percent of base.
 - Audit stock options, department, division, etc.
 - Add entity, job code, job grade, sales geo differential
 - Ensure the title is added to Workday.
@@ -142,7 +143,7 @@ Once the offer is approved in Greenhouse and references are completed, a candida
 
 Offer details usually include:
 
-- [Start Date](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/) - ensure that the candidates start date is not a no-start date (unless needed for legal reasons). They should never start on a National holiday in the country when they are located, and anticipate that the People Connect team requests at least 10 days' notice from the time the candidate is marked as hired until their start date.
+- [Start Date](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/) - ensure that the candidates start date is not a no-start date (unless needed for legal reasons). They should never start on a National holiday in the country when they are located, and anticipate that the People Connect team requests at least 10 days' notice from the time the candidate is marked as hired until their start date. PEOs often require at least 1-2 weeks more time for processing, but it's sometimes longer. Work with CES on these.
 - Job Title
 - Salary
 - General and specific [benefits]({{< ref "benefits" >}})
@@ -183,4 +184,4 @@ After the employment contract has been signed by both a GitLab signatory and the
 
 In some cases, there are candidates who still have interviews scheduled. In most circumstances, the Recruiter should be transparent in communications with the candidate in stating that the position has been filled and inviting them to still have a conversation with the interviewer about the company and future positions. In other cases, we may have additional openings coming and want to continue the interview process. In those cases, they should discuss timing with CES to ensure they can have those interviews while leaving enough time to initiate onboarding for the hired candidate.
 
-Once the candidate has been marked as Hired, this will trigger a sync with WorkDay and initiate the pre-onboarding process with the People Connect team.
+Once the candidate has been marked as Hired, this will trigger a sync with Workday and initiate the pre-onboarding process with the People Connect team.

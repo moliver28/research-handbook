@@ -107,7 +107,7 @@ Buckle up! There are a lot of tokens, but for good reason. This is an **advanced
 * Complete the same steps for the `Thank You Page`
   * Use the format `webcast-topic-thank-you` (or `webcast-topic-region-thank-you` if region is relevant) - ex. `webcast-mastering-cicd-thank-you` or `webcast-mastering-cicd-italian-thank-you`
 
-##### Adjusting number of speakers in Marketo landing page
+#### Adjusting number of speakers in Marketo landing page
 
 **Less Speakers**
 The speaker module is controlled in the Marketo landing page module. The template is initially set up to support three speakers (note: this is supported in both the My Tokens and the landing page template). If there are less speakers, follow the instructions below:

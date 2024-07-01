@@ -9,11 +9,11 @@ description: "Learn more about Integrated Marketing job family levels, roles and
 
 The VP of Integrated Marketing reports to the [CMO](/job-families/marketing/chief-marketing-officer/).
 
-#### VP of Integrated Marketing Job Grade
+### VP of Integrated Marketing Job Grade
 
 The VP of Integrated Marketing is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### VP of Integrated Marketing Responsibilities
+### VP of Integrated Marketing Responsibilities
 
 - Hire, develop and manage a global team of high-performing campaign managers, field marketers and partner marketing managers
 - Map the customer journey and identify the right strategies to attract and advance prospects through the funnel.
@@ -22,7 +22,7 @@ The VP of Integrated Marketing is a [grade 12](/handbook/total-rewards/compensat
 - Continuously evaluate the performance and ROI of campaigns, adjusting demand tactics and strategy accordingly
 - Work closely with product marketing, marketing operations, and sales to ensure message optimization and cross-functional alignment
 
-#### VP of Integrated Marketing Requirements
+### VP of Integrated Marketing Requirements
 
 - Experience in roles of increasing responsibility, managing $500MM-$5B in revenue pipeline in high-growth companies; Ideally with experience marketing to developers, IT, development operations and security
 - Experience running a global team of at least dozens of people with multiple levels of management

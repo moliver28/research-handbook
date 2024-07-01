@@ -162,17 +162,17 @@ Travel & Entertainment are expense assumptions related to travel & entertainment
 
 ## Integrations
 
-#### NetSuite
+### NetSuite
 
-#### Adaptive Loaders
+### Adaptive Loaders
 
-#### Scheduling
+### Scheduling
 
 ## Formulas
 
 ## Reports
 
-#### Report Structure
+### Report Structure
 
 The below image shows the current report structure in Adaptive Insights. There are six main folders within the structure. The folders labeled `Annual Reports`, `Monthly Reports`,`Quarterly Reports`, and `YTD Reports` are considered production reports and should receive sign off from the VP, Finance before moving to one of these folders. Before a report is considered production ready, a user must start a report in the `Sandbox Reports` folder, then get approval by the VP, Finance befor it can be moved into on of the production ready Reporting folders. Once sign off is approved, a user should ask an Adaptive Insights administrator to move the folder from Sandbox to the production ready folder.
 
@@ -185,26 +185,26 @@ The below image shows the current report structure in Adaptive Insights. There a
 
 ![alt text](../adaptive-report.png "Report Structure")
 
-#### Reports
+### Reports
 
 ## Processing Headcount Movements
 
 Below details the process to account for headcount movements in Adaptive based on the type of change that’s occurred.
 
-#### Net New Roles
+### Net New Roles
 
 Net new hire movements which increase GitLab’s headcount and are not related to a team member leaving GitLab or transferring between departments.
 
 1. On the Planned Personnel sheet, create a new row and enter in the role details for the net new position. Include an anticipated start date and enter the headcount name as “TBH”.
 
-#### Team Member Terminations
+### Team Member Terminations
 
 For headcount moves due to team members leaving GitLab.
 
 1. When a team member leaves GitLab, in the Active Personnel sheet where the headcount record is located, enter the team members' last day into the “End Date” column. This will feed into the calculations within Adaptive so any costs associated with that headcount will cease once the end date surpasses.
 1. If the role is to be backfilled, on the Planned Personnel sheet, create a new row and enter in the role details of the termed team member. Populate the “Hire Status” field with Backfill and ensure you have entered this into the same level (department) that the termed team member was in. For the headcount name, use “TBH-” + First Initial + Last Name (e.g. for Joe Bloggs backfill, “TBH-JBloggs”) so it can be easily identified as the backfill role for that team member and assist with headcount management processes.
 
-#### Promotions (same job family), salary increases, new hiring managers/etc
+### Promotions (same job family), salary increases, new hiring managers/etc
 
 1. When a team member gets promoted into the same job family, has a salary change, a new hiring manager, etc., the new information is overwritten on the existing entry field for that headcount in the Active Personnel sheet. The intention is to keep the Active Personnel sheet list as concise as possible.
     - E.g. A Financial Analyst is promoted to a Senior Financial Analyst - overwrite the Job Title field with the new role name and update any other relevant fields.
@@ -217,7 +217,7 @@ For headcount moves when a team member is transferred between departments and th
 1. Stay on the Active Personnel sheet and create a new entry/row in the level which matches the department the team member is moving to, and enter the internal transfer headcount details.
 1. In the Planned Personnel sheet, create a new row and populate the details of the original position. For the headcount name, use “TBH-” + First Initial + Last Name (e.g. for Joe Bloggs backfill, “TBH-JBloggs”) so it can be easily identified as the backfill role for that team member and assist with headcount management processes.
 
-#### Internal hire (no backfill)
+### Internal hire (no backfill)
 
 For internal headcount moves when there is an unknown candidate and no new position - e.g. 1 Manager role promotion available to replace 1 of 3 Analysts roles -  no visibility of who will get promoted and the analyst position will not be backfilled. This process is required in order for the talent acquisition team to be able to create a record in Greenhouse using a GHP ID that will be generated from the placeholder entry.
 

@@ -508,7 +508,7 @@ Having run several global-focused virtual events, the GitLab team has some [best
 
 As part of the event planning and execution process at GitLab, the event lead will ensure that diversity, inclusion, and belonging initiatives are taken into consideration throughout the entire event process.
 
-#### Content Creation
+### Content Creation
 
 The planning committee will ensure that there is an inclusive environment when selecting CFP/keynote/speakers which aligns with [GitLab's event requirements for speaking](/handbook/marketing/corporate-communications/speaking-resources/#event-requirements).
 This includes researching and sourcing for speakers from [underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) and with various backgrounds including:
@@ -522,7 +522,7 @@ This includes researching and sourcing for speakers from [underrepresented group
 * Sexual respect
 * LGBTQIA+ identity
 
-#### Venue/Vendor/Supplier Selection
+### Venue/Vendor/Supplier Selection
 
 When working with a vendor or supplier, the team will ensure that the selected venue/vendor/supplier is supportive of GitLab’s DIB values. These may include, but are not limited to the following:
 
@@ -532,7 +532,7 @@ When working with a vendor or supplier, the team will ensure that the selected v
 * Avoid any religious and cultural days of observance
 * Partner with venues that have all-gendered restrooms or are willing to designate specific restrooms as gender neutral, as well as setting up any additional designated rooms as needed (i.e. lactation room, prayer room, etc.)
 
-#### GitLab Hosted Events Best Practices
+### GitLab Hosted Events Best Practices
 
 * During registration, when applicable, include questions about dietary needs and accessibility needs.
 * Ensure there is reserved seating available who may need/request for it (i.e. pregnant attendees, attendees with disabilities, older attendees, etc.).

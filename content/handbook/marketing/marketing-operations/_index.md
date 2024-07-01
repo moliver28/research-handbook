@@ -48,7 +48,7 @@ Marketing Operations (MktgOps) supports the marketing organization to streamline
   </div>
 </div>
 
-#### Handbook Updates
+### Handbook Updates
 
 When making an update to a handbook page for `ABM`, `FMM`, `MOps`, or `SDR` handbook pages (or sub-pages), we have a Zapier workflow set up that will push the MR (upon merge) to the related Slack channel to ensure our teams are aware of any change that is made to the page. In order for the merged MR to show up in the respective Slack channel, you must add one of the following corresponding `labels` on the MR. Slack updates will also trigger for MktgOps MRs when created.
 

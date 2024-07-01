@@ -31,7 +31,7 @@ Given the close collaboration between the PS Project Management and PS Operation
 
 #### Collaboration Space Guidelines
 
-1. Create Project in Gitlab.com using CPR (Customer Project requirements) _new steps to CPR coming soon_
+1. Create Project in Gitlab.com using CP (Customer Project requirements) _new steps to CP coming soon_
    * Create sub group with customer name under [Gitlab Professional Services Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services) if staffed internally or [Gitlab Partner Collaboration Group](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-partner-collaboration) if staffed fully or partially with partners
    * Create a blank project under your new subgroup with SOW-<sow_number>
    * Add epics for each activity including labels: “PM::name” “PSD Workflow::Not Started” “SOW-00”. Issues will be created at a later stage by the technical team under the right epic
@@ -142,13 +142,13 @@ Forecast allocations impact PS revenue forecast and team members availability, u
 
 ### Deliver, Train, and Monitor
 
-1. PM to manage within Gitlab.com Customer Requirements Project (CPR)
+1. PM to manage within Gitlab.com Customer Project (CP)
    1. Tracking & Reporting on Project Status (with our Customers)
       * _coming soon_
    1. Tracking Risk (with our Customer) through the RAID issue
       * The RAID, Risks, Actions, Issues, and Decisions is our way to ensure a single source of truth for project risk & resolution
       * It is where our internal project stakeholders and leadership can reference the latest project information when the project is trending or sitting in a Y/R health status
-      * The RAID is automatically created when the PM creates the CPR template. First step is to rename template “RAID - Customer - SOW/PO#
+      * The RAID is automatically created when the PM creates the CP template. First step is to rename template “RAID - Customer - SOW/PO#
       * While the RAID is created, managed, and reported by the PM, **the internal team is encouraged to be updated the RAID as we work through Project challenges and mitigations**
       * [Example](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/southwest/sow-2206/-/issues/8)
    1. [Reporting on Risk via RAID](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Escalated&first_page_size=20)

@@ -127,7 +127,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>
 
-[Arturo Herrero](https://gitlab.com/arturoherrero)
+[Sissi Yao](https://gitlab.com/sissiyao)
 
 </td>
 <td>Tenant Scale Engineering Manager</td>

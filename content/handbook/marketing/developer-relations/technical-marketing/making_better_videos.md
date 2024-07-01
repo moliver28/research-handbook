@@ -7,16 +7,16 @@ title: "Making Better Videos"
 
 This page displays information and useful links on creating great technical videos.
 
-#### Equipment
+### Equipment
 
 * [Yeti Microphone](https://www.bluedesigns.com/products/yeti/])
 
-#### Tools
+### Tools
 
 * [iMovie](https://www.apple.com/imovie/)
 * [Final Cut Pro](https://www.apple.com/final-cut-pro/)
 
-#### Planning
+### Planning
 
 Before starting to record a video, a few things must be planned out:
 
@@ -26,7 +26,7 @@ Before starting to record a video, a few things must be planned out:
 * Think of what is necessary for the video
 * a demo environment where the value of the technical compenent can be properly displayed.
 
-#### Video Length
+### Video Length
 
 * [Why Short-Form Video Needs to Be Part of Your Content Strategy](https://www.entrepreneur.com/article/308684)
 * [How Many of These Video Marketing Mistakes Are You Making?](https://www.entrepreneur.com/article/293275)
@@ -39,7 +39,7 @@ Before starting to record a video, a few things must be planned out:
    > * Give your marketing video the right length. Just for you to know, 160 scripted words in English represents around one minute of video. You will then need 240 words for a 90- second video.
 * [How Long Should Videos Be? The Ultimate Guide to Video Length](https://www.vidyard.com/blog/video-length/)
 
-#### Production
+### Production
 
 In order to retain the audience, there are a few things that should be done during the production stage.
 [Audience Retention](https://backlinko.com/hub/youtube/retention) can be achieved with the following:
@@ -50,7 +50,7 @@ In order to retain the audience, there are a few things that should be done duri
 * Adding Graphics and Images
 * Cropping out parts of the screen which do not show value and may distract audience
 
-#### Post Production
+### Post Production
 
 Once the video is complete, how it is published is can affect how users react to it. Here are a few items to consider:
 
@@ -59,7 +59,7 @@ Once the video is complete, how it is published is can affect how users react to
 * [Video Tags](https://ahrefs.com/blog/youtube-tags/)
 * [Captions](https://www.boia.org/blog/youtube-closed-captioning-for-accessibility-why-and-how): While YouTube generates automated captions on GitLab videos, AI-generated captions contain errors, especially for technical terms. You should [review and clean up](https://support.google.com/youtube/answer/2734705) captions on your video content.
 
-#### Analytics/Growth
+### Analytics/Growth
 
 * [12 YouTube Analytics Every YouTuber Should Know](https://www.business2community.com/youtube/12-youtube-analytics-every-youtuber-should-know-02206636)
 * [How to Grow Your YouTube Channel in 2020](https://backlinko.com/grow-youtube-channel)

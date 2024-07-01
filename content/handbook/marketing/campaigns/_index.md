@@ -561,7 +561,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 Ideally, campaigns will be agreed at least a quarter in advance to allow for ample planning and execution, prep time with agencies, creative concepting, and communication internally. This is a collaborative effort to deliver a cohesive program.
 
-#### Overall Campaign Steps
+### Overall Campaign Steps
 
 {: #campaign-steps}
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -588,7 +588,7 @@ Ideally, campaigns will be agreed at least a quarter in advance to allow for amp
 
 ***The Campaign Manager of the integrated campaign will create the epic with the following structure - details and links to be added up on creation of documents and timeline defined.***
 
-#### Epic Code
+### Epic Code
 
 {: #epic-code}
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -596,8 +596,8 @@ Ideally, campaigns will be agreed at least a quarter in advance to allow for amp
 ```markdown
 <!-- Name this epic: Name of Campaign [Integrated Campaign] (i.e. Automated Software Delivery [Integrated Campaign]) -->
 
-#### :calendar: [Campaign Execution Timeline >>]() - `to be added once created by Campaign Manager`
-#### :mega: [Slack Channel >>]() `to be added once created by Campaign Manager`
+### :calendar: [Campaign Execution Timeline >>]() - `to be added once created by Campaign Manager`
+### :mega: [Slack Channel >>]() `to be added once created by Campaign Manager`
 
 ## :busts_in_silhouette: Campaign Core Team
 | Primary Stakeholder | Name | Contact |
@@ -674,7 +674,7 @@ Paid Media:
 {: #funnel-crossover-all-remote .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Diagram of sales lead funnel cross-over with all-remote
+### Diagram of sales lead funnel cross-over with all-remote
 
 {: #funnel-crossover-all-remote-diagram}
 <!-- DO NOT CHANGE THIS ANCHOR -->

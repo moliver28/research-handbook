@@ -21,7 +21,7 @@ Effective 2023-07-27, all Australian Team members will be eligible to enroll int
 
 The full plan & extra options pdfs are available when reviewing your options on the GitLab BUPA portal (see below “Enrolling” section).
 
-#### Waiting Periods
+### Waiting Periods
 
 For most services there’s a period of time before coverage for the services on the new policy starts.
 
@@ -126,7 +126,7 @@ With our global team, we strive for a "follow the sun" model for on-call rotatio
 
 Engineers based in Australia who are part of the Development and Infrastructure departments will be eligible for time in lieu after on-call shifts. Time in lieu is time off from work that is granted to team members to work outside of standard working hours (I.E. ordinary hours).
 
-##### How much time in lieu will I receive for volunteering for on-call shifts?
+#### How much time in lieu will I receive for volunteering for on-call shifts?
 
 - 4-hour shift = ½ day time in lieu
 - 8-hour shift = 1 day time in lieu
@@ -136,19 +136,19 @@ For weekend shifts please be particularly mindful about managing your time to **
 
 *Note: The full shift (state of readiness) is compensated by time in lieu - rather than only the "actual time worked"*
 
-##### What should I do when I want to take more time off after an on-call shift?
+#### What should I do when I want to take more time off after an on-call shift?
 
 If you need additional time to ensure a good work/life balance, on top of the time in lieu, you can leverage our Unlimited [PTO policy as described here]({{< ref "paid-time-off#paid-time-off" >}}).
 
-##### When can time in lieu be taken?
+#### When can time in lieu be taken?
 
 Time in lieu should be taken *within 2 weeks after completion of the on-call shift*. We want to ensure that time in lieu is taken close to the on-call shift to ensure that team members have sufficient time to rest.
 
-##### Do all on-call shifts result in time in lieu?
+#### Do all on-call shifts result in time in lieu?
 
 No, only on-call shifts outside of working hours (I.E. weekends, evenings, etc.). *Please note that not all teams require weekend or evening on-call shifts, so this may not be applicable for all.*
 
-##### How do I request time in lieu?
+#### How do I request time in lieu?
 
 Time in lieu should be requested via [Time Off by Deel]({{< ref "paid-time-off#time-off-by-deel" >}}) by selecting the `On-Call Time in Lieu` option.
 
@@ -462,7 +462,7 @@ If it’s impossible to find a replacement and the team member ends up taking th
 
 ## GitLab PTY New Zealand Parental Leave
 
-#### Statutory Leave Entitlement
+### Statutory Leave Entitlement
 
 **Primary Carer Leave**
 
@@ -491,7 +491,7 @@ Partner Leave
 - Partner Leave will run concurrently with GitLab Parental Leave and provide up to 100% of a team member's regular salary for up to 16 weeks.
 - Team members must select `Parental Leave` in Time Off by Deel to ensure that their time off is properly tracked.
 
-#### Applying for Parental Leave in New Zealand
+### Applying for Parental Leave in New Zealand
 
 - To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts.
   - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
@@ -499,7 +499,7 @@ Partner Leave
   - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
 - If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
 
-#### Other Types of Leave
+### Other Types of Leave
 
 <details markdown="1">
 

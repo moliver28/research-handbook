@@ -10,19 +10,19 @@ Data governance in people analytics is essential for several reasons. First, it 
 
 ## Data Governance Elements
 
-#### Data Quality
+### Data Quality
 
 Data quality is critical to the success of people analytics. It involves ensuring that data is accurate, complete, consistent, and timely.
 
-#### Data Security
+### Data Security
 
 Data security is essential to protect the privacy and confidentiality of team member data. It involves implementing measures such as access controls, data encryption, and data masking to prevent unauthorized access to personal and sensitive data.
 
-#### Data Ownership
+### Data Ownership
 
 Data ownership involves defining roles and responsibilities for managing data. It includes identifying data stewards and data custodians and defining their responsibilities for managing data. At GitLab, we use the [Data Champion program](/handbook/business-technology/data-team/direction/data-champion/) as a way to share data ownership between the Functional Teams, in this case the People Analytics team, and the central Data Team.
 
-#### Data Retention
+### Data Retention
 
 Data retention involve defining policies for storing and preserving data. It includes defining retention periods for different types of data and ensuring that data is securely archived when it is no longer needed.
 

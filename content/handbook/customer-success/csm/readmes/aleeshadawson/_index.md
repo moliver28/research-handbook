@@ -38,7 +38,7 @@ I am certainly not without my flaws. Many of them stem from being a perfectionis
 
 If you notice me falling into either of these traps, feel free to call me out on it. I am not trying to silence others; I am just passionate. Sometimes it takes me a long time to realize what I am doing it, so I need help refocusing.
 
-#### Related Links
+### Related Links
 
 - [LinkedIn](https://www.linkedin.com/in/aleesha-moran/)
 - [GitLab](https://gitlab.com/adawson-gitlab)

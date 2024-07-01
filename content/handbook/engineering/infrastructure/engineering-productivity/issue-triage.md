@@ -151,7 +151,7 @@ The presence of these severity labels modifies the standard severity labels(`~"s
 
 (2) - Resolution uses standard work processes, eg. code review. Scheduling is owned by the Product department, within the defined SLO targets.
 
-#### Availability prioritization
+### Availability prioritization
 
 The priority of an availability issue is tied to severity in the following manner:
 

@@ -1,19 +1,12 @@
 ---
-
 title: "Proposed Usecase: Data Science"
 ---
-
-
-
-
-
-
 
 ## The Market Viewpoint
 
 ## Data Science — AKA DataOps, MLOps, etc
 
-#### Common challenges
+### Common challenges
 
 Common challenges in data science are described on the [Data Science with GitLab solution page](https://about.gitlab.com/solutions/data-science/) and generally include being cross-functional, agile, and iterative while unlocking the value in an organization's data. To do this, data teams need to:
 
@@ -26,7 +19,7 @@ Common challenges in data science are described on the [Data Science with GitLab
 
 To be fleshed out as with [other usecases](/handbook/marketing/use-cases/).
 
-#### [Keywords and definitions](./keywords/)
+### [Keywords and definitions](./keywords/)
 
 ## Personas
 

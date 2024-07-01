@@ -142,7 +142,7 @@ Our team hosts the Channel Partner webinar using On24. Details on how this opera
 
 GitLab Marketing Ready partners have access to the proposal-based GitLab Marketing Development Funds (MDF) Program. These funds are intended to support our partners' demand generation efforts.
 
-#### MDF Investment Objectives
+### MDF Investment Objectives
 
 - Demand Generation
       - The objective of these activities is to gain net-new end-user customers for you and GitLab. Examples of eligible activities include seminars, workshops, telemarketing or email marketing campaigns, participation in tradeshows, exhibitions, and direct mail.
@@ -222,12 +222,12 @@ The tool is known as TCMA Demand Generation and it will be known for Partners as
 Partners will have a monthly meeting with the Program’s Manager and receive a customized content calendar that best suits their needs.
 In the Marketing Center, Partners will have access to real time reporting.
 
-##### Key Features
+### Key Features
 
 Social Syndication - SMARTlink technlogy directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
 Lead Management - gives your partners the ability to manage all the leads generated within the TCMA system via our simple dashboard.
 
-##### How to Participate
+#### How to Participate
 
 Reach out to partner-marketing@gitlab.com with the subject line: Partner Concierge Program and we will respond within 1 business day to schedule an introductory meeting.
 

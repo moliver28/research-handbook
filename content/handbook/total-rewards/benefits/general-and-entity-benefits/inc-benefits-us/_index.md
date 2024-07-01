@@ -413,7 +413,7 @@ Dental does not come with individualized insurance cards from Cigna, although yo
 
 When submitting a claim, you can mail it to Cigna Dental PO Box 188037 Chattanooga, TN, 37422 or fax it to 859-550-2662.
 
-#### Dental 2024 Calendar Year Plan
+### Dental 2024 Calendar Year Plan
 
 **Coverages:**
 
@@ -433,7 +433,7 @@ When submitting a claim, you can mail it to Cigna Dental PO Box 188037 Chattanoo
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | DPPO Base | DPPO Buy Up |
 |--------------------------|----|-----|
@@ -462,7 +462,7 @@ Cigna has partnered with EyeMed for their vision plan offerings, you can check c
 
 When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingham, AL 35238 or submit it online using the following instructions:
 
-#### Vision 2024 Calendar Year Plan
+### Vision 2024 Calendar Year Plan
 
 **Coverages:**
 
@@ -481,7 +481,7 @@ When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingha
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
+#### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | Vision Base | Vision Buy Up |
 |--------------------------|------|------|
@@ -508,7 +508,7 @@ GitLab offers company paid basic life and accidental death and dismemberment (AD
 
 Inclusive of the life insuranc policy is [survivor assurance and support](https://drive.google.com/file/d/1Uhh7S9uotOtHxogCh7Z7AmLfgdufLsig/view?usp=sharing)
 
-#### Employee Assistance Program
+### Employee Assistance Program
 
 Under the New York Life Group Benefit, US Team Members also have access to the New York Life Employee Assistance Program. The Program includes:
 
@@ -999,7 +999,7 @@ Information regarding GitLab's Parental Leave policy and how to apply, can be fo
 
 To learn more about State-specific leave laws, please visit the [Leave of Absence - US](/handbook/people-policies/leave-of-absence/us) handbook page.
 
-#### 2024
+### 2024
 
 </details>
 

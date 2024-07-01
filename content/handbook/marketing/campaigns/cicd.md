@@ -214,7 +214,7 @@ Always On Lead Generation:
 
 {: .alert #behind-the-scenes .alert-gitlab-orange}
 <!-- DO NOT CHANGE THIS ANCHOR -->
-#### Campaign Execution Documentation & Resources
+### Campaign Execution Documentation & Resources
 
 {: #campaign-execution .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->

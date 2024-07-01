@@ -20,7 +20,7 @@ One of our CSMs created an [8 minute video](https://youtu.be/yk95b6u26So) (inter
 
 The table below represents the steps a CSM would typically take in Gainsight. Please reference each handbook page for further information.
 
-#### Overview
+### Overview
 
 - [Using Gainsight at GitLab](/handbook/sales/gainsight/)
 - [Gainsight Dashboards](/handbook/customer-success/csm/gainsight/dashboards-overview)

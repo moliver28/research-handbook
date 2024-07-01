@@ -144,7 +144,7 @@ In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/
 
 ![LucidChart Architecture Diagram](https://lucid.app/publicSegments/view/2030e315-de55-481a-b155-851a8dad027c/image.jpeg)
 
-#### How Terraform Environments Work
+### How Terraform Environments Work
 
 - New GitLab Omnibus instance for securely hosting GitLab Terraform (GitOps) projects for all team members when they create a Cloud Account with GitLab Sandbox Cloud.
 - New [GitLab Project templates](https://gitlab.com/gitlab-com/infra-standards/project-templates) with Terraform scaffolding and [easy-to-use Terraform modules](https://gitlab.com/gitlab-com/infra-standards/terraform-modules). We provide the foundation for you to use any of the [Terraform.io Registry providers or modules](https://registry.terraform.io/) with built-in support for the Google Cloud provider.
@@ -152,7 +152,7 @@ In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/
 - We will have additional project templates released throughout the coming months that provide pre-configured environments that you can provision with just a few clicks. This includes [Omnibus/Runner/Cluster all-in-one environments](https://gitlab.com/gitlab-com/infra-standards/terraform-modules/gcp/gitlab-omnibus-sandbox-tf-module), Kubernetes cluster environment, etc. We also have the foundation to be able to explore how to support [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit).
 - You can also easily create additional Terraform projects in the Sandbox Cloud UI for different environments or configurations in the same Cloud Account to allow you to isolate your module/resource configuration based on the use case that you’re experimenting with.
 
-#### How to Create a Terraform Environment
+### How to Create a Terraform Environment
 
 1. Sign into [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud)
 1. Create a Cloud Account in GCP (GCP Project) or navigate to an existing project.
@@ -162,7 +162,7 @@ In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/
     1. Input a name for your environment in the **Environment Name (Alphadash Slug)** text field.
 1. After the Environment is created, click the **View Terraform Configuration** button. This is hosted on a new GitLab instance at [https://gitops.gitlabsandbox.cloud](https://gitops.gitlabsandbox.cloud). Your GitLab instance credentials can be found in the View GitOps Credentials button modal.
 
-#### How to Use Terraform Environments
+### How to Use Terraform Environments
 
 1. Sign into [https://gitops.gitlabsandbox.cloud](https://gitops.gitlabsandbox.cloud) using your generated credentials on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud). Keep in mind that this is `{firstInitial}{lastName}-{hash}` and not your normal GitLab username.
 1. Navigate to the project for the Terraform environment that you just created. You can quickly access the project from the link on the Cloud Account page on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud).

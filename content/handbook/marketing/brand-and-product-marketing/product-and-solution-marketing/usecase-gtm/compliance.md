@@ -1,15 +1,7 @@
 ---
-description: "How GitLab approaches the software compliance solution including messaging and key resources to help marketing and sales."
-
 title: "DevOps Solution Resource: Software Compliance"
+description: "How GitLab approaches the software compliance solution including messaging and key resources to help marketing and sales."
 ---
-
-
-
-
-
-
-
 
 ## Looking for a customer-facing overview of GitLab's Software Compliance capabilities? See the [Compliance Solution](https://about.gitlab.com/solutions/compliance)
 
@@ -17,7 +9,7 @@ title: "DevOps Solution Resource: Software Compliance"
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
-#### Who to contact
+### Who to contact
 
 |     Product Marketing    |    Developer Advocate    |
 | ------------------------ | ------------------------- |

@@ -21,25 +21,25 @@ The Partner Program Manager will be responsible for the design, management & exe
 
 The Associate Partner Program Manager reports to the Senior Director, Partner Programs
 
-#### Job Grade
+### Job Grade
 
 The Associate Partner Program Manager is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 To be defined at time of business need.
 
-#### Requirements
+### Requirements
 
 To be defined at time of business need.
 
 ## Partner Program Manager
 
-#### Job Grade
+### Job Grade
 
 The Partner Program Manager is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 The Partner Program Manager will be responsible for the design, management & execution of GitLab’s Partner Programs. In addition to the partner programs, the Partner Programs Managers will manage deal registration, sales and services engagement and partner success programs.
 
@@ -54,7 +54,7 @@ The Partner Program Manager will be responsible for the design, management & exe
 - Establish and track metrics of the program, run a quarterly compliance process with the Channel & Alliances field.
 - Manage and measure the results of programs.  Iterate to improve.
 
-#### Requirements
+### Requirements
 
 - Bachelor’s degree with demonstrated progressive experience in channel programs.
 - Experience building and managing a partner program, preferably in the DevOps space
@@ -65,11 +65,11 @@ The Partner Program Manager will be responsible for the design, management & exe
 
 ## Senior Partner Program Manager
 
-#### Job Grade
+### Job Grade
 
 The Senior Channel Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 The Sr. Partner Program Manager will be responsible for the design, management & execution of GitLab’s global Partners Partner Programs.
 
@@ -86,7 +86,7 @@ The Sr. Partner Program Manager will be responsible for the design, management &
 - Establish and track metrics of the program, run a quarterly compliance process with the Channel & Alliances field.
 - Lead programs for individual role specific areas of expertise.  These areas of expertise include, SMB / MM segment, partner types (e.g. distributors), communications / portal, regions / emerging markets, etc.
 
-#### Requirements
+### Requirements
 
 - Bachelor’s degree with demonstrated progressive experience in channel programs.
 - Experience building and managing a partner program, preferably in the DevOps space
@@ -97,11 +97,11 @@ The Sr. Partner Program Manager will be responsible for the design, management &
 
 ## Lead Partner Program Manager
 
-#### Job Grade
+### Job Grade
 
 The Lead Partner Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 The Lead Partner Program Manager will set the direction and roadmap for the overall Partner Program.  They will define and lead key initiatives and program changes to increase the program value to partners and GitLab.
 
@@ -118,7 +118,7 @@ The Lead Partner Program Manager will set the direction and roadmap for the over
 - Collect and manage feedback from channel partners into the ongoing roadmap for the Partner Program.
 - Establish and track metrics of the program, run a quarterly compliance process with the Channel & Alliances field.
 
-#### Requirements
+### Requirements
 
 - Bachelor’s degree with demonstrated progressive experience in channel programs.
 - Experience building and managing partner programs, preferably in the DevOps space.  Programs should include incentive, deal registration, MDF, emerging markets and other programs to drive value for partners and GitLab.
@@ -130,25 +130,25 @@ The Lead Partner Program Manager will set the direction and roadmap for the over
 
 ## Manager, Partner Programs
 
-#### Job Grade
+### Job Grade
 
 The Manager, Partner Programs is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 To be defined at time of business need.
 
-#### Requirements
+### Requirements
 
 To be defined at time of business need.
 
 ## Senior Manager, Partner Programs
 
-#### Job Grade
+### Job Grade
 
 The Senior Manager, Partner Programs is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 The Sr. Manager, Partner Programs will manage a team of Partner Program Managers in the development, rollout and execution of partner programs.
 
@@ -167,7 +167,7 @@ The Sr. Manager, Partner Programs will manage a team of Partner Program Managers
 - Collect and manage feedback from channel partners into the ongoing roadmap for the Partner Program.
 - Establish and track metrics of the program, run a quarterly compliance process with the Channel & Alliances field
 
-#### Requirements
+### Requirements
 
 - Bachelor’s degree with demonstrated progressive experience in channel programs.
 - Experience building and managing partner programs, preferably in the DevOps space.  Programs should include incentive, deal registration, MDF, emerging markets and other programs to drive value for partners and GitLab.
@@ -180,11 +180,11 @@ The Sr. Manager, Partner Programs will manage a team of Partner Program Managers
 
 ## Director, Partner Programs
 
-#### Job Grade
+### Job Grade
 
 The Director, Partner Programs is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 The Director, Partner Programs will be responsible for the design, management & execution of Gitlab’s Channel and Alliances Partner Programs. The Director, Partner Programs will manage a team of Partner Program Managers and Sr. Partner Program Managers in developing, enhancing and measuring the performance of deal registration, sales engagement and partner success programs and support partner events. The Director is expected to establish the vision for the overall partner program, align with Sales on program elements and engagement, and develop the overall financial model for the channel in collaboration with Finance. Collaborate across Partner Sales teams to gather requirements for Programs
 
@@ -199,7 +199,7 @@ The Director, Partner Programs will be responsible for the design, management & 
 - Work with Sales leadership to support the partners and overall program in their strategies and plans
 - Recruit and manage team of Lead and Senior Partner Program Managers, establishing team goals, measuring performance and supporting team member career development.
 
-#### Requirements
+### Requirements
 
 - Broad partner experience across programs, operations, marketing and communications
 - Leadership experience in managing program teams and global partner programs
@@ -215,11 +215,11 @@ The Director, Partner Programs will be responsible for the design, management & 
 
 The Senior Director, Channel Program reports to the VP of Global Channels.
 
-#### Job Grade
+### Job Grade
 
 The Senior Director, Partner Programs & Enablement is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 - Recruit, develop and managed Partner Programs team in support of the GitLab partner strategy
 - Responsible for the design, build and management of partner programs to support GitLab Partners sales and services engagement
@@ -232,7 +232,7 @@ The Senior Director, Partner Programs & Enablement is a [grade 11](/handbook/tot
 - Work cross-functionally with leadership from Marketing, Product, Legal and Finance to continue to implement and grow partner programs and ensure alignment across the business
 - Work with partners to solicit feedback on existing programs/processes and implement changes (Partner Advisory Councils, via channel teams, etc)
 
-#### Requirements
+### Requirements
 
 - Prior experience in running Partner Programs, Channel Enablement, Channel Marketing and/or Channel Development in the services/IT space
 - Thrive in a fast-paced, ever-changing environment

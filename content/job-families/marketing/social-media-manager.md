@@ -11,13 +11,13 @@ twitter_creator: "gitlab"
 
 Social Media requires a balance of work behind each of the two words that make up the practice. *Social*, by building trust with our audiences and connecting as personally as appropriate, and *Media*, by scaling our storytelling efforts to brand-level corporate marketing initiatives.
 
-#### The "Social" in Social Media
+### The "Social" in Social Media
 
 The world's best brands feel more like a trusted source of information to their audience than a company. They could even develop friendly relationships with their followers. This is because the world's best brands understand people and weave that understanding into everything they do. Social Media at GitLab is a key part of building GitLab's brand into one that is loved by its audience of developers, remote work pros, and IT folks up and down the ladder.
 
 Social Media at GitLab focuses on understanding people who make up the GitLab community, creating and sharing content over social channels that they'll find valuable, and educating team members in marketing and beyond on social media best practices for brands, personalities, and how we measure success.
 
-#### The "Media" in Social Media
+### The "Media" in Social Media
 
 The world's most renowned brands are perceived to be larger than life. As GitLab scales to new heights, the Social Media team prioritizes opportunities for brand-level storytelling initiatives. By sharing our company values, perspectives on remote work, or leaning into our product's features, we'll help users understand how they feel about GitLab overall.
 
@@ -25,27 +25,27 @@ The world's most renowned brands are perceived to be larger than life. As GitLab
 
 *A sample of how GitLab's core values show up in Social Media:*
 
-##### 🤝 Collaboration
+#### 🤝 Collaboration
 
 Across teams and functions as well as externally with customers, followers, and partners. We are not islands to ourselves and lean on each other to deliver on our work. Do everything as kindly as possible. It's also critical to assume positive intent when working with team members that don't work in social media.
 
-##### 📈 Results
+#### 📈 Results
 
 Make a difference in the hours you planned to work and then do it again next week. Use GitLab to manage your work. Own everything you touch and create a bias for action in social media marketing.
 
-##### ⏱️ Efficiency
+#### ⏱️ Efficiency
 
 Go for the boring solutions when we can't recreate the wheel. Search for the answers you seek in our handbook first. Build repeatable projects in a way that lets others service themselves in the next round.
 
-##### 🌐 Diversity, Inclusion & Belonging
+#### 🌐 Diversity, Inclusion & Belonging
 
 Be comfortable or willing to get comfortable with communication with team members asynchronously. Find a way to include your quirkiness in your work. Consider inclusive language and imagery in everything we promote internally and externally.
 
-##### 👣 Iteration
+#### 👣 Iteration
 
 Don't wait to contribute. Just make a change today. Make progress for our work in minimum viable changes consistently. Remember that all of our work is in draft. We don't do big reveals at GitLab, so be ready to share your rough drafts with everyone throughout the process (This is scary for social media managers, but our team is prepared to help you grow into this practice.)
 
-##### 👁️ Transparency
+#### 👁️ Transparency
 
 Everything is public by default, including our typos, bad takes, and iterations. We strive to be transparent as often and as clearly as possible with each other and our community. Always share the *why* and not just the what. We're practitioners and educators.
 

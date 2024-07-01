@@ -76,7 +76,7 @@ These discussions should take place once a month and after the [360 Feedback](/h
 
 Once you have established the goals you can then create a [career development plan](/handbook/people-group/learning-and-development/#career-mapping-and-development)
 
-#### Why career development for team members is key to being a great leader
+### Why career development for team members is key to being a great leader
 
 Providing team members with a clear path of advancement within the group, department or division that includes career development opportunities is a win-win-win for team members, managers and GitLab.  Team members who are challenged, engaged and who are actively contributing relevant solutions stay with organizations. An engaged workforce allows the department and divisions to meet their current and future needs for talent and skills and increases performance and decreases regrettable attrition.
 
@@ -84,19 +84,19 @@ Please make sure as a manager you have reviewed the [Career Development Section 
 
 There are many reasons that career development conversations are important. Below are a few examples though there are many more reasons.
 
-#### Increase team productivity and performance
+### Increase team productivity and performance
 
 For managers, having career development conversations offers them a chance to help develop team members which then has an impact on the overall organization.  It's a critical skill for those serious about increasing their teams' productivity and performance.  Development conversations will help the group, department, division and GitLab retain great team members, which at the end of the day also contributes to the manager's own success.
 
-#### Build a bench of high contributors
+### Build a bench of high contributors
 
 On top of increasing performance, these career development conversations allow managers to build a bench of top talent contributor and create a succession pipeline.  This will help reduce worries about losing top talent and who the team can turn to for critical tasks.  Good managers know that if you have a strong bench, you have a lot less to worry about.
 
-#### Be a great leader
+### Be a great leader
 
 When it comes down to, it the best managers or leaders — the ones that team members want to have and are happy continue being part of the team.  These are the managers that take an interest in their team members lives and career.  By learning about what your team members wants, what they strive for and by being able to help them drive to their goals, you will build credibility, trust and respect.  This in turns also contributes to your overall success as a manager.
 
-#### Attract, engage and retain top talent
+### Attract, engage and retain top talent
 
 A managers's job is not to just drive to OKRs and performance.  It is also to attract, engage and retain top talent team members and maximize their contribution to the group, department or division.  If you are interested in your team members aspirations, success and what motivates them, you will attract top talent because people will want to work for you.  Once you get great team members on board, you will need a plan to get them and keep them engaged. Career development can be and should be one of the ways you as a manager invest your time and energy to help drive engagement, performance and results.
 

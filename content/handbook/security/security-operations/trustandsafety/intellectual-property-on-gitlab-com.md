@@ -128,11 +128,13 @@ User namespaces can be reassigned if both of the following are true:
 
 - The user's last sign in was at least two years ago.
 - The user is not the sole owner of any active projects.
-- Group namespaces can be reassigned if one of the following is true:
-  - There is no data (no project or project(s) are empty).
-  - The owner's last sign in was at least two years ago.
-  - If the namespace contains data, GitLab Support will attempt to contact the owner over a two-week period before reassigning the namespaces. If the namespace contains no data (empty or no projects) and the owner is inactive, the namespace will be released immediately.
-  - Namespaces associated with unconfirmed accounts over 90 days old are eligible for immediate release. Group namespaces that contain no data and were created more than 6 months ago are likewise eligible for immediate release.
+
+Group namespaces can be reassigned if one of the following is true:
+
+- There is no data (no project or project(s) are empty).
+- The owner's last sign in was at least two years ago.
+- If the namespace contains data, GitLab Support will attempt to contact the owner over a two-week period before reassigning the namespaces. If the namespace contains no data (empty or no projects) and the owner is inactive, the namespace will be released immediately.
+- Namespaces associated with unconfirmed accounts over 90 days old are eligible for immediate release. Group namespaces that contain no data and were created more than 6 months ago are likewise eligible for immediate release.
 
 Account and Group ownership disputes should contact **GitLab Support** to see if namespaces are eligible.
 {{% /details %}}

@@ -470,11 +470,11 @@ The [virtual event calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLm
 
 * This depends on the tool being used. Work with corporate events to determine the best process.
 
-##### Add the conference to the /events page
+#### Add the conference to the /events page
 
 * To add the webcast to the /events page follow this [step by step guide](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents).
 
-##### Set up the event program in Marketo and SFDC
+#### Set up the event program in Marketo and SFDC
 
 Needs updating to be confernece specific:
 
@@ -509,11 +509,11 @@ Needs updating to be confernece specific:
       * Q&A
       * Poll
 
-##### Test your set up
+#### Test your set up
 
 1. Submit a test lead using your gitlab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
 
-##### Sending follow up emails
+#### Sending follow up emails
 
 1. Go to the `No shows` smart campaign and click run once to make sure the no shows get dispositioned into the correct status. Currently, no integrated exists between zoom and Marketo to automatically disposition no shows so they remain in `Registered` status until you run this smart campaign.
 2. Update email `Outbound -attendees` and email `Outbound -no shows` with content with relevant copies related to the webcast.
@@ -521,7 +521,7 @@ Needs updating to be confernece specific:
 4. Approve copy and send samples to the requestor, and the presenter (if different from requestor).
 5. Once you get approval for the sample copy, schedule email sends within follow-up no show and follow-up attended email programs.
 
-##### Converting the event content to an On-Demand gated asset
+#### Converting the event content to an On-Demand gated asset
 
 1. Upload the recording to our main GitLab channel, fill in the title with the event title, and fill in the description with a short paragraph of what the webcast is about. Make sure the video set as `Unlisted` so only people with the URL to the video can find it.
 2. Once the recording has been uploaded, copy the video link on the right.

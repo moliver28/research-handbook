@@ -170,7 +170,7 @@ Every Tuesday, Enterprise Applications Leadership is responsible for:
     - The [Enterprise Applications Portfolio Management tracker](https://docs.google.com/spreadsheets/d/1_GLer7B_2egKnJH5tcZ5ZxGQtyPcZeOrLRhk7SvqMrQ/edit#gid=613831191) and the [Project Weights](/handbook/business-technology/enterprise-applications/#project-weights) will be used to help understand the team capacity.
 - Reviewing the current milestone dashboard to monitor issues and re-prioritize / update milestones as needed.
 
-#### Considerations
+### Considerations
 
 Once the Enterprise Applications Leadership creates the first version of an upcoming milestone, before the milestone begins, input from BSA, FinSys and Integrations team members is required (sync or async) in order to:
 
@@ -248,7 +248,7 @@ Following an activity-based estimate, beginning with the requirements of the pro
 
 ## Issue Labels
 
-#### Prioritization Labels
+### Prioritization Labels
 
 | Priority | Label | For Incidents | For Projects |
 | ------ | ------ | ------ | ------ |
@@ -256,7 +256,7 @@ Following an activity-based estimate, beginning with the requirements of the pro
 | Medium | ~"BT-Priority::2" | - The damage caused by the Incident increases considerably over time.<br> - A single user is affected. | - The project is linked to an OKR in the current or upcoming quarter |
 | Low | ~"BT-Priority::3" | - The damage caused by the Incident only marginally increases over time.<br> - Work that cannot be completed by team member is not time sensitive. | - The project can be completed in our spare time and can be paused for higher priority work |
 
-#### Status Labels
+### Status Labels
 
 | Label | Description |
 | ------ | ------ |
@@ -265,7 +265,7 @@ Following an activity-based estimate, beginning with the requirements of the pro
 | ~"BT::In Progress" | EntApps team is actively working on the issue. |
 | ~"BT::Done" | Issue resolved. |
 
-#### Other Labels
+### Other Labels
 
 | Label | Description |
 | ------ | ------ |

@@ -194,11 +194,11 @@ The standard for working as a team at GitLab is the [Product Development Workflo
 
 It's important to remember that User Experience (UX) does not only relate to visual features or interface design. UX is the intangible design of a strategy that brings us to a solution, so it also refers to the experience of writing code, working with .yml files, designing APIs, working with a CLI, etc. All of those functionalities are meant to be read and used by people. Involving a Product Designer into their planning and development can be highly beneficial. A guide to consider is: anytime a person is interacting with something, there is an opportunity for that interaction to be designed.
 
-##### Assessing user workflows
+#### Assessing user workflows
 
 As the GitLab product matures, we know we must make important workflows easier to use through feedback-loop mechanisms as is captured in the "Improve" section of the [Product Development Flow](/handbook/product-development-flow/#outcomes-and-activities-7). We can use the [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/) and [UX scorecards](/handbook/product/ux/ux-scorecards/) as mechanisms to provide insights into how might be able to improve these user workflows.
 
-##### What if there is a conflict with the product direction plan and solution proposal?
+#### What if there is a conflict with the product direction plan and solution proposal?
 
 For areas with minimal maturity, or low/internal-only adoption, iteration and quickly adapting the product is the priority. In cases where the product experience desired would take longer to implement than required for the current maturity stage, it is advised the Product Manager work with the Product Designer and/or Engineering Manager to scope an iteration plan to ensure the experience is delivered incrementally over time to provide value quickly with quality.
 
@@ -214,7 +214,7 @@ If a quad member remains concerned and in strong disagreement with the decision 
 
 Results are the most important aspect to consider for the business and our users. If there is a perceived risk to potentially harm the business financially, reduce customer satisfaction or value, or lead to legal trouble, teammates are empowered to seek an alternative perspective for the product decision. Within the Product Division, we recommend escalating first to the management layer immediately above where the disagreement is happening for input and further escalating to PLT and ultimately the Chief Product Officer.
 
-##### What if your team doesn't have a designer?
+#### What if your team doesn't have a designer?
 
 Product Designer assignments are listed in the team.yml file. Unfortunately, we are currently unable to assign a dedicated Product Designer for every group. Instead, Product Designers are assigned to the areas of highest business priority and will continue to provide focused support to those priorities throughout the year. Due to the limited capacity, we are also not able to do UX reviews on MRs for groups without a designer.
 

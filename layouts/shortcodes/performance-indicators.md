@@ -71,8 +71,8 @@
 
 {{ partial "performance-indicators/data-def" }}
 
-
 {{- define "kpi" }}
+
 ### {{ .name }}
 
 {{ .definition | markdownify }}
@@ -105,7 +105,7 @@
     {{- partial "performance-indicators/chart" (dict "data" . "open" $open) -}}
   {{- end -}}
   {{- with .tableau_data -}}
-  	{{- partial "performance-indicators/tableau-chart" (dict "data" . "open" $open) -}}
+   {{- partial "performance-indicators/tableau-chart" (dict "data" . "open" $open) -}}
   {{ end }}
 {{- end -}}
 
@@ -113,9 +113,12 @@
 **URL(s):**
 
 {{- range .}}
+
 - [{{.}}]({{.}})
 {{ end }}
 
 {{- end }}
+
 ---
+
 {{- end }}

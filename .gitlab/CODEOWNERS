@@ -186,7 +186,7 @@
 /content/handbook/engineering/infrastructure/core-platform/data_stores/database/ @alexives
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/core-platform/data_stores/search/ @changzhengliu
-/content/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale.md @arturoherrero
+/content/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale.md @sissiyao
 /content/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @cdu1 @plu8
 /content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
@@ -523,6 +523,7 @@
 /content/handbook/security/threat-management/ @smanzuik @estrike
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/security-operations/red-team/ @cmoberly
+/content/handbook/security/security-operations/threat-intelligence/ @cmoberly
 /content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/chief-information-security-officer.md @joshlemos @fofungwu @robin @fofungwu @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 

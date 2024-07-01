@@ -18,7 +18,7 @@ As per
 > determine if a macro should be applied. Agents evaluate tickets and apply
 > macros manually as needed.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -110,7 +110,7 @@ three vertical dots at right-hand side of the macro, and click `Delete`. This
 will cause a pop-up modal to appear asking you to confirm the action. Click blue
 `Delete macro` button to do so.
 
-## Troubleshotting
+### Troubleshotting
 
 #### Pipeline error "No managed content file"
 
@@ -168,7 +168,7 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 

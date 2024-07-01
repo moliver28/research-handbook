@@ -153,7 +153,7 @@ The Corporate Finance team leads the LRO refresh and updates in collaboration wi
 
 ## Business Planning
 
-#### Business Planning Goal
+### Business Planning Goal
 
 For GitLab’s top growth drivers and new products, drive and document alignment between contributors to success. Writing a business plan drives clarity of thought and operations. Agree on governance models to manage initiative success and cross-functional accountability. At a minimum, each business plan should cover:
 
@@ -161,7 +161,7 @@ For GitLab’s top growth drivers and new products, drive and document alignment
 - Identify how each function will support its success, what are dependencies & risks.
 - Identify how we measure success, e.g. pipeline or bookings goals.
 
-#### Business Planning Details
+### Business Planning Details
 
 - **Product plan** - what are product features to ship, by when? What is committed and what is at risk? What are competitive considerations? If there are phases, what is in scope for each phase?
 - **Pricing plan** - what is the pricing strategy, what are open decisions, what is the margin structure?
@@ -171,7 +171,7 @@ For GitLab’s top growth drivers and new products, drive and document alignment
 - **Operational plan** - what infrastructure do we need (fulfillment, IT, rev rec, legal, security, etc.)
 - **Financial plan** - gross margin and contribution to P&L, if applicable
 
-#### Key Contributors
+### Key Contributors
 
 - Driver: FP&A
 - Contributors
@@ -183,7 +183,7 @@ For GitLab’s top growth drivers and new products, drive and document alignment
 - Approvers / Informed:
   - CFO, CRO, CMO, CPO, eGroup
 
-#### Review and Governance
+### Review and Governance
 
 - Contributors (above) agree on business plan and review with eGroup members for feedback. Include proposed measurement plan (e.g. bookings or pipeline goals)
 - On a defined cadence (monthly or other), review product accomplishments vs. plan
@@ -204,24 +204,24 @@ GitLab’s FP&A team participates in a rigorous monthly close process.
 
 ### Key Definitions
 
-##### Actuals
+#### Actuals
 
 - **What**: Actuals are results that have been reported or exist in a system that is designated as a single source of truth for the item that is being measured. Each month accounting closes the month and financial results are recorded in our ERP system and are published in our financial statements. These actuals are compared to the Plan and our forecasts.
 
-##### Forecast at `FYyyyy-mm`
+#### Forecast at `FYyyyy-mm`
 
 - **Purpose**: In a dynamic high-growth business, GitLab's needs may change through the year and we need to be able to predict what is going to happen.
 - **What**: Forecast is a dynamic assessment based on current expectations of financial performance. The FP&A team will publish a monthly forecast for revenue driven by bookings and other key inputs and expenses driven by headcount and vendor spend. A monthly forecast does not extend the forecast period. For example in March 2020, the forecast will span from February 2020 to January 2021 with February actuals and a forecast for the period March 2020 to January 2021 — this will be called the (1+11) forecast.
 - **Governance**: The Forecast at `FYyyyy-mm` is approved by the Head of FP&A and reviewed with the CFO.
 - Note: Prior to locking and archiving any version in Adaptive, Corporate FP&A will update the FX rates in Adaptive using [Google Finance FX Rates](https://docs.google.com/spreadsheets/d/1ksPKt2TN2WGu1uFVkSb6fSkMmNHJdL-ZFZmfgT-ePEg/edit#gid=0).
 
-##### Forecast at `FYyy-Qx`
+#### Forecast at `FYyy-Qx`
 
 - **Purpose**: In a dynamic high-growth business, GitLab's needs may change through the year and we need a guidepost to hold business leaders accountable. We plan our expenses at a high level (e-group) and we expect this group to make prioritizations and trade-offs while remaining accountable against the plan parameters. By formally reforecasting quarterly, we can quickly evaluate and incorporate new initiatives into our forecasting model. That being said, we do follow an annual plan to set our goals and measurement for our top-level targets of revenue, profitability and expense management and ensure we continue to  meet any public guidance previously communicated
 - **What**: Forecast at `FYyy-Qx` is a dynamic assessment based on current expectations of financial performance. The (3+9), (6+6), and (9+3) quarterly forecasts include revenue driven by bookings and other key inputs and expenses driven by headcount and vendors.
 - **Governance**: The quarterly forecast is approved by the Head of FP&A and reviewed with the CFO. It is then reviewed with eGroup and the board of directors. eGroup will be held accountable to the quarterly forecast for expenses.
 
-##### Forecast Snapshots in Months 2-3 of each Fiscal Quarter
+#### Forecast Snapshots in Months 2-3 of each Fiscal Quarter
 
 - **Purpose**: As a public company, GitLab needs to maintain a pulse on the P&L and key financial metrics. As a fiscal quarter develops, the snapshots inform the CFO and e-Group of our latest forecast and any adjustments from the previous snapshot view.
 - **Cadence**:
@@ -234,7 +234,7 @@ GitLab’s FP&A team participates in a rigorous monthly close process.
 
 These dates are based on an 8-day accounting close. Corporate FP&A will confirm the close date with the accounting team and update the FP&A Close calendar in Google accordingly. For FY23, the target is to close by WD 5 with full consolidation (including tax entries, eliminations) by WD 10.
 
-##### Close timeline
+#### Close timeline
 
 - WD -3: AP Closed.
 - WD -2: All accruals and JEs are due from FP&A
@@ -247,7 +247,7 @@ These dates are based on an 8-day accounting close. Corporate FP&A will confirm 
 - WD 8-9: FP&A review of AvF complete
 - WD 9: Adaptive forecast locked
 
-##### Other Key Dates
+#### Other Key Dates
 
 - Day 8: Snapshot ARR, customer count, net retention (note this is captured on Day 8, not WD 8)
 - 2nd Tuesday every month: Variance deck shell distributed
@@ -255,7 +255,7 @@ These dates are based on an 8-day accounting close. Corporate FP&A will confirm 
 - 3rd Thursday every month: CFO Variance meeting, with distro to FP&A Slack channel 24 hours before
 - After accounting close: Revenue Committee Sync meeting between CEO, CRO, and CFO.
 
-##### Accounting close expectations for FBPs
+#### Accounting close expectations for FBPs
 
 - FBPs will obtain a daily report with open invoices/POs from Misty and drive obtaining the required approvals and invoices from respective business partners.
 - If you have questions for AP GL team, please ask in the [#fpa-ap-gl-collaboration](https://gitlab.slack.com/archives/C017VQ3G7V4) channel.

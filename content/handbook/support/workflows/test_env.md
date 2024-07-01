@@ -559,7 +559,7 @@ Once installed, use `multipass help` to get an idea of what it can do. The gener
 
 ## Creating GitLab test instance
 
-#### Creating settings variables
+### Creating settings variables
 
 ```sh
 export SSH_PORT=2222
@@ -569,7 +569,7 @@ export ENV_NAME=gitlab-test-env
 export CONTAINER_NAME=gitlab-test-11.9
 ```
 
-#### Create new docker host
+### Create new docker host
 
 This command will create a new VirtualBox virtual machine called `gitlab-test-env` that will act as a docker host.
 

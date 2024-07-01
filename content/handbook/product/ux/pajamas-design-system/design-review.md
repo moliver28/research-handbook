@@ -85,7 +85,7 @@ To help track progress, we encourage trainees to make the traineeship one of the
 
 See the [Pajamas maintainer ratio dashboard (internal)](https://10az.online.tableau.com/t/gitlab/views/UXPajamasMaintainers/PajamasDesignSystem?:origin=card_share_link&:embed=n).
 
-##### Current trainee maintainers
+#### Current trainee maintainers
 
 | Project                                | Trainee                                       | Support Maintainer                                 |
 | -------------------------------------- | --------------------------------------------- | -------------------------------------------------- |

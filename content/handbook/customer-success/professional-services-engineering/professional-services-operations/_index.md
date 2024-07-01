@@ -16,7 +16,7 @@ Professional Services Operations is a collaboration of our consulting, training,
 
 ---
 
-#### How to contact us
+### How to contact us
 
 Our [Team Slack Channels](/handbook/customer-success/professional-services-engineering/working-with/#slack)
 
@@ -24,7 +24,7 @@ The Project Coordinators can be reached by tagging the group `@ps-scheduling`
 
 ---
 
-#### Who we are
+### Who we are
 
 [Internal Page](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home#link-professional-services-operations-useful-reference-pages)
 
@@ -32,7 +32,7 @@ The Project Coordinators can be reached by tagging the group `@ps-scheduling`
 
 ## Project Coordination- Consulting
 
-#### Consulting Project Scheduling
+### Consulting Project Scheduling
 
 [Lead Time for Professional Services Engagement](/handbook/customer-success/professional-services-engineering/working-with/#lead-time-for-starting-a-professional-services-engagement)
 
@@ -40,11 +40,11 @@ The Project Coordinators can be reached by tagging the group `@ps-scheduling`
 
 If project work is required to start the project prior to the opportunity booking, then the [Work At Risk Process](/handbook/customer-success/professional-services-engineering/project-mgmt/#work-at-risk) would need to be followed and approved.
 
-#### Customer Consulting Project Scheduling
+### Customer Consulting Project Scheduling
 
 The consulting operations team has a [board](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/boards/3487648?label_name[]=pc-consulting-checklist) to track the scheduling progress of the consulting projects.  There is a [checklist](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/pc-consulting-checklist.md) that is utilized to track the progress of each project as we work through Kantata project set up, project team assignment and partner paperwork. There is also a [Project Scheduling Intake Issue](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/blob/master/.gitlab/issue_templates/SchedulingPreparation.md) in which we request information pertinent to the scheduling process.
 
-#### Scheduling Request for Consulting Projects
+### Scheduling Request for Consulting Projects
 
 We do understand we may have circumstances to plan for a project before a SF Stage 5, but we would like to have most of the information met prior to contacting PS Operations.
 
@@ -61,7 +61,7 @@ We do understand we may have circumstances to plan for a project before a SF Sta
 
 For staffing requirements or questions, add the details to the Project Scheduling Intake Issue and tag the assigned Project Coordinator.  If there is not a Project Coordinator assigned, tag the Operations Manager for assistance and assignment will be completed at that time. Moving forward, the Project Scheduling Intake Issue will house all information and discussions regarding scheduling. The PC Checklist will only be used internally by the Project Coordinator.
 
-##### Internal Project Scheduling
+#### Internal Project Scheduling
 
 If a Team Member would like to have time blocked on their schedule to allow time for non-customer project related items, certifications, or ramp up,
 a request should be submitted via a comment and tag the PC on either Internal Projects:
@@ -140,13 +140,13 @@ The PM sends out the request for acceptance to the customer and then updates the
 
 ## Project Coordination- Training
 
-#### Training Planning and Scheduling
+### Training Planning and Scheduling
 
 Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home#calendar_spiral-training-operations) for more information.
 
 ---
 
-#### Training Projects Billing Guidelines
+### Training Projects Billing Guidelines
 
 Training billing is outlined in each customer SOW or Order Form.  The current billing terms that Professional Services follows is the following:
 
@@ -155,21 +155,21 @@ Training billing is outlined in each customer SOW or Order Form.  The current bi
 
 Passive acceptance of 5 days is included in the SOW unless different terms are negotiated by the customer and approved by the Director of Professional Services.
 
-#### Training Projects Revenue Forecasting Guidelines
+### Training Projects Revenue Forecasting Guidelines
 
-Training revenue release is followed dependant on training billing type:
+Training revenue release is followed dependent on training billing type:
 
 - Billed upon SOW
   - Once each training class is complete and roster is received
 - Order Form execution billing terms
   - Once each training class is complete and roster is received
 
-#### How To Forecast Revenue Training Projects
+### How To Forecast Revenue Training Projects
 
 Training projects are typically considered fixed priced projects and are forecasted by the project milestones in the Kantata project.  Each milestone includes tasks for each training course that are used to capture training preparation/planning/closeout and delivery hours.  Each task is updated with the correct due date for the activities in the milestone.  Best practice is to ensure that the task due dates are updated to accurately reflect training completion dates for forecasting purposes.
 If there is not confidence that the activities will be complete, then the task due date should be moved out to the next quarter.
 
-#### Revenue Release Training Projects
+### Revenue Release Training Projects
 
 For training projects, revenue is released when training is complete and/or when acceptance is received dependant on the project SOW language.
 If required per the project SOW, the PC sends the request for acceptance to the customer and then updates the Billing/ Revenue Milestone in Kantata
@@ -184,13 +184,13 @@ If required per the project SOW, the PC sends the request for acceptance to the 
 
 ## Operations
 
-#### New Hire
+### New Hire
 
 When there is a new team member on the PS Team.  We have some training and process links to review:
 
 [New Hire Review](https://docs.google.com/spreadsheets/d/1ejvLWFPdRflzCkIhiDgcfU_B9I01ViPtwxmd30sTsIQ/edit#gid=714939102)
 
-#### Kantata Access
+### Kantata Access
 
 To provide Kantata access to an internal GitLab team members, provide access by the following:
 
@@ -216,7 +216,7 @@ To provide Kantata access to an internal GitLab team members, provide access by 
   - Request Okta
   - Request Kantata to be added to Okta
 
-#### Time Tracking
+### Time Tracking
 
 Accurate time tracking records of hours is essential to ensure revenue can be recognized based upon percentage completion of a project scope as outlined in a Statement of Work ("SOW"), and this data is used in the calculation of gross margin. Key points for time tracking include:
 

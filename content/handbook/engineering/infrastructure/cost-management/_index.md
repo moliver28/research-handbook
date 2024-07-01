@@ -64,7 +64,7 @@ We maintain a list of vendors/[coupa renewal](/handbook/business-technology/ente
 
 ## <i class="fas fa-bullhorn fa-fw" style="color: rgb(107, 79, 187); font-size: 0.85em; --darkreader-inline-color:#785fc1;" data-darkreader-inline-color=""></i>Contact Us
 
-#### <i class="fab fa-slack fa-fw" style="color: rgb(252, 109, 38); font-size: 0.85em; --darkreader-inline-color:#fc7735;" data-darkreader-inline-color=""></i>Slack
+### <i class="fab fa-slack fa-fw" style="color: rgb(252, 109, 38); font-size: 0.85em; --darkreader-inline-color:#fc7735;" data-darkreader-inline-color=""></i>Slack
 
 - [#infrafin](https://gitlab.slack.com/messages/infrafin/) is the primary channel for all of GitLab communication in topics that are discussing hosting costs
 - [#eng-data-kpi](https://gitlab.slack.com/messages/eng-data-kpi/) is the primary channel for high priority requests or questions related to engineering KPIs or RPIs

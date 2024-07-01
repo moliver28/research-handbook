@@ -436,18 +436,18 @@ Runs automatically when MR is merged or closed. Do not run manually.
 
 All the below run against the Prod DB using the changes provided in the repo. No cloning is needed to run the below.
 
-#### `🧠 all_tests_prod`
+### `🧠 all_tests_prod`
 
 Runs through all tests in the analytics & data tests repo.
 
-#### `💾 data_tests_prod`
+### `💾 data_tests_prod`
 
 Runs through all the data tests in the analytics & data tests repo's.
 
-#### `schema_tests_prod`
+### `schema_tests_prod`
 
 Runs through all the schema tests in the analytics & data tests repo's.
 
-#### `specify_tests_prod`
+### `specify_tests_prod`
 
 Runs specified model tests with the variable `DBT_MODELS`

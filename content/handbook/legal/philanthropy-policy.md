@@ -36,17 +36,17 @@ Please note that the decision and criteria to support Registered Nonprofit Organ
 
 ### How we support
 
-##### 1. Monetary
+#### 1. Monetary
 
 GitLab anticipates contributing financially to Registered Nonprofit Organizations. GitLab endeavors to build long-term partnerships with community organizations and avoid a transactional approach to its corporate giving.
 
-##### 2. In-kind product donation
+#### 2. In-kind product donation
 
 GitLab anticipates donating up to 5,000 seats annually to Registered Nonprofit Organizations. Interested Registered Nonprofit Organizations will be required to apply and will be vetted for registration and standing status. Licenses will be donated on a first come first serve basis in this first iteration. The number of seats to be donated within a fiscal year will be reviewed annually by the ESG Team,  the FP&A Business Partner, and Chief Legal Officer.
 
 Please see GitLab’s [Trade Compliance Policy Handbook](/handbook/legal/trade-compliance/) for a list of embargoed countries. Registered Nonprofit Organizations in embargoed countries are not eligible for the in-kind donation program.
 
-##### 3. Volunteerism and team member engagement
+#### 3. Volunteerism and team member engagement
 
 GitLab encourages team members to get involved in the causes they care about. From time to time GitLab’s ESG or [Diversity, Inclusion and Belonging](/handbook/company/culture/inclusion/) (DIB) Teams may organize company-wide volunteer events and may include a volunteer component at GitLab-sponsored events, where applicable. GitLab team members and [team member resource groups](/handbook/company/culture/inclusion/erg-guide/) (TMRGs) can suggest organizations to support through volunteerism.
 

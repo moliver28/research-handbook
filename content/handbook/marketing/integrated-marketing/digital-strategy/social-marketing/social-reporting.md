@@ -30,7 +30,7 @@ For GitLab Team Members only
 
 [Check out the FY23 OKR Epic here](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/184){:.btn .btn-purple-inv}
 
-##### Reporting changes in FY23
+### Reporting changes in FY23
 
 - Reordering metrics based on priority
   - Engagement, Engagement Rate, Clicks (most important 3 metrics)
@@ -41,11 +41,11 @@ For GitLab Team Members only
 
 ### Engagement
 
-##### Engagements
+#### Engagements
 
 The number of times that users took action on our posts during the reporting period. This includes likes, retweets, comments, saves, replies, reactions, and shares. Does not include quote retweets. These actions are not weighed equally, and over time we'll be developing a unique and proprietary reporting method for engagements.
 
-##### Engagement Rate
+#### Engagement Rate
 
 The number of times during a reporting period that users engaged with our posts as a percentage of impressions. This metric indicates how engaging particular content or campaigns are overall. Engagement rate has been a pillar in social reporting for a decade, and is most closely tied to content quality.
 
@@ -147,7 +147,7 @@ Tag use in Sprout is the core mechanism we use to develop reports on social medi
 All tags, except campaign tags, can be used together and often should be included together. This means you may be using more than one pillar or type tag.
 {: .alert .alert-success}
 
-###### Sprout tag use examples
+### Sprout tag use examples
 
 - Promoting REMOTE event with a highlight video and registration link
   - use: Pillar: All Remote, Type: Link, Type: Video, Campaign: REMOTE event

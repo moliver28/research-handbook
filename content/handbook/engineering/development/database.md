@@ -44,12 +44,12 @@ If you're interested in participating in database reviews, please start by revie
 
 ## Recommended links and reference materials
 
-##### GitLab resources
+### GitLab resources
 
 * Database Office Hours are bi-weekly and can be found on the [GitLab Team Meetings Calendar](/handbook/tools-and-tips/#gitlab-team-meetings-calendar)
 * Database Office Hours playlist on GitLab Unfiltered under the [Database Office Hours Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kp-kqXeiF7fF7cFYaKtdqXM)
 
-##### Books
+### Books
 
 *(In no particular order.)*
 
@@ -59,7 +59,7 @@ If you're interested in participating in database reviews, please start by revie
 * Dimitri Fontaine: "[The Art of PostgreSQL](https://theartofpostgresql.com/)" - [Virtual training is available for GitLab team members.](https://gitlab.com/gitlab-org/database-team/team-tasks/-/issues/23)
 * Alex Petrov: "[Database Internals](https://www.databass.dev/)"
 
-##### Other resources
+### Other resources
 
 * [Official PostgreSQL mailinglists](https://www.postgresql.org/list/), particularly `pgsql-general`
 * [Postgres Weekly](https://postgresweekly.com)

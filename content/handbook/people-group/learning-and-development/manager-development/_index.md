@@ -49,17 +49,17 @@ If you have questions as you work your way through this checklist please ask the
 
 An important task is to create a retrospective thread within the Becoming a GitLab Manager issue, so that the team member can log any questions, comments, proposals and more about their issue. Retrospectives are used in many ways at GitLab, like after a GitLab product [release]({{< ref "communication#release-retrospectives-and-kickoffs" >}}) based on the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Becoming a GitLab Manager issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Feel free to please ask any questions in the [#managers](https://gitlab.slack.com/messages/C5Z55R5J5/details/) Slack channel.
 
-#### Coaching remote work practices
+### Coaching remote work practices
 
 Do not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to [coach]({{< ref "coaching" >}}) their reports to utilize [asyncronous communication](/handbook/company/culture/all-remote/management/#asynchronous), be [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), design an [optimal workspace](/handbook/company/culture/all-remote/workspace/), and understand the importance of [self-learning and self-service](/handbook/company/culture/all-remote/self-service/).
 
 Leaders should ensure that new remote hires read a [getting started guide](/handbook/company/culture/all-remote/getting-started/), and make themselves available to answer questions throughout one's journey with the company.
 
-#### Create a personalized learning pathway
+### Create a personalized learning pathway
 
 Take a moment to reflect on where you are in this transition. Then use this [google form](https://forms.gle/WUpxZNG2VcYFQLon9) to add your thoughts about the challenges you face, how you plan to overcome them, and what resources you have found helpful so far. The Learning and Development team will review this feedback to personalize your development pathway as a manager at GitLab. This may include developing custom training modules, pairing you with a mentor, or providing you with opportunities to practice skills.
 
-#### Participate in the Elevate program
+### Participate in the Elevate program
 
 [Elevate]({{< ref "elevate-programs" >}}) equips new and existing managers with a set of skills to managing all-remote teams. The program covers foundational management practices. One of the key benefits of the program is networking and social learning. You will learn from other managers and build a sense of community across people leaders at GitLab.
 

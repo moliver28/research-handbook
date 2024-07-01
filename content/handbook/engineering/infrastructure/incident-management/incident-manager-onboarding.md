@@ -143,15 +143,7 @@ Four day shifts mean that, at the most, a Team Member participating in an Incide
 ### How are Incident Managers scheduled?
 
 Because new incident managers are being added to the rotation on an ongoing basis, schedules for upcoming months are not final and will shift as folks are added or removed from the rotation.
-
-1. Around the 1st Tuesday of each month:
-
-   - The coordinator will review any open [~IM-Onboarding::Ready issues](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=closed_at_desc&state=opened&label_name%5B%5D=IM-Onboarding%3A%3AReady&first_page_size=20) since the previous scheduling cycle and add these team members to the schedule. Changes will be made to take effect at the beginning of the second full month after the current day. For example, if the current day is Jan 5, the shift changes will be make to go into effect during the first week of March.
-   - The coordinator will review any **open** Incident Manager offboarding issues and remove these team members from the schedule moving forward. They will be notified in their offboarding issues confirming their removal from PagerDuty and the offboarding issue will be closed by the coordinator.
-
-1. An announcement will be posted in [`#imoc_general`](https://gitlab.slack.com/archives/C01NY82EJF6) indicating that the schedule has been modified. Team members who have pre-existing overrides after the modified date (March in the example above) will be notified.
-
-Based on the process above, scheduled incident managers will have approximately 7 weeks time before the scheduled changes to trade their shifts if needed.
+See [the Incident Manager Coordinator responsibilities](/handbook/engineering/infrastructure/incident-management/#incident-manager-coordinator) for details.
 
 ### Can I shift my Incident Manager On Call days around?
 

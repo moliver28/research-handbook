@@ -769,7 +769,7 @@ The program will run for a total of **8** weeks;  each week focusing on a new to
 | 7 | Recruiting and Interviewing | How Diversity, Inclusion and Belonging is essential to building a world class team. A recruiter’s point of view on how to attract top talent. Review and discuss our Commercial interview methodology. Discuss what questions and activities ensure our interview process is inclusive and legal |
 | 8 |Components of an Effective Pipe Generation Campaign| Review the primary reasons consistent pipe gen campaigns are needed for sustainable growth. Key components of an effective pipeline campaign. How to launch, reinforce, measure and recognize for effective results. |
 
-#### Expectations of Participants
+### Expectations of Participants
 
 - Time Committment: A total of ~40 hours of dedicated time during the quarter between synchronous meetings and asynchronous work.
 

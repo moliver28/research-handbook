@@ -594,7 +594,7 @@ On your new hire's first day, the assigned People Connect Team member will [sche
 
 ### Manager Onboarding Checklist
 
-##### Prior to Day 1
+#### Prior to Day 1
 
 - Complete ‘Manager’ tasks on the onboarding issue *Note: there are tasks to complete prior to your new hire starting
 - Schedule a welcome call at the start of your new hire’s first day to discuss:
@@ -604,7 +604,7 @@ On your new hire's first day, the assigned People Connect Team member will [sche
   - You will receive numerous emails in their first two weeks asking you to register or activate your license to a specific tool we use, please go ahead and do all of this.
   - What you can expect in regards to [onboarding at GitLab as an SDR](/handbook/marketing/sales-development/sdr-playbook-onboarding/)
 
-##### After new hire has started
+#### After new hire has started
 
 - Complete remaining ‘Manager’ tasks on the onboarding issue
 - Set up [1:1s](/handbook/leadership/1-1/)

@@ -41,7 +41,7 @@ The Cash Management job family will focus on leading and enhancing day-to-day ca
 - Ability to both grow in the role and grow with the company, demonstrating leadership capabilities and upward progression.  Viewed as the DRI on all cash/stock/debt issues and processes.
 - Ability to use GitLab
 
-#### Job Grade
+## Job Grade
 
 The Vice President, Cash Management is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

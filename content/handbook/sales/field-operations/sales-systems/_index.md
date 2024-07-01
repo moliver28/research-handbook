@@ -67,7 +67,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 4. Please review the status of any issue on our agile [board.](https://gitlab.com/groups/gitlab-com/-/boards/1117318?label_name[]=SalesSystems)
 5. If there is a severity impacting the flow of business (i.e. No one can make a quote, No accounts are being created, Opportunities cannot be closed Won) follow the process as described above as well as share the issues in the `Sales-Support` Slack Channel
 
-## Sales Systems Issue Deployment & Compliance Steps
+### Sales Systems Issue Deployment & Compliance Steps
 
  In order to deploy & close an issue the checklist below has to be signed off :
 
@@ -83,7 +83,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 | Team / Lane                 | Main Approver                                                | Backup Approver                                                 |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Quote To Cash               | Director, Quote to Cash                     | Senior Director, Sales Operations                |
+| Quote To Cash               | Director, Quote to Cash                     | Senior Director, Sales Strategy & Analytics                |
 | Territory Management        | Director, Sales Operations                  | Senior Director, Sales Operations                |
 | Partner Operations          | Sales Operations                            | Sales Operations                                 |
 | Customer Success Operations | Senior Director, CS Strategy & Operations   | VP of Field Operations                           |

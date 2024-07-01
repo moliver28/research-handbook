@@ -119,7 +119,7 @@ Overview of the steps involved with creating a patch release:
 
 - [Diagram source](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
-Details of the patch release lifecycle can be found on the [patch release section]
+Details of the patch release lifecycle can be found on the [patch release section]((/handbook/engineering/releases/patch_releases/#planned-patch-release-process)
 
 ### Patch release information dashboard
 
@@ -142,7 +142,7 @@ For information on backports, visit the [backports page](/handbook/engineering/r
 
 The release process has a few labels of specific importance.
 
-#### Delivery impact labels
+### Delivery impact labels
 
 Incidents may optionally have a `Delivery impact:*` label to indicate the impact the incident has when active. This label is intended to help with prioritizing between multiple incidents.
 
@@ -188,7 +188,7 @@ guarantees on creation timing. This will depend on factors such as:
 
 - Any incidents on GitLab.com that are or have been going on in the run-up to
   the release.
-- Any (critical) [security releases](https://about.gitlab.com/handbook/engineering/releases/security-releases/) that require the attention of release
+- Any (critical) [patch releases](/handbook/engineering/releases/patch-releases) that require the attention of release
   managers.
 - Any issues with our auto-deployment pipelines.
 - Other release related work that may delay or prevent the creation of a release
@@ -242,7 +242,7 @@ The different processes are documented here:
   - [Unplanned critical Patch releases](/handbook/engineering/releases/patch_releases/#unplanned-critical-patch-release-process)
 - GitLab.com releases:
   - [Auto-deploy releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/auto-deploy.md)
-  - [Hot patch]
+  - [Hot patch](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/post-deployment-patches.md)
 
 ### How can I get a high severity bug fix released?
 

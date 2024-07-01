@@ -68,11 +68,11 @@ To find our stable counterparts, look at the Pipeline Authoring [product categor
   {{< tableau/filters "GROUP_LABEL"="pipeline authoring" >}}
 {{< /tableau >}}
 
-#### Cross-functional prioritisation
+### Cross-functional prioritisation
 
 UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation.
 
-#### Design Collaboration
+### Design Collaboration
 
 We hold a bi-weekly design sync meeting open to all team members where we discuss any design-related topic.
 

@@ -13,7 +13,7 @@ GitLab Inc. (collectively with its subsidiaries, “GitLab”, “we”, “our�
 GitLab has established whistleblower reporting channels and policies (internally accessible only)* to enable the reporting of any known or suspected improper activities that are unlawful or otherwise violate our policies so that we can investigate and resolve potential violations as quickly and efficiently as possible. You are encouraged to use the reporting channels provided, the details of which are set out in each policy and are also [set out in the Handbook](/handbook/people-group/#how-to-report-violations), to report all known or suspected improper activities, noting that each is designed to facilitate confidential, or in some cases anonymous, options for reporting any improper activities.
 In addition to our [GitLab Inc. policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk), additional policies for certain EU countries are accessible below. The GitLab Inc. policy will apply, unless a country-specific policy applies to an individual (because they are employed by the GitLab entity in that country). If the protections are greater than what is offered in the GitLab Inc. policy, then the country-specific policy will apply.
 
-#### Country-specific Whistleblower Policies
+### Country-specific Whistleblower Policies
 
 - [Germany Whistleblower Policy](https://drive.google.com/drive/folders/1fPDwVJUaUZwLqW7ov_WJ0mbK9Tcncyy2?usp=drive_link)
 - [Ireland Protected Disclosure Policy](https://drive.google.com/drive/folders/1e3EisOUPDKGh4XgjpwOOkrnvW2X8WdAK?usp=drive_link)

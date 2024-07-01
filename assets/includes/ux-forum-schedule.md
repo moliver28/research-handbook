@@ -1,7 +1,6 @@
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-06-26 | Michael Le                 | Libor Vanc             | Bonnie Tsang           |                        |
-| 2024-07-03 | Taurie Davis         | Tim Noah               | Austin Regnery         | Graham Bachelder       |
+| 2024-07-10 | Taurie Davis         | Tim Noah               | Austin Regnery         | Graham Bachelder       |
 | 2024-07-24 | Rayana Verissimo     | Mike Nichols           | Gina Doyle             |                        |
 | 2024-08-07 | Jacki Bauer          | Michael Fangman        | Ian Gloude             |                        |
 | 2024-08-21 | Justin Mandell       | Chad Lavimoniere       | Dan Mizzi-Harris       | Ilonah Pelaez          |

@@ -192,7 +192,7 @@ Below are a couple of tips for team members who may have received a significant 
 - Try to complete feedback for 1 or 2 people a day, versus waiting until the last minute. Spending 10-20 minutes a day on this can make thinking through and writing the feedback process less overwhelming. For those that may have a significant number of review requests.
 - If you receive an overwhelming amount of feedback requests, prioritize the requests based on the team members you work most closely with (I.E. the people you feel you can provide the most meaningful and holistic feedback to). Feedback is a gift and you should try to provide meaningful feedback to as many requesters as possible, but be mindful of your own bandwidth as well. Start with your core group, and expand from there as capacity allows.
 
-##### Managing Feedback Requests
+#### Managing Feedback Requests
 
 If you feel overwhelmed by the number of team members that have requested feedback from you, keep in mind that you are providing your team members with a gift: the ability to learn and grow from the feedback they receive.
 

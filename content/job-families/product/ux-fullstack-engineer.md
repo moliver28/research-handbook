@@ -35,7 +35,7 @@ Fullstack engineers work across the front- and backend of the GitLab documentati
 - Ability to use GitLab
 - Ability to thrive in a fully remote organization
 
-#### Nice-to-haves
+### Nice-to-haves
 
 - Experience working with modern frontend frameworks (eg. React, Vue.js, Angular)
 - Experience in a peak performance organization, preferably a tech startup

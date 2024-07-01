@@ -13,7 +13,7 @@ Information about SIRT responsibilities and incident ownership is available in t
 
 ## Scope
 
-#### Incident Identification
+### Incident Identification
 
 Security incident investigations are initiated when a security event has been detected on [GitLab.com](https://www.gitlab.com) or as part of the GitLab company. These investigations are handled with the same level of urgency and priority regardless of whether it's a single user or multiple projects.
 

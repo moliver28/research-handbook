@@ -345,7 +345,7 @@ To create a new offer template or update an existing one in Greenhouse, follow t
 
 This can be done by Enablement only. For instructions, see the [internal handbook](https://internal.gitlab.com/handbook/people-group/talent-acquisition/enablement-team/#greenhouse-admin-instructions) for more information.
 
-##### Approval flows
+#### Approval flows
 
 For **requisition "Job" Approvals**, the approval chain is as follows:
 

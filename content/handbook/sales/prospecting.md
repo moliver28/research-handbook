@@ -135,14 +135,14 @@ Holding hurts our prospective customers because while they’re sitting there, t
 - [Effective discovery handbook page](/handbook/sales/playbook/discovery/)
 - [Most common customer use cases handbook page](/handbook/marketing/use-cases/)
 
-#### Training
+### Training
 
 - [Pipeline Generation at GitLab](https://gitlab.edcast.com/pathways/pipeline-generation-at-gitlab) (GitLab Learn - EdCast, 35 minutes)
 - [Effective discovery course](https://gitlab.edcast.com/insights/ECL-c0a6e34d-a997-4200-b0d9-65e3305e3761) (GitLab Learn - EdCast, 40 minutes)
 - [Demystifying the metrics conversation](/handbook/sales/command-of-the-message/metrics/#embrace-your-role-as-the-trusted-advisor) (Nico Ochoa video, 10 minutes)
 - [Pipeline Generation - Leading with Insights](https://www.youtube.com/watch?v=fNiGq5uOxgo) (GitLab Unfiltered, Nov 2019, 10 minutes)
 
-#### Support
+### Support
 
 - [Field Marketing events and support](/handbook/marketing/field-marketing/#types-of-programs-field-marketing-runs)
 - [Compete support](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/#account-specific-support) and [Competition Slack channel](https://gitlab.slack.com/archives/C1BBL1V3K)
@@ -154,7 +154,7 @@ Holding hurts our prospective customers because while they’re sitting there, t
 - Find a partner in the [GitLab Partner Directory](https://partners.gitlab.com/English/directory/)
 - Register a deal [with our technology partners](/handbook/resellers/#deal-registration-instructions)
 
-#### Tools
+### Tools
 
 The toolkit above will be your main resource and contains things like a sequencing template for you to copy and modify for your own pipeline generation activities. It also includes the resources below which we’ve described here for easier access. To explore additional tools available, check out [our tech stack page.](/handbook/business-technology/tech-stack)
 

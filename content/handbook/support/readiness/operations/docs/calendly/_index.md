@@ -23,7 +23,7 @@ baseline entitlement for the rest of GitLab. As such, non-support users
 requesting access to this must submit an access request and it must be reviewed
 and approved by a Support Operations Manager.
 
-#### Adding a user
+### Adding a user
 
 To add a new user, you simply invite them to Calendly via the
 [Admin Management page](https://calendly.com/app/organization/users). On that
@@ -34,7 +34,7 @@ types to add to the user's profile. As we don't do this by default, simply click
 the blue `Finish` button. After doing so, the user(s) will be invited to join
 the Calendly under our paid subscription.
 
-#### Changing roles
+### Changing roles
 
 To change a role of a user, locate the user on the
 [Admin Management page](https://calendly.com/app/organization/users) and click
@@ -43,7 +43,7 @@ the `Change Role` button. Doing so will open a new box with a dropdown
 containing a list of all roles. Simply select the new role to use and then click
 the blue `Apply` button.
 
-#### Removing a user
+### Removing a user
 
 To remove a user, locate the user on the
 [Admin Management page](https://calendly.com/app/organization/users) and click
@@ -64,7 +64,7 @@ Ops, this is normally the
 On this page, you can do several things, such as creating managing event types
 and adding/removing members.
 
-#### Adding a member
+### Adding a member
 
 To add a member to a team, click the gear icon to the right of the
 `+ New Event Type`. Doing so will open a sub-menu with several options. The one
@@ -77,7 +77,7 @@ so will add them to the list of team members. Unless the user is going to manage
 Calendly, leave the `can manage team` box unchecked. Once you are done there,
 click the blue `Save` button at the bottom of the page.
 
-#### Removing a member
+### Removing a member
 
 To remove a member from a team, click the gear icon to the right of the
 `+ New Event Type`. Doing so will open a sub-menu with several options. The one
@@ -144,11 +144,11 @@ icon in the top-right of the box. After doing so, click the `Edit` option in the
 sub-menu. Doing so will open the event type editor. From here, there are a lot
 of options that can be edited.
 
-#### What event is this
+### What event is this
 
 Here you can edit the event's name, description, link, and color.
 
-#### When can people book this event
+### When can people book this event
 
 If you had to pick one section to deem the most complicated part of event types,
 this would be it. Here you determine:
@@ -168,7 +168,7 @@ Due to the complexity of this section, I highly recommend watching the above
 linked video. This section often needs to be tweaked and can be daunting if you
 are not familiar with doing so.
 
-#### Team members and locations
+### Team members and locations
 
 Here you will determine who is involved in the event type and the default
 location the will use. Any team member who could be selected for a meeting
@@ -177,7 +177,7 @@ always be Zoom.
 
 While you can set priority for event booking, we do not by default.
 
-#### Invitee Questions
+### Invitee Questions
 
 Here you can customize the questions asked when a user tries to create an
 event. What exactly goes here will vary based on use case, but some good
@@ -190,7 +190,7 @@ questions to have in there might be:
 As it will vary based on the event itself, your judgement will be the best guide
 on what to put here.
 
-#### Notifications and Cancellation Policy
+### Notifications and Cancellation Policy
 
 Here you can edit the notifications and cancellation policy. By default, we do
 not customize this option. It should default to
@@ -213,7 +213,7 @@ via their Calendly links to populate specific team-wide calendars instead of
 just their own. To accomplish this, we have setup a combination of Calendly
 webhooks and our own GitLab CI/CD.
 
-#### CI/CD Project
+### CI/CD Project
 
 Creating the webhook is part of this, but ideally before you actually do so, you
 need something to *process* the payload Calendly would send. For this, we opt to
@@ -235,7 +235,7 @@ explaination of it would be:
    create a Google Calendar event
 1. The script creates the Google Calendar event
 
-#### Calendly Webhooks
+### Calendly Webhooks
 
 The first step of this is making a Calendly webhook to send a payload to our
 chosen destination (our [CI/CD Project](#cicd-project) in this case). This can
@@ -342,7 +342,7 @@ The response you get back from this need to be verified, but it should mirror a
 lot of the information you just used in your parameters. Once you have verified
 it all looks correct, the webhook is live.
 
-#### Need a list of all Calendly webhooks?
+### Need a list of all Calendly webhooks?
 
 No worries, it happens from time to time. To do this, you will want to use the
 [List Webhook Subscriptions](https://developer.calendly.com/api-docs/faac832d7c57d-list-webhook-subscriptions)

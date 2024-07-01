@@ -91,7 +91,7 @@ For each feedback issue labeled "satisfaction::good":
 
 **Note:** After 7 days of inactivity, the GitLab Support Bot closes "satisfaction::good" issues.
 
-#### Sharing positive feedback in Support Week in Review (SWIR)
+### Sharing positive feedback in Support Week in Review (SWIR)
 
 To share positive feedback in the Support Week in Review, each week an issue will be created in the [Support Week In Review Tracker](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues) and tagged with `~"SWIR::SSAT"`.
 If you're the SSAT Reviewing manager it should be assigned to you automatically, but you can also [search for the label](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/-/issues?label_name%5B%5D=SWIR%3A%3ASSAT).
@@ -108,7 +108,7 @@ When selecting feedback to share, you don't need to share every piece of positiv
 1. If there are general sentiments or themes, feel free to congratulate the whole team. For example, if we were praised for our overall approach to support, speed, clarity, etc.
 1. Is the feedback **definitely** positive?  Sometimes comments in positive feedback can be neutral or even negative. For example "I would have liked a quicker response", or "I was satisfied" are valuable to us, but they don't really encourage the team when shared in the SWIR.
 
-#### Formatting feedback in SWIR issue
+### Formatting feedback in SWIR issue
 
 When adding the comment to the SSAT issue in the `support-week-in-review` tracker, feel free to use markdown formatting. If you wish to use headers (`#`) please
 
@@ -117,7 +117,7 @@ When adding the comment to the SSAT issue in the `support-week-in-review` tracke
 
 Generally, include the ticket number with a link to the ticket, the comment from the customer, and where applicable @ mention the person (or people) who primarily worked the ticket.
 
-#### Automatically collecting positive feedback
+### Automatically collecting positive feedback
 
 The [`populate_ssat` job](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review/#populate_ssat) in the `support-week-in-review` tracker will automatically collect open issues labeled with `~"satisfaction::good"` and append a nicely formatted version to the open SSAT issue.
 

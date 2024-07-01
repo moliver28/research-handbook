@@ -582,7 +582,7 @@ There are two lookback mapping models:
 - flex_cud_lookback: applies the P&L split retroactively to the Flex CUD SKUs in the same perimeter
 - t2d_cud_lookback: applies the P&L split retroactively to the T2D CUD SKUs in the same perimeter
 
-##### Links
+#### Links
 
 - [Flex CUD Lookback](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.flex_cud_lookback)
 - [Flex CUD Lookback](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.t2d_cud_lookback)

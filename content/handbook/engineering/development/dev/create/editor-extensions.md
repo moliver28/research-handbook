@@ -143,7 +143,7 @@ This will increase collaboration, team resiliency, and provide opportunities for
 This section contains links to make it easier to find the same information for each extension.
 This is a first iteration, this content should probably live somewhere else eventually.
 
-#### Languages supported by Code Suggestions
+### Languages supported by Code Suggestions
 
 Each extension defines an array of supported languages.
 
@@ -152,7 +152,7 @@ Each extension defines an array of supported languages.
 - JetBrains: [SUPPORTED_EXTENSIONS](https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin/-/blob/ec5b239e6dea3714139031a4d6a9a547142afffc/src/main/kotlin/com/gitlab/plugin/util/GitLabUtil.kt#L20-43)
 - Neovim: [auto_filetypes](https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim/-/blob/5b781dffbd047df7050064ad3255154ecef2524c/lua/gitlab/config/defaults.lua#L7-28)
 
-#### Language Server versions in use
+### Language Server versions in use
 
 - Visual Studio: the server binary is versioned directly: [GitLab.Extension/Resources/gitlab-lsp-win-x64.exe](https://gitlab.com/gitlab-org/editor-extensions/gitlab-visual-studio-extension/-/blob/a973ef56bac290ed0c2c5c69d20c5606a7198125/GitLab.Extension/Resources/gitlab-lsp-win-x64.exe)
 - VS Code: the server is pulled as a package: [package.json](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/package.json)

@@ -63,11 +63,11 @@ We are innovative, strategic, and data-driven, delivering a cohesive high qualit
 
 ## Regional Marketing
 
-#### Field Marketing
+### Field Marketing
 
 [Field Marketing](/handbook/marketing/field-marketing/): Be the feet on the street, creating local and regional experiences, learning and evangelism in close partnership with Sales.
 
-#### Channel Marketing
+### Channel Marketing
 
 [Channel](/handbook/marketing/channel-marketing/): Exponentially grow GitLab’s reach through the ecosystem to build awareness and generate demand.
 

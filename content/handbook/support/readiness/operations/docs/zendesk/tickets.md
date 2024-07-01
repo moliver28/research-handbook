@@ -129,7 +129,7 @@ At GitLab, we define them a bit differently:
 The process to manually create a ticket depends largely on the type of ticket it
 is.
 
-#### Creating tickets on behalf of customers
+### Creating tickets on behalf of customers
 
 When creating a ticket on behalf of a customer, you have to use the Zendesk
 Super App to do so (namely the `Create new ticket` plugin). You can find more
@@ -141,7 +141,7 @@ information on this via the following documentation pages:
 **Note** This should never be used for outbound requests.
 [See below](#creating-tickets-for-outbound-requests) for more info for those.
 
-#### Creating tickets for outbound requests
+### Creating tickets for outbound requests
 
 **Warning** This often requires the ability to *create users* in Zendesk, which
 is only available on specific roles i.e. CMOCs. That access is *very* risky and
@@ -204,12 +204,12 @@ As the ticket settings changes are unique in deployment, please see
 [Zendesk settings change management](/handbook/support/readiness/operations/docs/change_management#zendesk-settings-change-management)
 for more information.
 
-#### Labels to use
+### Labels to use
 
 For all issues and MRs involving Zendesk settings, the label
 `Support-Ops-Category::Zendesk Settings` should be used.
 
-#### Change criticality
+### Change criticality
 
 Due to wildly varying nature and impact adding/editing/deleting Zendesk
 settings can impose, all issues/MRs related to Zendesk organizations need

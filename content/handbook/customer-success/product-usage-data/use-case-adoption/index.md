@@ -89,7 +89,7 @@ Adoption timeline: 1 months after license purchase
 | --------------------- |-------|-------| ---------- | --------  |
 | Git Operation Utilization % | [`Git Operations - Users L28D`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20210216182040_action_monthly_active_users_project_repo.yml) ÷ [`Billable Users`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/license/20210531204603_license_billable_users.yml) | <25%    | ≥25 - <50%     | ≥50%    |
 
-##### **Green Adoption Criteria:**
+#### **Green Adoption Criteria:**
 
 When 50% or more Billable Users have triggered any Git Operation (Read/Write/Push) in the last 28 days, then SCM is considered adopted.
 
@@ -102,7 +102,7 @@ Adoption timeline: 1 months after license purchase.
 |---|---|---|---|---|
 | CI Pipeline Utilization % | [CI Pipelines - User L28D](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20210216175554_ci_pipelines.yml) ÷ [Billable Users](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/license/20210531204603_license_billable_users.yml) | <25% | ≥25% - <50% | ≥50% |
 
-##### **Green Adoption Criteria:**
+#### **Green Adoption Criteria:**
 
 When 50% or more of unique `Billable Users` have triggered a distinct `CI Pipeline` in the last 28 days, then CI is considered adopted.
 
@@ -116,7 +116,7 @@ These Security (DevSecOps) metrics are **only** available for [Ultimate customer
 | Avg. Scan per CI Pipeline | [Secret Detection](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210830231956_secret_detection_scans.yml) + [Dependency Scan](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210216183828_dependency_scanning_scans.yml) + [Container Scan](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210830231849_container_scanning_scans.yml) + [SAST](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210830231329_sast_scans.yml) + [DAST](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210216183832_dast_scans.yml) + [Coverage Fuzzing](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210216183836_coverage_fuzzing_scans.yml) + [API Fuzzing](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210216183838_api_fuzzing_scans.yml) ÷ [CI Internal Pipelines - L28D](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20230217215050_ci_internal_pipelines.yml) | <0.1 | ≥0.1 - ≤0.5 | >0.5 |
 | Number of Scanners in Use | SUM of [Secret Detection](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210830231956_secret_detection_scans.yml) + [Dependency Scan](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210216183828_dependency_scanning_scans.yml) + [Container Scan](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210830231849_container_scanning_scans.yml) + [SAST](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210830231329_sast_scans.yml) + [DAST](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210216183832_dast_scans.yml) + [Coverage Fuzzing](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210216183836_coverage_fuzzing_scans.yml) + [API Fuzzing](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/counts_28d/20210216183838_api_fuzzing_scans.yml) | ≤1 | 2 | ≥3 |
 
-##### **Green Adoption Criteria:**
+#### **Green Adoption Criteria:**
 
 Due to equal weighting and Gainsight's defined scoring ranges, two (2) of the three measure groups have to be Green and one (1) measure group can be Yellow/Green for an overall Green Security (DevSecOps) score
 
@@ -131,7 +131,7 @@ Adoption timeline: 1 months after license purchase
 | Deployments Per User L28D | [Deployments L28D (event)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20210201124930_deployments.yml) ÷ [Billable Users](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/config/metrics/license/20210531204603_license_billable_users.yml) | <2 | 2 - 7 | >7 |
 | Successful Deployments % | [Successful Deployments - L28D](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20210216181923_successful_deployments.yml) ÷ (Successful + [Failed Deployments - L28D](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/metrics/counts_28d/20210216181924_failed_deployments.yml)) | <25% | 25% - 80% | >80% |
 
-##### **Green Adoption Criteria:**
+#### **Green Adoption Criteria:**
 
 Due to equal weighting and Gainsight's defined scoring ranges, two (2) of the three measure groups have to be Green and one (1) measure group can be Yellow/Green for an overall Green CD score
 
@@ -168,7 +168,7 @@ Use this chart to understand how many use cases each of your customers have adop
 <summary> Gainsight calculation rules
 </summary>
 
-##### Calculation of use case adoption counts for SCM, CI, CD and Security (DevSecOps)
+### Calculation of use case adoption counts for SCM, CI, CD and Security (DevSecOps)
 
 Gainsight Rules mark boolean fields as true on `Company` object for accounts with green scores. These boolean fields are named SCM Adoption, CI Adoption, CD Adoption and Security (DevSecOps) Adoption.
 

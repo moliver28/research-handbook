@@ -6,18 +6,18 @@ You understand that setting a foundation for healthy growth in a fast-paced comp
 
 ## Responsibilities
 
-#### Marketing technology
+### Marketing technology
 
 - Learning tools that marketing has in place to act as backup on various systems as needed
 - Providing oversight on GitLab issue boards - building weekly standup issues, creating biweekly milestone issues to ensure handbook updates are completed, documenting minutes from meetings, and ensuring labels exist on all Marketing issues
 
-#### Marketing data stewardship
+### Marketing data stewardship
 
 - Assisting with data cleanliness in the various systems, merging like records, researching causes of bugs in order to correct processes
 - Cleansing, enriching and uploading prospect lists from various events
 - Building smart lists in Marketo to aid in geographic and account based marketing efforts
 
-#### Marketing analysis
+### Marketing analysis
 
 - Providing support to team with ad hoc analysis and/ or the underlying data as needed
 

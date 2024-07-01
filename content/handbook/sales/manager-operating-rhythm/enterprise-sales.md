@@ -53,11 +53,11 @@ High-level account plans are often shared using a [strategic account plan templa
 
 ## Reviews and consults
 
-#### Quarterly Business Reviews (QBRs)
+### Quarterly Business Reviews (QBRs)
 
 [QBRs](/handbook/sales/qbrs/#best-practices-for-rdsasmssalsaes) happen during the first two weeks of each quarter for the previous quarter. Preparation usually starts about two weeks before that. QBR decks are stored in our [Google Drive (GitLab internal only)](https://drive.google.com/drive/u/0/folders/1QAWFYxT2-NzWpOUodepbl0O6zfsMxJGL).
 
-#### Account reviews
+### Account reviews
 
 Initially, ASMs and CSM Managers may want or need to partner on scheduling and facilitating these reviews, but regular account reviews should eventually become part of an account team's normal operating rhythm. See [Coaching Account Planning for ASMs](/handbook/sales/account-planning/coaching/) for additional guidance.
 
@@ -147,7 +147,7 @@ ASMs routinely participate in sales calls with their new AEs or with AEs working
 - Participating on the call
 - Debriefing immediately after the call
 
-#### Team assessment
+### Team assessment
 
 Last but not least, ASMs also assess their teams annually following the [Performance / Growth Matrix](/handbook/people-group/talent-assessment/).
 
@@ -162,7 +162,7 @@ All team members go through an onboarding journey by segment and role. [View the
 
 ASMs should work with new AEs to develop and monitor progress against their 30/60/90 day plan, set clear performance expectations, and provide regular feedback during the onboarding process.
 
-#### Key activities for managers during team onboarding
+### Key activities for managers during team onboarding
 
 - Support your ramping AE. ASMs should encourage new AEs to complete “red dot” tasks in their general GitLab onboarding issue, bookmark and organize key resources, complete their role-speific onboarding, and prioritize peer-to-peer shadowing of customers calls.
 - Connect the dots. Encourage your new hires to speak up or ask for help when and if they need it. Pair them with an onboarding buddy to support their first 90 days, and point them to the right resource and team when they’re not sure where to find something.

@@ -74,7 +74,7 @@ You can learn more about our approach on the [Secure Vision](https://about.gitla
 The features provided by the Secure Team are mostly present at the pipeline level, and mostly available as [Docker](https://www.docker.com/) images.
 This particularity shapes our processes and QA, which differs a bit from the other backend teams.
 
-#### Security Products
+### Security Products
 
 We still refer to "*Security Products*" as the tools developed by the Secure Team. Hence the home of our projects in GitLab: [https://gitlab.com/gitlab-org/security-products/](https://gitlab.com/gitlab-org/security-products/).
 
@@ -84,44 +84,44 @@ While [UX inconsistencies are considered as bugs](/handbook/engineering/infrastr
 we rely on individual teams to make smart decisions about when consistency is important and when divergence makes more sense
 — either because the divergence itself creates a better experience or because of velocity considerations.
 
-#### Domains of Expertise
+### Domains of Expertise
 
-##### SAST
+#### SAST
 
 [SAST](https://docs.gitlab.com/ee/user/application_security/sast/) (*Static Application Security Testing*) refers to static code analysis.
 GitLab leverages the power of various opensource tools to provide a wide range of checks for many languages and support.
 These tools are wrapped inside docker images which ensure we get a standard output from there.
 An orchestrator, [developed by GitLab](https://gitlab.com/gitlab-org/security-products/sast), is in charge of running these images, and gathering all the data needed to generate the final report.
 
-##### DAST
+#### DAST
 
 [DAST](https://docs.gitlab.com/ee/user/application_security/dast/) (*Dynamic Application Security Testing*) is used to hit a live application.
 Because some vulnerabilities can only be detected once all the code is actually running, this method complements the static code analysis.
 DAST is relying on [OWASP Zed Attack Proxy Project](https://gitlab.com/gitlab-org/security-products/zaproxy), modified by GitLab to enable authentication.
 
-##### Dependency Scanning
+#### Dependency Scanning
 
 [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) is used to detect vulnerabilities introduced by external dependencies in the application.
 Because a large portion of the code shipped to production is actually coming from third-party libraries, it's important to monitor them as well.
 Dependency Scanning is relying mostly on the Gemnasium engine.
 
-##### Fuzz Testing
+#### Fuzz Testing
 
 Coverage-guided fuzzing and API fuzzing are used to automatically input data into applications or web apis that has the potential to cause crashes or bugs. Coverage-guided fuzzing relies on open-sourced [language-specific fuzzers](https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers). API Fuzzing is based on a [proprietary GitLab engine](https://gitlab.com/gitlab-org/security-products/analyzers/api-fuzzing-src).
 
-##### License Compliance
+#### License Compliance
 
 [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html) helps with the licenses introduced by third-party libraries in the application.
 Licence management relies on the [LicenseFinder](https://github.com/pivotal-legacy/LicenseFinder) gem.
 
-##### Vulnerability Research
+#### Vulnerability Research
 
 The [Vulnerability Research](vulnerability-research/) team's purpose is
 to perform research and develop proofs of concepts that increase the
 capabilities and effectiveness of the
 [Secure stage](https://about.gitlab.com/stages-devops-lifecycle/secure/).
 
-#### Label Usage
+### Label Usage
 
 If you are submitting an issue about a Secure Stage feature, use `~devops::secure` and one of the following group labels to get the issue in front of the most appropriate team members.
 
@@ -131,7 +131,7 @@ If you are submitting an issue about a Secure Stage feature, use `~devops::secur
 
 Additional labels should be added according to the [Workflow Labels Documentation](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#workflow-labels).
 
-#### Skills
+### Skills
 
 Because we have a wide range of domains to cover, it requires a lot of different expertises and skills:
 
@@ -148,17 +148,17 @@ Our team also must have a good sense of security, with at least basic skills in 
 
 We provide tools for many different languages (ex: [sast](https://docs.gitlab.com/ee/user/application_security/sast/#supported-languages-and-frameworks), [dependency scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-dependency-managers), [license compliance](https://docs.gitlab.com/ee/user/compliance/license_compliance/index.html#supported-languages-and-package-managers)). It means our team is able to understand the basics of each of these languages, including their package managers. We maintain [tests projects](https://gitlab.com/gitlab-org/security-products/tests) to ensure our features are working release after release for each of them.
 
-#### Release process
+### Release process
 
 See [Versioning and release process](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html).
 
-#### QA process
+### QA process
 
 See [QA Process](qa_process.html) for more info.
 
-#### Vulnerability Management process
+### Vulnerability Management process
 
-##### Automation
+#### Automation
 
 We use the [security-triage-automation](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation) tool in conjunction with [scheduled pipelines in the release project](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/.gitlab/ci/security-triage-automation.yml?ref_type=heads) to handle the following tasks:
 
@@ -173,7 +173,7 @@ Note that we do not yet automatically create security issues for non-FedRAMP vul
 
 Note: Our goal is to centralize automation for vulnerability management in the [Vulnmapper tool in the nearest future](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) and standardize our processes across the company. However, so far we're following the existing process based on the [security-triage-automation tool](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation).
 
-##### Automation failures
+#### Automation failures
 
 It's possible that our security automation tooling may [fail](https://gitlab.com/gitlab-org/security-products/release/-/pipelines?page=1&scope=all&status=failed).
 If this occurs, and the issue cannot be immediately resolved, open an issue to
@@ -223,11 +223,11 @@ To do so, use the following procedure.
 
 </details>
 
-###### FedRAMP vulnerabilities
+##### FedRAMP vulnerabilities
 
 To ensure compliance, the management of FedRAMP vulnerabilities is handled by [automation](#automation). Please check the manual process fallback for additional details.
 
-###### Non-FedRAMP vulnerabilities
+##### Non-FedRAMP vulnerabilities
 
 We do not yet have the same automation in place for non-FedRAMP vulnerabilities since it represents a too important volume to manage for our teams and some necessary [improvements in the vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) are required prior to enabling this.
 In the meantime, we favor a more specialized approach for these vulnerabilities and there is no standardized process across the groups.

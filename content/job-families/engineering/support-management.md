@@ -187,7 +187,7 @@ The US Federal Support Portal is unique in that it is the first restricted suppo
 
 If you look forward to the challenges and opportunities and meet the requirements please apply today!
 
-##### Additional Responsibilities Unique to US Federal Include
+#### Additional Responsibilities Unique to US Federal Include
 
 - Work closely with Public Sector CSM and SAEs in order to adapt to the needs of the unique user base
 - Be responsible for maintaining customer confidentiality and data security when working with cases
@@ -206,7 +206,7 @@ This includes overall supportability of the product and Support’s readiness of
 
 This role also closely interacts with counterparts in Product, Development, QA, UX, Customer Success and Sales, to clearly understand the upcoming release features and enabling the global delivery teams to ensure customer support has the appropriate knowledge and troubleshooting procedures to minimize time to resolution.
 
-###### Additional Responsibilities for Director of Support Readiness
+#### Additional Responsibilities for Director of Support Readiness
 
 - Manage multiple teams and projects affecting consistent global execution
 - Own the support readiness and operations across all products

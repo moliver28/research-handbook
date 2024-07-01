@@ -747,7 +747,7 @@ Below is the information related to Austria's statutory leave policies.  Please 
 
 ### Austria Parental Leave
 
-##### Statutory Maternity Leave
+#### Statutory Maternity Leave
 
 The statutory entitlement for maternity leave (Mutterschaftsurlaub) is 16 weeks. The leave must start **8 weeks prior to the scheduled delivery date**.
 

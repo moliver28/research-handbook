@@ -176,7 +176,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
 
      The triage DRI can create a merge request, assign to any available maintainer, and ping the resolution DRI with a `@username FYI` message.
      Additionally, a message can be posted in `#backend_maintainers` or `#frontend_maintainers` to get a maintainer take a look at the fix ASAP.
-   - If the failures occur only in `test-on-gdk` jobs, it's possible to stop those jobs from being added to new pipelines while the cause is being fixed. See the [runbook](https://gitlab.com/gitlab-org/quality/runbooks/-/tree/main/test-on-gdk#disable-the-e2etest-on-gdk-pipeline) for details.
+   - If the failures occur only in `test-on-gdk` jobs, it's possible to stop those jobs from being added to new pipelines while the cause is being fixed. See the [runbook](https://gitlab.com/gitlab-org/quality/runbooks/-/tree/main/test_on_gdk#disable-the-e2etest-on-gdk-pipeline) for details.
 
 #### Pro-tips for Triage DRI
 
@@ -303,6 +303,7 @@ Next, merge the merge request:
     ["Pipelines must succeed" setting](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html#require-a-successful-pipeline-for-merge)
     for the [`gitlab-org/gitlab` project](https://gitlab.com/gitlab-org/gitlab/edit).
   1. Click the "Merge" button.
+  1. If the merge train is enabled, a warning will be displayed stating the code changes won't be validated by the merge train. Considering the criticality of the merge request it is acceptable to dismiss the warning.
   1. Set the "Pipelines must succeed" setting to be on again.
 
 ### Broken `master` mirrors

@@ -137,7 +137,7 @@ Manage Navan cards and purchase cards under the `Cards` section. Click the `Nava
 
 #### Settings
 
-Use the settings tab to connect your work calendar using the Calendar integration and also add a bank account to receive reimbursements for approved manual transactions.  
+Use the settings tab to connect your work calendar using the Calendar integration and also add a bank account to receive reimbursements for approved manual transactions.
 
 - **Calendar integration**: When enabled, this integration captures information from your calendar about events that are relevant to your card transactions (such as name, location, and participants) and automatically completes transaction details.
 - **Personal cards**: Link your personal payment method(s) to import out-of-pocket expenses or repay your company if a charge made on your Navan card has not been approved.
@@ -398,7 +398,7 @@ Users can itemize their own manual transactions at any time **before they have b
 
 #### Itemizing a manual transaction after expense submission
 
-Manual transactions are automatically approved when submitted if they fall within the parameters of your assigned expense policy and cannot be itemized. If a submitted non-itemized manual transaction has been flagged for review by the system admin for being non-compliant with your assigned expense policy, you will have the opportunity to itemize it before the admin has approved or rejected.  
+Manual transactions are automatically approved when submitted if they fall within the parameters of your assigned expense policy and cannot be itemized. If a submitted non-itemized manual transaction has been flagged for review by the system admin for being non-compliant with your assigned expense policy, you will have the opportunity to itemize it before the admin has approved or rejected.
 
 1. Tap the `Needs your review` tile on the homepage of your Navan Expense app.
 2. Select a transaction.
@@ -607,83 +607,83 @@ The Users tab allow managers to view their direct reports' employee data such as
 
 ## Navan Expense Frequently Asked Questions (FAQ)
 
-#### What happens if I enter incorrect bank account information?
+### What happens if I enter incorrect bank account information?
 
 Account information is validated upon submission. However, we cannot validate that it is the correct account for you. Please ensure that you enter your bank account information correctly. Navan is not liable for money sent to the wrong account.
 
-#### What if I have a bank account transacted in currency outside of those supported?
+### What if I have a bank account transacted in currency outside of those supported?
 
 If your bank account's currency is not currently supported or you wish to not link your bank account for other reasons, you can still receive reimbursements through GitLab's payroll. For details on GitLab's payroll cycle and process, contact the Accounts Payable Team.
 
-#### What if I don't want to link my personal card? How can I make repayments to my company?
+### What if I don't want to link my personal card? How can I make repayments to my company?
 
 If you do not link your personal card to Navan Expense and you owe GitLab a repayment for an expense that was not approved, you will need to connect with the Accounts Payable Team to determine the best method for repayment.
 
-#### In what countries are direct reimbursements available?
+### In what countries are direct reimbursements available?
 
 Please check [this section](/handbook/finance/expenses/#44-reimbursement-payout-timelines) of the Expense handbook page for information on reimbursements and payout timelines.
 
-#### How can I receive my funds if my reimbursement fails?
+### How can I receive my funds if my reimbursement fails?
 
 If your reimbursement fails, unlink, then relink your bank account from the `My reimbursements` tab on your mobile app or the `Settings` tab on the web app. Once relinked, Navan will resend the funds to your bank.
 
-#### Is it required that I include participants on my transactions?
+### Is it required that I include participants on my transactions?
 
 While it is not required, adding participants to your transactions will give your Admin Team a better understanding of cost per person and help provide justification for more costly expenses.
 
-#### If I add colleagues to my transaction as participants, whose policy will be applied?
+### If I add colleagues to my transaction as participants, whose policy will be applied?
 
 Adding participants to a transaction will not affect which policy is applied. Any transactions that you submit, regardless of participants entered, will be subject to the parameters set by your own assigned policies.
 
-#### Is it possible to expense mileage for a round trip drive?
+### Is it possible to expense mileage for a round trip drive?
 
 Yes, simply click on the `+` icon when entering your destinations to add a location.
 
-#### Will I be able to submit for reimbursement in kilometers instead of miles?
+### Will I be able to submit for reimbursement in kilometers instead of miles?
 
 The region assigned to you by your Navan Expense Admin Team will determine if you are able to submit in kilometers or miles. **Note:** If you are a US-based employee using your personal car on an international trip, you will still need to submit your reimbursement request in miles.
 
-#### Can I still submit mileage for travel, without attaching it to a trip booked on Navan?
+### Can I still submit mileage for travel, without attaching it to a trip booked on Navan?
 
 Yes, as long as your assigned expense policy allows for mileage reimbursement.
 
-#### What rideshare applications can Navan connect to?
+### What rideshare applications can Navan connect to?
 
 Navan offers connections with Lyft, Uber, and Grab so you can automatically share your location and destination information to access a ride while traveling.
 
 > Check the *[What rideshare applications can Navan connect to?](https://app.tripactions.com/app/helpcenter/articles/travel/myself/getting-started-for-travelers/rideshare-applications)* article for more details.
 
-#### Can I automatically submit Lyft expenses?
+### Can I automatically submit Lyft expenses?
 
 Navan Expense users can connect their Lyft account to Navan Expense to automatically send receipts and submit expenses for business travel-related Lyft rides. To leverage this option, you will first need to create a Lyft business profile with the same email address you use in Navan.
 
 > Check the *[How can I automatically submit Lyft expenses?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/lyft-expenses)* article for more details.
 
-#### Is there anything I can't do in the web app that I can do in the mobile app?
+### Is there anything I can't do in the web app that I can do in the mobile app?
 
 To view your assigned expense policies or log miles driven for reimbursement, please use the Navan app. These features are not currently available in the web app.
 
-#### Should I add tax details for Navan Expense transactions?
+### Should I add tax details for Navan Expense transactions?
 
 Team members are not required to add tax details to any expense transactions.
 
 > Check the *[How do I add tax information to my transactions?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/tax-details)* article for more details.
 
-#### If I submit multiple receipts at once and everything is auto-approved, are we paid in 1 lump sum or via multiple reimbursements?
+### If I submit multiple receipts at once and everything is auto-approved, are we paid in 1 lump sum or via multiple reimbursements?
 
 A deposit for each transaction will be made into your bank account. If you submit 5 manual expenses, you will receive 5 separate bank deposits for each individual transaction.
 
-#### If my expenses are rejected, can I go back to edit and resubmit?
+### If my expenses are rejected, can I go back to edit and resubmit?
 
 Expenses will need to be fully resubmitted if rejected.
 
-#### Where can I see Navan Expense product releases?
+### Where can I see Navan Expense product releases?
 
 Navan Expense product releases are shared in the following blog: [Navan Expense product release announcements](https://app.tripactions.com/app/helpcenter/articles/expense/admin/general-settings/navan-expense-product-release-announcements)
 
 ## Navan Expense Training
 
-#### End User Training
+### End User Training
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/3lnIPfXwyk0" frameborder="0" allowfullscreen="true"> </iframe>
@@ -707,7 +707,7 @@ This video covers:
 - Using the Navan Web App
 - Q&A
 
-#### Manager Training
+### Manager Training
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/3OJn7UbGAJ0" frameborder="0" allowfullscreen="true"> </iframe>

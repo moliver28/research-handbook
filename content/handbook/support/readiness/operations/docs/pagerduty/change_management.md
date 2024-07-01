@@ -17,7 +17,7 @@ The process for this can be broken down into 3 sections:
 1. [Implement the changes](#implement-the-changes)
 1. [Rotate the spreadsheet](#rotate-the-spreadsheet)
 
-#### Notify DRIs about the upcoming implementation
+### Notify DRIs about the upcoming implementation
 
 On the first Monday of the second month of a given quarter, we notify the DRIs
 about the upcoming implementation. This is done automatically via Slack
@@ -94,7 +94,7 @@ workflows, but for reference, the timing and messaging used is as follows:
 
 </details>
 
-#### Implement the changes
+### Implement the changes
 
 During the first week of the final month of the quarter, you need to setup all
 the schedules we use to align with the requested changes in the
@@ -175,7 +175,7 @@ Status 201 for 2024-01-31T16:00:00Z to 2024-01-31T22:00:00Z
 After you have run that script, go into Pagerduty and check the corresponding
 schedule for accuracy.
 
-#### Rotate the spreadsheet
+### Rotate the spreadsheet
 
 After you have [implemented the changes](#implement-the-changes) into Pagerduty,
 the final thing you need to do is rotate the spreadsheet. How you do this is
@@ -220,7 +220,7 @@ The
 is setup in a very specific way to facilitate planning for the next quarter's
 changes.
 
-#### Dropdowns reflect the entire pool of possible people for that dropdown
+### Dropdowns reflect the entire pool of possible people for that dropdown
 
 Each dropdown's content is determined based on the pool of possible people that
 could be used. This is done via a range on the People sheet.
@@ -230,7 +230,7 @@ someone from the possible options, please do so on the People sheet. This is
 usually done by provisioners during onboarding, offboarding, and team member
 transfers.
 
-#### We have many protections in place
+### We have many protections in place
 
 We have several protections in place on the sheet to prevent editing cells that
 are not meant to be edited:

@@ -114,11 +114,11 @@ The following steps are to be taken by the escalation DRI:
 1. Post updates in the dedicated Slack channel according to the cadence described in the [definitions of severity levels](#definitions-of-severity-levels).
 1. Keep exit criteria and DRIs up to date in the [escalation tracker doc](#escalation-tracker-doc)
 
-##### Temporary Slack Channel
+#### Temporary Slack Channel
 
 This channel will remain open until the escalation is closed and should be listed in the escalation document. Name the channel #esc_customername (must start with #esc_ to be included in our data retention policy) and ensure it is a public channel so that relevant parties can be easily added/find the channel. Some more tips & tricks for opening and managing the temporary slack channel can be found below:
 
-- a) Create an opening message in the escalation channel which should include the link to the escalation tracker doc + the initial ask / link to it within the gdoc as deep link.
+- a. Create an opening message in the escalation channel which should include the link to the escalation tracker doc + the initial ask / link to it within the gdoc as deep link.
   - Example for a potential opening message to get things going:
     - "*Welcome! This is the channel for the <CUSTOMER_NAME> escalation regarding ongoing performance problems which are impacting the whole user base.*"
       - *The escalation tracker document is ready and available at "<*LINK*>"*
@@ -128,15 +128,15 @@ This channel will remain open until the escalation is closed and should be liste
     - "Whats next?"
       - "Our next sync with the customer team is scheduled for Monday at 10:30am CEST where we would like to have the team (member) defined internally, who can then be introduced to the customer (can be a separate call at afternoon time) to engage in the following days."
 
-- b) If posted, pin the opening message to the channel, so that it is easily available for everyone. Also add the escalation tracker doc as a SLACK channel bookmark along
+- b. If posted, pin the opening message to the channel, so that it is easily available for everyone. Also add the escalation tracker doc as a SLACK channel bookmark along
 
-##### Escalation Tracker Doc
+#### Escalation Tracker Doc
 
 If a [Critical or High-Level escalation](/handbook/customer-success/csm/escalations/#critical-and-high-level-escalations) has been created, CSMs should create an escalation document using the [Escalation Tracker Template](https://docs.google.com/document/d/1DFW9WDigDZTRQlArqvyaLl_GcYi5lwsxKKKtcjB49s0/edit#) (internal GitLab access only).
 
 Copy and save the document for the individual customer and replace (CUSTOMER) with the customer name, complete the required fields
 
-###### Internal Standup Cadence
+#### Internal Standup Cadence
 
 Set up and document an internal standup cadence series while the escalation is running and put the details in the tracker doc
 
@@ -149,7 +149,7 @@ Set up and document an internal standup cadence series while the escalation is r
 
 During the internal cadence, be sure to note any changes in exit criteria or DRI.
 
-##### Identify Escalation DRI and immediate asks
+#### Identify Escalation DRI and immediate asks
 
 Make sure you write down the initial ask & needs (to initially make progress) in this escalation, as clearly as possible and add a [bookmark](https://support.google.com/docs/answer/45893?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccreate-a-bookmark) to it. You can link to it in the initial  message within the [escalation slack channel](#temporary-slack-channel) channel. As mentioned, be as specific as possible, as the GitLab exec / management team needs to understand what you are looking for to solve the escalation. For example:
       - Required skills (Remote EMEA Timezone)
@@ -158,7 +158,7 @@ Make sure you write down the initial ask & needs (to initially make progress) in
       - Ability to understand SQL queries
       - Familiarity with PostgreSQL, Patroni, PGBouncer
 
-##### Declare the escalation
+#### Declare the escalation
 
 Example message for the event when the escalation is identified and created and you have to post to `#escalated_customers`:
 
@@ -174,7 +174,7 @@ Example message for the event when the escalation is identified and created and 
 
 For high or critical escalations, and if the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). The Product DRI should be added to the #esc_customername channel and will drive any product related items throughout the escalation.
 
-##### Post in escalated_customers
+#### Post in `escalated_customers`
 
 To keep noise to a minimum, posting in `#escalated_customers` should happen only at key moments:
 

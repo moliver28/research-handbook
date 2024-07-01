@@ -478,7 +478,7 @@ If your group, product area, feature, or merge request fits within one of the de
 - Changing a recommended process to a required process for this change, such as a domain expert review
 - Requesting manual testing of the work before approval
 
-##### Identified areas
+#### Identified areas
 
 Some areas have already been identified that meet the definition above, and may consider altered approaches in their work:
 

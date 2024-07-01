@@ -25,7 +25,7 @@ open to a [soft-landing acquisition](https://about.gitlab.com/blog/2019/07/30/gi
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 
-#### Requirements
+## Requirements
 
 - Significant development experience as a sole developer to a stand-alone application or main component in one
 - Experience owning a project from concept to production, including proposal, discussion, and execution.
@@ -46,7 +46,7 @@ open to a [soft-landing acquisition](https://about.gitlab.com/blog/2019/07/30/gi
 - Ability to thrive in a fully remote organization
 - Ability to use GitLab
 
-### Performance Indicators
+## Performance Indicators
 
 - [Acquisition velocity](/handbook/product/performance-indicators/)
 - [Qualified acquisition targets](/handbook/product/performance-indicators/)

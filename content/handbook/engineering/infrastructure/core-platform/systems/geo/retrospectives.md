@@ -43,17 +43,17 @@ Retrospectives will take place from Monday to Thursday during the last week of e
 
 Retrospectives will have 4 phases:
 
-#### Check-in (Monday)
+### Check-in (Monday)
 
 During check-in phase the engineering manager will set the stage by describing the activity for the retro, define the context or scope of the discussion and post a check-in question that all team members must answer. The check-in question can be an ice-breaker or a work-related question that helps people get engaged into the retrospective.
 
 This message will be sent through slack and all team members are expected to take action before the end of day Monday within their respective time zones. Reading the activity and answering the question should not take more than 5 minutes.
 
-#### Data Gathering (Monday - Tuesday)
+### Data Gathering (Monday - Tuesday)
 
 Right after check-in, members are expected to participate in the data gathering phase. The type of data will depend on the [activity](https://www.retrium.com/retrospective-techniques) at hand. Generally speaking it will involve working individually to brainstorm and record data points into a retrospective board as sticky notes. At times, data gathering may involve fetching reports on metrics or other information from outcomes and events that happened in the last period. Data gathering should not take individual members more than 25 minutes and it can happen at any time between Monday and Tuesday.
 
-#### Insights (Wednesday)
+### Insights (Wednesday)
 
 This phase is where the meaningful analysis of the data happens. This is where team members collaborate to learn from each other and where they find actionable insights.
 
@@ -61,7 +61,7 @@ Throughout the day, team members are expected to read all the data collected in 
 
 By the end of day, all team members should take a last look at the board and make sure they have seen the latest comments that may have come in later in the day. Overall team members are not expected to take more than 1 hour this day to engage in insight generation.
 
-#### Actions and wrap-up (Thursday)
+### Actions and wrap-up (Thursday)
 
 On the last day of retrospective the team will have a call to go over the insights discovered during the week and determine if any actions are required and what kind of action is needed. During this meeting the team will also vote and prioritize the actions that are identified so they can be assessed and detect what is important and what is feasible to do in the short term.
 
@@ -69,7 +69,7 @@ All team members are strongly encouraged to attend. This is a once a month meeti
 
 The retrospective will wrap up with a check-out activity that helps with reflection on how the retrospective itself went and if any adjustments are required.
 
-#### Exceptions to the schedule
+### Exceptions to the schedule
 
 For each one of these stages, if people are out on PTO, they can be excused from following the schedule and they can catch up with the process when and if they come back from PTO before the retrospective is over. You are encouraged to plan ahead and check-in with the engineering manager the week before if you want to provide your input before leaving for PTO.
 

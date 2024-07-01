@@ -107,7 +107,7 @@ be removed at this time due to our data retention policy.
 
 If they are eligible, proceed to the follow the below processes.
 
-#### Requested via ticket
+### Requested via ticket
 
 If it is stemming from a ticket, ensure the user means for their Zendesk account
 to be deleted by using the `Support::Support-ops::Confirm Deletion` macro.
@@ -124,7 +124,7 @@ will be able to delete their user profile. For further guidance on how
 to do this, please see our API documentation on
 [how to change the status of a ticket to closed](/handbook/support/readiness/operations/docs/zendesk/api/#change-status-to-closed).
 
-#### Requested via account deletion issue
+### Requested via account deletion issue
 
 If it is requested via an account deletion issue, locate the user in Zendesk
 (check all instances), and then delete them from Zendesk.
@@ -155,7 +155,7 @@ be:
 - [Zendesk Global](https://gitlab.zendesk.com/agent/admin/customers)
 - [Zendesk US Federal](https://gitlab-federal-support.zendesk.com/agent/admin/customers)
 
-#### Formatting conventions
+### Formatting conventions
 
 There are two types of items you can put in an allowlist or blocklist:
 
@@ -166,7 +166,7 @@ For users, simply put the full email address. For domains, simply put the
 domain itself (do not put the `@` sign, as this will cause it to not work
 properly).
 
-#### Allowlist
+### Allowlist
 
 This is what determines who is automatically allowed to submit tickets. By
 default, we tend to allow all users and domains to submit tickets. This is most
@@ -179,7 +179,7 @@ simple have whitespace between them:
 
 `gitlab.com reports@example.com`
 
-#### Blocklist
+### Blocklist
 
 When it comes to use the blocklist, there are 3 different actions you can take:
 
@@ -192,7 +192,7 @@ simple have whitespace between them:
 
 `example.com reject:bad_user@example.com suspend:i_am_spammer@example.com`
 
-##### Auto-suppression
+#### Auto-suppression
 
 This ability automatically suppresses tickets from specific users or domains.
 The caveat here being they have to be registered users, so often this only
@@ -203,7 +203,7 @@ works in cases of simple attacks. The format for doing this is simple:
 - For users:
   `im_not_real@example.com`
 
-##### Auto-rejection
+#### Auto-rejection
 
 This ability automatically rejects tickets from specific users or domains. This
 prevents their creation entirely. You can automatically reject a ticket using
@@ -214,7 +214,7 @@ the following format in the blocklist:
 - For users:
   `reject:bad_user@example.com`
 
-##### Auto-suspension
+#### Auto-suspension
 
 This ability automatically suspends users when they submit tickets. We rarely
 use this function, as normally [auto-suppression](#auto-suppression) or
@@ -227,7 +227,7 @@ the blocklist:
 - For users:
   `suspend:i_am_spammer@example.com`
 
-##### List review
+#### List review
 
 From time to time, we might need to review the list to make sure it is still
 working for us. This is especially true in cases of the blocklist. We use this

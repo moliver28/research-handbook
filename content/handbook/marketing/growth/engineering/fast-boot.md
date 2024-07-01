@@ -119,7 +119,7 @@ Discussion led by Mike Karampalas, PM for Retention. Topics covered:
 
 [Link to Day 2 Agenda Document](https://docs.google.com/document/d/1wU8jlC7MlmC4HCZmjGDJxjc1DZ5yZDZ-xxVu-08LZLs/edit)
 
-#### Data Deep Dive
+### Data Deep Dive
 
 Discussion led by Eli Kastelein, Growth Data Analyst. Topics covered:
 
@@ -133,7 +133,7 @@ Discussion led by Eli Kastelein, Growth Data Analyst. Topics covered:
 
 [Slides](https://docs.google.com/presentation/d/1mLI0zSMmwwjIug3mfiNfVNbwPCLZkSqwUC4F1uqYf28/)
 
-#### State of Product Intelligence
+### State of Product Intelligence
 
 During this time we walked through Product Intelligence as a team and reviewed where we were headed. The main item we covered was the Vision Page in the handbook and how we need to clearly communicate what product analytics is and where to find more information.
 
@@ -148,7 +148,7 @@ Topics covered (which will also be added to the handbook)
 
 [MR under review](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29940#23dfa14c4e3cd4e7facec62ed501fe5adc7bc0ef)
 
-#### A/B Testing Requirements
+### A/B Testing Requirements
 
 [Issue: Implement an A/B testing solution that can measure the impact of Growth experiments](https://gitlab.com/gitlab-org/growth/engineering/issues/5)
 

@@ -1,6 +1,6 @@
 ---
 title: Vice President of Legal
-description: A Vice President of Legal is responsible for designing, building, and leading a high functioning subject matter specific team within the larger Legal & Corporate Affairs team in alignment with GitLab values. 
+description: A Vice President of Legal is responsible for designing, building, and leading a high functioning subject matter specific team within the larger Legal & Corporate Affairs team in alignment with GitLab values.
 ---
 
 
@@ -8,11 +8,11 @@ description: A Vice President of Legal is responsible for designing, building, a
 
 The Vice President of Legal will report directly to the [Chief Legal Officer](https://ir.gitlab.com/management/robin-schulman#:~:text=Robin%20Schulman%20is%20the%20Chief,strengthening%20their%20security%20and%20compliance)
 
-#### Vice President of Legal Job Grade
+### Vice President of Legal Job Grade
 
 The Vice President of Legal is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
-#### Vice President of Legal Responsibilities
+### Vice President of Legal Responsibilities
 
 - Design, build, and lead a high functioning subject matter specific team within the larger Legal & Corporate Affairs team in alignment with GitLab values.
 - Provide a deep understanding of broader GitLab strategy and business context to develop strategy, policy, and controls within subject matter area and ensure that the company operates safely and in accordance with good practice at scale.
@@ -24,7 +24,7 @@ The Vice President of Legal is a [grade 12](/handbook/total-rewards/compensation
 - Successfully onboard, coordinate and manage outside counsel resources and associated costs and budgets.
 - Demonstrate innovative approaches to leading diverse teams at scale in a fully remote environment.
 
-#### Vice President of Legal Requirements
+### Vice President of Legal Requirements
 
 - Juris Doctorate / United States law degree and bar admission in at least one state within the United States
 - 15+ years combined law firm and/or in-house legal department experience, preferably in a multinational company, with a considerable amount of time dedicated to their area of subject matter expertise

@@ -4,7 +4,7 @@ title: "Professional Services Practice Manager"
 
 ### Levels
 
-## Professional Services Practice Manager
+### Professional Services Practice Manager
 
 #### Professional Services Practice Manager Job Grade
 
@@ -112,7 +112,7 @@ The Staff Professional Services Practice Manager is a [grade 9](/handbook/total-
 - Understanding of common go-to-market motions used by professional services organizations.
 - Excellent communication skills covering the breadth and depth of the problem space; ability to adjust communication style from technical staff level all the way up to senior leadership (VP, CxO), from internal to market facing communication.
 
-## Manager, Professional Services Practice Management
+### Manager, Professional Services Practice Management
 
 The Manager, Professional Services Practice Management reports into the Senior Director, Professional Services.
 
@@ -150,7 +150,7 @@ Additional requirements include:
 - Experienced in collaborating with other managers and executing strategies
 - Proven track record in software/technology sales or consulting and management
 
-## Senior Manager, Professional Services Practice Management
+### Senior Manager, Professional Services Practice Management
 
 The Senior Manager, Professional Services Practice Management reports into the Senior Director, Professional Services.
 

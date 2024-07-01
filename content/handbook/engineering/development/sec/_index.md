@@ -543,13 +543,13 @@ Ping the DRI for quality assigned to Secure. You can find the person on the [tea
 
 In addition to our group retrospectives, we facilitate an async Sec Section level retrospective each month. The goal of the section wide retrospective is to review topics that bubbled-up from our group/team retrospectives. Additionally, we identify themes that could be discussed synchronously.  We use [this doc](https://docs.google.com/document/d/1g_FIMgr9r_Yf56xISxoI8B-1G-kbP3PQSeo7W-kKj24/edit#) and an [issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/?search=retrospective&sort=updated_desc&state=closed&label_name%5B%5D=section%3A%3Asec&first_page_size=20) created with [this template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/sec-section-retro.md) to facilitate the section retrospective.
 
-#### Key Dates
+### Key Dates
 
 1. The Monday after the monthly release - Group async retrospective issues are generated. Groups should start contributing topics.
 1. The week the milestone ends - Groups hold their retrospectives. Team members bubble-up identified topics and follow-up items (outcomes) to the [section retrospective document](https://docs.google.com/document/d/1g_FIMgr9r_Yf56xISxoI8B-1G-kbP3PQSeo7W-kKj24/edit#).
 1. The week of the release -  Section wide retrospective async review shared in the `#sec-section` Slack channel.
 
-#### DRI Responsibilities
+### DRI Responsibilities
 
 The [DRI](/handbook/people-group/directly-responsible-individuals/) for Section-wide retrospectives will be the Senior Engineering Manager. The SEM will find a volunteer if it is needed on specific milestones. The following tasks are executed each milestone:
 

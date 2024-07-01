@@ -273,8 +273,8 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 Fees for the Subscriptions are based upon the number of Users and the applicable level of support and/or functionality of the Software, as set forth in the table below. In the event Customer does not reasonably comply with written specifications or instructions from GitLab’s service engineers, regarding any support issue or request (including without limitation, failure to make backups of Customer Content or versions of Software) (each, a “Support Issue”), GitLab may cease its support obligations to Customer with respect to such Support Issue upon fifteen (15) days written notice and Customer’s inability to cure such noncompliance within the notice period.
 
-#### SUBSCRIPTIONS AND LEVELS OF SUPPORT
-  
+### SUBSCRIPTIONS AND LEVELS OF SUPPORT
+
 | Subscription*                          | Level of Support (*First Response Time*)            | Support Details                                                                                        |
 |----------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Free *(Formerly "Core" or "Free")*     | GitLab Community Forum                              |                                                                                                        |
@@ -296,30 +296,30 @@ Customer Success Services include additional assistance with respect to Customer
 
 With respect to Customer’s purchase and/or use of the SaaS Software , the following additional terms shall apply.
 
-#### AVAILABILITY
+### AVAILABILITY
 
 Availability to the SaaS Software will be measured, and reported on, by GitLab using instrumentation and observation tools specifically designed to provide a representative measure of service availability. Recent status, references to availability measurement definition, and historical reporting will be available at or linked from the GitLab system status site located at <https://about.gitlab.com/handbook/engineering/monitoring/#gitlabcom-service-level-availability>.
 
-#### RESILIENCY
+### RESILIENCY
 
 GitLab will architect and maintain an underlying cloud infrastructure with commercially reasonable resiliency for all data, compute, and network services. At a minimum, GitLab will maintain the highest documented level of “GitLab Reference Architecture” as detailed at <https://docs.gitlab.com>.
 
-#### BACKUPS
+### BACKUPS
 
 GitLab will maintain a commercially reasonable system of data backup process and technology to ensure that primary data sources remain recoverable in the event of various system failures.
 
-#### MONITORING AND INCIDENT RESPONSE
+### MONITORING AND INCIDENT RESPONSE
 
 GitLab will employ a system of instrumentation and observation tools to ensure that system behavior which may limit use of the SaaS Software is detected and announced. GitLab will also employ industry reasonable practices to maintain appropriate engineering personnel availability for the purposes of incident response(s).
 
-#### UPDATES AND UPGRADES
+### UPDATES AND UPGRADES
 
 GitLab will update the SaaS Software as updates are available and when reasonably practical to implement said updates. Update timing and process will remain at GitLab’s discretion.
 
-#### SCHEDULED SYSTEM MAINTENANCE
+### SCHEDULED SYSTEM MAINTENANCE
 
 GitLab will occasionally perform scheduled system maintenance which requires limits to the use of part or all of the SaaS Software features, or significantly reduces features and functions during the scheduled system maintenance period. GitLab will provide ten (10) business days’ notice for all scheduled system maintenance activities. GitLab will take a proactive approach to minimizing the need for such maintenance and will limit scheduled system maintenance to less than four (4) hours per calendar month. Notwithstanding the foregoing, in the event of an emergency or urgent issue which may negatively impact GitLab’s customers, GitLab has the right to carry out unscheduled maintenance to remedy such instance(s). For the avoidance of doubt, such unscheduled maintenance shall: (i) be limited to only those issues which may negatively impact customers; and (ii) will be carried out in such a manner to provide for the least amount of disruption to customers.
 
-#### SUSPENSION OF SERVICE
+### SUSPENSION OF SERVICE
 
 GitLab reserves the right to suspend service to the SaaS Software if: (i) Customer fails to comply with the Agreement and this Appendix, (ii) Customer exceeds set application limits, or (iii) requests or usage deemed malicious in nature is identified to be sourced from Customer accounts, personnel, or systems.

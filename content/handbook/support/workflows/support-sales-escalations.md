@@ -53,7 +53,7 @@ Some examples on when this might be appropriate:
 - Migrations or the differences between GitLab.com and Self-Managed instances
 - Addressing growth or blockers to feature adoption
 
-#### Resources
+## Resources
 
 - [CSM Responsibilities and Services](/handbook/customer-success/csm/services/#csm-alignment)
 - [Customer Success Escalations Process](/handbook/customer-success/csm/escalations/index.html)

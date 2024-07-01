@@ -96,14 +96,14 @@ The brand and design team is now the Brand Activation team under Corporate Marke
 
 Overarching Inbound Marketing Boards
 
-#### [Triage Board](https://gitlab.com/groups/gitlab-com/-/boards/1761578?&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Atriage)
+### [Triage Board](https://gitlab.com/groups/gitlab-com/-/boards/1761578?&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Atriage)
 
 - **GOAL:** Weed out issues that superfluous or don’t contain extra information
 - **ACTIONS:** Move to either
   - Move to either `mktg-status:PLAN` which puts into the Sprint cycle or;
   - [mktg-status: blocked] and comment why it is being blocked
 
-#### [Sprint Board](https://gitlab.com/groups/gitlab-com/-/boards/1761580?label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
+### [Sprint Board](https://gitlab.com/groups/gitlab-com/-/boards/1761580?label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
 
 - **GOAL:** Assign issues to milestones to be worked on then based on due dates, weights, priorities, resources
 - **ACTIONS:**
@@ -118,7 +118,7 @@ Overarching Inbound Marketing Boards
   - Comment why it is backlogged
   - Never backlog PR issues without prior discussion
 
-#### [Inbound Marketing Leads Overview](https://gitlab.com/groups/gitlab-com/-/boards/1787553?milestone_title=%23started&&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
+### [Inbound Marketing Leads Overview](https://gitlab.com/groups/gitlab-com/-/boards/1787553?milestone_title=%23started&&label_name%5B%5D=mktg-inbound&label_name%5B%5D=mktg-status%3A%3Awip)
 
 - **GOAL:** An overview of the work on each of the Inbound Marketing Teams during the current Milestone Sprint
 - **ACTIONS:**
@@ -130,7 +130,7 @@ Labels are important because they help populate the boards and make them work. T
 
 Meanings and usage
 
-#### Team Labels
+### Team Labels
 
 - `mktg-inbound`
   - Means it is for the Inbound Marketing Team
@@ -143,7 +143,7 @@ Meanings and usage
       - The sub-teams within Inbound Marketing Teams
       - Is not a label to denote the status of an issue
 
-#### Status Labels
+### Status Labels
 
 - `mktg-status::triage`
   - Triage is for requests that come from **outside Inbound Marketing**
@@ -171,9 +171,9 @@ Meanings and usage
   - Is used to denote the status of an issue as in the peer-review process.
   - Does not denote the timeline it will be worked on
 
-#### Projects
+### Projects
 
-#### Additional Labels
+### Additional Labels
 
 - `IM-Support`
   - Denotes if this is support provided to another team outside of Inbound Marketing
@@ -283,7 +283,7 @@ This is how we work with Issues and their scope
 
 ## Issue Templates
 
-#### External
+### External
 
 (outside of Inbound Marketing):
 
@@ -299,7 +299,7 @@ This is how we work with Issues and their scope
   - Template has auto-assignees
   - Links to Handbook page for additional information
 
-#### Internal
+### Internal
 
 (inside of Inbound Marketing):
 

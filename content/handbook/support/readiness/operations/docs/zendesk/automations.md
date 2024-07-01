@@ -18,7 +18,7 @@ immediately after a ticket is created or updated.
 The simpler way to think of it is automations are triggers that do not run
 instantly. They are time based than event based.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -120,7 +120,7 @@ deleting, click the three vertical dots at right-hand side of automation, and
 click `Delete`. This will cause a pop-up modal to appear asking you to confirm
 the action. Click blue `Delete automation` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "No managed content file"
 
@@ -184,7 +184,7 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 
@@ -219,13 +219,13 @@ automations into the order you desire. After making the changes, click the blue
 While this does not matter in the UI, it will matter in the repo sync we
 utilize.
 
-## Automation standards
+### Automation standards
 
 To ensure all automations we utilize are both consistent in nature and
 transparent in their actions, we strive to meet some standards on all
 automations we work with.
 
-## Naming standards
+### Naming standards
 
 As Zendesk automations do not support categorization at this time, we have
 implemented a naming standard to help categorize the automations we have. This

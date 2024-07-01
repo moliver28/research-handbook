@@ -27,7 +27,7 @@ We recognize that not all partners have the same needs or goals, and as such, ou
 | -------------- | ----------------- | ------------------- |
 | Partners that provide public cloud computing services and software marketplaces where customers can procure and deploy GitLab | Partners that provide modern cloud / cloud-native application platforms which increase the modularity and extensibility of GitLab across enterprises and architectures | Independent Software Vendors (ISV) Partners with complementary technologies that seamlessly integrate / interoperate with GitLab for more complete customer solutions |
 
-#### Pillars for Successful Partnerships
+### Pillars for Successful Partnerships
 
 Mutually beneficial value exchange drives mutual partner success. We believe these pillars ensure a more sustainable future.
 
@@ -38,7 +38,7 @@ Mutually beneficial value exchange drives mutual partner success. We believe the
 - **Results** - Partnerships that align on objectives and outcomes.
 - **Collaboration** - Partnerships that are committed to building reciprocal relationships between organizations and teams.
 
-#### Engagement Models
+### Engagement Models
 
 There are a variety of ways to partner together to develop solutions. Partner type, solution and/or services offering, and route to market are all considerations when determining the best option, resale or co-sell.  Below are a few examples of how GitLab works with Alliance Partners to deliver consumable customer solutions.
 
@@ -49,7 +49,7 @@ Integrated or bundled solution offerings sold through direct and indirect channe
 - **ISV** (co-sell)
 Collaborative selling motions that stimulate sales of our respective products, independently
 
-#### Program Benefits
+### Program Benefits
 
 GitLab Alliance Partners are a key part of GitLab’s commitment to the DevOps community. Alliance Partnerships help customers get more value by uniting the capabilities of our products and technologies to provide end-to-end customer solutions. The GitLab Alliance Partner Program provides partners with the following program benefits:
 

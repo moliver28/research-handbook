@@ -221,7 +221,7 @@ There are a few places to see previous Sales Enablement sessions:
 
 ## Recording
 
-#### Public vs Private
+### Public vs Private
 
 - Some enablement sessions, typically those that focus on industry or technical product knowledge, are [made public](/handbook/values/#public-by-default), including the Q&A
 - Other sessions that focus on topics like competitive analysis or openly discussing customers are [kept private](/handbook/communication/confidentiality-levels/#not-public)

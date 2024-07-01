@@ -22,7 +22,7 @@ We conduct an annual team skills analysis based on a [process recommended by Nie
 
 The primary goal of the skills analysis is to inform individual team member's growth plans. Secondary benefits are that it allows us to see our strengths as a team, helps to identify team trainings that would benefit a large portion of the team, helps us identify strengths we'd like to add when hiring new team members and can also act as a resource for matching mentors and/or design pairs.
 
-#### How to conduct the team assessment
+### How to conduct the team assessment
 
 1. Make a copy of the [GitLab Team Skills Matrix (private to GitLab)](https://docs.google.com/spreadsheets/d/1MZsalURuFy60mNCBlzkQ2hhPSWsuSXtjJ-NlFac7jCA/edit?usp=sharing).
 1. Review the template to make sure it makes sense for your team. Do consider changes carefully and discuss with other managers. We want to be able to have consistency so we can view them across multiple design teams.

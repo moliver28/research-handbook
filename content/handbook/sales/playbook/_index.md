@@ -31,13 +31,13 @@ Besides this page, there are a few bookmarks you’ll want to set that will be y
 
 [The Enterprise Seller playbook](https://docs.google.com/presentation/d/1S-8Jvr-NcMAEjqB5j0i53WZg4aEtTGTicCpWbZ9JaNk/edit#slide=id.g10c6ab6d93e_0_318) is how a typical, high-performing SAE runs their business on an annual, quarterly, monthly, and weekly basis. Use it as a guide to understand the basics of what key activities and collaboration points are required for things to run smoothly in your territory. This includes collaborating with your deal team. This playbook aligns directly to [the manager version used by Area Sales Managers in Enterprise Sales](/handbook/sales/manager-operating-rhythm/enterprise-sales/).
 
-#### Collaborating with your team
+### Collaborating with your team
 
 As the account lead, your role centers on successfully orchestrating all of the resources and support available to you and your prospect or customer to reach their defined outcome on a reasonable timeline. That means knowing who's who and how to collaborate with them.
 
 [View the Enterprise Seller playbook](https://docs.google.com/presentation/d/1DSaVx25EmzGN9vbjsE1llXRl7hnNzHWYxOH8eBORIF4/edit#slide=id.g116c2ce1845_0_0) for guidance on what types of meetings to host with your deal team and extended team, as well as how their roles and responsibilities might intersect with yours.
 
-##### At a glance: How to collaborate with extended deal team members
+#### At a glance: How to collaborate with extended deal team members
 
 |Extended deal team members | How you collaborate |
 |---------------------------|---------------------|
@@ -84,7 +84,7 @@ Generally, surprises - whether in the form of sudden, major deals or sudden, maj
 **Additional resources for opportunity management:**
 During each stage in the detailed spreadsheet, you'll also see major strategic resources that can help you be successful during each milestone of a deal - from prospecting to transitioning to a the post-sales team. For operational resources, head to the general sales page up top. For commonly used sales assets like marketing plays and pitch decks, head to the [marketing resources handbook page](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7).
 
-#### Opportunity management
+### Opportunity management
 
 Opp management starts with [effective discovery](/handbook/sales/playbook/discovery/). At GitLab, that means [MEDDPPICC](/handbook/sales/command-of-the-message/command-plan/#meddppicc) and having a complete [Command Plan](/handbook/sales/command-of-the-message/command-plan/) for all $50k+ NARR opportunities.
 
@@ -111,7 +111,7 @@ If you want to know more about what's available to help you be successful, reach
 
 If you don’t have access to the items below and believe you should, open an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
 
-#### **Executing your strategy**
+### **Executing your strategy**
 
 - [GitLab Version Compare Tool](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features), also known as the 'What's new since?' tool, is a tool that allows you to populate a comparison all the additional features and functions from one version of GitLab to another (or the current release). Use it with your customers to understand what product they purchased previously, and what the value is now to support your proposals and pricing. Using this tool a quarter before the renewal or whenever you start contract discussions can be helpful in showing all the work we continue to build into the product.
 - [Gainsight](/handbook/sales/gainsight/) is used for documenting account details, timelines, and objectives
@@ -122,7 +122,7 @@ If you don’t have access to the items below and believe you should, open an [A
 - [Product Usage Data & Health Scores in Gainsight](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#using-product-usage-data-in-gainsight) is used by your CSM and can provide you with insights into current customer usage data by use case by walking you through the relevant dashboard in Gainsight. All AEs have read access to Gainsight. Health scores can be found in Salesforce at the account level as well. When running a report on your accounts, pull in the Health Score field to understand what urgent actions you may need to take.
 - [CustomersDot Admin](https://customers.gitlab.com/admin/) (see [overview video here](https://youtu.be/G9JuHXqV5LM)): most customers have an account that breaks down their purchases and provides some insight into SaaS usage. Also good for linking purchases to VersionDot usage data
 
-#### **Prospecting tools**
+### **Prospecting tools**
 
 - Completing RFPs/RFxs (Requests for vendor information): Use the [RFP process here](/handbook/security/security-assurance/field-security/field-security-rfp/) combined with our [Trust Center page](https://trust.gitlab.com/)
 - Learn what events we're attending or sponsoring via the [GitLab event site (external)](https://about.gitlab.com/events/) and the [marketing activities spreadsheet (internal)](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493). Or work with your local field marketer or manager to plan your own smaller-scale event.
@@ -134,7 +134,7 @@ If you don’t have access to the items below and believe you should, open an [A
 - [Thnks](https://www.thnks.com/) is a way to send small tokens of appreciation to customers, prospects, or contacts while only needing an email or phone. It's not provided by GitLab at this time, but you can talk to your manager about options for expensing. Remember to abide by [our policies](/handbook/legal/anti-corruption-policy/) around gifts for prospects or customers and check with #legal in Slack if you have questions.
 - [The GitLab Swag store](https://shop.gitlab.com/) is another way to send thanks or share the GitLab spirit with busienss contacts or family. [View our policies on swag here.](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/) Remember to abide by [our policies](/handbook/legal/anti-corruption-policy/) around gifts for prospects or customers and check with #legal in Slack if you have questions. You can also use the #swag channel in Slack to get urgent questions answered.
 
-#### **Understanding your business**
+### **Understanding your business**
 
 - View internal data resources in our [internal handbook for Territory Planning here](https://internal.gitlab.com/handbook/sales/territory-planning/#data-sources).
 - Salesforce (View in Okta), including reports that contain [propensity model data](https://internal.gitlab.com/handbook/sales/propensity_models/).

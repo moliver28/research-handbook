@@ -142,4 +142,4 @@ If a security vulnerability introduced a non-vulnerability bug, in most cases, t
 
 If a security vulnerability introduced a high severity non-vulnerability bug, engage with AppSec and release managers to coordinate next steps.
 
-For more information, see [How to Mitigate Bugs Introduced by Security Merge Request] runbook.
+For more information, see [How to Mitigate Bugs Introduced by Security Merge Request](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/bugs_introduced_by_security_merge_request.md) runbook.

@@ -28,7 +28,7 @@ Create a partner success approach, providing a framework for partners to integra
 
 The following capabilities roadmap shows the high-level view of the capabilities that our partners should develop to mature their GitLab practices organized into four (4) stages of maturity.
 
-#### 01 - Onboarding
+### 01 - Onboarding
 
 New partners to GitLab ramping up their capabilities and achieving first-customer orders as quickly as possible.
 
@@ -48,7 +48,7 @@ New partners to GitLab ramping up their capabilities and achieving first-custome
       - Sales Core (2)
       - SA Core (1)
 
-#### 02 - Established
+### 02 - Established
 
 Established GitLab partners working with GitLab field account teams to close resale business, deliver GitLab Professional Services projects, and/or GitLab branded training.
 
@@ -67,7 +67,7 @@ Established GitLab partners working with GitLab field account teams to close res
   - Migration solution
 - Architect GitLab into customer DevSecOps workflows
 
-#### 03 - Leading
+### 03 - Leading
 
 Mature GitLab partners sourcing their own customer opportunities, registering new deals, and collaborating with GitLab field sales teams as needed.
 
@@ -85,7 +85,7 @@ Mature GitLab partners sourcing their own customer opportunities, registering ne
   - Deliver advanced migration solutions
   - Offer Managed Services
 
-#### 04 - Strategic
+### 04 - Strategic
 
 Developing advanced solutions to meet complex customer challenges leveraging the GitLab Platform.
 

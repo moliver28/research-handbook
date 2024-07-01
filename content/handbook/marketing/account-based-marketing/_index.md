@@ -63,7 +63,7 @@ For questions about 6sense, our ABM platform, use the slack channel #6sense_help
 
 ABM works out of the GitLab project: Account Based Marketing within the larger Marketing project.
 
-#### Team labels
+### Team labels
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - `ABM`: DRI is in ABM team. Alerts the ABM team that an issue has been opened for triage.

@@ -55,7 +55,7 @@ Shadow etiquette is one of the most important parts of being a shadow or having 
 
 View the introduction training (link coming soon) to learn the basic expectations you should start from when shadowing or hosting.
 
-#### What to look for on calls
+### What to look for on calls
 
 Not every call is a hit. And you may attend calls where it goes really well or poorly for multiple reasons. Use your time in these calls to determine for yourself what works well and what doesn't with customers and prospects. Challenge your assumptions and that of the customer or even the host.
 

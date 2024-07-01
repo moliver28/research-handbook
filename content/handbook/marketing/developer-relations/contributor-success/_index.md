@@ -189,7 +189,7 @@ Note: Due to the switch to GitLab's OKR system, we no longer have the ability to
 
 We have the following Performance Indicators
 
-#### [Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month)
+### [Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month)
 
 - Activities:
   - Partnership with Developer Relations team.
@@ -200,7 +200,7 @@ We have the following Performance Indicators
 
 More details can be found in the [Unique Wider Community Contributors per Month Marketing PI section](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month)
 
-#### Leading Organizations MR Time-to-review
+### Leading Organizations MR Time-to-review
 
 - Activities:
   - Check in with the Leading Organizations.
@@ -209,7 +209,7 @@ More details can be found in the [Unique Wider Community Contributors per Month 
 
 More details can be found at the [Leading Organizations MR Time-to-review Quality PI section](/handbook/marketing/developer-relations/performance-indicators/#leading-organizations-mr-time-to-review)
 
-#### Open Community MR Age (OCMA)
+### Open Community MR Age (OCMA)
 
 - Activities:
   - Shorten CI time
@@ -220,7 +220,7 @@ More details can be found at the [Leading Organizations MR Time-to-review Qualit
 
 More details can be found in the [OCMA Community-Relations PI section](/handbook/marketing/developer-relations/performance-indicators/#open-community-mr-age)
 
-#### MRARR
+### MRARR
 
 - Activities:
   - Reach out to top tier enterprise customers
@@ -235,7 +235,7 @@ account from being linked to a customer account, and being counted into the MRAR
 
 More details can be found at the [MRARR Community-Relations PI section](/handbook/marketing/developer-relations/performance-indicators/#mrarr)
 
-#### Community Coaches per Month
+### Community Coaches per Month
 
 - Activities:
   - Work with Development Department (Christopher L, VP of Development) for volunteers.
@@ -245,7 +245,7 @@ More details can be found at the [MRARR Community-Relations PI section](/handboo
 
 More details can be found at the [Community Coaches per Month Community-Relations PI section](/handbook/marketing/developer-relations/performance-indicators/#community-mr-coaches-per-month)
 
-#### Community Contribution MRs as Features per Month
+### Community Contribution MRs as Features per Month
 
 - Activities:
   - Encourage features at Developer Relations hackathons.

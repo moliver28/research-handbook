@@ -138,7 +138,7 @@ less formal.
 
 ## Dates
 
-#### Months
+### Months
 
 Spell out, unless using the full date (see below).
 

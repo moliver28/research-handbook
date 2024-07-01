@@ -188,7 +188,7 @@ GitLab is building out a global Authorized Distributor network similar to many o
 - Select Partners may choose to transact directly with GitLab (excluding certain regions) or via the region's authorized distributor(s)
 - In NORTH AMERICA, Partners transact with [Climb Solutions](https://www.climbcs.com/) via `sales@climbcs.com` and `sales@climbcs.ca` in the US and Canada, respectively
 - In EMEA: Partners transact with [Amazic](https://distribution.amazic.com/) via `gitlab@amazic.com`
-  - In META (Middle East, Turkey, and Africa): Partners may also choose to transact with [Mindware](https://www.mindware.net/contact-us) via `sales@mindware.net`
+
 - In APAC (several countries):  Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html) via `GitLab.APJ@techdata.com`
   - In India: Partners may also choose to transact with Redington via `gitlab@redington.co.in`
   - In Japan: Partners may also choose to transact with [Networld](https://www.networld.co.jp/product/gitlab/) via `gitlab-info@networld.co.jp`
@@ -641,7 +641,7 @@ _The deal registration form is not a quoting tool and will not have all the info
 
 ### Service Attached Registration and Opportunities
 
-GitLab incentivizes partners that sell their own professional services into a customer environment at the time of a GitLab product sale. An approved Service Attached Registration makes the partner eligible for a **back-end rebate** (processed quarterly) once (i) GitLab successfully closes the related software deal as won and (ii) the partner completes their services and provides Proof of Execution, as outlined in the [GitLab Partner Program](/handbook/resellers/channel-working-with-GitLab/#definitions-and-qualifications). This is separate from the Partner Sourced Deal Registration for the license sale.
+GitLab incentivizes partners that sell their own professional services into a customer environment. The customer could have purchased licenses from the services partner, but that is not required to qualify for Service Attach. They could have purchased licenses directly from GitLab or from another partner. An approved Service Attached Registration makes the partner eligible for a **back-end rebate** (processed quarterly) once (i) GitLab successfully closes the related software deal as won and (ii) the partner completes their services and provides Proof of Execution, as outlined in the [GitLab Partner Program](/handbook/resellers/channel-working-with-GitLab/#definitions-and-qualifications). This is separate from the Partner Sourced Deal Registration for the license sale.
 
 To track the Partner Services, the partner must register the deal on the [Partner Portal](/handbook/resellers/#gitlab-partner-portal).
 
@@ -932,22 +932,22 @@ Winners receive a physical award, virtual badge for use on the partner’s websi
 **Award Categories - proposed for FY25:**
 
 - Americas and Public Sector Categories
-   - AMER Partner of the Year
-   - AMER Emerging Partner of the Year (optional)
-   - AMER Services Partner of the Year
-   - Public Sector Partner of the Year
-   - Public Sector Services Partner of the Year
-   - AMER / Public Sector Distributor of the Year
+  - AMER Partner of the Year
+  - AMER Emerging Partner of the Year (optional)
+  - AMER Services Partner of the Year
+  - Public Sector Partner of the Year
+  - Public Sector Services Partner of the Year
+  - AMER / Public Sector Distributor of the Year
 - Asia-Pacific Categories
-   - APAC Partner of the Year
-   - APAC Emerging Partner of the Year (optional)
-   - APAC Distributor of the Year
-   - APAC Services Partner of the Year
+  - APAC Partner of the Year
+  - APAC Emerging Partner of the Year (optional)
+  - APAC Distributor of the Year
+  - APAC Services Partner of the Year
 - Europe-Middle East-Africa Categories
-   - EMEA Partner of the Year
-   - EMEA Emerging Partner of the Year (optional)
-   - EMEA Distributor of the Year
-   - EMEA Services Partner of the Year
+  - EMEA Partner of the Year
+  - EMEA Emerging Partner of the Year (optional)
+  - EMEA Distributor of the Year
+  - EMEA Services Partner of the Year
 
 **Award Consideration Timing:**
 GitLab will announce the Partner Award winners at a Global-level event within their Q1 timeframe. Awards will be shipped to the winners 4-6 weeks post-announcement. Award celebrations will be held at Partner Leadership Summit or other similar event.

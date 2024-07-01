@@ -215,7 +215,7 @@ How to Apply:
 
 ## Sick Leave
 
-#### Statutory Sick Leave
+### Statutory Sick Leave
 
 Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/people-group/paid-time-off/#sick-time-procedures---all-team-members) policy.
 
@@ -225,13 +225,13 @@ Beginning January 1, 2023 team members with statutory health insurance are not r
 
 - Team Members with private health insurance will still be required to email leaves@domain a hard copy of their certificate no later than the 4th day of illness.
 
-##### Reporting Guidelines
+#### Reporting Guidelines
 
 Team members are still required to report their absence(s) to GitLab, but AU certificates are not required until after the 3rd day of an absence.  Beginning the first day, team members should notify their Manager first, and then enter the time away into Time Off by Deel by selecting the label `Out Sick`.  After 3 days of continuous absences, team members should first notify the Absence Management team (leaves@domain) of their sick leave (including the start and anticipated end date) and then enter the time away into Time Off by Deel using the label `Out Sick`.  The Absence Management Team will then "call up" the AU certficiate on behalf of the team member.
 
 - Team Members with private health insurance will still be required to email leaves@domain a hard copy of their certificate no later than the 4th day of illness.
 
-#### During COVID-19
+### During COVID-19
 
 We encourage all team members to meet with a *virtual doctor* for the certificate to avoid the need to leave home.
 

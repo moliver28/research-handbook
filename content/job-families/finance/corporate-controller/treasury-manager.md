@@ -8,7 +8,7 @@ title: "Treasury"
 
 The Treasury Analyst reports to the [Director Treasury](/job-families/finance/corporate-controller/treasury-manager/#director---treasury)
 
-#### Treasury Analyst Job Grade
+### Treasury Analyst Job Grade
 
 The Treasury Analyst is a [grade #6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -38,7 +38,7 @@ The Treasury Analyst is a [grade #6](/handbook/total-rewards/compensation/compen
 
 The Senior Treasury Analyst reports to the [Director Treasury](/job-families/finance/corporate-controller/treasury-manager/#director---treasury)
 
-#### Senior Treasury Analyst Job Grade
+### Senior Treasury Analyst Job Grade
 
 The Senior Treasury Analyst is a [grade #7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
@@ -72,7 +72,7 @@ The Senior Treasury Analyst is a [grade #7](/handbook/total-rewards/compensation
 
 The Director Treasury reports to the VP Cash Management
 
-#### Director - Treasury Job Grade
+### Director - Treasury Job Grade
 
 The Director - Treasury is a [grade #10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

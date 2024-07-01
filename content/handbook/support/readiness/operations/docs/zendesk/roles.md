@@ -8,7 +8,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/roles"
 
 Zendesk uses Roles as a way to maintain permission sets for agents.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -74,7 +74,7 @@ the right-hand side and then click `Delete`.
 This will cause a pop-up modal to appear asking you to confirm the action. Click
 the red `Delete role` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 
@@ -98,7 +98,7 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 

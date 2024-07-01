@@ -221,7 +221,7 @@ We report on our top 5 risks on a quarterly basis (the Security Risk Quarterly o
 
 The Security Division's "Top 5 Risks" are established annually and are reported upon quarterly as resources allow via the SRQ. Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities. We intend to support remediation through assisting with treatment activities and performing design and operating effectives assurance testing on key remediation activities.
 
-#### Long-Term Risk Treatment Planning
+### Long-Term Risk Treatment Planning
 
 Executive Risk Owners are accountable for ensuring that long-term treatment plans are established and executed for each of the Top 5 Risks. The Security Risk Team is responsible for coordinating long-term treatment planning with the Executive Risk Owner and the associated Risk Owner(s). The following template is leveraged during planning to ensure consistency in our approach and in reporting:
 
@@ -233,7 +233,7 @@ Executive Risk Owners are accountable for ensuring that long-term treatment plan
 
  In the event the Executive Risk Owner chooses not to pursue a Risk Remediation-related KR in a given quarter due to competing priorities, a [Risk Acceptance](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process) should be formalized to document the business rationale. This Risk Acceptance should contain rationale explaining why the risk of delaying additional Risk Remediation is less than the risk of not fulfilling the competing priority.
 
-#### StORM Reporting Schedule
+### StORM Reporting Schedule
 
 The table below outlines planned/completed activities for FY24.
 

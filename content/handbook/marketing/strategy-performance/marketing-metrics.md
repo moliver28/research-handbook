@@ -1,34 +1,27 @@
 ---
-
 title: "Marketing Metrics"
 description: "We use Sisense to view and analyze our marketing metrics from multiple data sources."
 ---
-
-
-
-
-
-
 
 ## Marketing Metrics
 
 Below are the definitions of our primay Marketing Metrics.
 
-#### Inquiry
+### Inquiry
 
 An inquiry is a stage of the lead/contact objects in SFDC. GitLab defines inquiry as an Inbound request or response to [an outbound marketing effort](/handbook/marketing/marketing-operations/#lead-and-contact-statuses).
 
-##### First Order Inquiries
+#### First Order Inquiries
 
 Inquiries that are part of a parent account that has not made an order through GitLab are classified as first-order inquiries. To find them, we join the account table to the person table on the inquiry account ID. If the field `has_first_order_available` is true on the account object, the inquiry is first order. If the inquiry does not have an account associated with it, it is also first order.
 
-##### Date of Inquiry
+#### Date of Inquiry
 
 Finding when a lead became an inquiry requires accounting for leads who skipped the inquiry stage. To do this take the lesser of `inquiry_date` and `inquiry_inferred_date`.
 
 The logic for finding when a person became an inquiry is captured in the `inquiry_reporting_date` field. It should always be used to report inquiries unless you are looking for something specific.
 
-##### Technical Definition
+#### Technical Definition
 
 Any lead or contact with `Status != to Raw` and the first date between Inquiry Date and Inquiry Inferred.
 Any lead or contact from the fct_crm_person table where `Status != to Raw` and `inquiry_date` or `inquiry_inferred_date` is not null.
@@ -47,17 +40,17 @@ Example Query, this will return a list of inquiries with the date they became an
   and inquiry_reporting_date is not null
 ```
 
-##### Source & Metric
+#### Source & Metric
 
 An Inquiry is defined by records in the [Person Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_person). To find the number of inquiries, take the unique count of `email_hash`
 
 Sisense View: [rpt_crm_person_inquiry](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_person_inquiry/5edb66186f094f40bc49e87694ea8e8f/edit)
 
-#### MQL
+### MQL
 
 A Marketing Qualified Lead (MQL) is a stage of the lead/contact objects in SFDC. GitLab defines an MQL as a person who is [Marketing Qualified through systematic means](/handbook/marketing/marketing-operations/#lead-and-contact-statuses).
 
-##### First Order MQLs
+#### First Order MQLs
 
 MQLs that are part of a parent account that has not made an order through GitLab are classified as first-order MQLs. To find them, we join the account table to the person table on the MQL account ID. If the field `has_first_order_available` is true on the account, the MQL is first order. If the MQL does not have an account associated with it, it is also first order.
 
@@ -67,7 +60,7 @@ There is a set of fields that show information regarding the First Order (FO) st
 1. `FO Intial MQL` - this shows whether or not, at the time of the `Intitial MQL DateTime` (the first time the record MQL'd), the record was a FO record
 1. `FO MQL` - this shows whether or not, at the time of the `MQL DateTime` (the most recent time the record MQL'd), the record was a FO record
 
-##### Date of MQL
+#### Date of MQL
 
 To find the date of when someone became an MQL, we use the date field from Marketo (`Marketo MQL DateTime` in SFDC). While this field is not stampted and can change if someone re-MQLs, it makes our reporting easier to understand, matches what Sales Development uses, and matches the data in Marketo.
 
@@ -87,7 +80,7 @@ For circumstances where the cavacts above impact reports, we have created the MQ
 | Initial SFDC MQL DateTime    | Initial_MQL_DateTime__c  | Set by SFDC when a record skips the MQL Stage, Inquiry > Accepted for example. Stamped the first time this happens.                      | input metric - not needed for reporting              |
 | SFDC MQL DateTime            | MQL_DateTime_Inferred__c | Set by SFDC when a record skips the MQL Stage, Inquiry > Accepted for example. Updates each time this happens.                           | input metric - not needed for reporting              |
 
-##### Technical Definition
+#### Technical Definition
 
 Any lead or contact from the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table where the MQL first or Inferred MQL date is not null.
 
@@ -106,26 +99,26 @@ Example Query, this will return a list of MQLs with the date they became an MQL:
   is_mql = TRUE
 ```
 
-##### Source
+#### Source
 
 An MQL is defined by records in the [Person Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_person).
 
 Sisense Snippet: [rpt_crm_person_mql](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_person_mql/5e19022f569a480bb73adcef3a1d2681/edit)
 
-#### SAO
+### SAO
 
 A Sales Accepted Opportunity (SAO) is an Opportunity that has reached the accepted stage, the criteria to accept or reject an opportunity is set by sales and defined in [their handbook](/handbook/sales/field-operations/gtm-resources/#criteria-for-sales-accepted-opportunity-sao).
 
-##### First Order SAOs
+#### First Order SAOs
 
 SFDC stamps the order type on each SAO when it is created, meaning that each SAO knows its order type. The `order_type` field stores this information.
 The logic for first-order SAOs is captured in the `is_new_logo_first_order` flag. It should always be used when querying for FO SAOs.
 
-##### Date of SAO
+#### Date of SAO
 
 To find the date the opportunity became an SAO, use the `sales_accepted_date` field.
 
-##### Technical Definition
+#### Technical Definition
 
 Any opportunity from the [fct_crm_opportunity](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_opportunity#description) table where the stage_name is not `10-Duplicate` and `is_edu_oss` is 0, and the sales_accepted_date is not null.
 These conditions are captured in the `is_sao` field on the fct_crm_opportunity table.
@@ -142,32 +135,32 @@ is_sao = TRUE
 and is_new_logo_first_order = TRUE
 ```
 
-##### Source
+#### Source
 
 An SAO is defined by records in the [Opportunity Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_opportunity).
 
-##### Sisense Snippet
+#### Sisense Snippet
 
 [​​rpt_crm_opportunity_accepted_period_sao](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_opportunity_accepted_period_sao/5ea9956269564639ac39d14beae7c945/edit)
 
-#### Closed Won Opportunity
+### Closed Won Opportunity
 
 A Closed Won Opportunity (CW) is an opportunity where the sales team won the deal.
 
-##### First Order CW Opportunities
+#### First Order CW Opportunities
 
 Because a closed-won deal is an opportunity, the order_type field stores the first order information.
 When querying for First Order Closed Won, it’s best to use the `is_new_logo_first_order` flag, this ensures that all our dashboards are using the same logic to find FO CW.
 
-##### Date of Closed Deal
+#### Date of Closed Deal
 
 To find the date the opportunity closed, use the `close_date` field.
 
-##### Finding Net ARR for an Opportunity
+#### Finding Net ARR for an Opportunity
 
 When reporting on the [Net ARR](/handbook/sales/sales-term-glossary/arr-in-practice/) of a closed deal, we need to ensure the deal will contribute to the company's Net ARR. To this, add the `is_net_arr_closed_deal` flag as true to the query.
 
-##### Technical Definition
+#### Technical Definition
 
 Any opportunity from the [fct_crm_opportunity](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_opportunity#description) table where the stage_name is not `10-Duplicate` and `is_edu_oss` is 0, and the `is_won` is true, and `is_closed` is true.
 
@@ -186,7 +179,7 @@ and is_new_logo_first_order = TRUE
 and is_net_arr_closed_deal = TRUE
 ```
 
-##### Source
+#### Source
 
 A CW Opportunity is defined by records in the [Opportunity Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_opportunity).
 

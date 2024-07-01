@@ -53,7 +53,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Click the **Download Credentials** button to download your temporary GitLab credentials.
 
-1. Click on **GitLab Dashboard** or the GitLab URL.
+1. Click on **My Group**.
 
 1. Login with your temporary GitLab Credentials.
 

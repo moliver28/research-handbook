@@ -71,19 +71,19 @@ There are a few extra steps to embed any views using a yml file, because you do 
 
 5. Update the yml file according to [these guidelines for the performance indicators YML files](/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/#performance-indicators-yml) using a Merge Request.
 
-#### Example MR's
+### Example MR's
 
 [Here is an MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/132288) that demonstrates changing the Sisense codes to Tableau codes. And [here is the MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/132528) that was submitted to update the URL's in the file from internal URL's to ones from the public site.
 
 When the first MR was submitted the assignees accidentally forgot that the views needed to be public, so they used URL's from the internal site, so the second MR was submitted to correct that error once the workbook had been tagged as Public and was available in the list of publicly available workbooks/URL's.
 
-#### Workflow Recap
+### Workflow Recap
 
 For private charts that require sign-in: From the handbook page, find the file name -> Search the repository for the yml file -> update the yml file to point to the Tableau workbook. Watch out for your tabs and spaces, they need to match the formatting exactly!
 
 For public charts in the public handbook: Tag the affected workbooks as "Public" -> Get their URL from the list of publicly embeddable views -> Find the file name -> Search the repository for the yml file -> Update the YML file with an MR.
 
-## Views Availble for Public Embedding
+## Views Available for Public Embedding
 
 {{< tableau toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PublicSiteViews/PublicViewTable" >}}
 {{< /tableau >}}

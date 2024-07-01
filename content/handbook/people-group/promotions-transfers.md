@@ -89,7 +89,7 @@ The Sales Development organization reviews In-Cycle Promotions on a monthly basi
 | [Calibration]({{< ref "promotions-transfers#calibration" >}}) | The calibration exercise is an opportunity for leaders (sync or async) to review projected promotions on a twice per year basis. This is an opportunity to create visibility and ensure consistency in who we are promoting and why. |
 | [Processing]({{< ref "promotions-transfers#process-for-managers-requesting-a-promotion" >}}) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse). |
 
-#### Sales Development Process
+### Sales Development Process
 
 Sales Development promotions will be reviewed on a monthly basis.
 
@@ -136,17 +136,17 @@ As the audience are other GitLab team members, the text should be written in thi
 
 In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Values Alignment, Business Results, and Business Justification.
 
-##### Promotion Summary
+#### Promotion Summary
 
 This section is a high-level summary (3-5 sentences) of achievements that demonstrate how the team member has the capability to perform at the next level.
 
-##### Values Alignment
+#### Values Alignment
 
 Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Promotion documents should include 1-2 core points per value of evidence supporting values alignment.
 
 - Please review our guidance on [DIB behaviours](/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](/handbook/values/#diversity-inclusion)
 
-##### Business Results
+#### Business Results
 
 As our most important [value](/handbook/values/#hierarchy), results are at the core of everything we do.
 
@@ -173,11 +173,11 @@ We ask that the structure above be followed for business results consistently to
 2. **Cross-functionally understandable**: The story-telling structure facilitates more cross-functional understanding of what the team member did, why it matters, and the impact it drove for the business.
 3. **Add objectivity**: Adds objectivity through focus on the contribution, impact, and relevance, in a consistent format, decreasing opportunity for unconscious bias.
 
-##### Business Justification
+#### Business Justification
 
 GitLab considers both individual readiness and business need when we think about promotions. Managers are responsible for completing the business justification section of the promotion document to include what justifies the need for the team members skills and work to be completed at the higher level. Possible business justifications typically include: more complex projects, additional scope of work required as the team scales, and/or additional responsibility due to XYZ business reason.
 
-##### Additional Tips
+#### Additional Tips
 
 When creating promotion documents, remember:
 
@@ -226,11 +226,11 @@ The only exception to this process is when there is an open budgeted and publicl
 
 GitLab tracks the following promotion metrics in [Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2292010/views)
 
-##### Internal Mobility
+#### Internal Mobility
 
 GitLab tracks Internal Mobility rate. Market data indicates a 15% rolling promotion rate as the guideline for what we should see on average across the company for promotions. This is a guideline, not a cap.
 
-##### Average % Compensation Change
+#### Average % Compensation Change
 
 GitLab targets an average of [5-10% compensation change]({{< ref "promotions-transfers#recommend-a-compensation-increase" >}}) in general for promotions. This metric is in place to ensure we are consistent and equitable across the company when allocating promotion compensation raises to team members, in addition to ensuring competitive and meaningful promotion increases across the board.
 
@@ -311,7 +311,7 @@ Giving and receiving feedback is a critical part of building high performing tea
 The steps below outline the process promotion candidates should follow to request feedback as part of our bi-annual promotion process, key due dates, and helpful resources for both promotion candidates and feedback providers to review.
 
 1. Team members aligns with manager on promotion readiness and candidacy
-    - Ahead of requesting feedback, team members should have a conversation on promotion readiness with their manager. If there is alignment on readiness for the upcoming promotion cycle between both manager and team member, the team member qualifies as a "promotion candidate".
+    - Ahead of requesting feedback, team members should have a conversation on promotion readiness with their manager. If there is alignment on readiness for the upcoming promotion cycle between both manager and team member, the team member qualifies as a "promotion candidate". Managers should ensure that the CISO direct in their leadership chain is also aware and supportive of the promotion candidacy before kicking off the process. This also creates space for early feedback.
     - **Due date: 2024-05-31**
 2. Team member completes their [promotion document](/handbook/people-group/promotions-transfers/#promotion-document)
     - The promotion document completion should be team member driven with manager support, review, and feedback. Ahead of requesting feedback, the promotion document should be complete, as it will serve as the baseline to provide feedback. Team members should ensure their manager has reviewed their promotion document and is aligned with the content ahead of requesting feedback.
@@ -339,8 +339,9 @@ The steps below outline the process promotion candidates should follow to reques
     - Team member and manager compile themes to share with CISO direct. Leverage [this template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for theme compilation and analysis to ensure consistency. Analysis should focus on key themes and feedback provided in the Google Form.
     - CISO direct has the opportunity to review, provide feedback, and ask any clarifying questions to ensure they are able to represent the feedback in the CISO directs [calibration session](/handbook/people-group/promotions-transfers/#calibration).
     - **Due date: 2024-06-28**
-7. CISO direct adds feedback summary to calibration agenda
-    - CISO direct is responsible for adding promotion themes reviewed in Step 6 to the CISO directs promotion calibration agenda to ensure visibility ahead of the calibration session.
+7. CISO direct adds feedback summary to calibration spreadsheet
+    - CISO direct is responsible for adding the promotion feedback analysis compiled in Step 6 to the CISO directs promotion calibration spreadsheet to ensure visibility ahead of the calibration session. The spreadsheet is titled `Security Promotion Projections` for reference. 
+    - Add the complete [feedback analysis](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for each promotion candidate to column J and ensure that the CISO, CISO directs, and the Security [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) have access.
     - **Due date: 2024-07-05**
 8. Calibration session occurs
     - Calibration is scheduled for 2024-07-08 where CISO directs calibrate promotion candidates across the division.
@@ -687,13 +688,13 @@ All transfers should eventually be initiated by team members.
 - The hiring manager should post the open role in the `#new-vacancies` Slack channel to attract all potentially interested candidates.
 - It is highly discouraged to reach out to a potential candidate directly without talking to their manager first. The hiring manager should share their intention of reaching out to the current manager's team member to ensure transparency and awareness.
 
-#### When promotion is a consideration - Within Same Job Family
+### When promotion is a consideration - Within Same Job Family
 
 If a team member sees a vacancy posted that is the next level up within their [job family](/handbook/hiring/job-families/#job-families) (for example an Intermediate Frontend Engineer sees a vacancy for an Senior Frontend Engineer), the team member should have a conversation with their manager about exploring that opportunity.
 
 It is the manager’s responsibility to be honest with the team member about their performance as it relates to their promotion readiness. If the manager agrees that the team member is ready, then they will follow the cyclical promotion calibration process. If they do not think the team member is ready for the promotion, they should walk through their career development document, as well as work on a promotion plan with the team member. The manager should be clear that the team member is not ready for the promotion at this time and what they need to work on. If the team member would still like to submit an application for the role after the conversation with their manager, they can apply and go through the same interview process as external candidates. The recruiter will confirm with the manager that the promotion readiness conversation has taken place before the internal interview process starts.
 
-#### For Internal Applicants - Different Job Family
+### For Internal Applicants - Different Job Family
 
 If the role is in a completely different job family (within their own division or in a completely different division, for example, if a Product Designer is interested in a Product Manager role), the team member must submit an application via the posting on GitLab’s [internal job board](https://gitlab.greenhouse.io/internal_job_board) on Greenhouse.
 
@@ -703,7 +704,7 @@ It is recommended that team members inform their manager of their desire to move
 
 If you are unsure of the role, set up a coffee chat with the hiring manager to introduce yourself. Express your interest in the role and your desire to learn more about the vacancy requirements and skills needed. If after that conversation you do not feel that you are qualified or comfortable making the move, ask the hiring manager to provide guidance on what you can do to develop yourself so you will be ready for the next opportunity. It may also be possible to set up an [internship for learning]({{< ref "internship-for-learning" >}}) with the hiring manager.
 
-#### Announcing Internal Promotions/Transfers
+### Announcing Internal Promotions/Transfers
 
 While the [Career Mobility Issue](/handbook/people-group/promotions-transfers/#career-mobility-issue) aims to kick off the logistics of switching roles, the guidelines below are meant to guide the communication of internal promotions and transitions to ensure consistency and alignment from all parties involved.
 
@@ -724,7 +725,7 @@ While the [Career Mobility Issue](/handbook/people-group/promotions-transfers/#c
 
 NOTE: Although the Total Rewards and People Connect Team may have visibility into promotions or transfers due to the administration of updating information as part of their roles, they should not communicate with the team member about their promotion/transfer until an announcement has been made._
 
-#### For People Success & Talent Acquisition Team
+### For People Success & Talent Acquisition Team
 
 Vacancies will be posted internally using the Greenhouse internal job board for at least 3 business days. If a role is not posted internally there must be a business case documented in the Workday documents of the team member who received the new role. See [Department Transfers]({{< ref "promotions-transfers#department-transfers" >}}) for additional details.
 
@@ -784,22 +785,22 @@ This section describes the steps required for promoting or transferring employee
 
 **Note** These steps are in addition to all other steps required for promotions and transfers in partnership with the People team.
 
-#### For the Current Sales Managers
+### For the Current Sales Managers
 
 1. Determine the right path for the promotion and/or transfer. Our [promotion process]({{< ref "promotions-transfers" >}}) can be found in the handbook. For transfers, please confirm if there is an open role with your Sales recruiting team. Ensure necessary stakeholders and processes are followed in advance of processing a promotion and/or transfer.
 1. Open a [Territory Change Request issue](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/issues/new?issuable_template=Territory_Change_Request) to inform Sales Operations of the change so they can update Salesforce and the Territory Mapping SSOT.
 
-#### For Sales Recruiting
+### For Sales Recruiting
 
 1. Open a [Utilizing Backfill Headcount issue](https://gitlab.com/gitlab-headcount/sales-headcount/-/blob/master/.gitlab/issue_templates/utilizing_backfill_headcount.md) to inform Sales Finance of the promotion/transfer so they can update Adaptive.
 1. Tag the appropriate members of the Sales Finance and Sales Commissions team as indicated in the 'Approval' section of the issue template.
 
-#### For Sales Finance
+### For Sales Finance
 
 1. Update the team member's profile in Adaptive to account for the promotion/transfer.
 1. Partner with leadership and the People team on whether we need to open a requisition to backfill the empty role from which the team member was promoted/transferred.
 
-#### For Sales Commissions
+### For Sales Commissions
 
 1. Every month, identify new hires, promotions, and transfers in Workday.
 1. Create a monthly issue to notify the Sales Strategy and Analytics team of headcount changes. The Sales Strategy and Analytics team assigns quotas[^1] to sales employees within 4 weeks of the employee's hire/promotion/transfer date.

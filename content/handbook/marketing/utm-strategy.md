@@ -71,13 +71,13 @@ Use the [UTM builder googlesheet with formulas](https://docs.google.com/spreadsh
 * Fill in each attribute of your UTM parameter, including `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_budget`. If some of these UTM parameters are irrelevant to your campaign, keep them blank or remove from the final URL.
 * Destination URL will be generated automatically in column N, ready for you to use in your campaign. If you need to shorten your URL, use a tool like [bit.ly](https://bitly.com/).
 
-#### Measuting the sucess
+### Measuting the sucess
 
 Measure success of your campaign in the [TD Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/Overview?:iid=1) under "Bizible Channel Drill Down" or "Regional Campaign Drill Down" sections.
 
 ## UTM Values
 
-#### utm_medium
+### utm_medium
 
 **Campaign Medium** is the overarching channel bucket like email, display, etc. It answers the question of "How did they come to us?". utm_source will further categorize the overarching channel.
 You can choose a campaign medium from a provided picklist of values in the [URL Builder spreadsheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569). If you need a new campaign medium, please request this using slack channel: #mktg-strat-perf.
@@ -97,7 +97,7 @@ Current available options for `utm_medium` are as follows:
 * `webinar`    = 3rd party - sponsored event
 * `video` = 1st party - owned video
 
-#### utm_source
+### utm_source
 
 **Campaign Source** parameter can tell you which website is sending the traffic, and is a further "slicing" of overall channels. It answers the question of "how did they come to us?" but with more granular details than utm_medium.
 You can choose a campaign source from a provided picklist of values in the URL Builder spreadsheet. If you need a new campaign source, please request this using slack channel: #mktg-strat-perf.

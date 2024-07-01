@@ -62,7 +62,7 @@ Certain policies are now available [here](/handbook/people-policies/#translation
 
 ### Policy Change Management
 
-We anticipate the need for policy amendments and new policies and procedures, as GitLab continues to respond to the ever-evolving laws and regulations that our policies are designed to address. Team members who wish to implement new policies and/or amendments to policies identified [here](https://docs.google.com/spreadsheets/d/1tY5LEMsB8r7T4bcL7ZnBo5nuyyIg_ptO047hTlmAqYA/edit#gid=728066571) must document all necessary approvals (including DRI and Board, when necessary) using this [issue template](https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/policy-requests.md?ref_type=heads) prior to that policy’s implementation. Using this process allows GitLab to drive consistency across our policies and procedures and maintain approvals in one central location.
+We anticipate the need for policy amendments and new policies and procedures, as GitLab continues to respond to the ever-evolving laws and regulations that our policies are designed to address. Team members who wish to implement new policies and/or amendments to policies identified [here](https://docs.google.com/spreadsheets/d/1p5_02x6nBy1ftLYwhzTvm1lk47ijVdhlGVEJvU7M4xI/edit?usp=sharing) must document all necessary approvals (including DRI and Board, when necessary) using this [issue template](https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/policy-requests.md?ref_type=heads) prior to that policy’s implementation. Using this process allows GitLab to drive consistency across our policies and procedures and maintain approvals in one central location.
 
 ## Training
 

@@ -12,7 +12,7 @@ synced directly to the Zendesk instance it is for. Due to the sensitive and
 potentially destructive nature of the "backend" code, this requires Support
 Readiness review for any and all changes.
 
-#### How v1 works
+### How v1 works
 
 **NOTE** This details how it works at the root level. Please see
 [Change Management](../) for more information on how this is actually deployed.
@@ -40,7 +40,7 @@ maintained separately from the much safer "frontend" code. When using this
 method, Support Readiness review is not required for any changes to the
 "frontend" code.
 
-#### How v2 works
+### How v2 works
 
 **NOTE** This details how it works at the root level. Please see
 [Change Management](../) for more information on how this is actually deployed.

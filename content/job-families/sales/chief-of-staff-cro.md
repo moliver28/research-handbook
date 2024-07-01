@@ -52,7 +52,7 @@ This role does not overlap with the responsibilities [Executive Business Adminis
 - Bachelor's Degree in Business Administration, Finance, or a related discipline or prior work experience in one or more of these disciplines
 - Some travel will be required: Ability to travel to support the CRO, as needed
 
-#### Job Grade
+### Job Grade
 
 The Chief of Staff to the CRO is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

@@ -32,24 +32,24 @@ twitter_creator: gitlab
 
 ### Current Major Project Links
 
-##### Brand Campaigns
+#### Brand Campaigns
 
 [Brand Refresh](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2592){:.btn .btn-purple}
 [GitLab 15](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2591){:.btn .btn-purple}
 [Social Community Contributor](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2590){:.btn .btn-purple}
 
-##### Events
+#### Events
 
 [KubeCon EU 2022](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2564){:.btn .btn-purple}
 [REMOTE by GitLab event 2022](https://gitlab.com/groups/gitlab-com/-/epics/1728){:.btn .btn-purple}
 [GitLab Commit 2022](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2578){:.btn .btn-purple}
 [AWS reInvent 2022](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2589){:.btn .btn-purple}
 
-##### Talent Brand
+#### Talent Brand
 
 [FY23 Social Talent Brand](https://gitlab.com/groups/gitlab-com/-/epics/1729){:.btn .btn-purple}
 
-##### Other Campaigns
+#### Other Campaigns
 
 [2022 DevSecOps Survey](https://gitlab.com/groups/gitlab-com/-/epics/1730){:.btn .btn-purple}
 [2022 Remote Playbook](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5532){:.btn .btn-purple}

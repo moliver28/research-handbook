@@ -49,29 +49,29 @@ The benefit to GitLab is based on the premise that customers will renew and expa
 
 *Note: The use cases, approaches, and metrics below include current and planned use cases. The following are some examples of how GitLab may use operational data. Use cases may also be dependent on customer settings or consents the customer has provided to GitLab.*
 
-#### Identifying Expansion Opportunities
+### Identifying Expansion Opportunities
 
 1. Triggered CTA (call to action) and associated playbook for a CSM when a customer begins to adopt a new use case such as scanning. Often the central DevOps teams are not up to speed on how all of their users are using the platform. These these playbooks will guide the CSM in exploring the expansion with the customer and optimizing for this additional use case across the customer's broader user base.
 
-#### Identifying Enablement Opportunities
+### Identifying Enablement Opportunities
 
 1. Each customer's use case adoption will be measured against a maturity matrix/score, enabling customized enablement roadmaps per use case per customer based on areas of potential improvement
 
-#### Identifying & Mitigating Risk
+### Identifying & Mitigating Risk
 
 1. Triggered alerts in Gainsight to notify a CSM to take action when there are concerning patterns within the month over month operational data.
 1. Reporting and alerts when adoption across a use case goes from 'Green' to 'Yellow' or 'Red', indicating potential movement from a team off of the platform
 
-#### Success Planning and Outcome Delivery
+### Success Planning and Outcome Delivery
 
 - When a CSM is engaged, the usage data will be a key measure for the [customer success plan](/handbook/customer-success/csm/success-plans/) to ensure the customer is successfully adopting the use cases and features to deliver to their goals and objectives. Data and metrics will be leveraged and shared throughout the engagement and in customer [Executive Business Reviews](/handbook/customer-success/csm/ebr/).
 - In a digital-only engagement, the usage data will serve as a measure to ensure the customer adopts the [desired customer use cases](/handbook/customer-success/csm/success-plans/). The digital journey will be developed to serve key content to help customers adopt these use cases and progress through their customer journey.
 
-#### Onboarding
+### Onboarding
 
 - A measure of successful onboarding includes the activation and active use of licenses and potentially use case adoption.
 
-#### Adoption and Expansion
+### Adoption and Expansion
 
 - In alignment with a customer's goals, the adoption of the customer's desired use cases will be monitored and used to drive engagement activities based on operational data. Depending on the adoption progress, resulting actions could be:
   - CSM may provide enablement content (product documentation, educational videos, etc.), guidance on best practices and approaches, key capabilities to adopt, and/or services to ensure successful adoption.
@@ -80,7 +80,7 @@ The benefit to GitLab is based on the premise that customers will renew and expa
   - When mature adoption of desired use case(s) is complete, we may recommend additional use cases or capabilities that would provide added value to the customer.
 - The customer's services usage may indicate there are capabilities in a higher subscription tier that may provide additional value to the customer. This would be proposed by the CSM, sales representative, or digitally.
 
-#### Process and Playbooks
+### Process and Playbooks
 
 - The quality of key engagement processes and playbooks like onboarding, adoption, and expansion will be measured by usage stats to determine if changes drive desired improvements with customer adoption. Some objects may include:
   - Accelerating time-to-value and time to mature adoption of use cases
@@ -88,13 +88,13 @@ The benefit to GitLab is based on the premise that customers will renew and expa
   - Improving customer experience and satisfaction
   - Improving the success rates at expanding into new use cases
 
-#### Product
+### Product
 
 - Measure usage of features, stages, and use cases for Product Team key performance indicators (KPIs)
 - Understand usage of the product to identify and/or validate product investments to improve the product and customer experience
 - Identify customers who are using certain GitLab stages or use cases for feedback (through surveys, interviews, etc.)
 
-#### Marketing
+### Marketing
 
 - Identify and market to community users who could get additional value from paid subscription tiers
 - Utilize usage stats from customers to provide contextually relevant content and lifecycle marketing campaigns

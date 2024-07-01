@@ -7,7 +7,7 @@ title: "Day in the Life for the Security Operations Engineer persona"
 
 Today is a Monday. It’s the first day following a busy on-call week for Alex, having been on call the prior Monday to Friday. Having already handed off the on-call duties to a colleague who did the weekend shift, Alex plans on spending significant time today closing things off, as well as getting up to speed on work done by others.
 
-##### Morning: plugging-in
+### Morning: plugging-in
 
 Opening the laptop, Alex’s first objective is getting up to speed. It’s really important for Alex to know what’s going on and be responsive, even while not being on-call. Alex checks the Security Department and Security Alerts channels on Slack to see what came in over the weekend, and also checks emails and TODOs, replying to various queries and requests. This usually takes Alex about 30 minutes to an hour.
 
@@ -19,7 +19,7 @@ As part of getting up to speed on regular sec engineering work, Alex has a 1:1 w
 
 A few meetings and one lunch later, it’s the afternoon.
 
-##### Afternoon: “clean-up” mode
+### Afternoon: “clean-up” mode
 
 Alex has a lot of loose ends to tie following the on-call week, which makes those few days following being on-call a bit more hectic. Even though no longer on-call, Alex still owns the follow-up on any issues that were opened during the on-call shift. Alex still has a few of them opened right now, and so getting those closed in the next few days is top priority.
 

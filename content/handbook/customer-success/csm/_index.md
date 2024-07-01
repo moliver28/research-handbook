@@ -210,7 +210,7 @@ Landing Zones
 - [Risk Types, Discovery & Mitigation](/handbook/customer-success/csm/risk-mitigation/)
 - [Workshops and/or Lunch-and-Learns](/handbook/customer-success/csm/workshops/)
 
-##### Digital Customer Programs
+#### Digital Customer Programs
 
 - [Digital Customer Programs Handbook Page](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
   - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/index.html#csm-assigned-account-programs)

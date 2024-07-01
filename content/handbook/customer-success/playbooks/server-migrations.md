@@ -29,7 +29,7 @@ Additionally, each of these migrations will have there own playbook in Gainsight
 
 There are a number of different methodologies for migrating GitLab. This section details the most likely methodologies and the pros/cons of each.
 
-#### GitLab Geo
+### GitLab Geo
 
 [GitLab Geo](https://about.gitlab.com/solutions/geo/) is built-in functionality that is included with GitLab Premium. It allows a customer to create a read-only replica server that is automatically updated with every change made to the primary server. It also allows for manual failover for disaster recovery. This failover functionality is what makes GitLab Geo an excellent option for server migrations.
 
@@ -48,7 +48,7 @@ There are a number of different methodologies for migrating GitLab. This section
 - Geo setup is non-trivial.
 - Geo adds additional complexity to the migration (ie, there are more moving parts and therefore more things that can go wrong).
 
-#### Rsync
+### Rsync
 
 Rsync is a standard Linux/Unix tool used to transfer files from a remote location to a local machine.
 
@@ -66,7 +66,7 @@ Rsync is a standard Linux/Unix tool used to transfer files from a remote locatio
 - Multiple Rsyncs will be required. Usually a preliminary Rsync to pre-populate the server in advance, followed by a second Rsync to "catch up" on new data since the initial sync.
 - Performing multiple Rsyncs can allow for unusual interactions with git repo files. Make sure all Rsyncs after the first use the *--delete* flag.
 
-#### GitLab Backup & Restore
+### GitLab Backup & Restore
 
 GitLab does include [backup & restore functionality](https://docs.gitlab.com/ee/raketasks/backup_restore.html).
 
@@ -81,7 +81,7 @@ GitLab does include [backup & restore functionality](https://docs.gitlab.com/ee/
 - Downtime will be longer as you wait for the backup, transfer and restoration of data.
 - There is no opportunity to pre-populate the new server and transfer over just the delta.
 
-#### GitLab Project Export & Import
+### GitLab Project Export & Import
 
 GitLab has [export/import functionality](https://docs.gitlab.com/ee/user/project/settings/import_export.html) that allows the per project transfer of projects from one server to another.
 

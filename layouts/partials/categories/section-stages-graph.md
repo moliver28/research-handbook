@@ -1,4 +1,5 @@
 {{ $params := . }}
+
 ```mermaid
 graph TD;
 {{ range $stages_k, $stages_v := site.Data.public.stages.stages }}
@@ -13,4 +14,5 @@ graph TD;
   {{ end }}
 {{ end }}
 ```
+
 _Click on a group name to see more details._

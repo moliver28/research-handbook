@@ -84,7 +84,7 @@ The Digital Experience Operations Manager is a [grade 8](/handbook/total-rewards
 
 The Manager, Digital Experience reports to the Director, Digital Experience.
 
-#### Manager, Digital Experience Job Grade
+### Manager, Digital Experience Job Grade
 
 The Manager, Digital Experience is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

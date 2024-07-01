@@ -24,20 +24,20 @@ All feedback should be recorded in Greenhouse and/or discussed live with the hir
 
 ## Before the Interview
 
-#### Familiarize yourself with the job description
+### Familiarize yourself with the job description
 
 - Ensure you’ve read the description of the role you’re going to be interviewing candidates for. This can be found in the job family page.
 - If you have any questions about the scope of the role, the team, or the responsibilities of the position after you’ve read through those resources be sure to reach out to the Hiring Manager with your questions.
 
-#### Align with the Hiring Manager on competencies
+### Align with the Hiring Manager on competencies
 
 - It’s important to have a clear understanding of what you are assessing during your time with the candidate. Your recruiter will partner with the Hiring Manager and the rest of the interview team to ensure alignment.
 
-#### Review the interview kit in Greenhouse
+### Review the interview kit in Greenhouse
 
 - In the interview kit, you’ll be able to view the candidate’s resume, the description of the interview you’re expected to lead, the scorecard you’ll be evaluating the candidate against, and the suggested questions you ask during the interview.
 
-#### Make sure you’re up to date on our latest Talent Brand assets and accomplishments
+### Make sure you’re up to date on our latest Talent Brand assets and accomplishments
 
 - Make sure you know our latest headcount, notable awards, messaging, and other facts about working at GitLab. Take a look at these talent brand resources to help guide your conversation with candidates.
 
@@ -45,7 +45,7 @@ Learn more about pre-interviewing preparation in the Interviewer Training Module
 
 ## During the Interview
 
-#### Interview Structure
+### Interview Structure
 
 It’s important to allocate the right amount of time for each part of the interview. You can think of the structure of an interview as having 3 parts: 1) introductions, 2) questions for the candidate, and 3) questions from the candidate.
 
@@ -55,7 +55,7 @@ It’s important to allocate the right amount of time for each part of the inter
 1. Interviewer questions for the candidate = 80-85%
 1. Candidate questions for the interviewer = 5-10%
 
-#### Quick Tips
+### Quick Tips
 
 - Show up prepared and on time.
 - Be cognizant of where the candidate is at in the interview process. Are you the first interviewer? Are you the third? Be aware that the candidate has likely repeated themselves quite a bit and has already asked many of the general questions they had about the position in previous interviews.

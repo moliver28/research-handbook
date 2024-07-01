@@ -38,7 +38,7 @@ The following guide can be used to integrate GitLab.com with Jira Software Cloud
 
 Prerequisite: Must be a `Premium` group owner on GitLab.com
 
-#### GitLab Jira integration
+### GitLab Jira integration
 
 1. You can either create your own free Jira Software Cloud environment or use the environment listed under `Jira Integration Demo Login` in 1Password.
    - If using the `Jira Integration Demo Login` select the `spring-integrations` project in Jira and go to the issue board.
@@ -52,7 +52,7 @@ Prerequisite: Must be a `Premium` group owner on GitLab.com
 8. Go to Jira again via the link in the GitLab menu.
 9. Navigate to the Jira issue board and select your issue (*SI-X* if using the `spring-integrations` project). Note the GitLab content is now present in the Comments area. If you have Jira open in another browser tab, the updated comments will show immediately upon refresh of the page’s content.
 
-#### Dev Panel integration using the GitLab for Jira app
+### Dev Panel integration using the GitLab for Jira app
 
 1. Follow the [GitLab.com Development Panel](https://docs.gitlab.com/ee/integration/jira/index.html#configuration) instructions.
 2. Navigate to the Jira issue board and select your issue (*SI-X* if using the `spring-integrations` project). Note the GitLab commit and branch information displayed in the Development panel on the right side.

@@ -58,7 +58,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Tenant Scale
 
-{{< team-by-manager-slug manager="arturo-herrero" >}}
+{{< team-by-manager-slug manager="sissiyao" >}}
 
 ## Stable Counterparts
 

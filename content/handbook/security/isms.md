@@ -11,17 +11,17 @@ GitLab has adopted the ISO/IEC 27001:2022, ISO/IEC 27017:2015 and ISO/IEC 27018:
 
 The scope of GitLab's ISMS is limited to the production resources that directly support GitLab SaaS subscriptions: GitLab.com and GitLab Dedicated.
 
-#### Assets
+### Assets
 
 Assets within the scope of the ISMS include: customer data, software, people, and internal information assets to host and operate the cloud-based solution.
 
 External assets that are subject to shared responsiblity include cloud service providers. The scope of shared responsibility considerations include: assets maintained and stored in the cloud computing environment, infrastructure assets management, processes that run on a multi-tenant virtualized environment, and cloud service administration.
 
-#### Excluded from Scope
+### Excluded from Scope
 
 As an all remote company, there are no physical office locations in the scope of the ISMS. Contracted third party data center services to include physical and environmental controls are not in scope and are managed by the third party service providers.
 
-#### Locations
+### Locations
 
 GitLab's headquarter mailing address is in scope and covers all sub organizations. Please note this is a mailing address only, there is no physical location to visit:
 

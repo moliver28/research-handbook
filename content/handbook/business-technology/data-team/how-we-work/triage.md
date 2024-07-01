@@ -5,7 +5,7 @@ description: "GitLab Data Triage Guide"
 
 ## <i class="fas fa-users fa-fw color-orange font-awesome" aria-hidden="true"></i>Data Triage
 
-#### Enterprise Data Program Triage
+### Enterprise Data Program Triage
 
 GitLab has a robust and vibrant Data Program which includes a Central Data Team and many Functional Analytics Teams. GitLab total team members are growing as well and we need to uplevel our triaging process to keep up with GitLab's growth.
 

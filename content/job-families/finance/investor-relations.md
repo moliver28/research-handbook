@@ -7,11 +7,11 @@ description: "The Investor Relations team drives the strategy and long-term mark
 
 The Investor Relations analyst will be involved in multiple IR activities. They develop a deep and strategic understanding of GitLab's business, industry and competitors, and work directly with senior executives and Wall Street analysts. The IR Analyst enables the team to scale GitLab's activities, reach more investors, and leverage our C-level executives. We are a small team, so the IR analyst will experience all aspects of IR.  This role reports to the Vice President of Investor Relations.
 
-#### Job Grade
+### Job Grade
 
 The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
+### Responsibilities
 
 - Develop a deep understanding of GitLab’s initiatives, the broader DevOps ecosystem, and the competitive environment to shape the investment thesis.
 - Assist in the quarterly earnings process including overall messaging development, datapoint collection and synthesis, scripts, Q&A prep, and conference call prep.
@@ -23,7 +23,7 @@ The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensati
 - Develop strategies and implement programs to keep the financial community current on company performance and industry trends.
 - Manage sell-side analyst models and monitor consensus vs. our forecast.* Track investor base and aid in targeting efforts to appropriate investors, to expand and maintain key ownership positions.
 
-#### Requirements
+### Requirements
 
 - Bachelor’s degree in business or related field; advanced degree is preferred.
 - 2+ years’ experience in investment banking, private equity, equity research, corporate development or similar field.
@@ -37,11 +37,11 @@ The Investor Relations Analyst is a [grade 6](/handbook/total-rewards/compensati
 
 The Vice President of Investor Relations drives the strategy and long-term market positioning of GitLab in the public financial markets. This position reports to the CFO and works closely with senior leadership across the company including interaction with the executive team. This position will be responsible for developing and executing an effective investor communications strategy, performing financial analysis, and maintaining strong relationships with investors, investment banks and analysts. The VP of IR is expected to be deeply immersed in GitLab’s values of transparency and efficiency and has a passionate point of view of how to incorporate those values into GitLab’s investor relations strategy and process.
 
-#### Job Grade
+### Job Grade
 
 The Vice President, Investor Relations is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).\
 
-#### Responsibilities
+### Responsibilities
 
 1. Develop long term relationships with industry analysts and investors to communicate the company’s financial results and strategic positioning.
 1. Design the quarterly earnings process and Q&A topics in partnership with CEO, CFO and executive team.
@@ -54,7 +54,7 @@ The Vice President, Investor Relations is a [grade 12](/handbook/total-rewards/c
 1. Prepare quarterly earnings release materials including press releases, conference call scripts, Q&A and slide presentation; prepare other financial press releases and supplemental materials.
 1. Liaise with Analyst and Media Relations and Corporate Communications on materials such as press and earnings releases, for dissemination to the public.
 
-#### Requirements
+### Requirements
 
 1. Senior level leadership experience in Investor Relations and related roles.
 1. Excellent writing skills for crafting scripts, financial presentations, investor kits, etc.

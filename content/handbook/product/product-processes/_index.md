@@ -1898,7 +1898,7 @@ Don't forget to thank the authors for the time and effort taken to submit the
 feature request/merge request. In all cases and without exception, you should be
 nice and polite when interacting with users and customers.
 
-##### Reaching out to specific users or accounts based on GitLab usage
+#### Reaching out to specific users or accounts based on GitLab usage
 
 You may want to interview a specific account because they are exhibiting atypical usage patterns or behaviors. In this case, [request Support to contact GitLab.com user(s) on your behalf](../../support/internal-support/#gitlab-changes-and-contacting-users).
 

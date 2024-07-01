@@ -335,23 +335,23 @@ Analytics allow you to access in-depth insights about your videos and your Vimeo
 
 To access video [analytics](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview), hover over `Manage Videos` in the top left navigation menu and click `Analytics`.
 
-[View the knowledgebase article](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview) for a full tutorial.  
+[View the knowledgebase article](https://vimeo.zendesk.com/hc/en-us/articles/224820247-Analytics-overview) for a full tutorial.
 
 ## Integrations
 
-#### Okta
+### Okta
 
 Vimeo is integrated with Okta for [access](#access).
 
-#### Slack
+### Slack
 
 If there is an interest to pursue the [Slack integration](https://vimeo.zendesk.com/hc/en-us/articles/360001939888-Slack-integration) for your team or project, please open an issue in marketing ops.
 
-#### Social Media
+### Social Media
 
 [Evaluating](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/3872).
 
-#### Google Tag Manager
+### Google Tag Manager
 
 The following event actions are sent from the player and are [being tracked via Google Tag Manager](https://help.vimeo.com/hc/en-us/articles/115002859607-Integrating-with-Google-Tag-Manager):
 

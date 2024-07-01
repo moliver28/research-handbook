@@ -23,7 +23,7 @@ this training material will go over the various folders and files to help you
 understand the general layout of the repo and how it translates into the page
 itself.
 
-#### _includes folder
+### _includes folder
 
 The _includes folder within the repo is used to store partials (ie HTML files
 that make up a part of a page instead of a whole page). What exactly one uses in
@@ -31,14 +31,14 @@ the `_includes` folder depends on the developer. For the Support Team Page, we
 use it to contain the HTML head DOM, any Javascript blocks we might use, and the
 navigation bar.
 
-#### _layouts folder
+### _layouts folder
 
 The _layouts folder is used for creating HTML template files you can utilize in
 the various pages of your site. You can have as many as you want and can use
 these in the site generation files as you see fit, but for the Support Team
 Page, we use one single template file: default.html
 
-#### _sass folder
+### _sass folder
 
 The _sass folder is used to store SCSS files. SCSS, or Syntactically Awesome
 Style Sheet (where SAAS comes from), files are more advanced versions of CSS
@@ -46,7 +46,7 @@ Style Sheet (where SAAS comes from), files are more advanced versions of CSS
 that can use things such as variables. We use a single `main.scss` file for the
 Support Team Page.
 
-#### assets folder
+### assets folder
 
 The assets folder is used to store static content, such as CSS files, images,
 Javascript files, fonts, etc. While the exact method to use this can vary based
@@ -57,7 +57,7 @@ assets folder to store static files:
 - images - Stores image files
 - js - Stores javascript files
 
-#### collection folders
+### collection folders
 
 Collection folders as used to store files relating to a collection, which is a
 Jekyll way of grouping related content. Collections are defined in the
@@ -75,7 +75,7 @@ As we generate these dynamically via the CI/CD (see
 [file generation](#file-generation)), the folders do not contain any
 data normally.
 
-##### collection file
+#### collection file
 
 A collection file is simply a file within a collection folder than contains
 information/content about said collection item. The exact contents of the file
@@ -128,7 +128,7 @@ Using this example, we have 4 variables associated to this member:
 - module_catalog.gitlab-group
 - module_catalog.maintainers
 
-#### _config.yml
+### _config.yml
 
 This is the file that Jekyll uses to determine how to setup and build the site.
 The contents within can also be used as variables in the site files themselves.

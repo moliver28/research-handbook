@@ -76,7 +76,7 @@ The benefits of frequent peer review sessions include:
 1. **Skill Development**: Participating in peer review sessions hones team members' analytical and critical thinking skills. Constructive feedback and discussions contribute to professional growth and development.
 1. **Confidence Boost**: Knowing that the approach and the action plan have undergone rigorous peer review instills confidence in the team's work and gives them assurance when presenting to prospects and customers.
 
-#### Process
+### Process
 
 - Process DRI (rotated monthly or quarterly )
   - Ensures that every session has one or multiple volunteers to present an opportunity for review. If no volunteers are identified, the process DRI is responsible for cancelling the meetong
@@ -92,7 +92,7 @@ The benefits of frequent peer review sessions include:
     - _Did you consider suggesting Scan Result Policies?_
     - _Your running notes have great info about the tech stack, how were you able to find that?_
 
-#### Choosing the right opportunity
+### Choosing the right opportunity
 
 A good opportunity for a peer review process should meet following requirements:
 

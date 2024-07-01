@@ -231,7 +231,7 @@ the language and framework and build an appropriate Docker image.
 
 ## Runner progress
 
-#### (optional: if CI/CD is taking a while)
+### (optional: if CI/CD is taking a while)
 
 While it’s running, we can head back to our Kubernetes console to see that our
 GitLab Runner is working directly with Kubernetes to spawn new containers for
@@ -263,7 +263,7 @@ and other quality problems. Catching these types of problems early makes them
 
 ### Container scanning (Security)
 
-##### (optional: requires GitLab Ultimate)
+#### (optional: requires GitLab Ultimate)
 
 > - Click back (to pipeline view)
 > - Click `container_scanning`
@@ -274,7 +274,7 @@ application is running in as secure an environment as possible from the start.
 
 ### Dependency scanning (Security)
 
-##### (optional: requires GitLab Ultimate)
+#### (optional: requires GitLab Ultimate)
 
 > - Click back (to pipeline view)
 > - Click `dependency_scanning`
@@ -286,7 +286,7 @@ development gets too far.
 
 ### License compliance (Verify)
 
-##### (optional: requires GitLab Ultimate)
+#### (optional: requires GitLab Ultimate)
 
 > - Click back (to pipeline view)
 > - Click `license_management`
@@ -298,7 +298,7 @@ early, before it is more costly to change.
 
 ### Static Application Security Testing (Security)
 
-##### (optional: requires GitLab Ultimate)
+#### (optional: requires GitLab Ultimate)
 
 > - Click back (to pipeline view)
 > - Click `sast`

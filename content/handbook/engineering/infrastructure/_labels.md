@@ -23,7 +23,7 @@ Other labels are relevant to issues in the board:
 | `KPI`             | Denotes KPI-related issue. It is used to track progress on definition, implementation and tracking of Infrastructure KPIs. |
 | `workflow-infra::state` | Denotes the state of an issue according to our [workflow](https://gitlab.com/gitlab-com/gl-infra/infrastructure/-/labels?utf8=%E2%9C%93&subscribed=&search=workflow-infra) conventions: `Ready`, `In Progress`, `Under Review`, `Blocked`, `Done`, and `Cancelled`. |
 
-##### List Labels
+#### List Labels
 
 Board lists are driven by the following labels:
 
@@ -36,7 +36,7 @@ Board lists are driven by the following labels:
 | *group* | `workflow-infra::In Progress` | Issues in progress          | Issues must always have a **Due Date**     |
 | *group* | `workflow-infra::Blocked`     | Issues blocked              | Issues must describe what can unblock them |
 
-##### Priority and Criticality Labels
+#### Priority and Criticality Labels
 
 Issues are labeled by priority and criticality. Priority incidetes what should be worked on first. Criticality describes the risk of not doing the work.
 
