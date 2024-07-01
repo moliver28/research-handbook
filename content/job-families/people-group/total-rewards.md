@@ -17,12 +17,14 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 
 **Compensation:**
 
+<!-- vale handbook.Repetition = NO -->
 | Role                                                | Grade |
 |-----------------------------------------------------|-------|
 | [Compensation Coordinator](#compensation-coordinator) | 5 |
 | [Compensation Analyst](#compensation-analyst) | 6 |
 | [Senior Compensation Analyst](#senior-compensation-analyst) <br> [Compensation Program Manager](#compensation-program-manager) | 7 |
 | [Manager, Compensation](#manager-benefits) <br> [Compensation Partner](#compensation-partner) | 8 |
+<!-- vale handbook.Repetition = YES -->
 
 **Leadership:**
 

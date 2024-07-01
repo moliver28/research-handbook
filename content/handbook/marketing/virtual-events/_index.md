@@ -30,7 +30,7 @@ We have 3 separate Google calendars to manage different types and platforms of v
 
 All 3 calendars are consolidated into a single GitLab virtual events calendar view (above - calendars are not public because they contain secure login for presenters). **The purpose of the consolidated view is to help event organizer(s) minimize topic overlap with other GitLab virtual events happening around the same time and to provide executive visibility into ALL virtual events that GitLab is running/participating in.**
 
-#### Glossary of calendar event naming convention
+### Glossary of calendar event naming convention
 
 {: #calendar-glossary}
 
@@ -50,7 +50,7 @@ The [external virtual events](https://calendar.google.com/calendar?cid=Z2l0bGFiL
 
 **DRI adding to external virtual events calendar: Sponsor owner**
 
-##### Planned external virtual events
+### Planned external virtual events
 
 {: #calendar-planned-external-virtual-event}
 As soon as you create the epic for the sponsored virtual event, add the event to the external virtual events calendar by creating an event on the day the sponsored virtual event will be live.Make sure to also include the link to the epic in the calendar description.
@@ -60,7 +60,7 @@ As soon as you create the epic for the sponsored virtual event, add the event to
 * For executive round tables please use the following naming convention `[Hold ER sponsored] Event title` (e.g: `[Hold ER sponsored] DevOps 101`).
 * For vendor arranged meetings, please use the following naming convention  `[Hold VA sponsored] Vendor Name Region` (e.g: `[Hold VA sponsored] Captive Eight APAC`).
 
-##### Confirmed external virtual events
+### Confirmed external virtual events
 
 {: #calendar-confirmed-external-virtual-event}
 Once the sponsorship has been confirmed, go to your calendar event and remove `Hold` from the event title. **Note:** In the spirit of efficiency and to avoid creating multiple calendar invites, please include the epic or issue, add the marketing DRI, any GitLab speakers and/or attendees (SAEs, SAs, etc.), as well as any other team members who would benefit from being included in the calendar invite as this invite will provide a hold for team members participating in the event. The 3rd party sponsor will send out additional event details separately.
@@ -104,7 +104,7 @@ This is a GitLab-hosted virtual event with `Webcast` type configuration, which *
 {: #workshops}
 Field Marketing runs hands-on workshops virtually. Regardless or not if there will be money spent to advertise these workshops, marketers are to use the webcast event type. A few more points to note:
 
-* Our GitLab demo environment cannot support more than 250 people, therefore we need to be able to cap registration at no more than 400-500 people. The Self-Service option does not allow for registration to be capped. You can require approval, but Zoom doesn’t allow customization of the rejection email (and it isn’t clear if a rejection email is even sent).
+* Our GitLab demo environment cannot support more than 250 people, therefore we need to be able to cap registration at no more than 400-500 people. The Self-Service option does not allow for registration to be capped. You can require approval, but Zoom doesn't allow customization of the rejection email (and it isn't clear if a rejection email is even sent).
 * By using Zoom webcast for these workshops we are able to more easily track and manage the Q&A coming in from the larger audience. With the chat feature in the Self Service Zoom offering, the chat runs long and can become confusing.
 * There is a more professional look and feel of a Webcast run event vs a self-service run event.
 
@@ -173,7 +173,7 @@ Below is a summary of the promotion plan for webcasts. MPMs will be responsible 
 
 {: #operations}
 
-#### Zoom capabilities
+### Zoom capabilities
 
 {: #zoom-capabilities}
 
@@ -358,19 +358,19 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
   * If possible allow community/ attendees engage with speakers post talk.
 * Find ways to keep the discussion going- the event shouldn't end with the camera stops. Decide on a CTA. Let folks know next steps and how to continue to engage and educate themselves.
 * Have a plan for content use and distribution post-event. Be sure to communicate to the audience if they will receive the slides/recording and also a timeframe in which they will receive the content.
-    * For both GitLab-owned and external events, speakers and content DRIs should build in steps for legal approvals from necessary parties on pubic-facing presentations before materials are due.
+  * For both GitLab-owned and external events, speakers and content DRIs should build in steps for legal approvals from necessary parties on pubic-facing presentations before materials are due.
 
 ### Event Planner Best Practices (Virtual Sponsored Conferences/Events)
 
 {: #best-practices-sponsored-events}
 
 * Unlike in-person events, there are not usually drink receptions, food and other activities that drive traffic to a virtual booth. If there is gamification, it also is not a guarantee someone will actually talk to someone in the booth. Do not expect to get the same type of traffic you would at an in person event.
-* To help drive traffic, staff and schedule SDRS and others to attend and network outside of the booth as well, whether that be through direct messages, in sessions, or any other networking features the event provides. Be mindful and encourage SDR’s to direct messages strategically, avoiding mass messaging everyone at the conference. This is often not an appreciated outreach and will be disregarded.
+* To help drive traffic, staff and schedule SDRS and others to attend and network outside of the booth as well, whether that be through direct messages, in sessions, or any other networking features the event provides. Be mindful and encourage SDR's to direct messages strategically, avoiding mass messaging everyone at the conference. This is often not an appreciated outreach and will be disregarded.
 * In AMER, Solution Architects will not join regional virtual sponsored conferences unless otherwise specified. If technical questions arise during the event, please list the question(s) into the `#cs-questions` slack channel. SA Manager is to be included on the event issue and a heads-up will be given in the `#cs-questions` Slack channel so the SA team knows an event will be occurring and to expect questions.
 * Have staff reach out to booth leads as soon as they connect with you to help drive engagement and conversations during the event. Aim to set post event appointments.
 * Create a list of sessions/tracks relevant to GitLab and encourage staff to attend.
 * Post incremental updates in the internal event slack channel or have a daily sync about progress on the event goals, any updates, what to expect that day such as speaking slots or other relevant sessions.
-* If you are the event planner, you may want to create an event profile as “GitLab Moderator” so you can create more brand awareness and manage more aspects of the event without being tied to yourself. It also gives another opportunity for people to interact with the brand if they don’t know where to start.
+* If you are the event planner, you may want to create an event profile as "GitLab Moderator" so you can create more brand awareness and manage more aspects of the event without being tied to yourself. It also gives another opportunity for people to interact with the brand if they don't know where to start.
 * If the event is free or inexpensive, you will likely get people who reach out about hiring. Have a script ready for these questions.
 
 ### Speaker Best Practices
@@ -385,18 +385,18 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
   * Share slides in advance when possible and at the beginning of your session. This can help people follow along in the event of any technical difficulties.
 * Wear camera-ready colors- [see doc](https://docs.google.com/document/d/1rPvewsTWm8uqGv-6Wr4-_j4ZmBVjL75fU5_YGV98d24/edit?ts=5e74125a)
 * Remember your background: this will be recorded and published online.
-    * Recommend using [GitLab branded virtual backgrounds](https://about.gitlab.com/press/press-kit/).
+  * Recommend using [GitLab branded virtual backgrounds](https://about.gitlab.com/press/press-kit/).
 * Slides: use a large clear font. You do not know what device the viewer will be on.
-* Don’t move around a lot.
+* Don't move around a lot.
 * Look at the camera.
 * Dress as if you were at an actual conference.
 * If someone will be introducing you, ensure they know how to pronounce your name, title, and GitLab correctly.
 * Ask for a copy of the recording and post the recording on the relevant channel.
 * If there is a chat function on the speaking session:
-     * Have designated staff to attend and show up before the speaking slot starts.
-     * Have staff post in the chat that they are a representative of GitLab and happy to answer any questions.
-     * Know what links or topics are mentioned in the presentation and have UTM links to them ready to post. Good ones to have on hand in addition are the company handbook, our all-remote guide, link to the free trial
-     * If at a sponsored event with a booth- At the end, encourage participants to stop by the virtual booth if they still have questions, with a link to the booth.
+  * Have designated staff to attend and show up before the speaking slot starts.
+  * Have staff post in the chat that they are a representative of GitLab and happy to answer any questions.
+  * Know what links or topics are mentioned in the presentation and have UTM links to them ready to post. Good ones to have on hand in addition are the company handbook, our all-remote guide, link to the free trial
+  * If at a sponsored event with a booth- At the end, encourage participants to stop by the virtual booth if they still have questions, with a link to the booth.
 
 ### Attendees: How to get the most out of attending a virtual event
 
@@ -405,7 +405,7 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
 * Guide and enable people to share on social .
 * Remind them how they will be able to access content post-event.
 * Teach them how to use the platform you are doing the event on.
-* Add “- GitLab” and the end of your name or “- your title” to your event profile depending on what is displayed in the event when in chat rooms or other interactive areas. If the event platform accepts emoji (often possible if there is a mobile app) feel free to use the fox emoji or something else that shows your personality.
+* Add "- GitLab" and the end of your name or "- your title" to your event profile depending on what is displayed in the event when in chat rooms or other interactive areas. If the event platform accepts emoji (often possible if there is a mobile app) feel free to use the fox emoji or something else that shows your personality.
 * Add a profile picture to your virtual profile if you have the option. It adds a more humanistic touch. If you do not feel comfortable using your image, please use one of the company logos instead.
 
 ### Attendee/Staff Best Practices (Virtual sponsored conferences) - Simulating Hallway Traffic and Connections

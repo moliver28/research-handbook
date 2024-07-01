@@ -80,7 +80,7 @@ You might expect to hear back from us via email within three business days from 
 
 Successful candidates will be moved to the next step: Technical Interview.
 
-The Technical Interview will involve live break-fix/bug-fix scenarios, as well as customer scenarios. You will need to have access to a terminal with Bash or similar. You will also need to have an SSH key pair loaded locally so you can connect to the server. Windows users must have ‘Git Bash for Windows’ installed prior to the call.
+The Technical Interview will involve live break-fix/bug-fix scenarios, as well as customer scenarios. You will need to have access to a terminal with Bash or similar. You will also need to have an SSH key pair loaded locally so you can connect to the server. Windows users must have 'Git Bash for Windows' installed prior to the call.
 
 If you're unable to install software on your computer you may be able to use the free tier of a cloud provider. See a video one of our Support Team [preparing Google Cloud Shell for the Support Tech Interview](https://youtu.be/qvAd9O2z6To).
 

@@ -51,19 +51,19 @@ Google Sheets is the most common zap we currently use, but other connectors (lik
 
 The Marketo program needs to be set up prior to connecting to Zapier. Ensure there is a list in Marketo that Zapier can push the leads to. Setup instructions are found [here](/handbook/marketing/marketing-operations/). Make sure that form responses are properly configured to match picklists found in [list uploads](/handbook/marketing/marketing-operations/list-import/), otherwise you will run into errors when syncing the lead to SFDC from Marketo.
 
-#### Step 1:  Access to proper accounts
+### Step 1:  Access to proper accounts
 
 * Make sure you have edit access to the google sheet, and that your account has been set up in Zapier.
 * Ensure there are already columns set up with the proper information you want to captured.
 * Include one row of data in that worksheet (can be dummy data), it is useful for testing and mapping.
 
-#### Step 2: Navigate to `Zaps`
+### Step 2: Navigate to `Zaps`
 
 * Go into the `Marketo` Folder
 * You can clone an existing Zap, or `Create Zap`
 * Name your Zap
 
-#### Step 3: Choose the correct App or Event
+### Step 3: Choose the correct App or Event
 
 * In this case, Google Sheets
 * Select Trigger EventBrite
@@ -74,14 +74,14 @@ The Marketo program needs to be set up prior to connecting to Zapier. Ensure the
 * Test the trigger, this will look for a lead on the spreadsheet
 * If you cannot find the right spreadsheet, you can click `Refresh Fields`. If it is still not there, make sure you have the correct access to that spreadsheet.
 
-#### Step 4: Connect Marketo
+### Step 4: Connect Marketo
 
 * Click `+` and find `Marketo`
 * Select `Create or Update Lead`
 * Select `Marketo Zapier API` as the account
 * Click Continue
 
-#### Step 5: Field mapping
+### Step 5: Field mapping
 
 * With your google sheet handy, map all of the fields you want to capture from that google sheet, and add them to the corresponding Marketo field.
 * You MUST include `email` otherwise it will fail.
@@ -91,7 +91,7 @@ The Marketo program needs to be set up prior to connecting to Zapier. Ensure the
 
 Note: There is a lag between clicking into a field and having the information populate, so be patient and only click once!
 
-#### Step 6: Add to list
+### Step 6: Add to list
 
 * Click the `+` and find `Marketo`
 * Select `Add Lead to List`
@@ -101,11 +101,11 @@ Note: There is a lag between clicking into a field and having the information po
 * In the `Lead` field, select the `Lead ID` from your example test above.
 * Click Contine and Test
 
-#### Step 7: Test
+### Step 7: Test
 
 Test this by making sure that example lead is added to the Marketo Program. As stated above, there should be a smart campaign that triggers off of a lead being added to a list. Ensure that the proper information is filled out, and formatting is correct. Improper values in State/County, Employees, etc can all make the lead creation fail (just like a regular [list upload](/handbook/marketing/marketing-operations/list-import/)).
 
-#### Step 8: Turn On
+### Step 8: Turn On
 
 If all looks good, toggle the `on` button `on` in the top right of your screen.
 

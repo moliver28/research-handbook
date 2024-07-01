@@ -40,15 +40,15 @@ Managing any team remotely is much like managing in-person. We've created an in-
 Most challenges associated with all-remote L&D can be addressed at the [hiring stage]({{< ref "./hiring" >}}). All-remote companies should seek team members who want to be a manager of one, thrive in environments of high autonomy, and who embrace virtual communication mediums. Learn more about [how to hire in an all-remote company]({{< ref "./hiring" >}}).
 
 - **No guarantee of uptake**: In all-remote settings, educators and trainers must design courses that hold the attention of remote pupils, understanding that they may be engaged with the coursework in highly unconventional settings. In turn, it is difficult to guarantee that participants are truly internalizing what's being conveyed.
-- **Live feedback/Q&A is hard**: At GitLab, we aim to operate [asynchronously]({{< ref "./asynchronous" >}}), staying true to our values of [Efficiency]({{< ref "values#efficiency" >}}) and [Results]({{< ref "values#results" >}}). Due to this, it's difficult to find time to hold a question and answer session with a large group of students. Utilizing [a Google Doc]({{< ref "communication#google-docs" >}}), where questions can be discussed and answered in real time, is a workaround.
+- **Live feedback/Q&A is hard**: At GitLab, we aim to operate [asynchronously]({{< ref "./asynchronous" >}}), staying true to our values of [Efficiency](/handbook/values/#efficiency) and [Results](/handbook/values/#results). Due to this, it's difficult to find time to hold a question and answer session with a large group of students. Utilizing [a Google Doc]({{< ref "communication#google-docs" >}}), where questions can be discussed and answered in real time, is a workaround.
 
 ### How can teams overcome remote L&D challenges?
 
-Clear communication is one of the best ways to overcome remote challenges.[GitLab's handbook](/handbook) captures everything an employee needs to know promoting autonomy and [efficiency]({{< ref "values#efficiency" >}}) for communication, processes, and procedures by putting everything in one place.
+Clear communication is one of the best ways to overcome remote challenges.[GitLab's handbook](/handbook) captures everything an employee needs to know promoting autonomy and [efficiency](/handbook/values/#efficiency) for communication, processes, and procedures by putting everything in one place.
 
 Managers can set, share, and track team goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs) for visibility across the team and company.
 
-One potential downside for all-remote teams is having timely and adequate access to people and information. Managers can ensure everyone has the needed access to information by [documenting everything]({{< ref "values#write-things-down" >}}).
+One potential downside for all-remote teams is having timely and adequate access to people and information. Managers can ensure everyone has the needed access to information by [documenting everything](/handbook/values/#write-things-down).
 
 ## The importance of documenting everything
 
@@ -118,7 +118,7 @@ To stay ahead in L&D, GitLab prioritizes personal [Growth & Development opportun
 
 Companywide trust and impeccable communication serve as the bedrock for learning and development in any company, all-remote organizations included. This relies on a [set of values]({{< ref "values" >}}) that encourages behaviors which are at odds with micromanagement.
 
-Leaders should create a climate for employees where they are eager to learn new skills and improved processes rather than political tactics. For this to occur, each team member must be trusted and empowered to make decisions based on their professional experience and skill set. This is manifested through behaviors such as [reaching across departments]({{< ref "values#reach-across-company-departments" >}}), asking for help with [no fear of judgment or embarrassment]({{< ref "values#its-impossible-to-know-everything" >}}), and [speaking up]({{< ref "values#share" >}}) when values are not adhered to.
+Leaders should create a climate for employees where they are eager to learn new skills and improved processes rather than political tactics. For this to occur, each team member must be trusted and empowered to make decisions based on their professional experience and skill set. This is manifested through behaviors such as [reaching across departments](/handbook/values/#reach-across-company-departments), asking for help with [no fear of judgment or embarrassment](/handbook/values/#its-impossible-to-know-everything), and [speaking up](/handbook/values/#share) when values are not adhered to.
 
 Proper learning and development requires more than a curriculum. It requires an atmosphere where people are unafraid and unashamed to learn, recognizing that those efforts will be encouraged and supported.
 
@@ -152,7 +152,7 @@ That flexibility is unique to the all-remote environment, as those who prefer a 
 
 GitLab's onboarding process is **empowering**. If a new hire gets stuck during onboarding, they are encouraged to update the Handbook, record a video to help others who may encounter the same obstacle, and contribute to learning and development from day one.
 
-At GitLab, new hires are onboarded using [GitLab (the product)]({{< ref "gitlab-for-remote" >}}). We believe in using the tools we create. This allows new hires to become [familiar with GitLab](https://about.gitlab.com/features) in a way that feels meaningful (e.g. in learning GitLab, they are also accomplishing necessary onboarding tasks). This also provides a continual set of new users to test GitLab with fresh eyes. These individuals are ideally positioned to point out missing features or areas for improvement as we [iterate]({{< ref "values#iteration" >}}) on the product.
+At GitLab, new hires are onboarded using [GitLab (the product)]({{< ref "gitlab-for-remote" >}}). We believe in using the tools we create. This allows new hires to become [familiar with GitLab](https://about.gitlab.com/features) in a way that feels meaningful (e.g. in learning GitLab, they are also accomplishing necessary onboarding tasks). This also provides a continual set of new users to test GitLab with fresh eyes. These individuals are ideally positioned to point out missing features or areas for improvement as we [iterate](/handbook/values/#iteration) on the product.
 
 Learn more about [GitLab Onboarding in our Handbook]({{< ref "general-onboarding" >}}).
 
@@ -163,7 +163,7 @@ Learn more about [GitLab Onboarding in our Handbook]({{< ref "general-onboarding
 ![GitLab commit illustration](/images/all-remote/gitlab-commit-illustration.jpg)
 {style="max-width: 50%;"}
 
-All-remote companies should strive for a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide#documentation-is-the-single-source-of-truth-ssot) in all facets of running the business, including job families. Job families and their descriptions should be accessible to all from day one. GitLab makes these descriptions available even to prospective team members in the [Job Families section of our Handbook](/handbook/hiring/job-families), reinforcing our [Transparency value]({{< ref "values#transparency" >}}).
+All-remote companies should strive for a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide#documentation-is-the-single-source-of-truth-ssot) in all facets of running the business, including job families. Job families and their descriptions should be accessible to all from day one. GitLab makes these descriptions available even to prospective team members in the [Job Families section of our Handbook](/handbook/hiring/job-families), reinforcing our [Transparency value](/handbook/values/#transparency).
 
 This removes ambiguity about how the company functions, [how it is organized](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/job-families), and what each position is responsible for.
 
@@ -175,7 +175,7 @@ From a learning and development standpoint, this transparency is vital in provid
 
 *In the [video](https://www.youtube.com/watch?v=Cxs5EMHNf6g) above, published on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), [Chrissie B.](https://gitlab.com/cbuchanan) documents a question from a fellow GitLab team member — "How do you create a blog post as a non-technical user?" — by capturing the answer and walkthrough on video.*
 
-This is a classic example of a GitLab team member answering once so that multitudes will benefit, reinforcing our [Efficiency value]({{< ref "values#efficiency" >}}). Notice that Chrissie's primary function is not within learning and development, yet her contribution leads to a more educated workforce.
+This is a classic example of a GitLab team member answering once so that multitudes will benefit, reinforcing our [Efficiency value](/handbook/values/#efficiency). Notice that Chrissie's primary function is not within learning and development, yet her contribution leads to a more educated workforce.
 
 {{< youtube "7RbVQwU69H0" >}}
 
@@ -190,9 +190,9 @@ The attendees are encouraged to collect notes in a Google document and distribut
 Example:
 
 - [Kubecon 2019 notes](https://docs.google.com/document/d/1CdcERqUJrSoyA6OU9D3CMz8SRYFbJwvcLJDtkgdSEsg/edit#heading=h.jki4vp3yq19q).  This document contains:
-    - Pictures of interesting slides
-    - Notes on those slides written by the conference attendees
-    - Links to interesting presentations and documents from the conference
+  - Pictures of interesting slides
+  - Notes on those slides written by the conference attendees
+  - Links to interesting presentations and documents from the conference
 - Link to document distributed to Slack channels for the Protect team and Engineering overall
 - Link to document added to [Engineering week in review](https://docs.google.com/document/d/1Oglq0-rLbPFRNbqCDfHT0-Y3NkVEiHj6UukfYijHyUs) document.
 
@@ -202,7 +202,7 @@ All-remote companies should embrace learning and development not as something do
 
 #### AMA
 
-Reinforcing GitLab's [Transparency value]({{< ref "values#transparency" >}}), we routinely encourage the entire company to join for AMAs (Ask Me Anything), where individuals can pose questions to executives. This not only allows team members to learn from leaders, but it allows leaders to learn more about what matters to team members and those they serve.
+Reinforcing GitLab's [Transparency value](/handbook/values/#transparency), we routinely encourage the entire company to join for AMAs (Ask Me Anything), where individuals can pose questions to executives. This not only allows team members to learn from leaders, but it allows leaders to learn more about what matters to team members and those they serve.
 
 {{< youtube "u1jv1HOc8fw" >}}
 

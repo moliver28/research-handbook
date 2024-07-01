@@ -46,7 +46,7 @@ The following members of other functional teams are our stable counterparts:
 
 Gitaly team members do not carry pagers, but we live around the world and there's a good chance that someone is available during their working hours. There is no coverage for weekends; instead, we strive to empower incident responders to mitigate any circumstance.
 
-These issues relate to ongoing production outages or similar. They interrupt our process used to [schedule work] and get attention as soon as possible.
+These issues relate to ongoing production outages or similar. They interrupt our process used to [schedule work](https://gitlab.com/groups/gitlab-org/-/boards/1140874?label_name%5B%5D=group%3A%3Agitaly&milestone_title=Upcoming) and get attention as soon as possible.
 Please only interrupt us sparingly, in these cases:
 
 - [Severity 1 or 2](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) issues, where you believe that Gitaly team has _immediately actionable_ work to do
@@ -54,14 +54,14 @@ Please only interrupt us sparingly, in these cases:
 
 **Getting attention on an urgent, interrupting issue**
 
-- If there's no issue filed yet, file one in the [Gitaly issue tracker] (remember that Security incidents and those containing customer details should be Confidential).
+- If there's no issue filed yet, file one in the [Gitaly issue tracker](https://gitlab.com/gitlab-org/gitaly/issues) (remember that Security incidents and those containing customer details should be Confidential).
 - Tag Engineering Manager and Product manager (listed above) as well as `@gl-gitaly` (the [whole team](https://gitlab.com/groups/gl-gitaly/-/group_members)) on the issue.
-- Post on [#g_gitaly] on Slack, mention the issue, and tag EM and PM again.
+- Post on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) on Slack, mention the issue, and tag EM and PM again.
 - The issue will be attended to by the first available staff member during their working hours, who will assign it to themselves, and explicitly hand it off by reassigning to the next person should this be necessary.
 
 ### Customer issues
 
-Please file an issue [here](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Support%20Request). Post it on [#g_gitaly] for more immediate visibility.
+Please file an issue [here](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Support%20Request). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility.
 
 **A note on customer escalations and engagements**
 
@@ -85,16 +85,12 @@ This [epic](https://gitlab.com/groups/gitlab-org/-/epics/11576) discusses possib
 
 ### Normal priority requests
 
-To get Gitaly team work on something, it's best to create an issue on the [Gitaly issue tracker]
+To get Gitaly team work on something, it's best to create an issue on the [Gitaly issue tracker](https://gitlab.com/gitlab-org/gitaly/issues)
 and add the `group::gitaly` and `workflow::problem validation` labels,
 along with any other appropriate labels.  Then, feel free to tag the relevant
 Product Manager and/or Engineering Manager as listed above.
 
-For information requests and other quick one-offs, feel free to use [#g_gitaly] on Slack to get attention on the issue.
-
-[Gitaly issue tracker]: https://gitlab.com/gitlab-org/gitaly/issues
-[Gitaly ongoing work issue board]: https://gitlab.com/groups/gitlab-org/-/boards/1140874?label_name%5B%5D=group%3A%3Agitaly&milestone_title=Upcoming
-[#g_gitaly]: https://gitlab.slack.com/archives/g_gitaly
+For information requests and other quick one-offs, feel free to use [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) on Slack to get attention on the issue.
 
 ### Issues with `Infradev` labels
 
@@ -155,7 +151,7 @@ These `Deliverable` issues help show our commitment to GitLab and our customers 
 
 #### Picking up new work
 
-We work off the [Gitaly ongoing work issue board], where the `workflow::ready for development` column is loosely sorted with higher priority items on top. Engineers ready to pick up more work do not necessarily need to assign the topmost item, but rather make an informed choice with affinity (area of expertise, relative urgency, interest etc). However, please take care not to work "siloed" for long periods, but rather use the opportunity of picking up new work to address infrastructure issues (eg flaky tests) or to help out and learn in another area.
+We work off the [Gitaly ongoing work issue board](https://gitlab.com/groups/gitlab-org/-/boards/1140874?label_name%5B%5D=group%3A%3Agitaly&milestone_title=Upcoming), where the `workflow::ready for development` column is loosely sorted with higher priority items on top. Engineers ready to pick up more work do not necessarily need to assign the topmost item, but rather make an informed choice with affinity (area of expertise, relative urgency, interest etc). However, please take care not to work "siloed" for long periods, but rather use the opportunity of picking up new work to address infrastructure issues (eg flaky tests) or to help out and learn in another area.
 
 Assign yourself to the item of choice and move it to `workflow::in dev` (and later as appropriate).
 
@@ -326,7 +322,7 @@ and/or PM polling these dashboards:
 ## Gitaly consumers
 
 To have a constant communication flow about planned changes, updates and maybe
-breaking changes we have the [#g_gitaly] Slack channel. In the
+breaking changes we have the [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) Slack channel. In the
 channel we will provide updates for all teams using the service but also ask
 for assistance to provide feedback and insights about planned changes or improvements.
 

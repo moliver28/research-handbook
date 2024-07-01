@@ -1,5 +1,4 @@
 ---
-
 title: Social Media Community Management
 description: 'Engaging and responding to the community'
 twitter_image: /images/opengraph/handbook/social-marketing/social-admin-cm.png
@@ -7,11 +6,6 @@ twitter_image_alt: GitLab's Social Media Community Management Handbook Page
 twitter_site: 'gitlab'
 twitter_creator: 'gitlab'
 ---
-
-
-
-
-
 
 ## Community Management is a team effort
 
@@ -39,7 +33,7 @@ Team member social posts that would be considered for retweeting or sharing incl
 
 It is important to note that team member social posts are considered the same pool of content as the greater community. Who's post gets shared is a subjective response from the social team and does not have a specific or repeatable formula, due to the nature of every day social media activity.
 
-##### Communicating team member posts to the social team
+### Communicating team member posts to the social team
 
 While our team will see every post where the brand handle is tagged, the volume creates a delay. Consider sharing the link to your post in the #social_media_action channel for the brand team to engage.
 

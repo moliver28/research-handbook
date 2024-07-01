@@ -25,7 +25,7 @@ description: "These are the expected competencies of an Intermediate Backend Eng
 
 {{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
 
-##### Engineering Productivity
+#### Engineering Productivity
 
 This table refers to the responsibility terms that are defined on the [team page](/handbook/engineering/infrastructure/engineering-productivity/index.html#areas-of-responsibility).
 

@@ -5,8 +5,7 @@ description: "The Tenant Scale Group is the direct outcome of applying our value
 
 ## About
 
-The Tenant Scale group (formerly Pods or Sharding group) is part of the [Data
-Stores stage](/handbook/engineering/infrastructure/core-platform/data_stores/). We
+The Tenant Scale group (formerly Pods or Sharding group) is part of the [Data Stores stage](/handbook/engineering/infrastructure/core-platform/data_stores/). We
 offer support for groups, projects, and user profiles within our product, but
 our main focus is a long-term horizontal scaling solution for GitLab.
 
@@ -49,13 +48,13 @@ The executive summary goals for the Tenant Scale group include:
 
 The following people are permanent members of the Tenant Scale group:
 
-{{% team-by-manager-slug manager="arturo-herrero" %}}
+{{% team-by-manager-slug manager="sissiyao" %}}
 
 ### Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{% stable-counterparts manager="arturo-herrero" role="Tenant Scale|Principal Engineer, Data Stores|Senior Distinguished Engineer, Ops and Core Platform" %}}
+{{% stable-counterparts manager="sissiyao" role="Tenant Scale|Principal Engineer, Data Stores|Senior Distinguished Engineer, Ops and Core Platform" %}}
 
 ## Projects
 
@@ -82,8 +81,8 @@ however, we also have synchronous meetings. It's unlikely everyone can attend
 those meetings, so we record them and share written summaries ([agenda](https://docs.google.com/document/d/1W7QsQL_2wMLW9KJU5ZEZdyIqYtRC6_bwOoNXJUWNbiU/edit)).
 Currently we have the following recurring meetings scheduled:
 
- - Weekly Monday - Tenant Scale Group Sync (APAC/EMEA) 8:30AM UTC (2:30AM PDT)
- - Weekly Thursday - Tenant Scale Group Sync (EMEA/AMER) 3:00PM UTC (7:00AM PDT)
+- Weekly Monday - Tenant Scale Group Sync (APAC/EMEA) 8:30AM UTC (2:30AM PDT)
+- Weekly Thursday - Tenant Scale Group Sync (EMEA/AMER) 3:00PM UTC (7:00AM PDT)
 
 ## Work
 
@@ -187,6 +186,14 @@ We track our work on the following issue boards:
 - [Core Platform:Tenant Scale important](https://gitlab.com/groups/gitlab-org/-/boards/1438588?label_name[]=group%3A%3Atenant%20scale)
 - [Core Platform:Tenant Scale community contributions](https://gitlab.com/groups/gitlab-org/-/boards/7487739?label_name[]=group%3A%3Atenant%20scale&label_name[]=Community%20contribution)
 
+### Tracking Dashboards
+
+In addition to issue boards, we also track progress on major initiatives with bespoke dashboards such as the [Cells Progress Tracker](https://gitlab.com/gitlab-org/tenant-scale-group/cells-progress-tracker).
+
+The team has also spun off [Epic Dashboards](https://gitlab.com/gitlab-org/tenant-scale-group/epic-dashboard) into a project that other teams can use to create their own epic-based tracking dashboards.
+
+@manojmj is the creator and DRI of [Epic Dashboards](https://gitlab.com/gitlab-org/tenant-scale-group/epic-dashboard) and supports this project on a best-effort basis outside of core project responsibilities.
+
 ### Capacity Planning
 
 We use a simple issue weighting system for capacity planning, ensuring a
@@ -246,8 +253,7 @@ to generate an issue with all the issues identified for refinement.
 #### Step 2: Refining Issues
 
 Over the week, each engineer on the team will look at the list of issues
-selected for backlog refinement. [Current backlog refinement
-issues](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/issues/?label_name%5B%5D=workflow%3A%3Arefinement).
+selected for backlog refinement. [Current backlog refinement issues](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/issues/?label_name%5B%5D=workflow%3A%3Arefinement).
 
 For each issue, team members will review the issues and provide:
 
@@ -282,8 +288,7 @@ retrospectives.
 
 We have [milestone retrospectives issues](https://gitlab.com/gl-retrospectives/enablement-section/tenant-scale/-/issues).
 These include the EM, PM, engineers, UX, and all stable counterparts.
-Participation is highly encouraged for every milestone. For more information, see [group
-retrospectives](/handbook/engineering/management/group-retrospectives/) created on the 26th of each
+Participation is highly encouraged for every milestone. For more information, see [group retrospectives](/handbook/engineering/management/group-retrospectives/) created on the 26th of each
 month, for the currently running milestone.
 
 #### Per Project

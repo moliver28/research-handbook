@@ -1,12 +1,11 @@
 ---
-
 title: "Mark Nuzzo's README"
 job: "Backend Engineering Manager, Verify:Pipeline Authoring"
 ---
 
 ## Mark Nuzzo's README
 
-Hello everyone, I'm Mark Nuzzo. I am the Backend Engineering Manager who supports the Pipeline Authoring team (Verify stage) here at GitLab. I'm hoping that this README will give everyone a chance to to know me better.
+Hello everyone, I'm Mark Nuzzo. I am the Backend Engineering Manager who supports the Pipeline Authoring team (Verify stage) here at GitLab. I'm hoping that this README will give everyone a chance to know me better.
 
 ## About me
 

@@ -1,13 +1,6 @@
 ---
-
 title: "Sales Strategy - SAE Heatmap dashboard"
 ---
-
-
-
-
-
-
 
 ## SAE Heatmap dashboard
 
@@ -29,7 +22,7 @@ Please reach out to [@nfiguera](https://gitlab.com/nfiguera) or another member o
 - Open Pipe by Stage 1+, 3+, 4+
 - Coverage by Stage 1+, 3+, 4+
 - Pipeline Generation in Quarter (Net ARR & deal count)
-    - NFQ+: Pipeline generated, expected to land in future quarters.
+  - NFQ+: Pipeline generated, expected to land in future quarters.
 
 Most of these metrics are available for current quarter, next quarter and next quarter + 1.
 

@@ -64,7 +64,7 @@ As part of the incident management and review process the SIRT maintains a recur
 
 ## Limited Access
 
-Information about security incidents or investigations is considered [limited access]({{< ref "confidentiality-levels#limited-access" >}}) and is not shared with all team members. After being resolved, a determination will be made as to whether or not the incident or investigation issue contains [Materially Non-Public Information (MNPI)](/handbook/product/product-safe-guidance/#materially-non-public-information). Only incidents or investigation issues that do not contain MNPI will be made visible to GitLab team members. More information about how this aligns with [GitLab's value of Transparency]({{< ref "values#transparency" >}}) can be found on the [Transparency by Default page]({{< ref "transparency-by-default" >}}). The workflow for this is:
+Information about security incidents or investigations is considered [limited access]({{< ref "confidentiality-levels#limited-access" >}}) and is not shared with all team members. After being resolved, a determination will be made as to whether or not the incident or investigation issue contains [Materially Non-Public Information (MNPI)](/handbook/product/product-safe-guidance/#materially-non-public-information). Only incidents or investigation issues that do not contain MNPI will be made visible to GitLab team members. More information about how this aligns with [GitLab's value of Transparency](/handbook/values/#transparency) can be found on the [Transparency by Default page]({{< ref "transparency-by-default" >}}). The workflow for this is:
 
 ```mermaid
 graph TD

@@ -83,7 +83,7 @@ Approval rules define how many approvals a merge request must receive before it 
     We are researching and testing additional tools to improve performance.
     ```
 
-1. Click **Source Control** in the the left pane (the third button from the top).
+1. Click **Source Control** in the left pane (the third button from the top).
 
 1. In the **Commit message** field, enter `Update docs with performance tools`
 

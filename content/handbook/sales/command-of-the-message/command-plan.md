@@ -1,16 +1,7 @@
 ---
-
 title: "Command Plan"
 description: "The Command Plan is how GitLab has operationalized a customer value-driven sales methodology with strategic opportunity management into the opportunity management process"
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -22,7 +13,7 @@ The Command Plan consists of the below 3 sections. The Opportunity Overview sect
 1. [**MEDDPPICC**](/handbook/sales/command-of-the-message/command-plan/#meddppicc)
 1. [**Close Plan Details**](/handbook/sales/command-of-the-message/command-plan/#close-plan-details)
 
-At the sales level, the Command Plan is owned by the [Strategic Account Executive](/job-families/sales/enterprise-account-executive/) or [Commercial Account Executive](https://handbook.gitlab.com/job-families/sales/account-executive/) who creates the plan and updates the contents accordingly. It is used as a living pre-sales document, and its objectives are converted into [Gainsight Success Plan objectives](/handbook/customer-success/csm/success-plans/#objectives) at the time of [account onboarding](/handbook/customer-success/csm/onboarding/).
+At the sales level, the Command Plan is owned by the [Strategic Account Executive](/job-families/sales/enterprise-account-executive/) or [Commercial Account Executive](/job-families/sales/account-executive/) who creates the plan and updates the contents accordingly. It is used as a living pre-sales document, and its objectives are converted into [Gainsight Success Plan objectives](/handbook/customer-success/csm/success-plans/#objectives) at the time of [account onboarding](/handbook/customer-success/csm/onboarding/).
 
 You can find the Command Plan button in the `Opportunity Detail` section of the Salesforce opportunity object (see image below) or in Clari or in the top right dropdown menu on the Opportunity Record in Salesforce Lightning. Please note that Command Plans are capped at 5000 characters in Salesforce to encourage sales team members to be crisp and succinct. To do so, the Command Plan should focus on future-looking plans and remove details that are no longer relevant to the current close plan. For information you'd like to remove from the Command Plan but keep for historical purposes, please add that information as a new activity record on the opportunity.
 
@@ -37,7 +28,7 @@ This section consists of 5 mandatory fields:
 1. **Solution** - *What is the primary GitLab solution (Automate Software Delivery, Continuous Software Security Assurance, Software Compliance, or DevOps Platform) that best aligns with the problem the customer wants to solve?*
 1. **Primary Capability** - *What is the primary capability that the customer is pursuing to achieve the above value driver(s)?*
 1. **Why GitLab?** - *Why is the customer choosing GitLab over the competition? What are GitLab's key differentiators from the customer's perspective?*
-1. **Why Do Anything At All?** - *What are the negative consequences if the customer does nothing? What happens if the customer doesn’t do this deal on the forecasted timeline?*
+1. **Why Do Anything At All?** - *What are the negative consequences if the customer does nothing? What happens if the customer doesn't do this deal on the forecasted timeline?*
 
 ## MEDDPPICC
 
@@ -53,7 +44,7 @@ This section is comprised of the following 3 fields:
 
 ## Manager Review
 
-Continuing to improve the fidelity of Command Plans is a critical success factor to winning more deals and improving productivity and predictability. As such, at the bottom of the Command Plan is a section for Managers and above to enter review notes from [opportunity consults](/handbook/sales/command-of-the-message/opportunity-consults/) (and/or Lightweight Deal Reviews for Commercial Sales) conducted. Manager Review notes should begin with “YYYY-MM-DD” to indicate the date when the opportunity consult was conducted, and the notes should succinctly highlight:
+Continuing to improve the fidelity of Command Plans is a critical success factor to winning more deals and improving productivity and predictability. As such, at the bottom of the Command Plan is a section for Managers and above to enter review notes from [opportunity consults](/handbook/sales/command-of-the-message/opportunity-consults/) (and/or Lightweight Deal Reviews for Commercial Sales) conducted. Manager Review notes should begin with "YYYY-MM-DD" to indicate the date when the opportunity consult was conducted, and the notes should succinctly highlight:
 
 1. Prioritized gaps identified during the opportunity consult
 1. Specific action items that were agreed to (who will do what by when)

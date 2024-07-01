@@ -14,19 +14,19 @@ Welcome to the People Group handbook! You should be able to find answers to most
 
 The People Group works together to establish a high performance and results driven culture where a diverse and inclusive team can experience a meaningful career.
 
-We support a culture that enables people to do their best work and advance their careers while fully contributing to advancing GitLab’s business results. We hire, promote, and recognize team members who best live our values.
+We support a culture that enables people to do their best work and advance their careers while fully contributing to advancing GitLab's business results. We hire, promote, and recognize team members who best live our values.
 
-The People Group strategy is to set the [foundation for GitLab’s 3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
+The People Group strategy is to set the [foundation for GitLab's 3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
 
-We’ve published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
+We've published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
 
 ## Connect with us
 
 You can also check out pages related to People Group in the section below. If you can not find what you are looking for please do the following:
 
 - [**The People Group**](https://gitlab.com/gitlab-com/people-ops) holds several subprojects to organize the people group; please create an issue in the appropriate subproject or `general` if you're not sure. Please use confidential issues for topics that should only be visible to GitLab team-members. Similarly, if your question can be shared please use a public issue. Tag `@gl-people-connect-team` or `@gl-hiring` so the appropriate team members can follow up.
-    - Please note that not all People Group projects can be shared in an issue due to confidentiality. When we cannot be completely transparent, we will share what we can in the issue description, and explain why.
-    - [**Employment Issue Tracker**](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates): Only Onboarding, Offboarding and Transition Issue Templates are held in this subproject, and they are created by the People Connect Team only. Interview Training Issues, are held in the [Training project](https://gitlab.com/gitlab-com/people-group/Training) and created by the Talent Acquisition team. Please see the [interviewing page](/handbook/hiring/interviewing/#typical-hiring-timeline) for more info.
+  - Please note that not all People Group projects can be shared in an issue due to confidentiality. When we cannot be completely transparent, we will share what we can in the issue description, and explain why.
+  - [**Employment Issue Tracker**](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates): Only Onboarding, Offboarding and Transition Issue Templates are held in this subproject, and they are created by the People Connect Team only. Interview Training Issues, are held in the [Training project](https://gitlab.com/gitlab-com/people-group/Training) and created by the Talent Acquisition team. Please see the [interviewing page](/handbook/hiring/interviewing/#typical-hiring-timeline) for more info.
 - [**People Connect**](https://app.slack.com/client/T02592416/C02360SQQFR); Please use the `#people-connect` Slack chat channel for questions that do not seem appropriate for the issue tracker - if your question contains personal data or sensitive information we encourage you to direct message the People Connect Team which can be found in the Apps Dropdown within Slack. For access requests regarding Google or Slack groups, please create an issue here: https://gitlab.com/gitlab-com/team-member-epics/access-requests. For questions that relate to Payroll and contractor invoices please direct your question to the `#payroll`, `#expense-reporting-inquiries` and `#finance` channel for Carta. Regarding questions for our recruiting team, including questions relating to access, or anything to do with Greenhouse, referrals, interviewing, or interview training please use the `#talent-acquisition` channel.
 - If you need to discuss something that is confidential/private (including sensitive matters surrounding your team), you can send an email to the Team Member Relations team: teammemberrelations@gitlab.com. Any team member, regardless of location, can use this alias to discuss a private sensitive matter.
 - If you only feel comfortable speaking with one team member, you can ping an individual member of the People Group, as listed on our [Team page](/handbook/company/team/).
@@ -71,10 +71,10 @@ Lighthouse has a toll free number and other methods of reporting are available 2
 
 - Website: [https://www.lighthouse-services.com/gitlab](https://www.lighthouse-services.com/gitlab)
 - USA Telephone:
-    - English speaking USA and Canada: 833-480-0010
-    - Spanish speaking USA and Canada: 800-216-1288
-    - French speaking Canada: 855-725-0002
-    - Spanish speaking Mexico: 01-800-681-5340
+  - English speaking USA and Canada: 833-480-0010
+  - Spanish speaking USA and Canada: 800-216-1288
+  - French speaking Canada: 855-725-0002
+  - Spanish speaking Mexico: 01-800-681-5340
 - All other countries telephone: +1-800-603-2869
 - E-mail: reports@lighthouse-services.com (must include company name with report)
 - Fax: (215) 689-3885 (must include company name with report)
@@ -221,6 +221,10 @@ To request access please open an access request with the type of account [access
 If you need support with a specific CultureAmp Survey, please complete this [issue template](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/blob/main/.gitlab/issue_templates/survey_request.md) to alert the People Analytics Team.
 
 ## Other pages related to the People Group
+
+### People Business Partners
+
+- [People Business Partner Team](/handbook/people-group/people-business-partners/)
 
 ### Total Rewards
 

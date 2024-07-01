@@ -224,12 +224,12 @@ Some reviewers find it helpful to track their progress. This is not required, bu
 
 #### After becoming a maintainer
 
-If you’ve become a new maintainer, follow these instructions to request relevant permissions that will allow you to fulfill your role:
+If you've become a new maintainer, follow these instructions to request relevant permissions that will allow you to fulfill your role:
 
-- Join the maintainer’s group channel on Slack: `#frontend_maintainers`, `#backend_maintainers`, etc.
+- Join the maintainer's group channel on Slack: `#frontend_maintainers`, `#backend_maintainers`, etc.
 - Ask the maintainers in your group to invite you to any maintainer-specific meeting if one exists.
 - Request access to the GitLab maintainer group you belong: [frontend](https://gitlab.com/gitlab-org/maintainers/frontend), [backend](https://gitlab.com/gitlab-org/maintainers/rails-backend), or [database](https://gitlab.com/gitlab-org/maintainers/database).
-- Request maintainer permissions on the projects you will act as a maintainer using the [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) issue template. Once you’ve created the issue, request another maintainer to grant you those permissions.
+- Request maintainer permissions on the projects you will act as a maintainer using the [Single Person Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) issue template. Once you've created the issue, request another maintainer to grant you those permissions.
 
 ### Reviewer mentorship program
 
@@ -390,8 +390,7 @@ https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views
 
 ## Leading Organizations
 
-All wider community members, and their organizations, [can
-contribute](/handbook/company/mission/#contribute-with-gitlab). We strongly believe that contributing to
+All wider community members, and their organizations, [can contribute](/handbook/company/mission/#contribute-with-gitlab). We strongly believe that contributing to
 open source, and particularly to GitLab is a competitive advantage for organizations and their members, and want to
 reward those organizations for doing so. GitLab highly encourages, celebrates & rewards those that contribute in
 [frequent and atomic iterations](/handbook/values/#iteration). When an organization or individual without affiliations
@@ -399,8 +398,7 @@ reaches 20 merged merge requests or more within the last 3 completed months, we 
 a ```Leading Organization```.
 
 Organizations are matched based on the ```Organization``` field in [your profile](https://gitlab.com/-/profile). GitLab
-can also match individuals to organizations using other metadata available to the Contributor Success team. [Create an
- issue in the Contributor Success queue](https://gitlab.com/gitlab-com/quality/contributor-success/-/issues) if you
+can also match individuals to organizations using other metadata available to the Contributor Success team. [Create an  issue in the Contributor Success queue](https://gitlab.com/gitlab-com/quality/contributor-success/-/issues) if you
 think you or your organization should qualify but is not receiving the label ```Leading Organization``` on your merge
 requests.
 
@@ -492,12 +490,6 @@ time frame, let the author know as soon as possible in the comments
 (no later than 36 hours after first receiving the review request)
 and try to help them find another reviewer or maintainer who is able to, so that they can be unblocked
 and get on with their work quickly. Remove yourself as a reviewer.
-
-If you are at capacity and are unable to accept any more reviews until
-some have been completed, communicate this through your GitLab status by setting
-the 🔴 `:red_circle:` emoji and mentioning that you are at capacity in the status
-text. This guides contributors to pick a different reviewer, helping us to
-meet the SLO.
 
 Reviewers may also communicate their status through the use of several other emoji. For more details
 on these other statuses, please refer to the [code review](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette)

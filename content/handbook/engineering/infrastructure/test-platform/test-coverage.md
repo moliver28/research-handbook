@@ -1,5 +1,4 @@
 ---
-
 title: "Test Coverage"
 description: "The Test Platform Department has coverage to support testing particular scenarios."
 ---
@@ -50,7 +49,7 @@ and going up to system level testing with actual environments being built:
 | Latest update stop → GitLab Merge Requests | [16.7.7 → MR in 16.11](https://gitlab.com/gitlab-org/gitlab/-/jobs/6488556764) |
 
 [`db:migrate:multi-version-upgrade`](https://docs.gitlab.com/ee/development/database/dbmigrate:multi-version-upgrade-job.html)
-validates that the migrations pass for multi-version upgrade from the latest required upgrade stop to the author’s working branch.
+validates that the migrations pass for multi-version upgrade from the latest required upgrade stop to the author's working branch.
 It allows catching migration error(s) at unit-level without building an environment.
 Test job runs Database migrations against PostgreSQL dump created from the latest known GitLab version stop with test data.
 
@@ -68,9 +67,9 @@ GitLab QA scenario that verifies update from the previous (major or minor) versi
 
 1. `Test::Omnibus::UpdateFromPrevious` scenario is run with:
 
-  - `e2e:package-and-test-ee` / `e2e:package-and-test-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
-  - `e2e:package-and-test-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
-  Results of these jobs can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test/master/index.html),
+   - `e2e:package-and-test-ee` / `e2e:package-and-test-ce` jobs which executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
+   - `e2e:package-and-test-nightly` job which executes from a [nightly scheduled pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) against GitLab `master`.
+   Results of these jobs can be found in the [Allure report](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test/master/index.html),
 where test states such as failures can be filtered on.
 The update test job names are `update-major`, `update-minor`, and `update-ee-to-ce`.
 

@@ -1,11 +1,10 @@
 ---
-
 title: Monitoring of GitLab.com
 ---
 
 ## GitLab.com Service Availability
 
-The calculation methodology for GitLab.com Service Availability definition is in [the monitoring policy].
+The calculation methodology for GitLab.com Service Availability definition is in [the monitoring policy](/handbook/engineering/gitlab-com/policies/monitoring/).
 
 More details on definitions of outage, and degradation are on the [incident-management page](/handbook/engineering/infrastructure/incident-management/#definition-of-outage-vs-degraded-vs-disruption)
 
@@ -13,6 +12,7 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2024 May | 100.00% |  |
 | 2024 April | 99.96% | |
 | 2024 March | 100% | |
 | 2024 February | 99.86% | |
@@ -82,8 +82,8 @@ These videos provide examples of how to quickly identify failures, defects, and 
 
 We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are available at [https://stats.pingdom.com](http://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
 
-   * a GitLab.com issue. For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
-   * [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
+* a GitLab.com issue. For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
+* [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
 
 ### Main Monitoring Dashboards
 
@@ -144,8 +144,7 @@ The dashboards for stage groups are at a very early stage. All contributions are
 ## Logs
 
 Network, System, and Application logs are processed, stored, and searched using
-the [ELK stack](https://www.elastic.co/products). We use a [managed
-Elasticsearch cluster on GCP](https://www.elastic.co/gcp) and as such our only
+the [ELK stack](https://www.elastic.co/products). We use a [managed Elasticsearch cluster on GCP](https://www.elastic.co/gcp) and as such our only
 interface to this is through APIs, Kibana and the elastic.co web UI.  For
 monitoring system performance and metrics, Elastic's x-pack monitoring metrics are used. They are sent to a dedicated monitoring cluster. Long-term we intend to switch to Prometheus and Grafana as the preferred
 interface. As it is managed by Elastic they run the VMs and we do not have
@@ -195,8 +194,8 @@ We also did a series of deep dives by pairing with the development teams for eac
 
 Blocks of Ruby code can be "instrumented" to measure performance.
 
-  * [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/service_ping/metrics_instrumentation.html)
-  * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
+* [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/service_ping/metrics_instrumentation.html)
+* An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
 ## Other Tools
 
@@ -204,13 +203,9 @@ Blocks of Ruby code can be "instrumented" to measure performance.
 
 Error tracking service.
 
-* [Documentation][sentry_doc]
-* [How to investigate a 500 error - Sentry / Kibana Demo][demo]
-* [Diagnose Errors on GitLab.com - Searching Sentry][sentry_500]
-
-[sentry_doc]: https://docs.gitlab.com/ee/operations/error_tracking.html
-[sentry_500]: /handbook/support/workflows/500_errors/#searching-sentry
-[demo]: https://youtu.be/o02t3V3vHMs
+* [Documentation](https://docs.gitlab.com/ee/operations/error_tracking.html)
+* [How to investigate a 500 error - Sentry / Kibana Demo](https://youtu.be/o02t3V3vHMs)
+* [Diagnose Errors on GitLab.com - Searching Sentry](/handbook/support/workflows/500_errors/#searching-sentry)
 
 #### Setting sentry alerts for your group
 
@@ -229,14 +224,6 @@ Steps for creating the alerts:
 
 Tool that helps you monitor, analyze and optimize your website speed and performance.
 
-* [Documentation][speed_doc]
-* [GitLab.com Sitespeed Measurement Repository][sitespeed_repo]
-* [How we used sitespeed.io to measure Frontend performance][sitespeed]
-
-[sitespeed]:  https://www.youtube.com/watch?v=6xo01hzW-f4
-[sitespeed_repo]: https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/
-[speed_doc]: https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html#overview
-
---
-
-[the monitoring policy]: /content/handbook/engineering/gitlab-com/policies/monitoring/
+* [Documentation](https://docs.gitlab.com/ee/user/project/merge_requests/browser_performance_testing.html#overview)
+* [GitLab.com Sitespeed Measurement Repository](https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/)
+* [How we used sitespeed.io to measure Frontend performance](https://www.youtube.com/watch?v=6xo01hzW-f4)

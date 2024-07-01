@@ -15,11 +15,7 @@ description: The Create:Source Code FE team is responsible for all frontend aspe
 
 ## Team Vision
 
-A central piece in GitLab users' experience, innovating and keeping the experience delightful for all product categories that fall under the [Source Code group][group] of the [Create stage][stage] of the [DevOps lifecycle][lifecycle].
-
-[group]: /handbook/product/categories/#source-code-group
-[stage]: /handbook/product/categories/#create-stage
-[lifecycle]: /handbook/product/categories/#devops-stages
+A central piece in GitLab users' experience, innovating and keeping the experience delightful for all product categories that fall under the [Source Code group](/handbook/product/categories/#source-code-group) of the [Create stage](/handbook/product/categories/#create-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages).
 
 ## Team Mission
 
@@ -74,20 +70,15 @@ The following members of other functional teams are our stable counterparts:
 
 ### Work
 
-In general, we use the standard GitLab [engineering workflow]. To get in touch
+In general, we use the standard GitLab [engineering workflow](/handbook/engineering/workflow/). To get in touch
 with the Create:Source Code FE team, it's best to create an issue in the relevant project
-(typically [GitLab]) and add the `~"group::source code"` and `~frontend` labels, along with any other
+(typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the `~"group::source code"` and `~frontend` labels, along with any other
 appropriate labels (`~devops::create`, `~section::dev`). Then, feel free to ping the relevant Product Manager and/or
 Engineering Manager as listed above.
 
-For more urgent items, feel free to use [#g_create_source_code] or [[#g_create_source_code_fe] on Slack.
+For more urgent items, feel free to use [#g_create_source_code](https://gitlab.slack.com/archives/g_create_source-code) or [#g_create_source_code_fe](https://gitlab.slack.com/archives/g_create_source-code-review-fe) on Slack.
 
 [Take a look at the features we support per category here.](/handbook/product/categories/features/#createsource-code-group)
-
-[engineering workflow]: /handbook/engineering/workflow/
-[GitLab]: https://gitlab.com/gitlab-org/gitlab
-[#g_create_source_code]: https://gitlab.slack.com/archives/g_create_source-code
-[#g_create_source_code_fe]: https://gitlab.slack.com/archives/g_create_source-code-review-fe
 
 ### Code Reviewing
 
@@ -120,7 +111,7 @@ We have 1 regularly scheduled "Per Milestone" retrospective, and can have ad-hoc
 
 #### Per Milestone
 
-{{% engineering/create-retrospectives group-label="Source Code" group-slug="source-code" %}}
+{{% engineering/create-retrospectives group-label="Source Code" group-slug="source-code" use-coordinator="1" %}}
 
 ### Milestone Kickoff & Retrospective review
 

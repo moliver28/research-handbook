@@ -1,13 +1,6 @@
 ---
-
 title: "Code of Conduct Enforcement"
 ---
-
-
-
-
-
-
 
 ## Overview
 

@@ -91,7 +91,7 @@ The Weekend On-Call Security team member will be responsible for covering On-Cal
 #### Weekend On-Call Security Scheduling
 
 - Weekend On-Call slots will be filled on a volunteer basis, meaning team members can sign up for the slots that would fit their schedules. The SIRT and Trust and Safety teams will have individual Weekend On-Call schedules so that one person from each team will cover the Weekend On-Call shift. General guidance is that team members should volunteer for the appropriate ratio of qualified team members to weekends requiring coverage. For example, in a team of 12 qualified team members, volunteering for 4 to 5 weekends per year, per person would allow for full coverage. Please note, ratios may change from time to time depending on the size of the team.
-- If there are open remaining slots, the Security Operations managers will assign slots to team members who have not hit their target amount of slots. For example, if there’s an open slot and a team member that should volunteer for 4 to 5 slots but has signed up for 2, the Manager can allocate the slot to that team member. If the team member is unavailable, they would be responsible for finding a replacement.
+- If there are open remaining slots, the Security Operations managers will assign slots to team members who have not hit their target amount of slots. For example, if there's an open slot and a team member that should volunteer for 4 to 5 slots but has signed up for 2, the Manager can allocate the slot to that team member. If the team member is unavailable, they would be responsible for finding a replacement.
 - In case of emergencies, managers may seek other volunteers and in rare cases may need to assign coverage.
 
 #### Weekend On-Call Security Relief
@@ -131,7 +131,7 @@ Engineers should acknowledge pages within the first 15 minutes, and start perfor
 
 ### Security Managers On-Call
 
-In addition to the Security Engineers being On-Call, the Security Managers across the GitLab Security Department act as backups in the event the Security Engineers are unable to acknowledge security pages. PagerDuty will automatically engage the Security Manager On-Call if SIRT doesn’t acknowledge the paging attempts.
+In addition to the Security Engineers being On-Call, the Security Managers across the GitLab Security Department act as backups in the event the Security Engineers are unable to acknowledge security pages. PagerDuty will automatically engage the Security Manager On-Call if SIRT doesn't acknowledge the paging attempts.
 
 It's the responsibility of the Security Manager On-Call to:
 
@@ -193,7 +193,7 @@ Being the responsible person does not imply being the sole person to perform inc
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

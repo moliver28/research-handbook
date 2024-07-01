@@ -1,5 +1,4 @@
 ---
-
 title: "Editing content in Contentful"
 description: "Editing content in Contentful"
 ---
@@ -63,7 +62,7 @@ The process for creating new content in Contentful is varied.
 
 ## Specific Contentful Training Resources
 
-#### Adding a resource to the Resources page
+### Adding a resource to the Resources page
 
 [Video Walkthrough](https://youtu.be/G8NZV75H7lw?si=mTvwMSLl112avu5M)
 
@@ -72,19 +71,19 @@ The process for creating new content in Contentful is varied.
 1. Scroll waaaaay to the bottom and select + Add Content -> Card
 1. From here, it might be helpful to open an existing card and make sure the same fields are filled out, but the gist is:
 
- - the Title goes in both `Internal Name` and `Title`
- - the Language goes in `Subtitle`
- - the Teaser goes in `Description`
- - the Topics go in `List` (hit enter after each topic)
- - the Solutions go in `Pills` (hit enter after each topic)
- - the Type of resource goes in `Icon Name`
- - the URL goes in `Card Link`
+   - the Title goes in both `Internal Name` and `Title`
+   - the Language goes in `Subtitle`
+   - the Teaser goes in `Description`
+   - the Topics go in `List` (hit enter after each topic)
+   - the Solutions go in `Pills` (hit enter after each topic)
+   - the Type of resource goes in `Icon Name`
+   - the URL goes in `Card Link`
 
 1. Publish that card, drag it to the top of the list if you want it to appear first, and publish that section too.
 
 If you want to edit other parts of the page the process is similar, just follow the existing pattern of the other cards. The only section to watch out for is the Featured resource - the one you want to feature has to be first in that list, and has to have an image.
 
-#### Adding a post to the Press and Press Releases page
+### Adding a post to the Press and Press Releases page
 
 [Video Walkthrough](https://youtu.be/zM1z0LnqVB0?si=sfEgEPK1Wu0Dii6P)
 
@@ -110,11 +109,11 @@ If you want to edit other parts of the page the process is similar, just follow 
 4. Publish this item, including the button and any other sub items
 5. Drag your card to the top of the stack (and maybe remove the bottom item since we're trying to keep that list around 5 items long) and publish the changes.
 
-#### Updating the Privacy page
+### Updating the Privacy page
 
 [Video Walkthrough](https://youtu.be/kP0V87TEjFE?si=5V2h9NskewHZkCrH)
 
-#### Adding a partner to the Alliance Partner/Technology Partner page
+### Adding a partner to the Alliance Partner/Technology Partner page
 
 [Video Walkthrough](https://youtu.be/-6ntN8OAKx4?si=UNqU8M7Z4Mg9X3HS)
 
@@ -130,7 +129,7 @@ If you want to edit other parts of the page the process is similar, just follow 
    - Links: Add a Button content type, and fill out the Internal Name and Text as the text you'd like to appear, then the External Url should be the url. It's also helpful to add the Data Ga Name as the partner name, and the Data Ga Location as 'body' for our analytics purposes.
 1. Publish your buttons, publish your Partner Application Card, drag it so that it's in alphabetical order, and publish the whole section.
 
-#### Adding an event to the Events page
+### Adding an event to the Events page
 
 [Video Walkthrough](https://youtu.be/A0PdsjoaPzU)
 
@@ -146,16 +145,16 @@ If you want to edit other parts of the page the process is similar, just follow 
    - Location - Add city and state of event, if in-person. If virtual, type in `Virtual`.
    - Region - Select the appropriate region for event
    - Event URL - Add registration URL
-   - Social Tags: Optional - Add any hashtags that may be relevant. For example, you can type “DevSecOps” and hit enter, then enter your next tag. Each tag will automatically have the # symbol applied.
+   - Social Tags: Optional - Add any hashtags that may be relevant. For example, you can type "DevSecOps" and hit enter, then enter your next tag. Each tag will automatically have the # symbol applied.
 1. Once fields have been reviewed and are final, click `Publish`
 
 To remove an event from the events page, go to the event and click Change Status -> `Unpublish`. Once the event is unpublished, you can also click the three dots `...` in the upper right corner, and `delete` the event to remove it from Contentful entirely (otherwise the event will remain as a draft).
 
-#### Updating the Services page
+### Updating the Services page
 
 [Video Walkthrough](https://youtu.be/ZTMKMKnu-iM?si=IYhmd6-AUJKpNiEv)
 
-#### Updating the All Jobs page
+### Updating the All Jobs page
 
 [Video Walkthrough](https://youtu.be/KVCWxQ3cvC4)
 
@@ -166,7 +165,7 @@ Items to keep in mind when updating our All Jobs page:
 3. If a department does not have job listings, it will not appear on the page.
 4. Updating the "View all locations" string for the locations dropdown could break some filtering functionality. We have some code looking for that specific option. If that language needs an update, please reach out to us so we can make a quick change in the code to accompany your content change.
 
-#### Creating an Event Landing page
+### Creating an Event Landing page
 
 [Video Walkthrough](https://youtu.be/C6YicW6se24)
 

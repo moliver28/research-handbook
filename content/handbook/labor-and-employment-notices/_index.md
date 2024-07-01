@@ -426,9 +426,9 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/13W9mUkiRUi8msZG2kXemM6fwxLdysNcS/view?usp=sharing)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1nYMzCdHjkRQXrwkkY-8C0vmUdRDgLuS9/view?usp=sharing)
 - **City of New York City**
-    - [Workers' Bill of Rights](https://www.nyc.gov/site/dca/workers/workersrights/know-your-worker-rights.page)
-    - [Safe and Sick Leave](https://www.nyc.gov/site/dca/workers/workersrights/paid-sick-leave-law-for-workers.page) and Notice(https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
-    - Employers calendar year is Jan 1 - Dec 31st.
+  - [Workers' Bill of Rights](https://www.nyc.gov/site/dca/workers/workersrights/know-your-worker-rights.page)
+  - [Safe and Sick Leave](https://www.nyc.gov/site/dca/workers/workersrights/paid-sick-leave-law-for-workers.page) and Notice(https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
+  - Employers calendar year is Jan 1 - Dec 31st.
 
 ### North Carolina
 
@@ -457,15 +457,15 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Oregon
 
-- [Breaks and Overtime](https://www.oregon.gov/boli/employers/Documents/BOLI_breaks_pay.pdf)
-- [Equal Pay](https://www.oregon.gov/boli/employers/Documents/BOLI_EqualPay.pdf)
+- [Breaks and Overtime](https://www.oregon.gov/boli/employers/Documents/BOLI_Printable_Break_Pay.pdf)
+- [Equal Pay](https://www.oregon.gov/boli/employers/Documents/BOLI_Printable_Equal_Pay.pdf)
 - [Family Leave Act](https://www.oregon.gov/boli/employers/Documents/BOLI_Printable_FamilyMedLv.pdf)
-- [Minimum Wage](https://www.oregon.gov/boli/employers/Documents/BOLI_MinWage_2021-2.pdf)
+- [Minimum Wage](https://www.oregon.gov/boli/employers/Documents/BOLI_Printable_MinWage.pdf)
 - [Oregon Occupational Safety and Health Administration](https://osha.oregon.gov/OSHAPubs/1507.pdf)
-- [Protections for Victims of Domestic Violence, Harassment, Sexual Assault and Stalking](https://www.oregon.gov/boli/employers/Documents/BOLI_SHDVP.pdf)
+- [Protections for Victims of Domestic Violence, Harassment, Sexual Assault and Stalking](https://www.oregon.gov/boli/employers/Documents/BOLI_Printable_SHDVP.pdf)
 - [Sick Time](https://www.oregon.gov/boli/employers/Documents/BOLI_Printable_SickLeave.pdf)
-- [Oregon OSHA's COVID-19 Standard for all Workplaces](https://osha.oregon.gov/OSHAPubs/5504.pdf)
-- [Workplace Accommodations Notice](https://docs.google.com/document/d/1AC8QVQing7WZGNp3scTeD_LBCX0cAKaQ/edit?usp=drive_link&ouid=108582647308078356493&rtpof=true&sd=true)
+- [Oregon OSHA's COVID-19 Standard for all Workplaces](https://osha.oregon.gov/OSHAPubs/1507.pdf)
+- [Workplace Accommodations Notice](https://docs.google.com/document/d/1xKeuKD-tOjhtYv-wryZH-91fzrNB3p9SKTbs-aR1gZw/edit?usp=sharing)
 - [Paid Leave Notice Poster](https://d1o0i0v5q5lp8h.cloudfront.net/paidleave/live/assets/resources/Paid-Leave-ModelNotice-Poster-EN.pdf)
 
 ### Pennsylvania
@@ -479,14 +479,14 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1SKo7zi1Q9rkrR03gVIor1exbz1tPxlB2/view?usp=sharing)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1exd3Hy9ODgexMuAZtza-PmvGsqzHZAIZ/view?usp=sharing)
 - **Allegheny County, PA**
-    - [Paid Sick Leave Ordinance](https://www.alleghenycounty.us/uploadedFiles/Allegheny_Home/Dept_-_Content/Administrative/Docs/Paid%20Sick%20Leave%20Ordinance%20-%20notice.pdf)
+  - [Paid Sick Leave Ordinance](https://www.alleghenycounty.us/uploadedFiles/Allegheny_Home/Dept_-_Content/Administrative/Docs/Paid%20Sick%20Leave%20Ordinance%20-%20notice.pdf)
 - **City of Philadelphia**
-    - [Promoting Healthy Families and Workplaces](https://www.phila.gov/media/20191218103833/Paid-Sick-Leave-Poster-Translations.pdf)
-    - [Fair Chance Hiring Law](https://www.phila.gov/media/20210423160847/Fair-Chance-Hiring-law-poster.pdf)
-    - [Paid or Unpaid Sick Leave](https://www.phila.gov/media/20231023150723/Notice-Poster-for-Employees-Sick-Leave-English.pdf)
-    - [Paid or Unpaid Sick Leave in Various Languagues](https://www.phila.gov/media/20231023150745/Notice-Poster-for-Employees-Sick-Leave-Misc-Languages.pdf)
+  - [Promoting Healthy Families and Workplaces](https://www.phila.gov/media/20191218103833/Paid-Sick-Leave-Poster-Translations.pdf)
+  - [Fair Chance Hiring Law](https://www.phila.gov/media/20210423160847/Fair-Chance-Hiring-law-poster.pdf)
+  - [Paid or Unpaid Sick Leave](https://www.phila.gov/media/20231023150723/Notice-Poster-for-Employees-Sick-Leave-English.pdf)
+  - [Paid or Unpaid Sick Leave in Various Languagues](https://www.phila.gov/media/20231023150745/Notice-Poster-for-Employees-Sick-Leave-Misc-Languages.pdf)
 - **City of Pittsburgh**
-    - [Paid Sick Days Act](https://apps.pittsburghpa.gov/redtail/images/9692_Notice-Paid-Sick-Days-Act_06-2020.pdf)
+  - [Paid Sick Days Act](https://apps.pittsburghpa.gov/redtail/images/9692_Notice-Paid-Sick-Days-Act_06-2020.pdf)
 
 ### Puerto Rico
 
@@ -520,11 +520,11 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Tennessee
 
 - [TOSHA Safety and Health Poster](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/TOSHA_Poster_Legal_Size.pdf)
-    - [Spanish](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/TOSHA_Poster_Spanish.pdf)
+  - [Spanish](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/TOSHA_Poster_Spanish.pdf)
 - [Unemployment Insurance Poster](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/UI_Poster_for_Employees.pdf)
-    - [Spanish](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/UIPoster_Spanish.pdf)
+  - [Spanish](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/UIPoster_Spanish.pdf)
 - [Wage Regulation/Child Labor Poster](https://drive.google.com/file/d/1g6461oPfSTlUMeWOXdaESv1METTCCefy/view?usp=sharing)
-    - [Spanish](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/WageRegPoster_Spanish.pdf)
+  - [Spanish](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/WageRegPoster_Spanish.pdf)
 - [Discrimination in Employment is Illegal](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/Website_-_Employment_Poster_-_2014_-_Final.pdf)
 - [Human Trafficking Poster](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/TBI_Poster_English.pdf)
 - [Right to Work Poster](https://www.tn.gov/content/dam/tn/workforce/documents/majorpublications/requiredposters/Right-to-Work-Poster.pdf)
@@ -561,7 +561,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Parental and Family Leave](https://labor.vermont.gov/sites/labor/files/doc_library/Parental%20and%20Family%20Leave%20Poster.pdf)
 - [Sexual Harassment Poster](https://drive.google.com/file/d/1cuwlVBW8CbAkt-HIf2XpEneHVHG7sWEk/view?usp=sharing)
 - [Workers Compensation Reinstatement Rights](https://labor.vermont.gov/sites/labor/files/doc_library/Notice%20to%20Employers%20Employers%20Liability%20and%20WC%20Poster%20%5BEnglish%5D.pdf)
-  - GitLab has complied with the provisions of Title 21 of the Vermont Statutes, Annotated §687, by obtaining Workers’ Compensation Insurance coverage through The Hartford.
+  - GitLab has complied with the provisions of Title 21 of the Vermont Statutes, Annotated §687, by obtaining Workers' Compensation Insurance coverage through The Hartford.
 - [Employment Protections for Victims of Crime](https://labor.vermont.gov/sites/labor/files/doc_library/Crime%20Victim%20Poster_2022.pdf)
 
 ### Virginia

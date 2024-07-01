@@ -9,11 +9,11 @@ summary: " "
 
 The Senior Manager, Video reports to the Director, Brand.
 
-#### Senior Manager, Video Job Grade
+### Senior Manager, Video Job Grade
 
 The Senior Manager, Video is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
-#### Senior Manager, Video Responsibilities
+### Senior Manager, Video Responsibilities
 
 - Creative direct and manage Digital Video Production Team
 - Help develop video strategy for brand and marketing initiatives
@@ -28,7 +28,7 @@ The Senior Manager, Video is a [grade 9](/handbook/total-rewards/compensation/co
 - Manage and oversee the YouTube Brand channel and Vimeo platform
 - Direct video shoots and manage production crew, as needed
 
-#### Senior Manager, Video Requirements
+### Senior Manager, Video Requirements
 
 - Relevant video creative experience in marketing and/or advertising, experience related to broadcast television and online media a plus.
 - Proven ability to plan and manage video and audio production across a variety of deliverables and familiarity with workflows.
@@ -53,23 +53,23 @@ The Senior Manager, Video is a [grade 9](/handbook/total-rewards/compensation/co
 
 The Director, Brand reports to the Sr. Director, Brand.
 
-#### Director, Brand Job Grade
+### Director, Brand Job Grade
 
 The Director, Brand is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Director, Brand Responsibilities
+### Director, Brand Responsibilities
 
 - Develop and oversee brand strategy to increase awareness of GitLab the brand as well as the product across the globe.
 - Bring the GitLab brand to life through one-of-a-kind brand campaigns and creative brand concepts that target our business and developer audiences.
 - Recruit top talent to build a world class brand and creative team to take GitLab to the next level as a company.
 - Work with the team to provide vision and strategy around brand campaigns to execute them in a results and metrics driven fashion.
-- Manage joint marketing opportunities with customers and partners to drive GitLab’s brand narrative.
+- Manage joint marketing opportunities with customers and partners to drive GitLab's brand narrative.
 - Bring on and manage creative agencies around the world; ensuring activities are aligned to the strategy.
 - Oversee the creative, brand growth and corporate events team to align with overall brand objectives and messaging.
 - Oversee resources to ensure key activities are activated with the right budget at the right time, in-line with the GitLab brand.
 - Ability to think outside of the box and challenge the team to push the boundaries.
 
-#### Director, Brand Requirements
+### Director, Brand Requirements
 
 - Proven and progressive experience working as a strategic brand leader in B2B technology space.
 - Passion for creativity, innovation and making complex topics and systems accessible and understandable.
@@ -85,11 +85,11 @@ The Director, Brand is a [grade 10](/handbook/total-rewards/compensation/compens
 
 The Sr. Director, Brand reports to the VP, Corporate Marketing.
 
-#### Sr. Director, Brand Job Grade
+### Sr. Director, Brand Job Grade
 
 The Sr. Director, Brand is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Sr. Director, Brand Responsibilities
+### Sr. Director, Brand Responsibilities
 
 - Extends that of the Director, Brand responsibilities.
 - Provides vision for the Brand Design, Brand Campaigns and Corporate events teams and inspires them to take GitLab to the next level.
@@ -97,7 +97,7 @@ The Sr. Director, Brand is a [grade 11](/handbook/total-rewards/compensation/com
 - Bundles up overall brand direction and communicates it clearly and effectively across the company and organization.
 - Uses qualitative and quantitative data to help drive and support overall brand decisions, as well as measure brand campaign effectiveness.
 
-#### Sr. Director, Brand Requirements
+### Sr. Director, Brand Requirements
 
 - Extends that of the Director, Brand requirements
 - Has a global mindset and understanding about how the brand message should be adapted for different regions.

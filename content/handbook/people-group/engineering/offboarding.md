@@ -32,7 +32,7 @@ The pipeline is scheduled to run every hour and scan for any recent voluntary of
 
 ### Scheduled offboarding issue creation
 
-Every 5 minutes, a pipeline scans Workday for any terminations with the last day of work as today (PST).
+Every 15 minutes, a pipeline scans Workday for any terminations with the last day of work as today (PST).
 
 - Involuntary offboardings will be opened as soon as they are available.
 - Voluntary offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding

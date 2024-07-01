@@ -23,7 +23,7 @@ The Provision project management process inherits from the general Fulfillment [
 
 ### Planning
 
-The milestone planning process is built around [planning issues](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Aprovision) for the milestone, these issue outlines what issues will will be worked on in the upcoming milestone, how those issues are prioritized, commentary on how that fits with over arching goals, and how the proposed work fits in the capacity for the next month. The Provision team use [this template](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/provision_planning.md) for it's planning issues.
+The milestone planning process is built around [planning issues](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Aprovision) for the milestone, these issue outlines what issues will be worked on in the upcoming milestone, how those issues are prioritized, commentary on how that fits with over arching goals, and how the proposed work fits in the capacity for the next month. The Provision team use [this template](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/provision_planning.md) for it's planning issues.
 
 #### Planning Timeline
 
@@ -70,6 +70,6 @@ in future milestones. Full chart [to be migrated](https://gitlab.com/gitlab-data
 
 {{< engineering/child-dashboards filters="Provision" >}}
 
-##### OKRs
+### OKRs
 
 The Engineering Manager will report on the progress of [OKRs](/handbook/company/okrs/) every two weeks. Current OKRs: [FY22-Q1](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10680)

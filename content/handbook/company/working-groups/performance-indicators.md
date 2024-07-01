@@ -19,13 +19,13 @@ Erect automated [KPI](https://docs.google.com/document/d/1NNne33rOtkrogqWRzdQZ4U
 
 ## Exit Criteria
 
-- Get “Engineering Pulse Survey” KPI to maturity level 3
-- Get “Hiring actual vs plan” KPI to maturity level 4
-- Get “Non-headcount budget vs plan” KPI to maturity level 4
-- Get “Average location factor” KPI to maturity level 4
-- Get “Diversity” KPI to maturity level 3
-- Get “Handbook updates” KPI to maturity level 4
-- Get “Employee retention” KPI to maturity level 3
+- Get "Engineering Pulse Survey" KPI to maturity level 3
+- Get "Hiring actual vs plan" KPI to maturity level 4
+- Get "Non-headcount budget vs plan" KPI to maturity level 4
+- Get "Average location factor" KPI to maturity level 4
+- Get "Diversity" KPI to maturity level 3
+- Get "Handbook updates" KPI to maturity level 4
+- Get "Employee retention" KPI to maturity level 3
 - Move KPI overview from Google doc to the handbook page(s)
 
 ## Roles and Responsibilities

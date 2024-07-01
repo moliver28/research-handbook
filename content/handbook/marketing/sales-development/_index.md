@@ -1,5 +1,4 @@
 ---
-
 title: Sales Development
 description: "The purpose of this page is to act as the homapage of the sales development org's handbook presence."
 
@@ -40,7 +39,7 @@ Please follow the table below to quickly find the most relevant place for what y
 
 | Page | What you'll find|
 | --------- | ---------- |
-| [How-Tos Page](/handbook/marketing/sales-development/how-tos/) | Quick information on finding your leads and accounts, actioning your inbound/outbound pipeline, creating SAOs, and any other main process that you'll work with on your day-to-day. |
+| [How-Tos Page](/handbook/marketing/sales-development/how-tos/) | Quick information on finding your leads and accounts, actioning your inbound/outbound pipeline, creating Sales Accepted Opportunities (SAOs), and any other main process that you'll work with on your day-to-day. |
 | [RoE, FAQ and KPIs Page](/handbook/marketing/sales-development/roe-kpis-faq/) | Answers to the most common questions around career progression, rules of engagement, general expectations from the role, opportunity credit, ramping periods, lead routing and compensation. |
 | [Tanuki Tech Page](/handbook/marketing/sales-development/tanuki-tech/) | Anything related to your ongoing enablement as part of the Sales Dev team. |
 | [The Sales Dev Knowledge Vault](/handbook/marketing/sales-development/sales-development-vault/) | Information and knowledge that can help to improve your skills. Includes managerial-level processes, manager or team member onboarding, and tool walkthroughs. |
@@ -68,8 +67,8 @@ Please follow the table below to quickly find the most relevant place for what y
 | **BDR ENTG AMER EAST (Manager - Shamit Paul)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
 | **BDR PUBSEC (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C04R54N159P)|
 | **All - EMEA (Manager - Elsje Smart)**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
-| **SDR EMEA - (Manager - Elsje Smart)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
-| **BDR COMM EMEA MM - (Manager - Elsje Smart)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
+| **SDR EMEA - (Manager - Jonathan Rivat)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
+| **BDR COMM EMEA MM - (Manager - Fintan Harrington)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
 | **BDR ENTG EMEA NEUR META - (Manager - Miguel Nunes)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
@@ -114,6 +113,7 @@ Please follow the table below to quickly find the most relevant place for what y
 | [High Level Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000eQob) | The dashboard we use to glance at our bottom-line results. |
 | [Pipeline Progression Dashboard](https://gitlab.my.salesforce.com/01Z8X000000u6mP) | The dashboard we use to measure the progress, or lack of thereof, of opportunities sourced by our org. |
 | [Global Sales Dev Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000cNmn) | A more granular dashboard that breaks down attainment further. |
+| [Regional Sales Dev Results Dashboard](https://gitlab.my.salesforce.com/01ZPL0000010KuD) | A regional dashboard that breaks down attainment into teams. |
 | [Last Q's attainment Dashboard](https://gitlab.my.salesforce.com/01ZPL000000uZKr) | A bird's-eye view of last Quarter's attainment per region. |
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. |
 

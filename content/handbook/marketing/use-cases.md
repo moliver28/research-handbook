@@ -76,7 +76,7 @@ We need to enforce standardized CI pipelines that include requisite testing and 
 
 These are topics where sales and marketing conversations may start, but then we want to lead the prospect toward delivery automation. For instance, GitOps is hot topic and ranking well in SEO so it's worth talking about. But ultimately we want to drive people to delivery automation (or platform).
 
-#### [1. GitOps](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/)
+### [1. GitOps](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/)
 
 **We are looking for a way to automatically provision, administer and maintain infrastructure as code.** - (CI/CD Infrastructure-as-code or **GitOps**)
 I manually stage and test environments for infrastructure making it hard to track and error-prone. I want to stage all components and test them to be sure it works to automate my release pipelines, provide consistency, reduce cost, and  eliminate errors. I may frequently leverage integration with Terraform, Kubernetes, Ansible, OpenStack and others.
@@ -91,7 +91,7 @@ I manually stage and test environments for infrastructure making it hard to trac
 
 *This conversation should lead the prospect toward the Delivery Automation solution.*
 
-#### [2. Source Code Management (aka Version Control and Collaboration, VC&C](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration)
+### [2. Source Code Management (aka Version Control and Collaboration, VC&C](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration)
 
 **We are looking for a way to create, manage and protect our intellectual property (i.e. source code, design, images, etc).** - In simple terms [Version Control](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) and Collaboration (VC&C), but more inclusively, *product configuration management* or *product asset management*.
 We need a better way to manage changes to documents, software, images, large websites, and other collections of code, configuration, and metadata among disparate teams. (Examples in GitLab include Git, branches, merge requests, code review, InnerSourcing, WebIDE, and files.)

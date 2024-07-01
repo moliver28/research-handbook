@@ -1,12 +1,6 @@
 ---
-
 title: "AMER CSMs"
 ---
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -47,7 +41,7 @@ The primary objective in enabling our customers is to get a customer to value qu
 
 ### Expand & Renew
 
-This phase is about going beyond a customer’s primary use cases, into additional adoption/expansion and tier upgrades if applicable. Through ensuring a customer gets to value quickly, understanding a customer’s desired business outcomes, and engaging strategically through touchpoints such as EBRs in addition to cadence calls, a CSM is a trusted advisor to introduce and advocate for the idea of growth. This phase also includes the preparation for upcoming renewals.
+This phase is about going beyond a customer's primary use cases, into additional adoption/expansion and tier upgrades if applicable. Through ensuring a customer gets to value quickly, understanding a customer's desired business outcomes, and engaging strategically through touchpoints such as EBRs in addition to cadence calls, a CSM is a trusted advisor to introduce and advocate for the idea of growth. This phase also includes the preparation for upcoming renewals.
 
 | Description | Metrics |
 |---|---|
@@ -59,7 +53,7 @@ This phase is about going beyond a customer’s primary use cases, into addition
 
 Beginning FY25, all customers aligned with a CSM are considered Priority 1 and should be reflected as such in Gainsight and in our engagement model. That model is described below.
 
-#### Cadence Frequency
+### Cadence Frequency
 
 CSMs should have weekly or biweekly calls with each of their customers, and should never go more than one month without a call. If a customer is unegaged, they should be marked as [non-engaged](/handbook/customer-success/csm/engagement/Non-engaged-customer-strategies/) and [triaged](/handbook/customer-success/csm/health-score-triage/) appropriately. Even if it ends up being a false positive, we want to act swiftly to ensure any risk is mitigated. CSMs should expect to have 5-7 cadence calls per week, in addition to adhoc calls such as workshops, EBRs, product discussions, etc.
 

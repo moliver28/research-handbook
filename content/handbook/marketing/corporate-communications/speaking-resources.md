@@ -1,5 +1,4 @@
 ---
-
 title: 'GitLab Speakers Resources'
 ---
 
@@ -58,8 +57,8 @@ Identify events to speak at, prepare for the Call-for-Papers, review and ensure 
 1. For a complete list of events we are tracking, see the [marketing calendar](/handbook/marketing/#marketing-calendar) and the [Developer Advocacy team calendar](/handbook/marketing/developer-relations/developer-advocacy/).
 1. More sources for events and CFPs:
 
-  - [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda) by Aurélie Vache
-  - [Newsletters](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content-sources). @dnsmichi maintains a section in his [opsindev.news newsletter](https://opsindev.news/) every month.
+   - [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda) by Aurélie Vache
+   - [Newsletters](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content-sources). @dnsmichi maintains a section in his [opsindev.news newsletter](https://opsindev.news/) every month.
 
 ### CFP Submission
 
@@ -67,8 +66,8 @@ Identify events to speak at, prepare for the Call-for-Papers, review and ensure 
 
 All talk submissions to the Call-for-Papers (CFP) process at events must be tracked in an issue, using the [`CFP-Meta` template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=CFP-Meta).
 
-  - If you submitted a talk, or it was accepted already, please also create an issue.
-  - Inviting customers to speak, or co-submit a talk should also be coordinated in the CFP issue.
+- If you submitted a talk, or it was accepted already, please also create an issue.
+- Inviting customers to speak, or co-submit a talk should also be coordinated in the CFP issue.
 
 The CFP template provides guidance on the required event details (URL, location, dates, CFP notification dates, etc.). Please add as many details as possible. All DRIs are tagged automatically, and will be in touch for the next steps.
 
@@ -76,15 +75,15 @@ If you need help with abstract reviews, or slide deck reviews, please add a note
 
 For ideas to help you or your customers get their submissions accepted:
 
-  - Review [How to Get Your Presentation Accepted (video)](https://www.youtube.com/watch?v=wGDCavOCnA4).
-  - Join the [Speakers Lean Coffee](/handbook/marketing/corporate-communications/speaking-resources/#speakers-lean-coffee).
-  - Schedule a chat with a [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/).
+- Review [How to Get Your Presentation Accepted (video)](https://www.youtube.com/watch?v=wGDCavOCnA4).
+- Join the [Speakers Lean Coffee](/handbook/marketing/corporate-communications/speaking-resources/#speakers-lean-coffee).
+- Schedule a chat with a [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/).
 
 #### Event Requirements
 
 > 🤝 **These steps are required.**
 
-Before accepting an invitation to speak at an event, please ensure that the conference aligns with GitLab’s values around its mission that “everyone can contribute”. The event should have both good intentions and accurately reflect those intentions.
+Before accepting an invitation to speak at an event, please ensure that the conference aligns with GitLab's values around its mission that "everyone can contribute". The event should have both good intentions and accurately reflect those intentions.
 
 1. Any event where a GitLab team member is speaking "on behalf of GitLab," requires to have at least two speakers on the event agenda from [an underrepresented group](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) and any panel a GitLab team member participates on should have at least one speaker from an underrepresented group.
 1. Please ensure the event has an enforced, public Code of Conduct to ensure it is a safe environment for all contributing. If needed, event organizers are welcome to use GitLab's [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).

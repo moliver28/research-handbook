@@ -63,7 +63,7 @@ In Q4-FY23, our KR is: **Certify at least 100 GitLab team members and 1 person i
 
 [TeamOps]({{< ref teamops >}}) is how GitLab works. It is an operations model that helps teams maximize productivity, flexibility, and autonomy by managing decisions, information, and tasks more efficiently.
 
-TeamOps Trainers are team members who are internal champions of GitLab’s values, operating principles, and ways of working, inclusive of all functions and departments. They aspire to mentor and share with others GitLab’s ways of working, both inside and outside of the organization.
+TeamOps Trainers are team members who are internal champions of GitLab's values, operating principles, and ways of working, inclusive of all functions and departments. They aspire to mentor and share with others GitLab's ways of working, both inside and outside of the organization.
 
 A TeamOps Trainer transitions through three stages of TeamOps understanding. 1) Recall => 2) Apply => 3) Teach
 
@@ -72,7 +72,7 @@ In Q4-FY23, we are hosting TeamOps Trainer Pilot Workshops.
 The purpose of the first version of this program is to collect feedback and resources as part of a larger go to market strategy, including:
 
 - Focus Group – Content testing, feedback, and iteration as beta test before TeamOps is released to the public market with a more formal sales strategy.
-- Content/Model Prototyping – Test the viability of creating a network of TeamOps representatives for future phases of TeamOps growth. (“Train the Trainer”)
+- Content/Model Prototyping – Test the viability of creating a network of TeamOps representatives for future phases of TeamOps growth. ("Train the Trainer")
 - Content Creation – Scale content related to TeamOps by empowering all of GitLab to contribute blog posts and social threads.
 
 Creation of and participation in this program also supports the [FY23-Q4 OKR to Grow Careers](/handbook/company/okrs/fy23-q4/) of GitLab team members.
@@ -210,7 +210,7 @@ Regardless of the nuance in the request, here are the foundational areas that sh
 1. **"OK, but where do we start?"**
    - Start small, don't be overwhelmed. Get your executives out of the office and have EA's document the communication gaps that emerge. (Hint: *That's your priority list of what voids to fill*.)
    - Establish a team responsible for communication. Everything that comes next requires clear, frequent, transparent communication and an understanding of where to communicate and who are the DRIs for various functions.
-   - Provide a feedback mechanism. [It's impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}), so ask your team members what's missing in their remote approach. Prioritize those asks as you see themes forming.
+   - Provide a feedback mechanism. [It's impossible to know everything](/handbook/values/#its-impossible-to-know-everything), so ask your team members what's missing in their remote approach. Prioritize those asks as you see themes forming.
    - Remind people that GitLab has two Getting Started guides: one for [leaders/companies](/handbook/company/culture/all-remote/remote-work-emergency-plan/), another for [workers](/handbook/company/culture/all-remote/remote-work-starter-guide/).
 1. **Minimize your tool Stack**. The fewer moving pieces when transitioning to remote, the better. GitLab (the product) is at the heart of our workflows.
 1. **"But wait, I still need help!"** Fret not! GitLab's entire library of remote guides are available at http://allremote.info/ ("*All Remote Dot Info*")
@@ -319,7 +319,7 @@ The [Work-from-Home Field Guide](/handbook/company/culture/all-remote/work-from-
 
 ### Remote Work playlist on GitLab Unfiltered
 
-GitLab is a very [transparent]({{< ref "values#transparency" >}}) company. As such, our AMAs, webinars, and other conversations with team members and other companies are uploaded to a dedicated [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) on the GitLab Unfiltered YouTube channel.
+GitLab is a very [transparent](/handbook/values/#transparency) company. As such, our AMAs, webinars, and other conversations with team members and other companies are uploaded to a dedicated [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) on the GitLab Unfiltered YouTube channel.
 
 ### Universal Remote webcast playlist on GitLab YouTube channel
 
@@ -359,7 +359,7 @@ The audience we aim to reach with our all-remote and workplace initiatives is bo
 - When you can hire around the world, you can pay market wages and offer people an at-market or above-market wage while still reducing costs for the company.
 - Without office rent, an organization [saves](/handbook/company/culture/all-remote/benefits/) a significant amount of money. GitLab, for example, has experienced rapid growth and would've had to move offices seven times in the last few years. We save a significant amount of money on rent, utilities, office equipment, and additional team members to manage the office.
 - GitLab has [grown](/handbook/company/history/) from 350 employees at the beginning of 2019, to over 1,600 employees across 65+ countries and regions currently.
-We chose the all-remote structure so we can hire people irrespective of location and we’re able to find the most talented people in the world rather than within a commutable distance.
+We chose the all-remote structure so we can hire people irrespective of location and we're able to find the most talented people in the world rather than within a commutable distance.
 
 ### Best practices for managing teams and communications remotely
 
@@ -385,14 +385,14 @@ We chose the all-remote structure so we can hire people irrespective of location
 
 **Iteration**
 
-- We do the smallest thing possible and get it out as quickly as possible. If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link. Don't write a large plan, only write the first step. Trust that you'll know better how to proceed after something’s released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration.
+- We do the smallest thing possible and get it out as quickly as possible. If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link. Don't write a large plan, only write the first step. Trust that you'll know better how to proceed after something's released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration.
 - This value is the one most underestimate when they join GitLab. The impact both on your work process and on how much you achieve is greater than anticipated. In the beginning, it hurts to make decisions fast and to see that things are changed with less consultation. But frequently the simplest version turns out to be the best one.
 
 **Transparency**
 
 - Be open about as many things as possible. By making information public we can reduce the threshold to contribution and make collaboration easier. Use public issue trackers, projects, and repositories when possible.
 - An example is the public repository of our website that also contains our company handbook. Everything we do is public by default, for example, the GitLab CE and GitLab EE issue trackers, but also marketing and infrastructure.
-- Transparency creates awareness for GitLab, which allows us to recruit people that care about our values. It gets us more and faster feedback from people outside the company, and makes it easier to collaborate with them. It’s also about sharing great software, documentation, examples, lessons, and processes with the whole community and world in the spirit of open source, which we believe creates more value than it captures.
+- Transparency creates awareness for GitLab, which allows us to recruit people that care about our values. It gets us more and faster feedback from people outside the company, and makes it easier to collaborate with them. It's also about sharing great software, documentation, examples, lessons, and processes with the whole community and world in the spirit of open source, which we believe creates more value than it captures.
 
 ### Connecting GitLab sellers to individuals
 
@@ -410,7 +410,7 @@ The team's primary home for publishing informational guides and content is the [
 
 ### Video
 
-GitLab is a very [transparent]({{< ref "values#transparency" >}}) company. As such, our remote-centric AMAs, webinars, and other conversations with team members and other companies are uploaded to a dedicated [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) on the GitLab Unfiltered YouTube channel.
+GitLab is a very [transparent](/handbook/values/#transparency) company. As such, our remote-centric AMAs, webinars, and other conversations with team members and other companies are uploaded to a dedicated [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) on the GitLab Unfiltered YouTube channel.
 
 ### Events, panels, keynotes and webinars
 
@@ -428,7 +428,7 @@ We gathered the workplace design community in June 2021 for **REMOTE by GitLab**
 
 ### Social media
 
-We incorporate all-remote content on GitLab’s [social media](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) accounts, and are investigating a visual approach to new mediums that are aligned with culture and lifestyle stories.
+We incorporate all-remote content on GitLab's [social media](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/) accounts, and are investigating a visual approach to new mediums that are aligned with culture and lifestyle stories.
 
 We are working with talent branding to surface relevant all-remote stories from GitLab team members to talent acquisition channels and review sites, such as Glassdoor, LinkedIn and Comparably.
 
@@ -442,12 +442,12 @@ There are also a number of videos on GitLab's [YouTube channel](https://www.yout
 
 ## How to contribute (working with us)
 
-To contribute an idea or [proposal]{{< ref "values#make-a-proposal" >}}) to further GitLab's all-remote mission:
+To contribute an idea or [proposal](/handbook/values#make-a-proposal) to further GitLab's all-remote mission:
 
 1. Please put each new idea/topic in a new issue within the [Chief of Staff to the CEO Team](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
 1. Put `Proposal: [IDEA]` as the subject
 1. Assign to `@streas`
-1. Please [set a due date]({{< ref "values#set-a-due-date" >}}) using GitLab's `Due Date` feature and provide context for the deadline(s).
+1. Please [set a due date](/handbook/values/#set-a-due-date) using GitLab's `Due Date` feature and provide context for the deadline(s).
 
 ### Requesting guidance
 
@@ -466,7 +466,7 @@ The pilot test was a big success, inspiring not just GitLab team members (see [S
 
 <div class="center">
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It’s day 4 of Focus Week for my team where we cleared all meetings (except for a few critical) and do all work async. The feedback so far is…incredible<br><br>Productivity🔥<br>Zoomed-out thinking 🔥<br>Prioritization 🔥<br>Focus (duh) 🔥<br>Collaboration 🔥<br>Sanity 🔥🙏</p>&mdash; Leslie Berland (@leslieberland) <a href="https://twitter.com/leslieberland/status/1441068737658978314?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It's day 4 of Focus Week for my team where we cleared all meetings (except for a few critical) and do all work async. The feedback so far is…incredible<br><br>Productivity🔥<br>Zoomed-out thinking 🔥<br>Prioritization 🔥<br>Focus (duh) 🔥<br>Collaboration 🔥<br>Sanity 🔥🙏</p>&mdash; Leslie Berland (@leslieberland) <a href="https://twitter.com/leslieberland/status/1441068737658978314?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
 

@@ -3,7 +3,6 @@ title: "GitLab MVP Selection Process"
 description: Process for Contributor Success to select GitLab MVPs
 ---
 
-
 ## GitLab MVP
 
 Each month GitLab recognizes one or more community contributors as GitLab MVPs ("Most Valuable Persons") to be featured in the GitLab release post. Nominations are a rolling process so that contributors can be nominated and supported at anytime. The GitLab MVPs are recognized within the GitLab release post and across Slack and Discord. MVPs also receive an achievement badge for their profile and a GitLab swag pack or tree planting option in celebration of their contribution.
@@ -52,12 +51,7 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
    https://gitlab.com/api/graphql
    ```
 
-   NOTE: To find a userId from a username:
-
-   ```shell
-    curl --request GET 'https://gitlab.com/api/v4/users?search=<user_name>' \
-    -H "Authorization: Bearer $(op read 'op://Contributor Success Team/GitLab MVP Achievements Group Access Token/password')" \
-   ```
+   NOTE: To find a userId from a username, visit the GitLab profile page for the user and click the dropdown elipsis in the upper right corner.
 
 1. Follow the steps for [Sending MVP Appreciation Gifts](#sending-mvp-appreciation-gifts).
 1. After release post goes live, link the MVP section of the release post in Slack `#whats-happening-at-gitlab` channel along with a reminder to add new nominations.

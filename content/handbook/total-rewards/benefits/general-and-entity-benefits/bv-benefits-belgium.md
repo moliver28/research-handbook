@@ -13,7 +13,7 @@ GitLab does not plan on offering pension benefits at this time due to the govern
 
 GitLab will continue to review responses from the [Global Benefits Survey]({{< ref "benefits-survey#global-benefits-survey" >}}) as well as budgetary availability with respect to adding a Life Insurance policy for team members in Belgium.
 
-Annual Mandatory Indexation:  Each year Belgian’s Joint Industrial Committee 227 (JIC 227) completes a salary review and recommends an adjustment in keeping with the cost of living. That adjustment is referred to as salary indexation and affects employees of companies that are subject to the committee's oversight. GitLab processes these mandated increases as part of Annual Compensation Review. An email will be sent to affected team members that will state their salary increase is an advance payment (partly) on the given year indexation, aiming at compensating (partly) for the increased costs of living and will ask for an acknowledgment of receipt of said email to each employee.
+Annual Mandatory Indexation:  Each year Belgian's Joint Industrial Committee 227 (JIC 227) completes a salary review and recommends an adjustment in keeping with the cost of living. That adjustment is referred to as salary indexation and affects employees of companies that are subject to the committee's oversight. GitLab processes these mandated increases as part of Annual Compensation Review. An email will be sent to affected team members that will state their salary increase is an advance payment (partly) on the given year indexation, aiming at compensating (partly) for the increased costs of living and will ask for an acknowledgment of receipt of said email to each employee.
 
 ## Healthcare Allowance
 
@@ -55,8 +55,8 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
 
 - Sick Leave
   - Every team member is entitled to have their remuneration to be paid by GitLab during the first 30-day period of incapacity for work, regardless of their seniority. This leave runs concurrently with GitLab's Sick Time policy. Team members must designate any time off for illness or injury as `Out Sick` in Time Off by Deel to ensure that sick leave entitlement is properly tracked.
-      - When two incapacities follow one another without interruption or where the second occurs within 14 days of the first (e.g. a relapse of the same illness or injury), there is only one period of incapacity and the guaranteed remuneration will not be due again.
-      - Where a second or further incapacity occurs within 14 days of a previous incapacity, *and* the team member can prove by means of a medical certificate that this new incapacity for work is caused by a new illness or injury, a new guaranteed salary will be due again.
+    - When two incapacities follow one another without interruption or where the second occurs within 14 days of the first (e.g. a relapse of the same illness or injury), there is only one period of incapacity and the guaranteed remuneration will not be due again.
+    - Where a second or further incapacity occurs within 14 days of a previous incapacity, *and* the team member can prove by means of a medical certificate that this new incapacity for work is caused by a new illness or injury, a new guaranteed salary will be due again.
 - Statutory Parental Leave
   - Pregnant team members are entitled to 15 weeks of maternity leave which consists of two periods: prenatal leave of 6 weeks and postnatal leave of 9 weeks.
     - Prenatal Leave: At the pregnant team member's request, this leave starts, at the earliest, six weeks before the expected date of delivery and is comprised of the following:

@@ -35,7 +35,7 @@ Arthur C. Clarke was a writer, inventor, and futurist.
 
 In this [BBC Horizon clip](https://youtu.be/FxYgdX2PxyQ?t=104), which originally aired in 1964, Clarke predicts that in or around the year 2000, working remotely by leveraging advanced telecommunications will be possible. A portion of his interview is transcribed below.
 
-> "I’m thinking of the incredible breakthrough which has been made possible by developments in communications; particularly the transistor, and above all, the communications satellite. These things will make possible a world which we can be in instant contact with each other, wherever we may be, where we can contact our friends anywhere on Earth, even if we don’t know their actual, physical location.
+> "I'm thinking of the incredible breakthrough which has been made possible by developments in communications; particularly the transistor, and above all, the communications satellite. These things will make possible a world which we can be in instant contact with each other, wherever we may be, where we can contact our friends anywhere on Earth, even if we don't know their actual, physical location.
 >
 > It will be possible in that age, perhaps only 50 years from now, for a man to conduct his business from Tahiti or Bali just as well as he could from London. In fact if it proves worthwhile, almost any executive skill, any administrative skill, even any physical skill could be made independent of distance. I am perfectly serious when I suggest that one day we may have brain surgeons in Edinburgh operating on patients in New Zealand."
 

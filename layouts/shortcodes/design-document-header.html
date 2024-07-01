@@ -1,0 +1,50 @@
+{{/* 
+    Use to print page frontmatter metadata for architecture design documents.
+*/}}
+
+<div class="alert alert-primary my-3">
+    This page contains information related to upcoming products, features, and functionality.
+    It is important to note that the information presented is for informational purposes only.
+    Please do not rely on this information for purchasing or planning purposes.
+    The development, release, and timing of any products, features, or functionality may be
+    subject to change or delay and remain at the sole discretion of GitLab Inc.
+</div>
+
+{{/*  Ensure the table is full width and make the font size slightly smaller so everything fits nicely.  */}}
+<table class="table mb-4" style="display: table; width: 100%; max-width: 100%; font-size: .875rem;">
+    <thead>
+        <tr>
+            <th>Status</th>
+            <th>Authors</th>
+            <th>Coach</th>
+            <th>DRIs</th>
+            <th>Owning Stage</th>
+            <th>Created</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{/*  Maintain the visual appearance of the former blueprints list without striped table rows.  */}}
+        <tr style="--bs-table-striped-bg: none;">
+            <td>
+                {{ partial "gitlab/label" (dict "name" .Page.Params.Status) }}
+            </td>
+            <td>
+        		{{ partial "gitlab/profile-links" (dict "handles" .Page.Params.authors) }}
+            </td>
+            <td>
+                {{ partial "gitlab/profile-links" (dict "handles" .Page.Params.Coach) }}
+        		{{ partial "gitlab/profile-links" (dict "handles" .Page.Params.Coaches) }}
+            </td>
+            <td>
+        		{{ partial "gitlab/profile-links" (dict "handles" .Page.Params.Approvers) }}
+        		{{ partial "gitlab/profile-links" (dict "handles" .Page.Params.Dris) }}
+            </td>
+            <td>
+                {{ partial "gitlab/label" (dict "name" (index .Page.Params "owning-stage"))}}
+            </td>
+            <td>
+                {{ index .Page.Params "creation-date" }}
+            </td>
+        </tr>
+    </tbody>
+</table>

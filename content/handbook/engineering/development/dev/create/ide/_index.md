@@ -7,7 +7,7 @@ description: >-
 
 ## Overview
 
-The group is part of [Create Stage][hb-create] in the [Dev Sub-department][hb-dev]. We focus on multiple [categories][hb-categories]: `Remote Development` and the `Web IDE`.
+The group is part of [Create Stage](/handbook/engineering/development/dev/create/) in the [Dev Sub-department](/handbook/engineering/development/dev/). We focus on multiple [categories](https://about.gitlab.com/direction/create/#categories-in-create): `Remote Development` and the `Web IDE`.
 
 ### 👌 Group OKRs
 
@@ -19,7 +19,7 @@ If you're interested in the group's Objectives and Key Results (OKRs), you can f
 
 <span id="-team-principles" data-message="alias anchor for old links"></span>
 
-[Create:IDE Principles][principles]: What Are the Create:IDE Group Principles?
+[Create:IDE Principles](principles/): What Are the Create:IDE Group Principles?
 
 ### 🚀 Team Members
 
@@ -46,7 +46,7 @@ The following people are permanent members of the IDE Engineering Group:
 
 Depending on the context here are the most appropriate ways to reach out to the IDE Group:
 
-- Slack Channel: [`#g_create_ide`][slack]
+- Slack Channel: [`#g_create_ide`](https://gitlab.slack.com/archives/CJS40SLJE)
 - Slack Groups: `@create-ide-team` (entire team) and `@create-ide-engs` (just engineers)
 
 ### Group Metrics Dashboards
@@ -57,7 +57,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 <span id="-team-meetings" data-message="alias anchor for old links"></span>
 
-**❗️Important**: For every meeting, the [IDE group's meeting document][gdoc] should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
+**❗️Important**: For every meeting, the [IDE group's meeting document](https://docs.google.com/document/d/1b-dgL0ElBf_I3pbBUFISTYBG9VN02F1b3TERkAJwJ20/edit#) should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
 
 These are regular meetings in which most team members will participate. Also, please note that sync meeting schedules are flexible and can be moved to accomodate required participants.  Below is our schedule:
 
@@ -116,11 +116,11 @@ We use the terms _Architecture Plan_ and _Iteration Plan_ when we think of outco
 
 These guidelines apply to all issues we use for planning and scheduling work within our group. Our Engineers can define specific implementation issues when needed, but the overall goal for our issues are as follows:
 
-- Treat the wider community as the primary audience ([see relevant summary for rationale][community-contributions-wider-community]).
+- Treat the wider community as the primary audience ([see relevant summary for rationale](community-contributions/#wider-community-as-primary-audience)).
 - Provide a meaningful **title** that describes a deliverable result.
-    - ✅ `Add a cancel button to the edit workspace form page`
-    - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
-    - ❌ `Make WebIDE better`
+  - ✅ `Add a cancel button to the edit workspace form page`
+  - ✅ `Automatically save Devfile changes after 2 seconds of inactivity`
+  - ❌ `Make WebIDE better`
 - Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
 - Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 - The issue should have a weight assigned.
@@ -134,7 +134,7 @@ It's okay to create specific engineering-driven implementation issues for more c
 The IDE group has decided to use an alternate planning process for the following reasons:
 
 1. Remote Development is a large, greenfield category, with many engineering, infrastructure, and technical concerns and unknowns which will continue to evolve and change as the category matures.
-1. The Remote Development category is also currently receiving much attention as part of of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
+1. The Remote Development category is also currently receiving much attention as part of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
 1. In order to meet this need for more accurate and realistic planning and delivery estimates, the Remote Development category team has decided to modify parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies. The goal is to provide accurate delivery estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
 1. To better support the use of these methodologies, the IDE group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint.html) where possible.
 1. However, due to existing limitations of the Iterations and Boards features in fully supporting these methodologies, we will also experiment with new and alternate tools and processes, with the goal of informing and potentially contributing back to improve GitLab's support for them. More details will be shared as this effort evolves.
@@ -192,7 +192,7 @@ TODO: We need to create a Web IDE version of this report and link it in the cate
 
 In addition to the Velocity Board chrome extension, there is a [Remote Development Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/remote-development-iteration-planning-report-latest.html) which is automatically published every 6 hours.
 
-This report shows the same auto-calculated iteration/velocity data, and uses the same logic as the Velocity Board Chrome Extension, but you don’t have to install the extension to see it.
+This report shows the same auto-calculated iteration/velocity data, and uses the same logic as the Velocity Board Chrome Extension, but you don't have to install the extension to see it.
 
 The pipeline to generate it can also be run [directly from CI](https://gitlab.com/gitlab-org/remote-development/remote-development-team-automation/-/pipelines).
 
@@ -214,7 +214,7 @@ graph TD;
 
 **Process:**
 
-**TL;DR: Assign the [`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues) milestone to all issues that should be refined and prioritized in the next Pre-IPM meeting(s).**
+**TL;DR: Assign the [`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues) to all issues that should be refined and prioritized in the next Pre-IPM meeting(s).**
 
 1. All higher-priority issues should be [contained in the category epic or one of its sub-epics](https://gitlab.com/groups/gitlab-org/-/epics/7419)
 1. They should all have the `~(rd|webide)-workflow::unprioritized` label assigned.
@@ -285,7 +285,7 @@ The "Pre-Iteration Planning" (Pre-IPM) meeting prepares for the Iteration Planni
 
 During the Pre-IPM, the team will collaborate on creating/refining, organizing, and clarifying all issues which are to be prioritized for the upcoming iteration(s). This will normally involve Product and Engineering leaders on the team, but may also involve Design or other team members depending on the nature of the issues involved. The goal is to ensure that all issues which have been identified as a priority for the upcoming releases are properly refined, curated, prioritized, and ready for the wider team to briefly discuss and estimate in the next IPM.
 
-If a single piece of work spans multiple projects/repos, there should be be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks.html#set-task-weight), because boards cannot display individual
+If a single piece of work spans multiple projects/repos, there should be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks.html#set-task-weight), because boards cannot display individual
 tasks.
 
 **QUESTION: Why isn't there a `~(rd|webide)-workflow::refined` phase instead of using the `~refined` label?**
@@ -402,9 +402,9 @@ To assign weights to issues effectively, it's important to remember that issue w
 
 - **Weight 0:** Reserved for the smallest and easiest issues, such as typos or minor formatting changes, or very minor code changes with no tests required.
 - **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like "good for new contributors" or "Hackathon - Candidate". For example:
-    - Changing copy text which may be simple but take some time.
-    - Making CSS or UI adjustments.
-    - Minor code changes to one or two files, which require tests to be written or updated.
+  - Changing copy text which may be simple but take some time.
+  - Making CSS or UI adjustments.
+  - Minor code changes to one or two files, which require tests to be written or updated.
 - **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
 - **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant [breaking down into smaller separate issues](#-breaking-down-large-issues).
 - **Weight 5:** Normally, this weight should be avoided, and indicate that the issue ideally [should be broken down into smaller separate issues](#-breaking-down-large-issues). However, in some cases a issue with a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.
@@ -444,11 +444,11 @@ The IDE Team communicates based on the following guidelines:
 1. Always prefer async communication over sync meetings.
 1. Don't shy away from arranging a [sync call](#-ad-hoc-sync-calls) when async is proving inefficient, however always record it to share with team members.
 1. By default communicate in the open.
-1. All work-related communication in Slack happens in the [#g_create_ide][slack] channel.
+1. All work-related communication in Slack happens in the [#g_create_ide](https://gitlab.slack.com/archives/CJS40SLJE) channel.
 
 ### ⏲ Time Off
 
-Team members should add any [planned time off][paid-time-off] in the ["Time Off by Deel"](https://gitlab.slack.com/archives/D019WTM2F99) slack app, so that the Engineering Manager can use the proper number of days off during capacity planning.
+Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the ["Time Off by Deel"](https://gitlab.slack.com/archives/D019WTM2F99) slack app, so that the Engineering Manager can use the proper number of days off during capacity planning.
 
 ### 🤙 Ad-hoc sync calls
 
@@ -458,18 +458,18 @@ We operate using async communication by default. There are times when a sync dis
 
 ### 🏁 Developer Cheatsheet
 
-[Developer Cheatsheet][cheatsheet]: This is a collection of various tips, tricks, and reminders which may be useful to engineers on (and outside of) the team.
+[Developer Cheatsheet](developer-cheatsheet/): This is a collection of various tips, tricks, and reminders which may be useful to engineers on (and outside of) the team.
 
 ### 🤗 Fostering Wider Community Contributors
 
 We want to make sure that all the fields of the Create:IDE team are approachable for outside contributors.
 In this case, if issues should be good for any contribution it should be treated with extra care. Therefore have a look at this excellent guide written by our own Paul Slaughter!
 
-[Cultivating Contributions from the Wider Community][community-contributions]: This is a summary of why and how we cultivate contributions from the wider community.
+[Cultivating Contributions from the Wider Community](community-contributions/): This is a summary of why and how we cultivate contributions from the wider community.
 
 ### 📹 GitLab Unfiltered Playlist
 
-The IDE Group collates all video recordings related to the group and its team members in [a playlist][youtube] in the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) YouTube channel.
+The IDE Group collates all video recordings related to the group and its team members in [a playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRQhnSYRNh1s1mEUypx67-) in the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) YouTube channel.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="ide" >}}
@@ -523,19 +523,3 @@ TODO: None of these are set up for the Web IDE category and `webide-workflow::*`
 | <a id="automation-12">12</a> | Ensure all prioritized issues with an assignee have a weight assigned | All issues with `~rd-workflow::prioritized` and an assignee but no weight should get a reminder note to either add a weight estimate or remove the assignee. | TODO: implement |
 | <a id="automation-13">13</a> | Assign a `rd-maturity::*` label of `viable`, `complete`, etc based on epic hierarchy | All issues should have appropriate labels added/removed based on epic hierarchy | TODO: implement |
 | <a id="automation-14">14</a> | Add an error comment if an issue is assigned to an iteration in the [RD cadence](https://gitlab.com/groups/gitlab-org/-/cadences/) but not assigned to `~Category:Remote Development` | TODO: implement | |
-
-<!-- LINKS START -->
-
-[hb-create]: /handbook/engineering/development/dev/create/
-[hb-dev]: /handbook/engineering/development/dev/
-[hb-categories]: https://about.gitlab.com/direction/create/#categories-in-create
-[paid-time-off]: /handbook/people-group/paid-time-off/#paid-time-off
-[gdoc]: https://docs.google.com/document/d/1b-dgL0ElBf_I3pbBUFISTYBG9VN02F1b3TERkAJwJ20/edit#
-[slack]: https://gitlab.slack.com/archives/CJS40SLJE
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KrRQhnSYRNh1s1mEUypx67-
-[cheatsheet]: /handbook/engineering/development/dev/create/ide/developer-cheatsheet/
-[principles]: /handbook/engineering/development/dev/create/ide/principles/
-[community-contributions]: /handbook/engineering/development/dev/create/ide/community-contributions/
-[community-contributions-wider-community]: /handbook/engineering/development/dev/create/ide/community-contributions/#wider-community-as-primary-audience
-
-<!-- LINKS END -->

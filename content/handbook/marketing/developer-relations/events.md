@@ -1,15 +1,6 @@
 ---
-
 title: "Developer Relations Events"
 ---
-
-
-
-
-
-
-
-
 
 Events are a great way for GitLab and the Developer Relations team to connect with customers
 and the wider GitLab community.
@@ -280,18 +271,18 @@ and GitLab teams should keep in mind as they plan events and activities.
 
 ## Event organization best practices
 
- - **Tools:** We purposefully think about the tools we are using to engage our audience. For example, some people in the open-source world may not be able to use tools that are proprietary software. Also, some people in certain countries may not be able to use certain tools because of country restrictions. Sending a survey beforehand with different tool options could help identify good tools to use for a specific event.
- - **Time zones:** We try to be as inclusive of as many different time zones as possible. It is recommended to have 4-hour segments to spread out participation. Possible times: 16:00 UTC‒20:00 UTC for EMEA and NORAM, and 02:00 UTC‒06:00 UTC for APAC and India.
- - **Code of Conduct:** We make our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) a requirement at all GitLab events and actively help our community with friction and conflict.
- - **Accessibility:** We advocate for accessibility in all of our events and materials.
- - **Captioning and Interpretation:** Having both captioners and interpreters for online events is important. There are differences between American English and American Sign Language, for example, so captioning alone is not enough. Having a dial-in relay service would work as a "hack" to captions/interpreters, in the worst-case scenario. This depends on whether the blind person has a video phone/captioned phone to access these services.
- - **Share slides beforehand:** One week before your online event, share the slides with attendees so that people who use screen readers can follow along.
- - **Images should have alt text:** This is for screen readers for people who are blind or are visually impaired. Be descriptive with the image. Maybe a few sentences about what the most important content is.
- - **Use proper headings in your editor:** Use your editor's headings so that screen readers understand the organization of the page.
- - **Introduce yourself descriptively when you give a talk:** In talk intros, briefly describe what you look like so that people who are blind or visually impaired can create a mental image of what you look like and associate that image with your voice.
- - **Schedule breaks with the 30:5 rule:** Make sure to have a 5-minute break after each 30 min section.
- - **Describe infographics with audio:** Describe the most important parts of infographics to help with accessibility.
- - **Hybrid events:** Provide a virtual option next to in-person events.
+- **Tools:** We purposefully think about the tools we are using to engage our audience. For example, some people in the open-source world may not be able to use tools that are proprietary software. Also, some people in certain countries may not be able to use certain tools because of country restrictions. Sending a survey beforehand with different tool options could help identify good tools to use for a specific event.
+- **Time zones:** We try to be as inclusive of as many different time zones as possible. It is recommended to have 4-hour segments to spread out participation. Possible times: 16:00 UTC‒20:00 UTC for EMEA and NORAM, and 02:00 UTC‒06:00 UTC for APAC and India.
+- **Code of Conduct:** We make our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) a requirement at all GitLab events and actively help our community with friction and conflict.
+- **Accessibility:** We advocate for accessibility in all of our events and materials.
+- **Captioning and Interpretation:** Having both captioners and interpreters for online events is important. There are differences between American English and American Sign Language, for example, so captioning alone is not enough. Having a dial-in relay service would work as a "hack" to captions/interpreters, in the worst-case scenario. This depends on whether the blind person has a video phone/captioned phone to access these services.
+- **Share slides beforehand:** One week before your online event, share the slides with attendees so that people who use screen readers can follow along.
+- **Images should have alt text:** This is for screen readers for people who are blind or are visually impaired. Be descriptive with the image. Maybe a few sentences about what the most important content is.
+- **Use proper headings in your editor:** Use your editor's headings so that screen readers understand the organization of the page.
+- **Introduce yourself descriptively when you give a talk:** In talk intros, briefly describe what you look like so that people who are blind or visually impaired can create a mental image of what you look like and associate that image with your voice.
+- **Schedule breaks with the 30:5 rule:** Make sure to have a 5-minute break after each 30 min section.
+- **Describe infographics with audio:** Describe the most important parts of infographics to help with accessibility.
+- **Hybrid events:** Provide a virtual option next to in-person events.
 
 ## Additional Resources
 

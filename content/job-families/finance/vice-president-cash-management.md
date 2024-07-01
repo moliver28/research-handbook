@@ -6,9 +6,9 @@ The Cash Management job family will focus on leading and enhancing day-to-day ca
 
 ## Responsibilities
 
-- Direct Responsible Individual and owner of and will lead the monthly close process for our GitLab’s equity and treasury management and is responsible for achieving our target for days to close.
+- Direct Responsible Individual and owner of and will lead the monthly close process for our GitLab's equity and treasury management and is responsible for achieving our target for days to close.
 - Handle Project Management as directed by the PAO.  This will include projects on close to report efficiency, cash management and other projects as needed.
-- Will develop and ensure compliance of GitLab’s cash management and stock administration  policies and procedures in full compliance with US GAAP and SEC reporting standards.
+- Will develop and ensure compliance of GitLab's cash management and stock administration  policies and procedures in full compliance with US GAAP and SEC reporting standards.
 - Will direct compliance for Treasury management which includes investment of cash, hedging activity of expenses and intercompany activity and overall banking arrangements.  This may include revolving line of credit management and debt covenant reporting.
 - If the company does common stock issuances, preferred stock offerings or debt financing, this role will handle the accounting and management of these items.
 - Drive processes  to optimize and automate accounting cash, treasury and stock operations to drive efficient monthly/quarterly close cycles and improve accuracy and efficiency.
@@ -41,7 +41,7 @@ The Cash Management job family will focus on leading and enhancing day-to-day ca
 - Ability to both grow in the role and grow with the company, demonstrating leadership capabilities and upward progression.  Viewed as the DRI on all cash/stock/debt issues and processes.
 - Ability to use GitLab
 
-#### Job Grade
+## Job Grade
 
 The Vice President, Cash Management is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

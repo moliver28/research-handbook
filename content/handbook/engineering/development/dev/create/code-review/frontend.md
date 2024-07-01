@@ -15,11 +15,7 @@ description: The Create:Code Review FE team is responsible for all frontend aspe
 
 ## Team Vision
 
-A central piece in GitLab users' experience, innovating and keeping the experience delightful for all product categories that fall under the [Code Review group][group] of the [Create stage][stage] of the [DevOps lifecycle][lifecycle].
-
-[group]: /handbook/product/categories/#code-review-group
-[stage]: /handbook/product/categories/#create-stage
-[lifecycle]: /handbook/product/categories/#devops-stages
+A central piece in GitLab users' experience, innovating and keeping the experience delightful for all product categories that fall under the [Code Review group](/handbook/product/categories/#code-review-group) of the [Create stage](/handbook/product/categories/#create-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages).
 
 ## Team Mission
 

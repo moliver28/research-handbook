@@ -1,13 +1,6 @@
 ---
-
 title: "OKRs"
 ---
-
-
-
-
-
-
 
 [`infra/6025`](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues/6025)
 

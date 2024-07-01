@@ -1,5 +1,4 @@
 ---
-
 title: UTM Strategy
 description: Everything you need to know about our UTM strategy, which enables insights through the connected/resulting Tableau dashboards.
 twitter_image: /images/tweets/handbook-marketing.png
@@ -39,7 +38,7 @@ Adding UTMs to links allows Marketing to identify the source of traffic, form fi
 
 UTM parameters provide three key benefits:
 
-1. Help us understand our customers’ journey through each touchpoint.
+1. Help us understand our customers' journey through each touchpoint.
 2. Provides us with the marketing channel and marketing campaign categorization, plus the landing page the person converted on telling us the offer (webinar, gated content, free trial etc.).
 3. Used in combination, we can better understand what mix of marketing channels, campaigns, and offers produce the best results.
 
@@ -66,18 +65,18 @@ UTMs should **always** be used when linking to:
 
 Use the [UTM builder googlesheet with formulas](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=29481466). [Here is a video overview](https://youtu.be/WRSIZ84027g) of the spreadsheet. The process involves the following steps:
 
-   * Open the [Tracking URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=29481466)
-   * Add in your page URL in the first column
-   * Fill in each attribute of your UTM parameter, including `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_budget`. If some of these UTM parameters are irrelevant to your campaign, keep them blank or remove from the final URL.
-   * Destination URL will be generated automatically in column N, ready for you to use in your campaign. If you need to shorten your URL, use a tool like [bit.ly](https://bitly.com/).
+* Open the [Tracking URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=29481466)
+* Add in your page URL in the first column
+* Fill in each attribute of your UTM parameter, including `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_budget`. If some of these UTM parameters are irrelevant to your campaign, keep them blank or remove from the final URL.
+* Destination URL will be generated automatically in column N, ready for you to use in your campaign. If you need to shorten your URL, use a tool like [bit.ly](https://bitly.com/).
 
-#### Measuting the sucess
+### Measuting the sucess
 
 Measure success of your campaign in the [TD Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/Overview?:iid=1) under "Bizible Channel Drill Down" or "Regional Campaign Drill Down" sections.
 
 ## UTM Values
 
-#### utm_medium
+### utm_medium
 
 **Campaign Medium** is the overarching channel bucket like email, display, etc. It answers the question of "How did they come to us?". utm_source will further categorize the overarching channel.
 You can choose a campaign medium from a provided picklist of values in the [URL Builder spreadsheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569). If you need a new campaign medium, please request this using slack channel: #mktg-strat-perf.
@@ -97,7 +96,7 @@ Current available options for `utm_medium` are as follows:
 * `webinar`    = 3rd party - sponsored event
 * `video` = 1st party - owned video
 
-#### utm_source
+### utm_source
 
 **Campaign Source** parameter can tell you which website is sending the traffic, and is a further "slicing" of overall channels. It answers the question of "how did they come to us?" but with more granular details than utm_medium.
 You can choose a campaign source from a provided picklist of values in the URL Builder spreadsheet. If you need a new campaign source, please request this using slack channel: #mktg-strat-perf.
@@ -190,7 +189,7 @@ For a running list of Channel Partners and their CRM IDs, which is critical to t
 * UTM Source = `marketo` (never changes)
 * UTM campaign = `Date_Region_Budget_Type_gtm_[Language]_[campaign_name]` (i.e. `2024_02_20_emea_dmp_webcast_devsecopsplat_fr_beginnersguidedevops`)
 * UTM content = `content_offer` and `asset type` (i.e. `utm_content=devguideappsec_ebook`)
-   * Do not use `nurture` for utm_content.
+  * Do not use `nurture` for utm_content.
 
 ### UTM structure for account based marketing
 
@@ -202,7 +201,7 @@ For a running list of Channel Partners and their CRM IDs, which is critical to t
 
   * For ad variations, use shorthand addition (i.e. `-accl1` `-accel2`) to the end of the content option
   * Example in practice: `utm_content=acceldigtransformation` would add the following for 4 ad variations with different ad copy:
-     * `utm_content=acceldigtransformation-accel2`
-     * `utm_content=acceldigtransformation-accel1`
-     * `utm_content=acceldigtransformation-live2`
-     * `utm_content=acceldigtransformation-live1`
+    * `utm_content=acceldigtransformation-accel2`
+    * `utm_content=acceldigtransformation-accel1`
+    * `utm_content=acceldigtransformation-live2`
+    * `utm_content=acceldigtransformation-live1`

@@ -3,7 +3,7 @@ title: "Internal Feedback"
 description: "At GitLab we feel that a quick, quarterly check-in is more aligned to our values use Google forms to gather feedback anonymously."
 ---
 
-Companies will often wait to gather internal feedback until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company’s engagement.  We feel that a quick, quarterly check-in is more aligned to our [values]({{< ref "values" >}}) Collaboration and Iteration.  We use Google forms to gather feedback anonymously, and the responsibility of reviewing and collating feedback stays within People Operations to maintain confidentiality for all participants.  We promise to share the spirit of the feedback we collect but will paraphrase and summarize responses and share only constructive and actionable feedback. Specific or personal comments or complaints will be investigated and dealt with privately, out of respect for the recipient(s).
+Companies will often wait to gather internal feedback until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company's engagement.  We feel that a quick, quarterly check-in is more aligned to our [values]({{< ref "values" >}}) Collaboration and Iteration.  We use Google forms to gather feedback anonymously, and the responsibility of reviewing and collating feedback stays within People Operations to maintain confidentiality for all participants.  We promise to share the spirit of the feedback we collect but will paraphrase and summarize responses and share only constructive and actionable feedback. Specific or personal comments or complaints will be investigated and dealt with privately, out of respect for the recipient(s).
 
 In 2017, we rebranded our survey as a [Stay Interview](https://drive.google.com/file/d/0B4eFM43gu7VPX0RiRkV5NUtQREU/view?usp=sharing) because we are most interested in three things: why people join, what makes them stay, and what would make them consider leaving GitLab. Below is a summary of the responses from the 130 team members (69.5%) who participated.
 
@@ -145,7 +145,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Positive atmosphere
 1. Ability to help GitLab achieve the vision
 1. Remote opportunity
-1. All remote - “I didn’t want to be the only one not in the office”
+1. All remote - "I didn't want to be the only one not in the office"
 1. Open source community
 1. Referred by a team member
 1. Autonomy
@@ -168,10 +168,10 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Company spirit
 1. Values
 1. Boss is amazing
-1. Things are as “advertised” / discussed during interview
+1. Things are as "advertised" / discussed during interview
 1. People / Team / Colleagues
 1. Great product, working on developer tools
-1. The “experience”
+1. The "experience"
 1. Flexibility
 1. Working with people smarter than me
 1. Feel like I am contributing
@@ -181,7 +181,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Remote opportunity
 1. Relationships / camaraderie
 1. Encouraged to take time off
-1. It’s not bureaucratic
+1. It's not bureaucratic
 1. Feel empowered / autonomy
 1. Ownership / accountability
 1. Solve challenges, never bored
@@ -205,7 +205,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Leaders not leading, no clear direction
 1. Too many restrictions on side projects
 1. Changing the values or culture
-1. The “spirit” leaves the team
+1. The "spirit" leaves the team
 1. Change in the atmosphere, work model
 1. Company growth stops
 1. Volume of work drives quantity over quality
@@ -213,7 +213,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Ego gets in the way
 1. Lose feeling of openness (team call, transparency)
 1. Job becomes boring / less challenges
-1. If I am micro-managed, don’t feel empowered, lose autonomy
+1. If I am micro-managed, don't feel empowered, lose autonomy
 1. Not feeling like I am contributing, valued
 1. If purchased by a large corporation
 1. A bad boss
@@ -378,9 +378,7 @@ to focus on quality and testing more"
     Having a rapid release cycle contributes to increasing quality over time being able to iterate faster. For
     particular concerns in an individual issue, please raise your concerns in the
     issue. Because GitLab has gotten very popular the absolute amount of bugs might be increasing.
-    But to individual users it feels like we've "[been squashing bugs and releasing
-    features rapidly while also decreasing the number of regressions introduced and
-    improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)".
+    But to individual users it feels like we've "[been squashing bugs and releasing features rapidly while also decreasing the number of regressions introduced and improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)".
     Obviously quality is and will always be a top concern, especially code quality
     since that enables better testing, faster fixes, and more contributions.
 1. "Better supervision in the first two months"
@@ -424,8 +422,7 @@ to focus on quality and testing more"
 
 ### Feedback from the GitLab team - September 2015
 
-Summarized in this presentation about ["Stuff the GitLab team likes and does not
-like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing),
+Summarized in this presentation about ["Stuff the GitLab team likes and does not like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing),
 here is what the team said in September of 2015.
 
 #### What we love about working at GitLab
@@ -443,10 +440,10 @@ the challenge of maintaining quality of people, product, brand etc,
 laser focus on improving collaboration through social coding, market adoption,
 our work is public so we can talk about it, and our ability to create new processes.
 
-#### What we wish we had or what we want to be doing & What we’re doing about it
+#### What we wish we had or what we want to be doing & What we're doing about it
 
 1. More GitLab team-members.
-    - We’re hiring
+    - We're hiring
 1. Bigger feature gap between CE and EE.
     - Current plan is to have one EE feature added per release, so over time the difference will grow.
 1. More summits.
@@ -462,7 +459,7 @@ our work is public so we can talk about it, and our ability to create new proces
 1. Global presence of Service Engineers, and dedicated trainer and training materials.
     - We're working on this through hiring. Also, we have high hopes of GLU, ongoing content creation, etc. to help out here.
 
-#### What we’re wondering about & the answers to our thoughts
+#### What we're wondering about & the answers to our thoughts
 
 1. Stock options: terms, conditions
     - Does the handbook answer your questions? (/handbook/total-rewards/stock-options/). Please feel free to ask Paul.

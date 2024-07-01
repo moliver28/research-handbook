@@ -1,5 +1,4 @@
 ---
-
 title: Elevate+ Participant Hub
 
 ---
@@ -48,6 +47,10 @@ Making the most out of Elevate+:
 - 🤔Stay curious and open to learning
 - 💃Have fun!
 
+## Certification
+
+Elevate+ concludes with an oral certification to demonstrate your mastery of leadership competencies. Please review [this handbook page](/handbook/people-group/learning-and-development/elevate-programs/elevate+/#certification) for a detailed outline of the certification process.
+
 ## Module 1: My Leadership Identity
 
 `My Leadership Identity` is the starting point for Elevate+. Live sessions and intersession work will focus on building your self awareness, executive presence, and intentionality behind your behavior and impact on your team's results.
@@ -58,8 +61,8 @@ During Module 1, you will:
 1. Understand the difference between leading a team and leading leaders
 1. Discuss the GitLab values and how we can lead to bring our values to life as leaders
 1. Consider what it takes to be a leader others want to follow
-1. Explore unconscious bias – mine and how to manage my org’s
-1. Review what’s next in the Elevate+ path
+1. Explore unconscious bias – mine and how to manage my org's
+1. Review what's next in the Elevate+ path
 
 **Key Links**
 
@@ -104,7 +107,7 @@ In Module 3, create a shared understanding around the importance for your team m
 
 In Module 4, increase your cross-functional effectiveness in order to clear the way for your team to get results.
 
-1. Share your team’s highest order purpose and alignment to GitLab’s overall goals
+1. Share your team's highest order purpose and alignment to GitLab's overall goals
 1. Map your cross-functional partners within and outside GitLab
 1. Learn skills for building and repairing relationships with key partners
 
@@ -119,7 +122,3 @@ In Module 4, increase your cross-functional effectiveness in order to clear the 
 **Key Links**
 
 1. [Module 5 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSdHJnLbjDSj-gsDdSwigOn3zIW_7BxpJ1Xgae9htEp6zE3_1w/viewform?usp=sf_link)
-
-## Certification
-
-*Certification and pre-certificaiton session material will be added soon.*

@@ -2,7 +2,6 @@
 title: People Operations Program Manager
 ---
 
-
 ## Levels
 
 ### People Operations Program Manager

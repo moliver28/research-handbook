@@ -1,15 +1,7 @@
 ---
-description: "How GitLab approaches the software compliance solution including messaging and key resources to help marketing and sales."
-
 title: "DevOps Solution Resource: Software Compliance"
+description: "How GitLab approaches the software compliance solution including messaging and key resources to help marketing and sales."
 ---
-
-
-
-
-
-
-
 
 ## Looking for a customer-facing overview of GitLab's Software Compliance capabilities? See the [Compliance Solution](https://about.gitlab.com/solutions/compliance)
 
@@ -17,7 +9,7 @@ title: "DevOps Solution Resource: Software Compliance"
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
-#### Who to contact
+### Who to contact
 
 |     Product Marketing    |    Developer Advocate    |
 | ------------------------ | ------------------------- |
@@ -102,7 +94,7 @@ GitLab Software Compliance solution overview
 | Differentiator | Description |
 | ------ | ------ |
 | Single Application for Entire DevOps Lifecycle | a single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity |
-| End-to-End Insight and Visibility | GitLab's common data model enables enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically |
+| End-to-End Insight and Visibility | GitLab's common data model enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically |
 | Deploy Your Software Anywhere | GitLab is infrastructure-agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment |
 | Leading SCM and CI in One Application | having the backbone of a DevOps toolchain in one application streamlines code review & collaboration (one interface, one user model, one data model) |
 | Built-in Security and Compliance | move security testing earlier in the development lifecycle with out-of-the-box security features (code scanning, dependency scanning, secrets detection, etc.) and automated security testing and audit controls to facilitate policy compliance |
@@ -241,8 +233,8 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 **5. Related security questions**
 
 - What percentage of code are you currently scanning? Are there holes where an attacker could more easily enter and then traverse laterally? How much more would it cost you to scan all of your code?
-- If you are using containers, orchestrators, and/or microservices/API’s, how are you scanning them for vulnerabilities and monitoring them during production?
-- How much of the security team’s time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
+- If you are using containers, orchestrators, and/or microservices/API's, how are you scanning them for vulnerabilities and monitoring them during production?
+- How much of the security team's time is spent tracking vulnerabilities, triaging them, and following up to see that they were remediated?
 
 #### Before state and negative consquences
 

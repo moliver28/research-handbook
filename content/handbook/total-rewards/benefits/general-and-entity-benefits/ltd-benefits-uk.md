@@ -34,13 +34,13 @@ The current coverage includes:
 - Full outpatient cover
 - £0 Excess (meaning that employees are fully covered)
 - Extra covers (all included)
-   - Therapies cover option
-   - Mental Health cover option
-   - Extra Care option includes hospital at home, cash benefit, oral surgery, chiropody
-   - Extra Cancer care option
-   - Dental £400 (80%)
-   - Optical £200 (80%)
-   - £25 a year for eye test
+  - Therapies cover option
+  - Mental Health cover option
+  - Extra Care option includes hospital at home, cash benefit, oral surgery, chiropody
+  - Extra Cancer care option
+  - Dental £400 (80%)
+  - Optical £200 (80%)
+  - £25 a year for eye test
 - Virtual GP appointments – [DR@Hand](https://drive.google.com/file/d/1YzkeG0qMLPLi6TEY6mQXqV8xooMQb4_Z/view?usp=sharing)
 
 **Please note: the AXA plan underwriting is based on a MHD (Medical History Disregarded) basis, meaning that pre-existing medical conditions that existed prior to the date on which the individual joined the AXA scheme will be covered for treatment** (subject to the rules and benefits of the AXA policy, please review your AXA membership package sent by AXA for further reference).
@@ -113,9 +113,9 @@ New Team Members should expect an enrollment email from Help@Hand the first week
 
 ## Income Protection
 
-Income Protection provides financial support if you’re unable to work due to illness or injury for a specified length of time, and aims to help you, your family and others who depend on the money you earn. GitLab's policy with Unum will help us to ensure you receive a percentage of your income if you can’t work because of illness or injury. It also includes direct access to expert Vocational Rehabilitation Consultants who can support you while you’re off and ease your return to work. See more details on the [Income Protection Policy](https://drive.google.com/file/d/1G-3vu-zO38OGAZNcZS9mc-DwCm9laOaC/view?usp=sharing). Please see the [Income Protection User Guide](https://drive.google.com/file/d/1GGLFrzJRUCD7OM41O4F7kNyCqkuBHsyt/view?usp=sharing)
+Income Protection provides financial support if you're unable to work due to illness or injury for a specified length of time, and aims to help you, your family and others who depend on the money you earn. GitLab's policy with Unum will help us to ensure you receive a percentage of your income if you can't work because of illness or injury. It also includes direct access to expert Vocational Rehabilitation Consultants who can support you while you're off and ease your return to work. See more details on the [Income Protection Policy](https://drive.google.com/file/d/1G-3vu-zO38OGAZNcZS9mc-DwCm9laOaC/view?usp=sharing). Please see the [Income Protection User Guide](https://drive.google.com/file/d/1GGLFrzJRUCD7OM41O4F7kNyCqkuBHsyt/view?usp=sharing)
 
-All team members (between age 16 and State Pension Age) are automatically enrolled in Income Protection of **66% of base salary up to the Free Cover Limit payable after you’ve been absent for 13 weeks** effective as of the date of hire. Employees with a base salary of £226,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover.
+All team members (between age 16 and State Pension Age) are automatically enrolled in Income Protection of **66% of base salary up to the Free Cover Limit payable after you've been absent for 13 weeks** effective as of the date of hire. Employees with a base salary of £226,000 or higher will need to apply for a medical assessment to receive cover over the Free Cover Limit. Please reach out to Total Rewards if you are eligible and wish to apply for the additional cover.
 
 Please reach out to Total Rewards for information on how to use your Income Protection benefit with Unum. Payments are made exactly like your salary, and tax and National Insurance contributions are deducted in the usual way. If you are absent due to illness or injury on the day your cover or an increase in cover is due to begin, you may not be eligible until you return to active work in your usual role.
 
@@ -141,15 +141,15 @@ Team Members who have signed a UK Employment contract after 13 December 2022 wil
 **Salary Sacrifice FAQ**
 
 - Can we change the amount during the period we're contracted for salary exchange?
-    - Yes it is possible to change the amount/increase your employee percent
+  - Yes it is possible to change the amount/increase your employee percent
 - What happens if our 'actual' salary changes during the period?
-    - Your employee contribution is a percent of basic pay so if your basic pay increase the pension contribution will too.
+  - Your employee contribution is a percent of basic pay so if your basic pay increase the pension contribution will too.
 - What happens if we receive a discretionary bonus?
-    - Your definition of pensionable pay is basic salary the percent will not automatically be applied to the bonus. Should you wish to contribute part of you bonus to your pension pot you can do that.
+  - Your definition of pensionable pay is basic salary the percent will not automatically be applied to the bonus. Should you wish to contribute part of you bonus to your pension pot you can do that.
 - Is it possible to start from any month?
-    - Yes it is; it would be processed on the next available payroll.
+  - Yes it is; it would be processed on the next available payroll.
 - How do I opt in or out or make changes to my salary sacrifice amount?
-    - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. Email total-rewards@gitlab.com and nonuspayroll@gitlab.com with the new percentage of your salary that you would like to sacrifice or to opt in/out of the salary sacrifice provision.
+  - Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. Email total-rewards@gitlab.com and nonuspayroll@gitlab.com with the new percentage of your salary that you would like to sacrifice or to opt in/out of the salary sacrifice provision.
 
 ### Auto-Enrollment
 
@@ -174,15 +174,15 @@ The following process is followed by GitLab People Operations to join the Scheme
 
 - During onboarding, the People Connect Team informs Papaya Payroll of a new hire that joined the company in the UK.
 - Once Papaya payroll has this information, the employee will be set up on the payroll and added to the pension file for Scottish Widows in preparation to be uploaded.
-- The pension file is sent to Scottish Widows around the end of 6th of each month and will include any joiners/changes/leavers from the previous month’s payroll run. For example everyone who has been included on the pension file in October (the cut off is 15th October) Scottish Widows will be notified around 6th November
-- Any employee who joins after 20th or has not been included on the pension file will be picked up in the following month’s file.
+- The pension file is sent to Scottish Widows around the end of 6th of each month and will include any joiners/changes/leavers from the previous month's payroll run. For example everyone who has been included on the pension file in October (the cut off is 15th October) Scottish Widows will be notified around 6th November
+- Any employee who joins after 20th or has not been included on the pension file will be picked up in the following month's file.
 - Scottish Widows receive the pension file around 6th of each month and will process all joiners/changes/leavers accordingly.
 - New joiners should expect to receive their welcome pack in the mail within 14 working days after Scottish Widows receives the pension file.
 
 When an employee joins the scheme they will be sent a welcome pack in the post stating that they are now a scheme member, it will also have their login details. Employees can login to access their own personal fund and can make adjustments as they see fit.
 
 If the team member hasn't received their Scottish Widows package in the mail within their first 2 months of their joining date, they can log on to their
-[Scottish Widows Portal](http://www.scottishwidows.co.uk/personal). Select “Register Now’, and fill out your details (no need to fill out the Policy Number, as you can use your National Insurance Number instead). Please do not try to log in via the portal before Papaya has uploaded your information in accordance to the schedule above, as you will be denied access.
+[Scottish Widows Portal](http://www.scottishwidows.co.uk/personal). Select "Register Now', and fill out your details (no need to fill out the Policy Number, as you can use your National Insurance Number instead). Please do not try to log in via the portal before Papaya has uploaded your information in accordance to the schedule above, as you will be denied access.
 
 </details>
 
@@ -202,11 +202,11 @@ Some other key points of the scheme are as follows:
 The certification level that has been chosen is **basic salary** only and will not include commission, bonuses or any over time payments. The contributions will be paid monthly and will be shown on the pay-slips.
 
 - From April 6, 2019 to a minimum of:
-   - Employee: 5% of basic salary
-   - GitLab:   4% of basic salary
+  - Employee: 5% of basic salary
+  - GitLab:   4% of basic salary
 
 - As your contribution is a percentage of your pay, the amounts will automatically increase or decrease in accordance with your basic pay. These contributions will be taken from your pay and will include tax relief.
-- You may increase the contribution percentage you pay by contacting Non US Payroll team via email. Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you ‘flexibly access’ pension
+- You may increase the contribution percentage you pay by contacting Non US Payroll team via email. Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
 benefits from a Defined Contribution pension arrangement. Please see the [Annual Allowance Fact Sheet](https://drive.google.com/file/d/1MMA-0wfzUsO70pBsweDAHK-FVc-P_iR1/view?usp=sharing).
 - These percentages are gross percentages using the [relief at source](https://www.gov.uk/workplace-pensions/managing-your-pension) method. As basic rate tax relief is then added by the pension provider, the amount on your payslip will typically be the net amount, which is 80% of the employee's contribution.
 
@@ -225,7 +225,7 @@ If you decide to opt out of the scheme you can do this within one month of the e
 - **If you do opt out by this date**, any contributions that have already been taken from your pay will be returned to you and you'll be treated as if you had never joined the pension scheme.
 - **If you don't opt out by this date**, you can stop contributing at any time, in accordance with the pension scheme rules. If you do this, both your contributions and GitLab's, up to that point, will remain invested in your pension pot until you take your benefits.
 - You can opt-out by completing the Scottish Widows [Opt-out form for Group Pension Scheme](https://drive.google.com/file/d/1FDCXW2qa3pniHIbkJ4vSkK-C_KGmLiNa/view?usp=sharing). The form must be completed, then returned to Total Rewards at total-rewards@gitlab.com
-- The pension provider will also be able to tell you when the one month opt-out period started, if you aren’t sure.
+- The pension provider will also be able to tell you when the one month opt-out period started, if you aren't sure.
 - An opt-out from the pension scheme normally lasts for **three years**. If you've opted out, or stopped contributions to the scheme, GitLab is required to automatically enroll you into the scheme at a later date (normally every three years).
 
 </details>
@@ -307,7 +307,7 @@ See the [Bike To Work Flyer](https://drive.google.com/file/d/1vLmVX18ptsKj-AFpAK
 
 The Bike to Work limit is £3000 for the total cost of the bicycle and accessories. The scheme may be availed once in 4 consecutive tax years.
 
-#### Bike Applications
+### Bike Applications
 
 Once your account is created, select a Bike to Work UK partner shop.
 Pick the new bike and accessories if required.
@@ -319,7 +319,7 @@ Total Rewards will notify payroll to reduce the team member's gross salary by th
 
 ### Sick Leave
 
-Team members are entitled to Statutory Sick Pay (“SSP”)for up to 28 weeks, to be paid by GitLab. SSP is paid when a team member is sick for at least 4 days in a row (including non-working days); however, team members are not entitled to SSP for the first three "waiting" days.
+Team members are entitled to Statutory Sick Pay ("SSP")for up to 28 weeks, to be paid by GitLab. SSP is paid when a team member is sick for at least 4 days in a row (including non-working days); however, team members are not entitled to SSP for the first three "waiting" days.
 
 - A team member who is out sick for at least four days, but no more than 7 days will need to complete a [Company Self-Certification Form](https://docs.google.com/document/d/1Cy-xUgWwNKroUEEJ0ut80HGVA0d3RJV5mQO-amLjoCs/edit?usp=sharing) and return it to leaves@gitlab.com.
 - Team members who will be out sick for more than 7 days must provide a [fit note](https://www.gov.uk/taking-sick-leave) and notify the Absence Management team at `leaves@gitlab.com` as soon as possible.
@@ -328,7 +328,7 @@ Team members are entitled to Statutory Sick Pay (“SSP”)for up to 28 weeks, t
 
 ### Statutory Vacation Leave
 
-Team members are entitled to at least 28 vacation days which consist of 20 days of standard annual leave plus 8 public holidays. These days will accrue from the team member’s start date.
+Team members are entitled to at least 28 vacation days which consist of 20 days of standard annual leave plus 8 public holidays. These days will accrue from the team member's start date.
 
 - Entitlement to vacation leave is pro rata for any part-time team members based on hours worked.
 - It is important for UK team members to utilize time off for public holidays as the total amount of annual leave is accrued here inclusive of public holidays.
@@ -344,48 +344,48 @@ This section details the statutory maternity, paternity, parental, and adoption 
 **Statutory Maternity Leave:** Team members can take up to 52 weeks of Maternity Leave.
 
 - The earliest that the Maternity Leave can start is 11 weeks before the expected week of childbirth.
-   - If the baby is early, maternity leave will start the day after childbirth
-   - Maternity leave will begin automatically if the team member is off work for a pregnancy-related illness in the 4 weeks before the expected week of childbirth.
-- Team members are not required to take the full 52 weeks of maternity leave, but **must** take at least 2 weeks of leave after the baby is born.  Team members should give at least eight weeks’ notice if they would like to change their return to work date.
+  - If the baby is early, maternity leave will start the day after childbirth
+  - Maternity leave will begin automatically if the team member is off work for a pregnancy-related illness in the 4 weeks before the expected week of childbirth.
+- Team members are not required to take the full 52 weeks of maternity leave, but **must** take at least 2 weeks of leave after the baby is born.  Team members should give at least eight weeks' notice if they would like to change their return to work date.
 
 **Statutory Paternity Leave:** Team members can take up to 2 weeks of Paternity Leave or up to 50 weeks of [Shared Parental Leave](https://www.gov.uk/shared-parental-leave-and-pay).  Paternity Leave *cannot* be taken after Shared Parental Leave.
 
 - Eligibility:
 You must be taking time off to look after the child and be one of the following:
 
-    - the father
-    - the husband or partner of the mother (or adopter) - this includes same-sex partners
-    - the child’s adopter
-    - the intended parent (if you’re having a baby through a surrogacy arrangement)
+  - the father
+  - the husband or partner of the mother (or adopter) - this includes same-sex partners
+  - the child's adopter
+  - the intended parent (if you're having a baby through a surrogacy arrangement)
 
-*There are extra conditions you need to meet to qualify for leave and pay.
+`*` There are extra conditions you need to meet to qualify for leave and pay.
 
 **Statutory Adoption Leave:** Team members can take up to 52 weeks of Adoption Leave.
 
 - Leave can start:
-   - up to 14 days before the expected placement date
-   - when a team member has been matched with a child by a UK adoption agency
-   - when the child arrives in the UK or within 28 days of this date (for overseas adoptions)
-   - the day the child is born or the day after (for parents in surrogacy arrangements).
+  - up to 14 days before the expected placement date
+  - when a team member has been matched with a child by a UK adoption agency
+  - when the child arrives in the UK or within 28 days of this date (for overseas adoptions)
+  - the day the child is born or the day after (for parents in surrogacy arrangements).
 - Only one person in a couple can take adoption leave.  The other parent may be entitled to take paternity leave.
 - Team members must notify the Absence Management team at `leaves@gitlab.com` within 28 days if the date of placement (or UK arrival date for overseas adoptions) changes.
-- Team members should give at least 8 weeks’ notice if they would like to change their return to work date.
+- Team members should give at least 8 weeks' notice if they would like to change their return to work date.
 
 #### Maternity Leave Payment
 
 Team members can receive Statutory Maternity Pay for up to 39 weeks:
 
 - Eligibility:
-    - Team members must have continuous employment with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the expected week of childbirth).
+  - Team members must have continuous employment with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the expected week of childbirth).
 - Eligible team members are entitled to:
-    - 90% of the team member's average weekly earnings (before tax) for the first 6 weeks.
-    - £172.48 or 90% of the team member's average weekly earnings (whichever is lower) for the next 33 weeks. This also applies to the leave amounts provided for Paternity Leave and Adoption Leave.
+  - 90% of the team member's average weekly earnings (before tax) for the first 6 weeks.
+  - £172.48 or 90% of the team member's average weekly earnings (whichever is lower) for the next 33 weeks. This also applies to the leave amounts provided for Paternity Leave and Adoption Leave.
 
 To apply for Maternity Leave:
 
 - Submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts.
 - Send the Absence Management team at `leaves@gitlab.com` a completed [MATB1 Certificate](https://www.gov.uk/government/publications/maternity-certificate-mat-b1-guidance-for-health-professionals/maternity-certificate-form-mat-b1-guidance-on-completion) no later than 21 days before your leave start date.
-- The Absence Management team will then complete a [Risk Assessment Form](https://docs.google.com/document/d/1qHdbaeFSnqdwkQDTEurHD5QMbLPLuZGBQO_CBnRkpiE/edit) within 1-3 days of receiving notification of your leave. The purpose of the assessment is to make the team member aware of any hazards or “risks” to her in the workplace/home office to reduce potential injury to her or her baby.
+- The Absence Management team will then complete a [Risk Assessment Form](https://docs.google.com/document/d/1qHdbaeFSnqdwkQDTEurHD5QMbLPLuZGBQO_CBnRkpiE/edit) within 1-3 days of receiving notification of your leave. The purpose of the assessment is to make the team member aware of any hazards or "risks" to her in the workplace/home office to reduce potential injury to her or her baby.
 - The Absence Management team will notify payroll and email Vistra a copy of the MATB1, start date of leave, and outline what pay the team member is eligible for (statutory, supplemental, etc). Payroll will then automatically calculate the SMP due each pay period based on this information. The recovery of 90% will be outlined on the monthly payroll spreadsheet so that the finance team has indication of the amounts being offset each month.
 - Payroll will continue to be the same while on parental leave but Vistra will file for reimbursement of any statutory funds once the proper paperwork has been sent.
 If you do not qualify for Statutory Maternity Pay, you may qualify for [Maternity Allowance](https://www.gov.uk/maternity-allowance).
@@ -395,7 +395,7 @@ If you do not qualify for Statutory Maternity Pay, you may qualify for [Maternit
 Team members can receive Statutory Paternity Pay for up to 2 weeks or up to 37 weeks if taking Shared Parental Leave:
 
 - Eligibility:
-    - Team members must have been continuously employed with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the baby is due or the matching week if adopting).
+  - Team members must have been continuously employed with GitLab for at least 26 weeks leading up to the "qualifying week" (15th week before the baby is due or the matching week if adopting).
 - Eligible team members are entitled to:
   - £172.48 or 90% of the team member's average weekly earnings (whichever is lower) for up to 2 weeks OR up to 37 weeks if taking Shared Parental Leave.
 
@@ -410,10 +410,10 @@ To apply for Paternity Leave:
 Team members can receive statutory adoption pay for up to 39 weeks:
 
 - Eligibility:
-    - Team members must have had continuous employment with GitLab for at least 26 weeks leading up to the week they were matched with the child.
+  - Team members must have had continuous employment with GitLab for at least 26 weeks leading up to the week they were matched with the child.
 - Eligible team members are entitled to:
-    - 90% of your average weekly earnings (before tax) for the first 6 weeks
-    - £172.48 or 90% of your average weekly earnings (whichever is lower) for the next 33 weeks
+  - 90% of your average weekly earnings (before tax) for the first 6 weeks
+  - £172.48 or 90% of your average weekly earnings (whichever is lower) for the next 33 weeks
 
 To apply for Adoption Leave:
 
@@ -423,9 +423,9 @@ To apply for Adoption Leave:
 #### Unpaid Parental Leave
 
 - Team members who have been employed with GitLab for more than one year are eligible for up to 18 weeks of unpaid leave to look after their child's welfare.
-   - The entitlement is per child up to the age of 18, regardless of the person's employer.
-   - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
-   - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
+  - The entitlement is per child up to the age of 18, regardless of the person's employer.
+  - The balance of unpaid parental leave carries over to each employer. For example, if someone has taken 10 weeks of unpaid parental leave with their previous employer, they would be entitled to 8 weeks of leave with their new employer.
+  - Each parent can take up to 4 weeks each year per child, unless otherwise agreed with their employer.
 
 ### Other Job-Protected Leave
 

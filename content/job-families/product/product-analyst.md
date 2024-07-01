@@ -4,13 +4,6 @@ description: "Product Analysts at GitLab have a unique opportunity to improve th
 through data-driven insights and recommendations"
 ---
 
-
-
-
-
-
-
-
 ## Role
 
 Product Analysts at GitLab are curious, highly strategic, and focused on making GitLab better
@@ -67,7 +60,7 @@ Work completed per two-week iteration ([Total Issue Velocity](/handbook/product/
 
 ## Career paths
 
-## Job Grades
+### Job Grades
 
 Read more about GitLab [Job Grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

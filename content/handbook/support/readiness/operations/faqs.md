@@ -36,7 +36,7 @@ According to Lee Matos:
 
 > Circa 2016 we had open Zendesk where we were manually assigning users to manually created orgs.
 >
-> There was a project that was being created called “middleware” that was going to act as the SSOT of known orgs. It did nothing to solve the customer mapping.
+> There was a project that was being created called "middleware" that was going to act as the SSOT of known orgs. It did nothing to solve the customer mapping.
 >
 > It was in scope creep mode so I explored the offical sfdc<->zd sync. We started with account sync. We were interested in user syncing but our data was a mess.
 >
@@ -44,4 +44,4 @@ According to Lee Matos:
 >
 > We recreated sfdc sync for the [Global Support instance](/handbook/support/support-ops/responsibilities.html#account---organization-sync-from-salesforce) and [US Federal instance](/handbook/support/support-ops/responsibilities.html#sfdcus-federal-zendesk-sync) and are still just syncing orgs.
 >
-> There is a push (rightfully so) to lock it down and improve our wall/first time unknown user flow. If someone can get that over the line I think that GitLab support engineering leadership has no good reason to keep it “open access” at the moment and we support changing it. (I'm speaking out of turn — I’m stating this as fact but it’s my opinion.)
+> There is a push (rightfully so) to lock it down and improve our wall/first time unknown user flow. If someone can get that over the line I think that GitLab support engineering leadership has no good reason to keep it "open access" at the moment and we support changing it. (I'm speaking out of turn — I'm stating this as fact but it's my opinion.)

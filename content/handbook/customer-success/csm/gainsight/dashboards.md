@@ -1,16 +1,9 @@
 ---
-
 title: Gainsight Dashboards
 description: >-
   An overview of the logic going into the reports found within the Gainsight
   Dashboards.
 ---
-
-
-
-
-
-
 
 ## Specific detail on various Gainsight dashboards
 
@@ -76,7 +69,7 @@ Below are select dashboards, with descriptions of what each widget on the dashbo
 #### Upcoming this Month
 
 1. **Cadence Calls Due:**
-    1. Count of P1 customers that haven’t had a Timeline Entry with Meeting type: Cadence Call in the past 30 days and P2 Customers in the past 60 days
+    1. Count of P1 customers that haven't had a Timeline Entry with Meeting type: Cadence Call in the past 30 days and P2 Customers in the past 60 days
 1. **Upcoming CTAs:**
     1. Count of all New/Work in Progress CTAs that are due in the next 30 days
 1. **Upcoming Success Plan Tasks:**
@@ -93,9 +86,9 @@ Below are select dashboards, with descriptions of what each widget on the dashbo
 1. **Upcoming Stage Enablement:**
     1. Count of open/WIP enablement stage adoption objectives due over the current quarter
 1. **Upcoming Renewals**
-    1. Count of renewal opportunities with ARR > 50000 that aren’t closed or unqualified with a close date in the current quarter
+    1. Count of renewal opportunities with ARR > 50000 that aren't closed or unqualified with a close date in the current quarter
 1. **Upcoming Upsell Due to Close**
-    1. Count of “add-on business” opportunities that aren’t closed but have a close date in the current quarter
+    1. Count of "add-on business" opportunities that aren't closed but have a close date in the current quarter
 
 #### Health and Utilization
 

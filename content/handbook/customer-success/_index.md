@@ -1,5 +1,4 @@
 ---
-
 title: Customer Success
 description: >-
   The Customer Success department is part of the GitLab Sales function who
@@ -15,10 +14,10 @@ The team can be reached in [Slack channel](https://gitlab.slack.com/archives/cus
 To deliver value to all customers by engaging in a consistent, repeatable, scalable way across defined segments so that customers see the value in their investment with GitLab, and we retain and drive growth within our enterprise customers.
 
 - The mission of the Customer Success Department is to provide these customers with experience in order to:
-    - Accelerate initial customer value
-    - Maximize long-term, sustainable customer value
-    - Improve overall customer satisfaction & referenceability
-    - Maximize the total value of the customer to GitLab
+  - Accelerate initial customer value
+  - Maximize long-term, sustainable customer value
+  - Improve overall customer satisfaction & referenceability
+  - Maximize the total value of the customer to GitLab
 
 ## Vision Page
 
@@ -46,7 +45,7 @@ Ensuring paying customers are successful in their onboarding in order to gain ad
 
 ### Initiative: Usage
 
-Collecting and making use of customer data and insights is key to customer success. It’s important to do more with data and when necessary share back with customers, which in turn helps and encourages our customers to improve and drive adoption.
+Collecting and making use of customer data and insights is key to customer success. It's important to do more with data and when necessary share back with customers, which in turn helps and encourages our customers to improve and drive adoption.
 
 ### Initiative: Performance
 

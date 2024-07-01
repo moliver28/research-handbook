@@ -42,12 +42,14 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 - `Net ARR` - the delta between the ATR and the Amount. Positive NetARR reflects Growth while negative NetARR reflects Churn or Contraction.
 - `ATR` - Used for calculating Renewal Rate. This is the revenue that is Available to Renew (ATR)
 - `Won ATR` - Used for calculating Renewal Rate. This is the forecasted renewal revenue for the deal. This field caps out at 100% of the ATR field to reflect no more than a 100% renewal.
+- `Active Mitigation` - Used to describe the primary mitigation if the opportunity is at risk
+- `(Best Case / Most Likely / Commit) Forecasted Churn` - Describe the best case, most likely and worst case (committ) scenarios. Best Case and Commit are calculated fields that are dependent on other risk forecasting fields. ML is a manually entered field that should describe what the renewal manager believes is the most likey amount of churn or contraction.
+- `Renewal Manager Notes` - A field often populated with a template that describes risk reason, customer brief, intervnetion in process notes, and intervention required observations.
 
 ## Ownership
 
 - `Opportunity Owner` - the DRI for the outcome of the Opportunity
 - `Renewals Manager` - the Renewals Manager supporting this Opportunity
-- `Renewals Ownership` - this field determines ROE and ownership for the Renewal between the RM and the AE
 - `Carahsoft Renewals Manager` - indicates the Carahsoft Renewals Manager supporting this deal
 
 ## Analytics
@@ -63,15 +65,15 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 
 In FY24 The Global Renewals team is responsible for providing the business with a renewal rate and churn forecast on a regular basis for the Enterprise-Growth (ENTG) Segment.
 
-Providing an accurate, data driven forecast is essential for GitLab’s continued growth as it enables the business to:
+Providing an accurate, data driven forecast is essential for GitLab's continued growth as it enables the business to:
 
 - Identify and manage Churn and Contraction risk effectively
 - Drive revenue predictability in support of strategic decision making
-- Analyze and take strategic action on trends within GitLab’s book of business to mitigate risk
+- Analyze and take strategic action on trends within GitLab's book of business to mitigate risk
 
 ## Approach
 
-In partnership with AEs, the Renewals team will generate a “bottom-up” renewal rate and churn forecast whereby every ENTG Renewal Opportunity will contain a forecasted revenue range to predict the outcome or potential outcomes of the Renewal. With every Renewal Opportunity forecasting a “worst case” and a “best case” scenario Renewals Managers will be able to provide a forecast range for their worst case renewal rate and their best case renewal rate for a given time period, territory etc. As risk is identified, categorized, and forecasted, Renewals Managers will alert relevant parties (CSM, AE) using appropriate channels.
+In partnership with AEs, the Renewals team will generate a "bottom-up" renewal rate and churn forecast whereby every ENTG Renewal Opportunity will contain a forecasted revenue range to predict the outcome or potential outcomes of the Renewal. With every Renewal Opportunity forecasting a "worst case" and a "best case" scenario Renewals Managers will be able to provide a forecast range for their worst case renewal rate and their best case renewal rate for a given time period, territory etc. As risk is identified, categorized, and forecasted, Renewals Managers will alert relevant parties (CSM, AE) using appropriate channels.
 
 ## Key Renewal Forecasting Fields
 
@@ -98,7 +100,7 @@ The key risk fields for capturing risk on the renewal are:
     1. Fill in the `Amount` field with the annual value that is expected to renew (i.e. how much we predict will actually book). The Renewal Forecast Health field will automatically update to Red if the Amount is less than the ATR.
     2. Fill in the `Renewal ARR Swing` amount with how much of the churn/contraction may be saved with intervention. (Note the Renewal Swing ARR must be a positive number and not greater in magnitude than the Forecasted Churn. Ex. if Forecasted Churn is -$100k the Renewal Swing ARR cannot be greater than +$100k)
     3. Record your `Next Steps`
-    4. Record the risk intervention idea/ask/motion in the `Manager Notes` section (you can use the risk intervention table for ideas)
+    4. Record the risk intervention idea/ask/motion in the `Renewal Manager Notes` section (you can use the risk intervention table for ideas)
 
         For the other two categories - `Will Churn` and `Will Contract` - use same steps, but no Renewal ARR Swing field is needed
 
@@ -150,13 +152,13 @@ These tactics/motions may not always be approved or appropriate for each risk sc
 
    - *Current Risk Status*: Why the oppty is at risk?
 
-   - *Customer Brief*: What do we know about the customer’s position and sentiment toward the renewal?
+   - *Customer Brief*: What do we know about the customer's position and sentiment toward the renewal?
 
    - *LT Intervention in Process*: What intervention tactic is currently in progress, if none, mark N/A.
 
-   - *LT Intervention Needed*: What intervention tactic is needed, mark N/A if one is “in process" and outlined in the above note.
+   - *LT Intervention Needed*: What intervention tactic is needed, mark N/A if one is "in process" and outlined in the above note.
 
-5. **Update the Manager note section with one or more of the following hashtags** to demonstrate the appropriate status
+5. **Update the Renewal Manager note section with one or more of the following hashtags** to demonstrate the appropriate status
    - A. [#UserMigration] - demonstrates C&C in a scenario where actual revenue is not leaving the company but rather being shifted to another opportunity (RM needs to document the opportunity where the revenue is captured by including the link in manager notes in accompaniment of the hashtag)
    - B. [#Risk] - leverage when the renewal opportunity should be on a "watch-list" but the risk is not vetted enough to be reflected in the forecasting fields. Also can be used to describe contraction risk when we cannot match the risk with the quote.
    - C. [#DeferredChurn] - leverage on renewal opportunities where a negative impact to renewal rate and/or arr basis occurred due to activity outside of standard practices. Example 1, we waive a true-up {at renewal prep stage} and add on the users, increasing the arr basis spend knowing the customer will likely decrease seat count at the next renewal. Example 2, we have two opportunities that are related due to a migration project and close win the opportunity with the nARR attached to it at the end of the quarter and wait to close loss the opportunity with negative arr in the new quarter.

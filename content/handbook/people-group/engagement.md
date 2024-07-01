@@ -29,7 +29,7 @@ There are different survey types that we run at different times throughout the y
 1. 14 On-Survey Demographic Questions
 1. 2 Open-Ended Questions
 
-**FY25 Great Place to Work Survey Results**
+<details><summary>FY25 Great Place to Work Survey Results</summary>
 
 GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 4th year in a row in the US in May 2024 and was recognized as a top employer where team members are proud to work.
 
@@ -38,7 +38,9 @@ GitLab received [Great Place to Work Certification](https://www.greatplacetowork
 
 [Read more about the survey results](https://docs.google.com/presentation/d/1Sh9Q_rPBz3vO4HgvIkC574esC2F7UI5C_g3tOjddwm0/edit#slide=id.g123a13deda8_0_405).
 
-**FY24 Great Place to Work Survey Results**
+</details>
+
+<details><summary>FY24 Great Place to Work Survey Results</summary>
 
 GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 3rd year in a row in the US in May 2023 and was recognized for our outstanding company culture.
 
@@ -47,8 +49,9 @@ GitLab received [Great Place to Work Certification](https://www.greatplacetowork
 
 [Read more about the survey results](https://docs.google.com/presentation/d/1lT6E46aDmMM8JGAdXmNJFnhoSeCBx9DstsOq-y6yFH0/edit#slide=id.g123a13deda8_0_405).
 
-<details>
-<summary>FY23 Great Place to Work Survey Result</summary>
+</details>
+
+<details><summary>FY23 Great Place to Work Survey Result</summary>
 
 GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 2nd year in a row in the US in December 2021 and was recognized for our outstanding company culture.
 
@@ -69,17 +72,17 @@ Engagement surveys are geared toward giving team members an opportunity to provi
 
 Feedback from the survey in turn allows Leadership within GitLab to gain insight into what is most important to team members, in particular what the business is doing well and what may need future iteration with the intention of improving the underlying team member experience and ensuring healthy levels of attrition are maintained.
 
-#### Survey Confidentiality
+### Survey Confidentiality
 
 In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ guide](https://support.cultureamp.com/hc/en-us/articles/204529829-Survey-participant-FAQs).
 
-#### Survey Participation
+### Survey Participation
 
 To make sure we hear from as many team members as possible, the People Group will provide Divisional leaders and People Business Partners with access to participation rates at the Divisional level and to managers with 5 or more direct reports.
 
 We will share with individual managers how close they are to recieving enough responses to view a detailed report noting that managers can only see individualized results for their teams if 5 or more of their direct reports complete the survey. We will not report participation statistics for managers with fewer than 5 direct reports.
 
-#### Survey Sections and Factors
+### Survey Sections and Factors
 
 The GitLab Team Member Engagement Survey is comprised of eleven sections each of which is aligned to a specific area of focus otherwise known as a factor.
 
@@ -92,7 +95,7 @@ The survey factors we primarily focus on:
 5. Action
 6. Open text questions
 
-Overall survey ranges anywhere from 40 to 50 questions. The format of the survey was predominantly Likert or Rating Scale with a handful of free text questions or comments toward the end. The favorable score is the percentage of participants who selected ‘agree’ and ‘strongly agree’.
+Overall survey ranges anywhere from 40 to 50 questions. The format of the survey was predominantly Likert or Rating Scale with a handful of free text questions or comments toward the end. The favorable score is the percentage of participants who selected 'agree' and 'strongly agree'.
 
 ## FY'25 Engagement Survey
 
@@ -118,7 +121,7 @@ Team members can access Summit Pulse Survey results [here](https://docs.google.c
 
 ## FY'24 Engagement Survey
 
-#### FY'24 Engagement Survey Timeline
+### FY'24 Engagement Survey Timeline
 
 - 2023-05-16: Engagement Survey launch
 - 2023-06-07: Engagement Survey close
@@ -152,7 +155,7 @@ Below you will find a summary of our overall results, as well as key insights an
 
 #### Detailed Results (Overall)
 
-We’ve documented our detailed FY24 Culture Amp Engagement survey results in a [presentation](https://docs.google.com/presentation/d/1fs5mPdQUdZXR6blK-5cFZL_N-Qr2Y8eta_EhKQAYa64/edit?usp=sharing) that is available only for GitLab team members.
+We've documented our detailed FY24 Culture Amp Engagement survey results in a [presentation](https://docs.google.com/presentation/d/1fs5mPdQUdZXR6blK-5cFZL_N-Qr2Y8eta_EhKQAYa64/edit?usp=sharing) that is available only for GitLab team members.
 
 Those detailed results highlight the strengths and opportunities shared below in greater detail.
 
@@ -221,7 +224,7 @@ This is an abbreviated version of our engagement survey, and it also includes a 
 
 ### Survey Confidentiality
 
-In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you’d like to know more, check out CultureAmp’s [FAQ](https://support.cultureamp.com/en/articles/7048327-engagement-attributed-survey-guide-for-participants) guide.
+In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ](https://support.cultureamp.com/en/articles/7048327-engagement-attributed-survey-guide-for-participants) guide.
 
 ### Survey Results
 
@@ -292,13 +295,13 @@ Below you will find a summary of our overall results, as well as key insights an
 
 A huge thanks to everyone who completed the survey and made their voice heard. Your feedback helps us to continually improve the experience of working at GitLab.
 
-#### Company Results (Overall)
+### Company Results (Overall)
 
 | **Favourable** | **Neutral** | **Unfavourable** |
 | ---------- | ------- | ------------ |
 | 81% | 13% | 6% |
 
-#### Top Three Scores
+### Top Three Scores
 
 In addition to Engagement, we asked questions about other factors regarding our workplace and culture. A factor score is the average score of all questions within that factor.
 
@@ -318,7 +321,7 @@ GitLab was rated between 5%-8% percent higher than the industry benchmark i.e. N
 
 GitLab was rated between 6-8% higher than the industry benchmark i.e. New Tech (1,000+) 2022 across all three questions detailed above.
 
-#### Top Three Opportunities
+### Top Three Opportunities
 
 | **Factor** | **Favourability Rating** |
 | ------ | -------------------- |
@@ -340,11 +343,11 @@ GitLab scored 4% higher than the industry benchmark i.e. New Tech +1,000 2022 fo
 
 #### How We Determine "Pulse" Survey Questions
 
-In FY'22 Q4 we launched our first "pulse" survey. To determine these questions we leveraged a combination of Culture Amp's "impact" feature + recommended focus areas + key themes related to the [Great Resignation](https://www.cultureamp.com/blog/the-great-resignation-turnover) (according to Culture Amp’s People Scientist teams) to determine which rating questions to include in the pulse survey.
+In FY'22 Q4 we launched our first "pulse" survey. To determine these questions we leveraged a combination of Culture Amp's "impact" feature + recommended focus areas + key themes related to the [Great Resignation](https://www.cultureamp.com/blog/the-great-resignation-turnover) (according to Culture Amp's People Scientist teams) to determine which rating questions to include in the pulse survey.
 
-Per CultureAmp’s insights related to the Great Resignation, we added questions related to:
+Per CultureAmp's insights related to the Great Resignation, we added questions related to:
 
-- Focus on “Your Manager” (feedback from Manager, and overall manager performance)
+- Focus on "Your Manager" (feedback from Manager, and overall manager performance)
 - Inclusion
 - The 5 overall Engagement factor questions
 
@@ -418,13 +421,13 @@ Below you will find a summary of our overall results, as well as key insights an
 
 A huge thanks to everyone who completed the survey and made their voice heard. Your feedback helps us to continually improve the experience of working at GitLab.
 
-#### Company Results (Overall)
+### Company Results (Overall)
 
 | **Favourable** | **Neutral** | **Unfavourable** |
 | ---------- | ------- | ------------ |
 | 85% | 11% | 4% |
 
-#### Top Three Scores
+### Top Three Scores
 
 In addition to Engagement, we asked questions about other factors regarding our workplace and culture. A factor score is the average score of all questions within that factor.
 
@@ -444,7 +447,7 @@ GitLab was rated between 4%-12% percent higher than the industry benchmark i.e. 
 
 GitLab was rated between 7-12% percent higher than the industry benchmark i.e. New Tech (1,000+) 2021 across all three questions detailed above.
 
-#### Top Three Opportunities
+### Top Three Opportunities
 
 | **Factor** | **Favourability Rating** |
 | ------ | -------------------- |
@@ -462,7 +465,7 @@ GitLab was rated between 1%-10% percent higher than the industry benchmark i.e. 
 
 GitLab scored 1-2% below the industry benchmark i.e. New Tech +1,000 2021 for the two lowest scoring questions surrounding positive actions however GitLab scored 6% higher than the benchmark regarding career opportunities.
 
-#### FY' 22 E-Group Focus Areas
+### FY' 22 E-Group Focus Areas
 
 For the FY'22 Q4 Pulse Engagement Survey results, we will be leaning into epics and issues for tracking and planning.
 
@@ -697,11 +700,10 @@ You have now updated a demographic in CultureAmp!
 
 In Q3 FY'23, our Talent & Engagement team ran our first organizational health survey.
 
-GitLab used McKinsey & Company’s [Organizational Health Index "OHI"](https://www.mckinsey.com/solutions/orgsolutions/overview/organizational-health-index) survey to help us understand where we have opportunities to help our organization and team members execute better and increase their impact. The OHI survey is separate from our CultureAmp Engagement survey; learnings from the former will complement the latter and also help inform workplace practices beyond GitLab.
+GitLab used McKinsey & Company's [Organizational Health Index "OHI"](https://www.mckinsey.com/solutions/orgsolutions/overview/organizational-health-index) survey to help us understand where we have opportunities to help our organization and team members execute better and increase their impact. The OHI survey is separate from our CultureAmp Engagement survey; learnings from the former will complement the latter and also help inform workplace practices beyond GitLab.
 
 ### FY'23 Q3/Q4 McKinsey OHI Survey Results
 
-We’ve summarized high level results of the OHI survey for all GitLab team members in [this document](https://docs.google.com/presentation/d/1B-T8TUcuidyIwbcpih01id2-TxZpE6D91Xt6w3z0uIw/edit?usp=sharing).
+We've summarized high level results of the OHI survey for all GitLab team members in [this document](https://docs.google.com/presentation/d/1B-T8TUcuidyIwbcpih01id2-TxZpE6D91Xt6w3z0uIw/edit?usp=sharing).
 
 The document linked above is only available to GitLab team members.
-</details>

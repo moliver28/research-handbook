@@ -6,7 +6,7 @@ canonical_path: "/company/structure/"
 
 ## Introduction
 
-On this page we plan to take you through the organizational structure, layers and Job Frameworks that build GitLab as a company. We are working with two Job Frameworks, one for Individual Contributors and one for People Managers. We aim to explain how we use those frameworks, other projects and further considerations in GitLab’s Organizational Structure.
+On this page we plan to take you through the organizational structure, layers and Job Frameworks that build GitLab as a company. We are working with two Job Frameworks, one for Individual Contributors and one for People Managers. We aim to explain how we use those frameworks, other projects and further considerations in GitLab's Organizational Structure.
 
 ## Organizational chart
 
@@ -36,7 +36,7 @@ While today the dual-career path is most built out in our Engineering division, 
 
 ## Job Frameworks
 
-We’ve developed Job frameworks to provide clarity and consistency in our expectations for each job level at GitLab. There are two Job Frameworks: [one for Individual Contributors and one for People Managers](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618) which are available to internal GitLab team members only, that map to the levels outlined in our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). If we make any updates to the frameworks we will always communicate that broadly. If you as a team member want to propose any changes we recommend that you to open a confidential issue in [the People Business Partner project](https://gitlab.com/gitlab-com/people-group/people-business-partners/-/issues?sort=created_date&state=opened).
+We've developed Job frameworks to provide clarity and consistency in our expectations for each job level at GitLab. There are two Job Frameworks: [one for Individual Contributors and one for People Managers](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=819074618) which are available to internal GitLab team members only, that map to the levels outlined in our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). If we make any updates to the frameworks we will always communicate that broadly. If you as a team member want to propose any changes we recommend that you to open a confidential issue in [the People Business Partner project](https://gitlab.com/gitlab-com/people-group/people-business-partners/-/issues?sort=created_date&state=opened).
 
 ### Goals of the Job Frameworks
 
@@ -51,18 +51,18 @@ Having Job frameworks that managers and team members share will help us make thi
 We are using the Job Frameworks in the following programs:
 
 - [Promotion Process](/handbook/people-group/promotions-transfers/)
-   - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
-   - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
+  - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
+  - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
 - [Career Development Conversations](/handbook/people-group/learning-and-development/career-development/#having-career-development-conversations)
-   - Both managers and team members can leverage the frameworks in their conversations.
-   - The frameworks drive transparency of the competencies and job criteria of different levels at GitLab. When aligned with the Career Development goals of the team member, the team member and manager can collaborate on developing these competencies by leveraging [Learning & Development Programs](/handbook/people-group/learning-and-development/)
+  - Both managers and team members can leverage the frameworks in their conversations.
+  - The frameworks drive transparency of the competencies and job criteria of different levels at GitLab. When aligned with the Career Development goals of the team member, the team member and manager can collaborate on developing these competencies by leveraging [Learning & Development Programs](/handbook/people-group/learning-and-development/)
 - Organizational Design and Headcount Planning
-   - The frameworks will support Leadership and hiring teams in identifying the appropriate levels for to be opened roles.
-   - For expanding and introducing new job levels we will leverage the frameworks to review what distinctive competencies are that we would need.
+  - The frameworks will support Leadership and hiring teams in identifying the appropriate levels for to be opened roles.
+  - For expanding and introducing new job levels we will leverage the frameworks to review what distinctive competencies are that we would need.
 - [Talent Assessment](/handbook/people-group/talent-assessment/):
-   - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
+  - Job frameworks should be leveraged in the Talent Assessment program for both the self-assessment and the manager assessment in evaluating a team member against the competencies for their grade level. In a review of the competencies per level, strengths and development opportunities may surface which can help with content for the review that can lead to discussions with the team member and their manager on future development and career opportunities.
 - [Succession Planning](/handbook/people-group/talent-assessment/#succession-planning):
-   - In the near future we will further build out how we can leverage Job frameworks in Succession planning.
+  - In the near future we will further build out how we can leverage Job frameworks in Succession planning.
 
 ### Competencies per Job
 
@@ -93,7 +93,7 @@ You can find [the Job Framework for People Managers in the tab here](https://doc
 
 #### General Expectations of all People Managers
 
-For all People Managers we have general expectations in behavior which [we describe below](#management-group). These are not captured in the Job Framework but rather can be used as a guide on how we expect people managers to behave and interact with their team/peers. The difference with the Job Framework is that it doesn’t describe high level competencies but rather sets very concrete expectations and GitLab basics.
+For all People Managers we have general expectations in behavior which [we describe below](#management-group). These are not captured in the Job Framework but rather can be used as a guide on how we expect people managers to behave and interact with their team/peers. The difference with the Job Framework is that it doesn't describe high level competencies but rather sets very concrete expectations and GitLab basics.
 
 #### Managers
 
@@ -135,7 +135,7 @@ Members of the S-group are expected to demonstrate leadership in the way all mem
 
 #### VP
 
-VP’s are members of our [S-group](#s-group). VP’s are typically managers of Senior Directors and/or Directors. Similar to Senior Directors they map to departments.
+VP's are members of our [S-group](#s-group). VP's are typically managers of Senior Directors and/or Directors. Similar to Senior Directors they map to departments.
 
 Typically a VP reports to an Executive.
 
@@ -318,10 +318,10 @@ VP-Directs Group is largely made up of VP-Directs, VPs who report directly to me
 
 Through monthly meetings and a Slack channel, this group will be engaged to:
 
-1. **Cascade information:** E-Group has a specific message that the organization needs to absorb and understand and senior leaders can help in communicating the message. This is particularly important when heavy change management is required for a specific issue or challenge and E-Group needs broader leadership support. We’d ask this group to absorb it and drive the change through their organizations.
+1. **Cascade information:** E-Group has a specific message that the organization needs to absorb and understand and senior leaders can help in communicating the message. This is particularly important when heavy change management is required for a specific issue or challenge and E-Group needs broader leadership support. We'd ask this group to absorb it and drive the change through their organizations.
 1. **Provide information and share perspectives:** This group can be a senior sounding board as decisions are made or actions are being taken. For example, this group could be engaged when E-Group has identified a need for a strategic organizational pivot and broader senior level input is desired.
 1. **Provide cross-functional initiative leadership:** E-Group may ask this group to take on specific cross-functional initiatives. For example, this group could play a role in addressing feedback from the Employee Engagement Survey (alongside all functional leaders) or support strategic planning activities.
-1. **Hear from customers:** We’ll invite customers to speak to this group, so we can, as a leadership group, understand their perspective on GitLab and our challenges and opportunities and continue to drive customer-centricity throughout the organization.
+1. **Hear from customers:** We'll invite customers to speak to this group, so we can, as a leadership group, understand their perspective on GitLab and our challenges and opportunities and continue to drive customer-centricity throughout the organization.
 
 ### VP-Directs Group Commitment
 
@@ -435,7 +435,7 @@ When designating a team members `specialty` we use the smallest unit of our Prod
 
 The goal of a Single-Engineer Group (SEG) is to initiate GitLab into a planned or minimal category within the GitLab project. The single-engineer group is not to invest in an existing viable or complete category.  Here is a [list](https://about.gitlab.com/direction/#single-engineer-groups) of product ideas that are candidates for a SEG to work on.
 
-At GitLab, we believe in the power of a single engineer to accomplish amazing feats.  Many open source projects started with a single engineer’s  decision to build around a problem they personally experienced. For instance, [Continuous Integration](https://docs.gitlab.com/ee/ci/) by [DZ](/handbook/company/team/#dzaporozhets) and [GitLab Runner](https://docs.gitlab.com/runner/) by [Kamil](/handbook/company/team/#ayufan). We want to create room for this energy.
+At GitLab, we believe in the power of a single engineer to accomplish amazing feats.  Many open source projects started with a single engineer's  decision to build around a problem they personally experienced. For instance, [Continuous Integration](https://docs.gitlab.com/ee/ci/) by [DZ](/handbook/company/team/#dzaporozhets) and [GitLab Runner](https://docs.gitlab.com/runner/) by [Kamil](/handbook/company/team/#ayufan). We want to create room for this energy.
 
 Our belief is that we can guarantee a higher rate of success by incubating ideas inside our larger organization and existing code base while limiting the negative aspects of friction that come from a larger organization. A few benefits of SEG include:
 

@@ -188,7 +188,7 @@ The document is intended to be a starting point for managers to document where t
     - All of the challenges will reinforce our values by applying management techniques to lead teams in a remote environment. In the weekly charts above, each day or topic will have a [values competency](/handbook/people-group/competencies/#list) that you can expect to improve upon.
 1. **Is the content in the slides in the Handbook?**
     - Yes! All of the content will be in the Handbook. We are creating Google Slides to visualize the content for the challenges but all of it will live in the handbook.
-1. **What if I can’t attend a Live Learning session or complete a challenge?**
+1. **What if I can't attend a Live Learning session or complete a challenge?**
     - If you miss a challenge or live learning session you can go back and complete the challenge anytime. Each SSOT page for material covered will be linked on this page. The live learning recordings will be on the respective SSOT page (ex. the recording for the Week 3 Coaching live learning will be on the [Coaching page]({{< ref "coaching" >}})).
 1. **What if I am out of the office for part of the program?**
     - As long as you complete the challenge and let the Learning and Development know when you have completed them, it is okay to be out of the office during the program.
@@ -237,11 +237,11 @@ The Manager Challenge Pilot is set up within the GitLab Tool. We are using Epics
 **Learning & Development Team Tasks**
 
 - A week before the program starts:
-   - Create the Epic: Manager Challenge - [Month] [Year]
-   - Create the Sub Epics for each week: Manager Challenge - Week 1
+  - Create the Epic: Manager Challenge - [Month] [Year]
+  - Create the Sub Epics for each week: Manager Challenge - Week 1
 - Daily
-   - Create the Day's Issue in the [Manager Challenge Project](https://gitlab.com/gitlab-com/people-group/learning-development/manager-challenge) using the [manager-challenge-daily-template](https://gitlab.com/gitlab-com/people-group/learning-development/manager-challenge/-/blob/master/.gitlab/issue_templates/manager-challenge-daily-template.md)
-   - Monitor the issue comments to respond to questions as well as keep track of participation
+  - Create the Day's Issue in the [Manager Challenge Project](https://gitlab.com/gitlab-com/people-group/learning-development/manager-challenge) using the [manager-challenge-daily-template](https://gitlab.com/gitlab-com/people-group/learning-development/manager-challenge/-/blob/master/.gitlab/issue_templates/manager-challenge-daily-template.md)
+  - Monitor the issue comments to respond to questions as well as keep track of participation
 
 ### Communication
 

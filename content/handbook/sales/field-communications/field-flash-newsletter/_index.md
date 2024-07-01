@@ -1,14 +1,7 @@
 ---
-
 title: "Field Flash Newsletter"
 description: "Field Flash is a monthly newsletter that recaps all important Sales/CS-related information from the month and highlights important upcoming information"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -38,7 +31,7 @@ The newsletter will...
 **Uphold our [values](/handbook/values/) of transparency**
 
 - The newsletter is for communication, the Handbook is for documentation. This means that the newsletter disseminates updates but leans on the Handbook (and other relevant resources) as the main source of documentation, linking back to it wherever possible.
-   - Note: A tangential benefit of this approach is that it allows us to improve the [Sales Handbook](/handbook/sales/) during this process.
+  - Note: A tangential benefit of this approach is that it allows us to improve the [Sales Handbook](/handbook/sales/) during this process.
 
 **Prioritize repetition, brevity, user-friendliness and added value**
 

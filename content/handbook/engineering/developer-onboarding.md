@@ -50,23 +50,18 @@ If you need a VPS for any reason, it's probably easiest to set one up at Digital
 
 ### Workflow
 
-Please see the [engineering workflow document][eng-wf] in the handbook and read
-the [developer documentation][dev-doc].
-
-[eng-wf]: /handbook/engineering/workflow/
-[dev-doc]: https://docs.gitlab.com/ee/development/
+Please see the [engineering workflow document](/handbook/engineering/workflow/) in the handbook and read
+the [developer documentation](https://docs.gitlab.com/ee/development/).
 
 ### Security
 
-Read the [developer security documentation][sec-doc] prior to working on a security issue.
-
-[sec-doc]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md
+Read the [developer security documentation](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md) prior to working on a security issue.
 
 ### Quality
 
 One of GitLab's strengths is its high quality of software. To achieve this we've
 introduced some requirements to all source code that is contributed. All
-requirements are mentioned in [the Contribution guide][contrib-guide].
+requirements are mentioned in [the Contribution guide](https://about.gitlab.com/community/contribute/).
 Make sure you read and follow it.
 
 ### Dependencies
@@ -98,11 +93,9 @@ merged sooner.
 
 Unless the change is very minor, or is fixing a bug that was introduced in the
 same version, create a changelog entry using the
-[`Changelog` Git commit trailer][changelog-entry].
+[`Changelog` Git commit trailer](https://docs.gitlab.com/ee/development/changelog.html).
 Do not include your name in the entry as we only do that to give recognition to
 volunteer contributors.
-
-[changelog-entry]: https://docs.gitlab.com/ee/development/changelog.html
 
 ### Working on GitLab EE (developer licenses)
 
@@ -121,7 +114,7 @@ Follow the [development guidelines for Ruby gems](https://docs.gitlab.com/ee/dev
 
 ## Get involved with the wider community
 
-- Become a [Merge Request Coach](https://handbook.gitlab.com/job-families/expert/merge-request-coach/)
+- Become a [Merge Request Coach](/job-families/expert/merge-request-coach/)
 - Join the [Community Discord](https://discord.gg/gitlab)
 - Encourage teams to host [Community Office Hours](/handbook/marketing/developer-relations/contributor-success/#community-office-hours)
 - Reach out to the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success) on Slack in `#contributor-success`
@@ -139,6 +132,3 @@ Follow the [development guidelines for Ruby gems](https://docs.gitlab.com/ee/dev
 - [Engineering Handbook](/handbook/engineering/)
 - [Engineering Workflow](/handbook/engineering/workflow/)
 - [Product Handbook](/handbook/product/)
-
-[handbook]: /handbook
-[contrib-guide]: https://about.gitlab.com/community/contribute/

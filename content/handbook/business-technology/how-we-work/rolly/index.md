@@ -1,5 +1,4 @@
 ---
-
 title: "Rolly"
 description: "A handy automation tool to generate status rollup issues for large projects and programs"
 ---

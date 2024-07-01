@@ -1,5 +1,4 @@
 ---
-
 title: Support Engineer Resources
 description: If you want to learn more about what support engineers do and how they do it, this is the place.
 ---
@@ -66,8 +65,10 @@ end of each week with a list of support team contributions merged in the past we
 
 - [ExplainShell](https://explainshell.com/) - Break down a terminal command
 - [Espanso](https://espanso.org/) - Versatile text expander (a.k.a. text replacer or canned response tool)
+  - Be sure to check out the [GitLab Support Espanso package](https://gitlab.com/gitlab-com/support/toolbox/espanso/) for a bunch of ready-to-use expansions!
 - [Insomnia](https://insomnia.rest/) - Build, debug, and test API queries, and generate the code for them
 - [iTerm2](https://iterm2.com/) (macOS) - Terminal emulator with robust theming and customization options
+- [Itsycal](https://www.mowglii.com/itsycal/) (macOS) - Menu bar calendar with more flexibility than the system widget
 - [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker
 - [Obsidian](https://obsidian.md/) - Super customizable markdown notetaking app with tons of themes and addons
 - [Raycast](https://www.raycast.com/) (macOS) - Omnibox helper with tons of plugins for emoji, clipboard history, unit conversions, calculations, search, a confetti effect, and more

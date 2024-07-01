@@ -13,14 +13,14 @@ Winners may submit their receipt for the meal for reimbursement via Navan.
 Please see the instructions below.
 
 In Navan, click Add Transaction Select Upload receipt (or select Type in details)
-Under Expense Type field, please select “Team events & meals”
-Under Classification, please select “FY24 Team Building”
+Under Expense Type field, please select "Team events & meals"
+Under Classification, please select "FY25 Team Building"
 Under Description field, please include this link: https://about.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner
 Click Submit (or Save & close if you need to come back to add more information).
 
 ### Engineering Quarterly Achiever's Chat
 
-The Quarterly Achiever's Chat recognizes Engineering team members who have excelled in a given quarter by inviting them to join the Chief Executive Officer, Chief Technical Officer and Chief Product Officer in a congratulatory chat. The benefit is three-fold:
+The Quarterly Achiever's Chat recognizes Engineering team members who have excelled in a given quarter by inviting them to join the Chief Technology Officer and 2 members of E-Group in a congratulatory chat. The benefit is three-fold:
 
 1. Top performers receive facetime and recognition directly at the executive level
 1. Knowledge sharing of best practices that can be replicated by other Engineering team members
@@ -30,7 +30,7 @@ Key features of this call include:
 
 - 30-minute call
 - Held within first two months of new quarter
-- CEO, CFO, CTO and/or CProdO attendance required
+- CTO and 2 E-Group Members attendance required
 - Not recorded
 
 ### Engineering Quarterly Achiever's Recognition Dinner
@@ -81,14 +81,16 @@ Considerations include:
 1. Engineering Quarterly Achievers finalized within the first week of the new quarter by CTO leadership
 1. Engineering Quarterly Achievers announced and recognized in the first Engineering All-Hands of the quarter
 1. Engineering Quarterly Achievers Chat held within the quarter
-1. CEO, CTO, and CPO to congratulate and inquire about key learnings from achievers on call
-1. CEO, CTO, and CPO to pull out 2-3 of the most impactful key learnings and share with the larger team in a Slack post (either `#ceo` or `#cto`) after the call
+1. CTO and 2 E-Group Members congratulate and inquire about key learnings from achievers on call
+1. CTO and 2 E-Group Members to pull out 2-3 of the most impactful key learnings and share with the larger team in a Slack post (either `#ceo` or `#cto`) after the call
 
 #### Engineering Quarterly Achievers Nominations
 
 Prior to the start of the quarter, a call for nominations will go out. You may nominate as many people as you wish, provided they meet the [selection criteria](#selection-criteria). Add all relevant information to the text of your nomination – adding a link as SSOT is great, but ideally a nomination shouldn't require clicking through to anything to be understood and evaluated. Be aware that the text (but not your name!) may be shared with the nominee.
 
 ## Engineering Quarterly Achievers Past Winners
+
+These are the past award winners. The quarter indicated is the quarter the award was announced. The award itself covers work completed the *previous* quarter.
 
 ### FY24-Q4
 
@@ -105,7 +107,7 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 | FY24-Q4 | Excellence | Everyone-can-contribute | John Lyttle |
 | FY24-Q4 | Customer Results | Customer Centered Individual | Daphne Kua |
 | FY24-Q4 | Customer Results | Customer Kudos | Suleimi Ahmed |
-| FY24-Q4 | Customer Results | Performance and Stability | Brie Carranza & Matthew Badeau |
+| FY24-Q4 | Customer Results | Performance and Scalability | Brie Carranza & Matthew Badeau |
 | FY24-Q4 | Customer Results | Contribution to Sales or Renewal | Gerardo Gutierrez |
 
 ### FY25-Q1
@@ -124,9 +126,28 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 | FY25-Q1 | Excellence | Everyone-can-contribute | John Skarbek |
 | FY25-Q1 | Customer Results | Customer Centered Individual | Samir Hafez |
 | FY25-Q1 | Customer Results | Customer Kudos | Jio Castillo |
-| FY25-Q1 | Customer Results | Performance and Stability | Sylvester Chin |
+| FY25-Q1 | Customer Results | Performance and Scalability | Sylvester Chin |
 | FY25-Q1 | Customer Results | Contribution to Sales or Renewal | Cameron Swords |
 
+### FY25-Q2
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY25-Q2 | Efficiency | Best Blueprint Proposal | Alessio Caiazza |
+| FY25-Q2 | Efficiency | Cost Savings | **Not Awarded** |
+| FY25-Q2 | Efficiency | Software Efficiency | Dylan Griffith |
+| FY25-Q2 | Efficiency | Proactive Avoidance |  Matt Smiley |
+| FY25-Q2 | Efficiency | Security Improvement | **Not Awarded** |
+| FY25-Q2 | Excellence | Engineering Excellence | Anton Smith |
+| FY25-Q2 | Excellence | Excellence Under Pressure | Craig Miskell |
+| FY25-Q2 | Excellence | Testing Excellence | Jay McCure |
+| FY25-Q2 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY25-Q2 | Excellence | Everyone-can-contribute | Manoj Memana Jayakumar |
+| FY25-Q2 | Excellence | Interviewing Excellence | Peter Hegman |
+| FY25-Q2 | Customer Results | Customer Centered Individual | Patrick Bajao |
+| FY25-Q2 | Customer Results | Customer Kudos | Kaitlyn Chappell |
+| FY25-Q2 | Customer Results | Performance and Scalability | Chance Feick |
+| FY25-Q2 | Customer Results | Contribution to Sales or Renewal | Erika Miklós |
 ---
 
 ## Engineering Quarterly Achievers Process

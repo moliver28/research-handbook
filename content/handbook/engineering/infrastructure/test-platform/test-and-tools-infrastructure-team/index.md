@@ -60,10 +60,10 @@ graph LR
 
 ## Current Roadmap and OKR
 
-Every quarter, the team reviews its Roadmap and [Objectives and Key Results (OKRs)](https://handbook.gitlab.com/company/okrs/).
+Every quarter, the team reviews its Roadmap and [Objectives and Key Results (OKRs)](/company/okrs/).
 
-  - [FY25 Roadmap - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2315)
-  - [FY25 Q1 OKR - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2317#note_1730107488)
+- [FY25 Roadmap - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2315)
+- [FY25 Q1 OKR - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2317#note_1730107488)
 
 ## Metrics & Dashboards
 
@@ -72,7 +72,7 @@ The dashboards, owned by Test and Tools Infrastructure team, can be found in the
 ## How we work
 
 - We prioritize asynchronous communication and a handbook-first approach, in line with GitLab's all-remote, timezone-distributed structure.
-- We emphasize the [Maker’s Schedule](http://www.paulgraham.com/makersschedule.html), focusing on productive, uninterrupted work.
+- We emphasize the [Maker's Schedule](http://www.paulgraham.com/makersschedule.html), focusing on productive, uninterrupted work.
 - Most mandatory recurring meetings are scheduled on Tuesdays and Thursdays.
 - We reserve approximately 3-4 hours per week of focus time for learning new technologies and conducting research work, ensuring our team stays abreast of industry trends and fosters innovation in our projects. This time is dedicated to exploring emerging tools, deep-diving into subjects relevant to our work, engaging in self-directed learning, and experimenting with new ideas or proof-of-concepts. Team members have their calendars marked with this dedicated learning time. Any new meeting requests during these hours should be communicated beforehand, respecting this essential personal and professional development period.
 - All meeting agendas could be found in the [Team Shared Drive](https://drive.google.com/drive/folders/1uZg0J5hYsOUu3WMNR-PoAcmrhhmDxxoA?usp=drive_link) as well as in the meeting invite.
@@ -93,21 +93,21 @@ The dashboards, owned by Test and Tools Infrastructure team, can be found in the
 
 #### Feature work
 
-  - Each financial year, we develop a clear roadmap for the team to enhance visibility and alignment.
-  - Our roadmap preparation is an intensive month long exercise (usually last month of Q4), led by a [DRI](/handbook/people-group/directly-responsible-individuals/). During this phase, DRIs take the lead in drafting the roadmap using [the roadmap prep-work template](https://gitlab.com/gitlab-org/quality/work-log/-/blob/main/templates/roadmap-pre-work-template.md?ref_type=heads) for necessary project tracks. This involves gathering inputs from the team, various stakeholders, assessing past performance, and aligning with the strategic goals of the Test and Tools Infrastructure Team.
-  - We utilize and plan [OKRs](/handbook/company/okrs/) to prioritize the roadmap items.
-  - Adhering to our team's [bi-weekly ritual](#work-related-rituals), we conduct reviews to assess progress, address challenges, and recalibrate goals if necessary.
-  - We maintain a [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti%3A%3Asupport-request&amp;not%5Blabel_name%5D%5B%5D=failure%3A%3A*&label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure) to visualise the current state of the feature work.
+- Each financial year, we develop a clear roadmap for the team to enhance visibility and alignment.
+- Our roadmap preparation is an intensive month long exercise (usually last month of Q4), led by a [DRI](/handbook/people-group/directly-responsible-individuals/). During this phase, DRIs take the lead in drafting the roadmap using [the roadmap prep-work template](https://gitlab.com/gitlab-org/quality/work-log/-/blob/main/templates/roadmap-pre-work-template.md?ref_type=heads) for necessary project tracks. This involves gathering inputs from the team, various stakeholders, assessing past performance, and aligning with the strategic goals of the Test and Tools Infrastructure Team.
+- We utilize and plan [OKRs](/handbook/company/okrs/) to prioritize the roadmap items.
+- Adhering to our team's [bi-weekly ritual](#work-related-rituals), we conduct reviews to assess progress, address challenges, and recalibrate goals if necessary.
+- We maintain a [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti%3A%3Asupport-request&amp;not%5Blabel_name%5D%5B%5D=failure%3A%3A*&label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure) to visualise the current state of the feature work.
 
 #### Working with us
 
 We estimate ~20% of weekly time for support tasks, and balancing our roadmap work with emerging support needs. Please note this estimate varies depending upon ongoing priorities.
 
-  - For individual questions please reach out to the team via our slack channels: `#test-platform`, `#test-tools-infrastructure-team`.
-  - Raise support requests as [issues in the team-tasks project](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues). Add `~"team::Test and Tools Infrastructure"` and `~"tti::support-request"` labels in the issues to track them in the [team's support request board](https://gitlab.com/groups/gitlab-org/-/boards/7369206?label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure&label_name%5B%5D=tti%3A%3Asupport-request).
-  - Ensure each issue is tagged with one of `~"type::feature"`, `~"type::bug`, `~"type::maintenance` following [workflow classification guidelines](handbook/engineering/metrics/#work-type-classification).
-  - Team members analyze the issue and add a priority based on the [Reliability Department's prioritization framework](/handbook/engineering/infrastructure/team/reliability/issues/#priority). P1 issues will be taken up on an urgent basis the same week based on the availability of the relevant team members. Lower-priority issues are scheduled for review and discussion in our next bi-weekly meeting for capacity planning.
-  - The issues should be following the [workflow label guidelines](../project-management/index.md#workflow-labels).
+- For individual questions please reach out to the team via our slack channels: `#test-platform`, `#test-tools-infrastructure-team`.
+- Raise support requests as [issues in the team-tasks project](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues). Add `~"team::Test and Tools Infrastructure"` and `~"tti::support-request"` labels in the issues to track them in the [team's support request board](https://gitlab.com/groups/gitlab-org/-/boards/7369206?label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure&label_name%5B%5D=tti%3A%3Asupport-request).
+- Ensure each issue is tagged with one of `~"type::feature"`, `~"type::bug`, `~"type::maintenance` following [workflow classification guidelines](handbook/engineering/metrics/#work-type-classification).
+- Team members analyze the issue and add a priority based on the [Reliability Department's prioritization framework](/handbook/engineering/infrastructure/team/reliability/issues/#priority). P1 issues will be taken up on an urgent basis the same week based on the availability of the relevant team members. Lower-priority issues are scheduled for review and discussion in our next bi-weekly meeting for capacity planning.
+- The issues should be following the [workflow label guidelines](../project-management/index.md#workflow-labels).
 
 ### Borrow requests
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Qualified"
 description: "Qualified facilitates instant sales conversations with visitors on the GitLab marketing website"
 ---
@@ -32,13 +31,13 @@ Routing rules are set up in Qualified to send a visitor to the most appropiate r
 - A visitor that is existing in our CRM and being Actively Sequenced, they will be routed to the sequencing rep.
 - A visitor that is identified as being associated to a US PubSec account will be routed to the BDR Assigned on that account. If no BDR Assigned is present on the account they will be round robined to the PubSec team.
 - A visitor that is identified to be associated with an Actively Working account will be routed to the BDR Assigned on that account. If the rep is not available, the visitor will be routed to the inbound SDR team based on Geo to further qualify the lead. Once routed to an SDR, ownership of the lead will be determined by our standard [Rules of Engagement](/handbook/marketing/sales-development/#rules-of-engagement-quick-guide).
-- A visitor that is not being sequenced, not PubSec, and not part of an Actively Working account will be routed to the the appropriate Geo based SDR round robin pool.
+- A visitor that is not being sequenced, not PubSec, and not part of an Actively Working account will be routed to the appropriate Geo based SDR round robin pool.
 
 If you feel you have been routed a conversation or visitor in error please post a link to the lead/conversation in the #mktgops Slack channel.
 
 ### Signals
 
-Signals data is a collection of custom fields added to the Account object, reports, and dashboard components in Salesforce to showcase Signals data for your organization. The Signals Account 360 is a robust account profile that presents an account’s engagement with your campaigns and their likely purchase intent over time. Sales reps and executives alike can view the Signals Account 360 to identify which accounts and opportunities are most likely to close.
+Signals data is a collection of custom fields added to the Account object, reports, and dashboard components in Salesforce to showcase Signals data for your organization. The Signals Account 360 is a robust account profile that presents an account's engagement with your campaigns and their likely purchase intent over time. Sales reps and executives alike can view the Signals Account 360 to identify which accounts and opportunities are most likely to close.
 
 ### Integrations
 
@@ -54,7 +53,7 @@ The Qualified/Outreach integration allows Qualified to be able to identify if a 
 
 #### 6sense
 
-Qualified offers an integration with 6sense to help you pull in firmographic information about the website visitors from the start. Using 6sense’s reverse IP lookup, you can quickly see where the visitor is coming from, their company information, segments they belong to, and insights for their product lines.
+Qualified offers an integration with 6sense to help you pull in firmographic information about the website visitors from the start. Using 6sense's reverse IP lookup, you can quickly see where the visitor is coming from, their company information, segments they belong to, and insights for their product lines.
 
 #### Zoom
 

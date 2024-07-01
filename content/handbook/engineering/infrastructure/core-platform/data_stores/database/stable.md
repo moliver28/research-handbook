@@ -3,12 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: Database Group Stable Counterparts
 ---
 
-
-
-
-
-
-
 ## Overview
 
 A central tenet of the Core Platform department is to enable other teams to be more self-sufficient in areas such as, in this case, the database. The Database Group is here to provide a helping hand in areas such as database design, query efficiency, database tooling and more. In order to be more efficient and to avoid [diffusion of responsibility](https://en.wikipedia.org/wiki/Diffusion_of_responsibility) when providing database expertise to other groups, we are providing a list of database stable counterparts and which area of expertise is owned by each team member.

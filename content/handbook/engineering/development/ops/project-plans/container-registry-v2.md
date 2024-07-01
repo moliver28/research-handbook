@@ -1,15 +1,8 @@
 ---
-
 title: Container Registry Metadata Database Self-managed
 description: >-
   Project plan for the rollout of Container Registry Metadata Database to self-managed users.
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 
@@ -26,10 +19,10 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
 #### Week of Aug 14-18
 
 - Completed:
-    - Updated the [architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/container_registry_metadata_database_self_managed_rollout/) with a new table structured for our feature based rollout approach: [https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824)
-    - Completed the POC for installing the database using Helm and Omnibus for new installations.  Demo videos are posted in the [issue](https://gitlab.com/gitlab-org/container-registry/-/issues/1065) for both installation paths.
-    - Implemented Headway automation. All issues and MRs marked with the `~headway-self-managed-registry-db label` will be added to tables in the [epic](https://gitlab.com/groups/gitlab-org/-/epics/5521).
-    - Product is researching how GitLab has structured communication with users in other beta programs through the use of separate issues for enrollment and feedback.  This also provides a communication channel for users who reach out to us through our Support counterpart.
+  - Updated the [architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/container_registry_metadata_database_self_managed_rollout/) with a new table structured for our feature based rollout approach: [https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824)
+  - Completed the POC for installing the database using Helm and Omnibus for new installations.  Demo videos are posted in the [issue](https://gitlab.com/gitlab-org/container-registry/-/issues/1065) for both installation paths.
+  - Implemented Headway automation. All issues and MRs marked with the `~headway-self-managed-registry-db label` will be added to tables in the [epic](https://gitlab.com/groups/gitlab-org/-/epics/5521).
+  - Product is researching how GitLab has structured communication with users in other beta programs through the use of separate issues for enrollment and feedback.  This also provides a communication channel for users who reach out to us through our Support counterpart.
 
 ### Milestone 16.4 (August 18, 2023 - September 17, 2023)
 
@@ -207,7 +200,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Finalize progress bar and UX improvements for the importer.
   - Continue communication with beta customers who are testing the import process.
 - Completed:
-  - [Discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/431701) regarding regarding expansion of usage ping metrics.
+  - [Discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/431701) regarding expansion of usage ping metrics.
   - Draft of importer progress bar is ready for review.
 
 #### Week of Dec 4-8

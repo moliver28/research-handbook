@@ -1,14 +1,7 @@
 ---
-
 title: "Email Management"
 description: "Email database management is a core responsibility for MktgOps. Ensuring GitLab is following email best practices, in compliance with Global spam laws and overall health of active database are all priorities."
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -29,10 +22,10 @@ It is very important to have Engineering and/or Product team (whoever is request
 Emails that are not cosidered `operational` but also do not fit the categories below. Usage example: GitLab Hosted billing change, Release update 9.0.0 changes, GitLab Page change and Old CI Runner clients. If you need a non-dg email, please use [follow directions below](/handbook/marketing/marketing-operations/email-management/#request-non-demand-generation-emails)
 
 **Newsletter**
-The newsletter is a collaboration between the Content Team and the Campaigns Team. [Learn more here!](/handbook/marketing/lifecycle-marketing/email-processes-requests/#newsletter) Users can [subscribe to the newsletter](/handbook/company/contact/) on the website.
+The newsletter is a collaboration between the Content Team and the Campaigns Team. [Learn more here!](/handbook/marketing/lifecycle-marketing/email-processes-requests/#newsletter) Users can [subscribe to the newsletter](https://about.gitlab.com/company/contact/) on the website.
 
 **Security Releases**
-Sent on an as needed basis containing important information about any security patches, identified vulnerabilities, etc. related to the GitLab platform. These emails are purely text based and again are transactional in nature.  Users can [subscribe to security notices](/handbook/company/contact/#security-notices) on the GitLab Contact us page.
+Sent on an as needed basis containing important information about any security patches, identified vulnerabilities, etc. related to the GitLab platform. These emails are purely text based and again are transactional in nature.  Users can [subscribe to security notices](https://about.gitlab.com/company/contact/#security-notices) on the GitLab Contact us page.
 
 **Webcasts**
 Invitation and/or notification emails sent about future webcasts.
@@ -120,5 +113,5 @@ This section is currently under construction while we develop the process.
 
 As a way to cut down on bounced emails and protect our IP, the Marketo program [Directory of Leads Bouncing Emails](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG13085A1) has been created. Using a series of triggers, the program records soft and hard bounce email history and appends that data to leads. The leads are then collected within the program and its static list, but will automatically be removed from the [Active Bounce List](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ST25117A1LA1) static list if an email is eventually delivered to that lead. The `Bounce Details` list collects all relevant bounce data on the lead while `Successful Records` tracks leads that have been removed from the `Active` static list. A few things to note about this program:
 
- - Due to Marketo limitations, the [Bounce Spike Alert](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC33241A1ZN19) set to email the Awareness & Conideration wing of the MktgOps team will occassionally need to be updated as we grow the team or lose members. There is not a way to have this alert send to all Marketo admins, so instead the alert is set to email individual emails.
- - Also due to Marketo limitaions, to utilize the [Bounce Details](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SL53109072A1LA1) and [Successful Resends](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SL53109462A1LA1) smart lists each Marketo user will need to create the intended smart list view since an individual's list views cannot be shared between other Marketo users. The view consists of these columns: `Email`, `Email Invalid`, `Email Bounce Category`, `Email Bounce Subject Lane`, `Email Bounce Details`, `Email Bounce Date_mkto`, `Email Bounces`, `Delivers After Bounces` and `Email Delivered After Bounce`.
+- Due to Marketo limitations, the [Bounce Spike Alert](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC33241A1ZN19) set to email the Awareness & Conideration wing of the MktgOps team will occassionally need to be updated as we grow the team or lose members. There is not a way to have this alert send to all Marketo admins, so instead the alert is set to email individual emails.
+- Also due to Marketo limitaions, to utilize the [Bounce Details](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SL53109072A1LA1) and [Successful Resends](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SL53109462A1LA1) smart lists each Marketo user will need to create the intended smart list view since an individual's list views cannot be shared between other Marketo users. The view consists of these columns: `Email`, `Email Invalid`, `Email Bounce Category`, `Email Bounce Subject Lane`, `Email Bounce Details`, `Email Bounce Date_mkto`, `Email Bounces`, `Delivers After Bounces` and `Email Delivered After Bounce`.

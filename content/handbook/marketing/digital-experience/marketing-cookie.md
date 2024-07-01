@@ -25,3 +25,31 @@ Note that this cookie can sometimes not show up for GitLab team members. This do
  <figure class="video_container">
    <iframe src="https://www.youtube.com/embed/Nm8wWtoBCTc" frameborder="0" allowfullscreen="true"> </iframe>
  </figure>
+
+## How to use the cookies in the Buyer Experience repo
+
+Use this [library](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/lib/getCookieValue.ts?ref_type=heads) by passing the name of any available cookie that the client is able to parse:
+
+```js
+import { getCookieValue } from '~/lib/getCookieValue';
+```
+
+Then, you can use that function to update the component during any lifecycle after the `mounted` hook, depending on your intended functionality.
+
+```js
+export default Vue.extend({
+// ...
+data() {
+    return {
+      knownSignIn: false,
+    };
+  },
+mounted() {
+  const signedInCookieName = 'gitlab_user';
+  this.knownSignIn = getCookieValue(signedInCookieName) ? true : false;
+},
+// ... 
+})
+```
+
+Note that any of this logic is done client side, so we caution against doing extensive DOM manipulation in this manner. This is a constraint that impacts web performance.

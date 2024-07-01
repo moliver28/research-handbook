@@ -1,15 +1,7 @@
 ---
-
 title: "Product Marketing Onboarding"
 description: "GitLab's onboarding guide: important information for new team members"
 ---
-
-
-
-
-
-
-
 
 ## **Onboarding Guide**
 

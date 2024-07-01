@@ -1,26 +1,20 @@
 ---
-
 title: Mavenlink Processes
 category: Internal
 description: "Learn about the GitLab Professional Services operations processes and workflows."
 ---
 
-
-
-
-
-
 ## Mavenlink Processes
 
 Mavenlink is our current PSA, follow the link below to view process steps and guidelines.
 
-All other processed that relates to professional services operations [can be found on the this page](/handbook/customer-success/professional-services-engineering/professional-services-operations/)
+All other processes that relate to professional services operations [can be found on the this page](/handbook/customer-success/professional-services-engineering/professional-services-operations/).
 
-#### Mavenlink Log In
+### Mavenlink Log In
 
-To log into Mavenlik, you will need to access the GitLab's Okta account
+To log into Mavenlink, you will need to access GitLab's Okta account.
 
-- Confirm access is given to Mavenlink and Okta
+- Confirm access has been given to Mavenlink and Okta
 
 - Click on Mavenlink inside Okta
 
@@ -28,7 +22,7 @@ To log into Mavenlik, you will need to access the GitLab's Okta account
 
 - Verify email
 - Enter password
-- click on Sign On with Okta
+- click "Sign On with Okta"
 
 ![verification1](./verification1.png)
 
@@ -40,7 +34,7 @@ To log into Mavenlik, you will need to access the GitLab's Okta account
 
 You should now be in Mavenlink, Enjoy!
 
-#### Mavenlink Project Read/ Guest Access
+### Mavenlink Project Read/ Guest Access
 
 With Guest Access, members can view information about a project without joining.
 Mavenlink members would have the same access as their permission set without being a project participant.
@@ -49,7 +43,7 @@ Although similar, here are some differences between members with View Only proje
 
 - Members with View Only access appear as allocatable project resources. With Guest Access, members can view project information without appearing as an option to be scheduled or allocated on a project.
 - Since they are not official project participants, guest viewers won't appear on the project as either the Provider or Client.
-- Guests are not tied to Account-level permissions; therefore, if a member has Collaborator account permissions and is assigned Guest Access at the Project Financials level, this member will have have Project Financials view-only access.
+- Guests are not tied to Account-level permissions; therefore, if a member has Collaborator account permissions and is assigned Guest Access at the Project Financials level, this member will have Project Financials view-only access.
 - Instead of using the API or manually assigning View Only access to one team member at a time, Access Groups allows you to assign Guest Access in bulk.
 Note: Members cannot be invited to a project as a guest viewer, they must be assigned Guest Access using Access Groups.
 - A yellow notification banner at the top-right of the project indicates you are Viewing as Guest.
@@ -62,15 +56,15 @@ To view projects as Read only/ Guest:
 
 ![Read Only 2](./Mavenlinkguestaccess2.png)
 
-#### Mavenlink Update User Profile
+### Mavenlink Update User Profile
 
 - From the Dashboard, click on Edit Profile
 
 ![User Profile](./Profile.png)
 
-- Update the profile information along with a phote and hit save
+- Update the profile information along with a photo and hit save
 
-#### Mavenlink Collaborator (PSE) Onboarding Checklist
+### Mavenlink Collaborator (PSE) Onboarding Checklist
 
 Account Configuration
 
@@ -99,18 +93,18 @@ Project Close
 - [ ] Confirm all time has been tracked in your timesheet
 - [ ] Confirm all expenses have been logged and submitted
 
-#### Mavenlink Project Lead, Project Manager Onboarding Checklist
+### Mavenlink Project Lead, Project Manager Onboarding Checklist
 
-****Account Configuration****
+**Account Configuration**
 
-- When you first enter Mavenlink, these are the items to review and update
+- When you first enter Mavenlink, these are the items to review and update:
 - [ ] Update your profile
 - [ ] Configure your email settings and notification preference
 - [ ] Configure your default Project List view
 - [ ] Configure your default Global Task Tracker view
 - [ ] Set your preferred default login screen
 
-****Project Assignment****
+**Project Assignment**
 
 - When project is assigned, review the SOW along with the project details in Mavenlink to be sure there is an understanding of the project technical and financial details
 - [ ] SOW
@@ -127,11 +121,11 @@ Project Close
   - [ ] Project Internal Agenda
   - [ ] Slack Channels
 
-****Weekly- completed by EOD each Thursday****
+**Weekly- completed by EOD each Thursday**
 
-- To ensure everything is up to date, review and/or update these items on a weekly basis.
+- To ensure everything is up to date, review and/or update these items on a weekly basis:
 - [ ] Review and approve time sheets each Monday morning, approvals should be done by noon each Monday
-- [ ] Review project status and be sure up to date
+- [ ] Review project status and be sure it is up to date
   - Prospect- PC is setting up Mavenlink project/ Project is at a Stage 5- start reviewing staffing plan
   - In Set Up- PC is setting up Mavenlink project/ Reviewing Staffing/ Welcome to PS Email
   - Okay to Start- Project setup complete/ PM Planning the project
@@ -148,16 +142,16 @@ Project Close
   - Could be internal call and/or customer call depending on project
 - [ ] Project Definition/ Issue Tracking/Customer Updates
 
-****Project Close****
+**Project Close**
 
-- These are the items to complete prior to close out your Project
+- These are the items to complete prior to closing out a Project:
 - [ ] Ensure all your tasks are marked complete
 - [ ] Confirm all time has been tracked in your timesheet
 - [ ] Confirm all expenses have been logged and submitted
 
-#### Mavenlink Time Off Scheduling, Holidays, Family and Friends Days
+### Mavenlink Time Off Scheduling, Holidays, Family and Friends Days
 
-****Regional Holidays and Family and Friends Days****
+**Regional Holidays and Family and Friends Days**
 
 Regional holidays and Family and Friends days are included in Mavenlink on each members calendar, followed by the  [time off process](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).  Since the days are included in the calendar there is no need to submit the time in the Mavenlink PTO feature or the users time sheet.  When logging into the time sheet, the required work week is shown on the time sheet entry.
 
@@ -204,11 +198,11 @@ Time off cancellation
 
 Overview
 
-With Mavenlink’s time approval functionality, members with Project Lead account permissions (or higher) can access the Time Approvals page where they can view and manage time for all projects in which they have Financials permissions (or higher).
+With Mavenlink's time approval functionality, members with Project Lead account permissions (or higher) can access the Time Approvals page where they can view and manage time for all projects in which they have Financials permissions (or higher).
 
-The Time Approvals page allows you to view Submitted, Unsubmitted, and Rejected time entries from tabs with the corresponding names. Depending on the state of the submission, you can view the timesheet, private message a user who submitted time, and either approve or reject the time entry. You can also directly message those who still needs to submit time, reminding them to do so.
+The Time Approvals page allows you to view Submitted, Unsubmitted, and Rejected time entries from tabs with the corresponding names. Depending on the state of the submission, you can view the timesheet, private message a user who submitted time, and either approve or reject the time entry. You can also directly message those who still need to submit time, reminding them to do so.
 
-If you have Report Viewer account permissions (or higher)—or have been designated as a Time Approver for an individual member or project—you’ll see the Your Approvals check box. You can select this checkbox to only see the time that you’re responsible for approving; otherwise, deselect it to review and take action on all submissions.
+If you have Report Viewer account permissions (or higher)—or have been designated as a Time Approver for an individual member or project—you'll see the Your Approvals check box. You can select this checkbox to only see the time that you're responsible for approving; otherwise, deselect it to review and take action on all submissions.
 
 Members that do not have account permission of Report Viewer (or higher) will only be able to approve time in the project's Activity Feed.
 
@@ -232,7 +226,7 @@ Members that do not have account permission of Report Viewer (or higher) will on
 | ------ | ------ |
 | [Due Date, by Noon EST](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0) | [Due Date, by 1 EST](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0) |
 
-****Project Notes****
+**Project Notes**
 
 - Project notes are required for all Credit and Non Credit time entries
 - If the notes section is blank, reject the time sheet asking for project notes
@@ -276,7 +270,7 @@ When SFDC Opportunities reach a stage 5 status, there is a push to Mavenlink whi
 
 There are steps to follow to update the Mavenlink project:
 
-Reponsible Role: PC
+Responsible Role: PC
 
 ##### Prospect Projects
 
@@ -295,39 +289,37 @@ Once the PS Opportunity is closed/ won, a notification is sent from SFDC.
 1. Review project opportunity and documentation
    - PS Project- SOW
    - Training Project- Order Form or SOW if custom training purchased
+
 1. Update the project status to In Set Up
 1. Review project settings:
-
-  - Delete out the Start and End Date
-  - Update [project color](/handbook/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/#mavenlink-project-status-colors)
-  - Update the project budget to match the budget of the opportunity, SOW or Order Form
-  - Uncheck the include expenses box
-  - Target Margin should be 40%
-  - Update [Rate Card](https://docs.google.com/spreadsheets/d/1yzpCk68aomSxY1vvhZ7dLZEckknx63FQRz3k2bjkFxs/edit#gid=0)
-  - Update task billing mode
-  - Update task default
-  - Review Organization to be sure it is set to GitLab
+   - Delete out the Start and End Date
+   - Update [project color](/handbook/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/#mavenlink-project-status-colors)
+   - Update the project budget to match the budget of the opportunity, SOW or Order Form
+   - Uncheck the include expenses box
+   - Target Margin should be 40%
+   - Update [Rate Card](https://docs.google.com/spreadsheets/d/1yzpCk68aomSxY1vvhZ7dLZEckknx63FQRz3k2bjkFxs/edit#gid=0)
+   - Update task billing mode
+   - Update task default
+   - Review Organization to be sure it is set to GitLab
 
 1. Update the Custom Fields
-
-  - Engagement Manager
-  - Add GitLab Project Link
-  - Security Requirements
-  - Project Components
-  - Billing Type
-  - Billing Terms
-  - Passice Acceptance Language
-  - Revenue Release
+   - Engagement Manager
+   - Add GitLab Project Link
+   - Security Requirements
+   - Project Components
+   - Billing Type
+   - Billing Terms
+   - Passice Acceptance Language
+   - Revenue Release
 
 1. Review task tracker
-
-  - For Customer SOW, remove the task and ask the EM to push over the tasks to the Mavenlink project
-  - Once tasks are pushed over to the Mavenlink project, review task hours and milestone budget to be sure they are correct
-  - For SKUd offerings, review the task to be sure they match the SOW or Order form
-    - Also update the task details
-      - PS Category
-      - PS Type
-      - PS Services
+   - For Customer SOW, remove the task and ask the EM to push over the tasks to the Mavenlink project
+   - Once tasks are pushed over to the Mavenlink project, review task hours and milestone budget to be sure they are correct
+   - For SKUd offerings, review the task to be sure they match the SOW or Order form
+     - Also update the task details
+       - PS Category
+       - PS Type
+       - PS Services
 
 1. Be sure there are no start or due dates set in the task tracker
 1. Add Unnamed resources in the Master Planning until resources have been selected

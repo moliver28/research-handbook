@@ -4,7 +4,6 @@ description: "This policy specifies requirements for monitoring of GitLab.com"
 controlled_document: true
 ---
 
-
 ## Purpose
 
 This policy specifies how GitLab ensures continuous monitoring of GitLab.com services, how are SLAs, logging and capacity planning defined.
@@ -33,14 +32,14 @@ This policy applies to all GitLab.com monitoring services in support of the stat
 
 Service Availability is the percentage of time during which the platform is in an available state. Other states are _degraded_ and _outage_.
 
-Each of the _user facing_ services have two Service Level Indicators (SLI): the [Apdex] score, and the [Error rate].
+Each of the _user facing_ services have two Service Level Indicators (SLI): the [Apdex](https://en.wikipedia.org/wiki/Apdex) score, and the [Error rate](https://en.wikipedia.org/wiki/Bit_error_rate).
 The Apdex score is generally a measure of the service performance (latency).
 The Error rate measures the percentage of requests that fail due to an error (usually, a `5XX` status code).
 
 A service is considered available when:
 
-1. The Apdex score of the service is _above_ its Service Level Objective ([SLO]),
-1. _AND_ The error rate is _below_ its Service Level Objective ([SLO]).
+1. The Apdex score of the service is _above_ its Service Level Objective ([SLO](https://en.wikipedia.org/wiki/Service-level_objective)),
+1. _AND_ The error rate is _below_ its Service Level Objective ([SLO](https://en.wikipedia.org/wiki/Service-level_objective)).
 
 An example of available `web` service; within a 5 minute period:
 
@@ -71,7 +70,7 @@ Finally, the availability metric for GitLab.com is calculated as a weighted aver
 1. `pages` (0)
 1. `sidekiq` (0)
 
-The availability score can be seen on the [SLA dashboard], and the Service Availability target is set as an [Infrastructure key performance indicator][KPI].
+The availability score can be seen on the [SLA dashboard](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now), and the Service Availability target is set as an [Infrastructure key performance indicator](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability).
 
 ### Log management
 
@@ -85,9 +84,9 @@ Logs are stored in a short-term and long-term storage, with their own respective
 Logs in short-term storage are used to actively monitor application activity, spam events, transient errors, system and network authentication
 events, security events, and similar.
 
-Logs in long-term storage are used to comply to the [Records Retention & Disposal] policy. Logs in long-term storage are less granular and have less detail than those in short-term storage.
+Logs in long-term storage are used to comply to the [Records Retention & Disposal](/handbook/security/records-retention-deletion/) policy. Logs in long-term storage are less granular and have less detail than those in short-term storage.
 
-Detailed overview of architecture, tooling and workflows are listed on the [Logging] page.
+Detailed overview of architecture, tooling and workflows are listed on the [Logging](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/logging/README.md) page.
 
 ### Capacity Planning
 
@@ -99,9 +98,9 @@ Service owners then use this process to act on this information.
 
 The data sources used to feed the forecasting tool are historical saturation and utilization data used as part of standard monitoring of GitLab.com.
 
-The output of our capacity planning process is considered ORANGE, and must be treated per [The Data Classification Standard].
+The output of our capacity planning process is considered ORANGE, and must be treated per [The Data Classification Standard](/handbook/security/data-classification-standard/#orange).
 
-Detailed overview of architecture, tooling and workflows are listed on the [Capacity Planning] page.
+Detailed overview of architecture, tooling and workflows are listed on the [Capacity Planning](/handbook/engineering/infrastructure/capacity-planning/) page.
 
 ## Exceptions
 
@@ -111,13 +110,3 @@ Changes and exceptions to this policy must be approved by the appropriate Infras
 
 - [Information Security Policy](/handbook/security)
 - [Records Retention & Disposal](/handbook/security/records-retention-deletion/)
-
-[Apdex]: https://en.wikipedia.org/wiki/Apdex
-[Error rate]: https://en.wikipedia.org/wiki/Bit_error_rate
-[SLA dashboard]: https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now
-[KPI]: /handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability
-[SLO]: https://en.wikipedia.org/wiki/Service-level_objective
-[Logging]: https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/logging/README.md
-[Records Retention & Disposal]: /handbook/security/records-retention-deletion/
-[The Data Classification Standard]: /handbook/security/data-classification-standard/#orange
-[Capacity Planning]: /handbook/engineering/infrastructure/capacity-planning/

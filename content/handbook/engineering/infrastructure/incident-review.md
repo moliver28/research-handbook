@@ -1,5 +1,4 @@
 ---
-
 title: "Incident Review"
 ---
 
@@ -17,7 +16,7 @@ _Both async and synchronous reviews can be requested by anyone by following the 
 
 Reviews are async by default.
 Synchronous reviews can also be valuable as a way to discuss improvements and brainstorm ideas in real-time.
-Before holding a synchronous review, the async review should be completed first. Instructions for initiating a synchronous review can be found on the [incident review issue template][].
+Before holding a synchronous review, the async review should be completed first. Instructions for initiating a synchronous review can be found on the [incident review issue template](https://gitlab.com/gitlab-com/gl-infra/production/-/blob/master/.gitlab/issue_templates/incident_review.md?ref_type=heads).
 
 We follow the incident review process for any of the following events:
 
@@ -36,12 +35,11 @@ For the sake of expediency, you can complete areas of the review which highlight
 
 ### Process for Synchronous Reviews
 
-Follow the instructions in the [incident review issue template][] to schedule a synchronous review in addition to completing the async review.
+Follow the instructions in the [incident review issue template](https://gitlab.com/gitlab-com/gl-infra/production/-/blob/master/.gitlab/issue_templates/incident_review.md?ref_type=heads) to schedule a synchronous review in addition to completing the async review.
 
 ## Customer Engagement
 
 Incident reviews may require customer engagement through a point of contact such as a Technical Account Manager (TAM).
 In case of a customer requiring a sync to discuss a finding that comes out of review, the TAM can engage with the Infrastructure management to organize the discussion with important stakeholders.
 
-[incident review issue template]: https://gitlab.com/gitlab-com/gl-infra/production/-/blob/master/.gitlab/issue_templates/incident_review.md?ref_type=heads
 [^1]: Google SRE Chapter 15 - Postmortem Culture: Learning from Failure

@@ -7,7 +7,7 @@ Teams around GitLab utilize other training providers for accessing role specific
 
 ## O'Reilly Learning
 
-The O’Reilly Learning library, contains thousands of books, videos and live learning courses to assist team members’ with professional development and staying up-to-date with changing technology trends. Additionally, code sandboxes are included within the O’Reilly platform that team members’s can utilize to practice new skills or hone existing ones.
+The O'Reilly Learning library, contains thousands of books, videos and live learning courses to assist team members' with professional development and staying up-to-date with changing technology trends. Additionally, code sandboxes are included within the O'Reilly platform that team members's can utilize to practice new skills or hone existing ones.
 
 ### How to get an O'Reilly license
 
@@ -111,8 +111,6 @@ Due to limited licenses, we ask that team members use one license at a time from
 As a GCP Partner, GitLab has *unlimited* seats to Google Cloud's [Skills Boost Platform for Partners](https://partner.cloudskillsboost.google/catalog). This portal includes a wide array of learning materials related to Google Cloud's offerings, ranging from introductory to advanced.
 
 This is a completely self-paced learning platform with a variety of learning formats, including video content and hands-on labs style engagement.
-
-For those interested in pursuing a certification, exam vouchers are available upon completing certification learning pathways, and commemorative Google swag is issued upon completing and passing a Professional level exam!
 
 ### Sign Up
 

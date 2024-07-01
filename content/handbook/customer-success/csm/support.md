@@ -1,13 +1,6 @@
 ---
-
 title: "CSM and Support Interaction"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -19,9 +12,9 @@ Define the process for how the CSM interacts with the systems and processes desi
 
 ## Establishing Customers in Support Systems
 
-During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances.html). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers’ purchase of products that include support.
+During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances.html). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers' purchase of products that include support.
 
-Though automation exists, the CSM must still ensure customers take additional steps to fully establish their personnel in Zendesk. Specifically, the CSM must work with the customer to establish specific Zendesk users under the Zendesk Account so that tickets submitted by the customer’s personnel are guided by the GitLab support team’s [Service Level Agreements (SLAs)](https://about.gitlab.com/support/#gitlab-support-service-levels).
+Though automation exists, the CSM must still ensure customers take additional steps to fully establish their personnel in Zendesk. Specifically, the CSM must work with the customer to establish specific Zendesk users under the Zendesk Account so that tickets submitted by the customer's personnel are guided by the GitLab support team's [Service Level Agreements (SLAs)](https://about.gitlab.com/support/#gitlab-support-service-levels).
 
 To add important static notes that will appear on each new ticket to help the support team with context, review the [support handbook](/handbook/support/internal-support/#i-want-to-add-important-information-about-the-organizationuser) to request this be attached to the customer's Zendesk organization.
 
@@ -113,23 +106,23 @@ As described at that link, support already collects feedback via an automatic em
 
 ## Support Contact Management Projects
 
-CSM guidance on [contact management projects](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/gitlab/contact_management_projects/).
+CSM guidance on [contact management projects](/handbook/support/readiness/operations/docs/gitlab/contact_management_projects/).
 
 Who has access to a Contact Management Projects?
 
-  - Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
+- Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
 
 How do I know if my customer has a contacts management project?
 
-  - The best source is to check the organization within Zendesk. It will have a field on the left sidebar toward the bottom called `Contact Management Project ID` that points to the project being used. If that field has a value, the customer has a contact management project.
+- The best source is to check the organization within Zendesk. It will have a field on the left sidebar toward the bottom called `Contact Management Project ID` that points to the project being used. If that field has a value, the customer has a contact management project.
 
 How do I know which customer users can access the contacts management project?
 
-  - The people who can access the contact management project are stored in the `CMP Developers` field on the organization page (right below `Contact Management Project ID`)
+- The people who can access the contact management project are stored in the `CMP Developers` field on the organization page (right below `Contact Management Project ID`)
 
 How do I know which users can open support tickets?
 
-  - Within the customer's organization in Zendesk, there is a `Users` tab that syncs with the contacts management project and will show who has support entitlement.
+- Within the customer's organization in Zendesk, there is a `Users` tab that syncs with the contacts management project and will show who has support entitlement.
 
 ## Helpful links
 

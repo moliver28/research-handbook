@@ -18,6 +18,7 @@ Each quarter a Slack reminder will go out in #what's-happening-at-GitLab Slack c
 | Career Growth | ----- | Mid-Year Check-In | ----- |
 | History and Awareness | Asian American and Pacific Islander Heritage Month; Mental Health Awareness Month | LGBTQ+ Pride Month | ----- |
 | Skill of the Month | Continuous Learning | Customer Centricity | Personal Productivity |
+| Compliance Training | Code of Conduct | ----- | Anti-harrassment & Bystander Intervention |
 
 ## FY24 Q3
 
@@ -27,7 +28,7 @@ Each quarter a Slack reminder will go out in #what's-happening-at-GitLab Slack c
 | Career Growth | Review IGP with your manager |  | IGP Work |
 | History and Awareness | ----- | Latinx Heritage Month | ----- |
 | Skill of the Month | Analytical Thinking | Personal Productivity | Staying Motivated |
-| ----- | ----- | ----- | ----- |
+| Compliance Training | ----- | Privacy & CCPA | ----- |
 | ----- | ----- | ----- | ----- |
 
 ## FY24 Q4
@@ -38,7 +39,7 @@ Each quarter a Slack reminder will go out in #what's-happening-at-GitLab Slack c
 | Career Growth | Talent Assessment | IGP Work | IGP Work |
 | History and Awareness | ----- | ----- | ----- |
 | Skill of the Month | ----- | ----- | ----- |
-| ----- | ----- | ----- | ----- |
+| Compliance Training | Antibribery & Corruption, Government Contracting | ----- | ----- |
 | ----- | ----- | ----- | ----- |
 
 ## FY25 Q1

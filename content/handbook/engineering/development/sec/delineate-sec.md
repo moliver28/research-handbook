@@ -38,8 +38,7 @@ In the spirit of establishing a [DRI](/handbook/people-group/directly-responsibl
 ## Technical Boundaries
 
 Ownership of the end-to-end technical solution spans multiple groups. This section clarifies
-cross-group maintainership of code artifacts between [Threat
-Insights](/handbook/product/categories/#threat-insights-group) and the remaining groups in
+cross-group maintainership of code artifacts between [Threat Insights](/handbook/product/categories/#threat-insights-group) and the remaining groups in
 the [Sec Section](/handbook/product/categories/#sec-section).
 
 Ownership means that the responsible group:
@@ -76,8 +75,7 @@ For more information on who to request a review from, see the project
 
 #### Vulnerability Management
 
-This includes all items assigned to Threat Insights under [Page/Function
-responsibilities](#pagefunction-responsibilities), and also:
+This includes all items assigned to Threat Insights under [Page/Function responsibilities](#pagefunction-responsibilities), and also:
 
 * Database Management System objects
 * Object-relational mappings

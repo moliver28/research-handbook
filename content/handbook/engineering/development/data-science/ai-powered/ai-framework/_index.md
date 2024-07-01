@@ -39,14 +39,14 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 
 Depending on the context here are the most appropriate ways to reach out to the IDE Group:
 
-* Slack Channel: [`#g_ai_framework`][slack]
+* Slack Channel: `#g_ai_framework`
 * Slack Groups: `@ai-framework` (entire team) and `@ai-framework-engs` (just engineers)
 
 ## 📦 Team Processes
 
 ### 📆 Regular team meetings
 
-**❗️Important**: For every meeting, the [AI Framework team's meeting document][gdoc] should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
+**❗️Important**: For every meeting, the [AI Framework team's meeting document](https://docs.google.com/document/d/1rSJNmRZJ0q8hd9S6W_AXlCMvtNTC6cfWr6VU0e2fJCQ/edit#heading=h.3xbjtjtrp0e9) should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
 
 #### Team Meetings
 
@@ -54,15 +54,11 @@ Depending on the context here are the most appropriate ways to reach out to the 
    * **When:** Every Monday, alternating between 09:00 AM GMT+1 and 17:00 PM GMT+1
    * **What:** This meeting replaces the previous Work Assignment Meeting and focuses on refining and assigning weights to issues. The Engineering Manager and Product Manager ensure all issues are properly refined and weighted.
 
-2. **Bi-Weekly Engineering Sync**
-   * **When:** Every other Thursday, alternating between 11:00 AM GMT+1 and 18:00 PM GMT+1
-   * **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning upcoming sprints.
+2. **Duo Workflow Weekly**
+   * **When:** Every Monday at 17:00 – 18:00 PM GMT+1 Wednesday at 09:00 – 10:00 GMT+1.
+   * **What:** This meeting focuses on reviewing Duo Workflow related items.
 
-3. **Monthly Capacity Review Meeting**
-   * **When:** Once a month
-   * **What:** This meeting focuses on reviewing the team's capacity, monitoring fluctuations, and reacting to any drops in capacity. It includes a review of the points completed in the past month and adjustments to estimates if necessary.
-
-4. **Think BIG sessions**
+3. **Think BIG sessions**
    * **When:** Once a month
    * **What:** This session will alternate between EMEA/AMER and APAC regions every other month, focusing on broad discussions about group dynamics and strategic planning.
 
@@ -114,9 +110,9 @@ To ensure that our developers are aware of the priority of their work, we [use t
 These guidelines apply to all issues we use for planning and scheduling work within our group. Our Engineers can define specific implementation issues when needed, but the overall goal for our issues are as follows:
 
 * Provide a meaningful **title** that describes a deliverable result.
-    * ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
-    * ✅ `Chat: move away from using OpenAI embeddings`
-    * ❌ `Make Chat better`
+  * ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
+  * ✅ `Chat: move away from using OpenAI embeddings`
+  * ❌ `Make Chat better`
 * Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
 * Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 * The issue should have a weight, milestone and workflow label assigned.
@@ -126,18 +122,18 @@ It's okay to create specific engineering-driven implementation issues for more c
 
 🏋 Weighting and Estimation Process
 
-To assign weights to issues effectively, it’s important to remember that issue weight should not be tied to time. Instead, it should be a purely abstract measure of the issue’s significance. The team uses the Fibonacci sequence starting from weight 0:
+To assign weights to issues effectively, it's important to remember that issue weight should not be tied to time. Instead, it should be a purely abstract measure of the issue's significance. The team uses the Fibonacci sequence starting from weight 0:
 
 * **Weight 0:** Reserved for the smallest and easiest issues, such as typos or minor formatting changes, or very minor code changes with no tests required.
-* **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like “good for new contributors” or “Hackathon - Candidate”. Example: Changing copy text which may be simple but take some time.
+* **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like "good for new contributors" or "Hackathon - Candidate". Example: Changing copy text which may be simple but take some time.
 * **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
 * **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant breaking down into smaller separate issues.
-* **Weight 5:** Normally, this weight should be avoided, and indicates that the issue ideally should be broken down into smaller separate issues. However, in some cases, a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn’t necessarily involve significant risk or uncertainty.
-* **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and must be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to “placeholder” issues to capture the scope of the effort in our velocity-based capacity planning calculations.
+* **Weight 5:** Normally, this weight should be avoided, and indicates that the issue ideally should be broken down into smaller separate issues. However, in some cases, a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.
+* **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and must be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to "placeholder" issues to capture the scope of the effort in our velocity-based capacity planning calculations.
 
 ## 📝 AI Feature Evaluations Guidelines - Evaluate like I am 5
 
-* [Step-by-Step Guide for Conducting Evaluations using LangSmith at GitLab - ELI5 Evals](./evaluation/)
+See the [Evaluate like I am 5](https://gitlab.com/gitlab-org/ai-powered/eli5) Project and read the docs [here](https://gitlab.com/gitlab-org/ai-powered/eli5/-/tree/main/doc?ref_type=heads).
 
 ## 👏 Communication
 
@@ -146,11 +142,11 @@ The AI Framework Team communicates based on the following guidelines:
 1. Always prefer async communication over sync meetings.
 1. Don't shy away from arranging a [sync call](#-ad-hoc-sync-calls) when async is proving inefficient, however always record it to share with team members.
 1. By default communicate in the open.
-1. All work-related communication in Slack happens in the [#g_ai_framework][slack] channel.
+1. All work-related communication in Slack happens in the `#g_ai_framework` channel.
 
 ### ⏲ Time Off
 
-Team members should add any [planned time off][paid-time-off] in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning.
+Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning.
 
 ### 🤙 Ad-hoc sync calls
 
@@ -181,7 +177,7 @@ We operate using async communication by default. There are times when a sync dis
 
 ### 📹 GitLab Unfiltered Playlist
 
-The AI Framework Group collates all video recordings related to the group and its team members in [a playlist][youtube] in the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) YouTube channel.
+The AI Framework Group collates all video recordings related to the group and its team members in [a playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kpt0DsmS5WSZbeiMgrBeZXv) in the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) YouTube channel.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="ai framework" >}}
@@ -198,12 +194,3 @@ The AI Framework Group collates all video recordings related to the group and it
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="ai framework" >}}
 {{< /tableau >}}
-
-<!-- LINKS START -->
-
-[slack]: TBA
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0Kpt0DsmS5WSZbeiMgrBeZXv
-[paid-time-off]: /handbook/people-group/paid-time-off/#paid-time-off
-[gdoc]: https://docs.google.com/document/d/1rSJNmRZJ0q8hd9S6W_AXlCMvtNTC6cfWr6VU0e2fJCQ/edit#heading=h.3xbjtjtrp0e9
-
-<!-- LINKS END -->

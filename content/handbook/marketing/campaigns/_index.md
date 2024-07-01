@@ -1,15 +1,8 @@
 ---
-
 title: "Integrated Campaigns"
 description: "GitLab Marketing Handbook: Integrated Campaigns"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
-
-
-
-
-
-
 
 ## Integrated Campaigns Overview
 
@@ -156,9 +149,9 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
 - **DRI definition in Slack**: Manager, Campaigns connects with leaders of functional teams to determine functional DRIs
 - **Slack Kickoff Message**: Campaign Manager communicates via the new Slack channel that they will schedule synchronous kickoff with designated DRIs
 - **Kickoff Call**: Campaign Manager hosts kickoff call with functional DRIs
-   - Primary/Required Attendees: Campaigns, PMM, TMM, Content, Brand
-   - Why? because they are key contributors to the initial deliverables that are dependencies for other teams
-   - What will be covered?
+  - Primary/Required Attendees: Campaigns, PMM, TMM, Content, Brand
+  - Why? because they are key contributors to the initial deliverables that are dependencies for other teams
+  - What will be covered?
       1. Share the need behind launching the campaign
       1. Spotlight team members involved
       1. Determine what success looks like
@@ -166,19 +159,19 @@ A `Campaign Core Team` is led by a [Global Marketing Campaign Manager](/handbook
       1. Confirm launch date
 - **Weekly Connect Call**: Campaign Manager runs weekly synchronous meeting with core team, always recorded for review
 - **Weekly Status/Reminder Update in Slack:** Campaign Manager shares update including the following:
-   - Takeaways
-   - Progress
-   - At Risk
+  - Takeaways
+  - Progress
+  - At Risk
 - **Launch Announcement in Slack**:
 - **Announcement Amplification in Slack**: Share announcement post in the following channel
-   - marketing
-   - TBD - issue to be opened to address
+  - marketing
+  - TBD - issue to be opened to address
 - **Post-Launch Connect Calls**: Campaign Manager drives call focused on outcomes of tactics aligned to the campaign
-   - What webinars/tech demos/workshops were run? Or are planned?
-   - What new content was developed/launched?
-   - Potential optimizations based on performance
+  - What webinars/tech demos/workshops were run? Or are planned?
+  - What new content was developed/launched?
+  - Potential optimizations based on performance
 - **Campaign Analysis**: Campaign Manager provides analysis of campaign metrics 6 months in
-   - Check quarter over quarter performance
+  - Check quarter over quarter performance
 
 *Because of the global nature of the GitLab team, schedules can be difficult to manage to ensure everyone can attend. For the Kickoff Call, the following team members are to be prioritized for attendance (because they are key contributors to the initial deliverables that are dependencies for other teams).*
 
@@ -222,7 +215,7 @@ The below global integrated campaigns are continally optimized by the Marketing 
 - [WIP:FY24 Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460#memo-campaign-brief)
 - [FY24 Campaign Core Team Members](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3460#busts_in_silhouette-campaign-core-team)
 - [FY23 DevOps Platform Campaign Epic in GitLab](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858)
-- [FY23 DevOps Platform Campaign Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858#memo-campaign-brief)
+- [FY23 DevOps Platform Campaign Brief](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2858#memo-campaign-brief)
 
 ### 🚀 Security & Compliance Campaign
 
@@ -561,7 +554,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 Ideally, campaigns will be agreed at least a quarter in advance to allow for ample planning and execution, prep time with agencies, creative concepting, and communication internally. This is a collaborative effort to deliver a cohesive program.
 
-#### Overall Campaign Steps
+### Overall Campaign Steps
 
 {: #campaign-steps}
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -588,7 +581,7 @@ Ideally, campaigns will be agreed at least a quarter in advance to allow for amp
 
 ***The Campaign Manager of the integrated campaign will create the epic with the following structure - details and links to be added up on creation of documents and timeline defined.***
 
-#### Epic Code
+### Epic Code
 
 {: #epic-code}
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -596,8 +589,8 @@ Ideally, campaigns will be agreed at least a quarter in advance to allow for amp
 ```markdown
 <!-- Name this epic: Name of Campaign [Integrated Campaign] (i.e. Automated Software Delivery [Integrated Campaign]) -->
 
-#### :calendar: [Campaign Execution Timeline >>]() - `to be added once created by Campaign Manager`
-#### :mega: [Slack Channel >>]() `to be added once created by Campaign Manager`
+### :calendar: [Campaign Execution Timeline >>]() - `to be added once created by Campaign Manager`
+### :mega: [Slack Channel >>]() `to be added once created by Campaign Manager`
 
 ## :busts_in_silhouette: Campaign Core Team
 | Primary Stakeholder | Name | Contact |
@@ -674,7 +667,7 @@ Paid Media:
 {: #funnel-crossover-all-remote .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Diagram of sales lead funnel cross-over with all-remote
+### Diagram of sales lead funnel cross-over with all-remote
 
 {: #funnel-crossover-all-remote-diagram}
 <!-- DO NOT CHANGE THIS ANCHOR -->

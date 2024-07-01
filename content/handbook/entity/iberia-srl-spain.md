@@ -4,7 +4,6 @@ description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
 controlled_document: true
 ---
 
-
 Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
 ### Scope
@@ -21,7 +20,7 @@ These standards apply to all GitLab team members hired through GitLab Iberia s.r
 
 ## Employment Contracts
 
-GitLab’s Team Member contract templates, including for Spain, [will be listed here in due course](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) (for reference only), viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
+GitLab's Team Member contract templates, including for Spain, [will be listed here in due course](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) (for reference only), viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
 
 Contract copies are lodged with the Spanish Labour Inspectorate by the payroll provider (Papaya) as required. Contact nonuspayroll@gitlab.com if you have any queries.
 
@@ -49,7 +48,7 @@ The [pay date](https://internal.gitlab.com/handbook/finance/payroll/#pay-dates) 
 
 ### Payslip Access
 
-All team members can access their payslips though Papaya SSO available as a tile in OKTA. Access will be activated with the first payslip. For any payslip access or general payroll issues please contact payroll in HelpLab by following the [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
+All team members can access their payslips though Papaya SSO available as a tile in OKTA. Access will be activated with the first payslip. For any payslip access or general payroll issues please contact payroll in HelpLab by following the [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
 
 ## Timekeeping Policies
 
@@ -75,9 +74,32 @@ Overtime, if appropriate, _must be expressly and previously authorized in writin
 
 ## Timesheets
 
-Team members will be expected to fill out a monthly timesheet at the end of each month. The timesheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF) and either the english or spanish version can be used.The timesheet must then be sent to the Non-US Payroll team via HelpLab (under the time-tracking category) before the 2nd of the following month. For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For more information please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
+Team members will be expected to fill out a monthly timesheet at the end of each month. The timesheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF) and either the English or Spanish version can be used.
 
-For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
+### Submitting Timesheets
+
+1. Completed timesheets must be submitted before the 2nd of the following month.
+1. Completed timesheets must be saved as a PDF file.
+1. Go to your Okta account and click on the HelpLab SSO tile.
+1. Click on the Payroll dropdown, and select Timecards.
+
+![HelpLab Payroll dropdown](/handbook/entity/images/timecards.png "HelpLab Payroll dropdown")
+
+1. Click on the Timecards request tile.
+
+![Timecards request tile](/handbook/entity/images/timecards-request.png "HelpLab Timecards Request")
+
+1. Enter the Entity (GitLab Iberia srl)
+1. Enter that No, you do not require your manager's approval
+1. In the How can we help box, state that you are submitting your timesheet for MONTH YEAR, for GitLab Iberia srl.
+1. Upload your timesheet pdf file, and ensure that it contains your Name, the Month and Year of the timesheet in the file title.
+1. Click Submit.
+
+![Timecards submission](/handbook/entity/images/timecards-submission.png "HelpLab Timecard Submission")
+
+For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
+
+Timesheets contain 4 columns for logging worked time: **Time In, Time Out, Breaks, and OOO**. Only enter “OOO” in the OOO column for any half or full days that you are Out of Office, whether it is paid or unpaid. **Team members must also accurately log all OOO time into Time Off by Deel and provide sick notes per statutory sick leave guidelines.**
 
 ## Spain-Specific Team Member Benefits
 
@@ -125,6 +147,13 @@ No waiting periods except for the following procedures:
 
 No medical questionnaire required (pre existing illness will be accepted, except serious illness).
 
+</details>
+
+<details markdown="1">
+<summary>Offboarding GitLab</summary>
+
+Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Tower Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan. 
+
 **Life Event Enrollment**
 
 Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [Life Event Form](https://docs.google.com/forms/d/e/1FAIpQLSd8YRqlEqfvlZgqUFm2fZ8A6JC5hKrm2JlZKInkUl_nQD3nww/viewform?usp=sf_link) to enroll your dependent.
@@ -144,12 +173,12 @@ Team Members are automatically enrolled into the benefit with an insured lump su
 - Total and Permanent Disability for the own occupation by any cause,
 - Accidental Total and Permanent Disability for the own occupation (additional lump sum to TPD)
 
-The Free cover Limit is 500,000 EUR.
+The Free cover Limit is 500,000 EUR. If your cover is over the Free Cover Limit, you will be asked to fill out a form by the Total Rewards team.
 
 <details markdown="1">
 <summary>Taxability of Life and Disability Insurance Plans</summary>
 
- Group Life insurance premiums are benefit in kind and taxable on the employee's income tax. The premiums are subject to withholding tax.
+ Group Life insurance premiums are benefit in kind and taxable on the employee's income tax. The premiums are subject to withholding tax. See the [2024 premium rates](https://docs.google.com/spreadsheets/d/1GD79QjfMkIEMxukH0t8vTE949oup_Hco/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true), which are based on age and salary.
 
 </details>
 
@@ -157,7 +186,7 @@ The Free cover Limit is 500,000 EUR.
 <summary>Beneficiary Assignment</summary>
 
 In case of Disability: The beneficiary is the insured herself/himself.
-In case of Death of the insured, the beneficiaries will be those expressly appointed as beneficiaries by the insured or, in case there is no express appointment, as determined in the beneficiary’s general clause settled in the policy:
+In case of Death of the insured, the beneficiaries will be those expressly appointed as beneficiaries by the insured or, in case there is no express appointment, as determined in the beneficiary's general clause settled in the policy:
 
 Spouse not legally separated or divorce under final judgment or legal partner
 Children of the insured in equal shares or their descendants in case of death
@@ -246,11 +275,11 @@ Same-sex couples: both parents are entitled to paid leave. One will have to appl
 In order to be eligible for paid maternity leave, you must make sure to meet the following requirements:
 
 - You must be working for a company, or as a self-employed worker.
-- If you are below 21 years old, you won’t be required to have made contributions to social security before.
+- If you are below 21 years old, you won't be required to have made contributions to social security before.
 - If you are 21 to 26 years old, then you must be making contributions to social security for at least 90 days during the past 7 years, or 180 days during your entire working life.
 - If you are over 26 years old, 180 days during the past 7 years or at least 360 days during your working life.
 
-If you don’t meet this requirement, you can still get your maternity leave and get paid during those 16 weeks. Under certain conditions, you will get a non-contributory pension, which pays approximately 530€ per month. Team Members will need to request your [work-life certificate](https://balcellsgroup.com/employment-history-report/) at the “Tesorería de la Seguridad Social”, which can be requested online.
+If you don't meet this requirement, you can still get your maternity leave and get paid during those 16 weeks. Under certain conditions, you will get a non-contributory pension, which pays approximately 530€ per month. Team Members will need to request your [work-life certificate](https://balcellsgroup.com/employment-history-report/) at the "Tesorería de la Seguridad Social", which can be requested online.
 
 To help plan your leave click: [How Much Exactly Will You Get Paid On Leave](https://balcellsgroup.com/maternity-leave-spain/#How_much_exactly_will_you_get_paid_during_maternity_leave).
 
@@ -264,7 +293,7 @@ During this absence you will still be recognized as contributing to the social s
 
 ### Paternity Leave
 
-Team Members in Spain are eligible for 16 weeks of Paternity leave.  The first six weeks must be taken immediately and consecutively after the child’s birth, whereas the other 10 weeks can be taken non-consecutively during the first 12 months of the baby’s life, which can be extended by one week per child in the case of a multiple birth. An extra week’s leave can also be applied for if the baby is born with a disability or health problems. If the baby is premature or has to be hospitalized for longer than seven days, leave can be extended for up to an additional 13 weeks.
+Team Members in Spain are eligible for 16 weeks of Paternity leave.  The first six weeks must be taken immediately and consecutively after the child's birth, whereas the other 10 weeks can be taken non-consecutively during the first 12 months of the baby's life, which can be extended by one week per child in the case of a multiple birth. An extra week's leave can also be applied for if the baby is born with a disability or health problems. If the baby is premature or has to be hospitalized for longer than seven days, leave can be extended for up to an additional 13 weeks.
 
 This leave must be taken in batches of one week as a minimum, but the weeks can be split over time if desired. The father is also entitled to take unpaid childcare leave until the child is three years old.
 

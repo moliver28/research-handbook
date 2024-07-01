@@ -54,8 +54,8 @@ Discretionary bonuses are to celebrate team members that live by our values. To 
 
 - The reason for the bonus is that this person (X, a Technical Writer) has single-handedly stepped in to act as a part-time documentation engineer in the absence of a full-time engineer.
 The person's history of contributions is plain to see here: (Nominator included links to boards, issues or merge requests)
-In particular, X's implementation of a Global Navigation and GitLab iconography for documentation are real highlights of X's impact for end-users. For developers, they have modernized the codebase and continue to work toward making `gitlab-docs` just like any other GitLab project for developers. X's dedication to the Technical Writing team over a long period of time motivates me to do more than just thank X in `#thanks` channel. X has specifically: Been active to see the Technical Writing team to [succeed]({{< ref "values#see-others-succeed" >}}). X delivers for the team in lots of [MVCs]({{< ref "values#minimal-viable-change-mvc" >}}), so we can get early value. For example, making iconography available using Markdown first, and planning to deliver other implementations later. X solutions are [boring]({{< ref "values#boring-solutions" >}}), in that X aims to reuse as much GitLab code as possible, and raising instances where that isn’t the case as technical debt. For example, docs icons are the same library as icons in the product.
-- I’d like to nominate X for a discretionary bonus for exhibiting the values for results, efficiency, and collaboration. While the whole backend engineers in the X team were OOO, despite it wasn’t his team, X stepped in and handled a problem (link) that was blocking a deploy. X was able to debug the problem, not an easy one by the way, communicate it to the different counterparts, and also fix it. X also spotted that it could affect other features and provide a way to fix them as well.
+In particular, X's implementation of a Global Navigation and GitLab iconography for documentation are real highlights of X's impact for end-users. For developers, they have modernized the codebase and continue to work toward making `gitlab-docs` just like any other GitLab project for developers. X's dedication to the Technical Writing team over a long period of time motivates me to do more than just thank X in `#thanks` channel. X has specifically: Been active to see the Technical Writing team to [succeed](/handbook/values/#see-others-succeed). X delivers for the team in lots of [MVCs](/handbook/values/#minimal-viable-change-mvc), so we can get early value. For example, making iconography available using Markdown first, and planning to deliver other implementations later. X solutions are [boring](/handbook/values/#boring-solutions), in that X aims to reuse as much GitLab code as possible, and raising instances where that isn't the case as technical debt. For example, docs icons are the same library as icons in the product.
+- I'd like to nominate X for a discretionary bonus for exhibiting the values for results, efficiency, and collaboration. While the whole backend engineers in the X team were OOO, despite it wasn't his team, X stepped in and handled a problem (link) that was blocking a deploy. X was able to debug the problem, not an easy one by the way, communicate it to the different counterparts, and also fix it. X also spotted that it could affect other features and provide a way to fix them as well.
 - I am nominating X for the values efficiency and results for the Nominator Bot. This bot assists us to nominate a team member for Discretionary Bonus without logging into Workday. This new bot speeds up the process probably by half the time it took to get approvals (for both me that administers the process and managers for approval) and directly now impacts our PI to increase discretionary bonuses. X is managing all the debugging and going above and beyond to solve any problems, without anyone asking X or having to follow up and this is out of scope of "just building a nominator" bot.
 You can read more about the process in [our handbook](#nominator-bot-process)
 
@@ -163,7 +163,7 @@ graph TD;
 1. The next level Manager receives an alert from Workday and can approve or deny.
 1. Once approved by the next level manager, the request is sent to People Connect for review and final approval.
 1. Once fully approved, Payroll is notified of the bonus and can begin processing.
-1. After this, the manager is able to notify the team member of the bonus and will announce it on the GitLab Slack channel `[#thanks](https://gitlab.slack.com/archives/C038E3Q6L)`. The announcement should include the “who” and “why” of the bonus.
+1. After this, the manager is able to notify the team member of the bonus and will announce it on the GitLab Slack channel `[#thanks](https://gitlab.slack.com/archives/C038E3Q6L)`. The announcement should include the "who" and "why" of the bonus.
 
 ### Communicating Discretionary Bonuses
 
@@ -181,32 +181,32 @@ On a quarterly basis there's a review of the discretionary bonuses data. This in
 ## Real Examples of Real Team Members Who Received Bonuses for Doing Great Things
 
 - This document presents the case for awarding a UX team member an incentive. The UX team member is reliable, fair and respectful, consistently acting in the best interest of the company as well as the team.
-    - Collaboration: The UX team member took on the extra duties of UX Lead and handled the interim duties seamlessly. She responded kindly to the community feedback on sidebar issue in 9.0 well. She personally helped the VP of Engineering finish the merit review process for the UX team.
-    - The UX team member has greatly helped the UX Lead transition to her new role by assisting with meetings, transferring knowledge openly, and being available for questions whenever necessary.
-    - Results and Efficiency: The UX team member quickly delivered screenshots for a partnership in a day or two. She did a great job with the UX team updates, providing clear and visual screenshots of what the team was working on. She helped the team deliver the UX improvements shown in those updates.
+  - Collaboration: The UX team member took on the extra duties of UX Lead and handled the interim duties seamlessly. She responded kindly to the community feedback on sidebar issue in 9.0 well. She personally helped the VP of Engineering finish the merit review process for the UX team.
+  - The UX team member has greatly helped the UX Lead transition to her new role by assisting with meetings, transferring knowledge openly, and being available for questions whenever necessary.
+  - Results and Efficiency: The UX team member quickly delivered screenshots for a partnership in a day or two. She did a great job with the UX team updates, providing clear and visual screenshots of what the team was working on. She helped the team deliver the UX improvements shown in those updates.
 - A Support team member received a bonus for:
-    - Results & boring solutions: He managed to swap the database from PG9.2 to PG9.6 without significant downtime. It was even boring. ­
-    - Sharing: His issues, guidelines, monitoring, you­name­it are exemplary. He keeps raising the bar and leaving a written trace to follow when he is not around. ­
-    - Efficiency: He always hits the nail and does the right thing, has a great sense of priorities and can jump into production to solve a *right now* pain in a heartbeat. ­
-    - Quirkiness: What to say? Do you want someone washing grapes or painting a wall in a call, just invite him.
+  - Results & boring solutions: He managed to swap the database from PG9.2 to PG9.6 without significant downtime. It was even boring. ­
+  - Sharing: His issues, guidelines, monitoring, you­name­it are exemplary. He keeps raising the bar and leaving a written trace to follow when he is not around. ­
+  - Efficiency: He always hits the nail and does the right thing, has a great sense of priorities and can jump into production to solve a *right now* pain in a heartbeat. ­
+  - Quirkiness: What to say? Do you want someone washing grapes or painting a wall in a call, just invite him.
 - A Marketing team member received a bonus for:
-    - Transparency: The marketing team member always works in the open. In our 1:1s she is very clear on her focus and aligns priorities with team priorities. Everything she is working on links to an issue.
-    - Efficiency: The marketing team member is an excellent example of someone who can get multiple things done in a short amount of time. She can efficiently manage many high quality projects without getting bogged down in the details.
-    - Collaboration: The marketing team member worked with the VP of Scaling to update the general handbook to make it prettier. This shows she collaborates well outside of her team. The marketing team member has also been helping a colleague with content management.
-    - Directness: The marketing team member gives excellent review feedback on blog posts. She is very direct and not afraid of perfection.
+  - Transparency: The marketing team member always works in the open. In our 1:1s she is very clear on her focus and aligns priorities with team priorities. Everything she is working on links to an issue.
+  - Efficiency: The marketing team member is an excellent example of someone who can get multiple things done in a short amount of time. She can efficiently manage many high quality projects without getting bogged down in the details.
+  - Collaboration: The marketing team member worked with the VP of Scaling to update the general handbook to make it prettier. This shows she collaborates well outside of her team. The marketing team member has also been helping a colleague with content management.
+  - Directness: The marketing team member gives excellent review feedback on blog posts. She is very direct and not afraid of perfection.
 - A Product team member received a bonus for:
-    - Collaboration:  Works together well with everyone and actively recruits opinions across the organization.
-    - Results: Shipping consistent and meaningful improvements in issues, board, etc.
-    - Efficiency: Actively avoids meetings and encourages async work.
-    - Iteration: Reduces everything to its very minimal iteration, not paying with quality or usability, yet moving forward with each release.
+  - Collaboration:  Works together well with everyone and actively recruits opinions across the organization.
+  - Results: Shipping consistent and meaningful improvements in issues, board, etc.
+  - Efficiency: Actively avoids meetings and encourages async work.
+  - Iteration: Reduces everything to its very minimal iteration, not paying with quality or usability, yet moving forward with each release.
 
 ## GitLab Awards Program
 
-Each fiscal year the GitLab Awards program recognizes team members who made great impact as a result of displaying our [Values]({{< ref "values#credit" >}}). The GitLab Awards Program consists of two different types of awards: The DZ Award and Values Awards.
+Each fiscal year the GitLab Awards program recognizes team members who made great impact as a result of displaying our [Values](/handbook/values/#credit). The GitLab Awards Program consists of two different types of awards: The DZ Award and Values Awards.
 
 ### The DZ Award
 
-In honor of our valued co-founder, [Dmitriy Zaporozhets “DZ”](https://levelup.gitlab.com/learn/video/dz-video), his contributions and him dedicating 10 years to GitLab, GitLab recognizes a team member each fiscal year who made a great impact solving a hard problem by using a [boring solution]({{< ref "values#boring-solutions" >}}).
+In honor of our valued co-founder, [Dmitriy Zaporozhets "DZ"](https://levelup.gitlab.com/learn/video/dz-video), his contributions and him dedicating 10 years to GitLab, GitLab recognizes a team member each fiscal year who made a great impact solving a hard problem by using a [boring solution](/handbook/values/#boring-solutions).
 
 The DZ award details:
 
@@ -215,7 +215,7 @@ The DZ award details:
 
 #### Criteria for The DZ Award
 
-Potential nominees should be any team members who solved a challenging problem by creating and implementing a [boring solution]({{< ref "values#boring-solutions" >}}) that resulted in a positive and profound impact.
+Potential nominees should be any team members who solved a challenging problem by creating and implementing a [boring solution](/handbook/values/#boring-solutions) that resulted in a positive and profound impact.
 
 **Criteria used to calibrate:**
 
@@ -232,7 +232,7 @@ Potential nominees should be any team members who solved a challenging problem b
 
 ### The Values Awards
 
-The Values Awards honor those who embody and employ the GitLab values which are fostering an environment where everyone can thrive. These awards specifically recognize team members who are inclusive with all team members in their diversity of thought and perspectives. Team members eligible for these awards demonstrate: no ego in the workplace, use a single source of truth, saying why not just what, and embracing uncomfortable ideas and conversations. The contributions or displays of the GitLab Value should be visible beyond the team member’s direct team, customers, users or investors.
+The Values Awards honor those who embody and employ the GitLab values which are fostering an environment where everyone can thrive. These awards specifically recognize team members who are inclusive with all team members in their diversity of thought and perspectives. Team members eligible for these awards demonstrate: no ego in the workplace, use a single source of truth, saying why not just what, and embracing uncomfortable ideas and conversations. The contributions or displays of the GitLab Value should be visible beyond the team member's direct team, customers, users or investors.
 
 The Values Awards details:
 
@@ -252,19 +252,19 @@ We do what we promised to each other, customers, users, and investors. The value
 
 ##### Efficiency Award
 
-Working efficiently on the most important business initiatives enables us to make fast progress, which makes our work more fulfilling. The value award for [Efficiency]({{< ref "values#efficiency" >}}) should be awarded to a team member that helped make fast progress through for example championing writing things down, embracing change or being a manager of one.
+Working efficiently on the most important business initiatives enables us to make fast progress, which makes our work more fulfilling. The value award for [Efficiency](/handbook/values/#efficiency) should be awarded to a team member that helped make fast progress through for example championing writing things down, embracing change or being a manager of one.
 
 ##### Diversity, Inclusion & Belonging Award
 
-We aim to make a significant impact in our efforts to foster an environment where everyone can thrive. The value award for [Diversity, Inclusion and Belonging]({{< ref "values#diversity-inclusion" >}}) should be awarded to a team member that contributed to creating an environment where people from every background and circumstance feel like they belong and can contribute through for example: their bias towards asynchronous communication, seeking diverse perspectives or embracing neurodiversity.
+We aim to make a significant impact in our efforts to foster an environment where everyone can thrive. The value award for [Diversity, Inclusion and Belonging](/handbook/values/#diversity-inclusion) should be awarded to a team member that contributed to creating an environment where people from every background and circumstance feel like they belong and can contribute through for example: their bias towards asynchronous communication, seeking diverse perspectives or embracing neurodiversity.
 
 ##### Iteration Award
 
-We do the smallest thing possible and get it out as quickly as possible. The value award for [Iteration]({{< ref "values#iteration" >}}) should be awarded to a team member that contributed or displayed iteration that led to faster results through for example: setting a due date, minimal viable change (MVC) or low level of shame.
+We do the smallest thing possible and get it out as quickly as possible. The value award for [Iteration](/handbook/values/#iteration) should be awarded to a team member that contributed or displayed iteration that led to faster results through for example: setting a due date, minimal viable change (MVC) or low level of shame.
 
 ##### Transparency Award
 
-By making information public, we can reduce the threshold to contribution and make collaboration easier. The value award for [Transparency]({{< ref "values#transparency" >}}) should be awarded to a team member that contributed or displayed transparency through for example: determining what is not public, use of a single source of truth and saying why not what.
+By making information public, we can reduce the threshold to contribution and make collaboration easier. The value award for [Transparency](/handbook/values/#transparency) should be awarded to a team member that contributed or displayed transparency through for example: determining what is not public, use of a single source of truth and saying why not what.
 
 #### Criteria for value awards
 
@@ -297,7 +297,7 @@ Chances are that if you work at GitLab, you have great friends and peers who wou
 - In the past, we had a tiered system of referral bonuses, but we've simplified the structure to add a flat bonus amount.
 - [$1,500](/handbook/total-rewards/compensation/#exchange-rates) base referral bonus for a new hire.
 
-We encourage and support [diversity]({{< ref "values#diversity-inclusion" >}}) on our team and in our hiring practices and encourage team members to consider whether their are potential candidates in their networks who identify as members of underrepresented groups in tech.
+We encourage and support [diversity](/handbook/values/#diversity-inclusion) on our team and in our hiring practices and encourage team members to consider whether their are potential candidates in their networks who identify as members of underrepresented groups in tech.
 
 Please note if the team member has a hire date effective **before 2023-11-20**, then the [previous](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-connect-team) mentioned referral bonus amounts apply.
 
@@ -377,11 +377,9 @@ Please note in FY21-Q1, GitLab suspended the Original Visiting Grant program unt
 
 Note that meals and local travel while visiting are not typically covered for anyone as that wouldn't really be fair to those being visited. It may be acceptable to cover a meal, however, if the meeting is pre-announced to other people in the region to encourage as many of them to attend as possible and there are four or more GitLab team-members attending.
 
-There are many regular meet-ups of GitLab team-members in many cities. We have a [shared calendar][meetup-calendar] to view the schedule. Subscribe to it, make use of the visiting grant, and join meet-ups near you (or far away!).
+There are many regular meet-ups of GitLab team-members in many cities. We have a [shared calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV85cWZnajRuMm9nZHMydmlhMDFrb3ZoaGpub0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to view the schedule. Subscribe to it, make use of the visiting grant, and join meet-ups near you (or far away!).
 
-To claim the grant, include a line item on your expense report or invoice along with the receipt of your flights, trains, and/or transportation to and from the airport with a list of the team members you visited. The expense report may be submitted during the first month of travel or up to 3 months after your trip has concluded. That said, if it's more [frugal]({{< ref "values#frugality" >}}) to book and expense your travel further in advance, please do so.
-
-[meetup-calendar]: https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV85cWZnajRuMm9nZHMydmlhMDFrb3ZoaGpub0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+To claim the grant, include a line item on your expense report or invoice along with the receipt of your flights, trains, and/or transportation to and from the airport with a list of the team members you visited. The expense report may be submitted during the first month of travel or up to 3 months after your trip has concluded. That said, if it's more [frugal](/handbook/values/#frugality) to book and expense your travel further in advance, please do so.
 
 ### Significant Life Event Grants (suspended)
 

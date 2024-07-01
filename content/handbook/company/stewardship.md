@@ -6,13 +6,12 @@ canonical_path: "/company/stewardship/"
 
 ## Business Model
 
-GitLab Inc. is a for profit company that balances the need to improve the open source code of GitLab with the need to add source-available features in order to generate income. We have an [open
-core](https://en.wikipedia.org/wiki/Open_core) business model and generate
+GitLab Inc. is a for profit company that balances the need to improve the open source code of GitLab with the need to add source-available features in order to generate income. We have an [open core](https://en.wikipedia.org/wiki/Open_core) business model and generate
 almost all our revenue with [subscriptions to paid tiers](https://about.gitlab.com/pricing/). We
 recognize that we need to balance the need to generate income and with the
 needs of the open source project.
 
-We have tried different business models, and many didn’t work. As a company, we realized we needed recurring revenue to continue our mission, and we introduced source available code that is proprietary. Initially there was a worry we would stop working on the open source code but the community saw we were able to accelerate the work on open-source code too.
+We have tried different business models, and many didn't work. As a company, we realized we needed recurring revenue to continue our mission, and we introduced source available code that is proprietary. Initially there was a worry we would stop working on the open source code but the community saw we were able to accelerate the work on open-source code too.
 
 ## Promises
 
@@ -71,7 +70,7 @@ We do this when we realize we made a mistake applying our criteria, for example
 when we learned that a branded homepage was an [essential feature](https://news.ycombinator.com/item?id=10931347) or
 when we [brought GitLab Pages to the Community Edition](https://about.gitlab.com/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/).
 
-Our plan is to become the most popular tool for people’s own git hosting service; we’ve managed that so far. Secondarily, we want to get to be the one with the most revenue. Thirdly, we want to become the most popular tool for hosting private repos. Once we’ve reached that, we want to be the most popular tool for hosting public repos. And, lastly, we want to be the number one tool for people to host not just code but books, tech papers, visual models, movies, etc. More info on this is on our [strategy page](/handbook/company/strategy/).
+Our plan is to become the most popular tool for people's own git hosting service; we've managed that so far. Secondarily, we want to get to be the one with the most revenue. Thirdly, we want to become the most popular tool for hosting private repos. Once we've reached that, we want to be the most popular tool for hosting public repos. And, lastly, we want to be the number one tool for people to host not just code but books, tech papers, visual models, movies, etc. More info on this is on our [strategy page](/handbook/company/strategy/).
 
 ## How Open Source Benefits From Open Core
 

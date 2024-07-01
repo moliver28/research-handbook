@@ -1,14 +1,7 @@
 ---
-
 title: Runner Group - Team Resources
 description: "The goal of this page is to document resources needed for day-to-day work within the Runner group."
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -37,7 +30,7 @@ The goal of this page is to document resources needed for day-to-day work within
   - [Runner Metrics](https://docs.gitlab.com/runner/monitoring/index.html)
 - Logs
   - [Runner Logs](https://log.gprd.gitlab.net/goto/3d8891e0-2035-11ee-8afc-c9851e4645c0) (filter by shard)
-  - You can find a list of shards in the the dropdown along the top baf of any service dashboard:
+  - You can find a list of shards in the dropdown along the top baf of any service dashboard:
 
 ![runner-shards](runner-shards.png)
 
@@ -47,12 +40,9 @@ The goal of this page is to document resources needed for day-to-day work within
 
 For
 [`gitlab-org/gitlab-runner`](https://gitlab.com/gitlab-org/gitlab-runner)
-we have the [Merge Request
-Bot](https://gitlab.com/merge-request-bot/merge-request-bot) enabled which posts
-[comments for community
-contributions](https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2407#note_411098266).
-This is configured via [Merge Request webhook
-events](https://gitlab.com/gitlab-org/gitlab-runner/hooks).
+we have the [Merge Request Bot](https://gitlab.com/merge-request-bot/merge-request-bot) enabled which posts
+[comments for community contributions](https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2407#note_411098266).
+This is configured via [Merge Request webhook events](https://gitlab.com/gitlab-org/gitlab-runner/hooks).
 
 - [Appliation code](https://gitlab.com/merge-request-bot/merge-request-bot)
 - [CloudRun deployment](https://gitlab.com/gitlab-org/ci-cd/merge-request-bot/infrastructure/cloud-run)

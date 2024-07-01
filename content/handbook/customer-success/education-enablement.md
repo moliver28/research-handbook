@@ -1,14 +1,7 @@
 ---
-
 title: "GitLab Product Training for Customer Success"
 description: "As a Solutions Architect, Customer Success Manager, or Professional Services Engineer, it is important to be continuously learning more about our product and related industry topics. This handbook page provides an dashboard of aggregated resources that we encourage you to use to get up to speed."
 ---
-
-
-
-
-
-
 
 ## Overview of GitLab Product Training
 
@@ -36,7 +29,7 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Dev Section Direction and Roadmap](https://about.gitlab.com/direction/dev/)
 - [Ops Section Direction and Roadmap](https://about.gitlab.com/direction/ops/)
@@ -46,12 +39,12 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Manage Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/)
 - [Manage Stage Direction and Roadmap](https://about.gitlab.com/direction/dev/#manage)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Value Stream Management Feature Docs](https://about.gitlab.com/solutions/value-stream-management/)
 - [Audit Events Feature Docs](https://docs.gitlab.com/ee/administration/audit_events.html)
@@ -64,12 +57,12 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Plan Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/plan/)
 - [Plan Stage Direction and Roadmap](https://about.gitlab.com/direction/dev/#plan)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Issue Tracking Feature Docs](https://docs.gitlab.com/ee/user/project/issues/)
 - [Time Tracking Feature Docs](https://about.gitlab.com/solutions/time-tracking/)
@@ -84,12 +77,12 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Create Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/create/)
 - [Create Stage Direction and Roadmap](https://about.gitlab.com/direction/dev/#create)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Source Code Management Feature Overview](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/)
 - [Source Code Management Direction and Roadmap](https://about.gitlab.com/direction/create/source_code_management/)
@@ -111,13 +104,13 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Verify Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/verify/)
 - [Verify Stage Direction and Roadmap](https://about.gitlab.com/direction/ops/#verify)
 - [CI YouTube Playlist](https://youtube.com/playlist?list=PL05JrBw4t0Ko-mJZLo2uF3aQQuBfBaSKB)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Continuous Integration (CI) Feature Overview](https://about.gitlab.com/features/continuous-integration/)
   - [CI/CD Feature Docs](https://docs.gitlab.com/ee/ci/)
@@ -145,12 +138,12 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Package Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/package/)
 - [Package Stage Direction and Roadmap](https://about.gitlab.com/direction/package/)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Package Registry Feature Docs](https://docs.gitlab.com/ee/user/packages/package_registry/)
 - [Container Registry Feature Docs](https://docs.gitlab.com/ee/user/packages/container_registry/)
@@ -164,14 +157,14 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Release Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/release/)
 - [Release Stage Direction and Roadmap](https://about.gitlab.com/direction/delivery/)
 - [CI/CD eBook](https://about.gitlab.com/resources/ebook-single-app-cicd/)
 - [CI/CD YouTube Demo Overview](https://about.gitlab.com/blog/2017/03/13/ci-cd-demo/)
 
-##### Intermeiate Level
+#### Intermeiate Level
 
 - [Continuous Delivery Feature Overview](https://about.gitlab.com/features/continuous-integration/)
   - [See verify stage for full list of CI/CD resources](#verify-stage)
@@ -190,12 +183,12 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Configure Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/configure/)
 - [Configure Stage Direction and Roadmap](https://about.gitlab.com/direction/delivery/)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Auto DevOps Feature Overview](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/)
 - [Auto DevOps Feature Docs](https://docs.gitlab.com/ee/topics/autodevops/)
@@ -210,12 +203,12 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Monitor Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/monitor/)
 - [Monitor Stage Direction and Roadmap](https://about.gitlab.com/direction/monitor/)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Runbooks Feature Docs](https://docs.gitlab.com/ee/user/project/clusters/runbooks/)
 - [Incident Management Feature Docs](https://docs.gitlab.com/ee/operations/incident_management/)
@@ -227,12 +220,12 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Secure Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/secure/)
 - [Secure Stage Direction and Roadmap](https://about.gitlab.com/direction/secure/)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Static Application Security Testing (SAST) Feature Docs](https://docs.gitlab.com/ee/user/application_security/sast/)
 - [Dynamic Application Security Testing (DAST) Feature Docs](https://docs.gitlab.com/ee/user/application_security/dast/)
@@ -246,31 +239,31 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Govern Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/govern/)
 - [Govern Stage Direction and Roadmap](https://about.gitlab.com/direction/govern/)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Container Scanning Feature Docs](https://docs.gitlab.com/ee/user/application_security/container_scanning/)
 - [Security Orchestration Feature Doc](https://docs.gitlab.com/ee/user/application_security/threat_monitoring/#configuring-network-policy-alerts)
 
-#### Kubernetes Certification
+### Kubernetes Certification
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Kubernetes for Beginners Udemy Training](https://www.udemy.com/course/learn-kubernetes/)
 - [CKA Udemy Training](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
 - [CKAD Udemy Training](https://www.udemy.com/course/certified-kubernetes-application-developer/)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/)
 
-##### Advanced Level
+#### Advanced Level
 
 - [CKA Certification](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)
 - [CKAD Certification](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad)
@@ -282,12 +275,12 @@ To align our education and enablement with our product, each of the topics below
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Hashicorp Learn Tutorials](https://learn.hashicorp.com/terraform)
 - [GitLab Terraform Integration Docs](https://docs.gitlab.com/ee/user/infrastructure/)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - [Terraform Docs](https://www.terraform.io/docs/index.html)
 - [Terraform AWS Provider Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
@@ -296,74 +289,74 @@ To align our education and enablement with our product, each of the topics below
 - [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started)
 - [GitLab Demo Systems Terraform Modules](https://gitlab.com/gitlab-com/demo-systems/terraform-modules)
 
-##### Advanced Level
+#### Advanced Level
 
 - [Terraform Associate Certification](https://www.hashicorp.com/certification/terraform-associate)
 
-#### HashiCorp Vault
+### HashiCorp Vault
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Hashicorp Learn Tutorials](https://learn.hashicorp.com/terraform)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - TODO
 
-##### Advanced Level
+#### Advanced Level
 
 - [Vault Associate Certification](https://learn.hashicorp.com/terraform)
 
-#### HashiCorp Consul
+### HashiCorp Consul
 
 ---
 
-##### Foundations Level
+#### Foundations Level
 
 - [Hashicorp Learn Tutorials](https://learn.hashicorp.com/consule)
 
-##### Intermediate Level
+#### Intermediate Level
 
 - TODO
 
-##### Advanced Level
+#### Advanced Level
 
 - [Consul Associate Certification](https://www.hashicorp.com/certification/consul-associate)
 
 ## O'Reilly Content Library
 
-In order to facilitate an environment of learning and development, the Customer Success Team has access to the O’Reilly Learning Platform, which is integrated into [GitLab Learn](https://gitlab.edcast.com/log_in?auto_sso=true).  This content library contains thousands of books, videos and live learning courses to assist team members’ with professional development and staying up-to-date with changing technology trends. Additionally, code sandboxes are included within the O’Reilly platform that team members’s can utilize to practice new skills or hone existing ones.
+In order to facilitate an environment of learning and development, the Customer Success Team has access to the O'Reilly Learning Platform, which is integrated into [GitLab Learn](https://gitlab.edcast.com/log_in?auto_sso=true).  This content library contains thousands of books, videos and live learning courses to assist team members' with professional development and staying up-to-date with changing technology trends. Additionally, code sandboxes are included within the O'Reilly platform that team members's can utilize to practice new skills or hone existing ones.
 
-To get started, here is a quick tour of what the O’Reilly Learning Platform can provide to our team, please check out this [short introductory video](https://www.loom.com/share/fca91ca4e127494fb5f4130b85eaa9ea).
+To get started, here is a quick tour of what the O'Reilly Learning Platform can provide to our team, please check out this [short introductory video](https://www.loom.com/share/fca91ca4e127494fb5f4130b85eaa9ea).
 
 If you do not already have a login are outside of the customer success organization, please let the Corproate Learning and Development Team know you are interested. You can also purchase a single licesne with the GitLab pricing by contacting Jason Baca at jbaca@oreilly.com.
 
 ### O'Reilly Answer Slack Bot
 
-As part of GitLab's O'Reilly subscription, team members have access to the O'Reilly Answer Slack Bot. To get started, in Slack, just type `/oreilly-answers` followed by your tech question. It’s that simple.
+As part of GitLab's O'Reilly subscription, team members have access to the O'Reilly Answer Slack Bot. To get started, in Slack, just type `/oreilly-answers` followed by your tech question. It's that simple.
 
 For example:
 
 - `/oreilly-answers` How do I fine-tune a model?
-- O’Reilly Answers will respond to your question with highly relevant snippets of content right within Slack.
+- O'Reilly Answers will respond to your question with highly relevant snippets of content right within Slack.
 
 **More Answers**
 
-Use the “More Answers” button to flip through the suggested answers. O'Reilly will show a maximum of 8 possible answers and you’ll be taken back to the first answer when you get to the end.
+Use the "More Answers" button to flip through the suggested answers. O'Reilly will show a maximum of 8 possible answers and you'll be taken back to the first answer when you get to the end.
 
 **Full Text**
 
-To read the full text of an answer in context click the “Full Text” button and you’ll be taken directly to that snippet of content within the O’Reilly Learning platform.
+To read the full text of an answer in context click the "Full Text" button and you'll be taken directly to that snippet of content within the O'Reilly Learning platform.
 
 **Share Answers**
 
-To share a helpful answer with others in Slack click the “Post” button and the answer you selected will be posted to the channel where you asked the question.
+To share a helpful answer with others in Slack click the "Post" button and the answer you selected will be posted to the channel where you asked the question.
 
-If you want to share an answer in a private channel you’ll need to invite the O’Reilly Answers app to the channel first. Simply type: /invite @O’Reilly Answers
+If you want to share an answer in a private channel you'll need to invite the O'Reilly Answers app to the channel first. Simply type: /invite @O'Reilly Answers
 
-If you want to share an answer in a direct message you’ll need to create a group message and include O’Reilly Answers in the group. You can add O’Reilly Answers the same way you would add another person.
+If you want to share an answer in a direct message you'll need to create a group message and include O'Reilly Answers in the group. You can add O'Reilly Answers the same way you would add another person.
 
 ## Additional Resources
 

@@ -18,7 +18,7 @@ Fulfillment focuses on improving our capabilities and metrics in the following a
 - [Platform](https://about.gitlab.com/direction/fulfillment/platform/): [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 - [Provision](https://about.gitlab.com/direction/fulfillment/provision/): [Team](/handbook/engineering/development/fulfillment/provision/#team-members)
 - Purchase
-- [Subscription Management](/handbook/engineering/development/fulfillment/billing-and-subscription-management/): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management#feature-overview-and-maturity)
+- [Subscription Management](https://about.gitlab.com/direction/fulfillment/subscription-management/): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management#feature-overview-and-maturity)
 - [Utilization](/handbook/engineering/development/fulfillment/utilization/): [Team](/handbook/engineering/development/fulfillment/utilization/#team-members)
 
 ## Direction
@@ -37,7 +37,7 @@ See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section
 
 ### Sales & Go-To-Market
 
-{{< member-and-role-by-gitlab "cnodari" "jrabbits" "gsodhi" "james_harrison" >}}
+{{< member-and-role-by-gitlab "cnodari" "jrabbits" "Gsodhi" "james_harrison" >}}
 
 ### Finance & IT
 
@@ -88,11 +88,10 @@ On or around the `26th`: Product meets with Engineering Managers for a prelimina
 
 **Planning Issues**
 
-- [Billing and Subscription Management](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Abilling%20and%20subscription%20management)
-- [Fulfillment Platform](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Afulfillment%20platform)
-- [Provision](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Aprovision)
-- [Purchase](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Apurchase)
-- [Utilization](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues?scope=all&state=opened&label_name[]=Category%3AUtilization&label_name[]=Planning%20Issue)
+- [Subscription Management](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/?label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Asubscription%20management&sort=created_date&state=opened)
+- [Fulfillment Platform](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/?label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Afulfillment%20platform&sort=created_date&state=opened)
+- [Provision](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/?label_name%5B%5D=Planning%20Issue&label_name%5B%5D=group%3A%3Aprovision&sort=milestone_due_desc&state=opened)
+- [Utilization](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/?label_name%5B%5D=Category%3AUtilization&label_name%5B%5D=Planning%20Issue&scope=all&state=opened)
 
 ### Intake Request
 
@@ -109,8 +108,13 @@ We strictly adhere to this Intake Request process to ensure we capture the full 
 
 ### Prioritization
 
-We follow the [prioritization guidelines](/handbook/product/product-processes/#prioritization-ahead-of-kickoff) and use [cross-functional prioritization](/handbook/engineering/development/#cross-functional-prioritization).
-In addition to these company-wide prioritization inputs, PMs review the [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues/#supports-issue-list-for-fulfillment).
+We follow our [prioritization framework](/handbook/product/product-processes/#prioritization) including [cross-functional prioritization guidelines](/handbook/product/cross-functional-prioritization/) to prioritize our backlog on a monthly basis. R&D teams use a variety of inputs and sensing mechanisms, including SLAs, OKRs, [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues/#supports-issue-list-for-fulfillment), technical debt, and more to set priorities.
+
+We aim to maximize business value by balancing short-term, mid-term, and long-term investments across new initiatives and technical debt. At GitLab, we target an overall company allocation of 60% for new product development and 40% for technical debt and maintenance. However, this 60/40 split is flexible and may vary across different groups and sections over time.
+
+In the Fulfillment section, we adopt the 60/40 ratio as a guideline to ensure a well-balanced approach to our OKR-focused work as well as making sure we prioritize enough Engineering initiatives to improve our reliability and efficiency. We remain adaptable in our planning and execution, avoiding a rigid adherence to these percentages. Instead, we prioritize work based on a comprehensive assessment of company needs, which is reflected in our OKRs. We leave it to each group to find the right balance in their OKRs. If an agreement can't be reached within the group, it should be escalated to the section-level to be decided.
+
+For our monthly milestone planning at the group level, we optimize activities to align with our OKRs, remaining flexible and allowing deviations from the 60/40 split. We also make sure to complete within SLA any forced prioritization, as necessary, per our [prioritization framework](/handbook/product/product-processes/#prioritization-framework).
 
 Every team uses the [monthly prioritization template](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/monthly-prioritization.md) for [cross-functional dashboard reviews](/handbook/engineering/development/#cross-functional-dashboard-reviews) every month.
 
@@ -515,7 +519,7 @@ Any test failure is notified to #s_fulfillment_status including a link to the pi
 
 #### Access review
 
-Fulfillment Engineering Engineering Managers and Senior Leadership are responsible for the Fulfillment system (e.g., CustomersDot) access review on a quarterly basis. We use the following guidance to perform [access reviews](/handbook/security/security-assurance/security-compliance/access-reviews.html), `access for systems will be reviewed based on the job roles and departments`. As such, reviewers use their best judgement when evaluating the list of team members who currently have access while evaluating their current roles and department associations.
+Fulfillment Engineering's Engineering Managers and Senior Leadership are responsible for the Fulfillment system (e.g., CustomersDot) access review on a quarterly basis. We use the following guidance to perform [access reviews](/handbook/security/security-assurance/security-compliance/access-reviews.html), `access for systems will be reviewed based on the job roles and departments`. As such, reviewers use their best judgement when evaluating the list of team members who currently have access while evaluating their current roles and department associations.
 
 The following list contains some of the standard departments and teams who should retain access:
 
@@ -678,7 +682,7 @@ Everyone is encouraged to participate in asynchronous retrospective issues. This
 
 Some things to keep in mind:
 
-- Items shared do not have to be monumental successes or failures. Consider including even small items in the “what went well” and “what didn't go so well” sections of the retrospective issue.
+- Items shared do not have to be monumental successes or failures. Consider including even small items in the "what went well" and "what didn't go so well" sections of the retrospective issue.
 - Use a team specific thread to share items that may be feel less relevant to the entire department.
 - Pull from the "wins" or "challenges" team sync agenda items for inspiration.
 - Find the limits of your computer, and keep the current retrospective issue open throughout the milestone.

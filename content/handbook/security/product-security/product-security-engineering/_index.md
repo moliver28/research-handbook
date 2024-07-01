@@ -66,7 +66,7 @@ If at any point during the refinement process it is determined that something is
 
 ### Refinement, Design, and Build
 
-Like [Single Engineer groups](/handbook/engineering/incubation/), each Product Security Engineer will *"encompass all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily".*
+Like [Single Engineer groups](/handbook/engineering/development/incubation/), each Product Security Engineer will *"encompass all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily".*
 
 - Our build boards are organized into workflow columns
 - We use the labels, outcomes, and activities described [Product Development Flow](/handbook/product-development-flow/), but have the flexibility to skip the process where it's not needed
@@ -105,7 +105,7 @@ Below is a step-by-step process for team members to walk through when refining b
 
 ### Weights
 
-We use a lightweight system of issue weighting with the knowledge that [things take longer than you think].
+We use a lightweight system of issue weighting with the knowledge that [things take longer than you think](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html).
 It's OK if an issue takes longer than the weight indicates. The weights are intended to be used in aggregate, and what takes one person a day might take another person a week, depending on their level of background knowledge about the issue. That's explicitly OK and expected.
 
 These weights we use are:
@@ -119,8 +119,6 @@ These weights we use are:
 | 5 | Large, will take a major portion of the milestone to finish |
 
 Anything larger than 5 should be broken down if possible.
-
-[things take longer than you think]: https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html
 
 ### Choosing what to work on
 
@@ -209,7 +207,7 @@ When beginning work to implement custom tooling into the product, we take the fo
 
 As we begin to build context on the tool, as part of our planning phase we will:
 
-- Create and document an appropriately sized [Architecture Design Workflow](https://handbook.gitlab.com/handbook/engineering/architecture/workflow/) for the tool, if one does not yet exist
+- Create and document an appropriately sized [Architecture Design Workflow](/handbook/engineering/architecture/workflow/) for the tool, if one does not yet exist
 - Identify and create an epic for each piece of discrete functionality or required component
   - Make these epics children of the tooling integration epic
   - Be sure each of these have the `~ProdSecEngMetric::Tooling Integration` label

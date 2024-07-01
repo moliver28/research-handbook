@@ -1,9 +1,7 @@
 ---
-
 title: GitLab Trial Guidelines
 description: GitLab Trial Guidelines
 ---
-
 
 The guidelines here are meant to help prospects and existing GitLab Self-Managed or SaaS customers get started with an Ultimate trial.
 
@@ -13,11 +11,11 @@ Both prospects and existing customers should request an Ultimate trial by going 
 
 ### Notes Regarding Trial Licenses
 
- - If a Premium Trial is required instead of an Ultimate trial, then the customer should request the trial license as defined above. Then the GitLab Account Executive must create a [GitLab Support Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) (Internal) in order to downgrade the Trial license from Ultimate to Premium. Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the **Self-Managed Trial related - Modify an existing Self-managed trial** request type. GitLab Support will create a Premium license and email it to the user.
+- If a Premium Trial is required instead of an Ultimate trial, then the customer should request the trial license as defined above. Then the GitLab Account Executive must create a [GitLab Support Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) (Internal) in order to downgrade the Trial license from Ultimate to Premium. Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the **Self-Managed Trial related - Modify an existing Self-managed trial** request type. GitLab Support will create a Premium license and email it to the user.
 
 ## Trial Guidelines
 
-#### Existing SaaS Customers
+### Existing SaaS Customers
 
 A trial license cannot be added to an existing licensed SaaS namespace.  Since some features such as project and group access tokens are not available with a trial license, using a separate trial namespace ensures data integrity of production data and reduces confusion for end users in the production instance.  SaaS customers should create a new namespace for their trial and use one of the options in the next section to populate data into the namespace. To create a new namespace, you should login to gitlab.com and [create a new top-level group](https://docs.gitlab.com/ee/user/group/manage.html#create-a-group).  If your production group name is `ACME123` and you want your trial group to be `ACME123-trial`, then the trial group URL should be `https://gitlab.com/ACME123-trial`, **not** `https://gitlab.com/ACME123/ACME123-trial`.
 
@@ -26,7 +24,7 @@ SaaS trials have the following limitations:
 - GitLab shared runners available (with credit card verification) but the number of minutes is limited.  If additional minutes are required, the [GitLab Sales team](https://about.gitlab.com/sales/) can request an increase on the customer's behalf.
 - Only one [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) is available with a trial license and [Group Access Tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) are not available on a trial license.
 
-#### Existing Self-Managed Customers
+### Existing Self-Managed Customers
 
 While self-managed customers are not prevented from trialing a higher tier license on their production instance, it is strongly discouraged.  Adding a higher tier trial license will confuse end users who may not be aware of which features are a trial vs available for ongoing production use.  Using a separate self-managed instance for a trial will prevent this confusion and ensure data integrity of production data is preserved. Alternatively, existing self-managed GitLab customers have the option to trial higher tier features in SaaS.
 
@@ -36,22 +34,22 @@ Customers who choose a self-managed trial will need to install a single node [Om
 
 ### Extending an Existing Trial
 
-All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using [the GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc’d on Internal Requests.
+All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using [the GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc'd on Internal Requests.
 
-Once you access the form, enter your email and choose "GitLab L&R Internal Request for Global Customers" or "GitLab L&R Internal Request for US Federal Customers" to renew and extend a trial license.  
+Once you access the form, enter your email and choose "GitLab L&R Internal Request for Global Customers" or "GitLab L&R Internal Request for US Federal Customers" to renew and extend a trial license.
 
-Note you also need to have [Zendesk Light Agent account](content/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) before you make this request.
+Note you also need to have [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) before you make this request.
 
 References
 
-- [Support Internal Requests](content/handbook/support/internal-support/#internal-requests)
-- [Support Super Form](content/handbook/support/readiness/operations/docs/gitlab/support_super_form/)
+- [Support Internal Requests](/handbook/support/internal-support/#internal-requests)
+- [Support Super Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/)
 
 ### Populating your group with project data
 
 - When determining which projects to import into the trial namespace, we recommend considering the following criteria:
-   - Use copies of your own existing groups/projects - see [General Approaches](#general-approaches) below
-   - Use GitLab Security demo projects - GitLab provides a set of [security demos](https://gitlab.com/gitlab-org/security-products/demos) to show how the various security scans work
+  - Use copies of your own existing groups/projects - see [General Approaches](#general-approaches) below
+  - Use GitLab Security demo projects - GitLab provides a set of [security demos](https://gitlab.com/gitlab-org/security-products/demos) to show how the various security scans work
 
 - Only one [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) is available with a trial license and [Group Access Tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) are not available on a trial license
 

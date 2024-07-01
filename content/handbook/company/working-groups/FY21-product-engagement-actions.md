@@ -32,7 +32,7 @@ For more details please reference the [Product FY'21 Engagement Survey Results](
 
 **How we'll do the work**
 
-In order to stay focused and move quickly on actions, we need to stay *lean*.  Therefore, the working group will be limited to 9 functional leads, 1 facilitator and 1 executive sponsor. The 9 functional leads will then be split into three groups of 3 collaborators, who will each own of of the [problems to solve](#problems-to-solve), as noted above.
+In order to stay focused and move quickly on actions, we need to stay *lean*.  Therefore, the working group will be limited to 9 functional leads, 1 facilitator and 1 executive sponsor. The 9 functional leads will then be split into three groups of 3 collaborators, who will each own one of the [problems to solve](#problems-to-solve), as noted above.
 
 **Creating Epics, Issues and MRs for the working group board**
 

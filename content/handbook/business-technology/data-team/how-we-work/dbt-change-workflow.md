@@ -1,16 +1,7 @@
 ---
-
 title: "dbt Change Workflow"
 description: "GitLab Data dbt Change Workflow"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -134,7 +125,7 @@ Component tests check that the each model changed correctly builds independently
 
 Integration tests check that a changed model does not negatively impact the operation of any other model. Any model that depends on a changed model should be built and component tests executed as part of the integration testing of a changed model. However, when the expected sequential build time of all of the dependent models is excessively long, more than and hour of run time, then a subset of the dependent models can be selected. When selecting a subset of models, the longest or most critical path should be selected while minimizing the sequential build time. Additionally, if the changes are net new, such as adding a new column, then integration tests can be omitted with the following exceptions:
 
-  - A downstream model is configured to be incremental and not configured to append_new_column or sync_all_columns when the schema changes
+- A downstream model is configured to be incremental and not configured to append_new_column or sync_all_columns when the schema changes
 
 All incremental downstream models of a change model that would need to be refreshed to prevent an error at run time can be found using the following dbt command:
 
@@ -215,7 +206,7 @@ flowchart LR
 
 #### Build Models
 
-Models that that will be reconstructed as part of building or testing changes are classified as build models. These models contain the code changes or are models affected by the code changes and will need to be re-created multiple times during the development process.
+Models that will be reconstructed as part of building or testing changes are classified as build models. These models contain the code changes or are models affected by the code changes and will need to be re-created multiple times during the development process.
 
 ### Prepare Local Environment
 
@@ -258,7 +249,7 @@ Test all components, integrations, and system tests remotely to ensure that the 
    - This can be performed with one of the [`specify_model`](/handbook/business-technology/data-team/platform/ci-jobs/#specify_model) CI Jobs.  If the build command only contains models with direct changes then one of the [`run_changed_models_sql`](/handbook/business-technology/data-team/platform/ci-jobs/#%EF%B8%8Frun_changed_models_sql) CI jobs can be used.
    - If the changed models are incremental models, the models run more than one hour on a full refresh, and a full refresh does not need to be explicitly tested then the full refresh overridden should be used by adding the `REFRESH =` [variable](/handbook/business-technology/data-team/platform/ci-jobs/#%EF%B8%8F-dbt-run).
 1. Run the [grant_clones](/handbook/business-technology/data-team/platform/ci-jobs/#grant_clones) CI job, to grant permissions to yourself and run any remaining components, integrations, and system tests on the build models, adding the results of the tests to the MR.
-    - If the table is new then the grant_clones job will not be able to grant access the the table. In this case documentation of local tests are required for verification and validation.
+    - If the table is new then the grant_clones job will not be able to grant access the table. In this case documentation of local tests are required for verification and validation.
 
 ### Reviews
 

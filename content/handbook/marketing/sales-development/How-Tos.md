@@ -1,5 +1,4 @@
 ---
-
 title: Sales Development How-Tos
 description: Use this page to quickly learn the basics of inbound lead management, outbound account management, as well as all other main Sales Development processes that we use like enrolling to a sequence, and creating opportunities.
 
@@ -25,13 +24,13 @@ You will find the lead views below. These views are split per use-case for your 
 | S1 - High Priority View | These are leads that are marked as High Priority because of some high Propensity To Purchase indication. |
 | S1 View | These are your net new leads that have scored high enough to reach MQL status.                                            |
 | S2 View | This is a view of your existing leads that also have an associated phone call so you can easily reference your callable pipeline. |
-| S3 View | Qualifying leads. These are leads that you are actively qualifying in a back and forth conversation either by email or through phone calls. Each lead needs to either be active in a follow-up sequence, have an active task, or have a future meeting scheduled which can be seen in a future “last activity” date. |
+| S3 View | Qualifying leads. These are leads that you are actively qualifying in a back and forth conversation either by email or through phone calls. Each lead needs to either be active in a follow-up sequence, have an active task, or have a future meeting scheduled which can be seen in a future "last activity" date. |
 
 ### BDR Lead Views
 
 | View                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| FY25 B1 - My Leads, Action Needed       | Includes any leads that we have committed to follow up on ASAP. These are our highest converting leads and are a mix between High Priority and MQL’s PTP is now part of our scoring so there may be leads in there that have MQLd due to PTP so you'll have to click into the lead to see more. High Priority leads belong to a High Priority campaign - you can find which one at the bottom of the page in the campaigns section.                                                                  |
+| FY25 B1 - My Leads, Action Needed       | Includes any leads that we have committed to follow up on ASAP. These are our highest converting leads and are a mix between High Priority and MQL's PTP is now part of our scoring so there may be leads in there that have MQLd due to PTP so you'll have to click into the lead to see more. High Priority leads belong to a High Priority campaign - you can find which one at the bottom of the page in the campaigns section.                                                                  |
 | FY25 B2 - AWA leads w/ LIM             | Includes leads in your name and that match to your Actively Working Accounts. It's best to sort these by Last Interesting Moment Date and consider the Lead Classification Score when deciding which to sequence. We do not surface leads that were sequenced in the last 14 days.                                                                                                                        |
 | FY25 B3 - Change Owner AWA's (Clone)   | These leads are now in your name automatically (not leads you've necessarily chosen and moved into your name, the old B3 view had to be cloned which is no longer needed). This view however allows you to see leads that may not have been moved into your name because at the time, they did not meet criteria. These could be bc: the leads were in lead statuses of: Accepted, MQL, or Qualifying when you moved the account into Actively Working since leads with those statuses should stay with the owner. Leads that were in disqualified or ineligible are also not moved into your name. This view will allow you to get eyes on any leads that are not in your name. You then can review any LIM dates and decide to put leads into your name if no one is reaching out. Keep sorted by LIM Date. |
 | FY25 B4 - My HT Leads W/ Phone         | This view should be used when either you do not have enough daily call tasks in Outreach to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Outreach and create additional call tasks for your leads currently in high touch sequences.                                                                                                                             |
@@ -43,10 +42,10 @@ You will find the lead views below. These views are split per use-case for your 
 
 | View    | Description                                                                                                                                                                                                       |
 |---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| B1 View | Includes MQL’s, Hot contacts that require quick follow up                                                                                                                                                        |
+| B1 View | Includes MQL's, Hot contacts that require quick follow up                                                                                                                                                        |
 | B2 View | Contacts related to Actively working accounts that you can choose to sequence - *give 48 hrs                                                                                                                      |
 | B3 View | Active HT sequenced leads that have a phone number - to help with call downs                                                                                                                                      |
-| B4 View | Qualifying leads. Contacts that you are actively qualifying in a back and forth conversation either on email or through phone calls. Each contact in this status needs to either be active in a follow up sequence, have an active task or have a future meeting scheduled which can be seen in a future “last activity” date. |
+| B4 View | Qualifying leads. Contacts that you are actively qualifying in a back and forth conversation either on email or through phone calls. Each contact in this status needs to either be active in a follow up sequence, have an active task or have a future meeting scheduled which can be seen in a future "last activity" date. |
 
 ### Account Views
 
@@ -74,13 +73,23 @@ As part of your SDR responsibilities, you are expected to perform due diligence 
 1. If there's no matched account, but there's another lead at same company that has the `MQL` status, assign both leads to the owner with the earliest `MQL Date`.
    1. If there's no matched account, but there's another lead that has the `Accepted` or `Qualifying` status, assign the new MQL to the owner of the accepted/qualifying leads.
 1. BDRs receiving leads not associated with `Actively Working` accounts must assign back to SDR team or chatter mktgops support.
-1. Qualified leads associated with “Actively Working” accounts are routed to BDR assigned to the Actively Working Account.
+1. Qualified leads associated with "Actively Working" accounts are routed to BDR assigned to the Actively Working Account.
+
+### Telco and Finserv Routing
+
+For leads that connect to companies that operate in the Financial Services (AMER only) and Telecommunications (EMEA only) industries. We have a seperate routing process that supercedes all of our current [Rules of Engagement](/handbook/marketing/sales-development/roe-kpis-faq/#rules-of-engagement-roe).
+
+Only named TELCO/FinServe accounts are rolling up to the TELCO/FinServe territories. If a new account is a subsidiary of an existing carved company, it will need to be assigned to the AE owning the ultimate account. If it is a totally separate entity then it can be allocated to the regional AE. If a lead comes in that is related to a TELCO/FinServe account, it must be assigned to the BDR assigned on the account.
 
 ### Company Address Based Routing Information
 
 In **[this video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered)**, a member of the Marketing Ops team goes over the Company address fields and how they are used for Accounting Routing and Opp assignment.
 
 If you need to do edits to the database by merging leads together for any of the above steps, please reference the videos below for an explanation.
+
+### SDR Territory Map
+
+![SDRTerritoryMap](/handbook/marketing/sales-development/SDRTerritoryMap.png)
 
 ### Merging Leads
 
@@ -138,7 +147,7 @@ To be effective, these need to be customized to the individuals we call as per t
 - Different Geographical Business Cultures
 - Personality Type as per the DISC model
 - Individual's Role and Responsibilities
-- Business’ Needs and Objectives
+- Business' Needs and Objectives
 
 An unsubscribe link must be included on every email sent by a BDR, including responses to a prospect or contact. Please reach out to the Privacy Team via #privacy-team-help for the recommended language that should appear at the bottom of each outbound email.
 
@@ -156,15 +165,15 @@ Leads with certain criteria will be automatically labeled as **Do Not Call** and
 1. If manual steps are required for the sequence that you chose, select `Edit Steps`. Go through each step you want to edit, paying especial attention to manual variables.
 1. Once the first step of an Outreach sequence is complete, the lead status will automatically change from `MQL, Inquiry, or Raw` to `Accepted` status, marking that you are actively working on this lead.
 1. When a lead responds to you via email, their status will again automatically change from `Accepted` to `Qualifying`. Manage these leads from your S3 and B5 lead views.
-1. If you are not working on qualifying this lead further, manually change the status to `Recycle` so that this lead is back in Marketing recycle and isn’t stuck in your `My Qualifying` view. If you have spoken to the lead by phone and are qualifying them, manually change the status from `Accepted` to `Qualifying`.
+1. If you are not working on qualifying this lead further, manually change the status to `Recycle` so that this lead is back in Marketing recycle and isn't stuck in your `My Qualifying` view. If you have spoken to the lead by phone and are qualifying them, manually change the status from `Accepted` to `Qualifying`.
 1. When looking at your qualifying view, sequence leads that have no recent last activity + no active tasks + are not actively being sequenced into one of our follow up sequences that have the `Follow up Ruleset Sequences`.
 1. Tasks and your pipeline can be then managed via the Outreach [360 view.](https://support.outreach.io/hc/en-us/articles/214806328-Navigating-the-360-View-Dashboard)
 1. In the 360 View, review the list of inbound leads assigned to you by navigating to the bottom left of the screen and pressing Start tasks.
 1. If a lead finishes an Outreach sequence without responding, the lead status will automatically change to `Unresponsive` or `Recycle` in seven days if there is still no response.
-1. If a lead responds, schedule a call/meeting using Outreach’s meetings feature.
-1. Manually change lead status if you don’t use an Outreach sequence to reach out to someone or if you need to unqualify a lead for bad data etc.
+1. If a lead responds, schedule a call/meeting using Outreach's meetings feature.
+1. Manually change lead status if you don't use an Outreach sequence to reach out to someone or if you need to unqualify a lead for bad data etc.
 1. If you check the Inactive lead or Inactive contact checkbox, signifying that this person no longer works at the company, any running sequence will automatically be marked as finished.
-1. If you notice your leads are being reassigned to Inquiry Queue, that’s due to a scheduled clean up job in Traction that updated `Status = Inquiry` to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT.
+1. If you notice your leads are being reassigned to Inquiry Queue, that's due to a scheduled clean up job in Traction that updated `Status = Inquiry` to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT.
 
 ### Outreach Collections
 
@@ -217,11 +226,16 @@ By dogfooding GitLab we have a structured and simplified cadence of quantifying 
 **Maintain Equal Contributions in a Shared Reality**
 By maintaing a Single Source of Truth (SSoT) we give the best possible forum for cross-functional collaboration with specific guidelines
 
+**Ramping BDRs**
+Ramping BDRs should only be using OB sequences from the Good and Testing collections. A ramping BDR can only create a Sequence Creation Request if there is no sequences that fit their needs or strategy in our current library.
+
 ### Follow Up Outreach Sequences
 
 - For SDRS and BDRS that want to sequence leads in their qualifying views we created [this video](https://www.youtube.com/watch?v=IKE24LRJbcc) to help you create a workflow around this follow up [sequence.](https://app1a.outreach.io/sequences/9383)
 
 - The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
+
+- For [guiding prospects](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817) to web-direct, we also have [a sequence that you should use](https://web.outreach.io/sequences/14652/overview) to ensure that you streamline their buyer's journey.
 
 ### White Glove Event Follow Up Sequence (SAEs Included)
 
@@ -230,7 +244,7 @@ For more personal events, such as Executive Roundtables, there many be more deta
  The goal of this sequence is to reach out to the prospect quickly and to include our SAEs/AEs in the conversation.
 
 - The first step is to put the prospect in the Sequence. From there customize the first email step to include the people mentioned in the Last Event Notes. You can also delay the time that the first email goes out so you have more time to get feedback from the SAE/AE if needed.
-- Next send a screenshot of the first email step to the SAE/AE’s that will be CC’d. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
+- Next send a screenshot of the first email step to the SAE/AE's that will be CC'd. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
 
 ### Other Outreach Training Resources
 
@@ -241,7 +255,7 @@ For more personal events, such as Executive Roundtables, there many be more deta
 
 ### How to Change your Email Signature
 
-You must change your email signature [in Terminus](https://handbook.gitlab.com/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Outreach or Gmail your signature will revert back within 24 hours.
+You must change your email signature [in Terminus](/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Outreach or Gmail your signature will revert back within 24 hours.
 
 **Steps to change your signature**
 
@@ -254,7 +268,7 @@ You must change your email signature [in Terminus](https://handbook.gitlab.com/h
 
 BDR outbound lead generation is done by prospecting to companies and individuals who could be a great fit for our product. Prospecting is the process of finding and developing new business through searching for potential customers with the end goal of moving these people through the sales funnel until they eventually convert into customers.
 
-BDRs will work closely with their dedicated SAE or AE to choose which accounts move into “Actively Working”. Together they will build a strategy for those companies. It is crucial that outreach is very intentional and strategic. When reaching out, we want BDRs to offer value and become a trusted advisor, ensuring a positive impression is left whether there is current demand or not.
+BDRs will work closely with their dedicated SAE or AE to choose which accounts move into "Actively Working". Together they will build a strategy for those companies. It is crucial that outreach is very intentional and strategic. When reaching out, we want BDRs to offer value and become a trusted advisor, ensuring a positive impression is left whether there is current demand or not.
 
 The FO Outbound process is split in four phases, which should be followed on a weekly basis to ensure a steady outbound pipeline in alignment with our internal KPIs.
 
@@ -268,7 +282,7 @@ The main objective you should be focusing at is to measure and plan what activit
 
 **1B. Map your objectives to your data** <br>
 
-Research your territory to identify the true First Order (FO) accounts, ensuring no other subsidiaries have licenses, verifying there hasn’t been a lost renewal in the past 180 days, and confirming there are no open opportunities. The goal here is to vet your TAM (Total Addresable Market) so that you can start matching cohorts of accounts with the objectives that you’ve outlined in the previous step. Indicatively, you can export these accounts to a Google Sheet, or other SSoT of your preference, for tracking since these accounts will be marked as Actively Working at a future step further down the process.
+Research your territory to identify the true First Order (FO) accounts, ensuring no other subsidiaries have licenses, verifying there hasn't been a lost renewal in the past 180 days, and confirming there are no open opportunities. The goal here is to vet your TAM (Total Addresable Market) so that you can start matching cohorts of accounts with the objectives that you've outlined in the previous step. Indicatively, you can export these accounts to a Google Sheet, or other SSoT of your preference, for tracking since these accounts will be marked as Actively Working at a future step further down the process.
 
 Utilizing these accounts, create an outreach strategy and plan for the upcoming month and quarter. This strategy should include considerations such as the number of accounts to include in sequences per week and per month, the quantity of prospects from these accounts to add into sequences weekly, whether you intend to target specific personas, if you plan to employ targeted messaging, whether sequences will be used for high-priority targets, and the messaging approach you will implement. As previously mentioned, knowing your equation is important for your planning here. Please refer to the sheet linked above to determine your exact metrics.
 
@@ -299,13 +313,13 @@ There are two ways utilize 6Sense:
 ### 2A. Using 6Sense through the SFDC dashboard
 
 1. Navigate to SFDC
-1. On the main tab with options (leads, accounts, etc), click on the “+” sign
-1. Select 6Sense dashboards, you can also click “customize my tabs” to add the 6sense dashboard
+1. On the main tab with options (leads, accounts, etc), click on the "+" sign
+1. Select 6Sense dashboards, you can also click "customize my tabs" to add the 6sense dashboard
    to your homepage permanently
 1. On the 6Sense dashboard, click the cog icon on the top right
-1. On “Search by User” select “BDR Assigned” and add your name
-1. On “Other filters” select “Salesforce Account fields” and type “BDR Prospecting Status”
-1. On the “BDR Prospecting Status” field, select “Actively Working”
+1. On "Search by User" select "BDR Assigned" and add your name
+1. On "Other filters" select "Salesforce Account fields" and type "BDR Prospecting Status"
+1. On the "BDR Prospecting Status" field, select "Actively Working"
 
 The dashboard will now display the top actively working accounts in your name. Do note that these are only accounts that we currently have on our database, while you can find greenfield accounts by visiting the SaaS platform (instructions in section 2B). Section 3 below explains how you can review and utilize this data.
 
@@ -313,27 +327,27 @@ The dashboard will now display the top actively working accounts in your name. D
 
 Navigate to 6Sense through Okta
 On the left-hand bar, click on the Segments tab
-You will find all of the relevant resources for BDRs and SDRs on the first 5 folders. These folders can be be used as per the table below.
+You will find all of the relevant resources for BDRs and SDRs on the first 5 folders. These folders can be used as per the table below.
 (In each folder you will find a saved template that can be cloned and edited for your individual territories.)
 
 | Folder                       | Usage                                                                                                                                                                       |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. AWA’d Accounts          | These segments will display the top accounts in your current actively working list according to 6Sense intent data. By manually investigating each of those accounts you will be able to uncover further prospect engagement data, and adjust your strategy in converting this account. This report has the same functionality as the SFDC dashboard outlined in step 2A. |
-| 2. Non-AWA Greenfield Accounts | These segments will display the top accounts in your territory that we do not have on our SFDC database. These accounts should be manually investigated and considered for adding to your outbound pipeline. Note that we have approx. 15% of our TAM on our SFDC database, while these reports are an automated way to identify great accounts from the other 85% of the TAM in your territory. Please note that the Sales Dev Ops team is here to work with you to generate these reports, as the particularities of our Sales Territories require some editing with the filters. Please don’t hesitate to reach out to us so we help you work through these. |
+| 1. AWA'd Accounts          | These segments will display the top accounts in your current actively working list according to 6Sense intent data. By manually investigating each of those accounts you will be able to uncover further prospect engagement data, and adjust your strategy in converting this account. This report has the same functionality as the SFDC dashboard outlined in step 2A. |
+| 2. Non-AWA Greenfield Accounts | These segments will display the top accounts in your territory that we do not have on our SFDC database. These accounts should be manually investigated and considered for adding to your outbound pipeline. Note that we have approx. 15% of our TAM on our SFDC database, while these reports are an automated way to identify great accounts from the other 85% of the TAM in your territory. Please note that the Sales Dev Ops team is here to work with you to generate these reports, as the particularities of our Sales Territories require some editing with the filters. Please don't hesitate to reach out to us so we help you work through these. |
 | 3. Non-AWA SFDC Accounts   | These segments display the accounts that currently hold on our database that display high 6sense intent scores, but are not part of your actively working list.                      |
 
-After choosing the type of report you’d like to work, please follow the steps below:
+After choosing the type of report you'd like to work, please follow the steps below:
 
-1. Select the template in each of the BDR folders that starts with the prefix “-[TEMPLATE]”.
-1. On the title, add your name or territory as suggested by the naming convention. Please make sure to delete the Prefix “-[TEMPLATE]”.
-1. Click on “Edit Segment”.
-1. For folders 1 and 3, you’ll see a prompt on one of the filters to add your name to the “BDR Assigned” Field.
-1. For folder 2, you’ll see a prompt to add your region to the “Address: Region” field. Do note that based on your territory there are other datapoints like “Address: City” or “Address: Country” that can be used.
-1. After having done the edits on steps 4 and 5, press “Save Changes”. Make sure that you’ve updated the naming convention accordingly and click “Save As New Segment”.
+1. Select the template in each of the BDR folders that starts with the prefix "-[TEMPLATE]".
+1. On the title, add your name or territory as suggested by the naming convention. Please make sure to delete the Prefix "-[TEMPLATE]".
+1. Click on "Edit Segment".
+1. For folders 1 and 3, you'll see a prompt on one of the filters to add your name to the "BDR Assigned" Field.
+1. For folder 2, you'll see a prompt to add your region to the "Address: Region" field. Do note that based on your territory there are other datapoints like "Address: City" or "Address: Country" that can be used.
+1. After having done the edits on steps 4 and 5, press "Save Changes". Make sure that you've updated the naming convention accordingly and click "Save As New Segment".
 
 ### 3. Manual Research on Accounts
 
-No matter how efficiently we’re trying to use our toolchain, these tools are still prone to error, and manual research is required to best shortlist the prospecting lists that cross-referencing will provide.Manual research will also provide additional context that can be used to hyper-personalize your outreach to your prospects.
+No matter how efficiently we're trying to use our toolchain, these tools are still prone to error, and manual research is required to best shortlist the prospecting lists that cross-referencing will provide.Manual research will also provide additional context that can be used to hyper-personalize your outreach to your prospects.
 
 For each account that you want to investigate, start with SFDC to make sure that there are no duplicate accounts. The report templates in 6Sense should exclude existing customers or accounts actively prospected, but we cannot automatically exclude accounts that have a different naming or domain on salesforce (ie. GitLab and GTLB)
 
@@ -347,7 +361,7 @@ The importance of diligent manual research will lead to the below efficiencies:
 1. Search for the account name on SFDC.
 1. Search for the account email domain on SFDC.
 1. Search for the account website domain on SFDC.
-1. Search for the Account’s HQ address, along with any regional business unit address.
+1. Search for the Account's HQ address, along with any regional business unit address.
 
 **2. To hyper-personalize your messaging:**
 
@@ -383,11 +397,11 @@ Please follow the steps below to understand how to research the data provided on
 
 **Exporting Accounts and Leads to SFDC, and adding to your Outbound Pipeline.**
 
-After having manually shortlisted the accounts that are applicable to your campaign, the next step is to determine the relevant prospects per account and export them to SFDC. It is important to add accounts to your outbound pipeline so that AEs and other SDRs/BDRs know this is an account that is already being touched, and to avoid confusion or multiple people approaching the same prospects. Before moving an account into “Actively Working Status”, make sure there have been no MQLs or opportunities created from that account within the past 30 days, and there are no leads from that account in Qualifying status with activity in the last 30 days or with a future task date set. If you are not sure, double-check with the related AE, SDR or BDR.
+After having manually shortlisted the accounts that are applicable to your campaign, the next step is to determine the relevant prospects per account and export them to SFDC. It is important to add accounts to your outbound pipeline so that AEs and other SDRs/BDRs know this is an account that is already being touched, and to avoid confusion or multiple people approaching the same prospects. Before moving an account into "Actively Working Status", make sure there have been no MQLs or opportunities created from that account within the past 30 days, and there are no leads from that account in Qualifying status with activity in the last 30 days or with a future task date set. If you are not sure, double-check with the related AE, SDR or BDR.
 
 To determine which prospects to enroll per account, please follow the steps below:
 
-- Identify the idea value drivers to be used for the account’s pain-points through your manual research, as outlined above.
+- Identify the idea value drivers to be used for the account's pain-points through your manual research, as outlined above.
 - Determine which personas would most benefit from the specific value drivers by using our CoM documentation on HighSpot.
 - Run queries for the specific titles on ZoomInfo, and export to CRM.
 
@@ -400,20 +414,20 @@ In Step 7, compile the selected prospects and create LinkedIn Sales Navigator li
 **To export to CRM, please follow the guidelines below:**
 
 - Click the Export to CRM button on ZoomInfo
-- That’s it
+- That's it
 - No, really.
 
 **To fill in the BDR fields, please follow the guidelines below:**
 
 Use the format found on this template
 Copy-Paste the Structure to the BDR Account Research field and populate accordingly.
-Populate the BDR Next Step Date to be at the end of the account’s sequence length (typically one month out)
+Populate the BDR Next Step Date to be at the end of the account's sequence length (typically one month out)
 
 ### 6. Maintaining a clean pipeline, and using BDR fields for cross-functional collaboration
 
 To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Watch and Help.
 
-Team specific variants of these dashboard components will also be found on your team’s dashboard. These dashboards will give you a bird’s eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. Prospects with sequence steps past due iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
+Team specific variants of these dashboard components will also be found on your team's dashboard. These dashboards will give you a bird's eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. Prospects with sequence steps past due iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
 
 ## How to Get SAO Credit and Create Opportunities
 
@@ -424,7 +438,7 @@ As an SDR or BDR, you will work to connect with inbound/outbound leads that you 
 **When do I create an Opportunity?**
 
 1. **You have scheduled time with AE/SAE to speak with the prospect:**
-If you are scheduling time with an AE/SAE to speak to the prospect based on a qualifying conversation you have had with the prospect, an opportunity needs to be created and placed in stage 0. On the opportunity, all “required qualification” fields need to be filled in.
+If you are scheduling time with an AE/SAE to speak to the prospect based on a qualifying conversation you have had with the prospect, an opportunity needs to be created and placed in stage 0. On the opportunity, all "required qualification" fields need to be filled in.
 
 1. **You have obtained a commitment/willigness from a prospect to discuss further.**
 If you have a meaningful two-way communication with a prospect, but have not had the required qualification criteria to move to the Sales team, you can create an opportunity under your name so that you better track your warm conversations. These opportunities may also be used for better collaboration with your team, as they can be reviewed and brain-stormed upon during team meetings.
@@ -439,11 +453,11 @@ At this point, the opportunity will be in your ownership but you can not have yo
 
 **When will it be credited as an SAO?**
 
-After the AE/SAL meets with the prospect to verify and supplement qualification criteria, they will move the opportunity into Stage 1 Discovery. The AE/SAL is expected to move the opportunity into the correct stage within 48 hours of the meeting reflected in the “Next Step” date field.
+After the AE/SAL meets with the prospect to verify and supplement qualification criteria, they will move the opportunity into Stage 1 Discovery. The AE/SAL is expected to move the opportunity into the correct stage within 48 hours of the meeting reflected in the "Next Step" date field.
 
 If an opportunity has incorrect data after it has moved into Stage 1 - Discovery, please Chatter your manager about the required changes, they will then Chatter someone from Sales Dev Operations (Ramona, Panos, Ed) once final changes are agreed upon. No one else from Sales Dev can edit opportunities once they are in Stage 1, so please try and ensure you have all the information on the opportunity before you ask the AE/SAL to accept it.
 
-If the opportunity is for a new group of users in a Large account where sales is working on a large “central” opportunity, then your opportunity should be merged to that opportunity for you to get credit for the users you have brought to the deal. See under [Stage 8](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) in the Sales Go To Market Handbook.
+If the opportunity is for a new group of users in a Large account where sales is working on a large "central" opportunity, then your opportunity should be merged to that opportunity for you to get credit for the users you have brought to the deal. See under [Stage 8](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) in the Sales Go To Market Handbook.
 
 ### Opportunity Creation Workflow
 
@@ -477,7 +491,7 @@ If the opportunity is for a new group of users in a Large account where sales is
    - Ensure that feedback is shared in writing via Slack/email and added to Salesforce by the AE.
 1. **IQM Notes**: SDR adds IQM notes to the Initiative section in the opportunity Title.
    - Include Attendees, Raw Notes, Questions, Summary, and Next Steps.
-1. **Rebooking no-shows**: The SDR’s responsibility lies only in rebooking no-shows using the [Outreach rebook sequences](https://web.outreach.io/sequences?search=no%20show&sortBy=recent&sortDirection=desc).
+1. **Rebooking no-shows**: The SDR's responsibility lies only in rebooking no-shows using the [Outreach rebook sequences](https://web.outreach.io/sequences?search=no%20show&sortBy=recent&sortDirection=desc).
    - Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity.
 
 ### Trial Extensions and Ultimate to Premium Downgrades
@@ -522,7 +536,7 @@ ensuring that the [RoE](/handbook/marketing/sales-development/#rules-of-engageme
 
 Each month you will be assigned one of your peers to Audit. We will share a report with all the S1 opportunities created that month. SDRs will audit SDRs and BDRs will audit BDRs. We will do our best to pair people from the same segment however it is possible that you end up auditing someone from another segment.
 
-Once you’ve audited an opp, you will create a task by logging a call, choose “other” as type, and write “#Audited” in the subject line. If an opp needs more research, write “#Audited - Pending Review” and add this opp into the Audit Review spreadsheet.
+Once you've audited an opp, you will create a task by logging a call, choose "other" as type, and write "#Audited" in the subject line. If an opp needs more research, write "#Audited - Pending Review" and add this opp into the Audit Review spreadsheet.
 
 [**Audit Process Video Walkthrough**](https://www.youtube.com/watch?v=ef8gFx0lR48)
 
@@ -550,13 +564,13 @@ _Directors, Ops and JB will select random opps each month to audit and ensure au
 
 #### Best practices to ensure credit for SAO
 
-1. Sequence all leads if you’re reaching out
-1. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
-1. Populate all qualification fields
-1. If activity was a phone call or a zoom call, log notes at the time of call
-1. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps
-1. If engagement is in LinkedIn or Whatsapp, take a picture and attach to chatter/opp
-1. If activity happened at an event, make sure that immediately following the event, you create a stage 0 opportunity and  send follow up email that recaps the conversation that took place
+1. Sequence all leads if you're reaching out
+2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
+3. Populate all qualification fields
+4. If activity was a phone call or a zoom call, log notes at the time of call
+5. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps, ensure that prospect is guided to web-direct using the sequence [here](https://web.outreach.io/sequences/14652/overview), as per the conversation [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/817).
+6. If engagement is in LinkedIn or Whatsapp, take a picture and attach to chatter/opp
+7. If activity happened at an event, make sure that immediately following the event, you create a stage 0 opportunity and  send follow up email that recaps the conversation that took place
 
 ### Reports
 

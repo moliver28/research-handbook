@@ -19,7 +19,7 @@ Please see our [company page]({{< ref "company" >}}) for more general informatio
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {.mx-auto style="max-width: 50%;"}
 
-It’s an exciting time to be part of GitLab. We're a fast-growing, all-remote team, and we're looking for people to join us around the world.
+It's an exciting time to be part of GitLab. We're a fast-growing, all-remote team, and we're looking for people to join us around the world.
 Here's a look at what you can expect from our culture and [all-remote environment]({{< ref "./all-remote/guide" >}}).
 
 ### Everyone can contribute
@@ -39,7 +39,7 @@ You'll need to think creatively, speak up to see how you can help, and be willin
 
 ### Freedom to iterate
 
-At GitLab, our [value of iteration]({{< ref "values#iteration" >}}) has a unique impact on the way we operate and get things done.
+At GitLab, our [value of iteration](/handbook/values/#iteration) has a unique impact on the way we operate and get things done.
 
 Working this way means our team members are expected to quickly deliver the minimum viable change in their work instead of waiting to produce a polished, completed product.
 
@@ -79,7 +79,7 @@ Learn more about [all-remote work]({{< ref "all-remote" >}}) at GitLab and decid
 Culture at GitLab is composed of three things.
 
 1. [GitLab Values]({{< ref "values" >}})
-1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication]({{< ref "./all-remote/informal-communication" >}}). We also build trust by [effectively collaborating]({{< ref "values#dont-let-each-other-fail" >}}) with others.
+1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication]({{< ref "./all-remote/informal-communication" >}}). We also build trust by [effectively collaborating](/handbook/values/#dont-let-each-other-fail) with others.
 1. Work style (how we work). This is defined and articulated in our [communication guide]({{< ref "communication" >}}) and [handbook usage guide]({{< ref "handbook-usage" >}}).
 
 In other organizations, culture may be defined through the *personality of the group*. This includes people who have traits in common and people who you enjoy spending time with. Note that this is not something that should matter when [evaluating people for work]({{< ref "#culture-fit-is-a-bad-excuse" >}}), and this is not what we mean with Culture at GitLab.
@@ -92,7 +92,7 @@ Some key takeaways from the call include:
 
 1. Culture isn't preserved. Instead, it evolves. Every team member can contribute to and iterate on the company culture.
 1. It's important to scale communication as companies grow to accommodate different learning styles, communities, and team member expectations.
-1. Culture shouldn't look at roles or levels in the company. There’s no way for a company to dictate a culture from the top down. If you manage to build up this sense of belonging in everyone in the company, it builds up resilience.
+1. Culture shouldn't look at roles or levels in the company. There's no way for a company to dictate a culture from the top down. If you manage to build up this sense of belonging in everyone in the company, it builds up resilience.
 
 ## Advantages
 

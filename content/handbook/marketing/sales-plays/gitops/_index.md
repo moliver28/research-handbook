@@ -1,5 +1,4 @@
 ---
-
 title: "Sales Play: Infrastructure Automation with GitOps"
 ---
 
@@ -132,7 +131,7 @@ More questions [here](/handbook/marketing/brand-and-product-marketing/product-an
 
 ### Common benefits  {#common-benefits}
 
-| Desired Future State (“After Scenarios”) | So What? (“Positive Business Outcomes”) |
+| Desired Future State ("After Scenarios") | So What? ("Positive Business Outcomes") |
 | ----------------------------- | -------------------------------- |
 | More automation | Less risk as manual repetitive tasks are error prone |
 | Faster mean time to repair | Can be rolled back rapidly to a working definition of the infrastructure rather than troubleshooting before roll-back - resulting in faster time to repair |
@@ -214,10 +213,10 @@ How to identify if you need to lead with a GitOps conversation?
 1. Familiarize yourself with the top discovery questions, objection handling and differentiators for GitOps. **Note it is very different form other conversations - as the persona we talk to is different**
 1. Ensure you are able to identify business objectives and priorities during discovery. These could be one or more of the following:
 
-  - Infrastructure automation
-  - Managing cloud native environments
-  - Multi cloud / kubernetes adoption
-  - Compliance related to infrastructure
+   - Infrastructure automation
+   - Managing cloud native environments
+   - Multi cloud / kubernetes adoption
+   - Compliance related to infrastructure
 
 1. After your call, consider emailing your customer using one or more of these [email templates](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#) custom made for GitOps conversations. Feel free to update the call to action to any of the artifacts from the [Pathfactory track for GitOps](https://learn.gitlab.com/l/gitops-gtm-content)
 
@@ -251,10 +250,10 @@ How to identify if you need to have to lead with a GitOps conversation?
 1. As you hear their pains, challenges, business objectives and priorities, start using their own terms when explaining to them how GitOps with GitLab can help them.
 1. Understand their technical requirements. For example, look to get answers to the following technical discovery questions:
 
-  - Do their applications require a hybrid cloud infrastructure or multi-cloud?
-  - Do they have any hard-dependencies on any infrastructure-as-code tool? e.g. Terraform, Ansible, etc.
-  - Do they need GitOps for K8s, non-K8s or both?
-  - In the case of K8s, are their clusters available outside their firewall?
+   - Do their applications require a hybrid cloud infrastructure or multi-cloud?
+   - Do they have any hard-dependencies on any infrastructure-as-code tool? e.g. Terraform, Ansible, etc.
+   - Do they need GitOps for K8s, non-K8s or both?
+   - In the case of K8s, are their clusters available outside their firewall?
 
 1. Be prepared to do some competitive [objection handling](#handling-objections)
 
@@ -264,11 +263,11 @@ How to identify if you need to have to lead with a GitOps conversation?
 1. Share technical demos, webinars that are path of the [pathfactory track for GitOps](https://learn.gitlab.com/l/gitops-gtm-content)
 1. If the customer requires you participate in a PoV, gather the PoV requirements and prepare to execute the PoV. Some helpful resources to help you prepare are:
 
-  - #gitops slack channel
-  - #s_configure slack channel
-  - GitOps Engineering
-  - GitOps TMM
-  - GitOps PM
+   - #gitops slack channel
+   - #s_configure slack channel
+   - GitOps Engineering
+   - GitOps TMM
+   - GitOps PM
 
 ### SDR  {#sdrs}
 
@@ -297,10 +296,10 @@ How to identify if you need to have a GitOps conversation with a lead?
 
 Here are a few recommended email templates you can use based on the stage of the customers journey.
 
-- Awareness: [Here’s how infra teams can move at the pace of development](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.tvxw4uololys)
+- Awareness: [Here's how infra teams can move at the pace of development](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.tvxw4uololys)
 - Consideration: [Achieve multi-cloud multi-k8s deployments with GitOps](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.qb2mme6e6mph)
 - Decision/Purchase: [Learn how Kiwi.com deploys infrastructure and application within 3 minutes!](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.6fvbsmo2n7go)
-- Technical Demo: [Here’s how your team can automate infrastructure deployments](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.zedoh58debpr)
+- Technical Demo: [Here's how your team can automate infrastructure deployments](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#heading=h.zedoh58debpr)
 
 ### Services {#services}
 

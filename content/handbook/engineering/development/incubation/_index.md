@@ -55,7 +55,6 @@ Each SEG page has a list of the targets and progress for each month, and these s
 
 <div class="flex-row" markdown="0">
   <div>
-  <a href="/handbook/engineering/development/incubation/mobile-devops/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Mobile DevOps</a>
   <a href="/handbook/engineering/development/incubation/mlops/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">MLOps</a>
   <a href="/handbook/engineering/development/incubation/service-desk/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Service Desk</a>
 
@@ -108,6 +107,9 @@ Each SEG page has a list of the targets and progress for each month, and these s
   <a href="/handbook/engineering/development/incubation/real-time-collaboration/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Real-time Editing (REID)</a>
   <a href="/handbook/engineering/development/incubation/cloud-seed/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">⛅🌱 Cloud Seed</a>
   <a href="/handbook/engineering/development/incubation/breach-and-attack-simulation/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Breach and Attack Simulation (BAS)</a>
+</div>
+<div class="flex-row" markdown="0">
+  <a href="/handbook/engineering/development/incubation/mobile-devops/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Mobile DevOps</a>
 </div>
 
 ## Demonstrating Progress

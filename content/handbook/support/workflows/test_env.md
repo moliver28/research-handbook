@@ -1,11 +1,8 @@
 ---
-
 title: Testing Environment
 category: Infrastructure for troubleshooting
 description: "Support Engineer test environment setup options and guidelines"
 ---
-
-
 
 ## Selecting the Right Testing Environment
 
@@ -30,8 +27,8 @@ Have fun!
 
 If you require a license for testing:
 
- - For a **self-managed instance**, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
- - For **GitLab.com**, individual test namespaces with licenses pre-applied have been provisioned as part of your onboarding.
+- For a **self-managed instance**, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
+- For **GitLab.com**, individual test namespaces with licenses pre-applied have been provisioned as part of your onboarding.
 
 Please keep in mind *you can't generate licenses for customers*, only for your own testing purposes.
 
@@ -320,7 +317,7 @@ In addition, you can find official, platform-specific documentation of features 
 
 ### TLS
 
-To be in line with [GitLab's encryption policy](/handbook/security/threat-management/vulnerability-management/encryption-policy), TLS should also be implemented on public-facing testing resources.
+To be in line with [GitLab's encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy), TLS should also be implemented on public-facing testing resources.
 
 For GitLab instances specifically, it's recommended that [LetsEncrypt is manually enabled for Omnibus installs](https://docs.gitlab.com/omnibus/settings/ssl.html#primary-gitlab-instance).  First, you'll need a domain assigned to your external IP regardless of your cloud platform.  Enabling LetsEncrypt for Omnibus installs is well documented at the link above.
 
@@ -483,15 +480,15 @@ Once installed, use `multipass help` to get an idea of what it can do. The gener
    apt install -y "gitlab-ee=$GL_VERSION-ee.0"
    ```
 
-   ***Please note:*** You need to replace the above password entry "your_root_password" with an alphanumeric password which is not a series of words and phrases otherwise you will encounter the error message "Password must not contain commonly used combinations of words and letters”.
+   ***Please note:*** You need to replace the above password entry "your_root_password" with an alphanumeric password which is not a series of words and phrases otherwise you will encounter the error message "Password must not contain commonly used combinations of words and letters".
 
-1. Run the following one-liner. If you’d like to increase/decrease memory or disk, replace with the appropriate values. You can use `multipass help launch` for more details on this command.
+1. Run the following one-liner. If you'd like to increase/decrease memory or disk, replace with the appropriate values. You can use `multipass help launch` for more details on this command.
 
    ```bash
    multipass launch --cpus 4 --memory 8G --disk 10G --name gitlab-omnibus && multipass mount ~/mp_mount/ gitlab-omnibus:/mp_mount && multipass exec gitlab-omnibus -- sh -c 'sudo sh /mp_mount/install-omnibus.sh'
    ```
 
-1. You’re finished! Use `multipass shell gitlab-omnibus` to access your instance. Additionally:
+1. You're finished! Use `multipass shell gitlab-omnibus` to access your instance. Additionally:
     - `multipass list` or `multipass ls` to see all instances
     - `multipass stop gitlab-omnibus` to stop the instance
     - `multipass delete gitlab-omnibus` to delete the instance
@@ -559,7 +556,7 @@ Once installed, use `multipass help` to get an idea of what it can do. The gener
 
 ## Creating GitLab test instance
 
-#### Creating settings variables
+### Creating settings variables
 
 ```sh
 export SSH_PORT=2222
@@ -569,7 +566,7 @@ export ENV_NAME=gitlab-test-env
 export CONTAINER_NAME=gitlab-test-11.9
 ```
 
-#### Create new docker host
+### Create new docker host
 
 This command will create a new VirtualBox virtual machine called `gitlab-test-env` that will act as a docker host.
 

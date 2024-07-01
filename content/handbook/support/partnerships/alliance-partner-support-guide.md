@@ -1,15 +1,14 @@
 ---
-
 title: Alliance Partner Support Guide
 description: "Guide for Support Engineering on how to work with Alliance Partners"
 ---
 
 ## GitLab contacts
 
-  - **DRI** Tine Sørensen - Manager, Support Engineering, EMEA - @tsorensen
-  - **Director** Val Parsons - Director of Support Engineering, EMEA - @vparsons
-  - **AMER timezone contact** Mike Dunninger - Manager, Support Engineering, AMER - @mdunninger
-  - **APAC timezone contact** Shaun McCann - Director of Support Engineering, APAC - @shaun
+- **DRI** Tine Sørensen - Manager, Support Engineering, EMEA - @tsorensen
+- **Director** Val Parsons - Director of Support Engineering, EMEA - @vparsons
+- **AMER timezone contact** Mike Dunninger - Manager, Support Engineering, AMER - @mdunninger
+- **APAC timezone contact** Shaun McCann - Director of Support Engineering, APAC - @shaun
 
 ## Alliance Partner Support collaboration
 

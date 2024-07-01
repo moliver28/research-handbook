@@ -5,9 +5,9 @@ description: "Resources for understanding and discussing pronouns and their usag
 
 ## What are pronouns?
 
-At GitLab, [Diversity, Inclusion, & Belonging]({{< ref "values#diversity-inclusion" >}}) are written into our values.
+At GitLab, [Diversity, Inclusion, & Belonging](/handbook/values/#diversity-inclusion) are written into our values.
 Part of creating an inclusive workplace centers on
-[the language that we use]({{< ref "values#inclusive-language--pronouns" >}}) when we communicate with each other.
+[the language that we use](/handbook/values/#inclusive-language--pronouns) when we communicate with each other.
 
 This includes the usage of [pronouns](https://en.wikipedia.org/wiki/Pronoun), which are "a word or a group of words that
 one may substitute for a noun or noun phrase."

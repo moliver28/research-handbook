@@ -1,7 +1,6 @@
 ---
-
 title: People Group for Product Management
---- 
+---
 
 ## Product-Specific "People" Processes
 
@@ -54,11 +53,11 @@ In addition to the [calibration session pre work](/handbook/people-group/talent-
 
 1. Performance and Growth Potential notes need to be added to the [session agenda doc](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#) for each team member at least 3 business days before the synchronous calibration session.
 
-1. Managers should include 2-3 supporting points for each team member for the assessment under each section in the [agenda doc notes](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#) to help support the “why” behind the assessment. _Note: The overviews in the agenda document for calibration are meant to provide enough of an overview so peers have an understanding of the "why", while simultaneously not overwhelming with information and decreasing efficiency of the session. Please limit to 2-3 supporting points per team member._
+1. Managers should include 2-3 supporting points for each team member for the assessment under each section in the [agenda doc notes](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#) to help support the "why" behind the assessment. _Note: The overviews in the agenda document for calibration are meant to provide enough of an overview so peers have an understanding of the "why", while simultaneously not overwhelming with information and decreasing efficiency of the session. Please limit to 2-3 supporting points per team member._
 
 1. Key Talent assessment need to be completed and added to the session agenda doc at least 3 business days before the live calibration session.
 
-  - If an individual is indicated as key talent, an explanation should be added to indicate how this individual qualifies as key talent against our [key talent definition](/handbook/people-group/talent-assessment/#key-talent). A reminder that the bar for key talent is set high, and that key talent makes up roughly ~10% of the entire population. In Product, we will be assessing Key Talent from the Director level and above [aligned with guidelines](/handbook/people-group/talent-assessment/#process-to-determine-key-talent), meaning that while _everyone in the organization is eligible to be identified as Key Talent_, Directors+ will be assessing and making these initial nominations. The rationale behind this decision is that is important to have a holistic view of all team members when determining who meets the key talent criteria, which is why we require a certain scope when assessing key talent in the organization.
+- If an individual is indicated as key talent, an explanation should be added to indicate how this individual qualifies as key talent against our [key talent definition](/handbook/people-group/talent-assessment/#key-talent). A reminder that the bar for key talent is set high, and that key talent makes up roughly ~10% of the entire population. In Product, we will be assessing Key Talent from the Director level and above [aligned with guidelines](/handbook/people-group/talent-assessment/#process-to-determine-key-talent), meaning that while _everyone in the organization is eligible to be identified as Key Talent_, Directors+ will be assessing and making these initial nominations. The rationale behind this decision is that is important to have a holistic view of all team members when determining who meets the key talent criteria, which is why we require a certain scope when assessing key talent in the organization.
 
 1. Every session attendee should review the Performance/Growth Potential assessments and Key Talent overviews for outliers asynchronously ahead of the session to be prepared for live discussion/calibration.
 

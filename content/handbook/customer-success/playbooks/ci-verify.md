@@ -2,13 +2,6 @@
 title: "Continuous Integration (CI) / Verify Workshop"
 ---
 
-
-
-
-
-
-
-
 View the [Customer Success homepage](/handbook/customer-success/) for additional Customer Success handbook content.
 
 ---
@@ -28,21 +21,21 @@ Create a project plan for converting a project. Rough outline:
 #### Workshop Qualification/Scope
 
 - Customer scoping…
-   - Must be an existing customer.
-   - Preferably Commercial customers because Enterprise customers tend to have larger, more complicated pipelines.
-   - Commercial is more agile and quicker to adopt new tools.
-   - Enterprise is also very siloed. We may not be able to speak with a DRI for CI/CD tooling.
-   - Don’t want to consider prospects as this is about customer stage adoption as opposed to closing sales.
-   - Must be using GitLab for SCM.
-   - Must have the desire to move to GitLab CI/CD.
-   - This is not a sales tactic to produce growth. If they are resistant or unsure, then its not going to be successful.
+  - Must be an existing customer.
+  - Preferably Commercial customers because Enterprise customers tend to have larger, more complicated pipelines.
+  - Commercial is more agile and quicker to adopt new tools.
+  - Enterprise is also very siloed. We may not be able to speak with a DRI for CI/CD tooling.
+  - Don't want to consider prospects as this is about customer stage adoption as opposed to closing sales.
+  - Must be using GitLab for SCM.
+  - Must have the desire to move to GitLab CI/CD.
+  - This is not a sales tactic to produce growth. If they are resistant or unsure, then its not going to be successful.
 - Project scoping…
-   - Choose a simple pipeline… build, test, deploy.
-   - We can add Security scanning as part of the proof of concept.
-   - Must be willing to upload the project onto gitlab.com.
-   - Anything that has multi-child pipelines, DAG, etc. is probably too difficult & time consuming.
-   - Something that can be converted with a few hours of work.
-   - We want to show value and the path, but not do all the heavy lifting.
+  - Choose a simple pipeline… build, test, deploy.
+  - We can add Security scanning as part of the proof of concept.
+  - Must be willing to upload the project onto gitlab.com.
+  - Anything that has multi-child pipelines, DAG, etc. is probably too difficult & time consuming.
+  - Something that can be converted with a few hours of work.
+  - We want to show value and the path, but not do all the heavy lifting.
 
 #### User Enablement
 
@@ -50,7 +43,7 @@ Overview and training on scaling CI with GitLab using the enablement deck below
 
 Key Topics:
 
-1. Work with the customer’s users to enable them on GitLab CI/CD.
+1. Work with the customer's users to enable them on GitLab CI/CD.
 2. How to write a .gitlab-ci.yml file.
 3. How to use the GitLab (Shared) Runners.
 4. How to create templates for standardization & quick scaling

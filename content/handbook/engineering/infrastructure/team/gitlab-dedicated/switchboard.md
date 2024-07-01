@@ -4,7 +4,7 @@ title: Switchboard team
 
 ## Summary
 
-Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/). Our mission is to empower external GitLab Dedicated customers to manage their tenant environments and reduce the operational overhead on the Environment Automation team so we can scale up the GitLab Dedicated offering. We follow the same processes as listed on the [the Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/), unless a difference exists which is explicitly noted on this page.
+Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/). Our mission is to empower external GitLab Dedicated customers to manage their tenant environments and reduce the operational overhead on the Environment Automation team so we can scale up the GitLab Dedicated offering. We follow the same processes as listed on the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/), unless a difference exists which is explicitly noted on this page.
 
 ### Resources
 
@@ -29,23 +29,23 @@ To engage with the Switchboard team:
   - `workflow-infra::Triage`
   - `team::Switchboard`
 - When creating an issue, it is not necessary to `@`mention anyone
-- In case you want to get attention, use a specific team handle (Ex: @gitlab-dedicated/switchboard ) as defined in [Dedicated group hierarchy](/handbook/engineering/infrastructure/team/gitlab-dedicated/#gitlab-group-hierarchy)
+- In case you want to get attention please use the specific team handle, `@gitlab-dedicated/switchboard`, as defined in [Dedicated group hierarchy](/handbook/engineering/infrastructure/team/gitlab-dedicated/#gitlab-group-hierarchy)
+- As a cross-functional team Switchboard uses `@gitlab-dedicated/switchboard/frontend-engineers` and `@gitlab-dedicated/switchboard/backend-engineers` internally to seek input from engineers with specific expertise
 - [Switchboard issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=component%3A%3ASwitchboard) tracks all of the team's current work
-- We are in the process of adapting to use the [Product Development Flow](/handbook/product-development-flow/)
 
 - Slack channels
   - For Switchboard specific questions, you can find us in [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
   - Our Slack group handle is `@dedicated-switchboard-team`
   - Other teams in Dedicated group have their own work channels for team work discussions:
-      - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
-      - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
+    - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
+    - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
 
 ## Requesting Access to the Switchboard application
 
 - Create an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) specifying
-   - the specific environment ( Test / Beta / Production )
-   - level of access required (Readonly, Support, Provisioner, Operator)
-   - justification for the access
+  - the specific environment ( Test / Beta / Production )
+  - level of access required (Readonly, Support, Provisioner, Operator)
+  - justification for the access
 - Access & Provision Details for the application can be found in the `Switchboard - GitLab Dedicated` section of the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/d3561ab939029faf4ac25f32612c57e861eb8b39/data/tech_stack.yml)
 
 ## How we work
@@ -207,15 +207,15 @@ In addition to the above when a change is being proposed to the UI the following
 
 **UI changes visible to internal GitLab users:**
 
-1. MR author cc’s PM & UX Designer on the MR but they are not reviewers or blockers of the merge
-1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author’s discretion
+1. MR author cc's PM & UX Designer on the MR but they are not reviewers or blockers of the merge
+1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author's discretion
 1. Eventually the PM & UX Designer will be reviewers on the internally visible UI updates but our process is not there yet nor is their capacity
 1. If you require help or guidance with the UX or copy please ask **before** implementation begins on the issue
 
 **UI changes visible to external customers:**
 
 1. It is highly important to figure out any outstanding questions on the issue, including design changes, copy changes, and product requirements so that we can avoid ambiguity at the MR stage. This must translate to a concrete conclusion of design discussions in the issue before UI code changes are started.
-1. In the event of a missing UX/product piece at the MR stage, the DRI and issue assignee will collaborate to make a decision about whether the missing piece can be resolved on the MR or if it needs to be moved back to the issue for resolution. This is in accordance to the [DRI definition](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/#empowering-dris).
+1. In the event of a missing UX/product piece at the MR stage, the DRI and issue assignee will collaborate to make a decision about whether the missing piece can be resolved on the MR or if it needs to be moved back to the issue for resolution. This is in accordance to the [DRI definition](/handbook/people-group/directly-responsible-individuals/#empowering-dris).
 1. The PM and Designer will deal with these requests as a top priority.
 1. Add the PM as reviewer on the MR to keep them updated. This review will not impede the MR progress, and the PM will handle it as a high priority. Ideally, product requirements should be finalized in the issue.
 1. If there is a new copy change, add the Technical Writer as a reviewer to keep them informed and this will be non-blocking (copy should ideally be agreed on in the issue). Additionally add the `Technical Writing` tag to the MR.

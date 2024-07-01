@@ -25,8 +25,8 @@ This workshop is intended to provide enablement for new or existing customers th
 The goal of the discovery questions is to help your customer tie this back to a larger initiative and identify a champion who will sponsor their efforts. The champion is who you will be running Session 1 with.
 
 - Tell me about your use case for innersource. Does it show up explicitly in a transformation or company goal?
-- What is it that you’re hoping InnerSource will accomplish for your company? What outcome?
-- How is source code classified within your company? (i.e. “highly secure”/least privilege?)
+- What is it that you're hoping InnerSource will accomplish for your company? What outcome?
+- How is source code classified within your company? (i.e. "highly secure"/least privilege?)
 - What do you use for secrets management and secrets detection?
 - Who is championing innersource?
 - Do you have a use case in mind?

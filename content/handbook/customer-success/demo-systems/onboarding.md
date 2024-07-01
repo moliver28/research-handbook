@@ -53,7 +53,7 @@ Each team member can use the [GitLab Sandbox Cloud](/handbook/infrastructure-sta
 
 Please note that services may take a few minutes before being ready. If you log in and immediately see an error, wait a few minutes then try to access the account again.
 
-You can ask for help from other peers in the the `#sandbox-cloud-questions` or [#cs-questions](https://gitlab.slack.com/archives/CR5JLJEEM) Slack channel and tag `@Logan Stucker`.
+You can ask for help from other peers in the `#sandbox-cloud-questions` or [#cs-questions](https://gitlab.slack.com/archives/CR5JLJEEM) Slack channel and tag `@Logan Stucker`.
 
 ## Set Up the GitLab Agent for Kubernetes for Your Group
 
@@ -315,7 +315,7 @@ You only need to do this if you find yourself running out of shared runner minut
 
      > Consider modifying the Runner's configurations located at `/etc/gitlab-runner/config.toml` (e.g. concurrent, see [here](https://docs.gitlab.com/runner/configuration/advanced-configuration.html) for additional details)
 
-   - If you configured a project runner, navigate back to the **Settings > CICD** page and and expand the **Runners** section. You should now see your runner listed with an **Online** status.
+   - If you configured a project runner, navigate back to the **Settings > CICD** page and expand the **Runners** section. You should now see your runner listed with an **Online** status.
 
 ### Troubleshooting The Agent
 

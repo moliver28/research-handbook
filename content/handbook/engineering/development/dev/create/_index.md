@@ -1,12 +1,10 @@
 ---
-
 title: Create Stage
 description: >-
   The Create Stage is a group of teams including
   Code Creation, Code Review, Editor Extensions,
   IDE, and Source Code.
 ---
-
 
 ## Hello
 
@@ -23,11 +21,11 @@ description: >-
 
 ## Mission
 
-#### What do we do?
+### What do we do?
 
 The Create Stage supports software development teams accelerate their delivery and reduce cycle times, by improving efficiency and collaboration. Our stage provides tools that support the beginning of the DevOps Life Cycle.
 
-#### Whom do we serve?
+### Whom do we serve?
 
 We build tools for:
 
@@ -37,7 +35,7 @@ We build tools for:
 - Product Managers
 - Product Designers
 
-#### How do we serve them?
+### How do we serve them?
 
 The [Product Vision Handbook Page](https://about.gitlab.com/direction/create/#categories-in-create) provides specific examples for how we serve each type of GitLab user.
 

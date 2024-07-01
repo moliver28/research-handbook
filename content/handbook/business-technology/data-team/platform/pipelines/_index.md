@@ -1,9 +1,7 @@
 ---
-
 title: "Data pipelines"
 description: "This page describes the different data sources and the way we extract this data via data pipelines."
 ---
-
 
 ## Overview
 

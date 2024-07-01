@@ -88,9 +88,9 @@ As per the [automation](/handbook/people-group/engineering/offboarding/#offboard
 The People Connect Team member will need to complete:
 
 - Remove the team members ReadMe
-   - If the ReadMe is in a private project, request assistance from the IT Ops team to delete (you can tag them in the team page MR and private Slack channel)
+  - If the ReadMe is in a private project, request assistance from the IT Ops team to delete (you can tag them in the team page MR and private Slack channel)
 - Check for hardcoded references
-   - The People Connect team member handling the offboarding should check to see whether the offboarded team members name is listed on any other public Handbook pages. This can be done by doing a Google search for the team members name and "GitLab" - this should pull up results that reflect any association with the team members name and GitLab (including a ReadMe).
+  - The People Connect team member handling the offboarding should check to see whether the offboarded team members name is listed on any other public Handbook pages. This can be done by doing a Google search for the team members name and "GitLab" - this should pull up results that reflect any association with the team members name and GitLab (including a ReadMe).
 
 ### Offboarding Compliance
 

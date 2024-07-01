@@ -1,14 +1,7 @@
 ---
-
 title: "Outreach"
 description: "Outreach is a sales engagement platform helps efficiently and effectively engage prospects to drive more pipeline and close more deals."
 ---
-
-
-
-
-
-
 
 ### About Outreach
 
@@ -23,16 +16,16 @@ Please contact the appropriate channel based on your role:
 
 ### Set-Up
 
-##### Non-admin users
+#### Non-admin users
 
 Users will be able to access Outreach through OKTA within 24 hours of gaining access. Please set up the following once you have access:
 
 - Connect your inboxes and calendar to Outreach. Please be aware when you connect your email, Outreach is set up to create prospects from your gmail if they don't already exist in Outreach. Outreach admins and managers can see your email activity to anyone you may email. If you wish to email anyone personal or there is an email which includes your private information then please make sure to turn off the Outreach activity recording.
-    - To do this, when composing an email in gmail, look to the Outreach Settings Icon. There will be an option to toggle off "Outreach Enabled". If you do this, your personal email will not be recorded in Outreach.
+  - To do this, when composing an email in gmail, look to the Outreach Settings Icon. There will be an option to toggle off "Outreach Enabled". If you do this, your personal email will not be recorded in Outreach.
 - Update your email signature. If you are a BDR/SDR, then your signature is managed through Terminus.Log into Terminus and update your details and within 24 hours it will update in Outreach.
 - Download and install the [Outreach Everywhere](https://support.outreach.io/hc/en-us/articles/115004084328-Installing-the-Outreach-Everywhere-Chrome-Extension) chrome extension.
 
-##### Admin users
+#### Admin users
 
 When provisioning new users or altering current users' credentials for role changes, there are a few things to keep in mind:
 
@@ -44,11 +37,11 @@ When provisioning new users or altering current users' credentials for role chan
   - All other managers- incl XDR/Sales/CSMs managers should be added to : Sales Org Management
   - Anyone not in a management or pub sec should be added to : Sales Org- XDR, AE, SAEs, CSM
 - When a current user changes roles, sales-ops will create a new SFDC profile for their new role. These means _every_ role change will require remapping between Outreach profiles and SFDC profiles. Remap a user by:
-    - Proceed to `Plugins` under Outreach settings
-    - Click into the `Salesforce` plugin, then select `User`, followed by `Mappings`
-    - Locate the user that needs to be altered. The search box does not work as of April 2021 so it will be a manual search. Sorry for the difficulty, friend!
-    - Select the dropdown and click `Remove` to completely remove the mapping between Outreach and Salesforce
-    - Select `Add`, type in the Salesforce and Outreach names to complete the new mapping. Be sure to double check you selected the correct `SFDC ID` before hitting save
+  - Proceed to `Plugins` under Outreach settings
+  - Click into the `Salesforce` plugin, then select `User`, followed by `Mappings`
+  - Locate the user that needs to be altered. The search box does not work as of April 2021 so it will be a manual search. Sorry for the difficulty, friend!
+  - Select the dropdown and click `Remove` to completely remove the mapping between Outreach and Salesforce
+  - Select `Add`, type in the Salesforce and Outreach names to complete the new mapping. Be sure to double check you selected the correct `SFDC ID` before hitting save
 
 ### Learning Pathways
 
@@ -106,11 +99,11 @@ You may request new collections by opening an issue in the Marketing Operations 
 - If the name within the `company` field of Salesforce and Outreach does not flow naturally in conversation, check to see if a `Company Natural Name` can be added. For example, "Mr Bob's Company Incorporated" sounds less natural in conversation than "Mr Bob's". When using a natural name, use the `variable` {{company_natural}} in the email template instead of {{company}}.
 - `Variables` can also be used for setting `manual tasks` within an email template. However, these `manual tasks` function differently than a normal `variable`. After the brackets at the beginning of the `variable`, a "!" needs to be added or Outreach will attempt to populate the phrase inside the brackets. For example, a `manual task` should read {{! Edit this email before sending}}. If the "!" is not added, the sequence will fail with a "Template Syntax Error" message.
 - The `Accounts` tab is a useful way of browsing Outreach `prospects` + `accounts` where the BDR's name appears in the SFDC Account field `BDR Assigned`. This won't filter for **every** prospect under your ownership (limitations with leads or unassigned accounts may apply), but it will show many relevant prospects. This view won't be available at your first login to Outreach, so you'll need to create it. To create the view,
-    - Select the `Accounts` section of Outreach
-    - Next to the search box there is a purple label that reads `Owner is you`. Remove this filter for now
-    - Select `Add filter` and type `BDR Assigned`. Type in your name and hit enter. Change the `Sorted by` option, if you wish
-    - From there, select `Save view`. From this window, you can edit the view name and privacy settings
-    - It's best to set this view as your `default view`. Without this filter in place, the `Accounts` section's usefulness is primarily steered away from `SDRs` and moreso to Sales team members.
+  - Select the `Accounts` section of Outreach
+  - Next to the search box there is a purple label that reads `Owner is you`. Remove this filter for now
+  - Select `Add filter` and type `BDR Assigned`. Type in your name and hit enter. Change the `Sorted by` option, if you wish
+  - From there, select `Save view`. From this window, you can edit the view name and privacy settings
+  - It's best to set this view as your `default view`. Without this filter in place, the `Accounts` section's usefulness is primarily steered away from `SDRs` and moreso to Sales team members.
 
 ### Outreach Meetings
 
@@ -160,7 +153,7 @@ XDRs need to choose a call disposition after calling a prospect to note the outc
 |`Correct Contact: IQM Set`| You were able to schedule an IQM while on the phone call. Note that a trigger exists in Outreach to automatically change lead status to `Qualifying` when this option is selected |
 |`Busy`|Get a busy tone when calling|
 |`Bad Number`|The phone number is not valid|
-|`Incorrect Contact: Answered`| The wrong person answered the phone number that you had for this contact and it is the wrong persons phone number (They were not a personal assistant). They didn’t take a message for the correct person or give helpful information|
+|`Incorrect Contact: Answered`| The wrong person answered the phone number that you had for this contact and it is the wrong persons phone number (They were not a personal assistant). They didn't take a message for the correct person or give helpful information|
 |`Incorrect Contact: Left Message`|The wrong person answered the phone and it is the wrong persons phone number (They were not a personal assistant). They took a message for the correct person/gave you the correct number for the contact|
 |`Incorrect Contact: Not Answered/Other`| You got through to the voicemail but the voicemail was for someone other than the person who you were trying to contact. Or the person was not listed in the company directory and you were calling the companies main number|
 |`Incorrect Contact: Answered: Gave Referral` | It was the wrong person but they gave a referral to speak to. Please record in notes who the referral is. |
@@ -221,7 +214,7 @@ As such there are [sending limits built into the Outreach platform](https://supp
 We have email sending limits in place to protect our sender reputation score, to ensure our emails are delivered to prospects & customers. We can not increase these limits and if you hit the limit, you will need to wait until you are under the limit again to send emails. If you need to send a campiagn that is larger than the limits, please reach out to Marketing as we have more sending options for larger campaigns.
 
 - Individual users can send up to 2,000 emails _combined_ between Outreach and Gmail inbox in a rolling 24-hour period.
-    - This is the maximum across both systems, if you max out in Outreach, you **will be** maxed out in Gmail.
+  - This is the maximum across both systems, if you max out in Outreach, you **will be** maxed out in Gmail.
 - Users have a limit of 1,000 emails sent from within our organisation.
 - Users have a limit of 25 emails that can be sent to the same email domain per day.
 
@@ -237,10 +230,10 @@ Create your SFDC report and save it into the `Unfiled Public Reports` folder.
 - Report can only be a lead or contact report
 - Limit to 2000 records per import
 - Minimum Required fields:
-    - Lead ID
-    - Email
-    - First Name
-    - Last Name
+  - Lead ID
+  - Email
+  - First Name
+  - Last Name
 - Note: you may only map fields that already exist within Outreach, but the import is set up to load additional data points during the upload. You do not need to create your report with a bunch of fields to get them into Outreach.
 
 Step 2:
@@ -253,10 +246,10 @@ Navigate to the &#9889;Quick Actions button and choose `Bulk Create`.
 Step 3:
 Next you will review the mapping of the above 4 fields in the Outreach plugin. These usually auto-populate if Outreach can determine the correct field.
 
-   - If a field is not mapped please select it from the drop down
-     - If you need additional guidance while mapping please contact Marketing Operations
-   - Please do not try to map fields that do not exist already in Outreach it is ok to the leave these fields as `Not mapped`
-   - Outreach will prompt you that there are unmapped fields and you can hit continue
+- If a field is not mapped please select it from the drop down
+  - If you need additional guidance while mapping please contact Marketing Operations
+- Please do not try to map fields that do not exist already in Outreach it is ok to the leave these fields as `Not mapped`
+- Outreach will prompt you that there are unmapped fields and you can hit continue
 
 Step 4:
 On the next screen you will be prompted with more fields. To prevent from overriding important data please select the following:

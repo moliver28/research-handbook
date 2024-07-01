@@ -5,7 +5,7 @@ extra_js:
 - libs/mermaid.min.js
 ---
 
-As members of GitLab's [Product Security sub department](/handbook/security/product-security/), the [Infrastructure Security](/handbook/security/product-security/infrastructure-security/) engineers own security initiatives related to security of GitLab.com. They are Infrastructure's stable counterparts in the Security department, and as such work with various Infrastructure and Security teams to identify and mitigate security issues, vulnerabilities, and misconfigurations by applying their in-depth knowledge of operating systems, infrastructure, and cloud providers. They work very closely with the Security Incident Response Team and share their findings in a proactive manner. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user’s data safe in an ever changing threat landscape.
+As members of GitLab's [Product Security sub department](/handbook/security/product-security/), the [Infrastructure Security](/handbook/security/product-security/infrastructure-security/) engineers own security initiatives related to security of GitLab.com. They are Infrastructure's stable counterparts in the Security department, and as such work with various Infrastructure and Security teams to identify and mitigate security issues, vulnerabilities, and misconfigurations by applying their in-depth knowledge of operating systems, infrastructure, and cloud providers. They work very closely with the Security Incident Response Team and share their findings in a proactive manner. Successful Security Engineers thrive in high-stress environments and can think like both an attacker and defender, engage with and mentor more junior Security Engineers, and can help come up with proactive and preventative security measures to keep GitLab and its user's data safe in an ever changing threat landscape.
 
 ## Responsibilities
 
@@ -37,7 +37,7 @@ The Infrastructure Security Engineer is a [grade 6](/handbook/total-rewards/comp
 #### Infrastructure Security Engineer (Intermediate) Responsibilities
 
 - Be a stable counterpart for the Infrastructure department
-- Identify and help mitigate security issues, misconfigurations, and vulnerabilities related to GitLab’s cloud, container and Kubernetes infrastructure
+- Identify and help mitigate security issues, misconfigurations, and vulnerabilities related to GitLab's cloud, container and Kubernetes infrastructure
 - Implement new, and update existing security measures for the protection of GitLab.com infrastructure
 - Utilize log ingestion platform for security analytics and identification of tactics, techniques and patterns of attackers
 - Contribute to creation of runbooks
@@ -71,9 +71,9 @@ The Senior Infrastructure Security Engineer is a [grade 7](/handbook/total-rewar
 - Develop, evangelise, and monitor the adoption of sound cloud security practices
 - Mentor other members of the Infrastructure Security and Security Incident Response Team
 - Perform root cause analysis (RCA) and incident reviews
-- Develop new, and review/update existing security-related configurations of GitLab’s infrastructure
+- Develop new, and review/update existing security-related configurations of GitLab's infrastructure
 - Identify new, and ensure availability of existing GitLab.com data sources and logs that are being used by various GitLab Security teams
-- Ownership and management of preventative security measures and services related to GitLab.com, i.e. WAF, GCP’s Security Command Center
+- Ownership and management of preventative security measures and services related to GitLab.com, i.e. WAF, GCP's Security Command Center
 
 #### Senior Infrastructure Security Engineer Requirements
 

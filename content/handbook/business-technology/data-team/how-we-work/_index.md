@@ -1,5 +1,4 @@
 ---
-
 title: "Data Team - How We Work"
 description: "GitLab Data Team Workflow"
 ---
@@ -181,8 +180,8 @@ All issues should get the following classes of labels assigned to them:
 Optional labels that are useful to communicate state or other priority:
 
 - **What:**
-    - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
-    - Tool: (Sisense, dbt, Stitch, Airflow, etc.)
+  - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
+  - Tool: (Sisense, dbt, Stitch, Airflow, etc.)
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
 - **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/business-technology/data-team/how-we-work/#prioritization).
 
@@ -224,7 +223,7 @@ Other tips:
     - For simple changes, it is the MR author who should be responsible for closing the threads. If there is a complex change and the concern has been addressed, either the author or reviewer could resolve the threads if the reviewer approves.
 
 1. Reviewers should have 48 hours to complete a review, so plan ahead with the end of the iteration.
-1. When possible, questions/problems should be discussed with your reviewer before submitting the MR for review. Particularly for large changes, review time is the least efficient time to have to make meaningful changes to code, because you’ve already done most of the work!
+1. When possible, questions/problems should be discussed with your reviewer before submitting the MR for review. Particularly for large changes, review time is the least efficient time to have to make meaningful changes to code, because you've already done most of the work!
 1. Consider bringing the latest commits from the primary branch so the MR is caught up. You can do this quickly by typing `/rebase` into a comment and GitLab will make this happen automatically, barring any merge conflicts.
 
 ##### KPI Development Workflow
@@ -241,10 +240,10 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 
 - First-Response SLO for a new Issue or MR: 36 hours from the time of creation
 - Issue Close SLO for a new Issue or MR is based on the [Issue Weight](/handbook/business-technology/data-team/how-we-work/#issue-pointing) assigned by the Data Team.
-    - Issue weight of 1-5 points: 4 weeks (2 iterations)
-    - Issue weight > 5 points: No SLO
+  - Issue weight of 1-5 points: 4 weeks (2 iterations)
+  - Issue weight > 5 points: No SLO
 - MR Review SLO
-    - 4 weeks (2 iterations)
+  - 4 weeks (2 iterations)
 
 ### Removal and deletion process <!-- @dennis is there an iteration on this one, get @chris and @peter to contribute here -->
 

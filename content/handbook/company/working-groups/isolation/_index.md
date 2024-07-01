@@ -26,8 +26,7 @@ To develop a plan that limits disruption to customers when there are "noisy neig
     - schedule issues for work with groups
 1. [Create guidance on how to address isolation issues](https://gitlab.com/gitlab-org/gitlab/issues/196829)
 
-**Group Closure Information:** All lines of inquiry were incorporated into the [Availability and Performance
-Weekly Meeting](https://docs.google.com/document/d/1SanPUz86cIyRQR5kRmXyCLLE8sZVpx0auu_W6jY94W4/edit#heading=h.mbjsiz6n6jlo).
+**Group Closure Information:** All lines of inquiry were incorporated into the [Availability and Performance Weekly Meeting](https://docs.google.com/document/d/1SanPUz86cIyRQR5kRmXyCLLE8sZVpx0auu_W6jY94W4/edit#heading=h.mbjsiz6n6jlo).
 
 ## Specific Lines of Enquiry
 

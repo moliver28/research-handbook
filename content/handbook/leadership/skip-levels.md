@@ -54,7 +54,7 @@ skip level meetings:
    skips. [SKS questions](https://en.wikipedia.org/wiki/SKS_process), among
    other feedback mechanisms, make solid agenda items.
 
-*Having a large organization is not a reason to not conduct skip-level meetings. Senior leaders with a a large organizations can opt to conduct skip-levels in a rotational fashion. If meeting with everyone is not scalable, instead meet with a new group of skip-level team members each quarter (or more frequently).*
+*Having a large organization is not a reason to not conduct skip-level meetings. Senior leaders with a large organizations can opt to conduct skip-levels in a rotational fashion. If meeting with everyone is not scalable, instead meet with a new group of skip-level team members each quarter (or more frequently).*
 
 ### Learning From the CEO on Skip Level Meetings
 

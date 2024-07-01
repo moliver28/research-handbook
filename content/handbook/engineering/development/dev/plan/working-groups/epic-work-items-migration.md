@@ -76,7 +76,7 @@ This Working Group has the following exit criteria:
 |Functional Lead| Feature Parity (1) | [Eugenia Grieff](/handbook/company/team/#egrieff)|Senior Backend Engineer, Plan:Product Planning|
 |Functional Lead| Syncing (2) | [Felipe Artur](/handbook/company/team/#felipe_artur)|Senior Backend Engineer, Plan:Optimize|
 |Functional Lead| Delegation (4) | [Nicolas Dular](/handbook/company/team/#nicolasdular)|Staff Backend Engineer, Plan:Product Planning|
-|Functional Lead| Create legacy epics for WI epics (5) | [Mario Celi](/handbook/company/team/#mcelicalderonG)|Backend Engineer, Plan:Project Management|
+|Functional Lead| Create legacy epics for WI epics (5) | [Mario Celi](/handbook/company/team/#mcelicalderong)|Backend Engineer, Plan:Project Management|
 |Functional Lead| Customer Pilot (6) | [Heinrich Lee Yu](/handbook/company/team/#engwan)|Staff Backend Engineer, Plan:Project Management|
 |Member| | [Kassio Borges](/handbook/company/team/#kassioborges)|Staff Backend Engineer, Plan:Knowledge|
 |Member| | [Himanshu Kapoor](/handbook/company/team/#himkp)|Senior Frontend Engineer, Plan:Knowledge|

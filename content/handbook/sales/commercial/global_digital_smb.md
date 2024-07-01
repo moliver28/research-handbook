@@ -1,5 +1,4 @@
 ---
-
 title: "Global Digital SMB"
 description: "Overview of the Global Digital SMB Sales Model"
 ---
@@ -20,16 +19,16 @@ Vision: SMB Accounts will not be owned individually, but by the entire team. Thi
 
 ### Accounts
 
- - All AMER SMB Accounts are owned by the AMER SMB Sales User.
- - All APAC SMB Accounts are owned by the APAC SMB Sales User.
- - All EMEA SMB Accounts are owned by the EMEA SMB Sales User.
- - Note that in SMB only, AMER & APAC are considered one territory.
+- All AMER SMB Accounts are owned by the AMER SMB Sales User.
+- All APAC SMB Accounts are owned by the APAC SMB Sales User.
+- All EMEA SMB Accounts are owned by the EMEA SMB Sales User.
+- Note that in SMB only, AMER & APAC are considered one territory.
 
 ### Opportunities
 
- - All AMER SMB Opportunities are owned by the AMER SMB Sales User.
- - All APAC SMB Opportunities are owned by the APAC SMB Sales User.
- - All EMEA SMB Opportunities are owned by the EMEA SMB Sales User.
+- All AMER SMB Opportunities are owned by the AMER SMB Sales User.
+- All APAC SMB Opportunities are owned by the APAC SMB Sales User.
+- All EMEA SMB Opportunities are owned by the EMEA SMB Sales User.
 
 ### High Value Accounts
 
@@ -49,12 +48,12 @@ The criteria that determines whether an SMB account is a Tier 1 account or not, 
 
 Since all Global Digital & SMB Accounts are owned by generic SMB Sales Users, SMB Advocates will only engage with customers when specific customer events/ scenarios are triggered. Once one of these defined scenarios is triggered, a case will auto be created. An SMB Advocate will then pick up the case, and work it through to completion.
 
-#### Why?
+### Why?
 
 - Enables Advocates to focus on those SMB customers that require, or would benefit from, sales assistance.
 - Removes low potential customers from view, since these customers will seldom trigger a case.
 
-#### How?
+### How?
 
 Cases are automatically created when;
 
@@ -80,7 +79,7 @@ Churn & Contraction Mitigation - These occur when the account in question has ex
 - Auto Renew recently turned off
 - Renewal with Payment Failure
 
-Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.  
+Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.
 
 - FO Opp
 - FO Opp (Startup)
@@ -111,7 +110,7 @@ The case logic, context behind the case, and CTA can be viewed on the Case Trigg
 
 ## Working with the Global Digital SMB Account Team
 
-If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APAC/ EMEA Sales Users are not monitored).  
+If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APAC/ EMEA Sales Users are not monitored).
 
 [Case Creation How-to Video](https://drive.google.com/file/d/1cExv6WlzM4RBkOBDJlSWG56o5BsRGnns/view?usp=drive_link)
 
@@ -124,12 +123,12 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
 - Select a *Type* that most closely matches the origin of your request. (e.g if you are in Support, select *Inbound Request via Support*)
 - Set the *Priority* to High.
 - Complete the *Subject* field, using one of the below options;
-    - *Support Ticket* (if you are an SE)
-    - *Partner Opp* (if you reside in the Partner org)
-    - *Referral* (if you are in Sales)
-    - *FO Opp (Startup)* if you reside in the Community relation team, and a free customer is ready to transition to paid.
-    - *AR Request* (if you are in AR/ Billing)
-    - Note: if you are an SDR creating the case, the *Case Subject* must be either equal *FO Opp*, or *SDR Created* (See *Use Case Specifics* below)
+  - *Support Ticket* (if you are an SE)
+  - *Partner Opp* (if you reside in the Partner org)
+  - *Referral* (if you are in Sales)
+  - *FO Opp (Startup)* if you reside in the Community relation team, and a free customer is ready to transition to paid.
+  - *AR Request* (if you are in AR/ Billing)
+  - Note: if you are an SDR creating the case, the *Case Subject* must be either equal *FO Opp*, or *SDR Created* (See *Use Case Specifics* below)
 - Select a *Case Reason* based on the customers needs.
 - **Check the *Assign using active assignment rules* checkbox, and click *Save*.If this is not done, the case will not enter the SMB Team queue, and will not be actioned**
 - This Case will now drop into the SMB Sales Queue, and will be actioned by a SMB Advocate.
@@ -275,7 +274,7 @@ The Advocate is advised to build relationships with these customers, understand 
 
 The Advocate is advised to schedule ongoing touchpoints, update Next Steps/ Next Steps Date, and create future dated reminder Tasks, so that they plan their outreach throughout the year.
 
-Note that these Accounts will still trigger other cases types, which should be worked and closed out within the 15 day period.  This will include High Value Check In Cases, which will remind the Advocate to touch base with the customer!  These cases will be auto assigned to the Advocate who owns the High Value Account case.  Any off created off the back of these cases i.e If a High Value Check In Case results in an Add On Opp, the opp should be linked to the originating case.  Once the opp is closed, the case should be closed. Reminder: The High Value Account case should never be closed.  
+Note that these Accounts will still trigger other cases types, which should be worked and closed out within the 15 day period.  This will include High Value Check In Cases, which will remind the Advocate to touch base with the customer!  These cases will be auto assigned to the Advocate who owns the High Value Account case.  Any off created off the back of these cases i.e If a High Value Check In Case results in an Add On Opp, the opp should be linked to the originating case.  Once the opp is closed, the case should be closed. Reminder: The High Value Account case should never be closed.
 
 Note: A High Value Account can be closed out if the customer advises ahead of renewal that they definitely fully churn.  Only in this scenario should the case be closed out, and the *Resolution Action* must be set to *Request Not Possible*.  By setting the *Resolution Action* to *Request Not Possible*, future High Value Cases will not be created on the account.
 
@@ -338,7 +337,7 @@ All Low Priority cases should be picked up and responded to within 7 days of ent
 
 All cases should be worked, and closed out, within a 15 day period (except High Value cases).
 
-The above, and other data points, will be tracked on the below dash.  Periodically, the info will be presented to the Advocate so that they can ‘clean up their room’.
+The above, and other data points, will be tracked on the below dash.  Periodically, the info will be presented to the Advocate so that they can 'clean up their room'.
 
 Due to the high case volume, it is imperative that the Required 10 is followed, so cases do not become stale.
 
@@ -392,7 +391,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. As an GitLab Team Member who is not part of the SMB Team, how do I engage with the team?
 - A. Follow the process above entitled *Working with the Global Digital SMB Account Team*.
 - Q.  What happens if the end user speaks a different language than I do?
-- A. Discuss with your manager who might be best placed in the team to handle this case, then switch the Case Owner to that individual. Also add the tab #languagebarrier to the Feedback field on the case.  This will allow the SMB Team to track how often language becomes an issue.  
+- A. Discuss with your manager who might be best placed in the team to handle this case, then switch the Case Owner to that individual. Also add the tab #languagebarrier to the Feedback field on the case.  This will allow the SMB Team to track how often language becomes an issue.
 - Q. As an Advocate, if I pick up a FO Opp case, and discover the customer is actually a MM account, what do I do?
 - A. Follow the below steps;
   - If the FO Opp is still in Stage 0, advise the SDR via Chatter that they should loop in the MM AE.
@@ -416,6 +415,8 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
   - The case will now reappear in the queue in 6 months time, and any Advocate will be free to work the case.
 - Q. If a prospect/ customer emails me directly requesting assistance, what do I do?
 - A. First check the account to see if there is an In Progress SMB Sales Case owned by a different Advocate.  If there is, add the nature of the customers request to the Description field, and chatter the Advocate on the case. If no case is present, and this enquiry represents a nARR opportunity, follow the above process (*Working with the Global Digital SMB Account Team*.), and assign the case directly to yourself. Note: for general enquiries, you should direct customers to smallbusiness@gitlab.com
+- Q. As an Advocate, when I go on PTO, what happens to my cases?
+- A. Whilst on PTO, your *In Progress* cases will remain in your name. In your OOO email signature however, you should include the contact details of a fellow Advocate who has agreed to cover you whilst you are away. Ideally, this Advocate should be located in a similar region with similar langauge skills. When a customer emails you (and the Advocate providing coverage), the Advocate providing coverage should assign the active case to themself, and work it through to completion
 
 ## Escalation Paths
 

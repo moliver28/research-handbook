@@ -122,7 +122,7 @@ In this lab, you will learn how to create a simple issue board.
 
 1. Refresh the browser tab that contains your new board.
 
-## Task D: Create a new issue for for your board
+## Task D: Create a new issue for your board
 
 1. In the **Priority::High** list, click the **(+)** icon to create a new high-priority issue.
 

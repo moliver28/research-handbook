@@ -35,7 +35,7 @@ GitLab endeavors to [pay local rates]({{< ref "compensation#paying-local-rates" 
 
 Our co-founder and CEO Sid Sijbrandij discusses this in a blog post entitled "[Why GitLab pays local rates](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/)."
 
-> If we pay everyone the San Francisco wage for their respective roles, our compensation costs would increase greatly, and we would be forced to hire a lot fewer people. Then we wouldn’t be able to produce as much as we would like. If we started paying everyone the lowest rate possible, we would not be able to retain the people we want to keep.
+> If we pay everyone the San Francisco wage for their respective roles, our compensation costs would increase greatly, and we would be forced to hire a lot fewer people. Then we wouldn't be able to produce as much as we would like. If we started paying everyone the lowest rate possible, we would not be able to retain the people we want to keep.
 
 Particularly in comparison to companies in cities with high costs of living, such as London, San Francisco, Singapore, Sydney, etc., an all-remote company realizes [a notable set of advantages]({{< ref "compensation#why-we-pay-local-rates" >}}) by hiring brilliant minds in locales with lower costs of living.
 
@@ -51,7 +51,7 @@ To talk through Best Practices for Remote Compensation, GitLab partnered with [C
 
 Plainly, we want our compensation to be at a level were we can recruit and retain people who meet our requirements. A far more elaborate explanation can be found in the [Compensation Principles section of GitLab's Handbook]({{< ref "compensation#compensation-principles" >}}).
 
-Deciding how much we pay people who live and work in a multitude of regions across the globe is a continual process. [Iteration]({{< ref "values#iteration" >}}) and [Transparency]({{< ref "values#transparency" >}}) are values at GitLab, and both apply to compensation calculations.
+Deciding how much we pay people who live and work in a multitude of regions across the globe is a continual process. [Iteration](/handbook/values/#iteration) and [Transparency](/handbook/values/#transparency) are values at GitLab, and both apply to compensation calculations.
 
 {{< youtube "CgQNFffuHrc?start=34" >}}
 

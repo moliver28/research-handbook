@@ -64,11 +64,11 @@ Market Justification: The business need for an individual contributor Staff CSE 
 
 The Staff CSE reports to the Manager/Senior Manager, CSE.
 
-##### Staff Customer Success Engineer Job Grade
+#### Staff Customer Success Engineer Job Grade
 
 The Staff CSE is a job grade [level 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-##### Staff Customer Success Engineer Responsibilities
+#### Staff Customer Success Engineer Responsibilities
 
 - Extends the Senior Customer Success Engineer responsibilities
 - Demonstrates seniority in 3 or more [customer use cases](/handbook/marketing/use-cases/)
@@ -80,7 +80,7 @@ The Staff CSE is a job grade [level 9](/handbook/total-rewards/compensation/comp
 - Increase global CS team knowledge and thought leadership within the realm of their expertise
 - Serves as advisor to Product Team providing feedback to promote customer use cases and assist in product feature prioritization
 
-##### Staff Customer Success Engineer Requirements
+#### Staff Customer Success Engineer Requirements
 
 - Extends the Senior Customer Success Engineer requirements
 - Experience and a proven track record with the additional responsibilities of a Staff TAM/CSE/CSM

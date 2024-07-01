@@ -1,12 +1,6 @@
 ---
-
 title: "Channel Partner Migration Services"
 ---
-
-
-
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 

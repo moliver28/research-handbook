@@ -28,7 +28,7 @@ Aside from Dovetail, Figjam is a helpful tool when you are just learning how to 
 
 #### 1. Put your notes into Figjam
 
-Don’t just copy your notes word for word into a sticky note in Figjam. Read through them and choose the most salient information to create a sticky note from. Best practice is to use one piece of information per sticky note. Have each contributor take one participant to create sticky notes for. At the end of this step, you should have groups of sticky notes for each participant.
+Don't just copy your notes word for word into a sticky note in Figjam. Read through them and choose the most salient information to create a sticky note from. Best practice is to use one piece of information per sticky note. Have each contributor take one participant to create sticky notes for. At the end of this step, you should have groups of sticky notes for each participant.
 
 #### 2. Cluster the data into themes
 
@@ -48,7 +48,7 @@ As your groupings start to come together, add text headings that summarize each 
 
 Organize and reorganize your findings into meaningful categories. See if you need to adjust any of your themes before moving onto the next step.
 
-You also need to check for possible bias. Try “[arguing the other side](https://uxdesign.cc/how-to-look-at-evidence-and-not-translate-it-into-your-own-agenda-9860171b7ba9).” In other words, build a case from your research *against* your key insights to see if they still stand up.
+You also need to check for possible bias. Try "[arguing the other side](https://uxdesign.cc/how-to-look-at-evidence-and-not-translate-it-into-your-own-agenda-9860171b7ba9)." In other words, build a case from your research *against* your key insights to see if they still stand up.
 
 #### 4. Distill findings into insights
 

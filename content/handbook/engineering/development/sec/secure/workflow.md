@@ -1,13 +1,6 @@
 ---
-
 title: Secure Engineering Refinement
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -32,15 +25,10 @@ Engineering refinement should be an ongoing activity for all engineers.
 Our aim is to have enough issues to fill two iterations ready to be scheduled.
 Unless specified differently for your team, every engineer should try to refine enough issues each week to result in a total weight of at least 6, and should do this following the weekly team meetings.
 
-- [Composition Analysis][ca]
-- [Dynamic Analysis][da]
-- [Static Analysis][sa]
-- [Frontend][frontend]
-
-[ca]:https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=group%3A%3Acomposition+analysis&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name%5B%5D=backend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93&weight=None
-[da]:https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=group%3A%3Adynamic+analysis&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name%5B%5D=backend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93&weight=None
-[sa]: https://gitlab.com/groups/gitlab-org/-/boards/1590105?label_name[]=group%3A%3Astatic%20analysis
-[frontend]: https://gitlab.com/gitlab-org/gitlab/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Asecure&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name[]=frontend&weight=None
+- [Composition Analysis](https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=group%3A%3Acomposition+analysis&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name%5B%5D=backend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93&weight=None)
+- [Dynamic Analysis](https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=group%3A%3Adynamic+analysis&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name%5B%5D=backend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93&weight=None)
+- [Static Analysis](https://gitlab.com/groups/gitlab-org/-/boards/1590105?label_name[]=group%3A%3Astatic%20analysis)
+- [Frontend](https://gitlab.com/gitlab-org/gitlab/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Asecure&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name[]=frontend&weight=None)
 
 ## Steps
 

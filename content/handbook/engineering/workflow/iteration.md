@@ -10,7 +10,7 @@ Engineers are a vital part of a feedback cycle with product management to design
 
 - Consider extracting edge-cases that aren't an impediment to introducing the smallest working piece of functionality into follow-up issues. This will save the merge request from growing during a review. The follow-up issues are also useful for distributing the work among the team when the issue turned out to be more complex than expected.
 
-- Refactorings that require a complex approach can be introduced separately either before the actual changes or as a follow-up in case the quality doesn’t suffer from the introduced changes.
+- Refactorings that require a complex approach can be introduced separately either before the actual changes or as a follow-up in case the quality doesn't suffer from the introduced changes.
 
 - If your issue/merge request description or comment says "First we should do this, make sure that works, refine this", it is also a sign of a possible split that happens before work even begins. In general, if an engineer is following the "one commit, one logical change" model, then each commit can potentially be a separate merge request.
 

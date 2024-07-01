@@ -15,14 +15,14 @@ This page focuses on the architecture and documentation of our Identity Platform
 
 ## Mission
 
-GitLab is one of the stewards of the world’s source code and intellectual property. Our mission is to ensure that internal and administrative access to customer and product data is protected and industry trust is preserved.
+GitLab is one of the stewards of the world's source code and intellectual property. Our mission is to ensure that internal and administrative access to customer and product data is protected and industry trust is preserved.
 
 ### Risks and Process Improvements
 
 Our work focuses on the following risks and process improvement areas:
 
 1. **Lateral Movement Risk:** Restricting and securing access to GitLab's internal data and systems based on "need to know" and least privilege security principles to prevent data leakage or data loss.
-1. **Penetration Risk:** Implement and manage security boundaries (“castle walls”) related to authentication, authorization, device trust, and least privilege for GitLab team members, temporary service providers, and service accounts that have access to internal GitLab systems and/or administrative access.
+1. **Penetration Risk:** Implement and manage security boundaries ("castle walls") related to authentication, authorization, device trust, and least privilege for GitLab team members, temporary service providers, and service accounts that have access to internal GitLab systems and/or administrative access.
 1. **Cloud Infrastructure Control Plane:** We manage the top-level access and architecture for AWS and GCP cloud providers to enforce least privilege and separation of accounts and resources for workloads.
 1. **Last Mile Process Automation:** Implement custom code for vendor feature gaps for last mile compliance and provisioning automation that improve business efficiency and change management auditability. This improves back office and team member end user experience, automation, and audit reports with onboarding, career mobility, offboarding, and ad-hoc access requests using improved role-based access control architecture.
 1. **Configuration State Management:** Use GitOps configuration/infrastructure-as-code for system configuration where feasible to avoid risks with manual configuration and drift detection.
@@ -55,7 +55,7 @@ In Identity v3, we will use programmatic provisioning so every action and metada
 
 Our next-gen architecture will allow us to automate just-in-time access for elevated and administrative actions that are burdensome to manage manually.
 
-For users that need perpetual administrative access, we have an additional admin account for each of the users in Customer Support, Infrastructure, IT, Security and other roles. See [access level wristbands](/handbook/it/policies/access-level-wristbands/) to learn more.
+For users that need perpetual administrative access, we have an additional admin account for each of the users in Customer Support, Infrastructure, IT, Security and other roles. See [access level wristbands](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/) to learn more.
 
 We are also investing in additional administrative control plane separation. Details are not published in the public handbook for security reasons.
 
@@ -113,7 +113,7 @@ We will be using [GitOps](/handbook/security/identity/gitops/) (a.k.a. Terraform
 
 We have identified several key systems and applications that need our focus and investment to optimize Identity Security. We are focusing on managing the admin control plane and tech stack systems that are causing a lot of business inefficiencies related to onboarding and offboarding.
 
-We describe these as the “complex” systems that don’t have easy button provisioning that 3rd party vendors can easily manage. We have to build custom automation using Terraform or REST API calls to handle the complex systems.
+We describe these as the "complex" systems that don't have easy button provisioning that 3rd party vendors can easily manage. We have to build custom automation using Terraform or REST API calls to handle the complex systems.
 
 - (New) Admin Control Plane with GitOps and Admin Accounts
 - GitLab SaaS Instance Admins
@@ -144,13 +144,13 @@ A large number of our tech stack applications have **authentication** federated 
 
 It is important to keep in mind that Okta is not an **authorization** platform. In other words, when you sign in, the application can see your name, email address, and profile attributes or a list of group names that you are a member of, however Okta cannot provision/grant you roles or permissions on the application itself.
 
-Most applications have “simple” provisioning that requires adding the user and they are assigned baseline permissions and users do not need additional permissions. For discussion purposes, this covers ~80% of our applications.
+Most applications have "simple" provisioning that requires adding the user and they are assigned baseline permissions and users do not need additional permissions. For discussion purposes, this covers ~80% of our applications.
 
 A few applications have code logic with their Okta authentication integration that allows you to specify which user profile attributes or group names should be used to grant access to additional roles and permissions inside of the application, however we rarely see this functionality in applications. Most applications provide a UI that lets you manually assign a role to the existing user.
 
 #### Authorization Automation
 
-For ~20% of applications that require “resource” or “role” provisioning, we have to use no-code or our own scripts to achieve this. There are no features in Okta or other Identity solutions that offer these features. This requires using the vendor’s REST API with our own scripts to call endpoints respectively. Any integrations that you see advertised are usually Professional Services custom integrations that their engineers wrote scripts for.
+For ~20% of applications that require "resource" or "role" provisioning, we have to use no-code or our own scripts to achieve this. There are no features in Okta or other Identity solutions that offer these features. This requires using the vendor's REST API with our own scripts to call endpoints respectively. Any integrations that you see advertised are usually Professional Services custom integrations that their engineers wrote scripts for.
 
 You can see the GitLab product [Members API](https://docs.gitlab.com/ee/api/members.html) endpoint as an example. We can force users to sign in with Okta, however Okta cannot automate which groups and projects the user has access to or the role/permission level for each of those groups or projects.
 
@@ -158,11 +158,11 @@ You can see the GitLab product [Members API](https://docs.gitlab.com/ee/api/memb
 
 You may have heard of no code solutions like Okta Workflows, Tines, Workato, Zapier, etc that can solve these needs. While they work reasonably well in simple use cases for users who do not have code experience, they are not the tool for the job in all cases, particularly complex ones.
 
-Remember that no-code workflows are point-to-point and are not usually part of a shared ecosystem that might provide economies of scale. In other words, you can’t call a function/method from another class.
+Remember that no-code workflows are point-to-point and are not usually part of a shared ecosystem that might provide economies of scale. In other words, you can't call a function/method from another class.
 
 With any WYSIWYG tool, you cannot use expression language syntax natively like you can when writing a few lines of code, so you have to catch data, pull an attribute, then plug that string attribute into the next function. The end result is that no-code workflows become overly complicated and can become 50 steps that can be accomplished with 5 lines of code.
 
-In other words, no-code is great for something very simple, but should not be relied on for complex workflows without good reason. In Identity v2, we’ve tried to stretch the limits of no-code workflows, and believe that scripts running in CI/CD pipelines offer easier maintenance if well architected.
+In other words, no-code is great for something very simple, but should not be relied on for complex workflows without good reason. In Identity v2, we've tried to stretch the limits of no-code workflows, and believe that scripts running in CI/CD pipelines offer easier maintenance if well architected.
 
 #### Custom Code Automation
 

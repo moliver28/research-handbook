@@ -12,7 +12,7 @@ This page covers the _how_ of Jobs to be Done. For more on _what_ Jobs to be Don
 
 #### A Note on Time, Confidence, and Validation
 
-The time it takes to run through the entire playbook process can vary substantially, depending on factors such as how many jobs you’re examining, the complexity and variance within those jobs, and your team’s familiarity with the JTBD process. If you're planning to go through the whole playbook, we recommend budgeting at least one full quarter to get through it.
+The time it takes to run through the entire playbook process can vary substantially, depending on factors such as how many jobs you're examining, the complexity and variance within those jobs, and your team's familiarity with the JTBD process. If you're planning to go through the whole playbook, we recommend budgeting at least one full quarter to get through it.
 
 There are some variables at play here. For instance, in cases where you simply want to identify Main Jobs and sketch out a complete assumptive JTBD canvas([JTBD Canvas Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1)), **no validation is required**, and thus the time needed is much shorter. Creating an assumptive canvas can be greatly beneficial as a way to visualize what you know (or think you know) about a particular job, and to get alignment from your team on all the aspects of the job. This can be especially useful where, due to previous research, you have a _high level of knowledge_ about your domain area and how that is reflected in your JTBD. Having said that, high knowledge doesn't exempt the validation requirements for the latter stages of the JTBD playbook -- you will need to complete interviews with your Job Performers to ensure your canvas is accurate, and to understand a Job Performer's motivations enough to write accurate Outcome statements. When rating your confidence level of your JTBD Canvas, consider the following guidance:
 
@@ -46,44 +46,44 @@ Now that you know what Domain area you want to work in, it's time to zoom in on 
 
 **Select a Job Performer via Note & Vote [set timer for 5 minutes]**
 
-To help you determine which Job Performer you want to focus on for this Job Canvas, consider the following questions: Where is there a need in our market? Who are we passionate about serving? What’s relevant or core to our business strategy?
+To help you determine which Job Performer you want to focus on for this Job Canvas, consider the following questions: Where is there a need in our market? Who are we passionate about serving? What's relevant or core to our business strategy?
 
 - Provide each workshopper with some "Target" stickers from FigJam's sticker set.
-    - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
-    - If > 3 participants: Each participant gets 1 sticker to vote with.
-- Move the selected Job Performer to the Job Canvas’s Job Performer section.
+  - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
+  - If > 3 participants: Each participant gets 1 sticker to vote with.
+- Move the selected Job Performer to the Job Canvas's Job Performer section.
 - You can keep the unselected Job Performers in this open area if you want to reference them later to explore additional JTBD Canvases for different Job Performers.
 
 #### Exercise 3: Brainstorm Main Jobs [set timer for 15 minutes]
 
 Next, select the [Main Job](/handbook/product/ux/jobs-to-be-done/#main-job-where-do-you-want-to-innovate) you want to focus on for this JTBD Canvas. The Job Performer and Main Job are closely related and will ultimately be the focus of the rest of this canvas.
 
-Again, in an open area of the FigJam, consider the following: What are all of the Jobs our selected Job Performer is trying to get done in our Domain/Field? List them all on individual sticky notes. Consider what the primary task or objective is that the Job Performer is trying to accomplish (get done) or an activity they’re trying to complete.
+Again, in an open area of the FigJam, consider the following: What are all of the Jobs our selected Job Performer is trying to get done in our Domain/Field? List them all on individual sticky notes. Consider what the primary task or objective is that the Job Performer is trying to accomplish (get done) or an activity they're trying to complete.
 
 **Select a Main Job via Note & Vote [set timer for 5 minutes]**
 
-To help you determine which Main Job you want to focus on for this Job Performer’s Job Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy? What is the primary task or objective that the Job Performer is trying to accomplish (get done)?
+To help you determine which Main Job you want to focus on for this Job Performer's Job Canvas, ask: What's worth going after? What are we passionate about? Which can we best support? What's relevant or core to our business/strategy? What is the primary task or objective that the Job Performer is trying to accomplish (get done)?
 
 - Provide each workshopper with some "Target" stickers from FigJam's sticker set.
-    - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
-    - If > 3 participants: Each participant gets 1 sticker to vote with.
-- Move the selected Main Job to the JTBD Canvas’s Main Job section
+  - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
+  - If > 3 participants: Each participant gets 1 sticker to vote with.
+- Move the selected Main Job to the JTBD Canvas's Main Job section
 - Move the unselected Main Jobs to the Related Jobs section as these can be investigated in separate JTBD Canvases/research later.
 
 #### Exercise 4: Brainstorm Aspirations [set timer for 15 minutes]
 
 Finally, this will be the last exercise for this workshop to consider what does our Job Performer aspire to become after completing this Main Job.
 
-One last time, in an open area of the FigJam, consider: What are all of the Aspirations our selected Job Performer is wanting to become after achieving our Main Job? What are they dreaming about becoming when they achieve or complete the Main Job? List the all of the Aspirations you can think of on individual sticky notes. Continue to ask Why to ensure you’re at the highest, aspirational level.
+One last time, in an open area of the FigJam, consider: What are all of the Aspirations our selected Job Performer is wanting to become after achieving our Main Job? What are they dreaming about becoming when they achieve or complete the Main Job? List the all of the Aspirations you can think of on individual sticky notes. Continue to ask Why to ensure you're at the highest, aspirational level.
 
 **Select an Aspiration via Note & Vote [set timer for 5 minutes]**
 
-To help you determine which Aspirations you want to focus on for this JP’s Job Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy?
+To help you determine which Aspirations you want to focus on for this JP's Job Canvas, ask: What's worth going after? What are we passionate about? Which can we best support? What's relevant or core to our business/strategy?
 
 - Provide each workshopper with some "Target" stickers from FigJam's sticker set.
-    - If < 3 participants: Each participant gets 6 stickers to vote with. You can vote on the same item.
-    - If > 3 participants: Each participant gets 3 sticker to vote with.
-- Select the top 3 voted Aspirations and move them to the JTBD Canvas’s Aspirations ssection leaving the unselected Aspirations behind for consideraton later, if necessary.
+  - If < 3 participants: Each participant gets 6 stickers to vote with. You can vote on the same item.
+  - If > 3 participants: Each participant gets 3 sticker to vote with.
+- Select the top 3 voted Aspirations and move them to the JTBD Canvas's Aspirations ssection leaving the unselected Aspirations behind for consideraton later, if necessary.
 
 ## Pre-Workshop 2: Investigation Interviews & Interview Synthesis
 
@@ -141,19 +141,19 @@ Continuing with your interview syntheses, move on to gathering Outcome Statement
 
 **Emotional Aspects**
 
-Now you will gather together all of the Emotional Aspect Statements from your interviews and then rewrite them into properly formatted Emotional Aspect Statements. Parse your notes looking for references to emotion-like statements that are referencing how the Job Performer _feels_ while doing the Main Job. Add a sticky for every potential emotion you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go.
+Now you will gather together all of the Emotional Aspect Statements from your interviews and then rewrite them into properly formatted Emotional Aspect Statements. Parse your notes looking for references to emotion-like statements that are referencing how the Job Performer _feels_ while doing the Main Job. Add a sticky for every potential emotion you find. Organize them to ensure there aren't any repeated ideas, merging duplicates as you go.
 
 Finally, rewrite each potential Emotion Aspect Statement converting them into properly formatted Emotion Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#Emotional-and-Social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
 
 **Social Aspects**
 
-Next you will gather together all of the Social Aspect Statements from your interviews and then rewrite them into properly formatted Social Aspect Statements. Parse your notes looking for references to Social-like statements that are referencing how the Job Performer _wants to be perceived_ while doing the Main Job. Add a sticky for every potential Social/perception you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go.
+Next you will gather together all of the Social Aspect Statements from your interviews and then rewrite them into properly formatted Social Aspect Statements. Parse your notes looking for references to Social-like statements that are referencing how the Job Performer _wants to be perceived_ while doing the Main Job. Add a sticky for every potential Social/perception you find. Organize them to ensure there aren't any repeated ideas, merging duplicates as you go.
 
 Finally, rewrite each potential Social statement converting them into properly formatted Social Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#Emotional-and-Social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
 
 #### Exercise 4: Synthesize Job Differentiators
 
-Now for the final step before your second and last workshop. Gather together all of the Job Differentiators from your interviews and then rewrite them into properly formatted Job Differentiators. Parse you notes looking for references to differentiator-like statements that are referencing any key factors that _make a difference_ on how the Job Performer will get the Main Job done. Look for specific factors that make a difference. Add a sticky for every potential Job Differentiator you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go.
+Now for the final step before your second and last workshop. Gather together all of the Job Differentiators from your interviews and then rewrite them into properly formatted Job Differentiators. Parse you notes looking for references to differentiator-like statements that are referencing any key factors that _make a difference_ on how the Job Performer will get the Main Job done. Look for specific factors that make a difference. Add a sticky for every potential Job Differentiator you find. Organize them to ensure there aren't any repeated ideas, merging duplicates as you go.
 
 Finally, rewrite each potential Job Differentiators converting them into properly formatted Job Differentiators. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#job-differentiators-what-are-the-factors-or-conditions-that-make-a-difference-in-how-the-job-gets-done) for more on how to construct an Emotional Aspect Statement.
 
@@ -165,17 +165,17 @@ Once again you will need to gather your counterparts together in a sync workshop
 
 #### Exercise 1: Review Job Map Select a Job Step(s) [set timer for 15 minutes]
 
-Share the Job Map with your team, read through it to ensure everyone understands the steps necessary to get the Main Job done and to confirm that it’s been accurately arranged and phrased. Make any adjustments as necessary, but be sure you’re referencing the interview data and not going off of gut instinct. Don’t forget, the interviews were performed for a reason.
+Share the Job Map with your team, read through it to ensure everyone understands the steps necessary to get the Main Job done and to confirm that it's been accurately arranged and phrased. Make any adjustments as necessary, but be sure you're referencing the interview data and not going off of gut instinct. Don't forget, the interviews were performed for a reason.
 
 **Select a Job Step(s) via Note & Vote [set timer for 10 minutes]**
 
-To help you determine which areas of the Job Map are the most important areas to focus on to affect change for this JobPerformer’s JTBD Canvas, ask: What’s the most important step that’s the hardest to get done? What’s the most critical step?
+To help you determine which areas of the Job Map are the most important areas to focus on to affect change for this JobPerformer's JTBD Canvas, ask: What's the most important step that's the hardest to get done? What's the most critical step?
 
-- Provide each workshopper with some “Target” stickers from FigJam’s sticker set.
-    - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item as many times as you want.
-    - If > 3 participants: Each participant gets 1 stickers to vote with.
+- Provide each workshopper with some "Target" stickers from FigJam's sticker set.
+  - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item as many times as you want.
+  - If > 3 participants: Each participant gets 1 stickers to vote with.
 - Discuss the voted upon steps, discussing why each person voted on their step. The goal is to confirm that the team agrees/aligns on a particular step to work on.
-    - It is likely that you'll have a few different steps voted on. Save these for future construction of this JTBD Canvas's Job Stories.
+  - It is likely that you'll have a few different steps voted on. Save these for future construction of this JTBD Canvas's Job Stories.
 - Select and highlight, circle, or outline the top voted Job Step that you are going to innovate on.
 - Copy your Job Map over to your canvas on the right, including the voted on and circled top voted items.
 
@@ -185,11 +185,11 @@ Share the Emotional Aspect stickies with your team, have everyone read through a
 
 **Select Emotional Aspect Statements via Note & Vote [set timer for 5 minutes]**
 
-To help you determine which Emotional Aspect statements are the most important areas to focus on to affect change for this JobPerformer’s JTBD Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy?
+To help you determine which Emotional Aspect statements are the most important areas to focus on to affect change for this JobPerformer's JTBD Canvas, ask: What's worth going after? What are we passionate about? Which can we best support? What's relevant or core to our business/strategy?
 
-- Provide each workshopper with some “Target” stickers from FigJam’s sticker set.
-    - If < 3 participants: Each participant gets 6 stickers to vote with. You can vote on the same item as many times as you want.
-    - If > 3 participants: Each participant gets 3 stickers to vote with.
+- Provide each workshopper with some "Target" stickers from FigJam's sticker set.
+  - If < 3 participants: Each participant gets 6 stickers to vote with. You can vote on the same item as many times as you want.
+  - If > 3 participants: Each participant gets 3 stickers to vote with.
 - Arrange the voted on stickies in a pyramid with the top voted stickies at the top and lowest at the bottom.
 - Discuss the top voted upon items and confirm that the team agrees/aligns on the top voted Emotional Aspect Statements and move them to the appropriate space on the JTBD Canvas.
 
@@ -214,26 +214,26 @@ This survey asks two questions about each of your Outcome Statements:
 1. How _important_ is this (Outcome) to you?
 2. How well is this (Outcome) currently being _satisfied_?
 
-It's important that your survey participants are reprensetitive of your Job Perfomer so you’ll want to be careful to screen out any participants who don’t perform the Main Job you’re researching. Try to get close to 50 qualified responses to ensure a reasonable amount of confidence in your scoring.
+It's important that your survey participants are reprensetitive of your Job Perfomer so you'll want to be careful to screen out any participants who don't perform the Main Job you're researching. Try to get close to 50 qualified responses to ensure a reasonable amount of confidence in your scoring.
 
 There is a [template in Qualtrics](https://gitlab.eu.qualtrics.com/survey-builder/LS_2l5ektxWK1wFRuC/edit?ContextLibraryID=GR_6ziMa2ooJx4Y6SF) to help you get started. (Under Library->UX Research & Product->Templates->Opportunity Score Template).
 
 Note: Remember to recruit both GitLab and non-GitLab users, and be able to easily segment them for your analysis.
 
-At GitLab, we use a 10 point scale, labeled at each end as ‘very low’ (1) and ‘very high’ (10).
+At GitLab, we use a 10 point scale, labeled at each end as 'very low' (1) and 'very high' (10).
 
 Using the scores for importance and satisfaction, we can calculate an opportunity score:
 
 ![JTBD Opportunity Score](/handbook/product/ux/jobs-to-be-done/JTBD_OpportunityScore.png)
 
-1. The importance score minus the satisfaction score is your ‘satisfaction gap’.
+1. The importance score minus the satisfaction score is your 'satisfaction gap'.
 2. Add the satisfaction gap to your original importance score to get the final opportunity score.
 
 [This spreadsheet template](https://docs.google.com/spreadsheets/d/109GZqTYPpOLpHLj-gwV_ldMFwIKa9MaaLPyLJ4kdoQs/edit?usp=sharing) offers a step by step guide to exporting data from a Qualtrics survey and generating a ranked list of Outcome statements with opportunity scores.
 
 [Opportunity scores](https://medium.com/uxr-microsoft/what-is-the-opportunity-score-and-how-to-obtain-it-bb81fcbf79b7) run from 0-20. Generally, anything above a 10 is worth looking at closely, and anything over 15 is a critical opportunity that needs to be addressed as soon as possible.
 
-If all the scores on your survey are less than 10, that’s great - but remember, any score above a zero indicates some room for improvement, so it’s still wise to look at your top scores. Conversely, if you have dozens of Outcome statements above a 10, prioritize those with the highest scores.
+If all the scores on your survey are less than 10, that's great - but remember, any score above a zero indicates some room for improvement, so it's still wise to look at your top scores. Conversely, if you have dozens of Outcome statements above a 10, prioritize those with the highest scores.
 
 | Opportunity Score | Severity |
 | ----- | ----------- |
@@ -244,7 +244,7 @@ If all the scores on your survey are less than 10, that’s great - but remember
 
 ## Generate Job Stories
 
-Now that you have a completed JTBD Canvas you can use it to create Job Stories. Job Stories help synthesize and summarize all of the great information you just put together on your JTBD Canvas. You might end up creating between 3 - 5 Job Stories to cover the data and insights you gathered and voted on as being the most important aspect of your JTBD Canvas. Bear in mind that good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
+Now that you have a completed JTBD Canvas you can use it to create Job Stories. Job Stories help synthesize and summarize all of the great information you just put together on your JTBD Canvas. You might end up creating between 3 - 5 Job Stories to cover the data and insights you gathered and voted on as being the most important aspect of your JTBD Canvas. Bear in mind that good Job Stories describe the pain points that you're going after and help you empathize with the Job Performer.
 
 To learn more about what Job Stories are, how to write them, and how you can use them to generate design solutions check the [handbook section](/handbook/product/ux/jobs-to-be-done/#job-stories).
 
@@ -258,20 +258,20 @@ So I can __________ [reach these **Outcomes**] + [and have these **Emotional/Soc
 
 ### Align on Ranked Outcomes: Workshop
 
-Here’s where the magic happens. If you have the ranked Outcomes by opportunity score from your survey, you have a list of the areas that will be most impactful to your users’ experience of your product. Now is the time to meet with your stakeholders and discuss the top ranked Outcomes. Our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=qrubQYZLbPWYJjN3-1) has a workshop template and guide you can use to help address each Outcome statement.
+Here's where the magic happens. If you have the ranked Outcomes by opportunity score from your survey, you have a list of the areas that will be most impactful to your users' experience of your product. Now is the time to meet with your stakeholders and discuss the top ranked Outcomes. Our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=qrubQYZLbPWYJjN3-1) has a workshop template and guide you can use to help address each Outcome statement.
 
 A few things to think about during the workshop:
 
 - Are the Outcomes already being addressed with current and planned work? If not, should they be incorporated into future planning?
 - Where in the product is each Outcome done? Are there specific pages, controls, or parts of the UI that we can focus on?
-- Who owns each Outcome? Are there other teams that ‘own’ some of the areas of opportunity? Who can you speak with to see if they are working on this Outcome already?
+- Who owns each Outcome? Are there other teams that 'own' some of the areas of opportunity? Who can you speak with to see if they are working on this Outcome already?
 - What can be done to achieve the stated Outcome? Think of some potential solutions.
 
 The result of the workshop should be that the team understands the top opportunities for that Main Job and Job Performer, and has discussed ways to address them.
 
 You and your team now have a list of the most important areas to focus on - a list that you can share with other teams and stakeholders (even customers!) to help bring clarity and confidence to your product roadmap.
 
-The list of opportunities will remain relevant for a long time (until you release changes to your product that address the opportunities), because they aren’t based on particular features or solutions, but larger Outcomes that users want to achieve. Re-survey your Job Performers about certain Outcome statements after your team has made some changes, in order to see if the opportunity score has decreased (meaning you’ve made positive progress to fulfilling the desired Outcome).
+The list of opportunities will remain relevant for a long time (until you release changes to your product that address the opportunities), because they aren't based on particular features or solutions, but larger Outcomes that users want to achieve. Re-survey your Job Performers about certain Outcome statements after your team has made some changes, in order to see if the opportunity score has decreased (meaning you've made positive progress to fulfilling the desired Outcome).
 
 -->
 

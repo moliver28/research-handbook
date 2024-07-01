@@ -1,5 +1,4 @@
 ---
-
 title: JiHu Partnership
 description: "Support specific information for the JiHu partnership"
 ---

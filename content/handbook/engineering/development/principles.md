@@ -26,8 +26,7 @@ engineering practice.
 
 ## Iteration
 
-We always push ourselves to be iterative and make the [minimal viable
-change](/handbook/product/product-principles/#the-minimal-viable-change-mvc)
+We always push ourselves to be iterative and make the [minimal viable change](/handbook/product/product-principles/#the-minimal-viable-change-mvc)
 that is on the direct path to achiving our goals.
 
 For complex initiatives we are using the [Architecture Design Workflow](/handbook/engineering/architecture/workflow/)
@@ -245,7 +244,7 @@ We develop and document processes that are designed to help us in achieving bett
 For example, the following processes exist to reduce the risk and improve code quality:
 
 - [Feature Flags Usage](https://docs.gitlab.com/ee/development/feature_flags/index.html)
-- [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html))
+- [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html)
 
 We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/development/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis.html), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
 
@@ -253,10 +252,7 @@ Everyone can contribute by proposing new processes and improving upon existing p
 
 ## Quality
 
-It is important to remember that quality is everyone's responsibility. Everything you merge to master should be production ready. Familiarize yourself with the [definition of done].
-
-[Development Guides]: https://docs.gitlab.com/ee/development/
-[definition of done]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/merge_request_workflow.md#definition-of-done
+It is important to remember that quality is everyone's responsibility. Everything you merge to master should be production ready. Familiarize yourself with the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/merge_request_workflow.md#definition-of-done).
 
 ### Release when it's ready
 
@@ -312,7 +308,7 @@ Follow the [dogfooding process described in the Product Handbook](/handbook/prod
 
 ### Code Quality and Standards
 
-We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides] in general, and the ones that relates to your group in particular:
+We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides](https://docs.gitlab.com/ee/development/) in general, and the ones that relates to your group in particular:
 
 - [UX Guides](https://docs.gitlab.com/ee/development/ux)
 - [Backend Guides](https://docs.gitlab.com/ee/development/#backend-guides)
@@ -329,7 +325,7 @@ The only way to achieve flexibility is to make things as simple and easy to chan
 
 Part of our engineering culture is to keep shipping so users and customers see significant new value added to GitLab.com or their self-managed instance. To support rapid development, we choose pragmatically the right technology. As each view is unique, we should equally respect our HAML and Vue codebase and make an educated choice per view as to which framework will enable the most consistency and maintainability.
 
-It’s important to keep in mind that when building complex applications, there are many factors to consider such as the fully planned feature to avoid situations where we build an MVC in HAML only to later need to re-write it in Vue due to growing complexity.
+It's important to keep in mind that when building complex applications, there are many factors to consider such as the fully planned feature to avoid situations where we build an MVC in HAML only to later need to re-write it in Vue due to growing complexity.
 
 To promote visual consistency and an accessible UI, we should always aim to use simple and reusable UI components provided by the [GitLab UI component library](https://gitlab.com/gitlab-org/gitlab-ui/) both in Vue and HAML views. We implement GitLab UI components based on our Pajamas design system and currently these are mostly in Vue, however, we provide [adapters](https://docs.gitlab.com/ee/development/fe_guide/haml.html#available-components) that allow us to use a few simple components in HAML as well.
 

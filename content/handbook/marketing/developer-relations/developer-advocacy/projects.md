@@ -1,10 +1,8 @@
 ---
-
 title: "Projects"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/projects/index.html
 ---
-
 
 ## Introduction
 
@@ -22,7 +20,7 @@ All projects are organized in sub-groups on the top level. No projects are allow
 | [use-cases](https://gitlab.com/gitlab-da/use-cases) | all | Use cases for specific topics for product demos, talks, thought leadership, research |
 | [use-cases/ai](https://gitlab.com/gitlab-da/use-cases/ai) | all | [GitLab Duo workflows, coffee chats, learning AI, use cases](https://about.gitlab.com/gitlab-duo/) |
 | [https://gitlab.com/gitlab-da/use-cases/ai/ai-research](https://gitlab.com/gitlab-da/use-cases/ai/ai-research) | @dnsmichi | AI research with local LLMs (Ollama), RAG, AI agents, etc. |
-| [use-cases/ai/ai-workflows](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows) | @dnsmichi | [GitLab Duo](https://about.gitlab.com/gitlab-duo/) prompts and challenges with exercise source code, linked from the [documentation](https://docs.gitlab.com/ee/user/gitlab_duo_examples.html) |
+| [use-cases/ai/ai-workflows](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows) | @dnsmichi | [GitLab Duo](https://about.gitlab.com/gitlab-duo/) prompts and challenges with exercise source code, linked from the [documentation](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html) |
 | [use-cases/ai/gitlab-duo-coffee-chat](https://gitlab.com/gitlab-da/use-cases/ai/gitlab-duo-coffee-chat) | @dnsmichi | [GitLab Duo coffee chats](#gitlab-duo-coffee-chat) |
 | [use-cases/ai/learn-with-ai](https://gitlab.com/gitlab-da/use-cases/ai/learn-with-ai) | @dnsmichi @sugaroverflow | Learning a programming language with GitLab Duo (AI), [blog series](https://about.gitlab.com/blog/categories/ai-ml/) |
 | [use-cases/ai/learn-test-ai](https://gitlab.com/gitlab-da/use-cases/ai/test-ai) | all | Test playground for AI and GitLab Duo |

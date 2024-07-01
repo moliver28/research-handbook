@@ -67,25 +67,25 @@ If you have any questions or require assistance with completing an access review
 ### Annual Access Review Cadence
 
 - In-scope:
-    - Quarterly Terminated User Access Reviews - system specific
-    - Quarterly Entitlement Reviews for privileged users - system specific
-    - Annual Entitlement Reviews for all users - system specific
+  - Quarterly Terminated User Access Reviews - system specific
+  - Quarterly Entitlement Reviews for privileged users - system specific
+  - Annual Entitlement Reviews for all users - system specific
 - [SOX In-Scope Appplications](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
-    - Quarterly Entitlement Reviews for all users
+  - Quarterly Entitlement Reviews for all users
 
 All components of a user access review must be completed within the time period under audit. For example, if a user access review is scheduled for Q2, all components of the review including any required actions for modification/removal and lookbacks must be completed by the end of the quarter. It would not be sufficient to have outstanding requests for modification/removal at the quarter end, regardless of the users being identified for modification/removal prior to quarter end.
 
 ### Access Removals
 
-If appropriateness of access cannot be verified as part of the review or a system owner/reviewer flags a user for removal, a validation will take place with the team member’s manager prior to access removal as per the [Observation Management Procedure]({{< ref "observation-management-procedure" >}}). This validation must take place within **7 calendar days** and if access is determined to not be required **OR** no agreement can be reached within that SLA between the Manager and system owner/reviewer, access will be removed. If the risk associated with unvalidated access is too high, access will be revoked immediately and impacted users will be directed towards the new access request process for re-provisioning. While we want to avoid disruption in access whenever possible, we need to balance the impact of that disruption with the risk of continued and unvalidated access to GitLab systems. The Security Compliance team is not responsible nor has the ability to remove access. Security Compliaces role and responsiblity is limited to opening access removal issues and assigning those issues out to the appropriate System Owner(s) and/or the IT Operations team. System Owners and/or IT Operations is responsible for execution of access removal or adjustment. Communication of the access removal or adjustment for affected team members is at the discretion of the system owner/reviewer.
+If appropriateness of access cannot be verified as part of the review or a system owner/reviewer flags a user for removal, a validation will take place with the team member's manager prior to access removal as per the [Observation Management Procedure]({{< ref "observation-management-procedure" >}}). This validation must take place within **7 calendar days** and if access is determined to not be required **OR** no agreement can be reached within that SLA between the Manager and system owner/reviewer, access will be removed. If the risk associated with unvalidated access is too high, access will be revoked immediately and impacted users will be directed towards the new access request process for re-provisioning. While we want to avoid disruption in access whenever possible, we need to balance the impact of that disruption with the risk of continued and unvalidated access to GitLab systems. The Security Compliance team is not responsible nor has the ability to remove access. Security Compliaces role and responsiblity is limited to opening access removal issues and assigning those issues out to the appropriate System Owner(s) and/or the IT Operations team. System Owners and/or IT Operations is responsible for execution of access removal or adjustment. Communication of the access removal or adjustment for affected team members is at the discretion of the system owner/reviewer.
 
 ## Additional Guidance
 
-#### Timing of Quarterly Access Reviews
+### Timing of Quarterly Access Reviews
 
 - Access reviews are targeted to be completed within 1 month from when the system listing is exported to completion of all steps of the review. By completing the access review within a month's timeframe, we ensure the access data has not become stale. If any components of an access review are not completed within the quarter they are initiated, the review would likely be considered ineffective for compliance purposes making the month timeline all the more important to adhere to.
 
-#### Lookback Reviews
+### Lookback Reviews
 
 For any accounts that require any removal of access (full removal or individual roles/privileges), a lookback review may be required. A lookback review is a review of activity for the period of time which the access was inappropriate.
 
@@ -109,11 +109,11 @@ The most simple method to perform a lookback for users is to review their last l
 
 Evidence of the completed lookback review should be retained and documented within the access review workbook or other associated documentation.
 
-#### Validation of Modifications completed
+### Validation of Modifications completed
 
 For any accounts that are requested for modification or removal, validation they were modified as requested should be completed and evidence captured of their successful modification (i.e screenshot, updated user listing that reflects changes made).
 
-#### Access Review Notification Reminders
+### Access Review Notification Reminders
 
 Security Compliance managed access reviews required for audit evidence have a deadline of 10 business days from the launch of the review in Authomize.  Automated reminders will be used based on number of days out from the due date:
 
@@ -158,7 +158,7 @@ The following fields are the most comprehensive to assist in performing a thorou
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 

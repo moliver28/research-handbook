@@ -20,7 +20,7 @@ The process for these is:
 1. Support Operations generates the license using the parameters in the issue.
 1. Support Operations updates the issue and closes it out.
 
-#### Checking for an existing license
+### Checking for an existing license
 
 1. Login to the
    [staging cDot app](https://customers.staging.gitlab.com/admins/sign_in) via
@@ -35,7 +35,7 @@ The process for these is:
 1. Review the clarification given and make a decision if a new license is
    warranted.
 
-#### Creating a license
+### Creating a license
 
 **Note** Before proceeding, please confirm the requested end date on the issue
 does not exceed 1 year. If it does, we cannot proceed with the request until
@@ -71,7 +71,7 @@ the requester changes that.
    | End date                | value from the issue               |
    | Notes                   | the issue link                     |
 
-#### Updating the issue
+### Updating the issue
 
 After you have generated the license, you need to reply and close out the issue.
 

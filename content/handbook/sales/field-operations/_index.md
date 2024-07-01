@@ -1,34 +1,27 @@
 ---
-
 title: "Field Operations"
 description: "The Field Operation team's vision is to manage field business processes, systems, architecture, enablement, champion data integrity, provide insights and predictability through analytics"
 ---
 
-
-
-
-
-
-
 ### Welcome to the Field Operations Handbook
 
-“Manage field business processes, systems, architecture, enablement, champion data integrity, provide insights and predictability through analytics”
+"Manage field business processes, systems, architecture, enablement, champion data integrity, provide insights and predictability through analytics"
 
 The term *"sales"* refers to the Sales Team and *"field"* includes the Customer Success, Channel, and Alliances Teams.
 
 ### Key Tenets
 
 **Clarity**: for definitions, processes and events
-**Predictability**: of the business by leveraging data and systems  
+**Predictability**: of the business by leveraging data and systems
 **Scalability**: for processes and systems that allows for growth
 
 ### Teams
 
 - [Sales Operations](/handbook/sales/field-operations/sales-operations/)
-    - [Deal Desk](/handbook/sales/field-operations/sales-operations/deal-desk/#welcome-to-the-deal-desk-handbook)
-    - [Order Management](/handbook/sales/field-operations/sales-operations/order-management/)
-    - [Sales Commissions](/handbook/sales/commissions/)
-    - [Data Intelligence](/handbook/sales/field-operations/data-intelligence/)
+  - [Deal Desk](/handbook/sales/field-operations/sales-operations/deal-desk/#welcome-to-the-deal-desk-handbook)
+  - [Order Management](/handbook/sales/field-operations/sales-operations/order-management/)
+  - [Sales Commissions](/handbook/sales/commissions/)
+  - [Data Intelligence](/handbook/sales/field-operations/data-intelligence/)
 - [Sales Systems](/handbook/sales/field-operations/sales-systems/)
 - [Sales Strategy](/handbook/sales/field-operations/sales-strategy/)
 - [Field Enablement](/handbook/sales/field-operations/field-enablement/)

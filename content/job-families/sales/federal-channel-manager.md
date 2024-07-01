@@ -19,7 +19,7 @@ The Public Sector Channel Manager is a [grade 8](/handbook/total-rewards/compens
 - Assist Partners in broadening their product expertise and sales opportunities, striving for growth from all associated selling resources.
 - Provide timely and on-going deal support to help close new opportunities at identified resellers including pricing requests, resource coordination, and other partner management activities.
 - Drive marketing initiatives, go-to-market programs, and demand generation activities that will result in new reseller sales opportunities
-- Proactively develop incentives or contests that will increase GitLab’s consideration rate within the reseller’s sales force.
+- Proactively develop incentives or contests that will increase GitLab's consideration rate within the reseller's sales force.
 - Provide overall relationship management and act as the central point of contact for channel resellers and distributors.
 - Be a key contributor to help define and scale the optimal channel partner program.
 - Assist sales management in conveying customer needs to product managers, and technical support staff
@@ -35,7 +35,7 @@ The Public Sector Channel Manager is a [grade 8](/handbook/total-rewards/compens
 - Strong customer service orientation and ability to develop and maintain relationships
 - You share our values, and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 
 ## Career Ladder
 

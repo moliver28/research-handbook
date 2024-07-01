@@ -1,5 +1,4 @@
 ---
-
 title: "Test Engineering team"
 description: "Test Engineering team in Test Platform sub-department"
 ---
@@ -21,17 +20,17 @@ Engineering Manager: Ksenia Kolpakova
 
 | S.No     | Department            | Section                   | Stage         | SET Counterpart    |
 |-------|-----------------------|-------------------------|---------------|--------------------|
-| 1        | [Core Development]      | [Dev section]              | [Create]      | Jay McCure         |
-| 2     | [Core Development]      | [Dev section]            | [Plan]        | Désirée Chevalier  |
-| 3        | [Core Development]      | [CI section]              | [Verify]      | Tiffany Rea, Joy Roodnick |
-| 4        | [Core Development]      | [CI section]               | [Package]     | Tiffany Rea       |
-| 5        | [Core Development]      | [CD section]               | [Deploy]      | -                  |
-| 6     | [Expansion Development] | [Sec section]              | [Secure]      | Will Meek          |
-| 7     | [Expansion Development] | [Sec section]           | [Govern]      | Harsha Muralidhar  |
-| 8    | [Expansion Development] | [Fulfillment section]   | [Fulfillment] | Valerie Burton     |
-| 9    | [Expansion Development] | [Fulfillment section]   | [Fulfillment] | Richard Chong      |
-| 10    | [Expansion Development] | [Data Science section]  | [ModelOps]    | -                  |
-| 11    | [Expansion Development] | [Data Science section]  | [AI-powered]  | Ramya Authappan    |
+| 1        | [Core Development](/handbook/engineering/core-development/)      | [Dev section](/handbook/product/categories/#dev-section)              | [Create](/handbook/product/categories/#create-stage)      | Jay McCure         |
+| 2     | [Core Development](/handbook/engineering/core-development/)      | [Dev section](/handbook/product/categories/#dev-section)            | [Plan](/handbook/product/categories/#plan-stage)        | Désirée Chevalier  |
+| 3        | [Core Development](/handbook/engineering/core-development/)      | [CI section](/handbook/product/categories/#ci-section)              | [Verify](/handbook/product/categories/#verify-stage)      | Tiffany Rea, Joy Roodnick |
+| 4        | [Core Development](/handbook/engineering/core-development/)      | [CI section](/handbook/product/categories/#ci-section)               | [Package](/handbook/product/categories/#package-stage)     | Tiffany Rea       |
+| 5        | [Core Development](/handbook/engineering/core-development/)      | [CD section](/handbook/product/categories/#cd-section)               | [Deploy](/handbook/product/categories/#deploy-stage)      | -                  |
+| 6     | [Expansion Development](/handbook/engineering/expansion-development/) | [Sec section](/handbook/product/categories/#sec-section)              | [Secure](/handbook/product/categories/#secure-stage)      | Will Meek          |
+| 7     | [Expansion Development](/handbook/engineering/expansion-development/) | [Sec section](/handbook/product/categories/#sec-section)           | [Govern](/handbook/product/categories/#govern-stage)      | Harsha Muralidhar  |
+| 8    | [Expansion Development](/handbook/engineering/expansion-development/) | [Fulfillment section](/handbook/product/categories/#fulfillment-section)   | [Fulfillment](/handbook/product/categories/#fulfillment-stage) | Valerie Burton     |
+| 9    | [Expansion Development](/handbook/engineering/expansion-development/) | [Fulfillment section](/handbook/product/categories/#fulfillment-section)   | [Fulfillment](/handbook/product/categories/#fulfillment-stage) | Richard Chong      |
+| 10    | [Expansion Development](/handbook/engineering/expansion-development/) | [Data Science section](/handbook/product/categories/#data-science-section)  | [ModelOps](/handbook/product/categories/#modelops-stage)    | -                  |
+| 11    | [Expansion Development](/handbook/engineering/expansion-development/) | [Data Science section](/handbook/product/categories/#data-science-section)  | [AI-powered](/handbook/product/categories/#ai-powered-stage)  | Ramya Authappan    |
 
 * FYI - There are no hiring plans for SETs in FY25.
 
@@ -95,22 +94,3 @@ Teams should feel encouraged to tailor this process to what works best for them.
 6. The developer can reach out to this SET as their coaching buddy for pairings, questions and reviews while they develop / update the E2E tests.
 7. If there is a change mid-project in implementation or direction that would affect the previously planned E2E test changes, it is the responsibility of the developer to update the test issues and notify the SET to keep them in the loop.
 8. After E2E test(s) are merged, if a test failure is encountered within a merge request, it is the responsibility of the author to investigate. If an SET creates or is assigned to a failure issue from a scheduled pipeline, the SET will also assign the issue to the relevant developer. The SET can then help guide the developer through troubleshooting and supporting them with test maintenance.
-
-[Core Development]: /handbook/engineering/core-development/
-[Expansion Development]: /handbook/engineering/expansion-development/
-[Dev section]: /handbook/product/categories/#dev-section
-[Plan]: /handbook/product/categories/#plan-stage
-[Create]: /handbook/product/categories/#create-stage
-[CI section]: /handbook/product/categories/#ci-section
-[Verify]: /handbook/product/categories/#verify-stage
-[Package]: /handbook/product/categories/#package-stage
-[CD section]: /handbook/product/categories/#cd-section
-[Deploy]: /handbook/product/categories/#deploy-stage
-[Sec section]: /handbook/product/categories/#sec-section
-[Secure]: /handbook/product/categories/#secure-stage
-[Govern]: /handbook/product/categories/#govern-stage
-[Fulfillment section]: /handbook/product/categories/#fulfillment-section
-[Fulfillment]: /handbook/product/categories/#fulfillment-stage
-[Data Science section]: /handbook/product/categories/#data-science-section
-[ModelOps]: /handbook/product/categories/#modelops-stage
-[AI-powered]: /handbook/product/categories/#ai-powered-stage

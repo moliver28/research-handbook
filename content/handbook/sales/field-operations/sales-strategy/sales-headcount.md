@@ -1,14 +1,7 @@
 ---
-
 title: "Sales Headcount"
-description: “Guide for requesting position adjustments for Sales team members”
+description: "Guide for requesting position adjustments for Sales team members"
 ---
-
-
-
-
-
-
 
 ### Sales Headcount Change Management
 

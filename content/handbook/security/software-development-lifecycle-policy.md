@@ -55,7 +55,7 @@ Considerations for design documents are:
 
 - Security: Developers must define how they will keep the application secure. This includes deciding how to protect user data and general application data.
 
-- Programming: Define the project’s tech and tool stack.
+- Programming: Define the project's tech and tool stack.
 
 Design documents must be approved by relevant stakeholders prior to being merged (prototyping).
 
@@ -83,4 +83,4 @@ Maintenance of GitLab's platform is conducted in accordance with [GitLab's relea
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).

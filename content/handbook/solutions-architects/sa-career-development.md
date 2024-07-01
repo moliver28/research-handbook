@@ -6,7 +6,6 @@ description: >-
   contributor or leadership track
 ---
 
-
 ## Career Development
 
 Solutions Architecture team members you should review the [GitLab People Group Career Development page](/handbook/people-group/learning-and-development/career-development/) for the roles, responsibilities, and helpful career development resources.
@@ -22,7 +21,7 @@ The diagram below can help you exploring potential evolutions of your career dev
 
 While maturing a decision or assessing options, the below steps can help you throughout the process:
 
-1. Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to:
+1. Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to:
 
     - Discuss the Career Path you want to explore and your motivation
     - Learn about what involves to be in these roles (for instance, you can read the job description for the roles you are interested in or speak directly with people who are in these roles)
@@ -50,8 +49,7 @@ The Solutions Architecture promotion process augments the [People Group Promotio
     - For Staff level promotions, the promotion candidate's manager will consult with existing Staff and Principal level SAs for peer-level review and feedback while taking detailed notes.
     - For Principal level promotions, the Principal candidates will prepare and present their accomplishments and their vision for improving GitLab and the SA organization to a panel of SA leaders and Principal level SAs after calibration has occurred.
     - The Principal promotion panel will then meet to discuss the candidate's suitability for the Principal SA role.
-1. After reviewing and providing feedback, the VP of Solutions Architecture will inform the VP of Customer success, typically during a weekly 1 on 1 meeting.
-1. The VP of Customer Success will review the request and provide feedback if necessary. If the request is approved, the VP will annotate the justification document with their approval.
+1. After reviewing and providing feedback, the VP of Solutions Architecture will inform the Manager or Director of his/her approval.
 1. At this point, the standard quarterly promotion process is followed
 
 ### Associate Solution Architecture Program
@@ -59,7 +57,7 @@ The Solutions Architecture promotion process augments the [People Group Promotio
 In FY23, GitLab kicked off its first ever Associate Program across Customer Success with the aim to:
 
 - Build the next generation of highly-diverse, well-prepared GitLab Solutions Architects
-- Grow pre-sales engineering skill sets that are focused on GitLab’s product offering, business model and aligned to customer needs
+- Grow pre-sales engineering skill sets that are focused on GitLab's product offering, business model and aligned to customer needs
 - Give existing SAs an opportunity to grow in their careers through having early-in-career SAs to mentor and coach
 
 The program leverages the enablement material that all SAs use in the onboarding process in addition

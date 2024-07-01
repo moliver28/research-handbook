@@ -1,5 +1,4 @@
 ---
-
 title: "Using Feast"
 description: "How to use Feast to train ML models"
 ---

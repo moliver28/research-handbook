@@ -57,9 +57,9 @@ To engage with the GitLab Dedicated teams:
   - For GitLab Dedicated specific questions, you can find us in [#f_gitlab_dedicated](https://gitlab.slack.com/archives/C01S0QNSYJ2)
   - The `@dedicated-envauto-team` Slack group can be used in any internal channel to tag the Environment Automation team.
   - Engineering teams have their own work channels for team work discussions:
-      - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
-      - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
-      - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
+    - [#g_dedicated-team](https://gitlab.slack.com/archives/C025LECQY0M)
+    - [#g_dedicated-switchboard-team](https://gitlab.slack.com/archives/C04DG7DR1LG)
+    - [#g_dedicated-us-pubsec](https://gitlab.slack.com/archives/C03R5837WCV)
   - Our [social channel](https://gitlab.slack.com/archives/C03QBGQ3K5W) is accessible to everyone who wants to casually interact with the team
 
 ### Handling Configuration Changes for Tenant Environments
@@ -196,6 +196,8 @@ The group has a set of regular synchronous calls for PMs and EMs to ensure align
 - `GitLab Dedicated Product <> Eng Sync` - This call is weekly on Mondays and Thursdays for PMs and EMs to align
 - `Dedicated Managers Sync` - This call is every two weeks for Dedicated EMs to sync and ensure alignment
 
+It is the organizer's responsibility to ensure these calls can be recorded regardless of whether the organizer is present by [enabling "Alternative Hosts" in Zoom](/handbook/tools-and-tips/zoom/#how-to-allow-recording-when-the-host-is-not-present).
+
 Impromptu Zoom meetings for discussing GitLab Dedicated work between individuals are created as needed.
 It is expected that these meetings are private streamed, or recorded(1*), and then uploaded to [GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqC5FfUVPyndvLvTWifWbfB).
 The outcome of the call is shared in a persistent location (Slack is not persistent). This is especially important as the team grows, because any decisions that are made in the early stage have will be questioned in the later stages when the team is larger.
@@ -309,7 +311,7 @@ Epic boards are used to track the overall status of epics. We use the following 
 
 #### Epic roadmap
 
-All epics and sub-epics are set with due dates according to the [the Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
+All epics and sub-epics are set with due dates according to the [Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
 
 Limited Availability phases end and are closed on the release day of each phase's corresponding month.
 
@@ -422,7 +424,7 @@ The process can be summarized as:
 
 #### Resolving threads on a merge-request
 
-As the merge request author, please don’t mark discussions resolved until the reviewer has had a chance to respond. In general, if the reviewer has not yet approved the MR, and the thread is non-trivial, don’t mark their comments as resolved, let the reviewer review your response and resolve accordingly during the next round of view. If they have approved the MR, but comments remain unresolved, it's generally fine to resolve comments before merging.
+As the merge request author, please don't mark discussions resolved until the reviewer has had a chance to respond. In general, if the reviewer has not yet approved the MR, and the thread is non-trivial, don't mark their comments as resolved, let the reviewer review your response and resolve accordingly during the next round of view. If they have approved the MR, but comments remain unresolved, it's generally fine to resolve comments before merging.
 
 #### Maintainer training
 
@@ -552,7 +554,7 @@ and is not expected to be perfect in every situation.
 Do your best,
 and understand that the process is inherently imprecise and fuzzy at the edges.
 
-The Dedicated capacity process process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
+The Dedicated capacity process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
 
 The overall flow of work is to assess any new reported saturation risks,
 and re-review any which are due to be looked at again.
@@ -610,7 +612,7 @@ as a high priority task that is second only to active incidents:
       1. Work on the tamland
          [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
         to exclude or tweak the specific saturation signal.
-         - The [Scalability:Observability](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/observability/) team
+         - The [Scalability:Observability](/handbook/engineering/infrastructure/team/scalability/observability/) team
         can offer advice on the finer details of the tamland configuration.
 1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
    The pipeline should run successfuly every day.
@@ -651,12 +653,31 @@ Some tips:
    [Capacity Planning Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-tracker/gitlab-dedicated/-/issues) can be a good source of information,
    as some recurring saturation forecast share the same or similar causes,
    or just to gain some insight into how these issues have been investigated and resolved in the past.
+1. Remember that some items may alert across multiple tenants.
+   If possible, treat them as a unit rather than per-tenant,
+   unless the causes and fixes are truly distinct.
+   This is particularly important for false-positives or items needing tuning
 1. Trust your instincts.
    If it looks concerning, raise a remediation issue; they are free, and can easily be closed again after additional input.
    If it looks fine it probably is,
    and even if it isn't then there's a rotating schedule of other engineers in the following weeks who can spot something you missed.
    This process is designed to get warning of things that are coming when possible,
    not to be a perfect predictor in all cases.
+
+#### Example responses
+
+Here are some concrete examples of responses to capacity planning alerts.
+
+- Removing a metric from capacity planning - [Advanced search memory pressure](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/merge_requests/3322)
+  does not follow long-term trends and was not a useful prediction.
+  It remains a metric that is _alerted_ on if it exceeds practical limits.
+- Remove saturation metric entirely - [kube_pool_cpu](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/7412)
+  was incorrect in many cases, and difficult to get right.
+  It needed to be replaced with a different saturation metric (node-based CPU).
+- Add Saturation metrics - [Kubernetes PVCs](https://gitlab.com/gitlab-com/runbooks/-/merge_requests/7411)
+  were not being monitored at all, leading to near-miss incidents
+- Fix the saturation metric - [Advanced search disk](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/instrumentor/-/merge_requests/3331)
+  was inaccurate and needed to be replaced with better promql expressions
 
 ### Resources
 

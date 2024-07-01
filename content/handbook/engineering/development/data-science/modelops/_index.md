@@ -24,7 +24,7 @@ The following people are permanent members of the ModelOps Stage:
 
 | Who                                               | Role                 |
 |---------------------------------------------------|----------------------|
-| [Phil Calder](/handbook/company/team/#pcalder)    | Director of Engineer |
+| [Michelle Gill](/handbook/company/team/#m_gill)   | Director of Engineer |
 | [Monmayuri Ray](/handbook/company/team/#mray2020) | Engineering Manager  |
 
 ## How to contact us

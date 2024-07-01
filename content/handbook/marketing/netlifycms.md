@@ -1,13 +1,7 @@
 ---
-
 title: Content contribution to the GitLab marketing website via Netlify CMS
 description: How to contribute content to the GitLab marketing website using Netlify CMS
 ---
-
-
-
-
-
 
 ## Introduction
 
@@ -72,7 +66,7 @@ To edit an existing or create a new page in Netlify CMS, make sure that the [con
 
 ### Topic pages and web articles (aka child topic pages)
 
-A topic is an industry trend, theme, or technology related to GitLab and our customers. For example, DevOps, GDPR, Containers, etc. Topic pages on our website educate the reader about the topic and share GitLab’s point of view while providing additional links to resources related to that topic. These pages are intended to attract search traffic.
+A topic is an industry trend, theme, or technology related to GitLab and our customers. For example, DevOps, GDPR, Containers, etc. Topic pages on our website educate the reader about the topic and share GitLab's point of view while providing additional links to resources related to that topic. These pages are intended to attract search traffic.
 
 Topic pages managed through Netlify CMS exist at [https://about.gitlab.com/topics/](https://about.gitlab.com/topics/). The content is located stored in the [`/data/topic`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/topic) and [`/data/topic_children`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/topic_children) directory in the `www-gitlab-com` repository. Netlify CMS allows the user to edit these data files through the admin interface.
 
@@ -186,7 +180,7 @@ Every two weeks, we create a Netlify CMS learning resource video. In the video, 
 
 ## Report an issue
 
-If you experience an issue or bug using the system, submit an issue! GitLab's marketing website (about.gitlab.com) is led by the Inbound Marketing Team and anyone can contribute. Please visit the [the Inbound Marketing handbook](/handbook/marketing/inbound-marketing/#requesting-support) to submit a support issue and make merge requests.
+If you experience an issue or bug using the system, submit an issue! GitLab's marketing website (about.gitlab.com) is led by the Inbound Marketing Team and anyone can contribute. Please visit the [Inbound Marketing handbook](/handbook/marketing/inbound-marketing/#requesting-support) to submit a support issue and make merge requests.
 
 ### Known issues in Netlify CMS
 

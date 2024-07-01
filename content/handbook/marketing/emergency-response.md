@@ -1,23 +1,19 @@
 ---
-
 title: "Marketing - Emergency Response"
 description: "GitLab's email response process for marketing emergencies"
 ---
 
-
 ## Marketing emergency response
 
 At times GitLab needs to communicate a "breaking" change or details related to a high-priority emergency patch. These emails are transactional and are highly targeted to the impacted audience.
-
-<!-- Note to Amy: should we put a timeframe on what we consider an emergency? -->
 
 **Not an emergency?** For important planned customer communications, please use [the customer update/announcement process](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#customer-comms-email), to enable teams to work together and plan without the urgency of an emergency request.
 
 **As soon as an emergency communication is recognized, the Requesting team MUST:**
 
 1. Create an **[incident communication request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=incident_communications)**
-1. Review the S1 coverage matrix below and assign the issue and tag the coverage owner closest available per their timezone hin the  #mktgops Slack channel.
-1. If there is not a timely response in Slack, please review the coverage owners' Slack profile and send them a quick call or text. If no timely response, tag @mktg-ops within the  #mktgops Slack channel or use escalation path below.
+1. Review the S1 coverage matrix below and assign the issue and tag the coverage owner closest available per their timezone in the #mktgops Slack channel.
+1. If there is not a timely response in Slack, please review the coverage owners' Slack profile and send them a quick call or text. If no timely response, tag @mktg-ops within the #mktgops Slack channel or use escalation path below.
 1. In the template the requesting team will include details including CTA, email body, send date and **provide link to Google sheet containing list**.
 1. If security, make sure to follow [instructions](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident)
 
@@ -27,11 +23,11 @@ Please review the coverage owner closest available per their timezone when decid
 
 | MOPs Team Coverage                          | PT / ET Time Available                 | Coverage Owner: Monday - Friday | Backup: Monday - Friday | Coverage Owner GEO Time |
 |---------------------------------------------|-------------------------------|---------------------------|----------------------|-------------------|
-| UTC (EmEA Working)                          | 11pm - 3am PT / 2am - 6am ET  | Mihai Conteanu            | Gillian Murphy       | 9am - 1pm EET     |
+| UTC (EMEA Working)                          | 11pm - 3am PT / 2am - 6am ET  | Mihai Conteanu            | Gillian Murphy       | 9am - 1pm EET     |
 | UTC (EMEA Working)                          | 3am - 7am PT / 6am - 10am ET  | Gillian Murphy            | Mihai Conteanu       | 11am - 3pm UK     |
-| UTC (Amer-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Jameson Burton            | Bryce Weatherford    | 10am - 2pm ET     |
-| UTC (Amer-Afternoon)                        | 11am - 3pm PT / 2pm - 6pm ET  | Bryce Weatherford         | Jenny Tiemann        | 11am - 3pm PT     |
-| UTC (Amer-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Bryce Weatherford          | Amy Waller          | 3pm - 6pm PT      |
+| UTC (AMER-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Bryce Weatherford           | Jameson Burton    | 10am - 2pm ET     |
+| UTC (AMER-Afternoon)                        | 11am - 3pm PT / 2pm - 6pm ET  | Bryce Weatherford         | Jenny Tiemann        | 11am - 3pm PT     |
+| UTC (AMER-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Bryce Weatherford          | Amy Waller          | 3pm - 6pm PT      |
 
 **Typical Team Timezones:**
 
@@ -39,7 +35,7 @@ Please review the coverage owner closest available per their timezone when decid
 * Jenny: PST Pacific Standard Time UTC:-8:00
 * Nikki: MST Mountain Time UTC:-7:00
 * Bryce: MST Mountain Time UTC:-7:00
-* Jameson: EST Eastern Standard Time UTC: -5:00
+* Jameson: MST Mountain  Time UTC: -5:00
 * Gillian: GMT Greenwich Mean Time UTC: +1:00
 * Mihai: EET Eastern European Time UTC: +2:00
 
@@ -49,7 +45,7 @@ Please review the coverage owner closest available per their timezone when decid
 
 * #mktgops
 * Manager (Amy Waller)
-* If still no response, #marketing-campaigns team can help
+* If still no response, #lifecycle-marketing or #marketing-campaigns team can help
 
 For Marketing Operations - When OOO/PTO please add this to the backup team members calendar for awareness.
 
@@ -59,17 +55,13 @@ For Marketing Operations - When OOO/PTO please add this to the backup team membe
 
 * **Alerting email team as soon as possible that there may be a send (even if it does not move forward)**
 * Providing FINAL email, landing page, form copy, autoresponder copy, etc.
-     * NOTE: The addition of each item will increase scope and potentially delay announcement
+  * NOTE: The addition of each item will increase scope and potentially delay announcement
 * [Requesting target list](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new?issuable_template=list-request) from the Marketing Strategy & Analytics team
-* Creating epic and corresponding issues
-      *Creating Epic - [Template here](/handbook/marketing/marketing-operations/email-management/operational-email-sends/#epic-code-and-issues)
-      * Creating [Email request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=incident_communications)
-      *Creating [Form request issue (if necessary)](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request)
-      * Creating [Landing Page request issue (if necessary)](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=marketo_landing_page_request)
+* Creating [Email request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=incident_communications)
 * Providing approval list and who signs off on the email
-    * Legal, Customer Service VP and VP of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure) are required to sign off
+  * Legal, Customer Service VP and VP of the function who is initiating the communication (i.e., Security, Engineering, Infrastructure) are required to sign off
 * [Notifying affected field teams](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#communicating-internally) (Customer Success, CSM, SAE/AE, SA, Professional Services)
-   * Also make sure to notify #sales and #customer-success before email is set to go out
+  * Also make sure to notify #sales and #customer-success before email is set to go out
 * Approving test email
 * Providing any edits to the test email
 * Providing send time and date
@@ -83,7 +75,7 @@ For Marketing Operations - When OOO/PTO please add this to the backup team membe
 * Uploading target list to Marketo (or sending platform of choice)
 * Sending test emails to requestors to approve
 * Making one round of changes to the emails
-* Creating form and Marketo landing page (if needed) - about.gitlab.com content or landing pages need to be requested and are created by the corp marketing team
+* Creating form and Marketo landing page (if needed)
 * Building workflows for form completion actions
 * Deploying emails
 * Providing email performance report, email link click reports, and form/landing page reports
@@ -103,7 +95,7 @@ This is the process to follow when there is an announcement that is an emergency
    * Request issue utlizing [Incident Communications template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=incident_communications) in the Marketing Operations project.
    * Fill in as many blanks as you can with as much information as you have available - the issue template will walk you through what is needed. Feel free to add any additional context that may be helpful. If you do not have all the information, that is OK, as we know it is an ongoing development.
    * Add Due Date (or best guess)
-   * Include googlesheet of copy document, even if it is blank. Use [this template](https://docs.google.com/document/d/1J_prQ8rXRqEcPWxKd1YH4ANGP5UjMPoAfnjpY8ty0XE/edit)
+   * Include googledoc of copy document, even if it is blank. Use [this template](https://docs.google.com/document/d/1J_prQ8rXRqEcPWxKd1YH4ANGP5UjMPoAfnjpY8ty0XE/edit)
    * Include approx size of the list - this will determine what email platform we will use and helps immensely in our planning. Over estimate when you are unsure.
    * If you are requesting a list, create an [issue](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new?issuable_template=list-request) with the Marketing Strategy team and relate it to the issue you just created.
    * Include any custom fields you need created for `mail-merge` in the email. Include field max lengths needed, or best guess. Mktops will determine if they can use an existing field or not.
@@ -134,13 +126,14 @@ This is the process to follow when there is an announcement that is an emergency
 6. **Email Launched**
 
    * The email team will provide stats minutes after launch, and at a cadence determined by the announcement team as necessary.
-         - Note: Full email stats are matured at 48 hours.
+         - Note: Full email stats mature at 48 hours.
    * Inbox monitoring will be done by the requesting team, unless otherwise stated.
 
 ## Lists
 
 1. For most emergency communications the requesting team should be providing a list as a Google Sheet in the issue request.
      * The Marketing Strategy and Perfomance team is able to pull a list from user table if necessary. Please [create an issue](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance/-/issues/new?issuable_template=list-request) with them.
+     * Often, this is done using the [Marketing Contact Mart](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_marketing_contact) in DBT. The mark has fields for persons in SFDC marked as GitLab Admins, CustomerDB Owners, and Zoura Admins.
 1. General security alerts already have a distro list built in marketo.
 1. Seldomly, lists need to be created in Salesforce or Marketo using parameters found within the marketing database.
      * Marketo & Salesforce **do not** contain all records within the user table
@@ -154,12 +147,9 @@ This is the process to follow when there is an announcement that is an emergency
 ## Other considerations and questions for requestors
 
 * Send / Reply-to email
-     * Should there be an auto-responder?
-     * Will someone be monitoring the email address?
-     * If unmonitored, does the email mention that?
-* Form + Landing Page
-     * Confirmation email copy
-     * Who from GitLab receives the alert?
+  * Should there be an auto-responder?
+  * Will someone be monitoring the email address?
+  * If unmonitored, does the email mention that?
 
 ## Email platform to use
 
@@ -171,10 +161,10 @@ Marketing Operations will decide what the best email platform to send from will 
 ## Marketing Operations Set-Up
 
 * Clone from [incident template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/EBP9730A1)
-    * Ensure that processing requests `Do not Route` executable campaign
-    * Mark `Person source` for new leads as `GitLab DataMart`
-    * `Person Status` should be set to `Raw` if Empty
-    * Processing campaign can be set up as a trigger or batch depending on list size
+  * Ensure that processing requests `Do not Route` executable campaign
+  * Mark `Person source` for new leads as `GitLab DataMart`
+  * `Person Status` should be set to `Raw` if Empty
+  * Processing campaign can be set up as a trigger or batch depending on list size
 * Set up reports if not using the email program defaults
 * Follow remaining steps in the incident issue template
 

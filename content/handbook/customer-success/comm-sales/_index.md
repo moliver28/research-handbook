@@ -1,5 +1,4 @@
 ---
-
 title: "Commercial Sales - Customer Success"
 description: "The Commercial Sales segment consists of two sales teams, Small Business (SMB) and Mid-Market (MM)"
 ---

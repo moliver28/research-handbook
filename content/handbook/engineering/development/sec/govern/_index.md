@@ -40,7 +40,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 {{< team-by-manager-slug manager="pcalder" role="Govern" team="Engineering Manager(.*)Govern" >}}
 
-To contact Govern sub-department development people leaders leaders use the following aliases:
+To contact Govern sub-department development people leaders, use the following aliases:
 
 - GitLab: `@gitlab-org/govern/managers`
 - Slack: `@s_govern_managers`

@@ -29,7 +29,7 @@ The Country Sales Manager for Italy is a [grade 9](/handbook/total-rewards/compe
 - Generate qualified leads and develop new customers in conjunction with our strategic channel partners in exceeding quota
 - Expand knowledge of industry as well as the competitive posture of the company
 - Prepare activity and forecast reports as requested
-- Update and maintain Sales’ database as appropriate
+- Update and maintain Sales' database as appropriate
 - Assist sales management in conveying customer needs to product managers, and technical support staff
 - Utilize a consultative approach, discuss business issues with prospect and develop a formal quote, a written sales proposal or a formal sales presentation addressing their business needs
 - Respond to RFP's and follow up with prospects
@@ -60,7 +60,7 @@ The Country Sales Manager for Italy is a [grade 9](/handbook/total-rewards/compe
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Performance Indicators
 

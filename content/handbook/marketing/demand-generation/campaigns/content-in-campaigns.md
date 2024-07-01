@@ -1,16 +1,10 @@
 ---
-
 title: Content in Campaigns
 description: Everything you need to know about how we leverage content in marketing campaigns, including ungated content journeys and former gated landing page processes.
 twitter_image: /images/tweets/handbook-marketing.png
 twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
-
-
-
-
-
 
 ## Overview
 

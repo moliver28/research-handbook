@@ -1,15 +1,9 @@
 ---
-
 title: "CSE Operating Rhythm"
 aliases:
 - /handbook/customer-success/csm/segment/cse/cse-operating-rhythm/
 - /handbook/customer-success/csm/segment/scale/scale-operating-rhythm/
 ---
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM/CSE-related handbook pages.
 
@@ -44,7 +38,7 @@ The upcoming month's webinar dates are added to an issue in the [Customer Succes
 
 The host of the webinar should download the recording from [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) and do a practice session in the zoom webinar to ensure it plays successfully.  Here are details for playing the video for the webinar:
 
-1. Download Mp4 to your computer the day before session starts.
+1. Download Mp4 to your computer **at least two business days** before the session starts.
 1. Start practice session. You'll get a reminder email one day and one hour before the webinar starts and can click on that link. You can join the webinar anytime before it starts in a practice session in order to test the video playback.
 1. Mute yourself and turn off video. The customer will only see the pre-recorded presenter, at no time should they see the panelists.
 1. Press "Share Screen" > Advanced > Video **DE-Select "Optimize for video clip"** Share > Select the Mp4 file of the recording
@@ -70,9 +64,7 @@ Here is a quick video guide on how to host the webinar, including steps for shar
 
 The upcoming month's hands-on labs are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) (separate from the webinar schedule) and the CSE team is asked to sign up as Presenter or Q&A support.
 
-The Presenter should add the lab to the [FY23 and FY24 Lab Schedule issue](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/issues/8) in the Demo Engineering Workshop Issues Project.  This should be added at least one week before the lab to give the Demo Engineering team enough time to prepare the lab environment.  Then add a comment mentioning @sgrahamgl to let him know you added your lab.
-
-A registration code will then be created for the lab.  Registration codes are tracked in the [2023 Demo Team Scale/CSM Workshop Registrations google sheet](https://docs.google.com/spreadsheets/d/1H0Ym78QqXeufzsHMWMsFBSi9mIav0apUBm7D-D7-haU/edit?usp=sharing).  Lab attendees will use the registration code at the beginning of the lab to have lab credentials and an subgroup created to use for the hands-on exercises, [provisioned via gitlabdemo.com](https://gitlabdemo.com/login).  Each slide deck has detailed instructions for the attendees that the host will guide them through to create the subgroup and access it.
+The presenter for a lab needs to register the hands-on lab at least one week before the lab date.  Instructions for how to register the lab can be found in [How to Register Hands-on Labs](https://docs.google.com/document/d/1GEmAXlOqxOzHHpFZRbLWIJoX92v-peXQl5bd4daVekQ/edit?usp=sharing).  A registration code will then be created for the lab manually by the Demo Architect Partner assigned to the CSE team on the Admin section of gitlabdemo.com.  Lab attendees will use the registration code at the beginning of the lab to have lab credentials and a subgroup created to use for the hands-on exercises, [provisioned via gitlabdemo.com](https://gitlabdemo.com/login).  Each slide deck has detailed instructions for the attendees that the host will guide them through to create the subgroup and access it.
 
 Before the event, the host should make a copy of the appropriate [master slide deck](https://drive.google.com/drive/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY?usp=drive_link) and store it in the [2. Global Onboarding Labs -> Decks -> Delivered decks folder](https://drive.google.com/drive/folders/1SYuAOlR9YqLSS3I9qebW8aKyRYx2Yv8I?usp=drive_link), with the Title: `<Lab Name> - <Region> - Date`.  In the lab deck, change the registration codes to match the current lab, and add their name and profile picture to the presenter slide.
 
@@ -125,7 +117,7 @@ This brief screencast demonstrates how to reveal the CSE Help button when on an 
 
 Only account owners (AEs and RM's) should file a new issue requesting a CSE engagement for their customer. Other stakeholders at GitLab (Solutions Architects, Support, Professional Services) may identify a potential opportunity for CSE engagement, but ultimately the account owner should be notified to follow through the request process and communicate to the customer that a request has been made. So the workflow goes like this:
 
-- New cases are allowed to be created for accounts with a minimum of 30k ARR (for max you can connect with your regional sales leader), and the “assigned CSM” must be set to ‘TAM Scale’.
+- New cases are allowed to be created for accounts with a minimum of 30k ARR (for max you can connect with your regional sales leader), and the "assigned CSM" must be set to 'TAM Scale'.
 - AE/RM files the request in SFDC.
 - Initiate a case by clicking on the "CSE help" button associated with the Opportunity in Salesforce.
 - Fill out the required fields, which include Customer Contact, interventions needed (such as onboarding, license utilization, competitive risk), and the primary use case. Specify the type of risk and environment associated with the customer.
@@ -150,7 +142,7 @@ When a CSE has accepted an engagement request, the CSE must then create a [CTA](
   - Priority: (select the most appropriate type based on the request)
   - Playbook: One-Off CSE Outreach
 
-Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer’s timeline in Gainsight using the `CSE Engagement` meeting type in Gainsight, and filling in the relevant details regarding the customer meeting details.
+Note that the trailing " - Ad-Hoc CSE Engagement Request" MUST be there in order for us to generate proper metrics. The customer name can be truncated in order to satisfy the "Name" length requirements. Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer's timeline in Gainsight using the `CSE Engagement` meeting type in Gainsight, and filling in the relevant details regarding the customer meeting details.
 
 The CSE should then prepare a follow-up email to be sent to the customer through the email-assist in the task: `Follow Up Email Post One-off CSE Outreach Call Completion`
 
@@ -160,20 +152,20 @@ This ensures that a CSAT survey is deployed to the recipients of the email.
 
 ### CSE Escalations
 
-Qualifying the customer for an escalation is important in terms of ARR and LAM. ARR should be >=80% of the ceiling for your segment’s ARR range. LAM ought to be > $100K. Another very weighty criterion is an upcoming renewal. If they are <= 3 months away from an upcoming renewal, an escalation could help turn their frown upside down.
+Qualifying the customer for an escalation is important in terms of ARR and LAM. ARR should be >=80% of the ceiling for your segment's ARR range. LAM ought to be > $100K. Another very weighty criterion is an upcoming renewal. If they are <= 3 months away from an upcoming renewal, an escalation could help turn their frown upside down.
 
 Escalations ought to be used sparingly and only for the larger accounts in our segment with a high potential for growth so that our support, product, and engineering teams can prioritize their efforts in good alignment with overall GitLab business objectives.
 
 There are two types of escalations: support escalations and account escalations.
 
 1. Support escalations are for existing tickets causing a very high business impact for the customer and is raising their temperature very high. The escalation process can bring attention to the issue and raise its priority within support. Following the defined process for a support ticket escalation noted on [this page](/handbook/support/internal-support/support-ticket-attention-requests.html#submitting-a-support-ticket-attention-request-star--starring-a-ticket) is sufficient.
-1. Account escalations may or may not relate to a support ticket. It could be relevant to an open issue for a product bug or a feature request. It’s useful when the customer communicates a highly-impactful problem relevant to e.g. an open issue that is blocking a critical use case and causing them to evaluate other vendors for non-GitLab solutions and is thus posing a churn or contraction risk for GitLab.
+1. Account escalations may or may not relate to a support ticket. It could be relevant to an open issue for a product bug or a feature request. It's useful when the customer communicates a highly-impactful problem relevant to e.g. an open issue that is blocking a critical use case and causing them to evaluate other vendors for non-GitLab solutions and is thus posing a churn or contraction risk for GitLab.
 
 ### Meeting Workflow
 
 Meetings are integral to interfacing with customers; whether we are joining a call with an Account Executive or driving the call ourselves. We must do what we can to prepare ourselves and ensure that the call is as productive as possible. This will require having some resources available to leverage when needed. The following can serve as a loose guideline for preparing for customer meetings.
 
-1. Meet with the AE, if possible, prior to call to get more relevant context around customer’s wants, needs and other particular details.
+1. Meet with the AE, if possible, prior to call to get more relevant context around customer's wants, needs and other particular details.
 1. Create a [Notes](https://docs.google.com/document/u/0/d/159Bxv_H7Ds9QoGsmFW7c7Zoq5nqugAChN_a7XuKUeLs/edit) document
    1. Prepare some goto questions tailored around what information you may have gathered from researching the customer or speaking with the AE. Include any relevant customer concerns, states, tech stack, etc (usually derived from AE custom deck or AE directly)
 1. Create a [Slide Deck](https://docs.google.com/presentation/u/0/d/1bGvo9EOz-pa-hsPi6xmguuL20L5e5XNfDVaFYeHZWdc/edit).
@@ -200,5 +192,5 @@ Meetings are integral to interfacing with customers; whether we are joining a ca
    1. Any other pertinent resources for quick reference (See Appendix of [CSE - Kickoff / Discovery Questions Template](https://docs.google.com/document/d/159Bxv_H7Ds9QoGsmFW7c7Zoq5nqugAChN_a7XuKUeLs/edit?usp=sharing) for ideas)
 1. Make sure to manage expectations about short term engagements and not being permanently aligned.
 1. After the call is complete, set expectations for follow up email in the upcoming 2-3 days.
-1. Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer’s timeline in Gainsight.
+1. Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer's timeline in Gainsight.
 1. Review call and/or sync with AE if applicable and produce follow up email for customer.

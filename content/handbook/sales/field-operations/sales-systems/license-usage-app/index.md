@@ -1,14 +1,7 @@
 ---
-
 title: "License Utilization Salesforce App"
 description: "This page outlines the License Utilization Salesforce App. It includes both information for the end user, answers frequently asked questions as well as highlights the location of the related techincal logic in the code."
 ---
-
-
-
-
-
-
 
 ## How to Use License Utilization Salesforce App
 
@@ -58,14 +51,14 @@ First, product usage data is uploaded into Salesforce as a .csv file attachment 
 ## Logic Locations
 
 - [LicenseUsageRun.trigger](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/triggers/LicenseUsageRun.trigger)
-    - Listens for the "Execute Run" checkbox to change values to begin the process of inserting new License Utilization records.
+  - Listens for the "Execute Run" checkbox to change values to begin the process of inserting new License Utilization records.
 - [LicenseUsageBatcher.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/LicenseUsageBatcher.cls)
-    - Called from `LicenseUsageRun.trigger`. Used to break up the insertion of License Utilization records into batches.
+  - Called from `LicenseUsageRun.trigger`. Used to break up the insertion of License Utilization records into batches.
 - [LicenseUsageCollector.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/LicenseUsageCollector.cls)
-    - Converts the rows of the .csv file into License Utilization records and returns them so they can be inserted.
+  - Converts the rows of the .csv file into License Utilization records and returns them so they can be inserted.
 - [CustomerSubscriptionInfoGatherer.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/CustomerSubscriptionInfoGatherer.cls)
-    - Collects information from the most up-to-date License Utilization records as well as Subscription Product Charges in batches. It stamps the info onto each related Customer Subscription. This class also does some basic data processing such as determining if there are multiple products and calculating total entitled seat count. This is done to make displaying this data simpler for `LicenseUsage.cls`.
+  - Collects information from the most up-to-date License Utilization records as well as Subscription Product Charges in batches. It stamps the info onto each related Customer Subscription. This class also does some basic data processing such as determining if there are multiple products and calculating total entitled seat count. This is done to make displaying this data simpler for `LicenseUsage.cls`.
 - [LicenseUsage.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/LicenseUsage.cls)
-    - The controller for `LicenseUsage.page`. Collects only the Customer Subscriptions related to the Account. Ensures the data will properly display the Seat Usage graph.
+  - The controller for `LicenseUsage.page`. Collects only the Customer Subscriptions related to the Account. Ensures the data will properly display the Seat Usage graph.
 - [LicenseUsage.page](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/pages/LicenseUsage.page)
-    - The page you are brought to by the button on the Account page. Displays all Customer Subscriptions with collected License Utilization data.
+  - The page you are brought to by the button on the Account page. Displays all Customer Subscriptions with collected License Utilization data.

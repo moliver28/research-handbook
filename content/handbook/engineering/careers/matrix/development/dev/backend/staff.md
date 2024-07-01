@@ -19,7 +19,7 @@ title: "Dev Career Framework: Staff Backend Engineer"
 {{% include "includes/engineering-careers/staff-leadership-competency.md" %}}
 {{% include "includes/engineering-careers/development-staff-leadership-competency.md" %}}
 
-- Able to do a deep-dive in the GitLab codebase on any given API endpoint to understand it’s functionality and explain it to others
+- Able to do a deep-dive in the GitLab codebase on any given API endpoint to understand it's functionality and explain it to others
 - Works frequently with other teams to coordinate major changes leading to efficient solutions
 - Performs Code Reviews across the GitLab Codebase on a regular cadence
 

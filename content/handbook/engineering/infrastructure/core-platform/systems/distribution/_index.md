@@ -89,7 +89,7 @@ Distribution ensures the experience of installing and maintaining GitLab is easy
 
 ### Distribution:Build Charter
 
-Build team focus is ensuring GitLab components are tested, current, license compliant, and available for our users’ platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
+Build team focus is ensuring GitLab components are tested, current, license compliant, and available for our users' platforms and architectures. This group manages the build pipelines, researches support for new services, platforms, and architectures, as well as maintains existing ones. We strive to respond efficiently to build failures, security results, and dependency changes in order to ensure a safe reliable product for our users.
 
 ### Distribution:Deploy Charter
 
@@ -123,7 +123,7 @@ The following members of other functional teams are our [stable counterparts](/h
 
 ## Common links
 
-- [Distribution team issue tracker][issue tracker]
+- [Distribution team issue tracker](https://gitlab.com/gitlab-org/distribution/team-tasks)
 - [Slack chat channel](https://gitlab.slack.com/archives/distribution)
 
 ## Team responsibility
@@ -291,7 +291,7 @@ The team regularly publishes demos, discussions and meetings to these playlists:
 In addition to general company on-boarding and off-boarding, Distribution team
 has its own process to get new team members up to speed more quickly.
 
-If you are starting with your onboarding, open an issue in [Distribution team issue tracker][issue tracker], select `Team-onboarding` template and assign the issue to yourself.
+If you are starting with your onboarding, open an issue in [Distribution team issue tracker](https://gitlab.com/gitlab-org/distribution/team-tasks), select `Team-onboarding` template and assign the issue to yourself.
 
 Going through the steps noted in the issue should be your top priority, higher
 than the general company on-boarding issue. This is because items in team on-boarding are specific to your role and it will allow you to get up-to-speed quicker.
@@ -308,13 +308,13 @@ In the Distribution team specifically, everyone should have access to the
 following resources:
 
 - Google projects in [Google Cloud Platform](https://console.cloud.google.com/)
-   - `testground`
-   - `cloud-native`
-   - `omnibus-build-runners`
+  - `testground`
+  - `cloud-native`
+  - `omnibus-build-runners`
 - AWS build infrastructure
-   - Distribution group AWS sandbox account
-   - `cloud-native` EKS cluster for CI (requires a maintainer to [grant access](https://stackoverflow.com/questions/59987859/kubectl-error-you-must-be-logged-in-to-the-server-unauthorized/59991446#59991446))
-   - [GitLabTop account](https://gitlab-top.signin.aws.amazon.com/console) (To be retired, existing team members only)
+  - Distribution group AWS sandbox account
+  - `cloud-native` EKS cluster for CI (requires a maintainer to [grant access](https://stackoverflow.com/questions/59987859/kubectl-error-you-must-be-logged-in-to-the-server-unauthorized/59991446#59991446))
+  - [GitLabTop account](https://gitlab-top.signin.aws.amazon.com/console) (To be retired, existing team members only)
 
 If you don't have access to any of these resources, create an
 [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues) and
@@ -420,14 +420,12 @@ request.
 
 There are occasions where the experise of the Distribution team may be needed in
 support of a customer issue. When this does occur, the appropriate method of requesting
-our engagement is by opening an issue on the [Distribution team tracker][issue tracker]
+our engagement is by opening an issue on the [Distribution team tracker](https://gitlab.com/gitlab-org/distribution/team-tasks)
 using the `Support Request` template. This process allows us to track time involved
 and ensure that the right parties are involved at the correct time.
 
 Requests should be opened **two or more** business
 days before action is needed to ensure the team has time to prepare.
-
-[issue tracker]: https://gitlab.com/gitlab-org/distribution/team-tasks
 
 ## Trivia
 

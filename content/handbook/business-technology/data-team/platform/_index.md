@@ -87,7 +87,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 - Prep Schema: The schema in the `PREP` database where [source models](/handbook/business-technology/data-team/platform/dbt-guide/#source-models) are materialized.
 - Audience: The primary users of the data.
 - SLO: Service Level Objective. Our SLO is the time between real-time and the data made available for consumption.
-   - Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
+  - Technically, this means the time between when an entry is made in an upstream system and when the data is available in the Snowflake `PROD` layer (which includes transformations in dbt).
 - `x` indicates undefined or not run
 
 | [Data Source](/handbook/business-technology/data-team/platform/pipelines) | Pipeline | Raw Schema | Prep Schema | Audience | RF / SLO | MNPI | Tier |
@@ -154,7 +154,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Zuora Data Query](https://knowledgecenter.zuora.com/Zuora_Central_Platform/Query/Data_Query/A_Overview_of_Data_Query#Using_Data_Query)| Airflow | `zuora_query_api`| `zuora_query_api`|Finance | 24h / 48h | Yes | Tier 1 |
 | [Zuora Revenue](https://knowledgecenter.zuora.com/Zuora_Revenue) | Airflow | `zuora_revenue` | `zuora_revenue` | Finance | 24h / 48h | Yes | Tier 1 |
 
-##### Source contacts
+#### Source contacts
 
 See the [source contact spreadsheet](https://docs.google.com/spreadsheets/d/1VKvqyn7wy6HqpWS9T3MdPnE6qbfH2kGPQDFg2qPcp6U/edit) for who to contact if there are any external errors.
 
@@ -162,7 +162,7 @@ See the [source contact spreadsheet](https://docs.google.com/spreadsheets/d/1VKv
 
 | Aspect | Tier 1 | Tier 2  | Tier 3 |
 |:-|:-|:-|:-|
-| **Description**  | - Trusted Data solutions that are most important and business critical. <br><br> - Components needs to  be available and refreshed to ensure day-by-day operation | - Data solutions that are important and beneficial for gathering insights. <br><br> - Components should be available and refreshed to supporting day-by-day operation | - Data solutions that are important for for Ad-Hoc, periodically or one-time analysis. <br><br> - Components could be unavailable or data not refreshed. |
+| **Description**  | - Trusted Data solutions that are most important and business critical. <br><br> - Components needs to  be available and refreshed to ensure day-by-day operation | - Data solutions that are important and beneficial for gathering insights. <br><br> - Components should be available and refreshed to supporting day-by-day operation | - Data solutions that are important for Ad-Hoc, periodically or one-time analysis. <br><br> - Components could be unavailable or data not refreshed. |
 |**Criteria**|- Any data, process, or related service that would result in a $100k or *higher* business impact if unavailable for 24 hours <br><br>-  Affecting more than 15 business users | - Any data, process, or related service that would result in  *less*  than $100k business impact if unavailable for 24 hours <br><br> - Affecting between 5 and 15 business users | - Any data, process or related service that would *not* result in a immediate business impact if unavailable for more than 5 working days <br><br> - Affecting less then 5 business users |
 |**Impact due to outage**|Severe|Lenient|Negligible |
 
@@ -181,9 +181,9 @@ Sensitive data is locked down through the security paradigms listed below;
 
 - [Customer Success Dashboards](https://drive.google.com/open?id=1FsgvELNmQ0ADEC1hFEKhWNA1OnH-INOJ)
 - [Netsuite](https://www.youtube.com/watch?v=u2329sQrWDY)
-    - [Netsuite and Campaign Data](https://drive.google.com/open?id=1KUMa8zICI9_jQDqdyN7mGSWSLdw97h5-)
+  - [Netsuite and Campaign Data](https://drive.google.com/open?id=1KUMa8zICI9_jQDqdyN7mGSWSLdw97h5-)
 - [Version (pings)](https://drive.google.com/file/d/1S8lNyMdC3oXfCdWhY69Lx-tUVdL9SPFe/view)
-    - Note that up until October 2019, the data team referred to the entire **version** data source as "pings". However, usage ping is only one subset of the version data source which is why we now use "version" or "version app" to refer to the version.gitlab.com *data source* and "usage data" or "usage pings" or "pings" to refer to the [specific usage data feature](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html) of the version data source. In the context of Data extraction, when it comes to `Service ping` data ingestion, specific details should be found in the [Service ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) page or in the [Readme.md](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/README.md) page for Service ping
+  - Note that up until October 2019, the data team referred to the entire **version** data source as "pings". However, usage ping is only one subset of the version data source which is why we now use "version" or "version app" to refer to the version.gitlab.com *data source* and "usage data" or "usage pings" or "pings" to refer to the [specific usage data feature](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html) of the version data source. In the context of Data extraction, when it comes to `Service ping` data ingestion, specific details should be found in the [Service ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) page or in the [Readme.md](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/README.md) page for Service ping
 - [Salesforce](https://youtu.be/KwG3ylzWWWo)
 - [Zendesk](https://drive.google.com/open?id=1oExE1ZM5IkXcq1hJIPouxlXSiafhRRua)
 
@@ -197,9 +197,9 @@ We use Airflow on Kubernetes for our orchestration. Our specific setup/implement
 
 ## <i class="fas fa-database fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true" id="data-warehouse"></i>Data Warehouse
 
-We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as our data warehouse. The Enterprise Data Warehouse (EDW) is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. The EDW supports GitLab’s data-driven initiatives by providing all teams a common platform and framework for reporting, dashboarding, and analytics. With the exception of point-to-point application integrations all current and future data projects will be driven from the EDW. As a recipient of data from a variety of GitLab source systems, the EDW will also help inform and drive Data Quality best-practices, measures, and remediation to help ensure all decisions are made using the best data possible.
+We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as our data warehouse. The Enterprise Data Warehouse (EDW) is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. The EDW supports GitLab's data-driven initiatives by providing all teams a common platform and framework for reporting, dashboarding, and analytics. With the exception of point-to-point application integrations all current and future data projects will be driven from the EDW. As a recipient of data from a variety of GitLab source systems, the EDW will also help inform and drive Data Quality best-practices, measures, and remediation to help ensure all decisions are made using the best data possible.
 
-#### Snowplow nullify columns
+### Snowplow nullify columns
 
 In order not to extract geo data into Snowplow, the following columns were nullified:
 
@@ -208,7 +208,7 @@ In order not to extract geo data into Snowplow, the following columns were nul
 - `geo_longitude`
 - `user_ipaddress`
 
-This nullified is applied in Snowplow from `2023-02-01` and the files have the same structure, just column values are set to `NULL`. The Data Team updated old old files and set mentioned columns to `NULL`, and also set columns to `NULL` in Snowflake. This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
+This nullified is applied in Snowplow from `2023-02-01` and the files have the same structure, just column values are set to `NULL`. The Data Team updated old files and set mentioned columns to `NULL`, and also set columns to `NULL` in Snowflake. This is applicable to the `RAW`, `PREP` and `PROD` layers in Snowflake.
 
 As desired to avoid a duplicate load of the updated files in the `S3` bucket as per [**Snowflake documentation**](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-ts#unable-to-reload-modified-data-modified-data-loaded-unintentionally), the folder structure is modified from:
 
@@ -252,9 +252,9 @@ To get access to snowflake support portal, please follow the below steps.
 - This registration will send a welcome email to gitlab mail with the subject `Welcome to the Snowflake Community`. In the mail it will ask you to finish the registration as part of that you will be asked to set your password for the community portal.
 - Once done login again to your snowflake community account and on the home page, click `submit case`. For the first time, the user who do not have access to submit a case with snowflake. It will ask you to fill in the form for access.
 - In the form select the access for already snowflake customer. On the next page, it will ask for information `Account Name`, `Cloud Name`, and  `Region Name`. Below is one way to pull this information from the snowflake console.
-    - `Account Name` - select CURRENT_ACCOUNT();
-    - `Region Name`- select CURRENT_REGION();
-    - `Cloud Name` - Based on the [region name](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html#snowflake-region-ids)  value we can identify the cloud name.
+  - `Account Name` - select CURRENT_ACCOUNT();
+  - `Region Name`- select CURRENT_REGION();
+  - `Cloud Name` - Based on the [region name](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html#snowflake-region-ids)  value we can identify the cloud name.
 
 - Once done you should receive the acknowledgment mail with the subject `[Request received] Case#` instantly. In case you don't receive the mail resubmit the form.
 - Post that you will receive confirmation mail within 24 hours on your request with the subject line  `Case# -Self Register - Enable Case access`
@@ -267,6 +267,13 @@ To gain access to Snowflake:
 - Do not request a shared account - each account must be tied to a user.
 - We loosely follow the paradigm explained in [this blog post](https://blog.fishtownanalytics.com/how-we-configure-snowflake-fc13f1eb36c4) around permissioning users.
 - When asking to mirror an existing account, please note that access to restricted SAFE data will **not** be provisioned/mirrored (currently provided via `restricted_safe` role).
+- Snowflake is part of the [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/) and manager will be asked on a quarterly basis to review the access their team members have in Snowflake. It is expected from the manager to understand the available roles(structure) in Snowflake if approving an AR or reviewing their team member access.
+  - In the access review, only the first level of Snowflake roles are reported (the ones that are directly attached to the user). I.e. If a team member does have the `analyst_marketing` role, only the `analyst_marketing` is reported and all inherited roles in the `analyst_marketing` are not.
+    - Roles could be distinguished between functional roles and object roles
+      - See this list of functional roles in Snowflake [here](/handbook/business-technology/data-team/platform/#Functional_Role_Assignment) and object roles.
+      - Object roles are directly related to systems and gives Team Members access to **all** of the data we extract from those upstream source systems.
+      - To know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
+      - If unsure, during AR process or Access Review, please reach out to a Data Platform Team Member to understand in detail what a specific role entails.
 
 #### Snowflake Analyst
 
@@ -317,6 +324,26 @@ Analysts are assigned to relevant roles and are explicitly granted access to the
 
 Functional roles can be created at any time.
 It makes the most sense when there are multiple people who have very similar job families and permissions.
+
+##### Functional Role Assignment
+
+This list of functional roles gives a high level understanding of what the role entails. If missing or to know in all detail what a role entails check this YAML [file](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
+
+| Functional Role | Description | SAFE Data Y/N |
+| --- | --- | --- |
+| `data_team_analyst` | Access to all `PROD` data, sensitive marketing data, Data Platform metadata and some sources. | Yes |
+| `analyst_core` | Access to all `PROD` data and meta data in the Data Platform | No |
+| `analyst_engineering` | Access to all `PROD` data, meta data in the Data Platform and Engineering related data sources. | Yes |
+| `analyst_growth` | Access to all `PROD` data, meta data in the Data Platform and various data sources. | Yes |
+| `analyst_finance` |  Access to all `PROD` data, meta data in the Data Platform and finance related data sources. | Yes |
+| `analyst_marketing` |  Access to all `PROD` data, meta data in the Data Platform and marketing related data sources. | Yes |
+| `analyst_people` |  Access to all `PROD` data, meta data in the Data Platform and various related data sources, including sensitive people data. | Yes |
+| `analyst_sales` |  Access to all `PROD` data, meta data in the Data Platform and various related data sources | Yes |
+| `analytics_engineer_core` |  A combination of `analyst_core`, `data_team_analyst` role with some additions | Yes |
+| `data_manager` | Extension access to Snowflake data  | Yes |
+| `engineer` | Extension access to Snowflake data to perform data operation tasks in Snowflake | Yes |
+| `snowflake_analyst` | Access to `PROD` data in Snowflake, EDM schema and workspaces | No |
+| `snowflake_analyst_safe` | Access to `PROD` data in Snowflake, EDM schema and workspaces including SAFE data | Yes |
 
 #### Object Roles
 
@@ -375,14 +402,14 @@ Here are the proper steps for provisioning a new user and user role:
 
 - Make sure we have an issue in the GitLab Data Team project linking the original request with the `Provisioning` label applied
 - Login to Snowflake and switch to `securityadmin` role
-    - All roles should be under `securityadmin` ownership
+  - All roles should be under `securityadmin` ownership
 - Copy the [`user_provision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_provision.sql) script and replace the email, firstname, and lastname values in the initial block
 - If a password is needed, use [Password Generator](https://passwordsgenerator.net/) to create one
-    - Send username and password credentials to user with [One Time Secret](https://onetimesecret.com/) or via Slack
+  - Send username and password credentials to user with [One Time Secret](https://onetimesecret.com/) or via Slack
 - Document in Snowflake [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
-    - Add the user and user role you created
-    - Assign the user role to new user
-    - Assign any additional roles to user
+  - Add the user and user role you created
+  - Assign the user role to new user
+  - Assign any additional roles to user
 - Ensure the user is assigned the application in Okta
 - Ensure the user is assigned to the `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
 
@@ -391,7 +418,7 @@ Here are the proper steps for deprovisioning existing user:
 - Snowflake deprovision should be done via an offboarding issue or access request issue.
 - Make sure we have an issue in the GitLab Data Team project linking the original source request with the `Deprovisioning` label applied.
 - Login to Snowflake and switch to `securityadmin` role
-    - All roles should be under `securityadmin` ownership.
+  - All roles should be under `securityadmin` ownership.
 - Copy the [`user_deprovision.sql`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/user_deprovision.sql) script and replace the USER_NAME. The reason for not removing and leaving the user in snowflake and setting disabled = TRUE is to have a record of when the user lost access.
 - Remove the user from `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
 - Remove the user records in Snowflake [roles.yml](https://gitxlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
@@ -442,7 +469,7 @@ Furthermore, the next section provides additional details on optional **template
 
 <details><summary>Optional Templated Arguments</summary>
 
-##### Custom Templates
+#### Custom Templates
 
 This is useful if you have many users that need a value different from the default. One option would be to run with the default values, and then manually update the MR, but depending on the number of users to update, a potentially better option is to pass in a custom values template.
 
@@ -568,7 +595,7 @@ Provisioning USAGE permissions for external tables to user roles inside snowflak
 
 When you apply for a Snowflake account via an AR and get access provisioned it takes until 3.00AM UTC for the change to take effect. This is because we have a script running daily to provision the access in Snowflake. When you can login, you can do this via Okta. After you logged in via Okta, you need to select the right role that is attached to your account. This is by default the same as your account and it follows the convention of your email adres minus `@gitlab.com`.
 
-When you don’t select the right role in Snowflake, you only see the following Snowflake objects:
+When you don't select the right role in Snowflake, you only see the following Snowflake objects:
 
 ![object_list](/handbook/business-technology/data-team/platform/object_list_snowsight.png)
 
@@ -618,9 +645,9 @@ If you're running into query time limits please check your query for optimisatio
 
 - Warehouses are set as t-shirt sizes. Larger warehouses are more costly for GitLab
 - Consider using a running warehouse
-   - If you resume a paused warehouse, there is a initial start cost
-   - Every warehouse suspends after a set period, but when idle (time between query result and the suspend time), we still consume snowflake credits
-   - In general we don't spend more money if we run concurrent queries.
+  - If you resume a paused warehouse, there is a initial start cost
+  - Every warehouse suspends after a set period, but when idle (time between query result and the suspend time), we still consume snowflake credits
+  - In general we don't spend more money if we run concurrent queries.
 
 - The query timeout in Snowflake is set to 30 minutes for the `REPORTING` warehouse.
 
@@ -1081,7 +1108,7 @@ Sales Systems Use-Case: Using the Snowflake API
 
 We use [Tableau](https://www.tableau.com/) as our Data Visualization and Business Intelligence tool. To request access, please follow submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Access_Request). Use the template [Tableau_Rquest](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/Tableau_Request.md) for Tableau access requests.
 
-#### Meta Analyses for the Data Team
+### Meta Analyses for the Data Team
 
 - Tableau Usage! 📈 - coming soon
 - Tableau Account Optimization 💪 - coming soon
@@ -1138,7 +1165,7 @@ Some of those are:
 
 For this, we have implemented a solution consisting of multiple Airflow dags, per schedule.
 
-#### The process, explained
+### The process, explained
 
 As of right now (subject to further iterations and changes), the steps are the following:
 

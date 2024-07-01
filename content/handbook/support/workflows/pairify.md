@@ -40,7 +40,7 @@ You then need to wait for the next scheduled execution of Pairify, as explained 
 ## How Pairify works
 
 Pairify executes every 30 minutes via a [scheduled pipeline](https://gitlab.com/gitlab-com/support/toolbox/pairify#production). When the pipeline begins, Pairify will search [all monitored channels](#channels-monitored-by-pairify)
-for any conversation reacted with the ![Pairify emoji](https://handbook.gitlab.com/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`) emoji that was created within the last 6 hours.
+for any conversation reacted with the ![Pairify emoji](/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`) emoji that was created within the last 6 hours.
 
 Pairify will then:
 

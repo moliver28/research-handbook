@@ -5,7 +5,7 @@ description: "The Threat Insights group at GitLab is charged with developing sol
 
 ## Customer outcomes we are driving for at GitLab
 
-As a developer it is imperative to know if you are introducing vulnerabilities as you merge into protected branches in addition to the default branch. In FY25, we will allow users to track vulnerabilities across multiple branches. If there is something a developer wants to remediate, but aren’t sure where to get started, they can use our features AI to learn more and get a suggestion for a fix.
+As a developer it is imperative to know if you are introducing vulnerabilities as you merge into protected branches in addition to the default branch. In FY25, we will allow users to track vulnerabilities across multiple branches. If there is something a developer wants to remediate, but aren't sure where to get started, they can use our features AI to learn more and get a suggestion for a fix.
 
 As a security engineer, you want to know what vulnerabilities to work on first. Over the next year we will be adding key risk metrics so you can quickly triage and mitigate vulnerabilities that have the potential to be exploited.
 
@@ -24,17 +24,42 @@ to be addressed quickly.
 
 **Threat Insights features are reliable and perform at scale** - As we add more group and organization level features, we will be optimizing query performance and move forward with confidence that our database will scale and perform as we grow.
 
-### Threat Insights teams
+## Threat Insights Team Structure
+
+The Threat Insights group is structured into three focused swimlanes that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/): Performance and Optimization, Projects, and AI. This subdivision is to provided bounded focus to each area: enabling us to progress on multiple fronts and reduce planning overhead.
+
+### Stable Counterparts
+
+The following members of other functional teams are our stable counterparts, and work across all swimlanes:
+
+{{% stable-counterparts role="Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
+
+### [Performance and Optimization](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
+
+DRI: {{< member-by-gitlab "nmccorrison" >}}
+
+{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "Quintasan" "subashis">}}
+
+### [Projects](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
+
+DRI: {{< member-by-gitlab "ryaanwells" >}}
+
+{{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" >}}
+
+### [AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
+
+DRI: {{< member-by-gitlab "sming-gitlab" >}}
+
+{{< member-and-role-by-gitlab "dpisek" "darbyfrey" "alexbuijs" >}}
+
+### Reporting Structure
+
+Threat Insights was previously sub-divided into Navy and Tangerine, following the reporting lines below.
+Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "ryaanwells" >}}.
 
 {{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Govern:Threat Insights" %}}
 
 {{% team-by-manager-slug manager="ryaanwells" team="end Engineer(.*)Govern:Threat Insights" %}}
-
-## Stable Counterparts
-
-The following members of other functional teams are our stable counterparts:
-
-{{% stable-counterparts role="Govern:Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
 
 ## Common Links
 
@@ -50,19 +75,7 @@ The following members of other functional teams are our stable counterparts:
 
 ### Prioritization
 
-We use our Threat Insights Priorities pages [16.x](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html) and [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) page to track what we are doing, and what order to do it in.
-
-## How we work
-
-Threat Insights is a large group, and to reduce planning overhead, engineering is organized into two teams, Navy and Tangerine, that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/). This is more efficient because it virtually eliminates the cross-team dependency that comes from organizing a large group by technical expertise.
-
-We use the scoped labels `~"Threat Insights::Navy"` `~"Threat Insights::Tangerine"` to designate work for each team. Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "ryaanwells" >}}.
-
-In FY25-Q2 we are grouping projects into three main `swimlanes`:
-
-1. Performance and optimization (DRI: @nmccorrison)
-2. Roadmap projects (DRI: @ryaanwells)
-3. AI Vulnerability Management (DRI: @sming-gitlab)
+We use our Threat Insights Priorities page for [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) to track what we are doing, and what order to do it in.
 
 ### Metrics
 
@@ -74,7 +87,7 @@ In FY25-Q2 we are grouping projects into three main `swimlanes`:
   {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
 {{< /tableau >}}
 
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssuesDetails" >}}
   {{< tableau/filters "GROUP_NAME"="threat insights" >}}
 {{< /tableau >}}
 
@@ -90,15 +103,40 @@ Additional information can be found on the [Planning page](/handbook/engineering
 
 ### Milestone Planning
 
-* On the second Tuesday of the month the Product Manager kicks off the planning issue.  They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
+* On the second Tuesday of the month the Product Manager kicks off the planning issue. They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
 * By the third Tuesday of the month the Engineering Managers have reviewed the planning issue and agreed on the scope for the milestone.
-* All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone.
+  * All epics scheduled for this milestone should have the `~auto-report` label and **one** of these labels:
+    * `~Threat Insights::Performance`
+    * `~Threat Insights::Projects`
+  * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
 
 ### Tracking Deliverables
 
 * Issues that are marked as Deliverables for a milestone serve as the single source of truth for what we aimed to deliver for a given milestone. Throughout the milestone, things may change, become blocked, etc. *Ideally, we'd like to keep the Planning Issue unchanged after the milestone starts.*
 * Something is considered delivered if it is either a. merged into production in time for the release date, b. completed before the next milestone start, or c. the feature flag enabling the feature is turned on.  It is important to keep track of the milestone of the deliverable; we encourage self-managed customers to turn on feature flags so they can try different features. Ensuring the milestone is correct, allows someone to tell if that change is available in a specific release.
+
+#### Weekly async issue updates
+
+At the end of every week, each engineer is expected to provide a quick async issue update by commenting on their assigned issues using the following template:
+
+```markdown
+### Async issue update
+
+* Current status:
+<!--- Please provide a quick summary of the current status (one sentence) -->
+
+* Shipping this milestone: <!-- Not confident | Slightly confident | Very confident -->
+
+* Scope reduction opportunities: <!-- No | Yes, ... -->
+
+/health_status <!-- on_track | needs_attention | at_risk -->
+/label <!-- ~"workflow::blocked" | ~"workflow::refinement" | ~"workflow::ready for development" | ~"workflow::In dev" | ~"workflow::In review" | ~"workflow::verification" -->
+
+<!-- Please apply a :triangular_flag_on_post: emoji to this comment. Fore more information see https://gitlab.com/jayswain/automated-reporting -->
+```
+
+We do this to encourage our team to be more async in collaboration and to allow the community and other team members to know the progress of issues that we are actively working on. This also enables us to automatically collate updates across swimlanes, removing some manual process.
 
 ### MR Reviews
 
@@ -117,13 +155,13 @@ We follow these guidelines when submitting MRs for review when the change is wit
 ### Issue Boards
 
 * [Threat Insights Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754666?scope=all&utf8=%E2%9C%93&milestone_title=%23started&label_name[]=group%3A%3Athreat%20insights)
-   * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
+  * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
 
 * [Threat Insights Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420734?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Athreat%20insights)
-   * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
+  * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
 
 * [Threat Insights "Ready to Pull" Board](https://gitlab.com/groups/gitlab-org/-/boards/4643978?label_name[]=group%3A%3Athreat%20insights&label_name[]=ready%20to%20pull)
-   * Secondary board for unassigned issues that are separate from a larger effort. Ideal candidates are small features, bugs, and follow-up items.
+  * Secondary board for unassigned issues that are separate from a larger effort. Ideal candidates are small features, bugs, and follow-up items.
 
 These boards show current status of issues.
 
@@ -149,10 +187,10 @@ Note that an issue probably shouldn't go directly from On Track to At Risk. That
 
 We encourage running the `e2e: package-and-test` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
 
-   * GraphQL (API response, query parameters, schema etc)
-   * Gemfile (version changes, adding/removing gems)
-   * Database schema/query changes
-   * Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
+* GraphQL (API response, query parameters, schema etc)
+* Gemfile (version changes, adding/removing gems)
+* Database schema/query changes
+* Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
 
 ### Running Govern E2E specs locally against GDK
 

@@ -1,14 +1,7 @@
 ---
-
 title: "DevOps tools"
 description: "DevOps tools commonly found in a build-your-own DevOps tool chain. Many of these can be replaced by GitLab's single platform for the entire DevOps lifecycle."
 ---
-
-
-
-
-
-
 
 The DevOps tools below are commonly found in a build-your-own DevOps tool chain. Many of these can be replaced by GitLab's single platform for the entire DevOps lifecycle.
 
@@ -147,7 +140,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 ### Continuous Delivery/Deployment
 
 - [Spinnaker](https://www.spinnaker.io/)
-    - [Armory](https://www.armory.io/)
+  - [Armory](https://www.armory.io/)
 - [Go CD](https://www.gocd.org/index.html)
 - [Puppet Pipelines](https://puppet.com/products/puppet-pipelines)
 - [Cloudbees Codeship](https://codeship.com/)

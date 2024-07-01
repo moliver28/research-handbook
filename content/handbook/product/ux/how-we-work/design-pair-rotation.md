@@ -20,8 +20,8 @@ Collaborating on key activities offers a unique opportunity to broaden your know
 - Perform design reviews on each other's designs.
 - Walk your design pair through your product areas primary use cases to familiarize them with it.
 - Use part of your pairing sessions to ensure local environments are set up and ready for reviews in your respective product areas. Collaborate on MR reviews to learn more about the product area and provide UX feedback to your design pair.
-- Perform Buddy [UX Scorecard: Heuristic Evaluations](/handbook/product/ux/ux-scorecards/#option-a-conduct-a-heuristic-evaluation) ([Buddy Template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)) on each other’s primary use cases.
-- Collaborate on solution validation for each other’s product areas (write scripts, take notes, observe, assess interview data).
+- Perform Buddy [UX Scorecard: Heuristic Evaluations](/handbook/product/ux/ux-scorecards/#option-a-conduct-a-heuristic-evaluation) ([Buddy Template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)) on each other's primary use cases.
+- Collaborate on solution validation for each other's product areas (write scripts, take notes, observe, assess interview data).
 
 ### Schedule
 
@@ -48,4 +48,6 @@ This is the rotation schedule for FY25-Q1 and Q2 (2024-02-01 until 2024-07-31).
 
 ### Temporary pairing
 
-No temporary pairings at this time.
+| Designer               | Design Pair                |
+|------------------------|----------------------------|
+| Pedro Moreira da Silva | Nicolle Merrill            |

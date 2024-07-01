@@ -1,17 +1,8 @@
 ---
-
 title: "Sales Play: Upsell Premium to Ultimate"
 description: "This page has all the information for the GTM-CICD sales play."
 
 ---
-
-
-
-
-
-
-
-
 
 Note: Think of a sales play as a recipe. If you follow the recipe, we can achieve more predictable, consistent results. And if we find an asset or approach that works best (or flops), then we can tweak the recipe to continuously improve. **If you have improvements to suggest, please contribute comments to [this MR](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/5095) to suggest your edits and upvote on others.
 
@@ -37,9 +28,9 @@ Who is this sales play for?
 **Ideal Customer Profile**  - Existing GitLab Premium customers already using CI/CD
 
 * Bonus points for:
-   * Organizations at lower maturity level undergoing or planning to undergoing tranformation
-   * Siloed teams with disparate tools, especially security, lacking visibility at the individual level and executive level
-   * Organizations with stringent regulatory security or compliance requirements
+  * Organizations at lower maturity level undergoing or planning to undergoing tranformation
+  * Siloed teams with disparate tools, especially security, lacking visibility at the individual level and executive level
+  * Organizations with stringent regulatory security or compliance requirements
 
 **Target Buyer Personas**
 
@@ -87,7 +78,7 @@ An in-depth view of security pain points and probing questions around them can b
 
 By upgrading from GitLab Premium to GitLab Ultimate, customers may experience one or more of the below benefits:
 
-| Desired Future State (“After Scenarios”) | So What? (“Positive Business Outcomes”)   |
+| Desired Future State ("After Scenarios") | So What? ("Positive Business Outcomes")   |
 | ------------- | ------------- |
 | Greater efficiencies for both security and dev    | less risk and greater velocity of DevOps |
 | Consistent compliance to policy    | less risk of vulnerabilities in production and easier audits |
@@ -110,7 +101,7 @@ To achieve the positive business outcomes highlighted above, what required capab
 
 Note: maybe we use [this link as mvc1](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#discovery-questions) and then change the resource pages to the suggested format?
 
-| Questions to Better Understand the Customer’s needs  | Discovery questions  |
+| Questions to Better Understand the Customer's needs  | Discovery questions  |
 | ------------- | ------------- |
 | current state    | 1. Are you wanting to shift security left? How is that going?<br>2. What security tools are you using today?<br>3. How are you currently securing containers and Kubernetes?|
 | future state    | 1. What if you could simplify your shift-left efforts?<br>2. What challenges do you have with your existing tools and can you predict their cost 2 yrs out?<br>3. Would you like to better protect containers and K8s? |
@@ -284,9 +275,9 @@ The following sequence is recommended to progress the customer from awareness an
 
 Use [Value Discovery](#value-discovery) above along with these recommended assets to determine their business priorities, existing security tools, chief pain points:
 
-   * [Security and Compliance Overview](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit#slide=id.g9d701d7d89_8_1931) (focus on [desired outcomes](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit#slide=id.g9d701d7d89_8_1990) slide)
-   * [Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk)
-   * Securing your software supply chain (assets coming soon).
+* [Security and Compliance Overview](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit#slide=id.g9d701d7d89_8_1931) (focus on [desired outcomes](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit#slide=id.g9d701d7d89_8_1990) slide)
+* [Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk)
+* Securing your software supply chain (assets coming soon).
 
 **Ask 4 questions:**
 
@@ -305,17 +296,17 @@ Use [Value Discovery](#value-discovery) above along with these recommended asset
 Based on their business objectives, assess interest in learning more on theses topics then schedule deep dive with your SA. (@cblake and the #s_secure slack channel can help with any questions you may have.) Identify key value driver, champion, and economic buyer.
 
 * **If Priority = speed and efficiency** then use:
-   * [Simplifying DevSecOps](https://docs.google.com/presentation/d/1qdUgIZAh3Xdcu7yK8borN77hWiQLvMwkBhepeD1hVuY/edit?usp=sharing)
-   * [Shift security left](https://docs.google.com/presentation/d/1iH7DbyDMX9kvTWUz2rh0Da9xPTHqZdNfGY70DfiAMPY/edit?usp=sharing)
-   * [HackerOne case study](https://about.gitlab.com/customers/hackerone/)
+  * [Simplifying DevSecOps](https://docs.google.com/presentation/d/1qdUgIZAh3Xdcu7yK8borN77hWiQLvMwkBhepeD1hVuY/edit?usp=sharing)
+  * [Shift security left](https://docs.google.com/presentation/d/1iH7DbyDMX9kvTWUz2rh0Da9xPTHqZdNfGY70DfiAMPY/edit?usp=sharing)
+  * [HackerOne case study](https://about.gitlab.com/customers/hackerone/)
 * **If Priority = consistency/compliance** then use:
-   * [Auditing and Compliance reporting], Sam Kerr, PM.
-   * Security of software supply chain (deck coming soon), Cindy Blake, PMM
+  * [Auditing and Compliance reporting], Sam Kerr, PM.
+  * Security of software supply chain (deck coming soon), Cindy Blake, PMM
 * **If Priority = predictable cost to scale** then ask for ROI discussion - see meeting 3
 * **If Priority = vulnerabilities/risk** then use:
-   * For the security pro: [Accelerate AppSec Efficiency with the GitLab Security Dashboard](https://youtu.be/p3qt2z1rQk8)
-   * For the developer: [Shift security left](https://docs.google.com/presentation/d/1iH7DbyDMX9kvTWUz2rh0Da9xPTHqZdNfGY70DfiAMPY/edit?usp=sharing)
-   * For securing modern apps via containers: [Container security blog](https://about.gitlab.com/blog/2020/10/23/container-network-security-is-important/) and [deck](https://docs.google.com/presentation/d/1xLBQljc6yRtG8ENGwjX9I7LgGj-ShtjaARZPY9WbtQs/edit#slide=id.g29a70c6c35_0_68), Sam White, PM
+  * For the security pro: [Accelerate AppSec Efficiency with the GitLab Security Dashboard](https://youtu.be/p3qt2z1rQk8)
+  * For the developer: [Shift security left](https://docs.google.com/presentation/d/1iH7DbyDMX9kvTWUz2rh0Da9xPTHqZdNfGY70DfiAMPY/edit?usp=sharing)
+  * For securing modern apps via containers: [Container security blog](https://about.gitlab.com/blog/2020/10/23/container-network-security-is-important/) and [deck](https://docs.google.com/presentation/d/1xLBQljc6yRtG8ENGwjX9I7LgGj-ShtjaARZPY9WbtQs/edit#slide=id.g29a70c6c35_0_68), Sam White, PM
 
 **Milestones:** Identify key value driver, champion, and economic buyer, agree to meeting with economic buyer
 
@@ -326,10 +317,10 @@ Based on their business objectives, assess interest in learning more on theses t
 
 Use the provided ROI framework slide to help the customer identify all of his obvious costs, now and most importantly, into the future. Show how GitLab can provide predictable costs as they scale. Make sure it's clear that our greatest value is our all-in-one approach that provides all types of security scans integrated into a united UI for both dev and sec. **Be sure to include the value of this benefit along with tool costs.**
 
-   * [Security CISO deck](https://docs.google.com/presentation/d/1MfdWk90O9N191MNpSvp3_GuJiAPiIQWovdPoYLeDJ9M/edit?usp=sharing) (includes [value framework slide](https://docs.google.com/presentation/d/1MfdWk90O9N191MNpSvp3_GuJiAPiIQWovdPoYLeDJ9M/edit#slide=id.gca94c05912_0_1521))
-   * **IF** a more detailed ROI is if needed, consider one from [Darwin Sanoy](https://docs.google.com/spreadsheets/d/1wVghmLv3E_IKs7rz-quc6jtjZW0p-u3h4iSaDqmm1Nc/edit?usp=sharing). Please provide feedback to help us tune these models in [this issue](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/5096).
-   * Determine if additional steps are needed for solutions alignment (e.g., additional demonstrations, hands-on workshop, POV)
-   * Do NOT push for a POV. Explore more efficient activities with the customer.  If the customer requests a POV, move to POV agreement steps.
+* [Security CISO deck](https://docs.google.com/presentation/d/1MfdWk90O9N191MNpSvp3_GuJiAPiIQWovdPoYLeDJ9M/edit?usp=sharing) (includes [value framework slide](https://docs.google.com/presentation/d/1MfdWk90O9N191MNpSvp3_GuJiAPiIQWovdPoYLeDJ9M/edit#slide=id.gca94c05912_0_1521))
+* **IF** a more detailed ROI is if needed, consider one from [Darwin Sanoy](https://docs.google.com/spreadsheets/d/1wVghmLv3E_IKs7rz-quc6jtjZW0p-u3h4iSaDqmm1Nc/edit?usp=sharing). Please provide feedback to help us tune these models in [this issue](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/5096).
+* Determine if additional steps are needed for solutions alignment (e.g., additional demonstrations, hands-on workshop, POV)
+* Do NOT push for a POV. Explore more efficient activities with the customer.  If the customer requests a POV, move to POV agreement steps.
 
 **Milestones:** agree to next meeting
 

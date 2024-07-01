@@ -45,7 +45,7 @@ If the YubiKey is not working for that application, try using Touch ID, and then
 
 ### Using YubiKey on Mobile Devices
 
-If you have configured an NFC key, see the [Android](/handbook/security/guides/2fa/android) and [iOS](/handbook/security/guides/2fa/ios) guides for instructions on signing in with your YubiKey to approved mobile applications that do not use FaceID or biometrics.
+If you have configured an NFC key, see the [Android](android/) and [iOS](ios/) guides for instructions on signing in with your YubiKey to approved mobile applications that do not use FaceID or biometrics.
 
 ### Leaving YubiKey Inserted or Removing
 
@@ -55,7 +55,7 @@ This is a personal preference and you can use your own judgement.
 
 #### Leave a Nano Key Plugged In
 
-If it’s your first time using a YubiKey and you’re used to Touch ID, we suggest using the Nano key and leaving it plugged in. If you’re working from home, you can leave it plugged in. If you travel to a coffee shop (low risk area), it’s still fine.
+If it's your first time using a YubiKey and you're used to Touch ID, we suggest using the Nano key and leaving it plugged in. If you're working from home, you can leave it plugged in. If you travel to a coffee shop (low risk area), it's still fine.
 
 If you are going to do a long trip, vacation, or anytime you head to the airport, you should unplug your YubiKey and keep it in a separate place from your laptop.
 
@@ -67,7 +67,7 @@ Many engineering and security conscious people prefer to have it separated (ex. 
 
 An NFC key is easy to break off when moving a laptop around, so please be sure to unplug the key before picking up your laptop and moving to a different seat.
 
-You can unplug it and plug it back in at any time without “disconnecting/ejecting it” (like a thumb drive).
+You can unplug it and plug it back in at any time without "disconnecting/ejecting it" (like a thumb drive).
 
 ## How It Works
 
@@ -87,7 +87,7 @@ When you are prompted for your passkey/2FA/Touch ID, you simply rest your finger
 
 `cccccbchbneclfhiefkkdgfkiuvukginvnhlefdcbuuc`
 
-Simpler explanation? The oversimplified analogy is that it’s similar in concept to SSH key public and private key pairs that are used when you authenticate via SSH (or Git).
+Simpler explanation? The oversimplified analogy is that it's similar in concept to SSH key public and private key pairs that are used when you authenticate via SSH (or Git).
 
 <img src="/handbook/security/guides/yubikey/images/yubikey-nano-touch.jpg" alt="YubiKey Nano Port" style="border: 1px #888 solid; padding: 3px;" /><br />
 
@@ -105,8 +105,8 @@ For advanced power users at your discretion (not mandated or supported by IT), y
 
 ### Primary and Secondary Keys
 
-A YubiKey is similar to a car key. If you lose your car key, you can’t start your car. With a secondary/backup car key, you can still get to your appointment on time.
+A YubiKey is similar to a car key. If you lose your car key, you can't start your car. With a secondary/backup car key, you can still get to your appointment on time.
 
-If you lose your YubiKey, it’s like losing the car key that allows you to sign in to the web application. With a second YubiKey, both keys are enrolled as 2FA authenticators and although you may only use the secondary/backup one occasionally, it provides assurance that you can still sign in. As a remote company, it’s not possible to walk down the hall to the IT Helpdesk to get a new one and it’s not logistically feasible to ship you a YubiKey overnight.
+If you lose your YubiKey, it's like losing the car key that allows you to sign in to the web application. With a second YubiKey, both keys are enrolled as 2FA authenticators and although you may only use the secondary/backup one occasionally, it provides assurance that you can still sign in. As a remote company, it's not possible to walk down the hall to the IT Helpdesk to get a new one and it's not logistically feasible to ship you a YubiKey overnight.
 
-Unlike a software authenticator that can be reset by IT and re-enrolled, we can’t get you into systems that use YubiKey authentication unless we add you to a bypass 2FA policy that lowers our security posture. We will do this when needed, and during our early deployment of YubiKeys until we can get everyone a secondary/backup key.
+Unlike a software authenticator that can be reset by IT and re-enrolled, we can't get you into systems that use YubiKey authentication unless we add you to a bypass 2FA policy that lowers our security posture. We will do this when needed, and during our early deployment of YubiKeys until we can get everyone a secondary/backup key.

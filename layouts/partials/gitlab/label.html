@@ -1,0 +1,49 @@
+{{/*  
+    Allows to print labels like we do in GitLab. 
+
+    Usage (can only be called from shortcodes, layouts and partials for now):
+    {{ partial "gitlab/label" (dict "name" "devops::plan" "color" "#00ff00")}}
+
+    Parameters:
+    - name: Full name of the label with scope. For example "test", "devops::plan"
+    - color (optional): Pass a hex color code. If not specified we'll look up defined colors
+      in data/label-colors.yml. We'll check for the full label name and the scope (if scoped label).
+      Without any match, it uses the default label color of GitLab labels.
+*/}}
+
+{{ $label := replace .name "~" ""  }}
+{{ $color := .color  }}
+{{ if not $color }}
+    {{/*  Try to get the color for the full label text from the data file  */}}
+    {{ $color = index site.Data.label_colors $label }}
+{{ end }}
+{{ if $label }}
+    {{ $text := "" }}
+    {{ $scope := $label }}
+    {{ $isScoped :=  false }}
+    {{ $parts := split $label "::" }}
+
+    {{/*  If scoped label  */}}
+    {{ if eq (len $parts) 2 }}
+        {{ $text = index $parts 1 }}
+        {{ $scope = index $parts 0 }}
+        {{ $isScoped =  true }}
+        {{ if not $color }}
+            {{/*  Try to get the color for te scope from the data file  */}}
+            {{ $color = index site.Data.label_colors $scope }}
+        {{ end }}
+    {{ end }}
+
+    {{ if not $color }}
+        {{/*  If we still didn't manage to get a color, use GitLabs default label color.  */}}
+        {{ $color = "#6699cc"  }}
+    {{ end }}
+
+    {{/*  Set CSS variables for the label color like we do in GitLab.  */}}
+    <span class="gl-label {{ if $isScoped }}gl-label-scoped{{end}} {{ $scope }}" style="--label-background-color: {{ $color }}; --label-inset-border: inset 0 0 0 2px {{ $color }}; font-size: .75rem; line-height: .875rem;">
+        <span class="gl-label-text" style="color: #fff; padding: 2px 6px;">{{ $scope }}</span>
+        {{ if $isScoped }}
+            <span class="gl-label-text-scoped" style="padding: 2px 8px 2px 4px;">{{ $text }}</span>
+        {{ end }}
+    </span>
+{{ end }}

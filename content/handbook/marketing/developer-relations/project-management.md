@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations Program Management"
 ---
-
-
-
-
-
-
 
 The Developer Relations team works from issues and [issue boards](#developer-relations-issue-boards). If you need our assistance with any project, please open an issue and use one of the [_main program labels_](#developer-relations-labels) anywhere within the GitLab repo.
 

@@ -1,5 +1,4 @@
 ---
-
 title: Digital Experience Handbook
 description: >-
   Learn more about the Digital Experience purpose, vision, mission, objective
@@ -35,7 +34,7 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 
 ## Scope
 
-Our team leads the GitLab's digital marketing platform, or simply the “Marketing Site" refers to `https://about.gitlab.com`.
+Our team leads the GitLab's digital marketing platform, or simply the "Marketing Site" refers to `https://about.gitlab.com`.
 **We own the following repositories:**
 
 - [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience)
@@ -85,24 +84,15 @@ We collaboratively define OKRs as a team with cross functional partners in advan
 
 ### Current Quarterly Plan
 
-[FY25Q1 Digital Experience Quarterly Plan & OKRs](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/367)
+[FY25Q2 Digital Experience Quarterly Plan & OKRs](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/386)
 
 ## Iteration Process
 
-We release every 2 weeks, always on a Wednesday. We can push MRs at any time but for collaborative work initiatives, we plan a package for delivery to ensure we’re consistently improving our prospective customer’s experience.
-
-We start iteration a Monday. The following Wednesday is async release day, although we are releasing throughout the iteration. On the thursday a week after our Monday iteration planning, we come together for a syncrornous meeting to share what we've released. This meetings are recorded and can be viewed in our [#digita-experience YouTube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba).
-
-<figure class="video_container">
-<iframe src="https://calendar.google.com/calendar/embed?src=c_g97ibfb3lq183mphm8mnbjfk34%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-</figure>
+We start our iteration on a Monday. We release throughout the iteration. On the Thursday a week after our Monday iteration planning, we come together for a synchronous meeting to discuss wins, blockers, start/stop/continues, and select 3 things we'd like to highlight in our Slack channel.
 
 ## Issue Board
 
-- [Digital Experience Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/3288685)
-
-- [Current DEX Group Conversion Iteration Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/7320189?iteration_id=Current&label_name[]=dex-group%3A%3Aconversion)
-- [Current DEX Group Optimization Iteration Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/5955968?iteration_id=Current&label_name[]=dex-group%3A%3Aoptimization)
+- [Digital Experience Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/3804720?iteration_id=Current)
 
 ### Labels and Workflow Boards
 
@@ -162,56 +152,43 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 - If an issue has many unknowns, we can break it into two issues. The first issue is for research, also referred to as a [Spike](https://en.wikipedia.org/wiki/Spike_(software_development)), where we de-risk the unknowns and explore potential solutions. The second issue is for the implementation.
 - If an initial estimate is incorrect and needs to be adjusted, we revise the estimate immediately and inform the Product Manager. The Product Manager and team will decide if a milestone commitment needs to be adjusted.
 
-### Triage
-
-The purpose of the traiage meeting is to create a list of refined issues that meet our current goals. This list will include a combination of bugs, features, and optimizations. These issues are manually added to the next iteration until the desired weight point limit is reached. Refinement is completed async by before to ensure issues are prepared for upcoming iterations. This involves deleting obsolete/duplicate issues, adding missing context/labels, and moving issues to either the backlog, or further refinement. Keeping the backlog organized is a must, it eliminates clutter and creates cohesion between issues. Enabling the team to navigate and contribute more efficiently.
-
-**Cadence:** 25min, bi-weekly (zoom)
-
-**Who:** Engineering representative, Product management. [Triage Agenda](https://docs.google.com/document/d/15t-Ke_c6uMdzrcqUj6P01lYQgHSXcgerb5ShUtADLr8/edit?usp=sharing).
-**What**:
-
-- Review backlog for iteration candidates.
-- Populate the next iteration with prioritized issues.
-- Move issues to refinement/backlog.
-- Close obsolete/duplicate issues.
-- Assign labels:
-    - dex-status
-    - dex-group
-    - dex-engineering/dex-design
-- Assign weight points.
-
 ### Planning (Iteration Plan Sync)
 
-Iteration planning is an event that kicks off the start of an iteration. The purpose of the meeting is to collaboratively spread the prioritized list of issues amongst the team. These meetings are recorded and uploaded to our [Digital Experience playlist on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba).
+Iteration planning is an event that kicks off the start of an iteration. The purpose of the meeting is for capacity discussions and to plan work the upcoming iteration.
 
-**Cadence:** 25min, bi-weekly (zoom)
-
-**What:**
-
-- The team distributes the prioritized list of issues.
-- Communicate timelines, dependencies, etc.
-
-### Release
-
-An event to showcase what the team has accomplished over the past iteration. These meetings are recorded and uploaded to our [Digital Experience playlist on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba).
-
-**When:** Thursdays, 25min, bi-weekly (zoom)
+**Cadence:** 50min, bi-weekly (zoom)
 
 **What:**
 
-- Showcase what has been released in the past iteration.
+- Capcity Discussion
+- Review Iteration Board
+
+### Iteration Release: Retrospective and Feedback
+
+We celebrate our wins and discuss what's working and what's not. Our discussion topics include identifying any blockers, deciding what we should stop doing, what we should start doing, and what we should continue doing. We then select three pieces of completed work to highlight in the iteration announcement issue and on Slack. [Here's the agenda](https://docs.google.com/document/d/1UdACZcOdpkz0gO5J597kBztzHCKGi9SQb3FQKyq_zTo/edit?usp=sharing) we use for our planning and release meetings.
+
+**When:** Thursdays, 50min, bi-weekly (zoom)
+
+**What:**
+
+- Celebrate wins
+- Topics for discussion
+- Any blockers?
+- What should we stop doing
+- What should we start doing
+- What should we continue doing
+- 3 things to highlight
 
 ### Retrospective
 
-The retrospective is an event held at the end of an iteration, used to discuss what went well, and what can be improved on. An ongoing agenda can be found [here](https://docs.google.com/document/d/1kMNiUF2UDuSrMDuzLyRi8OEhVxry_MJoYi38RmmWafY/edit?usp=sharing). This meeting is recorded and uploaded to our [Digital Experience playlist on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba).
+The retrospective is an event held at the end of each quarter, used to discuss what went well, and what can be improved on. We use a quarterly retrospective issue to keep track of our progress. [Access them here](https://gitlab.com/gitlab-com/marketing/digital-experience/announcements/-/issues/?sort=updated_desc&state=closed&search=Retrospective&first_page_size=20).
 
-**When:** Thursdays, 40min, bi-weekly (zoom)
+**When:** Week 12 of a quarter, 50min
 
 **What:**
 
 - Discuss what went well and what can be improved on.
-- Communicate any process changes, etc. This is the only meeting where the whole team is present.
+- Communicate any process changes, etc.
 
 ### Iteration Changelogs
 
@@ -227,7 +204,7 @@ An iteration is 2 weeks, running from Monday to the following Thursday.
 
 **Where can I find the iteration boards?**
 
-Iteration boards are created at the [team level](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/3288486?iteration_id=Current&_gl=1*xlvfjl*_ga*MTMyODM2NjQzOC4xNjU3OTA0NDQ2*_ga_ENFH3X7M5Y*MTY2MzgwNzk2NC4xMDMuMS4xNjYzODA4NDg1LjAuMC4w), and the individual level:
+Iteration boards are created at the [team level](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/3804720?iteration_id=Current), and the individual level:
 
 [Digital Experience](https://gitlab.com/gitlab-com/marketing/digital-experience) > Issues - Boards > Then selecting an individual's name or group from the dropdown.
 
@@ -239,13 +216,13 @@ Iteration boards are meant to give an overview of what the team is working on, a
 
 At the start of an iteration, all issues will have the dex-status::todo label. As issues are worked on, the dex-status label will need to be updated. This can be done by dragging (on your individual board) between columns, or manually changing the dex-status label on the issue.
 
-**What if I wasn’t able to complete my iteration board?**
+**What if I wasn't able to complete my iteration board?**
 
-Don’t stress, weight points are estimates, unforeseen events happen. Any carryover can be added to the next iteration.
+Don't stress, weight points are estimates, unforeseen events happen. Any carryover can be added to the next iteration.
 
 **What if I complete my iteration board early?**
 
-A few options for when an an individual's iteration board is complete:
+A few options for when an individual's iteration board is complete:
 
 1. Offer assistance to other team members.
 2. Pull a new issue from the backlog into the current iteration.
@@ -256,29 +233,31 @@ A few options for when an an individual's iteration board is complete:
 
 **What is a weight point?**
 
-A weight point is a unit of measurement that’s used to develop a rough estimate of the work required to complete an issue. 1 weight point is measured as .5 days.
+A weight point is a unit of measurement that's used to develop a rough estimate of the work required to complete an issue. 1 weight point is measured as .5 days.
 
 **How many weight points should an issue be?**
 
-The suggested task duration is between 2-4 weight points (1-2 days). There will be exceptions, but it’s recommended to break issues into smaller units of work. Small units of work allow for quicker review cycles, and facilitates collaboration.
+The suggested task duration is between 2-4 weight points (1-2 days). There will be exceptions, but it's recommended to break issues into smaller units of work. Small units of work allow for quicker review cycles, and facilitates collaboration.
+
+**How many weight points should be completed per iteration for engineers?**
+
+Engineers are expected to complete 12 or more weight points per iteration which is equivalent to 6 days of engineering. This expectation leaves room for merge request reviews and job requirements described in the  [Frontend Engineer](/job-families/marketing/frontend-engineer-marketing/) and [Fullstack Engineer](/job-families/marketing/fullstack-engineer-marketing/) job family descriptions. For senior engineers, the expectation is 15+ points.
 
 ### Issues
 
-**What should I do if I’m assigned new issues mid-iteration?**
+**What should I do if I'm assigned new issues mid-iteration?**
 
-Generally if an issue is added mid-iteration, it's high priority. It’s recommended to work with your team to remove the same amount of weight points from your iteration to make room. These removed issues should go back in the backlog.
-
-Apply the `dex-unplanned` label.
+Generally if an issue is added mid-iteration, it's high priority. It's recommended to work with your team to remove the same amount of weight points from your iteration to make room. These removed issues should go back in the backlog.
 
 **Do I need to add any labels?**
 
 Before entering an iteration, an issue should already be refined with the proper labels. The only label that changes is the [dex-status](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/labels?subscribed=&search=dex-status) label (as the issue moves from start to finish).
 
-**What if I’m assigned an issue that I can’t close due to content/data gathering?**
+**What if I'm assigned an issue that I can't close due to content/data gathering?**
 
-Unfortunately there will always be edge case issues that cannot be resolved in an iteration To mitigate the amount of carryover, it’s recommended to break the issue into smaller chunks
+Unfortunately there will always be edge case issues that cannot be resolved in an iteration To mitigate the amount of carryover, it's recommended to break the issue into smaller chunks
 
-Example A: If an issue is open while waiting on content/assets, it’s best to create a content/asset gathering issue and close the original issue.
+Example A: If an issue is open while waiting on content/assets, it's best to create a content/asset gathering issue and close the original issue.
 
 Example B: An issue is open while gathering data from an AB test, it may be best to create an issue to start the information gathering, and an issue to analyze the data at the end.
 
@@ -298,7 +277,7 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates | Reason |
 | --- | --- |
-| 2023-12-22 to 2024-01-02 | End of 2023, limited coverage |
+| 2024-12-20 to 2024-01-03 | End of 2024, limited coverage |
 
 During PCL periods, merge requests and deployments can only be made by senior team members, managers, and levels of management above our team.
 
@@ -314,7 +293,7 @@ From time to time, our team has objectives that require us to collaborate on the
 
 ## Repository Health Contributions
 
-At the end of every sprint cycle, Digital Experience team members can spend 10% or one day to work on issues related to improving the health of about.gitlab.com, the developer experience, tackle tech debt, or improve our documentation.
+At the end of every iteration cycle, Digital Experience team members can spend one day to work on issues related to improving the health of about.gitlab.com, the developer experience, tackle tech debt, or improve our documentation.
 
 The structure of Repository Health Day is as follows:
 
@@ -322,7 +301,7 @@ The structure of Repository Health Day is as follows:
 1. Each team member will submit a single merge request to the [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui), [Navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), or [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) repository by the end of repository health day.
 1. This merge request will be related to an issue from any partner or group within GitLab.
 
-By allowing our team members to contribute to the health of our repositories for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for https://about.gitlab.com/. We’re all good at different things and come from different backgrounds. Let’s use that to our advantage to build a better tech stack that is inclusive of the team members that use it everyday.
+By allowing our team members to contribute to the health of our repositories for a day, we can contribute low-effort, high-impact solutions that will drive results for our team, partners, and the entire marketing site. This will enable Digital Experience team members to use their strengths to efficiently drive results for https://about.gitlab.com/. We're all good at different things and come from different backgrounds. Let's use that to our advantage to build a better tech stack that is inclusive of the team members that use it everyday.
 
 ## Analytics
 
@@ -335,12 +314,12 @@ For any Digital Experience analytics request, please create an issue within the 
 #### SMB
 
 1. Contact a Sales Development Manager ([Josh Downey](https://gitlab.com/joshdowney)) or Director, Sales Development ([Brian Tabbert](https://gitlab.com/btabbert)).
-2. Let them know what team you’re from and that you’d like to shadow a few sales calls to observe real GitLab prospects talking to our Sales team to learn [insert what you’re trying to learn here. Example: what the common topics potential customers want to discuss with our Sales team are.]
-3. Inform the Sales Development Manager or Director, Sales Development how many shadows you’d like to do and a rough timeline for when you’d like to do them.
+2. Let them know what team you're from and that you'd like to shadow a few sales calls to observe real GitLab prospects talking to our Sales team to learn [insert what you're trying to learn here. Example: what the common topics potential customers want to discuss with our Sales team are.]
+3. Inform the Sales Development Manager or Director, Sales Development how many shadows you'd like to do and a rough timeline for when you'd like to do them.
 4. The Sales Development Manager or Director, Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).
 5. Accept the invite and review any supplied material when you add it to your calendar.
 6. When joining the call, remember:
-    1. You’re there to observe. If asked to introduce yourself, come off mute and do so, then go back on mute and let the Sales team do what they do.
+    1. You're there to observe. If asked to introduce yourself, come off mute and do so, then go back on mute and let the Sales team do what they do.
     2. Keep your camera on.
     3. Have a notes doc prepared and take notes on your observations and insights.
 7. After the call, review your notes, and synthesize and create action items.
@@ -463,6 +442,5 @@ The deletion of BE files is handled in the same WWW delete job by [pulling the l
     <li>Know the URL and keywords you want to use</li>
     <ul>
       <li>SEO and keyword analysis from the Search Team <a href="https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/issues/new?issuable_template=keyword-research-request">Issue Templates</a> is recommended.</li>
-      <li>See <a href="https://about.gitlab.com/handbook/marketing/digital-experience/website/#naming-conventions">naming conventions</a></li>
     </ul>
 </details>

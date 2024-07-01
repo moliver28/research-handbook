@@ -90,13 +90,13 @@ Each team is responsible for separate indicators. For more information, please v
 
 ## Themes
 
-The broad nature of work undertaken by the Scalability group can make prioritization challenging as it’s tricky to compare some issues like-for-like. For example, how do we compare the benefit of an issue to address a performance concern against an issue that reduces developer toil? To help guide the direction of the group and to inform our prioritization process, we can categorize issues in to the following _themes_, in order of priority:
+The broad nature of work undertaken by the Scalability group can make prioritization challenging as it's tricky to compare some issues like-for-like. For example, how do we compare the benefit of an issue to address a performance concern against an issue that reduces developer toil? To help guide the direction of the group and to inform our prioritization process, we can categorize issues in to the following _themes_, in order of priority:
 
 1. **Critical Saturation Response**. On occasions saturation alerts can unexpectedly occur - for example, when caused by a sudden change in platform usage patterns - and need to be addressed with urgency. We try to avoid working reactively by proactively working on other themes.
 1. **Horizontal Scalability**. The most obvious scaling bottlenecks in our infrastructure are those that can only be scaled _vertically_ instead of _horizontally_. Horizontal scaling brings the benefit of _elasticity_, which increases confidence that we can meet future demand while keeping costs linear - both of these elements are strongly aligned with the vision of the Scalability group.
 1. **Increasing Plaform Capacity**. Delivering foundational project work in the GitLab application and infrastructure to support service capacity needs for GitLab SaaS.
 1. **Scalability Advocacy and Facilitation**. An effective method for the Scalability group to leverage its output is by collaborating closely with other engineering teams to promote scalability best practises. This might include building tools to enable wider engagement in GitLab SaaS operations (e.g. [Stage Dashboards](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/406)), or serving as a point of contact to other teams for scaling questions relating to their own initiatives.
-1. **Eliminating Toil**. We want to make our output as efficient as possible by spending more time on engineering projects and less time on manual, repetitive, or automatable tasks. An effective way of achieving this is by considering how future toil can be avoid when delivering projects. However, inline with our Iteration value, we don’t want to over-optimize and we can't consider all eventualities ahead of time. We should always be mindful of opportunities to reduce toil, which will make us more effective in the long-term.
+1. **Eliminating Toil**. We want to make our output as efficient as possible by spending more time on engineering projects and less time on manual, repetitive, or automatable tasks. An effective way of achieving this is by considering how future toil can be avoid when delivering projects. However, inline with our Iteration value, we don't want to over-optimize and we can't consider all eventualities ahead of time. We should always be mindful of opportunities to reduce toil, which will make us more effective in the long-term.
 
 The above list is not comprehensive, nor does it outline a formal process. We should remain pragmatic when prioritizing work, while using the themes as a guideline.
 
@@ -135,8 +135,7 @@ requests with care so that we can help to find an effective resolution for the i
 #### Scalability review requests
 
 If you're working on a feature that has specific scaling requirements, you
-can create an issue with the [review request
-template](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/new?issuable_template=Review%20Request).
+can create an issue with the [review request template](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/new?issuable_template=Review%20Request).
 Some examples are:
 
 1. [Review Request - Impact on database load for enabling advanced global search](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/377)
@@ -154,8 +153,7 @@ the code is performing, or the way in which it is running on GitLab.com. For exa
 if the problem is in what the queue does, or how the worker should run.
 
 If we find that the problem is in what the code is doing, then we engage with the EM/PM of that group to find the right path
-forward. If work is required from that group, we will create a new issue in the gitlab-org project and use the [Availability
-and Performance Refinement process](/handbook/engineering/workflow/#process-1) to highlight this issue.
+forward. If work is required from that group, we will create a new issue in the gitlab-org project and use the [Availability and Performance Refinement process](/handbook/engineering/workflow/#process-1) to highlight this issue.
 
 ## How we work
 
@@ -297,13 +295,13 @@ For an Incident Manager:
 If you are not EOC or an Incident Manager when an incident occurs:
 
 * For S1 incidents
-   * the priority is to get GitLab.com up and running and getting back to a stable state takes priority over project work
-   * when the system is stable, contribute to determining the root cause and writing up the corrective actions
-   * the IM or Reliability EM will delegate corrective actions
-   * work with the Scalability EM to prioritize any work that arises from an S1
+  * the priority is to get GitLab.com up and running and getting back to a stable state takes priority over project work
+  * when the system is stable, contribute to determining the root cause and writing up the corrective actions
+  * the IM or Reliability EM will delegate corrective actions
+  * work with the Scalability EM to prioritize any work that arises from an S1
 * For all other incidents
-   * if you are called into an incident, the priority is to enable others to resolve the problem
-   * the expectation is to be hands-off, giving guidance where necessary, and returning to project work as soon as possible
+  * if you are called into an incident, the priority is to enable others to resolve the problem
+  * the expectation is to be hands-off, giving guidance where necessary, and returning to project work as soon as possible
 
 The reason for this position is that our project work prevents future large S1 incidents from occurring.
 If we try to participate in and resolve many incidents, our project work is delayed and the risk of future S1 incidents increases.

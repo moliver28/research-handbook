@@ -1,14 +1,6 @@
 ---
-
 title: How the growth section works
 ---
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -133,7 +125,7 @@ and - like a contribution coming from the wider community - ultimately own the f
 When the planning issue is created the Product Designer should follow these steps:
 
 - Review the issue boards and the prioritization dashboard (issues should be ordered by priority)
-- Determine whether they agree with the prioritized issues or want to suggest a change. For example, are there any SUS impacting issues we’ve been neglecting?
+- Determine whether they agree with the prioritized issues or want to suggest a change. For example, are there any SUS impacting issues we've been neglecting?
 - Comment in the planning issue to discuss proposed changes.
 - Re-order the board once priority is decided.
 - Ensure that issues have weights.
@@ -151,13 +143,13 @@ We follow the [Product Designer workflows](/handbook/product/ux/product-designer
 - we will label experiments with `UX problem validation` and `UX solution validation` according to the [UX Research Workflow](/handbook/product/ux/#ux-labels) definitions to indicate the type of learning the experiment achieves. The purpose of these labels is to track [this UX KPI](/handbook/product/ux/performance-indicators/#ux-research-velocity) related to research velocity.
 - we use the [workflow labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=workflow%3A%3A) for regular issues and [experiment workflow labels](/handbook/marketing/growth/engineering/#experiment-workflow-labels) for experiment issues.
 - we use **milestones** to aid in planning and prioritizing the four growth groups of Acquisition, Conversion, Expansion and Retention.
-    - PMs provide an [ICE score for experiments](https://docs.google.com/spreadsheets/d/1yvLW0qM0FpvcBzvtnyFrH6O5kAlV1TEFn0TB8KM-Y1s/edit#gid=0) and by using [priority labels](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) for other issues.
-    - The Product Designer applies the milestone in which they plan to deliver the work (1-2 milestones in advance, or backlog for items that are several months out. For example, if an issue is not doable for a designer in the current milestone, they can add the next milestone to the issue, which will communicate to the PM when the work will be delivered.
-    - If the PM has any concern about the planned milestone, they will discuss trade-offs with the Product Designer and other Growth PMs.
+  - PMs provide an [ICE score for experiments](https://docs.google.com/spreadsheets/d/1yvLW0qM0FpvcBzvtnyFrH6O5kAlV1TEFn0TB8KM-Y1s/edit#gid=0) and by using [priority labels](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) for other issues.
+  - The Product Designer applies the milestone in which they plan to deliver the work (1-2 milestones in advance, or backlog for items that are several months out. For example, if an issue is not doable for a designer in the current milestone, they can add the next milestone to the issue, which will communicate to the PM when the work will be delivered.
+  - If the PM has any concern about the planned milestone, they will discuss trade-offs with the Product Designer and other Growth PMs.
 - we use [UX issue weights](/handbook/product/ux/product-designer/#ux-issue-weights) in order to better estimate capacity, realistically break down our work, and give PMs a little insight into how much work we can take on in a milestone.
-    - Label the issue for UX work with `UX` and assess the issue weight. Issues larger than an **8** should be broken down further.
-    - Use the scoped labels starting with `design weight` to add the UX weight to an issue.
-    - When the UX work is ready to be transitioned into Engineering, apply the workflow lable `workflow::planning breakdown`.
+  - Label the issue for UX work with `UX` and assess the issue weight. Issues larger than an **8** should be broken down further.
+  - Use the scoped labels starting with `design weight` to add the UX weight to an issue.
+  - When the UX work is ready to be transitioned into Engineering, apply the workflow lable `workflow::planning breakdown`.
 - We have a [Figma template](https://www.figma.com/file/e8tj8XvblnhDlix83FUSij/Growth-Experiment-Design-Template?node-id=1%3A42) for designing experiments. You should title your Figma designs to be consistent with the experiment name, and link the experiment issue to the Figma file. When the variants are ready, add the control and variants to the "All the variants" page and provide context as needed. If you are conducting multiple experiments in the same area, consider using the same Figma file but include different pages per experiment design.
 
 #### UX Definition of Done (DoD)
@@ -168,7 +160,7 @@ In addition to the [Validation Phase Outcomes](/handbook/product-development-flo
 
 - For an experiment, experiment issues have been created with a hypothesis and experiment plan, and experiment labels have been applied
 - Cross-team dependencies have been identified and those teams notified and their feedback received
-- Prototypes or mocks for the selected solution have been completed and and it is clear through the documentation and content of issues that they are Ready for Development
+- Prototypes or mocks for the selected solution have been completed and it is clear through the documentation and content of issues that they are Ready for Development
 - Previous versions and discussions of the solution(s) are labeled as 'Draft', and should not appear in the Epic description
 - If changes involve copy, ~"Technical Writing" and ~"UI text" labels have been added
 - Design spec has been added to the designs. Try to link to relevant components in gitlab-ui
@@ -228,7 +220,7 @@ We use this [process](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/2
     - The Growth Product Designer will mention the stage group Product Designer when starting work on a design issue for awareness and to gather background information such as existing constraints, usability problems and existing research. (Growth PMs will communicate in a similar way to Stage PMs)
     - The Growth Product Designer will add the stage group Product Designer to design reviews to get feedback and ensure consistency. Design reviews can be sync or async, for example:
         - Scheduling a recurring monthly sync call.
-        - Creating a document for async catching up ([template](https://docs.google.com/document/d/1r83O5AAo_o46ics-BF6NV_eIr1yR7KkKCarfc8kbFgM/edit?usp=sharing)) and a calendar event to remind everyone involved to share what they’re working on.
+        - Creating a document for async catching up ([template](https://docs.google.com/document/d/1r83O5AAo_o46ics-BF6NV_eIr1yR7KkKCarfc8kbFgM/edit?usp=sharing)) and a calendar event to remind everyone involved to share what they're working on.
     - UX Researchers should share research results with stage groups whenever that research is relevant cross-stage.
 
 #### Contributing to the Learn GitLab project

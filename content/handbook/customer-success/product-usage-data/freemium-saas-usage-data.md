@@ -1,14 +1,7 @@
 ---
-
 title: "Freemium SaaS Usage Data"
 description: "How to view and use usage data from freemium and trial SaaS namespaces in Salesforce."
 ---
-
-
-
-
-
-
 
 ---
 
@@ -26,13 +19,13 @@ Empower our internal team with lightweight Free/Trial usage insights in Salesfor
 
 For more information on general Product Usage Statistics, see [Using Product Usage Reporting in Gainsight](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/).
 
-##### Video Overview
+#### Video Overview
 
 For a high level overview (6 minutes), see:
 
 ([**SaaS Free Trial Usage Stats in SFDC: Training Video**](https://youtu.be/28_bgDL__BQ) above is Private on GitLab Unfiltered)
 
-##### Field Definitions
+#### Field Definitions
 
 Below are the fields, descriptions, and best practices for each field. These can be used to help us understand what the customer is using GitLab for and how we can help them achieve their desired outcomes. For example, high ci pipeline usage indicates we may want to start the conversation around CI, or that they've already accomplished that objective.
 

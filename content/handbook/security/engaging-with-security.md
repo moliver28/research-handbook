@@ -54,10 +54,10 @@ The GitLab issue should then be closed and - after 30 days - sanitized and made 
 
 ### Process for disclosing security issues
 
-At GitLab we value [being as transparent as possible]({{< ref "values#transparency" >}}), even [when it costs]({{< ref "values#transparency-is-most-valuable-if-you-continue-to-do-it-when-there-are-costs" >}}). Part of this is making confidential GitLab issues about security vulnerabilities public 30 days after a patch. The process is as follows:
+At GitLab we value [being as transparent as possible](/handbook/values/#transparency), even [when it costs](/handbook/values/#transparency-is-most-valuable-if-you-continue-to-do-it-when-there-are-costs). Part of this is making confidential GitLab issues about security vulnerabilities public 30 days after a patch. The process is as follows:
 
 1. Check for a `~keep confidential` tag. If one exists
-   1. Decide whether this tag is still appropriate and in line with our [Transparency value]({{< ref "values#transparency" >}})
+   1. Decide whether this tag is still appropriate and in line with our [Transparency value](/handbook/values/#transparency)
    1. Start a discussion with issue participants, if needed
 1. If an issue does not have `~keep confidential`, remove sensitive information from the description and comments, e.g.
    1. Proof-of-concept videos & screenshots showing researcher account information
@@ -118,13 +118,13 @@ Consider adding the `/confidential` quick action to a project issue template.
 - Add any additional labels you know apply. Additional labels will be applied
 by the security team and other engineering personnel, but it will help with
 the triage process:
-    - [`~"type::bug"`, `~"type::maintenance"`, or `~"type::feature"` if appropriate]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}})
-    - Team or DevOps lifecycle labels
-    - `~customer` if issue is a result of a customer report
-    - `~internal customer` should be added by team members when the issue
+  - [`~"type::bug"`, `~"type::maintenance"`, or `~"type::feature"` if appropriate]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}})
+  - Team or DevOps lifecycle labels
+  - `~customer` if issue is a result of a customer report
+  - `~internal customer` should be added by team members when the issue
     impacts GitLab operations.
-    - `~dependency update` if issue is related to updating to newer versions of the dependencies GitLab requires.
-    - `~featureflag::` scoped labels if issue is for a functionality behind a feature flag
+  - `~dependency update` if issue is related to updating to newer versions of the dependencies GitLab requires.
+  - `~featureflag::` scoped labels if issue is for a functionality behind a feature flag
 - Issues that contain customer specific data, such as private repository contents,
 should be assigned `~keep confidential`. If possible avoid this by linking
 resources only available to GitLab team member, for example, the originating
@@ -207,9 +207,9 @@ problems that arise.
 The issue description should have a `How to reproduce` section to ensure clear replication details are in description. Add additional details, as needed:
 
 - Environment used:
-    - Docker Omnibus version x.y.z
-    - gitlab.com
-    - staging.gitlab.com
+  - Docker Omnibus version x.y.z
+  - gitlab.com
+  - staging.gitlab.com
 - Conditions used such as projects, users, enabled features or files used
 - A step by step plan to reproduce the issue
 - The url or even better the `curl` command that triggers the issue
@@ -218,7 +218,7 @@ The issue description should have a `How to reproduce` section to ensure clear r
 
 Issues labelled with the `security` but without `~type::bug + ~bug::vulnerability` labels are **not** considered vulnerabilities, but rather security enhancements, defense-in-depth mechanisms, or other security-adjacent bugs. For example, issues labeled `~"type::feature"` or `~"type::maintenance"`. This means the security team does not set the `~severity` and `~priority` labels or follow the vulnerability triage process as these issues will be triaged by [product](/handbook/product/) or other appropriate team owning the component.
 
-Implementation of security feature issues should be done publicly in line with our [Transparency]({{< ref "values#transparency" >}}) value, i.e. not following the [security developer workflow](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md).
+Implementation of security feature issues should be done publicly in line with our [Transparency](/handbook/values/#transparency) value, i.e. not following the [security developer workflow](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md).
 
 On the contrary, note that issues with the `security`, `~type::bug`, and `severity::4` labels are considered `Low` severity vulnerabilities and will be handled according to the standard vulnerability triage process.
 

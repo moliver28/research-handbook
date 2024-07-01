@@ -1,16 +1,10 @@
 ---
-
 title: Emails & Nurture Programs
 description: An overview of emails and nurture programs at GitLab.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
- 
-
-
-
-
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -26,16 +20,16 @@ Please visit our other pages for more information on [email best practices](/han
 **Key foundational elements to achieve this:**
 
 * A strategically segmented Marketo database
-    * this is an ongoing effort led by MOps in collaboration with Campaigns
-    * *please see [note below regarding segmentation and email requests](/handbook/marketing/lifecycle-marketing/emails-nurture/#one-time-emails)*
-    * [see the overall database segmentation epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1331)
-    * [see this epic for more campaign-based tactical segmentations](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1467)
+  * this is an ongoing effort led by MOps in collaboration with Campaigns
+  * *please see [note below regarding segmentation and email requests](/handbook/marketing/lifecycle-marketing/emails-nurture/#one-time-emails)*
+  * [see the overall database segmentation epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1331)
+  * [see this epic for more campaign-based tactical segmentations](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1467)
 * A persona-based prescriptive buyer journey
-    * this is an ongoing effort led by Campaigns in collaboration with Content Mktg, Product Mktg, Technical Mktg
-    * [see the epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
+  * this is an ongoing effort led by Campaigns in collaboration with Content Mktg, Product Mktg, Technical Mktg
+  * [see the epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
 * Logic-based Marketo nurture programs by segment
-    * this is an ongoing effort led by Campaigns, and specifically spearheaded by our Email Marketing Campaign Manager [@Aklatzkin](https://gitlab.com/Aklatzkin).
-    * [see this epic for holding location of projects to be prioritized](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1040)
+  * this is an ongoing effort led by Campaigns, and specifically spearheaded by our Email Marketing Campaign Manager [@Aklatzkin](https://gitlab.com/Aklatzkin).
+  * [see this epic for holding location of projects to be prioritized](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1040)
 
 ### Quick Links
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -74,7 +68,7 @@ Below we explain the labels created and what each one is for:
 * [intel-nurture::email-build](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aemail-build&first_page_size=20): This label helps us to know that the email is in production. Verticurl is responsible for building the emails.
 * [intel-nurture::email-test](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aemail-test&first_page_size=20): This label tells us that the email has already been built and that the Verticurl team has sent tests to both the requesters AND the lifecycle marketing team for review. In this step we check that the links work correctly, that the content of the email is correct and that the correct utm values are used for appropriate tracking of the links. Once the email is approved, we proceed to the last step.
 * [intel-nurture::add-to-streams](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/?sort=due_date&state=opened&label_name%5B%5D=intel-nurture%3A%3Aadd-to-streams&first_page_size=20): This label helps us to identify that the issue is in its final stage where we proceed to add the email to the relevant nurture streams.
-   * **PLEASE NOTE: the requester indicates the desired streams in the description of the issue, but the Lifecycle Marketing team makes the final decision on which streams are relevant. Please reference [the stream alignment rules](/handbook/marketing/lifecycle-marketing/email-processes-requests/#nurture-stream-offer-alignment) for what content type is relevant for each stream.**
+  * **PLEASE NOTE: the requester indicates the desired streams in the description of the issue, but the Lifecycle Marketing team makes the final decision on which streams are relevant. Please reference [the stream alignment rules](/handbook/marketing/lifecycle-marketing/email-processes-requests/#nurture-stream-offer-alignment) for what content type is relevant for each stream.**
 
 ### Intelligent Email Nurture Stream Schedule
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -85,21 +79,21 @@ The following shows the day of the week and cadence of the different streams in 
 * APAC: Wednesday (Thursday APAC time), 6:30 PM PT
 * LATAM: Thursday, 8:30 AM PT.
 * Localized
-   * Spanish: Inactive - leads rerouted to English nurtures
-   * French: Thursday, 1:00AM PT
-   * German: Inactive - relaunching end of Jan 2024
-   * Japanese: Wednesday (Thursday JP time), 5:00PM PT
-   * Korean: Wednesday (Thursday JP time), 5:00PM PT
-   * Portuguese: Inactive - leads rerouted to English nurtures
+  * Spanish: Inactive - leads rerouted to English nurtures
+  * French: Thursday, 1:00AM PT
+  * German: Inactive - relaunching end of Jan 2024
+  * Japanese: Wednesday (Thursday JP time), 5:00PM PT
+  * Korean: Wednesday (Thursday JP time), 5:00PM PT
+  * Portuguese: Inactive - leads rerouted to English nurtures
 * PubSec
-   * PubSec Default: Thursday, 7:00AM PT
-   * Civilian (CIV): Thursday, 7:00AM PT
-   * Department of Defense (DoD): Thursday, 7:00 AM PT
-   * Federal Systems Integrators (FSI): Thursday, 7:00AM PT
-   * National Security Group (NSG): Thursday, 7:00AM PT
-   * SLED: Thursday, 7:00AM PT
+  * PubSec Default: Thursday, 7:00AM PT
+  * Civilian (CIV): Thursday, 7:00AM PT
+  * Department of Defense (DoD): Thursday, 7:00 AM PT
+  * Federal Systems Integrators (FSI): Thursday, 7:00AM PT
+  * National Security Group (NSG): Thursday, 7:00AM PT
+  * SLED: Thursday, 7:00AM PT
 * Non-Demand Generation Nurture
-   * All Remote: Thursday, 6:00AM PDT (not actively being maintained)
+  * All Remote: Thursday, 6:00AM PDT (not actively being maintained)
 
 ### Intelligent Nurture Processes
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -127,7 +121,7 @@ To be updated and documented upon revamp of nurture engine and database nurturin
 <!-- DO NOT CHANGE THIS ANCHOR -->
 What happens to Marketo when a contact is a member of a program equal to True.
 Marketo within the engagement programs will try to send the number 1 email of the stream. If the contact does not comply with the requirements, Marketo will try to send the mail number 2 and so on until only 2 things happen: 1 – that the mail is sent or 2 – that no mail is sent from the stream and the contact becomes exhausted.
-In the image below there is an explicit way on how Marketo “plays” with the send controller of 2 different emails on the same day.
+In the image below there is an explicit way on how Marketo "plays" with the send controller of 2 different emails on the same day.
 ![Marketo-Journey](/uploads/668ae822065318dc3ebc6c8910a70a77/Screen_Shot_2022-04-28_at_8.56.57_AM.png)
 The ONLY way for a contact to advance from one stream to another is when it generates enough interaction and its scoring increases enough to move it from RAW to INQ from INQ to MQL or from MQL to SAO.
 
@@ -181,7 +175,7 @@ To be able to extract a complete report of email metrics, you just must click on
 
 Also, in case of not having access to Marketo to download the report you can go to the following folder where the reports of each nurture are uploaded on a monthly basis. [Intelligent Nurture KPI](https://drive.google.com/drive/folders/1bpopmeEE9DDA0g50pw6Pr_PO_FPsS9-d?usp=sharing)
 
-#### Trial nurture
+### Trial nurture
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **Goal:** Educate trialers about key features to use during 30 day period.
@@ -191,7 +185,7 @@ Also, in case of not having access to Marketo to download the report you can go 
 * [FY24 Trial Nurture Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3559)
 * [Email copy doc](https://docs.google.com/document/d/1Pz0RxtBUsJgkrbeHDN9Oh8xSsh2054C0-VPfn0Nf-kw/edit?usp=sharing)
 
-##### Setup for Trial Nurture
+#### Setup for Trial Nurture
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Self Managed owners go through the [Marketo Program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP8569A1)
@@ -202,9 +196,9 @@ SaaS owners are now going through the program in [Iterable](https://app.iterable
 
 UTMs: ?utm_source=Iterable&utm_medium=email&utm_campaign=trial-nurture
 
-#### Free User Onboarding Email Campaigns
+### Free User Onboarding Email Campaigns
 <!-- DO NOT CHANGE THIS ANCHOR -->
-**Sent through Iterable**  
+**Sent through Iterable**
 We recenlty moved what was formerly known as "In-product emails" from Mailgun to our newer Iterable system. This will allow greater flexibility and iteration.
 
 * [Slide deck showing past and current state](https://docs.google.com/presentation/d/1nb26f7NJEY-_KNkQ3GjXVCnrBCo1Y3SeW7QTBCO_DYM/edit#slide=id.g224a1f3561e_2_3)
@@ -219,27 +213,27 @@ We recenlty moved what was formerly known as "In-product emails" from Mailgun to
 * User emails
 * Any sort of combination of the above
 
-**We launched these for:**  
+**We launched these for:**
 
 * Free SaaS users - Beginning of Feb, 2021, moved to Iterable in August 2023
 * Free Self-managed users - Launched mid-late May, 2021, moved to Iterable in August 2023
 
-**Iterations:**  
+**Iterations:**
 We relaunched these emails in Iterable and turned off Mailgun. Send time is now based on when the user joins GitLab and implemented skipping weekend send dates. In August 2023, we launched a welcome email and simplified some of the content. We will be iterating more on this program going forward.
 
-**Who’s part of this project?**  
+**Who's part of this project?**
 
 * Allie Klatzkin - email marketing DRI, Iterable analytics, & assist technical setup
 * Paige Cordero (Growth)
 * Sam Awezec (Growth)
 * Gayle Doud (Growth)
 
-**So what’s the deal?**  
+**So what's the deal?**
 Basically, we have a series of emails that deploy to net new namespaces. The goal is to get free users to use features of the product. There are 4 tracks - adopt Create, adopt Verify, invite Team, try a Trial. Each track has emails that try to nudge users to take action. If a user takes the action referenced in the email, they will not get the next email in the series and will move to the next series.
 
-**From email and reply-to email**  
+**From email and reply-to email**
 `info@mg.gitlab.com` -  which is a group inbox. Amy is also a member of this group inbox.
-**HTML files**  
+**HTML files**
 All of the HTML email files are in [Iterable](https://app.iterable.com/campaigns/manage?folderId=618897).
 
 For a more in-depth look at how these emails work, please review the [Figma journey](https://www.figma.com/file/FdF9bhLOtPKah7IxarPNjO/Aug-2023-Iterable-Free-User-Email-Journey?type=whiteboard&node-id=0%3A1&t=CsoAGTyGQ4j5rLR1-1).

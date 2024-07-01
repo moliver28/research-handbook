@@ -12,15 +12,15 @@ Many items on this page are a guidelines for our [Executive Business Administrat
 
 ### CEO Bio
 
-Sid Sijbrandij is the Co-founder, Chief Executive Officer and Board Chair of GitLab Inc., the most comprehensive AI-powered DevSecOps platform. GitLab’s single application helps organizations deliver software faster and more efficiently while strengthening their security and compliance.
+Sid Sijbrandij is the Co-founder, Chief Executive Officer and Board Chair of GitLab Inc., the most comprehensive AI-powered DevSecOps platform. GitLab's single application helps organizations deliver software faster and more efficiently while strengthening their security and compliance.
 
-Sid’s career path has been anything but traditional. He spent four years building recreational submarines for U-Boat Worx and while at Ministerie van Justitie en Veiligheid he worked on the Legis project, which developed several innovative web applications to aid lawmaking. He first saw Ruby code in 2007 and loved it so much that he taught himself how to program. In 2012, as a Ruby programmer, he encountered GitLab and discovered his passion for open source. Soon after, Sid commercialized GitLab, and by 2015 he led the company through Y Combinator’s Winter 2015 batch. Under his leadership, the company has grown with an estimated 30 million+ registered users from startups to global enterprises.
+Sid's career path has been anything but traditional. He spent four years building recreational submarines for U-Boat Worx and while at Ministerie van Justitie en Veiligheid he worked on the Legis project, which developed several innovative web applications to aid lawmaking. He first saw Ruby code in 2007 and loved it so much that he taught himself how to program. In 2012, as a Ruby programmer, he encountered GitLab and discovered his passion for open source. Soon after, Sid commercialized GitLab, and by 2015 he led the company through Y Combinator's Winter 2015 batch. Under his leadership, the company has grown with an estimated 30 million+ registered users from startups to global enterprises.
 
 Sid studied at the University of Twente in the Netherlands where he received an M.S. in Management Science. Sid was named one of the greatest minds of the pandemic by Forbes for spreading the gospel of remote work.
 
 ### Sijbrandij pronunciation hint
 
-A pronunciation hint for `Sijbrandij`: It’s like when you have seen some distilled wine, and want to point it out: `Sid, see brandy`
+A pronunciation hint for `Sijbrandij`: It's like when you have seen some distilled wine, and want to point it out: `Sid, see brandy`
 
 ## Related pages
 
@@ -60,15 +60,15 @@ Sid is easy to talk to on any subject. He is good at drawing people out and chal
 
 ## Pointers from CEO Direct Reports
 
-1. Sid takes hard feedback well, but he’s difficult to give feedback to because he can be intimidating. Build up your muster and don’t hold back.
-1. Sid is worth managing up to. The learning curve he’s on is as steep as it gets, and he does learn/change/adapt readily, so you will see a return from investment.
+1. Sid takes hard feedback well, but he's difficult to give feedback to because he can be intimidating. Build up your muster and don't hold back.
+1. Sid is worth managing up to. The learning curve he's on is as steep as it gets, and he does learn/change/adapt readily, so you will see a return from investment.
 1. Sid is GitLab's product visionary.
-1. He’s the anchor of all-remote.
-1. Sid is the source of our [transparency value]({{< ref "values#transparency" >}}).
+1. He's the anchor of all-remote.
+1. Sid is the source of our [transparency value](/handbook/values/#transparency).
 1. Sid is also the driving force for our iteration value. For example, he may hold [Iteration Office Hours](#iteration-office-hours).
 1. Sid really values 1:1 preparation.
-1. Sid believes in “strong opinions, weakly held.” He doesn’t always seem like it, but he will change his mind quickly if you present him with compelling new information and a data driven perspective.
-1. Sid loves naming things, and strongly believes in the power of clear language. Learn and use (and add to) our terminology e.g. `It’s not a “best practice”, it’s a “boring solution”`. The [product categories](/handbook/product/categories/) page is a good example. Sid advocates for using [MECEFU terms]({{< ref "communication#mecefu-terms" >}}) to keep communication efficient.
+1. Sid believes in "strong opinions, weakly held." He doesn't always seem like it, but he will change his mind quickly if you present him with compelling new information and a data driven perspective.
+1. Sid loves naming things, and strongly believes in the power of clear language. Learn and use (and add to) our terminology e.g. `It's not a "best practice", it's a "boring solution"`. The [product categories](/handbook/product/categories/) page is a good example. Sid advocates for using [MECEFU terms]({{< ref "communication#mecefu-terms" >}}) to keep communication efficient.
 
 ## Interviewing and conducting meetings
 
@@ -79,10 +79,10 @@ This section was started by GitLab's Head of Remote Darren M. to coach and provi
 1. ***Do you script perspective and commentary?*** Unscripted, authentic feedback and commentary is appreciated and shows preparation for the subject matter and an understanding of discussion flow. With Sid (and other interview subjects), practice gets you closer to perfection. Professional media training creates a deeper understanding of this concept.
 1. ***Do you worry about saying the wrong thing?*** This may be challenging to overcome. A list of tips for overcoming this are below.
    1. Be comfortable with (seemingly) awkward silence. Sid appreciates time to analyze and gather his thoughts to provide the most thoughtful, cohesive response. Silence is not an indicator of his disapproval of the question or angle.
-   1. Make it personal. Ask Sid “*Why do you feel this way?*” or "*What did you learn from this?*" or “*What happens in your day that relates to this?*” Sid is able to craft stories which involve personal anecdotes that create deeper understanding and learning for the audience.
+   1. Make it personal. Ask Sid "*Why do you feel this way?*" or "*What did you learn from this?*" or "*What happens in your day that relates to this?*" Sid is able to craft stories which involve personal anecdotes that create deeper understanding and learning for the audience.
 1. ***Be bold in your questions***. Sid enjoys the challenge of a hard or (thoughtfully) audacious question. Sid fields a lot of questions on a daily basis, many of which can be answered by [referencing the GitLab handbook](/handbook/company/culture/all-remote/self-service/#answer-with-a-link). By referencing a current state in the handbook and digging for more context and nuance, this provides opportunity for Sid to answer and provide value to more than just the interviewer — the new context should be added to the handbook after the interview to benefit all.
 1. ***Apply to the [CEO Shadow](/handbook/ceo/shadow/) program***. There is no equivalent to watching Sid meet with and interview a global array of people for two weeks. The program is an efficient way to gain a deeper understanding of Sid's style and personality. Moreover, the program enables GitLab team members to realize that Sid is not only a CEO, but also an individual who enjoys working with others who will challenge him and accelerate his personal growth.
-1. ***Don’t be ashamed with ending early***. It is natural to try to fill an allotted time block with a CEO. Remember GitLab's value of [Efficiency]({{< ref "values#efficiency" >}}) and be bold if you're able to progress through an agenda quickly. A recommend close-out statement is: “*We were very efficient driving through the agenda. Any final points before we close?*”
+1. ***Don't be ashamed with ending early***. It is natural to try to fill an allotted time block with a CEO. Remember GitLab's value of [Efficiency](/handbook/values/#efficiency) and be bold if you're able to progress through an agenda quickly. A recommend close-out statement is: "*We were very efficient driving through the agenda. Any final points before we close?*"
 1. ***Listen to Sid's [interview](https://changelog.com/founderstalk/70) on the Changelog podcast***. There are hundreds of hours of Sid speaking on the internet, but this interview showcases a talented interviewer (Adam) extracting nuance and detail from Sid in a comfortable and professional way. The interviewer is thoughtful yet audacious in his questions, while also bold and considerate. He challenges Sid and commands mutual respect.
 
 ## Communication
@@ -91,7 +91,7 @@ Thanks to [Mårten Mickos](https://www.linkedin.com/in/martenmickos) for the ins
 
 I am a visual person much more than auditory, and I am a top-down person much more than bottom-up. This means that I love written communication: issues, email, Google Docs, and chat. Feel free to send me as many emails and chat messages as you like, and about whatever topics you like. I prefer chat over email.
 
-If you have a great new idea or suggestion for me, I appreciate if you can convey it in a picture or in written words, because I learn by seeing more than I learn by hearing. I don't mind if you send me or point me to plans that are in draft mode or not ready. I am happy if I can give useful feedback early. It doesn’t have to be perfect and polished when presented to me.
+If you have a great new idea or suggestion for me, I appreciate if you can convey it in a picture or in written words, because I learn by seeing more than I learn by hearing. I don't mind if you send me or point me to plans that are in draft mode or not ready. I am happy if I can give useful feedback early. It doesn't have to be perfect and polished when presented to me.
 
 In written communication, I appreciate the top-down approach. Set the subject header to something descriptive. Start the email by telling me what the email is about. Only then go into details. Don't mix separate topics in the same email, it is perfectly fine to send two emails at almost the same time. Try to have a concrete proposal so I can just reply with OK if that is possible.
 
@@ -117,26 +117,28 @@ Sometimes I will ask to be kept apprised of an action item or follow up. One com
 
 I get a lot of @ mentions in Slack, often when I'm being discussed. Please only @ mention me when you need me to see something or approve something, when you just want to refer to me you can just say Sid. This saves time and enables increased efficiency.
 
+If there is a suggested message draft that you'd like me to post in Slack, you should send two messages to me. The first message should include the context behind the ask, the suggested timing for posting, and a link to the channel that the draft will be posted in. Under this message reply in thread with your second message. This should only contain the draft message. This allows me to easily copy and paste on mobile.
+
 ### No Sacred Cows
 
-I’ve been thinking about the notion of Sacred Cows since I heard that people use “Sid said” as an argument in conversations.
+I've been thinking about the notion of Sacred Cows since I heard that people use "Sid said" as an argument in conversations.
 
-The phrase comes from the belief of devout Hindus that cows are sacred animals and should never be harmed. In the US, we use this term to mean “[one that is often unreasonably immune from criticism or opposition](https://www.merriam-webster.com/dictionary/sacred%20cow).” If we’re truly practicing continuous learning, we have to question the Sacred Cows that can subtly and profoundly influence how we make decisions and conduct business. We need to examine Sacred Cows with ruthless compassion. By that I mean that we should be ruthless about examining and questioning their validity while being compassionate with the person citing the Sacred Cow.
+The phrase comes from the belief of devout Hindus that cows are sacred animals and should never be harmed. In the US, we use this term to mean "[one that is often unreasonably immune from criticism or opposition](https://www.merriam-webster.com/dictionary/sacred%20cow)." If we're truly practicing continuous learning, we have to question the Sacred Cows that can subtly and profoundly influence how we make decisions and conduct business. We need to examine Sacred Cows with ruthless compassion. By that I mean that we should be ruthless about examining and questioning their validity while being compassionate with the person citing the Sacred Cow.
 
-Just because I said something doesn’t make it inviolable law like a law of physics. My utterances are usually merely an opinion based on the context of the discussion and the moment. As new context is revealed, we need to be willing to reexamine what we say and iterate.
+Just because I said something doesn't make it inviolable law like a law of physics. My utterances are usually merely an opinion based on the context of the discussion and the moment. As new context is revealed, we need to be willing to reexamine what we say and iterate.
 
-What I propose is that next time ‘Sid said’ is mentioned you check in with me, I might say:
+What I propose is that next time 'Sid said' is mentioned you check in with me, I might say:
 
-1. “Yes, here’s my reasoning .. what is yours” we then choose to:
+1. "Yes, here's my reasoning .. what is yours" we then choose to:
    - Keep it and maybe document the reasoning so it can be falsified in the future.
    - Change it based on your reasoning
 
 But it is also possible that:
 
-1. “I never made the statement”
-1. “I don’t recall making it”, or
-1. “It’s been misinterpreted.”  And
-1. “Now that you mention it, it doesn’t hold up in light of the situation we’re in now”
+1. "I never made the statement"
+1. "I don't recall making it", or
+1. "It's been misinterpreted."  And
+1. "Now that you mention it, it doesn't hold up in light of the situation we're in now"
 
 ### Communicating Merge Requests
 
@@ -235,7 +237,7 @@ I try to plan my vacations around times when many team members in the United Sta
 
 1. Candidate interviews should default to 50 minutes unless there is a specific request to make the meeting shorter or longer.
 1. There should be an invite that includes both the candidate and the CEO. If this is a C-level candidate or it is otherwise requested, the meeting should have "private" visibility. Otherwise, it can be "public."
-1. There should be a second calendar invite from Sid's account with the subject: [Shadow or No Shadows] CEO Briefing Doc: [Person's Name]. This should follow the "private" conventions shared in item 2. This invite should include a briefing document that contains the following information:
+1. There should be a second calendar invite from Sid's account with the subject: [Shadow or No Shadows] CEO Briefing Doc: [Person's Name]. This should follow the "private" conventions shared in item 2. This invite should include a briefing document that is shared with the hiring manager and recruiter (if there is one). The document contains the following information:
     1. Role with a link to the job family
     1. Candidate's LinkedIn link
     1. Link to resume
@@ -351,14 +353,14 @@ Note: I have paid for all of these items myself. Please refer to [GitLab's expen
 
 When preparing scripts or documents in my voice, please follow these guidelines. This list can help you prepare a draft that is as close as possible to my natural way of communicating. For additional information or questions, please contact the `#external-comms` Slack channel or the [Chief of Staff to the CEO]({{< ref chief-of-staff >}}).
 
-1. Avoid “we” or “our” when discussing the product. I don’t wish to speak on behalf of others or to imply that GitLab team members are owners of GitLab or its users. Everyone can contribute = everyone has some ownership of GitLab.
+1. Avoid "we" or "our" when discussing the product. I don't wish to speak on behalf of others or to imply that GitLab team members are owners of GitLab or its users. Everyone can contribute = everyone has some ownership of GitLab.
 1. Less is more. If you can say something in fewer words, do so. I prefer speaking in shorter sentences.
 1. Always [be inclusive](/handbook/company/culture/inclusion/#inclusive-language). No gendered terms if it can be avoided.
-1. Be as direct and specific as possible. Don’t assume the reader/audience knows what you mean ([low-context communication](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication)). No vague statements.
-1. Remove unnecessary words, assuming statements or lead-ins that don't add value. Ex: “As you know.”
+1. Be as direct and specific as possible. Don't assume the reader/audience knows what you mean ([low-context communication](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication)). No vague statements.
+1. Remove unnecessary words, assuming statements or lead-ins that don't add value. Ex: "As you know."
 1. When writing a script, read it out loud. If it's not easy to say in one try, edit the script to make it easy to speak.
 1. Any time you make a statement, consider whether there exist any data/proof points to back it up, and include the proof. This proof might exist internally through work our teams are doing, or externally through analyst reports or other such reporting.
-1. Familiarize yourself with [GitLab’s Misused Terms]({{< ref top-misused-terms >}}) and avoid using these. For example, always use “Team members” instead of Employees.
+1. Familiarize yourself with [GitLab's Misused Terms]({{< ref top-misused-terms >}}) and avoid using these. For example, always use "Team members" instead of Employees.
 1. Run text through a readability checker, such as [the ones on this page](https://readabilityformulas.com/free-readability-formula-tests.php). Aim to have a [Flesch Reading Ease score](https://readabilityformulas.com/flesch-reading-ease-readability-formula.php) above 80. This is the score for a document that is "easy" to read.
 1. No interrupters. [Interrupters](https://www.grammarly.com/blog/comma-with-interrupters/) are little thoughts in the middle of a thought and they complicate sentences. So use 'Q2 was a great quarter. I am pleased with the results.' instead of 'Q2, happily, was a great quarter.'
 1. Be exact, not approximate.
@@ -398,7 +400,7 @@ An applicant asked how we manage to do this and these are the factors that come 
 1. Everyone in the business wants to do the right thing for the existing users and customers. The problem is that people already using you prefer stability in scope over change in scope. You need to optimize for all people, both the current users and people not using GitLab yet because it is missing features.
 1. Separate execution from goal-setting. At GitLab, product decides what to ship and engineering is responsible for shipping it. Both report in to the CEO. If you have a head of product that also runs engineering, they are more likely to slow down because it will make engineers' tasks easier.
 1. Separate decision making from giving input. [As detailed in our handbook](/handbook/leadership/#making-decisions) we leave the decision to the person doing the work or their manager, this prevents the need for exponentially more coordination as we grow.
-1. We [iterate]({{< ref "values#iteration" >}}) so that we keep learning quickly and reduce the risk of decisions.
+1. We [iterate](/handbook/values/#iteration) so that we keep learning quickly and reduce the risk of decisions.
 1. We have [functional teams](/handbook/leadership/#no-matrix-organization) that make us efficient but as mentioned in that text we promote organic cross-functional collaboration by giving people stable natural counterparts.
 
 ## Evolution of the handbook

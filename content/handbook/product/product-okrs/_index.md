@@ -1,13 +1,6 @@
 ---
-
 title: Product Division OKRs
 ---
-
-
-
-
-
-
 
 {{% include "includes/product-handbook-links.md" %}}
 
@@ -28,23 +21,23 @@ This page provides an overview of the Product Division OKR workflow. All departm
 ### OKR Kick-off by Chief Product Officer
 
 - **5 weeks** prior to the start of the  quarter, an [automated drafting issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Division-OKR-Drafting.md) kicks off the OKR drafting process:
-     - Product EBA updates the issue with due dates and signals the Chief Product Officer the drafting issue is available for drafting
+  - Product EBA updates the issue with due dates and signals the Chief Product Officer the drafting issue is available for drafting
 - **4 weeks** prior to the start of the quarter:
-     - CProdO drafts Product Division OKRs aligned to the [annual product investment themes](https://about.gitlab.com/direction/#fy23-product-investment-themes) and annual [Yearlies](/handbook/company/yearlies/) leveraging the [drafting issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Division-OKR-Drafting.md)
+  - CProdO drafts Product Division OKRs aligned to the [annual product investment themes](https://about.gitlab.com/direction/#fy23-product-investment-themes) and annual [Yearlies](/handbook/company/yearlies/) leveraging the [drafting issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Division-OKR-Drafting.md)
 - **3 weeks** prior to the start of the quarter:
-     - CProdO shares proposed Product OKRs with Product Leadership Team
-     - Product Leadership team provides their feedback or any alternate OKRs in the drafting issue
+  - CProdO shares proposed Product OKRs with Product Leadership Team
+  - Product Leadership team provides their feedback or any alternate OKRs in the drafting issue
 - **2 weeks** prior to the start to quarter:
-     - Product EBAs create Product Division OKRs in GitLab and mention `@gl-product-pm` (section, stage, and group product leads) to finalize KR drafts with their respective [Product Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/)
-     - Product leads must have at least 2 weeks to review CProdO OKRs, propose changes, and plan any additional OKRs that cascade up to CProdO OKRs.
-     - Product leads from each section, stage, and group review Product Division OKRs and provide feedback directly in GitLab on changes that may be needed.
-     - Product leads plan and propose their respective section, stage and section OKRs following the guidance on [how to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs).
+  - Product EBAs create Product Division OKRs in GitLab and mention `@gl-product-pm` (section, stage, and group product leads) to finalize KR drafts with their respective [Product Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/)
+  - Product leads must have at least 2 weeks to review CProdO OKRs, propose changes, and plan any additional OKRs that cascade up to CProdO OKRs.
+  - Product leads from each section, stage, and group review Product Division OKRs and provide feedback directly in GitLab on changes that may be needed.
+  - Product leads plan and propose their respective section, stage and section OKRs following the guidance on [how to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs).
 - **1 weeks** prior to start of fiscal quarter:
-     - Product leaders at all levels (division, section, stage, group) discuss and finalize OKR changes needed to ensure alignment with the goal of finalizing OKRs when the new quarter starts.
-     - At the end of the week, Product Division OKRs are reviewed by the Product Leadership Team and updated in GitLab to ensure that they reflect what the section/stage/group KRs show that can be delivered within the quarter.
+  - Product leaders at all levels (division, section, stage, group) discuss and finalize OKR changes needed to ensure alignment with the goal of finalizing OKRs when the new quarter starts.
+  - At the end of the week, Product Division OKRs are reviewed by the Product Leadership Team and updated in GitLab to ensure that they reflect what the section/stage/group KRs show that can be delivered within the quarter.
 - **Ongoing** after quarter start:
-     - KR Owners update scores monthly
-     - KR Owners [propose changes to OKRs as needed](/handbook/product/product-okrs/#how-to-change-an-okr-within-the-quarter) at any point during the quarter.
+  - KR Owners update scores monthly
+  - KR Owners [propose changes to OKRs as needed](/handbook/product/product-okrs/#how-to-change-an-okr-within-the-quarter) at any point during the quarter.
 
 ## Updating the Status and Progress of OKRs
 
@@ -59,7 +52,7 @@ This page provides an overview of the Product Division OKR workflow. All departm
 
 - Prior to the start of each quarter, shared product KR owners should lead and align on a plan for the [Product Group](/handbook/product/product-processes/#quad--infra--security-product-group-dris) to accomplish their KRs.
 - For guidance on how to structure and score OKRs, refer to the Scoring OKRs section on the GitLab OKRs page (/company/okrs/#scoring-okrs).
-- At the end of each quarter the OKR owner will do a final scoring of the OKRs. If the OKR shifted from the original OKR, always score the the latest agreed to KRs that are still valid.
+- At the end of each quarter the OKR owner will do a final scoring of the OKRs. If the OKR shifted from the original OKR, always score the latest agreed to KRs that are still valid.
 
 ### Sharing OKR completion at the end of the quarter
 
@@ -113,24 +106,24 @@ This aligns with a focus on outcomes and business results instead of KRs trackin
 Product Objectives and Key Results are drafted and entered into GitLab by PLT as per (/handbook/product/product-okrs/#timeline-and-process-for-every-quarter). This includes all Chief Product Officer level OKRs that the Product Division is tracking and reporting on. The R&D org as a whole encompasses many stages, groups, and teams. As a result, it can be challenging to track all OKRs in one place. As of Q4FY24, we are using the following organizational structure to track our OKRs in GitLab:
 
 - R&D's OKRs
-   - FY24Q4 Top Priority R&D OKRs _(entered by PLT)_
-      - Objective 1: [high priority item A]
-         - KR1…
-      - Objective 2: [high priority item B]
-         - KR1…
-      - Objective 3: [high priority item C]
-         - KR1…
-      - Objective 4: [high priority item D]
-        - KR1…
-   - FY24Q4 Other R&D OKRs _(entered by all stage/group leaders per area)_
-      - Monetization & Operations
-         - OKR1...
-      - Sec & Data Science
-         - OKR1...
-      - CI/CD, Core Platform, & SaaS
-         - OKR1...
-      - Dev & Analytics
-         - OKR1...
+  - FY24Q4 Top Priority R&D OKRs _(entered by PLT)_
+    - Objective 1: [high priority item A]
+      - KR1…
+    - Objective 2: [high priority item B]
+      - KR1…
+    - Objective 3: [high priority item C]
+      - KR1…
+    - Objective 4: [high priority item D]
+      - KR1…
+  - FY24Q4 Other R&D OKRs _(entered by all stage/group leaders per area)_
+    - Monetization & Operations
+      - OKR1...
+    - Sec & Data Science
+      - OKR1...
+    - CI/CD, Core Platform, & SaaS
+      - OKR1...
+    - Dev & Analytics
+      - OKR1...
 
 ## Additional Resources
 

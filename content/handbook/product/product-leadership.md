@@ -1,14 +1,6 @@
 ---
-
 title: Product Leadership
 ---
-
-
-
-
-
-
-
 
 {{% include "includes/product-handbook-links.md" %}}
 
@@ -46,9 +38,9 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2024-01-18 | Omar Fernandez | [16.9 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13036) |
 | 2024-02-16 | Mike Flouton | [16.10 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13116) |
 | 2024-03-18 | Justin Farris | [16.11 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13212) |
-| 2024-04-18 | Hillary Benson | To be added |
-| 2024-05-20 | Steve Evangelista | To be added |
-| 2024-06-18 | Mike Flouton | To be added |
+| 2024-04-18 | Hillary Benson | [17.0 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13279) |
+| 2024-05-20 | Steve Evangelista | [17.1 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13349) |
+| 2024-06-18 | Mike Flouton | [17.2 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13455) |
 | 2024-07-18 | Justin Farris | To be added |
 | 2024-08-19 | Hillary Benson | To be added |
 | 2024-09-18 | Steve Evangelista | To be added |
@@ -64,9 +56,9 @@ The Product [Key Review](/handbook/company/key-review/) is hosted by a member of
 | ---- | ---- | -------------- |
 | 2023-11-15 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12863 |
 | 2024-02-21 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/13121 |
-| 2024-XX-XX | Justin Farris | To be added |
-| 2024-XX-XX | Mike Flouton | To be added |
-| 2024-XX-XX | Hillary Benson | To be added |
+| 2024-06-17 | Justin Farris | -- |
+| 2024-XX-XX | Mike Flouton | -- |
+| 2024-XX-XX | Hillary Benson | -- |
 
 ## Product Group Conversation Leader Rotation
 
@@ -79,7 +71,7 @@ For more details, visit the Group Conversations [handbook page](/handbook/compan
 | 2023-09-27 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12401 |
 | 2023-12-06 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/12909 |
 | 2024-02-28 | Justin Farris | https://gitlab.com/gitlab-com/Product/-/issues/13120 |
-| 2024-XX-XX | Mike Flouton | To be added |
+| 2024-06-20 | Mike Flouton | -- |
 | 2024-XX-XX | Hillary Benson | To be added |
 | 2024-XX-XX | Justin Farris | To be added |
 | 2024-XX-XX | Mike Flouton | To be added |

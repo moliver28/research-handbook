@@ -3,7 +3,7 @@ title: "Global Programs Manager"
 summary: "Bring your background and global programs experience to the company leading the advancement of the DevOps market."
 ---
 
-Do you have a deep understanding and real passion for building global awareness and demand generation programs that encompass both strategy and tactics directed at specific audiences and buyer personas? Then this role is for you! Bring your background and global programs experience to the company leading the advancement of the DevOps market. GitLab’s Global Programs Manager position is a key role within the marketing organization and will make a tremendous impact on company growth. You will have the opportunity to define and build global campaigns to drive new logo acquisition and growth in our existing customer base.
+Do you have a deep understanding and real passion for building global awareness and demand generation programs that encompass both strategy and tactics directed at specific audiences and buyer personas? Then this role is for you! Bring your background and global programs experience to the company leading the advancement of the DevOps market. GitLab's Global Programs Manager position is a key role within the marketing organization and will make a tremendous impact on company growth. You will have the opportunity to define and build global campaigns to drive new logo acquisition and growth in our existing customer base.
 
 ### Job Grade
 
@@ -24,7 +24,7 @@ The Global Programs Manager is a [grade 6](/handbook/total-rewards/compensation/
 
 - 8-10+ years of experience leading global campaigns and running awareness and demand creation programs for enterprise software and/or SaaS, preferably in application development or operations.
 - Experience with developing and executing marketing programs for high-growth startups.
-- Understanding of IT personas and mapping programs to the buyer’s journey.
+- Understanding of IT personas and mapping programs to the buyer's journey.
 - Results oriented with a strong focus on achieving revenue, conversion, sales and other marketing goals.
 - Ability to use metrics to manage programs and measure success.
 - Ability to manage multiple projects at the same time in a fast-paced environment.

@@ -1,5 +1,4 @@
 ---
-
 title: "Blog Handbook"
 description: "Everything you need to know about suggesting and publishing a post on the GitLab Blog."
 ---
@@ -58,6 +57,8 @@ Blog editors, please add the following two sentences at the beginning of contrib
 
 ***Editor's note: From time to time, we invite members of the community to contribute to the GitLab Blog. Thanks to [entity name] for co-creating with us.***
 
+External contributions are subject to the [External Blog Submissions Terms](https://about.gitlab.com/externalblogsubmissionsterms/). Please read this document and agree to terms before submitting material to GitLab.
+
 ## How to submit a blog draft once your idea is approved
 
 Once a blog pitch is approved, the author will use the [Blog Submission template](https://docs.google.com/document/d/1iWk0a5T14dG5fvIxvG4doqqRxx0pyv3ej_aMDqYXjgA/template/preview) (Google Doc) to write the blog, ensuring the Google Doc is linked in the issue. **All fields in the template will have to be completed for the blog team to accept the submission.**
@@ -83,6 +84,12 @@ Some blog posts must be reviewed by legal, in accordance with our [Materials Leg
 GitLab has a bias for action, and the Blog team is no different. However, the GitLab Blog is a public-facing asset and represents the company. If the Blog team has concerns or questions about the information contained in the blog post, the Blog team has the authority to hold a blog post until Legal, Corporate Commmunications, Partner Marketing, the CMO, etc., can review the blog post to mitigate any potential risk for the company.
 
 Learn more about the [SAFE Guidelines by reading the handbook page](/handbook/legal/safe-framework/) and following the [Materials Legal Review Process](/handbook/legal/materials-legal-review-process/).
+
+## How to suggest a change to a published blog
+
+If you are internal to GitLab and want to suggest a change to a published GitLab blog, please post the change you need in detail with the URl in the `#content` Slack channel and tag @sgittlen or ping @sgittlen directly in Slack.
+
+If you are external to GitLab, please email Sandra Gittlen at  `sgittlen@gitlab.com` with the details of your suggested change.
 
 ## Communication with Blog team
 
@@ -134,16 +141,13 @@ otherwise you'll create another category, which is something we don't want to do
 
 If you're not sure which category your post belongs in, just put a placeholder in your MR and leave a comment for your reviewer noting that.
 
-- `DevOps` - general reference to DevOps
-- `devops platform` - posts mentioning GitLab's DevOps Platform, or DevOps platforms more generically.
-- `DevSecOps` - posts more generally about DevSecOps
-- `DevSecOps platform` - posts mentioning GitLab's DevSecOps Platform, or DevSecOps platforms more generically
-- `engineering` – technical, actionable content. Anything covering how to do something, use something, or solve a problem should fall under this category
+- `agile planning` - posts about AgiLe planning
 - `ai-ml` – posts that focus directly on AI/ML in the platform or in the industry as a whole
+- `customer stories` - posts about how our customers are using GitLab DevSecOps platform
+- `DevSecOps` - posts more generally about DevSecOps
+- `engineering` – technical, actionable content. Anything covering how to do something, use something, or solve a problem should fall under this category
 - `open source` – stories from or about our community, users, or the wider open source community
-- `careers` – posts about careers, salaries, education, and more
-- `culture` – posts about remote work, working together, or GitLab culture
-- `insights` – industry, data, newsjacking, developer survey, etc.
+- `product` - details about features, roadmaps, and strategy
 - `news` – company or product announcements (including policy changes, operational announcements, and breaking changes), news, or events
 - `security` – security-related posts
 - `releases` - release posts, security and patch releases. Posts in the `releases` category need to be in the `sites/uncategorized/source/releases/posts` directory, not `sites/uncategorized/source/blog/blog-posts`. Please see the [Release Post handbook](/handbook/marketing/blog/release-posts/) for more.
@@ -156,6 +160,7 @@ You can include as many tags as you like, separated by commas. Please only inclu
 
 - agile
 - AI/ML
+- automotive
 - AWS
 - bug bounty
 - careers
@@ -175,8 +180,10 @@ You can include as many tags as you like, separated by commas. Please only inclu
 - DevOps platform
 - DevSecOps
 - DevSecOps platform
+- education (articles about the education sector)
 - events
 - features
+- financial services
 - frontend
 - Group Conversations
 - git
@@ -194,6 +201,7 @@ You can include as many tags as you like, separated by commas. Please only inclu
 - performance
 - product
 - production
+- public sector
 - releases
 - remote work
 - research

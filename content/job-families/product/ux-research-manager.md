@@ -78,11 +78,11 @@ The Manager, UX Research is a [grade 8](/handbook/total-rewards/compensation/com
 > ### Some useful resources
 >
 > - Unsure on where to get started? Check out our [handbook page on recording a presentation in Zoom](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom). A free Zoom account is all you'd need to complete this presentation.
-> - Interested in the type of work our UX team does? Check out our [UX Showcases on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
+> - Interested in the type of work our UX team does? Check out our [UX Forum on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
 > - We work with a [low level of shame](/handbook/values/#low-level-of-shame) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
 > - Other questions? Want the Recruiter to review your presentation before the review from the Hiring Manager? Don't hesitate to get in touch with the Recruiter who conducted your screening call.
 
-##### The following steps would be scheduled after a successful review of your case studies
+#### The following steps would be scheduled after a successful review of your case studies
 
 - Interview with a UX Researcher. In this interview, the interviewer will spend a lot of time trying to understand the experiences and challenges you've had as a manager, specific details of any initiatives you've led, the problems you were trying to solve, and the outcomes of these initiatives. Do be prepared to talk about your work and research experience, too.
 - Interview with a Product Design Manager. The interviewer will also want to understand how you work with cross-functional partners, how you've handled conflict, and how you've dealt with difficult situations in the past.
@@ -106,7 +106,7 @@ The Senior Manager, UX Research is a [grade 9](/handbook/total-rewards/compensat
 - Facilitate the creation and execution of UX Research OKRs in collabration with the UX Research team and UX Leadership.
 - Define and manage performance indicators for the UX Research team by actively contributing to the UX Research KPIs on the UX KPIs page in the handbook.
 - Coach UX Research Managers on how to conduct 1:1s, growth, and feedback conversations with their direct reports.
-- Help drive cross-product research by having an awareness of what's happening across all sections through active participation in UX Research peer reviews, UX Showcases, and Group Conversations.
+- Help drive cross-product research by having an awareness of what's happening across all sections through active participation in UX Research peer reviews, UX Forum, and Group Conversations.
 - Actively advocate for UX Research throughout the company, so that the company is aware of what UX Research does, how they do it, and what insights they have delivered.
 - Support UX Research Managers' career development by ensuring: 1) they each have a Career Development Plan in place, 2) there are frequent check-ins on the plan, and 3) when applicable, special projects are being matched to support one's Career Development Plan.
 - Align the way that UX Researchers work with how their cross-functional partners in Product Managment, Product Design, and Engineering prioritize, track, and manage work.
@@ -138,7 +138,7 @@ The Senior Manager, UX Research is a [grade 9](/handbook/total-rewards/compensat
 - Interview with the Director of Product Design. In this interview, the interviewer will spend a lot of time trying to understand the experience you have as a manager, your ways of ensuring the team is well-positioned to produce research studies that have a strong impact on product strategy, what types of teams you have led, and your management style. The interviewer will also want to understand how you work with cross-functional partners, how you've handled conflict, and how you've dealt with difficult situations in the past.
 - Interview with the VP of UX. In this interview, the interviewer will look to understand how you drive strategy, approach difficult conversations, and how you see the role of user research in a cross-functional research and development organization.
 
-## Director, UX Research
+### Director, UX Research
 
 The Director of UX Research reports to the Director of UX, and UX Research Managers report to the Director of UX Research.
 
@@ -187,7 +187,7 @@ The Director, UX Research is a [grade 10](/handbook/total-rewards/compensation/c
 - [Handbook Update Frequency](/handbook/product/ux/performance-indicators/#handbook-update-frequency)
 - [Team Member Retention](/handbook/product/ux/performance-indicators/#team-member-retention)
 
-#### Interview Process
+## Interview Process
 
 - [Screening call](/handbook/hiring/#screening-call) with a recruiter. In this call we will discuss your experience, understand what you are looking for in a UX Research leadership role, talk about your work and approach to user research, discuss your compensation expectations and reasons why you want to join GitLab, and answer any questions you have.
 - Interview with a UX Researcher. In this interview, the interviewer will spend a lot of time trying to understand the experiences and challenges you've had as a manager, specific details of any initiatives you've led, the problems you were trying to solve, and the outcomes of these initiatives. Do be prepared to talk about your work and research experience, too.

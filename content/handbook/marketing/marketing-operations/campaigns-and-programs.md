@@ -1,13 +1,7 @@
 ---
-
 title: "Campaigns and Programs"
 description: "Campaigns are used to track efforts of marketing tactics - field events, webcasts, content downloads."
 ---
-
-
-
-
-
 
 ## Campaigns
 
@@ -345,17 +339,24 @@ For **virtual events**, there are additional set up details on this [page](/hand
 
 For all other campaign types, follows steps below. All steps are required.
 
-## Parent/Child Campaigns
+## Parent/Child Campaigns Setup
 
-For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session, direct mail, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. The parent SFDC campaign should not include any members, or include bizible touchpoints. Additionaly, if you are an Allocadia user, you will not include a sub-category ID in Marketo when syncing to SFDC and creating the new parent campaign. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
+For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session or ancillary event, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. When creating a parent campaign, it should always be named with `_PARENT` at the end of the campaign name.
 
-To assocate a child SFDC campaign to a parent SFDC campaign, go into what will be the child SFDC campaign and at the top of the campaign, click `Edit`. This will open the SFDC fields and then you can add the parent SFDC campaign name into the `Parent` field. Click `Save`.
+Two important aspects that need to be avoided when it comes when creating/editing parent campaigns are the following:
+
+1. Do not add any campaign members to the parent campaign as we want to minimize the risk of creating duplicate bizible touchpoints for the same activity.
+2. Parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, do not put more than $1 value. The true Budgeted Cost & Actual Cost are to be updated only on the child campaigns and not on parent campaigns, as we should not be running any ROI on the parent campaigns.
+
+Additionally, if you are an Allocadia user, you will not include a sub-category ID in Marketo when syncing to SFDC and creating the new parent campaign. You will only use an Allocadia ID when creating the child campaigns. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
+
+To associate a child SFDC campaign to a parent SFDC campaign (the parent campaign needs to be created before the child), go into what will be the child SFDC campaign and at the top of the campaign, click `Edit`. This will open the SFDC fields and then you can add the parent SFDC campaign name into the `Parent` field. Click `Save`.
 
 An example of a folder setup in Marketo is:
 
 - Conference Name (Folder)
   - Conference Name (Program w/ members)
-  - Direct Mail Name (Program w/ members)
+  - Demo program (Program w/ members)
   - Speaking Session 1 (Program w/ members)
   - Speaking Session 2 (Program w/ members)
 
@@ -1097,21 +1098,21 @@ When someone fills out these forms, they will be automatically added to the [Lan
 ### Create LinkedIn Lead Gen Form in LinkedIn (digital marketing)
 
 - Clone the form template according to the region your campaign is located (AMER, EMEA/APAC). The reason for the different forms is compliance related, so please be sure to use the correct template for the region. If you are setting up all three regions, you will need to use both templates.
-  - Ensure the ‘form name’ includes the utm_campaign exactly as it appears in the table above
+  - Ensure the 'form name' includes the utm_campaign exactly as it appears in the table above
   - Form name should also include the utm_content exactly as listed in the issue
   - Form names in AMER forms also need to include `amer` in the form name
   - Example of correct format
     - _Ex.devopsgtm_amer_guide-to-devops_feb2023_
     - NOTE: If there is a segment specific version, add the segment inside the content name for better tracking. _devopsgtm_amer_guide-to-smb-devops_feb2023..._
-- Fill out ‘offer headline’ and ‘offer details’
-- Update ‘confirmation message’ and `landing page URL`
+- Fill out 'offer headline' and 'offer details'
+- Update 'confirmation message' and `landing page URL`
   - The template has the homepage as a standard landing page URL, but if there is a more appropriate page, update the URL and keep the UTMs the same
 - Update hidden field for `utm_campaign` and `utm_content`
   - This is very important to have the correct campaign naming to ensure the lead data is passed to Marketo
 - Save Form
 - Navigate to the campaign that will be using the new form and edit
 - In `form details` select `download` as the call-to-action and select your new form
-  - Note: If your new asset is launching in multiple regions, confirm you’re adding the correct form to the correct regional campaign
+  - Note: If your new asset is launching in multiple regions, confirm you're adding the correct form to the correct regional campaign
 
 ### Step 1: For new campaigns not listed above, [clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Gainsight Administration"
 description: "This page shows the data structure, integrations, and other technical information about how GitLab administers Gainsight."
 ---
@@ -13,14 +12,14 @@ description: "This page shows the data structure, integrations, and other techni
 
 All teams should use the `#gainsight-users` Slack Channel for questions or issues with Gainsight for quick attention. Customer Success Operations provides support for all Customer Success teams.
 
-#### Guidelines for CSOps teams assisting in addressing questions/concerns on the `#gainsight-users' channel
+### Guidelines for CSOps teams assisting in addressing questions/concerns on the `#gainsight-users' channel
 
 - For general Gainsight questions, start by exploring in system to see if you can find an obvious reason; some exaples include: simple setup questions, adding a filter or column to a report, straightforward reasons for a rule failing, etc.
 - For product usage reporting questions, loop in the SME who can usually support/address the concerns directly; the product usage reporting SME can decide if / when to loop in other team member as needed. SME: @nk312
 - For questions about Digital Customer Programs, please reach out to the SMEs: @mharris3 and @jgamboa;
 - For questions about Scale programs, process, operations, please reach out to Scale SME: @rgorbanescu
 
-#### What items can be handled via channel vs. an issue
+### What items can be handled via channel vs. an issue
 
 - Any questions that will take minimal amount of time to sort out (15-30 min) can be handled directly via the channel
 - If troubleshooting time piles up, ask to have an issue created
@@ -148,11 +147,11 @@ At the time of writing, the Snowflake connector is only available to use in the 
 
 We are only using this in Data Designer. We pull product usage data from Snowflake in the `MonthlyMart SelfManaged Usage Data` object.
 
-Username and password are saved in Jeff Beaumont’s 1Password account. If you need to reset permissions, please ask him.
+Username and password are saved in Jeff Beaumont's 1Password account. If you need to reset permissions, please ask him.
 
 ### Salesforce Connector
 
-`Connectors` is used as one of the main import methods of data from Salesforce to Gainsight, and is a native integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce instance. More information in regards to the connector and how to set it up in in the [Gainsight Knowledge Base](https://support.gainsight.com/Gainsight_NXT/01Onboarding_and_Implementation/Onboarding_for_Gainsight_NXT_in_Salesforce/Salesforce_Connector/Salesforce_Connector_Overview).
+`Connectors` is used as one of the main import methods of data from Salesforce to Gainsight, and is a native integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce instance. More information in regards to the connector and how to set it up in the [Gainsight Knowledge Base](https://support.gainsight.com/Gainsight_NXT/01Onboarding_and_Implementation/Onboarding_for_Gainsight_NXT_in_Salesforce/Salesforce_Connector/Salesforce_Connector_Overview).
 
 `Connectors` is used between our Salesforce and Gainsight instances to sync these objects:
 | Job Name               | SFDC Object           | Gainsight Object      |
@@ -370,7 +369,7 @@ Some of our Gainsight users and champions have reported not being able to see ne
 
 In order to reset the cache, GS Admins can take one of the following actions:
 
-1. Next to “Save Layout” click on the 3 dots and select “Clear State”.  This will clear the cached state and the next time a user loads the dashboard, it will be the most recent version of the dashboard.
+1. Next to "Save Layout" click on the 3 dots and select "Clear State".  This will clear the cached state and the next time a user loads the dashboard, it will be the most recent version of the dashboard.
 2. A GS admin can add and remove a filter to the dashboard.  The act of adding a filter automatically clears the state.
 
 ## Gainsight sync timing
@@ -498,16 +497,16 @@ The namespaces list used by SaaS Namespace Service Ping is driven by a clone of 
 ### Data definitions
 
 - [UUID](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html#uuid): originally intended as unique identifier
-- `Hostname`: the url for the company’s on-prem server (e.g., gitlab.gainsight.com)
+- `Hostname`: the url for the company's on-prem server (e.g., gitlab.gainsight.com)
 - `Namespace id`: the GitLab-defined ID for namespaces (SaaS)
 - `Namespace name`: the customer-defined name for their namespace. Note: many are listed as "BLOCKED" because of PII
 - Metric definitions: https://metrics.gitlab.com/
 - `Ping_date`: The specific date of the Service Ping (e.g., 2021-08-11 12:00). This is a weekly ping so the rows of data are updated with the latest ping values.
   - Use case: Use this field to see the exact date that the ping was sent.
 - `Snapshot_month`: each row of data is tied to the snapshot month. The ping_date field will update the values in `Snapshot_month` for the current month.
-  - Example: The monthly values (the fields) are updated on a weekly basis (Friday). Using July as an example, the ping date will update (July 1, July 8, July 15, July 22….) but the snapshot_month will remain 2021-07-01. When comparing July and August, you’ll see the value as of July 31 (roughly) and August 7 (assuming 1 week off). Put differently, July and August may be very similar in numbers.
+  - Example: The monthly values (the fields) are updated on a weekly basis (Friday). Using July as an example, the ping date will update (July 1, July 8, July 15, July 22….) but the snapshot_month will remain 2021-07-01. When comparing July and August, you'll see the value as of July 31 (roughly) and August 7 (assuming 1 week off). Put differently, July and August may be very similar in numbers.
   - Use case: 99% of the time use `snapshot_month` vs. `ping_date`.
-  - Reasons we wouldn’t see snapshot month:
+  - Reasons we wouldn't see snapshot month:
     - Canceled subscription (they canceled in May and, thus, stopped sending us data)
     - Data quality (something broke somewhere)
     - For self-managed, the customer disabled or blocked sending us data
@@ -530,7 +529,7 @@ When the CS Ops team creates a new program in Journey Orchestrator, utilizing an
 
 1. Issue # - Related issue number from the Customer Success Operations GitLab Project.
 2. Segment - CSM/CSE or Sales Segment this JO Program affects.
-3. Title - Description of the program’s purpose or objective.
+3. Title - Description of the program's purpose or objective.
 4. Region - The region/timezone this program is designed to serve.
 
 The naming convention is as follows:
@@ -539,7 +538,7 @@ The naming convention is as follows:
 
 E.g., `1661 - Scale - CI Enablement  (APAC)`
 
-From this program name, we are ble to quickly understand that it relates to Issue #1661, focuses on Scale segment customers in the Asia-Pacific region and is a CI Enablement program. Don’t forget to add the program to your preferred folder!
+From this program name, we are ble to quickly understand that it relates to Issue #1661, focuses on Scale segment customers in the Asia-Pacific region and is a CI Enablement program. Don't forget to add the program to your preferred folder!
 
 ## Snowflake tables
 

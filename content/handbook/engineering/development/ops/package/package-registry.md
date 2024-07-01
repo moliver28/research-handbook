@@ -4,8 +4,7 @@ title: Package:Package Registry Group
 
 ## 📦 The Team
 
-The Package Registry is part of the GitLab [Package
-stage](/handbook/engineering/development/ops/package/), which integrates with [GitLab's CI/CD product](https://about.gitlab.com/direction/ops/).
+The Package Registry is part of the GitLab [Package stage](/handbook/engineering/development/ops/package/), which integrates with [GitLab's CI/CD product](https://about.gitlab.com/direction/ops/).
 
 ## Who We Are
 

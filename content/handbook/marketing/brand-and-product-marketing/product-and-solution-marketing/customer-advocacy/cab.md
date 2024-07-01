@@ -74,7 +74,7 @@ Find CSM [process](https://docs.google.com/presentation/d/1LPJazgskhQJnqjBYzRlu5
 
 **Process**
 
-1. The Customer Reference Manager (CRM) creates the “CAB CSM Follow up” [issue template](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/customer-advisory-board/-/issues/new?issue%5Bmilestone_id%5D=) in the CAB project and uploads links to the recordings etc
+1. The Customer Reference Manager (CRM) creates the "CAB CSM Follow up" [issue template](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/customer-advisory-board/-/issues/new?issue%5Bmilestone_id%5D=) in the CAB project and uploads links to the recordings etc
 2. The CRM tags the CSMs and CSM managers in the issue to review the CAB recordings/ notes and transcripts when their customer has attended the CAB
 3. The CSM create new issues in the Product repo as per [agreed process](/handbook/customer-success/csm/product/) based upon their customer feedback (links to the customer SFDC account as per standard process for reporting)
 4. If the issue already exists please add the CAB label provided and add the customer SFDC record
@@ -155,14 +155,14 @@ CAB on hold due to program relaunch in Q1
 
 ***May 6, 2020***
 
- - 12 customers in attendance
- - Create: Editor update
- - Customer sharing - U.S. Telecom
+- 12 customers in attendance
+- Create: Editor update
+- Customer sharing - U.S. Telecom
 
  ***April 21, 2020***
 
- - 19 customers in attendance
- - Half-day virtual event
+- 19 customers in attendance
+- Half-day virtual event
 
 ***March 4, 2020***
 

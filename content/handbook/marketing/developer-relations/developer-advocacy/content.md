@@ -5,7 +5,6 @@ aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/content/index.html
 ---
 
-
 ## Content Library
 
 The Developer Advocacy team creates content that can be reused for campaigns. All contents and activities the team participates in are added to the team's technical content plan sheet (search for `Technical Content Plan` in Google Drive) and [epics roadmap](/handbook/marketing/developer-relations/developer-advocacy/workflow/#roadmap-view).
@@ -42,6 +41,7 @@ Click-through demos are product simulation demonstrations that can be used for s
 
 | Title | Area | Last updated |
 |-------|------|--------------|
+| [Duo chat](https://tech-marketing.gitlab.io/static-demos/duo-chat.html) | GitLab Duo | 2024-06-19 |
 | [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html) | GitLab Duo | 2023-07-23 |
 | [Remote Development](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html) | Dev section, Create | 2023-05-23 |
 | [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html) | CD | 2023-06-23 |
@@ -55,6 +55,7 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
+| [Value Stream Management](https://gitlab.navattic.com/vsm) | DevSecOps Platform | 2024-06-25 | @iganbaruch |
 | [Interactive infographic](https://tech-marketing.gitlab.io/static-demos/gitlab-infographic.html) | DevSecOps Platform | 2024-03-24 | @iganbaruch |
 | [Resolving vulnerabilities with GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html) | GitLab Duo | 2024-02-24 | @iganbaruch |
 | [CI/CD Catalog beta](https://gitlab.navattic.com/cicd-catalog) | CI/CD | 2024-01-24 | @iganbaruch |

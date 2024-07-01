@@ -40,7 +40,7 @@ Please refer to the [GitLab Anti-Harassment Policy]({{< ref "anti-harassment" >}
 
 ## Individuals with Disabilities Policy
 
-GitLab Inc. (“The Company”) complies with the Americans with Disabilities Act (ADA) and all applicable state laws, which make it unlawful to discriminate in employment against a qualified individual with a disability. The Company prohibits discrimination against team members and applicants with disabilities in all aspects of employment. Our company's commitment to this policy includes making reasonable accommodations to otherwise qualified persons with disabilities to enable them to perform the essential functions of their jobs, unless doing so would pose an undue hardship on our business, would pose a direct threat of substantial harm to the team member or others or is otherwise not required by applicable law.
+GitLab Inc. ("The Company") complies with the Americans with Disabilities Act (ADA) and all applicable state laws, which make it unlawful to discriminate in employment against a qualified individual with a disability. The Company prohibits discrimination against team members and applicants with disabilities in all aspects of employment. Our company's commitment to this policy includes making reasonable accommodations to otherwise qualified persons with disabilities to enable them to perform the essential functions of their jobs, unless doing so would pose an undue hardship on our business, would pose a direct threat of substantial harm to the team member or others or is otherwise not required by applicable law.
 
 ### Our Commitment
 
@@ -52,11 +52,11 @@ A team member or applicant in need of a reasonable accommodation should make the
 
 **Team Member:** Must let the manager and Absence Management Team know that they need an accommodation or adjustment at work due to a medical condition, in order to perform their job.
 
-**Manager:** The manager will act as the SME (subject matter expert) as it relates to the essential functions of the team member’s job, order any equipment needed as it relates to the accommodation, ensure the team member is trained properly on any equipment and it is regularly serviced (if applicable), and follow up with the Absence Management team if the accommodations are not helping the team member perform their job or their performance is not meeting expectations.
+**Manager:** The manager will act as the SME (subject matter expert) as it relates to the essential functions of the team member's job, order any equipment needed as it relates to the accommodation, ensure the team member is trained properly on any equipment and it is regularly serviced (if applicable), and follow up with the Absence Management team if the accommodations are not helping the team member perform their job or their performance is not meeting expectations.
 
-**People Business Partner (PBP):**  Partner with the Manager to evaluate the essential functions of a team member’s job, and possible accommodations.
+**People Business Partner (PBP):**  Partner with the Manager to evaluate the essential functions of a team member's job, and possible accommodations.
 
-**Absence Management Team:** Will serve as a liaison between manager, team member/candidate, and the team member’s or candidate’s physician and will provide input to the team member’s or candidate’s request for a medical restriction and/or accommodation as it relates to the job requirements and working conditions, when appropriate. The Absence Management team will verify and/or clarify the team member's claim of a medical and/or medical restriction, when necessary, once an accommodation is requested. They will also monitor the need for the restriction beyond the expiration date of the restriction.
+**Absence Management Team:** Will serve as a liaison between manager, team member/candidate, and the team member's or candidate's physician and will provide input to the team member's or candidate's request for a medical restriction and/or accommodation as it relates to the job requirements and working conditions, when appropriate. The Absence Management team will verify and/or clarify the team member's claim of a medical and/or medical restriction, when necessary, once an accommodation is requested. They will also monitor the need for the restriction beyond the expiration date of the restriction.
 
 **Talent Acquisition:** Will assist the Absence Management team in identifying potential work assignments for which the candidate is qualified. They will also ensure accommodations are made available for the application process.
 
@@ -79,7 +79,7 @@ Please find an overarching list of what can fall into the [disability defition p
 - Dwarfism
 - Significant disfigurement, for example, disfigurements caused by burns, wounds, accidents, or congenital disorders
 
-And not all disabilities are obvious to the eye. These are known as invisible disabilities. An invisible disability is a physical, mental, or neurological condition that can’t be seen from the outside. But it can impact someone’s movements, senses, or activities, according to the [Invisible Disabilities Association](https://invisibledisabilities.org/). Some examples of invisible disabilities include autism spectrum disorder, depression, diabetes, and learning and thinking differences such as ADHD and dyslexia. Invisible disabilities can also include symptoms such as chronic pain, fatigue, and dizziness.
+And not all disabilities are obvious to the eye. These are known as invisible disabilities. An invisible disability is a physical, mental, or neurological condition that can't be seen from the outside. But it can impact someone's movements, senses, or activities, according to the [Invisible Disabilities Association](https://invisibledisabilities.org/). Some examples of invisible disabilities include autism spectrum disorder, depression, diabetes, and learning and thinking differences such as ADHD and dyslexia. Invisible disabilities can also include symptoms such as chronic pain, fatigue, and dizziness.
 
 GitLab values all team members for their strengths. We offer team members with disabilities — whether visible or invisible — an equal opportunity to succeed, to learn, to be compensated fairly, and to advance. True inclusion is about embracing differences.
 
@@ -90,11 +90,11 @@ conditions, you may request an accommodation under this policy. A team member in
 
 ### Reasonable Accommodation
 
-A reasonable accommodation is any change or adjustment to a job, the work environment or the way things usually are done that enables a qualified individual with a disability to perform the essential functions of the job and that does not pose an undue hardship for the Company or create a direct threat to health or safety. When requesting an accommodation, team members should notify the Absence Management Team at 'leaves@gitlab.com' of the need for the accommodation. The Company may ask for medical documentation supporting the need for an accommodation and all supporting documentation should be returned as quickly as possible to prevent a delay in the accommodation process. Requests for a reasonable accommodation for a medical condition and any supporting documentation, will be treated as confidential, maintained in a file separate from an employee’s other personnel documents and disclosed only as permitted by applicable law.
+A reasonable accommodation is any change or adjustment to a job, the work environment or the way things usually are done that enables a qualified individual with a disability to perform the essential functions of the job and that does not pose an undue hardship for the Company or create a direct threat to health or safety. When requesting an accommodation, team members should notify the Absence Management Team at 'leaves@gitlab.com' of the need for the accommodation. The Company may ask for medical documentation supporting the need for an accommodation and all supporting documentation should be returned as quickly as possible to prevent a delay in the accommodation process. Requests for a reasonable accommodation for a medical condition and any supporting documentation, will be treated as confidential, maintained in a file separate from an employee's other personnel documents and disclosed only as permitted by applicable law.
 
 ### Determining Appropriate Accommodations
 
-When a team member requests a change in the job or working conditions and relates the need to a medical condition, or notifies GitLab “the company” of medical restrictions, the manager or supervisor should direct the team member to notify the Absence Management team (leaves@gitlab.com) of the request.  The Absence Management team will then follow the steps outlined below.
+When a team member requests a change in the job or working conditions and relates the need to a medical condition, or notifies GitLab "the company" of medical restrictions, the manager or supervisor should direct the team member to notify the Absence Management team (leaves@gitlab.com) of the request.  The Absence Management team will then follow the steps outlined below.
 
 Frequently, when a qualified individual with a disability requests a reasonable accommodation, the appropriate accommodation is easily agreed upon. The individual may recommend an accommodation based on their life or work experience. The ultimate decision as to whether a particular accommodation will be made rests with the Company. When the appropriate accommodation is not obvious, the Company may assist the individual in identifying one. If more than one accommodation will enable the individual to perform the job, the Company reserves the right to choose which accommodation it will make. If you feel that you have been unreasonably denied an accommodation request, please speak with the Absence Management team by emailing `leaves@gitlab.com`. If you have any questions concerning this policy you should speak with the People Operations team.
 
@@ -116,13 +116,13 @@ Please review our [US-specific Leave of Absence](/handbook/people-policies/leave
 
 ## Pay Transparency Non-Discrimination Provision
 
-GitLab will not discharge or in any other manner discriminate against team members or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another team member or applicant. However, team members who have access to the compensation information of other team members or applicants as a part of their essential job functions cannot disclose the pay of other team members or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the GitLab’s legal duty to furnish information. 41 CFR 60-1.35(c) If you believe that you have experienced discrimination contact OFCCP.
+GitLab will not discharge or in any other manner discriminate against team members or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another team member or applicant. However, team members who have access to the compensation information of other team members or applicants as a part of their essential job functions cannot disclose the pay of other team members or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the GitLab's legal duty to furnish information. 41 CFR 60-1.35(c) If you believe that you have experienced discrimination contact OFCCP.
 
 **OFCCP Makes it Safe for People to Ask About, Discuss, and Disclose Their Pay**
 
 **1. What is employment discrimination based on inquiring about, discussing or disclosing my pay or that of other team members?**
 
-This type of discrimination generally exists where an employer takes an adverse employment action against team members or job applicants because they inquired about, discussed, or disclosed their own compensation or the compensation of other team members or applicants. One example is an employer firing a team member because they discussed their salary with another team member. Another example is an employer decreasing a team member’s work hours because they asked their coworkers about their rates of overtime pay.
+This type of discrimination generally exists where an employer takes an adverse employment action against team members or job applicants because they inquired about, discussed, or disclosed their own compensation or the compensation of other team members or applicants. One example is an employer firing a team member because they discussed their salary with another team member. Another example is an employer decreasing a team member's work hours because they asked their coworkers about their rates of overtime pay.
 
 **2. What are my rights?**
 
@@ -130,7 +130,7 @@ Under Executive Order 11246, employees of a federal contractor have the right to
 
 **3. Are federal contractors prohibited from having formal and informal pay secrecy policies?**
 
-Yes. Federal contractors are generally prohibited from having policies that prohibit or tend to restrict team members or job applicants from discussing or disclosing their pay or the pay of others. For example, a government contractor’s policy that prohibits team members from talking to each other about end of-the-year bonuses would be considered a violation, as it prohibits team members from discussing their compensation.
+Yes. Federal contractors are generally prohibited from having policies that prohibit or tend to restrict team members or job applicants from discussing or disclosing their pay or the pay of others. For example, a government contractor's policy that prohibits team members from talking to each other about end of-the-year bonuses would be considered a violation, as it prohibits team members from discussing their compensation.
 
 **4. What is considered pay?**
 
@@ -138,27 +138,27 @@ Pay generally refers to any payments made to a team member, or on behalf of a te
 
 **5. Does the protection include employer defenses or exceptions?**
 
-Yes. The Executive Order provides federal contractors with two ways to justify or defend actions taken that might otherwise be seen as discriminatory and prohibited: the “essential job functions” defense, and the general, or “workplace rule” defense.
+Yes. The Executive Order provides federal contractors with two ways to justify or defend actions taken that might otherwise be seen as discriminatory and prohibited: the "essential job functions" defense, and the general, or "workplace rule" defense.
 
-**6. What are “essential job functions” under the Executive Order?**
+**6. What are "essential job functions" under the Executive Order?**
 
-The term “essential job functions” means the fundamental job duties of the employment position an individual holds. A job function may be considered essential if:
+The term "essential job functions" means the fundamental job duties of the employment position an individual holds. A job function may be considered essential if:
 
 - The access to the amount of pay provided to team members or offered to applicants, salary structures and market studies related pay and policies related to setting or changing employee pay are necessary in order to perform that function or another routinely assigned business task; or
-- The function or duties of the position include protecting and maintaining the privacy of team member personnel records, including amounts and types of pay provided to team members, salary structures, market studies related to pay, and policies related to setting or changing a team member’s pay.
+- The function or duties of the position include protecting and maintaining the privacy of team member personnel records, including amounts and types of pay provided to team members, salary structures, market studies related to pay, and policies related to setting or changing a team member's pay.
 
-**7. What is the “essential job functions” defense?**
+**7. What is the "essential job functions" defense?**
 
-Under the “essential job functions” defense, a federal contractor can defend against a claim of discrimination by showing that it took adverse action against a team member because they (a) had access to the compensation information of other team members or applicants as part of their essential job duties and ( b) disclosed that compensation information to individuals who did not otherwise have access to it. However, even team members who have access to compensation information as part of their essential job functions may discuss, disclose, or inquire about compensation in some instances. For example, they can:
+Under the "essential job functions" defense, a federal contractor can defend against a claim of discrimination by showing that it took adverse action against a team member because they (a) had access to the compensation information of other team members or applicants as part of their essential job duties and ( b) disclosed that compensation information to individuals who did not otherwise have access to it. However, even team members who have access to compensation information as part of their essential job functions may discuss, disclose, or inquire about compensation in some instances. For example, they can:
 
-- Discuss or disclose the pay of applicants or team members in response to a formal complaint or charge; as a part of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer; or in accordance with the contractor’s legal duty to furnish information.
+- Discuss or disclose the pay of applicants or team members in response to a formal complaint or charge; as a part of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer; or in accordance with the contractor's legal duty to furnish information.
 - Discuss their own pay with other team members.
-- Discuss possible pay disparities involving other team members with a contractor’s management official or while using the contractor’s internal complaint process.
+- Discuss possible pay disparities involving other team members with a contractor's management official or while using the contractor's internal complaint process.
 - Discuss or disclose amount or types of pay of other applicants or team members based on information received through means other than access granted through their essential job functions.
 
-**8. What is the “workplace rule” defense?**
+**8. What is the "workplace rule" defense?**
 
-Under the “workplace rule” defense, a federal contractor can defend against a claim of discrimination by showing that it took adverse action against an team member for violating a consistently and uniformly applied company rule. The rule must not prohibit, or tend to prohibit, team members or applicants from discussing or disclosing their compensation or that of a co-worker or job applicant. Examples of “workplace rules” may include rules on the use of leave and the length of breaks.
+Under the "workplace rule" defense, a federal contractor can defend against a claim of discrimination by showing that it took adverse action against an team member for violating a consistently and uniformly applied company rule. The rule must not prohibit, or tend to prohibit, team members or applicants from discussing or disclosing their compensation or that of a co-worker or job applicant. Examples of "workplace rules" may include rules on the use of leave and the length of breaks.
 
 **9. Does my employer have to tell me what other team members are being paid?**
 
@@ -178,7 +178,7 @@ You can file a complaint with OFCCP. You do not need to know with certainty that
 
 You may file a discrimination complaint by:
 
-- Completing and submitting a form online through OFCCP’s Web site;
+- Completing and submitting a form online through OFCCP's Web site;
 - Completing a form in person at an OFCCP office; or
 - Mailing, e-mailing or faxing a completed form to the OFCCP regional office that covers the location where the alleged discrimination occurred.
 
@@ -188,15 +188,15 @@ You must remember to sign your completed complaint form. If you fail to do so, O
 
 **13. Can my employer fire, demote, or treat me less favorably because I filed a complaint?**
 
-No. It is illegal for your employer to retaliate against you for filing a complaint or participating in an investigation. OFCCP’s regulations protect you from harassment, intimidation, threats, coercion, or retaliation for asserting your rights.
+No. It is illegal for your employer to retaliate against you for filing a complaint or participating in an investigation. OFCCP's regulations protect you from harassment, intimidation, threats, coercion, or retaliation for asserting your rights.
 
 **14. Can I file a complaint with OFCCP and the Equal Employment Opportunity Commission (EEOC)?**
 
-Yes, if you fle with both OFCCP and EEOC, your complaint will be investigated by the appropriate agency. In some instances, OFCCP and EEOC may decide to work together to investigate your complaint. OFCCP generally keeps complaints filed against federal contractors that allege discrimination based on discussing, disclosing, or inquiring about pay. OFCCP also generally keeps complaints fled against federal contractors where there appears to be a pattern of discrimination that afects a group of team members or applicants, and those that allege discrimination based on a person’s sexual orientation or gender identity, disability, or protected veteran status.
+Yes, if you fle with both OFCCP and EEOC, your complaint will be investigated by the appropriate agency. In some instances, OFCCP and EEOC may decide to work together to investigate your complaint. OFCCP generally keeps complaints filed against federal contractors that allege discrimination based on discussing, disclosing, or inquiring about pay. OFCCP also generally keeps complaints fled against federal contractors where there appears to be a pattern of discrimination that afects a group of team members or applicants, and those that allege discrimination based on a person's sexual orientation or gender identity, disability, or protected veteran status.
 
 **15. What will happen if there is a finding that I was a victim of employment discrimination?**
 
-You may be entitled to a remedy that places you in the position you would have been in if the discrimination had never happened. You may be entitled to be hired, promoted, reinstated, or reassigned. You may also be entitled to receive back pay, front pay, a pay raise, or some combination of these remedies. In addition, if OFCCP finds that the federal contractor or subcontractor discriminated, OFCCP could seek to have the company debarred or removed from consideration for future federal contracts or have the company’s current contracts or contract modifications cancelled.
+You may be entitled to a remedy that places you in the position you would have been in if the discrimination had never happened. You may be entitled to be hired, promoted, reinstated, or reassigned. You may also be entitled to receive back pay, front pay, a pay raise, or some combination of these remedies. In addition, if OFCCP finds that the federal contractor or subcontractor discriminated, OFCCP could seek to have the company debarred or removed from consideration for future federal contracts or have the company's current contracts or contract modifications cancelled.
 
 For more information: The U.S. Department of Labor Office of Federal Contract Compliance Programs, 200 Constitution Avenue, NW Washington, D.C. 20210. 1-800-397-6251 TTY: 1-877-889-5627 [www.dol.gov/ofccp](https://www.dol.gov/agencies/ofccp)
 
@@ -229,7 +229,7 @@ All team members will be notified on how to self-monitor for symptoms and report
 
 Team members are urged not to report to work when they are feeling ill or are experiencing symptoms of an infectious disease. A team member who appears to exhibit infectious disease symptoms when reporting to work or who becomes sick during their time at work will be strongly encouraged to log off from work.
 
-If a team member is confirmed to have contracted an infectious disease, they may be eligible for additional leave after utilizing the Paid Time Off Policy. In the event that the sick leave provided under your local law is more generous than GitLab’s policy, then your local law would supersede this policy.
+If a team member is confirmed to have contracted an infectious disease, they may be eligible for additional leave after utilizing the Paid Time Off Policy. In the event that the sick leave provided under your local law is more generous than GitLab's policy, then your local law would supersede this policy.
 
 #### Business Travel Restrictions
 
@@ -241,7 +241,7 @@ During an infectious disease outbreak or pandemic GitLab may postpone or cancel 
 
 ### Attendance and Leave
 
-GitLab’s attendance policies will remain in place during an infectious disease outbreak or pandemic, unless otherwise notified. If a team member has a challenge (e.g., childcare issues in the event of a school closure), they should speak to their supervisor/manager to determine an alternative plan. Team members will be notified of any work schedule changes caused by an infectious disease outbreak or pandemic. Requests to adjust individual work schedules will be addressed on a case-by-case basis.
+GitLab's attendance policies will remain in place during an infectious disease outbreak or pandemic, unless otherwise notified. If a team member has a challenge (e.g., childcare issues in the event of a school closure), they should speak to their supervisor/manager to determine an alternative plan. Team members will be notified of any work schedule changes caused by an infectious disease outbreak or pandemic. Requests to adjust individual work schedules will be addressed on a case-by-case basis.
 
 If a team member is out of work because of exposure to an infectious disease, or other illness or condition recognized by federal, state or local law, the team member may be required to submit additional information for the absence. To the extent permissible by law, GitLab may modify its leave policies to reflect conditions during a declared infectious disease outbreak or pandemic.
 
@@ -273,7 +273,7 @@ Team members may contact People Compliance `people-compliance@gitlab.com` with q
 
 **Step 1: Disclosure and Authorization**
 
-The applicant must give the employer consent to have a third party service conduct a background check. The Disclosure and Authorization form can be presented to the applicant at the time they complete the employment application form. The form should grant the employer permission to conduct an initial background check (and, subject to state law, subsequent background checks if the applicant is hired) utilizing a third party service. Also, a “Summary Of Your Rights Under The Fair Credit Reporting Act” should be enclosed with the consent and disclosure form. For New York applicants, a copy of Article 23-A of the Correctional Law also should be enclosed and any other relevant state summary of rights.
+The applicant must give the employer consent to have a third party service conduct a background check. The Disclosure and Authorization form can be presented to the applicant at the time they complete the employment application form. The form should grant the employer permission to conduct an initial background check (and, subject to state law, subsequent background checks if the applicant is hired) utilizing a third party service. Also, a "Summary Of Your Rights Under The Fair Credit Reporting Act" should be enclosed with the consent and disclosure form. For New York applicants, a copy of Article 23-A of the Correctional Law also should be enclosed and any other relevant state summary of rights.
 
 The background investigation cannot be lawfully conducted without a signed Disclosure and Authorization form. Applicants can be advised that they will not be considered for employment without submitting the signed form. Equally for current team members, they can be advised that their employment may be impacted if they do not consent to the background check.
 

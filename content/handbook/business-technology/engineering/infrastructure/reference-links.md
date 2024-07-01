@@ -1,5 +1,4 @@
 ---
-
 title: "Infrastructure Reference Links"
 description: "This page provides helpful links and reference material for the infrastructure team."
 ---
@@ -11,20 +10,20 @@ description: "This page provides helpful links and reference material for the in
 Each issue and epic gets mapped to the milestone for the time period that most of the work takes place. This is used as our lightweight version of time tracking and capacity planning, and is helpful with roadmap planning.
 
 - Monthly Milestones
-    - [BT Infra 2021-07](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/2)
-    - [BT Infra 2021-08](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/3)
-    - [BT Infra 2021-09](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/4)
-    - [BT Infra 2021-10](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/5)
-    - [BT Infra 2021-11](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/6)
-    - [BT Infra 2021-12](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/7)
-    - [BT Infra 2022-01](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/8)
+  - [BT Infra 2021-07](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/2)
+  - [BT Infra 2021-08](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/3)
+  - [BT Infra 2021-09](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/4)
+  - [BT Infra 2021-10](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/5)
+  - [BT Infra 2021-11](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/6)
+  - [BT Infra 2021-12](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/7)
+  - [BT Infra 2022-01](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/8)
 - Quarterly Milestones
-    - [BT Infra FY22-Q3](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/9)
-    - [BT Infra FY22-Q4](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/10)
+  - [BT Infra FY22-Q3](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/9)
+  - [BT Infra FY22-Q4](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/10)
 - Fiscal Year Milestones
-    - BT Infra FY22-2H
-    - [BT Infra FY23-1H](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/11)
-    - [BT Infra FY23-2H](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/12)
+  - BT Infra FY22-2H
+  - [BT Infra FY23-1H](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/11)
+  - [BT Infra FY23-2H](https://gitlab.com/groups/gitlab-com/business-technology/engineering/infrastructure/-/milestones/12)
 
 ## Repositories
 

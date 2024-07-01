@@ -42,11 +42,15 @@ This role is outlined [here](/handbook/engineering/ic-leadership/tech-lead/#the-
 
 ### Code Creation Tech Leads
 
-| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead   |
-|------------|----------|--------------------|------------------------|-------------|
-| 2023-11-01 |          |                    | [Code Suggestion RAG](https://gitlab.com/groups/gitlab-org/-/epics/11669) | Mikołaj Wawrzyniak |
-| 2024-01-17 |          |                    | [Decrease Latency](https://gitlab.com/groups/gitlab-org/-/epics/12224)    | Jan Provaznik      |
-| 2024-02-12 |          |                    | [Trigger Logic](https://gitlab.com/groups/gitlab-org/-/epics/12100)       | Sri Rangan         |
+| Epic(s) / Issue(s)                                                                                 | Tech Lead         |
+|----------------------------------------------------------------------------------------------------|-------------------|
+| [Code Completion Models](https://gitlab.com/gitlab-org/gitlab/-/issues/466217)                     | Allen Cook        |
+| [Additional Context using ASTs](https://gitlab.com/groups/gitlab-org/editor-extensions/-/epics/55) | Jan Provaznik     |
+| [X-Ray CI Minutes](https://gitlab.com/groups/gitlab-org/-/epics/14100)                             | Vitali Tatarintev |
+| RAG for Code Completion                                                                            | Allen Cook        |
+| [RAG Integration with Global Search](https://gitlab.com/groups/gitlab-org/-/epics/14106)           | Vitali Tatarintev |
+| [RAG Source Code Embeddings](https://gitlab.com/groups/gitlab-org/-/epics/14107)                   | Jan Provaznik     |
+| [Chat/Code Suggestions Alignment](https://gitlab.com/groups/gitlab-org/-/epics/14104)              | Tian Gao          |
 
 ## How is a Tech Lead different from a Domain Expert
 

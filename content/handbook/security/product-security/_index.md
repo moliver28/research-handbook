@@ -12,7 +12,7 @@ At GitLab, product security encompasses a broad range of cybersecurity disciplin
 
 ### The Product Security Mission
 
-Our mission is to set the standard for product security by fostering a culture of rapid innovation and secure product delivery. We are committed to leveraging the GitLab platform, embodying the pinnacle of internal usage (‘dogfooding’) practices. By maintaining close collaboration with product teams and contributing significant security features and capabilities to the GitLab codebase, we aim to enhance our operations and be a vital driver of the broader GitLab vision.
+Our mission is to set the standard for product security by fostering a culture of rapid innovation and secure product delivery. We are committed to leveraging the GitLab platform, embodying the pinnacle of internal usage ('dogfooding') practices. By maintaining close collaboration with product teams and contributing significant security features and capabilities to the GitLab codebase, we aim to enhance our operations and be a vital driver of the broader GitLab vision.
 
 ### Multi-Year Product Security Mission
 

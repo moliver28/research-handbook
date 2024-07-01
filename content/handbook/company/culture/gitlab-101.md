@@ -14,11 +14,11 @@ There is a quarterly GitLab CEO 101 call with new hires and the CEO. This is a z
 1. Team structure [{{< ref "structure" >}}]({{< ref "structure" >}}) or [organization chart](https://comp-calculator.gitlab.net/org_chart)
 1. How we work [/handbook](/handbook)
 
-  - Please pay special attention to the guideline about developing content and procedures in a public, transparent, [handbook-first](/handbook) manner
+   - Please pay special attention to the guideline about developing content and procedures in a public, transparent, [handbook-first](/handbook) manner
 
 1. [Reinforcements to stay a startup]({{< ref "still-a-startup" >}})
 
-Note that, when thinking about what questions you'd like to ask, it’s hard to be open about financials. It’s easy when everything is going well but very hard when it’s not. We try to be open with our team as we progress, but it will hurt being open to the outside world about this in the future.
+Note that, when thinking about what questions you'd like to ask, it's hard to be open about financials. It's easy when everything is going well but very hard when it's not. We try to be open with our team as we progress, but it will hurt being open to the outside world about this in the future.
 
 All questions and answers during the call should be added to this page or to the relevant pages of [the handbook](/handbook). This is done during the call to immediately make any changes; for example we created [this commit](https://gitlab.com/gitlab-com/www-gitlab-com/commit/8cf1b0117dce5439f61e207315f75db96c917056) together on the call.
 

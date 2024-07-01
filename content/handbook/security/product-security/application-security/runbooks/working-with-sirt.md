@@ -1,5 +1,4 @@
 ---
-
 title: "Application Security Engineer Working With SIRT"
 ---
 
@@ -15,6 +14,19 @@ When using `/security` to engage SIRT:
 - Fill out the form as completely as you can
 - Include a link to the issue or HackerOne report, a summary of what has occurred, and a description of what we are asking SIRT to help with
 - Select the appropriate urgency (see below for some guidelines)
+
+## Situations where SIRT needs to be engaged
+
+Note: This is not an exhaustive list, there may be other situations in which you need to engage SIRT.
+
+- P1 vulnerabilities
+- Publicly known P2 vulnerabilities with a publicly available exploit
+- Secret leaks
+- Vulnerabilities that could result in account takeover
+- Vulnerabilities that lead to customer communications being required in addition the usual processes
+- Security fixes made in public that should have been made against a security repository
+- Personal data leaks
+- DNS takeovers
 
 ## Urgency guidelines
 

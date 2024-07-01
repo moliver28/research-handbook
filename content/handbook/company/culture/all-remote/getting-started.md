@@ -17,7 +17,7 @@ In an [all-remote]({{< ref "./hybrid-remote#all-remote-upgrade" >}}) organizatio
 
 Different companies will have [different approaches to remote work]({{< ref "./phases-of-remote-adaptation" >}}). Make sure you understand what your work environment will be like, and whether it matches your own working style.
 
-Remote work is not for everyone. To be a great remote worker, make sure you understand this GitLab operating principle on being a [manager of one]({{< ref "values#managers-of-one" >}}).
+Remote work is not for everyone. To be a great remote worker, make sure you understand this GitLab operating principle on being a [manager of one](/handbook/values/#managers-of-one).
 
 Another element to flesh out during an interview is remote communication. GitLab is an [asynchronous]({{< ref "./asynchronous" >}}) company. Much of what we do is [communicated through text]({{< ref "./effective-communication" >}}). For people used to working in-office and default to verbal communication, it may take some time to transition to communicating information via text.
 
@@ -150,7 +150,7 @@ Below are a number of intentional facets of [GitLab's culture](/handbook/company
 
 Spend time getting to know [GitLab's publicly viewable handbook](/handbook), which captures everything you need to know about the company.
 
-Technology is ever-changing. Which is one reason why GitLab's [onboarding process]({{< ref "./onboarding" >}}) includes exercises in self-service via an [onboarding issue]({{< ref "general-onboarding" >}}) with multiple tasks broken down into small, digestible chunks. Each issue guides new hires to complete certain tasks on certain days, being a [manager of one]({{< ref "values#managers-of-one" >}})  — an operating principle of [Efficiency]({{< ref "values#efficiency" >}}) — applies from the very beginning.
+Technology is ever-changing. Which is one reason why GitLab's [onboarding process]({{< ref "./onboarding" >}}) includes exercises in self-service via an [onboarding issue]({{< ref "general-onboarding" >}}) with multiple tasks broken down into small, digestible chunks. Each issue guides new hires to complete certain tasks on certain days, being a [manager of one](/handbook/values/#managers-of-one)  — an operating principle of [Efficiency](/handbook/values/#efficiency) — applies from the very beginning.
 
 ### Develop a schedule that you can initially follow
 
@@ -239,7 +239,7 @@ Consider asking yourself what you'll do with the time you save by losing the com
 
 *You'll find more videos such as these in the [Remote Work playlist on the GitLab Unfiltered YouTube channel](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
 
-As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there’s as much to unlearn as there is to learn** when it comes to thriving in a remote role.
+As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there's as much to unlearn as there is to learn** when it comes to thriving in a remote role.
 
 Remote work enables a great deal of flexibility, freedom, and autonomy. It also requires adaptability when it comes to communication, and may require experimentation by the team member to reach peak enjoyment.
 

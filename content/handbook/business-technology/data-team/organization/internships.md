@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team Internships"
 description: "GitLab Data Team Internships"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -82,7 +73,7 @@ The following KPIs are guidelines we plan to use for the internship. These may b
 An internship gives you insight into a [Data Team role](/handbook/business-technology/data-team/organization/#data-roles-and-career-development) by providing you opportunities to learn and contribute to GitLab results. You will be fully integrated into the team through Data Onboarding and be assigned **real** projects that contribute to Quarterly Objectives and the [Data Team Roadmap](/handbook/business-technology/data-team/direction/). In the GitLab Data Team we believe in full end-to-end ownership of the work we do, ranging from requirements gathering all the way to production deployment and operations. During your internship you will be assigned a Senior team member as a mentor-manager, who will help you to navigate in daily tasks.  Examples of your tasks will include:
 
 - Requirements gathering
-- Extraction of data from various sources to support project’s objective
+- Extraction of data from various sources to support project's objective
 - Analysing and visualising data to develop new insights
 - Collaboration with stakeholders (including explaining technical concepts with non-technical language)
 - Working in GitLab to manage projects (via epics and issues)
@@ -112,10 +103,10 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 - Basic knowledge of dashboard tools (we use Sisense)
 - At least 1 completed demoable data project (Non-commercial projects done in a spare time also count, as do school projects)
 - Nice to have
-     - Understanding of software industry
-     - Prior experience in a Data Role
-     - Experience designing and managing projects
-     - Working knowledge of Python (we use Jupyter notebooks to analyse and visualise data)
+  - Understanding of software industry
+  - Prior experience in a Data Role
+  - Experience designing and managing projects
+  - Working knowledge of Python (we use Jupyter notebooks to analyse and visualise data)
 
 ### Data Science Internship for Learning
 
@@ -145,8 +136,8 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 - At least 1 completed data science project (Non-commercial projects done in a spare time also count, as do school projects)
 - Being proactive in a work you do, but also not afraid to ask questions
 - Nice to have
-     - Understanding of CRISP-DM framework
-     - Understanding of software industry
+  - Understanding of CRISP-DM framework
+  - Understanding of software industry
 
 ### Data Platform Team Internship for Learning
 
@@ -172,9 +163,9 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 - Self-motivated and self-managing, with task organizational skills
 - Working knowledge of SQL
 - Nice to have
-     - Understanding of software industry
-     - Prior experience in a Data Role
-     - Experience designing and managing projects
+  - Understanding of software industry
+  - Prior experience in a Data Role
+  - Experience designing and managing projects
 
 ### Data Analyst Internship for Learning
 

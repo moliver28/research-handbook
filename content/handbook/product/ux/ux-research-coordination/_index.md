@@ -3,7 +3,7 @@ title: "UX Research Operations (ReOps) Coordination at GitLab"
 description: "We empower UX Research DRIs with the resources needed for efficient and high-quality research, enabling team members to focus on generating insights that drive exceptional user experiences and product innovation."
 ---
 
-## What is UX Research Operations
+## What is UX Research Operations?
 
 UX Research Operations (often referred to as UX ReOps) is a discipline within UX Research focused on managing and optimizing the processes, tools, and infrastructure that support UX research activities. The primary goal of UX Research Operations is to enable UX Researchers to conduct their work more efficiently and effectively by providing the necessary support and resources.
 
@@ -34,7 +34,7 @@ In general, we adhere to 3 pillars and 1 principle.
 
 * Be transparent about our work and progress, and foster a culture of continuous improvement in our research process and practice, that everyone (UX Researchers, Product Designers, Product Managers, etc.) can participate.
 
-## How many studies can a UX Research Operations Coordinater support?
+## How many studies can a UX Research Operations Coordinator support?
 
 The short answer is approximately 5-10 at any given time. The long answer is that it depends on the type of study and the target population. When each study only requires 5-8 participants who are relatively abundant in our database and community, the number of studies recruited per milestone could be ~10. This is also contingent upon the Product Designer and Product Manager submitting their complete requests early enough to allow coordinators to juggle multiple recruiting efforts at once. When there are surveys that require 50+ respondents, or studies addressing new user groups or features, the number of studies recruited per milestone may be closer to 5. Those studies require sustained effort and creativity.
 
@@ -53,7 +53,7 @@ To deal with situations of over capacity, we have two plans of action:
 
 ### 1) Quarterly planning
 
-Given the nature of how we conduct research at GitLab, it’s difficult to have an accurate view into the pipeline at any given time to understand what research projects will be coming up when.  However, we can rely on research project volume data from the past and predict the cadence of some projects quarterly to plan accordingly.  An example of identified projects that require extra coordination are:
+Given the nature of how we conduct research at GitLab, it's difficult to have an accurate view into the pipeline at any given time to understand what research projects will be coming up when.  However, we can rely on research project volume data from the past and predict the cadence of some projects quarterly to plan accordingly.  An example of identified projects that require extra coordination are:
 
 * SUS measuring
 * Category Maturity Scorecard testing
@@ -89,9 +89,9 @@ Even with accurate planning, over-capacity can still occur.  When this happens, 
 
 * **Inform the team - Be transparent.**  Let the #ux_research channel know, along with managers, that UX Research Operations Coordination is over capacity at the moment along with an estimated timeframe on when they expect things to get back to normal. This automatically sets expectations for existing and new requests.  Lastly, follow-up with a post when capacity returns to normal to let the channel know.
 * **Reset expectations on any deliverable dates** - Communicate to the key people on the projects impacted that their deliverable dates may change.
-* **Inform participants - Be transparent.**  If participants are negatively impacted, let them know that we’re busy, express a sincere apology, and reset timing expectations with them.
+* **Inform participants - Be transparent.**  If participants are negatively impacted, let them know that we're busy, express a sincere apology, and reset timing expectations with them.
 * **Ask for help** - UX Research Operations Coordinators need to ask their trained UX Research Team back-ups for help. UX Research Operations Coordinators will need to delegate the right duties to the UX Researchers to result in the biggest impact.
-* **New incoming requests will take longer** - We don’t stop taking on new research when we’re at over capacity.  Instead, we set expectations early with new requests.  New requests will be buffered accordingly to accommodate being at over capacity and project owners are educated as to why.
+* **New incoming requests will take longer** - We don't stop taking on new research when we're at over capacity.  Instead, we set expectations early with new requests.  New requests will be buffered accordingly to accommodate being at over capacity and project owners are educated as to why.
 * **Encourage self-service** - UX Research Operations Coordinators can point people to self-serve resources with a link to instructions in the handbook (ex: using Respondent and User Interviews to find participants, etc).
 
 ## When UX Research Operations Coordinator are unavailable
@@ -108,7 +108,7 @@ Prior to the coordinator becoming unavailable, they create an issue to provide t
 * Links to all applicable issues
 * Flag exactly what needs to be done by the back-up UX Research Operations Coordinators
 
-It’s the responsibility of the coordinator to make sure their back-up understands their duties and responsibilities.
+It's the responsibility of the coordinator to make sure their back-up understands their duties and responsibilities.
 
 ## Can we combine recruiting requests to make recruiting go faster?
 

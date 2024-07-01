@@ -1,7 +1,6 @@
 ---
-
 title: "Enterprise Application Guides"
-description: “GitLab’s Enterprise Application Guides for Finance Systems”
+description: "GitLab's Enterprise Application Guides for Finance Systems"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />

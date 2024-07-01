@@ -16,7 +16,7 @@ External virtual events are, by definition, not owned and hosted by GitLab. They
 
 * [Partner-Hosted Webinars](/handbook/marketing/virtual-events/external-virtual-events/#partner-hosted-webinars): hosted by a channel partner (i.e. WWT), this is an unpaid tactic. The channel partner manages landing page, moderating and hosting the webinar on their platform. GitLab represents as a speaker at the event, sometimes jointly with an alliance partner. A lead list is often not shared after the event, as the channel partner will work the leads. We will sometimes promote, and determine which channels are appropriate.
 * [Sponsored Webinars](/handbook/marketing/virtual-events/external-virtual-events/#sponsored-webinars): hosted on an external vendor platform (i.e. DevOps.com), this is a paid tactic. The vendor is responsible for driving registration, moderating and hosting the webinar on their platform, and delivering a lead list after the event. The goal of a sponsored webinar is net new leads - we do not promote to our existing database as it is a paid activity.
-* [Virtual Conferences](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conferences): hosted on an external vendor platform (i.e. Hopin), this is a paid tactic. GitLab pays a sponsorship fee to receive a virtual booth and often speaking session or panel presence. The goal of a sponsored virtual conference is net new leads - we do not promote to our existing database as it is a paid activity.
+* [Virtual Conferences](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conferences): hosted on an external vendor platform, this is a paid tactic. GitLab pays a sponsorship fee to receive a virtual booth and often speaking session or panel presence. The goal of a sponsored virtual conference is net new leads - we do not promote to our existing database as it is a paid activity.
 * [Executive Roundtable](/handbook/marketing/virtual-events/external-virtual-events/#executive-roundtables):  hosted on an external vendor platform, this is a gathering of high level CxO attendees run as an open discussion between the moderator/host, GitLab expert and delegates. There usually aren't any presentations, but instead a discussion where anyone can chime in to speak. The host would prepare questions to lead discussion topics and go around the room asking delegates questions to answer. The goal of an executive roundtable is net new leads - we do not promote to our existing database as it is a paid activity.
 * [Vendor Arranged Meetings](/handbook/marketing/virtual-events/external-virtual-events/#vendor-arranged-meetings): hosted by an external vendor, the vendor organizes one-to-one meetings with prospect or customer accounts. This does not include meetings set internally by GitLab team members. An example would be a "speed dating" style meeting setup where a vendor organizes meetings with prospects of interest to GitLab. The goal of a venor arranged meeting is to generate meetings with accounts of interest that we are finding challenging to break into directly - we do not promote to our existing database as it is a paid activity.
 
@@ -232,7 +232,7 @@ Add the team label to indicate the team running the event (Example: Field Market
 <!-- DO NOT CHANGE THIS ANCHOR -->
 ---
 
-*A virtual conference is hosted on an external vendor platform (i.e. Hopin); this is a paid tactic. GitLab pays a sponsorship fee to receive a virtual booth and often speaking session or panel presence. The goal of a sponsored virtual conference is net new leads - we do not promote to our existing database as it is a paid activity.*
+*A virtual conference is hosted on an external vendor platform; this is a paid tactic. GitLab pays a sponsorship fee to receive a virtual booth and often speaking session or panel presence. The goal of a sponsored virtual conference is net new leads - we do not promote to our existing database as it is a paid activity.*
 
 This section is the responsibility of Corporate Events to keep up-to-date.
 
@@ -336,19 +336,15 @@ Add the team label to indicate the team running the event (Example: Field Market
 * The event has multiple breakouts or tracks
 * and You need to capture attendee info
 **Note:** Many of the elements included in tool are flexible and can be used for multiple purposes. Discuss with an account admin your options.
-**Additional Notes for organizer:**
-* Hopin pricing model is based on support, admin seats, features and registration numbers. We have 6,000 attendee slots for the year. Be mindful fo event goals before exceeding this number.
-* We pay hourly for event support.
 
 ### Platform and Bandwidth Restrictions
 
 * We can only host one a day/ in a 24 hour period
-* We only have 10 hopin licenses for the whole org. The events team will grant you access on a per event basis. Once the event is over your seat will likley be reallocated to accommodate the next event.
-* You will need at least two full time support staff to run the event (both need ot be GitLab Hopin admins)
+* You will need at least two full time support staff to run the event
 * Only suggested for events 3+ hours or more (due to complexity of setup)
 * Suggested for events targeting groups of 500+ or for initiatives that are in line with OKRs
 * This event is best executed with more than one person and moderators.
-* Your event has a budget of $5k or more in budgeted spend. You must budget for Hopin event suport at $150/ hr. You need to budget for support for all live event hours as well as dry run hours.
+* Your event has a budget of $5k or more in budgeted spend. You need to budget for support for all live event hours as well as dry run hours.
 
 ### Steps
 
@@ -362,6 +358,11 @@ Add the team label to indicate the team running the event (Example: Field Market
 * Must complete details on the issue: timeline, budget, audience goals, features needed ...
 
 **Step 2: DRI needs to create the Hosted virtual conference EPIC**
+
+* This step should only be taken once you have confirmed the date with an Campaign Manager. If needed have kick off call with stakeholders.
+* When "status:wip" is on the issue and necessary elements are documented, and the speakers and webcast dates are secured, the event project is officially in motion. The DRI creates epic for the conference and tags corresponding Campaign Manager.
+* Naming convention: [Conference Title] - [3-letter Month] [Date], [Year]
+* DRI copy/pastes code below into the epic
 
 * This step should only be taken once you have confirmed the date with an Campaign Manager and have an additional Hopin admin to staff. If needed have kick off call with stakeholders.
 * When "status:wip" is on the issue and necessary elements are documented, and the speakers and webcast dates are secured, the event project is officially in motion. The DRI creates epic for the conference and tags corresponding Campaign Manager.
@@ -411,7 +412,7 @@ Add the team label to indicate the team running the event (Example: Field Market
 DRI will immediately:
 
 1. Create the necessary epic and campaigns team request issues as outlined above.
-2. Campaign Manager to ensure the webcast Dry Run and Live dates are added to the Virtual Events Google Calendar by sending over a Gcal invite from there to the webcast execution team. ***Note: This is an important step to make sure no overlapping virtual evenst are scheduled over the desired date/timeslot resulting in a conflict due to the shared hopin license and aupport requrements.***
+2. Campaign Manager to ensure the webcast Dry Run and Live dates are added to the Virtual Events Google Calendar by sending over a Gcal invite from there to the webcast execution team. ***Note: This is an important step to make sure no overlapping virtual evenst are scheduled over the desired date/timeslot resulting in a conflict due to shared licenses and aupport requrements.***
 3. If one or more speakers are external, set up a kick off call with the external speakers. Set timelines, due dates nd share slide deck templates with the speakers. Add dry runs to their caledar(s).
 4. Clone and fill out [this Conference GANTT template](https://docs.google.com/spreadsheets/d/1VTrWNX9qfY99b2TnrX93P39aXiRoNnChB6tduTvmysA/edit#gid=1899924336).
 
@@ -467,21 +468,13 @@ The [virtual event calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLm
 
 ### Creating the Event Registration page
 
-* see the steps on how to set up an event with Hopin below.
+* This depends on the tool being used. Work with corporate events to determine the best process.
 
-##### Add the conference to the /events page
+#### Add the conference to the /events page
 
 * To add the webcast to the /events page follow this [step by step guide](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents).
 
-## Setting up an Event with Hopin- for hopin Admin only
-
-* You need admin access to do so. Only 5 accounts are held internally and shared bwteen the marketing team.
-* Login to your account, find our organization and Create a new event.
-  * See [planning sheet](https://docs.google.com/spreadsheets/d/1VzLTQW3lYDGcVdwnUq81I_gPGUFl_D_jXjZGhFuFhbU/edit#gid=739236632) for additional steps on setup + screen shots on setup
-  * See our internal guide on using and setting up [Hopin](https://docs.google.com/document/d/1-wLl03mF4pzI3WVBqTQgObxMLZtHhV2kUbpRwbCbfbQ/edit#)
-* A GitLab Hopin admin wioll be able to support you with event setup but Hopin also have some great guides on their [best practices](https://support.hopin.to/en/collections/1480288-using-hopin-as-an-organiser)
-
-##### Set up the event program in Marketo and SFDC
+#### Set up the event program in Marketo and SFDC
 
 Needs updating to be confernece specific:
 
@@ -516,11 +509,11 @@ Needs updating to be confernece specific:
       * Q&A
       * Poll
 
-##### Test your set up
+#### Test your set up
 
 1. Submit a test lead using your gitlab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
 
-##### Sending follow up emails
+#### Sending follow up emails
 
 1. Go to the `No shows` smart campaign and click run once to make sure the no shows get dispositioned into the correct status. Currently, no integrated exists between zoom and Marketo to automatically disposition no shows so they remain in `Registered` status until you run this smart campaign.
 2. Update email `Outbound -attendees` and email `Outbound -no shows` with content with relevant copies related to the webcast.
@@ -528,7 +521,7 @@ Needs updating to be confernece specific:
 4. Approve copy and send samples to the requestor, and the presenter (if different from requestor).
 5. Once you get approval for the sample copy, schedule email sends within follow-up no show and follow-up attended email programs.
 
-##### Converting the event content to an On-Demand gated asset
+#### Converting the event content to an On-Demand gated asset
 
 1. Upload the recording to our main GitLab channel, fill in the title with the event title, and fill in the description with a short paragraph of what the webcast is about. Make sure the video set as `Unlisted` so only people with the URL to the video can find it.
 2. Once the recording has been uploaded, copy the video link on the right.
@@ -544,7 +537,7 @@ Needs updating to be confernece specific:
 12. On the next screen (New Merge Request), add `WIP:` to the beginning of the title and add a quick description (`Add PathFactory link to LP for [webcast name] will suffice`).
 13. If you have merge access, assign Merge Request to yourself. If you don't have merge access, assign Merge Request to Jackie Gragnola or Agnes Oetama. Scroll down, check the box for `Delete source branch when merge request is accepted`.
 14. Click Submit Merge Request.
-15. You’ve now created the Merge Request.
+15. You've now created the Merge Request.
 16. **Login to Marketo.** Go to the webcast program and update the `{{my.ondemandUrl}}` token with the webcast PathFactory link.
 17. Go to the assets folder within your webcast program and update the `On-demand Autoresponder` email with relevant copies related to the webcast.
 18. Navigate to the `Viewed On Demand` Smart campaign within your webcast program.

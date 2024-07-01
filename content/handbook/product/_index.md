@@ -21,9 +21,9 @@ description: "Most of the content in the product handbook talks about _how_ we d
 **We create products and experiences that customers love and value.**
 
 - **Consistency wins as you scale**. Our organizational goal is to create a Product Manager (PM) system that maximizes the chances of success across new products, new features, and new team members.
-- **We are shipping an experience**, and not just a product. Don’t forget about the links between the product and the website, pricing & packaging, documentation, sales, support, etc.
-- **It’s about our customers and doing a job for them**, not the product itself. Think externally about customer problems, not internally about the technology.
-- **It’s about love AND value**. Will customers value what we are building? We need to make sure what we build helps build and extract customer value.
+- **We are shipping an experience**, and not just a product. Don't forget about the links between the product and the website, pricing & packaging, documentation, sales, support, etc.
+- **It's about our customers and doing a job for them**, not the product itself. Think externally about customer problems, not internally about the technology.
+- **It's about love AND value**. Will customers value what we are building? We need to make sure what we build helps build and extract customer value.
 
 ## Contributing to the Product Handbook
 
@@ -71,7 +71,7 @@ To learn how the GitLab product and our Teams are organized review our Product C
 
 Learn about GitLab as a product, including what does it mean to be a single application, our subscription tiers and pricing model, and the basics of permissions in the platform.
 
-### [**Product Manager Responsibilities**](https://handbook.gitlab.com/job-families/product/product-manager)
+### [**Product Manager Responsibilities**](/job-families/product/product-manager)
 
 Understand the roles and responsibilities of product managers.
 
@@ -89,7 +89,7 @@ Understand the OKR Process for the GitLab Product Team and review current and pa
 
 ### [**Our Product Leadership Team**](/handbook/product/product-leadership/)
 
-Learn about our Product Leadership Team and learn about them via their personal README’s.
+Learn about our Product Leadership Team and learn about them via their personal README's.
 
 ### Popular Product Resources
 
@@ -122,6 +122,7 @@ Below are team emails and handles that can be used for different departments and
 - `@gitlab-com/gitlab-ux/managers` tags all people managers within UX (UX Research, Technical Writing, and Product Design)
 - `@gitlab-com/gitlab-ux/designers` tags all Product Designers and Design Managers in UX
 - `@gl-docsteam` for all Technical Writers in UX
+- '#technical-program-management' a place to reach the entire TPgM team across organizations
 
 When you are tagging `@mention`:
 

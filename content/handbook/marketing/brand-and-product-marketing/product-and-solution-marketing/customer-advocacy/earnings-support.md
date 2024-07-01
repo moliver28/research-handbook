@@ -2,26 +2,26 @@
 title: "Quarterly Earnings Customer References"
 ---
 
-Earnings statement customer reference identification and outreach is a continuous activity that occurs across each new quarter in support of the public earnings package. By identifying customers as part of this process, they enter the referencing “pipeline” to provide valuable proof points for the earnings statement and additional customer story content in the future. For the purposes of the earnings statement, there are two key categories of customer:
+Earnings statement customer reference identification and outreach is a continuous activity that occurs across each new quarter in support of the public earnings package. By identifying customers as part of this process, they enter the referencing "pipeline" to provide valuable proof points for the earnings statement and additional customer story content in the future. For the purposes of the earnings statement, there are two key categories of customer:
 
 ## First Order
 
 These are net new ENT/MM customers. There is an emphasis on following additional criteria:
 
-   - Largest deal sizes - $100K ARR or above
-   - Globally recognizable brands
-   - Customers where the other product under consideration was MSFT
-   - **GOAL:** Source 3 customers who provide legal permission to mention their business by name and use their logo in the earnings statement
+- Largest deal sizes - $100K ARR or above
+- Globally recognizable brands
+- Customers where the other product under consideration was MSFT
+- **GOAL:** Source 3 customers who provide legal permission to mention their business by name and use their logo in the earnings statement
 
 ## Growth
 
 These are existing ENT/MM customers who increased their spend/number of licenses. There is an emphasis on the following additional criteria:
 
-   - Largest deal sizes - $100K ARR or above
-   - Globally recognizable brands
-   - **GOAL:** Source 3 customers who provide legal permission to mention their business by name and use their logo in earnings statement (if not already received)
-      - Named growth customers, in collaboration with SAE/CSM/CR, will create a customer story that contains 2 - 3 sentences on the business value  that GitLab provides to them.
-   - If customers do not agree to be mentioned by name, the SAE/CSM/CR will create an anonymized version of the customer story.
+- Largest deal sizes - $100K ARR or above
+- Globally recognizable brands
+- **GOAL:** Source 3 customers who provide legal permission to mention their business by name and use their logo in earnings statement (if not already received)
+  - Named growth customers, in collaboration with SAE/CSM/CR, will create a customer story that contains 2 - 3 sentences on the business value  that GitLab provides to them.
+- If customers do not agree to be mentioned by name, the SAE/CSM/CR will create an anonymized version of the customer story.
 
 ## Earnings Toolkit
 
@@ -57,5 +57,5 @@ Quarter End - Earnings Report (~4 - 6 weeks)
 
 Post-Statement:
 
-   - CR to track Reference activity in ReferenceEdge
-   - CR to run report of reference activity and load into Quarterly Earnings Reference Activity Report
+- CR to track Reference activity in ReferenceEdge
+- CR to run report of reference activity and load into Quarterly Earnings Reference Activity Report

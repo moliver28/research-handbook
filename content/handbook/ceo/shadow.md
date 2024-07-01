@@ -12,9 +12,9 @@ Unless you're joining the program during one of our [remote rotations](#remote-s
 
 ### Goal
 
-The goal of the CEO Shadow Program is to give team members and [eligible individuals](#eligibility) an overview of all aspects of the [company](/handbook/company/). This transparency enables CEO Shadow participants to better engage and collaborate cross-functionally, as well as better perform [cross-functional optimizations]({{< ref "values#cross-functional-optimization" >}}).
+The goal of the CEO Shadow Program is to give team members and [eligible individuals](#eligibility) an overview of all aspects of the [company](/handbook/company/). This transparency enables CEO Shadow participants to better engage and collaborate cross-functionally, as well as better perform [cross-functional optimizations](/handbook/values/#cross-functional-optimization).
 
-As a CEO Shadow, you'll gain this context through the [meetings you attend](#meetings--events) and while [completing]({{< ref "values#operate-with-a-bias-for-action" >}}) short-term [tasks](#tasks) from across the company.
+As a CEO Shadow, you'll gain this context through the [meetings you attend](#meetings--events) and while [completing](/handbook/values/#operate-with-a-bias-for-action) short-term [tasks](#tasks) from across the company.
 The program also creates opportunities for the CEO to build relationships with team members across the company and to identify challenges and opportunities earlier.
 The shadows will also often connect with one another, developing new cross-functional relationships.
 
@@ -130,30 +130,25 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- |
-| 2024-05-27 | 2024-05-31 | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
-| 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | REMOTE - PT |
-| 2024-06-10 | 2024-06-14 |  [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
-| 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT |
-| 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success | [Emilio Salvador](@esalvadorp) - VP Developer Relations & Community | In Person - East Coast |
+| 2024-06-24 | 2024-06-27 | NO SHADOW| NO SHADOW | E-GROUP OFFSITE |
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
 | 2024-07-08 | 2024-07-12 | NO SHADOW | NO SHADOW | travel in EMEA |
-| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | REMOTE - PT |
-| 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - PT |
-| 2024-07-29 | 2024-08-02 |  Ivan French - CEO, Sijbrandij Foundation | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
-| 2024-07-29 | 2024-08-02 | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
-| 2024-08-05 | 2024-08-09 |  OPEN | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - CT - limited week due to MS conference |
-| 2024-08-12 | 2024-08-16 |  OPEN | OPEN | REMOTE - PT |
-| 2024-08-19 | 2024-08-23 |  OPEN | OPEN | REMOTE - PT - limited week (M-W)|
+| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | REMOTE - ET |
+| 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - ET |
+| 2024-07-29 | 2024-08-02 | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
+| 2024-08-05 | 2024-08-09 |  Ivan French - CEO, Sijbrandij Foundation | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - CT - limited week due to MS conference |
+| 2024-08-12 | 2024-08-16 | OPEN | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
+| 2024-08-19 | 2024-08-23 | OPEN | OPEN | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
-| 2024-09-02 | 2024-09-06 |  [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
-| 2024-09-09 | 2024-09-13 |  OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
-| 2024-09-16 | 2024-09-20 |  OPEN | OPEN | REMOTE - PT |
-| 2024-09-23 | 2024-09-27 |  VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
-| 2024-09-30 | 2024-10-04 |  OPEN | OPEN | REMOTE - PT |
-| 2024-10-07 | 2024-10-11 |  OPEN | OPEN | REMOTE - PT |
-| 2024-10-14 | 2024-10-18 |  OPEN | OPEN | REMOTE - PT - very limited week due to multiple conferences |
-| 2024-10-21 | 2024-10-25 |  [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
-| 2024-10-28 | 2024-11-01 |  OPEN | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
+| 2024-09-02 | 2024-09-06 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
+| 2024-09-09 | 2024-09-13 | OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
+| 2024-09-16 | 2024-09-20 | OPEN | OPEN | REMOTE - PT |
+| 2024-09-23 | 2024-09-27 | VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
+| 2024-09-30 | 2024-10-04 | OPEN | OPEN | REMOTE - PT |
+| 2024-10-07 | 2024-10-11 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | OPEN | REMOTE - PT |
+| 2024-10-14 | 2024-10-18 | OPEN | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT - very limited week due to multiple conferences |
+| 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
+| 2024-10-28 | 2024-11-01 | OPEN | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -181,8 +176,8 @@ Outgoing shadows are responsible for training incoming shadows. We currently tra
 
 **Make sure you do the following:**
 
- - **Create an onboarding issue.** The incoming shadow is responsible for creating their onboarding issue by the Friday before they start the program using the [`onboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=onboarding). Assign the issue to both the incoming and outgoing shadows (the person who will be "teaching one" and yourself).
- - In your second week, you'll **create an offboarding issue.** by using the [`offboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=offboarding).
+- **Create an onboarding issue.** The incoming shadow is responsible for creating their onboarding issue by the Friday before they start the program using the [`onboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=onboarding). Assign the issue to both the incoming and outgoing shadows (the person who will be "teaching one" and yourself).
+- In your second week, you'll **create an offboarding issue.** by using the [`offboarding` template](https://gitlab.com/gitlab-com/ceo-shadow/onboarding/-/issues/new?issuable_template=offboarding).
 
 #### Consider creating goals
 
@@ -242,7 +237,7 @@ If you're not familiar with some of the business acronyms, take a bit of time to
 
 #### Look for values being lived out
 
-Even in meetings where you are unfamiliar with the subject matter, there is opportunity to learn, document, and shape the evolution of [GitLab's values]({{< ref values >}}). Re-read GitLab's values prior to your CEO Shadow rotation, and be mindful of new and inventive ways that [CREDIT]({{< ref "values#credit" >}}) is lived out during the meetings you attend. You can make a merge request to propose new [operating principles]({{< ref "values#operating-principles" >}}), which substantiate top-level values.
+Even in meetings where you are unfamiliar with the subject matter, there is opportunity to learn, document, and shape the evolution of [GitLab's values]({{< ref values >}}). Re-read GitLab's values prior to your CEO Shadow rotation, and be mindful of new and inventive ways that [CREDIT](/handbook/values/#credit) is lived out during the meetings you attend. You can make a merge request to propose new [operating principles](/handbook/values/#operating-principles), which substantiate top-level values.
 
 ### Remote shadow rotations
 
@@ -262,7 +257,7 @@ For insights on maximizing a remote CEO Shadow rotation, view takeaway recap vid
 1. Take breaks from your desk when there is a break in the CEO's schedule. It's important to take time to [move around](/handbook/company/culture/all-remote/tips/#dedicate-time-for-health-and-fitness).
 1. Depending on your time zone, working in Pacific Time may be an adjustment to your typical working hours. [Plan ahead,](/handbook/company/culture/all-remote/getting-started/#establish-routine-with-family-and-friends) especially if you're balancing responsibilities with family, pets, roommates, etc.
 1. Consider switching locations in your home or workspace during the CEO's 1:1 meetings. Since you [won't be taking active notes](#meeting-responsibilities) in these calls, this is a good opportunity to change position or scenery intermittently throughout the day.
-1. Particularly in a remote CEO Shadow rotation, life is more available to sidetrack you. It is OK if you need to drop from a meeting to handle tasks at home, from childcare to answering the door, or anything in between. GitLab puts [family and friends first, work second]({{< ref "values#family-and-friends-first-work-second" >}}). If feasible, communicate these instances with your co-shadow, so they can assist with ongoing note-taking/tasks.
+1. Particularly in a remote CEO Shadow rotation, life is more available to sidetrack you. It is OK if you need to drop from a meeting to handle tasks at home, from childcare to answering the door, or anything in between. GitLab puts [family and friends first, work second](/handbook/values/#family-and-friends-first-work-second). If feasible, communicate these instances with your co-shadow, so they can assist with ongoing note-taking/tasks.
 1. Consider taking one or two days off after your rotation. Being a CEO Shadow can be intense. Be aware of [symptoms of burnout](/handbook/people-group/paid-time-off/#recognizing-burnout).
 
 ## What to expect during the program
@@ -416,7 +411,7 @@ The CEO Shadows maintain a project called [CEO Shadow Tasks](https://gitlab.com/
 Here are some examples:
 
 1. Make [handbook]({{< ref handbook >}}) updates (use the [ceo-shadow](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=all&label_name[]=ceo-shadow) label).
-Post the MR links in the `#ceo` Slack channel and `@`-reference the CEO so the CEO knows they have been completed. It is not required to create issues for these tasks. Go directly to a merge request if it is more [efficient]({{< ref "values#efficiency" >}}).
+Post the MR links in the `#ceo` Slack channel and `@`-reference the CEO so the CEO knows they have been completed. It is not required to create issues for these tasks. Go directly to a merge request if it is more [efficient](/handbook/values/#efficiency).
 1. [Draft a "tweet storm"](#drafting-a-tweet-storm).
 1. Solve urgent issues. For example, help solve a complaint from a customer or coordinate the response to a technical issue.
 1. Go through open merge requests and work towards merging or closing any that have [not been merged](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests?scope=all&state=opened&label_name[]=ceo-shadow).
@@ -679,7 +674,7 @@ GitLab co-founder and CEO Sid Sijbrandij [answered questions in a YouTube livest
 
 1. CEOs should not optimize meetings for Shadows. They are learning by being in the room, either in-person or virtual, and it's OK if the Shadow doesn't fully understand everything.
 1. A well-designed CEO Shadow Program shouldn't burden a CEO; in fact, Shadows should actively make a CEO's day easier by assisting with notes and changing relevant portions of the company handbook upon request.
-1. Non-obvious benefits for a CEO (and their organization) include CEO empathy and humanizing a CEO, such that team members are more comfortable contributing input to an executive. Shadow alumni are able to translate real-world examples of [assuming positive intent]({{< ref "values#assume-positive-intent" >}}) from their time in the program to their direct reports, further fortifying company culture.
+1. Non-obvious benefits for a CEO (and their organization) include CEO empathy and humanizing a CEO, such that team members are more comfortable contributing input to an executive. Shadow alumni are able to translate real-world examples of [assuming positive intent](/handbook/values/#assume-positive-intent) from their time in the program to their direct reports, further fortifying company culture.
 1. Ensure that CEO Shadows do not plan to do any of their usual work. Shadows should prepare their team as if they were on vacation. Attempting to shadow the CEO while also maintaining a full workload creates undue stress for the CEO Shadow.
 
 ## Alumni
@@ -836,3 +831,7 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-04-29 | 2024-05-10 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) | Staff Marketing Campaigns Manager | |
 | 2024-05-06 | 2024-05-17 | Karen Murphy | Chief Editorial Officer, Sijbrandij Family Office | |
 | 2024-05-13 | 2024-05-31 | [Djordje Micovic](https://gitlab.com/dmicovic) | Staff Data Analyst, Marketing Analytics | |
+| 2024-05-27 | 2024-06-07 | [Rigerta Demiri](https://gitlab.com/Rigerta) | Senior Data Engineer, Data | |
+| 2024-06-03 | 2024-06-14 | [Christopher Wang](https://gitlab.com/cs.wang) | Sr. Manager Strategy and Enablement (Sales Development) | |
+| 2024-06-10 | 2024-06-14 | [Sacha Guyon](https://gitlab.com/sguyon) | Sr. Product Manager (Observability) | |
+| 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) | Sr Director, ESG | |

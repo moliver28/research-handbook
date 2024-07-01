@@ -24,6 +24,7 @@ The following people are permanent members of the Model Validation Group:
 | [Monmayuri Ray](/handbook/company/team/#mray2020)      | Engineering Manager      |
 | [Alper Akgun](/handbook/company/team/#alperakgun) | Staff Fullstack Engineer |
 | [Kevin Chu](/handbook/company/team/#kevinchu) | Product Manager |
+| [Fred de Gier](/handbook/company/team/#fdegier) | Staff Backend Engineer |
 
 ### How to contact us
 

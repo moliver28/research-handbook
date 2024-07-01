@@ -111,17 +111,20 @@
 /content/job-families/engineering/ @sabrinafarmer @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/engineering/incubation/ @bmarnane @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
+^[Eng-Architecture]
+/content/handbook/engineering/architecture/ @ayufan @grzesiek @glopezfernandez @andrewn @mappelman @DylanGriffith @theoretick @shekharpatnaik @stanhu @fabiopitino @tkuah @ntepluhina @jessieay @vitallium
+
 ^[Eng-Development-department]
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
 /content/handbook/engineering/development/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
 /content/handbook/engineering/development/analytics/product-analytics.md @timzallmann @dennis @rob.hunt @mwoolf
 /content/handbook/engineering/development/analytics/analytics-instrumentation/ @bastirehm @timzallmann
-/content/handbook/engineering/development/data-science/ @timzallmann @bmarnane @dsatcher @m_gill @pcalder
+/content/handbook/engineering/development/data-science/ @timzallmann @bmarnane @dsatcher @m_gill
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/model-validation @mray2020 @pcalder
-/content/handbook/engineering/development/data-science/modelops/ @bmarnane @pcalder @mray2020
+/content/handbook/engineering/development/data-science/ai-powered/model-validation @mray2020
+/content/handbook/engineering/development/data-science/modelops/ @m_gill @mray2020
 /content/handbook/engineering/development/database.md @alexives
 /content/handbook/engineering/development/dev/ @timzallmann
 /content/handbook/engineering/development/dev/create/ @dsatcher
@@ -170,27 +173,27 @@
 /content/handbook/engineering/workflow/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
 
 ^[Eng-Infrastructure-Quality-department]
-/content/handbook/engineering/infrastructure-quality.md @marin @meks @cdeleon_gitlab @vincywilson
+/content/handbook/engineering/infrastructure-quality.md @marin @meks @vincywilson
 
 ^[Eng-Infrastructure-department]
 /content/handbook/engineering/careers/matrix/infrastructure @marin @kwanyangu @meks @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
-/content/handbook/engineering/infrastructure/ @cdu1 @cdeleon_gitlab @marin @meks @vincywilson
+/content/handbook/engineering/infrastructure/ @cdu1 @marin @meks @vincywilson
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/core-platform/ @cdu1
 /content/handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/ @rmar1
 /content/handbook/engineering/infrastructure/core-platform/data_stores/database/ @alexives
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/core-platform/data_stores/search/ @changzhengliu
-/content/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale.md @arturoherrero
+/content/handbook/engineering/infrastructure/core-platform/data_stores/tenant-scale.md @sissiyao
 /content/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @cdu1 @plu8
-/content/handbook/engineering/infrastructure/core-platform/systems/geo/ @juan-silva
+/content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
 /content/handbook/engineering/infrastructure/core-platform/systems/gitaly.md @andrashorvath @jcaigitlab
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @meks
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @kwanyangu @marin
-/content/handbook/engineering/infrastructure/performance-indicators.md @cdu1 @cdeleon_gitlab @marin @meks @vincywilson @rymai
+/content/handbook/engineering/infrastructure/performance-indicators.md @cdu1 @marin @meks @vincywilson @rymai
 /content/handbook/engineering/infrastructure/platforms/ @marin @rnienaber @amyphillips
 /content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @meks
 /content/handbook/engineering/infrastructure/team/ @marin
@@ -212,7 +215,7 @@
 /content/handbook/engineering/infrastructure/test-platform/quad-planning/ @ghosh-abhinaba @kkolpakova @ksvoboda @vincywilson
 /content/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/ @ksvoboda
 /content/handbook/engineering/infrastructure/test-platform/test-engineering-team/ @kkolpakova
-/content/handbook/engineering/quality/engineering-analytics.md @meks @cdeleon_gitlab @lmai1
+/content/handbook/engineering/quality/engineering-analytics.md @meks @lmai1
 
 ^[Eng-Incubation-department]
 /content/handbook/engineering/development/incubation/ @bmarnane
@@ -338,6 +341,7 @@
 /content/handbook/marketing/positioning-faq.md @akramer @dsteer
 /content/handbook/marketing/project-management-guidelines/ @johncoghlan
 /content/handbook/marketing/readmes/ @akramer
+/content/handbook/marketing/readmes/michael-friedrich.md @dnsmichi
 /content/handbook/marketing/sales-development/ @akramer @jlarramendy
 /content/handbook/marketing/sales-plays-cicd/ @dsteer
 /content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @warias @dsteer
@@ -519,6 +523,7 @@
 /content/handbook/security/threat-management/ @smanzuik @estrike
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/security-operations/red-team/ @cmoberly
+/content/handbook/security/security-operations/threat-intelligence/ @cmoberly
 /content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/chief-information-security-officer.md @joshlemos @fofungwu @robin @fofungwu @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
@@ -567,7 +572,7 @@
 
 # CODEOWNER approvals are required for Source Code to support dogfooding approvals
 [Eng-SourceCode]
-/content/handbook/engineering/development/dev/create/source-code-be/ @sean_carroll @igor.drozdov @vyaklushin @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/development/dev/create/source-code-be/ @andr3 @dpoosarla @vyaklushin @ashmckenzie @gitlab-com/egroup @gitlab-com/content-sites
 
 [handbook-operations]
 /.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
@@ -638,6 +643,10 @@
 [values]
 /content/handbook/values/ @sytses @streas @drogozinski @sheridam @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites
 
+## This section is for SOX related documents.
+[SOX-Documents]
+/content/handbook/engineering/gitlab-com/policies/teleport/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
+
 ## Controlled Documents must be in this section, and it must be the last section
 [Controlled-Documents]
 /content/handbook/entity/iberia-srl-spain.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
@@ -692,7 +701,7 @@
 /content/handbook/security/token-management-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-### This is not a controlled doc however it mentions how to make a page a controlled doc, so this line is required for validation. See issue#213 for excluding this.
-/content/handbook/editing-handbook/frontmatter.md @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
-
+### This is not a controlled doc however it mentions how to make a page a controlled doc, so this line is required for validation. See issue#213 for excluding this.
+/content/handbook/editing-handbook/frontmatter.md @gitlab-com/ceo-chief-of-staff-team @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-logging-standard.md @mcoons @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites

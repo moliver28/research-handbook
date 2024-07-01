@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Data Seeder (GDS)"
 description: "Demo and Test Data generator"
 ---
@@ -8,7 +7,7 @@ description: "Demo and Test Data generator"
 
 The GitLab Data Seeder (GDS) (formerly AwesomeCo) is a technical implementation in GitLab to allow engineers, testers, and customers alike to generate seed data in their GitLab instances for various purposes.
 
-The Data Seeder tool was devised as a result of the [Demo & Test Data working group's][working-group] effort to address this gap.
+The Data Seeder tool was devised as a result of the [Demo & Test Data working group's](/handbook/company/team/structure/working-groups/demo-test-data/) effort to address this gap.
 
 ## How it works?
 
@@ -56,15 +55,13 @@ Some examples include, but are not limited to:
 
 ## Working Group Information
 
-The [Demo & Test Data working group][working-group] was created on January 19th, 2022 to solve the problem of having no uniform way
+The [Demo & Test Data working group](/handbook/company/team/structure/working-groups/demo-test-data/) was created on January 19th, 2022 to solve the problem of having no uniform way
 of generating data to be used with testing or demoing.
 
 ### Links
 
 - [Technical Documentation](https://docs.gitlab.com/ee/topics/data_seeder.html)
 - [Data Seeder Issue Tracker](https://gitlab.com/gitlab-org/gitlab/-/boards/3766722?label_name[]=data%20seeder)
-- [Working Group page][working-group]
+- [Working Group page](/handbook/company/team/structure/working-groups/demo-test-data/)
 - [`#data-seeder`](https://gitlab.slack.com/archives/C055Y333MM1) Slack Channel (internal)
 - [Feedback Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/414671)
-
-[working-group]: https://about.gitlab.com/company/team/structure/working-groups/demo-test-data/

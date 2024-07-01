@@ -15,20 +15,20 @@ However, it is the responsibility of the Infrastructure Department to drive the 
 
 ## Getting Assistance
 
-If you’re a GitLab team member and are looking to alert the Infrastructure teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
+If you're a GitLab team member and are looking to alert the Infrastructure teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 
 Queries to Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
 
 ## Vision
 
-The Infrastructure Department operates a fast, secure, and reliable SaaS platform to which (and with which) [everyone can contribute][contribute].
+The Infrastructure Department operates a fast, secure, and reliable SaaS platform to which (and with which) [everyone can contribute](/handbook/company/mission/#everyone-can-contribute).
 
 Integral part of this vision is to:
 
 1. Build a highly performant team of engineers, combining operational and software development experience to influence the best in reliable infrastructure.
-1. Work publicly in accordance with our [transparency] value.
-1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support [the company strategy][strategy].
-1. Align our [strategy][strategy] with the industry trends, company direction, and end customer needs.
+1. Work publicly in accordance with our [transparency](/handbook/values/#transparency) value.
+1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support [the company strategy](/handbook/company/strategy/).
+1. Align our [strategy](/handbook/company/strategy/) with the industry trends, company direction, and end customer needs.
 
 ## Direction
 
@@ -118,7 +118,7 @@ flowchart LR
 
 ## Design
 
-The [**Infrastructure Library**][library] contains documents that outline our thinking about the problems we are solving and represents the ***current state*** for any topic, playing a significant role in how we produce technical solutions to meet the challenges we face.
+The [**Infrastructure Library**](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library) contains documents that outline our thinking about the problems we are solving and represents the ***current state*** for any topic, playing a significant role in how we produce technical solutions to meet the challenges we face.
 
 ## Dogfooding
 
@@ -167,51 +167,37 @@ The Infrastructure department hires for a number of different technical speciali
 
 ## Common Links
 
-- [How we do Incident Management for GitLab.com][incident]
-- [status]
+- [How we do Incident Management for GitLab.com](incident-management/)
+- [GitLab.com status information](https://status.gitlab.com)
 
-| **General Issue Trackers**                      | **General Slack Channels** | **Team Slack Channels** | **Resources**                                        |
-|-------------------------------------------------|----------------------------|-------------------------|------------------------------------------------------|
-| [Infrastructure issue queue][infra]             | [#production]              | [#g_delivery]           | [Production Architecture][architecture]              |
-| [Production incidents, and changes][production] | [#infrastructure-lounge]   | [#g_scalability]        | [Operational Runbooks][runbooks]                     |
-| [Delivery][delivery]                            | [#incident-management]     |                         | [Environments][environments]                         |
-| [Scalability][scalability]                      | [#announcements]           |                         | [Monitoring][monitoring]                             |
-|                                                 | [#feed_alerts-general]     |                         | [Readiness Reviews][readiness]                       |
-|                                                 |                            |                         | [Infrastructure Standards][infrastructure-standards] |
+### Slack Channels
+
+- [#production](https://gitlab.slack.com/archives/production)
+- [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge)
+- [#incident-management](https://gitlab.slack.com/archives/incident-management)
+- [#announcements](https://gitlab.slack.com/archives/announcements)
+- [#feed_alerts-general](https://gitlab.slack.com/archives/feed_alerts-general)
+
+### General Issue Trackers
+
+- [Infrastructure issue queue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)
+- [Production incidents, and changes](https://gitlab.com/gitlab-com/gl-infra/production/issues/)
+- [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/issues/)
+- [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability/issues/)
+
+### Resources
+
+- [Production Architecture](production/architecture/)
+- [Operational Runbooks](https://gitlab.com/gitlab-com/runbooks)
+- [Environments](environments/)
+- [Monitoring](../monitoring/_index.md)
+- [Readiness Reviews](production/readiness/)
+- [Infrastructure Standards](infrastructure-standards/)
 
 ## Other Pages
 
 - [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
 - [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
 - [GitLab.com data breach notification policy](/security/#data-breach-notification-policy)
-- [Infrastructure careers and internships][interning]
+- [Infrastructure careers and internships](career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
-
-[status]: https://status.gitlab.com/
-[incident]: /handbook/engineering/infrastructure/incident-management/
-[infra]: https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues
-[production]: https://gitlab.com/gitlab-com/gl-infra/production/issues/
-[delivery]: https://gitlab.com/gitlab-com/gl-infra/delivery/issues/
-[scalability]: https://gitlab.com/gitlab-com/gl-infra/scalability/issues
-
-[#production]: https://gitlab.slack.com/archives/production
-[#infrastructure-lounge]: https://gitlab.slack.com/archives/infrastructure-lounge
-[#incident-management]: https://gitlab.slack.com/archives/incident-management
-[#announcements]: https://gitlab.slack.com/archives/announcements
-[#feed_alerts-general]: https://gitlab.slack.com/archives/feed_alerts-general
-[#g_delivery]: https://gitlab.slack.com/archives/g_delivery
-[#g_scalability]: https://gitlab.slack.com/archives/g_scalability
-
-[architecture]: /handbook/engineering/infrastructure/production/architecture/
-[environments]: /handbook/engineering/infrastructure/environments/
-[monitoring]: /handbook/engineering/infrastructure
-[runbooks]: https://gitlab.com/gitlab-com/runbooks
-[readiness]: /handbook/engineering/infrastructure/production/readiness/
-[interning]: /handbook/engineering/infrastructure/career/
-[infrastructure-standards]: /handbook/infrastructure-standards/
-
-[library]: https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library
-
-[strategy]: /company/strategy/
-[transparency]: /handbook/values/#transparency
-[contribute]: /company/mission/#everyone-can-contribute

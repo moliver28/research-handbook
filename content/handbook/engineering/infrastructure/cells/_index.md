@@ -98,21 +98,6 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>
 
-[Ethan Guo](https://gitlab.com/yanguo1)
-
-</td>
-<td>Director, Infra Technical Program Management</td>
-<td>
-
-1. Develop project plan and drive schedule
-2. Inter-team connection, collaboration and communication
-3. Project management
-
-</td>
-</tr>
-<tr>
-<td>
-
 [Chun Du](https://gitlab.com/cdu1)
 
 </td>
@@ -142,7 +127,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>
 
-[Arturo Herrero](https://gitlab.com/arturoherrero)
+[Sissi Yao](https://gitlab.com/sissiyao)
 
 </td>
 <td>Tenant Scale Engineering Manager</td>
@@ -186,6 +171,19 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 
 </td>
 </tr>
+<tr>
+<td>
+
+[Darby Frey](https://gitlab.com/darbyfrey)
+
+</td>
+<td>Staff Fullstack Engineer, Expansion</td>
+<td>
+
+DRI of Expansion Software Development
+
+</td>
+</tr>
 
 </table>
 
@@ -214,7 +212,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 </tr>
 
 <tr>
-<td>Application’s Cell readiness</td>
+<td>Application's Cell readiness</td>
 <td>
 
 [Kamil Trzciński](https://gitlab.com/ayufan)
@@ -474,7 +472,7 @@ We use t-shirt sizing to estimate the time and effort needed to deliver issues/e
 
 ### Status updates
 
-- Weekly “Cells & Organizations Status Update - [yyyy-mm-dd]” issues in this [project](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/?sort=created_date&state=all&label_name%5B%5D=cells-organizations-status)
+- Weekly "Cells & Organizations Status Update - [yyyy-mm-dd]" issues in this [project](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/?sort=created_date&state=all&label_name%5B%5D=cells-organizations-status)
 - Weekly status updates in Slack [#cto channel (internal only)](https://gitlab.enterprise.slack.com/archives/C9X79MNJ3) channel
 
 ## Additional Information

@@ -21,7 +21,7 @@ twitter_image: '/images/work-from-home-field-guide/PDF-Cover-Image.jpeg'
 <div class="row align-items-center">
     <div class="col">
         <h2 class="h1 my-4">Project background</h2>
-        <p class="h3">GitLab is pleased to co-create this field guide with Herman Miller, combining <a href="{{< ref "./guide" >}}">GitLab’s expertise on remote teams</a> and best practices with Herman Miller’s deep understanding of workspaces and design.</a>
+        <p class="h3">GitLab is pleased to co-create this field guide with Herman Miller, combining <a href="{{< ref "./guide" >}}">GitLab's expertise on remote teams</a> and best practices with Herman Miller's deep understanding of workspaces and design.</a>
     </div>
     <div class="col text-center">
         <img src="https://about.gitlab.com/images/work-from-home-field-guide/herman-miller-image.jpeg" alt="">
@@ -38,7 +38,7 @@ twitter_image: '/images/work-from-home-field-guide/PDF-Cover-Image.jpeg'
     </div>
     <div class="col">
         <h3 class="h2 my-4">Work is where the worker is</h3>
-        <p class="lead">We have many choices for where to work on a given day: your home office or kitchen counter, a coffee shop, a coworking space, even a car or plane. No matter where work gets done, it’s important to be intentional about how you use these spaces.</p>
+        <p class="lead">We have many choices for where to work on a given day: your home office or kitchen counter, a coffee shop, a coworking space, even a car or plane. No matter where work gets done, it's important to be intentional about how you use these spaces.</p>
     </div>
 </div>
 <div class="row  my-5">

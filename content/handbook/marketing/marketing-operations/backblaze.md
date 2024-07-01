@@ -1,14 +1,7 @@
 ---
-
 title: "Backblaze"
 description: "Backblaze is high performance cloud storage tool used by digital production."
 ---
-
-
-
-
-
-
 
 ## About
 

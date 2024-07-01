@@ -310,8 +310,8 @@ Training Video:
 
 The review of online touchpoints and of the rules governing the creation of touchpoints based on online activities takes place once per month and includes the following checks:
 
-- Pull a Marketo Measure Touchpoint SFDC report, grouped by channel and monitor for touchpoints associated to “Other” as the channel;
-- Review the Landing Page Raw field data for the “Other” touchpoints and identify if there are new or rogue utm parameters that need to be added to our online rule sheet;
+- Pull a Marketo Measure Touchpoint SFDC report, grouped by channel and monitor for touchpoints associated to "Other" as the channel;
+- Review the Landing Page Raw field data for the "Other" touchpoints and identify if there are new or rogue utm parameters that need to be added to our online rule sheet;
 - Additionally review the [UTM Generator spreadsheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569) which contains the urls that are used in our various online campaigns and make sure any newly added utm parameters are included in the online rules sheet;
 - Finalize all updates to the online touchpoint rules sheet and re-upload it back into Marketo Measure > Online Channels section;
 - Lastly, if the rule changes require any additions/substractions to our Channel/Sub-Channel mapping, make sure to have those included in the Marketo Measure > Create Channels section.

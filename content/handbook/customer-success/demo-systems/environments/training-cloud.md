@@ -1,13 +1,6 @@
 ---
-
 title: "Training Cloud Omnibus-as-a-Service"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -15,7 +8,7 @@ The demo systems that we call the GitLab Training Cloud provides a perpetual sha
 
 The GitLab Training Cloud provides you access to Ultimate license features with your own user account and an organizational group that you can use for creating projects and child groups. We also handle all of the GitLab Runner autoscaling and Kubernetes configuration behind the scenes.
 
-#### Workshop existing lab guide catalog usage process
+### Workshop existing lab guide catalog usage process
 
 This process has moved to [/handbook/customer-success/demo-systems/#invitation-code-creation] and [/handbook/customer-success/demo-systems/#workshop-preparation].
 

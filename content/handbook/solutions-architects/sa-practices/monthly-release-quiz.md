@@ -1,9 +1,7 @@
 ---
-
 title: "Monthly Release Quiz"
 description: "Enable SAs and the larger CS team on new and existing features with a monthly quiz event"
 ---
-
 
 Solutions Architects need to stay on top of all product changes and with GitLab releasing new features in each monthly update, it can be hard to keep track.
 A monthly quiz is organized as a way for team members to test their knowledge on new and existing features.
@@ -37,10 +35,10 @@ The budget is $100 per month. The recommended giveaway amount is $45 for 1st pla
 #### Formulating Quiz Questions
 
 - Quiz questions should be:
-    - Fact-based (this means that either docs and/or GitLab release notes are in alignment with the correct answers), rather than opinion-based
-        - E.g. "Which security platform is our biggest competitor," this is a bad question because the answer is subjective.
-    - Ideally, centered around features and capabilities of GitLab (while there is an emphasis on new features and recent changes, older features are also welcome)
-    - True/false, single select, or multiselect format
+  - Fact-based (this means that either docs and/or GitLab release notes are in alignment with the correct answers), rather than opinion-based
+    - E.g. "Which security platform is our biggest competitor," this is a bad question because the answer is subjective.
+  - Ideally, centered around features and capabilities of GitLab (while there is an emphasis on new features and recent changes, older features are also welcome)
+  - True/false, single select, or multiselect format
 - When creating questions, the following are good sources to pull from:
-    - [GitLab documentation](https://docs.gitlab.com)
-    - GitLab release notes: [Overview page](https://about.gitlab.com/releases/categories/releases/), [16.0 release notes example](https://about.gitlab.com/releases/2023/05/22/gitlab-16-0-released/#key-features)
+  - [GitLab documentation](https://docs.gitlab.com)
+  - GitLab release notes: [Overview page](https://about.gitlab.com/releases/categories/releases/), [16.0 release notes example](https://about.gitlab.com/releases/2023/05/22/gitlab-16-0-released/#key-features)

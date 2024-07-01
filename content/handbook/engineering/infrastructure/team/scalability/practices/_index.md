@@ -25,12 +25,12 @@ The following people are members of the Scalability:Practices team:
 
 ## Responsibilities
 
-- [Runway](https://about.gitlab.com/direction/saas-platforms/scalability/runway/): Internal Platform as a Service for GitLab, enabling teams to deploy and run their services quickly and safely.
+- [Runway](https://docs.runway.gitlab.com/guides/onboarding/): Internal Platform as a Service for GitLab, enabling teams to deploy and run their services quickly and safely.
 - [Production Readiness Review](/handbook/engineering/infrastructure/production/readiness/): A process that helps identify the reliability needs of a service, feature, or significant change to infrastructure for GitLab.com
 - [Specific Counterparts Arrangements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1203): Enabling specific stage group counterparts to self-serve on SRE support. Currently we are Infrastructure counterparts for the Stage groups
-   - [Fulfillment Platform Group / CustomerDot](/handbook/product/categories/#fulfillment-platform-group) - [Linked Issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2739)
-   - [Runner Group](/handbook/product/categories/#runner-group) - [Linked Issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2740)
-   - [Product Analytics Group](/handbook/product/categories/#product-analytics-group) - [Linked Issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2824)
+  - [Fulfillment Platform Group / CustomerDot](/handbook/product/categories/#fulfillment-platform-group) - [Linked Issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2739)
+  - [Runner Group](/handbook/product/categories/#runner-group) - [Linked Issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2740)
+  - [Product Analytics Group](/handbook/product/categories/#product-analytics-group) - [Linked Issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2824)
 - Redis
 - Sidekiq
 - Participation in SRE on-call rotation
@@ -55,7 +55,7 @@ Refer to [Scalability Group's Project Management Section](/handbook/engineering/
 
 ### Issue management
 
-Our work is collaborative across teams and we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues). We work from our main epic: [Scaling GitLab’s SaaS Platforms.](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148)
+Our work is collaborative across teams and we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues). We work from our main epic: [Scaling GitLab's SaaS Platforms.](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148)
 
 #### Labels
 
@@ -87,5 +87,5 @@ The specific Scalability::Practices boards are:
 
 The [specific counterparts arrangements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1203) can request for SRE support through the following steps:
 
-  - Create an issue using the [counterpart issue template](https://gitlab.com/gitlab-com/gl-infra/scalability/-/blob/master/.gitlab/issue_templates/Counterpart%20Arrangement.md) in the [Scalability tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues). The title of the issue should be a descriptive goal of the engagement.
-  - Follow the checklist in the template.
+- Create an issue using the [counterpart issue template](https://gitlab.com/gitlab-com/gl-infra/scalability/-/blob/master/.gitlab/issue_templates/Counterpart%20Arrangement.md) in the [Scalability tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues). The title of the issue should be a descriptive goal of the engagement.
+- Follow the checklist in the template.

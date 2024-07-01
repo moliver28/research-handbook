@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations workflow: Team Budgets"
 ---
-
-
-
-
-
-
 
 ## <i class="fas fa-receipt" id="biz-tech-icons"></i> Team Budgets
 
@@ -55,7 +48,7 @@ All invoices require a PO number, so vendors must be given the appropriate PO nu
 
 Here are the PO numbers that belong to our team so far:
 
- * EDU/OSS: `PO #40`
+* EDU/OSS: `PO #40`
 
 **When filing a procurement issue, you may also be asked for an Allocadia ID number.** To get this ID, ask someone with Allocadia access to fill out the details in the line item. Once this is done, an ID will be populate in the top left hand corner of the details panel, where it says `Line Item ID`.
 

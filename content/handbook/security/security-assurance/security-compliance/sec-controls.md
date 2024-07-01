@@ -18,7 +18,7 @@ graph TD;
     ISO_Requirement1-->Team2;
 ```
 
-Given our [efficiency value]({{< ref "values#efficiency" >}}) here at GitLab we wanted to create a set of security controls that would address multiple underlying requirements with a single security control which would allow us to make fewer requests of our internal teams and efficiently collect all evidence we would need for a variety of audits at once. This approach can be visualized as follows:
+Given our [efficiency value](/handbook/values/#efficiency) here at GitLab we wanted to create a set of security controls that would address multiple underlying requirements with a single security control which would allow us to make fewer requests of our internal teams and efficiently collect all evidence we would need for a variety of audits at once. This approach can be visualized as follows:
 
 ```mermaid
 graph TD;

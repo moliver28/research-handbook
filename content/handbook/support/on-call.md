@@ -174,11 +174,11 @@ Before your shift ends, consider what tasks need to be handed over and make sure
 This may mean [engaging the next On-call Support Engineer](#engaging-the-next-on-call-support-engineer) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations
 you have handled that have some follow-up action. For example:
 
-   - if you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
-     - once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
-   - if a SaaS customer paged in looking for log analysis and we're waiting on the SIRT team, let the incoming on-call know and consider having them send a message in the ticket informing the customer of the handover
-   - if a customer is still in a heightened state and is monitoring after an outage and *may* page the on-call engineer, let the incoming on-call know
-   - if a SaaS incident ended and we're monitoring the queues for new customer reports, provide the incoming on-call engineer with a list of actions they should take
+- if you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
+  - once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
+- if a SaaS customer paged in looking for log analysis and we're waiting on the SIRT team, let the incoming on-call know and consider having them send a message in the ticket informing the customer of the handover
+- if a customer is still in a heightened state and is monitoring after an outage and *may* page the on-call engineer, let the incoming on-call know
+- if a SaaS incident ended and we're monitoring the queues for new customer reports, provide the incoming on-call engineer with a list of actions they should take
 
 Generally: if there's a situation that occurred (or is actively happening) during your shift it's your responsibility to prepare the next on-call engineers.
 
@@ -201,16 +201,14 @@ To see who the *current* Support Engineer on-call is, you can:
 - Log in to PagerDuty to view the [Customer Support](https://gitlab.pagerduty.com/service-directory/PL3TX00) service
 - View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
 
-To see who the *upcoming* Support Engineer on-call is, you can:
+To see who the *upcoming* Support Engineer on-call is, you can view the individual on-call schedules for:
 
-- View the individual on-call schedules for
-    - [Customer Emergencies - APAC Group 1](https://gitlab.pagerduty.com/schedules/PQB9Q6K)
-    - [Customer Emergencies - APAC Group 2](https://gitlab.pagerduty.com/schedules/PKPXM8K)
-    - [Customer Emergencies - EMEA](https://gitlab.pagerduty.com/schedules/P9SV029)
-    - [Customer Emergencies - AMER Group 1](https://gitlab.pagerduty.com/schedules/PBLAHV7)
-    - [Customer Emergencies - AMER Group 2](https://gitlab.pagerduty.com/schedules/P9FKYZC)
-    - [Customer Emergencies - AMER Group 3](https://gitlab.pagerduty.com/schedules/PP28N7L)
-- View the internal [Oncall Schedules](https://gitlab-com.gitlab.io/support/team/oncall.html) page
+- [Customer Emergencies - APAC Group 1](https://gitlab.pagerduty.com/schedules/PQB9Q6K)
+- [Customer Emergencies - APAC Group 2](https://gitlab.pagerduty.com/schedules/PKPXM8K)
+- [Customer Emergencies - EMEA](https://gitlab.pagerduty.com/schedules/P9SV029)
+- [Customer Emergencies - AMER Group 1](https://gitlab.pagerduty.com/schedules/PBLAHV7)
+- [Customer Emergencies - AMER Group 2](https://gitlab.pagerduty.com/schedules/P9FKYZC)
+- [Customer Emergencies - AMER Group 3](https://gitlab.pagerduty.com/schedules/PP28N7L)
 
 When in doubt, you can always ask in `#support_leadership`.
 
@@ -222,13 +220,11 @@ To see who the *current* manager on-call is, you can:
 - Log in to PagerDuty to view the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
 - View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
 
-To see who the *upcoming* manager on-call is, you can:
+To see who the *upcoming* manager on-call is, you can view the individual on-call schedules for:
 
-- View the individual on-call schedules for
-    - [Support Manager - APAC](https://gitlab.pagerduty.com/schedules/PWBXTYX)
-    - [Support Manager - EMEA](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
-    - [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
-- View the internal [Oncall Schedules](https://gitlab-com.gitlab.io/support/team/oncall.html) page
+- [Support Manager - APAC](https://gitlab.pagerduty.com/schedules/PWBXTYX)
+- [Support Manager - EMEA](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
+- [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
 
 When in doubt, you can always ask in `#support_leadership`.
 

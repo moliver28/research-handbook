@@ -3,7 +3,6 @@ title: Value Stream Discovery
 aliases: /handbook/solutions-architects/sa-practices/value-stream-assessments
 ---
 
-
 When working with GitLab, many prospects and customers have software delivery performance improvements as critical business outcomes. Unfortunately, due to the inherent and increasing complexity in the software delivery process, an organization's software delivery value streams often consist of dozens, if not hundreds, of manual configuration touch points and handoffs. Typically, there is a lack of visibility and understanding into the current process, making it challenging to identify and measure software delivery improvements. Without understanding the current software development value streams, organizations risk putting time, effort, and money into areas that will not improve their software delivery capability in any meaningful way.
 
 GitLab account teams should offer to assist prospects and customers in helping to provide an overview and understanding of their value stream(s).
@@ -74,13 +73,13 @@ Running a Value Stream Workshop requires a non-trivial investment of time by bot
 Key indicators that the opportunity is well-suited include:
 
 * There is a specific initiative to accomplish one or more of the following by a specific date
-    * Improve developer experience and efficiency
-    * Transform or objectively improve their ability to deliver software
-    * Modernize their DevOps capabilities
-    * Security their software supply chain
-    * Modernize a specific application or applications
-    * Deliver a new critical application to the market
-    * Migration to the cloud
+  * Improve developer experience and efficiency
+  * Transform or objectively improve their ability to deliver software
+  * Modernize their DevOps capabilities
+  * Security their software supply chain
+  * Modernize a specific application or applications
+  * Deliver a new critical application to the market
+  * Migration to the cloud
 * The customer is currently using some features of GitLab and is interested in how leveraging more of the platform will drive software delivery outcomes
 * For customer success, a value stream workshop should help uncover opportunities to expand into new use cases or improve current adoption by identifying bottlenecks in the current software delivery value stream
 * An existing customer shows interest in adopting our value stream analytics feature to drive software delivery performance
@@ -96,11 +95,11 @@ _While a Value Stream Workshop is an advanced discovery session, it's expected t
 #### Key Benefits
 
 * Discovery and documentation of the software delivery value stream or "path to production" currently in place
-    * Establish an agreed upon baseline from which to measure the progress of software delivery performance
-    * Identify manual configuration touchpoints and handoffs and other value stream bottlenecks
-    * Create a process improvement roadmap
-    * Understand the return on investment of a value delivery platform
-    * Promote collaboration amongst traditionally siloed functions within the DevSecOps lifecycle
+  * Establish an agreed upon baseline from which to measure the progress of software delivery performance
+  * Identify manual configuration touchpoints and handoffs and other value stream bottlenecks
+  * Create a process improvement roadmap
+  * Understand the return on investment of a value delivery platform
+  * Promote collaboration amongst traditionally siloed functions within the DevSecOps lifecycle
 
 After the prospect or customer understands the process and its benefits, confirm commitment from the stakeholders and workshop participants by scheduling the facilitated workshop and/or interviews. Estimate the duration of the discovery session and set the expectation that the documented value stream, recommendations, and readout will be delivered.
 
@@ -164,8 +163,8 @@ It is recommended that when planning a Value Stream Workshop, a [Value Stream Tr
 * What is the demand rate? (The volume of incoming work per day, week, month, etc. relating to this value stream)
 * (Optionally) Which team, project, feature, etc. is being mapped?
 * Define boundaries and limitations
-    * When looking at desired future state, it is very likely there will be certain limitations that the team needs to operate within (financial, systems, customer, organisational, physical, etc)
-    * This is critical to avoid creating an unrealistic desired future state, or one that's simply not achievable in the defined time frame
+  * When looking at desired future state, it is very likely there will be certain limitations that the team needs to operate within (financial, systems, customer, organisational, physical, etc)
+  * This is critical to avoid creating an unrealistic desired future state, or one that's simply not achievable in the defined time frame
 * Define the time frame (How quickly do they need to realise the future state?)
 
 Without the answers to these questions we risk spending significant time and energy trying to understand each possible variation and often will end up with metrics that are hard to define (the "it depends" trap). As such, it's critically important that these definitions are confirmed and agreed upon prior to the workshop (generally as part of the planning meeting).
@@ -212,16 +211,16 @@ The process which we will go through, at a high level, is as follows  (per funct
 #### Tools
 
 * Remote:
-    * [Google Sheets - Value Stream Mapping Template](https://docs.google.com/spreadsheets/d/1ioMIf_wV95mGUwjHezjT3zOTkEeG_gEnKanVS4hJB0k/edit?usp=sharing)
-    * Zoom, MS Teams, or Google Meet
-    * LucidChart for Value Stream Map visulization
-      * LucidChart is an IT-managed application. If you are unsure if you have LucidChart access, go to the Okta interface in your browser, then select "Search Your Apps" and see if `LucidChart SSO` is available. If yes, LucidChart has been assigned to you and you can launch it from Okta and collaborate on any LucidChart Documents your team has shared with you. If no, then `LucidChart SSO` has not been assigned to you yet.
-      * If you do not have `LucidChart SSO` assigned to you in Okta, please navigate to the ["access-requests" Project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and submit an Issue requesting "Lucid Chart". Assign the Issue to your Manager and add the `IT::to do` label. An example Access Request Issue may be found [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/19341).
-      * If your Access Request is urgent, paste the link to your Access Request Issue into the #it_help Slack channel and @ mention `it-help` with a note on why it is urgent.
+  * [Google Sheets - Value Stream Mapping Template](https://docs.google.com/spreadsheets/d/1ioMIf_wV95mGUwjHezjT3zOTkEeG_gEnKanVS4hJB0k/edit?usp=sharing)
+  * Zoom, MS Teams, or Google Meet
+  * LucidChart for Value Stream Map visulization
+    * LucidChart is an IT-managed application. If you are unsure if you have LucidChart access, go to the Okta interface in your browser, then select "Search Your Apps" and see if `LucidChart SSO` is available. If yes, LucidChart has been assigned to you and you can launch it from Okta and collaborate on any LucidChart Documents your team has shared with you. If no, then `LucidChart SSO` has not been assigned to you yet.
+    * If you do not have `LucidChart SSO` assigned to you in Okta, please navigate to the ["access-requests" Project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and submit an Issue requesting "Lucid Chart". Assign the Issue to your Manager and add the `IT::to do` label. An example Access Request Issue may be found [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/19341).
+    * If your Access Request is urgent, paste the link to your Access Request Issue into the #it_help Slack channel and @ mention `it-help` with a note on why it is urgent.
 * Onsite:
-    * Stickies
-    * Pens
-    * Large whiteboard
+  * Stickies
+  * Pens
+  * Large whiteboard
 
 #### Example Workflows
 
@@ -301,7 +300,7 @@ The Account Leader (AE) is responsible for maintaining the Salesforce opportunit
   * **Positive** - The prospect/customer was highly receptive to our recommendations and we have progressive next steps.
   * **Neutral** - The prospect/customer was receptive but we do not have clear next steps.
   * **Negative** - The prospect/customer was not receptive to our recommendation.
-* **VSW URL** - The URL to the the google drive folder containing the readout presentation and any other VSW artifacts.
+* **VSW URL** - The URL to the google drive folder containing the readout presentation and any other VSW artifacts.
 * **VSW Start Date Net ARR** - (Auto populated field) The opportunity Net ARR when the VSW start date is populated.
 
 Solutions Architects should leverage the following [SA Actiity Types](/handbook/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop) when [loggin activity](/handbook/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop)

@@ -108,8 +108,8 @@ When you have to use office applications, always use [G Suite applications](http
 ### Communicating with the Team
 
 - The Sales team primarily communicates via Slack in our day-to-day work. Our main team channels are **#sales**, our general channel, and **#field-fyi**, our read-only channel for official field team announcements.
-   - Email is used in some segments where customer privacy dictates additional security measures.
-   - For a full breakdown of all Field Slack groups and the hierarchy of our Google Groups, see the [Communicating with the Field Handbook page](/handbook/sales/sales-google-groups/).
+  - Email is used in some segments where customer privacy dictates additional security measures.
+  - For a full breakdown of all Field Slack groups and the hierarchy of our Google Groups, see the [Communicating with the Field Handbook page](/handbook/sales/sales-google-groups/).
 - Please reference the [Sales Support and Sales Operation Handbook page](/handbook/sales/field-operations/sales-operations) for a summary of how to engage with deal desk resources.
 - Chatter @contracts on the specific record in Salesforce where you will need assistance from the legal team.
 
@@ -133,7 +133,7 @@ The Inside Sales department is part of the GitLab Sales function and partners wi
 
 #### Channels & Alliances
 
-These teams help accelerate GitLab’s trajectory by connecting our business and customers to companies that can help compliment our product mission and/or drive customer adoption and usage of the GitLab platform. See our [Channel](/handbook/sales/channel/) and [Alliances](/handbook/alliances/) Handbook pages for more details.
+These teams help accelerate GitLab's trajectory by connecting our business and customers to companies that can help compliment our product mission and/or drive customer adoption and usage of the GitLab platform. See our [Channel](/handbook/sales/channel/) and [Alliances](/handbook/alliances/) Handbook pages for more details.
 
 #### Sales Development Organization
 

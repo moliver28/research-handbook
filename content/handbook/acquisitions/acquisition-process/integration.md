@@ -1,13 +1,6 @@
 ---
-
 title: "Acquisition Integration"
 ---
-
-
-
-
-
-
 
 This is a detailed view of our acquisition integration process. For more information about
 our acquisitions approach visit our [acquisitions process](/handbook/acquisitions/acquisition-process/).
@@ -79,9 +72,9 @@ Examples of areas and tasks, some of which are determined by deal structure and 
 To facilitate an effective, efficient and positive onboarding for the team, a fastboot should be planned within the first month of the team's onboarding to GitLab:
 
 - Purpose:
-   - Build a social connection between both teams
-   - Align both respective teams on the technologies in place, both from GitLab as well as the target
-   - Fully develop the work plan for the integration
+  - Build a social connection between both teams
+  - Align both respective teams on the technologies in place, both from GitLab as well as the target
+  - Fully develop the work plan for the integration
 - Budget: will need to be structured as part of the acquisition process prior to the Closing of the deal
 - Format for the fastboot can be found [here](https://docs.google.com/document/d/1UGvusCqAuAMp8rmjf3seDys4yxr-g2vTfvVrGV9F0fA/edit) (GitLab internal-access only)
 

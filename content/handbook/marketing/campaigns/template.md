@@ -1,15 +1,8 @@
 ---
-
 title: "[NAME] Campaign"
 description: "Everything you need to know about the [NAME] campaign."
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
-
-
-
-
-
-
 
 ## Campaign Overview
 
@@ -99,7 +92,7 @@ Always On Lead Generation:
 
 {: .alert #research-prep .alert-gitlab-orange}
 
-#### Campaign Execution Documentation & Resources
+### Campaign Execution Documentation & Resources
 
 {: #campaign-execution .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->

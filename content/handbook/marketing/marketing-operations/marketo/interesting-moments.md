@@ -1,14 +1,7 @@
 ---
-
 title: "Marketo Interesting Moments"
 description: "Commonly used Interesting Moments and what they mean"
 ---
-
-
-
-
-
-
 
 ## Overview
 

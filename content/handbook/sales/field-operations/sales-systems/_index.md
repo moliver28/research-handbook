@@ -1,13 +1,7 @@
 ---
-
 title: "Sales Systems"
 description: "This page in an overview of all things related to the Sales Systems team at GitLab. It includes an overview of who we are, how we work, how to work with us as well as references to key sales systems technical documentation and system configuration."
 ---
-
-
-
-
-
 
 ## Sales Systems Charter
 
@@ -42,8 +36,8 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 - The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [GitLab provides](https://about.gitlab.com/solutions/agile-delivery/)
 - The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
-   - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
-   - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
+  - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
+  - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
 
 ### Steps to getting help from Sales Systems
 
@@ -67,7 +61,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 4. Please review the status of any issue on our agile [board.](https://gitlab.com/groups/gitlab-com/-/boards/1117318?label_name[]=SalesSystems)
 5. If there is a severity impacting the flow of business (i.e. No one can make a quote, No accounts are being created, Opportunities cannot be closed Won) follow the process as described above as well as share the issues in the `Sales-Support` Slack Channel
 
-## Sales Systems Issue Deployment & Compliance Steps
+### Sales Systems Issue Deployment & Compliance Steps
 
  In order to deploy & close an issue the checklist below has to be signed off :
 
@@ -83,7 +77,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 | Team / Lane                 | Main Approver                                                | Backup Approver                                                 |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Quote To Cash               | Director, Quote to Cash                     | Senior Director, Sales Operations                |
+| Quote To Cash               | Director, Quote to Cash                     | Senior Director, Sales Strategy & Analytics                |
 | Territory Management        | Director, Sales Operations                  | Senior Director, Sales Operations                |
 | Partner Operations          | Sales Operations                            | Sales Operations                                 |
 | Customer Success Operations | Senior Director, CS Strategy & Operations   | VP of Field Operations                           |
@@ -127,7 +121,7 @@ Changes to Salesforce.com come in a variety of formats but all of them will feat
 1. All changes will start with an GitLab Issue defining the ask or problem, and capturing additional decisions and business requirements.
 1. All changes will be developed and tested in a Salesforce Sandbox environment before being deployed or replicated in production.
 1. All changes will be require Business DRI (the requestor) to sign off on the related GitLab Issue once ready and determine a deploy window.
-1. All changes will be be reviewed by the Business DRI once deployed or replicated in production.
+1. All changes will be reviewed by the Business DRI once deployed or replicated in production.
 
 We have defined the following ending Label stages for the Sales Systems workflow. Please see the label name as well as SDLC expectations:
 
@@ -137,7 +131,7 @@ Label: `SalesSystems::Deployed - 0 - No Changes`
 Description: This issue is completed. There was no setting, configuration or code change to SFDC. No Sign-off Needed, No Change Set Used.
 
 1. These issues resulted in no Setting, Configuration or Code changes to SFDC.
-1. The most most common use case are question or research issues.
+1. The most common use case are question or research issues.
 1. Data changes as part of a backfill for another operations team fall into this category.
 
 ### Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments)
@@ -322,8 +316,8 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 #### Data Upload Training & Setup
 
 - Prior to being permitted to utilize the Data Loader all users must review the [Data Loader Documentation provided by Salesforce](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/data_loader.htm)
-   - Key Highlights:
-      - [Data Loader Configuration](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/configuring_the_data_loader.htm) especially as it pertains to batch size and to working with Null values. This should be reviewed and confirmed prioir to every Data Upload
+  - Key Highlights:
+    - [Data Loader Configuration](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/configuring_the_data_loader.htm) especially as it pertains to batch size and to working with Null values. This should be reviewed and confirmed prioir to every Data Upload
 - To install, uninstall, or upgrade Dataloader, [follow our instructions](dataloader-installation.html)
 
 ### SFDC Development Guidelines
@@ -492,12 +486,12 @@ The pipeline performs the following action:
 - This validation deployment will compile all ApexClass, ApexTrigger, ApexComponent, and ApexPage objects found in the new commit source branch.
 - If the compile succeeds, all unit tests in the SANDBOX org will be executed to confirm all unit tests are passing.
 - If the compile or unit tests fails, the pipeline will spit out the errors as individual line items in the output of the job.
-    - The MR will then be blocked from merging.
+  - The MR will then be blocked from merging.
 - If the compile succeeds and unit tests pass, the MR will be cleared for merging after code review is complete.
-    - The pipeline will also allow for the user to trigger a deployment of the source code to the STAGING environment.
-    - This is a manual process for now (see [What's next?](#whats-next)) and will be triggered by the person who is merging the MR once the merge has completed.
-        - The team decided to leave this step manual so that we have flexibility on deployments in case multiple MRs were being merged simultaneously.
-        - In this scenario, we will only deploy the last MR as it will have the final complete 'master' branch will all previous MRs merged.
+  - The pipeline will also allow for the user to trigger a deployment of the source code to the STAGING environment.
+  - This is a manual process for now (see [What's next?](#whats-next)) and will be triggered by the person who is merging the MR once the merge has completed.
+    - The team decided to leave this step manual so that we have flexibility on deployments in case multiple MRs were being merged simultaneously.
+    - In this scenario, we will only deploy the last MR as it will have the final complete 'master' branch will all previous MRs merged.
 
 ### Benefits of the pipeline
 

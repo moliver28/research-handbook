@@ -134,7 +134,7 @@ The Manager, Accounts Payable is a [grade 8](/handbook/total-rewards/compensatio
 
 ### Senior Manager, Accounts Payable
 
-The Senior Manager, Accounts Payable reports to the [Senior Director, Corporate Controller](<https://about.gitlab.com/job-families/finance/corporate-controller/>.
+The Senior Manager, Accounts Payable reports to the [Senior Director, Corporate Controller](/job-families/finance/corporate-controller/).
 
 #### Job Grade
 

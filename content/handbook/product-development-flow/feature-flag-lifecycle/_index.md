@@ -1,14 +1,6 @@
 ---
-
 title: "Feature flags in development of GitLab"
 ---
-
-
-
-
-
-
-
 
 **NOTE**:
 The content below covers feature flags used by GitLab to deploy its own features, which **is not** the same
@@ -200,7 +192,7 @@ For information about how the user will interact with features behind flags, see
 1. Finalize the rollout plan:
    1. Following the [rollout guidelines](https://docs.gitlab.com/ee/development/feature_flags/controls.html#rolling-out-changes) determine a plan for rolling out your feature flag.
 1. Begin rollout plan:
-   1. Rollout plans vary flag to flag, take the steps you’ve outlined in your [feature flag rollout issue](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md).
+   1. Rollout plans vary flag to flag, take the steps you've outlined in your [feature flag rollout issue](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md).
 1. Removing the flag, cleaning up, and feature announcement:
    1. Follow the [feature flag clean up process](https://docs.gitlab.com/ee/development/feature_flags/controls.html#cleaning-up).
    1. Ensure that the [feature flag documentation process](https://docs.gitlab.com/ee/development/documentation/feature_flags.html) has been followed.

@@ -134,7 +134,7 @@ Thank you!
 
 ##### Recovering events incorrectly marked as "bad"
 
-Events can be incorrectly marked as "bad" because of accidentally incorrect events being emitted. This is most likely to to happen after an event schema update
+Events can be incorrectly marked as "bad" because of accidentally incorrect events being emitted. This is most likely to happen after an event schema update
 like in this [example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17782) where new properties were added to contexts.
 Such events can be recovered by reprocessing them.
 

@@ -1,12 +1,9 @@
 ---
-
 title: Feedback and Complaints
 category: Handling tickets
 subcategory: Writing responses and handling feedback
 description: "Support Engineering workflow for receiving and responding to customer feedback"
 ---
-
-
 
 ### Overview
 
@@ -46,21 +43,19 @@ Sometimes a customer may provide feedback via the ticket directly, or they may p
 this feedback is captured, please create an issue in the Customer Feedback
 project using the
 [Indirect Feedback template](https://gitlab.com/gitlab-com/support/feedback/-/issues/new?issuable_template=Indirect%20Feedback)
-and copy the feedback into the new issue. The
-[SSAT Reviewing Manager](https://gitlab.pagerduty.com/schedules#P9UIIDY)
-will be assigned to the issue and they will review the feedback and take
-appropriate action.
+and copy the feedback into the new issue. Assign the issue to the manager of the assignee 
+and they will review the feedback and take appropriate action.
 
 In the meantime, you should continue to assist the customer with their queries
 and address their feedback if appropriate. If you are unsure on how to proceed,
-pleaes ask for help in the
+please ask for help in the
 [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) Slack channel.
 
 ### Venting
 
 There may be cases where a customer will simply be unsatisfied with all available solutions and/or steps taken to solve problems they are facing or have faced. De-escalate the situation the best you can - apologize as necessary, offer solutions or alternatives that may work. Most importantly, in this situation, allow the customer to vent and assure that their feedback is taken very seriously. In some cases, you may want to CC a manager, especially [if you feel threatened or harassed](/handbook/support/engineering/#what-if-i-feel-threatened-or-harassed-while-handling-a-support-request).
 
-It is important to note that apologies should be sincere - this includes not apologizing when not necessary. Phrases like "I'm sorry that you're having trouble..." can sound ingenuine and "script like". Apologies can also be seen as an admission of guilt, which should not happen when a problem is not the fault of GitLab (such as when a feature works as intended but not the way customer wants).
+It is important to note that apologies should be sincere - this includes not apologizing when not necessary. Phrases like "I'm sorry that you're having trouble..." can sound disingenuous and "script like". Apologies can also be seen as an admission of guilt, which should not happen when a problem is not the fault of GitLab (such as when a feature works as intended but not the way customer wants).
 
 ### Product Feedback
 

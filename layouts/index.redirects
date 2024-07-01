@@ -56,7 +56,7 @@
 /handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat 301
 /handbook/customer-success/solutions-architects/ /handbook/solutions-architects/ 301
 
-# Domain level redirects
+# Domain level redirects - remove 2025-05-01
 /handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
 /handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
 

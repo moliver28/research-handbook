@@ -38,7 +38,7 @@ The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewa
 - Excellent negotiation, presentation and closing skills
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- Ability to travel regularly to meet with customers in person and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel regularly to meet with customers in person and comply with the company's [travel policy](/handbook/travel/)
 
 ## Commercial Account Executive - Named
 
@@ -73,7 +73,7 @@ The Commercial Account Executive- Named is a [grade 7](/handbook/total-rewards/c
 - Excellent negotiation, presentation and closing skills
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Performance Indicators
 

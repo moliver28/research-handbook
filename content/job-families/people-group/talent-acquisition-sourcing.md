@@ -194,7 +194,7 @@ The Manager, Sourcing is a [grade 8](/handbook/total-rewards/compensation/compen
 - Develop creative and scalable changes to how we match candidates to roles across the organization
 - Identify and nurture  new inbound applicant channels
 - Advise applicants on alternative roles that would be a match for their experience and interest
-- Partner with recruiters and hiring managers to develop a firm understanding of the the assigned roles
+- Partner with recruiters and hiring managers to develop a firm understanding of the assigned roles
 
 #### Associate Sourcer (Inbound) Requirements
 

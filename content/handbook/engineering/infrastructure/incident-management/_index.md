@@ -1,5 +1,4 @@
 ---
-
 title: Incident Management
 ---
 
@@ -106,6 +105,17 @@ The Incident Manager is the DRI for all of the items listed above, but it is exp
 The IM won't be engaged on these tasks unless they are paged, which is why the default is to page them for all Sev1 and Sev2 incidents.
 In other situations, to engage the Incident Manager run `/pd trigger` and choose the `GitLab Production - Incident Manager` as the impacted service.
 
+#### Incident Manager Coordinator
+
+1. Around the 1st Tuesday of each month:
+   - The coordinator will review any open `~IM-Onboarding::Ready` and `~IM-Offboarding` issues on the [IM onboarding/offboarding board](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/5078854?label_name%5B%5D=IM) and add these team members to the schedule.
+   - The schedule is updated by creating an MR that updates [im_locals.tf](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/pagerduty/im_locals.tf?ref_type=heads).
+     A single MR is created for all users that need updating. They will be assigned to the appropriate shift and the `start_date` will be set to the beginning of the second full month after the current day.
+     For example, if the current day is Jan 5, the `start_date` will be make to go into effect during the first week of March.
+1. An announcement will be posted in [`#imoc_general`](https://gitlab.slack.com/archives/C01NY82EJF6) indicating that the schedule has been modified with a link to the MR and a brief overview of who was added or removed.
+1. All issues on the [IM onboarding/offboarding board](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/5078854?label_name%5B%5D=IM) need to be reviewed once a month for overdue due dates.
+   If any issues are overdue, the coordinator will need to check in with the author to see if they need more time or support to finish their on-boarding.
+
 #### Engineer on Call (EOC) Responsibilities
 
 The Engineer On Call is responsible for the mitigation of impact and resolution to the incident that was declared.
@@ -137,7 +147,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
     1. If the EOC believes the alert is incorrect, comment on the thread in `#production`. If the alert is flappy, create an issue and post a link in the thread. This issue might end up being a part of RCA or end up requiring a change in the alert rule.
 1. _Be inquisitive_. _Be vigilant_. If you notice that something doesn't seem right, investigate further.
 1. The EOC should not consider immediate work on an incident completed until the top description section in the Incident Issue (above the "Incident Review" section) is filled out with useful information to describe all the key aspects of the Incident.
-1. After the incident is resolved, the EOC should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity. If it has a `~review-requested` label, the EOC should start on performing an [incident review](/handbook/engineering/infrastructure/incident-review/), in some cases this may be be a synchronous review meeting or an async review depending on what is requested by those involved with the incident.
+1. After the incident is resolved, the EOC should review the comments and ensure that the [corrective actions](#corrective-actions) are added to the issue description, regardless of the incident severity. If it has a `~review-requested` label, the EOC should start on performing an [incident review](/handbook/engineering/infrastructure/incident-review/), in some cases this may be a synchronous review meeting or an async review depending on what is requested by those involved with the incident.
 
 ##### Incident Mitigation Methods - EOC/Incident Manager
 
@@ -175,6 +185,21 @@ EOCs are responsible for responding to alerts even on the weekends.  Time should
 
 If a `~severity::3` and `~severity::4` occurs multiple times and requires weekend work, the multiple incidents should be combined into a single `severity::2` incident.
 If assistance is needed to determine severity, EOCs and Incident Managers are encouraged to contact [Reliability Leadership via PagerDuty](https://gitlab.pagerduty.com/schedules#P12EH0Z)
+
+#### Incident Manager Escalation
+
+A page will be escalated to the Incident Manager (IM) if it is not answered by the Engineer on Call (EOC).
+This escalation will happen for all alerts that go through PagerDuty, which includes lower severity alerts.
+It's possible that this can happen when there is a large number of pages and the EOC is unable to focus on acknowledging pages.
+When this occurs, the IM should reach out in Slack in the `#incident-management` channel to see if the EOC needs assistance.
+
+Example:
+
+```plaintext
+@sre-oncall, I just received an escalation. Are you available to look into LINK_TO_PAGERDUTY_INCIDENT, or do you need some assistance?
+```
+
+If the EOC does not respond because they are unavailable, you should escalate the incident using the PagerDuty application, which will alert Infrastructure Engineering leadership.
 
 #### Infrastructure Leadership Escalation
 
@@ -273,11 +298,11 @@ Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab
 - Assign the label for the associated affected service if applicable.
 - Provide enough context so that any engineer in the Corrective Action issue's project could pick up the issue and know how to move forward with it.
 - Avoid creating Corrective Actions that:
-    - Are too generic (most typical mistake, as opposed to Specific)
-    - Only fix incident symptoms.
-    - Introduce more human error.
-    - Will not help to keep the incident from happening again.
-    - Can not be promptly implemented (time-bounded).
+  - Are too generic (most typical mistake, as opposed to Specific)
+  - Only fix incident symptoms.
+  - Introduce more human error.
+  - Will not help to keep the incident from happening again.
+  - Can not be promptly implemented (time-bounded).
 - Examples: (taken from several best-practices Postmortem pages)
 
 | Badly worded | Better |
@@ -404,7 +429,7 @@ This flow is determined by:
 1. its intended audience,
 1. and timing sensitivity.
 
-Furthermore, avoiding information overload is necessary to keep every stakeholder’s focus.
+Furthermore, avoiding information overload is necessary to keep every stakeholder's focus.
 
 To that end, we will have:
 
@@ -632,7 +657,7 @@ These labels are added to incident issues as a mechanism to add metadata for the
 | `~incident-type::automated traffic` | The incident occurred due to activity from security scanners, crawlers, or other automated traffic |
 | `~backstage` | Indicates that the incident is internally facing, rather than having a direct impact on customers. Examples include issues with monitoring, backups, failing tests, self-managed release or general deploy pipeline problems. |
 | `~group::*` | Any development group(s) related to this incident |
-| `~review-requested` | Indicates that that the incident would benefit from undergoing additional review. All S1 incidents are required to have a review. Additionally, anyone including the EOC can request an incident review on any severity issue. Although the review will help to derive [corrective actions](#corrective-actions), it is expected that corrective actions are filled whether or not a review is requested. If an incident does not have any corrective actions, this is probably a good reason to request a review for additional discussion. |
+| `~review-requested` | Indicates that the incident would benefit from undergoing additional review. All S1 incidents are required to have a review. Additionally, anyone including the EOC can request an incident review on any severity issue. Although the review will help to derive [corrective actions](#corrective-actions), it is expected that corrective actions are filled whether or not a review is requested. If an incident does not have any corrective actions, this is probably a good reason to request a review for additional discussion. |
 | `~Incident-Comms::*` | Scoped label indicating the level of communications. |
 | `~blocks deployments` | Indicates that if the incident is active, it will be a blocker for deployments. This is automatically applied to `~severity::1` and `~severity::2` incidents. The EOC or Release Manager can remove this label if it is safe to deploy while the incident is active. A comment must accompany the removal stating the safety or reasoning that enables deployments to continue. This label may also be applied to lower severity incidents if needed. |
 | `~blocks feature-flags` | Indicates that while the incident is active, it will be a blocker for changes to feature flags. This is automatically applied to `~severity::1` and `~severity::2` incidents. The EOC or Release Manager can remove this label if there is no risk in making feature flag changes while the incident is active. A comment must accompany the removal stating the safety or reasoning that enables feature flag changes to continue. This label may also be applied to lower severity incidents if needed. |
@@ -649,7 +674,7 @@ In the case where we mark an incident as a duplicate, we should issue the follow
 
 ### Related Issues
 
-There are [related issue links] on the incident template that should be used to create related issues from an incident.
+There are [related issue links](https://gitlab.com/gitlab-com/gl-infra/production/-/blob/5343440ac4ef41fa5a27053a6938480d229bee3e/.gitlab/issue_templates/incident.md#create-related-issues) on the incident template that should be used to create related issues from an incident.
 
 - Corrective action: Creates a new corrective action in the reliability tracker.
 - Investigation followup: Investigation follow-ups for any root cause investigation, analysis or tracking an alert silence that will be done after the incident is resolved
@@ -677,7 +702,7 @@ There are [related issue links] on the incident template that should be used to 
 ### Alert Silences
 
 If an [alert silence](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/monitoring/alerts_manual.md#silencing) is created for an active incident, the incident should be resolved with the `~"alertmanager-silence"` label and the appropriate root cause label if it is known.
-There should also be a linked ~infradev issue for the long term solution or an investigation issue created using the [related issue links] on the incident template.
+There should also be a linked ~infradev issue for the long term solution or an investigation issue created using the [related issue links](https://gitlab.com/gitlab-com/gl-infra/production/-/blob/5343440ac4ef41fa5a27053a6938480d229bee3e/.gitlab/issue_templates/incident.md#create-related-issues) on the incident template.
 
 ### Incident Board
 
@@ -706,5 +731,3 @@ When a near miss occurs, we should treat it in a similar manner to a normal inci
 1. Open an [incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) issue, if one is not already opened. Label it with the severity label appropriate to the incident it would have caused, had the incident actually occurred. Label the incident issue with the `~Near Miss` label.
 1. [corrective actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions) should be treated in the same way as those for an actual incident.
 1. Ownership of the incident review should be assigned to the team-member who noticed the near-miss, or, when appropriate, the team-member with the most knowledge of how the near-miss came about.
-
-[related issue links]: https://gitlab.com/gitlab-com/gl-infra/production/-/blob/5343440ac4ef41fa5a27053a6938480d229bee3e/.gitlab/issue_templates/incident.md#create-related-issues

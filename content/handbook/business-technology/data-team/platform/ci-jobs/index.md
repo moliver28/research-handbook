@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team CI Jobs"
 description: "GitLab Data Team CI Jobs"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -86,7 +77,7 @@ Run this if you want to force refresh raw, prod, and prep. This does a full clon
 
 Run this if you'd like to grant access to the copies or clones of `prep` and `prod` for your branch to your role or a role of a business partner. Specify the snowflake role (see [roles.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml)) you'd like to grant access to using the `GRANT_TO_ROLE` variable. This job grants the same `select` permissions as the given role has in `prep` and `prod` for all database objects within the clones of `prep` and `prod`. It does not create any future grants and so **all relevant objects must be built in the clone before you run this job if you want to ensure adequate object grants.**
 
-***Since grants are copied from production database permissions, these grants cannot be run on new models.*** If access is needed to new models, permission can be granted by a Data Engineer after the 🔑 `grant_clones` CI job has completed successfully. Instructions for the Data Engineer can be found in [runbooks/CI_clones](https://gitlab.com/gitlab-data/runbooks/-/tree/main/CI_clones).
+***Since grants are copied from production database permissions, these grants cannot be run on new models.*** If access is needed to new models, permission can be granted by a Data Engineer after the 🔑 `grant_clones` CI job has completed successfully. Ideally a request contains the specific (new) objects or at minimum the schema. There won't be access granted on full databases. Instructions for the Data Engineer can be found in [runbooks/CI_clones](https://gitlab.com/gitlab-data/runbooks/-/tree/main/CI_clones).
 
 **This will be fastest if the Data Engineer is provided with:**
 
@@ -112,16 +103,15 @@ Run this if you want to test a new sheetload load. This jobs runs against the cl
 This pipeline needs to be executed when doing changes to any of the below manifest files present in path `analytics/extract/postgres_pipeline/manifests`.
 
 - el_saas_customers_scd_db_manifest.yaml
-- el_saas_gitlab_com_ci_db_manifest.yaml
-- el_saas_gitlab_com_ci_scd_db_manifest.yaml
-- el_saas_gitlab_com_db_manifest.yaml
-- el_saas_gitlab_com_scd_db_manifest.yaml
+- el_gitlab_com_db_manifest.yaml
+- el_gitlab_com_scd_db_manifest.yaml
 
 This pipeline requires.
 
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
-2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_com_ci_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_com_ci`.
-3. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `bulk_import_entities` in manifest file `el_saas_gitlab_com_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
+2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_com_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_com`.
+3. Variable `DATABASE_TYPE`(Mandatory): The value of the database type(ci ,main, customers). For example if the target table for modification is from `ci` database, the variable passed will be `DATABASE_TYPE`=`ci`.
+4. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `bulk_import_entities` in manifest file `el_gitlab_com_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 #### `gitlab_ops_pgp_test`
 
@@ -136,7 +126,8 @@ This pipeline requires.
 
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
 2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_ops`.
-3. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
+3. Variable `DATABASE_TYPE`(Mandatory): The value of the database type(ops). For example if the modified table was of `ops` database, the variable passed will be `DATABASE_TYPE`=`ops`.
+4. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
 
 ### ⚙️ dbt Run
 
@@ -380,14 +371,11 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
 1. `IS_TEST_RUN`:
     - Defaults to `False`, but accepts `True`.
     - If True, will only **print** the `GRANT` sql statements, but will not run them.
-1. `USERS_TO_ADD`:
-    - Defaults to the usernames **added** to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads) within the MR.
-    - To override, pass in a string value like so `USERS_TO_ADD: username_to_add1 username_to_add2`
 1. `IS_DEV_DB`:
     - Defaults to `False`, but accepts `True`.
     - If True, will create development databases for each username in `usernames_to_add`.
 
-Note: `USERS_TO_REMOVE` argument is not available for this job because all deactivated users will be removed in Snowflake via separate airflow job.
+Note: `USERS_TO_ADD/USERS_TO_REMOVE` optional arguments are not available for this job to minimize security risks.
 </details>
 
 #### `snowflake_provisioning_roles_yaml`
@@ -439,18 +427,18 @@ Runs automatically when MR is merged or closed. Do not run manually.
 
 All the below run against the Prod DB using the changes provided in the repo. No cloning is needed to run the below.
 
-#### `🧠 all_tests_prod`
+### `🧠 all_tests_prod`
 
 Runs through all tests in the analytics & data tests repo.
 
-#### `💾 data_tests_prod`
+### `💾 data_tests_prod`
 
 Runs through all the data tests in the analytics & data tests repo's.
 
-#### `schema_tests_prod`
+### `schema_tests_prod`
 
 Runs through all the schema tests in the analytics & data tests repo's.
 
-#### `specify_tests_prod`
+### `specify_tests_prod`
 
 Runs specified model tests with the variable `DBT_MODELS`

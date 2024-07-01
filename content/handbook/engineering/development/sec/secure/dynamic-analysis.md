@@ -16,7 +16,7 @@ To support the success of GitLab by developing highly usable, hiqh quality tools
 
 - **Unify DAST offerings** - Reduce confusion by removing proxy-based DAST and maturing browser-based DAST by adding active checks and improving performance
 
-- **API Discovery** - API discovery will analyze applications to produce an OpenAPI document describing the web APIs expected behavior. This schema document is then used by API Security testing (formerly called DAST API) to perform security scans.  Automating this will close the gap for customers whose applications include web APIs that haven’t been documented and aren’t being tested today.
+- **API Discovery** - API discovery will analyze applications to produce an OpenAPI document describing the web APIs expected behavior. This schema document is then used by API Security testing (formerly called DAST API) to perform security scans.  Automating this will close the gap for customers whose applications include web APIs that haven't been documented and aren't being tested today.
 
 - **API Security Checks refresh** - Comprehensively review and update API Security Testing checks (rules).  By ensuring we address both the OWASP API Security Top 10:2023 and the OWASP Top 10:2021 (web applications), our customers will be confident in our ability to detect critical risks.
 
@@ -26,7 +26,7 @@ To support the success of GitLab by developing highly usable, hiqh quality tools
 
 The Dynamic Analysis team builds features for our API Security, DAST, and Fuzzing categories.  These features enable our Ultimate customers to incorporate security testing earlier in the development lifecycle for their web applications and APIs. By identifying vulnerabilities earlier in the SDLC, we enable customers to more efficiently reduce the security risks in their web apps and APIs.
 
-Our features identify vulnerabilities in different ways than GitLab’s other security analyzers do, and each tool should be used in tandem with other security analyzers such as SAST, SCA (dependency scanning), and secret detection to provide full coverage.
+Our features identify vulnerabilities in different ways than GitLab's other security analyzers do, and each tool should be used in tandem with other security analyzers such as SAST, SCA (dependency scanning), and secret detection to provide full coverage.
 
 API Security, DAST, and Fuzzing are Ultimate features. Increasing adoption of these features helps improve customer retention, and helps drive revenue for GitLab Ultimate.
 
@@ -50,7 +50,7 @@ API Security, DAST, and Fuzzing are Ultimate features. Increasing adoption of th
 | [GitLab Cov Fuzz](https://gitlab.com/gitlab-org/security-products/analyzers/gitlab-cov-fuzz-src) | Private - GitLab's coverage fuzzing orchestration that integrates fuzzing engines/results with GitLab CI and GitLab Security Dashboard. |
 | [HAR Recorder](https://gitlab.com/gitlab-org/security-products/har-recorder) | A utility to record HAR files based on web traffic. |
 
-##### Open Source Fuzzers
+#### Open Source Fuzzers
 
 | Repo | Purpose |
 | ---- | ------- |
@@ -220,7 +220,7 @@ To complete this mapping, product priority-based issues or epics should be creat
 After the completion of any milestone, the planning issue for that milestone is used to capture team retros in the comments. Before the next milestone planning kickoff meeting, each team member should answer the following questions in a comment on that issue:
 
 - 👍 what went well this release?
-- 👎 what didn’t go well this release?
+- 👎 what didn't go well this release?
 - 📈 what can we improve going forward?
 - 🌟 what praise do you have for the group?
 
@@ -315,7 +315,7 @@ When there are too few or no work items in the `workflow::refinement` or the `wo
 /label `~workflow::planning breakdown`
 ```
 
-If a bluepriting effort is beyond the scope of the Dyanmic Analysis group, affecting multiple teams, consider adding it as a design document using [this process](https://handbook.gitlab.com/handbook/engineering/architecture/workflow/#design-documents). A list of all architecture design documents at GitLab can be found [here](https://docs.gitlab.com/ee/architecture).
+If a bluepriting effort is beyond the scope of the Dyanmic Analysis group, affecting multiple teams, consider adding it as a design document using [this process](/handbook/engineering/architecture/workflow/#design-documents). A list of all architecture design documents at GitLab can be found [here](https://docs.gitlab.com/ee/architecture).
 
 #### Issue breakdown
 

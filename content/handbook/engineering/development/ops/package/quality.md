@@ -1,13 +1,6 @@
 ---
-
 title: Package Group - GitLab Quality Assurance End-to-End Testing for the Package group
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -53,11 +46,11 @@ In the [GitLab repository](https://gitlab.com/gitlab-org/gitlab), the End-to-End
 To test against your local GDK, first make sure:
 
 - Environment variables are correctly set
-    - `QA_DEBUG` is set to **true** so the debug logs are enabled
-    - `WEBDRIVER_HEADLESS` is set to **false** so you can see the test run in an automated browser
+  - `QA_DEBUG` is set to **true** so the debug logs are enabled
+  - `WEBDRIVER_HEADLESS` is set to **false** so you can see the test run in an automated browser
 - GDK is up and running
-    - and using a [loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#create-loopback-interface-for-gdk) to be able to use a runner in a docker container
-    - [hostname mapped to the loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#set-up-gdktest-hostname)
+  - and using a [loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#create-loopback-interface-for-gdk) to be able to use a runner in a docker container
+  - [hostname mapped to the loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#set-up-gdktest-hostname)
 
 To run the tests:
 

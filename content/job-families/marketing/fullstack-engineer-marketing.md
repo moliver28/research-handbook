@@ -88,7 +88,7 @@ The Senior Fullstack Engineer is a [grade 7](/handbook/total-rewards/compensatio
 - Advanced technical expertise and proficiency in web architecture
 - Demonstrated capacity to clearly and concisely communicate about technical, architectural, and/or organizational problems and propose solutions
 - Demonstrated ability to solve performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Proficiency working in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration) software development process
+- Proficiency working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 
 ### Staff Fullstack Engineer
 
@@ -115,7 +115,7 @@ The Senior Fullstack Engineer is a [grade 8](/handbook/total-rewards/compensatio
 - Demonstrated ability to pivot from core engineering and coding work, to stakeholder conversations to understand business requirements and needs
 - Demonstrated ability to coach team members without direct reporting responsibilities
 - Experience with diagnosing and solving performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Proficient working in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration) software development process
+- Proficient working in a highly agile, [intensely iterative](/handbook/values/#iteration) software development process
 
 ### Manager, Engineering
 
@@ -127,7 +127,7 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 
 #### Manager, Engineering Responsibilities
 
-- Lead a high-performing team of engineers to implement and bring GitLab’s web strategy to life through quality, on-time coding and development
+- Lead a high-performing team of engineers to implement and bring GitLab's web strategy to life through quality, on-time coding and development
 - Code and implement high quality technical and engineering work for complex web projects, including troubleshooting and problem solving, communicating with stakeholders and team members, reporting on outcomes.
 - Lead and scope major cross-functional projects; including defining business needs, navigating sometimes conflicting priorities to deliver the best business outcomes and making recommendations on the best course of action.
 - Initiate longer-term initiatives that will impact the efficiency of the team, the quality of output and reducing technical debt, - including introducing new processes and solutions.
@@ -142,7 +142,7 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 - Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose solutions
 - Demonstrated ability to coach and lead a team of direct reports, including hiring, development and growth  and driving a culture of high performance
 - Experience with diagnosing and solving  performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Experience leading team to work  in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration0) software development process
+- Experience leading team to work  in a highly agile, [intensely iterative](/handbook/values/#iteration0) software development process
 
 ## Performance Indicators
 

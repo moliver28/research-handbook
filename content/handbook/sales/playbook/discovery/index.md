@@ -1,16 +1,7 @@
 ---
-
 title: "Effective Discovery"
 description: "Effective discovery is critical to thoroughly understanding customer needs and establishes the foundation for being able to effectively articulate GitLab's value and differentiation in a compelling, customer-centric way"
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -31,7 +22,7 @@ Ideally, effective qualification also includes identification of the prospect's:
 
 ## Understand Value Points
 
-The second phase of discovery uses an iterative insight/question loop, often across multiple meetings or conversations, to uncover the prospect’s underlying challenges and motivations, with the ultimate goal of constructing a highly relevant and differentiated value message that ties the GitLab solution to the prospect’s business needs.
+The second phase of discovery uses an iterative insight/question loop, often across multiple meetings or conversations, to uncover the prospect's underlying challenges and motivations, with the ultimate goal of constructing a highly relevant and differentiated value message that ties the GitLab solution to the prospect's business needs.
 
 ### Preparation
 
@@ -78,10 +69,10 @@ As outlined in the [Pre-Call Plan](https://docs.google.com/document/d/1yjyfvMoDv
 
 - What is your desired outcome for this conversation or meeting? What do you think the prospect's desired outcome is?
 - What information do you need to gather to achieve your objective(s)? What discovery questions will you ask, how, and in what sequence? As outlined above, this iterative insight/question loop will often span across multiple meetings or conversations.
-   - Start with [Customer Strategy-based discovery questions](/handbook/sales/qualification-questions/#customer-strategy) to seek to understand your prospect's goals, objectives, and initiatives
-   - Next, ask open-ended [Customer Needs-based discovery questions](/handbook/sales/qualification-questions/#customer-needs) in pursuit of understanding your prospect's desired outcomes, current situation and environment and level of satisfaction, and motivations (including personal needs)
+  - Start with [Customer Strategy-based discovery questions](/handbook/sales/qualification-questions/#customer-strategy) to seek to understand your prospect's goals, objectives, and initiatives
+  - Next, ask open-ended [Customer Needs-based discovery questions](/handbook/sales/qualification-questions/#customer-needs) in pursuit of understanding your prospect's desired outcomes, current situation and environment and level of satisfaction, and motivations (including personal needs)
 - As you develop and prioritize your discovery questions, what types of questions will you ask that reinforce [GitLab's differentiators](/handbook/sales/command-of-the-message/#gitlab-differentiators)?
-   - For a deeper dive, re-review the Defensible Differentiators content and sample questions in the GitLab Value Framework doc (see top asset highlighted in the [Resources: Core Content](https://internal.gitlab.com/handbook/sales/command-of-the-message/#resources-core-content) (internal only) section of the Command of the Message Internal Handbook page)
+  - For a deeper dive, re-review the Defensible Differentiators content and sample questions in the GitLab Value Framework doc (see top asset highlighted in the [Resources: Core Content](https://internal.gitlab.com/handbook/sales/command-of-the-message/#resources-core-content) (internal only) section of the Command of the Message Internal Handbook page)
 - What agenda will provide the structure needed to help you achieve your meeting or call objectives? Assuming you achieve your objective(s), what are possible next steps you may recommend? How will you close the call or meeting to progress the opportunity further?
 - What are some potentially relevant success stories (e.g. same industry, geo, anticipated pain points, etc.) and other proof points (e.g. favorable analyst report) that you may want to reference or highlight to build interest and credibility?
 - What questions or objections do you anticipate the prospect may have? If those indeed come up, are you ready to respond?
@@ -90,7 +81,7 @@ As outlined in the [Pre-Call Plan](https://docs.google.com/document/d/1yjyfvMoDv
 
 #### Approach With Curiosity
 
-Approach discovery conversations with a curiosity-led mindset and a desire to better understand the customer’s challenges as well as the *implications* of those challenges.
+Approach discovery conversations with a curiosity-led mindset and a desire to better understand the customer's challenges as well as the *implications* of those challenges.
 
 - How big is the problem?
 - How does this impact higher-level goals and objectives?
@@ -166,7 +157,7 @@ See the [above section](/handbook/sales/playbook/discovery/#preparation) for tip
 
 ## Happy Ears
 
-Resist the urge to prematurely talk about or begin to position GitLab until you have a thorough understanding of the customer’s challenges, the implications of those challenges, how big the problem is, the urgency of the problem, who cares about the problem and why, and more (see below).
+Resist the urge to prematurely talk about or begin to position GitLab until you have a thorough understanding of the customer's challenges, the implications of those challenges, how big the problem is, the urgency of the problem, who cares about the problem and why, and more (see below).
 
 <!-- blank line -->
 <figure class="video_container">
@@ -176,7 +167,7 @@ Resist the urge to prematurely talk about or begin to position GitLab until you 
 
 ## Not Attaching to the Biggest Problem
 
-You must have a solid understanding of the prospect's key business drivers, strategic business initiatives, and associated objectives and goals to be able to serve as a trusted advisor. These will almost assuredly relate to one or more [Customer Value Drivers](/handbook/sales/command-of-the-message/#customer-value-drivers). Use [Customer Strategy-based discovery questions](/handbook/sales/qualification-questions/#customer-strategy) followed by [Customer Needs-based discovery questions](/handbook/sales/qualification-questions/#customer-needs) to identify how GitLab can have a positive impact on your buyer’s business issues.
+You must have a solid understanding of the prospect's key business drivers, strategic business initiatives, and associated objectives and goals to be able to serve as a trusted advisor. These will almost assuredly relate to one or more [Customer Value Drivers](/handbook/sales/command-of-the-message/#customer-value-drivers). Use [Customer Strategy-based discovery questions](/handbook/sales/qualification-questions/#customer-strategy) followed by [Customer Needs-based discovery questions](/handbook/sales/qualification-questions/#customer-needs) to identify how GitLab can have a positive impact on your buyer's business issues.
 
 <!-- blank line -->
 <figure class="video_container">

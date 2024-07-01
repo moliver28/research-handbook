@@ -137,11 +137,11 @@ In order to update www and Buyer Experience separately we created a [new main br
 - Run the `yarn` command in order to generate the yarn.lock file, commit both the yarn.lock, and package.lock files.
 - Ask for review/merge
 
-#### Note
+### Note
 
 The package version for the www repo **should not** be major, which means it can't be anything higher than `4.x.x`
 
-#### Detailed local review before a nav release with yarn link
+### Detailed local review before a nav release with yarn link
 
 If you want to review locally changes made to the navigation:
 

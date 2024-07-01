@@ -1,10 +1,7 @@
 ---
-
 title: "Customer CSAT surveys"
 description: "A deep dive into the CSAT and NPS, how they are defined and calculated."
 ---
-
-
 
 Customer Satisfaction score, or CSAT, are surveys sent directly to primary users on paid Premium and Ultimate accounts to measure satisfaction of a service, product, interaction or experience with GitLab. Each account will receive a CSAT survey no more than twice in a year. We hope to recieve from as many accounts at GitLab as possible, rather than a representative sample of accounts. This enables us to inform all account teams of their portfolio's customer satisfaction.
 
@@ -18,7 +15,7 @@ In order to target leaders and decision-makers on accounts, three types of users
 
 - Identified Billing or Procurement personas configured as Owners or GitLab Admins on accounts
 - Guest, Reporter, Developer or Maintainer roles on accounts
-- Users that have been contacted by others CSAT Surveys within the past eight weeks, such as the [Product CSAT](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/csat/) survey administered by the UX Research Team.
+- Users that have been contacted by others CSAT Surveys within the past eight weeks, such as the [Product CSAT](/handbook/product/ux/performance-indicators/csat/) survey administered by the UX Research Team.
 
 ## All-Customer CSAT Survey
 
@@ -27,7 +24,7 @@ This survey is performed in two parts; an email is sent to an identified contact
 ### Questions
 
 1. **How satisfied are you with GitLab?**
-2. **How satisfied are you with your teams’ adoption of GitLab?**
+2. **How satisfied are you with your teams' adoption of GitLab?**
 3. **How satisfied are you with your experience working with the GitLab team?**
 4. **How satisfied are you with the business value provided by GitLab?**
 5. **What could we be doing better?**
@@ -43,12 +40,12 @@ This survey is performed in two parts; an email is sent to an identified contact
 ### FY25 Schedule
 
 - **All-Customer CSAT Survey 1**
-   - May 22, 2024
-   - Follow-up email: May 30, 2024
-   - Purpose: Create a macro-level baseline for Customer Satisfaction Scoring, not drive customer-level interactions and escalation.
+  - May 22, 2024
+  - Follow-up email: May 30, 2024
+  - Purpose: Create a macro-level baseline for Customer Satisfaction Scoring, not drive customer-level interactions and escalation.
 - **All-Customer Survey 2**
-   - January 8, 2025 (tentative)
-   - Purpose: Create account-level action orientation for Customer Success and Sales organizations.
+  - January 8, 2025 (tentative)
+  - Purpose: Create account-level action orientation for Customer Success and Sales organizations.
 
 ### How to View CSAT Survey Results
 
@@ -59,7 +56,7 @@ The CSSO team is working to make survey results available within Snowflake so th
 #### If you have a Gainsight license
 
 - Gainsight: NPS and CSAT scores are written to a scorecard in the Customer 360.
-   - For an overview of how CSMs use Customer360 (or C360), please refer to the [Gainsight CSM C360 Overview Page](/handbook/customer-success/csm/gainsight/c360-overview)
+  - For an overview of how CSMs use Customer360 (or C360), please refer to the [Gainsight CSM C360 Overview Page](/handbook/customer-success/csm/gainsight/c360-overview)
 - SalesForce: Survey responses can also be found in the embedded Gainsight widget on any account page in Salesforce.
 
 #### What is CSAT?
@@ -70,7 +67,7 @@ The CSSO team is working to make survey results available within Snowflake so th
 
 ##### Scoring Methodology
 
-Each question is scored by dividing the total number of customers who select “Very Satisfied” (5) or “Satisfied” (4) by the total number of responses, then multiplied by 100.
+Each question is scored by dividing the total number of customers who select "Very Satisfied" (5) or "Satisfied" (4) by the total number of responses, then multiplied by 100.
 
 ## NPS, Deprecated Surveys, and other CSAT
 
@@ -86,12 +83,12 @@ Customers received NPS surveys at multiple points in their lifecycle from 2021 t
 
 You may request data for the following NPS surveys:
 
-- **Post-Onboarding NPS/CSAT**  
+- **Post-Onboarding NPS/CSAT**
 - **Pre-Renewal NPS**
 - **Post-Renewal NPS/CSAT**
 
 ### Other CSAT
 
 - Post-Scale Engagement CSAT Survey
-   - Transactional to Scale/CSE customers only
-- [Case Closure Survey](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey
+  - Transactional to Scale/CSE customers only
+- [Case Closure Survey](/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey

@@ -1,15 +1,8 @@
 ---
-
 title: Cluster Web Terminal
 description: >-
   Project plan for providing customer safe access to their Kubernetes clusters through the UI.
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 

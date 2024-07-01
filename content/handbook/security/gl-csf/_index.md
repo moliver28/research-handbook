@@ -19,14 +19,12 @@ first. In order to facilitate this process, the framework supports the engineeri
 the life cycle of the feature, to facilitate the creation of the required documentation and other
 artifacts.
 
-The framework relies heavily on the [data
-classification]({{< ref "data-classification-standard" >}}) of the feature in
+The framework relies heavily on the [data classification]({{< ref "data-classification-standard" >}}) of the feature in
 scope. It is not necessary for features managing Green data, and more activities are required as the
 level increases, up to Red data.
 
 The framework targets mostly Engineering Managers and their team, but also Product Managers, to
-track progress from the early phases of the [Product Development
-Workflow](/handbook/product-development-flow/), to the release or deployment to production.
+track progress from the early phases of the [Product Development Workflow](/handbook/product-development-flow/), to the release or deployment to production.
 
 Once released or deployed, the SDLC loops and a new iteration can start. The framework continues to
 support the team with insights and recommendations. More importantly, changes in the framework
@@ -39,8 +37,7 @@ This framework is meant to be used for all significant engineering changes in se
 and more precisely for changes in:
 
 1. The [GitLab Architecture](https://docs.gitlab.com/ee/development/architecture.html)
-1. The [GitLab.com
-   infrastructure](/handbook/engineering/infrastructure/production/architecture/)
+1. The [GitLab.com    infrastructure](/handbook/engineering/infrastructure/production/architecture/)
 1. The [classification](/handbook/security/data-classification-standard.html) of
    the data being managed (stored, transferred, or updated)
 
@@ -71,10 +68,10 @@ The framework is architected around 3 stages:
 
 | Activity | Security Team | Green & Yellow Data | Orange Data | Red Data |
 | -------- | ------------- | ------------------- | ----------- | -------- |
-| [Data classification](#data-classification) | [Security Assurance] | N/A | N/A | N/A |
-| [Architecture](architecture.html) | [Security Architects] | Optional| Recommended | Required |
-| Define Target Environment | [InfraSec] | Optional | Required | Required |
-| Threat Modeling | [AppSec] | Optional | Recommended | Required |
+| [Data classification](#data-classification) | [Security Assurance]({{< ref "security-assurance" >}}) | N/A | N/A | N/A |
+| [Architecture](architecture.html) | [Security Architects]({{< ref "../product-security/architecture" >}}) | Optional| Recommended | Required |
+| Define Target Environment | [InfraSec]({{< ref "../product-security/infrastructure-security" >}}) | Optional | Required | Required |
+| Threat Modeling | [AppSec]({{< ref "../product-security/application-security" >}}) | Optional | Recommended | Required |
 
 #### Data classification
 
@@ -88,8 +85,7 @@ A value among: `Green`, `Yellow`, `Orange`, or `Red`.
 
 ##### Resources
 
-1. The [Data Classification
-   Standard]({{< ref "data-classification-standard" >}}) handbook page
+1. The [Data Classification Standard]({{< ref "data-classification-standard" >}}) handbook page
 
 #### Architecture
 
@@ -115,10 +111,3 @@ infrastructure or our product inform the Security Research Team
 (`@gitlab-com/gl-security/security-research`) for potential inclusion of the dependency into the
 [OSS Ecosystem Testing]({{< ref "../product-security/security-research#gitlab-ecosystem-security-testing" >}})
 efforts.
-
-## Additional resources and references
-
-[Security Assurance]: {{< ref "security-assurance" >}}
-[Security Architects]:{{< ref "../product-security/architecture" >}}
-[InfraSec]: {{< ref "../product-security/infrastructure-security" >}}
-[AppSec]: {{< ref "../product-security/application-security" >}}

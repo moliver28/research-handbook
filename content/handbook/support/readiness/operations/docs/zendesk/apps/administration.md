@@ -256,7 +256,7 @@ instructions on the pop-up modal).
 After doing that, following the remaining steps detailed in
 [Creating a new app](#creating-a-new-app).
 
-## Understanding Zendesk Apps
+### Understanding Zendesk Apps
 
 Before you can start creating and editing apps in Zendesk, it is important to
 understand the ins and outs of both Zendesk Apps and
@@ -545,7 +545,7 @@ zafclient.request({
 });
 ```
 
-## Testing an app
+### Testing an app
 
 There are two ways to test a Zendesk app before you put it into production:
 

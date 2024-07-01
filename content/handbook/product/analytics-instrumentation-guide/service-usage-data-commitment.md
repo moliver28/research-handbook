@@ -1,8 +1,6 @@
 ---
-
 title: Our Commitment to Individual User Privacy in relation to Service Usage Data
 ---
-
 
 ## Our Commitment to Individual User Privacy in relation to Service Usage Data
 
@@ -31,7 +29,7 @@ Over the past few years GitLab has made commitments to our community around the 
 1. We will alert the community when any changes to our [service usage data](/handbook/product/index.html.md) processes and/or policies occur.
 1. We will not implement telemetry in our products which sends identifiable usage data to a third-party product analytics service [source](https://about.gitlab.com/blog/2019/10/10/update-free-software-and-telemetry/)
 
-##### Definition of Analytics Data
+#### Definition of Analytics Data
 
 Analytics Data can be too generic of a term. The list below are the specific types of Product data that is in scope:
 
@@ -45,7 +43,7 @@ As many other organizations offering digital products, GitLab strives to get bet
 
 To get to such understanding, we look to collected [service usage data](/handbook/legal/privacy/customer-product-usage-information/). And as part of collecting usage data, we aim to provide robust privacy protection, and assurance that this data would not be ill-used. With that obligation in mind, we are working to prepare a privacy protection mechanism that would include technical tools and various policies.
 
-#### Pseudonymization Isn’t Perfect
+### Pseudonymization Isn't Perfect
 
 While we will be pseudonymizing personal information for individual users, there are cases where a project or namespace could be identified. There are a few primary examples:
 
@@ -53,7 +51,7 @@ While we will be pseudonymizing personal information for individual users, there
 1. We will collect `namespace_ID`, it can be used to identify the namespace name (which may be a personal name) via our API you can only return namespace information for namespaces you are a member of.
 1. In the case of single user subscribers, product usage activity can be tied back to an actual user (internally) via metadata in our enterprise applications.
 
-#### Analytics Instrumentation Roadmap
+### Analytics Instrumentation Roadmap
 
 Our [pseudonymization process](https://gitlab.com/groups/gitlab-org/-/epics/6309#proposed-solution) to de-identify [personally identifiable data](https://gitlab.com/gitlab-org/gitlab/-/issues/336779#considered-data-for-pseudonymization) which relies on [one-way hashing](https://gitlab.com/groups/gitlab-org/-/epics/6309#one-way-hashing) is was released in milestone 14.4 (October 2021).
 

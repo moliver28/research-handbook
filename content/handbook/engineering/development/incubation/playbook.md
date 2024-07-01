@@ -1,13 +1,6 @@
 ---
-
 title: Incubation Engineer's Playbook
 ---
-
-
-
-
-
-
 
 ## Incubation Engineer's Playbook
 
@@ -60,7 +53,7 @@ An example of this structure can be seen on the [Mobile DevOps Handbook Page](/h
 
 #### GitLab Product Development Group affinity
 
-List the the [product development groups](/handbook/product/categories/), if any, that the SEG project may impact as a link to the appropriate handbook page. In the early stages this may not be known and may change as the SEG project evolves, please update when there are changes.
+List the [product development groups](/handbook/product/categories/), if any, that the SEG project may impact as a link to the appropriate handbook page. In the early stages this may not be known and may change as the SEG project evolves, please update when there are changes.
 
 #### References
 
@@ -179,8 +172,7 @@ process.
 
 Due to the SEG-nature of our group the process is slightly different from
 the default. As you wear both the Engineer's and PM's hats, the process is
-faster, but you'll also lack a second pair of eyes. Check out the [PM
-Contributors](/handbook/marketing/blog/release-posts/#pm-contributors)
+faster, but you'll also lack a second pair of eyes. Check out the [PM Contributors](/handbook/marketing/blog/release-posts/#pm-contributors)
 section of the release post Handbook page for the default process. Here is a
 Incubation-adjusted TL;DR:
 

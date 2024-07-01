@@ -90,7 +90,7 @@ was needed, with a reference to any supporting information.
 
 All `# noinspection - <some link or explanation>` comments should be on a single line.
 
-This is because we want to to avoid the possibility of deleting an obsolete/fixed `# noinspection` line
+This is because we want to avoid the possibility of deleting an obsolete/fixed `# noinspection` line
 but forgetting to delete the separate associated comment line.
 
 This should be done consistently, even if there needs to be an associated `# rubocop:disable Layout/LineLength`,

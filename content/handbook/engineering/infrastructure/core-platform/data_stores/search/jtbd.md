@@ -1,14 +1,7 @@
 ---
-
 title: Global Search - JTBD
 description: "The jobs-to-be-done that the Global Search group is solving for."
 ---
-
-
-
-
-
-
 
 ## Overview
 

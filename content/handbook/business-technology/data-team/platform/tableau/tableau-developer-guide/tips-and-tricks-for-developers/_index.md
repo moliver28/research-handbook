@@ -1,5 +1,4 @@
 ---
-
 title: "Tableau Developer Tips and Tricks"
 description: "Tableau Developer tips and tricks"
 ---
@@ -76,11 +75,11 @@ Instead, you can create one date axis which automatically updates depending on y
 <details markdown=1>
 
 <summary><b>Axis Dates</b></summary>
-  
+
 ```text
 IF [Select Time Period] = 'year' THEN
     "FY " + STR([Fiscal Year])
-    
+
 ELSEIF [Select Time Period] = 'quarter'
     THEN [Fiscal Quarter Name Fy]
 
@@ -116,16 +115,16 @@ Once you have done so, the following dynamic date filter will work to filter the
 <summary><b>Date Filter - Dynamic</b></summary>
 
 ```text
-IF [Select Time Period] = 'month' THEN 
+IF [Select Time Period] = 'month' THEN
     DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date])
         AND  DATETRUNC('month',[Date Actual]) > DATEADD('month', -[Date Interval], DATETRUNC('month',[Report Date]))
 
-ELSEIF  [Select Time Period] = 'quarter' THEN 
+ELSEIF  [Select Time Period] = 'quarter' THEN
     DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date]) // earlier than report date
         AND
     DATETRUNC('month',[First Day Of Fiscal Quarter] ) > DATEADD('month', (-[Date Interval]*3), DATETRUNC('month',[First Day Of Fiscal Quarter (Dim Date1)]))
 
-ELSE 
+ELSE
     DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date])
         AND
     [First Day Of Fiscal Year] > DATEADD('month', -[Date Interval]*12, [First Day Of Fiscal Year (Dim Date1)])
@@ -147,14 +146,14 @@ There are two ways to create these calculations. The first option is to cut the 
 **Is Fiscal Period to Date Dynamic**
 
 ```text
-IF [Select Time Period] = 'year' THEN 
+IF [Select Time Period] = 'year' THEN
  [Day Of Fiscal Year] <= [Day Of Fiscal Year (Dim Date1)] // Cuts data off at the day of the report date
 
 
-ELSEIF [Select Time Period] = 'quarter' THEN 
+ELSEIF [Select Time Period] = 'quarter' THEN
     [Day Of Fiscal Quarter] <= [Day Of Fiscal Quarter (Dim Date1)] // Cuts data off at the day of the report date
 
-ELSE 
+ELSE
 [Day Of Month] <= [Day Of Month (Dim Date1)] // Cuts data off at the day of the report date
 
 END
@@ -163,15 +162,15 @@ END
 **Current Period**
 
 ```text
-IF [Select Time Period] = 'year' THEN 
+IF [Select Time Period] = 'year' THEN
     [First Day Of Fiscal Year] = [First Day Of Fiscal Year (Dim Date1)] // in the same year
             AND DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date])  // Cuts data off at the day of the report date
 
-ELSEIF [Select Time Period] = 'quarter' THEN 
+ELSEIF [Select Time Period] = 'quarter' THEN
     [First Day Of Fiscal Quarter] = [First Day Of Fiscal Quarter (Dim Date1)] // in the same quarter
             AND DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date])  // Cuts data off at the day of the report date
 
-ELSE 
+ELSE
 DATETRUNC('month',[Date Actual]) = DATETRUNC('month',[Report Date]) // in the same month
             AND DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date])  // Cuts data off at the day of the report date
 
@@ -181,17 +180,17 @@ END
 **Previous Period**
 
 ```text
-IF [Select Time Period] = 'year' THEN 
+IF [Select Time Period] = 'year' THEN
     [First Day Of Fiscal Year] = DATEADD('year',-1,[First Day Of Fiscal Year (Dim Date1)])
             AND [Is Fiscal Period To Date Dynamic]
 
 
-ELSEIF [Select Time Period] = 'quarter' THEN 
+ELSEIF [Select Time Period] = 'quarter' THEN
     [First Day Of Fiscal Quarter] = DATEADD('month',-3,[First Day Of Fiscal Quarter (Dim Date1)])
             AND [Is Fiscal Period To Date Dynamic]
 
-ELSE 
-DATETRUNC('month',[Date Actual]) = DATEADD('month',-1,DATETRUNC('month',[Report Date]))            
+ELSE
+DATETRUNC('month',[Date Actual]) = DATEADD('month',-1,DATETRUNC('month',[Report Date]))
 AND [Is Fiscal Period To Date Dynamic]// Cuts data off at the day of the report date
 
 END
@@ -202,13 +201,13 @@ The other option is to take the total current and previous periods. These calcul
 **Current Period (Total)**
 
 ```text
-IF [Select Time Period] = 'year' THEN 
+IF [Select Time Period] = 'year' THEN
     [First Day Of Fiscal Year] = [First Day Of Fiscal Year (Dim Date1)] // in the same year
 
-ELSEIF [Select Time Period] = 'quarter' THEN 
+ELSEIF [Select Time Period] = 'quarter' THEN
     [First Day Of Fiscal Quarter] = [First Day Of Fiscal Quarter (Dim Date1)] // in the same quarter
 
-ELSE 
+ELSE
 DATETRUNC('month',[Date Actual]) = DATETRUNC('month',[Report Date]) // in the same month
 
 END
@@ -217,17 +216,17 @@ END
 **Previous Period (Total)**
 
 ```text
-IF [Select Time Period] = 'year' THEN 
+IF [Select Time Period] = 'year' THEN
     [First Day Of Fiscal Year] = DATEADD('year',-1,[First Day Of Fiscal Year (Dim Date1)])
 
 
 
-ELSEIF [Select Time Period] = 'quarter' THEN 
+ELSEIF [Select Time Period] = 'quarter' THEN
     [First Day Of Fiscal Quarter] = DATEADD('month',-3,[First Day Of Fiscal Quarter (Dim Date1)])
-    
 
-ELSE 
-DATETRUNC('month',[Date Actual]) = DATEADD('month',-1,DATETRUNC('month',[Report Date]))            
+
+ELSE
+DATETRUNC('month',[Date Actual]) = DATEADD('month',-1,DATETRUNC('month',[Report Date]))
 
 
 END
@@ -259,11 +258,11 @@ IF [Select Time Period] = 'quarter' THEN
         AND [First Day Of Fiscal Quarter] < [First Day Of Fiscal Quarter (Dim Date1)] // Earlier than this quarter
 ) // For all previous quarters, it is the last month of the quarter.
 
-    OR ([Fiscal Year] = [Fiscal Year (Dim Date1)] AND [Month Of Fiscal Year] = [Month Of Fiscal Year (Dim Date1)] ) 
+    OR ([Fiscal Year] = [Fiscal Year (Dim Date1)] AND [Month Of Fiscal Year] = [Month Of Fiscal Year (Dim Date1)] )
 // For this quarter, it is the same month as the report date
 
-ELSEIF 
- [Select Time Period] = 'year' THEN 
+ELSEIF
+ [Select Time Period] = 'year' THEN
    [Month Of Fiscal Year] = 12 OR (YEAR([Date Actual]) = YEAR([Report Date]) AND [Month Of Fiscal Year] = [Month Of Fiscal Year (Dim Date1)])
 
 ELSEIF [Select Time Period] = 'month' THEN TRUE
@@ -308,19 +307,19 @@ The solution is to create a date filter that effectively doubles the date range 
 IF [Select Time Period] = 'month' THEN (
     DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date]) //sooner than the day of report date and
         AND  DATETRUNC('month',[Date Actual]) > DATEADD('month', (-[Date Interval]*2), DATETRUNC('month',[Report Date])) //after the month of the date interval * 2 back in time
-   
+
     )
 
 ELSEIF [Select Time Period] = 'quarter' THEN
    ( DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date]) AND  // earlier than the report date
          DATETRUNC('month',[First Day Of Fiscal Quarter] ) > DATEADD('month', ((-[Date Interval]-4)*3), DATETRUNC('month',[First Day Of Fiscal Quarter (Dim Date1)])) // sooner than the number of quarters back (months *3 because of fiscal quarters)
-          
+
     )
 
 ELSEIF [Select Time Period] = 'year' THEN
    ( DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date]) AND  // earlier than the report date
          [First Day Of Fiscal Year] > DATEADD('month',-[Date Interval]*12,[First Day Of Fiscal Year (Dim Date1)]) // the same year or sooner than the report date * -interval (12mos)
-            
+
     )
 
 END
@@ -333,19 +332,19 @@ END
 IF [Select Time Period] = 'month' THEN (
     DATETRUNC('month',[Date Actual]) <= DATETRUNC('month',[Report Date]) //sooner than or = to the month of the report date
         AND  DATETRUNC('month',[Date Actual]) > DATEADD('month', (-[Date Interval]*2), DATETRUNC('month',[Report Date])) //after the month of the date interval * 2 back in time
-   
+
     )
 
 ELSEIF [Select Time Period] = 'quarter' THEN
    ( [First Day Of Fiscal Quarter] <= [First Day Of Fiscal Quarter (Dim Date1)] AND  // sooner than or = to the quarter of the report dateearlier than the report date
          DATETRUNC('month',[First Day Of Fiscal Quarter] ) > DATEADD('month', ((-[Date Interval]-4)*3), DATETRUNC('month',[First Day Of Fiscal Quarter (Dim Date1)])) // sooner than the number of quarters back (months *3 because of fiscal quarters)
-          
+
     )
 
 ELSEIF [Select Time Period] = 'year' THEN
    ([First Day Of Fiscal Year] <= [First Day Of Fiscal Year (Dim Date1)] AND // sooner than or = to the year of the report date
          [First Day Of Fiscal Year] > DATEADD('month',-[Date Interval]*12,[First Day Of Fiscal Year (Dim Date1)]) // the same year or sooner than the report date * -interval (12mos)
-            
+
     )
 
 END
@@ -362,7 +361,7 @@ END
 **Don't Show Leading Values Filter**
 
 ```text
-IF [Select Time Period] = 'quarter' THEN  
+IF [Select Time Period] = 'quarter' THEN
 FIRST() <= -4
 ELSEIF [Select Time Period] = 'month' THEN FIRST() <= -12
 ELSE FIRST() <= -1
@@ -460,4 +459,4 @@ Some additional design tips that may help your workbook creation efficency.
 
 ### Add GitLab Colors
 
-You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau-style-guide/#standard-color-palette)
+You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/business-technology/data-team/platform/tableau-style-guide/#standard-color-palette)

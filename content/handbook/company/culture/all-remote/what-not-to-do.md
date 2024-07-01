@@ -49,7 +49,7 @@ The principles of remote work are different. The approach to conducting work is 
 ![GitLab customer path](/images/all-remote/gitlab-customer-path.jpg)
 {style="max-width: 50%;"}
 
-Remote work isn't something you do as a reaction to an event — it is an *intentional* approach to work that creates greater [efficiency]({{< ref "values#efficiency" >}}), more [geographically and culturally diverse teams](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities), and heightened [transparency]({{< ref "values#transparency" >}}).
+Remote work isn't something you do as a reaction to an event — it is an *intentional* approach to work that creates greater [efficiency](/handbook/values/#efficiency), more [geographically and culturally diverse teams](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities), and heightened [transparency](/handbook/values/#transparency).
 
 What is happening en masse related to Coronavirus (COVID-19) is largely a temporary work-from-home phenomenon, where organizations are not putting remote work ideals into place, as they expect to eventually require their team members to resume commuting into an office.
 
@@ -66,15 +66,15 @@ If [transitioning to remote]({{< ref "./transition" >}}), organizations should e
 
 ## Do this, not that
 
-Some may find it useful to see examples of comparisons between colocated norms, and the most closely correlated remote recommendation. You will notice that many suggestions link back to [asynchronous]({{< ref "./asynchronous" >}}) workflows, [transparency]({{< ref "values#transparency" >}}), and working [handbook-first]({{< ref "./handbook-first" >}}), which are cornerstones to doing remote well.
+Some may find it useful to see examples of comparisons between colocated norms, and the most closely correlated remote recommendation. You will notice that many suggestions link back to [asynchronous]({{< ref "./asynchronous" >}}) workflows, [transparency](/handbook/values/#transparency), and working [handbook-first]({{< ref "./handbook-first" >}}), which are cornerstones to doing remote well.
 
-Note that all of these suggestions are not exclusive to remote. Even for companies which intend to maintain offices or transition to a [hybrid-remote company]({{< ref "./hybrid-remote" >}}), implementing [remote-first techniques]({{< ref "./hybrid-remote#differences-between-all-remote-and-remote-first" >}}) ensure that all employees are viewed as first-class citizens and companies avoid the [five dysfunctions]({{< ref "values#five-dysfunctions" >}}) of a team.
+Note that all of these suggestions are not exclusive to remote. Even for companies which intend to maintain offices or transition to a [hybrid-remote company]({{< ref "./hybrid-remote" >}}), implementing [remote-first techniques]({{< ref "./hybrid-remote#differences-between-all-remote-and-remote-first" >}}) ensure that all employees are viewed as first-class citizens and companies avoid the [five dysfunctions](/handbook/values/#five-dysfunctions) of a team.
 
 - Sending an email or Slack message <> Leverage a [transparent, asynchronous communications tool]({{< ref "./handbook-first#tools-for-building-a-handbook" >}})
 - Scheduling a meeting <> Communicate [asynchronously]({{< ref "./asynchronous" >}})
 - Gathering executives in a shared physical space <> Model commitment to remote by [getting the executive team out of the office]({{< ref "./transition#make-the-executive-team-remote" >}})
-- Grappling with a large project <> Breaking discussions down into their [smallest, most minimally viable parts]({{< ref "values#iteration" >}})
-- Gathering consensus for a one-way door decision <> Break decisions down into a series of smaller, [two-way door decisions]({{< ref "values#make-two-way-door-decisions" >}}) which can be iterated upon and reverted
+- Grappling with a large project <> Breaking discussions down into their [smallest, most minimally viable parts](/handbook/values/#iteration)
+- Gathering consensus for a one-way door decision <> Break decisions down into a series of smaller, [two-way door decisions](/handbook/values/#make-two-way-door-decisions) which can be iterated upon and reverted
 - Sharing updates verbally <> Write things down with detail and precision, in a [low-context manner]({{< ref "./effective-communication" >}})
 - Expecting an immediate response <> Approach your work as if [everyone else is asleep]({{< ref "./asynchronous#mental-health" >}}), and work to create a [non-judgmental culture]({{< ref "./mental-health#creating-a-non-judgemental-culture" >}})
 
@@ -83,7 +83,7 @@ Note that all of these suggestions are not exclusive to remote. Even for compani
 ![GitLab all-remote team](/images/all-remote/gitlab-com-all-remote-v4-dark-1280x270.png)
 {style="max-width: 50%;"}
 
-For companies who move into an office building, it's unlikely that everything works perfectly on the first day. Signage may be missing, security gates may be erratic, elevators may be stuck, etc. Adapting to a workplace takes time, and polish comes with [iteration]({{< ref "values#iteration" >}}).
+For companies who move into an office building, it's unlikely that everything works perfectly on the first day. Signage may be missing, security gates may be erratic, elevators may be stuck, etc. Adapting to a workplace takes time, and polish comes with [iteration](/handbook/values/#iteration).
 
 The same is true when embracing remote work. Particularly for companies which were established with colocated norms, it is vital for leadership to recognize that the remote transition is a *process*, not a binary switch to be flipped. Leaders are responsible for embracing iteration, being open about [what is and is not working]({{< ref "./transition" >}}), and messaging this to all employees.
 
@@ -96,7 +96,7 @@ Too, what works for a small remote team may not work for a remote team consistin
 ![GitLab journey illustration](/images/all-remote/gitlab-journey-and-navigation.jpg)
 {style="max-width: 50%;"}
 
-In truth, [managing a remote company]({{< ref "./management" >}}) is much like managing any company. **It comes down to trust, communication, and company-wide support of shared goals**, all of which aid in [avoiding dysfunction]({{< ref "values#five-dysfunctions" >}}).
+In truth, [managing a remote company]({{< ref "./management" >}}) is much like managing any company. **It comes down to trust, communication, and company-wide support of shared goals**, all of which aid in [avoiding dysfunction](/handbook/values/#five-dysfunctions).
 
 Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju). It forces discipline that sustains culture and efficiency [at scale](./scaling), particularly in areas which are easily deprioritized in small colocated companies.
 
@@ -109,9 +109,9 @@ Leaders should ensure that new remote hires read a [getting started guide]({{< r
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%;"}
 
-To operate well as a remote enterprise, your values [must be in support of this way of working]({{< ref "remote-values" >}}). GitLab's collection of [values]({{< ref "values" >}}) and [operating principles]({{< ref "values#operating-principles" >}}) contribute to a thriving all-remote environment. Consider studying the nuances of these values and adjusting or adding to your company's existing values. Values that were established to support colocated norms may not apply to remote, particularly those which obstruct transparency.
+To operate well as a remote enterprise, your values [must be in support of this way of working]({{< ref "remote-values" >}}). GitLab's collection of [values]({{< ref "values" >}}) and [operating principles](/handbook/values/#operating-principles) contribute to a thriving all-remote environment. Consider studying the nuances of these values and adjusting or adding to your company's existing values. Values that were established to support colocated norms may not apply to remote, particularly those which obstruct transparency.
 
-Don't be quick to brush values off as understood, either. For example, collaboration in a colocated space  is routinely demonstrated by gathering people in a shared physical space in search of [consensus]({{< ref "./management#separating-decision-gathering-from-decision-making" >}}). [Collaboration]({{< ref "values#collaboration" >}}) in a remote setting is demonstrated by empowering the greatest amount of people to contribute insights asynchronously while enabling the DRI (directly responsible individual) to [make decisions without explanation]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}).
+Don't be quick to brush values off as understood, either. For example, collaboration in a colocated space  is routinely demonstrated by gathering people in a shared physical space in search of [consensus]({{< ref "./management#separating-decision-gathering-from-decision-making" >}}). [Collaboration](/handbook/values/#collaboration) in a remote setting is demonstrated by empowering the greatest amount of people to contribute insights asynchronously while enabling the DRI (directly responsible individual) to [make decisions without explanation]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

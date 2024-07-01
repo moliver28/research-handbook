@@ -13,18 +13,18 @@ This runbook is intended to be used when monitoring the [secret push protection]
 While the feature, in its [current form](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#high-level-architecture), doesn't have any external components and is entirely encapsulated within the application server as a dependency, it does interact with a number of components as can be seen in this [push event sequence diagram](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#push-event-detection-flow). Those components are:
 
 * GitLab Shell (Git over SSH):
-    * `git-receive-pack`
+  * `git-receive-pack`
 * Workhorse (Git over HTTP/S):
-    * `git-receive-pack`
+  * `git-receive-pack`
 * Gitaly:
-    * `SSHReceivePack`
-    * `PostReceivePack`
-    * `PreReceiveHook`
-    * `ListAllBlobs()` RPC
-    * `ListBlobs()` RPC
-    * `GetTreeEntries()` RPC
+  * `SSHReceivePack`
+  * `PostReceivePack`
+  * `PreReceiveHook`
+  * `ListAllBlobs()` RPC
+  * `ListBlobs()` RPC
+  * `GetTreeEntries()` RPC
 * Rails:
-    * `/internal/allowed` Endpoint
+  * `/internal/allowed` Endpoint
 
 Below is a sequence diagram showing the entire workflow whether a `git push` takes place over HTTP or SSH:
 
@@ -85,26 +85,35 @@ These components are therefore the main elements we are trying to focus on when 
 As discussed above, the functionality spans a number of components. Therefore, are three main tools we could use for monitoring the feature:
 
 * Kibana (Logs)
-    * [Staging](https://nonprod-log.gitlab.net)
-        * `pubsub-rails-inf-gstg`
-        * `pubsub-gitaly-inf-gstg`
-        * `pubsub-workhorse-inf-gstg`
-        * `pubsub-shell-inf-gstg`
-    * [Production](https://log.gprd.gitlab.net)
-        * `pubsub-rails-inf-gprd`
-        * `pubsub-gitaly-inf-gprd`
-        * `pubsub-workhorse-inf-gprd`
-        * `pubsub-shell-inf-gprd`
+  * [Staging](https://nonprod-log.gitlab.net)
+    * `pubsub-rails-inf-gstg`
+    * `pubsub-gitaly-inf-gstg`
+    * `pubsub-workhorse-inf-gstg`
+    * `pubsub-shell-inf-gstg`
+  * [Production](https://log.gprd.gitlab.net)
+    * `pubsub-rails-inf-gprd`
+    * `pubsub-gitaly-inf-gprd`
+    * `pubsub-workhorse-inf-gprd`
+    * `pubsub-shell-inf-gprd`
 * Prometheus/Grafana (Metrics)
-    * [Internal API](https://dashboards.gitlab.net/dashboards/f/internal-api/internal-api)
-    * [Gitaly](https://dashboards.gitlab.net/dashboards/f/gitaly/gitaly-service)
-    * [GitLab Shell](https://dashboards.gitlab.net/d/git-main/git3a-overview)
+  * [Internal API](https://dashboards.gitlab.net/dashboards/f/internal-api/internal-api)
+  * [Gitaly](https://dashboards.gitlab.net/dashboards/f/gitaly/gitaly-service)
+  * [GitLab Shell](https://dashboards.gitlab.net/d/git-main/git3a-overview)
 * Sentry (Error Tracking)
-    * [Gitlab.com](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitlabcom)
-    * [Gitaly](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitaly)
-    * [Workhorse](https://new-sentry.gitlab.net/organizations/gitlab/projects/workhorse-gprd)
+  * [Gitlab.com](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitlabcom)
+  * [Gitaly](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitaly)
+  * [Workhorse](https://new-sentry.gitlab.net/organizations/gitlab/projects/workhorse-gprd)
 
 This runbook focuses primarly on the Prometheus metrics available in Grafana, but also shares brief information about other tools and how they could be used. In later iterations, this may change as the feature grows and develops.
+
+### How to check the logs emitted from the feature?
+
+To check the logs emitted from the feature, please look at the following Kibana views:
+
+* 📖 [Kibana: Logs for all scans](https://log.gprd.gitlab.net/app/discover#/view/31afcbb2-28e9-466f-a6c3-486e869e1ee3).
+* 📖 [Kibana: Logs for blocked pushes](https://log.gprd.gitlab.net/app/discover#/view/db7ba29d-d406-46df-8b43-e6d9c47fbed7).
+
+>**Note:** Kibana [retain logs for only 7 days](/handbook/support/workflows/kibana/#using-kibana).
 
 ### How to identify and mitigate a reliability or performance issue with the feature?
 
@@ -136,7 +145,7 @@ _Panel Information_
   * `stage` = `main`
   * `type` = `git`
 * Operations:
-  * Average over Time: `range | $__interval`
+  * Avg over time: `range | $__interval`
 * Legend:
   * RPS
 
@@ -196,8 +205,8 @@ This panel displays the average duration of establish SSH sessions summed up ove
 _Panel Information_
 
 * Metrics:
-    * `gitlab_shell_sshd_session_established_duration_seconds_sum`
-    * `gitlab_shell_sshd_session_established_duration_seconds_count`
+  * `gitlab_shell_sshd_session_established_duration_seconds_sum`
+  * `gitlab_shell_sshd_session_established_duration_seconds_count`
 * Label Filters:
   * `env` = `gprd`
   * `stage` = `main`
@@ -216,8 +225,8 @@ This panel displays the average duration of all SSH sessions (whether establishe
 _Panel Information_
 
 * Metrics:
-    * `gitlab_shell_sshd_session_duration_seconds_sum`
-    * `gitlab_shell_sshd_session_duration_seconds_count`
+  * `gitlab_shell_sshd_session_duration_seconds_sum`
+  * `gitlab_shell_sshd_session_duration_seconds_count`
 * Label Filters:
   * `env` = `gprd`
   * `stage` = `main`
@@ -281,7 +290,7 @@ This panel displays average number of requests per second (RPS) made to `gitlab-
   * `stage` = `main`
   * `type` = `git`
 * Operations:
-  * Average over Time: `range | $__interval`
+  * Avg over time: `range | $__interval`
 * Legend:
   * Error %
 
@@ -334,8 +343,8 @@ This panel displays the average latency (duration) in seconds for the `/.git/git
 _Panel Information_
 
 * Metrics:
-    * `gitlab_workhorse_http_request_duration_seconds_sum`
-    * `gitlab_workhorse_http_request_duration_seconds_count`
+  * `gitlab_workhorse_http_request_duration_seconds_sum`
+  * `gitlab_workhorse_http_request_duration_seconds_count`
 * Label Filters:
   * `env` = `gprd`
   * `stage` = `main`
@@ -398,7 +407,7 @@ This panel displays average number of requests per second (RPS) made to `workhor
   * `stage` = `main`
   * `type` = `git`
 * Operations:
-  * Average over Time: `range | $__interval`
+  * Avg over time: `range | $__interval`
 * Legend:
   * Error %
 
@@ -522,7 +531,81 @@ _Panel Information_
 
 #### Rails
 
-_Placeholder, will be added in an upcoming iteration._
+This section monitors the stability of the [`/internal/allowed` endpoint](https://docs.gitlab.com/ee/development/internal_api/internal_api_allowed.html) which is a focal point in the feature's journey to protect against leaked secrets in a `git` push. The endpoint is part of GitLab's [Internal API](https://docs.gitlab.com/ee/development/internal_api/), and is responsible for assessing if a user has permission to perform certain operations on the repository.
+
+The section can be used to ensure there are no performance degradations related to the `/internal/allowed` endpoint when changes in a certain `git` push are scanned for secrets.
+
+**[Internal API / Request Latency](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=40)**
+
+This panel displays the average, p95, p99, and mean latencies for requests made to the `/internal/allowed` endpoint over time. The panel can be used to monitor request latency and understand if there's a performance or scalability issue with that specific endpoint. Use the link for more detailed overview of this metric.
+
+_Panel Information_
+
+* Metrics:
+  * `controller_action:gitlab_transaction_duration_seconds_sum:rate5m`
+  * `controller_action:gitlab_transaction_duration_seconds:p95`
+  * `controller_action:gitlab_transaction_duration_seconds:p99`
+  * `controller_action:gitlab_transaction_duration_seconds_sum:rate1m`
+  * `controller_action:gitlab_transaction_duration_seconds_count:rate1m`
+* Label Filters:
+  * `action` = `POST /api/internal/allowed`
+  * `controller` = `Grape`
+  * `environment` = `gprd`
+  * `stage` = `main`
+  * `type` = `internal-api`
+* Operations:
+  * Avg over time: `range | $__interval`
+  * Avg:
+    * Label: `controller`
+    * Label: `action`
+* Legends:
+  * `{{action}} – avg`
+  * `{{action}} – p95`
+  * `{{action}} – p99`
+  * `{{action}} – mean`
+
+**[Internal API / RPS (Requests Per Second)](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=41)**
+
+This panel displays average number of requests per second (RPS) made to the `/internal/allowed` endpoint over time. The panel can be used to monitor request rates and understand if there's a performance or scalability issue with that specific endpoint. Use the link for more detailed overview of this metric.
+
+_Panel Information_
+
+* Metrics:
+  * `controller_action:gitlab_transaction_duration_seconds_count:rate1m`
+* Label Filters:
+  * `action` = `POST /api/internal/allowed`
+  * `controller` = `Grape`
+  * `environment` = `gprd`
+  * `stage` = `main`
+  * `type` = `internal-api`
+* Operations:
+  * Avg over time: `range | $__interval`
+  * Sum:
+    * Label: `controller`
+    * Label: `action`
+* Legends:
+  * `{{action}}`
+
+**[Internal API / Memory Saturation Rate](https://dashboards.gitlab.net/d/fdk7i56zibv28d/secret-push-protection-e28093-overview?orgId=1&viewPanel=42)**
+
+This panel displays the memory saturation rate for two components of the internal API, which are [Ruby VM](https://dashboards.gitlab.net/goto/ptHVRjsIR?orgId=1) and [Puma Workers](https://dashboards.gitlab.net/goto/dJXnRjyIR?orgId=1). This is helpful to understand if the memory consumption in Rails had increased to the point of saturation, which indicates a performance and a scalability issue and requires attention. Note: this panel isn't specific to `/internal/allowed` endpoint.
+
+_Panel Information_
+
+* Metrics:
+  * `gitlab_component_saturation:ratio`
+* Label Filters:
+  * `env` = `grpd`
+  * `environemnt` = `gprd`
+  * `stage` = `main`
+  * `type` = `internal-api`
+  * `component` = `ruby_thread_contention` | `puma_workers`
+* Operations:
+  * Max over time: `range | $__interval`
+  * Max:
+    * Label: `component`
+* Legends:
+  * Auto
 
 ### Where else to look for help?
 

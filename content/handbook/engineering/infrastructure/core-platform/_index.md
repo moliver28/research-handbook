@@ -42,7 +42,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Geo
 
-{{< team-by-manager-slug manager="juan-silva" >}}
+{{< team-by-manager-slug manager="luciezhao" >}}
 
 ### Gitaly
 
@@ -58,7 +58,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Tenant Scale
 
-{{< team-by-manager-slug manager="arturo-herrero" >}}
+{{< team-by-manager-slug manager="sissiyao" >}}
 
 ## Stable Counterparts
 
@@ -201,7 +201,7 @@ The Core Platform teams leverage the following software or SaaS services to deli
 | -----    | -----       | -----   | -----      | -----         | -----    |
 | packagecloud.io | [https://packagecloud.io/](https://packagecloud.io/) | Annual | March 30th | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/485), [last renewal PO](https://gitlab.coupahost.com/requisition_headers/618)  |
 | dependencies.io | [https://www.dropseed.io/](https://www.dropseed.io/ ) | Annual | November 1st | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/514) |
-| postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/676) |
+| postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1310) |
 
 ## Internal Opportunities Pilot
 
@@ -221,4 +221,4 @@ The following conditions are followed when initiating the process:
 1. The applying candidate's last performance rating was `Performing` and there is no ongoing performance concerns at the time of application.
 2. The length of duration is what is defined by the Rapid Action and Borrow requests. For Internship, it is typically [6 weeks to 3 months](/handbook/people-group/learning-and-development/internship-for-learning/#:~:text=How%20long%20does%20an%20internship%20of%20this%20nature%20last%3F).
 3. At any time, the maximum concurrent temporary assignments cannot exceed 2 individuals for the roles within Core Platform. Note that there is no limit to roles for Rapid Actions and Borrows of company priority initiatives.
-4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an ‘Internship’) with another team.'
+4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an 'Internship') with another team.'

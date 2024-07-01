@@ -131,7 +131,7 @@ A [Slack workflow](https://gitlab.com/gitlab-com/gl-infra/scalability/-/snippets
 
 - Issue Tracker
 - Slack Channels
-    - #sd_dev_engineering
-    - #s_manage
-    - #s_plan
-    - #s_create
+  - #sd_dev_engineering
+  - #s_manage
+  - #s_plan
+  - #s_create

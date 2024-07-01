@@ -1,13 +1,6 @@
 ---
-
 title: "Using Salesforce within Customer Success"
 ---
-
-
-
-
-
-
 
 - Using Salesforce within Customer Success *(Current)*
 - [Account Onboarding](/handbook/customer-success/csm/onboarding/)
@@ -28,7 +21,7 @@ CSM Sentiment - A field to list the CSM's sense of the [customer's health](/hand
 
 Salesforce operates using a series of objects. Standard objects are objects that are included with Salesforce. Common business objects like Account, Contact, Lead, and Opportunity are all standard objects.
 
-Custom objects are objects that you create to store information that’s specific to your company or industry. For GitLab, we have created four custom objects that are specific to Customer Success. These are POV's and PS Engagements (PSE's). We can link these custom objects to accounts and opportunities, and create automations such as allowing us to auto-populate specific fields and notify users when a task needs to be completed.
+Custom objects are objects that you create to store information that's specific to your company or industry. For GitLab, we have created four custom objects that are specific to Customer Success. These are POV's and PS Engagements (PSE's). We can link these custom objects to accounts and opportunities, and create automations such as allowing us to auto-populate specific fields and notify users when a task needs to be completed.
 
 ### Professional Services Engagements (PSE) objects
 
@@ -56,13 +49,13 @@ In order to track the contacts that are associated with a PSE, we utilize the PS
 - Success Criteria - the pre-defined criteria for what success will look like at the end of this engagement
 - Sertifi EContract - link to the Sertifi contract
 - Status - the current project status
-   - Backlog - new booking, project initiation has not started
-   - On Hold - project is on hold due to the customer
-   - Initiation - in kick off or planning stages
-   - In Progress - the project is being worked on
-   - Closure - waiting for customer signature or finalizing paperwork but the services have been rendered
-   - Completed - the project is 100%, all items have been signed-off, and this PS Engagement object is complete
-   - Cancelled - the project has been cancelled
+  - Backlog - new booking, project initiation has not started
+  - On Hold - project is on hold due to the customer
+  - Initiation - in kick off or planning stages
+  - In Progress - the project is being worked on
+  - Closure - waiting for customer signature or finalizing paperwork but the services have been rendered
+  - Completed - the project is 100%, all items have been signed-off, and this PS Engagement object is complete
+  - Cancelled - the project has been cancelled
 - SOW Link - link to the SOW
 - Collaboration Project - link to the GitLab collaboration project
 - % Complete - the PS engineer's estimate on the project's completion

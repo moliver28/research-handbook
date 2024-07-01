@@ -145,7 +145,7 @@ If you're interested in becoming a stable counterpart for a group,
 
 - Discuss with your manager.
 - Open an issue with the [SSC Onboarding template](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Support%20Stable%20Counterparts%20Basics.md) in the Support Training project.
-  - This is a very very short module that walks you through expectations and best practices, and will take less than half a day to complete!
+  - This is a very short module that walks you through expectations and best practices, and will take less than half a day to complete!
 - Once done, create a handbook merge request:
   - Add your name under 'Support' for the relevant team on [/data/stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml). Spell your name exactly as in the [YAML file for your team page entry](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person) to ensure it will be linked up correctly.
   - Assign the MR to your manager.

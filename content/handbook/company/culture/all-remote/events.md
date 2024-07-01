@@ -41,7 +41,7 @@ Remote summits may be by invitation only and encourage idea-sharing, discussion,
 
 {{< youtube "7DYy02_9Ebg" >}}
 
-> [Running Remote](https://runningremote.com/) is carefully curated to teach you next-level, actionable strategies, and tactics you can utilize the very next day to manage and grow your distributed team. Their mission is to provide the education and tools that founders and professionals need to succeed in the future of work. This is a gathering of leaders who will share everything they’ve learned running a remote first organisation.
+> [Running Remote](https://runningremote.com/) is carefully curated to teach you next-level, actionable strategies, and tactics you can utilize the very next day to manage and grow your distributed team. Their mission is to provide the education and tools that founders and professionals need to succeed in the future of work. This is a gathering of leaders who will share everything they've learned running a remote first organisation.
 
 ### The Remote Work Summit
 
@@ -57,7 +57,7 @@ Remote summits may be by invitation only and encourage idea-sharing, discussion,
 
 ### RemoteCon
 
-> [RemoteCon](https://www.remotecon.org/index.html) is a remote conference on remote work. It took place April 7, 2020 on Zoom. RemoteCon is organized by [Marcel Salathé](https://twitter.com/marcelsalathe) and a group of volunteers at EPFL who believe that remote is not only changing how we work, but also how society organizes itself. Getting remote work right is thus one of the biggest challenges of the 21st century. It’s time to talk about it.
+> [RemoteCon](https://www.remotecon.org/index.html) is a remote conference on remote work. It took place April 7, 2020 on Zoom. RemoteCon is organized by [Marcel Salathé](https://twitter.com/marcelsalathe) and a group of volunteers at EPFL who believe that remote is not only changing how we work, but also how society organizes itself. Getting remote work right is thus one of the biggest challenges of the 21st century. It's time to talk about it.
 
 ## What is the difference between a remote work **conference** and a remote work **summit**?
 
@@ -92,8 +92,8 @@ If you're a founder or hiring manager, these events offer a platform to promote 
 
 As remote work becomes more popular, a number of conferences and summits are emerging to serve a few key purposes.
 
-1. Educate the world on the [power]({{< ref "./remote-benefits" >}}) and [efficiency]({{< ref "values#efficiency" >}}) of working remotely, including those who have not yet embraced remote work.
-1. Bring remote workers and companies together to fuel [collaboration]({{< ref "values#collaboration" >}}) and share learnings.
+1. Educate the world on the [power]({{< ref "./remote-benefits" >}}) and [efficiency](/handbook/values/#efficiency) of working remotely, including those who have not yet embraced remote work.
+1. Bring remote workers and companies together to fuel [collaboration](/handbook/values/#collaboration) and share learnings.
 1. Provide a platform for experts to share knowledge with the [broader remote work community]({{< ref "./jobs" >}}).
 1. Create a tighter, more unified network of all-remote and remote-first advocates to evangelize for the creation of [more remote roles]({{< ref "./hiring" >}}).
 

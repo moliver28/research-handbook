@@ -1,14 +1,7 @@
 ---
-
 title: "Sidney Persona snippets"
 
 ---
-
-
-
-
-
-
 
 ## SDR persona snippets by use case
 

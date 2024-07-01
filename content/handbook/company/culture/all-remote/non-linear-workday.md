@@ -26,7 +26,7 @@ A common recommendation for those new to remote work is to find a routine early 
 
 Routine is a common suggestion not necessarily because it is *good*, but because it is *tradition*. Routine is mandated in a colocated environment, where team members are required to commute and work between fixed hours. We have been conditioned to believe that routine keeps us disciplined, when in reality, routine simply makes it easier for colocated companies to keep workers in line.
 
-Many people adhere to routines simply because they know no other way. Remote allows another option, thanks to the tremendous benefits of [asynchronous workflows]({{< ref "./asynchronous" >}}), [handbook-first documentation]({{< ref "./handbook-first" >}}), and companywide [transparency]({{< ref "values#transparency" >}}).
+Many people adhere to routines simply because they know no other way. Remote allows another option, thanks to the tremendous benefits of [asynchronous workflows]({{< ref "./asynchronous" >}}), [handbook-first documentation]({{< ref "./handbook-first" >}}), and companywide [transparency](/handbook/values/#transparency).
 
 ## What is a non-linear workday?
 
@@ -74,11 +74,11 @@ A non-linear workday empowers team members to live and work both when and where 
 
 ### Autonomy
 
-Team members are given [agency]({{< ref "values#give-agency" >}}) to move projects forward on a schedule that suits them. Because GitLab [measures results, not hours]({{< ref "values#measure-results-not-hours" >}}), people are free to achieve results when it best suits them.
+Team members are given [agency](/handbook/values/#give-agency) to move projects forward on a schedule that suits them. Because GitLab [measures results, not hours](/handbook/values/#measure-results-not-hours), people are free to achieve results when it best suits them.
 
 ### Efficiency
 
-Remote decouples routine from responsibility. Employees who enjoy being a [manager of one]({{< ref "values#managers-of-one" >}}) thrive in a remote setting, and often exhibit *more* discipline to work well when no one is looking.
+Remote decouples routine from responsibility. Employees who enjoy being a [manager of one](/handbook/values/#managers-of-one) thrive in a remote setting, and often exhibit *more* discipline to work well when no one is looking.
 
 ## Q: What are the challenges of a non-linear workday routine?
 
@@ -100,7 +100,7 @@ The most common distractions to remote workers are ambient sounds, visual distra
 
 ## Q: What are the best ways to stay productive when working remotely?
 
-It can be tempting to default to old ways, whereas working a non-linear schedule or from a unique location requires doing things differently. [Basecamp's Handbook](https://basecamp.com/handbook) tells us that **there’s as much to unlearn as there is to learn** when it comes to thriving in a remote role.
+It can be tempting to default to old ways, whereas working a non-linear schedule or from a unique location requires doing things differently. [Basecamp's Handbook](https://basecamp.com/handbook) tells us that **there's as much to unlearn as there is to learn** when it comes to thriving in a remote role.
 
 While remote work provides flexibility, freedom, and autonomy, it also requires adaptibility and experimentation when it comes to learning remote communication. A few pro tips include:
 
@@ -117,7 +117,7 @@ There is more benefit to working remotely than simply getting rid of the commute
 
 You can explore our [complete guide for remote workers]({{< ref "./getting-started" >}}), which contains great tips for staying organized such as:
 
-- Invest time [learning the company's technology & tools]({{< ref "./getting-started#familiarize-yourself-with-the-companys-technology--tools" >}}) to maximize [efficiency]({{< ref "values#efficiency" >}})
+- Invest time [learning the company's technology & tools]({{< ref "./getting-started#familiarize-yourself-with-the-companys-technology--tools" >}}) to maximize [efficiency](/handbook/values/#efficiency)
 - Develop a [schedule]({{< ref "./getting-started#develop-a-schedule-that-you-can-initially-follow" >}}) that you can test and tweak
 - Create strategic [connections with co-workers]({{< ref "./getting-started#how-to-connect-with-people-when-starting-a-remote-job" >}})
 - Set up [work-life boundaries]({{< ref "./getting-started#set-up-work-life-boundaries" >}})
@@ -137,7 +137,7 @@ The more this bothers you, the further you need to distance your organization fr
 
 Answering the above will allow you to truly evaluate what elements of routine are beneficial to you, and which are holding you back.
 
-The above skiing example is a maximally [efficient]({{< ref "values#efficiency" >}}) day. It was a full working day, and a full day of exploring and spending meaningful time with family. The above team member could've opted to take PTO ([paid time off]({{< ref "paid-time-off" >}})), or opted for a shorter ski session. He could've taken a half-day, thereby extending the ski session or simply providing more buffer time between work and play.
+The above skiing example is a maximally [efficient](/handbook/values/#efficiency) day. It was a full working day, and a full day of exploring and spending meaningful time with family. The above team member could've opted to take PTO ([paid time off]({{< ref "paid-time-off" >}})), or opted for a shorter ski session. He could've taken a half-day, thereby extending the ski session or simply providing more buffer time between work and play.
 
 You could swap anything in for skiing and envision how it could apply to you. From participating in midday school activities with your children, to helping with a midday community service event, to being available to serve as support during an important medical appointment for a loved one — the examples are endless.
 
@@ -145,7 +145,7 @@ The point is, a non-linear mindset gives you options to [break free from routine
 
 {{< youtube "csS3iTjIHNo?start=1193" >}}
 
-*In a [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) conversation, Dani from Ceridian asked GitLab's Head of Remote the following question: "What’s a question that people don’t ask, but you feel they should, about remote work?"*
+*In a [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) conversation, Dani from Ceridian asked GitLab's Head of Remote the following question: "What's a question that people don't ask, but you feel they should, about remote work?"*
 
 *His answer is verbalized in the video above, and partially transcribed below.*
 
@@ -169,7 +169,7 @@ The example detailed here would not have been possible without a few realities a
 - The company must work [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), such that all meaningful takeaways from conversations are documented in their proper place, around the clock.
 - The company must embrace [asynchronous workflows]({{< ref "./asynchronous" >}}) (including [tools like GitLab](https://about.gitlab.com/stages-devops-lifecycle) as well as processes) in a deliberate, intentional, and thorough way.
 - The company must support a [non-judgemental culture]({{< ref "./mental-health#create-a-non-judgemental-culture" >}}), which measures team members on [results rather than hours]({{< ref "remote-values#results" >}}). This enables people to enter and exit work as they so choose, with no fear of retribution for doing something as unorthodox as skiing while everyone else works, and working while everyone else wishes they would've gone skiing.
-- A personal dedication to being a [manager of one]({{< ref "values#managers-of-one" >}}), able to focus on the right tasks while working from a foreign environment.
+- A personal dedication to being a [manager of one](/handbook/values/#managers-of-one), able to focus on the right tasks while working from a foreign environment.
 - An understanding that not every single day will look like this. Even masters of non-linear workdays recognize that some days are less amenable to midday excursions than others. Rather than being sour about that, embrace the thrill of it being possible at all, and put effort into structuring your upcoming schedule in a way that allows for such days. As a manager of one, you have to take control over (and be accountable for) your schedule. Otherwise, other forces of the world and work will control it for you.
 
 In December of 2021, the Learning and Development team hosted [Dr. Krystal Wilkinson](https://www.mmu.ac.uk/business-school/about-us/our-staff/pp/profile/index.php?id=1039), senior lecturer at Manchester Metropolitain University, to speak about her research on the impact, challenges, and realities of working structures similar to the non-linear workday. Watch the recording on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/watch?v=m-GBiLbfTVk).
@@ -188,7 +188,7 @@ GitLab's [approach to meetings](./meetings), as with all of our processes, is pu
 
 While embracing non-linear workdays can be incredibly freeing, it's also important to recognize that breaking daily routines might not be productive for everyone. In a conversation in GitLab's [#neurodiversity]({{< ref "erg-gitlab-diversability" >}}) Slack channel, team members shared a range of experiences with non-linear workdays.
 
-Ultimately, it's up to each person to experiment and determine their optimal work preferences and schedule (or lack thereof). Whether your schedule looks different each day, or you stick to a strict routine, or you incorporate elements of both, the key is knowing that you have the freedom and [autonomy]({{< ref "values#managers-of-one" >}}) to decide what's best for you.
+Ultimately, it's up to each person to experiment and determine their optimal work preferences and schedule (or lack thereof). Whether your schedule looks different each day, or you stick to a strict routine, or you incorporate elements of both, the key is knowing that you have the freedom and [autonomy](/handbook/values/#managers-of-one) to decide what's best for you.
 
 ### Set clear priorities: 3 tasks
 

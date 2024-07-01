@@ -71,9 +71,6 @@ We use the Activation development [workflow board](https://gitlab.com/groups/git
 
 ## Common Links
 
-- [Growth Stage]
-- [Activation issues]
+- [Growth Stage](/handbook/marketing/growth/engineering/)
+- [Activation issues](https://gitlab.com/gitlab-org/growth/product/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aactivation)
 - `#g_activation` in [Slack](https://gitlab.slack.com/archives/g_activation) (GitLab internal)
-
-[Growth stage]: /handbook/marketing/growth/engineering/
-[Activation issues]: https://gitlab.com/gitlab-org/growth/product/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aactivation

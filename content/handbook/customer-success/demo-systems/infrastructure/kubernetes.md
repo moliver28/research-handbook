@@ -1,14 +1,7 @@
 ---
-
 title: "Demo Systems Infrastructure - Kubernetes"
-description: “Discover GitLab’s Kubernetes Cluster Design for different cluster sizes”
+description: "Discover GitLab's Kubernetes Cluster Design for different cluster sizes"
 ---
-
-
-
-
-
-
 
 ## Kubernetes Cluster Design
 
@@ -114,7 +107,7 @@ There are known limitations with a single Kubernetes cluster that seem beyond ou
 
 [Learn more about GKE design limitations](https://cloud.google.com/kubernetes-engine/docs/how-to/alias-ips#creating_cluster)
 
-##### Kubernetes Limitations
+#### Kubernetes Limitations
 
 | Quantity                | Limit per namespace       | Limit per cluster        |
 |-------------------------|---------------------------|--------------------------|
@@ -125,7 +118,7 @@ There are known limitations with a single Kubernetes cluster that seem beyond ou
 | # Services              | 5000                      | 10000                    |
 | # Pods per service      | 250                       | n/a                      |
 
-##### Pod CIDR Ranges
+#### Pod CIDR Ranges
 
 | # Pods per Node     | CIDR Range per Node |
 |-----------------------|---------------------|
@@ -135,7 +128,7 @@ There are known limitations with a single Kubernetes cluster that seem beyond ou
 | 33-64                 | /25                 |
 | 65-110                | /24                 |
 
-##### Node CIDR Ranges
+#### Node CIDR Ranges
 
 | # Nodes per Subnet | Subnet CIDR         |
 |-----------------------|---------------------|
@@ -152,7 +145,7 @@ There are known limitations with a single Kubernetes cluster that seem beyond ou
 | 8,188                 | /19                 |
 | 16,777,212            | /8                  |
 
-##### Service CIDR Ranges
+#### Service CIDR Ranges
 
 | # Services per Subnet | Subnet CIDR         |
 |-----------------------|---------------------|

@@ -1,5 +1,4 @@
 ---
-
 title: "Open Source Program"
 description: "Learn about the GitLab for Open Source Program and other open source programs from GitLab's Developer Relations team"
 ---
@@ -144,7 +143,7 @@ Because these requests often contain sensitive data and personally identifying i
 * When a new request arrives, Service Desk will label the issue as `OS Program Support::Intake`.
 * When the ticket is under active review and remediation with a team member, that team member should assign it to themselves and add the `OS Program Support::Open` label.
 * When a support issue is pending program member review and/or additional details, it should receive the `OS Program Supprt::Pending` label.
-* When a a support issue has been resolved, it should receive the `OS Program Support::Closed` label.
+* When a support issue has been resolved, it should receive the `OS Program Support::Closed` label.
 
 View the current status of all open program support issues on [a private project board](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support/-/boards/5749258).
 
@@ -248,7 +247,7 @@ After that:
 
 GitLab's open source partners requesting support track most of their issues publicly.
 They do this via issue trackers located in the [GitLab Open Source Partners](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners) group—most commonly the [Community Support](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues) project.
-Here, fellow open source partners partners and GitLab team members can collaborate on supporting GitLab's open source partners.
+Here, fellow open source partners and GitLab team members can collaborate on supporting GitLab's open source partners.
 
 Partners may wish to open issues related to their work migrating infrastructure from legacy infrastructure to GitLab (for instance, note examples from [KDE](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/7), [Drupal](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/4), and [Freedesktop.org](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/9)).
 To create migration-focused issues, partners can use the `open-source-partner-migration` issue template.
@@ -326,7 +325,7 @@ When we review the application, we'll assess it with these considerations in min
 | ---------------| ------------------------ | -----------------------|
 | Awareness opportunities | Size of the organization<br /><br />Frequency and impact of marketing opportunities<br /><br />| How many authenticated and non-authenticated users are visiting organization's website monthly?<br /><br />How many people are part of the organization's community?<br /><br />What sorts of marketing and communication channels (social media platforms, newsletters, blogs, events) does the organization use?<br /><br /> Will GitLab appear in those official channels? How prominent would our placement be? |
 | Ease of collaboration | Access to a dedicated marketing resources/point person<br /><br />Time-to-execute for standard communication types | Does the organization have marketing capacity?<br /><br />How mature is the organization's brand and marketing portions?<br /><br />How quickly can this organization produce a resource (e.g., a case study)? A week? A month? A quarter?<br /><br />How responsive is the person in charge of the relationship?<br /><br />Is marketing handled by volunteers or paid employees? |
-| Contribution and hiring pool | Size of contributor/member base<br /><br />Overall community/member activity<br /><br />Frequency of community contribution<br /><br />Rate of adoption | How active is the community the organization is attempting to foster?<br /><br /> Does the organization have a sense of its community's health?<br /><br />Do we see hiring opportunities opportunities to recruit from the community's talent pool?<br /><br />What is the growth of the community or foundation itself?<br /><br />Do we see job opportunities within that software ecosystem (are people hiring contributors from this community in general)?<br /><br />How can GitLab contribute in ways that align with our interests?<br /><br />Can GitLab participate in the project's roadmap in ways that creates mutual value? |
+| Contribution and hiring pool | Size of contributor/member base<br /><br />Overall community/member activity<br /><br />Frequency of community contribution<br /><br />Rate of adoption | How active is the community the organization is attempting to foster?<br /><br /> Does the organization have a sense of its community's health?<br /><br />Do we see hiring opportunities to recruit from the community's talent pool?<br /><br />What is the growth of the community or foundation itself?<br /><br />Do we see job opportunities within that software ecosystem (are people hiring contributors from this community in general)?<br /><br />How can GitLab contribute in ways that align with our interests?<br /><br />Can GitLab participate in the project's roadmap in ways that creates mutual value? |
 
 #### In which consortia is GitLab involved?
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Community Programs Workflows"
 description: "Review various workflows associated with the GitLab for Education, GitLab for Open Source, and GitLab for Startups programs"
 ---
@@ -79,7 +78,7 @@ During the checkout process:
 
 The GitLab for Startups Terms:
 
-> If you meet the requirements of the GitLab for Startups Program, you will be eligible to receive twelve (12) months Ultimate [SaaS or Self-Managed] at no cost, without Support. Renewal of the User(s) will be at the current published List Price. Your use of the GitLab Software is subject to the GitLab Subscription Agreement. Software is provided as “Free Software”.
+> If you meet the requirements of the GitLab for Startups Program, you will be eligible to receive twelve (12) months Ultimate [SaaS or Self-Managed] at no cost, without Support. Renewal of the User(s) will be at the current published List Price. Your use of the GitLab Software is subject to the GitLab Subscription Agreement. Software is provided as "Free Software".
 
 ### Provisioning
 
@@ -190,11 +189,11 @@ Sales team members receiving inbound requests regarding community programs shoul
 
 1. Navigate to the **Account** view in Salesforce. Scroll down to the *Address Information*, *Billing Address*.
 
-  - Note: The **Billing Address** can also be accessed from the **Contact** view.
+   - Note: The **Billing Address** can also be accessed from the **Contact** view.
 
 1. Click the edit button to edit the address. Click *OK* to save the changes.
 
-  - Note: The address should update for the **Account**, **Contact** and **Opportunity**.
+   - Note: The address should update for the **Account**, **Contact** and **Opportunity**.
 
 ### Reassign a Salesforce object
 
@@ -213,9 +212,9 @@ Sales team members receiving inbound requests regarding community programs shoul
 
 [Naming conventions](/handbook/sales/field-operations/gtm-resources/)
 
-  - Lead status: *Accepted* means Program Manager reached out to the lead/contact
-  - Lead status: *Qualifying* means Program Manager is in 2-way conversation with lead/contact
-  - Lead status: *Unqualified* means Applicant is not qualified for that program
+- Lead status: *Accepted* means Program Manager reached out to the lead/contact
+- Lead status: *Qualifying* means Program Manager is in 2-way conversation with lead/contact
+- Lead status: *Unqualified* means Applicant is not qualified for that program
 
 ### Check approval history
 

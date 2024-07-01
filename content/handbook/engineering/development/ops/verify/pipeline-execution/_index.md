@@ -7,8 +7,7 @@ This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps st
 
 ## Vision
 
-For an understanding of what this team is going to be working on take a look at [the product
-vision](https://about.gitlab.com/direction/verify/). This team is responsible for delivering on the following directions:
+For an understanding of what this team is going to be working on take a look at [the product vision](https://about.gitlab.com/direction/verify/). This team is responsible for delivering on the following directions:
 
 - [Continuous Integration](https://about.gitlab.com/direction/verify/continuous_integration/)
 - [Merge Trains](https://about.gitlab.com/direction/verify/merge_trains/)
@@ -24,29 +23,29 @@ The Verify:Pipeline Execution Group is focused on supporting the functionality w
 
 ### Performance
 
-  - Improving perceived performance from a customer perspective. For example, responsive UIs, reduced time to results.
-  - Reducing processing time in Pipeline Execution owned code.
-  - Ensuring the reliably of results. For example, return results to web requests in a timely manner (overlaps with scalability).
+- Improving perceived performance from a customer perspective. For example, responsive UIs, reduced time to results.
+- Reducing processing time in Pipeline Execution owned code.
+- Ensuring the reliably of results. For example, return results to web requests in a timely manner (overlaps with scalability).
 
 ### Scalability
 
-  - Supporting a lot of customers.
-  - Supporting a single customer with a large and/or complex set up.
+- Supporting a lot of customers.
+- Supporting a single customer with a large and/or complex set up.
 
 ### Developer Efficiency
 
-  - Reducing the complexity of the codebase.
-  - Dealing with the breadth of the code owned by the team.
-  - Reducing length of time it takes to get an MR through the review process.
-  - Ensuring efficiency related to Community Contributions;
-     - Ensuring that issues are approachable by the community.
-     - Improving efficiency in the review process for community contributions.
+- Reducing the complexity of the codebase.
+- Dealing with the breadth of the code owned by the team.
+- Reducing length of time it takes to get an MR through the review process.
+- Ensuring efficiency related to Community Contributions;
+  - Ensuring that issues are approachable by the community.
+  - Improving efficiency in the review process for community contributions.
 
 ### Customer Experience
 
-  - Ensuring that customer issues are resolved in a timely manner.
-  - Addressing SUSImpacting issues in a timely manner.
-  - Ensuring reliable and accurate documentation is available.
+- Ensuring that customer issues are resolved in a timely manner.
+- Addressing SUSImpacting issues in a timely manner.
+- Ensuring reliable and accurate documentation is available.
 
 ## Performance Indicator
 
@@ -140,7 +139,7 @@ These are our high-level engineering driven goals for the year. As with any of o
 **Goals:**
 
 - Deep dive into existing pipeline status issues and code
-    - Determine if there are and make systemic changes to address a number of the issues
+  - Determine if there are and make systemic changes to address a number of the issues
 
 #### Scalability
 
@@ -162,7 +161,7 @@ These are our high-level engineering driven goals for the year. As with any of o
 
 - Contribute to data retention planning
 - Identify potential cost savings from compressing job logs - [Spike](https://gitlab.com/gitlab-org/gitlab/-/issues/390114)
-    - Depending on results, schedule work to implement compression
+  - Depending on results, schedule work to implement compression
 
 #### Developer Efficiency
 
@@ -277,8 +276,8 @@ is written in. Familiarity with Docker and Kubernetes is also useful on our team
 - [Next planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-execution/-/issues/?sort=popularity&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20)
 - [Help Requests for pipeline execution](https://gitlab.com/gitlab-com/ops-sub-department/section-ops-request-for-help/-/issues/?state=opened&label_name%5B%5D=Help%20group%3A%3Apipeline%20execution)
 - [Current milestome retro](https://gitlab.com/gl-retrospectives/verify-stage/pipeline-execution/-/issues?search=Pipeline+Execution+retrospective&sort=popularity&state=opened)
-- [Needs weight board][needs-weight-board]
-- [Current milestone board][workflow-board]
+- [Needs weight board](https://gitlab.com/groups/gitlab-org/-/boards/4178322)
+- [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1372896)
 
 ### Development Docs
 
@@ -309,13 +308,13 @@ For those new to the team, these links may be helpful in learning more about the
   {{< tableau/filters "GROUP_LABEL"="pipeline execution" >}}
 {{< /tableau >}}
 
-#### Cross-functional prioritisation
+### Cross-functional prioritisation
 
 The team uses the [`#g_pipeline_execution_quad`](https://gitlab.slack.com/archives/C03KK284L23) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-execution/#merged-merge-request-types) which shows the % of MRs that are [bugs](https://gitlab.com/groups/gitlab-org/-/boards/4439443?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Abug) vs [maintenance](https://gitlab.com/groups/gitlab-org/-/boards/4439961?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Amaintenance) vs [features](https://gitlab.com/groups/gitlab-org/-/boards/4440070?label_name[]=group%3A%3Apipeline%20execution&label_name[]=type%3A%3Afeature) to ensure the team's efforts are properly aligned to the prioritisation.
 
 ## How We Work
 
-The [Pipeline Execution Workflow board][workflow-board] is the source of truth for current and upcoming work.
+The [Pipeline Execution Workflow board](https://gitlab.com/groups/gitlab-org/-/boards/1372896) is the source of truth for current and upcoming work.
 
 ### Planning
 
@@ -324,7 +323,7 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
 - By the day the milestone starts:
   - The PM will assign or update `Verify::P*` labels to indicate which issues will be scheduled into upcoming milestones. Verify::P1 indicates a ~Deliverable for the current milestone. Verify::P2 a ~Deliverable for next milestone, and so on.
   - The PM will request a list of bugs to be added to the `workflow::ready for development` column aligning with the theme for the next upcoming milestone in the planning issue
-  - The [`~needs weight` board][needs-weight-board] should be updated by the PM for all issues being considered for future milestones that need weight and apply the `workflow::planning breakdown` label.
+  - The [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) should be updated by the PM for all issues being considered for future milestones that need weight and apply the `workflow::planning breakdown` label.
   - The EM and/PM will ensure that the WIP limit is set appropriately on the `workflow::ready for development` column based on the average closed weight of past milestones.
 
 - By Wednesday, 15 days before the release day:
@@ -337,14 +336,14 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
 
 - By the Friday the milestone ends:
   - Engineers should update the planning issue with any issues that may carry forward.
-  - Based on capacity, engineers will assign themselves to `Verify::P*` [`~needs weight`][needs-weight-board] issues to apply weight. Issues should be selected for in order of Verify::P1, Verify::P2, then Verify::P3.
+  - Based on capacity, engineers will assign themselves to `Verify::P*` [`~needs weight`](https://gitlab.com/groups/gitlab-org/-/boards/4178322) issues to apply weight. Issues should be selected for in order of Verify::P1, Verify::P2, then Verify::P3.
   - PM completes monthly kick-off video featuring `~direction` and `Verify::P1` issues
 
 - By the Monday of release week:
   - The PM will set `~cicd::active` on any issues in `workflow::ready for development` that could be worked on in the upcoming milestone. The total weight for this column on [the board](https://gitlab.com/groups/gitlab-org/-/boards/3465921) will not exceed 100% of the average shipped milestone's weight. For example, if the team's average closed issues weight for a milestone is 30, the column should not exceed 30 weight.
-      - The EM will ensure that `~Deliverable` is added to any `~Verify::P1` issues
-      - The PM will set the milestone for any `~Verify::P1` issues to the current milestone.
-  - The designated DRI for milestone refining will review the state of issues on the [`~needs weight` board][needs-weight-board] to ensure that all issues for future milestones are being weighted and refined by team members.
+    - The EM will ensure that `~Deliverable` is added to any `~Verify::P1` issues
+    - The PM will set the milestone for any `~Verify::P1` issues to the current milestone.
+  - The designated DRI for milestone refining will review the state of issues on the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) to ensure that all issues for future milestones are being weighted and refined by team members.
     - For any `Verify::P*` issues where team members have not already started the refinement process, the designated DRI will comment on the issue asking a specific team member or team members to start the process.
   - The EM will work with the PM and engineers to decide what should happen to any unassigned issues. They might be:
     - Reassigned with agreement from the engineer.
@@ -364,7 +363,7 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
 
 *side note: we prefer [using Refining over Grooming](/handbook/communication/top-misused-terms)*
 
-Engineers are expected to allocate approximately 6 hours each milestone to refine and weight issues on the [`~needs weight` board][needs-weight-board].
+Engineers are expected to allocate approximately 6 hours each milestone to refine and weight issues on the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322).
 
 The purpose of refining an issue is to ensure the problem statement is clear enough to provide a rough effort sizing estimate; the intention is not to provide **solution validation** during refinement. When refining issues, engineers should timebox the activity to no more than 2 hours per issue. If an issue is complex and will require more research, we should track that effort in a refinement "~spike" to ensure we account for it in milestone planning. The "~spike" should be linked as blocking the original issue and outline the outcomes expected and a timebox for the effort should be specified. The original issue should be labelled as "~workflow::blocked".
 
@@ -409,7 +408,7 @@ A good general rule is to look at the P* levels. P1 issues should be refined as 
 
 #### Weighting Issues
 
-The team makes use of the [`~needs weight` board][needs-weight-board] that shows issues that need to be weighted for upcoming milestones. The criteria are denoted by having a `~needs weight` and `~cicd::planning` applied. Throughout the month, team members review the [`~needs weight` board][needs-weight-board] and assign issues to themselves. The priority order will be determined by column: `Verify::P1`, `Verify::P2`, `Verify::P3`, then 'Open'. If there is an issue with a higher urgency for weighting, a team member might be directly assigned to the issue for a prioritized review.
+The team makes use of the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) that shows issues that need to be weighted for upcoming milestones. The criteria are denoted by having a `~needs weight` and `~cicd::planning` applied. Throughout the month, team members review the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) and assign issues to themselves. The priority order will be determined by column: `Verify::P1`, `Verify::P2`, `Verify::P3`, then 'Open'. If there is an issue with a higher urgency for weighting, a team member might be directly assigned to the issue for a prioritized review.
 
 We add a `Weight` to issues as a way to estimate the effort needed to complete an issue. We factor in complexity and any additional coordination needed to work on an issue.  We weight issues based on complexity, following the fibonacci sequence:
 
@@ -440,7 +439,7 @@ The team makes use of `Verify::P*` labels to indicate priority order of issues. 
 
 ### Workflow
 
-We use the [Pipeline Execution Workflow issue board][workflow-board] to track what we work on in the current milestone.
+We use the [Pipeline Execution Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/1372896) to track what we work on in the current milestone.
 
 Development moves through workflow states in the following order:
 
@@ -457,8 +456,8 @@ Development moves through workflow states in the following order:
 
 `workflow::planning breakdown` is driven by Product, but is a collaborative effort between Product and Engineering. The steps for **planning breakdown** typically consists of:
 
- - Product defining or clarifying the problem statement. Product  will collaborate on `problem validation` as needed.
- - Engineering clarifying the issue description as stated. Then refining and weighting the issue. If there is not enough information to do so, the PM should be tagged on the issue and the workflow state should be set to `workflow::problem validation`.
+- Product defining or clarifying the problem statement. Product  will collaborate on `problem validation` as needed.
+- Engineering clarifying the issue description as stated. Then refining and weighting the issue. If there is not enough information to do so, the PM should be tagged on the issue and the workflow state should be set to `workflow::problem validation`.
 
 At any point, if an issue becomes blocked, it would be in the `workflow::blocked` status. If there is a blocking issue, it needs to be added to the issue description or linked to the issue with a 'blocked by' relationship. If there is not a blocking issue, the reason for being blocked should be clearly communicated in a comment on the issue.
 
@@ -482,7 +481,7 @@ We use a series of labels to indicate the highest priority issues in the milesto
 1. Each milestone will start with 1 issue per engineer, which will be labeled as `Verify::P1`, `Deliverable`, and `group::pipeline execution`. This should account for approximately 30% of the average total milestone weight.
 1. Once all of the `Verify::P1` issues have been picked up and are in `workflow:in dev` or beyond, we have `Verify::P2` and `Verify::P3` to signal issues that are important and will likely become `Verify::P1` issues in later milestones.
 
-Following the  `Verify::P*` priorities, the `ready for development` column on the [Pipeline Execution Workflow issue board][workflow-board] will be curated, so that each team member can pull items from this column as they choose.
+Following the  `Verify::P*` priorities, the `ready for development` column on the [Pipeline Execution Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/1372896) will be curated, so that each team member can pull items from this column as they choose.
 
 ##### Setting the Milestone
 
@@ -490,14 +489,14 @@ When DRIs select issues, they will assign themselves to the issue and also add t
 
 #### Working Right to Left to reduce WIP
 
-Each member of the team can choose which issues to work on during a milestone by assigning the issue to themselves. When the milestone is well underway and we find ourselves looking for work, we default to working **right to left** on the **[issue board][workflow-board]** by pulling issues in the right-most column. If there is an issue that a team member can help with on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to, if they feel that they can add value and help move the issue along to completion. Additionally, prior to picking up the next issue from the top of the `workflow::ready for development` column, team members should check the [`~needs weight` board][needs-weight-board] to ensure everything in the `Verify::P*` columns has been weighted.
+Each member of the team can choose which issues to work on during a milestone by assigning the issue to themselves. When the milestone is well underway and we find ourselves looking for work, we default to working **right to left** on the **[issue board](https://gitlab.com/groups/gitlab-org/-/boards/1372896)** by pulling issues in the right-most column. If there is an issue that a team member can help with on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to, if they feel that they can add value and help move the issue along to completion. Additionally, prior to picking up the next issue from the top of the `workflow::ready for development` column, team members should check the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) to ensure everything in the `Verify::P*` columns has been weighted.
 
 Specifically, this means our work is prioritized in the following order:
 
 - Any verification on code that is in `workflow::verification` or `workflow::production`
 - Conducting code reviews on issues that are `workflow::in review`
 - Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
-- Check the [`~needs weight` board][needs-weight-board] for any issues needing to be weighted in current milestone.
+- Check the [`~needs weight` board](https://gitlab.com/groups/gitlab-org/-/boards/4178322) for any issues needing to be weighted in current milestone.
 - Then, picking from the top of the `workflow::ready for development` column
 
 The goal of this process is to reduce the amount of work in progress (WIP) at any given time. Reducing WIP forces us to "Start less, finish more", and it also reduces cycle time. Engineers should keep in mind that the DRI for a merge request is **the author(s)**, to reflect the importance of teamwork without diluting the notion that having a [DRI is encouraged by our values](/handbook/people-group/directly-responsible-individuals/#dris-and-our-values).
@@ -722,7 +721,7 @@ All the testing should be defined before the implementation starts and all parti
 - Who is the DRI for which test.
 - What is to be delivered.
 - When it will be delivered.
-    - If Feature flag is required consider [strategy for testing feature flags in end to end tests](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/782)
+  - If Feature flag is required consider [strategy for testing feature flags in end to end tests](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/782)
 
 #### E2E tests are written in parallel
 
@@ -856,8 +855,3 @@ To better understand the risk environment and each risk's causes and consequence
 ## Developer Onboarding
 
 Refer to the [Developer Onboarding in Verify](/handbook/engineering/development/ops/verify/#developer-onboarding-in-verify) section.
-
-<!-- Identifiers, in alphabetical order -->
-
-[needs-weight-board]: https://gitlab.com/groups/gitlab-org/-/boards/4178322
-[workflow-board]: https://gitlab.com/groups/gitlab-org/-/boards/1372896

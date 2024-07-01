@@ -3,7 +3,6 @@ title: "GitLab System Administration - Hands-on Lab: Configure GitLab Runners"
 description: "This Hands-On Guide walks you through installing and managing a GitLab Runner on a virtual machine."
 ---
 
-
 > Estimated time to complete: 40 minutes
 
 ## Objectives
@@ -116,4 +115,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ### Suggestions?
 
-If you’d like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.
+If you'd like to suggest changes to the GitLab System Admin Hands-on Guide, please submit them via merge request.

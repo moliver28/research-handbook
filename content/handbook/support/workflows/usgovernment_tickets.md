@@ -44,7 +44,7 @@ This is the ticket reply body where we are talking docs Title of documentation P
 
 The US Government team has implemented an automated follow up system that checks in with the submitter of a case when the case has been in a `pending` state for 7 days. After 14 consecutive days in a pending state with no replies from the submitter the case will automatically move to a `solved` state.
 
-##### Extending the follow up time
+#### Extending the follow up time
 
 There can be certain situations in which a task may take longer than 7 days for the customer to make changes and provide feedback. If there has been an agreed upon day in the future where the customer has agreed they will update us then an agent may opt to use the `Support::Block Automatic Reopen` macro. This macro will add the `blocked_by` tag and create an internal comment where the agent must fill in the details indicating why the case should remain in pending. The `blocked_by` tag must be manually removed by an agent when the agreed upon date has been reached to resume the standard pending to follow-up workflow. Some best practice suggestions for using the macro are below:
 
@@ -138,7 +138,7 @@ The US Government shift engineers are a hybrid role between US Government suppor
 1. Global Support cases in Custom Personal view ([Create the view](#create-the-personal-view-in-global-support))
 1. US Government cases that are breached or soon to breach
 
-#### Create the personal view in Global Support
+### Create the personal view in Global Support
 
 The following will describe how to create the personal view to list cases in Global where US Gov shift engineers can contribute.
 

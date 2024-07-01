@@ -183,9 +183,9 @@ Study the links below. They point to various educational sections within the Git
 1. A default to servant leadership, capable of triaging and defining solutions from inbound feedback
 1. Expert storytelling skills to generate understanding and organizational buy-in for significant change management campaigns ([High Output Management]({{< ref "high-output-management" >}}))
 1. Organizational savvy and the ability to garner influence to positively impact the working lives of team members
-1. A native visionary and problem solver who seeks outside perspectives, tools, and workflows to continually evolve an organization’s workplace design, culture, and strategy
+1. A native visionary and problem solver who seeks outside perspectives, tools, and workflows to continually evolve an organization's workplace design, culture, and strategy
 1. Propensity to form and foster interdepartmental relationships
-1. A default to working [transparently]({{< ref "values#transparency" >}}) and with a [low level of shame]({{< ref "values#low-level-of-shame" >}}) is vital given the extreme cross-functional nature of the role
+1. A default to working [transparently](/handbook/values/#transparency) and with a [low level of shame](/handbook/values/#low-level-of-shame) is vital given the extreme cross-functional nature of the role
 1. A sound advisor to other executives, guiding decisions through a global and inclusive lens
 1. Appreciation for [self-learning and self-service]({{< ref "./self-service" >}})
 1. Appreciation for [documentation]({{< ref "./handbook-first" >}}) and knowledge taxomony/codification
@@ -267,16 +267,16 @@ The below is an inexhaustive list of news articles covering the growing movement
 1. Forbes: [The Next In-Demand Job Title: Head Of The Future Of Work](https://www.forbes.com/sites/jenamcgregor/2022/01/18/the-next-in-demand-job-title-head-of-the-future-of-work/?sh=776b6d5160b8)
 1. Protocol: [Do you need to hire a 'head of remote?'](https://www.protocol.com/workplace/head-of-remote-darren-murph)
 1. NPR Marketplace: [Why more companies are hiring heads of remote work](https://www.marketplace.org/2021/10/26/why-more-companies-are-hiring-heads-of-remote-work)
-1. Quartz: [Five telltale signs you need a ‘chief remote officer’](https://qz.com/work/2167719/five-signs-your-company-needs-a-head-of-remote)
-1. The New York Times: [‘Head of Team Anywhere,’ and Other Job Titles for an Uncertain Time](https://www.nytimes.com/2022/08/04/business/job-titles-remote-work.html)
-1. Fast Company: [More companies are hiring a ‘director of remote work’](https://www.fastcompany.com/90573992/more-companies-are-hiring-a-director-of-remote-work)
+1. Quartz: [Five telltale signs you need a 'chief remote officer'](https://qz.com/work/2167719/five-signs-your-company-needs-a-head-of-remote)
+1. The New York Times: ['Head of Team Anywhere,' and Other Job Titles for an Uncertain Time](https://www.nytimes.com/2022/08/04/business/job-titles-remote-work.html)
+1. Fast Company: [More companies are hiring a 'director of remote work'](https://www.fastcompany.com/90573992/more-companies-are-hiring-a-director-of-remote-work)
 1. San Francisco Chronicle: [Tech's hottest job title in 2021? 'Head of remote work'](https://www.sfchronicle.com/local/article/Meet-the-people-making-your-work-from-home-16044685.php#photo-20765212)
-1. Digiday: [‘Change without story is a mandate, change with story is purpose’: Why marketing and comms execs are being tapped for chief-of-remote roles](https://digiday.com/marketing/change-without-story-is-a-mandate-change-with-story-is-purpose-why-marketing-and-comms-execs-are-being-tapped-for-chief-of-remote-roles)
+1. Digiday: ['Change without story is a mandate, change with story is purpose': Why marketing and comms execs are being tapped for chief-of-remote roles](https://digiday.com/marketing/change-without-story-is-a-mandate-change-with-story-is-purpose-why-marketing-and-comms-execs-are-being-tapped-for-chief-of-remote-roles)
 1. Washington Post: [Why 'head of remote' is likely to be a job title of the future](https://www.washingtonpost.com/business/2020/09/09/head-of-remote-work-jobs)
 1. The Chartered Institute of Marketing: [Is "head of remote" a marketer's next career choice?](https://www.cim.co.uk/content-hub/editorial/is-head-of-remote-a-marketer-s-next-career-choice)
-1. Crowe Global: [Exclusive Q&A With GitLab’s Head Of Remote](https://www.crowe.com/global/insights/art-of-smart/exclusive-q-a-with-gitlab-head-of-remote)
+1. Crowe Global: [Exclusive Q&A With GitLab's Head Of Remote](https://www.crowe.com/global/insights/art-of-smart/exclusive-q-a-with-gitlab-head-of-remote)
 1. Ladders: [The dawn of the age of Chief Remote Work Officers](https://www.theladders.com/career-advice/the-dawn-of-the-age-of-chief-remote-work-officers)
-1. Fortune: [Why GitLab hired a ‘head of remote’ before the coronavirus pandemic](https://fortune.com/2020/05/28/coronavirus-head-of-remote-work-from-home-gitlab-github-jobs)
+1. Fortune: [Why GitLab hired a 'head of remote' before the coronavirus pandemic](https://fortune.com/2020/05/28/coronavirus-head-of-remote-work-from-home-gitlab-github-jobs)
 1. The Economist: [The three new executive roles that define 2020](https://applied.economist.com/articles/the-three-new-executive-roles-that-define-2020-fmoma)
 1. The Globe and Mail: [Chief remote working officers are now navigating organizations into a post-pandemic world](https://www.theglobeandmail.com/business/article-chief-remote-working-officers-are-now-navigating-organizations-into-a)
 1. SHRM: [Why You Need a Remote-Work Leader](https://www.shrm.org/hr-today/news/hr-news/pages/why-you-need-remote-work-leader.aspx)

@@ -1,5 +1,4 @@
 ---
-
 title: Support Team Member Time Off
 description: Guidelines for how time off applies to Support team members and what actions need to be taken. Page should not be moved without a Support Global Change Management issue.
 ---
@@ -126,10 +125,10 @@ advance, if possible.
 
 #### If your absence will be less than three business days
 
-Is a customer waiting on you? Check with them. If your PTO will prevent a
-timely update, ask the customer whether they would prefer to pause the
-ticket till your return or have someone else step in to work with them.
-If they want to pause, put the ticket on-hold. Otherwise:
+If your PTO will prevent a timely update, ask the customer whether
+they would prefer to pause the ticket with the `on-hold` status or
+have someone else step in.
+For high priority tickets, tend towards a handing over to someone else:
 
 1. Use the [OOO Ticket Summary](https://gitlab.com/search?search=360080271299&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar)
    macro, providing the same information as described in the
@@ -195,7 +194,7 @@ If you plan to be out for more than three days, follow the guidance regarding
 Otherwise:
 
 1. Please do your best to resolve any assigned tickets you have in your queue.
-1. Communicate with your customers to let them know the days you’ll be away, and
+1. Communicate with your customers to let them know the days you'll be away, and
    to ask whether they will need help during your absence. Many of our customers
    might be on the same holiday schedule and will be fine with resuming work on
    a ticket when you both return.

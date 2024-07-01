@@ -7,12 +7,12 @@ description: "How Staging is monitored and how traffic is generated"
 
 > A service is considered available when:
 >
-> 1. The [Apdex score](https://en.wikipedia.org/wiki/Apdex) of the service is _above_ its Service Level Objective ([SLO]),
-> 1. _AND_ The [Error rate](https://en.wikipedia.org/wiki/Bit_error_rate) is _below_ its Service Level Objective ([SLO]).
+> 1. The [Apdex score](https://en.wikipedia.org/wiki/Apdex) of the service is _above_ its Service Level Objective ([SLO](https://en.wikipedia.org/wiki/Service-level_objective)),
+> 1. _AND_ The [Error rate](https://en.wikipedia.org/wiki/Bit_error_rate) is _below_ its Service Level Objective ([SLO](https://en.wikipedia.org/wiki/Service-level_objective)).
 
 The goal of Staging Monitoring is to have SLO alerts that can be used to halt an ongoing deployment. This would allow failing fast and catching bad deployments before they reach Production. To enable this we need to ensure that the environment has enough base-load traffic and the signal of an SLO failure is strong.
 
-Staging environment doesn't have as much user activity as Production since it doesn't have the same amount of real users. The environment is mostly used by test automation like [GitLab QA pipelines] and engineers who may test their code manually. These activities don't generate enough traffic so a custom load [emulation tool](#load-emulation) was designed to create artificial traffic to compensate for the lack of signal from real users.
+Staging environment doesn't have as much user activity as Production since it doesn't have the same amount of real users. The environment is mostly used by test automation like [GitLab QA pipelines](../../../engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) and engineers who may test their code manually. These activities don't generate enough traffic so a custom load [emulation tool](#load-emulation) was designed to create artificial traffic to compensate for the lack of signal from real users.
 
 ## Load emulation
 
@@ -31,7 +31,7 @@ Known limitations:
 
 CMBR generates traffic for Staging using [scheduled pipelines](https://staging.gitlab.com/gitlab-com/gl-infra/cmbr-staging-load-generator/-/pipeline_schedules) for `gstg` and `cny-gstg`. The tool uses a dedicated user with auditor role to generate load and bypass rate limits (`Credentials for Staging Crawler` stored in 1Password `Engineering` vault).
 
-Throughput is controlled by environment variables and tuned differently for each service. It's worth noting that if load needs to be increased, Staging environment's performance should be considered and verified that it doesn't affect existing [GitLab QA pipelines]. Otherwise, it may bring intermittent errors in the test runs and affect the deployment.
+Throughput is controlled by environment variables and tuned differently for each service. It's worth noting that if load needs to be increased, Staging environment's performance should be considered and verified that it doesn't affect existing [GitLab QA pipelines](../../../engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines). Otherwise, it may bring intermittent errors in the test runs and affect the deployment.
 
 ## Staging Service Monitoring
 
@@ -54,6 +54,3 @@ If you have any questions about the current setup, please reach out to [`#f_stag
 - Improving the quality of Staging SLO alerts - [epic#668](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/668)
 - Halt deployment to Production if Staging SLI degrades - [epic#771](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/771)
 - Generate SSH traffic using CMBR - [issue#5](https://gitlab.com/gitlab-com/gl-infra/cmbr/-/issues/5)
-
-[SLO]: https://en.wikipedia.org/wiki/Service-level_objective
-[GitLab QA pipelines]: ../../../engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines

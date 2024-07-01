@@ -5,13 +5,10 @@ title: Plan:Product Planning Engineering Team
 ## Plan:Product Planning team
 
 The Plan:Product Planning team works on both the backend and frontend parts of
-GitLab's [Product Planning] category in the [Plan stage].
+GitLab's [Product Planning](/handbook/product/categories/#product-planning-group) category in the [Plan stage](/handbook/engineering/development/dev/plan/).
 
 For more details about the vision for this area of the product, see the
-[Plan stage] page.
-
-[Product Planning]: /handbook/product/categories/#product-planning-group
-[Plan stage]: /handbook/engineering/development/dev/plan/
+[Plan stage](/handbook/engineering/development/dev/plan/) page.
 
 ### Team members
 
@@ -27,14 +24,10 @@ Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
 ### Team metrics dashboard
 
-We have a [metrics dashboard][dashboard] intended to
-track against some of the [Development Department KPIs][kpis], particularly
+We have a [metrics dashboard](https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard) intended to
+track against some of the [Development Department KPIs](/handbook/company/kpis/#development-department-kpis), particularly
 those around merge request creation and acceptance. From that dashboard, the
-following chart shows [MR Rate]. Please reference the dashboard section below.
-
-[dashboard]: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard
-[kpis]: /company/kpis/#development-department-kpis
-[MR Rate]: /handbook/engineering/performance-indicators/#engineering-mr-rate
+following chart shows [MR Rate](/handbook/engineering/performance-indicators/#engineering-mr-rate). Please reference the dashboard section below.
 
 ### Application performance dashboard
 
@@ -42,9 +35,7 @@ We have useful dashboards tracking the performance of parts of the application w
 
 - Application dashboards; showing request throughput, latency, SQL query counts, cache hits, Sidekiq jobs for Web and API endpoints, git usage and error budgets. Also links to other useful resources in Kibana.
   - [Product Planning]
-- The [Sitespeed Dashboard]; showing the results of ongoing synthetic tests against representative product pages. Useful for identifying changes in page load time (TTFB), LCP, etc.
-
-[Sitespeed Dashboard]: https://dashboards.gitlab.net/d/product-plan/product-performance-plan?orgId=1
+- The [Sitespeed Dashboard](https://dashboards.gitlab.net/d/product-plan/product-performance-plan?orgId=1); showing the results of ongoing synthetic tests against representative product pages. Useful for identifying changes in page load time (TTFB), LCP, etc.
 
 ## OKRs
 
@@ -58,10 +49,7 @@ FY23-Q4 OKRs were conducted in Ally.io and are no-longer available.
 
 ## Work
 
-See the [Plan stage page] and the [Plan:Project Management backend team page].
-
-[Plan stage page]: /handbook/product/categories/#plan-stage
-[Plan:Project Management backend team page]: /handbook/engineering/development/dev/plan/project-management/
+See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Plan:Project Management backend team page](/handbook/engineering/development/dev/plan/project-management/).
 
 ### Capacity Planning
 
@@ -75,11 +63,11 @@ See the [Plan stage page] and the [Plan:Project Management backend team page].
 
 Work that arrives in ~"workflow::ready for development" that is out of scope
 or ill-defined should be
-[returned to ~"workflow::planning breakdown" for further refinement][1].
+[returned to ~"workflow::planning breakdown" for further refinement](https://about.gitlab.com/handbook/product-development-flow/#build-phase-2-develop--test).
 To avoid the disruption this introduces we try to reduce the number of times
 it happens by planning more carefully. While it's not always possible, we aim
 to identify complexity before the build phase, such as by assigning an engineering
-[DRI][dri] during the design and validation phase.
+[DRI](/handbook/people-group/directly-responsible-individuals/) during the design and validation phase.
 
 However, sometimes complexity can't be accurately estimated until development
 work starts. If you anticipate this during planning, consider creating a spike to produce a
@@ -100,9 +88,6 @@ The deliverable is a design document that answers the questions set out in the
 issue description. This can simply be the issue itself, containing a summary
 of the discussion in the description, answers to the questions and links to
 any PoC MRs produced.
-
-[1]: https://about.gitlab.com/handbook/product-development-flow/#build-phase-2-develop--test
-[dri]: https://about.gitlab.com/handbook/people-group/directly-responsible-individuals/
 
 #### Historical Capacity
 
@@ -151,7 +136,7 @@ get involved before proceeding with development.
 
 The ~"backend complete" label is added to issues with multiple specializations (usually backend and
 frontend) to indicate that the backend component is complete. Backend engineers should add this label when the backend work is
-functionally complete, merged and verified but frontend, or other, work is ongoing.
+functionally complete, merged and verified but frontend, or other work is ongoing.
 
 #### Health Status
 
@@ -161,25 +146,20 @@ Using health status allows stakeholders, such as product and engineering manager
 
 #### Documentation
 
-Documentation should accompany code for any [new or changed functionality] as per our
-[definition of done]. This can become tricky when collaborating on a feature that is
+Documentation should accompany code for any [new or changed functionality](/handbook/product/ux/technical-writing/workflow/#for-a-product-change) as per our
+[definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done). This can become tricky when collaborating on a feature that is
 behind a feature flag.
 
 Since all feature flags start as disabled by default, we should aim to document the
-feature as soon as it's safe for testing by users using the [feature flag template].
+feature as soon as it's safe for testing by users using the [feature flag template](https://docs.gitlab.com/ee/development/documentation/feature_flags.html#features-disabled-by-default).
 Don't wait until a feature is performant and stable to document it, instead do so once
 it's secure and won't leave data in a corrupt, interim state.
 
 Try to include docs with the first MR to introduce usable functionality. If this is
 an API addition with no UI, document that and allow the FE engineers to update it as
-work proceeds. As the feature flag rollout proceeds, the [documentation should be updated].
+work proceeds. As the feature flag rollout proceeds, the [documentation should be updated](https://docs.gitlab.com/ee/development/documentation/feature_flags.html#features-that-became-enabled-by-default).
 
 This avoids the rush to provide documentation that often accompanies the release cutoff.
-
-[new or changed functionality]: https://about.gitlab.com/handbook/product/ux/technical-writing/workflow/#for-a-product-change
-[definition of done]: https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done
-[feature flag template]: https://docs.gitlab.com/ee/development/documentation/feature_flags.html#features-disabled-by-default
-[documentation should be updated]: https://docs.gitlab.com/ee/development/documentation/feature_flags.html#features-that-became-enabled-by-default
 
 ### Dashboards
 
@@ -199,28 +179,21 @@ This avoids the rush to provide documentation that often accompanies the release
   {{< tableau/filters "GROUP_LABEL"="product planning" >}}
 {{< /tableau >}}
 
-Detailed metrics are available on the [Engineering Metrics page].
+Detailed metrics are available on the [Engineering Metrics page](/handbook/engineering/metrics/dashboards/).
 
-Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification] section of the metrics page.
+Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/engineering/metrics/#work-type-classification) section of the metrics page.
 
 Note: MR Type may differ from issue type. For example, a ~"maintenance::dependency" change that supports a new ~"feature::enhancement".
 
-[Engineering Metrics page]: https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/
-[Work Type Classification]: https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification
-
 ### Picking something to work on
 
-The team [Build Board] always shows work in the current
-release, with [workflow columns] relevant to implementation. Filtering it by
+The team [Build Board](https://gitlab.com/groups/gitlab-org/-/boards/1569369?label_name[]=devops%3A%3Aplan&label_name[]=group%3A%3Aproduct%20planning&milestone_title=Started) always shows work in the current
+release, with [workflow columns](/handbook/product-development-flow/) relevant to implementation. Filtering it by
 ~backend shows issues for backend engineers to work on.
 
 It's OK to not take the top item if you are not confident you can solve
-it, but please post in [#s_plan] if that's the case, as this probably
+it, but please post in [#s_plan](https://gitlab.slack.com/archives/s_plan) if that's the case, as this probably
 means the issue should be better specified.
-
-[workflow columns]: /handbook/product-development-flow/
-[Build Board]: https://gitlab.com/groups/gitlab-org/-/boards/1569369?label_name[]=devops%3A%3Aplan&label_name[]=group%3A%3Aproduct%20planning&milestone_title=Started
-[#s_plan]: https://gitlab.slack.com/archives/s_plan
 
 ### Direction Items
 
@@ -233,18 +206,17 @@ Items that are customer-facing deliverables and high impact are labeled with ~"d
 ### Working on unscheduled issues
 
 Everyone at GitLab has the freedom to manage their work as they see fit,
-because [we measure results, not hours][results]. Part of this is the
+because [we measure results, not hours](/handbook/values/#results). Part of this is the
 opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
 
-1. We expect people to be [managers of one][efficiency], and we [use
-   GitLab ourselves][collaboration]. If you see something that you think
-   is important, you can [request for it to be scheduled], or you can
-   [work on a proposal yourself][iteration], as long as you keep your
+1. We expect people to be [managers of one](/handbook/values/#efficiency), and we [use GitLab ourselves](/handbook/values/#collaboration). If you see something that you think
+   is important, you can [request for it to be scheduled](/handbook/engineering/workflow/#requesting-something-to-be-scheduled), or you can
+   [work on a proposal yourself](/handbook/values/#iteration), as long as you keep your
    other tasks in mind.
 1. From time to time, there are events that GitLab team-members can participate
-   in, like the [issue bash]. Anyone is welcome
+   in, like the [issue bash](https://about.gitlab.com/community/issue-bash/). Anyone is welcome
    to participate in these.
 1. If you feel like you want to have some specific time set aside, but
    aren't interested in the topics of an existing event, feel free to
@@ -253,28 +225,14 @@ in the handbook, and it is here to make those explicit:
 When you pick something to work on, please:
 
 1. Follow the standard workflow and assign it to yourself.
-1. Share it in [#s_plan] - if not even more widely (like in #development
-   or #backend).
-
-[collaboration]: /handbook/values/#collaboration
-[results]: /handbook/values/#results
-[efficiency]: /handbook/values/#efficiency
-[iteration]: /handbook/values/#iteration
-
-[request for it to be scheduled]: /handbook/engineering/workflow/#requesting-something-to-be-scheduled
-[issue bash]: https://about.gitlab.com/community/issue-bash/
+1. Share it in [#s_plan](https://gitlab.slack.com/archives/s_plan) - if not even more widely (like in [#development](https://gitlab.slack.com/archives/development)
+   or [#backend](https://gitlab.slack.com/archives/backend)).
 
 ## Useful links
 
-- [:Plan:Product Planning] - Apply a milestone filter to see work in the current release
-- [#s_plan] in Slack
-- [Recorded meetings][youtube]
-- [Retrospectives][retros]
-- [Group Conversations] (archive; group conversations now happen at a the
-  [section level])
-
-[:Plan:Product Planning]: https://gitlab.com/groups/gitlab-org/-/boards/1569369?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Aplan&not[label_name][]=group%3A%3Aproject%20management]
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0
-[retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
-[Group Conversations]: http://gitlab-org.gitlab.io/group-conversations/plan/
-[section level]: /company/team/structure/#organizational-structure
+- [:Plan:Product Planning](https://gitlab.com/groups/gitlab-org/-/boards/1569369?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Aplan&not[label_name][]=group%3A%3Aproject%20management]) - Apply a milestone filter to see work in the current release
+- [#s_plan](https://gitlab.slack.com/archives/s_plan) in Slack
+- [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0)
+- [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
+- [Group Conversations](http://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
+  [section level](/handbook/company/team/structure/#organizational-structure))

@@ -13,7 +13,7 @@ The Medical Plan Coverage includes
 - Major Medical
 - Oupatient GP & SP
 - Dental
-   - **Please note that Dental benefits for this plan are cashless at panel Dental Clinics only. Team Members should show their eCard at the dental clinic to utlize the plan.**
+  - **Please note that Dental benefits for this plan are cashless at panel Dental Clinics only. Team Members should show their eCard at the dental clinic to utlize the plan.**
 
 For a summary of the Medical plan details please refer to slides 8 - 26 of the [Singapore Benefits Deck.](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing)
 
@@ -33,7 +33,7 @@ Login to the MySingLife portal or the SingLife App to:
 
 Step 1 : Go to https://mysinglife.singlife.com/account/login to register and setup for MySinglife Portal account. This step can be skipped for existing MySinglife Portal user.
 
-Step 2 : Download the Singlife App from Google Play or Apple App Store, and login using MySinglife Portal’s email address and password.
+Step 2 : Download the Singlife App from Google Play or Apple App Store, and login using MySinglife Portal's email address and password.
 
 You are now able to access the claim features in the portal and the mobile app. You can only register your account via the portal, not the app.
 
@@ -90,11 +90,11 @@ When adding a new dependent to the plan, please include the following informatio
 
 Effective November 20, 2023, GitLab offers all Singapore Team Members an annual Health Screening through Fullerton Health.
 
-Team Members can book an Executive Health Screening at one of Fullerton Health’s locations throughout Singapore. The cost of the screening will be invoiced directly to GitLab.  The benefit renews in the Calendar Year.
+Team Members can book an Executive Health Screening at one of Fullerton Health's locations throughout Singapore. The cost of the screening will be invoiced directly to GitLab.  The benefit renews in the Calendar Year.
 
 Team Members can add Optional Tests and Screenings at their own cost. For additional details on the locations, what is included in the screenings, as well as information on how to book your appointment, please see the [Fullerton Health Guide](https://drive.google.com/file/d/1O7lgEE-lbo2I1lkekc39TDKBDpAV9FXG/view?usp=sharing).
 
-You can sign up for the benefit and book an appointment via the [Fullerton Health Website](https://bookappt.fullertonhealth.com/#/login). Click on “Sign Up”, fill out your information, and search for “GITLAB SINGAPORE PTE LTD” under the Company drop down.
+You can sign up for the benefit and book an appointment via the [Fullerton Health Website](https://bookappt.fullertonhealth.com/#/login). Click on "Sign Up", fill out your information, and search for "GITLAB SINGAPORE PTE LTD" under the Company drop down.
 
 Note: Since GitLab pays for the benefit directly, this benefit is not considered CPF payable
 

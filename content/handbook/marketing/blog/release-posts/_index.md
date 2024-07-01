@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Release Posts"
 description: "Guidelines to create and update release posts"
 ---
@@ -10,8 +9,9 @@ Release posts are [blog posts](https://about.gitlab.com/releases/categories/rele
 
 Release posts follow a process outlined here, and the templates that are used to create them also highlight what needs to be done, by whom, and when those items are due.
 
-*Note:* We're evolving our release post process! You can view and share feedback on the latest direction by viewing [Scaling the release post](https://docs.google.com/presentation/d/1_Osx3FrDxT4aqjl-Kc9QXgp30z0Pl1k4tBCv0DlZYkk/edit).
-{:.note}
+{{% note %}}
+We're evolving our release post process! You can view and share feedback on the latest direction by viewing [Scaling the release post](https://docs.google.com/presentation/d/1_Osx3FrDxT4aqjl-Kc9QXgp30z0Pl1k4tBCv0DlZYkk/edit).
+{{% /note %}}
 
 ## Quick Links
 
@@ -52,8 +52,9 @@ At a high level, the Release post schedule is:
     - MRs can be manually verified using the `/chatops run release check <MR URL> <RELEASE>` chatops command
 - **TW Reviewers** merge deprecation and removal MRs
 
-Note: MRs added after the Thursday, 1 week before release should target the `release-x-y` branch, not `master`
-{: .note}
+{{% note %}}
+MRs added after the Thursday, 1 week before release should target the `release-x-y` branch, not `master`
+{{% /note %}}
 
 ### Monday of release week
 
@@ -67,8 +68,10 @@ Note: MRs added after the Thursday, 1 week before release should target the `rel
   - Changes after <time datetime="16:00">4 pm UTC (11 am ET / 8 am PT)</time> on the Monday of release week will be done via the `release-X-Y` branch and are subject to approval by the Release Post Manager.
   - The TW Lead verifies the deprecations and removals links in the release post
   - RPM create a [What's New](/handbook/product/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users) MR
-Note: The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
-{: .note}
+
+{{% note %}}
+The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
+{{% /note %}}
 
 ### Thursday, release day
 
@@ -76,8 +79,9 @@ Note: The Monday through Tuesday of release week can fall on vacations or holida
 - After the package is [released](/handbook/engineering/releases/), the **Release Post Manager** publishes the release post to the  master branch
 - The [GitLab.org Releases page](https://gitlab.com/gitlab-org/gitlab/-/releases) will also populate the changelog via an **automated process** when release posts are published ([pipeline task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L303-318))
 
-**Note:** Details for all of these steps are described in the [Monthly release **post** MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb) and the [Monthly release **post item** MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md).
-{: .note}
+{{% note %}}
+Details for all of these steps are described in the [Monthly release **post** MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb) and the [Monthly release **post item** MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md).
+{{% /note %}}
 
 ## Participants
 
@@ -120,13 +124,13 @@ principle described above. Scheduled people are pinged in the merge request to m
 They don't need to confirm or approve, since they can always update the list if they are not
 available for the given release post.
 
-<i class="fas fa-exclamation-triangle" aria-hidden="true" style="color: red"></i>
-**Important**: if you're scheduled for a given month and you can't make it because you're on
+{{% alert title="⚠️ Important" color="warning" %}}
+If you're scheduled for a given month and you can't make it because you're on
 vacation, overloaded, or for any other reason, that is okay, **as long as you swap the
 Release Post Manager role** with someone else **before** creating the merge request and starting the
 whole process. If you take it, you're responsible for the entire process and must be
 available to carry it out until the end.
-{:.alert .alert-warning}
+{{% /alert %}}
 
 ### Release Post Manager Shadow
 
@@ -225,7 +229,7 @@ Please share your feedback by <time datetime="18:00">6 pm UTC (1 pm ET / 10 am P
 
 Currently there are no known issues/adjustments to the content but I know of one deprecation that needs to be added and will happen with my first wave of edits.
 
-Here’s the 13.6 release post MR: `https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66652`
+Here's the 13.6 release post MR: `https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66652`
 
 Cc @TW Lead @tech-advisor @PMM @Sid @david
 ```
@@ -287,8 +291,9 @@ Product Managers are responsible for [raising MRs for their content blocks](#con
 
 In parallel with feature development, a merge request should be prepared by the PM with the required content. **Do not wait** for the feature to be merged before drafting the release post item, it is recommended PMs write Release Post Item MRs as they prepare for the milestone Kickoff.
 
-**Important**: The [Instructions](#release-post-item-instructions) below apply up to the Monday of release week <time datetime="07:59">7:59 am UTC (2:59 am ET / Thursday, 1 week before release 11:59 pm PT)</time>. After content assembly on the Monday of release week, anyone who wants to include a change in the upcoming release post must coordinate with the Release Post Manager and follow detailed instructions in the [Merging content blocks after the Monday of release week](#adding-editing-removing-before-release-date) section for special handling of late additions.
-{:.alert .alert-info}
+{{% alert title="Important" color="info" %}}
+The [Instructions](#release-post-item-instructions) below apply up to the Monday of release week <time datetime="07:59">7:59 am UTC (2:59 am ET / Thursday, 1 week before release 11:59 pm PT)</time>. After content assembly on the Monday of release week, anyone who wants to include a change in the upcoming release post must coordinate with the Release Post Manager and follow detailed instructions in the [Merging content blocks after the Monday of release week](#adding-editing-removing-before-release-date) section for special handling of late additions.
+{{% /alert %}}
 
 ### Key dates
 
@@ -298,8 +303,9 @@ In parallel with feature development, a merge request should be prepared by the 
 - **Thursday, 1 week before release - Merged**: release post item MR merged by the Engineering Manager if feature has been merged
 - **Monday of release week - Final content assembly**: and release post blog content lock in preparation for final reviews/editing
 
-**Important**: If a feature being announced involves references to external business partners, you'll need to start MR draft approvals earlier. One such example would be [Cloud Seed](https://about.gitlab.com/releases/2022/10/22/gitlab-15-5-released/#deploy-apps-to-google-cloud-with-gitlab-cloud-seed). These types of announcements require extra reviews with GitLab leadership, business partners and Legal team. In these cases, please reach out to `@justinfarris` to start MR reviews at least one milestone ahead of the milestone in which you want to make the release post announcement.
-{:.alert .alert-info}
+{{% alert title="Important" color="info" %}}
+If a feature being announced involves references to external business partners, you'll need to start MR draft approvals earlier. One such example would be [Cloud Seed](https://about.gitlab.com/releases/2022/10/22/gitlab-15-5-released/#deploy-apps-to-google-cloud-with-gitlab-cloud-seed). These types of announcements require extra reviews with GitLab leadership, business partners and Legal team. In these cases, please reach out to `@justinfarris` to start MR reviews at least one milestone ahead of the milestone in which you want to make the release post announcement.
+{{% /alert %}}
 
 ### Release Post Item Instructions
 
@@ -307,8 +313,9 @@ In parallel with feature development, a merge request should be prepared by the 
 
 The [release post item generator](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/bin/release-post-item) automates the creation of release post items using issues and epics. Draft your release post content under the **Release notes** section of the [feature issue template](/handbook/product/product-processes/#feature-templates) and then follow the [release post item generator](#release-post-item-generator) instructions.
 
-Note: The generator will not create an MR for a confidential issue. To add a release post item for work relating to a confidential issue, follow the steps below to create an MR manually and remove any confidential information or links.
-{:.note}
+{{% note %}}
+The generator will not create an MR for a confidential issue. To add a release post item for work relating to a confidential issue, follow the steps below to create an MR manually and remove any confidential information or links.
+{{% /note %}}
 
 #### Option 2: manual MR creation
 
@@ -452,7 +459,7 @@ make sure that:
 - All primary features are accompanied by their images.
 - All new and/or primary features are added to [`data/features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/features.yml) *with a screenshot accompanying the feature (if the feature is visible in the UI)*.
   - All images are optimized according to the [image guidelines](#images) **and** smaller than 150KB.
-  - Keep in mind the [`features.yml`](/handbook/marketing/digital-experience/website/#adding-features-to-webpages) is the SSOT for displaying features across `about.gitlab.com`.
+  - Keep in mind the [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/features.yml?ref_type=heads) is the SSOT for displaying features across `about.gitlab.com`.
 - All features should have a clear value driver.
 
 As noted in the [Release Post Item template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md):
@@ -462,19 +469,19 @@ As noted in the [Release Post Item template](https://gitlab.com/gitlab-com/www-g
 - Ensure that titles use sentence case with feature and product names in capital case.
 
 Write the description of every feature as you do to regular blog posts. Please write according to
-the [Markdown guide](/handbook/markdown-guide/).
+the [Markdown guide](/handbook/product/markdown-guide/).
 
-<i class="fas fa-exclamation-triangle" aria-hidden="true" style="color: red"></i>
-**Important!** Make sure to merge `master` into the release post branch **before
+{{% alert title="⚠️ Important" color="info" %}}
+Make sure to merge `master` into the release post branch **before
 pushing changes** to any existing file to avoid merge conflicts. Do not rebase,
 do `git pull origin master` then `:wq`.
-{: .alert .alert-info}
+{{% /alert %}}
 
 ### PMs checklist
 
 Once the PMs have included everything they're accountable for, they should **check their item** in the release post MR description:
 
-![PMs check list](features-checklist.png){:.shadow}
+![PMs check list](features-checklist.png)
 
 By checking your item, you will make it clear to the Release Post Manager that you have done your part in time (during the general contributions stage) and you're waiting for review. If you don't check it, it's implicit that you didn't finish your part in time, despite that's the case or not.
 
@@ -536,11 +543,12 @@ On or before the third thursday of the month:
 
 ## TW Lead
 
-**Note:** Technical writers review the individual release post items according
+{{% alert title="Note" color="info" %}}
+Technical writers review the individual release post items according
 to the [stage/group they are assigned to](/handbook/product/ux/technical-writing/#designated-technical-writers).
 Each month, one of the technical writers is also responsible for the structural
 check of the final release post merge request. This section is about the latter.
-{: .alert .alert-info}
+{{% /alert %}}
 
 The TW Lead is responsible for a final review of:
 
@@ -578,12 +586,13 @@ these are owned by PMMs, so leave it to them to avoid unnecessary back-and-forth
 Make sure feature descriptions make sense, anchors work fine, all internal links have
 the relative path.
 
-**Note:** The introduction or other parts of the release post written may include links to external
+{{% alert title="Note" color="info" %}}
+The introduction or other parts of the release post written may include links to external
 blog posts. These links may be broken until the Wednesday, day before release, but should still be flagged by the TW Lead
 during the structural check so the Release Post Manager doesn't miss coordinating
 with authors of these external blogs to ensure they're live before the release post blog goes live
 on the [release date](/handbook/engineering/releases/).
-{: .alert .alert-info}
+{{% /alert %}}
 
 The Release Post is considered a special blog post instance, so should adhere to the Marketing
 editorial team's
@@ -643,8 +652,9 @@ For instructions, see the GitLab docs [monthly release process](https://gitlab.c
 
 ## TW Reviewers
 
-**Note:** TW reviewers should not be confused with the [TW lead](#tw-lead).
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+TW reviewers should not be confused with the [TW lead](#tw-lead).
+{{% /alert %}}
 
 Each person in the Technical Writing team is responsible for the review
 of each individual release post item and deprecation item that falls under their
@@ -679,15 +689,16 @@ If you run into problems running the Rake task, check [the troubleshooting steps
 
 ## Product Design Reviewers
 
-**Note:** Product Designers [DRIs](/handbook/people-group/directly-responsible-individuals/) review the individual release post items according to the [stage/group each designer is assigned to](/handbook/product/categories/#devops-stages).
-{: .alert .alert-info}
+{{% alert title="Note" color="info" %}}
+Product Designers [DRIs](/handbook/people-group/directly-responsible-individuals/) review the individual release post items according to the [stage/group each designer is assigned to](/handbook/product/categories/#devops-stages).
+{{% /alert %}}
 
 *Each PM is responsible for pinging their Product Design counterpart when they need a review on the content or visuals within a release post.*
 
 Product Designers should collaborate on release post items and review:
 
-- **JTBD**: Ensure that the messaging encapsulates how the item supports a user’s [Job to be Done](/handbook/product/ux/jobs-to-be-done/).
-- **MVC messaging**: Articulate any design vision or future iterations if applicable. This is especially important when considering items that are [under construction](/handbook/values/#under-construction), or contribute toward a Category’s maturity.
+- **JTBD**: Ensure that the messaging encapsulates how the item supports a user's [Job to be Done](/handbook/product/ux/jobs-to-be-done/).
+- **MVC messaging**: Articulate any design vision or future iterations if applicable. This is especially important when considering items that are [under construction](/handbook/values/#under-construction), or contribute toward a Category's maturity.
 - **Artifacts**: Validate that UI elements (screenshots, GIFs) included in the post are up to date and reflect all design changes. Ensure that no mocks are used.
 
 ## Engineering Managers
@@ -812,7 +823,7 @@ Should you prefer to continue to contribute to an issue under active development
 - [Features](#features)
   - [Top feature](#top-feature)
   - [Primary features](#primary-features)
-  - Secondary features (improvements)
+  - Secondary features (#secondary-features)
   - [Illustrations](#illustrations) (screenshots, gifs, or videos)
   accompanying their respective features
 - [UI improvements, performance improvements and bug fixes](#ui-improvements-performance-improvements-and-bug-fixes)
@@ -900,7 +911,7 @@ features:
 
 #### Description
 
-Content of the **description** should adhere to the Marketing editorial team’s
+Content of the **description** should adhere to the Marketing editorial team's
 [style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/#blog-style-guide).
 
 Do not include UI navigation instructions in the feature's description. These instructions should be
@@ -922,9 +933,9 @@ Use the following pattern to apply the correct badge to the feature (Free, Premi
 
 For the feature availability tier, use `available_in` with:
 
-  - For GitLab Free, `[core, premium, ultimate]`
-  - For GitLab Premium, `[premium, ultimate]`
-  - For GitLab Ultimate, `[ultimate]`
+- For GitLab Free, `[core, premium, ultimate]`
+- For GitLab Premium, `[premium, ultimate]`
+- For GitLab Ultimate, `[ultimate]`
 
   **Important note**: The GitLab Free tier is listed as `core` in the data file. This is intentional and the page templates will apply the proper tier name on the frontend.
 
@@ -968,15 +979,17 @@ It can be, in this priority order:
 - A **feature documentation** link, when available
 - A **feature-related documentation** link, when a dedicated doc is not available
 
-**Important**: always link to the EE documentation, even if the feature is available in CE.
-{:.alert .alert-info}
+{{% alert title="Important" color="info" %}}
+Always link to the EE documentation, even if the feature is available in CE.
+{{% /alert %}}
 
 Note: `documentation_text` was deprecated by [!13283](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/13283) for GitLab 11.2.
 
-**Important:** Every feature mentioned on the release post must link to an
+{{% alert title="Important" color="warning" %}}
+Every feature mentioned on the release post must link to an
 up-to-date document shipped in time, before the feature freeze.
 *"Docs or it didn't happen!"*
-{:.alert .alert-warning}
+{{% /alert %}}
 
 #### Illustration (images, videos)
 
@@ -1027,10 +1040,11 @@ Besides displaying the icon, with `stage` set, PMs can easily
 find anything that is related to their area, even if reported by
 other users.
 
-**Note:** `team` was [deprecated](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/17198)
+{{% alert title="Note" color="info" %}}
+`team` was [deprecated](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/17198)
 in December 2018 for GitLab 11.6 in favor of `stage`, with a follow-up iteration
 introducing their [respective icons](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/17210).
-{: .alert .alert-info}
+{{% /alert %}}
 
 ##### Custom stage URL
 
@@ -1073,7 +1087,7 @@ Always wrap links in single quotes (`'https://example.com'`). Multiple links are
 
 - `description: |`: add the feature's description in this entry.
 Make sure your cursor is in the line below the pipeline symbol `|` intended once.
-All `description` fields fully support [Markdown](/handbook/markdown-guide/), the only thing you need to be worried about is respecting the indentation.
+All `description` fields fully support [Markdown](/handbook/product/markdown-guide/), the only thing you need to be worried about is respecting the indentation.
 
 ### Cover image license
 
@@ -1092,9 +1106,10 @@ If the image is [generated by GitLab](#images), copyright info is not required a
 
 *To be added by the Distribution Product Manager.*
 
+{{% alert title="Note" color="info" %}}
 The "upgrade barometer" section was [deprecated](https://gitlab.com/gitlab-com/gl-infra/delivery/issues/124) on GitLab 11.8 and replaced with a section
 called "Important notes on upgrading to GitLab X.Y".
-{:.alert .alert-info}
+{{% /alert %}}
 
 Upgrade warnings should be added to the release post **only to describe important upgrade notes**, such as:
 
@@ -1300,21 +1315,21 @@ Product Operations initiates breaking changes communications when they're assign
 
 ## Adding content
 
-For entries that support Markdown, use regular [Markdown Kramdown](/handbook/markdown-guide/), as we use for all blog posts and webpages on about.GitLab.com.
+For entries that support Markdown, use regular [Markdown Kramdown](/handbook/product/markdown-guide/), as we use for all blog posts and webpages on about.GitLab.com.
 
 ### Illustrations
 
 #### Images
 
-- {:#images-compressed} Each image should be compressed with [ImageOptim](https://imageoptim.com),
+- Each image should be compressed with [ImageOptim](https://imageoptim.com),
   [TinyPNG](https://tinypng.com/), or similar tool. You can also try [automation tools like Hazel or Automator](https://about.gitlab.com/blog/2020/01/30/simple-trick-for-smaller-screenshots/)
-- {:#image-size-limit} Each image should not surpass 150KB (300KB for cover
+- Each image should not surpass 150KB (300KB for cover
   image), gifs included
 - [pngbot](https://gitlab.com/jramsay/pngbot) will compress PNG images added in
   merge request by converting each PNG to PNG 8 (8 bit, 256 colors) using
   [pngquant](https://pngquant.org) before losslessly compressing with
   [zopflipng](https://github.com/google/zopfli).
-- {:#application-screenshots} **Application screenshots**:
+- **Application screenshots**:
   - Make sure that the application screenshot captures the feature to make it
     immediately recognizable.
   - Include *only* the necessary UI context to allow the reader to identify where this
@@ -1339,25 +1354,26 @@ For entries that support Markdown, use regular [Markdown Kramdown](/handbook/mar
     page load time significantly.
   - Screenshots throughout the post should be harmonic and consistent in terms
     of their size and quality.
-- {:#gifs} **Animated gifs**:
+- **Animated gifs**:
   - If a gif isn't necessary, replace it with a static image (.png, .jpg)
   - If an animation is necessary but the gif > 300KB, use a video instead
-- {:#cover-image} **Cover image**:
+- **Cover image**:
   Cover images for 16.x releases have been created by the marketing team and can be found [here](https://drive.google.com/drive/folders/18YNR93JyKbhL16iImVGUErpGfIyZ2UvM)
   For cover images after 16.x, [raise a similar request](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/8049).
   This image should be eye-catching, inspiring and avoid images of people. The image should be landscape orientation, roughly 1920 x 1080, and no larger than 300 KB.
 
   To test the image and see how it fits (without waiting for a build or running the handbook locally):
+
   1. Navigate to a previous release post
   1. Using the web inspector find the element `<div class="cover" style="background-image: url();">`
   1. Inside `url()`, replace the string with the URL of the image (the actual URL of the image, you may need to right-click the image and select "copy image address")
   1. Hit the <kbd>Enter</kbd> key and you should see the image render inside of your web browser
-- {:#image-shadow} **Image shadow**:
+- **Image shadow**:
   when you add images though the text,
   make sure all images have the class shadow applied:
   - `![image alt text](#img-url){:.shadow}`
   - If the original image already has shadow applied, don't use `{:.shadow}`.
-  - If you're inserting the image in the YAML file via `image_url` entry, add the `image_noshadow: true` entry right after `image_url`.
+  - If you're inserting the image in the YAML file via `image_url` entry, add the `image_noshadow: true` [entry](#content-blocks) right after `image_url`.
 
 #### Videos
 

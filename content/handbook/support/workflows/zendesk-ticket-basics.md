@@ -1,11 +1,8 @@
 ---
-
 title: Zendesk Ticket Basics
 category: Handling tickets
 description: Information about various Zendesk ticket fields, behaviors and procedures
 ---
-
-
 
 ## Ticket status
 

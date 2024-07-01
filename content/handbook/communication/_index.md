@@ -31,7 +31,7 @@ Embracing asynchronous communication and learning to use it effectively requires
 
 If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format.
 
-If there is an issue to raise regarding someone’s communication or conduct, team members should follow the process for [raising communication concerns](/handbook/people-group/team-member-relations/#raising-communication-concerns) by sharing their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
+If there is an issue to raise regarding someone's communication or conduct, team members should follow the process for [raising communication concerns](/handbook/people-group/team-member-relations/#raising-communication-concerns) by sharing their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
 
 ### Asynchronous communication
 
@@ -79,7 +79,7 @@ Where possible, a group of Communications Champions, made up of global team memb
 
 ### Communications Champion cohorts
 
-We’ll introduce two cohorts for FY25:
+We'll introduce two cohorts for FY25:
 
 1. All-company cohort: 10 team members who review all-company changes/messaging; this group consists of global team members at all levels.
 1. People manager cohort: 7-10 team members who reviews people-manager specific changes/messaging; this group consists of global people managers.
@@ -88,9 +88,9 @@ We’ll introduce two cohorts for FY25:
 
 Each team member will participate for two quarters/6 months. Should a team member no longer be able to participate during their cohort; they can be backfilled.
 
-We’ll engage bi-weekly with planned or urgent information seeking.
+We'll engage bi-weekly with planned or urgent information seeking.
 
-We’ll create a net-new slack channel for each group:
+We'll create a net-new slack channel for each group:
 Naming convention: #comms-champions-fy25-a
 
 - a is FY25 Q1/Q2 all-company
@@ -111,7 +111,7 @@ The table below outlines an overview of different communication forums at GitLab
 | Use [the internal Handbook](/handbook/about/handbook-usage/#the-internal-handbook) aligned with the guidelines | When you want to document information for team members that is [internal-only](/handbook/communication/confidentiality-levels/#internal), including [not public](/handbook/communication/confidentiality-levels/#not-public) and not [limited access](/handbook/communication/confidentiality-levels/#limited-access) |
 | External MR/issue (not confidential) | For discussion and collaboration when there is no risk suspected or identified (directly or later) and it doesn't fall into [not public](/handbook/communication/confidentiality-levels/#not-public) category |
 | Internal MR/ confidential issue | For discussion and collaboration when there is no risk suspected or identified but adhering to things that are [internal-only](/handbook/communication/confidentiality-levels/#internal), [not public](/handbook/communication/confidentiality-levels/#not-public), SAFE Framework/General Communication Guidelines |
-| Your Manager, DRI and/or Legal | For discussion and collaboration when in doubt about potential risk and you want to review if there’s a potential risk |
+| Your Manager, DRI and/or Legal | For discussion and collaboration when in doubt about potential risk and you want to review if there's a potential risk |
 | DRI | For discussion and collaboration when there's a risk suspected or identified, communicate directly with the DRI verbally via Zoom. Examples include issues where Limited Access applies or it covers a change to People Process/policy. |
 | People Group (your People Business Partner or Team Member Relations) | For discussion and collaboration when there's a risk suspected or identified, a policy violation, and/or it's a private matter |
 | [GitLab's Whistleblower policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk) | For flagging a situation that is a violation as set out in the policy |
@@ -201,10 +201,10 @@ When referring to email that recipients should have received, reference the send
 
 If something is behaving strangely on [https://gitlab.com](https://gitlab.com), it might be a bug. It could also mean that something was changed intentionally.
 
-Please search if the issue has already [been reported][issue-list]. If it has not been reported, and you are sure it is a bug, please [file an issue](#issues).
+Please search if the issue has already [been reported](https://gitlab.com/groups/gitlab-org/-/issues). If it has not been reported, and you are sure it is a bug, please [file an issue](#issues).
 
-If you are unsure whether the behavior you experience is a bug, you may ask in the Slack channel [#is-this-known][is-this-known-slack].
-If you know which stage of the DevOps lifecycle is affected, it is also okay to ask in #s\_{stage}, for example [#s_manage][s_manage-slack].
+If you are unsure whether the behavior you experience is a bug, you may ask in the Slack channel [#is-this-known](https://gitlab.slack.com/messages/CETG54GQ0/).
+If you know which stage of the DevOps lifecycle is affected, it is also okay to ask in #s\_{stage}, for example [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
 
 When you ask:
 
@@ -212,15 +212,7 @@ When you ask:
 - Describe the behavior you are experiencing, this makes it searchable and easier to understand.
   Different people might look for different things in the same screenshots.
 - Asking in a single channel helps discoverability, duplicated efforts and reduces noise in other channels.
-  Please refrain from asking in general purpose channels like [#frontend][fe-slack], [#backend][be-slack], [#development][dev-slack] or [#questions][q-slack].
-
-[issue-list]: https://gitlab.com/groups/gitlab-org/-/issues
-[is-this-known-slack]: https://gitlab.slack.com/messages/CETG54GQ0/
-[s_manage-slack]: https://gitlab.slack.com/messages/CBFCUM0RX
-[fe-slack]: https://gitlab.slack.com/messages/C0GQHHPGW/
-[be-slack]: https://gitlab.slack.com/messages/C8HG8D9MY/
-[dev-slack]: https://gitlab.slack.com/messages/C02PF508L/
-[q-slack]: https://gitlab.slack.com/messages/C0AR2KW4B/
+  Please refrain from asking in general purpose channels like [#frontend](https://gitlab.slack.com/messages/C0GQHHPGW/), [#backend](https://gitlab.slack.com/messages/C8HG8D9MY/), [#development](https://gitlab.slack.com/messages/C02PF508L/) or [#questions](https://gitlab.slack.com/messages/C0AR2KW4B/).
 
 #### Numbering is for reference, not as a signal
 
@@ -239,7 +231,7 @@ Linking should not be in one direction. We should go beyond deep-linking to crea
 In informal acknowledgement scenarios, such as on Slack or on issue comments, it is common practice to use the following:
 
 - Slack emoji reaction of `:ack:` or an `ACK` response => Acknowledged, or message received
-- Eyes 👀 => I’ll check this out | seen | working on it
+- Eyes 👀 => I'll check this out | seen | working on it
 - Thumbs up 👍 => good idea
 - White checkmark ✅ => task is complete or done
 - Heart ❤ ️= expression of gratitude or appreciation
@@ -299,7 +291,7 @@ social media, when you see alignment to our values: [GitLab's values](/handbook/
 
 ![Custom emoji](/images/handbook/values-custom-emoji.png)
 
-As a second iteration, we will [add these custom emoji to GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/231317) to enable tanuki values reactions in issues and MRs.
+As a second iteration, we have [added these custom emoji to GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/231317) to enable tanuki values reactions in issues, epics, and MRs within the `gitlab-com` and `gitlab-org` groups.
 
 As a later iteration, we will begin tracking the number of emoji reactions for each value through the Reacji API and update this page with our findings!
 
@@ -336,7 +328,7 @@ When possible, it's best practice to start a discussion with a [Merge Request (M
 1. Not every solution will solve the problem at hand. Keep discussions focused by **defining the problem first** and **explaining your rationale** behind the [Minimal Viable Change (MVC)](/handbook/values/#minimal-viable-change-mvc) proposed in the MR.
 1. Be proactive and consistent with communication on discussions that have external stakeholders such as customers. It's important to keep communication flowing to keep everyone up to date. MRs can appear stale if there aren't recent discussions and no clear definition on when another update will be provided, based on feedback. This leaves those subscribed in the dark, causing unnecessary surprise if something ends up delayed and suddenly jumps to the next milestone. It is important that MRs are closed in a timely manner through approving or rejecting the open requests.
 1. Have a **bias for action** and [do not aim for consensus](/handbook/leadership/#making-decisions). Every MR is a [proposal](/handbook/values/#make-a-proposal), if an MRs author isn't responsive take ownership of it and complete it. Some improvement is better than none.
-1. **Cross link** issues or other MRs with related conversations. E.g. if there’s a Zendesk ticket that caused you to create a GitLab.com MR, make sure to document the MR link in the Zendesk ticket and vice versa. And when approving or rejecting the MR, include reason or response from Zendesk. Put the link at the top of each MR's description with a short mention of the relationship (Report, Dependency, etc.) and use one as the central one and ideally close the alternate if duplicate.
+1. **Cross link** issues or other MRs with related conversations. E.g. if there's a Zendesk ticket that caused you to create a GitLab.com MR, make sure to document the MR link in the Zendesk ticket and vice versa. And when approving or rejecting the MR, include reason or response from Zendesk. Put the link at the top of each MR's description with a short mention of the relationship (Report, Dependency, etc.) and use one as the central one and ideally close the alternate if duplicate.
    1. When providing links to specific lines of code relevant to the MR, **always use a permalink** (a link to a specific commit for the file). This ensures that the reference is still valid if the file changes. For more information, see [Link to specific lines of code](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#link-to-specific-lines-of-code).
 1. If submitting a change for a feature, **update the description with the final conclusions** (Why an MR was rejected or why it was approved). This makes it much easier to see the current state of an issue for everyone involved in the implementation and prevents confusion and discussion later on.
 1. Submit the [**smallest** viable and valuable thing](/handbook/values/#iteration). When proposing a change, submit the smallest reasonable commit, put suggestions for other enhancements in separate issues/MRs and link them. An MR can start off as only a [problem description and TODO comments](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/35239/diffs?diff_id=97449459). If you're new to GitLab and are writing documentation or instructions, submit your first merge request for at most 20 lines.
@@ -348,8 +340,7 @@ When possible, it's best practice to start a discussion with a [Merge Request (M
 1. If you have received any feedback or questions on your MR, try to acknowledge comments as [that's how we ensure we create an environment of belonging for all team members](/handbook/company/culture/inclusion/#gitlabs-definition-of-diversity-inclusion--belonging). Merging your MR as-is without giving an answer or any response makes the commenters feel their opinions are unheard. If you are the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals/) (DRI) who does not have to make a fast decision, you can choose not to change your MR, but you should acknowledge the comments or feedback, consider if they warrant a change to your MR, and [say why, not just what](/handbook/values/#say-why-not-just-what).
    If there are many comments, you can choose to summarize key feedback areas and share your response at a high level. We appreciate that [if you force a DRI to explain too much, you'll create incentives to ship projects under the radar. The fear of falling into a perpetual loop of explaining can derail a DRI, and cause people to defer rather than working with a bias for action](/handbook/people-group/directly-responsible-individuals/#empowering-dris). This is something we want to avoid.
    When fast decisions are needed, [we'll have to accept that people listened to us but don't owe us an explanation to have fast decisions based on everyone's input](/handbook/leadership/#making-decisions). The goals are to be transparent and collaborative--not to lose efficiency. Not everyone will agree, but we expect all people to [disagree, commit, and disagree](/handbook/values/#disagree-and-commit).
-1. For GitLab, the product merge request guidelines are in the [Contribution
-   guide](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-guidelines) and code review guidelines for reviewers and maintainers are described in our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html).
+1. For GitLab, the product merge request guidelines are in the [Contribution guide](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-guidelines) and code review guidelines for reviewers and maintainers are described in our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html).
 1. Even when something is not done, share it internally so people can comment early and prevent rework.
 1. Create a <b>[Draft](https://docs.gitlab.com/ee/user/project/merge_requests/drafts.html)</b> merge request to prevent an accidental early merge. Only use Draft when merging it would **make things worse**, which should rarely be the case when contributing to the handbook. Most merge requests that are in progress don't make things worse. In this case, do not use Draft; if someone merges it earlier than you expected just create a new merge request for additional items. Never ask someone to do a final review or merge something that still has Draft status. At that point you should be convinced it is good enough to go out.
 1. If any follow-up actions are required on the issue after the merge request is merged (like reporting back to any customers or writing documentation), avoid auto-closing the issue.
@@ -369,16 +360,16 @@ This MR is a [Manager Mention MR](/handbook/communication/#scaling-merge-request
 
 Additionally, add the `~"Manager Mention MR"` label to the merge request. This will make future analytics on Manager Mention merge requests more easily identifiable. It also enables managers to subscribe to the label to be notified when an MR has elected the Manager Mention MR designation.
 
-We tried Manager Mention MR’s for the first time in a recent announcement (2021-03-03) but this did not work well and we are working on making it better. We're starting with a more thoughtful and transparent process in our communications cadence and approach going forward, including all directs and people managers getting a few days’ notice before important company-wide changes are announced to all team members. This will allow all directs and people managers to feel more enabled and better understand the why behind big changes in order to scale communication to team members.
+We tried Manager Mention MR's for the first time in a recent announcement (2021-03-03) but this did not work well and we are working on making it better. We're starting with a more thoughtful and transparent process in our communications cadence and approach going forward, including all directs and people managers getting a few days' notice before important company-wide changes are announced to all team members. This will allow all directs and people managers to feel more enabled and better understand the why behind big changes in order to scale communication to team members.
 
 **For all managers:** It is important to ground yourself in the contents of the changes before the announcement goes live to all team members. If a team member tags you in a Manager Mention MR, it is your role to respond candidly and thoughtfully to their question or comment. If the line of questioning in the Manager Mention MR gets out of your depth, ask the DRI to help answer. If a team member comments without a manager tagged, the comment will be closed with a link to this handbook section or closed without comment. In a situation where a team member leaves a wildly inappropriate comment in the Manager Mention MR, you should feel empowered to delete comment and talk to your team member 1:1. Consider subscribing to the label `~"Manager Mention MR"` to be notified when MRs transition to this designation.
 
-- **What not to do:** Not communicate to team members about company-wide changes. Ignoring team member questions, whether that’s in a 1:1 or Manager Mention MR.
-- **What to do:** If one of your team members has a suggestion, solution or sees an issue, see if talking through the communication will answer any of their questions. Team members are also allowed to bring forward their ideas in the Manager Mention MR addressed to you, we want everyone to contribute. As a manager, you will be expected to communicate changes to your teams and also be present to answer any team member questions, whether that’s in a 1:1 or Manager Mention MR. As a manager, it is part of your role to understand and own change management for your team and properly triage the process and expectations. Consider a synchronous call with the team member for further context, make a suggestion, link to additional context, delete any unnecessary comments from their team, or escalate to the author of the MR. Ensure that the comments of your reports you interact with were made after the Manager Mention label was added.
+- **What not to do:** Not communicate to team members about company-wide changes. Ignoring team member questions, whether that's in a 1:1 or Manager Mention MR.
+- **What to do:** If one of your team members has a suggestion, solution or sees an issue, see if talking through the communication will answer any of their questions. Team members are also allowed to bring forward their ideas in the Manager Mention MR addressed to you, we want everyone to contribute. As a manager, you will be expected to communicate changes to your teams and also be present to answer any team member questions, whether that's in a 1:1 or Manager Mention MR. As a manager, it is part of your role to understand and own change management for your team and properly triage the process and expectations. Consider a synchronous call with the team member for further context, make a suggestion, link to additional context, delete any unnecessary comments from their team, or escalate to the author of the MR. Ensure that the comments of your reports you interact with were made after the Manager Mention label was added.
 
 **For team members:** Check if the MR you are about to comment on has the `~"Manager Mention MR"` label. Check each time as the label may have been added since you last commented. When leaving a comment in a Manager Mention MR, frame the comment as a question or suggestion to your manager directly, and not anyone else, including the DRI. We do this to scale communication, as it is unsustainable for the DRI to answer every question.
 
-- **What not to do:** Leaving a comment and CC’ing your manager at the end of your post, but not addressing your manager directly.
+- **What not to do:** Leaving a comment and CC'ing your manager at the end of your post, but not addressing your manager directly.
 - **What to do:** Address your manager directly at the beginning of your message as your comments should be addressed to your manager. If you have a suggestion, solution or see an issue with a big change, you can also bring it up directly to your manager. The MR is not a poll. Give suggestions on how to improve and try to find data that helps support your argument or change in the MR.
 
 MRs should not start out as a Manager Mention MR as we prefer [communication to be direct](/handbook/leadership/#communication-should-be-direct-not-hierarchical). They should only be designated as such after the number of comments on them grows to a level that is unsustainable for the DRI. An exception to this is compensation changes and other company-wide announcements that can be sensitive/contentious in nature since they have historically generated many comments.
@@ -551,7 +542,7 @@ Consider the following best practice when taking notes in meetings:
 
 1. If at the start of the meeting, it does not look like all team members will contribute to note-taking, identify a set of note-takers who will be responsible for this activity within the meeting
 1. Note-taking can be a lot for a single person to stay on top of--especially when there is a fast moving conversation with many speakers. Team members should still feel empowered to contribute by helping with notes as needed, even if there is someone assigned.
-   - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It’s helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
+   - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It's helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
 1. Ask others to scribe answers in real-time to allow the person who asked the question to focus on the answer. Touch up the answer when the conversation has moved on to something less relevant.
 1. It can be hard to keep up with the dialog and capture quality notes when there's fast back and forth conversation. Lead by example and write when you're not talking, expect others will write when you're talking.
 1. Focus on noting speakers and their key points over capturing all words said. Extensive note-taking should not happen at the expense of correct note-taking.
@@ -626,7 +617,7 @@ Make sure you're never screensharing when people are introducing themselves.
    - If all meeting attendees are located in AMER timezones, the meeting should be scheduled outside of the [PST afternoon block](/handbook/communication/#apacamer).
    - The PST afternoon block should be reserved for [cross-regional collaboration](/handbook/communication/#cross-regional-working-hours-recommendations) with team members whose timezones make it harder for them to meet earlier in the day.
    - Due to the number of timezones covered in APAC, the [PST afternoon block](/handbook/communication/#apacamer) will only overlap with the Eastern most APAC countries
-1. If you want to ask GitLab team members if they are available for an event please send a calendar invite with Google Calendar using your Google GitLab account to their Google GitLab account. When you add a GitLab team member as a “Guest” in Google Calendar, you can click the See Guest Availability button to check availability and find a time on their calendar. These calendar invites will automatically show up on all parties calendars even when the email is not opened. It is an easier way to ensure everyone has visibility to the meeting and member’s status. Please respond quickly to invites so people can make necessary plans.
+1. If you want to ask GitLab team members if they are available for an event please send a calendar invite with Google Calendar using your Google GitLab account to their Google GitLab account. When you add a GitLab team member as a "Guest" in Google Calendar, you can click the See Guest Availability button to check availability and find a time on their calendar. These calendar invites will automatically show up on all parties calendars even when the email is not opened. It is an easier way to ensure everyone has visibility to the meeting and member's status. Please respond quickly to invites so people can make necessary plans.
 1. If you want to check if a team member is available for an outside meeting, create a calendar appointment and invite the team member only after they respond yes. Then invite outside people.
 1. When scheduling a call with multiple people, invite them using a Google Calendar that is your own, or one specific to the people joining, so the calendar item doesn't unnecessarily appear on other people's calendars.
 1. If you want to move a meeting just move the calendar appointment instead of reaching out via other channels. Note the change at the top of the description.
@@ -845,7 +836,7 @@ Format: In advance of the call, the host will prepare questions and share them w
 
 A Walk and Talk call is when team members step away from their computers and get outside for a meeting. The difference between a [coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) and a Walk and Talk call is that a Walk and Talk call be held with people that you interact with frequently at GitLab. It could be social in nature or focused on a specific problem/topic that needs to be discussed. If it's a problem-solving focused discussion, the outcome should be captured in a merge request. It should not be used if the problem being discussed requires screen sharing or detailed note taking. There are great physical and mental health benefits to a walk and talk call. There are also benefits with [increased focus and creativity](https://www.quora.com/What-are-the-advantages-of-a-walking-1-1-meeting). A Walk and Talk can also help prevent [Zoom fatigue](https://news.northeastern.edu/2020/05/11/zoom-fatigue-is-real-heres-why-youre-feeling-it-and-what-you-can-do-about-it/).
 
-The team members can use Zoom on their mobile device with the audio only function, or call one another from their preferred mobile device. A walk and talk call should be agreed to in advance to ensure that the local weather is compatible for a walk in both locations and that the walk and talk call fits into both team members’ schedules. We’ve created a Slack channel #walk-and-talk-meetings where, if you'd like, you can share pictures from your walking meetings.
+The team members can use Zoom on their mobile device with the audio only function, or call one another from their preferred mobile device. A walk and talk call should be agreed to in advance to ensure that the local weather is compatible for a walk in both locations and that the walk and talk call fits into both team members' schedules. We've created a Slack channel #walk-and-talk-meetings where, if you'd like, you can share pictures from your walking meetings.
 
 #### Release retrospectives and kickoffs
 
@@ -1242,19 +1233,19 @@ The following tips provide ways to work respectfully with others given this cont
 
 #### Questions
 
-If you have a question that you can’t find the answer to in our handbook (or you need help finding something in the handbook) team members across the company are here to help. Go directly to the subject matter experts/source in the [designated slack channel](/handbook/communication/chat) to ensure your question is addressed.
+If you have a question that you can't find the answer to in our handbook (or you need help finding something in the handbook) team members across the company are here to help. Go directly to the subject matter experts/source in the [designated slack channel](/handbook/communication/chat) to ensure your question is addressed.
 
-If your question doesn’t relate to any of the existing topics:
+If your question doesn't relate to any of the existing topics:
 
 - Ask it in the `#questions` Slack channel
 - Once you receive an answer, document it in the handbook and post the MR link in your question thread
-- :heavy_check_mark: once you’ve been helped
+- :heavy_check_mark: once you've been helped
 
 #### When would GitLab use Corporate Export?
 
-The times this feature would be used would be to comply with certain obligations. Corporate Export must be enabled by Slack in accordance with Slack’s policy, which can be found [here](https://slack.com/help/articles/204897248-Guide-to-Slack-import-and-export-tools).
+The times this feature would be used would be to comply with certain obligations. Corporate Export must be enabled by Slack in accordance with Slack's policy, which can be found [here](https://slack.com/help/articles/204897248-Guide-to-Slack-import-and-export-tools).
 
-Examples of instances where GitLab may need to use this feature may include, but are not limited to, those situations listed in [Slack’s documentation](https://slack.com/help/articles/204897248-Guide-to-Slack-import-and-export-tools).
+Examples of instances where GitLab may need to use this feature may include, but are not limited to, those situations listed in [Slack's documentation](https://slack.com/help/articles/204897248-Guide-to-Slack-import-and-export-tools).
 
 ### Are my direct messages and private channel conversations completely private?
 
@@ -1280,10 +1271,10 @@ Once service is restored, go back to Slack.
 
 #### Zoom is down
 
-To use Slack calls:
+To use Slack Huddle:
 
 1. Navigate to the appropriate Slack channel or direct message.
-1. Use `/call` to trigger a call.
+1. Use `/huddle` to trigger a huddle, which supports both audio and video calls.
 1. You may need to give permissions if it's the first time you are using Slack calls.
 
 Once service is restored, go back to Zoom.
@@ -1407,7 +1398,7 @@ A member of our Customer Success team created a [demo video of how to use this f
 Key practices to consider during any meeting are listed below.
 
 1. Video Calls - If this is your first time meeting a customer/prospect/partner/etc., turn on your camera when you login to Zoom. This will help to make the customer/prospect feel more comfortable as they are certain your undivided attention is geared towards them.
-1. "No agenda, no attenda" - Always have an [agenda prepped and ready to go](/handbook/company/culture/all-remote/live-doc-meetings/), with the exception of [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats). Share this with your audience. Make sure that everything on the agenda is accurate and ask if there’s anything missing that needs to be addressed during this call or for the future. When there is no agenda, it translates to you not caring. When sharing agendas with customers and partners it should be called "GitLab + Name Shared Collaboration & Agenda", not "External Agenda" as that implies there is something the parties are not seeing.
+1. "No agenda, no attenda" - Always have an [agenda prepped and ready to go](/handbook/company/culture/all-remote/live-doc-meetings/), with the exception of [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats). Share this with your audience. Make sure that everything on the agenda is accurate and ask if there's anything missing that needs to be addressed during this call or for the future. When there is no agenda, it translates to you not caring. When sharing agendas with customers and partners it should be called "GitLab + Name Shared Collaboration & Agenda", not "External Agenda" as that implies there is something the parties are not seeing.
 1. 70/30 Rule - Ask open ended questions that leave the audience talking 70% of the time, while you are talking 30% of the time. Please note that this varies based on the type of meeting that you are conducting. Be conscious of what questions need to be asked and to capture those items.
 1. Take Notes - Effective note-taking is a valuable skill that will help you retain and recall any important details. Be the person who remembers all the details of your audience's needs.
 1. Adapt to Audience Tone - Before going into the business portion of your meeting, evaluate first the tone of the audience. Adapt your tone accordingly in order to appeal to various types of personalities.
@@ -1450,9 +1441,9 @@ See the [YouTube page](/handbook/marketing/marketing-operations/youtube/) for op
 
 - Keep conversations positive, friendly, real, and productive while adding value.
 - If you make a mistake, admit it. Be upfront and be quick with your correction. If you're posting to a blog, you may choose to modify an earlier post. Just make it clear that you have done so.
-- There can be a fine line between healthy debate and incendiary reaction. Try to frame what you write to invite differing points of view without inflaming others. You don’t need to respond to every criticism or barb. Be careful and considerate.
+- There can be a fine line between healthy debate and incendiary reaction. Try to frame what you write to invite differing points of view without inflaming others. You don't need to respond to every criticism or barb. Be careful and considerate.
 - [Assume positive intent](/handbook/values/#assume-positive-intent) and explicitly state the strongest plausible interpretation of what someone says before you respond, not a weaker one that's easier to criticize. [Rapoport's Rules](https://rationalwiki.org/wiki/Rapoport%27s_Rules) also implores you to list points of agreement and mention anything you learned.
-- Answer questions, thank people even if it’s just a few words. Make it a two way conversation.
+- Answer questions, thank people even if it's just a few words. Make it a two way conversation.
 - Appreciate suggestions and feedback.
 - Do not make promises that you can't keep.
 - Do not offer [platitudes](https://en.wikipedia.org/wiki/Platitude). Be direct and respectful. For [example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/105891) - we don't need to suggest that our actions are because we "heard feedback" when they are really done for other reasons.

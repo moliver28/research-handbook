@@ -32,14 +32,14 @@ user's secrets.
 The Token Management Working Group will deliver:
 
 - Publish the first iteration of an official token and secrets management policy that is based on the [Token Standard](https://gitlab.com/gitlab-com/gl-security/security-research/cryptographic-standards/-/blob/main/token-standard.md) previously created
-    - Status: Complete
-    - Results: [GitLab Token Management Standard](/handbook/security/token-management-standard.html)
+  - Status: Complete
+  - Results: [GitLab Token Management Standard](/handbook/security/token-management-standard.html)
 - Proposed fixes, with risk assessments, for each identified low effort high risk item
-    - Status: Complete
-    - Results: [Risk assessments](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/354) and [effort estimations](https://docs.google.com/spreadsheets/d/1selwO27d-Tk2KMlSy5ozY1DnHu7GmGxKO6o7axO7omc/edit#gid=0)
+  - Status: Complete
+  - Results: [Risk assessments](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/354) and [effort estimations](https://docs.google.com/spreadsheets/d/1selwO27d-Tk2KMlSy5ozY1DnHu7GmGxKO6o7axO7omc/edit#gid=0)
 - Propose possible out-of-product workaround mitigations for the top 2 high effort high risk items
-    - Status: Complete
-    - Results: [Proposed out-of-product workarounds](https://gitlab.com/gitlab-com/gl-security/security-department-meta/-/issues/1565)
+  - Status: Complete
+  - Results: [Proposed out-of-product workarounds](https://gitlab.com/gitlab-com/gl-security/security-department-meta/-/issues/1565)
 
 ## Retrospective
 

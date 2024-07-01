@@ -1,5 +1,4 @@
 ---
-
 title: Social Advocacy Curator Program
 description: Strategies and details to enable curators to share GitLab-related news for company-wide enablement
 twitter_image: /images/opengraph/handbook/social-marketing/social-advocacy-curator-program-opengraph.png
@@ -8,28 +7,23 @@ twitter_site: gitlab
 twitter_creator: gitlab
 ---
 
-
-
-
-
-
 ## What is Social Advocacy?
 
 Through a [social media advocacy program](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/), we are able to provide GitLab team members fresh news and updates about our organization and as well as throughout our industry. By having a tool in place that provides curated content, you'll be able to build your personal brand, become an expert in your topic, and contribute  to the growth of GitLab.
 
 Curators are selected intentionally by the Social Media team to drive our advocacy content strategy. You are responsible for curating stories to be shared by GitLab team members by adding content to the Bambu platform. Each piece of content added to Bambu should benefit your team or your topic. Please take the training and complete the issue you are assigned to. This will certify you as a curator in this program.
 
-##### 🔗 [Watch the training here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/HqeGYKkcovs)
+### 🔗 [Watch the training here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/HqeGYKkcovs)
 
-##### What can I expect out of the training?
+### What can I expect out of the training?
 
 This training is conducted by a Strategic Services Consultant and provides a demonstration to help you navigate the platform, and understand the role of a curator. In this training, you will see the platform from a "reader" perspective, and curator's. This will help you learn the Bambu lifecycle. You will then learn how to set up a profile, connect your social media accounts, upload content to the platform, and view metrics.
 
-##### This wasn't a live session, where can I ask remaining questions that I have?
+### This wasn't a live session, where can I ask remaining questions that I have?
 
 Following the training, the social media team hosted an AMA so that curators could ask any remaining questions on the platform or the program. Questions and suggestions can still be submitted to the #social-advocacy-curators Slack channel. This channel will also help you stay in touch with the curator program and the latest news. This channel is for team members who are identified as content curators only.
 
-##### 🔗 [Watch the AMA here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/tob7weMR-uc)
+### 🔗 [Watch the AMA here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/tob7weMR-uc)
 
 </details>
 
@@ -71,11 +65,11 @@ When you add content into Bambu, consider the following:
 - Organize with topic and tag
 - Include contributor note as context for why the content is worth sharing and a short CTA: e.g. "This story helps to establish GitLabs all remote philosophy, share it with your communities."
 - Include suggested social post copy
-   - 1-2 versions for Twitter
-   - 1-2 versions that cover both Facebook and LinkedIn
-   - Diversify options: one copy for “professional” use (full words, no emoji, sounds clean and clear) and one copy for “fun” (emoji, exclamation points, light and fun).
+  - 1-2 versions for Twitter
+  - 1-2 versions that cover both Facebook and LinkedIn
+  - Diversify options: one copy for "professional" use (full words, no emoji, sounds clean and clear) and one copy for "fun" (emoji, exclamation points, light and fun).
 - Add start and end date
-   - Stories should be available for a minimum of 1 month from publishing (e.g, Sept 28th to Oct 28) however, consider your campaigns and communications focuses - big deal content could go on longer.
+  - Stories should be available for a minimum of 1 month from publishing (e.g, Sept 28th to Oct 28) however, consider your campaigns and communications focuses - big deal content could go on longer.
 
 ### Recordings for Curators
 
@@ -89,7 +83,7 @@ Topics enable users in all roles to follow and unfollow collections of Stories g
 
 - Admins can add Stories to up to two Required Topics that individuals cannot unfollow. For GitLab, we use `Company News` and `Spotlight` as the required topics that all team members will follow. This helps us to extend awareness of specific content we believe everyone should see and share.
 - Up to three Topics can be applied to a Story.
-- Topics can be measured inside Bambu’s Content Report.
+- Topics can be measured inside Bambu's Content Report.
 - When a new Topic is created, all individuals will automatically follow the Topic, unless it is restricted to a specific Team.
 - All new users who register in Bambu will follow all Topics by default.
 - Team Members will need to "unsubscribe" from topics that they wish to not see content about.
@@ -126,7 +120,7 @@ Some of these tags are as follows. More tags can be added as we see the need to 
 - When changing an image or story title, these changes will only appear on LinkedIn. The original title of the story and original image will appear on Facebook and Twitter.
 - Regarding hashtags, when in doubt, leave it out. Platforms now focus on trends and topics without them. They can be helpful on LinkedIn, where users can follow a hashtag, but they are not required.
 - When using hashtags, replace a word in the copy with a hashtag. Sometimes the tense and other elements don't allow this. Only then should you consider adding hashtags to the end of the copy suggestion.
-   - E.g. #MovingToGitLab: This works when we're using present tense in the copy, `Company x is #MovingToGitLab`. This won't work if we're referencing a move from the past. Where we'd say, `Company x migrated to GitLab and here's what they learned. #MovingToGitLab`
+  - E.g. #MovingToGitLab: This works when we're using present tense in the copy, `Company x is #MovingToGitLab`. This won't work if we're referencing a move from the past. Where we'd say, `Company x migrated to GitLab and here's what they learned. #MovingToGitLab`
 - Always add a CTA to the internal `note`: Consider sharing on social, please share on your channels, etc.
 - Photo stories are not a priority and are only shareable on Facebook and Twitter, if we'd ever use these.
 

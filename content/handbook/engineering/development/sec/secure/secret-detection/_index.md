@@ -48,7 +48,7 @@ Below is a list of steps followed during the refinement process.
 - The refinement process is kicked off when a planning issue is finalized.
 - A bot or an automated script assigns a number of issues (e.g. 2-3) randomly to each engineer.
 - An engineer is responsible for refining their assigned issues, but could ask for help if needed.
-- Engineers would follow a certain [checklist](handbook/engineering/development/sec/secure/secret_detection/#checklist) to determine if an issue is refined and ready to be picked up.
+- Engineers would follow a certain [checklist](#checklist) to determine if an issue is refined and ready to be picked up.
 - The refinement process is time-boxed (e.g. one week), after which all issues ready for development is picked up.
 - When an engineer completes refining an issue, they pass it on to another engineer (a reviewer) for review.
 - The reviewer should follow the guidelines outlined in the checklist as much as possible:
@@ -108,7 +108,7 @@ Issues are assigned randomly to engineers using [`triage-ops`](https://gitlab.co
             1. `None`.
         1. Milestone:
             1. Issue has a milestone.
-            1. Issue's milestone title = [`next_milestone_title`](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/96cd054ee6017ddd8dec546914f5fc5ac4df105f/lib/next_milestone_helper.rb#L6-9).
+            1. Issue's milestone title = [`next_milestone`](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/de25e11d0c006551eaece0dcb95c5b5bf8216b90/lib/milestone_helper.rb#L13-15).
     1. Actions:
         1. Assigns the issue to a random engineer from the Secure:Secret Detection group.
         1. Adds the following labels:
@@ -135,7 +135,7 @@ The goal of the process is to:
 - Ensure the issue is labeled correctly.
 - Ensure issue is marked as ready to be worked on.
 
-Please check the [steps to follow](https://handbook.gitlab.com/handbook/engineering/development/sec/secure/secret-detection/#steps) and the [checklist](https://handbook.gitlab.com/handbook/engineering/development/sec/secure/secret-detection/#checklist) to use for keeping refinement progress transparent.
+Please check the [steps to follow](/handbook/engineering/development/sec/secure/secret-detection/#steps) and the [checklist](/handbook/engineering/development/sec/secure/secret-detection/#checklist) to use for keeping refinement progress transparent.
 
 If you have any questions, don't hesitate to ask in `#g_secure_secret-detection` channel.
 

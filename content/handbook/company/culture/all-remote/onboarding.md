@@ -1,5 +1,4 @@
 ---
-
 title: "The complete guide to remote onboarding for new-hires"
 description: "A complete guide to onboarding new remote work employees and establishing processes that ensure success from day one. Learn more here!"
 twitter_image: "/images/opengraph/all-remote.jpg"
@@ -25,9 +24,9 @@ We anticipate the remote onboarding process to take at least two full weeks, wit
 
 ## What is an onboarding session?
 
-At GitLab, we like to do what we call ["dogfooding"]({{< ref "values#dogfooding" >}}) our own product. Hence onboarding tasks are completed in a [GitLab issue](https://docs.gitlab.com/ee/user/project/issues).
+At GitLab, we like to do what we call ["dogfooding"](/handbook/values/#dogfooding) our own product. Hence onboarding tasks are completed in a [GitLab issue](https://docs.gitlab.com/ee/user/project/issues).
 
-All onboarding steps are found in an [onboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md), which contains a standardized set of tasks and steps that each new team member will complete. The onboarding process for the new team member is [self-driven and self-learning]({{< ref "values#self-service-and-self-learning" >}})and as [asynchronous]({{< ref "values#bias-towards-asynchronous-communication" >}}) as possible. This is intentional, in order to aid acclimation into the remote life at GitLab.
+All onboarding steps are found in an [onboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md), which contains a standardized set of tasks and steps that each new team member will complete. The onboarding process for the new team member is [self-driven and self-learning](/handbook/values/#self-service-and-self-learning)and as [asynchronous](/handbook/values/#bias-towards-asynchronous-communication) as possible. This is intentional, in order to aid acclimation into the remote life at GitLab.
 
 Read more about GitLab's all-remote [onboarding process]({{< ref "general-onboarding" >}}) in our handbook.
 
@@ -66,7 +65,7 @@ In an all-remote setting where team members are possibly working from a variety 
 
 While tools are an important part of any role, new hires need to feel empowered to use them. Organizations can help build technical confidence by setting up early wins with action items the new hire can complete as they move through their training. Organizational onboarding provides the access to information through handbooks/documentation, and technical onboarding is about using that knowledge to work through the tools.
 
-At GitLab, we practice [dogfooding]({{< ref "values#dogfooding" >}}). Our entire company uses GitLab to collaborate on the handbook and we also create issues and merge requests in our product. For all new GitLab hires, we have created an [onboarding issue template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) that has tasks to complete each day. We believe in using the tools we create. This allows new hires to become familiar with GitLab in a way that feels meaningful (e.g. in learning GitLab, they are also accomplishing necessary onboarding tasks). This also provides a continual set of new users to test GitLab with fresh eyes. These individuals are ideally positioned to point out missing features or areas for improvement as we iterate on the product.
+At GitLab, we practice [dogfooding](/handbook/values/#dogfooding). Our entire company uses GitLab to collaborate on the handbook and we also create issues and merge requests in our product. For all new GitLab hires, we have created an [onboarding issue template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) that has tasks to complete each day. We believe in using the tools we create. This allows new hires to become familiar with GitLab in a way that feels meaningful (e.g. in learning GitLab, they are also accomplishing necessary onboarding tasks). This also provides a continual set of new users to test GitLab with fresh eyes. These individuals are ideally positioned to point out missing features or areas for improvement as we iterate on the product.
 
 For technical onboarding, give new hires access to the tools they'll be using in their roles and, most importantly, encourage them to use the tools as early as possible. Using tools, even for very small tasks, builds confidence and helps new employees to feel productive and empowered.
 
@@ -124,7 +123,7 @@ When [hiring in an all-remote organization](./hiring), a cohesive onboarding pro
 At GitLab, we believe the best way to operate is by [documenting]({{< ref "./management#scaling-by-documenting" >}}) processes, guides, solutions, how-tos, and policies. Be sure to empower remote workers to  adopt [remote-first communication and workflow practices]({{< ref "./how-to-work-remote-first" >}}).
 
 - **Identify employee concerns and answer questions.**
-GitLab is committed to [transparency]({{< ref "values#transparency" >}}). This value gives team members access to a great deal of visibility to what is going on throughout the organization. However, it does not negate the need to invite employees to ask questions.
+GitLab is committed to [transparency](/handbook/values/#transparency). This value gives team members access to a great deal of visibility to what is going on throughout the organization. However, it does not negate the need to invite employees to ask questions.
 
 - **Add some excitement.**
 In addition to the [incredible benefits of all-remote work]({{< ref "remote-benefits" >}}), getting to network and interact with their team, whether remote or [in-person]({{< ref "./in-person" >}}) is part of what makes work fun and exciting - especially in an all-remote [culture]({{< ref "culture" >}}).
@@ -150,7 +149,7 @@ At GitLab, [the first thirty days](https://gitlab.com/gitlab-com/people-group/pe
 
 Onboarding is the first impression a new hire gets of your organization. It's critical to invest the time to do it well so that your new team members get to know you, understand what is expected of them, introduces them to co-workers and teammates, and sets them up to succeed.
 
-At GitLab, we document to create a [single source of truth]({{< ref "values#single-source-of-truth" >}}) so we can operate [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) and value [transparency]({{< ref "values#transparency" >}}) by making the handbook [publicly accessible to all](/handbook).
+At GitLab, we document to create a [single source of truth](/handbook/values/#single-source-of-truth) so we can operate [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) and value [transparency](/handbook/values/#transparency) by making the handbook [publicly accessible to all](/handbook).
 
 ## Remote onboarding tips
 
@@ -189,19 +188,19 @@ For new team members, this is even more crucial: if your culture is not self-rei
 ## Remote first company values
 
 GitLab's six core values are
-[**🤝 Collaboration**]({{< ref "values#collaboration" >}}),
-[**📈 Results**]({{< ref "values#results" >}}),
-[**⏱️ Efficiency**]({{< ref "values#efficiency" >}}),
-[**🌐 Diversity, Inclusion & Belonging**]({{< ref "values#diversity-inclusion" >}}),
-[**👣 Iteration**]({{< ref "values#iteration" >}}), and
-[**👁️ Transparency**]({{< ref "values#transparency" >}}),
+[**🤝 Collaboration**](/handbook/values/#collaboration),
+[**📈 Results**](/handbook/values/#results),
+[**⏱️ Efficiency**](/handbook/values/#efficiency),
+[**🌐 Diversity, Inclusion & Belonging**](/handbook/values/#diversity-inclusion),
+[**👣 Iteration**](/handbook/values/#iteration), and
+[**👁️ Transparency**](/handbook/values/#transparency),
 and together they spell the **CREDIT** we give each other by assuming good intent.
 
 Feel free to adopt or remix our values for your remote-first team.
 
 ## How to evaluate your existing onboarding process
 
-In the spirit of [transparency]({{< ref "values#transparency" >}}), GitLab's People Connect Team will evaluate the onboarding process by having new employees fill out an [Onboarding Survey](https://docs.google.com/forms/d/1sigbOqWKuEtGyLROghvivgWErRnfbUI1_-57XhAwu_8/edit).
+In the spirit of [transparency](/handbook/values/#transparency), GitLab's People Connect Team will evaluate the onboarding process by having new employees fill out an [Onboarding Survey](https://docs.google.com/forms/d/1sigbOqWKuEtGyLROghvivgWErRnfbUI1_-57XhAwu_8/edit).
 
 ## High-touch and low-touch flexibility
 

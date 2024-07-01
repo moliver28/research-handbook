@@ -83,7 +83,7 @@ Information related to the position a team member holds at GitLab
 | Discretionary Bonus Rate | Percentage of Team members that receive a discretionary bonus from the population. For KPIs this is reported as a rolling 3 month average. | # of Discretionary Bonuses / Average Headcount |  |
 | [Promotion](/handbook/people-group/promotions-transfers/#promotions) | A promotion is counted if the business process type submitted in our HRMS is "Promote Employee Inbound" |  |  |
 | [Lateral Transfer](/handbook/people-group/promotions-transfers/) | A lateral move is counted if the business process category submitted in our HRMS is "Lateral Move" and there was a change in job title |  |  |
-| [Internal Mobility Rate](/handbook/people-group/promotions-transfers/#internal-mobility) | Internal Mobility Rate refers to the frequency at which employees change positions within an organization, indicating the internal movement and career progression opportunities available to staff, as well as the company’s ability to retain talent by offering growth paths. | # Lateral Transfers and Promotions / Average Headcount |  |
+| [Internal Mobility Rate](/handbook/people-group/promotions-transfers/#internal-mobility) | Internal Mobility Rate refers to the frequency at which employees change positions within an organization, indicating the internal movement and career progression opportunities available to staff, as well as the company's ability to retain talent by offering growth paths. | # Lateral Transfers and Promotions / Average Headcount |  |
 
 </details>
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Ringlead"
 description: "The Ringlead platform orchestrates Salesforce and Marketing Automation processes like managing duplicates, data normalization, segmentation, enrichment."
 ---
-
-
-
-
-
-
 
 ### About Ringlead
 

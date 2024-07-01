@@ -1,5 +1,4 @@
 ---
-
 title: "Oliver Falk's README"
 ---
 
@@ -7,9 +6,9 @@ title: "Oliver Falk's README"
 
 **Oliver Falk, Manager, Customer Success Managers, DACH**
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
-It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
+It's also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 
 Please feel free to contribute to this page by opening a merge request.
 
@@ -63,4 +62,4 @@ Trust is built up over time, but I want to earn your trust. I do appreciate it i
 - I tend to answer rather quickly on Slack (as an instant messaging platform), but you get no SLA on mails.
 - Phone is generally discouraged, but in case something is super-urgent and needs my immediate attention, phone is fine of course. I may not have your phone number saved; Giving a heads up via SMS is therefore appreciated.
 
-- Be as precise as possible about the expectations when reaching out. Let me know if you're searching for advise, just want someone to listen, looking for feedback, go into a coaching session, etc. And stop me if we divert from the the goal/objective set. Push on an additional call with me.
+- Be as precise as possible about the expectations when reaching out. Let me know if you're searching for advise, just want someone to listen, looking for feedback, go into a coaching session, etc. And stop me if we divert from the goal/objective set. Push on an additional call with me.

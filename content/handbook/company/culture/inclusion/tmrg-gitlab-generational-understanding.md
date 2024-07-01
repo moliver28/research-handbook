@@ -15,7 +15,7 @@ The mission of the generational understanding [TMRG]({{< ref "erg-guide" >}}) is
 
 ## How to Join
 
-- Please sign up for the [Generational Understanding Google Group](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) to be added to the Generational Understanding TMRG. This will ensure you’re added to upcoming TMRG calendar events. It might take up to 24 hours before the calendar events appear on your calendar. If there is an event happening within 24 hours of you joining the Google Group, please post in the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel to be added manually.
+- Please sign up for the [Generational Understanding Google Group](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) to be added to the Generational Understanding TMRG. This will ensure you're added to upcoming TMRG calendar events. It might take up to 24 hours before the calendar events appear on your calendar. If there is an event happening within 24 hours of you joining the Google Group, please post in the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel to be added manually.
 - Join the [#generational_understanding](https://gitlab.slack.com/archives/C014A4NNVG8/p1596576533036100) Slack channel for conversation, announcements, and connecting with other TMRG members. Feel welcome to introduce yourself in the channel when you join!
 
 ## Activities

@@ -1,14 +1,7 @@
 ---
-
 title: "Technical Marketing Content Library"
 description: "Library of technical content created by the Technical Marketing team at GitLab."
 ---
-
-
-
-
-
-
 
 ## List of assets
 
@@ -51,7 +44,9 @@ description: "Library of technical content created by the Technical Marketing te
 
 ### Technical Blogs
 
-#### Author -  [Itzik Gan-Baruch](/handbook/company/team/#itzikgb)
+#### Author -  Itzik Gan-Baruch
+
+Author: [Itzik Gan-Baruch](/handbook/company/team/#itzikgb)
 
 [The role of Value Stream Analytics in GitLab's DevOps Platform](https://about.gitlab.com/blog/2022/01/24/gitlab-value-stream-analytics/) - Jan 24, 2022
 
@@ -73,7 +68,9 @@ Sep 30, 2020
 
 [How to trigger multiple pipelines using GitLab CI/CD](https://about.gitlab.com/blog/2019/07/24/cross-project-pipeline/) - Jul 24, 2019
 
-#### Author - [Cesar Saavedra](/handbook/company/team/#csaavedra1)
+#### Author - Cesar Saavedra
+
+Author: [Cesar Saavedra](/handbook/company/team/#csaavedra1)
 
 [How to use fine-grained permissions via generic impersonation in CI/CD Tunnel](https://about.gitlab.com/blog/2022/02/01/cicd-tunnel-impersonation/) -
 
@@ -99,7 +96,9 @@ In praise of developer experimentation - (Planned Q2)
 
 [How to use GitLab tools for continuous delivery](https://about.gitlab.com/blog/2020/12/17/cd-solution-overview/) - December 17, 2020
 
-#### Author - [William Arias](/handbook/company/team/#warias)
+#### Author - William Arias
+
+Author: [William Arias](/handbook/company/team/#warias)
 
 [How Comet can streamline machine learning on The GitLab DevOps Platform](https://about.gitlab.com/blog/2021/11/08/machine-learning-on-the-gitlab-devops-platform/) - Nov 8, 2021
 
@@ -112,7 +111,9 @@ Oct 2, 2020
 
 [Using GitLab APIs: Real Use Case Scenario](https://about.gitlab.com/blog/2020/01/22/gitlab-apis-ci/) - Jan 22, 2020 )
 
-#### Author - [Fernando Diaz](/handbook/company/team/#fjdiaz)
+#### Author - Fernando Diaz
+
+Author: [Fernando Diaz](/handbook/company/team/#fjdiaz)
 
 Ensuring Continuous Software Compliance with GitLab - (Planned Q1)
 
@@ -146,7 +147,9 @@ GitLab Technical Marketing Demo Resources - (Planned Q2)
 
 [How GitLab's application security dashboard helps AppSec engineers](https://about.gitlab.com/blog/2020/07/07/secure-stage-for-appsec/) - Jul 7, 2020
 
-#### Author - [Tye Davis](/handbook/company/team/#TyeD19)
+#### Author - Tye Davis
+
+Author: [Tye Davis](/handbook/company/team/#tyed19)
 
 [GitLab and Jira integration: the final steps](https://about.gitlab.com/blog/2021/05/24/gitlab-and-jira-integration-the-final-steps/) - May 24, 2021
 
@@ -340,7 +343,7 @@ DORA Metrics Pricing/ Track DORA-4 lead time for changes metric Title needs edit
 
 [GitLab 14.8 Release: New Security Features](https://youtu.be/Ak4pJiK07b0)
 
-[GitLab 14.8 - Auto-completion of keywords in the Pipeline Editor and Add default issue and merge request templates in a project’s repository](https://youtu.be/DgJarI1xR5c)
+[GitLab 14.8 - Auto-completion of keywords in the Pipeline Editor and Add default issue and merge request templates in a project's repository](https://youtu.be/DgJarI1xR5c)
 
 [GitLab 14.8 - Additional data for deployment frequency graph & Display average and median for DORA4 graphs](https://youtu.be/rWMhlZ6Svb4)
 

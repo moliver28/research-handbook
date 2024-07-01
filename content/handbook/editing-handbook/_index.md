@@ -160,6 +160,9 @@ To preview your changes:
 
 The site uses the concept of page bundles, sections, and leaf pages.  A section can have multiple leaf pages, which requires a `_index.md` for the section.  A page bundle is a single page with a group of images, requires an `index.md`.
 
+Directories (folders) and pages should use lowercase `a-z` and hyphen `-`, except for `_index.md`. Uppercase `A-Z` is allowed but discouraged.
+While Git and Hugo allow any UTF-8 character to be used in the file path, using other characters (such as a space) can cause issues with the pipeline.
+
 Section:
 
 ```plain

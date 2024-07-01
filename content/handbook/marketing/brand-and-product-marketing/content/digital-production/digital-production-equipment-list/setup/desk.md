@@ -14,7 +14,7 @@ The instructions will reference specific gear, but you might decide to substitue
 
 ### Camera (Choose One)
 
-##### Professional Camera
+#### Professional Camera
 
 - Blackmagic Pocket Cinema (High Level Camera) - [Example](https://www.bhphotovideo.com/c/product/1560510-REG/blackmagic_design_pocket_cinema_camera_4k.html)
 - Camera Lens - [Example](https://www.bhphotovideo.com/c/product/1540746-REG/olympus_v314090bu000_m_zuiko_digital_ed_12_45mm.html)
@@ -23,22 +23,22 @@ The instructions will reference specific gear, but you might decide to substitue
 
 OR
 
-##### Webcam
+#### Webcam
 
 - Logitech C920S - [Example](https://www.amazon.com/Logitech-Webcam-Calling-Recording-Stereo/dp/B08DRQ66WP/ref=sr_1_3?dchild=1&keywords=logitech+c920&qid=1605047326&sr=8-3).
 
-#### Audio
+### Audio
 
 - Shotgun Microphone (for camera) - [Example](https://www.bhphotovideo.com/c/product/1183909-REG/rode_videomicro_compact_on_camera.html?sts=pi&pim=Y)
 - Rode NT USB - [Example](https://www.bhphotovideo.com/c/product/1540109-REG/rode_nt_usb_mini_usb_microphone.html)
 - Optional Boom Arm - [Example](https://www.bhphotovideo.com/c/product/484972-REG/Rode_PSA1_PSA_1_Studio_Boom_Arm.html)
 
-#### Lights
+### Lights
 
 - Elgato Key Light - [Example](https://www.amazon.com/Elgato-Key-Light-Professional-App-Enabled/dp/B07L755X9G)
 - Optional 3 Panel Light Kit with Stands - [Example](https://www.bhphotovideo.com/c/product/1492249-REG/gvm_800d_rgb_3l_800d_rgb_led_video_studio.html)
 
-#### Camera Support (Choose One)
+### Camera Support (Choose One)
 
 - Camera Desk Mount - [Example](https://www.corsair.com/us/en/Categories/Products/Elgato-Gaming/Multi-Mount/Master-Mount-L/p/10AAB9901#)
 
@@ -47,12 +47,12 @@ OR
 - Mounting Clamp - [Example](https://www.bhphotovideo.com/c/product/1422139-REG/smallrig_2164_multi_functional_crab_shaped_clamp.html).
 *This clamp can be used to mount the camera to a light stand.*
 
-#### Teleprompter (Optional)
+### Teleprompter (Optional)
 
 - Teleprompter - [Example](https://www.amazon.com/Glide-Gear-TMP100-Adjustable-Teleprompter/dp/B019AJOLEM).
 *To assist in reading your script to camera*
 
-#### Miscellanous (Optional)
+### Miscellanous (Optional)
 
 - Gaffer Tape - [Example](https://www.bhphotovideo.com/c/product/812203-REG/General_Brand_001UPCG255MBLA_General_Brands_Pro_Gaffer_s.html).
 *This is specialized tape for securing cords against tripping (saftey first!). It has a light grip and will not leave marks when pulled up. It could also be used to temporarily secure the lav receiver to the tripod if a support such as the clamp is not used*
@@ -64,8 +64,8 @@ OR
 - Mount the Elgato Keylight, desk mic boom arm (if present), and camera mounting arm to your desk. Face the light towards the wall.
 
 - **PROFESSIONAL CAMERA ONLY:** [follow the instructions](/handbook/marketing/brand-and-product-marketing/content/digital-production/digital-production-equipment-list/black-magic-pocket-cinema-camera/) for setting up your camera.
-     - Mount the camera desk mount to your desk and position it roughly where you would like the camera. A good place is at eye level when your thighs and chin are paraellel to the floor. Your eyes should be placed the upper 1/3rd of the frame.
-     - Connect the HDMI cable to a monitor or capture card so you can see the image as you position the camera.
+  - Mount the camera desk mount to your desk and position it roughly where you would like the camera. A good place is at eye level when your thighs and chin are paraellel to the floor. Your eyes should be placed the upper 1/3rd of the frame.
+  - Connect the HDMI cable to a monitor or capture card so you can see the image as you position the camera.
 
 - **WEBCAM ONLY:** Mount the webcam to your monitor. Aditionally, you can use the camera desk mount if you'd like to place the webcam in a specific place. A good place is at eye level when your thighs and chin are paraellel to the floor. Your eyes should be placed the upper 1/3rd of the frame.
 

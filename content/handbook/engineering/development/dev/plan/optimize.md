@@ -85,7 +85,7 @@ Backlog management is very challenging, but we try to do so with the use of labe
 
 ###### Refinement
 
-**The end goal is defined,** where all direct stakeholders says “yes, this is ready for development”. Some issues get there quickly, some require a few passes back and forth to figure out.
+**The end goal is defined,** where all direct stakeholders says "yes, this is ready for development". Some issues get there quickly, some require a few passes back and forth to figure out.
 
 The goal is for engineers to have buy-in and feel connected to the roadmap. By having engineering included earlier on, the process can be much more natural and smooth.
 
@@ -280,8 +280,7 @@ opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
 
-1. We expect people to be [managers of one](/handbook/values/#managers-of-one), and we [use
-   GitLab ourselves](/handbook/values/#dogfooding). If you see something that you think
+1. We expect people to be [managers of one](/handbook/values/#managers-of-one), and we [use GitLab ourselves](/handbook/values/#dogfooding). If you see something that you think
    is important, you can request for it to be scheduled, or you can
    [work on a proposal yourself](/handbook/values/#dont-wait), _as long as you keep your
    other priorities in mind_.

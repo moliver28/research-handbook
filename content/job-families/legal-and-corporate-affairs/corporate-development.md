@@ -1,6 +1,6 @@
 ---
 title: "Corporate Development"
-description: Corporate Development team members prospect, pursue and integrate acquisitions to accelerate GitLab’s roadmap and offer better tools to customers more quickly.
+description: Corporate Development team members prospect, pursue and integrate acquisitions to accelerate GitLab's roadmap and offer better tools to customers more quickly.
 
 ---
 
@@ -33,7 +33,7 @@ The Analyst, Corporate Development is a [grade 6](/handbook/total-rewards/compen
 
 - Bachelors or equivalent in Finance, Accounting, Economics, Computer Science, Engineering, or a related field
 - Minimum of 2 years of corporate development, venture capital, private equity, or competitive analysis ideally focused on the technology industry
-- Adept with technology and a strategic thinker – knows what’s best for the business
+- Adept with technology and a strategic thinker – knows what's best for the business
 - Excellent judgment, mature personality, and experience working with executives; a sophisticated, worldly businessperson
 - Proactive and action-oriented, anticipates needs
 - Experience in a deal environment and buyer-seller conducts
@@ -53,7 +53,7 @@ The Corporate Development Manager is a [grade 8](/handbook/total-rewards/compens
 Prospecting:
 
 - Develop relationships with tech incubators, investors, and other sources of acquisition targets
-- Validate targets’ fit for GitLab’s product roadmap, terms and other criteria quickly and with little information
+- Validate targets' fit for GitLab's product roadmap, terms and other criteria quickly and with little information
 - Develop a strategy and execution plan for the product areas you will be leading, prioritizing prospects accordingly
 
 Deal execution:
@@ -96,7 +96,7 @@ The Senior Corporate Development Manager is a [grade 9](/handbook/total-rewards/
 Prospecting:
 
 - Develop relationships with tech incubators, investors, and other sources of acquisition targets
-- Validate targets’ fit for GitLab’s product roadmap, terms and other criteria quickly and with little information
+- Validate targets' fit for GitLab's product roadmap, terms and other criteria quickly and with little information
 - Establish strategy and execution plan for the product areas you will be leading, prioritizing prospects accordingly
 - Own the pipeline of opportunities - generate prospects and lead sourcing efforts
 

@@ -19,7 +19,7 @@ A 360 can be a very helpful development tool, but it should not be a replacement
 
 Below are a few key points to think through when determining in which situations the 360 tool may or may not be useful:
 
-- **Development Oriented:** The 360 process is meant to support the team member’s development and to provide feedback supporting individual growth and development. 360s *should not be used as performance management tools*.
+- **Development Oriented:** The 360 process is meant to support the team member's development and to provide feedback supporting individual growth and development. 360s *should not be used as performance management tools*.
 - **Ongoing Feedback:** Managers and team members should seek cross functional feedback throughout the year to inform performance discussions. A 360 should not serve as a replacement for asking stakeholders and peers how things are going.
 - **Focused Goals:** 360 feedback is most useful when a team member is committed to working towards certain development goals, as the 360 can provide more specific feedback and focus towards those development goals, and also reveal some blind spots or hidden strengths.
 - **Individual Growth Plan:** In order for the 360 to lead to action, it is important to document and commit to a development plan that outlines the key findings and development actions. As [noted above](#360-feedback), before launching a 360, ensure an [Individual Growth Plan (IGP)]({{< ref "career-development#individual-growth-plan" >}}) is in place. This ensures the 360 is aligned with development areas.
@@ -185,14 +185,14 @@ We encourage all team members to complete this training, and recommend it specif
 - Keep it actionable- always describe behaviors, not traits. Focus on what the person can actually do something about going forward (i.e. more of, less of, keep doing - "it would be good to see more of X as it leads to Y".)
 - Be respectful AND honest - feedback on improvement areas can at times be challenging to give. Keep in mind the purpose of the feedback is for development and not to judge or evaluate performance. Team members cannot improve and grow if they don't know where to focus, so this type of feedback is also important and encouraged.
 - Try to avoid comparing different team members and rather look at a person's progress, comparing them against themselves only.
-    - Ex: Person X's performance in January compared to their performance in May, as opposed to person X's performance compared to person Z's performance.
+  - Ex: Person X's performance in January compared to their performance in May, as opposed to person X's performance compared to person Z's performance.
 
 Below are a couple of tips for team members who may have received a significant number of feedback requests to contribute to.
 
 - Try to complete feedback for 1 or 2 people a day, versus waiting until the last minute. Spending 10-20 minutes a day on this can make thinking through and writing the feedback process less overwhelming. For those that may have a significant number of review requests.
 - If you receive an overwhelming amount of feedback requests, prioritize the requests based on the team members you work most closely with (I.E. the people you feel you can provide the most meaningful and holistic feedback to). Feedback is a gift and you should try to provide meaningful feedback to as many requesters as possible, but be mindful of your own bandwidth as well. Start with your core group, and expand from there as capacity allows.
 
-##### Managing Feedback Requests
+#### Managing Feedback Requests
 
 If you feel overwhelmed by the number of team members that have requested feedback from you, keep in mind that you are providing your team members with a gift: the ability to learn and grow from the feedback they receive.
 
@@ -224,7 +224,7 @@ If you would like to learn more, we held a [Receiving Feedback Live Learning cou
 
 ### Guidance for Managers
 
-The feedback that your team member receives may reinforce excellent or under performance you have already observed, but shouldn't be the only data point you use in evaluating performance. In cases where you’ve identified your top performer, we should learn from what makes that person successful to share with others. In cases where unsatisfactory performance is identified, you should also address that timely and honestly. The feedback included through the 360 process may help in talking through examples of strengths or improvement areas, but you should not wait for the 360 Feedback process to address performance matters.
+The feedback that your team member receives may reinforce excellent or under performance you have already observed, but shouldn't be the only data point you use in evaluating performance. In cases where you've identified your top performer, we should learn from what makes that person successful to share with others. In cases where unsatisfactory performance is identified, you should also address that timely and honestly. The feedback included through the 360 process may help in talking through examples of strengths or improvement areas, but you should not wait for the 360 Feedback process to address performance matters.
 
 ### Reviewing the Report as a Manager
 
@@ -240,7 +240,7 @@ The high level recommended process is as follows:
 1. *In the meeting:*
     - When discussing the feedback, ask open ended questions such as: What do you think of the feedback? Were there any surprises?
     - Give feedback using the S-B-I- model: situation - behavior - impact
-    - Identify 1-2 development opportunities based on the feedback to focus on and identify concrete development actions. Ask open ended questions like “what would success look like?” which also engage the team member to take accountability for their own growth and development
+    - Identify 1-2 development opportunities based on the feedback to focus on and identify concrete development actions. Ask open ended questions like "what would success look like?" which also engage the team member to take accountability for their own growth and development
     - Update the IGP based on the 360 findings and development actions.
 1. *After the meeting:* periodically (quarterly) in 1:1s, review progress against the development goals and offer support as needed
 

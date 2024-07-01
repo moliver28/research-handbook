@@ -38,7 +38,7 @@ A Key Review should not be cancelled without permission. Permission to cancel or
 Required invitees are the CEO, the CFO, and the function head.
 Optional attendees are all other members of [the e-group](/handbook/company/structure/#e-group), the Chief of Staff to the CEO, and other team members as designated by their E-Group leader.
 
-Key Review Meetings may contain MNPI. As materials are limited access, participation is limited.
+Key Review Meetings may contain MNPI. As materials are limited access, participation is limited. Key Review agendas and recordings should not be shared with anyone not on the invite.
 
 If the Key Review meeting will not contain MNPI, it can be privately livestreamed to GitLab Unfiltered. Currently only the Data and Enterprise Apps Key Reviews are privately streamed.
 
@@ -92,7 +92,7 @@ Important notes:
 1. If the Key Review does not contain MNPI or [not public](/handbook/communication/confidentiality-levels/#not-public) information, it should be privately streamed to YouTube Unfiltered in alignment with GitLab's [value of transparency](/handbook/values/#transparency). If the Key Review contains MNPI it should not be streamed, but can be recorded and shared in a [limited access](/handbook/communication/confidentiality-levels/#limited-access) manner by including the link in the restricted Key Review agenda doc.
 1. Should private streaming be unavailable, the recording should be uploaded to the GitLab Unfiltered [Key Reviews Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrlBfo0IBmV0BwJcPN59swi) on YouTube if it does not contain MNPI or [not public](/handbook/communication/confidentiality-levels/#not-public) information. It is the DRI's or their EBA's responsibility to ensure that the video, if not containing MNPI or [not public](/handbook/communication/confidentiality-levels/#not-public) information, is uploaded to GitLab Unfiltered with the correct visibility (private or public). If it contains MNPI, then the recording can be shared in a [limited access](/handbook/communication/confidentiality-levels/#limited-access) manner.
 1. If the function DRI is not available to attend their Key Review then the function's leadership team is responsible for attending the meeting and providing updates.
-1. Repetition in recognizing what is working or not working from month to month is okay as repetition can be an organizational tool for teaching people what’s important amidst all the noise.
+1. Repetition in recognizing what is working or not working from month to month is okay as repetition can be an organizational tool for teaching people what's important amidst all the noise.
 
 Also see [First Post is a badge of honor](/handbook/communication/#first-post-is-a-badge-of-honor).
 

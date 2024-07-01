@@ -47,11 +47,11 @@ You'll be expected to provide a summary, key take-aways, and any supporting mate
 
 - Create a new project and name it accordingly
 - Provide a markup formatted write-up in the form of a README.md in the project, documenting as much you can, but at least the following:
-    - Name of the training
-    - Date of the training
-    - URLs to the training
-    - Description of the training
-    - Personal impression
+  - Name of the training
+  - Date of the training
+  - URLs to the training
+  - Description of the training
+  - Personal impression
 - Upload as much supporting material to the project as you're allowed to by the authors of the training
 
 #### Show & Tell

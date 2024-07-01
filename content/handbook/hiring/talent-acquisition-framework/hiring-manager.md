@@ -87,9 +87,9 @@ Hiring managers check references:
 
 - To ensure we are hiring the right candidate.
 - To understand under what circumstances this candidate thrives vs. what circumstances frustrates them.
-    - As the hiring manager, you will be the closest to the GitLab team-member and benefit most from learning about them.
+  - As the hiring manager, you will be the closest to the GitLab team-member and benefit most from learning about them.
 - To build your network.
-    - As a hiring manager, you need to build a network for great talent.  Each reference you talk to can be a part of that network.
+  - As a hiring manager, you need to build a network for great talent.  Each reference you talk to can be a part of that network.
 - To use the opportunity to spread the GitLab story.  We could spark new customers and new GitLab team-members.
 
 All GitLab hiring managers should be making the best effort to complete and conduct the reference checks for their candidate.
@@ -132,4 +132,4 @@ If a GitLab team member provides a positive or negative feedback on a candidate,
 
 ### Backchannel References
 
-At no time should a backchannel reference be completed. A backchannel reference is defined as reaching out to someone in a candidates network (professional or personal), to gather feedback about the candidate without their consent or knowledge. Doing backchannel reference checks is counter to GitLab's value of [transparency]({{< ref "values#transparency" >}}). It may also have unintended, negative consequences for the person being backchanneled.
+At no time should a backchannel reference be completed. A backchannel reference is defined as reaching out to someone in a candidates network (professional or personal), to gather feedback about the candidate without their consent or knowledge. Doing backchannel reference checks is counter to GitLab's value of [transparency](/handbook/values/#transparency). It may also have unintended, negative consequences for the person being backchanneled.

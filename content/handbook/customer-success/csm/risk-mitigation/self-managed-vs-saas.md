@@ -1,8 +1,7 @@
 ---
-
 title: "Helping Customers Decide to Migrate to SaaS"
 ---
- 
+
 
 
 
@@ -16,13 +15,13 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 Many customers are interested in migrating to our SaaS platform. Typically their reasons for doing so are:
 
 - **Infrastructure Cost Savings**
-   - They do not need to pay for infrastructure to host their GitLab instance, or employees to manage this infrastructure
+  - They do not need to pay for infrastructure to host their GitLab instance, or employees to manage this infrastructure
 - **Mitigate Administration Issues**
-   - Customers do not necessarily want to manage being a GitLab admin
+  - Customers do not necessarily want to manage being a GitLab admin
 - **Have Latest Features**
-   - Customers will always be on the latest version of GitLab
-   - Don't need to perform upgrades
-   - Always up to date
+  - Customers will always be on the latest version of GitLab
+  - Don't need to perform upgrades
+  - Always up to date
 
 If a customer poses an interest in moving to SaaS, it is important that they know the differences between the two platforms: namely, the presence or absence of administrative control. On self-managed, Admin users can access the Admin Panel, and have the ability to impersonate users, remove personal access tokens created by users, and make use of other features only Admins can use. On SaaS, users have more control and there are no Admins, thus, there is less access control. Also, some APIs cannot be used on SaaS, as they require the user conducting the request to have administrative privileges.
 
@@ -51,7 +50,7 @@ We recommend asking champions some discovery questions during a cadence call to 
    - Are these accessible on SaaS?
    - Are you utilizing the GitLab API to do things that require admin privileges?
    - *If the customer switches to SaaS, they will not be able to use the admin panel OR perform API calls that require admin access.*
-1. Have you completed a security audit of our SaaS solution to ensure it is compliant to your organization’s standards?
+1. Have you completed a security audit of our SaaS solution to ensure it is compliant to your organization's standards?
    - *If the customer answers NO, we recommend their security team performs any required audits in advance to ensure SaaS is compliant with their security requirements.*
 1. What are your access control security requirements?
 1. What are you using for authentication?

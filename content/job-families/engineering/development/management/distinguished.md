@@ -26,7 +26,7 @@ The Distinguished Engineer is a [grade 10](/handbook/total-rewards/compensation/
 ### Technical
 
 - Deep and broad knowledge of current and emerging technologies that affect the business
-- Expert on GitLab’s product, architecture and workflow at both typical and large scale
+- Expert on GitLab's product, architecture and workflow at both typical and large scale
 - Expert in designing, implementing, and troubleshooting major portions of a production stack
 
 ### Communication
@@ -40,19 +40,19 @@ The Distinguished Engineer is a [grade 10](/handbook/total-rewards/compensation/
 
 ## Responsibilities
 
-#### General
+### General
 
 - Develop architecture and systems that meet the test of time iteratively
 - Provide a point of escalation for teams facing extremely complex technical challenges
 - Attain a measurable impact on the work of teams across the company
 - Achieve a wide sphere of influence
 
-#### Technical
+### Technical
 
 - Identify challenges and technical interdependencies and suggest solutions to address them
 - Use quantitative analysis to impact key business decisions
 
-#### Communication
+### Communication
 
 - Evangelize successful adoption and use of tooling and technologies
 - Lead conversations to encourage collaboration across teams
@@ -61,7 +61,7 @@ The Distinguished Engineer is a [grade 10](/handbook/total-rewards/compensation/
 - Develop and/or consult on internal training programs
 - Embody the GitLab values and demonstrate humility in the way they interact with individuals
 
-#### Leadership
+### Leadership
 
 - Take central role in decision making for technical, business, and organizational issues
 - Teach, mentor, grow, and advise other domain experts, individual contributors, and teams in the organization
@@ -69,7 +69,7 @@ The Distinguished Engineer is a [grade 10](/handbook/total-rewards/compensation/
 - Work with key customers in assigned areas to address technical challenges
 - Exemplify GitLab values through code, reviews, communications, and processes (following and setting)
 
-#### Ops and Enablement
+### Ops and Enablement
 
 #### Requirements
 

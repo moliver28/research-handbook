@@ -21,9 +21,9 @@ title: Coupa FAQ
 ### How will suppliers be notified when a PO has been raised for them?
 
 - Depending on the preferred method of transacting:
-   - SAN supplier will receive a PO emailed to their inbox
-   - CSP suppliers will receive notifications via the CSP platform (supplier has multiple options on how to set up notifications: email, SMS)
-   - cXML supplier will be notified in their own system as per their setup and they will receive notification in CSP.
+  - SAN supplier will receive a PO emailed to their inbox
+  - CSP suppliers will receive notifications via the CSP platform (supplier has multiple options on how to set up notifications: email, SMS)
+  - cXML supplier will be notified in their own system as per their setup and they will receive notification in CSP.
 
 ## CSP/SAN FAQ
 
@@ -61,12 +61,12 @@ title: Coupa FAQ
 ### Where can I find more information on the Coupa Supplier Portal?
 
 - Here are some useful links with information on the Coupa Supplier Portal:
-   - [https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal](https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal)
-   - [https://www.supplier.coupa.com/help](https://supplier.coupa.com/help/)
-   - [https://www.supplier.coupa.com/help/creating-an-account-with-coupa](https://supplier.coupa.com/help/creating-an-account-with-coupa/)
+  - [https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal](https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal)
+  - [https://www.supplier.coupa.com/help](https://supplier.coupa.com/help/)
+  - [https://www.supplier.coupa.com/help/creating-an-account-with-coupa](https://supplier.coupa.com/help/creating-an-account-with-coupa/)
 - Chat with Coupa Support
-   - You can chat with Coupa Support to get a quick response or resolution to your question/issue. Click on the "Chat with Coupa Support" button located in the lower right corner of any screen (see below screenshot).
-   - If there's no Support Agent available, you can submit a case by providing the subject of your question/issue and a detailed description. You will receive confirmation that your case was submitted and logged. A Support Agent will respond when available.
+  - You can chat with Coupa Support to get a quick response or resolution to your question/issue. Click on the "Chat with Coupa Support" button located in the lower right corner of any screen (see below screenshot).
+  - If there's no Support Agent available, you can submit a case by providing the subject of your question/issue and a detailed description. You will receive confirmation that your case was submitted and logged. A Support Agent will respond when available.
 
    ![coupa-image-1](../CoupaSupportChat.png)
 - Suppliers can also email Coupa Support Team (supplier@coupa.com).
@@ -91,15 +91,15 @@ title: Coupa FAQ
 
 - Coupa Pay is a digital payments program to pay your invoices. You will be able to track and manage all your accounts receivable in one place and obtain instant access to every payment and associated remittance advice.
 - Below is a useful link providing more information regarding Coupa Pay:
-   - [https://supplier.coupa.com/gitlab-payment](https://supplier.coupa.com/gitlab-payment)
+  - [https://supplier.coupa.com/gitlab-payment](https://supplier.coupa.com/gitlab-payment)
 
 ### How do suppliers register for Coupa Pay?
 
 - Suppliers will need to set up their Remit-To account in Coupa. It can be done during the initial onboarding process or via the Coupa Supplier Portal (CSP).
 - Below are some useful Coupa links providing more information regarding setting up Remit-To accounts:
-   - [https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal/Administer_the_CSP/06_View_and_Manage_Remit-to_Information](https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal/Administer_the_CSP/06_View_and_Manage_Remit-to_Information)
-   - [https://supplier.coupa.com/coupa-pay-help/getting-set-up-for-online-payments](https://supplier.coupa.com/coupa-pay-help/getting-set-up-for-online-payments)
-   - [https://supplier.coupa.com/help/remit-to-improvements](https://supplier.coupa.com/help/remit-to-improvements)
+  - [https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal/Administer_the_CSP/06_View_and_Manage_Remit-to_Information](https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal/Administer_the_CSP/06_View_and_Manage_Remit-to_Information)
+  - [https://supplier.coupa.com/coupa-pay-help/getting-set-up-for-online-payments](https://supplier.coupa.com/coupa-pay-help/getting-set-up-for-online-payments)
+  - [https://supplier.coupa.com/help/remit-to-improvements](https://supplier.coupa.com/help/remit-to-improvements)
 
 {{% panel header="**Important Notes**" header-bg="warning" %}}
 

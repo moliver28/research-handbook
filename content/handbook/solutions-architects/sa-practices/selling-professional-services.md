@@ -1,8 +1,6 @@
 ---
-
 title: Selling Professional Services
 ---
-
 
 This is a practice guide for a Solutions Architect (SA) to position Professional Services to a customer during the sales cycle and gather the appropriate information to provide to the Professional Services Engagement Management Team for custom scoping, if necessary.  The overall workflow for selling Professional Services is defined in the [Professional Services Handbook - Selling Professional Services page](/handbook/customer-success/professional-services-engineering/selling/).
 
@@ -13,14 +11,14 @@ This is a practice guide for a Solutions Architect (SA) to position Professional
 GitLab provides a wide array of [Professional Services offerings](https://about.gitlab.com/services/) to accelerate the customer's time to value in GitLab platform adoption and maturing DevOps practices.  Service offerings range from standard instructor-led training to custom services packages that address a specific customer need.  Generally, Professional Services are sold in one of two ways:
 
 - via a sku on an order form - no SOW is needed for the customer to purchase these services; they can be added directly to an order form, in conjunction with a license purchase, when applicable.  the [Professional Services Catalog](https://about.gitlab.com/services/catalog/) has a full list of sku-based services offerings.  The most popular sku-based services are:
-   - [GitLab Rapid Results - self-managed](https://about.gitlab.com/services/rapid-results/) for implementing GitLab in a cloud environment
-   - [GitLab Migration+](https://about.gitlab.com/services/migration/migration-plus/) for migrating up to 500 projects and 1000 repositories from another git-based system to GitLab (SCM only - CI//CD is not included)
-   - [GitLab Expert Services](https://about.gitlab.com/services/advisory/expert-services/) - a block of 40 hours to help a customer with whatever adoption needs they have
+  - [GitLab Rapid Results - self-managed](https://about.gitlab.com/services/rapid-results/) for implementing GitLab in a cloud environment
+  - [GitLab Migration+](https://about.gitlab.com/services/migration/migration-plus/) for migrating up to 500 projects and 1000 repositories from another git-based system to GitLab (SCM only - CI//CD is not included)
+  - [GitLab Expert Services](https://about.gitlab.com/services/advisory/expert-services/) - a block of 40 hours to help a customer with whatever adoption needs they have
 - via an SOW as a "GitLab Service Package" - this is used for any custom package of services that are defined to address a specific customer need.  A custom SOW is typically used for these purposes:
-   - bundling together source code migration and GitLab CI adoption/transition from other CI tools such as Jenkins
-   - complex self-managed GitLab implementations within the customer's data center
-   - health check services for existing customers, where the details of the offering and required effort will depend on the specific customer circumstances
-   - migrations to GitLab where the Migration+ offering is not an appropriate fit
+  - bundling together source code migration and GitLab CI adoption/transition from other CI tools such as Jenkins
+  - complex self-managed GitLab implementations within the customer's data center
+  - health check services for existing customers, where the details of the offering and required effort will depend on the specific customer circumstances
+  - migrations to GitLab where the Migration+ offering is not an appropriate fit
 
 ## Cross-team Collaboration
 

@@ -4,7 +4,7 @@ title: "Professional Services Practice Manager"
 
 ### Levels
 
-## Professional Services Practice Manager
+### Professional Services Practice Manager
 
 #### Professional Services Practice Manager Job Grade
 
@@ -38,7 +38,7 @@ The Professional Services Practice Manager is a [grade 6](/handbook/total-reward
 - You share our values, and work in accordance with those values.
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the company's [travel policy](/handbook/travel/)
 
 ## Senior Professional Services Practice Manager
 
@@ -112,7 +112,7 @@ The Staff Professional Services Practice Manager is a [grade 9](/handbook/total-
 - Understanding of common go-to-market motions used by professional services organizations.
 - Excellent communication skills covering the breadth and depth of the problem space; ability to adjust communication style from technical staff level all the way up to senior leadership (VP, CxO), from internal to market facing communication.
 
-## Manager, Professional Services Practice Management
+### Manager, Professional Services Practice Management
 
 The Manager, Professional Services Practice Management reports into the Senior Director, Professional Services.
 
@@ -150,7 +150,7 @@ Additional requirements include:
 - Experienced in collaborating with other managers and executing strategies
 - Proven track record in software/technology sales or consulting and management
 
-## Senior Manager, Professional Services Practice Management
+### Senior Manager, Professional Services Practice Management
 
 The Senior Manager, Professional Services Practice Management reports into the Senior Director, Professional Services.
 
@@ -212,22 +212,22 @@ The Senior Manager, Professional Services Practice Management is a [grade 9](/ha
 #### Training & Certification Responsibilities
 
 - Develop, implement and monitor training programs.
-- Evaluate needs of the company and align training with the organization’s strategic plans.
+- Evaluate needs of the company and align training with the organization's strategic plans.
 - Create training materials, online learning modules, presentations and multimedia visual aids.
 - Evaluates the effectiveness of training based upon formal and informal feedback from customers and end users
 - Conducts training sessions and develops criteria for evaluating the effectiveness of training activities
 - Implements and manages a process to ensure that all training documentation, reports and data are completed and that materials are delivered per set guidelines
 - Maintains and updates records of training activities, participant progress, and program effectiveness
 - Maintains and updates skills by researching new training, educational, and multimedia technologies
-- Regularly evaluates trainer’s professional skills and abilities and provides coaching and counseling as needed
+- Regularly evaluates trainer's professional skills and abilities and provides coaching and counseling as needed
 - Build and manage infrastructure to support the training program.
-- Assist with developing strategic plans to address the organization’s long-term training and career development needs.
+- Assist with developing strategic plans to address the organization's long-term training and career development needs.
 - Supervise, coach and mentor staff.
 - Collaborate with other departmental heads to define training needs and skills gaps.
 
 #### Training & Certification Requirements
 
-- Bachelor’s degree in business, management, education or related field.
+- Bachelor's degree in business, management, education or related field.
 - Demonstrated progressive experience managing, specifically creating, training programs.
 - Comprehensive knowledge of the principles, methods, and techniques used in the development and delivery of training programs
 - Comprehensive knowledge of relevant training technologies, such as Learning Management Systems (LMS).

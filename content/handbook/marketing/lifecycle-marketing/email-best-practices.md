@@ -1,16 +1,10 @@
 ---
-
 title: Email Best Practices
 description: An overview of GitLab's email best practices.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -29,17 +23,17 @@ This page focuses on email best practices and their implementation at GitLab. Yo
 * Ask yourself "why would I open this email"? - include the **value proposition**
 * Keep it short and sweet - only include that is absolutely necessary
 * Try 28 to 39 characters - studies suggest this is a "sweet spot" but that is always debatable and testable
-* Front-load - put information information **first**
+* Front-load - put important information **first**
 * Be specific - emphasize what the reader "gets" out of reading this email
 * Test when you can!
 * Chad White, email marketing strategist and book author created the **CUE-DIVE method**:
-   * ❏ Contextual - personalized, localized, segmented, relevant, anticipated
-   * ❏ Urgent - topical, events, deadlines, newsjacking
-   * ❏ Emotional - aspirations, happiness, anxiety, duty, fear
-   * ❏ Detailed - answers the question “what is this email about?”
-   * ❏ Intriguing - questions, curiosity, mysterious, humor, puns
-   * ❏ Visual - very long or very short, unusual spelling, emoji, unusual punctuation
-   * ❏ Earned - testimonials, reviews, endorsements, media coverage
+  * ❏ Contextual - personalized, localized, segmented, relevant, anticipated
+  * ❏ Urgent - topical, events, deadlines, newsjacking
+  * ❏ Emotional - aspirations, happiness, anxiety, duty, fear
+  * ❏ Detailed - answers the question "what is this email about?"
+  * ❏ Intriguing - questions, curiosity, mysterious, humor, puns
+  * ❏ Visual - very long or very short, unusual spelling, emoji, unusual punctuation
+  * ❏ Earned - testimonials, reviews, endorsements, media coverage
 * SUBJECT LINES AFFECT OTHER METRICS TOO! Subject lines affect click through rates & conversions! Poor subject lines can damage the performance of future email campaigns. Do not underestimate their importance!
 * The preview text is the first sentence displayed in an email client alongside the subject line (before opening the email), don't ignore it! Some email clients show 90 characters, so there is some flexibility with length
 
@@ -120,7 +114,7 @@ Attracting Attention: The subject line is the first thing your recipients see wh
 
 Increasing Open Rate: A good subject line can make the difference between an email being opened or ignored. A high open rate is essential for your message to reach your audience.
 
-Conveying Value: The subject line should clearly and concisely communicate the value or benefit that the recipient will gain by opening the email. It should answer the question: “Why should I open this email?”
+Conveying Value: The subject line should clearly and concisely communicate the value or benefit that the recipient will gain by opening the email. It should answer the question: "Why should I open this email?"
 
 Creating Expectation: You can use the subject line to build anticipation or intrigue, which can motivate recipients to open the email to learn more.
 
@@ -174,7 +168,7 @@ Example: 5/950 = 0.5% Unsubscribe Rate.
 ## Email Templates
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Please see [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3375) for more details and to see how the email templates look
+### Please see [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3375) for more details and to see how the email templates look
 
 **What are email templates?** An email template is a reusable HTML file that is used to build email campaigns (according to Litmus).
 

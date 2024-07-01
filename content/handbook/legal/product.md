@@ -31,12 +31,12 @@ The guidance for using open source software has been updated to enable team memb
 **Team members wishing to use open source software should now refer to the comprehensive [Blue Oak Council](https://blueoakcouncil.org/list) license list, and proceed, as follows:**
 
 - `Pre-approved (Acceptable)`: Software associated with license types rated [Gold](https://blueoakcouncil.org/list#gold), [Silver](https://blueoakcouncil.org/list#silver), and [Bronze](https://blueoakcouncil.org/list#bronze) and all licenses on the Exceptions list are pre-approved for use by the Legal & Corporate Affairs team.
-    - Team members can proceed without seeking legal input.
-- `Approval required (Potentially Acceptable or Unacceptable)`: Aside from the the Exception list, Software associated with a [Lead](https://blueoakcouncil.org/list#lead) rated license type or software associated with a license not included on the Blue Oak Council list requires review before use by the Legal & Corporate Affairs team.
-    - Team members can request a review by opening a [legal issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=general-legal-template).
-    - Include the details of how the software will be used, whether or not it will be modified, and how it will be distributed (if at all) in the issue description.
+  - Team members can proceed without seeking legal input.
+- `Approval required (Potentially Acceptable or Unacceptable)`: Aside from the Exception list, Software associated with a [Lead](https://blueoakcouncil.org/list#lead) rated license type or software associated with a license not included on the Blue Oak Council list requires review before use by the Legal & Corporate Affairs team.
+  - Team members can request a review by opening a [legal issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=general-legal-template).
+  - Include the details of how the software will be used, whether or not it will be modified, and how it will be distributed (if at all) in the issue description.
 - `Exception list (Acceptable)`:
-    - [WTFPL](http://wtfpl.net)
+  - [WTFPL](http://wtfpl.net)
 
 Team members must ensure that we **comply with all requirements and restrictions associated with the applicable license** (these are typically defined in the body text of the license).
 
@@ -75,20 +75,20 @@ The purpose behind this initiative is to ensure consistent and fair licensing en
 
 **GitLab's GPL Cooperation Commitment follows:**
 
-> Before filing or continuing to prosecute any legal proceeding or claim (other than a Defensive Action) arising from termination of a Covered License, GitLab commits to extend to the person or entity (“you”) accused of violating the Covered License the following provisions regarding cure and reinstatement, taken from GPL version 3. As used here, the term ‘this License’ refers to the specific Covered License being enforced.
+> Before filing or continuing to prosecute any legal proceeding or claim (other than a Defensive Action) arising from termination of a Covered License, GitLab commits to extend to the person or entity ("you") accused of violating the Covered License the following provisions regarding cure and reinstatement, taken from GPL version 3. As used here, the term 'this License' refers to the specific Covered License being enforced.
 >
 > However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation.
 >
 > Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice.
 >
-> GitLab intends this Commitment to be irrevocable, and binding and enforceable against GitLab and assignees of or successors to GitLab’s copyrights.
+> GitLab intends this Commitment to be irrevocable, and binding and enforceable against GitLab and assignees of or successors to GitLab's copyrights.
 >
 > GitLab may modify this Commitment by publishing a new edition on this page or a successor location.
 >
 > Definitions
 >
-> ‘Covered License’ means the GNU General Public License, version 2 (GPLv2), the GNU Lesser General Public License, version 2.1 (LGPLv2.1), or the GNU Library General Public License, version 2 (LGPLv2), all as published by the Free Software Foundation.
+> 'Covered License' means the GNU General Public License, version 2 (GPLv2), the GNU Lesser General Public License, version 2.1 (LGPLv2.1), or the GNU Library General Public License, version 2 (LGPLv2), all as published by the Free Software Foundation.
 >
-> ‘Defensive Action’ means a legal proceeding or claim that GitLab brings against you in response to a prior proceeding or claim initiated by you or your affiliate.
+> 'Defensive Action' means a legal proceeding or claim that GitLab brings against you in response to a prior proceeding or claim initiated by you or your affiliate.
 >
 > GitLab means GitLab Inc. and its affiliates and subsidiaries.

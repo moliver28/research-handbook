@@ -1,14 +1,7 @@
 ---
-
 title: "Marin Jankovski's README"
 job: "Director of Platform Infrastructure"
 ---
-
-
-
-
-
-
 
 ## Purpose
 
@@ -43,7 +36,7 @@ I've found that important information gets lost when 1-1s are skipped because
 the smallest, most insignificant looking "btw" often can save a lot of time and
 effort down the line.
 I don't often quote other people so I won't do that now too, but I'll just say that
-[High Output Management - Andrew Grove] is very often right in my opinion.
+[High Output Management - Andrew Grove](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884) is very often right in my opinion.
 
 My 1-1s do have some structure, but only as a guideline in case people are not
 inspired (which can often be the case when you have the same type of call every week, or when the calls are far apart).
@@ -107,5 +100,3 @@ trust completely. From then on, earning back my trust tends to be a lot of work.
 
 For this reason I ask people working with me to always provide me direct feedback
 in time, and to react to my feedback timely without holding back.
-
-[High Output Management - Andrew Grove]: https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884

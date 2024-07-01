@@ -1,5 +1,4 @@
 ---
-
 title: "Customer Success Management Handbook"
 description: "The Customer Success Management team at GitLab is a part of the Customer Success department, acting as trusted advisors to our customers and helping them realize value faster."
 ---
@@ -15,9 +14,9 @@ description: "The Customer Success Management team at GitLab is a part of the Cu
 
 Accelerate customer success by aligning passionate CSMs with customers to:
 
- - Drive adoption aligned with business outcomes
- - Enable customers in current and future GitLab use cases
- - Expand ROI from GitLab
+- Drive adoption aligned with business outcomes
+- Enable customers in current and future GitLab use cases
+- Expand ROI from GitLab
 
 ## What is a Customer Success Manager (CSM) at GitLab?
 
@@ -132,10 +131,10 @@ Please reference this page for an overview of the areas your CSM will engage wit
 
 ## FY25 Vision & Strategy -3 Pillars
 
- - [Vision & Strategy Deck](https://docs.google.com/presentation/d/1qIBbUYoclOGSplOeUAvRwBJGKNwlo41Z7Z2fnu8bZgA/edit?usp=sharing)  (Internal - GitLab Only)
- - Success At Scale
- - Use Case Adoption
- - Success Plan Services
+- [Vision & Strategy Deck](https://docs.google.com/presentation/d/1qIBbUYoclOGSplOeUAvRwBJGKNwlo41Z7Z2fnu8bZgA/edit?usp=sharing)  (Internal - GitLab Only)
+- Success At Scale
+- Use Case Adoption
+- Success Plan Services
 
 ### Big Rock (Annual Strategy) Archive
 
@@ -180,26 +179,26 @@ Please reference this page for an overview of the areas your CSM will engage wit
 
 Landing Zones
 
- - [CI Landing Zone](/handbook/customer-success/csm/adoption-landing-zones/CI/)
+- [CI Landing Zone](/handbook/customer-success/csm/adoption-landing-zones/CI/)
 
  Customer Metrics
 
-  - [Sample Questions & Techniques for Getting to Good Customer Metrics](/handbook/customer-success/csm/success-plans/questions-techniques/)
+- [Sample Questions & Techniques for Getting to Good Customer Metrics](/handbook/customer-success/csm/success-plans/questions-techniques/)
 
  Platform Metrics
 
-   - [Customer Use Case Adoption](/handbook/customer-success/product-usage-data/use-case-adoption/)
-   - [How To: DevSecOps Adoption Tracking in Gainsight](/handbook/customer-success/csm/devsecops-adoption-tracking/)
-   - [Use Case Adoption Metrics](/handbook/customer-success/csm/stage-adoption/)
-   - [The Customer Value Received with Service Ping](/handbook/customer-success/csm/service-ping-faq/)
-   - [Product Usage Data - Definitive Guide to Product Usage Data in Gainsight](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/)
-   - [Metrics Based Product Usage Playbooks](/handbook/customer-success/product-usage-data/metrics-based-playbooks/)
+- [Customer Use Case Adoption](/handbook/customer-success/product-usage-data/use-case-adoption/)
+- [How To: DevSecOps Adoption Tracking in Gainsight](/handbook/customer-success/csm/devsecops-adoption-tracking/)
+- [Use Case Adoption Metrics](/handbook/customer-success/csm/stage-adoption/)
+- [The Customer Value Received with Service Ping](/handbook/customer-success/csm/service-ping-faq/)
+- [Product Usage Data - Definitive Guide to Product Usage Data in Gainsight](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/)
+- [Metrics Based Product Usage Playbooks](/handbook/customer-success/product-usage-data/metrics-based-playbooks/)
 
 ### Other Lifecycle Management Activities
 
 - [Transitioning a Customer from Pre-Sales to Post-Sales](/handbook/customer-success/pre-sales-post-sales-transition/)
 - [Account Engagement and Prioritization](/handbook/customer-success/csm/engagement/)
-   - [Non-Engaged Customer Strategies](/handbook/customer-success/csm/engagement/Non-engaged-customer-strategies/)
+  - [Non-Engaged Customer Strategies](/handbook/customer-success/csm/engagement/Non-engaged-customer-strategies/)
 - [Account Onboarding](/handbook/customer-success/csm/onboarding/)
 - [Success Plans](/handbook/customer-success/csm/success-plans/)
 - [Cadence Calls](/handbook/customer-success/csm/cadence-calls/)
@@ -210,7 +209,7 @@ Landing Zones
 - [Risk Types, Discovery & Mitigation](/handbook/customer-success/csm/risk-mitigation/)
 - [Workshops and/or Lunch-and-Learns](/handbook/customer-success/csm/workshops/)
 
-##### Digital Customer Programs
+#### Digital Customer Programs
 
 - [Digital Customer Programs Handbook Page](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
   - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/index.html#csm-assigned-account-programs)
@@ -246,9 +245,9 @@ To ensure that opportunities are listed with the correct Order Type, [this Sales
 
 Next steps for you:
 
-1. Customize [this SFDC report](https://gitlab.my.salesforce.com/00O4M000004agfP) where “Account Owner = your SAEs”; “CSM = You”
+1. Customize [this SFDC report](https://gitlab.my.salesforce.com/00O4M000004agfP) where "Account Owner = your SAEs"; "CSM = You"
 1. Save report
-1. Subscribe to report when “Record Count Greater Than 0” and Frequency = Weekly (You’ll get a weekly email as a reminder to look at the report)
+1. Subscribe to report when "Record Count Greater Than 0" and Frequency = Weekly (You'll get a weekly email as a reminder to look at the report)
 1. If you find an opp that is tagged incorrectly, chatter (@Sales-Support) in the opportunity and let them know there is a mistake ([example](/handbook/customer-success/csm/#csm-tools))
 
 ## Related pages

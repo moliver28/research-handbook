@@ -94,7 +94,7 @@ We do not attach individually named users to applications. All users are assigne
 
 You can attach three different categories of groups to applications:
 
-1. **Type (`rbac_type_*` Group)** This lets you attach a category of users (ex. employees, contractors, etc). At GitLab, we use the [access level wristband color](/handbook/it/policies/access-level-wristbands) so access can be mass assigned to all `blue`, `purple`, `brown`, and `black` users.
+1. **Type (`rbac_type_*` Group)** This lets you attach a category of users (ex. employees, contractors, etc). At GitLab, we use the [access level wristband color](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/) so access can be mass assigned to all `blue`, `purple`, `brown`, and `black` users.
 
 1. **Identity Role (`rbac_role_*` Group):** This lets you attach users based on the functional team that they are on, usually specific to a job title and/or manager.
 

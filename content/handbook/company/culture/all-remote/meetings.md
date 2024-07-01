@@ -18,8 +18,8 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Ensure meeting DRI.** When creating meeting across time zones, nominate volunteers to host and facilitate those meetings in their working hours that align better with their time zones.
 1. **Send the meeting invite with proper advance notice.**  A meeting with team members will usually traverse multiple time zones. We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting to give people time to respond to the invite. In addition, consider who is required in the meeting and mark non-essential participants as optional.
 1. **Include a link to an agenda document in the invite.** Team members should be able to get context before the meeting through reviewing agendas, supporting materials, etc. [Meeting agendas]({{< ref "./meetings#4-all-meetings-must-have-an-agenda" >}}) should be shared 72 hours (minimum 24 hours) in advance of the meeting. Team members will need to know what is being discussed to decide if their participation is needed or [whether their meeting attendance is optional]({{< ref "./meetings#1-make-meeting-attendance-optional" >}}).
-1. **Provide slides and supporting videos in advance.** We [embrace Neurodiversity]({{< ref "values#embracing-neurodiversity" >}}) by adopting a variety of different work styles and communication styles. Providing multiple ways to consume information (written / video / audio) allows everyone to contribute independent of their preferred comprehension style.
-1. **Use “speedy meetings."** This [Google Calendar setting](https://calendar.google.com/calendar/r/settings) creates meetings of 25 / 50 minute duration, which leaves time to write notes, stretch, etc. in between meetings.
+1. **Provide slides and supporting videos in advance.** We [embrace Neurodiversity](/handbook/values/#embracing-neurodiversity) by adopting a variety of different work styles and communication styles. Providing multiple ways to consume information (written / video / audio) allows everyone to contribute independent of their preferred comprehension style.
+1. **Use "speedy meetings."** This [Google Calendar setting](https://calendar.google.com/calendar/r/settings) creates meetings of 25 / 50 minute duration, which leaves time to write notes, stretch, etc. in between meetings.
 1. **Use the Zoom scheduler plug-in to add video conferencing to your Google Calendar event.** Leveraging the Zoom plug-in automatically adds Zoom links to your event, and reduces the probability of user error in copying and pasting an incorrect video conferencing link.
 1. **Check your audio quality.** [Research shows](https://tips.ariyh.com/p/good-sound-quality-smarter) that when the audio quality is high, people judge the content as better and more important. We recommend you [invest in equipment]({{< ref "./workspace#what-technology-do-i-need-for-remote-working" >}}) to generate the highest-fidelity audio in your remote work setting, such as using a microphone.
 
@@ -28,10 +28,9 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Start on time.** It's important to [begin and end meetings on time]({{< ref "./meetings#3-start-on-time-end-on-time" >}}) in order to minimize disruption.
 1. **Recording.** For group meetings where there are multiple time zones, consider recording the meeting to allow for async participation.
 1. **Give audio and video feedback.** If you are unable to see or hear someone, let them know so they can address and correct.
-1. **Name pronunciation.** Consider these tips to ensure name pronunciation during the meeting:
-1. **Name pronunciation.** Inline with our [values](https://handbook.gitlab.com/handbook/values/#learn-how-to-pronounce-other-peoples-names), consider these tips to ensure name pronunciation during the meeting:
-   1. Ask all participants what is your preferred name or do you have a nickname? Example: “My name is pronounced….you can call me….”
-   1. Introduce yourself, and mention your pronouns and pronunciation, and ask participants if they want to introduce themselves. Reminder that pronouns can be set in [applications we use for collaborating](https://handbook.gitlab.com/handbook/people-group/pronouns/#setting-your-pronouns-in-applications)
+1. **Name pronunciation.** Inline with our [values](/handbook/values/#learn-how-to-pronounce-other-peoples-names), consider these tips to ensure name pronunciation during the meeting:
+   1. Ask all participants what is your preferred name or do you have a nickname? Example: "My name is pronounced….you can call me…."
+   1. Introduce yourself, and mention your pronouns and pronunciation, and ask participants if they want to introduce themselves. Reminder that pronouns can be set in [applications we use for collaborating](/handbook/people-group/pronouns/#setting-your-pronouns-in-applications)
    1. Adding team members name pronunciation in agenda.
    1. If you are unsure, it is always okay to ask for a reminder on how to pronounce a team member's name.
    1. If your name is mispronounced, one can always say: "Thank you for attempting to pronounce my name, it's actually pronounced #{name}".
@@ -39,9 +38,9 @@ We're thoughtful about how we run meetings, because, when done right, they are f
    1. Consider adding a link to the pronunciation of your name to the agenda doc in the attendee section.
    1. Ensure your [Google profile name pronunciation has been completed](../../../tools-and-tips/_index.md#add-name-pronunciation-in-google).
 1. **Avoid presenting in most meetings.** Valuable synchronous time should not be used to present in [most cases]({{< ref "communication#few-meetings-with-presentations" >}}). Instead, recorded presentations make content accessible, prevent confusion, and increase participation for team members that prefer consuming content asynchronously. It is OK to present spontaneously to share unplanned material during a meeting, but stop sharing once the point is made. This ensures that the video stream is preserved for team members to engage and interact with each other.
-1. **Be intentional about introductions (or not).** Some meetings may benefit from introductions, so be intentional about either doing introductions or not. If you are going to do introductions, make sure participants are aware beforehand so they are prepared. Create a [list of people]({{< ref "communication#meeting-introduction-guidelines" >}}) with their roles, and use that for guiding the introduction sequence. Let each individual introduce themselves so that Zoom emphasizes the speaker’s video stream.
-1. **Provide verbal cues.** If you’re going through an agenda document, then add context: “bullet 3c, Sam, you added that point, can you verbalize it for us?” Similarly use slide numbers when going through a presentation to ensure that all attendees are tracking on the content.
-1. **Adhere to the agenda order to ensure inclusiveness.** People may add agenda topics to the agenda asynchronously and synchronously during the meeting. In guiding discussions, ensure that agenda topics discussed are equitable and fair - don’t let a single person or subset of the group monopolize the agenda at the expense of others.
+1. **Be intentional about introductions (or not).** Some meetings may benefit from introductions, so be intentional about either doing introductions or not. If you are going to do introductions, make sure participants are aware beforehand so they are prepared. Create a [list of people]({{< ref "communication#meeting-introduction-guidelines" >}}) with their roles, and use that for guiding the introduction sequence. Let each individual introduce themselves so that Zoom emphasizes the speaker's video stream.
+1. **Provide verbal cues.** If you're going through an agenda document, then add context: "bullet 3c, Sam, you added that point, can you verbalize it for us?" Similarly use slide numbers when going through a presentation to ensure that all attendees are tracking on the content.
+1. **Adhere to the agenda order to ensure inclusiveness.** People may add agenda topics to the agenda asynchronously and synchronously during the meeting. In guiding discussions, ensure that agenda topics discussed are equitable and fair - don't let a single person or subset of the group monopolize the agenda at the expense of others.
 1. **Document in real-time.** Since not all team members will be able to attend a meeting live, documentation is a vital part of avoiding team dysfunction. Follow [Live Doc meeting best practices]({{< ref "live-doc-meetings" >}}) to increase cohesion, discipline, and transparency.
 1. **End on time.**
 
@@ -49,8 +48,8 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 
 1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature]({{< ref "1-1" >}}) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
 1. **Consider important decisions.**  When the meeting takes place outside of some participants' time zones, consider confirming decisions and actions for 24-48 hours. This will allow participants to contribute asynchronously.
-1. **Upload recording.** When the meeting is recorded, add the recording link and password in the agenda shortly after the meeting to allow for async consumption for people in different time zones. Also consider uploading to YouTube if it can be done so consistent with SAFE guidelines.
-1. **Assess and Iterate.** Once the meeting concludes, reflect on what worked, what didn’t work, and what you need to do differently to run a more effective meeting. This process touches three of our CREDIT values: Iteration, Efficiency, and Results for Customers. By taking a small amount of time after a meeting to focus on continuous improvement, we can apply those improvements in future meetings. This drive for continuous improvement drives Efficiency, which is the foundation for Results.
+1. **Upload recording.** When the meeting is recorded, add the recording link and password in the agenda with in 12 hours after the meeting to allow for async consumption for people in different time zones. Also consider uploading to YouTube if it can be done so consistent with SAFE guidelines.
+1. **Assess and Iterate.** Once the meeting concludes, reflect on what worked, what didn't work, and what you need to do differently to run a more effective meeting. This process touches three of our CREDIT values: Iteration, Efficiency, and Results for Customers. By taking a small amount of time after a meeting to focus on continuous improvement, we can apply those improvements in future meetings. This drive for continuous improvement drives Efficiency, which is the foundation for Results.
 
 ## What is a remote meeting?
 
@@ -74,7 +73,7 @@ When you work in a global all-remote company, the usual assumptions about availa
 
 In many companies, synchronous meetings are used as a mechanism to create consensus. As you'll read in the [Leadership](/handbook/leadership) portion of GitLab's handbook, we are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end one person decides the matter after they have listened to all the feedback.
 
-This works because of our values, which leads GitLab to hire individuals who enjoy being a manager of one, a point detailed in our [Efficiency value]({{< ref "values#efficiency" >}}). Team members are empowered to decide whether a sync meeting is the best use of their time, and [set boundaries]({{< ref "./mental-health#be-transparent-about-boundaries" >}}) when needed.
+This works because of our values, which leads GitLab to hire individuals who enjoy being a manager of one, a point detailed in our [Efficiency value](/handbook/values/#efficiency). Team members are empowered to decide whether a sync meeting is the best use of their time, and [set boundaries]({{< ref "./mental-health#be-transparent-about-boundaries" >}}) when needed.
 
 #### Record meetings to encourage async participation
 
@@ -193,11 +192,11 @@ Learn more in the [Communication section of GitLab's Handbook]({{< ref "communic
 
 ### 10. Say thanks and be creative
 
-At GitLab, we have a dedicated Slack channel [devoted to saying thanks]({{< ref "communication#say-thanks" >}}). Kindness is embedded in our [Collaboration]({{< ref "values#collaboration" >}}) value, and gratitude is an essential part of our culture. This reinforces what connects us as a [geographically diverse](/handbook/company/culture/inclusion#fully-distributed-and-completely-connected) team.
+At GitLab, we have a dedicated Slack channel [devoted to saying thanks]({{< ref "communication#say-thanks" >}}). Kindness is embedded in our [Collaboration](/handbook/values/#collaboration) value, and gratitude is an essential part of our culture. This reinforces what connects us as a [geographically diverse](/handbook/company/culture/inclusion#fully-distributed-and-completely-connected) team.
 
 A great example of several GitLab's [values]({{< ref "values" >}}) being used to generate a creative outcome from a regularly scheduled meeting is detailed on the company blog: ["How we turned a dull weekly all-hands into a podcast"](https://about.gitlab.com/blog/2019/06/03/how-we-turned-40-person-meeting-into-a-podcast)
 
-While we can thanks team members within meetings, we do not thank each other for meeting participation as this is not part of our values and could reward folks attending meetings that they are not required in. This would not support [efficiency]({{< ref "values#efficiency" >}}), a GitLab value.
+While we can thanks team members within meetings, we do not thank each other for meeting participation as this is not part of our values and could reward folks attending meetings that they are not required in. This would not support [efficiency](/handbook/values/#efficiency), a GitLab value.
 
 ## Remote meeting FAQ's
 
@@ -219,7 +218,7 @@ Both can be overcome by [checking your internet connection]({{< ref "./getting-s
 1. Review your calendar at least a day in advance of the meeting, so that you are aware of the meeting and what is being discussed. Meetings should not be surprises. When people know what is on their calendars and are aware of related materials, they can make smart decisions around how much time to spend reviewing materials in advance.
 1. Prepare for your meeting by carefully reading the live doc agenda attached to the calendar invite **before** the meeting. Here's an [example](https://docs.google.com/document/d/1WQe-0oiMCzB3MPBNdKluCEIfgTRpaIi-SJ8FmUJ2xHo/edit?usp=sharing) of what one might look like.
 1. Check and [make sure your technology, Internet]({{< ref "./getting-started#bolster-your-internet-connection-and-consider-redundancy" >}}), and environment are good.
-1. Don’t be afraid to [ask for help]({{< ref "./getting-started#dont-be-afraid-to-ask-for-help" >}}) if you need it in order to be fully prepared.
+1. Don't be afraid to [ask for help]({{< ref "./getting-started#dont-be-afraid-to-ask-for-help" >}}) if you need it in order to be fully prepared.
 
 ### What should I do after a remote meeting?
 
@@ -255,7 +254,7 @@ When working in an all-remote company, there is a strong tendency to avoid tradi
 1. Schedule breaks during calls longer than 1 hour.
 1. Keep in mind the downsides of time-zone shifting to attend these synchronous meetings. Team members in shifted time-zones may arrive with lower energy.
 1. Combine asynchronous activities between synchronous meetings.
-1. Take more time than you normally would to explain activities and intent, framing your position with [additional context]({{< ref "./effective-communication" >}}). In traditional offsites, understanding comes from observing others in the room, and this can be more difficult remotely. If you are leading the offsite, encourage people to have [short toes]({{< ref "values#short-toes" >}}) and [assume positive intent]({{< ref "values#assume-positive-intent" >}}) when it comes to being interrupted, as a higher-than-expected amount of back-and-forth may be necessary to achieve understanding.
+1. Take more time than you normally would to explain activities and intent, framing your position with [additional context]({{< ref "./effective-communication" >}}). In traditional offsites, understanding comes from observing others in the room, and this can be more difficult remotely. If you are leading the offsite, encourage people to have [short toes](/handbook/values/#short-toes) and [assume positive intent](/handbook/values/#assume-positive-intent) when it comes to being interrupted, as a higher-than-expected amount of back-and-forth may be necessary to achieve understanding.
 1. If possible, spend a full day working together with breaks, and share a remote meal together [coffee-chat]({{< ref "./informal-communication#coffee-chats" >}}) style.
 1. Check your [tools](/handbook/tools-and-tips) to make sure they can support the synchronous setup you are proposing.
 
@@ -305,7 +304,7 @@ When agendas are shared at least 72 hours in advance, you can have efficient asy
 
 ### How do you create a low meeting culture?
 
-In addition to making it effective and efficient for participants to contribute asynchronously, don't thank people for showing up in meetings. At GitLab [results]({{< ref "values#results" >}}) and [efficiency]({{< ref "values#efficiency" >}}) are values, participation is not.
+In addition to making it effective and efficient for participants to contribute asynchronously, don't thank people for showing up in meetings. At GitLab [results](/handbook/values/#results) and [efficiency](/handbook/values/#efficiency) are values, participation is not.
 
 ### How do you keep participants engaged in a remote meeting?
 

@@ -16,7 +16,7 @@ Anyone can contribute to the documentation. Follow our [GitLab documentation gui
 
 - A group of [Technical Writers](/job-families/product/technical-writer/).
 - Two [Technical Writing Managers](/job-families/product/technical-writing-manager/).
-- A [Senior Fullstack Engineer, Technical Writing](/job-families/product/ux-fullstack-engineer/).
+- Two [Fullstack Engineers, Technical Writing](/job-families/product/ux-fullstack-engineer/).
 - A [Technical Writing Director](/job-families/product/technical-writing-manager/#director-technical-writing).
 
 ## Contact Us
@@ -180,23 +180,21 @@ The Technical Writing team gets assistance with the `gitlab-docs` project from s
 
 | Subject          | Person                                 |
 |:-----------------|:---------------------------------------|
-| Backend reviews  | [Ash McKenzie], [David O'Regan]        |
-| Frontend reviews | [Lukas 'Eipi' Eipert], [David O'Regan] |
-| Support          | [Mike Lockhart]                        |
-
-[Ash McKenzie]: https://gitlab.com/ashmckenzie
-[Lukas 'Eipi' Eipert]: https://gitlab.com/leipert
-[David O'Regan]: https://gitlab.com/oregand
-[Mike Lockhart]: https://gitlab.com/mlockhart
+| Backend reviews  | [Ash McKenzie](https://gitlab.com/ashmckenzie), [David O'Regan](https://gitlab.com/oregand)        |
+| Frontend reviews | [Lukas 'Eipi' Eipert](https://gitlab.com/leipert), [David O'Regan](https://gitlab.com/oregand) |
+| Support          | [Mike Lockhart](https://gitlab.com/mlockhart)                        |
 
 ## Docs site stats
 
 The technical writing team supports a large amount of content.
 
+### Page count
+
 The number of pages in the five primary repositories (GitLab, Omnibus, Charts, Operator, and Runner):
 
 | Date          | # of pages | Increase from previous quarter |
 |---------------|------------| ------------|
+| June 2024     | 2,456      | 6 %         |
 | Mar  2024     | 2,308      | 5 %         |
 | Dec  2023     | 2,201      | 5 %         |
 | Sept 2023     | 2,088      | 8 %         |
@@ -208,12 +206,21 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | Jan 2022      | 1,562      | -           |
 | May 2020      | 1,165      | -           |
 
-**Change between May 2020 and Mar 2024:** 1,143 more pages (a 98% increase)
+**Change between May 2020 and Mar 2024:** 1,291 more pages (a 111% increase)
+
+#### Page count by area of the left nav
+
+In June, 2024, the page count by area of the left navigation:
+
+![img](img/page_count_june2024.png)
+
+### Word count
 
 The number of words in these repositories:
 
 | Date          | Word count | Increase from previous quarter |
 |---------------|------------| ------------|
+| June 2024     | 3,325,823  | 4 %         |
 | Mar  2024     | 3,183,647  | 6 %         |
 | Dec  2023     | 2,990,400  | 5 %         |
 | Sept 2023     | 2,842,399  | 5 %         |
@@ -225,9 +232,15 @@ The number of words in these repositories:
 | Jan 2022      | 2,017,183  | -           |
 | May 2020      | 1,190,371  | -           |
 
-**Change between May 2020 and Mar 2024:** 1,993,276 more words (a 167% increase)
+**Change between May 2020 and Mar 2024:** 2,135,452 more words (a 179% increase)
 
 The word count has more than doubled in this timeframe.
+
+#### Word count by area of the left nav
+
+In June, 2024, the word count by area of the left navigation:
+
+![img](img/word_count_june2024.png)
 
 ### Analytics
 
@@ -267,7 +280,7 @@ When taking PTO, Technical Writers:
 1. Send a message in the group Slack channels indicating where to find the available mechanisms. For example:
 
    ```text
-   I’m off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
+   I'm off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
    https://about.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
    For urgent _named time-sensitive task_ matters, ping _named TW_.
    ```

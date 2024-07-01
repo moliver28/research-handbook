@@ -1,19 +1,13 @@
 ---
-
 title: "Marketing Career Development - Overview"
 description: "This page details the marketing career development program."
 ---
-
-
-
-
-
 
 ## Overview
 
 ### Problem Statement
 
-In the annual employee engagement and satisfaction survey, Marketing’s lowest score was for career development within GitLab. Due to the team structure, hiring is made for specific roles and the team is kept as lean and efficient as possible. This makes mobility more difficult.
+In the annual employee engagement and satisfaction survey, Marketing's lowest score was for career development within GitLab. Due to the team structure, hiring is made for specific roles and the team is kept as lean and efficient as possible. This makes mobility more difficult.
 
 ### Proposed Solution
 
@@ -27,7 +21,7 @@ Todd provides an overview of the purpose and goals of the Marketing Career Devel
 
 ### Analytics
 
-Know how to read and interpret the marketing analytics GitLab’s marketing team uses to inform business decisions and strategy
+Know how to read and interpret the marketing analytics GitLab's marketing team uses to inform business decisions and strategy
 
 - [Business Analytics: Marketing Data](https://www.linkedin.com/learning/business-analytics-marketing-data/what-is-the-value-of-marketing-data?u=2255073)  - LI provides a nice overview of why and how people analyze marketing data.
 - For SFDC users:
@@ -44,12 +38,12 @@ Know how to read and interpret the marketing analytics GitLab’s marketing team
 - [Introduction to Social Media Strategy](https://www.linkedin.com/learning/introduction-to-social-media-strategy/using-social-media-to-grow-your-business?u=2255073) - This presentation provides training that could reinforce our tone of voice. Reinstate our human principals: knowledgeable, relatable, honest, practical, aspirational, decisive, and clever.
 - [Writing with Impact](https://www.linkedin.com/learning/writing-with-impact/strong-writing-big-results?u=2255073) - There's no such thing as generic "good" writing. Writing quality—and impact—comes from how well it fits its purpose. This course shows how to give all your writing more impact, regardless of its purpose.
 
-### Design and communication  
+### Design and communication
 
 - [Designing a presentation](https://www.linkedin.com/learning/designing-a-presentation-2/designing-a-presentation?u=2255073) - From helpful transitions to  layouts and themes- you will learn how to make an impactful slide deck.
 - [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-2/version-control-and-more?u=2255073) - This training teaches markdown basics and even directs folks to GitLab flavored markdown. These simple tips can transform your epics and issues. It covers headings, bulleted lists, numbered lists, bold and italic text, and how to insert links and images.
 
-### Revenue basics  
+### Revenue basics
 
 - [Annual recurring revenue](/handbook/sales/sales-term-glossary/arr-in-practice/) (HB)
 - [Customer lifecycle at GitLab](/handbook/sales/field-operations/gtm-resources/#customer-lifecycle) (HB)
@@ -78,7 +72,7 @@ Know how to read and interpret the marketing analytics GitLab’s marketing team
 - [Creating a channel marketing structure](https://www.linkedin.com/learning/sales-channel-management/creating-a-channel-marketing-structure?u=2255073)
 - [Google Analytics Essential Training](https://www.linkedin.com/learning/google-analytics-essential-training-5/understanding-your-digital-customers-with-google-analytics?u=2255073) - how to use GA to track success
 
-### Operations  
+### Operations
 
 - [Accrual vs. cash based accounting](https://www.linkedin.com/learning/quickbooks-pro-2008-essential-training/differentiating-accrual-from-cash-based-accounting?u=2255073) - GitLab runs an accrual based accounting method.
 

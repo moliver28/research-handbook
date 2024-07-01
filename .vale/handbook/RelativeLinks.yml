@@ -1,0 +1,13 @@
+---
+# Error: handbook.RelativeLinks
+#
+# Checks for the presence of absolute hyperlinks that should be relative.
+#
+# For a list of all options, see https://vale.sh/docs/topics/styles/
+extends: existence
+message: "Use a relative link instead of the full URL."
+link: https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#links
+level: error
+scope: raw
+raw:
+  - '\[[^\]]+\]\(https?:\/\/handbook\.gitlab\.com\/.*?\)'

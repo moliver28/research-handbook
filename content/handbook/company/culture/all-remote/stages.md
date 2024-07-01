@@ -144,7 +144,7 @@ The biggest challenge with a remote-first team is engagement: different team mem
 
 A remote-only organization has no physical office, and all work is done remotely. This is very similar to being all-remote, with one major distinction: most people are located in the same geographic region, so work hours are biased towards one time zone.
 
-Many companies allow employees to work remotely, but maintain "core team hours." [InVision](https://www.invisionapp.com/inside-design/studio-remote-design-team), for example, has members spread across multiple countries and time zones, but aims to achieve "at least a 4-hour overlap with InVision’s core team hours, 10am–6pm Eastern Standard Time."
+Many companies allow employees to work remotely, but maintain "core team hours." [InVision](https://www.invisionapp.com/inside-design/studio-remote-design-team), for example, has members spread across multiple countries and time zones, but aims to achieve "at least a 4-hour overlap with InVision's core team hours, 10am–6pm Eastern Standard Time."
 
 This tends to attract employees who are in relative close proximity to one another, or at the very least, in a nearby time zone even if located in a different hemisphere.
 

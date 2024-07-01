@@ -26,7 +26,7 @@ It is also important to consider the various pros and cons when utilizing a pane
 Initially, answering the following questions will help determine whether a panel is the right solution for your project.
 
 - *Why do you need a panel?*
-  - It's best use a panel for users who are typically hard to recruit, either because there aren’t many of them (for example, Enterprise users), because they have attributes that are specialized and make them harder to find (for example, extensive experience with Kubernetes), or because they have been harder for us to recruit in the past (for example, self-managed users).
+  - It's best use a panel for users who are typically hard to recruit, either because there aren't many of them (for example, Enterprise users), because they have attributes that are specialized and make them harder to find (for example, extensive experience with Kubernetes), or because they have been harder for us to recruit in the past (for example, self-managed users).
 - *How long will this panel need to be sustained?*
   - For panels to be the most effective, setting a duration is crucial to ensure you are not over-indexing on feedback from a few users which will bias your results. Research Operations recommends a panel to last no longer than 6 months to help ensure that you are not over-indexing on panel participants.
 - *How large will the panel need to be?*
@@ -91,7 +91,7 @@ One goal of a panel is to keep participants engaged and not to incur fatigue fro
 
 - Outline communication guidelines initially within the recruiting screener, such as how often they'll be contacted, who will contact them, how they'll be contacted, and how team members will coordinate contact. To stay within your guidelines, set up reminders on your Google calendar.
 - Consistency is key. If you communicate to participants that they will receive a total of three communications a month, send no less than and no more than three. Detouring from the set expectations could potentially make the panelist think that the research is not organized or serious, causing disengagement.
-- Track how often we’re communicating with panelists in the [Panel Tracking & Reimbursement Template](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy). Do not reach out more than once a month to panelists.
+- Track how often we're communicating with panelists in the [Panel Tracking & Reimbursement Template](https://docs.google.com/spreadsheets/d/1uQO7BfvXCB-ysIRMivH5ReG8LB5nptGw0ma7E4Rz5gM/copy). Do not reach out more than once a month to panelists.
 - If participants contact the designated point of contact, you must reply in a 24-hour time window if it is during the week (otherwise, the next business day will suffice). It is a top priority to be responsive and consistently engaged.
   - When the designated point of contact goes on PTO, ensure there is someone to cover communication with panelists.
 
@@ -159,8 +159,8 @@ Always follow these best practices for handling PII within panels:
 Do not collect data just to have it available for a non-specific purpose. For example, do not collect "time in a role" if role tenure is not relevant to the research effort.
 
 - If someone is working from a public workspace, screens should not show panel information.
-- Report any compromised data (see [GitLab’s data classification](/handbook/security/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
-- Remember to follow [GitLab’s privacy policy](https://about.gitlab.com/privacy/).
+- Report any compromised data (see [GitLab's data classification](/handbook/security/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
+- Remember to follow [GitLab's privacy policy](https://about.gitlab.com/privacy/).
 - Participants may request
   - **To be removed from the panel:** Remove them, and then reach out to a Research Operations team member to ensure they are removed from other active panels and other communications.
   - **To see their personal data:** They can submit a [Personal data request](/handbook/legal/privacy/gdpr/) to see which lists they are subscribed to. Reach out to a Research Operations team member to help with this request.

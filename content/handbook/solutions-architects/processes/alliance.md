@@ -1,8 +1,6 @@
 ---
-
 title: Alliance SA Engagement Model
 ---
-
 
 ## Alliance Solutions Architect: Role & Responsibilities
 
@@ -18,7 +16,7 @@ These percentages are averages and may vary according to specific partnerships, 
 ### Team Charter and Mission
 
 - **Partner Development:** Works across the partner ecosystem, helps with offerings, enablement and field marketing, both internal and external.
-- **Subject Matter Expertise:** Recognized as a trusted advisor within an area of focus, with exceptional soft / public speaking skills and “hands on the keyboard” depth. Frequently this expertise involves entire technical ecosystems and technical cultural attributes of partner organizations.
+- **Subject Matter Expertise:** Recognized as a trusted advisor within an area of focus, with exceptional soft / public speaking skills and "hands on the keyboard" depth. Frequently this expertise involves entire technical ecosystems and technical cultural attributes of partner organizations.
 - **Sales Effectiveness:** Proactively identifies market demand with solutioning. Engages as lead Subject Matter Expert (SME) including pitches, solution envisioning, proposal development and estimate preparation as related to a Partner.
 - **Internal and External Evangelism:** Communicates, grows and evolves awareness of applicable Partner technology, services, success stories, market trends and best practices.
   - **GitLab Alliances Strategy:** generates ideas for and participates in Alliances group strategy formulation for both business and technical considerations.

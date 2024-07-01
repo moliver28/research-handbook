@@ -126,7 +126,7 @@ The responsibilities of the Senior Data Analyst extend the Data Analyst (Interme
 The requirements of the Senior Data Analyst extend the Data Analyst (Intermediate) role and include:
 
 - 6+ years experience in an analytics role or equivalent experience/training
-- Fluent in all Data Analysis technologies defined in in the [Data Team Platform](/handbook/business-technology/data-team/platform/)
+- Fluent in all Data Analysis technologies defined in the [Data Team Platform](/handbook/business-technology/data-team/platform/)
 - Recognized expert in SQL, Data Visualization and Business Intelligence
 - Own and maintain one or more sections of the [Data Catalog](/handbook/business-technology/data-team/data-catalog/)
 - Own and maintain one or more sections of the [Trusted Data Framework](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework)  for a specified Trusted Model
@@ -170,7 +170,7 @@ The requirements of the Staff Data Analyst extend the Senior Data Analyst role a
 - Installs, configures, administers, and troubleshoots BI software environments in order to achieve reliable, highly available, well performing systems.
 - Provides direct technical support to BI user community, triages and engages support of appropriate personnel when needed or BI technical support is not sufficient. Performs and streamlines functions such as managing user and system accounts, network rights and access to BI, analytical and related integrated systems.
 - Creates and maintains documentation, standards and policies for the form, structure and attributes of the BI applications and systems.
-- Defines and leads training seminars and other educational activities for the organization’s BI user community.
+- Defines and leads training seminars and other educational activities for the organization's BI user community.
 - Identifies and documents best practices and makes recommendations for standards improvements.
 - Manages user provisioning & permissions
 

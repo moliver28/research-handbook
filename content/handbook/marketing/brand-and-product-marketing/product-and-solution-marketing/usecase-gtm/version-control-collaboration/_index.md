@@ -1,15 +1,6 @@
 ---
-
 title: "Wedge conversation: Source Code Management"
 ---
-
-
-
-
-
-
-
-
 
 ## Looking for an overview of GitLab's Source Code Management(SCM) capabilities?
 
@@ -191,7 +182,7 @@ The sample discovery questions below are meant to provide a baseline and help yo
 
 *Remarks*:
 
-GitHub HA is not a real HA setup, it’s more like a [failover solution](https://help.github.com/en/enterprise/2.21/admin/installation/configuring-github-enterprise-server-for-high-availability) (with sync between 2 virtual machines, there is no bare metal solution)
+GitHub HA is not a real HA setup, it's more like a [failover solution](https://help.github.com/en/enterprise/2.21/admin/installation/configuring-github-enterprise-server-for-high-availability) (with sync between 2 virtual machines, there is no bare metal solution)
 Moreover, zero-downtime upgrade seems [not possible](https://help.github.com/en/enterprise/2.21/admin/installation/about-high-availability-configuration#targeted-failure-scenarios)
 
 - How long have you been operational on GitHub Actions?  Can you do whatever you want with GitHub Actions?
@@ -213,13 +204,13 @@ There are no Epics within GitHub
 
 *Remarks*:
 
-(pending verification) “security alerts for vulnerable dependencies” of GitHub need that your GitHub instance should [be connected to GitHub Enterprise Cloud](https://help.github.com/en/enterprise/2.21/admin/installation/enabling-security-alerts-for-vulnerable-dependencies-on-github-enterprise-server) (no air-gapped version)
+(pending verification) "security alerts for vulnerable dependencies" of GitHub need that your GitHub instance should [be connected to GitHub Enterprise Cloud](https://help.github.com/en/enterprise/2.21/admin/installation/enabling-security-alerts-for-vulnerable-dependencies-on-github-enterprise-server) (no air-gapped version)
 
 - Are you using Codespaces? If so, what for?
 
 *Remarks*:
 
-Chances are they haven’t used it yet because it’s in pre release. But even so, an excellent time to mention the webIDE: light weight, embedded in GitLab’s GUI, configurable, linting…
+Chances are they haven't used it yet because it's in pre release. But even so, an excellent time to mention the webIDE: light weight, embedded in GitLab's GUI, configurable, linting…
 If they mention the Super Linter recently released in GitHub you can mention our CodeQuality feature that supports almost as many languages as Super Linter and the fact that Super Linter can be run without much hassle in GitLab
 
 *Remarks*:
@@ -301,7 +292,7 @@ For a list of analysts with a current understanding of GitLab's capabilities for
 - **Problem** Needed to increase developer efficiency and software quality
 - **Solution:** GitLab Premium (CI/CD, SCM)
 - **Result:** Improved from **1 build every two weeks to over a 1000/day**, or releasing 6 times per day per developer, and an average cycle time from branch to merge is now 30 minutes; simplified workflow and simplified administration
-All the new strategic pieces of ’software development platforms are tied into GitLab. GitLab is used as a complete ecosystem for development, source code control and reviews, builds, testing, QA, and production deployments.
+All the new strategic pieces of 'software development platforms are tied into GitLab. GitLab is used as a complete ecosystem for development, source code control and reviews, builds, testing, QA, and production deployments.
 - **Sales Segment:** Enterprise
 
 **[Worldline](https://about.gitlab.com/customers/worldline/)**
@@ -399,7 +390,7 @@ Serve your different remote teams with filtered LDAP access to specific IP hosti
 
 ### Ultimate
 
-**Why choose GitLab Ultimate for SCM?** Keep your IP and teams compliant and secure all the time. Provide GitLab admin’s with state of the art capability to handle large, widely distributed instances of GitLab in the most secure and flexible way. Verify everything is in place and take immediate, concise action when something goes wrong in the Security Dashboard.
+**Why choose GitLab Ultimate for SCM?** Keep your IP and teams compliant and secure all the time. Provide GitLab admin's with state of the art capability to handle large, widely distributed instances of GitLab in the most secure and flexible way. Verify everything is in place and take immediate, concise action when something goes wrong in the Security Dashboard.
 
 Compliance programs are fully supported in GitLab. Compliance professionals can use the Compliance Dashboard to promptly find the information they need by having the relevant information surfaced from the different projects to the dashboard. Time required to manage compliance needs is thus dramatically reduced.
 

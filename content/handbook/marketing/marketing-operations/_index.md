@@ -1,5 +1,4 @@
 ---
-
 title: "Marketing Operations"
 description: "Marketing Operations (MktgOps) supports the entire Marketing team to streamline processes and manage related tools. Due to those tools, we often support other teams at GitLab as well."
 ---
@@ -48,7 +47,7 @@ Marketing Operations (MktgOps) supports the marketing organization to streamline
   </div>
 </div>
 
-#### Handbook Updates
+### Handbook Updates
 
 When making an update to a handbook page for `ABM`, `FMM`, `MOps`, or `SDR` handbook pages (or sub-pages), we have a Zapier workflow set up that will push the MR (upon merge) to the related Slack channel to ensure our teams are aware of any change that is made to the page. In order for the merged MR to show up in the respective Slack channel, you must add one of the following corresponding `labels` on the MR. Slack updates will also trigger for MktgOps MRs when created.
 
@@ -67,7 +66,7 @@ We do not use or create tool-specific Slack channels (e.g. `#marketo`).
 
 - [#hbupdate-mktgops](https://gitlab.slack.com/archives/mktgops) - This channel is used to automatically post new [handbook updates](#handbook-updates) that have been merged.
 - [#mktgops](https://gitlab.slack.com/archives/mktgops) - We use this channel for general marketing operations support, weekly marketing operations team standup updates, and key system status updates. We attempt to [avoid direct messages](/handbook/communication/#avoid-direct-messages) where possible as it discourages collaboration.
-   - In order to efficiently triage common requests, we utilize auto-responses in this channel. Anyone can help triage requests in the #mktgops slack channel by using the slack emoji reactions in the table below.
+  - In order to efficiently triage common requests, we utilize auto-responses in this channel. Anyone can help triage requests in the #mktgops slack channel by using the slack emoji reactions in the table below.
 
 | Inquiry | Slack Reaction |
 | ------ | ------ |
@@ -295,7 +294,7 @@ If you need assistance with Sales Systems follow the next steps:
 2. If Mops member can create a changeset, please do so shortly after creating the issue to decrease time to deploy,
 3. Add [prioritization label](/handbook/marketing/marketing-operations/#labeling) of `MktgOpsPrio::00: Requested`
 4. Business process owner (Amy or Christine) will review, and if they approve of the request from a business standpoint, they will check the appropriate box and add the `MktgOpsPrio::01: Approved` label. If not, the request will stay in `MktgOpsPrio::00: Requested` status until blockers or outstanding questions are resolved.
-5. Once approved, requests will be added to the prioritization queue by the business proess owner to review with with Sales Systems or the PMO and labeled `MktgOpsPrio::02: In Queue - Mops`
+5. Once approved, requests will be added to the prioritization queue by the business proess owner to review with Sales Systems or the PMO and labeled `MktgOpsPrio::02: In Queue - Mops`
 6. Once Systems or PMO has agreed to take on work, the request will be added to a `Temp` holding milestone for further prioritization, and labeled `MktgOpsPrio::03: In Queue - Systems`
 7. Once a milestone is added and the issue is discussed, the label will be updated to `MktgOpsPrio::04: Actioned` by the MktgOps representative that is in the prioritization call.
     - Once the label has been updated to `MktgOpsPrio::04: Actioned`, follow along with the Sales Systems labels for next steps.
@@ -411,7 +410,6 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Litmus](/handbook/marketing/marketing-operations/litmus)
 - [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/)
 - Google Analytics (Search Discovery/Further) (DEX)
-- Survey Monkey
 - [Terminus Email Experiences](/handbook/marketing/marketing-operations/terminus-email-experiences)
 - [Typeform](/handbook/marketing/marketing-operations/typeform/)
 
@@ -461,15 +459,14 @@ Click to see dropdown list of available status page URLs.
 - [PathFactory](https://status.pathfactory.com/)
 - ReachDesk
 - RingLead
-- Terminus Email Experiences
+- [Terminus Email Experiences](https://status.terminus.com/)
 - [ZoomInfo](https://status.zoominfo.com/)
 - Vartopia - Lead Sharing Module
-- Allocadia
+- [Allocadia](https://support.allocadia.com/hc/en-us/sections/115001724228-System-Maintenance-Alerts)
 - [Hopin](https://status.hopin.com/)
 - [Iterable](https://status.iterable.com/)
 - [Litmus](https://status.litmus.com/)
-- On24
-- [Survey Monkey](https://help.surveymonkey.com/en/surveymonkey/site/site-status-information/)
+- [On24](https://on24.my.site.com/Support/s/platform-status)
 - [Typeform](https://status.typeform.com/)
 
 </details>
@@ -661,7 +658,7 @@ One of the following must occur to have a lead move from `Raw` to `Inquiry`
 On the lead object we have three types of address information, the local/personal address information for that lead, which is stored on the `Person Address` (address type field), the `Ultimate Parent Account Company` information stored on `Company Address: [XXX]` text fields,  and the `Zoominfo enrichment address information` for both the Contact (local information) and the Company level information:
 
 - `Person Address` is partially filled in from Marketo Form Fills and is also completed by ZI enrichment when it is missing;
-     - This is the address that Marketo references for email lists. It contains the local address of the record, if known through form fill, list upload, or ZI enrichment.
+  - This is the address that Marketo references for email lists. It contains the local address of the record, if known through form fill, list upload, or ZI enrichment.
 - `UPA Company Address` - stored on the `Company Adress: Country`, `Company Adress: State`, `Company Adress: City`, `Company Adress: Street`, `Company Adress: Postal Code` text fields. These fields are updated through APEX code through a 3-step waterfall approach.
   1. `Account Demographics Fields` (i.e: `Account Demographics: UPA City`) - If the lead matches to an existing account the address is populated through the Account Demographic fields, taken from the account associated with this lead;
   2. `Admin Override Fields` (i.e: `[Admin] Company Address Country`) - If a lead doesn't match to an account, the Company Address fields are either blank or  are populated through step 3 in the waterfall (see below). If the address is blank or the address information from step 3 is wrong, SDRs/BDRs can update the address information themselves using these Admin Override fields. You can see more information about this process in the [Overriding Incorrect Account Assignments section from Sales Dev Handbook](/handbook/marketing/sales-development/#overriding-incorrect-account-assignments) or in this [video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered).

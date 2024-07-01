@@ -64,8 +64,7 @@ A GCP environment has been set up under [The Static Analysis GCP Project: dev-sa
 Note: The following steps are written from the perspective of setting up
 another 2k reference architecture. If you need to set up something like
 a 25k reference architecture, you may need to change things that are not
-covered in this guide. Alternate reference architectures can be [found
-here](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality/-/tree/main/configs/reference_architectures?ref_type=heads).
+covered in this guide. Alternate reference architectures can be [found here](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality/-/tree/main/configs/reference_architectures?ref_type=heads).
 
 One time steps:
 

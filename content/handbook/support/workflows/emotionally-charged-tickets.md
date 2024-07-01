@@ -1,12 +1,9 @@
 ---
-
 title: Handling Emotionally-Charged Tickets
 category: Handling tickets
 subcategory: Writing responses and handling feedback
 description: How to keep a ticket moving toward resolution when emotions are getting involved
 ---
-
-
 
 ## Introduction
 
@@ -119,9 +116,9 @@ only 15 - 30 minutes.
    Almost always the customer just wants to solve a problem. So try focusing
    on what they need and what you can do by stating to yourself:
 
-   1. “This customer wants me to [action words used by the customer].”
-   1. “I can help them feel good about our company by [implied or emotional
-      need of the customer.]”
+   1. "This customer wants me to [action words used by the customer]."
+   1. "I can help them feel good about our company by [implied or emotional
+      need of the customer.]"
 
 1. Try to view things from the customer's perspective
 
@@ -173,7 +170,7 @@ only 15 - 30 minutes.
 Always pay attention to the language, the specific words, that
 the customer has used and then match those words in your reply:
 
-- If they wrote “delete”, write “delete”
+- If they wrote "delete", write "delete"
 - If they wrote "disaster", write "disaster"
 
 ### 2. Don't Assign Emotions to the Customer

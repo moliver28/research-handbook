@@ -101,7 +101,7 @@ Clear and proactive internal communication is essential to removing fear and ins
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
 
-> I think [documentation]({{< ref "./handbook-first" >}}) has to be [instilled as a value]({{< ref "values#write-things-down" >}}). It has to start there, and the whole leadership team in an organization has to be onboard.
+> I think [documentation]({{< ref "./handbook-first" >}}) has to be [instilled as a value](/handbook/values/#write-things-down). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
 > All of [leadership](/handbook/leadership) needs to understand the importance of documentation — not just with lip service. A true, genuine understanding of its value. If they *truly* understand the value of it, they'll emanate that to their direct reports.
 >
@@ -111,9 +111,9 @@ Clear and proactive internal communication is essential to removing fear and ins
 
 Expect bumps along the road. As with any significant business transformation, it's wise to communicate proactively to team members, customers, and investors that obstacles will emerge. Transitioning a company to fully remote, while still running the business, is not easy. It's a long-term bet that the short-term pain will be [worthwhile]({{< ref "remote-benefits" >}}).
 
-Leadership should be completely [transparent]({{< ref "values#transparency" >}}) with team members as the transition unfolds. Share headaches and roadblocks as well as successes. This should occur in an agreed channel so that discussion and feedback is centralized, and action items can be clearly disseminated.
+Leadership should be completely [transparent](/handbook/values/#transparency) with team members as the transition unfolds. Share headaches and roadblocks as well as successes. This should occur in an agreed channel so that discussion and feedback is centralized, and action items can be clearly disseminated.
 
-[Iteration]({{< ref "values#iteration" >}}) is a core value at GitLab, and we strive to [apply iteration to everything]({{< ref "./management#applying-iteration-to-everything" >}}) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience) to shaping our [workspaces]({{< ref "./workspace" >}}). This applies to business transformation as well. Implement the [smallest viable change]({{< ref "values#minimal-viable-change-mvc" >}}), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
+[Iteration](/handbook/values/#iteration) is a core value at GitLab, and we strive to [apply iteration to everything]({{< ref "./management#applying-iteration-to-everything" >}}) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience) to shaping our [workspaces]({{< ref "./workspace" >}}). This applies to business transformation as well. Implement the [smallest viable change](/handbook/values/#minimal-viable-change-mvc), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
 
 ### Iteration requires empowered teams and workers
 
@@ -126,9 +126,9 @@ The ability to charge forward and deliver capabilities is a combination of a few
 - Freedom to experiment without consensus
 - Monitoring and clean-up to manage resources and costs
 
-Attempting to transition to a remote working environment while maintaining the gatekeeping effects of the system administrators and security teams may hinder aspirational values such as [bias for action]({{< ref "values#bias-for-action" >}}). Do not provide access to sensitive data sets or applications to unverified vendors or take any unnecessarily risky approaches, but try to shrink guard rails and take inventory of what is *truly* sensitive and/or confidential.
+Attempting to transition to a remote working environment while maintaining the gatekeeping effects of the system administrators and security teams may hinder aspirational values such as [bias for action](/handbook/values/#bias-for-action). Do not provide access to sensitive data sets or applications to unverified vendors or take any unnecessarily risky approaches, but try to shrink guard rails and take inventory of what is *truly* sensitive and/or confidential.
 
-Leadership must foster creativity and intentionally seek progressive, [two-way door]({{< ref "values#make-two-way-door-decisions" >}}) approaches. Once a technique or application is proving itself out in the experimental phase, mature it with security evaluations and reliability. Importantly, any experiments that don't pan out won't have wasted months or years.
+Leadership must foster creativity and intentionally seek progressive, [two-way door](/handbook/values/#make-two-way-door-decisions) approaches. Once a technique or application is proving itself out in the experimental phase, mature it with security evaluations and reliability. Importantly, any experiments that don't pan out won't have wasted months or years.
 
 ## Hiring a Head of Remote Work
 

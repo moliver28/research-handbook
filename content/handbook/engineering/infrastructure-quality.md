@@ -5,7 +5,7 @@ description: ""
 
 ## Vision
 
-Our vision is to be a world-class Infrastructure & Tools department that enables GitLab to meet & exceed our customers’ needs.
+Our vision is to be a world-class Infrastructure & Tools department that enables GitLab to meet & exceed our customers' needs.
 
 We:
 

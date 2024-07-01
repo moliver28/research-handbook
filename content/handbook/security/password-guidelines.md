@@ -4,7 +4,7 @@ title: GitLab Password Guidelines
 <!-- markdownlint-disable MD051 -->
 ## Passwords at GitLab
 
-Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard]({{< ref "password-standard" >}}) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
+Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard](password-standard.md) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
 The password standard sets the requirements for constructing secure passwords and ensuring proper password management. GitLab utilizes 1Password for password management.
 
 ## 1Password
@@ -67,7 +67,7 @@ have saved in 1Password Teams, so users can take action. This is not something
 account administrators can review for team members, so it is up to you to enable!
 Enable Watchtower by going to your 1Password app and then to **Preferences > Watchtower**.
 1. Use the ["Security Audit"](https://i.agilebits.com/dt/Blank_Skitch_Document_18FB0234.png)
-functionality of 1Password to meet the [password standard]({{< ref "password-standard" >}}).
+functionality of 1Password to meet the [password standard](password-standard.md).
 It will report reused passwords, weak passwords, accounts that
 are missing 2-factor authorization, and so forth that can then be fixed.
 1. Do not copy passwords from inside a 1Password vault to a personal password
@@ -101,12 +101,12 @@ account up to one of the native apps.
 
 #### Adding the GitLab team to a 1Password app
 
-This guide will cover setting up the [macOS app]. It's their lead platform and is
+This guide will cover setting up the [macOS app](https://agilebits.com/downloads). It's their lead platform and is
 the most up-to-date. These instructions may or may not work for the Windows
 version. If you use 1Password 6 without a 1Password.com account, make note of
 [this](#updating-1password-to-support-the-teams-feature).
 
-1. Download and install the 1Password [macOS app].
+1. Download and install the 1Password [macOS app](https://agilebits.com/downloads).
 1. Launch the app.
 1. Click "Sign in to your 1Password account" button. If there is no such button
 please follow the instructions for [updating 1Password](#updating-1password-to-support-the-teams-feature).
@@ -263,7 +263,7 @@ op run --env-file=$HOME/.gitlab-pat.env -- glab api version
 Where the process is interactive or has dynamic output (progress bars, etc) you may need to disable masking to make the display work correctly. You can do this by adding `--no-masking`
 
 Manually adding `op run` every time for common tasks is cumbersome, so check out
-the [tools and tips]({{< ref "../tools-and-tips/onepassword-cli" >}}) section for more more user-friendly configurations.
+the [tools and tips](../tools-and-tips/onepassword-cli.md) section for more user-friendly configurations.
 
 ### Several accounts and unlocking the app
 
@@ -287,7 +287,7 @@ which you can share with up to 5 family members.
 
 ### Two factor authentication and time-based one time passwords
 
-As stated in the [GitLab Password Standards]({{< ref "password-standard" >}}), the usage of 2FA is mandatory for all GitLab team members. **Users without 2FA enabled that are stale for over 30 days will be blocked/suspended until resolved. This improves the security posture for both the user and GitLab.** If any systems provide an option to use SMS text as a second factor, this is highly discouraged. Phone company security can be easily subverted by attackers allowing them to take over a phone account.
+As stated in the [GitLab Password Standards](password-standard.md), the usage of 2FA is mandatory for all GitLab team members. **Users without 2FA enabled that are stale for over 30 days will be blocked/suspended until resolved. This improves the security posture for both the user and GitLab.** If any systems provide an option to use SMS text as a second factor, this is highly discouraged. Phone company security can be easily subverted by attackers allowing them to take over a phone account.
 
 Okta is configured such that it only supports the use of WebAuthn. 1Password TOTP should only be used when WebAuthn is unavailable.
 
@@ -326,9 +326,7 @@ To enable TOTP for a saved account:
 
 Please refer to demo video [1password TOTP setup](https://support.1password.com/one-time-passwords/)
 
-Please refer to the [1Password blog] for more information on how TOTP works.
-
-[1Password blog]: https://blog.agilebits.com/2015/01/26/totp-for-1password-users/
+Please refer to the [1Password blog](https://blog.agilebits.com/2015/01/26/totp-for-1password-users/) for more information on how TOTP works.
 
 If scanning the QR code using the "transparent window" with the 1Password Mac
 app fails on a recent macOS, please consider using the 1Password iOS app instead.
@@ -338,7 +336,7 @@ If unsure which mechanism to use, we require using WebAuthn (when possible) as a
 
 Follow this [guideline](https://gizmodo.com/how-to-easily-switch-your-two-factor-security-to-a-new-1821808681) when getting a new mobile device, if you are using Google Authenticator as a TOTP mechanism.
 
-There may be cases where TOTP might be used with a non-GitLab account. If you have any questions and need to speak with the Security Team, you can contact [Security]({{< ref "_index.md#-contacting-the-team" >}})
+There may be cases where TOTP might be used with a non-GitLab account. If you have any questions and need to speak with the Security Team, you can contact [Security](_index.md#-contacting-the-team)
 
 ### Passkeys
 
@@ -405,10 +403,7 @@ Once you have enabled Travel Mode open 1Password on each device you will be taki
 with you so that it can sync with 1Password.com and remove any vaults that cannot
 be used while traveling.
 
-For more information on Travel Mode and how it works, see the [AgileBits blog].
-
-[agilebits blog]: https://blog.agilebits.com/2017/05/18/introducing-travel-mode-protect-your-data-when-crossing-borders/
-[macOS app]: https://agilebits.com/downloads
+For more information on Travel Mode and how it works, see the [AgileBits blog](https://blog.agilebits.com/2017/05/18/introducing-travel-mode-protect-your-data-when-crossing-borders/).
 
 ### Securing Docker Registry User Credentials
 

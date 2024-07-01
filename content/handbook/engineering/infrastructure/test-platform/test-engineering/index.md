@@ -1,14 +1,7 @@
 ---
-
 title: "Test Engineering"
 description: "The Quality Engineering Sub-Department helps facilitate the test planning process for all things related to Engineering work."
 ---
-
-
-
-
-
-
 
 The Quality Engineering Sub-Department helps facilitate the test planning process for all things related to Engineering work.
 
@@ -95,7 +88,7 @@ There is no strict guideline for this and we defer this decision to each enginee
 - Certifying performance improvements for customers.
 - Upgrading underlying Rails version (e.g., the [Rails 5 migration](https://gitlab.com/gitlab-org/gitlab-ce/issues/51719)).
 
-GitLab's test plan is based on [Google’s 10 min test plan](https://testing.googleblog.com/2011/09/10-minute-test-plan.html).
+GitLab's test plan is based on [Google's 10 min test plan](https://testing.googleblog.com/2011/09/10-minute-test-plan.html).
 This test plan uses the ACC Framework (Attribute, Components and Capabilities matrix)
 
 - Attributes: qualities the product should have

@@ -1,5 +1,4 @@
 ---
-
 title: "Incident Manager On Call onboarding"
 ---
 
@@ -11,14 +10,14 @@ As a means to ensure a healthy [Incident Manager](/handbook/engineering/infrastr
 
 An Incident Manager On Call (IMOC) has the following goals during a call:
 
-  - Identify/quantify impact to GitLab customers (metrics, customer support requests)
-  - Gather necessary folks to support area(s) of investigation/resolution
-  - Suggest *politely* that people not contributing leave the call, request that folks do so when the number of people in the call is a distraction (30 people as an somewhat arbitrary guideline).
-  - Validate recent releases and feature flags (can we roll back or change the flag?)
-  - Restate status for folks joining with a low level of shame (your possible misunderstanding is a chance for group clarity and learning)
-  - Drive to identify the fastest path to mitigation and interrupt as necessary
-  - Check in on the above on a regular candence (S1 every 5 to 10 minutes)
-  - Communicate status to the right audience
+- Identify/quantify impact to GitLab customers (metrics, customer support requests)
+- Gather necessary folks to support area(s) of investigation/resolution
+- Suggest *politely* that people not contributing leave the call, request that folks do so when the number of people in the call is a distraction (30 people as an somewhat arbitrary guideline).
+- Validate recent releases and feature flags (can we roll back or change the flag?)
+- Restate status for folks joining with a low level of shame (your possible misunderstanding is a chance for group clarity and learning)
+- Drive to identify the fastest path to mitigation and interrupt as necessary
+- Check in on the above on a regular candence (S1 every 5 to 10 minutes)
+- Communicate status to the right audience
 
 Some of this may feel counter to GitLab Values; this is not designed or intended to diminish our values but to acknowledge and reinforce our need to mitigate customer impact as quickly as possible.
 
@@ -91,7 +90,7 @@ to get help with the lesser customer impact issue.
 
 ### Ending your on-call shift
 
-Before your shift ends, consider what tasks need to be handed over and make sure to proactively communicate them to the next on-call incident manager. This may mean paging the next on-call incident manager (through PagerDuty or the `@incident-managers` Slack handle) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations you have handled that have some follow-up action. If there’s a situation that occurred (or is actively happening) during your shift, it’s your responsibility to prepare the next on-call incident manager.
+Before your shift ends, consider what tasks need to be handed over and make sure to proactively communicate them to the next on-call incident manager. This may mean paging the next on-call incident manager (through PagerDuty or the `@incident-managers` Slack handle) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations you have handled that have some follow-up action. If there's a situation that occurred (or is actively happening) during your shift, it's your responsibility to prepare the next on-call incident manager.
 
 ### Additional resources
 
@@ -144,15 +143,7 @@ Four day shifts mean that, at the most, a Team Member participating in an Incide
 ### How are Incident Managers scheduled?
 
 Because new incident managers are being added to the rotation on an ongoing basis, schedules for upcoming months are not final and will shift as folks are added or removed from the rotation.
-
-1. Around the 1st Tuesday of each month:
-
-  - The coordinator will review any open [~IM-Onboarding::Ready issues](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=closed_at_desc&state=opened&label_name%5B%5D=IM-Onboarding%3A%3AReady&first_page_size=20) since the previous scheduling cycle and add these team members to the schedule. Changes will be made to take effect at the beginning of the second full month after the current day. For example, if the current day is Jan 5, the shift changes will be make to go into effect during the first week of March.
-  - The coordinator will review any **open** Incident Manager offboarding issues and remove these team members from the schedule moving forward. They will be notified in their offboarding issues confirming their removal from PagerDuty and the offboarding issue will be closed by the coordinator.
-
-1. An announcement will be posted in [`#imoc_general`](https://gitlab.slack.com/archives/C01NY82EJF6) indicating that the schedule has been modified. Team members who have pre-existing overrides after the modified date (March in the example above) will be notified.
-
-Based on the process above, scheduled incident managers will have approximately 7 weeks time before the scheduled changes to trade their shifts if needed.
+See [the Incident Manager Coordinator responsibilities](/handbook/engineering/infrastructure/incident-management/#incident-manager-coordinator) for details.
 
 ### Can I shift my Incident Manager On Call days around?
 

@@ -1,16 +1,10 @@
 ---
-
 title: Emails Processes
 description: An overview of email processes at GitLab.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
-
 
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -40,8 +34,8 @@ Due to limited seats, we will be providing 1-2 seats per team on the calendar. P
 Steps to add to the Asana calendar:
 
 * Ensure the label for "email-calendar" is added to your issue.
-* Add labels for the appropriate segmentation: “Global-email”, “EMEA-email”, “AMER-email”, “APAC-email”
-* Add labels for appropriate email type: “operational-email” “non-operational-email”
+* Add labels for the appropriate segmentation: "Global-email", "EMEA-email", "AMER-email", "APAC-email"
+* Add labels for appropriate email type: "operational-email" "non-operational-email"
 * Set email issue due date as the send date
 
 ### Email Request Issue Template
@@ -82,12 +76,12 @@ Below are the information from the issue template that will need to be filled ou
 * **Subject Line**: 50 character max is preferred (30-40 characters for mobile devices)
 * **Email Body Copy**: Can be a text snippet within issue, clearly identified comment on issue or attach a Google Doc with copy. The copy must be approved before requesting the email.
 * **Target Date to Send Email**: at a minimum a few days notice is preferred because we need to balancing the number of emails being sent to our database so they are not perceived (or marked) as spam; however, a simple email can be turned in a few hours if absolutely necessary
-    * Please note invitation and follow-up emails will not be sent on Thursdays due to our ongoing nurture programs
+  * Please note invitation and follow-up emails will not be sent on Thursdays due to our ongoing nurture programs
 * **Recipient List**: Emails can be sent to one of the [existing segments](/handbook/marketing/marketing-operations/marketo#geographic-dma-list ) or a recipient list can be provided as a .csv file
-    * Audience should be appropriately segmented and tokens selected for personalization (if applicable)
-    * All subscribers are selected list are opted-in to receive your message
-    * If supplying a .csv file, the file must include the following fields:  Email address, First Name (or Full Name)
-    * If personalizing the email to reference a specific project or page, that field must be included in the .csv file and clearly marked using the same terminology used in the email copy. The email copy must clearly identify {{Project}}or {{Page}}where the applicable personalization should be inserted.
+  * Audience should be appropriately segmented and tokens selected for personalization (if applicable)
+  * All subscribers are selected list are opted-in to receive your message
+  * If supplying a .csv file, the file must include the following fields:  Email address, First Name (or Full Name)
+  * If personalizing the email to reference a specific project or page, that field must be included in the .csv file and clearly marked using the same terminology used in the email copy. The email copy must clearly identify {{Project}}or {{Page}}where the applicable personalization should be inserted.
 
 ### Types of email requests
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -144,16 +138,16 @@ For one-time emails (i.e. a blast to promote a program for which we do not recei
 Target list issue templates are an interim solution while foundational work is being complete for overall [Marketo database audience stretegy for lifecycle marketing engine](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2022).
 
 * **Lifecycle Stage (Lead Status):** (Raw, Inquiry, MQL, Accepted, Qualifying, Qualified)
-   * **Funnel Stage:** (see [options](/handbook/marketing/marketing-operations/marketo/#segmentations))
-   * **Sales Segment:** (Large, MM, SMB, PUBSEC - if US PubSec, you can also specify territory (NSG, DoD, etc))
-   * **Region:** (APAC, AMER, EMEA)
-   * **Sub-Region (East/West/PubSec or Southern/Northern/UKI/DACH):**
+  * **Funnel Stage:** (see [options](/handbook/marketing/marketing-operations/marketo/#segmentations))
+  * **Sales Segment:** (Large, MM, SMB, PUBSEC - if US PubSec, you can also specify territory (NSG, DoD, etc))
+  * **Region:** (APAC, AMER, EMEA)
+  * **Sub-Region (East/West/PubSec or Southern/Northern/UKI/DACH):**
 * **Persona-Level:** (see [options](/handbook/marketing/marketing-operations/marketo/#segmentations))
-   * **Buyer Personas-Function:** (see [options](/handbook/marketing/marketing-operations/marketo/#segmentations))
-   * **Language Preference:** (see [options](/handbook/marketing/marketing-operations/marketo/#segmentations))
-   * **Activity filters (if necessary):** ([see options](/handbook/marketing/lifecycle-marketing/emails-nurture/#Active-Lists))
-   * **Inclusions:** (if including records on previous campaigns, MUST include the name as appears on SFDC campaign, and campaign membership statuses to exclude)
-   * **Exclusions:** (if excluding records on previous campaigns, MUST include the name as appears on SFDC campaign, and campaign membership statuses to exclude)
+  * **Buyer Personas-Function:** (see [options](/handbook/marketing/marketing-operations/marketo/#segmentations))
+  * **Language Preference:** (see [options](/handbook/marketing/marketing-operations/marketo/#segmentations))
+  * **Activity filters (if necessary):** ([see options](/handbook/marketing/lifecycle-marketing/emails-nurture/#Active-Lists))
+  * **Inclusions:** (if including records on previous campaigns, MUST include the name as appears on SFDC campaign, and campaign membership statuses to exclude)
+  * **Exclusions:** (if excluding records on previous campaigns, MUST include the name as appears on SFDC campaign, and campaign membership statuses to exclude)
 
 ### Active lists
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -190,8 +184,8 @@ First step in requesting an email from lifecycle begins by creating an issue usi
 * Step 3: Build the program and email in Marketo by referring to our [email marketing best practices](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing) and segment the email accordingly.
 * Step 4: Include a link to the Marketo program while submitting an [Email issue request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email).
 * Step 5: Send a sample for lifecycle to QA
-    * Global/AMER/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
-    * APAC/EMEA/PubSec and Localized Nurtures = reviewed by [Luis](mailto:ldambrosio@gitlab.com)
+  * Global/AMER/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
+  * APAC/EMEA/PubSec and Localized Nurtures = reviewed by [Luis](mailto:ldambrosio@gitlab.com)
 * Step 6: Make revisions & schedule the email. Can be done by lifecycle or campaigns team member.
 
 #### Field Marketing QA process
@@ -266,17 +260,17 @@ As the requestor/business owner, you are responsible for QA on content, spelling
 
 * Check the pre-header information before you click on the email.
 * On the HTML version:
-     * Check the subject line, to and from details.
-     * Check the date, time, and event name/header.
-     * Read the subject line and email for spelling mistakes and grammar. Confirm the content is accurate.
-     * Review locations, agendas, or any other details included in the email.
-     * Click on **all links** in the email. You must click on the links because the links are coded for Marketo tracking and will not show the URL until after you click on them. Confirm that all links go where you expect. You should also confirm that the utms (particularly the utm campaign value) is accurate.
-     * Confirm the layout and text size in the header is what you expect.
+  * Check the subject line, to and from details.
+  * Check the date, time, and event name/header.
+  * Read the subject line and email for spelling mistakes and grammar. Confirm the content is accurate.
+  * Review locations, agendas, or any other details included in the email.
+  * Click on **all links** in the email. You must click on the links because the links are coded for Marketo tracking and will not show the URL until after you click on them. Confirm that all links go where you expect. You should also confirm that the utms (particularly the utm campaign value) is accurate.
+  * Confirm the layout and text size in the header is what you expect.
 * You will also receive a text version of the email. This email is built separately from the HTML, so you must repeat your review on this.
-     * Check the date, time, and event name/header.
-     * Read the email for spelling mistakes and grammar. Confirm the content is accurate.
-     * Review locations, agendas, or any other details included in the email.
-     * Click on all links in the email. You must click on the links because the links are coded for Marketo tracking and will not show the URL until after you click on them. Confirm that all links go where you expect. You should also confirm that the utms (particularly the utm campaign value) is accurate.
+  * Check the date, time, and event name/header.
+  * Read the email for spelling mistakes and grammar. Confirm the content is accurate.
+  * Review locations, agendas, or any other details included in the email.
+  * Click on all links in the email. You must click on the links because the links are coded for Marketo tracking and will not show the URL until after you click on them. Confirm that all links go where you expect. You should also confirm that the utms (particularly the utm campaign value) is accurate.
 * If you requested dynamic content or if your email is localized, you may receive multiple versions of the email. Repeat the checks above for each version, confirming that the dynamic content is showing up as you expect.
 * For localized emails, confirm that the email footer is displaying in the requested language. This snippet displays based on the language preference of the user, with the default being English if they do not have a language on file.
 
@@ -321,17 +315,17 @@ Send sample to the DRI for the program (i.e. workshop owner) who is responsible 
 **Review the smartlist and schedule recurrence of email:**
 
 * Smart List (filter):
-    * Member of Program: (current program, registered status)
-    * Not Was Sent Email: (one of previous emails for this event) in last 7 days
-    * Subscription Filters (fitlers here are dependent on program type, and subject to change, so not adding all details)
+  * Member of Program: (current program, registered status)
+  * Not Was Sent Email: (one of previous emails for this event) in last 7 days
+  * Subscription Filters (fitlers here are dependent on program type, and subject to change, so not adding all details)
 * Flow
-    * Send email: sales nominated email in the program
+  * Send email: sales nominated email in the program
 * Schedule
-    * Choose `Schedule Recurrence`
-    * Schedule: Daily
-    * First Run: next relevant day to send (i.e. next business day available). Choose time of day relevant for timezone of event.
-    * Repeat Every: Weekday (M-F)
-    * End On: Day of the event
+  * Choose `Schedule Recurrence`
+  * Schedule: Daily
+  * First Run: next relevant day to send (i.e. next business day available). Choose time of day relevant for timezone of event.
+  * Repeat Every: Weekday (M-F)
+  * End On: Day of the event
 
 ### Removing sales nominated scheduled deployment
 
@@ -450,7 +444,7 @@ For the following, you can update 1 issue then drag it down (at least for email 
 8. Upload issue to the campaigns project using the import button. https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/uploads/c644b04f8460d6f1007e731093ff16fc/Screen_Shot_2022-08-11_at_2.10.56_PM.png
 9. Check to make sure your issues uploaded correctly and are in the right epic!
 
-## Adding “add to calendar” links in our emails without using 3rd party tools
+## Adding "add to calendar" links in our emails without using 3rd party tools
 <!-- DO NOT CHANGE THIS ANCHOR -->
 Example:
 
@@ -458,30 +452,30 @@ Example:
 
 **Note:** gmail inboxes a majority of our sends, according to litmus analytics pixel data. Outlook makes up 3-15% of our recipients. This is exactly what Limus did:
 
-It’s virtually impossible to support all the calendar applications available. To help us understand what calendar tools to focus on, we took a look at our Email Analytics data. The most popular email clients our subscribers use are Apple Mail, Gmail, and Outlook. Using this data, we focused our efforts on creating a “add to calendar” button that would be compatible with iCalendar, Google’s calendar, and Outlook’s calendar.
+It's virtually impossible to support all the calendar applications available. To help us understand what calendar tools to focus on, we took a look at our Email Analytics data. The most popular email clients our subscribers use are Apple Mail, Gmail, and Outlook. Using this data, we focused our efforts on creating a "add to calendar" button that would be compatible with iCalendar, Google's calendar, and Outlook's calendar.
 [Learn More Here](https://litmus.com/blog/how-to-create-an-add-to-calendar-link-for-your-emails)
 
-### Steps to manually creating “add to calendar” links in our emails
+### Steps to manually creating "add to calendar" links in our emails
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Create google calendar link for your events
-    * Use this tool to generate your event information: [http://kalinka.tardate.com/](http://kalinka.tardate.com/)
-    * You would have to copy and paste the information for the event from marketo to the tool above, this takes about 2 minutes
-        * Location should be formatted as follows to show up as an address in the google calendar invite:
+  * Use this tool to generate your event information: [http://kalinka.tardate.com/](http://kalinka.tardate.com/)
+  * You would have to copy and paste the information for the event from marketo to the tool above, this takes about 2 minutes
+    * Location should be formatted as follows to show up as an address in the google calendar invite:
 
-          **747 Howard St, San Francisco, CA 94103, USA**
-        * Make sure time zone is correct
+      **747 Howard St, San Francisco, CA 94103, USA**
+    * Make sure time zone is correct
 
-    * Create link [Example Here](http://www.google.com/calendar/event?action=TEMPLATE&dates=20200406T150000Z%2F20200409T030000Z&text=Google%20Next%202020&location=747%20Howard%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA&details=https%3A%2F%2Fcloud.withgoogle.com%2Fnext%2Fsf%2F) and paste into correct template in Marketo as follows:
+  * Create link [Example Here](http://www.google.com/calendar/event?action=TEMPLATE&dates=20200406T150000Z%2F20200409T030000Z&text=Google%20Next%202020&location=747%20Howard%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA&details=https%3A%2F%2Fcloud.withgoogle.com%2Fnext%2Fsf%2F) and paste into correct template in Marketo as follows:
 
-      ```plaintext
-      <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20">Add to Google calendar</a>
-      ```
+    ```html
+    <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20">Add to Google calendar</a>
+    ```
 
 * Create ICS file for all other calendars (mostly Outlook and Apple)
-    * Marketo can create an ICS file
-    * Add “Calendar File” Token to local tokens section
-    * Paste all necessary information (same as above)
-    * Add token to the email as follows:
+  * Marketo can create an ICS file
+  * Add "Calendar File" Token to local tokens section
+  * Paste all necessary information (same as above)
+  * Add token to the email as follows:
 
       `<a href="link goes here">Add to other calendar</a>`
 

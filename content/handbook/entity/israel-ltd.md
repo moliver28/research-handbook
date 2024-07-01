@@ -20,16 +20,16 @@ These standards apply to all GitLab team members hired through GitLab Israel Ltd
 
 ## Employment Contracts
 
-GitLab’s Team Member contract templates, including for Israel, (which will be listed in due course) are [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#israel) for reference purposes, viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
+GitLab's Team Member contract templates, including for Israel, (which will be listed in due course) are [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#israel) for reference purposes, viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
 
 ## Employment Policies
 
-The [People Policies](https://handbook.gitlab.com/handbook/people-policies/) page of the Handbook serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable.
+The [People Policies](/handbook/people-policies/) page of the Handbook serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable.
 
 ## Legal Policies
 
-The [Legal Policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies) page of the Handbook serves as a directory of relevant policies.
+The [Legal Policies](/handbook/legal/#gitlab-policies) page of the Handbook serves as a directory of relevant policies.
 
 ## Timekeeping
 
@@ -66,7 +66,7 @@ Currently, GitLab provides the below additional benefits, in addition to mandato
 All team members in Israel are enrolled in the Pension Arrangement. In general the Pension Plan contributions are outlined below, however please refer to your employment agreement for specific details.
 
 - Team Members contribute 6% through payroll deductions. Team Members have the option to increase their payroll deductions if they choose, up to 7% max.
-- Gitlab contributes up to 6.5% (includes disability) and 8.33% (severance pay).There are special cases where this may vary, please refer to your employee contract for specfics.
+- Gitlab contributes up to 6.5% (includes disability) and 8.33% (severance pay).There are special cases where this may vary, please refer to your employee contract for specifics.
 - You can elect and personalize your plan via Shaldan or your private insurance agency.
 - Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
 
@@ -95,7 +95,7 @@ Accrued Recuperation is an Israel entitlement meant to help fund expenses that e
 
 ### Gifts
 
-As customary in Israel, GitLab offers monetary gifts to team members during major holidays (Passover and Rosh Hashannah) and during major life events, such as birth of a child, or marriage. These gifts will be provided via gift card and reported as taxabile income.
+As customary in Israel, GitLab offers monetary gifts to team members during major holidays (Passover and Rosh Hashannah) and during major life events, such as birth of a child, or marriage. These gifts will be provided via gift card and reported as taxable income.
 
 The People-Connect Team will administer this benefit.
 
@@ -107,7 +107,7 @@ GitLab does not plan to offer Private Health Insurance at this time because all 
 
 ### Annual Leave
 
-Team members in Israel may make use of [GitLab's Flexible PTO Policy](https://handbook.gitlab.com/handbook/paid-time-off/), as may be amended from time to time, in addition to their statutory vacation entitlements, which will accrue in accordance with local laws. Team members should check their individual employment contracts for the minimum number of vacation days to which they are entitled and note that team members are required to take at least five consecutive vacation days each year.
+Team members in Israel may make use of [GitLab's Flexible PTO Policy](/handbook/paid-time-off/), as may be amended from time to time, in addition to their statutory vacation entitlements, which will accrue in accordance with local laws. Team members should check their individual employment contracts for the minimum number of vacation days to which they are entitled and note that team members are required to take at least five consecutive vacation days each year.
 
 The accrual and use period for statutory vacation days is the calendar year, from 1 January 1 to 31 December, and any unused statutory vacation leave will be foreited if not used within the balance period.
 
@@ -127,13 +127,13 @@ Team members are entitled to 1.5 days of sick leave per month, up to a maximum o
 From the first day of sick leave, the team member is not entitled to pay, but on the second and third day of sickness, the team member is entitled to 50.00% of their regular pay
 From the 4th day onwards, the team member is entitled to 100.00% of their regular pay.  Upon return, team members must provide a medical certificate from a medical professional.  All medical certificates should be sent to the Absence Management Team (leaves@gitlab.com).
 
-Under the Sick Pay Law amendment an team member suffering from a malignant disease (i.e cancer) or a condition that requires regular dialysis treatments, or who recovered from such a disease, is eligible for full sick pay (100%) from the first day of absence, if on leave from work to receive care or undergo periodic examinations for that condition. (up to a maximum of 90 days). Team members must provide a medical certificate from a medical professional confirming the necessity of treatment or examination because of the condition.
+Under the Sick Pay Law amendment a team member suffering from a malignant disease (i.e. cancer) or a condition that requires regular dialysis treatments, or who recovered from such a disease, is eligible for full sick pay (100%) from the first day of absence, if on leave from work to receive care or undergo periodic examinations for that condition (up to a maximum of 90 days). Team members must provide a medical certificate from a medical professional confirming the necessity of treatment or examination because of the condition.
 
-If eligible, sick Leave runs concurrently with GitLab's Sick Leave policy and offers supplemental wages for the first 25 working days. Team members must notify their manager of any sick time usage, and then enter the time away into Time Off by Deel by selecting the label `Out Sick`.  If a team member is out sick for more than 5 working days, they must contact the Absence Management Team (leaves@gitlab.com).
+If eligible, sick leave runs concurrently with GitLab's Sick Leave policy and offers supplemental wages for the first 25 working days. Team members must notify their manager of any sick time usage, and then enter the time away into Time Off by Deel by selecting the label `Out Sick`.  If a team member is out sick for more than 5 working days, they must contact the Absence Management Team (leaves@gitlab.com).
 
 ### Maternity Leave
 
-Team members with one year or more of service are entitled to 26 weeks of maternity leave. The team member may take up to seven weeks of leave before the predicted due date of the child and the remainder after the birth. Israel’s social security system compensates the maternity leave if the team member is eligible which generally equals 15 weeks of fully paid leave and 11 weeks of unpaid leave.
+Team members with one year or more of service are entitled to 26 weeks of maternity leave. The team member may take up to seven weeks of leave before the predicted due date of the child and the remainder after the birth. Israel's social security system compensates the maternity leave if the team member is eligible which generally equals 15 weeks of fully paid leave and 11 weeks of unpaid leave.
 
 Team members who have worked for the company for less than one year are entitled to 15 weeks of maternity leave.
 

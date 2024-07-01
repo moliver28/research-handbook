@@ -1,8 +1,6 @@
 ---
-
 title: Day In The Life of a Developer
 ---
-
 
 Every company is developing software. Whether it is external facing applications, or internal applications, or both.  Every company wants to be more efficient at developing software, as it has a direct correlation with the company's success.  GitLab is positioned to help every company create better applications by providing capabilities throughout the application delivery process including development, operations and security.  In the past, there was not one solution to help companies develop software from idea to deployment.  Companies relied on purchasing specific products for specific capabilities, and/or used manual methods such as email, spreadsheets, and documents to keep track of their development.
 
@@ -40,10 +38,10 @@ In case a Day In The Life of a Developer is conducted by a customer success mana
 Key indicators that the opportunity is well-suited include:
 
 - There is a specific initiative to accomplish one or more of the following by a specific date
-    - Modernize a specific application or applications
-    - Deliver a new critical application to the market
-    - Transform or objectively improve their ability to deliver software
-    - Modernize their DevOps capabilities
+  - Modernize a specific application or applications
+  - Deliver a new critical application to the market
+  - Transform or objectively improve their ability to deliver software
+  - Modernize their DevOps capabilities
 - The customer is currently using some features of GitLab and is interested in how leveraging more of the platform will drive software delivery outcomes
 - For customer success, a Day In The Life of a Developer should help uncover opportunities to expand into new use cases or improve current adoption by identifying bottlenecks in the current software delivery process
 - An existing customer shows interest in adopting our Day In The Life of a Developer approach to drive software delivery performance
@@ -59,11 +57,11 @@ _While a Day In The Life of a Developer is an advanced discovery workshop, it's 
 #### Key Benefits
 
 - Discovery and documentation of the Day In The Life of a Developer or "path to production" currently in place
-    - Establish an agreed upon baseline from which to measure the progress of software delivery performance
-    - Identify manual configuration touchpoints and handoffs and other bottlenecks
-    - Create a process improvement roadmap
-    - Understand the return on investment of a value delivery platform
-    - Promote collaboration amongst traditionally siloed functions within the DevSecOps lifecycle
+  - Establish an agreed upon baseline from which to measure the progress of software delivery performance
+  - Identify manual configuration touchpoints and handoffs and other bottlenecks
+  - Create a process improvement roadmap
+  - Understand the return on investment of a value delivery platform
+  - Promote collaboration amongst traditionally siloed functions within the DevSecOps lifecycle
 
 After the prospect or customer understands the process and its benefits, confirm commitment from the stakeholders and workshop participants by scheduling the facilitated workshop and/or interviews. Estimate the duration of the assessment and set the expectation that the documented software development process, recommendations, and readout will be delivered.
 

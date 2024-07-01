@@ -1,7 +1,6 @@
 ---
-
 title: "Zuora - Enterprise Application Guides"
-description: “Zuora is an order-to-revenue SaaS platform that supports GitLab's quoting, billing, collections, revenue recognition, and subscription metrics.”
+description: "Zuora is an order-to-revenue SaaS platform that supports GitLab's quoting, billing, collections, revenue recognition, and subscription metrics."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
@@ -41,14 +40,14 @@ Subscriptions should be the SSOT for the committed deal parameters of a Customer
 - subscription name and IDs
 - status
 - products/services
-   - billing cadence
-   - known prices agreed upon
-   - quantities entitled to
-   - charge model
-   - recurring v one-time
-   - mrr (and effective dates)
-   - revenue/tax parameters
-   - renewal price behavior
+  - billing cadence
+  - known prices agreed upon
+  - quantities entitled to
+  - charge model
+  - recurring v one-time
+  - mrr (and effective dates)
+  - revenue/tax parameters
+  - renewal price behavior
 
 ### Account Parameters related to Billing, Collections, and Financial Reporting
 

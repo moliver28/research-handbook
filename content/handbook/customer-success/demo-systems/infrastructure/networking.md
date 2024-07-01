@@ -1,6 +1,6 @@
 ---
 title: "Demo Systems Infrastructure - Networking"
-description: “Discover GitLab’s networking solutions for Demo Systems Infrastructure”
+description: "Discover GitLab's networking solutions for Demo Systems Infrastructure"
 ---
 
 ## Global CIDR Ranges
@@ -109,14 +109,14 @@ This is where the "it depends" scenarios start with network design. You can allo
 |------------------------|----------------------|----------------------|
 | demosys-mgmt-us-vpc    | (gcp) us-central1-c  | 10.192.0.0 /16       |
 
-##### Subnets
+#### Subnets
 
 | Subnet CIDR       | Subnet Name                                        |
 |-------------------|----------------------------------------------------|
 | 10.192.10.0 /24   | `demosys-mgmt-us-mgmt-red-subnet`                   |
 | 10.192.20.0 /24   | `demosys-mgmt-us-mgmt-yellow-subnet`                |
 
-##### Terraform Configuration
+#### Terraform Configuration
 
 Learn more in our [Terraform US region configuration](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform/environments/demosys-mgmt/us) and our [Terraform region VPC module](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform/modules/demosys-mgmt/region-vpc).
 
@@ -134,7 +134,7 @@ terraform apply
 |------------------------|----------------------|----------------------|
 | demosys-saas-us-vpc    | (gcp) us-central1-c  | 10.128.0.0 /12       |
 
-##### Subnets
+#### Subnets
 
 | Subnet CIDR       | Subnet Name                                        |
 |-------------------|----------------------------------------------------|
@@ -148,7 +148,7 @@ terraform apply
 | 10.142.0.0 /16    | (255) demosys-us-k8s-sandbox-{rsvpID}              |
 | 10.143.0.0 /16    | (255) demosys-us-k8s-sandbox-{rsvpID}              |
 
-##### Terraform Configuration
+#### Terraform Configuration
 
 Learn more in our [Terraform US region configuration](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform/environments/demosys-saas/us) and our [Terraform region VPC module](https://gitlab.com/gitlab-com/customer-success/demo-systems/infrastructure/demosys-terraform/modules/demosys-saas/region-vpc).
 

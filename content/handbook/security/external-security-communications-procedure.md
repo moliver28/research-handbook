@@ -5,7 +5,7 @@ description: "Procedures for handling communications regarding security"
 
 ## Purpose
 
-This procedure is intended to identify the Security Organization’s ownership and approval on categories/topics of external communication.
+This procedure is intended to identify the Security Organization's ownership and approval on categories/topics of external communication.
 
 ## Scope
 
@@ -51,7 +51,7 @@ NOTE: If the security incident or issue is considering critical and an emergency
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](" >}}_index.md#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 

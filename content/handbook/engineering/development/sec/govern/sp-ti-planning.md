@@ -21,7 +21,7 @@ Questions to be answered:
 1. Are requirements clear enough to understand intent of request?
 2. Do we know the boundaries of work to be accomplished?
 
-If the answer is “No” to either of these questions, discussion continues with the PM to improve the team's understanding of the request. If necessary, the discussion will continue asynchronously in the Epic or Issue and is brought back to a future weekly meeting.
+If the answer is "No" to either of these questions, discussion continues with the PM to improve the team's understanding of the request. If necessary, the discussion will continue asynchronously in the Epic or Issue and is brought back to a future weekly meeting.
 
 If the answer is "Yes" to these questions the team estimates **whether or not the issue
 can be delivered in a single iteration** (ignoring any other work that may be in that same
@@ -127,8 +127,7 @@ Note the following differences when refining bugs:
 1. As a guideline, spend no more than 1 hour per issue. Bugs that take too long to refine are
    indicative of a more complex issue.
 1. Do not add weight. Our velocity represents the capacity to deliver new, bug-free features.
-1. When you hit the time limit for refinement, it's ok to have uncertainty in the [Implementation
-   Plan](#implementation-plan). It's sufficient just to direct where you expect the code change to be (high or low level).
+1. When you hit the time limit for refinement, it's ok to have uncertainty in the [Implementation Plan](#implementation-plan). It's sufficient just to direct where you expect the code change to be (high or low level).
 
 #### Refinement for Spikes
 
@@ -206,7 +205,7 @@ The issue verification should be done by someone else other than the MR author[^
 1. When an engineer has merged their work, they should move their issue into the verification status, indicated by the `~workflow:verification` label and wait until they receive notification that their work has been deployed on staging via the release issue email.
 1. If possible, after the engineer has received the notification and verified their work in staging, they leave a comment summarizing the testing that was complete.
 1. After the change is available on .com/production (make sure the MR has the `~workflow:verification` label, so it's available with GitLab Next turned off), the engineer should verify again, leave a comment summarizing the testing that was completed, and unassign themselves from the issue. Also provide a link to a project or page, if applicable.
-1. Unassigned issues in the `~workflow:verification` state are are assigned randomly by the triage bot based on the [verification policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/assign_dev_for_verification.rb) to an applicable team engineer. This engineer should then additionally verify the issue.
+1. Unassigned issues in the `~workflow:verification` state are assigned randomly by the triage bot based on the [verification policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/assign_dev_for_verification.rb) to an applicable team engineer. This engineer should then additionally verify the issue.
 1. Once the issue has been verified in production by both engineers, add the `workflow::complete` label and close the issue.
 
 [^4]: To minimize cycle time between engineers, it's preferable that the writing engineer verify their work, as they will be able to start working on the issue again immediately if it turns out that the issue has not been sufficiently resolved. Waiting for another engineer to find obvious failures will increase turn around time.
@@ -253,10 +252,8 @@ issues. An exception is when a single engineer agrees to work on both tech stack
 
 **A:** we use them to communicate certain steps in our process.
 
-* 🥕 you have reviewed an issue in preparation for [Planning
-  Breakdown](#planning-breakdown).
-* 🥒 request to add a specification using [Gherkin
-  Keyworks](https://cucumber.io/docs/gherkin/reference/#keywords) (when life gives you a cucumber,
+* 🥕 you have reviewed an issue in preparation for [Planning Breakdown](#planning-breakdown).
+* 🥒 request to add a specification using [Gherkin Keyworks](https://cucumber.io/docs/gherkin/reference/#keywords) (when life gives you a cucumber,
   you pickle it).
 
 ## Footnotes

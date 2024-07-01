@@ -31,7 +31,7 @@ The Security Assurance team uses scoped labels to identify the priority and indi
 
 | Priority | Color | Description | Provide Solution |
 | -------- | ---------- | --------- | --- |
-| `~"SAA::1"` | Red | These issues have a direct, immediate impact on business continuity AND are critical for compliance engagements. These are “drop everything so the team can do work” types of requests.                 | 1 Business Day |
+| `~"SAA::1"` | Red | These issues have a direct, immediate impact on business continuity AND are critical for compliance engagements. These are "drop everything so the team can do work" types of requests.                 | 1 Business Day |
 | `~"SAA::2"` | Orange   | These issues have an effect on business continuity or are critical for compliance engagements. | 3 Business Days |
 | `~"SAA::3"` | Yellow | These issues are day to day automations that are not critical but greatly reduce time for manual tasks by the team. The bulk of automation issues will live here.                                  | 4 Business Days |
 | `~"SAA::4"` | Blue    | These issues are automation ideas that may not have a clear path forward or need additional resources to accomplish.                                          | 7 Business Days |
@@ -71,8 +71,8 @@ The planning stage occurs during 1:1s, bi-weekly sprint planning meetings, Slack
 - Who is requesting the automation project?
 - What are they requesting?
 - Why are they requesting this project?
-    - What efficiencies will be gained?
-    - How much time will be saved?
+  - What efficiencies will be gained?
+  - How much time will be saved?
 - When is this project expected to be completed by?
 - How is the automation expected to function?
 - What is the expected time savings? (If applicable)

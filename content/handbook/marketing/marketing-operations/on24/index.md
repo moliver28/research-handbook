@@ -229,9 +229,9 @@ Much of the landing page set up is controlled by program tokens, same as email a
 - What the tokens plug in to the LP or email asset and other various assets can be changed at the program level, under the `tokens` section. Many tokens have definitions of what they are and what they plug in to the program assets. Take special care when changing tokens as they can affect buttons/links.
 - The `elements` and `variables` sections on landing pages will help determine the look of the LP. `Elements` is primarily for text editing whereas `variables` affects page meta data and allows toggling of sections' visibility. Feel free to toggle any section on/off to see what appears or disappears. Change the LP to your liking and or use case.
 - With `on-demand` or `gated content` LPs, there is also an option to toggle video/content previews, if the content host allows for the proper embed URL. In [this example](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/landingpage/5910), the embed preview is a Vimeo feature, so mileage may vary on how often video previews can be used. It is video host dependent. To set this up:
-    - Add text to describe the `value` area under the `Value Content` section of the LP `elements`. This element acts as a header for the `value content` section
-    - Place embed preview links and update wording in the `Value Examples` LP `element`.
-    - Under LP variables, toggle `valueBox Visibility` and `valueBox Examples` to `visible to activate the sections on the LP
+  - Add text to describe the `value` area under the `Value Content` section of the LP `elements`. This element acts as a header for the `value content` section
+  - Place embed preview links and update wording in the `Value Examples` LP `element`.
+  - Under LP variables, toggle `valueBox Visibility` and `valueBox Examples` to `visible to activate the sections on the LP
 
 ##### Webcasts
 
@@ -304,7 +304,7 @@ In order to get `Q&A`, `poll` and `survey` data into Marketo from On24, a list u
 1. Once in the webinar `Report` area, there is a spreadsheet download button next to the `Dashboards` page header. It looks like a downward arrow.
 1. [Here is the link to the On24 list upload template](https://docs.google.com/spreadsheets/d/14tzunNba-2NhRLfuHESW8RPInMKUV69mFkXtbcwCNKg/edit#gid=0). Similar to the regular list upload spreadsheet, `do not make changes to the orignal spreadsheet. Make a duplicate of the spreadsheet to be used specifically for your upload.`
 1. Only upload the data shown in the spreadsheet column headers. Pick and choose from the exported On24 spreadsheet what notes you want uploaded and add them to their appropriate columns on the freshly duplicated `On24 Notes Upload Doc`. It is okay if some of the columns are left blank.
-    - `On24 Note Upload Activate` should should be filled in with `True`.
+    - `On24 Note Upload Activate` should be filled in with `True`.
     - The Marketo Program Name must match 1:1 with what is in Marketo.
     - For every poll or survey answer uploaded, be sure to include the question asked.
 1. To start, these will be treated the same as manual list uploads to be completed by MktgOps. Please follow the regular process of sharing the spreadsheet with MktgOps to have them upload via a list upload issue. Soon this will be moved to more of a drag-and-drop process, similar to the [self-service list import process](/handbook/marketing/marketing-operations/automated-list-import/). This page will be updated when that is ready.
@@ -326,7 +326,7 @@ The smart campaign being used to compile the notes is found here: [Compile On24 
 
 ### Reporting
 
-The On24 Engagement Score is an aggregate of all of the activities that an attendee could do while viewing on of your events.  It will give you an idea of how often the engagement tools you’ve added to the console of the event are being used.  Each individual attendee will have their own engagement score, and there is an average engagement score for your entire webcast program that is available on the Analytics Dashboard in the platform. Read more about Engagement Scores [here](https://support.on24.com/Support/s/article/Engagement-Score)
+The On24 Engagement Score is an aggregate of all of the activities that an attendee could do while viewing on of your events.  It will give you an idea of how often the engagement tools you've added to the console of the event are being used.  Each individual attendee will have their own engagement score, and there is an average engagement score for your entire webcast program that is available on the Analytics Dashboard in the platform. Read more about Engagement Scores [here](https://support.on24.com/Support/s/article/Engagement-Score)
 
 ### ON24 FAQ
 

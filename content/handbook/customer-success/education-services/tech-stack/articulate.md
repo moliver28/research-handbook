@@ -1,7 +1,7 @@
 ---
 aliases: /handbook/customer-success/education-services/tech_stack/articulate.html
 title: "Articulate 360 Tech Stack Guide"
-description: “Tech Stack Guide for Articulate 360 Content Authoring tool."
+description: "Tech Stack Guide for Articulate 360 Content Authoring tool."
 ---
 
 The Tech Stack single source of truth is the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and contains more detail about this app.

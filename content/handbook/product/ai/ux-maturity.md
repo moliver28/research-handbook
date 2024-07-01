@@ -1,14 +1,13 @@
 ---
-
 title: "UX maturity guidelines for AI-assisted features"
 description: "When to move an AI-assisted feature from Experiment to Beta, and to Generally Available (GA), from a UX perspective."
 ---
 
 ## Summary
 
-The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects][experiment-beta-ga-docs], like stability or documentation, should also be taken into account to determine the appropriate feature maturity.
+The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects](https://docs.gitlab.com/ee/policy/alpha-beta-support.html), like stability or documentation, should also be taken into account to determine the appropriate feature maturity.
 
-To evaluate the UX maturity of AI-assisted features, use three criteria from the [Product Development Flow][prod-dev-flow]:
+To evaluate the UX maturity of AI-assisted features, use three criteria from the [Product Development Flow](/handbook/product-development-flow/):
 
 1. **Validation: Problem validation**: How well do we understand the problem?
 1. **Validation: Solution validation**: How well does the solution address the problem?
@@ -40,6 +39,3 @@ See [guidelines for AI solution validation](/handbook/product/ux/ux-research/res
 **How successful is the solution?** To answer this, in this context of feature UX maturity, teams should look beyond feature usage as the success metric and try to include [usability](/handbook/product/ux/ux-research/usability-testing/#usability-at-gitlab) signals. High usage doesn't necessarily mean the feature is successful. Usability signals help assess solution success in terms of how _useful, efficient, effective, satisfying, and learnable_ it is.
 
 It's also important to include AI response accuracy in your success metrics. AI-powered features can generate a response or output that is incorrect, irrelevant, or harmful. The risk of an incorrect response depends on the feature. It's important to test the AI system's responses as part of a formative evaluation. For example, you can have one or more expert evaluators (internal or external) test different scenarios to assess the AI responses.
-
-[experiment-beta-ga-docs]: https://docs.gitlab.com/ee/policy/alpha-beta-support.html
-[prod-dev-flow]: /handbook/product-development-flow/

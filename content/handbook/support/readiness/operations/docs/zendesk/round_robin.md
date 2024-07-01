@@ -16,7 +16,7 @@ using a specific schedule for each Zendesk instance:
 
 ## How it works
 
-#### Zendesk Global
+### Zendesk Global
 
 - Ruby version: 3.2.2
 - Gems used:
@@ -74,7 +74,7 @@ Once that is completed, the scripts will then update the counter value stored in
 Redis (via the object `global_round_robin_counter`) to be used as the starting
 counter values on the subsequent run.
 
-#### Zendesk US Government
+### Zendesk US Government
 
 - Ruby version: 3.2.2
 - Gems used:

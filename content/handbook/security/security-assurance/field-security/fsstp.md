@@ -27,7 +27,7 @@ The goal of the security sales enablement program is to focus on fulfilling thes
 
 > Reduce the administrative burden linked to customer security review processes
 
-### Understand Security’s role
+### Understand Security's role
 
 > Strengthen the understanding of the customer assurance activities and Field Security work
 

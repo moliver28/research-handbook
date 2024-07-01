@@ -106,9 +106,9 @@ We interpret prioritized themes as what we're being asked to deliver; we use the
 
 The planning issue serves multiple purposes:
 
- - Within the group and stable counterparts, the issue helps us identify and agree on the scope of work we seek to execute in the next milestone.
- - Outside the group, the issue communicates our priorities and what might be delivered during the milestone.
-   - Note: although we seek to deliver on our plans, the planning issue is not itself a _promise_ to deliver a given issue by a certain time.
+- Within the group and stable counterparts, the issue helps us identify and agree on the scope of work we seek to execute in the next milestone.
+- Outside the group, the issue communicates our priorities and what might be delivered during the milestone.
+  - Note: although we seek to deliver on our plans, the planning issue is not itself a _promise_ to deliver a given issue by a certain time.
 
 #### Planning issue format
 
@@ -282,8 +282,7 @@ When creating issues for vulnerability consider adding the following labels besi
 - ~"type::bug"
 
 When there is a doubt about the severity/priority while creating the issue and severity/priority labels are
-not added. Then [Appsec Escalation
-Engine](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator#appsec-escalation-engine)
+not added. Then [Appsec Escalation Engine](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator#appsec-escalation-engine)
 could be leveraged to initiate a discussion with the Appsec team.  This bot monitor issues that are labeled
 ~security and not ~test or ~"type::feature". If severity/priority labels are not present, then labels
 security-sp-label-missing and security-triage-appsec will be added and this issue will be mentioned in the
@@ -293,8 +292,7 @@ will pick up the issue and assign a severity as part of the appsec triage rotati
 ### We Own What We Ship
 
 We are responsible for delivering GitLab's SAST and Secret Detection features, and the analyzers we develop rely heavily upon open source software.
-This means we can be dramatically affected by changes in those software packages. We will check for updates to these packages once per [GitLab
-release](https://about.gitlab.com/releases/). New versions will be scrutinized for the following aspects:
+This means we can be dramatically affected by changes in those software packages. We will check for updates to these packages once per [GitLab release](https://about.gitlab.com/releases/). New versions will be scrutinized for the following aspects:
 
 - Breaking changes
 - New, updated, or removed security rules

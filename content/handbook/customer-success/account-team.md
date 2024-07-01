@@ -1,15 +1,7 @@
 ---
-
 title: "Account Team"
 description: "The account team works together to drive value, success, and growth for a customer"
 ---
-
-
-
-
-
-
-
 
 ---
 
@@ -55,13 +47,13 @@ In Mid-Market, Solutions Architects are pooled so they are not aligned with spec
 
 - Trusted strategic advisor to the customer
 - [Responsible](/handbook/customer-success/csm/#high-level-responsibilities-of-a-csm) for the post-sales customer journey
-   - [Onboarding](/handbook/customer-success/csm/onboarding/)
-   - [Success Planning](/handbook/customer-success/csm/success-plans/)
-   - [Stage adoption & expansion](/handbook/customer-success/csm/stage-enablement-and-expansion/)
-   - [Organizing Workshops and Enablement Sessions for Use-case Enablement & Expansion](/handbook/customer-success/csm/workshops/)
-   - [Executive Business Reviews](/handbook/customer-success/csm/ebr/)
-   - [Risk Mitigation](/handbook/customer-success/csm/risk-mitigation/)
-   - [Renewal Discussions](/handbook/customer-success/csm/renewals/)
+  - [Onboarding](/handbook/customer-success/csm/onboarding/)
+  - [Success Planning](/handbook/customer-success/csm/success-plans/)
+  - [Stage adoption & expansion](/handbook/customer-success/csm/stage-enablement-and-expansion/)
+  - [Organizing Workshops and Enablement Sessions for Use-case Enablement & Expansion](/handbook/customer-success/csm/workshops/)
+  - [Executive Business Reviews](/handbook/customer-success/csm/ebr/)
+  - [Risk Mitigation](/handbook/customer-success/csm/risk-mitigation/)
+  - [Renewal Discussions](/handbook/customer-success/csm/renewals/)
 - Leads regular [cadence calls](/handbook/customer-success/csm/cadence-calls/) and keeps the [customer collaboration projects](/handbook/customer-success/csm/customer-collaboration-project/) up-to-date
 - Maintains [Gainsight](/handbook/customer-success/csm/gainsight/) records of customer health and triaging as necessary
 - Account escalation point of contact for [High or Critical Escalations](/handbook/customer-success/csm/escalations/)
@@ -74,14 +66,14 @@ The account team should meet in order to drive strategic growth towards accounts
 - Onboarding of new customers requiring additional attention
 - Triage if they have a [health score other than Green](/handbook/customer-success/csm/health-score-triage/#health-assessment-guidelines)
 
-As a recommendation to [make the most efficient use of everyone’s time](/handbook/values/#be-respectful-of-others-time), these calls should not happen more than once a week, unless there is a specific and urgent need. There is no requirement to have recurring account team calls, but different regions and segments may approach account team alignments and engagement differently. For clarity on specific regions' or segments' approaches, reach out to the corresponding CSM Manager(s).
+As a recommendation to [make the most efficient use of everyone's time](/handbook/values/#be-respectful-of-others-time), these calls should not happen more than once a week, unless there is a specific and urgent need. There is no requirement to have recurring account team calls, but different regions and segments may approach account team alignments and engagement differently. For clarity on specific regions' or segments' approaches, reach out to the corresponding CSM Manager(s).
 
 Account teams may choose to include the [Sales Development Representative (SDR)](/job-families/marketing/sales-development-representative/) in their account meetings for any targeted growth or wider account expansion.
 
 ### Who Leads the Meeting?
 
 - *No specific person/role is the boss. You are a TEAM.*
-- Tasks should be agreed upon during the SALSACSM meeting and fall into each person’s area of responsibility.
+- Tasks should be agreed upon during the SALSACSM meeting and fall into each person's area of responsibility.
 - SAs and SAEs need to work together to ensure a smooth sales process, from discovery to demo to POV to final sale.
 - SAs and CSMs need to work together to ensure a smooth transition for the customer.
 - CSMs and SAEs need to work together to ensure a smooth onboarding, continued customer happiness, growing accounts, driving stage adoption, and to lock in the renewal for years to come.

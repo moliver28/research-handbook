@@ -1,17 +1,7 @@
 ---
-
 title: "GCP CUD"
 description: "GCP Committed Use Discounts"
 ---
-
-
-
-
-
-
-
-
-
 
 ---
 
@@ -62,8 +52,7 @@ The infra analyst should make sure there are enough Committed CPU Quota to meet 
 #### 5. Reservation Configuration
 
 Reservations for specific node type are configured in our
-[gitlab-com-infrastructure terraform
-repository](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/gprd/gcp-reservations.tf).
+[gitlab-com-infrastructure terraform repository](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/gprd/gcp-reservations.tf).
 This must be updated to ensure efficient utilization of our CUD's, along with
 the instance choice being used in our infrastructure.
 

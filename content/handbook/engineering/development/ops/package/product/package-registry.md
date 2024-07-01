@@ -1,13 +1,6 @@
 ---
-
 title: Package Stage - Package Registry
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -32,7 +25,7 @@ Each update on the status should be documented on the [list of supported package
 In case of Package Registries implemented by the Package team, the rollout can be carried by a team member different from the one that led the implementation.
 This is to promote knowledge sharing and prevent siloing.
 
-#### Experiment
+### Experiment
 
 In this state, the new Package Registry must be tested on staging.
 This is the time to test as many scenarios as possible. During these, all the moving pieces (frontend, backend, background jobs) should be checked for errors or bad behaviors.
@@ -55,7 +48,7 @@ This page should clearly state that the Package Registry is an Experiment and th
 
 Iterate until we're confident in the behavior and performance of the new Package Registry on staging.
 
-#### Beta
+### Beta
 
 This state is where we start enabling the Package Registry for a few selected projects on GitLab.com. Take this opportunity to:
 
@@ -67,7 +60,7 @@ This is the period where we could receive a significant amount of bug reports. I
 
 When we resolve all blocking issues, we can move the Package Registry to the next support status.
 
-#### Generally Available
+### Generally Available
 
 We fully release the Package Registry. For this state, we have a few things to take care of:
 

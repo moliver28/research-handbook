@@ -10,15 +10,15 @@ twitter_creator: "@gitlab"
 ![GitLab navigation and journey](/images/all-remote/gitlab-journey-and-navigation.jpg)
 {style="max-width: 50%;"}
 
-A [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) approach to communication is [sneakily vital]({{< ref "./management#scaling-by-documenting" >}}) to a well-run business. While it feels skippable — inefficient, even — the outsized benefits of intentionally writing down and organizing process, [culture]({{< ref "./building-culture" >}}), and solutions are staggering. Conversely, *avoiding* structured documentation is the best way to instill a low-level sense of [chaos and confusion]({{< ref "values#five-dysfunctions" >}}) that hampers growth across the board.
+A [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) approach to communication is [sneakily vital]({{< ref "./management#scaling-by-documenting" >}}) to a well-run business. While it feels skippable — inefficient, even — the outsized benefits of intentionally writing down and organizing process, [culture]({{< ref "./building-culture" >}}), and solutions are staggering. Conversely, *avoiding* structured documentation is the best way to instill a low-level sense of [chaos and confusion](/handbook/values/#five-dysfunctions) that hampers growth across the board.
 
-GitLab is intentional about documenting in a manner that creates a [single source of truth]({{< ref "values#single-source-of-truth" >}}). It operates [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), and in valuing [transparency]({{< ref "values#transparency" >}}), makes its handbook [publicly accessible to all](/handbook).
+GitLab is intentional about documenting in a manner that creates a [single source of truth](/handbook/values/#single-source-of-truth). It operates [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), and in valuing [transparency](/handbook/values/#transparency), makes its handbook [publicly accessible to all](/handbook).
 
 ## Terminology (documentation, handbook-first, single source of truth)
 
-The term "documentation" often refers to the process of generating documentation after a change has been communicated. At GitLab, we [write things down]({{< ref "values#write-things-down" >}}) *first*, and communicate that (E.g. Document the solution first, *then* announce via Slack or email.). This way there is no need for documentation after the communication, a step that is frequently skipped.
+The term "documentation" often refers to the process of generating documentation after a change has been communicated. At GitLab, we [write things down](/handbook/values/#write-things-down) *first*, and communicate that (E.g. Document the solution first, *then* announce via Slack or email.). This way there is no need for documentation after the communication, a step that is frequently skipped.
 
-The goal isn't to create a culture of documenting for the sake of documenting; rather, to create an environment where net new solutions are documented in a universally accessible handbook before dissemination, and iterations are made to the universally recognized [single source of truth]({{< ref "values#single-source-of-truth" >}}). Each team member must approach documentation the same way, much like an editorial team adheres to a [style guide](/docs/markdown-guide).
+The goal isn't to create a culture of documenting for the sake of documenting; rather, to create an environment where net new solutions are documented in a universally accessible handbook before dissemination, and iterations are made to the universally recognized [single source of truth](/handbook/values/#single-source-of-truth). Each team member must approach documentation the same way, much like an editorial team adheres to a [style guide](/docs/markdown-guide).
 
 ## Why does handbook-first matter?
 
@@ -31,7 +31,7 @@ As a team scales, the **need** for documentation increases in parallel with the 
 
 Documentation is rarely placed on the same pedestal with metrics such as sales and client retention during a company's formative years, but it [deserves to be]({{< ref "./self-service" >}}). The difference between a well-documented company and one that eschews a handbook is stark.
 
-A handbook-first organization is home to team members who benefit from having a [single source of truth]({{< ref "values#single-source-of-truth" >}}) to lean on. This type of organization is able to operate with almost supernatural [efficiency]({{< ref "values#efficiency" >}}). An organization that does *not* put concerted effort into structured documentation has no choice but to watch its team members ask and re-ask for the same bits of data in perpetuity, creating a torturous loop of interruptions, meetings, and suboptimal knowledge transfers.
+A handbook-first organization is home to team members who benefit from having a [single source of truth](/handbook/values/#single-source-of-truth) to lean on. This type of organization is able to operate with almost supernatural [efficiency](/handbook/values/#efficiency). An organization that does *not* put concerted effort into structured documentation has no choice but to watch its team members ask and re-ask for the same bits of data in perpetuity, creating a torturous loop of interruptions, meetings, and suboptimal knowledge transfers.
 
 ## Start now
 
@@ -57,7 +57,7 @@ It's difficult to rally an organization to only use Slack for [informal communic
 
 There's a very real fear that instilling a culture of "handbook first" is too tall a task to actually accomplish. The goal should **not** be to complete the handbook before ever announcing its existence to the company.
 
-For established organizations, the trick is to apply [iteration]({{< ref "values#iteration" >}}) to the challenge of standing up a handbook within a company. Put the proper infrastructure in place (which we'll cover below), and begin documenting process after process, one at a time. Building a handbook well after a firm's infancy is tough, as you're changing both process and culture while operating a business at scale. However, leaders can manage expectations to make the handbook's insertion easier to understand profoundly through intuition or empathy.
+For established organizations, the trick is to apply [iteration](/handbook/values/#iteration) to the challenge of standing up a handbook within a company. Put the proper infrastructure in place (which we'll cover below), and begin documenting process after process, one at a time. Building a handbook well after a firm's infancy is tough, as you're changing both process and culture while operating a business at scale. However, leaders can manage expectations to make the handbook's insertion easier to understand profoundly through intuition or empathy.
 
 ## Documentation is never finished
 
@@ -103,7 +103,7 @@ This enables anyone at the company, even those who have just joined, to propose 
 
 1. In [this merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29227), only a portion of the initial proposal was agreed upon and merged into GitLab's handbook. However, this ensured that all pertinent parties had a voice. This also documents the thought process that went into the eventual documentation, such that [context]({{< ref "./effective-communication#understanding-low-context-communication" >}}) is in place for anyone to understand why these changes were made, and when.
 1. By empowering all team members to make proposals, you enable new hires to offer up fresh perspectives that can benefit the company. [This merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29045) is an example of a new hire sharing a proposal to strengthen GitLab's [Onboarding Buddy]({{< ref "onboarding-buddies" >}}) checklist, and then her buddy made a proposal which was eventually merged.
-1. This [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36848) was proposed by someone still in the onboarding phase at GitLab. The discussion threads offer visibility into how learning happens, how [iteration]({{< ref "values#iteration" >}}) shapes proposals, and how [everyone can contribute](/handbook/company/strategy#why) to the handbook's evolution.
+1. This [merge request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36848) was proposed by someone still in the onboarding phase at GitLab. The discussion threads offer visibility into how learning happens, how [iteration](/handbook/values/#iteration) shapes proposals, and how [everyone can contribute](/handbook/company/strategy#why) to the handbook's evolution.
 
 ## What goes in a company handbook?
 
@@ -120,7 +120,7 @@ The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-
    - Annual goals
    - Product principles
    - How we hire
-1. **Groups/departments**: Build the rest of the handbook out by departments (e.g. [People](/handbook#people-group), [Engineering](/handbook#engineering), [Marketing](/handbook#marketing), [Sales](/handbook#sales), [Finance](/handbook#finance), [Product](/handbook#product), [Legal](/handbook#legal)). This orients the reader with *[context]({{< ref "./effective-communication#understanding-low-context-communication" >}})* of which group it primarily impacts, but [does not preclude]({{< ref "values#short-toes" >}}) team members from one department from making handbook [proposals]({{< ref "values#make-a-proposal" >}}) to other departments.
+1. **Groups/departments**: Build the rest of the handbook out by departments (e.g. [People](/handbook#people-group), [Engineering](/handbook#engineering), [Marketing](/handbook#marketing), [Sales](/handbook#sales), [Finance](/handbook#finance), [Product](/handbook#product), [Legal](/handbook#legal)). This orients the reader with *[context]({{< ref "./effective-communication#understanding-low-context-communication" >}})* of which group it primarily impacts, but [does not preclude](/handbook/values/#short-toes) team members from one department from making handbook [proposals](/handbook/values#make-a-proposal) to other departments.
    - Org structure
    - People profiles
    - Team profiles
@@ -131,7 +131,7 @@ The beauty of using a tool like [GitLab](https://about.gitlab.com/stages-devops-
    - Standard operating procedures
    - Monthly or quarterly goals
 
-Most sections will be blank to begin with, and that's OK. Apply the spirit of [iteration]({{< ref "values#iteration" >}}) to documentation. Rather than judging a section for how light it is, praise a contributor for making it [marginally better]({{< ref "values#minimal-viable-change-mvc" >}}) than it was prior.
+Most sections will be blank to begin with, and that's OK. Apply the spirit of [iteration](/handbook/values/#iteration) to documentation. Rather than judging a section for how light it is, praise a contributor for making it [marginally better](/handbook/values/#minimal-viable-change-mvc) than it was prior.
 
 ## Make handbook-first a value
 
@@ -141,7 +141,7 @@ The trick to ensuring a handbook grows continually is to instill it as a value. 
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
 
-> I think [documentation]({{< ref "./management#scaling-by-documenting" >}}) has to be [instilled as a value]({{< ref "values#write-things-down" >}}). It has to start there, and the whole leadership team in an organization has to be onboard.
+> I think [documentation]({{< ref "./management#scaling-by-documenting" >}}) has to be [instilled as a value](/handbook/values/#write-things-down). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
 > All of [leadership](/handbook/leadership) needs to understand the importance of documentation — not just with lip service. A true, genuine understanding of its value. If they *truly* understand the value of it, they'll emanate that to their direct reports.
 >
@@ -149,13 +149,13 @@ The trick to ensuring a handbook grows continually is to instill it as a value. 
 >
 > This is going slow to go fast. Lots of energy up front — you go slow — but that accelerates things dramatically a year or so down the road. — *[Gabe W.](https://gitlab.com/gweaver), Senior Product Manager, GitLab*
 
-[Write things down]({{< ref "values#write-things-down" >}}) is an operating principle of [Efficiency]({{< ref "values#efficiency" >}}) at GitLab. Team members are as likely to see merge requests [put forth](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36397) by [e-group]({{< ref "structure#e-group" >}}) members as they are [new hires](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36848).
+[Write things down](/handbook/values/#write-things-down) is an operating principle of [Efficiency](/handbook/values/#efficiency) at GitLab. Team members are as likely to see merge requests [put forth](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36397) by [e-group]({{< ref "structure#e-group" >}}) members as they are [new hires](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/36848).
 
-Empowering the entire company to propose changes creates widespread autonomy and [agency]({{< ref "values#give-agency" >}}). This generates a shared responsibility to maintain the pace of documentation through a [pay-it-forward mentality]({{< ref "./self-service#paying-it-forward" >}}).
+Empowering the entire company to propose changes creates widespread autonomy and [agency](/handbook/values/#give-agency). This generates a shared responsibility to maintain the pace of documentation through a [pay-it-forward mentality]({{< ref "./self-service#paying-it-forward" >}}).
 
 ## Designate scribes or a handbook editor team
 
-Ideally, everyone feels as if they are a contributing member of a handbook's evolution. This is easier to foster when you instill ["writing things down"]({{< ref "values#write-things-down" >}}) as a value at an early stage. For [scaled companies]({{< ref "./scaling" >}}) adding a handbook many years after inception, consider hiring dedicated scribes that sit on each team.
+Ideally, everyone feels as if they are a contributing member of a handbook's evolution. This is easier to foster when you instill ["writing things down"](/handbook/values/#write-things-down) as a value at an early stage. For [scaled companies]({{< ref "./scaling" >}}) adding a handbook many years after inception, consider hiring dedicated scribes that sit on each team.
 
 Former journalists are ideal for this type of work, as it goes well beyond transcription. Documenting [notes](communication#external-communication) during [meetings]({{< ref "./meetings" >}}), and converting them from [Google Docs]({{< ref "communication#google-docs" >}}) to [handbook](/handbook/about/handbook-usage/#why-handbook-first), requires a knack for storytelling as well as an understanding of what's important and what [context]({{< ref "./effective-communication#understanding-low-context-communication" >}}) should be added.
 

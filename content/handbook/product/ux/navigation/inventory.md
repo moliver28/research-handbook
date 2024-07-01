@@ -27,5 +27,5 @@ Open an issue in [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab) descr
 
 1. Generate the latest navigation information from the `gitlab-org/gitlab` repo. See [Development Rake tasks](https://docs.gitlab.com/ee/development/rake_tasks.html#output-current-navigation-structure-to-yaml) for instructions.
 1. Copy the generated `navigation.yml` into `handbook/data/navigation.yml`
-1. (Optional) [Rebuild the handbook locally](https://handbook.gitlab.com/docs/development/) to verify the output of this page
+1. (Optional) [Rebuild the handbook locally](/docs/development/) to verify the output of this page
 1. Open an MR with the updated `navigation.yml` content. Assign it to @jtucker_gl.

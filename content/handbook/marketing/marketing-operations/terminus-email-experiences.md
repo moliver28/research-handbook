@@ -1,14 +1,7 @@
 ---
-
 title: "Terminus Email Experiences"
 description: "Terminus Email Experiences is a marketing tool used as an advertising channel inside the inbox."
 ---
-
-
-
-
-
-
 
 ## Uses
 
@@ -85,7 +78,7 @@ Each campaign banner only points to one link. With PathFactory, you can use one 
 
 You can identify who clicks on your email signature banners and track content consumption using PathFactory. Using these insights you can optimize your email signature campaigns and content tracks, while simultaneously identifying highly engaged prospects.
 
-To take the most advantage of this integration, pair your banner campaign with an equally targeted content track. This v1 integration allows Terminus to pass a visitor’s email address to PathFactory whenever someone clicks on a banner. This means that anyone entering a content track from a banner will be identified in PathFactory analytics. When using this integration and sending an email with a banner to one recipient, when that recipient clicks on the banner Terminus will pass the recipient's email address to PathFactory. This allows PathFactory track the resulting session of the known individual. When there are multiple recipients of a single email Terminus handles identifying visitors differently depending on the scenario.
+To take the most advantage of this integration, pair your banner campaign with an equally targeted content track. This v1 integration allows Terminus to pass a visitor's email address to PathFactory whenever someone clicks on a banner. This means that anyone entering a content track from a banner will be identified in PathFactory analytics. When using this integration and sending an email with a banner to one recipient, when that recipient clicks on the banner Terminus will pass the recipient's email address to PathFactory. This allows PathFactory track the resulting session of the known individual. When there are multiple recipients of a single email Terminus handles identifying visitors differently depending on the scenario.
 
 Here are three different possible scenarios:
 
@@ -93,7 +86,7 @@ Here are three different possible scenarios:
   - The visitor sessions will be listed as unique events, but the email address "somebody@domain.com" will be associated with each visitor session
   - The email address will actually say "somebody", and the @domain.com will be the domain you sent the email to
 - Scenario 2: You send an email to one external person, and one or more internal people
-  - The external recipient’s email address will be associated with their session data
+  - The external recipient's email address will be associated with their session data
   - The internal recipients' email address will be listed in PathFactory as unique events from unknown traffic
 - Scenario 3: You send an email to multiple people with different domains
   - Eg. tim@example.com, sarah@demo.com, and lisa@xyz.com
@@ -116,7 +109,7 @@ Select the type and frequency of system notifications from Terminus Email Experi
 - **Engagement reports** - Emailed daily or weekly and show who has recently clicked a campaign banner. To opt in/out of your individual engagement report email, visit the employee preference center.
 - **Install Reminders** - Send reminders to all employees who have yet to install their Terminus email signature. These reminders will be sent automatically based on the selected frequency until the user has successfully installed their signature.
 - **Campaign Clicks** - Send real-time notifications to employees anytime someone clicks their Terminus campaign banners. These notifications include the date, time, and contact who clicked on the Campaign banner. Employees can opt out of these notifications by editing their profile. This will automatically enable Campaign Click Notifications for new employees added to Terminus Email Experiences in the future.
-    - **Campaign Click Notification Blocklist** - Ignore clicks from some domains (for example, clicks from email security clients). Currently set up to ignore clicks in analytics from GitLab employees.
+  - **Campaign Click Notification Blocklist** - Ignore clicks from some domains (for example, clicks from email security clients). Currently set up to ignore clicks in analytics from GitLab employees.
 
 ### Privacy & Data
 

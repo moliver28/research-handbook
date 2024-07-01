@@ -245,17 +245,17 @@ Once again, thank you for showing your interest, and all the best with your job 
 > ## Some useful resources
 >
 > - Unsure on where to get started? Check out our [handbook page on recording a presentation in Zoom](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom). A free Zoom account is all you'd need to complete this presentation.
-> - Interested in the type of work our UX team does? Search [GitLab Unfiltered for UX Showcase](https://www.youtube.com/c/GitLabUnfiltered/search?query=ux%20showcase), review our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
+> - Interested in the type of work our UX team does? Check out our [UX Forum on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), review our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
 > - We work with a [low level of shame](/handbook/values/#low-level-of-shame) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
 > - Other questions? Want the Recruiter to review your presentation before the review from the Hiring Manager? Don't hesitate to get in touch with the Recruiter who conducted your screening call.
 
 - We will schedule the next stages if the recording indicates your past experiences will lead to your success in a role at GitLab.
 
 - Candidates will be invited to 2 seperate 50-minute interviews:
-    - One with a UX Researcher. Overall, this interview aims to understand how you choose your research methods, how you present results, how you work with a wider team of counterparts, and how you determine whether your research resulted in a meaningful business impact. This interview will also look to understand the softer skills you have as a researcher and how you apply those in the real world.
-    - The other with the UX Research Manager where we'll focus on your experience researching Developers and working with global team members in an Agile setting. You will also discuss your career, your experiences as a UX Researcher, and the role of UX Research at GitLab.
+  - One with a UX Researcher. Overall, this interview aims to understand how you choose your research methods, how you present results, how you work with a wider team of counterparts, and how you determine whether your research resulted in a meaningful business impact. This interview will also look to understand the softer skills you have as a researcher and how you apply those in the real world.
+  - The other with the UX Research Manager where we'll focus on your experience researching Developers and working with global team members in an Agile setting. You will also discuss your career, your experiences as a UX Researcher, and the role of UX Research at GitLab.
 
-- Next up are a couple of 50-minute interviews, one with either a Product Design Manager or Product Designer, and the other with a Product Manager. In these interviews, we'll focus on how you collaborate with cross-functional stakeholders and mentor non-researchers in successfully conducting research. These interviews are opportunities for you to understand the the stage you will be a part of in more detail, hear a different perspective on the stable counterpart relationship, and ask any questions you have.
+- Next up are a couple of 50-minute interviews, one with either a Product Design Manager or Product Designer, and the other with a Product Manager. In these interviews, we'll focus on how you collaborate with cross-functional stakeholders and mentor non-researchers in successfully conducting research. These interviews are opportunities for you to understand the stage you will be a part of in more detail, hear a different perspective on the stable counterpart relationship, and ask any questions you have.
 
 - Successful candidates will subsequently be made an offer via Zoom.
 

@@ -1,15 +1,8 @@
 ---
-
 title: "Developer Advocate Team Workflow"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/workflow/index.html
 ---
-
-
-
-
-
-
 
 ## Team Workflow
 
@@ -298,7 +291,7 @@ The [DevRel-Bot](https://gitlab.com/gitlab-da/devrel-bot) uses the [GitLab Triag
 
 The Developer Advocate team workflow is supported by labels, which help determine the type of issue, its status, and other relevant information. The team's primary label is `developer-advocacy`. All issues the team owns, are a part of, or needs to be aware of, should be tagged with `developer-advocacy`. Other Labels are listed below:
 
-#### General labels
+### General labels
 
 | **CFP Labels** | **Description** |
 | ---------- | ----------- |

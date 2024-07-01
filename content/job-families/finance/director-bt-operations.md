@@ -17,7 +17,7 @@ The Director, Business Technology Operations is a [level 10](/handbook/total-rew
 #### Director, Business Technology Operations Responsibilities
 
 - Head a multi-continent team in an all-remote Organization.
-- Build and lead a team of  technology leaders, engineers, analysts and and service management staff.
+- Build and lead a team of  technology leaders, engineers, analysts, and service management staff.
 - Create the Business Technology Strategy and roadmap, effectively defining and delivering on new SOPs, process improvements, and projects.
 - ITIL: Lead the design, implementation, and enhancement of ITIL processes like Incident, Problem, Change, Configuration, and Release Management to achieve operational excellence.
 - Business Technology Service Desk: Foster customer-centricity in business technology operations, manage a responsive service desk, focusing on end-user satisfaction. Prioritize incident resolution, escalate effectively, and strategize for optimal first-call resolution.
@@ -26,13 +26,13 @@ The Director, Business Technology Operations is a [level 10](/handbook/total-rew
 - Directly participate in technology and process improvements and support as required (i.e., be hands-on).
 - Establish seamless processes to onboard, change and offboard resources from business technology and enterprise application services.
 - Document and enforce new and current business technology policies and procedures.
-- Measure, monitor, and maintain team’s ability to meet or exceed contact and resolution Service Level Agreements (SLA).
+- Measure, monitor, and maintain team's ability to meet or exceed contact and resolution Service Level Agreements (SLA).
 - Run the Business Technology Service desk, define and manage ticket SLAs, and move towards greater automation (and where appropriate) self-service of tickets.
 - Proven ability to successfully recruit, manage, motivate and develop high performing teams.
 - Negotiates and influences the opinions and decision making of internal senior leaders on matters of significance to the division.
 - Consistently demonstrates, models and coaches managers and senior managers on GitLab's remote working competencies.
 - Proactively communicates with leadership about progress and outcomes and how strategy and contributions support higher-level priorities and initiatives.
-- Focuses the team’s communication and productivity.
+- Focuses the team's communication and productivity.
 
 #### Director, IT Operations Requirements
 

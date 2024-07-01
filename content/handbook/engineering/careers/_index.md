@@ -40,7 +40,7 @@ conversation at least once a quarter.
 
 ### Opportunity
 
-The GitLab Engineering career track offers a full path of opportunity for individuals to contribute. The availability of senior engineering roles starting at Staff Engineer will be governed by the IC Gearing Ratios (TBD).
+The GitLab Engineering career track offers a full path of opportunity for individuals to contribute.
 There are scenarios where a position must become available before a promotion can occur. On the engineering track, there must be a position of need to be promoted from a Senior Engineer to either a Staff Engineer or an Engineering Manager, depending on your chosen path. Progression beyond these types of roles (e.g. Senior Engineer) are not guaranteed by time in role. There must be a justifiable need for the role and the candidate must have some level of demonstrated ability to thrive in these roles to be considered for the new position.
 
 These next level opportunities are not guaranteed to be available and should not be viewed as career limiting. Again, using the Senior Engineering role as an example, is a critical role within GitLab. It is an accomplishment to thrive at the Senior level and should be celebrated as such.
@@ -155,7 +155,7 @@ For more details on logistics of ending an interim or acting period please refer
 
 ## Roles
 
-#### Development Department
+### Development Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -255,7 +255,7 @@ For more details on logistics of ending an interim or acting period please refer
 </div>
 </div>
 
-#### Quality Department
+### Quality Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -300,7 +300,7 @@ For more details on logistics of ending an interim or acting period please refer
 </div>
 </div>
 
-#### Support Department
+### Support Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -332,7 +332,7 @@ For more details on logistics of ending an interim or acting period please refer
 </div>
 </div>
 
-#### Infrastructure Department
+### Infrastructure Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -414,7 +414,7 @@ subgraph Based on Merit & Company Need
 </div>
 </div>
 
-#### Incubation Engineering Department
+### Incubation Engineering Department
 
 <div style="overflow-x: auto">
 <div style="width: 1800px;">
@@ -445,7 +445,7 @@ subgraph Based on Merit & Company Need
 
 ## Apprenticeship for Learning
 
-Typically, an apprenticeship provides an individual with an overview of a position or field over a short period of time. It’s surface-level learning geared towards team members who are still exploring their interests and deciding what options they’d like to pursue. If the field of interest, it's subject matter experts and the department they want to learn more about can support this effort, then this offers a good opportunity for an internship. For more information on the process please review this handbook section on [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/).
+Typically, an apprenticeship provides an individual with an overview of a position or field over a short period of time. It's surface-level learning geared towards team members who are still exploring their interests and deciding what options they'd like to pursue. If the field of interest, it's subject matter experts and the department they want to learn more about can support this effort, then this offers a good opportunity for an internship. For more information on the process please review this handbook section on [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/).
 
 Eligibility criteria:
 

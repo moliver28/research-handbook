@@ -1,12 +1,6 @@
 ---
-
 title: Workshops and Enablement Sessions
 ---
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -120,9 +114,9 @@ Similar to taking notes in a cadence call, it is useful to add to your running n
 - Write down your *agenda* (including questions you want to ask). This way you can quickly add your notes for the specific context.
 - If you're comfortable writing in [Markdown format](/handbook/markdown-guide/), use it to quickly structure your notes in real time.
 - Allow yourself time directly after the call to clean up your notes. Avoid scheduling back-to-back meetings.
-- Practice slowing down call conversations. Stopping the dialog for a few seconds to say “let me write that down” tells the customer what they said is important to you.
+- Practice slowing down call conversations. Stopping the dialog for a few seconds to say "let me write that down" tells the customer what they said is important to you.
 - Ask your SAE/AE/SA to take notes with you. After the meeting combine and add detail.
 - Use [Chorus](/handbook/business-technology/tech-stack/#chorus) to record your calls so there's less pressure for you to take note of everything.
 - Sometimes it makes sense for somebody on the [account team](/handbook/customer-success/account-team/) to go back through the call in Chorus to transcribe it.
-- Write notes in whatever is easiest and always copy them to your best source of truth. If you can write them in the source of truth in the first place, you’ll be more efficient and consistent
+- Write notes in whatever is easiest and always copy them to your best source of truth. If you can write them in the source of truth in the first place, you'll be more efficient and consistent
 - Leverage the [Workshop Planning Checklist](https://docs.google.com/document/d/1MQuIq8_QWvZJi_zKMzwkIf9Ewps4nezmcvQ6YuzomSA/edit) for planning calls with the customer

@@ -5,13 +5,6 @@ title: "Distribution Team Infrastructure and Maintenance - Build Machines"
 description: "Details and maintenance tasks for the Distribution Team's build nodes"
 ---
 
-
-
-
-
-
-
-
 ## Common links
 
 - [Distribution Team Handbook](/handbook/engineering/infrastructure/core-platform/systems/distribution/)

@@ -9,9 +9,9 @@ description: "The Delivery Group enables GitLab Engineering to deliver features 
 |---|---|
 | **Workflow** | [Team workflow](#how-we-work) |
 | **GitLab.com** | `@gitlab-org/delivery` |
-| **Issue Tracker** | [**Delivery**][delivery issue tracker] |
-| **Slack Channels** | [#g_delivery] / `@delivery-team` |
-| **Delivery Handbook** | [Team training][team training] |
+| **Issue Tracker** | [**Delivery**](https://gitlab.com/gitlab-com/gl-infra/delivery) |
+| **Slack Channels** | [#g_delivery](https://gitlab.slack.com/archives/g_delivery) / `@delivery-team` |
+| **Delivery Handbook** | [Team training](/handbook/engineering/infrastructure/team/delivery/training/) |
 | **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure/team/delivery/metrics.html) |
 | Deployment and Release process | [Deployments and Releases](/handbook/engineering/deployments-and-releases/) |
 | Release Tools Project | [Release tools](/handbook/engineering/infrastructure/release-tools) |
@@ -73,7 +73,7 @@ These principles are intended to help everyone work independently in a way that 
 ### When designing a solution
 
 1. Simplify Release Management. We always want to be reducing work for release managers either by removing tasks or by improving automation. Be very cautious about introducing new tasks without removing something else
-1. Don’t add functionality to Deployer. We aim to deprecate Deployer as part of our work to migrate away from VMs
+1. Don't add functionality to Deployer. We aim to deprecate Deployer as part of our work to migrate away from VMs
 1. Always consider metrics. If we don't have the metrics to track the value, we should look to add them
 1. UX consistency. Strive for consistency across tool interactions and naming
 1. Low-context designs. Design tools as if non-delivery team members need to use them. Keep things simple and let the tools do the hard work
@@ -130,10 +130,10 @@ The following members of other functional teams are our stable counterparts:
 
 ## Performance indicators
 
-Delivery Group contributes to [Engineering function performance indicators] through [Infrastructure department performance indicators].
-The group's main performance indicator is [**M**ean **T**ime **T**o **P**roduction][MTTP] (MTTP), which serves to show how quickly a change introduced through a Merge Request
+Delivery Group contributes to [Engineering function performance indicators](/handbook/engineering/performance-indicators/) through [Infrastructure department performance indicators].
+The group's main performance indicator is [**M**ean **T**ime **T**o **P**roduction](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp) (MTTP), which serves to show how quickly a change introduced through a Merge Request
 is reaching production environment (GitLab.com).
-At the moment of writing, the target for this PI is defined in this [key result][KI lower MTTP] epic.
+At the moment of writing, the target for this PI is defined in this [key result](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/107) epic.
 
 MTTP is further broken down into charts and tables at the Delivery Team Performance Indicators Sisense dashboard.
 
@@ -155,14 +155,15 @@ Release Managers are members of the Delivery group but during their time as rele
 4. Hot patch process: Release Managers, working with EOCs, will manage the hot patch process. Hot patch capabilities are provided by the Releases team with heavy dependence on Deployments capabilities due to the shortened process and therefore reduced pipeline jobs.
 5. Deployment blockers: Release Managers are responsible for identifying, and reporting on deployment blockers in order to provide the teams with data needed to plan improvements.
 6. Release Manager dashboards: Release Managers own <https://dashboards.gitlab.net/d/delivery-release_management/delivery-release-management?orgId=1> plus have the freedom to create any additional dashboards that they think would be useful for release management. The data needed for dashboards will be made available from a centralized place, owned by Deployments.
+7. Escalation of Deployment Blockers.  When facing deployment blockers in any environment of more than 2 hours without a clear path to resolution, [escalate](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) to the `Release Management Escalation` Schedule in PagerDuty to help coordinate and unblock deployments.
 
 ### Delivery:Releases ownership
 
 The primary customers of the Releases team are:
 
- - the internal GitLab users who want to deploy & release changes i.e.,
- - Release Managers and Stage Groups.
- - customers for the monthly Release
+- the internal GitLab users who want to deploy & release changes i.e.,
+- Release Managers and Stage Groups.
+- customers for the monthly Release
 
 1. Release metrics: Providing A centralized store for metrics related to releases. Deployments will primarily be concerned with providing a metrics capability to allow all deployment pipelines to record metrics in a useful way to fuel all required dashboards.
 1. Releases/Packages Pipeline visibility: Providing visibility of pipeline configuration, status, and outcome.
@@ -177,8 +178,8 @@ The primary customers of the Releases team are:
 
 The primary customers of the Deployments team are:
 
- - Release managers who rely on the deployment tooling
- - GitLab SaaS (GitLab.com, Dedicated and Cells) customers expecting deployments of updated code to their various infrastructures.
+- Release managers who rely on the deployment tooling
+- GitLab SaaS (GitLab.com, Dedicated and Cells) customers expecting deployments of updated code to their various infrastructures.
 
 1. Deployment changelock: will make sure that all deployments observe planned and ad-hoc changelocks. Examples include PCLs, S1/S2 incidents, as well as other Change Requests.
 1. Environment changelock: will make sure that environments can be locked to schedule, or on an ad-hoc basis if required by planned maintenance or poor environment health. Guaranteeing that changes are rolled out in a predictable way will also be a Deployments responsibility.
@@ -225,7 +226,7 @@ Epics describe the work and allows for general discussions, while the issue boar
 
 Each project should have a project-label applied to all epics and issues to allow issue boards to show a full project view.
 
-Issues should primarily be created in the [delivery issue tracker] for
+Issues should primarily be created in the [delivery issue tracker](https://gitlab.com/gitlab-com/gl-infra/delivery) for
 visibility and prioritization.  Repositories that Delivery maintain should have
 their own issue trackers disabled.  The purpose of this is to ensure a single
 source of truth for work to be prioritized and visible within the team.
@@ -237,7 +238,7 @@ The [Release Velocity](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/170
 Working epic should always have:
 
 1. [A Problem Statement](https://lamport.azurewebsites.net/pubs/state-the-problem.pdf).
-1. [Directly responsible individuals][DRI] responsible for the project completion.
+1. [Directly responsible individuals](/handbook/people-group/directly-responsible-individuals/) responsible for the project completion.
 1. Defined exit criteria
 1. Issue admin section to provide the issue priority, labels and epic for quick actions. [Example](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/273#issue-template).
 1. Status YYYY-MM-DD to indicate what is being worked on, why, and planned next steps. The DRI is responsible for updating the epic status every Wednesday. Note, this must be the last heading in the epic to support automated epic summary updates
@@ -255,7 +256,7 @@ Each working epic should be accompanied by an issue board. Issue boards should b
 
 ### Labels
 
-The canonical issue tracker for the Delivery group is at [gl-infra/delivery][delivery issue tracker]. Issues are automatically labeled if no labels are applied using the [triage ops] project.
+The canonical issue tracker for the Delivery group is at [gl-infra/delivery](https://gitlab.com/gitlab-com/gl-infra/delivery). Issues are automatically labeled if no labels are applied using the [triage ops](https://gitlab.com/gitlab-com/gl-infra/triage-ops) project.
 The default labels defined in the [labeling library](https://gitlab.com/gitlab-com/gl-infra/triage-ops/-/blob/master/lib/delivery/default_labeling.rb).
 
 By default, an issue needs to have a:
@@ -270,7 +271,7 @@ By default, an issue needs to have a:
 
 The Delivery group leverages scoped `workflow-infra` labels to track different stages of work.
 
-Not every issue will be prioritised for building as soon as it is ready. Instead we manage a [Build board] with all `workflow-infra::In Progress`, and `workflow-infra::Ready` issues focused on the team's current goals.
+Not every issue will be prioritised for building as soon as it is ready. Instead we manage a [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) with all `workflow-infra::In Progress`, and `workflow-infra::Ready` issues focused on the team's current goals.
 
 The standard progression of workflow is described below:
 
@@ -372,7 +373,7 @@ Tomorrow:
 
 ### Choosing something to work on
 
-The Delivery group generally has working epics assigned to a [DRI] who is responsible for making sure work is broken down into issues, and appropriate issues are moved onto the [Build board] to keep the project on track. However, anyone is welcome to pick up any tasks from the [Build board] regardless of which project it belongs to.
+The Delivery group generally has working epics assigned to a [DRI](/handbook/people-group/directly-responsible-individuals/) who is responsible for making sure work is broken down into issues, and appropriate issues are moved onto the [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) to keep the project on track. However, anyone is welcome to pick up any tasks from the [Build board](https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862) regardless of which project it belongs to.
 
 ### Merge Requests
 
@@ -415,7 +416,7 @@ It is encouraged to show and discuss:
 ## Team training
 
 Every Delivery Group member is responsible for sharing skills either through creating a training session for the rest of the group or through paired work.
-See the page on [team training] for details.
+See the page on [team training](/handbook/engineering/infrastructure/team/delivery/training/) for details.
 
 ## History
 
@@ -439,14 +440,3 @@ Prior to 2020, the team impact overview was created in Slack, and in the years t
 1. [Year overview for 2021](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/2171)
 1. [Year overview for 2022](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/2726)
 1. [Year overview for 2023](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/19887)
-
-[delivery issue tracker]: https://gitlab.com/gitlab-com/gl-infra/delivery
-[team training]: /handbook/engineering/infrastructure/team/delivery/training/
-[#g_delivery]: https://gitlab.slack.com/archives/g_delivery
-[Engineering function performance indicators]: /handbook/engineering/performance-indicators/
-[Infrastructure department performance indicators]: /handbook/engineering/infrastructure/performance-indicators/
-[MTTP]: /handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp
-[KI lower MTTP]: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/107
-[triage ops]: https://gitlab.com/gitlab-com/gl-infra/triage-ops
-[DRI]: /handbook/people-group/directly-responsible-individuals/
-[Build board]: https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862

@@ -9,35 +9,35 @@ The Diversity, Inclusion & Belonging (DIB) Team has a variety of ways that it co
 
 ### Encouraging Participation in Diversity, Inclusion & Belonging
 
-DIB is a core value and is something that is measured by [DIB Compentencies](https://handbook.gitlab.com/handbook/values/#diversity-inclusion--belonging-competency) in performance reviews, mid reviews and promotions. The DIB team is providing an easily accessible way for team members to display the DIB value by providing on a monthly or quarterly basis depending on level, way you can contribute on a increasing scale of Good, Better & Best. This will enable team members to participate in a ways they are able to at any given time depending on competing priorities.
+DIB is a core value and is something that is measured by [DIB Compentencies](/handbook/values/#diversity-inclusion--belonging-competency) in performance reviews, mid reviews and promotions. The DIB team is providing an easily accessible way for team members to display the DIB value by providing on a monthly or quarterly basis depending on level, way you can contribute on a increasing scale of Good, Better & Best. This will enable team members to participate in a ways they are able to at any given time depending on competing priorities.
 
 **DRIs & Dates & Method of Communication:**
 
 - **E-Group Communications** -
-    - DRI: Sherida McCmullan
-    - Cadence: Quarterly
-    - Method of Communication:
+  - DRI: Sherida McCmullan
+  - Cadence: Quarterly
+  - Method of Communication:
 - **VP+ Communications** -
-    - DRI: Sherida McCMullan
-    - Cadence: Quarterly
-    - Method of Communication: VP Direct Monthly Call
+  - DRI: Sherida McCMullan
+  - Cadence: Quarterly
+  - Method of Communication: VP Direct Monthly Call
 - **Leadership DIB Council** -
-    - DRI: Liam McNally
-    - Cadence: Monthly
-    - Method of Communication: Leadership DIB Council Call
+  - DRI: Liam McNally
+  - Cadence: Monthly
+  - Method of Communication: Leadership DIB Council Call
 - **People Managers Communications** -
-    - DRI: Liam McNally
-    - Cadence: Monthly
-    - Method of Communication: #People-Mrgs+ Slack Channel
+  - DRI: Liam McNally
+  - Cadence: Monthly
+  - Method of Communication: #People-Mrgs+ Slack Channel
 - **Indvidual Contributors Communications** -
-    - DRI Marina Brownrigg
-    - Cadence: Monthly
-    - Method of Communication: While you were Iterating, What’s Happening and DIB Slack Channels
+  - DRI Marina Brownrigg
+  - Cadence: Monthly
+  - Method of Communication: While you were Iterating, What's Happening and DIB Slack Channels
 
 **Example**
 
 Good: Use monthly Zoom Background attached
-Better: Promote & Attend heritage month event on XXXX  
+Better: Promote & Attend heritage month event on XXXX
 Best: Post in the #people-managers-and-above around a personal story focused on your experience with regards to XXXX
 
 **Why?**
@@ -46,7 +46,7 @@ We are approaching it this way to ensure that all team members have the same opp
 
 **Logistics**
 
-- **E-Group Communications** - Reminder: week 8 of prior quarter Content Ready & Reviewed: 1 week prior to the start of the quarter Released:  
+- **E-Group Communications** - Reminder: week 8 of prior quarter Content Ready & Reviewed: 1 week prior to the start of the quarter Released:
 - **VP+ Communications** - Reminder: week 8 of prior quarter Content Ready & Reviewed: 1 week prior to the start of the quarter Released: During the VP Directs Call
 - **Leadership DIB Council** - Reminder: 1 week prior to LDC Call Content Ready & Reviewed: 3 days prior to the LDC Call: 1st week of the new month
 - **People Managers Communications** - Reminder: 1 week prior to the start of the month Content Ready & Reviewed: 3 days prior to the start of the month Released: During the LDC Cal,
@@ -68,7 +68,7 @@ To ensure strong collaboration with the People Business Partner team we provide 
 **Process**
 
 - **DRI** - Liam McNally, Manager, DIB
-    - Cadence: Quarterly
-    - Release for Collaboration from DIB Team: 2 weeks prior to the end of the quarter
-    - Delivered: First week of the new quarter
-    - Method of Communication: Leadership DIB Council Call DIB-PBP Slack Channel
+  - Cadence: Quarterly
+  - Release for Collaboration from DIB Team: 2 weeks prior to the end of the quarter
+  - Delivered: First week of the new quarter
+  - Method of Communication: Leadership DIB Council Call DIB-PBP Slack Channel

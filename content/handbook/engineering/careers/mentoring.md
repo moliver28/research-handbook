@@ -18,7 +18,7 @@ For Mentoring to be successful, Mentees must be prepared to invest time in their
 - Review previous performance reviews or 360 results
 - Reach out to your management and ask for feedback
 - Identify future roles you might be interested in
-    - For those roles, identify the skills required that you don't currently possess
+  - For those roles, identify the skills required that you don't currently possess
 
 After performing this activity, decide whether you want to improve upon your strengths, weaknesses or both.
 
