@@ -486,13 +486,19 @@ Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These inc
 
 While Product Managers are the DRIs for [milestone planning](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
-### Introducing application limits
+### Non Functional Requirements
+
+When thinking about features, it is important not only to think about the functional requirements of a feature (defining what the feature will do), but also to think about non-functional requirements (defining how the feature works). At the highest level, non-functional requirements define items such as performance, scalability, compatibility, maintainability and usability characteristics of a feature. For an in depth review of non-functional requirements, see [this resource](https://www.altexsoft.com/blog/non-functional-requirements/). 
+
+Some specific areas were we should consider creating non-functional requirements are discussed below.
+
+#### Introducing application limits
 
 To enhance availability and performance of GitLab, sometimes it makes sense to add configurable limits to certain features. For example, we [limit the number of webhooks per project](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html), and we allow admins to set [rate limits on raw endpoints](https://docs.gitlab.com/ee/administration/settings/rate_limits_on_raw_endpoints.html). These limits ensure more consistent performance, reduce the likelihood of outages, and offer admins tools to limit abuse or enforce specific standards.
 
 There is a guide about [developing application limits](https://docs.gitlab.com/ee/development/application_limits.html) in the GitLab Docs.
 
-#### When implementing application limits
+##### When implementing application limits
 
 Application limits should be enabled by default. If we are considering enabling or changing a limit, we should do the following (applies to GitLab.com and self-managed):
 
@@ -509,13 +515,13 @@ Application limits should be enabled by default. If we are considering enabling 
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
 - **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
 
-### Data storage for features
+#### Data storage for features
 
 As we continue to scale our product, we should consider the amount of data being stored for new features. Data storage is not an infinite resource, so we should think carefully about what data needs persistent storage to provide the desired user experience.
 
 Data storage comes in two main forms for GitLab -- database storage, and Git repository storage. While we have dedicated teams devoted to ensuring we can scale these storages appropriately, it is in our best interest to only store what is required for a feature to perform as intended. Additionally, there may be situations where storage should be subject to data retention policies.
 
-#### Considerations around data storage
+##### Considerations around data storage
 
 When evaluating feature data storage, the following data storage topics should be considered.
 
