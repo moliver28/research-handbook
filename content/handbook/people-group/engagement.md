@@ -109,8 +109,6 @@ Our Engagement Survey for FY'25 is scheduled to run from 2024-06-17 to 2024-06-2
 - 2024-07-09: High-level summary shared with e-group
 - 2024-07-18: High-level summary release (company-wide)
 - 2024-07-18 through 2024-07-31: E-group division-level summary release
-
-
 ### Summit Pulse Surveys Overview
 
 The goal of the Summit is to build trust through social connections. This trust should lead to higher individual and team motivation, leading to higher productivity and retention. Higher trust between individuals and teams fuels collaboration and leads to stronger results.
