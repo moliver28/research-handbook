@@ -116,3 +116,46 @@
         height: 400px
         toolbar: hidden
         hide_tabs: true
+- name: Review Time to Merge
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Review Time to Merge (RTTM) tells us on average how long it takes from submitting code for review to being merged.
+  target: At or below 3
+  category: efficiency
+  # dri: <a href="https://gitlab.com/meks">Mek Stittri</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/RTTM/Sheet1
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+- name: Open MR Age (OMA)
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: We want to be more intuitive with calculating how long it takes an MR to merge or close. Open MR Age (OMA) measures the median time of all open MRs as of a specific date. In other words, on any given day, we calculate the number of open MRs and median time in open state for those MRs at that point in time.
+  target: At or below 30
+  category: efficiency
+  is_key: false
+  health:
+    level: 2
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OpenMRAgeOMA/Sheet1
+- name: Open Bug Age (OBA)
+  base_path: "/handbook/engineering/infrastructure/engineering-productivity/space/"
+  definition: Open Bug Age (OBA) measures the total number of days that all bugs are open within a month divided by the number of bugs within that month.
+  target: TBD
+  category: efficiency
+  # dri: <a href="https://gitlab.com/vincywilson">Vincy Wilson</a>
+  health:
+    level: 3
+    reasons: []
+  tableau_data:
+    charts:
+      - url: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/OpenBugDashboards/open-median
+        height: 400px
+        toolbar: hidden
+        hide_tabs: true
+
