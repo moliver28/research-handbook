@@ -240,10 +240,7 @@ In general, technical debt, backstage work, or other classifications of developm
 
 ### Retrospectives
 
-The team has a monthly retrospective meeting on the first Tuesday of the
-month. The agenda can be found
-[here](https://docs.google.com/document/d/1fJfUzsk2RJqLaN8C42fXWzsTo5M8sZDQ5N2M-qJGt2M/edit?usp=sharing)
-(internal link).
+The team has a monthly [asyncronous retrospective](https://gitlab.com/gitlab-org/async-retrospectives) to reflect on our successes and improvement areas. 
 
 ### Deprecations process
 
