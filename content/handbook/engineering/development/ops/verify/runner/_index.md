@@ -26,7 +26,7 @@ The product strategy and roadmap for the runner product categories are covered o
 Our UX vision, more information around how UX and Development collaborate, and other UX-related information will be documented in the [UX Strategy page](/handbook/product/ux/stage-group-ux-strategy/ci-cd/).
 Our [Jobs to be Done](/handbook/product/ux/jobs-to-be-done) are documented in [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/) and provide a high-level view of the main objectives. Our User Stories are documented in [Runner Group - User Stories](/handbook/engineering/development/ops/verify/runner/user-stories/) which guide our solutions as we create design deliverables, and ultimately map back to JTBDs.
 
-## Performance Indicator
+## Performance Indicators
 
 In the [OPS section](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/), we continuously define, measure, analyze, and iterate or Performance Indicators (PIs). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
 
@@ -40,7 +40,7 @@ The following people are permanent members of the Verify:Runner group:
 
 {{< stable-counterparts role="Verify:Runner" manager-role="Engineering Manager(.*)Verify:Runner" >}}
 
-For a more comprehensive list of counterparts, look at the [runner product categtory](/handbook/product/categories/#runner-group)
+For a more comprehensive list of counterparts, look at the [runner product categories](/handbook/product/categories/#runner-group)
 
 ## Dashboards
 
