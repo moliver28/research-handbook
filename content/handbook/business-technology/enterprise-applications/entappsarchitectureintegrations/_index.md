@@ -22,23 +22,23 @@ System Integrations and APIs
 - Building custom APIs
 - Building automations and workflows
 
-# Highly tested and robust data mapping
+## Highly tested and robust data mapping
 
-## We use a combination of unit and integration testing to build automated tests that provide guarantees that the data models we’re mapping to and from are correct now and into the future.
+### We use a combination of unit and integration testing to build automated tests that provide guarantees that the data models we’re mapping to and from are correct now and into the future.
 
-# System decoupling
+## System decoupling
 
-## The integrations platform we use allows us to decouple event producing systems from the downstream consumers so that if and when we do decide to switch upstream systems or introduce new downstream systems, we can very quickly and easily do that without causing large amounts of rework for ourselves or for the system owners.
+### The integrations platform we use allows us to decouple event producing systems from the downstream consumers so that if and when we do decide to switch upstream systems or introduce new downstream systems, we can very quickly and easily do that without causing large amounts of rework for ourselves or for the system owners.
 
-# Scheduled automations
+## Scheduled automations
 
-## Through our CRON scheduling capabilities, we can build out extremely flexible time-based automations for you
+### Through our CRON scheduling capabilities, we can build out extremely flexible time-based automations for you
 
-# Slack integration
+## Slack integration
 
-## If you require any slack integration automations and workflows we offer that through the Workato built in Slack connector. Reach out for more information on how we can help you.
+### If you require any slack integration automations and workflows we offer that through the Workato built in Slack connector. Reach out for more information on how we can help you.
 
-# Built in business system connectors
+## Built in business system connectors
 
-## Through our integration with Workato we are able to offer out of the box connectors for many standard business systems. Look through the Workato connectors list{:target="_blank"} for more information on what’s available. If your system isn’t listed on that website please reach out to us as we also regularly build custom connectors for additional systems.
+### Through our integration with Workato we are able to offer out of the box connectors for many standard business systems. Look through the Workato connectors list{:target="_blank"} for more information on what’s available. If your system isn’t listed on that website please reach out to us as we also regularly build custom connectors for additional systems.
 
