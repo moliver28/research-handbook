@@ -7,11 +7,13 @@ description: "The Enterprise Applications CRM Team implements and supports speci
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Mission
+
 CRM Systems exists to support the GitLab field organization by providing reliable, scalable, and intuitive technology platforms for everyday use. Primarily working on SalesforceCRM and its related Revenue Systems, our goal is to constantly deliver value in the form of features to our end users. We also act as the connective tissue between business and technology, gathering requirements from our internal customers, designing the technical specifications and executing on the delivery of the solution.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
 ## Salesforce.com Change Management Processes and SDLC (Software Development Life Cycle)
+
 Changes to Salesforce.com come in a variety of formats but all of them will feature the following change managment controls:
 
 1. All changes will start with an GitLab Issue defining the ask or problem, and capturing additional decisions and business requirements.
@@ -179,7 +181,6 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 |[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--staging.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--staging.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|11/11/2022 |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000796|
 |[LIGHTNING](https://gitlab--lightning.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--lightning.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--lightning.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|03/26/2024|TBD|Central Sandbox 2|10000719|
 
-
 ## <i class="fas fa-users" id="biz-tech-icons"></i> How we Operate
 
 ## Technical Documentation
@@ -203,7 +204,6 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 - The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
   - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
   - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
-
 
 ### Steps to getting help from Sales Systems
 
@@ -466,6 +466,5 @@ We are beginning to explore using [Sandbox Source Tracking](https://developer.sa
 This tool will enable our admins to track complex changes to their developer orgs and easily check these into source control.
 
 Once we do so, we can expand our pipeline to include these objects in our pipeline in STAGING.  This will allow us to validate administrative changes such as field renames, picklist value changes, validation rules, workflow, or flows, and deploy them quickly to STAGING.  As this removes the manual step for admins to build change sets from their environments into STAGING, it will save them time to focus on other things.
-
 
 After this, our next goal will be to see if we want to start automating deployments to STAGING once an MR is merged.  This will only save us a click, but is an important step for us as a team to become comfortable with using the process of automated deployments into our STAGING environment.
