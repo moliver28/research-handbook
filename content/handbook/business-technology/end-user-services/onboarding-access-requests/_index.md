@@ -272,6 +272,10 @@ Laptop wipes must be performed via [scheduling an appointment](/handbook/busines
 
 Under no circumstance should you perform your own disk wipe unless you are doing so at the request of IT to troubleshoot a technical problem with the laptop. If GitLab discovers that a device has not been wiped according to policy, GitLab may act to enforce a remote wipe without notice.
 
+**Please note**
+
+As part of a legal hold or investigation, IT may need to perform remote imaging of Company issued laptops before a wipe. This process includes creating a complete snapshot of the data stored on these devices. As we understand and respect the importance of your personal data, you are highly encouraged to create a personal folder on the Company-issued devices, clearly labeled as "Personal" and avoid storing sensitive personal information. This folder should be used exclusively for storing your personal data and IT will exercise reasonable efforts to respect the privacy of this personal folder during the remote imaging process. Any personal data collected during the remote imaging process will be handled in strict compliance with the General Data Protection Regulation (GDPR) and other applicable data protection laws. Personal data will be processed based on legitimate interests, compliance with legal obligations, or your consent where necessary. Only the data necessary for the stated purposes will be collected and processed. All personal data will be secured against unauthorized access, loss, or destruction.
+
 ### Laptop Donations
 
 Donating hardware/laptops will help people in disadvantaged areas and/or from underrepresented groups with their ability to learn about technology. Therefore GitLab offers the possibility to donate hardware devices to [vendors on a curated list](https://docs.google.com/spreadsheets/d/15g4v5coC_yLlVNTKUZMwATllZhxzqbxrtvwJsi8bjXE/edit#gid=0) after 3 years of use. This curated list has been a result of the [Upstream Diversity Working Group](/handbook/company/working-groups/upstream-diversity/).
