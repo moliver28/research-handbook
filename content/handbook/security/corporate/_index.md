@@ -32,8 +32,8 @@ GitLab is both a company and a product. The Corporate Security department focuse
 
 - Safeguard our organization's digital assets, ensuring the integrity, confidentiality, and availability of all data.
 - Implement robust security measures, fostering a culture of awareness and compliance among employees, and continuously monitoring and enhancing our information technology systems to protect against evolving threats.
-- Leverage the GitLab platform to assist us in the securing of GitLab.
-- Through strategic planning, innovative solutions, and collaboration across departments, we aim to support the organization's goals by providing reliable, secure, and efficient IT Security services that adhere to Zero Trust principals.
+- Leverage the GitLab platform (dogfooding) to assist us in the securing of GitLab.
+- Provide reliable, secure and efficient IT and Security engineering, innovation, and services with Zero Trust principals to support cross-functional organizational goals 
 
 ### Scope
 
@@ -84,7 +84,7 @@ GitLab is both a company and a product. The Corporate Security department focuse
   - 💻 [Laptop and Logistics Services](/handbook/security/corporate/services/laptops)
   - 🛬 [Onboarding](/handbook/security/corporate/services/onboarding)
   - 🛫 [Offboarding](/handbook/security/corporate/services/offboarding)
-  - 🧑‍💻 [Tech Support (for Team Members)](/handbook/security/corporate/services/)
+  - 🧑‍💻 [Tech Support (for Team Members)](/handbook/security/corporate/support/)
 - ☁ [Infrastructure Services](/handbook/security/corporate/services/infrastructure)
 
 ### Engineering
@@ -109,6 +109,7 @@ See the [Team Directory](/handbook/security/corporate/team).
 - [Tier 5 Architecture and Crisis Management](/handbook/security/corporate/support/#tier-5-architecture-and-crisis-management)
 - [CorpSec Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues)
 - Engineers and System Owners - See [CorpSec Systems](/handbook/security/corporate/systems) for GitLab group handle and Slack group handle.
+  - `#corpsec` Slack Channel (for technical support, please ask in `#it_help`)
 - Helpdesk Team
   - `#it_help` Slack Channel
   - `@it-help` Slack group
