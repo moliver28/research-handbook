@@ -3,9 +3,7 @@ title: "AI Feature Benchmarks"
 description: "This page outlines GitLab's benchmarks for measuring the effectiveness and impact of AI-powered features in our development workflow."
 ---
 
-# AI Feature Evaluation Benchmarks
-
-## Overview
+## AI Feature Evaluation Benchmarks
 
 This page outlines GitLab's standardized benchmarks for evaluating AI features throughout the development lifecycle. These metrics are designed to be approachable for all teams while aligning with industry best practices for AI evaluation.
 
