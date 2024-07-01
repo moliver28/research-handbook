@@ -45,7 +45,7 @@ Particularly in a company where [results](/handbook/values/#results) are valued 
 
 Though it sounds counter to conventional wisdom, clarity comes through time away from work. Just as a human must inhale and exhale to survive, one cannot expect to remain healthy and productive if only inhaling more work.
 
-As John Fitch describes in the book [Time Off](https://www.timeoffbook.com), there are four stages of creativity. This was initially [outlined](https://www.brainpickings.org/2013/08/28/the-art-of-thought-graham-wallas-stages) by English social psychologist and London School of Economics co-founder Graham Wallas.
+As John Fitch describes in the book [Time Off](https://www.amazon.com/Time-Off-Practical-Building-Finding/dp/1734794402), there are four stages of creativity. This was initially [outlined](https://www.brainpickings.org/2013/08/28/the-art-of-thought-graham-wallas-stages) by English social psychologist and London School of Economics co-founder Graham Wallas.
 
 1. Preparation
 1. Incubation
@@ -152,7 +152,7 @@ This approach enables managers and leaders to experience less anxiety and worry 
 
 [Documentation]({{< ref "./handbook-first" >}}) allows a significant portion of one's managerial expertise to be tapped into even while the manager is away recharging, and this intentional decentralization creates a greater sense of calm for both leaders and direct reports.
 
-[John Fitch](https://twitter.com/johnwfitch), co-author of [Time Off](https://www.timeoffbook.com) and the Chief Product Officer at [Voltage Control](https://voltagecontrol.com), shares a powerful anecdote on this approach on [The Culture Factor podcast](https://the-culture-factor.simplecast.com/episodes/what-if-time-off-created-a-culture-of-productivity-that-surpassed-12-hour-days). A portion of the interview is transcribed below.
+[John Fitch](https://twitter.com/johnwfitch), co-author of [Time Off](https://www.amazon.com/Time-Off-Practical-Building-Finding/dp/1734794402) and the Chief Product Officer at [Voltage Control](https://voltagecontrol.com), shares a powerful anecdote on this approach on [The Culture Factor podcast](https://the-culture-factor.simplecast.com/episodes/what-if-time-off-created-a-culture-of-productivity-that-surpassed-12-hour-days). A portion of the interview is transcribed below.
 
 > My function of head of design and prototyping — if I'm the only one doing it, that's a problem. If I go away or something happens to me, that entire function is compromised. It's a single point of failure. When you decentralize, you get rid of single points of failure.
 >
