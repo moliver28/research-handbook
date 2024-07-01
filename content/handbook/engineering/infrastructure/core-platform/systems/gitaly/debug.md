@@ -42,7 +42,7 @@ A Gitaly dashboard could be either auto-generated or manually drafted. We use Js
 
 A standardized dashboard should have a top-level section containing environment filters, node filters, and useful annotations such as feature flag activities, deployments, etc. Some dashboards have an interlinked system that connects Grafana and Kibana with a single click.
 
-Such dashboards usually include two parts. The second half contains panels of custom metrics collected from Gitaly. The first half is more complicated. It contains GitLab-wide indicators telling if Gitaly is "healthy" and node-level resource metrics. The aggregation and calculation are sophisticated. In summary, those dashboards tell us if Gitaly performs well according to predefined [thresholds](https://gitlab.com/gitlab-com/runbooks/-/blob/d0a5ff2f0ae23984679e0cf6e3361c6d4e71550b/metrics-catalog/services/gitaly.jsonnet), . We could contact [Scalability:Observability Team](../../../infrastructure/team/scalability/observability/) for any questions.
+Such dashboards usually include two parts. The second half contains panels of custom metrics collected from Gitaly. The first half is more complicated. It contains GitLab-wide indicators telling if Gitaly is "healthy" and node-level resource metrics. The aggregation and calculation are sophisticated. In summary, those dashboards tell us if Gitaly performs well according to predefined [thresholds](https://gitlab.com/gitlab-com/runbooks/-/blob/master/metrics-catalog/services/gitaly.jsonnet), . We could contact [Scalability:Observability Team](../../../infrastructure/team/scalability/observability/) for any questions.
 
 ![Gitaly Debug Indicators](gitaly-debug-indicators.png)
 
@@ -54,7 +54,7 @@ Some examples of using built-in dashboards to investigate production issues, fro
 
 ## Gitaly's Prometheus metrics
 
-A panel in a dashboard is a visualization of the aggregated version of underlying metrics. We use [Prometheus](https://prometheus.io/docs/introduction/overview/) to collect metrics. To simplify, the Gitaly server exposes an HTTP server ([code](https://gitlab.com/gitlab-org/gitaly/-/blob/3b872218f78151d681011e5ef2bbc22b3721f6a2/internal/cli/gitaly/serve.go#L514)) that allows Prometheus instances to fetch metrics periodically.
+A panel in a dashboard is a visualization of the aggregated version of underlying metrics. We use [Prometheus](https://prometheus.io/docs/introduction/overview/) to collect metrics. To simplify, the Gitaly server exposes an HTTP server ([code](https://gitlab.com/gitlab-org/gitaly/-/blob/master/internal/cli/gitaly/serve.go#L514)) that allows Prometheus instances to fetch metrics periodically.
 
 In a dashboard, you can click on the top-right hamburger button and choose "Explore" to get access to the underlying metrics. Or you could use [the Explore page](https://dashboards.gitlab.net/explore) to play with metrics.
 
@@ -64,7 +64,7 @@ Unfortunately, we don't have a curated list of all Gitaly metrics as well as the
 
 - Node-level or environmental metrics. Those metrics are powered by other systems that host the Gitaly process. They are not exposed by Gitaly but are very useful, for example: CPU metrics, memory metrics, or cgroup metrics.
 - Gitaly-specific metrics. Those metrics are accounted for directly in the code. Typically, they have `gitaly_` prefixes.
-- Aggregated metrics, such as combining different metrics or downsizing metrics due to high cardinality issues. The list of Gitaly's aggregated metrics is listed [in this file](https://gitlab.com/gitlab-com/runbooks/-/blob/e1d0ad78d24d51c36ea7dea28765ba16fd588d42/mimir-rules/gitlab-gprd/gitaly/gitaly.yml).
+- Aggregated metrics, such as combining different metrics or downsizing metrics due to high cardinality issues. The list of Gitaly's aggregated metrics is listed [in this file](https://gitlab.com/gitlab-com/runbooks/-/blob/master/mimir-rules/gitlab-gprd/gitaly/gitaly.yml).
 
 ![Gitaly Debug Metric Lists](gitaly-debug-list-metrics.png)
 
