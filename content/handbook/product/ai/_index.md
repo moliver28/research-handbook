@@ -32,6 +32,7 @@ This page serves as a resource for team members looking for information about wo
 * [Development process AI features](https://docs.gitlab.com/ee/development/ai_features/index.html)
 * [List of language models](https://docs.gitlab.com/ee/user/gitlab_duo/index.html): All the models we are using to power features.
 * [Process for choosing or switching AI vendors](/handbook/product/ai/continuity-plan/)
+* [AI Feature Benchmarks](/handbook/product/ai/ai-feature-benchmarks/)
 
 ## Support engineering AI features
 
