@@ -203,7 +203,7 @@
 /content/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @cdu1 @plu8
 /content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
-/content/handbook/engineering/infrastructure/core-platform/systems/gitaly.md @andrashorvath @jcaigitlab
+/content/handbook/engineering/infrastructure/core-platform/systems/gitaly/ @andrashorvath @jcaigitlab
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @meks
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @kwanyangu @marin
 /content/handbook/engineering/infrastructure/performance-indicators.md @cdu1 @marin @meks @vincywilson @rymai

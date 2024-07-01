@@ -30,27 +30,23 @@ Both `gitlab.com` and Dedicated use Gitaly in "sharded" mode, that is, without P
 #### Monitoring dashboards
 
 Grafana Gitaly Overview Dashboards
+
 - [gstg](https://dashboards.gitlab.net/d/gitaly-main/gitaly3a-overview?orgId=1&var-PROMETHEUS_DS=PA258B30F88C30650&var-environment=gstg&var-stage=main)
 - [gprd](https://dashboards.gitlab.net/d/gitaly-main/gitaly3a-overview?orgId=1&var-PROMETHEUS_DS=PA258B30F88C30650&var-environment=gprd&var-stage=main)
 
 #### Debugging and performance testing tools
 
 - [gprcurl](https://github.com/fullstorydev/grpcurl): `curl` like tool but for gPRC
-
-
 - [grpcui](https://github.com/fullstorydev/grpcui): lightweight `postman` like tool for gPRC
-
-
 - [hyperfine](https://github.com/sharkdp/hyperfine): a performance tool that can benchmarks over time
-    - hyperfine can be used together with grpcurl to check the response time of a gPRC call
-
+  - hyperfine can be used together with grpcurl to check the response time of a gPRC call
 
 #### Log analysis
 
 Kibana (Elastic) Dashboards
+
 - [gstg](https://nonprod-log.gitlab.net/app/r/s/J0jWx)
 - [gprd](https://log.gprd.gitlab.net/app/r/s/XuXAI)
-
 
 #### Capacity management
 
