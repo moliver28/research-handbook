@@ -313,7 +313,7 @@ Locate at
      > [Support cannot accept new work or customer-specific requests via Slack](https://about.gitlab.com/handbook/support/internal-support/#support-does-not-action-out-of-slack),
      > we cannot assist you here.
      >
-     > To request attention on a ticket or issue, you’ll want to submit a
+     > To request attention on a ticket or issue, you'll want to submit a
      > Support Ticket Attention Request (STAR). Please follow the steps in the
      > link below to do so.
      >

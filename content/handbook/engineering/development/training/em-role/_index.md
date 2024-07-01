@@ -1,14 +1,6 @@
 ---
-
 title: Engineering manager role explained
 ---
-
-
-
-
-
-
-
 
 ## Engineering manager role explained
 

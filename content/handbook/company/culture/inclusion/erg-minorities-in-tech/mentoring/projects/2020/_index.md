@@ -1,5 +1,4 @@
 ---
-
 title: '2020 Projects'
 description: This page will display a list of the MIT Projects from 2020.
 canonical_path: /company/culture/inclusion/erg-minorities-in-tech/mentoring/projects/2020/

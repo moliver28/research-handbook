@@ -1,13 +1,6 @@
 ---
-
 title: "Acquisition Process"
 ---
-
-
-
-
-
-
 
 This is a detailed view of our acquisition process. For more information about
 our acquisitions approach visit our [acquisitions handbook](/handbook/acquisitions/).

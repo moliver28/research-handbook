@@ -1,14 +1,7 @@
 ---
-
 title: "Sales Strategy and Analytics Handbook"
 description: "To drive sales success by providing data, reporting, analytics, and actionable insights to leadership across GitLab"
 ---
-
-
-
-
-
-
 
 ## Welcome to the Sales Strategy & Analytics Handbook
 

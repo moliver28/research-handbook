@@ -19,7 +19,7 @@ Ideally, the hypothesis will be based on information from user research.
 
 For example:
 
-> We believe `storing information about how an incident was resolved, how long the resolution took, and what the outcome was in a way that’s easy` for `engineers responsible for incident management` to access will achieve `a 20% faster resolution time for incidents`.
+> We believe `storing information about how an incident was resolved, how long the resolution took, and what the outcome was in a way that's easy` for `engineers responsible for incident management` to access will achieve `a 20% faster resolution time for incidents`.
 
 Here are possible ways one could use data to understand whether `a 20% faster resolution time for incidents` was achieved or not:
 

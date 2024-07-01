@@ -5,9 +5,6 @@ title: Quarterly OKRs - Ops Sub-department
 description: "OKR issue tracking for the Ops Sub-Dept"
 ---
 
-
-
-
 ### FY24 Q1 OKRs
 
  In FY24 we are dogfooding the new GitLab OKR tool.  Since the tool is in it's early stages use the links below to access the OKRs for each group.  New functionality is being release constantly and this manually generated list will likely become obsolete in the near future.

@@ -31,7 +31,7 @@ The Field Communications Specialist is a grade [5](/handbook/total-rewards/compe
 - Experience in copywriting and editing
 - Excellent communication (oral and written) and presentation skills
 - Strong organizational abilities
-- Ability to continuously meet deadlines and execute on multiple projects at once  
+- Ability to continuously meet deadlines and execute on multiple projects at once
 - Excellent team player and ability to effectively collaborate with others and action on guidance from senior team members
 - Self-starter with strong problem solving abilities
 - Working knowledge of Google docs; photo and video-editing software is an asset
@@ -53,7 +53,7 @@ The Field Communications Manager is a grade [6](/handbook/total-rewards/compensa
 - Maintain core communications programs including the monthly newsletter and weekly Update Tickers
 - Support the Field Communications announcement calendar, working with DRIs across the business to triage and plan for updates
 - Support senior team members where needed on company initiatives that impact the Field teams
-- Champion efforts to improve Field Communications via GitLab’s [handbook-first approach to learning and development](/handbook/sales/field-operations/field-enablement/#handbook-first-approach-to-gitlab-learning-and-development-materials)
+- Champion efforts to improve Field Communications via GitLab's [handbook-first approach to learning and development](/handbook/sales/field-operations/field-enablement/#handbook-first-approach-to-gitlab-learning-and-development-materials)
 - Develop and implement a strategy for soliciting feedback from GitLab Field team members to inform communication priorities and requirements
 - Assist in communication of strategies or messages from senior leadership as needed
 - Take on additional projects and responsibilities as needed
@@ -128,7 +128,7 @@ The Staff Field Communications Manager is a grade [8](/handbook/total-rewards/co
 - Operate as a consultant and subject matter expert to the Field organization, cross-functional leaders, and key stakeholders, globally
 - Serve as change management and communication expert for large, cross-functional company projects and initiatives, developing communication plans that incorporate the GTM Enablement Framework and align cross-functional work and deliverables
 - Build relationships with key internal business stakeholders and executives to keep Field Comms processes top-of-mind
-- Lead the planning and execution of multi-channel communications plans supporting key field events including GitLab Summit/Sales Kick Off, President’s Club and Quarterly Business Reviews
+- Lead the planning and execution of multi-channel communications plans supporting key field events including GitLab Summit/Sales Kick Off, President's Club and Quarterly Business Reviews
 - Coordinate and streamline operations and strategy-related updates to the Field team via the Revenue Strategy, Operations & Enablement Release process and other tactics
 - Investigate new communication technologies that can help uplevel Field Comms programs
 
@@ -150,7 +150,7 @@ The Staff Field Communications Manager is a grade [8](/handbook/total-rewards/co
 
 - [Field communication/newsletter open and click-through rates](/handbook/sales/field-communications/field-flash-newsletter/#measurement)
 - Field Comms & Content Pulse Survey response rates
-  - Results from benchmark questions related to the Field’s sentiment around feeling informed and enabled in their roles
+  - Results from benchmark questions related to the Field's sentiment around feeling informed and enabled in their roles
 - Feedback from key stakeholders, including CRO LT and Field Leaders/Managers
 - Adoption metrics from sales asset management system, including recurring usage, average sessions and average time-in-platform
 - ROI metrics from sales asset management system and successfully tying ROI insights to sales content

@@ -5,7 +5,7 @@ description: This resource provides assistance to the GitLab Sales Team on opera
 
 Thank you for visiting! The purpose of this Handbook resource is to provide all GitLab team members with a clear path to assist in navigating any type of go-to-market Legal Commercial requests or processes.  The information below is intended to help you to find and access certain information on your own, as well as clearly establish how to best connect with, and coordinate assistance from, the GitLab Commercial Legal team.
 
-Note: All references to ‘GitLab Legal’ or ‘Legal’ within this Handbook page refers to the Commercial Legal team.
+Note: All references to 'GitLab Legal' or 'Legal' within this Handbook page refers to the Commercial Legal team.
 
 (1) [Operational](#operational) - How to work with and engage GitLab Legal including requirements to close a deal, general FAQ for legal ops, including some parallels to Finance and Deal Desk matters.
 
@@ -35,7 +35,7 @@ The information contained on this page is organized into two distinct categories
 
 #### Different situations require different approaches. In the vast majority of cases regarding revenue-related requests, the proper way to engage the Legal team is through Salesforce (SFDC) by creating a legal request per the process below
 
-1. Click the "Legal Request” button under the customer’s opportunity in SFDC (or at the account level if related to a partner). This enables Legal to gather more information regarding Legal Requests created and the applicable opportunity information. If an opportunity does not exist, please open a $0 opportunity and then create the Legal Request following the steps within this section.
+1. Click the "Legal Request" button under the customer's opportunity in SFDC (or at the account level if related to a partner). This enables Legal to gather more information regarding Legal Requests created and the applicable opportunity information. If an opportunity does not exist, please open a $0 opportunity and then create the Legal Request following the steps within this section.
 1. Once the Legal Request is correctly created, the request is logged in a queue where the appropriate Legal team member will assign themselves to the case and will communicatewith originator as applicable.
 1. Step-by-step directions on opening a Legal Request can be found below.
     - Click "Legal Request" but located at the top of Opportunity SFDC layout.
@@ -45,7 +45,7 @@ The information contained on this page is organized into two distinct categories
     - Once the request is addressed, the legal request will be closed by the legal team member.
     **NOTE: If no Opportunity exists, please create a $0 to open the Legal Request.**
 1. Except for export compliance purposes (see process [here](#export-review-in-sfdc)) do not tag @Legal in SFDC as the entire team gets unnecessarily notified.
-1. All agreements or documents for a customer’s particular opportunity should be attached in the same Legal Request: e.g. a customer returns redlines to both the subscription agreement and their order form, both should be uploaded to the same Legal Request.
+1. All agreements or documents for a customer's particular opportunity should be attached in the same Legal Request: e.g. a customer returns redlines to both the subscription agreement and their order form, both should be uploaded to the same Legal Request.
 
 **Reminder: Only one SFDC Legal Case should be opened for each opportunity.**
 
@@ -65,7 +65,7 @@ Need an NDA signed? Follow the process for [Team Members with DocuSign access](/
 
 ### How to Get a Data Processing Addendum (DPA) Signed
 
-GitLab includes a signed version of the DPA on the Terms of Use website. As stated within the Subscription Agreement, this DPA is applicable to all customers and does not need to be countersigned. In addition, as stated within the header of the DPA, a customer’s acceptance of the Subscription Agreement shall be treated as its agreement to the DPA.
+GitLab includes a signed version of the DPA on the Terms of Use website. As stated within the Subscription Agreement, this DPA is applicable to all customers and does not need to be countersigned. In addition, as stated within the header of the DPA, a customer's acceptance of the Subscription Agreement shall be treated as its agreement to the DPA.
 
 ### Letters of Authorization (LOA)
 
@@ -114,7 +114,7 @@ With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, pl
 
 ### Requests for GitLab Financial Information and Insurance Certificates
 
-1. For Insurance Certificate requests, demonstrating evidence of coverage, please open a Legal Request. Note that our Certificate of Insurance is GitLab’s confidential information and either an NDA or agreed to Subscription terms need to be in place prior to distribution.
+1. For Insurance Certificate requests, demonstrating evidence of coverage, please open a Legal Request. Note that our Certificate of Insurance is GitLab's confidential information and either an NDA or agreed to Subscription terms need to be in place prior to distribution.
 1. Regarding GitLab financial information, GitLab is a public company and its public filings can be found on SEC.gov or on [GitLab's Investor Relations website](https://ir.gitlab.com/financial-information/sec-filings)
 
 ### Escalation Process
@@ -124,11 +124,11 @@ In instances where a customer or a partner has requested material non-standard t
 
 ### How to get a Data Processing Addendum (DPA) signed
 
-GitLab includes a signed version of the DPA on the [Terms of Service](https://about.gitlab.com/terms/), as stated within the [Subscription Agreement](/handbook/legal/subscription-agreement/) this DPA is applicable to all Enterprise Customer's and does not need to be counter-signed. In addition, as stated within the header of the DPA, a Customer’s acceptance of the Subscription Agreement shall be treated as its execution of the DPA.
+GitLab includes a signed version of the DPA on the [Terms of Service](https://about.gitlab.com/terms/), as stated within the [Subscription Agreement](/handbook/legal/subscription-agreement/) this DPA is applicable to all Enterprise Customer's and does not need to be counter-signed. In addition, as stated within the header of the DPA, a Customer's acceptance of the Subscription Agreement shall be treated as its execution of the DPA.
 
 ### Request for Name Change or Change in Control
 
-Occasionally GitLab will receive a notice from a customer or partner outlining either a change of their company’s legal name or a change in control of the company. The following steps outline the process to have the customer or partner’s account updated in SFDC.
+Occasionally GitLab will receive a notice from a customer or partner outlining either a change of their company's legal name or a change in control of the company. The following steps outline the process to have the customer or partner's account updated in SFDC.
 
 1. Customer provides name change notice to Sales/Channels.
 1. Sales/Channels opens a Legal Request in SFDC.
@@ -155,7 +155,7 @@ Occasionally GitLab will receive a notice from a customer or partner outlining e
 
 ### Collaborating Cross-Functionally with GitLab Issues
 
-For matters that necessitate being handled outside of SFDC (e.g. project-based work, or topics that require input from team members w/o SFDC access) and require the Legal team's attention, please (i) open an Issue in the [Legal and Compliance Project](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues); (ii) select the appropriate Issue Template; (iii) apply the label *legal-commercial::to-do*, and (iv) if you know which Legal team member you will be working with, include them as an Assignee.  This will update the [Commercial Legal Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/5411841) for the Legal team’s benefit, and allow the team to pick up and/or assign appropriately. We also use the following labels to designate status:
+For matters that necessitate being handled outside of SFDC (e.g. project-based work, or topics that require input from team members w/o SFDC access) and require the Legal team's attention, please (i) open an Issue in the [Legal and Compliance Project](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues); (ii) select the appropriate Issue Template; (iii) apply the label *legal-commercial::to-do*, and (iv) if you know which Legal team member you will be working with, include them as an Assignee.  This will update the [Commercial Legal Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/5411841) for the Legal team's benefit, and allow the team to pick up and/or assign appropriately. We also use the following labels to designate status:
 
 - *legal-commercial:in progress* means the Commercial Legal team is actively working on the issue.
 - *legal-commercial:pending requester* means the Commercial Legal team has a requirement or task that must be met by the requester before the issue progresses.
@@ -192,13 +192,13 @@ Order Form Process for Sales:
 
 ### Request for a Trial or Evaluation Agreement
 
-All customers that desire free access to GitLab Software should be directed to initiate a [free trial](https://gitlab.com/-/trials/new) for access to the GitLab Software, which is subject to and governed by GitLab’s Subscription Agreement.  A free trial is typically used by a customer for internal evaluation, and, as applicable, may also support a more involved [proof of value](/handbook/solutions-architects/tools-and-resources/pov/) guided by GitLab.
+All customers that desire free access to GitLab Software should be directed to initiate a [free trial](https://gitlab.com/-/trials/new) for access to the GitLab Software, which is subject to and governed by GitLab's Subscription Agreement.  A free trial is typically used by a customer for internal evaluation, and, as applicable, may also support a more involved [proof of value](/handbook/solutions-architects/tools-and-resources/pov/) guided by GitLab.
 
 If a customer declines the trial process and is adamant to have a separate Evaluation Agreement, the sales team member or solutions architect should open a Legal Request to request an Evaluation Agreement with Request Form. The Legal Request should first include a request for approval from the Area Sales Manager or higher and also set forth applicable details to fill out the Request Form, such as customer contact information, length of evaluation, number of users, etc.
 
 Provided the customer has been directed to the trial process first and approvals have been received, the applicable Legal team member will then provide a Request Form, setting forth the details of the evaluation for execution by the customer and GitLab. The Request Form and free access to the GitLab Software will be subject to the terms of the Evaluation Agreement which is attached to the Request Form.
 
-Once the Request Form is executed, the sales team member or solutions architect should save the document in the customer’s account in SFDC. Sales Support should then be tagged in SFDC to assist in activating customer’s free access to the GitLab Software for the applicable term and number of users.
+Once the Request Form is executed, the sales team member or solutions architect should save the document in the customer's account in SFDC. Sales Support should then be tagged in SFDC to assist in activating customer's free access to the GitLab Software for the applicable term and number of users.
 
 ### Request for Non-Standard Go-To-Market and Pricing From Legal
 
@@ -221,15 +221,15 @@ GitLab has certain thresholds when determining when, and to what extent, we will
 
 If the net ARR threshold requirements are met, a Sales team member must open a Legal Request to ask for the most current agreement template. Please do not save an agreement template to a local drive as it may not be the most current version of the agreement. It is highly recommended that the Sales team member uses discretion and discusses the approach with the assigned Legal team member to set the appropriate expectations with the customer. Please see the Subscription Agreement basics below. While negotiation may be inevitable, it is always worth considering the following implications and how best to establish the tone of potential negotiations:
 
-1. **Negotiating on GitLab’s Standard Agreement(s)**:  GitLab’s flexibility to accommodate deviations is tied in large part to a number of factors such as the opportunity amount, Net ARR (NARR), strategic importance and Landable Addressable Market (LAM).  For example, minimal changes would be expected for a $30K opportunity / NARR with immaterial future LAM.
+1. **Negotiating on GitLab's Standard Agreement(s)**:  GitLab's flexibility to accommodate deviations is tied in large part to a number of factors such as the opportunity amount, Net ARR (NARR), strategic importance and Landable Addressable Market (LAM).  For example, minimal changes would be expected for a $30K opportunity / NARR with immaterial future LAM.
 
     - *Note about Channel Partners: With regard to partners, eligibility for negotiations arises from partner categorization (Open Partner or Select Partner) as only Select partners will be allowed to negotiate terms.*
 
 1. **Negotiating on customer's agreement template**: Regardless of the NARR, a customer's agreement will almost always have terms that are unrelated to, and in some cases at complete odds with, the type of software we sell, how we license our software, and, in the case of professional services, how we implement our software.
 
-    For example, customer agreements rarely cover, (i) an open-core model, (ii) our support SLAs, (iii) correct reference to the types of product usage data that we will (or will not) collect. We sell standard software with no customization or independent development of the underlying GitLab software. If it is determined to utilize a customer’s agreement, it is best practice to work with your assigned Legal team member to pre-emptively message and set expectations with the customer  to help establish a level of trust and transparency, knowing that there will likely be extensive modifications and an increased time frame to finalize terms.
+    For example, customer agreements rarely cover, (i) an open-core model, (ii) our support SLAs, (iii) correct reference to the types of product usage data that we will (or will not) collect. We sell standard software with no customization or independent development of the underlying GitLab software. If it is determined to utilize a customer's agreement, it is best practice to work with your assigned Legal team member to pre-emptively message and set expectations with the customer  to help establish a level of trust and transparency, knowing that there will likely be extensive modifications and an increased time frame to finalize terms.
 
-    - *Note about Channel Partners:  GitLab’s Partner Program, and how GitLab enables its channel partners, makes utilizing a partner’s form agreement much more difficult. It will require alignment across multiple cross-functional stakeholders and an additional level of scrutiny before moving forward.  Please work with your Legal team member to help guide you through any such process.*
+    - *Note about Channel Partners:  GitLab's Partner Program, and how GitLab enables its channel partners, makes utilizing a partner's form agreement much more difficult. It will require alignment across multiple cross-functional stakeholders and an additional level of scrutiny before moving forward.  Please work with your Legal team member to help guide you through any such process.*
 
 ### What is Open Source?
 
@@ -251,7 +251,7 @@ Why will GitLab not sign a BAA?
 
 - GitLab is transparent with respect to information it requires, or does not require, in order to provide our products and services.
 - GitLab does not require, nor is it  designed to be used to store, Protected Health Information (PHI). In addition, GitLab, as an organization, does not desire or need to receive, process, store, transact or otherwise possess PHI in order to provide our products and services. Please view [Section 14.3](/handbook/legal/subscription-agreement/#14-security--data-protection) of the Subscription Agreement, which specifically highlights that GitLab should not receive PHI. As such, GitLab does not meet, and has no intention of meeting, the definition of a "Business Associate" as defined under the Health Insurance Portability and Accountability Act (HIPAA).
-- In the event a customer questions "incidental disclosures," please highlight the HIPAA definition itself, which states: “Business associate functions or activities on behalf of a covered entity include claims processing, data analysis, utilization review, and billing. Business associate services to a covered entity are limited to legal, actuarial, accounting, consulting, data aggregation, management, administrative, accreditation, or financial services. **However, persons or organizations are not considered business associates if their functions or services do not involve the use or disclosure of protected health information, and where any access to protected health information by such persons would be incidental, if at all.**”
+- In the event a customer questions "incidental disclosures," please highlight the HIPAA definition itself, which states: "Business associate functions or activities on behalf of a covered entity include claims processing, data analysis, utilization review, and billing. Business associate services to a covered entity are limited to legal, actuarial, accounting, consulting, data aggregation, management, administrative, accreditation, or financial services. **However, persons or organizations are not considered business associates if their functions or services do not involve the use or disclosure of protected health information, and where any access to protected health information by such persons would be incidental, if at all.**"
 
 ### Data Privacy, Security and the GitLab Data Processing Addendum
 

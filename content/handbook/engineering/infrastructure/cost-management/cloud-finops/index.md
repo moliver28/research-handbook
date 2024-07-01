@@ -1,5 +1,4 @@
 ---
-
 title: "P&L Allocation"
 description: "P&L allocation documentation"
 ---

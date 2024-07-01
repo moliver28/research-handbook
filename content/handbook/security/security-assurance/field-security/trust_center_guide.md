@@ -22,7 +22,7 @@ This page provides detailed security information to prospective and existing Git
 
 ## Two types of Trust Center documentation
 
-- **Readily available information**: The first step on the trust journey, these documents are publicly available and are designed to introduce GitLab’s approach to security. Directly available from the [Trust Center](https://trust.gitlab.com).
+- **Readily available information**: The first step on the trust journey, these documents are publicly available and are designed to introduce GitLab's approach to security. Directly available from the [Trust Center](https://trust.gitlab.com).
 
 - **Information under NDA**: These documents provide detailed security information to prospective and existing customers for completing vendor security assessments. Due to the sensitive nature of the documentation, an NDA is required to be in place prior to viewing specific documents (such as SOC 2 Type 2). The NDA signing process will happened directly through the Trust Center.
 

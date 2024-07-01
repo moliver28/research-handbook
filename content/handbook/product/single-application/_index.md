@@ -1,10 +1,6 @@
 ---
-
 title: Advantages of a single application
 ---
-
-
-
 
 ## Single application
 

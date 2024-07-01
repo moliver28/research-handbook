@@ -14,11 +14,11 @@ On this page, we're detailing how to build, communicate, and reinforce a sustain
 ![GitLab values illustration](/images/all-remote/illustration_gitlab-world.png)
 {style="max-width: 50%;"}
 
-**Culture is the barometer of how well values are adhered to and reinforced in an organization**. Therefore, culture can only be maintained if values are prescriptively articulated and visibly [reinforced]({{< ref "values#how-do-we-reinforce-our-values" >}}) through elements such as [discretionary bonuses]({{< ref "incentives#discretionary-bonuses" >}}) and linking promotions to values.
+**Culture is the barometer of how well values are adhered to and reinforced in an organization**. Therefore, culture can only be maintained if values are prescriptively articulated and visibly [reinforced](/handbook/values/#how-do-we-reinforce-our-values) through elements such as [discretionary bonuses]({{< ref "incentives#discretionary-bonuses" >}}) and linking promotions to values.
 
 In a colocated setting, culture is typically formed through [tacit](https://en.wikipedia.org/wiki/Tacit_knowledge) or implicit knowledge. In a healthy remote work environment, the building blocks of culture are documented transparently, making them accessible to everyone.
 
-If you want to build a great culture, start with your [company's core values]({{< ref "values" >}}). You should be able to hand your values to someone who doesn't work at your organization and they be so well-articulated that person would understand how to treat you and your colleagues. Ideally, [your values are public]({{< ref "values#why-our-values-are-public" >}}) so that others can contribute their own knowledge and experiences.
+If you want to build a great culture, start with your [company's core values]({{< ref "values" >}}). You should be able to hand your values to someone who doesn't work at your organization and they be so well-articulated that person would understand how to treat you and your colleagues. Ideally, [your values are public](/handbook/values/#why-our-values-are-public) so that others can contribute their own knowledge and experiences.
 
 ## Why is company culture essential for remote work?
 
@@ -33,7 +33,7 @@ It takes **intentionality** to build a company culture in a company that has no 
 
 In colocated companies, it's easy to let culture be shaped by office decor, the neighborhood in which a company's headquarters is located, or the loudest voice in the room. Not only is this dangerous — one's culture can oscillate based on external factors — but it's not a usable strategy in a remote environment.
 
-In a remote team, there's no office vibe, hip coffee, or Spotify playlists that decide the culture, which is a gift. Instead, culture is written down. Culture is equal to the [values]({{< ref "values" >}}) you write down, and what you do as a leadership team to [reinforce]({{< ref "values#how-do-we-reinforce-our-values" >}}) those values.
+In a remote team, there's no office vibe, hip coffee, or Spotify playlists that decide the culture, which is a gift. Instead, culture is written down. Culture is equal to the [values]({{< ref "values" >}}) you write down, and what you do as a leadership team to [reinforce](/handbook/values/#how-do-we-reinforce-our-values) those values.
 
 It starts by being intentional about [informal communication]({{< ref "./informal-communication" >}}).
 
@@ -77,9 +77,9 @@ Diversity, [Inclusion]({{< ref "inclusion" >}}) & Belonging is fundamental to th
 
 ### 1. Be empathetic
 
-Empathy and [kindness]({{< ref "values#kindness" >}}) are core to being a great remote manager. It can be challenging to put yourself in the shoes of a direct report using [text communication]({{< ref "./effective-communication" >}}) and [Zoom calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). In-person interactions allow for body language to be more easily read. In a remote setting, managers must instead be proactive in *asking* direct reports how life is going and what their learning preferences are.
+Empathy and [kindness](/handbook/values/#kindness) are core to being a great remote manager. It can be challenging to put yourself in the shoes of a direct report using [text communication]({{< ref "./effective-communication" >}}) and [Zoom calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). In-person interactions allow for body language to be more easily read. In a remote setting, managers must instead be proactive in *asking* direct reports how life is going and what their learning preferences are.
 
-GitLab [gives people agency]({{< ref "values#give-agency" >}}) and trusts each team member to embrace [ownership]({{< ref "values#ownership" >}}), and act as a [manager of one]({{< ref "values#managers-of-one" >}}).
+GitLab [gives people agency](/handbook/values/#give-agency) and trusts each team member to embrace [ownership](/handbook/values/#ownership), and act as a [manager of one](/handbook/values/#managers-of-one).
 
 For a greater understanding of the importance of empathy in a manager, read [GitLab's guide to combating burnout, isolation, and anxiety]({{< ref "./mental-health" >}}).
 
@@ -127,7 +127,7 @@ To answer this question, you first need to unlearn a bit, and change your frame 
 
 For many, it is assumed that culture is simply the aura, energy, or vibe one gets when walking into an office. This is largely driven by decor and personas in the room. It is dangerous to allow company culture to be dictated by such factors, as this will create an oscillating culture that changes depending on mood or socioeconomic conditions.
 
-A company culture is a company's list of values. Culture is an assurance that each employee respects, admires, and feels invested in a company's values, and that leadership works to ensure values are not violated. As GitLab, an operating principle within our Diversity, Inclusion & Belonging  value is "[culture fit is a bad excuse]({{< ref "values#culture-fit-is-a-bad-excuse" >}})."
+A company culture is a company's list of values. Culture is an assurance that each employee respects, admires, and feels invested in a company's values, and that leadership works to ensure values are not violated. As GitLab, an operating principle within our Diversity, Inclusion & Belonging  value is "[culture fit is a bad excuse](/handbook/values/#culture-fit-is-a-bad-excuse)."
 
 Remote [interviewers]({{< ref "./interviews" >}}) should link a company's values during the interview and have a conversation to assess a candidate's alignment and understanding of those values. Particularly in a remote setting, [values](values) serve as the north star, guiding every business decision by people you cannot physically see and shaping how colleagues treat one another.
 
@@ -136,7 +136,7 @@ Remote [interviewers]({{< ref "./interviews" >}}) should link a company's values
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%;"}
 
-There should be no unwritten rules in remote culture. Intentional documentation is essential to avoiding [dysfunction]({{< ref "values#five-dysfunctions" >}}) within a remote company, and this also applies to culture. At GitLab, this begins with our company values: [Collaboration](/handbook/values/#collaboration), [Results](/handbook/values/#results), [Efficiency](/handbook/values/#efficiency), [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion), [Iteration](/handbook/values/#iteration), and [Transparency](/handbook/values/#transparency).
+There should be no unwritten rules in remote culture. Intentional documentation is essential to avoiding [dysfunction](/handbook/values/#five-dysfunctions) within a remote company, and this also applies to culture. At GitLab, this begins with our company values: [Collaboration](/handbook/values/#collaboration), [Results](/handbook/values/#results), [Efficiency](/handbook/values/#efficiency), [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion), [Iteration](/handbook/values/#iteration), and [Transparency](/handbook/values/#transparency).
 
 **Culture is best defined not by how a company or team acts when all is well; rather, by the behaviors shown during times of crisis or duress**.
 
@@ -192,7 +192,7 @@ Be open about as many things as possible by making information public. This tran
 
 From family time to travel plans, there are [many examples and stories]({{< ref "./stories" >}}) of how remote work has enhanced the lives of GitLab team members.
 
-> **“The flexibility makes family life exponentially easier, which reduces stress and makes you more productive and motivated. You can’t put a dollar value on it – it’s priceless.”** - Haydn, Regional Sales Director, GitLab
+> **"The flexibility makes family life exponentially easier, which reduces stress and makes you more productive and motivated. You can't put a dollar value on it – it's priceless."** - Haydn, Regional Sales Director, GitLab
 
 The freedom and flexibility that comes with all-remote enables employees to view work in an entirely new light.
 

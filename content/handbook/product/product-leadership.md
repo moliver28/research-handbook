@@ -1,14 +1,6 @@
 ---
-
 title: Product Leadership
 ---
-
-
-
-
-
-
-
 
 {{% include "includes/product-handbook-links.md" %}}
 

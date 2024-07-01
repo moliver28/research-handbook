@@ -1,5 +1,4 @@
 ---
-
 title: "Field Marketing"
 description: "The role of Field Marketing at GitLab is to work closely with sales to support marketing messages & pipeline building at a regional level through in-person and virtual interactions."
 ---
@@ -55,7 +54,7 @@ For information regarding process, epic codes, templates and more, please visit 
 
 ### Executive Roundtables
 
-Executive Roundtables can be run virtually or in-person, and be organized through a 3rd party vendor or GitLab. These events differ from webcasts/events mainly due to the size of the audience and the interactivity level. A roundtable is run as an open discussion between the host (usually 3rd party vendor), GitLab presenter and the audience. The host would open with an introduction of themselves and the topic for the session, then introduce the GitLab presenter and have them give an overview of GitLab followed by the host asking questions directly to specific people in the audience for them to openly answer and discuss. The advantage of a roundtable is that you can document the meeting more closely and understand more about an organization’s pains and problems.
+Executive Roundtables can be run virtually or in-person, and be organized through a 3rd party vendor or GitLab. These events differ from webcasts/events mainly due to the size of the audience and the interactivity level. A roundtable is run as an open discussion between the host (usually 3rd party vendor), GitLab presenter and the audience. The host would open with an introduction of themselves and the topic for the session, then introduce the GitLab presenter and have them give an overview of GitLab followed by the host asking questions directly to specific people in the audience for them to openly answer and discuss. The advantage of a roundtable is that you can document the meeting more closely and understand more about an organization's pains and problems.
 
 Below are best practices when running a roundtable:
 
@@ -65,7 +64,7 @@ Below are best practices when running a roundtable:
 - [Example of meeting notes](https://docs.google.com/document/d/1T2m3Izn66u9xuWGDHmR5_YJcWdUhKupfVlWVPjWGLL0/edit) to document conversations during the session
 - Ensure questions are prepared between host and GitLab presenter beforehand to lead the conversations within the session
 - Assign notes of each delegate to list leads for upload onto SFDC
-- Pre-analysis of delegates - check to see if their organization is currently a user of GitLab, whether they’re CE or EE customers. This could be a great way to start or dig into deeper conversations with the delegate.
+- Pre-analysis of delegates - check to see if their organization is currently a user of GitLab, whether they're CE or EE customers. This could be a great way to start or dig into deeper conversations with the delegate.
 - Ensure you have familiarised yourself with the [White Glove Event Follow Up process](/handbook/marketing/sales-development/#white-glove-event-follow-up-sequence-saes-included) for this type of event.
 
 ## 3rd Party Events
@@ -691,7 +690,7 @@ It is recommended that each Field Marketer keep a separate GitLab tablecloth, po
 
 ### Returning AMER Field Marketing Event Assets and Swag
 
-It is the FMM’s responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Boundless portal will include a clearly marked return label inside of each box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
+It is the FMM's responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Boundless portal will include a clearly marked return label inside of each box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
 
 **PLEASE NOTE:** Trash should not be put into the return shipping boxes. All event assets are to be packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Do not send small numbers of swag back to the warehouse if the items were bundled. Only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be rebundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
 
@@ -794,7 +793,7 @@ It is important to note that there is a limit on link sharing when utilizing the
 
 **[How to sign into your account](https://corporate.grubhub.com/resource/signing-in/)**
 
-- You should have received a [Welcome Email](https://corporate.grubhub.com/resource/automated-welcome-emails-for-new-corporate-diners/) through which you created your credentials. If you never received a Welcome Email, please contact your FMC. Go to grubhub.com, click “Sign in” and enter your Grubhub credentials.
+- You should have received a [Welcome Email](https://corporate.grubhub.com/resource/automated-welcome-emails-for-new-corporate-diners/) through which you created your credentials. If you never received a Welcome Email, please contact your FMC. Go to grubhub.com, click "Sign in" and enter your Grubhub credentials.
 
 **How to access the Admin Portal**
 
@@ -858,12 +857,12 @@ Before you [create a Meal Credit](https://corporate.grubhub.com/resource/meal-cr
 **Note**: `Employees` in the Grubhub portal refer to our registrants for an event.
 
 1. Log into corporate.grubhub.com. In the top right corner, click the person icon and select Business Account.
-2. In the navigation bar, hover over Employees & Groups and click “Groups”.
+2. In the navigation bar, hover over Employees & Groups and click "Groups".
 3. Here, you can manage all your Groups. Select Add new group.
 4. Give your new Group a name (event name) and description, then click Add group.
 5. Now, assign employees to that Group. Employees must first be added to your account before they can be assigned to a Group.
     - If you already have employees added to your account, click Add employees and select the employees you want to add to this Group.
-    - If you don’t already have employees added to your account, hover over Employees & Groups in the navigation bar and click Employees. You can manually add employees one by one with the “Add New Employee” button, or [bulk add employees](https://corporate.grubhub.com/resource/admin-portal/uploading-employees-in-bulk/).
+    - If you don't already have employees added to your account, hover over Employees & Groups in the navigation bar and click Employees. You can manually add employees one by one with the "Add New Employee" button, or [bulk add employees](https://corporate.grubhub.com/resource/admin-portal/uploading-employees-in-bulk/).
         - It is important to note that when bulk-adding employees you must include the name of the group in the upload file where applicable. This ensures the employees are assigned to a group.
 6. Now you can [create your meal credits](https://corporate.grubhub.com/resource/meal-credits/).
 7. FMC to bulk remove registrant information once the event has concluded and the invoice has been received (all invoices are sent to FMCs on a monthly cadence).
@@ -883,7 +882,7 @@ Before you [create a Meal Credit](https://corporate.grubhub.com/resource/meal-cr
 You are able to upload new employees to your corporate account manually. We recommend that you upload employees manually if you have 10 or fewer; otherwise, we recommend uploading them in [bulk](https://corporate.grubhub.com/resource/admin-portal/uploading-employees-in-bulk/).
 
 1. To upload a new employee manually, click the Employees & Groups tab and select Employees.
-2. Then click Add New Employee and input the employee’s information. Please note that first and last name, phone number, and email address are all required.
+2. Then click Add New Employee and input the employee's information. Please note that first and last name, phone number, and email address are all required.
 3. You will also need to indicate if the user is a standard user or an admin user.
 4. Click Add New Employee.
 5. You will now be able to add the employee to any existing Groups so they can be assigned to a line of credit.
@@ -893,14 +892,14 @@ You are able to upload new employees to your corporate account manually. We reco
 
 **How do I create another admin user?**
 
-- If the employee already has an account, click on the pencil next to their name, then the “edit” button and under the Permissions section, select “Admin User". If the employee does not have an account, follow the instructions above.
+- If the employee already has an account, click on the pencil next to their name, then the "edit" button and under the Permissions section, select "Admin User". If the employee does not have an account, follow the instructions above.
 
 **Removing Individual Employees**
 
 1. Select the person icon at the top right of your screen and Business Account from the drop-down menu.
 2. Under Employees & Groups, select Employees. Click the pencil next to the employee you would like to remove.
 
-**How do I change a user’s email address?**
+**How do I change a user's email address?**
 
 - Delete the user and re-add them to the account with the new email address. Make sure to re-add them to their group(s).
 
@@ -922,19 +921,19 @@ Before you create a Meal Credit, make sure that you have [created a Group to ass
 
 **Note**: `Employees` in the Grubhub portal refer to our registrants for an event.
 
-1. Hover over “Meal credit settings” and click “Meal credits”. Then, click “Add meal credit”.
-2. Name your meal credit; this is what your employees will see. We suggest including the name of the event or company associated with this meal credit so it’s easy for your employees to identify.
+1. Hover over "Meal credit settings" and click "Meal credits". Then, click "Add meal credit".
+2. Name your meal credit; this is what your employees will see. We suggest including the name of the event or company associated with this meal credit so it's easy for your employees to identify.
 3. Choose how long this budget is available.
     - One-day budgets are best for single-day events (e.g. happy hours, meetings, celebrations). They can also repeat on specific days of the week.
     - Weekly budgets are best for ongoing meal programs (e.g. providing employees lunch for the week). They can also repeat on a weekly basis.
-4. Then, select the time window for when the order must be placed and delivered, or simply check the “All day” box. Orders can be placed in advance but must be delivered within the designated timeframe.
-5. Next, choose what geographic areas your employees can order from. To ensure they can order from their home, select “Anywhere”.
-6. Under “Order Settings”, you can choose how your employees order their meals. Checking all options provides the most flexibility.
+4. Then, select the time window for when the order must be placed and delivered, or simply check the "All day" box. Orders can be placed in advance but must be delivered within the designated timeframe.
+5. Next, choose what geographic areas your employees can order from. To ensure they can order from their home, select "Anywhere".
+6. Under "Order Settings", you can choose how your employees order their meals. Checking all options provides the most flexibility.
 7. Next, choose to require any sort of expense code/comments at checkout.
-8. Lastly, we recommend notifying your employees when their meal credit becomes available. We’ll send a customized, one-time email the morning their meal credit begins – so long as you create and assign meal credits the night before. Diners added to an existing budget will receive an email the morning after they’re added.
-9. Now, click “Add Meal Credit” and you can start adding groups to your new meal credit.
+8. Lastly, we recommend notifying your employees when their meal credit becomes available. We'll send a customized, one-time email the morning their meal credit begins – so long as you create and assign meal credits the night before. Diners added to an existing budget will receive an email the morning after they're added.
+9. Now, click "Add Meal Credit" and you can start adding groups to your new meal credit.
 10. Scroll down to select the group(s) you want associated with this meal credit and enter the budget amount.
-11. Click “Save” and you’re done!
+11. Click "Save" and you're done!
 
 </details>
 
@@ -954,14 +953,14 @@ Before you create a Meal Credit, make sure that you have [created a Group to ass
 
 **My employee is not seeing their meal credit balance and/or is being asked to enter their personal credit card upon checkout.**
 
-There could be a few reasons. Check to make sure all the below items are addressed. If you’re still facing this issue, please reach out to Grubhub Corporate Support.
+There could be a few reasons. Check to make sure all the below items are addressed. If you're still facing this issue, please reach out to Grubhub Corporate Support.
 
 - The account your employee is ordering from is not tied to a corporate account. If the employee is tied to the corporate account, please check that a welcome email has been sent and that the employee registered their account.
 - The user is signing in using the wrong email.
 - The user is on the account but not tied to a group.
 - The user is tied to a group that is not tied to an active meal credit.
 - The order exceeds the amount budgeted to the user (a credit card may be required to cover overages).
-- The user is attempting to order outside of your company’s allotted ordering times.
+- The user is attempting to order outside of your company's allotted ordering times.
 
 </details>
 
@@ -1455,14 +1454,14 @@ We are committed to providing opportunities for discussion, education and commun
   - **Carahsoft and GitLab to leverage cadence call prior to event for moderator prep**
     - Review script and define responsibilities around hosting, muting, poll questions etc.
     - Review slides
-  - **Finalize copy for Thank you email and confirm CTA’s and resources**
+  - **Finalize copy for Thank you email and confirm CTA's and resources**
   - **Carahsoft to Load Poll questions into Zoom meeting**
   - **Day Before Event**
     - Carahsoft sends reminder email
-    - GitLab sends reminder email via meetup.com prompting RSVP’s to register if they haven’t already
+    - GitLab sends reminder email via meetup.com prompting RSVP's to register if they haven't already
     - Carahsoft confirms all poll questions are loaded
   - **Day of Event**
-    - GitLab checks meetup.com for any questions and updates invite with zoom link (in case folks want to attend but don’t want to register via Carahsoft)
+    - GitLab checks meetup.com for any questions and updates invite with zoom link (in case folks want to attend but don't want to register via Carahsoft)
     - Carahsoft and moderators to join 30 minutes early
     - Speakers to join 15 minutes early
     - Carahsoft to kick off event a couple minutes past the start time
@@ -1622,9 +1621,9 @@ Field Marketing manages its budget in [Allocadia](/handbook/marketing/strategy-p
 1. Every month on t -6 days (so 6 business days before the start of the next month) finance will do a pull of this data and push it into the company planning tool called Adaptive. Field Marketing Managers must always keep their budgets up to date, but it is essential the budget is accurate for the month prior to t -6 days, as FMM Leadership reviews the budget vs. actuals on a monthly basis.
    - Via Geekbot, each FMM will receive a reminder t-8 days before the start of the next month - or 2 days before the monthly forecast is due to Finance.
 1. Direct Mail accrual process - Spend should be planned and expensed in the month in which they are sent out to recipients vs. the month in which the recipient could use the direct mail piece, as we have no control over when a gift card (as an example) is used.
-1. Survey accrual process - If you are using a 3rd party to complete a survey, it’s the responsibility of the FMM DRI to account for the percent of work that was completed in that month in the budget. As an example, if you signed a contract with a vendor to complete 100 surveys, and in month 1, 50 of the 100 contracted for surveys were completed, then you would account for 50% of the expense in month 1.
+1. Survey accrual process - If you are using a 3rd party to complete a survey, it's the responsibility of the FMM DRI to account for the percent of work that was completed in that month in the budget. As an example, if you signed a contract with a vendor to complete 100 surveys, and in month 1, 50 of the 100 contracted for surveys were completed, then you would account for 50% of the expense in month 1.
    - This update in monthly expense is due to be updated directly in the budget document, in the correct month, in advance of the t -6 days before the end of the month, which is when Finance does a pull of our budget doc to run a budget vs. actuals comparison
-1. Content Syndication accrual process - If you are using a 3rd party to run a content syndication play, it’s the responsibility of the FMM DRI to account for the percent of work that was completed in that month in the budget. As an example, if you signed a contract with a vendor to complete 100 leads, and in month 1, 50 of the 100 contracted for leads were delivered, then you would account for 50% of the expense in month 1.
+1. Content Syndication accrual process - If you are using a 3rd party to run a content syndication play, it's the responsibility of the FMM DRI to account for the percent of work that was completed in that month in the budget. As an example, if you signed a contract with a vendor to complete 100 leads, and in month 1, 50 of the 100 contracted for leads were delivered, then you would account for 50% of the expense in month 1.
    - This update in monthly expense is due to be updated directly in the budget document, in the correct month, in advance of the t -6 days before the end of the month, which is when Finance does a pull of our budget doc to run a budget vs. actuals comparison
 1. The entire cost of the program is to be forecasted for - Sponsorship + lead scanners + monitor + any other auxiliary cost that the company will incur.
 1. If the event is just 1 day, then the start and end date would be the same.
@@ -1789,7 +1788,7 @@ Field Marketing utilizes regional email aliases for pre and post tactic outreach
   - Restricted permission levels to only FMM Leadership posting the announcements
   - Announcements can be submitted to your manager if you would like to something shared
   - All members have comment access to allow clarifications if needed on a thread
-  - You are to react with an emoji (thumbs-up, eyes…) to signal to managers that you’ve seen an announcement
+  - You are to react with an emoji (thumbs-up, eyes…) to signal to managers that you've seen an announcement
   - There should be no need to cross-post announcements (such as posting a link from another slack channel to the #fieldmarketing channel)
     - With a #company-fyi and the [#fieldmarketing-fyi](https://gitlab.slack.com/archives/C01502JC5BK), all relevant info should be successfully communicated by managers to team members.
   - Default to issues first, then public channels when possible to avoid siloing work information to private discussions.
@@ -1841,8 +1840,8 @@ Specifically:
 
 1. Add your OOO to [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel)
 1. Add an OOO message for your email. Please ensure you are including a DRI in your OOO email response for people outside the company to contact.
-1. Turn on [Google Calendar's "out of office" setting](https://support.google.com/calendar/answer/7638168?hl=en) (scroll down to "Show when you’re out of office") to create an out of office event that will automatically decline new and existing meetings for you. Or, please ensure to manually cancel/decline/reschedule any meetings if you will not be in attendance.
-1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Time Off by Deel). If you’re traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
+1. Turn on [Google Calendar's "out of office" setting](https://support.google.com/calendar/answer/7638168?hl=en) (scroll down to "Show when you're out of office") to create an out of office event that will automatically decline new and existing meetings for you. Or, please ensure to manually cancel/decline/reschedule any meetings if you will not be in attendance.
+1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Time Off by Deel). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
 1. Add an OOO to your GitLab profile and mark yourself as `busy`
 1. For the AMER FM Team, please add your OOO to the [FM AMER Team PTO Google calender](https://calendar.google.com/calendar/u/0?cid=Y18yZjA0OGVhNzc3YjcyZWQzYTRmY2VkOTZjZWI5NjRiMTNlNWM1YmMxOTA4M2FjNmE5YWNjYjUwMzc0NWZhNjlhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 1. If you are a manager of people, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.
@@ -1921,16 +1920,16 @@ We feel like this info is too good to delete, and while we currently aren't usin
 
 <summary>We will be deprecating usage of Printfection and will use Reachdesk or our selected swag vendor for direct mail. Expand below to see details regarding Printfection</summary>
 
-The below steps can be followed to set up and run a giveaway campaign using Printfection for field marketing. If you come across any steps that you can’t follow in Printfection, post in the [#swag Slack channel](https://app.slack.com/client/T02592416/C66R8N98F) so a Community Advocate can update your permissions levels.
+The below steps can be followed to set up and run a giveaway campaign using Printfection for field marketing. If you come across any steps that you can't follow in Printfection, post in the [#swag Slack channel](https://app.slack.com/client/T02592416/C66R8N98F) so a Community Advocate can update your permissions levels.
 
 1. Register and send the items you will be using to Printfection by following [these steps](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/)
 1. Bundle your items together by creating a [Giveaway Kit](https://help.printfection.com/hc/en-us/articles/360006335613-How-to-start-a-new-kit) in Printfection
-    - The picture of the Giveaway Kit is what the customer will see. If you’d like a different image to show than what Printfection puts together as a preview, be sure to provide this to the support team
-    - Select Standard packaging or choose to create a custom box (a new custom box will incur additional expenses). If you’d like to use already created custom packaging (such as the GitLab branded Poly Mailers), check with the advocates in the #swag slack channel to make sure it’s okay for you to use
+    - The picture of the Giveaway Kit is what the customer will see. If you'd like a different image to show than what Printfection puts together as a preview, be sure to provide this to the support team
+    - Select Standard packaging or choose to create a custom box (a new custom box will incur additional expenses). If you'd like to use already created custom packaging (such as the GitLab branded Poly Mailers), check with the advocates in the #swag slack channel to make sure it's okay for you to use
 1. Set up a [Giveaway Campaign](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/)
     - [Add the kit](https://help.printfection.com/hc/en-us/articles/360026589734-Using-kits-in-Giveaway-campaigns) you created as an item in the Giveaway Campaign
     - The name of the giveaway campaign will be visible to the customer
-    - Change from Paused to Running when you’re ready to run the campaign
+    - Change from Paused to Running when you're ready to run the campaign
 1. Add a Printfection code column to your event spreadsheet with your leads. Copy over unique codes (generated above in the Printfection Giveaway Campaign) to assign a code to each lead
 1. Work with your MPM to set up the Printfection URL & unique codes in your email copy (if desired, steps 5-7 are only relevant if sending a Marketo email rather than individually distributing the redemption links):
     - Place the Giveaway Campaign URL in your email copy (found on the Overview tab of the campaign in Printfection)
@@ -1958,7 +1957,7 @@ using the Direct Mail campaign status progressions. (for example, when a person'
 
 <summary>Expand below to see details regarding Account-Centric Micro-Campaigns</summary>
 
-The purpose of the regional integrated micro-campaign is to build and drive a specific strategy in a region (with a specific list of targeted accounts/look-a-like accounts). This could be based on intent data pulled from our ABM tool, DemandBase, or it could be based on accounts you’ve agreed to target with your SAE. A micro-campaign must include a minimum of 2 different account-centric tactics.
+The purpose of the regional integrated micro-campaign is to build and drive a specific strategy in a region (with a specific list of targeted accounts/look-a-like accounts). This could be based on intent data pulled from our ABM tool, DemandBase, or it could be based on accounts you've agreed to target with your SAE. A micro-campaign must include a minimum of 2 different account-centric tactics.
 
 **For example:**
 
@@ -1966,7 +1965,7 @@ The purpose of the regional integrated micro-campaign is to build and drive a sp
 
 ### What does Account-Centric mean?
 
-At times, Field Marketing will run an account-centric approach to its in-region campaigns. Account-Centric is an approach where both sales and marketing are focusing their efforts on a very specific list of targeted accounts in order to increase engagement and ultimately pipeline creation within this list of accounts. The SAE/FMM/SDR are responsible for outlining which accounts are account-centric and accounts can easily pop in and out of being in the account-centric play based on the strategy that’s being executed.
+At times, Field Marketing will run an account-centric approach to its in-region campaigns. Account-Centric is an approach where both sales and marketing are focusing their efforts on a very specific list of targeted accounts in order to increase engagement and ultimately pipeline creation within this list of accounts. The SAE/FMM/SDR are responsible for outlining which accounts are account-centric and accounts can easily pop in and out of being in the account-centric play based on the strategy that's being executed.
 i.e. If a FMM is targeting to get 15 people into an interactive roundtable discussion, that will greatly impact the number of accounts that are targeted for that specific tactic vs if they were trying to 100+ people into that same discussion.
 
 ### How to track the ROI of your Account-Centric approach
@@ -2004,7 +2003,7 @@ At GitLab, we utilize Bizible for attribution tracking. In order to track the to
 - Formulation of a clear strategy and understanding of customer journey
 - Completion of all fields in the `Details` section of the micro-campaign template
 
-*For anything that’s listed in the `Tactics included` section of the template the FMM needs to be clear about their specific ask & what the desired outcome will be. If the FMM does not know, it's ok to set up a call to talk through ideas and strategies.*
+*For anything that's listed in the `Tactics included` section of the template the FMM needs to be clear about their specific ask & what the desired outcome will be. If the FMM does not know, it's ok to set up a call to talk through ideas and strategies.*
 
 #### 2. FMM opens specific tactic issues
 
@@ -2108,7 +2107,7 @@ For example - You have created a micro-campaign that will include a self-service
 1. Epic label issue - There is a glitch right now which may keep the labels from auto-assigning. In order to have the labels added to your epic, you'll need to copy the /label line from the epic code into a comment to pull over all labels. [Quick video how-to](https://drive.google.com/open?id=1gK8G4CBaqcgWgB6b2A1BRSQCma5GfJyt). 2 mins
 1. If you create an epic & sub issues and DO NOT have a date, then when you go back and add dates then you MUST ping the assigners - could be FMC, MPM, OPS, etc.
 1. When you go from plan to WIP that's when everything starts - from the SLA workback as well.
-1. The details section is so important - what that tells the MPM/FMC how this program should flow. You can't move your issue to the WIP stage until the details are added - This is where if attention to detail isn’t your BFF, you need to make it your BFF. ;)
+1. The details section is so important - what that tells the MPM/FMC how this program should flow. You can't move your issue to the WIP stage until the details are added - This is where if attention to detail isn't your BFF, you need to make it your BFF. ;)
 
 </details>
 
@@ -2120,7 +2119,7 @@ For example - You have created a micro-campaign that will include a self-service
 
 #### Overview
 
-SimplyDirect is a third party company that helps companies identify buyers and early adopters using the latest in big data tools and high-response surveys. The program from SimplyDirect includes surveying (through GatePoint Research), responder intelligence, and custom content creation in the shape of a Pulse Report highlighting the overall findings from survey responses.  These custom built surveys are developed via collaboration with GitLab sellers, Product Marketing, and Sales Development Reps, where the aim is to target accounts to create actionable sales intelligence which reveals an account’s needs, pain, plans and trends. In addition, GatePoint Research provides an incentive of a free gift upon completing the survey.
+SimplyDirect is a third party company that helps companies identify buyers and early adopters using the latest in big data tools and high-response surveys. The program from SimplyDirect includes surveying (through GatePoint Research), responder intelligence, and custom content creation in the shape of a Pulse Report highlighting the overall findings from survey responses.  These custom built surveys are developed via collaboration with GitLab sellers, Product Marketing, and Sales Development Reps, where the aim is to target accounts to create actionable sales intelligence which reveals an account's needs, pain, plans and trends. In addition, GatePoint Research provides an incentive of a free gift upon completing the survey.
 
 Our strategy is to leverage the data from the survey responses as well as the Pulse Report provided to set meetings and create sales-accepted opportunities. The data gathered from the surveys will also help the Digital Marketing Team and Campaign Managers by providing insight into the respondents current state of DevOps use and strategy as well as pain points and challenges.
 
@@ -2130,9 +2129,9 @@ At this time, SimplyDirect is only used by our AMER Field Marketing team.
 
 #### Successful Usage
 
-Strategic success is contingent upon close alignment and communication between Marketing and Sales. Marketing will work collaboratively with Sales, Product Marketing and Campaign Managers to develop the survey. Best practice for the survey is 10 questions max. SDR’s will create a follow-up Outreach sequence to leverage when reaching out to those who’ve completed the survey.
+Strategic success is contingent upon close alignment and communication between Marketing and Sales. Marketing will work collaboratively with Sales, Product Marketing and Campaign Managers to develop the survey. Best practice for the survey is 10 questions max. SDR's will create a follow-up Outreach sequence to leverage when reaching out to those who've completed the survey.
 
-Once the survey is complete, SDR’s will leverage the individual results and work with their SAE to:
+Once the survey is complete, SDR's will leverage the individual results and work with their SAE to:
 
 - Identify points of interest in the survey pertaining to each individual response (i.e. pain points, number of tools, etc)
 - Create a strategy based on matching those issues with GitLab offerings

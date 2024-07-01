@@ -1,6 +1,6 @@
 ---
 title: "GitLab Professional Education Services"
-description: “Technical Learning and Certification from GitLab Professional Services”
+description: "Technical Learning and Certification from GitLab Professional Services"
 ---
 
 ## Professional Education Services Overview

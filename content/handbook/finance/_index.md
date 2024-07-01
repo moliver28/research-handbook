@@ -122,8 +122,8 @@ VAT-number of GitLab IT BV (NL860316828B01).
 
 ### Timesheets for Hourly Employees
 
-1. People Ops and Finance will share a private Google Sheet with you where you will log your hours for each day in the “hours” column.
-1. There is a dropdown in the “pay type” column, with the default being Regular. There are also options for Overtime, Vacation, Sick, and Bereavement. Choose the appropriate pay type for your time.
+1. People Ops and Finance will share a private Google Sheet with you where you will log your hours for each day in the "hours" column.
+1. There is a dropdown in the "pay type" column, with the default being Regular. There are also options for Overtime, Vacation, Sick, and Bereavement. Choose the appropriate pay type for your time.
 1. If you work overtime or more hours than agreed upon in your contract, please obtain approval from your manager and forward to Finance before payroll cutoff.
 1. Your timesheet is due one day prior to the submit payroll date, which is outlined for the calendar year on your timesheet.
 

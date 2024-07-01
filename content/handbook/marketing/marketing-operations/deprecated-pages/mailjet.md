@@ -1,5 +1,4 @@
 ---
-
 title: "Deprecated - MailJet"
 description: "MailJet is used for large scale transactional email sends"
 ---

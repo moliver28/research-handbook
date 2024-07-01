@@ -1,6 +1,4 @@
-
 ---
-
 title: "Tom McAtee's README"
 job: "Support Engineer"
 ---

@@ -207,8 +207,8 @@ In addition to the above when a change is being proposed to the UI the following
 
 **UI changes visible to internal GitLab users:**
 
-1. MR author cc’s PM & UX Designer on the MR but they are not reviewers or blockers of the merge
-1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author’s discretion
+1. MR author cc's PM & UX Designer on the MR but they are not reviewers or blockers of the merge
+1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author's discretion
 1. Eventually the PM & UX Designer will be reviewers on the internally visible UI updates but our process is not there yet nor is their capacity
 1. If you require help or guidance with the UX or copy please ask **before** implementation begins on the issue
 

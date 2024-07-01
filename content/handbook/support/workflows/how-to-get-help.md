@@ -12,7 +12,7 @@ When [working on tickets](/handbook/support/workflows/working-on-tickets), colla
 
 If you are stuck on a ticket, the following workflow seeks to help Support Engineers realize and utilize all of the resources available to progress a ticket to resolution. This workflow lists some common resources, you can lean on to get the help you need.
 
-**If you’re stuck on a ticket…..**
+**If you're stuck on a ticket…..**
 
 Identify what's causing you to get stuck. Some examples are:
 
@@ -95,7 +95,7 @@ NO! To drive this point home, here's what our Devs have to say about this:
 
   -- **Lesley Razzaghian**
 
-> _Most are happy to help anytime. My only suggestion is to search docs first. That’s really helpful for devs because we might link you to docs anyway. But then it’s also helpful to know “the docs didn’t address my question”. Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
+> _Most are happy to help anytime. My only suggestion is to search docs first. That's really helpful for devs because we might link you to docs anyway. But then it's also helpful to know "the docs didn't address my question". Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
 
   -- **Drew Blessing**
 
@@ -110,7 +110,7 @@ _Devs love a puzzle, so I'm always keen.[...]_
 
   -- **Charlie Ablett**
 
-> _If both Support and the Customer are confused about what the next steps are, at a minimum it’s an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
+> _If both Support and the Customer are confused about what the next steps are, at a minimum it's an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
 
   -- **Chad Woolley**
 

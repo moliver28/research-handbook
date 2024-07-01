@@ -87,7 +87,7 @@ While this provides clear and quantifiable [benefits]({{< ref "./mental-health" 
 
 All-remote can significantly impact the fabric of a family in the process of adoption or fostering. In such cases, it is often imperative that a family be available in the home in order to finalize the adoption of a child or welcome a foster child into one's home. Beyond all-remote work environments supporting more diverse and inclusive ways to start or build one's family, this creates more opportunity to aid the vulnerable and build a better future for all.
 
-> My wife and I experienced the beautiful and transformative journey of adoption because I worked for an employer that trusted me to excel from a place I needed to be to see it through. I’ve met countless GitLabbers who have never been happier, more fulfilled, or more engaged with their family and community, because they’re empowered to work remotely. - *[Darren M., Head of Remote](https://gitlab.com/dmurph)*
+> My wife and I experienced the beautiful and transformative journey of adoption because I worked for an employer that trusted me to excel from a place I needed to be to see it through. I've met countless GitLabbers who have never been happier, more fulfilled, or more engaged with their family and community, because they're empowered to work remotely. - *[Darren M., Head of Remote](https://gitlab.com/dmurph)*
 
 For more, consider reading GitLab's four-part blog series on working remotely with children of all ages.
 
@@ -128,9 +128,9 @@ All-remote is an ideal anecdote. Even as relocations occur, an all-remote team m
 
 At GitLab, several team members are US military spouses.
 
-Emilie S., a data engineer, provides tips for those embracing all-remote roles in a Doist blog post entitled "[6 People Who Prove You Don’t Have to Sacrifice Your Career to Work Remotely](https://doist.com/blog/remote-career-advice)."
+Emilie S., a data engineer, provides tips for those embracing all-remote roles in a Doist blog post entitled "[6 People Who Prove You Don't Have to Sacrifice Your Career to Work Remotely](https://doist.com/blog/remote-career-advice)."
 
-> Getting promoted while working remotely really depends on how remote your company is. GitLab is a fully remote organization with over 700 folks around the world, so getting promoted wasn’t difficult at all. In previous roles, I was the only person who worked remotely. In those cases, I felt very forgotten by my employer. - *[Emilie S., data engineer at GitLab](https://gitlab.com/emilie)*
+> Getting promoted while working remotely really depends on how remote your company is. GitLab is a fully remote organization with over 700 folks around the world, so getting promoted wasn't difficult at all. In previous roles, I was the only person who worked remotely. In those cases, I felt very forgotten by my employer. - *[Emilie S., data engineer at GitLab](https://gitlab.com/emilie)*
 
 Brittany R., Compensation & Benefits Manager, shares [advice for working parents in an all-remote setting](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four).
 
@@ -188,7 +188,7 @@ This creates tremendous [efficiency](/handbook/values/#efficiency), and can easi
 
 ### Adjustable working hours
 
-An added benefit to being a [manager of one]({{< ref "values#managers-of-one" >}}) and working in an environment that supports [asynchronous communication]({{< ref "./informal-communication" >}}) is the ability to shift one's working day to accomodate important life moments.
+An added benefit to being a [manager of one](/handbook/values/#managers-of-one) and working in an environment that supports [asynchronous communication]({{< ref "./informal-communication" >}}) is the ability to shift one's working day to accomodate important life moments.
 
 All-remote enables individuals to be available during daylight hours for activities such as volunteering, participating in school functions, and managing tasks that cannot be handled in off-hours (e.g. renewing a driver license, certain banking functions, etc.).
 
@@ -210,7 +210,7 @@ It's easier to create special moments for your family, visiting a desirable rest
 
 All-remote allows individuals to live close to friends and family should they choose. This is of particular significance to individuals who need or desire to act as a caregiver. For instance, those with aging parents may prefer to move nearby and assist with daily needs rather than considering placement in a care facility. This can have major emotional and financial benefits.
 
-As time passes, caregiving needs can change. Families may need to relocate to be closer to one family for a time, then relocate again as a different family member ages. All-remote allows individuals to carry their career with them, relieving caregivers of the burden of [choosing their job over family]({{< ref "values#family-and-friends-first-work-second" >}}).
+As time passes, caregiving needs can change. Families may need to relocate to be closer to one family for a time, then relocate again as a different family member ages. All-remote allows individuals to carry their career with them, relieving caregivers of the burden of [choosing their job over family](/handbook/values/#family-and-friends-first-work-second).
 
 Beyond the personal, communal, and societal benefits from empowering people to provide care to others who are important to them, all-remote employers should expect heightened loyalty and job satisfaction from caregiving team members.
 

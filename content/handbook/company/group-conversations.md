@@ -66,7 +66,7 @@ Complete this process within 7 days after the Key Review to host a Group Convers
 ```text
 The <team> group conversation is ready!
 
-Please see `${INSERT_LINK}` for the Group Conversation Issue, which includes links to the slide deck, what we’ve recently completed, and what we’re currently working on. Any questions for the team, related to the slides or not, are most welcome. I will be answering them in 3 working days.
+Please see `${INSERT_LINK}` for the Group Conversation Issue, which includes links to the slide deck, what we've recently completed, and what we're currently working on. Any questions for the team, related to the slides or not, are most welcome. I will be answering them in 3 working days.
 ```
 
 ### Presentation

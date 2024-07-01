@@ -9,7 +9,7 @@ We receive [feedback](/handbook/people-group/guidance-on-feedback/#feedback-at-g
 
 ## Purpose
 
-The purpose of the Security Operational Risk Management (“StORM”) program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy](/handbook/company/strategy). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST’s SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)) to ensure that security risks that may impact GitLab are effectively managed.
+The purpose of the Security Operational Risk Management ("StORM") program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy](/handbook/company/strategy). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST's SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)) to ensure that security risks that may impact GitLab are effectively managed.
 
 ## Scope
 
@@ -40,7 +40,7 @@ A risk governance structure has been put in place to outline the overall roles a
 
 #### How GitLab Determines Risk Appetite
 
-GitLab’s security risk appetite is determined based on the total average priority order determined by senior leadership on the following risk strategy statements:
+GitLab's security risk appetite is determined based on the total average priority order determined by senior leadership on the following risk strategy statements:
 
 - GitLab should seek solutions to transfer risks to others whenever possible (risk taking vs risk transfer)
 - GitLab should balance pursuing opportunities that align with organizational objectives against the associated risks (organizational objectives)
@@ -194,7 +194,7 @@ When choosing to remediate the risk, a specific path must be selected:
 - Remediate by sharing or transferring the risk with a third party
 - Remediate by avoiding the risk by deciding not to start or continue with the activity that gives rise to the risk
 
-Once a path is selected, the Risk Owner is required to provide a [SMART](https://en.wikipedia.org/wiki/SMART_criteria), detailed plan that includes milestones and due dates for working towards risk remediation. The treatment plan must be achievable and address the root cause of the risk event. Additionally and in alignment with our value of [Transparency](/handbook/values/#transparency), each treatment plan will include a step for documenting the results/outcome of the remediation within the Handbook. If the result of the remediation is considered [not public]({{< ref "values#not-public" >}}) and cannot be documented within the Handbook, it should be documented within our Internal Handbook or an internal runbook. The Security Risk Team will leverage these risk treatment plans to track the status of risk remediation.
+Once a path is selected, the Risk Owner is required to provide a [SMART](https://en.wikipedia.org/wiki/SMART_criteria), detailed plan that includes milestones and due dates for working towards risk remediation. The treatment plan must be achievable and address the root cause of the risk event. Additionally and in alignment with our value of [Transparency](/handbook/values/#transparency), each treatment plan will include a step for documenting the results/outcome of the remediation within the Handbook. If the result of the remediation is considered [not public](/handbook/values/#not-public) and cannot be documented within the Handbook, it should be documented within our Internal Handbook or an internal runbook. The Security Risk Team will leverage these risk treatment plans to track the status of risk remediation.
 
 If the risk treatment plan is executed and results in a downgrading of the residual risk level for the risk (ex. the residual risk level goes from High to Moderate), validation of the remediation will be performed and captured within the associated risk object in ZenGRC. Quality review of the downgrade support documentation will be completed by the Security Risk Manager and captured via comment in the GRC application.
 

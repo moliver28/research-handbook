@@ -206,6 +206,10 @@ A: You can read about our ESPP program [here](/handbook/total-rewards/stock-opti
 
 A: You won't need to action anything until day one! We are going to want you to review your `Welcome to GitLab Onboarding` email first and follow the instructions within that email to make sure that all your access is set up correctly. This will include creating your GitLab account, getting access to your GitLab email, and all other systems!
 
+**Q: I already have an existing personal GitLab username, can I use this for my account at GitLab?**
+
+A: Whilst this is possible, it is not a recommended option. If you ever choose to leave GitLab the account will be disabled and you will no longer have any access to it. We like to encourage new hires to create a new username as a mark that starts their career at GitLab :) If you would still like to use your personal GitLab username, please reach out to the IT Ops team on day one for them to link this to your GitLab account with the relevant permissions.
+
 ### GitLab Culture
 
 **Q: Any tips for working in a remote environment and keeping myself engaged and productive?**
@@ -218,4 +222,4 @@ A: We have many location slack channels here tht allows team members to schedule
 
 **Q: What is Family & Friend's Day?**
 
-A: In an ongoing pandemic with COVID-19 affecting many of our team members, we want to ensure that people are making their well-being a top priority and that we are living out our values, to emphasize this we will coordinate a monthly "Family and Friends Day". On this day, we will close the doors to the GitLab virtual office, reschedule all meetings, and have a publicly visible shutdown. You can read up more about it and view the schedule in our [Handbook](/handbook/company/family-and-friends-day/).
+A: Following on from the global pandemic affecting many of our team members, we want to ensure that people are making their well-being a top priority and that we are living out our values, to emphasize this we will coordinate a quarterly "Family and Friends Day". On this day, we will "close the doors" to the GitLab virtual office, reschedule all meetings, and have a publicly visible shutdown. You can read up more about it and view the schedule in our [Handbook](/handbook/company/family-and-friends-day/).

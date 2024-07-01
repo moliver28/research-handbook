@@ -214,7 +214,7 @@ Our milestone capacity tells us how many issue weights we can expect to complete
 - **Actual work days:** 105 days - 10 days off = 95 actual days
 - **Maximum capacity:** 95 days * 0,67 weights/day = 64 weights
 
-In this example, the next milestone’s capacity is 64 weights for the whole team. Keep in mind that neither estimations nor this calculation are an exact science. The capacity planning is supposed to help the EM and PM set realistic expectations around deliverables inside and outside time. We do not expect to hit the exact amount of predicted weights.
+In this example, the next milestone's capacity is 64 weights for the whole team. Keep in mind that neither estimations nor this calculation are an exact science. The capacity planning is supposed to help the EM and PM set realistic expectations around deliverables inside and outside time. We do not expect to hit the exact amount of predicted weights.
 
 #### Milestone Commitment
 

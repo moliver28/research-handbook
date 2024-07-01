@@ -1,5 +1,4 @@
 ---
-
 title: Mavenlink Processes
 category: Internal
 description: "Learn about the GitLab Professional Services operations processes and workflows."
@@ -199,11 +198,11 @@ Time off cancellation
 
 Overview
 
-With Mavenlink’s time approval functionality, members with Project Lead account permissions (or higher) can access the Time Approvals page where they can view and manage time for all projects in which they have Financials permissions (or higher).
+With Mavenlink's time approval functionality, members with Project Lead account permissions (or higher) can access the Time Approvals page where they can view and manage time for all projects in which they have Financials permissions (or higher).
 
 The Time Approvals page allows you to view Submitted, Unsubmitted, and Rejected time entries from tabs with the corresponding names. Depending on the state of the submission, you can view the timesheet, private message a user who submitted time, and either approve or reject the time entry. You can also directly message those who still need to submit time, reminding them to do so.
 
-If you have Report Viewer account permissions (or higher)—or have been designated as a Time Approver for an individual member or project—you’ll see the Your Approvals check box. You can select this checkbox to only see the time that you’re responsible for approving; otherwise, deselect it to review and take action on all submissions.
+If you have Report Viewer account permissions (or higher)—or have been designated as a Time Approver for an individual member or project—you'll see the Your Approvals check box. You can select this checkbox to only see the time that you're responsible for approving; otherwise, deselect it to review and take action on all submissions.
 
 Members that do not have account permission of Report Viewer (or higher) will only be able to approve time in the project's Activity Feed.
 

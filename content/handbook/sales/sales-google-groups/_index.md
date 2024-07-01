@@ -1,14 +1,7 @@
 ---
-
 title: "Communicating with the Field"
 description: "Guide to communicating with and within the GitLab Field team using both Slack and email"
 ---
-
-
-
-
-
-
 
 This page is meant to serve as a guide to communicating with and within the Field using both Slack and email. Read below to find an outline of all Google Groups and Slack channels related to Sales and Customer Success.
 
@@ -129,7 +122,7 @@ The recommendation is to use public channels even while it may sometimes feel un
 | ------ | ------ | ------ |
 | #customer-success | public | Used to interact with & within Customer Success |
 | #cs-questions | public | Questions from customers and prospects to the Customer Success team about using GitLab and best practices |
-| #demo-systems | public | Open discussion and questions about demo systems that aren’t appropriate for issues |
+| #demo-systems | public | Open discussion and questions about demo systems that aren't appropriate for issues |
 | #professional-services |  public | Used to [communicate with the Professional Services team](/handbook/customer-success/professional-services-engineering/working-with/#slack) |
 
 **Field Operations**

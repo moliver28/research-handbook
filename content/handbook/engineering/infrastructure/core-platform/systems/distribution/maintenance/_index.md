@@ -1,13 +1,6 @@
 ---
-
 title: "Distribution Team Infrastructure and Maintenance"
 ---
-
-
-
-
-
-
 
 ## Common links
 

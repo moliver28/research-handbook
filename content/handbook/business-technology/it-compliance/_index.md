@@ -1,5 +1,4 @@
 ---
-
 title: "IT Compliance"
 description: "IT Compliance works collaboratively with multiple functional teams throughout the GitLab organization to ensure compliannce with various requirements related to financial reporting and security."
 ---
@@ -59,7 +58,7 @@ The most common ITGCs:
 - System and data backup and recovery controls
 - Computer operation controls
 
-**GitLab’s IT Complaince Function will focus on the following for the next 3 months:**
+**GitLab's IT Complaince Function will focus on the following for the next 3 months:**
 
 - Continuing to mature our access and change management programs
 - System development life cycle controls

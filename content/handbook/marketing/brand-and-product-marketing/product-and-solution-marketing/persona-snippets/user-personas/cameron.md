@@ -1,13 +1,6 @@
 ---
-
 title: "Cameron Persona snippets"
 ---
-
-
-
-
-
-
 
 ## SDR persona snippets by use case
 

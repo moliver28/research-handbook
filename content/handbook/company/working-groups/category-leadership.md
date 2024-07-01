@@ -1,6 +1,6 @@
 ---
 title: "Category Leadership Working Group"
-description: "The business goal of GitLab category leadership initiative is to solidify GitLab's 'The DevOps Platform’ messaging"
+description: "The business goal of GitLab category leadership initiative is to solidify GitLab's 'The DevOps Platform' messaging"
 status: active
 ---
 
@@ -15,7 +15,7 @@ status: active
 
 ## Business Goal
 
-Solidify GitLab's 'The DevOps Platform’ messaging, including messaging for:
+Solidify GitLab's 'The DevOps Platform' messaging, including messaging for:
 
 1. One sentence
 1. One pager

@@ -1,14 +1,7 @@
 ---
-
 title: "Outreach"
 description: "Outreach is a sales engagement platform helps efficiently and effectively engage prospects to drive more pipeline and close more deals."
 ---
-
-
-
-
-
-
 
 ### About Outreach
 
@@ -160,7 +153,7 @@ XDRs need to choose a call disposition after calling a prospect to note the outc
 |`Correct Contact: IQM Set`| You were able to schedule an IQM while on the phone call. Note that a trigger exists in Outreach to automatically change lead status to `Qualifying` when this option is selected |
 |`Busy`|Get a busy tone when calling|
 |`Bad Number`|The phone number is not valid|
-|`Incorrect Contact: Answered`| The wrong person answered the phone number that you had for this contact and it is the wrong persons phone number (They were not a personal assistant). They didn’t take a message for the correct person or give helpful information|
+|`Incorrect Contact: Answered`| The wrong person answered the phone number that you had for this contact and it is the wrong persons phone number (They were not a personal assistant). They didn't take a message for the correct person or give helpful information|
 |`Incorrect Contact: Left Message`|The wrong person answered the phone and it is the wrong persons phone number (They were not a personal assistant). They took a message for the correct person/gave you the correct number for the contact|
 |`Incorrect Contact: Not Answered/Other`| You got through to the voicemail but the voicemail was for someone other than the person who you were trying to contact. Or the person was not listed in the company directory and you were calling the companies main number|
 |`Incorrect Contact: Answered: Gave Referral` | It was the wrong person but they gave a referral to speak to. Please record in notes who the referral is. |

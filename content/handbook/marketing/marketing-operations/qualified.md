@@ -1,5 +1,4 @@
 ---
-
 title: "Qualified"
 description: "Qualified facilitates instant sales conversations with visitors on the GitLab marketing website"
 ---
@@ -38,7 +37,7 @@ If you feel you have been routed a conversation or visitor in error please post 
 
 ### Signals
 
-Signals data is a collection of custom fields added to the Account object, reports, and dashboard components in Salesforce to showcase Signals data for your organization. The Signals Account 360 is a robust account profile that presents an account’s engagement with your campaigns and their likely purchase intent over time. Sales reps and executives alike can view the Signals Account 360 to identify which accounts and opportunities are most likely to close.
+Signals data is a collection of custom fields added to the Account object, reports, and dashboard components in Salesforce to showcase Signals data for your organization. The Signals Account 360 is a robust account profile that presents an account's engagement with your campaigns and their likely purchase intent over time. Sales reps and executives alike can view the Signals Account 360 to identify which accounts and opportunities are most likely to close.
 
 ### Integrations
 
@@ -54,7 +53,7 @@ The Qualified/Outreach integration allows Qualified to be able to identify if a 
 
 #### 6sense
 
-Qualified offers an integration with 6sense to help you pull in firmographic information about the website visitors from the start. Using 6sense’s reverse IP lookup, you can quickly see where the visitor is coming from, their company information, segments they belong to, and insights for their product lines.
+Qualified offers an integration with 6sense to help you pull in firmographic information about the website visitors from the start. Using 6sense's reverse IP lookup, you can quickly see where the visitor is coming from, their company information, segments they belong to, and insights for their product lines.
 
 #### Zoom
 

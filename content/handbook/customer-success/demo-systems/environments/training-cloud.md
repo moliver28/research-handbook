@@ -1,13 +1,6 @@
 ---
-
 title: "Training Cloud Omnibus-as-a-Service"
 ---
-
-
-
-
-
-
 
 ## Overview
 

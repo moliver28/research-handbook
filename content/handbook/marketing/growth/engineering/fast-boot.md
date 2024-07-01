@@ -1,14 +1,7 @@
 ---
-
 title: Growth Fast Boot September 2019
 description: "Growth groups met in September 2019 for a fast boot to discuss, plan, and begin implementing a Growth strategy at GitLab"
 ---
-
-
-
-
-
-
 
 The Acquisition, Expansion, Conversion and Retention groups took part in a [Fast Boot](/handbook/engineering/fast-boot/) in September 2019.  [The planning issue](https://gitlab.com/gitlab-org/growth/product/issues/1) contains the proposal for Fast Boot, and this page documents our discussions and outcomes.
 
@@ -37,9 +30,9 @@ The Acquisition, Expansion, Conversion and Retention groups took part in a [Fast
 * Development board labels/process - continue on & follow handbook
 * A/B testing process, artifacts, expectations
 * Each experiment will set confidence level - 95%-99%
-* Test summary written by data analyst in the issue (add a “a/b test complete” label for searching later)
+* Test summary written by data analyst in the issue (add a "a/b test complete" label for searching later)
 
-#### Expectations for working in another teams’ code base
+#### Expectations for working in another teams' code base
 
 * Emphasize that the point is to gather data, not ship production code
 * Challenge:  review process too slow.  Reviewers vs Maintainers.  Only a small number of maintainers.
@@ -54,13 +47,13 @@ Fulfillment owns underlying billing, licensing, and transactional system, as wel
 * Expansion owns the Current customer seat expansion + current customer upgrade ARR growth KPI + the upgrade flow & true-up flow
 * Retention owns the Gross Retention KPI + renewal flow
 
-Growth PM’s will own issues for key flows; engineering leaders will help assign work
+Growth PM's will own issues for key flows; engineering leaders will help assign work
 
-Long Term:  the vision is for the fulfillment team to own the billing and licensing platform, with a set of API’s and SLA’s, so the growth teams can build and curate user experiences on top of them to drive great customer experiences (and resulting KPI’s).
+Long Term:  the vision is for the fulfillment team to own the billing and licensing platform, with a set of API's and SLA's, so the growth teams can build and curate user experiences on top of them to drive great customer experiences (and resulting KPI's).
 
 ### Deep Dives
 
-Teardown/journey map existing flow. Leverage demos, videos, screenshots. Ask “experts” to join remotely to demo and share their pain points/opportunities. Session to be led by the product manager.
+Teardown/journey map existing flow. Leverage demos, videos, screenshots. Ask "experts" to join remotely to demo and share their pain points/opportunities. Session to be led by the product manager.
 
 #### Acquisition Overview
 
@@ -92,7 +85,7 @@ Discussion led by Tim Hey, PM for Expansion. Topics covered:
 * Mission
 * KPIs & Supporting Performance Indicators
 * Customer facing opportunities
-  * User Orientation - Users don’t know where to start
+  * User Orientation - Users don't know where to start
   * Increase platform confidence and trust - I love my tools and am afraid to switch
 * Internal opportunities
   * Self-Managed usage for upsell process and user workflow
@@ -164,7 +157,7 @@ At this time the individual Growth teams split into their groups to create and w
 
 ## Fast Boot Outcomes
 
-### Implemented new team names, KPI’s and objectives
+### Implemented new team names, KPI's and objectives
 
 * [Rename Growth Groups](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29704)
 * [Updating growth KPIs on KPI index page](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29726)

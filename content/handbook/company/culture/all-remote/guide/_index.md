@@ -83,7 +83,7 @@ Borrowing format from The Joel Test, this [12 question test]({{< ref "the-gitlab
 
 ## Remote work emergency plan: What to do (and where to start)
 
-Due to global issues concerning COVID-19 (Coronavirus), many employees and employers are facing a new reality: they're remote, and they’re unsure of when they’ll be able to return to the office.
+Due to global issues concerning COVID-19 (Coronavirus), many employees and employers are facing a new reality: they're remote, and they're unsure of when they'll be able to return to the office.
 
 For leaders who are suddenly managing work-from-home teams, here are [five things you can focus on right now]({{< ref "remote-work-emergency-plan" >}}) to maximize stability.
 

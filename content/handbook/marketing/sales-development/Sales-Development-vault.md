@@ -1,5 +1,4 @@
 ---
-
 title: Sales Development Knowledge Vault
 description: Information and knowledge that can help to improve your skills. Includes managerial-level processes, manager or team member onboarding, and tool walkthroughs.
 
@@ -21,8 +20,8 @@ To be effective, these need to be customized to the individuals we call as per t
 
 - Different Geographical Business Cultures
 - Personality Type as per the DISC model
-- Individual’s Role and Responsibilities
-- Business’ Needs and Objectives
+- Individual's Role and Responsibilities
+- Business' Needs and Objectives
 
 ### Call Scripts
 
@@ -32,7 +31,7 @@ The main documentation may be [found here](https://docs.google.com/document/d/1D
 
 ### Up-Front Contract
 
-Typically used for scheduled calls and Up-Front Contracts. UFCs can also be used as a defense mechanism when cold calling does not go as planned. For cold-calling, UFCs are used when the prospect can commit to 15’ at the time of the call. If they commit to a 15’ for a later time, UFCs are used to open the call and set the agenda then.
+Typically used for scheduled calls and Up-Front Contracts. UFCs can also be used as a defense mechanism when cold calling does not go as planned. For cold-calling, UFCs are used when the prospect can commit to 15' at the time of the call. If they commit to a 15' for a later time, UFCs are used to open the call and set the agenda then.
 
 Explore the main documentation [here](https://docs.google.com/document/d/1Y7qEq8g3eHh5-oagERGvNmatiOV3JXi9Tw46SKWwpNM/edit).
 
@@ -49,21 +48,21 @@ The questions below are suggestions to be used while doing a discovery call, in 
 
 The table below shows the Command of the Message Email Writing Checklist.
 
-It aims to outline the structure of the emails we write to prospects. Emails should be written in each person’s language and tone and make sure to include the CoM frameworks as per the outline below. You can find additional resources [here.](https://docs.google.com/document/d/1-DF6bEtS9QF9idqBcK77RiLL04CKiFMuc0LDEM5N6RA/edit)
+It aims to outline the structure of the emails we write to prospects. Emails should be written in each person's language and tone and make sure to include the CoM frameworks as per the outline below. You can find additional resources [here.](https://docs.google.com/document/d/1-DF6bEtS9QF9idqBcK77RiLL04CKiFMuc0LDEM5N6RA/edit)
 
 | Subject Line              |                                                   |
 |---------------------------|---------------------------------------------------|
-| Personalized              | - Use Prospect’s name, Company name, or colleague’s name. - Relate to their situation: Use recent company initiatives, technologies they use, Projects they have planned etc. |
+| Personalized              | - Use Prospect's name, Company name, or colleague's name. - Relate to their situation: Use recent company initiatives, technologies they use, Projects they have planned etc. |
 | Curiosity and Urgency     | - Provide an image of their future situation: Guide the reader to imagine how their situation could change. - Use compelling events to give a clear image of where they are currently. |
 | CoM                       | - Proof Points: Quote Case Studies or other customers. - How We Do it Better: Make use of our defensible differentiators. |
 | Opening Line              |                                                   |
-| Avoid cliches             | - Stand out: Avoid losing email real-estate with cliche phrases like “just following up” or “hope all is well”. - Brand yourself: Demonstrate that you have an understanding of the reader’s current situation and a clear idea of his required solutions. |
-| CoM                       | - Before Scenarios: Paint a clear image of their current situation and how that is causing them professional or personal pain. - After Scenarios/PBOs: Tie the current situation with a clear image of a future situation that’s beneficial for the business and the individual. |
+| Avoid cliches             | - Stand out: Avoid losing email real-estate with cliche phrases like "just following up" or "hope all is well". - Brand yourself: Demonstrate that you have an understanding of the reader's current situation and a clear idea of his required solutions. |
+| CoM                       | - Before Scenarios: Paint a clear image of their current situation and how that is causing them professional or personal pain. - After Scenarios/PBOs: Tie the current situation with a clear image of a future situation that's beneficial for the business and the individual. |
 | Main Body                 |                                                   |
-| Addressing Questions and Information provided | - No Free Consulting: Answer questions just enough to give a narrative to your email and tie into the CTA. - No Transactional Answers: Don’t make the reader feel like he’s interacting with an online form, a robot, or a sleazy salesman that doesn’t care. |
+| Addressing Questions and Information provided | - No Free Consulting: Answer questions just enough to give a narrative to your email and tie into the CTA. - No Transactional Answers: Don't make the reader feel like he's interacting with an online form, a robot, or a sleazy salesman that doesn't care. |
 | CoM                       | - Discovery Questions: determine which discovery questions tie into their current situation, questions asked or information provided. - Trap-Setting Questions: if competitor technology or objections come up, use trap-setting questions to guide the reader into understanding our differentiators. |
 | CTA                       |                                                   |
-| Clear Next Step, Agenda and benefit | - Valuable: phrase your CTA in a way that’s clearly valuable to the reader and his specific situation. - Defined: outline what will happen in the next step and how long will it take |
+| Clear Next Step, Agenda and benefit | - Valuable: phrase your CTA in a way that's clearly valuable to the reader and his specific situation. - Defined: outline what will happen in the next step and how long will it take |
 | CoM                       | - Measurable: present metrics or PBOs that will be covered in the next step |
 
 Additionally, you can use the matrix below as a quick-cheet to determine what datapoints can be used for personalization.
@@ -71,9 +70,9 @@ Additionally, you can use the matrix below as a quick-cheet to determine what da
 | Location               | Information                                                                                                         |
 |------------------------|---------------------------------------------------------------------------------------------------------------------|
 | LinkedIn               | - Have they recently been promoted? - What are the specific responsibilities stated on their page you are trying to help them with? |
-| Company strategy from website | - What are the company’s strategic initiatives? (become more agile?, improve internal business systems?, focus on speed to market on delivery? Streamlining expenditure?) |
+| Company strategy from website | - What are the company's strategic initiatives? (become more agile?, improve internal business systems?, focus on speed to market on delivery? Streamlining expenditure?) |
 | Google search name of contact | - Do they have any blogs? - Have they featured in any articles? - Have they any personal achievements celebrated? - Do they have any side projects? |
-| Keyword search company | - “COMPANY” AND (“Agile” OR “digital transformation” OR “DevOps” OR “business process improvement” OR “Cloud” OR “digital strategy”) |
+| Keyword search company | - "COMPANY" AND ("Agile" OR "digital transformation" OR "DevOps" OR "business process improvement" OR "Cloud" OR "digital strategy") |
 | Leadership Focus       | - Find articles of leadership through boolean searches and ask propose how we can help them achieve these goals |
 | Company News           | - Celebrate company achievements                                                                                   |
 | Check support tickets  | - Are they experiencing issues that upgrading deployment options could help resolve?                               |
@@ -87,14 +86,14 @@ Additionally, you can use the matrix below as a quick-cheet to determine what da
 
 One of our Values is being handbook first.
 
-In order to align the SDR organization more closely to this ideal, below are suggested steps. Please remember that the Handbook is a living document, and you are strongly encouraged to make improvements and add changes. This is ESPECIALLY true when it comes to net new solutions that should be shared so the whole organization has access to that process. (aka The DevOps ideal of turning “Localized Discoveries” into “Global Knowledge”.)
+In order to align the SDR organization more closely to this ideal, below are suggested steps. Please remember that the Handbook is a living document, and you are strongly encouraged to make improvements and add changes. This is ESPECIALLY true when it comes to net new solutions that should be shared so the whole organization has access to that process. (aka The DevOps ideal of turning "Localized Discoveries" into "Global Knowledge".)
 
 Steps:
 
 - Have a change you want to make to the handbook? Great!
 - Navigate to the source code of the page in the handbook (e.g. Link to edit the SDR page in the Handbook )
-- Click either “Edit” or “Web IDE” to make your changes.
-- Have a brief but descriptive “Commit message” (e.g. “Add new section on ‘How to Make Changes to the Handbook’”) and commit your changes
+- Click either "Edit" or "Web IDE" to make your changes.
+- Have a brief but descriptive "Commit message" (e.g. "Add new section on 'How to Make Changes to the Handbook'") and commit your changes
 - Fill out the Merge Request details
 
 ## Automatic Enrollment to Sequences
@@ -120,7 +119,7 @@ When a territory moves from one BDR to another but the previous BDR remains with
 - The outgoing BDR will be allowed to hold back for 30 days any account with which they can demonstrate two-way engagement that could potentially lead to an IQM and new opportunity. If, after 30 days, no IQM has been set and no stage 0 opportunity exists, the account will be moved by the manager to the new BDR assigned to the territory. If the outgoing BDR is successful in generating a new opportunity, the account will remain with them until the opportunity is either qualified or unqualified.
 - The outgoing BDR will be allowed to hold back for 30 days any account with which there is an existing stage 0 opportunity where they are listed as the BDR. After 30 days if the opportunity is not qualified, the account will be moved by the manager to the new BDR assigned to the territory.
 - In instances where an account has been reassigned to the new BDR and the outgoing BDR had two-way engagement more than 30 days ago with the account but was unable to convert them to an SAO, and the account later returns unprompted and with no prior activity from the new BDR assigned to the territory and wants to pursue a conversation with sales, the team (manager) will receive SAO credit from any resulting opportunity.
-- Any other situations that arise which result in a credit dispute will be investigated and resolved by the BDRs’ leader and senior leader.
+- Any other situations that arise which result in a credit dispute will be investigated and resolved by the BDRs' leader and senior leader.
 
 ## Working with Resellers
 
@@ -130,8 +129,8 @@ The end-user account determines the BDR/SDR alignment: If you are the SDR assign
 |------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Gather billing and end-user details from the reseller | - Billing company name/address: <br> - Billing company contact/email address: <br> - End-user company name/address: <br> - End-user contact/email address: <br> - Snippet in outreach |
 | Create a new lead record with end-user details | - Ensure that all notes are copied over to the new LEAD as this is the LEAD that will be converted.                                                                     |
-| Converting the new lead                        | - Name opp to reflect reseller involvement as shown here: “End-user account name via reseller account name” <br> - Convert original reseller lead to a contact associated with the reseller account <br> - If an account does not already exist for the reseller, create one when converting the lead to a contact <br> - Assign the record to the same account owner <br> - Do NOT create a new opportunity with this lead. |
-| Attach activity to the opportunity            | - On the reseller contact, go to the activity and link each activity related to your opportunity to the opp. <br> - Activity History > click edit to the left of the activity > choose ‘opportunity’ from the ‘related to’ dropdown > find the new opportunity > save |
+| Converting the new lead                        | - Name opp to reflect reseller involvement as shown here: "End-user account name via reseller account name" <br> - Convert original reseller lead to a contact associated with the reseller account <br> - If an account does not already exist for the reseller, create one when converting the lead to a contact <br> - Assign the record to the same account owner <br> - Do NOT create a new opportunity with this lead. |
+| Attach activity to the opportunity            | - On the reseller contact, go to the activity and link each activity related to your opportunity to the opp. <br> - Activity History > click edit to the left of the activity > choose 'opportunity' from the 'related to' dropdown > find the new opportunity > save |
 | Update the opportunity                         | - Change the business type to new business and stage to pending acceptance. <br> - Under contacts, add the reseller contact, role as reseller, and primary contact. <br> - Under partners, add the reseller account as VAR/Reseller |
 
 ## SDR/BDR to AE SAO Handoff Process
@@ -161,11 +160,11 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 
 - Summarize CoM principles uncovered during the call
 - Schedule next step through Outreach while being on the call with the prospect
-  - Meeting Type should be 45’ Evaluation Orchestration Call and body of invitation should be adjusted to meet the prospect’s needs.
+  - Meeting Type should be 45' Evaluation Orchestration Call and body of invitation should be adjusted to meet the prospect's needs.
 - Send AE Intro Email
   - For demanding hand-offs, customer-facing agenda may also be copied and attached to intro email.
 - Log Required SFDC fields and populate Notes field.
-- Unless there’s a scheduling conflict for the BDR, attend Evaluation Orchestration Call and kick-off the call:
+- Unless there's a scheduling conflict for the BDR, attend Evaluation Orchestration Call and kick-off the call:
   - Summarize the BDR qualifying conversation by mentioning and verifying the before and after scenario of the prospect, as transcribed on the SAO notes.
   - After prospect acknowledges that their internal situation have not changes inbetween BDR and AE call, recap the expectations and metrics as transcribed on the SAO notes and handoff to AE to move forward.
 
@@ -178,7 +177,7 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 **BDR steps before discovery call**
 
 - Schedule next step through Outreach while being on the call with the prospect, and schedule straight to the AEs calendar.
-  - Meeting Type should be 15’ Discovery Call.
+  - Meeting Type should be 15' Discovery Call.
 - Create SFDC opportunity, and log any pre-determined or relevant information from your past reseearch.
 - Communicate with AE, and create a mutual command plan for the call.
   - When kicking off the call, summarize the BDR research and reason for reaching out, such compelling events, Persons with LIM, etc
@@ -196,12 +195,12 @@ Organizing a shared demo makes it more simple for us to offer spontaneously a de
 | BDR is involved only                                                       | When a lead with decision power or significant influence in the org (no individual contributor) expresses a high interest for GitLab (aka: high read/open rates on an email, response received by phone with interest confirmed) AND when the BDR has a tangible reason to think that there is a need in the division/team/company (research, information obtained through other leads in the same org), the BDR can leverage the shared demo for HOT leads to create interest or a sense of urgency, the goal being to have the lead jump on an introductory meeting after the shared demo. |
 | **Define the criteria for different groups of attendees who can join this demo**                                                                                                                                                                    |                                                                                                                                                                                                                                                    |
 | Attendees coming from a BDR conversation                                    | In order to attend a demo, this attendee needs to be part of an opportunity in at least stage 1- Discovery.                                                                                                                                                                                                     |
-| Attendees coming from the AE’s conversations                               | The AE can leverage this shared demo to invite his own contacts.                                                                                                                                                                                                                                                  |
+| Attendees coming from the AE's conversations                               | The AE can leverage this shared demo to invite his own contacts.                                                                                                                                                                                                                                                  |
 | **Step-by-step guide to plan a demo**                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                    |
-| 1. Get a Zoom Webinars license                                              | You don’t have a Webinar licence by default, so you need to open an access request issue on GitLab to ask for one.                                                                                                                                                                                            |
+| 1. Get a Zoom Webinars license                                              | You don't have a Webinar licence by default, so you need to open an access request issue on GitLab to ask for one.                                                                                                                                                                                            |
 | 2. Go on Zoom SSO > Webinars (on the left under Meetings) > Schedule a webinar | You will be able to save the entire configuration of the webinar as a template, in order not to set it up again.                                                                                                                                                                                               |
 | 3. Change the topic, description, date/time, and duration                   | Change the topic (this will be the title of your demo, and the name of the event on Google Calendar), the description (describes the content of the demo, the idea is to adapt the focus of the demo depending on your attendees), set the date/time of the demo, and the duration (note that setting a certain duration will not stop the zoom webinar once the time has gone). |
-| 4. Tick the box ‘Required’ next to registration                             |                                                                                                                                                                                                                                                    |
+| 4. Tick the box 'Required' next to registration                             |                                                                                                                                                                                                                                                    |
 | 5. Change the Dial country to match attendees' language                      |                                                                                                                                                                                                                                                    |
 | 6. Configure additional settings such as Q&A, recording, and email settings |                                                                                                                                                                                                                                                    |
 | 7. Save the configuration as a template for future use                       |                                                                                                                                                                                                                                                    |
@@ -293,7 +292,7 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | Sales Serve               | A sales method where a quota bearing member of the sales team closes the deal                                                                                                |
 | SAO                       | Sales Accepted Opportunity - an opportunity Sales agrees to pursue following an Initial Qualifying Meeting                                                                  |
 | SDR                       | Sales Development Representative - focused on inbound                                                                                                                        |
-| Self Serve                | A sales method where a customer purchases online through our web store. Also known as a “web direct”                                                                        |
+| Self Serve                | A sales method where a customer purchases online through our web store. Also known as a "web direct"                                                                        |
 | SEUR                      | Southern Europe Region                                                                                                                                                      |
 | SLA                       | Service Level Agreement                                                                                                                                                     |
 | SQO                       | Sales Qualified Opportunity                                                                                                                                                 |
@@ -313,11 +312,10 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | Actively Working Status   | Accounts chosen for strategic outreach based on alignment, news, initiatives, etc. Recycles after 10 weeks if not worked.                                                    |
 | Actively Working Status Requirements | BDR Account Strategy field must be populated. Research and Next Steps notes within 10 days. Minimum 5 people in sequences.                                               |
 | Queued status             | Accounts waiting to be moved into Actively Working. SDRs work MQLs in this status.                                                                                          |
-| Worked in FY status       | Indicates an account went through “Actively Working” this FY. Can be moved back to “Actively Working” later.                                                               |
+| Worked in FY status       | Indicates an account went through "Actively Working" this FY. Can be moved back to "Actively Working" later.                                                               |
 | Restricted status          | SAE-indicated restriction on the account. BDRs handle the status change, note the reason, and reroute to assigned BDR.                                                      |
 
 ---
-
 title: Sales Development Tools and Manager Resources
 description: This page walks you through all the tools we use in the Sales Dev org.
 
@@ -596,8 +594,8 @@ On your new hire's first day, the assigned People Connect Team member will [sche
 
 #### Prior to Day 1
 
-- Complete ‘Manager’ tasks on the onboarding issue *Note: there are tasks to complete prior to your new hire starting
-- Schedule a welcome call at the start of your new hire’s first day to discuss:
+- Complete 'Manager' tasks on the onboarding issue *Note: there are tasks to complete prior to your new hire starting
+- Schedule a welcome call at the start of your new hire's first day to discuss:
   - Main focus should be completing as much of your onboarding as possible.
   - When you have available time feel free to move ahead as some onboarding task lists for the day won't take you all day.
   - How to manage meeting invites in your inbox (there are a ton!)
@@ -606,7 +604,7 @@ On your new hire's first day, the assigned People Connect Team member will [sche
 
 #### After new hire has started
 
-- Complete remaining ‘Manager’ tasks on the onboarding issue
+- Complete remaining 'Manager' tasks on the onboarding issue
 - Set up [1:1s](/handbook/leadership/1-1/)
 
 ## Career Mobility Issues
@@ -639,7 +637,7 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 ### Manager Offboarding Checklist
 
-- The people team will create an [offboarding issue](/handbook/people-group/offboarding/#offboarding), complete all ‘Manager’ tasks on the issue. If you have any questions use the #managers #people-connect slack channels. You can also reach out to the assigned people ops team member on the issue.
+- The people team will create an [offboarding issue](/handbook/people-group/offboarding/#offboarding), complete all 'Manager' tasks on the issue. If you have any questions use the #managers #people-connect slack channels. You can also reach out to the assigned people ops team member on the issue.
 
 ### Sales Dev Handover Issue
 

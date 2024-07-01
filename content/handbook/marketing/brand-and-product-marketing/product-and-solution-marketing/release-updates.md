@@ -1,13 +1,6 @@
 ---
-
 title: "Product Release Updates"
 ---
-
-
-
-
-
-
 
 ## Current updates
 
@@ -202,7 +195,7 @@ The GitLab 12.0 launch included a livestreamed program: [11.0 to 12.0: How we go
 
 > GitLab 12.0 marks a key step in our journey to create an inclusive approach to DevSecOps, empowering 'everyone to contribute'.
 >
-> We believe everyone can contribute, and we’ve enabled cross-team collaboration, faster delivery of great code, and bringing together Dev, Ops, and Security.
+> We believe everyone can contribute, and we've enabled cross-team collaboration, faster delivery of great code, and bringing together Dev, Ops, and Security.
 
 Read more in the 12.0 release blog post: [GitLab 12.0 released with Visual Reviews and Dependency List](https://about.gitlab.com/releases/2019/06/22/gitlab-12-0-released/).
 

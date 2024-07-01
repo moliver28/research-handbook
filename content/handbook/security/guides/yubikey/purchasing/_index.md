@@ -44,9 +44,9 @@ All team members in the **Engineering**, **Product**, and **Security** divisions
 
 Team members in the **CEO**, **Finance**, **Legal**, **Marketing**, **People**, or **Sales** divisions are **required to use MacBook Touch ID** (instead of a YubiKey) since the majority of applications used by these divisions are accessed through Okta where we have stronger device assurance policies. Any team member in these division can opt-in to use a YubiKey (no questions asked).
 
-We originally wanted to deploy YubiKeys to the entire company, however we have a physical constraint since a YubiKey will occupy a USB-C port and most team members in these divisions have a 13” MacBook that only has 2 ports that are usually occupied for monitor and power cords.
+We originally wanted to deploy YubiKeys to the entire company, however we have a physical constraint since a YubiKey will occupy a USB-C port and most team members in these divisions have a 13" MacBook that only has 2 ports that are usually occupied for monitor and power cords.
 
-We shifted our focus to team members with 14”/16” MacBook Pros with 3 ports + magsafe power. The Engineering, Product, and Security divisions access a wide range of applications, infrastructure, and backend systems that are not in Okta, so that is where we are focusing our efforts.
+We shifted our focus to team members with 14"/16" MacBook Pros with 3 ports + magsafe power. The Engineering, Product, and Security divisions access a wide range of applications, infrastructure, and backend systems that are not in Okta, so that is where we are focusing our efforts.
 
 <img src="/handbook/security/guides/yubikey/images/yubikey-mac-13.jpg" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
@@ -66,12 +66,12 @@ Please ask in `#it_help` for assistance.
 
 #### YubiKey 5C Nano FIPS
 
-A [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/) ("Nano") key has a small form factor that is designed to be permanently plugged into a USB-C port and doesn’t have a risk of falling out or breaking off.
+A [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/) ("Nano") key has a small form factor that is designed to be permanently plugged into a USB-C port and doesn't have a risk of falling out or breaking off.
 
 - Recommended as primary key (set it and forget it)
 - Can be inserted in the laptop and left there for easy touch at any time (they practically disappear).
 - It does not have the risk of breaking off or getting in your way as you move around with your laptop.
-- Not recommended if you need to remove the key frequently since it’s hard to grip and easy to lose.
+- Not recommended if you need to remove the key frequently since it's hard to grip and easy to lose.
 
 <img src="/handbook/security/guides/yubikey/images/yubikey-nano-port.jpg" alt="YubiKey Nano Port" style="border: 1px #888 solid; padding: 3px;" /><br />
 
@@ -81,7 +81,7 @@ A [YubiKey 5C NFC FIPS](https://www.yubico.com/product/yubikey-5c-nfc-fips/) ("N
 
 A near field communication ("NFC") key looks like a USB thumb drive and has the ability to wirelessly act as an authenticator on mobile devices by holding the key up to the phone (for iPhone it is near the top by the camera) without needing to have a key plugged in.
 
-This simply provides versatility. Since the authenticator is registered on the server side, you can use it by plugging it into your laptop, into the USB-C port of your iPad or tablet, or using NFC wireless technology on an iPhone with a lightning port (that doesn’t have USB-C).
+This simply provides versatility. Since the authenticator is registered on the server side, you can use it by plugging it into your laptop, into the USB-C port of your iPad or tablet, or using NFC wireless technology on an iPhone with a lightning port (that doesn't have USB-C).
 
 **We expect to continue using FaceID and will not enforce YubiKey on phones since we have a limited number of allowed mobile applications that do not include any applications with sensitive access or data. In other words, using a YubiKey for phone application 2FA is optional and is a personal preference.**
 
@@ -110,7 +110,7 @@ The only use case for USB-A is if you have USB-A ports on the side or bottom of 
 
 You will not notice any difference as a user.
 
-A FIPS key will have `FIPS` printed on the key next to the serial number. You may need to turn the key over to see it if it’s in your USB port.
+A FIPS key will have `FIPS` printed on the key next to the serial number. You may need to turn the key over to see it if it's in your USB port.
 
 To avoid a commingled mix of keys and protocols in our fleet, we have standardized on the YubiKey 5 FIPS models for future proofing as part of our Results for Customers value.
 
@@ -118,7 +118,7 @@ To avoid a commingled mix of keys and protocols in our fleet, we have standardiz
 
 **Replacing Old Keys:** We are replacing keys for any team members that have a non-FIPS YubiKey.
 
-**Technical Research:** The Federal Information Processing Standard (“FIPS”) [140-2](https://csrc.nist.gov/pubs/fips/140-2/upd2/final#:~:text=This%20Federal%20Information%20Processing%20Standard,of%20potential%20applications%20and%20environments) specifies the security requirements that will be satisfied by a cryptographic module, providing four increasing, qualitative levels intended to cover a wide range of potential applications and environments. This validation enables government agencies and regulated industries to meet the highest authenticator assurance level 3 (AAL3) requirements from the new [NIST SP800-63B](https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final) guidance.
+**Technical Research:** The Federal Information Processing Standard ("FIPS") [140-2](https://csrc.nist.gov/pubs/fips/140-2/upd2/final#:~:text=This%20Federal%20Information%20Processing%20Standard,of%20potential%20applications%20and%20environments) specifies the security requirements that will be satisfied by a cryptographic module, providing four increasing, qualitative levels intended to cover a wide range of potential applications and environments. This validation enables government agencies and regulated industries to meet the highest authenticator assurance level 3 (AAL3) requirements from the new [NIST SP800-63B](https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final) guidance.
 
 You can learn more on the [Yubico website](https://www.yubico.com/products/yubikey-fips).
 

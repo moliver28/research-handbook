@@ -38,11 +38,11 @@ Comfort working in a high-growth, constantly changing environment.
 Experience handling sensitive and confidential financial material in a public company
 Ability to work collaboratively and efficiently with stakeholders throughout the organization
 Experience interacting with the Board and C-Suite with ease and confidence
-Concise and effective written and verbal communication.  
+Concise and effective written and verbal communication.
 Ability to work independently and deliver results autonomously when needed, while also able to inspire collaborative solutions and achieve results through others
 Problem solver, analytical and organized thinker
 [Short toes](/handbook/values/#short-toes) and an aptitude for working well with a wide range of people.
-“Calm under fire” demeanor
+"Calm under fire" demeanor
 Willingness to take on new challenges has led to opportunities for increased scope overtime
 
 ## Performance Indicators

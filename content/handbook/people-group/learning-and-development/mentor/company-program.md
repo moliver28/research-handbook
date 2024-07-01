@@ -167,4 +167,4 @@ What mentors and mentees learned from the program:
 1. `Learned more about the intersection of XDR and sales teams.`
 1. `See every question or feedback as an opportunity to learn and grow.`
 1. `How engineers can help non-engineers be successful in the company.`
-1. `We don’t know everything. Don’t be afraid to say I don’t know.`
+1. `We don't know everything. Don't be afraid to say I don't know.`

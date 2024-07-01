@@ -1,9 +1,7 @@
 ---
-
 title: "Demo Architect Offerings"
 description: "This guide will outline all of the offerings from the Demo Architect team"
 ---
-
 
 ## Demo Architect Offerings
 

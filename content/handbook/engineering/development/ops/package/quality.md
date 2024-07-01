@@ -1,13 +1,6 @@
 ---
-
 title: Package Group - GitLab Quality Assurance End-to-End Testing for the Package group
 ---
-
-
-
-
-
-
 
 ## Overview
 

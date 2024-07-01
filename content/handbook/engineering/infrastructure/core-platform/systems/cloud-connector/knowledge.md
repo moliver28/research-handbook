@@ -3,12 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/systems/cloud-connec
 title: Application Performance Group - Knowledge Sharing
 ---
 
-
-
-
-
-
-
 ## Knowledge Sharing
 
 Early in the days of the Application Performance group's formation we started an [issue](https://gitlab.com/gitlab-org/memory-team/team-tasks/-/issues/13) to share memory domain articles, books and resources within our group and GitLab.  We are moving some of these resources to a shared handbook page.  We aim to update this frequently.
@@ -35,7 +29,7 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 ### Articles
 
 - [42 performance tips for Ruby on Rails - Magnus Skog](https://www.mskog.com/posts/42-performance-tips-for-ruby-on-rails/)
-- [Cables vs. malloc_trim, or yet another Ruby memory usage benchmark — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/cables-vs-malloc_trim-or-yet-another-ruby-memory-usage-benchmark)
+- [Cables vs. malloc_trim, or yet another Ruby memory usage benchmark — Martian Chronicles, Evil Martians' team blog](https://evilmartians.com/chronicles/cables-vs-malloc_trim-or-yet-another-ruby-memory-usage-benchmark)
 - [Chapter 19: Threads - Ruby Hacking Guide](https://ruby-hacking-guide.github.io/thread.html)
 - [CRuby Memory Slots: See Them, Tweak Them, Make Them Fast — Appfolio Engineering](http://engineering.appfolio.com/appfolio-engineering/2018/1/2/how-ruby-uses-memory)
 - [Debugging memory leaks in Ruby](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby)
@@ -48,7 +42,7 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 - [Optimization Techniques by Benchmark Winners — Juanito Fatas](https://juanitofatas.com/optimization_techniques_by_benchmark_winners)
 - [Optimizing Rails for Memory Usage Part 2: Tuning the GC - Collective Idea](https://collectiveidea.com/blog/archives/2015/02/19/optimizing-rails-for-memory-usage-part-2-tuning-the-gc)
 - [Prometheus Counters and how to deal with them – INNOQ](https://www.innoq.com/en/blog/prometheus-counters/)
-- [Rails profiling story, or how I caught Faker trying to teach my app Australian Slang — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/rails-profiling-story-or-how-i-caught-faker-trying-to-teach-my-app-australian-slang)
+- [Rails profiling story, or how I caught Faker trying to teach my app Australian Slang — Martian Chronicles, Evil Martians' team blog](https://evilmartians.com/chronicles/rails-profiling-story-or-how-i-caught-faker-trying-to-teach-my-app-australian-slang)
 - [Ruby 2.7 and the Compacting Garbage Collector — Appfolio Engineering](http://engineering.appfolio.com/appfolio-engineering/2019/3/22/ruby-27-and-the-compacting-garbage-collector)
 - [Ruby 2.x source code learning: memory management &amp; GC](https://programmer.help/blogs/ruby-2.x-source-code-learning-memory-management-amp-gc.html)
 - [Ruby Concurrency and Parallelism in Multithreaded Apps: A Tutorial - Toptal](https://www.toptal.com/ruby/ruby-concurrency-and-parallelism-a-practical-primer)

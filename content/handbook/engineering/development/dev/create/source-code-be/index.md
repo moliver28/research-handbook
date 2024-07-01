@@ -102,6 +102,10 @@ As a team we strive to be responsive and accommodating when we communicate. When
 | ✅    | Task is complete                                                                                                    |
 | ⏭    | I've seen this but I don't think I'm the best person for the job. Ping me if no one else responds and you need help |
 
+### Merge Request reviews
+
+When giving Merge Request review feedback, we aim to provide additional context by utilizing the [conventional: comments](https://conventionalcomments.org/) standard.
+
 ### Triage process
 
 The weekly Triage Report is generated automatically by the [GitLab bot](https://gitlab.com/gitlab-bot) and this report is reviewed by the EM. Here is [an example](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/2700) of a previous report.
@@ -286,6 +290,10 @@ You will begin to collect follow-up issues when you've worked on something in a 
 You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
 
 If there are many follow-up issues, consider creating an epic.
+
+##### Double-assign for overly-complex or time-sensitive issues
+
+As discussed in a [previous retrospective](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/74#note_1914857307), in addition to breaking down issues, we should assign two engineers to each task instead of just one for overly-complex or time-sensitive issues. This co-ownership will help parallelize efforts in multiple-MR tasks, speed up immediate code reviews, and ultimately lead to faster delivery of results.
 
 #### Backend and Frontend issues
 

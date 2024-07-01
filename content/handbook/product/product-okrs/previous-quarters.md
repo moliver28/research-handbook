@@ -14,7 +14,7 @@ title: Previous Quarter OKR Timelines
 - **8 weeks** prior to the start of the fiscal quarter, the Product Leadership Team drafts initial OKRs aligned to the [annual product investment themes](https://about.gitlab.com/direction/#fy23-product-investment-themes). Product Operations will lead this effort with the  [FY23 Q3 PLT OKR Pre-planning issue](https://gitlab.com/gitlab-com/Product/-/issues/4363 ) in preparation for Shared R&D OKR planning with Engineering.
 - **6 weeks** prior to the start of the fiscal quarter, the VP of Product and the CTO begin alignment on potential Shared R&D OKRs to recommend to the CEO. Product Operations will work with the CTO to schedule these meetings and include cross-functional team members as needed. Please reference the agenda docs and video recording below to follow these meetings:
      1. Shared R&D Objectives for OKRs - session 1
-          - Goal: Cross-functional leaders discuss OKR ideas for CEO’s top-down OKR draft
+          - Goal: Cross-functional leaders discuss OKR ideas for CEO's top-down OKR draft
           - [Agenda](https://docs.google.com/document/d/1_BY9U0Fdin0Qke8UvmEJjGPDsNV-NXYW840wLjlpEsY/edit#)
           - Product Operations will schedule this meeting at least 6 weeks prior to quarter start.
      2. CTO and VPP discuss Shared R&D OKRs 1:1
@@ -70,7 +70,7 @@ FY23 Q2 Shared R&D OKR Overview by Engineering and Product Leadership
 - **8 weeks** prior to the start of the fiscal quarter, the Product Leadership Team drafts initial OKRs aligned to the [annual product investment themes](https://about.gitlab.com/direction/#fy23-product-investment-themes). Product Operations will lead this effort with the  [FY23 Q2 PLT OKR Pre-planning issue](https://gitlab.com/gitlab-com/Product/-/issues/3896) in preparation for Shared R&D OKR planning with Engineering.
 - **6 weeks** prior to the start of the fiscal quarter, the VPP and the CTO begin alignment on potential Shared R&D OKRs to recommend to the CEO. Product Operations will work with the CTO to schedule these meetings and include cross-functional team members as needed. Please reference the agenda docs and video recording below to follow these meetings:
      1. Shared R&D Objectives for OKRs - session 1
-          - Goal: Cross-functional leaders discuss OKR ideas for CEO’s top-down OKR draft
+          - Goal: Cross-functional leaders discuss OKR ideas for CEO's top-down OKR draft
           - [Agenda](https://docs.google.com/document/d/18ee6muD2CnUw30y6isyXhgAGs1cedf5-vih6URizoeU/edit)
           - Product Operations will schedule this meeting at least 6 weeks prior to quarter start.
      2. CTO and VPP discuss Shared R&D OKRs 1:1
@@ -135,7 +135,7 @@ FY23 Q1 Shared R&D OKR Overview by Engineering and Product Leadership
 
 - **6 weeks** prior to the start of the fiscal quarter, the CProdO and CTO begin alignment on potential Shared R&D OKRs to recommend to the CEO. Product Operations will work with the EBA to the CTO and CProdO to schedule these meetings and include Product leaders and cross-functional team members as directed by the CTO. There may be fewer or more meetings depending on needs. Please reference the agenda docs and video recording below to follow these meetings:
      1. Shared R&D Objectives for OKRs - session 1
-          - Goal: Cross-functional leaders discuss OKR ideas for CEO’s top-down OKR draft
+          - Goal: Cross-functional leaders discuss OKR ideas for CEO's top-down OKR draft
           - [Agenda](https://docs.google.com/document/d/19Ck1-cMu1WFZ-JP-wJYTsMvu0IZ_Hj0XBnRCa3_V7Gk/edit#heading=h.954v91mukl7r)
           - The EBA to the CTO/CProdO will schedule this meeting at least 6 weeks prior to quarter start. If scheduling challenges, the EBA will consult with Product Operations.
      2. CTO and CProdO discuss Shared R&D OKRs 1:1
@@ -206,7 +206,7 @@ Please share your feedback in [Feedback on Q4 Shared R&D OKR Process](https://gi
 
 - **6 weeks** prior to the start of the fiscal quarter, the CProdO and CTO begin alignment on potential Shared R&D OKRs to recommend to the CEO. The EBA to the CTO will schedule these meetings and include cross-functional team members as directed by the CTO:
   - 2021/09/20: Shared R&D Objectives for OKRs
-    - Goal: propose cross-functional OKR ideas for CEO’s top-down OKR draft
+    - Goal: propose cross-functional OKR ideas for CEO's top-down OKR draft
     - [Agenda](https://docs.google.com/document/d/1IGH5Kv8MnYNoOEFRp7x_dOmpWZJz82doAV9CPv8zASk/edit#)
   - 2021/09/22: Discuss Shared R&D OKRs
     - Goal: CProdO and CTO review align on top OKR ideas

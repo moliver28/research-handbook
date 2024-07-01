@@ -1,16 +1,10 @@
 ---
-
 title: Prescriptive Buyer Journeys
 description: Prescriptive Buyer Journeys
 twitter_image: /images/tweets/handbook-marketing.png
 twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
-
-
-
-
-
 
 ## Overview
 
@@ -58,7 +52,7 @@ The first iteration of building these prescriptive buyer journeys was a highly c
 
 {: #content-mapping .gitlab-purple}
 
-In today’s digital-first world, customers expect flawless omnichannel experiences. From seeing an ad on their mobile phone to interacting with our website to speaking with a sales representative, we need to ensure that there is cohesion across every interaction. By creating a full-funnel content journey map, we look at the lifecycle of a customer—from first interaction to closing a sale*—and outline the narrative we want to tell. This narrative is our blueprint for content creation and campaign planning.
+In today's digital-first world, customers expect flawless omnichannel experiences. From seeing an ad on their mobile phone to interacting with our website to speaking with a sales representative, we need to ensure that there is cohesion across every interaction. By creating a full-funnel content journey map, we look at the lifecycle of a customer—from first interaction to closing a sale*—and outline the narrative we want to tell. This narrative is our blueprint for content creation and campaign planning.
 
 Designing a full-funnel content journey enables us to serve more relevant content to our potential customers resulting in faster conversion times. Creating a repeatable process for this ensures we can quickly iterate and create new content journeys for specific personas and industries.
 
@@ -131,7 +125,7 @@ TODO strategic marketing fill in
 
 {: #storyboarding .gitlab-purple}
 
-Through storyboarding we look at the end to end content journey and outline the story we want to tell. This narrative is our blueprint for content creation. Start by making a copy of the [content journey mapping template](https://docs.google.com/spreadsheets/d/1zij_-GEF1t50N_vdCN58agnyDSvLBel9rftkSxaA2U8/edit#gid=1908591985). Write the sequence of messaging that will move the prospect across the stages of the buyer’s journey. Each message should clearly state the key takeaway you want to provide.
+Through storyboarding we look at the end to end content journey and outline the story we want to tell. This narrative is our blueprint for content creation. Start by making a copy of the [content journey mapping template](https://docs.google.com/spreadsheets/d/1zij_-GEF1t50N_vdCN58agnyDSvLBel9rftkSxaA2U8/edit#gid=1908591985). Write the sequence of messaging that will move the prospect across the stages of the buyer's journey. Each message should clearly state the key takeaway you want to provide.
 
 ### How to use the storyboard template
 
@@ -153,13 +147,13 @@ Using the template below, write down the message you want to convey at each stag
 
 Each stage has three message columns. When reading across the columns a story should emerge. The last column, labeled *bridge* and closing message should unite the current and next stage messages. A *bridge* message can also be used to introduce a new use case. For example:
 
-1. An awareness stage bridge message may show how someone can solve a problem using GitLab technology. It doesn’t explicitly call out the benefits of GitLab.
+1. An awareness stage bridge message may show how someone can solve a problem using GitLab technology. It doesn't explicitly call out the benefits of GitLab.
 2. A consideration stage bridge message may show how a customer achieved success with GitLab. It explicitly calls out the benefits of GitLab.
 3. A purchase stage closing message may calculate the ROI of implementing GitLab. It explicitly demonstrates why their purchase is a good investment.
 
 **Content journey mapping:** Make a copy of the content journey template. Start by matching existing content to each message in the storyboard. The key takeaway of the suggested content should match the key takeaway of the message. If not content exists, make a plan to create it.
 
-It’s critical that the message and content are tailored specifically to the target audience. Avoid diluting the message and experience by loosely fitting existing content in the journey. The content should suit the message exactly. If content does not exist, notify the Marketing Program Manager (project manager) and make a plan to create that content. This may affect the project timeline.
+It's critical that the message and content are tailored specifically to the target audience. Avoid diluting the message and experience by loosely fitting existing content in the journey. The content should suit the message exactly. If content does not exist, notify the Marketing Program Manager (project manager) and make a plan to create that content. This may affect the project timeline.
 
 ### Performing a content gap analysis
 
@@ -171,10 +165,10 @@ The content gap analysis determines which content will be used in the campaign a
 
 {: #content-journey-how-to}
 
-Once you have completed the storyboard exercise, it’s time to find content that maps to the story. Make a new tab in your spreadsheet so that you have the two templates side by side.
+Once you have completed the storyboard exercise, it's time to find content that maps to the story. Make a new tab in your spreadsheet so that you have the two templates side by side.
 
 Begin by filling in each offer. Offers should be high-impact content that can be put behind a gated or form-fill. For example: eBooks, whitepapers, webinars, maturity models, analyst reports, videos, case studies. The content may or may not be gated as part of the digital experience. The content you choose for each offer should convey the message you wrote in the storyboard exercise. This may mean either altering existing or creating net new content.
 
-Next, choose your supporting content assets. These can be any type of content and should reinforce the main message. For example, if your message is “I need to learn how to code” and the offer is an eBook on Coding 101, your supporting assets may be a blog post walking through a practical application and a video highlighting the key takeaways from the eBook.
+Next, choose your supporting content assets. These can be any type of content and should reinforce the main message. For example, if your message is "I need to learn how to code" and the offer is an eBook on Coding 101, your supporting assets may be a blog post walking through a practical application and a video highlighting the key takeaways from the eBook.
 
 Avoid reusing content in the same content journey.

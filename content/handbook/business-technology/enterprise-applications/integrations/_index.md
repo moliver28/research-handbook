@@ -1,9 +1,6 @@
 ---
-
 title: "Enterprise Applications Integrations"
 ---
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 

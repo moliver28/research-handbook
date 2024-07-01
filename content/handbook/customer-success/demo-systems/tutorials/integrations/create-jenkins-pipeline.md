@@ -1,19 +1,13 @@
 ---
-
 title: Create a Jenkins Pipeline
-description: “Discover how to create a Jenkins Pipeline page with GitLab’s Jenkins integration”
+description: "Discover how to create a Jenkins Pipeline page with GitLab's Jenkins integration"
 ---
-
-
-
-
-
 
 ## Overview
 
 > **Deprecation Notice:** This tutorial is out-of-date and is only preserved for educational purposes. These steps no longer work on the GitLab Demo Systems.
 
-GitLab’s Jenkins integration allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge requests widgets and on the project’s home page.
+GitLab's Jenkins integration allows you to trigger a Jenkins build when you push code to a repository, or when a merge request is created. Additionally, it shows the pipeline status on merge requests widgets and on the project's home page.
 
 This tutorial shows you how to create a project with a `Jenkinsfile`, configure a project on the Jenkins server, configure the GitLab Jenkins integration plugin, enable the integration on your GitLab project, and perform a commit to show how pipelines are integrated between GitLab and Jenkins.
 

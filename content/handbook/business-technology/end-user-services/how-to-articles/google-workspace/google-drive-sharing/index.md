@@ -72,8 +72,8 @@ There are multiple ways to access shared Google Drive files and folders.
 
 There are three levels of permissions when sharing a file from `My Drive`
 
-- `Viewer` - People can view, but can’t change or share the file with others
+- `Viewer` - People can view, but can't change or share the file with others
 
-- `Commenter` - People can make comments and suggestions, but can’t change or share the file with others
+- `Commenter` - People can make comments and suggestions, but can't change or share the file with others
 
 - `Editor` - People can make changes, accept or reject suggestions, and share the file with others

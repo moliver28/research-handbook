@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Data Seeder (GDS)"
 description: "Demo and Test Data generator"
 ---

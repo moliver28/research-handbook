@@ -182,7 +182,7 @@ Example on how many entries should be in the report per team member: If a team m
 
 #### Cobra Navia
 
-Team members have the option of electing the HRA during Cobra, once elected and payment is made, WEX sends email notification to Navia informing them of the COBRA election and to reactivate the member’s access to HRA.
+Team members have the option of electing the HRA during Cobra, once elected and payment is made, WEX sends email notification to Navia informing them of the COBRA election and to reactivate the member's access to HRA.
 The process for reporting elections is managed by WEX.
 
 ### Payroll Hourly Reporting in to Workday for ACA Measurement

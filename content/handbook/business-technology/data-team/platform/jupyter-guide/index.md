@@ -1,14 +1,7 @@
 ---
-
 title: "Jupyter Guide"
 description: "Guidance on setting up JupyterLab"
 ---
-
-
-
-
-
-
 
 ---
 See related [repository](https://gitlab.com/gitlab-data/data-science)

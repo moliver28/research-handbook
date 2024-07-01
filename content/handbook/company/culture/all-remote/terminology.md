@@ -22,15 +22,15 @@ GitLab is the world's largest all-remote company. We are 100% remote, with no co
 
 > We don't say you have to work from home — you can work from anywhere.
 >
-> That’s wherever you're most comfortable. Maybe that's a co-working space, maybe that's at a friend's house, maybe that's a different place every month.
+> That's wherever you're most comfortable. Maybe that's a co-working space, maybe that's at a friend's house, maybe that's a different place every month.
 >
 > We have people [at GitLab] who travel all around the world, and every month they're in a different time zone. We have over 1,100 employees, but none of them operate their days quite the same as anyone else.
 >
-> The beautiful thing about all-remote is it truly makes everyone a first-class team member. A lot of people will say in a hybrid-remote setting, ‘If I don't go to the office frequently enough, I miss out on some things, or maybe I miss out on praise or promotion opportunities.’ You feel inferior or deprioritized, as if you don't fully belong.
+> The beautiful thing about all-remote is it truly makes everyone a first-class team member. A lot of people will say in a hybrid-remote setting, 'If I don't go to the office frequently enough, I miss out on some things, or maybe I miss out on praise or promotion opportunities.' You feel inferior or deprioritized, as if you don't fully belong.
 >
 > In an environment like that, you have to take certain approaches to include people. You have to be intentional to include those remote individuals, whereas if it's all-remote, you're all on a level playing field.
 >
-> All-remote enables a workforce that may have been rejected at other stages — caregivers, working parents, or military spouses, where their spouse has to move at each new deployment. A lot of these people might say ’It's too complicated to continue to reinvent my career with every move along the way.’
+> All-remote enables a workforce that may have been rejected at other stages — caregivers, working parents, or military spouses, where their spouse has to move at each new deployment. A lot of these people might say 'It's too complicated to continue to reinvent my career with every move along the way.'
 >
 > In an all-remote setting, your job goes with you as those changes in life happen. That's going to become the norm, where the notion of moving for a career will seem silly. The career should follow you no matter where life takes you.
 

@@ -1,9 +1,7 @@
 ---
-
 title: Tools and Resources
-description: “Discover GitLab Solutions Architects’ tools and resources”
+description: "Discover GitLab Solutions Architects' tools and resources"
 ---
-
 
 ## Tools and Resources
 
@@ -96,7 +94,7 @@ No two presentations are the same and we often find ourselves mixing and matchin
 
 ### O'Reilly Learning Platform
 
-In order to facilitate an environment of learning and development, the Solutions Architect team has access to the [O’Reilly Learning Platform](https://learning.oreilly.com/home/). This education platform contains thousands of books, videos and live learning courses to assist SA’s with gaining the knowledge they need to stay competitive.
+In order to facilitate an environment of learning and development, the Solutions Architect team has access to the [O'Reilly Learning Platform](https://learning.oreilly.com/home/). This education platform contains thousands of books, videos and live learning courses to assist SA's with gaining the knowledge they need to stay competitive.
 
 More information can be found on the [Customer Success Education & Enablement page](/handbook/customer-success/education-enablement/).
 

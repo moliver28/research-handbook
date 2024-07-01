@@ -1,14 +1,7 @@
 ---
-
 title: Experimentation
 description: "Information about creating and running experiments at GitLab."
 ---
-
-
-
-
-
-
 
 ### Experimentation
 

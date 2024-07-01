@@ -97,7 +97,7 @@ The Staff Infrastructure Security Engineer is a [grade 8](/handbook/total-reward
 - Have significant ownership in and evangelize security training with development teams
 - Solid understanding and interest in recognized information security related standards, analysis frameworks (MITRE ATT&CK, Kill Chain, NIST Incident Response, etc.) and technologies
 - Develop, evangelize, and monitor the adoption of sound security practices
-- Develop new, and review/update existing security-related configurations of GitLab’s infrastructure
+- Develop new, and review/update existing security-related configurations of GitLab's infrastructure
 
 #### Staff Infrastructure Security Engineer Requirements
 

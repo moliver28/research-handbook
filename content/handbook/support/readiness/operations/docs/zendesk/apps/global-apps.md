@@ -334,7 +334,7 @@ From now on, Unbabel will not be triggered in this ticket.
 
 If for some reason you have difficulty in understanding the automated
 translation, an actual human intervention can actually be requested. Simply
-click the link `Can’t understand the translation?` in the Unbabel app box and
+click the link `Can't understand the translation?` in the Unbabel app box and
 this will send your response for translation to Unbabel editors.
 
 ### Best Practices for Unbabel

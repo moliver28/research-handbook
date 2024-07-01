@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab tiers"
 ---
 
@@ -139,13 +138,13 @@ Please don't use CE, EE, or Free to refer to the type of license since:
 
 ## Tier Messaging
 
-When talking to customers, always use language that they are familiar with. They will likely not be familiar with terms we use internally as a company, it is important to use the customer’s language when you are talking to the customer to maximize understanding.
+When talking to customers, always use language that they are familiar with. They will likely not be familiar with terms we use internally as a company, it is important to use the customer's language when you are talking to the customer to maximize understanding.
 
 ### Themes Hierarchy
 
 The themes hierarchy is designed to communicate the value of GitLab **paid** features to customers.
 
-1. **Value Drivers**: Themes roll into [customer value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers). Value drivers describe what organizations are likely proactively looking for or needing and are top-of-mind customer topics that exist even if GitLab doesn’t. Value drivers may cause buyers to re-allocate discretionary funds, and they support a value-based customer conversation. Organizations adopt and implement GitLab for the following value drivers:
+1. **Value Drivers**: Themes roll into [customer value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers). Value drivers describe what organizations are likely proactively looking for or needing and are top-of-mind customer topics that exist even if GitLab doesn't. Value drivers may cause buyers to re-allocate discretionary funds, and they support a value-based customer conversation. Organizations adopt and implement GitLab for the following value drivers:
 Value drivers are also highlighted within [tiers](https://about.gitlab.com/pricing/).
 1. **Themes**: Themes refer to sets of paid features. They highlight the benefits of features through grouping related paid features together, so customers can focus on a short-list of benefits rather than a long list of 80+ paid features. Themes can be found on [GitLab's pricing page](https://about.gitlab.com/pricing/). Each tier has about five themes. For example, better code reviews, compliance, or portfolio management. When clicking on a theme on the pricing page, users will find a list of paid features that relate directly to a specific theme. For example, better code reviews is a theme that encompasses the following paid features: code and productivity analytics, efficient merge request reviews, code quality reports, merge trains, and multiple approvers.
 1. **Paid Features**: Paid features are small, discrete functionalities that are not included in GitLab's free tier. [Paid features](https://about.gitlab.com/features/by-paid-tier/) have historically been grouped into tiers, but this does little to call out key feature themes that differentiate one tier from the next and help customers to make sense of the key benefits derived from a long list of paid features. Paid features should be grouped into themes.
@@ -155,7 +154,7 @@ Value drivers are also highlighted within [tiers](https://about.gitlab.com/prici
 1. Do always present Ultimate as *the* product. Every customer and prospect would benefit greatly from the Ultimate product and it's the correct frame of reference to explain our complete vision.
 1. Don't introduce lower tiers unnecessarily. We are consultative sellers with a high-value product. If a customer asks about pricing, the answer is "We have end-to-end DevOps in a single application ranging from our free offering up to Ultimate at $1,188 per user per year." Only go into detail on the lower tiers when appropriate based on your assessment of the customer's needs and progression in the product. Focus on the value sale as long as possible and only discuss tiers once there is a clear path forward to purchase.
 
-### Use of “GitLab” by itself
+### Use of "GitLab" by itself
 
 1. Don't use the word "`GitLab`" alone unless you are referring to the company or an attribute that applies to both `GitLab Self-managed` and `GitLab SaaS`. If talking about an attribute that only applies to one delivery method but not the other, then specify (e.g. "GitLab SaaS does X" or "GitLab Self-managed does X").
 1. Do specify `GitLab Self-managed` or `GitLab SaaS` when you are referencing something that is unique to that delivery method (e.g. a security bug that only affects GitLab SaaS).

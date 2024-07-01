@@ -1,6 +1,6 @@
 ---
 title: "Payroll Roles"
-description: "The payroll department is responsible for processing and distributing payroll in a timely and accurate manner and coordinates with external vendors." 
+description: "The payroll department is responsible for processing and distributing payroll in a timely and accurate manner and coordinates with external vendors."
 ---
 
 The payroll department is responsible for processing and distributing payroll in a timely and accurate manner and coordinates with external vendors including payroll processing platforms, payroll partners and PEOs and internal customers including PeopleOps, Tax, Legal and Accounting. The payroll department is responsible for reports, earnings information and other payroll data on a recurring basis as well as compliance with federal, state and local requirements.
@@ -50,7 +50,7 @@ The Payroll Specialist is a [grade 5](/handbook/total-rewards/compensation/compe
 - Assist in the development and documentation of payroll procedures designed to streamline the process and scale with the organization
 - Support internal and external payroll audit requests
 - Verify and audit data processed by external payroll providers
-- Provide timely and accurate response to team members’ payroll related queries
+- Provide timely and accurate response to team members' payroll related queries
 
 ### Payroll Specialist Requirements
 
@@ -225,7 +225,7 @@ The Manager, Global Payroll Operations is a [grade 8](/handbook/total-rewards/co
 ### Manager, Global Payroll Operations Responsibilities
 
 - Manage global operations of payroll for an assigned number of countries
-- Provides oversight of Professional Employer Organization’s (“PEOs”) and partners with the People Team where necessary to hold them accountable to SLAs for payroll.
+- Provides oversight of Professional Employer Organization's ("PEOs") and partners with the People Team where necessary to hold them accountable to SLAs for payroll.
 - Helps resolve team member issues that arise with taxation treatment including of equity transactions
 - Proactive research of various tax treatment for payroll in new and existing countries including equity income reporting requirements
 Serves as a point person for country compensation/payroll audits and helps coordinate cross-functional responses to audit requests.  Identifies and resolves discrepancies
@@ -271,14 +271,14 @@ The Senior Manager, Global Payroll Operations is a [grade 9](/handbook/total-rew
 - Set up payroll processes in new countries as we expand operations
 - Lead significant systems and process changes in the payroll function
 - Support month end close activities
-- Responsible for Worker’s Compensation policies and audits for US and locations outside of the US
+- Responsible for Worker's Compensation policies and audits for US and locations outside of the US
 - Review and analyze current payroll, benefits and tax procedures in order to recommend changes to Company policies resulting in best practices
 - Oversee payroll audit process and reporting aspects of internal and external audits; identifies and resolves discrepancies
 - Ensure that all monthly, quarterly and annual payroll tax filings are met; ensure all local statutory payroll and fringe benefit reporting requirements are met
 - Ensure stock activity for US and international employees is properly processed and reported for employee and tax reporting purposes
 - Maintain compliance with all federal, state, and local payroll tax laws
 - Responsible for all system year-end tasks including the reset of 401K, FSA, HSA limits per yearly IRS guidelines
-- Preparer and administrator of W-2’s for US entities and annual tax documents for non-US entities
+- Preparer and administrator of W-2's for US entities and annual tax documents for non-US entities
 - Serve as a subject matter expert and point of contact for escalations and various ad hoc requests
 - Special projects as assigned
 - Be a role model for the team, and develop a strong sense of shared team vision

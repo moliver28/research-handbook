@@ -1,12 +1,9 @@
 ---
-
 title: Handling Sales Information Requests
 description: "How to handle information requests from GitLab Sales team"
 category: Handling tickets
 subcategory: Customer Info
 ---
-
-
 
 ### Overview
 

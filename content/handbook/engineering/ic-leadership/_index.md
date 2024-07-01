@@ -1,13 +1,6 @@
 ---
-
 title: "Engineering IC Leadership"
 ---
-
-
-
-
-
-
 
 ## Engineering IC Leadership at GitLab: going beyond Senior level
 

@@ -34,15 +34,15 @@ If you determine that a meeting is needed to move a project forward, address a b
 
 1. Pre-read/watch or pre-work materials should be emailed to attendees at least 24 hours in advance.
 1. The meeting host ([DRI]({{< ref "directly-responsible-individuals" >}})) may summarize key points and context for the first 1 to 2 minutes of the meeting, but [few meetings should be presentations]({{< ref "communication#few-meetings-with-presentations" >}}).
-1. Questions should be [written]({{< ref "values#write-things-down" >}}) and listed in advance of the scheduled meeting time; this tends to increase the quality of questions.
+1. Questions should be [written](/handbook/values/#write-things-down) and listed in advance of the scheduled meeting time; this tends to increase the quality of questions.
 
 ### Notetaking and structure during the meeting
 
-1. [Make a proposal]({{< ref "values#make-a-proposal" >}}) whenever feasible. It should be possible to answer/comment with a simple "yes."
+1. [Make a proposal](/handbook/values#make-a-proposal) whenever feasible. It should be possible to answer/comment with a simple "yes."
 1. Link any relevant piece of text to associated resources to prevent people from spending time searching or asking.
 1. Follow GitLab's [smart notetaking guidance]({{< ref "communication#smart-note-taking-in-meetings" >}}) by taking notes inline with the agenda rather than using a separate "notes" section. Real-time note-taking by multiple participants is encouraged.
-   - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It’s helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
-1. If you're not talking in the meeting, at any given time, help take notes. If there isn’t a note taker listed in the document at the start of the meeting, people should self-note-take. Consider asking other people to write down the answers in real-time to allow the person who asked the question to focus on the answer. The person asking the question can touch up the answer when the conversation has moved on to something less relevant to them.
+   - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It's helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
+1. If you're not talking in the meeting, at any given time, help take notes. If there isn't a note taker listed in the document at the start of the meeting, people should self-note-take. Consider asking other people to write down the answers in real-time to allow the person who asked the question to focus on the answer. The person asking the question can touch up the answer when the conversation has moved on to something less relevant to them.
 1. Notes should be properly indented and structured to follow the conversation's flow.
 1. Notes do not have to be verbatim, but they should capture key points made and be clear on any decisions or next steps.
 1. Preface questions and answers with the participant's name, giving context to the origin.
@@ -60,7 +60,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%"}
 
-Establishing a culture where team members are cognizant that they work with others who may be in a different location, or unable to attend a meeting live, is critical. Documentation is a vital part of avoiding team [dysfunction]({{< ref "values#five-dysfunctions" >}}).
+Establishing a culture where team members are cognizant that they work with others who may be in a different location, or unable to attend a meeting live, is critical. Documentation is a vital part of avoiding team [dysfunction](/handbook/values/#five-dysfunctions).
 
 Improving your meeting hygiene can start by shifting to live doc meetings. It is a relatively simple step, and tends to create an understanding of the value of documentation. If you're looking for a place to start in capturing team-wide buy-in on documentation, consider adding agendas to all work-related meetings and insist on live documentation during them.
 

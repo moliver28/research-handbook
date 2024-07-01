@@ -1,13 +1,6 @@
 ---
-
 title: Product Data Insights Data Models Cheat Sheet
 ---
-
-
-
-
-
-
 
 ## Objectives for this page
 

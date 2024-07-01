@@ -1,13 +1,6 @@
 ---
-
 title: "Kennedy Persona snippets"
 ---
-
-
-
-
-
-
 
 ## Use case specific persona snippets
 

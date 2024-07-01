@@ -95,7 +95,7 @@ The survey factors we primarily focus on:
 5. Action
 6. Open text questions
 
-Overall survey ranges anywhere from 40 to 50 questions. The format of the survey was predominantly Likert or Rating Scale with a handful of free text questions or comments toward the end. The favorable score is the percentage of participants who selected ‘agree’ and ‘strongly agree’.
+Overall survey ranges anywhere from 40 to 50 questions. The format of the survey was predominantly Likert or Rating Scale with a handful of free text questions or comments toward the end. The favorable score is the percentage of participants who selected 'agree' and 'strongly agree'.
 
 ## FY'25 Engagement Survey
 
@@ -155,7 +155,7 @@ Below you will find a summary of our overall results, as well as key insights an
 
 #### Detailed Results (Overall)
 
-We’ve documented our detailed FY24 Culture Amp Engagement survey results in a [presentation](https://docs.google.com/presentation/d/1fs5mPdQUdZXR6blK-5cFZL_N-Qr2Y8eta_EhKQAYa64/edit?usp=sharing) that is available only for GitLab team members.
+We've documented our detailed FY24 Culture Amp Engagement survey results in a [presentation](https://docs.google.com/presentation/d/1fs5mPdQUdZXR6blK-5cFZL_N-Qr2Y8eta_EhKQAYa64/edit?usp=sharing) that is available only for GitLab team members.
 
 Those detailed results highlight the strengths and opportunities shared below in greater detail.
 
@@ -224,7 +224,7 @@ This is an abbreviated version of our engagement survey, and it also includes a 
 
 ### Survey Confidentiality
 
-In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you’d like to know more, check out CultureAmp’s [FAQ](https://support.cultureamp.com/en/articles/7048327-engagement-attributed-survey-guide-for-participants) guide.
+In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ](https://support.cultureamp.com/en/articles/7048327-engagement-attributed-survey-guide-for-participants) guide.
 
 ### Survey Results
 
@@ -343,11 +343,11 @@ GitLab scored 4% higher than the industry benchmark i.e. New Tech +1,000 2022 fo
 
 #### How We Determine "Pulse" Survey Questions
 
-In FY'22 Q4 we launched our first "pulse" survey. To determine these questions we leveraged a combination of Culture Amp's "impact" feature + recommended focus areas + key themes related to the [Great Resignation](https://www.cultureamp.com/blog/the-great-resignation-turnover) (according to Culture Amp’s People Scientist teams) to determine which rating questions to include in the pulse survey.
+In FY'22 Q4 we launched our first "pulse" survey. To determine these questions we leveraged a combination of Culture Amp's "impact" feature + recommended focus areas + key themes related to the [Great Resignation](https://www.cultureamp.com/blog/the-great-resignation-turnover) (according to Culture Amp's People Scientist teams) to determine which rating questions to include in the pulse survey.
 
-Per CultureAmp’s insights related to the Great Resignation, we added questions related to:
+Per CultureAmp's insights related to the Great Resignation, we added questions related to:
 
-- Focus on “Your Manager” (feedback from Manager, and overall manager performance)
+- Focus on "Your Manager" (feedback from Manager, and overall manager performance)
 - Inclusion
 - The 5 overall Engagement factor questions
 
@@ -700,10 +700,10 @@ You have now updated a demographic in CultureAmp!
 
 In Q3 FY'23, our Talent & Engagement team ran our first organizational health survey.
 
-GitLab used McKinsey & Company’s [Organizational Health Index "OHI"](https://www.mckinsey.com/solutions/orgsolutions/overview/organizational-health-index) survey to help us understand where we have opportunities to help our organization and team members execute better and increase their impact. The OHI survey is separate from our CultureAmp Engagement survey; learnings from the former will complement the latter and also help inform workplace practices beyond GitLab.
+GitLab used McKinsey & Company's [Organizational Health Index "OHI"](https://www.mckinsey.com/solutions/orgsolutions/overview/organizational-health-index) survey to help us understand where we have opportunities to help our organization and team members execute better and increase their impact. The OHI survey is separate from our CultureAmp Engagement survey; learnings from the former will complement the latter and also help inform workplace practices beyond GitLab.
 
 ### FY'23 Q3/Q4 McKinsey OHI Survey Results
 
-We’ve summarized high level results of the OHI survey for all GitLab team members in [this document](https://docs.google.com/presentation/d/1B-T8TUcuidyIwbcpih01id2-TxZpE6D91Xt6w3z0uIw/edit?usp=sharing).
+We've summarized high level results of the OHI survey for all GitLab team members in [this document](https://docs.google.com/presentation/d/1B-T8TUcuidyIwbcpih01id2-TxZpE6D91Xt6w3z0uIw/edit?usp=sharing).
 
 The document linked above is only available to GitLab team members.

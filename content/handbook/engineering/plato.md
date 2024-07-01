@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Plato HQ Mentoring Program"
 ---
 

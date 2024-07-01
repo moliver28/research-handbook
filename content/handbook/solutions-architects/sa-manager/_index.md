@@ -1,9 +1,7 @@
 ---
-
 title: SA Manager Operating Rhythm
 description: "This page provides an overview on relevant SA Managers processes. The SA Manager role is made up of pillars: Managing the Business and Managing the Team."
 ---
-
 
 View the [SA Handbook homepage](/handbook/solutions-architects/) for additional SA-related handbook pages.
 
@@ -93,7 +91,7 @@ The quarterly sit down (QSD) structure ([template](https://docs.google.com/docum
 
 This is to be done on a quarterly basis and aims to bring better alignment and more visibility between the direct report and manager.
 
-Each section is to be used to capture what the Direct Report and the Manager have perceived as the Direct Report’s accomplishments, goals, etc… with the intent of sharing these section by section during the QSD. Each area will be read aloud (no screen sharing) which gives the recipient a chance to listen and write down what they hear. Neither is to see the others’ sheet until after the meeting is finished. This conversation format helps surface differences in perception or disagreements and opens useful conversations about future priorities or areas of growth.
+Each section is to be used to capture what the Direct Report and the Manager have perceived as the Direct Report's accomplishments, goals, etc… with the intent of sharing these section by section during the QSD. Each area will be read aloud (no screen sharing) which gives the recipient a chance to listen and write down what they hear. Neither is to see the others' sheet until after the meeting is finished. This conversation format helps surface differences in perception or disagreements and opens useful conversations about future priorities or areas of growth.
 
 At the conclusion of the Quarterly Sit Down, it is valuable to review the gaps between each list and then share the document out in a read-only format with each other.
 

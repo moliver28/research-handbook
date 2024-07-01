@@ -1,14 +1,7 @@
 ---
-
 title: "CSM Responsibilities and Services"
 description: "There are various services a Customer Success Manager will provide to ensure that customers get the best value possible out of their relationship with GitLab."
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -25,17 +18,17 @@ There are 7 pillars that we have identified as crucial for success as CSMs. It i
 - Communication
   - Frequent and honest communication with customers and internal stakeholders, so everyone knows what is happening and what to expect, in line with [GitLab communication guidelines](/handbook/communication/)
 - Follow-through
-  - You never leave a customer without an answer/reply, and you always do what you’ve said you’ll do
+  - You never leave a customer without an answer/reply, and you always do what you've said you'll do
 - Organization & Documentation
-  - You have your tasks organized and prioritized, and it’s easy for someone to quickly understand what’s going on with any given account by looking at Gainsight
+  - You have your tasks organized and prioritized, and it's easy for someone to quickly understand what's going on with any given account by looking at Gainsight
 - Relationship-building
   - Both customers and internal team members trust you
 - Proactivity
-  - You don’t wait to be told what to do, you have [short toes](/handbook/values/#short-toes) and a [bias for action](/handbook/values/#bias-for-action), and you plan for customer strategy in collaboration with your go-to-market team.
+  - You don't wait to be told what to do, you have [short toes](/handbook/values/#short-toes) and a [bias for action](/handbook/values/#bias-for-action), and you plan for customer strategy in collaboration with your go-to-market team.
 - Assertiveness
   - You are comfortable telling customers what they need to do as their trusted advisor, as well as working internally to get what you need from others
 - Perceptiveness
-  - You can “read between the lines” of what a customer is saying and identify what they need, not necessarily what they say they want
+  - You can "read between the lines" of what a customer is saying and identify what they need, not necessarily what they say they want
 
 ## Responsibilities and Services
 

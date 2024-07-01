@@ -1,12 +1,6 @@
 ---
-
 title: Solutions Go-to-market
 ---
-
-
-
-
-
 
 ## Solutions and Value Plays
 

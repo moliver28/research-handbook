@@ -157,9 +157,9 @@ Activity
 
 Positioning and SWOT published in [internal handbook](https://internal.gitlab.com/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
 
-- May 15th eGroup review (Complete)
+- May 15th e-group review (Complete)
 
-eGroup capability gap exercise at eGroup offsite (prework)
+E-group capability gap exercise at e-group offsite (prework)
 
 - Stella
 - Complete: Jun 28th
@@ -170,12 +170,12 @@ Complete capability gap exercise at VP level to bring more input into the group
 - Drafts: July 12th
 - Final: July 19th
 
-Pull together comprehensive view of capabilities from eGroup and VP sessions
+Pull together comprehensive view of capabilities from e-group and VP sessions
 Craig/Dave
 
 - July 24th
 
-eGroup June Virtual Offsite Sessions:
+E-group June Virtual Offsite Sessions:
 
 - Decide on GTM, Ops and Product strategies
 - Decide on top capabilities for investment (feed into LRO)

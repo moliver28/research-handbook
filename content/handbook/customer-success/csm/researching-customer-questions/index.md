@@ -1,16 +1,7 @@
 ---
-
 title: "Researching Customer Questions"
 description: "Strategies on how to research customer questions to find answers."
 ---
-
-
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 

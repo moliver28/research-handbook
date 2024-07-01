@@ -78,8 +78,8 @@ The process to make the linkage is as follows:
 
 The active subscription status in Zuora needs to be reviewed in connection to the end date.
 If the end date is in the future it means that the subscription is still within the term and the customer is able to use the product.
-An ‘active’ subscription with an end date in the past means that the subscription was not renewed and the customer doesn’t have access to the product since the end date.
-We currently don’t actively cancel these subscriptions as this is a manual process and the cancellation or lack of it does not have any impact on other processes.
+An 'active' subscription with an end date in the past means that the subscription was not renewed and the customer doesn't have access to the product since the end date.
+We currently don't actively cancel these subscriptions as this is a manual process and the cancellation or lack of it does not have any impact on other processes.
 Additionally, where subscriptions remain in an active status they can be renewed by the customers on the CustomersDot
 
 ### Invoice cancellations and refunds
@@ -89,7 +89,7 @@ For step by step processes please view [Billing Ops page.]({{< ref "./finance-op
 **How to process a partial refund in Stripe**
 
 1. Log in to Stripe.
-1. Type in the cardholder’s name in the search field at the top of the screen.
+1. Type in the cardholder's name in the search field at the top of the screen.
 1. Click on the original charge that will be refunded.
 1. Click on the refund button.
 1. Enter in the amount to refund.
@@ -180,12 +180,12 @@ Post a journal entry:
 1. Fill the "Description" with "To record Stripe transfer (date of transfer)".
 1. Click "Save".
 
-**Posting a payment from a “bank customer”**
+**Posting a payment from a "bank customer"**
 
 In Netsuite:
 
-1. Click on the “+” sign.
-1. Click on “Receive Payment” under Customers.
+1. Click on the "+" sign.
+1. Click on "Receive Payment" under Customers.
 1. Fill the "Payment Date" with the date payment was received.
 1. Fill the "Payment Method" choose from the dropdown menu.
 1. Fill the "Reference No." with the check # or bank reference # from incoming wire.
@@ -246,10 +246,10 @@ If you are a GitLab recurring vendor and did not receive an onboarding email fro
 
 Please note the below steps reference how to manually enter bills into NetSuite.  Effective 2019-11-01 all AP invoices were processed through Tipalti. Effective 2021-06-01 (Coupa Phase I) and 2021-12-13 (Coupa Phase II), AP invoices will be processed in Coupa. These systems will automatically record the transaction into NetSuite after the invoice has been approved by the corresponding business partner in the respective system.
 
-1. On the NetSuite home page, click the “+” icon near the global search bar at the top of the screen and select “Bill."
+1. On the NetSuite home page, click the "+" icon near the global search bar at the top of the screen and select "Bill."
 1. Select the appropriate vendor record. If adding a new vendor, follow the bullets below before proceeding, otherwise skip to step 3.
     - Enter the company name, email address, applicable subsidiary, physical address, payment terms, primary currency, and Tax ID. (Note that the address field is located under the "Address" tab, while the Tax ID, primary currency, and payment terms fields are located under the "Financial" tab)
-    - Enter the banking information in the "Comments" field then click “Save.”
+    - Enter the banking information in the "Comments" field then click "Save."
     - Go to the "+" icon at the top of the vendor record and select "Bill" from the dropdown box.
 1. Enter Bill date. The due date should auto-fill based on payment terms entered during vendor setup. If not, select the correct due date and update the vendor record after the bill has been entered and saved.
 1. Enter Bill number.
@@ -259,10 +259,10 @@ Please note the below steps reference how to manually enter bills into NetSuite.
 1. Select tax code, if applicable.
 1. Enter department. (This must be entered if the account you selected in step 6 is an expense account)
 1. Add attachments: Go to the "Communication" tab and find the "Files" subtab.
-1. Click "New File.” A new window will appear, allowing you to select the file you wish to attach.
+1. Click "New File." A new window will appear, allowing you to select the file you wish to attach.
 1. In the new window, select the "Attachments Received" folder in the dropdown box, then click "Choose File" to attach both a copy of the vendor bill and email approval. (The supporting email approval must be attached along with a copy of the invoice)
-1. Click "Save.”
-1. In Google Drive, file invoice in the “Unpaid” folder.
+1. Click "Save."
+1. In Google Drive, file invoice in the "Unpaid" folder.
 
 #### Invoicing in Coupa
 
@@ -281,10 +281,10 @@ Invoices in Coupa can be created via 4 different channels:
   - Suppliers act directly (flip PO to invoice) from Coupa PO SAN email.
   - No need to register for/sign into Coupa/CSP, free service available any suppliers (with email).
 - **cXML**
-  - For “high-touch” suppliers (e.g. Amazon, CDW) with cXML invoicing capability to receive POs and transmit invoices directly.
+  - For "high-touch" suppliers (e.g. Amazon, CDW) with cXML invoicing capability to receive POs and transmit invoices directly.
   - Works well in conjunction with punchouts.
 - **Manual Entry in Coupa UI**
-  - “Flip PO” option copies data from Coupa PO to pre-populate invoice fields for faster entry.
+  - "Flip PO" option copies data from Coupa PO to pre-populate invoice fields for faster entry.
   - Non PO backed invoice manual entry.
 
 #### Coupa Integration - troubleshooting for Invoices
@@ -337,12 +337,12 @@ The invoice rejection process in Coupa allows the Accounts Payable team to make 
 
 Please note the below steps reference how to manually enter bills into NetSuite.  Effective 2019-11-01 all AP invoices should be getting processed through Tipalti and Effective 2021-06-01 we will begin to process in Coupa as well. These 2 systems will automatically record the transaction into NetSuite after the invoice has been approved by the corresponding business partner in the respective system.
 
-1. On the NetSuite home page, click the “+” icon near the global search bar at the top of the screen and select “Bill."
+1. On the NetSuite home page, click the "+" icon near the global search bar at the top of the screen and select "Bill."
 1. Select the appropriate vendor record.
     >**If adding a new vendor, follow the bullets below before proceeding, otherwise skip to step 3**
     >
     > - Enter the company name, email address, applicable subsidiary, physical address, payment terms, primary currency, and Tax ID. (Note that the address field is located under the "Address" tab, while the Tax ID, primary currency, and payment terms fields are located under the "Financial" tab)
-    > - Enter the banking information in the "Comments" field then click “Save.”
+    > - Enter the banking information in the "Comments" field then click "Save."
     > - Go to the "+" icon at the top of the vendor record and select "Bill" from the dropdown box.
 1. Enter Bill date. The due date should auto-fill based on payment terms entered during vendor setup. If not, select the correct due date and update the vendor record after the bill has been entered and saved.
 1. Enter Bill number.
@@ -352,10 +352,10 @@ Please note the below steps reference how to manually enter bills into NetSuite.
 1. Select tax code, if applicable.
 1. Enter department. (This must be entered if the account you selected in step 6 is an expense account)
 1. Add attachments: Go to the "Communication" tab and find the "Files" subtab.
-1. Click "New File.” A new window will appear, allowing you to select the file you wish to attach.
+1. Click "New File." A new window will appear, allowing you to select the file you wish to attach.
 1. In the new window, select the "Attachments Received" folder in the dropdown box, then click "Choose File" to attach both a copy of the vendor bill and email approval. (The supporting email approval must be attached along with a copy of the invoice)
-1. Click "Save.”
-1. In Google Drive, file invoice in the “Entered” folder for that entity.
+1. Click "Save."
+1. In Google Drive, file invoice in the "Entered" folder for that entity.
 
 ### Payment Process
 
@@ -388,10 +388,10 @@ For more information regarding how to set up SPAs or Coupa Pay, please check out
 
 #### Creating a Batch in Coupa
 
-- Only Invoices in the “Ready to Pay” status can be utilized to create a batch.
+- Only Invoices in the "Ready to Pay" status can be utilized to create a batch.
 - Invoices can be removed from payment by Coupa Pay using the slider button under "Actions" *(in case a supplier is selected for Coupa pay but need to be paid out of NetSuite, switch their payment method to ERP)*.
-- The “Pay from Account” (Company Payment Account or CPA) will be automatically defaulted based on the Chart Of Accounts. The CPA can be adjusted manually by selecting the dropdown.
-  - The “Pay to Account” (Supplier Payment Account or SPA) will be defaulted based on the Remit-To entered on the invoice.
+- The "Pay from Account" (Company Payment Account or CPA) will be automatically defaulted based on the Chart Of Accounts. The CPA can be adjusted manually by selecting the dropdown.
+  - The "Pay to Account" (Supplier Payment Account or SPA) will be defaulted based on the Remit-To entered on the invoice.
 
 #### Approving a Batch in Coupa
 
@@ -434,7 +434,7 @@ If your job function requires you to submit purchase requests in Coupa, follow t
 1. Add the labels ~"FinSys - Coupa" and ~"FinSys::Service Desk".
 
 {{< panel header="**Best Practices**" header-bg="green" >}}
-Due to the limited number of licenses available for Coupa, it is recommended that each department identify power users responsible for creating purchase requests on the team’s behalf.
+Due to the limited number of licenses available for Coupa, it is recommended that each department identify power users responsible for creating purchase requests on the team's behalf.
 {{< /panel >}}
 
 ## Expenses
@@ -493,7 +493,7 @@ Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further
 
 When reducing spend, we will not take the easy route of (temporarily) reducing discretionary spending.
 Discretionary spending includes expenses like travel, conferences, gifts, bonuses, merit pay increases and summits.
-By reducing in these areas we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-–-soda’s-are-no-longer-free/).
+By reducing in these areas we put ourselves at risk of [increasing voluntary turnover among the people we need most](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-–-soda's-are-no-longer-free/).
 
 Discretionary spending is always subject to questioning, we are frugal and all spending needs to contribute to our goals.
 But, we should not make cuts in reaction to the need to reduce spend; that would create a mediocre company with mediocre team members.
@@ -565,7 +565,7 @@ This policy establishes the minimum cost (capitalization amount) used to determi
 
 **Capital Assets Defined**
 
-A “Capital Asset” is a unit of property that has an economic useful life extending beyond 12 months **and** was acquired (or in some cases, produced) for a cost of [$5,000 (USD)]({{< ref "compensation#exchange-rates" >}}) or more. Capital Assets must be capitalized and depreciated for financial reporting purposes.
+A "Capital Asset" is a unit of property that has an economic useful life extending beyond 12 months **and** was acquired (or in some cases, produced) for a cost of [$5,000 (USD)]({{< ref "compensation#exchange-rates" >}}) or more. Capital Assets must be capitalized and depreciated for financial reporting purposes.
 
 **Capitalization Thresholds**
 
@@ -617,9 +617,9 @@ Refer to Legal page for [Related Party Transactions policy](/handbook/legal/#git
 
 ### Accounting Team PTO Guidelines
 
-Our ability to accomplish our Finance and Accounting mission of providing timely, fact-based information to drive business results as a public company depends on the participation of team members during certain critical times of year. Our accounting function provides critical, time based deliverables that directly impact our ability to support business growth and meet our public company obligations. These activities require the entire team’s support.
+Our ability to accomplish our Finance and Accounting mission of providing timely, fact-based information to drive business results as a public company depends on the participation of team members during certain critical times of year. Our accounting function provides critical, time based deliverables that directly impact our ability to support business growth and meet our public company obligations. These activities require the entire team's support.
 
-Team Members should prioritize taking time off to refresh and recharge outside of these critical windows. While these exact windows vary by team, generally we need all team members to support the last week of the quarter and first two weeks of the next quarter. Check with your manager if you are unsure what is applicable to your role. When these windows overlap a weekend (particularly the last day of the quarter) or public holiday/ Family and Friends day, we recommend team members work with their manager to reschedule the day off to a day outside of this critical end of quarter time period. If a team member is unavailable to work during this time period, they should provide their manager with at least one months’ notice whenever possible to allow for coverage to be arranged. When appropriate, we will create rotational coverage plans over holidays/weekends, while remaining in line with applicable jurisdictional requirements.
+Team Members should prioritize taking time off to refresh and recharge outside of these critical windows. While these exact windows vary by team, generally we need all team members to support the last week of the quarter and first two weeks of the next quarter. Check with your manager if you are unsure what is applicable to your role. When these windows overlap a weekend (particularly the last day of the quarter) or public holiday/ Family and Friends day, we recommend team members work with their manager to reschedule the day off to a day outside of this critical end of quarter time period. If a team member is unavailable to work during this time period, they should provide their manager with at least one months' notice whenever possible to allow for coverage to be arranged. When appropriate, we will create rotational coverage plans over holidays/weekends, while remaining in line with applicable jurisdictional requirements.
 
 ### Investment Policy
 
@@ -640,11 +640,11 @@ The Company may use the following brokerage institutions:
 
 **Investment Objectives**
 
-The basic objectives of the Company’s investment program are, in order of priority:
+The basic objectives of the Company's investment program are, in order of priority:
 
 - Safety and preservation of principal by investing in a high quality, diversified portfolio of securities, mutual funds, and bank deposits.
-- Liquidity of investments that is sufficient to meet the Company’s projected cash flow requirements and strategic needs.
-- Maximize after-tax market rates of return on invested funds that are consistent with the stated objectives herein, conservative risk tolerance and the Company’s current tax position.
+- Liquidity of investments that is sufficient to meet the Company's projected cash flow requirements and strategic needs.
+- Maximize after-tax market rates of return on invested funds that are consistent with the stated objectives herein, conservative risk tolerance and the Company's current tax position.
 - Maturity Limits
 - Individual security maturities should not exceed 24 months.  The weighted average maturity of the portfolio shall not exceed 12 months.  A maturity or effective maturity by definition shall include puts, announced calls or other structural features which will allow the Company to redeem the investments at a quantifiable price consistent with liquidity, safety and preservation of capital.
 
@@ -676,7 +676,7 @@ Investment Products (Rating, Sector Concentration, Issuer Concentration)
 
 **Purpose**
 
-This policy describes the methodology used to monitor and account for GitLab’s prepaid expenses.
+This policy describes the methodology used to monitor and account for GitLab's prepaid expenses.
 
 {{% alert color="warning" %}}
 **Effective 2022-04-01 a new Accounting Prepaid Automation Process has been implemented. Please click [here](https://about.gitlab.com./prepaid/) to learn more about the process, which utilizes Coupa.**
@@ -717,7 +717,7 @@ Team member travel expenses are expensed in the period incurred. Costs related t
 
 **Purpose**
 
-To provide clear guidance concerning the identification and recording of items included in GitLab’s accrued and other liability accounts. The purpose of monthly accrual processes is to allocate expenses to the proper accounting period and match expenses with related revenues. At the close of each month, accrual processes ensure that all expenses related to that month are correctly included in the company's financial statements. Additionally, this policy establishes standards and guidelines for ensuring that GitLab accounts for monthly accruals in a manner that is compliant with management's objectives and generally accepted accounting principles (GAAP). This policy applies to GitLab and all subsidiaries.
+To provide clear guidance concerning the identification and recording of items included in GitLab's accrued and other liability accounts. The purpose of monthly accrual processes is to allocate expenses to the proper accounting period and match expenses with related revenues. At the close of each month, accrual processes ensure that all expenses related to that month are correctly included in the company's financial statements. Additionally, this policy establishes standards and guidelines for ensuring that GitLab accounts for monthly accruals in a manner that is compliant with management's objectives and generally accepted accounting principles (GAAP). This policy applies to GitLab and all subsidiaries.
 
 **Identification**
 
@@ -729,7 +729,7 @@ The following items should be accrued monthly as necessary (note: this list is n
 
    - Contracts: Amounts due under contracts, including retainer fees. These items should be recorded as they become billable.
    - Professional Fees: This liability includes legal, tax, and audit consulting and other professional fees.
-   - Legal Contingencies: Pending or threatened litigation, and actual or probable settlement. Legal contingencies should be determined with the help of GitLab’s VP of Legal - Commercial, IP & Compliance.
+   - Legal Contingencies: Pending or threatened litigation, and actual or probable settlement. Legal contingencies should be determined with the help of GitLab's VP of Legal - Commercial, IP & Compliance.
 
 1. Wages and Compensation:
 
@@ -767,7 +767,7 @@ The Sr. Accounting Manager is responsible for performing an overall review of ac
 
 **Overview**
 
-Foreign currency translation describes the method used in converting a foreign entity's functional currency (as determined and documented in GitLab.com>Finance>Issues>#630) to the reporting entity's financial statement currency. Prior to translating the foreign entity’s financial statements into the reporting entity’s currency, the foreign entity’s financials must be prepared in accordance with generally accepted accounting principles (GAAP), specifically under [Financial Accounting Standards Board (FASB) Statement No.52](https://www.fasb.org/page/PageContent?pageId=/reference-library/superseded-standards/summary-of-statement-no-52.html). GitLab’s financial statement reporting currency is USD. The functional currency of our non-U.S. subsidiaries is the local currency. Changes in foreign currency translation are recorded in other comprehensive income (loss), which is reported in the consolidated statement of equity and ultimately carried over to the consolidated balance sheet, under equity.
+Foreign currency translation describes the method used in converting a foreign entity's functional currency (as determined and documented in GitLab.com>Finance>Issues>#630) to the reporting entity's financial statement currency. Prior to translating the foreign entity's financial statements into the reporting entity's currency, the foreign entity's financials must be prepared in accordance with generally accepted accounting principles (GAAP), specifically under [Financial Accounting Standards Board (FASB) Statement No.52](https://www.fasb.org/page/PageContent?pageId=/reference-library/superseded-standards/summary-of-statement-no-52.html). GitLab's financial statement reporting currency is USD. The functional currency of our non-U.S. subsidiaries is the local currency. Changes in foreign currency translation are recorded in other comprehensive income (loss), which is reported in the consolidated statement of equity and ultimately carried over to the consolidated balance sheet, under equity.
 
 **Exchange Rates**
 
@@ -789,7 +789,7 @@ Currency translation risk occurs due to the company owning assets and liabilitie
 
 **Cumulative Translation Adjustment**
 
-A cumulative translation adjustment (CTA) is an entry to the comprehensive income section of a translated balance sheet that summarizes the gains(losses) resulting from exchange rate differences over time. Currency values shift constantly, affecting how a currency is valued against others. The CTA is a line item in the consolidated balance sheet that captures gains(losses) associated with international business activity and exposure to foreign markets. The changes in CTA are recorded in other comprehensive income (loss). CTA’s are required under GAAP since they help distinguish between actual operating gains(losses) and those that arise from the currency translation process. Additional information on our reporting standards surrounding CTA's can be found in [FASB Topic 830, "Foreign Currency Matters."](https://fasb.org/Page/ShowPdf?path=ASU2013-05.pdf)
+A cumulative translation adjustment (CTA) is an entry to the comprehensive income section of a translated balance sheet that summarizes the gains(losses) resulting from exchange rate differences over time. Currency values shift constantly, affecting how a currency is valued against others. The CTA is a line item in the consolidated balance sheet that captures gains(losses) associated with international business activity and exposure to foreign markets. The changes in CTA are recorded in other comprehensive income (loss). CTA's are required under GAAP since they help distinguish between actual operating gains(losses) and those that arise from the currency translation process. Additional information on our reporting standards surrounding CTA's can be found in [FASB Topic 830, "Foreign Currency Matters."](https://fasb.org/Page/ShowPdf?path=ASU2013-05.pdf)
 
 Recording CTA - Exchange rate gains and losses for individual transactions are captured automatically by our ERP system, NetSuite. However, a CTA entry must be made in order to properly distinguish currency translation gains(losses) from other general gains(losses) in the consolidated financial statements. This entry includes reconciliation of any inter-company activity that generates foreign exchange gains(losses). The CTA is made on a monthly basis as part of our financial statement reporting cycle.
 
@@ -797,7 +797,7 @@ Recording CTA - Exchange rate gains and losses for individual transactions are c
 
 **Scope**
 
-This policy establishes GitLab’s guidelines regarding the structure, responsibilities and requirements underlying the [chart of accounts (COA).](https://www.investopedia.com/terms/c/chart-accounts.asp)
+This policy establishes GitLab's guidelines regarding the structure, responsibilities and requirements underlying the [chart of accounts (COA).](https://www.investopedia.com/terms/c/chart-accounts.asp)
 
 **Purpose**
 
@@ -831,11 +831,11 @@ The COA is maintained in NetSuite. Changes to the COA can only be made by the Co
 
 **Scope**
 
-This policy applies to GitLab Inc. (“GitLab” or the “Company”) and all of its subsidiaries.
+This policy applies to GitLab Inc. ("GitLab" or the "Company") and all of its subsidiaries.
 
 **Purpose**
 
-To establish guidelines for assessing, preparing and reviewing balance sheet account reconciliations on a consistent basis in accordance with corporate policies and US Generally Accepted Accounting Principles (“GAAP”).
+To establish guidelines for assessing, preparing and reviewing balance sheet account reconciliations on a consistent basis in accordance with corporate policies and US Generally Accepted Accounting Principles ("GAAP").
 
 **Policy**
 

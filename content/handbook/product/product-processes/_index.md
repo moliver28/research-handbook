@@ -398,7 +398,7 @@ make complete sense of it again without losing some important context. It's
 also nearly impossible for someone who wants to make a community contribution
 to understand what the direction is. In other words, it becomes an undefined blob of ideas.
 
-To prevent this, it is the product manager's responsibility to quickly determine whether an open-ended issue aligns with our business model and is broadly useful. If the answer to those questions is "yes," then we must turn it into something actionable, deliverable, and truly MVC as quickly as possible. If the answer is “no,” then we must close the issue to [maintain our backlog’s hygiene](https://www.huffpost.com/entry/how-to-maintain-your-prod_b_9920692?guccounter=1).
+To prevent this, it is the product manager's responsibility to quickly determine whether an open-ended issue aligns with our business model and is broadly useful. If the answer to those questions is "yes," then we must turn it into something actionable, deliverable, and truly MVC as quickly as possible. If the answer is "no," then we must close the issue to [maintain our backlog's hygiene](https://www.huffpost.com/entry/how-to-maintain-your-prod_b_9920692?guccounter=1).
 
 The guidance for product managers is to never let an idea issue persist
 longer than three months without having been converted into a clear MVC.
@@ -677,7 +677,7 @@ Adapt this process as needed, and consider changing it to an asynchronous mode o
 
 `@-mention participants` for our [prioritization session](/handbook/product/product-processes/#prioritization-sessions), here's the [**Mural**](URL) for us to add the issues we want to see in **MILESTONE**. I scheduled our 50-minute session for **DATE**.
 
-1. Add your issues to the Mural before the call. Let's try to limit to **5 issues per person**, so it's easier to vote on them and keep things focused. You can find instructions on how to add them in the “Outline” panel on the right side of the Mural UI.
+1. Add your issues to the Mural before the call. Let's try to limit to **5 issues per person**, so it's easier to vote on them and keep things focused. You can find instructions on how to add them in the "Outline" panel on the right side of the Mural UI.
 1. Try not to add Security or Availability issues. This is also noted in the [product processes page](/handbook/product/product-processes/#prioritization), as those issues have forced prioritization with SLAs/SLOs.
 1. If you can, mark issues that appeared in previous sessions by changing their sticky color to **orange**.
 
@@ -1454,7 +1454,7 @@ Here are several strategies for breaking features down into tiny changes that ca
 
 #### Workflow steps
 
-As part of design and discovery, you likely created a minimal user journey that contains sequential steps a user is going to take to “use” the feature you are building. Each of these should be separated. You can further by asking yourself these questions:
+As part of design and discovery, you likely created a minimal user journey that contains sequential steps a user is going to take to "use" the feature you are building. Each of these should be separated. You can further by asking yourself these questions:
 
 - Can/is it desirable to perform this action via the UI or can we use a non-UI approach as a start (for example, CLI, API or .csv download of data)? This is a great starting point before adding UI components that achieve the same thing.
 - Will there be different UI paths to perform the same task? Identify which are the most useful and which are the easiest to implement. Weight both factors when determining which to start with, and build from there.
@@ -1465,7 +1465,7 @@ View, Create, Update, Remove and Delete are actions users take while interacting
 
 #### Functional criteria
 
-Often, the criteria for features are built on is implicit. It can help to use a test-driven development mindset where you write the tests and the outcomes you need from the software before building the software. Writing these tests can uncover the different criteria you need the development team to meet when building the new feature. Once you’ve outlined these tests, you may be able to use them to continue to break down the feature into smaller parts for each test. Here are a few examples:
+Often, the criteria for features are built on is implicit. It can help to use a test-driven development mindset where you write the tests and the outcomes you need from the software before building the software. Writing these tests can uncover the different criteria you need the development team to meet when building the new feature. Once you've outlined these tests, you may be able to use them to continue to break down the feature into smaller parts for each test. Here are a few examples:
 
 - What is the default behavior when there is no data (empty/null state)?
 - Are there automatic actions or events that occur as part of your feature? Write them down, and identify those that can be done manually by the user before adding automation.
@@ -1481,7 +1481,7 @@ Software often fails and can fail in different ways depending upon how it is arc
 Breaking down a design into pieces that can be released iteratively is going to depend on what you are building. Here are a few helpful questions to guide that process:
 
 - What components already exist that you can reuse to go faster?
-- What constitutes “extra styling”? Is there a way to display the information you need to display plainly and then add details later?
+- What constitutes "extra styling"? Is there a way to display the information you need to display plainly and then add details later?
 - Do you have lots of interactions in the design that make the UX lovable? Can you pull those out into separate issues and add them iteratively? (e.g. hover states, drag & drop, toggles, options to show/hide info, collapse/expand, etc)
 
 #### Refactors
@@ -1597,7 +1597,7 @@ Stakeholder collaboration and feedback is a critical competitive advantage here
 at GitLab. To ensure this is possible, and facilitate collaboration, you should
 maintain an updated single source of truth (SSOT) of your stage direction, category
 strategies, and plan, at all times. This equips anyone who wants to contribute to
-your stage’s product direction with the latest information in order to effectively
+your stage's product direction with the latest information in order to effectively
 collaborate. Some sections and teams use the [scheduled Direction Update issue template](https://gitlab.com/gitlab-com/Product/blob/master/templates/DIRECTION-UPDATES.md.erb) to
 remind themselves of this task.
 
@@ -1609,7 +1609,7 @@ on these artifacts via these (non-exhaustive) opportunities:
 - Participate in the [CAB](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#gitlab-devops-customer-advisory-board).
 - Talk with GitLab team-members using GitLab.
 - Talk with GitLab team-members in [group conversations](/handbook/company/group-conversations/).
-- Talk with other PMs and [Product leadership](/handbook/product/product-leadership/) to align your stage’s product direction with the rest of GitLab.
+- Talk with other PMs and [Product leadership](/handbook/product/product-leadership/) to align your stage's product direction with the rest of GitLab.
 
 Here is some guidance for new PMs to ensure your stage direction, category strategies and plan
 are up-to-date and visible to critical stakeholders:
@@ -1664,8 +1664,8 @@ two primary techniques for targeting those topics:
 
 - **Top Competitors** - Identify the top 3 competitors in your categories and talk to
 customers using those competitor asking: What is missing to have you switch from
-X to us? We’re not aiming for feature parity with competitors, and we’re not
-just looking at the features competitors talk about, but we’re talking with
+X to us? We're not aiming for feature parity with competitors, and we're not
+just looking at the features competitors talk about, but we're talking with
 customers about what they actually use, and ultimately what they _need_.
 - **User Need** - Identify GitLab users from key customers of your group's
 categories and features. Solicit them for what they love about the features and
@@ -2119,7 +2119,7 @@ may not have a specific start or end date, and may contain single iteration epic
 
 This is useful to have an overview of the future so participants and observers can
 understand how the pieces fit together. It can be really useful to understand the
-context of where we think we’re going so we can do a good job with the MVC.
+context of where we think we're going so we can do a good job with the MVC.
 
 Also, it conveys confidence internally and externally that we understand what
 we need to do when the MVC is particularly minimal. But don't get too caught up
@@ -2132,7 +2132,7 @@ as possible and then move on, but we must always strive to create a more
 specific epic for the first iteration, or the next iteration if something
 already exists. Describing an MVC means that the community can contribute more
 easily. Also, after distilling things down to a first iteration, you might
-realize it’s a lot easier than you thought, and prioritize it earlier. You can
+realize it's a lot easier than you thought, and prioritize it earlier. You can
 have an MVC without a meta issue. But **you can't have a meta issue without an MVC**.
 
 ### Issues

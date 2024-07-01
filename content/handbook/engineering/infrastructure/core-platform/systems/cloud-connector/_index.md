@@ -10,11 +10,11 @@ Make it easy to build a feature into GitLab across multiple types of deployment
 
 GitLab Cloud Connector is a way to access services common to multiple GitLab deployments, instances, and cells. GitLab customers can choose between the following deployment options:
 
-* GitLab.com’s multi-tenant SaaS offering.
+* GitLab.com's multi-tenant SaaS offering.
 * Deploying their own self-managed GitLab instance.
 * Signing up for GitLab Dedicated, our managed single-tenant solution.
 
-The goal of GitLab Cloud Connector is to ensure that GitLab features can work equally across all three. This aligns with Enablement’s mission of accelerating other product groups by reducing the friction of developing for multiple deployments.
+The goal of GitLab Cloud Connector is to ensure that GitLab features can work equally across all three. This aligns with Enablement's mission of accelerating other product groups by reducing the friction of developing for multiple deployments.
 
 You can check our [direction page](https://about.gitlab.com/direction/cloud-connector/) for more information on our mission, and our short term and long term roadmap.
 

@@ -5,12 +5,6 @@ description: "Create a company-wide customer success approach, providing an enga
   framework for the Customer Success organization"
 ---
 
-
-
-
-
-
-
 *"Customer Success is when customers achieve their desired outcome through interactions with your company with the appropriate experience."* - Lincoln Murphy
 
 ## Objective

@@ -1,10 +1,7 @@
 ---
-
 title: Change Management in GitLab Support
 description: Decision Making and Change Management in the GitLab Support Leadership Team
 ---
-
-
 
 ## Decision Making and Change Management in the GitLab Support Leadership Team
 
@@ -63,8 +60,8 @@ the scope of the change will be.
 
 When thinking about whether a change should be local or global, you might be
 tempted to focus on the size of the change (number of lines of code changed,
-number of lines of text in a doc that changed, etc.). But that’s actually a
-different type of scope that isn’t relevant to this discussion.
+number of lines of text in a doc that changed, etc.). But that's actually a
+different type of scope that isn't relevant to this discussion.
 
 Instead, begin with the idea that for the sake of consistency and simplicity,
 you should lean toward making your change globally unless it doesn't even make
@@ -77,22 +74,22 @@ potential impacts of making a local change:
    1. Your local work products become incompatible with those of the other teams
    1. Terminologies or workflows diverge between your local team and the others,
       inhibiting collaboration
-   1. Other teams can’t work in concert with yours because they don’t have
+   1. Other teams can't work in concert with yours because they don't have
       access to new tools and resources yours is using
 1. Will customers notice the local change?
    If so:
    1. Will customers be inconvenienced or even just annoyed by having to work
       differently in some way with your team than with the other teams?
-   1. Will customers’ expectations of “normal” service continue to be met?
+   1. Will customers' expectations of "normal" service continue to be met?
    1. Will customers like your change enough to be dissatisfied when other teams
-      or regions don’t do the same thing?
+      or regions don't do the same thing?
 1. Will it create different job descriptions or performance measures between
    your team and the other regions?
 
 ### Communicating a Change Proposal
 
-Whether you’re making a local change, based on the decision criteria above, or
-proposing a global one, it’s important to communicate your plans with the rest
+Whether you're making a local change, based on the decision criteria above, or
+proposing a global one, it's important to communicate your plans with the rest
 of the Support Leadership Team.
 
 #### Creating a Requested Change Issue and/or MRs
@@ -125,12 +122,12 @@ a MR, place the information in the issue instead.*
 
 #### Communicating a Local Change Proposal
 
-Inform the leadership team as an “inform” item in the agenda for the next
+Inform the leadership team as an "inform" item in the agenda for the next
 [leadership sync meeting](/handbook/support/managers/#organization-of-support-leadership-meetings).
 Why?
 
 - Someone else might have a suggestion for you
-- Someone else might be interested in what you’re doing
+- Someone else might be interested in what you're doing
 - It aligns well with our Transparency value
 
 #### Communicating a Global Change Proposal
@@ -138,7 +135,7 @@ Why?
 Engage the leadership team in a conversation through your issue and through a full agenda
 topic in the [leadership sync meeting](/handbook/support/managers/#organization-of-support-leadership-meetings):
 
-- Describe the problem you’re working to solve
+- Describe the problem you're working to solve
 - Let the team know if you are the DRI, or are seeking a DRI
 - Let the team know whether you're proposing a solution based on compelling
   existing data or you're planning to conduct one or more tests (trials) to

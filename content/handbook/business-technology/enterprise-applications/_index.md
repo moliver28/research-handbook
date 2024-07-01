@@ -1,5 +1,4 @@
 ---
-
 title: "Enterprise Applications Team"
 description: "The Enterprise Applications Team implements and supports specialized applications that support our business processes within GitLab."
 ---
@@ -132,7 +131,7 @@ graph TD
 Before opening a new intake request with Enterprise Applications, please check the Services We Support section that lists the templates to be used for specific requests.
 {: .alert .alert-danger}
 
-To request work to be added to the [Enterprise Applications Roadmap](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/-/roadmap?state=opened&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name%5B%5D=BT-Project&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL), please open an [intake issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/new?issue%5Bmilestone_id%5D=#) using the “Request” template.
+To request work to be added to the [Enterprise Applications Roadmap](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/-/roadmap?state=opened&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name%5B%5D=BT-Project&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL), please open an [intake issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/new?issue%5Bmilestone_id%5D=#) using the "Request" template.
 
 Every week, the Enterprise Applications Leadership reviews the [EntApps Intake board](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/boards/2798638?label_name%5B%5D=EntApps%20Intake) and there are only 2 possible outputs for the issues on the *Open* list:
 

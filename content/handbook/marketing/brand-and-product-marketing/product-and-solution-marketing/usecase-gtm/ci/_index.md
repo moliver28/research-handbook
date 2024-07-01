@@ -148,22 +148,22 @@ The sample discovery questions below are meant to provide a baseline and help yo
 - We've heard that some customers struggle with managing complex pipelines and supporting integrations.  What difficulties do you and/or your team see in these areas?  Do you have a sense of how much time the team is spending?
 - Many of our customers have multiple Jenkins administrators. Is this the case with you? What would it mean to your organization if you could free half of those people up to do more than manage pipelines?
 - How happy are your teams with the usability and interface of their current CI solution?
-- Has there been any discussion to standardize on a single solution for CI since you’re already using GitLab for other needs?
+- Has there been any discussion to standardize on a single solution for CI since you're already using GitLab for other needs?
 - How are you currently supporting CI internally? Do you have a dedicated team or require in-house expertise for guidance, best practices, and fixing issues?
 - How often is your day to day or planned work interrupted to fix or maintain your CI tool?
 - How much productivity is lost because of delays due to managing your Jenkins environment separately from your source code?
 - How much time does your team spend 'babysitting' their pipeline jobs?
 - Is your organization investing to improve CI/CD in the short term or long term? Is there a clearly defined strategy or timeline?
-  - What’s the expectation on your team to support or facilitate this initiative?
+  - What's the expectation on your team to support or facilitate this initiative?
   - Are you going to be onboarding additional teams in the next say, 12 months?
 - What kind of roadblocks or hurdles does your team encounter when automating builds/tests at scale? How is this affecting your velocity as you scale?
-- What is the workflow if a developer wants to create a new pipeline or add a job to an existing pipeline? How much time does that take the developer away from doing “real work?"
+- What is the workflow if a developer wants to create a new pipeline or add a job to an existing pipeline? How much time does that take the developer away from doing "real work?"
 - What would be the impact if your team were able to self-service a working pipeline within 1 hour with confidence that all standards and best practices are followed?
 - Would you be open to scheduling a follow-up call to discuss more about what GitLab CI can do for you and your team?
 
 #### Additional Discovery Questions
 
-- Has there been any discussion to standardize on a single solution for CI since you’re already using GitLab for other needs?
+- Has there been any discussion to standardize on a single solution for CI since you're already using GitLab for other needs?
 - What is your strategy around improving CI/CD?
 - Would it be valuable to have your CD solution use the same configuration and format as your CI, AND have visibility into the full product pipeline from idea to production?
 - Tell me about the difficulties you're having managing complex pipelines and supporting integrations.
@@ -260,7 +260,7 @@ Amongst the many competitors in the DevOps space, Jenkins and CircleCI are the c
 - **Problem** Needed to increase developer efficiency and software quality
 - **Solution:** GitLab Premium (CI/CD, SCM)
 - **Result:** Improved from **1 build every two weeks to over a 1000/day**, or releasing 6 times per day per developer, and an average cycle time from branch to merge is now 30 minutes; simplified workflow and simplified administration
-All the new strategic pieces of ’software development platforms are tied into GitLab. GitLab is used as a complete ecosystem for development, source code control and reviews, builds, testing, QA, and production deployments.
+All the new strategic pieces of 'software development platforms are tied into GitLab. GitLab is used as a complete ecosystem for development, source code control and reviews, builds, testing, QA, and production deployments.
 - **Sales Segment:** Enterprise
 
 #### [Hotjar](https://about.gitlab.com/customers/hotjar/)
@@ -309,7 +309,7 @@ This table shows the recommended features to adopt, links to product documentati
 | Add.gitlab-ci.yml file to your repositories root directory    |   x    |    x  |   x   | redis_hll_counters.pipeline_authoring.o_pipeline_authoring_unique_users_committing_ciconfigfile_monthly |     |
 | [Convert declarative Jenkinsfiles](https://docs.gitlab.com/ee/ci/migration/jenkins.html) *(Jenkins conversion only)* |    x   |   x   |  x    |     counts.projects_jenkins_active      |     |
 | **Run your pipeline!** CI/CD examples can be [viewed here](https://docs.gitlab.com/ee/ci/examples/)  |   x    |  x    |  x    |     usage_activity_by_stage.verify.ci_pipelines       |    |
-| Make use of GitLab’s [CI feature index](https://docs.gitlab.com/ee/ci/#gitlab-cicd-features)   |   x    |   x   |   x   |      counts.ci_runners, counts.ci_builds     |     |
+| Make use of GitLab's [CI feature index](https://docs.gitlab.com/ee/ci/#gitlab-cicd-features)   |   x    |   x   |   x   |      counts.ci_runners, counts.ci_builds     |     |
 |[Trigger Deployments](https://docs.gitlab.com/ee/ci/environments/)    |   x    |   x   |   x   |  usage_activity_by_stage_monthly.release.deployments         |     |
 | [Use Compliance Framework](https://docs.gitlab.com/ee/user/project/settings/#compliance-frameworks) | | x | x | usage_activity_by_stage.manage.projects_with_compliance_framework | |
 |[View Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html)    |      |   x   |   x   |  compliance_unique_visits.g_compliance_audit_events         |     |
@@ -392,7 +392,7 @@ Achieve advanced DevOps maturity with executive visibility, deeper insights/anal
 - [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/)- analyze Docker images and check for potential security issues.
 - [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/#project-security-dashboard)- visualize security status for projects.
 - **License Compliance-** identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
-- **Compliance Dashboard-** gives you the ability to see your group’s Merge Request activity by providing a high-level view for all projects in the group and approvers for a given Merge Request.
+- **Compliance Dashboard-** gives you the ability to see your group's Merge Request activity by providing a high-level view for all projects in the group and approvers for a given Merge Request.
 
 ## Resources
 

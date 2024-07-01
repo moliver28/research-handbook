@@ -38,9 +38,9 @@ draft: true
         - Fun - #random, #allcaps, #loc channels and there are others, just search for things you might find fun and interesting.
     - Tips/Tricks
         - Update your profile in Slack, especially your working hours and location
-        - Make use of starred channels, what’s most important to you.
+        - Make use of starred channels, what's most important to you.
         - Add keywords to get alerted on for your product area, competitors, etc.
-1. [ ] - Add a reminder for once a week to ask what they couldn’t get an answer on this week, how to get them unstuck for the first 6 weeks.
+1. [ ] - Add a reminder for once a week to ask what they couldn't get an answer on this week, how to get them unstuck for the first 6 weeks.
 1. [ ] - Ask them after a few days if they got their team page MR merged.
 1. [ ] - Tips / Tricks for sensing mechanisms
     - There is a good breakdown of sensing mechanism in the [handbook](/handbook/product/product-processes/#sensing-mechanisms). Some other things I have found useful are;

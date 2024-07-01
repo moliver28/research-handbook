@@ -1,8 +1,6 @@
 ---
-
 title: SA Practices
 ---
-
 
 ## SA Practices
 

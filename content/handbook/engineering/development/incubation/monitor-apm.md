@@ -1,13 +1,6 @@
 ---
-
 title: Monitor APM Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## Monitor APM Single-Engineer Group
 
@@ -94,7 +87,7 @@ classDiagram
 
 - **Monitoring** is the ability to understand, and alert on, an applications usage and performance.
 
-- **Observability** (abbreviated as “o11y”) allows you to answer questions about the state of your application by observing data coming from your application.
+- **Observability** (abbreviated as "o11y") allows you to answer questions about the state of your application by observing data coming from your application.
 
 - **Trace** is the relationship between events coming from your system, visualised by using timing data to display the relationships between events.
 

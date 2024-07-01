@@ -1,13 +1,6 @@
 ---
-
 title: "Plan:Project Management"
 ---
-
-
-
-
-
-
 
 ### Plan: Project Management
 

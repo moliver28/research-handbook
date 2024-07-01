@@ -1,5 +1,4 @@
 ---
-
 title: "Blog Handbook"
 description: "Everything you need to know about suggesting and publishing a post on the GitLab Blog."
 ---

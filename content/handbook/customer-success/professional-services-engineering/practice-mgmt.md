@@ -1,14 +1,7 @@
 ---
-
 title: "Professional Services Practice Management"
 description: "Discover how the GitLab Practice Management team works together."
 ---
-
-
-
-
-
-
 
 ## Practice Management Overview
 

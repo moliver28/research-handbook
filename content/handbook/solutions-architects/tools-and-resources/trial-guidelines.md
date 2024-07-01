@@ -1,9 +1,7 @@
 ---
-
 title: GitLab Trial Guidelines
 description: GitLab Trial Guidelines
 ---
-
 
 The guidelines here are meant to help prospects and existing GitLab Self-Managed or SaaS customers get started with an Ultimate trial.
 
@@ -36,7 +34,7 @@ Customers who choose a self-managed trial will need to install a single node [Om
 
 ### Extending an Existing Trial
 
-All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using [the GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc’d on Internal Requests.
+All internal requests regarding licensing, subscriptions, trials, and grace period extensions should be filed using [the GitLab Support Internal Request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Customers should not be cc'd on Internal Requests.
 
 Once you access the form, enter your email and choose "GitLab L&R Internal Request for Global Customers" or "GitLab L&R Internal Request for US Federal Customers" to renew and extend a trial license.
 

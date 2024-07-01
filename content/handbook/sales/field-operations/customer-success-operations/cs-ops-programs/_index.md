@@ -1,5 +1,4 @@
 ---
-
 title: "Customer Programs"
 description: "Customer Programs creates communication paths using Gainsight to inform, educate, and learn from our customers."
 ---
@@ -86,7 +85,7 @@ Targeting individual users at the account level enables the DCS Team to ensure c
 
 ### Sold-To Contacts
 
-If a customer purchases GitLab without the assistance of the Sales team directly from GitLab’s website, there may be no GitLab Admin user configured to the account. If so, communications normally designed for the GitLab Admin contacts will be sent to the contact that directly purchased GitLab products and services (the Sold-To contact). These contacts do not receive NPS or CSAT communication.
+If a customer purchases GitLab without the assistance of the Sales team directly from GitLab's website, there may be no GitLab Admin user configured to the account. If so, communications normally designed for the GitLab Admin contacts will be sent to the contact that directly purchased GitLab products and services (the Sold-To contact). These contacts do not receive NPS or CSAT communication.
 
 ## How to configure a GitLab Admin
 

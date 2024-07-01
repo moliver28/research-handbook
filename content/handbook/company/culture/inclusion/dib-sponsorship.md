@@ -13,7 +13,7 @@ Sponsorship is defined as using your influence and/or power to advocate and posi
 - Advocating for career advancement opportunities
 - Providing stretch opportunities to up skill via active projects
 - Promoting sponsee visibility with other senior leaders
-- Giving advice on “presentation of self” to sponsee
+- Giving advice on "presentation of self" to sponsee
 - Giving timely, honest feedback on skills, capabilities or experience gaps
 
 At GitLab a sponsorship program can be a way of rewarding and growing top performing GitLab team members. Alternatively, it can be used to increase representation or provide visibility to underrepresented groups at GitLab, which can be seen via the [Sales Sponsorship Program Pilot for Black Team Members]({{< ref "dib-sponsorship-program" >}}).
@@ -24,7 +24,7 @@ This page outlines what sponsorship is and the pathway to creating a successful 
 
 Mentorship is defined in our [Mentoring handbook page:](/handbook/people-group/learning-and-development/mentor#what-is-mentoring) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development.
 
-[Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: “While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you.”
+[Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: "While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you."
 
 ## Starting a DIB Sponsorship Program
 

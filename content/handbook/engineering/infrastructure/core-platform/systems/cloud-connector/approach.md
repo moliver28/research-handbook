@@ -3,12 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/systems/cloud-connec
 title: Application Performance Group - Approach and Common Themes
 ---
 
-
-
-
-
-
-
 ## How we approach a performance problem
 
 We're a cross-functional group, which means that we frequently need to venture into unknown territory,

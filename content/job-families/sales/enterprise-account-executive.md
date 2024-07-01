@@ -22,7 +22,7 @@ The Associate Strategic Account Executive is a [grade 8](/handbook/total-rewards
 
 ### Responsibilities
 
-- Support GitLab’s large prospects and customers within a geographic territory
+- Support GitLab's large prospects and customers within a geographic territory
 - Expand current customer base and land net new accounts
 - Generate new customers through different lead sources and bring those opportunities to a successful close
 - Generate qualified leads and develop new customers in conjunction with our strategic partners
@@ -37,7 +37,7 @@ The Associate Strategic Account Executive is a [grade 8](/handbook/total-rewards
 - Utilize a consultative approach, discuss business issues with prospects and develop a formal quote, a written sales proposal or a formal sales presentation addressing their business needs.
 - Develop an account plan to sell to customers based on their business needs.
 - Works cross functionally with other teams to ensure customer success
-- Update and maintain Sales systems’ database as appropriate
+- Update and maintain Sales systems' database as appropriate
 - Contribute to documenting improvements in our [sales handbook](/handbook/sales/).
 
 ### Requirements
@@ -49,7 +49,7 @@ The Associate Strategic Account Executive is a [grade 8](/handbook/total-rewards
 - Motivated, driven, and results oriented
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the [company’s travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the [company's travel policy](/handbook/travel/)
 
 ## Strategic Account Executive
 
@@ -61,7 +61,7 @@ The Strategic Account Executive is a [grade 8](/handbook/total-rewards/compensat
 
 ### Responsibilities
 
-- Supports GitLab’s [strategic large](/handbook/sales/field-operations/gtm-resources/#segmentation) prospects and customers.
+- Supports GitLab's [strategic large](/handbook/sales/field-operations/gtm-resources/#segmentation) prospects and customers.
 - Provide account leadership and direction in the pre- and post-sales process
 - Conduct sales activities including prospecting and developing opportunities in large/strategic accounts
 - Ensure the successful rollout and adoption of GitLab products through strong account management activities and coordination with pre-and-post sales and support resources
@@ -87,7 +87,7 @@ The Strategic Account Executive is a [grade 8](/handbook/total-rewards/compensat
 - Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the [company’s travel policy](/handbook/travel/)
+- Ability to travel if needed and comply with the [company's travel policy](/handbook/travel/)
 
 The [confidence gap](https://www.theatlantic.com/magazine/archive/2014/05/the-confidence-gap/359815/) exists. The above list is intended to show the kinds of experience and qualities we're looking for. If you're reading this, do not match all of the requirements, and are hesitant to apply, we encourage you to make an application despite your hesitations.
 
@@ -116,7 +116,7 @@ The Senior Strategic Account Executive is a [grade 8](/handbook/total-rewards/co
 
 - Additional Requirements
 - Successful quota attainment in the Federal Space
-- Ability to travel if needed and comply with the company’s travel policy.
+- Ability to travel if needed and comply with the company's travel policy.
 
 #### Department of Defense Only
 
@@ -147,10 +147,10 @@ The Major Account Executive Leader is a [grade 8](/handbook/total-rewards/compen
 
 ### Responsibilities
 
-- Manage and support  Gitlab’s major account/(s)
+- Manage and support  Gitlab's major account/(s)
 - Manage the end to end sales process through engagement of appropriate resources such as Solutions Architects, Customer Success Managers, Professional Services, Marketing,  Executives, Partners, and the Channel.
 - Leverage solution selling expertise to respond efficiently to customer needs and identify business potential in order to build a strategic, long-term partnership with your customers.
-- Has a deep understanding of the customer, including an understanding of their performance metrics and develops plans in anticipation of the customer’s business strategies and goals.
+- Has a deep understanding of the customer, including an understanding of their performance metrics and develops plans in anticipation of the customer's business strategies and goals.
 - Expand knowledge of industry as well as the competitive posture of the company
 - Contribute to root cause analysis on wins/losses.
 - Communicate lessons learned to the team, including account managers, the marketing team, and the technical team
@@ -169,7 +169,7 @@ The Major Account Executive Leader is a [grade 8](/handbook/total-rewards/compen
 - Deep understanding of with Git, Software Development Tools, Application Lifecycle Management
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab
-- Ability to travel if needed and comply with the company’s travel policy
+- Ability to travel if needed and comply with the company's travel policy
 
 ## Senior Major Account Executive
 
@@ -190,7 +190,7 @@ The Senior Major Account Executive Leader is a [grade 8](/handbook/total-rewards
 ### Requirements
 
 - Extends to the requirements of a Major Account Executive
-- Deep understanding of their customer’s business including specific trends impacting their sector
+- Deep understanding of their customer's business including specific trends impacting their sector
 - Expert in solution selling
 - Demonstrated ability to collaborate successfully with cross functional teams
 - Experience mentoring and coaching others
@@ -251,7 +251,7 @@ As part of this application, candidates can expect the following stages with foc
   - Solutions Focus - DevOps & Technical Leadership
   - Solutions Focus - Building Trust
   - Customer Focus - Facilitating
-  - Customer Focus - Understanding Customer’s Needs
+  - Customer Focus - Understanding Customer's Needs
   - Efficiency
 
 #### 4. Final Interview - Senior Leadership

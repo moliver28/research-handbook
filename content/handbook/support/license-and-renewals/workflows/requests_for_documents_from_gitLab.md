@@ -1,5 +1,4 @@
 ---
-
 title: Requests for documents or signatures from GitLab
 category: General
 description: How to get GitLab documents or signature for customers.

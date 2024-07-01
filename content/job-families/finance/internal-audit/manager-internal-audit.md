@@ -3,7 +3,7 @@ title: Manager, Internal Audit and SOX
 Description: Responsible for managing the Internal Audit and SOX team.
 ---
 
-Additionally, they prepare and implement a risk-based audit plan to assess, report on, and make suggestions for improving the company’s key operational and finance activities and internal controls. The Manager Internal Audit reports to the Senior Internal Audit Manager.
+Additionally, they prepare and implement a risk-based audit plan to assess, report on, and make suggestions for improving the company's key operational and finance activities and internal controls. The Manager Internal Audit reports to the Senior Internal Audit Manager.
 
 ### Job Grade
 
@@ -12,11 +12,11 @@ The Manager, Internal Audit is a [grade 8](/handbook/total-rewards/compensation/
 ### Responsibilities
 
 - Lead and manage the Internal Audit and SOX analyst team
-- Primary responsibility for determining, documenting and implementing the Company’s internal audit policies
+- Primary responsibility for determining, documenting and implementing the Company's internal audit policies
 - Document financial processes and perform test of controls for SOX compliance and audits
 - Assist with the execution of the internal audit plan and timely completion of assigned audits
 - Assist with enterprise risk management activities
-- Recommend improvements related to the Company’s key controls
+- Recommend improvements related to the Company's key controls
 - Work closely with external auditors and Internal Audit and SOX Manager
 - Must be able to work collaboratively with the operational accounting team and business functions
 - Responds to inquiries from the CFO, Controller, and company wide managers regarding financial results, special reporting requests and the like

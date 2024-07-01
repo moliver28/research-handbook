@@ -22,7 +22,7 @@ We follow the same [workflow pattern](./authorization.md#workflow) as our friend
 
 ## Iteration
 
-When planning how to construct our [MVC](/handbook/values/#minimal-viable-change-mvc), we need to be aware of the [tradeoffs of slicing MR’s vertically vs horizontally](/handbook/engineering/workflow/iteration/#tradeoffs-between-horizontal-and-vertical-slicing). Reducing scope for each iteration is encouraged.
+When planning how to construct our [MVC](/handbook/values/#minimal-viable-change-mvc), we need to be aware of the [tradeoffs of slicing MR's vertically vs horizontally](/handbook/engineering/workflow/iteration/#tradeoffs-between-horizontal-and-vertical-slicing). Reducing scope for each iteration is encouraged.
 
 As requirements can shift, and complexity can increase when uncovering challenging areas in the codebase, we strive to keep issue requirements updated for clarity.
 
@@ -68,11 +68,11 @@ The Anti-abuse team works closely with [Trust and Safety](/handbook/security/sec
 
 #### Pipeline Validation Service responsibility
 
-[PVS](https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service) is an internal service that belongs to the Anti-abuse team. It’s a combination of heuristic-based (text matching, etc) and behavior-based rules (duplicate builds, etc). The [Trust and Safety team](/handbook/security/security-operations/trustandsafety/) leverages this service the most, and acts as the customer for feature requests.
+[PVS](https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service) is an internal service that belongs to the Anti-abuse team. It's a combination of heuristic-based (text matching, etc) and behavior-based rules (duplicate builds, etc). The [Trust and Safety team](/handbook/security/security-operations/trustandsafety/) leverages this service the most, and acts as the customer for feature requests.
 
 #### Heuristic rules
 
-Due to the nature of cryptomining attacks, heuristics are going to change quickly and need to be implemented rapidly. Accordingly, T&S is invited to submit MR’s to PVS that are heuristic based, or alternatively [request these changes](https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service/-/issues/new?issuable_template=pvs_miss) from the Anti-abuse team.
+Due to the nature of cryptomining attacks, heuristics are going to change quickly and need to be implemented rapidly. Accordingly, T&S is invited to submit MR's to PVS that are heuristic based, or alternatively [request these changes](https://gitlab.com/gitlab-org/modelops/anti-abuse/pipeline-validation-service/-/issues/new?issuable_template=pvs_miss) from the Anti-abuse team.
 
 #### Behavior rules
 

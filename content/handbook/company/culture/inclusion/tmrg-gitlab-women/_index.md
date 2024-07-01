@@ -5,7 +5,7 @@ description: "An overview of our remote TMRG GitLab Women"
 
 ## Mission
 
-The mission of the GitLab Women TMRG is to cultivate an inclusive environment that supports and encourages those who identify as women to advance their skills and leadership potential through connection, mentorship, collaboration and discussion. This group shall serve as a forum for women to find their voice and be heard within the GitLab community. Through networking, socializing, and professional development, we hope to attract and retain women into GitLab’s positions. This group is open to all members of the GitLab community.
+The mission of the GitLab Women TMRG is to cultivate an inclusive environment that supports and encourages those who identify as women to advance their skills and leadership potential through connection, mentorship, collaboration and discussion. This group shall serve as a forum for women to find their voice and be heard within the GitLab community. Through networking, socializing, and professional development, we hope to attract and retain women into GitLab's positions. This group is open to all members of the GitLab community.
 
 Click through to meet some of the women working at GitLab!
 
@@ -95,7 +95,7 @@ If you have a resource you'd like to include, please open a merge request and co
 | [Growth and Development benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) | This benefit is available for GitLab team members and can be used to cover professional development costs associated with external resources |
 | [CEO Shadow Program](/handbook/ceo/shadow)| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
 | [Women in the Workplace Study Webinar](https://www.hracuity.com/webinar/leaninstudy-2020?utm_campaign=Content%20%7C%20Webinar%20%7C%20LeanIn&utm_medium=email&_hsmi=98577248&_hsenc=p2ANqtz-8kbiJWLM1fyvHgX1E15FQtDxjVDla2B4C3p2G7wSvpUQMJizBBdpFhEpmhEdG7PeYR-ekzWWPWhWK9EfpXoZwk5m6dWQ&utm_content=98577248&utm_source=hs_email) | A webinar from Lean In discussing the unique impact that COVID-19 has had on women of different races and ethnicities, working mothers, women in senior leadership and women with disabilities |
-| [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers’ deep discomfort over touting skills, experience adds to gender gap in promotions, pay |
+| [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers' deep discomfort over touting skills, experience adds to gender gap in promotions, pay |
 | [Stanford Continuing Studies Department](https://continuingstudies.stanford.edu/) | Standford offers many continuing education programs in multiple diciplines including leadership, writing, and professional/personal development |
 
 ### Book Suggestions

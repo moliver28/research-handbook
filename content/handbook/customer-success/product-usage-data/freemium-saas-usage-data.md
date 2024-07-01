@@ -1,14 +1,7 @@
 ---
-
 title: "Freemium SaaS Usage Data"
 description: "How to view and use usage data from freemium and trial SaaS namespaces in Salesforce."
 ---
-
-
-
-
-
-
 
 ---
 

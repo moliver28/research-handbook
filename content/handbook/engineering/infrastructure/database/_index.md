@@ -1,13 +1,6 @@
 ---
-
 title: "Database"
 ---
-
-
-
-
-
-
 
 ## Database Reliability at GitLab
 

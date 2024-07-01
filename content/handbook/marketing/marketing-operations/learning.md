@@ -1,5 +1,4 @@
 ---
-
 title: "Learning Marketing Operations"
 description: "This handbook page is to provide updated marketing operations learning and resources materials."
 ---
@@ -29,12 +28,12 @@ Last updated: December 2023
 
 ### Marketing Technology
 
-- [📝 MarTech - 7 steps to make sure you’re getting everything from your marketing software](https://martech.org/7-steps-to-make-sure-youre-getting-everything-from-your-marketing-software/)
+- [📝 MarTech - 7 steps to make sure you're getting everything from your marketing software](https://martech.org/7-steps-to-make-sure-youre-getting-everything-from-your-marketing-software/)
 - [📝 A Team - Marketing Technology Trends to Watch in 2024](https://a-team.global/blog/marketing-technology-trends-to-watch-in-2024/)
 
 ### AI
 
-- [📝 Marketing Dive - How AI’s legal risks are challenging marketers](https://www.marketingdive.com/news/how-ai-artificial-intelligence-legal-risks-challenging-marketers/652707/)
+- [📝 Marketing Dive - How AI's legal risks are challenging marketers](https://www.marketingdive.com/news/how-ai-artificial-intelligence-legal-risks-challenging-marketers/652707/)
 - [📝 Gartner - Marketing AI: Forge the Future of Smart Marketing](https://www.gartner.com/en/marketing/topics/ai-in-marketing)
 
 ### Sales and Marketing Alignment

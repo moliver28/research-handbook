@@ -1,18 +1,11 @@
 ---
-
 title: Real-time Editing of Issue Descriptions (REID) Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## The Real-time Editing of Issue Descriptions (REID) Single-Engineer Group
 
 Real-time Editing of Issue Descriptions (REID) was a [Single-Engineer Group (SEG)](/handbook/company/structure/#single-engineer-groups)
-investment within GitLab’s [Incubation Engineering Department](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/handbook/engineering/development/incubation).
+investment within GitLab's [Incubation Engineering Department](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/handbook/engineering/development/incubation).
 This SEG effort has ended due to a team member departure, effective March 16, 2023.
 
 ### Vision

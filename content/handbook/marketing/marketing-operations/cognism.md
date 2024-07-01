@@ -4,12 +4,6 @@ title: "Cognism"
 description: "Cognism is sales intelligence software that provides contact or account data helping sales and marketing teams drive predictable pipeline"
 ---
 
-
-
-
-
-
-
 ## About Cognism
 
 Cognism is sales intelligence software that provides contact or account data helping sales and marketing teams drive predictable pipeline

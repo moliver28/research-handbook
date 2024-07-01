@@ -1,14 +1,7 @@
 ---
-
 title: "Channel Sales Manager Operating Rhythm"
 description: "Successful management includes onboarding, reviewing joint partner business plans, aligning with regional sales leaders, coaching, career development and performance management"
 ---
-
-
-
-
-
-
 
 ## Overview
 

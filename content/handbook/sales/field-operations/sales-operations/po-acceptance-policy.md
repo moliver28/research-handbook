@@ -1,16 +1,7 @@
 ---
-
 title: "PO Acceptance Criteria"
 description: "Acceptance criteria for Customers and Partners who require POs to accept Invoice"
 ---
-
-
-
-
-
-
-
-
 
 ## PO Acceptance Policy
 

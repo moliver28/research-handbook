@@ -537,7 +537,7 @@ Needs updating to be confernece specific:
 12. On the next screen (New Merge Request), add `WIP:` to the beginning of the title and add a quick description (`Add PathFactory link to LP for [webcast name] will suffice`).
 13. If you have merge access, assign Merge Request to yourself. If you don't have merge access, assign Merge Request to Jackie Gragnola or Agnes Oetama. Scroll down, check the box for `Delete source branch when merge request is accepted`.
 14. Click Submit Merge Request.
-15. You’ve now created the Merge Request.
+15. You've now created the Merge Request.
 16. **Login to Marketo.** Go to the webcast program and update the `{{my.ondemandUrl}}` token with the webcast PathFactory link.
 17. Go to the assets folder within your webcast program and update the `On-demand Autoresponder` email with relevant copies related to the webcast.
 18. Navigate to the `Viewed On Demand` Smart campaign within your webcast program.

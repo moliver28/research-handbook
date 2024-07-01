@@ -1,5 +1,4 @@
 ---
-
 title: "Billing Operations"
 ---
 
@@ -122,7 +121,7 @@ See also: [Zendesk](/handbook/marketing/developer-relations/workflows-tools/zend
 1. Click "Manage Purchases"
 1. Click "Download License"
 
-> If you still can’t access your license, please create a support issue [here](/handbook/support/internal-support#regarding-licensing-and-subscriptions).
+> If you still can't access your license, please create a support issue [here](/handbook/support/internal-support#regarding-licensing-and-subscriptions).
 
 </details>
 
@@ -186,7 +185,7 @@ All applicable fees are due and payable as per our terms of service.
 
 Section 6. PAYMENT OF FEES, article 6.7 in our standard terms of service.
 
-> 6.7 Any unpaid Fees are subject to a finance charge of one percent (1.0%) per month, or the maximum permitted by law, whichever is lower, plus all expenses of collection, including reasonable attorneys’ fees. Fees under this Agreement are exclusive of any and all taxes or duties, now or hereafter imposed by any governmental authority, including, but not limited to any national, state or provincial tax, sales tax, value-added tax, property and similar taxes, if any. Fees under this Agreement shall be paid without any withholding or deduction. **In the case of any deduction or withholding requirements, Customer will pay any required withholding itself and will not reduce the amount to be paid to GitLab on account thereof.**
+> 6.7 Any unpaid Fees are subject to a finance charge of one percent (1.0%) per month, or the maximum permitted by law, whichever is lower, plus all expenses of collection, including reasonable attorneys' fees. Fees under this Agreement are exclusive of any and all taxes or duties, now or hereafter imposed by any governmental authority, including, but not limited to any national, state or provincial tax, sales tax, value-added tax, property and similar taxes, if any. Fees under this Agreement shall be paid without any withholding or deduction. **In the case of any deduction or withholding requirements, Customer will pay any required withholding itself and will not reduce the amount to be paid to GitLab on account thereof.**
 
 You can view our GitLab Subscription Agreement [here](/handbook/legal/subscription-agreement/)
 

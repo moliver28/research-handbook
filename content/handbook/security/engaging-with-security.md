@@ -54,7 +54,7 @@ The GitLab issue should then be closed and - after 30 days - sanitized and made 
 
 ### Process for disclosing security issues
 
-At GitLab we value [being as transparent as possible](/handbook/values/#transparency), even [when it costs]({{< ref "values#transparency-is-most-valuable-if-you-continue-to-do-it-when-there-are-costs" >}}). Part of this is making confidential GitLab issues about security vulnerabilities public 30 days after a patch. The process is as follows:
+At GitLab we value [being as transparent as possible](/handbook/values/#transparency), even [when it costs](/handbook/values/#transparency-is-most-valuable-if-you-continue-to-do-it-when-there-are-costs). Part of this is making confidential GitLab issues about security vulnerabilities public 30 days after a patch. The process is as follows:
 
 1. Check for a `~keep confidential` tag. If one exists
    1. Decide whether this tag is still appropriate and in line with our [Transparency value](/handbook/values/#transparency)

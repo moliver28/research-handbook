@@ -1,5 +1,4 @@
 ---
-
 title: "Rattle Configuration and Maintenance"
 description: "This page covers the administration and oversight of Rattle"
 ---

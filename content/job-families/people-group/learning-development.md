@@ -108,7 +108,7 @@ The Learning & Development Manager is a [grade 8](/handbook/total-rewards/compen
 - Extends the Senior Program Manager, Learning & Development responsibilities
 - Develop and lead the Learning and Development team while creating quality learning lessons and programs
 - Design and develop role-based learning paths for individual contributors, managers, aspiring managers, and executive leadership
-- Advise People group and the leadership with organization wide training initiatives that support the growth of our team members and GitLab’s success
+- Advise People group and the leadership with organization wide training initiatives that support the growth of our team members and GitLab's success
 - Design, develop, and deploy a comprehensive eLearning, microlearning, and live learning curriculum for all team members with role-based learning paths for managers, team members, aspiring managers, and executives
 - Integrate the Learning Management System into GitLab and manage the change management and adoption activities and ensure all content is Handbook first
 - Introduce new learning vehicles that reinforce a personalized learning infrastructure that includes curated content, customized content, and eLearning modules
@@ -204,7 +204,7 @@ The Director, Talent Management is a [grade 10](/handbook/total-rewards/compensa
 
 - Partner with our People Business Partner team to evolve our evaluation and promotion processes
 - At an enterprise-view, build a process to continuously evaluate and report on organizational design themes to ensure that we grow in the most effective way possible (E.g. org shape)
-- Build out our “Talent Preparedness” vision, to ensure that we are ready to build the right skills for the future and the ever evolving technology landscape
+- Build out our "Talent Preparedness" vision, to ensure that we are ready to build the right skills for the future and the ever evolving technology landscape
 - Partnering with our Diversity, Inclusion & Belonging team to ensure that we build all talent programs with DIB involvement from the start.
 - Partnering with our People Connect and Ops teams to ensure that they have the appropriate information to help guide our team member population as appropriate
 - Partnering with Total Rewards to ensure our talent strategy aligns to Pay for Performance philosophy

@@ -5,12 +5,6 @@ title: Product Marketing Team
 description: "Product Marketing communicates GitLab business value internally and externally to position GitLab as a DevOps partner and solution."
 ---
 
-
-
-
-
-
-
 ## Product marketing at GitLab
 
 Product Marketing communicates GitLab business value internally and externally to position GitLab as a DevOps partner and solution. The team is responsible for product positioning, value messaging, and go-to-market strategy to support sales and outbound messaging with analysts, press, and prospects. Product Marketing also facilitates market feedback as key inputs into the GitLab product roadmap.

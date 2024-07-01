@@ -3,7 +3,6 @@ title: Tracking reviews
 description: "Process for Tracking and Escalating Glassdoor Reviews"
 ---
 
-
 The Talent Acquisition Operations and Insights team tracks Glassdoor reviews on a regular basis. We share this info regularly through:
 
 - People Group Key Review monthly

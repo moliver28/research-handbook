@@ -58,7 +58,7 @@ Each link in the navigation menu should contain:
 - `data-nav-levelone`: The navigation menu tab name
 - `data-nav-leveltwo`: The navigation menu element name
 
-A click-listening trigger on GTM will fire the associated GA4 event tag based on the data attributes. Links without data attributes will still be tracked, however the cta_location event parameter on GA4 will contain a generic “in-line” value and the cta_name event parameter will contain the link’s text and URL.
+A click-listening trigger on GTM will fire the associated GA4 event tag based on the data attributes. Links without data attributes will still be tracked, however the cta_location event parameter on GA4 will contain a generic "in-line" value and the cta_name event parameter will contain the link's text and URL.
 
 Reference: https://support.google.com/tagmanager/answer/7679320
 
@@ -71,11 +71,11 @@ Example of a dataLayer code:
 ```js
 dataLayer.push({
   'event': 'videoStart',
-  'videoTitle': ‘The One DevOps Platform’
+  'videoTitle': 'The One DevOps Platform'
 });
 ```
 
-For testing, simply type in “dataLayer” into the browser > developer mode > console after the event has been performed, before the next page loads. Optional: create a bookmarklet, entering the following into the URL field:
+For testing, simply type in "dataLayer" into the browser > developer mode > console after the event has been performed, before the next page loads. Optional: create a bookmarklet, entering the following into the URL field:
 
 ```js
 javascript: (window.addEventListener('beforeunload', function(e) {e.preventDefault();e.returnValue = '';}));
@@ -87,7 +87,7 @@ Reference: https://developers.google.com/tag-platform/tag-manager/web/datalayer
 
 ### Variables
 
-Variables capture additional information about the event on the website, and are stored in the GA4 event tag as an event parameter. There are many built-in variables on GTM to retrieve data from the browser’s HTML, URL component, or cookies. If data is not readily available in the browser, the variable can be captured in the form of a dataLayer.
+Variables capture additional information about the event on the website, and are stored in the GA4 event tag as an event parameter. There are many built-in variables on GTM to retrieve data from the browser's HTML, URL component, or cookies. If data is not readily available in the browser, the variable can be captured in the form of a dataLayer.
 
 ### Google Analytics Configuration
 

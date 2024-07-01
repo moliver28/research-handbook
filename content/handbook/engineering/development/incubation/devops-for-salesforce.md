@@ -1,13 +1,6 @@
 ---
-
 title: DevOps for Salesforce Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## DevOps for Salesforce Single-Engineer Group
 

@@ -1,8 +1,6 @@
 ---
-
 title: "GitLab Dedicated Prospects"
 ---
-
 
 The purpose of this page is to hopefully help an SA onboards when they onboard a new Dedicated Customer, what are the considerations and preparation material during the onboarding/discovery phase. Based on past interactions with existing GitLab Dedicated customers and due to the usually longer nature of onboarding customers, a [collaboration project](/handbook/solutions-architects/processes/collaboration-project/) is recommended to keep all stakeholders aware and engaged.
 

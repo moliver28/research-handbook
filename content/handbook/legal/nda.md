@@ -16,11 +16,11 @@ description: "How to complete an NDA Request"
 
 ### How to Send NDA in DocuSign
 
-- Log in to DocuSign and select “Use a Template” from the dropdown menu under “Start”.
-- On the left, select “Shared with Me” and locate the “Non-Disclosure Agreement Pre-Signed Template”.
-- Click the template and “Add Selected”.
-- Under **Recipient**, enter the signer’s name and email address.
-- Under **GitLab Team Member**, add anyone else at GitLab who needs to be cc’d on the signed copy, or click the trash icon to delete this row if not needed.
+- Log in to DocuSign and select "Use a Template" from the dropdown menu under "Start".
+- On the left, select "Shared with Me" and locate the "Non-Disclosure Agreement Pre-Signed Template".
+- Click the template and "Add Selected".
+- Under **Recipient**, enter the signer's name and email address.
+- Under **GitLab Team Member**, add anyone else at GitLab who needs to be cc'd on the signed copy, or click the trash icon to delete this row if not needed.
 - Do **NOT**  delete or make any changes to the fields under **GitLab NDA Tracker** (this is for the GitLab Legal Team to track copies of NDAs).
 - Click Send.
 
@@ -42,4 +42,4 @@ The processes above are only for standard GitLab NDAs. In the event a non-standa
 
 - NDAs regarding Customers and/or Partners require a [Legal Request](/handbook/legal/customer-negotiations/#how-to-reach-legal) to be opened; OR
 
-- If the request requires the negotiation of terms on GitLab's NDA template, or, the use of a third party's template, please create a [Legal Issue](https://gitlab.com/gitlab-com/legal-and-compliance) and tag the Issue with “NDA Request”.
+- If the request requires the negotiation of terms on GitLab's NDA template, or, the use of a third party's template, please create a [Legal Issue](https://gitlab.com/gitlab-com/legal-and-compliance) and tag the Issue with "NDA Request".

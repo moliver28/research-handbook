@@ -32,14 +32,14 @@ Identifies control issues and findings timely, and ensures findings are based on
 - Maintaining appropriate industry associations to keep up to date with emerging technologies/IT risks and identify/leverage audit best practices.
 - Ensures the Internal Audit team is advised of key developments in all areas of responsibility.
 - Working with external auditors to coordinate IT coverage across areas of responsibility and ensure that audit work is comprehensive and sufficient to allow the external auditors to rely on the work.
-- Challenges the ‘status-quo’ and brings original ideas to the team.
+- Challenges the 'status-quo' and brings original ideas to the team.
 - Fosters a team environment, is inclusive and works well with others.
 - Prepares monthly reporting for the Executive team summarizing activities and key performance indicators.
 - Other tasks as assigned.
 
 ### Requirements
 
-- Bachelor’s degree in related field required (e.g., Computer Science, Management Information Systems, Accounting)
+- Bachelor's degree in related field required (e.g., Computer Science, Management Information Systems, Accounting)
 - CISA, CISSP, CISM, or other relevant certification is required.
 - 9+ years of internal and/or external IT audit experience required.
 - Mix of operational and IT audit experience desired.

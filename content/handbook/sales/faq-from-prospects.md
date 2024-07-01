@@ -1,14 +1,7 @@
 ---
-
 title: "FAQ from prospects"
 description: "See FAQs about GitLab's features, user management, statistics/logs, performance, installation, and support"
 ---
-
-
-
-
-
-
 
 ### Features
 

@@ -55,7 +55,7 @@ The Senior Candidate Experience Specialist is a [grade 6](/handbook/total-reward
 - Serve as a mentor to the rest of the team through leading by example, sharing best practices, and acting as a resource
 - Serve as an example of dogfooding GitLab.com and assist team members with questions
 - Provide insight and feedback to suggest process improvements, and oversee their implementation
-- Take a lead role in helping the team to reach OKR’s and Performance Indicators
+- Take a lead role in helping the team to reach OKR's and Performance Indicators
 - Consistently provide a great candidate experience in each interaction
 - Act as thought partner to Recruiters and Hiring Managers, suggesting and implementing creative solutions to challenges that impact the candidate experience
 

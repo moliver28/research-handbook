@@ -15,7 +15,7 @@ Feature development epics are listed in [team priorities](https://about.gitlab.c
 - Title
   - Add 'BE' or 'FE' into the title to signify backend and frontend. The labels would signify this as well, but adding this to the title makes it easier to spot
 - Milestone
-  - The feature flag rollout issue’s milestone is the milestone in which we plan to release the feature. Any issue above the feature flag rollout issue should have a milestone <= the feature flag rollout issue milestone
+  - The feature flag rollout issue's milestone is the milestone in which we plan to release the feature. Any issue above the feature flag rollout issue should have a milestone <= the feature flag rollout issue milestone
 - Workflow label
   - Needs to be kept up to date so that users/PMs know the status of the epic and can plan their work appropriately (e.g. if all the issues have a label of ~workflow::refinement halfway through the milestone, then the epic probably won't be released that milestone).
 - Order of issues in the "Child issues and epics" list

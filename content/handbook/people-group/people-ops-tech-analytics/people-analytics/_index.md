@@ -68,8 +68,8 @@ It is not necessary to have a large suite of tools in order to be an effective P
 ## Generic Rules and Guidance
 
 - The People Group should be able to do their daily work within the operational software (Workday, Greenhouse, etc.).
-- People data in the warehouse should be for reporting general People information “up and out” in the organization.
-- Always know the roles and users that have access to the data from “cradle to grave” to understand the risk.
+- People data in the warehouse should be for reporting general People information "up and out" in the organization.
+- Always know the roles and users that have access to the data from "cradle to grave" to understand the risk.
 - Only what is needed for reporting should be brought into the data warehouse and leave other potentially sensitive data in the operational tools.
 - Anonymize sensitive data that is used in metric calculations and reporting to reduce risk whenever possible.
 - Please submit requests and ideas using the issue templates in the [People Analytics project](https://gitlab.com/gitlab-com/people-group/people-operations/people-analytics2/).

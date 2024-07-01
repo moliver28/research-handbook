@@ -1,14 +1,7 @@
 ---
-
 title: "Professional Services Offerings Framework"
-description: “Discover the various GitLab Professional Service Offerings and how they're organized into Categories and Types."
+description: "Discover the various GitLab Professional Service Offerings and how they're organized into Categories and Types."
 ---
-
-
-
-
-
-
 
 ### What is a Services Offering Framework?
 
@@ -36,7 +29,7 @@ The services maturity framework provides for 5 maturity levels for offerings: pl
 - **Minimal**: The offering is defined, a vision for moving to complete exists
 - **Viable**: We have delivered the offering at least once, feeding lessons learned into the completion plan. At least some marketing materials and execution plans from Complete
 - **Complete**: An offering that can be consistently delivered: predictability in timing, results, and margin.
-- **Lovable**: The offering is at full maturity, positive NPS & impact on customer’s adoption of GitLab product
+- **Lovable**: The offering is at full maturity, positive NPS & impact on customer's adoption of GitLab product
 
 ## Service Offering Framework
 

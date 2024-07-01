@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Release Posts"
 description: "Guidelines to create and update release posts"
 ---
@@ -230,7 +229,7 @@ Please share your feedback by <time datetime="18:00">6 pm UTC (1 pm ET / 10 am P
 
 Currently there are no known issues/adjustments to the content but I know of one deprecation that needs to be added and will happen with my first wave of edits.
 
-Here’s the 13.6 release post MR: `https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66652`
+Here's the 13.6 release post MR: `https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66652`
 
 Cc @TW Lead @tech-advisor @PMM @Sid @david
 ```
@@ -698,8 +697,8 @@ Product Designers [DRIs](/handbook/people-group/directly-responsible-individuals
 
 Product Designers should collaborate on release post items and review:
 
-- **JTBD**: Ensure that the messaging encapsulates how the item supports a user’s [Job to be Done](/handbook/product/ux/jobs-to-be-done/).
-- **MVC messaging**: Articulate any design vision or future iterations if applicable. This is especially important when considering items that are [under construction](/handbook/values/#under-construction), or contribute toward a Category’s maturity.
+- **JTBD**: Ensure that the messaging encapsulates how the item supports a user's [Job to be Done](/handbook/product/ux/jobs-to-be-done/).
+- **MVC messaging**: Articulate any design vision or future iterations if applicable. This is especially important when considering items that are [under construction](/handbook/values/#under-construction), or contribute toward a Category's maturity.
 - **Artifacts**: Validate that UI elements (screenshots, GIFs) included in the post are up to date and reflect all design changes. Ensure that no mocks are used.
 
 ## Engineering Managers
@@ -912,7 +911,7 @@ features:
 
 #### Description
 
-Content of the **description** should adhere to the Marketing editorial team’s
+Content of the **description** should adhere to the Marketing editorial team's
 [style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/#blog-style-guide).
 
 Do not include UI navigation instructions in the feature's description. These instructions should be

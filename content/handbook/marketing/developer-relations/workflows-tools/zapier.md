@@ -1,13 +1,6 @@
 ---
-
 title: "Developer Relations tools: Zapier"
 ---
-
-
-
-
-
-
 
 ### Zapier subscription
 

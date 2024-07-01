@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab CSF - Architecture activity"
 description: "CSF Architecture activity and deliverables"
 ---
@@ -117,12 +116,12 @@ cover various aspects and properties of a system
 ### Context viewpoint
 
 Describes the relationships, dependencies, and interactions between the system and its environment
-(the people, systems, and external entities with which it interacts). Includes the system’s runtime
+(the people, systems, and external entities with which it interacts). Includes the system's runtime
 context and its scope and requirements.
 
 ### Functional viewpoint
 
-Describes the system’s functional elements, their responsibilities, interfaces, and primary
+Describes the system's functional elements, their responsibilities, interfaces, and primary
 interactions; drives the shape of other system structures such as the information structure,
 concurrency structure, deployment structure, and so on.
 
@@ -148,7 +147,7 @@ testing, maintaining, and enhancing the system.
 ### Deployment viewpoint
 
 Describes the environment into which the system will be deployed, and the dependencies the system
-has on its runtime environment. Deployment views capture the system’s hardware environment,
+has on its runtime environment. Deployment views capture the system's hardware environment,
 technical environment requirements, and the mapping of the software to hardware elements.
 
 ### Operational viewpoint

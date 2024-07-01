@@ -1,13 +1,6 @@
 ---
-
 title: "GitLab Version Check"
 ---
-
-
-
-
-
-
 
 [Blog post about version check](https://about.gitlab.com/blog/2015/05/07/version-check/)
 

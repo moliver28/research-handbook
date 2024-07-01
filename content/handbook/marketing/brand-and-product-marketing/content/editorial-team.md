@@ -1,15 +1,7 @@
 ---
-
 title: "Blog style guide"
 description: "This handbook page describes the styling, punctuation, spelling, and grammatical guidelines for posts on the GitLab blog."
 ---
-
-
-
-
-
-
-
 
 ## Related pages
 

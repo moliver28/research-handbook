@@ -1,8 +1,6 @@
 ---
-
 title: "CI Message House"
 ---
-
 
 ### Context
 

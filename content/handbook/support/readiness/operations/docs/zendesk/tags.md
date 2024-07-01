@@ -25,24 +25,27 @@ important to those working within Zendesk:
 <details>
 <summary>SLA Related Tags</summary>
 
-| Tag                 | What it means |
-|---------------------|---------------|
-| `starter`           | Signifies the ticket is using a Starter plan, granting Standard SLA on Support tickets |
-| `premium`           | Signifies the ticket is using a Premium plan, granting Priority SLA on Support tickets |
-| `ultimate`          | Signifies the ticket is using a Ultimate plan, granting Priority SLA on Support tickets |
-| `bronze`            | Signifies the ticket is using a Bronze plan, granting Standard SLA on Support tickets |
-| `silver`            | Signifies the ticket is using a Silver plan, granting Priority SLA on Support tickets |
-| `gold`              | Signifies the ticket is using a Gold plan, granting Priority SLA on Support tickets |
-| `priority_prospect` | Signifies the ticket is from a prospect who has been temporarily granted Standard SLA on Support tickets |
-| `free_customer`     | Signifies the ticket is from a non-paying end-user. This means they receive no SLA on Support Tickets |
-| `missing_sla_tag`   | This means the ticket is missing any form of SLA tagging. As this is a problem, this tag applies a Standard SLA |
-| `low`               | Signifies the ticket as a Low priority, thus granting it bare-level support SLAs for Support tickets with Priority SLA |
-| `medium`            | Signifies the ticket as a Normal priority, thus granting it mid-level support SLAs for Support tickets with Priority SLA |
-| `high`              | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA |
-| `urgent`            | Signifies the ticket is an emergency request |
-| `prospect`          | Signifies the ticket is from a prospect. This means they receive no SLA on Support Tickets |
-| `trial`             | Signifies the ticket is from a non-paying end-user using the trial system. This means they receive no SLA on Support Tickets |
-| `consumption_only`  | Signifies the ticket is a consumption ticket |
+| Tag                            | SLA granted | What it means |
+|--------------------------------|-------------|---------------|
+| `sub_community_other`          | None        | The organization has a community subscription of an unknown type |
+| `sub_consumption_ai`           | Consumption | The organization has purchased an AI addon |
+| `sub_consumption_cicd_minutes` | Consumption | The organization has purchased CI/CD minutes |
+| `sub_consumption_eap`          | Consumption | The organization has purchased the Enterprise Agile Planning addon |
+| `sub_consumption_storage`      | Consumption | The organization has storage |
+| `sub_dotcom_bronze`            | Standard    | The organization has a GitLab.com Bronze subscription |
+| `sub_dotcom_premium`           | Priority    | The organization has a GitLab.com Premium subscription |
+| `sub_dotcom_ultimate`          | Priority    | The organization has a GitLab.com Ultimate subscription |
+| `sub_edu`                      | None        | The organization has a EDU community subscription |
+| `sub_gitlab_dedicated`         | Priority    | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | None        | The organization has a OSS community subscription |
+| `sub_other`                    | General     | The organization has an unknown purchase |
+| `sub_proserv`                  | None        | The organization has a Professional Services engagement purchase |
+| `sub_sm_premium`               | Priority    | The organization has a Self-managed Premium subscription |
+| `sub_sm_starter`               | Standard    | The organization has a Self-managed Starter subscription |
+| `sub_sm_ultimate`              | Priority    | The organization has a Self-managed Ultimate subscription |
+| `sub_ss_ase`                   | General     | The organization has purchased an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | Priority    | The organization has a US Government purchase granting 12x5 support |
+| `sub_usgov_24x7`               | Priority    | The organization has a US Government purchase granting 24x7 support |
 
 </details>
 <details>
@@ -767,6 +770,28 @@ So an example:
 | `medium`          | Signifies the ticket as a Normal priority, thus granting it mid-level support SLAs for Support tickets with Priority SLA |
 | `high`            | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA |
 | `urgent`          | Signifies the ticket is an emergency request |
+
+| Tag                            | SLA granted | What it means |
+|--------------------------------|-------------|---------------|
+| `sub_community_other`          | None        | The organization has a community subscription of an unknown type |
+| `sub_consumption_ai`           | None        | The organization has purchased an AI addon |
+| `sub_consumption_cicd_minutes` | None        | The organization has purchased CI/CD minutes |
+| `sub_consumption_eap`          | None        | The organization has purchased the Enterprise Agile Planning addon |
+| `sub_consumption_storage`      | None        | The organization has storage |
+| `sub_dotcom_bronze`            | None        | The organization has a GitLab.com Bronze subscription |
+| `sub_dotcom_premium`           | None        | The organization has a GitLab.com Premium subscription |
+| `sub_dotcom_ultimate`          | None        | The organization has a GitLab.com Ultimate subscription |
+| `sub_edu`                      | None        | The organization has a EDU community subscription |
+| `sub_gitlab_dedicated`         | Priority    | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | None        | The organization has a OSS community subscription |
+| `sub_other`                    | None        | The organization has an unknown purchase |
+| `sub_proserv`                  | None        | The organization has a Professional Services engagement purchase |
+| `sub_sm_premium`               | Priority    | The organization has a Self-managed Premium subscription |
+| `sub_sm_starter`               | Standard    | The organization has a Self-managed Starter subscription |
+| `sub_sm_ultimate`              | Priority    | The organization has a Self-managed Ultimate subscription |
+| `sub_ss_ase`                   | None        | The organization has purchased an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | Priority    | The organization has a US Government purchase granting 12x5 support |
+| `sub_usgov_24x7`               | Priority    | The organization has a US Government purchase granting 24x7 support |
 
 </details>
 <details>

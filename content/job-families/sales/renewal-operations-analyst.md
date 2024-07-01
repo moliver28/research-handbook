@@ -31,7 +31,7 @@ The Renewals Operations Analyst (Intermediate) is a [grade 6](/handbook/total-re
 - Develop playbooks for renewal engagement maximizing revenue retention
 - Identify opportunities for process automation and optimization, with a focus on scalability and driving significant growth
 - Identify and report on Churn, Contraction and Growth trends within the book of business and effectively communicate them to cross functional leaders
-- Improve the sales team’s effectiveness and efficiency and provide increased customer insights through data, automation, and product analytics
+- Improve the sales team's effectiveness and efficiency and provide increased customer insights through data, automation, and product analytics
 - Proactively drive a high degree of CRM data quality by leveraging creative system solutions and delivering end-user training
 
 #### Renewals Operations Analyst (Intermediate) Requirements
@@ -124,7 +124,7 @@ The Senior Manager, Renewal Operations is a [grade 9](/handbook/total-rewards/co
 - Strong communication skills with the ability to engage and drive consensus and alignment with stakeholders at all levels, and across multiple functions and geographies
 - Compelling storytelling, with the ability to leverage data to drive action, including for non-analytical audiences
 - Experience working in Global markets
-- Ability to tackle very “open ended” topics where you first need to figure out what questions you really need to answer
+- Ability to tackle very "open ended" topics where you first need to figure out what questions you really need to answer
 - Extensive experience planning (capacity, performance) and deploying both business and technical initiatives Demonstrable ability to see beyond the numbers to drive sound decision-making
 
 ## Performance Indicators

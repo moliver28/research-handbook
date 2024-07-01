@@ -38,7 +38,7 @@ As a Support Readiness Specialist you will:
 ### Operations
 
 As a Support Readiness Specialist - Operations, you will be responsible for supporting the
-day-to-day operations and software systems used by GitLab’s global Technical
+day-to-day operations and software systems used by GitLab's global Technical
 Support team (including, but not limited to: our Zendesk instance(s), GitLab.com
 projects/integrations, and Calendly setup). You will be able to juggle a
 diverse workload that includes everything from managing user provisioning, to
@@ -68,7 +68,7 @@ backbone and the foundation to our success!
 
 #### Projects you might work on
 
-When you are not tackling your normal day to day challenges, you’ll have a lot
+When you are not tackling your normal day to day challenges, you'll have a lot
 of freedom to work on things that will make your life, and the lives of your
 coworkers, easier. Current and past Support Readiness Specialists in Operations have:
 
