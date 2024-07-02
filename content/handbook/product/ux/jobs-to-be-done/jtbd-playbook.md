@@ -12,7 +12,7 @@ This page covers the _how_ of Jobs to be Done. For more on _what_ Jobs to be Don
 
 #### A Note on Time, Confidence, and Validation
 
-The playbook completion time varies depending on job complexity, team experience, and the number of jobs. Plan for a quarter to cover all primary jobs. However, factors can accelerate the process. High domain knowledge might allow confident Jobs Canvas creation without initial interviews (e.g., years of experience, hundreds of user interviews). Conversely, new product areas require Job Performer interviews before defining Jobs, Maps, and Outcomes. User interviews remain crucial to confirm Jobs and Maps align with user mental models, ensuring accurate Outcome statements.
+The playbook completion time varies depending on job complexity, team experience, and the number of Jobs being evaluated. Plan for a quarter to cover all primary Jobs. However, factors can accelerate the process. High domain knowledge might allow confident Jobs Canvas creation without initial interviews (e.g., years of experience, hundreds of user interviews). Conversely, new product areas require Job Performer interviews before defining Jobs, Maps, and Outcomes. User interviews remain crucial to confirm Jobs and Maps align with user mental models, ensuring accurate Outcome statements.
 
 ## Getting Started
 
