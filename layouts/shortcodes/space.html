@@ -1,5 +1,5 @@
 <!-- As a draft, this is a copy of layouts/shortcodes/performance-indicators.md -->
-{{ $publicHandbookRef := "main" }}
+{{ $publicHandbookRef := "fix-space-definition-and-append" }}
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}
 {{- $dataURL := printf "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/%s/data/engineering-productivity/space.yml" $publicHandbookRef }}
@@ -16,7 +16,7 @@
 {{- $activity := where $data "category" "eq" "activity" }}
 {{- $collaboration := where $data "category" "eq" "collaboration" }}
 {{- $efficiency := where $data "category" "eq" "efficiency" }}
-{{- $space := slice $satisfaction $performance $activity $collaboration $efficiency }}
+{{- $space := slice | append $satisfaction $performance $activity $collaboration $efficiency }}
 
 {{- range $space -}}
   {{- $first := index . 0 -}}
@@ -63,7 +63,7 @@
   {{- range . -}}
     {{- $anchor := .name | anchorize -}}
     <h4 id="{{ $anchor }}">{{ .name }} <a href="{{ .base_path }}#{{ $anchor }}">#</a></h4>
-    <p>{{ .description }}</p>
+    <p>{{ .definition }}</p>
     <p>
       <strong>Target</strong>: {{ .target }}
       <strong>Health</strong>:
