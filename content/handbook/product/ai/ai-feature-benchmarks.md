@@ -56,6 +56,22 @@ This page outlines GitLab's standardized benchmarks for evaluating AI features t
 
 **Measurement**: GitLab cycle analytics data
 
+### 6. Safety and Ethical Considerations
+
+**Definition**: Assessment of potential risks, biases, or ethical concerns related to the AI feature
+
+**Benchmark**: No critical safety issues identified; bias metrics below established thresholds
+
+**Measurement**: Combination of automated testing, expert review, and diverse user feedback
+
+### 7. Expert Comparison
+
+**Definition**: Performance of the AI feature compared to human experts in the domain
+
+**Benchmark**: AI performance meets or exceeds median expert level
+
+**Measurement**: Controlled trials comparing AI and expert performance on domain-specific tasks
+
 ## Evaluation Stages
 
 ### Prototype / Early Product
