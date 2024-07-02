@@ -142,7 +142,7 @@ Milestone start and end dates are defined as follows:
 
 ### Understanding Milestones and Releases
 
-- [Interpreting release dates](/handbook/product/interpreting-release-dates.html) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain timeframes.
+- [Interpreting release dates](/handbook/product/interpreting-release-dates.html) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
 - The [release definitions](/handbook/engineering/releases/) are maintained by the Engineering Team and we run the end of each Milestone on the [release date](/handbook/engineering/releases/).
 
 ### Relevant links
@@ -486,13 +486,21 @@ Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These inc
 
 While Product Managers are the DRIs for [milestone planning](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
-### Introducing application limits
+### Non Functional Requirements
+
+When thinking about new features, we must not only to think about the functional requirements of a feature (defining what the feature will do), but also to think about non-functional requirements (defining how the feature works). At the highest level, non-functional requirements define items such as performance, scalability, compatibility, maintainability and usability characteristics of a feature. It is important to have non-functional requirements in place up front, as this is much easier than trying to add them later and change expectations, or break existing workflows. 
+
+For an in depth review of non-functional requirements, see [this resource](https://www.altexsoft.com/blog/non-functional-requirements/). 
+
+Some specific areas were we should consider creating non-functional requirements are discussed below.
+
+#### Introducing application limits
 
 To enhance availability and performance of GitLab, sometimes it makes sense to add configurable limits to certain features. For example, we [limit the number of webhooks per project](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html), and we allow admins to set [rate limits on raw endpoints](https://docs.gitlab.com/ee/administration/settings/rate_limits_on_raw_endpoints.html). These limits ensure more consistent performance, reduce the likelihood of outages, and offer admins tools to limit abuse or enforce specific standards.
 
 There is a guide about [developing application limits](https://docs.gitlab.com/ee/development/application_limits.html) in the GitLab Docs.
 
-#### When implementing application limits
+##### When implementing application limits
 
 Application limits should be enabled by default. If we are considering enabling or changing a limit, we should do the following (applies to GitLab.com and self-managed):
 
@@ -508,6 +516,20 @@ Application limits should be enabled by default. If we are considering enabling 
   - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/ee/security/rate_limits.html)
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
 - **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
+
+#### Data storage for features
+
+As we continue to scale our product, we need to consider the amount of data being stored for new features. Data storage is not an infinite resource, so we should think carefully about what data needs persistent storage to provide the desired user experience.
+
+Data storage comes in three main forms for GitLab -- object storage, database storage, and Git repository storage. While we have dedicated teams devoted to ensuring we can scale these storages appropriately, it is in our best interest to only store what is required for a feature to perform as intended. Additionally, there may be situations where storage should be subject to data retention policies.
+
+##### Considerations around data storage
+
+When evaluating feature data storage, the following data storage topics should be considered.
+
+- **What quantity data needs to be stored?** - What amount of data will need to be stored for the feature to function as intended. Is this level of data storage bounded, or is there a potential for unbounded growth? Unbounded growth should be avoided if possible.
+- **How long should data be retained?** - We should consider carefully the need to store data indefinitely. Some features may solve their intended problem, but removing certain data after a specified time period won't impact the viability of the feature. In these instances, we should put retention policies in place. These retention polices should have a sane default value which is considered best practice for operating the feature long term. _Note: it is easier to iterate toward longer data retention time frames, but far harder to reduce retention time frames. Consider starting out with a conservative time frame._
+- **How often will this data be accessed?** - Much like the quantity of data stored can lead to scalability issues, so can the increased load on the data stores when the data is accessed frequently. There are ways to ease the burden on our infrastructure by properly forming queries, caching often used data, or carefully considering how repository data is accessed. If there are questions, consider reaching out to the [Database Group](/handbook/product/categories/#database-group) or the [Gitaly::Git Group](/handbook/product/categories/#gitalygit-group) for assistance.
 
 ### Cross-stage features
 
@@ -769,7 +791,7 @@ These dashboards provide several inputs for calculating RICE and aggregate all c
 
 In some cases however, we may become aware of a feature which is particularly important to deliver on by a certain date. Examples of this could include an issue necessary to embark on a new GitLab rollout, a feature needed by a partner to launch an integration, or a method to import data from a service which is being discontinued. In these instances, the responsible PM can apply the `customer` or `customer+` label along with a `due date` and initial `milestone`. This set of labels can serve to indicate externally that the issue is particularly important, as well as a reminder for internal teams of its importance.
 
-It is important to note that the `customer` and/or `customer+` label does not constitute a promise for the issue to be delivered in any given milestone or timeframe.
+It is important to note that the `customer` and/or `customer+` label does not constitute a promise for the issue to be delivered in any given milestone or time frame.
 
 ### Community Considerations
 
@@ -786,7 +808,7 @@ to contribute, including non-product teams at GitLab.
 
 ### SaaS-First Framework
 
-The [SaaS-First product investment theme](https://about.gitlab.com/direction/#saas-first) will put us in a better position to support our customer base who is expected to accelerate adoption of SaaS products in the coming years. Features will also end up more secure, resilient, performant, and scalable for our self-managed customers if initially built to the expectations of SaaS. Therefore, it is important for PMs to understand and prioritize needs related to the SaaS business. When prioritzing SaaS related issues, we follow the same [guidelines above](#prioritization). Within those guidelines there are a few areas that are especially important for PMs to focus on to ensure the success of our SaaS users.
+The [SaaS-First product investment theme](https://about.gitlab.com/direction/#saas-first) will put us in a better position to support our customer base who is expected to accelerate adoption of SaaS products in the coming years. Features will also end up more secure, resilient, performant, and scalable for our self-managed customers if initially built to the expectations of SaaS. Therefore, it is important for PMs to understand and prioritize needs related to the SaaS business. When prioritizing SaaS related issues, we follow the same [guidelines above](#prioritization). Within those guidelines there are a few areas that are especially important for PMs to focus on to ensure the success of our SaaS users.
 
 #### Availability
 
@@ -798,7 +820,7 @@ Downtime of GitLab.com has a material impact on our customers. From a 2014 repor
 
 #### Infradev
 
-The [infradev process](/handbook/engineering/workflow/#infradev) is used to triage issues requiring priority attention in support of SaaS availability and reliability. As part of the broader effort to responsibly manage tech debt across the company, PMs should partner with their EMs to identify and [incorporate](/handbook/engineering/workflow/#product-management) infradev labeled issues of [all severities](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity). Note, issues labeled with a severity must be mitigated and resolved within [specific timeframes](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) to meet the SLO. As EMs are the DRIs for prioritizing infradev work, PMs should familiarize themselves with the [infradev process](/handbook/engineering/workflow/#infradev) and [Board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev).
+The [infradev process](/handbook/engineering/workflow/#infradev) is used to triage issues requiring priority attention in support of SaaS availability and reliability. As part of the broader effort to responsibly manage tech debt across the company, PMs should partner with their EMs to identify and [incorporate](/handbook/engineering/workflow/#product-management) infradev labeled issues of [all severities](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity). Note, issues labeled with a severity must be mitigated and resolved within [specific time frames](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) to meet the SLO. As EMs are the DRIs for prioritizing infradev work, PMs should familiarize themselves with the [infradev process](/handbook/engineering/workflow/#infradev) and [Board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name%5B%5D=infradev).
 
 Other resources PMs can consult to identify and prioritize Infradev issues include:
 
@@ -848,7 +870,7 @@ this list, Product Designers, Engineering Managers and Product Managers can work
 determine what items will be selected for work in the immediate future.
 
 This does not mean that items will be addressed in strict order - Product Designers, EMs and PMs
-need to be cognizant of dependencies, available skillsets, and the [rock/pebbles/sand](https://www.developgoodhabits.com/rock-pebbles-sand/)
+need to be cognizant of dependencies, available skill sets, and the [rock/pebbles/sand](https://www.developgoodhabits.com/rock-pebbles-sand/)
 problem of time management to make the best decisions about selecting work.
 
 #### Reviewing Build Plans
@@ -907,8 +929,8 @@ Execution of a Global prioritization can take many forms.  This is worked with b
 
 We have found the following methods less successful in ensuring completion of work that warrants global prioritization:
 
-- [Working Groups](/handbook/company/working-groups/) - This method involves convening a group of individuals who maintain full-time responsibility to other [Product Groups](/handbook/company/structure/#product-groups) and completing work as part of the working group structure. This method isn't prefered for completing product improvements, instead it can be utilized to scope work, or determine plans for future product delivery.
-- Fan Out Prioritization - This method of prioritization involves communicating a global prioritization to a number of [Product Groups](/handbook/company/structure/#product-groups) in an effort to ensure each individual product group's PM prioritizes the work in the timeframe you'd prefer.  This method requires significant coordination costs and puts delivery at risk due to the lack of central prioritization responsibility. In most cases it is preferred to execute a scope reassignment, borrow or realignment to complete the improvements.
+- [Working Groups](/handbook/company/working-groups/) - This method involves convening a group of individuals who maintain full-time responsibility to other [Product Groups](/handbook/company/structure/#product-groups) and completing work as part of the working group structure. This method isn't preferred for completing product improvements, instead it can be utilized to scope work, or determine plans for future product delivery.
+- Fan Out Prioritization - This method of prioritization involves communicating a global prioritization to a number of [Product Groups](/handbook/company/structure/#product-groups) in an effort to ensure each individual product group's PM prioritizes the work in the time frame you'd prefer.  This method requires significant coordination costs and puts delivery at risk due to the lack of central prioritization responsibility. In most cases it is preferred to execute a scope reassignment, borrow or realignment to complete the improvements.
 
 ### Rapid Action
 
@@ -1304,7 +1326,7 @@ We recently [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 1. Tracking open source projects in the same space as part of your competitive analysis is important as well. You can [evaluate these open source options](#evaluating-open-source-software) not just for interesting features and ideas, but potentially to integrate them in our product
 1. [Chorus transcriptions](/handbook/business-technology/tech-stack/#chorus) of sales calls and demos ([how to video - private](https://www.youtube.com/watch?v=5LaxjZ31250))
 1. Reviewing Win/Loss reports
-1. Learn about [customer health data](https://www.gainsight.com/) using Gainsight built on salesforce, managed by the Customer Success team
+1. Learn about [customer health data](https://www.gainsight.com/) using Gainsight built on Salesforce, managed by the Customer Success team
 
 ###### Market
 
@@ -1500,7 +1522,7 @@ When considering dates for a product announcement or launch that may impact our 
 
 #### Four phase transition
 
-Sometimes the objective is to cut over from one experience, or one system, to another. When doing so, consider having four transition phases rather than a hard cutover. The phases are: 1) Old experience. 2) Run the old experience and new experience side-by-side, with the old experience the default, and the new experience is gradually rolled out to a subset of users. 3) Run them side-by-side, with the new experience the default for the majority, but the old experience is still available as a fallback in case of problems. 4) Deprecate the old experience and offer only the new experience. This strategy enables teams to have more flexibility and demonstrate more iteration in the rollout, with reduced risk.
+Sometimes the objective is to cut over from one experience, or one system, to another. When doing so, consider having four transition phases rather than a hard cut over. The phases are: 1) Old experience. 2) Run the old experience and new experience side-by-side, with the old experience the default, and the new experience is gradually rolled out to a subset of users. 3) Run them side-by-side, with the new experience the default for the majority, but the old experience is still available as a fallback in case of problems. 4) Deprecate the old experience and offer only the new experience. This strategy enables teams to have more flexibility and demonstrate more iteration in the rollout, with reduced risk.
 
 #### Iterate to go faster
 
@@ -1514,7 +1536,7 @@ As an all-remote company we run [Remote Design Sprints (RDS)](/handbook/product/
 
 #### Spikes
 
-If you're faced with a very large or complex problem, and it's not clear how to most efficiently iterate towards the desired outcome, consider working with your engineers to build an experimental [spike solution](http://www.jamesshore.com/v2/books/aoad1/spike_solutions). This process is also sometimes referred to as a "technical evaluation." When conducting a spike, the goal is write as little code within the shortest possible timeframe to provide the level of information necessary the team needs to determine how to best proceed. At the end of the spike, code is usually discarded as the original goal was to learn, not build production-ready solutions. This process is particularly useful for major refactors and creating [architecture blueprints](/handbook/engineering/architecture/workflow/).
+If you're faced with a very large or complex problem, and it's not clear how to most efficiently iterate towards the desired outcome, consider working with your engineers to build an experimental [spike solution](http://www.jamesshore.com/v2/books/aoad1/spike_solutions). This process is also sometimes referred to as a "technical evaluation." When conducting a spike, the goal is write as little code within the shortest possible time frame to provide the level of information necessary the team needs to determine how to best proceed. At the end of the spike, code is usually discarded as the original goal was to learn, not build production-ready solutions. This process is particularly useful for major refactors and creating [architecture blueprints](/handbook/engineering/architecture/workflow/).
 
 #### Feedback issues
 
@@ -1526,7 +1548,7 @@ Timeline:
 - If announcing in Slack or doing dogfooding, include a link to the feedback issue
 - Leave the issue open for at least 14 days after launch
 - Respond and catalog the feedback into separate issues
-- Close the issue once the timeframe has passed and summarize the learnings from the feedback issue
+- Close the issue once the time frame has passed and summarize the learnings from the feedback issue
 
 Here are some examples of feedback issues:
 
@@ -1858,12 +1880,12 @@ Feature requests and merge requests can be rejected for the following reasons:
 where GitLab, the product, won't go. Point the issue's author to this article
 and close the issue.
 - We don't want another setting: whenever we can, we try to avoid having settings.
-Some settings are unavoidable, but most aren't. Ask the user to change how she
-approaches the feature in order to get rid of the setting.
+Some settings are unavoidable, but most aren't. Ask the user to change how they
+approach the feature in order to get rid of the setting.
 - Too complex: We want to have a simple, user-friendly product that does complex
 things, not the other way around. Tell the user to take a step back and think
 about the problem to be solved in the first place. Offer directions on
-what could be done instead. If she's not willing to do it, indicate that you will
+what could be done instead. If they are not willing to do it, indicate that you will
 have to close the issue/merge request because it will go nowhere.
 - Brings an Enterprise exclusive feature to the Community Edition: this problem
 is already addressed in the [Stewardship page](/handbook/company/stewardship/#contributing-an-existing-ee-feature-to-ce).
@@ -2123,7 +2145,7 @@ context of where we think we're going so we can do a good job with the MVC.
 
 Also, it conveys confidence internally and externally that we understand what
 we need to do when the MVC is particularly minimal. But don't get too caught up
-in long-term epics as you risk making proposals too complex, and overrepresenting
+in long-term epics as you risk making proposals too complex, and over representing
 certainty in the solution. Don't work too far in the future; we'll know better
 once we ship something small.
 
@@ -2213,9 +2235,9 @@ Feature issues identify work to support the implementation of a feature and/or r
 
 - If there is doubt about whether you could expect something to be there or work, it's a missing feature.
 - We iterate to deliver features, so we often don't have functionality that people expect. For this reason, 'people could reasonably expect this functionality' does not make it a bug.
-- Whether the code results in user facing updates or not, if it is part of building the feature it should be labelled as such.
-- Performance improvements and user interface enhancements improve the experience for end users and should be labelled as `~"type::feature"`.
-- API additions including both REST and GraphQL should also be labelled as `~"type::feature"`.
+- Whether the code results in user facing updates or not, if it is part of building the feature it should be labeled as such.
+- Performance improvements and user interface enhancements improve the experience for end users and should be labeled as `~"type::feature"`.
+- API additions including both REST and GraphQL should also be labeled as `~"type::feature"`.
 - If people care about a missing feature and the solution is clear, the issue should be marked as `~"Seeking community contributions"`.
 
 ##### Bug issues
@@ -2226,7 +2248,7 @@ Bug issues report undesirable or incorrect behavior, such as:
 - Inaccurate presentation or data.
 - Part of GitLab not working according to the documentation or a universal expectation.
 - Functionality inadvertently being broken, or changed from how it is supposed to work. This is also a [regression](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#regression-issues).
-- A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labelled as `~"type::bug"` and `~"bug::vulnerability"`.
+- A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labeled as `~"type::bug"` and `~"bug::vulnerability"`.
 - Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#severity-labels) for classifying a bug as `severity::1`.
 
 #### Issue state
@@ -2306,7 +2328,7 @@ Close the issue and create a new one.
 When performing the role of Life Support PM only the following are expected:
 
 - Management of next three milestones
-- Attend group meetings or asynch discussion channels
+- Attend group meetings or async discussion channels
 - Provide prioritization for upcoming milestones
 - MVC definition for upcoming milestones
 - Increase fidelity of scheduled issues via group discussion
@@ -2393,7 +2415,7 @@ The table below will catalog the list of GitLab.com services, the current SLO de
 
 ### Annual Compensation Review
 
-For our upcoming Annnual Compensation Review (ACR) cycle, [this handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) should be referenced as SSOT for content and processes related to the program. The timeline below outlines the Product division specific timeline the division will follow to ensure we have an appropriate amount of time to review compensation recommendations at all levels. Aside from the timeline itself, please reference the [ACR handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) for additional detail and program information.
+For our upcoming Annual Compensation Review (ACR) cycle, [this handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) should be referenced as SSOT for content and processes related to the program. The timeline below outlines the Product division specific timeline the division will follow to ensure we have an appropriate amount of time to review compensation recommendations at all levels. Aside from the timeline itself, please reference the [ACR handbook page](/handbook/total-rewards/compensation/compensation-review-cycle) for additional detail and program information.
 
 - **2024-01-16 @ 5pm PT**: Due date for Managers and Senior Managers to submit slates in Workday
 - **2024-01-22 @ 5pm PT**: Due date for Directors to submit slates in Workday
