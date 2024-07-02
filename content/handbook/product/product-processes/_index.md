@@ -488,7 +488,9 @@ While Product Managers are the DRIs for [milestone planning](/handbook/product/c
 
 ### Non Functional Requirements
 
-When thinking about features, it is important not only to think about the functional requirements of a feature (defining what the feature will do), but also to think about non-functional requirements (defining how the feature works). At the highest level, non-functional requirements define items such as performance, scalability, compatibility, maintainability and usability characteristics of a feature. For an in depth review of non-functional requirements, see [this resource](https://www.altexsoft.com/blog/non-functional-requirements/). 
+When thinking about new features, we must not only to think about the functional requirements of a feature (defining what the feature will do), but also to think about non-functional requirements (defining how the feature works). At the highest level, non-functional requirements define items such as performance, scalability, compatibility, maintainability and usability characteristics of a feature. It is important to have non-functional requirements in place up front, as this is much easier than trying to add them later and change expectations, or break existing workflows. 
+
+For an in depth review of non-functional requirements, see [this resource](https://www.altexsoft.com/blog/non-functional-requirements/). 
 
 Some specific areas were we should consider creating non-functional requirements are discussed below.
 
@@ -517,7 +519,7 @@ Application limits should be enabled by default. If we are considering enabling 
 
 #### Data storage for features
 
-As we continue to scale our product, we should consider the amount of data being stored for new features. Data storage is not an infinite resource, so we should think carefully about what data needs persistent storage to provide the desired user experience.
+As we continue to scale our product, we need to consider the amount of data being stored for new features. Data storage is not an infinite resource, so we should think carefully about what data needs persistent storage to provide the desired user experience.
 
 Data storage comes in three main forms for GitLab -- object storage, database storage, and Git repository storage. While we have dedicated teams devoted to ensuring we can scale these storages appropriately, it is in our best interest to only store what is required for a feature to perform as intended. Additionally, there may be situations where storage should be subject to data retention policies.
 
@@ -526,7 +528,7 @@ Data storage comes in three main forms for GitLab -- object storage, database st
 When evaluating feature data storage, the following data storage topics should be considered.
 
 - **What quantity data needs to be stored?** - What amount of data will need to be stored for the feature to function as intended. Is this level of data storage bounded, or is there a potential for unbounded growth? Unbounded growth should be avoided if possible.
-- **How long should data be retained?** - We should consider carefully the need to store data indefinitely. Some features may solve their intended problem, but removing certain data after a specified time period won't impact the viability of the feature. In these instances, we should put retention policies in place. These retention polices can be configurable, and a default set for GitLab.com. _Note: it is easier to increase data retention time frames than reduce them, so consider starting out with a conservative time frame._
+- **How long should data be retained?** - We should consider carefully the need to store data indefinitely. Some features may solve their intended problem, but removing certain data after a specified time period won't impact the viability of the feature. In these instances, we should put retention policies in place. These retention polices should have a sane default value which is considered best practice for operating the feature long term. _Note: it is easier to increase data retention time frames than reduce them, so consider starting out with a conservative time frame._
 - **How often will this data be accessed?** - Much like the quantity of data stored can lead to scalability issues, so can the increased load on the data stores when the data is accessed frequently. There are ways to ease the burden on our infrastructure by properly forming queries, caching often used data, or carefully considering how repository data is accessed. If there are questions, consider reaching out to the [Database Group](/handbook/product/categories/#database-group) or the [Gitaly::Git Group](/handbook/product/categories/#gitalygit-group) for assistance.
 
 ### Cross-stage features
