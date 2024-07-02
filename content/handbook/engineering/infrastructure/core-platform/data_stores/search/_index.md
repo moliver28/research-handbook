@@ -1,13 +1,7 @@
 ---
-
 title: Global Search Group
 description: "The Global Search team is focused on bringing world class search functionality to GitLab.com and self-managed instances."
 ---
-
-
-
-
-
 
 ## Vision
 

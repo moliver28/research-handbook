@@ -30,15 +30,15 @@ To be an effective ally it is important to understand some of the skills and beh
   - Asking for clarification.
   - Summarizing.
 - Empathy & Emotional Intelligence
-  - **An example of this could be:** A colleague comes to you and tells you that their pronouns are being misused often at work and it is making them feel uncomfortable and they are avoiding social calls and interactions. Whilst you haven’t experienced this yourself and unlikely you would experience this, you allow yourself to think of situations where you have felt uncomfortable at work before. You also put yourself consciously into the shoes of your colleague and think of a way you can practically help. You offer to your colleague that in the next 5 calls they participate in you will be on the call and actively point out misuse of their pronouns to other colleagues to take away some of the emotional burden.
+  - **An example of this could be:** A colleague comes to you and tells you that their pronouns are being misused often at work and it is making them feel uncomfortable and they are avoiding social calls and interactions. Whilst you haven't experienced this yourself and unlikely you would experience this, you allow yourself to think of situations where you have felt uncomfortable at work before. You also put yourself consciously into the shoes of your colleague and think of a way you can practically help. You offer to your colleague that in the next 5 calls they participate in you will be on the call and actively point out misuse of their pronouns to other colleagues to take away some of the emotional burden.
 - Active learning about other experiences
   - You go beyond performative actions for example black squares on Instagram for Black Lives Matter, but actively does the work to understand the pain, struggle and experience of those burdened.
   - **This could look like:** You are managing black team members, an incident has occurred externally that could affect the mental health of those team members. You actively research the experience and historical context of the trauma associated with the incident. You use this to ensure you are informed and able to appropriately apply empathy if a team member approaches you to ask for assistance.
 - Humility
   - Non-defensive
   - Willingness to take on feedback
-  - You aren’t going to get it right all the time and you have to be ok with that. Be willing to take feedback on and not let it deter you from continuing to be an ally.
-  - **Example of this could be:** You are in a safe space with an underrepresented group acting as an ally and absorbing information. A point comes up that you are passionate about and you talk over someone in the group and take over the conversation. After the meeting someone from the group jumps on a Zoom meeting with you and explains that it felt you took away the viewpoints of a number of people from the URG because you took over the conversation and interrupted an individual. You apologize, take on the feedback, ask for any tips on how to make sure it doesn’t happen again and take the necessary steps. --- One of the mistakes that often happens here is being defensive or justifying the action. The group will already know you are operating with good intent but generally are wanting to help you level up in their lived experience.
+  - You aren't going to get it right all the time and you have to be ok with that. Be willing to take feedback on and not let it deter you from continuing to be an ally.
+  - **Example of this could be:** You are in a safe space with an underrepresented group acting as an ally and absorbing information. A point comes up that you are passionate about and you talk over someone in the group and take over the conversation. After the meeting someone from the group jumps on a Zoom meeting with you and explains that it felt you took away the viewpoints of a number of people from the URG because you took over the conversation and interrupted an individual. You apologize, take on the feedback, ask for any tips on how to make sure it doesn't happen again and take the necessary steps. --- One of the mistakes that often happens here is being defensive or justifying the action. The group will already know you are operating with good intent but generally are wanting to help you level up in their lived experience.
 - Courage
   - Comfortable getting uncomfortable
   - Speak up where others don't or can't
@@ -77,7 +77,7 @@ To be an effective ally it is important to understand some of the skills and beh
 1. Allies spend time educating themselves and use the knowledge to help
 1. Allies take the time to think and analyze the situation
 1. Allies try to understand Perception vs. Reality
-1. Allies don’t stop with their power they also leverage others powers of authority
+1. Allies don't stop with their power they also leverage others powers of authority
 
 See our [Ally Resources Page]({{< ref "ally-resources" >}}) for more resources on being an ally.
 
@@ -89,43 +89,43 @@ See our [Ally Resources Page]({{< ref "ally-resources" >}}) for more resources o
 
 #### Responding with Empathy
 
-**What to say, when you don’t know what to say:**
+**What to say, when you don't know what to say:**
 
 - Acknowledgement of their pain.
-“I’m sorry you are going through this.” “That must be hard.”
+"I'm sorry you are going through this." "That must be hard."
 - Share how you feel.
-“Wow. I don’t know what to say.” “It makes me really sad to hear this happened.”
+"Wow. I don't know what to say." "It makes me really sad to hear this happened."
 - Show Gratitude that the person opened up.
-“Thank you for sharing with me.” “This must be hard to talk about. Thanks for opening up to me.”
+"Thank you for sharing with me." "This must be hard to talk about. Thanks for opening up to me."
 - Show Interest.
-“How are you feeling about everything?” “Is there anything else you want to share?”
+"How are you feeling about everything?" "Is there anything else you want to share?"
 - Be Encouraging.
-“You are brave / strong / talented.” “You matter.”
+"You are brave / strong / talented." "You matter."
 - Be Supportive.
-“I’m here for you.” “I’m happy to listen any time.”
+"I'm here for you." "I'm happy to listen any time."
 
 **Boot and Sandal Methophor**
 
-Imagine you are wearing a heavy boot (represents privilege) and you are stepping on someone’s foot that is only wearing sandals (represents oppression). If someone says, “Ouch, you are stepping on my toes!” How do you react?
+Imagine you are wearing a heavy boot (represents privilege) and you are stepping on someone's foot that is only wearing sandals (represents oppression). If someone says, "Ouch, you are stepping on my toes!" How do you react?
 
 **Problems with common responses to mistakes become obvious:**
 
-- **Centering the mistake around yourself:** “I can’t believe you think I’m a toe-stepper! I’m a good person!”
-- **Denial that others’ experiences are different from your own:** “I don’t mind when people step on my toes.”
-- **Derailing:** “Some people don’t even have toes, why aren’t we talking about them instead?”
-- **Refusal to center the impacted:** “All toes matter!”
-- Tone policing: “I’d move my foot if you’d ask me more nicely.”
-- **Denial that the problem is fixable:** “Toes getting stepped on is a fact of life. You’ll be better off when you accept that.”
-- **Victim blaming:** “You shouldn’t have been walking around people with boots!”
-- **Withdrawing:** “I thought you wanted my help, but I guess not. I’ll just go home.”
+- **Centering the mistake around yourself:** "I can't believe you think I'm a toe-stepper! I'm a good person!"
+- **Denial that others' experiences are different from your own:** "I don't mind when people step on my toes."
+- **Derailing:** "Some people don't even have toes, why aren't we talking about them instead?"
+- **Refusal to center the impacted:** "All toes matter!"
+- Tone policing: "I'd move my foot if you'd ask me more nicely."
+- **Denial that the problem is fixable:** "Toes getting stepped on is a fact of life. You'll be better off when you accept that."
+- **Victim blaming:** "You shouldn't have been walking around people with boots!"
+- **Withdrawing:** "I thought you wanted my help, but I guess not. I'll just go home."
 
 **Instead, you would respond with the following:**
 
-- Center the impacted: “Are you okay?”
+- Center the impacted: "Are you okay?"
 - Listen to their response and learn.
-- Apologize for the impact, even though you didn’t intend it: “I’m sorry!”
+- Apologize for the impact, even though you didn't intend it: "I'm sorry!"
 - Stop the instance: move your foot
-- Stop the pattern: be careful where you step in the future. When it comes to oppression, we want to actually change the “footwear” to get rid of privilege and oppression (sneakers for all!), but metaphors can only stretch so far!
+- Stop the pattern: be careful where you step in the future. When it comes to oppression, we want to actually change the "footwear" to get rid of privilege and oppression (sneakers for all!), but metaphors can only stretch so far!
 
 ### Improve allyship skills by following the three C's
 

@@ -1,5 +1,4 @@
 ---
-
 title: Support Engineering Mentorship
 description: This page covers the expectations of Senior+ Engineers and how they can engage in mentorship at GitLab
 ---

@@ -27,7 +27,7 @@ Our exit criteria maps to the proposal found in [this Epic](https://gitlab.com/g
 
 ## Outcome
 
-When the group was started, the target features were in categories spread across different stages and groups. With the creation of the [Govern Stage](https://about.gitlab.com/direction/govern/) the remaining two items are wholly within the responsibilities of the [Composition Analysis](https://about.gitlab.com/direction/secure/#groups) group in the Secure stage, and as such they’re best completed as business-as-usual features in the owner group.
+When the group was started, the target features were in categories spread across different stages and groups. With the creation of the [Govern Stage](https://about.gitlab.com/direction/govern/) the remaining two items are wholly within the responsibilities of the [Composition Analysis](https://about.gitlab.com/direction/secure/#groups) group in the Secure stage, and as such they're best completed as business-as-usual features in the owner group.
 
 ## Roles and Responsibilities
 

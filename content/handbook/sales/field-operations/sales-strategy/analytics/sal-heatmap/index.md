@@ -1,13 +1,6 @@
 ---
-
 title: "Sales Strategy - SAE Heatmap dashboard"
 ---
-
-
-
-
-
-
 
 ## SAE Heatmap dashboard
 

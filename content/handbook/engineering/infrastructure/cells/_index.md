@@ -212,7 +212,7 @@ DRI of Expansion Software Development
 </tr>
 
 <tr>
-<td>Application’s Cell readiness</td>
+<td>Application's Cell readiness</td>
 <td>
 
 [Kamil Trzciński](https://gitlab.com/ayufan)
@@ -466,13 +466,11 @@ We use t-shirt sizing to estimate the time and effort needed to deliver issues/e
 
 ### Meetings
 
-- Fortnightly Cells X-Functional Sync ([Meeting notes (internal only)](https://docs.google.com/document/d/1i6B_JcSJoN6OWgOazVdwqkYnn4h-a28P2ddWAUIHQdU/edit#heading=h.37jadhgzdghi))
-- Monthly Infrastructure Cells program review ([Meeting notes (internal only)](https://docs.google.com/document/d/1k6tpaFU6noOcM8irLBTB0IyUM-VN_V6zA-VrE5dcuwE/edit))
-- Quarterly Cells program review (TBD)
+- Cells Standup weekly [Meeting notes (internal only)](https://docs.google.com/document/d/1hlGGrgZFWMyHCUcML6wYgu7iWwEL6uUMs_f9DnCzNDo)
 
 ### Status updates
 
-- Weekly “Cells & Organizations Status Update - [yyyy-mm-dd]” issues in this [project](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/?sort=created_date&state=all&label_name%5B%5D=cells-organizations-status)
+- Weekly "Cells & Organizations Status Update - [yyyy-mm-dd]" issues in this [project](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/?sort=created_date&state=all&label_name%5B%5D=cells-organizations-status)
 - Weekly status updates in Slack [#cto channel (internal only)](https://gitlab.enterprise.slack.com/archives/C9X79MNJ3) channel
 
 ## Additional Information

@@ -1,14 +1,6 @@
 ---
-
 title: "Customer Insight Page"
 ---
-
-
-
-
-
-
-
 
 #### Case Study Creation Process
 
@@ -132,7 +124,7 @@ Depending on the customers use cases; please select the appropriate questions be
 - [ ] What are some positive outcomes or impacts that you've noticed since implementing GitLab for CI?
 - [ ] How has GitLab Continuous Integration helped improve quality and speed of your delivery?
 - [ ] Corresponds to Metrics Form: We find that the most meaningful case studies show value that changes over time with supporting quantitative data. These come in various forms of metrics and/or data points, such as DORA metrics (lead time, deployment frequency (more CD than CI), mean time to recovery, and change failure rate). What are you currently measuring today from a quantitative standpoint? If nothing right now, that's ok! Have you considered what you want to be able to track and measure in the short term?
-- [ ] Corresponds to Metrics Form: Code commits: If you’re not already tracking the number of code commits your team(s) make before deploying your software, it’s a great time to take a look at that data in your environment. It should be fairly easy to retrieve, please let me know if you need guidance!
+- [ ] Corresponds to Metrics Form: Code commits: If you're not already tracking the number of code commits your team(s) make before deploying your software, it's a great time to take a look at that data in your environment. It should be fairly easy to retrieve, please let me know if you need guidance!
 
 **Continuous Delivery (CD)**
 
@@ -230,7 +222,7 @@ Depending on the customers use cases; please select the appropriate questions be
 
 - [ ] How is GitLab impacting the number of contributions in your community?
 - [ ] What kind of feedback have you received about GitLab from your community?
-- [ ] Did you need to adapt GitLab to fit your community’s needs?
+- [ ] Did you need to adapt GitLab to fit your community's needs?
 - [ ] What are the benefits of moving to GitLab for open source communities?
 - [ ] What other services did you use before GitLab? (e.g. for hosting, task management, etc)
 - [ ] What other services are you still using? (e.g. for hosting, task management, etc)

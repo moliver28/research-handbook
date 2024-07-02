@@ -31,7 +31,7 @@ The role of TPM can mean different things at different organizations. At GitLab,
 
 ### Critical Thinking
 
-* Is not an order taker or a “cat herder.” Instead, applies and fosters an environment of analytical thinking in regards to project goals, prioritization, execution, and decision making.
+* Is not an order taker or a "cat herder." Instead, applies and fosters an environment of analytical thinking in regards to project goals, prioritization, execution, and decision making.
 
 * Leads the charge in collaboratively solving problems and driving towards outcomes that are best for the business
 

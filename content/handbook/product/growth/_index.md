@@ -1,14 +1,6 @@
 ---
-
 title: How the growth section works
 ---
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -133,7 +125,7 @@ and - like a contribution coming from the wider community - ultimately own the f
 When the planning issue is created the Product Designer should follow these steps:
 
 - Review the issue boards and the prioritization dashboard (issues should be ordered by priority)
-- Determine whether they agree with the prioritized issues or want to suggest a change. For example, are there any SUS impacting issues we’ve been neglecting?
+- Determine whether they agree with the prioritized issues or want to suggest a change. For example, are there any SUS impacting issues we've been neglecting?
 - Comment in the planning issue to discuss proposed changes.
 - Re-order the board once priority is decided.
 - Ensure that issues have weights.
@@ -228,7 +220,7 @@ We use this [process](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/2
     - The Growth Product Designer will mention the stage group Product Designer when starting work on a design issue for awareness and to gather background information such as existing constraints, usability problems and existing research. (Growth PMs will communicate in a similar way to Stage PMs)
     - The Growth Product Designer will add the stage group Product Designer to design reviews to get feedback and ensure consistency. Design reviews can be sync or async, for example:
         - Scheduling a recurring monthly sync call.
-        - Creating a document for async catching up ([template](https://docs.google.com/document/d/1r83O5AAo_o46ics-BF6NV_eIr1yR7KkKCarfc8kbFgM/edit?usp=sharing)) and a calendar event to remind everyone involved to share what they’re working on.
+        - Creating a document for async catching up ([template](https://docs.google.com/document/d/1r83O5AAo_o46ics-BF6NV_eIr1yR7KkKCarfc8kbFgM/edit?usp=sharing)) and a calendar event to remind everyone involved to share what they're working on.
     - UX Researchers should share research results with stage groups whenever that research is relevant cross-stage.
 
 #### Contributing to the Learn GitLab project

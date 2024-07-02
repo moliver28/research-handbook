@@ -19,7 +19,7 @@ Three questions each participant should ask / answer:
 
 One thing to emphasize is that it is not for problem solving - no solutioning!
 
-It is to raise a problem that exists and then to schedule time to explore it later. And that’s why we time box it to about 15 minutes because we want it to be quick and not waste anyone’s time.
+It is to raise a problem that exists and then to schedule time to explore it later. And that's why we time box it to about 15 minutes because we want it to be quick and not waste anyone's time.
 
 Guidelines:
 

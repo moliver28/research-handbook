@@ -127,15 +127,15 @@ Sid Sijbrandij (CEO and co-founder, GitLab) shared a video overview of his [stre
 
 Teleprompters enable eye contact similar to meeting someone in-person and can make meetings more engaging. However, there are currently challenges with using a teleprompter setup as your everyday video conferencing setup. Once these are overcome, we may recommend it.
 
-1. **Problem (Major):** When Zoom is on the teleprompter, the chat, controls, and screen sharing are extremely small and unusable. They have a “dual monitor” mode that is meant for screen sharing and it behaves as expected for n=3+ calls. But for 1:1 calls it unexpectedly puts yourself on the video window in the teleprompter.
+1. **Problem (Major):** When Zoom is on the teleprompter, the chat, controls, and screen sharing are extremely small and unusable. They have a "dual monitor" mode that is meant for screen sharing and it behaves as expected for n=3+ calls. But for 1:1 calls it unexpectedly puts yourself on the video window in the teleprompter.
     - *Mitigation:* We may need to wait for Zoom to roll out a new mode that is teleprompter-specific
 1. **Problem (Major):** The mouse, Zoom controls, and screen shared content are horizontally flipped on the teleprompter making it very difficult to work
     - *Mitigation:* Buy [a device](https://telepromptermirror.com/hdmi-mirrorbox) that horizontally flips the HDMI output to the monitor mounted in the teleprompter
 1. **Problem (Minor):** It's disconcerting that the audio of the person you're looking at is coming from your computer which is sitting to the side. This is especially true when you have a video monitor window on that computer that pulls your attention away from the teleprompter because it's brighter, larger, and syncs to the audio
     - *Mitigation:* External stereo speakers that mount to teleprompter
-1. **Problem (Minor):** It's harder to know when your camera is off when it's mounted in a teleprompter. And that’s a problem if your office is a guest bedroom (or something)
+1. **Problem (Minor):** It's harder to know when your camera is off when it's mounted in a teleprompter. And that's a problem if your office is a guest bedroom (or something)
     - *Mitigations*
-        - Get some sort of “on air” light
+        - Get some sort of "on air" light
         - Get a black silk hood to flip over the camera
         - Remember to turn the camera off every single time
 1. **Problem (Minor):** The video quality is slightly degraded by the physics of light passing through an additional pane of glass
@@ -193,7 +193,7 @@ GitLab team members have been satisfied with the value and quality of standing d
 
 Research is ongoing as to the [ideal ratio of sitting to standing](https://uwaterloo.ca/kinesiology/how-long-should-you-stand-rather-sit-your-work-station) during a workday.
 
-> Using advanced ergonomic and health risk calculations, [Jack Callaghan](https://uwaterloo.ca/kinesiology/people-profiles/jack-callaghan), a professor in Waterloo’s Department of Kinesiology, has found that the ideal sit-stand ratio lies somewhere between 1:1 and 1:3  – a vast departure from traditional wisdom.
+> Using advanced ergonomic and health risk calculations, [Jack Callaghan](https://uwaterloo.ca/kinesiology/people-profiles/jack-callaghan), a professor in Waterloo's Department of Kinesiology, has found that the ideal sit-stand ratio lies somewhere between 1:1 and 1:3  – a vast departure from traditional wisdom.
 
 #### Standing mats
 
@@ -264,7 +264,7 @@ Be sure to have the ["I'm home but working" conversation with children](https://
 
 ### How can I decorate my home office?
 
-When you work from home, you create a space that fuels your work. According to this [Thrive Global article on remote space setup](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset), "Maybe that is art, pictures, having a couch close by, or maybe it’s just having music playing...at home you can really do whatever you want. It feels less like a corporate job and more of your own thing."
+When you work from home, you create a space that fuels your work. According to this [Thrive Global article on remote space setup](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset), "Maybe that is art, pictures, having a couch close by, or maybe it's just having music playing...at home you can really do whatever you want. It feels less like a corporate job and more of your own thing."
 
 Try not to [worry about your background]({{< ref "./meetings#meetings-are-about-the-work-not-the-background" >}}) too much. Sometimes pets or family wander into a room while you're on a call and reminds us that we are people first and colleagues second.
 

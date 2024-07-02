@@ -5,7 +5,7 @@ description: "As a member of the Content Strategy &amp; Ops team at GitLab, you 
 
 ## Blog Editor
 
-As a member of the Content Strategy &amp; Ops team at GitLab, you are part of building the media and publishing arm of GitLab. You will be directly responsible for generating website traffic and growing GitLab’s audience. You will work closely with team members across the company to develop and optimize stories for the GitLab blog, and you will use GitLab itself to plan and collaborate.
+As a member of the Content Strategy &amp; Ops team at GitLab, you are part of building the media and publishing arm of GitLab. You will be directly responsible for generating website traffic and growing GitLab's audience. You will work closely with team members across the company to develop and optimize stories for the GitLab blog, and you will use GitLab itself to plan and collaborate.
 
 The Blog Editor reports to the Manager, Blog Strategy (in absence, Director, Global Content)
 
@@ -73,7 +73,7 @@ The Staff Managing Editor is a [grade 8](/handbook/total-rewards/compensation/co
 - Set the publishing strategy, directives, and goals
 - Oversee all daily publishing operations
 - dentify and facilitate high-potential posts. Work with SEO team on optimization goals
-- Improve and enforce GitLab’s editorial style guide, including brand style, tone, and voice
+- Improve and enforce GitLab's editorial style guide, including brand style, tone, and voice
 - Work cross-functionally with social, PR, and other marketing groups to develop distribution and amplification strategies
 - Collaborate with technical stakeholders across the organization to create relevant content to support messaging goals
 - Create content as needed
@@ -100,8 +100,8 @@ The Manager, Blog Strategy is a [grade 8](/handbook/total-rewards/compensation/c
 
 #### Responsibilities
 
-- Define strategy and direction, and drive execution of GitLab’s blog:
-- Serve as GitLab’s go-to source for all things editorial
+- Define strategy and direction, and drive execution of GitLab's blog:
+- Serve as GitLab's go-to source for all things editorial
 - Set the publishing strategy, directives, and goals, together with blog team
 - Drive improvements to user experience on the GitLab blog, working with Digital Experience, Design, SEO, and other involved teams
 - Effectively and efficiently partner with peer groups within marketing to ensure editorial strategy aligns with and supports broader marketing strategy
@@ -112,7 +112,7 @@ The Manager, Blog Strategy is a [grade 8](/handbook/total-rewards/compensation/c
 - Manage the editorial team:
 - Coach and enable team to take ownership of OKRs and drive their own initiatives
 - Continually improve publishing operations.
-- Improve and enforce GitLab’s editorial style guide, including brand style, tone, and voice alongside blog team
+- Improve and enforce GitLab's editorial style guide, including brand style, tone, and voice alongside blog team
 - Manage the editorial budget
 - Lead special editorial projects and initiatives including, but not limited to, our annual DevSecOps Survey
 - Create content as needed

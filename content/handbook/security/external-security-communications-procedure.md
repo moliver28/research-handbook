@@ -5,7 +5,7 @@ description: "Procedures for handling communications regarding security"
 
 ## Purpose
 
-This procedure is intended to identify the Security Organization’s ownership and approval on categories/topics of external communication.
+This procedure is intended to identify the Security Organization's ownership and approval on categories/topics of external communication.
 
 ## Scope
 

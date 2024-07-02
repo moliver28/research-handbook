@@ -24,7 +24,7 @@ They lay out our plan to execute our [strategy](/handbook/company/strategy/) and
 
 **Key Results** are measures of progress against aligned objectives. They capture *how* we measure success in obtaining the objective. By achieving a Key Result (outcome), we create progress for the linked objective.
 
-You can use the phrase “We will achieve a certain OBJECTIVE as measured by the following KEY RESULTS…” to know if your OKR makes sense.
+You can use the phrase "We will achieve a certain OBJECTIVE as measured by the following KEY RESULTS…" to know if your OKR makes sense.
 The OKR methodology was pioneered by Andy Grove at Intel and has since helped align and transform companies around the world.
 
 OKRs have four superpowers:
@@ -58,7 +58,7 @@ Objectives should be:
     1. Introduce disruptive innovations
     1. Establish differences between GitLab Inc. and competitors
     1. Be recognized as an industry leader in a category
-1. **Meaningful** - A top priority that advances GitLab’s strategy and greater mission; provides direction to departments, teams, and individuals about where we are going and how we are getting there.
+1. **Meaningful** - A top priority that advances GitLab's strategy and greater mission; provides direction to departments, teams, and individuals about where we are going and how we are getting there.
 1. **Inspirational** - By providing an aspirational yet meaningful target, empower teams to reprioritize work to focus on what makes the most progress against an objective; to accomplish this, objective should also be easy to remember.
 1. **Align Teams & Individuals** - Need to be broad enough to be relevant to at least more than one department, team, or individual one level down, but also specific enough that the objective can be measurable by up to three key results; if associated Key Results are satisfied, Objective should be achieved.
     1. For example, a product-related OKR at CEO level such as increase users by 100% would have the Product leader as the DRI but every other function would also need to contribute to achieve that KR.
@@ -80,10 +80,10 @@ Key Results should be:
 1. **Influenceable** - the Key Result owner (department, team, or individual) should be able to impact Key Result through the owner's actions.
     1. **Example**: an individual KR to change company-wide net retention is too broad; there are too many other conflating factors for an individual to determine impact. However, net retention could be appropriate KR for an entire department.
 1. **Time Bound** - has a due date. At GitLab, unless otherwise stated, this is within the quarter.
-1. **Measurable** - As Key Results provide the milestones for how we’ll complete objective, KR should be either a *qualitative* (i.e. completed Y/N or number of steps of project completed) or *quantitative* (increased a metric by x) measure that can prove we accomplished the Key Result. *Quantifying Key Results strongly preferred.*
-1. **Mutually Exclusive** - Measure one component of progress for an objective without overlapping with progress represented by other Key Results. Progress for one Key Result shouldn’t count towards another Key Result.
-    1. **Example**: A Key Result for number of transactions and a Key Result for average dollar amount of transactions are an example of mutually exclusive Key Results: one KR measures *volume* while the other Key Result measures *quality* of volume. On the other hand, a Key Result for total number of transactions and a Key Result for number of transactions from North America is an example of an overlap: progress gets ‘double-counted’ for both Key Result.
-1. **Collectively Exhaustive** - Key Results should fully account for what’s required to achieve an objective. If all Key Results are achieved, then, by default, the Objective must also be achieved.
+1. **Measurable** - As Key Results provide the milestones for how we'll complete objective, KR should be either a *qualitative* (i.e. completed Y/N or number of steps of project completed) or *quantitative* (increased a metric by x) measure that can prove we accomplished the Key Result. *Quantifying Key Results strongly preferred.*
+1. **Mutually Exclusive** - Measure one component of progress for an objective without overlapping with progress represented by other Key Results. Progress for one Key Result shouldn't count towards another Key Result.
+    1. **Example**: A Key Result for number of transactions and a Key Result for average dollar amount of transactions are an example of mutually exclusive Key Results: one KR measures *volume* while the other Key Result measures *quality* of volume. On the other hand, a Key Result for total number of transactions and a Key Result for number of transactions from North America is an example of an overlap: progress gets 'double-counted' for both Key Result.
+1. **Collectively Exhaustive** - Key Results should fully account for what's required to achieve an objective. If all Key Results are achieved, then, by default, the Objective must also be achieved.
 1. **Few Words and Ubiquitous Language** - [As defined in Handbook](/handbook/communication/#mecefu-terms).
 
 *You can score your OKRs against these criteria to determine whether your OKRs are effective.*
@@ -97,7 +97,7 @@ Verb + What you want to do + In order to/for/so that (what you hope to achieve o
 - *Clear goal including rationale for pursuing that goal*
 
 The following formula can be used to write Key Results:
-Verb + what you’re going to measure + from “x to y”.
+Verb + what you're going to measure + from "x to y".
 **Key Result Example**: 100% of employees certified on OKR expectations and process.
 
 For information on getting started with OKRs]) and writing basic OKRs, consider reviewing the [OKRs 101 lessons on What Matters](https://www.whatmatters.com/get-started). The ["6 Principles of setting OKRs"](https://primalogik.com/blog/okr-examples-best-practices/#How-to-Set-OKRs) may also be helpful.
@@ -299,9 +299,9 @@ To add new objectives in GitLab, follow the steps below:
 
 ### Creating Key Results
 
-Each [Objective](#creating-objectives) will contain one or more sub-objectives or key results. Sub-objectives are only used to cascade OKR down a level in [organizational structure](https://about.gitlab.com/team/structure/#layers) while [Key Results are the measure](#what-are-okrs) which helps us understand if we’ve met our objective and can be cascaded down a level of organization structure to become an objective one level down. Key Results must be created as part of an Objective and cannot be created independent of an Objective since Key Results [should be linked](/handbook/company/okrs/#criteria-for-key-results:~:text=Linked%20%2D%20Be%20aligned%20to%20an%20Objective%20and%20be%20relevant%20to%20teams%20one%20level%20down%3B%20this%20alignment%20also%20allows%20KRs%20to%20easily%20roll%20down%20to%20become%20objectives%20one%20level%20down.) to an Objective.
+Each [Objective](#creating-objectives) will contain one or more sub-objectives or key results. Sub-objectives are only used to cascade OKR down a level in [organizational structure](https://about.gitlab.com/team/structure/#layers) while [Key Results are the measure](#what-are-okrs) which helps us understand if we've met our objective and can be cascaded down a level of organization structure to become an objective one level down. Key Results must be created as part of an Objective and cannot be created independent of an Objective since Key Results [should be linked](/handbook/company/okrs/#criteria-for-key-results:~:text=Linked%20%2D%20Be%20aligned%20to%20an%20Objective%20and%20be%20relevant%20to%20teams%20one%20level%20down%3B%20this%20alignment%20also%20allows%20KRs%20to%20easily%20roll%20down%20to%20become%20objectives%20one%20level%20down.) to an Objective.
 
-Since [Key Results are the measure](#what-are-okrs) that helps us understand if we’ve met our Objective, Key Results are aligned to the same, single layer of the [organizational structure](https://about.gitlab.com/team/structure/#layers) as their parent Objective and not a Key Result for multiple layers of organizational structure. However, Key Results can be cascaded down from this single organizational structure layer by becoming Objectives in the next organizational level down - see [Cascading OKRs](#cascading-okrs-and-how-to-align-division-okrs-to-the-company-okrs).
+Since [Key Results are the measure](#what-are-okrs) that helps us understand if we've met our Objective, Key Results are aligned to the same, single layer of the [organizational structure](https://about.gitlab.com/team/structure/#layers) as their parent Objective and not a Key Result for multiple layers of organizational structure. However, Key Results can be cascaded down from this single organizational structure layer by becoming Objectives in the next organizational level down - see [Cascading OKRs](#cascading-okrs-and-how-to-align-division-okrs-to-the-company-okrs).
 
 To add new key results in GitLab, follow the steps below:
 
@@ -346,7 +346,7 @@ If an OKR is related, but does not score towards the Company KR, edit the descri
 
 #### Creating company OKRs
 
-To allow for division, department, or team objectives to be added as child objectives or KRs, the Company key results should be created as an objective, not as a key result, as GitLab functionality doesn’t allow for a KR to have child OKRs.
+To allow for division, department, or team objectives to be added as child objectives or KRs, the Company key results should be created as an objective, not as a key result, as GitLab functionality doesn't allow for a KR to have child OKRs.
 
 The Office of the CEO does the following:
 

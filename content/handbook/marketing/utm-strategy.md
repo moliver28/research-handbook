@@ -1,5 +1,4 @@
 ---
-
 title: UTM Strategy
 description: Everything you need to know about our UTM strategy, which enables insights through the connected/resulting Tableau dashboards.
 twitter_image: /images/tweets/handbook-marketing.png
@@ -39,7 +38,7 @@ Adding UTMs to links allows Marketing to identify the source of traffic, form fi
 
 UTM parameters provide three key benefits:
 
-1. Help us understand our customers’ journey through each touchpoint.
+1. Help us understand our customers' journey through each touchpoint.
 2. Provides us with the marketing channel and marketing campaign categorization, plus the landing page the person converted on telling us the offer (webinar, gated content, free trial etc.).
 3. Used in combination, we can better understand what mix of marketing channels, campaigns, and offers produce the best results.
 

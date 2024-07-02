@@ -1,13 +1,6 @@
 ---
-
 title: "CSM Onboarding"
 ---
-
-
-
-
-
-
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
@@ -96,7 +89,7 @@ Collection of key handbook pages for CSMs to read and focus on when onboarding i
 - [Searching GitLab like a pro](/handbook/tools-and-tips/searching/)
 - [Answer client questions](/handbook/customer-success/csm/researching-customer-questions/)
 - [Process for CSM lead account escalations](/handbook/customer-success/csm/escalations/)
-- [STAR - Process for managing support tickets that, due to the situation that is critical for the customer’s business, require our attention](/handbook/support/internal-support/support-ticket-attention-requests/)
+- [STAR - Process for managing support tickets that, due to the situation that is critical for the customer's business, require our attention](/handbook/support/internal-support/support-ticket-attention-requests/)
 - [Process for CSM to CSM Account Handoff](/handbook/customer-success/csm/account-handoff/)
 - [Available development paths and resources for Customer Success Managers at GitLab](/handbook/customer-success/csm/csm-development/)
 - [DevOps - Foundations Learning](/handbook/customer-success/csm/csm-development/#devops)
@@ -108,7 +101,7 @@ Collection of initial set of key product links, which will help in the first 4-6
 - **Offerings: GitLab Dedicated vs. GitLab SaaS vs. GitLab Self Managed**
   - [**Self Managed**](https://docs.gitlab.com/ee/subscriptions/self_managed/index.html): In GitLab Self-managed you will have full control over the server itself and the environment
   - [**Dedicated**](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/index.html)**:**: A single-tenant SaaS service for highly regulated and large enterprises
-  - [**SaaS**](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html): The GitLab software-as-a-service offering. You don’t need to install anything to use GitLab SaaS, you only need to sign up and start using GitLab straight away
+  - [**SaaS**](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html): The GitLab software-as-a-service offering. You don't need to install anything to use GitLab SaaS, you only need to sign up and start using GitLab straight away
 - **GitLab Self Managed**
   - [**GitLab Application components**](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) ([details](https://docs.gitlab.com/ee/development/architecture.html#component-list))
   - [**Installation Methods**](https://docs.gitlab.com/ee/install/install_methods.html)

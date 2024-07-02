@@ -110,7 +110,7 @@ Previously, GitLab use to track GTM through the use of various CSS classes. This
 
 We use semantic names for tags, triggers, and variables to make it simpler to determine what these components are supposed to do. Use an em dash (shift+option-_) to divide the components of each GTM component name.
 
-Tags start with the platform, followed by the tag’s purpose, and are finally contextualized to about.gitlab.com. Any tags related to timed events need the timeframe indicated in a note attached to the tag in GTM to make it clear when to remove a tag.
+Tags start with the platform, followed by the tag's purpose, and are finally contextualized to about.gitlab.com. Any tags related to timed events need the timeframe indicated in a note attached to the tag in GTM to make it clear when to remove a tag.
 
 ##### Tag naming examples
 
@@ -138,7 +138,7 @@ If you are making changes to the GTM container and have questions about what to 
 
 #### dataLayer values
 
-Today we’re using the dataLayer sparingly on about.gitlab.com, with our primary use focused on [differentiating blog content with `postType`](/handbook/marketing/blog/#post-type). We’ll expand how we use the dataLayer to create content groupings for improved customer journey insights and document those updates here.
+Today we're using the dataLayer sparingly on about.gitlab.com, with our primary use focused on [differentiating blog content with `postType`](/handbook/marketing/blog/#post-type). We'll expand how we use the dataLayer to create content groupings for improved customer journey insights and document those updates here.
 
 #### Event tags
 
@@ -230,7 +230,7 @@ Dimensions are the different attributes of your data. For example, the landing p
 
 Metrics are the numbers that are being measured, such as number of page views or number of sessions.
 
-Each dimension and metric has a scope, so it’s important to understand the three different scopes:
+Each dimension and metric has a scope, so it's important to understand the three different scopes:
 
 1. User-level
 1. Session-level
@@ -256,7 +256,7 @@ Most reports have a data table below the graph. The data tables contain a dimens
 
 The `Primary Dimension` of the data tables can be changed by selecting a different primary dimension from above the table.
 
-A secondary dimension can also be added by clicking on the `Secondary Dimension` button above the table and selecting the secondary dimension you’d like to add to the table.
+A secondary dimension can also be added by clicking on the `Secondary Dimension` button above the table and selecting the secondary dimension you'd like to add to the table.
 
 #### Audience Reports
 
@@ -288,4 +288,4 @@ These reports can be valuable to see what content is bringing people to the site
 
 ##### Events
 
-Events can be set up to track actions that people take on the website, such as clicking links or selecting drop downs. These events can be set up in Google Tag Manager and for the most part won’t require any additional code to be placed on the website.
+Events can be set up to track actions that people take on the website, such as clicking links or selecting drop downs. These events can be set up in Google Tag Manager and for the most part won't require any additional code to be placed on the website.

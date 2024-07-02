@@ -207,7 +207,7 @@ TODO
 - Preparation and review of month management accounts
 - Contribute to the month-end close process
 - Contribute to filing statutory returns (including GST, VAT, Intrastat, local reports)
-- Contribute to the preparation and completion of CIT returns for GitLab’s entities
+- Contribute to the preparation and completion of CIT returns for GitLab's entities
 - Contribute to the audit processes of annual financial statements
 - Contribute to the preparation of transfer pricing calculations
 - Ownership of filing deadlines for all our entities
@@ -215,9 +215,9 @@ TODO
 - Contribute to efficient, accurate and production of consolidated financial statements
 - Increase efficiency for existing processes and design new processes (e.g. use of AI)
 - Contribute to ERP improvements for tax reporting in Netsuite (VAT, Accounting)
-- Contribute to GitLab’s international expansion activities (e.g. entity setup)
+- Contribute to GitLab's international expansion activities (e.g. entity setup)
 - Collaborate with the finance team in day-to-day activities, requests and projects
-- Contribute to the overall finance & tax OKR’s
+- Contribute to the overall finance & tax OKR's
 - Prepare meetings for the board of directors of GitLab BV
 - This position reports to the Director of Tax
 

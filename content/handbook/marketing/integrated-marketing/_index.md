@@ -69,7 +69,7 @@ We are innovative, strategic, and data-driven, delivering a cohesive high qualit
 
 ### Channel Marketing
 
-[Channel](/handbook/marketing/channel-marketing/): Exponentially grow GitLab’s reach through the ecosystem to build awareness and generate demand.
+[Channel](/handbook/marketing/channel-marketing/): Exponentially grow GitLab's reach through the ecosystem to build awareness and generate demand.
 
 ## OKRs/Goal/Plan (how we impact)
 

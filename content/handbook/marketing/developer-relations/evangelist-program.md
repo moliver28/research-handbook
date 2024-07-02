@@ -78,7 +78,7 @@ Think outside the box. All meetups and community events are different. Find what
 #### Create a new Meetup group
 
 - First,  contact the Evangelism Program Manager, they will ensure you are granted access by sending you a ticket. The ticket link grants the organizer access to meetup. You then will follow the prompts to set up your new group. Happy organizing.
-- Internal steps: Dashboard → Groups → Click the button to “+ Add group” → Click button to “Create tickets” → open txt file →Copy and paste link → Send to the requestor (via Slack or Email)
+- Internal steps: Dashboard → Groups → Click the button to "+ Add group" → Click button to "Create tickets" → open txt file →Copy and paste link → Send to the requestor (via Slack or Email)
 
 #### Meetup Promotion
 
@@ -304,7 +304,7 @@ We are planning to launch the GitLab Heroes Alumni group in early February 2022.
 
 Those who join the GHA group are welcome to reinstate their active status upon resuming community activity at the GitLab Heroes level.
 
-The requirements listed on the [hero’s journey table](https://about.gitlab.com/community/heroes/#heros-journey) will continue to be the standard for qualifying to be a Hero.
+The requirements listed on the [hero's journey table](https://about.gitlab.com/community/heroes/#heros-journey) will continue to be the standard for qualifying to be a Hero.
 
 **The ask**
 
@@ -353,7 +353,7 @@ Student hackathons are the events most frequently submitting requests for suppor
 
 The Beyond Code series elevates non-technical conversations and connects GitLab to the wider community. The topics are relatable, ranging from burnout, developer relations, remote work, branding, and much more. The chats are casual and intended for all audiences. We would like folks to feel included and heard in the discussions.
 
-We chose to host the conversations on [Twitter Spaces](https://help.twitter.com/en/using-twitter/spaces). It is an audio-only component of the social platform, Twitter. Hosting on Twitter Spaces allows us to expand our reach of listeners. Everyone is able to listen in from their phone or a web browser. Attendees can also ask questions by ‘raising a hand’ or by using the hashtag #BeyondCode. Speakers are required to join the Twitter Space from the Twitter application on their phones (iOS or Android) in order to be able to speak. A recording is available on Twitter after the space ends.
+We chose to host the conversations on [Twitter Spaces](https://help.twitter.com/en/using-twitter/spaces). It is an audio-only component of the social platform, Twitter. Hosting on Twitter Spaces allows us to expand our reach of listeners. Everyone is able to listen in from their phone or a web browser. Attendees can also ask questions by 'raising a hand' or by using the hashtag #BeyondCode. Speakers are required to join the Twitter Space from the Twitter application on their phones (iOS or Android) in order to be able to speak. A recording is available on Twitter after the space ends.
 
 - Each space is required to have a corresponding call to action (CTA). Examples of CTAs include a link to the handbook to drive traffic, a link to a GitLab issue for discussion, a blog post, learning course, or event.
 
@@ -384,7 +384,7 @@ Each conversation should showcase a diverse array of thoughts on the topic. The 
 
 When looking for internal guests, mention the topic in the #whats-happening-at-gitlab slack channel. If you have a particular person or persons in mind for the topic mention them directly in the issue template.
 
-Contact external guests by sending an email. The email allows for tracking the conversation taking place. Being that everyone doesn’t have a GitLab account.
+Contact external guests by sending an email. The email allows for tracking the conversation taking place. Being that everyone doesn't have a GitLab account.
 
 Use the guest invitation copy provided [here](https://docs.google.com/document/d/1YdyPNOFoOomhlAfyo5CQBoBuCUI00o2GW17zZUC7CA4/edit). The email template has the Know-Before-You-Chat checklist which sets expectations for pre, post, and day-of logistics for each conversation.
 
@@ -417,7 +417,7 @@ There will be digital asset cards created for every episode. All cards have pert
    <td>
 <ol>
 
-<li>GitLab talks DevRel: Don’t Judge a Career by its Title?
+<li>GitLab talks DevRel: Don't Judge a Career by its Title?
 </li>
 </ol>
    </td>

@@ -1,13 +1,6 @@
 ---
-
 title: Core Platform:Data Stores Stage
 ---
-
-
-
-
-
-
 
 ## Vision
 

@@ -31,8 +31,8 @@ We do not ask for the candidate's pronouns in the application form. This informa
 
 CES uses your Google calendar to schedule interviews. Our scheduling tool, Prelude will provide us with open times during your working hours to schedule. This is why it is *incredibly* important to maintain your calendar. Declined interviews prolong our recruiting process and negatively impact the experience of our candidates and hiring teams. Please only decline an interview invitation for an extenuating circumstance, such as an emergency, illness or childcare. We urge you to attend any scheduled interview to avoid a negative candidate experience. Please see best practices below when needing to decline and reschedule an interview.
 
-- If absolutely necessary, please decline interview calendar invites within 24-48 hours of receiving it. To decline, click “No” on the calendar invite. This will alert CES to work on rescheduling the interview and notifying the candidate in an acceptable amount of time.
-- When applicable, please provide a reason for declining the interview. (For example: if you’re feeling too ill to conduct the interview or if you were scheduled for another mandatory meeting, etc.). Then click Send.
+- If absolutely necessary, please decline interview calendar invites within 24-48 hours of receiving it. To decline, click "No" on the calendar invite. This will alert CES to work on rescheduling the interview and notifying the candidate in an acceptable amount of time.
+- When applicable, please provide a reason for declining the interview. (For example: if you're feeling too ill to conduct the interview or if you were scheduled for another mandatory meeting, etc.). Then click Send.
 - Declining the calendar invite allows our automated system to pick up the request, triage accordingly and bring it to the notice of the respective CES. All declined interviews will be considered urgent and CES will be prioritizing it accordingly.
 - If you need to decline an interview within 48 hours of the scheduled time and  you are able to provide CES a replacement interviewer, that would be preferred.
 - **Special Note:** Please do not add anyone else to your interview. If you need to swap with another interviewer or you would like to add a shadow, please tag @ces in your respective hiring channel or email ces@gitlab.com and we will happily make the adjustment to the invite.
@@ -59,12 +59,12 @@ Within Prelude, interviewers can set their interviewing availability, set daily 
 
 ***Examples of helpful notes include:***
 
-- “Can schedule 1 hour outside of availability with advance notice”
-- “No interviews on Monday/ Wednesday mornings if possible”
-- "CES can schedule over 1:1 or coffee chats”
+- "Can schedule 1 hour outside of availability with advance notice"
+- "No interviews on Monday/ Wednesday mornings if possible"
+- "CES can schedule over 1:1 or coffee chats"
 - "Do not book over Focus Fridays / please ask before scheduling"
 
-Additionally, you can help us understand which meetings are moveable and which are not. We’ve set up some recommendations in your Prelude account to get you started, but you can adjust these preferences yourself.
+Additionally, you can help us understand which meetings are moveable and which are not. We've set up some recommendations in your Prelude account to get you started, but you can adjust these preferences yourself.
 
 ![Scheduling conflicts](Conflicts.png)
 

@@ -1,12 +1,6 @@
 ---
-
 title: Product Manager SAFE Guidance
 ---
-
-
-
-
-
 
 ## Overview
 
@@ -62,13 +56,13 @@ Product managers often need access to MNPI to do their job. As GitLab is now a p
 - historical or forecasted revenues, earnings or other financial results;
 - significant new products or services or other product developments;
 - significant new contracts or partners or the loss of a significant contract or partner;
-- significant developments regarding GitLab’s technology or business operations;
+- significant developments regarding GitLab's technology or business operations;
 - possible mergers or acquisitions or dispositions of significant subsidiaries or assets;
 - major new litigation or regulatory inquiries or developments in existing litigation or inquiries;
 - significant cybersecurity incidents or data breaches;
 - significant developments in borrowings, or financings or capital investments;
 - significant changes in financial condition or asset value or liquidity issues;
-- changes in GitLab’s Board of Directors, E-group, or senior management;
+- changes in GitLab's Board of Directors, E-group, or senior management;
 - significant changes in corporate strategy;
 - changes in accounting methods and write-offs; and
 - stock offerings, stock splits or changes in dividend policy.

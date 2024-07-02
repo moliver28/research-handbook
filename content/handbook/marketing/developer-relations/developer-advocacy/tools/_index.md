@@ -1,5 +1,4 @@
 ---
-
 title: "Developer Advocacy Tools"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/tools/index.html

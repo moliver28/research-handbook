@@ -65,7 +65,7 @@ You can maximize the benefits of [asynchronous workflows]({{< ref "./asynchronou
 
 ### 5. Embrace change (allow iteration)
 
-Relax: you aren't born knowing how to work from home. You cannot [copy]({{< ref "./what-not-to-do" >}}) an in-office environment and paste it into a remote one and expect everyone to function as usual. Transitioning to remote is a [*process*]({{< ref "./remote-work-emergency-plan" >}}). When done well, a transition to remote avoids [serious harm]({{< ref "values#five-dysfunctions" >}}) operationally as well as culturally.
+Relax: you aren't born knowing how to work from home. You cannot [copy]({{< ref "./what-not-to-do" >}}) an in-office environment and paste it into a remote one and expect everyone to function as usual. Transitioning to remote is a [*process*]({{< ref "./remote-work-emergency-plan" >}}). When done well, a transition to remote avoids [serious harm](/handbook/values/#five-dysfunctions) operationally as well as culturally.
 
 It's important to [overcommunicate with your team]({{< ref "./getting-started#begin-to-create-connections-with-co-workers" >}}) as you adjust.
 

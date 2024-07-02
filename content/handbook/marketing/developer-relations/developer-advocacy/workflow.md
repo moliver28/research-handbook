@@ -1,15 +1,8 @@
 ---
-
 title: "Developer Advocate Team Workflow"
 aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/workflow/index.html
 ---
-
-
-
-
-
-
 
 ## Team Workflow
 

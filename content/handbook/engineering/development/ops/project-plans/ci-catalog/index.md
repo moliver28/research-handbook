@@ -1,5 +1,4 @@
 ---
-
 title: "CI Catalog"
 description: "CI Catalog - Weekly Project Plan - Pipeline Authoring Group"
 ---

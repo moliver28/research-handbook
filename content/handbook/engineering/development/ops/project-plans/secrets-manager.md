@@ -1,14 +1,7 @@
 ---
-
 title: "Secrets Manager - Weekly Project Plan"
 description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 ---
-
-
-
-
-
-
 
 ## Secrets Manager - Weekly Project Plan
 

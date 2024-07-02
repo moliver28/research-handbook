@@ -1,14 +1,7 @@
 ---
-
 title: "License Utilization Salesforce App"
 description: "This page outlines the License Utilization Salesforce App. It includes both information for the end user, answers frequently asked questions as well as highlights the location of the related techincal logic in the code."
 ---
-
-
-
-
-
-
 
 ## How to Use License Utilization Salesforce App
 

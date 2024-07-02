@@ -109,7 +109,7 @@ Choose the method below that feels most comfortable and have the following infor
 1. Now you will edit your biographical information. All the bio information displayed on the Team page is pulled from a data file. Click on `data`, and then scroll down to `team_members/person/FIRST_LETTER_OF_YOUR_FIRST_NAME/SLUG_REPLACE.yml` (you are looking for a file that specifies your name or slug).
 1. Click on `edit` on the top right side of your screen.
 1. See point 5 in the above [Method 1: Add your info on GitLab.com using Web IDE](#method-1-add-your-info-on-gitlabcom-using-web-ide) for the list of fields and how to fill them in.
-1. After you add your information, add a comment to your commit and click on “Commit Changes”.
+1. After you add your information, add a comment to your commit and click on "Commit Changes".
 1. Now [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created by clicking `Create merge request` button.
 
    - Create a title that describes your changes at a high level.

@@ -1,8 +1,6 @@
 ---
-
 title: Day In The Life of a Developer
 ---
-
 
 Every company is developing software. Whether it is external facing applications, or internal applications, or both.  Every company wants to be more efficient at developing software, as it has a direct correlation with the company's success.  GitLab is positioned to help every company create better applications by providing capabilities throughout the application delivery process including development, operations and security.  In the past, there was not one solution to help companies develop software from idea to deployment.  Companies relied on purchasing specific products for specific capabilities, and/or used manual methods such as email, spreadsheets, and documents to keep track of their development.
 

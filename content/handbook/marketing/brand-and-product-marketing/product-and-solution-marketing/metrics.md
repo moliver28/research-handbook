@@ -1,9 +1,6 @@
 ---
-
 title: "Product and Solution Marketing Metrics"
 ---
-
-
 
 ## North Star Metrics (CEO (Sid) ask on North Star Metrics)
 
@@ -106,7 +103,7 @@ Product and Solution Marketing tracks an inventory about what it creates and pub
 Current metric - number of cases published per month - current target - 2 / month
 
 - Metric not most efficient or in control of customer reference team
-  - Number of case studies published not always in control - example, several “completed” case studies stuck in pipeline for reasons such as - hold at pre-publish stage for PR purposes (example - EMEA), still to be approved by customer legal or marketing department
+  - Number of case studies published not always in control - example, several "completed" case studies stuck in pipeline for reasons such as - hold at pre-publish stage for PR purposes (example - EMEA), still to be approved by customer legal or marketing department
   - Does not reflect true value to business. Examples:
     - References help obtain results in important AR reports - Gartner MQs or Forrester Waves
     - References help close opportunities (sales references)
@@ -154,7 +151,7 @@ Additional sources of metrics to consider:
         - Engagement (low threshold CTAs clicked)
         - Leads (clicked on a register/signup)
     1. Campaign (gated asset)
-        - Visits (to landing page) - (isn’t this also a valid measure, yes)
+        - Visits (to landing page) - (isn't this also a valid measure, yes)
         - Leads
     1. Internal (tied to sales ops)
         - Opportunities influenced (decks, showing up, ROI, cust ref, etc)
@@ -192,7 +189,7 @@ Forrester reprint info (views, d/l, dwell)
   - z% are speaking in events (gitlab, industry, etc) for/with GitLab
   - a% are active in analyst reference calls
   - b% provide messaging, positioning, and persona feedback
-  - c% “decline” for our requests?
+  - c% "decline" for our requests?
   - STRETCH Goal: Can we analyze if we have been able to sell more into these organizations since they joined the CAB
 
 ## Useful links

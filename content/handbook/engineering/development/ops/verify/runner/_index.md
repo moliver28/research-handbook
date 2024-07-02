@@ -18,8 +18,8 @@ This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps st
 The product strategy and roadmap for the runner product categories are covered on the following direction pages.
 
 - [Runner Core](https://about.gitlab.com/direction/verify/runner_core/)
-- [Runner Fleet](https://about.gitlab.com/direction/verify/runner_fleet)
-- [Runner SaaS](https://about.gitlab.com/direction/verify/runner_saas)
+- [Hosted Runners](https://about.gitlab.com/direction/verify/hosted_runners/)
+- [Fleet Visibility](https://about.gitlab.com/direction/verify/fleet_visibility/)
 
 ## UX strategy
 

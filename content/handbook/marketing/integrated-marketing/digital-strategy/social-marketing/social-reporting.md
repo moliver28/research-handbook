@@ -1,5 +1,4 @@
 ---
-
 title: "Social Media Reporting"
 description: Metric Definitions, Cadences, and Objectives
 twitter_image: "/images/opengraph/handbook/social-marketing/social-handbook-reporting.png"
@@ -7,12 +6,6 @@ twitter_image_alt: "GitLab's Social Media Handbook branded image"
 twitter_site: "gitlab"
 twitter_creator: "gitlab"
 ---
-
-
-
-
-
-
 
 Reporting on our brand's organic social media efforts is critical in determining if what we're doing is working and understanding our audiences better. This page outline specifics on our reporting, including definitions of metrics.
 {:.alert .alert-info .text-justify}
@@ -36,8 +29,8 @@ For GitLab Team Members only
   - Engagement, Engagement Rate, Clicks (most important 3 metrics)
   - then
   - Impressions, followers, and social ad value (least important metrics)
-- Previously, CPC ad value was measured for owned links only. However, FY23 we’ve combined all links as one metric since all links are treated the same on social channels (they do not discriminate between owned and 3rd party links; performance is performance). We expect a creep up of value in reporting link click ad value
-- Previously CPM was measure only on posts without a link. However, impressions are measured as impressions, and for FY23 we’re counting all impressions, not just those that appeared on posts without a link (again, performance is performance). Expect increases in CPM ad value for FY23.
+- Previously, CPC ad value was measured for owned links only. However, FY23 we've combined all links as one metric since all links are treated the same on social channels (they do not discriminate between owned and 3rd party links; performance is performance). We expect a creep up of value in reporting link click ad value
+- Previously CPM was measure only on posts without a link. However, impressions are measured as impressions, and for FY23 we're counting all impressions, not just those that appeared on posts without a link (again, performance is performance). Expect increases in CPM ad value for FY23.
 
 ### Engagement
 

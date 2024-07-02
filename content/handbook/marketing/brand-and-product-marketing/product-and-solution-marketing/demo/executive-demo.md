@@ -1,5 +1,4 @@
 ---
-
 title: "Scaled Agile Framework and GitLab"
 description: "The scaled agile framework has evolved to be a common approach for large enterprises adopt agile delivery practices at scale."
 ---

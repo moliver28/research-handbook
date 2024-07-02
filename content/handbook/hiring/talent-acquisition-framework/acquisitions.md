@@ -3,8 +3,6 @@ title: "Talent Acquisition Process - Acquisitions"
 description: "An outline of the talent acquisition process for the acquition hires."
 ---
 
-
-
 ## Talent Acquisition Process Framework - Acquisitions {#framework-acquihires}
 
 ### What is an acquisition hire?

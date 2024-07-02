@@ -73,7 +73,7 @@ These principles are intended to help everyone work independently in a way that 
 ### When designing a solution
 
 1. Simplify Release Management. We always want to be reducing work for release managers either by removing tasks or by improving automation. Be very cautious about introducing new tasks without removing something else
-1. Don’t add functionality to Deployer. We aim to deprecate Deployer as part of our work to migrate away from VMs
+1. Don't add functionality to Deployer. We aim to deprecate Deployer as part of our work to migrate away from VMs
 1. Always consider metrics. If we don't have the metrics to track the value, we should look to add them
 1. UX consistency. Strive for consistency across tool interactions and naming
 1. Low-context designs. Design tools as if non-delivery team members need to use them. Keep things simple and let the tools do the hard work

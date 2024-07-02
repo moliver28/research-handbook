@@ -1,9 +1,7 @@
 ---
-
 title: Demonstrations
 description: "Solutions Architects are occasionally called on at a moments notice to give a demo or join a call to show a prospect or customer specific GitLab functionality"
 ---
-
 
 ## Demo Systems Overview and Specific Environments
 

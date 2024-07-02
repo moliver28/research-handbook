@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Early Access Program Direction"
 description: "Alignment & vision of the GitLab Early Access Program"
 ---

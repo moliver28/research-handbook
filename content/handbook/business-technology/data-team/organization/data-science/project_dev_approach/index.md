@@ -336,7 +336,7 @@ In the project issue, document the following:
 - Invite and solicit feedback from everyone involved in the project (stakeholders, contributors, etc.). Specifically, we want to know:
    1. What praise do you have for the group?
    1. What went well with this project?
-   1. What didn’t go well with this project?
+   1. What didn't go well with this project?
    1. What can we improve going forward?
 
 **Considerations**:

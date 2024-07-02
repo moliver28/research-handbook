@@ -1,14 +1,7 @@
 ---
-
 title: "GitLab Product Training for Customer Success"
 description: "As a Solutions Architect, Customer Success Manager, or Professional Services Engineer, it is important to be continuously learning more about our product and related industry topics. This handbook page provides an dashboard of aggregated resources that we encourage you to use to get up to speed."
 ---
-
-
-
-
-
-
 
 ## Overview of GitLab Product Training
 
@@ -334,36 +327,36 @@ To align our education and enablement with our product, each of the topics below
 
 ## O'Reilly Content Library
 
-In order to facilitate an environment of learning and development, the Customer Success Team has access to the O’Reilly Learning Platform, which is integrated into [GitLab Learn](https://gitlab.edcast.com/log_in?auto_sso=true).  This content library contains thousands of books, videos and live learning courses to assist team members’ with professional development and staying up-to-date with changing technology trends. Additionally, code sandboxes are included within the O’Reilly platform that team members’s can utilize to practice new skills or hone existing ones.
+In order to facilitate an environment of learning and development, the Customer Success Team has access to the O'Reilly Learning Platform, which is integrated into [GitLab Learn](https://gitlab.edcast.com/log_in?auto_sso=true).  This content library contains thousands of books, videos and live learning courses to assist team members' with professional development and staying up-to-date with changing technology trends. Additionally, code sandboxes are included within the O'Reilly platform that team members's can utilize to practice new skills or hone existing ones.
 
-To get started, here is a quick tour of what the O’Reilly Learning Platform can provide to our team, please check out this [short introductory video](https://www.loom.com/share/fca91ca4e127494fb5f4130b85eaa9ea).
+To get started, here is a quick tour of what the O'Reilly Learning Platform can provide to our team, please check out this [short introductory video](https://www.loom.com/share/fca91ca4e127494fb5f4130b85eaa9ea).
 
 If you do not already have a login are outside of the customer success organization, please let the Corproate Learning and Development Team know you are interested. You can also purchase a single licesne with the GitLab pricing by contacting Jason Baca at jbaca@oreilly.com.
 
 ### O'Reilly Answer Slack Bot
 
-As part of GitLab's O'Reilly subscription, team members have access to the O'Reilly Answer Slack Bot. To get started, in Slack, just type `/oreilly-answers` followed by your tech question. It’s that simple.
+As part of GitLab's O'Reilly subscription, team members have access to the O'Reilly Answer Slack Bot. To get started, in Slack, just type `/oreilly-answers` followed by your tech question. It's that simple.
 
 For example:
 
 - `/oreilly-answers` How do I fine-tune a model?
-- O’Reilly Answers will respond to your question with highly relevant snippets of content right within Slack.
+- O'Reilly Answers will respond to your question with highly relevant snippets of content right within Slack.
 
 **More Answers**
 
-Use the “More Answers” button to flip through the suggested answers. O'Reilly will show a maximum of 8 possible answers and you’ll be taken back to the first answer when you get to the end.
+Use the "More Answers" button to flip through the suggested answers. O'Reilly will show a maximum of 8 possible answers and you'll be taken back to the first answer when you get to the end.
 
 **Full Text**
 
-To read the full text of an answer in context click the “Full Text” button and you’ll be taken directly to that snippet of content within the O’Reilly Learning platform.
+To read the full text of an answer in context click the "Full Text" button and you'll be taken directly to that snippet of content within the O'Reilly Learning platform.
 
 **Share Answers**
 
-To share a helpful answer with others in Slack click the “Post” button and the answer you selected will be posted to the channel where you asked the question.
+To share a helpful answer with others in Slack click the "Post" button and the answer you selected will be posted to the channel where you asked the question.
 
-If you want to share an answer in a private channel you’ll need to invite the O’Reilly Answers app to the channel first. Simply type: /invite @O’Reilly Answers
+If you want to share an answer in a private channel you'll need to invite the O'Reilly Answers app to the channel first. Simply type: /invite @O'Reilly Answers
 
-If you want to share an answer in a direct message you’ll need to create a group message and include O’Reilly Answers in the group. You can add O’Reilly Answers the same way you would add another person.
+If you want to share an answer in a direct message you'll need to create a group message and include O'Reilly Answers in the group. You can add O'Reilly Answers the same way you would add another person.
 
 ## Additional Resources
 

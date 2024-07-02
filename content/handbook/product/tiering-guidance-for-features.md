@@ -1,5 +1,4 @@
 ---
-
 title: Tiering Strategy & Guidance for Product Managers
 ---
 

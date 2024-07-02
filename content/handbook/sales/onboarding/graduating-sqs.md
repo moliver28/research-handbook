@@ -4,7 +4,7 @@ title: "Graduating from Sales Onboarding"
 
 ## Graduating from Sales Onboarding
 
-In order to officially “graduate” from Sales Onboarding at GitLab and be awarded the [Sales Quick Start - Core Curriculum badge](https://gitlab.badgr.com/public/badges/4zi-duhsTHG-jtWFYVgGRQ), we have identified a few components that are considered milestones of achievement (many of these must be done concurrently to ensure completion):
+In order to officially "graduate" from Sales Onboarding at GitLab and be awarded the [Sales Quick Start - Core Curriculum badge](https://gitlab.badgr.com/public/badges/4zi-duhsTHG-jtWFYVgGRQ), we have identified a few components that are considered milestones of achievement (many of these must be done concurrently to ensure completion):
 
 ### Sales, Customer Success and SDR Roles
 

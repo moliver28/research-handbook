@@ -12,7 +12,7 @@ The Internal Auditor is a [grade 6](/handbook/total-rewards/compensation/compens
 ### Responsibilities
 
 - Assist in performing testing as per the test programs designed to evaluate the adequacy and effectiveness of internal controls.
-- Assist in documenting GitLab’s financial/audit processes
+- Assist in documenting GitLab's financial/audit processes
 - Assist in creating GitLab issues to collect preliminary data, conduct analyses and perform transactional and control based testing
 - Assist in the identification and documentation of weaknesses in control design and effectiveness based on analyses performed.
 - Assist with follow-ups on key management actions from prior audit reports determining if required action was taken
@@ -21,7 +21,7 @@ The Internal Auditor is a [grade 6](/handbook/total-rewards/compensation/compens
 
 - Ability to use GitLab.
 - At least 3 - 5 years of experience in auditing or a related field
-- Bachelor’s degree in Accounting, Business Administration, or a related field
+- Bachelor's degree in Accounting, Business Administration, or a related field
 - Related professional designation (CPA, CISA, CIA) (preferred)
 - Understanding of internal control concepts and experience in applying them to plan, perform and report on the evaluation of various business processes/areas/functions
 - Ability to work on complex tasks with the required direction and guidance

@@ -1,14 +1,7 @@
 ---
-
 title: CI Steps - Key Project Plan
 description: Weekly Engineering Project plan for CI Steps
 ---
-
-
-
-
-
-
 
 ## Weekly Project Plan
 

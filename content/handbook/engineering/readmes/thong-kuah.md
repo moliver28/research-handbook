@@ -1,14 +1,7 @@
 ---
-
 title: "Thong Kuah's README"
 job: "Staff Backend Engineer"
 ---
-
-
-
-
-
-
 
 ## Introduction
 
@@ -28,7 +21,7 @@ As my timezone is UTC +12 or UTC +13, Mondays are relatively quiet. There is som
 
 After droping my children off at school, I start work shortly after 9 AM. The morning will then be either reviewing merge requests, replying to mentions to unblock others. Sometimes I elect to focus on a particular issue instead.
 
-I mostly work from home, so lunch is mostly leftover dinners. After lunch, there’s usually more work to continue though I tend to slow down. I stop work to pick up kids from school at 3 PM.
+I mostly work from home, so lunch is mostly leftover dinners. After lunch, there's usually more work to continue though I tend to slow down. I stop work to pick up kids from school at 3 PM.
 
 In the evenings (Mon-Thurs) after the kids have gone to bed, I resume work as this is my most productive time. Friday evenings is a no-work time slot as it is reserved for movie nights with my partner.
 

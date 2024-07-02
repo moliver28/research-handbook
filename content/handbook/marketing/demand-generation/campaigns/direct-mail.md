@@ -1,5 +1,4 @@
 ---
-
 title: "Direct Mail"
 description: "Overview of direct mail programs as a tactic used within marketing campaigns, including account centric campaigns."
 twitter_image: '/images/tweets/handbook-marketing.png'

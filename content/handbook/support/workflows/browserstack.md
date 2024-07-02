@@ -1,11 +1,8 @@
 ---
-
 title: BrowserStack
 category: Infrastructure for troubleshooting
 description: How to reproduce potential browser issues in other Operating Systems
 ---
-
-
 
 ## BrowserStack
 

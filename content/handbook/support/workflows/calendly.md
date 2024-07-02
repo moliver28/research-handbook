@@ -1,11 +1,8 @@
 ---
-
 title: Calendly Setup for Support
 category: References
 description: "Workflow for setting up and using Calendly in Support Engineering"
 ---
-
-
 
 **Note**: Always use [single-use Calendly links](#generating-a-single-use-calendly-link) when offering a call with customers.
 
@@ -58,7 +55,7 @@ This access is also included as part of [support onboarding](/handbook/support/#
 
 Calendly 60 minute meetings default to an 'availability Increment' of 60 minutes.
 
-Only slots starting at the top of the hour are offered. If you’ve got 90 minutes available,
+Only slots starting at the top of the hour are offered. If you've got 90 minutes available,
 or a (say) a 14:30-15:30 window available, then reducing the increment to 30 minutes increases your availability.
 
 - Log in and edit the event type

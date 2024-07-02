@@ -3,7 +3,6 @@ title: "Infrastructure Department Career Framework"
 description: "The Infrastructure Department Career Framework consists of three major components. Each component are equally important for team member general professional development at GitLab."
 ---
 
-
 {{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 ## Infrastructure Department Career Framework
@@ -22,7 +21,7 @@ For each job family, regardless of the level, in the Infrastructure department w
 
 1. Accountability - Describes expected level of responsibility
 1. Credibility - Describes expected level of trust
-1. Autonomy - Describes how a team member can shape their own and their team’s work
+1. Autonomy - Describes how a team member can shape their own and their team's work
 1. Team building - Describes how a team member helps grow their team
 
 The expected team member competencies in the Infrastructure department at GitLab can be seen at the job level:

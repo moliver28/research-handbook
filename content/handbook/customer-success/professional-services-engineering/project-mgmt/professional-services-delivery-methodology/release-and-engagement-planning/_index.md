@@ -9,13 +9,13 @@ description: "Learn about best practices around release cadences to support enga
 
 Imagine that you are working in a software company that just released its first product, _BubbleSoft Platform 1.0_. Sooner or later, you will have a conversation like this:
 
-_“Our product, BubbleSoft Platform, just released version 1.0. Great job guys! We are selling like hotcakes, the press loves us, and the demand is far greater than anticipated! Off the charts! That’s the good news._
+_"Our product, BubbleSoft Platform, just released version 1.0. Great job guys! We are selling like hotcakes, the press loves us, and the demand is far greater than anticipated! Off the charts! That's the good news._
 
 _Bad news is that we need to know by next Tuesday when we can release version 2.0, and we need to tell the market what the target release date for version 3.0 will be as well._
 
-_Reason for this is that we are trying to put together marketing and tradeshow budgets and need to know what we can show at next years’ ABC tradeshow._
+_Reason for this is that we are trying to put together marketing and tradeshow budgets and need to know what we can show at next years' ABC tradeshow._
 
-_Oh, and we are looking for next round funding and the venture capital guys ask us for those dates as well, because they want to understand our “burn rate”, whatever that is…  **Can anybody give me the dates?**”_
+_Oh, and we are looking for next round funding and the venture capital guys ask us for those dates as well, because they want to understand our "burn rate", whatever that is…  **Can anybody give me the dates?**"_
 
 There it is, the dreaded question! In many organizations, this question causes a lot of consternation, followed by frantic estimation exercises trying to discern a somewhat realistic date.
 
@@ -34,7 +34,7 @@ Theoretically, in an agile / iterative environment, you can answer this question
 3. You have sized the Product Backlog Items, ideally [using Estimation Poker and story points](../good-estimation-techniques/_index.md), but if the volume of Product Backlog Items is too great, at a minimum you have T-Shirt sized stories that are not in the immediate next two sprints
 4. Your Program Manager / Project Manager is able to assign specific Product Backlog Items to specific releases using a Product Release Roadmap that has been worked out between GitLab and the customer
 5. You have a clear [Definition of Ready and Definition of Done](../definition-of-done/_index.md)
-6. You understand your teams’ Velocity
+6. You understand your teams' Velocity
 
 ## The Basics
 
@@ -46,7 +46,7 @@ It is strategic in nature and owned by the Product Owner / Product Manager / sta
 
 Simply put, the vision statement provides context for how the current development effort supports the overall goal.
 
-Vison statements are usually pretty short. [Geoffrey Moore (“Crossing the Chasm”)](http://www.amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream/dp/0062292986/ref=sr_1_1?s=books&ie=UTF8&qid=1486059674&sr=1-1&keywords=crossing+the+chasm) suggested the following phrasing format:
+Vison statements are usually pretty short. [Geoffrey Moore ("Crossing the Chasm")](http://www.amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream/dp/0062292986/ref=sr_1_1?s=books&ie=UTF8&qid=1486059674&sr=1-1&keywords=crossing+the+chasm) suggested the following phrasing format:
 
 **For** \<target customer\> **who** \<statement of the need\> **the** \<product name\> **is a** \<product category\> **that** \<product key benefit, compelling reason to buy\>.
 
@@ -64,7 +64,7 @@ Well, in professional services we don't have products and releases, you say! Tru
 
 According to Scrum / SAFe or other agile process models, a sprint can be as little as one day or as long as 4 weeks in duration, so weeks is an optional package, or only relevant if the sprint duration exceeds 7 days.
 
-Please note, that products are usually “externally sold” whereas projects often are “internal efforts”. Think “BubbleSoft Platform” sold at $1,999 per seat versus an internal IT project called “GitHub to GitLab Migration effort”.
+Please note, that products are usually "externally sold" whereas projects often are "internal efforts". Think "BubbleSoft Platform" sold at $1,999 per seat versus an internal IT project called "GitHub to GitLab Migration effort".
 
 Products by their very nature are longer term solutions that lend themselves to feature / functionality delivery over multiple releases, whereas projects can be multi-phase but often are one-shot efforts. A large scale Digital Transformation could easily be the size and complexity of a product; as such, it could have multiple releases (multi-phase).
 
@@ -86,7 +86,7 @@ Now that we identified the vision statement, the product, and the package struct
 
 ## The Product Backlog aka The Backlog
 
-The product backlog is the products’ or the projects’ **To-Do List**. All scope items, regardless of level of detail are in the product backlog.
+The product backlog is the products' or the projects' **To-Do List**. All scope items, regardless of level of detail are in the product backlog.
 
 **_It is ordered, not just prioritized_** – meaning product backlog items are prioritized according to business value. What is known, is written down and documented, with the expectation that discovery will lead to change. The product backlog is owned by the Program Manager / Project Manager.
 
@@ -100,7 +100,7 @@ The Program Manager / Project Manager is expected to insert, re-prioritize, refi
 
 Sizing and estimation of the product backlog usually occurs in sprint planning meetings or at regularly intervals during ongoing sprints. Depending on how fast the Product Owner adds user stories, more frequent, maybe even daily estimation sessions might be needed.
 
-The important point here is that product **backlog items need to get estimated continuously in order to avoid the big bang estimation effort** at one critical juncture of the effort. This has the added benefit of exposing the entire team to the Program Managers’ / Project Managers' thinking, keeping everybody in sync and with an improved understanding of requested project features and functionality.
+The important point here is that product **backlog items need to get estimated continuously in order to avoid the big bang estimation effort** at one critical juncture of the effort. This has the added benefit of exposing the entire team to the Program Managers' / Project Managers' thinking, keeping everybody in sync and with an improved understanding of requested project features and functionality.
 
 Sprint Planning meetings or more frequent estimation session need to follow established Agile Estimation best practices, meaning Product Backlog Items are estimated using either Estimation Poker or T-Shirt sizing. To see how to effectively estimate user stories using Estimation Poker or T-Shirt sizing, [follow this link](../good-estimation-techniques/_index.md).
 
@@ -112,7 +112,7 @@ In order to have a somewhat comparable scheme between Estimation Poker and T-Shi
 * Large = 5 story points
 * XL = 8 story points
 * XXL = 13 story points
-* EPIC = Product Owner needs to break down the Epic into more refined User Stories (for example, the EPIC might state something like “Internationalization Support”. This needs to be broken down into more detailed user stories like “Provide Support for British English”, “Provide Support for Spanish”, in order to be able to estimate it).
+* EPIC = Product Owner needs to break down the Epic into more refined User Stories (for example, the EPIC might state something like "Internationalization Support". This needs to be broken down into more detailed user stories like "Provide Support for British English", "Provide Support for Spanish", in order to be able to estimate it).
 
 ![Product Backlog Size](./Product-Backlog-Size.jpg)
 
@@ -142,9 +142,9 @@ This has implications for professional services teams working on very short enga
 
 ![Estimation Accuracy Correction](../good-estimation-techniques/EstimationAccuracySelfCorrect.jpg)
 
-Pleases note that “stable teams” is key here – teams need to be stable, meaning team members need to know each other, have worked with each other, and successfully formed a team – following the standard “forming–storming–norming–performing” model of group development, first proposed by [Bruce Tuckman in 1965](http://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development). Again, for professional services teams that are operating in a fast growing environment, this has implications... teams never get to the norming and performing stage, getting stuck in forming and storming due to constant deal expansions, but that's a good problem to have!
+Pleases note that "stable teams" is key here – teams need to be stable, meaning team members need to know each other, have worked with each other, and successfully formed a team – following the standard "forming–storming–norming–performing" model of group development, first proposed by [Bruce Tuckman in 1965](http://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development). Again, for professional services teams that are operating in a fast growing environment, this has implications... teams never get to the norming and performing stage, getting stuck in forming and storming due to constant deal expansions, but that's a good problem to have!
 
-Once a Development Team / Engagement Team has gone through the “forming–storming–norming–performing” process, team velocity is established. Estimation accuracy and predictable velocity allow for longer term forecasting.
+Once a Development Team / Engagement Team has gone through the "forming–storming–norming–performing" process, team velocity is established. Estimation accuracy and predictable velocity allow for longer term forecasting.
 
 ## Agile Release Planning
 
@@ -162,7 +162,7 @@ Estimation Poker is an empirical, self-correcting, approach to short term softwa
 
 T-Shirt Sizing (Affinity Estimation) is used for higher level estimates needed for scoping, deal sizing, budgeting, staffing, and other longer term planning activities where not all user stories are defined in all detail and a quick assessment of upcoming work is needed.
 
-Coming back to our original question “**…_we need to know by next Tuesday when we can release version 2.0, and we need to tell the market what the target release date for version 3.0 will be as well._**_”_ let us quickly figure out when the 2.0 and 3.0 releases will be able to ship.
+Coming back to our original question "**…_we need to know by next Tuesday when we can release version 2.0, and we need to tell the market what the target release date for version 3.0 will be as well._**_"_ let us quickly figure out when the 2.0 and 3.0 releases will be able to ship.
 
 ![Agile Release Planning](./Agile-Release-Planning.jpg)
 
@@ -188,7 +188,7 @@ The section addresses some common issues and challenges that make Agile Release 
 
 I frequently come across product or project efforts that do not have a vision statement. The purpose of a vision statement is to communicate the high level goal of a product or project. Without it, frequently team members have no context why they do have to do certain work.
 
-This is the equivalent of a truck driver knowing how to turn right or left, but having no idea what the final destination is. Vision statements are important in order to rally everybody around a common cause and to provide that “true north” compass.
+This is the equivalent of a truck driver knowing how to turn right or left, but having no idea what the final destination is. Vision statements are important in order to rally everybody around a common cause and to provide that "true north" compass.
 
 Vision statements are important to realize what business value needs to get delivered. "GitHub to GitLab Migration" is not a vision statements. "Provide integrated security scanning across all CI pipelines in order to minimize security risks" is a better missing statement; "GitHub to GitLab Migration" is just one step in the effort to realize the vision statement.
 
@@ -209,9 +209,9 @@ Even professional services engagements benefit from roadmaps, although they are 
 
 ## Product Roadmap (feature desires) and Velocity Calculations (delivery capabilities) Do Not Match
 
-Sometimes product roadmaps perfectly express the desired release timing, but your Development Teams’ / Engagement Teams' velocity just cannot get you there.
+Sometimes product roadmaps perfectly express the desired release timing, but your Development Teams' / Engagement Teams' velocity just cannot get you there.
 
-From this problem, you might see many dysfunctions develop. One executive team I worked with simply would not admit that the desired release date was unrealistic, overriding the Development Teams’ estimates and forced the team to bulk up on additional developers (you know the old fallacy, just double your staff to cut your time in half!).
+From this problem, you might see many dysfunctions develop. One executive team I worked with simply would not admit that the desired release date was unrealistic, overriding the Development Teams' estimates and forced the team to bulk up on additional developers (you know the old fallacy, just double your staff to cut your time in half!).
 
 The result was a bloated team that was less productive, more expensive, and completely burned out after a death march.
 
@@ -267,7 +267,7 @@ Here is another view of the data in the table:
 
 ![Unpredictable Velocity Graph](./Unpredictable-Velocity.jpg)
 
-In terms of “slip”, we basically missed the mark by 81 story points, which is about 9% of the overall development effort of 880 story points.
+In terms of "slip", we basically missed the mark by 81 story points, which is about 9% of the overall development effort of 880 story points.
 
 But, for whatever reason the team productivity really took it on the nose in sprint #7, #8, #10, and #11. This kind of thing can happens due to team members leaving the team and not getting replaced in time; or due to illness. Or other reasons.
 
@@ -277,7 +277,7 @@ Again, this kind of thing can happen when engineers leave the team before things
 
 Regardless of the specific reasons, at the end of sprint #10 (running a 69 point deficit) I would have sat down with the Program Manager to discuss options:
 
-1. Deprioritize certain user stories to get the “ask” in line with the delivery capability – basically lowering the total amount of story points in the release from 880 to, say, 800
+1. Deprioritize certain user stories to get the "ask" in line with the delivery capability – basically lowering the total amount of story points in the release from 880 to, say, 800
 2. Planning on additional sprints to make up for the lower than expected velocity
 3. A combination of both
 

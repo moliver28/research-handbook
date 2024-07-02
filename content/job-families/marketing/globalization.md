@@ -1,6 +1,6 @@
 ---
 title: "Globalization & Localization"
-summary: Lead GitLab’s go-to-market localization strategy, operations and technology platform, with a primary focus on Sales, Marketing, Growth & E-commerce Product areas.
+summary: Lead GitLab's go-to-market localization strategy, operations and technology platform, with a primary focus on Sales, Marketing, Growth & E-commerce Product areas.
 ---
 
 ## Levels
@@ -17,7 +17,7 @@ The Senior Globalization Enablement Manager is a [grade 7](/handbook/total-rewar
 
 The Senior Globalization Enablement Manager oversees the production of multilingual content for global teams at GitLab that require translation and localization to fulfill the company's market growth goals.
 
-This role requires strong collaboration skills and experience in website localization, world readiness, and digital publishing practices and is responsible for executing and delivering as a part of a successful localization program that supports marketing, product, help documentation, and content optimization in non-English languages. This role works closely with global content managers and developers to define successful localization models and help technical counterparts iterate on automating work streams and making costs and time-to-market processes more efficient.  
+This role requires strong collaboration skills and experience in website localization, world readiness, and digital publishing practices and is responsible for executing and delivering as a part of a successful localization program that supports marketing, product, help documentation, and content optimization in non-English languages. This role works closely with global content managers and developers to define successful localization models and help technical counterparts iterate on automating work streams and making costs and time-to-market processes more efficient.
 
 ### Senior Globalization Enablement Manager Responsibilities
 
@@ -86,7 +86,7 @@ The Senior Localization Content Manager is passionate about improving the user e
 
 - 3-5 years experience with content creation, localization, and copywriting, especially as pertains to the tech industry
 - Experience with all components of interdepartmental localized collateral, including product, marketing, and support
-- Able to manage the work of numerous suppliers, including copywriters, language services provider’s teams, and direct contractors
+- Able to manage the work of numerous suppliers, including copywriters, language services provider's teams, and direct contractors
 - Experience overseeing the end-to-end in-language customer journey, with an eye toward UX and impact to business
 - Working knowledge of SEO best practices
 - Strong communication skills
@@ -166,7 +166,7 @@ The Director, Globalization & Localization is a [grade 10](/handbook/total-rewar
 
 #### Director, Globalization & Localization Role
 
-The Director, Globalization & Localization will lead GitLab’s go-to-market localization strategy, operations and technology platform, with a primary focus on Sales, Marketing, Growth & E-commerce Product areas. You’ll apply your deep domain knowledge and experience in web & product internationalization, localization lifecycle management, translation management system, machine translation and international expansion to help share the GitLab story & value across languages and cultures. You will translate, localize and customize market-appropriate content that resonates with the target audience. You’ll also work with product and engineering to ensure our globalization infrastructure and technology platform can support both current and future use cases. The qualified candidate will be a driven and inspiring leader who has a successful track record of building and leading a global team, including agencies and linguists network, and is comfortable being a player coach while scaling the globalization & localization function as our company grows.
+The Director, Globalization & Localization will lead GitLab's go-to-market localization strategy, operations and technology platform, with a primary focus on Sales, Marketing, Growth & E-commerce Product areas. You'll apply your deep domain knowledge and experience in web & product internationalization, localization lifecycle management, translation management system, machine translation and international expansion to help share the GitLab story & value across languages and cultures. You will translate, localize and customize market-appropriate content that resonates with the target audience. You'll also work with product and engineering to ensure our globalization infrastructure and technology platform can support both current and future use cases. The qualified candidate will be a driven and inspiring leader who has a successful track record of building and leading a global team, including agencies and linguists network, and is comfortable being a player coach while scaling the globalization & localization function as our company grows.
 
 #### Director, Globalization & Localization Responsibilities
 

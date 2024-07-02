@@ -2,7 +2,7 @@
 
 * Still largely concentrates on growing themselves.
 * Seeks out opportunities to expand their technical and non technical skills through continuous learning practices.
-* Often works with other team members to grow their own understanding of the team’s domain through code reviews, pair programming or mentoring sessions.
+* Often works with other team members to grow their own understanding of the team's domain through code reviews, pair programming or mentoring sessions.
 * Participates in [code reviews](https://docs.gitlab.com/ee/development/code_review.html) and uses [best practices](https://docs.gitlab.com/ee/development/code_review.html#best-practices) when giving and receiving [feedback](/handbook/people-group/guidance-on-feedback/).
 * Provides additional feedback whenever possible (i.e. [360s](/handbook/people-group/360-feedback/), Pulse, etc).
 * Communicates clearly and effectively, especially in writing, when working with peers, stable counterparts or their manager on technical tasks or issues.

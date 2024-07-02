@@ -3,12 +3,6 @@ aliases: /handbook/sales/onboarding/SQS-workshop
 title: "Sales Quick Start (SQS) Workshop"
 ---
 
-
-
-
-
-
-
 ## Sales Quick Start Workshop
 
 - NOTE: The Sales Quick Start (SQS) Workshop is MANDATORY for all new Sales Team Members. If you must cancel for any reason, please be sure to obtain Regional Director approval in writing.

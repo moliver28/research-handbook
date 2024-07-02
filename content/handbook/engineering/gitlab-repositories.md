@@ -1,13 +1,6 @@
 ---
-
 title: GitLab Repositories
 ---
-
-
-
-
-
-
 
 GitLab consists of many subprojects. A curated list of GitLab projects can be found at the [GitLab Engineering projects](/handbook/engineering/projects/) page.
 

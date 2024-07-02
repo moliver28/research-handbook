@@ -4,9 +4,6 @@ aliases: /handbook/engineering/development/training/em-role/work_of_a_manager.ht
 title: Work Of A Manager
 ---
 
-
-
-
 * TOC
 
 ## The what and the why
@@ -17,7 +14,7 @@ This document is about the **what** (and a bit about the **why**). It would take
 
 The summary: a manager's job is to build an organization that performs well, efficiently, and sustainably. (I've heard and used the term _well oiled machine._) This is especially important to internalize for ICs (individual contributors, meaning not managers) considering switching to the manager role: _management is not on top of your daily duties; it's an entirely different job._
 
-Can you still do a bit of that old day job, like coding? Sure, but that's a “nice to have” from the perspective of the company. It may be essential to your sanity, so by all means dabble, but this dabbling must not take precedence. Your job is to enable people and build healthy, focused organizations..)
+Can you still do a bit of that old day job, like coding? Sure, but that's a "nice to have" from the perspective of the company. It may be essential to your sanity, so by all means dabble, but this dabbling must not take precedence. Your job is to enable people and build healthy, focused organizations..)
 
 ## This document is a framework
 
@@ -108,7 +105,7 @@ This is of course not an exhaustive list, but an illustration.
 * **Long term, Individuals**
   * Plan team events
   * Career planning for individuals, balancing their needs and wants versus available opportunities
-  * Set people up for success: champion their goals, get them “in the room” for relevant discussions, get them recognition for long-term results
+  * Set people up for success: champion their goals, get them "in the room" for relevant discussions, get them recognition for long-term results
   * Happiness planning long term: how will work fit into their overall lives?
 * **Long term, Organization**
   * Plan team events
@@ -131,7 +128,7 @@ This is of course not an exhaustive list, but an illustration.
 Say you have some tasks ready to go in each box.
 
 * Where should you focus your attention? What about over a longer period?
-* What happens if you don’t do some of this for a day, a month, or a year?
+* What happens if you don't do some of this for a day, a month, or a year?
 * How do you ensure that nothing important is forgotten?
 
 ## Exercise 3: quality control

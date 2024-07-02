@@ -4,12 +4,6 @@ aliases: /handbook/engineering/development/required-approvals.html
 title: Development Required Approvals
 ---
 
-
-
-
-
-
-
 ## Overview
 
 There are specific scenarios we are identifying that will require additional approval before moving forward. At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity), however in the [examples requiring approval](#examples-requiring-approval) section below we outline which decisions will need to go through the approval process before proceeding.

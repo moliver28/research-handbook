@@ -56,7 +56,7 @@ Remote and hybrid work come in a variety of forms, which are continually evolvin
 
 An office-centric hybrid organization looks like a team that is not changing how it works. Synchronous, undocumented meetings and disconnected whiteboards are still hallmarks of collaboration. People are expected in the office for a predetermined number of days per week, though the reasoning is flimsy at best (e.g. "We like seeing people around.").
 
-This approach roughly aligns with GitLab’s definitions of [remote time / remote exceptions]({{< ref "./stages" >}}).
+This approach roughly aligns with GitLab's definitions of [remote time / remote exceptions]({{< ref "./stages" >}}).
 
 Leadership supports this model by continuing to do what it has always done.
 
@@ -64,14 +64,14 @@ Leadership supports this model by continuing to do what it has always done.
 
 This variation is marked by some initiative to introduce new tools and technologies into the workforce which are designed for distributed collaboration and contribution. Real estate exists for those who wish to work in the office, but there is not necessarily a set amount of forced days-in-office.
 
-This approach roughly aligns with GitLab’s definitions of [remote time / remote allowed / remote days]({{< ref "./stages" >}}).
+This approach roughly aligns with GitLab's definitions of [remote time / remote allowed / remote days]({{< ref "./stages" >}}).
 
 Leadership supports this model by creating policies and approving new tools and technology to allow testing new flexibilities.
 
 - **The remote-friendly hybrid**
 
 Remote-friendly is marked by a wider acceptance of global distribution of people. Tools are in place that make it easy to work remotely, and processes are remote-friendly by design. Offices exist but serve more as complementary to remote work as opposed to being the first place people go to work.
-This approach roughly aligns with GitLab’s definitions of [remote allowed / remote first]({{< ref "./stages" >}}).
+This approach roughly aligns with GitLab's definitions of [remote allowed / remote first]({{< ref "./stages" >}}).
 
 For leadership to support remote-friendly operation, remote work is supported at all levels of the company, with leaders modeling this behavior by working remotely on certain days themselves.
 
@@ -156,7 +156,7 @@ It's understandable for team members to long for social gatherings in and around
 Leaders who enable this should be mindful of the following.
 
 1. It's important to budget for travel to include remote team members in onsite social events.
-1. Work should not happen in social rooms, as it hinders [transparency](/handbook/values/#transparency) and creates [dysfunction]({{< ref "values#five-dysfunctions" >}}) through the formation of communication silos.
+1. Work should not happen in social rooms, as it hinders [transparency](/handbook/values/#transparency) and creates [dysfunction](/handbook/values/#five-dysfunctions) through the formation of communication silos.
 
 ### Equitable benefits and perks
 
@@ -258,7 +258,7 @@ Said another way, "some remote" is often viewed as superior to "no remote." Thou
 
 There are considerations when accepting a role in a hybrid-remote company, and it's important to be mindful of these potential downsides.
 
-1. **Hybrid-remote employees may have less access to information**. Unless you work for an employer that [documents everything]({{< ref "values#write-things-down" >}}), you may be asked to handle your day-to-day duties with less information — and incomplete information — compared to in-person colleagues. Over time, this can lead to more mistakes, confusion, frustration, and even [underperformance]({{< ref "underperformance" >}}).
+1. **Hybrid-remote employees may have less access to information**. Unless you work for an employer that [documents everything](/handbook/values/#write-things-down), you may be asked to handle your day-to-day duties with less information — and incomplete information — compared to in-person colleagues. Over time, this can lead to more mistakes, confusion, frustration, and even [underperformance]({{< ref "underperformance" >}}).
 1. **Fewer career and development opportunities**. Hybrid-remote employees who are out of sight may be [passed over](https://hbr.org/2017/11/a-study-of-1100-employees-found-that-remote-workers-feel-shunned-and-left-out) for promotions, advancement, and development [opportunities](https://news.ycombinator.com/item?id=15994294). They may also have fewer opportunities to more horizontally within the organization, and less influence to create a new role to serve evolving business needs.
 1. **The feeling of being a satellite office**. Hybrid-remote employees must put effort towards not being treated as less-than within the organization. It is important to surface relevant inquiries during the interview process as to how remote colleagues are [onboarded]({{< ref "./learning-and-development" >}}), included, and perceived by others. Some employees may not be fazed by this treatment, but it can take a mental and emotional toll on others.
 1. **Managing guilt**. It is not uncommon to hear remote workers [express guilt](https://www.glassdoor.com/blog/work-from-home-guilt) if they work in a company which is primarily colocated. Their socializing involves colleagues who may complain about commutes, or express sadness due to an inability to attend a certain family function. There are inherit inequalities in this arrangement, requiring the remote employee to empathize with in-person colleagues despite not being required to endure the same commutes and inflexibility.
@@ -269,7 +269,7 @@ There are considerations when accepting a role in a hybrid-remote company, and i
 1. **A culture built around the in-office experience**. Companies that rely heavily on physical perks and in-office experiences to define their culture have a difficult time translating those experiences to their remote employees in a hybrid-remote setting. You'll often see these perks highlighted for talent acquisition and retention purposes. In practice, remote employees will inherently miss out on the full employee experience unless the culture is more [intentionally and sustainably built](./building-culture).
 1. **Physiological stress linked to open-plan offices**. Some hybrid-remote firms may require team members to work in open-plan office environments. [Research published in 2021 by Cambridge University](https://theconversation.com/open-plan-office-noise-increases-stress-and-worsens-mood-weve-measured-the-effects-162843) shows a "significant causal relationship between open-plan office noise and physiological stress." Working *anywhere* — home, office, etc. — can trigger stress if conditions are suboptimal, though all-remote generally provides greater flexibility to shift your [workspace]({{< ref "./workspace" >}}) from home, co-working venues, offices, and nature to optimize for [greater calm](https://youtu.be/bQMoF7oSh2o).
 
-## Overcoming the hybrid-remote model’s problems
+## Overcoming the hybrid-remote model's problems
 
 Clear communication is one of the best ways to overcome hybrid-remote challenges.[GitLab's handbook](/handbook) captures everything an employee needs to know promoting autonomy and [efficiency](/handbook/values/#efficiency) for communication, processes, and procedures.
 
@@ -293,8 +293,8 @@ Some people choose set days or times to be in-office or be remote, just be sure 
 
 Some people work better with a [consistent workday routine](https://learn.g2.com/how-to-work-from-home), while others find it best to ride their [waves of peak productivity](https://www.jonobacon.com/2019/01/14/remote-working-survival). Either way, design your work day and routine around your strengths understanding that different seasons, holidays, and family schedules may change this routine.
 
-> **“I think you need to throw the concept of 'nine to five' out the window and actively experiment to find what schedule lets you make the most of your time.
-I often find the midday slump to be so real, so if I'm feeling this way I step away for a while and then come back for a few hours in the evening when I generally feel supercharged.”**
+> **"I think you need to throw the concept of 'nine to five' out the window and actively experiment to find what schedule lets you make the most of your time.
+I often find the midday slump to be so real, so if I'm feeling this way I step away for a while and then come back for a few hours in the evening when I generally feel supercharged."**
 [- Tanya Pazitny, Quality Engineering Manager](/handbook/company/team#tpazitny)
 
 ## All-Remote Upgrade

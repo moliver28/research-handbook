@@ -1,5 +1,4 @@
 ---
-
 title: "Product Marketing Professional Development"
 ---
 
@@ -11,7 +10,7 @@ The Handbook's [Product Marketing Manager Role Page](/job-families/marketing/pro
 
 ## Product Marketing & Solutions Architects
 
-**Quarterly Rotation Pilot Program**  
+**Quarterly Rotation Pilot Program**
 
 **Context:** We want GitLab to be a place where everyone can build their careers and have a big impact for our customers and the business. In this spirit, we are testing a rotation program between the Product Marketing team and the Solutions Architects team. The goals of this program are:
 Expose high performing teammates to new skills and experience in different areas of the business.
@@ -23,7 +22,7 @@ Create an onramp to new roles as opportunities arise.
 **Details:**
 The rotation program will be scoped at 3 months, starting at the beginning of the quarter in order to reduce disruption.
 The rotation may include a percentage of time where the SA still works on their SA tasks – the majority of time, however, should be spent in product marketing
-Team member(s) participating in the rotation will be ‘embedded’ with the product marketing team. They will attend all PMM meetings including 1:1s with team leaders.
+Team member(s) participating in the rotation will be 'embedded' with the product marketing team. They will attend all PMM meetings including 1:1s with team leaders.
 Product Marketing will provide specific areas of focus (e.g. competitive intel) and projects (e.g. persona development, competitive benchmarking) at the beginning of the rotation.
 We will not change official reporting structure (e.g. Workday) during the rotation
 Participation in the rotation program does not change compensation structure

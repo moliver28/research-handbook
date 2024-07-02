@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team Calendar - Meetings"
 description: "GitLab Data Team Calendar"
 ---
-
-
-
-
-
-
-
-
 
 ---
 

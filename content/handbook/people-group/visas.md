@@ -62,7 +62,7 @@ Some of our GitLab team-members in the Netherlands have a "werkvergunning" or wo
 
 Here is a [generally but not authoritative helpful guide](https://www.expatica.com/nl/moving/relocation/leaving-the-netherlands-108416/) on considerations around permit extensions.
 
-The IND (Dutch immigration services) in general take about 4 to 6 weeks’ time to make a decision on the renewal application, but officially they have 90 days to decide.
+The IND (Dutch immigration services) in general take about 4 to 6 weeks' time to make a decision on the renewal application, but officially they have 90 days to decide.
 
 1. Some important notes before you arrange travel / depart to the Netherlands:
 
@@ -148,7 +148,7 @@ Sid and Marin discuss the history of GitLab's right to immigrate to the Netherla
 
 GitLab may be able to offer employment agreements to highly skilled candidates seeking employment already in Ireland, who apply for, or already hold, a [Critical Skills Employment Permit](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Permit-Types/Critical-Skills-Employment-Permit/), where the relevant role falls into a category listed on the [Critical Skills Occupations List](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Highly-Skilled-Eligible-Occupations-List/) or a salary threshold is exceeded.
 
-Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the Critical Skills Employment Permit.  The employment agreement offered will include the condition that the candidate will hold the sufficient right to work and if a permit is required that they will be able to obtain the permit.  If the critical skills employment permit application is refused, the employment agreement would be rescinded. Permit holders may apply to the Irish Naturalisation and Immigration Service for permission to reside and work without the requirement for an employment permit upon completion of the Critical Skills Employment Permit’s duration.
+Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the Critical Skills Employment Permit.  The employment agreement offered will include the condition that the candidate will hold the sufficient right to work and if a permit is required that they will be able to obtain the permit.  If the critical skills employment permit application is refused, the employment agreement would be rescinded. Permit holders may apply to the Irish Naturalisation and Immigration Service for permission to reside and work without the requirement for an employment permit upon completion of the Critical Skills Employment Permit's duration.
 
 #### The eligibility criteria
 
@@ -203,7 +203,7 @@ The EU Blue Card Germany, is a German residence permit for highly skilled worker
 
 ### Application process
 
-You can apply for an EU Blue Card from the Foreigner’s Office in Germany.  Depending on your current location you may need to obtain an entry visa from your most local German embassy.
+You can apply for an EU Blue Card from the Foreigner's Office in Germany.  Depending on your current location you may need to obtain an entry visa from your most local German embassy.
 
 1. [Apply for a Long-Term Relocation]({{< ref "relocation#how-to-apply-for-a-long-term-relocation" >}}) to Germany, as you will need a German employment agreement for the EU Blue Card application
 1. Set up a visa appointment for employment purposes from the German embassy or consulate
@@ -213,11 +213,11 @@ You can apply for an EU Blue Card from the Foreigner’s Office in Germany.  Dep
 1. Wait for a decision (can take 1 to 3 months for the entry visa).
 1. Travel to Germany: If your visa application is approved, you will receive a visa, allowing you to enter Germany.
 1. Register your [Germany residence](https://www.bmi.bund.de/EN/topics/administrative-reform/registration/registration-node.html#:~:text=Anyone%20who%20moves%20into%20a,the%20person%20providing%20the%20residence.) which you will you need to enroll for [health insurance](https://visaguide.world/international-health-insurance/germany/) (You can choose private or Public), and open a bank account.
-1. Once you have your residence, health insurance and bank account submit your EU Blue Card application at the Ausländerbehörde (German Foreigner’s Authority).
+1. Once you have your residence, health insurance and bank account submit your EU Blue Card application at the Ausländerbehörde (German Foreigner's Authority).
 
 #### Applying for the Blue card when you are already in Germany
 
-If you are already in Germany, and you are offered a position that makes you eligible for a Blue Card, you can apply at the local Ausländerbehörde (German Foreigner’s Authority). You must start the process at least six weeks before your current residence permit expires.
+If you are already in Germany, and you are offered a position that makes you eligible for a Blue Card, you can apply at the local Ausländerbehörde (German Foreigner's Authority). You must start the process at least six weeks before your current residence permit expires.
 
 #### Germany Blue card required documents
 

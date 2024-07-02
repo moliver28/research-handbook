@@ -84,7 +84,7 @@ Click-through demos can be run in multiple ways:
 
 ## [Planning to Monitoring (formerly i2p)](i2p/)
 
-Highlights GitLab’s single platform for the complete DevOps lifecycle, from idea to production, through issues, planning, merge request, CI/CD, and monitoring.
+Highlights GitLab's single platform for the complete DevOps lifecycle, from idea to production, through issues, planning, merge request, CI/CD, and monitoring.
 
 ## [CI/CD Deep Dive](cicd-deep/)
 

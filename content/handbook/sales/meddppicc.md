@@ -1,16 +1,7 @@
 ---
-
 title: "MEDDPPICC"
 description: "MEDDPPICC is a proven methodology used for strategic opportunity management and complex sales process orchestration for enterprise organizations"
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -58,7 +49,7 @@ Check out the [Demystifying the Metrics Conversation](/handbook/sales/command-of
 
 ## Economic Buyer
 
-**(E) Economic Buyer: *the individual within the customer’s organization who is required for the final “yes”***
+**(E) Economic Buyer: *the individual within the customer's organization who is required for the final "yes"***
 
 ### Video
 
@@ -69,7 +60,7 @@ Check out the [Demystifying the Metrics Conversation](/handbook/sales/command-of
 ### Qualifying Questions
 
 - Have you identified and met with the Economic Buyer(s) (EB) (the individual(s) who has the power to spend and/or has profit/loss responsibility for this solution)?
-- How do you know they’re actually the EB (versus someone higher in the organization)?
+- How do you know they're actually the EB (versus someone higher in the organization)?
 - How can you leverage your Champion to gain access?
 - What does the Economic Buyer(s) care about most?
 - How do you establish credibility with your EB(s)?
@@ -190,7 +181,7 @@ Check out the [Demystifying the Metrics Conversation](/handbook/sales/command-of
 
 ## Champion
 
-**(C) Champion: *the person(s) with power and influence inside the customer’s organization who are actively selling on your behalf and willing to give you inside information to help you win the deal***
+**(C) Champion: *the person(s) with power and influence inside the customer's organization who are actively selling on your behalf and willing to give you inside information to help you win the deal***
 
 ### Video
 
@@ -211,7 +202,7 @@ Check out the below podcasts
 
 ## Competition
 
-**(C) Competition: *competitive strengths, weaknesses, and differentiators, including competitor’s champions***
+**(C) Competition: *competitive strengths, weaknesses, and differentiators, including competitor's champions***
 
 ### Video
 

@@ -1,5 +1,4 @@
 ---
-
 title: Collaboration on shared feature and experience areas
 description: "Collaboration process and documentation of shared feature areas for product groups"
 ---

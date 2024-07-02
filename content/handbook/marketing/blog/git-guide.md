@@ -1,14 +1,7 @@
 ---
-
 title: "Git Guide for Blog Contributors"
 description: "A guide for working with Git, terminal, and the www-gitlab-com repository"
 ---
-
-
-
-
-
-
 
 ## General Tips
 
@@ -29,11 +22,11 @@ To start, make sure you're on the correct feature branch with `git checkout 0000
 
 #### Add, change, update files in the repository
 
-In Terminal → run `git status` [enter] to see all of the files you’ve modified. `Git add .` [enter] will stage all of these files (and any you created) for a commit.
+In Terminal → run `git status` [enter] to see all of the files you've modified. `Git add .` [enter] will stage all of these files (and any you created) for a commit.
 
-Next we need to add a commit message with `git commit -m “[descriptive message goes here]”` [enter].
+Next we need to add a commit message with `git commit -m "[descriptive message goes here]"` [enter].
 
-Now we’re ready to push your local changes to `0000-branch-name` using `git push origin 0000-branch-name` [enter].
+Now we're ready to push your local changes to `0000-branch-name` using `git push origin 0000-branch-name` [enter].
 
 #### Commit Early and Often
 

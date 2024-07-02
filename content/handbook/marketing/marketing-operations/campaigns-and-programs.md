@@ -1,13 +1,7 @@
 ---
-
 title: "Campaigns and Programs"
 description: "Campaigns are used to track efforts of marketing tactics - field events, webcasts, content downloads."
 ---
-
-
-
-
-
 
 ## Campaigns
 
@@ -1104,21 +1098,21 @@ When someone fills out these forms, they will be automatically added to the [Lan
 ### Create LinkedIn Lead Gen Form in LinkedIn (digital marketing)
 
 - Clone the form template according to the region your campaign is located (AMER, EMEA/APAC). The reason for the different forms is compliance related, so please be sure to use the correct template for the region. If you are setting up all three regions, you will need to use both templates.
-  - Ensure the ‘form name’ includes the utm_campaign exactly as it appears in the table above
+  - Ensure the 'form name' includes the utm_campaign exactly as it appears in the table above
   - Form name should also include the utm_content exactly as listed in the issue
   - Form names in AMER forms also need to include `amer` in the form name
   - Example of correct format
     - _Ex.devopsgtm_amer_guide-to-devops_feb2023_
     - NOTE: If there is a segment specific version, add the segment inside the content name for better tracking. _devopsgtm_amer_guide-to-smb-devops_feb2023..._
-- Fill out ‘offer headline’ and ‘offer details’
-- Update ‘confirmation message’ and `landing page URL`
+- Fill out 'offer headline' and 'offer details'
+- Update 'confirmation message' and `landing page URL`
   - The template has the homepage as a standard landing page URL, but if there is a more appropriate page, update the URL and keep the UTMs the same
 - Update hidden field for `utm_campaign` and `utm_content`
   - This is very important to have the correct campaign naming to ensure the lead data is passed to Marketo
 - Save Form
 - Navigate to the campaign that will be using the new form and edit
 - In `form details` select `download` as the call-to-action and select your new form
-  - Note: If your new asset is launching in multiple regions, confirm you’re adding the correct form to the correct regional campaign
+  - Note: If your new asset is launching in multiple regions, confirm you're adding the correct form to the correct regional campaign
 
 ### Step 1: For new campaigns not listed above, [clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG8361A1)
 

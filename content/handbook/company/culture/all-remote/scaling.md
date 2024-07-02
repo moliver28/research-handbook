@@ -79,7 +79,7 @@ In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRT
 
 > The more widespread an organization is, the less it benefits from being colocated. An all-remote organization will have to adopt the processes you'd use to control an organization at scale.
 >
-> [Writing things down]({{< ref "values#write-things-down" >}}), [recording things](/handbook/marketing/marketing-operations/youtube/), and [working asynchronously]({{< ref "./management#asynchronous" >}}) — we have to master those things early, so they become more prevalent in the organization. Hence, they are easier to scale.
+> [Writing things down](/handbook/values/#write-things-down), [recording things](/handbook/marketing/marketing-operations/youtube/), and [working asynchronously]({{< ref "./management#asynchronous" >}}) — we have to master those things early, so they become more prevalent in the organization. Hence, they are easier to scale.
 >
 > For example, we have the best [onboarding process]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}) of any company in the world. It's not perfect — I can see lots of room for improvement — but no other company has [250+ tasks](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#all-gitlabbers) you need to complete when onboarding.
 >

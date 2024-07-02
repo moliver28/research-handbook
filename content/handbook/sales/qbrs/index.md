@@ -1,5 +1,4 @@
 ---
-
 title: "GitLab Field QBRs"
 description: "Overview of GitLab's Quarterly Business Review process"
 ---
@@ -257,11 +256,11 @@ A: In order to serve as an active participant in QBRs, there is no need to take 
 
 1. Be very specific in your ask; general asks are not actionable. Asks should be geared towards helping customers & prospects; improving internal processes & productivity.
    1. General topics of asks are: Product enhancement, Process, Pricing, Tooling, Etc.
-1. Business Impact: Explain how the “Ask” will impact the business. Will improve the customer engagement? Will it make the sales team more productive? Will it foster better collaboration amongst internal teams?
+1. Business Impact: Explain how the "Ask" will impact the business. Will improve the customer engagement? Will it make the sales team more productive? Will it foster better collaboration amongst internal teams?
 1. Owner (DRI): Assign the Directly Responsible Individual (DRI) for this ask. The DRI cannot be a Sales Mgr/Leader or Rep.
 1. Requested Due Date: Provide a due date for the request. This will assist with prioritization for the DRIs and internal teams working on the ask.
    1. Bonus: If there is an issue that has been created for your ask, link it in your deck!
-1. The Ask should focus on cross-functional teams. Try to avoid “intra-sales” asks that can be addressed during the quarter as a standard course of business.
+1. The Ask should focus on cross-functional teams. Try to avoid "intra-sales" asks that can be addressed during the quarter as a standard course of business.
 
 ### Intake
 

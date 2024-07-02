@@ -1,13 +1,6 @@
 ---
-
 title: Secure Technical Documentation
 ---
-
-
-
-
-
-
 
 ## Architecture
 

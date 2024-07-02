@@ -1,5 +1,4 @@
 ---
-
 title: "Quote to Cash Documentation"
 description: "Enterprise Applications Quote to Cash Documentation"
 ---

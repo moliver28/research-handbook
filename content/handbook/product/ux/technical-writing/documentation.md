@@ -13,7 +13,7 @@ and stored with the product in its respective paths within the
 [GitLab repositories](https://docs.gitlab.com/ee/development/documentation/site_architecture/#architecture).
 It's published at [docs.gitlab.com](https://docs.gitlab.com) (offering multiple
 versions of all product documentation) and at the `/help/` path on each GitLab
-instance’s domain, with content for that instance’s version.
+instance's domain, with content for that instance's version.
 
 Our goal is to create documentation that is accurate and easy
 to use. The documentation should be easy to browse or search for the information you need, and

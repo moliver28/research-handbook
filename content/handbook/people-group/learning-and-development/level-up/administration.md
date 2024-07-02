@@ -113,7 +113,7 @@ It's important to add captions to videos whenever possible. The steps below outl
     1. Scroll through the video to a time marker where you want to put a caption
     1. Click the caption button at lower right of the video
     1. Paste in a short amount of text.
-    1. Watch it back. You can easily edit the captions (they are listed all together below the video window) so it’s not hard to adjust and make them fit.
+    1. Watch it back. You can easily edit the captions (they are listed all together below the video window) so it's not hard to adjust and make them fit.
 
 #### Custom Content Fields
 

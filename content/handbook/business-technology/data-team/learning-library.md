@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team Learning and Resources"
 description: "GitLab Data Team Library"
 ---
-
-
-
-
-
-
-
-
 
 ---
 
@@ -33,8 +24,8 @@ description: "GitLab Data Team Library"
 
 - [The AI Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
 - [Data Meta Metrics](https://caitlinhudon.com/2017/11/14/data-meta-metrics/)
-- [Engineers Shouldn’t Write ETL](https://multithreaded.stitchfix.com/blog/2016/03/16/engineers-shouldnt-write-etl/)
-- [The Startup Founder’s Guide to Analytics](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1)
+- [Engineers Shouldn't Write ETL](https://multithreaded.stitchfix.com/blog/2016/03/16/engineers-shouldnt-write-etl/)
+- [The Startup Founder's Guide to Analytics](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1)
 - [Functional Data Engineering — a modern paradigm for batch data processing](https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
 - [Keep it SQL Stupid, a talk by Connor McArthur of Fishtown Analytics at DataEngConf SF '18 explaining dbt](https://www.youtube.com/watch?v=9VNh11qSfAo)
 - [DevOps for AI](https://www.youtube.com/watch?v=HwZlGQuCTj4)

@@ -139,7 +139,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
    - Add the stacktrace of the error to the incident (if it is not already posted by gitlab-bot), as well as Capybara screenshots if available in the job artifacts.
      - To find the screenshot: download the job artifact, and copy the screenshot in `artifacts/tmp/capybara` to the incident if one is available.
    - Identify the merge request that introduced the failures. There are a few possible approaches to try:
-      - Check the commit in the failed job, and find the associated MR, if any (it’s not as simple most of the times though).
+      - Check the commit in the failed job, and find the associated MR, if any (it's not as simple most of the times though).
       - [Look at the project activity](https://gitlab.com/gitlab-org/gitlab/activity), and search for keywords in the recent merged events.
       - [Look at the recent commits on master](https://gitlab.com/gitlab-org/gitlab/-/commits/master) and search for keywords you might see in the failing job/specs (e.g. if you see a `geo` spec file is failing, specifically the `shard` spec, search for those keywords in the commit history).
         - You can [filter with the `Merge branch` text](https://gitlab.com/gitlab-org/gitlab/-/commits/master?search=Merge%20branch) to only see merge commits.
@@ -354,7 +354,7 @@ For better efficiency, it's common for a regression to be fixed in an MR without
 
 ## Basics
 
-1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority and relevant label you can work on, and assign it to yourself. [You can use this query, which sorts by priority for the started milestones](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&milestone_title=%23started&assignee_id=None&sort=priority), and filter by the label for your team.
+1. Start working on an issue you're assigned to. If you're not assigned to any issue, find the issue with the highest priority and relevant label you can work on, and assign it to yourself. [You can use this query, which sorts by priority for the started milestones](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&milestone_title=%23started&assignee_id=None&sort=priority), and filter by the label for your team.
 1. If you need to schedule something or prioritize it, apply the appropriate labels (see [Scheduling issues](#scheduling-issues)).
 1. If you are working on an issue that touches on areas outside of your expertise, be sure to mention someone in the other group(s) as soon as you start working on it. This allows others to give you early feedback, which should save you time in the long run.
 1. If you are working on an issue that requires access to specific features, systems, or groups, open an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request) to obtain access on staging and production for testing your changes after they are merged.
@@ -427,7 +427,7 @@ for more discussion.
 
 Start working on things with the highest priority in the current milestone. The priority of items are defined under labels in the repository, but you are able to sort by priority.
 
-After sorting by priority, choose something that you’re able to tackle and falls under your responsibility. That means that if you’re a frontend developer, you work on something with the label `frontend`.
+After sorting by priority, choose something that you're able to tackle and falls under your responsibility. That means that if you're a frontend developer, you work on something with the label `frontend`.
 
 To filter very precisely, you could filter all issues for:
 
@@ -438,7 +438,7 @@ To filter very precisely, you could filter all issues for:
 
 [Use this link to quickly set the above parameters](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&milestone_title=%23started&assignee_id=None&sort=priority). You'll still need to filter by the label for your own team.
 
-If you’re in doubt about what to work on, ask your lead. They will be able to tell you.
+If you're in doubt about what to work on, ask your lead. They will be able to tell you.
 
 ## Triaging and Reviewing Code from the rest of the Community
 
@@ -483,7 +483,7 @@ Any scheduled issue should have a team label assigned, and at least one type lab
 To request scheduling an issue, ask the [responsible product manager](/handbook/product/categories/#devops-stages)
 
 We have many more requests for great features than we have capacity to work on.
-There is a good chance we’ll not be able to work on something.
+There is a good chance we'll not be able to work on something.
 Make sure the appropriate labels (such as `customer`) are applied so every issue is given the priority it deserves.
 
 ## Product Development Timeline

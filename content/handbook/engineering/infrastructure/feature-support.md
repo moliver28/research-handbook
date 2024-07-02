@@ -4,12 +4,6 @@ title: "Infrastructure Feature Support"
 description: "How the Infrastructure Department supports shipping features to Production."
 ---
 
-
-
-
-
-
-
 ## Getting started
 
 When a GitLab feature is released to Production, it can be released at one of these levels: Experiment, Beta, Generally Available.

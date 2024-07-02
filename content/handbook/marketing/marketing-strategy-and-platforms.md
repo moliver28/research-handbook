@@ -1,16 +1,8 @@
 ---
-
 title: Marketing Strategy & Platforms
 description: >-
   Learn more about the Marketing Strategy & Platforms.
 ---
-
-
-
-
-
-
-
 
 ## Marketing Strategy, Operations, and Analytics Team Charter
 
@@ -70,16 +62,16 @@ Develop habits & make incremental progress
 - 0.99 ^ 365 = 0.026
 
 Collaborate with & learn from diverse sources<br>
-> “If you want to go fast, go alone. If you want to go far, go together.”
+> "If you want to go fast, go alone. If you want to go far, go together."
 
 ### Ground Rules
 
 - We learn from each other by fostering group intelligence
 - We lean towards innovation and collaborative decision-making by being bold, but not bully, and being thoughtful, but not lazy
 - We cultivate growth mindset by having the courage to try new things and fail better
-- We’re stronger as a team by sharing the workload, and not minding who gets the credit
+- We're stronger as a team by sharing the workload, and not minding who gets the credit
 
-> *“The most important function of the leader is to encourage everyone to see him- or herself as a member of the larger system, pursuing a common vision, holding common values, and cooperating with each other in an environment of mutual support and respect.” <br>
+> *"The most important function of the leader is to encourage everyone to see him- or herself as a member of the larger system, pursuing a common vision, holding common values, and cooperating with each other in an environment of mutual support and respect." <br>
 FRED KOFMAN*
 
 ### Interdependencies

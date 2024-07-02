@@ -12,7 +12,7 @@ Every two weeks a question/activity will be posted in the code-review-backend sl
 Some examples would be:
 
 - Ice breaker style question: What is your favourite food to cook? (maybe share photos too), What was your favourite holiday and why?
-- ‘Gif battle’: where we would have a topic, for example (cutest animal, most insane dance move) and we would each post our top GIF
+- 'Gif battle': where we would have a topic, for example (cutest animal, most insane dance move) and we would each post our top GIF
 - Share a photo: where we each share a photo that we took during the week
 
 ## Feedback

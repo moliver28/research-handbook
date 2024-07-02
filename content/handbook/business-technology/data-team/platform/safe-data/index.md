@@ -1,16 +1,7 @@
 ---
-
 title: "SAFE Data Guide"
 description: "SAFE Data Guide"
 ---
-
-
-
-
-
-
-
-
 
 ---
 

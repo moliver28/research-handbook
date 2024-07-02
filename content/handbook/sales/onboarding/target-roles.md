@@ -1,14 +1,6 @@
 ---
-
 title: "Targeted Sales & Customer Success Roles for Sales Quick Start (SQS)"
 ---
-
-
-
-
-
-
-
 
 ## Targeted Sales & Customer Success Roles for Sales Quick Start (SQS)
 

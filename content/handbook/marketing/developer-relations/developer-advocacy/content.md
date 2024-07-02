@@ -5,7 +5,6 @@ aliases:
 - /handbook/marketing/developer-relations/developer-evangelism/content/index.html
 ---
 
-
 ## Content Library
 
 The Developer Advocacy team creates content that can be reused for campaigns. All contents and activities the team participates in are added to the team's technical content plan sheet (search for `Technical Content Plan` in Google Drive) and [epics roadmap](/handbook/marketing/developer-relations/developer-advocacy/workflow/#roadmap-view).

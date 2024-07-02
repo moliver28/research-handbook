@@ -1,14 +1,7 @@
 ---
-
 title: Developer Cheatsheet
 description: Helpful information for developers on the Editor team.
 ---
-
-
-
-
-
-
 
 ## Useful Commands
 

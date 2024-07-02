@@ -1,16 +1,7 @@
 ---
-
 title: "Data Team Organization"
 description: "GitLab Data Team Organization"
 ---
-
-
-
-
-
-
-
-
 
 ---
 

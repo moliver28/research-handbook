@@ -64,12 +64,12 @@ An urgent request would be something that needs immediate attention like team me
 1. We ask all GitLab team members to follow our [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines).
    - These guidelines highlight the expectation that everyone assumes positive intent, exercises kindness, and expresses your thoughts responsibly and inclusively.
 2. If there is an issue to raise regarding someone's communication or conduct, team members should raise their concern with the manager of the individual involved or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
-3. Managers can email Team Member Relations (teammemberrelations@gitlab.com) to express concerns with a team member’s communication if they believe intervention is needed.
+3. Managers can email Team Member Relations (teammemberrelations@gitlab.com) to express concerns with a team member's communication if they believe intervention is needed.
    - If a team member is in violation of the effective & responsible communication guidelines, the Team Member Relations team will reach out to the manager and disciplinary action could be taken.
 
 ## Team Member Relations Philosophy
 
-GitLab believes in preserving the dignity of each team member and expects everyone to treat others with fairness, respect, and transparency.  We encourage mutual responsibility for constructive work relationships and communication, information sharing, problem solving and a safe neutral process through which differences can be resolved.  Direct and honest communication is strongly encouraged between all team members regardless of title or level and per our values we [do not pull rank]({{< ref "values#dont-pull-rank" >}}). Such communication is likely to enhance understanding, avoid misunderstandings and create rapid solutions to concerns.
+GitLab believes in preserving the dignity of each team member and expects everyone to treat others with fairness, respect, and transparency.  We encourage mutual responsibility for constructive work relationships and communication, information sharing, problem solving and a safe neutral process through which differences can be resolved.  Direct and honest communication is strongly encouraged between all team members regardless of title or level and per our values we [do not pull rank](/handbook/values/#dont-pull-rank). Such communication is likely to enhance understanding, avoid misunderstandings and create rapid solutions to concerns.
 
 We have built this philosophy to focus on these 4 pillars in line with our values:
 

@@ -1,14 +1,13 @@
 ---
-
 title: "Field Accreditation: Customer Success Managers"
-description: "To support and scale GitLab’s continued growth and success, the Field Enablement Team is developing an accreditation program for Customer Success Managers that includes functional, soft skills, and technical training for field team members"
+description: "To support and scale GitLab's continued growth and success, the Field Enablement Team is developing an accreditation program for Customer Success Managers that includes functional, soft skills, and technical training for field team members"
 ---
 
 ## Field Accreditation Program for Customer Success Managers
 
 ## Overview
 
-To support and scale GitLab’s continued growth and success, the Field Enablement Team is developing an accreditation program for Customer Success Managers that includes functional, soft skills, and technical training for field team members.
+To support and scale GitLab's continued growth and success, the Field Enablement Team is developing an accreditation program for Customer Success Managers that includes functional, soft skills, and technical training for field team members.
 
 Accreditation badges will align to the critical customer engagements as well as the [field functional competencies](/handbook/sales/training/field-functional-competencies/) that address the critical knowledge, skills, role-based behaviors, processes, content, and tools to successfully execute each customer interaction.
 
@@ -48,7 +47,7 @@ Below is the holistic learner journey for CSMs and provides context for the info
 *Differentiate between when a CSM should get involved in commercial and enterprise accounts
 
 - Review the Customer Use Case with SAE and SA
-- Analyze the Customer’s Background
+- Analyze the Customer's Background
 - Identify gaps in understanding for planning phase
 
 ## Recognition

@@ -1,5 +1,4 @@
 ---
-
 title: "Blog dashboard"
 description: "How to use the GitLab blog performance dashboard."
 ---

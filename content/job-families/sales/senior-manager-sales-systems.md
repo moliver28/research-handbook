@@ -102,7 +102,7 @@ The Director, Sales Systems is a [grade 10](/handbook/total-rewards/compensation
 - Strong understanding of Go-To-Market business processes and the ability to pair effective and efficient technology solutions to them.
 - Analytical and detail oriented, great project management and roadmapping skills
 - Excellent communication and interpersonal skills, with the ability to resolve complicated interdepartmental projects and manage stakeholders.
-- Committed to “Drink our own Champagne” and fully utilize the GitLab product for internal project management and collaboration.
+- Committed to "Drink our own Champagne" and fully utilize the GitLab product for internal project management and collaboration.
 - Share and work in accordance with our [values](/handbook/values/).
 - [Leadership at GitLab](/handbook/company/structure/#management-group)
 
@@ -120,7 +120,7 @@ The Senior Director, Sales Systems is a [grade 11](/handbook/total-rewards/compe
 - Serves as a subject matter expert on Field Sales business processes and system requirements that are integrated with the Company's broader IT plans.
 - Ensure all system solutions are delivered within security and compliance standards (SOX, PCI, GDPR)
 - Architect and drive data governance programs across all Field Operations teams.
-- Leads and mentors team to optimize team’s understanding of Field Sales business requirements, rules and processes to translate into technical requirements.
+- Leads and mentors team to optimize team's understanding of Field Sales business requirements, rules and processes to translate into technical requirements.
 - Strategic leadership of the Sales Systems team, ensuring well being and personal development.
 - Drive strategy and execution of documentating team processes in the Sales Systems and Go-To-Market handbook pages.
 - Assist in annual planning and budgeting as it relates to personnel, programs and all Field Sales software tools.

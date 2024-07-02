@@ -181,7 +181,7 @@ dependencies to achieve project goals
 - Extends that of the Staff or Principal level Strategy and Operations
 - Hands on experience in a data analytics/engineering/science role
 - Experience working with senior leadership to define and measure KPIs and other operating metrics
-- Familiarity with proxy metrics where actual measurements aren’t available
+- Familiarity with proxy metrics where actual measurements aren't available
 - Deep understanding of SQL, relational databases (we use Snowflake)
 - Familiarity with system observability data (logs, metrics, traces) is preferred (we use Elastic Stack)
 - Familiarity with data management policies and regulations (GDPR, SOX, PCI) is preferred

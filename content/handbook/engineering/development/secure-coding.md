@@ -1,13 +1,6 @@
 ---
-
 title: Keeping secure coding knowledge fresh in development
 ---
-
-
-
-
-
-
 
 ## Secure Coding Training Guidelines
 

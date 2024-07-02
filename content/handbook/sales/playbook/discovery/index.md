@@ -1,16 +1,7 @@
 ---
-
 title: "Effective Discovery"
 description: "Effective discovery is critical to thoroughly understanding customer needs and establishes the foundation for being able to effectively articulate GitLab's value and differentiation in a compelling, customer-centric way"
 ---
-
-
-
-
-
-
-
-
 
 ## Overview
 
@@ -31,7 +22,7 @@ Ideally, effective qualification also includes identification of the prospect's:
 
 ## Understand Value Points
 
-The second phase of discovery uses an iterative insight/question loop, often across multiple meetings or conversations, to uncover the prospect’s underlying challenges and motivations, with the ultimate goal of constructing a highly relevant and differentiated value message that ties the GitLab solution to the prospect’s business needs.
+The second phase of discovery uses an iterative insight/question loop, often across multiple meetings or conversations, to uncover the prospect's underlying challenges and motivations, with the ultimate goal of constructing a highly relevant and differentiated value message that ties the GitLab solution to the prospect's business needs.
 
 ### Preparation
 
@@ -90,7 +81,7 @@ As outlined in the [Pre-Call Plan](https://docs.google.com/document/d/1yjyfvMoDv
 
 #### Approach With Curiosity
 
-Approach discovery conversations with a curiosity-led mindset and a desire to better understand the customer’s challenges as well as the *implications* of those challenges.
+Approach discovery conversations with a curiosity-led mindset and a desire to better understand the customer's challenges as well as the *implications* of those challenges.
 
 - How big is the problem?
 - How does this impact higher-level goals and objectives?
@@ -166,7 +157,7 @@ See the [above section](/handbook/sales/playbook/discovery/#preparation) for tip
 
 ## Happy Ears
 
-Resist the urge to prematurely talk about or begin to position GitLab until you have a thorough understanding of the customer’s challenges, the implications of those challenges, how big the problem is, the urgency of the problem, who cares about the problem and why, and more (see below).
+Resist the urge to prematurely talk about or begin to position GitLab until you have a thorough understanding of the customer's challenges, the implications of those challenges, how big the problem is, the urgency of the problem, who cares about the problem and why, and more (see below).
 
 <!-- blank line -->
 <figure class="video_container">
@@ -176,7 +167,7 @@ Resist the urge to prematurely talk about or begin to position GitLab until you 
 
 ## Not Attaching to the Biggest Problem
 
-You must have a solid understanding of the prospect's key business drivers, strategic business initiatives, and associated objectives and goals to be able to serve as a trusted advisor. These will almost assuredly relate to one or more [Customer Value Drivers](/handbook/sales/command-of-the-message/#customer-value-drivers). Use [Customer Strategy-based discovery questions](/handbook/sales/qualification-questions/#customer-strategy) followed by [Customer Needs-based discovery questions](/handbook/sales/qualification-questions/#customer-needs) to identify how GitLab can have a positive impact on your buyer’s business issues.
+You must have a solid understanding of the prospect's key business drivers, strategic business initiatives, and associated objectives and goals to be able to serve as a trusted advisor. These will almost assuredly relate to one or more [Customer Value Drivers](/handbook/sales/command-of-the-message/#customer-value-drivers). Use [Customer Strategy-based discovery questions](/handbook/sales/qualification-questions/#customer-strategy) followed by [Customer Needs-based discovery questions](/handbook/sales/qualification-questions/#customer-needs) to identify how GitLab can have a positive impact on your buyer's business issues.
 
 <!-- blank line -->
 <figure class="video_container">

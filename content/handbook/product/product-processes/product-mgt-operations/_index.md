@@ -1,5 +1,4 @@
 ---
-
 title: Product Management Operations
 description: >-
   As a Product Organization, we work to create a flexible yet concise product

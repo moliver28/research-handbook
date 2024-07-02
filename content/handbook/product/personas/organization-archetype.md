@@ -1,13 +1,6 @@
 ---
-
 title: Organization Archetype
 ---
-
-
-
-
-
-
 
 ## What is an organization archetype?
 

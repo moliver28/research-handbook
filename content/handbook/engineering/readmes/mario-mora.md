@@ -1,5 +1,4 @@
 ---
-
 title: "Mario Mora's README"
 description: "Personal readme page for Mario Mora, Support Engineer, GitLab"
 job: "Support Engineer"
@@ -7,11 +6,11 @@ job: "Support Engineer"
 
 <!-- This template will help you build out your very own GitLab README, a great tool for transparently letting others know what it's like to work with you, and how you prefer to be communicated with. Each section is optional. You can remove those you aren't comfortable filling out, and add sections that are germane to you. -->
 
-## Mario’s - README
+## Mario's - README
 
-Hello, I’m Mario and I am a Support Engineer at GitLab.
+Hello, I'm Mario and I am a Support Engineer at GitLab.
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
+This page is intended to help others understand what it might be like to work with me, especially people who haven't worked with me before.
 
 ## Related pages
 
@@ -22,9 +21,9 @@ This page is intended to help others understand what it might be like to work wi
 
 ## About me
 
-I was born in Costa Rica, a beautiful tropical country in Central America, with 3% percent of all the biodiversity of the world you can definitively find a lot of things to do and enjoy over here; I love to do outdoor activities like hiking or running while listening to audiobooks, or going outside and take pictures with my camera. When at home I love to do cooking and really enjoy doing BBQs, and playing ping pong, I also enjoy doing Raspberry Pi projects.  
+I was born in Costa Rica, a beautiful tropical country in Central America, with 3% percent of all the biodiversity of the world you can definitively find a lot of things to do and enjoy over here; I love to do outdoor activities like hiking or running while listening to audiobooks, or going outside and take pictures with my camera. When at home I love to do cooking and really enjoy doing BBQs, and playing ping pong, I also enjoy doing Raspberry Pi projects.
 
-I come from a background of IT companies in which I had worked for about 15 years, yet I can certainly say that working at GitLab has been a life-changing experience and I’m very thankful for it since in GitLab our values are truly lived every day and this is reflected in the quality of relationships between our peers and our methodologies to make things happen.
+I come from a background of IT companies in which I had worked for about 15 years, yet I can certainly say that working at GitLab has been a life-changing experience and I'm very thankful for it since in GitLab our values are truly lived every day and this is reflected in the quality of relationships between our peers and our methodologies to make things happen.
 
 ## How you can help me
 

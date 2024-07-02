@@ -7,7 +7,7 @@ Teams around GitLab utilize other training providers for accessing role specific
 
 ## O'Reilly Learning
 
-The O’Reilly Learning library, contains thousands of books, videos and live learning courses to assist team members’ with professional development and staying up-to-date with changing technology trends. Additionally, code sandboxes are included within the O’Reilly platform that team members’s can utilize to practice new skills or hone existing ones.
+The O'Reilly Learning library, contains thousands of books, videos and live learning courses to assist team members' with professional development and staying up-to-date with changing technology trends. Additionally, code sandboxes are included within the O'Reilly platform that team members's can utilize to practice new skills or hone existing ones.
 
 ### How to get an O'Reilly license
 

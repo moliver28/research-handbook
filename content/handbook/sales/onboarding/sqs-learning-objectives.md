@@ -1,16 +1,7 @@
 ---
-
 title: "Sales Quick Start (SQS) Learning Objectives"
 description: "GitLab sales onboarding learning obejctives"
 ---
-
-
-
-
-
-
-
-
 
 ## Learning Objectives
 

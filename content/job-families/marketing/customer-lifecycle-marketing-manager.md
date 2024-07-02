@@ -7,7 +7,7 @@ Are you a passionate marketer with strong program management skills who has mast
 
 ## Responsibilities
 
-- Develop GitLab’s customer lifecycle stages and create strategic initiatives for each stage of the customer journey, which include onboarding, engagement and retention.
+- Develop GitLab's customer lifecycle stages and create strategic initiatives for each stage of the customer journey, which include onboarding, engagement and retention.
 - Create and refine effective programs that leverage tenure and customer behavior data, and include a mix of triggered, targeted and broad educational campaigns.
 - Identify key, measurable metrics (upsell, churn, etc.) for lifecycle programs encompassing a growth hacker mentality with the ability to test and scale rapidly.
 - Forge personal relationships with advocate customers and build out case studies, testimonials and quotes, acting as a content source for GitLab.
@@ -23,6 +23,6 @@ Are you a passionate marketer with strong program management skills who has mast
 - Strong communication skills without a fear of over communication. This role will require effective collaboration and cross-functional coordination across internal and external contributors.
 - Extremely detail-oriented and organized, able to manage multiple projects to meet deadlines.
 - A passion and strong understanding of developer customer personas and the landscape.
-- Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
+- Is your college degree in French foreign politics with a minor in interpretive dance but you've been hacking together websites since you were 12? Perfect. We understand that your college degree isn't the only thing that prepares you as a potential job candidate.
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to use GitLab

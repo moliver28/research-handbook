@@ -4,11 +4,11 @@ title: "First click testing for navigation"
 
 ## What is first click testing?
 
-First click testing is used to determine if participants are able to find something they're looking for in an interface within their first click. Assessing the first click is important because it is much more likely that a user will succeed in completing a task if they're able to click on the right path initially. First click testing will be able to tell you if participants are clicking the intended area for a given scenario. If they don’t, you can learn where else they would click, and why.
+First click testing is used to determine if participants are able to find something they're looking for in an interface within their first click. Assessing the first click is important because it is much more likely that a user will succeed in completing a task if they're able to click on the right path initially. First click testing will be able to tell you if participants are clicking the intended area for a given scenario. If they don't, you can learn where else they would click, and why.
 
 ## Why should I use this method?
 
-You have a navigation design that’s in the very early stages (it may just be a static mock or even a sketch) and you want to know if participants are able to correctly identify where to go to find certain elements/information, and if not, identify where they are going instead.
+You have a navigation design that's in the very early stages (it may just be a static mock or even a sketch) and you want to know if participants are able to correctly identify where to go to find certain elements/information, and if not, identify where they are going instead.
 
 **Goal:** Learn where participants would initially click to complete a task and why. This testing is earlier than testing broader usability and will help to validate design ideas for navigation changes.
 
@@ -46,8 +46,8 @@ You have a navigation design that’s in the very early stages (it may just be a
 
 ## How to set up a first-click test for navigation
 
-- First, determine which tasks that you want your participants to complete. Choose tasks relevant to what you’re testing from the Core Navigation tasks list (in process).
-- It’s recommended to have five tasks or less for the first click test.
+- First, determine which tasks that you want your participants to complete. Choose tasks relevant to what you're testing from the Core Navigation tasks list (in process).
+- It's recommended to have five tasks or less for the first click test.
 - Randomize the order of tasks if you have more than one (unless tasks are dependent on each other and only make sense in a certain order). You can set randomization up easily within Qualtrics.
 - A Navigation First Click Testing template is located in Qualtrics, within the [UX Research & Product library (internal link)](https://gitlab.eu.qualtrics.com/Q/SurveysSection?ContextLibraryID=GR_6ziMa2ooJx4Y6SF&LibraryID=GR_6ziMa2ooJx4Y6SF). For more details on how this template was set up or how to use Qualtrics for a first click study, please refer to the Creating design evaluations in Qualtrics handbook page.
 
@@ -57,12 +57,12 @@ To report brief/initial findings in Slack or in an Issue, please use the followi
 
 - % of participants (A out of BB) correctly clicked the first item (note which item/items would be counted as correct).
 - For the correct selections, the average confidence level was X/Z
-- Note any themes about their correct choice “6 participants mentioned that they would expect to find X in choice B because…”
+- Note any themes about their correct choice "6 participants mentioned that they would expect to find X in choice B because…"
 - Other common incorrect first click choices were:
   - Choice B: 27% of participants (6 out of 20)
   - Choice C: 27% of participants (6 out of 20)
 - If there is anything to note about their confidence level and incorrect choices: Interestingly, participants felt more confident on average in choice B (3.5) than Choice A (2)
-- Note any themes about their incorrect choice “4 participants mentioned that they would expect to find X in choice B because…”
+- Note any themes about their incorrect choice "4 participants mentioned that they would expect to find X in choice B because…"
 - Can note any other interesting finding or verbatim.
 
 If there's any context that you can provide in your interpretation of the results, that will be helpful. For example, if participants selected Merge Requests in the left sidebar, you can add that the common incorrect first click in this area may be due to the task calling out a merge request.

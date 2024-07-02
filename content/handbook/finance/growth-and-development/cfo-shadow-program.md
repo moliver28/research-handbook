@@ -6,7 +6,7 @@ title: CFO Shadow Program
 
 The CFO Shadow Program is an immersive 1 or 2 week assignment where team members can apply to shadow the CFO. The [70:20:10 model for learning](/handbook/people-group/learning-and-development#70-20-10-model-for-learning-and-development) shows us that most adults gain ~90% of their knowledge through experiential learning. While formal "classroom" style training plays an important role in teaching new concepts, real life experiences are critical to helping adults develop and retain new skills. The CFO Shadow program is a unique growth opportunity for team members who are looking to experience a "day in the life" of a CFO of a publicly traded company, gain greater cross-functional insight, and develop their general business and Finance acumen.
 
-In the spirit of [boring solutions]({{< ref "values#boring-solutions" >}}), the CFO Shadow program mirrors the original [CEO Shadow program](/handbook/ceo/shadow#overview) in many ways, with some customizations.
+In the spirit of [boring solutions](/handbook/values/#boring-solutions), the CFO Shadow program mirrors the original [CEO Shadow program](/handbook/ceo/shadow#overview) in many ways, with some customizations.
 
 ## What to Expect
 

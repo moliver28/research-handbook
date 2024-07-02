@@ -32,7 +32,7 @@ DIB is a core value and is something that is measured by [DIB Compentencies](/ha
 - **Indvidual Contributors Communications** -
   - DRI Marina Brownrigg
   - Cadence: Monthly
-  - Method of Communication: While you were Iterating, What’s Happening and DIB Slack Channels
+  - Method of Communication: While you were Iterating, What's Happening and DIB Slack Channels
 
 **Example**
 

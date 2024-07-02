@@ -27,7 +27,7 @@ Don't take our word for it - check out what mentors and mentees at GitLab have t
 
 **From the Mentors**
 
-> I’ve been a Mentor throughout my career, the GitLab program is hands down the best experience I’ve had. Both Mentor and Mentee are provided with resources and guidance to ensure a successful connection.
+> I've been a Mentor throughout my career, the GitLab program is hands down the best experience I've had. Both Mentor and Mentee are provided with resources and guidance to ensure a successful connection.
 >
 > One of the elements I really enjoyed about this program was the opportunity to meaningfully connect with someone outside of my team - we both learned from each other!
 

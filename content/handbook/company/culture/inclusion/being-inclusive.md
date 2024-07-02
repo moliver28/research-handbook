@@ -30,7 +30,7 @@ See the [Diversity, Inclusion, and Belonging page]({{< ref "inclusion" >}}) page
 1. Ensure all voices are heard. Include everyone as much as possible in discussions.
 1. Assume positive intent and examine your assumptions/judgements.
 
-See our values page for futher information on [inclusive language]({{< ref "values#inclusive-language--pronouns" >}}).
+See our values page for futher information on [inclusive language](/handbook/values/#inclusive-language--pronouns).
 
 ## Inclusion Training
 

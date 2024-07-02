@@ -1,14 +1,7 @@
 ---
-
 title: "Data Team"
 description: "The GitLab Enterprise Data Team is responsible for empowering every GitLab team member to contribute to the data program and generate business value from our data assets."
 ---
-
-
-
-
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 

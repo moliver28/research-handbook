@@ -1,5 +1,4 @@
 ---
-
 title: "Engineering productivity project management"
 description: "Guidelines for project management for the Engineering Productivity team at GitLab"
 ---

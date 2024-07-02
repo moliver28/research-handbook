@@ -14,7 +14,7 @@ The Director, Marketing Operations is a [grade 10](/handbook/total-rewards/compe
 - Define the Marketing Operations vision and strategy that enables intelligent decisions through precise analysis.
 - Own the marketing operations roadmap, ensuring marketing technology is evaluated, selected, implemented and customized to meet the needs of the marketing department.
 - Administer the marketing budget and ensure marketing costs are tracked correctly.
-- Partner with GitLab’s Data and Analytics team to ensure the marketing department can correctly report on the ratio between customer lifetime value and customer acquisition cost, by marketing acquisition tactic.
+- Partner with GitLab's Data and Analytics team to ensure the marketing department can correctly report on the ratio between customer lifetime value and customer acquisition cost, by marketing acquisition tactic.
 - Regularly inform stakeholders across marketing, sales, and finance of insights on marketing performance to ensure cross functional alignment on the best possible data-driven marketing strategy.
 - Track and report on the entire marketing funnel including volume, velocity, conversion stage-to-stage, and average value; make sure funnel measures can be analyzed by key dimensions such as industry, geo, and persona.
 - Work with the Product team on having product usage inform better marketing to our customers and people trialing GitLab.

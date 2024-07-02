@@ -1,13 +1,6 @@
 ---
-
 title: "Reddit response workflow"
 ---
-
-
-
-
-
-
 
 ## Overview
 

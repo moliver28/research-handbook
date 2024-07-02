@@ -1,15 +1,8 @@
 ---
-
 title: "Professional Services EM Scoping - CI/CD Pipeline Migration"
 description: "Describes the process for scoping pipeline migrations from other CI/CD systems to GitLab"
 
 ---
-
-
-
-
-
-
 
 ## General discovery questions to determine customer maturity level
 

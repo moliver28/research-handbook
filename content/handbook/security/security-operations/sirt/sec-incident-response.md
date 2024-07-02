@@ -49,10 +49,10 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
     - Permit or deny the operations of the affected system
 1. Eradication
     - Components that have caused the security incident are eliminated
-    - Removal of the attackers’ access to the environment or the targeted system
+    - Removal of the attackers' access to the environment or the targeted system
     - Strengthen the controls surrounding the affected system
 1. Recovery
-    - Represents the effort to restore the affected system’s operations after the problem that gave rise to the incident has been corrected
+    - Represents the effort to restore the affected system's operations after the problem that gave rise to the incident has been corrected
     - Implementation of additional monitoring controls
     - Update the incident record with any relevant details
 1. Post-Incident analysis and activities

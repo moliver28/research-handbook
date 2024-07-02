@@ -47,7 +47,7 @@ It's helpful to be transparent about your communication preferences so managers 
 
 Informal team member communications, such as a chat about life outside of work, are necessary for building trust. Trust is essential for great business results and is a [foundational element of culture]({{< ref "culture#culture-at-gitlab" >}}). Many businesses invest heavily in offices and facilities, because they believe offices are necessary for informal communication.
 
-> During the pandemic, many businesses that were forced to work remotely discovered that productivity [increased](https://bfi.uchicago.edu/working-paper/why-working-from-home-will-stick). Many of these same businesses are now making plans to return to the office. One reason given is that not everyone can work from home. GitLab solves this by allowing people to [rent and expense work space](/handbook/finance/expenses#-coworking-or-external-office--space). Another reason given is that people miss working from a central office with co-workers. I don’t think that people miss the commute or the office furniture. They miss informal communication. Central offices are an expensive, inconvenient, and indirect way to facilitate informal communication. It is more efficient to directly organize informal communication.
+> During the pandemic, many businesses that were forced to work remotely discovered that productivity [increased](https://bfi.uchicago.edu/working-paper/why-working-from-home-will-stick). Many of these same businesses are now making plans to return to the office. One reason given is that not everyone can work from home. GitLab solves this by allowing people to [rent and expense work space](/handbook/finance/expenses#-coworking-or-external-office--space). Another reason given is that people miss working from a central office with co-workers. I don't think that people miss the commute or the office furniture. They miss informal communication. Central offices are an expensive, inconvenient, and indirect way to facilitate informal communication. It is more efficient to directly organize informal communication.
 >
 > For example, every person who joins GitLab has to schedule at least 5 coffee chats during their onboarding. We also have Ask Me Anything meetings with senior leaders, Group calls organized by different groups/departments, and over 15 other explicit ways to encourage employee connections and relationship building. Intentionally organizing informal communication enables the trust-building conversations that are essential for collaboration. This can be more effective than relying on chance encounters in a physical office. You can connect with team members throughout the world and across departments through a coffee chat. You may not meet people outside of your own floor in an office setting. - *GitLab co-founder and CEO Sid Sijbrandij*
 
@@ -134,7 +134,7 @@ Below are a number of intentional facets of [GitLab's culture]({{< ref "culture#
 1. Gaming: GitLab has a `#gaming` Slack channel where fans of video games and digital board games can connect. Coordinating shared gaming sessions is a great way to informally connect with team members and collaborate toward goals outside of work.
 1. Music making: GitLab's `#music_making` Slack channel is a place where artists can come together and collaborate synchronously or asynchronously to make music together. Several GitLab team members came together to create [All I Want This Quarter Is You (GitLab)](https://youtu.be/9kTwqsW8I68), a musical masterpiece on the GitLab Unfiltered YouTube channel.
 
-> **"I’ve been given a tour of team members’ new houses, admired their Christmas decorations, squealed when their pets and kids make an appearance and watched them preparing dinner – glimpses into the personal lives of my colleagues that I’ve never had in any office job."** - [Rebecca](/handbook/company/team#rebecca), Managing Editor, GitLab
+> **"I've been given a tour of team members' new houses, admired their Christmas decorations, squealed when their pets and kids make an appearance and watched them preparing dinner – glimpses into the personal lives of my colleagues that I've never had in any office job."** - [Rebecca](/handbook/company/team#rebecca), Managing Editor, GitLab
 
 ## How can informal communication be improved?
 
@@ -258,7 +258,7 @@ We recognize that coffee chats may place pressure on the URG team member to come
 1. If you had a reality TV show about your life, what would your theme song be?
 1. What would an even more joyful workplace culture look like to you?
 1. What are 5-10 qualities that you think are must-haves for new hires in terms of culture fit?
-1. Which company value would you like to have a new high mark in? (as in, which do you feel you aren’t living to its potential?)
+1. Which company value would you like to have a new high mark in? (as in, which do you feel you aren't living to its potential?)
 1. If you could choose a colleague, team member, or exemplary professional to coach you on a particular topic, who would it be and why?
 1. When do you have the most fun at work?
 1. What or who inspired you this week? How?

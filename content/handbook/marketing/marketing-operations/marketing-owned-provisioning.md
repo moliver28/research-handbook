@@ -1,14 +1,7 @@
 ---
-
 title: "Marketing Owned System Provisioning Instructions"
 description: "Marketing Operations manages the majority of marketing-owned systems."
 ---
-
-
-
-
-
-
 
 ## Marketing Owned Systems
 

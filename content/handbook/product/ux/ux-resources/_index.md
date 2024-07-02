@@ -23,7 +23,7 @@ To add the UX Department Calendar to your list of calendars:
 1. Select `Subscribe to calendar`
 1. Enter in the search field `gitlab.com_9psh26fha3e4mvhlrefusb619k@group.calendar.google.com` and then press enter on your keyboard
 
-NOTE: Please do NOT remove any meetings from this calendar or any other shared calendars, as it removes the event from everyone’s calendar.
+NOTE: Please do NOT remove any meetings from this calendar or any other shared calendars, as it removes the event from everyone's calendar.
 
 ## Design resources
 
@@ -75,6 +75,15 @@ View how we collect [synchronous and asyncrhonous design feedback](/handbook/pro
 ### Tools
 
 **Figma** We use [Figma](https://www.figma.com/design/) for designing and prototyping. Our [Pajamas UI kit](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Pajamas-UI-Kit) contains design assets, components, and styles for GitLab's design system, [Pajamas](https://design.gitlab.com/). Additionally, there is a [Figma plugin](https://www.figma.com/community/plugin/860845891704482356/GitLab) available that allows designers to upload design files directly into a GitLab issue. Every product designer should receive access to Figma during onboarding. If you don't have the access you need, reach out to your manager. If you are not a product designer but want View access (including the ability to leave comments), create a free Figma account and ask your stage group designer for a link to the relevant files.
+
+Figma admins and their role scope are defined as:
+
+|Admin|Scope|
+|-----|-----|
+|@tauriedavis|Tech stack owner, user management (Provisioning/deprovisioning), billing|
+|@vkarnes|Tech stack owner fall back|
+|@jeldergl|User management (Provisioning/deprovisioning), design ops|
+|@danmh|Design ops|
 
 **Figjam** We use [Figjam](https://www.figma.com/figjam/) for collecting design feedback, mapping workflows, brainstorming, affinity mapping, and anything else where we need a visual, whiteboard-like workspace.
 

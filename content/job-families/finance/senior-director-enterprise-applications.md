@@ -22,11 +22,11 @@ CRM Systems, Manager is a [grade 8](/handbook/total-rewards/compensation/compens
 - Risk Mitigation & Issue Resolution: Proactively pinpoint and oversee risk zones across Salesforce landscape and ensure the Org is in good standing with best practices. Demonstrate commitment to issue resolution, ensuring program longevity and success.
 - Strategic Alignment & Regulatory Adherence: Guarantee adherence to all governing regulations, organizational policies, and procedural guidelines like FEDRamp, GDPR, SOX etc.
 - Mentorship: Build and manage global teams. Guide and coach team members. Mentor junior team members and model GitLab values for the team. Ability to delegate key tasks within the team to improve team efficiency and throughput
-- Measure, monitor, and maintain team’s ability to meet or exceed Service Level Agreements (SLA), Objectives and Key Results (OKRs), and Key Performance Indicators (KPIs). Experience and comfort working in a culture of measurement
+- Measure, monitor, and maintain team's ability to meet or exceed Service Level Agreements (SLA), Objectives and Key Results (OKRs), and Key Performance Indicators (KPIs). Experience and comfort working in a culture of measurement
 
 ### Requirements
 
-- Bachelor’s degree in Computer Science, Information Technology, or a related discipline. A Master’s degree is advantageous.
+- Bachelor's degree in Computer Science, Information Technology, or a related discipline. A Master's degree is advantageous.
 - 5-7 years of experience implementing, configuring, customizing and integrating SaaS software for Lead to Cash Eg: Salesforce, Zuora Billing, Zuora Revenue, DocuSign CLM, Netsuite, Xactly etc.
 - Application specific skills :
   - Salesforce : Development experience with advanced Salesforce.com development tools and techniques (e.g. LWC, Apex Class, Triggers, Aura Components,  Lightning Design System (LDS), Visualforce Pages, JavaScript, SOAP and REST APIs, SOQL, SOSL, Platform Events, Flows,
@@ -65,12 +65,12 @@ The Director, CRM Systems is a [grade 10](/handbook/total-rewards/compensation/c
 - Project Management: Run the technical implementation of large-sized projects which improve our ability to make better data driven insights, or make the company more efficient. Drive intake and prioritization process for functional areas of expertise.
 - Communication: Target audience Director, Sr. Director, VP, with presentations targeted to CFO staff for critical projects.
 Mentorship: Build and manage global teams. Guide and coach team members. Mentors junior team members and models GitLab values for the team.
-- Measure, monitor, and maintain team’s ability to meet or exceed Service Level Agreements (SLA), Objectives and Key Results (OKRs), and Key Performance Indicators (KPIs). Experience and comfort working in a culture of measurement.
+- Measure, monitor, and maintain team's ability to meet or exceed Service Level Agreements (SLA), Objectives and Key Results (OKRs), and Key Performance Indicators (KPIs). Experience and comfort working in a culture of measurement.
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience. 10-15 years of experience implementing, configuring, customizing and integrating SaaS software Eg: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
-- 10-15 years’ experience in IT, with 7+ years’ experience leading and managing an IT organization or Applications group at a fast growing high technology company.
+- Bachelor's degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience. 10-15 years of experience implementing, configuring, customizing and integrating SaaS software Eg: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
+- 10-15 years' experience in IT, with 7+ years' experience leading and managing an IT organization or Applications group at a fast growing high technology company.
 - Be a self-starter, and thrive in a fast paced environment, customer centric and have the interpersonal skills necessary to manage business and technology relationships.
 - Exceptional time management and prioritization skills, resilient under pressure, able to meet deadlines and able to work in a constantly changing environment.
 - Exhibit strong security and confidentiality practices with systems that handle sensitive data. Experience partnering with internal information security and compliance teams. SOX experience is preferred.
@@ -102,14 +102,14 @@ The Manager, Enterprise Applications is a [grade 8](/handbook/total-rewards/comp
 - Strategic and operational IT Application ownership for the following areas: Sales, Marketing, Support, Finance, HR, and Legal.
 - Drive executive level communication / support for the IT Applications strategy.
 - Partner with key business sponsors / executive stakeholders to deliver high value IT solutions.
-- Drive operational excellence while leveraging KPI’s to measure the success/value of the IT Applications team. Comfortable establishing a culture of measurement and the ability to identify, define, and implement and execute key metrics across the team.
+- Drive operational excellence while leveraging KPI's to measure the success/value of the IT Applications team. Comfortable establishing a culture of measurement and the ability to identify, define, and implement and execute key metrics across the team.
 - Develop and maintain relationships with client organizations to ensure their IT Application expectations are being met and priorities are set at the appropriate level.
 - Provide critical input to develop and manage the plan of record for the IT Applications portfolio; while driving culture of delivery to commitments.
 - The Manager is expected to identify critical areas of improvement, offer recommended solutions, and drive execution of those solutions.
 
 ### Requirements
 
-- 5-7 years’ experience in IT, with 3+ years’ experience leading and managing an IT organization or Applications group at a fast growing high technology company.
+- 5-7 years' experience in IT, with 3+ years' experience leading and managing an IT organization or Applications group at a fast growing high technology company.
 - Excellent change management skills and ability to operate effectively in a fast-paced environment.
 - Experience with SaaS based solution and cloud architectures.
 - Demonstrated ability to successfully lead and develop global applications organization in collaboration with overall IT strategy.
@@ -136,14 +136,14 @@ The Senior Manager, Enterprise Applications is a [grade 9](/handbook/total-rewar
 - Strategic and operational IT Application ownership for the following areas: Sales, Marketing, Support, Finance, HR, and Legal.
 - Drive executive level communication / support for the IT Applications strategy.
 - Partner with key business sponsors / executive stakeholders to deliver high value IT solutions.
-- Drive operational excellence while leveraging KPI’s to measure the success/value of the IT Applications team. Comfortable establishing a culture of measurement and the ability to identify, define, and implement and execute key metrics across the team.
+- Drive operational excellence while leveraging KPI's to measure the success/value of the IT Applications team. Comfortable establishing a culture of measurement and the ability to identify, define, and implement and execute key metrics across the team.
 - Develop and maintain relationships with client organizations to ensure their IT Application expectations are being met and priorities are set at the appropriate level.
 - Provide critical input to develop and manage the plan of record for the IT Applications portfolio; while driving culture of delivery to commitments.
 - The Senior Manager is expected to identify critical areas of improvement, offer recommended solutions, and drive execution of those solutions.
 
 ### Requirements
 
-- 7-10 years’ experience in IT, with 5+ years’ experience leading and managing an IT organization or Applications group at a fast growing high technology company.
+- 7-10 years' experience in IT, with 5+ years' experience leading and managing an IT organization or Applications group at a fast growing high technology company.
 - Excellent change management skills and ability to operate effectively in a fast-paced environment.
 - Experience with SaaS based solution and cloud architectures.
 - Demonstrated ability to successfully lead and develop global applications organization in collaboration with overall IT strategy.
@@ -170,14 +170,14 @@ The Director, Enterprise Applications is a [grade 10](/handbook/total-rewards/co
 - Strategic and operational IT Application ownership for the following areas: Finance, HR, Sales, Marketing, Support, and Legal.
 - Drive executive level communication / support for the IT Applications strategy.
 - Partner with key business sponsors / executive stakeholders to deliver high value IT solutions.
-- Drive operational excellence while leveraging KPI’s to measure the success/value of the IT Applications team. Comfortable establishing a culture of measurement and the ability to identify, define, and implement and execute key metrics across the IT organization.
+- Drive operational excellence while leveraging KPI's to measure the success/value of the IT Applications team. Comfortable establishing a culture of measurement and the ability to identify, define, and implement and execute key metrics across the IT organization.
 - Develop and maintain relationships with client organizations to ensure their IT Application expectations are being met and priorities are set at the appropriate level.
 - Help drive discussion and improvements to develop and manage the plan of record for the IT Applications portfolio; while driving culture of delivery to commitments.
 - The Director is expected to identify critical areas of improvement, offer recommended solutions, and drive execution of those solutions
 
 ### Requirements
 
-- 10-15 years’ experience in IT, with 7+ years’ experience leading and managing an IT organization or Applications group at a fast growing high technology company.
+- 10-15 years' experience in IT, with 7+ years' experience leading and managing an IT organization or Applications group at a fast growing high technology company.
 - Excellent change management skills and ability to operate effectively in a fast-paced environment.
 - Experience with SaaS based solution and cloud architectures.
 - Demonstrated ability to successfully lead and develop global applications organization in collaboration with overall IT strategy.
@@ -211,7 +211,7 @@ The Senior Director, Enterprise Applications is a [grade 11](/handbook/total-rew
 
 ### Requirements
 
-- Fifteen+ years’ experience in IT, with ten+ years' experience leading and managing an IT organization or Applications group at a fast growing high technology company.
+- Fifteen+ years' experience in IT, with ten+ years' experience leading and managing an IT organization or Applications group at a fast growing high technology company.
 - Excellent change management skills and ability to operate effectively in a fast-paced environment.
 - Experience with SaaS based solution and cloud architectures.
 - Demonstrated ability to successfully lead and develop global applications organization in collaboration with overall IT strategy.

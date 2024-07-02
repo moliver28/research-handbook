@@ -83,7 +83,7 @@ The responsibilities, requirements, and additional sklls for Public Sector Profe
 
 - Team Member Oversight: Oversee the work of the Program Delivery team, including project managers and program managers. This involves providing guidance, support, and feedback to ensure that projects are on track and aligned with Professional Services and customer objectives.
 
-- Project Oversight: Monitor the progress of all Professional Services customer projects. The Program Delivery Manager is responsible for ensuring that projects are delivered on time, within scope, within budget, and meet/exceed the customer’s defined success criteria.
+- Project Oversight: Monitor the progress of all Professional Services customer projects. The Program Delivery Manager is responsible for ensuring that projects are delivered on time, within scope, within budget, and meet/exceed the customer's defined success criteria.
 
 - Resource Management: Work closely with PS Operations and technical managers to ensure effective resource allocations to meet project demands. This includes personnel, budget, and any other resources necessary for project success.
 

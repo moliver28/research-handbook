@@ -43,7 +43,7 @@ With PS engagement, customers start leveraging the full capabilities of GitLab e
 
 Adopting GitLab gives you the only single DevOps platform on the market. GitLab Professional Services will help you align your people and processes to match.
 
-Our Professional Services team is made up of not only GitLab subject matter experts but seasoned DevOps professionals who have experience in deploying and maintaining both large-scale applications as well as creating and teaching best practices throughout the SDLC.  Our experts help lead DevOps Transformations, providing direct support to our customer’s strategic business initiatives.  Their experience with other Fortune 500 enterprises allows you to crowd-source your enterprise’s digital transformation.
+Our Professional Services team is made up of not only GitLab subject matter experts but seasoned DevOps professionals who have experience in deploying and maintaining both large-scale applications as well as creating and teaching best practices throughout the SDLC.  Our experts help lead DevOps Transformations, providing direct support to our customer's strategic business initiatives.  Their experience with other Fortune 500 enterprises allows you to crowd-source your enterprise's digital transformation.
 
 GitLab's Professional Services team exists to enable you to realize the full value of your GitLab installation.  We can provide direct implementation support to ensure your GitLab installation is resilient and secure.  We also offer migration services to facilitate your transition to GitLab by delivering a clean dataset to resume operations at once.   Our education and specialized training provide training in best practices, such as CI/CD, version control, metrics, and more.
 

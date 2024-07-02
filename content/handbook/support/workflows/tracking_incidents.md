@@ -1,12 +1,9 @@
 ---
-
 title: Tracking Incidents
 category: GitLab.com
 subcategory: Triaging
 description: How to perform various tasks that assist in tracking customer impact of incidents.
 ---
-
-
 
 ## Overview
 

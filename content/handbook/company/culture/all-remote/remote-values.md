@@ -16,11 +16,11 @@ On this page, we're detailing how a [collection of values at GitLab]({{< ref "va
 
 GitLab's six values — **[Collaboration](/handbook/values/#collaboration)**, **[Results](/handbook/values/#results)**, **[Efficiency](/handbook/values/#efficiency)**, **[Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion)**, **[Iteration](/handbook/values/#iteration)**, and **[Transparency](/handbook/values/#transparency)** — are detailed in the company [Handbook](/handbook).
 
-While all-remote [isn't a value itself]({{< ref "values#what-is-not-a-value" >}}), it's something we do in order to practice the aforementioned values.
+While all-remote [isn't a value itself](/handbook/values/#what-is-not-a-value), it's something we do in order to practice the aforementioned values.
 
 To be effective, and to impact [culture]({{< ref "./building-culture" >}}) in an ongoing, meaningful, sustainable way, values must be more than words written on a page. Values must be [lived]({{< ref "culture#life-at-gitlab" >}}), with each day representing a new opportunity to refamiliarize oneself with said values and strive to implement them in every professional interaction.
 
-It also means lending a hand and speaking up when you believe certain values are not being lived out. Apathy towards company values leads to cultural degradation and [dysfunction]({{< ref "values#five-dysfunctions" >}}). Values can only shape an organization if they're respected and lived by each team member.
+It also means lending a hand and speaking up when you believe certain values are not being lived out. Apathy towards company values leads to cultural degradation and [dysfunction](/handbook/values/#five-dysfunctions). Values can only shape an organization if they're respected and lived by each team member.
 
 This is particularly meaningful in an all-remote setting. With [less physical interaction]({{< ref "./informal-communication" >}}), there's less buffer to compensate for indifference towards company values. Team morale is closely linked to the overall respect given to values.
 
@@ -31,9 +31,9 @@ Two, an overarching belief in a company's values contributes to less ambiguity i
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%;"}
 
-As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there’s as much to unlearn as there is to learn** when it comes to living out values in a remote role.
+As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there's as much to unlearn as there is to learn** when it comes to living out values in a remote role.
 
-It requires companywide trust that team members **have permission to drop prior organizational baggage and truly operate differently**, which may feel like a [trap]({{< ref "values#five-dysfunctions" >}}) for those who have been exposed to traditional bureaucratic norms.
+It requires companywide trust that team members **have permission to drop prior organizational baggage and truly operate differently**, which may feel like a [trap](/handbook/values/#five-dysfunctions) for those who have been exposed to traditional bureaucratic norms.
 
 Psychological safety is critical, and [leadership]({{< ref "leadership" >}}) should place a high degree of importance on ensuring that this does not erode. GitLab signals the importance of this by listing "[Loss of the values that bind us](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#loss-of-the-values-that-bind-us)" as one of the concerns on the [Mitigating Concerns page](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/).
 
@@ -52,11 +52,11 @@ It's critical that values be understood as early as the interview process, reite
 ![GitLab collaboration](/images/all-remote/gitlab-collaboration.jpg)
 {style="max-width: 50%;"}
 
-[Collaboration](/handbook/values/#collaboration) should not be conflated with [consensus]({{< ref "values#collaboration-is-not-consensus" >}}). By establishing collaboration as a value, and defining it clearly, this allows GitLab to function more effectively as an all-remote company. When individuals and teams are [dispersed geographically]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}), it is imperative for collaboration to be active rather than passive.
+[Collaboration](/handbook/values/#collaboration) should not be conflated with [consensus](/handbook/values/#collaboration-is-not-consensus). By establishing collaboration as a value, and defining it clearly, this allows GitLab to function more effectively as an all-remote company. When individuals and teams are [dispersed geographically]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}), it is imperative for collaboration to be active rather than passive.
 
-In a colocated company, collaboration can occur spontaneously by being in a shared space and overhearing something that leads to a broader discussion. All-remote forces our team to not leave collaboration to chance. Rather, we embrace collaboration and rely on the [feedback]({{< ref "values#give-feedback-effectively" >}}) of others to make improvements.
+In a colocated company, collaboration can occur spontaneously by being in a shared space and overhearing something that leads to a broader discussion. All-remote forces our team to not leave collaboration to chance. Rather, we embrace collaboration and rely on the [feedback](/handbook/values/#give-feedback-effectively) of others to make improvements.
 
-Given that it is [impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}), all-remote offers a level playing field where any team member can approach any other team member to learn, seek input, or ask for advice.
+Given that it is [impossible to know everything](/handbook/values/#its-impossible-to-know-everything), all-remote offers a level playing field where any team member can approach any other team member to learn, seek input, or ask for advice.
 
 We also want [everyone to contribute](/teamops/equal-contributions/) — a notion with collaboration at its very core. All-remote ensures that decisions are made out in the open, and outcomes are [documented](/handbook/people-group/employment-branding#all-remote-work).
 
@@ -78,9 +78,9 @@ All-remote teams are more inclined to remain focused on what actually matters at
 
 [Efficiency](/handbook/values/#efficiency) is near and dear to an all-remote team. Part of what [attracts]({{< ref "./people#those-who-value-flexibility-and-autonomy" >}}) many team members to an all-remote role is the desire to [create a more efficient day]({{< ref "./people#creating-a-more-efficient-day" >}}), starting with the elimination of a commute and the possibility of relocating to a destination with a low cost-of-living.
 
-Because time truly is your own in an all-remote setting (core to being a "[manager of one]({{< ref "values#managers-of-one" >}})"), you're incentivized to be respectful of others' time. It's easier to not mind wasting time in a colocated environment, where you're forced to be in the same building for a set number of hours regardless of whether that is a wise use of your time.
+Because time truly is your own in an all-remote setting (core to being a "[manager of one](/handbook/values/#managers-of-one)"), you're incentivized to be respectful of others' time. It's easier to not mind wasting time in a colocated environment, where you're forced to be in the same building for a set number of hours regardless of whether that is a wise use of your time.
 
-Perhaps the most notable element of efficiency that contributes to a thriving all-remote team is documentation. All companies should strive to [write things down]({{< ref "values#write-things-down" >}}) — to document everything from [meeting notes]({{< ref "./meetings" >}}) to [quarterly objectives](/handbook/company/strategy) — but this is of particular importance for all-remote organizations. Documenting everything enables an ever stronger, more informed, more trusting, and more connected team, as there's no physical space to debrief in.
+Perhaps the most notable element of efficiency that contributes to a thriving all-remote team is documentation. All companies should strive to [write things down](/handbook/values/#write-things-down) — to document everything from [meeting notes]({{< ref "./meetings" >}}) to [quarterly objectives](/handbook/company/strategy) — but this is of particular importance for all-remote organizations. Documenting everything enables an ever stronger, more informed, more trusting, and more connected team, as there's no physical space to debrief in.
 
 Valuing efficiency enables an all-remote team to work well asynchronously. In colocated settings, it's easier to delay an iteration until a future time "when everyone will be in the same room." All-remote teams realize that it's better to document and ask for feedback now, enabling team members to comment and contribute when it's convenient for them.
 
@@ -106,11 +106,11 @@ Referencing [GitLab's time at Y Combinator]({{< ref "history" >}}), Sid shares t
 
 An embraced spirit of [iteration](/handbook/values/#iteration) helps maintain an all-remote culture. By encouraging small steps and empowering individuals to propose minimum viable change, all-remote teams are less burdened by the need for coordination.
 
-Particularly as organizations scale, the friction of coordinating people and teams can lead to [dysfunction]({{< ref "values#five-dysfunctions" >}}) and frustration. Coordinating large groups across an array of time zones is impractical, which forces an all-remote team to not lean on the coordination crutch.
+Particularly as organizations scale, the friction of coordinating people and teams can lead to [dysfunction](/handbook/values/#five-dysfunctions) and frustration. Coordinating large groups across an array of time zones is impractical, which forces an all-remote team to not lean on the coordination crutch.
 
 This empowers all-remote teams to make small changes and reduce cycle times. This leads to changes which are easier to provide feedback on (and roll back if needed).
 
-Valuing iteration creates a climate where there is a [low level of shame]({{< ref "values#low-level-of-shame" >}}). This is extraordinarily difficult to replicate in large colocated settings, where perception is often reality and decisions are swayed by physical appearances. In all-remote companies, this reinforces that [a person is not their work]({{< ref "values#people-are-not-their-work" >}}).
+Valuing iteration creates a climate where there is a [low level of shame](/handbook/values/#low-level-of-shame). This is extraordinarily difficult to replicate in large colocated settings, where perception is often reality and decisions are swayed by physical appearances. In all-remote companies, this reinforces that [a person is not their work](/handbook/values/#people-are-not-their-work).
 
 {{< youtube "EuGsen3FxXc?start=2209" >}}
 

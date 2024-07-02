@@ -1,15 +1,8 @@
 ---
-
 title: "[NAME] Campaign"
 description: "Everything you need to know about the [NAME] campaign."
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
-
-
-
-
-
-
 
 ## Campaign Overview
 

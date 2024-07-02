@@ -1,10 +1,7 @@
 ---
-
 title: "Governance and IT Program Management"
 description: "Describes the program methodology for GitLab IT programs to ensure strong results and execution in an efficient way, proper scoping consistent with our value of iteration, correct stakeholders consistent with our value of collaboration and proper documentation for compliance consistent with our transparency value."
 ---
-
-
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -189,7 +186,7 @@ The sign-off process for each documentation and/or SDLC stage may vary depending
 
 - If there is data migration, demonstrate a reconciliation that the migration was complete and accurate prior to go-live.  Ideal evidence would include system evidence (e.g. reports, screenshots of how reports were generated from source & target systems, row count match) and a compare of each row/field. Any variance should be resolved prior to go-live and tie-outs should align with sign-off.
 - For data that will be imported, what is the process for getting that into the system and what are the controls/checks in place to ensure the data that gets in completely and accurately.
-- This can be solved through several avenues but good documentation is key. Who has access during transformation? Are there before/after checks? What are the “key” fields? Is there  an acceptable level of data loss/inaccuracy?
+- This can be solved through several avenues but good documentation is key. Who has access during transformation? Are there before/after checks? What are the "key" fields? Is there  an acceptable level of data loss/inaccuracy?
 - Evidencing data management is the most important part of this Program Development process. How can we adequately demonstrate that data in the system is complete and accurate according to our business needs?
 - Show documentation of an enablement plan and that the changes were communicated effectively to the users of the changed system.
 

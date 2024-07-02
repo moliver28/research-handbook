@@ -19,6 +19,16 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 ## Prerequisites
 
+### Instructor-Lead Training Prerequisites
+
+1. You have already redeemed the invitation/voucher code.
+
+1. You have signed into https://ilt.gitlabtraining.cloud with the username provided.
+
+1. You have clicked the `My Group` button and opened a new browser tab with the URL `https://ilt.gitlabtraining.cloud/training-users/session-{id}/iu{######}`. You should see `My Test Group - iu{######}` as the title of the group.
+
+#### Self-Paced Training Prerequisites
+
 1. You have already redeemed the invitation/voucher code.
 
 1. You have signed into https://gitlab.com with your existing username.
@@ -39,7 +49,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 ### Instructor-Lead Training
 
-1. _In the lab environment tab_, ensure that you are in your **My Test Group** group.
+1. _In the lab environment tab_, ensure that you are in your **My Test Group** group. If you are not in the **My Test Group** group (as in, you are on the `ilt.gitlabtraining.cloud` splash page) go to `https://gitlab.com/gitlab-learn-labs/environments/session-{id}/iu{######}`, replacing the `{id}` with the invitation code you used, and the `iu{######}` with your username.
 
 1. Click the **New Subgroup** button in the top right corner.
 

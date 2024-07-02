@@ -1,5 +1,4 @@
 ---
-
 title: Market Insights
 ---
 
@@ -16,7 +15,7 @@ We are a business partner who:
 - Provides deeper market knowledge and understanding, clarity through fresh perspectives, and recommendations for effective business decision-making (innovation initiatives, pricing, messaging, benchmarking, etc.)
 - Interprets data in narrative form that adds value and/or incites specific action
 - Uses a wide range of data streams and a multi-disciplinary approach to identify near and long-term (1-3 years) growth and innovation strategies as well as a clear path to implementation
-- Constantly searches for the “Why/What next?” for the company
+- Constantly searches for the "Why/What next?" for the company
 
 *Questions We Seek to Answer:*
 
@@ -35,11 +34,11 @@ We are a business partner who:
 
 Our big picture:
 
-**ELEVATE:** We seek to grow our value proposition beyond benefits/features--or even value drivers + use cases--to enable our customers’ business outcomes
+**ELEVATE:** We seek to grow our value proposition beyond benefits/features--or even value drivers + use cases--to enable our customers' business outcomes
 
 **IDENTIFY & ARTICULATE:** We look to leverage research & insights to identify [blue ocean strategy](/handbook/company/strategy/) opportunities
 
-**OPERATE:** We will function as the company’s think tank, helping GitLab to become our customers’ recognized and essential catalyst for success
+**OPERATE:** We will function as the company's think tank, helping GitLab to become our customers' recognized and essential catalyst for success
 
 ## How Our Work Supports the Organization
 
@@ -71,7 +70,7 @@ Market Insights deliverables can be used to (and/or augment your efforts to):
 
 - Conduct research on current and future Enterprise IT trends through written reports, surveys, interviews and interactions with market analysts, industry conferences, self-study, and interactions with our customers to develop key insights for GitLab
 - Help GitLab develop a deep knowledge and understanding of enterprise buyers including their challenges and goals that help them drive success for their companies
-- Assess the DevOps ecosystem to distill the trends that influence GitLab’s addressable market
+- Assess the DevOps ecosystem to distill the trends that influence GitLab's addressable market
 - Contribute to a consumable deliverable (in-person discussion, presentation, written report)
 - Evaluate, analyze and present research results in a consumable and actionable format (whitepapers, web pages, case studies, conference presentations, sales enablement sessions, and executive presentations)
 - Help build and grow GitLab as a thought leader in the DevOps space by translating market insights into actionable recommendations for Product investment and GTM

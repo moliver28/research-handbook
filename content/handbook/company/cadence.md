@@ -1,5 +1,4 @@
 ---
-
 title: "Cadence"
 description: "Everything in a company happens in a certain cadence. The period of each cadence differs. Learn about the cadences we have at GitLab."
 ---

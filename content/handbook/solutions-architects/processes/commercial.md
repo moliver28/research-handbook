@@ -1,8 +1,6 @@
 ---
-
 title: Commercial SA Engagement Model
 ---
-
 
 ## Commercial Solutions Architecture Engagement Model
 
@@ -32,25 +30,25 @@ Solutions Architects operate within Circles (small teams of SAs).  Each Circle i
 
 ##### #1: No Circle Team Member Self-assigns an Opportunity
 
-_Self-assignment does not happen without first discussing the opportunity and the “4 Questions” in the Circle-slack channel_
+_Self-assignment does not happen without first discussing the opportunity and the "4 Questions" in the Circle-slack channel_
 
-- **This is the #1 immutable rule.**  All others build off of it.  We must Collaborate, prioritizing The Circle and The Process over “just this once”.
+- **This is the #1 immutable rule.**  All others build off of it.  We must Collaborate, prioritizing The Circle and The Process over "just this once".
   - We will have a Fast-track prioritization route for those demos that were scheduled with less than 24 hours.   We will still collaborate in Slack circle-region channels when this situation occurs.
 
 ##### #2: Triage within One Business Day
 
-_It doesn’t need to be within an hour.  You can eat lunch first_
+_It doesn't need to be within an hour.  You can eat lunch first_
 
 - Totally Acceptable Circle Behavior:  A new opportunity is created and sits for 3 hours because the Circle is busy with demos and life.
-- Totally Acceptable Circle Behavior: A new opportunity is created, and someone in the Circle-slack channel says “hey there is a new opp and I would like to discuss” and that Circle follow-up discussion doesn’t come for 2, or even 4 hours, because the rest of the Circle is busy with other things.  This is still okay.  The wait period is not a diss to anyone, the Circle will get to it when they can, in natural pauses of the day.
+- Totally Acceptable Circle Behavior: A new opportunity is created, and someone in the Circle-slack channel says "hey there is a new opp and I would like to discuss" and that Circle follow-up discussion doesn't come for 2, or even 4 hours, because the rest of the Circle is busy with other things.  This is still okay.  The wait period is not a diss to anyone, the Circle will get to it when they can, in natural pauses of the day.
 - One Full Business Day Defined:  If it comes in at 4pm, the Circle has 4pm the next day to Triage.
 
 ##### #3: Better Triage Happens with a Second Review
 
 _If possible, two team members review a Command Plan before assignment_
 
-- Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed, then perhaps in the Slack circle-region channel we might to eachother, after a request for a Circle review, “don’t have time for 2eyes, if you have the capacity and feel fully comfortable with the 4 questions being fulfilled, then assign it to yourself”.  The key is, to get here, as a Circle, we communicated on Triage.
-  - The Circle’s Reporting Managers are considered a very valued 2nd person to review, when directly requested.
+- Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed, then perhaps in the Slack circle-region channel we might to eachother, after a request for a Circle review, "don't have time for 2eyes, if you have the capacity and feel fully comfortable with the 4 questions being fulfilled, then assign it to yourself".  The key is, to get here, as a Circle, we communicated on Triage.
+  - The Circle's Reporting Managers are considered a very valued 2nd person to review, when directly requested.
 
 ##### The 4 Questions
 
@@ -68,7 +66,7 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead.   The
 - **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
   - Goal: AEs to hold off on scheduling the next customer meetings until the SA Circle has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
     - SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments.  GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
-    - Sometimes, a lot of runaway is not possible.  We will still have a ‘Fast Track’ process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Circle in the Slack circle-region-aeasm channel (because the SAs will be doing other work than always watching incoming opportunities.  See Point #2 in Triage Guidelines!)
+    - Sometimes, a lot of runaway is not possible.  We will still have a 'Fast Track' process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Circle in the Slack circle-region-aeasm channel (because the SAs will be doing other work than always watching incoming opportunities.  See Point #2 in Triage Guidelines!)
 - **#4: Does the SA have relatable experience on this type of account.**
   - 'Yes' could be the "preferred" answer depending on the account and timeline.
   - But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will hopefully do even better with their small accessible Circle to constantly collaborate with.
@@ -228,7 +226,7 @@ Solutions Architects are required to fill out in their judgment on all opportuni
 
 ##### Meeting Follow up/Research
 
-- Solutions Architects need time to provide follow up with information in as near real-time as possible. We aim to minimize scheduling “back-to-back” meetings as this can compromise our ability to provide our best possible response for the customers/prospects we're supporting.
+- Solutions Architects need time to provide follow up with information in as near real-time as possible. We aim to minimize scheduling "back-to-back" meetings as this can compromise our ability to provide our best possible response for the customers/prospects we're supporting.
 - [Mid-Market Case Studies](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93&label_name%5B%5D=Mid-Market) | [SMB Case Studies](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93&label_name%5B%5D=SMB)
 - [Whitepapers, Analyst Reports, etc...](https://docs.google.com/spreadsheets/d/1NK_0Lr0gA0kstkzHwtWx8m4n-UwOWWpK3Dbn4SjLu8I/edit#gid=0)
 

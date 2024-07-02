@@ -1,5 +1,4 @@
 ---
-
 title: Product Management Learning and Development
 description: "This page contains links to internal and external resources that Product Managers at GitLab can use to build their skills."
 canonical_path: "/handbook/product/product-manager-role/learning-and-development/"
@@ -210,7 +209,7 @@ This content is divided into five key competencies for Product Managers.
 
 - [GitLab Jobs to be Done (JTBD) Overview](/handbook/product/ux/jobs-to-be-done/)
 - [Clayton Christensen - Understanding the Job](https://www.youtube.com/watch?v=sfGtw2C95Ms) (5 min video)
-- [Know Your Customers’ “Jobs to Be Done”](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done)
+- [Know Your Customers' "Jobs to Be Done"](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done)
 
 #### Deeper dive
 
@@ -258,7 +257,7 @@ This content is divided into five key competencies for Product Managers.
 - [GitLab Growth Team Coffee & Learn Sessions](/handbook/marketing/growth/)
 - [Product Managers: It's Time to Move from Whole Product to Product-led Growth](https://expand.openviewpartners.com/product-managers-its-time-to-move-from-whole-product-to-product-based-go-to-market-304467093357#.1euz7drsb)
 - [10 Statistics Traps in A/B Testing: The Ultimate Guide for Optimizers](https://cxl.com/blog/testing-statistics-mistakes/)
-- [5 Common Threats to Your A/B Test’s Validity](https://instapage.com/blog/validating-ab-tests)
+- [5 Common Threats to Your A/B Test's Validity](https://instapage.com/blog/validating-ab-tests)
 - [Matching Price to Value: 3 Lessons in Monetization from Menlo Ventures](https://www.youtube.com/watch?v=hGUEDKaTFXw) (30 min video)
 
 #### Deeper dive
@@ -495,7 +494,7 @@ _Please contribute your favorite resources here_
 #### Quick reads and videos
 
 - [Paul Graham: Write Simply](http://paulgraham.com/simply.html)
-- [Mastering communication: a product manager’s superpower](https://miro.com/blog/communication-product-managers-product-school/)
+- [Mastering communication: a product manager's superpower](https://miro.com/blog/communication-product-managers-product-school/)
 - [Connor Murphy on how his team uses a combination of GitLab, Loom, Notion, and Figma to collaborate async between PM, Design, and Engineering](https://www.loom.com/share/17677053ff7d4eeba643eaf194c0b700) (5 min video)
 
 #### Deeper dive
@@ -710,7 +709,7 @@ There are two components to the Product L & D hub:
 
 In order to add content to  [Product Management Learning Hub](https://levelup.gitlab.com/pages/product-management-hub), the content must first be added to and exist on this page. Then, the content is added to Level Up.
 
-If there’s content you want to add to or remove from this library, simply raise an MR and add any of the [product learning evangelists](#product-learning-evangelists) listed below as `Reviewer`. Tell us in the MR whether you're recommending the resources for just the library or if you'd like to see it added to Level Up as well. Details explaining what you value about the content and how you think it's helpful should be added to the description of the MR. Please add `milestone` and labels `product operations` `product handbook` and `prodops:release` to the MR.
+If there's content you want to add to or remove from this library, simply raise an MR and add any of the [product learning evangelists](#product-learning-evangelists) listed below as `Reviewer`. Tell us in the MR whether you're recommending the resources for just the library or if you'd like to see it added to Level Up as well. Details explaining what you value about the content and how you think it's helpful should be added to the description of the MR. Please add `milestone` and labels `product operations` `product handbook` and `prodops:release` to the MR.
 
 ## Product learning evangelists
 

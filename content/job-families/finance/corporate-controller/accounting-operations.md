@@ -63,7 +63,7 @@ The VP, Accounting Operations is a grade 12.
 - Lead the efforts for international expansions for finance
 - Leading, motivating, developing, and retaining a high-quality team
 - Develop reporting KPIs, including operational and financial metrics
-- Serve as a strategic business advisor and prepare ad-hoc reports and special analyses to facilitate management’s ability to understand business issues and drivers
+- Serve as a strategic business advisor and prepare ad-hoc reports and special analyses to facilitate management's ability to understand business issues and drivers
 - Implement internal controls and maintain SOX compliance
 
 #### VP, Accounting Operations Requirements
