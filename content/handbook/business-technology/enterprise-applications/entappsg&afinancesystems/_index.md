@@ -58,7 +58,6 @@ For any requests that will span several weeks, have a cross functional impact, a
 
 As most issues require a change to our system to comply with SOX, it must be documented through a **CM: Configuration Change**  template linked here(link){:target="_https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#"}. For any new requests, please submit an issue through the template. These issues will be evaluated and assigned to the ~BT:Backlog label(link){:target="_https://gitlab.com/groups/gitlab-com/-/issues/?sort=created_date&state=opened&label_name%5B%5D=BT%3A%3ABacklog&first_page_size=100"}
 
-
 Planning and Milestones
 
 - Our team works on a 2 week milestone spanning Wednesday - Tuesday. Click here (link){:target="_https://gitlab.com/groups/gitlab-com/-/milestones?search_title=entapps&state=&sort="} to see a list of our open milestones.

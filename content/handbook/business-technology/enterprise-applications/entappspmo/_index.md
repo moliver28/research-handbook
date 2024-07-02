@@ -8,7 +8,8 @@ title: "Enterprise Applications - PMO"
 
 We are a global team, focused on building and managing world-class information technology systems and business processes. To learn more about our individual job functions, visit the Program Management, Business Technology family page.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Roadmap 
+## <i class="fas fa-users" id="biz-tech-icons"></i> Roadmap
+
 TBD
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team(Org Chart)
@@ -41,6 +42,9 @@ Location and Timezone: USA, EDT/EST
 LinkedIn Profile: [/nicolas-sandoval-331900b3](https://www.linkedin.com/in/nicolas-sandoval-331900b3/)
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
+
+TBD
+
 ## IT Portfolio Planning & Prioritization
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-planning.png)
@@ -221,7 +225,6 @@ There are several activities that take place to prepare for new OKRs / commits a
 - **Update OKR(s) progress**: The IT PMO works with IT Leadership to update the OKR(s) progress in gitlab.com.
 - **IT PMO & Leadership - Upcoming Quarter Priorities Review**: The IT PMO team reviews the business projects and priorities with IT Leadership to add initiatives to the upcoming commits tracker.
 - **Quarter Commits - Corporate Rank**: The IT Leadership works with the business leaders to rank the initiatives in order of priority for the company.
-
 - **Cross Functional Meeting - Quarter Commits Review**: IT PMO team hosts the `IT Portfolio: Quarter Planning` meetings to review the list of projects and priorities for the upcoming quarter with the Business stakeholders.
 - **IT PMO - Quarter Commits (Adjustments)**: The IT PMO team makes all the necessary adjustments to the upcoming quarter commits following the meeting with the Business stakeholders.
 - **IT Leadership - Quarter Commits (Adjustments)**: The IT Leadership team makes all the necessary adjustments to the upcoming quarter commits following the updates from the Corporate stakeholders.
@@ -354,7 +357,4 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 ### GitLab Groups and Projects
 
 The IT PMO team primarily uses the below groups and projects on GitLab:
-
 - [Program Management Office](https://gitlab.com/gitlab-com/business-technology/program-management-office) group: main group for the IT PMO team.
-
-
