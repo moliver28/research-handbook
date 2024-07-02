@@ -232,19 +232,19 @@ There are several activities that take place to prepare for new OKRs / commits a
 - **Finalize Upcoming Quarter OKR(s)**: Upcoming quarter commits are completed.
 - **IT All Hands Quarterly Meeting**: The IT Leadership hosts the Quarterly IT All Hands.
 
-#### FY25 Q1 Calendar
+### FY25 Q1 Calendar
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q1.png)
 
-#### FY25 Q2 Calendar
+### FY25 Q2 Calendar
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q2.png)
 
-#### FY25 Q3 Calendar
+### FY25 Q3 Calendar
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q3.png)
 
-#### FY25 Q4 Calendar
+### FY25 Q4 Calendar
 
 ![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q4.png)
 
@@ -357,4 +357,5 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 ### GitLab Groups and Projects
 
 The IT PMO team primarily uses the below groups and projects on GitLab:
+
 - [Program Management Office](https://gitlab.com/gitlab-com/business-technology/program-management-office) group: main group for the IT PMO team.
