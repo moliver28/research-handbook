@@ -42,7 +42,7 @@ A Gitaly dashboard could be either auto-generated or manually drafted. We use Js
 
 A standardized dashboard should have a top-level section containing environment filters, node filters, and useful annotations such as feature flag activities, deployments, etc. Some dashboards have an interlinked system that connects Grafana and Kibana with a single click.
 
-Such dashboards usually include two parts. The second half contains panels of custom metrics collected from Gitaly. The first half is more complicated. It contains GitLab-wide indicators telling if Gitaly is "healthy" and node-level resource metrics. The aggregation and calculation are sophisticated. In summary, those dashboards tell us if Gitaly performs well according to predefined [thresholds](https://gitlab.com/gitlab-com/runbooks/-/blob/master/metrics-catalog/services/gitaly.jsonnet), . We could contact [Scalability:Observability Team](../../../infrastructure/team/scalability/observability/) for any questions.
+Such dashboards usually include two parts. The second half contains panels of custom metrics collected from Gitaly. The first half is more complicated. It contains GitLab-wide indicators telling if Gitaly is "healthy" and node-level resource metrics. The aggregation and calculation are sophisticated. In summary, those dashboards tell us if Gitaly performs well according to predefined [thresholds](https://gitlab.com/gitlab-com/runbooks/-/blob/master/metrics-catalog/services/gitaly.jsonnet), . We could contact [Scalability:Observability Team](../../../team/scalability/observability/) for any questions.
 
 ![Gitaly Debug Indicators](gitaly-debug-indicators.png)
 
@@ -112,4 +112,8 @@ Kibana (Elastic) Dashboards
 
 ## Capacity management
 
-TBD
+Gitaly team is responsible for maintaining reasonable serving capacity for gitlab.com.
+
+We get alerts from Tamland if capacity runs low, see [this issue comment](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1666#note_1786916965).
+
+[Capacity planning](../../../team/scalability/observability/capacity_planning/) documentation explains how this works in general.
