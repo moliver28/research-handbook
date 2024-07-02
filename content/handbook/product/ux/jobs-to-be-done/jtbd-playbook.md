@@ -108,7 +108,6 @@ If possible, it is recommended to have both a moderator and a notetaker during e
 1. Once all Job Steps have been discussed, walk through the Job Map with the participant for feedback and verification. Make adjustments as needed.
 1. After the interview, rewrite each Job Step to ensure it is functional and follows [Job Statement format](/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-statements).
 
-
 ### Step 2. Complete the Job Map and Construct Outcome Statements
 
 #### Exercise 1: Complete the Job Map
