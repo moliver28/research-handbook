@@ -5,8 +5,13 @@ description: "Program for Solutions Architects (SA) to shadow a Solutions Archit
 
 ## Overview
 
+## Participating in the program
 
-## Rotation Schedule
+### Elegibility
+
+### How to apply
+
+### Rotation Schedule
 
 | Start Date| Shadow Name |
 |-----------|-------------|
@@ -20,3 +25,14 @@ description: "Program for Solutions Architects (SA) to shadow a Solutions Archit
 | FY27 Q2 | |
 | FY27 Q3 | |
 | FY27 Q4 | |
+
+## Preparing for the program
+
+## During the program
+
+## Managing the program
+
+## Other shadow programs
+
+* [CEO Shadow Program](https://handbook.gitlab.com/handbook/ceo/shadow/)
+* [CFO Shadow Program](https://handbook.gitlab.com/handbook/finance/growth-and-development/cfo-shadow-program/)
