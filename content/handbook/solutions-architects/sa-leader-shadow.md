@@ -34,5 +34,5 @@ description: "Program for Solutions Architects (SA) to shadow a Solutions Archit
 
 ## Other shadow programs
 
-* [CEO Shadow Program](https://handbook.gitlab.com/handbook/ceo/shadow/)
-* [CFO Shadow Program](https://handbook.gitlab.com/handbook/finance/growth-and-development/cfo-shadow-program/)
+* [CEO Shadow Program](/handbook/ceo/shadow/)
+* [CFO Shadow Program](/handbook/finance/growth-and-development/cfo-shadow-program/)
