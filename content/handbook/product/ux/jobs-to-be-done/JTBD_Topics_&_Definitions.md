@@ -90,7 +90,7 @@ Related Jobs are often within the same or adjacent Domain. For example, A relate
 
 ## Main Job Hierarchy
 
-![Job Map](JTBD_MainJob_Alt.png)
+![Job Map](JTBD_MainJob_Hierarchy.png)
 
 ### Job Statements
 
@@ -163,7 +163,7 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 2. **Reliability/Predictability:** Progress entails increased reliability and decreased likelihood of deviations or errors.
 3. **Efficiency:** Progress is achieved by minimizing waste and optimizing output.
 
->💡 The ideal scenario for Job Performers involves instant task completion, 100% predictability, and 0% efficiency loss. Such perfection facilitates progress and fulfills needs.
+💡 The ideal scenario for Job Performers involves **instant task completion**, **100% predictability**, and **0% efficiency loss**. Such perfection facilitates progress and fulfills needs.
 
 | Dimension | Definition | Formula |
 | --- | --- | --- |
@@ -171,11 +171,13 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 | Reliability/Predictability | Measured using likelihood. Progress is gauged by minimizing the likelihood of undesired outcomes in task completion. | Minimize the likelihood that [some unwanted thing happens] [in some context] when getting a job done. |
 | Efficiency | Measured using likelihood. Progress is gauged by minimizing the likelihood of actions leading to waste or inefficiency in task completion. | Minimize the likelihood of [doing something that causes waste/inefficiency] [in some context] when getting a job done. |
 
->💡 Every Job Step and Consumption Job will have three outcome statements, one for each dimension.
+💡 Every Job Step and Consumption Job will have three outcome statements, one for each dimension.
+
+![Outcome Mapping](Concepts_Outcome_mapping.png)
 
 ### Measuring Outcome statements
 
-When benchmarking, Outcome statements are measured by importance and satisfaction. Combining these two elements allows teams to understand if they are meeting their user's needs and how they should prioritize their efforts. At this point, Outcomes can also be referenced as **"needs"**, and we can group them into three categories based on Job Performer responses.
+When [benchmarking](content/handbook/product/ux/jobs-to-be-done/JTBD-Evaluation-Methods#Benchmarking_the_domain), Outcome statements are measured by importance and satisfaction. Combining these two elements allows teams to understand if they are meeting their user's needs and how they should prioritize their efforts. At this point, Outcomes can also be referenced as **"needs"**, and we can group them into three categories based on Job Performer responses.
 
 #### Overserved Needs
 
