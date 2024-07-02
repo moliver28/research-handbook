@@ -43,23 +43,12 @@ Follow the instructions for each step provided in the FigJam template.
 
 In this exercise, the Product Design DRI will take the information gathered in Exercise 1 and format it into Job Statements.
 
-1. **Copy and Organize**:
-   - Copy the groups and their stickies from Exercise 1 to this new work area to get started.
+This exercise involves four steps:
 
-1. **Identify the Most Important Job Performer Group**: 
-   - Review the Job Performer groups defined in Exercise 1.
-   - Determine which group has a Main Job.
-   - If multiple groups have Main Jobs, assess their importance based on the Job Performer name and the types of tasks they need to accomplish.
-   - If you can't decide, start with the group at the top left of your work area and proceed top to bottom, left to right.
-
-1. **Convert Tasks to Job Statements**:
-   - Use the standard Job Statement format: [verb] + [object of the verb] + [optional contextual clarifier].
-   - Merge any similar stickies that represent the same job-to-be-done.
-
-1. **Consider Key Questions**:
-   - Who is this Job Performer?
-   - What are they trying to accomplish in our product’s space?
-   - What Jobs are they trying to get done?
+1. Copy and organize stickies from exercise 1
+1. Identify the most important Job Performer group
+1. Convert tasks into Job Statements
+1. Consider key questions about who, and what.
 
 By following these instructions, you'll systematically convert the raw data from Exercise 1 into clear, actionable Job Statements, which will be used as guides for the next steps in this JTBD process.
 
