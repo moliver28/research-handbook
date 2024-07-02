@@ -519,7 +519,7 @@ Application limits should be enabled by default. If we are considering enabling 
 
 As we continue to scale our product, we should consider the amount of data being stored for new features. Data storage is not an infinite resource, so we should think carefully about what data needs persistent storage to provide the desired user experience.
 
-Data storage comes in two main forms for GitLab -- database storage, and Git repository storage. While we have dedicated teams devoted to ensuring we can scale these storages appropriately, it is in our best interest to only store what is required for a feature to perform as intended. Additionally, there may be situations where storage should be subject to data retention policies.
+Data storage comes in three main forms for GitLab -- object storage, database storage, and Git repository storage. While we have dedicated teams devoted to ensuring we can scale these storages appropriately, it is in our best interest to only store what is required for a feature to perform as intended. Additionally, there may be situations where storage should be subject to data retention policies.
 
 ##### Considerations around data storage
 
