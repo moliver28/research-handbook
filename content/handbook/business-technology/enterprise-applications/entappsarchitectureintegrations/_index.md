@@ -10,6 +10,11 @@ We are the team that designs, builds and maintains the complex ecosystem of inte
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
+- **Dennis Griffin - Senior Integration Engineer** GitLab handle: [dgriffin4] (https://gitlab.com/dgriffin4) Slack handle: Dennis Griffin
+- **Karuna Singh - Integration Engineer** GitLab handle: [Karuna16] (https://gitlab.com/Karuna16) Slack handle: @Karuna
+- **Jeff Dunnett- Senior IT Enterprise Applications Engineer** GitLab handle: [jdunnett] (https://gitlab.com/jdunnett) Slack handle: @Jeff Dunnett 
+- **Santhosh Baranidharan - Staff Business Systems Analyst** GitLab handle: [sbaranidharan] (https://gitlab.com/sbaranidharan) Slack handle: @Santhosh
+
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
 
 System Integrations and APIs

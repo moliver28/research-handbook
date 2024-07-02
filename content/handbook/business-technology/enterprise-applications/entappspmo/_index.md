@@ -13,33 +13,28 @@ TBD
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team(Org Chart)
 
-**Al Champagne - Sr. Director, Enterprise Apps**
-
-**Barbara Roncato - Manager, IT Program Management**
+- **Al Champagne - Senior Director, Enterprise Applications** GitLab handle: [achampagne1] (https://gitlab.com/achampagne1) Slack handle: Al Champagne
+- **Barbara Roncato - Manager, IT Program Management**
 GitLab handle: [@broncato](https://gitlab.com/broncato)
 Slack handle: `@barbara`
 Location and Timezone: Portugal, WEST/GMT+1
 LinkedIn Profile: [/roncatobarbara](https://www.linkedin.com/in/roncatobarbara/)
-
-**Caroline Swanson - Senior IT Program Manager**
+- **Caroline Swanson - Senior IT Program Manager**
 GitLab handle: [@caroline.swanson](https://gitlab.com/caroline.swanson)
 Slack handle: `@Caroline Swanson`
 Location and Timezone: USA, MDT/MST
 LinkedIn Profile: [/caroline-smoke-swanson-pmp-a869b685](https://www.linkedin.com/in/caroline-smoke-swanson-pmp-a869b685/)
-
-**Kayoko Cooper - Business Systems Analyst**
+- **Kayoko Cooper - Business Systems Analyst**
 GitLab handle: [@kayokocooper](https://gitlab.com/kayokocooper)
 Slack handle: `@Kayoko Cooper` <br>
 Location and Timezone: USA, EDT/EST
 LinkedIn Profile: [/kayoko-cooper-a1063522](https://www.linkedin.com/in/kayoko-cooper-a1063522/)
-
-**Kristina Koceban - Senior Business Systems Analyst**
+- **Kristina Koceban - Senior Business Systems Analyst**
 GitLab handle: [@kkoceban](https://gitlab.com/kkoceban)
 Slack handle: `@Kristina`
 Location and Timezone: Ireland, WEST/GMT+1
 LinkedIn Profile: [/kristinakoceban](https://www.linkedin.com/in/kristinakoceban/)
-
-**Nico Sandoval - Business Systems Analyst**
+- **Nico Sandoval - Business Systems Analyst**
 GitLab handle: [@nicosando](https://gitlab.com/nicosando)
 Slack handle: `@Nico Sandoval` <br>
 Location and Timezone: USA, EDT/EST

@@ -23,14 +23,14 @@ Our team ensures the availability of these applications through monitoring and a
 
 TBD
 
-## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Team
+## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-- Al Champagne - Sr. Director, Enterprise Apps
-- Monali Bhide - Manager, IT Enterprise Applications Engineering
-- Wendy Lam - Staff Finance Systems Administrator
-- Renz Santos - IT Enterprise Applications Administrator
-- Arif Willis-Browne - IT Enterprise Engineer
-- Chavit Casabar - IT Enterprise Applications Administrator
+- **Al Champagne - Senior Director, Enterprise Applications** GitLab handle: [achampagne1] (https://gitlab.com/achampagne1) Slack handle: Al Champagne
+- **Monali Bhide - Manager, IT Enterprise Applications Engineering** GitLab handle: [monalibhide] (https://gitlab.com/monalibhide) Slack handle: @Monali Bhide
+- **Chavit Casabar- IT Enterprise Applications Administrator** GitLab handle: [ccasabar] (https://gitlab.com/ccasabar) Slack handle: @Chavit Casabar 
+- **Renz Santos - IT Enterprise Applications Administrator** GitLab handle: [renzsantos] (https://gitlab.com/renzsantos) Slack handle: @Renz Santos
+- **Arif Willis-Browne - Senior IT Enterprise Applications Engineer** GitLab handle: [awb88] (https://gitlab.com/awb88) Slack handle: @Arif Willis-Browne 
+- **Wendy Lam - Staff Finance Systems Administrator** GitLab handle: [wlam] (https://gitlab.com/wlam) Slack handle: @wlam
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
 
